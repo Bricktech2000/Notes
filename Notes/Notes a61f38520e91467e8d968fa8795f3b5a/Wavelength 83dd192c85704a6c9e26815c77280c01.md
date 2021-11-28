@@ -1,0 +1,3 @@
+# Wavelength
+
+symbol: $\lambda$
