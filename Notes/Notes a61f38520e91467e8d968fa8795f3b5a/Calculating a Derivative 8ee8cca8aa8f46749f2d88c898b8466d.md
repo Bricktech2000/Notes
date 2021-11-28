@@ -2,6 +2,10 @@
 
 based on the [Derivative Rules](Derivative%20Rules%200d7442b53d47460f98161b1c7fc77f81.md)
 
+## Differentiation
+
+apply [Derivative Rules](Derivative%20Rules%200d7442b53d47460f98161b1c7fc77f81.md) recursively
+
 ## Implicit Differentiation
 
 > Derivation of an implicit equation (where the dependent variable is not isolated). Works with both functions and relations that aren't functions.

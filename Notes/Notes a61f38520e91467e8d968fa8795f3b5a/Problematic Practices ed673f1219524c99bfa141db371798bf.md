@@ -9,15 +9,19 @@ notice the difference between rhetorical questions and open-ended (discussion) q
 
 rhetorical questions can be problematic in [Technical Writing](Technical%20Writing%206c4e93f1d55a4771a4a90adf26ce1594.md), but are not in oral communication. they are useful to attract attention, but should not be used to prove a point.
 
+### counterexample
+
 > Should we continue to fly a plane that crashed twice?
 > 
 
 ## Exclamation Marks
 
+in [Technical Writing](Technical%20Writing%206c4e93f1d55a4771a4a90adf26ce1594.md), exclamation marks shouldn't be used for emphasis.
+
+### counterexample
+
 > Canada must prepare for a possible new wave of COVID-19 cases**!**
 > 
-
-in [Technical Writing](Technical%20Writing%206c4e93f1d55a4771a4a90adf26ce1594.md), exclamation marks shouldn't be used for emphasis.
 
 ## Use of the First or Second Person
 

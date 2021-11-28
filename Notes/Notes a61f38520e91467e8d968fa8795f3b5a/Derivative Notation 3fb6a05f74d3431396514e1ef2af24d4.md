@@ -2,7 +2,7 @@
 
 $\frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$
 
-## normal notation
+## Normal Notation
 
 first derivative: $f'(x)$
 
@@ -12,7 +12,7 @@ third derivative: $f'''(x) = f^{(3)}(x)$
 
 nth derivative: $f^{(n)}(x)$
 
-### Leibniz's notation
+### Leibniz's Notation
 
 first derivative: $\frac{d}{dx}f(x) = \frac{df}{dx}$
 

@@ -2,7 +2,7 @@
 
 see [Common Knowledge](Common%20Knowledge%20a78b6ca3cc174e11934bd730fbd406e9.md)
 
-## Citing Authors
+## citing authors
 
 > *Citing* is a paraphrase of words or thought by some person. Quotation marks are not present and the source has to be cited.
 > 
@@ -10,7 +10,7 @@ see [Common Knowledge](Common%20Knowledge%20a78b6ca3cc174e11934bd730fbd406e9.md)
 > Paraphrase (Author 52).
 > 
 
-## Quoting Authors
+## quoting authors
 
 *Quoting* and *Citing* are two ways of using sources. see [Plagiarism](Plagiarism%20bc8ea8466a7a49759d0d1f183b81f123.md)
 
@@ -30,7 +30,7 @@ see [Common Knowledge](Common%20Knowledge%20a78b6ca3cc174e11934bd730fbd406e9.md)
 - modified words inside a quote must be enclosed by square brackets `[ ]`
 - integrate quotes into sentences, don't have a quote be a sentence itself
 
-## Referencing Sources
+## referencing sources
 
 ### signal verbs
 

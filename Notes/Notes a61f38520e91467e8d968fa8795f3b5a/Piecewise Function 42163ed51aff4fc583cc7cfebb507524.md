@@ -1,8 +1,4 @@
 # Piecewise Function
 
-> a piecewise function is a function... that has two parts I guess
-> 
-
-## example
-
-...
+> In mathematics, a piecewise-defined function is a function defined by multiple sub-functions, where each sub-function applies to a different interval in the domain. — Wikipedia
+>

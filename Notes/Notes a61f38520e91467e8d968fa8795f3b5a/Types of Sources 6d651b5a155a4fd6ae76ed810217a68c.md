@@ -1,5 +1,7 @@
 # Types of Sources
 
+see [Finding Sources](Finding%20Sources%208ecdd58f45424ecbbfb9c8d18147c5f4.md)
+
 ## Encyclopedia and Newspaper Articles
 
 - useful as a starting point

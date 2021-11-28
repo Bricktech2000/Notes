@@ -2,7 +2,9 @@
 
 used to link words together. see [Dash](Dash%200c3252234ba64343995ca9e29f56e188.md).
 
-- note the difference between compound adjectives and complements:
+## examples
+
+*note the difference between compound adjectives and complements*
 
 > three-year-old boy VS the boy was three years old
 > 

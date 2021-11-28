@@ -1,5 +1,7 @@
 # Technical Writing
 
+## best practices
+
 - make sure the writing is crystal clear, and then try and fix stylistic issues such as repetition
 - avoid [Problematic Practices](Problematic%20Practices%20ed673f1219524c99bfa141db371798bf.md) and use correct [Punctuation](Punctuation%20f7ee999b0ff047d394b703252a309288.md)
 - avoid using [Vague, Ambiguous, Generic](Vague,%20Ambiguous,%20Generic%205a350b9dc1e04bd7b1f0ec1406b67a38.md) words

@@ -1,10 +1,10 @@
 # Calculating a Limit
 
-based on [Limit Rules](Limit%20Rules%20c295bd3b2c56490482b7786a01f0cc78.md)
+based on the [Limit Rules](Limit%20Rules%20c295bd3b2c56490482b7786a01f0cc78.md)
 
 ## tricks
 
-- $\frac{\infty}{\infty}$ indeterminate form
+- $\frac{\infty}{\infty}$ indeterminate form (see [Rational Function](Rational%20Function%207e9aa1c92c1b4d76a8bca5706be9a56b.md))
     - formal method: factor out the highest power in both the numerator and the denominator
     - informal method: look at the highest degree of the numerator and of the denominator
 - addition or subtraction of fractions, try to use a common denominator

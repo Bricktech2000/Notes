@@ -1,6 +1,8 @@
 # Writing a Report
 
-## to know
+## best practices
+
+*for [ENG1112](ENG1112%202a1e789232354ebfa8015efb7ea6e2a1.md)*
 
 - the goal of a report is to communicate our analysis of information, not to "dump" information
 - make sure to find [Reliable Source](Reliable%20Source%20d684962a79654cc5992f95c108557659.md)s
@@ -19,7 +21,8 @@
     > copy-paste is a very good way to fill space without doing much work — Gefen
     > 
 
-## Writing Process
+## writing process
 
 - create an outline for the report
 - collect evidence for each item in the outline
+- TODO
