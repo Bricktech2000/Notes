@@ -1,15 +1,10 @@
-# Orbital
-
-> In atomic theory and quantum mechanics, an atomic orbital is a mathematical function describing the location and wave-like behaviour of an electron in an atom. This function can be used to calculate the probability of finding any electron of an atom in any specific region around the atom's nucleus. — Wikipedia
-> 
-
-— [https://www.youtube.com/watch?v=4sLXUr2HWIs&ab_channel=TheOrganicChemistryTutor](https://www.youtube.com/watch?v=4sLXUr2HWIs&ab_channel=TheOrganicChemistryTutor)
-
-## Quantum Numbers
+# Quantum Numbers
 
 *used to describe the address of an electron within an atom*
 
-### Principal Quantum number $n$
+— [https://www.youtube.com/watch?v=4sLXUr2HWIs&ab_channel=TheOrganicChemistryTutor](https://www.youtube.com/watch?v=4sLXUr2HWIs&ab_channel=TheOrganicChemistryTutor)
+
+## Principal Quantum number $n$
 
 $n \in [1 \dots]$
 
@@ -18,21 +13,21 @@ $n \in [1 \dots]$
 - can be thought of as the circles in the Bohr model
 - as $n$ increases, the distance from the nucleus increases.
 
-### Angular Momentum Quantum Number $l$
+## Angular Momentum Quantum Number $l$
 
 $l \in [0 \dots n-1] = [s, p, d, f]$
 
 - also know as the *sublevel*, as each energy level consist of multiple types of orbitals
 - describes the shape of the orbitals, $l \in [0, 1, 2, 3] = [s, p, d, f]$
 
-### Magnetic Quantum Number $m_l$
+## Magnetic Quantum Number $m_l$
 
 $m_l \in [-l \dots l]$
 
 - describes the orientation of the orbital
 - each sublevel has multiple orbitals. $s$ has $1$, $p$ has $3$, $d$ has $5$, $f$ has $7$
 
-### Electron Spin Quantum Number $m_s$
+## Electron Spin Quantum Number $m_s$
 
 $m_s \in [+\frac 1 2, -\frac 1 2] = [\uparrow, \downarrow]$
 
@@ -40,18 +35,20 @@ $m_s \in [+\frac 1 2, -\frac 1 2] = [\uparrow, \downarrow]$
 - each orbital can hold one electron with *up spin* and one electron with *down spin*
 - (**not verified**) orbitals of a sublevel must be filled with *spin up* electrons **first, and then with *spin down* electrons
 
-### properties
+## properties
 
 $n, l, m_l, m_s \in \N$
 
 > according to Pauli's exclusion principle, every electron within an atom has a unique set of four quantum numbers. you can think of those quantum numbers as the address of each electron of an atom. — The Organic Chemistry Tutor
 > 
 
-### notation
+$s$ and $p$ orbitals both always have the highest value of $n$
+
+## notation
 
 $nl^m$
 
-**examples**
+### examples
 
 $2p^5$, where
 
