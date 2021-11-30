@@ -23,6 +23,6 @@
 
 ## writing process
 
-- create an outline for the report
-- collect evidence for each item in the outline
-- TODO
+- read about the general topic of the report using *search engines*, see [Finding Sources](Finding%20Sources%208ecdd58f45424ecbbfb9c8d18147c5f4.md)
+- create an outline for the report using note-taking software
+- write the report while [Finding Sources](Finding%20Sources%208ecdd58f45424ecbbfb9c8d18147c5f4.md) for evidence for each item in the outline, and make sure they are [Reliable Source](Reliable%20Source%20d684962a79654cc5992f95c108557659.md)s
