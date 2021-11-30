@@ -26,7 +26,7 @@ Even though the teacher is giving you a story in a lecture, look for concepts in
 
 Writing atomically also allows for easy reorganization of your notes during the lecture itself. Paper notes are almost always taken sequentially, as it is not possible to reorganize information efficiently as it is flying by during lectures.
 
-Taking notes conceptually allows you to build on top of your older notes amd make them grow and evolve instead of letting them slowly decay over time.
+Taking notes conceptually allows you to build on top of your older notes and make them grow and evolve instead of letting them slowly decay over time.
 
 ## Note Format
 
