@@ -18,4 +18,11 @@ used to link words together. see [Dash](Dash%200c3252234ba64343995ca9e29f56e188.
 - adverbs ending in *ly* are not hyphenated
 
 > Poorly developed writing skills
+> 
+
+## Fractions
+
+fractions should be hyphenated
+
+> Three-quarters of students $\dots$
 >

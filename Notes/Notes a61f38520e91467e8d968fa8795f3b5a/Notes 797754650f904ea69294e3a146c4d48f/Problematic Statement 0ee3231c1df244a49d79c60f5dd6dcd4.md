@@ -1,4 +1,4 @@
-# Problematic Statements
+# Problematic Statement
 
 can cause ethical problems, as writing can be used as an instrument of manipulation (intentionally or unintentionally)
 
