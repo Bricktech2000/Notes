@@ -25,3 +25,11 @@ larger on the top, right of the periodic table
 ## Electronegativity
 
 see [Electronegativity](Electronegativity%20153347b799c64c06a1f86bb22efbe236.md)
+
+## Atomic Number
+
+the number of **protons** in the nucleus of an atom
+
+## Atomic Mass
+
+includes protons and neutrons, mass of electrons is negligible

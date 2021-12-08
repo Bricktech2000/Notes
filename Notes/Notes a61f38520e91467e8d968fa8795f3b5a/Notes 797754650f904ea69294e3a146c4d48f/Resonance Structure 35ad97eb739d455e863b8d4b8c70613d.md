@@ -1,6 +1,6 @@
 # Resonance Structure
 
-see [Bond](Bond%203e540ea0ab234eca9486d144a72f898e.md)
+see [Bond](Bond%203e540ea0ab234eca9486d144a72f898e.md), [Lewis Structure](Lewis%20Structure%202fec962a74f54c94a1ed518bf85b08ce.md)
 
 > Equivalent Lewis dot structures, such as those of ozone, are called resonance structures. The position of the atoms is the same in the various resonance structures of a compound, but the position of the electrons is different. Double-headed arrows link the different resonance structures of a compound. The double-headed arrow indicates that the actual electronic structure is an average of those shown, not that the molecule oscillates between the two structures. — Chemistry LibreTexts
 > 

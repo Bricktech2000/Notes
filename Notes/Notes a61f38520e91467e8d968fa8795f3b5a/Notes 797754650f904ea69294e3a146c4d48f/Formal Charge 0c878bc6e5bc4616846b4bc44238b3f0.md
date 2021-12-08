@@ -18,7 +18,7 @@ $\text{bonds}$ is the number of bonds on the atom (a double bond would have a va
 
 the total formal charge must equal the charge of the molecule or ion. therefore, for any neutral molecule,
 
-$FC_{total} = \Sigma FC_{atom} = 0$
+$FC_{total} = \sum FC_{atom} = 0$
 
 ## Preferred Formal Charge
 

@@ -1,8 +1,10 @@
 # Improper Use of Words
 
-## Number and Amount
+## Number and Amount, Fewer and Less
 
 *number* is used when a quantity can be counted, whereas *amount* is used when a quantity is measured
+
+*fewer* is used when a quantity can be counted, whereas *less* is used when a quantity is measured
 
 ## Imply and Infer
 
@@ -52,6 +54,23 @@ $\dots$ from $\dots$ to $\dots$
 
 $\dots$ between $\dots$ and $\dots$
 
+## If and Whether
+
+> *If* and *whether* are often interchangeable, but have distinct uses. For clarity, it is best to use *whether* in reference to a choice or to alternatives and *if* when establishing a condition.
+> 
+
+### examples
+
+> we're going whether it rains or not
+> 
+
+> we will go if it doesn't rain
+> 
+
+## Simple and Simplistic
+
+*Simple* generally has positive connotations whereas *simplistic* generally has negative connotations.
+
 ## Continually and Continuously
 
 *continually* means *periodically on an ongoing basis*
@@ -69,6 +88,9 @@ $\dots$ between $\dots$ and $\dots$
 - Later and Latter
 - Discreet and Discrete
 - Appeared and Seemed
-- It's and Its
 - Principle and Principal
 - Classic and Classical
+- Precede and Proceed
+- Farther and Further
+- Complement and Compliment
+- Among and Between

@@ -38,7 +38,7 @@ $120\degree$ between atoms in the base of the pyramid
 
 $90\degree$ between atoms in the base and on top of the pyramid
 
-**shape**: (many possible) atoms in the base of the pyramids (equatorial atoms) are replaced before the ones on top of the pyramids (axial atoms)
+**shape**: trigonal bipyramidal, seesaw, T-shape, line. atoms in the base of the pyramids (equatorial atoms) are replaced before the ones on top of the pyramids (axial atoms)
 
 ## Octahedral
 
