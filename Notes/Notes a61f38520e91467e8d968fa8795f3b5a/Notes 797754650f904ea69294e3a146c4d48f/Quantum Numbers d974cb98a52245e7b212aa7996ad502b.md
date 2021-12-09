@@ -13,7 +13,7 @@ $n \in [1 \dots]$
 - can be thought of as the circles in the Bohr model
 - as $n$ increases, the distance from the nucleus increases.
 
-## Angular Momentum Quantum Number $l$
+## Angular Momentum (Azimuthal) Quantum Number $l$
 
 $l \in [0 \dots n-1] = [s, p, d, f]$
 

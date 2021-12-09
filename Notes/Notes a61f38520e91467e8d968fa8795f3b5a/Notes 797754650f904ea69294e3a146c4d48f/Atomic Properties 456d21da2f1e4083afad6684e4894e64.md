@@ -32,4 +32,4 @@ the number of **protons** in the nucleus of an atom
 
 ## Atomic Mass
 
-includes protons and neutrons, mass of electrons is negligible
+includes protons and neutrons, the mass of electrons is negligible

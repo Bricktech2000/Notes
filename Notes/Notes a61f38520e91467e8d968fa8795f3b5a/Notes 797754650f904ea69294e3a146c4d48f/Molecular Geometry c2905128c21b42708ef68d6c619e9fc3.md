@@ -46,4 +46,4 @@ $90\degree$ between atoms in the base and on top of the pyramid
 
 $90\degree$ between each atom
 
-**shape**: (many possible)
+**shape**: square pyramidal, square planar (others possible)
