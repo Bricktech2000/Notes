@@ -30,6 +30,8 @@ Taking notes conceptually allows you to build on top of your older notes and mak
 
 ## Note Format
 
+The conventions I use to take notes are outlined below.
+
 - **Capitalized** headers are for concepts
 - **Lowercase** headers are for general titles
 - **Quotes** are used for factual information and definitions
