@@ -40,3 +40,25 @@ The conventions I use to take notes are outlined below.
 - **see ...** steatements are for prerequisites
 - Notion **backlinks** are for applications of a concept
 - **&mdash; ...** statements are used for citing sources
+- **LaTeX** syntax for all equations
+- variables for equations are defined in separate lines
+- no first-level headings are used as they break in Markdown exports
+- blank lines are avoided as much as possible
+- page names are all _-ing_ verbal groups or singular nominal groups
+
+## Notion Shortcuts
+
+The shortcuts I use for efficiency on Notion are outlined below. More shortcuts are available [here](https://www.notion.so/help/keyboard-shortcuts).
+
+- `##` and `###` for headings
+- `|` for quotes
+- `_` and `**` for italics and bold
+- `--` for `mdash`es
+- `1.` and `*` for ordered and unordered lists
+- `` ` `` and ` ```language` for code blocks
+- `/pa` to create a new Notion page
+- `/la` for LaTeX equations
+- `Ctrl + P` for quick page access
+- `@` for linking to an existing page
+- `ESC` to select the current block
+- `Ctrl + D` to duplicate blocks
