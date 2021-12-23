@@ -7,7 +7,7 @@ see [Polyatomic Cation](Polyatomic%20Cation%20dc6bfa2a484245a6bcbf512f7c3d123c.m
 
 ## common polyatomic anions
 
-*for [CHM1301](../CHM1301%20fbd6212a61d0406ca50755b78e533e89.md)*
+*for [CHM1301 Principles of Chemistry](../CHM1301%20Principles%20of%20Chemistry%20fbd6212a61d0406ca50755b78e533e89.md)*
 
 > learn the *ate*s. changes to *ite* when it has one less non-metal
 > 

@@ -1,4 +1,4 @@
-# Dopamine-less Lifestyle
+# Less Stimulated Lifestyle
 
 ## problematic activities
 

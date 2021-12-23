@@ -1,4 +1,4 @@
-# MAT1339
+# MAT1339 Introduction to Calculus and Vectors
 
 # Homework
 
@@ -21,7 +21,8 @@ Main textbook (required): “Introduction to Computing Using Python: An Applicat
 - [Calculating a Derivative](Notes%20797754650f904ea69294e3a146c4d48f/Calculating%20a%20Derivative%208ee8cca8aa8f46749f2d88c898b8466d.md)
 - [Even Function](Notes%20797754650f904ea69294e3a146c4d48f/Even%20Function%2069a253b5794d44f89a767ae7c4840006.md) and [Odd Function](Notes%20797754650f904ea69294e3a146c4d48f/Odd%20Function%20f725ec92250f430b9982629b75f7860a.md)
 - critical points - [Inflection Point](Notes%20797754650f904ea69294e3a146c4d48f/Inflection%20Point%20018d0f66b0664d09a83dc7f0aa009242.md) [Extremum](Notes%20797754650f904ea69294e3a146c4d48f/Extremum%20b28f7c5907fb47adb037ca90b838c2db.md), [Concavity](Notes%20797754650f904ea69294e3a146c4d48f/Concavity%201fc95494a13a4e30b28e4b498d3cfd4c.md)
-- [Vector](Notes%20797754650f904ea69294e3a146c4d48f/Vector%2003bf7859c4904ae6ae908ec0a06fe6c0.md)s
+- [Vector](Notes%20797754650f904ea69294e3a146c4d48f/Vector%2003bf7859c4904ae6ae908ec0a06fe6c0.md)
+- [Lines and Planes](Notes%20797754650f904ea69294e3a146c4d48f/Lines%20and%20Planes%20b5643257e944473ba5bf322e23ad7c5a.md)
 
 ## other
 

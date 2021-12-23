@@ -1,4 +1,4 @@
-# ENG1112
+# ENG1112 Technical Report Writing
 
 ## textbook
 

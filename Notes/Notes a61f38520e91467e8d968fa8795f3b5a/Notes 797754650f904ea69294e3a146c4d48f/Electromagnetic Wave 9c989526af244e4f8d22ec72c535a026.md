@@ -6,7 +6,7 @@ a particle of light is called a [Photon](Photon%207cd98898c50a494d8c165909044741
 
 *generally, one [Photon](Photon%207cd98898c50a494d8c16590904474132.md) ejects one [Electron](Electron%2026fb6077883e4d8bbecea151526b2652.md)*
 
-*for [CHM1301](../CHM1301%20fbd6212a61d0406ca50755b78e533e89.md), assume $1mol_{e^-}$ = $1mol_{substance}$*
+*for [CHM1301 Principles of Chemistry](../CHM1301%20Principles%20of%20Chemistry%20fbd6212a61d0406ca50755b78e533e89.md), assume $1mol_{e^-}$ = $1mol_{substance}$*
 
 ## Formulas
 

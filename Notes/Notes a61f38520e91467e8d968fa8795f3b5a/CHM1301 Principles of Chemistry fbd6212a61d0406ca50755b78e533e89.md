@@ -1,4 +1,4 @@
-# CHM1301
+# CHM1301 Principles of Chemistry
 
 ## general
 
