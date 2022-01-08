@@ -2,6 +2,8 @@
 
 ## general
 
+prof name: Rashmi Venkateswaran
+
 - the prof is there to fill in gaps and help clarify stuff, not to teach what we already know
 - prof there asynchronously (email is the best way to reach her, vrashmi@uottawa.ca)
 - lab is asynchronous (reserve 3-5 hours in schedule recommended)

@@ -1,9 +1,14 @@
 # MAT1339 Introduction to Calculus and Vectors
 
-# Homework
+## general
 
-- homework is really important for this class — discord
-- TA email for homework-related questions: [atalekar@uottawa.ca](mailto:atalekar@uottawa.ca) — DGD
+prof name: Mahdi Ammar
+
+## Homework
+
+homework is really important for this class — discord
+
+TA email for homework-related questions: [atalekar@uottawa.ca](mailto:atalekar@uottawa.ca) — DGD
 
 ## Textbook
 
