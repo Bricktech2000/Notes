@@ -1,16 +1,16 @@
 # Lines and Planes
 
-see [Vector](Vector%2003bf7859c4904ae6ae908ec0a06fe6c0.md)
+see [Vector in Rn](Vector%20in%20Rn%2003bf7859c4904ae6ae908ec0a06fe6c0.md), [Classical Math Notation](../Tags%20b793d46ea133446daa88889450d15033/Classical%20Math%20Notation%20eb53679093ce497baa118d7bfde14d6c.md)
 
 ## Equation of a line through two points
 
-let $a$ and $b$ be [Vector](Vector%2003bf7859c4904ae6ae908ec0a06fe6c0.md)s in $\R^n$
+let $a$ and $b$ be [Vector in Rn](Vector%20in%20Rn%2003bf7859c4904ae6ae908ec0a06fe6c0.md)s in $\R^n$
 
-the parametric equation of the line is as follows (with [Vector](Vector%2003bf7859c4904ae6ae908ec0a06fe6c0.md)s in $\R^3$ as an example):
+the parametric equation of the line is as follows (with [Vector in Rn](Vector%20in%20Rn%2003bf7859c4904ae6ae908ec0a06fe6c0.md)s in $\R^3$ as an example):
 
 $(x, y, z) = a + t(b - a)$
 
-the canonical equation of the line is as follows (with [Vector](Vector%2003bf7859c4904ae6ae908ec0a06fe6c0.md)s in $\R^3$ as an example):
+the canonical equation of the line is as follows (with [Vector in Rn](Vector%20in%20Rn%2003bf7859c4904ae6ae908ec0a06fe6c0.md)3 as an example):
 
 $\frac{x - a_x}{b_x - a_x} = \frac{y - a_y}{b_y - a_y} = \frac{z - a_z}{b_z - a_z}$
 

@@ -10,7 +10,7 @@ prof email: [welah096@uottawa.ca](mailto:welah096@uottawa.ca)
 
 prof office hours: Every Friday from 15:00 to 16:00, via Zoom
 
-### Grading Scheme
+## Grading Scheme
 
 - LAB — 10% (5 labs, each worth 2%)
 - AST — 30% (4 assignments, each worth 7.5%)
@@ -37,3 +37,5 @@ Edition: Sixth Edition
 Publisher: Pearson-Prentice Hall
 
 — syllabus
+
+## Class Notes

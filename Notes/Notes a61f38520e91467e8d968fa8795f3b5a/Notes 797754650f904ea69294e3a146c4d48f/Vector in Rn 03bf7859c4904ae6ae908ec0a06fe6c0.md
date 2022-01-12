@@ -1,6 +1,50 @@
-# Vector
+# Vector in Rn
 
 *Vectors in $\R^n$*
+
+see [Math Notation](Math%20Notation%207bc4575af1e541d6946b955774161a6a.md), [Classical Math Notation](../Tags%20b793d46ea133446daa88889450d15033/Classical%20Math%20Notation%20eb53679093ce497baa118d7bfde14d6c.md)
+
+## notation
+
+$(1, 2)$
+
+$\begin{bmatrix}1 & 2\end{bmatrix}$
+
+$\begin{bmatrix}1 \\ 2 \\ 3\end{bmatrix}$
+
+## operations
+
+$(a, b) = (c, d) \equiv a = c \land b = d$ (equality)
+
+$(a, b) \cdot (c, d) \equiv (a \cdot c, b \cdot d)$ (addition)
+
+$0 \equiv (0, 0)$ (the zero vector)
+
+$\circ(a, b) \equiv (\circ a, \circ b)$ (negation)
+
+$c(a, b) \equiv (ca, cb) \dashv \R c$ (multiplication by a scalar)
+
+### properties
+
+let $\R^n (u, v, w) \dashv \Z n$
+
+let $\R (c1, c2)$
+
+$u \cdot 0 = 0$
+
+$u \cdot \circ u = 0$
+
+$(u \cdot v) \cdot w = u \cdot (v \cdot w)$
+
+$u \cdot v = v \cdot u$
+
+$c\ |\ u \cdot v = cu \cdot cv$
+
+$c_1 \cdot c_2\ |\ u = c_1u \cdot c_2u$
+
+$c_1 c_2\ |\ u = c_1\ |\ c_2u$
+
+$1u = u$
 
 ## Magnitude
 

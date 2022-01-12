@@ -1,6 +1,6 @@
 # Calculating a Derivative
 
-based on the [Derivative Rules](Derivative%20Rules%200d7442b53d47460f98161b1c7fc77f81.md)
+see [Derivative Rules](Derivative%20Rules%200d7442b53d47460f98161b1c7fc77f81.md), [Classical Math Notation](../Tags%20b793d46ea133446daa88889450d15033/Classical%20Math%20Notation%20eb53679093ce497baa118d7bfde14d6c.md)
 
 ## Differentiation
 

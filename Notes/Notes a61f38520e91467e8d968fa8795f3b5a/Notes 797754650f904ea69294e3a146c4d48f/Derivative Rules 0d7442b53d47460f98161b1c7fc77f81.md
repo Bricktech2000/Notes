@@ -1,6 +1,6 @@
 # Derivative Rules
 
-based on the [Derivative Notation](Derivative%20Notation%203fb6a05f74d3431396514e1ef2af24d4.md)
+see [Derivative Notation](Derivative%20Notation%203fb6a05f74d3431396514e1ef2af24d4.md), [Classical Math Notation](../Tags%20b793d46ea133446daa88889450d15033/Classical%20Math%20Notation%20eb53679093ce497baa118d7bfde14d6c.md)
 
 ## Power Rule
 
