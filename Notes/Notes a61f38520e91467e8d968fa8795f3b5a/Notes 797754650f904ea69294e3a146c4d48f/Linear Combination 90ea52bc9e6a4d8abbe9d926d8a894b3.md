@@ -4,17 +4,17 @@ see [Vector](Vector%208f57230e24a8497192bb7f33a34e40f8.md), [Math Notation](Math
 
 ### definition
 
-for every $\Z m$,
+for all $\Z m$,
 
-$u_0 \dots u_m \dashv \R^n u_m \dashv \Z n$
+$\R^n (u_0 \dots u_m) \dashv \Z n$
 
-$k_0 \dots k_m \dashv \R k$
+$\R (k_0 \dots k_m)$
 
 $k_0u_0 \cdot \dots k_nu_n$ is a *linear combination* of the vectors $u_0 \dots u_m$
 
 ### notation
 
-$Span\{u_0, \dots u_m\} \dashv \R^nu \dashv \Z n$ are *all possible linear combinations* of the vectors $u_0 \dots u_m$
+$Span\{u_0 \dots u_m\} \dashv \R^nu \dashv \Z n$ are *all possible linear combinations* of the vectors $u_0 \dots u_m$
 
 $Vec$ is the French notation whereas $Span$ is the English notation
 

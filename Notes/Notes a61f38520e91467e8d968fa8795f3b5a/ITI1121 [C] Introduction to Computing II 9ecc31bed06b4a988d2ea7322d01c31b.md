@@ -1,4 +1,4 @@
-# ITI1121 Introduction to Computing II
+# ITI1121 [C] Introduction to Computing II
 
 [https://uottawa.brightspace.com/d2l/le/content/274914/Home](https://uottawa.brightspace.com/d2l/le/content/274914/Home)
 
@@ -17,6 +17,8 @@ all code available here: https://github.com/msabetzadeh/ITI1121-2022
 lab link: [https://msabet.bitbucket.io/iti1121/labs/](https://msabet.bitbucket.io/iti1121/labs/)
 
 Piazza link: [https://piazza.com/uottawa.ca/winter2022/iti1121bc/home](https://piazza.com/uottawa.ca/winter2022/iti1121bc/home)
+
+[Recollection VS Recognition](Notes%20797754650f904ea69294e3a146c4d48f/Recollection%20VS%20Recognition%20442dc0e29c414a4fb213a89415331897.md) is very important in this course
 
 ## Grading Scheme
 
@@ -40,6 +42,8 @@ watch recordings **before** attending lab sessions
 deadline for lab submissions is on Tuesday at 23:59
 
 lab submission link: [https://uottawa.brightspace.com/d2l/le/content/274914/Home](https://uottawa.brightspace.com/d2l/le/content/274914/Home)
+
+lab attendance is **not** mandatory, but highly encouraged
 
 ## Class Notes
 

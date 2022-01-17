@@ -2,7 +2,7 @@
 
 see [Math Notation](Math%20Notation%207bc4575af1e541d6946b955774161a6a.md)
 
-### Properties
+### properties
 
 $x0 = 1 \dashv x \ne 0$
 

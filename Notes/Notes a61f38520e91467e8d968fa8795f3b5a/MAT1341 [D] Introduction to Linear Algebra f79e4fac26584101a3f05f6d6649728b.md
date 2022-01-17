@@ -1,4 +1,4 @@
-# MAT1341 Introduction to Linear Algebra
+# MAT1341 [D] Introduction to Linear Algebra
 
 [https://uottawa.brightspace.com/d2l/le/content/287356/Home](https://uottawa.brightspace.com/d2l/le/content/287356/Home)
 

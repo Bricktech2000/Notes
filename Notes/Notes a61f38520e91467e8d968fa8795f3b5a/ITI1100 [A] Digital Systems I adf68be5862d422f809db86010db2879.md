@@ -1,4 +1,4 @@
-# ITI1100 Digital Systems I
+# ITI1100 [A] Digital Systems I
 
 [https://uottawa.brightspace.com/d2l/le/content/285255/Home](https://uottawa.brightspace.com/d2l/le/content/285255/Home)
 
@@ -39,3 +39,9 @@ Publisher: Pearson-Prentice Hall
 — syllabus
 
 ## Class Notes
+
+[Digital System](Notes%20797754650f904ea69294e3a146c4d48f/Digital%20System%20bbedb8f9ddee431180e4d4feffaf88e3.md)
+
+[Positional Numbering System](Notes%20797754650f904ea69294e3a146c4d48f/Positional%20Numbering%20System%20f9660787af6e443e96ee364c9c36ab9c.md)
+
+[Binary](Notes%20797754650f904ea69294e3a146c4d48f/Binary%20d3f910562457407088be1154717f1a9a.md)

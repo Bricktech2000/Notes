@@ -1,6 +1,6 @@
 # Calculating a Limit
 
-see [Classical Math Notation](../Tags%20b793d46ea133446daa88889450d15033/Classical%20Math%20Notation%20eb53679093ce497baa118d7bfde14d6c.md), [Limit Rules](Limit%20Rules%20c295bd3b2c56490482b7786a01f0cc78.md)
+see [Classical Math Notation](Classical%20Math%20Notation%20eb53679093ce497baa118d7bfde14d6c.md), [Limit Rules](Limit%20Rules%20c295bd3b2c56490482b7786a01f0cc78.md)
 
 ## tricks
 

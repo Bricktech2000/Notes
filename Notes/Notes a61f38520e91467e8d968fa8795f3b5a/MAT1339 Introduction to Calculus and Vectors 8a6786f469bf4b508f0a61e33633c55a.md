@@ -34,7 +34,7 @@ critical points - [Inflection Point](Notes%20797754650f904ea69294e3a146c4d48f/In
 
 [Vector in Rn](Notes%20797754650f904ea69294e3a146c4d48f/Vector%20in%20Rn%2003bf7859c4904ae6ae908ec0a06fe6c0.md)
 
-[Lines and Planes](Notes%20797754650f904ea69294e3a146c4d48f/Lines%20and%20Planes%20b5643257e944473ba5bf322e23ad7c5a.md)
+[Plane in R3](Notes%20797754650f904ea69294e3a146c4d48f/Plane%20in%20R3%20b5643257e944473ba5bf322e23ad7c5a.md), [Line in R3](Notes%20797754650f904ea69294e3a146c4d48f/Line%20in%20R3%20a4a9b0f1143044f495834265a1c3aadd.md)
 
 **related**
 

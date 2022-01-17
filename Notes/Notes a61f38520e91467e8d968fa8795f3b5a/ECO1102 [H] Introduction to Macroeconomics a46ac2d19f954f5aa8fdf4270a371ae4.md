@@ -1,4 +1,4 @@
-# ECO1102 Introduction to Macroeconomics
+# ECO1102 [H] Introduction to Macroeconomics
 
 [https://uottawa.brightspace.com/d2l/le/content/288936/Home](https://uottawa.brightspace.com/d2l/le/content/288936/Home)
 

@@ -1,5 +1,7 @@
 # Improvability Theory
 
+see [Math Notation](Math%20Notation%207bc4575af1e541d6946b955774161a6a.md)
+
 The Improvability Theory states that:
 
 > No formal proof for a theorem is valid as its set of assumptions is never comprehensive.

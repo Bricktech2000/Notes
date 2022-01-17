@@ -1,6 +1,6 @@
 # Equilibrium
 
-see [Classical Math Notation](../Tags%20b793d46ea133446daa88889450d15033/Classical%20Math%20Notation%20eb53679093ce497baa118d7bfde14d6c.md)
+see [Classical Math Notation](Classical%20Math%20Notation%20eb53679093ce497baa118d7bfde14d6c.md)
 
 see [Stoichiometry](Stoichiometry%20a398038171b54bd2ab9fe08da84b4c32.md), [Concentration](Concentration%2042c423d2a69d40cb8b8bd2f84797bc3e.md), [Reaction Rate](Reaction%20Rate%2015b549be89df4681b668a5c52d129a36.md)s
 

@@ -1,6 +1,6 @@
 # Formal Charge
 
-see [Bond](Bond%203e540ea0ab234eca9486d144a72f898e.md), [Classical Math Notation](../Tags%20b793d46ea133446daa88889450d15033/Classical%20Math%20Notation%20eb53679093ce497baa118d7bfde14d6c.md)
+see [Bond](Bond%203e540ea0ab234eca9486d144a72f898e.md), [Classical Math Notation](Classical%20Math%20Notation%20eb53679093ce497baa118d7bfde14d6c.md)
 
 ## equation
 
