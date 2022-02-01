@@ -28,6 +28,6 @@ i = Integer.valueOf(
 
 ## performance
 
-*using primitives is always faster*
+*using [Java Primitive](Java%20Primitive%20e7dbc1581ea5487ca06a33ec3344b3e7.md)s is almost always faster*
 
 ![Untitled](Boxing%2090a1ff7bca9a416eb76c72efd638cef7/Untitled.png)

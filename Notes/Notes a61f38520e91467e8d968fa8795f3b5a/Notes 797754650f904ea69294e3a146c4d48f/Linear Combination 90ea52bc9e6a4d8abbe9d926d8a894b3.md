@@ -23,3 +23,9 @@ $Vec$ is the French notation whereas $Span$ is the English notation
 ![Untitled](Linear%20Combination%2090ea52bc9e6a4d8abbe9d926d8a894b3/Untitled.png)
 
 ![Untitled](Linear%20Combination%2090ea52bc9e6a4d8abbe9d926d8a894b3/Untitled%201.png)
+
+---
+
+![Untitled](Linear%20Combination%2090ea52bc9e6a4d8abbe9d926d8a894b3/Untitled%202.png)
+
+![Untitled](Linear%20Combination%2090ea52bc9e6a4d8abbe9d926d8a894b3/Untitled%203.png)

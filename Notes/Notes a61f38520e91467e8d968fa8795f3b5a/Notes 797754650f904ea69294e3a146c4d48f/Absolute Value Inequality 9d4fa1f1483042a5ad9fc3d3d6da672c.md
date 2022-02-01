@@ -18,4 +18,4 @@ $|x| \le t \Leftrightarrow -t \le x \le t$
 
 $|x| \ge t \Leftrightarrow x \ge t \lor x \le -t$
 
-$\R a \land \R b \dashv |a + b| \le |a| + |b|$
+$|a + b| \le |a| + |b| \dashv \R a \land \R b$

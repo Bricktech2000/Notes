@@ -9,7 +9,7 @@ find possible issues related to the following strategy:
 
 ## possible issues
 
-- 
+- taxes
 
 ## possible complications
 

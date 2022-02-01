@@ -44,4 +44,12 @@ attendance is mandatory — syllabus
 
 [Linear Combination](Notes%20797754650f904ea69294e3a146c4d48f/Linear%20Combination%2090ea52bc9e6a4d8abbe9d926d8a894b3.md)s
 
+[Linear System](Notes%20797754650f904ea69294e3a146c4d48f/Linear%20System%20e82ac17271f149e28a79944967d9c2c6.md)s, [Linear Equation](Notes%20797754650f904ea69294e3a146c4d48f/Linear%20Equation%2078b86d9cec314c4e9a56c8e9c226a439.md)s
+
+[Gaussian Elimination](Notes%20797754650f904ea69294e3a146c4d48f/Gaussian%20Elimination%20df8352a2ce4e49d0b1bc4a89a245a9f4.md)
+
+[Vector Space](Notes%20797754650f904ea69294e3a146c4d48f/Vector%20Space%20e24ccc55c02a45788f155bcff34136ba.md)
+
 **related**
+
+[Vector in Rn](Notes%20797754650f904ea69294e3a146c4d48f/Vector%20in%20Rn%2003bf7859c4904ae6ae908ec0a06fe6c0.md), [Normal Vector](Notes%20797754650f904ea69294e3a146c4d48f/Normal%20Vector%20621a644dca104a24b485d523406f6c9f.md)

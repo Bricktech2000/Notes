@@ -1,6 +1,6 @@
 # Improvability Theory
 
-see [Math Notation](Math%20Notation%207bc4575af1e541d6946b955774161a6a.md)
+see [Classical Math Notation](Classical%20Math%20Notation%20eb53679093ce497baa118d7bfde14d6c.md)
 
 The Improvability Theory states that:
 

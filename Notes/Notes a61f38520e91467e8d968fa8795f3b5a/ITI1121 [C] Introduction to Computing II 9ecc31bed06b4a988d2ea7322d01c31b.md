@@ -29,6 +29,8 @@ Piazza link: [https://piazza.com/uottawa.ca/winter2022/iti1121bc/home](https://p
 
 textbook: you wish
 
+lab feedback: [https://iti1121.eecs.uottawa.ca/5615127aa8736dbc31207f697b80a9f7a299893e61eff411d0c673fc7c41d197/](https://iti1121.eecs.uottawa.ca/5615127aa8736dbc31207f697b80a9f7a299893e61eff411d0c673fc7c41d197/)
+
 ## Lectures
 
 Zoom link: [https://uottawa-ca.zoom.us/j/91777916214?pwd=azRnZFY1eXR1OVNtQmhqU25mWXZzdz09](https://uottawa-ca.zoom.us/j/91777916214?pwd=azRnZFY1eXR1OVNtQmhqU25mWXZzdz09) — Outlook

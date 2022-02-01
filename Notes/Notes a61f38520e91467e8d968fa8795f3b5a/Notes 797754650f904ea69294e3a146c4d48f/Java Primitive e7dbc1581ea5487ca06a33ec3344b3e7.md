@@ -1,10 +1,14 @@
 # Java Primitive
 
-all primitive types — [https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+### All Primitive types
+
+— [https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
 
 ```java
 byte, short, int, long, float, double, boolean, char
 ```
+
+### notes
 
 the size of booleans can be either 1 bit or 8 bits, depending on the VM implementation
 

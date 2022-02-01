@@ -45,3 +45,7 @@ Publisher: Pearson-Prentice Hall
 [Positional Numbering System](Notes%20797754650f904ea69294e3a146c4d48f/Positional%20Numbering%20System%20f9660787af6e443e96ee364c9c36ab9c.md)
 
 [Binary](Notes%20797754650f904ea69294e3a146c4d48f/Binary%20d3f910562457407088be1154717f1a9a.md)
+
+[Complement](Notes%20797754650f904ea69294e3a146c4d48f/Complement%20079a49afbef24bc8bacb3a5ba743acad.md)
+
+[Boolean Algebra](Notes%20797754650f904ea69294e3a146c4d48f/Boolean%20Algebra%208ddf7e442d4a449a936a6504590989fd.md)
