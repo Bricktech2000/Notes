@@ -1,6 +1,6 @@
 # Sunk Costs
 
-_think about the future returns instead of what you paid in the past_
+_think about future returns instead of what you paid in the past_
 
 ### example
 

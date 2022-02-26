@@ -92,7 +92,7 @@ composition distributes over implication. this allows for notation such as $\N \
 - $\braket a = \braket a \text- 2$ returns both positive and negative square roots ($\braket{q2} = \dot \circ q$)
 - $\braket 4 = 2$ is invalid, but $\braket 4 \dashv 2$ is valid
 
-- functions support currying to take multiple arguments [[complete]]
+- functions support currying to take multiple arguments [[think]]
 
 ### examples
 

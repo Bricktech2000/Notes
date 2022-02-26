@@ -1,3 +1,3 @@
 # Ball
 
-_the volume of a [[spheresphere]]_
+_the volume of a [[sphere]]_

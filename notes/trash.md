@@ -1,3 +1,0 @@
-# Trash
-
-[[curve-sketching]]

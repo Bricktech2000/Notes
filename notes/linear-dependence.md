@@ -26,7 +26,7 @@ any set containing the $O$ [[vector]] is [[linearly-dependent]]
 
 **theorem**: a set of [[vector]]s is [[linearly-dependent]] if and only if at least one of its [[vector]]s can be represented as a [[linear-combination]] of the others
 
-**theorem**: $W = span\{v_0, v_1 \dots v_m\} \land v_0\ [in]\ span\{v_1 \dots v_m\} \vdash W = span\{v_1 \dots v_m\}$ [[todo]], see [[span]]
+**theorem**: $W = span\{v_0, v_1 \dots v_m\} \land v_0\ [in]\ span\{v_1 \dots v_m\} \vdash W = span\{v_1 \dots v_m\}$ [[think]], see [[span]]
 
 **theorem**: if a [[vector-space]] $V$ can be spanned by $n$ [[vector]]s, then any [[linearly-independent]] set in $V$ has at most $n$ [[vector]]s
 

@@ -6,7 +6,6 @@ see [[classical-math-notation]]
 
 _use units to figure out what equations to use_
 
-
 ## example problem 1
 
 ![](2022-02-26-01-24-45.png)
@@ -29,7 +28,7 @@ _derived from $Q = mc \Delta T$_
 
 $V = m_{irridium} / \rho_{irridium} / 100$
 
-_the volume of a sphere is its mass divided by its density, divided by 100 spheres_
+_the volume of a [[sphere]] is its mass divided by its density, divided by 100 spheres_
 
 ![](2022-02-26-01-25-36.png)
 
@@ -129,8 +128,6 @@ $Q_{reqction} = -1.40 \times 10^3J$ (I believe, see screenshots below)
 $\Delta H^0 = \frac{Q}{n_{H^+}} = \frac{-1.40 \times 10^3J}{2.5 \times 10^{-2}mol} = -55.8\frac{kJ}{mol_{H^+}}$
 
 ---
-
-[[complete]]
 
 we will finish the question in the next DGD
 

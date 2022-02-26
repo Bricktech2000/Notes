@@ -4,7 +4,7 @@ vectors can form [[vector-space]]s
 
 ### types of vectors
 
-[[vector-in-rn]], see [Vector in Rn Vector Space](Vector%20in%20%20615cd.md)
+[[vector-in-rn]], see [[vector-in-rn-vector-space]]
 
 [[matrix]], see [[vector-in-rn-vector-space]]
 

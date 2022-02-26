@@ -1,6 +1,6 @@
 # Proof
 
-_definition_ [[todo]]
+_definition_ [[complete]]
 
 ## Conditionals
 

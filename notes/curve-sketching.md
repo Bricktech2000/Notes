@@ -1,4 +1,4 @@
-# Graphing a Function
+# Curve Sketching
 
 see [[classical-math-notation]]
 
