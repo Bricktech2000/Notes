@@ -22,6 +22,8 @@ _a few of my English bad habits_
 
 > tran**sis**tor
 
+> dis**tri**buting
+
 ## Incorrect
 
 > How's that called

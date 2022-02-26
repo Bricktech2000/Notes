@@ -2,15 +2,13 @@
 
 even when we don't get caught,
 
-> Authors and intellectuals devote a lot of time and knowledge to producing their intellectual property. Plagiarism is a sign of disrespect to those authors. — Gefen
-> 
+> Authors and intellectuals devote a lot of time and knowledge to producing their intellectual property. Plagiarism is a sign of disrespect to those authors. &mdash; Gefen
 
 it is essentially theft of information
 
 ## Self-Plagiarism
 
 > A type of plagiarism in which one republished or reuses work that's already been submitted or published.
-> 
 
 this includes:
 
@@ -24,7 +22,6 @@ it is possible to cite ourselves as long as we're open and honest about it
 ## Structural Plagiarism
 
 > A type of plagiarism in which one replicates or reuses the structure of ideas without proper acknowledgement
-> 
 
 this includes:
 

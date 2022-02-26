@@ -11,3 +11,5 @@
 [[master-lock-second-combination]]
 
 [[notion-time-management]]
+
+[[deriving-the-quadratic-formula]]

@@ -2,7 +2,7 @@
 
 _used to describe the address of an electron within an atom_
 
-— [https://www.youtube.com/watch?v=4sLXUr2HWIs&ab_channel=TheOrganicChemistryTutor](https://www.youtube.com/watch?v=4sLXUr2HWIs&ab_channel=TheOrganicChemistryTutor)
+&mdash; [https://www.youtube.com/watch?v=4sLXUr2HWIs&ab_channel=TheOrganicChemistryTutor](https://www.youtube.com/watch?v=4sLXUr2HWIs&ab_channel=TheOrganicChemistryTutor)
 
 see [[classical-math-notation]]
 
@@ -41,7 +41,7 @@ $m_s \in [+\frac 1 2, -\frac 1 2] = [\uparrow, \downarrow]$
 
 $n, l, m_l, m_s \in \N$
 
-> according to Pauli's exclusion principle, every electron within an atom has a unique set of four quantum numbers. you can think of those quantum numbers as the address of each electron of an atom. — The Organic Chemistry Tutor
+> according to Pauli's exclusion principle, every electron within an atom has a unique set of four quantum numbers. you can think of those quantum numbers as the address of each electron of an atom. &mdash; The Organic Chemistry Tutor
 
 $s$ and $p$ orbitals both always have the highest value of $n$
 

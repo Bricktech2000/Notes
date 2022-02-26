@@ -2,7 +2,7 @@
 
 see [[molecular-geometry]]
 
-> Lewis structures are diagrams that show the bonding between atoms of a molecule, as well as the lone pairs of electrons that may exist in the molecule. — Wikipedia
+> Lewis structures are diagrams that show the bonding between atoms of a molecule, as well as the lone pairs of electrons that may exist in the molecule. &mdash; Wikipedia
 
 ### examples
 

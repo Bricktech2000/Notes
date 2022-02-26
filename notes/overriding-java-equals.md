@@ -2,7 +2,7 @@
 
 see [[polymorphism]], [[java-is-a-terrible-language]]
 
-overriding the `Object.equals` in Java must follow the pattern below — [[iti1121-c-introduction-to-computing-ii](../ITI1121%20%5BC%209ecc3.md)
+overriding the `Object.equals` in Java must follow the pattern below &mdash; [[iti1121-c-introduction-to-computing-ii](../ITI1121%20%5BC%209ecc3.md)
 
 ```java
 public class Account {

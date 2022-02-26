@@ -2,7 +2,7 @@
 
 see [Vector in Rn](Vector%20in%20%2003bf7.md), [Math Notation](Math%20Notat%207bc45.md)
 
-— [https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s](https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s)
+&mdash; [https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s](https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s)
 
 ## Parametric Equation
 
@@ -14,9 +14,9 @@ $p_0$ and $p_1$ are two points on the line
 
 $p$ is any point on the line (can be thought of as the y-intercept)
 
-$L$ represents all points on the line (it *is* the line)
+$L$ represents all points on the line (it _is_ the line)
 
-*continue below*
+_continue below_
 
 ## Symmetric Equation
 

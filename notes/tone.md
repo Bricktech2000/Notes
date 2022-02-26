@@ -1,6 +1,6 @@
 # Tone
 
-> the emotional character of a document, "how a document makes you feel" — Gefen
+> the emotional character of a document, "how a document makes you feel" &mdash; Gefen
 
 even in [[technical-writing]], a good tone is important to communicate effectively
 
@@ -22,7 +22,7 @@ generally not recommended in the workplace, as it is high risk. however, sarcasm
 
 ### Pedantic Tone
 
-> Writing that calls attention to itself instead of to what you have to say. Often suffers from [[wordiness]] — Gefen
+> Writing that calls attention to itself instead of to what you have to say. Often suffers from [[wordiness]] &mdash; Gefen
 
 ### counterexample
 

@@ -1,8 +1,8 @@
 # Wordiness
 
-> Wordiness is one of the most common ESL mistakes. It happens when a writer, either intentionally or unintentionally, uses far too many words or unnecessarily complex or abstract words. Wordiness can seriously detract from the coherency and quality of your writing and frustrate your readers. — Scribendi
+> Wordiness is one of the most common ESL mistakes. It happens when a writer, either intentionally or unintentionally, uses far too many words or unnecessarily complex or abstract words. Wordiness can seriously detract from the coherency and quality of your writing and frustrate your readers. &mdash; Scribendi
 
-wordiness can "cover-up" for lack of information and analysis — Gefen
+wordiness can "cover-up" for lack of information and analysis &mdash; Gefen
 
 ## signs of wordiness
 

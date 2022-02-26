@@ -12,7 +12,7 @@ _no proof for a theorem is valid as the theorem could always be proven more form
 
 this statement implies that every theorem believed to be true has some edge cases, even if they are negligible in practice.
 
-to clarify some assumptions made in the original theorem — as any proof is based on a set of assumptions, it should be rephrased as “no proof for a theorem is valid as its list of assumption can never be considered complete.” to clarify some assumptions made in the second version of the theorem, it should be rephrased as...
+to clarify some assumptions made in the original theorem &mdash; as any proof is based on a set of assumptions, it should be rephrased as “no proof for a theorem is valid as its list of assumption can never be considered complete.” to clarify some assumptions made in the second version of the theorem, it should be rephrased as...
 
 that’s meta.
 

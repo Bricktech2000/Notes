@@ -2,7 +2,7 @@
 
 see [[stoichiometry]], [[classical-math-notation]]
 
-> An ideal gas is a theoretical gas composed of many randomly moving point particles that are not subject to interparticle interactions. — Wikipedia
+> An ideal gas is a theoretical gas composed of many randomly moving point particles that are not subject to interparticle interactions. &mdash; Wikipedia
 
 ## Ideal Gas Law
 
@@ -24,7 +24,7 @@ $R = 8.31451 \frac{J}{mol K} = 8.31451 \frac{L \cdot kPa}{mol K} = 0.08314 \frac
 
 ## Dalton's Law
 
-> Dalton's law states that in a mixture of non-reacting gases, the total pressure exerted is equal to the sum of the partial pressures of the individual gases. — Wikipedia
+> Dalton's law states that in a mixture of non-reacting gases, the total pressure exerted is equal to the sum of the partial pressures of the individual gases. &mdash; Wikipedia
 
 $P = \sum_i P_i$, where
 

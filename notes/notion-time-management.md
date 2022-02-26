@@ -102,9 +102,9 @@ one of the following values:
 
 multiple of the following values:
 
-- WK — repeats every week
-- DAY — repeats every day
-- OPT — optional event
+- WK &mdash; repeats every week
+- DAY &mdash; repeats every day
+- OPT &mdash; optional event
 - Personal (blue)
 - Learning (blue)
 - Hobbies (orange)
@@ -112,17 +112,17 @@ multiple of the following values:
 - Work (green)
 - uOttawa (green)
 - **all classes**
-- LEC — lectures
-- LAB — laboratory
-- DGD — discussion group
-- TUT — tutorial
-- HW — homework (async, not worth marks)
-- AST — assignment (async, worth marks)
-- QUIZ — quiz (sync, worth marks)
-- TEST — test (sync, worth marks)
-- MTERM — midterm (sync, worth marks)
-- REPORT — papers to write (async, worth marks)
-- FINAL — final exam (sync, worth marks)
+- LEC &mdash; lectures
+- LAB &mdash; laboratory
+- DGD &mdash; discussion group
+- TUT &mdash; tutorial
+- HW &mdash; homework (async, not worth marks)
+- AST &mdash; assignment (async, worth marks)
+- QUIZ &mdash; quiz (sync, worth marks)
+- TEST &mdash; test (sync, worth marks)
+- MTERM &mdash; midterm (sync, worth marks)
+- REPORT &mdash; papers to write (async, worth marks)
+- FINAL &mdash; final exam (sync, worth marks)
 
 ### URL (visible)
 

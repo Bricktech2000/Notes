@@ -2,7 +2,7 @@
 
 see [[extremum]], [[classical-math-notation]]
 
-> an inflection point or point of inflection, is a point on a smooth plane curve at which the curvature changes sign — Wikipedia
+> an inflection point or point of inflection, is a point on a smooth plane curve at which the curvature changes sign &mdash; Wikipedia
 
 ## definition
 

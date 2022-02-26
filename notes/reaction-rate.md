@@ -2,7 +2,7 @@
 
 see [[classical-math-notation]]
 
-> The reaction rate or rate of reaction is the speed at which a chemical reaction takes place, defined as proportional to the increase in the concentration of a product per unit time and to the decrease in the concentration of a reactant per unit time. Reaction rates can vary dramatically. — Wikipedia
+> The reaction rate or rate of reaction is the speed at which a chemical reaction takes place, defined as proportional to the increase in the concentration of a product per unit time and to the decrease in the concentration of a reactant per unit time. Reaction rates can vary dramatically. &mdash; Wikipedia
 
 _only questions on **first-order reactions** will be asked in [[chm1301-principles-of-chemistry]]_
 

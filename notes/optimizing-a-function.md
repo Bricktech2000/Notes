@@ -2,7 +2,7 @@
 
 see [[extremum]], [[classical-math-notation]]
 
-> Practically, function optimization describes a class of problems for finding the input to a given function that results in the minimum or maximum output from the function. — machinelearningmastery.com
+> Practically, function optimization describes a class of problems for finding the input to a given function that results in the minimum or maximum output from the function. &mdash; machinelearningmastery.com
 
 ## method
 

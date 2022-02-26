@@ -8,7 +8,7 @@ prof name: Dr. Xinhou Hua
 
 prof email: [hxinhou@uottawa.ca](mailto:hxinhou@uottawa.ca) (use email subject _MAT1320 D_)
 
-prof office hours: after each class or by email — syllabus
+prof office hours: after each class or by email &mdash; syllabus
 
 calculators are **not** allowed on the tests and final exam
 
@@ -20,9 +20,9 @@ AST in mobius
 
 ## Grading Scheme
 
-- AST — 5% (mobius)
-- MTERM — 2 \* 25%
-- FINAL — 45%
+- AST &mdash; 5% (mobius)
+- MTERM &mdash; 2 \* 25%
+- FINAL &mdash; 45%
 
 ## Lectures
 
@@ -30,7 +30,7 @@ Zoom link: [https://uottawa-ca.zoom.us/j/7297581056?pwd=WnFMMjhTQzlDRXJQZmlQcGJm
 
 ## DGDs
 
-attendance is “required” — syllabus
+attendance is “required” &mdash; syllabus
 
 ## textbook
 

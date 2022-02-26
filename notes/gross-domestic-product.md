@@ -30,7 +30,7 @@ the GDP measures all items above within a specific time interval, usually one ye
 
 ## Components of Expenditure (of the GDP)
 
-> The GDP is the total of all value added created in an economy. The value added means the value of goods and services that have been produced minus the value of the goods and services needed to produce them, the so called intermediate consumption. — Zoom Chat
+> The GDP is the total of all value added created in an economy. The value added means the value of goods and services that have been produced minus the value of the goods and services needed to produce them, the so called intermediate consumption. &mdash; Zoom Chat
 
 GDP = Consumption + Investment + Government Purchases + Net Exports
 

@@ -2,7 +2,7 @@
 
 see [[inflection-point]], [[classical-math-notation]]
 
-> extrema (the plural of extremum), are the largest and smallest value of the function, either within a given range (the local or relative extrema), or on the entire domain (the global or absolute extrema). — Wikipedia
+> extrema (the plural of extremum), are the largest and smallest value of the function, either within a given range (the local or relative extrema), or on the entire domain (the global or absolute extrema). &mdash; Wikipedia
 
 $f'(x) = 0$
 

@@ -1,6 +1,6 @@
 # Rhetorical Question
 
-> rhetorical questions are questions that aren't meant to be answered, but rather to make a point — Zoom A.M. Meekyle Mondal
+> rhetorical questions are questions that aren't meant to be answered, but rather to make a point &mdash; Zoom A.M. Meekyle Mondal
 
 notice the difference between rhetorical questions and open-ended (discussion) questions.
 

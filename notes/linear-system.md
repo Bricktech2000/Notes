@@ -36,7 +36,7 @@ can be represented by the following [[vector-in-rn]] equation:
 
 $x \begin{bmatrix}1 \\ 1 \\ 0\end{bmatrix} \cdot y \begin{bmatrix}1 \\ \circ 1 \\ 1\end{bmatrix} \cdot z \begin{bmatrix}2 \\ 1 \\ \circ 1\end{bmatrix} = \begin{bmatrix}3 \\ 2 \\ 1\end{bmatrix}$
 
-the system is _consistent_ if and only if $b$ —$\begin{bmatrix}3 \\ 2 \\ 1\end{bmatrix}$ is a [[linear-combination]] of the columns of $A$ — $A^{, j}$
+the system is _consistent_ if and only if $b$ &mdash; $\begin{bmatrix}3 \\ 2 \\ 1\end{bmatrix}$ is a [[linear-combination]] of the columns of $A$ &mdash; $A^{, j}$
 
 ## Elementary Operations
 

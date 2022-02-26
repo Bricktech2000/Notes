@@ -12,7 +12,7 @@ $a \cdot b = |a||b|\cos \theta$, where
 
 $\theta$ is the angle between $a$ and $b$
 
-_If vectors are identified with row matrices, the dot product can also be written as a [[matrix]] Product_ — Wikipedia
+_If vectors are identified with row matrices, the dot product can also be written as a [[matrix]] Product_ &mdash; Wikipedia
 
 $a \cdot b = ab^\intercal$
 

@@ -1,6 +1,6 @@
 # Hijacking Brain Circuitry
 
-— [https://youtu.be/DMw8G3RPWrQ?t=7038](https://youtu.be/DMw8G3RPWrQ?t=7038)
+&mdash; [https://youtu.be/DMw8G3RPWrQ?t=7038](https://youtu.be/DMw8G3RPWrQ?t=7038)
 
 _unlocking rewards by unconsciously manipulating hard-wired brain circuitry_
 
@@ -10,7 +10,7 @@ the brain circuitry being hijacked is often related to our [[intent-to-mastery]]
 
 ### Parasocial Relationships
 
-example with Sasha Grey — [https://youtu.be/DMw8G3RPWrQ?t=7128](https://youtu.be/DMw8G3RPWrQ?t=7128)
+example with Sasha Grey &mdash; [https://youtu.be/DMw8G3RPWrQ?t=7128](https://youtu.be/DMw8G3RPWrQ?t=7128)
 
 example of items that should come at a certain “tier” of a relationship, but can also be experienced simply through watching a Twitch stream:
 
@@ -21,7 +21,7 @@ example of items that should come at a certain “tier” of a relationship, but
 - “remember when... ?”
 - some streamers calling their viewers their “besties” and telling them they “love them”
 
-> I think what social media platforms are discovering is that the stronger the parasocial relationship, probably the higher the user engagement — Dr K.
+> I think what social media platforms are discovering is that the stronger the parasocial relationship, probably the higher the user engagement &mdash; Dr K.
 
 other examples of weaker parasocial relationships
 

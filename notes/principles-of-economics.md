@@ -74,7 +74,7 @@ this short-run tradeoff plays a key role in the analysis of the business cycle
 
 ## Efficiency VS Equity
 
-— [https://www.economicshelp.org/blog/2473/economics/efficiency-vs-equity/](https://www.economicshelp.org/blog/2473/economics/efficiency-vs-equity/)
+&mdash; [https://www.economicshelp.org/blog/2473/economics/efficiency-vs-equity/](https://www.economicshelp.org/blog/2473/economics/efficiency-vs-equity/)
 
 > **Efficiency** is concerned with the optimal production and allocation of resources given existing factors of production.
 

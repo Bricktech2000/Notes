@@ -8,7 +8,7 @@ the cross product is only defined for [[vector-in-rn]]3
 
 _results in a vector of length (area of the parallelogram formed by the two vectors) and of orientation (perpendicular to the plane formed by the two vectors)_ — 3B1B
 
-> the [[determinant]] is all about measuring how areas change during a transformation. after the transformation, the $1 \times 1$ unit square formed by $\vec i$ and $\vec j$ gets turned into the parallelogram formed by the two vectors — 3B1B
+> the [[determinant]] is all about measuring how areas change during a transformation. after the transformation, the $1 \times 1$ unit square formed by $\vec i$ and $\vec j$ gets turned into the parallelogram formed by the two vectors &mdash; 3B1B
 
 $|a \times b| = \det \begin{bmatrix} a\ |\ b\end{bmatrix}$
 

@@ -2,9 +2,9 @@
 
 see [[normal-vector]], [[vector-in-rn]], [[math-notation]]
 
-— [https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s](https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s)
+&mdash; [https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s](https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s)
 
-— [[mat1341-d-introduction-to-linear-algebra]] Lecture
+&mdash; [[mat1341-d-introduction-to-linear-algebra]] Lecture
 
 ## Plane From 3 Points
 

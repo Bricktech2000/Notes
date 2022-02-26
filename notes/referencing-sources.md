@@ -43,7 +43,7 @@ _to integrate a citation or a quote into a sentence_
 - suggests
 - maintains
 
-— Buckley 138
+&mdash; Buckley 138
 
 ### referencing 4 or more authors
 

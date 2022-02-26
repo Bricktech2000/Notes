@@ -16,9 +16,9 @@ anything graded in this class is open-book
 
 ## Grading Scheme
 
-- AST — 20% (Mindtap)
-- MTERM — 2 \* 20%
-- FINAL — 40%
+- AST &mdash; 20% (Mindtap)
+- MTERM &mdash; 2 \* 20%
+- FINAL &mdash; 40%
 
 ## textbook (optional)
 

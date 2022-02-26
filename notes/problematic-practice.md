@@ -32,8 +32,8 @@ after an acronym is defined, the full term should not be used
 
 ## switching from indirect to direct questions
 
-> Before AIDS was understood, scientists investigated if KS was associated with a new virus and could it be cured? — Gefen
+> Before AIDS was understood, scientists investigated if KS was associated with a new virus and could it be cured? &mdash; Gefen
 
 could be rewritten as
 
-> Before AIDS was understood, scientists investigated whether KS was associated with a new virus and if it could be cured. — Gefen
+> Before AIDS was understood, scientists investigated whether KS was associated with a new virus and if it could be cured. &mdash; Gefen

@@ -22,10 +22,10 @@ Piazza link: [https://piazza.com/uottawa.ca/winter2022/iti1121bc/home](https://p
 
 ## Grading Scheme
 
-- AST — 25%
-- LAB — 10%
-- MTERM — 25%
-- FINAL — 40%
+- AST &mdash; 25%
+- LAB &mdash; 10%
+- MTERM &mdash; 25%
+- FINAL &mdash; 40%
 
 textbook: you wish
 
@@ -33,7 +33,7 @@ lab feedback: [https://iti1121.eecs.uottawa.ca/5615127aa8736dbc31207f697b80a9f7a
 
 ## Lectures
 
-Zoom link: [https://uottawa-ca.zoom.us/j/91777916214?pwd=azRnZFY1eXR1OVNtQmhqU25mWXZzdz09](https://uottawa-ca.zoom.us/j/91777916214?pwd=azRnZFY1eXR1OVNtQmhqU25mWXZzdz09) — Outlook
+Zoom link: [https://uottawa-ca.zoom.us/j/91777916214?pwd=azRnZFY1eXR1OVNtQmhqU25mWXZzdz09](https://uottawa-ca.zoom.us/j/91777916214?pwd=azRnZFY1eXR1OVNtQmhqU25mWXZzdz09) &mdash; Outlook
 
 lecture recordings: [https://www.dropbox.com/sh/k9xsuw39b7nwhfq/AACNkDGiYZr2-3W-XdVsEUi6a?dl=0](https://www.dropbox.com/sh/k9xsuw39b7nwhfq/AACNkDGiYZr2-3W-XdVsEUi6a?dl=0)
 

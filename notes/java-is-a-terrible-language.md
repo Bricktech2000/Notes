@@ -2,21 +2,21 @@
 
 ![Untitled](Java%20is%20a%20%209834e/Untitled.png)
 
-— Discord #general
+&mdash; Discord #general
 
 ![Untitled](Java%20is%20a%20%209834e/Untitled%201.png)
 
-— Discord #general
+&mdash; Discord #general
 
 ![Untitled](Java%20is%20a%20%209834e/Untitled%202.png)
 
 ![Untitled](Java%20is%20a%20%209834e/Untitled%203.png)
 
-— Discord #general
+&mdash; Discord #general
 
 ![Untitled](Java%20is%20a%20%209834e/Untitled%204.png)
 
-— live lecture
+&mdash; live lecture
 
 ## java `.equals`
 
@@ -24,7 +24,7 @@
 
 ## generic arrays
 
-Java does *not* allow the creation of generic arrays `E[] a = new E[capacity]` where `E` is the generic type. use `E[] = (E[]) Object[capacity]` instead.
+Java does _not_ allow the creation of generic arrays `E[] a = new E[capacity]` where `E` is the generic type. use `E[] = (E[]) Object[capacity]` instead.
 
 however, this will throw a warning, which will have to be suppressed using the following decorator: `@SuppressWarnings("unchecked")`.
 

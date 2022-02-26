@@ -19,7 +19,7 @@ _for [[chm1301-principles-of-chemistry]]_
 
 ## Conjugate Acids and Bases
 
-> In the Brønsted-Lowry definition of acids and bases, a conjugate acid-base pair consists of two substances that differ only by the presence of a proton (H⁺). A conjugate acid is formed when a proton is added to a base, and a conjugate base is formed when a proton is removed from an acid. — Khan Academy
+> In the Brønsted-Lowry definition of acids and bases, a conjugate acid-base pair consists of two substances that differ only by the presence of a proton (H⁺). A conjugate acid is formed when a proton is added to a base, and a conjugate base is formed when a proton is removed from an acid. &mdash; Khan Academy
 
 ### example
 

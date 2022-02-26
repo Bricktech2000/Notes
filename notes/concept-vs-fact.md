@@ -2,7 +2,7 @@
 
 for better [[learning]], identify if what you're learning is a concept or a fact.
 
-— [https://youtu.be/IlU-zDU6aQ0?t=1264](https://youtu.be/IlU-zDU6aQ0?t=1264)
+&mdash; [https://youtu.be/IlU-zDU6aQ0?t=1264](https://youtu.be/IlU-zDU6aQ0?t=1264)
 
 ## Fact
 

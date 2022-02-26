@@ -74,7 +74,7 @@ $u$ and $v$ are colinear if $u = kv$
 
 ## Projections
 
-_The scalar projection is equal to the length of the vector projection_ — Wikipedia
+_The scalar projection is equal to the length of the vector projection_ &mdash; Wikipedia
 
 see [[dot-product]]
 

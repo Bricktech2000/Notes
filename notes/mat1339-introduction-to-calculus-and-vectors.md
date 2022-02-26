@@ -6,9 +6,9 @@ prof name: Mahdi Ammar
 
 ## Homework
 
-homework is really important for this class — discord
+homework is really important for this class &mdash; discord
 
-TA email for homework-related questions: [atalekar@uottawa.ca](mailto:atalekar@uottawa.ca) — DGD
+TA email for homework-related questions: [atalekar@uottawa.ca](mailto:atalekar@uottawa.ca) &mdash; DGD
 
 ## Textbook
 
@@ -16,7 +16,7 @@ Main textbook (required): “Introduction to Computing Using Python: An Applicat
 
 - Paper version at uOttawa bookstore or order onine-eBook online ($48.00 or $17 eBook rental for 1 semester)
 - https://www.wiley.com/en-ca/Introduction+to+Computing+Using+Python%3A+An+Application+Development+Focus%2C+2nd+Edition-p-9781118890943
-- link for textbook — discord general: [https://libgen.is/book/index.php?md5=7016A2960349062F4E1319315D512E8C](https://libgen.is/book/index.php?md5=7016A2960349062F4E1319315D512E8C) ([https://www.ilc.org/products/mcv4u-calculus-and-vectors-online-course](https://www.ilc.org/products/mcv4u-calculus-and-vectors-online-course))
+- link for textbook &mdash; discord general: [https://libgen.is/book/index.php?md5=7016A2960349062F4E1319315D512E8C](https://libgen.is/book/index.php?md5=7016A2960349062F4E1319315D512E8C) ([https://www.ilc.org/products/mcv4u-calculus-and-vectors-online-course](https://www.ilc.org/products/mcv4u-calculus-and-vectors-online-course))
 
 ## Class Notes
 

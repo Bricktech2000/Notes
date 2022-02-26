@@ -8,7 +8,7 @@ see [[object]], [[class]]
 
 ## Pillars of OOP
 
-— Google and Grepper
+&mdash; Google and Grepper
 
 [[abstraction]]
 
@@ -20,7 +20,7 @@ see [[object]], [[class]]
 
 ## Principles of OOP
 
-— Google and Grepper
+&mdash; Google and Grepper
 
 ### Single Responsibility Principle (SRP)
 

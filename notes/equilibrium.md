@@ -12,7 +12,7 @@ $K = \frac{k_{fwd}}{k_{rev}}$ where $K$ is the equilibrium constant (or formally
 
 ## Le Châtelier's Principle
 
-> A system at equilibrium will respond to external stress by minimizing the stress. — Rashmi
+> A system at equilibrium will respond to external stress by minimizing the stress. &mdash; Rashmi
 
 ## Formulas
 

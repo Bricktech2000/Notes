@@ -2,7 +2,7 @@
 
 see [[equilibrium]], [[acid-and-base]], [[stoichiometry]], [[classical-math-notation]]
 
-> Titration is an analytical technique used to determine the exact concentration of an acid using a known base, or vice-versa. — Rashmi
+> Titration is an analytical technique used to determine the exact concentration of an acid using a known base, or vice-versa. &mdash; Rashmi
 
 ## Midpoint of a Titration
 

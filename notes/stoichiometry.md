@@ -2,7 +2,7 @@
 
 see [[classical-math-notation]]
 
-> Stoichiometry refers to the relationship between the quantities of reactants and products before, during, and following chemical reactions — Wikipedia
+> Stoichiometry refers to the relationship between the quantities of reactants and products before, during, and following chemical reactions &mdash; Wikipedia
 
 _use units to figure out what equations to use_
 

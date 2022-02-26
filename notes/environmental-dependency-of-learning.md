@@ -1,6 +1,6 @@
 # Environmental Dependency of Learning
 
-our behavior is highly controlled by environmental queues. — [https://youtu.be/IlU-zDU6aQ0?t=867](https://youtu.be/IlU-zDU6aQ0?t=867)
+our behavior is highly controlled by environmental queues. &mdash; [https://youtu.be/IlU-zDU6aQ0?t=867](https://youtu.be/IlU-zDU6aQ0?t=867)
 
 ## learning efficiently
 
