@@ -1,0 +1,32 @@
+# Boxing
+
+see [[java]], [[java-wrapper]]
+
+> **boxing** is the automatic conversion from a [[java-primitive]] to a [[java-reference]]
+
+> **unboxing** is the automatic conversion from a [[java-reference]] to a [[java-primitive]]
+
+### examples
+
+```java
+Integer i = 1; // valid in Java 5 and up
+Integer i = Integer.valueOf(1); // transforms into this (called boxing)
+
+Integer i = new Integer(1); // this syntax is deprecated since Java 9
+```
+
+```java
+Integer i = 1;
+i = i + 5;
+//gets turned into
+i = Integer.valueOf(
+	i.intValue() + 5 // unboxing and adding to another primitive
+); // re-boxing the value again
+```
+
+## performance
+
+_using [[java-primitive]]s is almost always faster_
+
+TODO:
+![Untitled](Boxing%2090a1f/Untitled.png)

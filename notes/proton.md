@@ -1,0 +1,3 @@
+# Proton
+
+symbol: $p^+$

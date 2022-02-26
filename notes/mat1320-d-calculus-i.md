@@ -1,0 +1,57 @@
+# MAT1320 [D] Calculus I
+
+[https://uottawa.brightspace.com/d2l/le/content/283684/Home](https://uottawa.brightspace.com/d2l/le/content/283684/Home)
+
+## general
+
+prof name: Dr. Xinhou Hua
+
+prof email: [hxinhou@uottawa.ca](mailto:hxinhou@uottawa.ca) (use email subject _MAT1320 D_)
+
+prof office hours: after each class or by email — syllabus
+
+calculators are **not** allowed on the tests and final exam
+
+FINAL date will be scheduled by the university
+
+practice problems in the syllabus
+
+AST in mobius
+
+## Grading Scheme
+
+- AST — 5% (mobius)
+- MTERM — 2 \* 25%
+- FINAL — 45%
+
+## Lectures
+
+Zoom link: [https://uottawa-ca.zoom.us/j/7297581056?pwd=WnFMMjhTQzlDRXJQZmlQcGJmS2h0QT09](https://uottawa-ca.zoom.us/j/7297581056?pwd=WnFMMjhTQzlDRXJQZmlQcGJmS2h0QT09)
+
+## DGDs
+
+attendance is “required” — syllabus
+
+## textbook
+
+Calculus: Early Transcendentals, by James Stewart, 9th Edition.
+
+## Class Notes
+
+[[absolute-value-inequality]]
+
+[[limit-that-exists]], [[calculating-a-limit]]
+
+[[derivative-notation]], [[calculating-a-derivative]]
+
+**related**
+
+[[exponent]]
+
+[[factoring]]
+
+[[rationalizing]]
+
+[[trigonometric-identity]]
+
+all types of [[function]]s

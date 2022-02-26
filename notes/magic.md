@@ -1,0 +1,3 @@
+# MAGIC
+
+something that can only be explained through sheer magic

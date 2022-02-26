@@ -1,0 +1,81 @@
+# Principles of Economics
+
+_How People Make Decisions_
+
+### People Face Tradeoffs
+
+> **Efficiency**: the property of society getting the most it can from its [[scarce-resource]]s
+
+> **Equity**: the property of distributing economic prosperity fairly among the members of society
+
+### The Cost of Something is What You Give Up to Get it
+
+> **Opportunity Cost**: whatever must be given up to obtain some item
+
+### Rational People Think at the Margin
+
+> **Rational people**: those who systematically and purposefully do the best they can do to achieve their objectives
+
+> **Marginal changes**: small incremental adjustments to a plan of action
+
+### People Respond to Incentives
+
+> **Incentive**: something that induces a person to act
+
+_How People Interact_
+
+### Trade _Can_ Make Everyone Better Off
+
+trades allows a group of people to specialize in what they do best
+
+### Markets are Usually a Good Way to Organize Economic Activity
+
+> **Market Economy**: an economy that allocats resources through the decentralized decisions of many firms and households as they interact in markets for goods and services
+
+### Governments can _Sometimes_ Improve Market Outcomes
+
+governments are necessary
+
+- to inforce property rights
+
+> **Property Rights**: the ability of an individual to own and exercise control over [[scarce-resource]]s
+
+- to intervene in the economy by promoting **Efficiency** and **Equity**
+
+> **Market Failure**: a situation in which a market left on its own fails to allocate ressources efficiently
+
+> **Externality**: the impact of one person’s actions on the well-being of a bystander
+
+> **Market Power**: the ability pf a single economic actor (or a small group of actors) to have a substantial influence on market prices
+
+_How the Economy Works as a Whole_
+
+### A Country’s Standard of Living Depends on Its Ability to
+
+Produce [[goods-and-services]]
+
+> **Productivity**: the quantity of [[goods-and-services]] produced from each hour of a worker’s time
+
+### Prices Rise When the Government Prints Too Much Money
+
+[[inflation]]
+
+### Society Faces a Short-Run Tradeoff between Inflation and Unemployment
+
+this short-run tradeoff plays a key role in the analysis of the business cycle
+
+> **Business Cycle**: the irregular and largely unpredictable fluctuations in economic activity, as measured by the production of [[goods-and-services]] or the number of people employed
+
+## Macro VS Micro
+
+> **macroeconomics**: the study of economy-wide phenomena, including inflation, unemployment and economic growth
+
+> **microeconomics**: the study of how households and firms make decisions and how they interact in markets
+
+## Efficiency VS Equity
+
+— [https://www.economicshelp.org/blog/2473/economics/efficiency-vs-equity/](https://www.economicshelp.org/blog/2473/economics/efficiency-vs-equity/)
+
+> **Efficiency** is concerned with the optimal production and allocation of resources given existing factors of production.
+
+> **Equity** is concerned with how resources are distributed throughout society.

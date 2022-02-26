@@ -1,0 +1,16 @@
+# Stock Market
+
+> a **Stock** represents ownership in a firm and is, therefore, a claim to its profits
+
+the prices at which shares trade on stock exchanges are determined by the supply and demand for the stock
+
+> **Equity Finance** is the sale of a stock to raise money
+
+## Stock Index
+
+_an average of a group of stock prices_
+
+### examples
+
+- Dow Jones Industrial Average
+- S&P/TSX Composite Index
