@@ -34,8 +34,7 @@ $y = \cot x \equiv x = \text{acot } y$
 
 ## basic relations
 
-TODO:
-![Screenshot_20220209-192755_File Viewer~2.png](Trigonomet%201f5b7/Screenshot_20220209-192755_File_Viewer2.png)
+![](2022-02-26-01-29-33.png)
 
 ## other relations
 

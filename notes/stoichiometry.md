@@ -6,49 +6,48 @@ see [[classical-math-notation]]
 
 _use units to figure out what equations to use_
 
-TODO:
 
 ## example problem 1
 
-![Untitled](Stoichiome%20a3980/Untitled.png)
+![](2022-02-26-01-24-45.png)
 
 $Q_{water} = m_{water} \rho_{water} c (T_f - T_i)$
 
 _derived from $Q = mc \Delta T$_
 
-![Untitled](Stoichiome%20a3980/Untitled%201.png)
+![](2022-02-26-01-24-57.png)
 
-![Untitled](Stoichiome%20a3980/Untitled%202.png)
+![](2022-02-26-01-25-08.png)
 
 $m_{irridium} = -Q_{water} / (c (T_f - T_i))$
 
 _derived from $Q = mc \Delta T$_
 
-![Untitled](Stoichiome%20a3980/Untitled%203.png)
+![](2022-02-26-01-25-19.png)
 
-![Untitled](Stoichiome%20a3980/Untitled%204.png)
+![](2022-02-26-01-25-27.png)
 
 $V = m_{irridium} / \rho_{irridium} / 100$
 
 _the volume of a sphere is its mass divided by its density, divided by 100 spheres_
 
-![Untitled](Stoichiome%20a3980/Untitled%205.png)
+![](2022-02-26-01-25-36.png)
 
-![Untitled](Stoichiome%20a3980/Untitled%206.png)
+![](2022-02-26-01-25-43.png)
 
 $V_{sphere} = \frac{4 \pi (d/2)^3}{3}$
 
 _solve for diameter_
 
-![Untitled](Stoichiome%20a3980/Untitled%207.png)
+![](2022-02-26-01-25-51.png)
 
-![Untitled](Stoichiome%20a3980/Untitled%208.png)
+![](2022-02-26-01-26-00.png)
 
 $d_{sphere} = 8.45121mm \approx 8.5mm$
 
 ## example problem 2
 
-![Untitled](Stoichiome%20a3980/Untitled%209.png)
+![](2022-02-26-01-26-08.png)
 
 enthalpy change of a reaction: $\Delta_rH^0$
 
@@ -58,12 +57,12 @@ enthalpy change of a reaction: $\Delta_rH^0$
 - multiply reactions by constants to balance everything. note that when multiplying a reaction, $\Delta_rH^0$ also gets multiplied. fractional coefficients are allowed.
 - reactions are allowed to be flipped, but doing so also flips the sign of $\Delta_rH^0$
 - when done, cancel out molecules that are both in the reactants and in the products. note that the states and coefficients have to match, not only the molecules
-  ![Untitled](Stoichiome%20a3980/Untitled%2010.png)
+  ![](2022-02-26-01-26-21.png)
 - add up all $\Delta_rH^0$ to find the enthalpy change of the original reaction. in this case $\Delta_rH^0 = -135.0 \frac{kJ}{mol}$
 
 ## example problem 3
 
-![Untitled](Stoichiome%20a3980/Untitled%2011.png)
+![](2022-02-26-01-26-32.png)
 
 enthalpy of formation: $\Delta_fH^0$
 
@@ -97,7 +96,7 @@ a negative $Q$ means the reaction is exothermic, hence $40.6kJ$ of heat are rele
 
 ## example problem 4
 
-![Untitled](Stoichiome%20a3980/Untitled%2012.png)
+![](2022-02-26-01-26-59.png)
 
 ## write down the reaction
 
@@ -131,13 +130,12 @@ $\Delta H^0 = \frac{Q}{n_{H^+}} = \frac{-1.40 \times 10^3J}{2.5 \times 10^{-2}mo
 
 ---
 
-TODO:
-[[todo]]
+[[complete]]
 
-[TEMP] we will finish the question in the next DGD
+we will finish the question in the next DGD
 
-![Untitled](Stoichiome%20a3980/Untitled%2013.png)
+![](2022-02-26-01-28-15.png)
 
 $Q_{reaction} = - Q_{contents} \\ Q_{reaction} = (mc\Delta T)_{contents} \\ Q_{reaction} = (\frac{n_{H_2SO_{4(aq)}}}{MM_{H_2SO_{4(aq)}}} + 2\frac{n_{KOH{(aq)}}}{MM_{KOH{(aq)}}}) \times 4.184 \frac{J}{g\degree C} \times (T_f - T_i) \\ Q_{reaction} = (\frac{1.25 \times 10^{-2}mol}{2 \times 1.00784 \frac{g}{mol} + 1 \times 32.065 \frac{g}{mol} + 4 \times 15.999 \frac{g}{mol}} + 2 \frac{2.50 \times 10^{-2}mol}{1 \times 39.0983 \frac{g}{mol} + 1 \times 15.999 \frac{g}{mol} + 1 \times 1.00784 \frac{g}{mol}}) \times 4.184 \frac{J}{g\degree C} \times (30.17\degree C - 23.50\degree C)$
 
-![Untitled](Stoichiome%20a3980/Untitled%2014.png)
+![](2022-02-26-01-28-28.png)

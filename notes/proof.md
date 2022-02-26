@@ -1,6 +1,5 @@
 # Proof
 
-TODO:
 _definition_ [[todo]]
 
 ## Conditionals

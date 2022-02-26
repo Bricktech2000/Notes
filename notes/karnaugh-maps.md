@@ -52,16 +52,13 @@ _simplifying a Full Adder_
 
 using [[boolean-algebra]]
 
-TODO:
-![Untitled](Karnaugh%20M%201c4b9/Untitled.png)
+![](2022-02-26-01-18-06.png)
 
 using [[karnaugh-maps]]
 
-TODO:
-![Untitled](Karnaugh%20M%201c4b9/Untitled%201.png)
+![](2022-02-26-01-18-20.png)
 
-TODO:
-![Untitled](Karnaugh%20M%201c4b9/Untitled%202.png)
+![](2022-02-26-01-18-33.png)
 
 ### example 2
 
@@ -71,5 +68,4 @@ simplifying $\lnot f$
 
 let $f w x y z = w \land x \land (\lnot y \land z \lor y \land \lnot z)$
 
-TODO:
-![Untitled](Karnaugh%20M%201c4b9/Untitled%203.png)
+![](2022-02-26-01-18-59.png)

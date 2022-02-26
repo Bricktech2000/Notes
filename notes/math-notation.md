@@ -54,7 +54,7 @@ $a \dashv b$ is the inverse of above
 
 $a \equiv b$ is logical equality check (equivalent to $=$ but different precedence)
 
-$~~a \to b$ is lambda notation (`(a) => b`)~~
+~~$a \to b$ is lambda notation (`(a) => b`)~~
 
 $\varnothing$ is undefined
 
@@ -76,12 +76,10 @@ $('\text-)\braket{}(\cdot \circ) (|-) (=\ne\gt\ge\lt\le) \lnot \land \lor (\dash
 
 ### associativity
 
-TODO:
 [[todo]]
 
 ### distributivity
 
-TODO:
 [[todo]]
 
 composition distributes over implication. this allows for notation such as $\N \vdash \R$
@@ -93,8 +91,6 @@ composition distributes over implication. this allows for notation such as $\N \
 - sets are functions that return a boolean ($\R a$ instead of $a \in \R$)
 - $\braket a = \braket a \text- 2$ returns both positive and negative square roots ($\braket{q2} = \dot \circ q$)
 - $\braket 4 = 2$ is invalid, but $\braket 4 \dashv 2$ is valid
-
-TODO:
 
 - functions support currying to take multiple arguments [[complete]]
 

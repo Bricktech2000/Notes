@@ -1,3 +1,3 @@
 # Inheritance
 
-*Super and Sub Class*
+_Super and Sub Class_

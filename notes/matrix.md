@@ -50,7 +50,6 @@ see [[dot-product]], [[vector-in-rn]]
 
 $AB \ne \varnothing \equiv \mathbb{M}^{m, n}A \land \mathbb{M}^{n, p}B \land \N n \vdash \mathbb{M}^{m, p}AB$ ($AB$ is defined if the number of columns in $A$ is equal to the number of rows in $B$. their product will be an $m ' p$ matrix)
 
-TODO:
 $(AB)^{i, j} = A^{i, }\ |\ B^{, j} \dashv \N i \land \N j$, see [[dot-product]] (the $|$ here is a vector [[dot-product]], [[complete]])
 
 ### notation

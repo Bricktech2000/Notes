@@ -4,8 +4,7 @@ see [[math-notation]]
 
 _Price-to-Value relationships for a type of product can be represented on a sigmoid graph &mdash; me_
 
-TODO:
-![Untitled](Price-Valu%2047721/Untitled.png)
+![](2022-02-26-01-23-56.png)
 
 ### horizontal axis
 

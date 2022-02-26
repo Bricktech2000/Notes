@@ -20,8 +20,7 @@ that’s meta.
 
 This theory was formulated while eating nachos with Kiera. See $Fig.\ 1$.
 
-TODO:
-![20211219_215504.jpg](Improvabil%2002414/20211219_215504.jpg)
+![](2022-02-26-01-16-56.png)
 
 $Fig.\ 1$: Eating nachos with Kiera.
 

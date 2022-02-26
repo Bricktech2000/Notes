@@ -28,5 +28,4 @@ i = Integer.valueOf(
 
 _using [[java-primitive]]s is almost always faster_
 
-TODO:
-![Untitled](Boxing%2090a1f/Untitled.png)
+![](2022-02-26-01-14-04.png)

@@ -16,14 +16,10 @@ $k_0u_0 \cdot \dots k_nu_n$ is a _linear combination_ of the [[vector]]s $u_0 \d
 
 ## [[proof]] examples
 
-TODO:
-
-![Untitled](Linear%20Com%2090ea5/Untitled.png)
-
-![Untitled](Linear%20Com%2090ea5/Untitled%201.png)
+![](2022-02-26-01-20-54.png)
+![](2022-02-26-01-21-07.png)
 
 ---
 
-![Untitled](Linear%20Com%2090ea5/Untitled%202.png)
-
-![Untitled](Linear%20Com%2090ea5/Untitled%203.png)
+![](2022-02-26-01-21-16.png)
+![](2022-02-26-01-21-24.png)

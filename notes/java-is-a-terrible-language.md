@@ -1,20 +1,20 @@
 # Java is a Terrible Language
 
-![Untitled](Java%20is%20a%20%209834e/Untitled.png)
+![](2022-02-26-01-29-58.png)
 
 &mdash; Discord #general
 
-![Untitled](Java%20is%20a%20%209834e/Untitled%201.png)
+![](2022-02-26-01-30-07.png)
 
 &mdash; Discord #general
 
-![Untitled](Java%20is%20a%20%209834e/Untitled%202.png)
+![](2022-02-26-01-30-13.png)
 
-![Untitled](Java%20is%20a%20%209834e/Untitled%203.png)
+![](2022-02-26-01-34-54.png)
 
 &mdash; Discord #general
 
-![Untitled](Java%20is%20a%20%209834e/Untitled%204.png)
+![](2022-02-26-01-35-03.png)
 
 &mdash; live lecture
 

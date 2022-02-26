@@ -24,8 +24,6 @@ $k''(x) = 6x^2 - 12x$
 4. Find possible points of inflection
    - $k''(x) = 0\ for\ (x, y) = (0, 0), (2, -8)$
 5. Find the slope and concavity
-   TODO:
-   ![Untitled](Graphing%20a%20318cd/Untitled.png)
+   ![](2022-02-26-01-15-54.png)
 6. Sketch the function
-   TODO:
-   ![Untitled](Graphing%20a%20318cd/Untitled%201.png)
+   ![](2022-02-26-01-16-08.png)

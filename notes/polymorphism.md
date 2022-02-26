@@ -1,3 +1,3 @@
 # Polymorphism
 
-*Static - Overloading & Dynamic - Overriding*
+_Static - Overloading & Dynamic - Overriding_

@@ -6,8 +6,6 @@ see [[molecular-geometry]]
 
 ### examples
 
-TODO:
+![](2022-02-26-01-19-27.png)
 
-![Untitled](Lewis%20Stru%202fec9/Untitled.png)
-
-![Untitled](Lewis%20Stru%202fec9/Untitled%201.png)
+![](2022-02-26-01-19-39.png)

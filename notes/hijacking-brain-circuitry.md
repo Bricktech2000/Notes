@@ -30,5 +30,4 @@ other examples of weaker parasocial relationships
 
 ### video games
 
-TODO:
 [[todo]]

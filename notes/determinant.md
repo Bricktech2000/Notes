@@ -36,7 +36,6 @@ switching any two lines or two columns in the matrix: $\det(A) = - \det(A')$
 
 $\det(AB) = \det(A)\det(B)$
 
-TODO:
-$\det(A^{-1}) = \det(A)^{-1}$ (which is beautiful as $A^{-1}$ is an _inverse matrix_ whereas $\det(A)^{-1}$ is $\frac{1}{\det(A)}$) [[todo]]
+$\det(A^{-1}) = \det(A)^{-1}$ (which is beautiful as $A^{-1}$ is an _inverse matrix_ whereas $\det(A)^{-1}$ is $\frac{1}{\det(A)}$)
 
 $\det(A^m) = \det(A)^m, m \in \N$

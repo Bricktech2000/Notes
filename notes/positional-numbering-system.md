@@ -14,11 +14,7 @@ $1001_{2}$
 
 _for [[iti1100-a-digital-systems-i]]_
 
-TODO:
-![Untitled](Positional%20f9660/Untitled.png)
-
-![Untitled](Positional%20f9660/Untitled%201.png)
-
-![Untitled](Positional%20f9660/Untitled%202.png)
-
-![Untitled](Positional%20f9660/Untitled%203.png)
+![](2022-02-26-01-22-56.png)
+![](2022-02-26-01-23-08.png)
+![](2022-02-26-01-23-18.png)
+![](2022-02-26-01-23-25.png)

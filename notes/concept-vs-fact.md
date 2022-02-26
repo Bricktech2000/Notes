@@ -19,8 +19,7 @@ facts can easily get confused, which is the reason why we have reference books a
 
 _a piece of information tightly related to multiple other concepts_
 
-TODO:
-generally, they are more important than facts. they can be structured through conceptual [[notes]]. once grasped, they stay with you a lifetime. when learning concepts, make sure to understand the difference between [[recollection-vs-recognition]].
+generally, they are more important than facts. they can be structured through conceptual [[README|Notes]]. once grasped, they stay with you a lifetime. when learning concepts, make sure to understand the difference between [[recollection-vs-recognition]].
 
 ### examples
 

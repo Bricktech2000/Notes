@@ -1,5 +1,7 @@
 # Deriving the Quadratic Formula
 
+see [[classical-math-notation]]
+
 $y = a(x - h)^2 + k$
 
 $y = ax^2 + bx + c$

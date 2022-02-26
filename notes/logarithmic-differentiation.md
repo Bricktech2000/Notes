@@ -2,10 +2,6 @@
 
 _differentiating the logarithm of a function instead of the function itself_
 
-TODO:
+## example
 
-[[complete]]
-
-TODO:
-
-![Untitled](Logarithmi%20760d2/Untitled.png)
+![](2022-02-26-01-22-04.png)

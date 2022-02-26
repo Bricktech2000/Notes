@@ -13,3 +13,5 @@
 [[notion-time-management]]
 
 [[deriving-the-quadratic-formula]]
+
+[[conceptual-note-taking-2-0]]
