@@ -1,10 +1,10 @@
-# Boxing
+# Auto Boxing
 
 see [[java]], [[java-wrapper]]
 
-> **boxing** is the automatic conversion from a [[java-primitive]] to a [[java-reference]]
+> **auto boxing** is the automatic conversion from a [[java-primitive]] to a [[java-reference]]
 
-> **unboxing** is the automatic conversion from a [[java-reference]] to a [[java-primitive]]
+> **auto unboxing** is the automatic conversion from a [[java-reference]] to a [[java-primitive]]
 
 ### examples
 

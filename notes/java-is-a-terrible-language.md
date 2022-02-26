@@ -20,7 +20,7 @@
 
 ## java `.equals`
 
-[Overriding Java Equals](Overriding%206431b.md)
+[[overriding-java-equals]]
 
 ## generic arrays
 
@@ -28,7 +28,7 @@ Java does _not_ allow the creation of generic arrays `E[] a = new E[capacity]` w
 
 however, this will throw a warning, which will have to be suppressed using the following decorator: `@SuppressWarnings("unchecked")`.
 
-see [Java is a Terrible Language](Java%20is%20a%20%209834e.md)
+see [[java-is-a-terrible-language]]
 
 see [https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java](https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java)
 
@@ -40,7 +40,7 @@ zero type inference, because Java. actually, [https://www.google.com/search?q=ja
 
 Java does **not** support operator overloading, because Java
 
-## [Java Wrapper](Java%20Wrapp%2092b0e.md)s
+## [[java-wrapper]]s
 
 ## Other Criticism of Java
 

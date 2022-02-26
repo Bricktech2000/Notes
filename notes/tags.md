@@ -7,3 +7,5 @@
 [[understand]]
 
 [[magic]]
+
+[[think]]

@@ -1,6 +1,6 @@
 # Improvability Theory
 
-see [[classical-math-notation]]
+see [[classical-math-notation]], [[proof]]
 
 The Improvability Theory states that:
 

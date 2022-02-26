@@ -1,6 +1,6 @@
 # Java Scopes
 
-Java scopes are defined with `{ /*...*/ }`
+Java scopes are defined using `{ /*...*/ }`
 
 ### example
 
@@ -10,7 +10,3 @@ Java scopes are defined with `{ /*...*/ }`
 }
 k++; // throws an error
 ```
-
-### note
-
-the order in which [[class]] properties and methods are defined is irrelevant

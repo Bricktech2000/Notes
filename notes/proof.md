@@ -1,5 +1,7 @@
 # Proof
 
+see [[improvability-theory]]
+
 _definition_ [[complete]]
 
 ## Conditionals

@@ -26,4 +26,4 @@ _just a terrible programming language_
 
 > in Java, declaring a class `class MyClass` is shorthand for `class MyClass extents Object`
 
-> in Java, **generics** are almost identical to `template`s in C++. behind the scenes, they seem to replace all instances of the generic type by `Object`, but they still allow for compile-time type checks to avoid runtime errors &mdash; [https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood](https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood)
+> in Java, **generics** are almost identical to `template`s in C++. behind the scenes, they seem to replace all instances of the generic type by `Object`, but they still allow for compile-time type checks to avoid runtime errors &mdash; [https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood](https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood). see [[java-is-a-terrible-language]]

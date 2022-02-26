@@ -20,3 +20,7 @@ sensors to put all around your house that log data to a central system
 - light sensor (LDR + resistor)
 - hall effect sensor (3144)
 - battery (CR2032 3V 240mAh)
+
+## current progress
+
+wiring is way too messy, flexible PCB will have to be designed

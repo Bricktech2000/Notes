@@ -24,4 +24,4 @@ below are the position of some items I own on the curve (note that the value sta
 
 ### note
 
-turns out I rediscovered “diminishing returns”
+turns out I rediscovered “diminishing returns”, see [[economics]], [[scarce-resource]], [[sunk-costs]]

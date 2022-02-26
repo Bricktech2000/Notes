@@ -29,3 +29,7 @@ which can all either be:
 ### definitions
 
 > a **final** variable can only be initialised once
+
+### note
+
+> the order in which [[class]] properties and methods are defined in [[java]] is irrelevant
