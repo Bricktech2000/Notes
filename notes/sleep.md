@@ -41,13 +41,13 @@ having a strict and consistent sleep schedule increases sleep quality drasticall
 
 stick to this schedule at least 6 days a week
 
-sleep has evolved to be adaptible, which is why it is so easy to disrupt one’s sleep schedule &mdash; [https://youtu.be/1aogY1Tm2Lo?t=1250](https://youtu.be/1aogY1Tm2Lo?t=1250)
+sleep has evolved to be adaptible, which is why it is so easy to disrupt one’s sleep schedule &mdash; <https://youtu.be/1aogY1Tm2Lo?t=1250>
 
 ### pre-bedtime routine
 
 example: warm shower and 10 minutes of meditation. writing down lingering thoughts and ideas can be a solution to a running mind at night.
 
-limiting screen use is very important. example: no screentime 30 minutes before bed. 1 to 2 hours is even better &mdash; [https://youtu.be/iMfsa7ntJZE?t=502](https://youtu.be/iMfsa7ntJZE?t=502)
+limiting screen use is very important. example: no screentime 30 minutes before bed. 1 to 2 hours is even better &mdash; <https://youtu.be/iMfsa7ntJZE?t=502>
 
 ### bed for sleep only
 
@@ -84,10 +84,10 @@ naps longer than 90 minutes will make it more difficult to fall asleep at night
 
 ## &mdash;
 
-[https://www.youtube.com/watch?v=Oq28WJpZfLg&ab_channel=MedSchoolInsiders](https://www.youtube.com/watch?v=Oq28WJpZfLg&ab_channel=MedSchoolInsiders)
+<https://www.youtube.com/watch?v=Oq28WJpZfLg&ab_channel=MedSchoolInsiders>
 
-[https://www.youtube.com/watch?v=XtDc_iJ-j-M&ab_channel=MedSchoolInsiders](https://www.youtube.com/watch?v=XtDc_iJ-j-M&ab_channel=MedSchoolInsiders)
+<https://www.youtube.com/watch?v=XtDc_iJ-j-M&ab_channel=MedSchoolInsiders>
 
-[https://www.youtube.com/watch?v=eavEgXMmenQ](https://www.youtube.com/watch?v=eavEgXMmenQ)
+<https://www.youtube.com/watch?v=eavEgXMmenQ>
 
-[https://www.youtube.com/watch?v=qB4H3QuVpMo&ab_channel=DrSamRobbins](https://www.youtube.com/watch?v=qB4H3QuVpMo&ab_channel=DrSamRobbins)
+<https://www.youtube.com/watch?v=qB4H3QuVpMo&ab_channel=DrSamRobbins>

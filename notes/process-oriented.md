@@ -7,7 +7,7 @@ most of our culture is outcome-oriented instead of process-oriented. here are so
 
 focusing on outcomes can lead to [[feeling-overwhelmed]] and can prevent people from even starting the process itself (which could be wrongly rationalized as a lack of [[motivation]] or as [[laziness]])
 
-&mdash; [https://youtu.be/\_ZVGXmafWqY?t=72](https://youtu.be/_ZVGXmafWqY?t=72)
+&mdash; <https://youtu.be/\_ZVGXmafWqY?t=72>
 
 ## example with jobs
 
@@ -47,10 +47,10 @@ as a side note, the goals one sets must **feel achievable**. about half must be 
 
 &mdash; Grace Campbell (if anyone ever reads this, feel free to tell her I have a very high opinion of her. I really wonder where she will end up later in life, and I can’t wait to find out. and god is she smart.)
 
-&mdash; [https://youtu.be/Olzc15hIcyI](https://youtu.be/Olzc15hIcyI)
+&mdash; <https://youtu.be/Olzc15hIcyI>
 
 ### quote that hit hard
 
-> If they [gamers] believe that there is a chance that something won’t work, they actually avoid the entire phenomenon &mdash; [https://youtu.be/\_ZVGXmafWqY?t=171](https://youtu.be/_ZVGXmafWqY?t=171)
+> If they [gamers] believe that there is a chance that something won’t work, they actually avoid the entire phenomenon &mdash; <https://youtu.be/\_ZVGXmafWqY?t=171>
 
 this kind of thought process can be part of the reason why someone is not able to move forward in life. people with an analytical mind think they know what will happen, which prevents them from taking risks

@@ -53,7 +53,7 @@ _REF_
 a [[matrix]] (augmented or not) is in REF if:
 
 - all zero rows are at the bottom
-- the first nonzero entry in each row is a $1$ (called the _pivot_) (this criterion seems to be wrong according to [https://en.wikipedia.org/wiki/Gaussian_elimination](https://en.wikipedia.org/wiki/Gaussian_elimination))
+- the first nonzero entry in each row is a $1$ (called the _pivot_) (this criterion seems to be wrong according to <https://en.wikipedia.org/wiki/Gaussian_elimination>)
 - each pivot is to the right of each pivot in all rows above
 
 ### putting a [[matrix]] in REF

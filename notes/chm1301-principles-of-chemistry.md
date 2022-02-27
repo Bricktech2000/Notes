@@ -14,7 +14,7 @@ prof name: Rashmi Venkateswaran
 
 know what is an [[ionic-compound]] and know how to identify conjugate [[acid-and-base]]s
 
-know common [[acid-and-base]]s, [[polyatomic-cation]]s and [[polyatomic anion]](Notes%2079775/Polyatomic%200d435.md)s
+know common [[acid-and-base]]s, [[polyatomic-cation]]s and [[polyatomic anion]]s
 
 know how to calculate relative [[effusion]]
 

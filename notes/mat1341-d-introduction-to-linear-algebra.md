@@ -1,12 +1,12 @@
 # MAT1341 [D] Introduction to Linear Algebra
 
-[https://uottawa.brightspace.com/d2l/le/content/287356/Home](https://uottawa.brightspace.com/d2l/le/content/287356/Home)
+<https://uottawa.brightspace.com/d2l/le/content/287356/Home>
 
 ## general
 
 prof name: Antoine Poirier
 
-prof email: [apoirie5@uottawa.ca](mailto:apoirie5@uottawa.ca)
+prof email: <apoirie5@uottawa.ca>
 
 prof office hours: Tuesday 14:30-16:00 &mdash; first lecture
 

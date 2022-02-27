@@ -2,7 +2,7 @@
 
 _tricks for learning facts_
 
-&mdash; [https://www.youtube.com/watch?v=IlU-zDU6aQ0&ab_channel=PierceCollegeDist11](https://www.youtube.com/watch?v=IlU-zDU6aQ0&ab_channel=PierceCollegeDist11)
+&mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0&ab_channel=PierceCollegeDist11>
 
 ## examples of mnemonics
 

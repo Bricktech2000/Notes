@@ -8,7 +8,7 @@ This would allow for any algebraic manipulation on expressions without having to
 
 Update: the following video breaks the principle stated above.
 
-[https://www.youtube.com/watch?v=hI9CaQD7P6I&ab_channel=JohnHush](https://www.youtube.com/watch?v=hI9CaQD7P6I&ab_channel=JohnHush)
+<https://www.youtube.com/watch?v=hI9CaQD7P6I&ab_channel=JohnHush>
 
 $\lim_{x \to 0}\frac x x$
 

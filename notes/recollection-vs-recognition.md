@@ -2,7 +2,7 @@
 
 _Remember VS Recognise_
 
-recognition and recollection are completely different concepts, but are often confused &mdash; [https://www.youtube.com/watch?v=IlU-zDU6aQ0&ab_channel=PierceCollegeDist11](https://www.youtube.com/watch?v=IlU-zDU6aQ0&ab_channel=PierceCollegeDist11)
+recognition and recollection are completely different concepts, but are often confused &mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0&ab_channel=PierceCollegeDist11>
 
 ## testing this theory
 

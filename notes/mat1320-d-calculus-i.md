@@ -1,12 +1,12 @@
 # MAT1320 [D] Calculus I
 
-[https://uottawa.brightspace.com/d2l/le/content/283684/Home](https://uottawa.brightspace.com/d2l/le/content/283684/Home)
+<https://uottawa.brightspace.com/d2l/le/content/283684/Home>
 
 ## general
 
 prof name: Dr. Xinhou Hua
 
-prof email: [hxinhou@uottawa.ca](mailto:hxinhou@uottawa.ca) (use email subject _MAT1320 D_)
+prof email: <hxinhou@uottawa.ca> (use email subject _MAT1320 D_)
 
 prof office hours: after each class or by email &mdash; syllabus
 
@@ -26,7 +26,7 @@ AST in mobius
 
 ## Lectures
 
-Zoom link: [https://uottawa-ca.zoom.us/j/7297581056?pwd=WnFMMjhTQzlDRXJQZmlQcGJmS2h0QT09](https://uottawa-ca.zoom.us/j/7297581056?pwd=WnFMMjhTQzlDRXJQZmlQcGJmS2h0QT09)
+Zoom link: <https://uottawa-ca.zoom.us/j/7297581056?pwd=WnFMMjhTQzlDRXJQZmlQcGJmS2h0QT09>
 
 ## DGDs
 

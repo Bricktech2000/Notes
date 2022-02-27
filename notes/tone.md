@@ -10,7 +10,7 @@ even in [[technical-writing]], a good tone is important to communicate effective
 
 ## Types of tone
 
-see [https://www.albert.io/blog/ultimate-list-of-tone-words/](https://www.albert.io/blog/ultimate-list-of-tone-words/)
+see <https://www.albert.io/blog/ultimate-list-of-tone-words/>
 
 ## [[passive-and-active-voice]]s
 

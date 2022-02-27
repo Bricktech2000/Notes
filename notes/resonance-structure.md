@@ -8,4 +8,4 @@ see [[bond]], [[lewis-structure]]
 
 ![](2022-02-26-01-24-20.png)
 
-&mdash; [https://chem.libretexts.org/Bookshelves/General*Chemistry/Map%3A_Chemistry*-_The_Central_Science_(Brown_et_al.)/08.\_Basic_Concepts_of_Chemical_Bonding/8.6%3A_Resonance_Structures](<https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/08._Basic_Concepts_of_Chemical_Bonding/8.6%3A_Resonance_Structures>)
+&mdash; <https://chem.libretexts.org/Bookshelves/General*Chemistry/Map%3A_Chemistry*-_The_Central_Science_(Brown_et_al.)/08.\_Basic_Concepts_of_Chemical_Bonding/8.6%3A_Resonance_Structures>

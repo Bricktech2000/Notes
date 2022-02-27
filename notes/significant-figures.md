@@ -1,6 +1,6 @@
 # Significant Figures
 
-see [http://cxp.cengage.com/contentservice/assets/owms01h/references/significantfigures/index.html](http://cxp.cengage.com/contentservice/assets/owms01h/references/significantfigures/index.html), [[classical-math-notation]]
+see <http://cxp.cengage.com/contentservice/assets/owms01h/references/significantfigures/index.html>, [[classical-math-notation]]
 
 ## Rule
 

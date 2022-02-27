@@ -219,12 +219,12 @@ the negation of $A \vdash B$ is **not** $A \dashv B$ (duh)
 
 ### srcs
 
-[https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols)
+<https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols>
 
-[https://www.google.com/search?q=latex+sideways+t&oq=latex+sideways+t&aqs=edge..69i57j0i512l5j0i22i30l3.4773j0j1&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=latex+sideways+t&oq=latex+sideways+t&aqs=edge..69i57j0i512l5j0i22i30l3.4773j0j1&sourceid=chrome&ie=UTF-8)
+<https://www.google.com/search?q=latex+sideways+t&oq=latex+sideways+t&aqs=edge..69i57j0i512l5j0i22i30l3.4773j0j1&sourceid=chrome&ie=UTF-8>
 
-[https://tex.stackexchange.com/questions/100941/how-do-i-get-the-single-turnstile-symbol](https://tex.stackexchange.com/questions/100941/how-do-i-get-the-single-turnstile-symbol)
+<https://tex.stackexchange.com/questions/100941/how-do-i-get-the-single-turnstile-symbol>
 
-[https://www.google.com/search?q=math+sideways+t&oq=math+sideways+t&aqs=edge..69i57j0i22i30l2.5762j0j1&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=math+sideways+t&oq=math+sideways+t&aqs=edge..69i57j0i22i30l2.5762j0j1&sourceid=chrome&ie=UTF-8)
+<https://www.google.com/search?q=math+sideways+t&oq=math+sideways+t&aqs=edge..69i57j0i22i30l2.5762j0j1&sourceid=chrome&ie=UTF-8>
 
-[https://tex.stackexchange.com/questions/114364/what-command-to-use-for-reversed-vdash](https://tex.stackexchange.com/questions/114364/what-command-to-use-for-reversed-vdash)
+<https://tex.stackexchange.com/questions/114364/what-command-to-use-for-reversed-vdash>

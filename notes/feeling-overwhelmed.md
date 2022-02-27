@@ -1,6 +1,6 @@
 # Feeling Overwhelmed
 
-> People feel overwhelmed when they are unable to break down a goal into its component tasks &mdash; [https://youtu.be/DMw8G3RPWrQ?t=9715](https://youtu.be/DMw8G3RPWrQ?t=9715)
+> People feel overwhelmed when they are unable to break down a goal into its component tasks &mdash; <https://youtu.be/DMw8G3RPWrQ?t=9715>
 
 feeling overwhelmed can hinder [[motivation]] and can cause [[procrastination]]
 

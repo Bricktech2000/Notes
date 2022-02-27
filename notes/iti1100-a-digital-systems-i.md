@@ -1,12 +1,12 @@
 # ITI1100 [A] Digital Systems I
 
-[https://uottawa.brightspace.com/d2l/le/content/285255/Home](https://uottawa.brightspace.com/d2l/le/content/285255/Home)
+<https://uottawa.brightspace.com/d2l/le/content/285255/Home>
 
 ## general
 
 prof name: Wassim El Ahmar
 
-prof email: [welah096@uottawa.ca](mailto:welah096@uottawa.ca)
+prof email: <welah096@uottawa.ca>
 
 prof office hours: Every Friday from 15:00 to 16:00, via Zoom
 

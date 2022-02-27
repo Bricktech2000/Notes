@@ -144,4 +144,4 @@ $(AB)^\intercal = B^\intercal A^\intercal \dashv \mathbb{M} A \land \mathbb{M} B
 
 ### example
 
-![https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif)

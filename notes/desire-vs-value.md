@@ -2,7 +2,7 @@
 
 a _desire_ is something someone wants but that doesn’t really drive behaviour, whereas a _value_ is something someone wants and which can drive behaviour on its own
 
-&mdash; [https://youtu.be/dQpakiT4tHI?t=218](https://youtu.be/dQpakiT4tHI?t=218)
+&mdash; <https://youtu.be/dQpakiT4tHI?t=218>
 
 ### examples of desires
 

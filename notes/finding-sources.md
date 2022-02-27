@@ -2,9 +2,9 @@
 
 ## Libraries and Databases
 
-uOttawa library: [https://biblio.uottawa.ca/en](https://biblio.uottawa.ca/en)
+uOttawa library: <https://biblio.uottawa.ca/en>
 
-uOttawa technical report writing research guide: [https://uottawa.libguides.com/research-technical-report-writing](https://uottawa.libguides.com/research-technical-report-writing)
+uOttawa technical report writing research guide: <https://uottawa.libguides.com/research-technical-report-writing>
 
 - useful to find more detailed, reliable information
 - uses very little AI and doesn't personalize results

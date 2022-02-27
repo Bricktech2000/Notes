@@ -8,7 +8,7 @@ see [[math-notation]]
 
 ### online calculator
 
-[https://www.bankofcanada.ca/rates/related/inflation-calculator/](https://st1.zoom.us/web_client/yckmkh4/html/externalLinkPage.html?ref=https://www.bankofcanada.ca/rates/related/inflation-calculator/)
+<https://www.bankofcanada.ca/rates/related/inflation-calculator/>
 
 ### using [[gross-domestic-product]]
 

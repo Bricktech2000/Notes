@@ -6,7 +6,7 @@ it is one of the ways of representing negative numbers in [[digital-system]]s an
 
 there are two different complements for a given [[positional-numbering-system]], outlined below.
 
-&mdash;[https://www.quora.com/In-computing-what-is-16-s-complement-Why-is-it-used](https://www.quora.com/In-computing-what-is-16-s-complement-Why-is-it-used)
+&mdash; <https://www.quora.com/In-computing-what-is-16-s-complement-Why-is-it-used>
 
 ## Radix Complement
 

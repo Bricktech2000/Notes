@@ -2,13 +2,13 @@
 
 for better [[learning]], identify if what you're learning is a concept or a fact.
 
-&mdash; [https://youtu.be/IlU-zDU6aQ0?t=1264](https://youtu.be/IlU-zDU6aQ0?t=1264)
+&mdash; <https://youtu.be/IlU-zDU6aQ0?t=1264>
 
 ## Fact
 
 _an isolated piece of information related to a concept_
 
-facts can easily get confused, which is the reason why we have reference books and search engines. _if you know the concept, you can quickly look up the fact_. facts can be learned through [Mnemonics](Mnemonics%203ffa4.md).
+facts can easily get confused, which is the reason why we have reference books and search engines. _if you know the concept, you can quickly look up the fact_. facts can be learned through [[mnemonics]].
 
 ### examples
 

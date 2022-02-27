@@ -13,4 +13,4 @@ reverse engineer API
 
 ## result
 
-turns out this is already a thing: [https://uschedule.me/](https://uschedule.me/)
+turns out this is already a thing: <https://uschedule.me/>

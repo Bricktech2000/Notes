@@ -2,7 +2,7 @@
 
 ### All Primitive types
 
-&mdash; [https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+&mdash; <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html>
 
 ```java
 byte, short, int, long, float, double, boolean, char

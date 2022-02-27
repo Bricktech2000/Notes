@@ -1,8 +1,8 @@
 # Line in R3
 
-see [Vector in Rn](Vector%20in%20%2003bf7.md), [Math Notation](Math%20Notat%207bc45.md)
+see [[vector in rn]], [[math notation]]
 
-&mdash; [https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s](https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s)
+&mdash; <https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s>
 
 ## Parametric Equation
 
@@ -24,7 +24,7 @@ solving the above equation for $t$
 
 $L \circ p - p_1 \circ p_0 = t$
 
-using [Vector in Rn](Vector%20in%20%2003bf7.md)3, we get
+using [[vector in rn]]3, we get
 
 $L^x \circ p^x - p_1^x \circ p_0^x = L^y \circ p^y - p_1^y \circ p_0^y = L^z \circ p^z - p_1^z \circ p_0^z$
 
@@ -38,7 +38,7 @@ if $L_0^n = L_1^n \dashv \Z n$ has a solution, then the two lines intersect at s
 
 ## Angle Between Two Lines
 
-the angle between two lines is the angle between their direction [Vector in Rn](Vector%20in%20%2003bf7.md)s
+the angle between two lines is the angle between their direction [[vector in rn]]s
 
 ## other
 
