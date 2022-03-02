@@ -26,7 +26,7 @@ Mankiw, N.G., R.D. Kneebone and K.J. McKenzie (2020) Principles of Macroeconomic
 
 ## Class Notes
 
-[[economics]], [[principles-of-economics]]
+[[economics]], [[principles-of-economics]], [[unemployment]]
 
 **related**
 

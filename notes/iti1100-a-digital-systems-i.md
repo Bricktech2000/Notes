@@ -39,7 +39,7 @@ Publisher: Pearson-Prentice Hall
 
 ## Class Notes
 
-[[digital-system]], [[cost-of-a-logic-circuit]]
+[[digital-system]], [[cost-of-a-logic-circuit]], [[logic-circuit]]
 
 [[positional-numbering-system]]
 
