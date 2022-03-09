@@ -18,6 +18,14 @@ $\R^1$, $\R^2$, $\R^n \land \N n$
 
 $V v \equiv v = O$ (a set containing only the zero vector is a vector space)
 
+## Isomorphic Vector Spaces
+
+> Iso-Morphic &mdash; Same Shape
+
+### examples
+
+$\R^3$ and $\mathbb{P}^2$ are isomorphic, as any vector in $\R^3$ can be converted in a unique vector in $\mathbb{P}^2$, and vice-versa
+
 ## Dimension of a Vector Space
 
 ### notation
@@ -43,6 +51,8 @@ $\dim \mathbb{M}^{3, 4} = 12$
 $\dim V = 2$ where $V$ is a [[plane-in-r3]]
 
 $\dim V = 1$ where $V$ is a [[line-in-r3]] or in $\R^2$
+
+$\dim span\{0\} = 0$ ([[think]], see [[span]])
 
 ## Describing Vector Spaces
 

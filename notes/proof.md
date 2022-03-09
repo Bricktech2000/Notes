@@ -24,7 +24,7 @@ to prove a biconditional statement such as $x \equiv y$
 
 see [[math-notation]]
 
-**Theorem**: let $n$ be an integer. if $n$ is odd, then $n2$ is odd
+> **theorem**: let $n$ be an integer. if $n$ is odd, then $n2$ is odd
 
 $\Z n$ and assume $\mathbb{O}n$
 

@@ -13,5 +13,5 @@ a _desire_ is something someone wants but that doesn’t really drive behaviour,
 
 (slightly stretching the conventional definition of _value_)
 
-- getting to the leaderboard on a video game
+- getting to the leaderboard on a [[video-game]]
 - maintaining a friendship with someone

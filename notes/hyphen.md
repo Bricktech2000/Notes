@@ -23,3 +23,9 @@ _note the difference between compound adjectives and complements_
 fractions should be hyphenated
 
 > Three-quarters of students $\dots$
+
+## Units
+
+units should be hyphenated when used as adjectives
+
+> A 110-foot sandy beachfront

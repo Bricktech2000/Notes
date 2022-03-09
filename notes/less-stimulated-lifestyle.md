@@ -3,7 +3,7 @@
 ## problematic activities
 
 - social media (algorithm-based feed)
-- video games (levels & rankings)
+- [[video-game]]s (levels & rankings)
 - Netflix & YouTube
 - junk food & drinks
 - sex & masturbation
@@ -44,7 +44,7 @@ for example, each hour of use has to be preceded by half an hour of "doing nothi
 
 - YouTube
 - Netflix
-- video games
+- [[video-game]]s
 
 ### prohibited
 

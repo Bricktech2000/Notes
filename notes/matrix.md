@@ -16,7 +16,7 @@ _the number of pivots in any REF of the matrix_
 
 ### notation
 
-$rank(A)$, where
+$rank\ A$, where
 
 $A$ is the matrix to find the rank of
 
@@ -118,15 +118,65 @@ $A_{m, n}O_{n, p} = O_{m, p} \dashv \mathbb{M}^{n, p} O_{n, p} \land \mathbb{M}^
 
 $O_{q, m}A_{m, n} = O_{q, n} \dashv \mathbb{M}^{q, m} O_{q, m} \land \mathbb{M}^{q, n} O_{q, n} \land \mathbb{M}^{m, n} A_{m, n}$
 
-## Kernel (Null Space)
+## Nullspace (Kernel)
 
 ### notation
 
-$Ker\ A$
+$Ker\ A \equiv Null\ A$
 
 ### definition
 
-$(Ker\ A) x \equiv Ax = 0 \land \mathbb{M}^{m, n}A \land \mathbb{M}^{n, 1} x$
+$Ker\ A = x \equiv Null\ A = x \equiv Ax = 0 \land \mathbb{M}^{m, n}A \land \mathbb{M}^{n, 1} x$
+
+the Kernel of a matrix can be calculated using [[gaussian-elimination|row-reduction]]
+
+### properties
+
+the Null Space of a [[matrix]] is always a [[vector-space]]
+
+> **theorem**: the [[span]]ning set of $Null\ A$ obtained from applying [[gaussian-elimination|row-reduction]] on the system $Ax = 0$ is a [[basis]] for $Null\ A$
+
+> therefore, as $\dim Null\ A = \text{number of free variables in } Ax = 0$, we deduce that $\dim Null\ A \cdot rank\ A = \text{number of columns in } A$
+
+### example
+
+_transforming a vector space into the null space of a ncertain matrix_
+
+let $W = span\{(1, 0, 0, 1), (1, 1, 1, 0), (2, 1, \circ 1, 1)\}$
+
+after solving the [[linear-system]], we get $W (x, y, z, w) \equiv \circ x \cdot y \cdot w = 0$. therefore, $W$ is the nullspace of $A = \begin{bmatrix}\circ 1 & 1 & 0 & 1\end{bmatrix}$
+
+## Column Space, Row Space
+
+see [[vector-in-rn-vector-space]]
+
+### notation
+
+$Col\ A$
+
+$Row\ A$
+
+### definition
+
+$Col\ A = span\{A^{, n}\} \dashv \N n$
+
+$Row\ A = span\{A^{n,}\} \dashv \N n$
+
+### properties
+
+$Col\ A = Row\ A^\intercal \land Row\ A = Col\ A^\intercal$, see transpose [[matrix]]
+
+> **theorem**: $Row\ A$ does not change when doing [[linear-system|elementary-operations]] on the rows of $A$ (if $A$ and $B$ are [[linear-system|row-equivalent]], $Row\ A = Row\ B$
+
+> **theorem**: the nonzero rows in any [[linear-system|REF]] of a [[matrix]] $A$ forms a [[basis]] for $Row\ A$. therefore, $\dim Row\ A = rank\ A$ (see rank of a [[matrix]])
+
+row spaces can be used to find a [[basis]] for a [[span]]ning set of vectors through [[gaussian-elimination|row-reduction]]
+
+the basis for the column space of a [[matrix]] can be found by applying [[gaussian-elimination|row-reduction]] and [[span]]ning the **row-reduced columns** in the [[linear-system|REF]] form of the [[matrix]]
+
+the basis for the column space of a [[matrix]] can be found by applying [[gaussian-elimination|row-reduction]] and [[span]]ning the **original columns** that became pivots in the [[linear-system|REF]] form of the [[matrix]]
+
+the same can be said for $Col\ A$
 
 ## Transpose Matrix
 

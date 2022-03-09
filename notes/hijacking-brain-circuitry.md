@@ -28,6 +28,6 @@ other examples of weaker parasocial relationships
 - listening to music from an artist
 - going to an artist’s concert
 
-### video games
+### [[video-game]]s
 
 [[complete]]

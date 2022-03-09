@@ -9,9 +9,9 @@ growth can be represented by the [[gross-domestic-product]] per person. often re
 policymakers can look at the following factors to grow an [[economy]]
 
 - the importance of saving and investment
-- diminishing returns and the catch-up effect
+- [[diminishing-returns]] and the [[catch-up-effect]]
 - handling investments from abroad
-- handling education (price, sending to other countries)
+- handling [[education]] (price, sending to other countries)
 - health and nutrition
 - property rights and political stability
 - free trade (how much and what kind)
@@ -24,7 +24,7 @@ governments can saving and investment, leading to a higher standard of living in
 
 a well-functioning and carefully regulated financial market is essential for long-term [[economic-growth]]
 
-## diminishing returns and the catch-up effect
+## [[diminishing-returns]] and the [[catch-up-effect]]
 
 policies that raise the saving rate mean mean that fewer resources are needed to make consumption goods and more resources are now available to make capital goods (”goods that produce”)
 
@@ -33,10 +33,6 @@ the capital stock increases, which raises [[productivity]] thus leading to a hig
 the benefits from additional capital become smaller over time, so growth slows down
 
 it is easier for a country to grow rapidly initially if it starts out relatively poor
-
-> **Diminishing Returns**: the benefit from an additional unit of input declines as the quantity of input increases
-
-> **Catch-up Effect**: countries that start off poor tend to grow more rapidly than countries that start out relatively rich
 
 ## investments from abroad
 
