@@ -24,6 +24,6 @@
 
 ## applications
 
-[[graphing-a-function]]
+[[curve-sketching]]
 
 [[optimizing-a-function]]

@@ -37,7 +37,7 @@ not a checklist, only a guide on what to consider
 
 > does the language or tone seem biased? (should also be free of emotion)
 > does the author provide a balanced view of the information?
-> could there be a conflict of interest by the author or organisation?
+> could there be a conflict of interest by the author or organization?
 > what is the purpose of the information?
 
 ### Support

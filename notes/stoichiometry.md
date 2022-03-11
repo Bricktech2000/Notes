@@ -18,7 +18,7 @@ _derived from $Q = mc \Delta T$_
 
 ![](2022-02-26-01-25-08.png)
 
-$m_{irridium} = -Q_{water} / (c (T_f - T_i))$
+$m_{iridium} = -Q_{water} / (c (T_f - T_i))$
 
 _derived from $Q = mc \Delta T$_
 
@@ -26,7 +26,7 @@ _derived from $Q = mc \Delta T$_
 
 ![](2022-02-26-01-25-27.png)
 
-$V = m_{irridium} / \rho_{irridium} / 100$
+$V = m_{iridium} / \rho_{iridium} / 100$
 
 _the volume of a [[sphere]] is its mass divided by its density, divided by 100 spheres_
 
@@ -121,9 +121,9 @@ $Q_{reaction} = (2\frac{n_{H_2SO_{4(aq)}}}{MM_{H_2SO_{4(aq)}}} + 2\frac{n_{KOH{(
 
 $Q_{reaction} = (\frac{1.25 \times 10^{-2}mol}{2 \times 1.00784 \frac{g}{mol} + 1 \times 32.065 \frac{g}{mol} + 4 \times 15.999 \frac{g}{mol}} + 2 \frac{2.50 \times 10^{-2}mol}{1 \times 39.0983 \frac{g}{mol} + 1 \times 15.999 \frac{g}{mol} + 1 \times 1.00784 \frac{g}{mol}}) \times 4.184 \frac{J}{g\degree C} \times (30.17\degree C - 23.50\degree C)$
 
-$Q_{reqction} = -1.40 \times 10^3J$ (I believe, see screenshots below)
+$Q_{reaction} = -1.40 \times 10^3J$ (I believe, see screenshots below)
 
-## find enthalpy of neutralisation
+## find enthalpy of neutralization
 
 $\Delta H^0 = \frac{Q}{n_{H^+}} = \frac{-1.40 \times 10^3J}{2.5 \times 10^{-2}mol} = -55.8\frac{kJ}{mol_{H^+}}$
 

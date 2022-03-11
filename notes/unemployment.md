@@ -2,7 +2,7 @@
 
 > An [[economy]]'s **natural rate of [[unemployment]]** refers to the amount of [[unemployment]] the [[economy]] normally experiences
 
-> **Cyclycal [[unemployment]]** is the year-to-year fluctuations in [[unemploymentem]] around the natural rate.
+> **Cyclical [[unemployment]]** is the year-to-year fluctuations in [[unemployment]] around the natural rate.
 
 ## Measuring Unemployment
 
@@ -13,7 +13,7 @@ every month, Statistics Canada (SC) conducts the Labour Force Survey (LFS). the 
 - unemployment
 - types of employment
 - length of the average workweek
-- duration of unemploymentk
+- duration of unemployment
 
 ### Labour Force
 
@@ -49,7 +49,7 @@ as people move in and out of the workforce often, statistics on [[unemployment]]
 
 > **Frictional Unemployment** is [[unemployment]] resulting from the friction workers have to face to find a job
 
-Frictional Unemployment is often thought to explain shorter-term [[unemploymentp]]
+Frictional Unemployment is often thought to explain shorter-term [[unemployment]]
 
 > **Sectoral Shifts** are the changes in the composition of demand among industries or regions
 
@@ -57,7 +57,7 @@ As time is required for workers to find a job, Sectoral Shifts can cause short-t
 
 > **Employment Insurance** (EI) is a government program that partially protects workers' incomes when they become unemployed
 
-EI influences workers' behavior in ways that will encrease [[unemployment]]
+EI influences workers' behavior in ways that will increase [[unemployment]]
 
 > **Efficiency Wages** are above-equilibrium wages paid by firms in order to increase worker productivity
 

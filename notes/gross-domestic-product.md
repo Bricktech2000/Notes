@@ -53,7 +53,7 @@ in [[economics]], we want to separate these two effects using the **Real GDP**
 
 > **Nominal GDP**: the production of [[goods-and-services]] valued at **current prices**
 
-> **Real GDP**: the production of [[goods-and-services]] valued at **constant prices** \*\*(adjusted for [[inflation]], which is a better measure of econimic well-being)
+> **Real GDP**: the production of [[goods-and-services]] valued at **constant prices** \*\*(adjusted for [[inflation]], which is a better measure of economic well-being)
 
 ## GDP is not perfect
 

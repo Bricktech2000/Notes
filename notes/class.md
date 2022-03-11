@@ -28,7 +28,7 @@ which can all either be:
 
 ### definitions
 
-> a **final** variable can only be initialised once
+> a **final** variable can only be initialized once
 
 ### note
 

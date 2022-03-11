@@ -140,7 +140,7 @@ the Null Space of a [[matrix]] is always a [[vector-space]]
 
 ### example
 
-_transforming a vector space into the null space of a ncertain matrix_
+_transforming a vector space into the null space of a certain matrix_
 
 let $W = span\{(1, 0, 0, 1), (1, 1, 1, 0), (2, 1, \circ 1, 1)\}$
 

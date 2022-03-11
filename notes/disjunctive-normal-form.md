@@ -1,6 +1,6 @@
 # Disjunctive Normal Form
 
-### accronym
+### acronym
 
 DNF
 

@@ -1,5 +1,11 @@
 # Wealth
 
+see [[money]]
+
+### definition
+
+the total of all [[money|stores-of-value]], including both monetary and non-monetary assets
+
 ### facts
 
 > the average person in a rich country (such as Canada, the US or Germany) has an income more than 10 times greater than a person in a poor country &mdash; [[eco1102-h-introduction-to-macroeconomics]]

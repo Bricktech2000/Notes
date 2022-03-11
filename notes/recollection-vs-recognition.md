@@ -1,6 +1,6 @@
 # Recollection VS Recognition
 
-_Remember VS Recognise_
+_Remember VS Recognize_
 
 recognition and recollection are completely different concepts, but are often confused &mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0&ab_channel=PierceCollegeDist11>
 

@@ -30,4 +30,4 @@ Mankiw, N.G., R.D. Kneebone and K.J. McKenzie (2020) Principles of Macroeconomic
 
 **related**
 
-[[wealth]], [[economic-growth]], [[productivity]]
+[[wealth]], [[economic-growth]], [[productivity]], [[money]]

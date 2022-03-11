@@ -30,13 +30,13 @@ trades allows a group of people to specialize in what they do best
 
 ### Markets are Usually a Good Way to Organize Economic Activity
 
-> **Market Economy**: an economy that allocats resources through the decentralized decisions of many firms and households as they interact in markets for goods and services
+> **Market Economy**: an economy that allocates resources through the decentralized decisions of many firms and households as they interact in markets for goods and services
 
 ### Governments can _Sometimes_ Improve Market Outcomes
 
 governments are necessary
 
-- to inforce property rights
+- to enforce property rights
 
 > **Property Rights**: the ability of an individual to own and exercise control over [[scarce-resource]]s
 

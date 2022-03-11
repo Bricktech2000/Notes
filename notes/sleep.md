@@ -12,7 +12,7 @@ noise, even if we might not realize it since we're unconscious, does affect slee
 
 sunlight disrupts sleep quality; room should be pitch black when sleeping. a face mask or blackout curtains would be a possible solution.
 
-using wakeup lights can help waking up.
+using wake-up lights can help waking up.
 
 ### caffeine
 
@@ -41,7 +41,7 @@ having a strict and consistent sleep schedule increases sleep quality drasticall
 
 stick to this schedule at least 6 days a week
 
-sleep has evolved to be adaptible, which is why it is so easy to disrupt one’s sleep schedule &mdash; <https://youtu.be/1aogY1Tm2Lo?t=1250>
+sleep has evolved to be adaptable, which is why it is so easy to disrupt one’s sleep schedule &mdash; <https://youtu.be/1aogY1Tm2Lo?t=1250>
 
 ### pre-bedtime routine
 

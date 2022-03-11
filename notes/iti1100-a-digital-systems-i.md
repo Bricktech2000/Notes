@@ -56,3 +56,5 @@ Publisher: Pearson-Prentice Hall
 [[truth-table]], [[karnaugh-maps]]
 
 [[proof]]
+
+[[lab3]]

@@ -44,7 +44,7 @@ https://www.canada.ca/en/revenue-agency/services/forms-publications/publications
 
 - must be 18 to open account
 - there is an annual limit on how much money can be put in a TFSA
-- the annual limits compound as soon as someone turns 18 without havint to open a TFSA
+- the annual limits compound as soon as someone turns 18 without having to open a TFSA
 - profits are excluded from annual limits
 - moving money in and out of TFSAs is not taxable
 

@@ -6,7 +6,7 @@ _tricks for learning facts_
 
 ## examples of mnemonics
 
-### Accronyms
+### Acronyms
 
 list of words:
 
@@ -14,11 +14,11 @@ list of words:
 
 similar words:
 
-> SAME: Sensory are Affrent, Motor are Effrent
+> SAME: Sensory are Afferent, Motor are Effrent
 
 connection between words:
 
-> RADeo: Right Atreum Deoxinated
+> RADeo: Right Atreum Deoxygenated
 
 ### Coined Phrases
 

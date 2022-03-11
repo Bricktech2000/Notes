@@ -8,7 +8,7 @@ vectors can form [[vector-space]]s
 
 [[matrix]], see [[vector-in-rn-vector-space]]
 
-functions, see [[function-vector-space]]
+[[function]]s, see [[function-vector-space]]
 
 polynomials, see [[polynomial-vector-space]]
 
