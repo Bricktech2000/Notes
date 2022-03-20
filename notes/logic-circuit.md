@@ -8,8 +8,8 @@ _no feedback loops, no clocks_
 
 see [[truth-table]], [[karnaugh-maps]]
 
-the outputs are a function of the inputs only
+the outputs of a combinational logic circuit are a [[function]] the inputs, without side effects
 
 ## Sequential Logic Circuit
 
-[[complete]]
+the outputs of a sequential logic circuit can be based on previous inputs and can have side effects on future inputs

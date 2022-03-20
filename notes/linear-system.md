@@ -83,3 +83,63 @@ a matrix is in RREF if:
 ### putting a [[matrix]] in RREF
 
 use [[gaussian-elimination]]
+
+## Theorems
+
+> **theorem**: let $A$ be an $m \times n$ [[matrix]]. the following statements are equivalent:
+>
+> 1. every variable is a leading variable
+> 2. there is a leading variable in every column of the [[linear-system|RREF]] of $A$
+> 3. the system $Ax = 0$ has a unique solution
+> 4. the columns of $A$ are [[linearly-independent]]
+> 5. $Ker\ A = \{0\}$
+> 6. $\dim Ker\ A = 0$
+> 7. $rank\ A = n$
+
+- $1 \to 2$
+
+  each column represents a variable
+
+  every variable is a leading variable $\to$ there is a leading $1$ in each column of the [[linear-system|RREF]] of $A$
+
+- $2 \to 3$
+
+  $Ax = 0$ is homogeneous $\to$ the system is consistent
+
+  no free variables $\to$ there cannot be infinitely many solutions $\to$ it must have a single solution
+
+- $3 \to 4$
+
+  $Ax = 0$ has a unique solution $\to$ $x = O$ $\to$ $A^{,j}x^j \cdot \dots A^{,j}x^j = 0$ has a unique solution (all coefficients are $0$) $\to$ the columns of $A$ are [[linearly-independent]]
+
+- $4 \to 5$
+
+  the columns of $A$ are [[linearly-independent]] $\to$ $Ax = 0$ has a unique solution ($x = O$) $\to$ the [[matrix|nullspace]] of $A$ is the set containing the zero [[vector]]
+
+- $5 \to 6$
+
+  the [[matrix|nullspace]] of $A$ is the [[zero-space]] $\to$ the dimension of the [[zero-space]] is $0$
+
+- $6 \to 7$
+
+  $\dim Null\ A \cdot rank\ A = \text{number of columns in } A$ (see [[matrix]]) $\to$ as $\dim Null\ A = 0$, $rank\ A = \text{number of columns in } A = n$
+
+- $7 \to 1$
+
+  the [[matrix|rank]] of a [[matrix]] is the number leading variables in the matrix
+
+  $rank\ A = n$ and $A$ has $n$ columns $\to$ every variable is a leading variable
+
+> **theorem**: let $A$ be an $n \times n$ [[matrix]]. the following statements are equivalent:
+>
+> 1. $rank\ A = n$
+> 2. every linear system of the form $Ax = b$ has a unique solution
+> 3. the [[linear-system|RREF]] of $A$ is the identity [[matrix]]
+> 4. $Ker\ A = \{0\}$
+> 5. $Col\ A = \R^n$
+> 6. $Row\ A = \R^n$
+> 7. $Row\ A = \R^n$
+> 8. the columns of $A$ are [[linearly-independent]]
+> 9. the rows of $A$ are [[linearly-independent]]
+> 10. the columns of $A$ form a [[basis]] for $\R^n$
+> 11. the rows of $A$ form a [[basis]] for $\R^n$

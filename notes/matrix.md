@@ -172,7 +172,7 @@ $Col\ A = Row\ A^\intercal \land Row\ A = Col\ A^\intercal$, see transpose [[mat
 
 row spaces can be used to find a [[basis]] for a [[span]]ning set of vectors through [[gaussian-elimination|row-reduction]]
 
-the basis for the column space of a [[matrix]] can be found by applying [[gaussian-elimination|row-reduction]] and [[span]]ning the **row-reduced columns** in the [[linear-system|REF]] form of the [[matrix]]
+the basis for the row space of a [[matrix]] can be found by applying [[gaussian-elimination|row-reduction]] and [[span]]ning the **row-reduced columns** in the [[linear-system|REF]] form of the [[matrix]]
 
 the basis for the column space of a [[matrix]] can be found by applying [[gaussian-elimination|row-reduction]] and [[span]]ning the **original columns** that became pivots in the [[linear-system|REF]] form of the [[matrix]]
 
@@ -195,3 +195,67 @@ $(AB)^\intercal = B^\intercal A^\intercal \dashv \mathbb{M} A \land \mathbb{M} B
 ### example
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif)
+
+## Matrix Inverse
+
+_the Inverse of a Matrix_
+
+### definition
+
+$AA^{-1} = I$, where
+
+$A$ is a (square) [[matrix]]
+
+$A^{-1}$ is the _inverse matrix_ of $A$
+
+### invertability
+
+_an **invertible** [[matrix]] has an inverse_
+
+a [[matrix]] is invertible if and only if its rows (and therefore its columns) are [[linearly-independent]]
+
+### properties
+
+let $A$ and $C$ be invertible [[matrix]]es, let $\Z p$ and let $\R k \land k \ne 0$
+
+$AA^{-1} = A^{-1}A = I$
+
+$(A^{-1})^{-1} = A$
+
+$(A^p)^{-1} = (A^{-1})^p$
+
+$(kA)^{-1} = 1\text-k A^{-1}$
+
+$(AC)^{-1} = C^{-1}A^{-1}$ (note the order has changed as [[matrix]] multiplication is not commutative)
+
+if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
+
+### finding a matrix inverse
+
+let $\mathbb{M}^{n, n} A$
+
+solve the system $AA^{-1} = I$ by extending the [[matrix]] with the identity [[matrix]] and solve the [[linear-system]] up to [[linear-system|RREF]] using [[gaussian-elimination]]. $\begin{bmatrix}A & | & I\end{bmatrix} \sim \dots \begin{bmatrix}I & | & A^{-1}\end{bmatrix}$
+
+### shortcut with [[matrix]]es in $\mathbb{M}^{2, 2}$
+
+see [[determinant]]
+
+let $A = \begin{bmatrix}a & b \\ c & d\end{bmatrix}$
+
+$A$ is invertible if and only if $|A| \ne 0$
+
+$A^{-1} = 1\text-|A| \begin{bmatrix}d & \circ b \\ \circ c & a\end{bmatrix}$
+
+### example usage
+
+let $A = \begin{bmatrix}1 & 1 \\ 2 & 3\end{bmatrix}$
+
+then, calculate $B$ such that $B \equiv A^{-1}$
+
+this can be used to solve a system such as:
+
+$Ax = \begin{bmatrix}\circ 1 \\ 1\end{bmatrix}$
+
+$BAx = B \begin{bmatrix}\circ 1 \\ 1\end{bmatrix}$
+
+$Ix = x = B \begin{bmatrix}\circ 1 \\ 1\end{bmatrix}$

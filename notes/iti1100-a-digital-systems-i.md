@@ -27,6 +27,8 @@ completion of all labs is **actually** mandatory
 
 > A student who fails to submit a lab report for any of the 5 labs will receive EIN as a final grade. &mdash; syllabus
 
+[[lab3]]
+
 ## textbook
 
 Available at the uOttawa bookstore
@@ -56,5 +58,3 @@ Publisher: Pearson-Prentice Hall
 [[truth-table]], [[karnaugh-maps]]
 
 [[proof]]
-
-[[lab3]]

@@ -47,7 +47,7 @@ as people move in and out of the workforce often, statistics on [[unemployment]]
 
 ## Factors Affecting Unemployment
 
-> **Frictional Unemployment** is [[unemployment]] resulting from the friction workers have to face to find a job
+> **Frictional Unemployment** is [[unemployment]] resulting from the friction workers have to face to find a job or to voluntarily transition to a new job
 
 Frictional Unemployment is often thought to explain shorter-term [[unemployment]]
 

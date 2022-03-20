@@ -8,6 +8,8 @@
 
 [[outdated]]
 
+[[syntax]]
+
 ## Other
 
 [[uni]]

@@ -2,7 +2,7 @@
 
 see [[improvability-theory]]
 
-_definition_ [[complete]]
+> A mathematical proof is an inferential argument for a mathematical statement, showing that the stated assumptions logically guarantee the conclusion. &mdash; Wikipedia
 
 ## Conditionals
 
@@ -35,3 +35,39 @@ then, $n2 = \braket{2k \circ 1}2 = 4k2 \cdot 4k \cdot 1 = 2(2k2 \cdot 2k) \cdot 
 we know $\Z (2k2 \cdot 2k)$, as it is the result of multiplication and addition of integers
 
 therefore, $\mathbb{O}n \vdash \mathbb{O}n2$
+
+### proving an expression is an [[even-number]]
+
+prove $n2 \cdot 3n \cdot 8$ is an [[even-number]] for all $\Z n$
+
+let $n = 2k \cdot q \land \Z k \land \Z q$
+
+$(2k \cdot q)2 \cdot 3(2k \cdot q) \cdot 8$
+
+$4k2 \cdot 4kq \cdot q2 \cdot 6k \cdot 3q \cdot 8$
+
+$(2\ |\ 2k2 \cdot 2kq \cdot 3k \cdot 4 \cdot q) \cdot q2 \cdot q$
+
+---
+
+$n2 \cdot n$
+
+let $n = 2k \land \Z k$
+
+$(2k)2 \cdot 2k$
+
+$4k2 \cdot 2k$
+
+$2\ |\ 2k2 \cdot k$
+
+since $\Z (2k2 \cdot k)$, the above must be an [[even-number]]
+
+let $n = 2k \cdot 1 \land \Z k$
+
+$(2k \cdot 1)2 \cdot 2k \cdot 1$
+
+$4k2 \cdot 4k \cdot 1 \cdot 2k \cdot 1$
+
+$2\ |\ 2k2 \cdot 3k \cdot 1$
+
+since $\Z (2k2 \cdot 3k \cdot 1)$, the above must be an [[even-number]]

@@ -2,6 +2,8 @@
 
 [[uottawa]]
 
+[[random]]
+
 [[interesting-electives]]
 
 [[life-long-investing]]

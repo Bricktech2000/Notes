@@ -30,4 +30,6 @@ other examples of weaker parasocial relationships
 
 ### [[video-game]]s
 
-[[complete]]
+[[video-game]]s make the primitive brain circuitry of the player believe they are achieving something, where as they are arguably not. they release a relatively large amount of [[dopamine]] (see [[less-stimulated-lifestyle]]) and makes the player go through a large variety of emotions.
+
+some games, such as first-person shooters, make the primitive parts of the player's brain believe that events are happening in the real world, even though they are obviously in a simulated environment.

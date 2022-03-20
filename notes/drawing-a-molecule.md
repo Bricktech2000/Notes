@@ -1,6 +1,6 @@
 # Drawing a Molecule
 
-see [[bond]], [[lewis-structure]], [[molecular-geometry]], [[expanded-octet]], [[resonance-structure]], [[formal-charge]], [[orbital]], [[quantum-numbers]], and why not [[rhetorical-question]]s and [[exclamation-mark]]s while we're at it
+see [[bond]], [[lewis-structure]], [[molecular-geometry]], [[expanded-octet]], [[resonance-structure]], [[formal-charge]], [[orbital]], [[quantum-numbers]]
 
 ## finding the [[molecular-geometry]]
 
