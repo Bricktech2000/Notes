@@ -12,8 +12,9 @@ _italics_
 
 `inline code`
 
-```python
-print('code block')
+```javascript
+// code block
+console.log(() => 'Fira Code Ligatures');
 ```
 
 $\LaTeX$
@@ -45,7 +46,40 @@ graph LR
   A(mermaid)--->B((fa:fa-check))
 ```
 
-emoji :smile:
+```chart
+{
+  "type": "pie",
+  "data": {
+    "labels": [
+      "Red",
+      "Blue",
+      "Yellow"
+    ],
+    "datasets": [
+      {
+        "data": [
+          300,
+          50,
+          100
+        ],
+        "backgroundColor": [
+          "#F44",
+          "#44F",
+          "#FF4"
+        ]
+      }
+    ]
+  },
+  "options": {
+    title: {
+      display: true,
+      text: "Chart.js Chart"
+    }
+  }
+}
+```
+
+emojis :smile:
 
 - [ ] task
 - [x] list
