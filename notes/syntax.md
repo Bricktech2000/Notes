@@ -87,3 +87,5 @@ emojis :smile:
 ---
 
 horizontal rule
+
+box titles generated with <https://lingojam.com/BoldTextGenerator>

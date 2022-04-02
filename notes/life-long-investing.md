@@ -31,6 +31,7 @@ study the following strategy:
 - mutual funds can sometimes offer higher returns than index funds
 - Wealth Simple Trade has low fees for long-term investments
 - build an emergency fund (3 to 6 months of living expenses)
+- Terra / Anchor Protocol is very, very interesting (20% ROI &mdass; <https://drive.google.com/file/d/1sKM08sghjCh0FSdzJ0gvir-GSmPPA9yF/view> at 24:30)
 
 ## srcs
 

@@ -15,7 +15,7 @@ some shortcuts derived from the power rule:
 
 ## Exponential Rule
 
-$(a^x)' = a^{x}\ln(a)$
+$(a^x)' = a^{x}\n(a)$
 
 some shortcuts derived from the exponential rule:
 

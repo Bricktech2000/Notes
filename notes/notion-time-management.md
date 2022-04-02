@@ -38,7 +38,7 @@ status is not completed and date is not empty
 
 ### filter
 
-displays any event that has a date, that isn't completed and that isn't a class to attend
+displays any event that has a date, that isn't completed and that isn't repeating (OPT, DAY or WK)
 
 ### sort
 
@@ -67,13 +67,15 @@ the date a page was created, used below
 ### START_DATE
 
 ```jsx
-if(contains(prop("Category"), "DAY"), fromTimestamp(timestamp(start(prop("Date"))) % 86400000 + floor(timestamp(now()) / 86400000) * 86400000), if(contains(prop("Category"), "WK") or contains(prop("Category"), "LEC") or contains(prop("Category"), "DGD") or contains(prop("Category"), "LAB") or contains(prop("Category"), "TUT"), fromTimestamp((timestamp(start(prop("Date"))) - timestamp(now()) % 604800000 + 86400000) % 604800000 + timestamp(now()) % 604800000 - 86400000 + floor(timestamp(now()) / 604800000) * 604800000), if(prop("Status") == "Not Completed", end(prop("Date")), if(start(prop("Date")) != end(prop("Date")), start(prop("Date")), if(not empty(prop("Date")), prop("CREATED_DATE"), prop("EMPTY_DATE"))))))
+// if(contains(prop("Category"), "DAY"), fromTimestamp(timestamp(start(prop("Date"))) % 86400000 + floor(timestamp(now()) / 86400000) * 86400000), if(contains(prop("Category"), "WK") or contains(prop("Category"), "LEC") or contains(prop("Category"), "DGD") or contains(prop("Category"), "LAB") or contains(prop("Category"), "TUT"), fromTimestamp((timestamp(start(prop("Date"))) - timestamp(now()) % 604800000 + 86400000) % 604800000 + timestamp(now()) % 604800000 - 86400000 + floor(timestamp(now()) / 604800000) * 604800000), if(prop("Status") == "Not Completed", end(prop("Date")), if(start(prop("Date")) != end(prop("Date")), start(prop("Date")), if(not empty(prop("Date")), prop("CREATED_DATE"), prop("EMPTY_DATE"))))))
+if(contains(prop("Category"), "DAY"), fromTimestamp(timestamp(start(prop("Date"))) % (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24)) * (1000*60*60*24) - (1000*60*60)), if(contains(prop("Category"), "WK"), fromTimestamp((timestamp(start(prop("Date"))) - timestamp(now()) % (1000*60*60*24*7) + (1000*60*60*24)) % (1000*60*60*24*7) + timestamp(now()) % (1000*60*60*24*7) - (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24*7)) * (1000*60*60*24*7) - (1000*60*60)), if(prop("Status") == "Not Completed", end(prop("Date")), if(start(prop("Date")) != end(prop("Date")), start(prop("Date")), if(not empty(prop("Date")), prop("CREATED_DATE"), prop("EMPTY_DATE"))))))
 ```
 
 ### END_DATE
 
 ```jsx
-if(contains(prop("Category"), "DAY"), fromTimestamp(timestamp(end(prop("Date"))) % 86400000 + floor(timestamp(now()) / 86400000) * 86400000), if(contains(prop("Category"), "WK") or contains(prop("Category"), "LEC") or contains(prop("Category"), "DGD") or contains(prop("Category"), "LAB") or contains(prop("Category"), "TUT"), fromTimestamp((timestamp(end(prop("Date"))) - timestamp(now()) % 604800000 + 86400000) % 604800000 + timestamp(now()) % 604800000 - 86400000 + floor(timestamp(now()) / 604800000) * 604800000), if(start(prop("Date")) != end(prop("Date")), end(prop("Date")), if(not empty(prop("Date")), end(prop("Date")), prop("EMPTY_DATE")))))
+// if(contains(prop("Category"), "DAY"), fromTimestamp(timestamp(end(prop("Date"))) % 86400000 + floor(timestamp(now()) / 86400000) * 86400000), if(contains(prop("Category"), "WK") or contains(prop("Category"), "LEC") or contains(prop("Category"), "DGD") or contains(prop("Category"), "LAB") or contains(prop("Category"), "TUT"), fromTimestamp((timestamp(end(prop("Date"))) - timestamp(now()) % 604800000 + 86400000) % 604800000 + timestamp(now()) % 604800000 - 86400000 + floor(timestamp(now()) / 604800000) * 604800000), if(start(prop("Date")) != end(prop("Date")), end(prop("Date")), if(not empty(prop("Date")), end(prop("Date")), prop("EMPTY_DATE")))))
+if(contains(prop("Category"), "DAY"), fromTimestamp(timestamp(end(prop("Date"))) % (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24)) * (1000*60*60*24) - (1000*60*60)), if(contains(prop("Category"), "WK"), fromTimestamp((timestamp(end(prop("Date"))) - timestamp(now()) % (1000*60*60*24*7) + (1000*60*60*24)) % (1000*60*60*24*7) + timestamp(now()) % (1000*60*60*24*7) - (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24*7)) * (1000*60*60*24*7) - (1000*60*60)), if(start(prop("Date")) != end(prop("Date")), end(prop("Date")), if(not empty(prop("Date")), end(prop("Date")), prop("EMPTY_DATE")))))
 ```
 
 ### DDONE_OVER_DT
@@ -105,10 +107,10 @@ multiple of the following values:
 - WK &mdash; repeats every week
 - DAY &mdash; repeats every day
 - OPT &mdash; optional event
+- Social (blue)
 - Personal (blue)
-- Learning (blue)
+- Learning (orange)
 - Hobbies (orange)
-- Social (orange)
 - Work (green)
 - uOttawa (green)
 - **all classes**
@@ -127,3 +129,13 @@ multiple of the following values:
 ### URL (visible)
 
 a quick way to add a link to a page
+
+---
+
+### TEMP_PRIORITY
+
+![](2022-04-01-10-18-17.png)
+
+```jsx
+if(not prop("Important?") and (timestamp(prop("START_DATE")) > timestamp(now()) or timestamp(now()) > timestamp(prop("END_DATE")) or prop("START_DATE") == prop("EMPTY_DATE")), "Back Burner", if(not prop("Time-Consuming?"), "Get Done", if(timestamp(prop("START_DATE")) > timestamp(now()) or timestamp(now()) > timestamp(prop("END_DATE")) or prop("START_DATE") == prop("EMPTY_DATE"), "Schedule", if(not prop("Important?"), "Delegate", "Work on"))))
+```
