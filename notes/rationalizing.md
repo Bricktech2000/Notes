@@ -6,6 +6,6 @@ see [[math-notation]]
 
 ### useful rules
 
-if the denominator is $\braket{a}$, multiply the fraction by $\braket{a} - \braket{a}$
+if the denominator is $\lfloor a \rfloor$, multiply the fraction by $\lfloor a \rfloor - \lfloor a \rfloor$
 
-if the denominator is $\braket{a} \dot \circ \braket{b}$, multiply the fraction by $\braket{a} \mathring \cdot \braket{b} - \braket{a} \mathring \cdot \braket{b}$
+if the denominator is $\lfloor a \rfloor \dot \circ \lfloor b \rfloor$, multiply the fraction by $\lfloor a \rfloor \mathring \cdot \lfloor b \rfloor - \lfloor a \rfloor \mathring \cdot \lfloor b \rfloor$

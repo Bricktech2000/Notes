@@ -32,6 +32,8 @@
 
 [[region-size-formula]]
 
+[[esoteric-programming-language-idea]]
+
 ## math problem
 
 using [[classical-math-notation]]

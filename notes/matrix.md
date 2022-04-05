@@ -54,11 +54,11 @@ $(AB)^{i, j} = A^{i, }\ |\ B^{, j} \dashv \N i \land \N j$, see [[dot-product]] 
 
 ### notation
 
-$AA = A2 = \braket A2 \dashv \mathbb{M} A$
+$AA = A2 = [A]2 \dashv \mathbb{M} A$
 
 therefore,
 
-$AA \dots A = \braket A n \land \N n \dashv \mathbb{M} A$
+$AA \dots A = [A] n \land \N n \dashv \mathbb{M} A$
 
 ### properties
 
@@ -212,7 +212,7 @@ $A^{-1}$ is the _inverse matrix_ of $A$
 
 _an **invertible** [[matrix]] has an inverse_
 
-a [[matrix]] is invertible if and only if its rows (and therefore its columns) are [[linearly-independent]]
+see [[linear-system]] for invertability criteria
 
 ### properties
 
@@ -229,6 +229,8 @@ $(kA)^{-1} = 1\text-k A^{-1}$
 $(AC)^{-1} = C^{-1}A^{-1}$ (note the order has changed as [[matrix]] multiplication is not commutative)
 
 if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
+
+> **theorem**: $AB = I \equiv BA = I$
 
 ### finding a matrix inverse
 
@@ -259,3 +261,7 @@ $Ax = \begin{bmatrix}\circ 1 \\ 1\end{bmatrix}$
 $BAx = B \begin{bmatrix}\circ 1 \\ 1\end{bmatrix}$
 
 $Ix = x = B \begin{bmatrix}\circ 1 \\ 1\end{bmatrix}$
+
+## Orthogonal Matrices
+
+[[complete]]

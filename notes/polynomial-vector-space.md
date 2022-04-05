@@ -14,7 +14,7 @@ $P_n(\R)$ in [[classical-math-notation]]
 
 ### definition
 
-$\mathbb{P}^n p \equiv p \vdash Span\{\braket xn \dots \braket x 0\} \dashv \N n$
+$\mathbb{P}^n p \equiv p \vdash Span\{[x] n \dots [x] 0\} \dashv \N n$
 
 ## zero vector
 

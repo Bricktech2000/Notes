@@ -4,6 +4,8 @@ see [[classical-math-notation]]
 
 ### notation
 
+[[todo]]: new square root notation
+
 $a \cdot b$ is addition
 
 $a \circ b$ is subtraction
@@ -20,13 +22,13 @@ $a ' b$ is multiplication
 
 $a\ |\ b$ is low-precedence multiplication
 
-$\braket a b$ is $a$ to the power of $b$
+$[a] b$ is $a$ to the power of $b$
 
-$\braket a \text- b$ is the $b$th root of $a$
+$\lfloor a \rfloor b$ is the $b$ th root of $a$
 
-$b \braket a$ is the base-$b$ logarithm of $a$
+$\lceil a \rceil b$ is the base-$b$ logarithm of $a$
 
-$a\ b$ is shorthand for $\braket a b$ only if $b$ is a number and $a$ is a variable
+$a\ b$ is shorthand for $[a] b$ only if $b$ is a number and $a$ is a variable
 
 $\N a$ checks whether $a$ is part of the set $\N$
 
@@ -34,7 +36,7 @@ $a = b$ checks whether two expressions are equal
 
 $a \ne b$ chechs whether two expressions are different
 
-$~~a : b$ is high-precedence equality check~~
+~~$a : b$ is high-precedence equality check~~
 
 $a \land b$ is logical and (`and`)
 
@@ -58,13 +60,13 @@ $a \equiv b$ is logical equality check (equivalent to $=$ but different preceden
 
 $\varnothing$ is undefined
 
-$V^i$ is the $i$th element of the vector $V$
+$V^i$ is the $i$ th element of the vector $V$
 
-$M^{i, j}$ is the $i, j$th element of the matrix $M$
+$M^{i, j}$ is the $i, j$ th element of the matrix $M$
 
-$M^{i,}$ is the $i$th row of the matrix $M$
+$M^{i,}$ is the $i$ th row of the matrix $M$
 
-$M^{, j}$ is the $j$th column of the matrix $M$
+$M^{, j}$ is the $j$ th column of the matrix $M$
 
 trig identities: $sin$, $asin$, $cos$, $acos$, $tan$, $atan$...
 
@@ -72,7 +74,7 @@ trig identities: $sin$, $asin$, $cos$, $acos$, $tan$, $atan$...
 
 _high to low_
 
-$('\text-)\braket{}(\cdot \circ) (|-) (=\ne\gt\ge\lt\le) \lnot \land \lor (\dashv\ \vdash\ \equiv \times)$
+$(()[]\lfloor\rfloor\lceil\rceil)('\text-)(\cdot \circ) (|-) (=\ne\gt\ge\lt\le) \lnot \land \lor (\dashv\ \vdash\ \equiv \times)$
 
 ### associativity
 
@@ -88,16 +90,15 @@ composition distributes over implication. this allows for notation such as $\N \
 
 - $=$ **checks** for equality and returns a boolean
 - it is implied that an expression on its own must evaluate to $\top$ (`true`)
-- sets are functions that return a boolean ($\R a$ instead of $a \in \R$)
-- $\braket a = \braket a \text- 2$ returns both positive and negative square roots ($\braket{q2} = \dot \circ q$)
-- $\braket 4 = 2$ is invalid, but $\braket 4 \dashv 2$ is valid
-
-- functions support currying to take multiple arguments [[think]]
+- sets are [[function]]s that return a boolean ($\R a$ instead of $a \in \R$)
+- $\lfloor a \rfloor = \lfloor a \rfloor 2$ returns both positive and negative square roots ($\lfloor q2 \rfloor = \dot \circ q$)
+- $\lfloor 4 \rfloor = 2$ is invalid, but $\lfloor 4 \rfloor \dashv 2$ is valid
+- ~~functions support currying to take multiple arguments~~
 
 ### examples
 
-- quadratic formula: $\circ b \cdot \braket{b2 \circ 4ac} - 2a$
-- definition of the set of complex numbers: $\mathbb{C} x = (x = a \cdot bi) \land \R a \land \R b$
+- [[quadratic-formula]]: $\circ b \cdot \lfloor b2 \circ 4ac \rfloor - 2a$
+- definition of the set of [[complex-number]]s: $\mathbb{C} x \equiv x = a \cdot b\lfloor \circ 1 \rfloor \land \R a \land \R b$
 - definition of multiplication of a boolean by a scalar:
   - $\mathbb{B} b = (b \equiv \top) \lor (b \equiv \bot)$
   - $(ab = b \dashv a \ne 0 \land \mathbb{B}b) \vdash 2\top = \top$
@@ -105,13 +106,13 @@ composition distributes over implication. this allows for notation such as $\N \
 - definition of the implication / subset / superset / “for all” symbol:
   - $a \vdash b = \lnot a \lor b$
   - $a \dashv b = a \lor \lnot b$
-- in set theory, if $U$ is a subset of $V$ and $V$ is a subset of $U$, then $V$ is $U$. in this notation: $U \vdash V \land V \vdash U \equiv U = V$
+- in set theory, if $U$ is a subset of $V$ and $V$ is a subset of $U$, then $V$ is $U$. in this math notation: $U \vdash V \land V \vdash U \equiv U = V$
 
 ### random formulas
 
 $df\text-dx = \lim_{h \to 0} f (x \cdot h) \circ f (x) - h$
 
-$\braket{a \cdot b}2 = a2 \cdot b2 \cdot 2ab$
+$[a \cdot b] 2 = a2 \cdot b2 \cdot 2ab$
 
 $V = b \cdot B\ |\ h - 2$
 
@@ -123,11 +124,11 @@ $a2 \circ b2 = a \circ b\ |\ a \cdot b$
 
 $a2 \cdot b2 = c2$
 
-$y = \braket{r2 \circ x2}$
+$y = \lfloor r2 \circ x2 \rfloor$
 
 $x2 + y2 + z2 = r2$
 
-$\braket{e}i\pi = \circ 1$
+$[e] i\pi = \circ 1$
 
 $\N \vdash \R$
 
@@ -143,7 +144,7 @@ $\lnot\ a \cdot b = c\ |\ d$
 
 $3' x = y \dashv \Z x$
 
-_there exists an integer $x$ such that $1 + x = 3$_
+_there exists an [[integer]] $x$ such that $1 + x = 3$_
 
 [[classical-math-notation]]: $\exist x \in \Z \text{\ \ \ s. t.\ \ \ } 1 + x = 3$
 
@@ -161,11 +162,11 @@ $1 - 3(1 \cdot 2)$
 
 $1 - 3\ |\ 1 \cdot 2$
 
-$\braket a 2 \cdot b$
+$[a] 2 \cdot b$
 
-$\braket{b2 \circ 4ac}2\text-3$
+$[b2 \circ 4ac] 2\text-3$
 
-$\circ b \cdot \braket{b2 \circ 4ac} - 2a$
+$\circ b \cdot \lfloor b2 \circ 4ac \rfloor - 2a$
 
 $1 - 0 = \varnothing$
 

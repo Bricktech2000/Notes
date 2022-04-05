@@ -64,13 +64,27 @@ notation: $u \perp v$
 
 _a pair of vectors offset by $90\degree$_
 
-$u$ and $v$ are orthogonal if $u \cdot v = 0$ (see [[dot-product]])
+$u$ and $v$ are orthogonal if and only if $u \cdot v = 0$ (see [[dot-product]]), or $u \perp v \equiv u \cdot v = 0$
+
+a set of [[vector]]s is orthogonal if and only if it does not contain the zero [[vector]] and all [[vector]]s in the set are orthogonal to all other [[vector]]s
+
+> **theorem**: an orthogonal set of [[vector]]s is [[linearly-independent]] (think of this visually)
+
+### Theorems
+
+any orthogonal set of [[vector]]s in $\R^n$ contains at most $n$ [[vector]]s
+
+any orthogonal set of $n$ [[vector]]s in $\R^n$ is an orthogonal [[basis]] of $\R^n$
+
+orthogonal set $\vdash$ [[linearly-independent]], but not the inverse
+
+> **theorem**: suppose $w_0 \dots w_m$ is an orthogonal [[basis]] for a subspace $W$ of $\R^n$. then, $w = w_0\frac{w \cdot w_0}{w_0 \cdot w_0} + \dots w_m\frac{w \cdot w_m}{w_m \cdot w_m}$ (see [[dot-product]])
 
 ### Collinear Vectors
 
 _a pair of parallel vectors_
 
-$u$ and $v$ are colinear if $u = kv$
+$u$ and $v$ are colinear if $u = kv$. $u$ is a [[linear-combination]] of the set $\{v\}$
 
 ## Projections
 
@@ -88,11 +102,23 @@ $|proj_ba|$ is the _scalar projection of $a$ on $b$_
 
 $\hat b$ is the unit vector in the direction of $b$, $\frac{b}{|b|}$
 
+> **theorem**: suppose $w_0 \dots w_m$ is an orthogonal [[basis]] for a subspace $W$ of $\R^n$. then for any $\R^n v$, $proj_Wv = w_0\frac{v \cdot w_0}{w_0 \cdot w_0} + \dots w_m\frac{v \cdot w_m}{w_m \cdot w_m}$ (see [[dot-product]])
+
 ### properties
+
+see [[math-notation]]
 
 $proj_ba$ is parallel to $b$
 
-$a - proj_ba$ is orthogonal to $b$
+$a \circ proj_ba$ is orthogonal to $b$
+
+$W (proj_Wv)$
+
+$v \circ proj_Wv$ is orthogonal to every [[vector]] in $W$
+
+the [[vector]] $proj_Wv$ is the only [[vector]] in $\R^n$ that satisfies the two properties above
+
+$proj_Wv$ is the "best approximation" to $v$ by [[vector]]s in $W$
 
 ## volume of the [[parallelepiped]] defined by 3 vectors in $\R^3$
 

@@ -52,3 +52,7 @@ attendance is mandatory &mdash; syllabus
 [[vector-in-rn]], [[normal-vector]], [[matrix]]
 
 [[span]]s, [[zero-space]], [[basis]]
+
+[[number-set]]
+
+[[complex-number]]

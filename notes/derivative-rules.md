@@ -31,7 +31,7 @@ some shortcuts derived from the exponential rule:
 
 ## Constant Multiple Rule
 
-if $c$ is a real number and $f$ is a [[differentiable-function]], then
+if $c$ is a [[real-number]] and $f$ is a [[differentiable-function]], then
 
 $\frac{d}{dx} [c \times f(x)] = c \times \frac{d}{dx} f(x)$
 

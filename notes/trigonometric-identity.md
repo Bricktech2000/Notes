@@ -38,7 +38,7 @@ $y = \cot x \equiv x = \text{acot } y$
 
 ## other relations
 
-$\braket{\sin \theta}2 \cdot \braket{\cos \theta}2 = 1$
+$[\sin \theta] 2 \cdot [\cos \theta] 2 = 1$
 
 $\sin (x \cdot y) = (\sin x\ |\ \cos y) \cdot (\cos x\ |\ \sin y)$
 
@@ -48,8 +48,8 @@ $\cos (x \cdot y) = (\cos x\ |\ \cos y) \circ (\sin x\ |\ \sin y)$
 
 $\sin 2x = 2\ | \ \sin x\ |\ \cos x$
 
-$\cos 2x = \braket{\cos x}2 \circ \braket{\sin x}2$
+$\cos 2x = [\cos x] 2 \circ [\sin x] 2$
 
-$\braket{\sin x}2 = 1 \circ \cos 2x - 2$
+$[\sin x] 2 = 1 \circ \cos 2x - 2$
 
-$\braket{\cos x}2 = 1 \cdot \cos 2x - 2$
+$[\cos x] 2 = 1 \cdot \cos 2x - 2$

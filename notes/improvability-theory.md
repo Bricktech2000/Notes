@@ -28,7 +28,7 @@ $Fig.\ 1$: Eating nachos with Kiera.
 
 > _anything_ squared is a positive number: $x^2 \ge 0$
 
-the statement above used to be true, except on rare cases where $x$ happens to be an imaginary number. it is right for most practical use cases, but it is in fact “almost always right”.
+the statement above used to be true, except on rare cases where $x$ happens to be an [[imaginary-number]]. it is right for most practical use cases, but it is in fact “almost always right”.
 
 > $(a^b)^c = a^{b \times c}$
 
@@ -36,4 +36,4 @@ the equation above is thought of as always being true. however, it can break whe
 
 > $x \times 0 = 0$
 
-ignoring the existence of vectors, the equation above seems to always be true, as an implicit assumption is made that $x$ is limited to complex numbers. then, let theorem $A'$ be derived from the expression above. as theorem $A'$ relies on the implicit assumption that $x$ is limited to complex numbers, it would break with $x = (2, 3)$, for example. $x \times 0 = (0, 0) \therefore x \times 0 \ne 0$ as vector multiplication by a scalar does not return a scalar, but a vector.
+ignoring the existence of vectors, the equation above seems to always be true, as an implicit assumption is made that $x$ is limited to [[complex-number]]s. then, let theorem $A'$ be derived from the expression above. as theorem $A'$ relies on the implicit assumption that $x$ is limited to [[complex-number]]s, it would break with $x = (2, 3)$, for example. $x \times 0 = (0, 0) \therefore x \times 0 \ne 0$ as vector multiplication by a scalar does not return a scalar, but a vector.

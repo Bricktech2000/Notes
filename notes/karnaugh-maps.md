@@ -30,7 +30,7 @@ see [[math-notation]]
 
 in a K Map,
 
-> an **Implicant** is a product term that, if true, implies the boolean function represented is true (informally, $I = \top \vdash f x = \top$). it is a rectangle of $\braket 2 n \equiv 1, 2, 4, 8 \dots$ values
+> an **Implicant** is a product term that, if true, implies the boolean function represented is true (informally, $I = \top \vdash f x = \top$). it is a rectangle of $[2] n \equiv 1, 2, 4, 8 \dots$ values
 
 > a **Prime Implicant** is an implicant (rectangle) that “can’t be explanded any larger”. more formally, it cannot be covered entirely by any other implicant.
 

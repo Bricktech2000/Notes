@@ -130,7 +130,7 @@ use [[gaussian-elimination]]
 
   $rank\ A = n$ and $A$ has $n$ columns $\to$ every variable is a leading variable
 
-> **theorem**: let $A$ be an $n \times n$ [[matrix]]. the following statements are equivalent:
+> **theorem**: let $\mathbb{M}^{n, n} A$ (see [[matrix]]). the following statements are equivalent:
 >
 > 1. $rank\ A = n$
 > 2. every linear system of the form $Ax = b$ has a unique solution
@@ -138,8 +138,8 @@ use [[gaussian-elimination]]
 > 4. $Ker\ A = \{0\}$
 > 5. $Col\ A = \R^n$
 > 6. $Row\ A = \R^n$
-> 7. $Row\ A = \R^n$
-> 8. the columns of $A$ are [[linearly-independent]]
-> 9. the rows of $A$ are [[linearly-independent]]
-> 10. the columns of $A$ form a [[basis]] for $\R^n$
-> 11. the rows of $A$ form a [[basis]] for $\R^n$
+> 7. the columns of $A$ are [[linearly-independent]]
+> 8. the rows of $A$ are [[linearly-independent]]
+> 9. the columns of $A$ form a [[basis]] for $\R^n$
+> 10. the rows of $A$ form a [[basis]] for $\R^n$
+> 11. $A$ is [[matrix|invertible]]

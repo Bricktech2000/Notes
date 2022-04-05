@@ -14,7 +14,7 @@ study the following strategy:
 
 ## possible complications &mdash; with solutions
 
-- age of majority &mdash; added reminder to open trading account when turning 18
+- age of majority &mdash; added reminder to open trading account when turning 18 &mdash; crypto does not require users to be 18
 - trading fees &mdash; Wealth Simple Trade has very low fees for long-term investments
 - [[inflation]] &mdash; ROI on index funds (see [[stock-market]]) are higher than inflation rates
 
@@ -31,7 +31,7 @@ study the following strategy:
 - mutual funds can sometimes offer higher returns than index funds
 - Wealth Simple Trade has low fees for long-term investments
 - build an emergency fund (3 to 6 months of living expenses)
-- Terra / Anchor Protocol is very, very interesting (20% ROI &mdass; <https://drive.google.com/file/d/1sKM08sghjCh0FSdzJ0gvir-GSmPPA9yF/view> at 24:30)
+- Terra / Anchor Protocol is very, very interesting (20% ROI &mdash; <https://drive.google.com/file/d/1sKM08sghjCh0FSdzJ0gvir-GSmPPA9yF/view> at 24:30)
 
 ## srcs
 
@@ -55,7 +55,9 @@ VUG:
 
 <https://www.askfinny.com/compare/VUG-vs-VIGAX>
 
-# types of accounts in Canada
+# types of bank accounts
+
+_the different types of bank accounts in Canada_
 
 ## registered accounts
 
