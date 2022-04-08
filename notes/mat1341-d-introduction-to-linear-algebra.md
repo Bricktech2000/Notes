@@ -63,4 +63,4 @@ attendance is mandatory &mdash; syllabus
 
 [[fundamental-theorem-of-algebra]]
 
-[[eigenvalue-and-eigenvector]]
+[[eigenvector-and-eigenvalue]]

@@ -89,3 +89,23 @@ emojis :smile:
 horizontal rule
 
 box titles generated with <https://lingojam.com/BoldTextGenerator>
+
+## LaTeX Style PDF Export
+
+<!-- see `settings.json` for sources -->
+
+### page break
+
+<div style="page-break-after: always"></div>
+
+### theorems, proofs, definitions
+
+<div class="theorem">This theorem is false.</div>
+<div class="lemma">This is a lemma.</div>
+<div class="definition">This is a definition.</div>
+<div class="proof">This is a proof.</div>
+
+### LaTeX support
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>

@@ -41,3 +41,31 @@ i^3 - 2 * i^2(i + 1) / 2 = i^2 \\
 
 % i^3 - i^2 - 2 * i(i + 1) / 2 = 0
 $$
+
+## school situation
+
+```mermaid
+graph LR
+
+A([predicted improvement of classes])
+B(enjoyment of classes)
+C([status of accommodations])
+D(busyness during summer)
+E(choice of classes during summer)
+F([result of job application])
+G(decision on dual degree)
+H(decision on data science option)
+
+A --> B
+C -.-> B --> G --> H
+
+F --> D
+D --> E --> D
+G -.-> E
+```
+
+```
+I(audit thing)
+I -.-> A
+E ==> I
+```

@@ -86,7 +86,7 @@ use [[gaussian-elimination]]
 
 ## Theorems
 
-> **theorem**: let $A$ be an $m \times n$ [[matrix]]. the following statements are equivalent:
+> **theorem**: let $\mathbb{M}^{m, n}A$ (see [[matrix]]). the following statements are equivalent:
 >
 > 1. every variable is a leading variable
 > 2. there is a leading variable in every column of the [[linear-system|RREF]] of $A$
@@ -131,6 +131,7 @@ use [[gaussian-elimination]]
   $rank\ A = n$ and $A$ has $n$ columns $\to$ every variable is a leading variable
 
 > **theorem**: let $\mathbb{M}^{n, n} A$ (see [[matrix]]). the following statements are equivalent:
+>
 > note that all statements below are valid both for $A$ and $A^\intercal$, see transpose [[matrix]]
 >
 > 1. $rank\ A = n$

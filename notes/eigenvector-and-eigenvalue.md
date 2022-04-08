@@ -1,4 +1,4 @@
-# Eigenvalue and Eigenvector
+# Eigenvector and Eigenvalue
 
 ## definition
 

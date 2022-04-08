@@ -1,6 +1,6 @@
 # Vector in Rn
 
-_Vectors in $\mathbb{R}^n$_
+_Vectors in $\R^n$_
 
 see [[math-notation]], [[classical-math-notation]], [[vector]] properties
 
@@ -24,7 +24,7 @@ $0^m = 0 \land m = 0 \dots n$, where $n$ is the dimension of the zero vector
 
 $\circ(a, b) \equiv (\circ a, \circ b)$ (negation)
 
-$c(a, b) \equiv (ca, cb) \dashv \mathbb{R} c$ (multiplication by a scalar)
+$c(a, b) \equiv (ca, cb) \dashv \R c$ (multiplication by a scalar)
 
 ## Magnitude
 
@@ -72,13 +72,13 @@ a set of [[vector]]s is orthogonal if and only if it does not contain the zero [
 
 ### Theorems
 
-any orthogonal set of [[vector]]s in $\mathbb{R}^n$ contains at most $n$ [[vector]]s
+any orthogonal set of [[vector]]s in $\R^n$ contains at most $n$ [[vector]]s
 
-any orthogonal set of $n$ [[vector]]s in $\mathbb{R}^n$ is an orthogonal [[basis]] of $\mathbb{R}^n$
+any orthogonal set of $n$ [[vector]]s in $\R^n$ is an orthogonal [[basis]] of $\R^n$
 
 orthogonal set $\vdash$ [[linearly-independent]], but not the inverse
 
-> **theorem**: suppose $w_0 \dots w_m$ is an orthogonal [[basis]] for a subspace $W$ of $\mathbb{R}^n$. then, $w = w_0\frac{w \cdot w_0}{w_0 \cdot w_0} + \dots w_m\frac{w \cdot w_m}{w_m \cdot w_m}$ (see [[dot-product]])
+> **theorem**: suppose $w_0 \dots w_m$ is an orthogonal [[basis]] for a subspace $W$ of $\R^n$. then, $w = w_0\frac{w \cdot w_0}{w_0 \cdot w_0} + \dots w_m\frac{w \cdot w_m}{w_m \cdot w_m}$ (see [[dot-product]])
 
 ### Collinear Vectors
 
@@ -102,7 +102,7 @@ $|proj_ba|$ is the _scalar projection of $a$ on $b$_
 
 $\hat b$ is the unit vector in the direction of $b$, $\frac{b}{|b|}$
 
-> **theorem**: suppose $w_0 \dots w_m$ is an orthogonal [[basis]] for a subspace $W$ of $\mathbb{R}^n$. then for any $\mathbb{R}^n v$, $proj_Wv = w_0\frac{v \cdot w_0}{w_0 \cdot w_0} + \dots w_m\frac{v \cdot w_m}{w_m \cdot w_m}$ (see [[dot-product]])
+> **theorem**: suppose $w_0 \dots w_m$ is an orthogonal [[basis]] for a subspace $W$ of $\R^n$. then for any $\R^n v$, $proj_Wv = w_0\frac{v \cdot w_0}{w_0 \cdot w_0} + \dots w_m\frac{v \cdot w_m}{w_m \cdot w_m}$ (see [[dot-product]])
 
 ### properties
 
@@ -116,11 +116,11 @@ $W (proj_Wv)$
 
 $v \circ proj_Wv$ is orthogonal to every [[vector]] in $W$
 
-the [[vector]] $proj_Wv$ is the only [[vector]] in $\mathbb{R}^n$ that satisfies the two properties above
+the [[vector]] $proj_Wv$ is the only [[vector]] in $\R^n$ that satisfies the two properties above
 
 $proj_Wv$ is the "best approximation" to $v$ by [[vector]]s in $W$
 
-## volume of the [[parallelepiped]] defined by 3 vectors in $\mathbb{R}^3$
+## volume of the [[parallelepiped]] defined by 3 vectors in $\R^3$
 
 _does this seem random? well, it is._
 
@@ -130,19 +130,4 @@ $V = |w \cdot (u \times v)|$, where
 
 $V$ is the volume calculated
 
-$u$, $v$ and $w$ are the three vectors in $\mathbb{R}^3$
-
-# todos
-
-replace `\R \N \Z` with `\mathbb{R} \mathbb{N} \mathbb{Z}`
-
-replace `\degree` with `^\circ`
-
-page breaks:
-
-<div class="page"/>
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
-</script>
+$u$, $v$ and $w$ are the three vectors in $\R^3$

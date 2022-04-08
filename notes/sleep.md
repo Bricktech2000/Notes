@@ -72,10 +72,11 @@ naps longer than 90 minutes will make it more difficult to fall asleep at night
 
 ## solutions
 
-- wear earplugs & face mask
+- wear face mask (and optionally earplugs)
 - avoid naps, otherwise max 20 minutes
 - place alarm clock far from bed to avoid snoozathons
-- take shower and reflect 30 minutes before bedtime
+- turn off all light sources 30 minutes before bedtime
+- ~~take shower and reflect 30 minutes before bedtime~~
 
 ## possible benefits
 

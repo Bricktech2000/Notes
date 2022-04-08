@@ -19,17 +19,17 @@ doesn't sort events automatically
 
 ### filter
 
-end date is within next week or end date is on or before today
+displays any event that isn't completed and that is within one day of today
 
-and
-
-status is not completed and date is not empty
-
-> displays any event that isn't completed and that is within one day of today
+> end date is within next week or end date is on or before today
+>
+> and
+>
+> status is not completed and date is not empty
 
 ### sort
 
-> sorts events by ascending end date
+sorts events by ascending end date
 
 ## Month View
 
@@ -68,20 +68,59 @@ the date a page was created, used below
 
 ```jsx
 // if(contains(prop("Category"), "DAY"), fromTimestamp(timestamp(start(prop("Date"))) % 86400000 + floor(timestamp(now()) / 86400000) * 86400000), if(contains(prop("Category"), "WK") or contains(prop("Category"), "LEC") or contains(prop("Category"), "DGD") or contains(prop("Category"), "LAB") or contains(prop("Category"), "TUT"), fromTimestamp((timestamp(start(prop("Date"))) - timestamp(now()) % 604800000 + 86400000) % 604800000 + timestamp(now()) % 604800000 - 86400000 + floor(timestamp(now()) / 604800000) * 604800000), if(prop("Status") == "Not Completed", end(prop("Date")), if(start(prop("Date")) != end(prop("Date")), start(prop("Date")), if(not empty(prop("Date")), prop("CREATED_DATE"), prop("EMPTY_DATE"))))))
-if(contains(prop("Category"), "DAY"), fromTimestamp(timestamp(start(prop("Date"))) % (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24)) * (1000*60*60*24) - (1000*60*60)), if(contains(prop("Category"), "WK"), fromTimestamp((timestamp(start(prop("Date"))) - timestamp(now()) % (1000*60*60*24*7) + (1000*60*60*24)) % (1000*60*60*24*7) + timestamp(now()) % (1000*60*60*24*7) - (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24*7)) * (1000*60*60*24*7) - (1000*60*60)), if(prop("Status") == "Not Completed", end(prop("Date")), if(start(prop("Date")) != end(prop("Date")), start(prop("Date")), if(not empty(prop("Date")), prop("CREATED_DATE"), prop("EMPTY_DATE"))))))
+if(contains(prop("Category"), "DAY"),
+  fromTimestamp(timestamp(start(prop("Date"))) % (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24)) * (1000*60*60*24) - (1000*60*60)),
+  if(contains(prop("Category"), "WK"),
+    fromTimestamp((timestamp(start(prop("Date"))) - timestamp(now()) % (1000*60*60*24*7) + (1000*60*60*24)) % (1000*60*60*24*7) + timestamp(now()) % (1000*60*60*24*7) - (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24*7)) * (1000*60*60*24*7) - (1000*60*60)),
+    if(prop("Status") == "Not Completed",
+      end(prop("Date")),
+      if(start(prop("Date")) != end(prop("Date")),
+        start(prop("Date")),
+        if(not empty(prop("Date")),
+          prop("CREATED_DATE"),
+          prop("EMPTY_DATE")
+        )
+      )
+    )
+  )
+)
 ```
 
 ### END_DATE
 
 ```jsx
 // if(contains(prop("Category"), "DAY"), fromTimestamp(timestamp(end(prop("Date"))) % 86400000 + floor(timestamp(now()) / 86400000) * 86400000), if(contains(prop("Category"), "WK") or contains(prop("Category"), "LEC") or contains(prop("Category"), "DGD") or contains(prop("Category"), "LAB") or contains(prop("Category"), "TUT"), fromTimestamp((timestamp(end(prop("Date"))) - timestamp(now()) % 604800000 + 86400000) % 604800000 + timestamp(now()) % 604800000 - 86400000 + floor(timestamp(now()) / 604800000) * 604800000), if(start(prop("Date")) != end(prop("Date")), end(prop("Date")), if(not empty(prop("Date")), end(prop("Date")), prop("EMPTY_DATE")))))
-if(contains(prop("Category"), "DAY"), fromTimestamp(timestamp(end(prop("Date"))) % (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24)) * (1000*60*60*24) - (1000*60*60)), if(contains(prop("Category"), "WK"), fromTimestamp((timestamp(end(prop("Date"))) - timestamp(now()) % (1000*60*60*24*7) + (1000*60*60*24)) % (1000*60*60*24*7) + timestamp(now()) % (1000*60*60*24*7) - (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24*7)) * (1000*60*60*24*7) - (1000*60*60)), if(start(prop("Date")) != end(prop("Date")), end(prop("Date")), if(not empty(prop("Date")), end(prop("Date")), prop("EMPTY_DATE")))))
+if(contains(prop("Category"), "DAY"),
+  fromTimestamp(timestamp(end(prop("Date"))) % (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24)) * (1000*60*60*24) - (1000*60*60)),
+  if(contains(prop("Category"), "WK"),
+    fromTimestamp((timestamp(end(prop("Date"))) - timestamp(now()) % (1000*60*60*24*7) + (1000*60*60*24)) % (1000*60*60*24*7) + timestamp(now()) % (1000*60*60*24*7) - (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24*7)) * (1000*60*60*24*7) - (1000*60*60)),
+    if(start(prop("Date")) != end(prop("Date")),
+      end(prop("Date")),
+      if(not empty(prop("Date")),
+        end(prop("Date")),
+        prop("EMPTY_DATE")
+      )
+    )
+  )
+)
 ```
 
 ### DDONE_OVER_DT
 
+see [[math-notation]]
+
+the $\cdot duration$ below "shifts" the event left by $duration$, which allows long-term projects to end up with higher priority at the beginning of their time allocation. this prioritizes tasks better.
+
+$$
+\text{DDONE\_OVER\_DT} = now \circ start \cdot duration - duration \\
+duration = end - start
+$$
+
 ```jsx
-(timestamp(now()) - timestamp(prop('START_DATE'))) /
+(timestamp(now()) -
+  2 * timestamp(prop('START_DATE')) +
+  timestamp(prop('END_DATE')) +
+  1000) /
   (timestamp(prop('END_DATE')) - timestamp(prop('START_DATE')) + 1000);
 ```
 
@@ -94,7 +133,6 @@ one of the following values:
 - Next Up
 - Work On
 - No Status
-- Worked On
 - Blocked
 - Not Completed (hidden)
 - Completed (hidden)
@@ -112,7 +150,9 @@ multiple of the following values:
 - Learning (orange)
 - Hobbies (orange)
 - Work (green)
-- uOttawa (green)
+- School (green)
+- Productivity (yellow)
+- Organization (yellow)
 - **all classes**
 - LEC &mdash; lectures
 - LAB &mdash; laboratory
@@ -134,8 +174,13 @@ a quick way to add a link to a page
 
 ### TEMP_PRIORITY
 
+this property is deprecated and has been removed from the page.
+
 ![](2022-04-01-10-18-17.png)
 
 ```jsx
 if(not prop("Important?") and (timestamp(prop("START_DATE")) > timestamp(now()) or timestamp(now()) > timestamp(prop("END_DATE")) or prop("START_DATE") == prop("EMPTY_DATE")), "Back Burner", if(not prop("Time-Consuming?"), "Get Done", if(timestamp(prop("START_DATE")) > timestamp(now()) or timestamp(now()) > timestamp(prop("END_DATE")) or prop("START_DATE") == prop("EMPTY_DATE"), "Schedule", if(not prop("Important?"), "Delegate", "Work on"))))
 ```
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
