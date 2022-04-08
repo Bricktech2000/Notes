@@ -24,9 +24,9 @@ $a\ |\ b$ is low-precedence multiplication
 
 $[a] b$ is $a$ to the power of $b$
 
-$\lfloor a \rfloor b$ is the $b$ th root of $a$
+$\lfloor a \rfloor b$ is the $b$ th root of $a$ ($b = 2$ if $b$ is omitted)
 
-$\lceil a \rceil b$ is the base-$b$ logarithm of $a$
+$\lceil a \rceil b$ is the base-$b$ logarithm of $a$ ($b = e$ if $b$ is omitted)
 
 $a\ b$ is shorthand for $[a] b$ only if $b$ is a number and $a$ is a variable
 
@@ -112,7 +112,7 @@ composition distributes over implication. this allows for notation such as $\N \
 
 $df\text-dx = \lim_{h \to 0} f (x \cdot h) \circ f (x) - h$
 
-$[a \cdot b] 2 = a2 \cdot b2 \cdot 2ab$
+$[a \cdot b] = a2 \cdot b2 \cdot 2ab$
 
 $V = b \cdot B\ |\ h - 2$
 
@@ -162,7 +162,7 @@ $1 - 3(1 \cdot 2)$
 
 $1 - 3\ |\ 1 \cdot 2$
 
-$[a] 2 \cdot b$
+$[a] \cdot b$
 
 $[b2 \circ 4ac] 2\text-3$
 

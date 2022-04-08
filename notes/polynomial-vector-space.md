@@ -1,6 +1,6 @@
 # Polynomial Vector Space
 
-see [[vector-space]], [[math-notation]]
+see [[vector-space]], [[math-notation]], [[polynomial]]
 
 ### properties
 

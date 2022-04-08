@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>lab5.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+<link rel="stylesheet" href="https://latex.vercel.app/style.css" type="text/css">
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="lab-5-latches-flip-flops-and-synchronous-counters">Lab 5: Latches, Flip-flops, and Synchronous Counters</h1>
+<h3 id="objectives">Objectives</h3>
+<ul>
+<li>Provide insight into the characteristics of several important latches and flip-flops.</li>
+<li>Build latches and flip-flops from basic gates.</li>
+<li>Explain concepts of latching and edge-triggering.</li>
+<li>Test latches and flip-flops to understand their operation.</li>
+</ul>
+<h3 id="equipment-and-components">Equipment and Components</h3>
+<ul>
+<li>Quartus 11 13.0 Service Pack 1 (Local)</li>
+</ul>
+<h2 id="part-i--sr-latch">Part I — SR Latch</h2>
+<p><img src="2022-04-07-22-27-26.png" alt=""></p>
+<p><img src="2022-04-07-22-27-45.png" alt=""></p>
+<h3 id="experimental-function-table">Experimental Function Table</h3>
+<table>
+<thead>
+<tr>
+<th>S</th>
+<th>R</th>
+<th>Qt</th>
+<th>Qt+1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>X</td>
+<td>Qt</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>X</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>X</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>X</td>
+<td>X</td>
+</tr>
+</tbody>
+</table>
+<h3 id="comparison-of-expected-data-and-experimental-data">Comparison of Expected Data and Experimental Data</h3>
+<p>Experimental data is identical to expected data.</p>
+<h2 id="part-ii--d-latch">Part II — D Latch</h2>
+<p><img src="2022-04-07-22-28-07.png" alt=""></p>
+<p><img src="2022-04-07-22-28-28.png" alt=""></p>
+<h2 id="part-iii--d-flip-flop">Part III — D Flip-Flop</h2>
+<p><img src="2022-04-07-22-37-42.png" alt=""></p>
+<p><img src="2022-04-07-22-37-57.png" alt=""></p>
+<h3 id="experimental-function-table">Experimental Function Table</h3>
+<table>
+<thead>
+<tr>
+<th>CLK</th>
+<th>D</th>
+<th>Qt+1</th>
+<th>Qt+1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>↑</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>↑</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>X</td>
+<td>Qt</td>
+<td>Qt</td>
+</tr>
+<tr>
+<td>1</td>
+<td>X</td>
+<td>Qt</td>
+<td>Qt</td>
+</tr>
+</tbody>
+</table>
+<h3 id="comparison-of-expected-data-and-experimental-data">Comparison of Expected Data and Experimental Data</h3>
+<p>Experimental data is identical to expected data.</p>
+<h2 id="part-iv--t-flip-flop">Part IV — T Flip-Flop</h2>
+<h3 id="experimental-function-table">Experimental Function Table</h3>
+<table>
+<thead>
+<tr>
+<th>CLK</th>
+<th>T</th>
+<th>Qt+1</th>
+<th>Qt+1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>↑</td>
+<td>0</td>
+<td>Qt</td>
+<td>Qt</td>
+</tr>
+<tr>
+<td>↑</td>
+<td>1</td>
+<td>Qt</td>
+<td>Qt</td>
+</tr>
+<tr>
+<td>0</td>
+<td>X</td>
+<td>Qt</td>
+<td>Qt</td>
+</tr>
+<tr>
+<td>1</td>
+<td>X</td>
+<td>Qt</td>
+<td>Qt</td>
+</tr>
+</tbody>
+</table>
+<h3 id="comparison-of-expected-data-and-experimental-data">Comparison of Expected Data and Experimental Data</h3>
+<p>Experimental data is identical to expected data.</p>
+<h2 id="discussion-and-conclusion">Discussion and Conclusion</h2>
+<p>TODO</p>
+<p>In this laboratory, we created several logic circuits using Quartus. We then analysed the circuits to predict their operation. Finally, we simulated the circuits to make sure our theoretical predictions were the same as the experimental results.</p>
+<p>The experimental and expected data matched completely. We met the objectives of analysing, constructing, and testing a 1-bit magnitude comparator, a 2-bit magnitude comparator, a 2-4 decoder, and a 4-1 multiplexer.</p>
+<p>Challenges</p>
+<ul>
+<li>
+<p>We had to use an outdated version of Quartus for the labs, which often breaks for no apparent reason. The errors we received were unrelated to the actual issues in our circuits, making debugging very annoying.</p>
+</li>
+<li>
+<p>TODO</p>
+</li>
+</ul>
+
+</body>
+</html>

@@ -1,6 +1,6 @@
 # Vector in Rn Vector Space
 
-see [[vector-space]], [[math-notation]]
+see [[vector-space]], [[math-notation]], [[vector-in-rn]]
 
 ## definition
 

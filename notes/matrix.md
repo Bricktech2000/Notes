@@ -54,7 +54,7 @@ $(AB)^{i, j} = A^{i, }\ |\ B^{, j} \dashv \N i \land \N j$, see [[dot-product]] 
 
 ### notation
 
-$AA = A2 = [A]2 \dashv \mathbb{M} A$
+$AA = A2 = [A] 2 \dashv \mathbb{M} A$
 
 therefore,
 
@@ -184,6 +184,8 @@ _the Transpose of a Matrix_
 
 ### definition
 
+_flips a matrix around its diagonal_
+
 $(A^\intercal)^{i, j} = (A)^{j, i} \dashv \N i \land \N j \land \mathbb{M} A$
 
 ### properties
@@ -218,19 +220,17 @@ see [[linear-system]] for invertability criteria
 
 let $A$ and $C$ be invertible [[matrix]]es, let $\Z p$ and let $\R k \land k \ne 0$
 
-$AA^{-1} = A^{-1}A = I$
+$AA^{\circ1} = A^{\circ1}A = I$
 
-$(A^{-1})^{-1} = A$
+$(A^{\circ1})^{\circ1} = A$
 
-$(A^p)^{-1} = (A^{-1})^p$
+$(A^p)^{\circ1} = (A^{\circ1})^p$
 
-$(kA)^{-1} = 1\text-k A^{-1}$
+$(kA)^{\circ1} = 1\text-k A^{\circ1}$
 
-$(AC)^{-1} = C^{-1}A^{-1}$ (note the order has changed as [[matrix]] multiplication is not commutative)
+$(AC)^{\circ1} = C^{\circ1}A^{\circ1}$ (note the order has changed as [[matrix]] multiplication is not commutative)
 
 if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
-
-> **theorem**: $AB = I \equiv BA = I$
 
 ### finding a matrix inverse
 
@@ -262,6 +262,8 @@ $BAx = B \begin{bmatrix}\circ 1 \\ 1\end{bmatrix}$
 
 $Ix = x = B \begin{bmatrix}\circ 1 \\ 1\end{bmatrix}$
 
-## Orthogonal Matrices
+## Triangular Matrix
 
-[[complete]]
+a [[matrix]] is _triangular_ if every entry below its diagonal or above its diagonal is $0$
+
+the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element

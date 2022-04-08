@@ -10,9 +10,11 @@ $|x| \le t \equiv \circ t \le x \le t$
 
 $|x| \ge t \equiv x \ge t \lor x \le \circ t$
 
-$|a \cdot b| \le |a| \cdot |b| \dashv \R a \land \R b$ “triangle inequality”
+_triangle inequality_
 
-### properties (conventional math notation)
+$|a \cdot b| \le |a| \cdot |b| \dashv \R a \land \R b$
+
+### properties ([[classical-math-notation]])
 
 $|x| \le t \Leftrightarrow -t \le x \le t$
 

@@ -47,6 +47,10 @@ attendance is mandatory &mdash; syllabus
 
 [[gaussian-elimination]]
 
+[[complex-number]]
+
+[[determinant]]
+
 **related**
 
 [[vector-in-rn]], [[normal-vector]], [[matrix]]
@@ -55,4 +59,8 @@ attendance is mandatory &mdash; syllabus
 
 [[number-set]]
 
-[[complex-number]]
+[[number-field]]
+
+[[fundamental-theorem-of-algebra]]
+
+[[eigenvalue-and-eigenvector]]

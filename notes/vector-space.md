@@ -4,11 +4,11 @@ see [[vector]], [[vector-in-rn]], [[matrix]], [[math-notation]], [[basis]]
 
 ## Types of Vector Spaces
 
-[[function-vector-space]]
+[[function-vector-space]], [[function]]
 
-[[polynomial-vector-space]]
+[[polynomial-vector-space]], [[polynomial]]
 
-[[vector-in-rn-vector-space]]
+[[vector-in-rn-vector-space]], [[vector-in-rn]]
 
 [[zero-space]]
 

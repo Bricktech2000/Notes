@@ -2,7 +2,7 @@
 
 see [[classical-math-notation]]
 
-> basically, a polynomial divided by a different polynomial
+> basically, a [[polynomial]] divided by a different [[polynomial]]
 
 $f(x) = \frac{numerator}{denominator}$
 

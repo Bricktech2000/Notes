@@ -131,6 +131,7 @@ use [[gaussian-elimination]]
   $rank\ A = n$ and $A$ has $n$ columns $\to$ every variable is a leading variable
 
 > **theorem**: let $\mathbb{M}^{n, n} A$ (see [[matrix]]). the following statements are equivalent:
+> note that all statements below are valid both for $A$ and $A^\intercal$, see transpose [[matrix]]
 >
 > 1. $rank\ A = n$
 > 2. every linear system of the form $Ax = b$ has a unique solution
@@ -143,3 +144,4 @@ use [[gaussian-elimination]]
 > 9. the columns of $A$ form a [[basis]] for $\R^n$
 > 10. the rows of $A$ form a [[basis]] for $\R^n$
 > 11. $A$ is [[matrix|invertible]]
+> 12. $\det A \ne 0$

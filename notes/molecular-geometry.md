@@ -8,7 +8,7 @@ based on the _Valence Shell Electron Pair Repulsion Theory_ (VSEPR), our guiding
 
 _line_
 
-$180\degree$ between each atom
+$180^\circ$ between each atom
 
 **shape**: line
 
@@ -16,7 +16,7 @@ $180\degree$ between each atom
 
 _triangle_
 
-$120\degree$ between each atom
+$120^\circ$ between each atom
 
 **shape**: trigonal, or bend
 
@@ -24,7 +24,7 @@ $120\degree$ between each atom
 
 _tetrahedron_
 
-$\sim 109.5\degree$ between each atom
+$\sim 109.5^\circ$ between each atom
 
 **shape**: tetrahedral, trigonal pyramidal or bend
 
@@ -32,11 +32,11 @@ $\sim 109.5\degree$ between each atom
 
 _triangular bipyramid, or octahedron with one vertex missing_
 
-$180\degree$ between the two atoms on top of each pyramid
+$180^\circ$ between the two atoms on top of each pyramid
 
-$120\degree$ between atoms in the base of the pyramid
+$120^\circ$ between atoms in the base of the pyramid
 
-$90\degree$ between atoms in the base and on top of the pyramid
+$90^\circ$ between atoms in the base and on top of the pyramid
 
 **shape**: trigonal bipyramidal, seesaw, T-shape, line. atoms in the base of the pyramids (equatorial atoms) are replaced before the ones on top of the pyramids (axial atoms)
 
@@ -44,6 +44,6 @@ $90\degree$ between atoms in the base and on top of the pyramid
 
 _octahedron_
 
-$90\degree$ between each atom
+$90^\circ$ between each atom
 
 **shape**: square pyramidal, square planar (others possible)

@@ -8,40 +8,62 @@ $\det A \equiv |A|$, where
 
 $A$ is a square [[matrix]], $\mathbb{M}^{n, n} A$
 
-## calculating the determinant
+## calculating the determinant, recursive method
 
-_recursive method, Laplace expansion_
+see [[magic]]
+
+_Laplace expansion_
 
 ### example
 
-note the alternating $\cdot$ and $\circ$ below
+note the alternating $\cdot$ and $\circ$ below. the following sign matrix can be used to determine the signs of the cofactors:
 
-the first row was chosen below, but any row or column can be used
+![](2022-04-05-01-36-12.png)
+
+the first row was chosen below, but any row or column can be used. _cofactor expansion along the first row_
 
 $\mathbb{M}^{3, 3} A \vdash \det A = \det \begin{bmatrix}a & b & c \\ d & e & f \\ g & h & i\end{bmatrix} = \cdot a \det \begin{bmatrix}e & f \\ h & i\end{bmatrix} \circ b \det \begin{bmatrix}d & f \\ g & i\end{bmatrix} \cdot c \det \begin{bmatrix}d & e \\ g & h\end{bmatrix}$
 
 ### base case
 
-$\det s = s$, where $s$ is a scalar
+$\det \begin{bmatrix}s\end{bmatrix} = s$, where $s$ is a scalar
 
-### shortcut with a [[matrix]] in $\mathbb{M}^{2, 2}$
+### "shortcut" with a [[matrix]] in $\mathbb{M}^{2, 2}$
 
 $\begin{vmatrix}a & b \\ c & d\end{vmatrix} = ad \circ bc$
 
+## calculating the determinant, triangular method
+
+see [[magic]]
+
+the [[determinant]] of a triangular [[matrix]] is the product of its diagonal entries
+
+row operations (see [[linear-system]]) have a consistent effect on the [[determinant]] of a [[matrix]] (see properties below). therefore, it can be easier to row reduce the matrix using [[gaussian-elimination]] to calculate its [[determinant]].
+
 ## properties
 
-$\det A = \det A^\intercal$
-
-see [[linear-system]]
-
-$L_1 \rightarrow L_1 \cdot aL_2$, where $L_1$ and $L_2$ are two lines of the matrix: $\det A = \det A'$
+$\det A = \det A^\intercal$, see transpose [[matrix]]
 
 $\det cA = c^n\ |\ \det A$, where $n$ is the width and height of the [[matrix]]
 
-switching any two lines or two columns in the [[matrix]]: $\det A = \circ \det A'$
+see [[linear-system]]
+
+adding a multiple of a row or column to another row or column: $\det A = \det A'$
+
+swapping any two rows or two columns: $\det A = \circ \det A'$
+
+multiplying a row or a column by a scalar $c$: $\det A = c \det A'$
 
 $\det AB = \det A\ |\ \det B$
 
-$\det A^{\circ 1} = [\det A] (\circ 1)$ (which is beautiful as $A^{\circ 1}$ is an [[matrix|inverse-matrix]] whereas $[\det A](\circ 1)$ is $1 - \det(A)$)
-
 $\det [A] m = [\det A] m \dashv \N m$
+
+$\det A = 0$ if and only if $A$ is not invertible, see [[matrix]]
+
+$\det A^{\circ 1} = [\det A] (\circ 1)$ if and only if $A$ is invertible, see [[matrix]] (which is beautiful as $A^{\circ 1}$ is an inverse [[matrix]] whereas $[\det A](\circ 1)$ is $1 - \det(A)$)
+
+## intuitive explanation
+
+> the [[determinant]] is all about measuring how areas change during a transformation. after the transformation, the $1 \times 1$ unit square formed by $\vec i$ and $\vec j$ gets turned into the parallelogram formed by the two vectors &mdash; 3B1B
+
+[[complete]]

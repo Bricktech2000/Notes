@@ -30,7 +30,7 @@ $\Z n$ and assume $\mathbb{O}n$
 
 according to definition of [[odd-number]]s, $\mathbb{O}n \equiv \Z k \land n = 2k \cdot 1$
 
-then, $n2 = [2k \circ 1] 2 = 4k2 \cdot 4k \cdot 1 = 2(2k2 \cdot 2k) \cdot 1$
+then, $n2 = [2k \circ 1] = 4k2 \cdot 4k \cdot 1 = 2(2k2 \cdot 2k) \cdot 1$
 
 we know $\Z (2k2 \cdot 2k)$, as it is the result of multiplication and addition of [[integer]]s
 

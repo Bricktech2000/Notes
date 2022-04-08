@@ -1,6 +1,6 @@
 # Function Vector Space
 
-see [[vector-space]], [[math-notation]]
+see [[vector-space]], [[math-notation]], [[function]]
 
 ## definition
 

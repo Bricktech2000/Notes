@@ -16,4 +16,4 @@ $V$ is the volume of the substance
 
 ## Constants
 
-$\rho_{H_2O_{4 \degree C}} = 1\frac{g}{mL}$
+$\rho_{H_2O_{4^\circ C}} = 1\frac{g}{mL}$

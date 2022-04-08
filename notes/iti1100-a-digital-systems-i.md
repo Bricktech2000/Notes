@@ -29,6 +29,8 @@ completion of all labs is **actually** mandatory
 
 [[lab3]]
 
+[[lab5]]
+
 ## textbook
 
 Available at the uOttawa bookstore
