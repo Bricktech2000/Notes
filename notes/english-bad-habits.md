@@ -24,6 +24,8 @@ _a few of my English bad habits_
 
 > dis**tri**buting
 
+> make a decision
+
 ## Incorrect
 
 > How's that called
@@ -31,6 +33,8 @@ _a few of my English bad habits_
 > Wish me good luck
 
 > when I’m going to see you again (🎵)
+
+> take a decision
 
 ## Careful
 

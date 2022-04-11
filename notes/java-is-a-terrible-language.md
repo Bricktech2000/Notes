@@ -18,6 +18,10 @@
 
 &mdash; live lecture
 
+![](20220410161358.png)
+
+&mdash; Aquarium Discord server
+
 ## java `.equals`
 
 [[overriding-java-equals]]

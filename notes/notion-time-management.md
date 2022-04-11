@@ -13,6 +13,10 @@ displays any task that has a status set
 
 doesn't sort events automatically
 
+### other
+
+page load limit: 100
+
 ## Day View
 
 - used for events that generally happen within a single day (friend meetups, classes, etc.)
@@ -31,6 +35,10 @@ displays any event that isn't completed and that is within one day of today
 
 sorts events by ascending end date
 
+### other
+
+page load limit: 100
+
 ## Month View
 
 - used for long-term events (assignments, reports, deadlines, etc.)
@@ -45,6 +53,10 @@ displays any event that has a date, that isn't completed and that isn't repeatin
 sorts events by status, or
 
 sorts events by priority based on the current progress on the timeline (ddone over dt)
+
+### other
+
+page load limit: 100
 
 ## Database Properties
 

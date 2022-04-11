@@ -4,8 +4,6 @@ see [[classical-math-notation]]
 
 ### notation
 
-[[todo]]: new square root notation
-
 $a \cdot b$ is addition
 
 $a \circ b$ is subtraction

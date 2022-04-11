@@ -69,3 +69,13 @@ I(audit thing)
 I -.-> A
 E ==> I
 ```
+
+$$
+P\ = \delta f - \delta x \\
+P\ x, y = (\delta f - \delta x)\ x, y \\
+$$
+
+$$
+P\ x, y = \delta f - \delta x \\
+P\ 1, 2 = (\delta f - \delta x)\ 1, 2
+$$
