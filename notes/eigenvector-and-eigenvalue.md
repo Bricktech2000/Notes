@@ -2,7 +2,7 @@
 
 ## definition
 
-let $\mathbb{M}^{n, n} A \land \N n \land \R \lambda \land \R^n x \land x \ne O$
+let $\mathbb M^{n, n} A \land \mathbb N n \land \mathbb R \lambda \land \mathbb R^n x \land x \ne O$
 
 if $Ax = \lambda x$, then $x$ is an [[eigenvector]] of $A$ and $\lambda$ is its corresponding [[eigenvalue]]
 
@@ -62,7 +62,7 @@ $\begin{bmatrix}\circ 2 & 2 & | & 0 \\ 2 & \circ 2 & | & 0\end{bmatrix}$
 
 and we get:
 
-$x(1, 1) \dashv \R x$
+$x(1, 1) \dashv \mathbb R x$
 
 [[complete]]
 

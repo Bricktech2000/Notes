@@ -16,9 +16,9 @@ polynomials, see [[polynomial-vector-space]]
 
 see [[math-notation]]
 
-let $\R^n (u, v, w) \dashv \Z n$
+let $\mathbb R^n (u, v, w) \dashv \mathbb Z n$
 
-let $\R (c1, c2)$
+let $\mathbb R (c1, c2)$
 
 $u \cdot 0 = 0$
 

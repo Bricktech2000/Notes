@@ -2,10 +2,10 @@
 
 see [[math-notation]]
 
-$\N \vdash \Z$
+$\mathbb N \vdash \mathbb Z$
 
 ## definition
 
 _a whole, non-negative number_
 
-**note**: $\N 0$
+**note**: $\mathbb N 0$

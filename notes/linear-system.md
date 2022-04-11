@@ -86,7 +86,7 @@ use [[gaussian-elimination]]
 
 ## Theorems
 
-> **theorem**: let $\mathbb{M}^{m, n}A$ (see [[matrix]]). the following statements are equivalent:
+> **theorem**: let $\mathbb M^{m, n}A$ (see [[matrix]]). the following statements are equivalent:
 >
 > 1. every variable is a leading variable
 > 2. there is a leading variable in every column of the [[linear-system|RREF]] of $A$
@@ -130,7 +130,7 @@ use [[gaussian-elimination]]
 
   $rank\ A = n$ and $A$ has $n$ columns $\to$ every variable is a leading variable
 
-> **theorem**: let $\mathbb{M}^{n, n} A$ (see [[matrix]]). the following statements are equivalent:
+> **theorem**: let $\mathbb M^{n, n} A$ (see [[matrix]]). the following statements are equivalent:
 >
 > note that all statements below are valid both for $A$ and $A^\intercal$, see transpose [[matrix]]
 >
@@ -138,11 +138,11 @@ use [[gaussian-elimination]]
 > 2. every linear system of the form $Ax = b$ has a unique solution
 > 3. the [[linear-system|RREF]] of $A$ is the identity [[matrix]]
 > 4. $Ker\ A = \{0\}$
-> 5. $Col\ A = \R^n$
-> 6. $Row\ A = \R^n$
+> 5. $Col\ A = \mathbb R^n$
+> 6. $Row\ A = \mathbb R^n$
 > 7. the columns of $A$ are [[linearly-independent]]
 > 8. the rows of $A$ are [[linearly-independent]]
-> 9. the columns of $A$ form a [[basis]] for $\R^n$
-> 10. the rows of $A$ form a [[basis]] for $\R^n$
+> 9. the columns of $A$ form a [[basis]] for $\mathbb R^n$
+> 10. the rows of $A$ form a [[basis]] for $\mathbb R^n$
 > 11. $A$ is [[matrix|invertible]]
 > 12. $\det A \ne 0$

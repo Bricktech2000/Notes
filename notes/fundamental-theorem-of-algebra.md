@@ -2,7 +2,7 @@
 
 see [[math-notation]]
 
-> Every [[polynomial]] with coefficients in the [[complex-number]]s [[factoring|factor]]s completely into linear factors of the form $a \cdot bi$ with $\mathbb{C} a \land \mathbb{C} b$
+> Every [[polynomial]] with coefficients in the [[complex-number]]s [[factoring|factor]]s completely into linear factors of the form $a \cdot bi$ with $\mathbb C a \land \mathbb C b$
 
 the same **cannot** be said for [[real-number]]s
 

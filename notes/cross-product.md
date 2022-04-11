@@ -34,6 +34,6 @@ $k(a \times b) = (ka) \times b = a \times (kb)$, think of this intuitively
 
 $|u \times v|$ is the area of the parallelogram with sides $u$ and $v$
 
-for volume of [[parallelepiped]] from 3 [[vector]]s in $\R^3$, see [[vector-in-rn]]
+for volume of [[parallelepiped]] from 3 [[vector]]s in $\mathbb R^3$, see [[vector-in-rn]]
 
 $u \times v$ is orthogonal to both $u$ and $v$, see [[vector-in-rn]]

@@ -6,9 +6,9 @@ see [[math-notation]]
 
 [[vector-space]] of $m \times n$ matrices:
 
-$\mathbb{M}^{m, n}$ in my [[math-notation]]
+$\mathbb M^{m, n}$ in my [[math-notation]]
 
-$M_{m\ n}(\R)$ in [[classical-math-notation]]
+$M_{m\ n}(\mathbb R)$ in [[classical-math-notation]]
 
 ## Rank of a Matrix
 
@@ -34,13 +34,13 @@ let $[A\ |\ b]$ be an augmented matrix.
 
 ### definition
 
-$(kA)^{i, j} = kA^{i, j} \dashv \N i \land \N j \land \R k \land \mathbb{M} A$
+$(kA)^{i, j} = kA^{i, j} \dashv \mathbb N i \land \mathbb N j \land \mathbb R k \land \mathbb M A$
 
 ## Matrix Addition
 
 ### definition
 
-$(A \cdot B)^{i, j} = A^{i, j} \cdot B^{i, j} \dashv \N i \land \N j \land \mathbb{M}^{m, n} A \land \mathbb{M}^{m, n} B$ (matrix addition)
+$(A \cdot B)^{i, j} = A^{i, j} \cdot B^{i, j} \dashv \mathbb N i \land \mathbb N j \land \mathbb M^{m, n} A \land \mathbb M^{m, n} B$ (matrix addition)
 
 ## Matrix Multiplication
 
@@ -48,21 +48,21 @@ see [[dot-product]], [[vector-in-rn]]
 
 ### definition
 
-$AB \ne \varnothing \equiv \mathbb{M}^{m, n}A \land \mathbb{M}^{n, p}B \land \N n \vdash \mathbb{M}^{m, p}AB$ ($AB$ is defined if the number of columns in $A$ is equal to the number of rows in $B$. their product will be an $m ' p$ matrix)
+$AB \ne \varnothing \equiv \mathbb M^{m, n}A \land \mathbb M^{n, p}B \land \mathbb N n \vdash \mathbb M^{m, p}AB$ ($AB$ is defined if the number of columns in $A$ is equal to the number of rows in $B$. their product will be an $m ' p$ matrix)
 
-$(AB)^{i, j} = A^{i, }\ |\ B^{, j} \dashv \N i \land \N j$, see [[dot-product]] (the $|$ here is a vector [[dot-product]], [[think]])
+$(AB)^{i, j} = A^{i, }\ |\ B^{, j} \dashv \mathbb N i \land \mathbb N j$, see [[dot-product]] (the $|$ here is a vector [[dot-product]], [[think]])
 
 ### notation
 
-$AA = A2 = [A] 2 \dashv \mathbb{M} A$
+$AA = A2 = [A] 2 \dashv \mathbb M A$
 
 therefore,
 
-$AA \dots A = [A] n \land \N n \dashv \mathbb{M} A$
+$AA \dots A = [A] n \land \mathbb N n \dashv \mathbb M A$
 
 ### properties
 
-$AB = BA \dashv \mathbb{M} A \land \mathbb{M} B \equiv \bot$ or $AB \ne BA \land \mathbb{M} A \land \mathbb{M} B$ (not commutative)
+$AB = BA \dashv \mathbb M A \land \mathbb M B \equiv \bot$ or $AB \ne BA \land \mathbb M A \land \mathbb M B$ (not commutative)
 
 $AB = 0 \vdash A = 0 \lor B = 0 \equiv \bot$ (it can happen that $AB = 0$, but $A \ne 0$ and $B \ne 0$) ($AB$ being equal to $0$ does not imply that $A = 0$ or that $B = 0$)
 
@@ -84,7 +84,7 @@ $\begin{bmatrix}1 & 2 & 3 \\ 4 & 5 & 6\end{bmatrix}\begin{bmatrix}x \\ y \\ z\en
 
 ## Identity Matrix
 
-$I^{a, b} = 1 \land a = b \lor I^{a, b} = 0 \land a \ne b \dashv \N a \land \N b \land \mathbb{M}^{n, n} I$
+$I^{a, b} = 1 \land a = b \lor I^{a, b} = 0 \land a \ne b \dashv \mathbb N a \land \mathbb N b \land \mathbb M^{n, n} I$
 
 ### examples
 
@@ -96,11 +96,11 @@ $\dots$
 
 ### properties
 
-$AI = A \land IA = A \dashv \mathbb{M} A$
+$AI = A \land IA = A \dashv \mathbb M A$
 
 ## Zero Matrix
 
-$O^{a, b} = 0 \dashv \N a \land \N b \land \mathbb{M}^{n, m} O$
+$O^{a, b} = 0 \dashv \mathbb N a \land \mathbb N b \land \mathbb M^{n, m} O$
 
 ### examples
 
@@ -112,11 +112,11 @@ $\dots$
 
 ### properties
 
-$A \cdot O = A \land O \cdot A = A \dashv \mathbb{M} A$
+$A \cdot O = A \land O \cdot A = A \dashv \mathbb M A$
 
-$A_{m, n}O_{n, p} = O_{m, p} \dashv \mathbb{M}^{n, p} O_{n, p} \land \mathbb{M}^{m, p} O_{m, p} \land \mathbb{M}^{m, n} A_{m, n}$
+$A_{m, n}O_{n, p} = O_{m, p} \dashv \mathbb M^{n, p} O_{n, p} \land \mathbb M^{m, p} O_{m, p} \land \mathbb M^{m, n} A_{m, n}$
 
-$O_{q, m}A_{m, n} = O_{q, n} \dashv \mathbb{M}^{q, m} O_{q, m} \land \mathbb{M}^{q, n} O_{q, n} \land \mathbb{M}^{m, n} A_{m, n}$
+$O_{q, m}A_{m, n} = O_{q, n} \dashv \mathbb M^{q, m} O_{q, m} \land \mathbb M^{q, n} O_{q, n} \land \mathbb M^{m, n} A_{m, n}$
 
 ## Nullspace (Kernel)
 
@@ -126,7 +126,7 @@ $Ker\ A \equiv Null\ A$
 
 ### definition
 
-$Ker\ A = x \equiv Null\ A = x \equiv Ax = 0 \land \mathbb{M}^{m, n}A \land \mathbb{M}^{n, 1} x$
+$Ker\ A = x \equiv Null\ A = x \equiv Ax = 0 \land \mathbb M^{m, n}A \land \mathbb M^{n, 1} x$
 
 the Kernel of a matrix can be calculated using [[gaussian-elimination|row-reduction]]
 
@@ -158,9 +158,9 @@ $Row\ A$
 
 ### definition
 
-$Col\ A = span\{A^{, n}\} \dashv \N n$
+$Col\ A = span\{A^{, n}\} \dashv \mathbb N n$
 
-$Row\ A = span\{A^{n,}\} \dashv \N n$
+$Row\ A = span\{A^{n,}\} \dashv \mathbb N n$
 
 ### properties
 
@@ -186,13 +186,13 @@ _the Transpose of a Matrix_
 
 _flips a matrix around its diagonal_
 
-$(A^\intercal)^{i, j} = (A)^{j, i} \dashv \N i \land \N j \land \mathbb{M} A$
+$(A^\intercal)^{i, j} = (A)^{j, i} \dashv \mathbb N i \land \mathbb N j \land \mathbb M A$
 
 ### properties
 
-$A^{\intercal^\intercal} = A \dashv \mathbb{M} A$
+$A^{\intercal^\intercal} = A \dashv \mathbb M A$
 
-$(AB)^\intercal = B^\intercal A^\intercal \dashv \mathbb{M} A \land \mathbb{M} B$
+$(AB)^\intercal = B^\intercal A^\intercal \dashv \mathbb M A \land \mathbb M B$
 
 ### example
 
@@ -218,7 +218,7 @@ see [[linear-system]] for invertability criteria
 
 ### properties
 
-let $A$ and $C$ be invertible [[matrix]]es, let $\Z p$ and let $\R k \land k \ne 0$
+let $A$ and $C$ be invertible [[matrix]]es, let $\mathbb Z p$ and let $\mathbb R k \land k \ne 0$
 
 $AA^{\circ1} = A^{\circ1}A = I$
 
@@ -234,11 +234,11 @@ if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 
 ### finding a matrix inverse
 
-let $\mathbb{M}^{n, n} A$
+let $\mathbb M^{n, n} A$
 
 solve the system $AA^{-1} = I$ by extending the [[matrix]] with the identity [[matrix]] and solve the [[linear-system]] up to [[linear-system|RREF]] using [[gaussian-elimination]]. $\begin{bmatrix}A & | & I\end{bmatrix} \sim \dots \begin{bmatrix}I & | & A^{-1}\end{bmatrix}$
 
-### shortcut with [[matrix]]es in $\mathbb{M}^{2, 2}$
+### shortcut with [[matrix]]es in $\mathbb M^{2, 2}$
 
 see [[determinant]]
 

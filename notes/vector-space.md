@@ -14,7 +14,7 @@ see [[vector]], [[vector-in-rn]], [[matrix]], [[math-notation]], [[basis]]
 
 ### examples
 
-$\R^1$, $\R^2$, $\R^n \land \N n$
+$\mathbb R^1$, $\mathbb R^2$, $\mathbb R^n \land \mathbb N n$
 
 $V v \equiv v = O$ (a set containing only the zero vector is a vector space)
 
@@ -24,7 +24,7 @@ $V v \equiv v = O$ (a set containing only the zero vector is a vector space)
 
 ### examples
 
-$\R^3$ and $\mathbb{P}^2$ are isomorphic, as any vector in $\R^3$ can be converted in a unique vector in $\mathbb{P}^2$, and vice-versa
+$\mathbb R^3$ and $\mathbb P^2$ are isomorphic, as any vector in $\mathbb R^3$ can be converted in a unique vector in $\mathbb P^2$, and vice-versa
 
 ## Dimension of a Vector Space
 
@@ -40,17 +40,17 @@ the dimension of a vector space is equal to the number of [[vector]]s in any [[b
 
 ### examples
 
-$\dim \R^2 = 2$
+$\dim \mathbb R^2 = 2$
 
-$\dim \mathbb{P}^2 = 3$
+$\dim \mathbb P^2 = 3$
 
-$\dim \mathbb{F} = \infty$
+$\dim \mathbb F = \infty$
 
-$\dim \mathbb{M}^{3, 4} = 12$
+$\dim \mathbb M^{3, 4} = 12$
 
 $\dim V = 2$ where $V$ is a [[plane-in-r3]]
 
-$\dim V = 1$ where $V$ is a [[line-in-r3]] or in $\R^2$
+$\dim V = 1$ where $V$ is a [[line-in-r3]] or in $\mathbb R^2$
 
 $\dim span\{0\} = 0$ ([[think]], see [[span]])
 
@@ -60,11 +60,11 @@ _there are three major ways of describing vector spaces_
 
 ### [[vector]] with restrictions
 
-$V v \equiv v = (x, y, z) \land x \circ 2y \cdot z = 0 \dashv \R x \land \R y \land \R z$
+$V v \equiv v = (x, y, z) \land x \circ 2y \cdot z = 0 \dashv \mathbb R x \land \mathbb R y \land \mathbb R z$
 
 ### [insert name here]
 
-$V v \equiv v = (2y \circ z, y, z) \dashv \R y \land \R z$
+$V v \equiv v = (2y \circ z, y, z) \dashv \mathbb R y \land \mathbb R z$
 
 ### as a [[linear-combination]]
 
@@ -90,7 +90,7 @@ $V u \land V v \vdash V (u \cdot v)$
 
 _closed under multiplication_
 
-$V u \land \R k \vdash V(k\ |\ u)$
+$V u \land \mathbb R k \vdash V(k\ |\ u)$
 
 _zero vector_
 
@@ -106,7 +106,7 @@ _identity_
 
 $1u = u \dashv V u$
 
-$\R k \land \R l\land V u \land V v \land V w$
+$\mathbb R k \land \mathbb R l\land V u \land V v \land V w$
 
 _commutativity_
 
@@ -130,9 +130,9 @@ $k\ |\ du \equiv kd\ |\ u$
 
 ### example
 
-$u = (x, 2x) \land v = (y, y2) \land \R k$
+$u = (x, 2x) \land v = (y, y2) \land \mathbb R k$
 
-prove $V v \equiv v = (x, 2x) \land \R x$ is a [[vector-space]]
+prove $V v \equiv v = (x, 2x) \land \mathbb R x$ is a [[vector-space]]
 
 _closed under addition_
 
@@ -152,15 +152,15 @@ $x = 0 \land y = 0 \vdash V (0, 0)$
 
 _properties_
 
-$V \vdash \R^2$
+$V \vdash \mathbb R^2$
 
-therefore, all properties are inherited from $\R^2$
+therefore, all properties are inherited from $\mathbb R^2$
 
 ### counterexample
 
 $u = (x, x \cdot 2) \land v = (y, y \cdot 2)$
 
-prove $V v \equiv v = (x, x \cdot 2) \land \R x$ is a [[vector-space]]
+prove $V v \equiv v = (x, x \cdot 2) \land \mathbb R x$ is a [[vector-space]]
 
 _closed under addition_
 
@@ -170,9 +170,9 @@ therefore, $V$ is not a [[vector-space]] as at least one [[axiom]] has been prov
 
 ### example
 
-$u = x_1(1, 2, 3) \cdot y_1(0, \circ 1, 4)\ \land\ v = x_2(1, 2, 3) \cdot y_2(0, \circ 1, 4)\ \land\ \R k$
+$u = x_1(1, 2, 3) \cdot y_1(0, \circ 1, 4)\ \land\ v = x_2(1, 2, 3) \cdot y_2(0, \circ 1, 4)\ \land\ \mathbb R k$
 
-prove $V v \equiv v = x(1, 2, 3) \cdot y(0, \circ 1, 4) \land \R x \land \R y$ (see [[linear-combination]])
+prove $V v \equiv v = x(1, 2, 3) \cdot y(0, \circ 1, 4) \land \mathbb R x \land \mathbb R y$ (see [[linear-combination]])
 
 _closed under addition_
 
@@ -190,17 +190,17 @@ $x = 0 \land y = 0 \vdash V (0, 0, 0)$
 
 _properties_
 
-$V \vdash \R^3$
+$V \vdash \mathbb R^3$
 
-therefore, all properties are inherited from $\R^3$
+therefore, all properties are inherited from $\mathbb R^3$
 
 ### counterexample
 
 $T u \land T v \equiv u(1, 2, 3) = 0 \land v(1, 2, 3) = 0$
 
-$\R k$
+$\mathbb R k$
 
-prove $T u \equiv \R^3 u \land u(1, 2, 3) = 0$ (see [[dot-product]]) is a [[vector-space]]
+prove $T u \equiv \mathbb R^3 u \land u(1, 2, 3) = 0$ (see [[dot-product]]) is a [[vector-space]]
 
 > all vectors orthogonal to $(1, 2, 3)$ (see [[vector-in-rn]]), meaning that this [[vector-space]] is a [[plane-in-r3]]
 
@@ -224,13 +224,13 @@ therefore, $T (ku)$
 
 _properties_
 
-$T \vdash \R^3$
+$T \vdash \mathbb R^3$
 
-therefore, all properties are inherited from $\R^3$
+therefore, all properties are inherited from $\mathbb R^3$
 
 ### example with [[matrix]]es
 
-$M m \equiv m = \mathbb{M}^{2, 2} m \land m^{0, 0} \cdot m^{1, 1} = m^{1, 0} \cdot m^{0, 1}$
+$M m \equiv m = \mathbb M^{2, 2} m \land m^{0, 0} \cdot m^{1, 1} = m^{1, 0} \cdot m^{0, 1}$
 
 _zero vector_
 
@@ -264,9 +264,9 @@ therefore, $M(km)$
 
 ### additional examples
 
-- any [[plane-in-r3]] through the origin is a subspace of $\R^3$
-- any [[line-in-r3]] through the origin is a subspace of $\R^3$ (same with $\R^2$)
-- any [[line-in-r3]] or [[plane-in-r3]] that does _not_ go through the origin is not a subspace of $\R^3$
-- $\R^n \vdash \R^n \dashv \N n$ ($\R^n$ is a subspace of $\R^n$)
-- $(V v \equiv v^i = 0 \dashv \N i \land i \le n) \vdash \R^n \dashv \N n$ ($(0, 0 \dots 0)$ is a subspace of $\R^n$)
-- $\lnot (\R^n \vdash \R^m) \land n < m \dashv \R n \land \R m$ ($\R^{n \circ x}$ is not a subspace of $\R^n$, as vectors in $\R^{n \circ x}$ are not really comparable to vectors in $\R^n$)
+- any [[plane-in-r3]] through the origin is a subspace of $\mathbb R^3$
+- any [[line-in-r3]] through the origin is a subspace of $\mathbb R^3$ (same with $\mathbb R^2$)
+- any [[line-in-r3]] or [[plane-in-r3]] that does _not_ go through the origin is not a subspace of $\mathbb R^3$
+- $\mathbb R^n \vdash \mathbb R^n \dashv \mathbb N n$ ($\mathbb R^n$ is a subspace of $\mathbb R^n$)
+- $(V v \equiv v^i = 0 \dashv \mathbb N i \land i \le n) \vdash \mathbb R^n \dashv \mathbb N n$ ($(0, 0 \dots 0)$ is a subspace of $\mathbb R^n$)
+- $\lnot (\mathbb R^n \vdash \mathbb R^m) \land n < m \dashv \mathbb R n \land \mathbb R m$ ($\mathbb R^{n \circ x}$ is not a subspace of $\mathbb R^n$, as vectors in $\mathbb R^{n \circ x}$ are not really comparable to vectors in $\mathbb R^n$)

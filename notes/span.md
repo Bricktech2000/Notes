@@ -14,6 +14,6 @@ a spanning set is always a [[vector-space]], and all [[vector-space]]s can be re
 
 ### notation
 
-$Span\{u_0 \dots u_m\} \dashv \R^nu \dashv \Z n$
+$Span\{u_0 \dots u_m\} \dashv \mathbb R^nu \dashv \mathbb Z n$
 
 $Vec$ is the French notation whereas $Span$ is the English notation

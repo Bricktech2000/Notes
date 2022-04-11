@@ -39,7 +39,7 @@ $m_s \in [+\frac 1 2, -\frac 1 2] = [\uparrow, \downarrow]$
 
 ## properties
 
-$n, l, m_l, m_s \in \N$
+$n, l, m_l, m_s \in \mathbb N$
 
 > according to Pauli's exclusion principle, every electron within an atom has a unique set of four quantum numbers. you can think of those quantum numbers as the address of each electron of an atom. &mdash; The Organic Chemistry Tutor
 

@@ -4,11 +4,11 @@ see [[vector]], [[vector-space]], [[math-notation]], [[span]]
 
 ### definition
 
-for all $\Z m$,
+for all $\mathbb Z m$,
 
-$\R^n (u_0 \dots u_m) \dashv \N n$
+$\mathbb R^n (u_0 \dots u_m) \dashv \mathbb N n$
 
-$\R (k_0 \dots k_m)$
+$\mathbb R (k_0 \dots k_m)$
 
 $k_0u_0 \cdot \dots k_nu_n$ is a _linear combination_ of the [[vector]]s $u_0 \dots u_m$
 

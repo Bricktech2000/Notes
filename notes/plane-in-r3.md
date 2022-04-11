@@ -16,7 +16,7 @@ _continue below_
 
 using two direction vectors on the plane $d_0$ and $d_1$ and a point $p_0$, we can derive the parametric equation of the plane
 
-$P = p_0 + t_0d_0 + t_1d_1 \land \R t_0 \land \R t_1$
+$P = p_0 + t_0d_0 + t_1d_1 \land \mathbb R t_0 \land \mathbb R t_1$
 
 ## Plane From 2 Vectors and Point
 

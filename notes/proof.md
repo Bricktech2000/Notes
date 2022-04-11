@@ -26,21 +26,21 @@ see [[math-notation]]
 
 > **theorem**: let $n$ be an [[integer]]. if $n$ is odd, then $n2$ is odd
 
-$\Z n$ and assume $\mathbb{O}n$
+$\mathbb Z n$ and assume $\mathbb On$
 
-according to definition of [[odd-number]]s, $\mathbb{O}n \equiv \Z k \land n = 2k \cdot 1$
+according to definition of [[odd-number]]s, $\mathbb On \equiv \mathbb Z k \land n = 2k \cdot 1$
 
 then, $n2 = [2k \circ 1] = 4k2 \cdot 4k \cdot 1 = 2(2k2 \cdot 2k) \cdot 1$
 
-we know $\Z (2k2 \cdot 2k)$, as it is the result of multiplication and addition of [[integer]]s
+we know $\mathbb Z (2k2 \cdot 2k)$, as it is the result of multiplication and addition of [[integer]]s
 
-therefore, $\mathbb{O}n \vdash \mathbb{O}n2$
+therefore, $\mathbb On \vdash \mathbb On2$
 
 ### proving an expression is an [[even-number]]
 
-prove $n2 \cdot 3n \cdot 8$ is an [[even-number]] for all $\Z n$
+prove $n2 \cdot 3n \cdot 8$ is an [[even-number]] for all $\mathbb Z n$
 
-let $n = 2k \cdot q \land \Z k \land \Z q$
+let $n = 2k \cdot q \land \mathbb Z k \land \mathbb Z q$
 
 $(2k \cdot q)2 \cdot 3(2k \cdot q) \cdot 8$
 
@@ -52,7 +52,7 @@ $(2\ |\ 2k2 \cdot 2kq \cdot 3k \cdot 4 \cdot q) \cdot q2 \cdot q$
 
 $n2 \cdot n$
 
-let $n = 2k \land \Z k$
+let $n = 2k \land \mathbb Z k$
 
 $(2k)2 \cdot 2k$
 
@@ -60,9 +60,9 @@ $4k2 \cdot 2k$
 
 $2\ |\ 2k2 \cdot k$
 
-since $\Z (2k2 \cdot k)$, the above must be an [[even-number]]
+since $\mathbb Z (2k2 \cdot k)$, the above must be an [[even-number]]
 
-let $n = 2k \cdot 1 \land \Z k$
+let $n = 2k \cdot 1 \land \mathbb Z k$
 
 $(2k \cdot 1)2 \cdot 2k \cdot 1$
 
@@ -70,4 +70,4 @@ $4k2 \cdot 4k \cdot 1 \cdot 2k \cdot 1$
 
 $2\ |\ 2k2 \cdot 3k \cdot 1$
 
-since $\Z (2k2 \cdot 3k \cdot 1)$, the above must be an [[even-number]]
+since $\mathbb Z (2k2 \cdot 3k \cdot 1)$, the above must be an [[even-number]]

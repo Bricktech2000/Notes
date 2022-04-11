@@ -6,4 +6,4 @@ see [[math-notation]]
 
 _a whole number_
 
-$\Z n \equiv \N n \lor \N (\circ n)$
+$\mathbb Z n \equiv \mathbb N n \lor \mathbb N (\circ n)$

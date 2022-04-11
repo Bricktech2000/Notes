@@ -28,7 +28,7 @@ $\lceil a \rceil b$ is the base-$b$ logarithm of $a$ ($b = e$ if $b$ is omitted)
 
 $a\ b$ is shorthand for $[a] b$ only if $b$ is a number and $a$ is a variable
 
-$\N a$ checks whether $a$ is part of the set $\N$
+$\mathbb N a$ checks whether $a$ is part of the set $\mathbb N$
 
 $a = b$ checks whether two expressions are equal
 
@@ -82,13 +82,13 @@ $(()[]\lfloor\rfloor\lceil\rceil)('\text-)(\cdot \circ) (|-) (=\ne\gt\ge\lt\le) 
 
 [[todo]]
 
-composition distributes over implication. this allows for notation such as $\N \vdash \R$
+composition distributes over implication. this allows for notation such as $\mathbb N \vdash \mathbb R$
 
 ### principles
 
 - $=$ **checks** for equality and returns a boolean
 - it is implied that an expression on its own must evaluate to $\top$ (`true`)
-- sets are [[function]]s that return a boolean ($\R a$ instead of $a \in \R$)
+- sets are [[function]]s that return a boolean ($\mathbb R a$ instead of $a \in \mathbb R$)
 - $\lfloor a \rfloor = \lfloor a \rfloor 2$ returns both positive and negative square roots ($\lfloor q2 \rfloor = \dot \circ q$)
 - $\lfloor 4 \rfloor = 2$ is invalid, but $\lfloor 4 \rfloor \dashv 2$ is valid
 - ~~functions support currying to take multiple arguments~~
@@ -96,11 +96,11 @@ composition distributes over implication. this allows for notation such as $\N \
 ### examples
 
 - [[quadratic-formula]]: $\circ b \cdot \lfloor b2 \circ 4ac \rfloor - 2a$
-- definition of the set of [[complex-number]]s: $\mathbb{C} x \equiv x = a \cdot b\lfloor \circ 1 \rfloor \land \R a \land \R b$
+- definition of the set of [[complex-number]]s: $\mathbb C x \equiv x = a \cdot b\lfloor \circ 1 \rfloor \land \mathbb R a \land \mathbb R b$
 - definition of multiplication of a boolean by a scalar:
-  - $\mathbb{B} b = (b \equiv \top) \lor (b \equiv \bot)$
-  - $(ab = b \dashv a \ne 0 \land \mathbb{B}b) \vdash 2\top = \top$
-  - $(ab = \varnothing \dashv a = 0 \land \mathbb{B}b) \vdash 0\top = \varnothing$
+  - $\mathbb B b = (b \equiv \top) \lor (b \equiv \bot)$
+  - $(ab = b \dashv a \ne 0 \land \mathbb Bb) \vdash 2\top = \top$
+  - $(ab = \varnothing \dashv a = 0 \land \mathbb Bb) \vdash 0\top = \varnothing$
 - definition of the implication / subset / superset / “for all” symbol:
   - $a \vdash b = \lnot a \lor b$
   - $a \dashv b = a \lor \lnot b$
@@ -128,25 +128,25 @@ $x2 + y2 + z2 = r2$
 
 $[e] i\pi = \circ 1$
 
-$\N \vdash \R$
+$\mathbb N \vdash \mathbb R$
 
-$\R^nU_1 \land \R^nO \dashv aO = O \dashv \R a$
+$\mathbb R^nU_1 \land \mathbb R^nO \dashv aO = O \dashv \mathbb R a$
 
-$^\perp = U \to v \to \R^nv \land u \cdot v = 0 \dashv U u$
+$^\perp = U \to v \to \mathbb R^nv \land u \cdot v = 0 \dashv U u$
 
-$dist\ A, B = dist\ A \cdot x, B \cdot x \dashv \R x$
+$dist\ A, B = dist\ A \cdot x, B \cdot x \dashv \mathbb R x$
 
 $dist\ A, B \cdot dist\ B, C \ge dist\ A, C$
 
 $\lnot\ a \cdot b = c\ |\ d$
 
-$3' x = y \dashv \Z x$
+$3' x = y \dashv \mathbb Z x$
 
 _there exists an [[integer]] $x$ such that $1 + x = 3$_
 
-[[classical-math-notation]]: $\exist x \in \Z \text{\ \ \ s. t.\ \ \ } 1 + x = 3$
+[[classical-math-notation]]: $\exist x \in \mathbb Z \text{\ \ \ s. t.\ \ \ } 1 + x = 3$
 
-my [[math-notation]]: $1 \cdot x = 3 \land \Z x$
+my [[math-notation]]: $1 \cdot x = 3 \land \mathbb Z x$
 
 **while on call with Kiera**
 
@@ -174,7 +174,7 @@ $a \dashv b = a \lor \lnot b$
 
 $P = (x, y, z)$
 
-$P = (P^0, P^1, P^2) \dashv \R^3 P$
+$P = (P^0, P^1, P^2) \dashv \mathbb R^3 P$
 
 **oh god I think Kiera is right**
 

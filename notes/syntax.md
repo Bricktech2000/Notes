@@ -90,6 +90,24 @@ horizontal rule
 
 box titles generated with <https://lingojam.com/BoldTextGenerator>
 
+## Notes
+
+`\R`, `\N` and `\Z` must not be used, as they are not widely supported. use `\mathbb R`, `\mathbb N` and `\mathbb Z` respectively.
+
+<!--
+find: \\R\b
+replace: \mathbb R
+
+find: \\N\b
+replace: \mathbb N
+
+find: \\Z\b
+replace: \mathbb Z
+
+find: \\mathbb\{(.)\}
+replace: \mathbb $1
+-->
+
 ## LaTeX Style PDF Export
 
 <!-- see `settings.json` for sources -->

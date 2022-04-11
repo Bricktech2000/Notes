@@ -2,7 +2,7 @@
 
 see [[math-notation]]
 
-$\R \vdash \mathbb{C}$
+$\mathbb R \vdash \mathbb C$
 
 ## definition
 

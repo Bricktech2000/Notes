@@ -2,10 +2,10 @@
 
 see [[math-notation]], [[boolean-algebra]]
 
-$\mathbb{E} \equiv \lnot \mathbb{O}$, see [[odd-number]]
+$\mathbb E \equiv \lnot \mathbb O$, see [[odd-number]]
 
-$\mathbb{E} \vdash \Z$
+$\mathbb E \vdash \mathbb Z$
 
 ### definition
 
-$\mathbb{E}n \equiv \Z k \land n = 2k \cdot 0$
+$\mathbb En \equiv \mathbb Z k \land n = 2k \cdot 0$

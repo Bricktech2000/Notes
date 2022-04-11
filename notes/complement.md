@@ -24,7 +24,7 @@ digit.map(max_digit - digit) + 1
 
 see [[math-notation]]
 
-let $[A]$ be the Radix Complement of $A$ for all $A$, and assume $\R A$
+let $[A]$ be the Radix Complement of $A$ for all $A$, and assume $\mathbb R A$
 
 $A \cdot [A] = 0$
 

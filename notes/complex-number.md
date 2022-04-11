@@ -14,9 +14,9 @@ $z = |z| \cos \theta \cdot |z| i \sin \theta = |z| [e]i\theta$, see [[e]]
 
 ## definition
 
-the set of [[complex-number]]s $\mathbb{C}$ is defined as follows:
+the set of [[complex-number]]s $\mathbb C$ is defined as follows:
 
-$\mathbb{C} x \equiv x = a \cdot bi \land \R a \land \R b$, where $i$ is an [[imaginary-number]]
+$\mathbb C x \equiv x = a \cdot bi \land \mathbb R a \land \mathbb R b$, where $i$ is an [[imaginary-number]]
 
 let $z = a \cdot bi$. then, $Re\ z = a \equiv z^{re} = a$ (the _real part_ of $z$) and $Im\ z = b \equiv z^{im} = b$ (the _imaginary part_ of $z$)
 
@@ -52,7 +52,7 @@ _etc._
 
 multiplying by the conjugate can be used to reduce an expression such as $1 - 4 \cdot 3i$
 
-[[complex-number]]s can be represented in the _complex plane_, $(z^{re}, z^{im}) \dashv \mathbb{C} z$
+[[complex-number]]s can be represented in the _complex plane_, $(z^{re}, z^{im}) \dashv \mathbb C z$
 
 ## Complex Conjugate
 
@@ -64,7 +64,7 @@ $\overline z = a \circ bi$ is the _complex conjugate_ of $z$
 
 ### properties
 
-let $\mathbb{C} z \land \mathbb{C} w \land \R c$
+let $\mathbb C z \land \mathbb C w \land \mathbb R c$
 
 $\overline{z \cdot w} = \overline z \cdot \overline w$
 
@@ -76,7 +76,7 @@ $\overline{z - w} = \overline z - \overline w$
 
 $\overline{\overline z} = z$
 
-$\R z \equiv \overline z = z$
+$\mathbb R z \equiv \overline z = z$
 
 ## Absolute Value
 
@@ -88,9 +88,9 @@ $|z| = \lfloor a2 \cdot b2 \rfloor$ is the _absolute value_ of $z$. the absolute
 
 ### properties
 
-let $\mathbb{C} z \land \mathbb{C} w \land \R c$
+let $\mathbb C z \land \mathbb C w \land \mathbb R c$
 
-$\R |z| \land |z| \ge 0$
+$\mathbb R |z| \land |z| \ge 0$
 
 $|z| = |\overline z|$
 

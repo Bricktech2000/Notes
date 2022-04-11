@@ -25,4 +25,4 @@ _fixed in my [[math-notation]]_
 - indices start at 1
 - ∈ and sets
 - a(b) is ambiguous: both multiplication and composition
-- points and vectors in $\R^n$ are two different concepts
+- points and vectors in $\mathbb R^n$ are two different concepts

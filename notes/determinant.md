@@ -6,7 +6,7 @@ see [[math-notation]], [[matrix]]
 
 $\det A \equiv |A|$, where
 
-$A$ is a square [[matrix]], $\mathbb{M}^{n, n} A$
+$A$ is a square [[matrix]], $\mathbb M^{n, n} A$
 
 ## calculating the determinant, recursive method
 
@@ -22,13 +22,13 @@ note the alternating $\cdot$ and $\circ$ below. the following sign matrix can be
 
 the first row was chosen below, but any row or column can be used. _cofactor expansion along the first row_
 
-$\mathbb{M}^{3, 3} A \vdash \det A = \det \begin{bmatrix}a & b & c \\ d & e & f \\ g & h & i\end{bmatrix} = \cdot a \det \begin{bmatrix}e & f \\ h & i\end{bmatrix} \circ b \det \begin{bmatrix}d & f \\ g & i\end{bmatrix} \cdot c \det \begin{bmatrix}d & e \\ g & h\end{bmatrix}$
+$\mathbb M^{3, 3} A \vdash \det A = \det \begin{bmatrix}a & b & c \\ d & e & f \\ g & h & i\end{bmatrix} = \cdot a \det \begin{bmatrix}e & f \\ h & i\end{bmatrix} \circ b \det \begin{bmatrix}d & f \\ g & i\end{bmatrix} \cdot c \det \begin{bmatrix}d & e \\ g & h\end{bmatrix}$
 
 ### base case
 
 $\det \begin{bmatrix}s\end{bmatrix} = s$, where $s$ is a scalar
 
-### "shortcut" with a [[matrix]] in $\mathbb{M}^{2, 2}$
+### "shortcut" with a [[matrix]] in $\mathbb M^{2, 2}$
 
 $\begin{vmatrix}a & b \\ c & d\end{vmatrix} = ad \circ bc$
 
@@ -56,7 +56,7 @@ multiplying a row or a column by a scalar $c$: $\det A = c \det A'$
 
 $\det AB = \det A\ |\ \det B$
 
-$\det [A] m = [\det A] m \dashv \N m$
+$\det [A] m = [\det A] m \dashv \mathbb N m$
 
 $\det A = 0$ if and only if $A$ is not invertible, see [[matrix]]
 

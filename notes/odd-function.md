@@ -6,4 +6,4 @@ see [[even-function]], [[math-notation]]
 
 _an odd function is symmetrical about the y axis, but also flipped about the x axis_
 
-$\circ f x = f (\circ x) \dashv \R x$
+$\circ f x = f (\circ x) \dashv \mathbb R x$

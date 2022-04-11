@@ -14,7 +14,7 @@ $k''(x) = 6x^2 - 12x$
 
 ### 6 Steps to Follow
 
-1. Determine the domain: $\mathbb{R}$
+1. Determine the domain: $\mathbb R$
 2. Determine intercepts
    - Determine the y-intercept: $k(0) = 0$
    - Determine the x-intercept: $k(x) = 0\ for\ x = 0, 4$

@@ -8,7 +8,7 @@ see [[vector-in-rn]], [[math-notation]]
 
 $L = p \cdot td$, or
 
-$L = p \cdot t (p_1 \circ p_0) \land \R t$, where
+$L = p \cdot t (p_1 \circ p_0) \land \mathbb R t$, where
 
 $p_0$ and $p_1$ are two points on the line
 
@@ -28,11 +28,11 @@ using [[vector-in-rn]]3, we get
 
 $L^x \circ p^x - p_1^x \circ p_0^x = L^y \circ p^y - p_1^y \circ p_0^y = L^z \circ p^z - p_1^z \circ p_0^z$
 
-note that if $p_1^n = p_0^n \land \Z n$, then the term $n$ must be rearranged to avoid a division by $0$
+note that if $p_1^n = p_0^n \land \mathbb Z n$, then the term $n$ must be rearranged to avoid a division by $0$
 
 ## Intersection of Two Lines
 
-if $L_0^n = L_1^n \dashv \Z n$ has a solution, then the two lines intersect at said solution
+if $L_0^n = L_1^n \dashv \mathbb Z n$ has a solution, then the two lines intersect at said solution
 
 **trick**: check to see if the lines are parallel first
 
@@ -42,9 +42,9 @@ the angle between two lines is the angle between their direction [[vector-in-rn]
 
 ## other
 
-if $p_1^n \circ p_0^n = 0 \land \Z n$, then the line is in a plane
+if $p_1^n \circ p_0^n = 0 \land \mathbb Z n$, then the line is in a plane
 
-lines $L_1$ and $L_2$ are parallel if $p_{1_1} \circ p_{1_0} = k\ |\ p_{2_1} \circ p_{2_0} \land \R k$ “their direction vectors are scalar multiples of each other”
+lines $L_1$ and $L_2$ are parallel if $p_{1_1} \circ p_{1_0} = k\ |\ p_{2_1} \circ p_{2_0} \land \mathbb R k$ “their direction vectors are scalar multiples of each other”
 
 ## Slope-intercept form
 
