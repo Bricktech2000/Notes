@@ -10,7 +10,7 @@ $(1, 2)$
 
 $\begin{bmatrix}1 & 2\end{bmatrix}$
 
-$\begin{bmatrix}1 \\ 2 \\ 3\end{bmatrix}$
+$\begin{bmatrix}1 \\\  2 \\\  3\end{bmatrix}$
 
 ## operations
 

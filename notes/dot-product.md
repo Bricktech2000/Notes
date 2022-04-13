@@ -20,7 +20,7 @@ $a \cdot b = ab^\intercal$
 
 $[3, 2, -1] \cdot [4, -6, 3] = 3 \times 4 + 2 \times -6 + -1 \times 3 = -3$
 
-$\begin{bmatrix} 3 & 2 & -1\end{bmatrix} \cdot \begin{bmatrix} 4 & -6 & 3\end{bmatrix} = \begin{bmatrix} 3 & 2 & -1\end{bmatrix} \begin{bmatrix} 4 \\ -6 \\ 3\end{bmatrix} = -3$
+$\begin{bmatrix} 3 & 2 & -1\end{bmatrix} \cdot \begin{bmatrix} 4 & -6 & 3\end{bmatrix} = \begin{bmatrix} 3 & 2 & -1\end{bmatrix} \begin{bmatrix} 4 \\\  -6 \\\  3\end{bmatrix} = -3$
 
 ### properties
 

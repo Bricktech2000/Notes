@@ -1,5 +1,7 @@
 # Inverse Function
 
+[[todo]] [[think]]
+
 ## definition
 
 let $f x$ be a function

@@ -12,7 +12,7 @@ $M_{m\ n}(\mathbb R)$ in [[classical-math-notation]]
 
 ## Rank of a Matrix
 
-_the number of pivots in any REF of the matrix_
+_the number of pivots in any [[REF]] of the matrix_
 
 ### notation
 
@@ -24,11 +24,11 @@ $A$ is the matrix to find the rank of
 
 see [[linear-system]]
 
-let $[A\ |\ b]$ be an augmented matrix.
+let $\begin{bmatrix}A & | & b\end{bmatrix}$ be an augmented matrix.
 
-- the system has no solutions if $rank(A) \lt rank([A|b])$
-- the system has a unique solution if and only if $rank(A) = rank([A|b]) = \text{number of columns in A}$
-- the system infinite solutions if and only if $rank(A) = rank([A|b]) \lt \text{number of columns in A}$
+- the system has no solutions if $rank(A) \lt rank(\begin{bmatrix}A & | & b\end{bmatrix})$
+- the system has a unique solution if and only if $rank(A) = rank(\begin{bmatrix}A & | & b\end{bmatrix}) = \text{number of columns in A}$
+- the system infinite solutions if and only if $rank(A) = rank(\begin{bmatrix}A & | & b\end{bmatrix}) \lt \text{number of columns in A}$
 
 ## Multiplication by a Scalar
 
@@ -62,25 +62,25 @@ $AA \dots A = [A] n \land \mathbb N n \dashv \mathbb M A$
 
 ### properties
 
-$AB = BA \dashv \mathbb M A \land \mathbb M B \equiv \bot$ or $AB \ne BA \land \mathbb M A \land \mathbb M B$ (not commutative)
+$AB = BA \dashv \mathbb M A \land \mathbb M B \equiv \bot$ or $AB \ne BA \land \mathbb M A \land \mathbb M B$ &mdash; not commutative
 
 $AB = 0 \vdash A = 0 \lor B = 0 \equiv \bot$ (it can happen that $AB = 0$, but $A \ne 0$ and $B \ne 0$) ($AB$ being equal to $0$ does not imply that $A = 0$ or that $B = 0$)
 
 $AC = BC \land C \ne 0 \vdash A = B \equiv \bot$ ($AC = BC$ and $C \ne 0$ does not imply that $A = B$)
 
-$(AB)C = A(BC)$ (associative)
+$(AB)C = A(BC)$ &mdash; associative
 
-$A(B \cdot C) = AB \cdot AC$ (distributive)
+$A(B \cdot C) = AB \cdot AC$ &mdash; distributive
 
-$(B \cdot C)A = BA \cdot CA$ (distributive)
+$(B \cdot C)A = BA \cdot CA$ &mdash; distributive
 
-$k(AB) = (kA)B = A(kB)$ (associative with scalars)
+$k(AB) = (kA)B = A(kB)$ &mdash; associative with scalars
 
 ### examples
 
 can be used to represent a [[linear-system]] of [[linear-equation]]s:
 
-$\begin{bmatrix}1 & 2 & 3 \\ 4 & 5 & 6\end{bmatrix}\begin{bmatrix}x \\ y \\ z\end{bmatrix}$
+$\begin{bmatrix}1 & 2 & 3 \\\  4 & 5 & 6\end{bmatrix}\begin{bmatrix}x \\\  y \\\  z\end{bmatrix}$
 
 ## Identity Matrix
 
@@ -88,9 +88,9 @@ $I^{a, b} = 1 \land a = b \lor I^{a, b} = 0 \land a \ne b \dashv \mathbb N a \la
 
 ### examples
 
-$\begin{bmatrix}1 & 0 \\ 0 & 1\end{bmatrix}$
+$\begin{bmatrix}1 & 0 \\\  0 & 1\end{bmatrix}$
 
-$\begin{bmatrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{bmatrix}$
+$\begin{bmatrix}1 & 0 & 0 \\\  0 & 1 & 0 \\\  0 & 0 & 1\end{bmatrix}$
 
 $\dots$
 
@@ -104,9 +104,9 @@ $O^{a, b} = 0 \dashv \mathbb N a \land \mathbb N b \land \mathbb M^{n, m} O$
 
 ### examples
 
-$\begin{bmatrix}0 & 0 \\ 0 & 0\end{bmatrix}$
+$\begin{bmatrix}0 & 0 \\\  0 & 0\end{bmatrix}$
 
-$\begin{bmatrix}0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0\end{bmatrix}$
+$\begin{bmatrix}0 & 0 & 0 \\\  0 & 0 & 0 \\\  0 & 0 & 0 \\\  0 & 0 & 0\end{bmatrix}$
 
 $\dots$
 
@@ -128,13 +128,13 @@ $Ker\ A \equiv Null\ A$
 
 $Ker\ A = x \equiv Null\ A = x \equiv Ax = 0 \land \mathbb M^{m, n}A \land \mathbb M^{n, 1} x$
 
-the Kernel of a matrix can be calculated using [[gaussian-elimination|row-reduction]]
+the Kernel of a matrix can be calculated using [[row-reduction]]
 
 ### properties
 
 the Null Space of a [[matrix]] is always a [[vector-space]]
 
-> **theorem**: the [[span]]ning set of $Null\ A$ obtained from applying [[gaussian-elimination|row-reduction]] on the system $Ax = 0$ is a [[basis]] for $Null\ A$
+> **theorem**: the [[span]]ning set of $Null\ A$ obtained from applying [[row-reduction]] on the system $Ax = 0$ is a [[basis]] for $Null\ A$
 
 > therefore, as $\dim Null\ A = \text{number of free variables in } Ax = 0$, we deduce that $\dim Null\ A \cdot rank\ A = \text{number of columns in } A$
 
@@ -168,13 +168,13 @@ $Col\ A = Row\ A^\intercal \land Row\ A = Col\ A^\intercal$, see transpose [[mat
 
 > **theorem**: $Row\ A$ does not change when doing [[linear-system|elementary-operations]] on the rows of $A$ (if $A$ and $B$ are [[linear-system|row-equivalent]], $Row\ A = Row\ B$
 
-> **theorem**: the nonzero rows in any [[linear-system|REF]] of a [[matrix]] $A$ forms a [[basis]] for $Row\ A$. therefore, $\dim Row\ A = rank\ A$ (see rank of a [[matrix]])
+> **theorem**: the nonzero rows in any [[REF]] of a [[matrix]] $A$ forms a [[basis]] for $Row\ A$. therefore, $\dim Row\ A = rank\ A$ (see rank of a [[matrix]])
 
-row spaces can be used to find a [[basis]] for a [[span]]ning set of vectors through [[gaussian-elimination|row-reduction]]
+row spaces can be used to find a [[basis]] for a [[span]]ning set of vectors through [[row-reduction]]
 
-the basis for the row space of a [[matrix]] can be found by applying [[gaussian-elimination|row-reduction]] and [[span]]ning the **row-reduced columns** in the [[linear-system|REF]] form of the [[matrix]]
+the basis for the row space of a [[matrix]] can be found by applying [[row-reduction]] and [[span]]ning the **row-reduced columns** in the [[REF]] form of the [[matrix]]
 
-the basis for the column space of a [[matrix]] can be found by applying [[gaussian-elimination|row-reduction]] and [[span]]ning the **original columns** that became pivots in the [[linear-system|REF]] form of the [[matrix]]
+the basis for the column space of a [[matrix]] can be found by applying [[row-reduction]] and [[span]]ning the **original columns** that became pivots in the [[REF]] form of the [[matrix]]
 
 the same can be said for $Col\ A$
 
@@ -236,34 +236,37 @@ if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 
 let $\mathbb M^{n, n} A$
 
-solve the system $AA^{-1} = I$ by extending the [[matrix]] with the identity [[matrix]] and solve the [[linear-system]] up to [[linear-system|RREF]] using [[gaussian-elimination]]. $\begin{bmatrix}A & | & I\end{bmatrix} \sim \dots \begin{bmatrix}I & | & A^{-1}\end{bmatrix}$
+solve the system $AA^{-1} = I$ by extending the [[matrix]] with the identity [[matrix]] and solve the [[linear-system]] up to [[RREF]] using [[row-reduction]]. $\begin{bmatrix}A & | & I\end{bmatrix} \sim \dots \begin{bmatrix}I & | & A^{-1}\end{bmatrix}$
 
 ### shortcut with [[matrix]]es in $\mathbb M^{2, 2}$
 
 see [[determinant]]
 
-let $A = \begin{bmatrix}a & b \\ c & d\end{bmatrix}$
+let $A = \begin{bmatrix}a & b \\\  c & d\end{bmatrix}$
 
 $A$ is invertible if and only if $|A| \ne 0$
 
-$A^{-1} = 1\text-|A| \begin{bmatrix}d & \circ b \\ \circ c & a\end{bmatrix}$
+$A^{-1} = 1\text-|A| \begin{bmatrix}d & \circ b \\\  \circ c & a\end{bmatrix}$
 
 ### example usage
 
-let $A = \begin{bmatrix}1 & 1 \\ 2 & 3\end{bmatrix}$
+let $A = \begin{bmatrix}1 & 1 \\\  2 & 3\end{bmatrix}$
 
 then, calculate $B$ such that $B \equiv A^{-1}$
 
 this can be used to solve a system such as:
 
-$Ax = \begin{bmatrix}\circ 1 \\ 1\end{bmatrix}$
+$Ax = \begin{bmatrix}\circ 1 \\\ 1\end{bmatrix}$
 
-$BAx = B \begin{bmatrix}\circ 1 \\ 1\end{bmatrix}$
+$BAx = B \begin{bmatrix}\circ 1 \\\ 1\end{bmatrix}$
 
-$Ix = x = B \begin{bmatrix}\circ 1 \\ 1\end{bmatrix}$
+$Ix = x = B \begin{bmatrix}\circ 1 \\\ 1\end{bmatrix}$
 
 ## Triangular Matrix
 
 a [[matrix]] is _triangular_ if every entry below its diagonal or above its diagonal is $0$
 
 the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>

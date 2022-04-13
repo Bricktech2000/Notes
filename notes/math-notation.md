@@ -82,15 +82,15 @@ $(()[]\lfloor\rfloor\lceil\rceil)('\text-)(\cdot \circ) (|-) (=\ne\gt\ge\lt\le) 
 
 [[todo]]
 
-composition distributes over implication. this allows for notation such as $\mathbb N \vdash \mathbb R$
+composition distributes over implication. this allows for notation such as $\mathbb N \vdash \mathbb R$ [[think]]
 
 ### principles
 
 - $=$ **checks** for equality and returns a boolean
 - it is implied that an expression on its own must evaluate to $\top$ (`true`)
 - sets are [[function]]s that return a boolean ($\mathbb R a$ instead of $a \in \mathbb R$)
-- $\lfloor a \rfloor = \lfloor a \rfloor 2$ returns both positive and negative square roots ($\lfloor q2 \rfloor = \dot \circ q$)
-- $\lfloor 4 \rfloor = 2$ is invalid, but $\lfloor 4 \rfloor \dashv 2$ is valid
+- $\lfloor a \rfloor$ (or $\lfloor a \rfloor 2$) returns both positive and negative square roots ($\lfloor q2 \rfloor = \dot \circ q$)
+- $\lfloor 4 \rfloor = 2$ is invalid, but $\lfloor 4 \rfloor \dashv 2$ is valid [[think]]
 - ~~functions support currying to take multiple arguments~~
 
 ### examples
@@ -134,7 +134,7 @@ $\mathbb R^nU_1 \land \mathbb R^nO \dashv aO = O \dashv \mathbb R a$
 
 $^\perp = U \to v \to \mathbb R^nv \land u \cdot v = 0 \dashv U u$
 
-$dist\ A, B = dist\ A \cdot x, B \cdot x \dashv \mathbb R x$
+$dist\ A, B = dist\ A \cdot x, B \cdot x \dashv \mathbb U x$
 
 $dist\ A, B \cdot dist\ B, C \ge dist\ A, C$
 
@@ -144,7 +144,7 @@ $3' x = y \dashv \mathbb Z x$
 
 _there exists an [[integer]] $x$ such that $1 + x = 3$_
 
-[[classical-math-notation]]: $\exist x \in \mathbb Z \text{\ \ \ s. t.\ \ \ } 1 + x = 3$
+[[classical-math-notation]]: $\exists x \in \mathbb Z \text{\ \ \ s. t.\ \ \ } 1 + x = 3$
 
 my [[math-notation]]: $1 \cdot x = 3 \land \mathbb Z x$
 

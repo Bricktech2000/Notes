@@ -70,7 +70,7 @@ enthalpy of formation: $\Delta_fH^0$
 - find $n$ for $H_{2(g)}$ and $CO_{(g)}$ using $PV = nRT$
 - figure out what is the limiting reagent. in this case, $n_{H_2} = 0.634$ and $n_{CO} = 0.564$, meaning $H_2$ is the limiting reagent
 
-$\begin{matrix}1mol_{CO} &:& 2mol_{H_2} \\ 0.564mol_{CO} &:& n \end{matrix} \therefore n = 1.128mol_{H_2}$ needed, which we do not have
+$\begin{matrix}1mol_{CO} &:& 2mol_{H_2} \\\  0.564mol_{CO} &:& n \end{matrix} \therefore n = 1.128mol_{H_2}$ needed, which we do not have
 
 ### calculate $\Delta_rH^0$ using enthalpies of formation
 
@@ -89,7 +89,7 @@ $\begin{matrix}1mol_{CO} &:& 2mol_{H_2} \\ 0.564mol_{CO} &:& n \end{matrix} \the
 - we know $H_{2(g)}$ is the limiting reagent
 - calculate the amount of energy released
 
-$\begin{matrix} 2mol_{H_2} &:& -128.1 \frac{kJ}{mol} \\ 0.634mol_{H_2} &:& Q\end{matrix} \therefore Q = -40.6kJ$
+$\begin{matrix} 2mol_{H_2} &:& -128.1 \frac{kJ}{mol} \\\  0.634mol_{H_2} &:& Q\end{matrix} \therefore Q = -40.6kJ$
 
 a negative $Q$ means the reaction is exothermic, hence $40.6kJ$ of heat are released
 
@@ -133,6 +133,6 @@ we will finish the question in the next DGD
 
 ![](2022-02-26-01-28-15.png)
 
-$Q_{reaction} = - Q_{contents} \\ Q_{reaction} = (mc\Delta T)_{contents} \\ Q_{reaction} = (\frac{n_{H_2SO_{4(aq)}}}{MM_{H_2SO_{4(aq)}}} + 2\frac{n_{KOH{(aq)}}}{MM_{KOH{(aq)}}}) \times 4.184 \frac{J}{g^\circ C} \times (T_f - T_i) \\ Q_{reaction} = (\frac{1.25 \times 10^{-2}mol}{2 \times 1.00784 \frac{g}{mol} + 1 \times 32.065 \frac{g}{mol} + 4 \times 15.999 \frac{g}{mol}} + 2 \frac{2.50 \times 10^{-2}mol}{1 \times 39.0983 \frac{g}{mol} + 1 \times 15.999 \frac{g}{mol} + 1 \times 1.00784 \frac{g}{mol}}) \times 4.184 \frac{J}{g^\circ C} \times (30.17^\circ C - 23.50^\circ C)$
+$Q_{reaction} = - Q_{contents} \\\  Q_{reaction} = (mc\Delta T)_{contents} \\\  Q_{reaction} = (\frac{n_{H_2SO_{4(aq)}}}{MM_{H_2SO_{4(aq)}}} + 2\frac{n_{KOH{(aq)}}}{MM_{KOH{(aq)}}}) \times 4.184 \frac{J}{g^\circ C} \times (T_f - T_i) \\\  Q_{reaction} = (\frac{1.25 \times 10^{-2}mol}{2 \times 1.00784 \frac{g}{mol} + 1 \times 32.065 \frac{g}{mol} + 4 \times 15.999 \frac{g}{mol}} + 2 \frac{2.50 \times 10^{-2}mol}{1 \times 39.0983 \frac{g}{mol} + 1 \times 15.999 \frac{g}{mol} + 1 \times 1.00784 \frac{g}{mol}}) \times 4.184 \frac{J}{g^\circ C} \times (30.17^\circ C - 23.50^\circ C)$
 
 ![](2022-02-26-01-28-28.png)

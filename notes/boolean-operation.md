@@ -135,78 +135,52 @@ atom: variable | (expression)
 
 ## identities
 
-_implication_
+$x \vdash y \equiv \lnot x \lor y$ &mdash; implication
 
-$x \vdash y \equiv \lnot x \lor y$
+$(x \equiv y) \equiv x \land y \lor \lnot x \land \lnot y$ &mdash; biconditional
 
-_biconditional_
+$(x \equiv y) \equiv (x \vdash y) \land (x \dashv y)$ &mdash; biconditional
 
-$(x \equiv y) \equiv x \land y \lor \lnot x \land \lnot y$
+$x \lor \bot \equiv x$ &mdash; identity
 
-$(x \equiv y) \equiv (x \vdash y) \land (x \dashv y)$
+$x \land \top \equiv x$ &mdash; identity
 
-_identity_
+$x \lor \lnot x \equiv \top$ &mdash; negation
 
-$x \lor \bot \equiv x$
+$x \land \lnot x \equiv \bot$ &mdash; negation
 
-$x \land \top \equiv x$
+$x \lor x \equiv x$ &mdash; idempotence
 
-_negation_
+$x \land x \equiv x$ &mdash; idempotence
 
-$x \lor \lnot x \equiv \top$
+$x \lor \top \equiv \top$ &mdash; domination
 
-$x \land \lnot x \equiv \bot$
+$x \land \bot \equiv \bot$ &mdash; domination
 
-_idempotence_
-
-$x \lor x \equiv x$
-
-$x \land x \equiv x$
-
-_domination_
-
-$x \lor \top \equiv \top$
-
-$x \land \bot \equiv \bot$
-
-_double negation_
-
-$\lnot \lnot x \equiv x$
+$\lnot \lnot x \equiv x$ &mbash; double negation
 
 ## properties
 
-_commutativity_
+$x \lor y \equiv y \lor x$ &mdash; commutativity
 
-$x \lor y \equiv y \lor x$
+$x \land y \equiv y \land x$ &mdash; commutativity
 
-$x \land y \equiv y \land x$
+$x \lor (y \lor z) \equiv (x \lor y) \lor z$ &mdash; associativity
 
-_associativity_
+$x \land (y \lor z) \equiv (x \land y) \land z$ &mdash; associativity
 
-$x \lor (y \lor z) \equiv (x \lor y) \lor z$
+$x \land (y \lor z) \equiv x \land y \lor x \land z$ &mdash; distributivity
 
-$x \land (y \lor z) \equiv (x \land y) \land z$
+$z \lor y \land z \equiv (x \lor y) \land (x \lor z)$ &mdash; distributivity
 
-_distributivity_
+$\lnot(x \lor y) \equiv \lnot x \land \lnot y$ &mdash; DeMorgan
 
-$x \land (y \lor z) \equiv x \land y \lor x \land z$
+$\lnot(x \land y) \equiv \lnot x \lor \lnot y$ &mdash; DeMorgan
 
-$z \lor y \land z \equiv (x \lor y) \land (x \lor z)$
+$x \lor x \land y \equiv x$ &mdash; absorption
 
-_DeMorgan_
+$x \land (x \lor y) \equiv x$ &mdash; absorption
 
-$\lnot(x \lor y) \equiv \lnot x \land \lnot y$
+$x \times y \equiv x \land \lnot y \lor \lnot x \land y$ &mdash; exclusive or
 
-$\lnot(x \land y) \equiv \lnot x \lor \lnot y$
-
-_absorption_
-
-$x \lor x \land y \equiv x$
-
-$x \land (x \lor y) \equiv x$
-
-_exclusive or_
-
-$x \times y \equiv x \land \lnot y \lor \lnot x \land y$
-
-$x \times y \equiv \lnot (x \equiv y)$
+$x \times y \equiv \lnot (x \equiv y)$ &mdash; exclusive or

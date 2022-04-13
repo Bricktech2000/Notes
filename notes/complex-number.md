@@ -98,6 +98,4 @@ $|zw| = |z||w|$
 
 $|z - w| = |z| - |w|$
 
-_triangle inequality_
-
-$|z \cdot w| \le |z| \cdot |w|$
+$|z \cdot w| \le |z| \cdot |w|$ &mdash; triangle inequality

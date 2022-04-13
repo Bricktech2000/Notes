@@ -34,9 +34,9 @@ $\det (A \circ \lambda I) = 0$ (this polynomial is known as the _characteristic 
 
 solving...
 
-_using $A = \begin{bmatrix}1 & 2 \\ 2 & 1\end{bmatrix}$ as an example_
+_using $A = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix}$ as an example_
 
-$A \circ \lambda I = \begin{bmatrix}1 & 2 \\ 2 & 1\end{bmatrix} \circ \lambda \begin{bmatrix}1 & 0 \\ 0 & 1\end{bmatrix} = \begin{bmatrix}1 \circ \lambda & 2 \\ 2 & 1 \circ \lambda\end{bmatrix}$
+$A \circ \lambda I = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \circ \lambda \begin{bmatrix}1 & 0 \\\  0 & 1\end{bmatrix} = \begin{bmatrix}1 \circ \lambda & 2 \\\  2 & 1 \circ \lambda\end{bmatrix}$
 
 $\det (A \circ \lambda I) = 0 = [1 \circ \lambda] \circ 4 = 1 \circ \lambda \cdot 2\ |\ 1 \circ \lambda \circ 2 = 3 \circ \lambda\ |\ \circ 1 \circ \lambda = 0$
 
@@ -54,11 +54,11 @@ for $\lambda = 3$:
 
 $A \circ 3I\ |\ x = 0$
 
-$A \circ 3I = \begin{bmatrix}1 & 2 \\ 2 & 1\end{bmatrix} \circ \begin{bmatrix}3 & 0 \\ 0 & 3\end{bmatrix} = \begin{bmatrix}\circ 2 & 2 \\ 2 & \circ 2\end{bmatrix}$
+$A \circ 3I = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \circ \begin{bmatrix}3 & 0 \\\  0 & 3\end{bmatrix} = \begin{bmatrix}\circ 2 & 2 \\\  2 & \circ 2\end{bmatrix}$
 
-therefore, we can solve the following using [[gaussian-elimination]]
+therefore, we can solve the following using [[row-reduction]]
 
-$\begin{bmatrix}\circ 2 & 2 & | & 0 \\ 2 & \circ 2 & | & 0\end{bmatrix}$
+$\begin{bmatrix}\circ 2 & 2 & | & 0 \\\  2 & \circ 2 & | & 0\end{bmatrix}$
 
 and we get:
 

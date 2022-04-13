@@ -91,7 +91,7 @@ _finding $k$ at one temperature given $k$ at another temperature_
 
 using the Arrhenius equation, we can derive the Van't Hoff equation
 
-$k = Ae^{-\frac{E_a}{RT}} \\ \ln k = \ln A - \frac{E_a}{RT} \\ \ln k = -\frac{E_a}{R} \times \frac{1}{T} + \ln A \\ y = m x + b \\ \ln \frac{k_2}{k_1} = -\frac{E_a}{R}(\frac{1}{T_2} - \frac{1}{T_1})$, where
+$k = Ae^{-\frac{E_a}{RT}} \\\  \ln k = \ln A - \frac{E_a}{RT} \\\  \ln k = -\frac{E_a}{R} \times \frac{1}{T} + \ln A \\\  y = m x + b \\\  \ln \frac{k_2}{k_1} = -\frac{E_a}{R}(\frac{1}{T_2} - \frac{1}{T_1})$, where
 
 $k$ is the [[reaction-rate]] constant, expressed in $t^{-1}$
 

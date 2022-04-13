@@ -94,6 +94,8 @@ box titles generated with <https://lingojam.com/BoldTextGenerator>
 
 `\R`, `\N` and `\Z` must not be used, as they are not widely supported. use `\mathbb R`, `\mathbb N` and `\mathbb Z` respectively.
 
+`\\` must be replaced by `\\\` for them to work properly, as outlined in the following webpage: <https://github.com/mathjax/MathJax/issues/1301>
+
 <!--
 find: \\R\b
 replace: \mathbb R
@@ -106,6 +108,9 @@ replace: \mathbb Z
 
 find: \\mathbb\{(.)\}
 replace: \mathbb $1
+
+find: (space)\\\\\(space)
+replace: (space)\\\\\\(space)
 -->
 
 ## LaTeX Style PDF Export

@@ -45,7 +45,7 @@ attendance is mandatory &mdash; syllabus
 
 [[linear-system]]s, [[linear-equation]]s
 
-[[gaussian-elimination]]
+[[row-reduction]]
 
 [[complex-number]]
 

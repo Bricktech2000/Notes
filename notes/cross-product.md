@@ -14,13 +14,13 @@ $|a \times b| = \det \begin{bmatrix} a\ |\ b\end{bmatrix}$
 
 $a \times b = \det \begin{bmatrix}B\ |\  a\ |\ b\end{bmatrix}$, where
 
-$B$ is the basis vector, i.e. $\begin{bmatrix}\hat i \\ \hat j  \\ \dots\end{bmatrix}$
+$B$ is the basis vector, i.e. $\begin{bmatrix}\hat i \\\  \hat j  \\\  \dots\end{bmatrix}$
 
 ### shortcut
 
-$\begin{bmatrix}a_1 \\ a_2 \\ a_3\end{bmatrix} \times \begin{bmatrix}b_1 \\ b_2 \\ b_3\end{bmatrix} = \begin{bmatrix}a_2b_3 \circ b_2a_3 \\ a_3b_1 \circ b_3a_1 \\ a_1b_2 \circ b_1a_2\end{bmatrix}$
+$\begin{bmatrix}a_1 \\\  a_2 \\\  a_3\end{bmatrix} \times \begin{bmatrix}b_1 \\\  b_2 \\\  b_3\end{bmatrix} = \begin{bmatrix}a_2b_3 \circ b_2a_3 \\\  a_3b_1 \circ b_3a_1 \\\  a_1b_2 \circ b_1a_2\end{bmatrix}$
 
-### **properties**
+### properties
 
 $a \times b = \circ b \times a$
 

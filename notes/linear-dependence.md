@@ -10,7 +10,7 @@ $v_0 \dots v_i$ are [[linearly-independent]] if and only if $a_0v_0 \cdot \dots 
 
 ## example
 
-to check for [[linear-dependence]], one can use a homogeneous [[linear-system]] and solve it using [[gaussian-elimination]]. the following can be concluded (think intuitively):
+to check for [[linear-dependence]], one can use a homogeneous [[linear-system]] and solve it using [[row-reduction]]. the following can be concluded (think intuitively):
 
 - no solutions: not possible, as the [[linear-system]] is homogeneous
 - one solution: the vectors are [[linearly-independent]]

@@ -84,45 +84,27 @@ let the vector space be the set of [[vector]]s $V$. all of the following [[axiom
 
 let $V(v_1 \dots v_m)$. if $U = Span\{v_1 \dots v_m\}$, then $U$ is a subspace of $V$ ($U \vdash V$), see [[span]]
 
-_closed under addition_
+$V u \land V v \vdash V (u \cdot v)$ &mdash; closed under addition
 
-$V u \land V v \vdash V (u \cdot v)$
+$V u \land \mathbb R k \vdash V(k\ |\ u)$ &mdash; closed under multiplication by scalar
 
-_closed under multiplication_
-
-$V u \land \mathbb R k \vdash V(k\ |\ u)$
-
-_zero vector_
-
-$V O \land (O \cdot u = u \dashv V u)$
+$V O \land (O \cdot u = u \dashv V u)$ &mdash; zero vector
 
 ### properties
 
-_negative vector_
+$V (\circ u) \land u \cdot \circ u = O \dashv V u$ &mdash; negative vector
 
-$V (\circ u) \land u \cdot \circ u = O \dashv V u$
-
-_identity_
-
-$1u = u \dashv V u$
+$1u = u \dashv V u$ &mdash; identity
 
 $\mathbb R k \land \mathbb R l\land V u \land V v \land V w$
 
-_commutativity_
+$u \cdot v \equiv v \cdot u$ &mdash; commutativity
 
-$u \cdot v \equiv v \cdot u$
+$u \cdot (v \cdot w) \equiv (u \cdot v) \cdot w$ &mdash; associativity
 
-_associativity_
+$c\ |\ u \cdot v \equiv cu \cdot cv$ &mdash; distributivity
 
-$u \cdot (v \cdot w) \equiv (u \cdot v) \cdot w$
-
-_distributivity_
-
-$c\ |\ u \cdot v \equiv cu \cdot cv$
-
-_multiplicative associativity_
-
-$k\ |\ du \equiv kd\ |\ u$
+$k\ |\ du \equiv kd\ |\ u$ &mdash; multiplicative associativity
 
 ---
 
@@ -234,7 +216,7 @@ $M m \equiv m = \mathbb M^{2, 2} m \land m^{0, 0} \cdot m^{1, 1} = m^{1, 0} \cdo
 
 _zero vector_
 
-$m = \begin{bmatrix}0 & 0 \\ 0 & 0\end{bmatrix} \vdash m^{0, 0} \cdot m^{1, 1} = m^{1, 0} \cdot m^{0, 1}$
+$m = \begin{bmatrix}0 & 0 \\\  0 & 0\end{bmatrix} \vdash m^{0, 0} \cdot m^{1, 1} = m^{1, 0} \cdot m^{0, 1}$
 
 therefore, $M O$
 
@@ -252,7 +234,7 @@ therefore, $M (m_1 \cdot m_2)$
 
 _closed under multiplication_
 
-$km = k \begin{bmatrix}m^{0, 0} & m^{0, 1} \\ m^{1, 0} & m^{1, 1}\end{bmatrix} = \begin{bmatrix}km^{0, 0} & km^{0, 1} \\ km^{1, 0} & km^{1, 1}\end{bmatrix}$
+$km = k \begin{bmatrix}m^{0, 0} & m^{0, 1} \\\  m^{1, 0} & m^{1, 1}\end{bmatrix} = \begin{bmatrix}km^{0, 0} & km^{0, 1} \\\  km^{1, 0} & km^{1, 1}\end{bmatrix}$
 
 $km^{0, 0} \cdot km^{1, 1} = km^{1, 0} \cdot km^{0, 1}$
 

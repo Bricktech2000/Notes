@@ -1,10 +1,12 @@
-# Gaussian Elimination
+# Row Reduction
 
-_a process for putting a matrix in reduced row echelon form_
+_a process for putting a matrix in [[RREF|reduced-row-echelon-form]]_
+
+## Gaussian Elimination
 
 see [[linear-system]], [[linear-equation]], [[matrix]]
 
-## algorithm
+### algorithm
 
 _eliminate $x_0$ from all lines below $L_0$, eliminate $x_1$ from all lines below $L_1$, and so on_
 
@@ -13,7 +15,7 @@ _eliminate $x_0$ from all lines below $L_0$, eliminate $x_1$ from all lines belo
 - annihilate the rest of the column using the first row
 - ignore the first row and go back to the first step
 
-the matrix is now in REF. to get it in RREF,
+the matrix is now in [[REF]]. to get it in [[RREF]],
 
 _make all pivots be a $1$. make all pivot columns contain only zeros (apart from their pivot)_
 
