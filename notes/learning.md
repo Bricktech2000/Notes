@@ -27,3 +27,5 @@ an excess of [[motivation]] can lead to [[feeling-overwhelmed]], which can lead 
 [[intent-to-mastery]]
 
 [[credit-card]]
+
+[[zero-knowledge-proof]]

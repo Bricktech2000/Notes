@@ -1,5 +1,7 @@
 # Logic Circuit
 
+[[logic-circuit]]s are made of logic [[gate]]s.
+
 the [[cost-of-a-logic-circuit]] can be calculated.
 
 ## Combinational Logic Circuit

@@ -12,7 +12,7 @@ $\land$ in my [[math-notation]]
 
 ### representation
 
-straight-curve logic gate. may take more than one input
+straight-curve logic [[gate]]. may take more than one input
 
 | A   | B   | A AND B |
 | --- | --- | ------- |
@@ -31,7 +31,7 @@ $\land$ in my [[math-notation]]
 
 ### representation
 
-concave-pointycurve logic gate. may take more than one input
+concave-pointycurve logic [[gate]]. may take more than one input
 
 | A   | B   | A OR B |
 | --- | --- | ------ |
@@ -50,7 +50,7 @@ $\lnot$ in my [[math-notation]]
 
 ### representation
 
-triangle-circle logic gate. may only take one input
+triangle-circle logic [[gate]]. may only take one input
 
 | A   | NOT A |
 | --- | ----- |
@@ -67,7 +67,7 @@ $\times$ in my [[math-notation]]
 
 ### representation
 
-doubleconcave-pointycurve logic gate. if the gate does not take exactly two inputs, the output of the gate can be thought of as “is the number of true inputs odd?”
+doubleconcave-pointycurve logic [[gate]]. if the [[gate]] does not take exactly two inputs, the output of the [[gate]] can be thought of as “is the number of true inputs odd?”
 
 | A   | B   | A XOR B |
 | --- | --- | ------- |
@@ -92,7 +92,7 @@ if $x = \bot$, then $x \vdash y$ is _trivially true_
 
 ### representation
 
-can be built by combining multiple logic gates. may only take one input
+can be built by combining multiple logic [[gate]]s. may only take one input
 
 | A   | B   | A IMPL B |
 | --- | --- | -------- |
@@ -111,7 +111,7 @@ $\equiv$ in my [[math-notation]]
 
 ### representation
 
-doubleconcave-pointycurve-circle logic gate. if the gate does not take exactly two inputs, the output of the gate can be thought of as “is the number of true inputs even?”
+doubleconcave-pointycurve-circle logic [[gate]]. if the [[gate]] does not take exactly two inputs, the output of the [[gate]] can be thought of as “is the number of true inputs even?”
 
 | A   | B   | A EQUIV B |
 | --- | --- | --------- |

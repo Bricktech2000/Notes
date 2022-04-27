@@ -14,7 +14,7 @@ study the following strategy:
 
 ## possible complications &mdash; with solutions
 
-- age of majority &mdash; added reminder to open trading account when turning 18 &mdash; crypto does not require users to be 18
+- age of majority &mdash; added reminder to open trading account when turning 18 &mdash; [[cryptocurrency]] does not require users to be 18
 - trading fees &mdash; Wealth Simple Trade has very low fees for long-term investments
 - [[inflation]] &mdash; ROI on index funds (see [[stock-market]]) are higher than inflation rates
 

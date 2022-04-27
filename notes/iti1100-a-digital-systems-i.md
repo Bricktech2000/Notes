@@ -43,7 +43,7 @@ Publisher: Pearson-Prentice Hall
 
 ## Class Notes
 
-[[digital-system]], [[cost-of-a-logic-circuit]], [[logic-circuit]]
+[[digital-system]], [[logic-circuit]], [[cost-of-a-logic-circuit]]
 
 [[positional-numbering-system]]
 
@@ -52,6 +52,8 @@ Publisher: Pearson-Prentice Hall
 [[complement]]
 
 [[boolean-algebra]], [[boolean-variable]]s, [[boolean-operation]]s, [[boolean-function]]s, [[boolean-expression]]
+
+[[latch]], [[flip-flop]]
 
 **related**
 

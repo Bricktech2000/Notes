@@ -6,4 +6,4 @@ _the base-2 [[positional-numbering-system]]_
 
 high toleration of noise
 
-allows for [[boolean-algebra]] operations on [[boolean-expression]]s, represented through logic gates (see [[boolean-operation]])
+allows for [[boolean-algebra]] operations on [[boolean-expression]]s, represented through logic [[gate]]s (see [[boolean-operation]])
