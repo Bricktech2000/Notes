@@ -55,10 +55,12 @@ Publisher: Pearson-Prentice Hall
 
 [[latch]], [[flip-flop]]
 
+[[binary-decoder]], [[multiplexer]]
+
 **related**
 
 [[disjunctive-normal-form]]
 
-[[truth-table]], [[karnaugh-maps]]
+[[truth-table]], [[characteristic-table]], [[excitation-table]], [[characteristic-equation]], [[karnaugh-map]]
 
 [[proof]]

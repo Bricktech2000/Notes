@@ -20,6 +20,8 @@ not used as it has an undefined state
 
 _data flip-flop_
 
+[[truth-table]]
+
 | $CLK$          | $D$      | $Q$ | comment    |
 | -------------- | -------- | --- | ---------- |
 | $\uparrow$     | 0        | 0   | data reset |
@@ -28,7 +30,9 @@ _data flip-flop_
 
 ### JK Flip-Flop
 
-_same as SR [[flip-flop]], but with undefined states removed_
+_same as SR flip-flop, but with undefined states removed_
+
+[[truth-table]]
 
 | $CLK$          | $J$      | $K$      | $Q$       | comment   |
 | -------------- | -------- | -------- | --------- | --------- |
@@ -41,6 +45,8 @@ _same as SR [[flip-flop]], but with undefined states removed_
 ### T Flip-Flop
 
 _toggle flip-flop_
+
+[[truth-table]]
 
 | $CLK$          | $T$      | $Q$       | comment   |
 | -------------- | -------- | --------- | --------- |

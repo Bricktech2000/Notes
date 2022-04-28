@@ -8,10 +8,12 @@ the [[cost-of-a-logic-circuit]] can be calculated.
 
 _no feedback loops, no clocks_
 
-see [[truth-table]], [[karnaugh-maps]]
+see [[truth-table]], [[karnaugh-map]]
 
 the outputs of a combinational logic circuit are a [[function]] the inputs, without side effects
 
 ## Sequential Logic Circuit
+
+see [[excision-table]], [[characteristic-table]]
 
 the outputs of a sequential logic circuit can be based on previous inputs and can have side effects on future inputs

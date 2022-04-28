@@ -1,10 +1,10 @@
-# Karnaugh Maps
+# Karnaugh Map
 
 _a 2D version of a [[truth-table]]_
 
 ### abbreviation
 
-informal abbreviation: K Maps
+informal abbreviation: K Map
 
 ## examples
 
@@ -54,7 +54,7 @@ using [[boolean-algebra]]
 
 ![](2022-02-26-01-18-06.png)
 
-using [[karnaugh-maps]]
+using [[karnaugh-map]]
 
 ![](2022-02-26-01-18-20.png)
 

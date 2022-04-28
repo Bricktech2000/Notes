@@ -27,6 +27,8 @@ _set-reset latch_
 | 1   | 0   | 1        | set       |
 | 1   | 1   | $\times$ | undefined |
 
+[[logic-circuit]]
+
 ![](20220427161726.png)
 
 **note**: can also be built using NAND [[gate]]s
@@ -35,18 +37,23 @@ _set-reset latch_
 
 _data latch, gated by default_
 
-| $E$ | $D$ | $Q$ | comment    |
-| --- | --- | --- | ---------- |
-| 0   | 0   | $Q$ | no change  |
-| 0   | 1   | $Q$ | no change  |
-| 1   | 0   | 0   | data reset |
-| 1   | 1   | 1   | data set   |
+[[truth-table]]
+
+| $E$ | $D$      | $Q$ | comment    |
+| --- | -------- | --- | ---------- |
+| 0   | $\times$ | $Q$ | no change  |
+| 1   | 0        | 0   | data reset |
+| 1   | 1        | 1   | data set   |
+
+[[logic-circuit]]
 
 ![](20220427161914.png)
 
 ### JK Latch
 
-_same as SR [[latch]], but with undefined states removed_
+_same as SR latch, but with undefined states removed_
+
+[[truth-table]]
 
 | $J$ | $K$ | $Q$       | comment   |
 | --- | --- | --------- | --------- |
@@ -54,6 +61,8 @@ _same as SR [[latch]], but with undefined states removed_
 | 0   | 1   | 0         | reset     |
 | 1   | 0   | 1         | set       |
 | 1   | 1   | $\lnot Q$ | toggle    |
+
+[[logic-circuit]]
 
 ![](20220427162006.png)
 
