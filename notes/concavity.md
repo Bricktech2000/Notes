@@ -1,12 +1,12 @@
 # Concavity
 
-see [[classical-math-notation]]
+see [[math-notation]]
 
 ## definition
 
-$f(x)$ is _concave up_ if $f''(x) < 0$, it _bends upwards_
+$f\ x$ is _concave up_ if $f''\ x < 0$, it _bends upwards_
 
-$f(x)$ is _concave down_ if $f''(x) > 0$, it _bends downwards_
+$f\ x$ is _concave down_ if $f''\ x > 0$, it _bends downwards_
 
 ## properties
 

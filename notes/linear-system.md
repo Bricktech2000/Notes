@@ -84,6 +84,18 @@ a matrix is in [[RREF]] if:
 
 use [[row-reduction]]
 
+## Augmented Matrix
+
+a [[linear-system]] can be represented using an augmented [[matrix]]
+
+### determining the type of the general solution
+
+let $\begin{bmatrix}A & | & b\end{bmatrix}$ be an augmented [[matrix]].
+
+- the system has no solutions if $rank(A) \lt rank(\begin{bmatrix}A & | & b\end{bmatrix})$
+- the system has a unique solution if and only if $rank(A) = rank(\begin{bmatrix}A & | & b\end{bmatrix}) = \text{number of columns in A}$
+- the system infinite solutions if and only if $rank(A) = rank(\begin{bmatrix}A & | & b\end{bmatrix}) \lt \text{number of columns in A}$
+
 ## Theorems
 
 > **theorem**: let $\mathbb M^{m, n}A$ (see [[matrix]]). the following statements are equivalent:

@@ -1,5 +1,5 @@
 # Avogadro's Number
 
-see [[classical-math-notation]]
+see [[math-notation]]
 
-Avogadro's number: $6.022 \times 20^{23} \frac{1}{mol}$
+Avogadro's number: $6.022 [10]23 - mol$

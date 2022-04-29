@@ -1,8 +1,8 @@
 # Specific Heat
 
-see [[classical-math-notation]]
+see [[math-notation]]
 
-## Formula
+## definition
 
 $Q = mc\Delta T$, where
 
@@ -14,6 +14,6 @@ $c$ is the specific heat of the body
 
 $\Delta T$ is the change in temperature of the body
 
-## Constants
+## constants
 
-$c_{H_2O} =4.184 \frac{J}{g^\circ C}$
+$c_{H_2O} = 4.184 J \text- g ^\circ C$

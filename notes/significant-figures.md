@@ -1,6 +1,8 @@
 # Significant Figures
 
-see <http://cxp.cengage.com/contentservice/assets/owms01h/references/significantfigures/index.html>, [[classical-math-notation]]
+see [[math-notation]]
+
+&mdash; <http://cxp.cengage.com/contentservice/assets/owms01h/references/significantfigures/index.html>
 
 ## Rule
 
@@ -20,32 +22,32 @@ $0.0050$ has 2 significant figures
 
 assuming a base-10 counting system and base-10 logarithms
 
-### Addition and Subtraction
+### addition and subtraction
 
 keep as many significant figures after the last significant digit as the lowest amount of significant figures after the last significant digit in the original numbers
 
 $\ \ \ \ \ \ 530$ (2 significant figures)
 
-$+\ 1140.5$ (5 significant figures, offset)
+$\ \cdot\ \ 1140.5$ (5 significant figures, offset)
 
 $=1190$ (3 significant figures, trailing digits cut off)
 
-### Multiplication and Division
+### multiplication and division
 
 _keep as many significant figures as the number with the least number of significant figures_
 
-### Logarithms
+### logarithms
 
 _keep as many significant figures to the right of the decimal point as there are significant figures in the original number_
 
-$\log_{10} 4.000$ (4 significant figures)
+$\lceil 4.000 \rceil 10$ (4 significant figures)
 
 $= 0.6021$ (4 significant figures on the right of the decimal point)
 
-### Antilogarithms
+### antilogarithms
 
 _keep the same number of significant figures as the number of significant figures after the decimal point in the original number_
 
-$10^{-2.55}$ (2 significant figures on the right of the decimal point)
+$[10](\circ 2.55)$ (2 significant figures on the right of the decimal point)
 
-$= 2.8\times 10^{-3}$ (2 significant figures)
+$= 2.8[10](\circ 3)$ (2 significant figures)

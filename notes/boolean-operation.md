@@ -1,7 +1,5 @@
 # Boolean Operation
 
-see [[math-notation]], [[classical-math-notation]]
-
 ## AND (Conjunction)
 
 ### notation

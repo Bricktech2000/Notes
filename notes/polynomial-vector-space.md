@@ -2,28 +2,20 @@
 
 see [[vector-space]], [[math-notation]], [[polynomial]]
 
-### properties
+## properties
 
-$(\mathbb P^n \dashv \mathbb F) \dashv \mathbb N n$
+$(\mathbb P^n \dashv \mathbb F) \dashv \mathbb N n$, see [[function-vector-space]]
 
-### notation
+## notation
 
 $\mathbb P^n$ in my [[math-notation]]
 
 $P_n(\mathbb R)$ in [[classical-math-notation]]
 
-### definition
+## definition
 
 $\mathbb P^n p \equiv p \vdash Span\{[x] n \dots [x] 0\} \dashv \mathbb N n$
 
-## zero vector
+## [[axiom]]s
 
-see [[function-vector-space]]
-
-## addition
-
-see [[function-vector-space]]
-
-## multiplication by scalar
-
-see [[function-vector-space]]
+see [[polynomial]]

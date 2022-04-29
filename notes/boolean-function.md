@@ -1,8 +1,6 @@
 # Boolean Function
 
-see [[math-notation]], [[classical-math-notation]]
-
-## Boolean Functions
+_a function acting on [[boolean-variable]]s_
 
 ### example
 

@@ -2,6 +2,8 @@
 
 see [[classical-math-notation]]
 
+math notation [[todo]]
+
 ## definition
 
 $\frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$

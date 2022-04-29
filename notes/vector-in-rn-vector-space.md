@@ -6,14 +6,6 @@ see [[vector-space]], [[math-notation]], [[vector-in-rn]]
 
 _a vector space of [[vector-in-rn]]_
 
-## zero vector
-
-see [[vector-in-rn]]
-
-## addition
-
-see [[vector-in-rn]]
-
-## multiplication by scalar
+## [[axiom]]s
 
 see [[vector-in-rn]]

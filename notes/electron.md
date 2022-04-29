@@ -1,7 +1,7 @@
 # Electron
 
-[[classical-math-notation]]
+[[math-notation]]
 
 symbol: $e^-$
 
-$m_{e^-} = 9.10938188 \times 10^{-31} kg$
+$m_{e^-} = 9.10938188[10](\circ 31) kg$

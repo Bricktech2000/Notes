@@ -10,6 +10,8 @@ see [[vector]], [[vector-in-rn]], [[matrix]], [[math-notation]], [[basis]]
 
 [[vector-in-rn-vector-space]], [[vector-in-rn]]
 
+[[matrix-vector-space]], [[matrix]]
+
 [[zero-space]]
 
 ### examples
@@ -24,15 +26,15 @@ $V v \equiv v = O$ (a set containing only the zero vector is a vector space)
 
 ### examples
 
-$\mathbb R^3$ and $\mathbb P^2$ are isomorphic, as any vector in $\mathbb R^3$ can be converted in a unique vector in $\mathbb P^2$, and vice-versa
+$\mathbb R^3$ and $\mathbb P^2$ are isomorphic, as any vector in $\mathbb R^3$ can be converted to a unique vector in $\mathbb P^2$, and vice-versa
 
 ## Dimension of a Vector Space
 
 ### notation
 
-$\dim V$ in my [[math-notation]]
+see [[math-notation]]
 
-$\dim(V)$ in [[classical-math-notation]]
+$\dim V$ in my [[math-notation]]
 
 ### definition
 

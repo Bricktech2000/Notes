@@ -2,11 +2,11 @@
 
 symbol: $\rho$
 
-see [[classical-math-notation]]
+see [[math-notation]]
 
 ## Formula
 
-$\rho = \frac{m}{V}$, where
+$\rho = m \text- V$, where
 
 $\rho$ is the density of a substance
 
@@ -16,4 +16,4 @@ $V$ is the volume of the substance
 
 ## Constants
 
-$\rho_{H_2O_{4^\circ C}} = 1\frac{g}{mL}$
+$\rho_{H_2O_{4^\circ C}} = 1g \text- mL$

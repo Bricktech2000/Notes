@@ -88,13 +88,13 @@ emojis :smile:
 
 horizontal rule
 
-box titles generated with <https://lingojam.com/BoldTextGenerator>
-
 ## Notes
 
 `\R`, `\N` and `\Z` must not be used, as they are not widely supported. use `\mathbb R`, `\mathbb N` and `\mathbb Z` respectively.
 
 `\\` must be replaced by `\\\` for them to work properly, as outlined in the following webpage: <https://github.com/mathjax/MathJax/issues/1301>
+
+box titles have been generated with <https://lingojam.com/BoldTextGenerator>
 
 <!--
 find: \\R\b
@@ -128,7 +128,8 @@ replace: (space)\\\\\\(space)
 <div class="definition">This is a definition.</div>
 <div class="proof">This is a proof.</div>
 
-### LaTeX support
+### LaTeX & wiki link support
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" })</script>
+<script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([A-Za-z\-]+\|)?([A-Za-z\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`)</script>

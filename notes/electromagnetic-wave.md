@@ -1,18 +1,18 @@
 # Electromagnetic Wave
 
-see [[wavelength]], [[frequency]], [[energy]], [[electron]], [[photon]], [[light]], [[avogadros-number]], [[specific-heat]], [[planks-constant]], [[density]], [[classical-math-notation]]
+see [[wavelength]], [[frequency]], [[energy]], [[electron]], [[photon]], [[light]], [[avogadros-number]], [[specific-heat]], [[planks-constant]], [[density]], [[math-notation]]
 
 a particle of light is called a [[photon]]
 
 _generally, one [[photon]] ejects one [[electron]]_
 
-_for [[chm1301-principles-of-chemistry]], assume $1mol_{e^-}$ = $1mol_{substance}$\_
+_for [[chm1301-principles-of-chemistry]], assume_ $1mol_{e^-}$ = $1mol_{substance}$
 
 ## Formulas
 
 ### Wave Equation
 
-$\nu\lambda = c$, where
+$\nu \lambda = c$, where
 
 $c$ is the speed of [[light]]
 
@@ -22,7 +22,7 @@ $\lambda$ is the [[wavelength]] of the wave
 
 ### Planck–Einstein Relation
 
-$E = h\nu$, where
+$E = h \nu$, where
 
 $E$ is the [[energy]] carried by one [[photon]] in $J$
 
@@ -32,17 +32,17 @@ $\nu$ is the [[frequency]] of the wave
 
 ### Photoelectric Effect
 
-$KE = h\nu - \phi$, where
+$KE = h \nu \circ \phi$, where
 
 $KE$ is the kinetic [[energy]] of the ejected [[electron]] in $J$
 
-$h\nu$ is the [[energy]] of the incident [[light]]
+$h \nu$ is the [[energy]] of the incident [[light]]
 
 $\phi$ is the binding energy or work function (the energy holding an electron to an atom) in $J/mol_{e^-}$
 
 ### other equations
 
-$E_T = E_{photon} \times \#_\gamma$, where
+$E_T = E_{photon}\ |\ \#_\gamma$, where
 
 $E_T$ is the total [[energy]] in the wave, see [[specific-heat]]
 
@@ -50,6 +50,6 @@ $E_{photon}$ is the [[energy]] carried by one [[photon]]
 
 $\#_\gamma$ is the number of [[photon]]s
 
-## Constants
+## constants
 
-$1nm = 1 \times 10^{-9}m$
+$1nm = [10](\circ 9)m$

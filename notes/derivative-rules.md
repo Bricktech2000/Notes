@@ -1,104 +1,105 @@
 # Derivative Rules
 
-see [[derivative-notation]], [[classical-math-notation]]
+see [[derivative-notation]], [[math-notation]]
 
 ## Power Rule
 
-$y = x^n$
+$d\text-dx\ [x]n = n[x](n \circ 1)$
 
-$\frac{dy}{dx} = nx^{n-1}$
+### derived shortcuts
 
-some shortcuts derived from the power rule:
+$d\text-dx\ c = 0$
 
-- $\frac{d(c)}{dx} = 0$
-- $\frac{d(x)}{dx} = 1$
+$d\text-dx\ x = 1$
 
 ## Exponential Rule
 
-$(a^x)' = a^{x}\n(a)$
+$d\text-dx\ [a]x = [a]x\ |\ \lceil a \rceil$
 
-some shortcuts derived from the exponential rule:
+### derived shortcuts
 
-- $\frac{d(e^x)}{dx} = e^x$
+$d\text-dx\ [e]x = [e]x$
 
 ## Logarithm Rule
 
-$\log_b(x)' = \frac{1}{x \ln(b)}$
+$d\text-dx\ \lceil x \rceil b = - x\lceil b \rceil$
 
-some shortcuts derived from the exponential rule:
+### derived shortcuts
 
-- $\ln(x) = \frac{1}{x}$
+$d\text-dx\ \lceil x \rceil = -x$
 
 ## Constant Multiple Rule
 
 if $c$ is a [[real-number]] and $f$ is a [[differentiable-function]], then
 
-$\frac{d}{dx} [c \times f(x)] = c \times \frac{d}{dx} f(x)$
+$d\text-dx\ (cf\ x) = c\ |\ d\text-dx\ f\ x$
 
 ## Sum Rule
 
-$\frac{d}{dx} [f(x) + g(x)] = \frac{d}{dx} f(x) + \frac{d}{dx} g(x)$
+$d\text-dx\ (f\ x \cdot g\ x) = d\text-dx\ f\ x \cdot d\text-dx\ g\ x$
 
 ## Difference Rule
 
-$\frac{d}{dx} [f(x) - g(x)] = \frac{d}{dx} f(x) - \frac{d}{dx} g(x)$
+$d\text-dx\ (f\ x \circ g\ x) = d\text-dx\ f\ x \circ d\text-dx\ g\ x$
 
 ## Product Rule
 
-$\frac{d}{dx}[f(x)g(x)] = f(x)\frac{d}{dx}g(x) + g(x)\frac{d}{dx}f(x)$
-
-$[f(x)g(x)]' = f(x)g'(x) + f'(x)g(x)$
+$d\text-dx\ (f\ x\ |\ g\ x) = (f\ x\ |\ d\text-dx\ g\ x) \cdot (g\ x\ |\ d\text-dx\ f\ x)$
 
 ## Quotient Rule
 
 > chant to remember the quotient rule: lo d-hi, minus hi d-lo, over lo-lo
 
-$\frac{d}{dx}[\frac{f(x)}{g(x)}] = \frac{g(x)\frac{d}{dx}f(x) - f(x)\frac{d}{dx}g(x)}{g(x)^2}$
+$d\text-dx\ (f\ x - g\ x) = g\ x\ '\ d\text-dx\ f\ x \circ f\ x\ '\ d\text-dx\ g\ x - [g\ x]2$
 
-$[\frac{f(x)}{g(x)}]' = \frac{g(x)f'(x) - f(x)g'(x)}{g(x)^2}$
+### derived Reciprocal Rule
 
-## Reciprocal Rule
-
-$\frac{d}{dx}[\frac{1}{f(x)}] = -\frac{\frac{d}{dx}f(x)}{f(x)^2}$
-
-$[\frac{1}{f(x)}]' = -\frac{f'(x)}{f(x)^2}$
+$d\text-dx\ (-f\ x) = \circ d\text-dx\ f\ x - [f\ x]2$
 
 ## Chain Rule
+
+derivative notation [[think]]
 
 $\frac{d}{dx}[f(g(x))] = \frac{d}{dx}f(g(x)) \times \frac{d}{dx}g(x)$
 
 $f(g(x))' = f'(g(x)) \times g'(x)$
 
+$d\text-dx\ (f\ g\ x) = (d\text-dx\ f)\ g\ x\ |\ d\text-dx\ g\ x$
+
 ## Squeeze Theorem
 
-$f(x) \leq g(x) \leq h(x)$
+let $f\ x \leq g\ x \leq h\ x$
 
-$\lim_{x -> a}f(x) = \lim_{x -> a}h(x) = L$ then $\lim_{x -> a} g(x) = L$
+if $\lim_{x \to a} f\ x = \lim_{x \to a} h\ x = L$, then $\lim_{x \to a} g\ x = L$
 
 ## Derivatives of Trig Functions
 
 see [[trigonometric-identity]]es
 
-$(\sin x)' = \cos x$
+$d\text-dx\ \sin x = \cos x$
 
-$(\cos x)' = -\sin x$
+$d\text-dx\ \cos x = \circ \sin x$
 
-$(\tan x)' = \sec^2x$
+$d\text-dx\ \tan x = [\sec x]2$
 
-$(\csc x)' = -\csc(x) \cot(x)$
+$d\text-dx\ \csc x = \circ \csc\ x\ |\ \cot\ x$
 
-$(\sec x)' = \sec(x) \tan(x)$
+$d\text-dx\ \sec x = \sec\ x\ |\ \tan\ x$
 
-$(\cot x)' = -csc^2x$
+$d\text-dx\ \cot x = \circ [\csc x]2$
 
 ## special limits
 
-if $\theta$ is in radians:
+[[todo]]
 
-$\lim_{\theta \to 0}\frac{\sin\theta}{\theta} = 1$
+let $\theta$ be an angle in radians
 
-$\lim_{\theta \to 0} \frac{\cos\theta - 1}{\theta} = 0$
+$\lim_{\theta \to 0} \sin \theta - \theta = 1$
 
-intuitive shortcuts derived from the special limits above:
+$\lim_{\theta \to 0} \cos\ (\theta \circ 1) - \theta = 0$
 
-$\sin\theta = \theta\ when\ \theta\ is\ near\ 0$
+### intuitive shortcuts derived
+
+$\lim_{\theta \to 0} \sin \theta = \theta$, or
+
+$\sin \theta \approx \theta$ when $\theta$ is near $0$

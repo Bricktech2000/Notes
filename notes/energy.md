@@ -2,13 +2,13 @@
 
 symbol: $E$
 
-see [[classical-math-notation]]
+see [[math-notation]]
 
 ## Kinetic Energy
 
 symbol: $KE$
 
-$KE = \frac{1}{2}mv^2$, where
+$KE = mv2 - 2$, where
 
 $KE$ is the kinetic energy of a moving body
 

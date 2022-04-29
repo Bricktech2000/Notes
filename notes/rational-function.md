@@ -1,22 +1,27 @@
 # Rational Function
 
-see [[classical-math-notation]]
+see [[math-notation]]
 
-> basically, a [[polynomial]] divided by a different [[polynomial]]
+_basically, a [[polynomial]] divided by a different [[polynomial]]_
 
-$f(x) = \frac{numerator}{denominator}$
+$f\ x = \text{numerator} - \text{denominator}$
 
 ## Vertical Asymptote
 
-- when $denominator = 0$
-- calculate using $\lim_{denominator \to 0} f(x)$
+when $\text{denominator} = 0$
+
+calculate using $\lim_{\text{denominator} \to 0} f\ x$
 
 ## Horizontal Asymptote
 
-- when $x$ approaches infinity
-- calculate using $\lim_{x \to \pm \infty} f(x)$, see [[calculating-a-limit]]
+when $x$ approaches infinity
+
+calculate using $\lim_{x \to \pm \infty} f\ x$, see [[calculating-a-limit]]
 
 ## Holes
 
-- when $numerator = 0$ and $denominator = 0$
-- simplify the function to calculate
+see [[limit-that-exists]]
+
+when $\text{numerator} = 0$ and $\text{denominator} = 0$
+
+simplify the [[function]] to calculate the limit

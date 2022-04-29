@@ -20,11 +20,11 @@ see backlink
 
 - $4 \to 5$
 
-  the columns of $A$ are [[linearly-independent]] $\to$ $Ax = 0$ has a unique solution ($x = O$) $\to$ the [[matrix|nullspace]] of $A$ is the set containing the zero [[vector]]
+  the columns of $A$ are [[linearly-independent]] $\to$ $Ax = 0$ has a unique solution ($x = O$) $\to$ the [[matrix|null-space]] of $A$ is the set containing the zero [[vector]]
 
 - $5 \to 6$
 
-  the [[matrix|nullspace]] of $A$ is the [[zero-space]] $\to$ the dimension of the [[zero-space]] is $0$
+  the [[matrix|null-space]] of $A$ is the [[zero-space]] $\to$ the dimension of the [[zero-space]] is $0$
 
 - $6 \to 7$
 

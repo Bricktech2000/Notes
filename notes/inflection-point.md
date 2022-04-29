@@ -1,12 +1,14 @@
 # Inflection Point
 
-see [[extremum]], [[classical-math-notation]]
+see [[extremum]], [[math-notation]]
 
 > an inflection point or point of inflection, is a point on a smooth plane curve at which the curvature changes sign &mdash; Wikipedia
 
 ## definition
 
-$f''(x) = 0$
+the inflection points of a function $f$ are defined as follows:
+
+$d2\text-dx2\ f\ x = 0$
 
 ## properties
 

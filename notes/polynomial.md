@@ -4,4 +4,24 @@
 
 $p = a_0x_0 \cdot \dots a_nx_n \land \mathbb N n \land (\mathbb R a_n \dashv \mathbb N n)$, where
 
-$p$ is a polynomial
+$p$ is a [[polynomial]]
+
+## operations
+
+see [[polynomial-vector-space]], [[vector-space]]
+
+### Zero Polynomial
+
+$O \equiv 0$
+
+### Polynomial Addition
+
+let $p_a = a_0x_0 \cdot \dots a_nx_n$ and $p_b = b_0x_0 \cdot \dots b_nx_n$
+
+then, $p_a \cdot p_b = (a_0 \cdot b_0) x_0 \cdot \dots (a_n \cdot b_n) x_n$
+
+### Multiplication by a Scalar
+
+let $p = a_0x_0 \cdot \dots a_nx_n$
+
+then, $cp = ca_0x_0 \cdot \dots ca_nx_n$

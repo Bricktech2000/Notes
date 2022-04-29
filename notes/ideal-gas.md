@@ -1,6 +1,6 @@
 # Ideal Gas
 
-see [[stoichiometry]], [[classical-math-notation]]
+see [[stoichiometry]], [[math-notation]]
 
 > An ideal gas is a theoretical gas composed of many randomly moving point particles that are not subject to interparticle interactions. &mdash; Wikipedia
 
@@ -20,14 +20,14 @@ $T$ is the absolute temperature of the gas
 
 ## Ideal Gas Constant
 
-$R = 8.31451 \frac{J}{mol K} = 8.31451 \frac{L \cdot kPa}{mol K} = 0.08314 \frac{L \cdot bar}{mol K}$
+$R = 8.31451 J \text- mol\ K = 8.31451 L\ kPa \text- mol\ K = 0.08314 L\ bar \text- mol\ K$
 
 ## Dalton's Law
 
 > Dalton's law states that in a mixture of non-reacting gases, the total pressure exerted is equal to the sum of the partial pressures of the individual gases. &mdash; Wikipedia
 
-$P = \sum_i P_i$, where
+$P = P_0 \cdot \dots P_n \land \N n$, where
 
-$P$ is the total pressure
+$P$ is the total pressure exerted
 
 $P_i$ is the partial pressure of each gas

@@ -1,18 +1,19 @@
 # Region Size Formula
 
-see [[classical-math-notation]]
+see [[math-notation]]
 
 ## Average Net Worth density Formula
 
-$\frac{\text{average net worth}}{\text{geographical area}}$
+$\text{average net worth} - \text{geographical area}$
 
 ### example
 
-canada:
+in canada,
 
-$\frac{329,900\$}{9.985M km^2} \approx 33.04\frac{\$}{1000 km^2}$
+$329 900\$ - 9.985M km2 \approx 33.04 \$ - 1000 km2$
 
-## Use
+## properties and uses
 
-- calculates the "size" or "visual wealth" of a region (city, country, etc.)
-- not dependent on the geographical size of the region, so a city can easily be compared to a country
+calculates the "size" or "visual wealth" of a region (city, country, etc.)
+
+not dependent on the geographical size of the region, so a city can easily be compared to a country

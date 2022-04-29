@@ -1,6 +1,6 @@
 # Optimizing a Function
 
-see [[extremum]], [[classical-math-notation]]
+see [[extremum]], [[math-notation]]
 
 > Practically, function optimization describes a class of problems for finding the input to a given function that results in the minimum or maximum output from the function. &mdash; machinelearningmastery.com
 
@@ -12,8 +12,8 @@ see [[extremum]], [[classical-math-notation]]
 
 ## example
 
-maximize $f(x) = 600x - 2x^2$
+maximize $f\ x = 600x \circ 2x2$
 
-1. $f'(x) = 600 - 4x$. $f'(x) = 0\ \text{for}\ x = 150$
-2. $f''(x) = -4$, meaning this is a local maximum (see [[extremum]])
-3. the function is maximized at $x = 150$, $f(150) = 45000$
+1. $d\text-dx\ f\ x = 600 \circ 4x$. therefore, $d\text-dx f\ x = 0$ at $x = 150$
+2. $d2\text-dx2 f\ x = \circ 4$, meaning this is a local [[extremum|maximum]]
+3. the function is maximized at $x = 150$, $f\ 150 = 45000$

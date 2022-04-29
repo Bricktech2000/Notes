@@ -1,5 +1,5 @@
 # Plank's Constant
 
-see [[classical-math-notation]]
+see [[math-notation]]
 
-$h = 6.62608 \times 10^{-34} Js$
+$h = 6.62608[10](\circ 34) Js$

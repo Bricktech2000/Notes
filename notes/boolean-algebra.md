@@ -2,7 +2,7 @@
 
 _algebra using boolean variables and logical operators_
 
-see [[math-notation]], [[classical-math-notation]], [[boolean-expression]]
+see [[math-notation]], [[boolean-expression]]
 
 ## [[boolean-variable]]
 
@@ -12,6 +12,6 @@ see [[math-notation]], [[classical-math-notation]], [[boolean-expression]]
 
 ## [[truth-table]] to [[boolean-expression]]
 
-_mainly for [[iti1100 a digital systems i]]_
+_mainly for [[iti1100-a-digital-systems-i]]_
 
 see [[disjunctive-normal-form]]

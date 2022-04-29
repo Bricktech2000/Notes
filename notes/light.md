@@ -1,7 +1,7 @@
 # Light
 
-see [[electromagnetic-wave]], [[classical-math-notation]]
+see [[electromagnetic-wave]], [[math-notation]]
 
-$c = 2.99792458 \times 10^{8} \frac{m}{s}$, where
+$c = 2.99792458[10]8'm \text- s$, where
 
 $c$ is the speed of light in the void
