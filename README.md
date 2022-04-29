@@ -22,7 +22,7 @@ This promotes active learning, meaning you are studying while attending class. M
 
 ## Conceptual Notes
 
-Even though the teacher is giving you a story in a lecture, look for concepts instead. Make notes as atomic as possible, so that you can link to a concept from other concepts. If you think about it, this is exactly how your brain stores information: a sea of concepts linked together. Moreover, instead of arbitrarily splitting concepts into disciplies, this approach allows the creation of numerous links between all aspects of your life, encouraging innovation.
+Even though the teacher is giving you a story in a lecture, look for concepts instead. Make notes as atomic as possible, so that you can link to a concept from other concepts. If you think about it, this is exactly how your brain stores information: a sea of concepts linked together. Moreover, instead of arbitrarily splitting concepts into disciplines, this approach allows the creation of numerous links between all aspects of your life, encouraging innovation.
 
 Writing atomically also allows for easy reorganization of your notes during the lecture itself. Paper notes are almost always taken sequentially, as it is not possible to reorganize information efficiently as it is flying by during lectures.
 
@@ -37,7 +37,7 @@ The conventions I use to take notes are outlined below.
 - **Quotes** are used for factual information and definitions
 - **Italics** are used for tricks or personal definitions
 - **Bold** is used for emphasis
-- **see ...** steatements are for prerequisites
+- **see ...** statements are for prerequisites
 - Notion **backlinks** are for applications of a concept
 - **&mdash; ...** statements are used for citing sources
 - **LaTeX** syntax for all equations
