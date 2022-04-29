@@ -40,9 +40,7 @@ Calculus: Early Transcendentals, by James Stewart, 9th Edition.
 
 [[absolute-value-inequality]]
 
-[[limit-that-exists]], [[calculating-a-limit]]
-
-[[derivative-notation]], [[calculating-a-derivative]]
+[[limit]]s, [[derivative]]s
 
 **related**
 

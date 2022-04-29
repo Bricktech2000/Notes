@@ -22,13 +22,9 @@ Main textbook (required): “Introduction to Computing Using Python: An Applicat
 
 [[optimizing-a-function]]
 
-[[limit-that-exists]]
+[[limit]]
 
-[[calculating-a-limit]]
-
-[[calculating-a-derivative]]
-
-[[even-function]] and [[odd function]]
+[[even-function]] and [[odd-function]]
 
 critical points - [[inflection-point]] [[extremum]], [[concavity]]
 
@@ -44,4 +40,4 @@ critical points - [[inflection-point]] [[extremum]], [[concavity]]
 
 [[piecewise-function]]
 
-[[continuous-function]]
+continuity of [[function]]s

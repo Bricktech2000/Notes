@@ -16,11 +16,11 @@ calculate using $\lim_{\text{denominator} \to 0} f\ x$
 
 when $x$ approaches infinity
 
-calculate using $\lim_{x \to \pm \infty} f\ x$, see [[calculating-a-limit]]
+calculate using $\lim_{x \to \pm \infty} f\ x$, see [[limit]]
 
 ## Holes
 
-see [[limit-that-exists]]
+see [[limit]] existence
 
 when $\text{numerator} = 0$ and $\text{denominator} = 0$
 

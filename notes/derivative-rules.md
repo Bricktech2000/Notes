@@ -1,6 +1,6 @@
 # Derivative Rules
 
-see [[derivative-notation]], [[math-notation]]
+see [[derivative]] notation, [[math-notation]]
 
 ## Power Rule
 
@@ -30,7 +30,7 @@ $d\text-dx\ \lceil x \rceil = -x$
 
 ## Constant Multiple Rule
 
-if $c$ is a [[real-number]] and $f$ is a [[differentiable-function]], then
+if $c$ is a [[real-number]] and $f$ is [[derivative|differentiable]], then
 
 $d\text-dx\ (cf\ x) = c\ |\ d\text-dx\ f\ x$
 
