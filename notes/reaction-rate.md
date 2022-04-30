@@ -18,10 +18,9 @@ $k$ is the _rate constant_. it is specific for a reaction at a single temperatur
 
 $m$ and $n$ are the _reaction orders_
 
-**notes**
+> **note**: the [[stoichiometry]]c coefficients $a$ and $b$ are not necessarily related to the reaction orders (partial orders) $m$ and $n$, see [[reaction-mechanism]]s
 
-- the [[stoichiometry]]c coefficients $a$ and $b$ are not necessarily related to the reaction orders (partial orders) $m$ and $n$, see [[reaction-mechanism]]s
-- $Rate$, $m$ , $n$ and $k$ must be found by experiment
+> **note**: $Rate$, $m$ , $n$ and $k$ must be found by experiment and cannot be determined mathematically
 
 ### other formula
 

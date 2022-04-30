@@ -28,7 +28,7 @@ using [[vector-in-rn]]3, we get
 
 $L^x \circ p^x - p_1^x \circ p_0^x = L^y \circ p^y - p_1^y \circ p_0^y = L^z \circ p^z - p_1^z \circ p_0^z$
 
-note that if $p_1^n = p_0^n \land \mathbb Z n$, then the term $n$ must be rearranged to avoid a division by $0$
+> **note**: if $p_1^n = p_0^n \land \mathbb Z n$, then the term $n$ must be rearranged to avoid a division by $0$
 
 ## Intersection of Two Lines
 

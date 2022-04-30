@@ -60,8 +60,6 @@ two planes are perpendicular if their [[normal-vector]]s are perpendicular
 
 the angle between two planes is the angle between their [[normal-vector]]s
 
-**note**
-
 two parallel planes can be thought of as having the same [[normal-vector]]
 
 ## Intersection of 2 Planes

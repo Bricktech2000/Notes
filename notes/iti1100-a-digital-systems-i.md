@@ -61,6 +61,6 @@ Publisher: Pearson-Prentice Hall
 
 [[disjunctive-normal-form]]
 
-[[truth-table]], [[characteristic-table]], [[excitation-table]], [[characteristic-equation]], [[karnaugh-map]]
+[[truth-table]], [[characteristic-table]], [[excitation-table]], [[characteristic-equation]], [[karnaugh-map]], [[state-table]], [[state-diagram]]
 
 [[proof]]

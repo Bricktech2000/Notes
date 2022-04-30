@@ -8,9 +8,7 @@ String, Array
 
 or all other user-defined classes
 
-### note
-
-pointers to reference types in the heap are stored on the stack
+> **note**: in java, pointers to reference types in the heap are stored on the stack
 
 ## the `==` operator on References
 

@@ -220,7 +220,9 @@ $(A^p)^{\circ1} = (A^{\circ1})^p$
 
 $(kA)^{\circ1} = 1\text-k A^{\circ1}$
 
-$(AC)^{\circ1} = C^{\circ1}A^{\circ1}$ (note that the order has changed as [[matrix]] multiplication is not commutative)
+$(AC)^{\circ1} = C^{\circ1}A^{\circ1}$
+
+> **note**: in the equation above, the order of the matrices multiplied together has changed as [[matrix]] multiplication is not commutative)
 
 if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 

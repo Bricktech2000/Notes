@@ -4,7 +4,7 @@ see [[vector-space]], [[math-notation]], [[matrix]]
 
 ## notation
 
-the [[vector-space]] of $m \times n$ [[matrix]]es is noted as follows:
+the [[vector-space]] of $m \times n$ [[matrix]]es is denoted as follows:
 
 $\mathbb M^{m, n}$ in my [[math-notation]]
 

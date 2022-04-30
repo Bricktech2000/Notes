@@ -31,7 +31,7 @@ _set-reset latch_
 
 ![](20220427161726.png)
 
-**note**: can also be built using NAND [[gate]]s
+> **note**: SR latches can also be built using NAND [[gate]]s
 
 ### D Latch
 

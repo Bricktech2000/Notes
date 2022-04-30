@@ -34,8 +34,8 @@ $\mathbb F (\text-a) \land a(\text-a) = I$ &mdash; multiplicative inverse
 
 $a(b \cdot c) = ab \cdot ac$ &mdash; distributivity of multiplication over addition
 
-## notes
+## applications
 
 fields are use as _scalars_ in linear algebra
 
-in [[mat1341-d-introduction-to-linear-algebra]], the field of [[real-number]]s was used for all computations. the field of [[complex-number]]s could've also been used instead
+> **note**: in [[mat1341-d-introduction-to-linear-algebra]], the field of [[real-number]]s was used for all computations. the field of [[complex-number]]s could've also been used instead

@@ -80,7 +80,7 @@ a set of [[vector]]s is orthogonal if and only if it does not contain the zero [
 
 > **theorem**: an orthogonal set of [[vector]]s is [[linearly-independent]] (think of this visually)
 
-### Theorems
+### theorems
 
 > **theorem**: any orthogonal set of [[vector]]s in $\mathbb R^n$ contains at most $n$ [[vector]]s
 

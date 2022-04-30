@@ -8,9 +8,9 @@ if $Ax = \lambda x$, then $x$ is an [[eigenvector]] of $A$ and $\lambda$ is its 
 
 ## theorems
 
-there are infinitely many [[eigenvector]]s for each [[eigenvalue]]
+> **theorem**: there are infinitely many [[eigenvector]]s for each [[eigenvalue]]
 
-all [[eigenvector]]s together with the zero vector form a [[vector-space]]
+> **theorem**: all [[eigenvector]]s together with the zero vector form a [[vector-space]]
 
 ## finding [[eigenvalue]]s
 

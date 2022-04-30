@@ -8,6 +8,8 @@ see [[math-notation]]
 
 $z = a \cdot bi$
 
+> **note**: [[complex-number]]s can be represented in the _complex plane_, $(z^{re}, z^{im}) \dashv \mathbb C z$
+
 ### Polar Form
 
 $z = |z| \cos \theta \cdot |z| i \sin \theta = |z| [e]i\theta$, see [[e]]
@@ -22,37 +24,17 @@ let $z = a \cdot bi$. then, $Re\ z = a \equiv z^{re} = a$ (the _real part_ of $z
 
 ## properties
 
-_equality_
+$a \cdot bi = c \cdot di \equiv a = c \land b = d$ &mdash; equality
 
-$a \cdot bi = c \cdot di \equiv a = c \land b = d$
+$(a \cdot bi) \cdot (c \cdot di) = (a \cdot c) \cdot (b \cdot d)i$ &mdash; addition
 
-_addition_
+$a \cdot bi\ |\ c \cdot di = ac \cdot adi \cdot bic \cdot bdi2 = (ac \circ bd) \cdot (ad \cdot bc)i$ &mdash; multiplication
 
-$(a \cdot bi) \cdot (c \cdot di) = (a \cdot c) \cdot (b \cdot d)i$
+$z\ |\ w = |z| [e](i\theta)\ |\ |w| [e](i\phi) = |zw|[e](i\ |\ \theta \cdot \phi)$ &mdash; multiplication in polar form
 
-_multiplication_
-
-$a \cdot bi\ |\ c \cdot di = ac \cdot adi \cdot bic \cdot bdi2 = (ac \circ bd) \cdot (ad \cdot bc)i$
-
-$zw = (|z| [e]i\theta) (|w| [e]i\phi) = |zw|[e]i(\theta \cdot \phi)$
-
-_square root of $i$_
-
-$\lfloor i \rfloor = \dot \circ\ |\ 1 \cdot i - \lfloor 2 \rfloor$
+$\lfloor i \rfloor = \dot \circ\ |\ 1 \cdot i - \lfloor 2 \rfloor$ &mdash; square root of $i$
 
 &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
-
-_etc._
-
-> **theorem**: $z \overline z = |z|2$ for any [[complex-number]] $z$
-
-> **theorem**: $1 - z = \overline z - |z|2$
-
-## notes
-
-multiplying by the conjugate can be used to reduce an expression such as $1 - 4 \cdot 3i$
-
-[[complex-number]]s can be represented in the _complex plane_, $(z^{re}, z^{im}) \dashv \mathbb C z$
 
 ## Complex Conjugate
 
@@ -61,6 +43,10 @@ multiplying by the conjugate can be used to reduce an expression such as $1 - 4 
 let $z = a \cdot bi$
 
 $\overline z = a \circ bi$ is the _complex conjugate_ of $z$
+
+### applications
+
+multiplying by the conjugate can be used to reduce an expression such as $1 - 4 \cdot 3i$
 
 ### properties
 
@@ -78,13 +64,19 @@ $\overline{\overline z} = z$
 
 $\mathbb R z \equiv \overline z = z$
 
+> **theorem**: $z \overline z = |z|2 \dashv \mathbb C z$
+
+> **theorem**: $1 - z = \overline z - |z|2 \dashv \mathbb C z$
+
 ## Absolute Value
 
 ### definition
 
 let $z = a \cdot bi$
 
-$|z| = \lfloor a2 \cdot b2 \rfloor$ is the _absolute value_ of $z$. the absolute value of [[real-number]]s can be thought of as "the distance of a point to the origin", which is why the absolute value of [[complex-number]]s is defined this way
+$|z| = \lfloor a2 \cdot b2 \rfloor$ is the _absolute value_ of $z$.
+
+> **note**: the absolute value of [[real-number]]s can be thought of as "the distance of a point to the origin", which is why the absolute value of [[complex-number]]s is defined this way
 
 ### properties
 
@@ -94,7 +86,7 @@ $\mathbb R |z| \land |z| \ge 0$
 
 $|z| = |\overline z|$
 
-$|zw| = |z||w|$
+$|zw| = |z|\ |w|$
 
 $|z - w| = |z| - |w|$
 

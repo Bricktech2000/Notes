@@ -117,18 +117,22 @@ replace: (space)\\\\\\(space)
 
 <!-- see `settings.json` for sources -->
 
-### page break
+### Page Break
 
 <div style="page-break-after: always"></div>
 
-### theorems, proofs, definitions
+### Theorems, Proofs, Definitions
 
-<div class="theorem">This theorem is false.</div>
+<div class="theorem">This is a theorem.</div>
 <div class="lemma">This is a lemma.</div>
 <div class="definition">This is a definition.</div>
 <div class="proof">This is a proof.</div>
 
-### LaTeX & wiki link support
+> **note**: the elements above are not used in my [[index|conceptual-notes]] as they are not natively supported in Markdown
+
+> **theorem**: this "quote with bold text" format is used instead
+
+### LaTeX & Wiki Link Support
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" })</script>

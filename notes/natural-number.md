@@ -8,4 +8,4 @@ $\mathbb N \vdash \mathbb Z$
 
 _a whole, non-negative number_
 
-**note**: $\mathbb N 0$
+> **note**: $\mathbb N 0$

@@ -32,16 +32,16 @@ $[[A]] = A$
 
 $A \circ B = A \cdot [B]$
 
-### notes
-
-in **binary**, “subtract each digit from the largest digit in the base” can be thought of as “swap zeroes for ones and ones for zeros”
-
-in **hex**, the bit pattern of the 16’s complement is the same as the bit pattern of the 2’s complement, and so the 16’s complement is never actually used in Computer Science.
+### applications
 
 Radix Complements can be used to easily **build adder-subtracters**:
 
 - to add $A$ and $B$, feed in $A$ and $B$ to get $A + B$ as output
 - to subtract $B$ from $A$, feed in $A$ and $\sim B$ and set the _CARRY IN_ bit to get $A - B$ as output
+
+> **note**: in **binary**, “subtract each digit from the largest digit in the base” can be thought of as “swap zeroes for ones and ones for zeros”
+>
+> in **hex**, the bit pattern of the 16’s complement is the same as the bit pattern of the 2’s complement, and so the 16’s complement is never actually used in Computer Science.
 
 ### example
 
@@ -55,10 +55,8 @@ finding the 16’s complement of $1234_{16}$
 
 _1’s complement in base 2, 15’s complement in base 16_
 
+> **note**: Diminished Radix Complements do **not** have the same properties as Radix Complements
+
 ### calculation
 
 same as above, but without adding 1 at the end (or without setting the _CARRY IN_ bit of an adder)
-
-### notes
-
-Diminished Radix Complements do **not** have the same properties as Radix Complements

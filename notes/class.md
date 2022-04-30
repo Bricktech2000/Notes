@@ -26,10 +26,8 @@ which can all either be:
 - public, (no value, package), protected or private
 - final or not
 
+> **note**: the order in which [[class]] properties and methods are defined in [[java]] is irrelevant
+
 ### definitions
 
 > a **final** variable can only be initialized once
-
-### note
-
-> the order in which [[class]] properties and methods are defined in [[java]] is irrelevant
