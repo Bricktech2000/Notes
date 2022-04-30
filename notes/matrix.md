@@ -206,7 +206,7 @@ $A^{-1}$ is the _inverse matrix_ of $A$
 
 _an **invertible** [[matrix]] has an inverse_
 
-see [[linear-system]] for invertability criteria
+see theorems below for invertability criteria
 
 ### properties
 
@@ -240,13 +240,13 @@ let $A = \begin{bmatrix}a & b \\\  c & d\end{bmatrix}$
 
 $A$ is invertible if and only if $|A| \ne 0$
 
-$A^{-1} = 1\text-|A| \begin{bmatrix}d & \circ b \\\  \circ c & a\end{bmatrix}$
+$A^{\circ 1} = 1\text-|A| \begin{bmatrix}d & \circ b \\\  \circ c & a\end{bmatrix}$
 
 ### example usage
 
 let $A = \begin{bmatrix}1 & 1 \\\  2 & 3\end{bmatrix}$
 
-then, calculate $B$ such that $B \equiv A^{-1}$
+then, calculate $B$ such that $B \equiv A^{\circ 1}$
 
 this can be used to solve a system such as:
 
@@ -261,6 +261,39 @@ $Ix = x = B \begin{bmatrix}\circ 1 \\\ 1\end{bmatrix}$
 a [[matrix]] is _triangular_ if every entry below its diagonal or above its diagonal is $0$
 
 the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element
+
+## Theorems
+
+see [[linear-system]]
+
+> **theorem**: let $\mathbb M^{m, n}A$ (see [[matrix]]). the following statements are equivalent:
+>
+> 1. every variable is a leading variable
+> 2. there is a leading variable in every column of the [[RREF]] of $A$
+> 3. the system $Ax = 0$ has a unique solution
+> 4. the columns of $A$ are [[linearly-independent]]
+> 5. $Ker\ A = \{0\}$
+> 6. $\dim Ker\ A = 0$
+> 7. $rank\ A = n$
+
+see [[linear-system-theorem-proof]]
+
+> **theorem**: let $\mathbb M^{n, n} A$ (see [[matrix]]). the following statements are equivalent:
+>
+> **note**: all statements below are valid for both $A$ and $A^\intercal$, see transpose [[matrix]]
+>
+> 1. $rank\ A = n$
+> 2. every linear system of the form $Ax = b$ has a unique solution
+> 3. the [[RREF]] of $A$ is the identity [[matrix]]
+> 4. $Ker\ A = \{0\}$
+> 5. $Col\ A = \mathbb R^n$
+> 6. $Row\ A = \mathbb R^n$
+> 7. the columns of $A$ are [[linearly-independent]]
+> 8. the rows of $A$ are [[linearly-independent]]
+> 9. the columns of $A$ form a [[basis]] for $\mathbb R^n$
+> 10. the rows of $A$ form a [[basis]] for $\mathbb R^n$
+> 11. $A$ is [[matrix|invertible]]
+> 12. $\det A \ne 0$
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" })</script>
