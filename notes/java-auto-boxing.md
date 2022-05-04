@@ -1,4 +1,4 @@
-# Auto Boxing
+# Java Auto Boxing
 
 see [[java]], [[java-wrapper]]
 
@@ -26,6 +26,6 @@ i = Integer.valueOf(
 
 ## performance
 
-_using [[java-primitive]]s is almost always faster_
+_using [[java-primitive]]s is almost always faster than using [[java-reference]]s_
 
 ![](2022-02-26-01-14-04.png)

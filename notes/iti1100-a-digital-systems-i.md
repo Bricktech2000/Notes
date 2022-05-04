@@ -59,7 +59,7 @@ Publisher: Pearson-Prentice Hall
 
 **related**
 
-[[disjunctive-normal-form]]
+[[disjunctive-normal-form]], [[conjunctive-normal-form]]
 
 [[truth-table]], [[characteristic-table]], [[excitation-table]], [[characteristic-equation]], [[karnaugh-map]], [[state-table]], [[state-diagram]]
 

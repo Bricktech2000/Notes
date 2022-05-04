@@ -2,11 +2,11 @@
 
 _the blueprint of an [[object]]_
 
-an [[object]] has a state, whereas a Class does not
+an [[object]] has a state, whereas a [[class]] does not
 
 ### definitions
 
-> two classes are said to be **coupled** if the implementation of one of them depends on the implementation of the other. this is to be avoided
+> two [[class]]es are said to be **coupled** if the implementation of one of them depends on the implementation of the other. this is to be avoided
 
 ## Java Classes
 

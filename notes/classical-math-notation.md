@@ -1,6 +1,6 @@
 # Classical Math Notation
 
-see [[math-notation]], [[java]], [[java-is-a-terrible-language]]
+see [[math-notation]]
 
 ## Problems with [[classical-math-notation]]
 
