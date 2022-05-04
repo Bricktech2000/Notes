@@ -26,11 +26,11 @@ $O x = 0 \dashv \mathbb R x$
 
 ### Function Addition
 
-$(f \cdot g) x = fx \cdot gx$
+$(f \cdot g)\ x = f\ x \cdot g\ x$
 
 ### Multiplication by a Scalar
 
-$(cf) x = c\ |\ f x$
+$(cf)\ x = c\ |\ f\ x$
 
 ## [[even-function]]
 
@@ -53,20 +53,34 @@ see [[math-notation]]
 > - $c f$ where $c$ is a constant
 > - $f \text- g$ if $g\ a \ne 0$
 
-## inverse function
+## Inverse (or Reciprocal) Function
 
-[[todo]] [[think]]
+_multiplicative inverse_
 
 ### definition
 
-let $f x$ be a function
+let $f\ x$ be a function
 
-if $y = f x \land x = f^- y$, then $f^-$ is the inverse of $f$
+if $y = f\ x \land y = 1 - f^-\ x$, then $f^-$ is the _inverse_ (or _reciprocal_) of $f$
 
 ### properties
 
-$f f^- x = x$
+$f^-\ x = 1 - f\ x$
 
-$f ^- f x = x$
+## Reciprocal (or Inverse) Function
 
-the graph of $y = f^- x$$y = f x$ are symmetric about the line $y = x$
+_reciprocal, switching input and output_
+
+### definition
+
+let $f\ x$ be a function
+
+if $y = f\ x \land x = f^\times\ y$, then $f^\times$ is the _reciprocal_ (or _inverse_) of $f$
+
+### properties
+
+$f\ f^\times\ x = x$
+
+$f^\times\ f\ x = x$
+
+the graph of $y = f\ x$ and $y = f^\times\ x$ are symmetric about the line $y = x$

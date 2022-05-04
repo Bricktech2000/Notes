@@ -3,7 +3,7 @@
 most of our culture is outcome-oriented instead of process-oriented. here are some examples of this observation:
 
 - school doesn’t focus on what you learn; it focuses on your grade
-- ...
+- [[complete]]
 
 focusing on outcomes can lead to [[feeling-overwhelmed]] and can prevent people from even starting the process itself (which could be wrongly rationalized as a lack of [[motivation]] or as [[laziness]])
 
@@ -21,7 +21,7 @@ even though that person wouldn’t be guaranteed to get a job that way (as they 
 
 _philosophical thought on goals_
 
-### initial impression on goals
+### initial opinion on goals
 
 I don’t like goals as they feel like a reason to fail. I prefer not setting goals, as that way, nothing feels like failure. _you can’t fail if you don’t have goals_
 
@@ -35,7 +35,7 @@ a few seconds is enough to realize that the goal that was set isn’t even reach
 
 > it’s all about the process.
 
-### updated impression on goals
+### updated opinion on goals
 
 _after a middle-of-the-night discussion with Grace_
 

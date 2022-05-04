@@ -6,10 +6,10 @@ see [[vector-space]], [[vector]]
 
 ### definition
 
-a set of [[vector]]s in a [[vector-space]] if both:
+a [[set]] of [[vector]]s in a [[vector-space]] if both:
 
-- the set is [[linearly-independent]]
-- the set [[span]]s the [[vector-space]]
+- the [[set]] is [[linearly-independent]]
+- the [[set]] [[span]]s the [[vector-space]]
 
 ### properties
 
@@ -19,7 +19,7 @@ all [[basis]]es of a [[vector-space]] have the same size
 
 ### finding a basis for a [[span]]
 
-to find a basis for a vector space $W = span\{v_0 \dots v_m\}$
+to find a basis for a vector space $W = \text{span } v_0 \dots v_m$
 
 1. write the [[matrix]] $A$ whose rows are the [[vector]]s $v_0 \dots v_m$. if the [[vector]]s are not [[vector-in-rn]]s, translate them into [[basis|coordinate-vector]]s first
 2. [[row-reduction|row-reduce]] $A$ to [[REF]] form

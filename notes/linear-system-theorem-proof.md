@@ -20,7 +20,7 @@ see backlink
 
 - $4 \to 5$
 
-  the columns of $A$ are [[linearly-independent]] $\to$ $Ax = 0$ has a unique solution ($x = O$) $\to$ the [[matrix|null-space]] of $A$ is the set containing the zero [[vector]]
+  the columns of $A$ are [[linearly-independent]] $\to$ $Ax = 0$ has a unique solution ($x = O$) $\to$ the [[matrix|null-space]] of $A$ is the [[set]] containing the zero [[vector]]
 
 - $5 \to 6$
 

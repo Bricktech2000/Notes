@@ -1,0 +1,109 @@
+# Random Math Notation Formulas
+
+$df\text-dx = \lim_{h \to 0} f (x \cdot h) \circ f (x) - h$
+
+$[a \cdot b] = a2 \cdot b2 \cdot 2ab$
+
+$V = b \cdot B\ |\ h - 2$
+
+$\int_a^b(df\text- dx)\ x\ dx = f\ b \circ f\ a$
+
+$d\text- dx\int_a^x(f\ t)\ dt = f x$
+
+$a2 \circ b2 = a \circ b\ |\ a \cdot b$
+
+$a2 \cdot b2 = c2$
+
+$y = \lfloor r2 \circ x2 \rfloor$
+
+$x2 + y2 + z2 = r2$
+
+$[e] i\pi = \circ 1$
+
+$\mathbb N \vdash \mathbb R$
+
+$\mathbb R^nU_1 \land \mathbb R^nO \dashv aO = O \dashv \mathbb R a$
+
+$^\perp = U \to v \to \mathbb R^nv \land u \cdot v = 0 \dashv U u$
+
+$dist\ A, B = dist\ A \cdot x, B \cdot x \dashv \mathbb U x$
+
+$dist\ A, B \cdot dist\ B, C \ge dist\ A, C$
+
+$\lnot\ a \cdot b = c\ |\ d$
+
+$3' x = y \dashv \mathbb Z x$
+
+_there exists an [[integer]] $x$ such that $1 + x = 3$_
+
+[[classical-math-notation]]: $\exists x \in \mathbb Z \text{\ \ \ s. t.\ \ \ } 1 + x = 3$
+
+my [[math-notation]]: $1 \cdot x = 3 \land \mathbb Z x$
+
+**while on call with Kiera**
+
+$a2$
+
+$2a$
+
+$1 \div 3 (1 + 2)$
+
+$1 - 3(1 \cdot 2)$
+
+$1 - 3\ |\ 1 \cdot 2$
+
+$[a] \cdot b$
+
+$[b2 \circ 4ac] 2\text-3$
+
+$\circ b \cdot \lfloor b2 \circ 4ac \rfloor - 2a$
+
+$1 - 0 = \varnothing$
+
+$a \vdash b = \lnot a \lor b$
+
+$a \dashv b = a \lor \lnot b$
+
+$P = (x, y, z)$
+
+$P = (P^0, P^1, P^2) \dashv \mathbb R^3 P$
+
+**oh god I think Kiera is right**
+
+$A \vdash B \equiv \lnot A \lor B$ ($A$ implies $B$ or $B$ for all $A$)
+
+~~the inverse of that would be $B \vdash A$ ($B$ implies $A$ or there exists a $A$ such that $B$)~~
+
+| A   | B   | A implies B |
+| --- | --- | ----------- |
+| 0   | 0   | ?           |
+| 0   | 1   | ?           |
+| 1   | 0   | 0           |
+| 1   | 1   | ?           |
+
+| A   | B   | B for all A |
+| --- | --- | ----------- |
+| 0   | 0   | ?           |
+| 0   | 1   | ?           |
+| 1   | 0   | 0           |
+| 1   | 1   | ?           |
+
+| A   | B   | -(A implies B) |
+| --- | --- | -------------- |
+| 0   | 0   | ?              |
+| 0   | 1   | ?              |
+| 1   | 0   | 1              |
+| 1   | 1   | ?              |
+
+| A   | B   | E A s.t. -B |
+| --- | --- | ----------- |
+| 0   | 0   | ?           |
+| 0   | 1   | ?           |
+| 1   | 0   | 1           |
+| 1   | 1   | ?           |
+
+$\lnot A \lor B \equiv A \vdash B$, which means “$B$ for all $A$”. therefore,
+
+$\lnot (A \vdash B) \equiv A \land \lnot B$, which means “there exists an $A$ such that $\lnot B$”
+
+the negation of $A \vdash B$ is **not** $A \dashv B$ (duh)

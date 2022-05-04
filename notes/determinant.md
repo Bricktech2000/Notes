@@ -60,7 +60,9 @@ $\det [A] m = [\det A] m \dashv \mathbb N m$
 
 $\det A = 0$ if and only if $A$ is not invertible, see [[matrix]]
 
-$\det A^{\circ 1} = [\det A] (\circ 1)$ if and only if $A$ is invertible, see [[matrix]] (which is beautiful as $A^{\circ 1}$ is an inverse [[matrix]] whereas $[\det A](\circ 1)$ is $1 - \det(A)$)
+$\det A^- = [\det A] (\circ 1)$ if and only if $A$ is invertible, see [[matrix]]
+
+> **note**: the equation above is beautiful, as in [[classical-math-notation]], $A^{-1}$ is an inverse [[matrix]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
 
 ## intuitive explanation
 

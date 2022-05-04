@@ -8,7 +8,7 @@ see [[math-notation]]
 
 the cost of a logic circuit can be calculated using its [[disjunctive-normal-form]]
 
-$C f = \sum \text{literals per term} \cdot \text{term count}$ (see [[boolean-operation]])
+$C f = \sum \text{literals per term} \cdot \text{term count}$ (see [[boolean-operator]])
 
 if a term has $1$ literal, $\sum \text{literals per term} = 0$
 
@@ -24,4 +24,4 @@ $h_2ab = \lnot b \vdash C h = 0 \cdot 0 = 0$
 
 ### consequences
 
-NOR and NAND gates are very useful, as they reduce the cost of the logic circuit by reducing the number of ICs necessary to get an identical output (see [[boolean-operation]]s)
+NOR and NAND gates are very useful, as they reduce the cost of the logic circuit by reducing the number of ICs necessary to get an identical output (see [[boolean-operator]]s)

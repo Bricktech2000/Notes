@@ -2,7 +2,7 @@
 
 > Preorders are actually just interest-free loans &mdash; <https://youtu.be/a6zvvlrd-jw>
 
-## what is the point of loans
+## what is the point of loans?
 
 people start with no [[money]] and they take out a [[loan]] to buy something. they then **get charged** interest
 

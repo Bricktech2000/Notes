@@ -2,4 +2,4 @@
 
 _logic gate_
 
-logic [[gate]]s model [[boolean-operation]]s
+logic [[gate]]s model [[boolean-operator]]s

@@ -38,13 +38,13 @@ in a K Map,
 
 ## Simplifying a [[boolean-expression]]
 
-K Maps allow for simplifying [[boolean-operation]]s without using [[boolean-algebra]]
+K Maps allow for simplifying [[boolean-operator]]s without using [[boolean-algebra]]
 
 ### procedure
 
 1. draw the [[boolean-expression]] as a K Map, see [[disjunctive-normal-form]]
-2. find “rectangles” of the same value, which can actually wrap around the edges of the K Map. use the AND [[boolean-operation]] to group them together.
-3. use the OR [[boolean-operation]] to join the “rectangles” together
+2. find “rectangles” of the same value, which can actually wrap around the edges of the K Map. use the AND [[boolean-operator]] to group them together.
+3. use the OR [[boolean-operator]] to join the “rectangles” together
 
 ### example 1
 

@@ -6,7 +6,7 @@ see [[math-notation]], [[boolean-expression]]
 
 ## [[boolean-variable]]
 
-## [[boolean-operation]]
+## [[boolean-operator]]
 
 ## [[boolean-function]]
 

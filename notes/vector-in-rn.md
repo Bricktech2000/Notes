@@ -20,7 +20,7 @@ see [[vector-in-rn-vector-space]], [[vector-space]]
 
 $O \equiv (0, 0)$
 
-$O^m = 0 \land m = 0 \dots n$, where $n$ is the dimension of the zero vector [[think]]
+$O^m = 0 \land m = 0 \dots n$, where $n$ is the dimension of the zero vector
 
 ### Vector Addition
 
@@ -44,7 +44,7 @@ $|V|$, where
 
 $V$ is the vector to find the magnitude of
 
-$|V| = \lfloor V\ |\ V \rfloor$ (derived from the Pythagoras theorem) (note that the $|$ is a [[dot-product]], [[think]])
+$|V| = \lfloor V\ |'\ V \rfloor$ (derived from the Pythagoras theorem), see [[dot-product]]
 
 **Unit Vector**
 
@@ -64,9 +64,9 @@ note that $V - |V|$ is just notation for the direction of the vector $V$
 
 see [[dot-product]], [[cross-product]], [[magic]]
 
-$\cos \theta = a\ |\ b - |a|\ |b|$. use $\cos \theta = |a\ |\ b| - |a|\ |b|$ to always get the acute angle solution (the $|$ is a [[dot-product]], an absolute value and a magnitude, [[think]])))
+$\cos \theta = a\ |'\ b - |a|\ |b|$. use $\cos \theta = |a\ |'\ b| - |a|\ |b|$ to always get the acute angle solution
 
-$\sin \theta = a \times b - |a|\ |b|$ (the $\times$ is a [[cross-product]], [[think]])
+$\sin \theta = a '^\times b - |a|\ |b|$, see [[cross-product]]
 
 ### Orthogonal Vectors
 
@@ -74,27 +74,29 @@ notation: $u \perp v$
 
 _a pair of vectors offset by $90^\circ$ ._
 
-$u$ and $v$ are orthogonal if and only if $u\ |\ v = 0$ (see [[dot-product]], [[think]]), or $u \perp v \equiv u\ |\ v = 0$
+$u$ and $v$ are orthogonal if and only if $u\ |'\ v = 0$ (see [[dot-product]]), or $u \perp v \equiv u\ |'\ v = 0$
 
-a set of [[vector]]s is orthogonal if and only if it does not contain the zero [[vector]] and all [[vector]]s in the set are orthogonal to all other [[vector]]s
+a [[set]] of [[vector]]s is orthogonal if and only if it does not contain the zero [[vector]] and all [[vector]]s in the [[set]] are orthogonal to all other [[vector]]s
 
-> **theorem**: an orthogonal set of [[vector]]s is [[linearly-independent]] (think of this visually)
+> **theorem**: an orthogonal [[set]] of [[vector]]s is [[linearly-independent]] (think of this visually)
 
 ### theorems
 
-> **theorem**: any orthogonal set of [[vector]]s in $\mathbb R^n$ contains at most $n$ [[vector]]s
+> **theorem**: any orthogonal [[set]] of [[vector]]s in $\mathbb R^n$ contains at most $n$ [[vector]]s
 
-> **theorem**: any orthogonal set of $n$ [[vector]]s in $\mathbb R^n$ is an orthogonal [[basis]] of $\mathbb R^n$
+> **theorem**: any orthogonal [[set]] of $n$ [[vector]]s in $\mathbb R^n$ is an orthogonal [[basis]] of $\mathbb R^n$
 
-> **theorem**: orthogonal set $\vdash$ [[linearly-independent]], but not the inverse
+> **theorem**: orthogonal [[set]] $\vdash$ [[linearly-independent]], but not the inverse
 
-> **theorem**: suppose $w_0 \dots w_m$ is an orthogonal [[basis]] for a subspace $W$ of $\mathbb R^n$. then, $w = w_0 (w\ 'w_0 - w_0\ 'w_0) + \dots w_m (w\ 'w_m - w_m\ 'w_m)$ (see [[dot-product]], [[think]])
+> **theorem**: suppose $w_0 \dots w_m$ is an orthogonal [[basis]] for a subspace $W$ of $\mathbb R^n$. then, $w = w_0 (w\ ''\ w_0 - w_0\ ''\ w_0) + \dots w_m (w\ ''\ w_m - w_m\ ''\ w_m)$, see [[dot-product]]
 
 ### Collinear Vectors
 
 _a pair of parallel vectors_
 
-$u$ and $v$ are colinear if $u = kv \land \mathbb R k$. $u$ is a [[linear-combination]] of the set $\{v\}$
+$u$ and $v$ are colinear if $u = kv \land \mathbb R k$
+
+$u$ and $v$ are colinear if $u$ is a [[linear-combination]] of the [[set]] $\{v\}$
 
 ## Projections
 
@@ -104,7 +106,7 @@ see [[dot-product]]
 
 $|proj_b\ a| = |a| \cos \theta$, and
 
-$proj_b\ a = |a| \cos \theta\ |\ \hat b = a'\hat b\ |\ \hat b = a'b - b'b\ |\ b$ ($'$ is a [[dot-product]], [[think]]), where
+$proj_b\ a = |a| \cos \theta\ |\ \hat b = a''\hat b\ |\ \hat b = a''b - b''b\ |\ b$ (see [[dot-product]]), where
 
 $proj_b\ a$ is the _vector projection of $a$ on $b$ ._
 
@@ -130,12 +132,12 @@ $proj_W\ v$ is the "best approximation" to $v$ by [[vector]]s in $W$
 
 ## volume of the [[parallelepiped]] defined by 3 vectors in $\mathbb R^3$
 
-_does this seem random? well, it is._
+_does this seem random and pointless? well, it is._
 
 see [[dot-product]], [[cross-product]]
 
-$V = |w\ '\ (u \times v)|$ ($'$ is a [[dot-product]], [[think]]), where
+$V = |w\ |'\ (u\ |^\times\ v)|$ (see [[dot-product]], [[cross-product]]), where
 
-$V$ is the volume calculated
+$V$ is the volume to be calculated
 
-$u$, $v$ and $w$ are the three vectors in $\mathbb R^3$
+$u$, $v$ and $w$ are the three [[vector]]s in $\mathbb R^3$

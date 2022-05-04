@@ -2,7 +2,9 @@
 
 see [[classical-math-notation]]
 
-### notation
+## notation
+
+### basic operators
 
 $a \cdot b$ is addition
 
@@ -28,7 +30,17 @@ $\lceil a \rceil b$ is the base-$b$ logarithm of $a$ ($b = e$ if $b$ is omitted)
 
 $a\ b$ is shorthand for $[a] b$ only if $b$ is a number and $a$ is a variable
 
-$\mathbb N a$ checks whether $a$ is part of the set $\mathbb N$
+### [[set]]s and [[function]]s
+
+$\mathbb N a$ checks whether $a$ is part of the [[set]] $\mathbb N$
+
+~~$a \to b$ is lambda notation (`(a) => b`)~~
+
+$f\ x$ is the application of the [[function]] $f$ to $x$
+
+$S = \{a \dots b\}$ is shorthand for $S\ x = (x = a) \lor \dots (x = b)$
+
+### [[boolean-operator]]s
 
 $a = b$ checks whether two expressions are equal
 
@@ -48,175 +60,93 @@ $\top$ is logical true (`true`)
 
 $\bot$ is logical false (`false`)
 
-$a \vdash b$ means _a implies b_ or _a is a subset of b_ or _b is true for every a_
+$a \vdash b$ means _a implies b_ or _a is a sub[[set]] of b_ or _b is true for every a_
 
 $a \dashv b$ is the inverse of above
 
-$a \equiv b$ is logical equality check (equivalent to $=$ but different precedence)
+$a \not \vdash b$ and $a \not \dashv b$ are negations of the above
 
-~~$a \to b$ is lambda notation (`(a) => b`)~~
+$a \equiv b$ is logical equality check; equivalent to $=$ but with different precedence
 
-$\varnothing$ is undefined
+### subscripts and superscripts
 
-$V^i$ is the $i$ th element of the vector $V$
+_superscripts are modifiers (subscripts with special meanings)_
 
-$M^{i, j}$ is the $i, j$ th element of the matrix $M$
+$X_{subscript}$ is the variable $X$ with a subscript $_{subscript}$
 
-$M^{i,}$ is the $i$ th row of the matrix $M$
+$V^y$ is the $y$ (second) component of the [[vector]] $V$
 
-$M^{, j}$ is the $j$ th column of the matrix $M$
+$V^\omega$ where $\omega$ is a number is the $\omega$ th component of the [[vector]] $V$
 
-trig identities: $sin$, $asin$, $cos$, $acos$, $tan$, $atan$...
+$M^{i, j}$ is the $i, j$ th element of the [[matrix]] $M$
 
-### operator precedence
+$M^{i,}$ is the $i$ th row of the [[matrix]] $M$
+
+$M^{, j}$ is the $j$ th column of the [[matrix]] $M$
+
+$X^-$ is the multiplicative inverse of $X$, where $X$ can be a [[function]], a [[matrix]], a [[vector]], a [[set]]...
+
+$f^\times$ is the reciprocal (switching input and output) of the function $f$
+
+$A^\intercal$ is the transpose [[matrix]] of $A$
+
+$f^\times$ is the reciprocal of the [[function]] $f$
+
+$f^-$ is the inverse of the [[function]] $f$
+
+### [[trigonometric-identity]]es
+
+$\sin = \sin \land \cos = \cos \land \tan = \tan$
+
+$\sin^\times = \text{asin } \land \cos^\times = \text{acos } \land \tan^\times = \text{atan }$
+
+$\sin^- = 1 - \sin \land \cos^- = 1 - \cos \land \tan^- = 1 - \tan$
+
+### other
+
+$\varnothing$ is _undefined_
+
+## operator precedence
 
 _high to low_
 
 $(()[]\lfloor\rfloor\lceil\rceil)('\text-)(\cdot \circ) (|-) (=\ne\gt\ge\lt\le) \lnot \land \lor (\dashv\ \vdash\ \equiv \times)$
 
-### associativity
+## associativity
 
 [[todo]]
 
-### distributivity
+## distributivity
 
 [[todo]]
 
 composition distributes over implication. this allows for notation such as $\mathbb N \vdash \mathbb R$ [[think]]
 
-### principles
+## principles
 
 - $=$ **checks** for equality and returns a boolean
 - it is implied that an expression on its own must evaluate to $\top$ (`true`)
-- sets are [[function]]s that return a boolean ($\mathbb R a$ instead of $a \in \mathbb R$)
-- $\lfloor a \rfloor$ (or $\lfloor a \rfloor 2$) returns both positive and negative square roots ($\lfloor q2 \rfloor = \dot \circ q$)
-- $\lfloor 4 \rfloor = 2$ is invalid, but $\lfloor 4 \rfloor \dashv 2$ is valid [[think]]
+- [[set]]s are [[function]]s that return a boolean ($\mathbb R a$ instead of $a \in \mathbb R$)
+- $\lfloor a \rfloor$ (or $\lfloor a \rfloor 2$) returns both positive and negative square roots ($\lfloor q2 \rfloor \equiv \dot \circ q$)
+- $\lfloor 4 \rfloor = 2$ is valid, but $\lfloor 4 \rfloor \equiv 2$ is invalid
 - ~~functions support currying to take multiple arguments~~
 
-### examples
+## examples
 
 - [[quadratic-formula]]: $\circ b \cdot \lfloor b2 \circ 4ac \rfloor - 2a$
-- definition of the set of [[complex-number]]s: $\mathbb C x \equiv x = a \cdot b\lfloor \circ 1 \rfloor \land \mathbb R a \land \mathbb R b$
+- definition of the [[set]] of [[complex-number]]s: $\mathbb C x \equiv x = a \cdot b\lfloor \circ 1 \rfloor \land \mathbb R a \land \mathbb R b$
 - definition of multiplication of a boolean by a scalar:
   - $\mathbb B b = (b \equiv \top) \lor (b \equiv \bot)$
   - $(ab = b \dashv a \ne 0 \land \mathbb Bb) \vdash 2\top = \top$
   - $(ab = \varnothing \dashv a = 0 \land \mathbb Bb) \vdash 0\top = \varnothing$
-- definition of the implication / subset / superset / “for all” symbol:
+- definition of the implication / sub[[set]] / super[[set]] / “for all” symbol:
   - $a \vdash b = \lnot a \lor b$
   - $a \dashv b = a \lor \lnot b$
-- in set theory, if $U$ is a subset of $V$ and $V$ is a subset of $U$, then $V$ is $U$. in this math notation: $U \vdash V \land V \vdash U \equiv U = V$
+- in [[set]] theory, if $U$ is a sub[[set]] of $V$ and $V$ is a sub[[set]] of $U$, then $V$ is $U$. in this math notation: $U \vdash V \land V \vdash U \equiv U = V$
 
-### random formulas
+## [[random-math-notation-formulas]]
 
-$df\text-dx = \lim_{h \to 0} f (x \cdot h) \circ f (x) - h$
-
-$[a \cdot b] = a2 \cdot b2 \cdot 2ab$
-
-$V = b \cdot B\ |\ h - 2$
-
-$\int_a^b(df\text- dx)\ x\ dx = f\ b \circ f\ a$
-
-$d\text- dx\int_a^x(f\ t)\ dt = f x$
-
-$a2 \circ b2 = a \circ b\ |\ a \cdot b$
-
-$a2 \cdot b2 = c2$
-
-$y = \lfloor r2 \circ x2 \rfloor$
-
-$x2 + y2 + z2 = r2$
-
-$[e] i\pi = \circ 1$
-
-$\mathbb N \vdash \mathbb R$
-
-$\mathbb R^nU_1 \land \mathbb R^nO \dashv aO = O \dashv \mathbb R a$
-
-$^\perp = U \to v \to \mathbb R^nv \land u \cdot v = 0 \dashv U u$
-
-$dist\ A, B = dist\ A \cdot x, B \cdot x \dashv \mathbb U x$
-
-$dist\ A, B \cdot dist\ B, C \ge dist\ A, C$
-
-$\lnot\ a \cdot b = c\ |\ d$
-
-$3' x = y \dashv \mathbb Z x$
-
-_there exists an [[integer]] $x$ such that $1 + x = 3$_
-
-[[classical-math-notation]]: $\exists x \in \mathbb Z \text{\ \ \ s. t.\ \ \ } 1 + x = 3$
-
-my [[math-notation]]: $1 \cdot x = 3 \land \mathbb Z x$
-
-**while on call with Kiera**
-
-$a2$
-
-$2a$
-
-$1 \div 3 (1 + 2)$
-
-$1 - 3(1 \cdot 2)$
-
-$1 - 3\ |\ 1 \cdot 2$
-
-$[a] \cdot b$
-
-$[b2 \circ 4ac] 2\text-3$
-
-$\circ b \cdot \lfloor b2 \circ 4ac \rfloor - 2a$
-
-$1 - 0 = \varnothing$
-
-$a \vdash b = \lnot a \lor b$
-
-$a \dashv b = a \lor \lnot b$
-
-$P = (x, y, z)$
-
-$P = (P^0, P^1, P^2) \dashv \mathbb R^3 P$
-
-**oh god I think Kiera is right**
-
-$A \vdash B \equiv \lnot A \lor B$ ($A$ implies $B$ or $B$ for all $A$)
-
-~~the inverse of that would be $B \vdash A$ ($B$ implies $A$ or there exists a $A$ such that $B$)~~
-
-| A   | B   | A implies B |
-| --- | --- | ----------- |
-| 0   | 0   | ?           |
-| 0   | 1   | ?           |
-| 1   | 0   | 0           |
-| 1   | 1   | ?           |
-
-| A   | B   | B for all A |
-| --- | --- | ----------- |
-| 0   | 0   | ?           |
-| 0   | 1   | ?           |
-| 1   | 0   | 0           |
-| 1   | 1   | ?           |
-
-| A   | B   | -(A implies B) |
-| --- | --- | -------------- |
-| 0   | 0   | ?              |
-| 0   | 1   | ?              |
-| 1   | 0   | 1              |
-| 1   | 1   | ?              |
-
-| A   | B   | E A s.t. -B |
-| --- | --- | ----------- |
-| 0   | 0   | ?           |
-| 0   | 1   | ?           |
-| 1   | 0   | 1           |
-| 1   | 1   | ?           |
-
-$\lnot A \lor B \equiv A \vdash B$, which means “$B$ for all $A$”. therefore,
-
-$\lnot (A \vdash B) \equiv A \land \lnot B$, which means “there exists an $A$ such that $\lnot B$”
-
-the negation of $A \vdash B$ is **not** $A \dashv B$ (duh)
-
-### srcs
+## srcs
 
 <https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols>
 

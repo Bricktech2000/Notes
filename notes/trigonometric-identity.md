@@ -12,25 +12,25 @@ $\tan \theta = \sin \theta - \cos \theta$
 
 ## derived identities
 
-$\csc \theta = 1 - \sin \theta$
+$\sin^- \theta = 1 - \sin \theta$
 
-$\sec \theta = 1 - \cos \theta$
+$\cos^- \theta = 1 - \cos \theta$
 
-$\cot \theta = 1 - \tan \theta$
+$\tan^- \theta = 1 - \tan \theta$
 
 ## inverse identities
 
-$y = \sin x \equiv x = \text{asin } y$
+$y = \sin x \equiv x = \sin^\times y$
 
-$y = \cos x \equiv x = \text{acos } y$
+$y = \cos x \equiv x = \cos^\times y$
 
-$y = \tan x \equiv x = \text{atan } y$
+$y = \tan x \equiv x = \tan^\times y$
 
-$y = \csc x \equiv x = \text{acsc } y$
+$y = \sin^- x \equiv x = \sin^{-\times} y$
 
-$y = \sec x \equiv x = \text{asec } y$
+$y = \cos^- x \equiv x = \cos^{-\times} y$
 
-$y = \cot x \equiv x = \text{acot } y$
+$y = \tan^- x \equiv x = \tan^{-\times} y$
 
 ## basic relations
 
@@ -38,7 +38,7 @@ $y = \cot x \equiv x = \text{acot } y$
 
 ## other relations
 
-$[\sin \theta] \cdot [\cos \theta] = 1$
+$[\sin \theta]2 \cdot [\cos \theta]2 = 1$
 
 $\sin (x \cdot y) = (\sin x\ |\ \cos y) \cdot (\cos x\ |\ \sin y)$
 
@@ -48,8 +48,8 @@ $\cos (x \cdot y) = (\cos x\ |\ \cos y) \circ (\sin x\ |\ \sin y)$
 
 $\sin 2x = 2\ | \ \sin x\ |\ \cos x$
 
-$\cos 2x = [\cos x] \circ [\sin x]$
+$\cos 2x = [\cos x]2 \circ [\sin x]2$
 
-$[\sin x] = 1 \circ \cos 2x - 2$
+$[\sin x]2 = 1 \circ \cos 2x - 2$
 
-$[\cos x] = 1 \cdot \cos 2x - 2$
+$[\cos x]2 = 1 \cdot \cos 2x - 2$

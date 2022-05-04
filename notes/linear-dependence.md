@@ -18,20 +18,20 @@ to check for [[linear-dependence]], one can use a homogeneous [[linear-system]] 
 
 ## properties
 
-any superset of a [[linearly-dependent]] set is also [[linearly-dependent]]
+any super[[set]] of a [[linearly-dependent]] [[set]] is also [[linearly-dependent]]
 
-any subset of a [[linearly-independent]] is also [[linearly-independent]]
+any sub[[set]] of a [[linearly-independent]] is also [[linearly-independent]]
 
-any set containing the $O$ [[vector]] is [[linearly-dependent]]
+any [[set]] containing the $O$ [[vector]] is [[linearly-dependent]]
 
 > **theorem**: a set of [[vector]]s is [[linearly-dependent]] if and only if at least one of its [[vector]]s can be represented as a [[linear-combination]] of the others
 
-> **theorem**: $W = span\{v_0, v_1 \dots v_m\} \land v_0\ [in]\ span\{v_1 \dots v_m\} \vdash W = span\{v_1 \dots v_m\}$ [[think]], see [[span]]
+> **theorem**: $W = \text{span } v_0, v_1 \dots v_m \land (\text{span } v_1 \dots v_m)\ v_0 \vdash W = \text{span } v_1 \dots v_m$ see [[span]]
 
-> **theorem**: if a [[vector-space]] $V$ can be spanned by $n$ [[vector]]s, then any [[linearly-independent]] set in $V$ has at most $n$ [[vector]]s
+> **theorem**: if a [[vector-space]] $V$ can be spanned by $n$ [[vector]]s, then any [[linearly-independent]] [[set]] in $V$ has at most $n$ [[vector]]s
 
-> **theorem**: if a [[vector-space]] $V$ has a subset of $m$ [[linearly-independent]] [[vector]]s, then any spanning set has at least $m$ [[vector]]s
+> **theorem**: if a [[vector-space]] $V$ has a sub[[set]] of $m$ [[linearly-independent]] [[vector]]s, then any [[span]]ning [[set]] has at least $m$ [[vector]]s
 
-> **theorem**: any [[linearly-independent]] set in a [[vector-space]] is smaller than or equal in length to a [[span]]ing set of the [[vector-space]]
+> **theorem**: any [[linearly-independent]] set in a [[vector-space]] is smaller than or equal in length to a [[span]]ing [[set]] of the [[vector-space]]
 
-> **theorem**: size of any [[linearly-independent]] set in $V$ $\le$ $\dim V$ $\le$ size of any [[span]]ning set in $V$
+> **theorem**: size of any [[linearly-independent]] [[set]] in $V$ $\le$ $\dim V$ $\le$ size of any [[span]]ning [[set]] in $V$

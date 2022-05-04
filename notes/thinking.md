@@ -1,5 +1,7 @@
 # 🆃🅷🅸🅽🅺🅸🅽🅶
 
+[[random-thoughts]]
+
 [[math-notation]]
 
 [[new-ui-for-enrolling-to-classes]]
@@ -31,8 +33,6 @@
 [[nested-conversation-structure]]
 
 [[region-size-formula]]
-
-[[esoteric-programming-language-idea]]
 
 [[russels-paradox]]
 

@@ -2,13 +2,13 @@
 
 ## examples
 
-- the set of [[real-number]]s
-- the set of [[complex-number]]s
-- the set of integers modulo a prime number
+- the [[set]] of [[real-number]]s
+- the [[set]] of [[complex-number]]s
+- the [[set]] of integers modulo a prime number
 
 ## definition
 
-a set of numbers with certain properties and two operations defined: addition and multiplication
+a [[set]] of numbers with certain properties and two operations defined: addition and multiplication
 
 ### [[axiom]]s
 
@@ -36,6 +36,6 @@ $a(b \cdot c) = ab \cdot ac$ &mdash; distributivity of multiplication over addit
 
 ## applications
 
-fields are use as _scalars_ in linear algebra
+[[number-field]]s are use as _scalars_ in linear algebra
 
 > **note**: in [[mat1341-d-introduction-to-linear-algebra]], the field of [[real-number]]s was used for all computations. the field of [[complex-number]]s could've also been used instead

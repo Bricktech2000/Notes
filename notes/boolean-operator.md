@@ -1,4 +1,4 @@
-# Boolean Operation
+# Boolean Operator
 
 ## AND (Conjunction)
 

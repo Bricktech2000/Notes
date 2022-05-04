@@ -6,7 +6,7 @@ see [[row-reduction]], [[math-notation]], [[matrix]]
 
 ### definitions
 
-> the **general solution** is the set of all solutions to a system
+> the **general solution** is the [[set]] of all solutions to a system
 
 > an **Inconsistent System** has no solutions
 

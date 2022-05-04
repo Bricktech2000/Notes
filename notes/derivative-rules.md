@@ -80,26 +80,10 @@ $d\text-dx\ \sin x = \cos x$
 
 $d\text-dx\ \cos x = \circ \sin x$
 
-$d\text-dx\ \tan x = [\sec x]2$
+$d\text-dx\ \tan x = [\cos^- x]2$
 
-$d\text-dx\ \csc x = \circ \csc\ x\ |\ \cot\ x$
+$d\text-dx\ \sin^- x = \circ \sin^- x\ |\ \tan^- x$
 
-$d\text-dx\ \sec x = \sec\ x\ |\ \tan\ x$
+$d\text-dx\ \cos^- x = \cos^-\ x\ |\ \tan x$
 
-$d\text-dx\ \cot x = \circ [\csc x]2$
-
-## special limits
-
-[[todo]]
-
-let $\theta$ be an angle in radians
-
-$\lim_{\theta \to 0} \sin \theta - \theta = 1$
-
-$\lim_{\theta \to 0} \cos\ (\theta \circ 1) - \theta = 0$
-
-### intuitive shortcuts derived
-
-$\lim_{\theta \to 0} \sin \theta = \theta$, or
-
-$\sin \theta \approx \theta$ when $\theta$ is near $0$
+$d\text-dx\ \tan^- x = \circ [\sin^- x]2$

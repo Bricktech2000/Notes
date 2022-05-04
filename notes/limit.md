@@ -29,3 +29,17 @@ for an $\infty - \infty$ indeterminate form (see [[rational-function]]):
 for the addition or subtraction of fractions, try to use a common denominator
 
 for subtraction of square roots, try to multiply by the conjugate
+
+## special limits
+
+let $\theta$ be an angle in radians
+
+$\lim_{\theta \to 0} \sin \theta - \theta = 1$
+
+$\lim_{\theta \to 0} \cos\ (\theta \circ 1) - \theta = 0$
+
+### intuitive shortcuts derived
+
+$\lim_{\theta \to 0} \sin \theta = \theta$, or
+
+$\sin \theta \approx \theta$ when $\theta$ is near $0$

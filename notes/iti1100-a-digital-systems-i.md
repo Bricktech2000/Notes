@@ -51,7 +51,7 @@ Publisher: Pearson-Prentice Hall
 
 [[complement]]
 
-[[boolean-algebra]], [[boolean-variable]]s, [[boolean-operation]]s, [[boolean-function]]s, [[boolean-expression]]
+[[boolean-algebra]], [[boolean-variable]]s, [[boolean-operator]]s, [[boolean-function]]s, [[boolean-expression]]
 
 [[latch]], [[flip-flop]]
 

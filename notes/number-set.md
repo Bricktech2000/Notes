@@ -2,7 +2,7 @@
 
 _sets of numbers_
 
-## common number sets
+## common number [[set]]s
 
 [[natural-number]]
 

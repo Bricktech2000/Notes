@@ -1,27 +1,27 @@
 # Dot Product
 
-see [[classical-math-notation]]
+see [[math-notation]]
 
-the dot product is defined for any [[vector-in-rn]]
+the [[dot-product]] is defined for any [[vector-in-rn]]
 
 ### definition
 
-$a \cdot b = \sum_{i = 1}^{n}a_ib_i$
+$a\ |'\ b = a^0b^0 \cdot \dots a^nb^n$
 
-$a \cdot b = |a||b|\cos \theta$, where
+$a\ |'\ b = |a||b|\cos \theta$, where
 
 $\theta$ is the angle between $a$ and $b$
 
-_If vectors are identified with row matrices, the dot product can also be written as a [[matrix]] Product_ &mdash; Wikipedia
-
-$a \cdot b = ab^\intercal$
+> **note**: if vectors are identified with row [[matrix]]es, the [[dot-product]] can also be written as a [[matrix]] product\_ &mdash; Wikipedia
+>
+> $a\ |'\ b = ab^\intercal$
 
 ### examples
 
-$[3, 2, -1] \cdot [4, -6, 3] = 3 \times 4 + 2 \times -6 + -1 \times 3 = -3$
+$[3, 2, \circ 1]\ |'\ [4, \circ6, 3] = 3 ' 4 \cdot 2 ' \circ 6 \cdot \circ 1 ' 3 = \circ3$
 
-$\begin{bmatrix} 3 & 2 & -1\end{bmatrix} \cdot \begin{bmatrix} 4 & -6 & 3\end{bmatrix} = \begin{bmatrix} 3 & 2 & -1\end{bmatrix} \begin{bmatrix} 4 \\\  -6 \\\  3\end{bmatrix} = -3$
+$\begin{bmatrix} 3 & 2 & \circ1\end{bmatrix}\ |'\ \begin{bmatrix} 4 & \circ6 & 3\end{bmatrix} = \begin{bmatrix} 3 & 2 & \circ1\end{bmatrix} \begin{bmatrix} 4 \\\  \circ6 \\\  3\end{bmatrix} = \circ3$
 
 ### properties
 
-the properties of dot products are the same as the properties of multiplication
+the properties of [[dot-product]]s are the same as the properties of multiplication

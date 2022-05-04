@@ -36,7 +36,7 @@ see [[dot-product]], [[vector-in-rn]]
 
 $AB \ne \varnothing \equiv \mathbb M^{m, n}A \land \mathbb M^{n, p}B \land \mathbb N n \vdash \mathbb M^{m, p}AB$ ($AB$ is defined if the number of columns in $A$ is equal to the number of rows in $B$. their product will be an $m ' p$ [[matrix]])
 
-$(AB)^{i, j} = A^{i, }\ |\ B^{, j} \dashv \mathbb N i \land \mathbb N j$, see [[dot-product]] (the $|$ here is a vector [[dot-product]], [[think]])
+$(AB)^{i, j} = A^{i, }\ |'\ B^{, j} \dashv \mathbb N i \land \mathbb N j$, see [[dot-product]]
 
 ### notation
 
@@ -48,11 +48,11 @@ $AA \dots A = [A] n \land \mathbb N n \dashv \mathbb M A$
 
 ### properties
 
-$AB = BA \dashv \mathbb M A \land \mathbb M B \equiv \bot$ or $AB \ne BA \land \mathbb M A \land \mathbb M B$ &mdash; not commutative
+$AB = BA \not \dashv \mathbb M A \land \mathbb M B$ or $AB \ne BA \land \mathbb M A \land \mathbb M B$ &mdash; not commutative
 
-$AB = 0 \vdash A = 0 \lor B = 0 \equiv \bot$ (it can happen that $AB = 0$, but $A \ne 0$ and $B \ne 0$) ($AB$ being equal to $0$ does not imply that $A = 0$ or that $B = 0$)
+$AB = 0 \not \vdash A = 0 \lor B = 0$ (it can happen that $AB = 0$, but $A \ne 0$ and $B \ne 0$) ($AB$ being equal to $0$ does not imply that $A = 0$ or that $B = 0$)
 
-$AC = BC \land C \ne 0 \vdash A = B \equiv \bot$ ($AC = BC$ and $C \ne 0$ does not imply that $A = B$)
+$AC = BC \land C \ne 0 \not \vdash A = B$ ($AC = BC$ and $C \ne 0$ does not imply that $A = B$)
 
 $(AB)C = A(BC)$ &mdash; associative
 
@@ -104,8 +104,6 @@ $\dots$
 
 ### properties
 
-$A \cdot O = A \land O \cdot A = A \dashv \mathbb M A$
-
 $A_{m, n}O_{n, p} = O_{m, p} \dashv \mathbb M^{n, p} O_{n, p} \land \mathbb M^{m, p} O_{m, p} \land \mathbb M^{m, n} A_{m, n}$
 
 $O_{q, m}A_{m, n} = O_{q, n} \dashv \mathbb M^{q, m} O_{q, m} \land \mathbb M^{q, n} O_{q, n} \land \mathbb M^{m, n} A_{m, n}$
@@ -126,7 +124,7 @@ the Kernel of a [[matrix]] can be calculated using [[row-reduction]]
 
 the Null Space of a [[matrix]] is always a [[vector-space]]
 
-> **theorem**: the [[span]]ning set of $Null\ A$ obtained from applying [[row-reduction]] on the system $Ax = 0$ is a [[basis]] for $Null\ A$
+> **theorem**: the [[span]]ning [[set]] of $Null\ A$ obtained from applying [[row-reduction]] on the system $Ax = 0$ is a [[basis]] for $Null\ A$
 
 > therefore, as $\dim Null\ A = \text{number of free variables in } Ax = 0$, we deduce that $\dim Null\ A \cdot rank\ A = \text{number of columns in } A$
 
@@ -134,11 +132,13 @@ the Null Space of a [[matrix]] is always a [[vector-space]]
 
 _transforming a [[vector-space]] into the null space of a certain [[matrix]]_
 
-let $W = span\{(1, 0, 0, 1), (1, 1, 1, 0), (2, 1, \circ 1, 1)\}$
+let $W = \text{span } (1, 0, 0, 1), (1, 1, 1, 0), (2, 1, \circ 1, 1)$
 
 after solving the [[linear-system]], we get $W (x, y, z, w) \equiv \circ x \cdot y \cdot w = 0$. therefore, $W$ is the null space of $A = \begin{bmatrix}\circ 1 & 1 & 0 & 1\end{bmatrix}$
 
 ## Column Space, Row Space
+
+_the [[span]] of the [[set]] of columns or rows of a [[matrix]]_
 
 see [[vector-in-rn-vector-space]]
 
@@ -150,9 +150,9 @@ $Row\ A$
 
 ### definition
 
-$Col\ A = span\{A^{, n}\} \dashv \mathbb N n$
+$Col\ A = \text{span } A^{, n} \dashv \mathbb N n$
 
-$Row\ A = span\{A^{n,}\} \dashv \mathbb N n$
+$Row\ A = \text{span } A^{n,} \dashv \mathbb N n$
 
 ### properties
 
@@ -162,7 +162,7 @@ $Col\ A = Row\ A^\intercal \land Row\ A = Col\ A^\intercal \dashv \mathbb M A$, 
 
 > **theorem**: the nonzero rows in any [[REF]] of a [[matrix]] $A$ forms a [[basis]] for $Row\ A$. therefore, $\dim Row\ A = rank\ A$ (see rank of a [[matrix]])
 
-row spaces can be used to find a [[basis]] for a [[span]]ning set of vectors through [[row-reduction]]
+row spaces can be used to find a [[basis]] for a [[span]]ning [[set]] of vectors through [[row-reduction]]
 
 the basis for the row space of a [[matrix]] can be found by applying [[row-reduction]] and [[span]]ning the **row-reduced columns** in the [[REF]] form of the [[matrix]]
 
@@ -177,6 +177,8 @@ _the Transpose of a [[matrix]]_
 ### definition
 
 _flips a [[matrix]] around its diagonal_
+
+> **note**: the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element
 
 $(A^\intercal)^{i, j} = (A)^{j, i} \dashv \mathbb N i \land \mathbb N j \land \mathbb M A$
 
@@ -196,15 +198,15 @@ _the Inverse of a [[matrix]]_
 
 ### definition
 
-$AA^{-1} = I$, where
+$AA^- = I$, where
 
 $A$ is a (square) [[matrix]]
 
-$A^{-1}$ is the _inverse matrix_ of $A$
+$A^-$ is the _inverse matrix_ of $A$
 
 ### invertability
 
-_an **invertible** [[matrix]] has an inverse_
+_an **invertible** [[matrix]] has a corresponding inverse [[matrix]]_
 
 see theorems below for invertability criteria
 
@@ -230,7 +232,7 @@ if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 
 let $\mathbb M^{n, n} A$
 
-solve the system $AA^{-1} = I$ by extending the [[matrix]] with the identity [[matrix]] and solve the [[linear-system]] up to [[RREF]] using [[row-reduction]]. $\begin{bmatrix}A & | & I\end{bmatrix} \sim \dots \begin{bmatrix}I & | & A^{-1}\end{bmatrix}$
+solve the system $AA^- = I$ by extending the [[matrix]] with the identity [[matrix]] and solve the [[linear-system]] up to [[RREF]] using [[row-reduction]]. $\begin{bmatrix}A & | & I\end{bmatrix} \sim \dots \begin{bmatrix}I & | & A^-\end{bmatrix}$
 
 ### shortcut with [[matrix]]es in $\mathbb M^{2, 2}$
 
@@ -240,13 +242,13 @@ let $A = \begin{bmatrix}a & b \\\  c & d\end{bmatrix}$
 
 $A$ is invertible if and only if $|A| \ne 0$
 
-$A^{\circ 1} = 1\text-|A| \begin{bmatrix}d & \circ b \\\  \circ c & a\end{bmatrix}$
+$A^- = 1 - |A|\ |\ \begin{bmatrix}d & \circ b \\\  \circ c & a\end{bmatrix}$
 
 ### example usage
 
 let $A = \begin{bmatrix}1 & 1 \\\  2 & 3\end{bmatrix}$
 
-then, calculate $B$ such that $B \equiv A^{\circ 1}$
+then, calculate $B$ such that $B \equiv A^-$
 
 this can be used to solve a system such as:
 
@@ -260,7 +262,7 @@ $Ix = x = B \begin{bmatrix}\circ 1 \\\ 1\end{bmatrix}$
 
 a [[matrix]] is _triangular_ if every entry below its diagonal or above its diagonal is $0$
 
-the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element
+> **note**: the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element
 
 ## Theorems
 

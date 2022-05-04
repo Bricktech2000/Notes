@@ -16,17 +16,17 @@ $z = |z| \cos \theta \cdot |z| i \sin \theta = |z| [e]i\theta$, see [[e]]
 
 ## definition
 
-the set of [[complex-number]]s $\mathbb C$ is defined as follows:
+the [[set]] of [[complex-number]]s $\mathbb C$ is defined as follows:
 
 $\mathbb C x \equiv x = a \cdot bi \land \mathbb R a \land \mathbb R b$, where $i$ is an [[imaginary-number]]
-
-let $z = a \cdot bi$. then, $Re\ z = a \equiv z^{re} = a$ (the _real part_ of $z$) and $Im\ z = b \equiv z^{im} = b$ (the _imaginary part_ of $z$)
 
 ## properties
 
 $a \cdot bi = c \cdot di \equiv a = c \land b = d$ &mdash; equality
 
 $(a \cdot bi) \cdot (c \cdot di) = (a \cdot c) \cdot (b \cdot d)i$ &mdash; addition
+
+$(a \cdot bi) \circ (c \cdot di) = (a \circ c) \cdot (b \circ d)i$ &mdash; subtraction
 
 $a \cdot bi\ |\ c \cdot di = ac \cdot adi \cdot bic \cdot bdi2 = (ac \circ bd) \cdot (ad \cdot bc)i$ &mdash; multiplication
 
@@ -35,6 +35,18 @@ $z\ |\ w = |z| [e](i\theta)\ |\ |w| [e](i\phi) = |zw|[e](i\ |\ \theta \cdot \phi
 $\lfloor i \rfloor = \dot \circ\ |\ 1 \cdot i - \lfloor 2 \rfloor$ &mdash; square root of $i$
 
 &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
+
+## Re, Im
+
+### definition
+
+let $z = a \cdot bi$
+
+$Re\ z = z^{re} = a$ &mdash; the _real part_ of $z$
+
+$Im\ z = z^{im} = b$ &mdash; the _imaginary part_ of $z$
+
+therefore, $z = z^{re} \cdot iz^{im}$
 
 ## Complex Conjugate
 

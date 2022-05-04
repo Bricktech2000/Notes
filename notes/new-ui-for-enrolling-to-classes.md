@@ -14,3 +14,5 @@ reverse engineer API
 ## result
 
 turns out this is already a thing: <https://uschedule.me/>
+
+great when combined with my "Rate My Prof Extension"

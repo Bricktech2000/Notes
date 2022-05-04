@@ -6,7 +6,7 @@ see [[improvability-theory]], [[zero-knowledge-proof]]
 
 ## Conditionals
 
-see [[boolean-algebra]], [[boolean-operation]]s, [[math-notation]], [[boolean-expression]]
+see [[boolean-algebra]], [[boolean-operator]]s, [[math-notation]], [[boolean-expression]]
 
 to prove a conditional statement such as $x \vdash y$:
 
