@@ -6,39 +6,41 @@ math notation [[todo]]
 
 ## definition
 
-$\frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$
+[[classical-math-notation]]: $\frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$
+
+my [[math-notation]]: $\delta f\ x - \delta x = \lim_{h \to 0} f (x \cdot h) \circ f\ x - h = \lim_{x \to a} f\ x \circ f\ a - x \circ a$
 
 ## notations
 
-### `'` notation
+### Lagrange's notation
 
-first derivative: $f'(x)$
+see [[classical-math-notation]]
 
-second derivative: $f''(x)$
+$f'(x)$, $f''(x)$, $f'''(x)$
 
-third derivative: $f'''(x) = f^{(3)}(x)$
-
-nth derivative: $f^{(n)}(x)$
+$f^{(n)}(x)$
 
 ### Leibniz's Notation
 
-first derivative: $\frac{d}{dx}f(x) = \frac{df}{dx}$
+see [[classical-math-notation]]
 
-nth derivative: $\frac{d^n}{dx^n} = \frac{d^nf}{dx^n}$
+$\frac{d}{dx}f(x) = \frac{df}{dx}$
+
+$\frac{d^n}{dx^n} = \frac{d^nf}{dx^n}$
 
 ### in my [[math-notation]]
 
+see [[calculus-notation]]
+
 [[todo]] [[think]]
 
-first derivative: $d\text-dx\ f\ x$
+$\delta f\ x - \delta x$
 
-second derivative: $d2\text-dx2\ f\ x$
+figure out $n$ th derivative notation
 
-third derivative: $d3\text-dx3\ f\ x$
+replace all d with \delta and new notation
 
-nth derivative: $[d]n\text-[dx]2\ f\ x$ [[think]]
-
-[[todo]]
+$\delta (\delta f - \delta x) - \delta x$
 
 ## [[derivative-rules]]
 
@@ -48,7 +50,7 @@ to differentiate a [[function]], apply [[derivative-rules]] recursively
 
 ### differentiability
 
-> a [[function]] $f$ is differentiable at $a$ if $d\text-dx\ f\ a$ exists
+> a [[function]] $f$ is differentiable at $a$ if $\delta f\ a - \delta x$ exists
 
 ## Logarithmic Differentiation
 
@@ -68,8 +70,14 @@ _differentiating the logarithm of a [[function]] instead of the [[function]] its
 
 $x2 \cdot y2 = 2$
 
-$d\text-dx\ |\ x2 \cdot y2 = d\text-dx\ |\ 2$
+$\delta\ (x2 \cdot y2) - \delta x = \delta 2 - \delta x$
 
-$2x \cdot 2y'dy \text- dx = 0$
+$2x \cdot 2y(\delta y - \delta x) = 0$
 
-$dy \text- dx = \circ x \text- y$
+$\delta y - \delta x = \circ x \text- y$
+
+## Partial Differentiation
+
+[[todo]]
+
+<https://en.wikipedia.org/wiki/Partial_derivative>

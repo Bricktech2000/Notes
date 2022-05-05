@@ -8,11 +8,15 @@ see [[inflection-point]], [[math-notation]]
 
 the extrema of a function $f$ are defined as follows:
 
-$d\text-dx\ f\ x = 0$
+$\delta\ f\ x - \delta x = 0$, where
+
+$x$ are the $x$ coordinates of the extrema of $f$
 
 ## Second Derivative Test
 
 _verifies whether an extremum is a maximum or a minimum_
 
-- the point is a minimum if $d2\text-dx2\ f\ x > 0$
-- the point is a maximum if $d2\text-dx2\ f\ x < 0$
+see [[calculus-notation]]
+
+- the point is a minimum if $\delta\ (\delta f\ x - \delta x) - \delta x > 0$
+- the point is a maximum if $\delta\ (\delta f\ x - \delta x) - \delta x < 0$

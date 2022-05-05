@@ -1,6 +1,6 @@
 # Linear System Theorem Proof
 
-see backlink
+[[example]], see backlink
 
 - $1 \to 2$
 

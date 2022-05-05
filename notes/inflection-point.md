@@ -8,7 +8,11 @@ see [[extremum]], [[math-notation]]
 
 the inflection points of a function $f$ are defined as follows:
 
-$d2\text-dx2\ f\ x = 0$
+see [[calculus-notation]]
+
+$\delta\ (\delta f\ x - \delta x) - \delta x = 0$, where
+
+$x$ are the $x$ coordinates of the inflection point of $f$
 
 ## properties
 

@@ -4,9 +4,11 @@ see [[math-notation]]
 
 ## definition
 
-$f\ x$ is _concave up_ if $f''\ x < 0$, it _bends upwards_
+see [[extremum]], [[calculus-notation]]
 
-$f\ x$ is _concave down_ if $f''\ x > 0$, it _bends downwards_
+$f\ x$ is _concave up_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x < 0$, it _bends upwards_
+
+$f\ x$ is _concave down_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x > 0$, it _bends downwards_
 
 ## properties
 

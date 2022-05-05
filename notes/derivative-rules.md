@@ -4,67 +4,61 @@ see [[derivative]] notation, [[math-notation]]
 
 ## Power Rule
 
-$d\text-dx\ [x]n = n[x](n \circ 1)$
+$\delta\ [x]n - \delta x= n[x](n \circ 1)$
 
 ### derived shortcuts
 
-$d\text-dx\ c = 0$
+$\delta\ c - \delta x= 0$
 
-$d\text-dx\ x = 1$
+$\delta\ x - \delta x = 1$
 
 ## Exponential Rule
 
-$d\text-dx\ [a]x = [a]x\ |\ \lceil a \rceil$
+$\delta\ [a]x - \delta x = [a]x\ |\ \lceil a \rceil$
 
 ### derived shortcuts
 
-$d\text-dx\ [e]x = [e]x$
+$\delta\ [e]x - \delta x = [e]x$
 
 ## Logarithm Rule
 
-$d\text-dx\ \lceil x \rceil b = - x\lceil b \rceil$
+$\delta\ \lceil x \rceil b - \delta x = - x\lceil b \rceil$
 
 ### derived shortcuts
 
-$d\text-dx\ \lceil x \rceil = -x$
+$\delta\ \lceil x \rceil - \delta x = -x$
 
 ## Constant Multiple Rule
 
 if $c$ is a [[real-number]] and $f$ is [[derivative|differentiable]], then
 
-$d\text-dx\ (cf\ x) = c\ |\ d\text-dx\ f\ x$
+$\delta\ (cf\ x) - \delta x = c (\delta f\ x - \delta x)$
 
 ## Sum Rule
 
-$d\text-dx\ (f\ x \cdot g\ x) = d\text-dx\ f\ x \cdot d\text-dx\ g\ x$
+$\delta\ (f\ x \cdot g\ x) - \delta x = \delta\ f\ x \text- \delta x \cdot \delta\ g\ x \text- \delta x$
 
 ## Difference Rule
 
-$d\text-dx\ (f\ x \circ g\ x) = d\text-dx\ f\ x \circ d\text-dx\ g\ x$
+$\delta\ (f\ x \circ g\ x) - \delta x = \delta\ f\ x \text- \delta x \circ \delta\ g\ x \text- \delta x$
 
 ## Product Rule
 
-$d\text-dx\ (f\ x\ |\ g\ x) = (f\ x\ |\ d\text-dx\ g\ x) \cdot (g\ x\ |\ d\text-dx\ f\ x)$
+$\delta\ (f\ x\ |\ g\ x) - \delta x = (f\ x\ |\ \delta\ g\ x - \delta x) \cdot (g\ x\ |\ \delta\ f\ x - \delta x)$
 
 ## Quotient Rule
 
 > chant to remember the quotient rule: lo d-hi, minus hi d-lo, over lo-lo
 
-$d\text-dx\ (f\ x - g\ x) = g\ x\ '\ d\text-dx\ f\ x \circ f\ x\ '\ d\text-dx\ g\ x - [g\ x]2$
+$\delta\ (f\ x - g\ x) - \delta x = (g\ x\ |\ \delta\ f\ x - \delta x) \circ (f\ x\ |\ \delta\ g\ x - \delta x) - [g\ x]2$
 
 ### derived Reciprocal Rule
 
-$d\text-dx\ (-f\ x) = \circ d\text-dx\ f\ x - [f\ x]2$
+$\delta\ (-f\ x) \delta x = \circ \delta\ f\ x - \delta x - [f\ x]2$
 
 ## Chain Rule
 
-derivative notation [[think]]
-
-$\frac{d}{dx}[f(g(x))] = \frac{d}{dx}f(g(x)) \times \frac{d}{dx}g(x)$
-
-$f(g(x))' = f'(g(x)) \times g'(x)$
-
-$d\text-dx\ (f\ g\ x) = (d\text-dx\ f)\ g\ x\ |\ d\text-dx\ g\ x$
+$\delta\ (f\ g\ x) - \delta x = (\delta\ f\ x - \delta x)\ g\ x\ |\ \delta\ g\ x - \delta x$
 
 ## Squeeze Theorem
 
@@ -76,14 +70,14 @@ if $\lim_{x \to a} f\ x = \lim_{x \to a} h\ x = L$, then $\lim_{x \to a} g\ x = 
 
 see [[trigonometric-identity]]es
 
-$d\text-dx\ \sin x = \cos x$
+$\delta\ \sin x - \delta x = \cos x$
 
-$d\text-dx\ \cos x = \circ \sin x$
+$\delta\ \cos x - \delta x = \circ \sin x$
 
-$d\text-dx\ \tan x = [\cos^- x]2$
+$\delta\ \tan x - \delta x = [\cos^- x]2$
 
-$d\text-dx\ \sin^- x = \circ \sin^- x\ |\ \tan^- x$
+$\delta\ \sin^- x - \delta x = \circ \sin^- x\ |\ \tan^- x$
 
-$d\text-dx\ \cos^- x = \cos^-\ x\ |\ \tan x$
+$\delta\ \cos^- x - \delta x = \cos^-\ x\ |\ \tan x$
 
-$d\text-dx\ \tan^- x = \circ [\sin^- x]2$
+$\delta\ \tan^- x - \delta x = \circ [\sin^- x]2$

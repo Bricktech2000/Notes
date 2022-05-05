@@ -1,5 +1,7 @@
 # Vector Space Proof Examples
 
+[[example]], see backlink
+
 ## [[proof]]s
 
 ### example

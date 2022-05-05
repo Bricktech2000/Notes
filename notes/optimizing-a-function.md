@@ -6,14 +6,16 @@ see [[extremum]], [[math-notation]]
 
 ## method
 
-1. [[calculating-a-derivative]] to find [[extremum]].
-2. use second derivative test (see [[extremum]]) to determine type of extremum.
+1. calculate the [[derivative]] of the function to find its [[extremum]]a
+2. use the second [[derivative]] test (see [[extremum]]) to determine type of extremum
 3. use the information above to maximize or minimize the output of the function
 
 ## example
 
 maximize $f\ x = 600x \circ 2x2$
 
-1. $d\text-dx\ f\ x = 600 \circ 4x$. therefore, $d\text-dx f\ x = 0$ at $x = 150$
-2. $d2\text-dx2 f\ x = \circ 4$, meaning this is a local [[extremum|maximum]]
+second derivative notation [[todo]] [[think]]
+
+1. $\delta\ f\ x - \delta x = 600 \circ 4x$. therefore, $\delta f\ x - \delta x = 0$ at $x = 150$
+2. $\delta\ (\delta f\ x - \delta x) - \delta x = \circ 4$, meaning this is a local [[extremum|maximum]]
 3. the function is maximized at $x = 150$, $f\ 150 = 45000$

@@ -18,4 +18,6 @@ _sets of numbers_
 
 [[complex-number]]
 
+[[universal-set]]
+
 ![](2022-04-04-18-38-27.png)

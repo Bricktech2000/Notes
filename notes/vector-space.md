@@ -54,7 +54,7 @@ $\dim V = 2$ where $V$ is a [[plane-in-r3]]
 
 $\dim V = 1$ where $V$ is a [[line-in-r3]] or in $\mathbb R^2$
 
-$\dim \text{span } 0 = 0$ ([[think]], see [[span]])
+$\dim \text{span } O = 0$ (see [[span]], zero [[vector]])
 
 ## Describing Vector Spaces
 

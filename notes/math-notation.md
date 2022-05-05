@@ -102,6 +102,14 @@ $\sin^\times = \text{asin } \land \cos^\times = \text{acos } \land \tan^\times =
 
 $\sin^- = 1 - \sin \land \cos^- = 1 - \cos \land \tan^- = 1 - \tan$
 
+### [[calculus-notation]]
+
+$\delta y - \delta x$ is the derivative of $y$ with respect to $x$
+
+$\int y\ |\ \delta x$ is the integral of $y$ with respect to $x$
+
+> **note**: $\delta$ (greek letter _delta_) should be used instead of $d$ (latin letter _d_)
+
 ### other
 
 $\varnothing$ is _undefined_
@@ -110,17 +118,20 @@ $\varnothing$ is _undefined_
 
 _high to low_
 
-$(()[]\lfloor\rfloor\lceil\rceil)('\text-)(\cdot \circ) (|-) (=\ne\gt\ge\lt\le) \lnot \land \lor (\dashv\ \vdash\ \equiv \times)$
+- $() [] \lfloor\rfloor \lceil\rceil$
+- $' \text-$
+- $\delta f$
+- $\cdot \circ$
+- $| -$
+- $\int \lim$
+- $=\ne\gt\ge\lt\le$
+- $\lnot$
+- $\land$
+- $\lor$
+- $\dashv\ \vdash$
+- $\equiv \times$
 
-## associativity
-
-[[todo]]
-
-## distributivity
-
-[[todo]]
-
-composition distributes over implication. this allows for notation such as $\mathbb N \vdash \mathbb R$ [[think]]
+~~composition distributes over implication. this allows for notation such as $\mathbb N \vdash \mathbb R$~~
 
 ## principles
 

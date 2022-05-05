@@ -9,3 +9,5 @@
 [[magic]]
 
 [[think]]
+
+[[example]]

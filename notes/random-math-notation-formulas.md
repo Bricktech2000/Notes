@@ -1,14 +1,16 @@
 # Random Math Notation Formulas
 
-$df\text-dx = \lim_{h \to 0} f (x \cdot h) \circ f (x) - h$
+[[example]]
+
+$\delta f\ x - \delta x = \lim_{h \to 0} f (x \cdot h) \circ f (x) - h$
 
 $[a \cdot b] = a2 \cdot b2 \cdot 2ab$
 
 $V = b \cdot B\ |\ h - 2$
 
-$\int_a^b(df\text- dx)\ x\ dx = f\ b \circ f\ a$
+$\int_a^b (\delta f\ x - \delta x)\ x\ |\ dx = f\ b \circ f\ a$
 
-$d\text- dx\int_a^x(f\ t)\ dt = f x$
+$\delta (\int_a^x f\ t\ |\ dt) - dx= f x$
 
 $a2 \circ b2 = a \circ b\ |\ a \cdot b$
 
@@ -26,7 +28,7 @@ $\mathbb R^nU_1 \land \mathbb R^nO \dashv aO = O \dashv \mathbb R a$
 
 $^\perp = U \to v \to \mathbb R^nv \land u \cdot v = 0 \dashv U u$
 
-$dist\ A, B = dist\ A \cdot x, B \cdot x \dashv \mathbb U x$
+$dist\ A, B = dist\ A \cdot x, B \cdot x \dashv \mathbb U x$, see [[universal-set]]
 
 $dist\ A, B \cdot dist\ B, C \ge dist\ A, C$
 
@@ -107,3 +109,7 @@ $\lnot A \lor B \equiv A \vdash B$, which means “$B$ for all $A$”. therefore
 $\lnot (A \vdash B) \equiv A \land \lnot B$, which means “there exists an $A$ such that $\lnot B$”
 
 the negation of $A \vdash B$ is **not** $A \dashv B$ (duh)
+
+quote I suppose
+
+> more brackets means more explicit, but less brackets means less complex and less confusing
