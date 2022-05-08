@@ -4,7 +4,7 @@ _just a terrible programming language_
 
 [[java-is-a-terrible-language]]
 
-[[oop]], [[object]], [[class]]
+[[object-oriented-programming]], [[object]], [[class]]
 
 [[java-hello-world]], [[overriding-java-equals]]
 

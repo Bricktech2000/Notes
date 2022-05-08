@@ -12,7 +12,7 @@
 
 [[soc1101-principles-of-sociology]]
 
-## Year-1-Semester-2
+## Year 1 Semester 2
 
 [[iti1100-a-digital-systems-i]]
 

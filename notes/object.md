@@ -2,8 +2,8 @@
 
 _an instance of a [[class]]_
 
-see [[oop]]
+see [[object-oriented-programming]]
 
-Objects in [[oop]] consist of data [[abstraction]] (properties) and procedural [[abstraction]] (methods)
+Objects in [[object-oriented-programming]] consist of data [[abstraction]] (properties) and procedural [[abstraction]] (methods)
 
 an Object has a state, whereas a [[class]] does not

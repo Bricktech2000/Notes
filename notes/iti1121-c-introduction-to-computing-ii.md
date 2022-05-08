@@ -18,8 +18,6 @@ lab link: <https://msabet.bitbucket.io/iti1121/labs/>
 
 Piazza link: <https://piazza.com/uottawa.ca/winter2022/iti1121bc/home>
 
-[[recollection-vs-recognition]] is very important in this course
-
 ## Grading Scheme
 
 - AST &mdash; 25%
@@ -49,7 +47,7 @@ lab attendance is **not** mandatory, but highly encouraged
 
 ## Class Notes
 
-[[oop]]
+[[object-oriented-programming]]
 
 [[java]]
 

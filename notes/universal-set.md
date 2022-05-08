@@ -1,5 +1,5 @@
 # Universal Set
 
-_the set of all possible [[number-field|numbers]]_
+_the set of all possible mathematical entities_
 
 used for backlinks

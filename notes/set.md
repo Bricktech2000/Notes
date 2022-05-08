@@ -2,4 +2,12 @@
 
 see [[math-notation]]
 
-used for backlinks
+_a set is a collection of elements, each of which must be unique_
+
+## examples
+
+[[number-set]]
+
+[[universal-set]]
+
+[[monoid]]

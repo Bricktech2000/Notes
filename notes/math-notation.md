@@ -140,7 +140,7 @@ _high to low_
 - [[set]]s are [[function]]s that return a boolean ($\mathbb R a$ instead of $a \in \mathbb R$)
 - $\lfloor a \rfloor$ (or $\lfloor a \rfloor 2$) returns both positive and negative square roots ($\lfloor q2 \rfloor \equiv \dot \circ q$)
 - $\lfloor 4 \rfloor = 2$ is valid, but $\lfloor 4 \rfloor \equiv 2$ is invalid
-- ~~functions support currying to take multiple arguments~~
+- ~~functions support [[currying]] to take multiple arguments~~
 
 ## examples
 

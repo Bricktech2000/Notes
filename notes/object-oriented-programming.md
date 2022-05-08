@@ -1,8 +1,6 @@
-# OOP
+# Object-Oriented Programming
 
-_Object-Oriented Programming_
-
-the goal of OOP is to build objects based on their real-world properties, in contrast to functional programming or to procedural programming
+the goal of [[object-oriented-programming]] is to build objects based on their real-world properties, in contrast to [[functional-programming]] or to procedural programming
 
 see [[object]], [[class]]
 

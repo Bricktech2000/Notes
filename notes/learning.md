@@ -29,3 +29,5 @@ an excess of [[motivation]] can lead to [[feeling-overwhelmed]], which can lead 
 [[credit-card]]
 
 [[zero-knowledge-proof]]
+
+[[functional-programming]]

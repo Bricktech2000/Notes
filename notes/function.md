@@ -16,6 +16,8 @@
 
 [[optimizing-a-function]]
 
+[[functional-programming]]
+
 ## operations
 
 see [[function-vector-space]], [[vector-space]]
