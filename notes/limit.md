@@ -2,6 +2,12 @@
 
 see [[math-notation]], [[limit-rules]]
 
+## notation
+
+the _limit of $f\ x$ as $x$ approaches $a$ ._ is denoted as follows:
+
+$\lim_{x \to a} f\ x$
+
 ## Computing a Limit
 
 to compute the limit of a [[function]], apply [[limit-rules]] recursively

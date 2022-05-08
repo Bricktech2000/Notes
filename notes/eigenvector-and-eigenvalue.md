@@ -8,9 +8,19 @@ if $Ax = \lambda x$, then $x$ is an [[eigenvector]] of $A$ and $\lambda$ is its 
 
 ## theorems
 
+let $\mathbb M^{n, n} A \land \mathbb N n$
+
 > **theorem**: there are infinitely many [[eigenvector]]s for each [[eigenvalue]]
 
-> **theorem**: all [[eigenvector]]s together with the zero vector form a [[vector-space]]
+> **theorem**: all [[eigenvector]]s together with the zero [[vector]] form a [[vector-space]]
+
+> **theorem**: the [[characteristic-polynomial]] $\det (A \circ \lambda I)$ is a [[polynomial]] of degree $n$, meaning it has at most $n$ distinct roots
+
+> **theorem**: $A$ has at most $n$ distinct [[eigenvalue]]s
+
+> **theorem**: each [[eigenvalue]] of $A$ gives an [[eigenspace]] of dimension greater than $0$
+
+> **theorem**: any [[set]] consisting of [[eigenvector]]s of $A$ corresponding to **distinct [[eigenvalue]]s** is [[linearly-independent]]
 
 ## finding [[eigenvalue]]s
 
@@ -28,9 +38,9 @@ $A \circ \lambda I\ |\ x = O$
 
 the equation above is a homogeneous [[linear-system]] where $A \circ \lambda I$ is the _coefficient matrix_
 
-recall that a homogeneous [[linear-system]] can have either a unique solution (with $x = O$, which is not a valid eigenvector as per the definition) or an infinite number of solutions (which we can achieve by picking the right values for $\lambda$). for a homogeneous [[linear-system]] to have an infinite number of solutions, its coefficient matrix rows (and therefore columns) must be [[linearly-independent]], or the [[determinant]] of its coefficient matrix is equal to $0$, or its coefficient matrix must be invertible, etc. (see [[linear-system]])
+recall that a homogeneous [[linear-system]] can have either a unique solution (with $x = O$, which is not a valid [[eigenvector]] as per the definition) or an infinite number of solutions (which we can achieve by picking the right values for $\lambda$). for a homogeneous [[linear-system]] to have an infinite number of solutions, its coefficient matrix rows (and therefore columns) must be [[linearly-independent]], or the [[determinant]] of its coefficient matrix must be equal to $0$, or its coefficient matrix must be invertible, etc. (see [[matrix]])
 
-$\det (A \circ \lambda I) = 0$ (this polynomial is known as the _characteristic [[polynomial]] of $A$_)
+$\det (A \circ \lambda I) = 0$ (this [[polynomial]] is known as the _[[characteristic-polynomial]] of $A$._)
 
 solving...
 
@@ -38,34 +48,83 @@ _using $A = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix}$ as an example_
 
 $A \circ \lambda I = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \circ \lambda \begin{bmatrix}1 & 0 \\\  0 & 1\end{bmatrix} = \begin{bmatrix}1 \circ \lambda & 2 \\\  2 & 1 \circ \lambda\end{bmatrix}$
 
-$\det (A \circ \lambda I) = 0 = [1 \circ \lambda] \circ 4 = 1 \circ \lambda \cdot 2\ |\ 1 \circ \lambda \circ 2 = 3 \circ \lambda\ |\ \circ 1 \circ \lambda = 0$
+$\det (A \circ \lambda I) = 0 = [1 \circ \lambda]2 \circ 4 = 1 \circ \lambda \cdot 2\ |\ 1 \circ \lambda \circ 2 = 3 \circ \lambda\ |\ \circ 1 \circ \lambda = 0$
 
 $\lambda = 3 \lor \lambda = \circ 1$ are the [[eigenvalue]]s of $A$
 
 ## finding [[eigenvector]]s
 
+as $A \circ \lambda I\ |\ x$, we get the following (see [[matrix]] Kernel):
+
 $E_\lambda = Ker\ (A \circ \lambda I)$, where
 
-$E_\lambda$ is the _eigenspace_ of $A$
+$E_\lambda$ is the _[[eigenspace]]_ of $A$ corresponding to the [[eigenvalue]] $\lambda$ (this [[vector-space]] is called the λ-[[eigenspace]] of $A$)
 
-instead of finding the eigenvectors, we will find a basis for each eigenspace
+the [[eigenvector]]s of $A$ associated with the [[eigenvalue]] $\lambda$ are all the nonzero [[vector]]s in $E_\lambda$. therefore, instead of finding the [[eigenvector]]s corresponding to the known [[eigenvalue]], we will find a basis for the [[eigenspace]]
 
 for $\lambda = 3$:
 
-$A \circ 3I\ |\ x = 0$
+$A \circ 3I\ |\ x = O$ [[todo]]
 
-$A \circ 3I = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \circ \begin{bmatrix}3 & 0 \\\  0 & 3\end{bmatrix} = \begin{bmatrix}\circ 2 & 2 \\\  2 & \circ 2\end{bmatrix}$
+$A \circ 3I\ |\ x = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \circ \begin{bmatrix}3 & 0 \\\  0 & 3\end{bmatrix}\ |\ x = \begin{bmatrix}\circ 2 & 2 \\\  2 & \circ 2\end{bmatrix}\ |\ x = 0$
 
-therefore, we can solve the following using [[row-reduction]]
+therefore, we can solve the following [[linear-system]] using [[row-reduction]]
 
 $\begin{bmatrix}\circ 2 & 2 & | & 0 \\\  2 & \circ 2 & | & 0\end{bmatrix}$
 
 and we get:
 
-$x(1, 1) \dashv \mathbb R x$
+$x = c(1, 1) \dashv \mathbb R c$
 
-[[complete]]
+$\{(1, 1)\}$ is then a [[basis]] for the [[eigenspace]] $E_3$ of $A$
+
+> **note**: the general solution of the homogenous [[linear-system]] will always be a [[basis]] as the resulting [[vector]]s will always be [[linearly-independent]], see [[matrix]] Kernel for more information
+
+for $\lambda = \circ 1$, we get the [[basis]] $\{(1, \circ 1)\}$ for the [[eigenspace]] $E_{\circ 1}$ of $A$
+
+## Multiplicity
+
+see [[multiplicity]]
+
+### definition
+
+> the **algebraic multiplicity** of a root $\lambda$ of the [[characteristic-polynomial]] of $A$ is its [[multiplicity]]
+
+> the **geometric multiplicity** of a root $\lambda$ of the [[characteristic-polynomial]] of $A$ is the dimension of the [[eigenspace]] $E_\lambda$ of $A$ corresponding to the [[eigenvalue]] $\lambda$
+
+### theorems
+
+> **theorem**: let $\lambda$ be an [[eigenvalue]] of $A$. then, $1 \le \text{geometric multiplicity of } \lambda \le \text{algebraic multiplicity of } \lambda$
+
+### example
+
+the [[characteristic-polynomial]] of $\begin{bmatrix}2 & 4 & \circ 3 \\\ 0 & 3 & 5 \\\ 0 & 0 & 3\end{bmatrix}$ is $2 \circ \lambda\ |\ [3 \circ \lambda]2$. its [[eigenvalue]]s are $\lambda = 2$ and $\lambda = 3$. the algebraic [[multiplicity]] (see [[eigenvector-and-eigenvalue]]) of $\lambda = 2$ is $1$ and the algebraic [[multiplicity]] of $\lambda = 3$ is $2$.
+
+[[multiplicity]] can be used to determine whether a [[matrix]] is diagonalizable
 
 ## applications
 
-[[complete]]
+<!-- [[complete]]
+
+let $x = \begin{bmatrix}3 \\\ 7\end{bmatrix} = 5\begin{bmatrix}1 \\\ 1\end{bmatrix} \circ 2 \begin{bmatrix}1 \\\ \circ 1\end{bmatrix}$. note that $\begin{bmatrix}3 \\\ 7\end{bmatrix}$ and $\begin{bmatrix}1 \\\ \circ 1\end{bmatrix}$ are both [[eigenvector]]s of $A$, and $5$ and $2$ are their corresponding [[eigenvalue]]s
+
+[[todo]] 57:23- [[todo]] 1:07:09-
+
+compute $[A]2\ |\ x$ -->
+
+let $\mathbb M^{n, n} A \land \mathbb N n$ be a diagonalizable [[matrix]]
+
+1. construct a matrix $P = \begin{bmatrix}| & | & | \\\ x_0 & x_1 & x_2 \\\ | & | & |\end{bmatrix} = \begin{bmatrix}x_{0_x} & x_{1_x} & x_{2_x} \\\ x_{0_y} & x_{1_y} & x_{2_y} \\\ x_{0_z} & x_{1_z} & x_{2_z}\end{bmatrix}$ whose columns are the $n$ [[linearly-independent]] [[eigenvector]]s $x$ of $A$
+2. construct a matrix $D = \begin{bmatrix}\lambda_0 & 0 & 0 \\\ 0 & \lambda_1 & 0 \\\ 0 & 0 & \lambda _2\end{bmatrix}$ whose diagonal entries are the [[eigenvalue]]s of $A$ and all other entries equal to $0$, in the same order as the columns of $P$
+
+then, $AP = PD$. as the columns of $P$ are [[linearly-independent]], we know $P$ is an invertible [[matrix]]. therefore, $A = PDP^-$ and $P^-AP = D$
+
+> **proof**: the $n$ th column of $AP$ is $AP^{,n} = Ax_n$. since $x_n$ is an [[eigenvector]] of $A$, we use its corresponding [[eigenvalue]] to get $AP^{,n} = Ax_n = \lambda_n x_n$ by definition, see [[eigenvector-and-eigenvalue]]. the $n$ th column of $PD$ is $PD^{, n}$. when multiplying out, we get $PD^{, n} = x_n D^{n, n} = x_n \lambda_n$. as $AP^{,n} = PD^{,n} \dashv \mathbb N n$, we conclude $AP = PD$
+
+now, compute $[A]p \land \mathbb N p$ with $p$ being a very large integer
+
+with $A = PDP^-$, we get $[A]p = [PDP^-]p = P([D]p)P^-$
+
+as $D$ is diagonal, we get $[D]p = \begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [\lambda_1]p & 0 \\\ 0 & 0 & [\lambda_2]p\end{bmatrix}$
+
+computing $[A]p = P\begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [\lambda_1]p & 0 \\\ 0 & 0 & [\lambda_2]p\end{bmatrix}P^-$ is now way less computationally expensive than computing $[A]p$ directly

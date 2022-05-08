@@ -104,15 +104,23 @@ _The scalar projection is equal to the length of the vector projection_ &mdash; 
 
 see [[dot-product]]
 
-$|proj_b\ a| = |a| \cos \theta$, and
+[[vector]] projections are [[linear-transformation]]s. projections can be turned into [[matrix]] multiplication as they are both [[linear-transformation]]s
 
-$proj_b\ a = |a| \cos \theta\ |\ \hat b = a''\hat b\ |\ \hat b = a''b - b''b\ |\ b$ (see [[dot-product]]), where
+### definition
+
+$|proj_b\ a| = |a| \cos \theta$ and $proj_b\ a = |a| \cos \theta\ |\ \hat b = a''\hat b\ |\ \hat b = a''b - b''b\ |\ b$ (see [[dot-product]]), where
 
 $proj_b\ a$ is the _vector projection of $a$ on $b$ ._
 
 $|proj_b\ a|$ is the _scalar projection of $a$ on $b$ ._
 
 $\hat b$ is the unit [[vector]] in the direction of $b$, $b - |b|$
+
+$proj_W\ v = v''w_0 - w_0''w_0 \cdot \dots v''w_n - w_n''w_n$, where
+
+$proj_W\ v$ is the projection of $v$ on the [[vector-space]] $W$
+
+$W = \text{span } w_0 \dots w_n$ and $w_0 \dots w_n$ form an orthogonal [[basis]] for $W$
 
 ### properties
 

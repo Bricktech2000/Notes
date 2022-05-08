@@ -10,17 +10,17 @@
 
 - $2 \to 3$
 
-  $Ax = 0$ is homogeneous $\to$ the system is consistent
+  $Ax = O$ is homogeneous $\to$ the system is consistent
 
   no free variables $\to$ there cannot be infinitely many solutions $\to$ it must have a single solution
 
 - $3 \to 4$
 
-  $Ax = 0$ has a unique solution $\to$ $x = O$ $\to$ $A^{,j}x^j \cdot \dots A^{,j}x^j = 0$ has a unique solution (all coefficients are $0$) $\to$ the columns of $A$ are [[linearly-independent]]
+  $Ax = O$ has a unique solution $\to$ $x = O$ $\to$ $A^{,j}x^j \cdot \dots A^{,j}x^j = O$ has a unique solution (all coefficients are $0$) $\to$ the columns of $A$ are [[linearly-independent]]
 
 - $4 \to 5$
 
-  the columns of $A$ are [[linearly-independent]] $\to$ $Ax = 0$ has a unique solution ($x = O$) $\to$ the [[matrix|null-space]] of $A$ is the [[set]] containing the zero [[vector]]
+  the columns of $A$ are [[linearly-independent]] $\to$ $Ax = O$ has a unique solution ($x = O$) $\to$ the [[matrix|null-space]] of $A$ is the [[set]] containing the zero [[vector]]
 
 - $5 \to 6$
 

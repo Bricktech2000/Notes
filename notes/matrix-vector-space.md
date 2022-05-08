@@ -12,7 +12,7 @@ $M_{m\ n}(\mathbb R)$ in [[classical-math-notation]]
 
 ## definition
 
-[[complete]]
+$\mathbb M^{m, n} x = $
 
 ## [[axiom]]s
 

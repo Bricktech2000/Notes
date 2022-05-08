@@ -1,0 +1,3 @@
+# Multiplicity
+
+see [[multiset]]

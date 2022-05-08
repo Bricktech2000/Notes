@@ -2,11 +2,11 @@
 
 _[[vector-space]] Basis_
 
-see [[vector-space]], [[vector]]
+see [[vector]], [[vector-space]]
 
 ### definition
 
-a [[set]] of [[vector]]s in a [[vector-space]] if both:
+a [[set]] of [[vector]]s is the [[basis]] of a [[vector-space]] if both:
 
 - the [[set]] is [[linearly-independent]]
 - the [[set]] [[span]]s the [[vector-space]]
@@ -36,3 +36,7 @@ _a basis containing vectors in a specific order_
 $(1, 0), (0, 1)$ and $ (0, 1), (1, 0)$ are the same [[basis]] but different ordered bases
 
 > suppose $B = v_0 \dots v_n$ is an ordered [[basis]] for a [[vector-space]] $V$. suppose $v = a_0v_0 \cdot \dots a_nv_n$. then, the vector $(a_0 \dots a_n)$ is the **coordinate vector** of $V$ relative to the ordered [[basis]] $B$
+
+## Orthogonal Basis
+
+[[complete]]

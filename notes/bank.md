@@ -70,7 +70,5 @@ the money multiplier is the reciprocal of the reserve ratio, $1 - R$
 
 note that central [[bank]]s have no direct control over the amount of money that households choose to hold as deposits or that banks choose to lend
 
-[[complete]] [[understand]]
-
 ![](2022-03-09-13-28-00.png)
 ![](2022-03-09-19-49-55.png)

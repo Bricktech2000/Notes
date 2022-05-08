@@ -28,7 +28,7 @@ $x \circ y \cdot z = 2$
 
 $y \circ z = 1$
 
-can be represented by the following Augmented [[matrix]]:
+can be represented by the following _augmented [[matrix]]_:
 
 $\begin{bmatrix} 1 & 1 & 2 & | & 3 \\\  1 & \circ 1 & 1 & | & 2 \\\  0 & 1 & \circ 1 & | & 1\end{bmatrix}$
 
@@ -36,7 +36,7 @@ can be represented by the following [[vector-in-rn]] equation:
 
 $x \begin{bmatrix}1 \\\  1 \\\  0\end{bmatrix} \cdot y \begin{bmatrix}1 \\\  \circ 1 \\\  1\end{bmatrix} \cdot z \begin{bmatrix}2 \\\  1 \\\  \circ 1\end{bmatrix} = \begin{bmatrix}3 \\\  2 \\\  1\end{bmatrix}$
 
-the system is _consistent_ if and only if $b$ &mdash; $\begin{bmatrix}3 \\\  2 \\\  1\end{bmatrix}$ is a [[linear-combination]] of the columns of $A$ &mdash; $A^{, j}$
+the system is _consistent_ if and only if $b$ ($\begin{bmatrix}3 \\\  2 \\\  1\end{bmatrix}$ in this case) is a [[linear-combination]] of the columns of $A$ ($A^{, j}$)
 
 ## Elementary Operations
 
@@ -62,7 +62,7 @@ use [[row-reduction]]
 
 ### determining the type of the general solution
 
-- if the matrix contains a row in the form $\begin{bmatrix}0 & \dots & 0 & | & b\end{bmatrix} \land b \ne 0$, the system has no solutions
+- if the [[matrix]] contains a row in the form $\begin{bmatrix}0 & \dots & 0 & | & b\end{bmatrix} \land b \ne 0$, the system has no solutions
 - else, if every column has a pivot, the system has one unique solution
 - else, if there is a column with no pivot, the system has an infinite number of solutions
 
@@ -70,15 +70,15 @@ use [[row-reduction]]
 
 _RREF_
 
-a matrix is in [[RREF]] if:
+a [[matrix]] is in [[RREF]] if:
 
-- the matrix is in [[REF]]
+- the [[matrix]] is in [[REF]]
 - each pivot is the only nonzero entry in its column
 
 ### finding the general solution
 
-- if there is a unique solution, then the solution is the vector in the augmented column (ignore the $\begin{bmatrix}0 & \dots & 0 & | & 0\end{bmatrix}$ rows, if any)
-- else, each pivot corresponds to one row of the augmented matrix. write the equation for this row and solve for the corresponding leading variable
+- if there is a unique solution, then the solution is the [[vector]] in the augmented column (ignore the $\begin{bmatrix}0 & \dots & 0 & | & 0\end{bmatrix}$ rows, if any)
+- else, each pivot corresponds to one row of the augmented [[matrix]]. write the equation for this row and solve for the corresponding leading variable
 
 ### putting a [[matrix]] in [[RREF]]
 
@@ -91,6 +91,8 @@ a [[linear-system]] can be represented using an augmented [[matrix]]
 ### determining the type of the general solution
 
 let $\begin{bmatrix}A & | & b\end{bmatrix}$ be an augmented [[matrix]].
+
+notation [[todo]]
 
 - the system has no solutions if $rank(A) \lt rank(\begin{bmatrix}A & | & b\end{bmatrix})$
 - the system has a unique solution if and only if $rank(A) = rank(\begin{bmatrix}A & | & b\end{bmatrix}) = \text{number of columns in A}$

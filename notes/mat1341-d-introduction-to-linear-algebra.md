@@ -51,6 +51,10 @@ attendance is mandatory &mdash; syllabus
 
 [[determinant]]
 
+[[eigenvector-and-eigenvalue]]
+
+[[linear-transformation]]
+
 **related**
 
 [[vector-in-rn]], [[normal-vector]], [[matrix]]
@@ -62,5 +66,3 @@ attendance is mandatory &mdash; syllabus
 [[number-field]]
 
 [[fundamental-theorem-of-algebra]]
-
-[[eigenvector-and-eigenvalue]]

@@ -60,10 +60,10 @@ $\det [A] m = [\det A] m \dashv \mathbb N m$
 
 $\det A = 0$ if and only if $A$ is not invertible, see [[matrix]]
 
-$\det A^- = [\det A] (\circ 1)$ if and only if $A$ is invertible, see [[matrix]]
+$\det A^- = -\det A$ if and only if $A$ is invertible, see [[matrix]]
 
 > **note**: the equation above is beautiful, as in [[classical-math-notation]], $A^{-1}$ is an inverse [[matrix]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
 
 ## intuitive explanation
 
-> the [[determinant]] is all about measuring how areas change during a transformation. after the transformation, the $1 \times 1$ unit square formed by $\vec i$ and $\vec j$ gets turned into the parallelogram formed by the two vectors &mdash; 3B1B
+> the [[determinant]] is all about measuring how areas change during a [[linear-transformation]]. after the transformation, the $1 \times 1$ unit square formed by $\vec i$ and $\vec j$ gets turned into the parallelogram formed by the two vectors &mdash; 3B1B

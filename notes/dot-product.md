@@ -20,7 +20,7 @@ $\theta$ is the angle between $a$ and $b$
 
 $[3, 2, \circ 1]\ |'\ [4, \circ6, 3] = 3 ' 4 \cdot 2 ' \circ 6 \cdot \circ 1 ' 3 = \circ3$
 
-$\begin{bmatrix} 3 & 2 & \circ1\end{bmatrix}\ |'\ \begin{bmatrix} 4 & \circ6 & 3\end{bmatrix} = \begin{bmatrix} 3 & 2 & \circ1\end{bmatrix} \begin{bmatrix} 4 \\\  \circ6 \\\  3\end{bmatrix} = \circ3$
+$\begin{bmatrix} 3 & 2 & \circ 1\end{bmatrix}\ |'\ \begin{bmatrix} 4 & \circ6 & 3\end{bmatrix} = \begin{bmatrix} 3 & 2 & \circ 1\end{bmatrix} \begin{bmatrix} 4 \\\  \circ6 \\\  3\end{bmatrix} = \circ3$
 
 ### properties
 

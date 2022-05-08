@@ -1,8 +1,6 @@
 # Derivative
 
-see [[math-notation]], [[classical-math-notation]]
-
-math notation [[todo]]
+see [[math-notation]], [[classical-math-notation]], [[derivative-rules]]
 
 ## definition
 
@@ -32,17 +30,7 @@ $\frac{d^n}{dx^n} = \frac{d^nf}{dx^n}$
 
 see [[calculus-notation]]
 
-[[todo]] [[think]]
-
-$\delta f\ x - \delta x$
-
-figure out $n$ th derivative notation
-
-replace all d with \delta and new notation
-
-$\delta (\delta f - \delta x) - \delta x$
-
-## [[derivative-rules]]
+$\delta f\ x - \delta x$, $\delta (\delta f - \delta x) - \delta x$
 
 ## Differentiation
 
@@ -58,13 +46,31 @@ _differentiating the logarithm of a [[function]] instead of the [[function]] its
 
 ### example
 
-[[complete]]
+$y = [x][e]x$
 
-![](2022-02-26-01-22-04.png)
+$\lceil y \rceil = \lceil [x][e]x \rceil = \lceil x \rceil ' [e]x$
+
+$\delta\ \lceil y \rceil - \delta x = \delta\ [e]x ' \lceil x \rceil - \delta x$
+
+$-y\ |\ \delta\ y - \delta x = ([e]x - x) \cdot \lceil x \rceil ' [e]x$
+
+$\delta\ y - \delta x = [x][e]x\ |\ ([e]x - x) \cdot \lceil x \rceil ' [e]x$
+
+the alternative would be the following, by transforming and using the chain rule, see [[derivative-rules]]
+
+$y = [x][e]x$
+
+$[x][e]x = [e] \lceil [x][e]x \rceil = [e](\lceil x \rceil ' [e]x)$
+
+$\delta\ y - \delta x = \delta\ [e](\lceil x \rceil ' [e]x) - \delta x$
+
+$\delta\ y - \delta x = [e](\lceil x \rceil ' [e]x)\ |\ \delta\ \lceil x \rceil ' [e]x - \delta x$
+
+$\delta\ y - \delta x = [x][e]x\ |\ ([e]x - x) \cdot \lceil x \rceil ' [e]x$
 
 ## Implicit Differentiation
 
-> Differentiation of an implicit equation (where the dependent variable is not isolated). Works with both [[function]]s and relations that aren't [[function]]s. [[complete]]
+> Differentiation of an implicit equation (where the dependent variable is not isolated). Works with both [[function]]s and relations that aren't [[function]]s.
 
 ### example
 
@@ -77,6 +83,10 @@ $2x \cdot 2y(\delta y - \delta x) = 0$
 $\delta y - \delta x = \circ x \text- y$
 
 ## Partial Differentiation
+
+[[todo]]
+
+### example
 
 [[todo]]
 

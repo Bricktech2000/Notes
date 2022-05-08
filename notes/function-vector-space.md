@@ -4,11 +4,11 @@ see [[vector-space]], [[math-notation]], [[function]]
 
 ## definition
 
-$f \vdash \mathbb F$ if $f$ is defined on its whole domain
+$\mathbb F f$ if and only if $f$ is defined on its whole domain
 
 ### counterexample
 
-if $fx = 1 - x$, then $\lnot f \vdash \mathbb F$ as $1 - x = \varnothing \dashv x = 0$
+let $f\ x = -x$, then $\lnot \mathbb F f$ as $-x = \varnothing \dashv x = 0$
 
 ## [[axiom]]s
 
