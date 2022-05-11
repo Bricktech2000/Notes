@@ -33,7 +33,7 @@ study the following strategy:
 - build an emergency fund (3 to 6 months of living expenses)
 - Terra / Anchor Protocol is very, very interesting (20% ROI &mdash; <https://drive.google.com/file/d/1sKM08sghjCh0FSdzJ0gvir-GSmPPA9yF/view> at 24:30)
 
-## srcs
+## &mdash;
 
 <https://youtu.be/npH236HEC_w>
 

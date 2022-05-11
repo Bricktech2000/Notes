@@ -2,7 +2,15 @@
 
 _an increase in the overall level of prices in the economy_
 
-see [[math-notation]]
+> **Inflation** is the decline of purchasing power of a given currency over time. A quantitative estimate of the rate at which the decline in purchasing power occurs can be reflected in the increase of an average price level of a basket of selected [[goods-and-services]] (see [[consumer-price-index]]) in an economy over some period of time &mdash; Investopedia
+
+see [[economics]], [[math-notation]]
+
+## examples
+
+2% is a low to moderate inflation rate &mdash; Investopedia
+
+8.5% is a high inflation rate &mdash; <https://www.youtube.com/watch?v=QYPb9ebUQbs>
 
 ## calculating inflation
 

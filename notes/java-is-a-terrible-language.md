@@ -28,7 +28,7 @@
 
 ## generic arrays
 
-Java does _not_ allow the creation of generic arrays `E[] a = new E[capacity]` where `E` is the generic type. use `E[] = (E[]) Object[capacity]` instead.
+Java does _not_ allow the creation of generic arrays `E[] a = new E[capacity]` where `E` is the generic [[type]]. use `E[] = (E[]) Object[capacity]` instead.
 
 however, this will throw a warning, which will have to be suppressed using the following decorator: `@SuppressWarnings("unchecked")`.
 
@@ -38,7 +38,7 @@ see <https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in
 
 ## Type Inference
 
-zero type inference, because Java. actually, <https://www.google.com/search?q=java+var&oq=java+var&aqs=edge..69i57.1406j0j1&sourceid=chrome&ie=UTF-8>
+zero [[type]] inference, because Java. actually, <https://www.google.com/search?q=java+var&oq=java+var&aqs=edge..69i57.1406j0j1&sourceid=chrome&ie=UTF-8>
 
 ## Operator Overloading
 

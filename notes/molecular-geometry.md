@@ -18,7 +18,7 @@ _triangle_
 
 $120^\circ$ between each atom
 
-**shape**: trigonal, or bend
+**shape**: trigonal or bend
 
 ## Tetrahedral
 

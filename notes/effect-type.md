@@ -1,6 +1,6 @@
 # Effect Type
 
-_wrappers for other types_
+_wrappers around other [[type]]s_
 
 has to have a [[return]] (?) [[think]] [[complete]]
 

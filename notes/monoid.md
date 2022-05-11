@@ -34,3 +34,7 @@ allows for incremental accumulation. if we have already computed `(1 + 2 + 3) = 
 ### identity element
 
 allows for the binary operation to be used when data is empty or missing; on an empty list, for instance. this is known as a `fold` operation in [[functional-programming]]. as examples, `[].reduce(+) = 0` and `[].reduce(&) = ""`.
+
+## examples
+
+the following data [[type]]s and binary operators are examples of [[monoid]]s: `String` and concatenation, `u32` and addition, `f64` and multiplication...

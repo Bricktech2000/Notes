@@ -12,6 +12,8 @@ $\begin{bmatrix}1 & 2\end{bmatrix}$
 
 $\begin{bmatrix}1 \\\  2 \\\  3\end{bmatrix}$
 
+$\dots$
+
 ## operations
 
 see [[vector-in-rn-vector-space]], [[vector-space]]

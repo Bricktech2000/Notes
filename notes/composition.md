@@ -1,4 +1,4 @@
-# Function Composition
+# Composition
 
 ## notation
 
@@ -12,7 +12,7 @@ $x$ is the parameter to be passed to $f$ and $g$
 
 ## applications
 
-[[function-composition]] is very useful in [[functional-programming]] as it allows for building larger [[function]]s from smaller ones. it also allows for [[abstraction]]
+[[function]] [[composition]] is very useful in [[functional-programming]] as it allows for building larger [[function]]s from smaller ones. it also allows for [[abstraction]] and [[encapsulation]].
 
 ## example
 

@@ -37,3 +37,9 @@
 [[russels-paradox]]
 
 [[loan]]
+
+[[indicator-generalization]]
+
+[[subjectivity-to-objectivity]]
+
+[[incorrect-measurement-scale-use]]

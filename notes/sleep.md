@@ -1,5 +1,7 @@
 # Sleep
 
+see [[math-notation]]
+
 ## factors affecting sleep
 
 understand that sleep quality is more important than sleep quantity
@@ -7,6 +9,8 @@ understand that sleep quality is more important than sleep quantity
 ### sounds
 
 noise, even if we might not realize it since we're unconscious, does affect sleep quality by decreasing the amount of deep REM sleep during the night. people can actually tell the difference between a quiet and noisy night. earplugs would be a possible solution.
+
+> **note**: noise is very detrimental to my sleep quality. whenever I have issues building a sleep cycle or whenever I constantly wake up groggy, the most common cause is the presence of noise during my sleep.
 
 ### sunlight
 
@@ -57,14 +61,14 @@ use bed for sleep **only**. no working, no reading and no TV when in bed. otherw
 
 ### recommended hours of sleep by age
 
-- teenagers: $8 - 10$ hours
-- adults: $7 - 9$ hours
+- teenagers: $8 \dots 10$ hours
+- adults: $7 \dots 9$ hours
 
 ### naps
 
-naps should be 0-20 minutes in length. enough to get into stage-2 sleep, which boosts memory and creativity.
+naps should be $0 \dots 20$ minutes in length. enough to get into stage-2 sleep, which boosts memory and creativity.
 
-naps longer than 90 minutes will make it more difficult to fall asleep at night
+naps longer than $90$ minutes will make it more difficult to fall asleep at night
 
 ### sleep inertia
 
@@ -75,8 +79,8 @@ naps longer than 90 minutes will make it more difficult to fall asleep at night
 - wear face mask (and optionally earplugs)
 - avoid naps, otherwise max 20 minutes
 - place alarm clock far from bed to avoid snoozathons
-- turn off all light sources 30 minutes before bedtime
-- ~~take shower and reflect 30 minutes before bedtime~~
+- turn off all light sources $30$ minutes before bedtime
+- ~~take shower and reflect $30$ minutes before bedtime~~
 
 ## possible benefits
 

@@ -43,10 +43,10 @@ $$
 
 ```mermaid
 graph LR
-  A(mermaid)--->B((fa:fa-check))
+  A(mermaid) ---> B((fa:fa-check))
 ```
 
-```chart
+<!-- ```chart
 {
   "type": "pie",
   "data": {
@@ -77,7 +77,7 @@ graph LR
     }
   }
 }
-```
+``` -->
 
 emojis :smile:
 
@@ -119,7 +119,7 @@ replace: (space)\\\\\\(space)
 
 ### Page Break
 
-<div style="page-break-after: always"></div>
+<p style="page-break-after: always" />
 
 ### Theorems, Proofs, Definitions
 
@@ -131,6 +131,18 @@ replace: (space)\\\\\\(space)
 > **note**: the elements above are not used in my [[index|conceptual-notes]] as they are not natively supported in Markdown
 
 > **theorem**: this "quote with bold text" format is used instead
+
+> **proof**: this is a proof of the above theorem
+
+> this is a **definition** for the term "definition" &mdash; this is a source
+
+### Indentation
+
+<p style="margin-left: 5ch; text-indent: -5ch;">
+paragraph with all but its first line indented &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+
+&emsp;&emsp; paragraph with only its first line indented &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ### LaTeX & Wiki Link Support
 

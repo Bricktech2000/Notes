@@ -71,7 +71,7 @@ $f^-\ x = 1 - f\ x$
 
 ## Reciprocal (or Inverse) Function
 
-_reciprocal, switching input and output_
+_switching input and output_
 
 ### definition
 
@@ -86,3 +86,20 @@ $f\ f^\times\ x = x$
 $f^\times\ f\ x = x$
 
 the graph of $y = f\ x$ and $y = f^\times\ x$ are symmetric about the line $y = x$
+
+## Total Function
+
+_a [[function]] that doesn't "lie" in its [[type]] signature_
+
+let the following [[function]]:
+
+```Rust
+fn twelveOver(x: f64) -> f64 {
+  12 / x
+}
+```
+
+even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it won't be able to return a value if the input is `0`. normally, people would throw an exception to prevent the program from crashing, which makes the [[type]] signature a "lie". however, in [[functional-programming]], one of the following strategies should be used instead:
+
+- restrict the input of the [[function]] (something like `nonZeroF64`)
+- extend the input of the [[function]] (something like `Optional<f64>`)

@@ -24,23 +24,25 @@ the GPD includes:
 - only [[goods-and-services]] that are currently produced (for instance, buying a used car would not count towards a country’s GDP)
 - only [[goods-and-services]] within the geographic area of a country (not the citizenship of workers or owners, for instance)
 
-**note**: some products are excluded due to a difficult measurement
+> **note**: some products are excluded due to a difficult measurement
 
 the GDP measures all items above within a specific time interval, usually one year or one quarter
 
 ## Components of Expenditure (of the GDP)
 
+_calculating the GDP using the Expenditure approach_
+
 > The GDP is the total of all value added created in an economy. The value added means the value of goods and services that have been produced minus the value of the goods and services needed to produce them, the so called intermediate consumption. &mdash; Zoom Chat
 
-GDP = Consumption + Investment + Government Purchases + Net Exports
+GDP = Consumption + Investment + Government Spending + Net Exports
 
 > **Consumption**: spending by households on good and services, with the exception of purchases of new housing
 
 > **Investment**: spending on capital equipment, inventories, and structures, including household purchases of new housing
 
-> **Government Purchases**: spending on [[goods-and-services]] by local, territorial, provincial, and federal governments
+> **Government Spending**: spending on [[goods-and-services]] by local, territorial, provincial, and federal governments
 
-> **Net Exports**: the value of a nation’s exports minus the value of its imports (also called the _trade balance_)
+> **Net Exports**: the value of a nation’s exports minus the value of its imports. **AKA**: Trade Balance
 
 ## Real VS Nominal GDP
 

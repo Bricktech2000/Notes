@@ -114,6 +114,10 @@ $\int y\ |\ \delta x$ is the integral of $y$ with respect to $x$
 
 $\varnothing$ is _undefined_
 
+$x_0\ |\ \dots x_n$ with $n = 3$ means $x_0\ |\ x_1\ |\ x_2\ |\ x_3$ (this works with any operator)
+
+$x_0 \dots x_n$ with $n = 3$ means $x_0, x_1, x_2, x_3$
+
 ## operator precedence
 
 _high to low_
@@ -141,6 +145,7 @@ _high to low_
 - $\lfloor a \rfloor$ (or $\lfloor a \rfloor 2$) returns both positive and negative square roots ($\lfloor q2 \rfloor \equiv \dot \circ q$)
 - $\lfloor 4 \rfloor = 2$ is valid, but $\lfloor 4 \rfloor \equiv 2$ is invalid
 - ~~functions support [[currying]] to take multiple arguments~~
+- all indices start at $0$
 
 ## examples
 
@@ -157,7 +162,7 @@ _high to low_
 
 ## [[random-math-notation-formulas]]
 
-## srcs
+## &mdash;
 
 <https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols>
 

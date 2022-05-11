@@ -4,15 +4,15 @@ _a few of my English bad habits_
 
 ## Correct
 
-> What's that called
+> what's that called
 
-> Wish me luck
+> wish me luck
 
-> Profs are profs and teachers are teachers
+> profs are profs and teachers are teachers
 
 > pronunciation of pronunciation
 
-> r**ec**tangle
+> **rec**tangle
 
 > dis**k**usting
 
@@ -24,13 +24,15 @@ _a few of my English bad habits_
 
 > dis**tri**buting
 
-> make a decision
+> to make a decision
+
+> **in**tersection
 
 ## Incorrect
 
-> How's that called
+> how's that called
 
-> Wish me good luck
+> wish me good luck
 
 > when I’m going to see you again (🎵)
 
@@ -38,4 +40,6 @@ _a few of my English bad habits_
 
 ## Careful
 
-> This VS That
+> this VS that
+
+> use future tense instead of "going to" form

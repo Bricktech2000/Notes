@@ -38,7 +38,7 @@ Calculus: Early Transcendentals, by James Stewart, 9th Edition.
 
 ## Class Notes
 
-[[absolute-value-inequality]]
+[[absolute-value]]
 
 [[limit]]s, [[derivative]]s
 

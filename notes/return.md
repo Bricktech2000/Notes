@@ -2,6 +2,8 @@
 
 _lifts a value to the effects world_
 
+> **AKA**: `pure`, `unit`
+
 see [[effect-type]], [[functional-programming]]
 
 probably not an official term, [[todo]]

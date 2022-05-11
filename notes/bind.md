@@ -2,11 +2,13 @@
 
 _turns diagonal functions into horizontal functions_
 
+> **AKA**: `>>=`, `flatMap`, `SelectMany`
+
 see [[functional-programming]]
 
 ## applications
 
-let a [[function]] `f` that takes as input type `T` and returns an [[effect-type]] `E<e>`. "connecting" the output of one of such functions to the input of another is an issue, as `f` has one input `T` but multiple outputs `E<e>` (`Some` and `None` with `Option<T>`, "Done" and "Not Done" with `Async`, etc.).
+let a [[function]] `f` that takes as input [[type]] `T` and returns an [[effect-type]] `E<e>`. "connecting" the output of one of such functions to the input of another is an issue, as `f` has one input `T` but multiple outputs `E<e>` (`Some` and `None` with `Option<T>`, "Done" and "Not Done" with `Async`, etc.).
 
 this often leads to deeply nested `if` checks with `null` values in languages like C or Java or deeply nested callbacks in languages like JavaScript.
 

@@ -10,7 +10,7 @@ Kiera Hutton &mdash; 300242006<br>
 April 8th, 2022<br>
 </center>
 
-<div style="page-break-after: always"></div>
+<p style="page-break-after: always" />
 
 <center>
 <h1>Lab 5: Latches and Flip-flops<br><br></h1>
@@ -107,7 +107,7 @@ The experimental and expected data matched completely. We met the objectives of 
 - We had to use a manual reset signal for **Part III** as Quartus would set all outputs to `undefined` otherwise.
 - It was unclear whether the gates used had to be active high or active low.
 
-<div style="page-break-after: always"></div>
+<p style="page-break-after: always" />
 
 <center>
 <h1>Lab 6: Synchronous Counters<br><br></h1>

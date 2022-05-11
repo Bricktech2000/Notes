@@ -1,4 +1,4 @@
-# Types of Sources
+# Type of Source
 
 see [[finding-sources]]
 

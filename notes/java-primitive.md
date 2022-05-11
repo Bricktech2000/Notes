@@ -1,10 +1,10 @@
 # Java Primitive
 
-primitive types are stored on the stack
+primitive [[type]]s are stored on the stack
 
 primitives can be passed by reference using [[java-wrapper]]s
 
-### All Primitive types
+### All Java Primitive [[type]]s
 
 &mdash; <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html>
 

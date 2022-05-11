@@ -7,7 +7,7 @@ _for [[eng1112-technical-report-writing]]_
 - the goal of a report is to communicate our analysis of information, not to "dump" information
 - make sure to find [[reliable-source]]s
 - [[finding-sources]] and [[referencing-sources]]
-- get familiar with the different [[types-of-sources]]
+- get familiar with the different [[type-of-source]]s
 - sources **must be discussed and quoted/cited** in the body of reports, not just in the bibliography
 - avoid cherry-picking sources to prove a point
 - going into detail about both sides of a topic is _not_ required, but it is important to acknowledge that there is another side to it

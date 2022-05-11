@@ -9,7 +9,7 @@
 - [[credit-card]]s allow for small loans without having to go to the [[bank]]
 - debit cards are essentially non-revolving credit cards, which means that their interchange fees could end up being higher as those fees are their only source of revenue
 - (?) [[credit-card]]s allow for higher security as the payment to merchants is delayed by a few days
-- debit cards aren't always accepted as a form of online payment for e-commerce (aka online shopping)
+- debit cards aren't always accepted as a form of online payment for e-commerce (online shopping)
 - [[credit-card]]s can be used to build a good credit score, which makes getting a large loan at the [[bank]] easier
 - debit cards don't have the same perks as [[credit-card]]s
 
