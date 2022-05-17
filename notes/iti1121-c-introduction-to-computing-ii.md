@@ -52,3 +52,5 @@ lab attendance is **not** mandatory, but highly encouraged
 [[java]]
 
 **related**
+
+[[data-structure]]

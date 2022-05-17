@@ -1,6 +1,8 @@
 # Boolean Operator
 
-## AND (Conjunction)
+## AND
+
+> **AKA**: Conjunction
 
 ### notation
 
@@ -19,7 +21,9 @@ straight-curve logic [[gate]]. may take more than one input
 | 1   | 0   | 0       |
 | 1   | 1   | 1       |
 
-## OR (Disjunction)
+## OR
+
+> **AKA**: Disjunction
 
 ### notation
 
@@ -38,7 +42,9 @@ concave-pointycurve logic [[gate]]. may take more than one input
 | 1   | 0   | 1      |
 | 1   | 1   | 1      |
 
-## NOT (Negation)
+## NOT
+
+> **AKA**: Negation
 
 ### notation
 
@@ -55,7 +61,9 @@ triangle-circle logic [[gate]]. may only take one input
 | 0   | 1     |
 | 1   | 0     |
 
-## XOR (Exclusive OR)
+## XOR
+
+> **AKA**: Exclusive OR
 
 ### notation
 
@@ -74,7 +82,9 @@ doubleconcave-pointycurve logic [[gate]]. if the [[gate]] does not take exactly 
 | 1   | 0   | 1       |
 | 1   | 1   | 0       |
 
-## Implication (Conditional Statement)
+## Implication
+
+> **AKA**: Conditional Statement
 
 ### notation
 
@@ -99,7 +109,9 @@ can be built by combining multiple logic [[gate]]s. may only take one input
 | 1   | 0   | 0        |
 | 1   | 1   | 0        |
 
-## XNOR, Double Implication (Biconditional Statement)
+## XNOR
+
+> **AKA**: Double Implication, Equivalent, Biconditional Statement
 
 ### notation
 

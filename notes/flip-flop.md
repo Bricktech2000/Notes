@@ -6,7 +6,7 @@ see [[gate]], [[latch]], [[logic-circuit]]
 
 all [[latch]]es can be turned into [[flip-flop]]s and all [[flip-flop]]s can be turned into [[latch]]es
 
-## types of flip-flops
+## types
 
 &mdash; <https://en.wikipedia.org/wiki/Flip-flop_(electronics)>
 

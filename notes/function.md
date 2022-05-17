@@ -1,6 +1,6 @@
 # Function
 
-## types of functions
+## types
 
 [[boolean-function]]
 
@@ -53,7 +53,7 @@ see [[math-notation]]
 > - $f \dot \circ g$
 > - $f'g$
 > - $c f$ where $c$ is a constant
-> - $f \text- g$ if $g\ a \ne 0$
+> - $f \text- g$ if $g\ a \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
 
 ## Inverse (or Reciprocal) Function
 

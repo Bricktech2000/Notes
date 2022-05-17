@@ -2,9 +2,9 @@
 
 our behavior is highly controlled by environmental queues. &mdash; <https://youtu.be/IlU-zDU6aQ0?t=867>
 
-## learning efficiently
+## [[learning]] efficiently
 
-to learn efficiently, we must teach our brains to associate a specific environment with learning.
+to learn efficiently, we must teach our brains to associate a specific environment with [[learning]].
 
 _the primary function of a bedroom is sleeping. the primary function of a dining table is eating. the primary function of a living area is recreation and socializing._
 

@@ -1,6 +1,6 @@
 # Java Primitive
 
-primitive [[type]]s are stored on the stack
+primitive [[type]]s are stored on the [[stack]]
 
 primitives can be passed by reference using [[java-wrapper]]s
 

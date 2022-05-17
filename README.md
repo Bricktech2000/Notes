@@ -28,20 +28,6 @@ Writing atomically also allows for easy reorganization of your notes during the 
 
 Taking notes conceptually allows you to build on top of your older notes and make them grow and evolve instead of letting them slowly decay over time.
 
-## Note Format
+## Conventions
 
-The conventions I use to take notes are outlined below.
-
-- **Capitalized** headers are for concepts
-- **Lowercase** headers are for general titles
-- **Quotes** are used for factual information and definitions
-- **Italics** are used for tricks or personal definitions
-- **Bold** is used for emphasis
-- **see ...** statements are for prerequisites
-- Notion **backlinks** are for applications of a concept
-- **&mdash; ...** statements are used for citing sources
-- **LaTeX** syntax for all equations
-- variables for equations are defined in separate lines
-- no first-level headings are used as they break in Markdown exports
-- blank lines are avoided as much as possible
-- page names are all _-ing_ verbal groups or singular nominal groups
+For conventions on writing notes, see the [conventions](notes/conventions.md) page.

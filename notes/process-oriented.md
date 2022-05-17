@@ -39,7 +39,7 @@ a few seconds is enough to realize that the goal that was set isn’t even reach
 
 _after a middle-of-the-night discussion with Grace_
 
-learning to try to achieve a goal, even though failure seems inevitable, is a valuable skill. failing to achieve a goal shouldn’t feel like a failure; rather, it should feel like an accomplishment.
+[[learning]] to try to achieve a goal, even though failure seems inevitable, is a valuable skill. failing to achieve a goal shouldn’t feel like a failure; rather, it should feel like an accomplishment.
 
 you failed, so what? think about all the walls you powered through and all the marble statues you moved out of your way in the process (note for future me: the _marble statue_ metaphor is surface level. there’s nothing more to it, unfortunately).
 

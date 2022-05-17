@@ -208,7 +208,7 @@ $A$ is a (square) [[matrix]]
 
 $A^-$ is the _inverse matrix_ of $A$
 
-### invertability
+### Invertability
 
 _an **invertible** [[matrix]] has a corresponding inverse [[matrix]]_
 
@@ -224,7 +224,7 @@ $(A^-)^- = A$
 
 $(A^p)^- = (A^-)^p$
 
-$(kA)^- = 1\text-k\ |\ A^-$
+$(kA)^- = 1\text-k\ |\ A^-$ (restriction might not be necessary, see [[improved-expression-evaluation]])
 
 $(AC)^- = C^-A^-$
 
@@ -248,7 +248,7 @@ $A$ is invertible if and only if $|A| \ne 0$
 
 $A^- = (1 - |A|) \begin{bmatrix}d & \circ b \\\  \circ c & a\end{bmatrix}$
 
-### example usage
+### application example
 
 let $A = \begin{bmatrix}1 & 1 \\\  2 & 3\end{bmatrix}$
 
@@ -347,4 +347,4 @@ see [[linear-system-theorem-proof]]
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" })</script>
-<script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([A-Za-z\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`)</script>
+<script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([A-Za-z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`)</script>

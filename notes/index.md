@@ -6,16 +6,16 @@
 
 [[tags]]
 
-[[outdated]]
+[[conventions]]
 
-[[syntax]]
+## Launchpad
 
-## Other
-
-[[uni]]
+[[classes]]
 
 [[thinking]]
 
 [[learning]]
 
 [[other]]
+
+[[outdated]]

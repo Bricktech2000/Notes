@@ -2,7 +2,7 @@
 
 see [[vector]], [[vector-in-rn]], [[matrix]], [[math-notation]], [[basis]]
 
-## Types of Vector Spaces
+## types
 
 [[function-vector-space]], [[function]]
 
@@ -108,11 +108,9 @@ $c\ |\ u \cdot v \equiv cu \cdot cv$ &mdash; distributivity
 
 $k\ |\ du \equiv kd\ |\ u$ &mdash; multiplicative associativity
 
----
+## [[vector-space-proof-examples]]
 
-### [[vector-space-proof-examples]]
-
-### additional examples
+## additional examples
 
 - any [[plane-in-r3]] through the origin is a subspace of $\mathbb R^3$
 - any [[line-in-r3]] through the origin is a subspace of $\mathbb R^3$ (same with $\mathbb R^2$)

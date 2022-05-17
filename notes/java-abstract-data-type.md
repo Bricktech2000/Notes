@@ -2,8 +2,8 @@
 
 ## examples
 
-- stacks
-- queues
+- [[stack]]s
+- [[queue]]s
 - lists
 
 abstract data [[type]]s can be implemented through [[interface]]s

@@ -22,7 +22,7 @@ an excess of [[motivation]] can lead to [[feeling-overwhelmed]], which can lead 
 
 [[curve-fitting]]
 
-[[mnemonics]]
+[[mnemonic]]
 
 [[intent-to-mastery]]
 

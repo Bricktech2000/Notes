@@ -79,3 +79,5 @@ $$
 P\ x, y = \delta f - \delta x \\
 P\ 1, 2 = (\delta f - \delta x)\ 1, 2
 $$
+
+[[book]]

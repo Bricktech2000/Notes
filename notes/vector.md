@@ -2,7 +2,7 @@
 
 vectors can form [[vector-space]]s
 
-### types of vectors
+### types
 
 [[vector-in-rn]], see [[vector-in-rn-vector-space]]
 

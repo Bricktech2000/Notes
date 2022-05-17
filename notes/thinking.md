@@ -8,7 +8,7 @@
 
 [[people-are-shaped-by-their-surroundings]]
 
-[[implicit-limits]]
+[[improved-expression-evaluation]]
 
 [[tiktok-account]]
 
@@ -38,8 +38,14 @@
 
 [[loan]]
 
+[[calculus-notation]]
+
 [[indicator-generalization]]
 
 [[subjectivity-to-objectivity]]
 
 [[incorrect-measurement-scale-use]]
+
+[[improved-recipe-structure]]
+
+[[master-lock-second-combination]]

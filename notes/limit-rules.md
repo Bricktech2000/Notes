@@ -30,7 +30,7 @@ $\lim_{x \to a} (f\ x\ |\ g\ x) = \lim_{x \to a} f\ x\ |\ \lim_{x \to a} g\ x$
 
 ## Quotient Rule
 
-$\lim_{x \to a} (f\ x - g\ x) = \lim_{x \to a} f\ x - \lim_{x \to a} g\ x \dashv \lim_{x \to a} g\ x \ne 0$
+$\lim_{x \to a} (f\ x - g\ x) = \lim_{x \to a} f\ x - \lim_{x \to a} g\ x \dashv \lim_{x \to a} g\ x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
 
 ## Power Rule
 
@@ -38,4 +38,4 @@ $\lim_{x \to a} [f\ x]n = [\lim_{x \to a} f\ x]n$
 
 ### derived root rule
 
-$\lim_{x \to a} \lfloor f\ x \rfloor n = \lfloor \lim_{x \to a} f\ x \rfloor n$. when $\mathbb E n$ (see [[even-number]]), we assume that $\lim_{x \to a} f\ x \ne 0$
+$\lim_{x \to a} \lfloor f\ x \rfloor n = \lfloor \lim_{x \to a} f\ x \rfloor n$. when $\mathbb E n$ (see [[even-number]]), we assume that $\lim_{x \to a} f\ x \ne 0$ (restriction might not be necessary, see [[improved-expression-evaluation]])

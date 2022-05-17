@@ -1,6 +1,6 @@
 # Concept VS Fact
 
-for better [[learning]], identify if what you're learning is a concept or a fact.
+for better [[learning]], identify if what you're [[learning]] is a concept or a fact.
 
 &mdash; <https://youtu.be/IlU-zDU6aQ0?t=1264>
 
@@ -8,7 +8,7 @@ for better [[learning]], identify if what you're learning is a concept or a fact
 
 _an isolated piece of information related to a concept_
 
-facts can easily get confused, which is the reason why we have reference books and search engines. _if you know the concept, you can quickly look up the fact_. facts can be learned through [[mnemonics]].
+facts can easily get confused, which is the reason why we have reference books and search engines. _if you know the concept, you can quickly look up the fact_. facts can be learned through [[mnemonic]].
 
 ### examples
 
@@ -19,7 +19,7 @@ facts can easily get confused, which is the reason why we have reference books a
 
 _a piece of information tightly related to multiple other concepts_
 
-generally, they are more important than facts. they can be structured through conceptual [[README|Notes]]. once grasped, they stay with you a lifetime. when learning concepts, make sure to understand the difference between [[recollection-vs-recognition]].
+generally, they are more important than facts. they can be structured through conceptual [[README|Notes]]. once grasped, they stay with you a lifetime. when [[learning]] concepts, make sure to understand the difference between [[recollection-vs-recognition]].
 
 ### examples
 

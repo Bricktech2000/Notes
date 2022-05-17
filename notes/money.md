@@ -6,7 +6,7 @@ see [[wealth]], [[bank]]
 
 > **money** is the set of assets in the [[economy]] that people regularly use to buy [[goods-and-services]] from other people
 
-### functions of money
+## applications
 
 money is:
 
@@ -16,13 +16,13 @@ money is:
 
 > a **store of value**, an item that people can use to transfer purchasing power from the present to the future
 
-### types of money
+## types
 
 > **commodity money** is [[money]] that takes the form of a commodity with intrinsic value
 
 > **fiat money** is [[money]] without intrinsic value that is accepted because of government decree
 
-### definitions
+## definitions
 
 > the **money stock** or **money supply** is the amount of [[money]] circulating in the [[economy]]
 
