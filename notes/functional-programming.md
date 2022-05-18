@@ -2,7 +2,7 @@
 
 see [[functor]] & [[map]], [[monad]] & [[bind]], [[monoid]] & [[reduce]], [[effect-type]] & [[return]]
 
-see [[currying]], [[partial-application]]
+see [[currying]], [[partial-application]], [[pure-function]]
 
 see [[function]], [[type]], [[composition]], [[apply]]
 

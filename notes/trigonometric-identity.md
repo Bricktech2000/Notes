@@ -10,27 +10,27 @@ $\cos \theta = x - r$
 
 $\tan \theta = \sin \theta - \cos \theta$
 
-## derived identities
+## reciprocal identities
 
-$\sin^- \theta = 1 - \sin \theta$
+$y = \sin x \equiv x = \text{asin } y \cdot 2\pi n \land \R n$
 
-$\cos^- \theta = 1 - \cos \theta$
+$y = \cos x \equiv x = \text{acos } y \cdot 2\pi n \land \R n$
 
-$\tan^- \theta = 1 - \tan \theta$
+$y = \tan x \equiv x = \text{atan } y \cdot \pi n \land \R n$
 
 ## inverse identities
 
-$y = \sin x \equiv x = \sin^\times y$
+$\text-\sin \theta$
 
-$y = \cos x \equiv x = \cos^\times y$
+$\text-\cos \theta$
 
-$y = \tan x \equiv x = \tan^\times y$
+$\text-\tan \theta$
 
-$y = \sin^- x \equiv x = \sin^{-\times} y$
+$\text-\text{asin } x$
 
-$y = \cos^- x \equiv x = \cos^{-\times} y$
+$\text-\text{acos } x$
 
-$y = \tan^- x \equiv x = \tan^{-\times} y$
+$\text-\text{atan } x$
 
 ## basic relations
 

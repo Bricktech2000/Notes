@@ -1,5 +1,7 @@
 # Improved Recipe Structure
 
+&mdash; initial idea by Kiera
+
 ## structure
 
 principles:

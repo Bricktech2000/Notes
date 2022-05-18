@@ -10,6 +10,8 @@
 
 [[piecewise-function]]
 
+[[pure-function]]
+
 ## applications
 
 [[curve-sketching]]
@@ -63,11 +65,11 @@ _multiplicative inverse_
 
 let $f\ x$ be a function
 
-if $y = f\ x \land y = 1 - f^-\ x$, then $f^-$ is the _inverse_ (or _reciprocal_) of $f$
+if $y = f\ x \land y = -F\ x$, then $F$ is the _inverse_ (or _reciprocal_) of $f$
 
 ### properties
 
-$f^-\ x = 1 - f\ x$
+$F\ x = 1 - f\ x$
 
 ## Reciprocal (or Inverse) Function
 
@@ -77,15 +79,15 @@ _switching input and output_
 
 let $f\ x$ be a function
 
-if $y = f\ x \land x = f^\times\ y$, then $f^\times$ is the _reciprocal_ (or _inverse_) of $f$
+if $y = f\ x \land x = F\ y$, then $F$ is the _reciprocal_ (or _inverse_) of $f$
 
 ### properties
 
-$f\ f^\times\ x = x$
+$f\ F\ x = x$
 
-$f^\times\ f\ x = x$
+$F\ f\ x = x$
 
-the graph of $y = f\ x$ and $y = f^\times\ x$ are symmetric about the line $y = x$
+the graph of $y = f\ x$ and $y = F\ x$ are symmetric about the line $y = x$
 
 ## Total Function
 

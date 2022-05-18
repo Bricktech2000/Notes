@@ -46,8 +46,6 @@ $a = b$ checks whether two expressions are equal
 
 $a \ne b$ chechs whether two expressions are different
 
-~~$a : b$ is high-precedence equality check~~
-
 $a \land b$ is logical and (`and`)
 
 $a \lor b$ is logical or (`or`)
@@ -84,23 +82,13 @@ $M^{i,}$ is the $i$ th row of the [[matrix]] $M$
 
 $M^{, j}$ is the $j$ th column of the [[matrix]] $M$
 
-$X^-$ is the multiplicative inverse of $X$, where $X$ can be a [[function]], a [[matrix]], a [[vector]], a [[set]]...
-
-$f^\times$ is the reciprocal (switching input and output) of the function $f$
-
 $A^\intercal$ is the transpose [[matrix]] of $A$
 
-$f^\times$ is the reciprocal of the [[function]] $f$
+$A^-$ is the multiplicative inverse of the [[matrix]] $A$
 
-$f^-$ is the inverse of the [[function]] $f$
+$f^\times$ is the reciprocal (switching input and output) of the function $f$ (might not be necessary, [[think]])
 
 ### [[trigonometric-identity]]es
-
-$\sin = \sin \land \cos = \cos \land \tan = \tan$
-
-$\sin^\times = \text{asin } \land \cos^\times = \text{acos } \land \tan^\times = \text{atan }$
-
-$\sin^- = 1 - \sin \land \cos^- = 1 - \cos \land \tan^- = 1 - \tan$
 
 ### [[calculus-notation]]
 
@@ -134,8 +122,6 @@ _high to low_
 - $\lor$
 - $\dashv\ \vdash$
 - $\equiv \times$
-
-~~composition distributes over implication. this allows for notation such as $\mathbb N \vdash \mathbb R$~~
 
 ## principles
 

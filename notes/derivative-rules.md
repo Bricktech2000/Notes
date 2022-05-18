@@ -74,10 +74,10 @@ $\delta\ \sin x - \delta x = \cos x$
 
 $\delta\ \cos x - \delta x = \circ \sin x$
 
-$\delta\ \tan x - \delta x = [\cos^- x]2$
+$\delta\ \tan x - \delta x = [-\cos x]2$
 
-$\delta\ \sin^- x - \delta x = \circ \sin^- x\ |\ \tan^- x$
+$\delta\ 1\text-\sin x - \delta x = \circ \text-\sin x\ |\ \text-\tan x$
 
-$\delta\ \cos^- x - \delta x = \cos^-\ x\ |\ \tan x$
+$\delta\ 1\text-\cos x - \delta x = \text-\cos\ x\ |\ \tan x$
 
-$\delta\ \tan^- x - \delta x = \circ [\sin^- x]2$
+$\delta\ 1\text-\tan x - \delta x = \circ [\text-\sin x]2$

@@ -11,3 +11,10 @@ the probable reason for the bad smell of feces is to prevent us from eating them
 ## everything is a subscription
 
 every (physical) purchase is a subscription, or recurring payment. as every physical object has a finite lifetime, its price can be thought of as the length of the subscription to said object. a smart phone that lasts 3 years and costs 2000$ has a subscription of 2000$ / 3y = 56$ / mo
+
+## different view on smart phones
+
+smart phones can be thought of as a set of input-output devices joined together by a general-purpose processing unit. apps simply use the general-purpose processing unit to join the right input and output devices together, creating unique functionality.
+
+- the camera app uses the phone camera and the screen as input and uses the phone storage and the screen as output
+- the music app uses the phone storage and the screen as input and uses the phone speaker and the screen as output

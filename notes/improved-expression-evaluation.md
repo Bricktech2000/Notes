@@ -35,7 +35,7 @@ this has the added benifit of preventing the introduction of incorrect solutions
 
 ## applications
 
-- classically, $\tan^\times y \text- x \land x = 0 \equiv \varnothing$. however, by substituting $y \text- x$ in the definition of the $\tan$ [[function]] directly and by using [[limit-rules]] to simplify it, the right answer $\pi - 2$ is obtained.
+- classically, $\text{atan } y \text- x \land x = 0 \equiv \varnothing$. however, by substituting $y \text- x$ in the definition of the $\tan$ [[function]] directly and by using [[limit-rules]] to simplify it, the right answer $\pi - 2$ is obtained.
 
 - classically, the graph of a [[function]] such as $f\ x = - - x \circ 2$ has a hole at $x = 2$. however, by simplifying the [[function]] using [[limit-rules]] before graphing it, the function $f\ x = x \circ 2$ is obtained; the hole is avoided.
 
@@ -82,3 +82,41 @@ dividing both sides by $x$, adding the restriction and simplifying using [[limit
 $(a = b \dashv x \ne 0) \dashv x \ne 0\ \equiv\ a = b \dashv x \ne 0\ \equiv\ a = b$
 
 as the multiplications by zero have been cancelled out, the restrictions are no longer necessary. the equality above is always true.
+
+## example with $[0]0$
+
+define $[0]0 = 1$ and let $x = 0$
+
+trying to break the above definition...
+
+$1 = [0]0 = [x](1 \circ 1) = x - x = 1$
+
+$0 = [0]1 = [x](2 \circ 1) = x2 - x = x\ |\ 1 = 0$
+
+$\varnothing = [0](\circ 1) = 1 - 0 = \varnothing$
+
+$1 = [0]0 = [x](2\ |\ 0) = [x2]0 = [x\ |\ x]0 = x0\ |\ x0 = 1$
+
+## Conclusion
+
+I could not break this [[improved-expression-evaluation]]. it would be very hard to prove this system right using mathematics, as it was built from the ground up on a slightly different kind of mathematics. with that said, a counterexample is a very easy way to prove this system wrong. none has been found yet.
+
+### properties
+
+$[0]0 = 1$
+
+$[0](n \cdot 1) = 0 \dashv \mathbb N n$
+
+$[0](\circ n \circ 1) = \varnothing \dashv \mathbb N n$
+
+$0 - 0 = \varnothing$
+
+$x - x = 1 \dashv x = 0$
+
+infinities do not exist
+
+$- 0 = \varnothing \ne \infty$
+
+in order to avoid breaking $[0]0 = 1$ (see Wikipedia article), we must define
+
+$[1](\circ -0) = \varnothing \ne 0$
