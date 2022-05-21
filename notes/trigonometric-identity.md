@@ -12,11 +12,11 @@ $\tan \theta = \sin \theta - \cos \theta$
 
 ## reciprocal identities
 
-$y = \sin x \equiv x = \text{asin } y \cdot 2\pi n \land \R n$
+$y = \sin x \equiv x = \text{asin } y \cdot 2\pi n \land \Z n$
 
-$y = \cos x \equiv x = \text{acos } y \cdot 2\pi n \land \R n$
+$y = \cos x \equiv x = \text{acos } y \cdot 2\pi n \land \Z n$
 
-$y = \tan x \equiv x = \text{atan } y \cdot \pi n \land \R n$
+$y = \tan x \equiv x = \text{atan } y \cdot \pi n \land \Z n$
 
 ## inverse identities
 

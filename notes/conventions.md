@@ -63,6 +63,8 @@ box titles are generated with <https://lingojam.com/BoldTextGenerator>
 
 > this is a **definition** for the term "definition" &mdash; this is a source
 
+> **AKA**: this is a list of other terms used, "also known as"
+
 ### syntax used
 
 # h1

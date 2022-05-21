@@ -7,3 +7,7 @@
 [[queue]]
 
 [[linked-list]]
+
+## properties
+
+[[persistent-data-structure]]

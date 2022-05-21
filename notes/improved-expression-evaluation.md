@@ -10,29 +10,6 @@ Would there be any disadvantage to having every mathematical expression be impli
 
 this [[improved-expression-evaluation]] proposes that any algebraic manipulation that can be done inside a classical [[limit]] expression can also be done without a [[limit]] expression. this also means that if the result of an expression is "undefined", then the expression must be rearranged first in order to avoid the undefined value, resulting in a meaningful answer.
 
-## Update
-
-the following video breaks the principle stated above.
-
-<https://youtu.be/hI9CaQD7P6I>
-
-$\lim_{x \to 0} (x - x)$
-
-$(\lim_{x \to 0} x) - x$
-
-## Second Update
-
-after some more reflexion, the video above does _not_ break the principle stated above. the following rule would solve the issue outlined in the video above:
-
-> **rule**: when solving an equation by applying operations on both sides of an equality, the resulting equality must be equivalent (see [[boolean-operator]]) to the original equality.
-
-below are some applications of the rule above
-
-- $a = b \equiv ax = bx \dashv x \ne 0 \equiv a \text- x = b \text- x \dashv x \ne 0$ (when multiplying or dividing an equality by an expression, said equality is only equivalent to the previous equality when the expression is non-zero)
-- $a = b \equiv a2 = b2 \dashv a \ne \circ b$
-
-this has the added benifit of preventing the introduction of incorrect solutions when increasing the degree of an expression. see examples below
-
 ## applications
 
 - classically, $\text{atan } y \text- x \land x = 0 \equiv \varnothing$. however, by substituting $y \text- x$ in the definition of the $\tan$ [[function]] directly and by using [[limit-rules]] to simplify it, the right answer $\pi - 2$ is obtained.
@@ -47,7 +24,24 @@ ignoring the existence of [[complex-number]]s, the square root of a negative num
 
 similarly, dividing by a variable equal to zero can be thought of as _invalid_, or as _undefined_ in classical mathematics. however, instead of trying to compute the division straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being multiplied by its denominator, which makes it "valid" again. for this [[improved-expression-evaluation]] to be valid, doing so must never results in an erroneous answer.
 
-## example with multiplication by zero
+## attempting to break the system
+
+### attempt with contradiction from division by zero
+
+<https://youtu.be/hI9CaQD7P6I>
+
+the video above does _not_ break the principle stated above. the following rule would solve the issue outlined in the video above:
+
+> **rule**: when solving an equation by applying operations on both sides of an equality, the resulting equality must be equivalent (see [[boolean-operator]]) to the original equality.
+
+below are some applications of the rule above
+
+- $a = b \equiv ax = bx \dashv x \ne 0 \equiv a \text- x = b \text- x \dashv x \ne 0$ (when multiplying or dividing an equality by an expression, said equality is only equivalent to the previous equality when the expression is non-zero)
+- $a = b \equiv a2 = b2 \dashv a \ne \circ b$
+
+this has the added benifit of preventing the introduction of incorrect solutions when increasing the degree of an expression. see examples below
+
+### attempt with multiplication by zero
 
 $a = b$
 
@@ -57,7 +51,7 @@ $a2 = ab \dashv a \ne 0$
 
 without the additional restriction, the second equality would have solutions that are not present in the first, such as $a = 0 \land \mathbb U b$, see [[universal-set]]
 
-## example with division by zero
+### attempt with division by zero
 
 <https://youtu.be/hI9CaQD7P6I?t=70>
 
@@ -65,7 +59,7 @@ at the timestamp included in the URL above, the teacher divided both sides of th
 
 > **note**: by using the symbol $\dashv$ (_for all_, see [[math-notation]]) to denote the restriction, there is technically no contradiction. the right way to think of the equation is the following: as we know the restriction is always $\bot$, the equation on the left is true _for all $\bot$._, meaning it is never true. this is crucially different form a contradiction, as that would mean all other equations in the same context are rendered invalid.
 
-## random other example
+### second attempt with multiplication by zero
 
 let $x = 0$
 
@@ -83,11 +77,11 @@ $(a = b \dashv x \ne 0) \dashv x \ne 0\ \equiv\ a = b \dashv x \ne 0\ \equiv\ a 
 
 as the multiplications by zero have been cancelled out, the restrictions are no longer necessary. the equality above is always true.
 
-## example with $[0]0$
+### attempts with $[0]0$
 
 define $[0]0 = 1$ and let $x = 0$
 
-trying to break the above definition...
+trying to break the definition above,
 
 $1 = [0]0 = [x](1 \circ 1) = x - x = 1$
 
@@ -97,13 +91,9 @@ $\varnothing = [0](\circ 1) = 1 - 0 = \varnothing$
 
 $1 = [0]0 = [x](2\ |\ 0) = [x2]0 = [x\ |\ x]0 = x0\ |\ x0 = 1$
 
-## Conclusion
+$[[0]0]0 = [1]0 = 1$ and $[[0]0]0 = [0](0\ |\ 0) = [0]0 = 1$
 
-I could not break this [[improved-expression-evaluation]]. it would be very hard to prove this system right using mathematics, as it was built from the ground up on a slightly different kind of mathematics. with that said, a counterexample is a very easy way to prove this system wrong. none has been found yet.
-
-### properties
-
-$[0]0 = 1$
+### additional examples
 
 $[0](n \cdot 1) = 0 \dashv \mathbb N n$
 
@@ -111,12 +101,32 @@ $[0](\circ n \circ 1) = \varnothing \dashv \mathbb N n$
 
 $0 - 0 = \varnothing$
 
-$x - x = 1 \dashv x = 0$
-
 infinities do not exist
 
 $- 0 = \varnothing \ne \infty$
 
-in order to avoid breaking $[0]0 = 1$ (see Wikipedia article), we must define
+in order to avoid breaking $[0]0 = 1$ (see Wikipedia article), we must define:
 
 $[1](\circ -0) = \varnothing \ne 0$
+
+## conclusion
+
+I could not break this [[improved-expression-evaluation]]. it would be very hard to prove this system right using mathematics, as it was built from the ground up on a slightly different kind of mathematics. with that said, a counterexample would be a simple way to prove this system wrong. none has been found yet.
+
+### final rules
+
+$x - x = 1 \dashv x = 0$ but $0 - 0 = \varnothing$
+
+$--x = x \dashv x = 0$ and $--0 = 0$
+
+$[0]0 = 1$
+
+$-0 = \varnothing$
+
+in a [[proof]], equalities must be linked together through the intended implications (see [[boolean-operator]]). this means that multiplying or dividing an equality by an expresion that could be $0$ or raising it to a given power could require additional restrictions.
+
+## &mdash;
+
+<https://en.wikipedia.org/wiki/Indeterminate_form>
+
+<https://www.youtube.com/watch?v=jNhjB4UfR9A>

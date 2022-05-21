@@ -2,6 +2,8 @@
 
 _tricks for [[learning]] facts_
 
+see [[memory]]
+
 &mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0&ab_channel=PierceCollegeDist11>
 interesting view on memory &mdash; <https://youtu.be/VQKt58kuEnk>
 

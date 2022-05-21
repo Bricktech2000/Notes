@@ -2,6 +2,8 @@
 
 see [[classical-math-notation]]
 
+this note describes my custom [[math-notation]], meant to solve inconsistencies in [[classical-math-notation]]. it is not meant to be a fully formal mathematical system; rather, it is built to be easy and intuitive to use by mere humans.
+
 ## notation
 
 ### basic operators

@@ -14,12 +14,12 @@ $\land$ in my [[math-notation]]
 
 straight-curve logic [[gate]]. may take more than one input
 
-| A   | B   | A AND B |
-| --- | --- | ------- |
-| 0   | 0   | 0       |
-| 0   | 1   | 0       |
-| 1   | 0   | 0       |
-| 1   | 1   | 1       |
+| $A$ | $B$ | $A \land B$ |
+| --- | --- | ----------- |
+| 0   | 0   | 0           |
+| 0   | 1   | 0           |
+| 1   | 0   | 0           |
+| 1   | 1   | 1           |
 
 ## OR
 
@@ -35,12 +35,12 @@ $\land$ in my [[math-notation]]
 
 concave-pointycurve logic [[gate]]. may take more than one input
 
-| A   | B   | A OR B |
-| --- | --- | ------ |
-| 0   | 0   | 0      |
-| 0   | 1   | 1      |
-| 1   | 0   | 1      |
-| 1   | 1   | 1      |
+| $A$ | $B$ | $A \lor B$ |
+| --- | --- | ---------- |
+| 0   | 0   | 0          |
+| 0   | 1   | 1          |
+| 1   | 0   | 1          |
+| 1   | 1   | 1          |
 
 ## NOT
 
@@ -56,10 +56,10 @@ $\lnot$ in my [[math-notation]]
 
 triangle-circle logic [[gate]]. may only take one input
 
-| A   | NOT A |
-| --- | ----- |
-| 0   | 1     |
-| 1   | 0     |
+| $A$ | $\lnot A$ |
+| --- | --------- |
+| 0   | 1         |
+| 1   | 0         |
 
 ## XOR
 
@@ -73,14 +73,14 @@ $\times$ in my [[math-notation]]
 
 ### representation
 
-doubleconcave-pointycurve logic [[gate]]. if the [[gate]] does not take exactly two inputs, the output of the [[gate]] can be thought of as “is the number of true inputs odd?”
+doubleconcave-pointycurve logic [[gate]]. if the [[gate]] does not take exactly two inputs, the output of the [[gate]] can be thought of as "is the number of true inputs odd?"
 
-| A   | B   | A XOR B |
-| --- | --- | ------- |
-| 0   | 0   | 0       |
-| 0   | 1   | 1       |
-| 1   | 0   | 1       |
-| 1   | 1   | 0       |
+| $A$ | $B$ | $A \times B$ |
+| --- | --- | ------------ |
+| 0   | 0   | 0            |
+| 0   | 1   | 1            |
+| 1   | 0   | 1            |
+| 1   | 1   | 0            |
 
 ## Implication
 
@@ -102,12 +102,12 @@ if $x = \bot$, then $x \vdash y$ is _trivially true_
 
 can be built by combining multiple logic [[gate]]s. may only take one input
 
-| A   | B   | A IMPL B |
-| --- | --- | -------- |
-| 0   | 0   | 1        |
-| 0   | 1   | 1        |
-| 1   | 0   | 0        |
-| 1   | 1   | 0        |
+| $A$ | $B$ | $A \vdash B$ |
+| --- | --- | ------------ |
+| 0   | 0   | 1            |
+| 0   | 1   | 1            |
+| 1   | 0   | 0            |
+| 1   | 1   | 0            |
 
 ## XNOR
 
@@ -123,12 +123,12 @@ $\equiv$ in my [[math-notation]]
 
 doubleconcave-pointycurve-circle logic [[gate]]. if the [[gate]] does not take exactly two inputs, the output of the [[gate]] can be thought of as “is the number of true inputs even?”
 
-| A   | B   | A EQUIV B |
-| --- | --- | --------- |
-| 0   | 0   | 1         |
-| 0   | 1   | 0         |
-| 1   | 0   | 0         |
-| 1   | 1   | 1         |
+| $A$ | $B$ | $A \equiv B$ |
+| --- | --- | ------------ |
+| 0   | 0   | 1            |
+| 0   | 1   | 0            |
+| 1   | 0   | 0            |
+| 1   | 1   | 1            |
 
 ## operator precedence
 

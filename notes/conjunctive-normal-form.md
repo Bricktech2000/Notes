@@ -1,8 +1,6 @@
 # Conjunctive Normal Form
 
-## acronym
-
-CNF
+> **AKA**: CNV
 
 ## definition
 

@@ -4,9 +4,7 @@ _a measure of the average change over time in the prices paid by urban consumers
 
 see [[economics]]
 
-### acronym
-
-CPI
+> **AKA**: CPI
 
 ## calculating the CPI
 

@@ -1,6 +1,6 @@
 # Limit Rules
 
-see [[math-notation]], [[math-notation]]
+see [[math-notation]]
 
 let $c$ be a constant and ensure $\lim_{x \to a} f\ x$ and $\lim_{x \to a} g\ x$ are [[limit]]s that exist
 

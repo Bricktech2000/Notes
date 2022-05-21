@@ -6,6 +6,8 @@ see [[currying]], [[partial-application]], [[pure-function]]
 
 see [[function]], [[type]], [[composition]], [[apply]]
 
+see [[refactoring-to-immutability]]
+
 &mdash; <https://youtu.be/Nrp_LZ-XGsY>
 
 &mdash; <https://youtu.be/srQt1NAHYC0>

@@ -8,7 +8,7 @@ for better [[learning]], identify if what you're [[learning]] is a concept or a 
 
 _an isolated piece of information related to a concept_
 
-facts can easily get confused, which is the reason why we have reference books and search engines. _if you know the concept, you can quickly look up the fact_. facts can be learned through [[mnemonic]].
+facts can easily get confused, which is the reason why we have reference books and search engines. _if you know the concept, you can quickly look up the fact_. facts can be learned through [[mnemonic]] or other [[memory-technique]]s.
 
 ### examples
 

@@ -10,9 +10,7 @@ it is the most closely watched [[economics]] statistic
 
 the GPD measures both income and expenditure at once (which works since they are equal, see [[economy]])
 
-### acronym
-
-GDP
+> **AKA**: GDP
 
 ## Measuring the GDP
 

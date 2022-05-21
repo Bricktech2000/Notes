@@ -2,9 +2,7 @@
 
 see [[conjunctive-normal-form]]
 
-## acronym
-
-DNF
+> **AKA**: DNF
 
 ## definition
 
