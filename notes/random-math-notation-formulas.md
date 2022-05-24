@@ -28,7 +28,7 @@ $\mathbb R^nU_1 \land \mathbb R^nO \dashv aO = O \dashv \mathbb R a$
 
 $^\perp = U \to v \to \mathbb R^nv \land u \cdot v = 0 \dashv U u$
 
-$dist\ A, B = dist\ A \cdot x, B \cdot x \dashv \mathbb U x$, see [[universal-set]]
+$dist\ A, B = dist\ A \cdot x, B \cdot x \dashv \mathbb U x$, see [[universal]]
 
 $dist\ A, B \cdot dist\ B, C \ge dist\ A, C$
 

@@ -1,5 +1,7 @@
 # Boolean Function
 
+see [[boolean]]
+
 _a function acting on [[boolean-variable]]s_
 
 ### example

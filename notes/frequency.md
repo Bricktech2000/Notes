@@ -2,4 +2,4 @@
 
 symbol: $f$, $\nu$, $\omega$
 
-$\nu$ is often used to represent electromagnetic waves &mdash; Britannica
+$\nu$ is often used to represent [[electromagnetic-wave]]s &mdash; Britannica

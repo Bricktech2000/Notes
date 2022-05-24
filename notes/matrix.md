@@ -290,7 +290,7 @@ an $n$ by $n$ [[matrix]] $A$ is said to be _diagonalizable over the reals_ if th
 
 a [[matrix]] is _diagonalizable_ if and only if the geometic [[multiplicity]] of an [[eigenvalue]] is equal to the algebraic [[multiplicity]] of said [[eigenvalue]], for every [[eigenvalue]] of the [[matrix]] (see [[eigenvector-and-eigenvalue]])
 
-> **note**: a [[matrix]] may also be diagonalizable over other [[number-field]]s such as the [[set]] of [[complex-number]]s $\mathbb C$
+> **note**: a [[matrix]] may also be diagonalizable over other [[number-field]]s such as the [[set]] of [[complex]] numbers $\mathbb C$
 
 > **note**: some [[matrix]]es do not have "enough" real [[eigenvalue]]s or "enough" [[eigenvector]]s to be diagonalizable
 

@@ -14,7 +14,7 @@ variables are defined in separate lines using a _, where_ statement
 
 ### headings
 
-Capitalized headings are for concepts
+Capitalized headings are for [[concept]]s
 
 lowercease headings are for general titles
 
@@ -31,7 +31,7 @@ the following headings are commonly used:
 
 ### quotes, italics, sources, URLs
 
-blockquotes are used for factual information and definitions
+blockquotes are used for [[fact]]ual information and definitions
 
 italics are used for tricks or personal definitions
 

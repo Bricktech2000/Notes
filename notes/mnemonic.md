@@ -1,13 +1,10 @@
 # Mnemonic
 
-_tricks for [[learning]] facts_
+_tricks for [[learning]] [[fact]]s_
 
 see [[memory]]
 
 &mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0&ab_channel=PierceCollegeDist11>
-interesting view on memory &mdash; <https://youtu.be/VQKt58kuEnk>
-
-bundling unrelated facts into a single related construct can help remember them &mdash; me
 
 ## examples of mnemonics
 

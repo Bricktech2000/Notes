@@ -18,3 +18,11 @@ smart phones can be thought of as a set of input-output devices joined together 
 
 - the camera app uses the phone camera and the screen as input and uses the phone storage and the screen as output
 - the music app uses the phone storage and the screen as input and uses the phone speaker and the screen as output
+
+## fidelity programs
+
+fidelity programs are a way to lock clients into an ecosystem. this fact is sometimes made explicit (as does Desjardins) but sometimes made implicit (as does Apple)
+
+## sunsets look good
+
+why do sunsets look good? [[complete]]

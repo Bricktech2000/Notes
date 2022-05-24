@@ -47,7 +47,7 @@ attendance is mandatory &mdash; syllabus
 
 [[row-reduction]]
 
-[[complex-number]]
+[[complex]] numbers
 
 [[determinant]]
 
@@ -61,7 +61,7 @@ attendance is mandatory &mdash; syllabus
 
 [[span]]s, [[zero-space]], [[basis]]
 
-[[number-set]]
+[[number]]
 
 [[number-field]]
 

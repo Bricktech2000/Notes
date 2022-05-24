@@ -8,11 +8,15 @@ see [[math-notation]]
 
 $\lim_{n \to \infty} [1 \cdot -n]n = e$
 
-$\lim_{n \to 0} [1 \cdot n](-n) = e$
+$\lim_{h \to 0} [1 \cdot h](-h) = e$
 
 ## properties
 
-$\delta\ [e]x - \delta x = [e]x$, see [[derivative-rules]]
+$\delta\ [e]x - \delta x = [e]x$, see [[derivative]]
+
+from the [[limit]] definition, we then derive
+
+$\lim_{h \to 0} [e]h \circ 1 - h = 1$
 
 ## example
 

@@ -30,7 +30,7 @@ $\lfloor a \rfloor b$ is the $b$ th root of $a$ ($b = 2$ if $b$ is omitted)
 
 $\lceil a \rceil b$ is the base-$b$ logarithm of $a$ ($b = e$ if $b$ is omitted)
 
-$a\ b$ is shorthand for $[a] b$ only if $b$ is a number and $a$ is a variable
+$a\ b$ is shorthand for $[a] b$ only if $b$ is a [[number]] and $a$ is a variable
 
 ### [[set]]s and [[function]]s
 
@@ -40,13 +40,21 @@ $\mathbb N a$ checks whether $a$ is part of the [[set]] $\mathbb N$
 
 $f\ x$ is the application of the [[function]] $f$ to $x$
 
-$S = \{a \dots b\}$ is shorthand for $S\ x = (x = a) \lor \dots (x = b)$
+$S = \{a \dots b\}$ is shorthand for $S\ x \equiv x = a \lor \dots x = b$
 
 ### [[boolean-operator]]s
 
 $a = b$ checks whether two expressions are equal
 
-$a \ne b$ chechs whether two expressions are different
+$a \ne b$ checks whether two expressions are different
+
+$a < b$ checks whether $a$ is less than $b$
+
+$a > b$ checks whether $a$ is greater than $b$
+
+$a \le b$ checks whether $a$ is less than or equal to $b$
+
+$a \gt b$ checks whether $a$ is greater than or equal to $b$
 
 $a \land b$ is logical and (`and`)
 
@@ -76,7 +84,7 @@ $X_{subscript}$ is the variable $X$ with a subscript $_{subscript}$
 
 $V^y$ is the $y$ (second) component of the [[vector]] $V$
 
-$V^\omega$ where $\omega$ is a number is the $\omega$ th component of the [[vector]] $V$
+$V^\omega$ where $\omega$ is a [[number]] is the $\omega$ th component of the [[vector]] $V$
 
 $M^{i, j}$ is the $i, j$ th element of the [[matrix]] $M$
 
@@ -90,7 +98,7 @@ $A^-$ is the multiplicative inverse of the [[matrix]] $A$
 
 $f^\times$ is the reciprocal (switching input and output) of the function $f$ (might not be necessary, [[think]])
 
-### [[trigonometric-identity]]es
+### [[trigonometric-function]]es
 
 ### [[calculus-notation]]
 
@@ -129,7 +137,7 @@ _high to low_
 
 - $=$ **checks** for equality and returns a boolean
 - it is implied that an expression on its own must evaluate to $\top$ (`true`)
-- [[set]]s are [[function]]s that return a boolean ($\mathbb R a$ instead of $a \in \mathbb R$)
+- [[set]]s are [[function]]s that return a [[boolean]] ($\mathbb R a$ instead of $a \in \mathbb R$)
 - $\lfloor a \rfloor$ (or $\lfloor a \rfloor 2$) returns both positive and negative square roots ($\lfloor q2 \rfloor \equiv \dot \circ q$)
 - $\lfloor 4 \rfloor = 2$ is valid, but $\lfloor 4 \rfloor \equiv 2$ is invalid
 - ~~functions support [[currying]] to take multiple arguments~~
@@ -138,11 +146,7 @@ _high to low_
 ## examples
 
 - [[quadratic-formula]]: $\circ b \cdot \lfloor b2 \circ 4ac \rfloor - 2a$
-- definition of the [[set]] of [[complex-number]]s: $\mathbb C x \equiv x = a \cdot b\lfloor \circ 1 \rfloor \land \mathbb R a \land \mathbb R b$
-- definition of multiplication of a boolean by a scalar:
-  - $\mathbb B b = (b \equiv \top) \lor (b \equiv \bot)$
-  - $(ab = b \dashv a \ne 0 \land \mathbb Bb) \vdash 2\top = \top$
-  - $(ab = \varnothing \dashv a = 0 \land \mathbb Bb) \vdash 0\top = \varnothing$
+- definition of the [[set]] of [[complex]] numbers: $\mathbb C x \equiv x = a \cdot b\lfloor \circ 1 \rfloor \land \mathbb R a \land \mathbb R b$
 - definition of the implication / sub[[set]] / super[[set]] / “for all” symbol:
   - $a \vdash b = \lnot a \lor b$
   - $a \dashv b = a \lor \lnot b$

@@ -1,12 +1,12 @@
 # Sign-Magnitude Notation
 
-_an alternative to Radix [[complement]]s for representing negative numbers in [[digital-system]]s_
+_an alternative to Radix [[complement]]s for representing negative [[number]]s in [[digital-system]]s_
 
 see [[positional-numbering-system]]
 
 ### calculation
 
-an $n$-bit number is represented with $1$ sign bit and $n-1$ magnitude bits
+an $n$-bit [[binary]] [[number]] is represented with $1$ sign bit and $n-1$ magnitude bits
 
 ### example
 

@@ -1,6 +1,6 @@
 # Conjunctive Normal Form
 
-> **AKA**: CNV
+> **AKA**: CNV, PoS
 
 ## definition
 

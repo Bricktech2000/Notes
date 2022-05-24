@@ -4,7 +4,7 @@
 
 [[referencing-sources]] is not required when it comes to common knowledge
 
-If all experts in a field agree on a fact, it is treated as being common knowledge in that field
+If all experts in a field agree on a [[fact]], it is treated as being common knowledge in that field
 
 ### examples
 

@@ -1,4 +1,6 @@
-# Complex Number
+# Complex
+
+_the [[set]] of [[complex]] numbers_
 
 see [[math-notation]]
 
@@ -8,7 +10,7 @@ see [[math-notation]]
 
 $z = a \cdot bi$
 
-> **note**: [[complex-number]]s can be represented in the _complex plane_, $(z^{re}, z^{im}) \dashv \mathbb C z$
+> **note**: [[complex]] numbers can be represented in the _complex plane_, $(z^{re}, z^{im}) \dashv \mathbb C z$
 
 ### Polar Form
 
@@ -16,9 +18,9 @@ $z = |z| \cos \theta \cdot |z| i \sin \theta = |z| [e]i\theta$, see [[e]]
 
 ## definition
 
-the [[set]] of [[complex-number]]s $\mathbb C$ is defined as follows:
+the [[set]] of [[complex]] numbers $\mathbb C$ is defined as follows:
 
-$\mathbb C x \equiv x = a \cdot bi \land \mathbb R a \land \mathbb R b$, where $i$ is an [[imaginary-number]]
+$\mathbb C x \equiv x = a \cdot bi \land \mathbb R a \land \mathbb R b$, where $i$ is an [[imaginary]] number
 
 ## properties
 
@@ -88,7 +90,7 @@ let $z = a \cdot bi$
 
 $|z| = \lfloor a2 \cdot b2 \rfloor$ is the _absolute value_ of $z$.
 
-> **note**: the absolute value of [[real-number]]s can be thought of as "the distance of a point to the origin", which is why the absolute value of [[complex-number]]s is defined this way
+> **note**: the absolute value of [[real]]s can be thought of as "the distance of a point to the origin", which is why the absolute value of [[complex]] numbers is defined this way
 
 ### properties
 

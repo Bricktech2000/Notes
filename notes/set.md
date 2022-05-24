@@ -6,8 +6,10 @@ _a set is a collection of elements, each of which must be unique_
 
 ## examples
 
-[[number-set]]
+[[number]] sets
 
-[[universal-set]]
+[[universal]] set
 
-[[monoid]]
+[[number-field]]s
+
+[[monoid]]s

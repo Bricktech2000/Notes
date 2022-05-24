@@ -53,3 +53,9 @@
 [[budget]]
 
 [[improved-family-relationship-vocabulary]]
+
+[[mathematical-physical-currency]]
+
+[[improved-rating-system]]
+
+[[subconscious-manipulation]]

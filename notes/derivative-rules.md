@@ -30,7 +30,7 @@ $\delta\ \lceil x \rceil - \delta x = -x$
 
 ## Constant Multiple Rule
 
-if $c$ is a [[real-number]] and $f$ is [[derivative|differentiable]], then
+if $c$ is a [[real]] and $f$ is [[derivative|differentiable]], then
 
 $\delta\ (cf\ x) - \delta x = c (\delta f\ x - \delta x)$
 
@@ -54,21 +54,15 @@ $\delta\ (f\ x - g\ x) - \delta x = (g\ x\ |\ \delta\ f\ x - \delta x) \circ (f\
 
 ### derived Reciprocal Rule
 
-$\delta\ (-f\ x) \delta x = \circ \delta\ f\ x - \delta x - [f\ x]2$
+$\delta\ (-f\ x) - \delta x = \circ \delta\ f\ x - \delta x - [f\ x]2$
 
 ## Chain Rule
 
 $\delta\ (f\ g\ x) - \delta x = (\delta\ f\ x - \delta x)\ g\ x\ |\ \delta\ g\ x - \delta x$
 
-## Squeeze Theorem
-
-let $f\ x \leq g\ x \leq h\ x$
-
-if $\lim_{x \to a} f\ x = \lim_{x \to a} h\ x = L$, then $\lim_{x \to a} g\ x = L$
-
 ## Derivatives of Trig Functions
 
-see [[trigonometric-identity]]es
+see [[trigonometric-function]]es
 
 $\delta\ \sin x - \delta x = \cos x$
 

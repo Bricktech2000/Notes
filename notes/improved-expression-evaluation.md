@@ -8,7 +8,7 @@ see [[math-notation]]
 
 Would there be any disadvantage to having every mathematical expression be implicitly evaluated using [[limit]]s? Is there any situation in which an undefined value would be required? This would allow for any algebraic manipulation on expressions without having to worry about restrictions.
 
-this [[improved-expression-evaluation]] proposes that any algebraic manipulation that can be done inside a classical [[limit]] expression can also be done without a [[limit]] expression. this also means that if the result of an expression is "undefined", then the expression must be rearranged first in order to avoid the undefined value, resulting in a meaningful answer.
+this [[improved-expression-evaluation]] proposes that any algebraic manipulation that can be done inside a classical [[limit]] expression can also be done without a [[limit]] expression. this also means that if the result of an expression is _undefined_, then the expression must be rearranged first in order to avoid the undefined value, resulting in a meaningful result.
 
 ## applications
 
@@ -18,9 +18,9 @@ this [[improved-expression-evaluation]] proposes that any algebraic manipulation
 
 - many algebraic rules contain an arbitrary restriction such as $\dashv x \ne 0$ given a variable $x$. however, none of them break (have broken yet) when removing the restriction and using this [[improved-expression-evaluation]]. see backlinks for real-world examples
 
-## analogy with [[complex-number]]s
+## analogy with [[complex]] numbers
 
-ignoring the existence of [[complex-number]]s, the square root of a negative number can be thought of as _invalid_. however, instead of trying to compute the square root straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being squared, which makes it "valid" again. it turns out that doing so never results in an erroneous answer.
+ignoring the existence of [[complex]] numbers, the square root of a negative [[number]] can be thought of as _invalid_. however, instead of trying to compute the square root straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being squared, which makes it "valid" again. it turns out that doing so never results in an erroneous answer.
 
 similarly, dividing by a variable equal to zero can be thought of as _invalid_, or as _undefined_ in classical mathematics. however, instead of trying to compute the division straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being multiplied by its denominator, which makes it "valid" again. for this [[improved-expression-evaluation]] to be valid, doing so must never results in an erroneous answer.
 
@@ -49,7 +49,7 @@ multiplying by $a$ on both sides and adding the restriction,
 
 $a2 = ab \dashv a \ne 0$
 
-without the additional restriction, the second equality would have solutions that are not present in the first, such as $a = 0 \land \mathbb U b$, see [[universal-set]]
+without the additional restriction, the second equality would have solutions that are not present in the first, such as $a = 0 \land \mathbb U b$, see [[universal]]
 
 ### attempt with division by zero
 
@@ -113,7 +113,7 @@ $[1](\circ -0) = \varnothing \ne 0$
 
 I could not break this [[improved-expression-evaluation]]. it would be very hard to prove this system right using mathematics, as it was built from the ground up on a slightly different kind of mathematics. with that said, a counterexample would be a simple way to prove this system wrong. none has been found yet.
 
-### final rules
+### current rules
 
 $x - x = 1 \dashv x = 0$ but $0 - 0 = \varnothing$
 
@@ -123,10 +123,22 @@ $[0]0 = 1$
 
 $-0 = \varnothing$
 
-in a [[proof]], equalities must be linked together through the intended implications (see [[boolean-operator]]). this means that multiplying or dividing an equality by an expresion that could be $0$ or raising it to a given power could require additional restrictions.
+in a [[proof]], equalities must be linked together through the intended implications (see [[boolean-operator]]). this means that multiplying or dividing an equality by an expresion that could be $0$ or raising it to some power could require additional restrictions.
+
+if the result of an expression is _undefined_, then the expression must be rearranged first in order to avoid the undefined value. note that some expressions (such as $-0$) cannot be computed without proper context, leaving them undefined.
 
 ## &mdash;
 
 <https://en.wikipedia.org/wiki/Indeterminate_form>
 
 <https://www.youtube.com/watch?v=jNhjB4UfR9A>
+
+## exponents and square roots
+
+define $\lfloor x2 \rfloor = x$, but $\lfloor 4 \rfloor = \dot \circ 2$ &mdash; Kiera
+
+$x = \lfloor x2 \rfloor = \lfloor [\circ x]2 \rfloor = \circ x$
+
+using the property $[x]2 = [\circ x]2 \dashv \mathbb R x$, just as we could use the property $0x = 0 \dashv \mathbb R x$ for division by zero
+
+breakthrough (I think): in the case of division by zero, it's not about the zeros being the same; it's about not using the _information-tampering_ property that any real multiplied by zero returns zero. the same is true with the exponent-root pair.

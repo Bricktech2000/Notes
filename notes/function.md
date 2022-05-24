@@ -12,6 +12,8 @@
 
 [[pure-function]]
 
+[[trigonometric-function]]
+
 ## applications
 
 [[curve-sketching]]
@@ -40,15 +42,19 @@ $(cf)\ x = c\ |\ f\ x$
 
 ## [[odd-function]]
 
-## continuity
+## Continuity
 
 see [[math-notation]]
 
-> a function is continuous at $a$ when $\lim_{x \to a} f\ x = f\ a$. both [[limit]]s must exist.
+> a [[function]] $f\ x$ is **continuous** at $x = a$ if:
+>
+> 1. $\lim_{x \to a} f\ x$ exists (prevents jump discontinuities)
+> 2. $f\ x$ is defined at $x = a$ (prevents undefined values)
+> 3. $\lim_{x \to a} f\ x = f\ a$ (prevents other jump discontinuities)
 
-> a function is continuous **from the left** at $a$ when $\lim_{x \to a^-} f\ x = f\ a$. both [[limit]]s must exist
+> a [[function]] is **continuous from the left** at $a$ when $\lim_{x \to a^-} f\ x = f\ a$ and both other conditions are met
 
-> a function is continuous **from the right** at $a$ when $\lim_{x \to a^+} f\ x = f\ a$. both [[limit]]s must exist
+> a [[function]] is **continuous from the right** at $a$ when $\lim_{x \to a^+} f\ x = f\ a$ and both other conditions are met
 
 > **theorem**: if $f\ x$ and $g\ x$ are continuous at $a$, then the following functions are also continuous at $a$:
 >
@@ -56,6 +62,8 @@ see [[math-notation]]
 > - $f'g$
 > - $c f$ where $c$ is a constant
 > - $f \text- g$ if $g\ a \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
+
+> a [[function]] is **continuous** on an interval $a \le x \le b$ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
 
 ## Inverse (or Reciprocal) Function
 

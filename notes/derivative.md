@@ -38,7 +38,15 @@ to differentiate a [[function]], apply [[derivative-rules]] recursively
 
 ### differentiability
 
-> a [[function]] $f$ is differentiable at $a$ if $\delta f\ a - \delta x$ exists
+> a [[function]] $f$ is **differentiable** at $a$ if $\delta f\ a - \delta x$ exists
+
+> a [[function]] is **differentiable** on an interval $a \le x \le b$ if it is differentiable on every point from $a$ to $b$
+
+> **theorem**: if $f\ x$ is not continuous at $x = a$, then it is not differentiable at $x = a$
+
+> **theorem**: if $f\ x$ is differentiable at $x = a$, then it is continuous at $x = a$
+
+> **theorem**: if $f\ x$ is continuous at $x = a$, then it may or may not be differentiable at $x = a$
 
 ## Logarithmic Differentiation
 

@@ -8,13 +8,13 @@ _generally, one [[photon]] ejects one [[electron]]_
 
 _for [[chm1301-principles-of-chemistry]], assume_ $1mol_{e^-}$ = $1mol_{substance}$
 
-## Formulas
+## equations
 
 ### Wave Equation
 
 $\nu \lambda = c$, where
 
-$c$ is the speed of [[light]]
+$c$ is the speed of [[light]] in a given medium
 
 $\nu$ is the [[frequency]] of the wave
 

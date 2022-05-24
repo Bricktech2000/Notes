@@ -2,7 +2,7 @@
 
 see [[conjunctive-normal-form]]
 
-> **AKA**: DNF
+> **AKA**: DNF, SoP
 
 ## definition
 

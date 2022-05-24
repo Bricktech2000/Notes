@@ -77,7 +77,7 @@ $Im\ T$
 
 $(Ker\ T)\ x \equiv T\ x = 0 \land \mathbb T T$
 
-$(Im\ T)\ x \equiv T\ u = x \land \mathbb T T \land \mathbb U u$, see [[universal-set]]
+$(Im\ T)\ x \equiv T\ u = x \land \mathbb T T \land \mathbb U u$, see [[universal]]
 
 ### properties
 

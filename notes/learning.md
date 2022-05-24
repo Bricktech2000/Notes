@@ -2,29 +2,17 @@
 
 [[sleep]], [[insomnia]]
 
-[[less-stimulated-lifestyle]]
-
-[[recollection-vs-recognition]]
-
-[[environmental-dependency-of-learning]]
-
-[[concept-vs-fact]]
+[[concept]] vs [[fact]]
 
 [[english-bad-habits]]
 
 [[surface-volume-disambiguation]]
 
-an excess of [[motivation]] can lead to [[feeling-overwhelmed]], which can lead to [[procrastination]]
+[[psychology]]
 
-[[desire-vs-value]]
-
-[[hijacking-brain-circuitry]]
+[[video-game]]
 
 [[curve-fitting]]
-
-[[mnemonic]]
-
-[[intent-to-mastery]]
 
 [[credit-card]]
 
@@ -34,10 +22,8 @@ an excess of [[motivation]] can lead to [[feeling-overwhelmed]], which can lead 
 
 [[refactoring-to-immutability]]
 
-[[memory]]
+[[alpha-radiation]]
 
-[[memory-technique]]
+[[beta-radiation]]
 
-[[10x-developer]]
-
-[[intellectual-giftedness]]
+[[gamma-radiation]]

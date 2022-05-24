@@ -1,4 +1,6 @@
-# Irrational Number
+# Irrational
+
+_the [[set]] of [[irrational]] numbers_
 
 see [[math-notation]]
 

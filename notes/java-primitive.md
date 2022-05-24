@@ -12,4 +12,4 @@ primitives can be passed by reference using [[java-wrapper]]s
 byte, short, int, long, float, double, boolean, char
 ```
 
-> **note**: the size of booleans can be either 1 bit or 8 bits, depending on the VM implementation
+> **note**: the size of [[boolean]]s can be either 1 bit or 8 bits, depending on the VM implementation

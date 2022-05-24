@@ -1,6 +1,6 @@
 # Odd Number
 
-see [[math-notation]], [[boolean-algebra]]
+see [[math-notation]], [[boolean-algebra]], [[number]]
 
 $\mathbb O \equiv \lnot \mathbb E$, see [[even-number]]
 

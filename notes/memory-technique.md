@@ -4,6 +4,8 @@ see [[memory]]
 
 [[memory]] athletes memorize through their semantic [[memory]]
 
+bundling unrelated [[fact]]s into a single related construct can help remember them &mdash; me
+
 ## example with memorizing digits
 
 &mdash; [[todo]], see [[memory]]

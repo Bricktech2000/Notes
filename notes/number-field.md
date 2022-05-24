@@ -1,10 +1,12 @@
 # Number Field
 
+see [[math-notation]], [[set]], [[number]]
+
 ## examples
 
-- the [[set]] of [[real-number]]s
-- the [[set]] of [[complex-number]]s
-- the [[set]] of integers modulo a prime number
+- the [[set]] of [[real]] numbers
+- the [[set]] of [[complex]] numbers
+- the [[set]] of [[integer]]s modulo a prime [[number]]
 
 ## definition
 
@@ -38,4 +40,4 @@ $a(b \cdot c) = ab \cdot ac$ &mdash; distributivity of multiplication over addit
 
 [[number-field]]s are use as _scalars_ in linear algebra
 
-> **note**: in [[mat1341-d-introduction-to-linear-algebra]], the field of [[real-number]]s was used for all computations. the field of [[complex-number]]s could've also been used instead
+> **note**: in [[mat1341-d-introduction-to-linear-algebra]], the [[number-field]] of [[real]]s was used for all computations. the [[number-field]] of [[complex]] numbers could've also been used instead

@@ -2,7 +2,7 @@
 
 _finding the second combination to a Master Lock combination lock_
 
-### random facts
+### random [[fact]]s
 
 - bumps on code wheels are approximately 1.5 digits wide
 - there is play in the system (roughly 1 digit wide). this means that the last code wheel will turn with the first code wheel for 1 digit before the friction disk keeps it from turning further

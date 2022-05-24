@@ -2,7 +2,7 @@
 
 _used to simplify subtraction by instead performing addition with the number’s complement_
 
-it is one of the ways of representing negative numbers in [[digital-system]]s and is usually preferred over [[sign-magnitude-notation]]
+it is one of the ways of representing negative [[number]]s in [[digital-system]]s and is usually preferred over [[sign-magnitude-notation]]
 
 there are two different complements for a given [[positional-numbering-system]], outlined below.
 

@@ -19,3 +19,4 @@ this seems to be a common problem among the general public, and frustrates me ve
 - comparing populations using a linear scale &mdash; should use a logarithmic scale instead
 - representing budget distribution with a fractional scale &mdash; should use a pie chart instead
 - comparing prices with dollar amounts &mdash; should use a fractional scale instead
+- representing probabilities of precipitation with a percentage &mdash; should use a probability distribution instead

@@ -12,7 +12,7 @@ $M_{m\ n}(\mathbb R)$ in [[classical-math-notation]]
 
 ## definition
 
-$\mathbb M^{m, n} x = $
+$\mathbb M^{m, n} x = $ [[todo]]
 
 ## [[axiom]]s
 

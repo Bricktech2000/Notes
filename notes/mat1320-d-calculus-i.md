@@ -50,6 +50,6 @@ Calculus: Early Transcendentals, by James Stewart, 9th Edition.
 
 [[rationalizing]]
 
-[[trigonometric-identity]]
+[[trigonometric-function]]
 
 all types of [[function]]s

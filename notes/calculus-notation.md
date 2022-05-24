@@ -22,7 +22,7 @@ $(\delta - \delta x) y \equiv \frac{\delta}{\delta x} y$ ~~makes no sense whatso
 
 ## properties with [[proof]]s
 
-let $\mathbb U c$, see [[universal-set]]
+let $\mathbb U c$, see [[universal]]
 
 $\int \delta y = y \cdot c$
 

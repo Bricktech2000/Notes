@@ -2,7 +2,7 @@
 
 see [[math-notation]]
 
-> a **multiset** is a modification to the concept of a [[set]] that allows multiple instances for each of its elements &mdash; Wikipedia
+> a **multiset** is a modification to the [[concept]] of a [[set]] that allows multiple instances for each of its elements &mdash; Wikipedia
 
 ## Multiplicity
 

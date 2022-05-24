@@ -1,10 +1,12 @@
 # Positional Numbering System
 
-### notation
+see [[classical-math-notation]], [[number]]
+
+## notation
 
 $(123)_{base}$
 
-### examples
+## examples
 
 $35_{10}$
 

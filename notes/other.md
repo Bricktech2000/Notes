@@ -15,3 +15,7 @@
 [[esoteric-programming-language-idea]]
 
 [[personal-issues-with-university]]
+
+[[life-quotes]]
+
+[[recipes]]

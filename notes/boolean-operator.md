@@ -1,5 +1,7 @@
 # Boolean Operator
 
+see [[boolean]], [[boolean-algebra]]
+
 ## AND
 
 > **AKA**: Conjunction

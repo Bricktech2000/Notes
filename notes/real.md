@@ -1,4 +1,6 @@
-# Real Number
+# Real
+
+_the [[set]] of [[real]] numbers_
 
 see [[math-notation]]
 

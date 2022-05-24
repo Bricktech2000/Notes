@@ -22,10 +22,10 @@ $\lim_{x \to a}$ does not exist if any of the following is true:
 
 if $g\ a = 0$, then $\lim_{x \to a} (f\ x - g\ x)$
 
-- does not exist if $f\ a \ne 0$
+- does not exist if $f\ a \ne 0$ (including $\dot \circ \infty$)
 - can exist if $f\ a = 0$. first simplify using the [[limit-rules]] and then study the limit
 
-### tricks for computing a limit
+### tricks
 
 for an $\infty - \infty$ indeterminate form (see [[rational-function]]):
 
@@ -36,7 +36,15 @@ for the addition or subtraction of fractions, try to use a common denominator
 
 for subtraction of square roots, try to multiply by the conjugate
 
+for a $0 - 0$ indeterminate form (see [[rational-function]]), simplify before applying [[limit-rules]]
+
+for [[absolute-value]]s, solve the [[limit]] by cases
+
+for continuous [[function]]s, the [[limit]] of the [[function]] is equal to the value of the [[function]]
+
 ## special limits
+
+see [[trigonometric-function]]
 
 let $\theta$ be an angle in radians
 
