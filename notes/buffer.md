@@ -20,13 +20,13 @@ $pH = pK_a + \log\frac{[A^-]}{[HA]}$, where
 
 $pH$ is the acidity of the buffer solution
 
-$pK_a$ is the negative logarithm of $K_a$, $-\log K_a$
+$pK_a$ is the negative [[logarithm]] of $K_a$, $-\log K_a$
 
 $[HA]$ is the concentration of the acid
 
 $[A^-]$ is the concentration of the conjugate base
 
-$\log$ is a base-10 logarithm, $\log_{10}$
+$\log$ is a base-10 [[logarithm]], $\log_{10}$
 
 > **note**: The Henderson-Hasselbalch equation can be derived from the definition of the [[equilibrium]] constant $K_a$ and the equation of dissociation of the [[buffer]]
 >

@@ -34,7 +34,7 @@ $\delta f\ x - \delta x$, $\delta (\delta f - \delta x) - \delta x$
 
 ## Differentiation
 
-to differentiate a [[function]], apply [[derivative-rules]] recursively
+to differentiate a [[function]], apply [[derivative-rules]] recursively, see [[recursion]]
 
 ### differentiability
 
@@ -50,9 +50,11 @@ to differentiate a [[function]], apply [[derivative-rules]] recursively
 
 ## Logarithmic Differentiation
 
-_differentiating the logarithm of a [[function]] instead of the [[function]] itself_
+_differentiating the [[logarithm]] of a [[function]] instead of the [[function]] itself_
 
-### example
+_useful for computing the [[derivative]] of an [[exponent]]ial [[function]]_
+
+### example with $[x][e]x$
 
 $y = [x][e]x$
 
@@ -76,6 +78,18 @@ $\delta\ y - \delta x = [e](\lceil x \rceil ' [e]x)\ |\ \delta\ \lceil x \rceil 
 
 $\delta\ y - \delta x = [x][e]x\ |\ ([e]x - x) \cdot \lceil x \rceil ' [e]x$
 
+### example with $[x]x$
+
+$y = [x]x$
+
+$\lceil y \rceil = x \lceil x \rceil$
+
+$\delta\ \lceil y \rceil - \delta x = \delta\ x \lceil x \rceil - \delta x$
+
+$-y\ |\ \delta y - \delta x = 1 \cdot \lceil x \rceil$
+
+$\delta y - \delta x = y\ |\ 1 \cdot \lceil x \rceil = [x]x\ |\ 1 \cdot \lceil x \rceil$
+
 ## Implicit Differentiation
 
 > Differentiation of an implicit equation (where the dependent variable is not isolated). Works with both [[function]]s and relations that aren't [[function]]s.
@@ -88,7 +102,9 @@ $\delta\ (x2 \cdot y2) - \delta x = \delta 2 - \delta x$
 
 $2x \cdot 2y(\delta y - \delta x) = 0$
 
-$\delta y - \delta x = \circ x \text- y$
+$\delta y - \delta x = \circ x - y$
+
+> **note**: as both $x$ and $y$ are present in the equation, the [[derivative]] at $\circ y$ will be different from the one at $\cdot y$
 
 ## Partial Differentiation
 

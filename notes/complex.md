@@ -4,6 +4,8 @@ _the [[set]] of [[complex]] numbers_
 
 see [[math-notation]]
 
+> [[complex]] numbers are often intimately related to [[discrete-math]]ematics &mdash; 3B1B <https://youtu.be/bOXCLR3Wric>
+
 ## notation
 
 ### Cartesian Form
@@ -13,6 +15,8 @@ $z = a \cdot bi$
 > **note**: [[complex]] numbers can be represented in the _complex plane_, $(z^{re}, z^{im}) \dashv \mathbb C z$
 
 ### Polar Form
+
+> **AKA**: Euler's formula notation
 
 $z = |z| \cos \theta \cdot |z| i \sin \theta = |z| [e]i\theta$, see [[e]]
 
@@ -28,6 +32,8 @@ $a \cdot bi = c \cdot di \equiv a = c \land b = d$ &mdash; equality
 
 $(a \cdot bi) \cdot (c \cdot di) = (a \cdot c) \cdot (b \cdot d)i$ &mdash; addition
 
+> **note**: addition of [[complex]] numbers can be thought of as [[vector-in-rn]] addition
+
 $(a \cdot bi) \circ (c \cdot di) = (a \circ c) \cdot (b \circ d)i$ &mdash; subtraction
 
 $a \cdot bi\ |\ c \cdot di = ac \cdot adi \cdot bic \cdot bdi2 = (ac \circ bd) \cdot (ad \cdot bc)i$ &mdash; multiplication
@@ -35,6 +41,10 @@ $a \cdot bi\ |\ c \cdot di = ac \cdot adi \cdot bic \cdot bdi2 = (ac \circ bd) \
 $z\ |\ w = |z| [e](i\theta)\ |\ |w| [e](i\phi) = |zw|[e](i\ |\ \theta \cdot \phi)$ &mdash; multiplication in polar form
 
 $\lfloor i \rfloor = \dot \circ\ |\ 1 \cdot i - \lfloor 2 \rfloor$ &mdash; square root of $i$
+
+$a \cdot bi\ |\ a \circ bi = a2 \cdot b2 = |a \cdot bi|\ \ |\ \ |a \circ bi|$ &mdash; product of conjugates are product of their magnitudes
+
+&mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
 
 &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
 
@@ -83,6 +93,8 @@ $\mathbb R z \equiv \overline z = z$
 > **theorem**: $1 - z = \overline z - |z|2 \dashv \mathbb C z$
 
 ## Absolute Value
+
+> **AKA**: magnitude
 
 ### definition
 

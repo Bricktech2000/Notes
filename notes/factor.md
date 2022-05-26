@@ -1,4 +1,6 @@
-# Factoring
+# Factor
+
+_factoring_
 
 see [[math-notation]]
 

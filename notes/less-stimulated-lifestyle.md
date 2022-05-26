@@ -2,7 +2,7 @@
 
 ## problematic activities
 
-- social media (algorithm-based feed)
+- social media ([[algorithm]]-based feed)
 - [[video-game]]s (levels & rankings)
 - Netflix & YouTube
 - junk food & drinks

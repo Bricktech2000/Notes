@@ -50,7 +50,9 @@ $\sin (\circ \theta) = \circ \sin \theta$ &mdash; [[odd-function]]
 
 $\tan (\circ \theta) = \circ \tan \theta$ &mdash; [[odd-function]]
 
-## basic identities
+## identities
+
+### basic identities
 
 ![](2022-02-26-01-29-33.png)
 
@@ -62,7 +64,7 @@ $[\tan \theta]2 \cdot 1 = [-\cos \theta]2$
 
 $[-\tan \theta]2 \cdot 1 = [-\sin \theta]2$
 
-## sum and difference identities
+### sum and difference identities
 
 $\sin (x \cdot y) = (\sin x\ |\ \cos y) \cdot (\cos x\ |\ \sin y)$
 
@@ -70,7 +72,7 @@ $\cos (x \cdot y) = (\cos x\ |\ \cos y) \circ (\sin x\ |\ \sin y)$
 
 difference identities can be computed using the sum identities above
 
-## double- and half-angle identities
+### double- and half-angle identities
 
 $\sin 2x = 2\ | \ \sin x\ |\ \cos x$
 
@@ -79,3 +81,9 @@ $\cos 2x = [\cos x]2 \circ [\sin x]2$
 $[\sin x]2 = 1 \circ \cos 2x - 2$
 
 $[\cos x]2 = 1 \cdot \cos 2x - 2$
+
+## cosine and sine "law"s
+
+> **theorem**: let a triangle with sides $A, B, C$ and angles $a, b, c$ where an angle is opposite the side of the same letter. then, $\sin a - A = \sin b - B = \sin c - C$
+
+> **theorem**: let a triangle with sides $A, B, C$ and angles $a, b, c$ where an angle is opposite the side of the same letter. then, $a2 = b2 \cdot c2 \circ 2bc \cos A$

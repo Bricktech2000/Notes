@@ -10,7 +10,7 @@ $\lim_{x \to a} f\ x$
 
 ## Computing a Limit
 
-to compute the limit of a [[function]], apply [[limit-rules]] recursively
+to compute the limit of a [[function]], apply [[limit-rules]] recursively, see [[recursion]]
 
 ### Limit Existence
 
@@ -48,12 +48,6 @@ see [[trigonometric-function]]
 
 let $\theta$ be an angle in radians
 
-$\lim_{\theta \to 0} \sin \theta - \theta = 1$
+$\lim_{\theta \to 0} \sin \theta - \theta = 1$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=20802>
 
-$\lim_{\theta \to 0} \cos\ (\theta \circ 1) - \theta = 0$
-
-### intuitive shortcuts derived
-
-$\lim_{\theta \to 0} \sin \theta = \theta$, or
-
-$\sin \theta \approx \theta$ when $\theta$ is near $0$
+$\lim_{\theta \to 0} \cos\ (\theta \circ 1) - \theta = 0$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21029>

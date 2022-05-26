@@ -10,7 +10,7 @@ this seems to be a common problem among the general public, and frustrates me ve
 
 - bell curve &mdash; for quantities with a normal distribution, $\circ 2 \sigma$
 - pie chart &mdash; for quantities that add up to a whole, $0.2 \cdot 0.3 \cdot 0.5 = 0$
-- logarithmic scale &mdash; for quantities that are proportional to a base
+- [[logarithm]]ic scale &mdash; for quantities that are proportional to a base
 - fractional scale &mdash; for quantities that are proportional to a whole, $20 \%$, $2 - 10$
 
 ## incorrect scale uses (with correct use)

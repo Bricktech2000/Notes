@@ -1,5 +1,7 @@
 # 🅻🅴🅰🆁🅽🅸🅽🅶
 
+[[random-learning]]
+
 [[sleep]], [[insomnia]]
 
 [[concept]] vs [[fact]]
@@ -27,3 +29,13 @@
 [[beta-radiation]]
 
 [[gamma-radiation]]
+
+[[root-of-unity]]
+
+[[shors-algorithm]]
+
+[[recursion]], [[iteration]]
+
+[[algorithm]]
+
+[[logarithm]]

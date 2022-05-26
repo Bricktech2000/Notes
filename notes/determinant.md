@@ -10,7 +10,7 @@ $A$ is a square [[matrix]], $\mathbb M^{n, n} A$
 
 ## calculating the determinant, recursive method
 
-see [[magic]]
+see [[magic]], [[recursion]]
 
 _Laplace expansion_
 

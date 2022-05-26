@@ -28,7 +28,7 @@ $[a] b$ is $a$ to the power of $b$
 
 $\lfloor a \rfloor b$ is the $b$ th root of $a$ ($b = 2$ if $b$ is omitted)
 
-$\lceil a \rceil b$ is the base-$b$ logarithm of $a$ ($b = e$ if $b$ is omitted)
+$\lceil a \rceil b$ is the base-$b$ [[logarithm]] of $a$ ($b = e$ if $b$ is omitted)
 
 $a\ b$ is shorthand for $[a] b$ only if $b$ is a [[number]] and $a$ is a variable
 
@@ -98,7 +98,7 @@ $A^-$ is the multiplicative inverse of the [[matrix]] $A$
 
 $f^\times$ is the reciprocal (switching input and output) of the function $f$ (might not be necessary, [[think]])
 
-### [[trigonometric-function]]es
+### [[trigonometric-function]]s
 
 ### [[calculus-notation]]
 

@@ -1,6 +1,6 @@
 # 🆃🅷🅸🅽🅺🅸🅽🅶
 
-[[random-thoughts]]
+[[random-thinking]]
 
 [[math-notation]]
 
@@ -59,3 +59,5 @@
 [[improved-rating-system]]
 
 [[subconscious-manipulation]]
+
+[[counterintuitive-smarter-sorting]]

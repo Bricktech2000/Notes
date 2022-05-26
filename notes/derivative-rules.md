@@ -12,7 +12,7 @@ $\delta\ c - \delta x= 0$
 
 $\delta\ x - \delta x = 1$
 
-## Exponential Rule
+## [[exponent]]ial Rule
 
 $\delta\ [a]x - \delta x = [a]x\ |\ \lceil a \rceil$
 
@@ -20,13 +20,15 @@ $\delta\ [a]x - \delta x = [a]x\ |\ \lceil a \rceil$
 
 $\delta\ [e]x - \delta x = [e]x$
 
-## Logarithm Rule
+## [[logarithm]] Rule
 
 $\delta\ \lceil x \rceil b - \delta x = - x\lceil b \rceil$
 
 ### derived shortcuts
 
 $\delta\ \lceil x \rceil - \delta x = -x$
+
+$\delta\ \lceil |x| \rceil - \delta x = -x$ &mdash;[[proof]]: define as a piecewise function and calculate both [[derivative]]s
 
 ## Constant Multiple Rule
 
@@ -58,20 +60,28 @@ $\delta\ (-f\ x) - \delta x = \circ \delta\ f\ x - \delta x - [f\ x]2$
 
 ## Chain Rule
 
-$\delta\ (f\ g\ x) - \delta x = (\delta\ f\ x - \delta x)\ g\ x\ |\ \delta\ g\ x - \delta x$
+$\delta\ f\ g\ x - \delta x = \delta\ g\ x - \delta x\ |\ \delta f\ g\ x - \delta\ g\ x$
+
+> **proof**: $(\delta\ g\ x) - \delta x\ |\ \delta f\ g\ x - (\delta\ g\ x) = \delta\ f\ g\ x - \delta x$
 
 ## Derivatives of Trig Functions
 
-see [[trigonometric-function]]es
+see [[trigonometric-function]]s
 
-$\delta\ \sin x - \delta x = \cos x$
+$\delta\ \sin x - \delta x = \cos x$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21115>
 
-$\delta\ \cos x - \delta x = \circ \sin x$
+$\delta\ \cos x - \delta x = \circ \sin x$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21193>
 
-$\delta\ \tan x - \delta x = [-\cos x]2$
+$\delta\ \tan x - \delta x = [\text-\cos x]2$
 
-$\delta\ 1\text-\sin x - \delta x = \circ \text-\sin x\ |\ \text-\tan x$
+$\delta\ \text-\sin x - \delta x = \circ\ |\ \text-\sin x\ |\ \text-\tan x$
 
-$\delta\ 1\text-\cos x - \delta x = \text-\cos\ x\ |\ \tan x$
+$\delta\ \text-\cos x - \delta x = \text-\cos\ x\ |\ \tan x$
 
-$\delta\ 1\text-\tan x - \delta x = \circ [\text-\sin x]2$
+$\delta\ \text-\tan x - \delta x = \circ [\text-\sin x]2$
+
+$\delta\ \text{asin } x - \delta x = -\lfloor 1 \circ x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29016>
+
+$\delta\ \text{acos } x - \delta x = \circ -\lfloor 1 \circ x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29111>
+
+$\delta\ \text{atan } x - \delta x = -\lfloor 1 \cdot x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29233>

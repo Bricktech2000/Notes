@@ -35,4 +35,4 @@ generalizations are convenient for people to use, but they are not always accura
 
 indicator overgeneralization seems to occur to certain people more than others.
 
-scratch that; indicator overgeneralization seems to occur at the outermost regions of a metaphorical bell curve.
+scratch that; indicator overgeneralization seems to occur at the outermost regions of a metaphorical bell curve. see [[intellectual-giftedness]], [[intellectual-disability]]

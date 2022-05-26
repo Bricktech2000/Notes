@@ -1,0 +1,9 @@
+# Random Learning
+
+[![](https://img.youtube.com/vi/bOXCLR3Wric/0.jpg)](https://www.youtube.com/watch?v=bOXCLR3Wric)
+
+[![](https://img.youtube.com/vi/HfACrKJ_Y2w/0.jpg)](https://www.youtube.com/watch?v=HfACrKJ_Y2w)
+
+<https://hott.github.io/book/hott-online.pdf.html>
+
+[![](https://img.youtube.com/vi/jUM_Dpt6yu0/0.jpg)](https://www.youtube.com/watch?v=jUM_Dpt6yu0)

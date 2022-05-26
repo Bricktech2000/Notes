@@ -46,7 +46,7 @@ Calculus: Early Transcendentals, by James Stewart, 9th Edition.
 
 [[exponent]]
 
-[[factoring]]
+[[factor]]ing
 
 [[rationalizing]]
 

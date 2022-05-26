@@ -4,9 +4,11 @@ see [[math-notation]]
 
 &mdash; <http://cxp.cengage.com/contentservice/assets/owms01h/references/significantfigures/index.html>
 
-## Rule
+## rule
 
 > All digits are significant, except for leading zeros or for zeros that appear after a number without being followed by a decimal point.
+
+### examples
 
 $3.0$ has 2 significant figures
 
@@ -18,9 +20,9 @@ $0.005$ has 1 significant figure
 
 $0.0050$ has 2 significant figures
 
-## Operations
+## operations
 
-assuming a base-10 counting system and base-10 logarithms
+assuming a base-10 [[positional-numbering-system]] and base-10 [[logarithm]]s
 
 ### addition and subtraction
 
@@ -36,7 +38,7 @@ $=1190$ (3 significant figures, trailing digits cut off)
 
 _keep as many significant figures as the number with the least number of significant figures_
 
-### logarithms
+### [[logarithm]]s
 
 _keep as many significant figures to the right of the decimal point as there are significant figures in the original number_
 
@@ -44,7 +46,7 @@ $\lceil 4.000 \rceil 10$ (4 significant figures)
 
 $= 0.6021$ (4 significant figures on the right of the decimal point)
 
-### antilogarithms
+### anti[[logarithm]]s
 
 _keep the same number of significant figures as the number of significant figures after the decimal point in the original number_
 

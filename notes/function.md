@@ -89,6 +89,8 @@ let $f\ x$ be a function
 
 if $y = f\ x \land x = F\ y$, then $F$ is the _reciprocal_ (or _inverse_) of $f$
 
+> **note**: the reciprocal of a function exists only if said function is one-to-one
+
 ### properties
 
 $f\ F\ x = x$
@@ -96,6 +98,16 @@ $f\ F\ x = x$
 $F\ f\ x = x$
 
 the graph of $y = f\ x$ and $y = F\ x$ are symmetric about the line $y = x$
+
+### computing the reciprocal
+
+to compute the reciprocal of a given a [[function]], swap the input and output of the [[function]] and isolate the reciprocal
+
+## One-to-One Function
+
+a [[function]] $f$ is said to be one-to-one if $f\ x_1 = f\ x_2 \vdash x_1 = x_2 \dashv \mathbb U x_1 \land \mathbb U x_2$, see [[universal-set]]
+
+given the graph of a [[function]], one can use the _horizontal line test_ to determine whether it is one-to-one
 
 ## Total Function
 

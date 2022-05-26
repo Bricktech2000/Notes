@@ -1,4 +1,4 @@
-# Random Thoughts
+# Random Thinking
 
 ## pain hurts
 

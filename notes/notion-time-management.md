@@ -162,6 +162,7 @@ multiple of the following values:
 - Learning (orange)
 - Hobbies (orange)
 - Work (green)
+- House (green)
 - School (green)
 - Productivity (yellow)
 - Organization (yellow)

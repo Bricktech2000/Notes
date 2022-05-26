@@ -1,6 +1,6 @@
 # Data Structure
 
-## types
+## examples
 
 [[stack]]
 

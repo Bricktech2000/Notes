@@ -81,3 +81,5 @@ P\ 1, 2 = (\delta f - \delta x)\ 1, 2
 $$
 
 [[book]]
+
+$\sin \theta - \cos \theta = y \text- r - x \text- r = y - x = \tan \theta$

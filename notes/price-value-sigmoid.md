@@ -8,11 +8,11 @@ _Price-to-Value relationships for a type of product can be represented on a sigm
 
 ### horizontal axis
 
-price using a logarithmic scale
+price using a [[logarithm]]ic scale
 
 ### vertical axis
 
-value using a logarithmic scale
+value using a [[logarithm]]ic scale
 
 ### examples
 

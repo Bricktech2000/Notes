@@ -22,6 +22,7 @@ the following headings are commonly used:
 
 - **definition**
 - **notation**
+- **representation**
 - **types**
 - **applications**
 - **example**, **examples**
