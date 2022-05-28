@@ -36,7 +36,7 @@ $CPI_0$ is the base [[consumer-price-index]]
 
 ## correcting using inflation
 
-$P_t = P_0\ |\ CPI_t \text- CPI_0 = P_0 \cdot P_0\ ' Inflation_t$, where
+$P_t = P_0 \mid CPI_t \text- CPI_0 = P_0 \cdot P_0 \shortmid \text{Inflation}_t$, where
 
 $P_t$ is the current price of an item
 

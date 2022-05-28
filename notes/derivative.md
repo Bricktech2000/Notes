@@ -58,25 +58,25 @@ _useful for computing the [[derivative]] of an [[exponent]]ial [[function]]_
 
 $y = [x][e]x$
 
-$\lceil y \rceil = \lceil [x][e]x \rceil = \lceil x \rceil ' [e]x$
+$\lceil y \rceil = \lceil [x][e]x \rceil = \lceil x \rceil \smash\shortmid [e]x$
 
-$\delta\ \lceil y \rceil - \delta x = \delta\ [e]x ' \lceil x \rceil - \delta x$
+$\delta\ \lceil y \rceil - \delta x = \delta\ [e]x \smash\shortmid \lceil x \rceil - \delta x$
 
-$-y\ |\ \delta\ y - \delta x = ([e]x - x) \cdot \lceil x \rceil ' [e]x$
+$-y \mid \delta\ y - \delta x = ([e]x - x) \cdot \lceil x \rceil \smash\shortmid [e]x$
 
-$\delta\ y - \delta x = [x][e]x\ |\ ([e]x - x) \cdot \lceil x \rceil ' [e]x$
+$\delta\ y - \delta x = [x][e]x \mid ([e]x - x) \cdot \lceil x \rceil \smash\shortmid [e]x$
 
 the alternative would be the following, by transforming and using the chain rule, see [[derivative-rules]]
 
 $y = [x][e]x$
 
-$[x][e]x = [e] \lceil [x][e]x \rceil = [e](\lceil x \rceil ' [e]x)$
+$[x][e]x = [e] \lceil [x][e]x \rceil = [e](\lceil x \rceil \smash\shortmid [e]x)$
 
-$\delta\ y - \delta x = \delta\ [e](\lceil x \rceil ' [e]x) - \delta x$
+$\delta\ y - \delta x = \delta\ [e](\lceil x \rceil \smash\shortmid [e]x) - \delta x$
 
-$\delta\ y - \delta x = [e](\lceil x \rceil ' [e]x)\ |\ \delta\ \lceil x \rceil ' [e]x - \delta x$
+$\delta\ y - \delta x = [e](\lceil x \rceil \smash\shortmid [e]x) \mid \delta\ \lceil x \rceil \smash\shortmid [e]x - \delta x$
 
-$\delta\ y - \delta x = [x][e]x\ |\ ([e]x - x) \cdot \lceil x \rceil ' [e]x$
+$\delta\ y - \delta x = [x][e]x \mid ([e]x - x) \cdot \lceil x \rceil \smash\shortmid [e]x$
 
 ### example with $[x]x$
 
@@ -86,9 +86,9 @@ $\lceil y \rceil = x \lceil x \rceil$
 
 $\delta\ \lceil y \rceil - \delta x = \delta\ x \lceil x \rceil - \delta x$
 
-$-y\ |\ \delta y - \delta x = 1 \cdot \lceil x \rceil$
+$-y \mid \delta y - \delta x = 1 \cdot \lceil x \rceil$
 
-$\delta y - \delta x = y\ |\ 1 \cdot \lceil x \rceil = [x]x\ |\ 1 \cdot \lceil x \rceil$
+$\delta y - \delta x = y \mid 1 \cdot \lceil x \rceil = [x]x \mid 1 \cdot \lceil x \rceil$
 
 ## Implicit Differentiation
 

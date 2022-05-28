@@ -34,7 +34,7 @@ $Ax \circ \lambda I x = O$
 
 factoring out $x$
 
-$A \circ \lambda I\ |\ x = O$
+$A \circ \lambda I \mid x = O$
 
 the equation above is a homogeneous [[linear-system]] where $A \circ \lambda I$ is the _coefficient matrix_
 
@@ -48,13 +48,13 @@ _using $A = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix}$ as an example_
 
 $A \circ \lambda I = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \circ \lambda \begin{bmatrix}1 & 0 \\\  0 & 1\end{bmatrix} = \begin{bmatrix}1 \circ \lambda & 2 \\\  2 & 1 \circ \lambda\end{bmatrix}$
 
-$\det (A \circ \lambda I) = 0 = [1 \circ \lambda]2 \circ 4 = 1 \circ \lambda \cdot 2\ |\ 1 \circ \lambda \circ 2 = 3 \circ \lambda\ |\ \circ 1 \circ \lambda = 0$
+$\det (A \circ \lambda I) = 0 = [1 \circ \lambda]2 \circ 4 = 1 \circ \lambda \cdot 2 \mid 1 \circ \lambda \circ 2 = 3 \circ \lambda \mid \circ 1 \circ \lambda = 0$
 
 $\lambda = 3 \lor \lambda = \circ 1$ are the [[eigenvalue]]s of $A$
 
 ## finding [[eigenvector]]s
 
-as $A \circ \lambda I\ |\ x$, we get the following (see [[matrix]] Kernel):
+as $A \circ \lambda I \mid x$, we get the following (see [[matrix]] Kernel):
 
 $E_\lambda = Ker\ (A \circ \lambda I)$, where
 
@@ -64,9 +64,9 @@ the [[eigenvector]]s of $A$ associated with the [[eigenvalue]] $\lambda$ are all
 
 for $\lambda = 3$:
 
-$A \circ 3I\ |\ x = O$ [[todo]]
+$A \circ 3I \mid x = O$ [[todo]]
 
-$A \circ 3I\ |\ x = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \circ \begin{bmatrix}3 & 0 \\\  0 & 3\end{bmatrix}\ |\ x = \begin{bmatrix}\circ 2 & 2 \\\  2 & \circ 2\end{bmatrix}\ |\ x = 0$
+$A \circ 3I \mid x = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \circ \begin{bmatrix}3 & 0 \\\  0 & 3\end{bmatrix} \mid x = \begin{bmatrix}\circ 2 & 2 \\\  2 & \circ 2\end{bmatrix} \mid x = 0$
 
 therefore, we can solve the following [[linear-system]] using [[row-reduction]]
 
@@ -98,7 +98,7 @@ see [[multiplicity]]
 
 ### example
 
-the [[characteristic-polynomial]] of $\begin{bmatrix}2 & 4 & \circ 3 \\\ 0 & 3 & 5 \\\ 0 & 0 & 3\end{bmatrix}$ is $2 \circ \lambda\ |\ [3 \circ \lambda]2$. its [[eigenvalue]]s are $\lambda = 2$ and $\lambda = 3$. the algebraic [[multiplicity]] (see [[eigenvector-and-eigenvalue]]) of $\lambda = 2$ is $1$ and the algebraic [[multiplicity]] of $\lambda = 3$ is $2$.
+the [[characteristic-polynomial]] of $\begin{bmatrix}2 & 4 & \circ 3 \\\ 0 & 3 & 5 \\\ 0 & 0 & 3\end{bmatrix}$ is $2 \circ \lambda \mid [3 \circ \lambda]2$. its [[eigenvalue]]s are $\lambda = 2$ and $\lambda = 3$. the algebraic [[multiplicity]] (see [[eigenvector-and-eigenvalue]]) of $\lambda = 2$ is $1$ and the algebraic [[multiplicity]] of $\lambda = 3$ is $2$.
 
 [[multiplicity]] can be used to determine whether a [[matrix]] is diagonalizable
 
@@ -110,7 +110,7 @@ let $x = \begin{bmatrix}3 \\\ 7\end{bmatrix} = 5\begin{bmatrix}1 \\\ 1\end{bmatr
 
 [[todo]] 57:23- [[todo]] 1:07:09-
 
-compute $[A]2\ |\ x$ -->
+compute $[A]2 \mid x$ -->
 
 let $\mathbb M^{n, n} A \land \mathbb N n$ be a diagonalizable [[matrix]]
 

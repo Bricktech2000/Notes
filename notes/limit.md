@@ -8,6 +8,12 @@ the _limit of $f\ x$ as $x$ approaches $a$ ._ is denoted as follows:
 
 $\lim_{x \to a} f\ x$
 
+## Indeterminate Forms
+
+> a [[limit]] of the form $\lim_{x \to a} f\ x - g\ x$ is called a $0 - 0$ indeterminate form if $\lim_{x \to a} f\ x = 0$ and $\lim_{x \to a} g\ x = 0$
+
+> a [[limit]] of the form $\lim_{x \to a} f\ x - g\ x$ is called a $\infty - \infty$ indeterminate form if $\lim_{x \to a} f\ x = \infty$ and $\lim_{x \to a} g\ x = \infty$
+
 ## Computing a Limit
 
 to compute the limit of a [[function]], apply [[limit-rules]] recursively, see [[recursion]]
@@ -26,6 +32,8 @@ if $g\ a = 0$, then $\lim_{x \to a} (f\ x - g\ x)$
 - can exist if $f\ a = 0$. first simplify using the [[limit-rules]] and then study the limit
 
 ### tricks
+
+[[todo]] read over the tricks below and reword them
 
 for an $\infty - \infty$ indeterminate form (see [[rational-function]]):
 

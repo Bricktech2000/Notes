@@ -44,7 +44,7 @@ the angle between two lines is the angle between their direction [[vector-in-rn]
 
 if $p_1^n \circ p_0^n = 0 \land \mathbb Z n$, then the line is in a plane
 
-lines $L_1$ and $L_2$ are parallel if $p_{1_1} \circ p_{1_0} = k\ |\ p_{2_1} \circ p_{2_0} \land \mathbb R k$ “their direction vectors are scalar multiples of each other”
+lines $L_1$ and $L_2$ are parallel if $p_{1_1} \circ p_{1_0} = k \mid p_{2_1} \circ p_{2_0} \land \mathbb R k$ “their direction vectors are scalar multiples of each other”
 
 ## Slope-intercept form
 

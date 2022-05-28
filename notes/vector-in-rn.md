@@ -46,7 +46,7 @@ $|V|$, where
 
 $V$ is the vector to find the magnitude of
 
-$|V| = \lfloor V\ |'\ V \rfloor$ (derived from the Pythagoras theorem), see [[dot-product]]
+$|V| = \lfloor V\ \dot\mid\ V \rfloor$ (derived from the Pythagoras theorem), see [[dot-product]]
 
 **Unit Vector**
 
@@ -66,9 +66,9 @@ note that $V - |V|$ is just notation for the direction of the vector $V$
 
 see [[dot-product]], [[cross-product]], [[magic]]
 
-$\cos \theta = a\ |'\ b - |a|\ |b|$. use $\cos \theta = |a\ |'\ b| - |a|\ |b|$ to always get the acute angle solution
+$\cos \theta = a\ \dot\mid\ b - |a|\ |b|$. use $\cos \theta = |a\ \dot\mid\ b| - |a|\ |b|$ to always get the acute angle solution
 
-$\sin \theta = a '^\times b - |a|\ |b|$, see [[cross-product]]
+$\sin \theta = a \hat\mid b - |a|\ |b|$, see [[cross-product]]
 
 ### Orthogonal Vectors
 
@@ -76,7 +76,7 @@ notation: $u \perp v$
 
 _a pair of vectors offset by $90^\circ$ ._
 
-$u$ and $v$ are orthogonal if and only if $u\ |'\ v = 0$ (see [[dot-product]]), or $u \perp v \equiv u\ |'\ v = 0$
+$u$ and $v$ are orthogonal if and only if $u\ \dot\mid\ v = 0$ (see [[dot-product]]), or $u \perp v \equiv u\ \dot\mid\ v = 0$
 
 a [[set]] of [[vector]]s is orthogonal if and only if it does not contain the zero [[vector]] and all [[vector]]s in the [[set]] are orthogonal to all other [[vector]]s
 
@@ -90,7 +90,7 @@ a [[set]] of [[vector]]s is orthogonal if and only if it does not contain the ze
 
 > **theorem**: orthogonal [[set]] $\vdash$ [[linearly-independent]], but not the inverse
 
-> **theorem**: suppose $w_0 \dots w_m$ is an orthogonal [[basis]] for a subspace $W$ of $\mathbb R^n$. then, $w = w_0 (w\ ''\ w_0 - w_0\ ''\ w_0) + \dots w_m (w\ ''\ w_m - w_m\ ''\ w_m)$, see [[dot-product]]
+> **theorem**: suppose $w_0 \dots w_m$ is an orthogonal [[basis]] for a subspace $W$ of $\mathbb R^n$. then, $w = w_0 (w \dot\shortmid w_0 - w_0 \dot\shortmid w_0) + \dots w_m (w \dot\shortmid w_m - w_m \dot\shortmid w_m)$, see [[dot-product]]
 
 ### Collinear Vectors
 
@@ -110,7 +110,7 @@ see [[dot-product]]
 
 ### definition
 
-$|proj_b\ a| = |a| \cos \theta$ and $proj_b\ a = |a| \cos \theta\ |\ \hat b = a''\hat b\ |\ \hat b = a''b - b''b\ |\ b$ (see [[dot-product]]), where
+$|proj_b\ a| = |a| \cos \theta$ and $proj_b\ a = |a| \cos \theta \mid \hat b = a \dot\shortmid \hat b \mid \hat b = a \dot\shortmid b - b \dot\shortmid b \mid b$ (see [[dot-product]]), where
 
 $proj_b\ a$ is the _vector projection of $a$ on $b$ ._
 
@@ -118,7 +118,7 @@ $|proj_b\ a|$ is the _scalar projection of $a$ on $b$ ._
 
 $\hat b$ is the unit [[vector]] in the direction of $b$, $b - |b|$
 
-$proj_W\ v = v''w_0 - w_0''w_0 \cdot \dots v''w_n - w_n''w_n$, where
+$proj_W\ v = v \dot\shortmid w_0 - w_0 \dot\shortmid w_0 \cdot \dots v \dot\shortmid w_n - w_n \dot\shortmid w_n$, where
 
 $proj_W\ v$ is the projection of $v$ on the [[vector-space]] $W$
 
@@ -146,7 +146,7 @@ _does this seem random and pointless? well, it is._
 
 see [[dot-product]], [[cross-product]]
 
-$V = |w\ |'\ (u\ |^\times\ v)|$ (see [[dot-product]], [[cross-product]]), where
+$V = |w\ \dot\mid\ u \bar\shortmid v|$ (see [[dot-product]], [[cross-product]]), where
 
 $V$ is the volume to be calculated
 

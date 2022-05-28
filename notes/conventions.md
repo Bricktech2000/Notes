@@ -20,7 +20,7 @@ lowercease headings are for general titles
 
 the following headings are commonly used:
 
-- **definition**
+- **definition**, **definitions**
 - **notation**
 - **representation**
 - **types**
@@ -29,6 +29,7 @@ the following headings are commonly used:
 - **counterexample**, **counterexamples**
 - **theorems**
 - **properties**
+- **procedure**
 
 ### quotes, italics, sources, URLs
 

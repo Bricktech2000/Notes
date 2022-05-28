@@ -39,3 +39,9 @@
 [[algorithm]]
 
 [[logarithm]]
+
+[[fundamental-theorem-of-calculus]]
+
+[[newtons-method]]
+
+[[antiderivative]]

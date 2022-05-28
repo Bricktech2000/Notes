@@ -6,7 +6,7 @@ _a process for putting a matrix in [[RREF|reduced-row-echelon-form]]_
 
 see [[linear-system]], [[linear-equation]], [[matrix]]
 
-### [[algorithm]]
+### procedure
 
 _eliminate $x_0$ from all lines below $L_0$, eliminate $x_1$ from all lines below $L_1$, and so on_
 

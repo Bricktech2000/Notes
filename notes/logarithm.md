@@ -30,7 +30,7 @@ $\lceil 1 \rceil n = 0 \dashv n \ne 0$ (restriction not necessary, see [[improve
 
 $\lceil -x \rceil = \circ x \dashv x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]]) &mdash; inverse
 
-$\lceil x\ |\ y \rceil = \lceil x \rceil \cdot \lceil y \rceil$ &mdash; product rule
+$\lceil x \mid y \rceil = \lceil x \rceil \cdot \lceil y \rceil$ &mdash; product rule
 
 $\lceil x - y \rceil = \lceil x \rceil \circ \lceil y \rceil$ &mdash; quotient rule
 

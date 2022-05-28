@@ -17,6 +17,6 @@ the process above is repeated $k$ times to reduce the probability of "lucky gues
 
 this process proves with high probability that the prover knows the color of both balls without revealing either color
 
-## uses
+## applications
 
 Zcash and Monero are examples of [[cryptocurrency]]es that use [[zero-knowledge-proof]]s for transactions

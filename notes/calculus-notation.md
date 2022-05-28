@@ -6,7 +6,7 @@ see [[math-notation]]
 
 [[integral]] and [[derivative]] notation should be thought of as follows (with explicit parenthesis for function calls):
 
-$\int y\ |\ \delta x \equiv \int (y\ |\ \delta(x))$
+$\int y \mid \delta x \equiv \int (y \mid \delta(x))$
 
 $\delta y - \delta x \equiv \delta(y) - \delta(x)$
 
@@ -14,7 +14,7 @@ $\delta y - \delta x \equiv \delta(y) - \delta(x)$
 
 $\int$ and $\delta$ can be thought of as functions
 
-$\int y\ |\ \delta x$ is actually $\int (y\ |\ \delta x)$ ($|\ \delta x$ is simply a multiplication, and is part of the argument of $\int$)
+$\int y \mid \delta x$ is actually $\int (y \mid \delta x)$ ($\mid \delta x$ is simply a multiplication, and is part of the argument of $\int$)
 
 $\delta y - \delta x$ is simply a division between the two variables
 
@@ -34,8 +34,8 @@ see [[derivative-rules]]
 
 _the integral of the derivative of a function is that same function plus a constant_
 
-> **proof**: $\int \delta y \text- \delta x\ |\ \delta x = \int (\delta y \text- \delta x\ |\ \delta x) = \int (\delta y) = y \cdot c$
+> **proof**: $\int \delta y \text- \delta x \mid \delta x = \int (\delta y \text- \delta x \mid \delta x) = \int (\delta y) = y \cdot c$
 
 _the derivative of the integral of a function is that same function_
 
-> **proof**: $\delta (\int y\ |\ \delta x) - \delta x = y\ |\ \delta x - \delta x = y$
+> **proof**: $\delta (\int y \mid \delta x) - \delta x = y \mid \delta x - \delta x = y$

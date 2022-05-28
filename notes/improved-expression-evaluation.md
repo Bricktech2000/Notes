@@ -85,13 +85,13 @@ trying to break the definition above,
 
 $1 = [0]0 = [x](1 \circ 1) = x - x = 1$
 
-$0 = [0]1 = [x](2 \circ 1) = x2 - x = x\ |\ 1 = 0$
+$0 = [0]1 = [x](2 \circ 1) = x2 - x = x \mid 1 = 0$
 
 $\varnothing = [0](\circ 1) = 1 - 0 = \varnothing$
 
-$1 = [0]0 = [x](2\ |\ 0) = [x2]0 = [x\ |\ x]0 = x0\ |\ x0 = 1$
+$1 = [0]0 = [x](2 \mid 0) = [x2]0 = [x \mid x]0 = x0 \mid x0 = 1$
 
-$[[0]0]0 = [1]0 = 1$ and $[[0]0]0 = [0](0\ |\ 0) = [0]0 = 1$
+$[[0]0]0 = [1]0 = 1$ and $[[0]0]0 = [0](0 \mid 0) = [0]0 = 1$
 
 ### additional examples
 
@@ -133,6 +133,14 @@ if the result of an expression is _undefined_, then the expression must be rearr
 
 <https://www.youtube.com/watch?v=jNhjB4UfR9A>
 
+<https://www.wolframalpha.com/input?i=derivative+x%5E%28n+%2B+1%29+%2F+%28n+%2B+1%29%2C+n+%3D+-1>
+
+<https://www.wolframalpha.com/input?i=derivative+ln+x>
+
+<https://www.wolframalpha.com/input?i=lim+as+n+-%3E+0+%28x%5En+%2F+n+-+1+%2F+n%29>
+
+<https://en.wikipedia.org/wiki/Natural_logarithm#Properties>
+
 ## exponents and square roots
 
 define $\lfloor x2 \rfloor = x$, but $\lfloor 4 \rfloor = \dot \circ 2$ &mdash; Kiera
@@ -142,3 +150,67 @@ $x = \lfloor x2 \rfloor = \lfloor [\circ x]2 \rfloor = \circ x$
 using the property $[x]2 = [\circ x]2 \dashv \mathbb R x$, just as we could use the property $0x = 0 \dashv \mathbb R x$ for division by zero
 
 breakthrough (I think): in the case of division by zero, it's not about the zeros being the same; it's about not using the _information-tampering_ property that any real multiplied by zero returns zero. the same is true with the exponent-root pair.
+
+## asdf
+
+$\lfloor \circ x \rfloor = \diamond y$
+
+$a \mid b$
+
+$a \mid b$
+
+$a\ \tiny\square\normalsize\ b$
+
+$5 \sigma x \underline 0 2$
+
+$x \underline 0 \cdot 1 - \underline 0$
+
+$x \sigma \cdot 1 - \sigma$
+
+$x \theta \cdot 1 - \theta$
+
+$\stackrel \circ \cdot$
+$\stackrel \cdot \circ$
+$\stackrel ! =$
+$\stackrel = !$
+
+$\circ \atop \cdot$
+$\cdot \atop \circ$
+
+$a \cdot b$
+
+$a \boxdot b$
+
+$a \Box b$
+
+$a \odot b$
+
+$a \circledcirc b$
+
+$\underline \cdot a$
+
+$a \shortmid b$
+
+$a \smash\shortmid b$
+
+$a \mid b$
+
+$\lim_{x \to 0}$
+
+$\lim\limits_{x \to 0}$
+
+$\circleddash$
+
+$\circledcirc$
+
+$\odot$
+
+$a \text- b$
+
+$a - b$
+
+$a \text- b$
+
+$a {\scriptstyle-} b$
+
+$a \textrm- b$

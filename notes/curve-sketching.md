@@ -18,7 +18,7 @@ $k''(x) = 6x^2 - 12x$
 2. Determine intercepts
    - Determine the y-intercept: $k(0) = 0$
    - Determine the x-intercept: $k(x) = 0\ for\ x = 0, 4$
-3. Find critical numbers
+3. Find [[critical-number]]s
    - use derivative to find extrema: $k'(x) = 0\ for\ x = 0, 3$
    - use second derivative to find type of extrema: $k''(0) = 0$ (inconclusive) $k''(3) = 18$ (local minimum)
 4. Find possible points of inflection

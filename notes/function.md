@@ -1,12 +1,12 @@
 # Function
 
+see [[math-notation]]
+
 ## types
 
 [[boolean-function]]
 
 [[rational-function]]
-
-[[function-vector-space]]
 
 [[piecewise-function]]
 
@@ -22,6 +22,8 @@
 
 [[functional-programming]]
 
+[[function-vector-space]]
+
 ## operations
 
 see [[function-vector-space]], [[vector-space]]
@@ -36,11 +38,86 @@ $(f \cdot g)\ x = f\ x \cdot g\ x$
 
 ### Multiplication by a Scalar
 
-$(cf)\ x = c\ |\ f\ x$
+$(cf)\ x = c \mid f\ x$
 
-## [[even-function]]
+## Function Parity
 
-## [[odd-function]]
+### Even Function
+
+_an even function is symmetrical about the y axis_
+
+$f x = f (\circ x) \dashv \mathbb R x$
+
+### Odd Function
+
+_an odd function is symmetrical about the y axis, but also flipped about the x axis_
+
+$\circ f x = f (\circ x) \dashv \mathbb R x$
+
+## Increasing and Decreasing Functions
+
+### definition
+
+see [[calculus-notation]]
+
+a [[function]] $f$ is _increasing_ on an interval $a \le x \le b$ if $x_1 < x_2 \vdash f\ x_1 < f\ x_2$, or $\delta\ f\ x - \delta x > 0$ on that interval
+
+a [[function]] $f$ is _decreasing_ on an interval $a \le x \le b$ if $x_1 > x_2 \vdash f\ x_1 > f\ x_2$, or $\delta\ f\ x - \delta x < 0$ on that interval
+
+## Concavity
+
+### definition
+
+see [[calculus-notation]]
+
+a [[function]] $f\ x$ is _concave up_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x < 0$, it _bends upwards_
+
+a [[function]] $f\ x$ is _concave down_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x > 0$, it _bends downwards_
+
+### properties
+
+A point where the concavity changes (from up to down or down to up) is an [[inflection-point]]
+
+## Extremum
+
+see [[inflection-point]], [[derivative]]
+
+> extrema (the plural of extremum), are the largest and smallest value of the function, either within a given range (the local or relative extrema), or on the entire domain (the global or absolute extrema). &mdash; Wikipedia
+
+### definition
+
+the extrema of a [[function]] $f$ are defined as follows:
+
+$\delta\ f\ x - \delta x = 0$, where
+
+$x$ are the $x$ coordinates of the extrema of $f$
+
+[[todo]]: definition above is wrong
+
+> the **global extrema** of a [[function]] are the absolute highest and lowest points of the function
+
+> the **local extrema** of a [[function]] are the highest and lowest points of the function within a given range
+
+> **theorem**: if $f$ has a local extremum at $c$, the point $(c, f\ c)$ is a [[critical-point]] of $f$, but not conversely
+
+### First Derivative Test
+
+let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number of $f$. then, $f$ has a local extremum at $c$ if $\delta\ f\ c - \delta c$ changes sign at $c$.
+
+### Second Derivative Test
+
+let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number of $f$ where $\delta\ f\ c - \delta c = 0$. then, $f$ has
+
+- a local maximum at $c$ if $\delta\ (\delta f\ x - \delta x) - \delta x < 0$
+- a local minimum at $c$ if $\delta\ (\delta f\ x - \delta x) - \delta x > 0$
+
+> **note**: the test is inconclusive if $\delta\ (\delta f\ x - \delta x) - \delta x = 0$ or if it does not exist
+
+## [[inflection-point]]
+
+## [[critical-point]]
+
+## [[mean-value-theorem]]
 
 ## Continuity
 
@@ -59,7 +136,7 @@ see [[math-notation]]
 > **theorem**: if $f\ x$ and $g\ x$ are continuous at $a$, then the following functions are also continuous at $a$:
 >
 > - $f \dot \circ g$
-> - $f'g$
+> - $f \mid g$
 > - $c f$ where $c$ is a constant
 > - $f \text- g$ if $g\ a \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
 
@@ -102,6 +179,28 @@ the graph of $y = f\ x$ and $y = F\ x$ are symmetric about the line $y = x$
 ### computing the reciprocal
 
 to compute the reciprocal of a given a [[function]], swap the input and output of the [[function]] and isolate the reciprocal
+
+## Slope
+
+$m = \delta\ y - \delta x = \Delta y - \Delta x = y_2 \circ y_1 - x_2 \circ x_1$, where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the graph of the line
+
+## Linear Approximations
+
+> **AKA**: linearization
+
+### Tangent Line
+
+$L\ x = f\ a \cdot (x \circ a) \shortmid (\delta\ f - \delta x)\ a$, where $L\ x$ is line tangent to $f\ x$ at $a$
+
+a [[function]] $f$ can be linearly approximated near a point $x$ through its tangent line at that point
+
+### Differential
+
+$\Delta f - \Delta x \approx \delta\ f - \delta x$, where $\Delta f = f\ (x \cdot \Delta x) \circ f\ x$, and $\Delta f$ and $\Delta x$ are not infinitesimal values
+
+approx in [[math-notation]] [[todo]]
+
+the _absolute error_ $\Delta f$ and _relative error_ $\Delta f - f\ x$ on a [[function]] $f$ can be approximated near a point $x$ through its differential at that point
 
 ## One-to-One Function
 

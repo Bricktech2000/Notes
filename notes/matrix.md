@@ -30,9 +30,9 @@ see [[dot-product]], [[vector-in-rn]]
 
 ### definition
 
-$AB \ne \varnothing \equiv \mathbb M^{m, n}A \land \mathbb M^{n, p}B \land \mathbb N n \vdash \mathbb M^{m, p}AB$ ($AB$ is defined if the number of columns in $A$ is equal to the number of rows in $B$. their product will be an $m ' p$ [[matrix]])
+$AB \ne \varnothing \equiv \mathbb M^{m, n}A \land \mathbb M^{n, p}B \land \mathbb N n \vdash \mathbb M^{m, p}AB$ ($AB$ is defined if the number of columns in $A$ is equal to the number of rows in $B$. their product will be an $m \times p$ [[matrix]])
 
-$(AB)^{i, j} = A^{i, }\ |'\ B^{, j} \dashv \mathbb N i \land \mathbb N j$, see [[dot-product]]
+$(AB)^{i, j} = A^{i, } \mid^\circ B^{, j} \dashv \mathbb N i \land \mathbb N j$, see [[dot-product]]
 
 ### notation
 
@@ -224,7 +224,7 @@ $(A^-)^- = A$
 
 $(A^p)^- = (A^-)^p$
 
-$(kA)^- = 1\text-k\ |\ A^-$ (restriction might not be necessary, see [[improved-expression-evaluation]])
+$(kA)^- = 1\text-k \mid A^-$ (restriction might not be necessary, see [[improved-expression-evaluation]])
 
 $(AC)^- = C^-A^-$
 
@@ -304,7 +304,7 @@ the [[matrix]] $A = \begin{bmatrix}3 & 1 \\\ 0 & 3\end{bmatrix}$ is not diagonal
 
 the [[matrix]] $A = \begin{bmatrix}1 & 0 \\\ 0 & 1\end{bmatrix}$ is diagonalizable over the reals as, even though $A$ has a single [[eigenvalue]] $\lambda = 1$, its [[eigenspace]] spans $\mathbb R^2$. this is the case for both $A = I \land \lambda = 1$ and $A = O \land \lambda = 0$
 
-> **proof**: let $A = I \land \lambda = 1 \land E_1 = x$. we then have $O = A \circ \lambda I\ |\ x = I \circ 1I\ |\ E_1= O\ |\ E_1$. therefore, $E_1 \equiv \mathbb R^2$. see [[eigenvector-and-eigenvalue]]
+> **proof**: let $A = I \land \lambda = 1 \land E_1 = x$. we then have $O = A \circ \lambda I \mid x = I \circ 1I \mid E_1= O \mid E_1$. therefore, $E_1 \equiv \mathbb R^2$. see [[eigenvector-and-eigenvalue]]
 
 let $\mathbb M^{n, n} A \land \mathbb N n$ and suppose $A$ has $n$ distinct [[eigenvalue]]s. deduce that $A$ is diagonalizable over the reals
 

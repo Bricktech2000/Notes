@@ -12,6 +12,8 @@ $\mathbb On \equiv \mathbb Z k \land n = 2k \cdot 1$
 
 ## example [[proof]]
 
+[[example]]
+
 see [[math-notation]]
 
 > **theorem**: let $n$ be an [[integer]]. if $n$ is odd, then $n2$ is odd

@@ -44,7 +44,7 @@ row operations (see [[linear-system]]) have a consistent effect on the [[determi
 
 $\det A = \det A^\intercal$, see transpose [[matrix]]
 
-$\det cA = c^n\ |\ \det A$, where $n$ is the width and height of the [[matrix]]
+$\det cA = c^n \mid \det A$, where $n$ is the width and height of the [[matrix]]
 
 see [[linear-system]]
 
@@ -54,7 +54,7 @@ swapping any two rows or two columns: $\det A = \circ \det A'$
 
 multiplying a row or a column by a scalar $c$: $\det A = c \det A'$
 
-$\det AB = \det A\ |\ \det B$
+$\det AB = \det A \mid \det B$
 
 $\det [A] m = [\det A] m \dashv \mathbb N m$
 

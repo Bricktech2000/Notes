@@ -42,7 +42,7 @@ $\phi$ is the binding energy or work function (the energy holding an electron to
 
 ### other equations
 
-$E_T = E_{photon}\ |\ \#_\gamma$, where
+$E_T = E_{photon} \mid \#_\gamma$, where
 
 $E_T$ is the total [[energy]] in the wave, see [[specific-heat]]
 

@@ -88,7 +88,7 @@ let $V\ v_1 \dots v_m$. if $U = \text{span } v_1 \dots v_m$, then $U$ is a subsp
 
 $V u \land V v \vdash V (u \cdot v)$ &mdash; closed under addition
 
-$V u \land \mathbb R k \vdash V(k\ |\ u)$ &mdash; closed under multiplication by scalar
+$V u \land \mathbb R k \vdash V(k \mid u)$ &mdash; closed under multiplication by scalar
 
 $V O \land (O \cdot u = u \dashv V u)$ &mdash; zero vector
 
@@ -104,9 +104,9 @@ $u \cdot v \equiv v \cdot u$ &mdash; commutativity
 
 $u \cdot (v \cdot w) \equiv (u \cdot v) \cdot w$ &mdash; associativity
 
-$c\ |\ u \cdot v \equiv cu \cdot cv$ &mdash; distributivity
+$c \mid u \cdot v \equiv cu \cdot cv$ &mdash; distributivity
 
-$k\ |\ du \equiv kd\ |\ u$ &mdash; multiplicative associativity
+$k \mid du \equiv kd \mid u$ &mdash; multiplicative associativity
 
 ## [[vector-space-proof-examples]]
 

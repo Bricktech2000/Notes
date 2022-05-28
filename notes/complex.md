@@ -36,13 +36,13 @@ $(a \cdot bi) \cdot (c \cdot di) = (a \cdot c) \cdot (b \cdot d)i$ &mdash; addit
 
 $(a \cdot bi) \circ (c \cdot di) = (a \circ c) \cdot (b \circ d)i$ &mdash; subtraction
 
-$a \cdot bi\ |\ c \cdot di = ac \cdot adi \cdot bic \cdot bdi2 = (ac \circ bd) \cdot (ad \cdot bc)i$ &mdash; multiplication
+$a \cdot bi \mid c \cdot di = ac \cdot adi \cdot bic \cdot bdi2 = (ac \circ bd) \cdot (ad \cdot bc)i$ &mdash; multiplication
 
-$z\ |\ w = |z| [e](i\theta)\ |\ |w| [e](i\phi) = |zw|[e](i\ |\ \theta \cdot \phi)$ &mdash; multiplication in polar form
+$z \mid w = |z| [e](i\theta) \mid |w| [e](i\phi) = |zw|[e](i \mid \theta \cdot \phi)$ &mdash; multiplication in polar form
 
-$\lfloor i \rfloor = \dot \circ\ |\ 1 \cdot i - \lfloor 2 \rfloor$ &mdash; square root of $i$
+$\lfloor i \rfloor = \dot \circ \mid 1 \cdot i - \lfloor 2 \rfloor$ &mdash; square root of $i$
 
-$a \cdot bi\ |\ a \circ bi = a2 \cdot b2 = |a \cdot bi|\ \ |\ \ |a \circ bi|$ &mdash; product of conjugates are product of their magnitudes
+$a \cdot bi \mid a \circ bi = a2 \cdot b2 = |a \cdot bi|\  \mid \ |a \circ bi|$ &mdash; product of conjugates are product of their magnitudes
 
 &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
 
@@ -80,7 +80,7 @@ $\overline{z \cdot w} = \overline z \cdot \overline w$
 
 $\overline{cz} = c \overline z$
 
-$\overline{zw} = \overline z\ |\ \overline w$
+$\overline{zw} = \overline z \mid \overline w$
 
 $\overline{z - w} = \overline z - \overline w$
 

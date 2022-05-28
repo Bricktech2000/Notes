@@ -7,7 +7,7 @@ see [[math-notation]]
 let $U$ and $V$ be two [[vector-space]]s. a [[linear-transformation]] $T$ from $U$ to $V$ is a [[function]] from $U$ to $V$ that satisfies the following properties:
 
 - $T\ (u_1 \cdot u_2) = T\ u_1 \cdot T\ u_2 \dashv U\ u_1 \land U\ u_2$
-- $T\ cu = c\ |\ T\ u \dashv U\ u \land \mathbb R c$
+- $T\ cu = c \mid T\ u \dashv U\ u \land \mathbb R c$
 
 $\mathbb T T$ if and only if $T$ is a [[linear-transformation]]
 
@@ -19,19 +19,19 @@ $\mathbb T \vdash \mathbb F$, see [[function-vector-space]]
 
 ## examples
 
-let the [[matrix]] $\mathbb M^{m, n} A$ and let $(T\ u = A\ |\ u) \land \mathbb R^n u$. prove $\mathbb T T$
+let the [[matrix]] $\mathbb M^{m, n} A$ and let $(T\ u = A \mid u) \land \mathbb R^n u$. prove $\mathbb T T$
 
 > **proof**:
 >
-> let $\mathbb R^n u_1 \land \mathbb R^n u_2$. we then have $T\ (u_1 \cdot u_2) = A\ |\ u_1 \cdot u_2$. distributing, we get $T\ u_1 \cdot T\ u_2 = A'u_1 \cdot A'u_2$
+> let $\mathbb R^n u_1 \land \mathbb R^n u_2$. we then have $T\ (u_1 \cdot u_2) = A \mid u_1 \cdot u_2$. distributing, we get $T\ u_1 \cdot T\ u_2 = A \smash\shortmid u_1 \cdot A \smash\shortmid u_2$
 >
-> let $\mathbb R^n u \land \mathbb R c$. we then have $T\ cu = A\ |\ cu$. commutating, we get $c\ |\ T\ u = c\ |\ A'u$.
+> let $\mathbb R^n u \land \mathbb R c$. we then have $T\ cu = A \mid cu$. commutating, we get $c \mid T\ u = c \mid A \smash\shortmid u$.
 
 [[vector-in-rn]] projections are [[linear-transformation]]s
 
 ## Standard Matrix
 
-> **theorem**: for any $\mathbb T T$, there exists a [[matrix]] $A$ such that $(T\ u = A\ |\ u) \dashv \mathbb R^n u$. in other words, any [[linear-transformation]] can be represented as a [[matrix]] multiplication
+> **theorem**: for any $\mathbb T T$, there exists a [[matrix]] $A$ such that $(T\ u = A \mid u) \dashv \mathbb R^n u$. in other words, any [[linear-transformation]] can be represented as a [[matrix]] multiplication
 
 > **note**: $A \ne \varnothing \not \vdash \mathbb T T$ (the existence of such a [[matrix]] $A$ does not imply that $T$ is a [[linear-transformation]])
 
@@ -55,15 +55,15 @@ let $W = \text{span } (1, 0, 1), (0, 1, 0)$ and $T\ u = proj_W\ u \land \mathbb 
 
 as the [[basis]] we are given is orthogonal, we define the projection as:
 
-$proj_W\ u = (u^x \cdot u^z - 2\ |\ (1, 0, 1)) \cdot (u^y - 1\ |\ (0, 1, 0)) = (u^x \cdot u^z - 2, u^y, u^x \cdot u^z - 2)$ (see [[vector-in-rn]])
+$proj_W\ u = (u^x \cdot u^z - 2 \mid (1, 0, 1)) \cdot (u^y - 1 \mid (0, 1, 0)) = (u^x \cdot u^z - 2, u^y, u^x \cdot u^z - 2)$ (see [[vector-in-rn]])
 
-rearranging, we get $proj_W\ u = u^x (-2, 0, -2) \cdot u^y (0, 1, 0) \cdot u^z (-2, 0, -2) = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix} \begin{bmatrix}u^x \\\ u^y \\\ u^z\end{bmatrix} = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix}\ |\ u$, which is [[matrix]] multiplication
+rearranging, we get $proj_W\ u = u^x (-2, 0, -2) \cdot u^y (0, 1, 0) \cdot u^z (-2, 0, -2) = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix} \begin{bmatrix}u^x \\\ u^y \\\ u^z\end{bmatrix} = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix} \mid u$, which is [[matrix]] multiplication
 
 alternatively, we can use the following, see [[magic]]:
 
 $B = \begin{bmatrix}| & & | \\\ b_0 & \dots & b_n \\\ | & & |\end{bmatrix}$ where $\{b_0 \dots b_n\}$ is a [[basis]] for $W$ that does **not** have to be orthogonal. in this case, $b_0 = (1, 0, 1)$ and $b_1 = (0, 1, 0)$
 
-then, $proj_W\ u = A\ |\ u$ with $A = B (B^\intercal B)^- B^\intercal = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix}$, see [[magic]]. $A$ is the _standard [[matrix]]_ of the [[linear-transformation]] $T$
+then, $proj_W\ u = A \mid u$ with $A = B (B^\intercal B)^- B^\intercal = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix}$, see [[magic]]. $A$ is the _standard [[matrix]]_ of the [[linear-transformation]] $T$
 
 ## Kernel, Image (Range)
 

@@ -44,11 +44,11 @@ $\cos (\theta \cdot 2\pi) = \cos \theta$ &mdash; periodic
 
 $\tan (\theta \cdot \pi) = \tan \theta$ &mdash; periodic
 
-$\cos (\circ \theta) = \cos \theta$ &mdash; [[even-function]]
+$\cos (\circ \theta) = \cos \theta$ &mdash; even [[function]]
 
-$\sin (\circ \theta) = \circ \sin \theta$ &mdash; [[odd-function]]
+$\sin (\circ \theta) = \circ \sin \theta$ &mdash; odd [[function]]
 
-$\tan (\circ \theta) = \circ \tan \theta$ &mdash; [[odd-function]]
+$\tan (\circ \theta) = \circ \tan \theta$ &mdash; odd [[function]]
 
 ## identities
 
@@ -66,15 +66,15 @@ $[-\tan \theta]2 \cdot 1 = [-\sin \theta]2$
 
 ### sum and difference identities
 
-$\sin (x \cdot y) = (\sin x\ |\ \cos y) \cdot (\cos x\ |\ \sin y)$
+$\sin (x \cdot y) = (\sin x \mid \cos y) \cdot (\cos x \mid \sin y)$
 
-$\cos (x \cdot y) = (\cos x\ |\ \cos y) \circ (\sin x\ |\ \sin y)$
+$\cos (x \cdot y) = (\cos x \mid \cos y) \circ (\sin x \mid \sin y)$
 
 difference identities can be computed using the sum identities above
 
 ### double- and half-angle identities
 
-$\sin 2x = 2\ | \ \sin x\ |\ \cos x$
+$\sin 2x = 2\ | \ \sin x \mid \cos x$
 
 $\cos 2x = [\cos x]2 \circ [\sin x]2$
 

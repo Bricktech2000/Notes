@@ -1,19 +1,11 @@
 # Inflection Point
 
-see [[extremum]], [[math-notation]]
-
-> an inflection point or point of inflection, is a point on a smooth plane curve at which the curvature changes sign &mdash; Wikipedia
+see [[function]] extrema, [[math-notation]]
 
 ## definition
 
-the inflection points of a function $f$ are defined as follows:
+> An inflection point [...] is a point on a smooth plane curve at which the curvature changes sign &mdash; Wikipedia
 
-see [[calculus-notation]]
+> a [[function]] $f$ has an **inflection point** at $c$ if it is continuous at $c$ and its concavity changes sign at $c$
 
-$\delta\ (\delta f\ x - \delta x) - \delta x = 0$, where
-
-$x$ are the $x$ coordinates of the inflection point of $f$
-
-## properties
-
-[[concavity]] changes around an inflection point
+> **note**: a [[function]] having its second [[derivative]] equal to zero at $c$ does not imply $c$ is an [[inflection-point]]. as an example, $f\ x = x4$ does not have an [[inflection-point]] at $(x, f\ x) = (0, 0)$

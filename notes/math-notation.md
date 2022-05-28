@@ -20,9 +20,9 @@ $a - b$ is low-precedence division
 
 $ab$ is high-precedence multiplication
 
-$a ' b$ is multiplication
+$a \smash\shortmid b$ is multiplication
 
-$a\ |\ b$ is low-precedence multiplication
+$a \mid b$ is low-precedence multiplication
 
 $[a] b$ is $a$ to the power of $b$
 
@@ -104,7 +104,7 @@ $f^\times$ is the reciprocal (switching input and output) of the function $f$ (m
 
 $\delta y - \delta x$ is the derivative of $y$ with respect to $x$
 
-$\int y\ |\ \delta x$ is the integral of $y$ with respect to $x$
+$\int y \mid \delta x$ is the integral of $y$ with respect to $x$
 
 > **note**: $\delta$ (greek letter _delta_) should be used instead of $d$ (latin letter _d_)
 
@@ -112,7 +112,7 @@ $\int y\ |\ \delta x$ is the integral of $y$ with respect to $x$
 
 $\varnothing$ is _undefined_
 
-$x_0\ |\ \dots x_n$ with $n = 3$ means $x_0\ |\ x_1\ |\ x_2\ |\ x_3$ (this works with any operator)
+$x_0 \mid \dots x_n$ with $n = 3$ means $x_0 \mid x_1 \mid x_2 \mid x_3$ (this works with any operator)
 
 $x_0 \dots x_n$ with $n = 3$ means $x_0, x_1, x_2, x_3$
 
@@ -121,10 +121,10 @@ $x_0 \dots x_n$ with $n = 3$ means $x_0, x_1, x_2, x_3$
 _high to low_
 
 - $() [] \lfloor\rfloor \lceil\rceil$
-- $' \text-$
+- $\shortmid \text-$
 - $\delta f$
 - $\cdot \circ$
-- $| -$
+- $\mid -$
 - $\int \lim$
 - $=\ne\gt\ge\lt\le$
 - $\lnot$

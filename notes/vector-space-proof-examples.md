@@ -12,7 +12,7 @@ prove $V v \equiv v = (x, 2x) \land \mathbb R x$ is a [[vector-space]]
 
 _closed under addition_
 
-$u \cdot v = (x \cdot y, 2\ |\ x \cdot y)$
+$u \cdot v = (x \cdot y, 2 \mid x \cdot y)$
 
 therefore, $V (u \cdot v)$
 
@@ -94,7 +94,7 @@ therefore, $T (u \cdot v)$
 
 _closed under multiplication_
 
-$(ku)(1, 2, 3) = k(u(1, 2, 3)) = c'0 = 0$
+$(ku)(1, 2, 3) = k(u(1, 2, 3)) = c \mid 0 = 0$
 
 therefore, $T (ku)$
 
@@ -132,8 +132,8 @@ $km = k \begin{bmatrix}m^{0, 0} & m^{0, 1} \\\  m^{1, 0} & m^{1, 1}\end{bmatrix}
 
 $km^{0, 0} \cdot km^{1, 1} = km^{1, 0} \cdot km^{0, 1}$
 
-$k\ |\ m^{0, 0} \cdot m^{1, 1} = k\ |\ m^{1, 0} \cdot km^{0, 1}$
+$k \mid m^{0, 0} \cdot m^{1, 1} = k \mid m^{1, 0} \cdot km^{0, 1}$
 
-$k\ |\ m^{0, 0} \cdot m^{1, 1} = k\ |\ m^{0, 0} \cdot km^{1, 1}$
+$k \mid m^{0, 0} \cdot m^{1, 1} = k \mid m^{0, 0} \cdot km^{1, 1}$
 
 therefore, $M(km)$

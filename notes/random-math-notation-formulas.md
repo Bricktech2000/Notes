@@ -6,13 +6,13 @@ $\delta f\ x - \delta x = \lim_{h \to 0} f (x \cdot h) \circ f (x) - h$
 
 $[a \cdot b] = a2 \cdot b2 \cdot 2ab$
 
-$V = b \cdot B\ |\ h - 2$
+$V = b \cdot B \mid h - 2$
 
-$\int_a^b (\delta f\ x - \delta x)\ x\ |\ dx = f\ b \circ f\ a$
+$\int_a^b (\delta f\ x - \delta x)\ x \mid dx = f\ b \circ f\ a$
 
-$\delta (\int_a^x f\ t\ |\ dt) - dx= f x$
+$\delta (\int_a^x f\ t \mid dt) - dx= f x$
 
-$a2 \circ b2 = a \circ b\ |\ a \cdot b$
+$a2 \circ b2 = a \circ b \mid a \cdot b$
 
 $a2 \cdot b2 = c2$
 
@@ -32,9 +32,9 @@ $dist\ A, B = dist\ A \cdot x, B \cdot x \dashv \mathbb U x$, see [[universal]]
 
 $dist\ A, B \cdot dist\ B, C \ge dist\ A, C$
 
-$\lnot\ a \cdot b = c\ |\ d$
+$\lnot\ a \cdot b = c \mid d$
 
-$3' x = y \dashv \mathbb Z x$
+$3 \mid x = y \dashv \mathbb Z x$
 
 _there exists an [[integer]] $x$ such that $1 + x = 3$_
 
@@ -52,7 +52,7 @@ $1 \div 3 (1 + 2)$
 
 $1 - 3(1 \cdot 2)$
 
-$1 - 3\ |\ 1 \cdot 2$
+$1 - 3 \mid 1 \cdot 2$
 
 $[a] \cdot b$
 

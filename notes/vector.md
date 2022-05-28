@@ -28,10 +28,10 @@ $(u \cdot v) \cdot w = u \cdot (v \cdot w)$
 
 $u \cdot v = v \cdot u$
 
-$c\ |\ u \cdot v = cu \cdot cv$
+$c \mid u \cdot v = cu \cdot cv$
 
-$c_1 \cdot c_2\ |\ u = c_1u \cdot c_2u$
+$c_1 \cdot c_2 \mid u = c_1u \cdot c_2u$
 
-$c_1 c_2\ |\ u = c_1\ |\ c_2u$
+$c_1 c_2 \mid u = c_1 \mid c_2u$
 
 $1u = u$

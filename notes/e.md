@@ -24,4 +24,4 @@ see [[derivative]]
 
 $g\ x = e[x]2 \cdot 2[e]x \cdot x[e]2 \cdot [x](e2)$
 
-$\delta\ g\ x - \delta x = 2ex \cdot 2[e]x \cdot [e]2 \cdot [e]2'[x](e2 \circ 1)$
+$\delta\ g\ x - \delta x = 2ex \cdot 2[e]x \cdot [e]2 \cdot [e]2\smash\shortmid[x](e2 \circ 1)$

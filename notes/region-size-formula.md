@@ -12,7 +12,7 @@ in canada,
 
 $329 900\$ - 9.985M km2 \approx 33.04 \$ - 1000 km2$
 
-## properties and uses
+## properties and applications
 
 calculates the "size" or "visual wealth" of a region (city, country, etc.)
 

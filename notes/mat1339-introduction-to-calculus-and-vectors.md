@@ -24,9 +24,9 @@ Main textbook (required): “Introduction to Computing Using Python: An Applicat
 
 [[limit]]
 
-[[even-function]] and [[odd-function]]
+even and odd [[function]]s
 
-critical points - [[inflection-point]] [[extremum]], [[concavity]]
+[[critical-point]]s - [[inflection-point]], [[function]] extremum, [[function]] concavity
 
 [[vector-in-rn]]
 

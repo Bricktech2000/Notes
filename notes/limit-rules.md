@@ -20,11 +20,11 @@ $\lim_{x \to a} (f\ x \circ g\ x) = \lim_{x \to a} f\ x \circ \lim_{x \to a} g\ 
 
 ## Constant Multiple Rule
 
-$\lim_{x \to a} (c\ |\ f\ x) = c\ |\ \lim_{x \to a} f\ x$
+$\lim_{x \to a} (c \mid f\ x) = c \mid \lim_{x \to a} f\ x$
 
 ## Product Rule
 
-$\lim_{x \to a} (f\ x\ |\ g\ x) = \lim_{x \to a} f\ x\ |\ \lim_{x \to a} g\ x$
+$\lim_{x \to a} (f\ x \mid g\ x) = \lim_{x \to a} f\ x \mid \lim_{x \to a} g\ x$
 
 ## Quotient Rule
 
@@ -53,3 +53,30 @@ $\lim_{x \to 0} -x = \dot \circ \infty$
 let $f\ x \leq g\ x \leq h\ x$ for $x$ near a value $a$
 
 if $\lim_{x \to a} f\ x = \lim_{x \to a} h\ x = L$, then $\lim_{x \to a} g\ x = L$
+
+## L'Hôpital's Rule
+
+_used to compute [[limit]]s in indeterminate forms using their [[derivative]]s_
+
+> **theorem**: let $f\ x$ and $g\ x$ be differentiable [[function]]s such that $\delta\ g\ x - \delta x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]]) in an open interval around $a$. if $\lim_{x \to a} f\ x - g\ x$ is a $0 - 0$ or $\infty - \infty$ [[limit]] indeterminate form, then $\lim_{x \to a} f\ x - g\ x = \lim_{x \to a} \delta\ f\ x - \delta\ g\ x = \lim_{x \to a} (\delta\ f\ x - \delta x) - (\delta\ g\ x - \delta x)$
+
+other [[limit]] indeterminate forms can be rewritten to use L'Hôpital's rule:
+
+- $0 \mid \infty$: $0 - (-\infty)$ or $(-0) - \infty$
+- $[1]\infty$: $\ln [1]\infty \to \infty \ln 1 \to \infty \mid 0$
+- $[\infty]0$: $\ln [\infty]0 \to 0 \ln \infty \to 0 \mid \infty$
+- $[0]$: $ \ln [0]0 \to 0 \ln 0 \to 0 \mid \circ \infty$
+
+### examples
+
+$\lim_{x \to \infty} x - [3]x$
+
+$\lim_{x \to 0} \sin x \circ x - [\sin x]3$
+
+$\lim_{x \to 0} \sin x \circ x - [\sin x]3$
+
+$\lim_{x \to 0^+} \sin x \ln x$
+
+$\lim_{x \to \infty} [1 \cdot 1 \text- x]x$
+
+[[todo]]: [[conventions]] [[calculus-notation]] space after first $\delta$ but no space in $\delta x$, $\delta\ g - \delta x$ doesn't work and should be $\delta\ g\ x - \delta x$. note names with `'` not replaced with `-`
