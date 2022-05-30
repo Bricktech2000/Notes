@@ -12,7 +12,7 @@ this [[improved-expression-evaluation]] proposes that any algebraic manipulation
 
 ## applications
 
-- classically, $\text{atan } y \text- x \land x = 0 \equiv \varnothing$. however, by substituting $y \text- x$ in the definition of the $\tan$ [[function]] directly and by using [[limit-rules]] to simplify it, the right answer $\pi - 2$ is obtained.
+- classically, $\operatorname{atan} y \text- x \land x = 0 \equiv \varnothing$. however, by substituting $y \text- x$ in the definition of the $\operatorname{atan}$ [[function]] directly and by using [[limit-rules]] to simplify it, the right answer $\pi - 2$ is obtained.
 
 - classically, the graph of a [[function]] such as $f\ x = - - x \circ 2$ has a hole at $x = 2$. however, by simplifying the [[function]] using [[limit-rules]] before graphing it, the function $f\ x = x \circ 2$ is obtained; the hole is avoided.
 
@@ -109,19 +109,73 @@ in order to avoid breaking $[0]0 = 1$ (see Wikipedia article), we must define:
 
 $[1](\circ -0) = \varnothing \ne 0$
 
+## exponents and square roots
+
+define $\lfloor x2 \rfloor = x$, but $\lfloor 4 \rfloor = \dot \circ 2$ &mdash; Kiera
+
+$x = \lfloor x2 \rfloor = \lfloor [\circ x]2 \rfloor = \circ x$
+
+using the property $[x]2 = [\circ x]2 \dashv \mathbb R x$, just as we could use the property $0x = 0 \dashv \mathbb R x$ for division by zero
+
+breakthrough (I think): in the case of division by zero, it's not about the zeros being the same; it's about not using the _information-tampering_ property that any real multiplied by zero returns zero. the same is true with the exponent-root pair.
+
+> $[ab]2 = a2 \mid b2$
+>
+> $[3]2 = [1 \mid 3]2 = 1 \underline\cdot2 \mid 3 \odot2$
+>
+> $[\circ 1]2 = 1 \underline{\overline\circ}2$
+>
+> $[3 \mid 3]2 = [3]2 \mid [3]2 = \odot4 \mid 9 \mid 9 = \odot4 \mid 81 = \odot2 \mid [9]2 = \odot2 \mid [3 \mid 3]2$
+>
+> $[9]2 = [3 \mid 3]2 = [3]2 \mid [3]2 = 9 \odot2 \mid 9 \odot2 = 81 \odot2 = [9]2 = [[\dot\circ 3]2]2 = [\dot\circ 3]4$
+>
+> $[\circ ab]2 = \circledcirc2 \mid a2 \mid b2$
+>
+> $25[ab]2 = [\dot\circ 5ab]2$
+>
+> $\lfloor 25 \rfloor = \dot\circ 5$
+>
+> $\lfloor 25 \mid \odot2 \rfloor = 5$
+>
+> $\lfloor 25 \mid \circledcirc2 \rfloor = \circ 5$
+>
+> $[5]2 = \odot2 \mid 25$
+
+therefore, we define $\theta \to 0$
+
+$[3]2 \to 9$ and $[\circ 3]2 \to 9$ (which loses information) just as $\theta x \to 0$ (which loses information)
+
+$\lfloor [3]2 \rfloor = 9$ (through cancellation) just as $\theta x - \theta = x$ (through cancellation)
+
+$\lfloor 9 \rfloor = \varnothing$ (can be thought of as $\dot\circ 3$) just as $0 - 0 = \varnothing$ (can be thought of as "any real number")
+
 ## conclusion
 
 I could not break this [[improved-expression-evaluation]]. it would be very hard to prove this system right using mathematics, as it was built from the ground up on a slightly different kind of mathematics. with that said, a counterexample would be a simple way to prove this system wrong. none has been found yet.
 
 ### current rules
 
-$x - x = 1 \dashv x = 0$ but $0 - 0 = \varnothing$
+$\theta \to 0$
 
-$--x = x \dashv x = 0$ and $--0 = 0$
+$0x = 0 \land \theta x \ne \theta$
 
-$[0]0 = 1$
+$\theta - \theta = 1$ but $0 - 0 \to \varnothing \land \theta - 0 \to \varnothing \land 0 - \theta \to \varnothing$
 
-$-0 = \varnothing$
+$--\theta = \theta$ but $--0 \to \varnothing$
+
+$-0 \to \varnothing \land -\theta \to \varnothing$
+
+$[x]\theta = 1$
+
+$[0]0 = 1$. but what if $[\theta]0 = 1 \land [0]\theta \to \varnothing \land [0]0 \to \varnothing \land [\theta]\theta \to \varnothing$ [[think]]
+
+$\lfloor x2 \rfloor = x$
+
+$\lfloor x \rfloor \to \varnothing$
+
+$[x]2 \to \text{(square of x)} \land [\circ x]2 \to \text{(square of x)}$
+
+$[\circ x]2 \not \to [x]2 \land \text{(square of x)} \not \to [x]2$
 
 in a [[proof]], equalities must be linked together through the intended implications (see [[boolean-operator]]). this means that multiplying or dividing an equality by an expresion that could be $0$ or raising it to some power could require additional restrictions.
 
@@ -141,76 +195,6 @@ if the result of an expression is _undefined_, then the expression must be rearr
 
 <https://en.wikipedia.org/wiki/Natural_logarithm#Properties>
 
-## exponents and square roots
-
-define $\lfloor x2 \rfloor = x$, but $\lfloor 4 \rfloor = \dot \circ 2$ &mdash; Kiera
-
-$x = \lfloor x2 \rfloor = \lfloor [\circ x]2 \rfloor = \circ x$
-
-using the property $[x]2 = [\circ x]2 \dashv \mathbb R x$, just as we could use the property $0x = 0 \dashv \mathbb R x$ for division by zero
-
-breakthrough (I think): in the case of division by zero, it's not about the zeros being the same; it's about not using the _information-tampering_ property that any real multiplied by zero returns zero. the same is true with the exponent-root pair.
-
-## asdf
-
-$\lfloor \circ x \rfloor = \diamond y$
-
-$a \mid b$
-
-$a \mid b$
-
-$a\ \tiny\square\normalsize\ b$
-
-$5 \sigma x \underline 0 2$
-
-$x \underline 0 \cdot 1 - \underline 0$
-
-$x \sigma \cdot 1 - \sigma$
-
-$x \theta \cdot 1 - \theta$
-
-$\stackrel \circ \cdot$
-$\stackrel \cdot \circ$
-$\stackrel ! =$
-$\stackrel = !$
-
-$\circ \atop \cdot$
-$\cdot \atop \circ$
-
-$a \cdot b$
-
-$a \boxdot b$
-
-$a \Box b$
-
-$a \odot b$
-
-$a \circledcirc b$
-
-$\underline \cdot a$
-
-$a \shortmid b$
-
-$a \smash\shortmid b$
-
-$a \mid b$
-
-$\lim_{x \to 0}$
-
-$\lim\limits_{x \to 0}$
-
-$\circleddash$
-
-$\circledcirc$
-
-$\odot$
-
-$a \text- b$
-
-$a - b$
-
-$a \text- b$
-
-$a {\scriptstyle-} b$
-
-$a \textrm- b$
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" })</script>
+<script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([A-Za-z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`)</script>

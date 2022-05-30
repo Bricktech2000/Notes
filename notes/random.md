@@ -83,3 +83,73 @@ $$
 [[book]]
 
 $\sin \theta - \cos \theta = y \text- r - x \text- r = y - x = \tan \theta$
+
+## operator tests
+
+$\lfloor \circ x \rfloor = \diamond y$
+
+$a \mid b$
+
+$a \mid b$
+
+$a\ \tiny\square\normalsize\ b$
+
+$5 \sigma x \underline 0 2$
+
+$x \underline 0 \cdot 1 - \underline 0$
+
+$x \sigma \cdot 1 - \sigma$
+
+$x \theta \cdot 1 - \theta$
+
+$\stackrel \circ \cdot$
+$\stackrel \cdot \circ$
+$\stackrel ! =$
+$\stackrel = !$
+
+$\circ \atop \cdot$
+$\cdot \atop \circ$
+
+$a \cdot b$
+
+$a \boxdot b$
+
+$a \Box b$
+
+$a \odot b$
+
+$a \circledcirc b$
+
+$\underline \cdot a$
+
+$a \shortmid b$
+
+$a \smash\shortmid b$
+
+$a \mid b$
+
+$\lim_{x \to 0}$
+
+$\lim\limits_{x \to 0}$
+
+$\circleddash$
+
+$\circledcirc$
+
+$\odot$
+
+$a \text- b$
+
+$a - b$
+
+$a \text- b$
+
+$a {\scriptstyle-} b$
+
+$a \textrm- b$
+
+## stuff
+
+- when something clicks
+- if you're doing something challenging that requires you to focus intensely
+- hard to switch from being on the internet to focusing

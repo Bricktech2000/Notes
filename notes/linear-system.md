@@ -92,8 +92,6 @@ a [[linear-system]] can be represented using an augmented [[matrix]]
 
 let $\begin{bmatrix}A & | & b\end{bmatrix}$ be an augmented [[matrix]].
 
-notation [[todo]]
-
 - the system has no solutions if $rank(A) \lt rank(\begin{bmatrix}A & | & b\end{bmatrix})$
 - the system has a unique solution if and only if $rank(A) = rank(\begin{bmatrix}A & | & b\end{bmatrix}) = \text{number of columns in A}$
 - the system infinite solutions if and only if $rank(A) = rank(\begin{bmatrix}A & | & b\end{bmatrix}) \lt \text{number of columns in A}$

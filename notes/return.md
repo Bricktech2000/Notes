@@ -6,8 +6,6 @@ _lifts a value to the effects world_
 
 see [[effect-type]], [[functional-programming]]
 
-probably not an official term, [[todo]]
-
 ## applications
 
 a [[return]] lifts a value to the effects world. can be thought of as the constructor to an [[effect-type]]

@@ -1,5 +1,7 @@
 # Digital System
 
+see [[logic-circuit]]
+
 _digital systems_ and _analog systems_ are children of _electronic systems_
 
 a digital system is **not** necessarily [[binary]]

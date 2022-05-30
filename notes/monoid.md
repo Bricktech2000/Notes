@@ -25,7 +25,7 @@ allows the binary operation to be used on a list of elements of the set $S$. thi
 
 ### associativity
 
-allows for divide and conquer [[algorithm]]s [[complete]]
+allows for divide and conquer [[algorithm]]s
 
 allows for automatic parallelization of operations throughout multiple threads, CPUs, GPUs...
 

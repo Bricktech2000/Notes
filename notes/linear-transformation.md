@@ -35,7 +35,7 @@ let the [[matrix]] $\mathbb M^{m, n} A$ and let $(T\ u = A \mid u) \land \mathbb
 
 > **note**: $A \ne \varnothing \not \vdash \mathbb T T$ (the existence of such a [[matrix]] $A$ does not imply that $T$ is a [[linear-transformation]])
 
-in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \dots & T\ b_n \\\ | & & |\end{bmatrix}$ where $\{b_0 \dots b_n\}$ is the standard ([[todo]] [[understand]]) [[basis]] for $\mathbb R^n$. $A$ is the _standard [[matrix]]_ of the [[linear-transformation]] $T$
+in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \dots & T\ b_n \\\ | & & |\end{bmatrix}$ where $\{b_0 \dots b_n\}$ is the standard [[basis]] for $\mathbb R^n$, see [[magic]]. $A$ is the _standard [[matrix]]_ of the [[linear-transformation]] $T$
 
 ### example
 
@@ -51,7 +51,7 @@ $A = \begin{bmatrix}| & | & | \\\ T\ 1, 0, 0 & T\ 0, 1, 0 & T\ 0, 0, 1 \\\ | & |
 
 ### Projection to Matrix Multiplication
 
-let $W = \text{span } (1, 0, 1), (0, 1, 0)$ and $T\ u = proj_W\ u \land \mathbb R^3 u$
+let $W = \operatorname{span}\ (1, 0, 1), (0, 1, 0)$ and $T\ u = proj_W\ u \land \mathbb R^3 u$
 
 as the [[basis]] we are given is orthogonal, we define the projection as:
 

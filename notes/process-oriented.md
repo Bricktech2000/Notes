@@ -2,8 +2,7 @@
 
 most of our culture is outcome-oriented instead of process-oriented. here are some examples of this observation:
 
-- school doesn’t focus on what you learn; it focuses on your grade
-- [[complete]]
+- school doesn’t focus on what you learn; rather, it focuses on your grades
 
 focusing on outcomes can lead to [[feeling-overwhelmed]] and can prevent people from even starting the process itself (which could be wrongly rationalized as a lack of [[motivation]] or as [[laziness]])
 

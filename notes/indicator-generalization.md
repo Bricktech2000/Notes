@@ -1,6 +1,6 @@
 # Indicator Generalization
 
-&mdash; initial idea by "the guy at the caf" [[todo]]
+&mdash; initial idea by Daniel Tundun
 
 [[indicator-generalization]] is the process of generalizing _indicators_, which allows people to make deductions about other people.
 

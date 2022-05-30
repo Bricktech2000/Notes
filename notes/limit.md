@@ -31,25 +31,6 @@ if $g\ a = 0$, then $\lim_{x \to a} (f\ x - g\ x)$
 - does not exist if $f\ a \ne 0$ (including $\dot \circ \infty$)
 - can exist if $f\ a = 0$. first simplify using the [[limit-rules]] and then study the limit
 
-### tricks
-
-[[todo]] read over the tricks below and reword them
-
-for an $\infty - \infty$ indeterminate form (see [[rational-function]]):
-
-- formal method: factor out the highest power in both the numerator and the denominator
-- informal method: look at the highest degree of the numerator and of the denominator
-
-for the addition or subtraction of fractions, try to use a common denominator
-
-for subtraction of square roots, try to multiply by the conjugate
-
-for a $0 - 0$ indeterminate form (see [[rational-function]]), simplify before applying [[limit-rules]]
-
-for [[absolute-value]]s, solve the [[limit]] by cases
-
-for continuous [[function]]s, the [[limit]] of the [[function]] is equal to the value of the [[function]]
-
 ## special limits
 
 see [[trigonometric-function]]

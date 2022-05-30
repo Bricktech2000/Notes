@@ -7,6 +7,7 @@
 - Netflix & YouTube
 - junk food & drinks
 - sex & masturbation
+- gambling
 - music
 - porn
 - alcohol
@@ -35,6 +36,8 @@ preferably avoid, but still allowed
 - music
 - browsing social media
 - watching TV
+- [[video-game]]s
+- gambling
 
 ### with friction
 
@@ -44,7 +47,6 @@ for example, each hour of use has to be preceded by half an hour of "doing nothi
 
 - YouTube
 - Netflix
-- [[video-game]]s
 
 ### prohibited
 

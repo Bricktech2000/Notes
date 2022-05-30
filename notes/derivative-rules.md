@@ -80,8 +80,8 @@ $\delta\ \text-\cos x - \delta x = \text-\cos\ x \mid \tan x$
 
 $\delta\ \text-\tan x - \delta x = \circ [\text-\sin x]2$
 
-$\delta\ \text{asin } x - \delta x = -\lfloor 1 \circ x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29016>
+$\delta\ \operatorname{asin} x - \delta x = -\lfloor 1 \circ x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29016>
 
-$\delta\ \text{acos } x - \delta x = \circ -\lfloor 1 \circ x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29111>
+$\delta\ \operatorname{acos} x - \delta x = \circ -\lfloor 1 \circ x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29111>
 
-$\delta\ \text{atan } x - \delta x = -\lfloor 1 \cdot x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29233>
+$\delta\ \operatorname{atan} x - \delta x = -\lfloor 1 \cdot x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29233>

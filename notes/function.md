@@ -4,7 +4,7 @@ see [[math-notation]]
 
 ## types
 
-[[boolean-function]]
+[[boolean]] [[function]]
 
 [[rational-function]]
 
@@ -88,11 +88,11 @@ see [[inflection-point]], [[derivative]]
 
 the extrema of a [[function]] $f$ are defined as follows:
 
-$\delta\ f\ x - \delta x = 0$, where
+$f\ x \ge f\ y \dashv \mathbb R y$, and
+
+$f\ x \le f\ y \dashv \mathbb R y$, where
 
 $x$ are the $x$ coordinates of the extrema of $f$
-
-[[todo]]: definition above is wrong
 
 > the **global extrema** of a [[function]] are the absolute highest and lowest points of the function
 
@@ -196,9 +196,7 @@ a [[function]] $f$ can be linearly approximated near a point $x$ through its tan
 
 ### Differential
 
-$\Delta f - \Delta x \approx \delta\ f - \delta x$, where $\Delta f = f\ (x \cdot \Delta x) \circ f\ x$, and $\Delta f$ and $\Delta x$ are not infinitesimal values
-
-approx in [[math-notation]] [[todo]]
+$\Delta f - \Delta x$ is approximately $\delta\ f - \delta x$, where $\Delta f = f\ (x \cdot \Delta x) \circ f\ x$, and $\Delta f$ and $\Delta x$ are not infinitesimal values
 
 the _absolute error_ $\Delta f$ and _relative error_ $\Delta f - f\ x$ on a [[function]] $f$ can be approximated near a point $x$ through its differential at that point
 

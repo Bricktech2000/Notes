@@ -14,6 +14,6 @@ a [[span]]ning [[set]] is always a [[vector-space]], and all [[vector-space]]s c
 
 ### notation
 
-$\text{span } u_0 \dots u_m \dashv \mathbb R^nu \dashv \mathbb Z n$
+$\operatorname{span} u_0 \dots u_m \dashv \mathbb R^nu \dashv \mathbb Z n$
 
 $Vec$ is the French notation whereas $Span$ is the English notation

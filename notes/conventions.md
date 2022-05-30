@@ -12,6 +12,8 @@ variables are defined in separate lines using a _, where_ statement
 
 `\\` must be replaced by `\\\` for them to work properly. see the following discussion: <https://github.com/mathjax/MathJax/issues/1301>
 
+more information about supported features available at: <https://katex.org/docs/supported.html>
+
 ### headings
 
 Capitalized headings are for [[concept]]s
@@ -51,7 +53,9 @@ _see ..._ statements are for prerequisites
 
 note names are all _-ing_ verbal groups or singular nominal groups
 
-each page has exactly one first-level heading, which must correspond to the file name
+each page has exactly one title case first-level heading, which must correspond to the file name
+
+in file names, spaces are replaced by [[dash]]es and apostrophes are removed
 
 box titles are generated with <https://lingojam.com/BoldTextGenerator>
 

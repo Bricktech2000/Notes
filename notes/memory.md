@@ -23,4 +23,4 @@ episodic [[memory]]es are very flexible and can therefore be inaccurate or even 
 
 ## &mdash;
 
-Netflix "the mind, explained: memory"[[todo]]
+The Mind Explained | Memory <https://www.netflix.com/watch/81062188?trackId=255824129>

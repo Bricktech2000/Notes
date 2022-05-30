@@ -10,6 +10,10 @@ $\int y \mid \delta x \equiv \int (y \mid \delta(x))$
 
 $\delta y - \delta x \equiv \delta(y) - \delta(x)$
 
+> **note**: when representing the [[derivative]] or [[integral]] of a [[function]], its parameter should be included. for example, $\delta\ f - \delta x$ is invalid whereas $\delta\ f\ x - \delta x$ is valid
+
+> **note**: by convention, a space is added when the parameter to a $\delta$ or a $\int$ is a [[function]]
+
 ### intuitive explanation
 
 $\int$ and $\delta$ can be thought of as functions

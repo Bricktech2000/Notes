@@ -122,7 +122,7 @@ $proj_W\ v = v \dot\shortmid w_0 - w_0 \dot\shortmid w_0 \cdot \dots v \dot\shor
 
 $proj_W\ v$ is the projection of $v$ on the [[vector-space]] $W$
 
-$W = \text{span } w_0 \dots w_n$ and $w_0 \dots w_n$ form an orthogonal [[basis]] for $W$
+$W = \operatorname{span} w_0 \dots w_n$ and $w_0 \dots w_n$ form an orthogonal [[basis]] for $W$
 
 ### properties
 

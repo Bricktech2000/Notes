@@ -113,7 +113,7 @@ can be built by combining multiple logic [[gate]]s. may only take one input
 
 ## XNOR
 
-> **AKA**: Double Implication, Equivalent, Biconditional Statement
+> **AKA**: Double Implication, Equivalent, Biconditional Statement, Bidirectional Implication
 
 ### notation
 

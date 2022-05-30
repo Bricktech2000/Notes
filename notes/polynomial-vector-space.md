@@ -14,9 +14,7 @@ $P_n(\mathbb R)$ in [[classical-math-notation]]
 
 ## definition
 
-[[todo]] [[think]]
-
-$\mathbb P^n p \equiv (\text{span } [x]n \dots [x]0)\ p \dashv \mathbb N n$
+$\mathbb P^n p \equiv (\operatorname{span}\ [x]n \dots [x]0)\ p \dashv \mathbb N n$
 
 ## [[axiom]]s
 

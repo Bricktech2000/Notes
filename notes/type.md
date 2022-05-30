@@ -16,7 +16,7 @@ _`enum` in Rust_
 
 _`struct` in Rust_
 
-> **AKA**: "or" type, "choice" type
+> **AKA**: "and" type, "choice" type
 
 ### example of ADT [[composition]]
 
@@ -43,5 +43,3 @@ struct Payment {
   method: PaymentMethod,
 }
 ```
-
-[[complete]]

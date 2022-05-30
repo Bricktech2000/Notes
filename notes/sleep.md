@@ -2,7 +2,7 @@
 
 see [[math-notation]]
 
-> **Sleep inertia** is that "it sucks waking up" feeling [[complete]]
+> **Sleep inertia** refers to the transitional state between sleep and wake, marked by impaired performance, reduced vigilance, and a desire to return to sleep. _"it sucks waking up"_
 
 ## REM Sleep
 
@@ -16,7 +16,7 @@ a malfunction of the pons can lead to a [[sleep]] disorder known as _REM behavio
 
 some people believe that dreaming is meant for one to explore logically nonsensical scenarios while asleep to then come up with novel ideas while awake (the emotional regions of the brain are stimulated but the logical reasoning regions are almost shut down)
 
-&mdash; [[todo]], see [[memory]]
+&mdash; The Mind Explained | Dreams <https://www.netflix.com/watch/81062189?trackId=254743534>
 
 ## factors affecting sleep
 

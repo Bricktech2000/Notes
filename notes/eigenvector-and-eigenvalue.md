@@ -64,7 +64,7 @@ the [[eigenvector]]s of $A$ associated with the [[eigenvalue]] $\lambda$ are all
 
 for $\lambda = 3$:
 
-$A \circ 3I \mid x = O$ [[todo]]
+$A \circ 3I \mid x = O$
 
 $A \circ 3I \mid x = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \circ \begin{bmatrix}3 & 0 \\\  0 & 3\end{bmatrix} \mid x = \begin{bmatrix}\circ 2 & 2 \\\  2 & \circ 2\end{bmatrix} \mid x = 0$
 
@@ -103,14 +103,6 @@ the [[characteristic-polynomial]] of $\begin{bmatrix}2 & 4 & \circ 3 \\\ 0 & 3 &
 [[multiplicity]] can be used to determine whether a [[matrix]] is diagonalizable
 
 ## applications
-
-<!-- [[complete]]
-
-let $x = \begin{bmatrix}3 \\\ 7\end{bmatrix} = 5\begin{bmatrix}1 \\\ 1\end{bmatrix} \circ 2 \begin{bmatrix}1 \\\ \circ 1\end{bmatrix}$. note that $\begin{bmatrix}3 \\\ 7\end{bmatrix}$ and $\begin{bmatrix}1 \\\ \circ 1\end{bmatrix}$ are both [[eigenvector]]s of $A$, and $5$ and $2$ are their corresponding [[eigenvalue]]s
-
-[[todo]] 57:23- [[todo]] 1:07:09-
-
-compute $[A]2 \mid x$ -->
 
 let $\mathbb M^{n, n} A \land \mathbb N n$ be a diagonalizable [[matrix]]
 

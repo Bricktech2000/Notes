@@ -132,9 +132,9 @@ $(Ker\ A)\ x \equiv (Null\ A)\ x \equiv Ax = O \land \mathbb M^{m, n}A \land \ma
 
 the Kernel of a [[matrix]] can be calculated using [[row-reduction]]
 
-$Col\ A = \text{span } A^{, n} \dashv \mathbb N n$
+$Col\ A = \operatorname{span} A^{, n} \dashv \mathbb N n$
 
-$Row\ A = \text{span } A^{n,} \dashv \mathbb N n$
+$Row\ A = \operatorname{span} A^{n,} \dashv \mathbb N n$
 
 ### properties
 
@@ -170,7 +170,7 @@ the same can be said for $Col\ A$
 
 _transforming a [[vector-space]] into the null space of a certain [[matrix]]_
 
-let $W = \text{span } (1, 0, 0, 1), (1, 1, 1, 0), (2, 1, \circ 1, 1)$
+let $W = \operatorname{span}\ (1, 0, 0, 1), (1, 1, 1, 0), (2, 1, \circ 1, 1)$
 
 after solving the [[linear-system]], we get $W (x, y, z, w) \equiv \circ x \cdot y \cdot w = 0$. therefore, $W$ is the null space of $A = \begin{bmatrix}\circ 1 & 1 & 0 & 1\end{bmatrix}$
 
@@ -302,7 +302,7 @@ the [[matrix]] $A = \begin{bmatrix}1 & 1 \\\ \circ 1 & 1\end{bmatrix}$ is not di
 
 the [[matrix]] $A = \begin{bmatrix}3 & 1 \\\ 0 & 3\end{bmatrix}$ is not diagonalizable over the reals as it only has one [[eigenvalue]], and therefore only one set of [[linearly-dependent]] [[eigenvector]]s (see [[eigenvector-and-eigenvalue]])
 
-the [[matrix]] $A = \begin{bmatrix}1 & 0 \\\ 0 & 1\end{bmatrix}$ is diagonalizable over the reals as, even though $A$ has a single [[eigenvalue]] $\lambda = 1$, its [[eigenspace]] spans $\mathbb R^2$. this is the case for both $A = I \land \lambda = 1$ and $A = O \land \lambda = 0$
+the [[matrix]] $A = \begin{bmatrix}1 & 0 \\\ 0 & 1\end{bmatrix}$ is diagonalizable over the reals as, even though $A$ has a single [[eigenvalue]] $\lambda = 1$, its [[eigenspace]] [[span]]s $\mathbb R^2$. this is the case for both $A = I \land \lambda = 1$ and $A = O \land \lambda = 0$
 
 > **proof**: let $A = I \land \lambda = 1 \land E_1 = x$. we then have $O = A \circ \lambda I \mid x = I \circ 1I \mid E_1= O \mid E_1$. therefore, $E_1 \equiv \mathbb R^2$. see [[eigenvector-and-eigenvalue]]
 

@@ -78,5 +78,3 @@ $\lim_{x \to 0} \sin x \circ x - [\sin x]3$
 $\lim_{x \to 0^+} \sin x \ln x$
 
 $\lim_{x \to \infty} [1 \cdot 1 \text- x]x$
-
-[[todo]]: [[conventions]] [[calculus-notation]] space after first $\delta$ but no space in $\delta x$, $\delta\ g - \delta x$ doesn't work and should be $\delta\ g\ x - \delta x$. note names with `'` not replaced with `-`

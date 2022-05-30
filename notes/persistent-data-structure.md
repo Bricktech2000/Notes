@@ -24,7 +24,7 @@ stacks can be implemented as a [[persistent-data-structure]] through a [[linked-
 
 only immutable types must be pushed to the [[stack]] to conserve the illusion of the [[stack]]'s immutability.
 
-<https://youtu.be/APUCMSPiNh4> before 47:49 [[todo]]
+<https://youtu.be/APUCMSPiNh4?t=2830>
 
 ## &mdash;
 

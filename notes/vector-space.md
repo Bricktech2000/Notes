@@ -54,7 +54,7 @@ $\dim V = 2$ where $V$ is a [[plane-in-r3]]
 
 $\dim V = 1$ where $V$ is a [[line-in-r3]] or in $\mathbb R^2$
 
-$\dim \text{span } O = 0$ (see [[span]], zero [[vector]])
+$\dim \operatorname{span} O = 0$ (see [[span]], zero [[vector]])
 
 ## Describing Vector Spaces
 
@@ -84,7 +84,7 @@ $(x, y, z) = (2y \circ z, y, z) = y (2, 1, 0) \cdot z (\circ 1, 0, 1)$
 
 let the vector space be the [[set]] of [[vector]]s $V$. all of the following [[axiom]]s must be defined and all the following properties must hold for $V$ to be a [[vector-space]]. if a vector space is a sub[[set]] of a known vector space (a **vector subspace**), then all properties are inherited. moreover,
 
-let $V\ v_1 \dots v_m$. if $U = \text{span } v_1 \dots v_m$, then $U$ is a subspace of $V$ ($U \vdash V$), see [[span]]
+let $V\ v_1 \dots v_m$. if $U = \operatorname{span} v_1 \dots v_m$, then $U$ is a subspace of $V$ ($U \vdash V$), see [[span]]
 
 $V u \land V v \vdash V (u \cdot v)$ &mdash; closed under addition
 

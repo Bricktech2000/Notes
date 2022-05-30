@@ -8,7 +8,7 @@ bundling unrelated [[fact]]s into a single related construct can help remember t
 
 ## example with memorizing digits
 
-&mdash; [[todo]], see [[memory]]
+&mdash; The Mind Explained | Memory <https://www.netflix.com/watch/81062188?trackId=255824129>
 
 1. turn each digit into a sound
 2. turn sets of sounds into meaningful words

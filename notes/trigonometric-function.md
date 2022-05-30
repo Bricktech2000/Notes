@@ -16,11 +16,11 @@ SOHCAHTOA
 
 ## reciprocal functions
 
-$y = \sin x \equiv x = \text{asin } y \cdot 2\pi n \land \mathbb Z n$
+$y = \sin x \equiv x = \operatorname{asin} y \cdot 2\pi n \land \mathbb Z n$
 
-$y = \cos x \equiv x = \text{acos } y \cdot 2\pi n \land \mathbb Z n$
+$y = \cos x \equiv x = \operatorname{acos} y \cdot 2\pi n \land \mathbb Z n$
 
-$y = \tan x \equiv x = \text{atan } y \cdot \pi n \land \mathbb Z n$
+$y = \tan x \equiv x = \operatorname{atan} y \cdot \pi n \land \mathbb Z n$
 
 ## inverse functions
 
@@ -30,11 +30,11 @@ $\text-\cos \theta$
 
 $\text-\tan \theta$
 
-$\text-\text{asin } x$
+$\text-\operatorname{asin} x$
 
-$\text-\text{acos } x$
+$\text-\operatorname{acos} x$
 
-$\text-\text{atan } x$
+$\text-\operatorname{atan} x$
 
 ## properties
 

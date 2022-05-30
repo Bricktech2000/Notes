@@ -61,3 +61,5 @@
 [[subconscious-manipulation]]
 
 [[counterintuitive-smarter-sorting]]
+
+[[perfectionism-vs-high-standards]]
