@@ -1,6 +1,6 @@
 ## Map
 
-_lifts a [[function]] to the effects world_
+_lifts a horizontal [[function]] to the effects world_
 
 > **AKA**: `lift`, `select`
 

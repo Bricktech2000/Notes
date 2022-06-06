@@ -98,7 +98,7 @@ _a pair of parallel vectors_
 
 $u$ and $v$ are colinear if $u = kv \land \mathbb R k$
 
-$u$ and $v$ are colinear if $u$ is a [[linear-combination]] of the [[set]] $\{v\}$
+$u$ and $v$ are colinear if $u$ is a [[linear-combination]] of the [[set]] $\lbrace v \rbrace$
 
 ## Projections
 

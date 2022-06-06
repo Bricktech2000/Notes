@@ -4,8 +4,12 @@ _the [[set]] of [[irrational]] numbers_
 
 see [[math-notation]]
 
-$\mathbb Q^* \vdash \mathbb R$
+$(\mathbb R \land \lnot \mathbb Q) \vdash \mathbb R$
+
+$\mathbb Q \lor (\mathbb R \land \lnot \mathbb Q) \equiv \mathbb R$
 
 ## definition
 
-$\mathbb Q^* x \equiv \lnot \mathbb Q x \land \mathbb R x$
+the [[set]] of [[irrational]] [[number]]s is defined as follows:
+
+$\mathbb R \land \lnot \mathbb Q$

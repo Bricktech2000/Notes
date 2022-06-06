@@ -6,22 +6,17 @@ see [[set]]
 
 _[[set]]s of [[number]]s_
 
-[[natural]]
+- [[universal]]
+  - [[boolean]]
+  - $\dots$
+  - [[complex]]
+    - [[imaginary]]
+    - [[real]]
+      - [[irrational]]
+      - [[rational]]
+        - [[fraction]]
+        - [[integer]]
+          - [[natural]]
+          - negative [[integer]]
 
-[[integer]]
-
-[[rational]]
-
-[[irrational]]
-
-[[real]]
-
-[[imaginary]]
-
-[[complex]]
-
-[[universal]]
-
-[[boolean]]
-
-![](2022-04-04-18-38-27.png)
+![](20220530145423.png) &mdash; <https://en.wikipedia.org/wiki/Natural_number>

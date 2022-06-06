@@ -33,7 +33,7 @@ _a [[basis]] containing [[vector]]s in a specific order_
 
 ### example
 
-$\{(1, 0), (0, 1)\}$ and $\{(0, 1), (1, 0)\}$ are the same [[basis]] but different ordered bases
+$\lbrace (1, 0), (0, 1) \rbrace$ and $\lbrace (0, 1), (1, 0) \rbrace$ are the same [[basis]] but different ordered bases
 
 > suppose $B = v_0 \dots v_n$ is an ordered [[basis]] for a [[vector-space]] $V$. suppose $v = a_0v_0 \cdot \dots a_nv_n$. then, the vector $(a_0 \dots a_n)$ is the **coordinate vector** of $V$ relative to the ordered [[basis]] $B$
 
@@ -43,4 +43,4 @@ _a [[basis]] built from a [[set]] of orthogonal [[vector-in-rn]]s_
 
 ### example
 
-the [[set]] $\{(1, 0), (0, 1)\}$ is an orthogonal [[basis]] for $\operatorname{span} (1, 0), (0, 1)$, but $\{(1, 1), (0, 1)\}$ is not
+the [[set]] $\lbrace (1, 0), (0, 1) \rbrace$ is an orthogonal [[basis]] for $\operatorname{span} (1, 0), (0, 1)$, but $\lbrace (1, 1), (0, 1) \rbrace$ is not

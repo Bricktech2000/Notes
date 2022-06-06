@@ -35,7 +35,7 @@ let the [[matrix]] $\mathbb M^{m, n} A$ and let $(T\ u = A \mid u) \land \mathbb
 
 > **note**: $A \ne \varnothing \not \vdash \mathbb T T$ (the existence of such a [[matrix]] $A$ does not imply that $T$ is a [[linear-transformation]])
 
-in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \dots & T\ b_n \\\ | & & |\end{bmatrix}$ where $\{b_0 \dots b_n\}$ is the standard [[basis]] for $\mathbb R^n$, see [[magic]]. $A$ is the _standard [[matrix]]_ of the [[linear-transformation]] $T$
+in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \dots & T\ b_n \\\ | & & |\end{bmatrix}$ where $\lbrace b_0 \dots b_n \rbrace$ is the standard [[basis]] for $\mathbb R^n$, see [[magic]]. $A$ is the _standard [[matrix]]_ of the [[linear-transformation]] $T$
 
 ### example
 
@@ -61,7 +61,7 @@ rearranging, we get $proj_W\ u = u^x (-2, 0, -2) \cdot u^y (0, 1, 0) \cdot u^z (
 
 alternatively, we can use the following, see [[magic]]:
 
-$B = \begin{bmatrix}| & & | \\\ b_0 & \dots & b_n \\\ | & & |\end{bmatrix}$ where $\{b_0 \dots b_n\}$ is a [[basis]] for $W$ that does **not** have to be orthogonal. in this case, $b_0 = (1, 0, 1)$ and $b_1 = (0, 1, 0)$
+$B = \begin{bmatrix}| & & | \\\ b_0 & \dots & b_n \\\ | & & |\end{bmatrix}$ where $\lbrace b_0 \dots b_n \rbrace$ is a [[basis]] for $W$ that does **not** have to be orthogonal. in this case, $b_0 = (1, 0, 1)$ and $b_1 = (0, 1, 0)$
 
 then, $proj_W\ u = A \mid u$ with $A = B (B^\intercal B)^- B^\intercal = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix}$, see [[magic]]. $A$ is the _standard [[matrix]]_ of the [[linear-transformation]] $T$
 

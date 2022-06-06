@@ -296,7 +296,7 @@ a [[matrix]] is _diagonalizable_ if and only if the geometic [[multiplicity]] of
 
 ### examples and counterexamples
 
-the [[matrix]] $A = \begin{bmatrix}1 & 2 \\\ 2 & 1\end{bmatrix}$ is diagonalizable over the reals as $\{(1, 1), (1, \circ 1)\}$ is a [[basis]] of $\mathbb R^2$ consisting entirely of [[eigenvector]]s of $A$
+the [[matrix]] $A = \begin{bmatrix}1 & 2 \\\ 2 & 1\end{bmatrix}$ is diagonalizable over the reals as $\lbrace (1, 1), (1, \circ 1) \rbrace$ is a [[basis]] of $\mathbb R^2$ consisting entirely of [[eigenvector]]s of $A$
 
 the [[matrix]] $A = \begin{bmatrix}1 & 1 \\\ \circ 1 & 1\end{bmatrix}$ is not diagonalizable over the reals as it does not have any real [[eigenvalue]]s
 
@@ -322,7 +322,7 @@ see [[linear-system]]
 > 2. there is a leading variable in every column of the [[RREF]] of $A$
 > 3. the system $Ax = O$ has a unique solution
 > 4. the columns of $A$ are [[linearly-independent]]
-> 5. $Ker\ A = \{0\}$
+> 5. $Ker\ A = \lbrace 0 \rbrace$
 > 6. $\dim Ker\ A = 0$
 > 7. $rank\ A = n$
 
@@ -335,7 +335,7 @@ see [[linear-system-theorem-proof]]
 > 1. $rank\ A = n$
 > 2. every linear system of the form $Ax = b$ has a unique solution
 > 3. the [[RREF]] of $A$ is the identity [[matrix]]
-> 4. $Ker\ A = \{0\}$
+> 4. $Ker\ A = \lbrace 0 \rbrace$
 > 5. $Col\ A = \mathbb R^n$
 > 6. $Row\ A = \mathbb R^n$
 > 7. the columns of $A$ are [[linearly-independent]]

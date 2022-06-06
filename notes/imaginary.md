@@ -4,10 +4,14 @@ _the [[set]] of [[imaginary]] numbers_
 
 see [[math-notation]]
 
+$(\mathbb C \land \lnot \mathbb R) \vdash \mathbb C$
+
+$\mathbb R \lor (\mathbb C \land \lnot \mathbb R) \equiv \mathbb C$
+
 ## definition
 
-the [[set]] of [[imaginary]]s $\mathbb I$ is defined as follows:
+the [[set]] of [[imaginary]] [[number]]s is defined as follows:
 
-$\mathbb I x \equiv x = b\lfloor \circ 1 \rfloor \land \mathbb R b$
+$(\mathbb C \land \lnot \mathbb R)\ x \equiv x = b\lfloor \circ 1 \rfloor \land \mathbb R b$
 
 $i \equiv \lfloor \circ 1 \rfloor$

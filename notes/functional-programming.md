@@ -12,6 +12,8 @@ see [[refactoring-to-immutability]]
 
 &mdash; <https://youtu.be/srQt1NAHYC0>
 
+&mdash; <https://youtu.be/c_F1o_so2MQ>
+
 ## principles
 
 [[function]]s are things

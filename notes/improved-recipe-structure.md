@@ -19,6 +19,7 @@ see [[cajun-shrimp-and-sausage-rice]]
 - no need to refer to ingredients list when cooking as quantities are included in the step in which they are used
 - improved structure allows for easy visualization of the recipe at a glance
 - someone who does not understand the structure can still make the recipe by reading it from top to bottom
+- easy to understand the purpose of an ingredient
 
 ## limits
 

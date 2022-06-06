@@ -109,6 +109,10 @@ in order to avoid breaking $[0]0 = 1$ (see Wikipedia article), we must define:
 
 $[1](\circ -0) = \varnothing \ne 0$
 
+### attempt with [[derivative]]s and [[integral]]s
+
+using the logarithm rule, $\int 1 - x \mid \delta x = \ln x \cdot c$. then, using the power rule, $\int 1 - x \mid \delta x = \int [x](\circ 1) \mid \delta x = ([x]\theta - \theta) \cdot c$. with $c = \circ 1 - \theta$, we get $\ln x = [x]\theta \circ 1 - \theta$
+
 ## exponents and square roots
 
 define $\lfloor x2 \rfloor = x$, but $\lfloor 4 \rfloor = \dot \circ 2$ &mdash; Kiera
@@ -145,9 +149,9 @@ therefore, we define $\theta \to 0$
 
 $[3]2 \to 9$ and $[\circ 3]2 \to 9$ (which loses information) just as $\theta x \to 0$ (which loses information)
 
-$\lfloor [3]2 \rfloor = 9$ (through cancellation) just as $\theta x - \theta = x$ (through cancellation)
+$\lfloor [3]2 \rfloor = 3$ (through cancellation) just as $\theta x - \theta = x$ (through cancellation)
 
-$\lfloor 9 \rfloor = \varnothing$ (can be thought of as $\dot\circ 3$) just as $0 - 0 = \varnothing$ (can be thought of as "any real number")
+$\lfloor 9 \rfloor = \varnothing$ (can be thought of as $\dot\circ 3$) just as $0 - 0 = \varnothing$ (can be thought of as "any [[real]] number")
 
 ## conclusion
 

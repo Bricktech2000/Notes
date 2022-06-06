@@ -2,7 +2,7 @@
 
 using [[classical-math-notation]]
 
-$S = \{x : x \notin x\}$. Is $S \in S$?
+$S = \lbrace x : x \notin x \rbrace$. Is $S \in S$?
 
 using my [[math-notation]]
 

@@ -4,7 +4,15 @@ _the [[set]] of [[complex]] numbers_
 
 see [[math-notation]]
 
+$\mathbb C \vdash \mathbb U$, see [[universal-set]]
+
 > [[complex]] numbers are often intimately related to [[discrete-math]]ematics &mdash; 3B1B <https://youtu.be/bOXCLR3Wric>
+
+## definition
+
+the [[set]] of [[complex]] numbers $\mathbb C$ is defined as follows:
+
+$\mathbb C x \equiv x = a \cdot bi \land \mathbb R a \land \mathbb R b$, where $i$ is an [[imaginary]] number
 
 ## notation
 
@@ -20,12 +28,6 @@ $z = a \cdot bi$
 
 $z = |z| \cos \theta \cdot |z| i \sin \theta = |z| [e]i\theta$, see [[e]]
 
-## definition
-
-the [[set]] of [[complex]] numbers $\mathbb C$ is defined as follows:
-
-$\mathbb C x \equiv x = a \cdot bi \land \mathbb R a \land \mathbb R b$, where $i$ is an [[imaginary]] number
-
 ## properties
 
 $a \cdot bi = c \cdot di \equiv a = c \land b = d$ &mdash; equality
@@ -38,7 +40,7 @@ $(a \cdot bi) \circ (c \cdot di) = (a \circ c) \cdot (b \circ d)i$ &mdash; subtr
 
 $a \cdot bi \mid c \cdot di = ac \cdot adi \cdot bic \cdot bdi2 = (ac \circ bd) \cdot (ad \cdot bc)i$ &mdash; multiplication
 
-$z \mid w = |z| [e](i\theta) \mid |w| [e](i\phi) = |zw|[e](i \mid \theta \cdot \phi)$ &mdash; multiplication in polar form
+$z \mid w = |z| [e] (i\theta) \mid |w| [e] (i\phi) = |zw|[e] (i \mid \theta \cdot \phi)$ &mdash; multiplication in polar form
 
 $\lfloor i \rfloor = \dot \circ \mid 1 \cdot i - \lfloor 2 \rfloor$ &mdash; square root of $i$
 
@@ -66,11 +68,11 @@ therefore, $z = z^{re} \cdot iz^{im}$
 
 let $z = a \cdot bi$
 
-$\overline z = a \circ bi$ is the _complex conjugate_ of $z$
+then, $\overline z = a \circ bi = z^{re} \circ iz^{im}$ is the _complex conjugate_ of $z$
 
 ### applications
 
-multiplying by the conjugate can be used to reduce an expression such as $1 - 4 \cdot 3i$
+multiplying by the conjugate can be used to reduce an expression such as $- 4 \cdot 3i$
 
 ### properties
 
@@ -90,7 +92,7 @@ $\mathbb R z \equiv \overline z = z$
 
 > **theorem**: $z \overline z = |z|2 \dashv \mathbb C z$
 
-> **theorem**: $1 - z = \overline z - |z|2 \dashv \mathbb C z$
+> **theorem**: $- z = \overline z - |z|2 \dashv \mathbb C z$
 
 ## Absolute Value
 

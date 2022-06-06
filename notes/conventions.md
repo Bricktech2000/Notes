@@ -8,7 +8,7 @@ LaTeX is used for all mathematical equations through my custom [[math-notation]]
 
 variables are defined in separate lines using a _, where_ statement
 
-`\R`, `\N` and `\Z` must not be used, as they are not widely supported. `\mathbb R`, `\mathbb N` and `\mathbb Z` should be used instead, respectively.
+`\R`, `\N`, `\Z`, `\{` and `\}` must not be used, as they are not widely supported. `\mathbb R`, `\mathbb N`, `\mathbb Z`, `\lbrace` and `\rbrace` should be used instead, respectively.
 
 `\\` must be replaced by `\\\` for them to work properly. see the following discussion: <https://github.com/mathjax/MathJax/issues/1301>
 

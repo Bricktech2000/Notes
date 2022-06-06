@@ -76,11 +76,11 @@ and we get:
 
 $x = c(1, 1) \dashv \mathbb R c$
 
-$\{(1, 1)\}$ is then a [[basis]] for the [[eigenspace]] $E_3$ of $A$
+$\lbrace (1, 1) \rbrace$ is then a [[basis]] for the [[eigenspace]] $E_3$ of $A$
 
 > **note**: the general solution of the homogenous [[linear-system]] will always be a [[basis]] as the resulting [[vector]]s will always be [[linearly-independent]], see [[matrix]] Kernel for more information
 
-for $\lambda = \circ 1$, we get the [[basis]] $\{(1, \circ 1)\}$ for the [[eigenspace]] $E_{\circ 1}$ of $A$
+for $\lambda = \circ 1$, we get the [[basis]] $\lbrace (1, \circ 1) \rbrace$ for the [[eigenspace]] $E_{\circ 1}$ of $A$
 
 ## Multiplicity
 

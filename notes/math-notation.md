@@ -40,7 +40,7 @@ $\mathbb N a$ checks whether $a$ is part of the [[set]] $\mathbb N$
 
 $f\ x$ is the application of the [[function]] $f$ to $x$
 
-$S = \{a \dots b\}$ is shorthand for $S\ x \equiv x = a \lor \dots x = b$
+$S = \lbrace a \dots b \rbrace$ is shorthand for $S\ x \equiv x = a \lor \dots x = b$
 
 ### [[boolean-operator]]s
 
@@ -68,7 +68,7 @@ $\top$ is logical true (`true`)
 
 $\bot$ is logical false (`false`)
 
-$a \vdash b$ means _a implies b_ or _a is a sub[[set]] of b_ or _b is true for every a_
+$a \vdash b$ means _a implies b_ or _a is a sub[[set]] of b_ or _b is true for every a_, see [[boolean-operator]]
 
 $a \dashv b$ is the inverse of above
 
@@ -96,7 +96,7 @@ $A^\intercal$ is the transpose [[matrix]] of $A$
 
 $A^-$ is the multiplicative inverse of the [[matrix]] $A$
 
-$f^\times$ is the reciprocal (switching input and output) of the function $f$ (might not be necessary, [[think]])
+$f^\times$ is the reciprocal (switching input and output) of the [[function]] $f$ (might not be necessary, [[think]])
 
 ### [[trigonometric-function]]s
 

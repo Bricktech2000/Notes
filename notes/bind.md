@@ -1,8 +1,8 @@
 # Bind
 
-_turns diagonal functions into horizontal functions_
+_turns a diagonal [[function]] into horizontal [[function]] in the effects world_
 
-> **AKA**: `>>=`, `flatMap`, `SelectMany`
+> **AKA**: `>>=`, `flatMap`, `SelectMany`, Sequential Composition, `and_then`
 
 see [[functional-programming]]
 

@@ -4,6 +4,8 @@ _the [[set]] of [[boolean]]s_
 
 see [[math-notation]]
 
+$\mathbb B \vdash \mathbb U$, see [[universal-set]]
+
 ## definition
 
 _either true or false_
