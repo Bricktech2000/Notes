@@ -21,7 +21,7 @@ example of items that should come at a certain “tier” of a relationship, but
 - “remember when... ?”
 - some streamers calling their viewers their “besties” and telling them they “love them”
 
-> I think what social media platforms are discovering is that the stronger the parasocial relationship, probably the higher the user engagement &mdash; Dr K.
+> I think what [[social-media]] platforms are discovering is that the stronger the parasocial relationship, probably the higher the user engagement &mdash; Dr K.
 
 other examples of weaker parasocial relationships
 
