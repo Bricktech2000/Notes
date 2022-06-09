@@ -94,9 +94,9 @@ $f\ x \le f\ y \dashv \mathbb R y$, where
 
 $x$ are the $x$ coordinates of the extrema of $f$
 
-> the **global extrema** of a [[function]] are the absolute highest and lowest points of the function
+> **definition**: the _global extrema_ of a [[function]] are the absolute highest and lowest points of the function
 
-> the **local extrema** of a [[function]] are the highest and lowest points of the function within a given range
+> **definition**: the _local extrema_ of a [[function]] are the highest and lowest points of the function within a given range
 
 > **theorem**: if $f$ has a local extremum at $c$, the point $(c, f\ c)$ is a [[critical-point]] of $f$, but not conversely
 
@@ -123,15 +123,15 @@ let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number o
 
 see [[math-notation]]
 
-> a [[function]] $f\ x$ is **continuous** at $x = a$ if:
+> **definition**: a [[function]] $f\ x$ is _continuous_ at $x = a$ if:
 >
 > 1. $\lim_{x \to a} f\ x$ exists (prevents jump discontinuities)
 > 2. $f\ x$ is defined at $x = a$ (prevents undefined values)
 > 3. $\lim_{x \to a} f\ x = f\ a$ (prevents other jump discontinuities)
 
-> a [[function]] is **continuous from the left** at $a$ when $\lim_{x \to a^-} f\ x = f\ a$ and both other conditions are met
+> **definition**: a [[function]] is _continuous from the left_ at $a$ when $\lim_{x \to a^-} f\ x = f\ a$ and both other conditions are met
 
-> a [[function]] is **continuous from the right** at $a$ when $\lim_{x \to a^+} f\ x = f\ a$ and both other conditions are met
+> **definition**: a [[function]] is _continuous from the right_ at $a$ when $\lim_{x \to a^+} f\ x = f\ a$ and both other conditions are met
 
 > **theorem**: if $f\ x$ and $g\ x$ are continuous at $a$, then the following functions are also continuous at $a$:
 >
@@ -140,7 +140,7 @@ see [[math-notation]]
 > - $c f$ where $c$ is a constant
 > - $f \text- g$ if $g\ a \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
 
-> a [[function]] is **continuous** on an interval $a \le x \le b$ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
+> **definition**: a [[function]] is _continuous_ on an interval $a \le x \le b$ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
 
 ## Inverse (or Reciprocal) Function
 

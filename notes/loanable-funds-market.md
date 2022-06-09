@@ -4,11 +4,11 @@ _the market in which those who want to save supply funds and those who want to b
 
 ## Supply and Demand for Loanable Funds
 
-> **Saving** is the source of supply for loanable funds
+> **definition**: _Saving_ is the source of supply for loanable funds
 
-> **Investment** is the source of demand for loanable funds
+> **definition**: _Investment_ is the source of demand for loanable funds
 
-> the **Interest Rate** is the price of a loan
+> **definition**: the _Interest Rate_ is the price of a loan
 
 ## saving incentives
 
@@ -23,12 +23,12 @@ the following can be used as incentives to encourage people to save more
 
 ## investment incentives
 
-> an **Investment Tax Credit** gives a tax advantage to any firm building a new factor or buying a new piece of equipment
+> **definition**: an _Investment Tax Credit_ gives a tax advantage to any firm building a new factor or buying a new piece of equipment
 
 ## government budget
 
-> **Government Debt** is the sum of past budget deficits and surpluses
+> **definition**: _Government Debt_ is the sum of past budget deficits and surpluses
 
-> **Crowding Out** is a decrease in investment that results from government borrowing
+> **definition**: _Crowding Out_ is a decrease in investment that results from government borrowing
 
 a government budget deficit reduces the supply of loanable funds

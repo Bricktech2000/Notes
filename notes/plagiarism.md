@@ -8,7 +8,7 @@ it is essentially theft of information
 
 ## Self-Plagiarism
 
-> **Self-Plagiarism** is a type of [[plagiarism]] in which one republished or reuses work that's already been submitted or published.
+> **definition**: _Self-Plagiarism_ is a type of [[plagiarism]] in which one republished or reuses work that's already been submitted or published.
 
 this includes:
 
@@ -21,7 +21,7 @@ it is possible to cite ourselves as long as we're open and honest about it
 
 ## Structural Plagiarism
 
-> **Structural Plagiarism** is a type of [[plagiarism]] in which one replicates or reuses the structure of ideas without proper acknowledgement
+> **definition**: _Structural Plagiarism_ is a type of [[plagiarism]] in which one replicates or reuses the structure of ideas without proper acknowledgement
 
 this includes:
 

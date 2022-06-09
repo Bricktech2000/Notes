@@ -4,31 +4,31 @@ see [[money]], [[principles-of-economics]]
 
 ## definitions
 
-> **reserves** are deposits that [[bank]]s have received but not loaned out
+> _reserves_ are deposits that [[bank]]s have received but not loaned out
 
-> **fractional-reserve banking** is a banking system in which [[bank]]s hold only a fraction of deposits as reserves. banks can use this concept to "create" [[money]]
+> _fractional-reserve banking_ is a banking system in which [[bank]]s hold only a fraction of deposits as reserves. banks can use this concept to "create" [[money]]
 
-> the **reserve ratio** is the fraction of deposits that [[bank]]s hold as reserves
+> the _reserve ratio_ is the fraction of deposits that [[bank]]s hold as reserves
 
-> **leverage** is the use of borrowed money to supplement existing funds for purposes of investment [[understand]]
+> _leverage_ is the use of borrowed money to supplement existing funds for purposes of investment [[understand]]
 
-> **leverage ratio** is the ratio of assets to [[bank]] capital [[understand]]
+> _leverage ratio_ is the ratio of assets to [[bank]] capital [[understand]]
 
-> the **capital requirement** is the minimum amount of [[bank]] capital a bank must hold, based on government regulation
+> the _capital requirement_ is the minimum amount of [[bank]] capital a bank must hold, based on government regulation
 
-> the **bank rate** is the interest rate charged by the Bank of Canada on loans to commercial banks
+> the _bank rate_ is the interest rate charged by the Bank of Canada on loans to commercial banks
 
-> the **overnight rate** is the interest rate on very short-term loans between commercial banks
+> the _overnight rate_ is the interest rate on very short-term loans between commercial banks
 
-> **open-market operations** is the purchase or sale of Government of Canada bonds by the Bank of Canada
+> _open-market operations_ is the purchase or sale of Government of Canada bonds by the Bank of Canada
 
-> **quantitative easing** is the purchase and sale by the central [[bank]] of government or non-government securities with long maturity terms [[understand]]
+> _quantitative easing_ is the purchase and sale by the central [[bank]] of government or non-government securities with long maturity terms [[understand]]
 
-> **foreign exchange market operations** is the purchase or sale of foreign money by the Bank of Canada [[understand]]
+> _foreign exchange market operations_ is the purchase or sale of foreign money by the Bank of Canada [[understand]]
 
-> **sterilization** is the process of offsetting foreign exchange market operations with [[bank|open-market-operations]] so that the effect on the money supply is cancelled out [[understand]]
+> _sterilization_ is the process of offsetting foreign exchange market operations with [[bank|open-market-operations]] so that the effect on the money supply is cancelled out [[understand]]
 
-> the **reserve requirements** are the regulations on the minimum amount of reserves that [[bank]]s must hold against deposits
+> the _reserve requirements_ are the regulations on the minimum amount of reserves that [[bank]]s must hold against deposits
 
 ## Money Multiplier
 
@@ -72,3 +72,5 @@ note that central [[bank]]s have no direct control over the amount of money that
 
 ![](2022-03-09-13-28-00.png)
 ![](2022-03-09-19-49-55.png)
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" })</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([A-Za-z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } </style>

@@ -2,7 +2,7 @@
 
 see [[math-notation]]
 
-> **Sleep inertia** refers to the transitional state between sleep and wake, marked by impaired performance, reduced vigilance, and a desire to return to sleep. _"it sucks waking up"_
+> **definition**: _Sleep inertia_ refers to the transitional state between sleep and wake, marked by impaired performance, reduced vigilance, and a desire to return to sleep. _"it sucks waking up"_
 
 ## REM Sleep
 

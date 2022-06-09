@@ -28,7 +28,7 @@ see [[electronegativity]]
 
 ## Atomic Number
 
-the number of **protons** in the nucleus of an atom
+the number of [[proton]]s in the nucleus of an atom
 
 ## Atomic Mass
 

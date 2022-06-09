@@ -2,13 +2,13 @@
 
 see [[math-notation]]
 
-> a **multiset** is a modification to the [[concept]] of a [[set]] that allows multiple instances for each of its elements &mdash; Wikipedia
+> **definition**: a _multiset_ is a modification to the [[concept]] of a [[set]] that allows multiple instances for each of its elements &mdash; Wikipedia
 
 ## Multiplicity
 
 ### definition
 
-> the **multiplicity** of a member of a [[multiset]] is the number of times it appears in the [[multiset]] &mdash; Wikipedia
+> **definition**: the _multiplicity_ of a member of a [[multiset]] is the number of times it appears in the [[multiset]] &mdash; Wikipedia
 
 ### example
 

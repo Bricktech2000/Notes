@@ -20,10 +20,10 @@ $F\ x\ \bigr|_{a}^{b} \dots = F\ b \circ F\ a$
 
 ## definitions
 
-> a **definite [[integral]]** has its two endpoints present
+> **definition**: a _definite [[integral]]_ has its two endpoints present
 
-> an **indefinite [[integral]]** has its two endpoints missing
+> **definition**: an _indefinite [[integral]]_ has its two endpoints missing
 
-> an **improper [[integral]]** is the [[limit]] as one or two endpoints of an [[integral]] approach either a [[real]] [[number]] or positive or negative infinity &mdash; Wikipedia
+> **definition**: an _improper [[integral]]_ is the [[limit]] as one or two endpoints of an [[integral]] approach either a [[real]] [[number]] or positive or negative infinity &mdash; Wikipedia
 
 ## Integration

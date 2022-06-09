@@ -2,7 +2,7 @@
 
 ## definition
 
-> A **book** is a sequential document database implemented in hardware
+> **definition**: A _book_ is a sequential document database implemented in hardware
 
 ## properties
 

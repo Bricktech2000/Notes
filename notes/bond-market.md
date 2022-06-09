@@ -1,6 +1,6 @@
 # Bond Market
 
-> a **Bond** is a certificate of indebtedness that specifies the obligation of the borrower to the holder of the bond
+> **definition**: a _Bond_ is a certificate of indebtedness that specifies the obligation of the borrower to the holder of the bond
 
 ## properties
 

@@ -8,6 +8,8 @@ LaTeX is used for all mathematical equations through my custom [[math-notation]]
 
 variables are defined in separate lines using a _, where_ statement
 
+whitespace in formulas follow programming-language-like conventions
+
 `\R`, `\N`, `\Z`, `\{` and `\}` must not be used, as they are not widely supported. `\mathbb R`, `\mathbb N`, `\mathbb Z`, `\lbrace` and `\rbrace` should be used instead, respectively.
 
 `\\` must be replaced by `\\\` for them to work properly. see the following discussion: <https://github.com/mathjax/MathJax/issues/1301>
@@ -33,11 +35,11 @@ the following headings are commonly used:
 - **properties**
 - **procedure**
 
-### quotes, italics, sources, URLs
+### quotes, italics, bold, sources, URLs
 
 blockquotes are used for [[fact]]ual information and definitions
 
-italics are used for tricks or personal definitions
+italics are used for tricks and personal definitions and to replace quotation marks. bold is used for emphasis. italics must not be used for emphasis and quotation marks are to be avoided
 
 _&mdash; ..._ statements are used for citing sources
 
@@ -67,7 +69,7 @@ box titles are generated with <https://lingojam.com/BoldTextGenerator>
 
 > **proof**: this is a proof of the above theorem
 
-> this is a **definition** for the term "definition" &mdash; this is a source
+> **definition**: this is a definition for the term _definition_ &mdash; this is a source
 
 > **AKA**: this is a list of other terms used, "also known as"
 

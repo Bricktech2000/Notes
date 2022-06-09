@@ -6,17 +6,17 @@ see [[row-reduction]], [[math-notation]], [[matrix]]
 
 ### definitions
 
-> the **general solution** is the [[set]] of all solutions to a system
+> **definition**: the _general solution_ is the [[set]] of all solutions to a system
 
-> an **Inconsistent System** has no solutions
+> **definition**: an _Inconsistent System_ has no solutions
 
-> a **Consistent System** has at least one solution
+> **definition**: a _Consistent System_ has at least one solution
 
-> a **Homogeneous System** has only zeros as constants on the right hand side. the zero vector is always a solution
+> **definition**: a _Homogeneous System_ has only zeros as constants on the right hand side. the zero vector is always a solution
 
-> two matrices $A$, $B$ are **Row Equivalent** $A \sim B$ if $B$ can be obtained from $A$ by a finite sequence of _elementary row operations_
+> **definition**: two matrices $A$, $B$ are _Row Equivalent_ $A \sim B$ if $B$ can be obtained from $A$ by a finite sequence of elementary row operations
 
-> a **Leading Variable** is the variable associated with a _pivot_ in a matrix in [[REF]]
+> **definition**: a _Leading Variable_ is the variable associated with a _pivot_ in a matrix in [[REF]]
 
 ### notation
 

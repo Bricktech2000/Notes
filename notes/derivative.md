@@ -36,9 +36,9 @@ to differentiate a [[function]], apply [[derivative-rules]] recursively, see [[r
 
 ### differentiability
 
-> a [[function]] $f$ is **differentiable** at $a$ if $\delta f\ a - \delta x$ exists
+> **definition**: a [[function]] $f$ is _differentiable_ at $a$ if $\delta f\ a - \delta x$ exists
 
-> a [[function]] is **differentiable** on an interval $a \le x \le b$ if it is differentiable on every point from $a$ to $b$
+> **definition**: a [[function]] is _differentiable_ on an interval $a \le x \le b$ if it is differentiable on every point from $a$ to $b$
 
 > **theorem**: if $f\ x$ is not continuous at $x = a$, then it is not differentiable at $x = a$
 

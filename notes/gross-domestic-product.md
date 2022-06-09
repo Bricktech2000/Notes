@@ -34,13 +34,13 @@ _calculating the GDP using the Expenditure approach_
 
 GDP = Consumption + Investment + Government Spending + Net Exports
 
-> **Consumption**: spending by households on good and services, with the exception of purchases of new housing
+> **definition**: _Consumption_ is spending by households on good and services, with the exception of purchases of new housing
 
-> **Investment**: spending on capital equipment, inventories, and structures, including household purchases of new housing
+> **definition**: _Investment_ is spending on capital equipment, inventories, and structures, including household purchases of new housing
 
-> **Government Spending**: spending on [[goods-and-services]] by local, territorial, provincial, and federal governments
+> **definition**: _Government Spending_ is spending on [[goods-and-services]] by local, territorial, provincial, and federal governments
 
-> **Net Exports**: the value of a nation’s exports minus the value of its imports. **AKA**: Trade Balance
+> **definition**: _Net Exports_ is the value of a nation’s exports minus the value of its imports. **AKA**: Trade Balance
 
 ## Real VS Nominal GDP
 
@@ -51,9 +51,9 @@ if total spending rises from one year to the next, one of two things must be tru
 
 in [[economics]], we want to separate these two effects using the **Real GDP**
 
-> **Nominal GDP**: the production of [[goods-and-services]] valued at **current prices**
+> **definition**: _Nominal GDP_ is the production of [[goods-and-services]] valued at **current prices**
 
-> **Real GDP**: the production of [[goods-and-services]] valued at **constant prices** \*\*(adjusted for [[inflation]], which is a better measure of economic well-being)
+> **definition**: _Real GDP_ is the production of [[goods-and-services]] valued at **constant prices** \*\*(adjusted for [[inflation]], which is a better measure of economic well-being)
 
 ## GDP is not perfect
 
@@ -66,7 +66,7 @@ here are a examples of items contributing to well-being that are left out of GDP
 
 ## GDP Deflator
 
-> **GDP Deflator**: a measure of the price level as the ratio of nominal GDP to real GDP
+> **definition**: the _GDP Deflator_ is a measure of the price level as the ratio of nominal GDP to real GDP
 
 GDP Deflator = Nominal GDP / Real GDP
 

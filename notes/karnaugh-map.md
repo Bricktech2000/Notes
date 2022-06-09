@@ -30,11 +30,11 @@ see [[math-notation]]
 
 in a K Map,
 
-> an **Implicant** is a product term that, if true, implies the [[boolean]] [[function]] represented is true (informally, $I = \top \vdash f x = \top$). it is a rectangle of $[2] n \equiv 1, 2, 4, 8 \dots$ values
+> **definition**: an _Implicant_ is a product term that, if true, implies the [[boolean]] [[function]] represented is true (informally, $I = \top \vdash f x = \top$). it is a rectangle of $[2] n \equiv 1, 2, 4, 8 \dots$ values
 
-> a **Prime Implicant** is an implicant (rectangle) that “can’t be explanded any larger”. more formally, it cannot be covered entirely by any other implicant.
+> **definition**: a _Prime Implicant_ is an implicant (rectangle) that “can’t be explanded any larger”. more formally, it cannot be covered entirely by any other implicant.
 
-> an **Essential Prime Implicant** is a prime implicant that cannot be removed without leaving a $1$ not covered. for all the $1$ values to be covered in a K Map, all essential prime implicants must be present, but all essential prime implicants being present does not imply all $1$ values have been covered. prime implicants that can be removed without leaving a $1$ not covered are known as **Non-Essential Prime Implicants**
+> **definition**: an _Essential Prime Implicant_ is a prime implicant that cannot be removed without leaving a $1$ not covered. for all the $1$ values to be covered in a K Map, all essential prime implicants must be present, but all essential prime implicants being present does not imply all $1$ values have been covered. prime implicants that can be removed without leaving a $1$ not covered are known as _Non-Essential Prime Implicants_
 
 ## simplifying a [[boolean]] expression
 

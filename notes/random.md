@@ -153,3 +153,5 @@ $a \textrm- b$
 - when something clicks
 - if you're doing something challenging that requires you to focus intensely
 - hard to switch from being on the internet to focusing
+
+this is some block $$\LaTeX$$ inlined in the source code

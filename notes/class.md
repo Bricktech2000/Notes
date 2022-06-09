@@ -6,7 +6,7 @@ an [[object]] has a state, whereas a [[class]] does not
 
 ### definitions
 
-> two [[class]]es are said to be **coupled** if the implementation of one of them depends on the implementation of the other. this is to be avoided
+> **definition**: two [[class]]es are said to be _coupled_ if the implementation of one of them depends on the implementation of the other. this is to be avoided
 
 ## Java Classes
 
@@ -30,4 +30,4 @@ which can all either be:
 
 ### definitions
 
-> a **final** variable can only be initialized once
+> **definition**: a _final_ variable can only be initialized once

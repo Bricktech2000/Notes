@@ -4,7 +4,7 @@
 
 [[indicator-generalization]] is the process of generalizing _indicators_, which allows people to make deductions about other people.
 
-> **indicators** are generalizable cues observed in people. &mdash; me
+> **definition**: _indicators_ are generalizable cues observed in people. &mdash; me
 
 indicators include:
 

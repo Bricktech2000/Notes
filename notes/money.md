@@ -4,28 +4,26 @@ see [[wealth]], [[bank]]
 
 [[money]] is one of the assets with highest [[liquidity]]
 
-> **money** is the set of assets in the [[economy]] that people regularly use to buy [[goods-and-services]] from other people
+> **definition**: _money_ is the set of assets in the [[economy]] that people regularly use to buy [[goods-and-services]] from other people
 
 ## applications
 
 money is:
 
-> a **medium of exchange**, an item that buyers give to sellers when they want to purchase [[goods-and-services]]
-
-> a **unit of account**, a yardstick people use to post prices and record debts
-
-> a **store of value**, an item that people can use to transfer purchasing power from the present to the future
+- a _medium of exchange_ an item that buyers give to sellers when they want to purchase [[goods-and-services]]
+- a _unit of account_ a yardstick people use to post prices and record debts
+- a _store of value_ an item that people can use to transfer purchasing power from the present to the future
 
 ## types
 
-> **commodity money** is [[money]] that takes the form of a commodity with intrinsic value
+> **definition**: _commodity money_ is [[money]] that takes the form of a commodity with intrinsic value
 
-> **fiat money** is [[money]] without intrinsic value that is accepted because of government decree
+> **definition**: _fiat money_ is [[money]] without intrinsic value that is accepted because of government decree
 
 ## definitions
 
-> the **money stock** or **money supply** is the amount of [[money]] circulating in the [[economy]]
+> **definition**: the _money stock_ or _money supply_ is the amount of [[money]] circulating in the [[economy]]
 
-> **currency** is the paper bills and coins in the hands of the public
+> **definition**: _currency_ is the paper bills and coins in the hands of the public
 
-> the **monetary policy** is the setting of the money supply by policymakers in the central bank
+> **definition**: the _monetary policy_ is the setting of the money supply by policymakers in the central bank

@@ -2,7 +2,7 @@
 
 see [[function]], [[functional-programming]]
 
-> **Currying** is the process of transforming a function that takes multiple arguments into a function that takes a single argument. &mdash; GitHub Copilot
+> **definition**: _Currying_ is the process of transforming a function that takes multiple arguments into a function that takes a single argument. &mdash; GitHub Copilot
 
 ## example
 

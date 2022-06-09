@@ -35,7 +35,7 @@ _a [[basis]] containing [[vector]]s in a specific order_
 
 $\lbrace (1, 0), (0, 1) \rbrace$ and $\lbrace (0, 1), (1, 0) \rbrace$ are the same [[basis]] but different ordered bases
 
-> suppose $B = v_0 \dots v_n$ is an ordered [[basis]] for a [[vector-space]] $V$. suppose $v = a_0v_0 \cdot \dots a_nv_n$. then, the vector $(a_0 \dots a_n)$ is the **coordinate vector** of $V$ relative to the ordered [[basis]] $B$
+> **definition**: suppose $B = v_0 \dots v_n$ is an ordered [[basis]] for a [[vector-space]] $V$. suppose $v = a_0v_0 \cdot \dots a_nv_n$. then, the vector $(a_0 \dots a_n)$ is the _coordinate vector_ of $V$ relative to the ordered [[basis]] $B$
 
 ## Orthogonal Basis
 

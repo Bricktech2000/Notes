@@ -88,9 +88,9 @@ see [[multiplicity]]
 
 ### definition
 
-> the **algebraic multiplicity** of a root $\lambda$ of the [[characteristic-polynomial]] of $A$ is its [[multiplicity]]
+> **definition**: the _algebraic multiplicity_ of a root $\lambda$ of the [[characteristic-polynomial]] of $A$ is its [[multiplicity]]
 
-> the **geometric multiplicity** of a root $\lambda$ of the [[characteristic-polynomial]] of $A$ is the dimension of the [[eigenspace]] $E_\lambda$ of $A$ corresponding to the [[eigenvalue]] $\lambda$
+> **definition**: the _geometric multiplicity_ of a root $\lambda$ of the [[characteristic-polynomial]] of $A$ is the dimension of the [[eigenspace]] $E_\lambda$ of $A$ corresponding to the [[eigenvalue]] $\lambda$
 
 ### theorems
 

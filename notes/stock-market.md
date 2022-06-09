@@ -1,10 +1,10 @@
 # Stock Market
 
-> a **Stock** represents ownership in a firm and is, therefore, a claim to its profits
+> **definition**: a _Stock_ represents ownership in a firm and is, therefore, a claim to its profits
 
 the prices at which shares trade on stock exchanges are determined by the supply and demand for the stock
 
-> **Equity Finance** is the sale of a stock to raise money
+> **definition**: _Equity Finance_ is the sale of a stock to raise money
 
 ## Stock Index
 

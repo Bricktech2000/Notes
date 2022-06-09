@@ -38,9 +38,9 @@ it is easier for a country to grow rapidly initially if it starts out relatively
 
 investments from abroad also lead to new capital
 
-> **Foreign Direct Investment**: a capital investment that is owned and operated by a foreign entity
+> **definition**: _Foreign Direct Investment_ is a capital investment that is owned and operated by a foreign entity
 
-> **Foreign Portfolio Investment**: a capital investment that is financed with foreign money but operated by domestic residents
+> **definition**: _Foreign Portfolio Investment_ is a capital investment that is financed with foreign money but operated by domestic residents
 
 as Canada is a relatively rich country, a foreign investment raises incomes (GNP) more than it raises the country’s [[productivity]] ([[gross-domestic-product]])
 
@@ -50,11 +50,11 @@ investments in human capital (see [[productivity]]) is at least as important as 
 
 human capital is also important for [[economic-growth]] as it conveys positive externalities
 
-> **Externalities**: the effect of one person’s on the well-being of a bystander
+> **definition**: _Externalities_ is the effect of one person’s on the well-being of a bystander
 
 through underdeveloped education systems, poor countries can face a brain drain
 
-> **Brain Drain**: the immigration of the most highly educated workers to other countries, where they can enjoy a higher standard of living
+> **definition**: _Brain Drain_ is the immigration of the most highly educated workers to other countries, where they can enjoy a higher standard of living
 
 ## health and nutrition
 
@@ -68,7 +68,7 @@ it is the invisible hand that brings supply and demand into balance
 
 for the price system to work, property rights must be respected
 
-> **Property Rights**: the ability of people to exercise authority over the resources they own
+> **definition**: _Property Rights_ is the ability of people to exercise authority over the resources they own
 
 political instability is a threat to property rights
 
