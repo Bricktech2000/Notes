@@ -198,7 +198,3 @@ if the result of an expression is _undefined_, then the expression must be rearr
 <https://www.wolframalpha.com/input?i=lim+as+n+-%3E+0+%28x%5En+%2F+n+-+1+%2F+n%29>
 
 <https://en.wikipedia.org/wiki/Natural_logarithm#Properties>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" })</script>
-<script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([A-Za-z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`)</script>

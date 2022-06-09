@@ -200,6 +200,14 @@ $\Delta f - \Delta x$ is approximately $\delta\ f - \delta x$, where $\Delta f =
 
 the _absolute error_ $\Delta f$ and _relative error_ $\Delta f - f\ x$ on a [[function]] $f$ can be approximated near a point $x$ through its differential at that point
 
+## Function Average
+
+see [[integral]]
+
+$f_{ave} = (\int f\ x \mid \delta x)\ b \circ (\int f\ x \mid \delta x)\ a - b \circ a$, where
+
+$f_{ave}$ is the _average_ of the [[function]] $f\ x$ from $x = a$ to $x = b$
+
 ## One-to-One Function
 
 a [[function]] $f$ is said to be one-to-one if $f\ x_1 = f\ x_2 \vdash x_1 = x_2 \dashv \mathbb U x_1 \land \mathbb U x_2$, see [[universal-set]]

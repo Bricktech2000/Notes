@@ -40,10 +40,8 @@
 
 [[logarithm]]
 
-[[fundamental-theorem-of-calculus]]
-
-[[newtons-method]]
-
-[[antiderivative]]
-
 [[social-media]]
+
+[[summation-and-product-notation]]
+
+[[calculus]]

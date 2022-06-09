@@ -112,7 +112,7 @@ $\int y \mid \delta x$ is the integral of $y$ with respect to $x$
 
 $\varnothing$ is _undefined_
 
-$x_0 \mid \dots x_n$ with $n = 3$ means $x_0 \mid x_1 \mid x_2 \mid x_3$ (this works with any operator)
+$x_0 \mid x_1 \mid \dots x_n$ with $n = 3$ means $x_0 \mid x_1 \mid x_2 \mid x_3$, with any operator. if $x_1 \mid$ is omitted, the step size is assumed to be $1$
 
 $x_0 \dots x_n$ with $n = 3$ means $x_0, x_1, x_2, x_3$
 
@@ -125,7 +125,7 @@ _high to low_
 - $\delta f$
 - $\cdot \circ$
 - $\mid -$
-- $\int \lim$
+- $\int \lim \dots$
 - $=\ne\gt\ge\lt\le$
 - $\lnot$
 - $\land$

@@ -22,6 +22,8 @@ _Mean Value Theorem for Functions_
 
 _Mean Value Theorem for Integrals_
 
-> **theorem**: let $f\ x$ be a [[function]] defined on $a \le x \le b$. then, there is a [[number]] $c$ in $a \le c \le b$ such that $f\ c = (\int_{x = a}^{x = b}f\ x \mid \delta x) - b \circ a$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=33143>
+> **theorem**: let $f\ x$ be a continuous [[function]] defined on $a \le x \le b$. then, there is a [[number]] $c$ in $a \le c \le b$ such that $f\ c = (\int f\ x \mid \delta x)\ b \circ (\int f\ x \mid \delta x)\ a - b \circ a$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=33143>
+
+> **note**: the [[mean-value-theorem]] for [[integral]]s is the same as the [[mean-value-theorem]] for [[function]]s, with the [[function]] being the [[integral]] $\int f\ x \mid \delta x$. substituting it into the [[mean-value-theorem]] for [[function]]s, we get the [[mean-value-theorem]] for [[integral]]s.
 
 definite [[integral]]s [[math-notation]] [[todo]]

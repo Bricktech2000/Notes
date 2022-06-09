@@ -89,34 +89,32 @@ December 14, 2021<br>
 <h2>References<br><br></h2>
 </center>
 
-<p style="margin-left: 5ch; text-indent: -5ch;">
+<p style="margin-left: 40px; text-indent: -40px;">
 Correia & van Arem, B. (2016). Solving the User Optimum Privately Owned Automated Vehicles Assignment Problem (UO-POAVAP): A model to explore the impacts of self-driving vehicles on urban mobility. Transportation Research. Part B: Methodological, 87, 64&mdash;88. https://doi.org/10.1016/j.trb.2016.03.002
 </p>
 
-<p style="margin-left: 5ch; text-indent: -5ch;">
+<p style="margin-left: 40px; text-indent: -40px;">
 Grigorescu, S., Trasnea, B., Cocias, T., & Macesanu, G. (2020). A survey of deep learning techniques for autonomous driving. Journal of Field Robotics, 37(3), 362--386. https://doi.org/10.1002/rob.21918
 </p>
 
-<p style="margin-left: 5ch; text-indent: -5ch;">
+<p style="margin-left: 40px; text-indent: -40px;">
 Mike Oitzman (2021). SAE clarifies autonomous driving level definitions. The Robot Report. Retrieved from https://www.therobotreport.com/sae-clarifies-autonomous-driving-level-definitions
 </p>
 
-<p style="margin-left: 5ch; text-indent: -5ch;">
+<p style="margin-left: 40px; text-indent: -40px;">
 Nielsen, T. A. S., & Haustein, S. (2018). On sceptics and enthusiasts: What are the expectations towards self-driving cars? Transport Policy, 66, 49--55. https://doi.org/10.1016/j.tranpol.2018.03.004
 </p>
 
-<p style="margin-left: 5ch; text-indent: -5ch;">
+<p style="margin-left: 40px; text-indent: -40px;">
 SAE International (2019). J3016 automated-driving graphic update. Retrieved from https://www.sae.org/news/2019/01/sae-updates-j3016-automated-driving-graphic
 </p>
 
-<p style="margin-left: 5ch; text-indent: -5ch;">
+<p style="margin-left: 40px; text-indent: -40px;">
 US Bureau of Labor Statistics (2017). 30 percent of civilian jobs require some driving in 2016. Retrieved from https://www.bls.gov/opub/ted/2017/30-percent-of-civilian-jobs-require-some-driving-in-2016.htm
 </p>
 
-<p style="margin-left: 5ch; text-indent: -5ch;">
+<p style="margin-left: 40px; text-indent: -40px;">
 Zakharenko, R. (2016). Self-driving cars will change cities. Regional Science and Urban Economics, 61, 26--37. https://doi.org/10.1016/j.regsciurbeco.2016.09.003
 </p>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" })</script>
-<script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([A-Za-z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`)</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" })</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([A-Za-z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } </style>

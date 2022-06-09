@@ -30,11 +30,9 @@ let $\mathbb U c$, see [[universal]]
 
 $\int \delta y = y \cdot c$
 
-$\delta \int y = y$
+$\delta \int y \cdot c = y$
 
-see [[integral-rules]]
-
-see [[derivative-rules]]
+see [[integral]], [[derivative]], [[antiderivative]]
 
 _the integral of the derivative of a function is that same function plus a constant_
 
