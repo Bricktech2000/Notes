@@ -6,16 +6,8 @@
 
 [[fundamental-theorem-of-calculus]]
 
-[[mean-value-theorem]]
-
-[[intermediate-value-theorem]]
+[[mean-value-theorem]], [[intermediate-value-theorem]]
 
 [[newtons-method]]
 
-[[limit]]
-
-[[derivative]]
-
-[[antiderivative]]
-
-[[integral]]
+[[limit]], [[derivative]], [[antiderivative]], [[integral]]

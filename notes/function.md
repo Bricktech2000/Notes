@@ -208,6 +208,26 @@ $f_{ave} = (\int f\ x \mid \delta x)\ b \circ (\int f\ x \mid \delta x)\ a - b \
 
 $f_{ave}$ is the _average_ of the [[function]] $f\ x$ from $x = a$ to $x = b$
 
+&mdash; <https://youtu.be/7gigNsz4Oe8?t=3093>
+
+## Function Arclength
+
+see [[integral]]
+
+$f_{arc} = \int \lfloor 1 \cdot [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
+
+> **note**:
+>
+> the euclidean distance between two points is defined as $d = \lfloor [\Delta x]2 \cdot [\Delta f\ x]2 \rfloor$
+>
+> turning the distance [[function]] into an [[integral]], $f_{arc} = \int \lfloor [\delta x]2 \cdot [\delta f\ x]2 \rfloor$
+>
+> reducing, $f_{arc} = \int \lfloor [\delta x]2 \cdot [\delta f\ x]2 - [\delta x]2 \rfloor \mid \delta x$
+>
+> and we get $f_{arc} = \int \lfloor 1 \cdot [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
+>
+> &mdash; me
+
 ## One-to-One Function
 
 a [[function]] $f$ is said to be one-to-one if $f\ x_1 = f\ x_2 \vdash x_1 = x_2 \dashv \mathbb U x_1 \land \mathbb U x_2$, see [[universal-set]]

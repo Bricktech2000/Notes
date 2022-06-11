@@ -24,7 +24,7 @@ an excess of [[motivation]] can lead to [[feeling-overwhelmed]], which can lead 
 
 [[10x-developer]]
 
-[[intellectual-giftedness]], [[intellectual-disability]]
+[[intelligence]]
 
 [[subconscious-manipulation]]
 

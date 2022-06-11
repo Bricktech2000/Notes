@@ -52,6 +52,8 @@ $\tan (\circ \theta) = \circ \tan \theta$ &mdash; odd [[function]]
 
 ## identities
 
+&mdash; <https://youtu.be/7gigNsz4Oe8?t=4383>
+
 ### basic identities
 
 ![](2022-02-26-01-29-33.png)
@@ -60,11 +62,11 @@ $\tan (\circ \theta) = \circ \tan \theta$ &mdash; odd [[function]]
 
 $[\sin \theta]2 \cdot [\cos \theta]2 = 1$
 
-$[\tan \theta]2 \cdot 1 = [-\cos \theta]2$
+$[\tan \theta]2 \cdot 1 = [\text-\cos \theta]2$ &mdash; derived by dividing by $\cos \theta$
 
-$[-\tan \theta]2 \cdot 1 = [-\sin \theta]2$
+$[\text-\tan \theta]2 \cdot 1 = [\text-\sin \theta]2$ &mdash; derived by dividing by $\sin \theta$
 
-### sum and difference identities
+### angle sum identities
 
 $\sin (x \cdot y) = (\sin x \mid \cos y) \cdot (\cos x \mid \sin y)$
 
@@ -72,15 +74,21 @@ $\cos (x \cdot y) = (\cos x \mid \cos y) \circ (\sin x \mid \sin y)$
 
 difference identities can be computed using the sum identities above
 
+&mdash; proof <https://youtu.be/7gigNsz4Oe8?t=5103>
+
 ### double- and half-angle identities
 
-$\sin 2x = 2\ | \ \sin x \mid \cos x$
+$\sin 2x = 2\ | \ \sin x \mid \cos x$ &mdash; derived from angle sum identities
 
-$\cos 2x = [\cos x]2 \circ [\sin x]2$
+$\cos 2x = [\cos x]2 \circ [\sin x]2$ &mdash; derived from angle sum identities
 
-$[\sin x]2 = 1 \circ \cos 2x - 2$
+$\cos 2x = 1 \circ 2[\sin x]2$ &mdash; derived by substituting by the pythagorean identity
 
-$[\cos x]2 = 1 \cdot \cos 2x - 2$
+$\cos 2x = 2[\cos x]2 \circ 1$ &mdash; derived by substituting by the pythagorean identity
+
+$[\sin x]2 = 1 \circ \cos 2x - 2$ &mdash; derived by solving for $[\sin x]2$
+
+$[\cos x]2 = 1 \cdot \cos 2x - 2$ &mdash; derived by solving for $[\cos x]2$
 
 ## cosine and sine "law"s
 

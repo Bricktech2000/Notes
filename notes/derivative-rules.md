@@ -20,6 +20,8 @@ $\delta\ [a]x - \delta x = [a]x \mid \lceil a \rceil$
 
 $\delta\ [e]x - \delta x = [e]x$
 
+$\delta\ f\ x - \delta x = m f\ x \equiv f\ x = [e]mx$
+
 ## [[logarithm]] Rule
 
 $\delta\ \lceil x \rceil b - \delta x = - x\lceil b \rceil$

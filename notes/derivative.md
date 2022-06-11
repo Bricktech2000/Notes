@@ -2,12 +2,6 @@
 
 see [[math-notation]], [[derivative-rules]], [[function]], [[calculus-notation]]
 
-## definition
-
-[[classical-math-notation]]: $\frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$
-
-my [[math-notation]]: $\delta\ f\ x - \delta x = \lim_{h \to 0} f\ (x \cdot h) \circ f\ x - h = \lim_{x \to a} f\ x \circ f\ a - x \circ a$
-
 ## notations
 
 ### Lagrange's notation
@@ -30,11 +24,17 @@ $\frac{d^n}{dx^n} = \frac{d^nf}{dx^n}$
 
 see [[calculus-notation]]
 
-## Differentiation
+## definition
+
+[[classical-math-notation]]: $\frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$
+
+my [[math-notation]]: $\delta\ f\ x - \delta x = \lim_{h \to 0} f\ (x \cdot h) \circ f\ x - h = \lim_{x \to a} f\ x \circ f\ a - x \circ a$
+
+# Differentiation
 
 to differentiate a [[function]], apply [[derivative-rules]] recursively, see [[recursion]]
 
-### differentiability
+## differentiability
 
 > **definition**: a [[function]] $f$ is _differentiable_ at $a$ if $\delta f\ a - \delta x$ exists
 
@@ -46,13 +46,13 @@ to differentiate a [[function]], apply [[derivative-rules]] recursively, see [[r
 
 > **theorem**: if $f\ x$ is continuous at $x = a$, then it may or may not be differentiable at $x = a$
 
-### Logarithmic Differentiation
+## Logarithmic Differentiation
 
 _differentiating the [[logarithm]] of a [[function]] instead of the [[function]] itself_
 
 _useful for computing the [[derivative]] of an [[exponent]]ial [[function]]_
 
-#### example with $[x][e]x$
+### example with $[x][e]x$
 
 $y = [x][e]x$
 
@@ -88,11 +88,11 @@ $-y \mid \delta y - \delta x = 1 \cdot \lceil x \rceil$
 
 $\delta y - \delta x = y \mid 1 \cdot \lceil x \rceil = [x]x \mid 1 \cdot \lceil x \rceil$
 
-### Implicit Differentiation
+## Implicit Differentiation
 
 > Differentiation of an implicit equation (where the dependent variable is not isolated). Works with both [[function]]s and relations that aren't [[function]]s.
 
-#### example
+### example
 
 $x2 \cdot y2 = 2$
 
@@ -104,11 +104,11 @@ $\delta y - \delta x = \circ x - y$
 
 > **note**: as both $x$ and $y$ are present in the equation, the [[derivative]] at $\circ y$ will be different from the one at $\cdot y$
 
-### Partial Differentiation
+## Partial Differentiation
 
 [[todo]]
 
-#### example
+### example
 
 [[todo]]
 

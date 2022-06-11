@@ -1,5 +1,8 @@
 <center>
-<h1>Personal Issues with University<br><br></h1>
+<h1>
+  Personal Issues with University<br>
+  <br>
+</h1>
 May 2022<br>
 </center>
 
@@ -53,6 +56,8 @@ May 2022<br>
 
 &emsp;&emsp; when has anyone ever had to design a finite state machine using JK flip-flops in hardware? assuming we're not in the 1980s, that is. learning **why** such circuits work is valuable (which is not taught, obviously), but memorizing the layout of all the components is plain out useless (which is pretty much what we had to do).
 
-## Conclusion
+## conclusion
 
 &emsp;&emsp; my goal in university is to have good grades. except exams are graded by dumbasses who can't seem to grade properly. and grades include attendance and graded homework and are a terrible way to measure mastery. so my goal in university is to learn. except most of the stuff we're "learning" is useless in the real world. and the lectures are so slow I would spend my time better teaching myself everything. so my goal in university is to get a diploma. except that means spending &ndash; if not wasting &ndash; years of my life for a fancy piece of paper. how depressing is that.
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" })</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([A-Za-z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } </style>

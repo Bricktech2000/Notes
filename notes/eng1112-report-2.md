@@ -1,12 +1,15 @@
 <center>
-<h1>Autonomous Vehicles: the Future of Transportation<br><br></h1>
-ENG1112 G DGD 1 &mdash; Technical Report Writing<br>
-Gefen Bar-On Santor<br>
-University of Ottawa<br>
-<br>
-Emilien Breton &mdash; 300261694<br>
-<br>
-December 14, 2021<br>
+  <h1>
+    Autonomous Vehicles: the Future of Transportation<br>
+    <br>
+  </h1>
+  ENG1112 G DGD 1 &mdash; Technical Report Writing<br>
+  Gefen Bar-On Santor<br>
+  University of Ottawa<br>
+  <br>
+  Emilien Breton &mdash; 300261694<br>
+  <br>
+  December 14, 2021<br>
 </center>
 
 <p style="page-break-after: always" />
@@ -86,7 +89,10 @@ December 14, 2021<br>
 <p style="page-break-after: always" />
 
 <center>
-<h2>References<br><br></h2>
+  <h2>
+    References<br>
+    <br>
+  </h2>
 </center>
 
 <p style="margin-left: 40px; text-indent: -40px;">

@@ -1,19 +1,25 @@
 <center>
-<h1>Labs 5 and 6: Latches, Flip-flops, and Synchronous Counters<br><br></h1>
-ITI1100 A &mdash; Digital Systems I<br>
-Wassim El Ahmar<br>
-University of Ottawa<br>
-<br>
-Emilien Breton &mdash; 300261694<br>
-Kiera Hutton &mdash; 300242006<br>
-<br>
-April 8th, 2022<br>
+  <h1>
+    Labs 5 and 6: Latches, Flip-flops, and Synchronous Counters<br>
+    <br>
+  </h1>
+  ITI1100 A &mdash; Digital Systems I<br>
+  Wassim El Ahmar<br>
+  University of Ottawa<br>
+  <br>
+  Emilien Breton &mdash; 300261694<br>
+  Kiera Hutton &mdash; 300242006<br>
+  <br>
+  April 8th, 2022<br>
 </center>
 
 <p style="page-break-after: always" />
 
 <center>
-<h1>Lab 5: Latches and Flip-flops<br><br></h1>
+  <h1>
+    Lab 5: Latches and Flip-flops<br>
+    <br>
+  </h1>
 </center>
 
 ### Objectives
@@ -110,7 +116,10 @@ The experimental and expected data matched completely. We met the objectives of 
 <p style="page-break-after: always" />
 
 <center>
-<h1>Lab 6: Synchronous Counters<br><br></h1>
+  <h1>
+    Lab 6: Synchronous Counters<br>
+    <br>
+  </h1>
 </center>
 
 ### Objectives
