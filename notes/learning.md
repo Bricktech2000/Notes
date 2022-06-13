@@ -45,3 +45,5 @@
 [[summation-and-product-notation]]
 
 [[calculus]]
+
+[[sequence]]

@@ -18,6 +18,8 @@ from the [[limit]] definition, we then derive
 
 $\lim_{h \to 0} [e]h \circ 1 - h = 1$
 
+$[e]i\tau = 1$, see [[complex]]
+
 ## example
 
 see [[derivative]]

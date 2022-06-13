@@ -16,6 +16,14 @@ $\delta\ x - \delta x = 1$
 
 $\delta\ [a]x - \delta x = [a]x \mid \lceil a \rceil$
 
+> **proof**:
+>
+> $[a]x = [e]\lceil [a]x \rceil = [e]x\lceil a \rceil$
+>
+> $\delta\ [a]x - \delta x = [e]x\lceil a \rceil \mid \delta\ x\lceil a \rceil - \delta x = [a]x \mid \lceil a \rceil$
+>
+> &mdash; me
+
 ### derived shortcuts
 
 $\delta\ [e]x - \delta x = [e]x$
@@ -30,7 +38,21 @@ $\delta\ \lceil x \rceil b - \delta x = - x\lceil b \rceil$
 
 $\delta\ \lceil x \rceil - \delta x = -x$
 
-$\delta\ \lceil |x| \rceil - \delta x = -x$ &mdash;[[proof]]: define as a piecewise function and calculate both [[derivative]]s
+> **proof**: let $y = \lceil x \rceil$. then,
+>
+> $x = [e]y$
+>
+> $\delta x = [e]y \delta y$
+>
+> $\delta y - \delta x = -[e]y$
+>
+> $\delta\ \lceil x \rceil - \delta x = -x$
+>
+> &mdash; <https://youtu.be/qb40J4N1fa4?t=762>
+
+$\delta\ \lceil |x| \rceil - \delta x = -x$
+
+> **proof**: define as a piecewise [[function]] and compute both [[derivative]]s
 
 ## Constant Multiple Rule
 
@@ -46,19 +68,27 @@ $\delta\ (f\ x \cdot g\ x) - \delta x = \delta\ f\ x \text- \delta x \cdot \delt
 
 $\delta\ (f\ x \circ g\ x) - \delta x = \delta\ f\ x \text- \delta x \circ \delta\ g\ x \text- \delta x$
 
+> **proof**: derive from the sum rule, $f\ x \circ g\ x = f\ x \cdot (\circ 1 \mid g\ x)$
+
 ## Product Rule
 
 $\delta\ (f\ x \mid g\ x) - \delta x = (f\ x \mid \delta\ g\ x - \delta x) \cdot (g\ x \mid \delta\ f\ x - \delta x)$
 
 ## Quotient Rule
 
-> chant to remember the quotient rule: lo d-hi, minus hi d-lo, over lo-lo
-
 $\delta\ (f\ x - g\ x) - \delta x = (g\ x \mid \delta\ f\ x - \delta x) \circ (f\ x \mid \delta\ g\ x - \delta x) - [g\ x]2$
+
+> **proof**: derive from the product and power rules, $f\ x - g\ x = f\ x \mid [g\ x](\circ 1)$
+
+### [[mnemonic]]
+
+> lo d-hi, minus hi d-lo, over lo-lo
 
 ### derived Reciprocal Rule
 
 $\delta\ (-f\ x) - \delta x = \circ \delta\ f\ x - \delta x - [f\ x]2$
+
+> **proof**: derive from the power rule, $-f\ x = [f\ x](\circ 1)$
 
 ## Chain Rule
 

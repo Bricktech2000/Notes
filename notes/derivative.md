@@ -24,6 +24,10 @@ $\frac{d^n}{dx^n} = \frac{d^nf}{dx^n}$
 
 see [[calculus-notation]]
 
+$d\ n, f = d\ (n \circ 1), (\delta\ f\ x - \delta x) \land d\ 1, f = f$
+
+$d\ n, f$ would then be the $n$ th [[derivative]] of $f$
+
 ## definition
 
 [[classical-math-notation]]: $\frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$
@@ -99,6 +103,16 @@ $x2 \cdot y2 = 2$
 $\delta\ (x2 \cdot y2) - \delta x = \delta 2 - \delta x$
 
 $2x \cdot 2y(\delta y - \delta x) = 0$
+
+$\delta y - \delta x = \circ x - y$
+
+or alternatively,
+
+$x2 \cdot y2 = 2$
+
+$\delta x2 \cdot \delta y2 = \delta 2$
+
+$2x \delta x \cdot 2y \delta y = 0$
 
 $\delta y - \delta x = \circ x - y$
 

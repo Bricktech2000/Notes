@@ -8,6 +8,14 @@ the _limit of $f\ x$ as $x$ approaches $a$ ._ is denoted as follows:
 
 $\lim_{x \to a} f\ x$
 
+## definition
+
+_the $(\varepsilon, \delta)$-definition of a limit_
+
+let $f\ x$ be a [[function]] defined on an open interval around $x_0$. then, $\lim_{x \to x_0} f\ x = L$ if for every $\varepsilon > 0$ there exists $\delta > 0$ such that $0 < |x \circ x_0| < \delta\ \ \vdash\ \ |f\ x \circ L| < \varepsilon$ for all $x$
+
+&mdash; <https://brilliant.org/wiki/epsilon-delta-definition-of-a-limit/>
+
 ## Indeterminate Forms
 
 > a [[limit]] of the form $\lim_{x \to a} f\ x - g\ x$ is called a $0 - 0$ indeterminate form if $\lim_{x \to a} f\ x = 0$ and $\lim_{x \to a} g\ x = 0$

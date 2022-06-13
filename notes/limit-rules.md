@@ -58,14 +58,17 @@ if $\lim_{x \to a} f\ x = \lim_{x \to a} h\ x = L$, then $\lim_{x \to a} g\ x = 
 
 _used to compute [[limit]]s in indeterminate forms using their [[derivative]]s_
 
-> **theorem**: let $f\ x$ and $g\ x$ be differentiable [[function]]s such that $\delta\ g\ x - \delta x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]]) in an open interval around $a$. if $\lim_{x \to a} f\ x - g\ x$ is a $0 - 0$ or $\infty - \infty$ [[limit]] indeterminate form, then $\lim_{x \to a} f\ x - g\ x = \lim_{x \to a} \delta\ f\ x - \delta\ g\ x = \lim_{x \to a} (\delta\ f\ x - \delta x) - (\delta\ g\ x - \delta x)$
+> **theorem**: let $f\ x$ and $g\ x$ be differentiable [[function]]s such that $\delta\ g\ x - \delta x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]]) in an open interval around $a$. if $\lim_{x \to a} f\ x - g\ x$ is a $0 - 0$ [[limit]] indeterminate form, then $\lim_{x \to a} f\ x - g\ x = \lim_{x \to a} \delta\ f\ x - \delta\ g\ x = \lim_{x \to a} (\delta\ f\ x - \delta x) - (\delta\ g\ x - \delta x)$
+
+intuitive explanation &mdash; <https://youtu.be/kfF40MiS7zA?t=734>
 
 other [[limit]] indeterminate forms can be rewritten to use L'Hôpital's rule:
 
-- $0 \mid \infty$: $0 - (-\infty)$ or $(-0) - \infty$
-- $[1]\infty$: $\ln [1]\infty \to \infty \ln 1 \to \infty \mid 0$
-- $[\infty]0$: $\ln [\infty]0 \to 0 \ln \infty \to 0 \mid \infty$
-- $[0]$: $ \ln [0]0 \to 0 \ln 0 \to 0 \mid \circ \infty$
+- $\infty - \infty$: $(-\infty) - (-\infty) \to 0 - 0$
+- $0 \mid \infty$: $0 - (-\infty) \to 0 - 0$ or $(-0) - \infty \to 0 - 0$
+- $[1]\infty$: $\lceil [1]\infty \rceil \to \infty \lceil 1 \rceil \to \infty \mid 0 \to 0 - 0$
+- $[\infty]0$: $\lceil [\infty]0 \rceil \to 0 \lceil \infty \rceil \to 0 \mid \infty \to 0 - 0$
+- $[0]0$: $\lceil [0]0 \rceil \to 0 \lceil 0 \rceil \to 0 \mid \circ \infty \to 0 - 0$
 
 ### examples
 

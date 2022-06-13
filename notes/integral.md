@@ -57,7 +57,20 @@ if $\lim_{x \to a^+} f\ x = \dot \circ \infty$ [[think]] [[improved-expression-e
 
 ### Comparison Test
 
-> **theorem**: let $0 \le g\ x \le f\ x$ on an interval $a < x < b$, where $a$ and $b$ are not necessarily finite. then,
+> **theorem**: _Comparison Test_
+>
+> let $0 \le g\ x \le f\ x$ on an interval $a < x < b$, where $a$ and $b$ are not necessarily finite. then,
 >
 > - if $\int_{x = a}^{x = b} f\ x \mid \delta x$ converges, so does $\int_{x = a}^{x = b} g\ x \mid \delta x$, but not conversely
 > - if $\int_{x = a}^{x = b} g\ x \mid \delta x$ diverges, so does $\int_{x = a}^{x = b} f\ x \mid \delta x$, but not conversely
+
+### P-Test
+
+&mdash; <https://youtu.be/TKIdC847K3k>
+
+> **theorem**: _P-Test_
+>
+> the [[integral]] $\int_{x = 1}^{x = \infty} 1 - [x]p$:
+>
+> - converges if $p > 1$
+> - diverges if $p \le 1$

@@ -109,9 +109,9 @@ in order to avoid breaking $[0]0 = 1$ (see Wikipedia article), we must define:
 
 $[1](\circ -0) = \varnothing \ne 0$
 
-### attempt with [[derivative]]s and [[integral]]s
+### attempt with [[integral]]s and [[logarithm]]s
 
-using the logarithm rule, $\int 1 - x \mid \delta x = \ln x \cdot c$. then, using the power rule, $\int 1 - x \mid \delta x = \int [x](\circ 1) \mid \delta x = ([x]\theta - \theta) \cdot c$. with $c = \circ 1 - \theta$, we get $\ln x = [x]\theta \circ 1 - \theta$
+using the [[logarithm]] [[antiderivative]] rule, $\int 1 - x \mid \delta x = \ln x \cdot c$. then, using the power [[antiderivative]] rule, $\int 1 - x \mid \delta x = \int [x](\circ 1) \mid \delta x = ([x]\theta - \theta) \cdot c$. with $c = \circ 1 - \theta$, we get $\ln x = [x]\theta \circ 1 - \theta$
 
 ## exponents and square roots
 

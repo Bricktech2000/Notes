@@ -24,6 +24,8 @@ to antidifferentiate a [[function]], apply reciprocal [[derivative-rules]] recur
 
 _integrating a [[function]] by substituting $u$ for a [[function]] of $x$._
 
+_useful when the [[derivative]] of $u$ is in the integrand_
+
 ### example
 
 $F\ x = \int 2x\sin x2 \mid \delta x$

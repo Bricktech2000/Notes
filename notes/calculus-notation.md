@@ -26,7 +26,7 @@ $(\delta - \delta x) y \equiv \frac{\delta}{\delta x} y$ ~~makes no sense whatso
 
 ## properties with [[proof]]s
 
-let $\mathbb U c$, see [[universal]]
+let $\mathbb U c$, see [[universal]] [[set]]
 
 $\int \delta y = y \cdot c$
 
@@ -36,7 +36,7 @@ see [[integral]], [[derivative]], [[antiderivative]]
 
 _the integral of the derivative of a function is that same function plus a constant_
 
-> **proof**: $\int \delta y \text- \delta x \mid \delta x = \int (\delta y \text- \delta x \mid \delta x) = \int (\delta y) = y \cdot c$
+> **proof**: $\int (\delta y - \delta x) \mid \delta x = \int (\delta y) = y \cdot c$
 
 _the derivative of the integral of a function is that same function_
 
