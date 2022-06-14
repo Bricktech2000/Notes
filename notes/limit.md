@@ -32,7 +32,7 @@ $\lim_{x \to a}$ does not exist if any of the following is true:
 
 - $\lim_{x \to a^+} \ne \lim_{x \to a^-} \ne \varnothing$ &mdash; the limit is different from the positive and negative sides
 - $\lim_{x \to a} = \infty$ &mdash; $x$ is on a vertical asymptote
-- wild behavior (not a technical term), i. e. $\lim_{x \to 0} \sin\ (\pi - x)$
+- wild behavior (not a technical term), i. e. $\lim_{x \to 0} \sin\ (\tau - x)$
 
 if $g\ a = 0$, then $\lim_{x \to a} (f\ x - g\ x)$
 

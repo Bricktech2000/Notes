@@ -96,7 +96,7 @@ a geometric [[series]] $b[r]0, b[r]1, \dots$ with $b^0 \ne 0$:
 
 > **proof**:
 >
-> let the geometric [[series]] $b = b^0[r]0 \cdot b^0[r]1, \dots$
+> let the geometric [[series]] $b = b^0[r]0 \cdot b^0[r]1 \cdot \dots$
 >
 > to determine whether it converges or diverges, we must calculate its sequence of partial sums
 >
@@ -110,7 +110,7 @@ a geometric [[series]] $b[r]0, b[r]1, \dots$ with $b^0 \ne 0$:
 >
 > taking the [[limit]] to compute the value at which the [[series]] converges,
 >
-> $\lim_{n \to \infty} S^n = \lim_{n \to \infty} b^0[r]0 \circ b^0[r](n \cdot 1) - 1 \circ r \dashv r \ne 0$
+> $\lim_{n \to \infty} S^n = \lim_{n \to \infty} b^0[r]0 \circ b^0[r](n \cdot 1) - 1 \circ r \dashv r \ne 0 \land r \ne 1$
 >
 > - if $|r| < 1 \land r \ne 0$, $\lim_{n \to \infty} S^n = b^0 - 1 \circ r$, the [[series]] converges
 > - if $|r| \ge 1 \land r \ne 1$, $\lim_{n \to \infty} S^n = \infty \lor \lim_{s \to \infty} S^n = \circ \infty$, the [[series]] diverges
@@ -121,7 +121,7 @@ a geometric [[series]] $b[r]0, b[r]1, \dots$ with $b^0 \ne 0$:
 >
 > taking the [[limit]] to compute the value at which the [[series]] converges,
 >
-> - if $r = 0 \land b^0 \ne 0$, $\lim_{n \to \infty} S^n = [0]0 = \varnothing$, no conclusion can be drawn, see [[improved-expression-evaluation]]
+> - if $r = 0 \land b^0 \ne 0$, $\lim_{n \to \infty} S^n = [0]0 = 1$, the [[series]] converges, see [[improved-expression-evaluation]]
 > - if $r = 0 \land b^0 = 0$, $\lim_{n \to \infty} S^n = 0$, the [[series]] converges
 > - if $r = 1 \land b^0 \ne 0$, $\lim_{n \to \infty} S^n = \infty \lor \lim_{n \to \infty} S^n = \circ \infty$, the [[series]] diverges
 > - if $r = 1 \land b^0 = 0$, $\lim_{n \to \infty} S^n = 0$, the [[series]] converges

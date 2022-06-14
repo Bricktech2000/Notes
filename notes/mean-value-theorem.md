@@ -27,3 +27,7 @@ _Mean Value Theorem for Integrals_
 > **note**: the [[mean-value-theorem]] for [[integral]]s is the same as the [[mean-value-theorem]] for [[function]]s, with the [[function]] being the [[integral]] $\int f\ x \mid \delta x$. substituting it into the [[mean-value-theorem]] for [[function]]s, we get the [[mean-value-theorem]] for [[integral]]s.
 
 definite [[integral]]s [[math-notation]] [[todo]]
+
+## Corollary of Mean Value Theorem
+
+> **theorem**: if $\delta\ f\ x = \delta\ g\ x$ on an open interval $a < x < b$, then $f\ x = g\ x \cdot c \land \mathbb R c$ on the same interval. &mdash; <https://youtu.be/u4kex7hDC2o?t=433>

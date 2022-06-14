@@ -155,3 +155,7 @@ $a \textrm- b$
 - hard to switch from being on the internet to focusing
 
 this is some block $$\LaTeX$$ inlined in the source code
+
+$\delta\ (\delta\ f\ x - \delta x) - \delta x$
+
+$\delta\ \delta\ f\ x - (\delta x \mid \delta x)$

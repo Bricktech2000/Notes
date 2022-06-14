@@ -86,6 +86,8 @@ $V^y$ is the $y$ (second) component of the [[vector]] $V$
 
 $V^\omega$ where $\omega$ is a [[number]] is the $\omega$ th component of the [[vector]] $V$
 
+$a^\omega$ where $\omega$ is a [[number]] is the $\omega$ th element of the [[sequence]] $a$
+
 $M^{i, j}$ is the $i, j$ th element of the [[matrix]] $M$
 
 $M^{i,}$ is the $i$ th row of the [[matrix]] $M$
@@ -116,6 +118,8 @@ $x_0 \mid x_1 \mid \dots x_n$ with $n = 3$ means $x_0 \mid x_1 \mid x_2 \mid x_3
 
 $x_0 \dots x_n$ with $n = 3$ means $x_0, x_1, x_2, x_3$
 
+$\tau$ is defined as the ratio of the circumference of a [[circle]] to its radius. using $\pi$ is to be avoided
+
 ## operator precedence
 
 _high to low_
@@ -132,6 +136,10 @@ _high to low_
 - $\lor$
 - $\dashv\ \vdash$
 - $\equiv \times$
+
+## operator associativity
+
+[[todo]]
 
 ## principles
 

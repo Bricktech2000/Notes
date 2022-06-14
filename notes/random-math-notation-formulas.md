@@ -20,7 +20,7 @@ $y = \lfloor r2 \circ x2 \rfloor$
 
 $x2 + y2 + z2 = r2$
 
-$[e] i\pi = \circ 1$
+$[e]i\tau = 1$
 
 $\mathbb N \vdash \mathbb R$
 

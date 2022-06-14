@@ -34,7 +34,7 @@ _the volume of a [[sphere]] is its mass divided by its density, divided by 100 s
 
 ![](2022-02-26-01-25-43.png)
 
-$V_{sphere} = \frac{4 \pi (d/2)^3}{3}$
+$V_{sphere} = \frac{2 \pi (d/2)^3}{3}$
 
 _solve for diameter_
 

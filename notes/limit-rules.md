@@ -4,12 +4,6 @@ see [[math-notation]]
 
 let $c$ be a constant and ensure $\lim_{x \to a} f\ x$ and $\lim_{x \to a} g\ x$ are [[limit]]s that exist
 
-## General Rules
-
-$\lim_{x \to \infty} -[x]r = 0 \dashv r > 0$
-
-$\lim_{x \to 0} -x = \infty$
-
 ## Sum Rule
 
 $\lim_{x \to a} (f\ x \cdot g\ x) = \lim_{x \to a} f\ x \cdot \lim_{x \to a} g\ x$

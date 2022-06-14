@@ -24,7 +24,7 @@ $\frac{d^n}{dx^n} = \frac{d^nf}{dx^n}$
 
 see [[calculus-notation]]
 
-$d\ n, f = d\ (n \circ 1), (\delta\ f\ x - \delta x) \land d\ 1, f = f$
+$d\ n, f = d\ (n \circ 1), (\delta\ f\ x - \delta x) \land d\ 0, f = f$
 
 $d\ n, f$ would then be the $n$ th [[derivative]] of $f$
 

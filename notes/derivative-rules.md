@@ -36,7 +36,7 @@ $\delta\ \lceil x \rceil b - \delta x = - x\lceil b \rceil$
 
 ### derived shortcuts
 
-$\delta\ \lceil x \rceil - \delta x = -x$
+$\delta\ \lceil |x| \rceil - \delta x = -x$
 
 > **proof**: let $y = \lceil x \rceil$. then,
 >

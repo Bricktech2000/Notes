@@ -16,11 +16,11 @@ SOHCAHTOA
 
 ## reciprocal functions
 
-$y = \sin x \equiv x = \operatorname{asin} y \cdot 2\pi n \land \mathbb Z n$
+$y = \sin x \equiv x = \operatorname{asin} y \cdot \tau n \land \mathbb Z n$
 
-$y = \cos x \equiv x = \operatorname{acos} y \cdot 2\pi n \land \mathbb Z n$
+$y = \cos x \equiv x = \operatorname{acos} y \cdot \tau n \land \mathbb Z n$
 
-$y = \tan x \equiv x = \operatorname{atan} y \cdot \pi n \land \mathbb Z n$
+$y = \tan x \equiv x = \operatorname{atan} y \cdot \tau n \text- 2 \land \mathbb Z n$
 
 ## inverse functions
 
@@ -38,11 +38,11 @@ $\text-\operatorname{atan} x$
 
 ## properties
 
-$\sin (\theta \cdot 2\pi) = \sin \theta$ &mdash; periodic
+$\sin (\theta \cdot \tau) = \sin \theta$ &mdash; periodic
 
-$\cos (\theta \cdot 2\pi) = \cos \theta$ &mdash; periodic
+$\cos (\theta \cdot \tau) = \cos \theta$ &mdash; periodic
 
-$\tan (\theta \cdot \pi) = \tan \theta$ &mdash; periodic
+$\tan (\theta \cdot \tau \text- 2) = \tan \theta$ &mdash; periodic
 
 $\cos (\circ \theta) = \cos \theta$ &mdash; even [[function]]
 

@@ -4,7 +4,7 @@ see [[math-notation]]
 
 ## notation
 
-[[integral]] and [[derivative]] notation should be thought of as follows (with explicit parenthesis for function calls):
+[[integral]] and [[derivative]] notation should be thought of as follows (with explicit parentheses to denote [[function]] calls):
 
 $\int y \mid \delta x \equiv \int (y \mid \delta(x))$
 

@@ -12,7 +12,7 @@ this [[improved-expression-evaluation]] proposes that any algebraic manipulation
 
 ## applications
 
-- classically, $\operatorname{atan} y \text- x \land x = 0 \equiv \varnothing$. however, by substituting $y \text- x$ in the definition of the $\operatorname{atan}$ [[function]] directly and by using [[limit-rules]] to simplify it, the right answer $\pi - 2$ is obtained.
+- classically, $\operatorname{atan} y \text- x \land x = 0 \equiv \varnothing$. however, by substituting $y \text- x$ in the definition of the $\operatorname{atan}$ [[function]] directly and by using [[limit-rules]] to simplify it, the right answer $\tau - 4$ is obtained.
 
 - classically, the graph of a [[function]] such as $f\ x = - - x \circ 2$ has a hole at $x = 2$. however, by simplifying the [[function]] using [[limit-rules]] before graphing it, the function $f\ x = x \circ 2$ is obtained; the hole is avoided.
 

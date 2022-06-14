@@ -204,11 +204,15 @@ the _absolute error_ $\Delta f$ and _relative error_ $\Delta f - f\ x$ on a [[fu
 
 see [[integral]]
 
-$f_{ave} = (\int f\ x \mid \delta x)\ b \circ (\int f\ x \mid \delta x)\ a - b \circ a$, where
+$f_{ave} = F\ b \circ F\ a - b \circ a$, where
 
-$f_{ave}$ is the _average_ of the [[function]] $f\ x$ from $x = a$ to $x = b$
+$F$ is an [[antiderivative]] of $f\ x$ with respect to $x$, $\int f\ x \mid \delta x$
+
+$f_{ave}$ is the _average_ of the [[function]] $f\ x$ on the interval $a \le x \le b$
 
 &mdash; <https://youtu.be/7gigNsz4Oe8?t=3093>
+
+&mdash; <https://youtu.be/FnJqaIESC2s>
 
 ## Function Arclength
 
