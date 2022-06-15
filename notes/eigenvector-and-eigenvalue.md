@@ -14,7 +14,7 @@ let $\mathbb M^{n, n} A \land \mathbb N n$
 
 > **theorem**: all [[eigenvector]]s together with the zero [[vector]] form a [[vector-space]]
 
-> **theorem**: the [[characteristic-polynomial]] $\det (A \circ \lambda I)$ is a [[polynomial]] of degree $n$, meaning it has at most $n$ distinct roots
+> **theorem**: the [[characteristic-polynomial]] $\det (A \cdot \lambda I)$ is a [[polynomial]] of degree $n$, meaning it has at most $n$ distinct roots
 
 > **theorem**: $A$ has at most $n$ distinct [[eigenvalue]]s
 
@@ -28,35 +28,35 @@ $Ax = \lambda x$
 
 rewriting into a homogeneous [[linear-system]]
 
-$Ax \circ \lambda x = O$
+$Ax \cdot \lambda x = O$
 
-$Ax \circ \lambda I x = O$
+$Ax \cdot \lambda I x = O$
 
 factoring out $x$
 
-$A \circ \lambda I \mid x = O$
+$A \cdot \lambda I \mid x = O$
 
-the equation above is a homogeneous [[linear-system]] where $A \circ \lambda I$ is the _coefficient matrix_
+the equation above is a homogeneous [[linear-system]] where $A \cdot \lambda I$ is the _coefficient matrix_
 
 recall that a homogeneous [[linear-system]] can have either a unique solution (with $x = O$, which is not a valid [[eigenvector]] as per the definition) or an infinite number of solutions (which we can achieve by picking the right values for $\lambda$). for a homogeneous [[linear-system]] to have an infinite number of solutions, its coefficient matrix rows (and therefore columns) must be [[linearly-independent]], or the [[determinant]] of its coefficient matrix must be equal to $0$, or its coefficient matrix must be invertible, etc. (see [[matrix]])
 
-$\det (A \circ \lambda I) = 0$ (this [[polynomial]] is known as the _[[characteristic-polynomial]] of $A$._)
+$\det (A \cdot \lambda I) = 0$ (this [[polynomial]] is known as the _[[characteristic-polynomial]] of $A$._)
 
 solving...
 
 _using $A = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix}$ as an example_
 
-$A \circ \lambda I = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \circ \lambda \begin{bmatrix}1 & 0 \\\  0 & 1\end{bmatrix} = \begin{bmatrix}1 \circ \lambda & 2 \\\  2 & 1 \circ \lambda\end{bmatrix}$
+$A \cdot \lambda I = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \cdot \lambda \begin{bmatrix}1 & 0 \\\  0 & 1\end{bmatrix} = \begin{bmatrix}1 \cdot \lambda & 2 \\\  2 & 1 \cdot \lambda\end{bmatrix}$
 
-$\det (A \circ \lambda I) = 0 = [1 \circ \lambda]2 \circ 4 = 1 \circ \lambda \cdot 2 \mid 1 \circ \lambda \circ 2 = 3 \circ \lambda \mid \circ 1 \circ \lambda = 0$
+$\det (A \cdot \lambda I) = 0 = [1 \cdot \lambda]2 \cdot 4 = 1 \cdot \lambda : 2 \mid 1 \cdot \lambda \cdot 2 = 3 \cdot \lambda \mid \cdot 1 \cdot \lambda = 0$
 
-$\lambda = 3 \lor \lambda = \circ 1$ are the [[eigenvalue]]s of $A$
+$\lambda = 3 \lor \lambda = \cdot 1$ are the [[eigenvalue]]s of $A$
 
 ## finding [[eigenvector]]s
 
-as $A \circ \lambda I \mid x$, we get the following (see [[matrix]] Kernel):
+as $A \cdot \lambda I \mid x$, we get the following (see [[matrix]] Kernel):
 
-$E_\lambda = Ker\ (A \circ \lambda I)$, where
+$E_\lambda = Ker\ (A \cdot \lambda I)$, where
 
 $E_\lambda$ is the _[[eigenspace]]_ of $A$ corresponding to the [[eigenvalue]] $\lambda$ (this [[vector-space]] is called the λ-[[eigenspace]] of $A$)
 
@@ -64,13 +64,13 @@ the [[eigenvector]]s of $A$ associated with the [[eigenvalue]] $\lambda$ are all
 
 for $\lambda = 3$:
 
-$A \circ 3I \mid x = O$
+$A \cdot 3I \mid x = O$
 
-$A \circ 3I \mid x = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \circ \begin{bmatrix}3 & 0 \\\  0 & 3\end{bmatrix} \mid x = \begin{bmatrix}\circ 2 & 2 \\\  2 & \circ 2\end{bmatrix} \mid x = 0$
+$A \cdot 3I \mid x = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \cdot \begin{bmatrix}3 & 0 \\\  0 & 3\end{bmatrix} \mid x = \begin{bmatrix}\cdot 2 & 2 \\\  2 & \cdot 2\end{bmatrix} \mid x = 0$
 
 therefore, we can solve the following [[linear-system]] using [[row-reduction]]
 
-$\begin{bmatrix}\circ 2 & 2 & | & 0 \\\  2 & \circ 2 & | & 0\end{bmatrix}$
+$\begin{bmatrix}\cdot 2 & 2 & | & 0 \\\  2 & \cdot 2 & | & 0\end{bmatrix}$
 
 and we get:
 
@@ -80,7 +80,7 @@ $\lbrace (1, 1) \rbrace$ is then a [[basis]] for the [[eigenspace]] $E_3$ of $A$
 
 > **note**: the general solution of the homogenous [[linear-system]] will always be a [[basis]] as the resulting [[vector]]s will always be [[linearly-independent]], see [[matrix]] Kernel for more information
 
-for $\lambda = \circ 1$, we get the [[basis]] $\lbrace (1, \circ 1) \rbrace$ for the [[eigenspace]] $E_{\circ 1}$ of $A$
+for $\lambda = \cdot 1$, we get the [[basis]] $\lbrace (1, \cdot 1) \rbrace$ for the [[eigenspace]] $E_{\cdot 1}$ of $A$
 
 ## Multiplicity
 
@@ -98,7 +98,7 @@ see [[multiplicity]]
 
 ### example
 
-the [[characteristic-polynomial]] of $\begin{bmatrix}2 & 4 & \circ 3 \\\ 0 & 3 & 5 \\\ 0 & 0 & 3\end{bmatrix}$ is $2 \circ \lambda \mid [3 \circ \lambda]2$. its [[eigenvalue]]s are $\lambda = 2$ and $\lambda = 3$. the algebraic [[multiplicity]] (see [[eigenvector-and-eigenvalue]]) of $\lambda = 2$ is $1$ and the algebraic [[multiplicity]] of $\lambda = 3$ is $2$.
+the [[characteristic-polynomial]] of $\begin{bmatrix}2 & 4 & \cdot 3 \\\ 0 & 3 & 5 \\\ 0 & 0 & 3\end{bmatrix}$ is $2 \cdot \lambda \mid [3 \cdot \lambda]2$. its [[eigenvalue]]s are $\lambda = 2$ and $\lambda = 3$. the algebraic [[multiplicity]] (see [[eigenvector-and-eigenvalue]]) of $\lambda = 2$ is $1$ and the algebraic [[multiplicity]] of $\lambda = 3$ is $2$.
 
 [[multiplicity]] can be used to determine whether a [[matrix]] is diagonalizable
 

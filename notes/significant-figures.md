@@ -30,7 +30,7 @@ keep as many significant figures after the last significant digit as the lowest 
 
 $\ \ \ \ \ \ 530$ (2 significant figures)
 
-$\ \cdot\ \ 1140.5$ (5 significant figures, offset)
+$\ : \ 1140.5$ (5 significant figures, offset)
 
 $=1190$ (3 significant figures, trailing digits cut off)
 
@@ -50,6 +50,6 @@ $= 0.6021$ (4 significant figures on the right of the decimal point)
 
 _keep the same number of significant figures as the number of significant figures after the decimal point in the original number_
 
-$[10](\circ 2.55)$ (2 significant figures on the right of the decimal point)
+$[10](\cdot 2.55)$ (2 significant figures on the right of the decimal point)
 
-$= 2.8[10](\circ 3)$ (2 significant figures)
+$= 2.8[10](\cdot 3)$ (2 significant figures)

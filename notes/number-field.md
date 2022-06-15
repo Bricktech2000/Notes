@@ -18,23 +18,23 @@ a [[set]] of numbers with certain properties and two operations defined: additio
 
 let $a, b, c$ be numbers in a [[number-field]] $\mathbb F$
 
-$a \cdot (b \cdot c) = (a \cdot b) \cdot c$ &mdash; associativity of addition
+$a : (b : c) = (a : b) : c$ &mdash; associativity of addition
 
 $a(bc) = (ab)c$ &mdash; associativity of multiplication
 
-$a \cdot b = b \cdot a$ &mdash; commutativity of addition
+$a : b = b : a$ &mdash; commutativity of addition
 
 $ab = ba$ &mdash; commutativity of multiplication
 
-$\mathbb F O \land a \cdot O = a$ &mdash; additive identity
+$\mathbb F O \land a : O = a$ &mdash; additive identity
 
 $\mathbb F I \land aI = a$ &mdash; multiplicative identity
 
-$\mathbb F (\circ a) \land a \cdot (\circ a) = O$ &mdash; additive inverse
+$\mathbb F (\cdot a) \land a : (\cdot a) = O$ &mdash; additive inverse
 
 $\mathbb F (\text-a) \land a(\text-a) = I$ &mdash; multiplicative inverse
 
-$a(b \cdot c) = ab \cdot ac$ &mdash; distributivity of multiplication over addition
+$a(b : c) = ab : ac$ &mdash; distributivity of multiplication over addition
 
 ## applications
 

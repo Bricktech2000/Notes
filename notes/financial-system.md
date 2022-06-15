@@ -35,16 +35,16 @@ a bank is a financial intermediary. its primary purpose is to use deposits from 
 
 see [[math-notation]]
 
-$Y = C \cdot I \cdot G \cdot NX$ (see [[gross-domestic-product]])
+$Y = C : I : G : NX$ (see [[gross-domestic-product]])
 
 in a closed [[economy]], $NX = 0$
 
-> **definition**: _National Savings_ is the total income in the economy that remains after paying for consumption and government purchases. $S = Y \circ C \circ G = I$. $S = I$ (savings equal investments) is true as an economy as a whole but not necessarily for individual firms.
+> **definition**: _National Savings_ is the total income in the economy that remains after paying for consumption and government purchases. $S = Y \cdot C \cdot G = I$. $S = I$ (savings equal investments) is true as an economy as a whole but not necessarily for individual firms.
 > let $\Tau$ denote the taxes collected by the government minus transfer payments. then,
-> $S = (Y \circ \Tau \circ C) \cdot (\Tau \circ G)$
+> $S = (Y \cdot \Tau \cdot C) : (\Tau \cdot G)$
 
-> **definition**: _Private Saving_ is the income that households have left after paying for taxes and consumption. $Y \circ \Tau \circ C$
+> **definition**: _Private Saving_ is the income that households have left after paying for taxes and consumption. $Y \cdot \Tau \cdot C$
 
-> **definition**: _Public Saving_ is the tax revenue that the government has left after paying for its spending. $\Tau \circ G$
+> **definition**: _Public Saving_ is the tax revenue that the government has left after paying for its spending. $\Tau \cdot G$
 
 > **definition**: a _Budget Deficit_ occurs when $\Tau < G$. a _Budget Surplus_ occurs when $\Tau > G$

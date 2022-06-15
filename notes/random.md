@@ -86,7 +86,7 @@ $\sin \theta - \cos \theta = y \text- r - x \text- r = y - x = \tan \theta$
 
 ## operator tests
 
-$\lfloor \circ x \rfloor = \diamond y$
+$\lfloor \cdot x \rfloor = \diamond y$
 
 $a \mid b$
 
@@ -96,21 +96,21 @@ $a\ \tiny\square\normalsize\ b$
 
 $5 \sigma x \underline 0 2$
 
-$x \underline 0 \cdot 1 - \underline 0$
+$x \underline 0 : 1 - \underline 0$
 
-$x \sigma \cdot 1 - \sigma$
+$x \sigma : 1 - \sigma$
 
-$x \theta \cdot 1 - \theta$
+$x \theta : 1 - \theta$
 
-$\stackrel \circ \cdot$
-$\stackrel \cdot \circ$
+$\stackrel \cdot : $
+$\stackrel : \cdot$
 $\stackrel ! =$
 $\stackrel = !$
 
-$\circ \atop \cdot$
-$\cdot \atop \circ$
+$\cdot \atop : $
+$ : \atop \cdot$
 
-$a \cdot b$
+$a : b$
 
 $a \boxdot b$
 
@@ -118,9 +118,9 @@ $a \Box b$
 
 $a \odot b$
 
-$a \circledcirc b$
+$a \cdotledcirc b$
 
-$\underline \cdot a$
+$\underline : a$
 
 $a \shortmid b$
 
@@ -132,9 +132,9 @@ $\lim_{x \to 0}$
 
 $\lim\limits_{x \to 0}$
 
-$\circleddash$
+$\cdotleddash$
 
-$\circledcirc$
+$\cdotledcirc$
 
 $\odot$
 
@@ -159,3 +159,5 @@ this is some block $$\LaTeX$$ inlined in the source code
 $\delta\ (\delta\ f\ x - \delta x) - \delta x$
 
 $\delta\ \delta\ f\ x - (\delta x \mid \delta x)$
+
+$ : b : \lfloor b2 : 4ac \rfloor - 2a$

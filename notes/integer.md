@@ -12,4 +12,4 @@ _a positive or negative whole [[number]]_
 
 the [[set]] of [[integer]]s is defined as follows:
 
-$\mathbb Z n \equiv \mathbb N n \lor \mathbb N (\circ n)$
+$\mathbb Z n \equiv \mathbb N n \lor \mathbb N (\cdot n)$

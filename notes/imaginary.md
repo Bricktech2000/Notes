@@ -12,6 +12,6 @@ $\mathbb R \lor (\mathbb C \land \lnot \mathbb R) \equiv \mathbb C$
 
 the [[set]] of [[imaginary]] [[number]]s is defined as follows:
 
-$(\mathbb C \land \lnot \mathbb R)\ x \equiv x = b\lfloor \circ 1 \rfloor \land \mathbb R b$
+$(\mathbb C \land \lnot \mathbb R)\ x \equiv x = b\lfloor \cdot 1 \rfloor \land \mathbb R b$
 
-$i \equiv \lfloor \circ 1 \rfloor$
+$i \equiv \lfloor \cdot 1 \rfloor$

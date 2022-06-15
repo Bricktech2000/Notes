@@ -12,19 +12,19 @@ in my [[math-notation]]:
 
 defined using [[iteration]]: $a = 0, 1, 2 \dots 10 = a^0 \dots a^{10}$
 
-defined using [[recursion]]: $a^0 = 2 \land a^n = 4 \circ 1 \text- a^{n \circ 1}$
+defined using [[recursion]]: $a^0 = 2 \land a^n = 4 \cdot 1 \text- a^{n \cdot 1}$
 
 in [[classical-math-notation]]:
 
 defined using [[iteration]]: $a = \lbrace 1, 2, 3, \dots \rbrace = \lbrace a_n \rbrace_{n = 0}^{\infty} = \lbrace a_n \rbrace$
 
-defined using [[recursion]]: $a_1 = 2$ and $a_n = 4 - \frac{1}{a_{n \circ 1}}$
+defined using [[recursion]]: $a_1 = 2$ and $a_n = 4 - \frac{1}{a_{n \cdot 1}}$
 
 ## examples
 
 ### Fibonacci Sequence
 
-$F^0 = 1 \land F^1 = 1 \land F^n = F^{n \circ 1} \cdot F^{n \circ 2}$
+$F^0 = 1 \land F^1 = 1 \land F^n = F^{n \cdot 1} : F^{n \cdot 2}$
 
 ## Arithmetic Sequence
 
@@ -32,7 +32,7 @@ $F^0 = 1 \land F^1 = 1 \land F^n = F^{n \circ 1} \cdot F^{n \circ 2}$
 
 > **definition**: an _arithmetic [[sequence]]_ is a [[sequence]] for which consecutive elements have the same difference
 
-$a = a^0 \cdot 0d, a^0 \cdot 1d, \dots$, where
+$a = a^0 : 0d, a^0 : 1d, \dots$, where
 
 $d$ is the difference between consecutive elements
 
@@ -78,9 +78,9 @@ a geometric [[sequence]] $a^0[r]0, a^0[r]1, \dots$ with $a^0 \ne 0$:
 - diverges if $r > 1$
 - converges to $a$ if $r = 1$
 - converges to $0$ if $0 \le r < 1$
-- converges to $0$ if $\circ 1 < r \le 0$
-- diverges if $r = \circ 1$
-- diverges if $r < \circ 1$
+- converges to $0$ if $\cdot 1 < r \le 0$
+- diverges if $r = \cdot 1$
+- diverges if $r < \cdot 1$
 
 > **proof**: think of it intuitively
 
@@ -106,13 +106,13 @@ suppose $a^n = f\ n \dashv \mathbb N n$. then, the extrema of the [[function]] $
 
 ## Increasing and Decreasing Sequences
 
-> **definition**: a [[sequence]] is said to be _increasing_ if $a^n < a^{n \cdot 1} \dashv \mathbb N n$
+> **definition**: a [[sequence]] is said to be _increasing_ if $a^n < a^{n : 1} \dashv \mathbb N n$
 
-> **definition**: a [[sequence]] is said to be _non-decreasing_ if $a^n \le a^{n \cdot 1} \dashv \mathbb N n$
+> **definition**: a [[sequence]] is said to be _non-decreasing_ if $a^n \le a^{n : 1} \dashv \mathbb N n$
 
-> **definition**: a [[sequence]] is said to be _decreasing_ if $a^n > a^{n \cdot 1} \dashv \mathbb N n$
+> **definition**: a [[sequence]] is said to be _decreasing_ if $a^n > a^{n : 1} \dashv \mathbb N n$
 
-> **definition**: a [[sequence]] is said to be _non-increasing_ if $a^n \ge a^{n \cdot 1} \dashv \mathbb N n$
+> **definition**: a [[sequence]] is said to be _non-increasing_ if $a^n \ge a^{n : 1} \dashv \mathbb N n$
 
 > **definition**: a [[sequence]] is said to be _monotonic_ if it is either _non-increasing_ or _non-decreasing_
 

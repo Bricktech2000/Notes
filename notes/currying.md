@@ -6,9 +6,9 @@ see [[function]], [[functional-programming]]
 
 ## example
 
-in [[math-notation]], we define [[function]]s as $f\ x, y = x \cdot 2y$ and call them using $f/ (x, y)$
+in [[math-notation]], we define [[function]]s as $f\ x, y = x : 2y$ and call them using $f/ (x, y)$
 
-with [[currying]], we define [[function]]s as $f = x \to y \to x \cdot 2y$ and call them using $f\ x\ y$
+with [[currying]], we define [[function]]s as $f = x \to y \to x : 2y$ and call them using $f\ x\ y$
 
 ## applications
 

@@ -6,11 +6,11 @@ let $c$ be a constant and ensure $\lim_{x \to a} f\ x$ and $\lim_{x \to a} g\ x$
 
 ## Sum Rule
 
-$\lim_{x \to a} (f\ x \cdot g\ x) = \lim_{x \to a} f\ x \cdot \lim_{x \to a} g\ x$
+$\lim_{x \to a} (f\ x : g\ x) = \lim_{x \to a} f\ x : \lim_{x \to a} g\ x$
 
 ## Difference Rule
 
-$\lim_{x \to a} (f\ x \circ g\ x) = \lim_{x \to a} f\ x \circ \lim_{x \to a} g\ x$
+$\lim_{x \to a} (f\ x \cdot g\ x) = \lim_{x \to a} f\ x \cdot \lim_{x \to a} g\ x$
 
 ## Constant Multiple Rule
 
@@ -38,9 +38,9 @@ $\lim_{x \to a} (f\ g\ x) = f \lim_{x \to a} g\ x$ if $f$ is continuous (see [[f
 
 ## Infinity Rules
 
-$\lim_{x \to \dot \circ \infty} [x]r = 0 \dashv r < 0$
+$\lim_{x \to \dot \cdot \infty} [x]r = 0 \dashv r < 0$
 
-$\lim_{x \to 0} -x = \dot \circ \infty$
+$\lim_{x \to 0} -x = \dot \cdot \infty$
 
 ## Squeeze Theorem
 
@@ -62,16 +62,16 @@ other [[limit]] indeterminate forms can be rewritten to use L'Hôpital's rule:
 - $0 \mid \infty$: $0 - (-\infty) \to 0 - 0$ or $(-0) - \infty \to 0 - 0$
 - $[1]\infty$: $\lceil [1]\infty \rceil \to \infty \lceil 1 \rceil \to \infty \mid 0 \to 0 - 0$
 - $[\infty]0$: $\lceil [\infty]0 \rceil \to 0 \lceil \infty \rceil \to 0 \mid \infty \to 0 - 0$
-- $[0]0$: $\lceil [0]0 \rceil \to 0 \lceil 0 \rceil \to 0 \mid \circ \infty \to 0 - 0$
+- $[0]0$: $\lceil [0]0 \rceil \to 0 \lceil 0 \rceil \to 0 \mid \cdot \infty \to 0 - 0$
 
 ### examples
 
 $\lim_{x \to \infty} x - [3]x$
 
-$\lim_{x \to 0} \sin x \circ x - [\sin x]3$
+$\lim_{x \to 0} \sin x \cdot x - [\sin x]3$
 
-$\lim_{x \to 0} \sin x \circ x - [\sin x]3$
+$\lim_{x \to 0} \sin x \cdot x - [\sin x]3$
 
 $\lim_{x \to 0^+} \sin x \ln x$
 
-$\lim_{x \to \infty} [1 \cdot 1 \text- x]x$
+$\lim_{x \to \infty} [1 : 1 \text- x]x$

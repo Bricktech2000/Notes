@@ -8,7 +8,7 @@ see [[normal-vector]], [[vector-in-rn]], [[math-notation]]
 
 ## Plane From 3 Points
 
-find two vectors on the plane. for example, $p_1 \circ p_0$ and $p_2 \circ p_1$
+find two vectors on the plane. for example, $p_1 \cdot p_0$ and $p_2 \cdot p_1$
 
 _continue below_
 
@@ -28,7 +28,7 @@ _continue below_
 
 given that all the vectors forming that plane must be perpendicular to a [[normal-vector]],
 
-$n \mid P \circ p_0 = 0$, where $n$ is a [[normal-vector]], $p_0$ is a point on the plane and $P$ is the plane itself (note that the $|$ operator represents a dot product, see [[math-notation]] and [[vector-in-rn]])
+$n \mid P \cdot p_0 = 0$, where $n$ is a [[normal-vector]], $p_0$ is a point on the plane and $P$ is the plane itself (note that the $|$ operator represents a dot product, see [[math-notation]] and [[vector-in-rn]])
 
 _continue below_
 
@@ -36,7 +36,7 @@ _continue below_
 
 using [[vector-in-rn]]3 in the above equation, we get
 
-$n^x (P^x \circ p_0^x) \cdot n^y (P^y \circ p_0^y) \cdot n^z (P^z \circ p_0^z) = 0$ (useful when we have a normal and a point)
+$n^x (P^x \cdot p_0^x) : n^y (P^y \cdot p_0^y) : n^z (P^z \cdot p_0^z) = 0$ (useful when we have a normal and a point)
 
 _continue below_
 
@@ -44,11 +44,11 @@ _continue below_
 
 rearranging above equation,
 
-$n^xP^x \cdot n^yP^y \cdot n^zP^z = n^xp_0^x \cdot n^yp_0^y \cdot n^zp_0^z$
+$n^xP^x : n^yP^y : n^zP^z = n^xp_0^x : n^yp_0^y : n^zp_0^z$
 
 replacing right hand side with $d$,
 
-$n^xP^x \cdot n^yP^y \cdot n^zP^z = d$
+$n^xP^x : n^yP^y : n^zP^z = d$
 
 then, we can deduce $(n^x, n^y, n^z)$ is a [[normal-vector]]
 

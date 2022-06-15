@@ -22,19 +22,19 @@ see [[row-reduction]], [[math-notation]], [[matrix]]
 
 the following linear system:
 
-$x \cdot y \cdot 2z = 3$
+$x : y : 2z = 3$
 
-$x \circ y \cdot z = 2$
+$x \cdot y : z = 2$
 
-$y \circ z = 1$
+$y \cdot z = 1$
 
 can be represented by the following _augmented [[matrix]]_:
 
-$\begin{bmatrix} 1 & 1 & 2 & | & 3 \\\  1 & \circ 1 & 1 & | & 2 \\\  0 & 1 & \circ 1 & | & 1\end{bmatrix}$
+$\begin{bmatrix} 1 & 1 & 2 & | & 3 \\\  1 & \cdot 1 & 1 & | & 2 \\\  0 & 1 & \cdot 1 & | & 1\end{bmatrix}$
 
 can be represented by the following [[vector-in-rn]] equation:
 
-$x \begin{bmatrix}1 \\\  1 \\\  0\end{bmatrix} \cdot y \begin{bmatrix}1 \\\  \circ 1 \\\  1\end{bmatrix} \cdot z \begin{bmatrix}2 \\\  1 \\\  \circ 1\end{bmatrix} = \begin{bmatrix}3 \\\  2 \\\  1\end{bmatrix}$
+$x \begin{bmatrix}1 \\\  1 \\\  0\end{bmatrix} : y \begin{bmatrix}1 \\\  \cdot 1 \\\  1\end{bmatrix} : z \begin{bmatrix}2 \\\  1 \\\  \cdot 1\end{bmatrix} = \begin{bmatrix}3 \\\  2 \\\  1\end{bmatrix}$
 
 the system is _consistent_ if and only if $b$ ($\begin{bmatrix}3 \\\  2 \\\  1\end{bmatrix}$ in this case) is a [[linear-combination]] of the columns of $A$ ($A^{, j}$)
 

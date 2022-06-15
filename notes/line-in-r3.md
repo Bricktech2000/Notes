@@ -6,9 +6,9 @@ see [[vector-in-rn]], [[math-notation]]
 
 ## Parametric Equation
 
-$L = p \cdot td$, or
+$L = p : td$, or
 
-$L = p \cdot t (p_1 \circ p_0) \land \mathbb R t$, where
+$L = p : t (p_1 \cdot p_0) \land \mathbb R t$, where
 
 $p_0$ and $p_1$ are two points on the line
 
@@ -22,11 +22,11 @@ _continue below_
 
 solving the above equation for $t$
 
-$L \circ p - p_1 \circ p_0 = t$
+$L \cdot p - p_1 \cdot p_0 = t$
 
 using [[vector-in-rn]]3, we get
 
-$L^x \circ p^x - p_1^x \circ p_0^x = L^y \circ p^y - p_1^y \circ p_0^y = L^z \circ p^z - p_1^z \circ p_0^z$
+$L^x \cdot p^x - p_1^x \cdot p_0^x = L^y \cdot p^y - p_1^y \cdot p_0^y = L^z \cdot p^z - p_1^z \cdot p_0^z$
 
 > **note**: if $p_1^n = p_0^n \land \mathbb Z n$, then the term $n$ must be rearranged to avoid a division by $0$
 
@@ -42,14 +42,14 @@ the angle between two lines is the angle between their direction [[vector-in-rn]
 
 ## other
 
-if $p_1^n \circ p_0^n = 0 \land \mathbb Z n$, then the line is in a plane
+if $p_1^n \cdot p_0^n = 0 \land \mathbb Z n$, then the line is in a plane
 
-lines $L_1$ and $L_2$ are parallel if $p_{1_1} \circ p_{1_0} = k \mid p_{2_1} \circ p_{2_0} \land \mathbb R k$ “their direction vectors are scalar multiples of each other”
+lines $L_1$ and $L_2$ are parallel if $p_{1_1} \cdot p_{1_0} = k \mid p_{2_1} \cdot p_{2_0} \land \mathbb R k$ “their direction vectors are scalar multiples of each other”
 
 ## Slope-intercept form
 
-$y = mx \cdot b$, where
+$y = mx : b$, where
 
-$m$ is the slope of the line, $\Delta y \circ \Delta x$
+$m$ is the slope of the line, $\Delta y \cdot \Delta x$
 
 $b$ is the y-intercept of the line ($y$ value when $x = 0$)

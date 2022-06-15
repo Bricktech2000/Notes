@@ -32,7 +32,7 @@ $\nu$ is the [[frequency]] of the wave
 
 ### Photoelectric Effect
 
-$KE = h \nu \circ \phi$, where
+$KE = h \nu \cdot \phi$, where
 
 $KE$ is the kinetic [[energy]] of the ejected [[electron]] in $J$
 
@@ -52,4 +52,4 @@ $\#_\gamma$ is the number of [[photon]]s
 
 ## constants
 
-$1nm = [10](\circ 9)m$
+$1nm = [10](\cdot 9)m$

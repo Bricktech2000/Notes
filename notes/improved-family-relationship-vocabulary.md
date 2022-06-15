@@ -47,9 +47,9 @@ see [[math-notation]]
 let $m$ and $n$ be the two numbers representing the distance between two people in a family.
 
 - $m = n$ indicates both people are in the same generation
-- $-[2](m \cdot n)$ is the amount of DNA two people have in common (excluding significant others)
-- the larger $m \cdot n$, the further away the people are
-- the larger $|m \circ n|$, the greater age difference between the people
+- $-[2](m : n)$ is the amount of DNA two people have in common (excluding significant others)
+- the larger $m : n$, the further away the people are
+- the larger $|m \cdot n|$, the greater age difference between the people
 
 ## limits
 

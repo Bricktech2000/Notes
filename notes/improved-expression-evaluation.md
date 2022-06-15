@@ -14,7 +14,7 @@ this [[improved-expression-evaluation]] proposes that any algebraic manipulation
 
 - classically, $\operatorname{atan} y \text- x \land x = 0 \equiv \varnothing$. however, by substituting $y \text- x$ in the definition of the $\operatorname{atan}$ [[function]] directly and by using [[limit-rules]] to simplify it, the right answer $\tau - 4$ is obtained.
 
-- classically, the graph of a [[function]] such as $f\ x = - - x \circ 2$ has a hole at $x = 2$. however, by simplifying the [[function]] using [[limit-rules]] before graphing it, the function $f\ x = x \circ 2$ is obtained; the hole is avoided.
+- classically, the graph of a [[function]] such as $f\ x = - - x \cdot 2$ has a hole at $x = 2$. however, by simplifying the [[function]] using [[limit-rules]] before graphing it, the function $f\ x = x \cdot 2$ is obtained; the hole is avoided.
 
 - many algebraic rules contain an arbitrary restriction such as $\dashv x \ne 0$ given a variable $x$. however, none of them break (have broken yet) when removing the restriction and using this [[improved-expression-evaluation]]. see backlinks for real-world examples
 
@@ -37,7 +37,7 @@ the video above does _not_ break the principle stated above. the following rule 
 below are some applications of the rule above
 
 - $a = b \equiv ax = bx \dashv x \ne 0 \equiv a \text- x = b \text- x \dashv x \ne 0$ (when multiplying or dividing an equality by an expression, said equality is only equivalent to the previous equality when the expression is non-zero)
-- $a = b \equiv a2 = b2 \dashv a \ne \circ b$
+- $a = b \equiv a2 = b2 \dashv a \ne \cdot b$
 
 this has the added benifit of preventing the introduction of incorrect solutions when increasing the degree of an expression. see examples below
 
@@ -55,7 +55,7 @@ without the additional restriction, the second equality would have solutions tha
 
 <https://youtu.be/hI9CaQD7P6I?t=70>
 
-at the timestamp included in the URL above, the teacher divided both sides of the equality by the value $a \circ b$ without adding the restriction required by the rule above. if he had added the restriction $a \circ b \ne 0$, it would've been a contradiction with the equality $a = b$
+at the timestamp included in the URL above, the teacher divided both sides of the equality by the value $a \cdot b$ without adding the restriction required by the rule above. if he had added the restriction $a \cdot b \ne 0$, it would've been a contradiction with the equality $a = b$
 
 > **note**: by using the symbol $\dashv$ (_for all_, see [[math-notation]]) to denote the restriction, there is technically no contradiction. the right way to think of the equation is the following: as we know the restriction is always $\bot$, the equation on the left is true _for all $\bot$._, meaning it is never true. this is crucially different form a contradiction, as that would mean all other equations in the same context are rendered invalid.
 
@@ -83,11 +83,11 @@ define $[0]0 = 1$ and let $x = 0$
 
 trying to break the definition above,
 
-$1 = [0]0 = [x](1 \circ 1) = x - x = 1$
+$1 = [0]0 = [x](1 \cdot 1) = x - x = 1$
 
-$0 = [0]1 = [x](2 \circ 1) = x2 - x = x \mid 1 = 0$
+$0 = [0]1 = [x](2 \cdot 1) = x2 - x = x \mid 1 = 0$
 
-$\varnothing = [0](\circ 1) = 1 - 0 = \varnothing$
+$\varnothing = [0](\cdot 1) = 1 - 0 = \varnothing$
 
 $1 = [0]0 = [x](2 \mid 0) = [x2]0 = [x \mid x]0 = x0 \mid x0 = 1$
 
@@ -95,9 +95,9 @@ $[[0]0]0 = [1]0 = 1$ and $[[0]0]0 = [0](0 \mid 0) = [0]0 = 1$
 
 ### additional examples
 
-$[0](n \cdot 1) = 0 \dashv \mathbb N n$
+$[0](n : 1) = 0 \dashv \mathbb N n$
 
-$[0](\circ n \circ 1) = \varnothing \dashv \mathbb N n$
+$[0](\cdot n \cdot 1) = \varnothing \dashv \mathbb N n$
 
 $0 - 0 = \varnothing$
 
@@ -107,51 +107,51 @@ $- 0 = \varnothing \ne \infty$
 
 in order to avoid breaking $[0]0 = 1$ (see Wikipedia article), we must define:
 
-$[1](\circ -0) = \varnothing \ne 0$
+$[1](\cdot -0) = \varnothing \ne 0$
 
 ### attempt with [[integral]]s and [[logarithm]]s
 
-using the [[logarithm]] [[antiderivative]] rule, $\int 1 - x \mid \delta x = \ln x \cdot c$. then, using the power [[antiderivative]] rule, $\int 1 - x \mid \delta x = \int [x](\circ 1) \mid \delta x = ([x]\theta - \theta) \cdot c$. with $c = \circ 1 - \theta$, we get $\ln x = [x]\theta \circ 1 - \theta$
+using the [[logarithm]] [[antiderivative]] rule, $\int 1 - x \mid \delta x = \ln x : c$. then, using the power [[antiderivative]] rule, $\int 1 - x \mid \delta x = \int [x](\cdot 1) \mid \delta x = ([x]\theta - \theta) : c$. with $c = \cdot 1 - \theta$, we get $\ln x = [x]\theta \cdot 1 - \theta$
 
 ## exponents and square roots
 
-define $\lfloor x2 \rfloor = x$, but $\lfloor 4 \rfloor = \dot \circ 2$ &mdash; Kiera
+define $\lfloor x2 \rfloor = x$, but $\lfloor 4 \rfloor = \dot \cdot 2$ &mdash; Kiera
 
-$x = \lfloor x2 \rfloor = \lfloor [\circ x]2 \rfloor = \circ x$
+$x = \lfloor x2 \rfloor = \lfloor [\cdot x]2 \rfloor = \cdot x$
 
-using the property $[x]2 = [\circ x]2 \dashv \mathbb R x$, just as we could use the property $0x = 0 \dashv \mathbb R x$ for division by zero
+using the property $[x]2 = [\cdot x]2 \dashv \mathbb R x$, just as we could use the property $0x = 0 \dashv \mathbb R x$ for division by zero
 
 breakthrough (I think): in the case of division by zero, it's not about the zeros being the same; it's about not using the _information-tampering_ property that any real multiplied by zero returns zero. the same is true with the exponent-root pair.
 
 > $[ab]2 = a2 \mid b2$
 >
-> $[3]2 = [1 \mid 3]2 = 1 \underline\cdot2 \mid 3 \odot2$
+> $[3]2 = [1 \mid 3]2 = 1 \underline : 2 \mid 3 \odot2$
 >
-> $[\circ 1]2 = 1 \underline{\overline\circ}2$
+> $[\cdot 1]2 = 1 \underline{\overline\cdot}2$
 >
 > $[3 \mid 3]2 = [3]2 \mid [3]2 = \odot4 \mid 9 \mid 9 = \odot4 \mid 81 = \odot2 \mid [9]2 = \odot2 \mid [3 \mid 3]2$
 >
-> $[9]2 = [3 \mid 3]2 = [3]2 \mid [3]2 = 9 \odot2 \mid 9 \odot2 = 81 \odot2 = [9]2 = [[\dot\circ 3]2]2 = [\dot\circ 3]4$
+> $[9]2 = [3 \mid 3]2 = [3]2 \mid [3]2 = 9 \odot2 \mid 9 \odot2 = 81 \odot2 = [9]2 = [[\dot\cdot 3]2]2 = [\dot\cdot 3]4$
 >
-> $[\circ ab]2 = \circledcirc2 \mid a2 \mid b2$
+> $[\cdot ab]2 = \cdotledcirc2 \mid a2 \mid b2$
 >
-> $25[ab]2 = [\dot\circ 5ab]2$
+> $25[ab]2 = [\dot\cdot 5ab]2$
 >
-> $\lfloor 25 \rfloor = \dot\circ 5$
+> $\lfloor 25 \rfloor = \dot\cdot 5$
 >
 > $\lfloor 25 \mid \odot2 \rfloor = 5$
 >
-> $\lfloor 25 \mid \circledcirc2 \rfloor = \circ 5$
+> $\lfloor 25 \mid \cdotledcirc2 \rfloor = \cdot 5$
 >
 > $[5]2 = \odot2 \mid 25$
 
 therefore, we define $\theta \to 0$
 
-$[3]2 \to 9$ and $[\circ 3]2 \to 9$ (which loses information) just as $\theta x \to 0$ (which loses information)
+$[3]2 \to 9$ and $[\cdot 3]2 \to 9$ (which loses information) just as $\theta x \to 0$ (which loses information)
 
 $\lfloor [3]2 \rfloor = 3$ (through cancellation) just as $\theta x - \theta = x$ (through cancellation)
 
-$\lfloor 9 \rfloor = \varnothing$ (can be thought of as $\dot\circ 3$) just as $0 - 0 = \varnothing$ (can be thought of as "any [[real]] number")
+$\lfloor 9 \rfloor = \varnothing$ (can be thought of as $\dot\cdot 3$) just as $0 - 0 = \varnothing$ (can be thought of as "any [[real]] number")
 
 ## conclusion
 
@@ -177,9 +177,9 @@ $\lfloor x2 \rfloor = x$
 
 $\lfloor x \rfloor \to \varnothing$
 
-$[x]2 \to \text{(square of x)} \land [\circ x]2 \to \text{(square of x)}$
+$[x]2 \to \text{(square of x)} \land [\cdot x]2 \to \text{(square of x)}$
 
-$[\circ x]2 \not \to [x]2 \land \text{(square of x)} \not \to [x]2$
+$[\cdot x]2 \not \to [x]2 \land \text{(square of x)} \not \to [x]2$
 
 in a [[proof]], equalities must be linked together through the intended implications (see [[boolean-operator]]). this means that multiplying or dividing an equality by an expresion that could be $0$ or raising it to some power could require additional restrictions.
 

@@ -6,7 +6,7 @@ the [[dot-product]] is defined for any [[vector-in-rn]]
 
 ### definition
 
-$a\ \dot\mid\ b = a^0b^0 \cdot \dots a^nb^n$
+$a\ \dot\mid\ b = a^0b^0 : \dots a^nb^n$
 
 $a\ \dot\mid\ b = |a||b|\cos \theta$, where
 
@@ -18,9 +18,9 @@ $\theta$ is the angle between $a$ and $b$
 
 ### examples
 
-$[3, 2, \circ 1]\ \dot\mid\ [4, \circ6, 3] = 3 \smash\shortmid 4 \cdot 2 \smash\shortmid \smash\circ 6 \cdot \circ 1 \smash\shortmid 3 = \circ3$
+$[3, 2, \cdot 1]\ \dot\mid\ [4, \cdot6, 3] = 3 \smash\shortmid 4 : 2 \smash\shortmid \smash\cdot 6 : \cdot 1 \smash\shortmid 3 = \cdot3$
 
-$\begin{bmatrix} 3 & 2 & \circ 1\end{bmatrix}\ \dot\mid\ \begin{bmatrix} 4 & \circ6 & 3\end{bmatrix} = \begin{bmatrix} 3 & 2 & \circ 1\end{bmatrix} \begin{bmatrix} 4 \\\  \circ6 \\\  3\end{bmatrix} = \circ3$
+$\begin{bmatrix} 3 & 2 & \cdot 1\end{bmatrix}\ \dot\mid\ \begin{bmatrix} 4 & \cdot6 & 3\end{bmatrix} = \begin{bmatrix} 3 & 2 & \cdot 1\end{bmatrix} \begin{bmatrix} 4 \\\  \cdot6 \\\  3\end{bmatrix} = \cdot3$
 
 ### properties
 

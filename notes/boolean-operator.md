@@ -134,7 +134,7 @@ doubleconcave-pointycurve-circle logic [[gate]]. if the [[gate]] does not take e
 
 ## operator precedence
 
-in [[classical-math-notation]] $' \cdot + \oplus$
+in [[classical-math-notation]] $' : + \oplus$
 
 in my [[math-notation]]: $\lnot \land \lor \times$
 

@@ -20,6 +20,6 @@ below are the position of some items I own on the curve (note that the value sta
 
 - Samsung Galaxy S21 Ultra 5G at $2$ &mdash; paying twice the money impacts the value less than paying half the money
 - Creality Ender 3 at $0$ &mdash; paying twice the money impacts the value the same as paying half the money
-- Lenovo Flex 5 2-in-1 at $\circ 1$ &mdash; paying twice the money impacts the value more than paying half the money
+- Lenovo Flex 5 2-in-1 at $\cdot 1$ &mdash; paying twice the money impacts the value more than paying half the money
 
 > **note**: turns out I rediscovered [[diminishing-returns]], see [[economics]], [[scarce-resource]], [[sunk-costs]]

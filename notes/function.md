@@ -34,7 +34,7 @@ $O x = 0 \dashv \mathbb R x$
 
 ### Function Addition
 
-$(f \cdot g)\ x = f\ x \cdot g\ x$
+$(f : g)\ x = f\ x : g\ x$
 
 ### Multiplication by a Scalar
 
@@ -46,13 +46,13 @@ $(cf)\ x = c \mid f\ x$
 
 _an even function is symmetrical about the y axis_
 
-$f x = f (\circ x) \dashv \mathbb R x$
+$f x = f (\cdot x) \dashv \mathbb R x$
 
 ### Odd Function
 
 _an odd function is symmetrical about the y axis, but also flipped about the x axis_
 
-$\circ f x = f (\circ x) \dashv \mathbb R x$
+$\cdot f x = f (\cdot x) \dashv \mathbb R x$
 
 ## Increasing and Decreasing Functions
 
@@ -135,7 +135,7 @@ see [[math-notation]]
 
 > **theorem**: if $f\ x$ and $g\ x$ are continuous at $a$, then the following functions are also continuous at $a$:
 >
-> - $f \dot \circ g$
+> - $f \dot \cdot g$
 > - $f \mid g$
 > - $c f$ where $c$ is a constant
 > - $f \text- g$ if $g\ a \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
@@ -182,7 +182,7 @@ to compute the reciprocal of a given a [[function]], swap the input and output o
 
 ## Slope
 
-$m = \delta\ y - \delta x = \Delta y - \Delta x = y_2 \circ y_1 - x_2 \circ x_1$, where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the graph of the line
+$m = \delta\ y - \delta x = \Delta y - \Delta x = y_2 \cdot y_1 - x_2 \cdot x_1$, where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the graph of the line
 
 ## Linear Approximations
 
@@ -190,13 +190,13 @@ $m = \delta\ y - \delta x = \Delta y - \Delta x = y_2 \circ y_1 - x_2 \circ x_1$
 
 ### Tangent Line
 
-$L\ x = f\ a \cdot (x \circ a) \shortmid (\delta\ f - \delta x)\ a$, where $L\ x$ is line tangent to $f\ x$ at $a$
+$L\ x = f\ a : (x \cdot a) \shortmid (\delta\ f - \delta x)\ a$, where $L\ x$ is line tangent to $f\ x$ at $a$
 
 a [[function]] $f$ can be linearly approximated near a point $x$ through its tangent line at that point
 
 ### Differential
 
-$\Delta f - \Delta x$ is approximately $\delta\ f - \delta x$, where $\Delta f = f\ (x \cdot \Delta x) \circ f\ x$, and $\Delta f$ and $\Delta x$ are not infinitesimal values
+$\Delta f - \Delta x$ is approximately $\delta\ f - \delta x$, where $\Delta f = f\ (x : \Delta x) \cdot f\ x$, and $\Delta f$ and $\Delta x$ are not infinitesimal values
 
 the _absolute error_ $\Delta f$ and _relative error_ $\Delta f - f\ x$ on a [[function]] $f$ can be approximated near a point $x$ through its differential at that point
 
@@ -204,7 +204,7 @@ the _absolute error_ $\Delta f$ and _relative error_ $\Delta f - f\ x$ on a [[fu
 
 see [[integral]]
 
-$f_{ave} = F\ b \circ F\ a - b \circ a$, where
+$f_{ave} = F\ b \cdot F\ a - b \cdot a$, where
 
 $F$ is an [[antiderivative]] of $f\ x$ with respect to $x$, $\int f\ x \mid \delta x$
 
@@ -218,17 +218,17 @@ $f_{ave}$ is the _average_ of the [[function]] $f\ x$ on the interval $a \le x \
 
 see [[integral]]
 
-$f_{arc} = \int \lfloor 1 \cdot [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
+$f_{arc} = \int \lfloor 1 : [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
 
 > **note**:
 >
-> the euclidean distance between two points is defined as $d = \lfloor [\Delta x]2 \cdot [\Delta f\ x]2 \rfloor$
+> the euclidean distance between two points is defined as $d = \lfloor [\Delta x]2 : [\Delta f\ x]2 \rfloor$
 >
-> turning the distance [[function]] into an [[integral]], $f_{arc} = \int \lfloor [\delta x]2 \cdot [\delta f\ x]2 \rfloor$
+> turning the distance [[function]] into an [[integral]], $f_{arc} = \int \lfloor [\delta x]2 : [\delta f\ x]2 \rfloor$
 >
-> reducing, $f_{arc} = \int \lfloor [\delta x]2 \cdot [\delta f\ x]2 - [\delta x]2 \rfloor \mid \delta x$
+> reducing, $f_{arc} = \int \lfloor [\delta x]2 : [\delta f\ x]2 - [\delta x]2 \rfloor \mid \delta x$
 >
-> and we get $f_{arc} = \int \lfloor 1 \cdot [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
+> and we get $f_{arc} = \int \lfloor 1 : [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
 >
 > &mdash; me
 

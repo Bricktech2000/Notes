@@ -70,7 +70,7 @@ both an acid and a base, therefore
 
 $H_2O_{(l)} \Leftrightarrow H^+_{(aq)} + OH^-_{(aq)}$
 
-$[H^+] = [OH^-] = 1 \times 10^{-7} \frac{mol}{L}$ in water at $25^\circ C$ (see [[equilibrium]])
+$[H^+] = [OH^-] = 1 \times 10^{-7} \frac{mol}{L}$ in water at $25^\cdot C$ (see [[equilibrium]])
 
 ### relationship between $pH$ and $pOH$
 

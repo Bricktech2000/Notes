@@ -4,7 +4,7 @@ see [[derivative]] notation, [[math-notation]]
 
 ## Power Rule
 
-$\delta\ [x]n - \delta x= n[x](n \circ 1)$
+$\delta\ [x]n - \delta x= n[x](n \cdot 1)$
 
 ### derived shortcuts
 
@@ -62,23 +62,23 @@ $\delta\ (cf\ x) - \delta x = c (\delta f\ x - \delta x)$
 
 ## Sum Rule
 
-$\delta\ (f\ x \cdot g\ x) - \delta x = \delta\ f\ x \text- \delta x \cdot \delta\ g\ x \text- \delta x$
+$\delta\ (f\ x : g\ x) - \delta x = \delta\ f\ x \text- \delta x : \delta\ g\ x \text- \delta x$
 
 ## Difference Rule
 
-$\delta\ (f\ x \circ g\ x) - \delta x = \delta\ f\ x \text- \delta x \circ \delta\ g\ x \text- \delta x$
+$\delta\ (f\ x \cdot g\ x) - \delta x = \delta\ f\ x \text- \delta x \cdot \delta\ g\ x \text- \delta x$
 
-> **proof**: derive from the sum rule, $f\ x \circ g\ x = f\ x \cdot (\circ 1 \mid g\ x)$
+> **proof**: derive from the sum rule, $f\ x \cdot g\ x = f\ x : (\cdot 1 \mid g\ x)$
 
 ## Product Rule
 
-$\delta\ (f\ x \mid g\ x) - \delta x = (f\ x \mid \delta\ g\ x - \delta x) \cdot (g\ x \mid \delta\ f\ x - \delta x)$
+$\delta\ (f\ x \mid g\ x) - \delta x = (f\ x \mid \delta\ g\ x - \delta x) : (g\ x \mid \delta\ f\ x - \delta x)$
 
 ## Quotient Rule
 
-$\delta\ (f\ x - g\ x) - \delta x = (g\ x \mid \delta\ f\ x - \delta x) \circ (f\ x \mid \delta\ g\ x - \delta x) - [g\ x]2$
+$\delta\ (f\ x - g\ x) - \delta x = (g\ x \mid \delta\ f\ x - \delta x) \cdot (f\ x \mid \delta\ g\ x - \delta x) - [g\ x]2$
 
-> **proof**: derive from the product and power rules, $f\ x - g\ x = f\ x \mid [g\ x](\circ 1)$
+> **proof**: derive from the product and power rules, $f\ x - g\ x = f\ x \mid [g\ x](\cdot 1)$
 
 ### [[mnemonic]]
 
@@ -86,9 +86,9 @@ $\delta\ (f\ x - g\ x) - \delta x = (g\ x \mid \delta\ f\ x - \delta x) \circ (f
 
 ### derived Reciprocal Rule
 
-$\delta\ (-f\ x) - \delta x = \circ \delta\ f\ x - \delta x - [f\ x]2$
+$\delta\ (-f\ x) - \delta x = \cdot \delta\ f\ x - \delta x - [f\ x]2$
 
-> **proof**: derive from the power rule, $-f\ x = [f\ x](\circ 1)$
+> **proof**: derive from the power rule, $-f\ x = [f\ x](\cdot 1)$
 
 ## Chain Rule
 
@@ -102,18 +102,18 @@ see [[trigonometric-function]]s
 
 $\delta\ \sin x - \delta x = \cos x$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21115>
 
-$\delta\ \cos x - \delta x = \circ \sin x$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21193>
+$\delta\ \cos x - \delta x = \cdot \sin x$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21193>
 
 $\delta\ \tan x - \delta x = [\text-\cos x]2$
 
-$\delta\ \text-\sin x - \delta x = \circ \mid \text-\sin x \mid \text-\tan x$
+$\delta\ \text-\sin x - \delta x = \cdot \mid \text-\sin x \mid \text-\tan x$
 
 $\delta\ \text-\cos x - \delta x = \text-\cos\ x \mid \tan x$
 
-$\delta\ \text-\tan x - \delta x = \circ [\text-\sin x]2$
+$\delta\ \text-\tan x - \delta x = \cdot [\text-\sin x]2$
 
-$\delta\ \operatorname{asin} x - \delta x = -\lfloor 1 \circ x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29016>
+$\delta\ \operatorname{asin} x - \delta x = -\lfloor 1 \cdot x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29016>
 
-$\delta\ \operatorname{acos} x - \delta x = \circ -\lfloor 1 \circ x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29111>
+$\delta\ \operatorname{acos} x - \delta x = \cdot -\lfloor 1 \cdot x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29111>
 
-$\delta\ \operatorname{atan} x - \delta x = -\lfloor 1 \cdot x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29233>
+$\delta\ \operatorname{atan} x - \delta x = -\lfloor 1 : x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29233>

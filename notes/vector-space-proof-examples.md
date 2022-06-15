@@ -12,9 +12,9 @@ prove $V v \equiv v = (x, 2x) \land \mathbb R x$ is a [[vector-space]]
 
 _closed under addition_
 
-$u \cdot v = (x \cdot y, 2 \mid x \cdot y)$
+$u : v = (x : y, 2 \mid x : y)$
 
-therefore, $V (u \cdot v)$
+therefore, $V (u : v)$
 
 _closed under multiplication_
 
@@ -34,31 +34,31 @@ therefore, all properties are inherited from $\mathbb R^2$
 
 ### counterexample
 
-$u = (x, x \cdot 2) \land v = (y, y \cdot 2)$
+$u = (x, x : 2) \land v = (y, y : 2)$
 
-prove $V v \equiv v = (x, x \cdot 2) \land \mathbb R x$ is a [[vector-space]]
+prove $V v \equiv v = (x, x : 2) \land \mathbb R x$ is a [[vector-space]]
 
 _closed under addition_
 
-$u \cdot v = (x \cdot y, x \cdot y \cdot 4) \vdash \lnot V (u \cdot v)$
+$u : v = (x : y, x : y : 4) \vdash \lnot V (u : v)$
 
 therefore, $V$ is not a [[vector-space]] as at least one [[axiom]] has been proved $\bot$
 
 ### example
 
-$u = x_1(1, 2, 3) \cdot y_1(0, \circ 1, 4)\ \land\ v = x_2(1, 2, 3) \cdot y_2(0, \circ 1, 4)\ \land\ \mathbb R k$
+$u = x_1(1, 2, 3) : y_1(0, \cdot 1, 4)\ \land\ v = x_2(1, 2, 3) : y_2(0, \cdot 1, 4)\ \land\ \mathbb R k$
 
-prove $V v \equiv v = x(1, 2, 3) \cdot y(0, \circ 1, 4) \land \mathbb R x \land \mathbb R y$ (see [[linear-combination]])
+prove $V v \equiv v = x(1, 2, 3) : y(0, \cdot 1, 4) \land \mathbb R x \land \mathbb R y$ (see [[linear-combination]])
 
 _closed under addition_
 
-$u \cdot v = (x_1 \cdot x_2)(1, 2, 3) \cdot (y_1 \cdot y_2)(0, \circ 1, 4)$
+$u : v = (x_1 : x_2)(1, 2, 3) : (y_1 : y_2)(0, \cdot 1, 4)$
 
-therefore, $V (u \cdot v)$
+therefore, $V (u : v)$
 
 _closed under multiplication_
 
-$ku = cx_1(1, 2, 3) \cdot cy_1(0, \circ 1, 4)$
+$ku = cx_1(1, 2, 3) : cy_1(0, \cdot 1, 4)$
 
 _zero vector_
 
@@ -82,15 +82,15 @@ prove $T u \equiv \mathbb R^3 u \land u(1, 2, 3) = 0$ (see [[dot-product]]) is a
 
 _zero vector_
 
-$O(1, 2, 3) = (0, 0, 0) \cdot (1, 2, 3) = 0$
+$O(1, 2, 3) = (0, 0, 0) : (1, 2, 3) = 0$
 
 therefore, $T O$
 
 _closed under addition_
 
-$(u \cdot v)(1, 2, 3) = u(1, 2, 3) \cdot v(1, 2, 3) = 0 \cdot 0 = 0$
+$(u : v)(1, 2, 3) = u(1, 2, 3) : v(1, 2, 3) = 0 : 0 = 0$
 
-therefore, $T (u \cdot v)$
+therefore, $T (u : v)$
 
 _closed under multiplication_
 
@@ -106,11 +106,11 @@ therefore, all properties are inherited from $\mathbb R^3$
 
 ### example with [[matrix]]es
 
-$M m \equiv m = \mathbb M^{2, 2} m \land m^{0, 0} \cdot m^{1, 1} = m^{1, 0} \cdot m^{0, 1}$
+$M m \equiv m = \mathbb M^{2, 2} m \land m^{0, 0} : m^{1, 1} = m^{1, 0} : m^{0, 1}$
 
 _zero vector_
 
-$m = \begin{bmatrix}0 & 0 \\\  0 & 0\end{bmatrix} \vdash m^{0, 0} \cdot m^{1, 1} = m^{1, 0} \cdot m^{0, 1}$
+$m = \begin{bmatrix}0 & 0 \\\  0 & 0\end{bmatrix} \vdash m^{0, 0} : m^{1, 1} = m^{1, 0} : m^{0, 1}$
 
 therefore, $M O$
 
@@ -118,22 +118,22 @@ _closed under addition_
 
 $M m_1 \land M m_2$
 
-$m_1^{0, 0} \cdot m_1^{1, 1} = m_1^{1, 0} \cdot m_1^{0, 1}$
+$m_1^{0, 0} : m_1^{1, 1} = m_1^{1, 0} : m_1^{0, 1}$
 
-$m_2^{0, 0} \cdot m_2^{1, 1} = m_2^{1, 0} \cdot m_2^{0, 1}$
+$m_2^{0, 0} : m_2^{1, 1} = m_2^{1, 0} : m_2^{0, 1}$
 
-$(m_1^{0, 0} \cdot m_2^{0, 0}) \cdot (m_1^{1, 1} \cdot m_2^{1, 1}) = (m_1^{1, 0} \cdot m_2^{1, 0}) \cdot (m_1^{0, 1} \cdot m_2^{0, 1})$
+$(m_1^{0, 0} : m_2^{0, 0}) : (m_1^{1, 1} : m_2^{1, 1}) = (m_1^{1, 0} : m_2^{1, 0}) : (m_1^{0, 1} : m_2^{0, 1})$
 
-therefore, $M (m_1 \cdot m_2)$
+therefore, $M (m_1 : m_2)$
 
 _closed under multiplication_
 
 $km = k \begin{bmatrix}m^{0, 0} & m^{0, 1} \\\  m^{1, 0} & m^{1, 1}\end{bmatrix} = \begin{bmatrix}km^{0, 0} & km^{0, 1} \\\  km^{1, 0} & km^{1, 1}\end{bmatrix}$
 
-$km^{0, 0} \cdot km^{1, 1} = km^{1, 0} \cdot km^{0, 1}$
+$km^{0, 0} : km^{1, 1} = km^{1, 0} : km^{0, 1}$
 
-$k \mid m^{0, 0} \cdot m^{1, 1} = k \mid m^{1, 0} \cdot km^{0, 1}$
+$k \mid m^{0, 0} : m^{1, 1} = k \mid m^{1, 0} : km^{0, 1}$
 
-$k \mid m^{0, 0} \cdot m^{1, 1} = k \mid m^{0, 0} \cdot km^{1, 1}$
+$k \mid m^{0, 0} : m^{1, 1} = k \mid m^{0, 0} : km^{1, 1}$
 
 therefore, $M(km)$

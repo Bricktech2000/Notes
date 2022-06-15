@@ -24,7 +24,7 @@ $\frac{d^n}{dx^n} = \frac{d^nf}{dx^n}$
 
 see [[calculus-notation]]
 
-$d\ n, f = d\ (n \circ 1), (\delta\ f\ x - \delta x) \land d\ 0, f = f$
+$d\ n, f = d\ (n \cdot 1), (\delta\ f\ x - \delta x) \land d\ 0, f = f$
 
 $d\ n, f$ would then be the $n$ th [[derivative]] of $f$
 
@@ -32,7 +32,7 @@ $d\ n, f$ would then be the $n$ th [[derivative]] of $f$
 
 [[classical-math-notation]]: $\frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$
 
-my [[math-notation]]: $\delta\ f\ x - \delta x = \lim_{h \to 0} f\ (x \cdot h) \circ f\ x - h = \lim_{x \to a} f\ x \circ f\ a - x \circ a$
+my [[math-notation]]: $\delta\ f\ x - \delta x = \lim_{h \to 0} f\ (x : h) \cdot f\ x - h = \lim_{x \to a} f\ x \cdot f\ a - x \cdot a$
 
 # Differentiation
 
@@ -64,9 +64,9 @@ $\lceil y \rceil = \lceil [x][e]x \rceil = \lceil x \rceil \smash\shortmid [e]x$
 
 $\delta\ \lceil y \rceil - \delta x = \delta\ [e]x \smash\shortmid \lceil x \rceil - \delta x$
 
-$-y \mid \delta\ y - \delta x = ([e]x - x) \cdot \lceil x \rceil \smash\shortmid [e]x$
+$-y \mid \delta\ y - \delta x = ([e]x - x) : \lceil x \rceil \smash\shortmid [e]x$
 
-$\delta\ y - \delta x = [x][e]x \mid ([e]x - x) \cdot \lceil x \rceil \smash\shortmid [e]x$
+$\delta\ y - \delta x = [x][e]x \mid ([e]x - x) : \lceil x \rceil \smash\shortmid [e]x$
 
 the alternative would be the following, by transforming and using the chain rule, see [[derivative-rules]]
 
@@ -78,7 +78,7 @@ $\delta\ y - \delta x = \delta\ [e](\lceil x \rceil \smash\shortmid [e]x) - \del
 
 $\delta\ y - \delta x = [e](\lceil x \rceil \smash\shortmid [e]x) \mid \delta\ \lceil x \rceil \smash\shortmid [e]x - \delta x$
 
-$\delta\ y - \delta x = [x][e]x \mid ([e]x - x) \cdot \lceil x \rceil \smash\shortmid [e]x$
+$\delta\ y - \delta x = [x][e]x \mid ([e]x - x) : \lceil x \rceil \smash\shortmid [e]x$
 
 #### example with $[x]x$
 
@@ -88,9 +88,9 @@ $\lceil y \rceil = x \lceil x \rceil$
 
 $\delta\ \lceil y \rceil - \delta x = \delta\ x \lceil x \rceil - \delta x$
 
-$-y \mid \delta y - \delta x = 1 \cdot \lceil x \rceil$
+$-y \mid \delta y - \delta x = 1 : \lceil x \rceil$
 
-$\delta y - \delta x = y \mid 1 \cdot \lceil x \rceil = [x]x \mid 1 \cdot \lceil x \rceil$
+$\delta y - \delta x = y \mid 1 : \lceil x \rceil = [x]x \mid 1 : \lceil x \rceil$
 
 ## Implicit Differentiation
 
@@ -98,25 +98,25 @@ $\delta y - \delta x = y \mid 1 \cdot \lceil x \rceil = [x]x \mid 1 \cdot \lceil
 
 ### example
 
-$x2 \cdot y2 = 2$
+$x2 : y2 = 2$
 
-$\delta\ (x2 \cdot y2) - \delta x = \delta 2 - \delta x$
+$\delta\ (x2 : y2) - \delta x = \delta 2 - \delta x$
 
-$2x \cdot 2y(\delta y - \delta x) = 0$
+$2x : 2y(\delta y - \delta x) = 0$
 
-$\delta y - \delta x = \circ x - y$
+$\delta y - \delta x = \cdot x - y$
 
 or alternatively,
 
-$x2 \cdot y2 = 2$
+$x2 : y2 = 2$
 
-$\delta x2 \cdot \delta y2 = \delta 2$
+$\delta x2 : \delta y2 = \delta 2$
 
-$2x \delta x \cdot 2y \delta y = 0$
+$2x \delta x : 2y \delta y = 0$
 
-$\delta y - \delta x = \circ x - y$
+$\delta y - \delta x = \cdot x - y$
 
-> **note**: as both $x$ and $y$ are present in the equation, the [[derivative]] at $\circ y$ will be different from the one at $\cdot y$
+> **note**: as both $x$ and $y$ are present in the equation, the [[derivative]] at $\cdot y$ will be different from the one at $y$
 
 ## Partial Differentiation
 

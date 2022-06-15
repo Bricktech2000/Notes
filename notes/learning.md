@@ -46,4 +46,4 @@
 
 [[calculus]]
 
-[[sequence]]
+[[sequence]] [[series]]

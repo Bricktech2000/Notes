@@ -18,7 +18,7 @@
 >
 > - $3 \to 4$
 >
->   $Ax = O$ has a unique solution $\to$ $x = O$ $\to$ $A^{,j}x^j \cdot \dots A^{,j}x^j = O$ has a unique solution (all coefficients are $0$) $\to$ the columns of $A$ are [[linearly-independent]]
+>   $Ax = O$ has a unique solution $\to$ $x = O$ $\to$ $A^{,j}x^j : \dots A^{,j}x^j = O$ has a unique solution (all coefficients are $0$) $\to$ the columns of $A$ are [[linearly-independent]]
 >
 > - $4 \to 5$
 >
@@ -30,7 +30,7 @@
 >
 > - $6 \to 7$
 >
->   $\dim Null\ A \cdot rank\ A = \text{number of columns in } A$ (see [[matrix]]) $\to$ as $\dim Null\ A = 0$, $rank\ A = \text{number of columns in } A = n$
+>   $\dim Null\ A : rank\ A = \text{number of columns in } A$ (see [[matrix]]) $\to$ as $\dim Null\ A = 0$, $rank\ A = \text{number of columns in } A = n$
 >
 > - $7 \to 1$
 >

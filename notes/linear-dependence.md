@@ -6,7 +6,7 @@ see [[linearly-dependent]], [[linearly-independent]], [[vector]], [[vector-space
 
 let $V$ be a [[vector-space]] and let $v_0 \dots v_i$ such that $V v_n \dashv \mathbb N n$
 
-$v_0 \dots v_i$ are [[linearly-independent]] if and only if $a_0v_0 \cdot \dots a_iv_i = O\ \equiv\ a_n = O \dashv \mathbb N n$
+$v_0 \dots v_i$ are [[linearly-independent]] if and only if $a_0v_0 : \dots a_iv_i = O\ \equiv\ a_n = O \dashv \mathbb N n$
 
 ## example
 

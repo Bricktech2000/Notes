@@ -26,11 +26,11 @@ see [[math-notation]]
 
 let $[A]$ be the Radix Complement of $A$ for all $A$, and assume $\mathbb R A$
 
-$A \cdot [A] = 0$
+$A : [A] = 0$
 
 $[[A]] = A$
 
-$A \circ B = A \cdot [B]$
+$A \cdot B = A : [B]$
 
 ### applications
 

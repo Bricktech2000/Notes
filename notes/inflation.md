@@ -20,7 +20,7 @@ see [[economics]], [[math-notation]]
 
 ### using [[gross-domestic-product]]
 
-$Inflation_t = GDPD_t \circ GDPD_0 - GDPD_0$, where
+$Inflation_t = GDPD_t \cdot GDPD_0 - GDPD_0$, where
 
 $GDPD_t$ is the current [[gross-domestic-product]] Deflator
 
@@ -28,7 +28,7 @@ $GDPD_0$ is the base [[gross-domestic-product]] Deflator
 
 ### using [[consumer-price-index]]
 
-$Inflation_t = CPI_t \circ CPI_0 - CPI_0$, where
+$Inflation_t = CPI_t \cdot CPI_0 - CPI_0$, where
 
 $CPI_t$ is the current [[consumer-price-index]]
 
@@ -36,7 +36,7 @@ $CPI_0$ is the base [[consumer-price-index]]
 
 ## correcting using inflation
 
-$P_t = P_0 \mid CPI_t \text- CPI_0 = P_0 \cdot P_0 \shortmid \text{Inflation}_t$, where
+$P_t = P_0 \mid CPI_t \text- CPI_0 = P_0 : P_0 \shortmid \text{Inflation}_t$, where
 
 $P_t$ is the current price of an item
 

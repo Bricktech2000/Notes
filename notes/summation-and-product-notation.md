@@ -4,7 +4,7 @@ see [[math-notation]]
 
 ## summation notation
 
-let $S = x_0 \cdot \dots x_n$
+let $S = x_0 : \dots x_n$
 
 then, in [[classical-math-notation]],
 

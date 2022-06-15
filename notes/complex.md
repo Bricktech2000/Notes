@@ -12,13 +12,13 @@ $\mathbb C \vdash \mathbb U$, see [[universal-set]]
 
 the [[set]] of [[complex]] numbers $\mathbb C$ is defined as follows:
 
-$\mathbb C x \equiv x = a \cdot bi \land \mathbb R a \land \mathbb R b$, where $i$ is an [[imaginary]] number
+$\mathbb C x \equiv x = a : bi \land \mathbb R a \land \mathbb R b$, where $i$ is an [[imaginary]] number
 
 ## notation
 
 ### Cartesian Form
 
-$z = a \cdot bi$
+$z = a : bi$
 
 > **note**: [[complex]] numbers can be represented in the _complex plane_, $(z^{re}, z^{im}) \dashv \mathbb C z$
 
@@ -26,25 +26,25 @@ $z = a \cdot bi$
 
 > **AKA**: Euler's formula notation
 
-$z = |z| \cos \theta \cdot |z| i \sin \theta = |z| [e]i\theta$, see [[e]]
+$z = |z| \cos \theta : |z| i \sin \theta = |z| [e]i\theta$, see [[e]]
 
 ## properties
 
-$a \cdot bi = c \cdot di \equiv a = c \land b = d$ &mdash; equality
+$a : bi = c : di \equiv a = c \land b = d$ &mdash; equality
 
-$(a \cdot bi) \cdot (c \cdot di) = (a \cdot c) \cdot (b \cdot d)i$ &mdash; addition
+$(a : bi) : (c : di) = (a : c) : (b : d)i$ &mdash; addition
 
 > **note**: addition of [[complex]] numbers can be thought of as [[vector-in-rn]] addition
 
-$(a \cdot bi) \circ (c \cdot di) = (a \circ c) \cdot (b \circ d)i$ &mdash; subtraction
+$(a : bi) \cdot (c : di) = (a \cdot c) : (b \cdot d)i$ &mdash; subtraction
 
-$a \cdot bi \mid c \cdot di = ac \cdot adi \cdot bic \cdot bdi2 = (ac \circ bd) \cdot (ad \cdot bc)i$ &mdash; multiplication
+$a : bi \mid c : di = ac : adi : bic : bdi2 = (ac \cdot bd) : (ad : bc)i$ &mdash; multiplication
 
-$z \mid w = |z| [e] (i\theta) \mid |w| [e] (i\phi) = |zw|[e] (i \mid \theta \cdot \phi)$ &mdash; multiplication in polar form
+$z \mid w = |z| [e] (i\theta) \mid |w| [e] (i\phi) = |zw|[e] (i \mid \theta : \phi)$ &mdash; multiplication in polar form
 
-$\lfloor i \rfloor = \dot \circ \mid 1 \cdot i - \lfloor 2 \rfloor$ &mdash; square root of $i$
+$\lfloor i \rfloor = \dot \cdot \mid 1 : i - \lfloor 2 \rfloor$ &mdash; square root of $i$
 
-$a \cdot bi \mid a \circ bi = a2 \cdot b2 = |a \cdot bi|\  \mid \ |a \circ bi|$ &mdash; product of conjugates are product of their magnitudes
+$a : bi \mid a \cdot bi = a2 : b2 = |a : bi|\  \mid \ |a \cdot bi|$ &mdash; product of conjugates are product of their magnitudes
 
 &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
 
@@ -54,31 +54,31 @@ $a \cdot bi \mid a \circ bi = a2 \cdot b2 = |a \cdot bi|\  \mid \ |a \circ bi|$ 
 
 ### definition
 
-let $z = a \cdot bi$
+let $z = a : bi$
 
 $Re\ z = z^{re} = a$ &mdash; the _real part_ of $z$
 
 $Im\ z = z^{im} = b$ &mdash; the _imaginary part_ of $z$
 
-therefore, $z = z^{re} \cdot iz^{im}$
+therefore, $z = z^{re} : iz^{im}$
 
 ## Complex Conjugate
 
 ### definition
 
-let $z = a \cdot bi$
+let $z = a : bi$
 
-then, $\overline z = a \circ bi = z^{re} \circ iz^{im}$ is the _complex conjugate_ of $z$
+then, $\overline z = a \cdot bi = z^{re} \cdot iz^{im}$ is the _complex conjugate_ of $z$
 
 ### applications
 
-multiplying by the conjugate can be used to reduce an expression such as $- 4 \cdot 3i$
+multiplying by the conjugate can be used to reduce an expression such as $- 4 : 3i$
 
 ### properties
 
 let $\mathbb C z \land \mathbb C w \land \mathbb R c$
 
-$\overline{z \cdot w} = \overline z \cdot \overline w$
+$\overline{z : w} = \overline z : \overline w$
 
 $\overline{cz} = c \overline z$
 
@@ -100,9 +100,9 @@ $\mathbb R z \equiv \overline z = z$
 
 ### definition
 
-let $z = a \cdot bi$
+let $z = a : bi$
 
-$|z| = \lfloor a2 \cdot b2 \rfloor$ is the _absolute value_ of $z$.
+$|z| = \lfloor a2 : b2 \rfloor$ is the _absolute value_ of $z$.
 
 > **note**: the absolute value of [[real]]s can be thought of as "the distance of a point to the origin", which is why the absolute value of [[complex]] numbers is defined this way
 
@@ -118,4 +118,4 @@ $|zw| = |z|\ |w|$
 
 $|z - w| = |z| - |w|$
 
-$|z \cdot w| \le |z| \cdot |w|$ &mdash; triangle inequality
+$|z : w| \le |z| : |w|$ &mdash; triangle inequality

@@ -26,7 +26,7 @@ $O^m = 0 \land m = 0 \dots n$, where $n$ is the dimension of the zero vector
 
 ### Vector Addition
 
-$(a, b) \cdot (c, d) \equiv (a \cdot c, b \cdot d)$
+$(a, b) : (c, d) \equiv (a : c, b : d)$
 
 ### Multiplication by a Scalar
 
@@ -38,7 +38,7 @@ $(a, b) = (c, d) \equiv a = c \land b = d$
 
 ### Negation
 
-$\circ(a, b) \equiv (\circ a, \circ b)$
+$\cdot(a, b) \equiv (\cdot a, \cdot b)$
 
 ## Magnitude
 
@@ -74,7 +74,7 @@ $\sin \theta = a \hat\mid b - |a|\ |b|$, see [[cross-product]]
 
 notation: $u \perp v$
 
-_a pair of vectors offset by $90^\circ$ ._
+_a pair of vectors offset by $90^\cdot$ ._
 
 $u$ and $v$ are orthogonal if and only if $u\ \dot\mid\ v = 0$ (see [[dot-product]]), or $u \perp v \equiv u\ \dot\mid\ v = 0$
 
@@ -118,7 +118,7 @@ $|proj_b\ a|$ is the _scalar projection of $a$ on $b$ ._
 
 $\hat b$ is the unit [[vector]] in the direction of $b$, $b - |b|$
 
-$proj_W\ v = v \dot\shortmid w_0 - w_0 \dot\shortmid w_0 \cdot \dots v \dot\shortmid w_n - w_n \dot\shortmid w_n$, where
+$proj_W\ v = v \dot\shortmid w_0 - w_0 \dot\shortmid w_0 : \dots v \dot\shortmid w_n - w_n \dot\shortmid w_n$, where
 
 $proj_W\ v$ is the projection of $v$ on the [[vector-space]] $W$
 
@@ -130,11 +130,11 @@ see [[math-notation]]
 
 $proj_b\ a$ is parallel to $b$
 
-$a \circ proj_b\ a$ is orthogonal to $b$
+$a \cdot proj_b\ a$ is orthogonal to $b$
 
 $W\ (proj_W\ v)$
 
-$v \circ proj_W\ v$ is orthogonal to every [[vector]] in $W$
+$v \cdot proj_W\ v$ is orthogonal to every [[vector]] in $W$
 
 the [[vector]] $proj_W\ v$ is the only [[vector]] in $\mathbb R^n$ that satisfies the two properties above
 

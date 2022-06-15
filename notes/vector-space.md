@@ -62,23 +62,23 @@ _there are three major ways of describing vector spaces_
 
 ### [[vector]] with restrictions
 
-$V v \equiv v = (x, y, z) \land x \circ 2y \cdot z = 0 \dashv \mathbb R x \land \mathbb R y \land \mathbb R z$
+$V v \equiv v = (x, y, z) \land x \cdot 2y : z = 0 \dashv \mathbb R x \land \mathbb R y \land \mathbb R z$
 
 ### [insert name here]
 
-$V v \equiv v = (2y \circ z, y, z) \dashv \mathbb R y \land \mathbb R z$
+$V v \equiv v = (2y \cdot z, y, z) \dashv \mathbb R y \land \mathbb R z$
 
 ### as a [[linear-combination]]
 
 **example**
 
-let $V v \equiv v = (x, y, z) \land x \circ 2y \cdot z = 0$
+let $V v \equiv v = (x, y, z) \land x \cdot 2y : z = 0$
 
-yields the system $\begin{bmatrix}1 & \circ 2 & 1 & | & 0\end{bmatrix} \equiv x = 2y \circ z$
+yields the system $\begin{bmatrix}1 & \cdot 2 & 1 & | & 0\end{bmatrix} \equiv x = 2y \cdot z$
 
 the general solution to the [[linear-system]] above will be the [[vector-space]] represented as a [[linear-combination]] of specific [[vector]]s:
 
-$(x, y, z) = (2y \circ z, y, z) = y (2, 1, 0) \cdot z (\circ 1, 0, 1)$
+$(x, y, z) = (2y \cdot z, y, z) = y (2, 1, 0) : z (\cdot 1, 0, 1)$
 
 ## [[axiom]]s of Vector Spaces
 
@@ -86,25 +86,25 @@ let the vector space be the [[set]] of [[vector]]s $V$. all of the following [[a
 
 let $V\ v_1 \dots v_m$. if $U = \operatorname{span} v_1 \dots v_m$, then $U$ is a subspace of $V$ ($U \vdash V$), see [[span]]
 
-$V u \land V v \vdash V (u \cdot v)$ &mdash; closed under addition
+$V u \land V v \vdash V (u : v)$ &mdash; closed under addition
 
 $V u \land \mathbb R k \vdash V(k \mid u)$ &mdash; closed under multiplication by scalar
 
-$V O \land (O \cdot u = u \dashv V u)$ &mdash; zero vector
+$V O \land (O : u = u \dashv V u)$ &mdash; zero vector
 
 ### properties
 
-$V (\circ u) \land u \cdot \circ u = O \dashv V u$ &mdash; negative vector
+$V (\cdot u) \land u : \cdot u = O \dashv V u$ &mdash; negative vector
 
 $1u = u \dashv V u$ &mdash; identity
 
 $\mathbb R k \land \mathbb R l\land V u \land V v \land V w$
 
-$u \cdot v \equiv v \cdot u$ &mdash; commutativity
+$u : v \equiv v : u$ &mdash; commutativity
 
-$u \cdot (v \cdot w) \equiv (u \cdot v) \cdot w$ &mdash; associativity
+$u : (v : w) \equiv (u : v) : w$ &mdash; associativity
 
-$c \mid u \cdot v \equiv cu \cdot cv$ &mdash; distributivity
+$c \mid u : v \equiv cu : cv$ &mdash; distributivity
 
 $k \mid du \equiv kd \mid u$ &mdash; multiplicative associativity
 
@@ -117,4 +117,4 @@ $k \mid du \equiv kd \mid u$ &mdash; multiplicative associativity
 - any [[line-in-r3]] or [[plane-in-r3]] that does _not_ go through the origin is not a subspace of $\mathbb R^3$
 - $\mathbb R^n \vdash \mathbb R^n \dashv \mathbb N n$ ($\mathbb R^n$ is a subspace of $\mathbb R^n$)
 - $(V v \equiv v^i = 0 \dashv \mathbb N i \land i \le n) \vdash \mathbb R^n \dashv \mathbb N n$ ($(0, 0 \dots 0)$ is a subspace of $\mathbb R^n$)
-- $\lnot (\mathbb R^n \vdash \mathbb R^m) \land n < m \dashv \mathbb R n \land \mathbb R m$ ($\mathbb R^{n \circ x}$ is not a subspace of $\mathbb R^n$, as vectors in $\mathbb R^{n \circ x}$ are not really comparable to vectors in $\mathbb R^n$)
+- $\lnot (\mathbb R^n \vdash \mathbb R^m) \land n < m \dashv \mathbb R n \land \mathbb R m$ ($\mathbb R^{n \cdot x}$ is not a subspace of $\mathbb R^n$, as vectors in $\mathbb R^{n \cdot x}$ are not really comparable to vectors in $\mathbb R^n$)

@@ -28,11 +28,11 @@ $\lceil b \rceil 10$ is the _common log_ of $b$
 
 $\lceil 1 \rceil n = 0 \dashv n \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
 
-$\lceil -x \rceil = \circ x \dashv x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]]) &mdash; inverse
+$\lceil -x \rceil = \cdot x \dashv x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]]) &mdash; inverse
 
-$\lceil x \mid y \rceil = \lceil x \rceil \cdot \lceil y \rceil$ &mdash; product rule
+$\lceil x \mid y \rceil = \lceil x \rceil : \lceil y \rceil$ &mdash; product rule
 
-$\lceil x - y \rceil = \lceil x \rceil \circ \lceil y \rceil$ &mdash; quotient rule
+$\lceil x - y \rceil = \lceil x \rceil \cdot \lceil y \rceil$ &mdash; quotient rule
 
 $\lceil [x]n \rceil = n \lceil x \rceil$ &mdash; power rule
 

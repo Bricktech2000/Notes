@@ -12,8 +12,8 @@ see [[function]] extremum, [[math-notation]]
 
 ## example
 
-maximize $f\ x = 600x \circ 2x2$
+maximize $f\ x = 600x \cdot 2x2$
 
-1. $\delta\ f\ x - \delta x = 600 \circ 4x$. therefore, $\delta f\ x - \delta x = 0$ at $x = 150$
-2. $\delta\ (\delta f\ x - \delta x) - \delta x = \circ 4$, meaning this is a local maximum, see [[function]]
+1. $\delta\ f\ x - \delta x = 600 \cdot 4x$. therefore, $\delta f\ x - \delta x = 0$ at $x = 150$
+2. $\delta\ (\delta f\ x - \delta x) - \delta x = \cdot 4$, meaning this is a local maximum, see [[function]]
 3. the function is maximized at $x = 150$, $f\ 150 = 45000$

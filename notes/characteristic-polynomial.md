@@ -6,7 +6,7 @@ see [[math-notation]]
 
 the [[characteristic-polynomial]] of a [[matrix]] $A$ is defined as follows:
 
-$\det (A \circ \lambda I) \land \mathbb M^{n, n} A \land \mathbb N n \land \mathbb R \lambda $
+$\det (A \cdot \lambda I) \land \mathbb M^{n, n} A \land \mathbb N n \land \mathbb R \lambda $
 
 ## properties
 

@@ -22,7 +22,7 @@ $kA = Ak$ &mdash; commutative with scalars
 
 see [[matrix-vector-space]], [[vector-space]]
 
-$(A \cdot B)^{i, j} = A^{i, j} \cdot B^{i, j} \dashv \mathbb N i \land \mathbb N j \land \mathbb M^{m, n} A \land \mathbb M^{m, n} B$
+$(A : B)^{i, j} = A^{i, j} : B^{i, j} \dashv \mathbb N i \land \mathbb N j \land \mathbb M^{m, n} A \land \mathbb M^{m, n} B$
 
 ## Matrix Multiplication
 
@@ -32,7 +32,7 @@ see [[dot-product]], [[vector-in-rn]]
 
 $AB \ne \varnothing \equiv \mathbb M^{m, n}A \land \mathbb M^{n, p}B \land \mathbb N n \vdash \mathbb M^{m, p}AB$ ($AB$ is defined if the number of columns in $A$ is equal to the number of rows in $B$. their product will be an $m \times p$ [[matrix]])
 
-$(AB)^{i, j} = A^{i, } \mid^\circ B^{, j} \dashv \mathbb N i \land \mathbb N j$, see [[dot-product]]
+$(AB)^{i, j} = A^{i, } \mid^\cdot B^{, j} \dashv \mathbb N i \land \mathbb N j$, see [[dot-product]]
 
 ### notation
 
@@ -52,9 +52,9 @@ $AC = BC \land C \ne 0 \not \vdash A = B$ ($AC = BC$ and $C \ne 0$ does not impl
 
 $(AB)C = A(BC)$ &mdash; associative
 
-$A(B \cdot C) = AB \cdot AC$ &mdash; distributive
+$A(B : C) = AB : AC$ &mdash; distributive
 
-$(B \cdot C)A = BA \cdot CA$ &mdash; distributive
+$(B : C)A = BA : CA$ &mdash; distributive
 
 $k(AB) = (kA)B = A(kB)$ &mdash; associative with scalars
 
@@ -140,7 +140,7 @@ $Row\ A = \operatorname{span} A^{n,} \dashv \mathbb N n$
 
 > **theorem**: the Null Space, Row Space and Column Space of a [[matrix]] are always [[vector-space]]s
 
-> **theorem**: $\text{number of free variables in } A \cdot \text{number of pivots in } A = \text{number of columns in } A$
+> **theorem**: $\text{number of free variables in } A : \text{number of pivots in } A = \text{number of columns in } A$
 
 > **theorem**: $\dim Null\ A = \text{number of free variables in } A$
 
@@ -170,9 +170,9 @@ the same can be said for $Col\ A$
 
 _transforming a [[vector-space]] into the null space of a certain [[matrix]]_
 
-let $W = \operatorname{span}\ (1, 0, 0, 1), (1, 1, 1, 0), (2, 1, \circ 1, 1)$
+let $W = \operatorname{span}\ (1, 0, 0, 1), (1, 1, 1, 0), (2, 1, \cdot 1, 1)$
 
-after solving the [[linear-system]], we get $W (x, y, z, w) \equiv \circ x \cdot y \cdot w = 0$. therefore, $W$ is the null space of $A = \begin{bmatrix}\circ 1 & 1 & 0 & 1\end{bmatrix}$
+after solving the [[linear-system]], we get $W (x, y, z, w) \equiv \cdot x : y : w = 0$. therefore, $W$ is the null space of $A = \begin{bmatrix}\cdot 1 & 1 & 0 & 1\end{bmatrix}$
 
 ## Transpose Matrix
 
@@ -246,7 +246,7 @@ let $A = \begin{bmatrix}a & b \\\  c & d\end{bmatrix}$
 
 $A$ is invertible if and only if $|A| \ne 0$
 
-$A^- = (1 - |A|) \begin{bmatrix}d & \circ b \\\  \circ c & a\end{bmatrix}$
+$A^- = (1 - |A|) \begin{bmatrix}d & \cdot b \\\  \cdot c & a\end{bmatrix}$
 
 ### application example
 
@@ -256,11 +256,11 @@ then, calculate $B$ such that $B \equiv A^-$
 
 this can be used to solve a system such as:
 
-$Ax = \begin{bmatrix}\circ 1 \\\ 1\end{bmatrix}$
+$Ax = \begin{bmatrix}\cdot 1 \\\ 1\end{bmatrix}$
 
-$BAx = B \begin{bmatrix}\circ 1 \\\ 1\end{bmatrix}$
+$BAx = B \begin{bmatrix}\cdot 1 \\\ 1\end{bmatrix}$
 
-$Ix = x = B \begin{bmatrix}\circ 1 \\\ 1\end{bmatrix}$
+$Ix = x = B \begin{bmatrix}\cdot 1 \\\ 1\end{bmatrix}$
 
 ## Triangular Matrix
 
@@ -296,15 +296,15 @@ a [[matrix]] is _diagonalizable_ if and only if the geometic [[multiplicity]] of
 
 ### examples and counterexamples
 
-the [[matrix]] $A = \begin{bmatrix}1 & 2 \\\ 2 & 1\end{bmatrix}$ is diagonalizable over the reals as $\lbrace (1, 1), (1, \circ 1) \rbrace$ is a [[basis]] of $\mathbb R^2$ consisting entirely of [[eigenvector]]s of $A$
+the [[matrix]] $A = \begin{bmatrix}1 & 2 \\\ 2 & 1\end{bmatrix}$ is diagonalizable over the reals as $\lbrace (1, 1), (1, \cdot 1) \rbrace$ is a [[basis]] of $\mathbb R^2$ consisting entirely of [[eigenvector]]s of $A$
 
-the [[matrix]] $A = \begin{bmatrix}1 & 1 \\\ \circ 1 & 1\end{bmatrix}$ is not diagonalizable over the reals as it does not have any real [[eigenvalue]]s
+the [[matrix]] $A = \begin{bmatrix}1 & 1 \\\ \cdot 1 & 1\end{bmatrix}$ is not diagonalizable over the reals as it does not have any real [[eigenvalue]]s
 
 the [[matrix]] $A = \begin{bmatrix}3 & 1 \\\ 0 & 3\end{bmatrix}$ is not diagonalizable over the reals as it only has one [[eigenvalue]], and therefore only one set of [[linearly-dependent]] [[eigenvector]]s (see [[eigenvector-and-eigenvalue]])
 
 the [[matrix]] $A = \begin{bmatrix}1 & 0 \\\ 0 & 1\end{bmatrix}$ is diagonalizable over the reals as, even though $A$ has a single [[eigenvalue]] $\lambda = 1$, its [[eigenspace]] [[span]]s $\mathbb R^2$. this is the case for both $A = I \land \lambda = 1$ and $A = O \land \lambda = 0$
 
-> **proof**: let $A = I \land \lambda = 1 \land E_1 = x$. we then have $O = A \circ \lambda I \mid x = I \circ 1I \mid E_1= O \mid E_1$. therefore, $E_1 \equiv \mathbb R^2$. see [[eigenvector-and-eigenvalue]]
+> **proof**: let $A = I \land \lambda = 1 \land E_1 = x$. we then have $O = A \cdot \lambda I \mid x = I \cdot 1I \mid E_1= O \mid E_1$. therefore, $E_1 \equiv \mathbb R^2$. see [[eigenvector-and-eigenvalue]]
 
 let $\mathbb M^{n, n} A \land \mathbb N n$ and suppose $A$ has $n$ distinct [[eigenvalue]]s. deduce that $A$ is diagonalizable over the reals
 

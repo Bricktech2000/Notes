@@ -10,6 +10,8 @@ variables are defined in separate lines using a _, where_ statement
 
 whitespace in formulas follow programming-language-like conventions
 
+the $ : $ operator must always be surrounded one space on either side
+
 `\R`, `\N`, `\Z`, `\{` and `\}` must not be used, as they are not widely supported. `\mathbb R`, `\mathbb N`, `\mathbb Z`, `\lbrace` and `\rbrace` should be used instead, respectively.
 
 `\\` must be replaced by `\\\` for them to work properly. see the following discussion: <https://github.com/mathjax/MathJax/issues/1301>

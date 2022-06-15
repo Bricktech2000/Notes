@@ -28,15 +28,15 @@ $(\delta - \delta x) y \equiv \frac{\delta}{\delta x} y$ ~~makes no sense whatso
 
 let $\mathbb U c$, see [[universal]] [[set]]
 
-$\int \delta y = y \cdot c$
+$\int \delta y = y : c$
 
-$\delta \int y \cdot c = y$
+$\delta \int y : c = y$
 
 see [[integral]], [[derivative]], [[antiderivative]]
 
 _the integral of the derivative of a function is that same function plus a constant_
 
-> **proof**: $\int (\delta y - \delta x) \mid \delta x = \int (\delta y) = y \cdot c$
+> **proof**: $\int (\delta y - \delta x) \mid \delta x = \int (\delta y) = y : c$
 
 _the derivative of the integral of a function is that same function_
 

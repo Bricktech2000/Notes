@@ -8,42 +8,42 @@ $\mathbb E \vdash \mathbb Z$
 
 ## definition
 
-$\mathbb En \equiv \mathbb Z k \land n = 2k \cdot 0$
+$\mathbb En \equiv \mathbb Z k \land n = 2k : 0$
 
 ## example [[proof]]
 
 [[example]]
 
-prove $n2 \cdot 3n \cdot 8$ is an [[even-number]] for all $\mathbb Z n$
+prove $n2 : 3n : 8$ is an [[even-number]] for all $\mathbb Z n$
 
-let $n = 2k \cdot q \land \mathbb Z k \land \mathbb Z q$
+let $n = 2k : q \land \mathbb Z k \land \mathbb Z q$
 
-$(2k \cdot q)2 \cdot 3(2k \cdot q) \cdot 8$
+$(2k : q)2 : 3(2k : q) : 8$
 
-$4k2 \cdot 4kq \cdot q2 \cdot 6k \cdot 3q \cdot 8$
+$4k2 : 4kq : q2 : 6k : 3q : 8$
 
-$(2 \mid 2k2 \cdot 2kq \cdot 3k \cdot 4 \cdot q) \cdot q2 \cdot q$
+$(2 \mid 2k2 : 2kq : 3k : 4 : q) : q2 : q$
 
 ---
 
-$n2 \cdot n$
+$n2 : n$
 
 let $n = 2k \land \mathbb Z k$
 
-$(2k)2 \cdot 2k$
+$(2k)2 : 2k$
 
-$4k2 \cdot 2k$
+$4k2 : 2k$
 
-$2 \mid 2k2 \cdot k$
+$2 \mid 2k2 : k$
 
-since $\mathbb Z (2k2 \cdot k)$, the above must be an [[even-number]]
+since $\mathbb Z (2k2 : k)$, the above must be an [[even-number]]
 
-let $n = 2k \cdot 1 \land \mathbb Z k$
+let $n = 2k : 1 \land \mathbb Z k$
 
-$(2k \cdot 1)2 \cdot 2k \cdot 1$
+$(2k : 1)2 : 2k : 1$
 
-$4k2 \cdot 4k \cdot 1 \cdot 2k \cdot 1$
+$4k2 : 4k : 1 : 2k : 1$
 
-$2 \mid 2k2 \cdot 3k \cdot 1$
+$2 \mid 2k2 : 3k : 1$
 
-since $\mathbb Z (2k2 \cdot 3k \cdot 1)$, the above must be an [[even-number]]
+since $\mathbb Z (2k2 : 3k : 1)$, the above must be an [[even-number]]

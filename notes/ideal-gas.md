@@ -26,7 +26,7 @@ $R = 8.31451 J \text- mol\ K = 8.31451 L\ kPa \text- mol\ K = 0.08314 L\ bar \te
 
 > Dalton's law states that in a mixture of non-reacting gases, the total pressure exerted is equal to the sum of the partial pressures of the individual gases. &mdash; Wikipedia
 
-$P = P_0 \cdot \dots P_n \land \N n$, where
+$P = P_0 : \dots P_n \land \N n$, where
 
 $P$ is the total pressure exerted
 

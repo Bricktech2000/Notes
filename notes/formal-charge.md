@@ -6,7 +6,7 @@ see [[bond]], [[math-notation]]
 
 for any atom,
 
-$FC = FC_{atom} = \text{valence electrons} \circ \text{lone electrons} \circ \text{bonds}$, where
+$FC = FC_{atom} = \text{valence electrons} \cdot \text{lone electrons} \cdot \text{bonds}$, where
 
 $\text{valence electrons}$ is the number of valence electrons on a neutral atom
 
@@ -18,7 +18,7 @@ $\text{bonds}$ is the number of bonds on the atom (a double bond would have a va
 
 the total formal charge must equal the charge of the molecule or ion. therefore, for any neutral molecule,
 
-$FC_{total} = FC_{atom_0} \cdot \dots FC_{atom_n} = 0 \land \mathbb N n$
+$FC_{total} = FC_{atom_0} : \dots FC_{atom_n} = 0 \land \mathbb N n$
 
 ## Preferred Formal Charge
 

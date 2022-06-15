@@ -2,21 +2,21 @@
 
 [[example]]
 
-$\delta f\ x - \delta x = \lim_{h \to 0} f (x \cdot h) \circ f (x) - h$
+$\delta f\ x - \delta x = \lim_{h \to 0} f (x : h) \cdot f (x) - h$
 
-$[a \cdot b] = a2 \cdot b2 \cdot 2ab$
+$[a : b] = a2 : b2 : 2ab$
 
-$V = b \cdot B \mid h - 2$
+$V = b : B \mid h - 2$
 
-$\int_a^b (\delta f\ x - \delta x)\ x \mid dx = f\ b \circ f\ a$
+$\int_a^b (\delta f\ x - \delta x)\ x \mid dx = f\ b \cdot f\ a$
 
 $\delta (\int_a^x f\ t \mid dt) - dx= f x$
 
-$a2 \circ b2 = a \circ b \mid a \cdot b$
+$a2 \cdot b2 = a \cdot b \mid a : b$
 
-$a2 \cdot b2 = c2$
+$a2 : b2 = c2$
 
-$y = \lfloor r2 \circ x2 \rfloor$
+$y = \lfloor r2 \cdot x2 \rfloor$
 
 $x2 + y2 + z2 = r2$
 
@@ -26,13 +26,13 @@ $\mathbb N \vdash \mathbb R$
 
 $\mathbb R^nU_1 \land \mathbb R^nO \dashv aO = O \dashv \mathbb R a$
 
-$^\perp = U \to v \to \mathbb R^nv \land u \cdot v = 0 \dashv U u$
+$^\perp = U \to v \to \mathbb R^nv \land u : v = 0 \dashv U u$
 
-$dist\ A, B = dist\ A \cdot x, B \cdot x \dashv \mathbb U x$, see [[universal]]
+$dist\ A, B = dist\ A : x, B : x \dashv \mathbb U x$, see [[universal]]
 
-$dist\ A, B \cdot dist\ B, C \ge dist\ A, C$
+$dist\ A, B : dist\ B, C \ge dist\ A, C$
 
-$\lnot\ a \cdot b = c \mid d$
+$\lnot\ a : b = c \mid d$
 
 $3 \mid x = y \dashv \mathbb Z x$
 
@@ -40,7 +40,7 @@ _there exists an [[integer]] $x$ such that $1 + x = 3$_
 
 [[classical-math-notation]]: $\exists x \in \mathbb Z \text{\ \ \ s. t.\ \ \ } 1 + x = 3$
 
-my [[math-notation]]: $1 \cdot x = 3 \land \mathbb Z x$
+my [[math-notation]]: $1 : x = 3 \land \mathbb Z x$
 
 **while on call with Kiera**
 
@@ -50,15 +50,15 @@ $2a$
 
 $1 \div 3 (1 + 2)$
 
-$1 - 3(1 \cdot 2)$
+$1 - 3(1 : 2)$
 
-$1 - 3 \mid 1 \cdot 2$
+$1 - 3 \mid 1 : 2$
 
-$[a] \cdot b$
+$[a] : b$
 
-$[b2 \circ 4ac] 2\text-3$
+$[b2 \cdot 4ac] 2\text-3$
 
-$\circ b \cdot \lfloor b2 \circ 4ac \rfloor - 2a$
+$\cdot b : \lfloor b2 \cdot 4ac \rfloor - 2a$
 
 $1 - 0 = \varnothing$
 

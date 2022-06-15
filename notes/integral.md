@@ -4,7 +4,7 @@ see [[math-notation]], [[function]], [[antiderivative]], [[calculus-notation]]
 
 > **note**:
 >
-> _integrating_ refers to calculating the are under a [[function]], **not** computing the [[antiderivative]] and plugging stuff in. this is why indefinite [[integral]]s must include that $\cdot c$ whereas [[antiderivative]]s don't have to.
+> _integrating_ refers to calculating the are under a [[function]], **not** computing the [[antiderivative]] and plugging stuff in. this is why indefinite [[integral]]s must include that $ : c$ whereas [[antiderivative]]s don't have to.
 >
 > "[[antiderivative]]s can be used to **find** areas ([[integral]]s) and areas ([[integral]]s) can be used to **define** [[antiderivative]]s." this is the essence of the [[fundamental-theorem-of-calculus]]
 >
@@ -18,7 +18,7 @@ see [[calculus-notation]]
 
 in [[classical-math-notation]], with $\delta\ F\ x - \delta x = f$,
 
-$F\ x\ \bigr|_{a}^{b} \dots = F\ b \circ F\ a$
+$F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
 
 ## definitions
 
@@ -51,9 +51,9 @@ a Type I improper [[integral]] is said to:
 
 an integral whose integrand has a [[function]] discontinuity on the integration interval
 
-if $\lim_{x \to b^-} f\ x = \dot \circ \infty$ [[think]] [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to b^-} \int_{x = a}^{x = t} f\ x \mid \delta x$
+if $\lim_{x \to b^-} f\ x = \dot \cdot \infty$ [[think]] [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to b^-} \int_{x = a}^{x = t} f\ x \mid \delta x$
 
-if $\lim_{x \to a^+} f\ x = \dot \circ \infty$ [[think]] [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to a^+} \int_{x = t}^{x = b} f\ x \mid \delta x$
+if $\lim_{x \to a^+} f\ x = \dot \cdot \infty$ [[think]] [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to a^+} \int_{x = t}^{x = b} f\ x \mid \delta x$
 
 ### Comparison Test
 

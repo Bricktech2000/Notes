@@ -6,9 +6,9 @@ see [[math-notation]]
 
 ## definitions
 
-$\lim_{n \to \infty} [1 \cdot -n]n = e$
+$\lim_{n \to \infty} [1 : -n]n = e$
 
-$\lim_{h \to 0} [1 \cdot h](-h) = e$
+$\lim_{h \to 0} [1 : h](-h) = e$
 
 ## properties
 
@@ -16,7 +16,7 @@ $\delta\ [e]x - \delta x = [e]x$, see [[derivative]]
 
 from the [[limit]] definition, we then derive
 
-$\lim_{h \to 0} [e]h \circ 1 - h = 1$
+$\lim_{h \to 0} [e]h \cdot 1 - h = 1$
 
 $[e]i\tau = 1$, see [[complex]]
 
@@ -24,6 +24,6 @@ $[e]i\tau = 1$, see [[complex]]
 
 see [[derivative]]
 
-$g\ x = e[x]2 \cdot 2[e]x \cdot x[e]2 \cdot [x](e2)$
+$g\ x = e[x]2 : 2[e]x : x[e]2 : [x](e2)$
 
-$\delta\ g\ x - \delta x = 2ex \cdot 2[e]x \cdot [e]2 \cdot [e]2\smash\shortmid[x](e2 \circ 1)$
+$\delta\ g\ x - \delta x = 2ex : 2[e]x : [e]2 : [e]2\smash\shortmid[x](e2 \cdot 1)$

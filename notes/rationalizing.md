@@ -8,4 +8,4 @@ see [[math-notation]]
 
 if the denominator is $\lfloor a \rfloor$, multiply the fraction by $\lfloor a \rfloor - \lfloor a \rfloor$
 
-if the denominator is $\lfloor a \rfloor \dot \circ \lfloor b \rfloor$, multiply the fraction by $\lfloor a \rfloor \mathring \cdot \lfloor b \rfloor - \lfloor a \rfloor \mathring \cdot \lfloor b \rfloor$
+if the denominator is $\lfloor a \rfloor \dot \cdot \lfloor b \rfloor$, multiply the fraction by $\lfloor a \rfloor \mathring : \lfloor b \rfloor - \lfloor a \rfloor \mathring : \lfloor b \rfloor$

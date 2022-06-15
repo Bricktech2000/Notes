@@ -17,7 +17,7 @@ every month, Statistics Canada (SC) conducts the Labour Force Survey (LFS). the 
 
 ### Labour Force
 
-$LF = \text{employed} \cdot \text{unemployed}$
+$LF = \text{employed} : \text{unemployed}$
 
 > **definition**: the _Labour Force_ is the total number of workers, including both the employed and unemployed.
 
