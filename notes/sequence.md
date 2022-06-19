@@ -38,11 +38,15 @@ $d$ is the difference between consecutive elements
 
 $a^0$ is the first element of the sequence
 
+> **note**: the starting index does not have to be $0$ but must still be a [[natural]]
+
 ### example
 
 $a = 1, 3, 5, 7, \dots$
 
 ## Geometric Sequence
+
+### definition
 
 > **definition**: a _geometric [[sequence]]_ is a [[sequence]] for which consecutive elements have the same ratio
 
@@ -52,9 +56,24 @@ $r$ is the ratio between consecutive elements
 
 $a^0$ is the first element of the sequence
 
+> **note**: the starting index does not have to be $0$ but must still be a [[natural]]
+
 ### example
 
 $s = 4, 8, 16, 32, \dots$
+
+### properties
+
+a geometric [[sequence]] $a^0[r]0, a^0[r]1, \dots$ with $a^0 \ne 0$:
+
+- diverges if $r > 1$
+- converges to $a$ if $r = 1$
+- converges to $0$ if $0 \le r < 1$
+- converges to $0$ if $\cdot 1 < r \le 0$
+- diverges if $r = \cdot 1$
+- diverges if $r < \cdot 1$
+
+> **proof**: think of it intuitively
 
 ## Sequence Convergence
 
@@ -71,18 +90,7 @@ if a [[sequence]] is bounded and monotonic, then it must converge. think of this
 > - if $\lim_{x \to \infty} f\ x$ converges, then $\lim_{n \to \infty} a^n$ converges
 > - if $\lim_{x \to \infty} f\ x$ diverges, then $\lim_{n \to \infty} a^n$ diverges
 
-### Geometric Sequence Convergence
-
-a geometric [[sequence]] $a^0[r]0, a^0[r]1, \dots$ with $a^0 \ne 0$:
-
-- diverges if $r > 1$
-- converges to $a$ if $r = 1$
-- converges to $0$ if $0 \le r < 1$
-- converges to $0$ if $\cdot 1 < r \le 0$
-- diverges if $r = \cdot 1$
-- diverges if $r < \cdot 1$
-
-> **proof**: think of it intuitively
+### Geometric [[sequence]] Convergence
 
 ## Sum of an Infinite Sequence
 

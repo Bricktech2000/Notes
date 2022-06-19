@@ -47,3 +47,5 @@
 [[calculus]]
 
 [[sequence]] [[series]]
+
+[[self-taught-software-engineer]]

@@ -36,7 +36,7 @@ $\lim_{x \to a}$ does not exist if any of the following is true:
 
 if $g\ a = 0$, then $\lim_{x \to a} (f\ x - g\ x)$
 
-- does not exist if $f\ a \ne 0$ (including $\dot \cdot \infty$)
+- does not exist if $f\ a \ne 0$ (including $\because \infty$)
 - can exist if $f\ a = 0$. first simplify using the [[limit-rules]] and then study the limit
 
 ## special limits

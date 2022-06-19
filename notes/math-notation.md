@@ -127,7 +127,7 @@ _high to low_
 - $() [] \lfloor\rfloor \lceil\rceil$
 - $\shortmid \text-$
 - $\delta f$
-- $ : \cdot$
+- $\ : \cdot$
 - $\mid -$
 - $\int \lim \dots$
 - $=\ne\gt\ge\lt\le$
@@ -146,7 +146,7 @@ _high to low_
 - $=$ **checks** for equality and returns a boolean
 - it is implied that an expression on its own must evaluate to $\top$ (`true`)
 - [[set]]s are [[function]]s that return a [[boolean]] ($\mathbb R a$ instead of $a \in \mathbb R$)
-- $\lfloor a \rfloor$ (or $\lfloor a \rfloor 2$) returns both positive and negative square roots ($\lfloor q2 \rfloor \equiv \dot \cdot q$)
+- $\lfloor a \rfloor$ (or $\lfloor a \rfloor 2$) returns both positive and negative square roots ($\lfloor q2 \rfloor \equiv\ \because q$)
 - $\lfloor 4 \rfloor = 2$ is valid, but $\lfloor 4 \rfloor \equiv 2$ is invalid
 - ~~functions support [[currying]] to take multiple arguments~~
 - all indices start at $0$
@@ -154,7 +154,7 @@ _high to low_
 ## examples
 
 - [[quadratic-formula]]: $\cdot b : \lfloor b2 \cdot 4ac \rfloor - 2a$
-- definition of the [[set]] of [[complex]] numbers: $\mathbb C x \equiv x = a : b\lfloor \cdot 1 \rfloor \land \mathbb R a \land \mathbb R b$
+- definition of the [[set]] of [[complex]] numbers: $\mathbb C x \equiv x = a : b \lfloor \cdot 1 \rfloor \land \mathbb R a \land \mathbb R b$
 - definition of the implication / sub[[set]] / super[[set]] / “for all” symbol:
   - $a \vdash b = \lnot a \lor b$
   - $a \dashv b = a \lor \lnot b$

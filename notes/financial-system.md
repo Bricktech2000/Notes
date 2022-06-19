@@ -21,6 +21,7 @@ Financial Institutions can be grouped in to categories
 
 - [[bond-market]]
 - [[stock-market]]
+- [[options-market]]
 - [[loanable-funds-market]]
 
 ### Financial Intermediaries

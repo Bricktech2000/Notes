@@ -121,11 +121,11 @@ if(contains(prop("Category"), "DAY"),
 
 see [[math-notation]]
 
-the $ : duration$ below "shifts" the event left by $duration$, which allows long-term projects to end up with higher priority at the beginning of their time allocation. this prioritizes tasks better.
+the $\ : duration$ below "shifts" the event left by $duration$, which allows long-term projects to end up with higher priority at the beginning of their time allocation. this prioritizes tasks better.
 
 $$
 \text{DDONE\_OVER\_DT} = now \cdot start : duration - duration \\
-duration = end - start
+duration = end \cdot start
 $$
 
 ```jsx

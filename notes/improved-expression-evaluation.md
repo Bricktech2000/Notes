@@ -115,7 +115,7 @@ using the [[logarithm]] [[antiderivative]] rule, $\int 1 - x \mid \delta x = \ln
 
 ## exponents and square roots
 
-define $\lfloor x2 \rfloor = x$, but $\lfloor 4 \rfloor = \dot \cdot 2$ &mdash; Kiera
+define $\lfloor x2 \rfloor = x$, but $\lfloor 4 \rfloor =\ \because 2$ &mdash; Kiera
 
 $x = \lfloor x2 \rfloor = \lfloor [\cdot x]2 \rfloor = \cdot x$
 
@@ -131,17 +131,17 @@ breakthrough (I think): in the case of division by zero, it's not about the zero
 >
 > $[3 \mid 3]2 = [3]2 \mid [3]2 = \odot4 \mid 9 \mid 9 = \odot4 \mid 81 = \odot2 \mid [9]2 = \odot2 \mid [3 \mid 3]2$
 >
-> $[9]2 = [3 \mid 3]2 = [3]2 \mid [3]2 = 9 \odot2 \mid 9 \odot2 = 81 \odot2 = [9]2 = [[\dot\cdot 3]2]2 = [\dot\cdot 3]4$
+> $[9]2 = [3 \mid 3]2 = [3]2 \mid [3]2 = 9 \odot2 \mid 9 \odot2 = 81 \odot2 = [9]2 = [[\because 3]2]2 = [\because 3]4$
 >
-> $[\cdot ab]2 = \cdotledcirc2 \mid a2 \mid b2$
+> $[\cdot ab]2 = \circledcirc2 \mid a2 \mid b2$
 >
-> $25[ab]2 = [\dot\cdot 5ab]2$
+> $25[ab]2 = [\because 5ab]2$
 >
-> $\lfloor 25 \rfloor = \dot\cdot 5$
+> $\lfloor 25 \rfloor =\ \because 5$
 >
 > $\lfloor 25 \mid \odot2 \rfloor = 5$
 >
-> $\lfloor 25 \mid \cdotledcirc2 \rfloor = \cdot 5$
+> $\lfloor 25 \mid \circledcirc2 \rfloor = \cdot 5$
 >
 > $[5]2 = \odot2 \mid 25$
 
@@ -151,7 +151,7 @@ $[3]2 \to 9$ and $[\cdot 3]2 \to 9$ (which loses information) just as $\theta x 
 
 $\lfloor [3]2 \rfloor = 3$ (through cancellation) just as $\theta x - \theta = x$ (through cancellation)
 
-$\lfloor 9 \rfloor = \varnothing$ (can be thought of as $\dot\cdot 3$) just as $0 - 0 = \varnothing$ (can be thought of as "any [[real]] number")
+$\lfloor 9 \rfloor = \varnothing$ (can be thought of as $\because 3$) just as $0 - 0 = \varnothing$ (can be thought of as "any [[real]] number")
 
 ## conclusion
 
@@ -163,7 +163,7 @@ $\theta \to 0$
 
 $0x = 0 \land \theta x \ne \theta$
 
-$\theta - \theta = 1$ but $0 - 0 \to \varnothing \land \theta - 0 \to \varnothing \land 0 - \theta \to \varnothing$
+$\theta - \theta = 1$ but $0 - 0 \to \varnothing \land \theta - 0 \to \varnothing \land 0 - \theta \to 0$
 
 $--\theta = \theta$ but $--0 \to \varnothing$
 
@@ -171,7 +171,7 @@ $-0 \to \varnothing \land -\theta \to \varnothing$
 
 $[x]\theta = 1$
 
-$[0]0 = 1$. but what if $[\theta]0 = 1 \land [0]\theta \to \varnothing \land [0]0 \to \varnothing \land [\theta]\theta \to \varnothing$ [[think]]
+$[\theta]0 \to 1 \land [\theta]0 \to \varnothing \land [0]0 \to \varnothing \land [\theta]\theta \to \varnothing$
 
 $\lfloor x2 \rfloor = x$
 
@@ -180,6 +180,8 @@ $\lfloor x \rfloor \to \varnothing$
 $[x]2 \to \text{(square of x)} \land [\cdot x]2 \to \text{(square of x)}$
 
 $[\cdot x]2 \not \to [x]2 \land \text{(square of x)} \not \to [x]2$
+
+$[x]\theta = 1$
 
 in a [[proof]], equalities must be linked together through the intended implications (see [[boolean-operator]]). this means that multiplying or dividing an equality by an expresion that could be $0$ or raising it to some power could require additional restrictions.
 

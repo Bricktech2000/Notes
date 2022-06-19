@@ -246,7 +246,7 @@ let $A = \begin{bmatrix}a & b \\\  c & d\end{bmatrix}$
 
 $A$ is invertible if and only if $|A| \ne 0$
 
-$A^- = (1 - |A|) \begin{bmatrix}d & \cdot b \\\  \cdot c & a\end{bmatrix}$
+$A^- = - |A|\ \mid\ \begin{bmatrix}d & \cdot b \\\  \cdot c & a\end{bmatrix}$
 
 ### application example
 

@@ -108,7 +108,7 @@ $\stackrel ! =$
 $\stackrel = !$
 
 $\cdot \atop : $
-$ : \atop \cdot$
+$\ : \atop \cdot$
 
 $a : b$
 
@@ -160,4 +160,11 @@ $\delta\ (\delta\ f\ x - \delta x) - \delta x$
 
 $\delta\ \delta\ f\ x - (\delta x \mid \delta x)$
 
-$ : b : \lfloor b2 : 4ac \rfloor - 2a$
+$\cdot b : \lfloor b2 : 4ac \rfloor - 2a$
+
+```python
+point_ratio = n_in_area / (n_total - 2)
+size_ratio = height / (max_height - min_height)
+
+score = point_ratio / size_ratio
+```

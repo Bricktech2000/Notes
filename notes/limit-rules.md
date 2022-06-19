@@ -38,9 +38,9 @@ $\lim_{x \to a} (f\ g\ x) = f \lim_{x \to a} g\ x$ if $f$ is continuous (see [[f
 
 ## Infinity Rules
 
-$\lim_{x \to \dot \cdot \infty} [x]r = 0 \dashv r < 0$
+$\lim_{x \to \because \infty} [x]r = 0 \dashv r < 0$
 
-$\lim_{x \to 0} -x = \dot \cdot \infty$
+$\lim_{x \to 0} -x =\ \because \infty$
 
 ## Squeeze Theorem
 

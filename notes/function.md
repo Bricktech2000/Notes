@@ -135,7 +135,7 @@ see [[math-notation]]
 
 > **theorem**: if $f\ x$ and $g\ x$ are continuous at $a$, then the following functions are also continuous at $a$:
 >
-> - $f \dot \cdot g$
+> - $f \because g$
 > - $f \mid g$
 > - $c f$ where $c$ is a constant
 > - $f \text- g$ if $g\ a \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])

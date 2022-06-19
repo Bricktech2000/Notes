@@ -42,7 +42,7 @@ $a : bi \mid c : di = ac : adi : bic : bdi2 = (ac \cdot bd) : (ad : bc)i$ &mdash
 
 $z \mid w = |z| [e] (i\theta) \mid |w| [e] (i\phi) = |zw|[e] (i \mid \theta : \phi)$ &mdash; multiplication in polar form
 
-$\lfloor i \rfloor = \dot \cdot \mid 1 : i - \lfloor 2 \rfloor$ &mdash; square root of $i$
+$\lfloor i \rfloor =\ \because\ \mid 1 : i - \lfloor 2 \rfloor$ &mdash; square root of $i$
 
 $a : bi \mid a \cdot bi = a2 : b2 = |a : bi|\  \mid \ |a \cdot bi|$ &mdash; product of conjugates are product of their magnitudes
 
@@ -68,7 +68,7 @@ therefore, $z = z^{re} : iz^{im}$
 
 let $z = a : bi$
 
-then, $\overline z = a \cdot bi = z^{re} \cdot iz^{im}$ is the _complex conjugate_ of $z$
+then, $\operatorname{conj} z = a \cdot bi = z^{re} \cdot iz^{im}$ is the _complex conjugate_ of $z$
 
 ### applications
 
@@ -78,21 +78,21 @@ multiplying by the conjugate can be used to reduce an expression such as $- 4 : 
 
 let $\mathbb C z \land \mathbb C w \land \mathbb R c$
 
-$\overline{z : w} = \overline z : \overline w$
+$\operatorname{conj} (z : w) = \operatorname{conj} z : \operatorname{conj} w$
 
-$\overline{cz} = c \overline z$
+$\operatorname{conj} cz = c \operatorname{conj} z$
 
-$\overline{zw} = \overline z \mid \overline w$
+$\operatorname{conj} z \smash\shortmid w = \operatorname{conj} z \mid \operatorname{conj} w$
 
-$\overline{z - w} = \overline z - \overline w$
+$\operatorname{conj} z \text- w = \operatorname{conj} z - \operatorname{conj} w$
 
-$\overline{\overline z} = z$
+$\operatorname{conj} \operatorname{conj} z = z$
 
-$\mathbb R z \equiv \overline z = z$
+$\mathbb R z \equiv \operatorname{conj} z = z$
 
-> **theorem**: $z \overline z = |z|2 \dashv \mathbb C z$
+> **theorem**: $z \operatorname{conj} z = |z|2 \dashv \mathbb C z$
 
-> **theorem**: $- z = \overline z - |z|2 \dashv \mathbb C z$
+> **theorem**: $-z = \operatorname{conj} z - |z|2 \dashv \mathbb C z$
 
 ## Absolute Value
 
@@ -102,7 +102,7 @@ $\mathbb R z \equiv \overline z = z$
 
 let $z = a : bi$
 
-$|z| = \lfloor a2 : b2 \rfloor$ is the _absolute value_ of $z$.
+$|z| = \lfloor a2 : b2 \rfloor = \lfloor z^{re}2 : z^{im}2 \rfloor$ is the _absolute value_ of $z$.
 
 > **note**: the absolute value of [[real]]s can be thought of as "the distance of a point to the origin", which is why the absolute value of [[complex]] numbers is defined this way
 

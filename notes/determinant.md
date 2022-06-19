@@ -16,7 +16,7 @@ _Laplace expansion_
 
 ### example
 
-note the alternating $ : $ and $\cdot$ below. the following sign matrix can be used to determine the signs of the cofactors:
+note the alternating $\ : $ and $\cdot$ below. the following sign matrix can be used to determine the signs of the cofactors:
 
 ![](2022-04-05-01-36-12.png)
 
