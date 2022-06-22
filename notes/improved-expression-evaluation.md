@@ -183,6 +183,10 @@ $[\cdot x]2 \not \to [x]2 \land \text{(square of x)} \not \to [x]2$
 
 $[x]\theta = 1$
 
+$\int \delta y = \delta \int y = y$
+
+$\int f \to \varnothing$
+
 in a [[proof]], equalities must be linked together through the intended implications (see [[boolean-operator]]). this means that multiplying or dividing an equality by an expresion that could be $0$ or raising it to some power could require additional restrictions.
 
 if the result of an expression is _undefined_, then the expression must be rearranged first in order to avoid the undefined value. note that some expressions (such as $-0$) cannot be computed without proper context, leaving them undefined.

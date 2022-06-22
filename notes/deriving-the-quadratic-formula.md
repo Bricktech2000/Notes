@@ -8,7 +8,7 @@ $y = ax^2 + bx + c$
 
 $x = \sqrt{(y - k) / a} + h$
 
-$h = -b / (2a)$ (still to be proven)
+$h = -b / (2a)$ (can be proven using [[derivative]]s)
 
 $k = f(h)$
 

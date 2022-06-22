@@ -48,4 +48,8 @@
 
 [[sequence]] [[series]]
 
+[[options-market]]
+
 [[self-taught-software-engineer]]
+
+[[public-speaking]]

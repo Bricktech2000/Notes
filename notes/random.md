@@ -168,3 +168,23 @@ size_ratio = height / (max_height - min_height)
 
 score = point_ratio / size_ratio
 ```
+
+$$
+S\ x \equiv x = 1 \lor x = 2 \lor x = 3\\\
+
+S = \lbrace 1, 2, 3 \rbrace
+$$
+
+$$
+S = \lambda x\ x2\\\
+
+S = \lambda^x 2\\\
+
+\lambda x\ (\delta\ f\ x - \delta x)\ 5\\\
+
+f = x \to x2\\\
+
+x \to \delta\ f\ x - \delta x \circ 5\\\
+
+f = \lambda x \lambda y\ x : y
+$$
