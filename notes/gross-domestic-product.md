@@ -1,6 +1,6 @@
 # Gross Domestic Product
 
-> A country’s GDP is the market value of all final goods and services produced within a country in a given period of time
+> A country’s GDP is the market value of all final goods and services produced within a country in a given period of [[time]]
 
 see [[economy]], [[productivity]]
 
@@ -24,7 +24,7 @@ the GPD includes:
 
 > **note**: some products are excluded due to a difficult measurement
 
-the GDP measures all items above within a specific time interval, usually one year or one quarter
+the GDP measures all items above within a specific [[time]] interval, usually one year or one quarter
 
 ## Components of Expenditure (of the GDP)
 

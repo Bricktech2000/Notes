@@ -54,7 +54,7 @@ _How the Economy Works as a Whole_
 
 Produce [[goods-and-services]]
 
-> **definition**: _Productivity_ is the quantity of [[goods-and-services]] produced from each hour of a worker’s time
+> **definition**: _Productivity_ is the quantity of [[goods-and-services]] produced from each hour of a worker’s [[time]]
 
 ### Prices Rise When the Government Prints Too Much Money
 

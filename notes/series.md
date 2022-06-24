@@ -4,7 +4,7 @@ see [[math-notation]], [[sequence]], [[calculus-notation]]
 
 ## definition
 
-a [[series]] is the sum of all the elements of a [[sequence]]
+a [[series]] is the sum of infinitely many elements of a [[sequence]]
 
 let $a = a_0, a_1, \dots$
 
@@ -90,21 +90,41 @@ a geometric [[series]] $b[r]0, b[r]1, \dots$ with $b^0 \ne 0$:
 
 _allows for the approximation of a [[function]] near a point by a [[polynomial]]_
 
+> **note**: taylor [[series]] don't necessarily have an infinite radius of convergence, see power [[series]]
+>
+> as an example, the taylor [[series]] of the [[function]] $\lceil x \rceil$ at $a = 1$ has a radius of convergence of $1$, meaning the taylor [[series]] only converges to the [[function]] on the interval $0 < x \le 2$
+>
+> &mdash; <https://youtu.be/X0razs3zR94>
+
+> **note**: a taylor [[series]] with a nonzero radius of convergence does **not** necessarily converge to the [[function]] it approximates. for this to be the case, the [[function]] must be an analytical [[function]] &mdash; <https://youtu.be/X0razs3zR94>
+
 ### definition
 
 let $f\ x$ be a [[function]] and let $T\ x$ such that $T\ a = f\ a \land \delta\ T\ a = \delta\ f\ a \land \delta\ \delta\ T\ a = \delta\ \delta\ f\ a \dots$, where $(a, f\ a)$ is the point of interest on $f$ and $T\ x$ is a [[polynomial]] function
 
 we then derive the following definition:
 
-$T\ x = P\ 0 : P\ 1 : P\ 2 : \dots = f\ x$
-
-where $P\ n = (d\ n, f)\ a - \operatorname{fact} n \mid [x \cdot a]n$
-
-where $d\ n, f = d\ (n \cdot 1), (\delta\ f\ x - \delta x) \land d\ 0, f = f$
+> **definition**: $T\ x = P^0 : P^1 : P^2 : \dots = f\ x$, where
+>
+> $P^n = (d^n f)\ a - \operatorname{fact} n \mid [x \cdot a]n$, where
+>
+> $d^n f = d^{n \cdot 1} (\delta\ f\ x - \delta x) \land d^0 f = f$, see [[derivative]]
+>
+> &mdash; proof <https://youtu.be/7gigNsz4Oe8?t=17431>
+>
+> &mdash; intuitive explanation <https://youtu.be/3d6DsjIBzJ4?t=383>
 
 > **note**: the definition above assumes $x0 = x \dashv \mathbb R x \land \operatorname{fact} 0 = 1$, see [[improved-expression-evaluation]]
 
-&mdash; proof <https://youtu.be/7gigNsz4Oe8?t=17431>
+### Taylor Polynomial
+
+> **definition**: $T^n\ x = P^0 : P^1 : \dots P^n$, where
+>
+> $n$ is a finite [[number]]
+
+### properties
+
+taylor [[series]] are power [[series]]
 
 ## Power Series
 
@@ -122,7 +142,7 @@ $P\ x$ is the power [[series]] taking the argument $x$
 
 > **note**: the definition above assumes $[0]0 = 1$, see [[improved-expression-evaluation]]
 
-> **definition**: the _radius of convergence_ of a power [[series]] is the distance between its center and the endpoints of its interval of convergence. it can be computed using the _ratio test_.
+> **definition**: the _radius of convergence_ of a power [[series]] is the [[distance]] between its center and the endpoints of its interval of convergence. it can be computed using the _ratio test_.
 
 > **definition**: the _interval of convergence_ of a power [[series]] is the interval if input values for which the power [[series]] converges. it can be computed using the _ratio test_. note that the convergence at the interval endpoints will have to be checked separately.
 
@@ -134,7 +154,7 @@ a power [[series]] either:
 - converges for all $\mathbb R x$ &mdash; radius of convergence is $\infty$
 - converges on an interval centered around its center $x = a$ &mdash; radius of convergence is a finite [[number]]
 
-&mdash; proof <https://youtu.be/7gigNsz4Oe8?t=19897>
+> **proof**: &mdash; <https://youtu.be/7gigNsz4Oe8?t=19897>
 
 ## Harmonic Series
 
@@ -148,7 +168,9 @@ the _alternating harmonic [[series]]_ is defined as $1 \text- 1 \cdot 1 \text- 2
 
 the harmonic [[series]] diverges
 
-the alternating harmonic [[series]] converges at $\lceil 2 \rceil$ &mdash; proof <https://youtu.be/7gigNsz4Oe8?t=21458>
+the alternating harmonic [[series]] converges at $\lceil 2 \rceil$
+
+> **proof**: &mdash; <https://youtu.be/7gigNsz4Oe8?t=21458>
 
 ## Series Convergence
 
@@ -158,7 +180,9 @@ the alternating harmonic [[series]] converges at $\lceil 2 \rceil$ &mdash; proof
 
 > **definition** a [[series]] is said to be _conditionally convergent_ (_conditional convergence_) if it is _convergent_ but not _absolutely convergent_
 
-> **theorem**: a [[series]] being _convergent_ implies it is _absolutely convergent_ &mdash; proof <https://youtu.be/7gigNsz4Oe8?t=15557>
+> **theorem**: a [[series]] being _convergent_ implies it is _absolutely convergent_
+>
+> **proof**: &mdash; <https://youtu.be/7gigNsz4Oe8?t=15557>
 
 ### Integral Test
 
@@ -212,7 +236,9 @@ _useful for [[series]] containing factorials and a geometric part and for power 
 
 ### Divergence Test
 
-> **theorem**: let $b$ be a [[series]]. if $\lim_{n \to \infty} b^n \ne 0$, then $b$ is divergent
+> **theorem**: _Divergence Test_
+>
+> let $b$ be a [[series]]. if $\lim_{n \to \infty} b^n \ne 0$, then $b$ is divergent
 
 > **note**: $\lim_{n \to \infty} b^n = 0$ does not imply that $b$ is convergent
 

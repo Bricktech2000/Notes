@@ -6,7 +6,7 @@ the cross product is only defined for [[vector-in-rn]]3
 
 ### definitions
 
-_results in a [[vector]] of length (area of the parallelogram formed by the two [[vector]]s) and of orientation (perpendicular to the [[plane-in-r3]] formed by the two [[vector]]s)_ — 3B1B
+_results in a [[vector]] of [[length]] ([[area]] of the parallelogram formed by the two [[vector]]s) and of orientation (perpendicular to the [[plane-in-r3]] formed by the two [[vector]]s)_ — 3B1B
 
 see [[determinant]]
 
@@ -34,8 +34,8 @@ $k \mid a \hat\shortmid b = ka\ \hat\mid\ b = a\ \hat\mid\ kb$ &mdash; associati
 
 ### applications
 
-$|u\ \hat\mid\ v|$ is the area of the parallelogram with sides $u$ and $v$
+$|u\ \hat\mid\ v|$ is the [[area]] of the parallelogram with sides $u$ and $v$
 
-for volume of [[parallelepiped]] from 3 [[vector]]s in $\mathbb R^3$, see [[vector-in-rn]]
+for [[volume]] of [[parallelepiped]] from 3 [[vector]]s in $\mathbb R^3$, see [[vector-in-rn]]
 
 orthogonality to both vectors, see properties above

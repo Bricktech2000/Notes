@@ -19,7 +19,7 @@ indicators include:
 
 even though [[indicator-generalization]] is an important part of social interactions, overgeneralization can lead to a number of problems.
 
-university is sometimes described as a _diploma factory_, where students exchange a sum of money and an amount of time for a diploma. according to this description, the primary goal of universities has been shifting from "teaching students" to "giving out diplomas", as both students and universities know that the ownership of a diploma is a powerful **indicator**
+university is sometimes described as a _diploma factory_, where students exchange a sum of money and an amount of [[time]] for a diploma. according to this description, the primary goal of universities has been shifting from "teaching students" to "giving out diplomas", as both students and universities know that the ownership of a diploma is a powerful **indicator**
 
 resumes are, at their core, a collection of **indicators** that attempt to describe a person's professional skills. however, **indicators** can only go so far, and the more they are generalized, the less accurate they get. this means that someone's actual value can often be much greater than the value derived from their **indicators**. as job applications are more often than not submitted online nowadays, one's professional value is often derived from an overgeneralization of their **indicators**
 

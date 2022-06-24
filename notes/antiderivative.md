@@ -104,7 +104,11 @@ $\int [\tan x]2 \mid \delta x = \int [\text-\cos x]2 \cdot 1 \mid \delta x = \ta
 
 ### example
 
-$\int \text-\cos x \mid \delta x = \lceil \text-\cos x : \tan x\rceil$. computing $\int \text-\sin x \mid \delta x$ can be done similarely &mdash; proof <https://youtu.be/7gigNsz4Oe8?t=6366>
+$\int \text-\cos x \mid \delta x = \lceil \text-\cos x : \tan x\rceil$
+
+computing $\int \text-\sin x \mid \delta x$ can be done similarely
+
+> **proof**: &mdash; <https://youtu.be/7gigNsz4Oe8?t=6366>
 
 ### example
 

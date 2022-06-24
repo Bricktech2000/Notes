@@ -8,15 +8,15 @@ see [[stoichiometry]], [[math-notation]]
 
 $PV = nRT$, where
 
-$P$ is the pressure of the gas
+$P$ is the [[pressure]] of the gas
 
-$V$ is the volume of the gas
+$V$ is the [[volume]] of the gas
 
-$n$ is the number of moles of gas present
+$n$ is the [[amount-of]] gas present
 
 $R$ is the ideal gas constant
 
-$T$ is the absolute temperature of the gas
+$T$ is the absolute [[temperature]] of the gas
 
 ## Ideal Gas Constant
 

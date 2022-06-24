@@ -102,7 +102,7 @@ $u$ and $v$ are colinear if $u$ is a [[linear-combination]] of the [[set]] $\lbr
 
 ## Projections
 
-_The scalar projection is equal to the length of the vector projection_ &mdash; Wikipedia
+_The scalar projection is equal to the [[length]] of the vector projection_ &mdash; Wikipedia
 
 see [[dot-product]]
 
@@ -148,6 +148,6 @@ see [[dot-product]], [[cross-product]]
 
 $V = |w\ \dot\mid\ u \bar\shortmid v|$ (see [[dot-product]], [[cross-product]]), where
 
-$V$ is the volume to be calculated
+$V$ is the [[volume]] to be calculated
 
 $u$, $v$ and $w$ are the three [[vector]]s in $\mathbb R^3$

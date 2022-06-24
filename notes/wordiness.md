@@ -30,6 +30,6 @@ can be rewritten as
 
 > we will discuss
 
-> Albert Einstein **was a scientist who** revolutionized our understanding of time.
+> Albert Einstein **was a scientist who** revolutionized our understanding of [[time]].
 
 > Internet addiction is enabled by several factors. **These factors** include ...

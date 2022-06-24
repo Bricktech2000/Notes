@@ -222,9 +222,9 @@ $f_{arc} = \int \lfloor 1 : [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
 
 > **note**:
 >
-> the euclidean distance between two points is defined as $d = \lfloor [\Delta x]2 : [\Delta f\ x]2 \rfloor$
+> the euclidean [[distance]] between two points is defined as $d = \lfloor [\Delta x]2 : [\Delta f\ x]2 \rfloor$
 >
-> turning the distance [[function]] into an [[integral]], $f_{arc} = \int \lfloor [\delta x]2 : [\delta f\ x]2 \rfloor$
+> turning the [[distance]] [[function]] into an [[integral]], $f_{arc} = \int \lfloor [\delta x]2 : [\delta f\ x]2 \rfloor$
 >
 > reducing, $f_{arc} = \int \lfloor [\delta x]2 : [\delta f\ x]2 - [\delta x]2 \rfloor \mid \delta x$
 >
@@ -237,6 +237,16 @@ $f_{arc} = \int \lfloor 1 : [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
 a [[function]] $f$ is said to be one-to-one if $f\ x_1 = f\ x_2 \vdash x_1 = x_2 \dashv \mathbb U x_1 \land \mathbb U x_2$, see [[universal-set]]
 
 given the graph of a [[function]], one can use the _horizontal line test_ to determine whether it is one-to-one
+
+## Analytic Function
+
+an analytic [[function]] is a [[function]] that is locally given by a convergent power [[series]] &mdash; Wikipedia
+
+### properties
+
+see [[derivative]]
+
+an analytic [[function]] is infinitely differentiable, but an infinitely differentiable [[function]] is not necessarily analytic &mdash; <https://youtu.be/X0razs3zR94?t=598>
 
 ## Total Function
 

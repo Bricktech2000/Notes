@@ -28,7 +28,7 @@ where $Q$ is the reaction quotient, $p$ are pressures in $bar$ and $[X]$ are mol
 
 _involving reactants or products in different phases_
 
-> The expressions of $K$ and $Q$ include only species whose concentrations change as the reaction approaches equilibrium
+> The expressions of $K$ and $Q$ include only species whose [[concentration]]s change as the reaction approaches equilibrium
 
 for example, with $CaCO_{3(s)} \Leftrightarrow CaO_{(s)} + CO_{2(g)}$, then $Q = Q_p = p_{CO_2}$
 
@@ -47,7 +47,7 @@ let $aA + bB \Leftrightarrow cC + dD$
 
 $Q = Q_p = Q_c(RT)^{\Delta n_{gas}} = Q_c(RT)^{(c + d) - (a + b)}$ (goes for both $Q$ and $K$), where
 
-$Q = Q_p$ is the actual reaction quotient using pressures in $bar$ (since we're working with gases) and $Q_c$ is the reaction quotient using concentrations
+$Q = Q_p$ is the actual reaction quotient using pressures in $bar$ (since we're working with gases) and $Q_c$ is the reaction quotient using [[concentration]]s
 
 $\Delta n_{gas}$ is the change in the number of moles of gas in the reaction, assuming $A, B, C, D$ are gases
 
@@ -59,7 +59,7 @@ $Q$ is the reaction quotient. it holds at **any point in the reaction**
 
 $K$ is the equilibrium constant. it is equal to $Q$ when the reaction is at **equilibrium**
 
-$K$ is dependent on temperature
+$K$ is dependent on [[temperature]]
 
 **example with** $N_2O_4 \Leftrightarrow NO_2$
 

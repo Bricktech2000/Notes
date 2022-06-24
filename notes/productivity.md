@@ -1,6 +1,6 @@
 # Productivity
 
-_The quantity of goods and services produced per unit of a worker’s time_
+_The quantity of goods and services produced per unit of a worker’s [[time]]_
 
 see [[wealth]], [[economic-growth]]
 

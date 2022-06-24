@@ -2,7 +2,7 @@
 
 _an increase in the overall level of prices in the economy_
 
-> **definition**: _Inflation_ is the decline of purchasing power of a given currency over time. A quantitative estimate of the rate at which the decline in purchasing power occurs can be reflected in the increase of an average price level of a basket of selected [[goods-and-services]] (see [[consumer-price-index]]) in an economy over some period of time &mdash; Investopedia
+> **definition**: _Inflation_ is the decline of purchasing power of a given currency over [[time]]. A quantitative estimate of the rate at which the decline in purchasing power occurs can be reflected in the increase of an average price level of a basket of selected [[goods-and-services]] (see [[consumer-price-index]]) in an economy over some period of [[time]] &mdash; Investopedia
 
 see [[economics]], [[math-notation]]
 

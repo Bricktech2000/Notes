@@ -46,4 +46,4 @@ _there are three different main kinds of bonds_
 - tend to be brittle
 - molecular substances, we could theoretically isolate a single molecule
 - generally have reasonably strong intermolecular bonds, but weak intramolecular bonds
-- low melting points, low density, low boiling points
+- low melting points, low [[density]], low boiling points

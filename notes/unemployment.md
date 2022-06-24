@@ -53,7 +53,7 @@ Frictional Unemployment is often thought to explain shorter-term [[unemployment]
 
 > **definition**: _Sectoral Shifts_ are the changes in the composition of demand among industries or regions
 
-As time is required for workers to find a job, Sectoral Shifts can cause short-term [[unemployment]]
+As [[time]] is required for workers to find a job, Sectoral Shifts can cause short-term [[unemployment]]
 
 > **definition**: _Employment Insurance_ (EI) is a government program that partially protects workers' incomes when they become unemployed
 

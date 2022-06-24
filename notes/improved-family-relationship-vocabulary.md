@@ -6,7 +6,7 @@ who thought this would be an intuitive way to describe family relationships? let
 
 ## vocabulary
 
-all that is needed to describe the relationship between two people in a family is the two distances between them and a common ancestor. below is an example of the representation of an _uncle_.
+all that is needed to describe the relationship between two people in a family is the two [[distance]]s between them and a common ancestor. below is an example of the representation of an _uncle_.
 
 ```
     grandparent
@@ -19,7 +19,7 @@ all that is needed to describe the relationship between two people in a family i
 
 ```
 
-in this case, _grandparent_ is the common ancestor, which is a distance of `2` from _SELF_ and a distance of `1` from _uncle_. therefore, _SELF_'s _uncle_ would be called their `2-1`.
+in this case, _grandparent_ is the common ancestor, which is a [[distance]] of `2` from _SELF_ and a [[distance]] of `1` from _uncle_. therefore, _SELF_'s _uncle_ would be called their `2-1`.
 
 below are some useful equivalences.
 
@@ -44,7 +44,7 @@ below are some useful equivalences.
 
 see [[math-notation]]
 
-let $m$ and $n$ be the two numbers representing the distance between two people in a family.
+let $m$ and $n$ be the two numbers representing the [[distance]] between two people in a family.
 
 - $m = n$ indicates both people are in the same generation
 - $-[2](m : n)$ is the amount of DNA two people have in common (excluding significant others)

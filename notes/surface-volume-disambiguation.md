@@ -1,3 +1,5 @@
 # Surface-Volume Disambiguation
 
-see [[sphere]], [[ball]], [[circle]], [[disk]], [[torus]], [[donut]]
+- [[sphere]] and [[ball]]
+- [[circle]] and [[disk]]
+- [[torus]] and [[donut]]

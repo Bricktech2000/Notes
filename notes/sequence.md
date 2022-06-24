@@ -4,7 +4,7 @@ see [[math-notation]], [[series]], [[calculus-notation]]
 
 ## definition
 
-a [[sequence]] is an ordered collection of elements
+a [[sequence]] is an ordered collection of infinitely many elements
 
 ## notations
 

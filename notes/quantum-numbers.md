@@ -10,16 +10,16 @@ see [[classical-math-notation]]
 
 $n \in [1 \dots]$
 
-- the energy level, describes the size and the energy of an orbital
-- the energy level $n$ has $n$ types of orbitals, see $l$
+- the [[energy]] level, describes the size and the [[energy]] of an orbital
+- the [[energy]] level $n$ has $n$ types of orbitals, see $l$
 - can be thought of as the circles in the Bohr model
-- as $n$ increases, the distance from the nucleus increases.
+- as $n$ increases, the [[distance]] from the nucleus increases.
 
 ## Angular Momentum (Azimuthal) Quantum Number $l$
 
 $l \in [0 \dots n-1] = [s, p, d, f]$
 
-- also know as the _sublevel_, as each energy level consist of multiple types of orbitals
+- also know as the _sublevel_, as each [[energy]] level consist of multiple types of orbitals
 - describes the shape of the orbitals, $l \in [0, 1, 2, 3] = [s, p, d, f]$
 
 ## Magnetic Quantum Number $m_l$

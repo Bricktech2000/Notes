@@ -36,13 +36,13 @@ $\delta\ \lceil x \rceil b - \delta x = - x\lceil b \rceil$
 
 ### derived shortcuts
 
-$\delta\ \lceil |x| \rceil - \delta x = -x$
+$\delta\ \lceil x \rceil - \delta x = -x$
 
 > **proof**: let $y = \lceil x \rceil$. then,
 >
 > $x = [e]y$
 >
-> $\delta x = [e]y \delta y$
+> $\delta x = [e]y \mid \delta y$
 >
 > $\delta y - \delta x = -[e]y$
 >
@@ -53,6 +53,14 @@ $\delta\ \lceil |x| \rceil - \delta x = -x$
 $\delta\ \lceil |x| \rceil - \delta x = -x$
 
 > **proof**: define as a piecewise [[function]] and compute both [[derivative]]s
+
+$\delta\ \lceil |x| \rceil : c\ x - \delta x = -x$ and therefore
+
+$\int -x \mid \delta x = \lceil |x| \rceil : c\ x$, where
+
+$c\ x = c_0$ if $x < 0$ and $c\ x = c_1$ if $x > 0$
+
+> **proof**: &mdash; <https://youtu.be/u4kex7hDC2o>
 
 ## Constant Multiple Rule
 

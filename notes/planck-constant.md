@@ -1,4 +1,4 @@
-# Plank's Constant
+# Planck Constant
 
 see [[math-notation]]
 

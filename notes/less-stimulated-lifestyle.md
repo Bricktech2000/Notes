@@ -55,4 +55,4 @@ entirely prohibited
 - drugs, alcohol, porn, sex, etc.
 - junk food
 - posting on [[social-media]]
-- using a phone to kill time
+- using a phone to kill [[time]]

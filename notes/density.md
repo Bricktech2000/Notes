@@ -1,19 +1,17 @@
 # Density
 
-symbol: $\rho$
+see [[math-notation]], [[si]]
 
-see [[math-notation]]
-
-## Formula
+## definition
 
 $\rho = m \text- V$, where
 
-$\rho$ is the density of a substance
+$\rho$ is the [[density]] of a substance
 
-$m$ is the mass of the substance
+$m$ is the [[mass]] of the substance
 
-$V$ is the volume of the substance
+$V$ is the [[volume]] of the substance
 
-## Constants
+## constants
 
 $\rho_{H_2O_{4^\cdot C}} = 1g \text- mL$

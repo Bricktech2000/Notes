@@ -28,7 +28,7 @@ _derived from $Q = mc \Delta T$_
 
 $V = m_{iridium} / \rho_{iridium} / 100$
 
-_the volume of a [[sphere]] is its mass divided by its density, divided by 100 spheres_
+_the [[volume]] of a [[sphere]] is its [[mass]] divided by its [[density]], divided by 100 [[sphere]]s_
 
 ![](2022-02-26-01-25-36.png)
 

@@ -69,13 +69,17 @@ all constructs below can be multiline
 
 > **note**: this is a note to clarify the previous statement
 
-> **theorem**: this is a theorem
+> **theorem**: this is a theorem &mdash; this is an optional source
 
-> **theorem**: _theorem name_ this is a theorem
+> **theorem**: _theorem name_
+>
+> this is a theorem &mdash; this is an optional source
 
-> **proof**: this is a proof of the above theorem
+> **proof**: this is a proof of the above theorem &mdash; this is an optional source
 
-> **definition**: _term_ is a term that is defined here &mdash; this is a source
+> **proof**: &mdash; this is a source
+
+> **definition**: _term_ is a term that is defined here &mdash; this is an optional source
 
 > **AKA**: this is a list of synonyms for a concept, "also known as"
 

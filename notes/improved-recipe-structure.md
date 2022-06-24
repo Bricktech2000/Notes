@@ -23,4 +23,4 @@ see [[cajun-shrimp-and-sausage-rice]]
 
 ## limits
 
-- buying ingredients can be more time consuming if the cook uses the ingredients list as their shopping list
+- buying ingredients can be more [[time]] consuming if the cook uses the ingredients list as their shopping list

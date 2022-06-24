@@ -74,7 +74,7 @@ $\cos (x : y) = (\cos x \mid \cos y) \cdot (\sin x \mid \sin y)$
 
 difference identities can be computed using the sum identities above
 
-&mdash; proof <https://youtu.be/7gigNsz4Oe8?t=5103>
+> **proof**: &mdash; <https://youtu.be/7gigNsz4Oe8?t=5103>
 
 ### double- and half-angle identities
 

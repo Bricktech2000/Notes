@@ -22,11 +22,11 @@ $\frac{d^n}{dx^n} = \frac{d^nf}{dx^n}$
 
 ### in my [[math-notation]]
 
-see [[calculus-notation]]
+$\delta\ f\ x - \delta x$, see [[calculus-notation]]
 
-$d\ n, f = d\ (n \cdot 1), (\delta\ f\ x - \delta x) \land d\ 0, f = f$
+$d^n f = d^{n \cdot 1} (\delta\ f\ x - \delta x) \land d^0 f = f$
 
-$d\ n, f$ would then be the $n$ th [[derivative]] of $f$
+$d^n f$ would then be the $n$ th [[derivative]] of $f x$ with respect to $x$
 
 ## definition
 

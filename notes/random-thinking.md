@@ -29,4 +29,4 @@ why do sunsets look good? [[complete]]
 
 ## time = money
 
-time is money. the equation that links the two concepts together are one's salary. when working, one's time is sold for the amount of money they earn.
+[[time]] is [[money]]. the equation that links the two concepts together are one's salary. when working, one's time is sold for the amount of money they earn.

@@ -26,7 +26,7 @@ assuming a base-10 [[positional-numbering-system]] and base-10 [[logarithm]]s
 
 ### addition and subtraction
 
-keep as many significant figures after the last significant digit as the lowest amount of significant figures after the last significant digit in the original numbers
+keep as many significant figures after the last significant digit as the lowest number of of significant figures after the last significant digit in the original numbers
 
 $\ \ \ \ \ \ 530$ (2 significant figures)
 

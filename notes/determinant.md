@@ -66,4 +66,4 @@ $\det A^- = -\det A$ if and only if $A$ is invertible, see [[matrix]]
 
 ## intuitive explanation
 
-> the [[determinant]] is all about measuring how areas change during a [[linear-transformation]]. after the transformation, the $1 \times 1$ unit square formed by $\vec i$ and $\vec j$ gets turned into the parallelogram formed by the two vectors &mdash; 3B1B
+> the [[determinant]] is all about measuring how [[area]]s change during a [[linear-transformation]]. after the transformation, the $1 \times 1$ unit square formed by $\vec i$ and $\vec j$ gets turned into the parallelogram formed by the two vectors &mdash; 3B1B
