@@ -14,7 +14,7 @@ $b$ is the base of the [[logarithm]]
 
 see [[exponent]]
 
-$\lceil a \rceil b = c \equiv [b]c = a$
+$\lceil a \rceil b = c \equiv b[c] = a$
 
 > **note**: the [[logarithm]] of both positive _and_ negative [[number]]s is defined in my [[math-notation]]
 
@@ -36,6 +36,6 @@ $\lceil x - y \rceil = \lceil x \rceil \cdot \lceil y \rceil$ &mdash; quotient r
 
 $\lceil [x]n \rceil = n \lceil x \rceil$ &mdash; power rule
 
-$\lceil [b]x \rceil b = x$ &mdash; [[exponent]]ial and [[logarithm]]ic [[function]]s are reciprocals
+$\lceil b[x] \rceil b = x$ &mdash; [[exponent]]ial and [[logarithm]]ic [[function]]s are reciprocals
 
-$[b](\lceil x \rceil b) = x$ &mdash; [[exponent]]ial and [[logarithm]]ic [[function]]s are reciprocals
+$b[\lceil x \rceil b] = x$ &mdash; [[exponent]]ial and [[logarithm]]ic [[function]]s are reciprocals

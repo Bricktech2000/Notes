@@ -261,8 +261,6 @@ $2[x : 2)$
 
 $e \langle x \cdot mu)$
 
-$-\lfloor \tau \sigma2 \rfloor - e[[x \cdot \mu]2 - 2\sigma2]$
-
 $10[5]$
 
 $[10]5$
@@ -271,4 +269,8 @@ $5 \shortmid x[1 \text- 3]$
 
 ```
 [^\[!\$ ]\[[^\[]
+
+[^\[]\[[^\[]
 ```
+
+$-\lfloor \tau \sigma2 \rfloor - e[[x \cdot \mu]2 - 2\sigma2]$

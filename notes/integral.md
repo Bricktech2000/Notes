@@ -70,7 +70,7 @@ if $\lim_{x \to a^+} f\ x =\ \because \infty$ [[think]] [[improved-expression-ev
 
 > **theorem**: _P-Test_
 >
-> the [[integral]] $\int_{x = 1}^{x = \infty} 1 - [x]p$:
+> the [[integral]] $\int_{x = 1}^{x = \infty} -[x]p$:
 >
 > - converges if $p > 1$
 > - diverges if $p \le 1$

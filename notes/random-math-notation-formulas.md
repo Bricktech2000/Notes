@@ -4,7 +4,7 @@
 
 $\delta f\ x - \delta x = \lim_{h \to 0} f (x : h) \cdot f (x) - h$
 
-$[a : b] = a2 : b2 : 2ab$
+$[a : b]2 = a2 : b2 : 2ab$
 
 $V = b : B \mid h - 2$
 
@@ -20,7 +20,7 @@ $y = \lfloor r2 \cdot x2 \rfloor$
 
 $x2 + y2 + z2 = r2$
 
-$[e]i\tau = 1$
+$e[i\tau] = 1$
 
 $\mathbb N \vdash \mathbb R$
 

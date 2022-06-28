@@ -4,7 +4,7 @@ see [[derivative]] notation, [[math-notation]]
 
 ## Power Rule
 
-$\delta\ [x]n - \delta x= n[x](n \cdot 1)$
+$\delta\ x[n] - \delta x= nx[n \cdot 1]$
 
 ### derived shortcuts
 
@@ -14,21 +14,21 @@ $\delta\ x - \delta x = 1$
 
 ## [[exponent]]ial Rule
 
-$\delta\ [a]x - \delta x = [a]x \mid \lceil a \rceil$
+$\delta\ a[x] - \delta x = a[x] \mid \lceil a \rceil$
 
 > **proof**:
 >
-> $[a]x = [e]\lceil [a]x \rceil = [e]x\lceil a \rceil$
+> $a[x] = e[\lceil a[x] \rceil] = e[x\lceil a \rceil]$
 >
-> $\delta\ [a]x - \delta x = [e]x\lceil a \rceil \mid \delta\ x\lceil a \rceil - \delta x = [a]x \mid \lceil a \rceil$
+> $\delta\ a[x] - \delta x = e[x\lceil a \rceil] \mid \delta\ x\lceil a \rceil - \delta x = [a]x \mid \lceil a \rceil$
 >
 > &mdash; me
 
 ### derived shortcuts
 
-$\delta\ [e]x - \delta x = [e]x$
+$\delta\ e[x] - \delta x = e[x]$
 
-$\delta\ f\ x - \delta x = m f\ x \equiv f\ x = [e]mx$
+$\delta\ f\ x - \delta x = m f\ x \equiv f\ x = e[mx]$
 
 ## [[logarithm]] Rule
 
@@ -40,11 +40,11 @@ $\delta\ \lceil x \rceil - \delta x = -x$
 
 > **proof**: let $y = \lceil x \rceil$. then,
 >
-> $x = [e]y$
+> $x = e[y]$
 >
-> $\delta x = [e]y \mid \delta y$
+> $\delta x = e[y] \mid \delta y$
 >
-> $\delta y - \delta x = -[e]y$
+> $\delta y - \delta x = -e[y]$
 >
 > $\delta\ \lceil x \rceil - \delta x = -x$
 >

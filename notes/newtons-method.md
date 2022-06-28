@@ -20,4 +20,4 @@ $x^{n : 1} = x^n \cdot (f\ x_n - (\delta\ f\ x - \delta x)\ x_n)$
 
 ## example
 
-$[e]x = 4x$
+$e[x] = 4x$

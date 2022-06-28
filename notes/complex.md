@@ -26,7 +26,7 @@ $z = a : bi$
 
 > **AKA**: Euler's formula notation
 
-$z = |z| \cos \theta : |z| i \sin \theta = |z| [e]i\theta$, see [[e]]
+$z = |z|\ \cos \theta : |z|\ i \sin \theta = |z|\ e[i\theta]$, see [[e]]
 
 ## properties
 
@@ -40,11 +40,11 @@ $(a : bi) \cdot (c : di) = (a \cdot c) : (b \cdot d)i$ &mdash; subtraction
 
 $a : bi \mid c : di = ac : adi : bic : bdi2 = (ac \cdot bd) : (ad : bc)i$ &mdash; multiplication
 
-$z \mid w = |z| [e] (i\theta) \mid |w| [e] (i\phi) = |zw|[e] (i \mid \theta : \phi)$ &mdash; multiplication in polar form
+$z \mid w = |z|\ e[i\theta] \mid |w|\ e[i\phi] = |zw|\ e[i \mid \theta : \phi]$ &mdash; multiplication in polar form
 
 $\lfloor i \rfloor =\ \because\ \mid 1 : i - \lfloor 2 \rfloor$ &mdash; square root of $i$
 
-$a : bi \mid a \cdot bi = a2 : b2 = |a : bi|\  \mid \ |a \cdot bi|$ &mdash; product of conjugates are product of their magnitudes
+$a : bi \mid a \cdot bi = a2 : b2 = |a : bi|\ \mid\ |a \cdot bi|$ &mdash; product of conjugates are product of their magnitudes
 
 &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
 

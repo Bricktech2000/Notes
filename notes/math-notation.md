@@ -24,13 +24,15 @@ $a \smash\shortmid b$ is multiplication
 
 $a \mid b$ is low-precedence multiplication
 
-$[a] b$ is $a$ to the power of $b$
+$[a]b$ is $a$ to the power of $b$ (represents a power by convention)
+
+$a[b]$ is $a$ to the power of $b$ (represents an exponential by convention)
 
 $\lfloor a \rfloor b$ is the $b$ th root of $a$ ($b = 2$ if $b$ is omitted)
 
 $\lceil a \rceil b$ is the base-$b$ [[logarithm]] of $a$ ($b = e$ if $b$ is omitted)
 
-$a\ b$ is shorthand for $[a] b$ only if $b$ is a [[number]] and $a$ is a variable
+$a\ b$ is shorthand for $[a]b$ only if $b$ is a [[number]] and $a$ is a variable
 
 ### [[set]]s and [[function]]s
 

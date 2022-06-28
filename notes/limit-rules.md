@@ -66,7 +66,7 @@ other [[limit]] indeterminate forms can be rewritten to use L'Hôpital's rule:
 
 ### examples
 
-$\lim_{x \to \infty} x - [3]x$
+$\lim_{x \to \infty} x - 3[x]$
 
 $\lim_{x \to 0} \sin x \cdot x - [\sin x]3$
 

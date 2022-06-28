@@ -36,11 +36,11 @@ $(AB)^{i, j} = A^{i, } \mid^\cdot B^{, j} \dashv \mathbb N i \land \mathbb N j$,
 
 ### notation
 
-$AA = A2 = [A] 2 \dashv \mathbb M A$
+$AA = A2 = [A]2 \dashv \mathbb M A$
 
 therefore,
 
-$AA \dots A = [A] n \land \mathbb N n \dashv \mathbb M A$
+$AA \dots A = [A]n \land \mathbb N n \dashv \mathbb M A$
 
 ### properties
 

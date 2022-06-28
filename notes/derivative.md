@@ -56,29 +56,29 @@ _differentiating the [[logarithm]] of a [[function]] instead of the [[function]]
 
 _useful for computing the [[derivative]] of an [[exponent]]ial [[function]]_
 
-### example with $[x][e]x$
+### example with $x[e[x]]$
 
-$y = [x][e]x$
+$y = x[e[x]]$
 
-$\lceil y \rceil = \lceil [x][e]x \rceil = \lceil x \rceil \smash\shortmid [e]x$
+$\lceil y \rceil = \lceil x[e[x]] \rceil = \lceil x \rceil e[x]$
 
-$\delta\ \lceil y \rceil - \delta x = \delta\ [e]x \smash\shortmid \lceil x \rceil - \delta x$
+$\delta\ \lceil y \rceil - \delta x = \delta\ \lceil x \rceil e[x] - \delta x$
 
-$-y \mid \delta\ y - \delta x = ([e]x - x) : \lceil x \rceil \smash\shortmid [e]x$
+$-y \mid \delta\ y - \delta x = e[x] \text- x : \lceil x \rceil e[x]$
 
-$\delta\ y - \delta x = [x][e]x \mid ([e]x - x) : \lceil x \rceil \smash\shortmid [e]x$
+$\delta\ y - \delta x = x[e[x]] \mid e[x] \text- x : \lceil x \rceil e[x]$
 
 the alternative would be the following, by transforming and using the chain rule, see [[derivative-rules]]
 
-$y = [x][e]x$
+$y = x[e[x]]$
 
-$[x][e]x = [e] \lceil [x][e]x \rceil = [e](\lceil x \rceil \smash\shortmid [e]x)$
+$x[e[x]] = e[\lceil x[e[x]] \rceil] = e[\lceil x \rceil e[x]]$
 
-$\delta\ y - \delta x = \delta\ [e](\lceil x \rceil \smash\shortmid [e]x) - \delta x$
+$\delta\ y - \delta x = \delta\ e[\lceil x \rceil e[x]] - \delta x$
 
-$\delta\ y - \delta x = [e](\lceil x \rceil \smash\shortmid [e]x) \mid \delta\ \lceil x \rceil \smash\shortmid [e]x - \delta x$
+$\delta\ y - \delta x = e[\lceil x \rceil e[x]] \mid \delta\ \lceil x \rceil e[x] - \delta x$
 
-$\delta\ y - \delta x = [x][e]x \mid ([e]x - x) : \lceil x \rceil \smash\shortmid [e]x$
+$\delta\ y - \delta x = x[e[x]] \mid e[x] \text- x : \lceil x \rceil e[x]$
 
 #### example with $[x]x$
 

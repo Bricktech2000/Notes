@@ -77,27 +77,27 @@ $(a = b \dashv x \ne 0) \dashv x \ne 0\ \equiv\ a = b \dashv x \ne 0\ \equiv\ a 
 
 as the multiplications by zero have been cancelled out, the restrictions are no longer necessary. the equality above is always true.
 
-### attempts with $[0]0$
+### attempts with $0[0]$
 
-define $[0]0 = 1$ and let $x = 0$
+define $0[0] = 1$ and let $x = 0$
 
 trying to break the definition above,
 
-$1 = [0]0 = [x](1 \cdot 1) = x - x = 1$
+$1 = 0[0] = x[1 \cdot 1] = x - x = 1$
 
-$0 = [0]1 = [x](2 \cdot 1) = x2 - x = x \mid 1 = 0$
+$0 = 0[1] = x[2 \cdot 1] = x2 - x = x \mid 1 = 0$
 
-$\varnothing = [0](\cdot 1) = 1 - 0 = \varnothing$
+$\varnothing = 0[\cdot 1] = 1 - 0 = \varnothing$
 
-$1 = [0]0 = [x](2 \mid 0) = [x2]0 = [x \mid x]0 = x0 \mid x0 = 1$
+$1 = 0[0] = x[2 \mid 0] = [x2]0 = [x \mid x]0 = x0 \mid x0 = 1$
 
-$[[0]0]0 = [1]0 = 1$ and $[[0]0]0 = [0](0 \mid 0) = [0]0 = 1$
+$[[0]0]0 = [1]0 = 1$ and $[[0]0]0 = 0[0 \mid 0] = 0[0] = 1$
 
 ### additional examples
 
-$[0](n : 1) = 0 \dashv \mathbb N n$
+$0[n : 1] = 0 \dashv \mathbb N n$
 
-$[0](\cdot n \cdot 1) = \varnothing \dashv \mathbb N n$
+$0[\cdot n \cdot 1] = \varnothing \dashv \mathbb N n$
 
 $0 - 0 = \varnothing$
 
@@ -105,13 +105,13 @@ infinities do not exist
 
 $- 0 = \varnothing \ne \infty$
 
-in order to avoid breaking $[0]0 = 1$ (see Wikipedia article), we must define:
+in order to avoid breaking $0[0] = 1$ (see Wikipedia article), we must define:
 
-$[1](\cdot -0) = \varnothing \ne 0$
+$1[\cdot -0] = \varnothing \ne 0$
 
 ### attempt with [[integral]]s and [[logarithm]]s
 
-using the [[logarithm]] [[antiderivative]] rule, $\int 1 - x \mid \delta x = \lceil |x| \rceil : c\ x$. then, using the power [[antiderivative]] rule, $\int 1 - x \mid \delta x = \int [x](\cdot 1) \mid \delta x = ([x]\theta - \theta) : c$. with $c = \cdot 1 - \theta$, we get $\lceil x \rceil = [x]\theta \cdot 1 - \theta$
+using the [[logarithm]] [[antiderivative]] rule, $\int 1 - x \mid \delta x = \lceil |x| \rceil : c\ x$. then, using the power [[antiderivative]] rule, $\int 1 - x \mid \delta x = \int x[\cdot 1] \mid \delta x = x[\theta] \text- \theta : c$. with $c = \cdot 1 - \theta$, we get $\lceil x \rceil = x[\theta] \cdot 1 - \theta$
 
 ## exponents and square roots
 
@@ -169,9 +169,9 @@ $--\theta = \theta$ but $--0 \to \varnothing$
 
 $-0 \to \varnothing \land -\theta \to \varnothing$
 
-$[x]\theta = 1$
+$x[\theta] = 1$
 
-$[\theta]0 \to 1 \land [\theta]0 \to \varnothing \land [0]0 \to \varnothing \land [\theta]\theta \to \varnothing$
+$\theta[0] \to 1 \land \theta[0] \to \varnothing \land 0[0] \to \varnothing \land \theta[\theta] \to \varnothing$
 
 $\lfloor x2 \rfloor = x$
 
@@ -181,7 +181,7 @@ $[x]2 \to \text{(square of x)} \land [\cdot x]2 \to \text{(square of x)}$
 
 $[\cdot x]2 \not \to [x]2 \land \text{(square of x)} \not \to [x]2$
 
-$[x]\theta = 1$
+$x[\theta] = 1$
 
 $\int \delta y = \delta \int y = y$
 

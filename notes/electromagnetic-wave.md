@@ -52,4 +52,4 @@ $\#_\gamma$ is the number of [[photon]]s
 
 ## constants
 
-$1nm = [10](\cdot 9)m$
+$1nm = 10[\cdot 9] \text{m}$

@@ -56,7 +56,7 @@ multiplying a row or a column by a scalar $c$: $\det A = c \det A'$
 
 $\det AB = \det A \mid \det B$
 
-$\det [A] m = [\det A] m \dashv \mathbb N m$
+$\det [A]m = [\det A]m \dashv \mathbb N m$
 
 $\det A = 0$ if and only if $A$ is not invertible, see [[matrix]]
 

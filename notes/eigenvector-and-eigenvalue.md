@@ -115,7 +115,7 @@ then, $AP = PD$. as the columns of $P$ are [[linearly-independent]], we know $P$
 
 now, compute $[A]p \land \mathbb N p$ with $p$ being a very large integer
 
-with $A = PDP^-$, we get $[A]p = [PDP^-]p = P([D]p)P^-$
+with $A = PDP^-$, we get $[A]p = [PDP^-]p = P \mid [D]p \mid P^-$
 
 as $D$ is diagonal, we get $[D]p = \begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [\lambda_1]p & 0 \\\ 0 & 0 & [\lambda_2]p\end{bmatrix}$
 

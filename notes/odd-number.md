@@ -22,7 +22,7 @@ $\mathbb Z n$ and assume $\mathbb On$
 
 according to definition of [[odd-number]]s, $\mathbb On \equiv \mathbb Z k \land n = 2k : 1$
 
-then, $n2 = [2k \cdot 1] = 4k2 : 4k : 1 = 2(2k2 : 2k) : 1$
+then, $n2 = [2k \cdot 1]2 = 4k2 : 4k : 1 = 2(2k2 : 2k) : 1$
 
 we know $\mathbb Z (2k2 : 2k)$, as it is the result of multiplication and addition of [[integer]]s
 
