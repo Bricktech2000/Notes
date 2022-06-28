@@ -147,6 +147,8 @@ atom: variable | (expression)
 
 ## identities
 
+identities below hold for all $\mathbb B x$
+
 $x \vdash y \equiv \lnot x \lor y$ &mdash; implication
 
 $(x \equiv y) \equiv x \land y \lor \lnot x \land \lnot y$ &mdash; biconditional
@@ -157,9 +159,9 @@ $x \lor \bot \equiv x$ &mdash; identity
 
 $x \land \top \equiv x$ &mdash; identity
 
-$x \lor \lnot x \equiv \top$ &mdash; negation
+$x \lor \lnot x \equiv \top$ &mdash; complement
 
-$x \land \lnot x \equiv \bot$ &mdash; negation
+$x \land \lnot x \equiv \bot$ &mdash; complement
 
 $x \lor x \equiv x$ &mdash; idempotence
 
@@ -169,9 +171,11 @@ $x \lor \top \equiv \top$ &mdash; domination
 
 $x \land \bot \equiv \bot$ &mdash; domination
 
-$\lnot \lnot x \equiv x$ &mbash; double negation
+$\lnot \lnot x \equiv x$ &mdash; involution
 
 ## properties
+
+properties below hold for all $\mathbb B x$
 
 $x \lor y \equiv y \lor x$ &mdash; commutativity
 

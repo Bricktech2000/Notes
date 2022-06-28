@@ -10,7 +10,7 @@ options trading allows for higher leverage than the [[stock-market]]
 
 options price rise with high volatility and fall with low volatility
 
-the VIX predicts the volatility of the S&P 500 in the next 30 days. it always overstates its volatility by 4% &mdash; Felix. Therefore, it is more beneficial to be an options seller than an options buyer.
+the VIX predicts the volatility of the S&P 500 in the next 30 days. it always overstates its volatility by 4% &mdash; Felix. therefore, it is more beneficial to be an options seller than an options buyer.
 
 ## definitions
 
@@ -21,6 +21,14 @@ the VIX predicts the volatility of the S&P 500 in the next 30 days. it always ov
 > **definition**: the _premium_ is the price of an option, which is paid upfront
 
 > **definition**: the _expiration_ is the date at which an option expires and must be either executed or thrown away
+
+## Everything is Priced In
+
+when trading on the [[options-market]], you are trying to outsmart everyone else in the options market. it is likely that if you think you have an edge, you really don't. unless you successfully outsmart most people in the options market, you will likely make approximately $0%$ profit in the long run
+
+&mdash; <https://youtu.be/CWXvIwv3pg4>
+
+&mdash; <https://youtu.be/dgisRHEQ2FM>
 
 ## Trading Best Practices
 

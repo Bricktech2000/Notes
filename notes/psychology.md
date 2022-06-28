@@ -1,6 +1,6 @@
 # Psychology
 
-## psychology-related notes
+## see
 
 an excess of [[motivation]] can lead to [[feeling-overwhelmed]], which can lead to [[procrastination]]
 

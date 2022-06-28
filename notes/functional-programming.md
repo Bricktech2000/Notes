@@ -1,12 +1,14 @@
 # Functional Programming
 
-see [[functor]] & [[map]], [[monad]] & [[bind]], [[monoid]] & [[reduce]], [[effect-type]] & [[return]]
+## see
 
-see [[currying]], [[partial-application]], [[pure-function]]
+[[functor]] & [[map]], [[monad]] & [[bind]], [[monoid]] & [[reduce]], [[effect-type]] & [[return]]
 
-see [[function]], [[type]], [[composition]], [[apply]]
+[[currying]], [[partial-application]], [[pure-function]], [[combinatorics]], [[lambda-calculus]]
 
-see [[refactoring-to-immutability]]
+[[function]], [[type]], [[composition]], [[apply]]
+
+[[refactoring-to-immutability]]
 
 &mdash; <https://youtu.be/Nrp_LZ-XGsY>
 

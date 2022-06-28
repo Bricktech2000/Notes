@@ -264,3 +264,5 @@ even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it w
 
 - restrict the input of the [[function]] (something like `nonZeroF64`)
 - extend the input of the [[function]] (something like `Optional<f64>`)
+
+## [[pure-function]]

@@ -13,3 +13,11 @@ _a type of [[algorithm]]_
 > **note**: invariants are used in recursive algorithms that must mutate their parameters to work properly. this is the reason why invariant parameters must be restored before exiting the [[function]]
 
 &mdash; <https://youtu.be/jUM_Dpt6yu0?t=477>
+
+## General Recursion
+
+any [[algorithm]] that uses [[recursion]] can be represented as repeated [[function]] [[composition]]
+
+$\operatorname{rec} f = f\ (\operatorname{rec} f)$, which evaluates to $f\ f\ f\ f\ \dots$
+
+&mdash; <https://youtu.be/9T8A89jgeTI?t=482>

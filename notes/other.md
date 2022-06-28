@@ -19,3 +19,5 @@
 [[life-quotes]]
 
 [[recipes]]
+
+[[vim-talk]]

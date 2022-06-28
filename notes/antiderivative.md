@@ -68,15 +68,15 @@ $\int v \delta u = v u \cdot \int u \delta v$
 
 ### example
 
-$F\ x = \int x[e]x \mid \delta x$
+$F\ x = \int xe[x] \mid \delta x$
 
 $\int u \delta v = u v \cdot \int v \delta u$
 
-let $\delta v = [e]x \mid \delta x$ **as it is easier to integrate**. then, $u = x$, $\delta u = \delta x$ and $v = \int [e]x \mid \delta x = [e]x$
+let $\delta v = e[x] \mid \delta x$ **as it is easier to integrate**. then, $u = x$, $\delta u = \delta x$ and $v = \int e[x] \mid \delta x = e[x]$
 
-substituting, $F\ x = x[e]x \cdot \int e[x] \mid \delta x$
+substituting, $F\ x = xe[x] \cdot \int e[x] \mid \delta x$
 
-computing the integral, $F\ x = x[e]x \cdot [e]x : c$
+computing the integral, $F\ x = xe[x] \cdot e[x] : c$
 
 ## Using [[trigonometric-function]]s
 

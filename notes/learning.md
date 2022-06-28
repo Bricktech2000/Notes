@@ -55,3 +55,7 @@
 [[public-speaking]]
 
 [[si]]
+
+[[combinatorics]]
+
+[[lambda-calculus]]

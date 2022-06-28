@@ -4,6 +4,8 @@
 
 _the world's most widely used system of measurement_
 
+[[todo]]: use `\text` for units
+
 ## base units
 
 | Unit&nbsp;Name | Unit           | Dimension  | Quantity&nbsp;Name            | Typical&nbsp;Symbols        |

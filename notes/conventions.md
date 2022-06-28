@@ -36,6 +36,7 @@ the following headings are commonly used:
 - **theorems**
 - **properties**
 - **procedure**
+- **see**
 
 ### quotes, italics, bold, sources, URLs
 

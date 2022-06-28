@@ -188,3 +188,87 @@ x \to \delta\ f\ x - \delta x \circ 5\\\
 
 f = \lambda x \lambda y\ x : y
 $$
+
+integral of $\lceil x \rceil$
+
+$\int \lceil x \rceil \mid \delta x$
+
+$= \int (\int -x \mid \delta x) \mid \delta x$
+
+$= \int ([x]\theta - \theta) : c \mid \delta x$
+
+$= ([x]\theta \mid x - \theta - \theta : 1) : cx : c$
+
+$= (\lceil x \rceil \mid x - \theta : 1) : cx : c$
+
+$= (\lceil x \rceil \mid x) : cx : c$
+
+$= (x \mid \lceil x \rceil : c) : c$
+
+---
+
+integral of $\lceil x \rceil$ using $\delta\ \lceil x \rceil - \delta x = \text-x \cdot (\delta\ \text-\theta - \delta x)$
+
+$\int \lceil x \rceil \mid \delta x$
+
+$= \int (\int (\text-x) \cdot (\delta\ \text-\theta - \delta x) \mid \delta x) \mid \delta x$
+
+$= \int ([x]\theta - \theta) \cdot (\text-\theta) \mid \delta x$
+
+<!-- $= ([x]\theta \mid x - \theta) \cdot x\text-\theta : c$ -->
+
+<!-- $= ([x]\theta \mid x - \theta - \theta : 1) \cdot x\text-\theta : c$ -->
+
+<!-- $= ([x]\theta - \theta : 1 \mid x - \theta) \cdot x\text-\theta : c$ -->
+
+$= ([x]\theta \mid x - \theta - \theta : 1) \cdot x\text-\theta : c$
+
+<!-- $= x\lceil x \rceil \cdot x\text-\theta : c$ -->
+
+$= ([x]\theta \cdot 1 \cdot \theta \mid x - \theta - \theta : 1) : c$
+
+$= (\lceil x \rceil \cdot 1 \mid x - \theta : 1) : c$
+
+$= x \lceil x \rceil \cdot x : c$
+
+<!-- $(x \mid [x]\theta \cdot 1 - \theta) \cdot x$ -->
+
+<!-- $\theta : 1 \not \to 1$ -->
+
+conclusion:
+
+> "you can only replace all $\theta$ by $0$ at the end". as $\theta$ represents a number very close but not quite equal to $0$, all $\theta$ must be completely isolated from one another when replacing them by $0$
+
+<!-- $(-\theta : 1) : 1$
+
+$= (-1) : 1$
+
+$= 2$
+
+$(-\theta : 1) : 1$
+
+$(1 : \theta : 1 - \theta : 1)$ -->
+
+$-\lfloor \tau \sigma2 \rfloor - [e]([x \cdot \mu]2 - 2\sigma2)$
+
+&mdash; <http://mirrors.ibiblio.org/CTAN/info/undergradmath/undergradmath.pdf>
+
+$(x : 2][x \cdot 5)$
+
+$(x : 2]2$
+
+$2[x : 2)$
+
+$e \langle x \cdot mu)$
+
+$-\lfloor \tau \sigma2 \rfloor - e[[x \cdot \mu]2 - 2\sigma2]$
+
+$10[5]$
+
+$[10]5$
+
+$5 \shortmid x[1 \text- 3]$
+
+```
+[^\[!\$ ]\[[^\[]
+```
