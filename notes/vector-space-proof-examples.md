@@ -40,7 +40,7 @@ prove $V v \equiv v = (x, x : 2) \land \mathbb R x$ is a [[vector-space]]
 
 _closed under addition_
 
-$u : v = (x : y, x : y : 4) \vdash \lnot V (u : v)$
+$u : v = (x : y, x : y : 4) \vdash /V (u : v)$
 
 therefore, $V$ is not a [[vector-space]] as at least one [[axiom]] has been proved $\bot$
 

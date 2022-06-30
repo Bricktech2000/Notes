@@ -24,7 +24,7 @@ _a [[function]] acting on [[boolean]] variables_
 
 in [[classical-math-notation]]: $f(x, y, z) = (x + y')z + x'$
 
-in my [[math-notation]]: $f\ x, y, z = (x \lor \lnot y) \land z \lor \lnot x$
+in my [[math-notation]]: $f\ x, y, z = (x \lor /y) \land z \lor /x$
 
 ## Boolean Expression
 

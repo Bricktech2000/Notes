@@ -34,13 +34,13 @@ _same as SR flip-flop, but with undefined states removed_
 
 [[truth-table]]
 
-| $CLK$          | $J$      | $K$      | $Q$       | comment   |
-| -------------- | -------- | -------- | --------- | --------- |
-| $\uparrow$     | 0        | 0        | $Q$       | no change |
-| $\uparrow$     | 0        | 1        | 0         | reset     |
-| $\uparrow$     | 1        | 0        | 1         | set       |
-| $\uparrow$     | 1        | 1        | $\lnot Q$ | toggle    |
-| not $\uparrow$ | $\times$ | $\times$ | $Q$       | no change |
+| $CLK$          | $J$      | $K$      | $Q$  | comment   |
+| -------------- | -------- | -------- | ---- | --------- |
+| $\uparrow$     | 0        | 0        | $Q$  | no change |
+| $\uparrow$     | 0        | 1        | 0    | reset     |
+| $\uparrow$     | 1        | 0        | 1    | set       |
+| $\uparrow$     | 1        | 1        | $/Q$ | toggle    |
+| not $\uparrow$ | $\times$ | $\times$ | $Q$  | no change |
 
 ### T Flip-Flop
 
@@ -48,8 +48,8 @@ _toggle flip-flop_
 
 [[truth-table]]
 
-| $CLK$          | $T$      | $Q$       | comment   |
-| -------------- | -------- | --------- | --------- |
-| $\uparrow$     | 0        | $Q$       | no change |
-| $\uparrow$     | 1        | $\lnot Q$ | toggle    |
-| not $\uparrow$ | $\times$ | 0         | no change |
+| $CLK$          | $T$      | $Q$  | comment   |
+| -------------- | -------- | ---- | --------- |
+| $\uparrow$     | 0        | $Q$  | no change |
+| $\uparrow$     | 1        | $/Q$ | toggle    |
+| not $\uparrow$ | $\times$ | 0    | no change |

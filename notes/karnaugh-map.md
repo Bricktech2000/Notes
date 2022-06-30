@@ -64,8 +64,8 @@ using [[karnaugh-map]]
 
 see [[math-notation]]
 
-simplifying $\lnot f$
+simplifying $/f$
 
-let $f w x y z = w \land x \land (\lnot y \land z \lor y \land \lnot z)$
+let $f w x y z = w \land x \land ((/y \land z) \lor (y \land /z))$
 
 ![](2022-02-26-01-18-59.png)

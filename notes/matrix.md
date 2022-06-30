@@ -72,7 +72,7 @@ can be used to represent any [[linear-transformation]]
 
 ### definition
 
-$I^{a, b} = 1 \land a = b \lor I^{a, b} = 0 \land a \ne b \dashv \mathbb N a \land \mathbb N b \land \mathbb M^{n, n} I$
+$(I^{a, b} = 1 \land a = b) \lor (I^{a, b} = 0 \land a \ne b) \dashv \mathbb N a \land \mathbb N b \land \mathbb M^{n, n} I$
 
 ### examples
 

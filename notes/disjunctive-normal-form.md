@@ -18,4 +18,4 @@ a compound proposition is said to be in DNF if it is a disjunction of conjunctiv
 
 [[iti1100-a-digital-systems-i]] equivalent of a [[disjunctive-normal-form]]. the conjunctive clauses are known as _Minterms_
 
-Sums of Products can be used to easily convert a [[boolean]] expression to only NOR [[gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $\lnot A =\lnot (A \lor A)$, see [[boolean-operator]]s
+Sums of Products can be used to easily convert a [[boolean]] expression to only NOR [[gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $/A = /(A \lor A)$, see [[boolean-operator]]s

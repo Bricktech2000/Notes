@@ -50,11 +50,11 @@ if an expression has $1$ term, $\text{term count} = 0$
 
 ### examples
 
-$f w x y z = (w \land x \land \lnot y \land z) \lor (w \land x \land y \land \lnot z) \vdash C f = 4 : 4 : 2 = 0$
+$f w x y z = (w \land x \land /y \land z) \lor (w \land x \land y \land /z) \vdash C f = 4 : 4 : 2 = 0$
 
 $h_1 a b = a \land b \vdash C h = 2 : 0 = 2$
 
-$h_2ab = \lnot b \vdash C h = 0 : 0 = 0$
+$h_2ab = /b \vdash C h = 0 : 0 = 0$
 
 ### consequences
 

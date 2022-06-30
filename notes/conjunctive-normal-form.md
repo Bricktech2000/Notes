@@ -10,4 +10,4 @@ a compound proposition is said to be in CNF if it is a conjunction of disjunctiv
 
 [[iti1100-a-digital-systems-i]] equivalent of a [[conjunctive-normal-form]]. the disjunctive clauses are know as _Maxterms_
 
-Products of Sums can be used to easily convert a [[boolean]] expression to only NAND [[gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $\lnot A =\lnot (A \land A)$, see [[boolean-operator]]s
+Products of Sums can be used to easily convert a [[boolean]] expression to only NAND [[gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $/A = /(A \land A)$, see [[boolean-operator]]s

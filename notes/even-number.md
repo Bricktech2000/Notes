@@ -2,7 +2,7 @@
 
 see [[math-notation]], [[boolean-algebra]], [[number]]
 
-$\mathbb E \equiv \lnot \mathbb O$, see [[odd-number]]
+$\mathbb E \equiv /\mathbb O$, see [[odd-number]]
 
 $\mathbb E \vdash \mathbb Z$
 

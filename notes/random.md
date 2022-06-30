@@ -278,3 +278,7 @@ $-\lfloor \tau \sigma2 \rfloor - e[[x \cdot \mu]2 - 2\sigma2]$
 $\omicron o$
 
 $\Mu M$
+
+let $S\ x \equiv x = 0$. then,
+
+$(S' = \mathbb U\ /\ S) \equiv (S' = /S) \equiv (S'\ x \equiv /x = 0) \equiv (S'\ x \equiv x \ne 0)$

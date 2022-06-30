@@ -55,12 +55,12 @@ _same as SR latch, but with undefined states removed_
 
 [[truth-table]]
 
-| $J$ | $K$ | $Q$       | comment   |
-| --- | --- | --------- | --------- |
-| 0   | 0   | $Q$       | no change |
-| 0   | 1   | 0         | reset     |
-| 1   | 0   | 1         | set       |
-| 1   | 1   | $\lnot Q$ | toggle    |
+| $J$ | $K$ | $Q$  | comment   |
+| --- | --- | ---- | --------- |
+| 0   | 0   | $Q$  | no change |
+| 0   | 1   | 0    | reset     |
+| 1   | 0   | 1    | set       |
+| 1   | 1   | $/Q$ | toggle    |
 
 [[logic-circuit]]
 
