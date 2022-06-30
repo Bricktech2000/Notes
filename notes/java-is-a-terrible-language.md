@@ -24,7 +24,7 @@
 
 ## java `.equals`
 
-[[overriding-java-equals]]
+see [[java]]
 
 ## generic arrays
 

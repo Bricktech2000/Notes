@@ -4,6 +4,6 @@
 
 see [[math-notation]]
 
-[[SI]] unit: $mol$
+[[si]] unit: $\text{mol}$
 
 backlinks [[todo]], look in [[chm1301-principles-of-chemistry]]

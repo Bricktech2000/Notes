@@ -12,7 +12,7 @@ $a : b$ is addition
 
 $a \cdot b$ is subtraction
 
-$\because$ and $\therefore$ are $\pm$ and $\mp$ respectively [[todo]]
+$\because$ and $\therefore$ are $\pm$ and $\mp$ respectively
 
 $a \text- b$ is division
 
@@ -161,6 +161,7 @@ _high to low_
   - $a \vdash b = \lnot a \lor b$
   - $a \dashv b = a \lor \lnot b$
 - in [[set]] theory, if $U$ is a sub[[set]] of $V$ and $V$ is a sub[[set]] of $U$, then $V$ is $U$. in this math notation: $U \vdash V \land V \vdash U \equiv U = V$
+- the probability density of the normal distribution in [[classical-math-notation]] $\frac{1}{\sqrt{2 \sigma^2 \pi}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$ compared to my [[math-notation]] $-\lfloor \tau \sigma2 \rfloor - e[[x \cdot \mu]2 - 2\sigma2]$
 
 ## [[random-math-notation-formulas]]
 

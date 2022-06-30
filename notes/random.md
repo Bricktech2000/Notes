@@ -274,3 +274,7 @@ $5 \shortmid x[1 \text- 3]$
 ```
 
 $-\lfloor \tau \sigma2 \rfloor - e[[x \cdot \mu]2 - 2\sigma2]$
+
+$\omicron o$
+
+$\Mu M$

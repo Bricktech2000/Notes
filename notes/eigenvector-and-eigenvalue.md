@@ -54,7 +54,7 @@ $\lambda = 3 \lor \lambda = \cdot 1$ are the [[eigenvalue]]s of $A$
 
 ## finding [[eigenvector]]s
 
-as $A \cdot \lambda I \mid x$, we get the following (see [[matrix]] Kernel):
+as $A \cdot \lambda I \mid x = O$, we get the following (see [[matrix]] Kernel):
 
 $E_\lambda = Ker\ (A \cdot \lambda I)$, where
 

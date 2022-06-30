@@ -22,7 +22,7 @@ let $aA + bB \Leftrightarrow cC + dD$
 
 $Q = Q_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}$ or $Q = Q_p = \frac{p_C^cp_D^d}{p_A^ap_B^b}$ for gaseous reactants or products
 
-where $Q$ is the reaction quotient, $p$ are pressures in $bar$ and $[X]$ are molar [[concentration]]s
+where $Q$ is the reaction quotient, $p$ are [[pressure]]s in $bar$ and $[X]$ are molar [[concentration]]s
 
 ### Heterogeneous Equilibrium
 
@@ -47,7 +47,7 @@ let $aA + bB \Leftrightarrow cC + dD$
 
 $Q = Q_p = Q_c(RT)^{\Delta n_{gas}} = Q_c(RT)^{(c + d) - (a + b)}$ (goes for both $Q$ and $K$), where
 
-$Q = Q_p$ is the actual reaction quotient using pressures in $bar$ (since we're working with gases) and $Q_c$ is the reaction quotient using [[concentration]]s
+$Q = Q_p$ is the actual reaction quotient using [[pressure]]s in $bar$ (since we're working with gases) and $Q_c$ is the reaction quotient using [[concentration]]s
 
 $\Delta n_{gas}$ is the change in the number of moles of gas in the reaction, assuming $A, B, C, D$ are gases
 
@@ -63,9 +63,9 @@ $K$ is dependent on [[temperature]]
 
 **example with** $N_2O_4 \Leftrightarrow NO_2$
 
-$K = K_p = \frac{p^2_{NO_2}}{p^1_{N_2O_4}}$ where $p$ are the pressures of the gases in $bar$ at **equilibrium**
+$K = K_p = \frac{p^2_{NO_2}}{p^1_{N_2O_4}}$ where $p$ are the [[pressure]]s of the gases in $bar$ at **equilibrium**
 
-$K = Q_p = \frac{p^2_{NO_2}}{p^1_{N_2O_4}}$ where $p$ are the pressures of the gases in $bar$ at **any point in the reaction**
+$K = Q_p = \frac{p^2_{NO_2}}{p^1_{N_2O_4}}$ where $p$ are the [[pressure]]s of the gases in $bar$ at **any point in the reaction**
 
 ### Relationship between $Q$ and $K$
 

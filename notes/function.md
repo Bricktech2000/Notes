@@ -14,6 +14,10 @@ see [[math-notation]]
 
 [[trigonometric-function]]
 
+[[hyperbolic-function]]
+
+[[sigmoid-function]]
+
 ## applications
 
 [[curve-sketching]]
@@ -23,6 +27,10 @@ see [[math-notation]]
 [[functional-programming]]
 
 [[function-vector-space]]
+
+[[loss-function]] in [[deep-learning]]
+
+[[verifiable-random-function]] in [[cryptocurrency]]es
 
 ## operations
 

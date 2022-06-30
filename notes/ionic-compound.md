@@ -1,6 +1,6 @@
 # Ionic Compound
 
-> In chemistry, an ionic compound is a chemical compound composed of ions held together by electrostatic forces termed ionic bonding. The compound is neutral overall, but consists of positively charged ions called cations and negatively charged ions called anions. &mdash; Wikipedia
+> In chemistry, an ionic compound is a chemical compound composed of ions held together by electrostatic [[force]]s termed ionic bonding. The compound is neutral overall, but consists of positively charged ions called cations and negatively charged ions called anions. &mdash; Wikipedia
 
 ## caveat
 

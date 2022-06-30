@@ -2,13 +2,11 @@
 
 see [[math-notation]], [[function]]
 
-## basic functions
+## definition
 
-$\sin \theta = y - r$
+let $(x, y)$ be a point on the unit [[circle]] and let $\theta$ be the angle from the positive x-axis counterclockwise to that point. then,
 
-$\cos \theta = x - r$
-
-$\tan \theta = \sin \theta - \cos \theta$
+$x = \cos \theta \land y - \sin \theta$, and $\tan \theta = \sin \theta - \cos \theta$
 
 ### [[mnemonic]]
 

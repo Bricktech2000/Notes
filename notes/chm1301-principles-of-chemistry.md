@@ -30,7 +30,7 @@ understand [[buffer]] solutions and [[titration]]
 
 [[atomic-properties]], [[drawing-a-molecule]]
 
-[[ideal-gas]] law and partial pressures
+[[ideal-gas]] law and partial [[pressure]]s
 
 [[reaction-mechanism]]s
 

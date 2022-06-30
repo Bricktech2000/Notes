@@ -2,4 +2,4 @@
 
 see [[math-notation]]
 
-[[SI]] unit: $s$
+[[si]] unit: $\text{s}$

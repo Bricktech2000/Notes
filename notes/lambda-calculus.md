@@ -16,7 +16,7 @@ used for backlinks
 
 [[lambda-calculus]] is the basis for most [[functional-programming]] languages
 
-## [[boolean-algebra]]
+## [[boolean-algebra]] in [[lambda-calculus]]
 
 [[boolean]] values and [[boolean-operator]]s can be defined as follows (Church Booleans):
 
@@ -36,11 +36,11 @@ $\text{or} = \lambda p.\ \lambda q.\ q\ p\ q$
 
 &mdash; <https://en.wikipedia.org/wiki/Lambda_calculus#Logic_and_predicates>
 
-## loops
+## [[iteration]] in [[lambda-calculus]]
 
-loops are defined as $(\lambda x.\ x\ x) (\lambda x.\ x\ x)$. evaluating this [[function]] call once yields itself. this definition is equivalent to $\operatorname{rec} \lambda x.\ x$, see [[recursion]] &mdash; <https://youtu.be/9T8A89jgeTI?t=544>
+[[iteration]] is defined as $(\lambda x.\ x\ x) (\lambda x.\ x\ x)$. evaluating this [[function]] call once yields itself. this definition is equivalent to $\operatorname{rec} \lambda x.\ x$, see [[recursion]] &mdash; <https://youtu.be/9T8A89jgeTI?t=544>
 
-## recursion
+## [[recursion]] in [[lambda-calculus]]
 
 general [[recursion]] in [[lambda-calculus]] can be defined using the [[combinatorics]] Y combinator
 

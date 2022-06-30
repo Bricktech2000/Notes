@@ -4,22 +4,8 @@ see [[vector]], [[vector-space]], [[math-notation]], [[span]]
 
 ### definition
 
-for all $\mathbb Z m$,
+let $\mathbb R^n\ (u_0 \dots u_m) n \land \mathbb R\ (k_0 \dots k_m) \dashv \mathbb Z m$
 
-$\mathbb R^n (u_0 \dots u_m) \dashv \mathbb N n$
+then, $C = ku = k_0u_0 : \dots k_nu_n$, where
 
-$\mathbb R (k_0 \dots k_m)$
-
-$k_0u_0 : \dots k_nu_n$ is a _linear combination_ of the [[vector]]s $u_0 \dots u_m$
-
----
-
-## [[proof]] examples
-
-![](2022-02-26-01-20-54.png)
-![](2022-02-26-01-21-07.png)
-
----
-
-![](2022-02-26-01-21-16.png)
-![](2022-02-26-01-21-24.png)
+$C$ is a _linear combination_ of the [[vector]]s $u_0 \dots u_m$

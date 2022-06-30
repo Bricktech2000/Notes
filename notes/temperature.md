@@ -2,4 +2,4 @@
 
 see [[math-notation]]
 
-[[SI]] unit: $K$
+[[si]] unit: $\text{K}$

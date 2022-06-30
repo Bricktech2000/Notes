@@ -59,3 +59,9 @@
 [[combinatorics]]
 
 [[lambda-calculus]]
+
+[[deep-learning]]
+
+[[verifiable-random-function]]
+
+[[hadamard-product]]
