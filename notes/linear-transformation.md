@@ -41,13 +41,13 @@ in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \dots & T\ b_n \\
 
 _computing the standard matrix_
 
-let $\mathbb T T \land T\ x, y, z = (x : 5y : z, x \cdot 3z, y, y : 2z)$
+let $\mathbb T T \land T\ (x, y, z) = (x : 5y : z, x \cdot 3z, y, y : 2z)$
 
-compute $T\ 1, 0, 0 = (1, 1, 0, 0)$ and $T\ 0, 1, 0 = (5, 0, 1, 1)$ and $T\ 0, 0, 1 = (1, \cdot 3, 0, 2)$
+compute $T\ (1, 0, 0) = (1, 1, 0, 0)$ and $T\ (0, 1, 0) = (5, 0, 1, 1)$ and $T\ (0, 0, 1) = (1, \cdot 3, 0, 2)$
 
 then, the _standard [[matrix]]_ of $T$ $A$ is defined as follows:
 
-$A = \begin{bmatrix}| & | & | \\\ T\ 1, 0, 0 & T\ 0, 1, 0 & T\ 0, 0, 1 \\\ | & | & |\end{bmatrix} = \begin{bmatrix}1 & 5 & 1 \\\ 1 & 0 & \cdot 3 \\\ 0 & 1 & 0 \\\ 0 & 1 & 2\end{bmatrix}$
+$A = \begin{bmatrix}| & | & | \\\ T\ (1, 0, 0) & T\ (0, 1, 0) & T\ (0, 0, 1) \\\ | & | & |\end{bmatrix} = \begin{bmatrix}1 & 5 & 1 \\\ 1 & 0 & \cdot 3 \\\ 0 & 1 & 0 \\\ 0 & 1 & 2\end{bmatrix}$
 
 ### Projection to Matrix Multiplication
 

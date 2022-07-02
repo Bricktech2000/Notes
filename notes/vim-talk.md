@@ -4,6 +4,7 @@
 [//]: # 'prep:'
 [//]: # 'disable markdown github styling'
 [//]: # 'open MosaicLarge in new window'
+[//]: # 'prepare demo table in same window'
 [//]: # 'C-S-P Editor Font Zoom in x12'
 
 <br><br><br><br><br><br><br><br><br><br><br><br>

@@ -34,6 +34,20 @@ $d^n f$ would then be the $n$ th [[derivative]] of $f x$ with respect to $x$
 
 my [[math-notation]]: $\delta\ f\ x - \delta x = \lim_{h \to 0} f\ (x : h) \cdot f\ x - h = \lim_{x \to a} f\ x \cdot f\ a - x \cdot a$
 
+## directional [[derivative]]
+
+see [[gradient]]
+
+let $f$ be a [[function]] differentiable at $(x, y)$. then,
+
+$D\ x\ y = \nabla f\ x\ y\ \dot\mid\ v - |v|$, where
+
+$D\ x\ y$ is the [[derivative]] of $f$ in direction $v$
+
+$\nabla f\ x\ y$ is the [[gradient]] of $f$ at $(x, y)$
+
+$v$ is the direction [[vector-in-rn]]
+
 # Differentiation
 
 to differentiate a [[function]], apply [[derivative-rules]] recursively, see [[recursion]]

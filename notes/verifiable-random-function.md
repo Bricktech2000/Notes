@@ -14,7 +14,7 @@ it must be impossible to "roll the dice" multiple times to control the value of 
 
 ## applications
 
-organizing a lottery on the blockchain
+organizing a lottery on the [[blockchain]]
 
 ## examples
 

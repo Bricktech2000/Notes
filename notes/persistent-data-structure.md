@@ -14,7 +14,7 @@ Git is a type of [[persistent-data-structure]], as every commit is appended to t
 
 ### Blockchain
 
-the blockchain used in [[cryptocurrency]]es is a type of [[persistent-data-structure]], as every block is appended to the end of the chain without changing any of the previous blocks.
+the [[blockchain]] used in [[cryptocurrency]]es is a type of [[persistent-data-structure]], as every block is appended to the end of the chain without changing any of the previous blocks.
 
 ### [[stack]]s implementation
 

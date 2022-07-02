@@ -198,7 +198,7 @@ $m = \delta\ y - \delta x = \Delta y - \Delta x = y_2 \cdot y_1 - x_2 \cdot x_1$
 
 ### Tangent Line
 
-$L\ x = f\ a : (x \cdot a) \shortmid (\delta\ f - \delta x)\ a$, where $L\ x$ is line tangent to $f\ x$ at $a$
+$L\ x = f\ a : (x \cdot a) \shortmid (\lambda x\ \ \delta\ f - \delta x)\ a$, where $L\ x$ is line tangent to $f\ x$ at $a$
 
 a [[function]] $f$ can be linearly approximated near a point $x$ through its tangent line at that point
 

@@ -1,6 +1,6 @@
 # Trigonometric Function
 
-see [[math-notation]], [[function]]
+see [[math-notation]], [[function]], [[hyperbolic-function]]
 
 ## definition
 
@@ -52,7 +52,7 @@ $\tan (\cdot \theta) = \cdot \tan \theta$ &mdash; odd [[function]]
 
 &mdash; <https://youtu.be/7gigNsz4Oe8?t=4383>
 
-### basic identities
+### offset identities
 
 ![](2022-02-26-01-29-33.png)
 

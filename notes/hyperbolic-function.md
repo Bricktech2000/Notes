@@ -1,5 +1,7 @@
 # Hyperbolic Function
 
+see [[math-notation]], [[function]], [[trigonometric-function]]
+
 ## definition
 
 let $(x, y)$ be a point on the unit [[hyperbola]] and let $\theta$ be the angle from the positive x-axis counterclockwise to that point. then,

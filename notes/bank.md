@@ -2,6 +2,8 @@
 
 see [[money]], [[principles-of-economics]]
 
+[[bank]]s must comply with [[know-your-customer]] regulations. [[know-your-customer]] compliance responsibility rests with the [[bank]]s
+
 ## definitions
 
 > _reserves_ are deposits that [[bank]]s have received but not loaned out
@@ -72,5 +74,3 @@ note that central [[bank]]s have no direct control over the amount of money that
 
 ![](2022-03-09-13-28-00.png)
 ![](2022-03-09-19-49-55.png)
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" })</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([A-Za-z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } </style>

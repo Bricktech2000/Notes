@@ -14,6 +14,12 @@ $\delta y - \delta x \equiv \delta(y) - \delta(x)$
 
 > **note**: by convention, a space is added when the parameter to a $\delta$ or a $\int$ is a [[function]]
 
+derivatives and integrals at a point $t$ can be written as follows:
+
+$(\lambda x\ \ \delta y - \delta x)\ t$
+
+$(\lambda x\ \int y \mid x)\ t$
+
 ### intuitive explanation
 
 $\int$ and $\delta$ can be thought of as [[function]]s
@@ -22,7 +28,7 @@ $\int y \mid \delta x$ is actually $\int (y \mid \delta x)$ ($\mid \delta x$ is 
 
 $\delta y - \delta x$ is simply a division between the two values involved
 
-$(\delta - \delta x)\ y \equiv \frac{\delta}{\delta x} y$ ~~makes no sense whatsoever and is very likely some weird [[classical-math-notation]] shorthand again~~ is superfluous notation and is to be avoided in my [[math-notation]]
+$(\delta - \delta x)\ y \equiv \frac{\delta}{\delta x} y$ ~~makes no sense whatsoever and is very likely some weird [[classical-math-notation]] shorthand again~~ is superfluous notation and is to be avoided in my [[math-notation]].
 
 ## properties with [[proof]]s
 

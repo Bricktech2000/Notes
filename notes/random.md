@@ -282,3 +282,57 @@ $\Mu M$
 let $S\ x \equiv x = 0$. then,
 
 $(S' = \mathbb U\ /\ S) \equiv (S' = /S) \equiv (S'\ x \equiv /x = 0) \equiv (S'\ x \equiv x \ne 0)$
+
+---
+
+let $I = \lambda x\ \int -x \mid \delta x = \lceil x \rceil \cdot c'$. then,
+
+$$
+\begin{align*}
+  & \lim_{x \to \infty} I\ x \text- 2 \cdot I\ x \\\
+= & \lim_{x \to \infty} \lceil x \text- 2 \rceil \cdot \lceil x \rceil \\\
+= & \lim_{x \to \infty} \lceil x \text- 2 - x \rceil \\\
+= & \lim_{x \to \infty} \lceil 2 \rceil \\\
+= & \lceil 2 \rceil \\\
+\end{align*}
+$$
+
+---
+
+$(\lambda x\ \ \delta\ f\ x - \delta x)\ 5$
+
+$\lambda x\ (\delta\ f\ x - \delta x)\ 5$
+
+$f\ x = 5x$
+
+$f = \lambda x\ 5x$
+
+$3 \mid x = 5$
+
+$3 = 5 - x$
+
+---
+
+$y$ axis is the line $y = \cdot x - \tan \alpha$
+
+$x$ axis is the line $y = x \mid \tan \alpha$
+
+---
+
+$y$ axis is the line $\cdot x \cos \theta = y \sin \theta$
+
+$x$ axis is the line $x \sin \theta = y \cos \theta$
+
+---
+
+let a unit [[vector]] on the $x$ axis $\hat \imath$ and let a unit [[vector]] on the $y$ axis $\hat \jmath$
+
+let a unit [[vector]] on the $x'$ axis $\hat \imath' = (\cos \alpha, \sin \alpha)$ and let a unit [[vector]] on the $y'$ axis $\hat \jmath' = (\cdot \sin \alpha, \cos \alpha)$
+
+let $(c, f\ c) = \hat \imath c : \hat \jmath f\ c$ be a point on a [[function]] $f$. replacing $\hat \imath, \hat \jmath$ by $\hat \imath', \hat \jmath'$, we get the point $\hat \imath' c : \hat \jmath' f\ c = (\cos \alpha, \sin \alpha) c : (\cdot \sin \alpha, \cos \alpha) f\ c = (c(\cos \alpha) : (f\ c)(\cdot \sin \alpha), c(\sin \alpha) : (f\ c)(\cos \alpha))$.
+
+with $(c, f\ c) = (x, y)$, we get the point $(x \cos \alpha \cdot y \sin \alpha,  x \sin \alpha : y \cos \alpha)$, which can be graphed as $x \sin \alpha : y \cos \alpha = f\ (x \cos \alpha \cdot y \sin \alpha)$
+
+computing the standard [[matrix]] of the [[linear-transformation]]:
+
+with $(c, f\ c) = (x, y)$, we get the [[linear-transformation]] $T\ (x, y) = (x \cos \alpha \cdot y \sin \alpha,  x \sin \alpha : y \cos \alpha)$. its standard [[matrix]] is $\begin{bmatrix} | & | \\\ T\ (1, 0) & T\ (0, 1) \\\ | & | \end{bmatrix} = \begin{bmatrix} \cos \alpha & \cdot \sin \alpha \\\ \sin \alpha & \cos \alpha \end{bmatrix}$. defining $T$ using [[matrix]] multiplication, we get $T\ (x, y) = \begin{bmatrix} \cos \alpha & \cdot \sin \alpha \\\ \sin \alpha & \cos \alpha \end{bmatrix} \begin{bmatrix} x \\\ y \end{bmatrix} = \begin{bmatrix} x \cos \alpha \cdot y \sin \alpha \\\ x \sin \alpha : y \cos \alpha\end{bmatrix}$, which can also be graphed as $x \sin \alpha : y \cos \alpha = f\ (x \cos \alpha \cdot y \sin \alpha)$

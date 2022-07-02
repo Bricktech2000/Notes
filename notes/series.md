@@ -106,7 +106,7 @@ we then derive the following definition:
 
 > **definition**: $T\ x = P^0 : P^1 : P^2 : \dots = f\ x$, where
 >
-> $P^n = (d^n f)\ a - \operatorname{fact} n \mid [x \cdot a]n$, where
+> $P^n = (\lambda x\ \ d^n f)\ a - \operatorname{fact} n \mid [x \cdot a]n$, where
 >
 > $d^n f = d^{n \cdot 1} (\delta\ f\ x - \delta x) \land d^0 f = f$, see [[derivative]]
 >
@@ -190,7 +190,7 @@ _useful for [[series]] containing [[logarithm]]s or easy-to-compute [[integral]]
 
 > **theorem**: _the integral test_
 >
-> let $b$ be a [[series]] and suppose $f\ x$ is a _continuous_, _positive_ and _infinite_ [[function]] on $R \le x < \infty \land \mathbb R R$ **for some number $R$** and that $b^n = f\ n \dashv \mathbb N n$. then,
+> let $b$ be a [[series]] and suppose $f\ x$ is an eventually _continuous_, _positive_ and _infinite_ [[function]] on $R \le x < \infty \land \mathbb R R$ **for some number $R$** and that $b^n = f\ n \dashv \mathbb N n$. then,
 >
 > - if $\int_{x = 1}^{\infty} f\ x \mid \delta x$ converges, then $b^0 : b^1 : \dots$ converges
 > - if $\int_{x = 1}^{\infty} f\ x \mid \delta x$ diverges, then $b^0 : b^1 : \dots$ diverges
@@ -244,7 +244,7 @@ _useful for [[series]] containing factorials and a geometric part and for power 
 
 ### Alternating Test
 
-> **theorem**: let $b$ be a [[series]] such that either $b^n = [\cdot 1](n) \mid a^n$ or $b^n = [\cdot 1](n : 1) \mid a^n$ where $a_n \ge 0$ for all $n$. then, if $\lim_{n \to \infty} a_n = 0$ and if $a$ is a decreasing sequence, the [[series]] $b$ is convergent &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
+> **theorem**: let $b$ be a [[series]] such that either $b^n = (\cdot 1)[n] \mid a^n$ or $b^n = (\cdot 1)[n : 1] \mid a^n$ where $a_n \ge 0$ for all $n$. then, if $\lim_{n \to \infty} a_n = 0$ and if $a$ is an eventually decreasing sequence, the [[series]] $b$ is convergent &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
 
 ### Geometric [[series]] Convergence
 

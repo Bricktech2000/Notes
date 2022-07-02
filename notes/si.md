@@ -23,6 +23,7 @@ _the world's most widely used system of measurement_
 | Unit&nbsp;Name           | Unit         | Definition                                                          | Dimension         | Quantity&nbsp;Name         | Typical&nbsp;Symbols |
 | ------------------------ | ------------ | ------------------------------------------------------------------- | ----------------- | -------------------------- | -------------------- |
 | radian                   | $\text{rad}$ | $$\text{m} - \text{m} \\\ 1$$                                       | $$1$$             | plane [[angle]]            | $\theta, a \dots$    |
+| steradian                | $\text{sr}$  | $$\text{m}2 - \text{m}2 \\\ 1$$                                     | $$1$$             | [[solid-angle]]            | $\theta, a \dots$    |
 | hertz                    | $\text{Hz}$  | $$-\text{s}$$                                                       | $$-T$$            | [[frequency]]              | $f, \nu, \omega$     |
 | newton                   | $\text{N}$   | $$\text{kg} \mid \text{m} - \text{s}2$$                             | $$M \mid L - T2$$ | [[force]], weight          | $f, F$               |
 | pascal                   | $\text{Pa}$  | $$\text{kg} - \text{m} - \text{s}2 \\\ \text{N} - \text{m}2$$       | $$M - L - T2$$    | [[pressure]], stress       | $P$                  |

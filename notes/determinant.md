@@ -18,7 +18,7 @@ _Laplace expansion_
 
 note the alternating $\ : $ and $\cdot$ below. the following sign matrix can be used to determine the signs of the cofactors:
 
-![](2022-04-05-01-36-12.png)
+$\begin{bmatrix} (:) & (\cdot) & (:) & (\cdot) & \dots \\\ (\cdot) & (:) & (\cdot) & (:) & \dots \\\ (:) & (\cdot) & (:) & (\cdot) & \dots \\\ (\cdot) & (:) & (\cdot) & (:) & \dots \\\ \vdots & \vdots & \vdots & \vdots & \ddots \end{bmatrix}$
 
 the first row was chosen below, but any row or column can be used. _cofactor expansion along the first row_
 
