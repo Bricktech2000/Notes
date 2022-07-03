@@ -2,7 +2,7 @@
 
 ## see
 
-[[functor]] & [[map]], [[monad]] & [[bind]], [[monoid]] & [[reduce]], [[effect-type]] & [[return]]
+[[functor]] & [[map]], [[monad]] & [[bind]] & [[join]], [[monoid]] & [[reduce]], [[effect-type]] & [[return]]
 
 [[currying]], [[partial-application]], [[pure-function]], [[combinatorics]], [[lambda-calculus]]
 

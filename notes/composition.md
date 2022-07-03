@@ -1,12 +1,14 @@
 # Composition
 
+see [[math-notation]], [[function]]
+
 ## notation
 
 in my [[math-notation]]: $C\ x = f\ g\ x$, where
 
-$f$ and $g$ are the original functions
+$f$ and $g$ are the original [[function]]s
 
-$C$ is the resulting function
+$C$ is the resulting [[function]]
 
 $x$ is the parameter to be passed to $f$ and $g$
 
@@ -14,6 +16,6 @@ $x$ is the parameter to be passed to $f$ and $g$
 
 [[function]] [[composition]] is very useful in [[functional-programming]] as it allows for building larger [[function]]s from smaller ones. it also allows for [[abstraction]] and [[encapsulation]].
 
-## example
+### example
 
-suppose we have two functions: $A \to B$ and $B \to C$. after composing them, we get $A \to C$. there is no way to differentiate this function from any other function, and the intermediate value $B$ is not exposed to the outside world anymore.
+suppose we have two [[function]]s: $A \to B$ and $B \to C$. after composing them, we get $A \to C$. there is no way to differentiate this [[function]] from any other [[function]], and the intermediate value $B$ is not exposed to the outside world anymore.

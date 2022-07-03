@@ -1,15 +1,29 @@
 # Monad
 
-see [[functional-programming]], [[return]], [[bind]]
-
-[[todo]]: <https://en.wikipedia.org/wiki/Monad_transformer>
+see [[functional-programming]], [[return]], [[bind]], [[join]]
 
 a [[monad]]:
 
 - is an [[effect-type]]
 - has a [[return]] [[function]]
-- has a [[bind]] [[function]] that converts a "diagonal" function ("world-crossing", that goes from "normal" world to "effects" world) into a "horizontal" function (in the "effects" world only)
+- has a [[bind]] or a [[join]] [[function]], or both
 - must have a sensible implementation following the Monad laws
+
+## applications
+
+see [[bind]]
+
+## properties
+
+[[monad]]s are [[functor]]s.
+
+let a [[function]] `f :: a -> b` and a [[monad]] `ma = M a`. then, `f` can be [[map]]ped to that [[monad]] using only [[bind]] and [[return]] and [[function]] [[composition]] as follows:
+
+`map :: (a -> b) -> M a -> M b`
+
+`map f ma = bind (return . f) ma`
+
+&mdash; me, DM with Simon
 
 ## Kleisli Composition
 
@@ -21,6 +35,8 @@ the Kleisli Composition is an alternative to the [[bind]] [[function]] that uses
 
 Kleisli Composition is a [[monoid]]
 
-## applications
+## Monad Transformer
 
-see [[bind]]
+[[todo]]
+
+<https://en.wikipedia.org/wiki/Monad_transformer>

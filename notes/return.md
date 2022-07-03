@@ -6,9 +6,15 @@ _lifts a value to the effects world_
 
 see [[effect-type]], [[functional-programming]]
 
-## applications
+## definition
 
-a [[return]] lifts a value to the effects world. can be thought of as the constructor to an [[effect-type]]
+[[return]] lifts a value to the effects world. can be thought of as the constructor to an [[effect-type]]
+
+`return :: a -> T a`, where
+
+`a` is a value
+
+`T` is an [[effect-type]] constructor
 
 ## examples
 

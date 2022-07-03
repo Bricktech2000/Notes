@@ -34,7 +34,7 @@ artificial stimulus is stimulus that wrongfully rewards us (think junk food, mov
 preferably avoid, but still allowed
 
 - music
-- browsing [[social=media]]
+- browsing [[social-media]]
 - watching TV
 - [[video-game]]s
 - gambling

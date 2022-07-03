@@ -65,3 +65,5 @@
 [[verifiable-random-function]]
 
 [[hadamard-product]]
+
+[[type-theory]]

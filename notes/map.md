@@ -2,11 +2,21 @@
 
 _lifts a horizontal [[function]] to the effects world_
 
-> **AKA**: `lift`, `select`
+> **AKA**: `lift`, `select`, `fmap`
 
-[[map]]s unwrap the inputs to a [[function]] before wrapping them back after execution, see [[effect-type]]
+## definition
+
+[[map]] "lifts" a [[function]] to the effects world
+
+`map :: (a -> b) -> T a -> T b`, where
+
+`a` is a value
+
+`T` is an [[effect-type]] constructor
 
 ## applications
+
+[[map]]s unwrap the inputs to a [[function]] before wrapping them back after execution, see [[effect-type]]
 
 let a [[function]] `let inc = |x| x + 1` and a [[effect-type]] `Option<T>`
 

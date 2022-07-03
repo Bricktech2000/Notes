@@ -34,7 +34,7 @@ $pH = -log[H^+]$ and $pOH = -log[OH^-]$, [[concentration]]s in $\frac{mol}{L}$
 
 $pH + pOH = 14$
 
-### Strong [[acids-and-base]]s
+### Strong [[acid-and-base]]s
 
 _dissociate completely_
 
