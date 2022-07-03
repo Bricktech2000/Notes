@@ -51,9 +51,9 @@ a Type I improper [[integral]] is said to:
 
 an integral whose integrand has a [[function]] discontinuity on the integration interval
 
-if $\lim_{x \to b^-} f\ x =\ \because \infty$ [[think]] [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to b^-} \int_{x = a}^{x = t} f\ x \mid \delta x$
+if $\lim_{x \to b^-} f\ x =\ \because \infty$ #think [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to b^-} \int_{x = a}^{x = t} f\ x \mid \delta x$
 
-if $\lim_{x \to a^+} f\ x =\ \because \infty$ [[think]] [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to a^+} \int_{x = t}^{x = b} f\ x \mid \delta x$
+if $\lim_{x \to a^+} f\ x =\ \because \infty$ #think [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to a^+} \int_{x = t}^{x = b} f\ x \mid \delta x$
 
 ### Comparison Test
 

@@ -134,10 +134,10 @@ $\delta y - \delta x = \cdot x - y$
 
 ## Partial Differentiation
 
-[[todo]]
+#todo
 
 ### example
 
-[[todo]]
+#todo
 
 <https://en.wikipedia.org/wiki/Partial_derivative>

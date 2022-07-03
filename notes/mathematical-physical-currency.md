@@ -2,7 +2,7 @@
 
 ## procedure
 
-[[think]]
+#think
 
 - Start from a random process that cannot be reproduced to generate a result
 - Sign the result with a private key to generate a signed number

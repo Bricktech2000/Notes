@@ -12,7 +12,7 @@ $\mathbb On \equiv \mathbb Z k \land n = 2k : 1$
 
 ## example [[proof]]
 
-[[example]]
+#example
 
 see [[math-notation]]
 

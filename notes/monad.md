@@ -37,6 +37,6 @@ Kleisli Composition is a [[monoid]]
 
 ## Monad Transformer
 
-[[todo]]
+#todo
 
 <https://en.wikipedia.org/wiki/Monad_transformer>

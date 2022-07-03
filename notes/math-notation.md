@@ -119,7 +119,7 @@ the probability density of the normal distribution in [[classical-math-notation]
 
 compared to in my [[math-notation]]: $-\lfloor \tau \sigma2 \rfloor - e[[x \cdot \mu]2 - 2\sigma2]$
 
-## [[think]]
+## #think
 
 ~~$a \to b$ is lambda notation (`(a) => b`)~~
 

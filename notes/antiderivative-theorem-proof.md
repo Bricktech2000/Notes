@@ -2,7 +2,7 @@
 
 &mdash; <https://youtu.be/HfACrKJ_Y2w?t=38531>
 
-[[example]], see backlink
+#example, see backlink
 
 > **theorem**: if $\delta\ g\ x - \delta x = 0$ on $a < x < b$, then $g\ x = c$ with $\mathbb R c$
 

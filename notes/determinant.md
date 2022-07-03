@@ -10,7 +10,7 @@ $A$ is a square [[matrix]], $\mathbb M^{n, n} A$
 
 ## calculating the determinant, recursive method
 
-see [[magic]], [[recursion]]
+see #magic, [[recursion]]
 
 _Laplace expansion_
 
@@ -34,7 +34,7 @@ $\begin{vmatrix}a & b \\\  c & d\end{vmatrix} = ad \cdot bc$
 
 ## calculating the determinant, triangular method
 
-see [[magic]]
+see #magic
 
 the [[determinant]] of a triangular [[matrix]] is the product of its diagonal entries
 

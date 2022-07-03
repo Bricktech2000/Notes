@@ -25,7 +25,7 @@ fidelity programs are a way to lock clients into an ecosystem. this fact is some
 
 ## sunsets look good
 
-why do sunsets look good? [[complete]]
+why do sunsets look good? #todo
 
 ## time = money
 

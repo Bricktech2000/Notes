@@ -1,6 +1,6 @@
 # Random Math Notation Formulas
 
-[[example]]
+#example
 
 $\delta f\ x - \delta x = \lim_{h \to 0} f (x : h) \cdot f (x) - h$
 

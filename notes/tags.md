@@ -1,13 +1,17 @@
 # 🆃🅰🅶🆂
 
-[[complete]]
+## #todo
 
-[[todo]]
+something to do or to complete
 
-[[understand]]
+## #think
 
-[[magic]]
+something to think about and to try to understand better
 
-[[think]]
+## #magic
 
-[[example]]
+something that can only be explained through sheer magic
+
+## #example
+
+something used as an example or as a proof to a statement

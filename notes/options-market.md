@@ -40,7 +40,7 @@ beta balancing: trades should be neutral to the market direction and not rely on
 
 paper trading is a good way to practice trading
 
-IV% [[todo]]
+IV% #todo
 
 ## Trading Tools
 
@@ -50,7 +50,7 @@ Webull and Interactive Brokers
 
 ## Trading Strategies
 
-[[todo]]
+#todo
 
 ### Long Call
 
@@ -78,16 +78,16 @@ by selling a put option:
 
 _profit from falling stock price_
 
-[[todo]]
+#todo
 
 ### Iron Condor
 
 _profit from low stock volatility_
 
-[[todo]]
+#todo
 
 ## Greek Letters or Something
 
 beta, delta, gamma, vega, theta, rho, phi
 
-[[todo]]
+#todo

@@ -12,7 +12,7 @@ $\mathbb En \equiv \mathbb Z k \land n = 2k : 0$
 
 ## example [[proof]]
 
-[[example]]
+#example
 
 prove $n2 : 3n : 8$ is an [[even-number]] for all $\mathbb Z n$
 

@@ -10,7 +10,7 @@ step #3 is where the magic happens: the recipient cannot share the data with any
 
 ## stuff to flesh out
 
-[[think]]
+#think
 
 - find a mathematical algorithm that exposes the recipient’s private key when decrypting the data
 - find a way to incorporate the recipient’s private key inside the data itself

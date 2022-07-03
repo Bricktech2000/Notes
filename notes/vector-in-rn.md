@@ -64,7 +64,7 @@ note that $V - |V|$ is just notation for the direction of the vector $V$
 
 ## Angles Between two Vectors
 
-see [[dot-product]], [[cross-product]], [[magic]]
+see [[dot-product]], [[cross-product]], #magic
 
 $\cos \theta = a\ \dot\mid\ b - |a|\ |b|$. use $\cos \theta = |a\ \dot\mid\ b| - |a|\ |b|$ to always get the acute angle solution
 

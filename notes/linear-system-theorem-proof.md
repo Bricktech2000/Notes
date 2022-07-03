@@ -1,6 +1,6 @@
 # Linear System Theorem Proof
 
-[[example]], see backlink
+#example, see backlink
 
 > **proof**:
 >

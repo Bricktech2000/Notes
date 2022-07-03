@@ -1,3 +1,3 @@
 # Descrete Math
 
-[[todo]]
+#todo

@@ -1,6 +1,6 @@
 # Vector Space Proof Examples
 
-[[example]], see backlink
+#example, see backlink
 
 ## [[proof]]s
 

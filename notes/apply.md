@@ -1,6 +1,6 @@
 # Apply
 
-"applicatives" [[todo]]
+"applicatives" #todo
 
 used for backlinks
 

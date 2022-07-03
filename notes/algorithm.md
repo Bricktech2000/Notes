@@ -6,9 +6,9 @@
 
 [[row-reduction]] through Gaussian Elimination
 
-BFS [[todo]]
+BFS #todo
 
-DFS [[todo]]
+DFS #todo
 
 ## types
 
@@ -16,7 +16,7 @@ DFS [[todo]]
 
 [[iteration]]
 
-divide and conquer [[todo]]
+divide and conquer #todo
 
 ## turning [[recursion]] into [[iteration]]
 

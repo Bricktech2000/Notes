@@ -2,7 +2,7 @@
 
 _turns a nested [[effect-type]] into a normal [[effect-type]]_
 
-> **AKA**: [[todo]]
+> **AKA**: #todo
 
 see [[functional-programming]]
 
