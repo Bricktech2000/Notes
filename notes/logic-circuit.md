@@ -2,7 +2,23 @@
 
 see [[digital-system]]
 
-see [[truth-table]], [[characteristic-table]], [[excitation-table]], [[characteristic-equation]], [[karnaugh-map]], [[state-table]], [[state-diagram]]
+## see
+
+[[truth-table]]
+
+[[characteristic-table]]
+
+[[excitation-table]]
+
+[[characteristic-equation]]
+
+[[truth-table]]
+
+[[karnaugh-map]]
+
+[[state-table]]
+
+[[state-diagram]]
 
 [[logic-circuit]]s are made of logic [[gate]]s.
 
@@ -32,7 +48,7 @@ the outputs of a sequential logic circuit can be based on previous inputs and ca
 
 [[multiplexer]]
 
-## cost of a logic circuit
+## logic circuit cost
 
 _for [[iti1100-a-digital-systems-i]]_
 
@@ -42,7 +58,7 @@ see [[math-notation]]
 
 the cost of a logic circuit can be calculated using its [[disjunctive-normal-form]]
 
-$C f = \sum \text{literals per term} : \text{term count}$ (see [[boolean-operator]])
+$C f = \sum \text{literals per term} : \text{term count}$
 
 if a term has $1$ literal, $\sum \text{literals per term} = 0$
 
@@ -58,4 +74,4 @@ $h_2ab = /b \vdash C h = 0 : 0 = 0$
 
 ### consequences
 
-NOR and NAND gates are very useful, as they reduce the cost of the logic circuit by reducing the number of ICs necessary to get an identical output (see [[boolean-operator]]s)
+NOR and NAND [[gate]]s are very useful, as they reduce the cost of a [[logic-circuit]] by reducing the number of ICs necessary to get an identical output, see [[boolean-algebra]]

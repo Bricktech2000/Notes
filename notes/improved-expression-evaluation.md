@@ -32,7 +32,7 @@ similarly, dividing by a variable equal to zero can be thought of as _invalid_, 
 
 the video above does _not_ break the principle stated above. the following rule would solve the issue outlined in the video above:
 
-> **rule**: when solving an equation by applying operations on both sides of an equality, the resulting equality must be equivalent (see [[boolean-operator]]) to the original equality.
+> **rule**: when solving an equation by applying operations on both sides of an equality, the resulting equality must be equivalent to the original equality.
 
 below are some applications of the rule above
 
@@ -187,7 +187,7 @@ $\int \delta y = \delta \int y = y$
 
 $\int f \to \varnothing$
 
-in a [[proof]], equalities must be linked together through the intended implications (see [[boolean-operator]]). this means that multiplying or dividing an equality by an expresion that could be $0$ or raising it to some power could require additional restrictions.
+in a [[proof]], equalities must be linked together through the intended implications, see [[boolean-algebra]]. this means that multiplying or dividing an equality by an expresion that could be $0$ or raising it to some power could require additional restrictions.
 
 if the result of an expression is _undefined_, then the expression must be rearranged first in order to avoid the undefined value. note that some expressions (such as $-0$) cannot be computed without proper context, leaving them undefined.
 

@@ -12,16 +12,20 @@ or all other user-defined classes
 
 ## the `==` operator on References
 
-using the `==` operator on reference [[type]]s compares their memory address. for example, to compare the content of strings, one must use `s1.equals(s2)`, and **not** `s1 == s2`. as an example,
+using the `==` [[operator]] on reference [[type]]s compares their location in memory, which can be influenced by compiler optimization. for example, to compare the content of strings, one must use `s1.equals(s2)`, and **not** `s1 == s2`. as an example,
 
 ```java
-s1 = "String";
-s2 = "String";
-// s1 == s2 returns True
-// s1.equals(s2) returns True
-s1 = "String";
-s2 = s1 + "1";
-s1 = s1 + "1";
-// s1 == s2 returns False
-// s1.equals(s2) returns True
+public class References {
+ public static void main(String[] args) {
+   String a = "asdf";
+   String b = "asdf";
+   String c = "a" + "sdf";
+   String first = "a";
+   String d = first + "sdf";
+
+   System.out.println(a == b); // true
+   System.out.println(a == c); // true
+   System.out.println(a == d); // false
+ }
+}
 ```

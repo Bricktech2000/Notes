@@ -13,13 +13,13 @@ uOttawa technical report writing research guide: <https://uottawa.libguides.com/
 
 - make it specific enough so that a manageable amount of results is returned
 - use synonyms where applicable
-- use operators such as `AND`, `OR`, `NOT`, `"`, `*`...
+- use logical [[operator]]s such as `AND`, `OR`, `NOT`, `"`, `*`...
 - avoid general terms such as:
   > cause, effect, determine, factors, role, research, trends, benefits, advantages, drawbacks, disadvantages, impacts...
 
 **example**
 
-sample search string using synonyms, operators, wildcard and quotes
+sample search string using synonyms, [[operator]]s, wildcard and quotes
 
 ```jsx
 ("sea level" AND (rise OR change))

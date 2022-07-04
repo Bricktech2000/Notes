@@ -42,7 +42,7 @@ zero [[type]] inference, because Java. actually, <https://www.google.com/search?
 
 ## Operator Overloading
 
-Java does **not** support operator overloading, because Java
+Java does **not** support [[operator]] overloading, because Java
 
 ## [[java-wrapper]]s
 

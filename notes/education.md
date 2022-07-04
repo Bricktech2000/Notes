@@ -21,6 +21,8 @@ living in residences is encouraged for first-year students to **help them build 
 
 ## cost of postsecondary education
 
+---
+
 # This class is soooooooo boring
 
 No way I'm taking notes on that

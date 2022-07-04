@@ -67,3 +67,5 @@
 [[hadamard-product]]
 
 [[type-theory]]
+
+[[operator]]

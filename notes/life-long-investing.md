@@ -59,6 +59,8 @@ crypto taxes in Canada:
 
 <https://turbotax.intuit.ca/tips/guide-to-cryptocurrency-tax-rules-14515>
 
+---
+
 # types of bank accounts
 
 _the different types of bank accounts in Canada_

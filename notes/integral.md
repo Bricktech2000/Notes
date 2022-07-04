@@ -28,6 +28,8 @@ $F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
 
 > **definition**: the _integrand_ is the [[function]] being integrated. it would be $f\ x$ in the [[integral]] $\int f\ x \mid \delta x$
 
+---
+
 # Integration
 
 ## [[antiderivative]] Antidifferentiation

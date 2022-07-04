@@ -1,6 +1,6 @@
 # Esoteric Programming Language Idea
 
-inspired by [[classical-math-notation]], where operators like to change what they return based on what surrounds them
+inspired by [[classical-math-notation]], where [[operator]]s like to change what they return based on what surrounds them
 
 ## Initiators
 

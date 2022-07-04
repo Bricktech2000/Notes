@@ -16,9 +16,9 @@ used for backlinks
 
 [[lambda-calculus]] is the basis for most [[functional-programming]] languages
 
-## [[boolean-algebra]] in [[lambda-calculus]]
+## booleans in lambda calculus
 
-[[boolean]] values and [[boolean-operator]]s can be defined as follows (Church Booleans):
+[[boolean]] values and [[boolean-algebra]] [[operator]]s can be defined as follows (Church Booleans):
 
 $\text{true} = \lambda x.\ \lambda y.\ x$
 

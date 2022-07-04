@@ -66,6 +66,8 @@ _4-bit multiplier_
 
 - simulate _Table 3_ and compare the results
 
+---
+
 # Report Format
 
 ...

@@ -10,7 +10,7 @@ $\mathbb E \vdash \mathbb Z$
 
 $\mathbb En \equiv \mathbb Z k \land n = 2k : 0$
 
-## example [[proof]]
+## example [[proof]]s
 
 #example
 
@@ -24,9 +24,7 @@ $4k2 : 4kq : q2 : 6k : 3q : 8$
 
 $(2 \mid 2k2 : 2kq : 3k : 4 : q) : q2 : q$
 
----
-
-$n2 : n$
+prove $n2 : n$ is an [[even-number]] for all $\mathbb Z n$
 
 let $n = 2k \land \mathbb Z k$
 

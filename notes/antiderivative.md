@@ -16,6 +16,8 @@ $f\ x$ is any [[function]]
 
 $F\ x$ are the [[antiderivative]]s of $f\ x$
 
+---
+
 # Antidifferentiation
 
 to antidifferentiate a [[function]], apply reciprocal [[derivative-rules]] recursively, see [[recursion]]

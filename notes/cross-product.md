@@ -2,7 +2,7 @@
 
 see [[math-notation]], [[determinant]], [[vector]]
 
-the cross product is only defined for [[vector-in-rn]]3
+> **note**: the [[cross-product]] is only defined for [[vector-in-rn]]3
 
 ### definitions
 

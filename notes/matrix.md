@@ -34,7 +34,7 @@ $AB \ne \varnothing \equiv \mathbb M^{m, n}A \land \mathbb M^{n, p}B \land \math
 
 $(AB)^{i, j} = A^{i, } \mid^\cdot B^{, j} \dashv \mathbb N i \land \mathbb N j$, see [[dot-product]]
 
-intuitively, matrix multiplication is the dot product of **every row** of the first [[matrix]] by **every column** of the second [[matrix]]
+intuitively, matrix multiplication is the [[dot-product]] of **every row** of the first [[matrix]] by **every column** of the second [[matrix]]
 
 ### notation
 

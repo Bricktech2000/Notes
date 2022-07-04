@@ -14,7 +14,7 @@ see [[money]], [[principles-of-economics]]
 
 > _leverage_ is the use of borrowed money to supplement existing funds for purposes of investment #think
 
-> _leverage ratio_ is the ratio of assets to [[bank]] capital #understand
+> _leverage ratio_ is the ratio of assets to [[bank]] capital #think
 
 > the _capital requirement_ is the minimum amount of [[bank]] capital a bank must hold, based on government regulation
 
@@ -24,11 +24,11 @@ see [[money]], [[principles-of-economics]]
 
 > _open-market operations_ is the purchase or sale of Government of Canada bonds by the Bank of Canada
 
-> _quantitative easing_ is the purchase and sale by the central [[bank]] of government or non-government securities with long maturity terms #understand
+> _quantitative easing_ is the purchase and sale by the central [[bank]] of government or non-government securities with long maturity terms #think
 
-> _foreign exchange market operations_ is the purchase or sale of foreign money by the Bank of Canada #understand
+> _foreign exchange market operations_ is the purchase or sale of foreign money by the Bank of Canada #think
 
-> _sterilization_ is the process of offsetting foreign exchange market operations with [[bank|open-market-operations]] so that the effect on the money supply is cancelled out #understand
+> _sterilization_ is the process of offsetting foreign exchange market operations with [[bank|open-market-operations]] so that the effect on the money supply is cancelled out #think
 
 > the _reserve requirements_ are the regulations on the minimum amount of reserves that [[bank]]s must hold against deposits
 

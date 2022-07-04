@@ -12,7 +12,7 @@ whitespace in formulas follow programming-language-like conventions
 
 [[si]] units and other units are to be written using `\text{}`
 
-the $\ : $ operator must always be surrounded one space on either side, or written as the first character of an equation as `$\ : $`
+the $\ : $ [[operator]] must always be surrounded one space on either side, or written as the first character of an equation as `$\ : $`
 
 `\R`, `\N`, `\Z`, `\{` and `\}` must not be used, as they are not widely supported. `\mathbb R`, `\mathbb N`, `\mathbb Z`, `\lbrace` and `\rbrace` should be used instead, respectively.
 
@@ -22,7 +22,7 @@ more information about supported features available at: <https://katex.org/docs/
 
 ### headings
 
-Capitalized headings are for [[concept]]s
+capitalized headings are for [[concept]]s
 
 lowercease headings are for general titles
 
@@ -60,9 +60,11 @@ _see ..._ statements are for prerequisites
 
 note names are all _-ing_ verbal groups or singular nominal groups
 
-each page has exactly one title case first-level heading, which must correspond to the file name
+horizontal rules are occasionally used to separate a whole file in different sections
 
-in file names, spaces are replaced by [[dash]]es and apostrophes are removed
+each page has one title case first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule
+
+in file names, spaces are replaced by [[dash]]es and apostrophes and diacritics are removed
 
 box titles are generated with <https://lingojam.com/BoldTextGenerator>
 
@@ -112,6 +114,8 @@ console.log(() => 'Fira Code Ligatures');
 2. list
 
 $\LaTeX$
+
+#tag
 
 [[index|wiki-link]]
 

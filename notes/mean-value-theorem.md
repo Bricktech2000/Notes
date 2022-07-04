@@ -14,7 +14,7 @@ _Mean Value Theorem for Functions_
 
 ## Rolle's Theorem
 
-> Rolle's theorem or Rolle's lemma essentially states that any real-valued differentiable function that attains equal values at two distinct points must have at least one stationary point somewhere between them---that is, a point where the first derivative is zero. &mdash; Wikipedia
+> Rolle's theorem or Rolle's lemma essentially states that any real-valued differentiable function that attains equal values at two distinct points must have at least one stationary point somewhere between them -- that is, a point where the first derivative is zero. &mdash; Wikipedia
 
 > **theorem**: let $f\ x$ be a [[function]] defined on $a \le x \le b$ such that $f\ x$ is continuous on $a \le x \le b$, that $f\ x$ is differentiable on $a < x < b$ **and** that $\delta\ f\ a - \delta a = \delta\ f\ b - \delta b$. then, there is a number $c$ in $a \le c \le b$ such that the [[derivative]] of $f\ x$ with respect to $x$ at $c$ is zero, or $(\lambda x\ \ \delta f\ x - \delta x)\ c = 0$
 

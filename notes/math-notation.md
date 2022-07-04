@@ -6,9 +6,9 @@ this note describes my custom [[math-notation]], meant to solve inconsistencies 
 
 ## principles
 
-- all equality operators **check** for equality and returns a [[boolean]], and it is implied that an expression on its own must evaluate to $\top$. this allows for [[boolean-operator]]s to be applied on equalities explicitly as opposed informally
-- [[set]]s are [[function]]s that return a [[boolean]] ($\mathbb R a$ instead of $a \in \mathbb R$). this way [[boolean-operator]]s and [[set]] operators are one and the same
-- some operators have versions with a different precedence as "more brackets means more explicit, but less brackets means less complex and less confusing"
+- all equality [[operator]]s **check** for equality and returns a [[boolean]], and it is implied that an expression on its own must evaluate to $\top$. this allows for [[boolean]] [[operator]]s to be applied on equalities explicitly as opposed informally
+- [[set]]s are [[function]]s that return a [[boolean]] ($\mathbb R a$ instead of $a \in \mathbb R$). this way, [[boolean]] [[operator]]s and [[set]] [[operator]]s are one and the same
+- some [[operator]]s have versions with a different precedence as "more brackets means more explicit, but less brackets means less complex and less confusing"
 - $\lfloor a \rfloor$ returns both positive and negative square roots ($\lfloor q2 \rfloor \equiv\ \because q$). same applies for other reciprocals
 - superscripts are modifiers (subscripts with special meanings). this distinction is especially useful when working with [[forward-propagation]] and [[backpropagation]] in neural networks
 - [[derivative]]s are not to be written as $y'$, but rather as their complete form $\delta y - \delta x$. this makes [[calculus]] notation way more intuitive
@@ -44,7 +44,7 @@ also see [[trigonometric-function]], [[calculus-notation]]
 | $a \times b$                                                      | nonequality                                      | logical xor by convention                 |
 | $a \vdash b$                                                      | implication, subset                              | $a$ implies $b$, $b$ for all $a$          |
 | $a \dashv b$                                                      | reverse implication, superset                    | $a$ for all $b$, $b$ implies $a$          |
-| $x_0 \mid x_1 \mid \dots x_n$ where $\mid$ is any operator        | with $n = 3$, $x_0 \mid x_1 \mid x_2 \mid x_3$   | step size is $1$ if $x_1 \mid$ is omitted |
+| $x_0 \mid x_1 \mid \dots x_n$ where $\mid$ is any [[operator]]    | with $n = 3$, $x_0 \mid x_1 \mid x_2 \mid x_3$   | step size is $1$ if $x_1 \mid$ is omitted |
 | $x_0 \dots x_n$                                                   | with $n = 3$ $x_0, x_1, x_2, x_3$                | step size is $1$ if $x_1$ is omitted      |
 | $X_{subscript}$                                                   | the variable $X$ with a subscript $_{subscript}$ |                                           |
 | $V^y$ where $V$ is a [[vector]]                                   | the $y$ (second) component of $V$                |                                           |
@@ -101,9 +101,9 @@ also see [[trigonometric-function]], [[calculus-notation]]
 > - $x_a^i$ represents subscripts and superscripts
 > - $\lambda$ represents [[function]] definitions
 
-> **note**: unary operators have identical precedence to their binary counterparts, but are right associative
+> **note**: unary [[operator]]s have identical precedence to their binary counterparts, but are right associative
 
-> **definition**: let $=$ be an operator with _AND_ associativity. then, $a = b = c = \dots\ \ \equiv\ \ a = b \land b = c \land c = \dots$
+> **definition**: let $=$ be an [[operator]] with _AND_ associativity. then, $a = b = c = \dots\ \ \equiv\ \ a = b \land b = c \land c = \dots$
 
 ## examples
 

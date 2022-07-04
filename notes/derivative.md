@@ -48,6 +48,8 @@ $\nabla f\ x\ y$ is the [[gradient]] of $f$ at $(x, y)$
 
 $v$ is the direction [[vector-in-rn]]
 
+---
+
 # Differentiation
 
 to differentiate a [[function]], apply [[derivative-rules]] recursively, see [[recursion]]

@@ -2,6 +2,8 @@
 
 see [[type]]
 
+values in [[type-theory]] are [[type]]s
+
 ## assumptions
 
 > - some idea of abstract syntax with bindings and scope (substitution for variables)

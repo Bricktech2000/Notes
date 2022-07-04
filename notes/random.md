@@ -322,5 +322,3 @@ $x$ axis is the line $y = x \mid \tan \alpha$
 $y$ axis is the line $\cdot x \cos \theta = y \sin \theta$
 
 $x$ axis is the line $x \sin \theta = y \cos \theta$
-
----
