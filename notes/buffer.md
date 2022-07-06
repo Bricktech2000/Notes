@@ -6,9 +6,9 @@ see [[acid-and-base]]s, [[equilibrium]], [[classical-math-notation]]
 
 ## example
 
-$NH_{3(aq)} + H^+_{aq} \rightarrow NH_{4(aq)}^+$
+$NH_{3(aq)} + H^+_{aq} \to NH_{4(aq)}^+$
 
-$NH_{3(aq)} + OH^-_{(aq)} \rightarrow NH_{3(aq)} + H_2O_{(aq)}$
+$NH_{3(aq)} + OH^-_{(aq)} \to NH_{3(aq)} + H_2O_{(aq)}$
 
 ## Henderson-Hasselbalch Equation
 

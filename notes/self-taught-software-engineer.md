@@ -47,6 +47,8 @@ online visibility is very important for [[self-taught-software-engineer]]s
 
 > "the hardest part about this whole journey is getting that first job -- but once you get that first job, recruiters are gonna be messaging you almost everyday."
 
+coding interviews are about more than just programming &mdash; <https://youtu.be/0Z9RW_hhUT4>
+
 ## Moving Forward
 
 - best way to increase income often is changing jobs, not asking for a raise

@@ -10,7 +10,7 @@ _only questions on **first-order reactions** will be asked in [[chm1301-principl
 
 ### The Rate Law
 
-in a reaction $aA + bB \rightarrow cC + dD$,
+in a reaction $aA + bB \to cC + dD$,
 
 $Rate = k[A]^m[B]^n$, where
 

@@ -25,7 +25,7 @@ page load limit: 100
 
 displays any event that isn't completed and that is within one day of today
 
-> end date is within next week or end date is on or before today
+> end date is within next week or end date is on or before today or start date is within next week
 >
 > and
 >

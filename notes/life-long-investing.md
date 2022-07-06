@@ -22,7 +22,7 @@ study the following strategy:
 
 - prevents economic crises from affecting one’s net worth
 - takes advantage of compound interest from a young age
-- prevents the situation where it is hard save some of your money because your lifestyle is shaped around spending a certain amount of it. however, implementing this strategy from a young age will mean that you will never know what it's like to have the money you're investing, and so you will not miss it. in theory.
+- prevents the situation where it is hard save some of your money because your lifestyle is shaped around spending a certain amount of it. however, implementing this strategy from a young age will mean that you will never know what it's like to have the money you're investing, and so you will not miss it. in theory. see <https://youtu.be/eDa1U9qJKxo> for some more information
 
 ## notes
 
@@ -31,9 +31,12 @@ study the following strategy:
 - mutual funds can sometimes offer higher returns than index funds
 - Wealth Simple Trade has low fees for long-term investments
 - build an emergency fund (3 to 6 months of living expenses)
-- Terra / Anchor Protocol is very, very interesting (20% ROI &mdash; <https://drive.google.com/file/d/1sKM08sghjCh0FSdzJ0gvir-GSmPPA9yF/view> at 24:30)
+- ~~Terra / Anchor Protocol is very, very interesting (20% ROI &mdash; <https://drive.google.com/file/d/1sKM08sghjCh0FSdzJ0gvir-GSmPPA9yF/view> at 24:30)~~ turns out UST crashed all the way to 0$
+- "the rich build and acquire assets. the poor and middle class acquire liabilities that they mistakenly think are assets." for instance, a home is not an asset, it is a liability. acquiring assets over time is the best way to build [[wealth]]
 
 ## &mdash;
+
+<https://youtu.be/eDa1U9qJKxo>
 
 <https://youtu.be/npH236HEC_w>
 

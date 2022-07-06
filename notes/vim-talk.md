@@ -1,52 +1,59 @@
 # Vim
 
+<br><br>
+
 [//]: # 'see [[public-speaking]]'
 [//]: # 'prep:'
-[//]: # 'disable markdown github styling'
-[//]: # 'open MosaicLarge in new window'
-[//]: # 'prepare demo table in same window'
-[//]: # 'C-S-P Editor Font Zoom in x12'
+[//]: # 'open new VSCode window'
+[//]: # 'turn on screen cast mode'
+[//]: # 'open MosaicLarge in window'
+[//]: # 'open demo table in window'
+[//]: # 'zoom in 3x'
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+---
 
 ## Background
+
+<br><br>
 
 [//]: # 'a set of key bindings?'
 [//]: # 'efficient'
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+---
 
 ## Modes
 
-[//]: # 'I and ESC'
+<br><br>
 
-<br>
+[//]: # 'I and ESC'
 
 ```mermaid
 graph TD
 
-N(<h2><o>Normal)
+N(Normal)
 
-I(<h2><o>Insert)
-C(<h2><o>Command)
-V(<h2><o>Visual)
+I(Insert)
+C(Command)
+V(Visual)
 
 N --- I
 N --- V
 N --- C
 ```
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+---
 
 ## Normal Mode
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br>
+
+---
 
 ## Normal Mode
 
-### Motion Commands
+#### Motion Commands
 
-<br>
+<br><br>
 
 |                        |              |
 | ---------------------- | ------------ |
@@ -56,13 +63,13 @@ N --- C
 
 [//]: # 'USE NUMBERS'
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+---
 
 ## Normal Mode
 
-### Verb Commands
+#### Verb Commands
 
-<br>
+<br><br>
 
 |              |             |
 | ------------ | ----------- |
@@ -70,13 +77,15 @@ N --- C
 | **y**        | yank (copy) |
 | **p**        | paste       |
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+[//]: # 'nothing happened...'
+
+---
 
 ## Normal Mode
 
-### Phrases
+#### Phrases
 
-<br>
+<br><br>
 
 |                  |                  |
 | ---------------- | ---------------- |
@@ -88,11 +97,13 @@ N --- C
 
 [//]: # 'easy to remember, switch keyboard layouts'
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+---
 
 ## Demo
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br>
+
+---
 
 [//]: # 'learn Vim!'
 [//]: # 'disadvantage: frustrating'

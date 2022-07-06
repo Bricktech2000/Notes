@@ -16,9 +16,9 @@ $\delta y - \delta x \equiv \delta(y) - \delta(x)$
 
 derivatives and integrals at a point $t$ can be written as follows:
 
-$(\lambda x\ \ \delta y - \delta x)\ t$
+$(x \rightarrow \delta y - \delta x)\ t$
 
-$(\lambda x\ \int y \mid x)\ t$
+$(x \rightarrow \int y \mid x)\ t$
 
 ### intuitive explanation
 

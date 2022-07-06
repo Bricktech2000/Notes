@@ -10,6 +10,8 @@ see [[calculus]], [[derivative]]
 
 let $f$ be a [[function]] differentiable at $(x, y)$. then,
 
-$\nabla f\ x\ y = ((\lambda x y\ \ \delta\ f\ x\ y - \delta x)\ x\ y, (\lambda x y\ \ \delta\ f\ x\ y - \delta y)\ x\ y)$ (right-ish #think), where
+$\nabla f\ x\ y = ((x\ y \rightarrow \delta\ f\ x\ y - \delta x)\ x\ y, (x\ y \rightarrow \delta\ f\ x\ y - \delta y)\ x\ y)$ (right-ish #think), where
 
 $\nabla f\ x\ y$ is the [[gradient]] of the [[function]] $f$ at $(x, y)$
+
+[[limit]] definition #todo

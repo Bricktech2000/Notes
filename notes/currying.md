@@ -2,13 +2,15 @@
 
 see [[function]], [[functional-programming]]
 
-> **definition**: _Currying_ is the process of transforming a function that takes multiple arguments into a function that takes a single argument. &mdash; GitHub Copilot
+> **definition**: _Currying_ is the process of transforming a [[function]] that takes multiple arguments into a set of nested [[function]]s that each take a single argument. &mdash; GitHub Copilot
 
 ## example
 
-in [[math-notation]], we define [[function]]s as $f\ x, y = x : 2y$ and call them using $f/ (x, y)$
+in [[classical-math-notation]], we define [[function]]s as $f(x , y) = x + 2y$ and call them using $f(x, y)$
 
-with [[currying]], we define [[function]]s as $f = x \to y \to x : 2y$ and call them using $f\ x\ y$
+with [[currying]] in [[classical-math-notation]], we define [[function]]s as $f = x \to y \to x + 2y$ and call them using $f(x)(y)$
+
+in my [[math-notation]], [[function]]s can optionally be defined using [[currying]]
 
 ## applications
 

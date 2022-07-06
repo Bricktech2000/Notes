@@ -24,9 +24,9 @@ $\mathcal L$ is the [[loss-function]]
 
 $a_y$ is the last layer of the network
 
-to maximize $\Delta \mathcal L$, $\Delta a_y^y = (\lambda a_y^y\ \ \delta \mathcal L - \delta a_y^y)\ a_y^y$, see [[gradient]]
+to maximize $\Delta \mathcal L$, $\Delta a_y^y = (a_y^y \rightarrow \delta \mathcal L - \delta a_y^y)\ a_y^y$, see [[gradient]]
 
-written differently, $\Delta a_y = (\delta a_y^y\ \ \delta \mathcal L - \delta a_y)\ a_y$
+written differently, $\Delta a_y = (\delta a_y^y \rightarrow \delta \mathcal L - \delta a_y)\ a_y$
 
 ## computing changes in weight
 
@@ -40,7 +40,7 @@ $\delta a_j^j - \delta z_j^j = (\delta\ g\ z_j^j - \delta z_j^j)$, where $g$ is 
 
 therefore, $\delta a_j^j - \delta w_{k \to j}^{j, k} = a_k^k \mid (\delta\ g\ z_j^j - \delta z_j^j)$
 
-to maximize $\Delta L$, $\Delta w_{k \to j}^{j, k} = a_k^k \mid (\lambda z_i\ \ \delta\ g\ z_j^j - \delta z_j^j)\ z_j \mid \Delta a_j^j$, see [[gradient]]
+to maximize $\Delta L$, $\Delta w_{k \to j}^{j, k} = a_k^k \mid (z_j^j \rightarrow \delta\ g\ z_j^j - \delta z_j^j)\ z_j \mid \Delta a_j^j$, see [[gradient]]
 
 written differently, $\Delta w_{k \to j} = \Delta a_j\ \mathring\shortmid\ g'\ z_j\ \dot\mid\ {a_k}^{\intercal}$, see [[hadamard-product]], [[dot-product]]
 
@@ -56,7 +56,7 @@ $\delta a_j^j - \delta z_j^j = (\delta\ g z_j^j - \delta z_j^j)$, where $g$ is t
 
 therefore, $\delta a_j^j - \delta a_k^k = w_{k \to j}^{j, k} \mid (\delta\ g\ z_j^j - \delta z_j^j)$
 
-to maximize $\Delta L$, $\Delta a_k^k = w_{k \to j}^{j, k} \mid (\lambda z_j\ \ \delta\ g\ z_j^j - \delta z_j^j)\ z_j \mid \Delta a_j^j$ summed over all $j$ , see [[gradient]]
+to maximize $\Delta L$, $\Delta a_k^k = w_{k \to j}^{j, k} \mid (z_j^j \rightarrow \delta\ g\ z_j^j - \delta z_j^j)\ z_j \mid \Delta a_j^j$ summed over all $j$ , see [[gradient]]
 
 written differently, $\Delta a_j = {w_{k \to j}}^{\intercal}\ \dot\mid\ \Delta a_j\ \mathring\shortmid\ g'\ z_j$, see [[hadamard-product]], [[dot-product]]
 

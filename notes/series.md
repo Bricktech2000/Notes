@@ -106,7 +106,7 @@ we then derive the following definition:
 
 > **definition**: $T\ x = P^0 : P^1 : P^2 : \dots = f\ x$, where
 >
-> $P^n = (\lambda x\ \ d^n f)\ a - \operatorname{fact} n \mid [x \cdot a]n$, where
+> $P^n = (x \rightarrow d^n f)\ a - \operatorname{fact} n \mid [x \cdot a]n$, where
 >
 > $d^n f = d^{n \cdot 1} (\delta\ f\ x - \delta x) \land d^0 f = f$, see [[derivative]]
 >
