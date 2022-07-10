@@ -4,7 +4,7 @@ see [[vector-in-rn]], [[math-notation]]
 
 &mdash; <https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s>
 
-## Parametric Equation
+## Parametric Form
 
 $L = p : td$, or
 
@@ -18,7 +18,7 @@ $L$ represents all points on the line (it _is_ the line)
 
 _continue below_
 
-## Symmetric Equation
+## Symmetric Form
 
 solving the above equation for $t$
 
@@ -34,7 +34,7 @@ $L^x \cdot p^x - p_1^x \cdot p_0^x = L^y \cdot p^y - p_1^y \cdot p_0^y = L^z \cd
 
 if $L_0^n = L_1^n \dashv \mathbb Z n$ has a solution, then the two lines intersect at said solution
 
-**trick**: check to see if the lines are parallel first
+> **note**: as a trick, check to see if the lines are parallel first
 
 ## Angle Between Two Lines
 
@@ -44,9 +44,9 @@ the angle between two lines is the angle between their direction [[vector-in-rn]
 
 if $p_1^n \cdot p_0^n = 0 \land \mathbb Z n$, then the line is in a plane
 
-lines $L_1$ and $L_2$ are parallel if $p_{1_1} \cdot p_{1_0} = k \mid p_{2_1} \cdot p_{2_0} \land \mathbb R k$ “their direction vectors are scalar multiples of each other”
+two lines with points $p$ and $q$ are parallel if $p_1 \cdot p_0 = k \mid q_1 \cdot q_0 \land \mathbb R k$. _two lines are parallel if one of their direction [[vector]]s is a [[linear-combination]] of the other direction [[vector]]_
 
-## Slope-intercept form
+## Slope-Intercept Form
 
 $y = mx : b$, where
 

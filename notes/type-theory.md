@@ -4,7 +4,11 @@ see [[type]]
 
 values in [[type-theory]] are [[type]]s
 
+used for backlinks
+
 ## assumptions
+
+(ignore everything below)
 
 > - some idea of abstract syntax with bindings and scope (substitution for variables)
 >

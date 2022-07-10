@@ -74,6 +74,7 @@ also see [[trigonometric-function]], [[calculus-notation]]
 | $x\ y \rightarrow E$ where $E$ is an expression                | $x \rightarrow y \rightarrow E$                       |                                        |
 | $S = \lbrace a \dots b \rbrace$                                | $S\ x \equiv x = a \lor \dots x = b$                  |                                        |
 | $\mathbb N a$                                                  | checks whether $a$ is part of the [[set]] $\mathbb N$ |                                        |
+| $x \rightarrow (a < x < b)$                                    | the closed interval from $a$ to $b$                   | same can be used for open intervals    |
 | $\delta y - \delta x$                                          | the [[derivative]] of $y$ with respect to $x$         | $\delta$ should be used instead of $d$ |
 | $\int y - \delta x$                                            | the [[antiderivative]] of $y$ with respect to $x$     | $\delta$ should be used instead of $d$ |
 

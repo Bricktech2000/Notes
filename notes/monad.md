@@ -2,6 +2,8 @@
 
 see [[functional-programming]], [[return]], [[bind]], [[join]]
 
+## definition
+
 a [[monad]]:
 
 - is an [[effect-type]]
@@ -29,7 +31,7 @@ let a [[function]] `f :: a -> b` and a [[monad]] `ma = M a`. then, `f` can be [[
 
 _an alternative to the [[bind]] [[function]]_
 
-> **AKA**: `>=>`
+> **AKA**: `>=>`, fish operator, Kleisli operator
 
 the Kleisli Composition is an alternative to the [[bind]] [[function]] that uses [[composition]] to turn two "world-crossing" [[function]]s into a single "world-crossing" [[function]] by short-circuiting their alternative outputs (see [[bind]])
 

@@ -20,83 +20,15 @@ defined using [[iteration]]: $a = \lbrace 1, 2, 3, \dots \rbrace = \lbrace a_n \
 
 defined using [[recursion]]: $a_1 = 2$ and $a_n = 4 - \frac{1}{a_{n \cdot 1}}$
 
-## examples
+## example
 
-### Fibonacci Sequence
-
-$F^0 = 1 \land F^1 = 1 \land F^n = F^{n \cdot 1} : F^{n \cdot 2}$
-
-## Arithmetic Sequence
-
-### definition
-
-> **definition**: an _arithmetic [[sequence]]_ is a [[sequence]] for which consecutive elements have the same difference
-
-$a = a^0 : 0d, a^0 : 1d, \dots$, where
-
-$d$ is the difference between consecutive elements
-
-$a^0$ is the first element of the sequence
-
-> **note**: the starting index does not have to be $0$ but must still be a [[natural]]
-
-### example
-
-$a = 1, 3, 5, 7, \dots$
-
-## Geometric Sequence
-
-### definition
-
-> **definition**: a _geometric [[sequence]]_ is a [[sequence]] for which consecutive elements have the same ratio
-
-$a = a^0[r]0, a^0[r]1, \dots$, where
-
-$r$ is the ratio between consecutive elements
-
-$a^0$ is the first element of the sequence
-
-> **note**: the starting index does not have to be $0$ but must still be a [[natural]]
-
-### example
-
-$s = 4, 8, 16, 32, \dots$
-
-### properties
-
-a geometric [[sequence]] $a^0[r]0, a^0[r]1, \dots$ with $a^0 \ne 0$:
-
-- diverges if $r > 1$
-- converges to $a$ if $r = 1$
-- converges to $0$ if $0 \le r < 1$
-- converges to $0$ if $\cdot 1 < r \le 0$
-- diverges if $r = \cdot 1$
-- diverges if $r < \cdot 1$
-
-> **proof**: think of it intuitively
-
-## Sequence Convergence
-
-> **definition**: a [[sequence]] is said to _converge_ if the [[limit]] $\lim_{n \to \infty} a^n$ exists as a finite number
-
-if a [[sequence]] is bounded and monotonic, then it must converge. think of this intuitively
-
-### Using Limits
-
-> **theorem**:
->
-> let $a$ be a [[sequence]] and $f\ x$ be a [[function]] and suppose $a^n = f\ n \dashv \mathbb N n$. then, $\lim_{x \to \infty} f\ x = L\ \ \vdash\ \ \lim_{n \to \infty} a^n = L$. in other words,
->
-> - if $\lim_{x \to \infty} f\ x$ converges, then $\lim_{n \to \infty} a^n$ converges
-> - if $\lim_{x \to \infty} f\ x$ diverges, then $\lim_{n \to \infty} a^n$ diverges
-
-### Geometric [[sequence]] Convergence
+Fibonacci Sequence: $F^0 = 1 \land F^1 = 1 \land F^n = F^{n \cdot 1} : F^{n \cdot 2}$
 
 ## Sum of an Infinite Sequence
 
 let $a = a^0, a^1, a^2, \dots$
 
-$a_{sum} = \lim_{n \to \infty} S_n$, where
+$a_{sum} = \lim_{n \to \infty} S^n$, where
 
 $a$ the [[sequence]] to be summed
 
@@ -125,3 +57,73 @@ suppose $a^n = f\ n \dashv \mathbb N n$. then, the extrema of the [[function]] $
 > **definition**: a [[sequence]] is said to be _monotonic_ if it is either _non-increasing_ or _non-decreasing_
 
 suppose $a^n = f\ n \dashv \mathbb N n$. then, the increase and decrease of the [[function]] $f$ can be used to determine the increase and decrease of the [[sequence]] $a$
+
+## Sequence Convergence
+
+> **definition**: a [[sequence]] is said to _converge_ if the [[limit]] $\lim_{n \to \infty} a^n$ exists as a finite number
+
+if a [[sequence]] is bounded and monotonic, then it must converge. think of this intuitively
+
+### Using Limits
+
+> **theorem**:
+>
+> let $a$ be a [[sequence]] and $f\ x$ be a [[function]] and suppose $a^n = f\ n \dashv \mathbb N n$. then, $\lim_{x \to \infty} f\ x = L\ \ \vdash\ \ \lim_{n \to \infty} a^n = L$. in other words,
+>
+> - if $\lim_{x \to \infty} f\ x$ converges, then $\lim_{n \to \infty} a^n$ converges
+> - if $\lim_{x \to \infty} f\ x$ diverges, then $\lim_{n \to \infty} a^n$ diverges
+
+### Geometric [[sequence]] Convergence
+
+---
+
+# Types
+
+## Arithmetic Sequence
+
+### definition
+
+> **definition**: an _arithmetic [[sequence]]_ is a [[sequence]] for which consecutive elements have the same difference
+
+$a = a^0 : 0d, a^0 : 1d, \dots$, where
+
+$d$ is the difference between consecutive elements
+
+$a^0$ is the first element of the sequence
+
+> **note**: the starting index does not have to be $0$ but must still be a [[natural]]
+
+### example
+
+$a = 1, 3, 5, 7, \dots$
+
+## Geometric Sequence
+
+### definition
+
+> **definition**: a _geometric [[sequence]]_ is a [[sequence]] for which consecutive elements have the same ratio
+
+$a = a^0r0, a^0r1, \dots$, where
+
+$r$ is the ratio between consecutive elements
+
+$a^0$ is the first element of the sequence
+
+> **note**: the starting index does not have to be $0$ but must still be a [[natural]]
+
+### example
+
+$s = 4, 8, 16, 32, \dots$
+
+### properties
+
+a geometric [[sequence]] $a^0r0, a^0r1, \dots$ with $a^0 \ne 0$:
+
+- diverges if $r > 1$
+- converges to $a$ if $r = 1$
+- converges to $0$ if $0 \le r < 1$
+- converges to $0$ if $\cdot 1 < r \le 0$
+- diverges if $r = \cdot 1$
+- diverges if $r < \cdot 1$
+
+> **proof**: think of it intuitively

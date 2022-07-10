@@ -2,15 +2,17 @@
 
 ## properties
 
-options trading allows for way higher of a ROI when compared to trading in the [[stock-market]]
+a single option controls 100 shares of the underlying stock
 
-a single option has a low probability of making a profit but limit losses to a certain amount
+a single option has a lower probability of making a profit but limit losses to a certain amount
 
 options trading allows for higher leverage than the [[stock-market]]
 
 options price rise with high volatility and fall with low volatility
 
 the VIX predicts the volatility of the S&P 500 in the next 30 days. it always overstates its volatility by 4% &mdash; Felix. therefore, it is more beneficial to be an options seller than an options buyer.
+
+if the _share price_ doesn't reach the _strike price_ of an option before its _expiration_, the option will be worthless. therefore, options with a certain %OTM are more valuable when their _expiration_ further in the future.
 
 ## definitions
 
@@ -21,6 +23,10 @@ the VIX predicts the volatility of the S&P 500 in the next 30 days. it always ov
 > **definition**: the _premium_ is the price of an option, which is paid upfront
 
 > **definition**: the _expiration_ is the date at which an option expires and must be either executed or thrown away
+
+> **definition**: an option that is _X% OTM_ means that the share price is X% away from the _strike price_ and currently out of the money
+
+> **definition**: an option that is _X% ITM_ means that the share price is X% away from the _strike price_ and currently in the money
 
 ## Everything is Priced In
 
@@ -91,3 +97,17 @@ _profit from low stock volatility_
 beta, delta, gamma, vega, theta, rho, phi
 
 #todo
+
+## Types
+
+### Call
+
+buying the right to buy a stock
+
+calls are a bullish investment
+
+#todo <https://youtu.be/NW5927_LPUs?t=182>
+
+### Put
+
+buying the right to sell a stock

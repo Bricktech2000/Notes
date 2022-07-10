@@ -20,9 +20,103 @@ $b$ is the [[series]] corresponding to $a$
 
 let $b = b^0 : b^1 : b^2, \dots$
 
-$S = (b^0), (b^0 : b^1), (b^0 : b^1 : b^2), \dots$ or alternatively $S^0 = b^0 \land S^n = S^{n \cdot 1} : b^n$, where
+$S_b = (b^0), (b^0 : b^1), (b^0 : b^1 : b^2), \dots$ or alternatively $S_b^0 = b^0 \land S_b^n = S_b^{n \cdot 1} : b^n$, where
 
-$S$ is the [[sequence]] of partial sums of the [[series]] $b$
+$S_b$ is the [[sequence]] of partial sums of the [[series]] $b$
+
+## Series Remainder
+
+### definition
+
+$R_b^n = S_b^\infty \cdot S_b^n$, where
+
+$S_b$ is the [[sequence]] of partial sums of the [[series]] $b$
+
+$S_b^\infty \equiv b$ is the value at which the [[series]] $b$ converges
+
+$R_b^n$ is the remainder of the [[series]] $b$ after $n$ terms
+
+## Series Convergence
+
+> **definition**: a [[series]] is said to _converge_ if its [[sequence]] of partial sums converges. otherwise, it is said to _diverge_.
+
+> **definition**: a [[series]] $a = a^0 : a^1 : \dots$ is said to be _absolutely convergent_ (_absolute convergence_) if the [[series]] $|a^0| : |a^1| : \dots$ converges
+
+> **definition** a [[series]] is said to be _conditionally convergent_ (_conditional convergence_) if it is _convergent_ but not _absolutely convergent_
+
+> **theorem**: a [[series]] being _absolutely convergent_ implies it is _convergent_
+>
+> **proof**: &mdash; <https://youtu.be/7gigNsz4Oe8?t=15557>
+
+### Integral Test
+
+_useful for [[series]] containing [[logarithm]]s or easy-to-compute [[integral]]s_
+
+> **theorem**: _the integral test_
+>
+> let $b$ be a [[series]] and suppose $f\ x$ is an eventually _continuous_, _positive_ and _infinite_ [[function]] on $R \le x < \infty \land \mathbb R R$ **for some number $R$** and that $b^n = f\ n \dashv \mathbb N n$. then,
+>
+> - if $\int_{x = 1}^{\infty} f\ x \mid \delta x$ converges, then $b^0 : b^1 : \dots$ converges
+> - if $\int_{x = 1}^{\infty} f\ x \mid \delta x$ diverges, then $b^0 : b^1 : \dots$ diverges
+
+### Comparison Tests
+
+> **theorem**: _Comparison Test for Series_
+>
+> let $b$ and $B$ be [[series]] and suppose $0 \le b^n \le B^n \dashv \mathbb N n$. then,
+>
+> - if $B$ converges, then $b$ converges
+> - if $b$ diverges, then $B$ diverges
+
+the following [[series]] are useful for testing convergence:
+
+- $b = b^0r0 : b^0r1 : \dots$ (see geometric [[series]] convergence for proof)
+- $b = \text-[1]p : \text-[2]p : \dots$ (see [[integral]] p-test for proof)
+
+for example, determining the convergence of the [[series]] $b^n = 3[n] - 5[n] : n2$ can be done by proving it is greater than the [[series]] $b^n = 3[n] - 5[n]$ and by proving the series $b^n = 3[n] - 5[n]$ converges (seems wrong, #think)
+
+> **theorem**: _Limit Comparison Test_
+>
+> let $a$ and $b$ be [[series]] such that $a_n \ge 0 \land b_n \ge 0 \dashv \mathbb N n$. if $\lim_{n \to \infty} a^n - b^n = L$ where $L > 0$ and is finite, then:
+>
+> - $a$ converges if and only if $b$ converges
+> - $a$ diverges if and only if $b$ diverges
+>
+> **proof**: &mdash; <https://youtu.be/7gigNsz4Oe8?t=14964>
+
+### Ratio Test
+
+_useful for [[series]] containing factorials and a geometric part and for power [[series]]_
+
+> **theorem**: _Ratio Test_
+>
+> let $b$ be a [[series]] and let $L = \lim_{n \to \infty} |b^{n : 1} - b^n|$. then,
+>
+> - if $L < 1$, $b$ is absolutely convergent and therefore also convergent
+> - if $L > 1$ or $L = \infty$, $b$ is divergent
+> - if $L = 1$ or if $L$ does not exist, the ratio test is inconclusive
+>
+> **proof**: &mdash; <https://youtu.be/7gigNsz4Oe8?t=16223>
+
+### Divergence Test
+
+> **theorem**: _Divergence Test_
+>
+> let $b$ be a [[series]]. if $\lim_{n \to \infty} b^n \ne 0$, then $b$ is divergent
+
+> **note**: $\lim_{n \to \infty} b^n = 0$ does not imply that $b$ is convergent
+
+### Alternating Test
+
+> **theorem**: let $b$ be a [[series]] such that $b^n = [\cdot 1]n \mid a^n$ where either $a^n \ge 0$ for all $n$ or $a^n \le 0$ for all $n$. then, if $\lim_{n \to \infty} a^n = 0$ and if $a$ is an eventually decreasing sequence, the [[series]] $b$ is convergent &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
+
+### Geometric [[series]] Convergence
+
+### Harmonic [[series]] Convergence
+
+---
+
+# Types
 
 ## Arithmetic Series
 
@@ -44,7 +138,7 @@ $-1 \cdot x$ is said to be _represented by the power series_ $x0 : x1 : x2 : \do
 
 ### properties
 
-a geometric [[series]] $b[r]0, b[r]1, \dots$ with $b^0 \ne 0$:
+a geometric [[series]] $b^0r0 : b^0r1 :\dots$ with $b^0 \ne 0$:
 
 - converges to $b^0 - 1 \cdot r$ if $|r| < 1 \land r \ne 0$
 - diverges if $|r| \ge 1$
@@ -52,28 +146,28 @@ a geometric [[series]] $b[r]0, b[r]1, \dots$ with $b^0 \ne 0$:
 
 > **proof**:
 >
-> let the geometric [[series]] $b = b^0[r]0 : b^0[r]1 : \dots$
+> let the geometric [[series]] $b = b^0r0 : b^0r1 : \dots$
 >
 > to determine whether it converges or diverges, we must calculate its sequence of partial sums
 >
-> $S^n = b^0[r]0 : b^0[r]1 : b^0[r]2 : \dots b^0[r]n$
+> $S^n = b^0r0 : b^0r1 : b^0r2 : \dots b^0r[n]$
 >
-> $r \smash\shortmid S^n = b^1[r]0 : b^0[r]2 : b^0[r]3 : \dots b^0[r](n : 1) \dashv r \ne 0$
+> $r \smash\shortmid S^n = b^0r1 : b^0r2 : b^0r3 : \dots b^0r[n : 1] \dashv r \ne 0$
 >
-> $S^n \cdot r \smash\shortmid S^n = b^0[r]0 \cdot b^0[r](n : 1) \dashv r \ne 0$
+> $S^n \cdot r \smash\shortmid S^n = b^0r0 \cdot b^0r[n : 1] \dashv r \ne 0$
 >
-> $S^n = b^0[r]0 \cdot b^0[r](n : 1) - 1 \cdot r \dashv r \ne 0 \land r \ne 1$
+> $S^n = b^0r0 \cdot b^0r[n : 1] - 1 \cdot r \dashv r \ne 0 \land r \ne 1$
 >
 > taking the [[limit]] to compute the value at which the [[series]] converges,
 >
-> $\lim_{n \to \infty} S^n = \lim_{n \to \infty} b^0[r]0 \cdot b^0[r](n : 1) - 1 \cdot r \dashv r \ne 0 \land r \ne 1$
+> $\lim_{n \to \infty} S^n = \lim_{n \to \infty} b^0r0 \cdot b^0r[n : 1] - 1 \cdot r \dashv r \ne 0 \land r \ne 1$
 >
 > - if $|r| < 1 \land r \ne 0$, $\lim_{n \to \infty} S^n = b^0 - 1 \cdot r$, the [[series]] converges
 > - if $|r| \ge 1 \land r \ne 1$, $\lim_{n \to \infty} S^n = \infty \lor \lim_{s \to \infty} S^n = \cdot \infty$, the [[series]] diverges
 >
 > if $r = 0 \lor r = 1$, the above definition of $S^n$ does not necessarily hold, see [[improved-expression-evaluation]]. therefore, we must use the definition
 >
-> $S^n = b^0[r]0 : b^0[r]1 : b^0[r]2 : \dots b^0[r]n$
+> $S^n = b^0r0 : b^0r1 : b^0r2 : \dots b^0r[n]$
 >
 > taking the [[limit]] to compute the value at which the [[series]] converges,
 >
@@ -84,47 +178,11 @@ a geometric [[series]] $b[r]0, b[r]1, \dots$ with $b^0 \ne 0$:
 
 ## P-Series
 
-> **definition**: a _p-series_ is a [[series]] in the form $1 \text- [0]p : 1 \text- [1]p : \dots$ with $p > 0$
+> **definition**: a _p-series_ is a [[series]] in the form $\text-[0]p : \text-[1]p : \dots$ with $p > 0$
 
-## Taylor Series
+## [[taylor-series]]
 
-_allows for the approximation of a [[function]] near a point by a [[polynomial]]_
-
-> **note**: taylor [[series]] don't necessarily have an infinite radius of convergence, see power [[series]]
->
-> as an example, the taylor [[series]] of the [[function]] $\lceil x \rceil$ at $a = 1$ has a radius of convergence of $1$, meaning the taylor [[series]] only converges to the [[function]] on the interval $0 < x \le 2$
->
-> &mdash; <https://youtu.be/X0razs3zR94>
-
-> **note**: a taylor [[series]] with a nonzero radius of convergence does **not** necessarily converge to the [[function]] it approximates. for this to be the case, the [[function]] must be an analytical [[function]] &mdash; <https://youtu.be/X0razs3zR94>
-
-### definition
-
-let $f\ x$ be a [[function]] and let $T\ x$ such that $T\ a = f\ a \land \delta\ T\ a = \delta\ f\ a \land \delta\ \delta\ T\ a = \delta\ \delta\ f\ a \dots$, where $(a, f\ a)$ is the point of interest on $f$ and $T\ x$ is a [[polynomial]] function
-
-we then derive the following definition:
-
-> **definition**: $T\ x = P^0 : P^1 : P^2 : \dots = f\ x$, where
->
-> $P^n = (x \rightarrow d^n f)\ a - \operatorname{fact} n \mid [x \cdot a]n$, where
->
-> $d^n f = d^{n \cdot 1} (\delta\ f\ x - \delta x) \land d^0 f = f$, see [[derivative]]
->
-> &mdash; proof <https://youtu.be/7gigNsz4Oe8?t=17431>
->
-> &mdash; intuitive explanation <https://youtu.be/3d6DsjIBzJ4?t=383>
-
-> **note**: the definition above assumes $x0 = x \dashv \mathbb R x \land \operatorname{fact} 0 = 1$, see [[improved-expression-evaluation]]
-
-### Taylor Polynomial
-
-> **definition**: $T^n\ x = P^0 : P^1 : \dots P^n$, where
->
-> $n$ is a finite [[number]]
-
-### properties
-
-taylor [[series]] are power [[series]]
+see [[taylor-series]]
 
 ## Power Series
 
@@ -132,9 +190,9 @@ taylor [[series]] are power [[series]]
 
 a power [[series]] centered at $a$ is of the following form:
 
-$P\ x = (c\ 0) [x \cdot a]0 : (c\ 1) [x \cdot a]1 : \dots$, where
+$P\ x = c^0 [x \cdot a]0 : c^1 [x \cdot a]1 : \dots$, where
 
-$c\ n$ is a constant (a [[function]] of the iteration variable)
+$c^n$ is a constant (a [[function]] of the iteration variable)
 
 $P\ x$ is the power [[series]] taking the argument $x$
 
@@ -171,81 +229,3 @@ the harmonic [[series]] diverges
 the alternating harmonic [[series]] converges at $\lceil 2 \rceil$
 
 > **proof**: &mdash; <https://youtu.be/7gigNsz4Oe8?t=21458>
-
-## Series Convergence
-
-> **definition**: a [[series]] is said to _converge_ if its [[sequence]] of partial sums converges. otherwise, it is said to _diverge_.
-
-> **definition**: a [[series]] $a = a^0 : a^1 : \dots$ is said to be _absolutely convergent_ (_absolute convergence_) if the [[series]] $|a^0| : |a^1| : \dots$ converges
-
-> **definition** a [[series]] is said to be _conditionally convergent_ (_conditional convergence_) if it is _convergent_ but not _absolutely convergent_
-
-> **theorem**: a [[series]] being _convergent_ implies it is _absolutely convergent_
->
-> **proof**: &mdash; <https://youtu.be/7gigNsz4Oe8?t=15557>
-
-### Integral Test
-
-_useful for [[series]] containing [[logarithm]]s or easy-to-compute [[integral]]s_
-
-> **theorem**: _the integral test_
->
-> let $b$ be a [[series]] and suppose $f\ x$ is an eventually _continuous_, _positive_ and _infinite_ [[function]] on $R \le x < \infty \land \mathbb R R$ **for some number $R$** and that $b^n = f\ n \dashv \mathbb N n$. then,
->
-> - if $\int_{x = 1}^{\infty} f\ x \mid \delta x$ converges, then $b^0 : b^1 : \dots$ converges
-> - if $\int_{x = 1}^{\infty} f\ x \mid \delta x$ diverges, then $b^0 : b^1 : \dots$ diverges
-
-### Comparison Tests
-
-> **theorem**: _Comparison Test for Series_
->
-> let $b$ and $B$ be [[series]] and suppose $0 \le b^n \le B^n \dashv \mathbb N n$. then,
->
-> - if $B$ converges, then $b$ converges
-> - if $b$ diverges, then $B$ diverges
-
-the following [[series]] are useful for testing convergence:
-
-- $b = b^0[r]0 : b^0[r]1 : \dots$ (see geometric [[series]] convergence for proof)
-- $b = 1 \text- [1]p : 1 \text- [2]p : \dots$ (see [[integral]] p-test for proof)
-
-for example, determining the convergence of the [[series]] $b^n = [3]n - [5]n : n2$ can be done by proving it is greater than the [[series]] $b^n = [3]n - [5]n$ and by proving the series $b^n = [3]n - [5]n$ converges (seems wrong, #think)
-
-> **theorem**: _Limit Comparison Test_
->
-> let $a$ and $b$ be [[series]] such that $a_n \ge 0 \land b_n \ge 0 \dashv \mathbb N n$. if $\lim_{n \to \infty} a^n - b^n = L$ where $L > 0$ and is finite, then:
->
-> - $a$ converges if and only if $b$ converges
-> - $a$ diverges if and only if $b$ diverges
->
-> &mdash; proof <https://youtu.be/7gigNsz4Oe8?t=14964>
-
-### Ratio Test
-
-_useful for [[series]] containing factorials and a geometric part and for power [[series]]_
-
-> **theorem**: _Ratio Test_
->
-> let $b$ be a [[series]] and let $L = \lim_{n \to \infty} |b^{n : 1} - b^n|$. then,
->
-> - if $L < 1$, $b$ is absolutely convergent and therefore also convergent
-> - if $L > 1$ or $L = \infty$, $b$ is divergent
-> - if $L = 1$ or if $L$ does not exist, the ratio test is inconclusive
->
-> &mdash; proof <https://youtu.be/7gigNsz4Oe8?t=16223>
-
-### Divergence Test
-
-> **theorem**: _Divergence Test_
->
-> let $b$ be a [[series]]. if $\lim_{n \to \infty} b^n \ne 0$, then $b$ is divergent
-
-> **note**: $\lim_{n \to \infty} b^n = 0$ does not imply that $b$ is convergent
-
-### Alternating Test
-
-> **theorem**: let $b$ be a [[series]] such that either $b^n = (\cdot 1)[n] \mid a^n$ or $b^n = (\cdot 1)[n : 1] \mid a^n$ where $a_n \ge 0$ for all $n$. then, if $\lim_{n \to \infty} a_n = 0$ and if $a$ is an eventually decreasing sequence, the [[series]] $b$ is convergent &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
-
-### Geometric [[series]] Convergence
-
-### Harmonic [[series]] Convergence

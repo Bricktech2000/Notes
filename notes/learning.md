@@ -56,7 +56,7 @@
 
 [[si]]
 
-[[combinatorics]]
+[[combinatory-logic]]
 
 [[lambda-calculus]]
 
@@ -69,3 +69,7 @@
 [[type-theory]]
 
 [[operator]]
+
+[[category-theory]]
+
+[[topology]]

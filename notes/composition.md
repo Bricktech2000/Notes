@@ -2,15 +2,27 @@
 
 see [[math-notation]], [[function]]
 
-## notation
+## definition
 
-in my [[math-notation]]: $C\ x = f\ g\ x$, where
+in my [[math-notation]]: $C\ f\ g = x \rightarrow f\ g\ x$, where
 
 $f$ and $g$ are the original [[function]]s
 
-$C$ is the resulting [[function]]
+$C$ is the [[composition]] [[function]]
 
 $x$ is the parameter to be passed to $f$ and $g$
+
+in Haskell, let `f :: A -> B` and `g :: B -> C`. then, `g . f` has type signature `A -> C`, see [[composition]]
+
+in Haskell, `(.) :: (b -> c) -> (a -> b) -> a -> c`
+
+## properties
+
+let $\circ$ be the [[composition]] [[operator]]. then,
+
+$h \circ (g \circ f) \equiv (h \circ g) \circ f \equiv h \circ g \circ f$ &mdash; associative
+
+&mdash; <https://youtu.be/SmXB2K_5lcA?t=662>
 
 ## applications
 

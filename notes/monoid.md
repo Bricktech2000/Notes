@@ -1,17 +1,16 @@
 # Monoid
 
+it is said that _[elements of a [[set]]] with [identity] form a [[monoid]] under [[[operator]]]_. for example, _[[natural]]s with $0$ for a [[monoid]] under addition_
+
 ## definition
 
-> A [[monoid]] is a [[set]] equipped with an associative binary operation and an identity element. &mdash; Wikipedia
+> A [[monoid]] is a finite or infinite [[set]] equipped with a closed associative binary operation and an identity element. &mdash; Wikipedia
 
-### axioms
+let a binary [[operator]] $\oplus$ on a [[set]] $S$. the following axioms must be respected:
 
-let a binary operation $\times$ on a set $S$
-
-- $(a \times b) \times c = a \times (b \times c) \dashv S\ a \land S\ b \land S\ c$ &mdash; associativity
-- $a \times I = I \times a = a \land S\ I \dashv S\ a$ &mdash; identity element
-
-moreover, the result the binary operation yields must be an element of the set $S$ &mdash; closure
+- $(a \oplus b) \oplus c = a \oplus (b \oplus c) \dashv S\ a \land S\ b \land S\ c$ &mdash; associativity
+- $a \oplus I = I \oplus a = a \land S\ I \dashv S\ a$ &mdash; identity element
+- $S\ (a \oplus b) \dashv S\ a \land S\ b$ &mdash; closure
 
 &mdash; Wikipedia
 

@@ -13,3 +13,9 @@ operators in [[type-theory]]
 [[logarithm]]s
 
 [[exponent]]s
+
+[[hadamard-product]]s
+
+[[dot-product]]
+
+[[cross-product]]

@@ -18,6 +18,8 @@ see [[math-notation]]
 
 [[sigmoid-function]]
 
+[[predicate]]
+
 ## applications
 
 [[curve-sketching]]
@@ -68,9 +70,9 @@ $\cdot f x = f (\cdot x) \dashv \mathbb R x$
 
 see [[calculus-notation]]
 
-a [[function]] $f$ is _increasing_ on an interval $a \le x \le b$ if $x_1 < x_2 \vdash f\ x_1 < f\ x_2$, or $\delta\ f\ x - \delta x > 0$ on that interval
+> **definition**: a [[function]] $f$ is _increasing_ on an interval $x \rightarrow (a \le x \le b)$ if $x_1 < x_2 \vdash f\ x_1 < f\ x_2$, or $\delta\ f\ x - \delta x > 0$ on that interval
 
-a [[function]] $f$ is _decreasing_ on an interval $a \le x \le b$ if $x_1 > x_2 \vdash f\ x_1 > f\ x_2$, or $\delta\ f\ x - \delta x < 0$ on that interval
+> **definition**: a [[function]] $f$ is _decreasing_ on an interval $x \rightarrow (a \le x \le b)$ if $x_1 > x_2 \vdash f\ x_1 > f\ x_2$, or $\delta\ f\ x - \delta x < 0$ on that interval
 
 ## Concavity
 
@@ -78,9 +80,9 @@ a [[function]] $f$ is _decreasing_ on an interval $a \le x \le b$ if $x_1 > x_2 
 
 see [[calculus-notation]]
 
-a [[function]] $f\ x$ is _concave up_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x < 0$, it _bends upwards_
+> **definition**: a [[function]] $f\ x$ is _concave up_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x < 0$, it _bends upwards_
 
-a [[function]] $f\ x$ is _concave down_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x > 0$, it _bends downwards_
+> **definition**: a [[function]] $f\ x$ is _concave down_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x > 0$, it _bends downwards_
 
 ### properties
 
@@ -190,6 +192,8 @@ to compute the reciprocal of a given a [[function]], swap the input and output o
 
 ## Slope
 
+### definition
+
 $m = \delta\ y - \delta x = \Delta y - \Delta x = y_2 \cdot y_1 - x_2 \cdot x_1$, where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the graph of the line
 
 ## Linear Approximations
@@ -212,11 +216,13 @@ the _absolute error_ $\Delta f$ and _relative error_ $\Delta f - f\ x$ on a [[fu
 
 see [[integral]]
 
+### definition
+
 $f_{ave} = F\ b \cdot F\ a - b \cdot a$, where
 
 $F$ is an [[antiderivative]] of $f\ x$ with respect to $x$, $\int f\ x \mid \delta x$
 
-$f_{ave}$ is the _average_ of the [[function]] $f\ x$ on the interval $a \le x \le b$
+$f_{ave}$ is the _average_ of the [[function]] $f\ x$ on the interval $x \rightarrow (a \le x \le b)$
 
 &mdash; <https://youtu.be/7gigNsz4Oe8?t=3093>
 
@@ -226,29 +232,63 @@ $f_{ave}$ is the _average_ of the [[function]] $f\ x$ on the interval $a \le x \
 
 see [[integral]]
 
+### definition
+
 $f_{arc} = \int \lfloor 1 : [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
 
-> **note**:
+> **proof**:
 >
 > the euclidean [[distance]] between two points is defined as $d = \lfloor [\Delta x]2 : [\Delta f\ x]2 \rfloor$
 >
-> turning the [[distance]] [[function]] into an [[integral]], $f_{arc} = \int \lfloor [\delta x]2 : [\delta f\ x]2 \rfloor$
+> turning the [[distance]] [[function]] into an [[integral]], $f_{arc} = \int \lfloor [\delta x]2 : [\delta\ f\ x]2 \rfloor$
 >
-> reducing, $f_{arc} = \int \lfloor [\delta x]2 : [\delta f\ x]2 - [\delta x]2 \rfloor \mid \delta x$
+> simplifying, $f_{arc} = \int \lfloor [\delta x]2 : [\delta\ f\ x]2 - [\delta x]2 \rfloor \mid \delta x$
 >
 > and we get $f_{arc} = \int \lfloor 1 : [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
 >
 > &mdash; me
 
-## One-to-One Function
+## Injective Function
 
-a [[function]] $f$ is said to be one-to-one if $f\ x_1 = f\ x_2 \vdash x_1 = x_2 \dashv \mathbb U x_1 \land \mathbb U x_2$, see [[universal-set]]
+> **AKA**: one-to-one function
 
-given the graph of a [[function]], one can use the _horizontal line test_ to determine whether it is one-to-one
+> **definition**: a [[function]] $f$ is said to be _injective_ if $f\ x_1 = f\ x_2 \vdash x_1 = x_2 \dashv \mathbb U x_1 \land \mathbb U x_2$, see [[universal-set]]. _only one output value corresponds to a given input value_
+
+given the graph of a [[function]], one can use the _horizontal line test_ to determine whether it is injective or not
+
+a [[function]] can be proven to be injective by proving that two output values being equal implies that the corresponding input values are equal
+
+## Surjective Function
+
+> **AKA**: onto function
+
+> **definition**: a [[function]] $f$ is said to be _surjective_ if $f\ x = y \dashv \mathbb U y$, see [[universal-set]]. _the image of a surjective [[function]] matches its codomain_
+
+a [[function]] can be proven to be surjective by proving one can construct an input value for the function given an arbitrary output value
+
+### [[proof]] example
+
+#example
+
+let $y = f\ m\ n = m : n$. then, suppose $m = 0$. solving for $n$, we get $n = y$. therefore, the [[function]] is surjective
+
+let $y = f\ m\ n = m2 : n2$. $y = \cdot 1$ would cause a contradiction as the square of an [[integer]] is always a positive [[integer]] and the sum of two positive [[integer]]s is always a positive [[integer]]. therefore, the [[function]] is not surjective
+
+let $y = f\ m\ n = m$. then, we get $m = y$ and therefore the [[function]] is surjective
+
+let $y = f\ m\ n = |n|$. $y = \cdot 1$ would cause a contradiction as the absolute value of an [[integer]] is always a positive [[integer]]. therefore, the [[function]] is not surjective
+
+let $y = f\ m\ n = m \cdot n$. then, suppose $n = 0$. solving for $m$, we get $m = y$. therefore, the [[function]] is surjective
+
+## Bijective Function
+
+> **definition**: a [[function]] $f$ is said to be _bijective_ if it is both injective and surjective. _each element of the domain of $f$ is mapped to a unique element of the codomain of $f$._
+
+a [[function]] can be proven to be bijective by proving it is both injective and surjective
 
 ## Analytic Function
 
-an analytic [[function]] is a [[function]] that is locally given by a convergent power [[series]] &mdash; Wikipedia
+> **definition**: an )analytic [[function]]\_ is a [[function]] that is locally given by a convergent power [[series]] &mdash; Wikipedia
 
 ### properties
 
@@ -274,3 +314,7 @@ even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it w
 - extend the input of the [[function]] (something like `Optional<f64>`)
 
 ## [[pure-function]]
+
+## Parametrically Polymorphic Function
+
+> **definition**: a [[function]] is said to be _parametrically polymorphic_ if it is possible to replace the type of the input with a different type. they can be implemented with the same "formula" for any type. &mdash; <https://youtu.be/aIOMRqiwziM?t=540>

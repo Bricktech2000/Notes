@@ -22,11 +22,13 @@ $V v \equiv v = O$ (a [[set]] containing only the zero vector is a vector space)
 
 ## Isomorphic Vector Spaces
 
+see [[category]]
+
 > Iso-Morphic &mdash; Same Shape
 
 ### examples
 
-$\mathbb R^3$ and $\mathbb P^2$ are isomorphic, as any vector in $\mathbb R^3$ can be converted to a unique vector in $\mathbb P^2$, and vice-versa
+$\mathbb R^3$ and $\mathbb P^2$ are isomorphic, as any vector in $\mathbb R^3$ can be converted to a unique vector in $\mathbb P^2$, and vice-versa, see [[category]]
 
 ## Dimension of a Vector Space
 

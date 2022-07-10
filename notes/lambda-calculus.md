@@ -1,6 +1,6 @@
 # Lambda Calculus
 
-see [[combinatorics]], [[recursion]]
+see [[combinatory-logic]], [[recursion]]
 
 &mdash; <https://youtu.be/eis11j_iGMs>
 
@@ -42,7 +42,7 @@ $\text{or} = \lambda p.\ \lambda q.\ q\ p\ q$
 
 ## [[recursion]] in [[lambda-calculus]]
 
-general [[recursion]] in [[lambda-calculus]] can be defined using the [[combinatorics]] Y combinator
+general [[recursion]] in [[lambda-calculus]] can be defined using the [[combinatory-logic]] Y combinator
 
 $\operatorname{rec} f \equiv Y\ f$
 
