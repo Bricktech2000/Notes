@@ -4,7 +4,7 @@ see [[calculus-notation]], [[math-notation]]
 
 > **theorem**:
 >
-> Part 1: if $f\ x$ is continuous on $x \rarr (a \le x \le b)$, then $\int_{t = a}^{t = x} f\ t \mid \delta t$ is continuous on $x \rarr (a \le x \le b)$ and differentiable on $x \rarr (a < x < b)$ and $\delta\ (\int_{t = a}^{t = x} f\ t \mid \delta t) - \delta x = f\ x$
+> Part 1: if $f\ x$ is continuous on $x \rightarrow (a \le x \le b)$, then $\int_{t = a}^{t = x} f\ t \mid \delta t$ is continuous on $x \rightarrow (a \le x \le b)$ and differentiable on $x \rightarrow (a < x < b)$ and $\delta\ (\int_{t = a}^{t = x} f\ t \mid \delta t) - \delta x = f\ x$
 
 > **proof**:
 >
@@ -21,7 +21,7 @@ see [[calculus-notation]], [[math-notation]]
 
 > **theorem**:
 >
-> Part 2: if $f\ x$ is continuous on $x \rarr (a \le x \le b)$, then $\int_{x = a}^{x = b} f\ x \mid \delta x = F\ b \cdot F\ a$ where $F = \int f\ x \mid \delta x$, any [[antiderivative]] of $f\ x$
+> Part 2: if $f\ x$ is continuous on $x \rightarrow (a \le x \le b)$, then $\int_{x = a}^{x = b} f\ x \mid \delta x = F\ b \cdot F\ a$ where $F = \int f\ x \mid \delta x$, any [[antiderivative]] of $f\ x$
 
 > **proof**:
 >

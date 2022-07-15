@@ -81,9 +81,9 @@ $\cdot f x = f (\cdot x) \dashv \mathbb R x$
 
 see [[calculus-notation]]
 
-> **definition**: a [[function]] $f$ is _increasing_ on an interval $x \rarr (a \le x \le b)$ if $x_1 < x_2 \vdash f\ x_1 < f\ x_2$, or $\delta\ f\ x - \delta x > 0$ on that interval
+> **definition**: a [[function]] $f$ is _increasing_ on an interval $x \rightarrow (a \le x \le b)$ if $x_1 < x_2 \vdash f\ x_1 < f\ x_2$, or $\delta\ f\ x - \delta x > 0$ on that interval
 
-> **definition**: a [[function]] $f$ is _decreasing_ on an interval $x \rarr (a \le x \le b)$ if $x_1 > x_2 \vdash f\ x_1 > f\ x_2$, or $\delta\ f\ x - \delta x < 0$ on that interval
+> **definition**: a [[function]] $f$ is _decreasing_ on an interval $x \rightarrow (a \le x \le b)$ if $x_1 > x_2 \vdash f\ x_1 > f\ x_2$, or $\delta\ f\ x - \delta x < 0$ on that interval
 
 ## Concavity
 
@@ -213,7 +213,7 @@ $m = \delta\ y - \delta x = \Delta y - \Delta x = y_2 \cdot y_1 - x_2 \cdot x_1$
 
 ### Tangent Line
 
-$L\ x = f\ a : (x \cdot a) \shortmid (x \rarr \delta\ f - \delta x)\ a$, where $L\ x$ is line tangent to $f\ x$ at $a$
+$L\ x = f\ a : (x \cdot a) \shortmid (x \rightarrow \delta\ f - \delta x)\ a$, where $L\ x$ is line tangent to $f\ x$ at $a$
 
 a [[function]] $f$ can be linearly approximated near a point $x$ through its tangent line at that point
 
@@ -233,7 +233,7 @@ $f_{ave} = F\ b \cdot F\ a - b \cdot a$, where
 
 $F$ is an [[antiderivative]] of $f\ x$ with respect to $x$, $\int f\ x \mid \delta x$
 
-$f_{ave}$ is the _average_ of the [[function]] $f\ x$ on the interval $x \rarr (a \le x \le b)$
+$f_{ave}$ is the _average_ of the [[function]] $f\ x$ on the interval $x \rightarrow (a \le x \le b)$
 
 &mdash; <https://youtu.be/7gigNsz4Oe8?t=3093>
 

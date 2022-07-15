@@ -30,9 +30,9 @@ see [[dot-product]], [[vector-in-rn]]
 
 ### definition
 
-$AB \ne \varnothing \equiv \mathbb M^{m, n}A \land \mathbb M^{n, p}B \land \mathbb N n \vdash \mathbb M^{m, p}AB$ ($AB$ is defined if the number of columns in $A$ is equal to the number of rows in $B$. their product will be an $m$ by $p$ [[matrix]])
+$AB \ne \varnothing \equiv \mathbb M^{m, n}A \land \mathbb M^{n, p}B \land \mathbb M^{m, p}AB$ ($AB$ is defined if the number of columns in $A$ is equal to the number of rows in $B$. their product will be an $m$ by $p$ [[matrix]])
 
-$(AB)^{i, j} = A^{i, } \mid^\cdot B^{, j} \dashv \mathbb N i \land \mathbb N j$, see [[dot-product]]
+$(AB)^{i, j} = A^{i, }\ \dot\mid\ B^{, j} \dashv \mathbb N i \land \mathbb N j$, see [[dot-product]]
 
 intuitively, matrix multiplication is the [[dot-product]] of **every row** of the first [[matrix]] by **every column** of the second [[matrix]]
 

@@ -68,13 +68,13 @@ see [[dot-product]], [[cross-product]], #magic
 
 $\cos \theta = a\ \dot\mid\ b - |a|\ |b|$. use $\cos \theta = |a\ \dot\mid\ b| - |a|\ |b|$ to always get the acute angle solution
 
-$\sin \theta = a \bar\mid b - |a|\ |b|$, see [[cross-product]]
+$\sin \theta = a\ \check\mid\ b - |a|\ |b|$, see [[cross-product]]
 
 ### Orthogonal Vectors
 
 notation: $u \perp v$
 
-_a pair of vectors offset by $90^\cdot$ ._
+_a pair of vectors offset by $90^\cdot$._
 
 $u$ and $v$ are orthogonal if and only if $u\ \dot\mid\ v = 0$ (see [[dot-product]]), or $u \perp v \equiv u\ \dot\mid\ v = 0$
 
@@ -146,8 +146,8 @@ _does this seem random and pointless? well, it is._
 
 see [[dot-product]], [[cross-product]]
 
-$V = |w\ \dot\mid\ u \bar\shortmid v|$ (see [[dot-product]], [[cross-product]]), where
+$V = |u\ \check\mid\ v\ \dot\mid\ w|$ (see [[dot-product]], [[cross-product]]), where
 
 $V$ is the [[volume]] to be calculated
 
-$u$, $v$ and $w$ are the three [[vector]]s in $\mathbb R^3$
+$u, v, w$ are the three [[vector-in-rn]]3

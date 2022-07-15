@@ -299,7 +299,7 @@ $$
 
 ---
 
-$(x \rarr \delta\ f\ x - \delta x)\ 5$
+$(x \rightarrow \delta\ f\ x - \delta x)\ 5$
 
 $\lambda x\ (\delta\ f\ x - \delta x)\ 5$
 
@@ -324,3 +324,7 @@ $y$ axis is the line $\cdot x \cos \theta = y \sin \theta$
 $x$ axis is the line $x \sin \theta = y \cos \theta$
 
 ---
+
+$a \tiny\leftarrow\normalsize b$
+
+$\leftarrow \lessdot$

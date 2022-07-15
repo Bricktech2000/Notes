@@ -4,7 +4,7 @@ see [[math-notation]], [[function]]
 
 ## definition
 
-in my [[math-notation]]: $C\ f\ g = x \rarr f\ g\ x$, where
+in my [[math-notation]]: $C\ f\ g = x \rightarrow f\ g\ x$, where
 
 $f$ and $g$ are the original [[function]]s
 

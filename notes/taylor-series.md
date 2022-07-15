@@ -6,7 +6,7 @@ see [[calculus]], [[series]]
 
 > **note**: taylor [[series]] don't necessarily have an infinite radius of convergence, see power [[series]]
 >
-> as an example, the taylor [[series]] of the [[function]] $\lceil x \rceil$ at $a = 1$ has a radius of convergence of $1$, meaning the taylor [[series]] only converges to the [[function]] on the interval $x \rarr (0 < x \le 2)$
+> as an example, the taylor [[series]] of the [[function]] $\lceil x \rceil$ at $a = 1$ has a radius of convergence of $1$, meaning the taylor [[series]] only converges to the [[function]] on the interval $x \rightarrow (0 < x \le 2)$
 >
 > &mdash; <https://youtu.be/X0razs3zR94>
 
@@ -24,7 +24,7 @@ $T_f\ x = T_f^0 : T_f^1 : T_f^2 : \dots$, where
 
 $T_f^n = (d^n\ f)\ a - \operatorname{fact} n \mid [x \cdot a]n$, where
 
-$d^n\ f = d^{n \cdot 1}\ (x \rarr \delta\ f\ x - \delta x) \land d^0\ f = f$, see [[derivative]]
+$d^n\ f = d^{n \cdot 1}\ (x \rightarrow \delta\ f\ x - \delta x) \land d^0\ f = f$, see [[derivative]]
 
 > **proof**: &mdash; <https://youtu.be/7gigNsz4Oe8?t=17431>
 >

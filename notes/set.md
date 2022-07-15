@@ -16,7 +16,7 @@ $S = \lbrace 1, 2, 3 \dots \rbrace$ &mdash; $\dots$ are allowed
 
 ### Set Builder notation
 
-$S\ x = P\ x$ or $S = x \rarr P\ x$, where
+$S\ x = P\ x$ or $S = x \rightarrow P\ x$, where
 
 $P$ is a [[predicate]], see [[math-notation]]
 
@@ -74,7 +74,7 @@ _the [[set]] containing no elements_
 
 ### notation
 
-$\lbrace \rbrace$ or $(x \rarr \bot)$ in my [[math-notation]]
+$\lbrace \rbrace$ or $(x \rightarrow \bot)$ in my [[math-notation]]
 
 $\lbrace \rbrace$ or $\varnothing$ in [[classical-math-notation]]
 
