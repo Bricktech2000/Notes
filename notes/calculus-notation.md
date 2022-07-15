@@ -16,9 +16,9 @@ $\delta y - \delta x \equiv \delta(y) - \delta(x)$
 
 derivatives and integrals at a point $t$ can be written as follows:
 
-$(x \rightarrow \delta y - \delta x)\ t$
+$(x \rarr \delta y - \delta x)\ t$
 
-$(x \rightarrow \int y \mid x)\ t$
+$(x \rarr \int y \mid x)\ t$
 
 ### intuitive explanation
 
@@ -32,7 +32,7 @@ $(\delta - \delta x)\ y \equiv \frac{\delta}{\delta x} y$ ~~makes no sense whats
 
 ## properties with [[proof]]s
 
-let $\mathbb U c$, see [[universal]] [[set]], [[improved-expression-evaluation]]
+let $\mathbb U c$, see [[universal]], [[improved-expression-evaluation]]
 
 $\int \delta y = y$
 

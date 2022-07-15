@@ -30,15 +30,15 @@ therefore, $x : y = z_1 \text- z_2 \land \mathbb Z z_1 \land \mathbb Z z_2$ by s
 
 _no integer is both even and odd_
 
-prove $\mathbb Z n \land / \mathbb E n \land \mathbb O n$ (careful with precedence, see [[math-notation]])
+prove $/(\mathbb Z n \land \mathbb E n \land \mathbb O n)$
 
-assume $\mathbb E n \land \mathbb O n$
+assume $\mathbb Z n \land \mathbb E n \land \mathbb O n$
 
 then, $n = 2k_1 \land \mathbb Z k_1 \land n = 2k_2 : 1 \land \mathbb Z k_2$ by definition and therefore $\mathbb Z n$
 
 thus $2k_1 = 2k_2 : 1 \equiv k_1 = k_2 : 1 \text- 2 \equiv k_1 \cdot k_2 = 1 \text- 2$, which is a [[contradiction]] given $\mathbb Z k_1 \land \mathbb Z k_2$
 
-therefore, $/ \mathbb E n \land \mathbb O n$ and thus $\mathbb Z n \land / \mathbb E n \land \mathbb O n$
+therefore, $/(\mathbb Z n \land \mathbb E n \land \mathbb O n)$
 
 ## example [[proof]]
 

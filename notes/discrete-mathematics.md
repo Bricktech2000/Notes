@@ -13,3 +13,9 @@ _an introduction into mathematical thinking_
 logical arguments #todo ?
 
 quantifiers #todo ?
+
+#todo negation of "for all":
+
+$B \vdash C \equiv /B \lor C$ means “for all $B$, $C$”. negating, we get $/(B \vdash C) \equiv B \land /C$, which means “there exists a $B$ such that $/C$”
+
+> $B \vdash C \times B\ /\ C$

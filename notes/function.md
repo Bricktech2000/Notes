@@ -81,9 +81,9 @@ $\cdot f x = f (\cdot x) \dashv \mathbb R x$
 
 see [[calculus-notation]]
 
-> **definition**: a [[function]] $f$ is _increasing_ on an interval $x \rightarrow (a \le x \le b)$ if $x_1 < x_2 \vdash f\ x_1 < f\ x_2$, or $\delta\ f\ x - \delta x > 0$ on that interval
+> **definition**: a [[function]] $f$ is _increasing_ on an interval $x \rarr (a \le x \le b)$ if $x_1 < x_2 \vdash f\ x_1 < f\ x_2$, or $\delta\ f\ x - \delta x > 0$ on that interval
 
-> **definition**: a [[function]] $f$ is _decreasing_ on an interval $x \rightarrow (a \le x \le b)$ if $x_1 > x_2 \vdash f\ x_1 > f\ x_2$, or $\delta\ f\ x - \delta x < 0$ on that interval
+> **definition**: a [[function]] $f$ is _decreasing_ on an interval $x \rarr (a \le x \le b)$ if $x_1 > x_2 \vdash f\ x_1 > f\ x_2$, or $\delta\ f\ x - \delta x < 0$ on that interval
 
 ## Concavity
 
@@ -213,7 +213,7 @@ $m = \delta\ y - \delta x = \Delta y - \Delta x = y_2 \cdot y_1 - x_2 \cdot x_1$
 
 ### Tangent Line
 
-$L\ x = f\ a : (x \cdot a) \shortmid (x \rightarrow \delta\ f - \delta x)\ a$, where $L\ x$ is line tangent to $f\ x$ at $a$
+$L\ x = f\ a : (x \cdot a) \shortmid (x \rarr \delta\ f - \delta x)\ a$, where $L\ x$ is line tangent to $f\ x$ at $a$
 
 a [[function]] $f$ can be linearly approximated near a point $x$ through its tangent line at that point
 
@@ -233,7 +233,7 @@ $f_{ave} = F\ b \cdot F\ a - b \cdot a$, where
 
 $F$ is an [[antiderivative]] of $f\ x$ with respect to $x$, $\int f\ x \mid \delta x$
 
-$f_{ave}$ is the _average_ of the [[function]] $f\ x$ on the interval $x \rightarrow (a \le x \le b)$
+$f_{ave}$ is the _average_ of the [[function]] $f\ x$ on the interval $x \rarr (a \le x \le b)$
 
 &mdash; <https://youtu.be/7gigNsz4Oe8?t=3093>
 
@@ -265,7 +265,7 @@ _is the reciprocal a function?_
 
 > **AKA**: one-to-one function
 
-> **definition**: a [[function]] $f$ is said to be _injective_ if $f\ x_1 = f\ x_2 \vdash x_1 = x_2 \dashv \mathbb U x_1 \land \mathbb U x_2$, see [[universal-set]]. _only one output value corresponds to a given input value_
+> **definition**: a [[function]] $f$ is said to be _injective_ if $f\ x_1 = f\ x_2 \vdash x_1 = x_2 \dashv \mathbb U x_1 \land \mathbb U x_2$, see [[universal]]. _only one output value corresponds to a given input value_
 
 given the graph of a [[function]], one can use the _horizontal line test_ to determine whether it is injective or not
 
@@ -275,7 +275,7 @@ a [[function]] can be proven to be injective by proving that two output values b
 
 > **AKA**: onto function
 
-> **definition**: a [[function]] $f$ is said to be _surjective_ if $f\ x = y \dashv \mathbb U y$, see [[universal-set]]. _the image of a surjective [[function]] matches its codomain_
+> **definition**: a [[function]] $f$ is said to be _surjective_ if $f\ x = y \dashv \mathbb U y$, see [[universal]]. _the image of a surjective [[function]] matches its codomain_
 
 a [[function]] can be proven to be surjective by proving one can construct an input value for the function given an arbitrary output value
 

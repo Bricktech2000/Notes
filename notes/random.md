@@ -299,7 +299,7 @@ $$
 
 ---
 
-$(x \rightarrow \delta\ f\ x - \delta x)\ 5$
+$(x \rarr \delta\ f\ x - \delta x)\ 5$
 
 $\lambda x\ (\delta\ f\ x - \delta x)\ 5$
 

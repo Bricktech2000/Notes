@@ -24,7 +24,7 @@ $\frac{d^n}{dx^n} = \frac{d^nf}{dx^n}$
 
 $\delta\ f\ x - \delta x$, see [[calculus-notation]]
 
-$d^n\ f = d^{n \cdot 1}\ (x \rightarrow \delta\ f\ x - \delta x) \land d^0\ f = f$
+$d^n\ f = d^{n \cdot 1}\ (x \rarr \delta\ f\ x - \delta x) \land d^0\ f = f$
 
 $d^n f$ would then be the $n$ th [[derivative]] of $f\ x$ with respect to $x$
 
@@ -84,7 +84,7 @@ to differentiate a [[function]], apply [[derivative-rules]] recursively, see [[r
 
 > **definition**: a [[function]] $f$ is _differentiable_ at $a$ if $\delta f\ a - \delta x$ exists
 
-> **definition**: a [[function]] is _differentiable_ on an interval $x \rightarrow (a \le x \le b)$ if it is differentiable on every point from $a$ to $b$
+> **definition**: a [[function]] is _differentiable_ on an interval $x \rarr (a \le x \le b)$ if it is differentiable on every point from $a$ to $b$
 
 > **theorem**: if $f\ x$ is not continuous at $x = a$, then it is not differentiable at $x = a$
 

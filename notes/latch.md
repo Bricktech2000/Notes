@@ -1,6 +1,6 @@
 # Latch
 
-see [[gate]], [[flip-flop]], [[logic-circuit]]
+see [[logic-gate]], [[flip-flop]], [[logic-circuit]]
 
 all [[latch]]es can be turned into [[flip-flop]]s and all [[flip-flop]]s can be turned into [[latch]]es
 
@@ -31,7 +31,7 @@ _set-reset latch_
 
 ![](20220427161726.png)
 
-> **note**: SR latches can also be built using NAND [[gate]]s
+> **note**: SR latches can also be built using NAND [[logic-gate]]s
 
 ### D Latch
 

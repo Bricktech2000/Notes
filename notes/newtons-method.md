@@ -16,7 +16,7 @@ given a guess for the zero of a [[function]],
 
 given an initial guess $x_0$, we derive the following from the tangent line equation (see [[function]]):
 
-$x^{n : 1} = x^n \cdot (f\ x_n - (x \rightarrow \delta\ f\ x - \delta x)\ x_n)$
+$x^{n : 1} = x^n \cdot (f\ x_n - (x \rarr \delta\ f\ x - \delta x)\ x_n)$
 
 ## example
 

@@ -14,7 +14,7 @@ whitespace in formulas follow programming-language-like conventions
 
 the $\ : $ [[operator]] must always be surrounded one space on either side, or written as the first character of an equation as `$\ : $`
 
-the $\rightarrow$ operator is written as `\to` by default, and must be written as `\rightarrow` when it indicates a [[math-notation]] [[function]] definition
+the $\rarr$ operator is written as `\to` by default, and must be written as `\rarr` when it indicates a [[math-notation]] [[function]] definition
 
 `\R`, `\N`, `\Z`, `\{` and `\}` must not be used, as they are not widely supported. `\mathbb R`, `\mathbb N`, `\mathbb Z`, `\lbrace` and `\rbrace` should be used instead, respectively.
 

@@ -22,8 +22,8 @@ $|a : b| \le |a| : |b| \dashv \mathbb R a \land \mathbb R b$ &mdash; triangle in
 
 in [[classical-math-notation]]:
 
-$|x| \le t \Leftrightarrow -t \le x \le t$
+$|x| \le t \Harr -t \le x \le t$
 
-$|x| \ge t \Leftrightarrow x \ge t \lor x \le -t$
+$|x| \ge t \Harr x \ge t \lor x \le -t$
 
 $|a + b| \le |a| + |b| \dashv \mathbb R a \land \mathbb R b$

@@ -6,9 +6,9 @@ see [[math-notation]]
 
 ## properties
 
-$\mathbb B \vdash \mathbb U$, see [[universal-set]]
+$\mathbb B \vdash \mathbb U$, see [[universal]]
 
-booleans can be manipulated through [[boolean-logic]]
+[[boolean]]s can be manipulated through [[boolean-logic]]
 
 ## definition
 

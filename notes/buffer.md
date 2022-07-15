@@ -30,4 +30,4 @@ $\log$ is a base-10 [[logarithm]], $\log_{10}$
 
 > **note**: The Henderson-Hasselbalch equation can be derived from the definition of the [[equilibrium]] constant $K_a$ and the equation of dissociation of the [[buffer]]
 >
-> $HA + H_2O \Leftrightarrow A^- + H_3O^+$
+> $HA + H_2O \Harr A^- + H_3O^+$

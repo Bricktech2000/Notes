@@ -12,7 +12,7 @@ _used to formally define recursive [[function]]s in a [[functional-programming]]
 
 in [[lambda-calculus]]: $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
 
-in my [[math-notation]]: $Y = f \rightarrow (x \rightarrow f\ (x\ x))\ (x \rightarrow f\ (x\ x))$
+in my [[math-notation]]: $Y = f \rarr (x \rarr f\ (x\ x))\ (x \rarr f\ (x\ x))$
 
 > "it's not recursive but it encodes [[recursion]]" &mdash; <https://youtu.be/9T8A89jgeTI?t=678>
 
@@ -26,7 +26,7 @@ _the [[composition]] of its arguments_
 
 in [[lambda-calculus]] notation: $B = \lambda fgx.\ f\ (g\ x)$
 
-in my [[math-notation]]: $B = f\ g\ x \rightarrow f\ (g\ x)$
+in my [[math-notation]]: $B = f\ g\ x \rarr f\ (g\ x)$
 
 &mdash; <https://youtu.be/SmXB2K_5lcA?t=612>
 
@@ -34,13 +34,13 @@ in my [[math-notation]]: $B = f\ g\ x \rightarrow f\ (g\ x)$
 
 _swaps the arguments to a function_
 
-in my [[math-notation]]: $C = f\ x\ y \rightarrow f\ y\ x$
+in my [[math-notation]]: $C = f\ x\ y \rarr f\ y\ x$
 
 ## K Combinator
 
 _discards the second argument_
 
-in my [[math-notation]]: $K = f\ x\ y \rightarrow f\ x$
+in my [[math-notation]]: $K = f\ x\ y \rarr f\ x$
 
 ## W Combinator
 
@@ -48,4 +48,4 @@ _duplicates the second argument_
 
 > **AKA**: 'commute' in APL
 
-in my [[math-notation]]: $W = f\ x\ y \rightarrow f\ x\ y\ y$
+in my [[math-notation]]: $W = f\ x\ y \rarr f\ x\ y\ y$

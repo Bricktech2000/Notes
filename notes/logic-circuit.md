@@ -1,14 +1,6 @@
 # Logic Circuit
 
-see [[digital-system]]
-
-## examples
-
-[[binary-decoder]]
-
-[[multiplexer]]
-
-[[latch]] [[flip-flop]]
+see [[digital-system]], [[boolean-logic]]
 
 ## see
 
@@ -28,7 +20,17 @@ see [[digital-system]]
 
 [[state-diagram]]
 
-[[logic-circuit]]s are made of logic [[gate]]s.
+[[logic-gate]]s.
+
+## examples
+
+[[latch]]
+
+[[flip-flop]]
+
+[[binary-decoder]]
+
+[[multiplexer]]
 
 ## types
 
@@ -45,16 +47,6 @@ the outputs of a combinational logic circuit are a [[function]] the inputs, with
 see [[excitation-table]], [[characteristic-table]]
 
 the outputs of a sequential logic circuit can be based on previous inputs and can have side effects on future inputs
-
-## examples
-
-[[latch]]
-
-[[flip-flop]]
-
-[[binary-decoder]]
-
-[[multiplexer]]
 
 ## logic circuit cost
 
@@ -74,12 +66,12 @@ if an expression has $1$ term, $\text{term count} = 0$
 
 ### examples
 
-$f w x y z = (w \land x \land /y \land z) \lor (w \land x \land y \land /z) \vdash C f = 4 : 4 : 2 = 0$
+$f\ w\ x\ y\ z = (w \land x \land /y \land z) \lor (w \land x \land y \land /z) \vdash C\ f = 4 : 4 : 2 = 0$
 
-$h_1 a b = a \land b \vdash C h = 2 : 0 = 2$
+$h_1\ a\ b = a \land b \vdash C\ h_1 = 2 : 0 = 2$
 
-$h_2ab = /b \vdash C h = 0 : 0 = 0$
+$h_2\ a\ b = /b \vdash C\ h_2 = 0 : 0 = 0$
 
 ### consequences
 
-NOR and NAND [[gate]]s are very useful, as they reduce the cost of a [[logic-circuit]] by reducing the number of ICs necessary to get an identical output, see [[boolean-logic]]
+NOR and NAND [[logic-gate]]s are very useful, as they reduce the cost of a [[logic-circuit]] by reducing the number of ICs necessary to get an identical output, see [[boolean-logic]]

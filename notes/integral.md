@@ -61,7 +61,7 @@ if $\lim_{x \to a^+} f\ x =\ \because \infty$ #think [[improved-expression-evalu
 
 > **theorem**: _Comparison Test_
 >
-> let $0 \le g\ x \le f\ x$ on an interval $x \rightarrow (a < x < b)$, where $a$ and $b$ are not necessarily finite. then,
+> let $0 \le g\ x \le f\ x$ on an interval $x \rarr (a < x < b)$, where $a$ and $b$ are not necessarily finite. then,
 >
 > - if $\int_{x = a}^{x = b} f\ x \mid \delta x$ converges, so does $\int_{x = a}^{x = b} g\ x \mid \delta x$, but not conversely
 > - if $\int_{x = a}^{x = b} g\ x \mid \delta x$ diverges, so does $\int_{x = a}^{x = b} f\ x \mid \delta x$, but not conversely

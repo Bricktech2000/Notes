@@ -104,12 +104,6 @@ $A \vdash B \equiv \lnot A \lor B$ ($A$ implies $B$ or $B$ for all $A$)
 | 1   | 0   | 1           |
 | 1   | 1   | ?           |
 
-$\lnot A \lor B \equiv A \vdash B$, which means “$B$ for all $A$”. therefore,
-
-$\lnot (A \vdash B) \equiv A \land \lnot B$, which means “there exists an $A$ such that $\lnot B$”
-
-the negation of $A \vdash B$ is **not** $A \dashv B$ (duh)
-
 quote I suppose
 
 > more brackets means more explicit, but less brackets means less complex and less confusing

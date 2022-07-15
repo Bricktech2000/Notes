@@ -1,7 +1,13 @@
 # Universal
 
-_the universal set_
+_the universal [[set]]_
 
-_the set of all possible mathematical entities_
+## definition
 
-used for backlinks
+$\mathbb U x = \top$
+
+## properties
+
+$\mathbb U x \equiv x \rarr \top$
+
+$\mathbb U x \equiv /\lbrace \rbrace \equiv /(x \rarr \bot)$

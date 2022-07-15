@@ -23,7 +23,7 @@ _for [[chm1301-principles-of-chemistry]]_
 
 ### example
 
-$NH_4^+ + CN^- \Leftrightarrow NH_3 + HCN$
+$NH_4^+ + CN^- \Harr NH_3 + HCN$
 
 - $CN^-$ is the conjugate [[base]] of the [[acid]] $HCN$
 - $NH_4^+$ is the conjugate [[acid]] of the [[base]] $NH_3$
@@ -68,7 +68,7 @@ see [[equilibrium]], see [[buffer]]
 
 both an [[acid]] and a [[base]], therefore
 
-$H_2O_{(l)} \Leftrightarrow H^+_{(aq)} + OH^-_{(aq)}$
+$H_2O_{(l)} \Harr H^+_{(aq)} + OH^-_{(aq)}$
 
 $[H^+] = [OH^-] = 1 \times 10^{-7} \frac{mol}{L}$ in water at $25^\cdot C$ (see [[equilibrium]])
 

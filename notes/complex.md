@@ -28,7 +28,7 @@ $z = |z|\ \cos \theta : |z|\ i \sin \theta = |z|\ e[i\theta]$, see [[e]]
 
 ## properties
 
-$\mathbb C \vdash \mathbb U$, see [[universal-set]]
+$\mathbb C \vdash \mathbb U$, see [[universal]]
 
 $a : bi = c : di \equiv a = c \land b = d$ &mdash; equality
 

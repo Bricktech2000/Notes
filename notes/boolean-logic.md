@@ -4,13 +4,17 @@ see [[boolean]]
 
 see [[math-notation]], [[disjunctive-normal-form]], [[conjunctive-normal-form]]
 
-boolean expressions can be simplified using [[boolean-logic]] through [[boolean]] [[operator]]s, or alternatively visually using [[karnaugh-map]]s or [[truth-table]]s
+> **definition**: two boolean expressions (or [[logic-statement]]s) are said to be _logically equivalent_ if they yield the same output for every input. in other words, two boolean expressions (or [[logic-statement]]s) are _logically equivalent_ if they share the same [[truth-table]]
+
+boolean expressions can be simplified to a different but logically equivalent expression using [[boolean-logic]] through [[boolean]] [[operator]]s, or alternatively visually using [[karnaugh-map]]s or [[truth-table]]s
 
 ---
 
 # Boolean Operators
 
 see [[boolean]], [[boolean-logic]]
+
+boolean [[operator]]s can be modeled in [[logic-circuit]]s through [[logic-gate]]s
 
 ## AND
 
@@ -24,7 +28,7 @@ $\land$ in my [[math-notation]]
 
 ### representation
 
-straight-curve logic [[gate]]. may take more than one input
+straight-curve [[logic-gate]]. may take more than one input
 
 | $A$ | $B$ | $A \land B$ |
 | --- | --- | ----------- |
@@ -45,7 +49,7 @@ $\land$ in my [[math-notation]]
 
 ### representation
 
-concave-pointycurve logic [[gate]]. may take more than one input
+concave-pointycurve [[logic-gate]]. may take more than one input
 
 | $A$ | $B$ | $A \lor B$ |
 | --- | --- | ---------- |
@@ -66,7 +70,7 @@ $/$ in my [[math-notation]]
 
 ### representation
 
-triangle-circle logic [[gate]]. may only take one input
+triangle-circle [[logic-gate]]. may only take one input
 
 | $A$ | $/A$ |
 | --- | ---- |
@@ -85,7 +89,7 @@ $\times$ in my [[math-notation]]
 
 ### representation
 
-doubleconcave-pointycurve logic [[gate]]. if the [[gate]] does not take exactly two inputs, the output of the [[gate]] can be thought of as "is the number of true inputs odd?"
+doubleconcave-pointycurve [[logic-gate]]. if the [[logic-gate]] does not take exactly two inputs, the output of the [[logic-gate]] can be thought of as "is the number of true inputs odd?"
 
 | $A$ | $B$ | $A \times B$ |
 | --- | --- | ------------ |
@@ -130,7 +134,7 @@ $\vdash$ and $\dashv$ in my [[math-notation]]
 
 ### representation
 
-can be built by combining multiple logic [[gate]]s. may only take one input
+can be built by combining multiple [[logic-gate]]s. may only take one input
 
 | $A$ | $B$ | $A \vdash B$ |
 | --- | --- | ------------ |
@@ -145,13 +149,13 @@ can be built by combining multiple logic [[gate]]s. may only take one input
 
 ### notation
 
-$\leftrightarrow$ or $\odot$ in [[classical-math-notation]]
+$\harr$ or $\odot$ in [[classical-math-notation]]
 
 $\equiv$ in my [[math-notation]]
 
 ### representation
 
-doubleconcave-pointycurve-circle logic [[gate]]. if the [[gate]] does not take exactly two inputs, the output of the [[gate]] can be thought of as “is the number of true inputs even?”
+doubleconcave-pointycurve-circle [[logic-gate]]. if the [[logic-gate]] does not take exactly two inputs, the output of the [[logic-gate]] can be thought of as “is the number of true inputs even?”
 
 | $A$ | $B$ | $A \equiv B$ |
 | --- | --- | ------------ |
@@ -164,24 +168,11 @@ doubleconcave-pointycurve-circle logic [[gate]]. if the [[gate]] does not take e
 
 see [[math-notation]] for operator precedence in my [[math-notation]]
 
-in [[classical-math-notation]] $' : + \oplus$
-
-```python
-expression: term + term
-term: literal . literal
-literal: 'literal | atom
-atom: variable | (expression)
-```
+in [[classical-math-notation]]: $' \cdot + \oplus$
 
 ## identities
 
-identities below hold for all $\mathbb B x$
-
-$x \vdash y \equiv /x \lor y$ &mdash; implication
-
-$(x \equiv y) \equiv (x \land y) \lor (/x \land /y)$ &mdash; biconditional
-
-$(x \equiv y) \equiv (x \vdash y) \land (x \dashv y)$ &mdash; biconditional
+identities below hold for all $\mathbb B x$ and for all $\mathbb B y$
 
 $x \lor \bot \equiv x$ &mdash; identity
 
@@ -203,7 +194,7 @@ $//x \equiv x$ &mdash; involution
 
 ## properties
 
-properties below hold for all $\mathbb B x$
+properties below hold for all $\mathbb B x$ and for all $\mathbb B y$
 
 $x \lor y \equiv y \lor x$ &mdash; commutativity
 
@@ -228,3 +219,9 @@ $x \land (x \lor y) \equiv x$ &mdash; absorption
 $x \times y \equiv (x \land /y) \lor (/x \land y)$ &mdash; exclusive or
 
 $x \times y \equiv /(x \equiv y)$ &mdash; exclusive or
+
+$x \vdash y \equiv /x \lor y$ &mdash; implication
+
+$(x \equiv y) \equiv (x \land y) \lor (/x \land /y)$ &mdash; biconditional
+
+$(x \equiv y) \equiv (x \vdash y) \land (x \dashv y)$ &mdash; biconditional

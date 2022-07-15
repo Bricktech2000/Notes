@@ -18,7 +18,7 @@ $K = \frac{k_{fwd}}{k_{rev}}$ where $K$ is the equilibrium constant (or formally
 
 ### General Formula
 
-let $aA + bB \Leftrightarrow cC + dD$
+let $aA + bB \Harr cC + dD$
 
 $Q = Q_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}$ or $Q = Q_p = \frac{p_C^cp_D^d}{p_A^ap_B^b}$ for gaseous reactants or products
 
@@ -30,7 +30,7 @@ _involving reactants or products in different phases_
 
 > The expressions of $K$ and $Q$ include only species whose [[concentration]]s change as the reaction approaches equilibrium
 
-for example, with $CaCO_{3(s)} \Leftrightarrow CaO_{(s)} + CO_{2(g)}$, then $Q = Q_p = p_{CO_2}$
+for example, with $CaCO_{3(s)} \Harr CaO_{(s)} + CO_{2(g)}$, then $Q = Q_p = p_{CO_2}$
 
 ### Difference Between Pressures and Concentrations
 
@@ -43,7 +43,7 @@ for example, with $CaCO_{3(s)} \Leftrightarrow CaO_{(s)} + CO_{2(g)}$, then $Q =
 > this means that $Q_p \propto Q_c$.
 > therefore, for gases, $Q = Q_p$ and _not_ $Q_c$
 
-let $aA + bB \Leftrightarrow cC + dD$
+let $aA + bB \Harr cC + dD$
 
 $Q = Q_p = Q_c(RT)^{\Delta n_{gas}} = Q_c(RT)^{(c + d) - (a + b)}$ (goes for both $Q$ and $K$), where
 
@@ -61,7 +61,7 @@ $K$ is the equilibrium constant. it is equal to $Q$ when the reaction is at **eq
 
 $K$ is dependent on [[temperature]]
 
-**example with** $N_2O_4 \Leftrightarrow NO_2$
+**example with** $N_2O_4 \Harr NO_2$
 
 $K = K_p = \frac{p^2_{NO_2}}{p^1_{N_2O_4}}$ where $p$ are the [[pressure]]s of the gases in $bar$ at **equilibrium**
 
