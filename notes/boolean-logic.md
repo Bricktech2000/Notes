@@ -1,38 +1,16 @@
-# Boolean Algebra
+# Boolean Logic
 
-_algebra using [[boolean]] variables and logical [[operator]]s_
+see [[boolean]]
 
 see [[math-notation]], [[disjunctive-normal-form]], [[conjunctive-normal-form]]
 
-values in [[boolean-algebra]] are [[boolean]]s: either _true_ or _false_
-
-## simplifying boolean expressions
-
-boolean expressions can be simplified:
-
-- using [[boolean-algebra]] through [[boolean]] [[operator]]s
-- using [[karnaugh-map]]s
-- using [[truth-table]]s
-
-## proving implication statements
-
-see [[proof]], [[math-notation]]
-
-to prove a conditional statement such as $x \vdash y$:
-
-1. assume $x$ is true
-2. show that $y$ must follow from $x$ (using [[axiom]]s for formal proofs)
-
-to prove a biconditional statement such as $x \equiv y$
-
-1. prove that $x \vdash y$ and that $x \dashv y$
-2. use the biconditional [[axiom]] $(x \vdash y \land x \dashv y) \equiv (x \equiv y)$ (see [[math-notation]])
+boolean expressions can be simplified using [[boolean-logic]] through [[boolean]] [[operator]]s, or alternatively visually using [[karnaugh-map]]s or [[truth-table]]s
 
 ---
 
 # Boolean Operators
 
-see [[boolean]], [[boolean-algebra]]
+see [[boolean]], [[boolean-logic]]
 
 ## AND
 
@@ -118,19 +96,37 @@ doubleconcave-pointycurve logic [[gate]]. if the [[gate]] does not take exactly 
 
 ## Implication
 
-> **AKA**: Conditional Statement
+> **AKA**: Conditional [[logic-statement]]
+
+> **definition**: if $x = \top$, then the conditional [[logic-statement]] $x \vdash y$ is said to be _vacuously true_, see [[boolean-logic]]
+
+> **definition**: $/x \dashv /y$ is the _contrapositive_ of the [[logic-statement]] $x \vdash y$. they are logically equivalent
+
+> **definition**: $x \dashv y$ is the _converse_ of the [[logic-statement]] $x \vdash y$. they are **not** logically equivalent
+
+> **definition**: $/x \vdash /y$ is the _inverse_ of the [[logic-statement]] $x \vdash y$. they are **not** logically equivalent
+
+> **note**: even though the converse and inverse of a conditional [[logic-statement]] are not logically equivalent, the converse of a [[logic-statement]] is logically equivalent to the inverse of that [[logic-statement]].
+
+> **definition**:
+>
+> let $S \vdash R \vdash Q$ be a [[logic-statement]] (square implies rectangle implies quadrilateral). then,
+>
+> $S$ is said to be a _sufficient condition_ for $R$ &mdash; knowing that $S$ is true allows the deduction that $R$ is true.
+>
+> $Q$ is said to be a _necessary condition_ for $R$ &mdash; for $R$ to be true, $Q$ must be true.
+>
+> alternatively, let $A \vdash B$ be a [[logic-statement]]. then,
+>
+> $A$ is said to be a _sufficient condition_ for $B$
+>
+> $B$ is said to be a _necessary condition_ for $A$
 
 ### notation
 
 $\to$ in [[classical-math-notation]]
 
 $\vdash$ and $\dashv$ in my [[math-notation]]
-
-### definitions
-
-if $x = \top$, then $x \vdash y$ is _vacuously true_
-
-if $x = \bot$, then $x \vdash y$ is _trivially true_
 
 ### representation
 
@@ -141,11 +137,11 @@ can be built by combining multiple logic [[gate]]s. may only take one input
 | 0   | 0   | 1            |
 | 0   | 1   | 1            |
 | 1   | 0   | 0            |
-| 1   | 1   | 0            |
+| 1   | 1   | 1            |
 
 ## XNOR
 
-> **AKA**: Double Implication, Equivalent, Biconditional Statement, Bidirectional Implication
+> **AKA**: Double Implication, Equivalent, Biconditional [[logic-statement]], Bidirectional Implication
 
 ### notation
 

@@ -22,7 +22,7 @@ this [[improved-expression-evaluation]] proposes that any algebraic manipulation
 
 ignoring the existence of [[complex]] numbers, the square root of a negative [[number]] can be thought of as _invalid_. however, instead of trying to compute the square root straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being squared, which makes it "valid" again. it turns out that doing so never results in an erroneous answer.
 
-similarly, dividing by a variable equal to zero can be thought of as _invalid_, or as _undefined_ in classical mathematics. however, instead of trying to compute the division straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being multiplied by its denominator, which makes it "valid" again. for this [[improved-expression-evaluation]] to be valid, doing so must never results in an erroneous answer.
+similarly, dividing by a variable equal to zero can be thought of as _invalid_, or as _undefined_ in classical [[mathematics]]. however, instead of trying to compute the division straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being multiplied by its denominator, which makes it "valid" again. for this [[improved-expression-evaluation]] to be valid, doing so must never results in an erroneous answer.
 
 ## attempting to break the system
 
@@ -55,9 +55,9 @@ without the additional restriction, the second equality would have solutions tha
 
 <https://youtu.be/hI9CaQD7P6I?t=70>
 
-at the [[time]]stamp included in the URL above, the teacher divided both sides of the equality by the value $a \cdot b$ without adding the restriction required by the rule above. if he had added the restriction $a \cdot b \ne 0$, it would've been a contradiction with the equality $a = b$
+at the [[time]]stamp included in the URL above, the teacher divided both sides of the equality by the value $a \cdot b$ without adding the restriction required by the rule above. if he had added the restriction $a \cdot b \ne 0$, it would've been a [[contradiction]] with the equality $a = b$
 
-> **note**: by using the symbol $\dashv$ (_for all_, see [[math-notation]]) to denote the restriction, there is technically no contradiction. the right way to think of the equation is the following: as we know the restriction is always $\bot$, the equation on the left is true _for all $\bot$._, meaning it is never true. this is crucially different form a contradiction, as that would mean all other equations in the same context are rendered invalid.
+> **note**: by using the symbol $\dashv$ (_for all_, see [[math-notation]]) to denote the restriction, there is technically no contradiction. the right way to think of the equation is the following: as we know the restriction is always $\bot$, the equation on the left is true _for all $\bot$._, meaning it is never true. this is crucially different form a [[contradiction]], as that would mean all other equations in the same context are rendered invalid.
 
 ### second attempt with multiplication by zero
 
@@ -155,7 +155,7 @@ $\lfloor 9 \rfloor = \varnothing$ (can be thought of as $\because 3$) just as $0
 
 ## conclusion
 
-I could not break this [[improved-expression-evaluation]]. it would be very hard to prove this system right using mathematics, as it was built from the ground up on a slightly different kind of mathematics. with that said, a counterexample would be a simple way to prove this system wrong. none has been found yet.
+I could not break this [[improved-expression-evaluation]]. it would be very hard to prove this system right using [[mathematics]], as it was built from the ground up on a slightly different kind of [[mathematics]]. with that said, a counterexample would be a simple way to prove this system wrong. none has been found yet.
 
 ### current rules
 
@@ -187,7 +187,7 @@ $\int \delta y = \delta \int y = y$
 
 $\int f \to \varnothing$
 
-in a [[proof]], equalities must be linked together through the intended implications, see [[boolean-algebra]]. this means that multiplying or dividing an equality by an expresion that could be $0$ or raising it to some power could require additional restrictions.
+in a [[proof]], equalities must be linked together through the intended implications, see [[boolean-logic]]. this means that multiplying or dividing an equality by an expresion that could be $0$ or raising it to some power could require additional restrictions.
 
 if the result of an expression is _undefined_, then the expression must be rearranged first in order to avoid the undefined value. note that some expressions (such as $-0$) cannot be computed without proper context, leaving them undefined.
 

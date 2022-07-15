@@ -320,7 +320,7 @@ let $\mathbb M^{n, n} A \land \mathbb N n$ and suppose $A$ has $n$ distinct [[ei
 
 see [[linear-system]]
 
-> **theorem**: let $\mathbb M^{m, n}A$ (see [[matrix]]). the following statements are equivalent:
+> **theorem**: let $\mathbb M^{m, n}A$ (see [[matrix]]). the following [[logic-statement]]s are equivalent:
 >
 > 1. every variable is a leading variable
 > 2. there is a leading variable in every column of the [[RREF]] of $A$
@@ -332,9 +332,9 @@ see [[linear-system]]
 
 see [[linear-system-theorem-proof]]
 
-> **theorem**: let $\mathbb M^{n, n} A$ (see [[matrix]]). the following statements are equivalent:
+> **theorem**: let $\mathbb M^{n, n} A$ (see [[matrix]]). the following [[logic-statement]]s are equivalent:
 >
-> **note**: all statements below are valid for both $A$ and $A^\intercal$, see transpose [[matrix]]
+> **note**: all [[logic-statement]]s below are valid for both $A$ and $A^\intercal$, see transpose [[matrix]]
 >
 > 1. $rank\ A = n$
 > 2. every linear system of the form $Ax = b$ has a unique solution

@@ -4,6 +4,8 @@ _the [[set]] of [[natural]] numbers_
 
 see [[math-notation]]
 
+## propertoes
+
 $\mathbb N \vdash \mathbb Z$
 
 ## definition

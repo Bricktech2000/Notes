@@ -60,16 +60,12 @@
 
 [[lambda-calculus]]
 
-[[deep-learning]]
+[[neural-network]]
 
 [[verifiable-random-function]]
 
 [[hadamard-product]]
 
-[[type-theory]]
-
 [[operator]]
 
 [[category-theory]]
-
-[[topology]]

@@ -1,8 +1,8 @@
 # Backpropagation
 
-_algorithm to compute the [[gradient]] of a [[deep-learning]] neural network efficiently_
+_algorithm to compute the [[gradient]] of a [[neural-network]] efficiently_
 
-see [[math-notation]], [[deep-learning]], [[calculus]], [[calculus-notation]]
+see [[math-notation]], [[neural-network]], [[calculus]], [[calculus-notation]]
 
 &mdash; <https://youtu.be/kbGu60QBx2o>
 

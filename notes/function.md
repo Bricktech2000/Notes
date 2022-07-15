@@ -24,15 +24,26 @@ see [[math-notation]]
 
 [[curve-sketching]]
 
-[[optimizing-a-function]]
-
 [[functional-programming]]
 
 [[function-vector-space]]
 
-[[loss-function]] in [[deep-learning]]
+[[loss-function]] in [[neural-network]]s
 
 [[verifiable-random-function]] in [[cryptocurrency]]es
+
+## definition
+
+a [[function]] $\mathcal F$ between [[set]]s $A$ and $B$ is a [[relation]] between $A$ and $B$ such that:
+
+1. $\mathcal F\ (a, b) \land B\ b \dashv A\ a$ or alternatively $B\ f\ a \dashv A\ a$ &mdash; there is some output for every single input
+2. $\mathcal F\ (a, b_1) \land \mathcal F\ (a, b_2) \vdash b_1 = b_2$ or alternatively $a_1 = a_2 \vdash f\ a_1 = f\ a_2$ &mdash; there is exactly one output for any input
+
+## Domain, Range
+
+> **definition**: the _domain_ of a [[function]] is the set of arguments for which it will produce an output
+
+> **definition**: the _range_ of a [[function]] is the set of all outputs it can produce
 
 ## operations
 
@@ -250,6 +261,8 @@ $f_{arc} = \int \lfloor 1 : [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
 
 ## Injective Function
 
+_is the reciprocal a function?_
+
 > **AKA**: one-to-one function
 
 > **definition**: a [[function]] $f$ is said to be _injective_ if $f\ x_1 = f\ x_2 \vdash x_1 = x_2 \dashv \mathbb U x_1 \land \mathbb U x_2$, see [[universal-set]]. _only one output value corresponds to a given input value_
@@ -272,11 +285,11 @@ a [[function]] can be proven to be surjective by proving one can construct an in
 
 let $y = f\ m\ n = m : n$. then, suppose $m = 0$. solving for $n$, we get $n = y$. therefore, the [[function]] is surjective
 
-let $y = f\ m\ n = m2 : n2$. $y = \cdot 1$ would cause a contradiction as the square of an [[integer]] is always a positive [[integer]] and the sum of two positive [[integer]]s is always a positive [[integer]]. therefore, the [[function]] is not surjective
+let $y = f\ m\ n = m2 : n2$. $y = \cdot 1$ would cause a [[contradiction]] as the square of an [[integer]] is always a positive [[integer]] and the sum of two positive [[integer]]s is always a positive [[integer]]. therefore, the [[function]] is not surjective
 
 let $y = f\ m\ n = m$. then, we get $m = y$ and therefore the [[function]] is surjective
 
-let $y = f\ m\ n = |n|$. $y = \cdot 1$ would cause a contradiction as the absolute value of an [[integer]] is always a positive [[integer]]. therefore, the [[function]] is not surjective
+let $y = f\ m\ n = |n|$. $y = \cdot 1$ would cause a [[contradiction]] as the absolute value of an [[integer]] is always a positive [[integer]]. therefore, the [[function]] is not surjective
 
 let $y = f\ m\ n = m \cdot n$. then, suppose $n = 0$. solving for $m$, we get $m = y$. therefore, the [[function]] is surjective
 

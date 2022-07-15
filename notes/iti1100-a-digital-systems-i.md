@@ -51,7 +51,7 @@ Publisher: Pearson-Prentice Hall
 
 [[complement]]
 
-[[boolean-algebra]]
+[[boolean-logic]]
 
 [[latch]], [[flip-flop]]
 

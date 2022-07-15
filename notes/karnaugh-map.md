@@ -38,7 +38,7 @@ in a K Map,
 
 ## applications
 
-K Maps allow the simplification of [[boolean]] expressions without using [[boolean-algebra]]
+K Maps allow the simplification of [[boolean]] expressions without using [[boolean-logic]]
 
 ### procedure
 
@@ -50,7 +50,7 @@ K Maps allow the simplification of [[boolean]] expressions without using [[boole
 
 _simplifying a Full Adder_
 
-using [[boolean-algebra]]
+using [[boolean-logic]]
 
 ![](2022-02-26-01-18-06.png)
 

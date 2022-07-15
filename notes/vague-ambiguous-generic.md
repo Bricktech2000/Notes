@@ -1,5 +1,7 @@
 # Vague, Ambiguous, Generic
 
+[[vague-ambiguous-generic]] words are to be avoided in [[technical-writing]]
+
 ## definitions
 
 - a _vague_ word has many different meanings, is open to interpretation

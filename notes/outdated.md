@@ -6,4 +6,4 @@
 
 [[rational-function]]
 
-[[stoichiometry]]
+[[stoichiometry]], [[thermochemistry]]

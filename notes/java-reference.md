@@ -12,7 +12,7 @@ or all other user-defined classes
 
 ## the `==` operator on References
 
-using the `==` [[operator]] on reference [[type]]s compares their location in memory, which can be influenced by compiler optimization. for example, to compare the content of strings, one must use `s1.equals(s2)`, and **not** `s1 == s2`. as an example,
+using the `==` [[operator]] on reference [[type]]s compares their location in memory, which can be influenced by compiler [[optimization]]. for example, to compare the content of strings, one must use `s1.equals(s2)`, and **not** `s1 == s2`. as an example,
 
 ```java
 public class References {

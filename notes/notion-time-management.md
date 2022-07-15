@@ -1,162 +1,101 @@
 # Notion Time Management
 
-## Board View
-
-- used for tasks that don't have a clear deadline
-- sorted in categories (see _Status_ property)
-
-### filter
-
-displays any task that has a status set
-
-### sort
-
-doesn't sort events automatically
-
-### other
-
-page load limit: 100
-
 ## Day View
 
-- used for events that generally happen within a single day (friend meetups, classes, etc.)
+used for events that generally happen within a single day (friend meetups, classes, etc.)
 
-### filter
-
-displays any event that isn't completed and that is within one day of today
-
-> end date is within next week or end date is on or before today or start date is within next week
+> **filter**:
 >
-> and
+> - _where_
+>   - _where_ Status is not Completed
+>   - _and_ Date is not empty
+> - _and_
+>   - _where_ END_DATE is within the next week
+>   - _or_ END_DATE is on or before today
+>   - _or_ START_DATE is within the next week
+>   - _or_ Status is Next Up, Work On
+
+> **sort**:
 >
-> status is not completed and date is not empty
+> 1. Status ascending
+> 2. DDONE_OVER_DT descending
 
-### sort
-
-sorts events by ascending end date
-
-### other
+> **properties**:
+>
+> 1. Category
+> 2. Name
 
 page load limit: 100
 
 ## Month View
 
-- used for long-term events (assignments, reports, deadlines, etc.)
-- allows me to have a global view of everything going on at a glance
+used for long-term events (assignments, reports, deadlines, etc.). allows me to have a global view of everything going on at a glance
 
-### filter
+> **filter**:
+>
+> - _where_
+>   - _where_ Status is not Completed
+>   - _and_ Date is not empty
+> - _and_
+>   - _where_ Repeat is empty
+>   - _or_ Repeat > 0
 
-displays any event that has a date, that isn't completed and that isn't repeating (OPT, DAY or WK)
+> **sort**:
+>
+> 1. Status ascending
+> 2. DDONE_OVER_DT descending
 
-### sort
-
-sorts events by status, or
-
-sorts events by priority based on the current progress on the timeline (ddone over dt)
-
-### other
+> **properties**:
+>
+> 1. Category
+> 2. Name
 
 page load limit: 100
 
+## Board View
+
+used for tasks that don't have a clear deadline. sorted in categories (see _Status_ property)
+
+### filter
+
+> **filter**:
+>
+> - _where_ Status is not empty
+
+> **sort**:
+>
+> (no sort, does not sort events automatically)
+
+> **properties**:
+>
+> 1. Category
+> 2. Name
+> 3. END_DATE
+
+> **group by**: Status
+
+page load limit: 100
+
+## Pages
+
+> **properties**:
+>
+> 1. Category
+> 2. Status
+> 3. Date
+> 4. Repeat
+> 5. URL
+
 ## Database Properties
 
-### Name (visible)
+### Name
 
-the name of the page
+> **type**: Title
 
-### Date (visible)
+### Category
 
-the start and end date for a page
+> **type**: Multiselect
 
-### EMPTY_DATE
-
-an empty date, used below
-
-### CREATED_DATE
-
-the date a page was created, used below
-
-### START_DATE
-
-```jsx
-// if(contains(prop("Category"), "DAY"), fromTimestamp(timestamp(start(prop("Date"))) % 86400000 + floor(timestamp(now()) / 86400000) * 86400000), if(contains(prop("Category"), "WK") or contains(prop("Category"), "LEC") or contains(prop("Category"), "DGD") or contains(prop("Category"), "LAB") or contains(prop("Category"), "TUT"), fromTimestamp((timestamp(start(prop("Date"))) - timestamp(now()) % 604800000 + 86400000) % 604800000 + timestamp(now()) % 604800000 - 86400000 + floor(timestamp(now()) / 604800000) * 604800000), if(prop("Status") == "Not Completed", end(prop("Date")), if(start(prop("Date")) != end(prop("Date")), start(prop("Date")), if(not empty(prop("Date")), prop("CREATED_DATE"), prop("EMPTY_DATE"))))))
-if(contains(prop("Category"), "DAY"),
-  fromTimestamp(timestamp(start(prop("Date"))) % (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24)) * (1000*60*60*24) - (1000*60*60)),
-  if(contains(prop("Category"), "WK"),
-    fromTimestamp((timestamp(start(prop("Date"))) - timestamp(now()) % (1000*60*60*24*7) + (1000*60*60*24)) % (1000*60*60*24*7) + timestamp(now()) % (1000*60*60*24*7) - (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24*7)) * (1000*60*60*24*7) - (1000*60*60)),
-    if(prop("Status") == "Not Completed",
-      end(prop("Date")),
-      if(start(prop("Date")) != end(prop("Date")),
-        start(prop("Date")),
-        if(not empty(prop("Date")),
-          prop("CREATED_DATE"),
-          prop("EMPTY_DATE")
-        )
-      )
-    )
-  )
-)
-```
-
-### END_DATE
-
-```jsx
-// if(contains(prop("Category"), "DAY"), fromTimestamp(timestamp(end(prop("Date"))) % 86400000 + floor(timestamp(now()) / 86400000) * 86400000), if(contains(prop("Category"), "WK") or contains(prop("Category"), "LEC") or contains(prop("Category"), "DGD") or contains(prop("Category"), "LAB") or contains(prop("Category"), "TUT"), fromTimestamp((timestamp(end(prop("Date"))) - timestamp(now()) % 604800000 + 86400000) % 604800000 + timestamp(now()) % 604800000 - 86400000 + floor(timestamp(now()) / 604800000) * 604800000), if(start(prop("Date")) != end(prop("Date")), end(prop("Date")), if(not empty(prop("Date")), end(prop("Date")), prop("EMPTY_DATE")))))
-if(contains(prop("Category"), "DAY"),
-  fromTimestamp(timestamp(end(prop("Date"))) % (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24)) * (1000*60*60*24) - (1000*60*60)),
-  if(contains(prop("Category"), "WK"),
-    fromTimestamp((timestamp(end(prop("Date"))) - timestamp(now()) % (1000*60*60*24*7) + (1000*60*60*24)) % (1000*60*60*24*7) + timestamp(now()) % (1000*60*60*24*7) - (1000*60*60*24) + floor(timestamp(now()) / (1000*60*60*24*7)) * (1000*60*60*24*7) - (1000*60*60)),
-    if(start(prop("Date")) != end(prop("Date")),
-      end(prop("Date")),
-      if(not empty(prop("Date")),
-        end(prop("Date")),
-        prop("EMPTY_DATE")
-      )
-    )
-  )
-)
-```
-
-### DDONE_OVER_DT
-
-see [[math-notation]]
-
-the $\ : duration$ below "shifts" the event left by $duration$, which allows long-term projects to end up with higher priority at the beginning of their time allocation. this prioritizes tasks better.
-
-$$
-\text{DDONE\_OVER\_DT} = now \cdot start : duration - duration \\
-duration = end \cdot start
-$$
-
-```jsx
-(timestamp(now()) -
-  2 * timestamp(prop('START_DATE')) +
-  timestamp(prop('END_DATE')) +
-  1000) /
-  (timestamp(prop('END_DATE')) - timestamp(prop('START_DATE')) + 1000);
-```
-
-### Status (visible)
-
-one of the following values:
-
-- Back Burner
-- Not Started
-- Next Up
-- Work On
-- No Status
-- Blocked
-- Not Completed (hidden)
-- Completed (hidden)
-- Archive (hidden)
-
-### Category (visible)
-
-multiple of the following values:
-
-- WK &mdash; repeats every week
-- DAY &mdash; repeats every day
-- OPT &mdash; optional event
 - Social (blue)
 - Personal (blue)
 - Learning (orange)
@@ -179,18 +118,99 @@ multiple of the following values:
 - REPORT &mdash; papers to write (async, worth marks)
 - FINAL &mdash; final exam (sync, worth marks)
 
-### URL (visible)
+### Status
 
-a quick way to add a link to a page
+> **type**: Select
 
----
+- Work On (blue)
+- (no status)
+- Next Up (blue)
+- Not Started (blue)
+- Backlog (light gray)
+- Blocked (light gray)
+- Completed (light gray)
+- Archive (light gray)
+- Revisit (light gray)
 
-### TEMP_PRIORITY
+### Date
 
-this property is deprecated and has been removed from the page.
+> **type**: Date
 
-![](2022-04-01-10-18-17.png)
+### Repeat
+
+> **type**: Number
+
+### URL
+
+> **type**: URL
+
+### CREATED_AT
+
+> **type**: Created time
+
+### START_DATE
+
+> **type**: Formula
 
 ```jsx
-if(not prop("Important?") and (timestamp(prop("START_DATE")) > timestamp(now()) or timestamp(now()) > timestamp(prop("END_DATE")) or prop("START_DATE") == prop("EMPTY_DATE")), "Back Burner", if(not prop("Time-Consuming?"), "Get Done", if(timestamp(prop("START_DATE")) > timestamp(now()) or timestamp(now()) > timestamp(prop("END_DATE")) or prop("START_DATE") == prop("EMPTY_DATE"), "Schedule", if(not prop("Important?"), "Delegate", "Work on"))))
+if (not empty(abs(prop("Repeat"))),
+  fromTimestamp(
+    (
+      timestamp(start(prop("Date"))) % (1000*60*60*24*abs(prop("Repeat"))) - timestamp(now()) % (1000*60*60*24*abs(prop("Repeat")))
+      + 1000*60*60*24*abs(prop("Repeat")) + (1000*60*60*24*abs(prop("Repeat"))/7)
+    ) % (1000*60*60*24*abs(prop("Repeat"))) - 1000*60*60*24*abs(prop("Repeat"))/7
+    + timestamp(now())
+  ),
+  if (prop("Status") == "Revisit",
+    end(prop("Date")),
+    if (start(prop("Date")) != end(prop("Date")),
+      start(prop("Date")),
+      end(prop("Date"))
+    )
+  )
+)
+```
+
+### END_DATE
+
+> **type**: Formula
+
+```jsx
+if (not empty(abs(prop("Repeat"))),
+  fromTimestamp(
+    (
+      timestamp(end(prop("Date"))) % (1000*60*60*24*abs(prop("Repeat"))) - timestamp(now()) % (1000*60*60*24*abs(prop("Repeat")))
+      + 1000*60*60*24*abs(prop("Repeat")) + (1000*60*60*24*abs(prop("Repeat"))/7)
+    ) % (1000*60*60*24*abs(prop("Repeat"))) - 1000*60*60*24*abs(prop("Repeat"))/7
+    + timestamp(now())
+  ),
+  if (prop("Status") == "Revisit",
+    end(prop("Date")),
+    if (end(prop("Date")) != end(prop("Date")),
+      end(prop("Date")),
+      end(prop("Date"))
+    )
+  )
+)
+```
+
+### DDONE_OVER_DT
+
+> **type**: Formula
+
+see [[math-notation]]
+
+the $\ : duration$ below "shifts" the event left by $duration$, which allows long-term projects to end up with higher priority at the beginning of their time allocation. this prioritizes tasks better.
+
+$$
+\text{DDONE\_OVER\_DT} = now \cdot start : duration - duration \\\
+duration = end \cdot start
+$$
+
+```jsx
+(timestamp(now()) -
+  2 * timestamp(prop('START_DATE')) +
+  timestamp(prop('END_DATE')) +
+  1000) /
+  (timestamp(prop('END_DATE')) - timestamp(prop('START_DATE')) + 1000);
 ```

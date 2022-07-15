@@ -7,7 +7,7 @@ this note describes my custom [[math-notation]], meant to solve inconsistencies 
 ## principles
 
 - all equality [[operator]]s **check** for equality and returns a [[boolean]], and it is implied that an expression on its own must evaluate to $\top$. this allows for [[boolean]] [[operator]]s to be applied on equalities explicitly as opposed informally
-- [[set]]s are [[function]]s that return a [[boolean]] ($\mathbb R a$ instead of $a \in \mathbb R$). this way, [[boolean]] [[operator]]s and [[set]] [[operator]]s are one and the same
+- [[set]]s are [[function]]s that return a [[boolean]] ([[set]]s are [[predicate]]s). this way, [[boolean]] [[operator]]s and [[set]] [[operator]]s are one and the same
 - some [[operator]]s have versions with a different precedence as "more brackets means more explicit, but less brackets means less complex and less confusing"
 - $\lfloor a \rfloor$ returns both positive and negative square roots ($\lfloor q2 \rfloor \equiv\ \because q$). same applies for other reciprocals
 - superscripts are modifiers (subscripts with special meanings). this distinction is especially useful when working with [[forward-propagation]] and [[backpropagation]] in neural networks
@@ -65,18 +65,18 @@ also see [[trigonometric-function]], [[calculus-notation]]
 | $\bot$        | logical false                                                | `false`, $/\top$                       |
 | $\tau$        | the ratio of the circumference of a [[circle]] to its radius | using $\pi$ is discouraged             |
 
-| shorthand                                                      | definition                                            | notes                                  |
-| -------------------------------------------------------------- | ----------------------------------------------------- | -------------------------------------- |
-| $a \not\vdash b$, $a \ne b$, $a \not\le b$, $a \not< b$...     | $/(a \vdash b)$, $/a = b$, $/a \le b$, $/a < b$...    |                                        |
-| $x\omega$ where $x$ is a variable and $\omega$ is a [[number]] | $[x]\omega$                                           |                                        |
-| $ax$ where $x$ is a variable                                   | $a \smash\shortmid x$                                 |                                        |
-| $f\ x$ where $f$ is a [[function]]                             | $f \smash\leftarrow x$                                | common, longhand is discouraged        |
-| $x\ y \rightarrow E$ where $E$ is an expression                | $x \rightarrow y \rightarrow E$                       |                                        |
-| $S = \lbrace a \dots b \rbrace$                                | $S\ x \equiv x = a \lor \dots x = b$                  |                                        |
-| $\mathbb N a$                                                  | checks whether $a$ is part of the [[set]] $\mathbb N$ |                                        |
-| $x \rightarrow (a < x < b)$                                    | the closed interval from $a$ to $b$                   | same can be used for open intervals    |
-| $\delta y - \delta x$                                          | the [[derivative]] of $y$ with respect to $x$         | $\delta$ should be used instead of $d$ |
-| $\int y - \delta x$                                            | the [[antiderivative]] of $y$ with respect to $x$     | $\delta$ should be used instead of $d$ |
+| shorthand                                                      | definition                                               | notes                                  |
+| -------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------- |
+| $a \not\vdash b$, $a \ne b$, $a \not\le b$, $a \not< b$...     | $/(a \vdash b)$, $/a = b$, $/a \le b$, $/a < b$...       |                                        |
+| $x\omega$ where $x$ is a variable and $\omega$ is a [[number]] | $[x]\omega$                                              |                                        |
+| $ax$ where $x$ is a variable                                   | $a \smash\shortmid x$                                    |                                        |
+| $f\ x$ where $f$ is a [[function]]                             | $f \smash\leftarrow x$                                   | common, longhand is discouraged        |
+| $x\ y \rightarrow E$ where $E$ is an expression                | $x \rightarrow y \rightarrow E$                          |                                        |
+| $S = \lbrace a \dots b \rbrace$                                | $S\ x \equiv x = a \lor \dots x = b$                     |                                        |
+| $\mathbb N a$                                                  | checks whether $a$ is element of the [[set]] $\mathbb N$ |                                        |
+| $x \rightarrow (a < x < b)$                                    | the closed interval from $a$ to $b$                      | same can be used for open intervals    |
+| $\delta y - \delta x$                                          | the [[derivative]] of $y$ with respect to $x$            | $\delta$ should be used instead of $d$ |
+| $\int y - \delta x$                                            | the [[antiderivative]] of $y$ with respect to $x$        | $\delta$ should be used instead of $d$ |
 
 ### precedence, associativity, unary
 

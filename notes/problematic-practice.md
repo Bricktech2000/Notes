@@ -1,5 +1,9 @@
 # Problematic Practice
 
+[[problematic-practice]]s are to be avoided in [[technical-writing]]
+
+## see
+
 [[rhetorical-question]]s
 
 [[exclamation-mark]]s

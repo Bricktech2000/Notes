@@ -4,15 +4,13 @@ _the [[set]] of [[complex]] numbers_
 
 see [[math-notation]]
 
-$\mathbb C \vdash \mathbb U$, see [[universal-set]]
-
-> [[complex]] numbers are often intimately related to [[discrete-math]]ematics &mdash; 3B1B <https://youtu.be/bOXCLR3Wric>
+> [[complex]] numbers are often intimately related to [[discrete-mathematics]] &mdash; 3B1B <https://youtu.be/bOXCLR3Wric>
 
 ## definition
 
 the [[set]] of [[complex]] numbers $\mathbb C$ is defined as follows:
 
-$\mathbb C x \equiv x = a : bi \land \mathbb R a \land \mathbb R b$, where $i$ is an [[imaginary]] number
+$\mathbb C x \equiv x = a : bi \land \mathbb R a \land \mathbb R b$, where $i = \lfloor \cdot 1 \rfloor$, see [[imaginary]] numbers
 
 ## notation
 
@@ -29,6 +27,8 @@ $z = a : bi$
 $z = |z|\ \cos \theta : |z|\ i \sin \theta = |z|\ e[i\theta]$, see [[e]]
 
 ## properties
+
+$\mathbb C \vdash \mathbb U$, see [[universal-set]]
 
 $a : bi = c : di \equiv a = c \land b = d$ &mdash; equality
 

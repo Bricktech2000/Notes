@@ -2,6 +2,24 @@
 
 _the study of how society manages its [[scarce-resource]]s_
 
-see [[economy]], [[economic-growth]], [[sunk-costs]], [[inflation]], [[gross-domestic-product]], [[consumer-price-index]], [[production-possibility-frontier]], [[financial-system]], [[money]], [[credit-card]], [[loan]]
+## see
 
-## [[principles-of-economics]]
+[[economy]]
+
+[[principles-of-economics]]
+
+[[economic-growth]]
+
+[[financial-system]]
+
+[[money]], [[wealth]], [[inflation]]
+
+[[credit-card]], [[loan]], [[sunk-costs]]
+
+[[unemployment]], [[productivity]]
+
+[[gross-domestic-product]], [[consumer-price-index]]
+
+[[production-possibility-frontier]]
+
+[[options-market]], [[bond-market]], [[stock-market]], [[loanable-funds-market]]

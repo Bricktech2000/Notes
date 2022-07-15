@@ -50,15 +50,15 @@ composition is denoted through the [[operator]] $\circ$ in [[classical-math-nota
 
 identities are morphisms that map an object to itself. in a category, each object must have an identity morphism. the set of all identities in a category is denoted $\mathcal C(A, A) = \lbrace 1_A, \dots \rbrace$ in [[classical-math-notation]].
 
-an identity is denoted as $1_A: A \to A$ or as $\bold{id}_A : A \to A$ in [[classical-math-notation]].
+an identity is denoted as $1_A: A \to A$ or as $\textbf{id}_A : A \to A$ in [[classical-math-notation]].
 
 ### Identity Law
 
 for every object $A$ there is an arrow which is a unit of [[composition]]. let $f$ be a [[function]] that goes from $A$ to $B$ and let $\circ$ be the [[composition]] [[operator]]. then,
 
-$f \circ \bold{id}_A = f$
+$f \circ \textbf{id}_A = f$
 
-$\bold{id}_B \circ f = f$
+$\textbf{id}_B \circ f = f$
 
 in Haskell, let `id :: a -> a`. then, `id x = x`
 

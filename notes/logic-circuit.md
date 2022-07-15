@@ -2,6 +2,14 @@
 
 see [[digital-system]]
 
+## examples
+
+[[binary-decoder]]
+
+[[multiplexer]]
+
+[[latch]] [[flip-flop]]
+
 ## see
 
 [[truth-table]]
@@ -74,4 +82,4 @@ $h_2ab = /b \vdash C h = 0 : 0 = 0$
 
 ### consequences
 
-NOR and NAND [[gate]]s are very useful, as they reduce the cost of a [[logic-circuit]] by reducing the number of ICs necessary to get an identical output, see [[boolean-algebra]]
+NOR and NAND [[gate]]s are very useful, as they reduce the cost of a [[logic-circuit]] by reducing the number of ICs necessary to get an identical output, see [[boolean-logic]]

@@ -1,5 +1,7 @@
 # Passive and Active Voice
 
+important to understand for [[technical-writing]]
+
 ## Passive Voice
 
 > A mistake has been made.

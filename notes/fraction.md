@@ -4,6 +4,8 @@ _the [[set]] of fractional [[number]]s_
 
 see [[math-notation]]
 
+## propertoes
+
 $(\mathbb Q\ /\ \mathbb Z) \vdash \mathbb R$
 
 $\mathbb Z \lor (\mathbb Q \mathbb\ /\ \mathbb Z) \equiv \mathbb R$

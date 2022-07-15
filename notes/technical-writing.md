@@ -1,8 +1,15 @@
 # Technical Writing
 
-## best practices
+## examples
 
-- make sure the writing is crystal clear, and then try and fix stylistic issues such as repetition
-- avoid [[problematic-practice]] and use correct [[punctuation]]
-- avoid using [[vague-ambiguous-generic]] words
-- beware of [[wordiness]] and of [[tone]], and understand [[passive-and-active-voice]]s
+[[eng1112-report-2]]
+
+## see
+
+[[problematic-practice]]
+
+[[punctuation]]
+
+[[vague-ambiguous-generic]] words
+
+[[wordiness]], [[tone]], [[passive-and-active-voice]]s

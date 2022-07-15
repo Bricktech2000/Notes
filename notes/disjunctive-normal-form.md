@@ -6,11 +6,11 @@ see [[conjunctive-normal-form]]
 
 ## definition
 
-a compound proposition is said to be in _DNF_ if it is a _disjunction of conjunctive clauses_, see [[boolean-algebra]]
+a compound proposition is said to be in _DNF_ if it is a _disjunction of conjunctive clauses_, see [[boolean-logic]]
 
 ## [[boolean]] expression to [[disjunctive-normal-form]]
 
-see [[boolean-algebra]]
+see [[boolean-logic]]
 
 1. build a [[truth-table]] using the [[boolean]] expression
 2. write a conjunctive clause for each $\top$ row of the [[truth-table]]
@@ -20,4 +20,4 @@ see [[boolean-algebra]]
 
 [[iti1100-a-digital-systems-i]] equivalent of a [[disjunctive-normal-form]]. the conjunctive clauses are known as _Minterms_
 
-Sums of Products can be used to easily convert a [[boolean]] expression to only NOR [[gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $/A = /(A \lor A)$, see [[boolean-algebra]]s
+Sums of Products can be used to easily convert a [[boolean]] expression to only NOR [[gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $/A = /(A \lor A)$, see [[boolean-logic]]s

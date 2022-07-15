@@ -4,6 +4,8 @@ _the [[set]] of [[integer]]s_
 
 see [[math-notation]]
 
+## propertoes
+
 $\mathbb Z \vdash \mathbb Q$
 
 ## definition

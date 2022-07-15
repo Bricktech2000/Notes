@@ -6,6 +6,8 @@
 
 [[row-reduction]] through Gaussian Elimination
 
+[[hash]] [[function]]s
+
 BFS #todo
 
 DFS #todo

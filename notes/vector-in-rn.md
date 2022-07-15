@@ -68,7 +68,7 @@ see [[dot-product]], [[cross-product]], #magic
 
 $\cos \theta = a\ \dot\mid\ b - |a|\ |b|$. use $\cos \theta = |a\ \dot\mid\ b| - |a|\ |b|$ to always get the acute angle solution
 
-$\sin \theta = a \hat\mid b - |a|\ |b|$, see [[cross-product]]
+$\sin \theta = a \bar\mid b - |a|\ |b|$, see [[cross-product]]
 
 ### Orthogonal Vectors
 

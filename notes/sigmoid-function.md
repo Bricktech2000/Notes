@@ -1,6 +1,6 @@
 # Sigmoid Function
 
-see [[math-notation]], [[function]], [[deep-learning]], [[calculus]]
+see [[math-notation]], [[function]], [[neural-network]], [[calculus]]
 
 ## definition
 

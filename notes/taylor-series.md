@@ -66,11 +66,11 @@ $R_{T_f}^n$ is the remainder of the Taylor [[series]] $T_f$ after $n$ terms
 
 > **theorem**: _Taylor's Inequality_ #magic
 >
-> $|(d^n\ f)\ x| \le M \land \mathbb R n \land \mathbb R M \dashv |x \cdot a| \le d \land \mathbb R a \land \mathbb R d \vdash \\\ |R_{T_f}^{n \cdot 1}\ x| \le M - \operatorname{fact} n \mid [|x \cdot a|]n \dashv |x \cdot a| \le d$
+> $|(d^n\ f)\ x| \le M \land \mathbb R M \land \mathbb N n \dashv |x \cdot a| \le d \land \mathbb R a \land \mathbb R d \vdash \\\ |R_{T_f}^{n \cdot 1}\ x| \le M - \operatorname{fact} n \mid [|x \cdot a|]n \dashv |x \cdot a| \le d$
 
 > **theorem**: _Practical Convergence Condition_
 >
-> $|(d^n\ f)\ x| < M \dashv n \dashv |x \cdot a| < d \land \mathbb R a \land \mathbb R d \vdash \\\ \lim_{n \to \infty} R_{T_f}^n\ x = 0 \dashv |x \cdot a| < d$
+> $|(d^n\ f)\ x| < M \land \mathbb R M \dashv \mathbb N n \dashv |x \cdot a| < d \land \mathbb R a \land \mathbb R d \vdash \\\ \lim_{n \to \infty} R_{T_f}^n\ x = 0 \dashv |x \cdot a| < d$
 >
 > **proof**: <https://youtu.be/7gigNsz4Oe8?t=22288>
 

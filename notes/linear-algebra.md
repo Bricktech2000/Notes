@@ -2,6 +2,8 @@
 
 _studying [[vector-space]]s_
 
+see [[number-field]]
+
 ## see
 
 [[vector]], [[vector-space]]s

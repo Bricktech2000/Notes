@@ -8,4 +8,4 @@ using my [[math-notation]]
 
 $S\ x = /(x\ x)$. Is $S\ S$?
 
-after substitution we get $S\ S = /(S\ S)$, which is a contradiction. therefore, $S$ cannot exist.
+after substitution we get $S\ S = /(S\ S)$, which is a [[contradiction]]. therefore, $S$ cannot exist.

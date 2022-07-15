@@ -46,4 +46,6 @@ in my [[math-notation]]: $K = f\ x\ y \rightarrow f\ x$
 
 _duplicates the second argument_
 
+> **AKA**: 'commute' in APL
+
 in my [[math-notation]]: $W = f\ x\ y \rightarrow f\ x\ y\ y$

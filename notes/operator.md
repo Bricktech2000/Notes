@@ -2,7 +2,7 @@
 
 ## see
 
-operators in [[boolean-algebra]]
+operators in [[boolean-logic]]
 
 operators in my [[math-notation]]
 
@@ -19,3 +19,5 @@ operators in [[type-theory]]
 [[dot-product]]
 
 [[cross-product]]
+
+[[cartesian-product]]
