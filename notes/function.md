@@ -10,8 +10,6 @@ see [[math-notation]]
 
 [[piecewise-function]]
 
-[[pure-function]]
-
 [[trigonometric-function]]
 
 [[hyperbolic-function]]
@@ -326,8 +324,12 @@ even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it w
 - restrict the input of the [[function]] (something like `nonZeroF64`)
 - extend the input of the [[function]] (something like `Optional<f64>`)
 
-## [[pure-function]]
+## Pure Function
+
+> **definition**: a _pure-function_ is a [[function]] that has no side effects and that does not depend on external state.
+
+of course, any [[function]] can be thought of as having side effects. for example, running a pure [[function]] on a CPU still consumes a measurable amount of [[energy]], modifying the entropy of the universe. &mdash; <https://youtu.be/APUCMSPiNh4?t=2594>. practically, however, this definition is useful
 
 ## Parametrically Polymorphic Function
 
-> **definition**: a [[function]] is said to be _parametrically polymorphic_ if it is possible to replace the type of the input with a different type. they can be implemented with the same "formula" for any type. &mdash; <https://youtu.be/aIOMRqiwziM?t=540>
+> **definition**: a [[function]] is said to be _parametrically polymorphic_ if it is possible to replace the type of its input with a different type without having any effect on its behavior. such functions can be implemented with the same "formula" for any type. &mdash; <https://youtu.be/aIOMRqiwziM?t=540>

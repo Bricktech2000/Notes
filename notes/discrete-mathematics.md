@@ -6,16 +6,30 @@ _an introduction into mathematical thinking_
 
 ## see
 
+[[proof]]
+
 [[set]], [[cartesian-product]], [[relation]], [[function]]
 
-[[logic-statement]], [[tautology]], [[contradiction]], [[predicate]], [[truth-set]], [[boolean-logic]] operators
+[[logic-statement]], [[tautology]], [[contradiction]], [[predicate]], [[truth-set]], [[boolean-logic]] operators, [[quantifier]]
 
-logical arguments #todo ?
+[[sequence]] definition, [[summation-and-product-notation]]
 
-quantifiers #todo ?
+[[probability]]
 
-#todo negation of "for all":
-
-$B \vdash C \equiv /B \lor C$ means “for all $B$, $C$”. negating, we get $/(B \vdash C) \equiv B \land /C$, which means “there exists a $B$ such that $/C$”
+---
 
 > $B \vdash C \times B\ /\ C$
+
+$\lnot (B \to C) = B \land \lnot C$
+
+$(a \in B \to a \in C) \iff a \notin B \backslash C$
+
+$B \subset C \iff \forall a \in C, a \notin B$
+
+---
+
+$D\ x \vdash C\ f\ x$ &mdash; codomain
+
+$D\ x \equiv R\ f\ x$ &mdash; range
+
+$D\ x \dashv A\ f\ x$ &mdash; ?

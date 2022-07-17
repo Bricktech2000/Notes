@@ -96,7 +96,7 @@ _in order of high to low precedence_
 | $/$                              | left          | $x \rightarrow \top$ | logical NOT       |
 | $\land \lor$                     | left          |                      |                   |
 | $\dashv\ \vdash$                 | left          |                      |                   |
-| $\equiv \times$                  | AND           |                      |                   |
+| $\equiv \times$                  | AND           | $x \rightarrow \top$ | logical NOT       |
 
 > **note**: above,
 >
@@ -126,6 +126,8 @@ in [[set]] theory, if $U$ is a sub[[set]] of $V$ and $V$ is a sub[[set]] of $U$,
 the probability density of the normal distribution in [[classical-math-notation]]: $\frac{1}{\sqrt{2 \sigma^2 \pi}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$
 
 compared to in my [[math-notation]]: $-\lfloor \tau \sigma2 \rfloor - e[[x \cdot \mu]2 - 2\sigma2]$
+
+definition of factorials: $\operatorname{fact} n = 1 \mid \dots n$
 
 ## #think
 

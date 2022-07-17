@@ -13,9 +13,9 @@ a prover wants to show a verifier that they knows the color of two balls without
 - the verifier hides both balls behind their back and may or may not switch the balls around
 - the verifier reveals the balls and asks the prover to say whether the balls were switched or not
 
-the process above is repeated $k$ times to reduce the probability of "lucky guesses" from an untrustworthy prover
+the process above is repeated $k$ times to reduce the [[probability]] of "lucky guesses" from an untrustworthy prover
 
-this process proves with high probability that the prover knows the color of both balls without revealing either color
+this process proves with high [[probability]] that the prover knows the color of both balls without revealing either color
 
 ## applications
 

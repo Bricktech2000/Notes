@@ -4,6 +4,18 @@
 
 ## example [[proof]]
 
+prove $0 : \dots n = n \mid n : 1 - 2 \dashv n \ge 0$
+
+with $n = 0$, $0 : \dots n = 0$
+
+let an arbitrary $\mathbb N k$ and assume $0 : \dots k = k \mid k : 1 - 2$
+
+then, we deduce $0 : \dots k : 1 = (0 : \dots k) : k : 1 = (k \mid k : 1 - 2) : k : 1 = k2 : k : 2k : 2 - 2 = (k : 1) \mid (k : 1) : 1 - 2$
+
+therefore, $0 : \dots n = n \mid n : 1 - 2$
+
+## example [[proof]]
+
 prove $\mathbb E m \land \mathbb O n \vdash \mathbb O (m : n)$
 
 by definition, $m = 2k_1 \land \mathbb Z k_1$ and $n = 2k_2 : 1 \land \mathbb Z k_2$

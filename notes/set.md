@@ -4,7 +4,9 @@ see [[math-notation]]
 
 ## definition
 
-a [[set]] is an **unordered** collection of elements, each of which are **unique**
+a _set_ is an unordered collection of elements, each of which are unique
+
+formally, in my [[math-notation]], a [[set]] is a [[set-theory]]etical [[function]] with range at most $\mathbb B$ (also known as a [[predicate]]) that takes an element and returns whether it is in the set or not
 
 ## notation
 
@@ -46,21 +48,25 @@ $\lbrace 1, 1, 1 \rbrace = \lbrace 1, 1 \rbrace = \dots$ &mdash; element are uni
 
 ## set isomorphism
 
-two [[set]]s are isomorphic if they contain the same elements "labeled" in different ways, see [[category]]
+see [[category]], [[category-theory]]
+
+two [[set]]s are isomorphic if they contain the same elements "labeled" in different ways
 
 &mdash; <https://youtu.be/yAi3XWCBkDo?t=998>
 
-## subsets
+## subset
 
 ### definition
 
 a [[set]] $A$ is a _subset_ of a [[set]] $B$ if and only if every element of $A$ is an element of $B$
 
+in other words, an element being in $A$ implies it is also in $B$
+
 ### notation
 
 $A \vdash B$ checks if $A$ is a subset of $B$
 
-in [[classical-math-notation]], $A \subseteq B$ checks if $A$ is a subset of $B$
+in [[classical-math-notation]], $A \subseteq B$ states $A$ is a subset of $B$
 
 ### examples
 
@@ -87,3 +93,19 @@ $\lbrace \rbrace \vdash A$, for all [[set]] $A$
 _the [[set]] of all possible mathematical entities_
 
 see [[universal]]
+
+## set power set
+
+### definition
+
+the _power set_ of a [[set]] $A$ is the [[set]] of all sub[[set]]s of $A$
+
+### examples
+
+let $P\ A$ be the power set of $A$ and let $O = \lbrace \rbrace$
+
+$P\ \lbrace 1, 2, 3 \rbrace = \lbrace \lbrace 1 \rbrace, \lbrace 2 \rbrace, \lbrace 3 \rbrace, \lbrace 1, 2 \rbrace, \lbrace 2, 3 \rbrace, \lbrace 1, 3 \rbrace, \lbrace 1, 2, 3 \rbrace, \lbrace \rbrace \rbrace$
+
+$P\ O = \lbrace O \rbrace$
+
+$P\ P\ O = \lbrace O, \lbrace O \rbrace \rbrace$

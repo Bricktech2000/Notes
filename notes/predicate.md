@@ -6,17 +6,11 @@ _a [[function]] that returns a [[boolean]]_
 
 ## definitions
 
-### [[computer-science]]
+see [[logic-statement]], [[truth-set]], [[math-notation]]
 
-let $f$ be a [[predicate]]. then,
+let $f$ be a [[predicate]]. then, $\mathbb B f\ x \dashv x$
 
-$\mathbb B f\ x \dashv x$
-
-### [[mathematics]]
-
-see [[logic-statement]], [[truth-set]]
-
-> **definition**: in [[discrete-mathematics]], a _predicate_ is a sentence depending on variables which becomes a [[logic-statement]] upon substituting values in the domain. $x = 5$ is a predicate and would become a [[logic-statement]] by substituting $x = 3$. quantifying a [[predicate]] (with $\exists$ or $\forall$) turns it into a [[logic-statement]].
+in [[discrete-mathematics]], a _predicate_ is a sentence depending on variables which becomes a [[logic-statement]] upon substituting values in the domain. $x = 5$ is a predicate and would become a [[logic-statement]] by substituting $x = 3$. quantifying a [[predicate]] (with $\exists$ or $\forall$) turns it into a [[logic-statement]].
 
 ## examples
 

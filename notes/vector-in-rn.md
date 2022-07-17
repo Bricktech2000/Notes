@@ -4,6 +4,10 @@ _Vectors in $\mathbb R^n$_
 
 see [[math-notation]], [[math-notation]], [[vector]] properties
 
+## definition
+
+formally, in my [[math-notation]], a [[vector]] in $\mathbb R^n$ is a [[set-theory]]etical [[function]] with domain $x \rightarrow \mathbb N x \land 0 \le x < n$ that takes an index and returns the element at that index
+
 ## notation
 
 $(1, 2)$

@@ -10,4 +10,4 @@ $\mathbb U x = \top$
 
 $\mathbb U x \equiv x \rightarrow \top$
 
-$\mathbb U x \equiv /\lbrace \rbrace \equiv /(x \rightarrow \bot)$
+$\mathbb U x \equiv \times\ \lbrace \rbrace \equiv \times\ (x \rightarrow \bot)$

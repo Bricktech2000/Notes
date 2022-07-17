@@ -2,7 +2,7 @@
 
 see [[boolean]]
 
-see [[math-notation]], [[disjunctive-normal-form]], [[conjunctive-normal-form]]
+see [[math-notation]], [[disjunctive-normal-form]], [[conjunctive-normal-form]], [[quantifier]]
 
 > **definition**: two boolean expressions (or [[logic-statement]]s) are said to be _logically equivalent_ if they yield the same output for every input. in other words, two boolean expressions (or [[logic-statement]]s) are _logically equivalent_ if they share the same [[truth-table]]
 
@@ -22,7 +22,7 @@ boolean [[operator]]s can be modeled in [[logic-circuit]]s through [[logic-gate]
 
 ### notation
 
-$\cdot$ in [[classical-math-notation]] (may be omitted)
+$\cdot$ or $\cap$ in [[classical-math-notation]] (may be omitted)
 
 $\land$ in my [[math-notation]]
 
@@ -43,7 +43,7 @@ straight-curve [[logic-gate]]. may take more than one input
 
 ### notation
 
-$+$ in [[classical-math-notation]]
+$+$ or $\cap$ in [[classical-math-notation]]
 
 $\land$ in my [[math-notation]]
 
@@ -64,7 +64,7 @@ concave-pointycurve [[logic-gate]]. may take more than one input
 
 ### notation
 
-$a'$ or $\bar a$ in [[classical-math-notation]]
+$a'$ or $\bar a$ or $a^c$ in [[classical-math-notation]]
 
 $/$ in my [[math-notation]]
 
@@ -79,11 +79,11 @@ triangle-circle [[logic-gate]]. may only take one input
 
 ## XOR
 
-> **AKA**: Exclusive OR
+> **AKA**: Exclusive OR, symmetric difference, disjunctive union
 
 ### notation
 
-$\oplus$ in [[classical-math-notation]]
+$\oplus$ or $\vartriangle$ in [[classical-math-notation]]
 
 $\times$ in my [[math-notation]]
 
@@ -149,7 +149,7 @@ can be built by combining multiple [[logic-gate]]s. may only take one input
 
 ### notation
 
-$\harr$ or $\odot$ in [[classical-math-notation]]
+$\harr$ or $\odot$ or $=$ in [[classical-math-notation]]
 
 $\equiv$ in my [[math-notation]]
 
@@ -208,19 +208,21 @@ $x \land (y \lor z) \equiv (x \land y) \lor (x \land z)$ &mdash; distributivity
 
 $z \lor (y \land z) \equiv (x \lor y) \land (x \lor z)$ &mdash; distributivity
 
-$/(x \lor y) \equiv /x \land /y$ &mdash; DeMorgan
+$\times\ x \lor y \equiv /x \land /y$ &mdash; DeMorgan
 
-$/(x \land y) \equiv /x \lor /y$ &mdash; DeMorgan
+$\times x \land y \equiv /x \lor /y$ &mdash; DeMorgan
 
-$x \lor (x \land y) \equiv x$ &mdash; absorption
+$x \lor \times\ x \land y \equiv x$ &mdash; absorption
 
-$x \land (x \lor y) \equiv x$ &mdash; absorption
+$x \land \times\ x \lor y \equiv x$ &mdash; absorption
 
 $x \times y \equiv (x \land /y) \lor (/x \land y)$ &mdash; exclusive or
 
-$x \times y \equiv /(x \equiv y)$ &mdash; exclusive or
+$x \times y \equiv / x = y$ &mdash; exclusive or
 
 $x \vdash y \equiv /x \lor y$ &mdash; implication
+
+$x \dashv y \equiv x \lor /y$ &mdash; implication
 
 $(x \equiv y) \equiv (x \land y) \lor (/x \land /y)$ &mdash; biconditional
 

@@ -20,4 +20,4 @@ see [[boolean-logic]]
 
 [[iti1100-a-digital-systems-i]] equivalent of a [[disjunctive-normal-form]]. the conjunctive clauses are known as _Minterms_
 
-Sums of Products can be used to easily convert a [[boolean]] expression to only NOR [[logic-gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $/A = /(A \lor A)$, see [[boolean-logic]]s
+Sums of Products can be used to easily convert a [[boolean]] expression to only NOR [[logic-gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $\times\ A \equiv \times\ A \lor A$, see [[boolean-logic]]s

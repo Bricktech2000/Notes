@@ -2,6 +2,10 @@
 
 see [[math-notation]]
 
+## definition
+
+formally, in my [[math-notation]], a [[matrix]] in $\mathbb R^{m, n}$ is a [[set-theory]]etical [[function]] with domain $(x, y) \rightarrow \mathbb N x \land \mathbb N y \land 0 \le x < m \land 0 \le y < n$ that takes an ordered pair (a [[vector-in-rn]]2) as an index and returns the element at that index
+
 ## notation
 
 $\begin{bmatrix}a & b \\\ c & d\end{bmatrix}$

@@ -4,7 +4,9 @@ see [[math-notation]], [[series]], [[calculus-notation]]
 
 ## definition
 
-a [[sequence]] is an ordered collection of infinitely many elements
+a _sequence_ is an ordered collection of infinitely many elements
+
+formally, a [[sequence]] is a [[set-theory]]etical [[function]] $k \rightarrow a^k$ with domain $x \rightarrow \mathbb Z x \land x \ge 0$ that takes as input an index and returns the element at that index
 
 ## notations
 
@@ -14,15 +16,19 @@ defined using [[iteration]]: $a = 0, 1, 2 \dots 10 = a^0 \dots a^{10}$
 
 defined using [[recursion]]: $a^0 = 2 \land a^n = 4 \cdot 1 \text- a^{n \cdot 1}$
 
+defined as a [[function]] (closed form): $a^n = n2$
+
 in [[classical-math-notation]]:
 
 defined using [[iteration]]: $a = \lbrace 1, 2, 3, \dots \rbrace = \lbrace a_n \rbrace_{n = 0}^{\infty} = \lbrace a_n \rbrace$
 
 defined using [[recursion]]: $a_1 = 2$ and $a_n = 4 - \frac{1}{a_{n \cdot 1}}$
 
+defined as a [[function]] (closed form): $a_n = n^2$
+
 ## example
 
-Fibonacci Sequence: $F^0 = 1 \land F^1 = 1 \land F^n = F^{n \cdot 1} : F^{n \cdot 2}$
+Fibonacci sequence: $F^0 = 0 \land F^1 = 1 \land F^n = F^{n \cdot 1} : F^{n \cdot 2}$
 
 ## Sum of an Infinite Sequence
 

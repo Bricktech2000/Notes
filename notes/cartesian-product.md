@@ -1,6 +1,6 @@
 # Cartesian Product
 
-see [[set]]
+see [[set]], [[math-notation]]
 
 ## definition
 

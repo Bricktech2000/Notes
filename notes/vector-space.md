@@ -20,9 +20,9 @@ $\mathbb R^1$, $\mathbb R^2$, $\mathbb R^n \land \mathbb N n$
 
 $V v \equiv v = O$ (a [[set]] containing only the zero vector is a vector space)
 
-## Isomorphic Vector Spaces
+## vector space isomorphism
 
-see [[category]]
+see [[category]], [[category-theory]]
 
 > Iso-Morphic &mdash; Same Shape
 
@@ -40,7 +40,7 @@ $\dim V$ in my [[math-notation]]
 
 ### definition
 
-the dimension of a vector space is equal to the number of [[vector]]s in any [[basis]] of said vector space
+the dimension of a vector space is equal to the number of [[vector]]s in any [[basis]] of that vector space
 
 ### examples
 

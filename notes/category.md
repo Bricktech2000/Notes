@@ -64,7 +64,7 @@ in Haskell, let `id :: a -> a`. then, `id x = x`
 
 ### Associativity Law
 
-composition in a category is required to be associative, see [[composition]]
+[[composition]] in a category is required to be associative
 
 ## example
 

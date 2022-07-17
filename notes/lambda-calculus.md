@@ -10,7 +10,7 @@ used for backlinks
 
 [[lambda-calculus]] and [[turing-machine]]s are equivalent
 
-[[function]]s in [[lambda-calculus]] are [[pure-function]]s
+[[function]]s in [[lambda-calculus]] are pure [[function]]s
 
 [[lambda-calculus]] is Turing complete
 

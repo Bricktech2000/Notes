@@ -4,7 +4,7 @@ see [[math-notation]], [[sequence]], [[calculus-notation]]
 
 ## definition
 
-a [[series]] is the sum of infinitely many elements of a [[sequence]]
+a _series_ is the expression representing sum of all elements of a [[sequence]]
 
 let $a = a_0, a_1, \dots$
 

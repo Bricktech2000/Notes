@@ -14,7 +14,7 @@ see [[row-reduction]], [[math-notation]], [[matrix]]
 
 > **definition**: a _Homogeneous System_ has only zeros as constants on the right hand side. the zero vector is always a solution
 
-> **definition**: two matrices $A$, $B$ are _Row Equivalent_ $A \sim B$ if $B$ can be obtained from $A$ by a finite sequence of elementary row operations
+> **definition**: two [[matrix]]es $A$, $B$ are _Row Equivalent_ $A \sim B$ if $B$ can be obtained from $A$ by a finite sequence of elementary row operations
 
 > **definition**: a _Leading Variable_ is the variable associated with a _pivot_ in a matrix in [[REF]]
 

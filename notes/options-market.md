@@ -4,7 +4,7 @@
 
 a single option controls 100 shares of the underlying stock
 
-a single option has a lower probability of making a profit but limit losses to a certain amount
+a single option has a lower [[probability]] of making a profit but limit losses to a certain amount
 
 options trading allows for higher leverage than the [[stock-market]]
 
@@ -16,7 +16,7 @@ if the _share price_ doesn't reach the _strike price_ of an option before its _e
 
 ## definitions
 
-> **definition**: _Prob ITM_ stands for the probability of a call or put option being _in the money_
+> **definition**: _Prob ITM_ stands for the [[probability]] of a call or put option being _in the money_
 
 > **definition**: the _strike price_ or _exercise price_ is the agreed price at which the stock can be bought or sold in the future
 
