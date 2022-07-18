@@ -19,7 +19,7 @@ all [[basis]]es of a [[vector-space]] have the same size
 
 ### finding a [[basis]] for a [[span]]
 
-to find a basis for a vector space $W = \operatorname{span} v_0 \dots v_m$
+to find a basis for a vector space $W = \operatorname{span} \lbrace v_0 \dots v_m \rbrace$
 
 1. write the [[matrix]] $A$ whose rows are the [[vector]]s $v_0 \dots v_m$. if the [[vector]]s are not [[vector-in-rn]]s, translate them into [[basis|coordinate-vector]]s first
 2. [[row-reduction|row-reduce]] $A$ to [[REF]] form
@@ -43,4 +43,4 @@ _a [[basis]] built from a [[set]] of orthogonal [[vector-in-rn]]s_
 
 ### example
 
-the [[set]] $\lbrace (1, 0), (0, 1) \rbrace$ is an orthogonal [[basis]] for $\operatorname{span} (1, 0), (0, 1)$, but $\lbrace (1, 1), (0, 1) \rbrace$ is not
+the [[set]] $\lbrace (1, 0), (0, 1) \rbrace$ is an orthogonal [[basis]] for $\operatorname{span} \lbrace (1, 0), (0, 1) \rbrace$, but $\lbrace (1, 1), (0, 1) \rbrace$ is not

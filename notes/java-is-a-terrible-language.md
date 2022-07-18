@@ -1,26 +1,16 @@
 # Java is a Terrible Language
 
-![](2022-02-26-01-29-58.png)
+![](2022-02-26-01-29-58.png) &mdash; Discord # general
 
-&mdash; Discord # general
-
-![](2022-02-26-01-30-07.png)
-
-&mdash; Discord # general
+![](2022-02-26-01-30-07.png) &mdash; Discord # general
 
 ![](2022-02-26-01-30-13.png)
 
-![](2022-02-26-01-34-54.png)
+![](2022-02-26-01-34-54.png) &mdash; Discord # general
 
-&mdash; Discord # general
+![](2022-02-26-01-35-03.png) &mdash; live lecture
 
-![](2022-02-26-01-35-03.png)
-
-&mdash; live lecture
-
-![](20220410161358.png)
-
-&mdash; Aquarium Discord server
+![](20220410161358.png) &mdash; Aquarium Discord server
 
 ## java `.equals`
 

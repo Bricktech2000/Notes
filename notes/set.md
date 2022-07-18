@@ -6,7 +6,7 @@ see [[math-notation]]
 
 a _set_ is an unordered collection of elements, each of which are unique
 
-formally, in my [[math-notation]], a [[set]] is a [[set-theory]]etical [[function]] with range at most $\mathbb B$ (also known as a [[predicate]]) that takes an element and returns whether it is in the set or not
+formally, in my [[math-notation]], a [[set]] is a [[set-theory]]etical [[function]] with range at most $\mathbb B$ (also known as a [[predicate]]) that takes an element and returns whether it is in the [[set]] or not
 
 ## notation
 
@@ -54,7 +54,7 @@ two [[set]]s are isomorphic if they contain the same elements "labeled" in diffe
 
 &mdash; <https://youtu.be/yAi3XWCBkDo?t=998>
 
-## subset
+## Subset
 
 ### definition
 
@@ -74,7 +74,7 @@ $\mathbb Z \vdash \mathbb R$
 
 $\mathbb E \vdash \mathbb Z$
 
-## empty set
+## Empty Set
 
 _the [[set]] containing no elements_
 
@@ -94,7 +94,7 @@ _the [[set]] of all possible mathematical entities_
 
 see [[universal]]
 
-## set power set
+## set Power Set
 
 ### definition
 

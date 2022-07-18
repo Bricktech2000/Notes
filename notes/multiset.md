@@ -2,7 +2,9 @@
 
 see [[math-notation]]
 
-> **definition**: a _multiset_ is a modification to the [[concept]] of a [[set]] that allows multiple instances for each of its elements &mdash; Wikipedia
+a _multiset_ is an unordered collection of elements that do not have to be unique
+
+formally, in my [[math-notation]], a [[multiset]] is a [[set-theory]]etical [[function]] with range at most $\mathbb N$ that takes an element and returns the number of occurences of that element in the [[multiset]]
 
 ## Multiplicity
 
@@ -15,3 +17,7 @@ see [[math-notation]]
 in the [[polynomial]] $[x \cdot 1]2$, the [[multiplicity]] of the root $1$ is $2$
 
 in the prime factorization of $60$, the [[multiplicity]] of the factor $2$ is $2$ and the [[multiplicity]] of the factors $3$ and $5$ is $1$
+
+### notation
+
+in my [[math-notation]], the [[multiplicity]] of an element $e$ in a [[multiset]] $M$ is $M\ e$

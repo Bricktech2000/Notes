@@ -176,7 +176,7 @@ the same can be said for $Col\ A$
 
 _transforming a [[vector-space]] into the null space of a certain [[matrix]]_
 
-let $W = \operatorname{span}\ (1, 0, 0, 1), (1, 1, 1, 0), (2, 1, \cdot 1, 1)$
+let $W = \operatorname{span} \lbrace (1, 0, 0, 1), (1, 1, 1, 0), (2, 1, \cdot 1, 1) \rbrace$
 
 after solving the [[linear-system]], we get $W (x, y, z, w) \equiv \cdot x : y : w = 0$. therefore, $W$ is the null space of $A = \begin{bmatrix}\cdot 1 & 1 & 0 & 1\end{bmatrix}$
 
@@ -200,9 +200,7 @@ $(AB)^\intercal = B^\intercal A^\intercal \dashv \mathbb M A \land \mathbb M B$
 
 ### example
 
-![](200px-Matrix_transpose.gif)
-
-&mdash; https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif
+![](200px-Matrix_transpose.gif) &mdash; https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif
 
 ## Matrix Inverse
 

@@ -78,9 +78,7 @@ in Haskell, let `id :: a -> a`. then, `id x = x`
 
 an isomorphism is a morphism with a corresponding inverse. in the commutative diagram below, $\alpha$ (or the pair $\alpha, \alpha^{-1}$) is an isomorphism
 
-![](20220708044859.png)
-
-&mdash; <https://youtu.be/Gai-liKAUPo?t=483>
+![](20220708044859.png) &mdash; <https://youtu.be/Gai-liKAUPo?t=483>
 
 &mdash; <https://youtu.be/yAi3XWCBkDo?t=954>
 
@@ -112,7 +110,7 @@ _terminal object_ should really have been named _coinitial object_ to match with
 
 > **definition**: for any [[category]] $\mathcal C$, one can define the _opposite [[category]]_ $\mathcal C^{op}$ by reversing all its morphisms
 
-this can be thought of as _reversing the direction of the arrows_ in the graph of the [[category]].
+this can be thought of as _reversing the direction of the arrows_ in the [[graph]] the [[category]].
 
 ## Product, Coproduct
 

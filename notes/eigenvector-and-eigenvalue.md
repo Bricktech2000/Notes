@@ -121,4 +121,4 @@ as $D$ is diagonal, we get $[D]p = \begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [
 
 computing $[A]p = P\begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [\lambda_1]p & 0 \\\ 0 & 0 & [\lambda_2]p\end{bmatrix}P^-$ is now way less computationally expensive than computing $[A]p$ directly
 
-Markov Chains &mdash; <https://www.youtube.com/watch?v=JGQe4kiPnrU>
+[[markov-chain]]s &mdash; <https://www.youtube.com/watch?v=JGQe4kiPnrU>

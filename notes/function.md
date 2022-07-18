@@ -43,6 +43,12 @@ a [[function]] $\mathcal F$ between [[set]]s $A$ and $B$ is a [[relation]] betwe
 
 > **definition**: the _range_ of a [[function]] is the set of all outputs it can produce
 
+$D\ x \vdash C\ f\ x$ &mdash; codomain
+
+$D\ x \equiv R\ f\ x$ &mdash; range
+
+$D\ x \dashv A\ f\ x$ &mdash; #think
+
 ## operations
 
 see [[function-vector-space]], [[vector-space]]

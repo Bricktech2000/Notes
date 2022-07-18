@@ -1,5 +1,3 @@
 # Graph Theory
 
-used for backlinks
-
-#todo
+see [[graph]]

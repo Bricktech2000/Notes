@@ -51,7 +51,7 @@ $A = \begin{bmatrix}| & | & | \\\ T\ (1, 0, 0) & T\ (0, 1, 0) & T\ (0, 0, 1) \\\
 
 ### Projection to Matrix Multiplication
 
-let $W = \operatorname{span}\ (1, 0, 1), (0, 1, 0)$ and $T\ u = proj_W\ u \land \mathbb R^3 u$
+let $W = \operatorname{span} \lbrace (1, 0, 1), (0, 1, 0) \rbrace$ and $T\ u = proj_W\ u \land \mathbb R^3 u$
 
 as the [[basis]] we are given is orthogonal, we define the projection as:
 

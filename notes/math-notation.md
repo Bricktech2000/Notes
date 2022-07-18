@@ -90,13 +90,13 @@ _in order of high to low precedence_
 | $\delta\ \sin\ \smash\leftarrow$ | right-ish     |                      |                   |
 | $\ : \cdot$                      | left          | $0$                  | negation          |
 | $\mid -$                         | left          | $1$                  | inverse           |
-| $,$                              |               |                      |                   |
 | $\int \lim\ \dots\ \rightarrow$  | right         |                      |                   |
 | $=\ne\gt\ge\lt\le$               | AND           |                      |                   |
 | $/$                              | left          | $x \rightarrow \top$ | logical NOT       |
 | $\land \lor$                     | left          |                      |                   |
 | $\dashv\ \vdash$                 | left          |                      |                   |
 | $\equiv \times$                  | AND           | $x \rightarrow \top$ | logical NOT       |
+| $,$                              |               |                      |                   |
 
 > **note**: above,
 >
@@ -128,6 +128,10 @@ the probability density of the normal distribution in [[classical-math-notation]
 compared to in my [[math-notation]]: $-\lfloor \tau \sigma2 \rfloor - e[[x \cdot \mu]2 - 2\sigma2]$
 
 definition of factorials: $\operatorname{fact} n = 1 \mid \dots n$
+
+the negation of an implication in my [[math-notation]]: $B \vdash C \times B\ /\ C$ (_B implying C equals not (B without C)_ or _implication is the negation of set difference_ or _the negation of "for all B, C" is "there exists a B such that not C"_)
+
+compared to [[classical-math-notation]]: $\lnot (B \to C) = B \land \lnot C$ or $(a \in B \to a \in C) \iff a \notin B \backslash C$ or $B \subset C \iff \forall a \in C, a \notin B$
 
 ## #think
 

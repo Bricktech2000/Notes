@@ -122,11 +122,11 @@ $|proj_b\ a|$ is the _scalar projection of $a$ on $b$ ._
 
 $\hat b$ is the unit [[vector]] in the direction of $b$, $b - |b|$
 
-$proj_W\ v = v \dot\shortmid w_0 - w_0 \dot\shortmid w_0 : \dots v \dot\shortmid w_n - w_n \dot\shortmid w_n$, where
+$proj_W\ v = (v \dot\shortmid w_0 - w_0 \dot\shortmid w_0) : \dots (v \dot\shortmid w_n - w_n \dot\shortmid w_n)$, where
 
 $proj_W\ v$ is the projection of $v$ on the [[vector-space]] $W$
 
-$W = \operatorname{span} w_0 \dots w_n$ and $w_0 \dots w_n$ form an orthogonal [[basis]] for $W$
+$W = \operatorname{span} \lbrace w_0 \dots w_n \rbrace$ and $(w_0 \dots w_n)$ form an orthogonal [[basis]] for $W$
 
 ### properties
 
