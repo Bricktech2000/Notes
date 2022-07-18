@@ -10,7 +10,7 @@ $\mathcal R\ x = (A\ \acute\mid\ B)\ x \land P\ x$, where
 
 $\mathcal R$ is a _relation_ between elements of $A$ and $B$
 
-$P$ is a [[predicate]] (another [[set]])
+$P$ is a [[predicate]]
 
 > **definition**: a _relation on a set_ $A$ is a [[relation]] from $A$ to $A$
 
@@ -18,7 +18,7 @@ $P$ is a [[predicate]] (another [[set]])
 
 ### membership
 
-in my [[math-notation]]: $\mathcal R\ (x, y)$
+in my [[math-notation]]: $\mathcal R \braket{x, y}$, see [[ordered-pair]]
 
 in [[classical-math-notation]]: $x \mathcal R y$
 
@@ -28,7 +28,7 @@ in [[classical-math-notation]]: $x \mathcal R y$
 
 let $\mathcal R^-$ be the inverse of the [[relation]] $\mathcal R$ from $A$ to $B$
 
-then, $\mathcal R\ (x, y) \equiv \mathcal R^-\ (y, x)$
+then, $\mathcal R \braket{x, y} \equiv \mathcal R^- \braket{y, x}$
 
 ### properties
 
@@ -38,19 +38,19 @@ $\mathcal R^- \vdash B\ \acute\mid\ A$
 
 similar to identities in [[category-theory]]
 
-> **definition**: a [[relation]] on $A$ is said to be _reflexive_ if $\mathcal R\ (x, x) \dashv A x$
+> **definition**: a [[relation]] on $A$ is said to be _reflexive_ if $\mathcal R \braket{x, x} \dashv A x$
 
 ## symmetricality
 
 similar to isomorphisms in [[category-theory]]
 
-> **definition**: a [[relation]] on $A$ is said to be _symmetric_ if $\mathcal R\ (x, y) \vdash \mathcal R\ (y, x)$
+> **definition**: a [[relation]] on $A$ is said to be _symmetric_ if $\mathcal R \braket{x, y} \vdash \mathcal R \braket{y, x}$
 
 ## transitivity
 
 similar to composition in [[category-theory]]
 
-> **definition**: a [[relation]] on $A$ is said to be _transitive_ if $\mathcal R\ (x, y) \land \mathcal R\ (y, z) \vdash \mathcal R\ (x, z)$
+> **definition**: a [[relation]] on $A$ is said to be _transitive_ if $\mathcal R \braket{x, y} \land \mathcal R \braket{y, z} \vdash \mathcal R \braket{x, z}$
 
 ## equivalence
 

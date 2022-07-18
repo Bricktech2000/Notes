@@ -4,7 +4,7 @@ see [[math-notation]]
 
 ## definition
 
-formally, in my [[math-notation]], a [[matrix]] in $\mathbb R^{m, n}$ is a [[set-theory]]etical [[function]] with domain $(x, y) \rightarrow \mathbb N x \land \mathbb N y \land 0 \le x < m \land 0 \le y < n$ that takes an ordered pair (a [[vector-in-rn]]2) as an index and returns the element at that index
+formally, in my [[math-notation]], a [[matrix]] in $\mathbb R^{m, n}$ is a [[set-theory]]etical [[function]] with domain at least $\braket{x, y} \rightarrow \mathbb N x \land \mathbb N y \land 0 \le x < m \land 0 \le y < n$ that takes an [[ordered-pair]] as an index and returns the element at that index
 
 ## notation
 
@@ -182,7 +182,7 @@ after solving the [[linear-system]], we get $W (x, y, z, w) \equiv \cdot x : y :
 
 ## Transpose Matrix
 
-_the **transpose** of a [[matrix]]_
+_the transpose of a [[matrix]]_
 
 ### definition
 
@@ -301,6 +301,8 @@ a [[matrix]] is _diagonalizable_ if and only if the geometic [[multiplicity]] of
 > **note**: some [[matrix]]es do not have "enough" real [[eigenvalue]]s or "enough" [[eigenvector]]s to be diagonalizable
 
 ### examples and counterexamples
+
+#example
 
 the [[matrix]] $A = \begin{bmatrix}1 & 2 \\\ 2 & 1\end{bmatrix}$ is diagonalizable over the reals as $\lbrace (1, 1), (1, \cdot 1) \rbrace$ is a [[basis]] of $\mathbb R^2$ consisting entirely of [[eigenvector]]s of $A$
 

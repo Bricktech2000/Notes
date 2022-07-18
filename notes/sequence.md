@@ -6,7 +6,7 @@ see [[math-notation]], [[series]], [[calculus-notation]]
 
 a _sequence_ is an ordered collection of infinitely many elements
 
-formally, a [[sequence]] is a [[set-theory]]etical [[function]] $k \rightarrow a^k$ with domain $x \rightarrow \mathbb Z x \land x \ge 0$ that takes as input an index and returns the element at that index
+formally, a [[sequence]] is a [[set-theory]]etical [[function]] $k \rightarrow a^k$ with domain at least $x \rightarrow \mathbb Z x \land x \ge 0$ that takes an index and returns the element at that index
 
 ## notations
 

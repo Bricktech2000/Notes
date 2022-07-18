@@ -2,59 +2,58 @@
 
 see [[classical-math-notation]]
 
-this note describes my custom [[math-notation]], meant to solve inconsistencies in [[classical-math-notation]]. it is not meant to be a fully formal mathematical system; rather, it is built to be easy and intuitive to use by mere humans.
+this note describes my custom [[math-notation]], meant to solve inconsistencies in [[classical-math-notation]]. it is not meant to be a fully formal system of [[mathematics]]; rather, it is built to be easy to understand and intuitive to use by mere humans.
 
 ## principles
 
-- all equality [[operator]]s **check** for equality and returns a [[boolean]], and it is implied that an expression on its own must evaluate to $\top$. this allows for [[boolean]] [[operator]]s to be applied on equalities explicitly as opposed informally
-- [[set]]s are [[function]]s that return a [[boolean]] ([[set]]s are [[predicate]]s). this way, [[boolean]] [[operator]]s and [[set]] [[operator]]s are one and the same
-- some [[operator]]s have versions with a different precedence as "more brackets means more explicit, but less brackets means less complex and less confusing"
-- $\lfloor a \rfloor$ returns both positive and negative square roots ($\lfloor q2 \rfloor \equiv\ \because q$). same applies for other reciprocals
-- superscripts are modifiers (subscripts with special meanings). this distinction is especially useful when working with [[forward-propagation]] and [[backpropagation]] in neural networks
-- [[derivative]]s are not to be written as $y'$, but rather as their complete form $\delta y - \delta x$. this makes [[calculus]] notation way more intuitive
-- all indices start at $0$, as they should always have
+- all equality [[operator]]s check for equality and return a [[boolean]], and it is implied that an [[expression]] on its own must evaluate to $\top$. this allows for [[boolean-logic]] [[operator]]s to be applied on equalities explicitly as opposed informally
+- [[set]]s are [[function]]s that return a [[boolean]] ([[set]]s are [[predicate]]s). this way, [[boolean-logic]] [[operator]]s and [[set]] [[operator]]s are one and the same. other [[data-structure]]s that work similarly include [[vector]]s, [[matrix]]es, [[sequence]]s, [[multiset]]s...
+- some [[operator]]s are identical but have different precedence as "more brackets means more explicit, but less brackets means less complex and less confusing"
+- $\lfloor a \rfloor$ returns both positive and negative square roots ($\lfloor q2 \rfloor \equiv\ \because q$). the same is true for other reciprocals
+- superscripts are modifiers (subscripts with special meanings). this distinction is especially useful when working with [[forward-propagation]] and [[backpropagation]] in [[neural-network]]s, for example
+- [[derivative]]s are not to be written as $y'$, but rather as their complete form $\delta y - \delta x$. this makes [[calculus-notation]] way more intuitive
+- all indices start at $0$, as they always should have
 
 ## notation
 
-also see [[trigonometric-function]], [[calculus-notation]]
+also see [[trigonometric-function]] and [[calculus-notation]]
 
 ### main operators
 
-| notation                                                          | description                                      | notes                                                 |
-| ----------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------- |
-| $a : b$                                                           | addition                                         |                                                       |
-| $a \cdot b$                                                       | subtraction                                      |                                                       |
-| $\because$ and $\therefore$                                       | $\pm$ and $\mp$                                  |                                                       |
-| $a \smash\shortmid b$ and $a \mid b$                              | multiplication                                   |                                                       |
-| $a \text- b$ and $a - b$                                          | division                                         |                                                       |
-| $[a]b$                                                            | exponentiation                                   | represents a power by convention                      |
-| $a[b]$                                                            | exponentiation                                   | represents an exponential by convention               |
-| $\lfloor a \rfloor b$                                             | $b$ th root of $a$                               | $b = 2$ if $b$ is omitted                             |
-| $\lceil a \rceil b$                                               | base-$b$ [[logarithm]] of $a$                    | $b = e$ if $b$ is omitted                             |
-| $x \rightarrow E$ where $E$ is an expression                      | [[function]] definition                          | $f = x \rightarrow E \equiv f \smash\leftarrow x = E$ |
-| $f \smash\leftarrow E$ where $E$ is an expression                 | [[function]] application                         | uncommon, shorthand is preferred                      |
-| $a = b$                                                           | equality                                         | numerical equality by convention                      |
-| $a < b$ and $a > b$                                               | less than and greater than                       |                                                       |
-| $a \le b$ and $a \ge b$                                           | less than or greater than, or equal              |                                                       |
-| $a \land b$                                                       | logical and                                      | `a && b`                                              |
-| $a \lor b$                                                        | logical or                                       | `a \|\| b`                                            |
-| $a\ /\ b$                                                         | logical difference                               | $a \land b = \bot$                                    |
-| $a \equiv b$                                                      | equality                                         | logical equality by convention                        |
-| $a \times b$                                                      | nonequality                                      | logical xor by convention                             |
-| $a \vdash b$                                                      | implication, subset                              | $a$ implies $b$, $b$ for all $a$                      |
-| $a \dashv b$                                                      | reverse implication, superset                    | $a$ for all $b$, $b$ implies $a$                      |
-| $x_0 \mid x_1 \mid \dots x_n$ where $\mid$ is any [[operator]]    | with $n = 3$, $x_0 \mid x_1 \mid x_2 \mid x_3$   | step size is $1$ if $x_1 \mid$ is omitted             |
-| $x_0 \dots x_n$                                                   | with $n = 3$ $x_0, x_1, x_2, x_3$                | step size is $1$ if $x_1$ is omitted                  |
-| $X_{subscript}$                                                   | the variable $X$ with a subscript $_{subscript}$ |                                                       |
-| $V^y$ where $V$ is a [[vector]]                                   | the $y$ (second) component of $V$                |                                                       |
-| $V^\omega$ where $\omega$ is a [[number]] and $V$ is a [[vector]] | the $\omega$ th component of $V$                 |                                                       |
-| $a^i$ where $a$ is a [[sequence]]                                 | the $i$ th element of $a$                        |                                                       |
-| $b^i$ where $b$ is a [[series]]                                   | the $i$ th element of $b$                        |                                                       |
-| $M^{i, j}$ where $M$ is a [[matrix]]                              | the $i, j$ th element of $M$                     |                                                       |
-| $M^{i,}$ where $M$ is a [[matrix]]                                | the $i$ th row of $M$                            |                                                       |
-| $M^{, j}$ where $M$ is a [[matrix]]                               | the $j$ th column of $M$                         |                                                       |
-| $M^\intercal$ where $M$ is a [[matrix]]                           | the transpose of $A$                             |                                                       |
-| $M^-$ where $M$ is a [[matrix]]                                   | the multiplicative inverse of the $A$            |                                                       |
+| notation                                                       | description                                      | notes                                                 |
+| -------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------- |
+| $a : b$                                                        | addition                                         |                                                       |
+| $a \cdot b$                                                    | subtraction                                      |                                                       |
+| $\because$ and $\therefore$                                    | $\pm$ and $\mp$                                  |                                                       |
+| $a \smash\shortmid b$ and $a \mid b$                           | multiplication                                   |                                                       |
+| $a \text- b$ and $a - b$                                       | division                                         |                                                       |
+| $[a]b$                                                         | exponentiation                                   | represents a power by convention                      |
+| $a[b]$                                                         | exponentiation                                   | represents an exponential by convention               |
+| $\lfloor a \rfloor b$                                          | $b$ th root of $a$                               | $b = 2$ if $b$ is omitted                             |
+| $\lceil a \rceil b$                                            | base-$b$ [[logarithm]] of $a$                    | $b = e$ if $b$ is omitted                             |
+| $x \rightarrow E$ where $E$ is an [[expression]]               | [[function]] literal                             | $f = x \rightarrow E \equiv f \smash\leftarrow x = E$ |
+| $f \smash\leftarrow E$ where $E$ is an [[expression]]          | [[function]] application                         | uncommon, shorthand is preferred                      |
+| $a = b$                                                        | equality                                         | numerical equality by convention                      |
+| $a < b$ and $a > b$                                            | less than and greater than                       |                                                       |
+| $a \le b$ and $a \ge b$                                        | less than or greater than, or equal              |                                                       |
+| $a \land b$                                                    | logical and                                      | `a && b`                                              |
+| $a \lor b$                                                     | logical or                                       | `a \|\| b`                                            |
+| $a\ /\ b$                                                      | logical difference                               | $a \land b = \bot$                                    |
+| $a \equiv b$                                                   | equality                                         | logical equality by convention                        |
+| $a \times b$                                                   | nonequality                                      | also serves as logical xor                            |
+| $a \vdash b$                                                   | implication, subset                              | $a$ implies $b$, $b$ for all $a$                      |
+| $a \dashv b$                                                   | reverse implication, superset                    | $a$ for all $b$, $b$ implies $a$                      |
+| $x_0 \mid x_1 \mid \dots x_n$ where $\mid$ is any [[operator]] | with $n = 3$, $x_0 \mid x_1 \mid x_2 \mid x_3$   | step size is $\because 1$ if $x_1 \mid$ is omitted    |
+| $x_0 \dots x_n$                                                | with $n = 3$ $x_0, x_1, x_2, x_3$                | step size is $\because 1$ if $x_1$ is omitted         |
+| $X_{subscript}$                                                | the variable $X$ with a subscript $_{subscript}$ |                                                       |
+| $V^n$ where $V$ is a [[vector]]                                | the $n$ th component of $V$                      |                                                       |
+| $a^i$ where $a$ is a [[sequence]]                              | the $i$ th element of $a$                        |                                                       |
+| $b^i$ where $b$ is a [[series]]                                | the $i$ th element of $b$                        |                                                       |
+| $M^{i, j}$ where $M$ is a [[matrix]]                           | the $i, j$ th element of $M$                     |                                                       |
+| $M^\intercal$ where $M$ is a [[matrix]]                        | the transpose of $A$                             |                                                       |
+| $M^-$ where $M$ is a [[matrix]]                                | the multiplicative inverse of the $A$            |                                                       |
+| $P^b$ where $P$ is an [[ordered-pair]]                         | the $b$ th element of $P$                        |                                                       |
+| $\mathbb N a$ where $\mathbb N$ is a [[set]]                   | checks whether $a$ is element of $\mathbb N$     |                                                       |
 
 ### shorthands and constants
 
@@ -65,45 +64,50 @@ also see [[trigonometric-function]], [[calculus-notation]]
 | $\bot$        | logical false                                                | `false`, $/\top$                       |
 | $\tau$        | the ratio of the circumference of a [[circle]] to its radius | using $\pi$ is discouraged             |
 
-| shorthand                                                      | definition                                               | notes                                  |
-| -------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------- |
-| $a \not\vdash b$, $a \ne b$, $a \not\le b$, $a \not< b$...     | $/(a \vdash b)$, $/a = b$, $/a \le b$, $/a < b$...       |                                        |
-| $x\omega$ where $x$ is a variable and $\omega$ is a [[number]] | $[x]\omega$                                              |                                        |
-| $ax$ where $x$ is a variable                                   | $a \smash\shortmid x$                                    |                                        |
-| $f\ x$ where $f$ is a [[function]]                             | $f \smash\leftarrow x$                                   | common, longhand is discouraged        |
-| $x\ y \rightarrow E$ where $E$ is an expression                | $x \rightarrow y \rightarrow E$                          |                                        |
-| $S = \lbrace a \dots b \rbrace$                                | $S\ x \equiv x = a \lor \dots x = b$                     |                                        |
-| $\mathbb N a$                                                  | checks whether $a$ is element of the [[set]] $\mathbb N$ |                                        |
-| $x \rightarrow (a < x < b)$                                    | the closed interval from $a$ to $b$                      | same can be used for open intervals    |
-| $\delta y - \delta x$                                          | the [[derivative]] of $y$ with respect to $x$            | $\delta$ should be used instead of $d$ |
-| $\int y - \delta x$                                            | the [[antiderivative]] of $y$ with respect to $x$        | $\delta$ should be used instead of $d$ |
+| shorthand                                                      | definition                                         | notes                                  |
+| -------------------------------------------------------------- | -------------------------------------------------- | -------------------------------------- |
+| $a \not\vdash b$, $a \ne b$, $a \not\le b$, $a \not< b$...     | $/(a \vdash b)$, $/a = b$, $/a \le b$, $/a < b$... |                                        |
+| $x\omega$ where $x$ is a variable and $\omega$ is a [[number]] | $[x]\omega$                                        |                                        |
+| $ax$ where $x$ is a variable                                   | $a \smash\shortmid x$                              |                                        |
+| $f\ x$ where $f$ is a [[function]]                             | $f \smash\leftarrow x$                             | common, longhand is discouraged        |
+| $x\ y \rightarrow E$ where $E$ is an [[expression]]            | $x \rightarrow y \rightarrow E$                    |                                        |
+| $V^y$ where $V$ is a [[vector]]                                | the $y$ (second) component of $V$                  |                                        |
+| $M^{i,}$ where $M$ is a [[matrix]]                             | the $i$ th row of $M$                              |                                        |
+| $M^{, j}$ where $M$ is a [[matrix]]                            | the $j$ th column of $M$                           |                                        |
+| $S = \lbrace a \dots b \rbrace$                                | $S\ x \equiv x = a \lor \dots x = b$               | see [[set]]                            |
+| $P = \braket{f, t}$                                            | $P^\bot = f \land P^\top = t$                      | see [[ordered-pair]]                   |
+| $P = \begin{bmatrix} a & b \\\ c & d \end{bmatrix}$            | matrix literal                                     | see [[matrix]]                         |
+| $x \rightarrow (a < x < b)$                                    | the closed interval from $a$ to $b$                | same can be used for open intervals    |
+| $\delta y - \delta x$                                          | the [[derivative]] of $y$ with respect to $x$      | $\delta$ should be used instead of $d$ |
+| $\int y \mid \delta x$                                         | the [[antiderivative]] of $y$ with respect to $x$  | $\delta$ should be used instead of $d$ |
 
 ### precedence, associativity, unary
 
 _in order of high to low precedence_
 
-| operators                        | associativity | unary identity       | unary description |
-| -------------------------------- | ------------- | -------------------- | ----------------- |
-| $()\ x\ x_a^i$                   |               |                      |                   |
-| $[] \lfloor\rfloor \lceil\rceil$ |               |                      |                   |
-| $\shortmid \text-$               | left          | $1$                  | inverse           |
-| $\delta\ \sin\ \smash\leftarrow$ | right-ish     |                      |                   |
-| $\ : \cdot$                      | left          | $0$                  | negation          |
-| $\mid -$                         | left          | $1$                  | inverse           |
-| $\int \lim\ \dots\ \rightarrow$  | right         |                      |                   |
-| $=\ne\gt\ge\lt\le$               | AND           |                      |                   |
-| $/$                              | left          | $x \rightarrow \top$ | logical NOT       |
-| $\land \lor$                     | left          |                      |                   |
-| $\dashv\ \vdash$                 | left          |                      |                   |
-| $\equiv \times$                  | AND           | $x \rightarrow \top$ | logical NOT       |
-| $,$                              |               |                      |                   |
+| operator                                               | associativity | unary identity       | unary description |
+| ------------------------------------------------------ | ------------- | -------------------- | ----------------- |
+| $()\ \lbrace\rbrace \braket{}\ \Big[\Big]\ \ x\ x_a^i$ |               |                      |                   |
+| $[] \lfloor\rfloor \lceil\rceil$                       |               |                      |                   |
+| $\shortmid \text-$                                     | left          | $1$                  | inverse           |
+| $\delta\ \sin\ \smash\leftarrow$                       | right-ish     |                      |                   |
+| $\ :\ \cdot\ \because\ \ \therefore$                   | left          | $0$                  | negation          |
+| $\mid -$                                               | left          | $1$                  | inverse           |
+| $\int \lim\ \dots\ \rightarrow$                        | right         |                      |                   |
+| $=\ne\gt\ge\lt\le$                                     | AND           |                      |                   |
+| $/$                                                    | left          | $x \rightarrow \top$ | logical NOT       |
+| $\land \lor$                                           | left          |                      |                   |
+| $\dashv\ \vdash$                                       | left          |                      |                   |
+| $\equiv \times$                                        | AND           | $x \rightarrow \top$ | logical NOT       |
+| $,$                                                    |               |                      |                   |
 
 > **note**: above,
 >
 > - $x$ represents variables
 > - $\leftarrow$ represents [[function]] application
 > - $x_a^i$ represents subscripts and superscripts
-> - $\rightarrow$ represents [[function]] definitions
+> - $\rightarrow$ represents [[function]] literals
+> - $\Big[\Big]$ represents [[matrix]] literals
 
 > **note**: unary [[operator]]s have identical precedence to their binary counterparts, but are right associative
 
@@ -111,7 +115,7 @@ _in order of high to low precedence_
 
 ## variable scope
 
-variable scope is currently entirely context-dependent. this is know to cause occasional issues, such as with [[derivative]]s: $\delta\ f\ x - \delta x$ could represent both the [[derivative]] of $f$ with respect to $x$ in the general sense, or the [[derivative]] of $f$ with respect to $x$ **at the point** $x$, as $(x \rightarrow \delta\ f\ x - \delta x)\ x \equiv \delta\ f\ x - \delta x$.
+variable scope is currently entirely context-dependent. this is know to cause occasional issues, such as with [[derivative]]s: $\delta\ f\ x - \delta x$ could represent both the [[derivative]] of $f$ with respect to $x$ in the general sense, or the [[derivative]] of $f$ with respect to $x$ **at the point** $x$ as $(x \rightarrow \delta\ f\ x - \delta x)\ x \equiv \delta\ f\ x - \delta x$.
 
 ## examples
 
@@ -132,11 +136,5 @@ definition of factorials: $\operatorname{fact} n = 1 \mid \dots n$
 the negation of an implication in my [[math-notation]]: $B \vdash C \times B\ /\ C$ (_B implying C equals not (B without C)_ or _implication is the negation of set difference_ or _the negation of "for all B, C" is "there exists a B such that not C"_)
 
 compared to [[classical-math-notation]]: $\lnot (B \to C) = B \land \lnot C$ or $(a \in B \to a \in C) \iff a \notin B \backslash C$ or $B \subset C \iff \forall a \in C, a \notin B$
-
-## #think
-
-~~$a \to b$ is lambda notation (`(a) => b`)~~
-
-- ~~functions support [[currying]] to take multiple arguments~~
 
 ## [[random-math-notation-formulas]]

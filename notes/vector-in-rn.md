@@ -6,7 +6,9 @@ see [[math-notation]], [[math-notation]], [[vector]] properties
 
 ## definition
 
-formally, in my [[math-notation]], a [[vector]] in $\mathbb R^n$ is a [[set-theory]]etical [[function]] with domain $x \rightarrow \mathbb N x \land 0 \le x < n$ that takes an index and returns the element at that index
+a _vector in Rn_ is an ordered collection of elements that do not have to be unique
+
+formally, in my [[math-notation]], a [[vector]] in $\mathbb R^n$ is a [[set-theory]]etical [[function]] with domain at least $x \rightarrow \mathbb N x \land 0 \le x < n$ that takes an index and returns the element at that index
 
 ## notation
 

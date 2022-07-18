@@ -334,3 +334,9 @@ $\leftarrow \lessdot$
 $e = \lim_{n \to \infty} [1 : -n]n = \lim_{n \to \infty} n - \lfloor \operatorname{fact} n \rfloor n$
 
 $e = 1 \text- \operatorname{fact} 0 : 1 \text- \operatorname{fact} 1 : \dots$
+
+---
+
+$M\ o = n \dashv V^n = o$
+
+$V^n = o \dashv M\ o = n$
