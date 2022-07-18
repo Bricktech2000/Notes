@@ -200,11 +200,13 @@ if (not empty(abs(prop("Repeat"))),
 
 see [[math-notation]]
 
-the $\ : duration$ below "shifts" the event left by $duration$, which allows long-term projects to end up with higher priority at the beginning of their time allocation. this prioritizes tasks better.
+the $\ : \text{duration}$ below "shifts" the event left by $\text{duration}$, which allows long-term projects to end up with higher priority at the beginning of their time allocation. this prioritizes tasks better.
 
 $$
-\text{DDONE\_OVER\_DT} = now \cdot start : duration - duration \\\
-duration = end \cdot start
+\begin{align*}
+\text{DDONE\_OVER\_DT} & = \text{now} \cdot \text{start} : \text{duration} - \text{duration} \\\
+\text{duration} & = \text{end} \cdot \text{start}
+\end{align*}
 $$
 
 ```jsx

@@ -30,16 +30,18 @@ lowercease headings are for general titles
 
 the following headings are commonly used:
 
-- **definition**, **definitions**
+- **definition**
 - **notation**
 - **representation**
 - **types**
 - **applications**
-- **example**, **examples**
-- **counterexample**, **counterexamples**
+- **example**
+- **counterexample**
 - **theorems**
+- **definitions**
 - **properties**
 - **procedure**
+- **pros & cons**
 - **see**
 
 ### quotes, italics, bold, sources, URLs

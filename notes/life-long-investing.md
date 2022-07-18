@@ -8,21 +8,20 @@ study the following strategy:
 
 > invest 20% of all currency earned
 
-## possible issues &mdash; with solutions
+## pros & cons
 
-- taxes &mdash; invest in a TFSA account (Canada-only)
-
-## possible complications &mdash; with solutions
-
-- age of majority &mdash; added reminder to open trading account when turning 18 &mdash; [[cryptocurrency]] does not require users to be 18
-- trading fees &mdash; Wealth Simple Trade has very low fees for long-term investments
-- [[inflation]] &mdash; ROI on index funds (see [[stock-market]]) are higher than inflation rates
-
-## advantages
+### advantages to holding fiat currency
 
 - prevents economic crises from affecting one’s net worth
 - takes advantage of compound interest from a young age
 - prevents the situation where it is hard save some of your money because your lifestyle is shaped around spending a certain amount of it. however, implementing this strategy from a young age will mean that you will never know what it's like to have the money you're investing, and so you will not miss it. in theory. see <https://youtu.be/eDa1U9qJKxo> for some more information
+
+### possible issues &mdash; with solutions
+
+- taxes &mdash; invest in a TFSA account (Canada-only)
+- age of majority &mdash; added reminder to open trading account when turning 18 &mdash; [[cryptocurrency]] does not require users to be 18
+- trading fees &mdash; Wealth Simple Trade has very low fees for long-term investments
+- [[inflation]] &mdash; ROI on index funds (see [[stock-market]]) are higher than inflation rates
 
 ## notes
 

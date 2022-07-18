@@ -21,3 +21,5 @@
 [[recipes]]
 
 [[vim-talk]]
+
+[[discord-statuses]]

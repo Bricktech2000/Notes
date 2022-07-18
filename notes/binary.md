@@ -2,8 +2,9 @@
 
 _the base-2 [[positional-numbering-system]]_
 
-### advantages in [[digital-system]]s
+### pros & cons
 
-high toleration of noise
+pros in [[digital-system]]s:
 
-[[boolean-logic]] can be used to manipulate the digits of a [[binary]] [[number]]
+- high toleration of noise
+- [[boolean-logic]] can be used to manipulate the digits of a [[binary]] [[number]]

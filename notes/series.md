@@ -56,8 +56,8 @@ _useful for [[series]] containing [[logarithm]]s or easy-to-compute [[integral]]
 >
 > let $b$ be a [[series]] and suppose $f\ x$ is an eventually _continuous_, _positive_ and _infinite_ [[function]] on $R \le x < \infty \land \mathbb R R$ **for some number $R$** and that $b^n = f\ n \dashv \mathbb N n$. then,
 >
-> - if $\int_{x = 1}^{\infty} f\ x \mid \delta x$ converges, then $b^0 : b^1 : \dots$ converges
-> - if $\int_{x = 1}^{\infty} f\ x \mid \delta x$ diverges, then $b^0 : b^1 : \dots$ diverges
+> - if $\int_{x = 0}^{x = \infty} f\ x \mid \delta x$ converges, then $b^0 : b^1 : \dots$ converges
+> - if $\int_{x = 0}^{x = \infty} f\ x \mid \delta x$ diverges, then $b^0 : b^1 : \dots$ diverges
 
 ### Comparison Tests
 

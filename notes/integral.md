@@ -22,9 +22,9 @@ $F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
 
 ## definitions
 
-> **definition**: a _definite [[integral]]_ has its two endpoints present
+> **definition**: a _definite integral_ has its two endpoints present
 
-> **definition**: an _indefinite [[integral]]_ has its two endpoints missing
+> **definition**: an _indefinite integral_ has its two endpoints missing
 
 > **definition**: the _integrand_ is the [[function]] being integrated. it would be $f\ x$ in the [[integral]] $\int f\ x \mid \delta x$
 

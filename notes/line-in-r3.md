@@ -28,11 +28,11 @@ using [[vector-in-rn]]3, we get
 
 $L^x \cdot p^x - p_1^x \cdot p_0^x = L^y \cdot p^y - p_1^y \cdot p_0^y = L^z \cdot p^z - p_1^z \cdot p_0^z$
 
-> **note**: if $p_1^n = p_0^n \land \mathbb Z n$, then the term $n$ must be rearranged to avoid a division by $0$
+> **note**: if $p_1^n = p_0^n \land \mathbb N n$, then the term $n$ must be rearranged to avoid a division by $0$
 
 ## Intersection of Two Lines
 
-if $L_0^n = L_1^n \dashv \mathbb Z n$ has a solution, then the two lines intersect at said solution
+if $L_0^n = L_1^n \dashv \mathbb N n$ has a solution, then the two lines intersect at said solution
 
 > **note**: as a trick, check to see if the lines are parallel first
 
@@ -42,7 +42,7 @@ the angle between two lines is the angle between their direction [[vector-in-rn]
 
 ## other
 
-if $p_1^n \cdot p_0^n = 0 \land \mathbb Z n$, then the line is in a plane
+if $p_1^n \cdot p_0^n = 0 \land \mathbb N n$, then the line is in a plane
 
 two lines with points $p$ and $q$ are parallel if $p_1 \cdot p_0 = k \mid q_1 \cdot q_0 \land \mathbb R k$. _two lines are parallel if one of their direction [[vector]]s is a [[linear-combination]] of the other direction [[vector]]_
 

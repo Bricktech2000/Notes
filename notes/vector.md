@@ -16,7 +16,7 @@ polynomials, see [[polynomial-vector-space]]
 
 see [[math-notation]]
 
-let $\mathbb R^n (u, v, w) \dashv \mathbb Z n$
+let $\mathbb R^n (u, v, w) \dashv \mathbb N n$
 
 let $\mathbb R (c1, c2)$
 

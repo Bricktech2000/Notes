@@ -124,7 +124,7 @@ $A$ is the [[matrix]] to find the rank of
 
 ## Null Space (Nullspace, Kernel), Column Space, Row Space
 
-### notation
+### notations
 
 $Ker\ A \equiv Null\ A$
 
@@ -132,7 +132,7 @@ $Col\ A$
 
 $Row\ A$
 
-### definition
+### definitions
 
 $(Ker\ A)\ x \equiv (Null\ A)\ x \equiv Ax = O \land \mathbb M^{m, n}A \land \mathbb M^{n, 1} x$
 
@@ -166,9 +166,9 @@ $Col\ A = Row\ A^\intercal \land Row\ A = Col\ A^\intercal \dashv \mathbb M A$, 
 
 row spaces can be used to find a [[basis]] for a [[span]]ning [[set]] of vectors through [[row-reduction]]
 
-the basis for the row space of a [[matrix]] can be found by applying [[row-reduction]] and [[span]]ning the **row-reduced columns** in the [[REF]] form of the [[matrix]]
+the [[basis]] for the row space of a [[matrix]] can be found by applying [[row-reduction]] and [[span]]ning the **row-reduced columns** in the [[REF]] form of the [[matrix]]
 
-the basis for the column space of a [[matrix]] can be found by applying [[row-reduction]] and [[span]]ning the **original columns** that became pivots in the [[REF]] form of the [[matrix]]
+the [[basis]] for the column space of a [[matrix]] can be found by applying [[row-reduction]] and [[span]]ning the **original columns** that became pivots in the [[REF]] form of the [[matrix]]
 
 the same can be said for $Col\ A$
 
@@ -188,7 +188,7 @@ _the **transpose** of a [[matrix]]_
 
 _flips a [[matrix]] around its diagonal_
 
-> **note**: the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element
+> **note**: the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element (triplicate)
 
 $(A^\intercal)^{i, j} = (A)^{j, i} \dashv \mathbb N i \land \mathbb N j \land \mathbb M A$
 
@@ -274,13 +274,13 @@ $Ix = x = B \begin{bmatrix}\cdot 1 \\\ 1\end{bmatrix}$
 
 a [[matrix]] is _triangular_ if every entry below its diagonal **or** above its diagonal is $0$
 
-> **note**: the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element
+> **note**: the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element (triplicate)
 
 ## Diagonal Matrix
 
 a [[matrix]] is _diagonal_ if every entry below its diagonal **and** above its diagonal is $0$
 
-> **note**: the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element
+> **note**: the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element (triplicate)
 
 ### properties
 

@@ -12,7 +12,7 @@ used for backlinks
 
 [[function]]s in [[lambda-calculus]] are pure [[function]]s
 
-[[lambda-calculus]] is Turing complete
+[[lambda-calculus]] is Turing complete, see [[turing-machine]]
 
 [[lambda-calculus]] is the basis for most [[functional-programming]] languages
 

@@ -328,3 +328,9 @@ $x$ axis is the line $x \sin \theta = y \cos \theta$
 $a \tiny\leftarrow\normalsize b$
 
 $\leftarrow \lessdot$
+
+---
+
+$e = \lim_{n \to \infty} [1 : -n]n = \lim_{n \to \infty} n - \lfloor \operatorname{fact} n \rfloor n$
+
+$e = 1 \text- \operatorname{fact} 0 : 1 \text- \operatorname{fact} 1 : \dots$
