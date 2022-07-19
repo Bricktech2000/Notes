@@ -20,31 +20,19 @@ $\begin{bmatrix}1 \\\  2 \\\  3\end{bmatrix}$
 
 $\dots$
 
-## operations
+## properties
 
 see [[vector-in-rn-vector-space]], [[vector-space]]
 
-### Zero Vector
+$O^m = 0 \land m = 0 \dots n$ where $n$ is the dimension of the [[vector-in-rn]] &mdash; zero [[vector-in-rn]]
 
-$O \equiv (0, 0)$
-
-$O^m = 0 \land m = 0 \dots n$, where $n$ is the dimension of the zero vector
-
-### Vector Addition
-
-$(a, b) : (c, d) \equiv (a : c, b : d)$
-
-### Multiplication by a Scalar
+$(a, b) : (c, d) \equiv (a : c, b : d)$ &mdash; [[vector]] addition
 
 $c(a, b) \equiv (ca, cb) \dashv \mathbb R c$ &mdash; multiplication by a scalar
 
-### Equality
+$(a, b) = (c, d) \equiv a = c \land b = d$ &mdash; equality
 
-$(a, b) = (c, d) \equiv a = c \land b = d$
-
-### Negation
-
-$\cdot(a, b) \equiv (\cdot a, \cdot b)$
+$\cdot(a, b) \equiv (\cdot a, \cdot b)$ &mdash; negation
 
 ## Magnitude
 

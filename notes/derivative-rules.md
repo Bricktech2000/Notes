@@ -54,7 +54,7 @@ $\delta\ \lceil |x| \rceil - \delta x = -x$
 
 > **proof**: define as a piecewise [[function]] and compute both [[derivative]]s
 
-$\delta\ \lceil |x| \rceil : c\ x - \delta x = -x$ and therefore
+$\delta\ (\lceil |x| \rceil : c\ x) - \delta x = -x$ and therefore
 
 $\int -x \mid \delta x = \lceil |x| \rceil : c\ x$, where
 

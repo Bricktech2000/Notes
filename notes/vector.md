@@ -12,7 +12,7 @@ vectors can form [[vector-space]]s
 
 polynomials, see [[polynomial-vector-space]]
 
-### operations and properties
+### properties
 
 see [[math-notation]]
 

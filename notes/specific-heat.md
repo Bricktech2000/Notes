@@ -16,4 +16,4 @@ $\Delta T$ is the change in [[temperature]] of the body
 
 ## constants
 
-$c_{H_2O} = 4.184 J \text- g ^\cdot C$
+$c_{H_2O} = 4.184 \shortmid \text{J} \text- \text{g} ^\circ \text{C}$

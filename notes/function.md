@@ -49,21 +49,15 @@ $D\ x \equiv R\ f\ x$ &mdash; range
 
 $D\ x \dashv A\ f\ x$ &mdash; #think
 
-## operations
+## properties
 
 see [[function-vector-space]], [[vector-space]]
 
-### Zero Function
+$O x = 0 \dashv \mathbb R x$ &mdash; zero [[function]]
 
-$O x = 0 \dashv \mathbb R x$
+$(f : g)\ x = f\ x : g\ x$ &mdash; [[function]] addition
 
-### Function Addition
-
-$(f : g)\ x = f\ x : g\ x$
-
-### Multiplication by a Scalar
-
-$(cf)\ x = c \mid f\ x$
+$(cf)\ x = c \mid f\ x$ &mdash; multiplication by a scalar
 
 ## Function Parity
 
@@ -257,7 +251,7 @@ $f_{arc} = \int \lfloor 1 : [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
 >
 > turning the [[distance]] [[function]] into an [[integral]], $f_{arc} = \int \lfloor [\delta x]2 : [\delta\ f\ x]2 \rfloor$
 >
-> simplifying, $f_{arc} = \int \lfloor [\delta x]2 : [\delta\ f\ x]2 - [\delta x]2 \rfloor \mid \delta x$
+> rearranging, $f_{arc} = \int \lfloor [\delta x]2 : [\delta\ f\ x]2 - [\delta x]2 \rfloor \mid \delta x$
 >
 > and we get $f_{arc} = \int \lfloor 1 : [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
 >

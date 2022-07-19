@@ -24,6 +24,7 @@ _the world's most widely used system of measurement_
 | ------------------------ | ------------ | ------------------------------------------------------------------- | ----------------- | -------------------------- | -------------------- |
 | radian                   | $\text{rad}$ | $$\text{m} - \text{m} \\\ 1$$                                       | $$1$$             | plane [[angle]]            | $\theta, a \dots$    |
 | steradian                | $\text{sr}$  | $$\text{m}2 - \text{m}2 \\\ 1$$                                     | $$1$$             | [[solid-angle]]            | $\theta, a \dots$    |
+| radian per second        |              | $$\text{rad} - \text{s}$$                                           | $$-T$$            | [[angular-velocity]]       | $\omega$             |
 | hertz                    | $\text{Hz}$  | $$-\text{s}$$                                                       | $$-T$$            | [[frequency]]              | $f, \nu, \omega$     |
 | newton                   | $\text{N}$   | $$\text{kg} \mid \text{m} - \text{s}2$$                             | $$M \mid L - T2$$ | [[force]], weight          | $f, F$               |
 | pascal                   | $\text{Pa}$  | $$\text{kg} - \text{m} - \text{s}2 \\\ \text{N} - \text{m}2$$       | $$M - L - T2$$    | [[pressure]], stress       | $P$                  |
@@ -56,13 +57,3 @@ _the world's most widely used system of measurement_
 | $\dots$ | $\dots$                |
 
 &mdash; Wikipedia
-
-- [[jerk]]
-- [[volume]]
-- [[pressure]]
-- [[area]]
-- [[density]]
-- [[concentration]]
-- [[energy]]
-
-#todo <https://en.wikipedia.org/wiki/International_System_of_Units#Derived_units>

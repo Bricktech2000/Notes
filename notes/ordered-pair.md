@@ -14,6 +14,18 @@ $P$ is an [[ordered-pair]]
 
 $t$ and $f$ are the elements of $P$ such that $P^\bot = f \land P^\top = t$
 
+## properties
+
+$O \equiv \braket{0, 0}$ &mdash; zero [[ordered-pair]]
+
+$\braket{a, b} : \braket{c, d} \equiv \braket{a : c, b : d}$ &mdash; [[ordered-pair]] addition
+
+$c\braket{a, b} \equiv \braket{ca, cb} \dashv \mathbb R c$ &mdash; multiplication by a scalar
+
+$\braket{a, b} = \braket{c, d} \equiv a = c \land b = d$ &mdash; equality
+
+$\cdot\braket{a, b} \equiv \braket{\cdot a, \cdot b}$ &mdash; negation
+
 ## Transpose Ordered Pair
 
 _the transpose of an [[ordered-pair]]_

@@ -2,9 +2,13 @@
 
 ## definitions
 
-> **definition**: a _graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $E\ e > 0 \vdash (V\ \acute\mid\ V)\ e$ and $E\ e \equiv E\ e^\intercal$ (see [[relation]], [[ordered-pair]])
+a _graph_ is an collection of vertices connected by a collection of edges
 
-> **definition**: a _directed graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $E\ e > 0 \vdash (V\ \acute\mid\ V)\ e$ (see [[relation]], [[ordered-pair]])
+formally, in my [[math-notation]], a [[graph]] is a [[set-theory]]etical [[function]] with domain at least $\braket{v, v'} \rightarrow \top$ that takes an [[ordered-pair]] of vertices as an index and returns the number of edges connecting them
+
+> **definition**: in [[classical-math-notation]], a _graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $\smash\ne E\ e \vdash (V\ \acute\mid\ V)\ e$ and $E\ e \equiv E\ e^\intercal$ (see [[relation]], [[ordered-pair]])
+
+> **definition**: in [[classical-math-notation]], a _directed graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $\smash\ne E\ e \vdash (V\ \acute\mid\ V)\ e$ (see [[relation]], [[ordered-pair]])
 
 > **definition**: a _vertex_ or _node_ is a point in a _graph_
 
@@ -14,11 +18,17 @@
 
 ## representation
 
-below are two representations of a sample graph
+below are two equivalent representations of a sample graph
 
 ![](20220718021503.png)
 
 ![](20220718021524.png)
+
+## vertex membership
+
+in my [[math-notation]], a vertex $v$ is in a graph $G$ if and only if there is at least one edge incident to $v$: $G\ v \equiv G^{v,} \ne O \lor G^{, v} \ne O$
+
+in [[classical-math-notation]], a vertex $v$ is in a graph $\braket{V, E}$ if and only if $V\ v$
 
 ## graph isomorphism
 
@@ -26,7 +36,9 @@ see [[category]], [[category-theory]]
 
 two [[graph]]s are _isomorphic_ if they have the same edges connecting their vertices, which could be labelled differently
 
-> **definition**: a _graph isomorphism_ between two [[graph]]s $\braket{V_1, E_1}$ and $\braket{V_2, E_2}$ is a bijective [[function]] $f$ from $V_1$ to $V_2$ such that any two vertices $a$ and $b$ in $V_1$ have an edge in $E_1$ connecting them if and only if $f\ a$ and $f\ b$ have an edge in $E_2$ connecting them.
+> **definition**: in my [[math-notation]], a _graph isomorphism_ between two [[graph]]s $G_1$ and $G_2$ is a bijective [[function]] $f$ such that $G_1^{v, v'} \equiv G_2^{f\ v, f\ v'}$
+
+> **definition**: in [[classical-math-notation]], a _graph isomorphism_ between two [[graph]]s $\braket{V_1, E_1}$ and $\braket{V_2, E_2}$ is a bijective [[function]] $f$ from $V_1$ to $V_2$ such that any two vertices $a$ and $b$ in $V_1$ have an edge in $E_1$ connecting them if and only if $f\ a$ and $f\ b$ have an edge in $E_2$ connecting them.
 
 ## Complete Graph
 
@@ -40,9 +52,9 @@ two [[graph]]s are _isomorphic_ if they have the same edges connecting their ver
 
 ## Subgraph
 
-> **definition**: a [[graph]] $\braket{V_1, E_1}$ is a _subgraph_ of $\braket{V_2, E_2}$ if and only if it is a [[graph]] and $V_1 \vdash V_2 \land E_1 \vdash E_2$
+> **definition**: a [[graph]] $G_1$ is a _subgraph_ of $G_2$ if and only if it is a [[graph]] and $G_1^e \le G_2^e$
 
-> **definition**: a [[graph]] $\braket{V_1, E_1}$ is an _induced subgraph_ of $\braket{V_2, E_2}$ if and only if it is a _subgraph_ of $\braket{V_2, E_2}$ and $(\lbrace e^\bot, e^\top \rbrace \vdash V_1) \land E_2\ e \vdash E_1\ e$ (the subgraph must contain all the original edges connecting its vertices)
+> **definition**: a [[graph]] $G_1$ is an _induced subgraph_ of $G_2$ if and only if it is a _subgraph_ of $G_2$ and $G_1\ e^\bot \land G_1\ e^\top \vdash G_1^e = G_2^e$ (the subgraph must contain all the original edges connecting its vertices)
 
 ## Degree
 
