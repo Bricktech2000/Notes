@@ -78,7 +78,7 @@ in Haskell, let `id :: a -> a`. then, `id x = x`
 
 an isomorphism is a morphism with a corresponding inverse. in the commutative diagram below, $\alpha$ (or the pair $\alpha, \alpha^{-1}$) is an isomorphism
 
-![](20220708044859.png) &mdash; <https://youtu.be/Gai-liKAUPo?t=483>
+![[20220708044859.png]] &mdash; <https://youtu.be/Gai-liKAUPo?t=483>
 
 &mdash; <https://youtu.be/yAi3XWCBkDo?t=954>
 

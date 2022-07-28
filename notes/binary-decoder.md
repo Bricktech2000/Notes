@@ -32,4 +32,4 @@ or more formally:
 
 and by the following [[logic-circuit]]
 
-![](20220427192937.png)
+![[20220427192937.png]]

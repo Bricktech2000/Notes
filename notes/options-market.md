@@ -62,7 +62,7 @@ Webull and Interactive Brokers
 
 _limit one's potential loss_
 
-![](20220618102949.png)
+![[20220618102949.png]]
 
 by buying a call option:
 
@@ -78,7 +78,7 @@ by selling a put option:
 - if the stock price goes down, they can buy the shares at the lower price and earn the premium price
 - if the stock price goes up, they still earn the premium price (but can't buy the shares)
 
-![](20220618103011.png)
+![[20220618103011.png]]
 
 ### Bear Put Spread
 

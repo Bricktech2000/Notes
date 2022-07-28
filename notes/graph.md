@@ -20,9 +20,9 @@ formally, in my [[math-notation]], a [[graph]] is a [[set-theory]]etical [[funct
 
 below are two equivalent representations of a sample graph
 
-![](20220718021503.png)
+![[20220718021503.png]]
 
-![](20220718021524.png)
+![[20220718021524.png]]
 
 ## vertex membership
 

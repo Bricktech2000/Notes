@@ -200,7 +200,7 @@ $(AB)^\intercal = B^\intercal A^\intercal \dashv \mathbb M A \land \mathbb M B$
 
 ### example
 
-![](200px-Matrix_transpose.gif) &mdash; https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif
+![[200px-Matrix_transpose.gif]] &mdash; https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif
 
 ## Matrix Inverse
 

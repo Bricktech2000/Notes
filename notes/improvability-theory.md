@@ -20,7 +20,7 @@ that’s meta.
 
 This theory was formulated while eating nachos with Kiera. See $Fig.\ 1$.
 
-![](2022-02-26-01-16-56.png)
+![[2022-02-26-01-16-56.png]]
 
 $Fig.\ 1$: Eating nachos with Kiera.
 

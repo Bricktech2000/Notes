@@ -8,8 +8,8 @@ _a [[multiplexer]] can be built by using a [[binary-decoder]] and a set of AND [
 
 a _4-to-1 multiplexer_ can be represented by the following component:
 
-![](20220427193833.png)
+![[20220427193833.png]]
 
 and by the following [[logic-circuit]]:
 
-![](20220427193839.png)
+![[20220427193839.png]]

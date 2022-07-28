@@ -28,4 +28,4 @@ i = Integer.valueOf(
 
 _using [[java-primitive]]s is almost always faster than using [[java-reference]]s_
 
-![](2022-02-26-01-14-04.png)
+![[2022-02-26-01-14-04.png]]

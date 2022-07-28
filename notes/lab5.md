@@ -35,9 +35,9 @@
 
 ## Part I &mdash; SR Latch
 
-![](2022-04-07-22-27-26.png)
+![[2022-04-07-22-27-26.png]]
 
-![](2022-04-07-22-27-45.png)
+![[2022-04-07-22-27-45.png]]
 
 ### Experimental Function Table
 
@@ -54,15 +54,15 @@ Experimental data is identical to expected data.
 
 ## Part II &mdash; D Latch
 
-![](2022-04-07-22-28-07.png)
+![[2022-04-07-22-28-07.png]]
 
-![](2022-04-07-22-28-28.png)
+![[2022-04-07-22-28-28.png]]
 
 ## Part III &mdash; D Flip-Flop
 
-![](2022-04-07-22-37-42.png)
+![[2022-04-07-22-37-42.png]]
 
-![](2022-04-07-22-37-57.png)
+![[2022-04-07-22-37-57.png]]
 
 ### Experimental Function Table
 
@@ -79,9 +79,9 @@ Experimental data is identical to expected data.
 
 ## Part IV &mdash; T Flip-Flop
 
-![](2022-04-07-23-41-34.png)
+![[2022-04-07-23-41-34.png]]
 
-![](2022-04-07-23-41-53.png)
+![[2022-04-07-23-41-53.png]]
 
 ### Experimental Function Table
 
@@ -133,9 +133,9 @@ The experimental and expected data matched completely. We met the objectives of 
 
 ## Part I
 
-![](2022-04-08-00-32-40.png)
+![[2022-04-08-00-32-40.png]]
 
-![](2022-04-08-00-33-12.png)
+![[2022-04-08-00-33-12.png]]
 
 ### Experimental Function Table
 
@@ -160,9 +160,9 @@ Experimental data is identical to expected data.
 
 ## Part II
 
-![](2022-04-08-00-52-02.png)
+![[2022-04-08-00-52-02.png]]
 
-![](2022-04-08-00-52-17.png)
+![[2022-04-08-00-52-17.png]]
 
 ### Comparison of Expected and Experimental Data
 

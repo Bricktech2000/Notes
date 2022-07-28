@@ -2,7 +2,7 @@
 
 who thought this would be an intuitive way to describe family relationships? let's fix that.
 
-![](20220519150236.png)
+![[20220519150236.png]]
 
 ## vocabulary
 

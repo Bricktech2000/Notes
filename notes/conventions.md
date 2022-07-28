@@ -72,6 +72,8 @@ in file names, spaces are replaced by [[dash]]es and apostrophes and diacritics 
 
 box titles are generated with <https://lingojam.com/BoldTextGenerator>
 
+all internal links are denoted using `[[wiki-link]]` and `![[image.png]]`, and all external links are denoted using `<https://example.com/>`
+
 ### note, theorem, proof, definition
 
 all constructs below can be multiline
@@ -125,7 +127,7 @@ $\LaTeX$
 
 <https://example.com/>
 
-![](2022-03-19-00-57-20.png)
+![[2022-03-19-00-57-20.png]]
 
 ```mermaid
 graph LR

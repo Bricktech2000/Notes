@@ -19,4 +19,4 @@ _[[set]]s of [[number]]s_
           - [[natural]]
           - negative [[integer]]
 
-![](20220530145423.png) &mdash; <https://en.wikipedia.org/wiki/Natural_number>
+![[20220530145423.png]] &mdash; <https://en.wikipedia.org/wiki/Natural_number>

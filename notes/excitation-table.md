@@ -8,4 +8,4 @@ _previous state and next state to circuit inputs. tells you how to get from the 
 
 ## example
 
-![](20220427195650.png)
+![[20220427195650.png]]

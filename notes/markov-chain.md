@@ -10,7 +10,7 @@
 
 [[markov-chain]]s can be represented as a _transition diagram_, a weighted directed [[graph]] where nodes represent states and weighted edges represent the [[probability]] of an event occuring.
 
-![](20220718005316.png) &mdash; Wikipedia
+![[20220718005316.png]] &mdash; Wikipedia
 
 > **note**: there are numbers on the edges of the [[graph]] above that are harder to see in dark mode
 

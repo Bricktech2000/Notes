@@ -24,7 +24,7 @@ $x \ge 0 \land y \ge 0$
 
 ### representation
 
-![](20220718015229.png) &mdash; <https://youtu.be/K7TL5NMlKIk?t=348>
+![[20220718015229.png]] &mdash; <https://youtu.be/K7TL5NMlKIk?t=348>
 
 ## procedure
 

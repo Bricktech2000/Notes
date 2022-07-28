@@ -8,6 +8,6 @@ _circuit inputs and previous state to next state. tells you how the control bits
 
 ## examples
 
-![](20220427195727.png)
+![[20220427195727.png]]
 
-![](20220427195749.png)
+![[20220427195749.png]]

@@ -20,7 +20,7 @@ the [[blockchain]] used in [[cryptocurrency]]es is a type of [[persistent-data-s
 
 stacks can be implemented as a [[persistent-data-structure]] through a [[linked-list]]. each `Stack` is a `top` element and a `Stack` `tail`, eventually pointing to an `EmptyStack` (see [[polymorphism]]). example visual representation below.
 
-![](20220520161901.png)
+![[20220520161901.png]]
 
 only immutable types must be pushed to the [[stack]] to conserve the illusion of the [[stack]]'s immutability.
 

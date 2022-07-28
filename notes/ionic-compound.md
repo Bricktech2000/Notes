@@ -8,4 +8,4 @@
 
 below is the structure of a $NaCl$ ionic compound
 
-![](2022-02-26-01-17-40.png)
+![[2022-02-26-01-17-40.png]]

@@ -18,4 +18,4 @@ $\delta\ \sigma\ z - \delta z = -[1 : e[\cdot z]]2 \mid e[\cdot z] = (1 - 1 : e[
 
 ## representation
 
-![](2022-02-26-01-23-56.png)
+![[2022-02-26-01-23-56.png]]

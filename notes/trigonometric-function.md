@@ -54,7 +54,7 @@ $\tan (\cdot \theta) = \cdot \tan \theta$ &mdash; odd [[function]]
 
 ### offset identities
 
-![](2022-02-26-01-29-33.png)
+![[2022-02-26-01-29-33.png]]
 
 ### pythagorean identities
 

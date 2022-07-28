@@ -14,15 +14,15 @@ _8-bit parallel adder_
 
 - complete the following table
 
-  ![](2022-03-10-18-13-12.png)
+  ![[2022-03-10-18-13-12.png]]
 
 - build circuit on Quartus
 
-  ![](2022-03-10-18-24-21.png)
+  ![[2022-03-10-18-24-21.png]]
 
 - create a full adder block from the circuit
 
-  ![](2022-03-10-18-15-34.png)
+  ![[2022-03-10-18-15-34.png]]
 
 - simulate _Table 1_ and compare results
 
@@ -38,11 +38,11 @@ _adder subtractor_
 
 - complete the following table
 
-  ![](2022-03-10-18-18-02.png)
+  ![[2022-03-10-18-18-02.png]]
 
 - modify _Part 2_ circuit on Quartus
 
-  ![](2022-03-10-18-22-47.png)
+  ![[2022-03-10-18-22-47.png]]
 
 - simulate _Table 2_ and compare results
 
@@ -58,11 +58,11 @@ _4-bit multiplier_
 
 - complete the following table
 
-  ![](2022-03-10-18-20-58.png)
+  ![[2022-03-10-18-20-58.png]]
 
 - build the circuit on Quartus
 
-  ![](2022-03-10-18-23-14.png)
+  ![[2022-03-10-18-23-14.png]]
 
 - simulate _Table 3_ and compare the results
 

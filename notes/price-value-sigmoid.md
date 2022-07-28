@@ -4,7 +4,7 @@ see [[math-notation]], [[sigmoid-function]]
 
 _Price-to-Value relationships for a type of product can be represented on the graph of a [[sigmoid-function]] &mdash; me_
 
-![](2022-02-26-01-23-56.png)
+![[2022-02-26-01-23-56.png]]
 
 ### horizontal axis
 

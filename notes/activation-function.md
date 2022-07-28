@@ -25,7 +25,7 @@ def ReLU(x):
 
 ### representation
 
-![](20220628163633.png)
+![[20220628163633.png]]
 
 ## tanh
 
@@ -46,7 +46,7 @@ def TANH(x):
 
 ### representation
 
-![](20220629115711.png)
+![[20220629115711.png]]
 
 ## Softmax
 

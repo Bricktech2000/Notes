@@ -52,13 +52,13 @@ _simplifying a Full Adder_
 
 using [[boolean-logic]]
 
-![](2022-02-26-01-18-06.png)
+![[2022-02-26-01-18-06.png]]
 
 using [[karnaugh-map]]
 
-![](2022-02-26-01-18-20.png)
+![[2022-02-26-01-18-20.png]]
 
-![](2022-02-26-01-18-33.png)
+![[2022-02-26-01-18-33.png]]
 
 ### example 2
 
@@ -68,4 +68,4 @@ simplifying $/f$
 
 let $f w x y z = w \land x \land ((/y \land z) \lor (y \land /z))$
 
-![](2022-02-26-01-18-59.png)
+![[2022-02-26-01-18-59.png]]

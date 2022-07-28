@@ -29,7 +29,7 @@ _set-reset latch_
 
 [[logic-circuit]]
 
-![](20220427161726.png)
+![[20220427161726.png]]
 
 > **note**: SR latches can also be built using NAND [[logic-gate]]s
 
@@ -47,7 +47,7 @@ _data latch, gated by default_
 
 [[logic-circuit]]
 
-![](20220427161914.png)
+![[20220427161914.png]]
 
 ### JK Latch
 
@@ -64,7 +64,7 @@ _same as SR latch, but with undefined states removed_
 
 [[logic-circuit]]
 
-![](20220427162006.png)
+![[20220427162006.png]]
 
 ### T Latch
 
