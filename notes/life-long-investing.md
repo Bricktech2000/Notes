@@ -32,6 +32,7 @@ study the following strategy:
 - build an emergency fund (3 to 6 months of living expenses)
 - ~~Terra / Anchor Protocol is very, very interesting (20% ROI &mdash; <https://drive.google.com/file/d/1sKM08sghjCh0FSdzJ0gvir-GSmPPA9yF/view> at 24:30)~~ turns out UST crashed all the way to 0$
 - "the rich build and acquire assets. the poor and middle class acquire liabilities that they mistakenly think are assets." for instance, a home is not an asset, it is a liability. acquiring assets over time is the best way to build [[wealth]]
+- storing all [[liquidity]] in representative or commodity [[money]] such as [[cryptocurrency]]es or precious metals could be a good way to be immune to [[inflation]]
 
 ## &mdash;
 

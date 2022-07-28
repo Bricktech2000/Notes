@@ -16,9 +16,11 @@ money is:
 
 ## types
 
-> **definition**: _commodity money_ is [[money]] that takes the form of a commodity with intrinsic value
+> **definition**: _commodity money_ is [[money]] that takes the form of a _commodity_ with intrinsic value
 
 > **definition**: _fiat money_ is [[money]] without intrinsic value that is accepted because of government decree
+
+> **definition**: _representative money_ is [[money]] that represents a claim on a _commodity_ with intrinsic value
 
 ## definitions
 

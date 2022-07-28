@@ -8,9 +8,9 @@ see [[economics]], [[math-notation]]
 
 ## examples
 
-2% is a low to moderate inflation rate &mdash; Investopedia
+$2\%$ is a low to moderate inflation rate &mdash; Investopedia
 
-8.5% is a high inflation rate &mdash; <https://www.youtube.com/watch?v=QYPb9ebUQbs>
+$8.5\%$ is a high inflation rate &mdash; <https://www.youtube.com/watch?v=QYPb9ebUQbs>
 
 ## calculating inflation
 
@@ -20,23 +20,23 @@ see [[economics]], [[math-notation]]
 
 ### using [[gross-domestic-product]]
 
-$Inflation_t = GDPD_t \cdot GDPD_0 - GDPD_0$, where
+$\text{Inflation}_t = \text{GDPD}_t \cdot \text{GDPD}_0 - \text{GDPD}_0$, where
 
-$GDPD_t$ is the current [[gross-domestic-product]] Deflator
+$\text{GDPD}_t$ is the current [[gross-domestic-product]] Deflator
 
-$GDPD_0$ is the base [[gross-domestic-product]] Deflator
+$\text{GDPD}_0$ is the base [[gross-domestic-product]] Deflator
 
 ### using [[consumer-price-index]]
 
-$Inflation_t = CPI_t \cdot CPI_0 - CPI_0$, where
+$\text{Inflation}_t = \text{CPI}_t \cdot \text{CPI}_0 - \text{CPI}_0$, where
 
-$CPI_t$ is the current [[consumer-price-index]]
+$\text{CPI}_t$ is the current [[consumer-price-index]]
 
-$CPI_0$ is the base [[consumer-price-index]]
+$\text{CPI}_0$ is the base [[consumer-price-index]]
 
 ## correcting using inflation
 
-$P_t = P_0 \mid CPI_t \text- CPI_0 = P_0 : P_0 \shortmid \text{Inflation}_t$, where
+$P_t = P_0 \mid \text{CPI}_t \text- \text{CPI}_0 = P_0 : P_0 \text{Inflation}_t$, where
 
 $P_t$ is the current price of an item
 

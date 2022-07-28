@@ -340,3 +340,11 @@ $e = 1 \text- \operatorname{fact} 0 : 1 \text- \operatorname{fact} 1 : \dots$
 $M\ o = n \dashv V^n = o$
 
 $V^n = o \dashv M\ o = n$
+
+---
+
+$A \vdash B$ is not the same as $/A \lor B$
+
+$A \vdash B$ has an implied "the operator yields _false_ if and only if there is a possibility the truth table yields _false_"
+
+$/A \lor B$ has an implied "the operator yields _true_ if and only if there is a possibility the truth table yields _true_"

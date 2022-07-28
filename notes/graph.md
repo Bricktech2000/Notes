@@ -4,7 +4,7 @@
 
 a _graph_ is an collection of vertices connected by a collection of edges
 
-formally, in my [[math-notation]], a [[graph]] is a [[set-theory]]etical [[function]] with domain at least $\braket{v, v'} \rightarrow \top$ that takes an [[ordered-pair]] of vertices as an index and returns the number of edges connecting them
+formally, in my [[math-notation]], a [[graph]] is a [[set-theory]]etical [[function]] with domain at least $\braket{v, w} \rightarrow \top$ that takes an [[ordered-pair]] of vertices as an index and returns the number of edges connecting them
 
 > **definition**: in [[classical-math-notation]], a _graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $\smash\ne E\ e \vdash (V\ \acute\mid\ V)\ e$ and $E\ e \equiv E\ e^\intercal$ (see [[relation]], [[ordered-pair]])
 
@@ -36,7 +36,7 @@ see [[category]], [[category-theory]]
 
 two [[graph]]s are _isomorphic_ if they have the same edges connecting their vertices, which could be labelled differently
 
-> **definition**: in my [[math-notation]], a _graph isomorphism_ between two [[graph]]s $G_1$ and $G_2$ is a bijective [[function]] $f$ such that $G_1^{v, v'} \equiv G_2^{f\ v, f\ v'}$
+> **definition**: in my [[math-notation]], a _graph isomorphism_ between two [[graph]]s $G_1$ and $G_2$ is a bijective [[function]] $f$ such that $G_1^{v, w} \equiv G_2^{f\ v, f\ w}$
 
 > **definition**: in [[classical-math-notation]], a _graph isomorphism_ between two [[graph]]s $\braket{V_1, E_1}$ and $\braket{V_2, E_2}$ is a bijective [[function]] $f$ from $V_1$ to $V_2$ such that any two vertices $a$ and $b$ in $V_1$ have an edge in $E_1$ connecting them if and only if $f\ a$ and $f\ b$ have an edge in $E_2$ connecting them.
 

@@ -13,9 +13,9 @@ see [[economics]]
 
 ### formula
 
-$CPI_t = C_t - C_0$, where
+$\text{CPI}_t = C_t - C_0$, where
 
-$CPI_t$ is the consumer price index in current period
+$\text{CPI}_t$ is the consumer price index in current period
 
 $C_t$ is the cost of the market basket in current period
 
