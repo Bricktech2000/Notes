@@ -8,7 +8,7 @@ _a language for the next 40 years_
 
 ## safety features
 
-[[rust]] borrows many features from [[functional-programming]] and makes them easy to use. for instance, [[rust]] has `Option`s instead of `null` pointers, and it has `Result`s instead of `try catch` exceptions.
+[[rust]] borrows many features from [[functional-programming]] and makes them easy to use. for instance, [[rust]] has `Option`s instead of [[null]] pointers, and it has `Result`s instead of `try catch` exceptions.
 
 accessing out-of-bounds memory causes either a compile time error or a `panic!` at runtime instead of maybe or maybe not causing a segfault
 

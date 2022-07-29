@@ -348,3 +348,21 @@ $A \vdash B$ is not the same as $/A \lor B$
 $A \vdash B$ has an implied "the operator yields _false_ if and only if there is a possibility the truth table yields _false_"
 
 $/A \lor B$ has an implied "the operator yields _true_ if and only if there is a possibility the truth table yields _true_"
+
+---
+
+# todo
+
+p indented
+
+cite tags
+
+https://example.com/
+
+---
+
+[[the-worst-programming-language-ever]]
+
+[[carbon-language-talk]]
+
+---

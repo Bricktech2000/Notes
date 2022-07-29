@@ -72,7 +72,7 @@ in file names, spaces are replaced by [[dash]]es and apostrophes and diacritics 
 
 box titles are generated with <https://lingojam.com/BoldTextGenerator>
 
-all internal links are denoted using `[[wiki-link]]` and `![[image.png]]`, and all external links are denoted using `<https://example.com/>`
+all internal links are denoted using `[[note]]` and `![[image.png]]`, and all external links are denoted using `<https://example.com/>`
 
 ### note, theorem, proof, definition
 
@@ -96,101 +96,118 @@ all constructs below can be multiline
 
 ### syntax used
 
-# h1
-
-## h2
-
-### h3
-
-_italics_
-
-**bold**
-
-`inline code`
-
-```javascript
-// code block
-console.log(() => 'Fira Code Ligatures');
-```
-
-- unordered
-- list
-
-1. ordered
-2. list
-
-$\LaTeX$
-
-#tag
-
-[[index|wiki-link]]
-
-<https://example.com/>
-
-![[2022-03-19-00-57-20.png]]
-
-```mermaid
-graph LR
-  mermaid --> support
-```
-
-> blockquote
-
-| table |     |
-| ----- | --- |
-| 1     |     |
-| 2     |     |
-| 3     |     |
+> # h1
+>
+> ## h2
+>
+> ### h3
+>
+> _italics_
+>
+> **bold**
+>
+> `inline code`
+>
+> ```javascript
+> // code block
+> console.log(() => 'Fira Code Ligatures');
+> ```
+>
+> - unordered
+> - list
+>
+> 1. ordered
+> 2. list
+>
+> $\LaTeX$
+>
+> #tag
+>
+> [[index|wiki-link]]
+>
+> <https://example.com/>
+>
+> ![[2022-03-19-00-57-20.png]]
+>
+> ```mermaid
+> graph LR
+> mermaid --> support
+> ```
+>
+> > blockquote
+>
+> | table |     |
+> | ----- | --- |
+> | 1     |     |
+> | 2     |     |
+> | 3     |     |
 
 ### unused syntax
 
-$$
-\text{Block } \LaTeX
-$$
-
-emojis :smile:
-
-- [ ] task
-- [x] list
-
----
-
-horizontal rule
+> $$
+> \text{Block } \LaTeX
+> $$
+>
+> emojis :smile:
+>
+> - [ ] task
+> - [x] list
+>
+> ---
+>
+> horizontal rule
 
 ## PDF export conventions
 
+see [[matrix]] for an example application of report-style PDF export conventions
+
+the following scripts are to be appended to any page before it is exported
+
 <!-- see `settings.json` for sources -->
 
-see [[eng1112-report-2]] for an example application of the conventions outlined below
+```txt
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js"></script><script>window.MathJax = {tex: {inlineMath: [['$', '$']]}, messageStyle: "none"};</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([a-zA-Z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`).replace(/#[a-zA-Z0-9\-]+/g, (a) => `<u style="text-transform: lowercase;">${a}</u>`).replace(/!\[\[(.+)\]\]/g, (a, b) => `<img src="${b}" />`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } img { border-radius: 4px; } </style>
+```
+
+## report-style PDF export conventions
+
+see [[eng1112-report-2]] for an example application of report-style PDF export conventions
+
+the following stylesheet is to be appended to any report-style document
+
+```txt
+<style> p { text-indent: 40px; } blockquote > p { text-indent: 0; } hr { opacity: 0; page-break-after: always; } cite { display: inline-block; text-indent: -40px; margin-top: 1rem; font-style: inherit; text-align: justify; } </style>
+```
 
 ### syntax used
 
-page break
+> ---
+>
+> horizontal rules act as page breaks
 
-<p style="page-break-after: always" />
+paragraphs have their first line indented &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-<p style="margin-left: 40px;">
-fully indented paragraph &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-</p>
-</p>
-
-<p style="margin-left: 40px; text-indent: -40px;">
-paragraph with all but its first line indented &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-</p>
-
-&emsp;&emsp; paragraph with only its first line indented &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<cite>citations have all but their first line indented &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</cite>
 
 ### unused syntax
 
-<div class="theorem">This is a theorem.</div>
-<div class="lemma">This is a lemma.</div>
-<div class="definition">This is a definition.</div>
-<div class="proof">This is a proof.</div>
+> <div class="theorem">This is a theorem.</div>
+> <div class="lemma">This is a lemma.</div>
+> <div class="definition">This is a definition.</div>
+> <div class="proof">This is a proof.</div>
 
-> **note**: the elements above are not used in my [[index|conceptual-notes]] as they are not natively supported in Markdown. this "quote with bold text" format is used instead
+## presentation-style note conventions
 
-### LaTeX & Wiki Link Support
+see [[vim-talk]] and [[carbon-language-talk]] for example applications of presentation-style note conventions
 
-by convention, the following scripts are to be appended to any page before it is exported
+presentation-style notes are viewed using Obisdian's _Start presentation_ feature
 
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js"></script><script>window.MathJax = {tex: {inlineMath: [['$', '$']]}, messageStyle: "none"};</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([a-zA-Z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`).replace(/#[a-zA-Z0-9\-]+/g, (a) => `<u style="text-transform: lowercase;">${a}</u>`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } </style>
+slides are seperated by using horizontal rules, `---`
+
+headings and content can optionally be seperated using an HTML line break, `<br>`
+
+personal comments and notes are to be written between `<?` and `?>` tags, and not between `<!--` and `-->` tags
+
+level-3 headings are not used as they look too similar to level-2 headings on Obsidian. there can be multiple level-1 headings in one presentation
+
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js"></script><script>window.MathJax = {tex: {inlineMath: [['$', '$']]}, messageStyle: "none"};</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([a-zA-Z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`).replace(/#[a-zA-Z0-9\-]+/g, (a) => `<u style="text-transform: lowercase;">${a}</u>`).replace(/!\[\[(.+)\]\]/g, (a, b) => `<img src="${b}" />`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } img { border-radius: 4px; } </style>

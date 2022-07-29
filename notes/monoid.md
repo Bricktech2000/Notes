@@ -1,6 +1,6 @@
 # Monoid
 
-it is said that _[elements of a [[set]]] with [identity] form a [[monoid]] under [[[operator]]]_. for example, _[[natural]]s with $0$ for a [[monoid]] under addition_
+it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] under [an [[operator]]]_. for example, _[[natural]]s with $0$ for a [[monoid]] under addition_
 
 ## definition
 

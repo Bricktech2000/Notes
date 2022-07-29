@@ -1,31 +1,34 @@
 # Vim
 
-<br><br>
+<?
+see [[public-speaking]]
 
-[//]: # 'see [[public-speaking]]'
-[//]: # 'prep:'
-[//]: # 'open new VSCode window'
-[//]: # 'turn on screen cast mode'
-[//]: # 'open MosaicLarge in window'
-[//]: # 'open demo table in window'
-[//]: # 'zoom in 3x'
-
----
-
-## Background
-
-<br><br>
-
-[//]: # 'a set of key bindings?'
-[//]: # 'efficient'
+prep:
+- open new VSCode window
+- turn on screen cast mode
+- open MosaicLarge in window
+- open [[vim-talk-demo]] in window
+- zoom in 3x
+?>
 
 ---
 
-## Modes
+# Background
 
-<br><br>
+<?
+a set of key bindings?
+efficient
+?>
 
-[//]: # 'I and ESC'
+---
+
+# Modes
+
+<br>
+
+<?
+I and ESC
+?>
 
 ```mermaid
 graph TD
@@ -45,15 +48,13 @@ N --- C
 
 ## Normal Mode
 
-<br><br>
-
 ---
 
 ## Normal Mode
 
 #### Motion Commands
 
-<br><br>
+<br>
 
 |                        |              |
 | ---------------------- | ------------ |
@@ -61,7 +62,9 @@ N --- C
 | _w_                    | word         |
 | \_                     | line         |
 
-[//]: # 'USE NUMBERS'
+<?
+USE NUMBERS
+?>
 
 ---
 
@@ -69,7 +72,7 @@ N --- C
 
 #### Verb Commands
 
-<br><br>
+<br>
 
 |              |             |
 | ------------ | ----------- |
@@ -77,7 +80,9 @@ N --- C
 | **y**        | yank (copy) |
 | **p**        | paste       |
 
-[//]: # 'nothing happened...'
+<?
+nothing happened...
+?>
 
 ---
 
@@ -85,7 +90,7 @@ N --- C
 
 #### Phrases
 
-<br><br>
+<br>
 
 |                  |                  |
 | ---------------- | ---------------- |
@@ -95,15 +100,17 @@ N --- C
 | **d**2\_         | delete two lines |
 | $\dots$          | $\dots$          |
 
-[//]: # 'easy to remember, switch keyboard layouts'
+<?
+easy to remember, switch keyboard layouts
+?>
 
 ---
 
-## Demo
-
-<br><br>
+# Demo
 
 ---
 
-[//]: # 'learn Vim!'
-[//]: # 'disadvantage: frustrating'
+<?
+learn Vim!
+disadvantage: frustrating
+?>

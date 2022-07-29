@@ -6,7 +6,7 @@ _the OG with UB_
 
 ## array indexing quirk
 
-```C++
+```Cpp
 #include <iostream>
 
 int main()
@@ -37,4 +37,4 @@ pros:
 
 cons:
 
-- memory unsafety (use after free, double free, memory leaks, buffer overreads and overwrites, null pointers, data races...)
+- memory unsafety (use after free, double free, memory leaks, buffer overreads and overwrites, [[null]] pointers, data races...)

@@ -7,3 +7,7 @@
 [[rational-function]]
 
 [[stoichiometry]], [[thermochemistry]]
+
+[[education]]
+
+[[the-worst-programming-language-ever]]

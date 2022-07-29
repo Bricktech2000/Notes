@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>conventions.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+<link rel="stylesheet" href="https://latex.vercel.app/style.css" type="text/css">
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="%F0%9F%85%B2%F0%9F%85%BE%F0%9F%85%BD%F0%9F%86%85%F0%9F%85%B4%F0%9F%85%BD%F0%9F%86%83%F0%9F%85%B8%F0%9F%85%BE%F0%9F%85%BD%F0%9F%86%82">🅲🅾🅽🆅🅴🅽🆃🅸🅾🅽🆂</h1>
+<h2 id="general-conventions">general conventions</h2>
+<h3 id="latex">LaTeX</h3>
+<p>LaTeX is used for all mathematical equations through my custom [[math-notation]]</p>
+<p>variables are defined in separate lines using a <em>, where</em> statement</p>
+<p>whitespace in formulas follow programming-language-like conventions</p>
+<p>[[si]] units and other units are to be written using <code>\text{}</code></p>
+<p>the $\ : $ [[operator]] must always be surrounded one space on either side, or written as the first character of an equation as <code>$\ : $</code></p>
+<p>the $\rightarrow$ [[operator]] is written as <code>\to</code> by default, and must be written as <code>\rightarrow</code> when it indicates a [[math-notation]] [[function]] definition</p>
+<p><code>\R</code>, <code>\N</code>, <code>\Z</code>, <code>\{</code> and <code>\}</code> must not be used, as they are not widely supported. <code>\mathbb R</code>, <code>\mathbb N</code>, <code>\mathbb Z</code>, <code>\lbrace</code> and <code>\rbrace</code> should be used instead, respectively.</p>
+<p><code>\\</code> must be replaced by <code>\\\</code> for them to work properly. see the following discussion: <a href="https://github.com/mathjax/MathJax/issues/1301">https://github.com/mathjax/MathJax/issues/1301</a></p>
+<p>more information about supported features available at: <a href="https://katex.org/docs/supported.html">https://katex.org/docs/supported.html</a></p>
+<h3 id="headings">headings</h3>
+<p>capitalized headings are for [[concept]]s</p>
+<p>lowercease headings are for general titles</p>
+<p>the following headings are commonly used:</p>
+<ul>
+<li><strong>definition</strong></li>
+<li><strong>notation</strong></li>
+<li><strong>representation</strong></li>
+<li><strong>types</strong></li>
+<li><strong>applications</strong></li>
+<li><strong>example</strong></li>
+<li><strong>counterexample</strong></li>
+<li><strong>theorems</strong></li>
+<li><strong>definitions</strong></li>
+<li><strong>properties</strong></li>
+<li><strong>procedure</strong></li>
+<li><strong>pros &amp; cons</strong></li>
+<li><strong>see</strong></li>
+</ul>
+<h3 id="quotes-italics-bold-sources-urls">quotes, italics, bold, sources, URLs</h3>
+<p>blockquotes are used for [[fact]]ual information and definitions</p>
+<p>italics are used for tricks and personal definitions and to replace quotation marks. bold is used for emphasis. italics must not be used for emphasis and quotation marks are to be avoided</p>
+<p><em>— ...</em> statements are used for citing sources</p>
+<p>all external URLs are denoted using <em>&lt;...&gt;</em> statements</p>
+<h3 id="note-system">note system</h3>
+<p>wiki links are generally avoided in headings</p>
+<p>a page can link to itself</p>
+<p><em>see ...</em> statements are for prerequisites</p>
+<p>note names are all <em>-ing</em> verbal groups or singular nominal groups</p>
+<p>horizontal rules are occasionally used to separate a whole file in different sections</p>
+<p>each page has one title case first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule</p>
+<p>in file names, spaces are replaced by [[dash]]es and apostrophes and diacritics are removed</p>
+<p>box titles are generated with <a href="https://lingojam.com/BoldTextGenerator">https://lingojam.com/BoldTextGenerator</a></p>
+<p>all internal links are denoted using <code>[[note]]</code> and <code>![[image.png]]</code>, and all external links are denoted using <code>&lt;https://example.com/&gt;</code></p>
+<h3 id="note-theorem-proof-definition">note, theorem, proof, definition</h3>
+<p>all constructs below can be multiline</p>
+<blockquote>
+<p><strong>note</strong>: this is a note to clarify the previous statement</p>
+</blockquote>
+<blockquote>
+<p><strong>theorem</strong>: this is a theorem — this is an optional source</p>
+</blockquote>
+<blockquote>
+<p><strong>theorem</strong>: <em>theorem name</em></p>
+<p>this is a theorem — this is an optional source</p>
+</blockquote>
+<blockquote>
+<p><strong>proof</strong>: this is a proof of the above theorem — this is an optional source</p>
+</blockquote>
+<blockquote>
+<p><strong>proof</strong>: — this is a source</p>
+</blockquote>
+<blockquote>
+<p><strong>definition</strong>: <em>term</em> is a term that is defined here — this is an optional source</p>
+</blockquote>
+<blockquote>
+<p><strong>AKA</strong>: this is a list of synonyms for a concept, &quot;also known as&quot;</p>
+</blockquote>
+<h3 id="syntax-used">syntax used</h3>
+<blockquote>
+<h1 id="h1">h1</h1>
+<h2 id="h2">h2</h2>
+<h3 id="h3">h3</h3>
+<p><em>italics</em></p>
+<p><strong>bold</strong></p>
+<p><code>inline code</code></p>
+<pre class="hljs"><code><div><span class="hljs-comment">// code block</span>
+<span class="hljs-built_in">console</span>.log(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> <span class="hljs-string">'Fira Code Ligatures'</span>);
+</div></code></pre>
+<ul>
+<li>unordered</li>
+<li>list</li>
+</ul>
+<ol>
+<li>ordered</li>
+<li>list</li>
+</ol>
+<p>$\LaTeX$</p>
+<p>#tag</p>
+<p>[[index|wiki-link]]</p>
+<p><a href="https://example.com/">https://example.com/</a></p>
+<p>![[2022-03-19-00-57-20.png]]</p>
+<pre><code class="language-mermaid"><div class="mermaid">graph LR
+mermaid --> support
+</div></code></pre>
+<blockquote>
+<p>blockquote</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>table</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<h3 id="unused-syntax">unused syntax</h3>
+<blockquote>
+<p>$$
+\text{Block } \LaTeX
+$$</p>
+<p>emojis <img class="emoji" alt="smile" src="data:image/png;base64,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" /></p>
+<ul>
+<li><input type="checkbox" id="checkbox0"><label for="checkbox0">task</label></li>
+<li><input type="checkbox" id="checkbox1" checked="true"><label for="checkbox1">list</label></li>
+</ul>
+<hr>
+<p>horizontal rule</p>
+</blockquote>
+<h2 id="pdf-export-conventions">PDF export conventions</h2>
+<!-- see `settings.json` for sources -->
+<p>see [[eng1112-report-2]] for an example application of the conventions outlined below</p>
+<h3 id="syntax-used">syntax used</h3>
+<blockquote>
+<hr>
+<p>page break</p>
+<p>paragraphs are indented by default</p>
+</blockquote>
+<p style="page-break-after: always" />
+<p style="margin-left: 40px;">
+fully indented paragraph &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+</p>
+<p style="margin-left: 40px; text-indent: -40px;">
+paragraph with all but its first line indented &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+<p>   paragraph with only its first line indented — lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<h3 id="unused-syntax">unused syntax</h3>
+<blockquote>
+<div class="theorem">This is a theorem.</div>
+<div class="lemma">This is a lemma.</div>
+<div class="definition">This is a definition.</div>
+<div class="proof">This is a proof.</div>
+</blockquote>
+<blockquote>
+<p><strong>note</strong>: the elements above are not used in my conceptual notes as they are not natively supported in Markdown. this &quot;quote with bold text&quot; format is used instead</p>
+</blockquote>
+<h3 id="latex--wiki-link-support">LaTeX &amp; Wiki Link Support</h3>
+<p>by convention, the following scripts are to be appended to any page before it is exported</p>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js"></script><script>window.MathJax = {tex: {inlineMath: [['$', '$']]}, messageStyle: "none"};</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([a-zA-Z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`).replace(/#[a-zA-Z0-9\-]+/g, (a) => `<u style="text-transform: lowercase;">${a}</u>`).replace(/!\[\[(.+)\]\]/g, (a, b) => `<img src="${b}" />`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } img { border-radius: 4px; } </style>
+<p>and the following stylesheet is to be appended to any report-style document</p>
+<style> p { text-indent: 40px; } blockquote > p { text-indent: 0; } hr { opacity: 0; page-break-after: always; } cite { display: inline-block; margin-left: 40px; text-indent: -40px; margin-top: 1rem; font-style: inherit; text-align: justify; } </style>
+
+</body>
+</html>

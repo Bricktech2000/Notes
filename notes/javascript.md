@@ -45,4 +45,6 @@ b == c; // true
 a == c; // false
 ```
 
+&mdash; <https://youtu.be/vcFBwt1nu2U?t=1290> &mdash; JavaScript: The Good Parts, by Douglas Crockford
+
 &mdash; weak equality is **not** transitive in [[javascript]]

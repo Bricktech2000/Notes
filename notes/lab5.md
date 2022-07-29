@@ -13,7 +13,7 @@
   April 8th, 2022<br>
 </center>
 
-<p style="page-break-after: always" />
+---
 
 <center>
   <h1>
@@ -113,7 +113,7 @@ The experimental and expected data matched completely. We met the objectives of 
 - We had to use a manual reset signal for **Part III** as Quartus would set all outputs to `undefined` otherwise.
 - It was unclear whether the gates used had to be active high or active low.
 
-<p style="page-break-after: always" />
+---
 
 <center>
   <h1>
@@ -183,4 +183,6 @@ graph LR
 
 - We had to use an outdated version of Quartus for the labs, which often breaks for no apparent reason. The errors we received were unrelated to the actual issues in our circuits, making debugging very annoying.
 
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js"></script><script>window.MathJax = {tex: {inlineMath: [['$', '$']]}, messageStyle: "none"};</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([a-zA-Z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`).replace(/#[a-zA-Z0-9\-]+/g, (a) => `<u style="text-transform: lowercase;">${a}</u>`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } </style>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js"></script><script>window.MathJax = {tex: {inlineMath: [['$', '$']]}, messageStyle: "none"};</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([a-zA-Z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`).replace(/#[a-zA-Z0-9\-]+/g, (a) => `<u style="text-transform: lowercase;">${a}</u>`).replace(/!\[\[(.+)\]\]/g, (a, b) => `<img src="${b}" />`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } img { border-radius: 4px; } </style>
+
+<style> p { text-indent: 40px; } blockquote > p { text-indent: 0; } hr { opacity: 0; page-break-after: always; } cite { display: inline-block; text-indent: -40px; margin-top: 1rem; font-style: inherit; text-align: justify; } </style>

@@ -13,8 +13,16 @@ languages in the order I learned them:
 5. [[rust]]
 6. [[java]] (forced in university)
 
+[[esoteric-programming-language-idea]]
+
+[[the-worst-programming-language-ever]]
+
+[[markup-language-idea]]
+
 ## see
 
 [[statement]]
 
 [[expression]]
+
+[[null]]
