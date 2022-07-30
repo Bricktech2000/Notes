@@ -1,6 +1,6 @@
 # Markup Language Idea
 
-this [[markup-language-idea]] is meant to address the main issue with Markdown: inconsistency.
+this [[markup-language-idea]] is meant to address the main issue with Markdown in my opinion: inconsistency.
 
 in this [[programming-language]],
 
@@ -32,8 +32,6 @@ in this [[programming-language]],
 `###` represents a file-wide separation (not a horizontal rule)
 
 ## not-so-semantic constructs
-
-`"` is used for a piece of format-free literal text
 
 `/` is used for comments
 
@@ -91,7 +89,6 @@ third line
     block
   ` language
     code block
-  " literal block
   $ \text{block}
     \LaTeX
 
@@ -115,8 +112,6 @@ _italics_
 
 `code`
 
-"literal"
-
 /inline comment/
 
 $\LaTeX$
@@ -124,7 +119,7 @@ $\LaTeX$
 <filename.link>
 ```
 
-## additional examples
+## nesting examples
 
 ### source code
 
@@ -136,7 +131,7 @@ $\LaTeX$
   - list item 2
 
 - first, a quote:
-  | quote in ordered list
+  | quote in a list
 - then, some code:
  ` rust
    if true {
@@ -145,7 +140,7 @@ $\LaTeX$
 
 if you're interested, click here! <https://example.com/>
 
-with my "conceptual notes" <conceptual-note-taking>
+with my conceptual\ notes <conceptual-note-taking>
 
 this person said that |it wasn't fair|
 
@@ -183,7 +178,7 @@ you can run it with `python hello_world.py`
 > - list item 2
 
 - first, a quote:
-  > quote in ordered list
+  > quote in a list
 - then, some code:
   ```rust
   if true {
@@ -224,3 +219,5 @@ print("hello world")
 ```
 
 you can run it with `python hello_world.py`
+
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js"></script><script>window.MathJax = {tex: {inlineMath: [['$', '$']]}, messageStyle: "none"};</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([a-zA-Z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`).replace(/#[a-zA-Z0-9\-]+/g, (a) => `<u style="text-transform: lowercase;">${a}</u>`).replace(/!\[\[(.+)\]\]/g, (a, b) => `<img src="${b}" />`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } img { border-radius: 4px; } </style>

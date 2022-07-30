@@ -1,5 +1,7 @@
 # Process-Oriented
 
+> **AKA** System-Oriented
+
 most of our culture is outcome-oriented instead of process-oriented. here are some examples of this observation:
 
 - school doesn’t focus on what you learn; rather, it focuses on your grades
@@ -7,6 +9,14 @@ most of our culture is outcome-oriented instead of process-oriented. here are so
 focusing on outcomes can lead to [[feeling-overwhelmed]] and can prevent people from even starting the process itself (which could be wrongly rationalized as a lack of [[motivation]] or as [[laziness]])
 
 &mdash; <https://youtu.be/\_ZVGXmafWqY?t=72>
+
+## disadvantages of goals
+
+- successful and unsuccessful people share the same goals, so therefore the goal cannot be what differentiates winners from loosers
+- achieving a goal only feels good for that moment in time, but then hinders longer-term progress as your modivation quickly fades afterwards
+- goals can create an _either-or_ conflict: either you achieve the goal or you don't, even if you were making progress in the right direction
+
+&mdash; <https://youtu.be/PZ7lDrwYdZc?t=215>
 
 ## example with jobs
 
@@ -26,11 +36,11 @@ I don’t like goals as they feel like a reason to fail. I prefer not setting go
 
 ### “the process”
 
-let’s suppose I want to develop muscles; that’s the goal. arguably, the best habit to reach this goal is a daily visit to the gym. and that’s the mistake right there.
+let’s suppose I want to develop muscles; that’s the goal. arguably, the best [[habit]] to reach this goal is a daily visit to the gym. and that’s the mistake right there.
 
-in order to stick to this habit, I would have to learn to **appreciate going to the gym**. the end goal of developing muscles is not what should be focused on; instead, my main focus should be on **making the habit enjoyable**.
+in order to stick to this [[habit]], I would have to learn to **appreciate going to the gym**. the end goal of developing muscles is not what should be focused on; instead, my main focus should be on **making the [[habit]] enjoyable**.
 
-a few seconds is enough to realize that the goal that was set isn’t even reachable. no one will wake up one day and think: _alright, I’d say I’m done developing muscles now_. what’s worse is that this goal I would’ve set would’ve been to better myself, to better the way I feel about life. ironically, what would actually dictate the way I feel about life is the enjoyment of the habit itself, not the mirage that is this delusional goal.
+a few seconds is enough to realize that the goal that was set isn’t even reachable. no one will wake up one day and think: _alright, I’d say I’m done developing muscles now_. what’s worse is that this goal I would’ve set would’ve been to better myself, to better the way I feel about life. ironically, what would actually dictate the way I feel about life is the enjoyment of the [[habit]] itself, not the mirage that is this delusional goal.
 
 > it’s all about the process.
 

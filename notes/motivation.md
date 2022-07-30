@@ -1,3 +1,3 @@
 # Motivation
 
-currently used for backlinks
+used for backlinks
