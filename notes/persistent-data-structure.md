@@ -6,6 +6,8 @@ see [[data-structure]]
 
 > **note**: not to be confused with _persistent_ data storage
 
+[[persistent-data-structure]]s often use _structural sharing_ to improve performance
+
 ## examples
 
 ### Git

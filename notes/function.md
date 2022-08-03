@@ -330,6 +330,12 @@ even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it w
 
 of course, any [[function]] can be thought of as having side effects. for example, running a pure [[function]] on a CPU still consumes a measurable amount of [[energy]], modifying the entropy of the universe. &mdash; <https://youtu.be/APUCMSPiNh4?t=2594>. practically, however, this definition is useful
 
+## Higher-Order Function
+
+> **definition**: a _higher-order function_ is a [[function]] that takes a [[function]] as argument or returns a [[function]]
+
+> **definition**: a _first-order function_ is a [[function]] whose arguments and return values are not [[function]]s
+
 ## Parametrically Polymorphic Function
 
 > **definition**: a [[function]] is said to be _parametrically polymorphic_ if it is possible to replace the type of its input with a different type without having any effect on its behavior. such functions can be implemented with the same "formula" for any type. &mdash; <https://youtu.be/aIOMRqiwziM?t=540>

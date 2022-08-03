@@ -71,3 +71,7 @@
 [[category-theory]]
 
 [[habit]]
+
+[[finance]]
+
+[[car]]

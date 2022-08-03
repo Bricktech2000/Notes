@@ -12,9 +12,15 @@ used for backlinks
 
 <https://youtu.be/64xcgvEJ3Ys?t=103>
 
+[[10x-developer]]
+
 <https://youtu.be/ILt1j3xEmw0?t=389>
 
 <https://youtu.be/HJ4xoxYAya4?t=168>
+
+<https://youtu.be/O7wFP1Z5KQY?t=427> (and rest of video)
+
+<https://youtu.be/fQeqsn7JJWA?t=147>
 
 ## stuff I don't relate to
 

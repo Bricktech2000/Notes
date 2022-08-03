@@ -2,7 +2,7 @@
 
 _turns a diagonal [[function]] into horizontal [[function]] in the effects world_
 
-> **AKA**: `>>=`, `flatMap`, `SelectMany`, Sequential Composition, `and_then`
+> **AKA**: `>>=`, `flatMap`, `SelectMany`, Sequential Composition, `and_then` in Rust
 
 see [[functional-programming]]
 

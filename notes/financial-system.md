@@ -28,7 +28,7 @@ Financial Institutions can be grouped in to categories
 
 > **definition**: _Financial Intermediaries_ are financial institutions through which savers can directly provide funds to borrowers
 
-a bank is a financial intermediary. its primary purpose is to use deposits from savers to load money to borrowers
+a [[bank]] is a financial intermediary. its primary purpose is to use deposits from savers to load money to borrowers
 
 > **definition**: a _Mutual Fund_ is an institution that sells shares to the public to buy a portfolio of stocks and bonds. this allows for diversification, but requires access to the skills of professional money managers
 

@@ -26,3 +26,16 @@ languages in the order I learned them:
 [[expression]]
 
 [[null]]
+
+[[parser]]
+
+## Building a Language
+
+see [[backus-naur-form]], [[abstract-syntax-tree]], [[parser]]
+
+### representation
+
+```mermaid
+graph TD;
+A(<b>Source Code</b><br>print 5) --> B(<b>Tokenizer</b><br><em>Lexical Analysis</em>) --> C(<b>Tokens</b><br>ID: print<br>number: 5) --> D(<b>Parser</b><br><em>syntactic analysis</em>) --> E(<b>Abstract Syntax Tree</b><br>Function Call:<br>name: print<br>args: 5,) --> F(<b>Interpreter</b> or<br><b>Code Generator</b><br><em>semantic analysis</em>) --> G(<b>Output</b><br>5)
+```

@@ -2,7 +2,7 @@
 
 _turns a nested [[effect-type]] into a normal [[effect-type]]_
 
-> **AKA**: #todo
+> **AKA**: `flatten` in Rust
 
 see [[functional-programming]]
 
@@ -22,13 +22,13 @@ see [[monad]], [[bind]]
 
 [[join]] can be used to define [[bind]], as follows:
 
-let a [[function]] `f :: a -> M a`. then,
+let a [[function]] `f :: a -> M b`. then,
 
-`bind :: (a -> M a) => M a -> b`
+`bind :: (a -> M b) -> M a -> b`
 
-`bind f m = join (fmap f m)`, where
+`bind f ma = join (fmap f ma)`, where
 
-`m` is a [[monad]] constructor
+`ma` is a [[monad]]
 
 `f` is a "world-crossing" [[function]]
 

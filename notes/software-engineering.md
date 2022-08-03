@@ -8,7 +8,7 @@ unit testing
 
 version control
 
-[[functional-programming]], [[object-oriented-programming]] (programming paradigms)
+[[functional-programming]], [[object-oriented-programming]], imperative programming (programming paradigms)
 
 [[refactoring-to-immutability]]
 
