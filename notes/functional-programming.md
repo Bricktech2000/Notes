@@ -16,6 +16,10 @@
 
 &mdash; <https://youtu.be/c_F1o_so2MQ>
 
+## properties
+
+[[functional-programming]] is both _procedural_ and _functional_, see [[programming-paradigm]]
+
 ## principles
 
 [[function]]s are things

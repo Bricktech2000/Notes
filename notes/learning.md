@@ -75,3 +75,5 @@
 [[finance]]
 
 [[car]]
+
+[[life-long-investing]]

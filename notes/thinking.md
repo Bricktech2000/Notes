@@ -2,6 +2,8 @@
 
 [[random-thinking]]
 
+[[random-ideas]]
+
 [[math-notation]]
 
 [[new-ui-for-enrolling-to-classes]]

@@ -4,8 +4,6 @@
 
 [[interesting-electives]]
 
-[[life-long-investing]]
-
 [[90u-guard-log]]
 
 [[notion-time-management]]
@@ -21,5 +19,7 @@
 [[recipes]]
 
 [[vim-talk]]
+
+[[carbon-language-talk]]
 
 [[discord-statuses]]

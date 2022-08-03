@@ -22,6 +22,10 @@ used for backlinks
 
 <https://youtu.be/fQeqsn7JJWA?t=147>
 
+<https://youtu.be/YNQDp3v-VGE?t=121>
+
+<https://youtu.be/xFFs9UgOAlE?t=1135> (and in comments)
+
 ## stuff I don't relate to
 
 > **AKA**: difficult, overwhelming, "boring', complicated

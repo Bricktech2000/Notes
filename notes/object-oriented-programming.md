@@ -2,7 +2,13 @@
 
 see [[object]], [[class]]
 
-the goal of [[object-oriented-programming]] is to build objects based on their real-world properties, in contrast to [[functional-programming]] or to procedural programming
+## properties
+
+[[object-oriented-programming]] is both _object-oriented_ and _imperative_, see [[programming-paradigm]]
+
+## principles
+
+the goal of [[object-oriented-programming]] is to build objects based on their real-world properties
 
 ## Greatness of OOP
 
@@ -11,6 +17,8 @@ the goal of [[object-oriented-programming]] is to build objects based on their r
 <https://youtu.be/_xLgr6Ng4qQ>
 
 <https://youtu.be/IRTfhkiAqPw>
+
+<https://youtu.be/agTmccNAXlI>
 
 ## Pillars of OOP
 
