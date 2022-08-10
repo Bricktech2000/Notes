@@ -10,7 +10,7 @@ variables are defined in separate lines using a _, where_ statement
 
 whitespace in formulas follow programming-language-like conventions
 
-[[si]] units and other units are to be written using `\text{}`
+[[international-system-of-units]] units and other units are to be written using `\text{}`
 
 the $\ : $ [[operator]] must always be surrounded one space on either side, or written as the first character of an equation as `$\ : $`
 

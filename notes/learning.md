@@ -54,7 +54,7 @@
 
 [[public-speaking]]
 
-[[si]]
+[[international-system-of-units]]
 
 [[combinatory-logic]]
 
@@ -77,3 +77,5 @@
 [[car]]
 
 [[life-long-investing]]
+
+[[switching-cost]]

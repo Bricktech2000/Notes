@@ -1,6 +1,6 @@
 # Solid Angle
 
-see [[math-notation]], [[si]]
+see [[math-notation]], [[international-system-of-units]]
 
 $[\tau \text{ rad}]2 = \tau2 \text{ sr} = 1 \text{ surface}$, the surface of a [[sphere]]
 

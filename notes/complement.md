@@ -4,7 +4,7 @@ _used to simplify subtraction by instead performing addition with the number’s
 
 it is one of the ways of representing negative [[number]]s in [[digital-system]]s and is usually preferred over [[sign-magnitude-notation]]
 
-there are two different complements for a given [[positional-numbering-system]], outlined below.
+there are two different complements for a given [[positional-numeral-system]], outlined below.
 
 &mdash; <https://www.quora.com/In-computing-what-is-16-s-complement-Why-is-it-used>
 

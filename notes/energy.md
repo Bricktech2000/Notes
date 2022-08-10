@@ -1,6 +1,6 @@
 # Energy
 
-see [[math-notation]], [[si]]
+see [[math-notation]], [[international-system-of-units]]
 
 ## Kinetic Energy
 

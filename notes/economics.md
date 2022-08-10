@@ -23,3 +23,5 @@ _the study of how society manages its [[scarce-resource]]s_
 [[production-possibility-frontier]]
 
 [[options-market]], [[bond-market]], [[stock-market]], [[loanable-funds-market]]
+
+[[switching-cost]]

@@ -45,7 +45,7 @@ Publisher: Pearson-Prentice Hall
 
 [[digital-system]], [[logic-circuit]]
 
-[[positional-numbering-system]]
+[[positional-numeral-system]]
 
 [[binary]]
 

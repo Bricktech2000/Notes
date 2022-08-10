@@ -1,6 +1,6 @@
 # Concentration
 
-see [[math-notation]], [[conventional-math-notation]], [[si]]
+see [[math-notation]], [[conventional-math-notation]], [[international-system-of-units]]
 
 > In chemistry, [[concentration]] is the abundance of a constituent divided by the total [[volume]] of a mixture. Several types of mathematical description can be distinguished: [[mass]] [[concentration]], molar [[concentration]], number [[concentration]], and [[volume]] [[concentration]].
 

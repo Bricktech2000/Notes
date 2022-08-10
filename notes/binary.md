@@ -1,6 +1,6 @@
 # Binary
 
-_the base-2 [[positional-numbering-system]]_
+_the base-2 [[positional-numeral-system]]_
 
 ### pros & cons
 

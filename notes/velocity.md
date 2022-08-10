@@ -1,5 +1,5 @@
 # Velocity
 
-see [[math-notation]], [[si]]
+see [[math-notation]], [[international-system-of-units]]
 
 $V = \delta\ S - \delta t$, see [[length]]

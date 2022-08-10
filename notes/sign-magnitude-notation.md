@@ -2,7 +2,7 @@
 
 _an alternative to Radix [[complement]]s for representing negative [[number]]s in [[digital-system]]s_
 
-see [[positional-numbering-system]]
+see [[positional-numeral-system]]
 
 ### calculation
 

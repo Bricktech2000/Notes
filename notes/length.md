@@ -2,4 +2,4 @@
 
 see [[math-notation]]
 
-[[si]] unit: $\text{m}$
+[[international-system-of-units]] unit: $\text{m}$

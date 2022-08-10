@@ -2,4 +2,4 @@
 
 see [[math-notation]]
 
-[[si]] unit: $\text{K}$
+[[international-system-of-units]] unit: $\text{K}$

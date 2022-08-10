@@ -22,7 +22,7 @@ $0.0050$ has 2 significant figures
 
 ## operations
 
-assuming a base-10 [[positional-numbering-system]] and base-10 [[logarithm]]s
+assuming a base-10 [[positional-numeral-system]] and base-10 [[logarithm]]s
 
 ### addition and subtraction
 

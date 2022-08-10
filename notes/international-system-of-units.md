@@ -1,8 +1,10 @@
-# SI
+# International System of Units
 
-> **AKA**: international system of units, SI system (pleonastically)
+> **AKA**: SI, SI system (pleonastically)
 
 _the world's most widely used system of measurement_
+
+see [[imperial-system-of-units]]
 
 ## base units
 
