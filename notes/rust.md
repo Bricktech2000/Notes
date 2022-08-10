@@ -19,7 +19,6 @@ accessing out-of-bounds memory causes either a compile time error or a `panic!` 
 _ownership and borrowing_
 
 - data can have either one mutable reference or multiple immutable references
-- #todo
 
 > _in fixing memory safety, the Rust team accidentally fixed everything_ &mdash; <https://youtu.be/Q3AhzHq8ogs?t=113>
 

@@ -1,6 +1,6 @@
 # Flawed but Established
 
-_systems that are flawed but have to high of a [[switching-cost]] to be replaced_
+_suboptimal systems that have too high of a [[switching-cost]] to be replaced_
 
 ## examples
 

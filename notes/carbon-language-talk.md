@@ -224,7 +224,7 @@ Introducer keywords and a simpler grammar.
 ---
 
 ```Kotlin
-TODO:
+...
 ```
 
 ---
@@ -234,7 +234,7 @@ Function input parameters are readonly values.
 ---
 
 ```Kotlin
-TODO:
+...
 ```
 
 ---
@@ -244,7 +244,7 @@ Pointers provide indirect access & mutation.
 ---
 
 ```Kotlin
-TODO:
+...
 ```
 
 ---
@@ -254,7 +254,7 @@ Use expressions to name types.
 ---
 
 ```Kotlin
-TODO:
+...
 ```
 
 ---
@@ -264,7 +264,7 @@ The package is the root namespace.
 ---
 
 ```Kotlin
-TODO:
+...
 ```
 
 ---
@@ -274,7 +274,7 @@ Import APIs through their package name.
 ---
 
 ```Kotlin
-TODO:
+...
 ```
 
 ---
@@ -284,7 +284,7 @@ Members are public unless declared private.
 ---
 
 ```Kotlin
-TODO:
+...
 ```
 
 ---
@@ -294,7 +294,7 @@ Explicit object parameter declares a method.
 ---
 
 ```Kotlin
-TODO:
+...
 ```
 
 ---
@@ -304,7 +304,7 @@ Single inheritance; classes are final by default.
 ---
 
 ```Kotlin
-TODO:
+...
 ```
 
 ---
@@ -314,7 +314,7 @@ Powerful, definition-checked generics.
 ---
 
 ```Kotlin
-TODO:
+...
 ```
 
 ---
@@ -324,7 +324,7 @@ Types explicitly implement interfaces.
 ---
 
 ```Kotlin
-TODO:
+...
 ```
 
 ---
@@ -334,7 +334,7 @@ Interfaces provide API extension points.
 ---
 
 ```Kotlin
-TODO:
+...
 ```
 
 ---
@@ -452,7 +452,7 @@ Governance: three-person group of leads
 
 ---
 
-TODO:
+![](20220810171543.png)
 
 ---
 

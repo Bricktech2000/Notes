@@ -73,7 +73,7 @@ the following [[series]] are useful for testing convergence:
 - $b = b^0r0 : b^0r1 : \dots$ (see geometric [[series]] convergence for proof)
 - $b = \text-[1]p : \text-[2]p : \dots$ (see [[integral]] p-test for proof)
 
-for example, determining the convergence of the [[series]] $b^n = 3[n] - 5[n] : n2$ can be done by proving it is greater than the [[series]] $b^n = 3[n] - 5[n]$ and by proving the series $b^n = 3[n] - 5[n]$ converges (seems wrong, #think)
+for example, determining the convergence of the [[series]] $b^n = 3[n] - 5[n] : n2$ can be done by proving it is lesser than the [[series]] $b^n = 3[n] - 5[n]$ and by proving the series $b^n = 3[n] - 5[n]$ converges
 
 > **theorem**: _Limit Comparison Test_
 >

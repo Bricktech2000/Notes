@@ -1,27 +1,20 @@
 # Reliable Source
 
-#todo reformulate this note and add backlinks
-
-_evaluating information is a skill that requires practice_
-
 see [[finding-sources]]
 
 ## Peer-Reviewed Sources
 
-often regarded as highly reliable
+_often regarded as highly reliable_
 
 ### downsides
 
-- mistakes can still slip by
-  _whenever judgement takes place, mistakes can be overlooked_
-- fabricated data is hard to identify
-  _fabricated data sometimes can only be identified by reproducing an experiment_
-- editor [[bias]]es can have an effect on publication
-  _journals are more likely to publish an article that agrees with a certain [[bias]]_
+- mistakes can still slip by: whenever judgement takes place, mistakes can be overlooked
+- fabricated data is hard to identify: fabricated data sometimes can only be identified by reproducing an experiment
+- editor [[bias]]es can have an effect on publication: journals are more likely to publish an article that agrees with a certain [[bias]]
 
 ## CARS method
 
-not a checklist, only a guide on what to consider
+the following is not a checklist, but rather a guide on what to consider
 
 ### Credibility
 

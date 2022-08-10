@@ -30,9 +30,9 @@ AND Florida
 
 ## Search Engines
 
-_search engines are not a source on their own, they are a way to find sources._
+_search engines are not a source on their own. they are a way to find sources_
 
 - Google Scholar is a branch of Google that specializes in finding academic sources (see [[type-of-source]]), but it might not be ideal for university reports
 - before using them, ask yourself _Why?_ **don't use search engines to save time**
-- there is no easy way to determine whether the information is reliable or useful, [[reliable-source]]
+- there is no easy way to determine whether the information is reliable or useful (see [[reliable-source]])
 - they are good for finding general information and getting an overview of a topic

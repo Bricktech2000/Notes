@@ -6,7 +6,8 @@
 
 > **definition**: _indicators_ are generalizable cues observed in people. &mdash; me
 
-indicators include
+indicators include:
+
 - the brand of one's smart phone
 - one's use of a specific operating system
 - the brand of clothes one wears
@@ -14,7 +15,7 @@ indicators include
 - the make of one's car
 - one's grades or the school one attends
 
-> **note**: indicators might actually be known as _proxies_, #todo &mdash; <https://youtu.be/0Z9RW_hhUT4>
+> **note**: indicators seem similar to _proxies_ &mdash; <https://youtu.be/0Z9RW_hhUT4>
 
 ## examples and consequences
 

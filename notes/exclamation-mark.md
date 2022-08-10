@@ -1,7 +1,11 @@
 # Exclamation Mark
 
-in [[technical-writing]], exclamation marks shouldn't be used for emphasis.
+## notation
 
-### counterexample
+_!_
 
-> Canada must prepare for a possible new wave of COVID-19 cases**!**
+## example
+
+see [[problematic-practice]]
+
+> Canada must prepare for a possible new wave of COVID-19 cases!
