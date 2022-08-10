@@ -6,7 +6,7 @@ see [[math-notation]], [[derivative-rules]], [[function]], [[calculus-notation]]
 
 ### Lagrange's notation
 
-see [[classical-math-notation]]
+see [[conventional-math-notation]]
 
 $f'(x)$, $f''(x)$, $f'''(x)$
 
@@ -14,7 +14,7 @@ $f^{(n)}(x)$
 
 ### Leibniz's Notation
 
-see [[classical-math-notation]]
+see [[conventional-math-notation]]
 
 $\frac{d}{dx}f(x) = \frac{df}{dx}$
 
@@ -30,7 +30,7 @@ $d^n f$ would then be the $n$ th [[derivative]] of $f\ x$ with respect to $x$
 
 ## definition
 
-[[classical-math-notation]]: $\frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$
+[[conventional-math-notation]]: $\frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$
 
 my [[math-notation]]: $\delta\ f\ x - \delta x = \lim_{h \to 0} f\ (x : h) \cdot f\ x - h = \lim_{x \to a} f\ x \cdot f\ a - x \cdot a$
 
@@ -64,7 +64,7 @@ $v$ is the direction [[vector-in-rn]]
 
 ### notation
 
-in [[classical-math-notation]], the following abomination:
+in [[conventional-math-notation]], the following abomination:
 
 $f_x = f'_x = \partial_x f = D_x f = D_1 f = \frac{\partial}{\partial x}f = \frac{\partial f}{\partial x}$
 

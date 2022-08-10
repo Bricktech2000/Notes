@@ -14,7 +14,7 @@ _expresses that every item in the domain satisfies a condition_
 
 in my [[math-notation]]: $P\ x \dashv \mathbb R x$
 
-in [[classical-math-notation]]: $\forall x \in \mathbb R, P(x)$
+in [[conventional-math-notation]]: $\forall x \in \mathbb R, P(x)$
 
 ## Existential Quantifier
 
@@ -24,7 +24,7 @@ _expresses that at least one item in the domain satisfies a condition_
 
 in my [[math-notation]]: $P\ x \land \mathbb R x$
 
-in [[classical-math-notation]]: $\exists x \in \mathbb R, P(x)$
+in [[conventional-math-notation]]: $\exists x \in \mathbb R, P(x)$
 
 ## quantifier negation
 

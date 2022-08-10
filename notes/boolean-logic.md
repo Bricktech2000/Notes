@@ -22,7 +22,7 @@ boolean [[operator]]s can be modeled in [[logic-circuit]]s through [[logic-gate]
 
 ### notation
 
-$\cdot$ or $\cap$ in [[classical-math-notation]] (may be omitted)
+$\cdot$ or $\cap$ in [[conventional-math-notation]] (may be omitted)
 
 $\land$ in my [[math-notation]]
 
@@ -43,7 +43,7 @@ straight-curve [[logic-gate]]. may take more than one input
 
 ### notation
 
-$+$ or $\cap$ in [[classical-math-notation]]
+$+$ or $\cap$ in [[conventional-math-notation]]
 
 $\land$ in my [[math-notation]]
 
@@ -64,7 +64,7 @@ concave-pointycurve [[logic-gate]]. may take more than one input
 
 ### notation
 
-$a'$ or $\bar a$ or $a^c$ in [[classical-math-notation]]
+$a'$ or $\bar a$ or $a^c$ in [[conventional-math-notation]]
 
 $/$ in my [[math-notation]]
 
@@ -83,7 +83,7 @@ triangle-circle [[logic-gate]]. may only take one input
 
 ### notation
 
-$\oplus$ or $\vartriangle$ in [[classical-math-notation]]
+$\oplus$ or $\vartriangle$ in [[conventional-math-notation]]
 
 $\times$ in my [[math-notation]]
 
@@ -128,7 +128,7 @@ doubleconcave-pointycurve [[logic-gate]]. if the [[logic-gate]] does not take ex
 
 ### notation
 
-$\to$ in [[classical-math-notation]]
+$\to$ in [[conventional-math-notation]]
 
 $\vdash$ and $\dashv$ in my [[math-notation]]
 
@@ -149,7 +149,7 @@ can be built by combining multiple [[logic-gate]]s. may only take one input
 
 ### notation
 
-$\harr$ or $\odot$ or $=$ in [[classical-math-notation]]
+$\harr$ or $\odot$ or $=$ in [[conventional-math-notation]]
 
 $\equiv$ in my [[math-notation]]
 
@@ -168,7 +168,7 @@ doubleconcave-pointycurve-circle [[logic-gate]]. if the [[logic-gate]] does not 
 
 see [[math-notation]] for operator precedence in my [[math-notation]]
 
-in [[classical-math-notation]]: $' \cdot + \oplus$
+in [[conventional-math-notation]]: $' \cdot + \oplus$
 
 ## identities
 

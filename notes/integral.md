@@ -16,7 +16,7 @@ see [[math-notation]], [[function]], [[antiderivative]], [[calculus-notation]]
 
 see [[calculus-notation]]
 
-in [[classical-math-notation]], with $\delta\ F\ x - \delta x = f$,
+in [[conventional-math-notation]], with $\delta\ F\ x - \delta x = f$,
 
 $F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
 

@@ -28,13 +28,13 @@ all subject to:
 
 every category has a collection of _objects_. even though objects can be anything, they are usually taken to be mathematical objects
 
-objects of a category are generally specificed by writing them in a [[set]], denoted $\lbrace 1, 2, 3 \rbrace$ in [[classical-math-notation]] and in my [[math-notation]]
+objects of a category are generally specificed by writing them in a [[set]], denoted $\lbrace 1, 2, 3 \rbrace$ in [[conventional-math-notation]] and in my [[math-notation]]
 
 ### Morphisms
 
-for any pair of objects $A$ and $B$, the category has a set of _morphisms_ from $A$ to $B$, denoted $\mathcal C(A, B) = \lbrace f, g, \dots \rbrace$ in [[classical-math-notation]].
+for any pair of objects $A$ and $B$, the category has a set of _morphisms_ from $A$ to $B$, denoted $\mathcal C(A, B) = \lbrace f, g, \dots \rbrace$ in [[conventional-math-notation]].
 
-a morphism from $A$ to $B$ is denoted as $f: A \to B$ in [[classical-math-notation]]. even though $A$ is related to $B$, $B$ is not necessarily related to $A$. they can be thought of as [[function]]s, but don't necessarily have to be.
+a morphism from $A$ to $B$ is denoted as $f: A \to B$ in [[conventional-math-notation]]. even though $A$ is related to $B$, $B$ is not necessarily related to $A$. they can be thought of as [[function]]s, but don't necessarily have to be.
 
 any number of morphisms from two objects can exist. this includes zero morphisms to an infinity of morphisms.
 
@@ -44,13 +44,13 @@ see [[composition]]
 
 let $f : A \to B$ and $g : B \to C$ be morphisms from $A$ to $B$ and $B$ to $C$. then, there must be a way to "combine" them into a morphism $h : A \to C$ from $A$ to $C$.
 
-composition is denoted through the [[operator]] $\circ$ in [[classical-math-notation]].
+composition is denoted through the [[operator]] $\circ$ in [[conventional-math-notation]].
 
 ### Identities
 
-identities are morphisms that map an object to itself. in a category, each object must have an identity morphism. the set of all identities in a category is denoted $\mathcal C(A, A) = \lbrace 1_A, \dots \rbrace$ in [[classical-math-notation]].
+identities are morphisms that map an object to itself. in a category, each object must have an identity morphism. the set of all identities in a category is denoted $\mathcal C(A, A) = \lbrace 1_A, \dots \rbrace$ in [[conventional-math-notation]].
 
-an identity is denoted as $1_A: A \to A$ or as $\textbf{id}_A : A \to A$ in [[classical-math-notation]].
+an identity is denoted as $1_A: A \to A$ or as $\textbf{id}_A : A \to A$ in [[conventional-math-notation]].
 
 ### Identity Law
 
@@ -82,7 +82,7 @@ an isomorphism is a morphism with a corresponding inverse. in the commutative di
 
 &mdash; <https://youtu.be/yAi3XWCBkDo?t=954>
 
-if there exists an isomorphism between two objects $A$ and $B$, they are said to be isomorphic, denoted $A \cong B$ in [[classical-math-notation]].
+if there exists an isomorphism between two objects $A$ and $B$, they are said to be isomorphic, denoted $A \cong B$ in [[conventional-math-notation]].
 
 > "isomorphism captures the idea that objects can be functionally the same, where the meaning of _functionally_ depends on the working category" &mdash; <https://youtu.be/yAi3XWCBkDo?t=1012>
 

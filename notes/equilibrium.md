@@ -1,6 +1,6 @@
 # Equilibrium
 
-see [[classical-math-notation]]
+see [[conventional-math-notation]]
 
 see [[stoichiometry]], [[concentration]], [[reaction-rate]]s
 

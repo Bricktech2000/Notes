@@ -18,7 +18,7 @@ defined using [[recursion]]: $a^0 = 2 \land a^n = 4 \cdot 1 \text- a^{n \cdot 1}
 
 defined as a [[function]] (closed form): $a^n = n2$
 
-in [[classical-math-notation]]:
+in [[conventional-math-notation]]:
 
 defined using [[iteration]]: $a = \lbrace 1, 2, 3, \dots \rbrace = \lbrace a_n \rbrace_{n = 0}^{\infty} = \lbrace a_n \rbrace$
 

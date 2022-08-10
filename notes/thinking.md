@@ -69,3 +69,7 @@
 [[sensory-augmentation]]
 
 [[markup-language-idea]]
+
+[[religion]]
+
+[[]]

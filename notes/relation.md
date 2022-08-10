@@ -20,7 +20,7 @@ $P$ is a [[predicate]]
 
 in my [[math-notation]]: $\mathcal R \braket{x, y}$, see [[ordered-pair]]
 
-in [[classical-math-notation]]: $x \mathcal R y$
+in [[conventional-math-notation]]: $x \mathcal R y$
 
 ## Inverse Relation
 

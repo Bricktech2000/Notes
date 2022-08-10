@@ -22,7 +22,7 @@ $S\ x = P\ x$ or $S = x \rightarrow P\ x$, where
 
 $P$ is a [[predicate]], see [[math-notation]]
 
-in [[classical-math-notation]], this abomination: $\lbrace x \mid P(x) \rbrace$
+in [[conventional-math-notation]], this abomination: $\lbrace x \mid P(x) \rbrace$
 
 ### membership
 
@@ -66,7 +66,7 @@ in other words, an element being in $A$ implies it is also in $B$
 
 $A \vdash B$ checks if $A$ is a subset of $B$
 
-in [[classical-math-notation]], $A \subseteq B$ states $A$ is a subset of $B$
+in [[conventional-math-notation]], $A \subseteq B$ states $A$ is a subset of $B$
 
 ### examples
 
@@ -82,7 +82,7 @@ _the [[set]] containing no elements_
 
 $\lbrace \rbrace$ or $(x \rightarrow \bot)$ in my [[math-notation]]
 
-$\lbrace \rbrace$ or $\varnothing$ in [[classical-math-notation]]
+$\lbrace \rbrace$ or $\varnothing$ in [[conventional-math-notation]]
 
 ### properties
 

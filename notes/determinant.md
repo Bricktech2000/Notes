@@ -62,7 +62,7 @@ $\det A = 0$ if and only if $A$ is not invertible, see [[matrix]]
 
 $\det A^- = -\det A$ if and only if $A$ is invertible, see [[matrix]]
 
-> **note**: the equation above is beautiful, as in [[classical-math-notation]], $A^{-1}$ is an inverse [[matrix]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
+> **note**: the equation above is beautiful, as in [[conventional-math-notation]], $A^{-1}$ is an inverse [[matrix]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
 
 ## intuitive explanation
 

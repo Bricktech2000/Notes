@@ -1,6 +1,6 @@
 # Buffer
 
-see [[acid-and-base]]s, [[equilibrium]], [[classical-math-notation]]
+see [[acid-and-base]]s, [[equilibrium]], [[conventional-math-notation]]
 
 > A buffer solution is an aqueous solution consisting of a mixture of a weak [[acid]] and its conjugate [[base]], or vice versa. Its pH changes very little when a small amount of strong [[acid]] or [[base]] is added to it. &mdash; Wikipedia
 

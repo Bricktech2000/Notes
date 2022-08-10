@@ -4,7 +4,7 @@ _used to describe the address of an electron within an atom_
 
 &mdash; <https://www.youtube.com/watch?v=4sLXUr2HWIs&ab_channel=TheOrganicChemistryTutor>
 
-see [[classical-math-notation]]
+see [[conventional-math-notation]]
 
 ## Principal Quantum number $n$
 

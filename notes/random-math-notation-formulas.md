@@ -38,7 +38,7 @@ $3 \mid x = y \dashv \mathbb Z x$
 
 _there exists an [[integer]] $x$ such that $1 + x = 3$_
 
-[[classical-math-notation]]: $\exists x \in \mathbb Z \text{\ \ \ s. t.\ \ \ } 1 + x = 3$
+[[conventional-math-notation]]: $\exists x \in \mathbb Z \text{\ \ \ s. t.\ \ \ } 1 + x = 3$
 
 my [[math-notation]]: $1 : x = 3 \land \mathbb Z x$
 

@@ -1,6 +1,6 @@
 # Acid and Base
 
-see [[buffer]], [[equilibrium]], [[classical-math-notation]]
+see [[buffer]], [[equilibrium]], [[conventional-math-notation]]
 
 ## common [[acid]]s
 

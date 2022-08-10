@@ -24,7 +24,7 @@ $P \braket{E_1 \land E_2, S} = P \braket{E_1, S} \mid P \braket{E_2, S}$
 
 ## permutative rule
 
-see [[classical-math-notation]]
+see [[conventional-math-notation]]
 
 _without repetition, order matters_
 
@@ -32,7 +32,7 @@ the number of _permutations_ that pick $r$ elements from a [[set]] of $n$ elemen
 
 ## combinatory rule
 
-see [[classical-math-notation]]
+see [[conventional-math-notation]]
 
 _without repetition, order does not matter_
 

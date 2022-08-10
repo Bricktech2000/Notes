@@ -1,6 +1,6 @@
 # Positional Numbering System
 
-see [[classical-math-notation]], [[number]]
+see [[conventional-math-notation]], [[number]]
 
 ## notation
 

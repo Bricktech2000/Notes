@@ -1,8 +1,8 @@
 # Math Notation
 
-see [[classical-math-notation]]
+see [[conventional-math-notation]]
 
-this note describes my custom [[math-notation]], meant to solve inconsistencies in [[classical-math-notation]]. it is not meant to be a fully formal system of [[mathematics]]; rather, it is built to be easy to understand and intuitive to use by mere humans.
+this note describes my custom [[math-notation]], meant to solve inconsistencies in [[conventional-math-notation]]. it is not meant to be a fully formal system of [[mathematics]]; rather, it is built to be easy to understand and intuitive to use by mere humans.
 
 ## principles
 
@@ -137,7 +137,7 @@ definition of the implication / sub[[set]] / super[[set]] / “for all” symbol
 
 in [[set-theory]], if $U$ is a sub[[set]] of $V$ and $V$ is a sub[[set]] of $U$, then $V$ is $U$. in this math notation: $(U\ x \vdash V\ x) \land (U\ x \dashv V\ x) \equiv U = V$
 
-the probability density of the normal distribution in [[classical-math-notation]]: $\frac{1}{\sqrt{2 \sigma^2 \pi}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$
+the probability density of the normal distribution in [[conventional-math-notation]]: $\frac{1}{\sqrt{2 \sigma^2 \pi}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$
 
 compared to in my [[math-notation]]: $-\lfloor \tau \sigma2 \rfloor - e[[x \cdot \mu]2 - 2\sigma2]$
 
@@ -145,7 +145,7 @@ definition of factorials: $\operatorname{fact} n = 1 \mid \dots n$
 
 the negation of an implication in my [[math-notation]]: $B \vdash C \times B\ /\ C$ (_B implying C equals not (B without C)_ or _implication is the negation of set difference_ or _the negation of "for all B, C" is "there exists a B such that not C"_)
 
-compared to [[classical-math-notation]]: $\lnot (B \to C) = B \land \lnot C$ or $(a \in B \to a \in C) \iff a \notin B \backslash C$ or $B \subset C \iff \forall a \in C, a \notin B$
+compared to [[conventional-math-notation]]: $\lnot (B \to C) = B \land \lnot C$ or $(a \in B \to a \in C) \iff a \notin B \backslash C$ or $B \subset C \iff \forall a \in C, a \notin B$
 
 see [[random-math-notation-formulas]] for more examples
 

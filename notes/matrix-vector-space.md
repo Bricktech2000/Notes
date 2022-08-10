@@ -8,7 +8,7 @@ the [[vector-space]] of $m$ by $n$ [[matrix]]es is denoted as follows:
 
 $\mathbb M^{m, n}$ in my [[math-notation]]
 
-$M_{m\ n}(\mathbb R)$ in [[classical-math-notation]]
+$M_{m\ n}(\mathbb R)$ in [[conventional-math-notation]]
 
 ## definition
 

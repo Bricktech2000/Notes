@@ -1,5 +1,7 @@
 # Reliable Source
 
+#todo reformulate this note and add backlinks
+
 _evaluating information is a skill that requires practice_
 
 see [[finding-sources]]
@@ -14,8 +16,8 @@ often regarded as highly reliable
   _whenever judgement takes place, mistakes can be overlooked_
 - fabricated data is hard to identify
   _fabricated data sometimes can only be identified by reproducing an experiment_
-- editor biases can have an effect on publication
-  _journals are more likely to publish an article that agrees with a certain bias_
+- editor [[bias]]es can have an effect on publication
+  _journals are more likely to publish an article that agrees with a certain [[bias]]_
 
 ## CARS method
 
@@ -52,4 +54,4 @@ not a checklist, only a guide on what to consider
 _highly active topics in which a lot of research is being done in a small timeframe_
 
 - find information that has been published very recently because information gets outdated fast
-- check for biases, since hot topics can increase the chance of exaggerated claims
+- check for [[bias]]es, since hot topics can increase the chance of exaggerated claims

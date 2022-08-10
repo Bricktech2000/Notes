@@ -1,6 +1,6 @@
 # Curve Sketching
 
-see [[classical-math-notation]]
+see [[conventional-math-notation]]
 
 ## Example
 

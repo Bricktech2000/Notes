@@ -28,7 +28,7 @@ $\int y \mid \delta x$ is actually $\int (y \mid \delta x)$ ($\mid \delta x$ is 
 
 $\delta y - \delta x$ is simply a division between the two values involved
 
-$(\delta - \delta x)\ y \equiv \frac{\delta}{\delta x} y$ ~~makes no sense whatsoever and is very likely some weird [[classical-math-notation]] shorthand again~~ is superfluous notation and is to be avoided in my [[math-notation]].
+$(\delta - \delta x)\ y \equiv \frac{\delta}{\delta x} y$ ~~makes no sense whatsoever and is very likely some weird [[conventional-math-notation]] shorthand again~~ is superfluous notation and is to be avoided in my [[math-notation]].
 
 ## properties with [[proof]]s
 

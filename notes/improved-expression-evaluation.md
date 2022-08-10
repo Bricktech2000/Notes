@@ -8,13 +8,13 @@ see [[math-notation]]
 
 Would there be any disadvantage to having every mathematical expression be implicitly evaluated using [[limit]]s? Is there any situation in which an undefined value would be required? This would allow for any algebraic manipulation on expressions without having to worry about restrictions.
 
-this [[improved-expression-evaluation]] proposes that any algebraic manipulation that can be done inside a classical [[limit]] expression can also be done without a [[limit]] expression. this also means that if the result of an expression is _undefined_, then the expression must be rearranged first in order to avoid the undefined value, resulting in a meaningful result.
+this [[improved-expression-evaluation]] proposes that any algebraic manipulation that can be done inside a conventional [[limit]] expression can also be done without a [[limit]] expression. this also means that if the result of an expression is _undefined_, then the expression must be rearranged first in order to avoid the undefined value, resulting in a meaningful result.
 
 ## applications
 
-- classically, $\operatorname{atan} y \text- x \land x = 0 \equiv \varnothing$. however, by substituting $y \text- x$ in the definition of the $\operatorname{atan}$ [[function]] directly and by using [[limit-rules]] to simplify it, the right answer $\tau - 4$ is obtained.
+- conventionally, $\operatorname{atan} y \text- x \land x = 0 \equiv \varnothing$. however, by substituting $y \text- x$ in the definition of the $\operatorname{atan}$ [[function]] directly and by using [[limit-rules]] to simplify it, the right answer $\tau - 4$ is obtained.
 
-- classically, the graph of a [[function]] such as $f\ x = - - x \cdot 2$ has a hole at $x = 2$. however, by simplifying the [[function]] using [[limit-rules]] before graphing it, the function $f\ x = x \cdot 2$ is obtained; the hole is avoided.
+- conventionally, the graph of a [[function]] such as $f\ x = - - x \cdot 2$ has a hole at $x = 2$. however, by simplifying the [[function]] using [[limit-rules]] before graphing it, the function $f\ x = x \cdot 2$ is obtained; the hole is avoided.
 
 - many algebraic rules contain an arbitrary restriction such as $\dashv x \ne 0$ given a variable $x$. however, none of them break (have broken yet) when removing the restriction and using this [[improved-expression-evaluation]]. see backlinks for real-world examples
 
@@ -22,7 +22,7 @@ this [[improved-expression-evaluation]] proposes that any algebraic manipulation
 
 ignoring the existence of [[complex]] numbers, the square root of a negative [[number]] can be thought of as _invalid_. however, instead of trying to compute the square root straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being squared, which makes it "valid" again. it turns out that doing so never results in an erroneous answer.
 
-similarly, dividing by a variable equal to zero can be thought of as _invalid_, or as _undefined_ in classical [[mathematics]]. however, instead of trying to compute the division straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being multiplied by its denominator, which makes it "valid" again. for this [[improved-expression-evaluation]] to be valid, doing so must never results in an erroneous answer.
+similarly, dividing by a variable equal to zero can be thought of as _invalid_, or as _undefined_ in conventional [[mathematics]]. however, instead of trying to compute the division straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being multiplied by its denominator, which makes it "valid" again. for this [[improved-expression-evaluation]] to be valid, doing so must never results in an erroneous answer.
 
 ## attempting to break the system
 

@@ -30,7 +30,7 @@ $\cdot\braket{a, b} \equiv \braket{\cdot a, \cdot b}$ &mdash; negation
 
 _the transpose of an [[ordered-pair]]_
 
-> **note**: this was made up by me and probably doesn't have an equivalent in [[classical-math-notation]]
+> **note**: this was made up by me and probably doesn't have an equivalent in [[conventional-math-notation]]
 
 ### definition
 

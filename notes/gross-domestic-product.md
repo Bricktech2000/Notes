@@ -2,7 +2,7 @@
 
 > A country’s GDP is the market value of all final goods and services produced within a country in a given period of [[time]]
 
-see [[economy]], [[productivity]], [[math-notation]], [[classical-math-notation]]
+see [[economy]], [[productivity]], [[math-notation]], [[conventional-math-notation]]
 
 it is thought to be the best measure of a society’s economic well-being
 

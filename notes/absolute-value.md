@@ -20,7 +20,7 @@ $|x| \ge t \equiv x \ge t \lor x \le \cdot t$
 
 $|a : b| \le |a| : |b| \dashv \mathbb R a \land \mathbb R b$ &mdash; triangle inequality
 
-in [[classical-math-notation]]:
+in [[conventional-math-notation]]:
 
 $|x| \le t \Harr -t \le x \le t$
 

@@ -2,7 +2,7 @@
 
 see [[programming-language]]
 
-inspired by [[classical-math-notation]], where [[operator]]s like to change what they return based on what surrounds them
+inspired by [[conventional-math-notation]], where [[operator]]s like to change what they return based on what surrounds them
 
 ## Initiators
 

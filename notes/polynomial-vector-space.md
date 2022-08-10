@@ -10,7 +10,7 @@ $(\mathbb P^n \vdash \mathbb F) \dashv \mathbb N n$, see [[function-vector-space
 
 $\mathbb P^n$ in my [[math-notation]]
 
-$P_n(\mathbb R)$ in [[classical-math-notation]]
+$P_n(\mathbb R)$ in [[conventional-math-notation]]
 
 ## definition
 

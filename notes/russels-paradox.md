@@ -1,6 +1,6 @@
 # Russel's Paradox
 
-using [[classical-math-notation]]
+using [[conventional-math-notation]]
 
 $S = \lbrace x : x \notin x \rbrace$. Is $S \in S$?
 

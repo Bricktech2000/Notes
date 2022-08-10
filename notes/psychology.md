@@ -35,3 +35,7 @@ an excess of [[motivation]] can lead to [[feeling-overwhelmed]], which can lead 
 [[social-media]]
 
 [[habit]]
+
+[[religion]]
+
+[[bias]]

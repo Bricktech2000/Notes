@@ -1,8 +1,8 @@
-# Classical Math Notation
+# Conventional Math Notation
 
 see [[math-notation]]
 
-## Problems with [[classical-math-notation]]
+## Problems with [[conventional-math-notation]]
 
 _fixed in my [[math-notation]]_
 

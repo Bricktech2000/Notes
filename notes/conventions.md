@@ -64,6 +64,8 @@ _see ..._ statements are for prerequisites
 
 note names are all _-ing_ verbal groups or singular nominal groups
 
+line breaks are used exclusively for how they look in the render and never to make the source code more readable (which is why almost no single line breaks are used)
+
 horizontal rules are occasionally used to separate a whole file in different sections
 
 each page has one title case first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule
