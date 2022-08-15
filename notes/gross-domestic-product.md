@@ -1,18 +1,12 @@
 # Gross Domestic Product
 
-> A country’s GDP is the market value of all final goods and services produced within a country in a given period of [[time]]
+> **AKA**: GDP
 
 see [[economy]], [[productivity]], [[math-notation]], [[conventional-math-notation]]
 
-it is thought to be the best measure of a society’s economic well-being
+A country’s GDP is the market value of all final goods and services produced within a country in a given period of [[time]]. it is thought to be the best measure of a society’s economic well-being, and is the most closely watched [[economics]] statistic
 
-it is the most closely watched [[economics]] statistic
-
-the GPD measures both income and expenditure at once (which works since they are equal, see [[economy]])
-
-> **AKA**: GDP
-
-## Measuring the GDP
+the GPD measures both income and expenditure at once (which works since they are equal, see [[economy]] #think)
 
 the GPD includes:
 
@@ -26,7 +20,47 @@ the GPD includes:
 
 the GDP measures all items above within a specific [[time]] interval, usually one year or one quarter
 
-## Components of Expenditure (of the GDP)
+## pros & cons
+
+GDP has some disadvantages. here are a examples of items contributing to well-being that are left out of GDP:
+
+- leisure as a whole
+- activities that take place outside the markets
+- the quality of the environment and environmental depletion
+- the distribution of income
+
+## Real VS Nominal
+
+_real GDP vs nominal GDP_
+
+if total spending rises from one year to the next, one of two things must be true
+
+- the [[economy]] is producing a larger amount of [[goods-and-services]]
+- [[goods-and-services]] are being sold at higher prices
+
+in [[economics]], we want to separate these two effects using the **Real GDP**
+
+> **definition**: _Nominal GDP_ is the production of [[goods-and-services]] valued at **current prices**
+
+> **definition**: _Real GDP_ is the production of [[goods-and-services]] valued at **constant prices** (adjusted for [[inflation]], which is a better measure of economic well-being)
+
+## GDP Deflator
+
+see [[conventional-math-notation]]
+
+> **definition**: the _GDP Deflator_ is a measure of the price level as the ratio of nominal GDP to real GDP
+
+GDP Deflator = Nominal GDP / Real GDP
+
+the GDP Deflator can be used to calculate [[inflation]] rates
+
+---
+
+# Computing GDP
+
+## Expenditure approach
+
+see [[conventional-math-notation]]
 
 _calculating the GDP using the Expenditure approach_
 
@@ -41,33 +75,3 @@ GDP = Consumption + Investment + Government Spending + Net Exports
 > **definition**: _Government Spending_ is spending on [[goods-and-services]] by local, territorial, provincial, and federal governments
 
 > **definition**: _Net Exports_ is the value of a nation’s exports minus the value of its imports. **AKA**: Trade Balance
-
-## Real VS Nominal GDP
-
-if total spending rises from one year to the next, one of two things must be true
-
-- the [[economy]] is producing a larger amount of [[goods-and-services]]
-- [[goods-and-services]] are being sold at higher prices
-
-in [[economics]], we want to separate these two effects using the **Real GDP**
-
-> **definition**: _Nominal GDP_ is the production of [[goods-and-services]] valued at **current prices**
-
-> **definition**: _Real GDP_ is the production of [[goods-and-services]] valued at **constant prices** \*\*(adjusted for [[inflation]], which is a better measure of economic well-being)
-
-## GDP is not perfect
-
-here are a examples of items contributing to well-being that are left out of GDP:
-
-- leisure as a whole
-- activities that take place outside the markets
-- the quality of the environment and environmental depletion
-- the distribution of income
-
-## GDP Deflator
-
-> **definition**: the _GDP Deflator_ is a measure of the price level as the ratio of nominal GDP to real GDP
-
-GDP Deflator = Nominal GDP / Real GDP
-
-the GDP Deflator can be used to calculate [[inflation]] rates

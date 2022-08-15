@@ -18,7 +18,7 @@ _the study of how society manages its [[scarce-resource]]s_
 
 [[unemployment]], [[productivity]]
 
-[[gross-domestic-product]], [[consumer-price-index]]
+[[gross-domestic-product]], [[consumer-price-index]] [[economic-recession]]
 
 [[production-possibility-frontier]]
 

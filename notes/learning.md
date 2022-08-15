@@ -79,3 +79,7 @@
 [[life-long-investing]]
 
 [[switching-cost]]
+
+[[operating-system]]
+
+[[mental-illness]]

@@ -11,4 +11,4 @@
 - feeling like not having enough money
 - feeling like not having enough friends
 
-this can lead to [[anxiety]] disorders, depression and addiction. [[social-media]] seems to take advantage of [[hijacking-brain-circuitry]] and [[subconscious-manipulation]] to keep users hooked.
+this can lead to [[anxiety]] disorders, [[depression]] and addiction. [[social-media]] seems to take advantage of [[hijacking-brain-circuitry]] and [[subconscious-manipulation]] to keep users hooked.

@@ -60,3 +60,5 @@ coding interviews are about more than just programming &mdash; <https://youtu.be
 <https://youtu.be/dbia5lqgEXI>
 
 <https://youtu.be/J6rVaFzOEP8>
+
+interesting read: <https://inika.medium.com/everything-i-did-to-become-a-microsoft-explore-intern-74784738ba5a>

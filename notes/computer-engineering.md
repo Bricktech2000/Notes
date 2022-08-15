@@ -2,7 +2,7 @@
 
 ## see
 
-operating systems
+[[operating-system]]s
 
 compilers, interpreters
 

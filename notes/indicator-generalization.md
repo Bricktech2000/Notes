@@ -9,7 +9,7 @@
 indicators include:
 
 - the brand of one's smart phone
-- one's use of a specific operating system
+- one's use of a specific [[operating-system]]
 - the brand of clothes one wears
 - one's ownership of a diploma
 - the make of one's car
@@ -37,4 +37,6 @@ generalizations are convenient for people to use, but they are not always accura
 
 indicator overgeneralization seems to occur to certain people more than others.
 
-scratch that; indicator overgeneralization seems to occur at the outermost regions of a metaphorical bell curve. see [[intellectual-giftedness]], [[intellectual-disability]]
+scratch that; indicator overgeneralization seems to occur at the outermost regions of a metaphorical bell curve
+
+scratch that too; indicator overgeneralization seems to be an issue around the outermost regions of the bell curve. see [[intelligence]]
