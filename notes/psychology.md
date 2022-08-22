@@ -14,8 +14,6 @@ an excess of [[motivation]] can lead to [[feeling-overwhelmed]], which can lead 
 
 [[hijacking-brain-circuitry]]
 
-[[mnemonic]]
-
 [[intent-to-mastery]]
 
 [[memory]]
@@ -27,8 +25,6 @@ an excess of [[motivation]] can lead to [[feeling-overwhelmed]], which can lead 
 [[intelligence]]
 
 [[subconscious-manipulation]]
-
-[[anxiety]]
 
 [[people-are-shaped-by-their-surroundings]]
 
@@ -43,3 +39,7 @@ an excess of [[motivation]] can lead to [[feeling-overwhelmed]], which can lead 
 [[mental-illness]]
 
 [[reaction-vs-response]]
+
+[[lofi-music]]
+
+[[focus]]

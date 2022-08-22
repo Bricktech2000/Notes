@@ -10,6 +10,8 @@ _type system madness_
 
 &mdash; <https://youtu.be/qC_ioJQpv4E?t=2760>
 
+&mdash; <https://youtu.be/_CEBG_s92P8?t=646>
+
 see <https://github.com/denysdovhan/wtfjs> for other examples
 
 ```javascript
@@ -24,9 +26,10 @@ Math.max(); // -Infinity
 Math.min(); // Infinity
 [] + []; // ''
 [] + {}; // '[object Object]'
+// don't mind Prettier
 {
 }
-+[]; // true
++[]; // 0
 true + true + true === 3; // true
 true - true === 0; // true
 (!+[] + [] + ![]).length; // 9
@@ -34,6 +37,7 @@ true - true === 0; // true
 91 - '1'; // 90
 [] == 0; // true
 [] == ![]; // true
+',,,' == new Array(4); // true
 ```
 
 ## properties

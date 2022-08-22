@@ -270,13 +270,13 @@ $Ix = x = B \begin{bmatrix}\cdot 1 \\\ 1\end{bmatrix}$
 
 ## Triangular Matrix
 
-a [[matrix]] is _triangular_ if every entry below its diagonal **or** above its diagonal is $0$
+> **definition**: a [[matrix]] is said to be _triangular_ if every entry below its diagonal **or** above its diagonal is $0$
 
 > **note**: the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element (triplicate)
 
 ## Diagonal Matrix
 
-a [[matrix]] is _diagonal_ if every entry below its diagonal **and** above its diagonal is $0$
+> **definition**: a [[matrix]] is said to be _diagonal_ if every entry below its diagonal **and** above its diagonal is $0$
 
 > **note**: the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element (triplicate)
 
@@ -284,7 +284,7 @@ a [[matrix]] is _diagonal_ if every entry below its diagonal **and** above its d
 
 let $D$ be a diagonal [[matrix]]
 
-$[D]x$ can be calculated by multiplying every entry of $D$ by $x$
+$[D]x$ can be calculated by raising every entry of $D$ to the power $x$
 
 ## Diagonalizable Matrix
 

@@ -4,11 +4,17 @@ our behavior is highly controlled by environmental queues. &mdash; <https://yout
 
 ## [[learning]] efficiently
 
-to learn efficiently, we must teach our brains to associate a specific environment with [[learning]].
+to learn efficiently and [[focus]] more deeply, we must teach our brains to associate a specific environment with [[learning]].
 
 _the primary function of a bedroom is sleeping. the primary function of a dining table is eating. the primary function of a living area is recreation and socializing._
 
-## example
+## examples
+
+[[sleep]]
+
+[[lofi-music]]
+
+### additional example
 
 _an example of associating a specific environment to studying_
 
@@ -16,5 +22,3 @@ _an example of associating a specific environment to studying_
 - when you want to study in your room, sit down, turn on the lamp and start studying. when you wish to take a break, turn the lamp off, get up and leave the desk.
 
 this way, you're training your brain to study whenever you're seating at your desk with your study lamp on.
-
-_see [[sleep]] for another example_
