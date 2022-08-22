@@ -1,5 +1,5 @@
 # RREF
 
-_reduced row echelon form_
+> **AKA**: Reduced Row Echelon Form
 
-see [[linear-system]]
+see [[REF]], [[linear-system]]

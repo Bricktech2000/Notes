@@ -198,9 +198,9 @@ $(A^\intercal)^\intercal = A \dashv \mathbb M A$
 
 $(AB)^\intercal = B^\intercal A^\intercal \dashv \mathbb M A \land \mathbb M B$
 
-### example
+### representation
 
-![[200px-Matrix_transpose.gif]] &mdash; https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif
+![[200px-Matrix_transpose.gif]] &mdash; <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif>
 
 ## Matrix Inverse
 
@@ -216,7 +216,7 @@ $A^-$ is the _inverse matrix_ of $A$
 
 ### Invertability
 
-_an **invertible** [[matrix]] has a corresponding inverse [[matrix]]_
+> **definition**: an _invertible matrix_ has a corresponding inverse [[matrix]]
 
 see theorems below for invertability criteria
 
@@ -230,15 +230,15 @@ $(A^-)^- = A$
 
 $(A^p)^- = (A^-)^p$
 
-$(kA)^- = 1\text-k \mid A^-$ (restriction might not be necessary, see [[improved-expression-evaluation]])
+$(kA)^- = \text-k \mid A^-$ (restriction might not be necessary, see [[improved-expression-evaluation]])
 
 $(AC)^- = C^-A^-$
 
-> **note**: in the equation above, the order of the matrices has changed. this is significant as [[matrix]] multiplication is not commutative)
+> **note**: in the equation above, the order of the matrices has changed. this is significant as [[matrix]] multiplication is not commutative
 
 if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 
-### finding a matrix inverse
+### procedure
 
 let $\mathbb M^{n, n} A$
 
@@ -260,7 +260,7 @@ let $A = \begin{bmatrix}1 & 1 \\\  2 & 3\end{bmatrix}$
 
 then, calculate $B$ such that $B \equiv A^-$
 
-this can be used to solve a system such as:
+this can be used to solve a [[linear-system]] such as:
 
 $Ax = \begin{bmatrix}\cdot 1 \\\ 1\end{bmatrix}$
 
@@ -350,7 +350,7 @@ see [[linear-system-theorem-proof]]
 > 8. the rows of $A$ are [[linearly-independent]]
 > 9. the columns of $A$ form a [[basis]] for $\mathbb R^n$
 > 10. the rows of $A$ form a [[basis]] for $\mathbb R^n$
-> 11. $A$ is [[matrix|invertible]]
+> 11. $A$ is an invertible [[matrix]]
 > 12. $\det A \ne 0$
 
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js"></script><script>window.MathJax = {tex: {inlineMath: [['$', '$']]}, messageStyle: "none"};</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([a-zA-Z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`).replace(/#[a-zA-Z0-9\-]+/g, (a) => `<u style="text-transform: lowercase;">${a}</u>`).replace(/!\[\[(.+)\]\]/g, (a, b) => `<img src="${b}" />`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } img { border-radius: 4px; } </style>

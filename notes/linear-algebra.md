@@ -25,3 +25,7 @@ see [[number-field]]
 [[vector-in-rn]], [[normal-vector]], [[matrix]]
 
 [[span]]s, [[zero-space]], [[basis]]
+
+## applications
+
+<https://youtu.be/bI-FS7aZJpY>

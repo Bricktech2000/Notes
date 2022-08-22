@@ -84,7 +84,7 @@ $(x, y, z) = (2y \cdot z, y, z) = y (2, 1, 0) : z (\cdot 1, 0, 1)$
 
 ## [[axiom]]s of Vector Spaces
 
-let the vector space be the [[set]] of [[vector]]s $V$. all of the following [[axiom]]s must be defined and all the following properties must hold for $V$ to be a [[vector-space]]. if a vector space is a sub[[set]] of a known vector space (a **vector subspace**), then all properties are inherited. moreover,
+let the [[vector-space]] be the [[set]] of [[vector]]s $V$. all of the following [[axiom]]s must be defined and all the following properties must hold for $V$ to be a [[vector-space]]. if a vector space is a sub[[set]] of a known vector space (a _vector subspace_), then all properties are inherited
 
 let $V\ v_0 \dots V\ v_m$. if $U = \operatorname{span} \lbrace v_0 \dots v_m \rbrace$, then $U$ is a subspace of $V$ ($U \vdash V$), see [[span]]
 
@@ -96,17 +96,19 @@ $V O \land (O : u = u \dashv V u)$ &mdash; zero vector
 
 ### properties
 
-$V (\cdot u) \land u : \cdot u = O \dashv V u$ &mdash; negative vector
+let $\mathbb R c \land \mathbb R d \land V u \land V v \land V w$
+
+$V (\cdot u) \land u : \cdot u = O \dashv V u$ &mdash; inverse
 
 $1u = u \dashv V u$ &mdash; identity
-
-$\mathbb R k \land \mathbb R l\land V u \land V v \land V w$
 
 $u : v \equiv v : u$ &mdash; commutativity
 
 $u : (v : w) \equiv (u : v) : w$ &mdash; associativity
 
 $c \mid u : v \equiv cu : cv$ &mdash; distributivity
+
+$c : d \mid v \equiv cv : dv$ &mdash; distributivity
 
 $k \mid du \equiv kd \mid u$ &mdash; multiplicative associativity
 

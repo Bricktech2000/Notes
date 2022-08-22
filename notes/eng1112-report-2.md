@@ -22,12 +22,12 @@ Autonomous vehicles are a mixture of bleeding-edge software and hardware that wo
 
 Various levels of automation can be implemented in vehicles. The most widely accepted definition for categorizing such levels is from SAE International, and goes as follows (SAE International, 2019):
 
-1.  _No automation_ &mdash; warnings may be issued by the system;
-2.  _Hands on_ &mdash; either speed or steering may be controlled by the system;
-3.  _Hands off_ &mdash; the driver must be ready to intervene at all times;
-4.  _Eyes off_ &mdash; the driver must intervene upon request by the system;
-5.  _Mind off_ &mdash; the vehicle can safely pull over if the driver fails to intervene;
-6.  _Steering Wheel Optional_ &mdash; full automation, no human supervision required.
+0.  _No automation_ &mdash; warnings may be issued by the system;
+1.  _Hands on_ &mdash; either speed or steering may be controlled by the system;
+2.  _Hands off_ &mdash; the driver must be ready to intervene at all times;
+3.  _Eyes off_ &mdash; the driver must intervene upon request by the system;
+4.  _Mind off_ &mdash; the vehicle can safely pull over if the driver fails to intervene;
+5.  _Steering Wheel Optional_ &mdash; full automation, no human supervision required.
 
 While commercially available vehicles have already surpassed levels 0 through 3, only a few are capable of level-4 autonomous driving through the use of advanced sensors (Mike Oitzman, 2021). However, level-5 autonomy would be required for self-driving cars to start playing a significant role in everyday transportation. This means that, as current technology stands, the most bleeding-edge autonomous vehicles still require remote human supervision to allow for intervention in exceptional circumstances.
 
@@ -44,7 +44,7 @@ The input data collected by the sensors is then fed into one of two types of neu
 - _Behaviour arbitration_ &mdash; plans the route taken by the car on a low level, which includes changing lanes and stopping at red lights;
 - _Motion controllers_ &mdash; interfaces directly with the outputs of the neural network to execute the decisions taken by the system.
 
-However, this architecture can only go so far: since each of its components is trained separately, the system isn't as flexible as it could be. The second type of architecture used for autonomous vehicles, called End2End driving, is meant to solve this problem. It consists of a single deep neural network that interfaces directly with both the inputs and the outputs of the autonomous driving system, requiring more computing power as a side effect. Fortunately, the technological advances in computing hardware in the last few years have made this architecture viable for training on graphic processing units (Grigorescu et al., 2020). As this evolution continues in the next decade, the End2End model will very likely outgrow the traditional modular architecture.
+However, this architecture can only go so far: since each of its components is trained separately, the system isn't as flexible as it could be. The second type of architecture used for autonomous vehicles, called _End2End driving_, is meant to solve this problem. It consists of a single deep neural network that interfaces directly with both the inputs and the outputs of the autonomous driving system, requiring more computing power as a side effect. Fortunately, the technological advances in computing hardware in the last few years have made this architecture viable for training on graphic processing units (Grigorescu et al., 2020). As this evolution continues in the next decade, the End2End model will very likely outgrow the traditional modular architecture.
 
 ### Popular Opinion on Autonomous Vehicle Adoption
 

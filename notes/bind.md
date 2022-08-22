@@ -4,6 +4,8 @@ _turns a diagonal [[function]] into horizontal [[function]] in the effects world
 
 > **AKA**: `>>=`, `flatMap`, `SelectMany`, Sequential Composition, `and_then` in Rust
 
+> **note**: the name `flatMap` comes from the fact that `bind` can be defined as [[map]]ping then [[join]]ing (flattening in the case of arrays), see definition below &mdash; <https://youtu.be/C2w45qRc3aU?t=808>
+
 see [[functional-programming]]
 
 ## definition
@@ -16,7 +18,27 @@ see [[functional-programming]]
 
 `M` is an [[effect-type]] constructor
 
-[[join]] can be used to define [[bind]]
+### using `join`
+
+[[bind]] can be defined using [[join]], as follows:
+
+let a [[function]] `f :: a -> M b`. then,
+
+`bind :: (a -> M b) -> M a -> b`
+
+`bind f ma = join (fmap f ma)`, where
+
+`ma` is a [[monad]]
+
+`f` is a "world-crossing" [[function]]
+
+`join` is the [[join]] [[function]]
+
+`bind` is the [[bind]] [[function]]
+
+`fmap` is the [[map]] [[function]]
+
+&mdash; Simon
 
 ## applications
 

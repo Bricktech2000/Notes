@@ -1,14 +1,15 @@
 # Control over Convenience
 
-as a general rule, I seem to prefer control over convenience.
+as a general rule, I seem to prefer control over convenience. it is often very frustrating to me when only the _convenience_ option is available, but it is inconvenient at worst when only the _control_ option is available.
 
 ### examples
 
 - FPV drones over DJI drones
-- laptop and phone sleep timeout set to _never_
+- device sleep timeouts set to _never_ over automatic sleep
 - Android’s flexibility over iOS’ simplicity
+- Nutrition facts table over Mexico's warning labels
 
-### counterexamples
+### counterexamples &mdash; with rationale
 
-- point-and-shoot cameras are more convenient than professional cameras
-- paddle shifter transmissions are more convenient than manual transmissions
+- point-and-shoot cameras are more convenient than professional cameras &mdash; however, good point-and-shoot cameras offer professional features
+- paddle shifter transmissions are more convenient than manual transmissions &mdash; however, paddle shifter transmissions don't sacrifice control

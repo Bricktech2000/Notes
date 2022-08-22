@@ -8,7 +8,7 @@ see [[effect-type]], [[functional-programming]]
 
 ## definition
 
-[[return]] lifts a value to the effects world. can be thought of as the constructor to an [[effect-type]]
+[[return]] lifts a value to the effects world. can be thought of as the constructor to an [[effect-type]] or as wrapping a value into an [[effect-type]]
 
 `return :: a -> T a`, where
 

@@ -26,6 +26,8 @@ used for backlinks
 
 <https://youtu.be/xFFs9UgOAlE?t=1135> (and in comments)
 
+<https://youtu.be/ilZFBL6Yt4E?t=143> (informal mention)
+
 ## stuff I don't relate to
 
 > **AKA**: difficult, overwhelming, "boring', complicated

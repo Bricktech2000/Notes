@@ -8,6 +8,8 @@ _type system madness_
 
 &mdash; <https://dev.to/royal_bhati/understanding-weird-parts-of-javascript-44o>
 
+&mdash; <https://youtu.be/qC_ioJQpv4E?t=2760>
+
 see <https://github.com/denysdovhan/wtfjs> for other examples
 
 ```javascript
@@ -31,6 +33,7 @@ true - true === 0; // true
 9 + '1'; // '91'
 91 - '1'; // 90
 [] == 0; // true
+[] == ![]; // true
 ```
 
 ## properties

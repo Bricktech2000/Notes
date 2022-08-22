@@ -1,6 +1,6 @@
 # Row Reduction
 
-_a process for putting a matrix in [[RREF|reduced-row-echelon-form]]_
+_a process for putting a matrix in [[RREF]]_
 
 ## Gaussian Elimination
 
