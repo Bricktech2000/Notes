@@ -71,7 +71,7 @@ also see [[trigonometric-function]]s and [[calculus-notation]]
 | $M^{i, j}$ where $M$ is a [[matrix]]                           | $M^{\braket{i, j}}$                                | common, longhand is discouraged        |
 | $M^{i,}$ where $M$ is a [[matrix]]                             | the $i$ th row of $M$                              |                                        |
 | $M^{, j}$ where $M$ is a [[matrix]]                            | the $j$ th column of $M$                           |                                        |
-| $S = \lbrace a \dots b \rbrace$                                | $S\ x \equiv x = a \lor \dots x = b$               | see [[set]]                            |
+| $S = \braket{\braket{a \dots b}}$                              | $S\ x \equiv x = a \lor \dots x = b$               | see [[set]]                            |
 | $P = \braket{f, t}$                                            | $P^\bot = f \land P^\top = t$                      | see [[ordered-pair]]                   |
 | $M = \begin{bmatrix} a & b \\\ c & d \end{bmatrix}$            | matrix literal                                     | see [[matrix]]                         |
 | $x \rightarrow (a < x < b)$                                    | the closed interval from $a$ to $b$                | same can be used for open intervals    |
@@ -95,21 +95,21 @@ also see [[trigonometric-function]]s and [[calculus-notation]]
 
 _in order of high to low precedence_
 
-| operator                                               | associativity | unary identity | unary description |
-| ------------------------------------------------------ | ------------- | -------------- | ----------------- |
-| $()\ \lbrace\rbrace \braket{}\ \Big[\Big]\ \ x\ x_a^i$ |               |                |                   |
-| $[ ]\ \lfloor\rfloor\ \lceil\rceil$                    |               |                |                   |
-| $\shortmid \text-$                                     | left          | $1$            | inverse           |
-| $\delta\ \sin\ \smash\leftarrow$                       | right-ish     |                |                   |
-| $\ :\ \cdot\ \because\ \ \therefore$                   | left          | $0$            | negation          |
-| $\mid -$                                               | left          | $1$            | inverse           |
-| $\int \lim\ \dots\ \rightarrow$                        | right         |                |                   |
-| $=\ne\gt\ge\lt\le$                                     | AND           | $0$            | is (not) $0$      |
-| $/$                                                    | left          | $\top$         | logical NOT       |
-| $\land\ \lor$                                          | left          |                |                   |
-| $\dashv\ \vdash$                                       | left          |                |                   |
-| $\equiv \times$                                        | AND           | $\top$         | logical NOT       |
-| $,$                                                    |               |                |                   |
+| operator                                | associativity | unary identity | unary description |
+| --------------------------------------- | ------------- | -------------- | ----------------- |
+| $()\ \braket{}\ \Big[\Big]\ \ x\ x_a^i$ |               |                |                   |
+| $[ ]\ \lfloor\rfloor\ \lceil\rceil$     |               |                |                   |
+| $\shortmid \text-$                      | left          | $1$            | inverse           |
+| $\delta\ \sin\ \smash\leftarrow$        | right-ish     |                |                   |
+| $\ :\ \cdot\ \because\ \ \therefore$    | left          | $0$            | negation          |
+| $\mid -$                                | left          | $1$            | inverse           |
+| $\int \lim\ \dots\ \rightarrow$         | right         |                |                   |
+| $=\ne\gt\ge\lt\le$                      | AND           | $0$            | is (not) $0$      |
+| $/$                                     | left          | $\top$         | logical NOT       |
+| $\land\ \lor$                           | left          |                |                   |
+| $\dashv\ \vdash$                        | left          |                |                   |
+| $\equiv \times$                         | AND           | $\top$         | logical NOT       |
+| $,$                                     |               |                |                   |
 
 > **note**: above,
 >

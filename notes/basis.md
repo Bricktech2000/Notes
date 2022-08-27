@@ -17,7 +17,9 @@ all [[basis]]es of a [[vector-space]] have the same size
 
 > **theorem**: let $B$ be a [[basis]] of a [[vector-space]] $V$. then, each [[vector]] $v$ in $V$ can be represented by a **unique** [[linear-combination]] of the [[vector]]s in the [[basis]] $B$
 
-### finding a [[basis]] for a [[span]]
+### procedure
+
+_finding a [[basis]] for a [[span]]_
 
 to find a basis for a vector space $W = \operatorname{span} \braket{\braket{v_0 \dots v_m}}$
 
@@ -33,9 +35,9 @@ _a [[basis]] containing [[vector]]s in a specific order_
 
 ### example
 
-$\lbrace (1, 0), (0, 1) \rbrace$ and $\lbrace (0, 1), (1, 0) \rbrace$ are the same [[basis]] but different ordered bases
+$(\ (1, 0), (0, 1)\ )$ and $(\ (0, 1), (1, 0)\ )$ are the same [[basis]] but different ordered bases
 
-> **definition**: suppose $B = v_0 \dots v_n$ is an ordered [[basis]] for a [[vector-space]] $V$. suppose $v = a_0v_0 : \dots a_nv_n$. then, the vector $(a_0 \dots a_n)$ is the _coordinate vector_ of $V$ relative to the ordered [[basis]] $B$
+> **definition**: suppose $B = v_0 \dots v_n$ is an ordered [[basis]] for a [[vector-space]] $V$. suppose $v = a_0v_0 : \dots a_nv_n$. then, the vector $[a_0 \dots a_n]$ is the _coordinate vector_ of $V$ relative to the ordered [[basis]] $B$
 
 ## Orthogonal Basis
 
@@ -43,4 +45,4 @@ _a [[basis]] built from a [[set]] of orthogonal [[vector-in-rn]]s_
 
 ### example
 
-the [[set]] $\lbrace (1, 0), (0, 1) \rbrace$ is an orthogonal [[basis]] for $\operatorname{span} \lbrace (1, 0), (0, 1) \rbrace$, but $\lbrace (1, 1), (0, 1) \rbrace$ is not
+the [[set]] $\braket{\braket{\ (1, 0), (0, 1)\ }}$ is an orthogonal [[basis]] for $\operatorname{span} \braket{\braket{\ (1, 0), (0, 1)\ }}$, but $\braket{\braket{\ (1, 1), (0, 1)\ }}$ is not

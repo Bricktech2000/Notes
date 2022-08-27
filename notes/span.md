@@ -16,6 +16,6 @@ a [[span]]ning [[set]] is always a [[vector-space]], and all [[vector-space]]s c
 
 ### notation
 
-$\operatorname{span} \lbrace u_0 \dots u_m \rbrace \land (\mathbb R^n u_i \dashv \mathbb N i) \land \mathbb N n$
+$\operatorname{span} \braket{\braket{u_0 \dots u_m}} \land (\mathbb R^n u_i \dashv \mathbb N i) \land \mathbb N n$
 
 $\operatorname{Vec}$ is the French notation whereas $\operatorname{Span}$ is the English notation

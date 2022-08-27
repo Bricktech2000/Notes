@@ -12,9 +12,9 @@ formally, in my [[math-notation]], a [[set]] is a [[set-theory]]etical [[functio
 
 ### Set Roster notation
 
-$S = \lbrace 1, 2, 3 \rbrace$
+$S = \braket{\braket{1, 2, 3}}$
 
-$S = \lbrace 1, 2, 3 \dots \rbrace$ &mdash; $\dots$ are allowed
+$S = \braket{\braket{1, 2, 3 \dots}}$ &mdash; $\dots$ are allowed
 
 ### Set Builder notation
 
@@ -32,9 +32,9 @@ $S\ a$ checks if $a$ is an element of $S$
 
 [[set]]s are categories, see [[category-theory]]
 
-$\lbrace 1, 2, 3 \rbrace = \lbrace 3, 2, 1 \rbrace = \dots$ &mdash; elements are unordered
+$\braket{\braket{1, 2, 3}} = \braket{\braket{3, 2, 1}} = \dots$ &mdash; elements are unordered
 
-$\lbrace 1, 1, 1 \rbrace = \lbrace 1, 1 \rbrace = \dots$ &mdash; element are unique
+$\braket{\braket{1, 1, 1}} = \braket{\braket{1, 1}} = \dots$ &mdash; element are unique
 
 ## examples
 
@@ -80,13 +80,13 @@ _the [[set]] containing no elements_
 
 ### notation
 
-$\lbrace \rbrace$ or $(x \rightarrow \bot)$ in my [[math-notation]]
+$\braket{\braket{\ }}$ or $(x \rightarrow \bot)$ in my [[math-notation]]
 
 $\lbrace \rbrace$ or $\varnothing$ in [[conventional-math-notation]]
 
 ### properties
 
-$\lbrace \rbrace \vdash A$, for all [[set]] $A$
+$\braket{\braket{\ }} \vdash A$, for all [[set]] $A$
 
 ## [[universal]]
 
@@ -102,10 +102,10 @@ the _power set_ of a [[set]] $A$ is the [[set]] of all sub[[set]]s of $A$
 
 ### examples
 
-let $P\ A$ be the power set of $A$ and let $O = \lbrace \rbrace$
+let $P\ A$ be the power set of $A$ and let $O = \braket{\braket{\ }}$
 
-$P\ \lbrace 1, 2, 3 \rbrace = \lbrace \lbrace 1 \rbrace, \lbrace 2 \rbrace, \lbrace 3 \rbrace, \lbrace 1, 2 \rbrace, \lbrace 2, 3 \rbrace, \lbrace 1, 3 \rbrace, \lbrace 1, 2, 3 \rbrace, \lbrace \rbrace \rbrace$
+$P\ \braket{\braket{1, 2, 3}} = \braket{\braket{\ \braket{\braket{1}}, \braket{\braket{2}}, \braket{\braket{3}}, \braket{\braket{1, 2}}, \braket{\braket{2, 3}}, \braket{\braket{1, 3}}, \braket{\braket{1, 2, 3}}, \braket{\braket{\ }}\ }}$
 
-$P\ O = \lbrace O \rbrace$
+$P\ O = \braket{\braket{O}}$
 
-$P\ P\ O = \lbrace O, \lbrace O \rbrace \rbrace$
+$P\ P\ O = \braket{\braket{\ O, \braket{\braket{O}}\ }}$

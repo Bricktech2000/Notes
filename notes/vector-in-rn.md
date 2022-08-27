@@ -92,7 +92,7 @@ _a pair of parallel vectors_
 
 $u$ and $v$ are colinear if $u = kv \land \mathbb R k$
 
-$u$ and $v$ are colinear if $u$ is a [[linear-combination]] of the [[set]] $\lbrace v \rbrace$
+$u$ and $v$ are colinear if $u$ is a [[linear-combination]] of the [[set]] $\braket{\braket{v}}$
 
 ## Projections
 
@@ -116,7 +116,7 @@ $proj_W\ v = (v \dot\shortmid w_0 - w_0 \dot\shortmid w_0) : \dots (v \dot\short
 
 $proj_W\ v$ is the projection of $v$ on the [[vector-space]] $W$
 
-$W = \operatorname{span} \lbrace w_0 \dots w_n \rbrace$ and $(w_0 \dots w_n)$ form an orthogonal [[basis]] for $W$
+$W = \operatorname{span} \braket{\braket{w_0 \dots w_n}}$ and $(w_0 \dots w_n)$ form an orthogonal [[basis]] for $W$
 
 ### properties
 

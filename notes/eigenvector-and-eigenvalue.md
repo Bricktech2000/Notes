@@ -14,7 +14,7 @@ let $\mathbb M^{n, n} A \land \mathbb N n$
 
 > **theorem**: all [[eigenvector]]s together with the zero [[vector]] form a [[vector-space]]
 
-> **theorem**: the [[characteristic-polynomial]] $\det (A \cdot \lambda I)$ is a [[polynomial]] of degree $n$, meaning it has at most $n$ distinct roots
+> **theorem**: the [[characteristic-polynomial]] $\det\ (A \cdot \lambda I)$ is a [[polynomial]] of degree $n$, meaning it has at most $n$ distinct roots
 
 > **theorem**: $A$ has at most $n$ distinct [[eigenvalue]]s
 
@@ -40,7 +40,7 @@ the equation above is a homogeneous [[linear-system]] where $A \cdot \lambda I$ 
 
 recall that a homogeneous [[linear-system]] can have either a unique solution (with $x = O$, which is not a valid [[eigenvector]] as per the definition) or an infinite number of solutions (which we can achieve by picking the right values for $\lambda$). for a homogeneous [[linear-system]] to have an infinite number of solutions, its coefficient matrix rows (and therefore columns) must be [[linearly-independent]], or the [[determinant]] of its coefficient matrix must be equal to $0$, or its coefficient matrix must be invertible, etc. (see [[matrix]])
 
-$\det (A \cdot \lambda I) = 0$ (this [[polynomial]] is known as the _[[characteristic-polynomial]] of $A$._)
+$\det\ (A \cdot \lambda I) = 0$ (this [[polynomial]] is known as the _[[characteristic-polynomial]] of $A$._)
 
 solving...
 
@@ -48,7 +48,7 @@ _using $A = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix}$ as an example_
 
 $A \cdot \lambda I = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \cdot \lambda \begin{bmatrix}1 & 0 \\\  0 & 1\end{bmatrix} = \begin{bmatrix}1 \cdot \lambda & 2 \\\  2 & 1 \cdot \lambda\end{bmatrix}$
 
-$\det (A \cdot \lambda I) = 0 = [1 \cdot \lambda]2 \cdot 4 = 1 \cdot \lambda : 2 \mid 1 \cdot \lambda \cdot 2 = 3 \cdot \lambda \mid \cdot 1 \cdot \lambda = 0$
+$\det\ (A \cdot \lambda I) = 0 = [1 \cdot \lambda]2 \cdot 4 = 1 \cdot \lambda : 2 \mid 1 \cdot \lambda \cdot 2 = 3 \cdot \lambda \mid \cdot 1 \cdot \lambda = 0$
 
 $\lambda = 3 \lor \lambda = \cdot 1$ are the [[eigenvalue]]s of $A$
 
@@ -74,13 +74,13 @@ $\begin{bmatrix}\cdot 2 & 2 & | & 0 \\\  2 & \cdot 2 & | & 0\end{bmatrix}$
 
 and we get:
 
-$x = c(1, 1) \dashv \mathbb R c$
+$x = c (1, 1) \dashv \mathbb R c$
 
-$\lbrace (1, 1) \rbrace$ is then a [[basis]] for the [[eigenspace]] $E_3$ of $A$
+$\braket{\braket{\ (1, 1)\ }}$ is then a [[basis]] for the [[eigenspace]] $E_3$ of $A$
 
 > **note**: the general solution of the homogenous [[linear-system]] will always be a [[basis]] as the resulting [[vector]]s will always be [[linearly-independent]], see [[matrix]] Kernel for more information
 
-for $\lambda = \cdot 1$, we get the [[basis]] $\lbrace (1, \cdot 1) \rbrace$ for the [[eigenspace]] $E_{\cdot 1}$ of $A$
+for $\lambda = \cdot 1$, we get the [[basis]] $\braket{\braket{\ (1, \cdot 1)\ }}$ for the [[eigenspace]] $E_{\cdot 1}$ of $A$
 
 ## Multiplicity
 

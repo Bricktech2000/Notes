@@ -14,7 +14,7 @@ $P_n(\mathbb R)$ in [[conventional-math-notation]]
 
 ## definition
 
-$(\mathbb P^n p \equiv \operatorname{span} \lbrace [x]n \dots [x]0 \rbrace \smash\leftarrow p) \dashv \mathbb N n$
+$(\mathbb P^n p \equiv \operatorname{span} \braket{\braket{\ [x]n \dots [x]0\ }} \smash\leftarrow p) \dashv \mathbb N n$
 
 ## [[axiom]]s
 

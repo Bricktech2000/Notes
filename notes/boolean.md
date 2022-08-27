@@ -16,4 +16,4 @@ _either true or false_
 
 $\mathbb B b \equiv b = \top \lor b = \bot$
 
-$\mathbb B \equiv \lbrace \top, \bot \rbrace$
+$\mathbb B \equiv \braket{\braket{\top, \bot}}$

@@ -4,4 +4,4 @@ see [[vector]], [[math-notation]]
 
 ## definition
 
-$\operatorname{span} \lbrace O \rbrace$, see [[span]], zero [[vector]]s
+$\operatorname{span} \braket{\braket{O}}$, see [[span]], zero [[vector]]s
