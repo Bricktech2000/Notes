@@ -299,7 +299,7 @@ a [[function]] can be proven to be bijective by proving it is both injective and
 
 ## Analytic Function
 
-> **definition**: an )analytic [[function]]\_ is a [[function]] that is locally given by a convergent power [[series]] &mdash; Wikipedia
+> **definition**: an _analytic [[function]]_ is a [[function]] that is locally given by a convergent power [[series]] &mdash; Wikipedia
 
 ### properties
 
@@ -326,7 +326,7 @@ even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it w
 
 ## Pure Function
 
-> **definition**: a _pure-function_ is a [[function]] that has no side effects and that does not depend on external state.
+> **definition**: a _pure function_ is a [[function]] that has no side effects and that does not depend on external state.
 
 of course, any [[function]] can be thought of as having side effects. for example, running a pure [[function]] on a CPU still consumes a measurable amount of [[energy]], modifying the entropy of the universe. &mdash; <https://youtu.be/APUCMSPiNh4?t=2594>. practically, however, this definition is useful
 

@@ -4,7 +4,7 @@
 
 a _graph_ is an collection of vertices connected by a collection of edges
 
-formally, in my [[math-notation]], a [[graph]] is a [[set-theory]]etical [[function]] with domain at least $\braket{v, w} \rightarrow \top$ that takes an [[ordered-pair]] of vertices as an index and returns the number of edges connecting them
+formally, in my [[math-notation]], a [[graph]] is a [[set-theory]]etical [[function]] with domain at least $\braket{v, w} \rightarrow \top$ that takes an [[ordered-pair]] of vertices as an index and returns whether an edge is connecting them
 
 > **definition**: in [[conventional-math-notation]], a _graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $\smash\ne E\ e \vdash (V\ \acute\mid\ V)\ e$ and $E\ e \equiv E\ e^\intercal$ (see [[relation]], [[ordered-pair]])
 

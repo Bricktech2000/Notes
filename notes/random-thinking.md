@@ -35,10 +35,3 @@ having units in [[programming-language]]s would solve a lot of issues, such as:
 - sending [[time]] to a `sleep` function in milliseconds as opposed to seconds
 
 <https://youtu.be/qC_ioJQpv4E?t=2126> #think
-
-## mass education bad habits
-
-mass [[education]] often results in students learning bad habits. examples include:
-
-- to perform a calculation, reaching for a physical calculator instead of using their phone or performing it mentally because school imposes physical calculators in exams
-- writing in a [[vague-ambiguous-generic]] manner suffering from [[wordiness]] because school imposes word count minimums but never maximums

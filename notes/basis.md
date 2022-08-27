@@ -19,7 +19,7 @@ all [[basis]]es of a [[vector-space]] have the same size
 
 ### finding a [[basis]] for a [[span]]
 
-to find a basis for a vector space $W = \operatorname{span} \lbrace v_0 \dots v_m \rbrace$
+to find a basis for a vector space $W = \operatorname{span} \braket{\braket{v_0 \dots v_m}}$
 
 1. write the [[matrix]] $A$ whose rows are the [[vector]]s $v_0 \dots v_m$. if the [[vector]]s are not [[vector-in-rn]]s, translate them into [[basis|coordinate-vector]]s first
 2. [[row-reduction|row-reduce]] $A$ to [[REF]] form

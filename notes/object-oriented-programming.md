@@ -8,7 +8,7 @@ see [[object]], [[class]]
 
 ## principles
 
-the goal of [[object-oriented-programming]] is to build objects based on their real-world properties
+the goal of [[object-oriented-programming]] is to build [[object]]s based on their real-world properties
 
 ## Greatness of OOP
 

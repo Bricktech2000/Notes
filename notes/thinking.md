@@ -73,3 +73,5 @@
 [[religion]]
 
 [[flawed-but-established]]
+
+[[education]] bad habits

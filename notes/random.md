@@ -366,3 +366,9 @@ https://example.com/
 [[carbon-language-talk]]
 
 ---
+
+$X\ x = 1 \dashv X\ x > 0$ and $\lnot X\ x > 1$
+
+$X\ x = X^\#$ (or) $X^\# = 1$
+
+$\lnot X\ x > 1 \lor X^\# = 1$

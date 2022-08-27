@@ -35,7 +35,7 @@ _an alternative to the [[bind]] [[function]]_
 
 the Kleisli Composition is an alternative to the [[bind]] [[function]] that uses [[composition]] to turn two "world-crossing" [[function]]s into a single "world-crossing" [[function]] by short-circuiting their alternative outputs (see [[bind]])
 
-Kleisli Composition is a [[monoid]]
+[[monad]]s with Kleisli Composition is a [[monoid]]
 
 ## Monad Transformer
 

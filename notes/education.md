@@ -4,25 +4,19 @@
 
 > **definition**: _cultural transmission_ is the process by which children and recent immigrants become acquainted with the dominant cultural beliefs, values, norms and accumulated knowledge of a society, through _informal_ and _formal_ education.
 
-- education has been male-biased for a long time
-- education used to be mostly informal but is now mostly formal.
+## Mass Education
 
-### mass education
-
-> free, public schooling for wide segments of a nation's population
+_free, public schooling for wide segments of a nation's population_
 
 today, schools attempt to meet the needs of industrial and post-industrial society by teaching a **wide diversity of students** a **myriad of topics**
 
 living in residences is encouraged for first-year students to **help them build their network**, to form connections that will last the rest of our lives
 
-## sociological perspectives
+### pros & cons
 
-## current issues
+see [[thinking]]
 
-## cost of postsecondary education
+mass [[education]] often results in students learning bad habits. examples include:
 
----
-
-# This class is soooooooo boring
-
-No way I'm taking notes on that
+- to perform a calculation, reaching for a physical calculator instead of using their phone or performing it mentally because school imposes physical calculators in exams
+- writing in a [[vague-ambiguous-generic]] manner suffering from [[wordiness]] because school imposes word count minimums but never maximums

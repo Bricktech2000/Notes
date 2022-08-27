@@ -10,7 +10,7 @@ online visibility is very important for [[self-taught-software-engineer]]s
 
 ## Learning
 
-- [ ] have a clear end goal in mind (company, startup, freelance) (data science, mobile apps, web development)
+- [ ] have a clear [[goal]] in mind (company, startup, freelance) (data science, mobile apps, web development)
 - programming bootcamps are usually to teach absolute beginners to build basic apps
 - use curriculum from coding bootcamps to build own curriculum
 - use online courses (Udemy, PluralSight, Lynda, Coursera, etc.)
@@ -22,7 +22,7 @@ online visibility is very important for [[self-taught-software-engineer]]s
 - [ ] writing tests
 - [ ] containers (Docker, Kubernetes, etc.)
 - [ ] cloud computing (AWS, GCP, etc.)
-- [ ] data structures and algorithms
+- [ ] [[data-structure]]s and [[algorithm]]s
 - [x] source control (Git, Github, etc.)
 - [ ] databases (MySQL, PostgreSQL, etc.)
 - [x] Linux (UNIX)

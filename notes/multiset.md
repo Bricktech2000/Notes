@@ -6,7 +6,7 @@ see [[math-notation]]
 
 a _multiset_ is an unordered collection of elements that do not have to be unique
 
-formally, in my [[math-notation]], a [[multiset]] is a [[set-theory]]etical [[function]] with range at most $\mathbb N$ that takes an element and returns the number of occurences of that element in the [[multiset]]
+formally, in my [[math-notation]], a [[multiset]] is a [[set-theory]]etical [[function]] with range at most $\mathbb N$ that takes an element and returns the number of occurrences of that element in the [[multiset]]
 
 ## Multiplicity
 

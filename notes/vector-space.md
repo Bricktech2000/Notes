@@ -88,9 +88,9 @@ let the [[vector-space]] be the [[set]] of [[vector]]s $V$. all of the following
 
 let $V\ v_0 \dots V\ v_m$. if $U = \operatorname{span} \lbrace v_0 \dots v_m \rbrace$, then $U$ is a subspace of $V$ ($U \vdash V$), see [[span]]
 
-$V u \land V v \vdash V (u : v)$ &mdash; closed under addition
+$V u \land V v \vdash V (u : v)$ &mdash; closure under addition
 
-$V u \land \mathbb R k \vdash V(k \mid u)$ &mdash; closed under multiplication by scalar
+$V u \land \mathbb R k \vdash V(k \mid u)$ &mdash; closure under multiplication by scalar
 
 $V O \land (O : u = u \dashv V u)$ &mdash; zero vector
 

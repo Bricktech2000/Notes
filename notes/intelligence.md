@@ -28,6 +28,8 @@ used for backlinks
 
 <https://youtu.be/ilZFBL6Yt4E?t=143> (informal mention)
 
+<https://youtu.be/sQC0jfH_rrM?t=34> (using "we")
+
 ## stuff I don't relate to
 
 > **AKA**: difficult, overwhelming, "boring', complicated
@@ -43,3 +45,5 @@ used for backlinks
 <https://youtu.be/oVFoHztPzX0?t=460>
 
 <https://youtu.be/TtgS-b191V0?t=546>
+
+<https://youtu.be/HZ2Mr96YcgE?t=280>

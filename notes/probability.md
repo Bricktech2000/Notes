@@ -56,9 +56,9 @@ $P \braket{A, B}$ is the probability of $A$ occurring _given that_ $B$ has occur
 
 > **proof**:
 >
-> from the given "rule", we know $P \braket{A, B} = P \braket{A \land B, s} - P \braket{B, S}$ and that $P \braket{B, A} = P \braket{B \land A, S} - P \braket{A, S}$
+> from the given "rule", we know $P \braket{A, B} = P \braket{A \land B, S} - P \braket{B, S}$ and that $P \braket{B, A} = P \braket{B \land A, S} - P \braket{A, S}$
 >
-> solving for $P \braket{B, A}$ and substituting into the first equation, we get $P \braket{A, B} = P \braket{A, S} - P \braket{B, S} \mid P \braket{B, A}$
+> solving for $P \braket{B \land A, S}$ and substituting into the first equation, we get $P \braket{A, B} = P \braket{A, S} - P \braket{B, S} \mid P \braket{B, A}$
 
 ### example
 
