@@ -47,6 +47,25 @@ the unsafe code is for framework authors, meaning framework users don't have to 
 
 [[rust]] macros are for framework authors, meaning framework users don't have to worry about them. (duplicate)
 
+### smart pointers
+
+- `Box` is for unique ownership
+- `Rc` is for multiple ownership (reference counted)
+- `Arc` is for multiple ownership across threads (atomic reference counted)
+- `Mutex` is for interior mutability across threads (atomic not reference counted)
+
+the following can be used for interior mutability:
+
+- `Cell` &mdash; wrapped data cannot be borrowed but can be copied and mutated. has no overhead
+- `RefCell` &mdash; wrapped data can be borrowed. borrow checks are done at runtime and therefore could panic. has small overhead
+- `UnsafeCell` &mdash; no borrow checks and therefore unsafe. used internally by and made safe by `Cell` and `RefCell`
+
+&mdash; <https://users.rust-lang.org/t/confused-between-box-rc-cell-arc/10946>
+
+&mdash; <https://stackoverflow.com/questions/30275982/when-i-can-use-either-cell-or-refcell-which-should-i-choose>
+
+&mdash; <https://doc.rust-lang.org/std/cell/struct.UnsafeCell.html>
+
 ## sign posts
 
 Rust ensures "surprising" behavior is clearly sign-posted:

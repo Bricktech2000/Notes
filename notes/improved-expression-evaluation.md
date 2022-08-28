@@ -204,3 +204,5 @@ if the result of an expression is _undefined_, then the expression must be rearr
 <https://www.wolframalpha.com/input?i=lim+as+n+-%3E+0+%28x%5En+%2F+n+-+1+%2F+n%29>
 
 <https://en.wikipedia.org/wiki/Natural_logarithm#Properties>
+
+[[trigonometric-function]] period #think

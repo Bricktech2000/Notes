@@ -85,3 +85,7 @@
 [[mental-illness]]
 
 [[lofi-music]]
+
+[[conspiracy-theory]]
+
+[[critical-thinking]]

@@ -2,7 +2,7 @@
 
 ## see
 
-an excess of [[motivation]] can lead to [[feeling-overwhelmed]], which can lead to [[procrastination]]
+an excess of [[motivation]] can lead to feeling [[overwhelm]]ed, which can lead to [[procrastination]]
 
 [[less-stimulated-lifestyle]]
 
@@ -43,3 +43,5 @@ an excess of [[motivation]] can lead to [[feeling-overwhelmed]], which can lead 
 [[lofi-music]]
 
 [[focus]]
+
+[[goal]] [[aspiration]]

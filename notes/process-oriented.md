@@ -6,7 +6,7 @@ most of our culture is outcome-oriented instead of process-oriented. here are so
 
 - [[education]] systems don’t focus on what you learn; rather, they focus on your grades
 
-focusing on outcomes can lead to [[feeling-overwhelmed]] and can prevent people from even starting the process itself (which could be wrongly rationalized as a lack of [[motivation]] or as [[laziness]])
+focusing on outcomes can lead to feeling [[overwhelm]]ed and can prevent people from even starting the process itself (which could be wrongly rationalized as a lack of [[motivation]] or as [[laziness]])
 
 &mdash; <https://youtu.be/\_ZVGXmafWqY?t=72>
 
@@ -63,3 +63,7 @@ as a side note, the [[goal]]s one sets must **feel achievable**. about half must
 > If they [gamers] believe that there is a chance that something won’t work, they actually avoid the entire phenomenon &mdash; <https://youtu.be/\_ZVGXmafWqY?t=171>
 
 this kind of thought process can be part of the reason why someone is not able to move forward in life. people with an analytical mind think they know what will happen, which prevents them from taking risks
+
+## example from a video
+
+<https://youtu.be/rzwaaWH0ksk?t=1749> from 29:09 to 31:22

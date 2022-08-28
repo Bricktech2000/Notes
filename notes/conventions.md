@@ -62,7 +62,7 @@ a page can link to itself
 
 _see ..._ statements are for prerequisites
 
-note names are all _-ing_ verbal groups or singular nominal groups
+note names are mostly _-ing_ verbal groups or singular nominal groups, and sometimes adjectives when necessary
 
 line breaks are used exclusively for how they look in the render and never to make the source code more readable (which is why almost no single line breaks are used)
 

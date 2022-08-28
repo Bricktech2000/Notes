@@ -47,3 +47,11 @@ used for backlinks
 <https://youtu.be/TtgS-b191V0?t=546>
 
 <https://youtu.be/HZ2Mr96YcgE?t=280>
+
+<https://youtu.be/NIyzh-Lshrk?t=23>
+
+<https://youtu.be/NIyzh-Lshrk?t=250>
+
+<https://youtu.be/rzwaaWH0ksk?t=1555>
+
+<https://youtu.be/nlSgxeT2_dc?t=282>
