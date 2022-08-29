@@ -122,7 +122,9 @@ $rank\ A$, where
 
 $A$ is the [[matrix]] to find the rank of
 
-## Null Space (Nullspace, Kernel), Column Space, Row Space
+## Matrix Vector Spaces
+
+_Null Space (Nullspace, Kernel), Column Space, Row Space_
 
 ### notations
 
@@ -154,11 +156,11 @@ $Row\ A = \operatorname{span} A^{n,} \dashv \mathbb N n$
 
 > **theorem**: the nonzero rows in any [[REF]] of a [[matrix]] $A$ forms a [[basis]] for $Row\ A$. therefore, $\dim Row\ A = rank\ A$ (see rank of a [[matrix]])
 
-> **theorem**: if $A$ and $B$ are [[linear-system|row-equivalent]], $Row\ A = Row\ B$
+> **theorem**: if $A$ and $B$ are row-equivalent, then $Row\ A = Row\ B$, see [[linear-system]]
 
 > **theorem**: the [[span]]ning [[set]] of $Null\ A$ obtained from applying [[row-reduction]] on the system $Ax = O$ is a [[basis]] for $Null\ A$
 
-> **theorem**: $Row\ A$ does not change when applying [[linear-system|elementary-operations]] on the rows of $A$
+> **theorem**: $Row\ A$ does not change when applying elementary operations on the rows of $A$, see [[linear-system]]
 
 $Col\ A = Row\ A^\intercal \land Row\ A = Col\ A^\intercal \dashv \mathbb M A$, see transpose [[matrix]]
 
@@ -178,7 +180,7 @@ _transforming a [[vector-space]] into the null space of a certain [[matrix]]_
 
 let $W = \operatorname{span} \braket{\braket{\ (1, 0, 0, 1), (1, 1, 1, 0), (2, 1, \cdot 1, 1)\ }}$
 
-after solving the [[linear-system]], we get $W (x, y, z, w) \equiv \cdot x : y : w = 0$. therefore, $W$ is the null space of $A = \begin{bmatrix}\cdot 1 & 1 & 0 & 1\end{bmatrix}$
+after solving the [[linear-system]], we get $W\ (x, y, z, w) \equiv \cdot x : y : w = 0$. therefore, $W$ is the null space of $A = \begin{bmatrix}\cdot 1 & 1 & 0 & 1\end{bmatrix}$
 
 ## Transpose Matrix
 
@@ -204,13 +206,13 @@ $(AB)^\intercal = B^\intercal A^\intercal \dashv \mathbb M A \land \mathbb M B$
 
 ## Matrix Inverse
 
-_the Inverse of a [[matrix]]_
+_the inverse of a [[matrix]]_
 
 ### definition
 
 $AA^- = A^-A = I \dashv \mathbb M A$, where
 
-$A$ is a (square) [[matrix]]
+$A$ is a square [[matrix]]
 
 $A^-$ is the _inverse matrix_ of $A$
 
@@ -222,7 +224,7 @@ see theorems below for invertability criteria
 
 ### properties
 
-let $A$ and $C$ be invertible [[matrix]]es, let $\mathbb Z p$ and let $\mathbb R k \land k \ne 0$
+let $A$ and $C$ be invertible [[matrix]]es, let $\mathbb Z p$ and let $\mathbb R k \land k \ne 0$. then,
 
 $AA^- = A^-A = I$
 
@@ -234,7 +236,7 @@ $(kA)^- = \text-k \mid A^-$ (restriction might not be necessary, see [[improved-
 
 $(AC)^- = C^-A^-$
 
-> **note**: in the equation above, the order of the matrices has changed. this is significant as [[matrix]] multiplication is not commutative
+> **note**: in the equation above, the order of the [[matrix]]es has changed. this is significant as [[matrix]] multiplication is not commutative
 
 if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 
@@ -353,4 +355,4 @@ see [[linear-system-theorem-proof]]
 > 11. $A$ is an invertible [[matrix]]
 > 12. $\det A \ne 0$
 
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js"></script><script>window.MathJax = {tex: {inlineMath: [['$', '$']]}, messageStyle: "none"};</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([a-zA-Z0-9\-]+)\]\]/g, (a, b, c) => `<u style="text-transform: capitalize;">${c.replace(/\-/g, ' ')}</u>`).replace(/#[a-zA-Z0-9\-]+/g, (a) => `<u style="text-transform: lowercase;">${a}</u>`).replace(/!\[\[(.+)\]\]/g, (a, b) => `<img src="${b}" />`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } img { border-radius: 4px; } </style>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js"></script><script>window.MathJax = {tex: {inlineMath: [['$', '$']]}, messageStyle: "none"};</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([a-zA-Z0-9\-]+)\]\]/g, (a, b, c) => `<u>${c.replace(/\-/g, ' ')}</u>`).replace(/#[a-zA-Z0-9\-]+/g, (a) => `<u>${a}</u>`).replace(/!\[\[(.+)\]\]/g, (a, b) => `<img src="${b}" />`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } img { border-radius: 4px; } </style>
