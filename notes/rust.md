@@ -32,7 +32,7 @@ unsafe code can:
 - dereference a raw pointer
 - call an unsafe [[function]]
 - implement unsafe traits
-- mutate global variables
+- mutate global [[variable]]s
 - access fields of unions (see algebraic data [[type]]s)
 
 > other languages say _here is the line; you may never cross it_. [[rust]] says _cross here if you know what you're doing_ &mdash; <https://youtu.be/PuMXWc0xrK0?t=76>

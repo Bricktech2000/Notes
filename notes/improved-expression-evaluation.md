@@ -16,13 +16,13 @@ this [[improved-expression-evaluation]] proposes that any algebraic manipulation
 
 - conventionally, the graph of a [[function]] such as $f\ x = - - x \cdot 2$ has a hole at $x = 2$. however, by simplifying the [[function]] using [[limit-rules]] before graphing it, the function $f\ x = x \cdot 2$ is obtained; the hole is avoided.
 
-- many algebraic rules contain an arbitrary restriction such as $\dashv x \ne 0$ given a variable $x$. however, none of them break (have broken yet) when removing the restriction and using this [[improved-expression-evaluation]]. see backlinks for real-world examples
+- many algebraic rules contain an arbitrary restriction such as $\dashv x \ne 0$ given a [[variable]] $x$. however, none of them break (have broken yet) when removing the restriction and using this [[improved-expression-evaluation]]. see backlinks for real-world examples
 
 ## analogy with [[complex]] numbers
 
 ignoring the existence of [[complex]] numbers, the square root of a negative [[number]] can be thought of as _invalid_. however, instead of trying to compute the square root straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being squared, which makes it "valid" again. it turns out that doing so never results in an erroneous answer.
 
-similarly, dividing by a variable equal to zero can be thought of as _invalid_, or as _undefined_ in conventional [[mathematics]]. however, instead of trying to compute the division straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being multiplied by its denominator, which makes it "valid" again. for this [[improved-expression-evaluation]] to be valid, doing so must never results in an erroneous answer.
+similarly, dividing by a [[variable]] equal to zero can be thought of as _invalid_, or as _undefined_ in conventional [[mathematics]]. however, instead of trying to compute the division straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being multiplied by its denominator, which makes it "valid" again. for this [[improved-expression-evaluation]] to be valid, doing so must never results in an erroneous answer.
 
 ## attempting to break the system
 

@@ -6,7 +6,7 @@ see [[math-notation]], [[function]], [[neural-network]]
 
 _the default [[loss-function]] for regression problems_
 
-> Mathematically, it is the preferred loss function under the inference framework of maximum likelihood if the distribution of the target variable is Gaussian. It is the loss function to be evaluated first and only changed if you have a good reason. &mdash; <https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/>
+> Mathematically, it is the preferred loss function under the inference framework of maximum likelihood if the distribution of the target [[variable]] is Gaussian. It is the [[loss-function]] to be evaluated first and only changed if you have a good reason. &mdash; <https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/>
 
 ### definition
 

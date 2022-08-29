@@ -56,7 +56,7 @@ $v$ is the direction [[vector-in-rn]]
 
 > **note**: partial differentiation is not a thing. unless I'm missing something major, all it means is:
 >
-> > differentiate this [[function]] with respect to this variable, and please blindly assume the derivative of the variable with respect to any other parameter is $0$
+> > differentiate this [[function]] with respect to this [[variable]], and please blindly assume the derivative of the [[variable]] with respect to any other parameter is $0$
 >
 > partial differentiation is equivalent to a directional [[derivative]] with direction $(0 \dots 0, 1, 0 \dots 0)$
 >
@@ -136,7 +136,7 @@ $\delta y - \delta x = y \mid 1 : \lceil x \rceil = [x]x \mid 1 : \lceil x \rcei
 
 ## Implicit Differentiation
 
-> Differentiation of an implicit equation (where the dependent variable is not isolated). Works with both [[function]]s and relations that aren't [[function]]s.
+> Differentiation of an implicit equation (where the dependent [[variable]] is not isolated). Works with both [[function]]s and [[relation]]s that aren't [[function]]s.
 
 ### example
 

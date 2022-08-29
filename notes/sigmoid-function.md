@@ -8,7 +8,7 @@ $\sigma\ z = -1 : e[\cdot z]$, where
 
 $\sigma\ z$ is the [[sigmoid-function]] at $z$
 
-$e$ is Euler's nubmer [[e]]
+$e$ is [[eulers-constant]]
 
 ## derivative
 

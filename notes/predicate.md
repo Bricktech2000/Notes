@@ -10,7 +10,7 @@ see [[logic-statement]], [[math-notation]]
 
 let $f$ be a [[predicate]]. then, $\mathbb B f\ x \dashv x$
 
-in [[discrete-mathematics]], a _predicate_ is a sentence depending on variables which becomes a [[logic-statement]] upon substituting values in the domain. $x = 5$ is a predicate and would become a [[logic-statement]] by substituting $x = 3$. quantifying a [[predicate]] (with $\exists$ or $\forall$) turns it into a [[logic-statement]].
+in [[discrete-mathematics]], a _predicate_ is a sentence depending on [[variable]]s which becomes a [[logic-statement]] upon substituting values in the domain. $x = 5$ is a predicate and would become a [[logic-statement]] by substituting $x = 3$. quantifying a [[predicate]] (with $\exists$ or $\forall$ in [[conventional-math-notation]]) turns it into a [[logic-statement]].
 
 ## examples
 

@@ -192,7 +192,7 @@ a power [[series]] centered at $a$ is of the following form:
 
 $P\ x = c^0 [x \cdot a]0 : c^1 [x \cdot a]1 : \dots$, where
 
-$c^n$ is a constant (a [[function]] of the iteration variable)
+$c^n$ is a constant (a [[function]] of the iteration [[variable]])
 
 $P\ x$ is the power [[series]] taking the argument $x$
 

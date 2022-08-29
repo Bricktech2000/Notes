@@ -6,7 +6,7 @@
 
 LaTeX is used for all mathematical equations through my custom [[math-notation]]
 
-variables are defined in separate lines using a _, where_ statement
+[[variables]] are defined in separate lines using a _, where_ statement
 
 whitespace in formulas follow programming-language-like conventions
 

@@ -24,7 +24,7 @@ $z = a : bi$
 
 > **AKA**: Euler's formula notation
 
-$z = |z|\ \cos \theta : |z|\ i \sin \theta = |z|\ e[i\theta]$, see [[e]]
+$z = |z|\ \cos \theta : |z|\ i \sin \theta = |z|\ e[i\theta]$, see [[eulers-constant]]
 
 ## properties
 

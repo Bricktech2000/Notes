@@ -17,7 +17,7 @@ informal abbreviation: K Map
 
 ### with more than two variables
 
-as we can’t visualize 3D K Maps, we must group variables per axis when more than two variables are present. variable groups must be chosen carefully. only one bit can change from one row/column to the next, explaining the $00, 01, 11, 10$ columns
+as we can’t visualize 3D K Maps, we must group [[variable]]s per axis when more than two [[variable]]s are present. variable groups must be chosen carefully. only one bit can change from one row/column to the next, explaining the $00, 01, 11, 10$ columns
 
 | A/BC | 00  | 01  | 11  | 10  |
 | ---- | --- | --- | --- | --- |

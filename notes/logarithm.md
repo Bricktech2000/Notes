@@ -20,7 +20,7 @@ $\lceil a \rceil b = c \equiv b[c] = a$
 
 ## common bases
 
-$\lceil b \rceil e$ is the _natural log_ of $b$, see [[e]]
+$\lceil b \rceil e$ is the _natural log_ of $b$, see [[eulers-constant]]
 
 $\lceil b \rceil 10$ is the _common log_ of $b$
 

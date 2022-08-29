@@ -58,4 +58,4 @@ $\sigma^i\ z$ is the softmax [[activation-function]] at of $z$ at $z^i$
 
 $z$ is a vector of $n$ values
 
-$e$ is Euler's nubmer [[e]]
+$e$ is [[eulers-constant]]

@@ -102,4 +102,4 @@ $R$ is the [[ideal-gas]] constant, $8.314\frac{J}{mol K}$
 
 $T$ is the absolute [[temperature]], in $K$
 
-$e$ is Euler's constant [[e]]
+$e$ is [[eulers-constant]]

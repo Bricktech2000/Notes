@@ -30,4 +30,4 @@ which can all either be:
 
 ### definitions
 
-> **definition**: a _final_ variable can only be initialized once
+> **definition**: a _final variable_ can only be initialized once

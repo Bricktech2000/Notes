@@ -34,7 +34,7 @@ even and odd [[function]]s
 
 **related**
 
-[[e]]
+[[eulers-constant]]
 
 [[rational-function]]
 

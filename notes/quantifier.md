@@ -4,7 +4,7 @@ see [[math-notation]], [[boolean-logic]]
 
 > **definition**: In [[boolean-logic]], a _quantifier_ is an operator that specifies how many individuals in the domain of discourse satisfy an open formula. &mdash; Wikipedia
 
-> **note**: an _open formula_ is an expression with at least one free variable, see [[linear-system]]
+> **note**: an _open formula_ is an expression with at least one free [[variable]], see [[linear-system]]
 
 ## Universal Quantifier
 
@@ -30,4 +30,4 @@ in [[conventional-math-notation]]: $\exists x \in \mathbb R, P(x)$
 
 $B \vdash C \equiv /B \lor C$ means “for all $B$, $C$”. negating, we get $/(B \vdash C) \equiv B \land /C$, which means “there exists a $B$ such that $/C$”
 
-the inverse is true
+the inverse is also true

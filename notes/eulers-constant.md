@@ -1,8 +1,12 @@
-# e
+# Euler's Constant
 
-_mathematical constant_
+> **AKA**: e
 
 see [[math-notation]]
+
+## notation
+
+$e$
 
 ## definitions
 

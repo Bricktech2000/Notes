@@ -16,7 +16,7 @@ see [[row-reduction]], [[math-notation]], [[matrix]]
 
 > **definition**: two [[matrix]]es $A$, $B$ are _Row Equivalent_ $A \sim B$ if $B$ can be obtained from $A$ by a finite sequence of elementary row operations
 
-> **definition**: a _Leading Variable_ is the variable associated with a _pivot_ in a matrix in [[REF]]
+> **definition**: a _Leading Variable_ is the [[variable]] associated with a _pivot_ in a matrix in [[REF]]
 
 ### notation
 
@@ -78,7 +78,7 @@ a [[matrix]] is in [[RREF]] if:
 ### finding the general solution
 
 - if there is a unique solution, then the solution is the [[vector]] in the augmented column (ignore the $\begin{bmatrix}0 & \dots & 0 & | & 0\end{bmatrix}$ rows, if any)
-- else, each pivot corresponds to one row of the augmented [[matrix]]. write the equation for this row and solve for the corresponding leading variable
+- else, each pivot corresponds to one row of the augmented [[matrix]]. write the equation for this row and solve for the corresponding leading [[variable]]
 
 ### putting a [[matrix]] in [[RREF]]
 

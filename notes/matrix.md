@@ -326,8 +326,8 @@ see [[linear-system]]
 
 > **theorem**: let $\mathbb M^{m, n}A$ (see [[matrix]]). the following [[logic-statement]]s are equivalent:
 >
-> 1. every variable is a leading variable
-> 2. there is a leading variable in every column of the [[RREF]] of $A$
+> 1. every [[variable]] is a leading [[variable]]
+> 2. there is a leading [[variable]] in every column of the [[RREF]] of $A$
 > 3. the system $Ax = O$ has a unique solution
 > 4. the columns of $A$ are [[linearly-independent]]
 > 5. $Ker\ A = \braket{\braket{0}}$

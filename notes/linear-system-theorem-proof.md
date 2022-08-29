@@ -6,15 +6,15 @@
 >
 > - $1 \to 2$
 >
->   each column represents a variable
+>   each column represents a [[variable]]
 >
->   every variable is a leading variable $\to$ there is a leading $1$ in each column of the [[RREF]] of $A$
+>   every [[variable]] is a leading variable $\to$ there is a leading $1$ in each column of the [[RREF]] of $A$
 >
 > - $2 \to 3$
 >
 >   $Ax = O$ is homogeneous $\to$ the system is consistent
 >
->   no free variables $\to$ there cannot be infinitely many solutions $\to$ it must have a single solution
+>   no free [[variable]]s $\to$ there cannot be infinitely many solutions $\to$ it must have a single solution
 >
 > - $3 \to 4$
 >
@@ -34,6 +34,6 @@
 >
 > - $7 \to 1$
 >
->   the [[matrix|rank]] of a [[matrix]] is the number leading variables in the matrix
+>   the [[matrix|rank]] of a [[matrix]] is the number leading [[variable]]s in the matrix
 >
->   $rank\ A = n$ and $A$ has $n$ columns $\to$ every variable is a leading variable
+>   $rank\ A = n$ and $A$ has $n$ columns $\to$ every [[variable]] is a leading variable
