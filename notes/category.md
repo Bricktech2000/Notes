@@ -34,7 +34,7 @@ objects of a category are generally specificed by writing them in a [[set]], den
 
 for any pair of objects $A$ and $B$, the category has a set of _morphisms_ from $A$ to $B$, denoted $\mathcal C(A, B) = \braket{\braket{f, g, \dots}}$ in [[conventional-math-notation]].
 
-a morphism from $A$ to $B$ is denoted as $f: A \to B$ in [[conventional-math-notation]]. even though $A$ is related to $B$, $B$ is not necessarily related to $A$. they can be thought of as [[function]]s, but don't necessarily have to be.
+a morphism from $A$ to $B$ is denoted $f: A \to B$ in [[conventional-math-notation]]. even though $A$ is related to $B$, $B$ is not necessarily related to $A$. they can be thought of as [[function]]s, but don't necessarily have to be.
 
 any number of morphisms from two objects can exist. this includes zero morphisms to an infinity of morphisms.
 
@@ -50,7 +50,7 @@ composition is denoted through the [[operator]] $\circ$ in [[conventional-math-n
 
 identities are morphisms that map an object to itself. in a category, each object must have an identity morphism. the set of all identities in a category is denoted $\mathcal C(A, A) = \braket{\braket{1_A, \dots}}$ in [[conventional-math-notation]].
 
-an identity is denoted as $1_A: A \to A$ or as $\textbf{id}_A : A \to A$ in [[conventional-math-notation]].
+an identity is denoted $1_A: A \to A$ or as $\textbf{id}_A : A \to A$ in [[conventional-math-notation]].
 
 ### Identity Law
 
@@ -108,7 +108,7 @@ _terminal object_ should really have been named _coinitial object_ to match with
 
 &mdash; <https://youtu.be/Gai-liKAUPo?t=190>
 
-> **definition**: for any [[category]] $\mathcal C$, one can define the _opposite [[category]]_ $\mathcal C^{op}$ by reversing all its morphisms
+> **definition**: for any [[category]] $\mathcal C$, one can define the _opposite category_ $\mathcal C^{op}$ by reversing all its morphisms
 
 this can be thought of as _reversing the direction of the arrows_ in the [[graph]] the [[category]].
 

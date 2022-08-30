@@ -10,7 +10,7 @@ vectors can form [[vector-space]]s
 
 [[function]]s, see [[function-vector-space]]
 
-polynomials, see [[polynomial-vector-space]]
+[[polynomial]]s, see [[polynomial-vector-space]]
 
 ### properties
 

@@ -18,8 +18,6 @@ $x \ge 0 \land y \ge 0$
 
 ## feasible region
 
-### definition
-
 > **definition**: the _feasible region_ of a [[linear-programming]] problem is the graphical region in which all linear inequalities are satisfied
 
 ### representation
@@ -28,7 +26,7 @@ $x \ge 0 \land y \ge 0$
 
 ## procedure
 
-> **theorem**: [[function]] extrema occur at vertices of a concave, bounded, feasible region
+> **theorem**: [[function]] extrema occur at vertices of a concave and bounded feasible region
 
 therefore, to find the [[function]] extrema of a [[linear-programming]] problem,
 

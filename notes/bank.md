@@ -34,13 +34,15 @@ see [[money]], [[principles-of-economics]]
 
 ## Money Multiplier
 
-> the amount of money the banking system generates with each dollar it receives
+_the amount of money the banking system generates with each dollar it receives_
 
 ### definition
 
 see [[math-notation]]
 
-the money multiplier is the reciprocal of the reserve ratio, $1 - R$
+the money multiplier is the reciprocal of the reserve ratio
+
+$\text{money multiplier} = -R$
 
 ## Bank of Canada
 

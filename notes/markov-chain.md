@@ -30,7 +30,7 @@ then, we compute $S_n = P \mid S_c = \begin{bmatrix} P^{0, 0} & \cdots \\\ \vdot
 
 $S_c$ is the current iteration of the computation starting from $S_0$
 
-$S_s$ is the next iteration of the computation
+$S_n$ is the next iteration of the computation
 
 $P$ is the $s$ by $s$ _transition matrix_ of the [[markov-chain]]
 

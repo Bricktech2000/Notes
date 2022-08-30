@@ -2,7 +2,7 @@
 
 see [[derivative]], [[math-notation]]
 
-_approximate the zeros of a [[function]]_
+_method to approximate the zeros of a [[function]]_
 
 ## procedure
 
@@ -19,5 +19,7 @@ given an initial guess $x_0$, we derive the following from the tangent line equa
 $x^{n : 1} = x^n \cdot (f\ x_n - (x \rightarrow \delta\ f\ x - \delta x)\ x_n)$
 
 ## example
+
+the following equation can be solved easily using [[newtons-method]]
 
 $e[x] = 4x$

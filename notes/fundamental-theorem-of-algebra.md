@@ -2,7 +2,9 @@
 
 see [[math-notation]]
 
-> **theorem**: Every [[polynomial]] with coefficients in the [[complex]] numbers [[factor]]s completely into linear [[factor]]s of the form $a : bi$ with $\mathbb C a \land \mathbb C b$
+> **theorem**: _Fundamental Theorem of Algebra_
+>
+> Every [[polynomial]] with coefficients in the [[complex]] numbers [[factor]]s completely into linear [[factor]]s of the form $a : bi$ with $\mathbb C a \land \mathbb C b$
 
 the same **cannot** be said for [[real]]s
 

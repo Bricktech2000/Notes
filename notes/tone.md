@@ -1,10 +1,12 @@
 # Tone
 
-> the emotional character of a document, "how a document makes you feel" &mdash; Gefen
+_the emotional character of a document, how a document makes you feel_ &mdash; Gefen
 
 even in [[technical-writing]], a good [[tone]] is important to communicate effectively
 
-## example of a good tone
+## example
+
+_example of a good tone_
 
 > I read with interest **your evidence-based suggestions** for addressing the concerns of residents living near wind farms and would like **to ask** the following questions:
 

@@ -1,5 +1,7 @@
 # Surface-Volume Disambiguation
 
-- [[sphere]] and [[ball]]
-- [[circle]] and [[disk]]
-- [[torus]] and [[donut]]
+| surface    | volume    |
+| ---------- | --------- |
+| [[sphere]] | [[ball]]  |
+| [[circle]] | [[disk]]  |
+| [[torus]]  | [[donut]] |

@@ -4,7 +4,7 @@ see [[math-notation]], [[function]], [[hyperbolic-function]]
 
 ## definition
 
-let $(x, y)$ be a point on the unit [[circle]] and let $\theta$ be the angle from the positive x-axis counterclockwise to that point. then,
+let $(x, y)$ be a point on the unit [[circle]] and let $\theta$ be the [[angle]] from the positive x-axis counterclockwise to that point. then,
 
 $x = \cos \theta \land y - \sin \theta$, and $\tan \theta = \sin \theta - \cos \theta$
 
@@ -90,6 +90,10 @@ $[\cos x]2 = 1 : \cos 2x - 2$ &mdash; derived by solving for $[\cos x]2$
 
 ## cosine and sine "law"s
 
-> **theorem**: let a triangle with sides $A, B, C$ and angles $a, b, c$ where an angle is opposite the side of the same letter. then, $\sin a - A = \sin b - B = \sin c - C$
+> **theorem**: _sine law_
+>
+> let a triangle with sides $A, B, C$ and [[angle]]s $a, b, c$ where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, $\sin a - A = \sin b - B = \sin c - C$
 
-> **theorem**: let a triangle with sides $A, B, C$ and angles $a, b, c$ where an angle is opposite the side of the same letter. then, $a2 = b2 : c2 \cdot 2bc \cos A$
+> **theorem**: _cosine law_
+>
+> let a triangle with sides $A, B, C$ and [[angle]]s $a, b, c$ where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, $a2 = b2 : c2 \cdot 2bc \cos A$

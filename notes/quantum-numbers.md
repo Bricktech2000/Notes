@@ -1,6 +1,6 @@
 # Quantum Numbers
 
-_used to describe the address of an electron within an atom_
+_used to describe the "address" of an electron within an atom_
 
 &mdash; <https://www.youtube.com/watch?v=4sLXUr2HWIs&ab_channel=TheOrganicChemistryTutor>
 

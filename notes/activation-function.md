@@ -35,7 +35,7 @@ see [[hyperbolic-function]]
 
 ### definition
 
-$\text{TANH} z = \tanh z$
+$\text{TANH}\ z = \tanh z$
 
 ### implementation
 

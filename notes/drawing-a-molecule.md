@@ -12,10 +12,10 @@ each molecule could take the form of multiple [[resonance-structure]]s when doub
 
 ### example
 
-$SO_3$ could have one double bond, two double bonds or three double bonds. however, when using three double bonds, the formal charges of all $O$ atoms and of the $S$ atom are all $0$, which is preferred. for this reason, $SO_3$ has three double bonds.
+$SO_3$ could have one double [[bond]], two double bonds or three double [[bond]]s. however, when using three double bonds, the [[formal-charge]]s of all $O$ atoms and of the $S$ atom are all $0$, which is preferred. for this reason, $SO_3$ has three double [[bond]]s.
 
 ## drawing using [[lewis-structure]]
 
 _each bond is two electrons_
 
-follow [[lewis-structure]]: draw bonds as lines and lone electrons as dots. respect molecular geometries.
+follow [[lewis-structure]]: draw [[bond]]s as lines and lone [[electron]]s as dots. respect [[molecular-geometry]]es.

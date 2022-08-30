@@ -40,4 +40,4 @@ $a(b : c) = ab : ac$ &mdash; distributivity of multiplication over addition
 
 [[number-field]]s are use as _scalars_ in [[linear-algebra]]
 
-> **note**: in [[mat1341-d-introduction-to-linear-algebra]], the [[number-field]] of [[real]]s was used for all computations. the [[number-field]] of [[complex]] numbers could've also been used instead
+> **note**: in [[mat1341-d-introduction-to-linear-algebra]], the [[number-field]] of [[real]]s was used for all computations. the [[number-field]] of [[complex]] numbers could've been used instead

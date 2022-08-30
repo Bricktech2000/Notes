@@ -1,6 +1,6 @@
 # Binary Decoder
 
-_a [[logic-circuit]] (or [[boolean]] [[function]]) that converts an $n$-bit binary digits to a set of $2[n]$ outputs_
+_a [[logic-circuit]] (or [[boolean]] [[function]]) that converts an $n$-bit binary number to a set of $2[n]$ outputs_
 
 ## example
 

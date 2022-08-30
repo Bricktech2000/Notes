@@ -68,7 +68,7 @@ $\sin \theta = a\ \check\mid\ b - |a|\ |b|$, see [[cross-product]]
 
 notation: $u \perp v$
 
-_a pair of vectors offset by $90^\cdot$._
+_a pair of vectors offset by $90^\circ$._
 
 $u$ and $v$ are orthogonal if and only if $u\ \dot\mid\ v = 0$ (see [[dot-product]]), or $u \perp v \equiv u\ \dot\mid\ v = 0$
 

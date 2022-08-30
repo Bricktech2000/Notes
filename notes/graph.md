@@ -34,7 +34,7 @@ in [[conventional-math-notation]], a vertex $v$ is in a graph $\braket{V, E}$ if
 
 see [[category]], [[category-theory]]
 
-two [[graph]]s are _isomorphic_ if they have the same edges connecting their vertices, which could be labelled differently
+> **definition**: two [[graph]]s are said to be _isomorphic_ if they have the same edges connecting their vertices, which could be labelled differently
 
 > **definition**: in my [[math-notation]], a _graph isomorphism_ between two [[graph]]s $G_1$ and $G_2$ is a bijective [[function]] $f$ such that $G_1^{v, w} \equiv G_2^{f\ v, f\ w}$
 

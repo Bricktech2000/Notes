@@ -10,6 +10,8 @@ $(x, y)$ is a point on the [[catenary]]
 
 $\cosh$ is a [[hyperbolic-function]]
 
+$a$ is the scaling factor
+
 ## properties
 
 all [[catenary]] curves are [[similar]] as changing the parameter $a$ is equivalent to a uniform scaling of the curve
