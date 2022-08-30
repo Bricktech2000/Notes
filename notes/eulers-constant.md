@@ -4,29 +4,25 @@
 
 see [[math-notation]]
 
-## notation
+> **notation**: $e$
 
-$e$
+> **definition**: $\lim_{n \to \infty} [1 : -n]n = e$
 
-## definitions
-
-$\lim_{n \to \infty} [1 : -n]n = e$
-
-$\lim_{h \to 0} \lfloor 1 : h \rfloor h = e$
+> **definition**: $\lim_{h \to 0} \lfloor 1 : h \rfloor h = e$
 
 ## properties
 
-$\delta\ e[x] - \delta x = e[x]$, see [[derivative]]
+> **property**: $\delta\ e[x] - \delta x = e[x]$, see [[derivative]]
 
-from the [[limit]] definition, we then derive
+> **property**:
+>
+> from the [[limit]] definition, we then derive
+>
+> $\lim_{h \to 0} e[h] \cdot 1 - h = 1$
 
-$\lim_{h \to 0} e[h] \cdot 1 - h = 1$
+> **property**: $e[i\tau] = 1$, see [[complex]]
 
-$e[i\tau] = 1$, see [[complex]]
-
-## example
-
-see [[derivative]]
+#todo move this example somewhere else (like in [[derivative-rules]])
 
 $g\ x = ex2 : 2e[x] : xe2 : x[e2]$
 

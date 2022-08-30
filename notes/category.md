@@ -10,19 +10,25 @@ see [[category-theory]], [[functor]]
 
 [[group]]s
 
-## definition
+> **definition**:
+>
+> a category $\mathcal C$ consists of:
+>
+> - Objects
+> - Morphisms
+> - Composition
+> - Identities
+>
+> all subject to:
+>
+> - the identity law
+> - the associativity law
 
-a category $\mathcal C$ consists of:
+> **example**: <https://youtu.be/yAi3XWCBkDo?t=652>
 
-- Objects
-- Morphisms
-- Composition
-- Identities
+> **counterexample**: <https://youtu.be/yAi3XWCBkDo?t=762>
 
-all subject to:
-
-- the identity law
-- the associativity law
+## definitions
 
 ### Objects
 
@@ -66,23 +72,19 @@ in Haskell, let `id :: a -> a`. then, `id x = x`
 
 [[composition]] in a category is required to be associative
 
-## example
-
-<https://youtu.be/yAi3XWCBkDo?t=652>
-
-## counterexamples
-
-<https://youtu.be/yAi3XWCBkDo?t=762>
-
 ## Isomorphism
 
-an isomorphism is a morphism with a corresponding inverse. in the commutative diagram below, $\alpha$ (or the pair $\alpha, \alpha^{-1}$) is an isomorphism
+> **definition**: an _isomorphism_ is a morphism with a corresponding inverse
 
-![[20220708044859.png]] &mdash; <https://youtu.be/Gai-liKAUPo?t=483>
+> **example**:
+>
+> in the commutative diagram below, $\alpha$ (or the pair $\alpha, \alpha^{-1}$) is an isomorphism
+>
+> ![[20220708044859.png]] &mdash; <https://youtu.be/Gai-liKAUPo?t=483>
+>
+> &mdash; <https://youtu.be/yAi3XWCBkDo?t=954>
 
-&mdash; <https://youtu.be/yAi3XWCBkDo?t=954>
-
-if there exists an isomorphism between two objects $A$ and $B$, they are said to be isomorphic, denoted $A \cong B$ in [[conventional-math-notation]].
+> **definition**: if there exists an isomorphism between two objects $A$ and $B$, they are said to be _isomorphic_, denoted $A \cong B$ in [[conventional-math-notation]].
 
 > "isomorphism captures the idea that objects can be functionally the same, where the meaning of _functionally_ depends on the working category" &mdash; <https://youtu.be/yAi3XWCBkDo?t=1012>
 

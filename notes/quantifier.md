@@ -6,28 +6,22 @@ see [[math-notation]], [[boolean-logic]]
 
 > **note**: an _open formula_ is an expression with at least one free [[variable]], see [[linear-system]]
 
+> **property**: $B \vdash C \equiv /B \lor C$ means “for all $B$, $C$”. negating, we get $/(B \vdash C) \equiv B \land /C$, which means “there exists a $B$ such that $/C$”
+>
+> the inverse is also true
+
 ## Universal Quantifier
 
 _expresses that every item in the domain satisfies a condition_
 
-### notation
+> **notation**: _in my [[math-notation]]_ $P\ x \dashv \mathbb R x$
 
-in my [[math-notation]]: $P\ x \dashv \mathbb R x$
-
-in [[conventional-math-notation]]: $\forall x \in \mathbb R, P(x)$
+> **notation**: _in [[conventional-math-notation]]_ $\forall x \in \mathbb R, P(x)$
 
 ## Existential Quantifier
 
 _expresses that at least one item in the domain satisfies a condition_
 
-### notation
+> **notation**: _in my [[math-notation]]_ $P\ x \land \mathbb R x$
 
-in my [[math-notation]]: $P\ x \land \mathbb R x$
-
-in [[conventional-math-notation]]: $\exists x \in \mathbb R, P(x)$
-
-## quantifier negation
-
-$B \vdash C \equiv /B \lor C$ means “for all $B$, $C$”. negating, we get $/(B \vdash C) \equiv B \land /C$, which means “there exists a $B$ such that $/C$”
-
-the inverse is also true
+> **notation**: _in [[conventional-math-notation]]_ $\exists x \in \mathbb R, P(x)$

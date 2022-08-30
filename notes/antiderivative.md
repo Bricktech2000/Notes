@@ -8,19 +8,20 @@ see [[math-notation]], [[function]], [[derivative]], [[calculus-notation]]
 >
 > in other words, if $F\ x$ is one [[antiderivative]] of $f\ x$, then any other [[antiderivative]] of $f\ x$ can be rewritten in the form $F\ x : c$ with $\mathbb R c$, see [[antiderivative-theorem-proof]]
 
-## notation
-
-$\delta\ F\ x - \delta x = f\ x$, where
-
-$f\ x$ is any [[function]]
-
-$F\ x$ are the [[antiderivative]]s of $f\ x$
+> **notation**:
+>
+> $\delta\ F\ x - \delta x = f\ x$, where
+>
+> - $f\ x$ is any [[function]]
+> - $F\ x$ are the [[antiderivative]]s of $f\ x$
 
 ---
 
 # Antidifferentiation
 
-to antidifferentiate a [[function]], apply reciprocal [[derivative-rules]] recursively, see [[recursion]]
+> **procedure**: _computing an [[antiderivative]]_
+>
+> to antidifferentiate a [[function]], apply reciprocal [[derivative-rules]] recursively, see [[recursion]]
 
 ## $u$ Substitution
 

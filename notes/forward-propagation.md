@@ -2,7 +2,7 @@
 
 see [[math-notation]], [[neural-network]], [[matrix]]
 
-## definition
+## mathematics
 
 ### calculating neuron outputs
 

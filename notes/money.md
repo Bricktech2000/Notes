@@ -6,8 +6,6 @@ see [[wealth]], [[bank]]
 
 > **definition**: _money_ is the set of assets in the [[economy]] that people regularly use to buy [[goods-and-services]] from other people
 
-## applications
-
 money is:
 
 - a _medium of exchange_ an item that buyers give to sellers when they want to purchase [[goods-and-services]]

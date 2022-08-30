@@ -14,51 +14,46 @@ see [[calculus]], [[series]]
 >
 > Taylor series remainders can be used to determine whether a taylor [[series]] converges to its underlying [[function]] or not.
 
-## definition
-
-let $f\ x$ be a [[function]] and let $T_f\ x$ such that $T_f\ a = f\ a \land \delta\ T_f\ a = \delta\ f\ a \land \delta\ \delta\ T_f\ a = \delta\ \delta\ f\ a \dots$, where $(a, f\ a)$ is the point of interest on $f$ and $T_f\ x$ is a [[polynomial]] function
-
-we then derive the following definition:
-
-$T_f\ x = T_f^0 : T_f^1 : T_f^2 : \dots$, where
-
-$T_f^n = (d^n\ f)\ a - \operatorname{fact} n \mid [x \cdot a]n$, where
-
-$d^n\ f = d^{n \cdot 1}\ (x \rightarrow \delta\ f\ x - \delta x) \land d^0\ f = f$, see [[derivative]]
-
-> **proof**: &mdash; <https://youtu.be/7gigNsz4Oe8?t=17431>
+> **definition**:
 >
-> intuitive explanation: <https://youtu.be/3d6DsjIBzJ4?t=383>
+> let $f\ x$ be a [[function]] and let $T_f\ x$ such that $T_f\ a = f\ a \land \delta\ T_f\ a = \delta\ f\ a \land \delta\ \delta\ T_f\ a = \delta\ \delta\ f\ a \dots$, where $(a, f\ a)$ is the point of interest on $f$ and $T_f\ x$ is a [[polynomial]] function
+>
+> we then derive the following definition:
+>
+> $T_f\ x = T_f^0 : T_f^1 : T_f^2 : \dots$, where
+>
+> $T_f^n = (d^n\ f)\ a - \operatorname{fact} n \mid [x \cdot a]n$, where
+>
+> $d^n\ f = d^{n \cdot 1}\ (x \rightarrow \delta\ f\ x - \delta x) \land d^0\ f = f$, see [[derivative]]
+>
+> > **proof**: &mdash; <https://youtu.be/7gigNsz4Oe8?t=17431>
+> >
+> > intuitive explanation: <https://youtu.be/3d6DsjIBzJ4?t=383>
+>
+> > **note**: the definition above assumes $x0 = 1 \dashv \mathbb R x \land \operatorname{fact} 0 = 1$, see [[improved-expression-evaluation]]
 
-> **note**: the definition above assumes $x0 = 1 \dashv \mathbb R x \land \operatorname{fact} 0 = 1$, see [[improved-expression-evaluation]]
-
-## properties
-
-taylor [[series]] are power [[series]]
+> **property**: taylor [[series]] are power [[series]]
 
 ## Taylor Polynomial
 
-### definition
-
-$S_{T_f}^n\ x = T_f^0 : T_f^1 : \dots T_f^n$, where
-
-$S_{T_f}^n$ is the $n$ th partial sum of the taylor [[series]] $T_f$
-
-$n$ is a finite [[number]]
+> **definition**:
+>
+> $S_{T_f}^n\ x = T_f^0 : T_f^1 : \dots T_f^n$, where
+>
+> - $S_{T_f}^n$ is the $n$ th partial sum of the taylor [[series]] $T_f$
+> - $n$ is a finite [[number]]
 
 ## Taylor Series Remainder
 
-### definition
-
-$R_{T_f}^n\ x = f\ x \cdot S_{T_f}^n\ x$, where
-
-$S_{T_f}$ is the Taylor polynomial (the [[sequence]] of partial sums) of the Taylor [[series]] $T_f$
-
-$f\ x$ is the [[function]] the Taylor [[series]] $T_f$ approximates
-
-$R_{T_f}^n$ is the remainder of the Taylor [[series]] $T_f$ after $n$ terms
-
-> **note**: definition of the remainter of a Taylor series is different from other series as $S_{T_f}^\infty\ x$ is not necessarily equal to $f\ x$. as we want Taylor series to converge to their underlying [[function]], we use $f\ x$ instead of $S_{T_f}^\infty\ x$ to define the remainder
+> **definition**:
+>
+> $R_{T_f}^n\ x = f\ x \cdot S_{T_f}^n\ x$, where
+>
+> - $S_{T_f}$ is the Taylor polynomial (the [[sequence]] of partial sums) of the Taylor [[series]] $T_f$
+> - $f\ x$ is the [[function]] the Taylor [[series]] $T_f$ approximates
+> - $R_{T_f}^n$ is the remainder of the Taylor [[series]] $T_f$ after $n$ terms
+>
+> > **note**: definition of the remainter of a Taylor series is different from other series as $S_{T_f}^\infty\ x$ is not necessarily equal to $f\ x$. as we want Taylor series to converge to their underlying [[function]], we use $f\ x$ instead of $S_{T_f}^\infty\ x$ to define the remainder
 
 > **theorem**: the taylor series $T_f\ x$ converges to $f\ x$ in an interval $I$ if and only if $\lim_{n \to \infty} R_{T_f}^n\ x = 0 \dashv I\ x$
 >

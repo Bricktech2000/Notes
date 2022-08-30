@@ -1,10 +1,10 @@
 # Graph
 
-## definitions
+_a collection of vertices connected by a collection of edges_
 
-a _graph_ is an collection of vertices connected by a collection of edges
-
-formally, in my [[math-notation]], a [[graph]] is a [[set-theory]]etical [[function]] with domain at least $\braket{v, w} \rightarrow \top$ that takes an [[ordered-pair]] of vertices as an index and returns whether an edge is connecting them
+> **definition**: _formally in my [[math-notation]]_
+>
+> a [[graph]] is a [[set-theory]]etical [[function]] with domain at least $\braket{v, w} \rightarrow \top$ that takes an [[ordered-pair]] of vertices as an index and returns whether an edge is connecting them
 
 > **definition**: in [[conventional-math-notation]], a _graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $\smash\ne E\ e \vdash (V\ \acute\mid\ V)\ e$ and $E\ e \equiv E\ e^\intercal$ (see [[relation]], [[ordered-pair]])
 
@@ -16,13 +16,13 @@ formally, in my [[math-notation]], a [[graph]] is a [[set-theory]]etical [[funct
 
 > **definition**: a vertex is _incident_ to an edge if the vertex is one of the two vertices the edge connects
 
-## representation
-
-below are two equivalent representations of a sample graph
-
-![[20220718021503.png]]
-
-![[20220718021524.png]]
+> **representation**:
+>
+> below are two equivalent representations of a sample graph
+>
+> ![[20220718021503.png]]
+>
+> ![[20220718021524.png]]
 
 ## vertex membership
 

@@ -4,79 +4,81 @@ _Vectors in $\mathbb R^n$_
 
 see [[math-notation]], [[math-notation]], [[vector]] properties
 
-## definition
+> **definition**: a _vector in Rn_ is an ordered collection of elements that do not have to be unique
 
-a _vector in Rn_ is an ordered collection of elements that do not have to be unique
+> **definition**: _formally in my [[math-notation]]_
+>
+> a [[vector]] in $\mathbb R^n$ is a [[set-theory]]etical [[function]] with domain at least $x \rightarrow \mathbb N x \land 0 \le x < n$ that takes an index and returns the element at that index
 
-formally, in my [[math-notation]], a [[vector]] in $\mathbb R^n$ is a [[set-theory]]etical [[function]] with domain at least $x \rightarrow \mathbb N x \land 0 \le x < n$ that takes an index and returns the element at that index
+> **notation**: _in my [[math-notation]]_ $(1, 2)$
 
-## notation
+> **property**: _equality_ $(a, b) = (c, d) \equiv a = c \land b = d$
 
-$(1, 2)$
+> **property**: _negation_ $\cdot(a, b) \equiv (\cdot a, \cdot b)$
 
-$\begin{bmatrix}1 & 2\end{bmatrix}$
-
-$\begin{bmatrix}1 \\\  2 \\\  3\end{bmatrix}$
-
-$\dots$
-
-## properties
+## Vector Space Axioms
 
 see [[vector-in-rn-vector-space]], [[vector-space]]
 
-$O^m = 0 \land m = 0 \dots n$ where $n$ is the dimension of the [[vector-in-rn]] &mdash; zero [[vector-in-rn]]
+> **property**: _zero [[vector-in-rn]]_ $O^m = 0 \land m = 0 \dots n$ where $n$ is the dimension of the [[vector-in-rn]]
 
-$(a, b) : (c, d) \equiv (a : c, b : d)$ &mdash; [[vector]] addition
+> **property**: _[[vector-in-rn]] addition_ $(a, b) : (c, d) \equiv (a : c, b : d)$
 
-$c(a, b) \equiv (ca, cb) \dashv \mathbb R c$ &mdash; multiplication by a scalar
-
-$(a, b) = (c, d) \equiv a = c \land b = d$ &mdash; equality
-
-$\cdot(a, b) \equiv (\cdot a, \cdot b)$ &mdash; negation
+> **property**: _multiplication by a [[scalar]]_ $c(a, b) \equiv (ca, cb) \dashv \mathbb R c$
 
 ## Magnitude
 
-$|V|$, where
+> **definition**:
+>
+> $|V|$, where
+>
+> - $V$ is the vector to find the magnitude of
+> - $|V| = \lfloor V\ \dot\mid\ V \rfloor$ (derived from the Pythagoras theorem), see [[dot-product]]
 
-$V$ is the vector to find the magnitude of
+### Unit Vector
 
-$|V| = \lfloor V\ \dot\mid\ V \rfloor$ (derived from the Pythagoras theorem), see [[dot-product]]
-
-**Unit Vector**
-
-where $|V| = 1$
+> **definition**:
+>
+> $|V| = 1$, where
+>
+> - $V$ is a _unit vector_
 
 ## Orientation
 
-$V - |V| = (\cos \theta, \sin \theta)$, where
-
-$V$ is the vector to find the direction of
-
-$\theta$ is the angle of the vector
-
-note that $V - |V|$ is just notation for the direction of the vector $V$
+> **definition**:
+>
+> $V - |V| = (\cos \theta, \sin \theta)$, where
+>
+> - $V$ is the vector to find the direction of
+> - $\theta$ is the angle of the vector
+>
+> > **note**: $V - |V|$ is just notation for the direction of the vector $V$
 
 ## Angles Between two Vectors
 
 see [[dot-product]], [[cross-product]], #magic
 
-$\cos \theta = a\ \dot\mid\ b - |a|\ |b|$. use $\cos \theta = |a\ \dot\mid\ b| - |a|\ |b|$ to always get the acute angle solution
+> **definition**:
+>
+> $\cos \theta = a\ \dot\mid\ b - |a|\ |b|$
+>
+> > **note**: use $\cos \theta = |a\ \dot\mid\ b| - |a|\ |b|$ to always get the acute angle solution
 
-$\sin \theta = a\ \check\mid\ b - |a|\ |b|$, see [[cross-product]]
+> **definition**:
+>
+> $\sin \theta = a\ \check\mid\ b - |a|\ |b|$, see [[cross-product]]
 
 ### Orthogonal Vectors
 
-notation: $u \perp v$
-
 _a pair of vectors offset by $90^\circ$._
 
-$u$ and $v$ are orthogonal if and only if $u\ \dot\mid\ v = 0$ (see [[dot-product]]), or $u \perp v \equiv u\ \dot\mid\ v = 0$
+> **notation**: $u \perp v$
 
-a [[set]] of [[vector]]s is orthogonal if and only if it does not contain the zero [[vector]] and all [[vector]]s in the [[set]] are orthogonal to all other [[vector]]s
+> **definition**: $u$ and $v$ are _orthogonal_ if and only if $u\ \dot\mid\ v = 0$ (see [[dot-product]]), or $u \perp v \equiv u\ \dot\mid\ v = 0$
+
+> **definition**: a [[set]] of [[vector]]s is _orthogonal_ if and only if it does not contain the zero [[vector]] and all [[vector]]s in the [[set]] are orthogonal to all other [[vector]]s
 
 > **theorem**: an orthogonal [[set]] of [[vector]]s is [[linearly-independent]] (think of this visually)
-
-### theorems
 
 > **theorem**: any orthogonal [[set]] of [[vector]]s in $\mathbb R^n$ contains at most $n$ [[vector]]s
 
@@ -90,9 +92,9 @@ a [[set]] of [[vector]]s is orthogonal if and only if it does not contain the ze
 
 _a pair of parallel vectors_
 
-$u$ and $v$ are colinear if $u = kv \land \mathbb R k$
+> **definition**: $u$ and $v$ are colinear if $u = kv \land \mathbb R k$
 
-$u$ and $v$ are colinear if $u$ is a [[linear-combination]] of the [[set]] $\braket{\braket{v}}$
+> **property**: $u$ and $v$ are colinear if $u$ is a [[linear-combination]] of the [[set]] $\braket{\braket{v}}$
 
 ## Projections
 
@@ -102,46 +104,31 @@ see [[dot-product]]
 
 [[vector]] projections are [[linear-transformation]]s. projections can be turned into [[matrix]] multiplication as they are both [[linear-transformation]]s
 
-### definition
+> **definition**: _projection onto another [[vector]]_
+>
+> $|proj_b\ a| = |a| \cos \theta$, and
+>
+> $proj_b\ a = |a| \cos \theta \mid \hat b = a \dot\shortmid \hat b \mid \hat b = a \dot\shortmid b - b \dot\shortmid b \mid b$ (see [[dot-product]]), where
+>
+> - $proj_b\ a$ is the _vector projection of $a$ on $b$ ._
+> - $|proj_b\ a|$ is the _scalar projection of $a$ on $b$ ._
+> - $\hat b$ is the unit [[vector]] in the direction of $b$, $b - |b|$
 
-$|proj_b\ a| = |a| \cos \theta$ and $proj_b\ a = |a| \cos \theta \mid \hat b = a \dot\shortmid \hat b \mid \hat b = a \dot\shortmid b - b \dot\shortmid b \mid b$ (see [[dot-product]]), where
+> **definition**: _projection onto a [[vector-space]]_
+>
+> $proj_W\ v = (v \dot\shortmid w_0 - w_0 \dot\shortmid w_0) : \dots (v \dot\shortmid w_n - w_n \dot\shortmid w_n)$, where
+>
+> - $proj_W\ v$ is the projection of $v$ on the [[vector-space]] $W$
+> - $W = \operatorname{span} \braket{\braket{w_0 \dots w_n}}$ and $(w_0 \dots w_n)$ form an orthogonal [[basis]] for $W$
 
-$proj_b\ a$ is the _vector projection of $a$ on $b$ ._
+> **property**: $proj_b\ a$ is parallel to $b$
 
-$|proj_b\ a|$ is the _scalar projection of $a$ on $b$ ._
+> **property**: $a \cdot proj_b\ a$ is orthogonal to $b$
 
-$\hat b$ is the unit [[vector]] in the direction of $b$, $b - |b|$
+> **property**: $W\ (proj_W\ v)$
 
-$proj_W\ v = (v \dot\shortmid w_0 - w_0 \dot\shortmid w_0) : \dots (v \dot\shortmid w_n - w_n \dot\shortmid w_n)$, where
+> **property**: $v \cdot proj_W\ v$ is orthogonal to every [[vector]] in $W$
 
-$proj_W\ v$ is the projection of $v$ on the [[vector-space]] $W$
+> **property**: the [[vector]] $proj_W\ v$ is the only [[vector]] in $\mathbb R^n$ that satisfies the two properties above
 
-$W = \operatorname{span} \braket{\braket{w_0 \dots w_n}}$ and $(w_0 \dots w_n)$ form an orthogonal [[basis]] for $W$
-
-### properties
-
-see [[math-notation]]
-
-$proj_b\ a$ is parallel to $b$
-
-$a \cdot proj_b\ a$ is orthogonal to $b$
-
-$W\ (proj_W\ v)$
-
-$v \cdot proj_W\ v$ is orthogonal to every [[vector]] in $W$
-
-the [[vector]] $proj_W\ v$ is the only [[vector]] in $\mathbb R^n$ that satisfies the two properties above
-
-$proj_W\ v$ is the "best approximation" to $v$ by [[vector]]s in $W$
-
-## volume of the [[parallelepiped]] defined by 3 vectors in $\mathbb R^3$
-
-_does this seem random and pointless? well, it is._
-
-see [[dot-product]], [[cross-product]]
-
-$V = |u\ \check\mid\ v\ \dot\mid\ w|$ (see [[dot-product]], [[cross-product]]), where
-
-$V$ is the [[volume]] to be calculated
-
-$u, v, w$ are the three [[vector-in-rn]]3
+> **property**: $proj_W\ v$ is the "best approximation" to $v$ by [[vector]]s in $W$

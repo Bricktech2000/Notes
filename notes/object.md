@@ -6,4 +6,4 @@ see [[object-oriented-programming]]
 
 [[object]]s in [[object-oriented-programming]] consist of data [[abstraction]] (properties) and procedural [[abstraction]] (methods) coupled together
 
-an [[object]] has a state whereas a [[class]] does not
+> **property**: an [[object]] has a state whereas a [[class]] does not (duplicate)

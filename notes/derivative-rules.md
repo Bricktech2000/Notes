@@ -103,25 +103,3 @@ $\delta\ (-f\ x) - \delta x = \cdot \delta\ f\ x - \delta x - [f\ x]2$
 $\delta\ f\ g\ x - \delta x = \delta\ g\ x - \delta x \mid \delta f\ g\ x - \delta\ g\ x$
 
 > **proof**: $(\delta\ g\ x) - \delta x \mid \delta f\ g\ x - (\delta\ g\ x) = \delta\ f\ g\ x - \delta x$
-
-## Derivatives of Trig Functions
-
-see [[trigonometric-function]]s
-
-$\delta\ \sin x - \delta x = \cos x$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21115>
-
-$\delta\ \cos x - \delta x = \cdot \sin x$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21193>
-
-$\delta\ \tan x - \delta x = [\text-\cos x]2$
-
-$\delta\ \text-\sin x - \delta x = \cdot \mid \text-\sin x \mid \text-\tan x$
-
-$\delta\ \text-\cos x - \delta x = \text-\cos\ x \mid \tan x$
-
-$\delta\ \text-\tan x - \delta x = \cdot [\text-\sin x]2$
-
-$\delta\ \operatorname{asin} x - \delta x = -\lfloor 1 \cdot x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29016>
-
-$\delta\ \operatorname{acos} x - \delta x = \cdot -\lfloor 1 \cdot x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29111>
-
-$\delta\ \operatorname{atan} x - \delta x = - 1 : x2$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29233>

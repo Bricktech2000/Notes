@@ -2,11 +2,23 @@
 
 see [[math-notation]], [[function]], [[hyperbolic-function]]
 
-## definition
+> **definition**:
+>
+> let $(x, y)$ be a point on the unit [[circle]] and let $\theta$ be the [[angle]] from the positive x-axis counterclockwise to that point. then,
+>
+> $x = \cos \theta \land y - \sin \theta$, and $\tan \theta = \sin \theta - \cos \theta$
 
-let $(x, y)$ be a point on the unit [[circle]] and let $\theta$ be the [[angle]] from the positive x-axis counterclockwise to that point. then,
+> **property**: _periodic_ $\sin (\theta : \tau) = \sin \theta$
 
-$x = \cos \theta \land y - \sin \theta$, and $\tan \theta = \sin \theta - \cos \theta$
+> **property**: _periodic_ $\cos (\theta : \tau) = \cos \theta$
+
+> **property**: _periodic_ $\tan (\theta : \tau \text- 2) = \tan \theta$
+
+> **property**: _even [[function]]_ $\cos (\cdot \theta) = \cos \theta$
+
+> **property**: _odd [[function]]_ $\sin (\cdot \theta) = \cdot \sin \theta$
+
+> **property**: _odd [[function]]_ $\tan (\cdot \theta) = \cdot \tan \theta$
 
 ### [[mnemonic]]
 
@@ -14,11 +26,11 @@ SOHCAHTOA
 
 ## reciprocal functions
 
-$y = \sin x \equiv x = \operatorname{asin} y : \tau n \land \mathbb Z n$
+> **definition**: $y = \sin x \equiv x = \operatorname{asin} y : \tau n \land \mathbb Z n$
 
-$y = \cos x \equiv x = \operatorname{acos} y : \tau n \land \mathbb Z n$
+> **definition**: $y = \cos x \equiv x = \operatorname{acos} y : \tau n \land \mathbb Z n$
 
-$y = \tan x \equiv x = \operatorname{atan} y : \tau n \text- 2 \land \mathbb Z n$
+> **definition**: $y = \tan x \equiv x = \operatorname{atan} y : \tau n \text- 2 \land \mathbb Z n$
 
 ## inverse functions
 
@@ -33,20 +45,6 @@ $\text-\operatorname{asin} x$
 $\text-\operatorname{acos} x$
 
 $\text-\operatorname{atan} x$
-
-## properties
-
-$\sin (\theta : \tau) = \sin \theta$ &mdash; periodic
-
-$\cos (\theta : \tau) = \cos \theta$ &mdash; periodic
-
-$\tan (\theta : \tau \text- 2) = \tan \theta$ &mdash; periodic
-
-$\cos (\cdot \theta) = \cos \theta$ &mdash; even [[function]]
-
-$\sin (\cdot \theta) = \cdot \sin \theta$ &mdash; odd [[function]]
-
-$\tan (\cdot \theta) = \cdot \tan \theta$ &mdash; odd [[function]]
 
 ## identities
 
@@ -97,3 +95,25 @@ $[\cos x]2 = 1 : \cos 2x - 2$ &mdash; derived by solving for $[\cos x]2$
 > **theorem**: _cosine law_
 >
 > let a triangle with sides $A, B, C$ and [[angle]]s $a, b, c$ where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, $a2 = b2 : c2 \cdot 2bc \cos A$
+
+## Derivatives
+
+see [[derivative]]
+
+$\delta\ \sin x - \delta x = \cos x$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21115>
+
+$\delta\ \cos x - \delta x = \cdot \sin x$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21193>
+
+$\delta\ \tan x - \delta x = [\text-\cos x]2$
+
+$\delta\ \text-\sin x - \delta x = \cdot \mid \text-\sin x \mid \text-\tan x$
+
+$\delta\ \text-\cos x - \delta x = \text-\cos\ x \mid \tan x$
+
+$\delta\ \text-\tan x - \delta x = \cdot [\text-\sin x]2$
+
+$\delta\ \operatorname{asin} x - \delta x = -\lfloor 1 \cdot x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29016>
+
+$\delta\ \operatorname{acos} x - \delta x = \cdot -\lfloor 1 \cdot x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29111>
+
+$\delta\ \operatorname{atan} x - \delta x = - 1 : x2$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29233>

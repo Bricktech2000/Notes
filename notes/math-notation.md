@@ -125,7 +125,7 @@ _in order of high to low precedence_
 
 ## variable scope
 
-[[variable]] scope is currently entirely context-dependent. this is know to cause occasional issues, such as with [[derivative]]s: $\delta\ f\ x - \delta x$ could represent both the [[derivative]] of $f$ with respect to $x$ in the general sense, or the [[derivative]] of $f$ with respect to $x$ **at the point** $x$ as $(x \rightarrow \delta\ f\ x - \delta x)\ x \equiv \delta\ f\ x - \delta x$.
+[[variable]] [[scope]] is currently entirely context-dependent. this is know to cause occasional issues, such as with [[derivative]]s: $\delta\ f\ x - \delta x$ could represent both the [[derivative]] of $f$ with respect to $x$ in the general sense, or the [[derivative]] of $f$ with respect to $x$ **at the point** $x$ as $(x \rightarrow \delta\ f\ x - \delta x)\ x \equiv \delta\ f\ x - \delta x$.
 
 ## examples
 

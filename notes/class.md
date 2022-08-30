@@ -2,32 +2,14 @@
 
 _the blueprint of an [[object]]_
 
-an [[object]] has a state, whereas a [[class]] does not
-
-### definitions
-
 > **definition**: two [[class]]es are said to be _coupled_ if the implementation of one of them depends on the implementation of the other. this is to be avoided
+
+> **property**: an [[object]] has a state whereas a [[class]] does not (duplicate)
 
 ## Java Classes
 
 see [[java]]
 
-### contains
+> **property**: in a [[java]] [[class]], a _final variable_ can only be initialized once
 
-see [[object]]
-
-- properties
-- methods
-- nested [[class]]es
-
-which can all either be:
-
-- static or not (belong to the [[class]] or to an instance or [[object]])
-- public, (no value, package), protected or private
-- final or not
-
-> **note**: the order in which [[class]] properties and methods are defined in [[java]] is irrelevant
-
-### definitions
-
-> **definition**: a _final variable_ can only be initialized once
+> **property**: in a [[java]] [[class]], the order in which properties and methods are defined is irrelevant

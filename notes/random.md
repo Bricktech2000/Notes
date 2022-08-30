@@ -376,3 +376,19 @@ $\lnot X\ x > 1 \lor X^\# = 1$
 ---
 
 $y = r \land \delta x = r\ \delta a$
+
+---
+
+$0 = (\#\ x \to x = 3)$
+
+$\braket{\braket{3}}^\#$
+
+$0 = \#\ x \to \times\ \mathbb N x \vdash \mathbb R x$
+
+$x \to \top = x \to \mathbb N x \vdash \mathbb R x$
+
+$\mathbb N x \vDash \mathbb R x$
+
+$0\ \#\ /f$
+
+$x \to \mathbb N x \vdash \mathbb R x$

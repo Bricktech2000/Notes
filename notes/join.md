@@ -6,16 +6,13 @@ _turns a nested [[effect-type]] into a normal [[effect-type]]_
 
 see [[functional-programming]]
 
-## definition
+> **definition**: [[join]] converts a nested "double-level" [[effect-type]] into a "single-level" [[effect-type]]
 
-[[join]] converts a nested "double-level" [[effect-type]] into a "single-level" [[effect-type]]
+> **definition**:
+>
+> `join :: M (M a) -> M a`, where
+>
+> - `a` is a value
+> - `M` is an [[effect-type]] constructor
 
-`join :: M (M a) -> M a`, where
-
-`a` is a value
-
-`M` is an [[effect-type]] constructor
-
-## applications
-
-[[join]] can be used to define [[bind]]
+> **application**: [[join]] can be used to define [[bind]]

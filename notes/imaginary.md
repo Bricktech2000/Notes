@@ -4,14 +4,8 @@ _the [[set]] of [[imaginary]] numbers_
 
 see [[math-notation]]
 
-$(\mathbb C\ /\ \mathbb R) \vdash \mathbb C$
+> **definition**: $(\mathbb C\ /\ \mathbb R)\ x \equiv x = b\lfloor \cdot 1 \rfloor \land \mathbb R b$
 
-$\mathbb R \lor (\mathbb C\ /\ \mathbb R) \equiv \mathbb C$
+> **property**: $(\mathbb C\ /\ \mathbb R) \vdash \mathbb C$
 
-## definition
-
-the [[set]] of [[imaginary]] [[number]]s is defined as follows:
-
-$(\mathbb C\ /\ \mathbb R)\ x \equiv x = b\lfloor \cdot 1 \rfloor \land \mathbb R b$
-
-$i \equiv \lfloor \cdot 1 \rfloor$
+> **property**: $\mathbb R \lor (\mathbb C\ /\ \mathbb R) \equiv \mathbb C$

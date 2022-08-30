@@ -2,20 +2,20 @@
 
 see [[vector-space]], [[math-notation]], [[matrix]]
 
-## notation
+> **notation**: _in my [[math-notation]]_
+>
+> the [[vector-space]] of $m$ by $n$ [[matrix]]es is denoted as follows:
+>
+> $\mathbb M^{m, n}$
 
-the [[vector-space]] of $m$ by $n$ [[matrix]]es is denoted as follows:
+> **notation**: _in [[math-notation]]_
+>
+> $M_{m\ n}(\mathbb R)$
 
-$\mathbb M^{m, n}$ in my [[math-notation]]
+> **definition**:
+>
+> $\mathbb M^{m, n} M$, where
+>
+> - $M$ is a [[matrix]]
 
-$M_{m\ n}(\mathbb R)$ in [[conventional-math-notation]]
-
-## definition
-
-$\mathbb M^{m, n} M$, where
-
-$M$ is a [[matrix]]
-
-## [[axiom]]s
-
-see [[matrix]]
+see [[matrix]] for [[axiom]]s

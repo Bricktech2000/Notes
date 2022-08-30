@@ -2,42 +2,40 @@
 
 see [[math-notation]], [[set]], [[number]]
 
-## examples
+loosely speaking, a number field a [[set]] of numbers with certain properties and two operations defined: addition and multiplication
 
-- the [[set]] of [[real]] numbers
-- the [[set]] of [[complex]] numbers
-- the [[set]] of [[integer]]s modulo a prime [[number]]
+> **example**:
+>
+> the following are common [[number-field]]s:
+>
+> - the [[set]] of [[real]] numbers
+> - the [[set]] of [[complex]] numbers
+> - the [[set]] of [[integer]]s modulo a prime [[number]]
 
-## definition
+> **application**: [[number-field]]s are use as _scalars_ in [[linear-algebra]]
 
-a [[set]] of numbers with certain properties and two operations defined: addition and multiplication
+> **note**: in [[mat1341-d-introduction-to-linear-algebra]], the [[number-field]] of [[real]]s was used for all computations. the [[number-field]] of [[complex]] numbers could've been used instead
 
-### [[axiom]]s
+## [[axiom]]s
 
 &mdash; Encode x Solana Bootcamp
 
 let $a, b, c$ be numbers in a [[number-field]] $\mathbb F$
 
-$a : (b : c) = (a : b) : c$ &mdash; associativity of addition
+> **property**: _associativity of addition_ $a : (b : c) = (a : b) : c$
 
-$a(bc) = (ab)c$ &mdash; associativity of multiplication
+> **property**: _associativity of multiplication_ $a(bc) = (ab)c$
 
-$a : b = b : a$ &mdash; commutativity of addition
+> **property**: _commutativity of addition_ $a : b = b : a$
 
-$ab = ba$ &mdash; commutativity of multiplication
+> **property**: _commutativity of multiplication_ $ab = ba$
 
-$\mathbb F O \land a : O = a$ &mdash; additive identity
+> **property**: _additive identity_ $\mathbb F O \land a : O = a$
 
-$\mathbb F I \land aI = a$ &mdash; multiplicative identity
+> **property**: _multiplicative identity_ $\mathbb F I \land aI = a$
 
-$\mathbb F (\cdot a) \land a : (\cdot a) = O$ &mdash; additive inverse
+> **property**: _additive inverse_ $\mathbb F (\cdot a) \land a : (\cdot a) = O$
 
-$\mathbb F (\text-a) \land a(\text-a) = I$ &mdash; multiplicative inverse
+> **property**: _multiplicative inverse_ $\mathbb F (\text-a) \land a(\text-a) = I$
 
-$a(b : c) = ab : ac$ &mdash; distributivity of multiplication over addition
-
-## applications
-
-[[number-field]]s are use as _scalars_ in [[linear-algebra]]
-
-> **note**: in [[mat1341-d-introduction-to-linear-algebra]], the [[number-field]] of [[real]]s was used for all computations. the [[number-field]] of [[complex]] numbers could've been used instead
+> **property**: _distributivity of multiplication over addition_ $a(b : c) = ab : ac$

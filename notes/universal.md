@@ -2,12 +2,6 @@
 
 _the universal [[set]]_
 
-## definition
+> **definition**: $\mathbb U x = \top$
 
-$\mathbb U x = \top$
-
-## properties
-
-$\mathbb U x \equiv x \rightarrow \top$
-
-$\mathbb U x \equiv \times\ \braket{\braket{\ }} \equiv \times\ (x \rightarrow \bot) \equiv (x \rightarrow \top)$
+> **property**: $\mathbb U x \equiv \times\ \braket{\braket{\ }} \equiv \times\ (x \rightarrow \bot) \equiv x \rightarrow \top$

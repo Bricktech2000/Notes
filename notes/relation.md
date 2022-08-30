@@ -2,37 +2,30 @@
 
 see [[set]], [[cartesian-product]], [[math-notation]]
 
-## definition
+> **definition**: a _relation_ $\mathcal R$ between two [[set]]s $A$ and $B$ is a subset of the [[cartesian-product]] of the two [[set]]s: $\mathcal R \vdash A\ \acute\mid\ B$
 
-a _relation_ $\mathcal R$ between two [[set]]s $A$ and $B$ is a subset of the [[cartesian-product]] of the two [[set]]s: $\mathcal R \vdash A\ \acute\mid\ B$
-
-$\mathcal R\ x = (A\ \acute\mid\ B)\ x \land P\ x$, where
-
-$\mathcal R$ is a _relation_ between elements of $A$ and $B$
-
-$P$ is a [[predicate]]
+> **definition**:
+>
+> $\mathcal R\ x = (A\ \acute\mid\ B)\ x \land P\ x$, where
+>
+> - $\mathcal R$ is a _relation_ between elements of $A$ and $B$
+> - $P$ is a [[predicate]]
 
 > **definition**: a _relation on a set_ $A$ is a [[relation]] from $A$ to $A$
 
-## notation
+> **notation**: _membership in my [[math-notation]]_ $\mathcal R \braket{x, y}$, see [[ordered-pair]]
 
-### membership
-
-in my [[math-notation]]: $\mathcal R \braket{x, y}$, see [[ordered-pair]]
-
-in [[conventional-math-notation]]: $x \mathcal R y$
+> **notation**: _membership in my [[math-notation]]_ $x \mathcal R y$
 
 ## Inverse Relation
 
-### definition
+> **definition**:
+>
+> let $\mathcal R^-$ be the inverse of the [[relation]] $\mathcal R$ from $A$ to $B$
+>
+> then, $\mathcal R \braket{x, y} \equiv \mathcal R^- \braket{y, x}$
 
-let $\mathcal R^-$ be the inverse of the [[relation]] $\mathcal R$ from $A$ to $B$
-
-then, $\mathcal R \braket{x, y} \equiv \mathcal R^- \braket{y, x}$
-
-### properties
-
-$\mathcal R^- \vdash B\ \acute\mid\ A$
+> **property**: $\mathcal R^- \vdash B\ \acute\mid\ A$
 
 ## reflexivity
 

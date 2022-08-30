@@ -20,15 +20,11 @@ boolean [[operator]]s can be modeled in [[logic-circuit]]s through [[logic-gate]
 
 > **AKA**: Conjunction
 
-### notation
+> **notation**: _in my [[math-notation]]_ $\land$
 
-$\cdot$ or $\cap$ in [[conventional-math-notation]] (may be omitted)
+> **notation**: _in [[conventional-math-notation]]_ $\cdot$ or $\cap$ (may be omitted)
 
-$\land$ in my [[math-notation]]
-
-### representation
-
-straight-curve [[logic-gate]]. may take more than one input
+> **representation**: straight-curve [[logic-gate]]. may take more than one input
 
 | $A$ | $B$ | $A \land B$ |
 | --- | --- | ----------- |
@@ -41,15 +37,11 @@ straight-curve [[logic-gate]]. may take more than one input
 
 > **AKA**: Disjunction
 
-### notation
+> **notation**: _in my [[math-notation]]_ $\lor$
 
-$+$ or $\cap$ in [[conventional-math-notation]]
+> **notation**: _in [[conventional-math-notation]]_ $+$ or $\cap$
 
-$\land$ in my [[math-notation]]
-
-### representation
-
-concave-pointycurve [[logic-gate]]. may take more than one input
+> **representation**: concave-pointycurve [[logic-gate]]. may take more than one input
 
 | $A$ | $B$ | $A \lor B$ |
 | --- | --- | ---------- |
@@ -62,15 +54,11 @@ concave-pointycurve [[logic-gate]]. may take more than one input
 
 > **AKA**: Negation
 
-### notation
+> **notation**: _in my [[math-notation]]_ $/$
 
-$a'$ or $\bar a$ or $a^c$ in [[conventional-math-notation]]
+> **notation**: _in [[conventional-math-notation]]_ $a'$ or $\bar a$ or $a^c$
 
-$/$ in my [[math-notation]]
-
-### representation
-
-triangle-circle [[logic-gate]]. may only take one input
+> **representation**: triangle-circle [[logic-gate]]. may only take one input
 
 | $A$ | $/A$ |
 | --- | ---- |
@@ -81,15 +69,11 @@ triangle-circle [[logic-gate]]. may only take one input
 
 > **AKA**: Exclusive OR, symmetric difference, disjunctive union
 
-### notation
+> **notation**: _in my [[math-notation]]_ $\times$
 
-$\oplus$ or $\vartriangle$ in [[conventional-math-notation]]
+> **notation**: _in [[conventional-math-notation]]_ $\oplus$ or $\vartriangle$
 
-$\times$ in my [[math-notation]]
-
-### representation
-
-doubleconcave-pointycurve [[logic-gate]]. if the [[logic-gate]] does not take exactly two inputs, the output of the [[logic-gate]] can be thought of as "is the number of true inputs odd?"
+> **representation**: doubleconcave-pointycurve [[logic-gate]]. if the [[logic-gate]] does not take exactly two inputs, the output of the [[logic-gate]] can be thought of as "is the number of true inputs odd?"
 
 | $A$ | $B$ | $A \times B$ |
 | --- | --- | ------------ |
@@ -126,15 +110,11 @@ doubleconcave-pointycurve [[logic-gate]]. if the [[logic-gate]] does not take ex
 >
 > $B$ is said to be a _necessary condition_ for $A$
 
-### notation
+> **notation**: _in my [[math-notation]]_ $\vdash$ and $\dashv$
 
-$\to$ in [[conventional-math-notation]]
+> **notation**: _in [[conventional-math-notation]]_ $\to$ and $\implies$
 
-$\vdash$ and $\dashv$ in my [[math-notation]]
-
-### representation
-
-can be built by combining multiple [[logic-gate]]s. may only take one input
+> **representation**: can be built by combining multiple [[logic-gate]]s. may only take one input
 
 | $A$ | $B$ | $A \vdash B$ |
 | --- | --- | ------------ |
@@ -147,15 +127,11 @@ can be built by combining multiple [[logic-gate]]s. may only take one input
 
 > **AKA**: Double Implication, Equivalent, Biconditional [[logic-statement]], Bidirectional Implication
 
-### notation
+> **notation**: _in my [[math-notation]]_ $\equiv$
 
-$\harr$ or $\odot$ or $=$ in [[conventional-math-notation]]
+> **notation**: _in [[conventional-math-notation]]_ $\harr$ or $\odot$ or $=$
 
-$\equiv$ in my [[math-notation]]
-
-### representation
-
-doubleconcave-pointycurve-circle [[logic-gate]]. if the [[logic-gate]] does not take exactly two inputs, the output of the [[logic-gate]] can be thought of as “is the number of true inputs even?”
+> **representation**: doubleconcave-pointycurve-circle [[logic-gate]]. if the [[logic-gate]] does not take exactly two inputs, the output of the [[logic-gate]] can be thought of as “is the number of true inputs even?”
 
 | $A$ | $B$ | $A \equiv B$ |
 | --- | --- | ------------ |
@@ -174,56 +150,56 @@ in [[conventional-math-notation]]: $' \cdot + \oplus$
 
 identities below hold for all $\mathbb B x$ and for all $\mathbb B y$
 
-$x \lor \bot \equiv x$ &mdash; identity
+> **property**: _identity_ $x \lor \bot \equiv x$
 
-$x \land \top \equiv x$ &mdash; identity
+> **property**: _identity_ $x \land \top \equiv x$
 
-$x \lor /x \equiv \top$ &mdash; complement
+> **property**: _complement_ $x \lor /x \equiv \top$
 
-$x \land /x \equiv \bot$ &mdash; complement
+> **property**: _complement_ $x \land /x \equiv \bot$
 
-$x \lor x \equiv x$ &mdash; idempotence
+> **property**: _idempotence_ $x \lor x \equiv x$
 
-$x \land x \equiv x$ &mdash; idempotence
+> **property**: _idempotence_ $x \land x \equiv x$
 
-$x \lor \top \equiv \top$ &mdash; domination
+> **property**: _domination_ $x \lor \top \equiv \top$
 
-$x \land \bot \equiv \bot$ &mdash; domination
+> **property**: _domination_ $x \land \bot \equiv \bot$
 
-$//x \equiv x$ &mdash; involution
+> **property**: _involution_ $//x \equiv x$
 
 ## properties
 
 properties below hold for all $\mathbb B x$ and for all $\mathbb B y$
 
-$x \lor y \equiv y \lor x$ &mdash; commutativity
+> **property**: _commutativity_ $x \lor y \equiv y \lor x$
 
-$x \land y \equiv y \land x$ &mdash; commutativity
+> **property**: _commutativity_ $x \land y \equiv y \land x$
 
-$x \lor (y \lor z) \equiv (x \lor y) \lor z$ &mdash; associativity
+> **property**: _associativity_ $x \lor (y \lor z) \equiv (x \lor y) \lor z$
 
-$x \land (y \lor z) \equiv (x \land y) \land z$ &mdash; associativity
+> **property**: _associativity_ $x \land (y \lor z) \equiv (x \land y) \land z$
 
-$x \land (y \lor z) \equiv (x \land y) \lor (x \land z)$ &mdash; distributivity
+> **property**: _distributivity_ $x \land (y \lor z) \equiv (x \land y) \lor (x \land z)$
 
-$z \lor (y \land z) \equiv (x \lor y) \land (x \lor z)$ &mdash; distributivity
+> **property**: _distributivity_ $z \lor (y \land z) \equiv (x \lor y) \land (x \lor z)$
 
-$\times\ x \lor y \equiv /x \land /y$ &mdash; DeMorgan
+> **property**: _DeMorgan_ $\times\ x \lor y \equiv /x \land /y$
 
-$\times x \land y \equiv /x \lor /y$ &mdash; DeMorgan
+> **property**: _DeMorgan_ $\times x \land y \equiv /x \lor /y$
 
-$x \lor \times\ x \land y \equiv x$ &mdash; absorption
+> **property**: _absorption_ $x \lor \times\ x \land y \equiv x$
 
-$x \land \times\ x \lor y \equiv x$ &mdash; absorption
+> **property**: _absorption_ $x \land \times\ x \lor y \equiv x$
 
-$x \times y \equiv (x \land /y) \lor (/x \land y)$ &mdash; exclusive or
+> **property**: _or_ $x \times y \equiv (x \land /y) \lor (/x \land y)$ &mdash; e
 
-$x \times y \equiv / x = y$ &mdash; exclusive or
+> **property**: _or_ $x \times y \equiv / x = y$ &mdash; e
 
-$x \vdash y \equiv /x \lor y$ &mdash; implication
+> **property**: _implication_ $x \vdash y \equiv /x \lor y$
 
-$x \dashv y \equiv x \lor /y$ &mdash; implication
+> **property**: _implication_ $x \dashv y \equiv x \lor /y$
 
-$(x \equiv y) \equiv (x \land y) \lor (/x \land /y)$ &mdash; biconditional
+> **property**: _biconditional_ $(x \equiv y) \equiv (x \land y) \lor (/x \land /y)$
 
-$(x \equiv y) \equiv (x \vdash y) \land (x \dashv y)$ &mdash; biconditional
+> **property**: _biconditional_ $(x \equiv y) \equiv (x \vdash y) \land (x \dashv y)$

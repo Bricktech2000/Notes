@@ -2,26 +2,23 @@
 
 see [[math-notation]], [[logarithm]]
 
-## notation
+> **notation**:
+>
+> $[b]c \equiv b[c]$, where
+>
+> - $b$ is the base of the [[exponent]]
+> - $c$ is the value to raise the base to
 
-$[b]c \equiv b[c]$, where
+> **property**: $x0 = 1 \dashv x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
 
-$b$ is the base of the [[exponent]]
+> **property**: _inverse_ $x[\cdot n] = 1 - x[n]\dashv x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
 
-$c$ is the value to raise the base to
+> **property**: _product rule_ $x[m : n] = x[m] \mid x[n]$
 
-## properties
+> **property**: _quotient rule_ $x[m \cdot n] = x[m] = x[n]$
 
-$x0 = 1 \dashv x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
+> **property**: _power rule_ $[\ [x]m\ ]n = x[mn]$
 
-$x[\cdot n] = 1 - x[n]\dashv x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]]) &mdash; inverse
+> **property**: _distribution over multiplication_ $[xy]n = [x]n \mid [y]n$
 
-$x[m : n] = x[m] \mid x[n]$ &mdash; product rule
-
-$x[m \cdot n] = x[m] = x[n]$ &mdash; quotient rule
-
-$[[x]m]n = x[mn]$ &mdash; power rule
-
-$[xy]n = [x]n \mid [y]n$ &mdash; distribution over multiplication
-
-see [[logarithm]]
+see [[logarithm]] for additional properties

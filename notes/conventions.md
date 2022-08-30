@@ -6,7 +6,7 @@
 
 LaTeX is used for all mathematical equations through my custom [[math-notation]]
 
-[[variables]] are defined in separate lines using a _, where_ statement
+[[variable]]s are defined in separate lines using a _, where_ statement
 
 whitespace in formulas follow programming-language-like conventions
 
@@ -43,6 +43,18 @@ the following headings are commonly used:
 - **procedure**
 - **pros & cons**
 - **see**
+
+headers still in new:
+
+- **types**
+- **examples** (#todo rename, should represent "children" and not examples)
+
+blockquotes added in new:
+
+- **usage**
+- **constant**
+- **representation**
+- **types**
 
 ### quotes, italics, bold, sources, URLs
 

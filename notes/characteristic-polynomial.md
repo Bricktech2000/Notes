@@ -1,15 +1,15 @@
 # Characteristic Polynomial
 
-see [[math-notation]]
+see [[math-notation]], [[eigenvector-and-eigenvalue]]
 
-## definition
+> **definition**:
+>
+> $P = \det (A \cdot \lambda I) \land \mathbb M^{n, n} A \land \mathbb N n \land \mathbb R \lambda$, where
+>
+> - $P$ is the _characteristic polynomial_ of the [[matrix]] $A$
 
-the [[characteristic-polynomial]] of a [[matrix]] $A$ is defined as follows:
+#todo replace all _where_ clauses with lists
 
-$\det (A \cdot \lambda I) \land \mathbb M^{n, n} A \land \mathbb N n \land \mathbb R \lambda$
-
-## properties
-
-see [[eigenvector-and-eigenvalue]]
-
-the roots of the [[characteristic-polynomial]] of $A$ are [[eigenvalue]]s of $A$
+> **property**:
+>
+> the roots of the [[characteristic-polynomial]] of $A$ are [[eigenvalue]]s of $A$

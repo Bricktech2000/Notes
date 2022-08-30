@@ -22,6 +22,8 @@
 
 ## applications
 
+#todo heading
+
 [[optimization]]
 
 [[neural-network]]s (machine learning)

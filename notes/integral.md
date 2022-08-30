@@ -12,15 +12,11 @@ see [[math-notation]], [[function]], [[antiderivative]], [[calculus-notation]]
 >
 > &mdash; me and <https://www.quora.com/Is-there-any-difference-whatsoever-between-an-indefinite-integral-and-an-antiderivative> and <https://socratic.org/questions/what-is-the-difference-between-an-antiderivative-and-an-integral>
 
-## notation
-
-see [[calculus-notation]]
-
-in [[conventional-math-notation]], with $\delta\ F\ x - \delta x = f$,
-
-$F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
-
-## definitions
+> **notation**: _in [[conventional-math-notation]]_
+>
+> with $\delta\ F\ x - \delta x = f$,
+>
+> $F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
 
 > **definition**: a _definite integral_ has its two endpoints present
 
@@ -38,11 +34,11 @@ $F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
 
 ### Type I
 
-an [[integral]] with at least one endpoint being infinite
+_an [[integral]] with at least one endpoint being infinite_
 
-$\int_{x = a}^{x = \infty} f\ x \mid \delta x = \lim_{t \to \infty} \int_{x = a}^{x = t} f\ x \mid \delta x$
+> **theorem**: $\int_{x = a}^{x = \infty} f\ x \mid \delta x = \lim_{t \to \infty} \int_{x = a}^{x = t} f\ x \mid \delta x$
 
-$\int_{x = \infty}^{x = b} f\ x \mid \delta x = \lim_{t \to \infty} \int_{x = t}^{x = b} f\ x \mid \delta x$
+> **theorem**: $\int_{x = \infty}^{x = b} f\ x \mid \delta x = \lim_{t \to \infty} \int_{x = t}^{x = b} f\ x \mid \delta x$
 
 a Type I improper [[integral]] is said to:
 
@@ -51,11 +47,11 @@ a Type I improper [[integral]] is said to:
 
 ### Type II
 
-an integral whose integrand has a [[function]] discontinuity on the integration interval
+_an integral whose integrand has a [[function]] discontinuity on the integration interval_
 
-if $\lim_{x \to b^-} f\ x =\ \because \infty$ #think [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to b^-} \int_{x = a}^{x = t} f\ x \mid \delta x$
+> **theorem**: if $\lim_{x \to b^-} f\ x =\ \because \infty$ #think [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to b^-} \int_{x = a}^{x = t} f\ x \mid \delta x$
 
-if $\lim_{x \to a^+} f\ x =\ \because \infty$ #think [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to a^+} \int_{x = t}^{x = b} f\ x \mid \delta x$
+> **theorem**: if $\lim_{x \to a^+} f\ x =\ \because \infty$ #think [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to a^+} \int_{x = t}^{x = b} f\ x \mid \delta x$
 
 ### Comparison Test
 

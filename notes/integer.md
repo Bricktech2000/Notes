@@ -4,14 +4,10 @@ _the [[set]] of [[integer]]s_
 
 see [[math-notation]]
 
-## propertoes
+> **definition**:
+>
+> _a positive or negative whole [[number]]_
+>
+> $\mathbb Z n \equiv \mathbb N n \lor \mathbb N (\cdot n)$
 
-$\mathbb Z \vdash \mathbb Q$
-
-## definition
-
-_a positive or negative whole [[number]]_
-
-the [[set]] of [[integer]]s is defined as follows:
-
-$\mathbb Z n \equiv \mathbb N n \lor \mathbb N (\cdot n)$
+> **property**: $\mathbb Z \vdash \mathbb Q$

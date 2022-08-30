@@ -2,9 +2,7 @@
 
 see [[money]]
 
-### definition
-
-the total of all [[money|stores-of-value]], including both monetary and non-monetary assets
+> **definition**: _wealth_ is the total of all [[money|stores-of-value]], including both monetary and non-monetary assets
 
 ### [[fact]]s
 

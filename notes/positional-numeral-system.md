@@ -2,21 +2,22 @@
 
 see [[conventional-math-notation]], [[number]]
 
-## see
+> **notation**:
+>
+> $(123)_{base}$, where
+>
+> - $base$ is a [[natural]]
+> - $123$ is a [[number]]
+>
+> > **example**: $35_{10}$
+>
+> > **example**: $1001_{2}$
+
+## examples
 
 [[binary]]
 
 [[decimal]]
-
-## notation
-
-$(123)_{base}$
-
-### examples
-
-$35_{10}$
-
-$1001_{2}$
 
 ## pros & cons
 

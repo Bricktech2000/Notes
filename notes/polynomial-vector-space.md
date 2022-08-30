@@ -2,20 +2,16 @@
 
 see [[vector-space]], [[math-notation]], [[polynomial]]
 
-## properties
+> **notation**: _in my [[math-notation]]_
+>
+> $\mathbb P^n$
 
-$(\mathbb P^n \vdash \mathbb F) \dashv \mathbb N n$, see [[function-vector-space]]
+> **notation**: in [[conventional-math-notation]]
+>
+> $P_n(\mathbb R)$
 
-## notation
+> **definition**: $(\mathbb P^n p \equiv \operatorname{span} \braket{\braket{\ [x]n \dots [x]0\ }} \smash\leftarrow p) \dashv \mathbb N n$
 
-$\mathbb P^n$ in my [[math-notation]]
+> **property**: $(\mathbb P^n \vdash \mathbb F) \dashv \mathbb N n$, see [[function-vector-space]]
 
-$P_n(\mathbb R)$ in [[conventional-math-notation]]
-
-## definition
-
-$(\mathbb P^n p \equiv \operatorname{span} \braket{\braket{\ [x]n \dots [x]0\ }} \smash\leftarrow p) \dashv \mathbb N n$
-
-## [[axiom]]s
-
-see [[polynomial]]
+see [[polynomial]] for [[axiom]]s

@@ -12,44 +12,44 @@ there are two different complements for a given [[positional-numeral-system]], o
 
 _2’s complement in base 2, 16’s complement in base 16_
 
-### calculation
-
-_subtract each digit from the largest digit in the base and add 1_
-
-```python
-digit.map(max_digit - digit) + 1
-```
-
-### properties
+> **procedure**:
+>
+> _subtract each digit from the largest digit in the base and add 1_
+>
+> ```python
+> digit.map(max_digit - digit) + 1
+> ```
 
 see [[math-notation]]
 
 let $[A]$ be the Radix Complement of $A$ for all $A$, and assume $\mathbb R A$
 
-$A : [A] = 0$
+> **property**: $A : [A] = 0$
 
-$[[A]] = A$
+> **property**: $[[A]] = A$
 
-$A \cdot B = A : [B]$
+> **property**: $A \cdot B = A : [B]$
 
-### applications
-
-Radix Complements can be used to easily **build adder-subtracters**:
-
-- to add $A$ and $B$, feed in $A$ and $B$ to get $A + B$ as output
-- to subtract $B$ from $A$, feed in $A$ and $\sim B$ and set the _CARRY IN_ bit to get $A - B$ as output
-
-> **note**: in **binary**, “subtract each digit from the largest digit in the base” can be thought of as “swap zeroes for ones and ones for zeros”
+> **application**:
 >
-> in **hex**, the bit pattern of the 16’s complement is the same as the bit pattern of the 2’s complement, and so the 16’s complement is never actually used in Computer Science.
+> Radix Complements can be used to easily **build adder-subtracters**:
+>
+> - to add $A$ and $B$, feed in $A$ and $B$ to get $A + B$ as output
+> - to subtract $B$ from $A$, feed in $A$ and $\sim B$ and set the _CARRY IN_ bit to get $A - B$ as output
+>
+> > **note**: in [[binary]], “subtract each digit from the largest digit in the base” can be thought of as “swap zeroes for ones and ones for zeros”
+> >
+> > in **hex**, the bit pattern of the 16’s complement is the same as the bit pattern of the 2’s complement, and so the 16’s complement is never actually used in Computer Science.
 
-### example
+#todo search and replace `binary` for `[[binary]]` throughout notes
 
-finding the 16’s complement of $1234_{16}$
-
-```python
-0xFFFF - 0x1234 + 1 = 0xEDCB + 1 = 0xEDCC
-```
+> **example**:
+>
+> finding the 16’s complement of $1234_{16}$:
+>
+> ```python
+> 0xFFFF - 0x1234 + 1 = 0xEDCB + 1 = 0xEDCC
+> ```
 
 ## Diminished Radix Complement
 
@@ -57,6 +57,4 @@ _1’s complement in base 2, 15’s complement in base 16_
 
 > **note**: Diminished Radix Complements do **not** have the same properties as Radix Complements
 
-### calculation
-
-same as above, but without adding 1 at the end (or without setting the _CARRY IN_ bit of an adder)
+> **procedure**: identical to radix [[complement]]s, but without adding $1$ at the end (or without setting the _CARRY IN_ bit of an adder)

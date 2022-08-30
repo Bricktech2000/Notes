@@ -1,18 +1,16 @@
 # Linked List
 
-## representation
+> **representation**: _Singly-Linked List_
+>
+> ```mermaid
+> graph LR
+>   A(HEAD) --> B(item) --> C(item) --> D(item) --> E(TAIL)
+> ```
 
-### Singly Linked List
-
-```mermaid
-graph LR
-  A(HEAD) --> B(item) --> C(item) --> D(item) --> E(TAIL)
-```
-
-### Doubly Linked List
-
-```mermaid
-graph LR
-  A(HEAD) --> B(item) --> C(item) --> D(item) --> E(TAIL)
-  E --> D --> C --> B --> A
-```
+> **representation**: _Doubly Linked List_
+>
+> ```mermaid
+> graph LR
+>  A(HEAD) --> B(item) --> C(item) --> D(item) --> E(TAIL)
+>  E --> D --> C --> B --> A
+> ```

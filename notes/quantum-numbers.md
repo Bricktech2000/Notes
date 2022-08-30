@@ -45,28 +45,23 @@ $n, l, m_l, m_s \in \mathbb N$
 
 $s$ and $p$ orbitals both always have the highest value of $n$
 
-## notation
-
-$nl^m$
-
-### examples
-
-$2p^5$, where
-
-$n = 2$
-
-$l = 1$
-
-$m_l = 0$
-
-$m_s = -\frac 1 2$
-
-$3d^5$, where
-
-$n = 3$
-
-$l = 2$
-
-$m_l = 2$
-
-$m_s = +\frac 1 2$
+> **notation**:
+>
+> $nl^m$
+>
+> **example**:
+>
+> $2p^5$, where
+>
+> - $n = 2$
+> - $l = 1$
+> - $m_l = 0$
+> - $m_s = -\frac 1 2$
+>
+> **example**:
+>
+> - $3d^5$, where
+> - $n = 3$
+> - $l = 2$
+> - $m_l = 2$
+> - $m_s = +\frac 1 2$

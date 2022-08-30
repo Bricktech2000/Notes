@@ -1,6 +1,6 @@
 # Options Market
 
-## properties
+## general information
 
 a single option controls 100 shares of the underlying stock
 

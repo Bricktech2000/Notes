@@ -4,6 +4,8 @@ see [[vector]], [[vector-in-rn]], [[matrix]], [[math-notation]], [[basis]]
 
 ## types
 
+#todo duplicate with [[vector]]
+
 [[function-vector-space]], [[function]]
 
 [[polynomial-vector-space]], [[polynomial]]
@@ -12,55 +14,48 @@ see [[vector]], [[vector-in-rn]], [[matrix]], [[math-notation]], [[basis]]
 
 [[matrix-vector-space]], [[matrix]]
 
+[[ordered-pair-vector-space]], [[ordered-pair]]
+
 [[zero-space]]
 
 ### examples
 
-$\mathbb R^1$, $\mathbb R^2$, $\mathbb R^n \land \mathbb N n$
+> **example**:
+>
+> the following are [[vector-space]]s:
+>
+> - $\mathbb R^1$, $\mathbb R^2$, $\mathbb R^n \land \mathbb N n$
+> - $V v \equiv v = O$ (a [[set]] containing only the zero vector is a vector space)
 
-$V v \equiv v = O$ (a [[set]] containing only the zero vector is a vector space)
-
-## vector space isomorphism
+## Vector Space Isomorphism
 
 see [[category]], [[category-theory]]
 
 > Iso-Morphic &mdash; Same Shape
 
-### examples
-
-$\mathbb R^3$ and $\mathbb P^2$ are isomorphic, as any vector in $\mathbb R^3$ can be converted to a unique vector in $\mathbb P^2$, and vice-versa, see [[category]]
+> **example**: $\mathbb R^3$ and $\mathbb P^2$ are isomorphic, as any vector in $\mathbb R^3$ can be converted to a unique vector in $\mathbb P^2$, and vice-versa, see [[category]]
 
 ## Dimension of a Vector Space
 
-### notation
+> **notation**: _in my [[math-notation]]_ $\dim V$
 
-see [[math-notation]]
+> **definition**: the _dimension of a vector space_ is equal to the number of [[vector]]s in any [[basis]] of that vector space
 
-$\dim V$ in my [[math-notation]]
-
-### definition
-
-the dimension of a vector space is equal to the number of [[vector]]s in any [[basis]] of that vector space
-
-### examples
-
-$\dim \mathbb R^2 = 2$
-
-$\dim \mathbb P^2 = 3$
-
-$\dim \mathbb F = \infty$
-
-$\dim \mathbb M^{3, 4} = 12$
-
-$\dim V = 2$ where $V$ is a [[plane-in-r3]]
-
-$\dim V = 1$ where $V$ is a [[line-in-r3]] or in $\mathbb R^2$
-
-$\dim \operatorname{span} \braket{\braket{O}} = 0$ (see [[span]], zero [[vector]])
+> **example**:
+>
+> below are the dimensions of a few common vector spaces
+>
+> - $\dim \mathbb R^2 = 2$
+> - $\dim \mathbb P^2 = 3$
+> - $\dim \mathbb F = \infty$
+> - $\dim \mathbb M^{3, 4} = 12$
+> - $\dim V = 2$ where $V$ is a [[plane-in-r3]]
+> - $\dim V = 1$ where $V$ is a [[line-in-r3]] or in $\mathbb R^2$
+> - $\dim \operatorname{span} \braket{\braket{O}} = 0$ (see [[span]], zero [[vector]])
 
 ## Describing Vector Spaces
 
-_there are three major ways of describing vector spaces_
+there are three major ways of describing vector spaces
 
 ### [[vector]] with restrictions
 
@@ -71,8 +66,6 @@ $V v \equiv v = (x, y, z) \land x \cdot 2y : z = 0 \dashv \mathbb R x \land \mat
 $V v \equiv v = (2y \cdot z, y, z) \dashv \mathbb R y \land \mathbb R z$
 
 ### as a [[linear-combination]]
-
-**example**
 
 let $V v \equiv v = (x, y, z) \land x \cdot 2y : z = 0$
 
@@ -88,37 +81,43 @@ let the [[vector-space]] be the [[set]] of [[vector]]s $V$. all of the following
 
 let $V\ v_0 \dots V\ v_m$. if $U = \operatorname{span} \braket{\braket{v_0 \dots v_m}}$, then $U$ is a subspace of $V$ ($U \vdash V$), see [[span]]
 
-$V u \land V v \vdash V (u : v)$ &mdash; closure under addition
+> **property**: _closure under addition_ $V u \land V v \vdash V (u : v)$
 
-$V u \land \mathbb R k \vdash V(k \mid u)$ &mdash; closure under multiplication by scalar
+> **property**: _closure under multiplication by a [[scalar]]_ $V u \land \mathbb R k \vdash V(k \mid u)$
 
-$V O \land (O : u = u \dashv V u)$ &mdash; zero vector
+> **property**: _zero vector_ $V O \land (O : u = u \dashv V u)$
 
 ### properties
 
 let $\mathbb R c \land \mathbb R d \land V u \land V v \land V w$
 
-$V (\cdot u) \land u : \cdot u = O \dashv V u$ &mdash; inverse
+> **property**: _inverse_ $V (\cdot u) \land u : \cdot u = O \dashv V u$
 
-$1u = u \dashv V u$ &mdash; identity
+> **property**: _identity_ $1u = u \dashv V u$
 
-$u : v \equiv v : u$ &mdash; commutativity
+> **property**: _commutativity_ $u : v \equiv v : u$
 
-$u : (v : w) \equiv (u : v) : w$ &mdash; associativity
+> **property**: _associativity of addition_ $u : (v : w) \equiv (u : v) : w$
 
-$c \mid u : v \equiv cu : cv$ &mdash; distributivity
+> **property**: _distributivity_ $c \mid u : v \equiv cu :
 
-$c : d \mid v \equiv cv : dv$ &mdash; distributivity
+> **property**: _distributivity_ $c : d \mid v \equiv cv : dv$
 
-$k \mid du \equiv kd \mid u$ &mdash; multiplicative associativity
+> **property**: _associativity of multiplication_ $k \mid du \equiv kd \mid u$
 
-## [[vector-space-proof-examples]]
+> **example**: [[vector-space-proof-examples]]
+
+#todo put all pages with #example tag in an `> **example**:` block
 
 ## additional examples
 
-- any [[plane-in-r3]] through the origin is a subspace of $\mathbb R^3$
-- any [[line-in-r3]] through the origin is a subspace of $\mathbb R^3$ (same with $\mathbb R^2$)
-- any [[line-in-r3]] or [[plane-in-r3]] that does _not_ go through the origin is not a subspace of $\mathbb R^3$
-- $\mathbb R^n \vdash \mathbb R^n \dashv \mathbb N n$ ($\mathbb R^n$ is a subspace of $\mathbb R^n$)
-- $(V v \equiv v^i = 0 \dashv \mathbb N i \land i \le n) \vdash \mathbb R^n \dashv \mathbb N n$ ($(0, 0 \dots 0)$ is a subspace of $\mathbb R^n$)
-- $(\mathbb R^n \not\vdash \mathbb R^m) \dashv n \le m \dashv \mathbb N n \land \mathbb N m$ ($\mathbb R^{n \cdot x}$ is not a subspace of $\mathbb R^n$, as vectors in $\mathbb R^{n \cdot x}$ are not really comparable to vectors in $\mathbb R^n$)
+> **example**:
+>
+> below are examples of [[vector-space]]s
+>
+> - any [[plane-in-r3]] through the origin is a subspace of $\mathbb R^3$
+> - any [[line-in-r3]] through the origin is a subspace of $\mathbb R^3$ (same with $\mathbb R^2$)
+> - any [[line-in-r3]] or [[plane-in-r3]] that does _not_ go through the origin is not a subspace of $\mathbb R^3$
+> - $\mathbb R^n \vdash \mathbb R^n \dashv \mathbb N n$ ($\mathbb R^n$ is a subspace of $\mathbb R^n$)
+> - $(V v \equiv v^i = 0 \dashv \mathbb N i \land i \le n) \vdash \mathbb R^n \dashv \mathbb N n$ ($(0, 0 \dots 0)$ is a subspace of $\mathbb R^n$)
+> - $(\mathbb R^n \not\vdash \mathbb R^m) \dashv n \le m \dashv \mathbb N n \land \mathbb N m$ ($\mathbb R^{n \cdot x}$ is not a subspace of $\mathbb R^n$, as vectors in $\mathbb R^{n \cdot x}$ are not really comparable to vectors in $\mathbb R^n$)

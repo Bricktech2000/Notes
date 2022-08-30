@@ -12,6 +12,8 @@ vectors can form [[vector-space]]s
 
 [[polynomial]]s, see [[polynomial-vector-space]]
 
+[[ordered-pair]]s, see [[ordered-pair-vector-space]]
+
 ### properties
 
 see [[math-notation]]

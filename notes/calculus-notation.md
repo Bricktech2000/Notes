@@ -34,16 +34,16 @@ $(\delta - \delta x)\ y \equiv \frac{\delta}{\delta x} y$ ~~makes no sense whats
 
 let $\mathbb U c$, see [[universal]], [[improved-expression-evaluation]]
 
-$\int \delta y = y$
+> **property**: $\int \delta y = y$
 
-$\delta \int y = y$
+> **property**: $\delta \int y = y$
 
 see [[integral]], [[derivative]], [[antiderivative]]
 
-_the antiderivative of the derivative of a function is that same function_ (constant is not present, see [[improved-expression-evaluation]])
+> **property**: _the antiderivative of the derivative of a function is that same function_ (constant is not present, see [[improved-expression-evaluation]])
+>
+> > **proof**: $\int (\delta y - \delta x) \mid \delta x = \int (\delta y) = y$
 
-> **proof**: $\int (\delta y - \delta x) \mid \delta x = \int (\delta y) = y$
-
-_the derivative of the antiderivative of a function is that same function_
-
-> **proof**: $\delta (\int y \mid \delta x) - \delta x = y \mid \delta x - \delta x = y$
+> **property**: _the derivative of the antiderivative of a function is that same function_
+>
+> > **proof**: $\delta (\int y \mid \delta x) - \delta x = y \mid \delta x - \delta x = y$

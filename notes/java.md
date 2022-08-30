@@ -2,11 +2,11 @@
 
 _just a terrible programming language_
 
-[[java-is-a-terrible-language]]
+see [[java-is-a-terrible-language]]
 
-[[object-oriented-programming]], [[object]], [[class]]
+see [[object-oriented-programming]], [[object]], [[class]]
 
-[[java-primitive]], [[java-reference]], [[java-wrapper]], [[java-auto-boxing]]
+see [[java-primitive]], [[java-reference]], [[java-wrapper]], [[java-auto-boxing]]
 
 ## Hello World
 
@@ -18,7 +18,7 @@ public class HelloWorld {
 }
 ```
 
-### compilation and execution
+compilation and execution:
 
 ```bash
 java HelloWorld.java
@@ -26,16 +26,18 @@ java HelloWorld.java
 
 ## Scopes
 
-Java scopes are defined using `{ /*...*/ }`
+see [[scope]]
 
-### example
+Java [[scope]]s are defined using `{ /*...*/ }`
 
-```java
-{
-	int k = 0;
-}
-k++; // throws an error
-```
+> **example**:
+>
+> ```java
+> {
+> int k = 0;
+> }
+> k++; // throws an error
+> ```
 
 ## Overriding Equals
 
@@ -69,7 +71,7 @@ in [[java]], memory is freed by the Garbage Collector when all references to an 
 
 ## Java Abstract Data Type
 
-### examples
+abstract data types include:
 
 - [[stack]]s
 - [[queue]]s
@@ -77,13 +79,19 @@ in [[java]], memory is freed by the Garbage Collector when all references to an 
 
 abstract data [[type]]s can be implemented through [[interface]]s
 
-> **definition**: in [[java]], an _interface_ is an abstract [[type]] that is used to specify what behavior a [[class]] should implement. interfaces may only contain abstract method signatures and constant declarations.
+## Interfaces
+
+see [[interface]]s
+
+> **definition**: in [[java]], an _interface_ is an abstract [[type]] that is used to specify what behavior a [[class]] should implement. [[interface]]s may only contain abstract method signatures and constant declarations.
 
 ## Generics
 
+see [[generic]]s
+
 > **definition**: in [[java]], _generics_ are almost identical to `template`s in C++. behind the scenes, they seem to replace all instances of the generic [[type]] by `Object`, but they still allow for compile-time [[type]] checks to avoid runtime errors &mdash; <https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood>. see [[java-is-a-terrible-language]]
 
-## definitions
+## other definitions and properties
 
 > **definition**: _collections_ are data [[type]]s containing multiple elements. they cannot contain [[java-primitive]]s &mdash; <https://stackoverflow.com/questions/4594529/java-collections-why-no-primitive-types>. see [[java-is-a-terrible-language]]
 
@@ -91,10 +99,8 @@ abstract data [[type]]s can be implemented through [[interface]]s
 
 > **definition**: in Java, an _abstract class_ is used to prevent its instantiation. it must be used when a [[class]] contains abstract methods
 
-## properties
+> **property**: in Java, declaring a [[class]] `class MyClass` is shorthand for `class MyClass extents Object`
 
-Java does **not** support operator overloading, because Java
+> **property**: Java does **not** support operator overloading, because Java
 
-Java does **not** support [[first-class-function]]s, because Java
-
-in Java, declaring a [[class]] `class MyClass` is shorthand for `class MyClass extents Object`
+> **property**: Java does **not** support [[first-class-function]]s, because Java

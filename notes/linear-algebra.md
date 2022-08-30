@@ -4,6 +4,8 @@ _studying [[vector-space]]s_
 
 see [[number-field]]
 
+> **application**: <https://youtu.be/bI-FS7aZJpY>
+
 ## see
 
 [[vector]], [[vector-space]]s
@@ -25,7 +27,3 @@ see [[number-field]]
 [[vector-in-rn]], [[normal-vector]], [[matrix]]
 
 [[span]]s, [[zero-space]], [[basis]]
-
-## applications
-
-<https://youtu.be/bI-FS7aZJpY>

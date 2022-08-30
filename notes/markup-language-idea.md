@@ -166,7 +166,7 @@ this is _hello world_ in Python:
 you can run it with `python hello_world.py`
 ```
 
-### representation
+### result
 
 > quote
 >

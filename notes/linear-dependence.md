@@ -2,27 +2,25 @@
 
 see [[linearly-dependent]], [[linearly-independent]], [[vector]], [[vector-space]], [[linear-combination]]
 
-## definition
+> **definition**:
+>
+> let $V$ be a [[vector-space]] and let $v_0 \dots v_i$ such that $V v_n \dashv \mathbb N n$
+>
+> $v_0 \dots v_i$ are [[linearly-independent]] if and only if $a_0v_0 : \dots a_iv_i = O\ \equiv\ a_n = O \dashv \mathbb N n$
 
-let $V$ be a [[vector-space]] and let $v_0 \dots v_i$ such that $V v_n \dashv \mathbb N n$
+> **procedure**: _determining if vectors are linearly independent_
+>
+> to check for [[linear-dependence]], one can use a homogeneous [[linear-system]] and solve it using [[row-reduction]]. the following can be concluded (think of this intuitively):
+>
+> - no solutions: not possible, as the [[linear-system]] is homogeneous
+> - one solution: the vectors are [[linearly-independent]]
+> - infinitely many solutions: the vectors are [[linearly-dependent]]
 
-$v_0 \dots v_i$ are [[linearly-independent]] if and only if $a_0v_0 : \dots a_iv_i = O\ \equiv\ a_n = O \dashv \mathbb N n$
+> **property**: any super[[set]] of a [[linearly-dependent]] [[set]] is also [[linearly-dependent]]
 
-## example
+> **property**: any sub[[set]] of a [[linearly-independent]] is also [[linearly-independent]]
 
-to check for [[linear-dependence]], one can use a homogeneous [[linear-system]] and solve it using [[row-reduction]]. the following can be concluded (think intuitively):
-
-- no solutions: not possible, as the [[linear-system]] is homogeneous
-- one solution: the vectors are [[linearly-independent]]
-- infinitely many solutions: the vectors are [[linearly-dependent]]
-
-## properties
-
-any super[[set]] of a [[linearly-dependent]] [[set]] is also [[linearly-dependent]]
-
-any sub[[set]] of a [[linearly-independent]] is also [[linearly-independent]]
-
-any [[set]] containing the $O$ [[vector]] is [[linearly-dependent]]
+> **property**: any [[set]] containing the $O$ [[vector]] is [[linearly-dependent]]
 
 > **theorem**: a set of [[vector]]s is [[linearly-dependent]] if and only if at least one of its [[vector]]s can be represented as a [[linear-combination]] of the others
 

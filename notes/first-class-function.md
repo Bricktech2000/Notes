@@ -4,6 +4,4 @@
 
 it is said that a [[programming-language]] _supports_ or _does not support_ first-class [[function]]s
 
-## applications
-
-[[first-class-function]]s are important in [[functional-programming]]
+> **application**: [[first-class-function]]s are important in [[functional-programming]]

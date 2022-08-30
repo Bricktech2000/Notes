@@ -2,43 +2,37 @@
 
 see [[math-notation]], [[series]], [[calculus-notation]]
 
-## definition
+> **definition**: a _sequence_ is an ordered collection of infinitely many elements
 
-a _sequence_ is an ordered collection of infinitely many elements
+> **definition**: _formally in my [[math-notation]]_
+>
+> a [[sequence]] is a [[set-theory]]etical [[function]] $k \rightarrow a^k$ with domain at least $x \rightarrow \mathbb Z x \land x \ge 0$ that takes an index and returns the element at that index
 
-formally, a [[sequence]] is a [[set-theory]]etical [[function]] $k \rightarrow a^k$ with domain at least $x \rightarrow \mathbb Z x \land x \ge 0$ that takes an index and returns the element at that index
+> **notation**: _using [[iteration]] in my [[math-notation]]_ $a = 0, 1, 2 \dots 10 = a^0 \dots a^{10}$
 
-## notations
+> **notation**: _using [[recursion]] in my [[math-notation]]_ $a^0 = 2 \land a^n = 4 \cdot 1 \text- a^{n \cdot 1}$
 
-in my [[math-notation]]:
+> **notation**: _as a [[function]] (closed form) in my [[math-notation]]_ $a^n = n2$
 
-defined using [[iteration]]: $a = 0, 1, 2 \dots 10 = a^0 \dots a^{10}$
+> **notation**: _using [[iteration]] in [[conventional-math-notation]]_ $a = \lbrace 1, 2, 3, \dots \rbrace = \lbrace a_n \rbrace_{n = 0}^{\infty} = \lbrace a_n \rbrace$
 
-defined using [[recursion]]: $a^0 = 2 \land a^n = 4 \cdot 1 \text- a^{n \cdot 1}$
+> **notation**: _using [[recursion]] in [[conventional-math-notation]]_ $a_1 = 2$ and $a_n = 4 - \frac{1}{a_{n \cdot 1}}$
 
-defined as a [[function]] (closed form): $a^n = n2$
+> **notation**: _as a [[function]] (closed form) in [[conventional-math-notation]]_ $a_n = n^2$
 
-in [[conventional-math-notation]]:
-
-defined using [[iteration]]: $a = \lbrace 1, 2, 3, \dots \rbrace = \lbrace a_n \rbrace_{n = 0}^{\infty} = \lbrace a_n \rbrace$
-
-defined using [[recursion]]: $a_1 = 2$ and $a_n = 4 - \frac{1}{a_{n \cdot 1}}$
-
-defined as a [[function]] (closed form): $a_n = n^2$
-
-## example
-
-Fibonacci sequence: $F^0 = 0 \land F^1 = 1 \land F^n = F^{n \cdot 1} : F^{n \cdot 2}$
+> **example**: _the Fibonacci sequence_ $F^0 = 0 \land F^1 = 1 \land F^n = F^{n \cdot 1} : F^{n \cdot 2}$
 
 ## Sum of an Infinite Sequence
 
-let $a = a^0, a^1, a^2, \dots$
-
-$a_{sum} = \lim_{n \to \infty} S^n$, where
-
-$a$ the [[sequence]] to be summed
-
-$S$ the sequence of partial sums of $a$
+> **definition**:
+>
+> let $a = a^0, a^1, a^2, \dots$
+>
+> $a_{sum} = \lim_{n \to \infty} S^n$, where
+>
+> - $a$ is the [[sequence]] to be summed
+> - $S$ is the sequence of partial sums of $a$
+> - $a_{sum}$ is the sum of $a$
 
 ## Sequence Bounds
 
@@ -68,7 +62,7 @@ suppose $a^n = f\ n \dashv \mathbb N n$. then, the increase and decrease of the 
 
 > **definition**: a [[sequence]] is said to _converge_ if the [[limit]] $\lim_{n \to \infty} a^n$ exists as a finite number
 
-if a [[sequence]] is bounded and monotonic, then it must converge. think of this intuitively
+> **property**: if a [[sequence]] is bounded and monotonic, then it must converge (think of this intuitively)
 
 ### Using Limits
 
@@ -87,49 +81,43 @@ if a [[sequence]] is bounded and monotonic, then it must converge. think of this
 
 ## Arithmetic Sequence
 
-### definition
-
 > **definition**: an _arithmetic [[sequence]]_ is a [[sequence]] for which consecutive elements have the same difference
 
-$a = a^0 : 0d, a^0 : 1d, \dots$, where
+> **definition**:
+>
+> $a = a^0 : 0d, a^0 : 1d, \dots$, where
+>
+> - $d$ is the difference between consecutive elements
+> - $a^0$ is the first element of the sequence
+>
+> > **note**: the starting index does not have to be $0$ but must still be a [[natural]]
 
-$d$ is the difference between consecutive elements
-
-$a^0$ is the first element of the sequence
-
-> **note**: the starting index does not have to be $0$ but must still be a [[natural]]
-
-### example
-
-$a = 1, 3, 5, 7, \dots$
+> **example**: $a = 1, 3, 5, 7, \dots$
 
 ## Geometric Sequence
 
-### definition
-
 > **definition**: a _geometric [[sequence]]_ is a [[sequence]] for which consecutive elements have the same ratio
 
-$a = a^0r0, a^0r1, \dots$, where
+> **definition**:
+>
+> $a = a^0r0, a^0r1, \dots$, where
+>
+> - $r$ is the ratio between consecutive elements
+> - $a^0$ is the first element of the sequence
+>
+> > **note**: the starting index does not have to be $0$ but must still be a [[natural]]
 
-$r$ is the ratio between consecutive elements
+> **example**: $s = 4, 8, 16, 32, \dots$
 
-$a^0$ is the first element of the sequence
-
-> **note**: the starting index does not have to be $0$ but must still be a [[natural]]
-
-### example
-
-$s = 4, 8, 16, 32, \dots$
-
-### properties
-
-a geometric [[sequence]] $a^0r0, a^0r1, \dots$ with $a^0 \ne 0$:
-
-- diverges if $r > 1$
-- converges to $a$ if $r = 1$
-- converges to $0$ if $0 \le r < 1$
-- converges to $0$ if $\cdot 1 < r \le 0$
-- diverges if $r = \cdot 1$
-- diverges if $r < \cdot 1$
-
-> **proof**: think of it intuitively
+> **property**: _convergence_
+>
+> a geometric [[sequence]] $a^0r0, a^0r1, \dots$ with $a^0 \ne 0$:
+>
+> - diverges if $r > 1$
+> - converges to $a$ if $r = 1$
+> - converges to $0$ if $0 \le r < 1$
+> - converges to $0$ if $\cdot 1 < r \le 0$
+> - diverges if $r = \cdot 1$
+> - diverges if $r < \cdot 1$
+>
+> > **proof**: think of it intuitively

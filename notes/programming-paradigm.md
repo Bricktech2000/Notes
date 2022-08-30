@@ -2,8 +2,6 @@
 
 &mdash; <https://youtu.be/agTmccNAXlI>
 
-## representation
-
 [[programming-paradigm]]s can be represented as follows:
 
 |                | **Procedural**             | **Object-Oriented**             |
@@ -11,7 +9,7 @@
 | **Imperative** | [[procedural-programming]] | [[object-oriented-programming]] |
 | **Functional** | [[functional-programming]] |                                 |
 
-where:
+where
 
 - _procedural code_ has no explicit association between data [[type]]s and [[function]]s
 - _object-oriented code_ has explicit associations between data [[type]]s and [[function]]s
