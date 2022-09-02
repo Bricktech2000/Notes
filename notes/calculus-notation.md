@@ -10,9 +10,9 @@ $\int y \mid \delta x \equiv \int (y \mid \delta(x))$
 
 $\delta y - \delta x \equiv \delta(y) - \delta(x)$
 
-> **note**: when representing the [[derivative]] or [[integral]] of a [[function]], its parameter must be included. for example, $\delta\ f - \delta x$ is invalid whereas $\delta\ f\ x - \delta x$ is valid
+> **note** when representing the [[derivative]] or [[integral]] of a [[function]], its parameter must be included. for example, $\delta\ f - \delta x$ is invalid whereas $\delta\ f\ x - \delta x$ is valid
 
-> **note**: by convention, a space is added when the parameter to a $\delta$ or a $\int$ is a [[function]]
+> **note** by convention, a space is added when the parameter to a $\delta$ or a $\int$ is a [[function]]
 
 derivatives and integrals at a point $t$ can be written as follows:
 
@@ -34,16 +34,18 @@ $(\delta - \delta x)\ y \equiv \frac{\delta}{\delta x} y$ ~~makes no sense whats
 
 let $\mathbb U c$, see [[universal]], [[improved-expression-evaluation]]
 
-> **property**: $\int \delta y = y$
+$\int \delta y = y$
 
-> **property**: $\delta \int y = y$
+$\delta \int y = y$
+
+**properties**
 
 see [[integral]], [[derivative]], [[antiderivative]]
 
-> **property**: _the antiderivative of the derivative of a function is that same function_ (constant is not present, see [[improved-expression-evaluation]])
->
-> > **proof**: $\int (\delta y - \delta x) \mid \delta x = \int (\delta y) = y$
+_the antiderivative of the derivative of a function is that same function_ (constant is not present, see [[improved-expression-evaluation]])
 
-> **property**: _the derivative of the antiderivative of a function is that same function_
->
-> > **proof**: $\delta (\int y \mid \delta x) - \delta x = y \mid \delta x - \delta x = y$
+> **proof** $\int (\delta y - \delta x) \mid \delta x = \int (\delta y) = y$
+
+_the derivative of the antiderivative of a function is that same function_
+
+> **proof** $\delta (\int y \mid \delta x) - \delta x = y \mid \delta x - \delta x = y$

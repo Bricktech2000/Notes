@@ -1,26 +1,28 @@
 # Euler's Constant
 
-> **AKA**: e
+> **AKA** e
 
 see [[math-notation]]
 
-> **notation**: $e$
+**notation**
 
-> **definition**: $\lim_{n \to \infty} [1 : -n]n = e$
+$e$
 
-> **definition**: $\lim_{h \to 0} \lfloor 1 : h \rfloor h = e$
+**definitions**
 
-## properties
+$\lim_{n \to \infty} [1 : -n]n = e$
 
-> **property**: $\delta\ e[x] - \delta x = e[x]$, see [[derivative]]
+$\lim_{h \to 0} \lfloor 1 : h \rfloor h = e$
 
-> **property**:
->
-> from the [[limit]] definition, we then derive
->
-> $\lim_{h \to 0} e[h] \cdot 1 - h = 1$
+**properties**
 
-> **property**: $e[i\tau] = 1$, see [[complex]]
+$\delta\ e[x] - \delta x = e[x]$, see [[derivative]]
+
+from the [[limit]] definition, we then derive
+
+$\lim_{h \to 0} e[h] \cdot 1 - h = 1$
+
+$e[i\tau] = 1$, see [[complex]]
 
 #todo move this example somewhere else (like in [[derivative-rules]])
 

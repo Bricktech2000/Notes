@@ -16,17 +16,17 @@ if the _share price_ doesn't reach the _strike price_ of an option before its _e
 
 ## definitions
 
-> **definition**: _Prob ITM_ stands for the [[probability]] of a call or put option being _in the money_
+**definition** _Prob ITM_ stands for the [[probability]] of a call or put option being _in the money_
 
-> **definition**: the _strike price_ or _exercise price_ is the agreed price at which the stock can be bought or sold in the future
+**definition** the _strike price_ or _exercise price_ is the agreed price at which the stock can be bought or sold in the future
 
-> **definition**: the _premium_ is the price of an option, which is paid upfront
+**definition** the _premium_ is the price of an option, which is paid upfront
 
-> **definition**: the _expiration_ is the date at which an option expires and must be either executed or thrown away
+**definition** the _expiration_ is the date at which an option expires and must be either executed or thrown away
 
-> **definition**: an option that is _X% OTM_ means that the share price is X% away from the _strike price_ and currently out of the money
+**definition** an option that is _X% OTM_ means that the share price is X% away from the _strike price_ and currently out of the money
 
-> **definition**: an option that is _X% ITM_ means that the share price is X% away from the _strike price_ and currently in the money
+**definition** an option that is _X% ITM_ means that the share price is X% away from the _strike price_ and currently in the money
 
 ## Everything is Priced In
 

@@ -1,16 +1,16 @@
 # Markov Chain
 
-> **AKA**: Markov Process
+> **AKA** Markov Process
 
-> **definition**: a _Markov Chain_ is a [[sequence]] of events where the [[probability]] of each future event depends only on the state attained in the previous event
+**definition** a _Markov Chain_ is a [[sequence]] of events where the [[probability]] of each future event depends only on the state attained in the previous event
 
-> **representation**:
->
-> [[markov-chain]]s can be represented as a _transition diagram_, a weighted directed [[graph]] where nodes represent states and weighted edges represent the [[probability]] of an event occuring.
->
-> ![[20220718005316.png]] &mdash; Wikipedia
+**representation**
 
-> **note**: there are numbers on the edges of the [[graph]] above that are harder to see in dark mode
+[[markov-chain]]s can be represented as a _transition diagram_, a weighted directed [[graph]] where nodes represent states and weighted edges represent the [[probability]] of an event occuring.
+
+![[20220718005316.png]] &mdash; Wikipedia
+
+> **note** there are numbers on the edges of the [[graph]] above that are harder to see in dark mode
 
 ## Stationary Distribution
 
@@ -18,7 +18,7 @@ certain [[markov-chain]]s converge to a _stationary distribution_, which can be 
 
 [[eigenvector-and-eigenvalue]]s can be used for the [[optimization]] of this process in [[computer-science]]
 
-> **procedure**: _computing a stationary distribution through [[iteration]]_
+> **procedure** computing a stationary distribution through [[iteration]]\_
 >
 > let $S_0 = \begin{bmatrix} S_0^0 \\\ \vdots \\\ S_0^s \end{bmatrix}$, where
 >

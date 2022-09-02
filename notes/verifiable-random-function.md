@@ -2,15 +2,17 @@
 
 see [[function]]
 
-> **AKA**: VRF
+> **AKA** VRF
 
 sample usage: <https://github.com/rgottleber/Demos/tree/main/22-06-29_Encode>
 
-> **property**: it must be impossible to predict future results of a [[verifiable-random-function]]
+**properties**
 
-> **property**: it must be impossible to "roll the dice" multiple times to control the value of a [[verifiable-random-function]]
+it must be impossible to predict future results of a [[verifiable-random-function]]
 
-> **example**: organizing a lottery on the [[blockchain]] requires a [[verifiable-random-function]]
+it must be impossible to "roll the dice" multiple times to control the value of a [[verifiable-random-function]]
+
+organizing a lottery on the [[blockchain]] requires a [[verifiable-random-function]]
 
 ## examples
 

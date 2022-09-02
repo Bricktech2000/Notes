@@ -4,9 +4,11 @@ _studying [[vector-space]]s_
 
 see [[number-field]]
 
-> **application**: <https://youtu.be/bI-FS7aZJpY>
+**applications**
 
-## see
+<https://youtu.be/bI-FS7aZJpY>
+
+**see**
 
 [[vector]], [[vector-space]]s
 

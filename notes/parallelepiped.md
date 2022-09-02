@@ -2,8 +2,6 @@
 
 _a 3-dimensional parallelogram_
 
-#todo rephrase this
-
 ## volume of the [[parallelepiped]] defined by 3 vectors in $\mathbb R^3$
 
 _does this seem random and pointless? well, it is._

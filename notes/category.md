@@ -4,29 +4,29 @@
 
 see [[category-theory]], [[functor]]
 
-## types
+**types**
 
 [[set]]s
 
 [[group]]s
 
-> **definition**:
->
-> a category $\mathcal C$ consists of:
->
-> - Objects
-> - Morphisms
-> - Composition
-> - Identities
->
-> all subject to:
->
-> - the identity law
-> - the associativity law
+**definition**
 
-> **example**: <https://youtu.be/yAi3XWCBkDo?t=652>
+a category $\mathcal C$ consists of:
 
-> **counterexample**: <https://youtu.be/yAi3XWCBkDo?t=762>
+- Objects
+- Morphisms
+- Composition
+- Identities
+
+all subject to:
+
+- the identity law
+- the associativity law
+
+> **example** <https://youtu.be/yAi3XWCBkDo?t=652>
+
+> **counterexample** <https://youtu.be/yAi3XWCBkDo?t=762>
 
 ## definitions
 
@@ -74,9 +74,9 @@ in Haskell, let `id :: a -> a`. then, `id x = x`
 
 ## Isomorphism
 
-> **definition**: an _isomorphism_ is a morphism with a corresponding inverse
+**definition** an _isomorphism_ is a morphism with a corresponding inverse
 
-> **example**:
+> **example**
 >
 > in the commutative diagram below, $\alpha$ (or the pair $\alpha, \alpha^{-1}$) is an isomorphism
 >
@@ -84,7 +84,7 @@ in Haskell, let `id :: a -> a`. then, `id x = x`
 >
 > &mdash; <https://youtu.be/yAi3XWCBkDo?t=954>
 
-> **definition**: if there exists an isomorphism between two objects $A$ and $B$, they are said to be _isomorphic_, denoted $A \cong B$ in [[conventional-math-notation]].
+**definition** if there exists an isomorphism between two objects $A$ and $B$, they are said to be _isomorphic_, denoted $A \cong B$ in [[conventional-math-notation]].
 
 > "isomorphism captures the idea that objects can be functionally the same, where the meaning of _functionally_ depends on the working category" &mdash; <https://youtu.be/yAi3XWCBkDo?t=1012>
 
@@ -98,19 +98,19 @@ to do so, they must [[map]] both objects and morphisms between the [[category]]e
 
 &mdash; <https://youtu.be/Gai-liKAUPo?t=153>
 
-> **definition**: the _initial object_ of a [[category]] is the object that has exactly one morphism going to any object in the [[category]].
+**definition** the _initial object_ of a [[category]] is the object that has exactly one morphism going to any object in the [[category]].
 
-> **definition**: the _terminal object_ of a [[category]] is the object that has exactly one morphism coming to it from any object in the [[category]].
+**definition** the _terminal object_ of a [[category]] is the object that has exactly one morphism coming to it from any object in the [[category]].
 
 _terminal object_ should really have been named _coinitial object_ to match with terms such as _co[[monad]]_ and _coproduct_
 
 ## Opposite Category
 
-> **AKA**: Duality
+> **AKA** Duality
 
 &mdash; <https://youtu.be/Gai-liKAUPo?t=190>
 
-> **definition**: for any [[category]] $\mathcal C$, one can define the _opposite category_ $\mathcal C^{op}$ by reversing all its morphisms
+**definition** for any [[category]] $\mathcal C$, one can define the _opposite category_ $\mathcal C^{op}$ by reversing all its morphisms
 
 this can be thought of as _reversing the direction of the arrows_ in the [[graph]] the [[category]].
 

@@ -1,26 +1,30 @@
 # Eigenvector and Eigenvalue
 
-> **definition**:
->
-> let $\mathbb M^{n, n} A \land \mathbb N n \land \mathbb R \lambda \land \mathbb R^n x \land x \ne O$
->
-> if $Ax = \lambda x$, then $x$ is an [[eigenvector]] of $A$ and $\lambda$ is its corresponding [[eigenvalue]]
+**definition**
+
+let $\mathbb M^{n, n} A \land \mathbb N n \land \mathbb R \lambda \land \mathbb R^n x \land x \ne O$
+
+if $Ax = \lambda x$, then $x$ is an [[eigenvector]] of $A$ and $\lambda$ is its corresponding [[eigenvalue]]
+
+**theorems**
 
 let $\mathbb M^{n, n} A \land \mathbb N n$
 
-> **theorem**: there are infinitely many [[eigenvector]]s for each [[eigenvalue]]
+**theorem** there are infinitely many [[eigenvector]]s for each [[eigenvalue]]
 
-> **theorem**: all [[eigenvector]]s together with the zero [[vector]] form a [[vector-space]]
+**theorem** all [[eigenvector]]s together with the zero [[vector]] form a [[vector-space]]
 
-> **theorem**: the [[characteristic-polynomial]] $\det\ (A \cdot \lambda I)$ is a [[polynomial]] of degree $n$, meaning it has at most $n$ distinct roots
+**theorem** the [[characteristic-polynomial]] $\det\ (A \cdot \lambda I)$ is a [[polynomial]] of degree $n$, meaning it has at most $n$ distinct roots
 
-> **theorem**: $A$ has at most $n$ distinct [[eigenvalue]]s
+**theorem** $A$ has at most $n$ distinct [[eigenvalue]]s
 
-> **theorem**: each [[eigenvalue]] of $A$ gives an [[eigenspace]] of dimension greater than $0$
+**theorem** each [[eigenvalue]] of $A$ gives an [[eigenspace]] of dimension greater than $0$
 
-> **theorem**: any [[set]] consisting of [[eigenvector]]s of $A$ corresponding to **distinct [[eigenvalue]]s** is [[linearly-independent]]
+**theorem** any [[set]] consisting of [[eigenvector]]s of $A$ corresponding to **distinct [[eigenvalue]]s** is [[linearly-independent]]
 
-> **procedure**: _finding [[eigenvalue]]s_
+**procedures**
+
+> **procedure** _finding [[eigenvalue]]s_
 >
 > $Ax = \lambda x$
 >
@@ -50,7 +54,7 @@ let $\mathbb M^{n, n} A \land \mathbb N n$
 >
 > $\lambda = 3 \lor \lambda = \cdot 1$ are the [[eigenvalue]]s of $A$
 
-> **procedure**: _finding [[eigenvector]]s_
+> **procedure** _finding [[eigenvector]]s_
 >
 > as $A \cdot \lambda I \mid x = O$, we get the following (see [[matrix]] Kernel):
 >
@@ -76,41 +80,49 @@ let $\mathbb M^{n, n} A \land \mathbb N n$
 >
 > $\braket{\braket{\ (1, 1)\ }}$ is then a [[basis]] for the [[eigenspace]] $E_3$ of $A$
 >
-> > **note**: the general solution of the homogenous [[linear-system]] will always be a [[basis]] as the resulting [[vector]]s will always be [[linearly-independent]], see [[matrix]] Kernel for more information
+> > **note** the general solution of the homogenous [[linear-system]] will always be a [[basis]] as the resulting [[vector]]s will always be [[linearly-independent]], see [[matrix]] Kernel for more information
 >
 > for $\lambda = \cdot 1$, we get the [[basis]] $\braket{\braket{\ (1, \cdot 1)\ }}$ for the [[eigenspace]] $E_{\cdot 1}$ of $A$
 
-> **application**: _raising a matrix to a large power efficiently_
->
-> let $\mathbb M^{n, n} A \land \mathbb N n$ be a diagonalizable [[matrix]]
->
-> 1. construct a matrix $P = \begin{bmatrix}| & | & | \\\ x_0 & x_1 & x_2 \\\ | & | & |\end{bmatrix} = \begin{bmatrix}x_{0_x} & x_{1_x} & x_{2_x} \\\ x_{0_y} & x_{1_y} & x_{2_y} \\\ x_{0_z} & x_{1_z} & x_{2_z}\end{bmatrix}$ whose columns are the $n$ [[linearly-independent]] [[eigenvector]]s $x$ of $A$
-> 2. construct a matrix $D = \begin{bmatrix}\lambda_0 & 0 & 0 \\\ 0 & \lambda_1 & 0 \\\ 0 & 0 & \lambda _2\end{bmatrix}$ whose diagonal entries are the [[eigenvalue]]s of $A$ and all other entries equal to $0$, in the same order as the columns of $P$
->
-> then, $AP = PD$. as the columns of $P$ are [[linearly-independent]], we know $P$ is an invertible [[matrix]]. therefore, $A = PDP^-$ and $P^-AP = D$
->
-> > **proof**: the $n$ th column of $AP$ is $AP^{,n} = Ax_n$. since $x_n$ is an [[eigenvector]] of $A$, we use its corresponding [[eigenvalue]] to get $AP^{,n} = Ax_n = \lambda_n x_n$ by definition, see [[eigenvector-and-eigenvalue]]. the $n$ th column of $PD$ is $PD^{, n}$. when multiplying out, we get $PD^{, n} = x_n D^{n, n} = x_n \lambda_n$. as $AP^{,n} = PD^{,n} \dashv \mathbb N n$, we conclude $AP = PD$
->
-> now, compute $[A]p \land \mathbb N p$ with $p$ being a very large integer
->
-> with $A = PDP^-$, we get $[A]p = [PDP^-]p = P \mid [D]p \mid P^-$
->
-> as $D$ is diagonal, we get $[D]p = \begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [\lambda_1]p & 0 \\\ 0 & 0 & [\lambda_2]p\end{bmatrix}$
->
-> computing $[A]p = P\begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [\lambda_1]p & 0 \\\ 0 & 0 & [\lambda_2]p\end{bmatrix}P^-$ is now way less computationally expensive than computing $[A]p$ directly
+**application**
 
-> **application**: [[eigenvector-and-eigenvalue]] can be useful in [[markov-chain]]s &mdash; <https://www.youtube.com/watch?v=JGQe4kiPnrU>
+_raising a matrix to a large power efficiently_
+
+let $\mathbb M^{n, n} A \land \mathbb N n$ be a diagonalizable [[matrix]]
+
+1.  construct a matrix $P = \begin{bmatrix}| & | & | \\\ x_0 & x_1 & x_2 \\\ | & | & |\end{bmatrix} = \begin{bmatrix}x_{0_x} & x_{1_x} & x_{2_x} \\\ x_{0_y} & x_{1_y} & x_{2_y} \\\ x_{0_z} & x_{1_z} & x_{2_z}\end{bmatrix}$ whose columns are the $n$ [[linearly-independent]] [[eigenvector]]s $x$ of $A$
+2.  construct a matrix $D = \begin{bmatrix}\lambda_0 & 0 & 0 \\\ 0 & \lambda_1 & 0 \\\ 0 & 0 & \lambda _2\end{bmatrix}$ whose diagonal entries are the [[eigenvalue]]s of $A$ and all other entries equal to $0$, in the same order as the columns of $P$
+
+then, $AP = PD$. as the columns of $P$ are [[linearly-independent]], we know $P$ is an invertible [[matrix]]. therefore, $A = PDP^-$ and $P^-AP = D$
+
+> **proof** the $n$ th column of $AP$ is $AP^{,n} = Ax_n$. since $x_n$ is an [[eigenvector]] of $A$, we use its corresponding [[eigenvalue]] to get $AP^{,n} = Ax_n = \lambda_n x_n$ by definition, see [[eigenvector-and-eigenvalue]]. the $n$ th column of $PD$ is $PD^{, n}$. when multiplying out, we get $PD^{, n} = x_n D^{n, n} = x_n \lambda_n$. as $AP^{,n} = PD^{,n} \dashv \mathbb N n$, we conclude $AP = PD$
+
+now, compute $[A]p \land \mathbb N p$ with $p$ being a very large integer
+
+with $A = PDP^-$, we get $[A]p = [PDP^-]p = P \mid [D]p \mid P^-$
+
+as $D$ is diagonal, we get $[D]p = \begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [\lambda_1]p & 0 \\\ 0 & 0 & [\lambda_2]p\end{bmatrix}$
+
+computing $[A]p = P\begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [\lambda_1]p & 0 \\\ 0 & 0 & [\lambda_2]p\end{bmatrix}P^-$ is now way less computationally expensive than computing $[A]p$ directly
+
+**application**
+
+[[eigenvector-and-eigenvalue]] can be useful in [[markov-chain]]s &mdash; <https://www.youtube.com/watch?v=JGQe4kiPnrU>
 
 ## Multiplicity
 
 see [[multiplicity]]
 
-> **definition**: the _algebraic multiplicity_ of a root $\lambda$ of the [[characteristic-polynomial]] of $A$ is its [[multiplicity]]
+**definition** the _algebraic multiplicity_ of a root $\lambda$ of the [[characteristic-polynomial]] of $A$ is its [[multiplicity]]
 
-> **definition**: the _geometric multiplicity_ of a root $\lambda$ of the [[characteristic-polynomial]] of $A$ is the dimension of the [[eigenspace]] $E_\lambda$ of $A$ corresponding to the [[eigenvalue]] $\lambda$
+**definition** the _geometric multiplicity_ of a root $\lambda$ of the [[characteristic-polynomial]] of $A$ is the dimension of the [[eigenspace]] $E_\lambda$ of $A$ corresponding to the [[eigenvalue]] $\lambda$
 
-> **theorem**: let $\lambda$ be an [[eigenvalue]] of $A$. then, $1 \le \text{geometric multiplicity of } \lambda \le \text{algebraic multiplicity of } \lambda$
+**theorem** let $\lambda$ be an [[eigenvalue]] of $A$. then, $1 \le \text{geometric multiplicity of } \lambda \le \text{algebraic multiplicity of } \lambda$
 
-> **example**: the [[characteristic-polynomial]] of $\begin{bmatrix}2 & 4 & \cdot 3 \\\ 0 & 3 & 5 \\\ 0 & 0 & 3\end{bmatrix}$ is $2 \cdot \lambda \mid [3 \cdot \lambda]2$. its [[eigenvalue]]s are $\lambda = 2$ and $\lambda = 3$. the algebraic [[multiplicity]] (see [[eigenvector-and-eigenvalue]]) of $\lambda = 2$ is $1$ and the algebraic [[multiplicity]] of $\lambda = 3$ is $2$.
+**examples**
 
-> **application**: [[multiplicity]] can be used to determine whether a [[matrix]] is diagonalizable
+> **example** the [[characteristic-polynomial]] of $\begin{bmatrix}2 & 4 & \cdot 3 \\\ 0 & 3 & 5 \\\ 0 & 0 & 3\end{bmatrix}$ is $2 \cdot \lambda \mid [3 \cdot \lambda]2$. its [[eigenvalue]]s are $\lambda = 2$ and $\lambda = 3$. the algebraic [[multiplicity]] (see [[eigenvector-and-eigenvalue]]) of $\lambda = 2$ is $1$ and the algebraic [[multiplicity]] of $\lambda = 3$ is $2$.
+
+**applications**
+
+[[multiplicity]] can be used to determine whether a [[matrix]] is diagonalizable

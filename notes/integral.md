@@ -2,7 +2,7 @@
 
 see [[math-notation]], [[function]], [[antiderivative]], [[calculus-notation]]
 
-> **note**:
+> **note**
 >
 > _integrating_ refers to calculating the are under a [[function]], **not** computing the [[antiderivative]] and plugging stuff in. this is why indefinite [[integral]]s must include that $\ : c$ whereas [[antiderivative]]s don't have to.
 >
@@ -12,17 +12,17 @@ see [[math-notation]], [[function]], [[antiderivative]], [[calculus-notation]]
 >
 > &mdash; me and <https://www.quora.com/Is-there-any-difference-whatsoever-between-an-indefinite-integral-and-an-antiderivative> and <https://socratic.org/questions/what-is-the-difference-between-an-antiderivative-and-an-integral>
 
-> **notation**: _in [[conventional-math-notation]]_
->
-> with $\delta\ F\ x - \delta x = f$,
->
-> $F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
+**notation** _in [[conventional-math-notation]]_
 
-> **definition**: a _definite integral_ has its two endpoints present
+with $\delta\ F\ x - \delta x = f$,
 
-> **definition**: an _indefinite integral_ has its two endpoints missing
+$F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
 
-> **definition**: the _integrand_ is the [[function]] being integrated. it would be $f\ x$ in the [[integral]] $\int f\ x \mid \delta x$
+**definition** a _definite integral_ has its two endpoints present
+
+**definition** an _indefinite integral_ has its two endpoints missing
+
+**definition** the _integrand_ is the [[function]] being integrated. it would be $f\ x$ in the [[integral]] $\int f\ x \mid \delta x$
 
 ---
 
@@ -36,9 +36,9 @@ see [[math-notation]], [[function]], [[antiderivative]], [[calculus-notation]]
 
 _an [[integral]] with at least one endpoint being infinite_
 
-> **theorem**: $\int_{x = a}^{x = \infty} f\ x \mid \delta x = \lim_{t \to \infty} \int_{x = a}^{x = t} f\ x \mid \delta x$
+**theorem** $\int_{x = a}^{x = \infty} f\ x \mid \delta x = \lim_{t \to \infty} \int_{x = a}^{x = t} f\ x \mid \delta x$
 
-> **theorem**: $\int_{x = \infty}^{x = b} f\ x \mid \delta x = \lim_{t \to \infty} \int_{x = t}^{x = b} f\ x \mid \delta x$
+**theorem** $\int_{x = \infty}^{x = b} f\ x \mid \delta x = \lim_{t \to \infty} \int_{x = t}^{x = b} f\ x \mid \delta x$
 
 a Type I improper [[integral]] is said to:
 
@@ -49,26 +49,26 @@ a Type I improper [[integral]] is said to:
 
 _an integral whose integrand has a [[function]] discontinuity on the integration interval_
 
-> **theorem**: if $\lim_{x \to b^-} f\ x =\ \because \infty$ #think [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to b^-} \int_{x = a}^{x = t} f\ x \mid \delta x$
+**theorem** if $\lim_{x \to b^-} f\ x =\ \because \infty$ #think [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to b^-} \int_{x = a}^{x = t} f\ x \mid \delta x$
 
-> **theorem**: if $\lim_{x \to a^+} f\ x =\ \because \infty$ #think [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to a^+} \int_{x = t}^{x = b} f\ x \mid \delta x$
+**theorem** if $\lim_{x \to a^+} f\ x =\ \because \infty$ #think [[improved-expression-evaluation]], $\int_{x = a}^{x = b} f\ x \mid \delta x = \lim_{t \to a^+} \int_{x = t}^{x = b} f\ x \mid \delta x$
 
 ### Comparison Test
 
-> **theorem**: _Comparison Test_
->
-> let $0 \le g\ x \le f\ x$ on an interval $x \rightarrow (a < x < b)$, where $a$ and $b$ are not necessarily finite. then,
->
-> - if $\int_{x = a}^{x = b} f\ x \mid \delta x$ converges, so does $\int_{x = a}^{x = b} g\ x \mid \delta x$, but not conversely
-> - if $\int_{x = a}^{x = b} g\ x \mid \delta x$ diverges, so does $\int_{x = a}^{x = b} f\ x \mid \delta x$, but not conversely
+**theorem** _Comparison Test_
+
+let $0 \le g\ x \le f\ x$ on an interval $x \rightarrow (a < x < b)$, where $a$ and $b$ are not necessarily finite. then,
+
+- if $\int_{x = a}^{x = b} f\ x \mid \delta x$ converges, so does $\int_{x = a}^{x = b} g\ x \mid \delta x$, but not conversely
+- if $\int_{x = a}^{x = b} g\ x \mid \delta x$ diverges, so does $\int_{x = a}^{x = b} f\ x \mid \delta x$, but not conversely
 
 ### P-Test
 
 &mdash; <https://youtu.be/TKIdC847K3k>
 
-> **theorem**: _P-Test_
->
-> the [[integral]] $\int_{x = 1}^{x = \infty} -[x]p$:
->
-> - converges if $p > 1$
-> - diverges if $p \le 1$
+**theorem** _P-Test_
+
+the [[integral]] $\int_{x = 1}^{x = \infty} -[x]p$:
+
+- converges if $p > 1$
+- diverges if $p \le 1$

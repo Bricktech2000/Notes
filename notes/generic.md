@@ -1,5 +1,3 @@
 # Generic
 
-> **AKA**: `template` in C++
-
-## Java Generic
+> **AKA** `template` in C++

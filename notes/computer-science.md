@@ -2,7 +2,7 @@
 
 <https://youtu.be/SzJ46YA_RaA>
 
-## see
+**see**
 
 [[computer-engineering]], [[software-engineering]]
 
@@ -20,9 +20,7 @@
 
 [[combinatory-logic]]
 
-## applications
-
-#todo heading
+**applications**
 
 [[optimization]]
 

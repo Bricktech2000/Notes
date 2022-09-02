@@ -2,23 +2,25 @@
 
 see [[math-notation]], [[logarithm]]
 
-> **notation**:
->
-> $[b]c \equiv b[c]$, where
->
-> - $b$ is the base of the [[exponent]]
-> - $c$ is the value to raise the base to
+**notation**
 
-> **property**: $x0 = 1 \dashv x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
+$[b]c \equiv b[c]$, where
 
-> **property**: _inverse_ $x[\cdot n] = 1 - x[n]\dashv x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
+- $b$ is the base of the [[exponent]]
+- $c$ is the value to raise the base to
 
-> **property**: _product rule_ $x[m : n] = x[m] \mid x[n]$
+**properties**
 
-> **property**: _quotient rule_ $x[m \cdot n] = x[m] = x[n]$
+$x0 = 1 \dashv x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
 
-> **property**: _power rule_ $[\ [x]m\ ]n = x[mn]$
+_inverse_ $x[\cdot n] = 1 - x[n]\dashv x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
 
-> **property**: _distribution over multiplication_ $[xy]n = [x]n \mid [y]n$
+_product rule_ $x[m : n] = x[m] \mid x[n]$
+
+_quotient rule_ $x[m \cdot n] = x[m] = x[n]$
+
+_power rule_ $[\ [x]m\ ]n = x[mn]$
+
+_distribution over multiplication_ $[xy]n = [x]n \mid [y]n$
 
 see [[logarithm]] for additional properties

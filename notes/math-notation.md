@@ -121,7 +121,7 @@ _in order of high to low precedence_
 
 > **note**: unary [[operator]]s have identical precedence to their binary counterparts, but are right associative
 
-> **definition**: let $=$ be an [[operator]] with _AND_ associativity. then, $a = b = c = \dots\ \ \equiv\ \ a = b \land b = c \land c = \dots$
+**definition**: let $=$ be an [[operator]] with _AND_ associativity. then, $a = b = c = \dots\ \ \equiv\ \ a = b \land b = c \land c = \dots$
 
 ## variable scope
 

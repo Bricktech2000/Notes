@@ -2,7 +2,7 @@
 
 see [[vector]], [[vector-in-rn]], [[matrix]], [[math-notation]], [[basis]]
 
-## types
+**types**
 
 #todo duplicate with [[vector]]
 
@@ -18,14 +18,61 @@ see [[vector]], [[vector-in-rn]], [[matrix]], [[math-notation]], [[basis]]
 
 [[zero-space]]
 
-### examples
+**examples**
 
-> **example**:
+> **example**
 >
 > the following are [[vector-space]]s:
 >
 > - $\mathbb R^1$, $\mathbb R^2$, $\mathbb R^n \land \mathbb N n$
 > - $V v \equiv v = O$ (a [[set]] containing only the zero vector is a vector space)
+
+> **example**
+>
+> below are examples of [[vector-space]]s
+>
+> - any [[plane-in-r3]] through the origin is a subspace of $\mathbb R^3$
+> - any [[line-in-r3]] through the origin is a subspace of $\mathbb R^3$ (same with $\mathbb R^2$)
+> - any [[line-in-r3]] or [[plane-in-r3]] that does _not_ go through the origin is not a subspace of $\mathbb R^3$
+> - $\mathbb R^n \vdash \mathbb R^n \dashv \mathbb N n$ ($\mathbb R^n$ is a subspace of $\mathbb R^n$)
+> - $(V v \equiv v^i = 0 \dashv \mathbb N i \land i \le n) \vdash \mathbb R^n \dashv \mathbb N n$ ($(0, 0 \dots 0)$ is a subspace of $\mathbb R^n$)
+> - $(\mathbb R^n \not\vdash \mathbb R^m) \dashv n \le m \dashv \mathbb N n \land \mathbb N m$ ($\mathbb R^{n \cdot x}$ is not a subspace of $\mathbb R^n$, as vectors in $\mathbb R^{n \cdot x}$ are not really comparable to vectors in $\mathbb R^n$)
+
+## [[axiom]]s of Vector Spaces
+
+let the [[vector-space]] be the [[set]] of [[vector]]s $V$. all of the following [[axiom]]s must be defined and all the following properties must hold for $V$ to be a [[vector-space]]. if a vector space is a sub[[set]] of a known vector space (a _vector subspace_), then all properties are inherited
+
+let $V\ v_0 \dots V\ v_m$. if $U = \operatorname{span} \braket{\braket{v_0 \dots v_m}}$, then $U$ is a subspace of $V$ ($U \vdash V$), see [[span]]
+
+### axioms
+
+_closure under addition_ $V u \land V v \vdash V (u : v)$
+
+_closure under multiplication by a [[scalar]]_ $V u \land \mathbb R k \vdash V(k \mid u)$
+
+_zero vector_ $V O \land (O : u = u \dashv V u)$
+
+**properties**
+
+let $\mathbb R c \land \mathbb R d \land V u \land V v \land V w$
+
+_inverse_ $V (\cdot u) \land u : \cdot u = O \dashv V u$
+
+_identity_ $1u = u \dashv V u$
+
+_commutativity_ $u : v \equiv v : u$
+
+_associativity of addition_ $u : (v : w) \equiv (u : v) : w$
+
+_distributivity_ $c \mid u : v \equiv cu :
+
+_distributivity_ $c : d \mid v \equiv cv : dv$
+
+_associativity of multiplication_ $k \mid du \equiv kd \mid u$
+
+[[vector-space-proof-examples]]
+
+#todo put all pages with #example tag in an `> **example**` block
 
 ## Vector Space Isomorphism
 
@@ -33,15 +80,19 @@ see [[category]], [[category-theory]]
 
 > Iso-Morphic &mdash; Same Shape
 
-> **example**: $\mathbb R^3$ and $\mathbb P^2$ are isomorphic, as any vector in $\mathbb R^3$ can be converted to a unique vector in $\mathbb P^2$, and vice-versa, see [[category]]
+> **example** $\mathbb R^3$ and $\mathbb P^2$ are isomorphic, as any vector in $\mathbb R^3$ can be converted to a unique vector in $\mathbb P^2$, and vice-versa, see [[category]]
 
 ## Dimension of a Vector Space
 
-> **notation**: _in my [[math-notation]]_ $\dim V$
+**notation** _in my [[math-notation]]_
 
-> **definition**: the _dimension of a vector space_ is equal to the number of [[vector]]s in any [[basis]] of that vector space
+$\dim V$
 
-> **example**:
+**definition**
+
+the _dimension of a vector space_ is equal to the number of [[vector]]s in any [[basis]] of that vector space
+
+> **example**
 >
 > below are the dimensions of a few common vector spaces
 >
@@ -74,50 +125,3 @@ yields the system $\begin{bmatrix}1 & \cdot 2 & 1 & | & 0\end{bmatrix} \equiv x 
 the general solution to the [[linear-system]] above will be the [[vector-space]] represented as a [[linear-combination]] of specific [[vector]]s:
 
 $(x, y, z) = (2y \cdot z, y, z) = y (2, 1, 0) : z (\cdot 1, 0, 1)$
-
-## [[axiom]]s of Vector Spaces
-
-let the [[vector-space]] be the [[set]] of [[vector]]s $V$. all of the following [[axiom]]s must be defined and all the following properties must hold for $V$ to be a [[vector-space]]. if a vector space is a sub[[set]] of a known vector space (a _vector subspace_), then all properties are inherited
-
-let $V\ v_0 \dots V\ v_m$. if $U = \operatorname{span} \braket{\braket{v_0 \dots v_m}}$, then $U$ is a subspace of $V$ ($U \vdash V$), see [[span]]
-
-> **property**: _closure under addition_ $V u \land V v \vdash V (u : v)$
-
-> **property**: _closure under multiplication by a [[scalar]]_ $V u \land \mathbb R k \vdash V(k \mid u)$
-
-> **property**: _zero vector_ $V O \land (O : u = u \dashv V u)$
-
-### properties
-
-let $\mathbb R c \land \mathbb R d \land V u \land V v \land V w$
-
-> **property**: _inverse_ $V (\cdot u) \land u : \cdot u = O \dashv V u$
-
-> **property**: _identity_ $1u = u \dashv V u$
-
-> **property**: _commutativity_ $u : v \equiv v : u$
-
-> **property**: _associativity of addition_ $u : (v : w) \equiv (u : v) : w$
-
-> **property**: _distributivity_ $c \mid u : v \equiv cu :
-
-> **property**: _distributivity_ $c : d \mid v \equiv cv : dv$
-
-> **property**: _associativity of multiplication_ $k \mid du \equiv kd \mid u$
-
-> **example**: [[vector-space-proof-examples]]
-
-#todo put all pages with #example tag in an `> **example**:` block
-
-## additional examples
-
-> **example**:
->
-> below are examples of [[vector-space]]s
->
-> - any [[plane-in-r3]] through the origin is a subspace of $\mathbb R^3$
-> - any [[line-in-r3]] through the origin is a subspace of $\mathbb R^3$ (same with $\mathbb R^2$)
-> - any [[line-in-r3]] or [[plane-in-r3]] that does _not_ go through the origin is not a subspace of $\mathbb R^3$
-> - $\mathbb R^n \vdash \mathbb R^n \dashv \mathbb N n$ ($\mathbb R^n$ is a subspace of $\mathbb R^n$)
-> - $(V v \equiv v^i = 0 \dashv \mathbb N i \land i \le n) \vdash \mathbb R^n \dashv \mathbb N n$ ($(0, 0 \dots 0)$ is a subspace of $\mathbb R^n$)
-> - $(\mathbb R^n \not\vdash \mathbb R^m) \dashv n \le m \dashv \mathbb N n \land \mathbb N m$ ($\mathbb R^{n \cdot x}$ is not a subspace of $\mathbb R^n$, as vectors in $\mathbb R^{n \cdot x}$ are not really comparable to vectors in $\mathbb R^n$)

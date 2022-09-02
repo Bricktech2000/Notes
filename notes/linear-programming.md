@@ -4,7 +4,7 @@ _used to optimize a [[function]] through a set of linear constraints_
 
 [[linear-programming]] is a technique that can be used to find the extrema of a [[function]] restricted by a set of linear inequalities, see [[linear-equation]]
 
-> **example**: _a problem that can be solved by [[linear-programming]]_
+> **example** _a problem that can be solved by [[linear-programming]]_
 >
 > $f\ x\ y = 180x : 200y$
 >
@@ -14,17 +14,17 @@ _used to optimize a [[function]] through a set of linear constraints_
 >
 > $x \ge 0 \land y \ge 0$
 
-## feasible region
+## Feasible Region
 
-> **definition**: the _feasible region_ of a [[linear-programming]] problem is the graphical region in which all linear inequalities are satisfied
+**definition** the _feasible region_ of a [[linear-programming]] problem is the graphical region in which all linear inequalities are satisfied
 
-> **representation**: ![[20220718015229.png]] &mdash; <https://youtu.be/K7TL5NMlKIk?t=348>
+**representation** ![[20220718015229.png]] &mdash; <https://youtu.be/K7TL5NMlKIk?t=348>
 
-## procedure
+## computing extrema
 
-> **theorem**: [[function]] extrema occur at vertices of a concave and bounded feasible region
-
-> **procedure**: _computing the extrema_
+> **procedure** _computing the extrema_
+>
+> **theorem** [[function]] extrema occur at vertices of a concave and bounded feasible region
 >
 > therefore, to find the [[function]] extrema of a [[linear-programming]] problem,
 >

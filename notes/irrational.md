@@ -4,8 +4,12 @@ _the [[set]] of [[irrational]] numbers_
 
 see [[math-notation]]
 
-> **definition**: $\mathbb R\ /\ \mathbb Q$
+**definition**
 
-> **property**: $(\mathbb R\ /\ \mathbb Q) \vdash \mathbb R$
+$\mathbb R\ /\ \mathbb Q$
 
-> **property**: $\mathbb Q \lor (\mathbb R\ /\ \mathbb Q) \equiv \mathbb R$
+**properties**
+
+$(\mathbb R\ /\ \mathbb Q) \vdash \mathbb R$
+
+$\mathbb Q \lor (\mathbb R\ /\ \mathbb Q) \equiv \mathbb R$

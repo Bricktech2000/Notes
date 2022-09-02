@@ -2,11 +2,13 @@
 
 see [[conjunctive-normal-form]]
 
-> **AKA**: DNF, SoP
+> **AKA** DNF, SoP
 
-> **definition**: a compound proposition is said to be in _DNF_ if it is a _disjunction of conjunctive clauses_, see [[boolean-logic]]
+**definition** a compound proposition is said to be in _DNF_ if it is a _disjunction of conjunctive clauses_, see [[boolean-logic]]
 
-> **procedure**: _converting a [[boolean]] expression to [[disjunctive-normal-form]]_
+**procedures**
+
+> **procedure** _converting a [[boolean]] expression to [[disjunctive-normal-form]]_
 >
 > see [[boolean-logic]]
 >
@@ -18,4 +20,6 @@ see [[conjunctive-normal-form]]
 
 [[iti1100-a-digital-systems-i]] equivalent of a [[disjunctive-normal-form]]. the conjunctive clauses are known as _Minterms_
 
-> **application**: Sums of Products can be used to easily convert a [[boolean]] expression to only NOR [[logic-gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $\times\ A \equiv \times\ A \lor A$, see [[boolean-logic]]s
+**applications**
+
+Sums of Products can be used to easily convert a [[boolean]] expression to only NOR [[logic-gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $\times\ A \equiv \times\ A \lor A$, see [[boolean-logic]]s

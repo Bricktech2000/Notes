@@ -56,6 +56,21 @@ blockquotes added in new:
 - **representation**
 - **types**
 
+---
+
+- procedure
+- notes
+- example
+- proof
+
+&nbsp;
+
+- theorem
+- definition
+- types
+
+#todo use period when latex not parsing
+
 ### quotes, italics, bold, sources, URLs
 
 blockquotes are used for [[fact]]ual information and definitions

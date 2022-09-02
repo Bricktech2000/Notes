@@ -2,7 +2,7 @@
 
 _a [[proof]] that an entity knows something that does not give away any additional information_
 
-see [[proof]]
+see [[proof]], [[cryptography]]
 
 ## intuitive example
 

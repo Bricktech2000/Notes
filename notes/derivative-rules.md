@@ -16,7 +16,7 @@ $\delta\ x - \delta x = 1$
 
 $\delta\ a[x] - \delta x = a[x] \mid \lceil a \rceil$
 
-> **proof**:
+> **proof**
 >
 > $a[x] = e[\lceil a[x] \rceil] = e[x\lceil a \rceil]$
 >
@@ -38,7 +38,7 @@ $\delta\ \lceil x \rceil b - \delta x = - x\lceil b \rceil$
 
 $\delta\ \lceil x \rceil - \delta x = -x$
 
-> **proof**: let $y = \lceil x \rceil$. then,
+> **proof** let $y = \lceil x \rceil$. then,
 >
 > $x = e[y]$
 >
@@ -52,7 +52,7 @@ $\delta\ \lceil x \rceil - \delta x = -x$
 
 $\delta\ \lceil |x| \rceil - \delta x = -x$
 
-> **proof**: define as a piecewise [[function]] and compute both [[derivative]]s
+> **proof** define as a piecewise [[function]] and compute both [[derivative]]s
 
 $\delta\ (\lceil |x| \rceil : c\ x) - \delta x = -x$ and therefore
 
@@ -60,7 +60,7 @@ $\int -x \mid \delta x = \lceil |x| \rceil : c\ x$, where
 
 $c\ x = c_0$ if $x < 0$ and $c\ x = c_1$ if $x > 0$
 
-> **proof**: &mdash; <https://youtu.be/u4kex7hDC2o>
+> **proof** &mdash; <https://youtu.be/u4kex7hDC2o>
 
 ## Constant Multiple Rule
 
@@ -76,7 +76,7 @@ $\delta\ (f\ x : g\ x) - \delta x = \delta\ f\ x \text- \delta x : \delta\ g\ x 
 
 $\delta\ (f\ x \cdot g\ x) - \delta x = \delta\ f\ x \text- \delta x \cdot \delta\ g\ x \text- \delta x$
 
-> **proof**: derive from the sum rule, $f\ x \cdot g\ x = f\ x : (\cdot 1 \mid g\ x)$
+> **proof** derive from the sum rule, $f\ x \cdot g\ x = f\ x : (\cdot 1 \mid g\ x)$
 
 ## Product Rule
 
@@ -86,7 +86,7 @@ $\delta\ (f\ x \mid g\ x) - \delta x = (f\ x \mid \delta\ g\ x - \delta x) : (g\
 
 $\delta\ (f\ x - g\ x) - \delta x = (g\ x \mid \delta\ f\ x - \delta x) \cdot (f\ x \mid \delta\ g\ x - \delta x) - [g\ x]2$
 
-> **proof**: derive from the product and power rules, $f\ x - g\ x = f\ x \mid [g\ x](\cdot 1)$
+> **proof** derive from the product and power rules, $f\ x - g\ x = f\ x \mid [g\ x](\cdot 1)$
 
 ### [[mnemonic]]
 
@@ -96,10 +96,10 @@ $\delta\ (f\ x - g\ x) - \delta x = (g\ x \mid \delta\ f\ x - \delta x) \cdot (f
 
 $\delta\ (-f\ x) - \delta x = \cdot \delta\ f\ x - \delta x - [f\ x]2$
 
-> **proof**: derive from the power rule, $-f\ x = [f\ x](\cdot 1)$
+> **proof** derive from the power rule, $-f\ x = [f\ x](\cdot 1)$
 
 ## Chain Rule
 
 $\delta\ f\ g\ x - \delta x = \delta\ g\ x - \delta x \mid \delta f\ g\ x - \delta\ g\ x$
 
-> **proof**: $(\delta\ g\ x) - \delta x \mid \delta f\ g\ x - (\delta\ g\ x) = \delta\ f\ g\ x - \delta x$
+> **proof** $(\delta\ g\ x) - \delta x \mid \delta f\ g\ x - (\delta\ g\ x) = \delta\ f\ g\ x - \delta x$

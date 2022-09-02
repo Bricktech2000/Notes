@@ -45,11 +45,11 @@ $n, l, m_l, m_s \in \mathbb N$
 
 $s$ and $p$ orbitals both always have the highest value of $n$
 
-> **notation**:
->
-> $nl^m$
->
-> **example**:
+**notation**
+
+$nl^m$
+
+> **example**
 >
 > $2p^5$, where
 >
@@ -57,8 +57,8 @@ $s$ and $p$ orbitals both always have the highest value of $n$
 > - $l = 1$
 > - $m_l = 0$
 > - $m_s = -\frac 1 2$
->
-> **example**:
+
+> **example**
 >
 > - $3d^5$, where
 > - $n = 3$

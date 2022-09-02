@@ -30,7 +30,7 @@ see [[scope]]
 
 Java [[scope]]s are defined using `{ /*...*/ }`
 
-> **example**:
+> **example**
 >
 > ```java
 > {
@@ -79,28 +79,38 @@ abstract data types include:
 
 abstract data [[type]]s can be implemented through [[interface]]s
 
+## Classes
+
+see [[class]]
+
+in a [[java]] [[class]], a _final variable_ can only be initialized once
+
+in a [[java]] [[class]], the order in which properties and methods are defined is irrelevant
+
 ## Interfaces
 
 see [[interface]]s
 
-> **definition**: in [[java]], an _interface_ is an abstract [[type]] that is used to specify what behavior a [[class]] should implement. [[interface]]s may only contain abstract method signatures and constant declarations.
+**definition** in [[java]], an _interface_ is an abstract [[type]] that is used to specify what behavior a [[class]] should implement. [[interface]]s may only contain abstract method signatures and constant declarations.
 
 ## Generics
 
 see [[generic]]s
 
-> **definition**: in [[java]], _generics_ are almost identical to `template`s in C++. behind the scenes, they seem to replace all instances of the generic [[type]] by `Object`, but they still allow for compile-time [[type]] checks to avoid runtime errors &mdash; <https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood>. see [[java-is-a-terrible-language]]
+**definition** in [[java]], _generics_ are almost identical to `template`s in C++. behind the scenes, they seem to replace all instances of the generic [[type]] by `Object`, but they still allow for compile-time [[type]] checks to avoid runtime errors &mdash; <https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood>. see [[java-is-a-terrible-language]]
 
 ## other definitions and properties
 
-> **definition**: _collections_ are data [[type]]s containing multiple elements. they cannot contain [[java-primitive]]s &mdash; <https://stackoverflow.com/questions/4594529/java-collections-why-no-primitive-types>. see [[java-is-a-terrible-language]]
+**definition** _collections_ are data [[type]]s containing multiple elements. they cannot contain [[java-primitive]]s &mdash; <https://stackoverflow.com/questions/4594529/java-collections-why-no-primitive-types>. see [[java-is-a-terrible-language]]
 
-> **definition**: in Java, an _abstract method_ is used to have a definition but no implementation. abstract methods must be implemented by sub[[class]]es.
+**definition** in Java, an _abstract method_ is used to have a definition but no implementation. abstract methods must be implemented by sub[[class]]es.
 
-> **definition**: in Java, an _abstract class_ is used to prevent its instantiation. it must be used when a [[class]] contains abstract methods
+**definition** in Java, an _abstract class_ is used to prevent its instantiation. it must be used when a [[class]] contains abstract methods
 
-> **property**: in Java, declaring a [[class]] `class MyClass` is shorthand for `class MyClass extents Object`
+**properties**
 
-> **property**: Java does **not** support operator overloading, because Java
+in Java, declaring a [[class]] `class MyClass` is shorthand for `class MyClass extents Object`
 
-> **property**: Java does **not** support [[first-class-function]]s, because Java
+Java does **not** support operator overloading, because Java
+
+Java does **not** support [[first-class-function]]s, because Java

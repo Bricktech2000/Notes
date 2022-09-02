@@ -2,35 +2,41 @@
 
 see [[math-notation]], [[function]], [[hyperbolic-function]]
 
-> **definition**:
->
-> let $(x, y)$ be a point on the unit [[circle]] and let $\theta$ be the [[angle]] from the positive x-axis counterclockwise to that point. then,
->
-> $x = \cos \theta \land y - \sin \theta$, and $\tan \theta = \sin \theta - \cos \theta$
+**definition**
 
-> **property**: _periodic_ $\sin (\theta : \tau) = \sin \theta$
+let $(x, y)$ be a point on the unit [[circle]] and let $\theta$ be the [[angle]] from the positive x-axis counterclockwise to that point. then,
 
-> **property**: _periodic_ $\cos (\theta : \tau) = \cos \theta$
+$x = \cos \theta \land y - \sin \theta$, and $\tan \theta = \sin \theta - \cos \theta$
 
-> **property**: _periodic_ $\tan (\theta : \tau \text- 2) = \tan \theta$
+**properties**
 
-> **property**: _even [[function]]_ $\cos (\cdot \theta) = \cos \theta$
+_periodic_ $\sin (\theta : \tau) = \sin \theta$
 
-> **property**: _odd [[function]]_ $\sin (\cdot \theta) = \cdot \sin \theta$
+_periodic_ $\cos (\theta : \tau) = \cos \theta$
 
-> **property**: _odd [[function]]_ $\tan (\cdot \theta) = \cdot \tan \theta$
+_periodic_ $\tan (\theta : \tau \text- 2) = \tan \theta$
 
-### [[mnemonic]]
+_even [[function]]_ $\cos (\cdot \theta) = \cos \theta$
+
+_odd [[function]]_ $\sin (\cdot \theta) = \cdot \sin \theta$
+
+_odd [[function]]_ $\tan (\cdot \theta) = \cdot \tan \theta$
+
+**[[mnemonic]]**
+
+#todo maybe modify heading above
 
 SOHCAHTOA
 
 ## reciprocal functions
 
-> **definition**: $y = \sin x \equiv x = \operatorname{asin} y : \tau n \land \mathbb Z n$
+**definitions**
 
-> **definition**: $y = \cos x \equiv x = \operatorname{acos} y : \tau n \land \mathbb Z n$
+$y = \sin x \equiv x = \operatorname{asin} y : \tau n \land \mathbb Z n$
 
-> **definition**: $y = \tan x \equiv x = \operatorname{atan} y : \tau n \text- 2 \land \mathbb Z n$
+$y = \cos x \equiv x = \operatorname{acos} y : \tau n \land \mathbb Z n$
+
+$y = \tan x \equiv x = \operatorname{atan} y : \tau n \text- 2 \land \mathbb Z n$
 
 ## inverse functions
 
@@ -88,13 +94,9 @@ $[\cos x]2 = 1 : \cos 2x - 2$ &mdash; derived by solving for $[\cos x]2$
 
 ## cosine and sine "law"s
 
-> **theorem**: _sine law_
->
-> let a triangle with sides $A, B, C$ and [[angle]]s $a, b, c$ where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, $\sin a - A = \sin b - B = \sin c - C$
+**theorem** _sine law_ let a triangle with sides $A, B, C$ and [[angle]]s $a, b, c$ where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, $\sin a - A = \sin b - B = \sin c - C$
 
-> **theorem**: _cosine law_
->
-> let a triangle with sides $A, B, C$ and [[angle]]s $a, b, c$ where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, $a2 = b2 : c2 \cdot 2bc \cos A$
+**theorem** _cosine law_ let a triangle with sides $A, B, C$ and [[angle]]s $a, b, c$ where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, $a2 = b2 : c2 \cdot 2bc \cos A$
 
 ## Derivatives
 

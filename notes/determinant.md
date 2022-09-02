@@ -2,13 +2,21 @@
 
 see [[math-notation]], [[matrix]]
 
-> **notation**:
->
-> $\det A \equiv |A|$, where
->
-> - $A$ is a square [[matrix]], $\mathbb M^{n, n} A$
+**notation**
 
-> **procedure**: _computing the determinant using [[recursion]]_ see #magic
+$\det A \equiv |A|$, where
+
+- $A$ is a square [[matrix]], $\mathbb M^{n, n} A$
+
+**properties**
+
+$\det A = \det A^\intercal$, see transpose [[matrix]]
+
+$\det cA = c^n \mid \det A$, where $n$ is the width and height of the [[matrix]]
+
+**procedures**
+
+> **procedure** _computing the determinant using [[recursion]]_ see #magic
 >
 > _Laplace expansion_
 >
@@ -22,37 +30,35 @@ see [[math-notation]], [[matrix]]
 >
 > the base case for the [[algorithm]] is $\det \begin{bmatrix}s\end{bmatrix} = s$, where $s$ is a [[scalar]]
 
-> **procedure**: _computing the determinant of a $2$ by $2$ [[matrix]]_
+> **procedure** _computing the determinant of a $2$ by $2$ [[matrix]]_
 >
 > $\begin{vmatrix}a & b \\\  c & d\end{vmatrix} = ad \cdot bc$
 
-> **procedure**: _computing the determinant, triangular method_ see #magic
+> **procedure** _computing the determinant, triangular method_ see #magic
 >
 > the [[determinant]] of a triangular [[matrix]] is the product of its diagonal entries
 >
 > row operations (see [[linear-system]]) have a consistent effect on the [[determinant]] of a [[matrix]] (see properties below). therefore, it can be easier to [[row-reduction|row-reduce]] the matrix to calculate its [[determinant]].
 
-> **property**: $\det A = \det A^\intercal$, see transpose [[matrix]]
-
-> **property**: $\det cA = c^n \mid \det A$, where $n$ is the width and height of the [[matrix]]
+**properties**
 
 see [[linear-system]]
 
-> **property**: _adding a multiple of a row or column to another row or column_ $\det A = \det A'$
+_adding a multiple of a row or column to another row or column_ $\det A = \det A'$
 
-> **property**: _swapping any two rows or two columns_ $\det A = \cdot \det A'$
+_swapping any two rows or two columns_ $\det A = \cdot \det A'$
 
-> **property**: _multiplying a row or a column by a [[scalar]] $c$_ $\det A = c \det A'$
+_multiplying a row or a column by a [[scalar]] $c$_ $\det A = c \det A'$
 
-> **property**: $\det AB = \det A \mid \det B$
+$\det AB = \det A \mid \det B$
 
-> **property**: $\det [A]m = [\det A]m \dashv \mathbb N m$
+$\det [A]m = [\det A]m \dashv \mathbb N m$
 
-> **property**: $\det A = 0$ if and only if $A$ is not invertible, see [[matrix]]
+$\det A = 0$ if and only if $A$ is not invertible, see [[matrix]]
 
-> **property**: $\det A^- = -\det A$ if and only if $A$ is invertible, see [[matrix]]
->
-> > **note**: the equation above is beautiful, as in [[conventional-math-notation]], $A^{-1}$ is an inverse [[matrix]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
+$\det A^- = -\det A$ if and only if $A$ is invertible, see [[matrix]]
+
+> **note** the equation above is beautiful, as in [[conventional-math-notation]], $A^{-1}$ is an inverse [[matrix]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
 
 ## intuitive explanation
 

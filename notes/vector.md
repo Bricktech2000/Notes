@@ -2,7 +2,7 @@
 
 vectors can form [[vector-space]]s
 
-### types
+**types**
 
 [[vector-in-rn]], see [[vector-in-rn-vector-space]]
 
@@ -14,7 +14,7 @@ vectors can form [[vector-space]]s
 
 [[ordered-pair]]s, see [[ordered-pair-vector-space]]
 
-### properties
+**properties**
 
 see [[math-notation]]
 

@@ -6,8 +6,6 @@
 
 [[math-notation]]
 
-[[new-ui-for-enrolling-to-classes]]
-
 [[people-are-shaped-by-their-surroundings]]
 
 [[improved-expression-evaluation]]

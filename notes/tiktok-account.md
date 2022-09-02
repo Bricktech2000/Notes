@@ -2,7 +2,7 @@
 
 ## ideas
 
-- satire account to humorously disprove obvious scientific facts (pouring water on a ball spinning on a drill to disprove globe Earth)
+- satire account to humorously disprove obvious scientific facts (pouring water on a ball spinning on a drill to disprove globe Earth), see [[conspiracy-theory]]
 
 ## principles
 

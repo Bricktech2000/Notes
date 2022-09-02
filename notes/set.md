@@ -2,33 +2,37 @@
 
 see [[math-notation]]
 
-> **definition**: a _set_ is an unordered collection of elements, each of which are unique
+**definition** a _set_ is an unordered collection of elements, each of which are unique
 
-> **definition**: _formally in my [[math-notation]]_
->
-> a [[set]] is a [[set-theory]]etical [[function]] with range at most $\mathbb B$ (also known as a [[predicate]]) that takes an element and returns whether it is in the [[set]] or not
+**definition** _formally in my [[math-notation]]_ a [[set]] is a [[set-theory]]etical [[function]] with range at most $\mathbb B$ (also known as a [[predicate]]) that takes an element and returns whether it is in the [[set]] or not
 
-> **notation**: _Set Roster notation_
->
-> $S = \braket{\braket{1, 2, 3}}$
->
-> $S = \braket{\braket{1, 2, 3 \dots}}$ &mdash; $\dots$ are allowed
+**notations**
 
-> **notation**: _Set Builder notation_
->
-> $S\ x = P\ x$ or $S = x \rightarrow P\ x$, where
->
-> $P$ is a [[predicate]], see [[math-notation]]
->
-> in [[conventional-math-notation]], this abomination: $\lbrace x \mid P(x) \rbrace$
+_Set Roster notation_
 
-> **notation**: _set membership_ $S\ a$
+$S = \braket{\braket{1, 2, 3}}$
 
-> **property**: [[set]]s are categories, see [[category-theory]]
+$S = \braket{\braket{1, 2, 3 \dots}}$ &mdash; $\dots$ are allowed
 
-> **property**: _elements are unordered_ $\braket{\braket{1, 2, 3}} = \braket{\braket{3, 2, 1}} = \dots$
+_Set Builder notation_
 
-> **property**: _elements are unique_ $\braket{\braket{1, 1, 1}} = \braket{\braket{1, 1}} = \dots$
+$S\ x = P\ x$ or $S = x \rightarrow P\ x$, where
+
+$P$ is a [[predicate]], see [[math-notation]]
+
+in [[conventional-math-notation]], this abomination: $\lbrace x \mid P(x) \rbrace$
+
+_set membership_
+
+$S\ a$
+
+**properties**
+
+[[set]]s are categories, see [[category-theory]]
+
+_elements are unordered_ $\braket{\braket{1, 2, 3}} = \braket{\braket{3, 2, 1}} = \dots$
+
+_elements are unique_ $\braket{\braket{1, 1, 1}} = \braket{\braket{1, 1}} = \dots$
 
 ## examples
 
@@ -50,27 +54,35 @@ two [[set]]s are isomorphic if they contain the same elements "labeled" in diffe
 
 ## Subset
 
-> **definition**: a [[set]] $A$ is a _subset_ of a [[set]] $B$ if and only if every element of $A$ is an element of $B$
+**definition** a [[set]] $A$ is a _subset_ of a [[set]] $B$ if and only if every element of $A$ is an element of $B$
 
 in other words, an element being in $A$ implies it is also in $B$
 
-> **notation**: _in my [[math-notation]]_ $A \vdash B$ checks if $A$ is a subset of $B$
+**notation**
 
-> **notation**: _in [[conventional-math-notation]]_ $A \subseteq B$ states $A$ is a subset of $B$
+_in my [[math-notation]]_ $A \vdash B$ checks if $A$ is a subset of $B$
 
-> **example**: $\mathbb Z \vdash \mathbb R$
+_in [[conventional-math-notation]]_ $A \subseteq B$ states $A$ is a subset of $B$
 
-> **example**: $\mathbb E \vdash \mathbb Z$
+**examples**
+
+$\mathbb Z \vdash \mathbb R$
+
+$\mathbb E \vdash \mathbb Z$
 
 ## Empty Set
 
 _the [[set]] containing no elements_
 
-> **notation**: _in my [[math-notation]]_ $\braket{\braket{\ }}$ or $(x \rightarrow \bot)$
+**notation**
 
-> **notation**: _in [[conventional-math-notation]]_ $\lbrace \rbrace$ or $\varnothing$ =
+_in my [[math-notation]]_ $\braket{\braket{\ }}$ or $(x \rightarrow \bot)$
 
-> **property**: $\braket{\braket{\ }} \vdash A$, for all [[set]] $A$
+_in [[conventional-math-notation]]_ $\lbrace \rbrace$ or $\varnothing$ =
+
+**properties**
+
+$\braket{\braket{\ }} \vdash A$, for all [[set]] $A$
 
 ## [[universal]]
 
@@ -80,9 +92,9 @@ see [[universal]]
 
 ## Set Power Set
 
-> **definition**: the _power set_ of a [[set]] $A$ is the [[set]] of all sub[[set]]s of $A$
+**definition** the _power set_ of a [[set]] $A$ is the [[set]] of all sub[[set]]s of $A$
 
-> **example**:
+> **example**
 >
 > let $P\ A$ be the power set of $A$ and let $O = \braket{\braket{\ }}$
 >

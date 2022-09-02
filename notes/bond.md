@@ -8,14 +8,6 @@ see [[orbital]], [[quantum-numbers]]
 
 a triple bond is strong than a double bond, which is stronger than a single bond. similarly, a triple bond is shorter than a double bond, which is shorter than a single bond.
 
-bonds between atoms $A$ and $B$ are represented as follows in a [[lewis-structure]]:
-
-> **notation**: _single bond_ $A - B$ ($A : B$)
-
-> **notation**: _double bond_ $A = B$
-
-> **notation**: _triple bond_ $A \equiv B$
-
 ---
 
 # Types of Bonds

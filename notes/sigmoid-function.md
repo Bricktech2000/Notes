@@ -2,18 +2,18 @@
 
 see [[math-notation]], [[function]], [[neural-network]], [[calculus]]
 
-> **definition**:
->
-> $\sigma\ z = -1 : e[\cdot z]$, where
->
-> - $\sigma\ z$ is the [[sigmoid-function]] at $z$
-> - $e$ is [[eulers-constant]]
+**definition**
 
-> **representation**:
->
-> ![[2022-02-26-01-23-56.png]]
+$\sigma\ z = -1 : e[\cdot z]$, where
 
-## derivative
+- $\sigma\ z$ is the [[sigmoid-function]] at $z$
+- $e$ is [[eulers-constant]]
+
+**representation**
+
+![[2022-02-26-01-23-56.png]]
+
+## Derivative
 
 see [[derivative]]
 

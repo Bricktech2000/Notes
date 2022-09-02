@@ -2,11 +2,9 @@
 
 see [[calculus-notation]], [[math-notation]]
 
-> **theorem**:
->
-> Part 1: if $f\ x$ is continuous on $x \rightarrow (a \le x \le b)$, then $\int_{t = a}^{t = x} f\ t \mid \delta t$ is continuous on $x \rightarrow (a \le x \le b)$ and differentiable on $x \rightarrow (a < x < b)$ and $\delta\ (\int_{t = a}^{t = x} f\ t \mid \delta t) - \delta x = f\ x$
+**theorem** _Part 1_ if $f\ x$ is continuous on $x \rightarrow (a \le x \le b)$, then $\int_{t = a}^{t = x} f\ t \mid \delta t$ is continuous on $x \rightarrow (a \le x \le b)$ and differentiable on $x \rightarrow (a < x < b)$ and $\delta\ (\int_{t = a}^{t = x} f\ t \mid \delta t) - \delta x = f\ x$
 
-> **proof**:
+> **proof**
 >
 > by definition, $\delta\ g\ x - \delta x = \lim_{h \to 0} g (x : h) \cdot g\ x - h$
 >
@@ -19,11 +17,9 @@ see [[calculus-notation]], [[math-notation]]
 >
 > &mdash; <https://youtu.be/HfACrKJ_Y2w?t=40945>
 
-> **theorem**:
->
-> Part 2: if $f\ x$ is continuous on $x \rightarrow (a \le x \le b)$, then $\int_{x = a}^{x = b} f\ x \mid \delta x = F\ b \cdot F\ a$ where $F = \int f\ x \mid \delta x$, any [[antiderivative]] of $f\ x$
+**theorem** _Part 2_ if $f\ x$ is continuous on $x \rightarrow (a \le x \le b)$, then $\int_{x = a}^{x = b} f\ x \mid \delta x = F\ b \cdot F\ a$ where $F = \int f\ x \mid \delta x$, any [[antiderivative]] of $f\ x$
 
-> **proof**:
+> **proof**
 >
 > let $F\ x = \int_{t = a}^{t = x} f\ t \mid \delta t$. from the first part of the theorem, we get $\delta\ F\ x - \delta x = f\ x$, meaning $F\ x : c$ with $\mathbb R c$ is the set of all [[antiderivative]]s of $f\ x$ by definition. then, $(F\ b : c) \cdot (F\ a : c) = F\ b \cdot F\ a = (\int_{t = a}^{t = b} f\ t \mid \delta t) \cdot (\int_{t = a}^{t = a} f\ t \mid \delta t)$ by definition, and therefore $F\ b \cdot F\ a = \int_{t = a}^{t = b} f\ t \mid \delta t$.
 >
@@ -31,4 +27,4 @@ see [[calculus-notation]], [[math-notation]]
 
 definite [[integral]]s [[math-notation]] #todo
 
-> **note**: I do not understand why the [[fundamental-theorem-of-calculus]] has to be so complicated. the two properties defined in the note _[[calculus-notation]]_ are all that is needed to derive the [[fundamental-theorem-of-calculus]]. see [[integral]] for more details.
+> **note** I do not understand why the [[fundamental-theorem-of-calculus]] has to be so complicated. the two properties defined in the note _[[calculus-notation]]_ are all that is needed to derive the [[fundamental-theorem-of-calculus]]. see [[integral]] for more details.
