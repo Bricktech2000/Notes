@@ -28,7 +28,7 @@ understand [[buffer]] solutions and [[titration]]
 
 [[orbital]]s, [[bond]]s, [[quantum-numbers]]
 
-[[atomic-properties]], [[drawing-a-molecule]]
+[[atomic-properties]], [[molecule]]
 
 [[ideal-gas]] law and partial [[pressure]]s
 

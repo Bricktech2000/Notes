@@ -2,6 +2,6 @@
 
 _vague [[goal]]s_
 
-## example
-
-> I want to be an engineer
+> **example**
+>
+> > I want to be an engineer

@@ -2,9 +2,7 @@
 
 see [[math-notation]]
 
-## Problems with [[conventional-math-notation]]
-
-_fixed in my [[math-notation]]_
+**cons** _fixed in my [[math-notation]]_
 
 - [[set]] builder notation $\lbrace \mid \rbrace$ is just a $\cap$
 - $\sqrt{}$ only returns a positive solution
@@ -14,7 +12,7 @@ _fixed in my [[math-notation]]_
 - $4^2$, $\sqrt{4}$, $\log_2 4$ are the same operation with completely different notation
 - no conditional equality symbol
 - [[matrix]]es and [[vector]]s can be ambiguous
-- [[variables]] are one letter only, but oh well
+- [[variable]]s are one letter only, but oh well
 - why not allow fully 2D notation?
 - chained inequalities don't exist
 - $^{-1}$ means both reciprocal and inverse, eg. $sin^{-1}x$ is a reciprocal where it should be an inverse

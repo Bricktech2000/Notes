@@ -2,31 +2,31 @@
 
 > **AKA** System-Oriented
 
-most of our culture is outcome-oriented instead of process-oriented. here are some examples of this observation:
+most of our culture is outcome-oriented instead of process-oriented
 
-- [[education]] systems don’t focus on what you learn; rather, they focus on your grades
+> **examples**
+>
+> - [[education]] systems don’t focus on what you learn; rather, they focus on your grades
 
 focusing on outcomes can lead to feeling [[overwhelm]]ed and can prevent people from even starting the process itself (which could be wrongly rationalized as a lack of [[motivation]] or as [[laziness]])
 
 &mdash; <https://youtu.be/\_ZVGXmafWqY?t=72>
 
-## disadvantages of goals
+**examples**
 
-- successful and unsuccessful people share the same [[goal]]s, so therefore the goal cannot be what differentiates winners from loosers
-- achieving a [[goal]] only feels good for that moment in time, but then hinders longer-term progress as your modivation quickly fades afterwards
-- [[goal]]s can create an _either-or_ conflict: either you achieve the goal or you don't, even if you were making progress in the right direction
+> **example** _seeing jobs in a [[process-oriented]] way_
+>
+> focusing on “getting a job” is very abstract and outcome-oriented. instead, one should focus on “applying for 10 jobs a week”, which is a concrete goal that is easy to measure.
+>
+> even though that person wouldn’t be guaranteed to get a job that way (as they are not focusing on the outcome), they are still way more likely to reach the outcome (as the process is what often leads to the outcome).
+>
+> “getting a job” is completely out of one’s control, but “applying to 10 jobs a week” is entirely under one’s control. this can also increase the likelihood of that person getting a job.
 
-&mdash; <https://youtu.be/PZ7lDrwYdZc?t=215>
+> **example** _how "the process" can be very valuable_
+>
+> <https://youtu.be/rzwaaWH0ksk?t=1749> from 29:09 to 31:22
 
-## example with jobs
-
-focusing on “getting a job” is very abstract and outcome-oriented. instead, one should focus on “applying for 10 jobs a week”, which is a concrete goal that is easy to measure.
-
-even though that person wouldn’t be guaranteed to get a job that way (as they are not focusing on the outcome), they are still way more likely to reach the outcome (as the process is what often leads to the outcome).
-
-“getting a job” is completely out of one’s control, but “applying to 10 jobs a week” is entirely under one’s control. this can also increase the likelihood of that person getting a job.
-
-## example with goals and risk
+## goals and risk
 
 _philosophical thought on [[goal]]s_
 
@@ -50,7 +50,7 @@ _after a middle-of-the-night discussion with Grace_
 
 [[learning]] to try to achieve a [[goal]], even though failure seems inevitable, is a valuable skill. failing to achieve a goal shouldn’t feel like a failure; rather, it should feel like an accomplishment.
 
-you failed, so what? think about all the walls you powered through and all the marble statues you moved out of your way in the process (note for future me: the _marble statue_ metaphor is surface level. there’s nothing more to it, unfortunately).
+you failed, so what? think about all the walls you powered through and all the marble statues you moved out of your way in the process (note to future me: the _marble statue_ metaphor is surface level; there’s nothing more to it, unfortunately).
 
 as a side note, the [[goal]]s one sets must **feel achievable**. about half must be achieved, while the other must not. this ensures the full commitment of the subject to the goal. if the [[goal]]s one sets feel out of reach, the accomplishment-to-failure ratio must be increased to avoid burnout or feelings of powerlessness.
 
@@ -63,7 +63,3 @@ as a side note, the [[goal]]s one sets must **feel achievable**. about half must
 > If they [gamers] believe that there is a chance that something won’t work, they actually avoid the entire phenomenon &mdash; <https://youtu.be/\_ZVGXmafWqY?t=171>
 
 this kind of thought process can be part of the reason why someone is not able to move forward in life. people with an analytical mind think they know what will happen, which prevents them from taking risks
-
-## example from a video
-
-<https://youtu.be/rzwaaWH0ksk?t=1749> from 29:09 to 31:22

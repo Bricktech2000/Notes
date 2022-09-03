@@ -72,4 +72,4 @@
 
 [[flawed-but-established]]
 
-[[education]] bad habits
+[[education]] system issues

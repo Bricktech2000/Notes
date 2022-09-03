@@ -2,6 +2,22 @@
 
 _type system madness_
 
+**properties**
+
+weak equality is **not** transitive in [[javascript]] &mdash; <https://youtu.be/vcFBwt1nu2U?t=1290> &mdash; JavaScript: The Good Parts, by Douglas Crockford
+
+> **example**
+>
+> ```javascript
+> a = '0';
+> b = 0;
+> c = '';
+>
+> a == b; // true
+> b == c; // true
+> a == c; // false
+> ```
+
 ## type quirks
 
 &mdash; <https://youtu.be/5wnlYIQKPXM>
@@ -39,19 +55,3 @@ true - true === 0; // true
 [] == ![]; // true
 ',,,' == new Array(4); // true
 ```
-
-## properties
-
-```javascript
-a = '0';
-b = 0;
-c = '';
-
-a == b; // true
-b == c; // true
-a == c; // false
-```
-
-&mdash; <https://youtu.be/vcFBwt1nu2U?t=1290> &mdash; JavaScript: The Good Parts, by Douglas Crockford
-
-&mdash; weak equality is **not** transitive in [[javascript]]

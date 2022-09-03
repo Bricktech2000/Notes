@@ -2,6 +2,6 @@
 
 _the base-10 [[positional-numeral-system]]_
 
-### pros & cons
+**pros**
 
 humans have 10 fingers

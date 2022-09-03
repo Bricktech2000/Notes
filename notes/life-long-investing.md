@@ -10,7 +10,7 @@ study the following strategy:
 
 ## pros & cons
 
-### advantages to holding fiat currency
+### advantages of investing
 
 - prevents economic crises from affecting one’s net worth
 - takes advantage of compound interest from a young age
@@ -42,6 +42,8 @@ study the following strategy:
 <https://youtu.be/npH236HEC_w>
 
 <https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4466/tax-free-savings-account-tfsa-guide-individuals.html>
+
+<https://youtu.be/NnU9gkyisSk>
 
 VUG:
 

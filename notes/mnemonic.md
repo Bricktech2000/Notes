@@ -1,8 +1,8 @@
 # Mnemonic
 
-_tricks for [[learning]] [[fact]]s_
+_[[trick]]s for [[learning]] [[fact]]s_
 
-see [[memory]]
+see [[memory]], [[trick]]
 
 &mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0&ab_channel=PierceCollegeDist11>
 

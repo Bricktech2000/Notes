@@ -68,6 +68,9 @@ blockquotes added in new:
 - theorem
 - definition
 - types
+- properties
+- pros
+- cons
 
 #todo use period when latex not parsing
 

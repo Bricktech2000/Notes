@@ -2,15 +2,17 @@
 
 see [[object]], [[class]]
 
-## properties
+the goal of [[object-oriented-programming]] is to build [[object]]s based on their real-world properties
+
+**properties**
 
 [[object-oriented-programming]] is both _object-oriented_ and _imperative_, see [[programming-paradigm]]
 
-## principles
+**pros**
 
-the goal of [[object-oriented-programming]] is to build [[object]]s based on their real-world properties
+[[object]]s are things and people like things
 
-## Greatness of OOP
+**cons**
 
 <https://youtu.be/GKYCA3UsmrU>
 

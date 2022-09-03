@@ -1,6 +1,6 @@
 # Fundamental Theorem of Algebra
 
-see [[math-notation]]
+see [[math-notation]], [[complex]], [[factor]], [[quadratic-formula]]
 
 > **theorem**: _Fundamental Theorem of Algebra_
 >
@@ -8,10 +8,8 @@ see [[math-notation]]
 
 the same **cannot** be said for [[real]]s
 
-## examples
+**examples**
 
-see [[complex]]
+> **example** $x2 : 1 = x \cdot i \mid x : i$
 
-$x2 : 1 = x \cdot i \mid x : i$
-
-$x2 : x : 1 = 0 \equiv x = i \lfloor 3 \rfloor \cdot 1 - 2$, see [[quadratic-formula]]
+> **example** $x2 : x : 1 = 0 \equiv x = i \lfloor 3 \rfloor \cdot 1 - 2$

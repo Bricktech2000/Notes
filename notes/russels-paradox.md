@@ -1,11 +1,9 @@
 # Russel's Paradox
 
-using [[conventional-math-notation]]
+**definition**
 
-$S = \lbrace x : x \notin x \rbrace$. Is $S \in S$?
+_in [[conventional-math-notation]]_ $S = \lbrace x : x \notin x \rbrace$. Is $S \in S$?
 
-using my [[math-notation]]
+_in my [[math-notation]]_ $S\ x = \times\ x\ x$. Is $S\ S$?
 
-$S\ x = \times\ x\ x$. Is $S\ S$?
-
-after substitution we get $S\ S = \times\ S\ S$, which is a [[contradiction]]. therefore, $S$ cannot exist.
+after substitution $x \to S$ ([[improved-expression-evaluation]] notation #todo) we get $S\ S = \times\ S\ S$, which is a [[contradiction]]. therefore, $S$ cannot exist.

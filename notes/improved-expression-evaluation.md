@@ -18,9 +18,11 @@ this [[improved-expression-evaluation]] proposes that any algebraic manipulation
 
 - many algebraic rules contain an arbitrary restriction such as $\dashv x \ne 0$ given a [[variable]] $x$. however, none of them break (have broken yet) when removing the restriction and using this [[improved-expression-evaluation]]. see backlinks for real-world examples
 
-## analogy with [[complex]] numbers
+## analogy with [[complex]] numbers and [[fraction]]s
 
 ignoring the existence of [[complex]] numbers, the square root of a negative [[number]] can be thought of as _invalid_. however, instead of trying to compute the square root straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being squared, which makes it "valid" again. it turns out that doing so never results in an erroneous answer.
+
+in a [[positional-numeral-system]] that only supports [[integer]]s, a [[fraction]]al [[number]] such as $2 \text- 5$ can be thought of as _invalid_. however, instead of trying to compute the division straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expresion could end up being multiplied by an [[integer]] multiple of its denominator such as $10$, which makes it "valid" again: $2 \text- 5 \mid 10 = 4$. it turns out that doing so never results in an erroneous answer.
 
 similarly, dividing by a [[variable]] equal to zero can be thought of as _invalid_, or as _undefined_ in conventional [[mathematics]]. however, instead of trying to compute the division straight away, one can instead use this "invalid" expression as-is. after performing other operations such as substitution and simplification, the "invalid" expression could end up being multiplied by its denominator, which makes it "valid" again. for this [[improved-expression-evaluation]] to be valid, doing so must never results in an erroneous answer.
 
@@ -113,7 +115,7 @@ $1[\cdot -0] = \varnothing \ne 0$
 
 using the [[logarithm]] [[antiderivative]] rule, $\int 1 - x \mid \delta x = \lceil |x| \rceil : c\ x$. then, using the power [[antiderivative]] rule, $\int 1 - x \mid \delta x = \int x[\cdot 1] \mid \delta x = x[\theta] \text- \theta : c$. with $c = \cdot 1 - \theta$, we get $\lceil x \rceil = x[\theta] \cdot 1 - \theta$
 
-## exponents and square roots
+### exponents and square roots
 
 define $\lfloor x2 \rfloor = x$, but $\lfloor 4 \rfloor =\ \because 2$ &mdash; Kiera
 
@@ -158,6 +160,8 @@ $\lfloor 9 \rfloor = \varnothing$ (can be thought of as $\because 3$) just as $0
 I could not break this [[improved-expression-evaluation]]. it would be very hard to prove this system right using [[mathematics]], as it was built from the ground up on a slightly different kind of [[mathematics]]. with that said, a counterexample would be a simple way to prove this system wrong. none has been found yet.
 
 ### current rules
+
+might be incomplete or erroneous #think
 
 $\theta \to 0$
 

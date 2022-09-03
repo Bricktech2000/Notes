@@ -6,6 +6,18 @@ _a language for the next 40 years_
 
 &mdash; <https://youtu.be/PuMXWc0xrK0>
 
+**pros**
+
+- performance (no garbage collector, zero-cost [[abstraction]]s)
+- portability (compiles to LLVM bytecode which is widely supported)
+- stability (very strong backwards compatibility)
+- memory safety (done through the ownership and borrowing system)
+
+**cons**
+
+- simplicity (more features and more syntax than languages like [[c]])
+- ecosystem features (no standard, no LTS releases, no private crate hosting)
+
 ## safety features
 
 [[rust]] borrows many features from [[functional-programming]] and makes them easy to use. for instance, [[rust]] has `Option`s instead of [[null]] pointers, and it has `Result`s instead of `try catch` exceptions.
@@ -75,27 +87,29 @@ Rust ensures "surprising" behavior is clearly sign-posted:
 - lazy exception handling is sign-posted with an `unwrap()` call
 - anything that could cause a [[function]] to return early is sign-posted with the `!` or `?` operators
 
-### example
-
-below, the [[rust]] solution is just as unsafe as the [[python]] solution, but that anything unsafe is clearly sign-posted with an `.unwrap()` call
-
-```python
-int(items['ViewCount']['N'])
-```
-
-```rust
-i32::from_str_radix(
-  item.get("ViewCount").unwrap()
-      .get("N").unwrap(),
-  10
-).unwrap()
-```
+> **example**
+>
+> below, the [[rust]] solution is just as unsafe as the [[python]] solution, but that anything unsafe is clearly sign-posted with an `.unwrap()` call
+>
+> ```python
+> int(items['ViewCount']['N'])
+> ```
+>
+> ```rust
+> i32::from_str_radix(
+>   item.get("ViewCount").unwrap()
+>       .get("N").unwrap(),
+>   10
+> ).unwrap()
+> ```
 
 ## edition system
 
 for breaking changes (such as adding an `async` keyword), [[rust]] uses an edition system (such as the 2015 and 2018 editions), where the [[rust]] compiler understands all editions simultaneously. this means that a project written in any edition of [[rust]] can depend on a library written for any other edition of [[rust]], preventing ecosystem splits
 
-because of the way the compiler is currently built, maintenance to core [[rust]] functionality (such as borrow checking, optimization, code generation) is not affected:
+because of the way the compiler is currently built, maintenance to core [[rust]] functionality (such as borrow checking, optimization, code generation) is not affected.
+
+**representation**
 
 ```mermaid
 graph LR;
@@ -114,17 +128,3 @@ MIR --> LLVM_IR --> MACHINE_CODE
 ```
 
 &mdash; <https://youtu.be/A3AdN7U24iU?t=2009>
-
-## pros & cons
-
-pros:
-
-- performance (no garbage collector, zero-cost [[abstraction]]s)
-- portability (compiles to LLVM bytecode which is widely supported)
-- stability (very strong backwards compatibility)
-- memory safety (done through the ownership and borrowing system)
-
-cons:
-
-- simplicity (more features and more syntax than languages like [[c]])
-- ecosystem features (no standard, no LTS releases, no private crate hosting)

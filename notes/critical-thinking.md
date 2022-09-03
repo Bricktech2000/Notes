@@ -4,7 +4,7 @@ _the objective analysis and evaluation of an issue in order to form a judgment_ 
 
 used for backlink
 
-## counterexamples
+**examples** _examples of a lack of [[critical-thinking]]_
 
 [[religion]]
 

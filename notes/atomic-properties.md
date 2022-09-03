@@ -1,6 +1,6 @@
 # Atomic Properties
 
-see [[quantum-numbers]], [[orbital]]
+see [[quantum-numbers]], [[orbital]], [[atom]]
 
 ## Atomic Radius
 

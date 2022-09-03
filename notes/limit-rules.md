@@ -52,7 +52,7 @@ if $\lim_{x \to a} f\ x = \lim_{x \to a} h\ x = L$, then $\lim_{x \to a} g\ x = 
 
 _used to compute [[limit]]s in indeterminate forms using their [[derivative]]s_
 
-> **theorem**: let $f\ x$ and $g\ x$ be differentiable [[function]]s such that $\delta\ g\ x - \delta x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]]) in an open interval around $a$. if $\lim_{x \to a} f\ x - g\ x$ is a $0 - 0$ [[limit]] indeterminate form, then $\lim_{x \to a} f\ x - g\ x = \lim_{x \to a} \delta\ f\ x - \delta\ g\ x = \lim_{x \to a} (\delta\ f\ x - \delta x) - (\delta\ g\ x - \delta x)$
+> **theorem** let $f\ x$ and $g\ x$ be differentiable [[function]]s such that $\delta\ g\ x - \delta x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]]) in an open interval around $a$. if $\lim_{x \to a} f\ x - g\ x$ is a $0 - 0$ [[limit]] indeterminate form, then $\lim_{x \to a} f\ x - g\ x = \lim_{x \to a} \delta\ f\ x - \delta\ g\ x = \lim_{x \to a} (\delta\ f\ x - \delta x) - (\delta\ g\ x - \delta x)$
 
 intuitive explanation &mdash; <https://youtu.be/kfF40MiS7zA?t=734>
 
@@ -64,14 +64,16 @@ other [[limit]] indeterminate forms can be rewritten to use L'Hôpital's rule:
 - $[\infty]0$: $\lceil [\infty]0 \rceil \to 0 \lceil \infty \rceil \to 0 \mid \infty \to 0 - 0$
 - $[0]0$: $\lceil [0]0 \rceil \to 0 \lceil 0 \rceil \to 0 \mid \cdot \infty \to 0 - 0$
 
-### examples
+**examples**
 
-$\lim_{x \to \infty} x - 3[x]$
-
-$\lim_{x \to 0} \sin x \cdot x - [\sin x]3$
-
-$\lim_{x \to 0} \sin x \cdot x - [\sin x]3$
-
-$\lim_{x \to 0^+} \sin x \ln x$
-
-$\lim_{x \to \infty} [1 : 1 \text- x]x$
+> **example** _[[limit]]s that can be computed using L'Hôpital's rule_:
+>
+> $\lim_{x \to \infty} x - 3[x]$
+>
+> $\lim_{x \to 0} \sin x \cdot x - [\sin x]3$
+>
+> $\lim_{x \to 0} \sin x \cdot x - [\sin x]3$
+>
+> $\lim_{x \to 0^+} \sin x \ln x$
+>
+> $\lim_{x \to \infty} [1 : 1 \text- x]x$

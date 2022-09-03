@@ -89,3 +89,5 @@
 [[conspiracy-theory]]
 
 [[critical-thinking]]
+
+[[trick]]

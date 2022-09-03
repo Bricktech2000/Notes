@@ -2,9 +2,11 @@
 
 _a [[logic-circuit]] (or [[boolean]] [[function]]) that converts an $n$-bit binary number to a set of $2[n]$ outputs_
 
-## example
+see [[math-notation]], [[binary]]
 
-a _3-to-8 binary decoder_ can be represented by the following [[truth-table]]:
+**representation**
+
+as an example, a _3-to-8 binary decoder_ can be represented by the following [[truth-table]]:
 
 | Input | Output  |
 | ----- | ------- |
@@ -30,6 +32,6 @@ or more formally:
 | 1     | 1     | 0     | 0     | 0     | 0     | 0     | 0     | 0     | 1     | 0     |
 | 1     | 1     | 1     | 0     | 0     | 0     | 0     | 0     | 0     | 0     | 1     |
 
-and by the following [[logic-circuit]]
+and by the following [[logic-circuit]]:
 
 ![[20220427192937.png]]
