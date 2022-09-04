@@ -6,21 +6,23 @@ see [[logic-gate]], [[latch]], [[logic-circuit]]
 
 all [[latch]]es can be turned into [[flip-flop]]s and all [[flip-flop]]s can be turned into [[latch]]es
 
-## types
+---
+
+# Types of Flip-Flops
 
 &mdash; <https://en.wikipedia.org/wiki/Flip-flop_(electronics)>
 
-### SR Flip-Flip
+## SR Flip-Flip
 
 _set-reset flip-flop_
 
 not used as it has an undefined state
 
-### D Flip-Flop
+## D Flip-Flop
 
 _data flip-flop_
 
-[[truth-table]]
+**representation** _[[truth-table]]_
 
 | $CLK$          | $D$      | $Q$ | comment    |
 | -------------- | -------- | --- | ---------- |
@@ -28,11 +30,11 @@ _data flip-flop_
 | $\uparrow$     | 1        | 1   | data set   |
 | not $\uparrow$ | $\times$ | $Q$ | no change  |
 
-### JK Flip-Flop
+## JK Flip-Flop
 
 _same as SR flip-flop, but with undefined states removed_
 
-[[truth-table]]
+**representation** _[[truth-table]]_
 
 | $CLK$          | $J$      | $K$      | $Q$  | comment   |
 | -------------- | -------- | -------- | ---- | --------- |
@@ -42,11 +44,11 @@ _same as SR flip-flop, but with undefined states removed_
 | $\uparrow$     | 1        | 1        | $/Q$ | toggle    |
 | not $\uparrow$ | $\times$ | $\times$ | $Q$  | no change |
 
-### T Flip-Flop
+## T Flip-Flop
 
 _toggle flip-flop_
 
-[[truth-table]]
+**representation** _[[truth-table]]_
 
 | $CLK$          | $T$      | $Q$  | comment   |
 | -------------- | -------- | ---- | --------- |

@@ -2,7 +2,7 @@
 
 _a temperature-controlled metal and glass box_
 
-## costs of a car
+## Costs of a Car
 
 most people do not realize the actual cost of driving a [[car]] &mdash; <https://youtu.be/c2rI-5ZFW1E>
 

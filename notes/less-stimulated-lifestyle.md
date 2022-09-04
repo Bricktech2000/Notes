@@ -31,9 +31,9 @@ artificial stimulus is stimulus that wrongfully rewards us (think junk food, mov
 
 ### not a problem
 
-preferably avoid, but still allowed
+_preferably avoid, but still allowed_
 
-- music
+- music, unless it is [[lofi-music]] for [[environmental-dependency-of-learning]]
 - browsing [[social-media]]
 - watching TV
 - [[video-game]]s
@@ -41,16 +41,18 @@ preferably avoid, but still allowed
 
 ### with friction
 
-allowed, but friction imposed
+_allowed, but friction imposed_
 
-for example, each hour of use has to be preceded by half an hour of "doing nothing"
+> **example** _imposing friction_
+>
+> each hour of use must be preceded by half an hour of "doing nothing"
 
 - YouTube
 - Netflix
 
 ### prohibited
 
-entirely prohibited
+_entirely prohibited_
 
 - drugs, alcohol, porn, sex, etc.
 - junk food

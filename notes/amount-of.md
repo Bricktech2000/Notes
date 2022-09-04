@@ -1,6 +1,6 @@
 # Amount of
 
-> **AKA**: amount of substance
+> **AKA** amount of substance
 
 see [[math-notation]]
 

@@ -2,11 +2,11 @@
 
 see [[math-notation]]
 
-> **definition**: _Sleep inertia_ refers to the transitional state between sleep and wake, marked by impaired performance, reduced vigilance, and a desire to return to sleep. _"it sucks waking up"_
+**definition** _Sleep inertia_ refers to the transitional state between sleep and wake, marked by impaired performance, reduced vigilance, and a desire to return to sleep. _"it sucks waking up"_
 
 ## REM Sleep
 
-> **AKA**: Rapid Eye Movement Sleep
+> **AKA** Rapid Eye Movement Sleep
 
 the lightest level of [[sleep]] is known as _REM sleep_. this is the stage of [[sleep]] in which dreaming occurs.
 
@@ -26,7 +26,7 @@ understand that [[sleep]] quality is more important than [[sleep]] quantity
 
 noise, even if we might not realize it since we're unconscious, does affect [[sleep]] quality by decreasing the amount of deep REM [[sleep]] during the night. people can actually tell the difference between a quiet and noisy night. earplugs would be a possible solution.
 
-> **note**: noise is very detrimental to my sleep quality. whenever I have issues building a sleep cycle or whenever I constantly wake up groggy, the most common cause is the presence of noise during my sleep.
+> **note** noise is very detrimental to my sleep quality. whenever I have issues building a sleep cycle or whenever I constantly wake up groggy, the most common cause is the presence of noise during my sleep.
 
 ### sunlight
 

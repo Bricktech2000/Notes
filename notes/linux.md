@@ -2,15 +2,13 @@
 
 _a family of open-source Unix-like [[operating-system]]s based on the Linux kernel_
 
-## pros & cons
-
 > Linux is great when you're a power user and Linux-based systems are great when you program a lot
 >
 > if you don't identify with that, then it makes sense that Linux doesn't seem that desirable
 
 &mdash; me
 
-### advantages of Linux
+**pros**
 
 > - It's FOSS (free and open source) which means you can see all of the source code and make contributions
 > - 99% of servers run on it, so it's much easier for sysadmin to have the same OS on your local machine for testing and such

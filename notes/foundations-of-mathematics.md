@@ -1,6 +1,6 @@
 # Foundations of Mathematics
 
-### see
+**see**
 
 [[category-theory]]
 

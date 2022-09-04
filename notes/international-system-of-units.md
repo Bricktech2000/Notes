@@ -1,6 +1,6 @@
 # International System of Units
 
-> **AKA**: SI, SI system (pleonastically)
+> **AKA** SI, SI system (pleonastically)
 
 _the world's most widely used system of measurement_
 

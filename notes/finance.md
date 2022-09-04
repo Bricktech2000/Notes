@@ -4,7 +4,7 @@ _the management of large amounts of money_
 
 aka the useful slice of [[economics]]
 
-## see
+**see**
 
 [[life-long-investing]], [[car]] costs
 

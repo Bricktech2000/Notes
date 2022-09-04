@@ -6,7 +6,7 @@ see [[buffer]], [[equilibrium]], [[conventional-math-notation]]
 
 > when taking oxyanions ([[polyatomic-anion]]s containing oxygen), adding hydrogen in front and dissolving them in water, we create an [[acid-and-base]]
 
-_for [[chm1301-principles-of-chemistry]]_
+#example _for [[chm1301-principles-of-chemistry]]_
 
 - HCl (g): hydrogen chloride
 - HCl (aq): hydrochloric acid
@@ -19,14 +19,14 @@ _for [[chm1301-principles-of-chemistry]]_
 
 ## Conjugate [[acid-and-base]]s
 
-> In the Brønsted-Lowry definition of [[acid-and-base]]s, a conjugate [[acid]]-[[base]] pair consists of two substances that differ only by the presence of a proton (H⁺). A conjugate [[acid]] is formed when a proton is added to a [[base]], and a conjugate [[base]] is formed when a proton is removed from an [[acid]]. &mdash; Khan Academy
+**definition** In the Brønsted-Lowry definition of [[acid-and-base]]s, a _conjugate acid-base_ pair consists of two substances that differ only by the presence of a proton (H⁺). A conjugate [[acid]] is formed when a proton is added to a [[base]], and a conjugate [[base]] is formed when a proton is removed from an [[acid]]. &mdash; Khan Academy
 
-### example
-
-$NH_4^+ + CN^- \Harr NH_3 + HCN$
-
-- $CN^-$ is the conjugate [[base]] of the [[acid]] $HCN$
-- $NH_4^+$ is the conjugate [[acid]] of the [[base]] $NH_3$
+> **example**
+>
+> $NH_4^+ + CN^- \Harr NH_3 + HCN$
+>
+> - $CN^-$ is the conjugate [[base]] of the [[acid]] $HCN$
+> - $NH_4^+$ is the conjugate [[acid]] of the [[base]] $NH_3$
 
 ## pH and concentrations
 
@@ -38,25 +38,28 @@ $pH + pOH = 14$
 
 _dissociate completely_
 
-$[Acid] = [H^+]$ and $[Base] = [OH^-]$
+> **procedure**
+>
+> $[Acid] = [H^+]$ and $[Base] = [OH^-]$
 
 ### Weak [[acid-and-base]]s
 
 _dissociate partially_
 
-to determine $[H^+]$ from $[Acid]$ or $[OH^-]$ from $[Base]$, write down the conjugate equation with the equilibrium arrow
-
-then, use the right [[equilibrium]] constant $K_a$ or $K_b$ to calculate the [[concentration]]s ($K_a$ is used when an [[acid]] is dissociated and $K_b$ when a [[base]] is dissociated)
+> **procedure**
+>
+> to determine $[H^+]$ from $[Acid]$ or $[OH^-]$ from $[Base]$, write down the conjugate equation with the equilibrium arrow
+>
+> then, use the right [[equilibrium]] constant $K_a$ or $K_b$ to calculate the [[concentration]]s ($K_a$ is used when an [[acid]] is dissociated and $K_b$ when a [[base]] is dissociated)
 
 ### relation between $K_a$ and $K_b$ for conjugate species only
 
 see [[equilibrium]]
 
-$K_a = \frac{K_w}{K_b} \therefore K_b = \frac{K_w}{K_a}$
+$K_a = \frac{K_w}{K_b} \therefore K_b = \frac{K_w}{K_a}$, where
 
-where $K_a$ and $K_b$ are the [[acid]] and [[base]] dissociation constants, see [[equilibrium]]
-
-where $K_w$ is the dissociation constant of water, $1\times 10^{-14}$, see [[equilibrium]]
+- $K_a$ and $K_b$ are the [[acid]] and [[base]] dissociation constants, see [[equilibrium]]
+- $K_w$ is the dissociation constant of water, $1\times 10^{-14}$, see [[equilibrium]]
 
 ### Henderson-Hasselbalch equation
 

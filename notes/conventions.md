@@ -69,6 +69,7 @@ blockquotes added in new:
 - definition
 - types
 - properties
+- applications
 - pros
 - cons
 

@@ -2,28 +2,24 @@
 
 see [[wealth]], [[sunk-costs]]
 
-## goal
-
-study the following strategy:
+the goal of this note is to study the following strategy:
 
 > invest 20% of all currency earned
 
-## pros & cons
-
-### advantages of investing
+**pros** _advantages of investing_
 
 - prevents economic crises from affecting one’s net worth
 - takes advantage of compound interest from a young age
 - prevents the situation where it is hard save some of your money because your lifestyle is shaped around spending a certain amount of it. however, implementing this strategy from a young age will mean that you will never know what it's like to have the money you're investing, and so you will not miss it. in theory. see <https://youtu.be/eDa1U9qJKxo> for some more information
 
-### possible issues &mdash; with solutions
+**cons** _possible issues of investing &mdash; with solutions_
 
 - taxes &mdash; invest in a TFSA account (Canada-only)
 - age of majority &mdash; added reminder to open trading account when turning 18 &mdash; [[cryptocurrency]] does not require users to be 18
 - trading fees &mdash; Wealth Simple Trade has very low fees for long-term investments
 - [[inflation]] &mdash; ROI on index funds (see [[stock-market]]) are higher than inflation rates
 
-## notes
+## other notes
 
 - S&P 500 (made of the top 500 companies in the USA) seems like a promising index fund (see [[stock-market]])
 - VUG (Vanguard Growth Index Fund ETF) (or VIGAX (Vanguard Growth Index Fund Admiral Shares)) seems like a good higher-risk higher-reward alternative to S&P 500 (see [[stock-market]]) (see srcs)

@@ -6,6 +6,8 @@ see [[conventional-math-notation]]
 
 _use units to figure out what equations to use_
 
+#example
+
 ## example problem 1
 
 ![[2022-02-26-01-24-45.png]]

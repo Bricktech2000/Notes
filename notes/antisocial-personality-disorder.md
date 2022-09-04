@@ -4,11 +4,11 @@
 
 _one of the most unfortunately named [[mental-illness]]_
 
-> **note**: _antisocial_ in this context means _against society_ and **not** _socially awkward_ because of historical reasons
+> **note** _antisocial_ in this context means _against society_ and **not** _socially awkward_ because of historical reasons
 
 _[[antisocial-personality-disorder]]_ is the diagnostic term for [[mental-illness]]es often referred to as _[[psychopathy]]c-personality-disorder_ and _[[sociopathy]]c-personality-disorder_. [[psychopathy]] and [[sociopathy]] have a lot of overlap
 
-## symptoms
+## Symptoms
 
 people with an [[antisocial-personality-disorder]]
 
@@ -20,7 +20,7 @@ people with an [[antisocial-personality-disorder]]
 
 when someone with an [[antisocial-personality-disorder]] lacks remorse, they can be very dangerous
 
-## biological model
+## Biological Model
 
 &mdash; <https://youtu.be/gpjYtAB9i2w?t=3485>
 
@@ -32,7 +32,7 @@ consequences include:
 - research shows they have a lower resting heart rate
 - they can get into very dangerous thrill-seeking sports
 
-## treatment
+## Treatment
 
 people with an [[antisocial-personality-disorder]]
 

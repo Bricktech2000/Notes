@@ -1,6 +1,6 @@
 # Gross Domestic Product
 
-> **AKA**: GDP
+> **AKA** GDP
 
 see [[economy]], [[productivity]], [[math-notation]], [[conventional-math-notation]]
 
@@ -16,11 +16,11 @@ the GPD includes:
 - only [[goods-and-services]] that are currently produced (for instance, buying a used car would not count towards a country’s GDP)
 - only [[goods-and-services]] within the geographic area of a country (not the citizenship of workers or owners, for instance)
 
-> **note**: some products are excluded due to a difficult measurement
+> **note** some products are excluded due to a difficult measurement
 
 the GDP measures all items above within a specific [[time]] interval, usually one year or one quarter
 
-## pros & cons
+**cons**
 
 GDP has some disadvantages. here are a examples of items contributing to well-being that are left out of GDP:
 
@@ -40,15 +40,15 @@ if total spending rises from one year to the next, one of two things must be tru
 
 in [[economics]], we want to separate these two effects using the **Real GDP**
 
-> **definition**: _Nominal GDP_ is the production of [[goods-and-services]] valued at **current prices**
+**definition** _Nominal GDP_ is the production of [[goods-and-services]] valued at **current prices**
 
-> **definition**: _Real GDP_ is the production of [[goods-and-services]] valued at **constant prices** (adjusted for [[inflation]], which is a better measure of economic well-being)
+**definition** _Real GDP_ is the production of [[goods-and-services]] valued at **constant prices** (adjusted for [[inflation]], which is a better measure of economic well-being)
 
 ## GDP Deflator
 
 see [[conventional-math-notation]]
 
-> **definition**: the _GDP Deflator_ is a measure of the price level as the ratio of nominal GDP to real GDP
+**definition** the _GDP Deflator_ is a measure of the price level as the ratio of nominal GDP to real GDP
 
 GDP Deflator = Nominal GDP / Real GDP
 
@@ -68,10 +68,10 @@ _calculating the GDP using the Expenditure approach_
 
 GDP = Consumption + Investment + Government Spending + Net Exports
 
-> **definition**: _Consumption_ is spending by households on good and services, with the exception of purchases of new housing
+**definition** _Consumption_ is spending by households on good and services, with the exception of purchases of new housing
 
-> **definition**: _Investment_ is spending on capital equipment, inventories, and structures, including household purchases of new housing
+**definition** _Investment_ is spending on capital equipment, inventories, and structures, including household purchases of new housing
 
-> **definition**: _Government Spending_ is spending on [[goods-and-services]] by local, territorial, provincial, and federal governments
+**definition** _Government Spending_ is spending on [[goods-and-services]] by local, territorial, provincial, and federal governments
 
-> **definition**: _Net Exports_ is the value of a nation’s exports minus the value of its imports. **AKA**: Trade Balance
+**definition** _Net Exports_ is the value of a nation’s exports minus the value of its imports. **AKA** Trade Balance

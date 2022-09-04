@@ -40,7 +40,11 @@ below are some useful equivalences.
 - `2-3` is one's first cousin once removed
 - `3-3` is one's **second cousin**
 
-## benefits
+## pros & cons
+
+**pros**
+
+#todo rename all "benefits" to "pros" and all "limits" to "cons"
 
 see [[math-notation]]
 
@@ -51,6 +55,6 @@ let $m$ and $n$ be the two numbers representing the [[distance]] between two peo
 - the larger $m : n$, the further away the people are
 - the larger $|m \cdot n|$, the greater age difference between the people
 
-## limits
+**cons**
 
 - dumb vocabulary already exists to describe the relationship between two people in a family, so getting the general public on board is not an easy task

@@ -6,7 +6,7 @@ see [[combinatory-logic]], [[recursion]]
 
 used for backlinks
 
-## properties
+**properties**
 
 [[lambda-calculus]] and [[turing-machine]]s are equivalent
 
@@ -16,9 +16,9 @@ used for backlinks
 
 [[lambda-calculus]] is the basis for most [[functional-programming]] languages
 
-## booleans in lambda calculus
+## Church Booleans
 
-[[boolean]] values and [[boolean-logic]] [[operator]]s can be defined as follows (Church Booleans):
+[[boolean]] values and [[boolean-logic]] [[operator]]s can be defined as follows:
 
 $\text{true} = \lambda x.\ \lambda y.\ x$
 
@@ -36,11 +36,11 @@ $\text{or} = \lambda p.\ \lambda q.\ q\ p\ q$
 
 &mdash; <https://en.wikipedia.org/wiki/Lambda_calculus#Logic_and_predicates>
 
-## iteration in lambda calculus
+## Iteration in Lambda Calculus
 
 [[iteration]] is defined as $(\lambda x.\ x\ x) (\lambda x.\ x\ x)$. evaluating this [[function]] call once yields itself. this definition is equivalent to $\operatorname{rec} \lambda x.\ x$, see [[recursion]] &mdash; <https://youtu.be/9T8A89jgeTI?t=544>
 
-## [[recursion]] in [[lambda-calculus]]
+## Recursion in Lambda Calculus
 
 general [[recursion]] in [[lambda-calculus]] can be defined using the [[combinatory-logic]] Y combinator
 

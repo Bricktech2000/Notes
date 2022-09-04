@@ -2,6 +2,4 @@
 
 used for backlinks
 
-resources:
-
-<https://youtu.be/PZ7lDrwYdZc>
+resources: <https://youtu.be/PZ7lDrwYdZc>

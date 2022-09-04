@@ -2,7 +2,7 @@
 
 _used to build a [[programming-language]]_
 
-## types
+**types**
 
 Hand-written [[parser]]s
 

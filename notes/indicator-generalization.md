@@ -4,18 +4,18 @@
 
 [[indicator-generalization]] is the process of generalizing _indicators_, which allows people to make deductions about other people.
 
-> **definition**: _indicators_ are generalizable cues observed in people. &mdash; me
+**definition** _indicators_ are generalizable cues observed in people. &mdash; me
 
-indicators include:
+> **examples**
+>
+> - the brand of one's smart phone
+> - one's use of a specific [[operating-system]]
+> - the brand of clothes one wears
+> - one's ownership of a diploma
+> - the make of one's car
+> - one's grades or the school one attends
 
-- the brand of one's smart phone
-- one's use of a specific [[operating-system]]
-- the brand of clothes one wears
-- one's ownership of a diploma
-- the make of one's car
-- one's grades or the school one attends
-
-> **note**: indicators seem similar to _proxies_ &mdash; <https://youtu.be/0Z9RW_hhUT4>
+> **note** indicators seem similar to _proxies_ &mdash; <https://youtu.be/0Z9RW_hhUT4>
 
 ## examples and consequences
 
@@ -39,4 +39,4 @@ indicator overgeneralization seems to occur to certain people more than others.
 
 scratch that; indicator overgeneralization seems to occur at the outermost regions of a metaphorical bell curve
 
-scratch that too; indicator overgeneralization seems to be an issue around the outermost regions of the bell curve. see [[intelligence]]
+scratch that too; indicator overgeneralization seems to be an issue around the outermost regions of the bell curve

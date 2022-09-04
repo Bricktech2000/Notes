@@ -10,15 +10,19 @@ gated [[latch]]es are _level-triggered_ whereas [[flip-flop]]s are _edge-trigger
 
 all [[latch]]es can be converted to gated [[latch]]es with an _enable_ input
 
-## types
+---
+
+# Types of Latches
 
 &mdash; <https://en.wikipedia.org/wiki/Flip-flop_(electronics)>
 
-circuit diagrams &mdash; <https://www.javatpoint.com/latches-in-digital-electronics>
+[[logic-circuit]] diagrams &mdash; <https://www.javatpoint.com/latches-in-digital-electronics>
 
-### SR Latch
+## SR Latch
 
 _set-reset latch_
+
+**representation** _[[truth-table]]_
 
 | $S$ | $R$ | $Q$      | comment   |
 | --- | --- | -------- | --------- |
@@ -27,17 +31,17 @@ _set-reset latch_
 | 1   | 0   | 1        | set       |
 | 1   | 1   | $\times$ | undefined |
 
-[[logic-circuit]]
+**representation** _[[logic-circuit]]_
 
 ![[20220427161726.png]]
 
-> **note**: SR latches can also be built using NAND [[logic-gate]]s
+> **note** SR latches can also be built using NAND [[logic-gate]]s
 
-### D Latch
+## D Latch
 
 _data latch, gated by default_
 
-[[truth-table]]
+**representation** _[[truth-table]]_
 
 | $E$ | $D$      | $Q$ | comment    |
 | --- | -------- | --- | ---------- |
@@ -45,15 +49,15 @@ _data latch, gated by default_
 | 1   | 0        | 0   | data reset |
 | 1   | 1        | 1   | data set   |
 
-[[logic-circuit]]
+**representation** _[[logic-circuit]]_
 
 ![[20220427161914.png]]
 
-### JK Latch
+## JK Latch
 
 _same as SR latch, but with undefined states removed_
 
-[[truth-table]]
+**representation** _[[truth-table]]_
 
 | $J$ | $K$ | $Q$  | comment   |
 | --- | --- | ---- | --------- |
@@ -62,11 +66,11 @@ _same as SR latch, but with undefined states removed_
 | 1   | 0   | 1    | set       |
 | 1   | 1   | $/Q$ | toggle    |
 
-[[logic-circuit]]
+**representation** _[[logic-circuit]]_
 
 ![[20220427162006.png]]
 
-### T Latch
+## T Latch
 
 _toggle latch_
 

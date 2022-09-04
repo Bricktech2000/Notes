@@ -2,8 +2,8 @@
 
 _the "default" way to program_
 
-> **AKA**: imperative programming
+> **AKA** imperative programming
 
-## properties
+**properties**
 
 [[procedural-programming]] is both _procedural_ and _imperative_, see [[programming-paradigm]]

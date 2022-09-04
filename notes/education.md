@@ -2,9 +2,9 @@
 
 see [[math-notation]]
 
-> the social institution responsible for the systematic transmission of knowledge, skills and cultural values within a formally organized structure
+**definition** _education_ is the social institution responsible for the systematic transmission of knowledge, skills and cultural values within a formally organized structure
 
-> **definition**: _cultural transmission_ is the process by which children and recent immigrants become acquainted with the dominant cultural beliefs, values, norms and accumulated knowledge of a society, through _informal_ and _formal_ education.
+**definition** _cultural transmission_ is the process by which children and recent immigrants become acquainted with the dominant cultural beliefs, values, norms and accumulated knowledge of a society, through _informal_ and _formal_ education.
 
 ## Mass Education
 

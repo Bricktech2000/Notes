@@ -6,7 +6,7 @@ see [[finding-sources]]
 
 _often regarded as highly reliable_
 
-### downsides
+**cons**
 
 - mistakes can still slip by: whenever judgement takes place, mistakes can be overlooked
 - fabricated data is hard to identify: fabricated data sometimes can only be identified by reproducing an experiment

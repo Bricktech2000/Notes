@@ -2,7 +2,7 @@
 
 _an introduction into mathematical thinking_
 
-## see
+**see**
 
 [[proof]]
 

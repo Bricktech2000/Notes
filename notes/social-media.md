@@ -1,6 +1,6 @@
 # Social Media
 
-## consequences
+**cons**
 
 &mdash; <https://youtu.be/lQ00Nii5gfE>
 

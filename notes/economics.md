@@ -2,7 +2,7 @@
 
 _the study of how society manages its [[scarce-resource]]s_
 
-## see
+**see**
 
 [[economy]]
 

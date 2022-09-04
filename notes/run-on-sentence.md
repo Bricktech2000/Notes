@@ -1,3 +1,3 @@
 # Run-on Sentence
 
-> A run-on sentence results from two or more sentences being connected without any punctuation. &mdash; <https://msvu.ca>
+**definition** A _run-on sentence_ results from two or more sentences being connected without any punctuation. &mdash; <https://msvu.ca>

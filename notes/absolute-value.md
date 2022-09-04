@@ -4,15 +4,11 @@ absolute values can be defined as a [[piecewise-function]]
 
 see [[math-notation]]
 
-## Absolute Value Equality
+> **procedure** _solving an absolute value equality_ solve by cases
 
-solve by cases
+> **procedure** _solving an absolute value inequality_ solve using properties
 
-## Absolute Value Inequality
-
-solve using properties below
-
-### properties
+**properties**
 
 $|x| \le t \equiv \cdot t \le x \le t$
 

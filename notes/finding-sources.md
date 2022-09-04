@@ -1,5 +1,7 @@
 # Finding Sources
 
+#todo combine this note with [[type-of-source]] and [[reliable-source]]?
+
 ## Libraries and Databases
 
 uOttawa library: <https://biblio.uottawa.ca/en>

@@ -6,20 +6,20 @@ _extended Backus-Naur form_
 
 &mdash; <https://youtu.be/4m7ubrdbWQU?t=365>
 
-## example
-
-```ebnf
-Program
-  : StatementList
-  ;
-
-Statement
-  : BlockStatement
-  | IfStatement
-  | FunctionDeclaration
-  ;
-
-FunctionDecleration
-  : def Identifier ( Arguments ) BlockStatement
-  ;
-```
+> **example**
+>
+> ```ebnf
+> Program
+>   : StatementList
+>   ;
+>
+> Statement
+>   : BlockStatement
+>   | IfStatement
+>   | FunctionDeclaration
+>   ;
+>
+> FunctionDecleration
+>   : def Identifier ( Arguments ) BlockStatement
+>   ;
+> ```

@@ -6,9 +6,9 @@
 
 &mdash; <https://youtu.be/2mHsTKvAuZc>
 
-## pros & cons
+**pros**
 
-### advantages of credit cards over debit cards
+_advantages of credit cards over debit cards_
 
 - [[credit-card]]s allow for small loans without having to go to the [[bank]]
 - debit cards are essentially non-revolving credit cards, which means that their interchange fees could end up being higher as those fees are their only source of revenue
@@ -17,7 +17,7 @@
 - [[credit-card]]s can be used to build a good credit score, which makes getting a large loan at the [[bank]] easier
 - debit cards don't have the same perks as [[credit-card]]s
 
-### other advantages of credit cards
+_other advantages of [[credit-card]]s_
 
 - more efficient than cash, checks, in-store credit
 - better fraud protection (often done through the use of AI)
