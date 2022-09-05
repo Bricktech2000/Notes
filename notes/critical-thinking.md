@@ -11,3 +11,5 @@ used for backlink
 [[conspiracy-theory]]
 
 after watching this video <https://youtu.be/yjztvddhZmI>, it can seem like self-driving [[car]]s are great. however, when analyzing the video using [[critical-thinking]], a different conclusion can emerge <https://youtu.be/CM0aohBfUTc>. I personally fell pray to Veritasium's video
+
+gambling, where players believe they are [[learn]]ing patters even though no such patterns exist

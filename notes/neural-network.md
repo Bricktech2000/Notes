@@ -2,6 +2,8 @@
 
 see [[linear-algebra]], [[optimization]], [[probability]]
 
+see [[learn]]
+
 ## see
 
 [[forward-propagation]]

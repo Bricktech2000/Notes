@@ -392,3 +392,17 @@ $\mathbb N x \vDash \mathbb R x$
 $0\ \#\ /f$
 
 $x \to \mathbb N x \vdash \mathbb R x$
+
+---
+
+- feedback that is a function of the inputs
+
+&nbsp;
+
+- effort to learn (deliberate practice, "active learning")
+- many repetitions
+- timely feedback
+
+large dataset
+
+adjusting weights

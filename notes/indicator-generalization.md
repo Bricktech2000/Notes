@@ -4,16 +4,16 @@
 
 [[indicator-generalization]] is the process of generalizing _indicators_, which allows people to make deductions about other people.
 
-**definition** _indicators_ are generalizable cues observed in people. &mdash; me
+**definition** _indicators_ are generalizable cues observed in people &mdash; me
 
 > **examples**
 >
-> - the brand of one's smart phone
-> - one's use of a specific [[operating-system]]
-> - the brand of clothes one wears
-> - one's ownership of a diploma
-> - the make of one's car
-> - one's grades or the school one attends
+> - the brand of someone's smart phone
+> - someone using a specific [[operating-system]]
+> - the brand of clothes someone wears
+> - someone owning a degree
+> - the make of someone's car
+> - someone's grades or the school someone attends
 
 > **note** indicators seem similar to _proxies_ &mdash; <https://youtu.be/0Z9RW_hhUT4>
 

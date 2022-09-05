@@ -50,7 +50,7 @@
 
 [[options-market]]
 
-[[self-taught-software-engineer]]
+[[self-taught-software-developer]]
 
 [[public-speaking]]
 

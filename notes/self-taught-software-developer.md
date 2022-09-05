@@ -1,8 +1,8 @@
-# Self-Taught Software Engineer
+# Self-Taught Software Developer
 
 ## Online Visibility
 
-online visibility is very important for [[self-taught-software-engineer]]s
+online visibility is very important for [[self-taught-software-developer]]s
 
 - [x] have an up-to-date Linkedin profile
 - [x] upload all work to Github and keep it well documented
@@ -29,7 +29,7 @@ online visibility is very important for [[self-taught-software-engineer]]s
 
 ## Portfolio
 
-[[self-taught-software-engineer]]s need a great portfolio as they do not have a degree to back their skills up
+[[self-taught-software-developer]]s need a great portfolio as they do not have a degree to back their skills up
 
 - [x] have a good readme for projects
 - [ ] make projects interactive
