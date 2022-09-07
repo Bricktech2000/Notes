@@ -1,5 +1,7 @@
 # Normal Vector
 
+#todo rephrase this note
+
 symbol: $n$
 
 a [[vector]] perpendicular to a plane

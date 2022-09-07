@@ -1,6 +1,6 @@
 # Pure Mathematics
 
-## see
+**see**
 
 [[linear-algebra]]
 

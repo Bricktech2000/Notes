@@ -23,3 +23,9 @@
 [[mat1341-d-introduction-to-linear-algebra]]
 
 [[eco1102-h-introduction-to-macroeconomics]]
+
+## Year 2 Semester 1
+
+[[seg2905-b-introduction-to-software-engineering]]
+
+[[mat1320-c-calculus-i]]

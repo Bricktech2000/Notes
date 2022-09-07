@@ -2,7 +2,7 @@
 
 see [[function]] extremum, [[math-notation]]
 
-> Practically, [[function]] [[optimization]] describes a class of problems for finding the input to a given [[function]] that results in the minimum or maximum output from the [[function]]. &mdash; machinelearningmastery.com
+Practically, [[function]] [[optimization]] describes a class of problems for finding the input to a given [[function]] that results in the minimum or maximum output from the [[function]]. &mdash; machinelearningmastery.com
 
 ## method
 

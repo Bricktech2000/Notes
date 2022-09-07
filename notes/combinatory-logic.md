@@ -10,9 +10,11 @@ _allows for [[recursion]] in [[lambda-calculus]]_
 
 _used to formally define recursive [[function]]s in a [[functional-programming]] language that does not support [[recursion]]_
 
-in [[lambda-calculus]]: $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
+**definition**
 
-in my [[math-notation]]: $Y = f \rightarrow (x \rightarrow f\ (x\ x))\ (x \rightarrow f\ (x\ x))$
+_in [[lambda-calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
+
+_in my [[math-notation]]_ $Y = f \rightarrow (x \rightarrow f\ (x\ x))\ (x \rightarrow f\ (x\ x))$
 
 > "it's not recursive but it encodes [[recursion]]" &mdash; <https://youtu.be/9T8A89jgeTI?t=678>
 
@@ -22,11 +24,13 @@ in my [[math-notation]]: $Y = f \rightarrow (x \rightarrow f\ (x\ x))\ (x \right
 
 _the [[composition]] of its arguments_
 
-> **AKA**: `(.)` in Haskell, "bluebird"
+> **AKA** `(.)` in Haskell, "bluebird"
 
-in [[lambda-calculus]] notation: $B = \lambda fgx.\ f\ (g\ x)$
+**definition**
 
-in my [[math-notation]]: $B = f\ g\ x \rightarrow f\ (g\ x)$
+_in [[lambda-calculus]]_ $B = \lambda fgx.\ f\ (g\ x)$
+
+_in my [[math-notation]]_ $B = f\ g\ x \rightarrow f\ (g\ x)$
 
 &mdash; <https://youtu.be/SmXB2K_5lcA?t=612>
 
@@ -34,18 +38,24 @@ in my [[math-notation]]: $B = f\ g\ x \rightarrow f\ (g\ x)$
 
 _swaps the arguments to a function_
 
-in my [[math-notation]]: $C = f\ x\ y \rightarrow f\ y\ x$
+**definition**
+
+_in my [[math-notation]]_ $C = f\ x\ y \rightarrow f\ y\ x$
 
 ## K Combinator
 
 _discards the second argument_
 
-in my [[math-notation]]: $K = f\ x\ y \rightarrow f\ x$
+**definition**
+
+_in my [[math-notation]]_ $K = f\ x\ y \rightarrow f\ x$
 
 ## W Combinator
 
 _duplicates the second argument_
 
-> **AKA**: 'commute' in APL
+> **AKA** 'commute' in APL
 
-in my [[math-notation]]: $W = f\ x\ y \rightarrow f\ x\ y\ y$
+**definition**
+
+_in my [[math-notation]]_ $W = f\ x\ y \rightarrow f\ x\ y\ y$

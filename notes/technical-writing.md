@@ -1,10 +1,10 @@
 # Technical Writing
 
-## examples
+> **example**
+>
+> [[eng1112-report-2]]
 
-[[eng1112-report-2]]
-
-## see
+**see**
 
 [[problematic-practice]]
 

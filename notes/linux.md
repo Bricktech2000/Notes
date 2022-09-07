@@ -15,7 +15,7 @@ _a family of open-source Unix-like [[operating-system]]s based on the Linux ke
 > - All of the CLI tools are mostly for it or are better on it
 > - It can be updated without rebooting it on servers for better up-time
 > - It allows you to customize your desktop environment, window manager, etc.
-> - It can be installed on lightweight computers because it's smaller and requires less system resources (this is why ChromeOS and Android use it as a base)
+> - It can be installed on lightweight computers because it's smaller and requires less system resources (this is why ChromeOS and [[android]] use it as a base)
 > - It is often installed on IoT devices (e.g. on your toaster oven) because of the above
 > - It's faster in a lot of cases
 > - It's often used by pentesters and hackers because there are more tools available on Linux (specifically Kali Linux)

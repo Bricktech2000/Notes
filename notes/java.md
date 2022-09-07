@@ -8,7 +8,7 @@ see [[object-oriented-programming]], [[object]], [[class]]
 
 see [[java-primitive]], [[java-reference]], [[java-wrapper]], [[java-auto-boxing]]
 
-## Hello World
+## Java Hello World
 
 ```java
 public class HelloWorld {

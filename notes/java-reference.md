@@ -1,12 +1,12 @@
 # Java Reference
 
-### examples of reference [[type]]s
-
-```java
-String, Array
-```
-
-or all other user-defined classes
+> **examples** _reference types_
+>
+> ```java
+> String, Array
+> ```
+>
+> all other user-defined classes are [[java-reference]]s
 
 > **note**: in java, pointers to reference [[type]]s in the heap are stored on the [[stack]]
 

@@ -2,7 +2,7 @@
 
 &mdash; <https://youtu.be/OmJ-4B-mS-Y>
 
-## see
+**see**
 
 [[pure-mathematics]]
 

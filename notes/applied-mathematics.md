@@ -1,6 +1,6 @@
 # Applied Mathematics
 
-## see
+**see**
 
 [[probability]]
 

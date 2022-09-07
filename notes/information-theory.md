@@ -1,6 +1,6 @@
 # Information Theory
 
-## see
+**see**
 
 [[compression]]
 

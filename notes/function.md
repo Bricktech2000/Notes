@@ -9,6 +9,8 @@ a [[function]] $\mathcal F$ between [[set]]s $A$ and $B$ is a [[relation]] betwe
 1.  $\mathcal F\ (a, b) \land B\ b \dashv A\ a$ or alternatively $B\ f\ a \dashv A\ a$ &mdash; there is some output for every single input
 2.  $\mathcal F\ (a, b_1) \land \mathcal F\ (a, b_2) \vdash b_1 = b_2$ or alternatively $a_1 = a_2 \vdash f\ a_1 = f\ a_2$ &mdash; there is exactly one output for any input
 
+one can use the _horizontal line test_ to determine whether the graph of a curve is the graph of a [[function]]
+
 **types**
 
 [[boolean]] [[function]]

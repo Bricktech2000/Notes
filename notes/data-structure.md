@@ -1,5 +1,9 @@
 # Data Structure
 
+**types**
+
+[[persistent-data-structure]]
+
 ## examples
 
 [[stack]]
@@ -7,7 +11,3 @@
 [[queue]]
 
 [[linked-list]]
-
-## properties
-
-[[persistent-data-structure]]

@@ -28,7 +28,11 @@ _continue below_
 
 given that all the vectors forming that plane must be perpendicular to a [[normal-vector]],
 
-$n\ \dot\mid\ P \cdot p_0 = 0$, where $n$ is a [[normal-vector]], $p_0$ is a point on the plane and $P$ is the plane itself, see [[dot-product]]
+$n\ \dot\mid\ P \cdot p_0 = 0$, where
+
+- $n$ is a [[normal-vector]]
+- $p_0$ is a point on the plane
+- $P$ is the plane itself, see [[dot-product]]
 
 _continue below_
 

@@ -14,6 +14,6 @@ Windows
 
 MacOS
 
-Android
+[[android]]
 
 ChromeOS

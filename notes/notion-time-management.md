@@ -4,7 +4,7 @@
 
 used for events that generally happen within a single day (friend meetups, classes, etc.)
 
-> **filter**:
+> **filter**
 >
 > - _where_
 >   - _where_ Status is not Completed
@@ -15,12 +15,12 @@ used for events that generally happen within a single day (friend meetups, class
 >   - _or_ START_DATE is within the next week
 >   - _or_ Status is Next Up, Work On
 
-> **sort**:
+> **sort**
 >
 > 1. Status ascending
 > 2. DDONE_OVER_DT descending
 
-> **properties**:
+> **properties**
 >
 > 1. Category
 > 2. Name
@@ -31,7 +31,7 @@ page load limit: 100
 
 used for long-term events (assignments, reports, deadlines, etc.). allows me to have a global view of everything going on at a glance
 
-> **filter**:
+> **filter**
 >
 > - _where_
 >   - _where_ Status is not Completed
@@ -40,12 +40,12 @@ used for long-term events (assignments, reports, deadlines, etc.). allows me to 
 >   - _where_ Repeat is empty
 >   - _or_ Repeat > 0
 
-> **sort**:
+> **sort**
 >
 > 1. Status ascending
 > 2. DDONE_OVER_DT descending
 
-> **properties**:
+> **properties**
 >
 > 1. Category
 > 2. Name
@@ -56,29 +56,41 @@ page load limit: 100
 
 used for tasks that don't have a clear deadline. sorted in categories (see _Status_ property)
 
-### filter
-
-> **filter**:
+> **filter**
 >
 > - _where_ Status is not empty
 
-> **sort**:
+> **sort**
 >
 > (no sort, does not sort events automatically)
 
-> **properties**:
+> **properties**
 >
 > 1. Category
 > 2. Name
 > 3. END_DATE
 
-> **group by**: Status
+> **group by** Status
 
 page load limit: 100
 
+## Calendar View
+
+> **filter**
+>
+> - _where_ Status is Completed
+> - _and_
+>   - _where_ Category is not empty
+>   - _or_ Date is empty
+
+> **properties**
+>
+> 1. Category
+> 2. Name
+
 ## Pages
 
-> **properties**:
+> **properties**
 >
 > 1. Category
 > 2. Status
@@ -90,11 +102,11 @@ page load limit: 100
 
 ### Name
 
-> **type**: Title
+> **type** Title
 
 ### Category
 
-> **type**: Multiselect
+> **type** Multiselect
 
 - Social (blue)
 - Personal (blue)
@@ -120,7 +132,7 @@ page load limit: 100
 
 ### Status
 
-> **type**: Select
+> **type** Select
 
 - Work On (blue)
 - (no status)
@@ -134,23 +146,27 @@ page load limit: 100
 
 ### Date
 
-> **type**: Date
+> **type** Date
 
 ### Repeat
 
-> **type**: Number
+> **type** Number
 
 ### URL
 
-> **type**: URL
+> **type** URL
 
-### CREATED_AT
+### CREATED_DATE
 
-> **type**: Created time
+> **type** Created time
+
+### LAST_EDITED_DATE
+
+> **type** Last edited time
 
 ### START_DATE
 
-> **type**: Formula
+> **type** Formula
 
 ```jsx
 if (not empty(abs(prop("Repeat"))),
@@ -173,7 +189,7 @@ if (not empty(abs(prop("Repeat"))),
 
 ### END_DATE
 
-> **type**: Formula
+> **type** Formula
 
 ```jsx
 if (not empty(abs(prop("Repeat"))),
@@ -196,7 +212,7 @@ if (not empty(abs(prop("Repeat"))),
 
 ### DDONE_OVER_DT
 
-> **type**: Formula
+> **type** Formula
 
 see [[math-notation]]
 

@@ -1,6 +1,6 @@
 # Operator
 
-## see
+**see**
 
 operators in [[boolean-logic]]
 

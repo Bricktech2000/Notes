@@ -10,6 +10,6 @@ it is decentralized, meaning that a node going offline will not have any effect 
 
 ## Coin VS Token
 
-[[cryptocurrency]] coins have their own [[blockchain]]. they are comparable to [[money]]
+_[[cryptocurrency]] coins_ have their own [[blockchain]]. they are comparable to [[money]]
 
-[[cryptocurrency]] tokens are built on a coin's [[blockchain]]. they are comparable to securities, shares, tickets, and so on. they cannot be mined and their supply is known in advance
+_[[cryptocurrency]] tokens_ are built on a coin's [[blockchain]]. they are comparable to securities, shares, tickets, and so on. they cannot be mined and their supply is known in advance
