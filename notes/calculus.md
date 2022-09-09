@@ -1,6 +1,6 @@
 # Calculus
 
-## see
+**see**
 
 [[calculus-notation]]
 

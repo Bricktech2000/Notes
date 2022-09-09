@@ -20,4 +20,8 @@ how will the teams be formed? &mdash; students can form their own teams, and the
 
 ## Class Notes
 
+[[software-engineering]]
+
+[[engineering-requirement]]s
+
 **related**
