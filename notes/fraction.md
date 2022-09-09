@@ -6,7 +6,7 @@ see [[math-notation]]
 
 **definition**
 
-_a fraction that is not an integer_
+_a [[rational]] that is not an integer_
 
 $\mathbb Q\ /\ \mathbb Z$
 

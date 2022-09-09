@@ -71,13 +71,19 @@ $D\ x \dashv A\ f\ x$
 
 _an even function is symmetrical about the y axis_
 
-**definition** $f x = f (\cdot x) \dashv \mathbb R x$
+**definition** $f\ x = f\ (\cdot x) \dashv \mathbb R x$
 
 ### Odd Function
 
 _an odd function is symmetrical about the y axis, but also flipped about the x axis_
 
-**definition** $\cdot f x = f (\cdot x) \dashv \mathbb R x$
+**definition** $\cdot f\ x = f\ (\cdot x) \dashv \mathbb R x$
+
+## Periodic Function
+
+**definition** $f\ x = f\ (x : p) \land \mathbb R p \dashv \mathbb R x$
+
+**definition** above, $p$ is said to be the _period_ of $f$
 
 ## Increasing and Decreasing Functions
 

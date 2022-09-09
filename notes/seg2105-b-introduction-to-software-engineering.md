@@ -8,7 +8,7 @@ prof email: <welah096@uottawa.ca>
 
 open-access tutorials and labs (we don't have to attend the lab / tutorial section we registered for)
 
-will work on [[android]] application during labs in groups of 4 to 5 people that connects people with chefs who cook at home based on various criteria. labs cannot be done alone; they must be done in teams to prepare us for the workplace
+will work on [[android]] application during labs in groups of 4 to 5 people that connects users with chefs who cook at home based on various criteria. labs cannot be done alone; they must be done in teams "to prepare us for the workplace"
 
 don't have to attend labs but have to submit work
 

@@ -30,7 +30,7 @@ even and odd [[function]]s
 
 [[vector-in-rn]]
 
-[[plane-in-r3]], [[line-in-r3]]
+[[plane-in-r3]], [[line-in-rn]]
 
 **related**
 

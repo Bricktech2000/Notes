@@ -2,9 +2,10 @@
 
 **definition**
 
-$p = a_0x_0 : \dots a_nx_n \land \mathbb N n \land (\mathbb R a_n \dashv \mathbb N n)$, where
+$p = a_0x[0] : \dots a_nx[n] \land \mathbb N n \land (\mathbb R a_n \dashv \mathbb N n)$, where
 
 - $p$ is a [[polynomial]]
+- $a_0, \dots, a_n$ are the coefficients
 
 ## Vector Space Axioms
 

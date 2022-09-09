@@ -32,8 +32,8 @@ see [[vector]], [[vector-in-rn]], [[matrix]], [[math-notation]], [[basis]]
 > below are examples of [[vector-space]]s
 >
 > - any [[plane-in-r3]] through the origin is a subspace of $\mathbb R^3$
-> - any [[line-in-r3]] through the origin is a subspace of $\mathbb R^3$ (same with $\mathbb R^2$)
-> - any [[line-in-r3]] or [[plane-in-r3]] that does _not_ go through the origin is not a subspace of $\mathbb R^3$
+> - any [[line-in-rn]]3 through the origin is a subspace of $\mathbb R^3$ (same with $\mathbb R^2$)
+> - any [[line-in-rn]]3 or [[plane-in-r3]] that does _not_ go through the origin is not a subspace of $\mathbb R^3$
 > - $\mathbb R^n \vdash \mathbb R^n \dashv \mathbb N n$ ($\mathbb R^n$ is a subspace of $\mathbb R^n$)
 > - $(V v \equiv v^i = 0 \dashv \mathbb N i \land i \le n) \vdash \mathbb R^n \dashv \mathbb N n$ ($(0, 0 \dots 0)$ is a subspace of $\mathbb R^n$)
 > - $(\mathbb R^n \not\vdash \mathbb R^m) \dashv n \le m \dashv \mathbb N n \land \mathbb N m$ ($\mathbb R^{n \cdot x}$ is not a subspace of $\mathbb R^n$, as vectors in $\mathbb R^{n \cdot x}$ are not really comparable to vectors in $\mathbb R^n$)
@@ -101,7 +101,7 @@ the _dimension of a vector space_ is equal to the number of [[vector]]s in any [
 > - $\dim \mathbb F = \infty$
 > - $\dim \mathbb M^{3, 4} = 12$
 > - $\dim V = 2$ where $V$ is a [[plane-in-r3]]
-> - $\dim V = 1$ where $V$ is a [[line-in-r3]] or in $\mathbb R^2$
+> - $\dim V = 1$ where $V$ is a [[line-in-rn]]3 or in $\mathbb R^2$
 > - $\dim \operatorname{span} \braket{\braket{O}} = 0$ (see [[span]], zero [[vector]])
 
 ## Describing Vector Spaces

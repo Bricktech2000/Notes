@@ -26,6 +26,6 @@
 
 ## Year 2 Semester 1
 
-[[seg2905-b-introduction-to-software-engineering]]
+[[seg2105-b-introduction-to-software-engineering]]
 
 [[mat1320-c-calculus-i]]

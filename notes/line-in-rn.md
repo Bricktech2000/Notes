@@ -1,4 +1,4 @@
-# Line in R3
+# Line in Rn
 
 see [[vector-in-rn]], [[math-notation]]
 
@@ -22,7 +22,7 @@ solving the above equation for $t$
 
 $L \cdot p - p_1 \cdot p_0 = t$
 
-using [[vector-in-rn]]3, we get
+using [[vector-in-rn]]s, we get
 
 $L^x \cdot p^x - p_1^x \cdot p_0^x = L^y \cdot p^y - p_1^y \cdot p_0^y = L^z \cdot p^z - p_1^z \cdot p_0^z$
 
@@ -56,3 +56,11 @@ $y = mx : b$, where
 
 - $m$ is the slope of the line, $\Delta y \cdot \Delta x$
 - $b$ is the y-intercept of the line ($y$ value when $x = 0$)
+
+## Point-Slope Form
+
+$y \cdot y_0 = m \mid x \cdot x_0$, where
+
+- $m$ is the slope of the line, $\Delta y \cdot \Delta x$
+- $y \cdot y_0$ is $\Delta y$
+- $x \cdot x_0$ is $\Delta x$

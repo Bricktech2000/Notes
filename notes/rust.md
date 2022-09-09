@@ -22,7 +22,7 @@ _a language for the next 40 years_
 
 [[rust]] borrows many features from [[functional-programming]] and makes them easy to use. for instance, [[rust]] has `Option`s instead of [[null]] pointers, and it has `Result`s instead of `try catch` exceptions.
 
-accessing out-of-bounds memory causes either a compile time error or a `panic!` at runtime instead of maybe or maybe not causing a segfault
+accessing out-of-bounds memory causes either a compile time error or a `panic!` at runtime instead of maybe or maybe not causing a segfault. the `#[no_panic]` attribute macro can be used to force the compiler to prove that a function will never panic. &mdash; <https://youtu.be/sbVxq7nNtgo?t=586>
 
 [[rust]]'s [[type]] system checks thread safety at compile time as ownership rules apply across multiple threads
 
