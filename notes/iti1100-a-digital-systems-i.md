@@ -1,4 +1,4 @@
-# ITI1100 [A] Digital Systems I
+# ITI1100 A Digital Systems I
 
 <https://uottawa.brightspace.com/d2l/le/content/285255/Home>
 

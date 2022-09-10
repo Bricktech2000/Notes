@@ -1,4 +1,4 @@
-# MAT1320 [C] Calculus I
+# MAT1320 C Calculus I
 
 ## general
 

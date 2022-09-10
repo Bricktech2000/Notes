@@ -1,4 +1,4 @@
-# ITI1121 [C] Introduction to Computing II
+# ITI1121 C Introduction to Computing II
 
 <https://uottawa.brightspace.com/d2l/le/content/274914/Home>
 

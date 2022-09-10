@@ -1,4 +1,4 @@
-# MAT1320 [D] Calculus I
+# MAT1320 D Calculus I
 
 <https://uottawa.brightspace.com/d2l/le/content/283684/Home>
 

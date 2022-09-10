@@ -10,14 +10,14 @@ verbal punctuation can be used to convey structure. it also nonverbally tells pe
 
 explicitly link ideas together instead of listing them
 
-### examples
-
-see [[writing-a-report]]
-
-- start with an empowerment promise. explain why people are listening to you
-- when using slides, mention the title verbally instead of cluttering the slides with it
-- use linking words when jumping from one idea to the next
-- introduce and wrap up each point with an introduction and a conclusion
+> **examples**
+>
+> see [[writing-a-report]]
+>
+> - start with an empowerment promise. explain why people are listening to you
+> - when using slides, mention the title verbally instead of cluttering the slides with it
+> - use linking words when jumping from one idea to the next
+> - introduce and wrap up each point with an introduction and a conclusion
 
 ## Nonverbals
 
@@ -27,27 +27,33 @@ keep visual contact with the audience
 
 look like someone confident and comfortable
 
-- study the room beforehand to be comfortable with it
-- walk around and look around to show confidence
-- show your hands and use them to demonstrate concepts
-- look passionate towards the subject you are talking about (duplicate)
+> **examples**
+>
+> - study the room beforehand to be comfortable with it
+> - walk around and look around to show confidence
+> - show your hands and use them to demonstrate concepts
+> - look passionate towards the subject you are talking about (duplicate)
 
 ### artificial interest
 
 trick people into being interested through nonverbals
 
-- talk in a well-lit room to keep people fully awake and connected
-- make sure the room is populated to make the talk seem desirable
-- ask questions and [[rhetorical-question]]s to get people to engage
+> **examples**
+>
+> - talk in a well-lit room to keep people fully awake and connected
+> - make sure the room is populated to make the talk seem desirable
+> - ask questions and [[rhetorical-question]]s to get people to engage
 
 ### empathetic mirroring
 
 make people feel what you are feeling by exploiting empathetic mirroring
 
-- write on a chalk board manually to make people understand the importance of a concept
-- use real-life examples and anecdotes allow people to connect
-- use props and strong visuals to enhance the empathetic effects
-- look passionate towards the subject you are talking about (duplicate)
+> **examples**
+>
+> - write on a chalk board manually to make people understand the importance of a concept
+> - use real-life examples and anecdotes allow people to connect
+> - use props and strong visuals to enhance the empathetic effects
+> - look passionate towards the subject you are talking about (duplicate)
 
 ## Other
 

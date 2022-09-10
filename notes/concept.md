@@ -8,7 +8,7 @@ see [[fact]]
 
 generally, they are more important than [[fact]]s. they can be structured through conceptual notes. once grasped, they stay with you a lifetime. when [[learning]] concepts, make sure to understand the difference between [[recollection-vs-recognition]].
 
-### examples
-
-- understanding the function of a bone in the human body
-- understanding why an event actually took place
+> **examples**
+>
+> - understanding the function of a bone in the human body
+> - understanding why an event actually took place

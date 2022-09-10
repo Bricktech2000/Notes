@@ -29,3 +29,5 @@
 [[seg2105-b-introduction-to-software-engineering]]
 
 [[mat1320-c-calculus-i]]
+
+[[ceg2136-a-computer-architecture-i]]

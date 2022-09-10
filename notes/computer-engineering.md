@@ -1,5 +1,7 @@
 # Computer Engineering
 
+computer engineers design computers from basic components (rare), design integrated circuits (very rare), configure and program existing computer subsystems (common), and provide computer expertise
+
 **see**
 
 [[operating-system]]s

@@ -1,4 +1,4 @@
-# SEG2105 [B] Introduction to Software Engineering
+# SEG2105 B Introduction to Software Engineering
 
 ## general
 

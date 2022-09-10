@@ -1,5 +1,7 @@
 # Rational Function
 
+#todo delete thi note and merge it with [[function]]
+
 see [[math-notation]]
 
 _basically, a [[polynomial]] divided by a different [[polynomial]]_
