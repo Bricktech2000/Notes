@@ -34,6 +34,10 @@ as examples, in Haskell, type `Bool` is a two-element [[set]] of `True` and `Fal
 > }
 > ```
 
+**applications**
+
+algebraic data [[type]]s can be used in programming to make invalid states unrepresentable by only modeling valid states
+
 ### Sum Type
 
 _`enum` in Rust_

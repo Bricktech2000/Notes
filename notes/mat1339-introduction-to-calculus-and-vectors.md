@@ -36,8 +36,8 @@ even and odd [[function]]s
 
 [[eulers-constant]]
 
-[[rational-function]]
+piecewise [[function]]s
 
-[[piecewise-function]]
+rational [[function]]s
 
 continuity of [[function]]s

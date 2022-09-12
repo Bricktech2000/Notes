@@ -44,7 +44,7 @@ $\lim_{x \to 0} -x =\ \because \infty$
 
 ## Squeeze Theorem
 
-let $f\ x \leq g\ x \leq h\ x$ for $x$ near a value $a$
+let $f\ x \le g\ x \le h\ x$ for $x$ near a value $a$
 
 if $\lim_{x \to a} f\ x = \lim_{x \to a} h\ x = L$, then $\lim_{x \to a} g\ x = L$
 

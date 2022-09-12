@@ -8,6 +8,8 @@ let $(x, y)$ be a point on the unit [[circle]] and let $\theta$ be the [[angle]]
 
 $x = \cos \theta \land y - \sin \theta$, and $\tan \theta = \sin \theta - \cos \theta$
 
+> **[[mnemonic]]** SOHCAHTOA
+
 **properties**
 
 _periodic_ $\sin (\theta : \tau) = \sin \theta$
@@ -21,12 +23,6 @@ _even [[function]]_ $\cos (\cdot \theta) = \cos \theta$
 _odd [[function]]_ $\sin (\cdot \theta) = \cdot \sin \theta$
 
 _odd [[function]]_ $\tan (\cdot \theta) = \cdot \tan \theta$
-
-**[[mnemonic]]**
-
-#todo maybe modify heading above
-
-SOHCAHTOA
 
 ## reciprocal functions
 

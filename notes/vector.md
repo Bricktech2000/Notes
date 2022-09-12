@@ -14,6 +14,8 @@ vectors can form [[vector-space]]s
 
 [[ordered-pair]]s, see [[ordered-pair-vector-space]]
 
+see [[zero-space]]
+
 **properties**
 
 see [[math-notation]]

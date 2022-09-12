@@ -91,3 +91,5 @@
 [[critical-thinking]]
 
 [[trick]]
+
+[[minimalism]]

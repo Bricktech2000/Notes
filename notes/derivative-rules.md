@@ -30,6 +30,8 @@ $\delta\ e[x] - \delta x = e[x]$
 
 $\delta\ f\ x - \delta x = m f\ x \equiv f\ x = e[mx]$
 
+> **example** let $g\ x = ex2 : 2e[x] : xe2 : x[e2]$. then, $\delta\ g\ x - \delta x = 2ex : 2e[x] : e2 : e2 x[e2 \cdot 1]$
+
 ## [[logarithm]] Rule
 
 $\delta\ \lceil x \rceil b - \delta x = - x\lceil b \rceil$
@@ -100,6 +102,14 @@ $\delta\ (-f\ x) - \delta x = \cdot \delta\ f\ x - \delta x - [f\ x]2$
 
 ## Chain Rule
 
-$\delta\ f\ g\ x - \delta x = \delta\ g\ x - \delta x \mid \delta f\ g\ x - \delta\ g\ x$
+$\delta\ f\ g\ x - \delta x = \delta\ g\ x - \delta x \mid \delta\ f\ g\ x - \delta\ g\ x$
 
 > **proof** $(\delta\ g\ x) - \delta x \mid \delta f\ g\ x - (\delta\ g\ x) = \delta\ f\ g\ x - \delta x$
+
+> **example**
+>
+> #todo fix partial derivative
+>
+> the equivalent of the chain [[derivative-rules]] on a function with multiple parameters is:
+>
+> $\partial_t\ f\ (g\ (t, s), h\ (t, s)) = f_x\ (g\ (t, s), h\ (t, s)) \shortmid g_t\ (t, s) \cdot f_y\ (g\ (t, s), h\ (t, s)) \shortmid h_t\ (t, s)$

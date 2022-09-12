@@ -4,8 +4,6 @@
 
 [[optimizing-a-function]]
 
-[[rational-function]]
-
 [[stoichiometry]], [[thermochemistry]]
 
 [[education]]

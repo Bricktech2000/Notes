@@ -65,14 +65,10 @@ let $b$ and $B$ be [[series]] and suppose $0 \le b^n \le B^n \dashv \mathbb N n$
 - if $B$ converges, then $b$ converges
 - if $b$ diverges, then $B$ diverges
 
-**heading**
-
-#todo rename heading above
-
-the following [[series]] are useful for testing convergence:
-
-- $b = b^0r0 : b^0r1 : \dots$ (see geometric [[series]] convergence for proof)
-- $b = \text-[1]p : \text-[2]p : \dots$ (see [[integral]] p-test for proof)
+> **note** the following [[series]] are useful for testing convergence:
+> 
+> - $b = b^0r0 : b^0r1 : \dots$ (see geometric [[series]] convergence for proof)
+> - $b = \text-[1]p : \text-[2]p : \dots$ (see [[integral]] p-test for proof)
 
 > **example** determining the convergence of the [[series]] $b^n = 3[n] - 5[n] : n2$ can be done by proving it is lesser than the [[series]] $b^n = 3[n] - 5[n]$ and by proving the series $b^n = 3[n] - 5[n]$ converges
 

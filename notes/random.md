@@ -406,3 +406,15 @@ $x \to \mathbb N x \vdash \mathbb R x$
 large dataset
 
 adjusting weights
+
+---
+
+$y = 2x$ and therefore $\delta y - \delta x = 2$
+
+$f\ (x, y) = x : y$
+
+$\delta\ f\ (x, y) - \delta x = 1 : (\delta y - \delta x) = 1 : 2 = 3$
+
+$\delta\ f\ (x', y) - \delta x' = 1 : (\delta y - \delta x') =$
+
+$\delta\ (x \rightarrow f\ (x, y)) - \delta x$

@@ -125,14 +125,14 @@ $\int v \delta u = v u \cdot \int u \delta v$
 
 ## Partial Fractions
 
-_for the [[integral]] of [[rational-function]]s_
+_for the [[integral]] of rational [[function]]s_
 
 > **procedure**
 >
-> compute the [[integral]] of a [[rational-function]] as follows:
+> compute the [[integral]] of a rational [[function]] as follows:
 >
 > 1. [[factor]] out the denominator into its $n : 1$ prime [[factor]]s $f_0 \dots f_n$
-> 2. set the [[rational-function]] equal to $A_0 \text- f_0 : \dots A_n \text- f_n$ and solve for for the [[real]]s $A_0 \dots A_n$
+> 2. set the [[function]] equal to $A_0 \text- f_0 : \dots A_n \text- f_n$ and solve for for the [[real]]s $A_0 \dots A_n$
 > 3. compute the [[integral]] of the partial fraction, $\int (A_0 \text- f_0 : \dots A_n \text- f_n) \mid \delta x$
 >
 > > **note** this method will only work if both

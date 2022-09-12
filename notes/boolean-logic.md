@@ -16,9 +16,15 @@ see [[boolean]], [[boolean-logic]]
 
 boolean [[operator]]s can be modeled in [[logic-circuit]]s through [[logic-gate]]s
 
+## Operator Precedence
+
+see [[math-notation]] for [[operator]] precedence in my [[math-notation]]
+
+in [[conventional-math-notation]]: $' \cdot + \oplus$
+
 ## AND
 
-> **AKA** Conjunction
+> **AKA** Conjunction, $\min$
 
 **notations**
 
@@ -39,13 +45,13 @@ straight-curve [[logic-gate]]. may take more than one input
 
 ## OR
 
-> **AKA** Disjunction
+> **AKA** Disjunction, $\max$
 
 **notations**
 
 _in my [[math-notation]]_ $\lor$
 
-_in [[conventional-math-notation]]_ $+$ or $\cap$
+_in [[conventional-math-notation]]_ $+$ or $\cup$
 
 **representation**
 
@@ -64,7 +70,7 @@ concave-pointycurve [[logic-gate]]. may take more than one input
 
 **notations**
 
-_in my [[math-notation]]_ $/$
+_in my [[math-notation]]_ $/$ or $\times$
 
 _in [[conventional-math-notation]]_ $a'$ or $\bar a$ or $a^c$
 
@@ -76,6 +82,8 @@ triangle-circle [[logic-gate]]. may only take one input
 | --- | ---- |
 | 0   | 1    |
 | 1   | 0    |
+
+**properties**
 
 ## XOR
 
@@ -164,11 +172,48 @@ doubleconcave-pointycurve-circle [[logic-gate]]. if the [[logic-gate]] does not 
 | 1   | 0   | 0            |
 | 1   | 1   | 1            |
 
-## Operator Precedence
+## Difference
 
-see [[math-notation]] for [[operator]] precedence in my [[math-notation]]
+**notations**
 
-in [[conventional-math-notation]]: $' \cdot + \oplus$
+_in my [[math-notation]]_ $/$
+
+_in [[conventional-math-notation]]_ $\backslash$
+
+**representation**
+
+| $A$ | $B$ | $A\ /\ B$ |
+| --- | --- | --------- |
+| 0   | 0   | 0         |
+| 0   | 1   | 0         |
+| 1   | 0   | 1         |
+| 1   | 1   | 0         |
+
+## Addition
+
+**notation** _in my [[math-notation]]_ $\ : $
+
+**representation**
+
+| $A$ | $B$ | $A : B$       |
+| --- | --- | ------------- |
+| 0   | 0   | 0             |
+| 0   | 1   | 1             |
+| 1   | 0   | 1             |
+| 1   | 1   | $\varnothing$ |
+
+## Subtraction
+
+**notation** _in my [[math-notation]]_ $\cdot$
+
+**representation**
+
+| $A$ | $B$ | $A \cdot B$   |
+| --- | --- | ------------- |
+| 0   | 0   | 0             |
+| 0   | 1   | $\varnothing$ |
+| 1   | 0   | 1             |
+| 1   | 1   | 0             |
 
 ## identities
 

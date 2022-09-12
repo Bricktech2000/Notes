@@ -8,7 +8,7 @@ $\lim_{x \to a} f\ x$
 
 **definition** _.$(\varepsilon, \delta)$-definition of a limit_
 
-let $f\ x$ be a [[function]] defined on an open interval around $x_0$. then, $\lim_{x \to x_0} f\ x = L$ if for every $\varepsilon > 0$ there exists $\delta > 0$ such that $0 < |x \cdot x_0| < \delta\ \ \vdash\ \ |f\ x \cdot L| < \varepsilon$ for all $x$
+let $f\ x$ be a [[function]] with domain $D$ defined on an open interval around $x_0$. then, $\lim_{x \to x_0} f\ x = L$ if for every $\varepsilon > 0$ there exists $\delta > 0$ such that $0 < |x \cdot x_0| < \delta\ \ \vdash\ \ |f\ x \cdot L| < \varepsilon$ for all $D\ x$
 
 &mdash; <https://brilliant.org/wiki/epsilon-delta-definition-of-a-limit/>
 
@@ -26,18 +26,9 @@ let $f\ x$ be a [[function]] defined on an open interval around $x_0$. then, $\l
 
 ### Limit Existence
 
-**definition**
+**definition** a [[limit]] $\lim_{x \to a} f\ x$ _does not exist_ if $f\ x \to L_1$ as $x \to x_0$ along a path $C_1$ and $f\ x \to L_2$ as $x \to x_0$ along a path $C_2$ and $L_1 \ne L_2$ &mdash; the value of the limit is different depending on the path taken
 
-$\lim_{x \to a}$ does not exist if any of the following is true:
-
-- $\lim_{x \to a^+} \ne \lim_{x \to a^-} \ne \varnothing$ &mdash; the limit is different from the positive and negative sides
-- $\lim_{x \to a} = \infty$ &mdash; $x$ is on a vertical asymptote
-- wild behavior (not a technical term), i. e. $\lim_{x \to 0} \sin\ (\tau - x)$
-
-if $g\ a = 0$, then $\lim_{x \to a} (f\ x - g\ x)$
-
-- does not exist if $f\ a \ne 0$ (including $\because \infty$)
-- can exist if $f\ a = 0$. first simplify using the [[limit-rules]] and then study the limit
+> **note** a limit does not exist if $\lim_{x \to a} = \infty$ or if it shows wild behavior (not a technical term), as with $\lim_{x \to 0} \sin\ (\tau - x)$
 
 ## Limits of Trigonometric Functions
 

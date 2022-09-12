@@ -1,7 +1,5 @@
 # Religion
 
-#todo the following might need to be moved to another note
-
 believing in the existence of a god seems to be a catch-all way for people to explain what they can't understand
 
 more generally, this could be phrased as:

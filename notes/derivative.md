@@ -42,15 +42,21 @@ see [[gradient]]
 
 **definition**
 
-let $f$ be a [[function]] differentiable at $(x, y)$. then,
+let $f$ be a [[function]] differentiable at $(x, y)$ and let $v$ be a **unit [[vector-in-rn]]**. then,
 
-$D\ x\ y = \nabla f\ x\ y\ \dot\mid\ v - |v|$, where
+$D^v\ f\ x\ y = \nabla f\ x\ y\ \dot\mid\ v$, where
 
-- $D\ x\ y$ is the [[derivative]] of $f$ in direction $v$ at $(x, y)$
+- $D^v\ f\ x\ y$ is the [[derivative]] of $f$ in direction $v$ at $(x, y)$
 - $\nabla f\ x\ y$ is the [[gradient]] of $f$ at $(x, y)$
 - $v$ is the direction [[vector-in-rn]]
 
-> **note** obviously, dividing by $|v|$ is not necessary when $v$ is a unit [[vector]]. because of this, the division is sometimes wrongfully omitted in the definition above
+> **examples**
+>
+> #todo partial derivative notation
+>
+> $D^{1, 0}\ f\ x\ y = f_x\ (x, y)$
+>
+> $D^{0, 1}\ f\ x\ y = f_y\ (x, y)$
 
 ## Partial Derivative
 
@@ -76,7 +82,15 @@ _in my [[math-notation]]_
 
 in my [[math-notation]], it's just a [[derivative]]:
 
-$\delta\ f\ x\ y\ z - \delta x$, see [[calculus-notation]]
+$\delta\ f\ x\ y - \delta x$, see [[calculus-notation]]
+
+**definition**
+
+the _partial derivative_ of $f\ (x, y)$ with respect to $x$ is defined as follows:
+
+$\lim_{h \to 0} = f\ (x : h, y) \cdot f\ (x, y) - h$
+
+the same is true with any other parameter and with any number of parameters
 
 ---
 

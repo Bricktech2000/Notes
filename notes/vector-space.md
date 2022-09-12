@@ -2,21 +2,7 @@
 
 see [[vector]], [[vector-in-rn]], [[matrix]], [[math-notation]], [[basis]]
 
-**types**
-
-#todo duplicate with [[vector]]
-
-[[function-vector-space]], [[function]]
-
-[[polynomial-vector-space]], [[polynomial]]
-
-[[vector-in-rn-vector-space]], [[vector-in-rn]]
-
-[[matrix-vector-space]], [[matrix]]
-
-[[ordered-pair-vector-space]], [[ordered-pair]]
-
-[[zero-space]]
+**types** see [[vector]]
 
 **examples**
 

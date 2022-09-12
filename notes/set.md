@@ -22,10 +22,6 @@ $P$ is a [[predicate]], see [[math-notation]]
 
 in [[conventional-math-notation]], this abomination: $\lbrace x \mid P(x) \rbrace$
 
-_set membership_
-
-$S\ a$
-
 **properties**
 
 [[set]]s are categories, see [[category-theory]]
@@ -44,15 +40,13 @@ _elements are unique_ $\braket{\braket{1, 1, 1}} = \braket{\braket{1, 1}} = \dot
 
 [[monoid]]s
 
-## Set Isomorphism
+## Set Operations
 
-see [[category]], [[category-theory]]
+**see** [[boolean-logic]]
 
-two [[set]]s are isomorphic if they contain the same elements "labeled" in different ways
+**see** [[cartesian-product]]
 
-&mdash; <https://youtu.be/yAi3XWCBkDo?t=998>
-
-## Subset
+### Set Subset
 
 **definition** a [[set]] $A$ is a _subset_ of a [[set]] $B$ if and only if every element of $A$ is an element of $B$
 
@@ -70,25 +64,59 @@ $\mathbb Z \vdash \mathbb R$
 
 $\mathbb E \vdash \mathbb Z$
 
-## Empty Set
+### Set Equivalence
 
-_the [[set]] containing no elements_
+**definition** two [[set]]s are _equivalent_ if and only if they contain the same elements $A \equiv B \equiv A\ x = B\ x$
+
+### Set Membership
 
 **notation**
 
-_in my [[math-notation]]_ $\braket{\braket{\ }}$ or $(x \rightarrow \bot)$
+$S\ a$
 
-_in [[conventional-math-notation]]_ $\lbrace \rbrace$ or $\varnothing$ =
+## Set Isomorphism
 
-**properties**
+see [[category]], [[category-theory]]
 
-$\braket{\braket{\ }} \vdash A$, for all [[set]] $A$
+two [[set]]s are isomorphic if they contain the same elements "labeled" in different ways
+
+&mdash; <https://youtu.be/yAi3XWCBkDo?t=998>
+
+## [[empty]]
+
+_the empty [[set]]_
+
+see [[empty]]
 
 ## [[universal]]
 
 _the [[set]] of all possible mathematical entities_
 
 see [[universal]]
+
+## Set Partition
+
+**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $S_i \land S_j \equiv \braket{\braket{\ }}$ (or alternatively $S_i \lor S_j \equiv (S_i \times S_j)$) (the [[set]]s are pairwise disjoint) for all $i, j$ and $S_0 \lor \dots S_n = A$
+
+## Set Size
+
+**notation**
+
+$S^\#$
+
+**definition** the _size_ of a [[set]] is the number of elements in the [[set]]
+
+**properties**
+
+when two [[set]]s form a _disjoint union_ $A \lor B \equiv (A \times B)$, then $S^\# = A^\# : B^\#$
+
+when two [[set]]s form a _union_ $A \lor B$, then $S^\# = A^\# : B^\# \cdot (A \land B)^\#$
+
+_difference principle_ the size of the difference of two [[set]]s is $(A / B)^\# = A^\# \cdot (A \land B)^\#$
+
+_product principle_ the size of the [[cartesian-product]] of two [[set]]s is $(A\ \acute\mid\ B)^\# = A^\# \mid B^\#$
+
+_generalized product principle_ $(A\ \acute\mid\ B \lor A\ \acute\mid\ B)^\# = (A\ \acute\mid\ B)^\# : (B\ \acute\mid\ A)^\# \cdot (A\ \acute\mid\ B \land B\ \acute\mid\ A)^\# = (2 \mid A^\# : B^\#) \cdot $ #todo complete during next lecture
 
 ## Set Power Set
 

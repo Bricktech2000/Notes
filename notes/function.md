@@ -15,10 +15,6 @@ one can use the _horizontal line test_ to determine whether the graph of a curve
 
 [[boolean]] [[function]]
 
-[[rational-function]]
-
-[[piecewise-function]]
-
 [[trigonometric-function]]
 
 [[hyperbolic-function]]
@@ -146,12 +142,9 @@ let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number o
 
 see [[math-notation]]
 
-**definition**
-a [[function]] $f\ x$ is _continuous_ at $x = a$ if:
+**definition** a [[function]] $f\ x$ is _continuous_ at $x = a$ if $\lim_{x \to a} f\ x = f\ a$
 
-1. $\lim_{x \to a} f\ x$ exists (prevents jump discontinuities)
-2. $f\ x$ is defined at $x = a$ (prevents undefined values)
-3. $\lim_{x \to a} f\ x = f\ a$ (prevents other jump discontinuities)
+> **note** $\lim_{x \to a} f\ x$ must exist and that $f\ x$ must be defined at $x = a$
 
 **definition** a [[function]] is _continuous from the left_ at $a$ when $\lim_{x \to a^-} f\ x = f\ a$ and both other conditions are met
 
@@ -227,7 +220,7 @@ $L\ x = f\ a : (x \cdot a) \shortmid (x \rightarrow \delta\ f - \delta x)\ a$, w
 
 **applications**
 
-a [[function]] $f$ can be linearly approximated near a point $x$ through its tangent line at that point
+the tangent of a [[function]] $f$ approximates $f\ (x \dots)$ near a point $x \dots$
 
 ### Differential
 
@@ -330,6 +323,14 @@ see [[derivative]]
 **properties**
 
 analytic [[function]] is infinitely differentiable, but an infinitely differentiable [[function]] is not necessarily analytic &mdash; <https://youtu.be/X0razs3zR94?t=598>
+
+## Piecewise Function
+
+**definition** In [[mathematics]], a _piecewise-defined function_ is a [[function]] defined by multiple sub-[[function]]s, where each sub-[[function]] applies to a different interval in the domain. &mdash; Wikipedia
+
+## Rational Function
+
+_a function defined as a [[polynomial]] divided by another [[polynomial]]_
 
 ## Total Function
 

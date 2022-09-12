@@ -39,6 +39,6 @@ the Kleisli Composition is an alternative to the [[bind]] [[function]] that uses
 
 ## Monad Transformer
 
-#todo
+monad transformer #todo
 
 <https://en.wikipedia.org/wiki/Monad_transformer>

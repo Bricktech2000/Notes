@@ -2,8 +2,6 @@
 
 ## general
 
-## Q&A
-
 ## Class Notes
 
 [[computer-engineering]]

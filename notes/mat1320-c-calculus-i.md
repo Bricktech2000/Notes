@@ -6,8 +6,6 @@ mobius homework is only worth 10%
 
 final exam is worth 40%, but failing it results in failing the class
 
-## Q&A
-
 ## Class Notes
 
 **related**

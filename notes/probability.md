@@ -10,9 +10,7 @@ see [[math-notation]], [[boolean-logic]]
 
 if all events are equally likely to occur in the space, then $P \braket{E, S} = E^\# - S^\#$
 
-when the sample space is a _disjoint union_ $S \equiv S_1 \lor S_2 \equiv (S_1 \times S_2)$, then $S^\# = S_1^\# : S_2^\#$
-
-when the sample space is a _union_ $S \equiv S_1 \lor S_2$, then $S^\# = S_1^\# : S_2^\# \cdot (S_1 \land S_2)^\#$
+see [[set]] size
 
 ## multiplicative rule
 

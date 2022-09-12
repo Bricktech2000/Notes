@@ -1,11 +1,13 @@
 # Normal Vector
 
-#todo rephrase this note
+_a [[vector-in-rn]] perpendicular to a [[plane-in-r3]]_
 
 symbol: $n$
 
-a [[vector]] perpendicular to a plane
+> **procedure** _computing a normal vector_
+>
+> the [[normal-vector]] of a [[plane-in-r3]] is perpendicular to all its direction vectors. it can therefore be computed by setting the [[dot-product]] of the normal vector to every direction vector to zero, and solving for the normal vector.
 
-it can be found by setting the [[dot-product]] of all the [[vector]]s to zero
-
-alternatively, it can be found using the [[cross-product]] of two [[vector]]s in a [[plane-in-r3]]
+> **procedure** _computing a normal vector_
+>
+> use the [[cross-product]] of two [[vector]]s in a [[plane-in-r3]]

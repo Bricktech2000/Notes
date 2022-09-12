@@ -31,3 +31,7 @@
 [[mat1320-c-calculus-i]]
 
 [[ceg2136-a-computer-architecture-i]]
+
+[[mat2322-b-calculus-iii-for-engineers]]
+
+[[mat2348-a-discrete-mathematics]]

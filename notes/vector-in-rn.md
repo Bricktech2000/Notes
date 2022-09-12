@@ -94,7 +94,7 @@ $u \perp v$
 
 **theorem** suppose $w_0 \dots w_m$ is an orthogonal [[basis]] for a subspace $W$ of $\mathbb R^n$. then, $w = w_0 (w \dot\shortmid w_0 - w_0 \dot\shortmid w_0) + \dots w_m (w \dot\shortmid w_m - w_m \dot\shortmid w_m)$, see [[dot-product]]
 
-### Collinear Vectors
+### Colinear Vectors
 
 _a pair of parallel vectors_
 

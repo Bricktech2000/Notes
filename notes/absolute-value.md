@@ -1,6 +1,6 @@
 # Absolute Value
 
-absolute values can be defined as a [[piecewise-function]]
+absolute values can be defined as a piecewise [[function]]
 
 see [[math-notation]]
 

@@ -20,6 +20,8 @@ the $\rightarrow$ [[operator]] is written as `\to` by default, and must be writt
 
 `\\` must be replaced by `\\\` for them to work properly. see the following discussion: <https://github.com/mathjax/MathJax/issues/1301>
 
+when `$` do not parse properly, add a `.` when necessary. for example, write `_this is $\top$_` as `_this is $\top$._`
+
 more information about supported features available at: <https://katex.org/docs/supported.html>
 
 ### headings
@@ -62,6 +64,7 @@ blockquotes added in new:
 - notes
 - example
 - proof
+- [[mnemonic]]
 
 &nbsp;
 
@@ -72,8 +75,6 @@ blockquotes added in new:
 - applications
 - pros
 - cons
-
-#todo use period when latex not parsing
 
 ### quotes, italics, bold, sources, URLs
 
