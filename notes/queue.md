@@ -1,6 +1,6 @@
 # Queue
 
-_FIFO [[data-structure]]_
+_FIFO [[abstract-data-type]]_
 
 **representation**
 

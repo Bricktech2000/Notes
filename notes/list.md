@@ -1,5 +1,7 @@
-# Map
+# List
 
 _random access [[abstract-data-type]]_
 
-used for backlinks
+**types**
+
+[[linked-list]]

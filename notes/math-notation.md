@@ -45,7 +45,7 @@ also see [[trigonometric-function]]s and [[calculus-notation]]
 | $a \dashv b$                                                   | reverse implication, superset                  | $a$ for all $b$, $b$ implies $a$                      |
 | $x_0 \mid x_1 \mid \dots x_n$ where $\mid$ is any [[operator]] | with $n = 3$, $x_0 \mid x_1 \mid x_2 \mid x_3$ | step size is $\because 1$ if $x_1 \mid$ is omitted    |
 | $x_0 \dots x_n$                                                | with $n = 3$, $x_0, x_1, x_2, x_3$             | step size is $\because 1$ if $x_1$ is omitted         |
-| $x \lor \dots$ where $\lor$ is any [[operator]]                | $\lor$-[[reduce]]tion of $x$                   |                                                       |
+| $x \lor \dots$ where $\lor$ is any [[operator]]                | the [[reduce-function]] of $x$ and $\lor$      |                                                       |
 | $x_{sub}$                                                      | the [[variable]] $x$ with a subscript $_{sub}$ |                                                       |
 | $V^n$ where $V$ is a [[vector]]                                | the $n$ th component of $V$                    |                                                       |
 | $a^i$ where $a$ is a [[sequence]]                              | the $i$ th element of $a$                      |                                                       |

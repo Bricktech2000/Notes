@@ -1,7 +1,5 @@
 # ENG1112 Technical Report Writing
 
-## general
-
 prof name: Gefen Bar-On Santor
 
 library sources are available online (provided by uOttawa)

@@ -6,7 +6,7 @@ _lifts a value to the effects world_
 
 see [[effect-type]], [[functional-programming]]
 
-**definition** [[return]] lifts a value to the effects world. can be thought of as the constructor to an [[effect-type]] or as wrapping a value into an [[effect-type]]
+**definition** the [[return-function]] lifts a value to the effects world. can be thought of as the constructor to an [[effect-type]] or as wrapping a value into an [[effect-type]]
 
 **definition**
 

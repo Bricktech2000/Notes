@@ -442,3 +442,23 @@ $x = 5 \lor \dots$
 ```lua
 S ((+) map.) reduce. A ==
 ```
+
+---
+
+[[sequence]]s starting with an [[even-number]]: $4 \mid 10 \mid 5 = 200$
+
+[[sequence]]s starting with an [[odd-number]]: $5 \mid 10 \mid 5 = 250$
+
+total number of [[sequence]]s: $200 : 250 = 450$
+
+---
+
+even-even-even: $4 \mid 4 \mid 3 = 48$
+
+even-odd-even: $4 \mid 5 \mid 4 = 80$
+
+odd-even-even: $5 \mid 5 \mid 4 = 100$
+
+odd-odd-even: $5 \mid 4 \mid 5 = 100$
+
+total: $48 : 80 : 100 : 100 = 328$

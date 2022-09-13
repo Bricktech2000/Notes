@@ -1,7 +1,5 @@
 ## MAT2348 A Discrete Mathematics
 
-## general
-
 ## Class Notes
 
 [[discrete-mathematics]]

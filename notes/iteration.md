@@ -4,4 +4,4 @@
 
 ## examples
 
-the [[reduce]] [[function]]
+the [[reduce-function]]

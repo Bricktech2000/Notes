@@ -1,7 +1,5 @@
 # MAT1339 Introduction to Calculus and Vectors
 
-## general
-
 prof name: Mahdi Ammar
 
 ## Homework

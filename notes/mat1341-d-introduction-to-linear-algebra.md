@@ -2,8 +2,6 @@
 
 <https://uottawa.brightspace.com/d2l/le/content/287356/Home>
 
-## general
-
 prof name: Antoine Poirier
 
 prof email: <apoirie5@uottawa.ca>

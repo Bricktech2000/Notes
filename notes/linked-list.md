@@ -1,5 +1,7 @@
 # Linked List
 
+_[[data-structure]] implementing a [[list]]_
+
 **representation** _Singly-Linked List_
 
 ```mermaid

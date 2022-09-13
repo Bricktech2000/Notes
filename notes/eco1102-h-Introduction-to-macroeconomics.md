@@ -2,8 +2,6 @@
 
 <https://uottawa.brightspace.com/d2l/le/content/288936/Home>
 
-## general
-
 prof name: Charles Daviau
 
 prof email: <cdaviau@uottawa.ca>

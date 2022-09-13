@@ -4,8 +4,6 @@
 
 _I already like this prof and the suffering hasn’t even started yet. this might be promising after all_
 
-## general
-
 prof name: Mehrdad Sabetzadeh
 
 prof email: <m.sabetzadeh@uottawa.ca>, <msabetza@uottawa.ca>

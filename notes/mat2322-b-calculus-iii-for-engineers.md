@@ -1,7 +1,5 @@
 # MAT2322 B Calculus III For Engineers
 
-## general
-
 14.1 - 14.3
 
 function continuity with multiple arguments

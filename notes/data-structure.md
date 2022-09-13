@@ -1,13 +1,15 @@
 # Data Structure
 
-**types**
+**see** [[abstract-data-type]], [[algorithm]]
+
+implements the interface an [[abstract-data-type]] describes
+
+**properties**
 
 [[persistent-data-structure]]
 
-## examples
+**types**
 
-[[stack]]
-
-[[queue]]
+dynamic array
 
 [[linked-list]]

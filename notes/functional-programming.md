@@ -2,7 +2,7 @@
 
 **see**
 
-[[functor]] & [[map]], [[monad]] & [[bind]] & [[join]], [[monoid]] & [[reduce]], [[effect-type]] & [[return]]
+[[functor]] & [[map-function]], [[monad]] & [[bind-function]] & [[join-function]], [[monoid]] & [[reduce-function]], [[effect-type]] & [[return-function]]
 
 [[currying]], [[partial-application]], pure and total [[function]], [[combinatory-logic]], [[lambda-calculus]]
 
@@ -22,7 +22,7 @@
 
 **notes**
 
-> **note** in [[functional-programming]], when using an [[operator]] as an argument to [[reduce]], [[map]], or any other [[function]], make sure to use shorthands when available: `_ + _`, `(+)`, `operator.add`...
+> **note** in [[functional-programming]], when using an [[operator]] as an argument to the [[reduce-function]], the [[map-function]], or any other [[function]], make sure to use shorthands when available: `_ + _`, `(+)`, `operator.add`...
 
 ## principles
 

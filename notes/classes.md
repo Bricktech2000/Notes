@@ -35,3 +35,5 @@
 [[mat2322-b-calculus-iii-for-engineers]]
 
 [[mat2348-a-discrete-mathematics]]
+
+[[csi2110-d-data-structures-and-algorithms]]

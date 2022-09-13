@@ -1,4 +1,4 @@
-# Join
+# Join Function
 
 _turns a nested [[effect-type]] into a normal [[effect-type]]_
 
@@ -6,7 +6,7 @@ _turns a nested [[effect-type]] into a normal [[effect-type]]_
 
 see [[functional-programming]]
 
-**definition** [[join]] converts a nested "double-level" [[effect-type]] into a "single-level" [[effect-type]]
+**definition** the [[join-function]] converts a nested "double-level" [[effect-type]] into a "single-level" [[effect-type]]
 
 **definition**
 
@@ -17,4 +17,4 @@ see [[functional-programming]]
 
 **applications**
 
-[[join]] can be used to define [[bind]]
+the [[join-function]] can be used to define the [[bind-function]]

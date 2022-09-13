@@ -1,7 +1,5 @@
 # CHM1301 Principles of Chemistry
 
-## general
-
 prof name: Rashmi Venkateswaran
 
 - the prof is there to fill in gaps and help clarify stuff, not to teach what we already know

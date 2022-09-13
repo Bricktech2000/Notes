@@ -1,7 +1,5 @@
 # SEG2105 B Introduction to Software Engineering
 
-## general
-
 prof name: Wassim El Ahmar
 
 prof email: <welah096@uottawa.ca>

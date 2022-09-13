@@ -1,6 +1,6 @@
 # Stack
 
-_LIFO [[data-structure]]_
+_LIFO [[abstract-data-type]]_
 
 **representation**
 

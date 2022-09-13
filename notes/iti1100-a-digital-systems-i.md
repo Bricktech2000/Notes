@@ -2,8 +2,6 @@
 
 <https://uottawa.brightspace.com/d2l/le/content/285255/Home>
 
-## general
-
 prof name: Wassim El Ahmar
 
 prof email: <welah096@uottawa.ca>

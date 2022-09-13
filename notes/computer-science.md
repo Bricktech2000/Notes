@@ -8,7 +8,7 @@
 
 [[lambda-calculus]], [[turing-machine]]
 
-[[data-structure]]s, [[algorithm]]s
+[[abstract-data-type]]s, [[data-structure]]s, [[algorithm]]s
 
 [[information-theory]]
 

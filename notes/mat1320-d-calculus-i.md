@@ -2,8 +2,6 @@
 
 <https://uottawa.brightspace.com/d2l/le/content/283684/Home>
 
-## general
-
 prof name: Dr. Xinhou Hua
 
 prof email: <hxinhou@uottawa.ca> (use email subject _MAT1320 D_)

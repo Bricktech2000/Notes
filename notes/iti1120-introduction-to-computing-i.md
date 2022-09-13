@@ -1,7 +1,5 @@
 # ITI1120 Introduction to Computing I
 
-## general
-
 prof name: Mohammad Alja'Afreh
 
 - Aziz opinion spreadsheet: <https://docs.google.com/document/u/1/d/1daeurEL2MSgEuwCxslz8WRio-YVEySmJXXD8FP3Yci8/mobilebasic>
@@ -9,5 +7,3 @@ prof name: Mohammad Alja'Afreh
 - actual prof's email &mdash; Discord questions: <jaafreh@uottawa.ca>
 
 ## Class Notes
-
-&mdash;

@@ -54,7 +54,7 @@ composition is denoted through the [[operator]] $\circ$ in [[conventional-math-n
 
 ### Identities
 
-identities are morphisms that map an object to itself. in a category, each object must have an identity morphism. the set of all identities in a category is denoted $\mathcal C(A, A) = \braket{\braket{1_A, \dots}}$ in [[conventional-math-notation]].
+identities are morphisms that [[map]] an object to itself. in a category, each object must have an identity morphism. the set of all identities in a category is denoted $\mathcal C(A, A) = \braket{\braket{1_A, \dots}}$ in [[conventional-math-notation]].
 
 an identity is denoted $1_A: A \to A$ or as $\textbf{id}_A : A \to A$ in [[conventional-math-notation]].
 
