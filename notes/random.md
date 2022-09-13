@@ -418,3 +418,27 @@ $\delta\ f\ (x, y) - \delta x = 1 : (\delta y - \delta x) = 1 : 2 = 3$
 $\delta\ f\ (x', y) - \delta x' = 1 : (\delta y - \delta x') =$
 
 $\delta\ (x \rightarrow f\ (x, y)) - \delta x$
+
+---
+
+$a \dots \lor$
+
+$a \stackrel \lor \dots$
+
+$a {\lor \atop \dots}$
+
+$1 : 2 : \dots 5$
+
+$a \dots \lor$
+
+$a^0 \lor a^1 \lor \dots a^5$
+
+$a \lor \dots$
+
+$a : \dots$
+
+$x = 5 \lor \dots$
+
+```lua
+S ((+) map.) reduce. A ==
+```

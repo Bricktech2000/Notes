@@ -33,8 +33,6 @@ $M\ e$, where
 
 ## Multiset Union and Intersection
 
-#think is $\max$ and $\min$ operators a good idea?
-
 **definition** _multiset union_ $M \lor N \equiv x \rightarrow \max\ (M\ x)\ (N\ x)$
 
 **definition** _multiset intersection_ $M \land N \equiv x \rightarrow \min\ (M\ x)\ (N\ x)$
@@ -45,15 +43,15 @@ $M\ e$, where
 
 **definition** _multiset difference_ $M\ /\ N \equiv x \rightarrow M\ x \cdot N\ x \lor 0$
 
-**definition** two [[multiset]]s are _equivalent_ if and only if they contain the same elements. $M \equiv N \equiv x \rightarrow M\ x = N\ x$
+**definition** two [[multiset]]s are _equivalent_ if and only if they contain the same number of the same elements. $M \equiv N \equiv x \rightarrow M\ x = N\ x$
 
-## Multiset Size
+## Multiset Cardinality
 
 **notation**
 
 $M^\#$
 
-**definition** the _size_ of a [[multiset]] is the sum of the multiplicities of the elements in the [[multiset]]
+**definition** the _cardinality_ of a [[multiset]] is the sum of the multiplicities of the elements in the [[multiset]]
 
 > **example** $((1, 2, 2, 2, 3, 3))^\# = 1 : 3 : 2 = 6$
 

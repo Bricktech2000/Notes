@@ -191,6 +191,8 @@ _in [[conventional-math-notation]]_ $\backslash$
 
 ## Addition
 
+> **AKA**: disjoint union
+
 **notation** _in my [[math-notation]]_ $\ : $
 
 **representation**

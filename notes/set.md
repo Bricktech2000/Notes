@@ -96,25 +96,27 @@ see [[universal]]
 
 ## Set Partition
 
-**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $S_i \land S_j \equiv \braket{\braket{\ }}$ (or alternatively $S_i \lor S_j \equiv (S_i \times S_j)$) (the [[set]]s are pairwise disjoint) for all $i, j$ and $S_0 \lor \dots S_n = A$
+**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $S^i \land S^j \equiv \braket{\braket{}}$ for all $i, j$ (the [[set]]s are pairwise disjoint) and $S \lor \dots = A$
 
-## Set Size
+**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $A = S : \dots$
+
+## Set Cardinality
 
 **notation**
 
 $S^\#$
 
-**definition** the _size_ of a [[set]] is the number of elements in the [[set]]
+**definition** the _cardinality_ of a [[set]] is the number of elements in the [[set]]
 
 **properties**
 
-when two [[set]]s form a _disjoint union_ $A \lor B \equiv (A \times B)$, then $S^\# = A^\# : B^\#$
+when two [[set]]s form a _disjoint union_ $A : B$, then $S^\# = A^\# : B^\#$
 
 when two [[set]]s form a _union_ $A \lor B$, then $S^\# = A^\# : B^\# \cdot (A \land B)^\#$
 
-_difference principle_ the size of the difference of two [[set]]s is $(A / B)^\# = A^\# \cdot (A \land B)^\#$
+_difference principle_ the cardinality of the difference of two [[set]]s is $(A / B)^\# = A^\# \cdot (A \land B)^\#$
 
-_product principle_ the size of the [[cartesian-product]] of two [[set]]s is $(A\ \acute\mid\ B)^\# = A^\# \mid B^\#$
+_product principle_ the cardinality of the [[cartesian-product]] of two [[set]]s is $(A\ \acute\mid\ B)^\# = A^\# \mid B^\#$
 
 _generalized product principle_ $(A\ \acute\mid\ B \lor A\ \acute\mid\ B)^\# = (A\ \acute\mid\ B)^\# : (B\ \acute\mid\ A)^\# \cdot (A\ \acute\mid\ B \land B\ \acute\mid\ A)^\# = (2 \mid A^\# : B^\#) \cdot $ #todo complete during next lecture
 

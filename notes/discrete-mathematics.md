@@ -6,7 +6,7 @@ _an introduction into mathematical thinking_
 
 [[proof]]
 
-[[set]], [[ordered-pair]], [[cartesian-product]], [[relation]], [[function]]
+[[set]], [[set-theory]], [[multiset]], [[ordered-pair]], [[vector]], [[cartesian-product]], [[relation]], [[function]]
 
 [[logic-statement]], [[predicate]], [[boolean-logic]] operators, [[quantifier]]s
 

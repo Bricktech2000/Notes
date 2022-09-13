@@ -4,6 +4,8 @@
 
 ## Class Notes
 
+[[discrete-mathematics]]
+
 [[set]], [[multiset]]
 
 **related**
@@ -13,3 +15,5 @@
 [[cartesian-product]]
 
 [[number]] sets, [[universal]] set, [[empty]] set
+
+[[psi-function-in-mat2348]]
