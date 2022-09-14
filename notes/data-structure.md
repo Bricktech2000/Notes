@@ -10,6 +10,8 @@ implements the interface an [[abstract-data-type]] describes
 
 **types**
 
-dynamic array
+[[array]]
 
 [[linked-list]]
+
+[[heap]]

@@ -4,7 +4,7 @@ _the [[set]] of [[imaginary]] numbers_
 
 see [[math-notation]]
 
-**definition** $(\mathbb C\ /\ \mathbb R)\ x \equiv x = b\lfloor \cdot 1 \rfloor \land \mathbb R b$
+**definition** $(\mathbb C\ /\ \mathbb R)\ x \equiv x = b\iota \land \mathbb R b$
 
 **properties**
 

@@ -27,6 +27,4 @@ divide and conquer #todo
 
 [[hash]] [[function]]s
 
-BFS #todo
-
-DFS #todo
+[[breadth-first-search]], [[depth-first-search]], [[best-first-search]]

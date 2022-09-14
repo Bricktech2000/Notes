@@ -1,6 +1,8 @@
 # Set
 
-see [[math-notation]]
+**see** [[abstract-data-type]]
+
+**see** [[math-notation]]
 
 **definition** a _set_ is an unordered collection of elements, each of which are unique
 

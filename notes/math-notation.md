@@ -83,14 +83,15 @@ also see [[trigonometric-function]]s and [[calculus-notation]]
 
 ### constants
 
-| constant      | definition                                                   | notes                                  |
-| ------------- | ------------------------------------------------------------ | -------------------------------------- |
-| $\varnothing$ | _undefined_                                                  | see [[improved-expression-evaluation]] |
-| $\top$        | logical true                                                 |                                        |
-| $\bot$        | logical false                                                |                                        |
-| $\tau$        | the ratio of the circumference of a [[circle]] to its radius | using $\pi$ is discouraged             |
-| $e$           | Euler's constant                                             | see [[eulers-constant]]                |
-| $i$           | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]]                      |
+| constant      | definition                                                   | notes                                       |
+| ------------- | ------------------------------------------------------------ | ------------------------------------------- |
+| $\varnothing$ | _undefined_                                                  | see [[improved-expression-evaluation]]      |
+| $\top$        | logical true                                                 |                                             |
+| $\bot$        | logical false                                                |                                             |
+| $\tau$        | the ratio of the circumference of a [[circle]] to its radius | using $\pi$ is discouraged                  |
+| $e$           | Euler's constant                                             | see [[eulers-constant]]                     |
+| $\iota$       | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]], using $i$ is discouraged |
+| $\Gamma$      | the gamma [[function]]                                       | using $\operatorname{fact}$ is discouraged  |
 
 ### operator properties
 
@@ -132,7 +133,7 @@ _in order of high to low precedence_
 
 [[quadratic-formula]]: $\cdot b : \lfloor b2 \cdot 4ac \rfloor - 2a$
 
-definition of the [[set]] of [[complex]] numbers: $\mathbb C x \equiv x = a : b \lfloor \cdot 1 \rfloor \land \mathbb R a \land \mathbb R b$
+definition of the [[set]] of [[complex]] numbers: $\mathbb C x \equiv x = a : b\iota \land \mathbb R a \land \mathbb R b$
 
 definition of the implication / sub[[set]] / super[[set]] / “for all” symbol: $a \vdash b \equiv /a \lor b$ and $a \dashv b \equiv a \lor /b$
 

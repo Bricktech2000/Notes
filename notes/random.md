@@ -462,3 +462,7 @@ odd-even-even: $5 \mid 5 \mid 4 = 100$
 odd-odd-even: $5 \mid 4 \mid 5 = 100$
 
 total: $48 : 80 : 100 : 100 = 328$
+
+---
+
+$(101 \cdot 10 \lfloor 93 \rfloor)a2\ :\ (139 \cdot 13 \lfloor 93 \rfloor)a\ \cdot\ 76\ -\ 108$

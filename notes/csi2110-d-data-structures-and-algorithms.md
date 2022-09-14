@@ -2,8 +2,8 @@
 
 ## Class Notes
 
-[[algorithm]]
+[[abstract-data-type]], [[data-structure]], [[algorithm]]
 
-[[time]] [[complexity]]
+[[time]] [[computational-complexity]]
 
 **related**

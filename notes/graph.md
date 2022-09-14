@@ -56,7 +56,7 @@ see [[category]], [[category-theory]]
 
 **definition** a [[graph]] $G_1$ is an _induced subgraph_ of $G_2$ if and only if it is a _subgraph_ of $G_2$ and $G_1\ e^\bot \land G_1\ e^\top \vdash G_1^e = G_2^e$ (the subgraph must contain all the original edges connecting its vertices)
 
-## Degree
+## Vertex Degree
 
 **definition** the _degree_ of a vertex $v$ is the number of edges incident to $v$
 

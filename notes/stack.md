@@ -1,15 +1,31 @@
 # Stack
 
-_LIFO [[abstract-data-type]]_
+**see** [[abstract-data-type]]
+
+_LIFO [[abstract-data-type]] that can push and pop elements_
 
 **representation**
 
 ```
-in out
-\/ /\
+push pop
+ \/  /\
 
-TOP (stack pointer)
-item
-item
-item
+ TOP (stack pointer)
+ element
+ element
+ element
 ```
+
+**types**
+
+[[linked-list]] [[stack]]
+
+[[array]] [[stack]]
+
+**applications**
+
+used by processors to implement [[recursion]]
+
+can be used in [[depth-first-search]]
+
+can be used in recursive [[parser]]s

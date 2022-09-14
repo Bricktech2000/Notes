@@ -13,3 +13,9 @@ describes the interface a [[data-structure]] must implement
 [[stack]]
 
 [[queue]]
+
+[[priority-queue]]
+
+[[tree]]
+
+[[union-find]]

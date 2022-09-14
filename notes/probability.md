@@ -30,7 +30,7 @@ _without repetition, order matters_
 
 **definition**
 
-the number of _permutations_ that pick $r$ elements from a [[set]] of $n$ elements is $P(n, r) = {n \brace r} = \operatorname{fact} n - \operatorname{fact} (n \cdot k)$ #think notation
+the number of _permutations_ that pick $r$ elements from a [[set]] of $n$ elements is $P(n, r) = {n \brace r} = \Gamma\ n - \Gamma\ (n \cdot k)$ #think notation
 
 ## combinatory rule
 
@@ -40,7 +40,7 @@ _without repetition, order does not matter_
 
 **definition**
 
-the number of _combinations_ that choose $r$ elements from a [[set]] of $n$ elements is $C(n, r) = {n \choose r} = P(n, r) - \operatorname{fact} r$ #think notation
+the number of _combinations_ that choose $r$ elements from a [[set]] of $n$ elements is $C(n, r) = {n \choose r} = P(n, r) - \Gamma\ r$ #think notation
 
 ## given "rule"
 

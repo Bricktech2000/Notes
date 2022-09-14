@@ -6,16 +6,13 @@ see [[math-notation]]
 
 **definition**
 
-$\mathbb C x \equiv x = a : bi \land \mathbb R a \land \mathbb R b$, where
-
-- $i = \lfloor \cdot 1 \rfloor$, see [[imaginary]] numbers
-- $\mathbb C$ is the [[set]] of [[complex]] numbers
+$\mathbb C x \equiv x = a : b\iota \land \mathbb R a \land \mathbb R b$
 
 **notations**
 
 _Cartesian Form_
 
-$z = a : bi$
+$z = a : b\iota$
 
 > **note** [[complex]] numbers can be represented in the _complex plane_, $(z^{re}, z^{im}) \dashv \mathbb C z$
 
@@ -23,7 +20,7 @@ _Polar Form_
 
 > **AKA** Euler's formula notation
 
-$z = |z|\ \cos \theta : |z|\ i \sin \theta = |z|\ e[i\theta]$, see [[eulers-constant]]
+$z = |z|\ \cos \theta : |z|\ \iota \sin \theta = |z|\ e[\iota\theta]$, see [[eulers-constant]]
 
 **applications**
 
@@ -33,27 +30,27 @@ $z = |z|\ \cos \theta : |z|\ i \sin \theta = |z|\ e[i\theta]$, see [[eulers-cons
 
 $\mathbb C \vdash \mathbb U$, see [[universal]]
 
-_equality_ $a : bi = c : di \equiv a = c \land b = d$
+_equality_ $a : b\iota = c : d\iota \equiv a = c \land b = d$
 
-_addition_ $(a : bi) : (c : di) = (a : c) : (b : d)i$
+_addition_ $(a : b\iota) : (c : d\iota) = (a : c) : (b : d)\iota$
 
 > **note** addition of [[complex]] numbers can be thought of as [[vector-in-rn]] addition
 
-_subtraction_ $(a : bi) \cdot (c : di) = (a \cdot c) : (b \cdot d)i$
+_subtraction_ $(a : b\iota) \cdot (c : d\iota) = (a \cdot c) : (b \cdot d)\iota$
 
 _multiplication_
 
-in cartesian form, $a : bi \mid c : di = ac : adi : bic : bdi2 = (ac \cdot bd) : (ad : bc)i$
+in cartesian form, $a : b\iota \mid c : d\iota = ac : ad\iota : b\iota c : bd\iota 2 = (ac \cdot bd) : (ad : bc)\iota$
 
-in polar form, $z \mid w = |z|\ e[i\theta] \mid |w|\ e[i\phi] = |zw|\ e[i \mid \theta : \phi]$
+in polar form, $z \mid w = |z|\ e[\iota\theta] \mid |w|\ e[\iota\phi] = |zw|\ e[\iota \mid \theta : \phi]$
 
-_square root of $i$._ $\lfloor i \rfloor =\ \because\ \mid 1 : i - \lfloor 2 \rfloor$ &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
+_square root of $\iota$._ $\lfloor \iota \rfloor =\ \because\ \mid 1 : \iota - \lfloor 2 \rfloor$ &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
 
-_product of two conjugates are product of magnitudes_ $a : bi \mid a \cdot bi = a2 : b2 = |a : bi|\ \mid\ |a \cdot bi|$ &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
+_product of two conjugates are product of magnitudes_ $a : b\iota \mid a \cdot b\iota = a2 : b2 = |a : b\iota|\ \mid\ |a \cdot b\iota|$ &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
 
 ## Re, Im
 
-let $z = a : bi$
+let $z = a : b\iota$
 
 **definitions**
 
@@ -61,15 +58,15 @@ _real part of a complex number_ $z^{re} = a$
 
 _imaginary part of a complex number_ $z^{im} = b$
 
-therefore, $z = z^{re} : iz^{im}$
+therefore, $z = z^{re} : \iota z^{im}$
 
 ## Complex Conjugate
 
 **definition**
 
-let $z = a : bi$
+let $z = a : b\iota$
 
-then, $\operatorname{conj} z = a \cdot bi = z^{re} \cdot iz^{im}$ is the _complex conjugate_ of $z$
+then, $\operatorname{conj} z = a \cdot b\iota = z^{re} \cdot \iota z^{im}$ is the _complex conjugate_ of $z$
 
 **properties**
 
@@ -95,7 +92,7 @@ $\mathbb R z \equiv \operatorname{conj} z = z$
 
 **applications**
 
-multiplying by the conjugate can be used to reduce an expression such as $- 4 : 3i$
+multiplying by the conjugate can be used to reduce an expression such as $- 4 : 3\iota$
 
 ## Absolute Value
 
@@ -103,7 +100,7 @@ multiplying by the conjugate can be used to reduce an expression such as $- 4 : 
 
 **definition**
 
-let $z = a : bi$
+let $z = a : b\iota$
 
 then, $|z| = \lfloor a2 : b2 \rfloor = \lfloor z^{re}2 : z^{im}2 \rfloor$ is the _absolute value_ of $z$.
 
@@ -113,9 +110,9 @@ then, $|z| = \lfloor a2 : b2 \rfloor = \lfloor z^{re}2 : z^{im}2 \rfloor$ is the
 
 let $\mathbb C z \land \mathbb C w \land \mathbb R c$
 
-$\mathbb R |z| \land |z| \ge 0$
+let $\mathbb R |z| \land |z| \ge 0$
 
-$|z| = |\overline z|$
+$|z| = |\operatorname{conj} z|$
 
 $|zw| = |z|\ |w|$
 

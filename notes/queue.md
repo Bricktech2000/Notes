@@ -1,19 +1,33 @@
 # Queue
 
-_FIFO [[abstract-data-type]]_
+**see** [[abstract-data-type]]
+
+_FIFO [[abstract-data-type]] that can enqueue and dequeue elements_
 
 **representation**
 
 ```
- /\
- out
+  /\
+dequeue
 
-HEAD (head pointer)
-item
-item
-item
-TAIL (tail pointer)
+ FRONT (head)
+ element
+ element
+ element
+ BACK (tail)
 
- /\
- in
+  /\
+enqueue
 ```
+
+**types**
+
+[[linked-list]] [[queue]]
+
+[[array]] [[queue]]
+
+**applications**
+
+can be used in [[breadth-first-search]]
+
+can be used to buffer requests in a first-come-first-serve basis

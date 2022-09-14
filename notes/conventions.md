@@ -75,6 +75,8 @@ blockquotes added in new:
 - applications
 - pros
 - cons
+- pros & cons
+- representation
 
 ### quotes, italics, bold, sources, URLs
 

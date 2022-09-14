@@ -35,11 +35,11 @@ $\mathbb T \vdash \mathbb F$, see [[function-vector-space]]
 
 **theorem** for any $\mathbb T T$, there exists a [[matrix]] $A$ such that $(T\ u = A \mid u) \dashv \mathbb R^n u$. in other words, any [[linear-transformation]] can be represented as a [[matrix]] multiplication
 
-> **note** $A \ne \varnothing \not \vdash \mathbb T T$ (the existence of such a [[matrix]] $A$ does not imply that $T$ is a [[linear-transformation]])
+> **note** the existence of such a [[matrix]] $A$ does not imply that $T$ is a [[linear-transformation]]
 
 in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \dots & T\ b_n \\\ | & & |\end{bmatrix}$ where $\braket{\braket{b_0 \dots b_n}}$ is the standard [[basis]] for $\mathbb R^n$, see #magic. $A$ is the _standard [[matrix]]_ of the [[linear-transformation]] $T$
 
-> **example** _computing a standard matrix_
+> **example** _computing a standard [[matrix]]_
 >
 > let $\mathbb T T \land T\ (x, y, z) = (x : 5y : z, x \cdot 3z, y, y : 2z)$
 >
@@ -49,7 +49,7 @@ in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \dots & T\ b_n \\
 >
 > $A = \begin{bmatrix}| & | & | \\\ T\ (1, 0, 0) & T\ (0, 1, 0) & T\ (0, 0, 1) \\\ | & | & |\end{bmatrix} = \begin{bmatrix}1 & 5 & 1 \\\ 1 & 0 & \cdot 3 \\\ 0 & 1 & 0 \\\ 0 & 1 & 2\end{bmatrix}$
 
-> **example** _turning a projection into matrix multiplication_
+> **example** _turning a [[vector]] projection into [[matrix]] multiplication_
 >
 > let $W = \operatorname{span} \braket{\braket{\ (1, 0, 1), (0, 1, 0)\ }}$ and $T\ u = proj_W\ u \land \mathbb R^3 u$
 >

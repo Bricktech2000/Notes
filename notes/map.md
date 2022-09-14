@@ -1,5 +1,5 @@
 # Map
 
-_random access [[abstract-data-type]]_
+**see** [[abstract-data-type]]
 
 used for backlinks

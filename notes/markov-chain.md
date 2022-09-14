@@ -16,9 +16,7 @@
 
 certain [[markov-chain]]s converge to a _stationary distribution_, which can be computed using [[matrix]] multiplication
 
-[[eigenvector-and-eigenvalue]]s can be used for the [[optimization]] of this process in [[computer-science]]
-
-> **procedure** computing a stationary distribution through [[iteration]]\_
+> **procedure** _computing a stationary distribution through [[iteration]]_
 >
 > let $S_0 = \begin{bmatrix} S_0^0 \\\ \vdots \\\ S_0^s \end{bmatrix}$, where
 >
@@ -36,3 +34,13 @@ certain [[markov-chain]]s converge to a _stationary distribution_, which can be 
 > we can then deduce $S_\infty = \lim_{n \to \infty} [P]n \mid S_0$, where
 >
 > - $S_\infty$ is the _stationary distribution_ of the [[markov-chain]]
+
+> **procedure** _computing a stationary distribution through [[eigenvector-and-eigenvalue]]s_
+>
+> the [[eigenvector]]s of the [[markov-chain]]'s _transition matrix_ are the _stationary distribution_ of the [[markov-chain]]
+>
+> it is common to multiply the resulting [[eigenvector]] $x$ by a [[scalar]] $k$ so that $kx : \dots = 1$
+>
+> &mdash; <https://youtu.be/EGoRJePORHs?t=551>
+>
+> &mdash; <https://youtu.be/d9-L2AmngKE>

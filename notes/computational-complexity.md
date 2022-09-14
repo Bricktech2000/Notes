@@ -1,4 +1,4 @@
-# Complexity
+# Computational Complexity
 
 _time complexity, space complexity_
 
@@ -18,6 +18,10 @@ _time complexity, space complexity_
 
 **properties**
 
-let $0 < c < 1$
+let $0 < \omega < 1$ and let $b > 1$
 
-$\Omicron\ 1 \vdash \Omicron\ \lceil \lceil n \rceil \rceil \vdash \Omicron\ \lceil n \rceil \vdash \Omicron\ [n]c \vdash \Omicron\ n \vdash \Omicron\ n \lceil n \rceil \vdash \Omicron\ n2 \vdash \Omicron\ n3 \vdash \Omicron\ 2[n] \vdash \Omicron\ \operatorname{fact} n$
+$\Omicron\ 1 \vdash \Omicron\ \lceil \lceil n \rceil \rceil \vdash \Omicron\ \lceil n \rceil \vdash \Omicron\ [n]\omega \vdash \Omicron\ n \vdash \Omicron\ n \lceil n \rceil \vdash \Omicron\ n2 \vdash \Omicron\ n3 \vdash \Omicron\ b[n] \vdash \Omicron\ \Gamma\ n$
+
+$\Omicron\ (c : f\ n) = \Omicron\ f\ n$ with all $c$
+
+$\Omicron\ (cf\ n) = \Omicron\ f\ n$ with $c > 0$
