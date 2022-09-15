@@ -1,4 +1,4 @@
-## MAT2348 A Discrete Mathematics
+# MAT2348 A Discrete Mathematics
 
 ## Class Notes
 

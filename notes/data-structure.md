@@ -15,3 +15,5 @@ implements the interface an [[abstract-data-type]] describes
 [[linked-list]]
 
 [[heap]]
+
+[[union-find]]

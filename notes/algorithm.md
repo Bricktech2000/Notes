@@ -28,3 +28,5 @@ divide and conquer #todo
 [[hash]] [[function]]s
 
 [[breadth-first-search]], [[depth-first-search]], [[best-first-search]]
+
+[[kruskals-algorithm]]

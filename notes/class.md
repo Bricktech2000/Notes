@@ -7,3 +7,5 @@ _the blueprint of an [[object]]_
 **properties**
 
 an [[object]] has a state whereas a [[class]] does not (duplicate)
+
+[[classes]] are used as a unit of [[abstraction]] in [[object-oriented-programming]]

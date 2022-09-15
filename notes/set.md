@@ -135,3 +135,53 @@ _generalized product principle_ $(A\ \acute\mid\ B \lor A\ \acute\mid\ B)^\# = (
 > $P\ O = \braket{\braket{O}}$
 >
 > $P\ P\ O = \braket{\braket{\ O, \braket{\braket{O}}\ }}$
+
+## Set Arrangement
+
+_order matters_
+
+**definition** an _arrangement_ of size $k$ of a [[set]] $A$ is a [[vector-in-rn]] containing $k$ elements of $A$
+
+the number of $k$-arrangements of an $n$-set is
+
+- $P\ n\ k = \Gamma n - \Gamma (n \cdot k)$ with repetition forbidden. also called _.$k$-permutations_
+- $P'\ n\ k = [n]k$ with repetition allowed also called _.$k$-tuples_
+
+#todo fix duplication with [[probability]]
+
+## Set Combination
+
+_order does not matter_
+
+**definition** a _combination_ of size $k$ of a [[set]] $A$ is a [[multiset]] containing $k$ elements of $A$
+
+the number of $k$-combinations of an $n$-set is
+
+- $C\ n\ k = P\ n\ k - P\ k\ k = \Gamma n - \Gamma (n \cdot k) - \Gamma\ k$ with repetition forbidden. also called _.$k$-subsets_
+- $C'\ n\ k = C\ (k : n \cdot 1)\ (n \cdot 1)$ with repetition allowed. also called _.$k$-multisubsets_
+
+> **proof** _stars and bars proof sketch_
+>
+> given a [[multiset]] of elements,
+>
+> $a\ e\ b\ a\ d\ b\ b\ a\ c\ e$
+>
+> rewriting in order as order does not matter,
+>
+> $a\ a\ a\ b\ b\ b\ c\ d\ e\ e$
+>
+> represented as _stars and bars_,
+>
+> $\cdot \cdot \cdot \mid \cdot \cdot \cdot \mid \cdot \mid \cdot \mid \cdot\ \cdot$
+>
+> there are $k : n \cdot 1$ choose $n \cdot 1$ ways to arrange the bars
+
+> **theorem**
+>
+> - let $P\ n\ k$ be the $k$-permutations of an $n$-[[set]]
+> - let $C\ n\ k$ be the $k$-subsets of an $n$-[[set]]
+> - let $P\ k\ k$ be the $k$-permutations of a $k$-[[set]]
+>
+> then, there exists a bijection between $P\ n\ k$ and $C\ n\ k\ \acute\mid\ P\ k\ k$
+>
+> moreover, $(C\ n\ k)^\# = (C\ n\ (n \cdot k))^\#$. the number of $k$-subsets of an $n$-[[set]] is equal to the number of $n \cdot k$-subsets of an $n$-[[set]]

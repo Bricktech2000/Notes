@@ -14,7 +14,7 @@ _a [[list]] where all elements are stored contiguously in memory_ #todo
 
 binary [[heap]]s are often represented as a complete binary [[tree]]
 
-binary [[heap]]s are often implemented using dynamic [[array]]s, where a node at index $i$ has its children at indices $2i : 1$ and $2i : 2$ and its parent at index $\operatorname{floor} i \text- 2$
+binary [[heap]]s are often implemented using a dynamic [[array]], see binary [[tree]]
 
 the _last node_ of a [[heap]] represented as a complete binary [[tree]] is the first empty position in the last level of the [[tree]]
 
