@@ -37,3 +37,5 @@
 [[mat2348-a-discrete-mathematics]]
 
 [[csi2110-d-data-structures-and-algorithms]]
+
+[[mat-2377-x-probability-and-statistics-for-engineers]]

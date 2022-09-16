@@ -24,6 +24,12 @@ $P$ is a [[predicate]], see [[math-notation]]
 
 in [[conventional-math-notation]], this abomination: $\lbrace x \mid P(x) \rbrace$
 
+**types**
+
+[[binary-search-tree]] [[set]]
+
+[[hash-table]] [[set]]
+
 **properties**
 
 [[set]]s are categories, see [[category-theory]]
@@ -106,21 +112,21 @@ see [[universal]]
 
 **notation**
 
-$S^\#$
+$\#\ S$
 
 **definition** the _cardinality_ of a [[set]] is the number of elements in the [[set]]
 
 **properties**
 
-when two [[set]]s form a _disjoint union_ $A : B$, then $S^\# = A^\# : B^\#$
+when two [[set]]s form a _disjoint union_ $A : B$, then $\#\ S = \#\ A : \#\ B$
 
-when two [[set]]s form a _union_ $A \lor B$, then $S^\# = A^\# : B^\# \cdot (A \land B)^\#$
+when two [[set]]s form a _union_ $A \lor B$, then $\#\ S = \#\ A : \#\ B \cdot \#\ (A \land B)$
 
-_difference principle_ the cardinality of the difference of two [[set]]s is $(A / B)^\# = A^\# \cdot (A \land B)^\#$
+_difference principle_ the cardinality of the difference of two [[set]]s is $\#\ (A / B) = \#\ A \cdot \#\ (A \land B)$
 
-_product principle_ the cardinality of the [[cartesian-product]] of two [[set]]s is $(A\ \acute\mid\ B)^\# = A^\# \mid B^\#$
+_product principle_ the cardinality of the [[cartesian-product]] of two [[set]]s is $\#\ A\ \acute\shortmid\ B = \#\ A \mid \#\ B$
 
-_generalized product principle_ $(A\ \acute\mid\ B \lor A\ \acute\mid\ B)^\# = (A\ \acute\mid\ B)^\# : (B\ \acute\mid\ A)^\# \cdot (A\ \acute\mid\ B \land B\ \acute\mid\ A)^\# = (2 \mid A^\# : B^\#) \cdot $ #todo complete during next lecture
+_generalized product principle_ $\#\ (A\ \acute\shortmid\ B \lor A\ \acute\shortmid\ B) = \#\ A\ \acute\shortmid\ B : \#\ B\ \acute\shortmid\ A \cdot \#\ (A\ \acute\shortmid\ B \land B\ \acute\shortmid\ A) = (2 \mid \#\ A : \#\ B) \cdot $ #todo complete during next lecture
 
 ## Set Power Set
 
@@ -146,8 +152,6 @@ the number of $k$-arrangements of an $n$-set is
 
 - $P\ n\ k = \Gamma n - \Gamma (n \cdot k)$ with repetition forbidden. also called _.$k$-permutations_
 - $P'\ n\ k = [n]k$ with repetition allowed also called _.$k$-tuples_
-
-#todo fix duplication with [[probability]]
 
 ## Set Combination
 
@@ -184,4 +188,4 @@ the number of $k$-combinations of an $n$-set is
 >
 > then, there exists a bijection between $P\ n\ k$ and $C\ n\ k\ \acute\mid\ P\ k\ k$
 >
-> moreover, $(C\ n\ k)^\# = (C\ n\ (n \cdot k))^\#$. the number of $k$-subsets of an $n$-[[set]] is equal to the number of $n \cdot k$-subsets of an $n$-[[set]]
+> moreover, $\#\ C\ n\ k = \#\ C\ n\ (n \cdot k)$. the number of $k$-subsets of an $n$-[[set]] is equal to the number of $n \cdot k$-subsets of an $n$-[[set]]

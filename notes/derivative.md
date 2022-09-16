@@ -8,7 +8,13 @@ $\frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{x \to 
 
 **definition** _in my [[math-notation]]_
 
-$delta\ f\ x - \delta x = \lim_{h \to 0} f\ (x : h) \cdot f\ x - h = \lim_{x \to a} f\ x \cdot f\ a - x \cdot a$
+$\delta\ f\ x - \delta x = \lim_{h \to 0} f\ (x : h) \cdot f\ x - h = \lim_{x \to a} f\ x \cdot f\ a - x \cdot a$
+
+**definition** _with a multivariable [[function]] in my [[math-notation]]_
+
+let $p = (x \dots)$
+
+$\delta\ f\ p - \delta p = (\delta\ f\ p - \delta p^0, \delta\ f\ p - \delta p^1, \dots)$
 
 **notations**
 
@@ -42,21 +48,19 @@ see [[gradient]]
 
 **definition**
 
-let $f$ be a [[function]] differentiable at $(x, y)$ and let $v$ be a **unit [[vector-in-rn]]**. then,
+let $f$ be a [[function]] differentiable at $p \equiv (x \dots)$ and let $v$ be a **unit [[vector-in-rn]]**. then,
 
-$D^v\ f\ x\ y = \nabla f\ x\ y\ \dot\mid\ v$, where
+$D^v\ f\ p = \delta\ f\ p - \delta p\ \dot\mid\ v$, where
 
-- $D^v\ f\ x\ y$ is the [[derivative]] of $f$ in direction $v$ at $(x, y)$
-- $\nabla f\ x\ y$ is the [[gradient]] of $f$ at $(x, y)$
+- $D^v\ f\ p$ is the [[derivative]] of $f$ in direction $v$ at $p$
+- $\delta\ f\ p - \delta p$ is the [[gradient]] of $f$ at $p$
 - $v$ is the direction [[vector-in-rn]]
 
 > **examples**
 >
-> #todo partial derivative notation
+> $D^{(1, 0)}\ f\ (x, y) = \delta f\ (x, y) - \delta x$
 >
-> $D^{1, 0}\ f\ x\ y = f_x\ (x, y)$
->
-> $D^{0, 1}\ f\ x\ y = f_y\ (x, y)$
+> $D^{(0, 1)}\ f\ (x, y) = \delta f\ (x, y) - \delta y$
 
 ## Partial Derivative
 

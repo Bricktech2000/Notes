@@ -9,11 +9,11 @@ $\lceil a \rceil b$, where
 - $a$ is the value to take the [[logarithm]] of
 - $b$ is the base of the [[logarithm]]
 
-  **definition**
+**definition**
 
 $\lceil a \rceil b = c \equiv b[c] = a$
 
-> **note** the [[logarithm]] of both positive _and_ negative [[number]]s is defined in my [[math-notation]]
+> **note** the [[logarithm]] of both positive **and** negative [[number]]s is defined in my [[math-notation]]
 
 **properties**
 

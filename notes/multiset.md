@@ -43,18 +43,18 @@ $M\ e$, where
 
 **definition** _multiset difference_ $M\ /\ N \equiv x \rightarrow M\ x \cdot N\ x \lor 0$
 
-**definition** two [[multiset]]s are _equivalent_ if and only if they contain the same number of the same elements. $M \equiv N \equiv x \rightarrow M\ x = N\ x$
+**definition** two [[multiset]]s are _equivalent_ if and only if they contain the same number of the same elements. $M \equiv N \equiv x \rightarrow (M\ x = N\ x)$
 
 ## Multiset Cardinality
 
 **notation**
 
-$M^\#$
+$\#\ M$
 
 **definition** the _cardinality_ of a [[multiset]] is the sum of the multiplicities of the elements in the [[multiset]]
 
-> **example** $((1, 2, 2, 2, 3, 3))^\# = 1 : 3 : 2 = 6$
+> **example** $\#\ ((1, 2, 2, 2, 3, 3)) = 1 : 3 : 2 = 6$
 
 **properties**
 
-$(M \lor N)^\# : (M \land N)^\# = (M : N)^\#$
+$\#\ (M \lor N) : \#\ (M \land N) = \#\ (M : N)$

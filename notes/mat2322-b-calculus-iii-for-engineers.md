@@ -34,6 +34,10 @@ level curves and level surfaces
 
 gradient vector is orthogonal to level curve and colinera to normal vector
 
+boundaries
+
+local extrema are at derivative = (0 or does not exit) for all partial derivatives of f
+
 ## Class Notes
 
 [[calculus]]

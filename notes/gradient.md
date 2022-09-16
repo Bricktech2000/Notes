@@ -6,10 +6,6 @@ see [[calculus]], partial [[derivative]]s
 
 **definition**
 
-let $f$ be a [[function]] differentiable at $(x, y)$. then,
+let $f$ be a [[function]] differentiable at $p \equiv (x \dots)$. then, the [[gradient]] of $f$ at $p$ is defined as
 
-$\nabla f\ x\ y = (\delta\ f\ x\ y - \delta x, \delta\ f\ x\ y - \delta y)$, or more explicitly
-
-$\nabla f\ x\ y = ((x\ y \rightarrow \delta\ f\ x\ y - \delta x)\ x\ y, (x\ y \rightarrow \delta\ f\ x\ y - \delta y)\ x\ y)$, where
-
-- $\nabla f\ x\ y$ is the [[gradient]] of the [[function]] $f$ at $(x, y)$
+$\nabla f\ p = \delta\ f\ p - \delta p$

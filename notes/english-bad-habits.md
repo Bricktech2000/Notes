@@ -28,6 +28,8 @@ _a few of my English bad habits_
 
 > **in**tersection
 
+> **it is** Sunday
+
 ## Incorrect
 
 > how's that called

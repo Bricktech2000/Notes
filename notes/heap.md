@@ -4,7 +4,7 @@
 
 _a [[list]] where all elements are stored contiguously in memory_ #todo
 
-**definition** a _heap_ is a [[tree]] that supports the [[heap]] invariant
+**definition** a _heap_ is a [[tree]] that satisfies the [[heap]] invariant
 
 **definition** a _min heap_ will poll the element with the lowest priority
 

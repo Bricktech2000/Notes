@@ -93,3 +93,5 @@
 [[trick]]
 
 [[minimalism]]
+
+[[gamma-function]]

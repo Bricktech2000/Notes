@@ -4,7 +4,7 @@
 
 [[discrete-mathematics]]
 
-[[set]], [[multiset]]
+[[set]], [[set]] arrangement, [[set]] combination, [[multiset]]
 
 **related**
 

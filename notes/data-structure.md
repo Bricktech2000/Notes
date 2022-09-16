@@ -17,3 +17,7 @@ implements the interface an [[abstract-data-type]] describes
 [[heap]]
 
 [[union-find]]
+
+[[binary-search-tree]]
+
+[[hash-table]]

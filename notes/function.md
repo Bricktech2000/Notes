@@ -89,7 +89,7 @@ see [[calculus-notation]]
 
 **definition** a [[function]] $f$ is _decreasing_ on an interval $x \rightarrow (a \le x \le b)$ if $x_1 > x_2 \vdash f\ x_1 > f\ x_2$, or $\delta\ f\ x - \delta x < 0$ on that interval
 
-## Concavity
+## Function Concavity
 
 see [[calculus-notation]]
 
@@ -99,7 +99,7 @@ see [[calculus-notation]]
 
 a point where concavity changes (from up to down or down to up) is an [[inflection-point]]
 
-## Extremum
+## Function Extremum
 
 see [[inflection-point]], [[derivative]]
 
@@ -107,11 +107,11 @@ see [[inflection-point]], [[derivative]]
 
 **definition**
 
-$f\ x \ge f\ y \dashv \mathbb R y$, and
+the _global extrema_ $x$ of a [[function]] $f$ with domain $D$ are defined as
 
-$f\ x \le f\ y \dashv \mathbb R y$, where
+$f\ x \ge f\ y \dashv D\ y$, and
 
-- $x$ are the $x$ coordinates of the extrema of $f$
+$f\ x \le f\ y \dashv D\ y$
 
 **definition** the _global extrema_ of a [[function]] are the absolute highest and lowest points of the function
 

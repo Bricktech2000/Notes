@@ -2,4 +2,8 @@
 
 **see** [[abstract-data-type]]
 
-used for backlinks
+_an [[abstract-data-type]] that maps unique keys to values_
+
+**types**
+
+[[hash-table]]

@@ -91,7 +91,7 @@ also see [[trigonometric-function]]s and [[calculus-notation]]
 | $\tau$        | the ratio of the circumference of a [[circle]] to its radius | using $\pi$ is discouraged                  |
 | $e$           | Euler's constant                                             | see [[eulers-constant]]                     |
 | $\iota$       | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]], using $i$ is discouraged |
-| $\Gamma$      | the gamma [[function]]                                       | using $\operatorname{fact}$ is discouraged  |
+| $\Gamma$      | the [[gamma-function]]                                       | using $\operatorname{fact}$ is discouraged  |
 
 ### operator properties
 
@@ -102,10 +102,10 @@ _in order of high to low precedence_
 | $()\ \braket{}\ \Big[\Big]\ \ x\ x_a^i$ |               |                |                   |
 | $[ ]\ \lfloor\rfloor\ \lceil\rceil$     |               |                |                   |
 | $\shortmid \text-$                      | left          | $1$            | inverse           |
-| $\delta\ \sin\ \smash\leftarrow$        | right-ish     |                |                   |
+| $\delta\ \sin\ \#\ \smash\leftarrow$    | right-ish     |                |                   |
 | $\ :\ \cdot\ \because\ \ \therefore$    | left          | $0$            | negation          |
 | $\mid -$                                | left          | $1$            | inverse           |
-| $\int \lim\ \dots\ \rightarrow$         | right         |                |                   |
+| $\int \lim\ \dots\ \rightarrow\ \bmod$  | right         |                |                   |
 | $=\ne\gt\ge\lt\le$                      | AND           | $0$            | is (not) $0$      |
 | $/$                                     | left          | $\top$         | logical NOT       |
 | $\land\ \lor$                           | left          |                |                   |

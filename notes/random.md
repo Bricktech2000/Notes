@@ -466,3 +466,19 @@ total: $48 : 80 : 100 : 100 = 328$
 ---
 
 $(101 \cdot 10 \lfloor 93 \rfloor)a2\ :\ (139 \cdot 13 \lfloor 93 \rfloor)a\ \cdot\ 76\ -\ 108$
+
+---
+
+- first digit is not divisible by $5$
+- second digit is not divisible by $3$
+- third digit is divisible by $2$
+
+```
+12346789
+124578
+02468
+```
+
+---
+
+$[a : b]n = (C\ n\ 0) \shortmid a[n] b0 : \dots (C\ n\ n) \shortmid a0 b[n]$
