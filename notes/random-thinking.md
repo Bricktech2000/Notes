@@ -35,3 +35,11 @@ having units in [[programming-language]]s would solve a lot of issues, such as:
 - sending [[time]] to a `sleep` function in milliseconds as opposed to seconds
 
 <https://youtu.be/qC_ioJQpv4E?t=2126> #think
+
+## we are a tiny subset of everything
+
+humans are a minuscule slice of everything. we look for life that have **evolved using water** and that are **roughly our size**. we try to split materials into atoms into elementary particles and assume that **there is a lower limit to how our world can be divided**. we assume that the universe must be the **interaction of "simple" rules**. we try to communicate with other life forms that are **roughly our level of intelligence**.
+
+all the items in bold are a minuscule subset of what is possible. as an example, solar systems are relatively simple when viewed abstractly and gravity is a simple force that pulls spheres together. well, what if the elementary particles we keep looking for are in reality equivalent to planets? maybe they hide huge complexity, but seem simple when looked at as spheres affected by gravity. as another example, it would be almost impossible to teach the rules of the game of life to chimpanzees. explaining those rules to humans would take a few minutes. thinking about it, the intelligence of humans and of chimpanzees are actually identical when viewed in the context of all possible intelligence levels. if we find that difference significant, then intelligence levels higher than ours go so high that it is impossible for us to even attempt to understand them.
+
+all of that to say that there might very well be no point in looking for answers at all

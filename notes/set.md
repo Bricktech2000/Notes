@@ -104,7 +104,7 @@ see [[universal]]
 
 ## Set Partition
 
-**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $S^i \land S^j \equiv \braket{\braket{}}$ for all $i, j$ (the [[set]]s are pairwise disjoint) and $S \lor \dots = A$
+**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $S^i \land S^j \equiv \braket{\ }$ for all $i, j$ (the [[set]]s are pairwise disjoint) and $S \lor \dots = A$
 
 **definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $A = S : \dots$
 
@@ -134,9 +134,9 @@ _generalized product principle_ $\#\ (A\ \acute\shortmid\ B \lor A\ \acute\short
 
 > **example**
 >
-> let $P\ A$ be the power set of $A$ and let $O = \braket{\braket{\ }}$
+> let $P\ A$ be the power set of $A$ and let $O = \braket{\ }$
 >
-> $P\ \braket{\braket{1, 2, 3}} = \braket{\braket{\ \braket{\braket{1}}, \braket{\braket{2}}, \braket{\braket{3}}, \braket{\braket{1, 2}}, \braket{\braket{2, 3}}, \braket{\braket{1, 3}}, \braket{\braket{1, 2, 3}}, \braket{\braket{\ }}\ }}$
+> $P\ \braket{\braket{1, 2, 3}} = \braket{\braket{\ \braket{\braket{1}}, \braket{\braket{2}}, \braket{\braket{3}}, \braket{\braket{1, 2}}, \braket{\braket{2, 3}}, \braket{\braket{1, 3}}, \braket{\braket{1, 2, 3}}, \braket{\ }\ }}$
 >
 > $P\ O = \braket{\braket{O}}$
 >

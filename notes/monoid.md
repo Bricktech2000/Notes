@@ -6,11 +6,11 @@ it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] un
 
 **definition**
 
-let a binary [[operator]] $\oplus$ on a [[set]] $S$. for them to form a [[monoid]], the following [[axiom]]s must be respected:
+let a binary [[operator]] $:$ on a [[set]] $S$. for them to form a [[monoid]], the following [[axiom]]s must be satisfied:
 
-- $(a \oplus b) \oplus c = a \oplus (b \oplus c) \dashv S\ a \land S\ b \land S\ c$ &mdash; associativity
-- $a \oplus I = I \oplus a = a \land S\ I \dashv S\ a$ &mdash; identity element
-- $S\ (a \oplus b) \dashv S\ a \land S\ b$ &mdash; closure
+_associativity_ $(a : b) : c = a : (b : c) \dashv S\ a \land S\ b \land S\ c$
+_identity element_ $a : I = a \land S\ I \dashv S\ a$
+_closure_ $S\ (a : b) \dashv S\ a \land S\ b$
 
 &mdash; Wikipedia
 

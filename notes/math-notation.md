@@ -68,6 +68,8 @@ also see [[trigonometric-function]]s and [[calculus-notation]]
 | $ax$ where $x$ is a [[variable]]                                   | $a \smash\shortmid x$                              |                                        |
 | $f\ x$ where $f$ is a [[function]]                                 | $f \smash\leftarrow x$                             | common, longhand discouraged           |
 | $x\ y \rightarrow E$ where $E$ is an [[expression]]                | $x \rightarrow y \rightarrow E$                    |                                        |
+| $\braket{\ }$                                                      | $\braket{\braket{\ }}$                             | see [[empty]] [[set]]                  |
+| $(\ )$                                                             | $((\ ))$                                           | see [[multiset]]                       |
 | $V^x$, $V^y$ and $V^z$ where $V$ is a [[vector]]                   | the $x$, $y$ and $z$ components of $V$             |                                        |
 | $M^{i, j}$ where $M$ is a [[matrix]]                               | $M^{\braket{i, j}}$                                | common, longhand discouraged           |
 | $M^{i,}$ where $M$ is a [[matrix]]                                 | the $i$ th row of $M$                              |                                        |

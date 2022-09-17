@@ -17,3 +17,5 @@
 [[topology]]
 
 [[discrete-mathematics]]
+
+[[logic]]

@@ -1,6 +1,6 @@
 # Abstract Data Type
 
-**see** [[type]], [[data-structure]], [[algorithm]]
+**see** [[type]], [[data-structure]], [[algorithm]], [[abstraction]]
 
 describes the interface a [[data-structure]] must implement
 

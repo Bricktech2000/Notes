@@ -29,7 +29,7 @@ as [[karnaugh-map]]s are difficult to represent in more than two dimensions, mul
 > **procedure** _simplifying a [[boolean]] expression_
 >
 > 1. draw the [[boolean]] expression as a [[karnaugh-map]], see [[disjunctive-normal-form]]
-> 2. find “rectangles” of the same value, which can actually wrap around the edges of the K Map. use the AND [[operator]] to group them together.
+> 2. find “rectangles” of the same value, which can actually wrap around the edges of the [[karnaugh-map]]. use the AND [[operator]] to group them together.
 > 3. use the OR [[operator]] to join the “rectangles” together
 
 ## Implicant
@@ -42,4 +42,4 @@ in a [[karnaugh-map]],
 
 **definition** a _Prime Implicant_ is an implicant (rectangle) that “can’t be explanded any larger”. more formally, it cannot be covered entirely by any other implicant.
 
-**definition** an _Essential Prime Implicant_ is a prime implicant that cannot be removed without leaving a $1$ not covered. for all the $1$ values to be covered in a K Map, all essential prime implicants must be present, but all essential prime implicants being present does not imply all $1$ values have been covered. prime implicants that can be removed without leaving a $1$ not covered are known as _Non-Essential Prime Implicants_
+**definition** an _Essential Prime Implicant_ is a prime implicant that cannot be removed without leaving a $1$ not covered. for all the $1$ values to be covered in a [[karnaugh-map]], all essential prime implicants must be present, but all essential prime implicants being present does not imply all $1$ values have been covered. prime implicants that can be removed without leaving a $1$ not covered are known as _Non-Essential Prime Implicants_

@@ -47,11 +47,15 @@ _[[function]] addition_ $(f : g)\ x = f\ x : g\ x$
 
 _multiplication by a scalar_ $(cf)\ x = c \mid f\ x$
 
-## Domain, Range
+## Domain, Codomain, Range
 
 **definition** the _domain_ of a [[function]] is the set of arguments for which it will produce an output
 
+**definition** the _codomain_ of a [[function]] is the set of all **possible** outputs
+
 **definition** the _range_ of a [[function]] is the set of all outputs it can produce
+
+this asymmetry between the "input" and the "output" of a [[function]] is what distinguishes it from a [[relation]] &mdash; <https://youtu.be/O2lZkr-aAqk?t=724>
 
 **properties**
 
@@ -158,7 +162,7 @@ if $f\ x$ and $g\ x$ are continuous at $a$, then the following functions are als
 - $c f$ where $c$ is a constant
 - $f \text- g$ if $g\ a \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
 
-  **definition** a [[function]] is _continuous_ on an interval $a \le x \le b$ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
+**definition** a [[function]] is _continuous_ on an interval $a \le x \le b$ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
 
 ## Inverse (or Reciprocal) Function
 
@@ -270,11 +274,11 @@ see [[integral]]
 
 ## Injective Function
 
-_is the reciprocal a function?_
+_are multiple inputs collapsed into single outputs?_
 
 > **AKA** one-to-one function
 
-**definition** a [[function]] $f$ is said to be _injective_ if $f\ x_1 = f\ x_2 \vdash x_1 = x_2 \dashv \mathbb U x_1 \land \mathbb U x_2$, see [[universal]]. _only one output value corresponds to a given input value_
+**definition** a [[function]] $f$ is said to be _injective_ if $f\ x_1 = f\ x_2 \vdash x_1 = x_2 \dashv \mathbb U x_1 \land \mathbb U x_2$, see [[universal]]. _only one output value corresponds to any input value_
 
 given the graph of a [[function]], one can use the _horizontal line test_ to determine whether it is injective or not
 
@@ -310,7 +314,7 @@ a [[function]] can be proven to be surjective by proving one can construct an in
 
 ## Bijective Function
 
-**definition** a [[function]] $f$ is said to be _bijective_ if it is both injective and surjective. _each element of the domain of $f$ is mapped to a unique element of the codomain of $f$._
+**definition** a [[function]] $f$ is said to be _bijective_ if it is both injective and surjective. _every element of the domain of $f$ is mapped to a single unique element of the codomain of $f$._
 
 a [[function]] can be proven to be bijective by proving it is both injective and surjective
 
@@ -332,9 +336,21 @@ analytic [[function]] is infinitely differentiable, but an infinitely differenti
 
 _a function defined as a [[polynomial]] divided by another [[polynomial]]_
 
+## Pure Function
+
+**definition** a _pure function_ is a [[function]] that has no side effects and that does not depend on external state.
+
+of course, any [[function]] can be thought of as having side effects. for example, running a pure [[function]] on a CPU still consumes a measurable amount of [[energy]], modifying the entropy of the universe. &mdash; <https://youtu.be/APUCMSPiNh4?t=2594>. practically, however, this definition is useful
+
+**properties**
+
+pure [[function]]s can be memoized using a [[map]]
+
 ## Total Function
 
 _a [[function]] that doesn't "lie" in its [[type]] signature_
+
+a total [[function]] maps every element of its domain to an element of its codomain
 
 let the following [[function]]:
 
@@ -348,12 +364,6 @@ even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it w
 
 - restrict the input of the [[function]] (something like `nonZeroF64`)
 - extend the input of the [[function]] (something like `Optional<f64>`)
-
-## Pure Function
-
-**definition** a _pure function_ is a [[function]] that has no side effects and that does not depend on external state.
-
-of course, any [[function]] can be thought of as having side effects. for example, running a pure [[function]] on a CPU still consumes a measurable amount of [[energy]], modifying the entropy of the universe. &mdash; <https://youtu.be/APUCMSPiNh4?t=2594>. practically, however, this definition is useful
 
 ## Higher-Order Function
 

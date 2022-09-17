@@ -30,7 +30,7 @@ _in my [[math-notation]]_ a vertex $v$ is in a graph $G$ if and only if there is
 
 _in [[conventional-math-notation]]_ a vertex $v$ is in a graph $\braket{V, E}$ if and only if $V\ v$
 
-## graph isomorphism
+## Graph Isomorphism
 
 see [[category]], [[category-theory]]
 

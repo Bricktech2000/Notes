@@ -71,7 +71,7 @@ in [[java]], memory is freed by the Garbage Collector when all references to an 
 
 ## Java Abstract Data Type
 
-abstract data types include:
+[[abstract-data-type]]s include:
 
 - [[stack]]s
 - [[queue]]s

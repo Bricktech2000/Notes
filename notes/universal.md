@@ -8,4 +8,4 @@ $\mathbb U x = \top$
 
 **properties**
 
-$\mathbb U x \equiv \times\ \braket{\braket{\ }} \equiv \times\ (x \rightarrow \bot) \equiv x \rightarrow \top$
+$\mathbb U x \equiv \times \braket{\ } \equiv \times\ x \rightarrow \bot \equiv x \rightarrow \top$

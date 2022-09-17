@@ -17,7 +17,7 @@ see [[set]]
 
 **definition** the _cycle length_ of a [[probing]] [[function]] $P\ i\ k$ given a [[list]] length $n$ is the minimum number of iterations of $P\ i\ k \bmod n$ that must be performed before the sequence repeats.
 
-the cycle length of a linear [[probing]] [[function]] $i \rightarrow ai : b$ modulo $n$ is $n$ if and only if $= \#\ (\psi\ a \land \psi\ n)$ ($a$ and $n$ are relatively prime, see [[psi-function-in-mat2348]]) &mdash; <https://youtu.be/RBSGKlAvoiM?t=17369>
+the cycle length of a linear [[probing]] [[function]] $i \rightarrow ai : b$ modulo $n$ is $n$ if and only if $\psi\ a \land \psi\ n = (\ )$ , see [[psi-function-in-mat2348]] &mdash; <https://youtu.be/RBSGKlAvoiM?t=17369>
 
 the [[probing]] [[function]] $i \rightarrow i$ is popular because it has a cycle length of $n$ for any $n$
 

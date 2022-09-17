@@ -482,3 +482,21 @@ $(101 \cdot 10 \lfloor 93 \rfloor)a2\ :\ (139 \cdot 13 \lfloor 93 \rfloor)a\ \cd
 ---
 
 $[a : b]n = (C\ n\ 0) \shortmid a[n] b0 : \dots (C\ n\ n) \shortmid a0 b[n]$
+
+---
+
+$\psi\ \#\ \ \vdots\ \ G \le H$
+
+$\int f\ x \mid \delta x\ \ \vdots\ \ a \cdot b$
+
+$(\psi\ \ \vdots\ \ m \land n) = (\ )$
+
+$\#\ \ \vdots\ \ a = b$
+
+$: \dots\ \ \vdots\ \ i : i'$
+
+$\bmod\ 5\ \ \vdots\ \ 1 = 6$
+
+$|x| \equiv \lfloor x2 \rfloor$
+
+$|x| \equiv \lfloor [x] \rfloor$
