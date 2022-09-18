@@ -500,3 +500,9 @@ $\bmod\ 5\ \ \vdots\ \ 1 = 6$
 $|x| \equiv \lfloor x2 \rfloor$
 
 $|x| \equiv \lfloor [x] \rfloor$
+
+---
+
+```
+x (1 min) map
+```

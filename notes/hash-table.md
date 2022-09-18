@@ -8,13 +8,13 @@ _a [[map]] implemented using a [[hash]] [[function]]_
 
 time [[computational-complexity]]:
 
-|        | Average       | Worst         |
-| ------ | ------------- | ------------- |
-| Insert | $\Omicron\ 1$ | $\Omicron\ n$ |
-| Remove | $\Omicron\ 1$ | $\Omicron\ n$ |
-| Lookup | $\Omicron\ 1$ | $\Omicron\ n$ |
+|        | Average | Worst  |
+| ------ | ------- | ------ |
+| Insert | $O\ 1$  | $O\ n$ |
+| Remove | $O\ 1$  | $O\ n$ |
+| Lookup | $O\ 1$  | $O\ n$ |
 
-> **note** time [[computational-complexity]] is $\Omicron\ 1$ only if the [[hash]] [[function]] is uniform
+> **note** time [[computational-complexity]] is $O\ 1$ only if the [[hash]] [[function]] is uniform
 
 **definition** the _load factor_ of a [[hash-table]] is the ratio of the number of elements in the [[hash-table]] to the number of slots in the [[hash-table]]
 

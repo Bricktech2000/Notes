@@ -10,6 +10,8 @@ operators in [[lambda-calculus]]
 
 operators in [[type-theory]]
 
+[[set]] operators
+
 [[logarithm]]s
 
 [[exponent]]s

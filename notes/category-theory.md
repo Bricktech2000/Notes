@@ -33,6 +33,10 @@ a [[category]] with exactly one object is a [[monoid]] (yes, that [[monoid]] fro
 
 the [[category]] of [[type]]s is equivalent to a strongly typed [[programming-language]], as [[function]]s in such a language are only composable if their [[type]]s match
 
+the terminal object of a [[category]] corresponds to the singleton [[set]] and the initial object of a [[category]] corresponds to the [[empty]] [[set]]
+
+_co..._ refers to the same object in the opposite [[category]]. product & coproduct, monad & comonad, monoid & comonoid...
+
 ---
 
 #todo to learn:
@@ -42,3 +46,15 @@ bottom types in haskell &mdash; <https://youtu.be/p54Hd7AmVFU>
 pre order, partial order, total order, and how epi + mono != iso &mdash; <https://youtu.be/aZjhqkD6k6w>
 
 Kleisli category <https://youtu.be/i9CU4CuHADQ>
+
+thin / thick categories
+
+absurd function
+
+universal construction:
+
+> A _product_ of two objects $a$ and $b$ is the object $c$ equipped with two projections such that for any other object $c'$ equipped with two projections there is a unique morphism $m$ from $c'$ to $c$ that factorizes those projections.
+
+&mdash; <https://miklos-martin.github.io/learn/fp/category-theory/2018/02/01/adventures-in-category-theory-the-algebra-of-types.html>
+
+factorizes &mdash; <https://youtu.be/Bsdl_NKbNnU?t=1011>

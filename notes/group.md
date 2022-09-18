@@ -13,8 +13,11 @@ _a [[set]] with extra structure_
 let a binary [[operator]] $:$ on a [[set]] $S$. for them to form a [[group]], the following [[axiom]]s must be satisfied:
 
 _associativity_ $(a : b) : c = a : (b : c) \dashv S\ a \land S\ b \land S\ c$
+
 _identity element_ $a : e = a \land S\ e \dashv S\ a$
+
 _closure_ $S\ (a : b) \dashv S\ a \land S\ b$
+
 _inverse element_ $a : \cdot a = e \dashv S\ a$
 
 **definition** the _order_ of a [[group]] $G$ is the number of elements in the [[group]], denoted $\#\ G$
@@ -37,7 +40,7 @@ the _identity_ element is denoted $e$
 
 $a \circ a$ is denoted $a^2$
 
-**properties** _follows from the [[axiom]]s_
+**properties** _follow from the [[axiom]]s_
 
 a [[group]] contains exactly one identity element
 

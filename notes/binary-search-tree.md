@@ -4,11 +4,11 @@
 
 time [[computational-complexity]]:
 
-|        | Average                     | Worst         |
-| ------ | --------------------------- | ------------- |
-| Insert | $\Omicron\ \lceil n \rceil$ | $\Omicron\ n$ |
-| Remove | $\Omicron\ \lceil n \rceil$ | $\Omicron\ n$ |
-| Search | $\Omicron\ \lceil n \rceil$ | $\Omicron\ n$ |
+|        | Average              | Worst  |
+| ------ | -------------------- | ------ |
+| Insert | $O\ \lceil n \rceil$ | $O\ n$ |
+| Remove | $O\ \lceil n \rceil$ | $O\ n$ |
+| Search | $O\ \lceil n \rceil$ | $O\ n$ |
 
 ## Binary Search Tree Operations
 

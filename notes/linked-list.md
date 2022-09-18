@@ -8,12 +8,12 @@ time [[computational-complexity]]:
 
 |                                | Singly-Linked | Doubly-Linked |
 | ------------------------------ | ------------- | ------------- |
-| Search                         | $\Omicron\ n$ | $\Omicron\ n$ |
-| isEmpty                        | $\Omicron\ 1$ | $\Omicron\ 1$ |
-| Contains                       | $\Omicron\ n$ | $\Omicron\ n$ |
-| Insert / Remove / Peek at head | $\Omicron\ 1$ | $\Omicron\ 1$ |
-| Insert / Remove / Peek at tail | $\Omicron\ n$ | $\Omicron\ 1$ |
-| Insert / Remove / Peek at mid  | $\Omicron\ n$ | $\Omicron\ n$ |
+| Search                         | $O\ n$        | $O\ n$        |
+| isEmpty                        | $O\ 1$        | $O\ 1$        |
+| Contains                       | $O\ n$        | $O\ n$        |
+| Insert / Remove / Peek at head | $O\ 1$        | $O\ 1$        |
+| Insert / Remove / Peek at tail | $O\ n$        | $O\ 1$        |
+| Insert / Remove / Peek at mid  | $O\ n$        | $O\ n$        |
 
 **representation** _Singly-Linked List_
 

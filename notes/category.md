@@ -42,11 +42,15 @@ objects of a category are generally specificed by writing them in a [[set]], den
 
 &mdash; <https://youtu.be/Gai-liKAUPo?t=153>
 
-**definition** the _initial object_ of a [[category]] is the object that has exactly one morphism going to any object in the [[category]].
+**definition** the _initial object_ of a [[category]] is the object that has exactly one morphism going to every object in the [[category]].
 
-**definition** the _terminal object_ of a [[category]] is the object that has exactly one morphism coming to it from any object in the [[category]].
+**definition** the _terminal object_ of a [[category]] is the object that has exactly one morphism coming to it from every object in the [[category]].
 
-_terminal object_ should really have been named _coinitial object_ to match with terms such as _co[[monad]]_ and _coproduct_
+> **note** _terminal object_ should really have been named _coinitial object_ to match with terms such as _co[[monad]]_ and _coproduct_
+
+**properties**
+
+terminal objects are unique up to unique isomorphism
 
 ## Morphisms
 
