@@ -19,7 +19,7 @@ episodic [[memory]]es are very flexible and can therefore be inaccurate or even 
 
 ## factors affecting memory &mdash; with explanations
 
-- place &mdash; it is believed there are dedicated neurons in our brain to remember place and time related to a [[memory]]
+- place &mdash; it is believed there are dedicated [[neuron]]s in our [[brain]] to remember place and time related to a [[memory]]
 - story &mdash; it is easier to remember something when it is part of a story, see [[mnemonic]]s
 - emotion &mdash; [[memory]]es are more vivid and more detailed when accompanied by emotion
 

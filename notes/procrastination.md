@@ -6,7 +6,7 @@ _it isn’t a problem; it’s a solution_ &mdash; <https://youtu.be/DMw8G3RPWrQ?
 
 > **example** _procrastination for studying before a test_
 >
-> our brain has a circuit that tries to figure out how to be efficient. however, perfection is almost never the most [[energy]]-efficient solution to a problem.
+> our [[brain]] has a circuit that tries to figure out how to be efficient. however, perfection is almost never the most [[energy]]-efficient solution to a problem.
 >
 > > why would I spend 30 hours over a full month studying to get an A where I could spend 5 hours studying the night before to get a B
 

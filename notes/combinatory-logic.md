@@ -54,8 +54,8 @@ _in my [[math-notation]]_ $K = f\ x\ y \rightarrow f\ x$
 
 _duplicates the second argument_
 
-> **AKA** 'commute' in APL
+> **AKA** 'commute' or 'self' in APL
 
 **definition**
 
-_in my [[math-notation]]_ $W = f\ x\ y \rightarrow f\ x\ y\ y$
+_in my [[math-notation]]_ $W = f\ x\ \rightarrow f\ x\ x$

@@ -30,7 +30,7 @@ $\lim_{x \to a} [f\ x]n = [\lim_{x \to a} f\ x]n$
 
 ### derived Root Rule
 
-$\lim_{x \to a} \lfloor f\ x \rfloor n = \lfloor \lim_{x \to a} f\ x \rfloor n$. when $\mathbb E n$ (see [[even-number]]), we assume that $\lim_{x \to a} f\ x \ne 0$ (restriction might not be necessary, see [[improved-expression-evaluation]])
+$\lim_{x \to a} \lfloor f\ x \rfloor n = \lfloor \lim_{x \to a} f\ x \rfloor n$. when $\mathbb E n$ (see [[even-number]]), we assume that $\lim_{x \to a} f\ x \ne 0$ (restriction potentially not necessary, see [[improved-expression-evaluation]])
 
 ## Composition Rule
 
@@ -52,7 +52,9 @@ if $\lim_{x \to a} f\ x = \lim_{x \to a} h\ x = L$, then $\lim_{x \to a} g\ x = 
 
 _used to compute [[limit]]s in indeterminate forms using their [[derivative]]s_
 
-> **theorem** let $f\ x$ and $g\ x$ be differentiable [[function]]s such that $\delta\ g\ x - \delta x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]]) in an open interval around $a$. if $\lim_{x \to a} f\ x - g\ x$ is a $0 - 0$ [[limit]] indeterminate form, then $\lim_{x \to a} f\ x - g\ x = \lim_{x \to a} \delta\ f\ x - \delta\ g\ x = \lim_{x \to a} (\delta\ f\ x - \delta x) - (\delta\ g\ x - \delta x)$
+**theorem**
+
+let $f\ x$ and $g\ x$ be differentiable [[function]]s such that $\delta\ g\ x - \delta x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]]) in an open interval around $a$. if $\lim_{x \to a} f\ x - g\ x$ is a $0 - 0$ [[limit]] indeterminate form, then $\lim_{x \to a} f\ x - g\ x = \lim_{x \to a} \delta\ f\ x - \delta\ g\ x = \lim_{x \to a} (\delta\ f\ x - \delta x) - (\delta\ g\ x - \delta x)$
 
 intuitive explanation &mdash; <https://youtu.be/kfF40MiS7zA?t=734>
 

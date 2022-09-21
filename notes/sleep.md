@@ -10,11 +10,11 @@ see [[math-notation]]
 
 the lightest level of [[sleep]] is known as _REM sleep_. this is the stage of [[sleep]] in which dreaming occurs.
 
-brain waves seem to indicate one is awake even though they are still unconscious. neurons are sending out signals muscles, but an area of the brain stem called the _pons_ prevents any signals from getting through. it, however, does not block signals to some muscles in the eyes, which can be seen moving around during REM sleep.
+[[brain]] waves seem to indicate one is awake even though they are still unconscious. [[neuron]]s are sending out signals muscles, but an area of the [[brainstem]] called the _pons_ prevents any signals from getting through. it, however, does not block signals to some muscles in the eyes, which can be seen moving around during REM sleep.
 
 a malfunction of the pons can lead to a [[sleep]] disorder known as _REM behavior disorder_. people affected by this disorder act out their dreams
 
-some people believe that dreaming is meant for one to explore logically nonsensical scenarios while asleep to then come up with novel ideas while awake (the emotional regions of the brain are stimulated but the logical reasoning regions are almost shut down)
+some people believe that dreaming is meant for one to explore logically nonsensical scenarios while asleep to then come up with novel ideas while awake (the emotional regions of the [[brain]] are stimulated but the logical reasoning regions are almost shut down)
 
 &mdash; The Mind Explained | Dreams <https://www.netflix.com/watch/81062189?trackId=254743534>
 

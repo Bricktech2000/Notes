@@ -2,9 +2,9 @@
 
 &mdash; <https://youtu.be/DMw8G3RPWrQ?t=7038>
 
-_unlocking rewards by unconsciously manipulating hard-wired brain circuitry_
+_unlocking rewards by unconsciously manipulating hard-wired [[brain]] circuitry_
 
-the brain circuitry being hijacked is often related to our [[intent-to-mastery]]
+the [[brain]] circuitry being hijacked is often related to our [[intent-to-mastery]]
 
 ## Parasocial Relationships
 
@@ -30,6 +30,6 @@ the brain circuitry being hijacked is often related to our [[intent-to-mastery]]
 
 ## Video Games
 
-[[video-game]]s make the primitive brain circuitry of the player believe they are achieving something, where as they are arguably not. they release a relatively large [[amount-of]] [[dopamine]] (see [[less-stimulated-lifestyle]]) and makes the player go through a large variety of emotions.
+[[video-game]]s make the primitive [[brain]] circuitry of the player believe they are achieving something, where as they are arguably not. they release a relatively large [[amount-of]] [[dopamine]] (see [[less-stimulated-lifestyle]]) and makes the player go through a large variety of emotions.
 
-some games, such as first-person shooters, make the primitive parts of the player's brain believe that events are happening in the real world, even though they are obviously in a simulated environment.
+some games, such as first-person shooters, make the primitive parts of the player's [[brain]] believe that events are happening in the real world, even though they are obviously in a simulated environment.

@@ -17,9 +17,11 @@ $\lceil a \rceil b = c \equiv b[c] = a$
 
 **properties**
 
-$\lceil 1 \rceil n = 0 \dashv n \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
+$\lceil a \rceil b = \lceil a \rceil x - \lceil b \rceil x$
 
-_inverse_ $\lceil -x \rceil = \cdot \lceil x \rceil \dashv x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
+$\lceil 1 \rceil n = 0 \dashv n \ne 0$
+
+_inverse_ $\lceil -x \rceil = \cdot \lceil x \rceil$ (see [[improved-expression-evaluation]])
 
 _product rule_ $\lceil x \mid y \rceil = \lceil x \rceil : \lceil y \rceil$
 

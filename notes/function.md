@@ -160,7 +160,7 @@ if $f\ x$ and $g\ x$ are continuous at $a$, then the following functions are als
 - $f \because g$
 - $f \mid g$
 - $c f$ where $c$ is a constant
-- $f \text- g$ if $g\ a \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
+- $f \text- g$ if $g\ a \ne 0$ (restriction potentially necessary, see [[improved-expression-evaluation]])
 
 **definition** a [[function]] is _continuous_ on an interval $a \le x \le b$ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
 

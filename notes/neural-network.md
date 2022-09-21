@@ -26,6 +26,6 @@ the "hello world" of neural networks is recognizing hand-written digits. the MNI
 
 ## differences with biology
 
-the activation of neurons in a neural network is continuous whereas the activation of biological neurons is [[binary]]
+the activation of neurons in a neural network is continuous whereas the activation of biological [[neuron]]s is [[binary]]
 
 &mdash; <https://youtu.be/IHZwWFHWa-w>

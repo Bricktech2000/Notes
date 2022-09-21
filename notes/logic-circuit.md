@@ -36,7 +36,7 @@ see [[digital-system]], [[boolean-logic]]
 
 **types**
 
-#todo fix thi heading
+#todo fix the heading above
 
 ### Combinational Logic Circuit
 

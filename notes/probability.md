@@ -46,9 +46,9 @@ $P \braket{A, B} = P \braket{A \land B, S} - P \braket{B, S}$, where
 
 ## Bayes' Theorem
 
-> **theorem** _Bayes' Theorem_
->
-> $P \braket{A, B} = P \braket{A, S} - P \braket{B, S} \mid P \braket{B, A}$
+**theorem** _Bayes' Theorem_
+
+$P \braket{A, B} = P \braket{A, S} - P \braket{B, S} \mid P \braket{B, A}$
 
 > **proof**
 >

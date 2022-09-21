@@ -58,3 +58,14 @@ $\#\ M$
 **properties**
 
 $\#\ (M \lor N) : \#\ (M \land N) = \#\ (M : N)$
+
+## Multiset Arrangement
+
+_order matters_
+
+**definition** an _arrangement_ of size $k$ of a [[multiset]] $M$ is a [[vector-in-rn]] containing $k$ elements of $M$
+
+the number of $k$-arrangements of an $n$-multiset $M$ with multiplicities $k_0 \dots k_{n \cdot 1}$ is
+
+- $C\ n\ k_0 \dots k_{n \cdot 1} = \Gamma\ n - (\Gamma\ k_0 \mid \dots \Gamma\ k_{n \cdot 1})$ with repetition forbidden
+- see [[set]] arrangement for repetition allowed

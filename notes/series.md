@@ -66,7 +66,7 @@ let $b$ and $B$ be [[series]] and suppose $0 \le b^n \le B^n \dashv \mathbb N n$
 - if $b$ diverges, then $B$ diverges
 
 > **note** the following [[series]] are useful for testing convergence:
-> 
+>
 > - $b = b^0r0 : b^0r1 : \dots$ (see geometric [[series]] convergence for proof)
 > - $b = \text-[1]p : \text-[2]p : \dots$ (see [[integral]] p-test for proof)
 
@@ -105,7 +105,7 @@ let $b$ be a [[series]]. if $\lim_{n \to \infty} b^n \ne 0$, then $b$ is diverge
 
 ### Alternating Test
 
-> **theorem** let $b$ be a [[series]] such that $b^n = [\cdot 1]n \mid a^n$ where either $a^n \ge 0$ for all $n$ or $a^n \le 0$ for all $n$. then, if $\lim_{n \to \infty} a^n = 0$ and if $a$ is an eventually decreasing sequence, the [[series]] $b$ is convergent &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
+**theorem** let $b$ be a [[series]] such that $b^n = [\cdot 1]n \mid a^n$ where either $a^n \ge 0$ for all $n$ or $a^n \le 0$ for all $n$. then, if $\lim_{n \to \infty} a^n = 0$ and if $a$ is an eventually decreasing sequence, the [[series]] $b$ is convergent &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
 
 ### Geometric [[series]] Convergence
 

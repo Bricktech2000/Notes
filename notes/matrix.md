@@ -223,7 +223,7 @@ $(A^-)^- = A$
 
 $(A^p)^- = (A^-)^p$
 
-$(kA)^- = \text-k \mid A^-$ (restriction might not be necessary, see [[improved-expression-evaluation]])
+$(kA)^- = \text-k \mid A^-$ (see [[improved-expression-evaluation]])
 
 $(AC)^- = C^-A^-$
 

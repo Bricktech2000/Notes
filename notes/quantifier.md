@@ -31,3 +31,13 @@ _expresses that at least one item in the domain satisfies a condition_
 _in my [[math-notation]]_ $P\ x \land \mathbb R x$
 
 _in [[conventional-math-notation]]_ $\exists x \in \mathbb R, P(x)$
+
+## Exists a Unique
+
+_in [[conventional-math-notation]]_
+
+_expresses that exactly one item in the domain satisfies a condition_
+
+**notations**
+
+_in [[conventional-math-notation]]_ $\exists! x \in \mathbb R, P(x)$

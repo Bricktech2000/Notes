@@ -11,9 +11,9 @@ $[b]c \equiv b[c]$, where
 
 **properties**
 
-$x0 = 1 \dashv x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
+$x0 = 1 \dashv x \ne 0$
 
-_inverse_ $x[\cdot n] = 1 - x[n]\dashv x \ne 0$ (restriction not necessary, see [[improved-expression-evaluation]])
+_inverse_ $x[\cdot n] = 1 - x[n]$ (see [[improved-expression-evaluation]])
 
 _product rule_ $x[m : n] = x[m] \mid x[n]$
 

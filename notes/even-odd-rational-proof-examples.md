@@ -64,7 +64,7 @@ then, follow proof below
 
 see [[math-notation]]
 
-> **theorem**: let $n$ be an [[integer]]. if $n$ is odd, then $n2$ is odd
+**theorem** let $n$ be an [[integer]]. if $n$ is odd, then $n2$ is odd
 
 $\mathbb Z n$ and assume $\mathbb On$
 

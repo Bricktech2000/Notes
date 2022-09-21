@@ -66,4 +66,4 @@ $\cdot \smash\cdot a = a$
 
 #todo add subheading _subspace_ to [[vector-space]]
 
-> **theorem** _Lagrange's Theorem_ let $G$ be a [[group]] and $H$ be a sub[[group]] of $G$. then, $\psi\ \#\ H \le \psi\ \#\ G$, see [[psi-function-in-mat2348]]
+**theorem** _Lagrange's Theorem_ let $G$ be a [[group]] and $H$ be a sub[[group]] of $G$. then, $\psi\ \#\ H \le \psi\ \#\ G$, see [[psi-function-in-mat2348]]

@@ -150,7 +150,7 @@ _order matters_
 
 the number of $k$-arrangements of an $n$-set is
 
-- $P\ n\ k = \Gamma n - \Gamma (n \cdot k)$ with repetition forbidden. also called _.$k$-permutations_
+- $P\ n\ k = \Gamma\ n - \Gamma\ (n \cdot k)$ with repetition forbidden. also called _.$k$-permutations_
 - $P'\ n\ k = [n]k$ with repetition allowed also called _.$k$-tuples_
 
 ## Set Combination
@@ -161,7 +161,7 @@ _order does not matter_
 
 the number of $k$-combinations of an $n$-set is
 
-- $C\ n\ k = P\ n\ k - P\ k\ k = \Gamma n - \Gamma (n \cdot k) - \Gamma\ k$ with repetition forbidden. also called _.$k$-subsets_
+- $C\ n\ k = P\ n\ k - P\ k\ k = \Gamma\ n - \Gamma\ (n \cdot k) - \Gamma\ k$ with repetition forbidden. also called _.$k$-subsets_
 - $C'\ n\ k = C\ (k : n \cdot 1)\ (n \cdot 1)$ with repetition allowed. also called _.$k$-multisubsets_
 
 > **proof** _stars and bars proof sketch_
@@ -180,12 +180,18 @@ the number of $k$-combinations of an $n$-set is
 >
 > there are $k : n \cdot 1$ choose $n \cdot 1$ ways to arrange the bars
 
-> **theorem**
->
-> - let $P\ n\ k$ be the $k$-permutations of an $n$-[[set]]
-> - let $C\ n\ k$ be the $k$-subsets of an $n$-[[set]]
-> - let $P\ k\ k$ be the $k$-permutations of a $k$-[[set]]
->
-> then, there exists a bijection between $P\ n\ k$ and $C\ n\ k\ \acute\mid\ P\ k\ k$
->
-> moreover, $\#\ C\ n\ k = \#\ C\ n\ (n \cdot k)$. the number of $k$-subsets of an $n$-[[set]] is equal to the number of $n \cdot k$-subsets of an $n$-[[set]]
+**theorem**
+
+$C\ n\ k = C\ n\ (n \cdot k)$
+
+## theorems
+
+**theorem**
+
+- let $P\ n\ k$ be the $k$-permutations of an $n$-[[set]]
+- let $C\ n\ k$ be the $k$-subsets of an $n$-[[set]]
+- let $P\ k\ k$ be the $k$-permutations of a $k$-[[set]]
+
+then, there exists a bijection between $P\ n\ k$ and $C\ n\ k\ \acute\mid\ P\ k\ k$
+
+moreover, $\#\ C\ n\ k = \#\ C\ n\ (n \cdot k)$. the number of $k$-subsets of an $n$-[[set]] is equal to the number of $n \cdot k$-subsets of an $n$-[[set]]

@@ -503,6 +503,105 @@ $|x| \equiv \lfloor [x] \rfloor$
 
 ---
 
+```lua
+x (1 min.) map.
+
+0 5 range. dup. (+) outer.
+
+1 one:
+one one +
 ```
-x (1 min) map
-```
+
+---
+
+for all $n \ge 1$ and $c = 66$,
+
+$f(n) = 60n^2 + 5n + 1 \le 60n^2 + 5n^2 + 1n^2 = 66n^2 \le c\ n^2 \le c\ g(n)$
+
+and therefore $f(n) \le c\ g(n)$ and, by definition, $f \in O(n^2)$
+
+---
+
+let $f(n) = \log_a(n)$ and $g(n) = \log_b(n)$
+
+$$
+f(n) = \frac{\log(n)}{\log(a)}
+$$
+
+$$
+g(n) = \frac{\log(n)}{\log(b)}
+$$
+
+$$
+f(n) = g(n) \frac{\log(b)}{\log(a)} = g(n) \log_a(b)
+$$
+
+therefore, $f(n) \le c\ g(n)$ with $c = \log_a(b)$ for all $n$
+
+---
+
+$p = (1, 2, 3)$
+
+$q$ is the goal
+
+$(x, y, z)(1, \cdot 1, 1) = 4$
+
+$p_0 = (4, 0, 0)$
+
+$p_1 = (0, \cdot 4, 0)$
+
+$p_2 = (0, 0, 4)$
+
+> $p_0 \cdot p_1\ \check\mid\ p_2 \cdot p_1$
+
+$p \cdot q \mid p_0 \cdot p_1 = 0 \land p \cdot q \mid p_2 \cdot p_1 = 0$
+
+$(1, 2, 3) \cdot q \mid (4, 4, 0) = 0 \land (1, 2, 3) \cdot q \mid (0, 4, 4) = 0$
+
+$\cdot 4q_0 : \cdot 8q_1 : 0 q_2 = 0 \land 0q_0 : \cdot 8q_1 : \cdot 12q_2 = 0$
+
+$\cdot q_0 - 2 = q_1 \land q_1 = \cdot q_2 \mid 4 - 3$
+
+$5 / 3, 4 / 3, \text{corresponding z}$
+
+---
+
+Notion:
+
+- Social
+- Personal
+- Learning
+- Hobbies
+- Work
+- House
+- School
+- Productivity
+- Organization
+
+Notes:
+
+- tags
+- conventions
+- classes
+- thinking
+- learning
+- fields
+- other
+- outdated
+
+Sync:
+
+- Random
+- Projects
+  - Programming
+  - Other
+  - RC
+  - Thinking
+  - 3D Printing
+  - Arduino
+  - TI84
+  - Microbit
+  - LEGO
+- Howto
+- Nonpublic
+- Education
