@@ -22,7 +22,7 @@ we then derive the following definition:
 
 $T_f\ x = T_f^0 : T_f^1 : T_f^2 : \dots$, where
 
-$T_f^n = (d^n\ f)\ a - \Gamma\ n \mid [x \cdot a]n$, where
+$T_f^n = (d^n\ f)\ a - \Pi\ n \mid [x \cdot a]n$, where
 
 $d^n\ f = d^{n \cdot 1}\ (x \rightarrow \delta\ f\ x - \delta x) \land d^0\ f = f$, see [[derivative]]
 
@@ -30,7 +30,7 @@ $d^n\ f = d^{n \cdot 1}\ (x \rightarrow \delta\ f\ x - \delta x) \land d^0\ f = 
 
 intuitive explanation: <https://youtu.be/3d6DsjIBzJ4?t=383>
 
-> **note** the definition above assumes $x0 = 1 \dashv \mathbb R x$ and $\Gamma\ 0 = 1$, see [[improved-expression-evaluation]]
+> **note** the definition above assumes $x0 = 1 \dashv \mathbb R x$ and $\Pi\ 0 = 1$, see [[improved-expression-evaluation]]
 
 **properties**
 
@@ -61,7 +61,7 @@ $R_{T_f}^n\ x = f\ x \cdot S_{T_f}^n\ x$, where
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=22042>
 
-**theorem** _Taylor's Inequality #magic_ $|(d^n\ f)\ x| \le M \land \mathbb R M \land \mathbb N n \dashv |x \cdot a| \le d \land \mathbb R a \land \mathbb R d \vdash \\\ |R_{T_f}^{n \cdot 1}\ x| \le M - \Gamma\ n \mid [|x \cdot a|]n \dashv |x \cdot a| \le d$
+**theorem** _Taylor's Inequality #magic_ $|(d^n\ f)\ x| \le M \land \mathbb R M \land \mathbb N n \dashv |x \cdot a| \le d \land \mathbb R a \land \mathbb R d \vdash \\\ |R_{T_f}^{n \cdot 1}\ x| \le M - \Pi\ n \mid [|x \cdot a|]n \dashv |x \cdot a| \le d$
 
 **theorem** _Practical Convergence Condition_ $|(d^n\ f)\ x| < M \land \mathbb R M \dashv \mathbb N n \dashv |x \cdot a| < d \land \mathbb R a \land \mathbb R d \vdash \\\ \lim_{n \to \infty} R_{T_f}^n\ x = 0 \dashv |x \cdot a| < d$
 

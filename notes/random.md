@@ -605,3 +605,7 @@ Sync:
 - Howto
 - Nonpublic
 - Education
+
+Process:
+
+Outcome:

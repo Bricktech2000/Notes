@@ -94,7 +94,7 @@
 
 [[minimalism]]
 
-[[gamma-function]]
+[[pi-function]]
 
 [[rank-polymorphism]]
 

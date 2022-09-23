@@ -20,7 +20,7 @@ _time complexity, space complexity_
 
 let $0 < \omega < 1$ and let $b > 1$
 
-$O\ 1\ \vdash\ O\ \lceil \lceil n \rceil \rceil\ \vdash\ O\ \lceil n \rceil\ \vdash\ O\ [\lceil n \rceil]2\ \vdash\ O\ [n]\omega\ \vdash\ O\ n\ \vdash\ O\ n \lceil n \rceil\ \vdash\ O\ [n]b\ \vdash\ O\ b[n]\ \vdash\ O\ \Gamma\ n\ \vdash\ O\ n[n]$
+$O\ 1\ \vdash\ O\ \lceil \lceil n \rceil \rceil\ \vdash\ O\ \lceil n \rceil\ \vdash\ O\ [\lceil n \rceil]2\ \vdash\ O\ [n]\omega\ \vdash\ O\ n\ \vdash\ O\ n \lceil n \rceil\ \vdash\ O\ [n]b\ \vdash\ O\ b[n]\ \vdash\ O\ \Pi\ n\ \vdash\ O\ n[n]$
 
 $O\ (c : f\ n) = O\ f\ n$ with all $c$
 

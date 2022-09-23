@@ -9,3 +9,9 @@ see [[boolean-logic]], [[predicate]], [[math-notation]]
 [[tautology]]
 
 [[contradiction]]
+
+**theorem**
+
+given a [[list]] of [[logic-statement]]s, for every statement to prove every other statement, the [[graph]] where nodes are statements and edges bijections between statements must be connected. if the minimum number of bijections is present, the [[graph]] is a [[tree]].
+
+&mdash; [[mat2348-a-discrete-mathematics]]

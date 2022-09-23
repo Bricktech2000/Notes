@@ -150,7 +150,7 @@ _order matters_
 
 the number of $k$-arrangements of an $n$-set is
 
-- $P\ n\ k = \Gamma\ n - \Gamma\ (n \cdot k)$ with repetition forbidden. also called _.$k$-permutations_
+- $P\ n\ k = \Pi\ n - \Pi\ (n \cdot k)$ with repetition forbidden. also called _.$k$-permutations_
 - $P'\ n\ k = [n]k$ with repetition allowed also called _.$k$-tuples_
 
 ## Set Combination
@@ -161,10 +161,10 @@ _order does not matter_
 
 the number of $k$-combinations of an $n$-set is
 
-- $C\ n\ k = P\ n\ k - P\ k\ k = \Gamma\ n - \Gamma\ (n \cdot k) - \Gamma\ k$ with repetition forbidden. also called _.$k$-subsets_
-- $C'\ n\ k = C\ (k : n \cdot 1)\ (n \cdot 1)$ with repetition allowed. also called _.$k$-multisubsets_
+- $C\ n\ k = P\ n\ k - P\ k\ k = \Pi\ n - \Pi\ (n \cdot k) - \Pi\ k$ with repetition forbidden. also called _.$k$-subsets_
+- $C'\ n\ k = C\ (n : k \cdot 1)\ (k \cdot 1)$ with repetition allowed. also called _.$k$-multisubsets_
 
-> **proof** _stars and bars proof sketch_
+> **proof** _stars and bars [[proof]] sketch_
 >
 > given a [[multiset]] of elements,
 >
@@ -178,7 +178,18 @@ the number of $k$-combinations of an $n$-set is
 >
 > $\cdot \cdot \cdot \mid \cdot \cdot \cdot \mid \cdot \mid \cdot \mid \cdot\ \cdot$
 >
-> there are $k : n \cdot 1$ choose $n \cdot 1$ ways to arrange the bars
+> there are $n : k \cdot 1$ choose $k \cdot 1$ ways to arrange the bars
+
+> **proof** _alternative [[proof]] sketch with bijections_
+>
+> the following are equivalent:
+>
+> - the number of $k$-combinations from an $n$-[[set]] with repetition allowed
+> - the number of $k$-[[multiset]]s from an $n$-[[set]]
+> - the number of ways of distributing $n$ identical marbles into $k$ distinguishable boxes
+> - the number of solutions to $x : \dots = n$ with $\mathbb N x^i$ for all $i$
+> - the number of $n$-sub[[set]]s of an $n : k \cdot 1$-[[set]]
+> - the number of $k \cdot 1$-sub[[set]]s of an $n : k \cdot 1$-[[set]]
 
 **theorem**
 

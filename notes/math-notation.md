@@ -114,7 +114,7 @@ let:
 | $\tau$        | the ratio of the circumference of a [[circle]] to its radius | using $\pi$ is discouraged                  |
 | $e$           | Euler's constant                                             | see [[eulers-constant]]                     |
 | $\iota$       | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]], using $i$ is discouraged |
-| $\Gamma$      | the [[gamma-function]]                                       | using $\operatorname{fact}$ is discouraged  |
+| $\Pi$         | the [[pi-function]]                                          | using $\operatorname{fact}$ is discouraged  |
 
 ### operator properties
 

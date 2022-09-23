@@ -4,6 +4,8 @@ _a collection of vertices connected by a collection of edges_
 
 **definition** _formally in my [[math-notation]]_ a [[graph]] is a [[set-theory]]etical [[function]] with domain at least $\braket{v, w} \rightarrow \top$ that takes an [[ordered-pair]] of vertices as an index and returns whether an edge is connecting them
 
+**definition** an _undirected graph_ is a [[graph]] $G$ such that $G = G^\intercal$
+
 **definition** in [[conventional-math-notation]], a _graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $\smash\ne E\ e \vdash (V\ \acute\mid\ V)\ e$ and $E\ e \equiv E\ e^\intercal$ (see [[relation]], [[ordered-pair]])
 
 **definition** in [[conventional-math-notation]], a _directed graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $\smash\ne E\ e \vdash (V\ \acute\mid\ V)\ e$ (see [[relation]], [[ordered-pair]])
@@ -46,7 +48,7 @@ see [[category]], [[category-theory]]
 
 ## Connected Graph
 
-**definition** a [[graph]] is said to be _connected_ if any two vertices are connected directly or indirectly by a path
+**definition** a [[graph]] is said to be _connected_ if every pair of vertices are connected directly or indirectly by a path
 
 **definition** a [[graph]] is said to be _disconnected_ if it is not _connected_
 

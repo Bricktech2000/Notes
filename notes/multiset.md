@@ -67,5 +67,5 @@ _order matters_
 
 the number of $k$-arrangements of an $n$-multiset $M$ with multiplicities $k_0 \dots k_{n \cdot 1}$ is
 
-- $C\ n\ k_0 \dots k_{n \cdot 1} = \Gamma\ n - (\Gamma\ k_0 \mid \dots \Gamma\ k_{n \cdot 1})$ with repetition forbidden
+- $C\ n\ k_0 \dots k_{n \cdot 1} = \Pi\ n - (\Pi\ k_0 \mid \dots \Pi\ k_{n \cdot 1})$ with repetition forbidden
 - see [[set]] arrangement for repetition allowed
