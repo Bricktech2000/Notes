@@ -566,7 +566,11 @@ $5 / 3, 4 / 3, \text{corresponding z}$
 
 ---
 
-Notion:
+**bold** _italic_ `code`
+
+---
+
+### Notion
 
 - Social
 - Personal
@@ -578,7 +582,7 @@ Notion:
 - Productivity
 - Organization
 
-Notes:
+### Notes
 
 - tags
 - conventions
@@ -589,7 +593,7 @@ Notes:
 - other
 - outdated
 
-Sync:
+### Sync
 
 - Random
 - Projects
@@ -606,6 +610,46 @@ Sync:
 - Nonpublic
 - Education
 
-Process:
+### Why
 
-Outcome:
+- Body
+- Intel
+- Zilch
+- Learn
+- Finance
+- Network
+- Standard
+- Organize
+- Eptimize
+- Reproduce
+
+### How
+
+- Hack
+- Write
+- Think
+- Social
+- Design
+- Program
+- Research
+
+### What
+
+### ???
+
+- Organization
+- movies and readings read?
+- think about fix for notifications efficiency?
+- talk / socialize?
+- github field day trip?
+- answer wealthsimple agent finance?
+
+## Notion Changes
+
+order in table
+
+visibility in pages
+
+properties shown in 4 views
+
+color columns: no

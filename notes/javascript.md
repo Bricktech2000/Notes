@@ -35,7 +35,7 @@ see <https://github.com/denysdovhan/wtfjs> for other examples
 +'15'; // 15
 !'word'; // false
 1 + []; // '1'
-[1] + [2]; // '12
+[1] + [2]; // '12'
 typeof NaN; // 'number'
 999999999999; // 10000000000000
 Math.max(); // -Infinity
@@ -46,6 +46,7 @@ Math.min(); // Infinity
 {
 }
 +[]; // 0
+typeof document.all; // 'undefined'
 true + true + true === 3; // true
 true - true === 0; // true
 (!+[] + [] + ![]).length; // 9

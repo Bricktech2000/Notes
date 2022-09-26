@@ -7,3 +7,5 @@ _an [[abstract-data-type]] that maps unique keys to values_
 **types**
 
 [[hash-table]]
+
+[[binary-search-tree]] map

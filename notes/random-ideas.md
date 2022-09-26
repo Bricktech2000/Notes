@@ -10,9 +10,10 @@ lure in people by telling them you make money one way whereas people joining is 
 
 > **examples**
 >
-> - Ponzi schemes
-> - online course gurus
-> - pyramid schemes
+> - Ponzi schemes (they make money by getting new people to join, not by investing)
+> - online course gurus (they make money by selling courses, not by doing what they teach)
+> - pyramid schemes (they make money by recruiting people, not by selling products)
+> - 4ocean (they make money by selling overpriced bracelets, not by cleaning up the ocean)
 
 random idea: buy an index fund, make people believe you are managing their portfolio, and charge fees. randomly make the returns fluctuate using a reserve so that they don't look like the index fund returns
 
