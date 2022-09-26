@@ -2,9 +2,9 @@
 
 _used to simplify subtraction by instead performing addition with the number’s complement_
 
-it is one of the ways of representing negative [[number]]s in [[digital-system]]s and is usually preferred over [[sign-magnitude-notation]]
+it is one of the ways of representing negative [[number]]s in [[digital system]]s and is usually preferred over [[sign-magnitude notation]]
 
-there are two different complements for a given [[positional-numeral-system]], outlined below.
+there are two different complements for a given [[positional numeral system]], outlined below.
 
 &mdash; <https://www.quora.com/In-computing-what-is-16-s-complement-Why-is-it-used>
 
@@ -22,7 +22,7 @@ _2’s complement in base 2, 16’s complement in base 16_
 
 **properties**
 
-see [[math-notation]]
+see [[math notation]]
 
 let $[A]$ be the Radix Complement of $A$ for all $A$, and assume $\mathbb R A$
 

@@ -1,6 +1,6 @@
 # Parser
 
-_used to build a [[programming-language]]_
+_used to build a [[programming language]]_
 
 **types**
 
@@ -14,4 +14,4 @@ Bottom-up [[parser]]s
 
 ## Recursive Descent Parser
 
-_starts from the top symbol and builds an [[abstract-syntax-tree]] using [[recursion]]_
+_starts from the top symbol and builds an [[abstract syntax tree]] using [[recursion]]_

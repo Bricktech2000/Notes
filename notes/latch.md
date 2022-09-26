@@ -1,6 +1,6 @@
 # Latch
 
-see [[logic-gate]], [[flip-flop]], [[logic-circuit]]
+see [[logic gate]], [[flip-flop]], [[logic circuit]]
 
 all [[latch]]es can be turned into [[flip-flop]]s and all [[flip-flop]]s can be turned into [[latch]]es
 
@@ -16,13 +16,13 @@ all [[latch]]es can be converted to gated [[latch]]es with an _enable_ input
 
 &mdash; <https://en.wikipedia.org/wiki/Flip-flop_(electronics)>
 
-[[logic-circuit]] diagrams &mdash; <https://www.javatpoint.com/latches-in-digital-electronics>
+[[logic circuit]] diagrams &mdash; <https://www.javatpoint.com/latches-in-digital-electronics>
 
 ## SR Latch
 
 _set-reset latch_
 
-**representation** _[[truth-table]]_
+**representation** _[[truth table]]_
 
 | $S$ | $R$ | $Q$      | comment   |
 | --- | --- | -------- | --------- |
@@ -31,17 +31,17 @@ _set-reset latch_
 | 1   | 0   | 1        | set       |
 | 1   | 1   | $\times$ | undefined |
 
-**representation** _[[logic-circuit]]_
+**representation** _[[logic circuit]]_
 
 ![[20220427161726.png]]
 
-> **note** SR latches can also be built using NAND [[logic-gate]]s
+> **note** SR latches can also be built using NAND [[logic gate]]s
 
 ## D Latch
 
 _data latch, gated by default_
 
-**representation** _[[truth-table]]_
+**representation** _[[truth table]]_
 
 | $E$ | $D$      | $Q$ | comment    |
 | --- | -------- | --- | ---------- |
@@ -49,7 +49,7 @@ _data latch, gated by default_
 | 1   | 0        | 0   | data reset |
 | 1   | 1        | 1   | data set   |
 
-**representation** _[[logic-circuit]]_
+**representation** _[[logic circuit]]_
 
 ![[20220427161914.png]]
 
@@ -57,7 +57,7 @@ _data latch, gated by default_
 
 _same as SR latch, but with undefined states removed_
 
-**representation** _[[truth-table]]_
+**representation** _[[truth table]]_
 
 | $J$ | $K$ | $Q$  | comment   |
 | --- | --- | ---- | --------- |
@@ -66,7 +66,7 @@ _same as SR latch, but with undefined states removed_
 | 1   | 0   | 1    | set       |
 | 1   | 1   | $/Q$ | toggle    |
 
-**representation** _[[logic-circuit]]_
+**representation** _[[logic circuit]]_
 
 ![[20220427162006.png]]
 

@@ -1,5 +1,5 @@
 # Time
 
-see [[math-notation]]
+see [[math notation]]
 
-[[international-system-of-units]] unit: $\text{s}$
+[[international system of units]] unit: $\text{s}$

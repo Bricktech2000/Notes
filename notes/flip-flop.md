@@ -1,6 +1,6 @@
 # Flip-Flop
 
-see [[logic-gate]], [[latch]], [[logic-circuit]]
+see [[logic gate]], [[latch]], [[logic circuit]]
 
 [[flip-flop]]s are _edge-triggered_ whereas gated [[latch]]es are _level-triggered_
 
@@ -22,7 +22,7 @@ not used as it has an undefined state
 
 _data flip-flop_
 
-**representation** _[[truth-table]]_
+**representation** _[[truth table]]_
 
 | $CLK$          | $D$      | $Q$ | comment    |
 | -------------- | -------- | --- | ---------- |
@@ -34,7 +34,7 @@ _data flip-flop_
 
 _same as SR flip-flop, but with undefined states removed_
 
-**representation** _[[truth-table]]_
+**representation** _[[truth table]]_
 
 | $CLK$          | $J$      | $K$      | $Q$  | comment   |
 | -------------- | -------- | -------- | ---- | --------- |
@@ -48,7 +48,7 @@ _same as SR flip-flop, but with undefined states removed_
 
 _toggle flip-flop_
 
-**representation** _[[truth-table]]_
+**representation** _[[truth table]]_
 
 | $CLK$          | $T$      | $Q$  | comment   |
 | -------------- | -------- | ---- | --------- |

@@ -1,6 +1,6 @@
 # Decimal
 
-_the base-10 [[positional-numeral-system]]_
+_the base-10 [[positional numeral system]]_
 
 **pros**
 

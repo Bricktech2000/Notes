@@ -1,6 +1,6 @@
 # Exponent
 
-see [[math-notation]], [[logarithm]]
+see [[math notation]], [[logarithm]]
 
 **notation**
 
@@ -13,7 +13,7 @@ $[b]c \equiv b[c]$, where
 
 $x0 = 1 \dashv x \ne 0$
 
-_inverse_ $x[\cdot n] = 1 - x[n]$ (see [[improved-expression-evaluation]])
+_inverse_ $x[\cdot n] = 1 - x[n]$ (see [[improved expression evaluation]])
 
 _product rule_ $x[m : n] = x[m] \mid x[n]$
 

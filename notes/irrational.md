@@ -2,7 +2,7 @@
 
 _the [[set]] of [[irrational]] numbers_
 
-see [[math-notation]]
+see [[math notation]]
 
 **definition**
 

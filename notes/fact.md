@@ -6,7 +6,7 @@ _an isolated piece of information related to a concept_
 
 see [[concept]]
 
-[[fact]]s can easily get confused, which is the reason why we have reference books and search engines. _if you know the [[concept]], you can quickly look up the [[fact]]_. [[fact]]s can be learned through [[mnemonic]] or other [[memory-technique]]s.
+[[fact]]s can easily get confused, which is the reason why we have reference books and search engines. _if you know the [[concept]], you can quickly look up the [[fact]]_. [[fact]]s can be learned through [[mnemonic]] or other [[memory technique]]s.
 
 > **examples**
 >

@@ -1,76 +1,76 @@
 # 🆃🅷🅸🅽🅺🅸🅽🅶
 
-[[random-thinking]]
+[[random thinking]]
 
-[[random-ideas]]
+[[random ideas]]
 
-[[math-notation]]
+[[math notation]]
 
-[[people-are-shaped-by-their-surroundings]]
+[[people are shaped by their surroundings]]
 
-[[improved-expression-evaluation]]
+[[improved expression evaluation]]
 
-[[tiktok-account]]
+[[tiktok account]]
 
-[[improvability-theory]]
+[[improvability theory]]
 
 [[process-oriented]]
 
-[[control-over-convenience]]
+[[control over convenience]]
 
-[[non-copyable-data]]
+[[non-copyable data]]
 
-[[sensor-suite]]
+[[sensor suite]]
 
-[[informal-writing]]
+[[informal writing]]
 
-[[overruling-rules]]
+[[overruling rules]]
 
-[[hijacking-brain-circuitry]]
+[[hijacking brain circuitry]]
 
-[[price-value-sigmoid]]
+[[price-value sigmoid]]
 
-[[nested-conversation-structure]]
+[[nested conversation structure]]
 
-[[region-size-formula]]
+[[region size formula]]
 
-[[russels-paradox]]
+[[russels paradox]]
 
 [[loan]]
 
-[[calculus-notation]]
+[[calculus notation]]
 
-[[indicator-generalization]]
+[[indicator generalization]]
 
-[[subjectivity-to-objectivity]]
+[[subjectivity to objectivity]]
 
-[[incorrect-measurement-scale-use]]
+[[incorrect measurement scale use]]
 
-[[improved-recipe-structure]]
+[[improved recipe structure]]
 
-[[master-lock-second-combination]]
+[[master lock second combination]]
 
 [[budget]]
 
-[[improved-family-relationship-vocabulary]]
+[[improved family relationship vocabulary]]
 
-[[mathematical-physical-currency]]
+[[mathematical physical currency]]
 
-[[improved-rating-system]]
+[[improved rating system]]
 
-[[subconscious-manipulation]]
+[[subconscious manipulation]]
 
-[[counterintuitive-smarter-sorting]]
+[[counterintuitive smarter sorting]]
 
-[[perfectionism-vs-high-standards]]
+[[perfectionism vs high standards]]
 
-[[sensory-augmentation]]
+[[sensory augmentation]]
 
-[[markup-language-idea]]
+[[markup language idea]]
 
 [[religion]]
 
-[[flawed-but-established]]
+[[flawed but established]]
 
 [[education]] system issues
 

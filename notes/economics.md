@@ -1,27 +1,27 @@
 # Economics
 
-_the study of how society manages its [[scarce-resource]]s_
+_the study of how society manages its [[scarce resource]]s_
 
 **see**
 
 [[economy]]
 
-[[principles-of-economics]]
+[[principles of economics]]
 
-[[economic-growth]]
+[[economic growth]]
 
-[[financial-system]]
+[[financial system]]
 
 [[money]], [[wealth]], [[inflation]]
 
-[[credit-card]], [[loan]], [[sunk-costs]]
+[[credit card]], [[loan]], [[sunk costs]]
 
 [[unemployment]], [[productivity]]
 
-[[gross-domestic-product]], [[consumer-price-index]] [[economic-recession]]
+[[gross domestic product]], [[consumer price index]] [[economic recession]]
 
-[[production-possibility-frontier]]
+[[production-possibility frontier]]
 
-[[options-market]], [[bond-market]], [[stock-market]], [[loanable-funds-market]]
+[[options market]], [[bond market]], [[stock market]], [[loanable funds market]]
 
-[[switching-cost]]
+[[switching cost]]

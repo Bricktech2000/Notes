@@ -1,16 +1,16 @@
 # Derivative
 
-see [[math-notation]], [[derivative-rules]], [[function]], [[calculus-notation]]
+see [[math notation]], [[derivative rules]], [[function]], [[calculus notation]]
 
-**definition** _in [[conventional-math-notation]]_
+**definition** _in [[conventional math notation]]_
 
 $\frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$
 
-**definition** _in my [[math-notation]]_
+**definition** _in my [[math notation]]_
 
 $\delta\ f\ x - \delta x = \lim_{h \to 0} f\ (x : h) \cdot f\ x - h = \lim_{x \to a} f\ x \cdot f\ a - x \cdot a$
 
-**definition** _with a multivariable [[function]] in my [[math-notation]]_
+**definition** _with a multivariable [[function]] in my [[math notation]]_
 
 let $p = (x \dots)$
 
@@ -20,7 +20,7 @@ $\delta\ f\ p - \delta p = (\delta\ f\ p - \delta p^0, \delta\ f\ p - \delta p^1
 
 _Lagrange's notation_
 
-see [[conventional-math-notation]]
+see [[conventional math notation]]
 
 $f'(x)$, $f''(x)$, $f'''(x)$
 
@@ -28,15 +28,15 @@ $f^{(n)}(x)$
 
 _Leibniz's Notation_
 
-see [[conventional-math-notation]]
+see [[conventional math notation]]
 
 $\frac{d}{dx}f(x) = \frac{df}{dx}$
 
 $\frac{d^n}{dx^n} = \frac{d^nf}{dx^n}$
 
-_in my [[math-notation]]_
+_in my [[math notation]]_
 
-$\delta\ f\ x - \delta x$, see [[calculus-notation]]
+$\delta\ f\ x - \delta x$, see [[calculus notation]]
 
 $d^n\ f = d^{n \cdot 1}\ (x \rightarrow \delta\ f\ x - \delta x) \land d^0\ f = f$
 
@@ -48,13 +48,13 @@ see [[gradient]]
 
 **definition**
 
-let $f$ be a [[function]] differentiable at $p \equiv (x \dots)$ and let $v$ be a **unit [[vector-in-rn]]**. then,
+let $f$ be a [[function]] differentiable at $p \equiv (x \dots)$ and let $v$ be a **unit [[vector in rn]]**. then,
 
 $D^v\ f\ p = \delta\ f\ p - \delta p\ \dot\mid\ v$, where
 
 - $D^v\ f\ p$ is the [[derivative]] of $f$ in direction $v$ at $p$
 - $\delta\ f\ p - \delta p$ is the [[gradient]] of $f$ at $p$
-- $v$ is the direction [[vector-in-rn]]
+- $v$ is the direction [[vector in rn]]
 
 > **examples**
 >
@@ -74,19 +74,19 @@ $D^v\ f\ p = \delta\ f\ p - \delta p\ \dot\mid\ v$, where
 
 **notation**
 
-_in [[conventional-math-notation]]_
+_in [[conventional math notation]]_
 
-in [[conventional-math-notation]], use the following abomination:
+in [[conventional math notation]], use the following abomination:
 
 $f_x = f'_x = \partial_x f = D_x f = D_1 f = \frac{\partial}{\partial x}f = \frac{\partial f}{\partial x}$
 
 $\frac{\partial^2 f}{\partial x^2} = f^n_{x x} = \partial_{x x} f = \partial^2_x f$ &mdash; Wikipedia
 
-_in my [[math-notation]]_
+_in my [[math notation]]_
 
-in my [[math-notation]], it's just a [[derivative]]:
+in my [[math notation]], it's just a [[derivative]]:
 
-$\delta\ f\ x\ y - \delta x$, see [[calculus-notation]]
+$\delta\ f\ x\ y - \delta x$, see [[calculus notation]]
 
 **definition**
 
@@ -102,7 +102,7 @@ the same is true with any other parameter and with any number of parameters
 
 > **procedure** _computing a [[derivative]]_
 >
-> to differentiate a [[function]], apply [[derivative-rules]] recursively, see [[recursion]]
+> to differentiate a [[function]], apply [[derivative rules]] recursively, see [[recursion]]
 
 ## differentiability
 
@@ -138,7 +138,7 @@ useful for computing the [[derivative]] of an [[exponent]]ial [[function]]
 >
 > $\delta\ y - \delta x = x[e[x]] \mid e[x] \text- x : \lceil x \rceil e[x]$
 >
-> the alternative would be the following, by transforming and using the chain [[derivative-rules]]:
+> the alternative would be the following, by transforming and using the chain [[derivative rules]]:
 >
 > $y = x[e[x]]$
 >

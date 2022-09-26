@@ -8,6 +8,6 @@ used for backlinks
 
 [[hash]] [[function]]
 
-[[zero-knowledge-proof]]
+[[zero-knowledge proof]]
 
-[[verifiable-random-function]]
+[[verifiable random function]]

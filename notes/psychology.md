@@ -4,31 +4,31 @@
 
 an excess of [[motivation]] can lead to feeling [[overwhelm]]ed, which can lead to [[procrastination]]
 
-[[less-stimulated-lifestyle]]
+[[less stimulated lifestyle]]
 
-[[recollection-vs-recognition]]
+[[recollection vs recognition]]
 
-[[environmental-dependency-of-learning]]
+[[environmental dependency of learning]]
 
-[[desire-vs-value]]
+[[desire vs value]]
 
-[[hijacking-brain-circuitry]]
+[[hijacking brain circuitry]]
 
-[[intent-to-mastery]]
+[[intent to mastery]]
 
 [[memory]]
 
-[[memory-technique]]
+[[memory technique]]
 
-[[10x-developer]]
+[[10x developper]]
 
 [[intelligence]]
 
-[[subconscious-manipulation]]
+[[subconscious manipulation]]
 
-[[people-are-shaped-by-their-surroundings]]
+[[people are shaped by their surroundings]]
 
-[[social-media]]
+[[social media]]
 
 [[habit]]
 
@@ -36,11 +36,11 @@ an excess of [[motivation]] can lead to feeling [[overwhelm]]ed, which can lead 
 
 [[bias]]
 
-[[mental-illness]]
+[[mental illness]]
 
-[[reaction-vs-response]]
+[[reaction vs response]]
 
-[[lofi-music]]
+[[lofi music]]
 
 [[focus]]
 

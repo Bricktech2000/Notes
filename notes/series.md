@@ -1,6 +1,6 @@
 # Series
 
-see [[math-notation]], [[sequence]], [[calculus-notation]]
+see [[math notation]], [[sequence]], [[calculus notation]]
 
 **definition** a _series_ is the expression representing sum of all elements of a [[sequence]]
 
@@ -163,13 +163,13 @@ _convergence_ a geometric [[series]] $b^0r0 : b^0r1 :\dots$ with $b^0 \ne 0$:
 > - if $|r| < 1 \land r \ne 0$, $\lim_{n \to \infty} S^n = b^0 - 1 \cdot r$, the [[series]] converges
 > - if $|r| \ge 1 \land r \ne 1$, $\lim_{n \to \infty} S^n = \infty \lor \lim_{s \to \infty} S^n = \cdot \infty$, the [[series]] diverges
 >
-> if $r = 0 \lor r = 1$, the above definition of $S^n$ does not necessarily hold, see [[improved-expression-evaluation]]. therefore, we must use the definition
+> if $r = 0 \lor r = 1$, the above definition of $S^n$ does not necessarily hold, see [[improved expression evaluation]]. therefore, we must use the definition
 >
 > $S^n = b^0r0 : b^0r1 : b^0r2 : \dots b^0r[n]$
 >
 > taking the [[limit]] to compute the value at which the [[series]] converges,
 >
-> - if $r = 0 \land b^0 \ne 0$, $\lim_{n \to \infty} S^n = [0]0 = 1$, the [[series]] converges, see [[improved-expression-evaluation]]
+> - if $r = 0 \land b^0 \ne 0$, $\lim_{n \to \infty} S^n = [0]0 = 1$, the [[series]] converges, see [[improved expression evaluation]]
 > - if $r = 0 \land b^0 = 0$, $\lim_{n \to \infty} S^n = 0$, the [[series]] converges
 > - if $r = 1 \land b^0 \ne 0$, $\lim_{n \to \infty} S^n = \infty \lor \lim_{n \to \infty} S^n = \cdot \infty$, the [[series]] diverges
 > - if $r = 1 \land b^0 = 0$, $\lim_{n \to \infty} S^n = 0$, the [[series]] converges
@@ -178,9 +178,9 @@ _convergence_ a geometric [[series]] $b^0r0 : b^0r1 :\dots$ with $b^0 \ne 0$:
 
 **definition** a _p-series_ is a [[series]] in the form $\text-[0]p : \text-[1]p : \dots$ with $p > 0$
 
-## [[taylor-series]]
+## [[taylor series]]
 
-see [[taylor-series]]
+see [[taylor series]]
 
 ## Power Series
 
@@ -195,7 +195,7 @@ $P\ x = c^0 [x \cdot a]0 : c^1 [x \cdot a]1 : \dots$, where
 
 > **note** the starting index does not have to be $0$ but must still be a [[natural]]
 
-> **note** the definition above assumes $[0]0 = 1$, see [[improved-expression-evaluation]]
+> **note** the definition above assumes $[0]0 = 1$, see [[improved expression evaluation]]
 
 **definition** the _radius of convergence_ of a power [[series]] is the [[distance]] between its center and the endpoints of its interval of convergence. it can be computed using the _ratio test_.
 

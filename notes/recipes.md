@@ -2,10 +2,10 @@
 
 **see**
 
-[[cajun-shrimp-and-sausage-rice]]
+[[cajun shrimp and sausage rice]]
 
-[[extremely-spicy-hot-sauce-recipe]]
+[[extremely spicy hot sauce recipe]]
 
-[[smoothie-recipe]]
+[[smoothie recipe]]
 
-[[lemonade-recipe]]
+[[lemonade recipe]]

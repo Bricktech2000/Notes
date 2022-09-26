@@ -2,40 +2,40 @@
 
 ## Year 1 Semester 1
 
-[[eng1112-technical-report-writing]]
+[[eng1112 technical report writing]]
 
-[[mat1339-introduction-to-calculus-and-vectors]]
+[[mat1339 introduction to calculus and vectors]]
 
-[[chm1301-principles-of-chemistry]]
+[[chm1301 principles of chemistry]]
 
-[[iti1120-introduction-to-computing-i]]
+[[iti1120 introduction to computing i]]
 
-[[soc1101-principles-of-sociology]]
+[[soc1101 principles of sociology]]
 
 ## Year 1 Semester 2
 
-[[iti1100-a-digital-systems-i]]
+[[iti1100 a digital systems i]]
 
-[[iti1121-c-introduction-to-computing-ii]]
+[[iti1121 c introductionto computing ii]]
 
-[[mat1320-d-calculus-i]]
+[[mat1320 d calculus i]]
 
-[[mat1341-d-introduction-to-linear-algebra]]
+[[mat1341 d introduction to linear algebra]]
 
-[[eco1102-h-introduction-to-macroeconomics]]
+[[eco1102 h introduction to macroeconomics]]
 
 ## Year 2 Semester 1
 
-[[seg2105-b-introduction-to-software-engineering]]
+[[seg2105 b introduction to software engineering]]
 
-[[mat1320-c-calculus-i]]
+[[mat1320 c calculus i]]
 
-[[ceg2136-a-computer-architecture-i]]
+[[ceg2136 a computer architecture i]]
 
-[[mat2322-b-calculus-iii-for-engineers]]
+[[mat2322 b calculus iii for engineers]]
 
-[[mat2348-a-discrete-mathematics]]
+[[mat2348 a discrete mathematics]]
 
-[[csi2110-d-data-structures-and-algorithms]]
+[[csi2110 d data structures and algorithms]]
 
-[[mat-2377-x-probability-and-statistics-for-engineers]]
+[[mat2377 x probability and statistics for engineers]]

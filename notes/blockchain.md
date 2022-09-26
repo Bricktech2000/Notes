@@ -1,6 +1,6 @@
 # Blockchain
 
-_a decentralized [[persistent-data-structure]]_
+_a decentralized [[persistent data structure]]_
 
 see [[cryptocurrency]]
 

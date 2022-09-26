@@ -2,7 +2,7 @@
 
 _when a square root is in the denominator_
 
-see [[math-notation]]
+see [[math notation]]
 
 > **procedure** _tricks for rationalization_
 >

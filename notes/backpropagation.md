@@ -1,8 +1,8 @@
 # Backpropagation
 
-_algorithm to compute the [[gradient]] of a [[neural-network]] efficiently_
+_algorithm to compute the [[gradient]] of a [[neural network]] efficiently_
 
-see [[math-notation]], [[neural-network]], [[calculus]], [[calculus-notation]]
+see [[math notation]], [[neural network]], [[calculus]], [[calculus notation]]
 
 &mdash; <https://youtu.be/kbGu60QBx2o>
 
@@ -20,7 +20,7 @@ let $g \begin{bmatrix}x^0 \\\ x^1 \\\ \vdots\end{bmatrix} \equiv \begin{bmatrix}
 
 $\delta \mathcal L - \delta a_y^y = (\delta \mathcal L - \delta a_y^y)$, where
 
-$\mathcal L$ is the [[loss-function]]
+$\mathcal L$ is the [[loss function]]
 
 $a_y$ is the last layer of the network
 
@@ -32,33 +32,33 @@ written differently, $\Delta a_y = (\delta a_y^y \rightarrow \delta \mathcal L -
 
 $\delta a_j^j - \delta w_{k \to j}^{j, k} = \delta z_j^j - \delta w_{k \to j}^{j, k} \mid \delta a_j^j - \delta z_j^j$
 
-computing the [[derivative]]s using the chain [[derivative-rules]],
+computing the [[derivative]]s using the chain [[derivative rules]],
 
-$\delta z_j^j - \delta w_{k \to j}^{j, k} = a_k^k$, see [[forward-propagation]]
+$\delta z_j^j - \delta w_{k \to j}^{j, k} = a_k^k$, see [[forward propagation]]
 
-$\delta a_j^j - \delta z_j^j = (\delta\ g\ z_j^j - \delta z_j^j)$, where $g$ is the [[activation-function]]
+$\delta a_j^j - \delta z_j^j = (\delta\ g\ z_j^j - \delta z_j^j)$, where $g$ is the [[activation function]]
 
 therefore, $\delta a_j^j - \delta w_{k \to j}^{j, k} = a_k^k \mid (\delta\ g\ z_j^j - \delta z_j^j)$
 
 to maximize $\Delta L$, $\Delta w_{k \to j}^{j, k} = a_k^k \mid (z_j^j \rightarrow \delta\ g\ z_j^j - \delta z_j^j)\ z_j \mid \Delta a_j^j$, see [[gradient]]
 
-written differently, $\Delta w_{k \to j} = \Delta a_j\ \mathring\shortmid\ g'\ z_j\ \dot\mid\ {a_k}^{\intercal}$, see [[hadamard-product]], [[dot-product]]
+written differently, $\Delta w_{k \to j} = \Delta a_j\ \mathring\shortmid\ g'\ z_j\ \dot\mid\ {a_k}^{\intercal}$, see [[hadamard product]], [[dot product]]
 
 ## computing changes in activation
 
 $\delta a_j^j - \delta a_k^k = \delta z_j^j - \delta a_k^k \mid \delta a_j^j - \delta z_j^j$
 
-computing the [[derivative]]s using the chain [[derivative-rules]],
+computing the [[derivative]]s using the chain [[derivative rules]],
 
-$\delta z_j^j - \delta a_k^k = w_{k \to j}^{j, k}$, see [[forward-propagation]]
+$\delta z_j^j - \delta a_k^k = w_{k \to j}^{j, k}$, see [[forward propagation]]
 
-$\delta a_j^j - \delta z_j^j = (\delta\ g z_j^j - \delta z_j^j)$, where $g$ is the [[activation-function]]
+$\delta a_j^j - \delta z_j^j = (\delta\ g z_j^j - \delta z_j^j)$, where $g$ is the [[activation function]]
 
 therefore, $\delta a_j^j - \delta a_k^k = w_{k \to j}^{j, k} \mid (\delta\ g\ z_j^j - \delta z_j^j)$
 
 to maximize $\Delta L$, $\Delta a_k^k = w_{k \to j}^{j, k} \mid (z_j^j \rightarrow \delta\ g\ z_j^j - \delta z_j^j)\ z_j \mid \Delta a_j^j$ summed over all $j$ , see [[gradient]]
 
-written differently, $\Delta a_j = {w_{k \to j}}^{\intercal}\ \dot\mid\ \Delta a_j\ \mathring\shortmid\ g'\ z_j$, see [[hadamard-product]], [[dot-product]]
+written differently, $\Delta a_j = {w_{k \to j}}^{\intercal}\ \dot\mid\ \Delta a_j\ \mathring\shortmid\ g'\ z_j$, see [[hadamard product]], [[dot product]]
 
 ## propagating the gradient
 

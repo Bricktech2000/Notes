@@ -361,9 +361,9 @@ https://example.com/
 
 ---
 
-[[the-worst-programming-language-ever]]
+[[the worst programming language ever]]
 
-[[carbon-language-talk]]
+[[carbon language talk]]
 
 ---
 
@@ -445,9 +445,9 @@ S ((+) map.) reduce. A ==
 
 ---
 
-[[sequence]]s starting with an [[even-number]]: $4 \mid 10 \mid 5 = 200$
+[[sequence]]s starting with an [[even number]]: $4 \mid 10 \mid 5 = 200$
 
-[[sequence]]s starting with an [[odd-number]]: $5 \mid 10 \mid 5 = 250$
+[[sequence]]s starting with an [[odd number]]: $5 \mid 10 \mid 5 = 250$
 
 total number of [[sequence]]s: $200 : 250 = 450$
 

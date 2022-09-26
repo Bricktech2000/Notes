@@ -4,8 +4,8 @@
 
 [[psychology]]
 
-[[technical-writing]]
+[[technical writing]]
 
-[[mathematics]], [[pure-mathematics]], [[applied-mathematics]]
+[[mathematics]], [[pure mathematics]], [[applied mathematics]]
 
-[[computer-science]], [[computer-engineering]], [[software-engineering]]
+[[computer science]], [[computer engineering]], [[software engineering]]

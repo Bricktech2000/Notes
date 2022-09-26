@@ -2,13 +2,13 @@
 
 **see**
 
-operators in [[boolean-logic]]
+operators in [[boolean logic]]
 
-operators in my [[math-notation]]
+operators in my [[math notation]]
 
-operators in [[lambda-calculus]]
+operators in [[lambda calculus]]
 
-operators in [[type-theory]]
+operators in [[type theory]]
 
 [[set]] operators
 
@@ -16,10 +16,10 @@ operators in [[type-theory]]
 
 [[exponent]]s
 
-[[hadamard-product]]s
+[[hadamard product]]s
 
-[[dot-product]]
+[[dot product]]
 
-[[cross-product]]
+[[cross product]]
 
-[[cartesian-product]]
+[[cartesian product]]

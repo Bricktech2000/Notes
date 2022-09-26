@@ -1,5 +1,5 @@
 # Temperature
 
-see [[math-notation]]
+see [[math notation]]
 
-[[international-system-of-units]] unit: $\text{K}$
+[[international system of units]] unit: $\text{K}$

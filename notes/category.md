@@ -2,7 +2,7 @@
 
 &mdash; <https://youtu.be/yAi3XWCBkDo>
 
-see [[category-theory]], [[functor]]
+see [[category theory]], [[functor]]
 
 **types**
 
@@ -36,7 +36,7 @@ objects and morphisms do not contain any information; composition and identities
 
 every category has a collection of _objects_. even though objects can be anything, they are usually taken to be mathematical objects
 
-objects of a category are generally specificed by writing them in a [[set]], denoted $\braket{\braket{1, 2, 3}}$ in my [[math-notation]]. however, objects of a category do **not** (necessarily) form a (mathematical) [[set]]
+objects of a category are generally specificed by writing them in a [[set]], denoted $\braket{\braket{1, 2, 3}}$ in my [[math notation]]. however, objects of a category do **not** (necessarily) form a (mathematical) [[set]]
 
 ### Initial and Terminal Objects
 
@@ -54,9 +54,9 @@ terminal objects are unique up to unique isomorphism
 
 ## Morphisms
 
-for any pair of objects $A$ and $B$, the category has a (mathematical) [[set]] of _morphisms_ from $A$ to $B$ known as their _hom-set_, denoted $\mathcal C(A, B) = \braket{\braket{f, g, \dots}}$ in [[conventional-math-notation]].
+for any pair of objects $A$ and $B$, the category has a (mathematical) [[set]] of _morphisms_ from $A$ to $B$ known as their _hom-set_, denoted $\mathcal C(A, B) = \braket{\braket{f, g, \dots}}$ in [[conventional math notation]].
 
-a morphism from $A$ to $B$ is denoted $f: A \to B$ in [[conventional-math-notation]]. even though $A$ is related to $B$, $B$ is not necessarily related to $A$. they can be thought of as [[function]]s, but don't necessarily have to be.
+a morphism from $A$ to $B$ is denoted $f: A \to B$ in [[conventional math notation]]. even though $A$ is related to $B$, $B$ is not necessarily related to $A$. they can be thought of as [[function]]s, but don't necessarily have to be.
 
 any number of morphisms between two objects can exist. this includes zero morphisms to an infinity of morphisms.
 
@@ -64,7 +64,7 @@ any number of morphisms between two objects can exist. this includes zero morphi
 
 **definition** an _isomorphism_ is a morphism with a corresponding inverse. let $f : A \to B$ and let $f^- : B \to A$ and let $\circ$ be the [[composition]] [[operator]]. then, there exists an _isomorphism_ between $A$ and $B$ if and only if $f \circ f^- = \textbf{id}_B$ and $f^- \circ f = \textbf{id}_A$
 
-**definition** if there exists an isomorphism between two objects $A$ and $B$, they are said to be _isomorphic_, denoted $A \cong B$ in [[conventional-math-notation]].
+**definition** if there exists an isomorphism between two objects $A$ and $B$, they are said to be _isomorphic_, denoted $A \cong B$ in [[conventional math notation]].
 
 > **note** a morphism being both _epic_ and _monic_ does not imply that it is an isomorphism
 
@@ -108,7 +108,7 @@ see [[composition]]
 
 let $f : A \to B$ and $g : B \to C$ be morphisms from $A$ to $B$ and $B$ to $C$. then, there must exist a morphism $h : A \to C$ from $A$ to $C$ that is the [[composition]] of $f$ and $g$.
 
-composition is denoted through the [[operator]] $\circ$ in [[conventional-math-notation]] and read as _after_ or _then_. for example, $f \circ g$ is read as _f after g_ or _f then g_.
+composition is denoted through the [[operator]] $\circ$ in [[conventional math notation]] and read as _after_ or _then_. for example, $f \circ g$ is read as _f after g_ or _f then g_.
 
 ### Associativity Law
 
@@ -118,9 +118,9 @@ let $\circ$ be the [[composition]] [[operator]]. then, $h \circ (g \circ f) = (h
 
 ## Identities
 
-identities are morphisms that [[map]] an object to itself. in a category, each object must have an identity morphism. the [[set]] of all identities in a category is denoted $\mathcal C(A, A) = \braket{\braket{1_A, \dots}}$ in [[conventional-math-notation]].
+identities are morphisms that [[map]] an object to itself. in a category, each object must have an identity morphism. the [[set]] of all identities in a category is denoted $\mathcal C(A, A) = \braket{\braket{1_A, \dots}}$ in [[conventional math notation]].
 
-an identity is denoted $1_A: A \to A$ or as $\textbf{id}_A : A \to A$ in [[conventional-math-notation]].
+an identity is denoted $1_A: A \to A$ or as $\textbf{id}_A : A \to A$ in [[conventional math notation]].
 
 ### Identity Laws
 

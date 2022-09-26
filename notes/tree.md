@@ -1,6 +1,6 @@
 # Tree
 
-**see** [[abstract-data-type]]
+**see** [[abstract data type]]
 
 **definition** a _tree_ is an acyclic undirected [[graph]]
 
@@ -34,4 +34,4 @@ binary [[tree]]s can be implemented using a dynamic [[array]], where a node at i
 
 used in the implementation of binary [[heap]]s
 
-used in the implementation of [[abstract-syntax-tree]]s
+used in the implementation of [[abstract syntax tree]]s

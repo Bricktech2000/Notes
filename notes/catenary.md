@@ -6,7 +6,7 @@ $y = a \cosh x\text-a$, where
 
 $(x, y)$ is a point on the [[catenary]]
 
-$\cosh$ is a [[hyperbolic-function]]
+$\cosh$ is a [[hyperbolic function]]
 
 $a$ is the scaling factor
 

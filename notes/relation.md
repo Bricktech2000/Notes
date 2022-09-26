@@ -1,10 +1,10 @@
 # Relation
 
-see [[set]], [[cartesian-product]], [[math-notation]]
+see [[set]], [[cartesian product]], [[math notation]]
 
 **definition**
 
-a _relation_ $\mathcal R$ between two [[set]]s $A$ and $B$ is a subset of the [[cartesian-product]] of the two [[set]]s: $\mathcal R \vdash A\ \acute\mid\ B$
+a _relation_ $\mathcal R$ between two [[set]]s $A$ and $B$ is a subset of the [[cartesian product]] of the two [[set]]s: $\mathcal R \vdash A\ \acute\mid\ B$
 
 **definition**
 
@@ -17,9 +17,9 @@ $\mathcal R\ x = (A\ \acute\mid\ B)\ x \land P\ x$, where
 
 **notation**
 
-_membership in my [[math-notation]]_ $\mathcal R \braket{x, y}$, see [[ordered-pair]]
+_membership in my [[math notation]]_ $\mathcal R \braket{x, y}$, see [[ordered pair]]
 
-_membership in my [[math-notation]]_ $x \mathcal R y$
+_membership in my [[math notation]]_ $x \mathcal R y$
 
 ## Inverse Relation
 
@@ -35,19 +35,19 @@ $\mathcal R^- \vdash B\ \acute\mid\ A$
 
 ## reflexivity
 
-similar to identities in [[category-theory]]
+similar to identities in [[category theory]]
 
 **definition** a [[relation]] on $A$ is said to be _reflexive_ if $\mathcal R \braket{x, x} \dashv A x$
 
 ## symmetricality
 
-similar to isomorphisms in [[category-theory]]
+similar to isomorphisms in [[category theory]]
 
 **definition** a [[relation]] on $A$ is said to be _symmetric_ if $\mathcal R \braket{x, y} \vdash \mathcal R \braket{y, x}$
 
 ## transitivity
 
-similar to composition in [[category-theory]]
+similar to composition in [[category theory]]
 
 **definition** a [[relation]] on $A$ is said to be _transitive_ if $\mathcal R \braket{x, y} \land \mathcal R \braket{y, z} \vdash \mathcal R \braket{x, z}$
 

@@ -24,7 +24,7 @@ _inverse element_ $a : \cdot a = e \dashv S\ a$
 
 **notation**
 
-_in my [[math-notation]]_
+_in my [[math notation]]_
 
 the _inverse_ of $a$ is denoted $\cdot a$
 
@@ -32,7 +32,7 @@ the _identity_ element is denoted $e$
 
 $a : a$ is denoted $2a$
 
-_in [[conventional-math-notation]]_
+_in [[conventional math notation]]_
 
 the _inverse_ of $a$ is denoted $a^{-1}$
 
@@ -64,6 +64,6 @@ $\cdot \smash\cdot a = a$
 
 ## Subgroup
 
-#todo add subheading _subspace_ to [[vector-space]]
+#todo add subheading _subspace_ to [[vector space]]
 
-**theorem** _Lagrange's Theorem_ let $G$ be a [[group]] and $H$ be a sub[[group]] of $G$. then, $\psi\ \#\ H \le \psi\ \#\ G$, see [[psi-function-in-mat2348]]
+**theorem** _Lagrange's Theorem_ let $G$ be a [[group]] and $H$ be a sub[[group]] of $G$. then, $\psi\ \#\ H \le \psi\ \#\ G$, see [[psi function in mat2348]]

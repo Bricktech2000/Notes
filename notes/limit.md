@@ -1,6 +1,6 @@
 # Limit
 
-see [[math-notation]], [[limit-rules]]
+see [[math notation]], [[limit rules]]
 
 **notation** _the limit of $f\ x$ as $x$ approaches $a$._
 
@@ -22,7 +22,7 @@ let $f\ x$ be a [[function]] with domain $D$ defined on an open interval around 
 
 > **procedure** _computing a [[limit]]_
 >
-> to compute the [[limit]] of a [[function]], apply [[limit-rules]] recursively, see [[recursion]]
+> to compute the [[limit]] of a [[function]], apply [[limit rules]] recursively, see [[recursion]]
 
 ### Limit Existence
 
@@ -32,7 +32,7 @@ let $f\ x$ be a [[function]] with domain $D$ defined on an open interval around 
 
 ## Limits of Trigonometric Functions
 
-see [[trigonometric-function]]
+see [[trigonometric function]]
 
 let $\theta$ be an angle in radians
 

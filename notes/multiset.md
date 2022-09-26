@@ -1,10 +1,10 @@
 # Multiset
 
-see [[math-notation]]
+see [[math notation]]
 
 **definition** a _multiset_ is an unordered collection of elements that do not have to be unique
 
-**definition** _formally in my [[math-notation]]_ a [[multiset]] is a [[set-theory]]etical [[function]] with range at most $\mathbb N$ that takes an element and returns the number of occurrences of that element in the [[multiset]]
+**definition** _formally in my [[math notation]]_ a [[multiset]] is a [[set theory]]etical [[function]] with range at most $\mathbb N$ that takes an element and returns the number of occurrences of that element in the [[multiset]]
 
 **notation**
 
@@ -18,7 +18,7 @@ $M = ((1, 2, 2, 2, 3, 3))$
 
 > **example** in the prime factorization of $60$, the [[multiplicity]] of the factor $2$ is $2$ and the [[multiplicity]] of the factors $3$ and $5$ is $1$
 
-**notation** _in my [[math-notation]]_
+**notation** _in my [[math notation]]_
 
 $M\ e$, where
 
@@ -27,9 +27,9 @@ $M\ e$, where
 
 ## Multiset Operations
 
-**see** [[boolean-logic]]
+**see** [[boolean logic]]
 
-**see** [[cartesian-product]]
+**see** [[cartesian product]]
 
 ## Multiset Union and Intersection
 
@@ -63,7 +63,7 @@ $\#\ (M \lor N) : \#\ (M \land N) = \#\ (M : N)$
 
 _order matters_
 
-**definition** an _arrangement_ of size $k$ of a [[multiset]] $M$ is a [[vector-in-rn]] containing $k$ elements of $M$
+**definition** an _arrangement_ of size $k$ of a [[multiset]] $M$ is a [[vector in rn]] containing $k$ elements of $M$
 
 the number of $k$-arrangements of an $n$-multiset $M$ with multiplicities $k_0 \dots k_{n \cdot 1}$ is
 

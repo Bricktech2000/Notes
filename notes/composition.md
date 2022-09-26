@@ -1,8 +1,8 @@
 # Composition
 
-see [[math-notation]], [[function]]
+see [[math notation]], [[function]]
 
-**definition** _composition in my [[math-notation]]_
+**definition** _composition in my [[math notation]]_
 
 $C\ f\ g = x \rightarrow f\ g\ x$, where
 
@@ -26,6 +26,6 @@ _associativity_ $h \circ (g \circ f) \equiv (h \circ g) \circ f \equiv h \circ g
 
 **applications**
 
-[[function]] [[composition]] is very useful in [[functional-programming]] as it allows for building larger [[function]]s from smaller ones. it also allows for [[abstraction]] and [[encapsulation]].
+[[function]] [[composition]] is very useful in [[functional programming]] as it allows for building larger [[function]]s from smaller ones. it also allows for [[abstraction]] and [[encapsulation]].
 
 > **example** suppose we have two [[function]]s: $A \to B$ and $B \to C$. after composing them, we get $A \to C$. there is no way to differentiate this [[function]] from any other [[function]], and the intermediate value $B$ is not exposed to the outside world anymore.

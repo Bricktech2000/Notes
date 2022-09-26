@@ -1,6 +1,6 @@
 # Stoichiometry
 
-see [[conventional-math-notation]]
+see [[conventional math notation]]
 
 > Stoichiometry refers to the relationship between the quantities of reactants and products before, during, and following chemical reactions &mdash; Wikipedia
 

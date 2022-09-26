@@ -1,8 +1,8 @@
 # Bank
 
-see [[money]], [[principles-of-economics]]
+see [[money]], [[principles of economics]]
 
-[[bank]]s must comply with [[know-your-customer]] regulations. [[know-your-customer]] compliance responsibility rests with the [[bank]]s
+[[bank]]s must comply with [[know your customer]] regulations. [[know your customer]] compliance responsibility rests with the [[bank]]s
 
 ## definitions
 
@@ -38,7 +38,7 @@ _the amount of money the banking system generates with each dollar it receives_
 
 ### definition
 
-see [[math-notation]]
+see [[math notation]]
 
 the money multiplier is the reciprocal of the reserve ratio
 

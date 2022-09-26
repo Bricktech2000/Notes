@@ -2,24 +2,24 @@
 
 [[random]]
 
-[[interesting-electives]]
+[[interesting electives]]
 
-[[90u-guard-log]]
+[[90u guard log]]
 
-[[notion-time-management]]
+[[notion time management]]
 
-[[deriving-the-quadratic-formula]]
+[[deriving the quadratic formula]]
 
-[[esoteric-programming-language-idea]]
+[[esoteric programming language idea]]
 
-[[personal-issues-with-university]]
+[[personal issues with university]]
 
-[[life-quotes]]
+[[life quotes]]
 
 [[recipes]]
 
-[[vim-talk]]
+[[vim talk]]
 
-[[carbon-language-talk]]
+[[carbon language talk]]
 
-[[discord-statuses]]
+[[discord statuses]]

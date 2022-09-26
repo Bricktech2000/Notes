@@ -1,6 +1,6 @@
 # Function
 
-see [[math-notation]]
+see [[math notation]]
 
 **definition**
 
@@ -15,29 +15,29 @@ one can use the _horizontal line test_ to determine whether the graph of a curve
 
 [[boolean]] [[function]]
 
-[[trigonometric-function]]
+[[trigonometric function]]
 
-[[hyperbolic-function]]
+[[hyperbolic function]]
 
-[[sigmoid-function]]
+[[sigmoid function]]
 
 [[predicate]]
 
 **applications**
 
-[[curve-sketching]]
+[[curve sketching]]
 
-[[functional-programming]]
+[[functional programming]]
 
-[[function-vector-space]]
+[[function vector space]]
 
-[[loss-function]] in [[neural-network]]s
+[[loss function]] in [[neural network]]s
 
-[[verifiable-random-function]] in [[cryptocurrency]]es
+[[verifiable random function]] in [[cryptocurrency]]es
 
 ## Vector Space Axioms
 
-see [[function-vector-space]], [[vector-space]]
+see [[function vector space]], [[vector space]]
 
 **properties**
 
@@ -87,7 +87,7 @@ _an odd function is symmetrical about the y axis, but also flipped about the x a
 
 ## Increasing and Decreasing Functions
 
-see [[calculus-notation]]
+see [[calculus notation]]
 
 **definition** a [[function]] $f$ is _increasing_ on an interval $x \rightarrow (a \le x \le b)$ if $x_1 < x_2 \vdash f\ x_1 < f\ x_2$, or $\delta\ f\ x - \delta x > 0$ on that interval
 
@@ -95,17 +95,17 @@ see [[calculus-notation]]
 
 ## Function Concavity
 
-see [[calculus-notation]]
+see [[calculus notation]]
 
 **definition** a [[function]] $f\ x$ is _concave up_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x < 0$, it _bends upwards_
 
 **definition** a [[function]] $f\ x$ is _concave down_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x > 0$, it _bends downwards_
 
-a point where concavity changes (from up to down or down to up) is an [[inflection-point]]
+a point where concavity changes (from up to down or down to up) is an [[inflection point]]
 
 ## Function Extremum
 
-see [[inflection-point]], [[derivative]]
+see [[inflection point]], [[derivative]]
 
 > extrema are the largest and smallest value of the function, either within a given range (the local or relative extrema), or on the entire domain (the global or absolute extrema). &mdash; Wikipedia
 
@@ -121,7 +121,7 @@ $f\ x \le f\ y \dashv D\ y$
 
 **definition** the _local extrema_ of a [[function]] are the highest and lowest points of the function within a given range
 
-**theorem** if $f$ has a local extremum at $c$, the point $(c, f\ c)$ is a [[critical-point]] of $f$, but not conversely
+**theorem** if $f$ has a local extremum at $c$, the point $(c, f\ c)$ is a [[critical point]] of $f$, but not conversely
 
 ### First Derivative Test
 
@@ -136,15 +136,15 @@ let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number o
 
 > **note** the test is inconclusive if $\delta\ (\delta f\ x - \delta x) - \delta x = 0$ or if it does not exist
 
-## [[inflection-point]]
+## [[inflection point]]
 
-## [[critical-point]]
+## [[critical point]]
 
-## [[mean-value-theorem]]
+## [[mean value theorem]]
 
 ## Continuity
 
-see [[math-notation]]
+see [[math notation]]
 
 **definition** a [[function]] $f\ x$ is _continuous_ at $x = a$ if $\lim_{x \to a} f\ x = f\ a$
 
@@ -160,7 +160,7 @@ if $f\ x$ and $g\ x$ are continuous at $a$, then the following functions are als
 - $f \because g$
 - $f \mid g$
 - $c f$ where $c$ is a constant
-- $f \text- g$ if $g\ a \ne 0$ (restriction potentially necessary, see [[improved-expression-evaluation]])
+- $f \text- g$ if $g\ a \ne 0$ (restriction potentially necessary, see [[improved expression evaluation]])
 
 **definition** a [[function]] is _continuous_ on an interval $a \le x \le b$ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
 
@@ -360,7 +360,7 @@ fn twelveOver(x: f64) -> f64 {
 }
 ```
 
-even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it won't be able to return a value if the input is `0`. normally, people would throw an exception to prevent the program from crashing, which makes the [[type]] signature a "lie". however, in [[functional-programming]], one of the following strategies should be used instead:
+even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it won't be able to return a value if the input is `0`. normally, people would throw an exception to prevent the program from crashing, which makes the [[type]] signature a "lie". however, in [[functional programming]], one of the following strategies should be used instead:
 
 - restrict the input of the [[function]] (something like `nonZeroF64`)
 - extend the input of the [[function]] (something like `Optional<f64>`)

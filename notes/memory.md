@@ -4,7 +4,7 @@ see [[learn]]
 
 interesting view on memory &mdash; <https://youtu.be/VQKt58kuEnk>
 
-[[memory-technique]]s can be used as [[trick]]s to remember [[fact]]s better and faster
+[[memory technique]]s can be used as [[trick]]s to remember [[fact]]s better and faster
 
 **types** _&mdash; with examples_
 

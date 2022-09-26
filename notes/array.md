@@ -1,10 +1,10 @@
 # Array
 
-**see** [[data-structure]]
+**see** [[data structure]]
 
 _a [[list]] where all elements are stored contiguously in memory_
 
-time [[computational-complexity]]:
+time [[computational complexity]]:
 
 |           | Static | Dynamic |
 | --------- | ------ | ------- |

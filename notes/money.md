@@ -4,11 +4,11 @@ see [[wealth]], [[bank]]
 
 [[money]] is one of the assets with highest [[liquidity]]
 
-**definition** _money_ is the set of assets in the [[economy]] that people regularly use to buy [[goods-and-services]] from other people
+**definition** _money_ is the set of assets in the [[economy]] that people regularly use to buy [[goods and services]] from other people
 
 money is:
 
-- a _medium of exchange_ an item that buyers give to sellers when they want to purchase [[goods-and-services]]
+- a _medium of exchange_ an item that buyers give to sellers when they want to purchase [[goods and services]]
 - a _unit of account_ a yardstick people use to post prices and record debts
 - a _store of value_ an item that people can use to transfer purchasing power from the present to the future
 

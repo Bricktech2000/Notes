@@ -1,6 +1,6 @@
 # Algorithm
 
-**see** [[abstract-data-type]], [[data-structure]]
+**see** [[abstract data type]], [[data structure]]
 
 **types**
 
@@ -21,12 +21,12 @@ divide and conquer #todo
 
 ## examples
 
-[[shors-algorithm]]
+[[shors algorithm]]
 
-[[row-reduction]] through Gaussian Elimination
+[[row reduction]] through Gaussian Elimination
 
 [[hash]] [[function]]s
 
-[[breadth-first-search]], [[depth-first-search]], [[best-first-search]]
+[[breadth-first search]], [[depth-first search]], [[best-first search]]
 
-[[kruskals-algorithm]]
+[[kruskals algorithm]]

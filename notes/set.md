@@ -1,12 +1,12 @@
 # Set
 
-**see** [[abstract-data-type]]
+**see** [[abstract data type]]
 
-**see** [[math-notation]]
+**see** [[math notation]]
 
 **definition** a _set_ is an unordered collection of elements, each of which are unique
 
-**definition** _formally in my [[math-notation]]_ a [[set]] is a [[set-theory]]etical [[function]] with range at most $\mathbb B$ (also known as a [[predicate]]) that takes an element and returns whether it is in the [[set]] or not
+**definition** _formally in my [[math notation]]_ a [[set]] is a [[set theory]]etical [[function]] with range at most $\mathbb B$ (also known as a [[predicate]]) that takes an element and returns whether it is in the [[set]] or not
 
 **notations**
 
@@ -20,19 +20,19 @@ _Set Builder notation_
 
 $S\ x = P\ x$ or $S = x \rightarrow P\ x$, where
 
-$P$ is a [[predicate]], see [[math-notation]]
+$P$ is a [[predicate]], see [[math notation]]
 
-in [[conventional-math-notation]], this abomination: $\lbrace x \mid P(x) \rbrace$
+in [[conventional math notation]], this abomination: $\lbrace x \mid P(x) \rbrace$
 
 **types**
 
-[[binary-search-tree]] [[set]]
+[[binary search tree]] [[set]]
 
-[[hash-table]] [[set]]
+[[hash table]] [[set]]
 
 **properties**
 
-[[set]]s are categories, see [[category-theory]]
+[[set]]s are categories, see [[category theory]]
 
 _elements are unordered_ $\braket{\braket{1, 2, 3}} = \braket{\braket{3, 2, 1}} = \dots$
 
@@ -44,15 +44,15 @@ _elements are unique_ $\braket{\braket{1, 1, 1}} = \braket{\braket{1, 1}} = \dot
 
 [[universal]] set
 
-[[number-field]]s
+[[number field]]s
 
 [[monoid]]s
 
 ## Set Operations
 
-**see** [[boolean-logic]]
+**see** [[boolean logic]]
 
-**see** [[cartesian-product]]
+**see** [[cartesian product]]
 
 ### Set Subset
 
@@ -62,9 +62,9 @@ in other words, an element being in $A$ implies it is also in $B$
 
 **notation**
 
-_in my [[math-notation]]_ $A \vdash B$ checks if $A$ is a subset of $B$
+_in my [[math notation]]_ $A \vdash B$ checks if $A$ is a subset of $B$
 
-_in [[conventional-math-notation]]_ $A \subseteq B$ states $A$ is a subset of $B$
+_in [[conventional math notation]]_ $A \subseteq B$ states $A$ is a subset of $B$
 
 **examples**
 
@@ -84,7 +84,7 @@ $S\ a$
 
 ## Set Isomorphism
 
-see [[category]], [[category-theory]]
+see [[category]], [[category theory]]
 
 two [[set]]s are isomorphic if they contain the same elements "labeled" in different ways
 
@@ -124,7 +124,7 @@ when two [[set]]s form a _union_ $A \lor B$, then $\#\ S = \#\ A : \#\ B \cdot \
 
 _difference principle_ the cardinality of the difference of two [[set]]s is $\#\ (A / B) = \#\ A \cdot \#\ (A \land B)$
 
-_product principle_ the cardinality of the [[cartesian-product]] of two [[set]]s is $\#\ A\ \acute\shortmid\ B = \#\ A \mid \#\ B$
+_product principle_ the cardinality of the [[cartesian product]] of two [[set]]s is $\#\ A\ \acute\shortmid\ B = \#\ A \mid \#\ B$
 
 _generalized product principle_ $\#\ (A\ \acute\shortmid\ B \lor A\ \acute\shortmid\ B) = \#\ A\ \acute\shortmid\ B : \#\ B\ \acute\shortmid\ A \cdot \#\ (A\ \acute\shortmid\ B \land B\ \acute\shortmid\ A) = (2 \mid \#\ A : \#\ B) \cdot $ #todo complete during next lecture
 
@@ -146,7 +146,7 @@ _generalized product principle_ $\#\ (A\ \acute\shortmid\ B \lor A\ \acute\short
 
 _order matters_
 
-**definition** an _arrangement_ of size $k$ of a [[set]] $A$ is a [[vector-in-rn]] containing $k$ elements of $A$
+**definition** an _arrangement_ of size $k$ of a [[set]] $A$ is a [[vector in rn]] containing $k$ elements of $A$
 
 the number of $k$-arrangements of an $n$-set is
 

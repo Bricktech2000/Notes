@@ -6,9 +6,9 @@ _mathematical logic_
 
 model theory
 
-[[proof-theory]]
+[[proof theory]]
 
-[[set-theory]]
+[[set theory]]
 
 [[recursion]] theory
 

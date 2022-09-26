@@ -2,7 +2,7 @@
 
 ## best practices
 
-in [[technical-writing]]
+in [[technical writing]]
 
 _course's objective_ is awkward to say (uses possessive grammar) whereas _course objective_ is better (uses an adjective)
 

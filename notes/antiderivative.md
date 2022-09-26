@@ -1,12 +1,12 @@
 # Antiderivative
 
-see [[math-notation]], [[function]], [[derivative]], [[calculus-notation]]
+see [[math notation]], [[function]], [[derivative]], [[calculus notation]]
 
 > **note** a [[function]] has an infinite number of [[antiderivative]]s
 
 > **note** a [[function]] has a unique general family of [[antiderivative]]s in the form $F\ x : c$ with $\mathbb R c$
 >
-> in other words, if $F\ x$ is one [[antiderivative]] of $f\ x$, then any other [[antiderivative]] of $f\ x$ can be rewritten in the form $F\ x : c$ with $\mathbb R c$, see [[antiderivative-theorem-proof]]
+> in other words, if $F\ x$ is one [[antiderivative]] of $f\ x$, then any other [[antiderivative]] of $f\ x$ can be rewritten in the form $F\ x : c$ with $\mathbb R c$, see [[antiderivative theorem proof]]
 
 **notation**
 
@@ -21,7 +21,7 @@ $\delta\ F\ x - \delta x = f\ x$, where
 
 > **procedure** _computing an [[antiderivative]]_
 >
-> to antidifferentiate a [[function]], apply reciprocal [[derivative-rules]] recursively, see [[recursion]]
+> to antidifferentiate a [[function]], apply reciprocal [[derivative rules]] recursively, see [[recursion]]
 
 ## $u$ Substitution
 
@@ -61,7 +61,7 @@ $\int v \delta u = v u \cdot \int u \delta v$
 
 > **proof**
 >
-> $\delta\ (f\ x \mid g\ x) - \delta x = (f\ x \mid \delta\ g\ x - \delta x) : (g\ x \mid \delta\ f\ x - \delta x)$, see [[derivative-rules]]
+> $\delta\ (f\ x \mid g\ x) - \delta x = (f\ x \mid \delta\ g\ x - \delta x) : (g\ x \mid \delta\ f\ x - \delta x)$, see [[derivative rules]]
 >
 > integrating both sides and simplifying, $f\ x \mid g\ x = (\int f\ x \mid \delta\ g\ x) : (\int g\ x \mid \delta\ f\ x)$
 >
@@ -81,7 +81,7 @@ $\int v \delta u = v u \cdot \int u \delta v$
 >
 > computing the integral, $F\ x = xe[x] \cdot e[x] : c$
 
-## Using [[trigonometric-function]]s
+## Using [[trigonometric function]]s
 
 > **procedure**:
 >
@@ -99,7 +99,7 @@ $\int v \delta u = v u \cdot \int u \delta v$
 > 2. use double-angle trigonometric identities to rewrite $[\operatorname{trig_2} x]2$ as a [[function]] of $\operatorname{trig_1} 2x$
 > 3. multiply out with the power $p_2 - 2$ and compute the resulting [[integral]]s separately
 
-> **note** the technique above can also be used to compute [[integral]]s of the product of multiple [[trigonometric-function]]s raised to even powers
+> **note** the technique above can also be used to compute [[integral]]s of the product of multiple [[trigonometric function]]s raised to even powers
 
 > **example**
 >

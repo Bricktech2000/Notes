@@ -4,8 +4,8 @@ used for backlinks
 
 **see**
 
-[[neural-network]]s
+[[neural network]]s
 
-[[eigenvector-and-eigenvalue]]
+[[eigenvector and eigenvalue]]
 
-[[linear-programming]]
+[[linear programming]]

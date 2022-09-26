@@ -2,7 +2,7 @@
 
 _the [[set]] of fractional [[number]]s_
 
-see [[math-notation]]
+see [[math notation]]
 
 **definition**
 

@@ -1,6 +1,6 @@
 # List
 
-**see** [[abstract-data-type]]
+**see** [[abstract data type]]
 
 _[[map]] from [[natural]] numbers in range $0 \dots n$ to elements_
 
@@ -8,4 +8,4 @@ _[[map]] from [[natural]] numbers in range $0 \dots n$ to elements_
 
 [[array]]
 
-[[linked-list]]
+[[linked list]]

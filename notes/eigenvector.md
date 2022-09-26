@@ -1,3 +1,3 @@
 # Eigenvector
 
-see [[eigenvector-and-eigenvalue]]
+see [[eigenvector and eigenvalue]]

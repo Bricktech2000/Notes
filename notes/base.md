@@ -1,3 +1,3 @@
 # Base
 
-see [[acid-and-base]]
+see [[acid and base]]

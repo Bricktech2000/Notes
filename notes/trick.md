@@ -6,7 +6,7 @@ _a technique aiming to increase the efficiency of a process_
 
 > **example**
 >
-> see [[math-notation]]
+> see [[math notation]]
 >
 > computing $9 - 0.25$ mentally can be done more efficiently by computing $9 \mid 4$ instead. this [[trick]] does not make its user smarter or better at arithmetic, but still improves the efficiency of the user's arithmetic
 
@@ -14,6 +14,6 @@ _a technique aiming to increase the efficiency of a process_
 
 ## examples
 
-[[memory-technique]]
+[[memory technique]]
 
 [[mnemonic]]

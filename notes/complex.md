@@ -2,7 +2,7 @@
 
 _the [[set]] of [[complex]] numbers_
 
-see [[math-notation]]
+see [[math notation]]
 
 **definition**
 
@@ -20,11 +20,11 @@ _Polar Form_
 
 > **AKA** Euler's formula notation
 
-$z = |z|\ \cos \theta : |z|\ \iota \sin \theta = |z|\ e[\iota\theta]$, see [[eulers-constant]]
+$z = |z|\ \cos \theta : |z|\ \iota \sin \theta = |z|\ e[\iota\theta]$, see [[eulers constant]]
 
 **applications**
 
-[[complex]] numbers are often intimately related to [[discrete-mathematics]] &mdash; 3B1B <https://youtu.be/bOXCLR3Wric>
+[[complex]] numbers are often intimately related to [[discrete mathematics]] &mdash; 3B1B <https://youtu.be/bOXCLR3Wric>
 
 **properties**
 
@@ -34,7 +34,7 @@ _equality_ $a : b\iota = c : d\iota \equiv a = c \land b = d$
 
 _addition_ $(a : b\iota) : (c : d\iota) = (a : c) : (b : d)\iota$
 
-> **note** addition of [[complex]] numbers can be thought of as [[vector-in-rn]] addition
+> **note** addition of [[complex]] numbers can be thought of as [[vector in rn]] addition
 
 _subtraction_ $(a : b\iota) \cdot (c : d\iota) = (a \cdot c) : (b \cdot d)\iota$
 

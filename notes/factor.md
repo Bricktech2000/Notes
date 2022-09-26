@@ -2,7 +2,7 @@
 
 _factoring_
 
-see [[math-notation]]
+see [[math notation]]
 
 > **procedure** _useful rules for [[factor]]ing_
 >

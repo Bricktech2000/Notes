@@ -1,8 +1,8 @@
 # Stack
 
-**see** [[abstract-data-type]]
+**see** [[abstract data type]]
 
-_LIFO [[abstract-data-type]] that can push and pop elements_
+_LIFO [[abstract data type]] that can push and pop elements_
 
 **representation**
 
@@ -18,7 +18,7 @@ push pop
 
 **types**
 
-[[linked-list]] [[stack]]
+[[linked list]] [[stack]]
 
 [[array]] [[stack]]
 
@@ -26,6 +26,6 @@ push pop
 
 used by processors to implement [[recursion]]
 
-can be used in [[depth-first-search]]
+can be used in [[depth-first search]]
 
 can be used in recursive [[parser]]s

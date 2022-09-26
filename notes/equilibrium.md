@@ -1,8 +1,8 @@
 # Equilibrium
 
-see [[conventional-math-notation]]
+see [[conventional math notation]]
 
-see [[stoichiometry]], [[concentration]], [[reaction-rate]]s
+see [[stoichiometry]], [[concentration]], [[reaction rate]]s
 
 all reactions have to be reversible for equilibrium to be reached
 
@@ -34,7 +34,7 @@ for example, with $CaCO_{3(s)} \Harr CaO_{(s)} + CO_{2(g)}$, then $Q = Q_p = p_{
 
 ### Difference Between Pressures and Concentrations
 
-> $PV = nRT \therefore P = \frac{n}{V}RT = [C]RT$ for all [[ideal-gas]]es
+> $PV = nRT \therefore P = \frac{n}{V}RT = [C]RT$ for all [[ideal gas]]es
 >
 > $Q_p = \frac{p^2_{NO_2}}{p^2_{NO}p_{O_2}} = \frac{([NO_2]RT)^2}{([NO]RT)^2([O_2]RT)} = \frac{[NO_2]^2}{[NO]^2[O_2]RT}$
 >

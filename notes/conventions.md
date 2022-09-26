@@ -4,17 +4,17 @@
 
 ### LaTeX
 
-LaTeX is used for all mathematical equations through my custom [[math-notation]]
+LaTeX is used for all mathematical equations through my custom [[math notation]]
 
 [[variable]]s are defined in separate lines using a _, where_ statement
 
 whitespace in formulas follow programming-language-like conventions
 
-[[international-system-of-units]] units and other units are to be written using `\text{}`
+[[international system of units]] units and other units are to be written using `\text{}`
 
 the $\ : $ [[operator]] must always be surrounded one space on either side, or written as the first character of an equation as `$\ : $`
 
-the $\rightarrow$ [[operator]] is written as `\to` by default, and must be written as `\rightarrow` when it indicates a [[math-notation]] [[function]] definition
+the $\rightarrow$ [[operator]] is written as `\to` by default, and must be written as `\rightarrow` when it indicates a [[math notation]] [[function]] definition
 
 `\R`, `\N`, `\Z`, `\{` and `\}` must not be used, as they are not widely supported. `\mathbb R`, `\mathbb N`, `\mathbb Z`, `\lbrace` and `\rbrace` should be used instead, respectively.
 
@@ -207,7 +207,7 @@ the following scripts are to be appended to any page before it is exported
 
 ## report-style PDF export conventions
 
-see [[eng1112-report-2]] for an example application of report-style PDF export conventions
+see [[eng1112 report 2]] for an example application of report-style PDF export conventions
 
 the following stylesheet is to be appended to any report-style document
 
@@ -234,7 +234,7 @@ paragraphs have their first line indented &mdash; lorem ipsum dolor sit amet, co
 
 ## presentation-style note conventions
 
-see [[vim-talk]] and [[carbon-language-talk]] for example applications of presentation-style note conventions
+see [[vim talk]] and [[carbon language talk]] for example applications of presentation-style note conventions
 
 presentation-style notes are viewed using Obisdian's _Start presentation_ feature
 

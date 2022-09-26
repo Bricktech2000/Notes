@@ -2,12 +2,12 @@
 
 **see**
 
-[[calculus-notation]]
+[[calculus notation]]
 
-[[fundamental-theorem-of-calculus]]
+[[fundamental theorem of calculus]]
 
-[[mean-value-theorem]], [[intermediate-value-theorem]]
+[[mean value theorem]], [[intermediate value theorem]]
 
-[[newtons-method]]
+[[newtons method]]
 
 [[limit]], [[derivative]], [[antiderivative]], [[integral]]

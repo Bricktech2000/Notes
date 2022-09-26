@@ -2,9 +2,9 @@
 
 _an increase in the overall level of prices in the economy_
 
-**definition** _Inflation_ is the decline of purchasing power of a given currency over [[time]]. A quantitative estimate of the rate at which the decline in purchasing power occurs can be reflected in the increase of an average price level of a basket of selected [[goods-and-services]] (see [[consumer-price-index]]) in an economy over some period of [[time]] &mdash; Investopedia
+**definition** _Inflation_ is the decline of purchasing power of a given currency over [[time]]. A quantitative estimate of the rate at which the decline in purchasing power occurs can be reflected in the increase of an average price level of a basket of selected [[goods and services]] (see [[consumer price index]]) in an economy over some period of [[time]] &mdash; Investopedia
 
-see [[economics]], [[math-notation]]
+see [[economics]], [[math notation]]
 
 **examples**
 
@@ -20,21 +20,21 @@ see [[economics]], [[math-notation]]
 
 <https://www.bankofcanada.ca/rates/related/inflation-calculator/>
 
-### using [[gross-domestic-product]]
+### using [[gross domestic product]]
 
 $\text{Inflation}_t = \text{GDPD}_t \cdot \text{GDPD}_0 - \text{GDPD}_0$, where
 
-$\text{GDPD}_t$ is the current [[gross-domestic-product]] Deflator
+$\text{GDPD}_t$ is the current [[gross domestic product]] Deflator
 
-$\text{GDPD}_0$ is the base [[gross-domestic-product]] Deflator
+$\text{GDPD}_0$ is the base [[gross domestic product]] Deflator
 
-### using [[consumer-price-index]]
+### using [[consumer price index]]
 
 $\text{Inflation}_t = \text{CPI}_t \cdot \text{CPI}_0 - \text{CPI}_0$, where
 
-$\text{CPI}_t$ is the current [[consumer-price-index]]
+$\text{CPI}_t$ is the current [[consumer price index]]
 
-$\text{CPI}_0$ is the base [[consumer-price-index]]
+$\text{CPI}_0$ is the base [[consumer price index]]
 
 ## correcting using inflation
 

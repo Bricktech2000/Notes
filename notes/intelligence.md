@@ -1,6 +1,6 @@
 # Intelligence
 
-see [[intellectual-disability]], [[intellectual-giftedness]]
+see [[intellectual disability]], [[intellectual giftedness]]
 
 used for backlinks
 
@@ -12,7 +12,7 @@ used for backlinks
 
 <https://youtu.be/64xcgvEJ3Ys?t=103>
 
-[[10x-developer]]
+[[10x developper]]
 
 <https://youtu.be/ILt1j3xEmw0?t=389>
 

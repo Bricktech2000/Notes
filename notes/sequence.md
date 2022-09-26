@@ -1,24 +1,24 @@
 # Sequence
 
-see [[math-notation]], [[series]], [[calculus-notation]]
+see [[math notation]], [[series]], [[calculus notation]]
 
 **definition** a _sequence_ is an ordered collection of infinitely many elements
 
-**definition** _formally in my [[math-notation]]_ a [[sequence]] is a [[set-theory]]etical [[function]] $k \rightarrow a^k$ with domain at least $x \rightarrow \mathbb Z x \land x \ge 0$ that takes an index and returns the element at that index
+**definition** _formally in my [[math notation]]_ a [[sequence]] is a [[set theory]]etical [[function]] $k \rightarrow a^k$ with domain at least $x \rightarrow \mathbb Z x \land x \ge 0$ that takes an index and returns the element at that index
 
 **notations**
 
-_using [[iteration]] in my [[math-notation]]_ $a = 0, 1, 2 \dots 10 = a^0 \dots a^{10}$
+_using [[iteration]] in my [[math notation]]_ $a = 0, 1, 2 \dots 10 = a^0 \dots a^{10}$
 
-_using [[recursion]] in my [[math-notation]]_ $a^0 = 2 \land a^n = 4 \cdot 1 \text- a^{n \cdot 1}$
+_using [[recursion]] in my [[math notation]]_ $a^0 = 2 \land a^n = 4 \cdot 1 \text- a^{n \cdot 1}$
 
-_as a [[function]] (closed form) in my [[math-notation]]_ $a^n = n2$
+_as a [[function]] (closed form) in my [[math notation]]_ $a^n = n2$
 
-_using [[iteration]] in [[conventional-math-notation]]_ $a = \lbrace 1, 2, 3, \dots \rbrace = \lbrace a_n \rbrace_{n = 0}^{\infty} = \lbrace a_n \rbrace$
+_using [[iteration]] in [[conventional math notation]]_ $a = \lbrace 1, 2, 3, \dots \rbrace = \lbrace a_n \rbrace_{n = 0}^{\infty} = \lbrace a_n \rbrace$
 
-_using [[recursion]] in [[conventional-math-notation]]_ $a_1 = 2$ and $a_n = 4 - \frac{1}{a_{n \cdot 1}}$
+_using [[recursion]] in [[conventional math notation]]_ $a_1 = 2$ and $a_n = 4 - \frac{1}{a_{n \cdot 1}}$
 
-_as a [[function]] (closed form) in [[conventional-math-notation]]_ $a_n = n^2$
+_as a [[function]] (closed form) in [[conventional math notation]]_ $a_n = n^2$
 
 > **example** _the Fibonacci sequence_ $F^0 = 0 \land F^1 = 1 \land F^n = F^{n \cdot 1} : F^{n \cdot 2}$
 

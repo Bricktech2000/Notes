@@ -20,7 +20,7 @@ _a language for the next 40 years_
 
 ## safety features
 
-[[rust]] borrows many features from [[functional-programming]] and makes them easy to use. for instance, [[rust]] has `Option`s instead of [[null]] pointers, and it has `Result`s instead of `try catch` exceptions.
+[[rust]] borrows many features from [[functional programming]] and makes them easy to use. for instance, [[rust]] has `Option`s instead of [[null]] pointers, and it has `Result`s instead of `try catch` exceptions.
 
 accessing out-of-bounds memory causes either a compile time error or a `panic!` at runtime instead of maybe or maybe not causing a segfault. the `#[no_panic]` attribute macro can be used to force the compiler to prove that a function will never panic. &mdash; <https://youtu.be/sbVxq7nNtgo?t=586>
 
@@ -55,7 +55,7 @@ the unsafe code is for framework authors, meaning framework users don't have to 
 
 ### macro system
 
-[[rust]]'s macro system is Turing complete, see [[turing-machine]]. they allow for both [[abstraction]]s and new syntax.
+[[rust]]'s macro system is Turing complete, see [[turing machine]]. they allow for both [[abstraction]]s and new syntax.
 
 [[rust]] macros are for framework authors, meaning framework users don't have to worry about them. (duplicate)
 

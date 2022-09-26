@@ -1,6 +1,6 @@
 # Bond
 
-see [[orbital]], [[quantum-numbers]]
+see [[orbital]], [[quantum numbers]]
 
 > A chemical bond is a lasting attraction between atoms, ions or molecules that enables the formation of chemical compounds. &mdash; Wikipedia
 

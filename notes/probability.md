@@ -1,12 +1,12 @@
 # Probability
 
-see [[math-notation]], [[boolean-logic]]
+see [[math notation]], [[boolean logic]]
 
 **definition** a _sample space_ $S$ is a [[set]] of elements
 
 **definition** an _event_ $E$ is a sub[[set]] of a _sample space_ $S$
 
-**definition** the _probability_ that _event_ $E$ occurs in a space $S$ is denoted $P \braket{E, S}$, see [[ordered-pair]]
+**definition** the _probability_ that _event_ $E$ occurs in a space $S$ is denoted $P \braket{E, S}$, see [[ordered pair]]
 
 if all events are equally likely to occur in the space, then $P \braket{E, S} = \#\ E - \#\ S$
 

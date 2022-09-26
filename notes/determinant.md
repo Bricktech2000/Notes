@@ -1,6 +1,6 @@
 # Determinant
 
-see [[math-notation]], [[matrix]]
+see [[math notation]], [[matrix]]
 
 **notation**
 
@@ -38,11 +38,11 @@ $\det cA = c^n \mid \det A$, where $n$ is the width and height of the [[matrix]]
 >
 > the [[determinant]] of a triangular [[matrix]] is the product of its diagonal entries
 >
-> row operations (see [[linear-system]]) have a consistent effect on the [[determinant]] of a [[matrix]] (see properties below). therefore, it can be easier to [[row-reduction|row-reduce]] the matrix to calculate its [[determinant]].
+> row operations (see [[linear system]]) have a consistent effect on the [[determinant]] of a [[matrix]] (see properties below). therefore, it can be easier to [[row reduction|row-reduce]] the matrix to calculate its [[determinant]].
 
 **properties**
 
-see [[linear-system]]
+see [[linear system]]
 
 _adding a multiple of a row or column to another row or column_ $\det A = \det A'$
 
@@ -58,8 +58,8 @@ $\det A = 0$ if and only if $A$ is not invertible, see [[matrix]]
 
 $\det A^- = -\det A$ if and only if $A$ is invertible, see [[matrix]]
 
-> **note** the equation above is beautiful, as in [[conventional-math-notation]], $A^{-1}$ is an inverse [[matrix]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
+> **note** the equation above is beautiful, as in [[conventional math notation]], $A^{-1}$ is an inverse [[matrix]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
 
 ## intuitive explanation
 
-> the [[determinant]] is all about measuring how [[area]]s change during a [[linear-transformation]]. after the transformation, the $1$ by $1$ unit square formed by $\vec i$ and $\vec j$ gets turned into the parallelogram formed by the two vectors &mdash; 3B1B
+> the [[determinant]] is all about measuring how [[area]]s change during a [[linear transformation]]. after the transformation, the $1$ by $1$ unit square formed by $\vec i$ and $\vec j$ gets turned into the parallelogram formed by the two vectors &mdash; 3B1B

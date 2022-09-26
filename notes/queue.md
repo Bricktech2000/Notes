@@ -1,8 +1,8 @@
 # Queue
 
-**see** [[abstract-data-type]]
+**see** [[abstract data type]]
 
-_FIFO [[abstract-data-type]] that can enqueue and dequeue elements_
+_FIFO [[abstract data type]] that can enqueue and dequeue elements_
 
 **representation**
 
@@ -22,12 +22,12 @@ enqueue
 
 **types**
 
-[[linked-list]] [[queue]]
+[[linked list]] [[queue]]
 
 [[array]] [[queue]]
 
 **applications**
 
-can be used in [[breadth-first-search]]
+can be used in [[breadth-first search]]
 
 can be used to buffer requests in a first-come-first-serve basis

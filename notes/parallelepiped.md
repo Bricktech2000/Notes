@@ -6,10 +6,10 @@ _a 3-dimensional parallelogram_
 
 _does this seem random and pointless? well, it is._
 
-see [[dot-product]], [[cross-product]]
+see [[dot product]], [[cross product]]
 
-$V = |u\ \check\mid\ v\ \dot\mid\ w|$ (see [[dot-product]], [[cross-product]]), where
+$V = |u\ \check\mid\ v\ \dot\mid\ w|$ (see [[dot product]], [[cross product]]), where
 
 $V$ is the [[volume]] to be calculated
 
-$u, v, w$ are the three [[vector-in-rn]]3
+$u, v, w$ are the three [[vector in rn]]3

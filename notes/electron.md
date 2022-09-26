@@ -1,6 +1,6 @@
 # Electron
 
-[[math-notation]]
+[[math notation]]
 
 symbol: $e^-$
 

@@ -1,11 +1,11 @@
 # Map
 
-**see** [[abstract-data-type]]
+**see** [[abstract data type]]
 
-_an [[abstract-data-type]] that maps unique keys to values_
+_an [[abstract data type]] that maps unique keys to values_
 
 **types**
 
-[[hash-table]]
+[[hash table]]
 
-[[binary-search-tree]] map
+[[binary search tree]] map

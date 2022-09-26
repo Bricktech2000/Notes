@@ -1,38 +1,38 @@
 # 🅻🅴🅰🆁🅽🅸🅽🅶
 
-[[random-learning]]
+[[random learning]]
 
 [[sleep]], [[insomnia]]
 
 [[concept]] vs [[fact]]
 
-[[english-bad-habits]]
+[[english bad habits]]
 
-[[surface-volume-disambiguation]]
+[[surface-volume disambiguation]]
 
 [[psychology]]
 
-[[video-game]]
+[[video game]]
 
-[[curve-fitting]]
+[[curve fitting]]
 
-[[credit-card]]
+[[credit card]]
 
-[[zero-knowledge-proof]]
+[[zero-knowledge proof]]
 
-[[functional-programming]]
+[[functional programming]]
 
-[[refactoring-to-immutability]]
+[[refactoring to immutability]]
 
-[[alpha-radiation]]
+[[alpha radiation]]
 
-[[beta-radiation]]
+[[beta radiatior]]
 
-[[gamma-radiation]]
+[[gamma radiation]]
 
-[[root-of-unity]]
+[[root of unity]]
 
-[[shors-algorithm]]
+[[shors algorithm]]
 
 [[recursion]], [[iteration]]
 
@@ -40,35 +40,35 @@
 
 [[logarithm]]
 
-[[social-media]]
+[[social media]]
 
-[[summation-and-product-notation]]
+[[summation and product notation]]
 
 [[calculus]]
 
 [[sequence]] [[series]]
 
-[[options-market]]
+[[options market]]
 
-[[self-taught-software-developer]]
+[[self-taught software developer]]
 
-[[public-speaking]]
+[[public speaking]]
 
-[[international-system-of-units]]
+[[international system of units]]
 
-[[combinatory-logic]]
+[[combinatory logic]]
 
-[[lambda-calculus]]
+[[lambda calculus]]
 
-[[neural-network]]
+[[neural network]]
 
-[[verifiable-random-function]]
+[[verifiable random function]]
 
-[[hadamard-product]]
+[[hadamard product]]
 
 [[operator]]
 
-[[category-theory]]
+[[category theory]]
 
 [[habit]]
 
@@ -76,26 +76,26 @@
 
 [[car]]
 
-[[life-long-investing]]
+[[life-long investing]]
 
-[[switching-cost]]
+[[switching cost]]
 
-[[operating-system]]
+[[operating system]]
 
-[[mental-illness]]
+[[mental illness]]
 
-[[lofi-music]]
+[[lofi music]]
 
-[[conspiracy-theory]]
+[[conspiracy theory]]
 
-[[critical-thinking]]
+[[critical thinking]]
 
 [[trick]]
 
 [[minimalism]]
 
-[[pi-function]]
+[[pi function]]
 
-[[rank-polymorphism]]
+[[rank polymorphism]]
 
-[[nervous-system]]
+[[nervous system]]

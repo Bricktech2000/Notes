@@ -1,6 +1,6 @@
 # Thermochemistry
 
-see [[stoichiometry]], [[specific-heat]], [[math-notation]]
+see [[stoichiometry]], [[specific heat]], [[math notation]]
 
 ## Hess' Law
 

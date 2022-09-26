@@ -4,8 +4,8 @@
 
 **see**
 
-[[pure-mathematics]]
+[[pure mathematics]]
 
-[[applied-mathematics]]
+[[applied mathematics]]
 
-[[foundations-of-mathematics]]
+[[foundations of mathematics]]
