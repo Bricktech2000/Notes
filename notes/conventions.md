@@ -51,20 +51,14 @@ headers still in new:
 - **types**
 - **examples** (#todo rename, should represent "children" and not examples)
 
-blockquotes added in new:
-
-- **usage**
-- **constant**
-- **representation**
-- **types**
-
 ---
 
 - procedure
-- notes
+- note
 - example
 - proof
 - [[mnemonic]]
+- constant
 
 &nbsp;
 
@@ -96,7 +90,7 @@ a page can link to itself
 
 _see ..._ statements are for prerequisites
 
-note names are mostly _-ing_ verbal groups or singular nominal groups, and sometimes adjectives when necessary
+note names are mostly _-ing_ verbal groups or singular nominal groups, and sometimes adjectives when more appropriate
 
 line breaks are used exclusively for how they look in the render and never to make the source code more readable (which is why almost no single line breaks are used)
 
@@ -104,13 +98,15 @@ horizontal rules are occasionally used to separate a whole file in different sec
 
 each page has one title case first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule
 
-in file names, spaces are replaced by [[dash]]es and apostrophes and diacritics are removed
+file names are all lowercase and apostrophes and diacritics are removed
 
 box titles are generated with <https://lingojam.com/BoldTextGenerator>
 
 all internal links are denoted using `[[note]]` and `![[image.png]]`, and all external links are denoted using `<https://example.com/>`
 
 ### note, theorem, proof, definition
+
+#todo update this
 
 all constructs below can be multiline
 

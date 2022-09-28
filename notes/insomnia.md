@@ -2,7 +2,7 @@
 
 see [[sleep]]
 
-## the 4 main types of insomnia
+**types**
 
 - trouble falling asleep
 - trouble staying asleep

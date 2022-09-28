@@ -46,4 +46,4 @@ an excess of [[motivation]] can lead to feeling [[overwhelm]]ed, which can lead 
 
 [[goal]], [[aspiration]]
 
-[[learn]]
+[[learning]]

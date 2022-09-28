@@ -1,4 +1,4 @@
-# 🆃🅷🅸🅽🅺🅸🅽🅶
+# 🆃🅷🅸🅽🅺
 
 [[random thinking]]
 
@@ -14,8 +14,6 @@
 
 [[improvability theory]]
 
-[[process-oriented]]
-
 [[control over convenience]]
 
 [[non-copyable data]]
@@ -26,15 +24,11 @@
 
 [[overruling rules]]
 
-[[hijacking brain circuitry]]
-
 [[price-value sigmoid]]
 
 [[nested conversation structure]]
 
 [[region size formula]]
-
-[[russels paradox]]
 
 [[loan]]
 
@@ -74,4 +68,8 @@
 
 [[education]] system issues
 
-[[learn]]
+[[concept]] vs [[fact]]
+
+[[notion time management]]
+
+[[esoteric programming language idea]]

@@ -1,25 +1,15 @@
 # 🅾🆃🅷🅴🆁
 
-[[random]]
+[[english bad habits]]
 
-[[interesting electives]]
+[[video game]]
 
-[[90u guard log]]
+[[curve fitting]]
 
-[[notion time management]]
+[[operator]]
 
-[[deriving the quadratic formula]]
+[[conspiracy theory]]
 
-[[esoteric programming language idea]]
-
-[[personal issues with university]]
-
-[[life quotes]]
-
-[[recipes]]
-
-[[vim talk]]
-
-[[carbon language talk]]
+[[pi function]]
 
 [[discord statuses]]

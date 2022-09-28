@@ -10,14 +10,30 @@
 
 ## Launchpad
 
+[[why-how-what]]
+
 [[classes]]
-
-[[thinking]]
-
-[[learning]]
 
 [[fields]]
 
-[[other]]
-
 [[outdated]]
+
+#todo to sort properly
+
+[[random]]
+
+[[interesting electives]]
+
+[[90u guard log]]
+
+[[deriving the quadratic formula]]
+
+[[personal issues with university]]
+
+[[life quotes]]
+
+[[recipes]]
+
+[[vim talk]]
+
+[[carbon language talk]]

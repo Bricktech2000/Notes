@@ -1,16 +1,16 @@
-# 🅻🅴🅰🆁🅽
+[[process-oriented]]
 
-[[sensor suite]]
+[[hijacking brain circuitry]]
 
 [[learning]]
 
-[[concept]] vs [[fact]]
-
-[[english bad habits]]
+[[sleep]], [[insomnia]]
 
 [[surface-volume disambiguation]]
 
 [[psychology]]
+
+[[credit card]]
 
 [[zero-knowledge proof]]
 
@@ -24,9 +24,19 @@
 
 [[algorithm]]
 
+[[social media]]
+
 [[calculus]]
 
+[[options market]]
+
+[[public speaking]]
+
+[[international system of units]]
+
 [[combinatory logic]]
+
+[[self-taught software developer]]
 
 [[sequence]] [[series]]
 
@@ -40,7 +50,21 @@
 
 [[category theory]]
 
-[[conspiracy theory]]
+[[habit]]
+
+[[finance]]
+
+[[car]]
+
+[[life-long investing]]
+
+[[mental illness]]
+
+[[lofi music]]
+
+[[trick]]
+
+[[minimalism]]
 
 [[rank polymorphism]]
 

@@ -628,6 +628,7 @@ $5 / 3, 4 / 3, \text{corresponding z}$
 - Hack
 - Write
 - Think
+- Other
 - Social
 - Design
 - Program
@@ -643,6 +644,14 @@ $5 / 3, 4 / 3, \text{corresponding z}$
 - talk / socialize?
 - github field day trip?
 - answer wealthsimple agent finance?
+
+## currently used in
+
+Toggl
+
+Notion
+
+Notes
 
 ## Notion Changes
 
