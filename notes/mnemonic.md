@@ -2,44 +2,42 @@
 
 _[[trick]]s for [[learning]] [[fact]]s_
 
-see [[memory]], [[trick]]
+**see** [[memory]], [[memory technique]], [[trick]]
 
 &mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0&ab_channel=PierceCollegeDist11>
 
-## examples of mnemonics
+## Acronyms
 
-### Acronyms
+> **example** _list of words_
+>
+> > the colors of the rainbow are _RoyGBv_
 
-list of words:
+> **example** _similar words_
+>
+> > SAME: Sensory are Afferent, Motor are Effrent
 
-> RoyGBv for the colors of the rainbow
+> **example** _connection between words_
+>
+> > RADeo: Right Atreum Deoxygenated
 
-similar words:
+## Coined Phrases
 
-> SAME: Sensory are Afferent, Motor are Effrent
+> **example** _clockwise screws in, counterclockwise unscrews_
+>
+> > rightly tighty lefty loosy
 
-connection between words:
+> **example** _planets of the solar system_
+>
+> > My VeRy good Mother Just Served Us Nine Pizzas
 
-> RADeo: Right Atreum Deoxygenated
+## Interacting Images
 
-### Coined Phrases
-
-clockwise screws in, counterclockwise unscrews
-
-> rightly tighty lefty loosy
-
-planets of the solar system:
-
-> My VeRy good Mother Just Served Us Nine Pizzas
-
-### Interacting Images
-
-number of calories in 1g of:
-
+> **example** _number of calories in 1g of..._
+>
 > car-bo-hy-drates: 4 syllables
-
+>
 > CARbohydrates: cars have 4 wheels
-
+>
 > fat cat (picture a physical fat cat): cats have 9 lives
-
+>
 > alcohol: 7 letters

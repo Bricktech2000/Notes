@@ -4,6 +4,8 @@ see [[memory]], [[trick]]
 
 [[memory]] athletes memorize through their semantic [[memory]]
 
+using [[mnemonic]]s can be an effective a [[memory technique]]
+
 bundling unrelated [[fact]]s into a single related construct can help remember them &mdash; me
 
 > **example** _memorizing digits_
@@ -28,5 +30,3 @@ bundling unrelated [[fact]]s into a single related construct can help remember t
 >   2. remember the sentence _Karen is scared of lightning and thunder_ &mdash; cue
 >
 > Keraunophobia is the fear of lightning and thunder... because Karen is scared of lightning and thunder. this is a far superior to other methods to remember the meaning of a word
-
-[[mnemonic]]s can be used as a [[memory technique]]

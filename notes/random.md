@@ -12,6 +12,10 @@ graph LR
   fa:fa-check-->fa:fa-coffee
 ```
 
+$1 - 2$
+
+$1 \text- 2$
+
 ## sum of `n` first squares
 
 ```python
@@ -445,9 +449,9 @@ S ((+) map.) reduce. A ==
 
 ---
 
-[[sequence]]s starting with an [[even number]]: $4 \mid 10 \mid 5 = 200$
+[[sequence]]s starting with an [[even number]] $4 \mid 10 \mid 5 = 200$
 
-[[sequence]]s starting with an [[odd number]]: $5 \mid 10 \mid 5 = 250$
+[[sequence]]s starting with an [[odd number]] $5 \mid 10 \mid 5 = 250$
 
 total number of [[sequence]]s: $200 : 250 = 450$
 
@@ -566,10 +570,6 @@ $5 / 3, 4 / 3, \text{corresponding z}$
 
 ---
 
-**bold** _italic_ `code`
-
----
-
 ### Notion
 
 - Social
@@ -610,33 +610,9 @@ $5 / 3, 4 / 3, \text{corresponding z}$
 - Nonpublic
 - Education
 
-### Why
-
-- Body
-- Intel
-- Zilch
-- Learn
-- Finance
-- Network
-- Standard
-- Organize
-- Eptimize
-- Reproduce
-
-### How
-
-- Hack
-- Write
-- Think
-- Other
-- Social
-- Design
-- Program
-- Research
-
-### What
-
 ### ???
+
+see [[why-how-what]]
 
 - Organization
 - movies and readings read?
@@ -644,14 +620,6 @@ $5 / 3, 4 / 3, \text{corresponding z}$
 - talk / socialize?
 - github field day trip?
 - answer wealthsimple agent finance?
-
-## currently used in
-
-Toggl
-
-Notion
-
-Notes
 
 ## Notion Changes
 
@@ -662,3 +630,34 @@ visibility in pages
 properties shown in 4 views
 
 color columns: no
+
+---
+
+$\int\ (\int f\ (x, y) \mid \delta x\ \ \vdots\ \ x_1 \cdot x_0) \mid \delta y\ \ \vdots\ \ y_1 \cdot y_0$
+
+$\int\ (\int f\ (x, y) \mid \delta x) \mid \delta y$
+
+$\bra{A}$
+
+$\int$
+
+$\mathbb{A}$
+
+function $f$ is continuous on $[a, b]$
+
+$$
+\begin{test}
+
+\emptyset
+$$
+
+$\varnothing$
+
+$$
+\varnothing
+$$
+
+
+---
+
+$\sin x$

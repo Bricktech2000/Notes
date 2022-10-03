@@ -1,4 +1,4 @@
- # Matrix
+# Matrix
 
 see [[math notation]]
 
@@ -48,11 +48,11 @@ and therefore $AA \dots A = [A]n \land \mathbb N n \dashv \mathbb M A$
 
 **properties**
 
-_not commutative_ $AB = BA \not \dashv \mathbb M A \land \mathbb M B$ or $AB \ne BA \land \mathbb M A \land \mathbb M B$
+_not commutative_ $AB = BA \not\dashv \mathbb M A \land \mathbb M B$ or $AB \ne BA \land \mathbb M A \land \mathbb M B$
 
-$AB = 0 \not \vdash A = 0 \lor B = 0$ (it can happen that $AB = 0$, but $A \ne 0$ and $B \ne 0$) ($AB$ being equal to $0$ does not imply that $A = 0$ or that $B = 0$)
+$AB = 0 \not\vdash A = 0 \lor B = 0$ (it can happen that $AB = 0$, but $A \ne 0$ and $B \ne 0$) ($AB$ being equal to $0$ does not imply that $A = 0$ or that $B = 0$)
 
-$AC = BC \land C \ne 0 \not \vdash A = B$ ($AC = BC$ and $C \ne 0$ does not imply that $A = B$)
+$AC = BC \land C \ne 0 \not\vdash A = B$ ($AC = BC$ and $C \ne 0$ does not imply that $A = B$)
 
 _associative_ $(AB)C = A(BC)$
 

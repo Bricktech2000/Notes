@@ -123,13 +123,13 @@ _in order of high to low precedence_
 | operator                                | associativity | unary identity | unary description |
 | --------------------------------------- | ------------- | -------------- | ----------------- |
 | $()\ \braket{}\ \Big[\Big]\ \ x\ x_a^i$ |               |                |                   |
-| $[ ]\ \lfloor\rfloor\ \lceil\rceil$     |               |                |                   |
+| $[]\ \lfloor\rfloor\ \lceil\rceil$      |               |                |                   |
 | $\shortmid \text-$                      | left          | $1$            | inverse           |
 | $\delta\ \sin\ \#\ \smash\leftarrow$    | right-ish     |                |                   |
 | $\ :\ \cdot\ \because\ \ \therefore$    | left          | $0$            | negation          |
 | $\mid -$                                | left          | $1$            | inverse           |
 | $\int \lim\ \dots\ \rightarrow\ \bmod$  | right         |                |                   |
-| $=\ne\gt\ge\lt\le$                      | AND           | $0$            | is (not) $0$      |
+| $=\ne>\ge\<\le$                         | AND           | $0$            | is (not) $0$      |
 | $/$                                     | left          | $\top$         | logical NOT       |
 | $\land\ \lor$                           | left          |                |                   |
 | $\dashv\ \vdash$                        | left          |                |                   |
@@ -154,7 +154,7 @@ _in order of high to low precedence_
 
 ## examples
 
-[[quadratic formula]]: $\cdot b : \lfloor b2 \cdot 4ac \rfloor - 2a$
+[[quadratic formula]] $\cdot b : \lfloor b2 \cdot 4ac \rfloor - 2a$
 
 definition of the [[set]] of [[complex]] numbers: $\mathbb C x \equiv x = a : b\iota \land \mathbb R a \land \mathbb R b$
 
