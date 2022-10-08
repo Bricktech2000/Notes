@@ -99,8 +99,8 @@ let:
 | $M = \begin{bmatrix} a & b \\\ c & d \end{bmatrix}$        | [[matrix]] literal                                 | see [[matrix]]                         |
 | $M' = ((1, 2, 2, 2, 3, 3))$                                | [[multiset]] literal                               | see [[multiset]]                       |
 | $x \rightarrow (a < x < b)$                                | the interval from $a$ to $b$                       |                                        |
-| $A \circ B$                                                | $A\ x \circ B\ x$ for all $x$                      | commonly $\equiv \dashv \vdash$ #think |
 | $A \circ B$                                                | $x \rightarrow A\ x \circ B\ x$                    | see [[rank polymorphism]]              |
+| $A \circ B$                                                | $A\ x \circ B\ x$ for all $x$                      | $(\top \dots)$ is treated as $\top$    |
 | $\delta y - \delta x$                                      | the [[derivative]] of $y$ with respect to $x$      | $\delta$ should be used instead of $d$ |
 | $\int y \mid \delta x$                                     | the [[antiderivative]] of $y$ with respect to $x$  | $\delta$ should be used instead of $d$ |
 
@@ -120,21 +120,21 @@ let:
 
 _in order of high to low precedence_
 
-| operator                                | associativity | unary identity | unary description |
-| --------------------------------------- | ------------- | -------------- | ----------------- |
-| $()\ \braket{}\ \Big[\Big]\ \ x\ x_a^i$ |               |                |                   |
-| $[]\ \lfloor\rfloor\ \lceil\rceil$      |               |                |                   |
-| $\shortmid \text-$                      | left          | $1$            | inverse           |
-| $\delta\ \sin\ \#\ \smash\leftarrow$    | right-ish     |                |                   |
-| $\ :\ \cdot\ \because\ \ \therefore$    | left          | $0$            | negation          |
-| $\mid -$                                | left          | $1$            | inverse           |
-| $\int \lim\ \dots\ \rightarrow\ \bmod$  | right         |                |                   |
-| $=\ne>\ge\<\le$                         | AND           | $0$            | is (not) $0$      |
-| $/$                                     | left          | $\top$         | logical NOT       |
-| $\land\ \lor$                           | left          |                |                   |
-| $\dashv\ \vdash$                        | left          |                |                   |
-| $\equiv \times$                         | AND           | $\top$         | logical NOT       |
-| $,$                                     |               |                |                   |
+| operator                                | associativity | unary identity | unary description     |
+| --------------------------------------- | ------------- | -------------- | --------------------- |
+| $()\ \braket{}\ \Big[\Big]\ \ x\ x_a^i$ |               |                |                       |
+| $[]\ \lfloor\rfloor\ \lceil\rceil$      |               |                |                       |
+| $\shortmid \text-$                      | left          | $1$            | inverse               |
+| $\delta\ \sin\ \#\ \smash\leftarrow$    | right-ish     |                |                       |
+| $\ :\ \cdot\ \because\ \ \therefore$    | left          | $0$            | negation              |
+| $\mid -$                                | left          | $1$            | inverse               |
+| $\int \lim\ \dots\ \rightarrow\ \bmod$  | right         |                |                       |
+| $=\ne > \ge < \le$                      | AND           | $0$            | is (not) $0$          |
+| $/$                                     | left          | $\top$         | [[boolean logic]] NOT |
+| $\land\ \lor$                           | left          |                |                       |
+| $\dashv\ \vdash$                        | left          |                |                       |
+| $\equiv \times$                         | AND           | $\top$         | [[boolean logic]] NOT |
+| $,$                                     |               |                |                       |
 
 > **note**: above,
 >
@@ -150,7 +150,7 @@ _in order of high to low precedence_
 
 ## variable scope
 
-[[variable]] [[scope]] is currently entirely context-dependent. this is know to cause occasional issues, such as with [[derivative]]s: $\delta\ f\ x - \delta x$ could represent both the [[derivative]] of $f$ with respect to $x$ in the general sense, or the [[derivative]] of $f$ with respect to $x$ **at the point** $x$ as $(x \rightarrow \delta\ f\ x - \delta x)\ x \equiv \delta\ f\ x - \delta x$.
+[[variable]] [[scope]] is currently entirely context-dependent. this is know to cause occasional issues, such as with [[derivative]]s: $\delta\ f\ x - \delta x$ could represent both the [[derivative]] of $f$ with respect to $x$ in the general sense, or the [[derivative]] of $f$ with respect to $x$ **at the point** $x$
 
 ## examples
 
@@ -162,9 +162,9 @@ definition of the implication / sub[[set]] / super[[set]] / “for all” symbol
 
 in [[set theory]], if $U$ is a sub[[set]] of $V$ and $V$ is a sub[[set]] of $U$, then $V$ is $U$. in this math notation: $(U\ x \vdash V\ x) \land (U\ x \dashv V\ x) \equiv U = V$
 
-the probability density of the normal distribution in [[conventional math notation]]: $\frac{1}{\sqrt{2 \sigma^2 \pi}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$
+the probability density of the normal distribution in [[conventional math notation]]: $\frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x - \mu}{\sigma})^2}$
 
-compared to in my [[math notation]]: $-\lfloor \tau \sigma2 \rfloor - e[\ [x \cdot \mu]2 - 2\sigma2\ ]$
+compared to in my [[math notation]]: $-\lfloor \tau \sigma2 \rfloor - e[\ [x \cdot \mu - \sigma]2 - 2\ ]$
 
 definition of factorials: $\operatorname{fact} n = 1 \mid \dots n$
 

@@ -14,8 +14,8 @@ _method to approximate the zeros of a [[function]]_
 
 > **procedure** _using [[recursion]]_
 >
-> given an initial guess $x_0$, we derive the following from the tangent line equation (see [[function]]):
+> given an initial guess $x^0$, we derive the following from the [[function]] tangent line equation:
 >
-> $x^{n : 1} = x^n \cdot (f\ x_n - (x \rightarrow \delta\ f\ x - \delta x)\ x_n)$
+> $x^{n : 1} = x^n \cdot (f\ x^n - \delta\ f\ x^n - \delta x^n)$
 
 > **example** the following equation can be solved easily using [[newtons method]]: $e[x] = 4x$

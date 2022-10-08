@@ -28,7 +28,9 @@
 
 binary [[tree]]s can be implemented using a dynamic [[array]], where a node at index $i$ has its children at indices $2i : 1$ and $2i : 2$ and its parent at index $\operatorname{floor} i \text- 2$
 
-**definition** a _complete binary tree_ is a binary [[tree]] in which every level of the [[tree]] is completely filled, except for possibly the last level, and all nodes in the last level are as far left as possible &mdash; <https://en.wikipedia.org/wiki/Binary_tree>
+**types**
+
+![](20221004211912.png) &mdash; <https://towardsdatascience.com/5-types-of-binary-tree-with-cool-illustrations-9b335c430254>
 
 **applications**
 

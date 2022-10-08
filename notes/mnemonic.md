@@ -15,6 +15,8 @@ _[[trick]]s for [[learning]] [[fact]]s_
 > **example** _similar words_
 >
 > > SAME: Sensory are Afferent, Motor are Effrent
+>
+> see [[nervous system]]
 
 > **example** _connection between words_
 >

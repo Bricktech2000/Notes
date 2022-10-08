@@ -657,7 +657,36 @@ $$
 \varnothing
 $$
 
-
 ---
 
 $\sin x$
+
+energy-momentum relation: $E2 = [pc]2 : [m_0 c2]2$
+
+---
+
+the number of nodes in a full binary tree is $n = 2^{h + 1} - 1$ (simple proof), and therefore the number of nodes in a complete binary tree is $n' = 2^{h + 1} - 1 - m$ where $m$ is the number of nodes missing on the last level of the tree. making the **huge** assumption that $k$ is an integer **and** that the criteria must hold for **all** integer values of $k$ with $k \ge 3$, we get $h = k - 1 + i$ for any natural $i$ and $m = 2$. the number of leaf nodes in a full binary tree is $l = 2^h$ (simple proof), and therefore the number of leaf nodes in the complete binary tree is $l' = 2^h - m = 2^{k - 1 + i} - 2$ for any natural $i$
+
+answer: $f$ with $f(k) = 2^{k - 1 + i} - 2$ for any natural $i$
+
+the number of nodes in a full binary tree is $n = 2^{h + 1} - 1$ (simple proof), and therefore the number of nodes in a complete binary tree is $n' = 2^{h + 1} - 1 - m$ where $m$ is the number of nodes missing on the last level of the tree. making the huge assumption that $k$ is an integer, we get $h = k - 1$ and $m = 2$. the number of leaf nodes in a full binary tree is $2^h$ (simple proof), and therefore the number of nodes in the last layer of the complete binary tree is $2^h - m = 2^{k - 1} - 2$. the two nodes missing on the last layer have a common parent node that is a leaf, and so the number of leaf nodes of the complete binary tree is $2^{k - 1} - 1$
+
+answer: $f$ with $f(k) = 2^{k - 1} - 1$
+
+if the number of nodes of a complete binary tree is $2^k - 3$, then the number of nodes in the full binary tree excluding its last layer is $2^{k - 1} - 1$. computing the difference, we get $2^{k - 1} - 2$ nodes on the last layer of the tree. given that the number of leaf nodes in the full binary tree of the same height as the complete binary tree is $2^{k - 1}$, we deduce that there are two nodes missing on the last layer of the complete binary tree. the two nodes missing on the last layer have a common parent node that is a leaf, and so the number of leaf nodes of the complete binary tree is $2^{k - 1} - 1$
+
+---
+
+$r \rightarrow [\cdot 1]r (C\ m\ r) [m \cdot r]n\ \ \vdots\ \ 0 : \dots m$
+
+$r \rightarrow [\cdot 1]r (C\ s\ r)\ \ \vdots\ \ 0 : \dots r$
+
+$$
+Z = \frac{X - \mu}{\sigma}
+$$
+
+---
+
+- interactivity, way better than book club
+- learned the new `println` syntax
+- apology about technical explanations

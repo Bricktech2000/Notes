@@ -218,13 +218,15 @@ the graphs of $y = f\ x$ and $y = F\ x$ are symmetric about the line $y = x$
 
 **definition**
 
-$L\ x = f\ a : (x \cdot a) \shortmid (x \rightarrow \delta\ f - \delta x)\ a$, where
+$L\ x = f\ a : (x \cdot a \mid \delta\ f\ a - \delta a)$, where
 
 - $L\ x$ is line tangent to $f\ x$ at $a$
 
 **applications**
 
 the tangent of a [[function]] $f$ approximates $f\ (x \dots)$ near a point $x \dots$
+
+the tangent of a [[function]] is used in [[newtons method]]
 
 ### Differential
 

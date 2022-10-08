@@ -259,9 +259,9 @@ _distributivity_ $x \land (y \lor z) \equiv (x \land y) \lor (x \land z)$
 
 _distributivity_ $z \lor (y \land z) \equiv (x \lor y) \land (x \lor z)$
 
-_DeMorgan_ $\times\ x \lor y \equiv /x \land /y$
+_De Morgan's_ $\times\ x \lor y \equiv /x \land /y$
 
-_DeMorgan_ $\times x \land y \equiv /x \lor /y$
+_De Morgan's_ $\times x \land y \equiv /x \lor /y$
 
 _absorption_ $x \lor \times\ x \land y \equiv x$
 

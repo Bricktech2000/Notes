@@ -2,7 +2,7 @@
 
 see [[group]]
 
-there appears to be a standard way to build number systems. [[group theory]] is all about formalizing this observation
+there appears to be a standard way to build [[number]] systems. [[group theory]] is all about formalizing this observation
 
 > **examples** _number systems_
 >
@@ -10,4 +10,4 @@ there appears to be a standard way to build number systems. [[group theory]] is 
 > - [[complex]] numbers $\mathbb C$
 > - hamiltonians
 > - finite fields
-> - p-adics
+> - $p$-adic numbers

@@ -36,7 +36,7 @@ I don’t like [[goal]]s as they feel like a reason to fail. I prefer not settin
 
 ### “the process”
 
-let’s suppose I want to develop muscles; that’s the goal. arguably, the best [[habit]] to reach this goal is a daily visit to the gym. and that’s the mistake right there.
+let’s suppose I want to develop muscles; that’s the goal. arguably, the best [[habit]] to reach this [[goal]] is a daily visit to the gym. and that’s the mistake right there.
 
 in order to stick to this [[habit]], I would have to learn to **appreciate going to the gym**. the end goal of developing muscles is not what should be focused on; instead, my main focus should be on **making the [[habit]] enjoyable**.
 

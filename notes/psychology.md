@@ -1,6 +1,6 @@
 # Psychology
 
-## see
+**see**
 
 an excess of [[motivation]] can lead to feeling [[overwhelm]]ed, which can lead to [[procrastination]]
 
@@ -47,3 +47,7 @@ an excess of [[motivation]] can lead to feeling [[overwhelm]]ed, which can lead 
 [[goal]], [[aspiration]]
 
 [[learning]]
+
+[[addiction]]
+
+[[material distortion]]

@@ -1,5 +1,7 @@
 # Less Stimulated Lifestyle
 
+#todo possibly rephrase and merge with ideas from <https://youtu.be/5Gzv61nYVZI>
+
 ## problematic activities
 
 - [[social media]] ([[algorithm]]-based feed)
