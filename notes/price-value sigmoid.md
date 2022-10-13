@@ -23,4 +23,4 @@ the price-to-value relationship for a given product can be represented on the gr
 > - Fast fashion at $\cdot 1.5$ &mdash; paying twice the money will yield more than twice the value
 > - Branded clothes at $1.5$ &mdash; paying half the money will yield more than half the value
 
-> **note** turns out I rediscovered [[diminishing returns]], see [[economics]], [[scarce resource]], [[sunk costs]]
+> **note** turns out I rediscovered [[diminishing returns]], see [[economics]], [[scarce resource]], [[sunk costs fallacy]]

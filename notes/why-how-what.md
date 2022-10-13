@@ -4,31 +4,38 @@ _the Why-How-What organization system_
 
 [[why-how-what]] is a universal organization system taylored to the way I work. in a [[tree]] directory structure, items are sorted in the `Why -> How -> What` pattern, where _Why, How, What_ represent directory names and `->` represent [[tree]] parent-to-child relationships. in a tag-based system, every item is given a _Why_ and most items are given a _How_. in a single-level [[list]]-like structure (such as the one below), items are duplicated in both a _Why_ [[list]] and a _How_ [[lit]]. in a [[set]]-like structure where there exist no structure between items, item names are preceeded by an identifier constructed from the first letter of every tag it would be given in a tag-based system.
 
-current _why_ categories include:
+## Why
 
-- body (brown)
-- intel (purple)
-- zlich (dark gray)
-- learn (orange)
-- finance (green)
-- network (blue)
-- standard (pink)
-- organize (yellow)
-- eptimize (orange)
-- reproduce (red)
+for humans to function, they must take care of their bodies (eating, showering...) &mdash; Body. in order to do stuff, one needs to know the right people and have the right resources &mdash; Network and Finance. time is as limited resource, and it must be utilized as efficiently as possible &mdash; Optimize. information is not permanent (our brains forget, hard drives fail...) and it often must be made permanent &mdash; Reproduce. to be able to form new ideas, one needs to learn and understand [[concept]]s in different [[fields]] and should have access to information most people do not have access to &mdash; Learning and Intel
 
-current _how_ categories include:
+many items are only weakly related to one of the above categories, but represent the idea that a standard must be maintained &mdash; Standard. some items are not related to any of the above categories, but are still important &mdash; Misc. some items are unimportant and should probably be removed (wasting time, storing a file with low value, physical clutter) &mdash; Zilch
 
-- hack (dark gray)
-- write (dark gray)
-- think (dark gray)
-- other (dark gray)
-- social (dark gray)
-- design (dark gray)
-- program (dark gray)
-- research (dark gray)
+#todo sync with paragraph above
 
-_What_ represents the item itself
+- Body (brown)
+- Intel (purple)
+- Zlich (dark gray)
+- Learn (orange)
+- Finance (green)
+- Network (blue)
+- Standard (pink)
+- Optimize (yellow)
+- Reproduce (red)
+
+## How
+
+- Hack (dark gray)
+- Write (dark gray)
+- Think (dark gray)
+- Other (dark gray)
+- Social (dark gray)
+- Design (dark gray)
+- Program (dark gray)
+- Research (dark gray)
+
+## What
+
+_what_ represents the item itself
 
 ---
 
@@ -174,15 +181,13 @@ _What_ represents the item itself
 
 **standard**
 
-**organize**
+**optimize**
 
 [[counterintuitive smarter sorting]]
 
 [[process-oriented]]
 
 [[why-how-what]]
-
-**eptimize**
 
 [[math notation]]
 

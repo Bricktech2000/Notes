@@ -19,7 +19,7 @@ there appears to be a standard way to build contexts in which we do [[mathematic
 
 ---
 
-the _curry howard lambek isomorphism_ states that [[logic]], [[type theory]] and some subset of [[category theory]] are all equivalent &mdash; <https://youtu.be/I8LbkfSSR58?t=1681>
+the _curry-howard-lambek isomorphism_ states that [[logic]], [[type theory]] and some subset of [[category theory]] are all equivalent &mdash; <https://youtu.be/I8LbkfSSR58?t=1681>
 
 [[function]]s and [[type]]s can be viewed as morphisms and objects in a [[category theory]] context
 

@@ -6,25 +6,17 @@ an excess of [[motivation]] can lead to feeling [[overwhelm]]ed, which can lead 
 
 [[less stimulated lifestyle]]
 
-[[recollection vs recognition]]
+[[recollection vs recognition]], [[desire vs value]], [[reaction vs response]]
 
-[[environmental dependency of learning]]
+[[environmental dependency of learning]], [[lofi music]], [[focus]]
 
-[[desire vs value]]
-
-[[hijacking brain circuitry]]
+[[hijacking brain circuitry]], [[subconscious manipulation]]
 
 [[intent to mastery]]
 
-[[memory]]
+[[memory]], [[memory technique]]
 
-[[memory technique]]
-
-[[10x developper]]
-
-[[intelligence]]
-
-[[subconscious manipulation]]
+[[10x developper]], [[intelligence]]
 
 [[people are shaped by their surroundings]]
 
@@ -34,20 +26,12 @@ an excess of [[motivation]] can lead to feeling [[overwhelm]]ed, which can lead 
 
 [[religion]]
 
-[[bias]]
+[[cognitive bias]], [[material distortion]]
 
 [[mental illness]]
-
-[[reaction vs response]]
-
-[[lofi music]]
-
-[[focus]]
 
 [[goal]], [[aspiration]]
 
 [[learning]]
 
 [[addiction]]
-
-[[material distortion]]

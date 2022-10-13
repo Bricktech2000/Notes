@@ -14,9 +14,9 @@ $z_j$ are the **non-activated** neuron outputs of layer $j$ and $a_k$ are the ne
 
 $w^*_{k \to j}$ is the weight [[matrix]] from layer $k$ to layer $j$
 
-$b^*$ is the [[bias]] [[vector]] for layer $j$
+$b^*$ is the bias [[vector]] for layer $j$
 
-$w_{k \to j}$ is the weight [[matrix]] augmented with the [[bias]] [[matrix]], $\begin{bmatrix} w^*_{k \to j} & | & b^* \end{bmatrix}$
+$w_{k \to j}$ is the weight [[matrix]] augmented with the bias [[matrix]], $\begin{bmatrix} w^*_{k \to j} & | & b^* \end{bmatrix}$
 
 expanding,
 
@@ -28,9 +28,9 @@ $z_j$ are the **non-activated** neuron outputs of layer $j$ and $a_k$ are the ne
 
 $w_{k \to j}^{j, k}$ is the weight from neuron $a_k^k$ to neuron $a_j^j$
 
-$a_k^b$ is the [[bias]] neuron (in layer $k$) for layer $j$
+$a_k^b$ is the bias neuron (in layer $k$) for layer $j$
 
-$w_{k \to j}^{j, b}$ is the [[bias]] for neuron $a_j^j$
+$w_{k \to j}^{j, b}$ is the bias for neuron $a_j^j$
 
 > **note** recall that superscripts have special meaning whereas subscript are just English characters. this means that neuron $a_j^j$ is the $j$ th neuron in the vector $a_j$; the subscript $_j$ is part of the name $a_j$ whereas the superscript $^j$ is an index in $a_j$. see [[math notation]]
 

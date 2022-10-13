@@ -8,7 +8,7 @@ see [[proof]], [[cryptography]]
 
 _color blind verifier_
 
-a prover wants to show a verifier that they knows the color of two balls without revealing either color. note that the verifier cannot see the color of either ball as they are color blind.
+a prover wants to show a verifier that they know the color of two balls without revealing either color. note that the verifier cannot see the color of either ball as they are color blind.
 
 - the verifier hides both balls behind their back and may or may not switch the balls around
 - the verifier reveals the balls and asks the prover to say whether the balls were switched or not

@@ -10,7 +10,7 @@ _often regarded as highly reliable_
 
 - mistakes can still slip by: whenever judgement takes place, mistakes can be overlooked
 - fabricated data is hard to identify: fabricated data sometimes can only be identified by reproducing an experiment
-- editor [[bias]]es can have an effect on publication: journals are more likely to publish an article that agrees with a certain [[bias]]
+- editor [[cognitive bias]]es can have an effect on publication: journals are more likely to publish an article that agrees with a certain [[cognitive bias]]
 
 ## CARS method
 
@@ -47,4 +47,4 @@ the following is not a checklist, but rather a guide on what to consider
 _highly active topics in which a lot of research is being done in a small timeframe_
 
 - find information that has been published very recently because information gets outdated fast
-- check for [[bias]]es, since hot topics can increase the chance of exaggerated claims
+- check for biases, since hot topics can increase the chance of exaggerated claims

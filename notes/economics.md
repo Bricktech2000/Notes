@@ -14,7 +14,7 @@ _the study of how society manages its [[scarce resource]]s_
 
 [[money]], [[wealth]], [[inflation]]
 
-[[credit card]], [[loan]], [[sunk costs]]
+[[credit card]], [[loan]], [[sunk costs fallacy]]
 
 [[unemployment]], [[productivity]]
 

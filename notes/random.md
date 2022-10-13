@@ -690,3 +690,15 @@ $$
 - interactivity, way better than book club
 - learned the new `println` syntax
 - apology about technical explanations
+
+---
+
+important:
+
+- communication & teamwork
+
+concerns:
+
+- rejection of the state of the art
+- worried about reinventing the wheel
+- motivation for tedious tasks

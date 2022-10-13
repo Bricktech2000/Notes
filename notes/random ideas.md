@@ -36,3 +36,7 @@ use GPT-3 on a list of true statements to get it to complete new statements in a
 > **example** _autocomplete-style prompt **with simulated output**_
 >
 > - the club's email **is <mailto:club@example.com>**
+
+## UTF-256
+
+a service that assigns a UTF-256 codepoint to any image uploaded to it &mdash; idea stolen from PIKE MATCHBOX talk if I remember correctly

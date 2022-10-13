@@ -14,6 +14,6 @@ more generally, this could be phrased as:
 
 > **examples** _other methods people use to cope with the unknown_
 >
-> - believing a higher power understands the unknown (such a belief could be reinforced by confirmation [[bias]])
+> - believing a higher power understands the unknown (such a belief could be reinforced by [[confirmation bias]])
 > - spending the time to try to understand the unknown
 > - accepting they cannot understand the unknown

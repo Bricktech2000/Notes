@@ -4,7 +4,13 @@ see [[math notation]], [[complex]], [[factor]], [[quadratic formula]]
 
 > **theorem**: _Fundamental Theorem of Algebra_
 >
-> Every [[polynomial]] with coefficients in the [[complex]] numbers [[factor]]s completely into linear [[factor]]s of the form $a : b\iota$ with $\mathbb C a \land \mathbb C b$
+> the following are equivalent:
+>
+> - every single-variable [[polynomial]] with [[complex]] coefficients has at least one [[complex]] root
+> - the [[number-field]] of [[complex]] numbers is _algebraically closed_
+> - every single-variable [[polynomial]] of degree $n$ with [[complex]] coefficients has exactly $n$ [[complex]] roots (counted with [[multiplicity]])
+>
+> &mdash; <https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra>
 
 the same **cannot** be said for [[real]]s
 

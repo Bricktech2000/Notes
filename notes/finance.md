@@ -12,6 +12,6 @@ aka the useful slice of [[economics]]
 
 [[money]], [[wealth]], [[inflation]]
 
-[[credit card]], [[loan]], [[sunk costs]]
+[[credit card]], [[loan]], [[sunk costs fallacy]]
 
 [[options market]], [[bond market]], [[stock market]], [[loanable funds market]]
