@@ -1,9 +1,7 @@
 # Java Wrapper
 
-see [[java is a terrible language]], wrapper
+see [[java is a terrible language]]
 
-there is a wrapper for every [[java primitive]]. a wrapper exposes extra methods for primitives.
+there is a wrapper for every [[java primitive]]. a [[java wrapper]] exposes extra methods for primitives
 
-### example
-
-`Integer` is a wrapper for `int`
+> **example** `Integer` is a wrapper for `int`

@@ -1,6 +1,6 @@
 # Overwhelm
 
-People feel [[overwhelm]]ed when they are unable to break down a [[goal]] into its component tasks &mdash; <https://youtu.be/DMw8G3RPWrQ?t=9715>
+people feel [[overwhelm]]ed when they are unable to break down a [[goal]] into its component tasks &mdash; <https://youtu.be/DMw8G3RPWrQ?t=9715>. this is why [[system over goal]] is so important.
 
 feeling [[overwhelm]]ed can hinder [[motivation]] and can cause [[procrastination]]
 

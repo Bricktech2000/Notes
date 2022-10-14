@@ -10,9 +10,9 @@ _results in a [[vector]] of [[length]] ([[area]] of the parallelogram formed by 
 
 see [[determinant]]
 
-$|a\ \check\mid\ b| = \det \begin{bmatrix} a \mid b\end{bmatrix}$
+$|a\ \check\mid\ b| = \det \begin{bmatrix}a \mid b\end{bmatrix}$ #think looks like the [[determinant]] of a non-square [[matrix]]
 
-$a\ \check\mid\ b = \det \begin{bmatrix}B \mid a \mid b\end{bmatrix}$, where
+$a\ \check\mid\ b = \det \begin{bmatrix}B & | & a & | & b\end{bmatrix}$, where
 
 $B$ is the basis [[vector]], i.e. $\begin{bmatrix}\hat i \\\  \hat j  \\\  \dots\end{bmatrix}$
 
@@ -22,7 +22,7 @@ $B$ is the basis [[vector]], i.e. $\begin{bmatrix}\hat i \\\  \hat j  \\\  \dots
 
 **properties**
 
-_no commutativity_ $a\ \check\mid\ b = \cdot\ b\ \check\mid\ a$ &mdash;
+_not commutative_ $a\ \check\mid\ b = \cdot\ b\ \check\mid\ a$
 
 _orthogonal to both [[vector]]s_ $u\ \check\shortmid\ v\ \dot\mid\ v = 0$ and $u\ \check\shortmid\ v\ \dot\mid\ v = 0$, see [[dot product]]
 

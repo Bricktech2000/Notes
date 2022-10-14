@@ -4,17 +4,21 @@ see [[common knowledge]]
 
 ## citing authors
 
-> _Citing_ is a paraphrase of words or thought by some person. Quotation marks are not present and the source has to be cited.
+_citing_ is a paraphrase of words or thought by some person. quotation marks are not present and the source has to be cited
 
-> Paraphrase (Author 52).
+> **example**
+>
+> > Paraphrase (Author 52).
 
 ## quoting authors
 
 _Quoting_ and _Citing_ are two ways of using sources. see [[plagiarism]]
 
-> _Quoting_ is basically repeating something someone has said or written verbatim. Quotation marks are required and the source has to be cited.
+_quoting_ is repeating something someone has said or written verbatim. quotation marks are required and the source has to be cited
 
-> Author says "Quote" (Author 24), but ...
+> **example**
+>
+> > Author says "Quote" (Author 24), but ...
 
 - nested quotes are replaced by single quotes
 - when trying to emphasize the information, the first of the two following is preferred:

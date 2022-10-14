@@ -1,6 +1,6 @@
 # Insomnia
 
-see [[sleep]]
+**see** [[sleep]]
 
 **types**
 

@@ -30,53 +30,34 @@ capitalized headings are for [[concept]]s
 
 lowercease headings are for general titles
 
-the following headings are commonly used:
+the following headings are used in blockquotes:
 
-- **definition**
-- **notation**
-- **representation**
-- **types**
-- **applications**
+- **note**
 - **example**
-- **counterexample**
-- **theorems**
-- **definitions**
-- **properties**
 - **procedure**
-- **pros & cons**
-- **see**
+- **proof**
+- **[[mnemonic]]**
+- **constant**
 
-headers still in new:
+the following headings are used inline:
 
 - **types**
-- **examples** (#todo rename, should represent "children" and not examples)
+- **theorem**
+- **definition**
+- **properties**
+- **applications**
+- **pros**
+- **cons**
+- **pros & cons**
+- **representation**
 
----
-
-- procedure
-- note
-- example
-- proof
-- [[mnemonic]]
-- constant
-
-&nbsp;
-
-- theorem
-- definition
-- types
-- properties
-- applications
-- pros
-- cons
-- pros & cons
-- representation
+**examples** (#todo rename, should represent "children" and not examples)
 
 ### quotes, italics, bold, sources, URLs
 
 blockquotes are used for [[fact]]ual information and definitions
 
-italics are used for tricks and personal definitions and to replace quotation marks. bold is used for emphasis. italics must not be used for emphasis and quotation marks are to be avoided
+italics are used for [[trick]]s and personal definitions and to replace quotation marks. bold is used for emphasis. italics must not be used for emphasis and quotation marks are to be avoided
 
 _&mdash; ..._ statements are used for citing sources
 

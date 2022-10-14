@@ -32,7 +32,7 @@ $L^x \cdot p^x - p_1^x \cdot p_0^x = L^y \cdot p^y - p_1^y \cdot p_0^y = L^z \cd
 
 if $L_0^n = L_1^n \dashv \mathbb N n$ has a solution, then the two lines intersect at said solution
 
-> **note** as a trick, check to see if the lines are parallel first
+> **note** as a [[trick]], check to see if the lines are parallel first
 
 ## Angle Between Two Lines
 

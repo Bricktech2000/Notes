@@ -1,6 +1,6 @@
 # Environmental Dependency of Learning
 
-our behavior is highly controlled by environmental queues. &mdash; <https://youtu.be/IlU-zDU6aQ0?t=867>
+our behavior is highly controlled by environmental cues. &mdash; <https://youtu.be/IlU-zDU6aQ0?t=867>
 
 for efficient [[learning]] and to [[focus]] more deeply, we must teach our [[brain]]s to associate a specific environment with [[learning]].
 
@@ -15,7 +15,7 @@ for efficient [[learning]] and to [[focus]] more deeply, we must teach our [[bra
 >
 > this way, you're training your [[brain]] to study whenever you're seating at your desk with your study lamp on.
 
-## examples
+**see**
 
 [[sleep]]
 

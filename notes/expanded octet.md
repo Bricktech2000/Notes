@@ -1,5 +1,7 @@
 # Expanded Octet
 
-> Formed by atoms that can hold more than 8 electrons, see [[octet]]
+_Formed by atoms that can hold more than 8 electrons_
 
-_only atoms with greater atomic numbers than $P$ can for expanded octets_
+**see** [[octet]]
+
+only atoms with greater atomic numbers than $P$ can for expanded octets

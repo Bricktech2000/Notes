@@ -25,13 +25,13 @@ _membership in my [[math notation]]_ $x \mathcal R y$
 
 **definition**
 
-let $\mathcal R^-$ be the inverse of the [[relation]] $\mathcal R$ from $A$ to $B$
+let $\mathcal R^\times$ be the inverse of the [[relation]] $\mathcal R$ from $A$ to $B$
 
-then, $\mathcal R \braket{x, y} \equiv \mathcal R^- \braket{y, x}$
+then, $\mathcal R \braket{x, y} \equiv \mathcal R^\times \braket{y, x}$
 
 **properties**
 
-$\mathcal R^- \vdash B\ \acute\mid\ A$
+$\mathcal R^\times \vdash B\ \acute\mid\ A$
 
 ## reflexivity
 

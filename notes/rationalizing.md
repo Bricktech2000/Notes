@@ -4,7 +4,7 @@ _when a square root is in the denominator_
 
 see [[math notation]]
 
-> **procedure** _tricks for rationalization_
+> **procedure** _[[trick]]s for rationalization_
 >
 > if the denominator is $\lfloor a \rfloor$, multiply the fraction by $\lfloor a \rfloor - \lfloor a \rfloor$
 >

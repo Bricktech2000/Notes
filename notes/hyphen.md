@@ -2,30 +2,28 @@
 
 used to link words together. see [[dash]].
 
-## examples
+compound adjective are hyphenated but complements are not
 
-_note the difference between compound adjectives and complements_
+> **examples**
+>
+> > three-year-old boy, the boy was three years old
+>
+> > well-written report, the report was well written
 
-> three-year-old boy VS the boy was three years old
+fractions are hyphenated
 
-> well-written report VS the report was well written
+> **example**
+>
+> > one-third of employees [...]
 
-- fractions are hyphenated
+adverbs ending in _ly_ are not hyphenated
 
-> one-third of employee
-
-- adverbs ending in _ly_ are not hyphenated
-
-> Poorly developed writing skills
-
-## Fractions
-
-fractions should be hyphenated
-
-> Three-quarters of students $\dots$
-
-## Units
+> **example**
+>
+> > Poorly developed writing skills
 
 units should be hyphenated when used as adjectives
 
-> A 110-foot sandy beachfront
+> **example**
+>
+> > A 110-foot sandy beachfront

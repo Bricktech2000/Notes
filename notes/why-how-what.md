@@ -8,9 +8,7 @@ _the Why-How-What organization system_
 
 for humans to function, they must take care of their bodies (eating, showering...) &mdash; Body. in order to do stuff, one needs to know the right people and have the right resources &mdash; Network and Finance. time is as limited resource, and it must be utilized as efficiently as possible &mdash; Optimize. information is not permanent (our brains forget, hard drives fail...) and it often must be made permanent &mdash; Reproduce. to be able to form new ideas, one needs to learn and understand [[concept]]s in different [[fields]] and should have access to information most people do not have access to &mdash; Learning and Intel
 
-many items are only weakly related to one of the above categories, but represent the idea that a standard must be maintained &mdash; Standard. some items are not related to any of the above categories, but are still important &mdash; Misc. some items are unimportant and should probably be removed (wasting time, storing a file with low value, physical clutter) &mdash; Zilch
-
-#todo sync with paragraph above
+many items are only weakly related to one of the above categories, but represent the idea that a standard must be maintained &mdash; Standard. ~~some items are not related to any of the above categories, but are still important &mdash; Misc~~. some items are unimportant and should probably be removed (wasting time, storing a file with low value, physical clutter) &mdash; Zilch
 
 - Body (brown)
 - Intel (purple)
@@ -185,7 +183,7 @@ _what_ represents the item itself
 
 [[counterintuitive smarter sorting]]
 
-[[process-oriented]]
+[[system over goal]]
 
 [[why-how-what]]
 
@@ -331,7 +329,7 @@ _what_ represents the item itself
 
 **research**
 
-[[process-oriented]]
+[[system over goal]]
 
 [[hijacking brain circuitry]]
 

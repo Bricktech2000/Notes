@@ -19,7 +19,7 @@ divide and conquer #todo
 > - using a custom [[stack]] instead of using the hardware [[function]] call [[stack]] (this also prevents [[recursion]] limits from being hit)
 > - "trying to be clever", see <https://youtu.be/jUM_Dpt6yu0>
 
-## examples
+**see**
 
 [[shors algorithm]]
 

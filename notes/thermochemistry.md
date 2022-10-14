@@ -4,7 +4,7 @@ see [[stoichiometry]], [[specific heat]], [[math notation]]
 
 ## Hess' Law
 
-$\Delta H_{net} = \sum \Delta H_r$, where
+**definition** $\Delta H_{net} = \sum \Delta H_r$, where
 
 $\Delta H_{net}$ is the net change in enthalpy
 

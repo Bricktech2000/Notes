@@ -2,13 +2,9 @@
 
 **see**
 
-an excess of [[motivation]] can lead to feeling [[overwhelm]]ed, which can lead to [[procrastination]]
-
 [[less stimulated lifestyle]]
 
 [[recollection vs recognition]], [[desire vs value]], [[reaction vs response]]
-
-[[environmental dependency of learning]], [[lofi music]], [[focus]]
 
 [[hijacking brain circuitry]], [[subconscious manipulation]]
 
@@ -22,15 +18,17 @@ an excess of [[motivation]] can lead to feeling [[overwhelm]]ed, which can lead 
 
 [[social media]]
 
-[[habit]]
-
 [[religion]]
 
 [[cognitive bias]], [[material distortion]]
 
 [[mental illness]]
 
-[[goal]], [[aspiration]]
+[[goal]], [[aspiration]], [[habit]], [[system]], [[system over goal]]
+
+[[motivation]], [[overwhelm]], [[procrastination]], [[laziness]], [[focus]]
+
+[[environmental dependency of learning]], [[lofi music]]
 
 [[learning]]
 

@@ -1,3 +1,3 @@
 # Linearly Dependent
 
-see [[linear dependence]]
+**see** [[linear dependence]]

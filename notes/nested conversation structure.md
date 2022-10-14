@@ -1,16 +1,16 @@
 # Nested Conversation Structure
 
-deep / intellectual conversations can be structured in a nested [[stack]]-like [[data structure]]. if both parties understand how this model works, many benefits can emerge.
+conversations can be structured in a nested [[stack]]-like [[data structure]]. if both parties understand how this model works, many benefits can emerge.
 
 ## structure
 
 time moves from top to bottom
 
-nested conversations are represented by nested lists
+nested conversations are represented by nested [[list]]s
 
 this [[data structure]] can also be represented by a [[stack]], where instead of nesting subconversations inside other conversations, subconversations are pushed on the [[stack]] before being popped off the [[stack]] later.
 
-### example
+**representation**
 
 - conversation1
 - conversation1

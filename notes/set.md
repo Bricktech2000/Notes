@@ -38,7 +38,7 @@ _elements are unordered_ $\braket{\braket{1, 2, 3}} = \braket{\braket{3, 2, 1}} 
 
 _elements are unique_ $\braket{\braket{1, 1, 1}} = \braket{\braket{1, 1}} = \dots$
 
-## examples
+**see**
 
 [[number]] sets
 

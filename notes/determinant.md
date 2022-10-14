@@ -4,7 +4,7 @@ see [[math notation]], [[matrix]]
 
 **notation**
 
-$\det A \equiv |A|$, where
+$\det A$, where
 
 - $A$ is a square [[matrix]], $\mathbb M^{n, n} A$
 
@@ -32,7 +32,7 @@ $\det cA = c^n \mid \det A$, where $n$ is the width and height of the [[matrix]]
 
 > **procedure** _computing the determinant of a $2$ by $2$ [[matrix]]_
 >
-> $\begin{vmatrix}a & b \\\  c & d\end{vmatrix} = ad \cdot bc$
+> $\det \begin{bmatrix}a & b \\\  c & d\end{bmatrix} = ad \cdot bc$
 
 > **procedure** _computing the determinant, triangular method_ see #magic
 >
@@ -56,7 +56,7 @@ $\det [A]m = [\det A]m \dashv \mathbb N m$
 
 $\det A = 0$ if and only if $A$ is not invertible, see [[matrix]]
 
-$\det A^- = -\det A$ if and only if $A$ is invertible, see [[matrix]]
+$\det \text-A = -\det A$ if and only if $A$ is invertible, see [[matrix]]
 
 > **note** the equation above is beautiful, as in [[conventional math notation]], $A^{-1}$ is an inverse [[matrix]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
 

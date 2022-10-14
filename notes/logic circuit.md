@@ -2,29 +2,9 @@
 
 see [[digital system]], [[boolean logic]]
 
+**see** [[truth table]], [[characteristic table]], [[excitation table]], [[characteristic equation]], [[truth table]], [[karnaugh map]], [[state table]], [[state diagram]], [[logic gate]]s
+
 **see**
-
-[[truth table]]
-
-[[characteristic table]]
-
-[[excitation table]]
-
-[[characteristic equation]]
-
-[[truth table]]
-
-[[karnaugh map]]
-
-[[state table]]
-
-[[state diagram]]
-
-[[logic gate]]s
-
-## examples
-
-#todo rename this heading
 
 [[latch]]
 

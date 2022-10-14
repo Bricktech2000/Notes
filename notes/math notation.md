@@ -71,8 +71,8 @@ let:
 | $A^i$                                | the $i$ th element of $A$                         |                                                       |
 | $B^i$                                | the $i$ th element of $B$                         |                                                       |
 | $M^{\braket{i, j}}$                  | the $i, j$ th element of $M$                      | uncommon, shorthand preferred                         |
-| $M^\intercal$                        | the transpose of $M$                              |                                                       |
-| $M^-$                                | the multiplicative inverse of $M$                 |                                                       |
+| $M^\intercal$                        | the transpose [[matrix]] of $M$                   |                                                       |
+| $\text-M$                            | the multiplicative inverse of $M$                 |                                                       |
 | $P^b$                                | the $b$ th element of $P$                         |                                                       |
 | $S\ a$                               | whether $a$ is element of $S$                     |                                                       |
 | $M'\ a$                              | the number of elements $a$ in $M'$                |                                                       |
@@ -103,6 +103,8 @@ let:
 | $A \circ B$                                                | $A\ x \circ B\ x$ for all $x$                      | $(\top \dots)$ is treated as $\top$    |
 | $\delta y - \delta x$                                      | the [[derivative]] of $y$ with respect to $x$      | $\delta$ should be used instead of $d$ |
 | $\int y \mid \delta x$                                     | the [[antiderivative]] of $y$ with respect to $x$  | $\delta$ should be used instead of $d$ |
+| $f\ \ \vdots\ \ a \circ\dots b$                            | $f\ (a \dots b) \circ\dots$                        | #todo precedence                       |
+| $f\ \ \vdots\ \ x \rightarrow a$                           | the [[limit]] of $f$ as $x$ approaches $a$         | #todo replace throughout notes         |
 
 ### constants
 
@@ -134,7 +136,7 @@ _in order of high to low precedence_
 | $\land\ \lor$                           | left          |                |                       |
 | $\dashv\ \vdash$                        | left          |                |                       |
 | $\equiv \times$                         | AND           | $\top$         | [[boolean logic]] NOT |
-| $,$                                     |               |                |                       |
+| $,\ \vdots$                             |               |                |                       |
 
 > **note**: above,
 >
@@ -143,6 +145,7 @@ _in order of high to low precedence_
 > - $\leftarrow$ represents [[function]] application
 > - $\rightarrow$ represents [[function]] literals
 > - $\Big[\Big]$ represents [[matrix]] literals
+> - $\lim$ represents [[limit]]s $f\ \ \vdots\ \ x \rightarrow a$
 
 > **note**: unary [[operator]]s have identical precedence to their binary counterparts, but are right associative
 

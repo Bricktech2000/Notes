@@ -1,5 +1,4 @@
 # Characteristic Table
-# 
 
 for sequential [[logic circuit]]s. see [[excitation table]], [[truth table]]
 

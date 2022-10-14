@@ -34,7 +34,7 @@ Java [[scope]]s are defined using `{ /*...*/ }`
 >
 > ```java
 > {
-> int k = 0;
+>   int k = 0;
 > }
 > k++; // throws an error
 > ```

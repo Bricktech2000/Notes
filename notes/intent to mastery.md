@@ -4,9 +4,9 @@
 
 #todo seems not to be an official term, see src
 
-it is a hard-wired core part of our [[brain]]s
+[[intent to mastery]] is a hard-wired core part of our [[brain]]s
 
-> **examples** _examples demonstrating the importance of [[intent to mastery]]_
+> **examples** _demonstrating the importance of [[intent to mastery]]_
 >
 > - a toddler getting back on their feet after having failed to stand up
 > - a toddler picking up a ball after having dropped it

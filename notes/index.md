@@ -24,8 +24,6 @@
 
 [[interesting electives]]
 
-[[90u guard log]]
-
 [[deriving the quadratic formula]]
 
 [[personal issues with university]]
