@@ -8,11 +8,15 @@ see [[math notation]]
 
 $e$
 
-**definitions**
+**definition**
 
-$\lim_{n \to \infty} [1 : -n]n = e$
+$[1 : -n]n\ \ \vdots\ \ n \rightarrow \infty = e$
 
-$\lim_{h \to 0} \lfloor 1 : h \rfloor h = e$
+> **note**
+>
+> the definition above can be thought of intuitively as:
+>
+> ![](20221017182600.png) &mdash; <https://betterexplained.com/articles/definitions-of-e-colorized/>
 
 **properties**
 
@@ -20,6 +24,6 @@ $\delta\ e[x] - \delta x = e[x]$, see [[derivative]]
 
 from the [[limit]] definition, we then derive
 
-$\lim_{h \to 0} e[h] \cdot 1 - h = 1$
+$e[h] \cdot 1 - h = 1\ \ \vdots\ \ h \rightarrow 0$
 
 $e[\iota\tau] = 1$, see [[complex]]

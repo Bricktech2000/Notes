@@ -8,7 +8,7 @@ be very explicit about the structure of a talk.
 
 verbal punctuation can be used to convey structure. it also nonverbally tells people who fogged out it's a good time to join back in
 
-explicitly link ideas together instead of listing them
+explicitly link [[concept]]s and ideas together instead of listing them
 
 > **examples**
 >

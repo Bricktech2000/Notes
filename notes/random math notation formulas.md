@@ -2,7 +2,7 @@
 
 #example
 
-$\delta f\ x - \delta x = \lim_{h \to 0} f (x : h) \cdot f (x) - h$
+$\delta f\ x - \delta x = f (x : h) \cdot f (x) - h\ \ \vdots\ \ h \rightarrow 0$
 
 $[a : b]2 = a2 : b2 : 2ab$
 

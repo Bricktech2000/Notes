@@ -6,14 +6,14 @@ see [[calculus notation]], [[math notation]]
 
 > **proof**
 >
-> by definition, $\delta\ g\ x - \delta x = \lim_{h \to 0} g (x : h) \cdot g\ x - h$
+> by definition, $\delta\ g\ x - \delta x = g (x : h) \cdot g\ x - h\ \ \vdots\ \ h \rightarrow 0$
 >
-> with $g\ x = F\ x = \int f\ x \mid \delta x$, we get $\lim_{h \to 0} F\ (x : h) \cdot F\ a \cdot (F\ x \cdot F\ a) - h = \lim_{h \to 0} F\ (x : h) \cdot F\ x - h$
+> with $g\ x = F\ x = \int f\ x \mid \delta x$, we get $F\ (x : h) \cdot F\ a \cdot (F\ x \cdot F\ a) - h\ \ \vdots\ \ h \rightarrow 0 = F\ (x : h) \cdot F\ x - h\ \ \vdots\ \ h \rightarrow 0$
 >
 > then,
 >
-> - as $h \to 0$, we approximate the definite [[integral]] and get $\lim_{h \to 0} (f\ x \mid h) - h = f\ x$
-> - more formally, let $m$ be the minimum of $f\ x$ on $x \le m \le x : h$ and $M$ be the maximum of $f\ x$ on $x \le M \le x : h$. then, with the property $m \mid h \le F\ (x : h) \cdot F\ x - h \le M \mid h$ (can be seen graphically) we get $m \le F\ (x : h) \cdot F\ x - h \le M$ for $h \ge 0$. finally, by the [[intermediate value theorem]], we deduce that $F\ (x : h) \cdot F\ x - h = f\ c$ for some $x \le c \le x : h$, and therefore $\lim_{h \to 0} f\ c = f\ x$
+> - as $h \to 0$, we approximate the definite [[integral]] and get $(f\ x \mid h) - h\ \ \vdots\ \ h \rightarrow 0 = f\ x$
+> - more formally, let $m$ be the minimum of $f\ x$ on $x \le m \le x : h$ and $M$ be the maximum of $f\ x$ on $x \le M \le x : h$. then, with the property $m \mid h \le F\ (x : h) \cdot F\ x - h \le M \mid h$ (can be seen graphically) we get $m \le F\ (x : h) \cdot F\ x - h \le M$ for $h \ge 0$. finally, by the [[intermediate value theorem]], we deduce that $F\ (x : h) \cdot F\ x - h\ \ \vdots\ \ h \rightarrow 0 = f\ c$ for some $x \le c \le x : h$, and therefore $f\ c = f\ x$
 >
 > &mdash; <https://youtu.be/HfACrKJ_Y2w?t=40945>
 

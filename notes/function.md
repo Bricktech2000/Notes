@@ -146,13 +146,13 @@ let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number o
 
 see [[math notation]]
 
-**definition** a [[function]] $f\ x$ is _continuous_ at $x = a$ if $\lim_{x \to a} f\ x = f\ a$
+**definition** a [[function]] $f\ x$ is _continuous_ at $x = a$ if $f\ x\ \ \vdots\ \ x \rightarrow a = f\ a$
 
-> **note** $\lim_{x \to a} f\ x$ must exist and that $f\ x$ must be defined at $x = a$
+> **note** $f\ x\ \ \vdots\ \ x \rightarrow a$ must exist that $f\ x$ must be defined at $x = a$
 
-**definition** a [[function]] is _continuous from the left_ at $a$ when $\lim_{x \to a^-} f\ x = f\ a$ and both other conditions are met
+**definition** a [[function]] is _continuous from the left_ at $a$ when $f\ x\ \ \vdots\ \ x \stackrel \cdot \rightarrow a = f\ a$ and both other conditions are met
 
-**definition** a [[function]] is _continuous from the right_ at $a$ when $\lim_{x \to a^+} f\ x = f\ a$ and both other conditions are met
+**definition** a [[function]] is _continuous from the right_ at $a$ when $f\ x\ \ \vdots\ \ x \stackrel {\cdot \cdot} \rightarrow a = f\ a$ and both other conditions are met
 
 **theorem**
 if $f\ x$ and $g\ x$ are continuous at $a$, then the following functions are also continuous at $a$:

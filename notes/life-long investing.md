@@ -4,7 +4,7 @@ see [[wealth]], [[sunk costs fallacy]]
 
 the goal of this note is to study the following strategy:
 
-> invest 20% of all currency earned
+> invest 20% of all [[money]] earned
 
 **pros** _advantages of investing_
 
@@ -18,6 +18,8 @@ the goal of this note is to study the following strategy:
 - age of majority &mdash; added reminder to open trading account when turning 18 &mdash; [[cryptocurrency]] does not require users to be 18
 - trading fees &mdash; Wealth Simple Trade has very low fees for long-term investments
 - [[inflation]] &mdash; ROI on index funds (see [[stock market]]) are higher than inflation rates
+
+video expressing a similar opinion: <https://youtu.be/hqYXjclDmis?t=37>
 
 ## other notes
 

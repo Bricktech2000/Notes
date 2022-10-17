@@ -145,7 +145,7 @@ _in order of high to low precedence_
 > - $\leftarrow$ represents [[function]] application
 > - $\rightarrow$ represents [[function]] literals
 > - $\Big[\Big]$ represents [[matrix]] literals
-> - $\lim$ represents [[limit]]s $f\ \ \vdots\ \ x \rightarrow a$
+> - $\lim$ represents [[limit]]s $E\ \ \vdots\ \ x \rightarrow a$
 
 > **note**: unary [[operator]]s have identical precedence to their binary counterparts, but are right associative
 

@@ -28,7 +28,7 @@
 
 [[motivation]], [[overwhelm]], [[procrastination]], [[laziness]], [[focus]]
 
-[[environmental dependency of learning]], [[lofi music]]
+[[environmental dependency of learning]], [[lofi music]], [[cue]]
 
 [[learning]]
 

@@ -28,7 +28,7 @@ _as a [[function]] (closed form) in [[conventional math notation]]_ $a_n = n^2$
 
 let $a = a^0, a^1, a^2, \dots$
 
-$a_{sum} = \lim_{n \to \infty} S^n$, where
+$a_{sum} = S^n\ \ \vdots\ \ n \rightarrow \infty$, where
 
 - $a$ is the [[sequence]] to be summed
 - $S$ is the sequence of partial sums of $a$
@@ -60,7 +60,7 @@ suppose $a^n = f\ n \dashv \mathbb N n$. then, the increase and decrease of the 
 
 ## Sequence Convergence
 
-**definition** a [[sequence]] is said to _converge_ if the [[limit]] $\lim_{n \to \infty} a^n$ exists as a finite number
+**definition** a [[sequence]] is said to _converge_ if the [[limit]] $a^n\ \ \vdots\ \ n \rightarrow \infty$ exists as a finite number
 
 **properties**
 
@@ -70,10 +70,10 @@ if a [[sequence]] is bounded and monotonic, then it must converge (think of this
 
 **theorem**
 
-let $a$ be a [[sequence]] and $f\ x$ be a [[function]] and suppose $a^n = f\ n \dashv \mathbb N n$. then, $\lim_{x \to \infty} f\ x = L\ \ \vdash\ \ \lim_{n \to \infty} a^n = L$. in other words,
+let $a$ be a [[sequence]] and $f\ x$ be a [[function]] and suppose $a^n = f\ n \dashv \mathbb N n$. then, $f\ x\ \ \vdots\ \ x \rightarrow \infty = L\ \ \vdash\ \ a^n\ \ \vdots\ \ n \rightarrow \infty = L$. in other words,
 
-- if $\lim_{x \to \infty} f\ x$ converges, then $\lim_{n \to \infty} a^n$ converges
-- if $\lim_{x \to \infty} f\ x$ diverges, then $\lim_{n \to \infty} a^n$ diverges
+- if $f\ x\ \ \vdots\ \ x \rightarrow \infty$ converges, then $a^n\ \ \vdots\ \ n \rightarrow \infty$ converges
+- if $f\ x\ \ \vdots\ \ x \rightarrow \infty$ diverges, then $a^n\ \ \vdots\ \ n \rightarrow \infty$ diverges
 
 ### Geometric [[sequence]] Convergence
 

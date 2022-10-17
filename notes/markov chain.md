@@ -31,7 +31,7 @@ certain [[markov chain]]s converge to a _stationary distribution_, which can be 
 > - $P$ is the $s$ by $s$ _transition matrix_ of the [[markov chain]]
 > - $P^{j, k}$ is the [[probability]] of the [[markov chain]] transitioning from the $k$ th state to the $j$ th state
 >
-> we can then deduce $S_\infty = \lim_{n \to \infty} [P]n \mid S_0$, where
+> we can then deduce $S_\infty = [P]n \mid S_0\ \ \vdots\ \ n \rightarrow \infty$, where
 >
 > - $S_\infty$ is the _stationary distribution_ of the [[markov chain]]
 

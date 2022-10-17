@@ -2,51 +2,51 @@
 
 see [[math notation]]
 
-let $c$ be a constant and ensure $\lim_{x \to a} f\ x$ and $\lim_{x \to a} g\ x$ are [[limit]]s that exist
+let $c$ be a constant and ensure $f\ x\ \ \vdots\ \ x \rightarrow a$ and $g\ x\ \ \vdots\ \ x \rightarrow a$ are [[limit]]s that exist
 
 ## Sum Rule
 
-$\lim_{x \to a} (f\ x : g\ x) = \lim_{x \to a} f\ x : \lim_{x \to a} g\ x$
+$f\ x : g\ x\ \ \vdots\ \ x \rightarrow a = (f\ x\ \ \vdots\ \ x \rightarrow a) : (g\ x\ \ \vdots\ \ x \rightarrow a)$
 
 ## Difference Rule
 
-$\lim_{x \to a} (f\ x \cdot g\ x) = \lim_{x \to a} f\ x \cdot \lim_{x \to a} g\ x$
+$f\ x \cdot g\ x\ \ \vdots\ \ x \rightarrow a = (f\ x\ \ \vdots\ \ x \rightarrow a) \cdot (g\ x\ \ \vdots\ \ x \rightarrow a)$
 
 ## Constant Multiple Rule
 
-$\lim_{x \to a} (c \mid f\ x) = c \mid \lim_{x \to a} f\ x$
+$c f\ x\ \ \vdots\ \ x \rightarrow a = c (f\ x\ \ \vdots\ \ x \rightarrow a)$
 
 ## Product Rule
 
-$\lim_{x \to a} (f\ x \mid g\ x) = \lim_{x \to a} f\ x \mid \lim_{x \to a} g\ x$
+$f\ x \mid g\ x\ \ \vdots\ \ x \rightarrow a = (f\ x\ \ \vdots\ \ x \rightarrow a) \mid (g\ x\ \ \vdots\ \ x \rightarrow a)$
 
 ## Quotient Rule
 
-$\lim_{x \to a} (f\ x - g\ x) = \lim_{x \to a} f\ x - \lim_{x \to a} g\ x \dashv \lim_{x \to a} g\ x \ne 0$ (restriction not necessary, see [[improved expression evaluation]])
+$f\ x - g\ x\ \ \vdots\ \ x \rightarrow a = (f\ x\ \ \vdots\ \ x \rightarrow a) - (g\ x\ \ \vdots\ \ x \rightarrow a) \dashv g\ x\ \ \vdots\ \ x \rightarrow a \ne 0$ (restriction not necessary, see [[improved expression evaluation]])
 
 ## Power Rule
 
-$\lim_{x \to a} [f\ x]n = [\lim_{x \to a} f\ x]n$
+$[f\ x]n\ \ \vdots\ \ x \rightarrow a = [f\ x\ \ \vdots\ \ x \rightarrow a]n$
 
 ### derived Root Rule
 
-$\lim_{x \to a} \lfloor f\ x \rfloor n = \lfloor \lim_{x \to a} f\ x \rfloor n$. when $\mathbb E n$ (see [[even number]]), we assume that $\lim_{x \to a} f\ x \ne 0$ (restriction potentially not necessary, see [[improved expression evaluation]])
+$\lfloor f\ x \rfloor n\ \ \vdots\ \ x \rightarrow a = \lfloor f\ x\ \ \vdots\ \ x \rightarrow a \rfloor n$. when $\mathbb E n$ (see [[even number]]), we assume that $f\ x\ \ \vdots\ \ x \rightarrow a \ne 0$ (restriction might not be necessary, see [[improved expression evaluation]])
 
 ## Composition Rule
 
-$\lim_{x \to a} (f\ g\ x) = f \lim_{x \to a} g\ x$ if $f$ is continuous (see [[function]]) at $a$
+$f\ g\ x\ \ \vdots\ \ x \rightarrow a = f\ (g\ x\ \ \vdots\ \ x \rightarrow a)$ if $f$ is a continuous [[function]] at $a$
 
 ## Infinity Rules
 
-$\lim_{x \to \because \infty} [x]r = 0 \dashv r < 0$
+$[x]r\ \ \vdots\ \ x \rightarrow \because \infty = 0 \dashv r < 0$
 
-$\lim_{x \to 0} -x =\ \because \infty$
+$-x\ \ \vdots\ \ x \rightarrow 0 =\ \because \infty$
 
 ## Squeeze Theorem
 
 let $f\ x \le g\ x \le h\ x$ for $x$ near a value $a$
 
-if $\lim_{x \to a} f\ x = \lim_{x \to a} h\ x = L$, then $\lim_{x \to a} g\ x = L$
+if $f\ x\ \ \vdots\ \ x \rightarrow a = h\ x\ \ \vdots\ \ x \rightarrow a = L$, then $g\ x\ \ \vdots\ \ x \rightarrow a = L$
 
 ## L'Hôpital's Rule
 
@@ -54,7 +54,7 @@ _used to compute [[limit]]s in indeterminate forms using their [[derivative]]s_
 
 **theorem**
 
-let $f\ x$ and $g\ x$ be differentiable [[function]]s such that $\delta\ g\ x - \delta x \ne 0$ (restriction not necessary, see [[improved expression evaluation]]) in an open interval around $a$. if $\lim_{x \to a} f\ x - g\ x$ is a $0 - 0$ [[limit]] indeterminate form, then $\lim_{x \to a} f\ x - g\ x = \lim_{x \to a} \delta\ f\ x - \delta\ g\ x = \lim_{x \to a} (\delta\ f\ x - \delta x) - (\delta\ g\ x - \delta x)$
+let $f\ x$ and $g\ x$ be differentiable [[function]]s such that $\delta\ g\ x - \delta x \ne 0$ (restriction not necessary, see [[improved expression evaluation]]) in an open interval around $a$. if $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a$ is a $0 - 0$ [[limit]] indeterminate form, then $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a = \delta\ f\ x - \delta\ g\ x\ \ \vdots\ \ x \rightarrow a = (\delta\ f\ x - \delta x) - (\delta\ g\ x - \delta x)\ \ \vdots\ \ x \rightarrow a$
 
 intuitive explanation &mdash; <https://youtu.be/kfF40MiS7zA?t=734>
 
@@ -70,12 +70,12 @@ other [[limit]] indeterminate forms can be rewritten to use L'Hôpital's rule:
 
 > **example** _[[limit]]s that can be computed using L'Hôpital's rule_:
 >
-> $\lim_{x \to \infty} x - 3[x]$
+> $x - 3[x]\ \ \vdots\ \ x \rightarrow \infty$
 >
-> $\lim_{x \to 0} \sin x \cdot x - [\sin x]3$
+> $\sin x \cdot x - [\sin x]3\ \ \vdots\ \ x \rightarrow 0$
 >
-> $\lim_{x \to 0} \sin x \cdot x - [\sin x]3$
+> $\sin x \cdot x - [\sin x]3\ \ \vdots\ \ x \rightarrow 0$
 >
-> $\lim_{x \to 0^+} \sin x \ln x$
+> $\sin x \ln x\ \ \vdots\ \ x \stackrel {\cdot \cdot} \rightarrow 0$
 >
-> $\lim_{x \to \infty} [1 : 1 \text- x]x$
+> $[1 : 1 \text- x]x\ \ \vdots\ \ x \rightarrow \infty$

@@ -74,7 +74,7 @@ let $b$ and $B$ be [[series]] and suppose $0 \le b^n \le B^n \dashv \mathbb N n$
 
 **theorem** _Limit Comparison Test_
 
-let $a$ and $b$ be [[series]] such that $a_n \ge 0 \land b_n \ge 0 \dashv \mathbb N n$. if $\lim_{n \to \infty} a^n - b^n = L$ where $L > 0$ and is finite, then:
+let $a$ and $b$ be [[series]] such that $a_n \ge 0 \land b_n \ge 0 \dashv \mathbb N n$. if $a^n - b^n\ \ \vdots\ \ n \rightarrow \infty = L$ where $L > 0$ and is finite, then:
 
 - $a$ converges if and only if $b$ converges
 - $a$ diverges if and only if $b$ diverges
@@ -87,7 +87,7 @@ _useful for [[series]] containing factorials and a geometric part and for power 
 
 **theorem** _Ratio Test_
 
-let $b$ be a [[series]] and let $L = \lim_{n \to \infty} |b^{n : 1} - b^n|$. then,
+let $b$ be a [[series]] and let $L = |b^{n : 1} - b^n|\ \ \vdots\ \ n \rightarrow \infty$. then,
 
 - if $L < 1$, $b$ is absolutely convergent and therefore also convergent
 - if $L > 1$ or $L = \infty$, $b$ is divergent
@@ -99,13 +99,13 @@ let $b$ be a [[series]] and let $L = \lim_{n \to \infty} |b^{n : 1} - b^n|$. the
 
 **theorem** _Divergence Test_
 
-let $b$ be a [[series]]. if $\lim_{n \to \infty} b^n \ne 0$, then $b$ is divergent
+let $b$ be a [[series]]. if $b^n\ \ \vdots\ \ n \rightarrow \infty \ne 0$, then $b$ is divergent
 
-> **note** $\lim_{n \to \infty} b^n = 0$ does not imply that $b$ is convergent
+> **note** $b^n\ \ \vdots\ \ n \rightarrow \infty = 0$ does not imply that $b$ is convergent
 
 ### Alternating Test
 
-**theorem** let $b$ be a [[series]] such that $b^n = [\cdot 1]n \mid a^n$ where either $a^n \ge 0$ for all $n$ or $a^n \le 0$ for all $n$. then, if $\lim_{n \to \infty} a^n = 0$ and if $a$ is an eventually decreasing sequence, the [[series]] $b$ is convergent &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
+**theorem** let $b$ be a [[series]] such that $b^n = [\cdot 1]n \mid a^n$ where either $a^n \ge 0$ for all $n$ or $a^n \le 0$ for all $n$. then, if $a^n\ \ \vdots\ \ n \rightarrow \infty = 0$ and if $a$ is an eventually decreasing sequence, the [[series]] $b$ is convergent &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
 
 ### Geometric [[series]] Convergence
 
@@ -158,10 +158,8 @@ _convergence_ a geometric [[series]] $b^0r0 : b^0r1 :\dots$ with $b^0 \ne 0$:
 >
 > taking the [[limit]] to compute the value at which the [[series]] converges,
 >
-> $\lim_{n \to \infty} S^n = \lim_{n \to \infty} b^0r0 \cdot b^0r[n : 1] - 1 \cdot r \dashv r \ne 0 \land r \ne 1$
->
-> - if $|r| < 1 \land r \ne 0$, $\lim_{n \to \infty} S^n = b^0 - 1 \cdot r$, the [[series]] converges
-> - if $|r| \ge 1 \land r \ne 1$, $\lim_{n \to \infty} S^n = \infty \lor \lim_{s \to \infty} S^n = \cdot \infty$, the [[series]] diverges
+> - if $|r| < 1 \land r \ne 0$, then $S^n\ \ \vdots\ \ n \rightarrow \infty = b^0 - 1 \cdot r$, the [[series]] converges
+> - if $|r| \ge 1 \land r \ne 1$, then $S^n\ \ \vdots\ \ n \rightarrow \infty =\ \because \infty$, the [[series]] diverges
 >
 > if $r = 0 \lor r = 1$, the above definition of $S^n$ does not necessarily hold, see [[improved expression evaluation]]. therefore, we must use the definition
 >
@@ -169,10 +167,10 @@ _convergence_ a geometric [[series]] $b^0r0 : b^0r1 :\dots$ with $b^0 \ne 0$:
 >
 > taking the [[limit]] to compute the value at which the [[series]] converges,
 >
-> - if $r = 0 \land b^0 \ne 0$, $\lim_{n \to \infty} S^n = [0]0 = 1$, the [[series]] converges, see [[improved expression evaluation]]
-> - if $r = 0 \land b^0 = 0$, $\lim_{n \to \infty} S^n = 0$, the [[series]] converges
-> - if $r = 1 \land b^0 \ne 0$, $\lim_{n \to \infty} S^n = \infty \lor \lim_{n \to \infty} S^n = \cdot \infty$, the [[series]] diverges
-> - if $r = 1 \land b^0 = 0$, $\lim_{n \to \infty} S^n = 0$, the [[series]] converges
+> - if $r = 0 \land b^0 \ne 0$, then $S^n\ \ \vdots\ \ n \rightarrow \infty = [0]0 = 1$, the [[series]] converges, see [[improved expression evaluation]]
+> - if $r = 0 \land b^0 = 0$, then $S^n\ \ \vdots\ \ n \rightarrow \infty = 0$, the [[series]] converges
+> - if $r = 1 \land b^0 \ne 0$, then $S^n\ \ \vdots\ \ n \rightarrow \infty =\ \because \infty$, the [[series]] diverges
+> - if $r = 1 \land b^0 = 0$, then $S^n\ \ \vdots\ \ n \rightarrow \infty = 0$, the [[series]] converges
 
 ## P-Series
 

@@ -57,13 +57,13 @@ $R_{T_f}^n\ x = f\ x \cdot S_{T_f}^n\ x$, where
 
 > **note** the definition of the remainter of a Taylor series is different from other series as $S_{T_f}^\infty\ x$ is not necessarily equal to $f\ x$. as we want Taylor series to converge to their underlying [[function]], we use $f\ x$ instead of $S_{T_f}^\infty\ x$ to define the remainder
 
-**theorem** the taylor series $T_f\ x$ converges to $f\ x$ in an interval $I$ if and only if $\lim_{n \to \infty} R_{T_f}^n\ x = 0 \dashv I\ x$
+**theorem** the taylor series $T_f\ x$ converges to $f\ x$ in an interval $I$ if and only if $R_{T_f}^n\ x\ \ \vdots\ \ n \rightarrow \infty = 0 \dashv I\ x$
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=22042>
 
-**theorem** _Taylor's Inequality #magic_ $|(d^n\ f)\ x| \le M \land \mathbb R M \land \mathbb N n \dashv |x \cdot a| \le d \land \mathbb R a \land \mathbb R d \vdash \\\ |R_{T_f}^{n \cdot 1}\ x| \le M - \Pi\ n \mid [|x \cdot a|]n \dashv |x \cdot a| \le d$
+**theorem** _Taylor's Inequality #magic_ $|(d^n\ f)\ x| \le M \land \mathbb R M \land \mathbb N n \dashv |x \cdot a| \le d \land \mathbb R a \land \mathbb R d \vdash (|R_{T_f}^{n \cdot 1}\ x| \le M - \Pi\ n \mid [|x \cdot a|]n \dashv |x \cdot a| \le d)$
 
-**theorem** _Practical Convergence Condition_ $|(d^n\ f)\ x| < M \land \mathbb R M \dashv \mathbb N n \dashv |x \cdot a| < d \land \mathbb R a \land \mathbb R d \vdash \\\ \lim_{n \to \infty} R_{T_f}^n\ x = 0 \dashv |x \cdot a| < d$
+**theorem** _Practical Convergence Condition_ $|(d^n\ f)\ x| < M \land \mathbb R M \dashv \mathbb N n \dashv |x \cdot a| < d \land \mathbb R a \land \mathbb R d \vdash (R_{T_f}^n\ x\ \ \vdots\ \ n \rightarrow \infty = 0 \dashv |x \cdot a| < d)$
 
 > **proof** <https://youtu.be/7gigNsz4Oe8?t=22288>
 
