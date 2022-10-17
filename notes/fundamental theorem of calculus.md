@@ -2,7 +2,7 @@
 
 see [[calculus notation]], [[math notation]]
 
-**theorem** _Part 1_ if $f\ x$ is continuous on $x \rightarrow (a \le x \le b)$, then $\int_{t = a}^{t = x} f\ t \mid \delta t$ is continuous on $x \rightarrow (a \le x \le b)$ and differentiable on $x \rightarrow (a < x < b)$ and $\delta\ (\int_{t = a}^{t = x} f\ t \mid \delta t) - \delta x = f\ x$
+**theorem** _Part 1_ if $f\ x$ is continuous on $x \rightarrow (a \le x \le b)$, then $\int f\ t \mid \delta t\ \ \vdots\ \ x \cdot a$ is continuous on $x \rightarrow (a \le x \le b)$ and differentiable on $x \rightarrow (a < x < b)$ and $\delta\ (\int f\ t \mid \delta t\ \ \vdots\ \ x \cdot a) - \delta x = f\ x$ (restrictions not necessary, see [[improved expression evaluation]])
 
 > **proof**
 >
@@ -17,11 +17,11 @@ see [[calculus notation]], [[math notation]]
 >
 > &mdash; <https://youtu.be/HfACrKJ_Y2w?t=40945>
 
-**theorem** _Part 2_ if $f\ x$ is continuous on $x \rightarrow (a \le x \le b)$, then $\int_{x = a}^{x = b} f\ x \mid \delta x = F\ b \cdot F\ a$ where $F = \int f\ x \mid \delta x$, any [[antiderivative]] of $f\ x$
+**theorem** _Part 2_ if $f\ x$ is continuous on $x \rightarrow (a \le x \le b)$, then $\int f\ x \mid \delta x\ \ \vdots\ \ b \cdot a = F\ b \cdot F\ a$ where $F = \int f\ x \mid \delta x$, any [[antiderivative]] of $f\ x$
 
 > **proof**
 >
-> let $F\ x = \int_{t = a}^{t = x} f\ t \mid \delta t$. from the first part of the theorem, we get $\delta\ F\ x - \delta x = f\ x$, meaning $F\ x : c$ with $\mathbb R c$ is the set of all [[antiderivative]]s of $f\ x$ by definition. then, $(F\ b : c) \cdot (F\ a : c) = F\ b \cdot F\ a = (\int_{t = a}^{t = b} f\ t \mid \delta t) \cdot (\int_{t = a}^{t = a} f\ t \mid \delta t)$ by definition, and therefore $F\ b \cdot F\ a = \int_{t = a}^{t = b} f\ t \mid \delta t$.
+> let $F\ x = \int f\ t \mid \delta t\ \ \vdots\ \ x \cdot a$. from the first part of the theorem, we get $\delta\ F\ x - \delta x = f\ x$, meaning $F\ x : c$ with $\mathbb R c$ is the set of all [[antiderivative]]s of $f\ x$ by definition. then, $(F\ b : c) \cdot (F\ a : c) = F\ b \cdot F\ a = (\int f\ t \mid \delta t\ \ \vdots\ \ b \cdot a) \cdot (\int f\ t \mid \delta t\ \ \vdots\ \ a \cdot a)$ by definition, and therefore $F\ b \cdot F\ a = \int f\ t \mid \delta t\ \ \vdots\ \ b \cdot a$.
 >
 > &mdash; <https://youtu.be/HfACrKJ_Y2w?t=41225>
 

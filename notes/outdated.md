@@ -8,6 +8,8 @@
 
 [[the worst programming language ever]]
 
+[[random math notation formulas]]
+
 #todo
 
 [[stoichiometry]], [[thermochemistry]], [[effusion]], [[reaction rate]], [[reaction mechanism]], [[polyatomic cation]], [[polyatomic anion]]
