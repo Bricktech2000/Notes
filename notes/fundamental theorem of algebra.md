@@ -7,7 +7,7 @@ see [[math notation]], [[complex]], [[factor]], [[quadratic formula]]
 > the following are equivalent:
 >
 > - every single-variable [[polynomial]] with [[complex]] coefficients has at least one [[complex]] root
-> - the [[number-field]] of [[complex]] numbers is _algebraically closed_
+> - the [[number field]] of [[complex]] numbers is _algebraically closed_
 > - every single-variable [[polynomial]] of degree $n$ with [[complex]] coefficients has exactly $n$ [[complex]] roots (counted with [[multiplicity]])
 >
 > &mdash; <https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra>

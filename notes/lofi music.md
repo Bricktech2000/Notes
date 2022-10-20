@@ -17,4 +17,4 @@ because of its properties, [[lofi music]] can help its listeners [[focus]] bette
 - it can block out distracting environmental noises when absolute silence is not a possibility
 - it can act as a stimulant; it is refreshing and fresh, but slow and repetitive enough to become subconsciously predictable
 - the dampened frequency range and environmental noise push it to the background and draws attention away from the music itself
-- listening to it regularly could result in long-term [[focus]] improvements from [[environmental dependency of learning]] &mdash; me
+- listening to it regularly could result in long-term [[focus]] improvements from [[environmental dependency of learning]] &mdash; me and <https://youtu.be/LE8mNTJOYmQ?t=285>

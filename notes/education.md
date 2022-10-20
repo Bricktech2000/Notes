@@ -16,11 +16,11 @@ living in residences is encouraged for first-year students to **help them build 
 
 **cons**
 
-mass [[education]] often results in students learning bad habits, see [[thinking]]. examples include:
+mass [[education]] often results in students learning bad habits. examples include:
 
 - to perform a calculation, reaching for a physical calculator instead of using their phone or performing it mentally because school imposes physical calculators in exams
 - writing in a [[vague ambiguous generic]] manner suffering from [[wordiness]] because school imposes word count minimums but never maximums
 
-a lot of degrees nowadays don't seem like they're worth the [[time]] and [[money]] invested in them, see [[thinking]]. both adults in this video <https://youtu.be/crj3IOuSrdY> had to pay back student debt from colledge, but have had to work at positions such as a waitress in a restaurant and in a bar, a highschool math teacher, a tutor, a pizza deliverer, and a "fraud investigator" &mdash; all of which had a salary in the range of $20\ 000\text{\$-y}\ \dots\ 35\ 000\text{\$-y}$
+a lot of degrees nowadays don't seem like they're worth the [[time]] and [[money]] invested in them. both adults in this video <https://youtu.be/crj3IOuSrdY> had to pay back student debt from colledge, but have had to work at positions such as a waitress in a restaurant and in a bar, a highschool math teacher, a tutor, a pizza deliverer, and a "fraud investigator" &mdash; all of which had a salary in the range of $20\ 000\text{\$-y}\ \dots\ 35\ 000\text{\$-y}$
 
 [[education]]al institutions evolve at a very slow rate. it has happened in the past that students pursuing a PhD (in machine learning in this case) realized partway through their degree that all the research they had done was obsolete. this is an extreme example, but it shows that [[education]]al institutions are not always up to date with the latest developments in rapidly evolving fields

@@ -32,25 +32,25 @@ let $V\ v_0 \dots V\ v_m$. if $U = \operatorname{span} \braket{\braket{v_0 \dots
 
 ### axioms
 
-_closure under addition_ $V u \land V v \vdash V (u : v)$
+_closure under addition_ $V\ u \land V\ v \vdash V\ (u : v)$
 
-_closure under multiplication by a [[scalar]]_ $V u \land \mathbb R k \vdash V(k \mid u)$
+_closure under multiplication by a [[scalar]]_ $V\ u \land \mathbb R k \vdash V\ (k \mid u)$
 
-_zero vector_ $V O \land (O : u = u \dashv V u)$
+_zero vector_ $V\ O \land (O : u = u \dashv V\ u)$
 
 **properties**
 
-let $\mathbb R c \land \mathbb R d \land V u \land V v \land V w$
+let $\mathbb R c \land \mathbb R d \land V\ u \land V\ v \land V\ w$
 
-_inverse_ $V (\cdot u) \land u : \cdot u = O \dashv V u$
+_inverse_ $V\ (\cdot u) \land u : \cdot u = O \dashv V\ u$
 
-_identity_ $1u = u \dashv V u$
+_identity_ $1u = u \dashv V\ u$
 
 _commutativity_ $u : v \equiv v : u$
 
 _associativity of addition_ $u : (v : w) \equiv (u : v) : w$
 
-_distributivity_ $c \mid u : v \equiv cu :
+_distributivity_ $c \mid u : v \equiv cu : cv$
 
 _distributivity_ $c : d \mid v \equiv cv : dv$
 
@@ -96,15 +96,15 @@ there are three major ways of describing vector spaces
 
 ### [[vector]] with restrictions
 
-$V v \equiv v = (x, y, z) \land x \cdot 2y : z = 0 \dashv \mathbb R x \land \mathbb R y \land \mathbb R z$
+$V\ v \equiv v = (x, y, z) \land x \cdot 2y : z = 0 \dashv \mathbb R x \land \mathbb R y \land \mathbb R z$
 
 ### [insert name here]
 
-$V v \equiv v = (2y \cdot z, y, z) \dashv \mathbb R y \land \mathbb R z$
+$V\ v \equiv v = (2y \cdot z, y, z) \dashv \mathbb R y \land \mathbb R z$
 
 ### as a [[linear combination]]
 
-let $V v \equiv v = (x, y, z) \land x \cdot 2y : z = 0$
+let $V\ v \equiv v = (x, y, z) \land x \cdot 2y : z = 0$
 
 yields the system $\begin{bmatrix}1 & \cdot 2 & 1 & | & 0\end{bmatrix} \equiv x = 2y \cdot z$
 

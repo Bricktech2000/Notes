@@ -2,7 +2,7 @@
 
 _the Why-How-What organization system_
 
-[[why-how-what]] is a universal organization system taylored to the way I work. in a [[tree]] directory structure, items are sorted in the `Why -> How -> What` pattern, where _Why, How, What_ represent directory names and `->` represent [[tree]] parent-to-child relationships. in a tag-based system, every item is given a _Why_ and most items are given a _How_. in a single-level [[list]]-like structure (such as the one below), items are duplicated in both a _Why_ [[list]] and a _How_ [[lit]]. in a [[set]]-like structure where there exist no structure between items, item names are preceeded by an identifier constructed from the first letter of every tag it would be given in a tag-based system.
+[[why-how-what]] is a universal organization system taylored to the way I work. in a [[tree]] directory structure, items are sorted in the `Why -> How -> What` pattern, where _Why, How, What_ represent directory names and `->` represent [[tree]] parent-to-child relationships. in a tag-based system, every item is given a _Why_ and most items are given a _How_. in a single-level [[list]]-like structure (such as the one below), items are duplicated in both a _Why_ [[list]] and a _How_ [[list]]. in a [[set]]-like structure where there exist no structure between items, item names are preceeded by an identifier constructed from the first letter of every tag it would be given in a tag-based system.
 
 ## Why
 
