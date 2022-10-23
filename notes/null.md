@@ -1,9 +1,11 @@
 # Null
 
-> **AKA** the billion dollar mistake &mdash; Tony Hoare
+> **AKA** the billion-dollar mistake &mdash; Tony Hoare
 >
 > &mdash; <https://youtu.be/vcFBwt1nu2U?t=1069>
 >
 > &mdash; <https://youtu.be/qC_ioJQpv4E?t=1372>
 >
 > &mdash; <https://youtu.be/sbVxq7nNtgo?t=542>
+>
+> &mdash; <https://youtu.be/f82wn-1DPas?t=30>

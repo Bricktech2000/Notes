@@ -1,6 +1,6 @@
 # Memory
 
-see [[learning]]
+**see** [[learning]]
 
 interesting view on memory &mdash; <https://youtu.be/VQKt58kuEnk>
 

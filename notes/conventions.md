@@ -50,6 +50,7 @@ the following headings are used inline:
 - **cons**
 - **pros & cons**
 - **representation**
+- **examples**
 
 **examples** (#todo rename, should represent "children" and not examples)
 

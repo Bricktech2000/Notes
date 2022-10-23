@@ -20,6 +20,8 @@
 
 [[religion]]
 
+[[addiction]]
+
 [[cognitive bias]], [[material distortion]]
 
 [[mental illness]]
@@ -30,6 +32,6 @@
 
 [[environmental dependency of learning]], [[lofi music]], [[cue]]
 
-[[learning]]
+[[learning]], [[active recall]], [[spaced repetition]], [[interleaving]]
 
-[[addiction]]
+[[hypnosis]]

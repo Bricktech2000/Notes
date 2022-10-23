@@ -702,3 +702,15 @@ concerns:
 - rejection of the state of the art
 - worried about reinventing the wheel
 - motivation for tedious tasks
+
+---
+
+let $a = (a^0, 13 - 5, 79 - 25, 367 - 125, 1891 - 625, 9343 - 3125, 46939 - 12625, \dots)$
+
+then, $a^n = [\cdot 2]n : 3[5]n - [5]n$
+
+---
+
+$\land \lor \lnot$
+
+you've probably seen how in some classes we do boolean algebra with `+ - '` and in others we do boolean algebra with `∧ ∨ ¬`

@@ -29,3 +29,6 @@ because of [[system over goal]], tracking something is often better than trying 
 > - [[goal]]s can create an _either-or_ conflict: either you achieve the goal or you don't, even if you were making progress in the right direction
 >
 > &mdash; <https://youtu.be/PZ7lDrwYdZc?t=215>
+
+
+> **example** _someone favoring [[system over goal]]s_ &mdash; <https://youtu.be/ombpvrlglfU>

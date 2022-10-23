@@ -8,6 +8,8 @@
 
 _excessive fear and dread_
 
+see [[anxiety]]
+
 - phobias
 
 ## Mood Disorders

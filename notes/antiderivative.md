@@ -63,7 +63,7 @@ $\int v \delta u = v u \cdot \int u \delta v$
 >
 > $\delta\ (f\ x \mid g\ x) - \delta x = (f\ x \mid \delta\ g\ x - \delta x) : (g\ x \mid \delta\ f\ x - \delta x)$, see [[derivative rules]]
 >
-> integrating both sides and simplifying, $f\ x \mid g\ x = (\int f\ x \mid \delta\ g\ x) : (\int g\ x \mid \delta\ f\ x)$
+> integrating both sides with respect to $x$ and simplifying, $f\ x \mid g\ x = (\int f\ x \mid \delta\ g\ x) : (\int g\ x \mid \delta\ f\ x)$
 >
 > rearranging, we get the original equation
 >

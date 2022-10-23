@@ -7,7 +7,7 @@ used for events that generally happen within a single day (friend meetups, class
 > **filter**
 >
 > - _where_
->   - _where_ Status is not Completed
+>   - _where_ Status is not Completed, Archive, Revisit
 >   - _and_ Date is not empty
 > - _and_
 >   - _where_ END_DATE is within the next week
@@ -34,7 +34,7 @@ used for long-term events (assignments, reports, deadlines, etc.). allows me to 
 > **filter**
 >
 > - _where_
->   - _where_ Status is not Completed
+>   - _where_ Status is not Completed, Archive, Revisit
 >   - _and_ Date is not empty
 > - _and_
 >   - _where_ Repeat is empty
@@ -108,16 +108,23 @@ page load limit: 100
 
 > **type** Multiselect
 
-- Social (blue)
-- Personal (blue)
-- Learning (orange)
-- Hobbies (orange)
-- Work (green)
-- House (green)
-- School (green)
-- Productivity (yellow)
-- Organization (yellow)
-- **all classes**
+- Body (brown)
+- Intel (purple)
+- Zlich (dark gray)
+- Learn (orange)
+- Finance (green)
+- Network (blue)
+- Standard (pink)
+- Optimize (yellow)
+- Reproduce (red)
+- Hack (dark gray)
+- Write (dark gray)
+- Think (dark gray)
+- Other (dark gray)
+- Social (dark gray)
+- Design (dark gray)
+- Program (dark gray)
+- Research (dark gray)
 - LEC &mdash; lectures
 - LAB &mdash; laboratory
 - DGD &mdash; discussion group
@@ -169,12 +176,12 @@ page load limit: 100
 > **type** Formula
 
 ```jsx
-if (not empty(abs(prop("Repeat"))),
+if (not empty(prop("ABS_REPEAT")),
   fromTimestamp(
     (
-      timestamp(start(prop("Date"))) % (1000*60*60*24*abs(prop("Repeat"))) - timestamp(now()) % (1000*60*60*24*abs(prop("Repeat")))
-      + 1000*60*60*24*abs(prop("Repeat")) + (1000*60*60*24*abs(prop("Repeat"))/7)
-    ) % (1000*60*60*24*abs(prop("Repeat"))) - 1000*60*60*24*abs(prop("Repeat"))/7
+      timestamp(start(prop("Date"))) % (1000*60*60*24*prop("ABS_REPEAT")) - timestamp(now()) % (1000*60*60*24*prop("ABS_REPEAT"))
+      + 1000*60*60*24*prop("ABS_REPEAT") + (1000*60*60*24*prop("ABS_REPEAT")/7)
+    ) % (1000*60*60*24*prop("ABS_REPEAT")) - 1000*60*60*24*prop("ABS_REPEAT")/7
     + timestamp(now())
   ),
   if (prop("Status") == "Revisit",
@@ -192,12 +199,12 @@ if (not empty(abs(prop("Repeat"))),
 > **type** Formula
 
 ```jsx
-if (not empty(abs(prop("Repeat"))),
+if (not empty(prop("ABS_REPEAT")),
   fromTimestamp(
     (
-      timestamp(end(prop("Date"))) % (1000*60*60*24*abs(prop("Repeat"))) - timestamp(now()) % (1000*60*60*24*abs(prop("Repeat")))
-      + 1000*60*60*24*abs(prop("Repeat")) + (1000*60*60*24*abs(prop("Repeat"))/7)
-    ) % (1000*60*60*24*abs(prop("Repeat"))) - 1000*60*60*24*abs(prop("Repeat"))/7
+      timestamp(end(prop("Date"))) % (1000*60*60*24*prop("ABS_REPEAT")) - timestamp(now()) % (1000*60*60*24*prop("ABS_REPEAT"))
+      + 1000*60*60*24*prop("ABS_REPEAT") + (1000*60*60*24*prop("ABS_REPEAT")/7)
+    ) % (1000*60*60*24*prop("ABS_REPEAT")) - 1000*60*60*24*prop("ABS_REPEAT")/7
     + timestamp(now())
   ),
   if (prop("Status") == "Revisit",
@@ -231,4 +238,12 @@ $$
   timestamp(prop('END_DATE')) +
   1000) /
   (timestamp(prop('END_DATE')) - timestamp(prop('START_DATE')) + 1000);
+```
+
+### ABS_REPEAT
+
+> **type** Formula
+
+```jsx
+abs(prop('Repeat'));
 ```
