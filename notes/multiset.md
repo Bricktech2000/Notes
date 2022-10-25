@@ -31,8 +31,6 @@ $M\ e$, where
 
 **see** [[cartesian product]]
 
-## Multiset Union and Intersection
-
 **definition** _multiset union_ $M \lor N \equiv x \rightarrow \max\ (M\ x)\ (N\ x)$
 
 **definition** _multiset intersection_ $M \land N \equiv x \rightarrow \min\ (M\ x)\ (N\ x)$
@@ -49,15 +47,25 @@ $M\ e$, where
 
 **notation**
 
-$\#\ M$
+$M : \dots$
 
 **definition** the _cardinality_ of a [[multiset]] is the sum of the multiplicities of the elements in the [[multiset]]
 
-> **example** $\#\ ((1, 2, 2, 2, 3, 3)) = 1 : 3 : 2 = 6$
+> **example** $((1, 2, 2, 2, 3, 3)) : \dots = 1 : 3 : 2 = 6$
 
 **properties**
 
-$\#\ (M \lor N) : \#\ (M \land N) = \#\ (M : N)$
+$((M \lor N) : \dots)\ :\ ((M \land N) : \dots) = (M : N) : \dots$
+
+## Multiset Element Count
+
+**notation**
+
+$\#\ M$
+
+**definition** the _element count_ of a [[multiset]] is the number of unique elements in the [[multiset]]
+
+> **example** $\#\ ((1, 2, 2, 2, 3, 3)) = \#\ \braket{\braket{1, 2, 3}} = 3$
 
 ## Multiset Arrangement
 

@@ -24,21 +24,15 @@ see [[vector]], [[vector in rn]], [[matrix]], [[math notation]], [[basis]]
 > - $(V v \equiv v^i = 0 \dashv \mathbb N i \land i \le n) \vdash \mathbb R^n \dashv \mathbb N n$ ($(0, 0 \dots 0)$ is a subspace of $\mathbb R^n$)
 > - $(\mathbb R^n \not\vdash \mathbb R^m) \dashv n \le m \dashv \mathbb N n \land \mathbb N m$ ($\mathbb R^{n \cdot x}$ is not a subspace of $\mathbb R^n$, as vectors in $\mathbb R^{n \cdot x}$ are not really comparable to vectors in $\mathbb R^n$)
 
-## [[axiom]]s of Vector Spaces
+**definition**
 
-let the [[vector space]] be the [[set]] of [[vector]]s $V$. all of the following [[axiom]]s must be defined and all the following properties must hold for $V$ to be a [[vector space]]. if a vector space is a sub[[set]] of a known vector space (a _vector subspace_), then all properties are inherited
-
-let $V\ v_0 \dots V\ v_m$. if $U = \operatorname{span} \braket{\braket{v_0 \dots v_m}}$, then $U$ is a subspace of $V$ ($U \vdash V$), see [[span]]
-
-### axioms
+let a [[vector space]] $V$ be a [[set]] of [[vector]]s. all of the following [[axiom]]s must be satisfied for $V$ to be a [[vector space]]:
 
 _closure under addition_ $V\ u \land V\ v \vdash V\ (u : v)$
 
 _closure under multiplication by a [[scalar]]_ $V\ u \land \mathbb R k \vdash V\ (k \mid u)$
 
 _zero vector_ $V\ O \land (O : u = u \dashv V\ u)$
-
-**properties**
 
 let $\mathbb R c \land \mathbb R d \land V\ u \land V\ v \land V\ w$
 
@@ -57,6 +51,18 @@ _distributivity_ $c : d \mid v \equiv cv : dv$
 _associativity of multiplication_ $k \mid du \equiv kd \mid u$
 
 [[vector space proof examples]]
+
+## Vector Subspace
+
+**definition**
+
+$U$ is a _subspace_ of $V$ if and only if $U \vdash V$ and $U$ is a [[vector space]]
+
+> **note** if $U \vdash V$, many properties of $U$ are inherited from $V$ and therefore the only [[axiom]]s that need be rechecked are _closure under addition_, _closure under multiplication by a [[scalar]]_, and the _zero vector_
+
+**propreties**
+
+let $V\ \braket{\braket{v_0 \dots v_m}}$. if $U = \operatorname{span} \braket{\braket{v_0 \dots v_m}}$, then $U \vdash V$, see [[span]]
 
 #todo put all pages with #example tag in an `> **example**` block
 

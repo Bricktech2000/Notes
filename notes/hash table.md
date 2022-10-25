@@ -22,7 +22,7 @@ time [[computational complexity]]:
 
 ## Hash Table Operations (Separate Chaining)
 
-let a [[list]] of $n$ buckets (such as a [[list]], a [[tree]], a [[set]], etc.) be used to store keys and values
+let a [[list]] of **$n$ buckets** (such as a [[list]], a [[tree]], a [[set]], etc.) be used to store keys and values
 
 > **procedure** _computing the [[hash]] of a key_
 >
@@ -60,7 +60,9 @@ let a [[list]] of $n$ buckets (such as a [[list]], a [[tree]], a [[set]], etc.) 
 
 let a [[list]] of $n$ elements be used to store keys and values
 
-let a [[probing]] [[function]] $P$ be used to find the next bucket to probe. typically, $P$ has a cycle length of $n$.
+let a [[probing]] [[function]] $P$ be used to find the next element to probe. typically, $P$ has a cycle length of $n$.
+
+**definition** a _tombstone_ is a unique marker used to indicate that a key has been removed from a [[hash table]].
 
 > **procedure** _computing the [[hash]] of a key_
 >
@@ -72,24 +74,22 @@ let a [[probing]] [[function]] $P$ be used to find the next bucket to probe. typ
 >
 > given the current probing sequence value $i$ and a key $k$:
 >
-> 1. return $k : P\ i\ k \bmod n$
+> 1. return $H\ k : P\ i\ k \bmod n$
 
 > **procedure** _inserting into a hash table_
 >
 > given a key $k$ and a value $v$,
 >
 > 1. _compute_ the [[hash]] $h$ of $k$
-> 2. if index $h$ of the [[list]] is empty, insert (or update) $k, v$ into index $h$ of the [[list]]. otherwise, set $h$ to the next value in its _probing sequence_ and repeat this step
+> 2. if index $h$ of the [[list]] is empty or is a _tombstone_, insert (or update) $k, v$ into index $h$ of the [[list]]. otherwise, set $h$ to the next value in its _probing sequence_ and repeat this step
 > 3. _resize_ the [[hash table]]
 
 > **procedure** _removing from a hash table_
 >
-> #todo this procedure is invalid when removing a key that previously caused a collision
->
 > given a key $k$,
 >
 > 1. _compute_ the [[hash]] $h$ of $k$
-> 2. if index $h$ of the [[list]] contains $k$, remove $k, v$ from index $h$ of the [[list]]. otherwise, set $h$ to the next value in its _probing sequence_ and repeat this step
+> 2. if index $h$ of the [[list]] contains $k$, remove $k, v$ from index $h$ of the [[list]] by replacing it with a _tombstone_. otherwise, set $h$ to the next value in its _probing sequence_ and repeat this step
 > 3. _resize_ the [[hash table]]
 
 > **procedure** _looking up a value in a hash table_
@@ -97,5 +97,7 @@ let a [[probing]] [[function]] $P$ be used to find the next bucket to probe. typ
 > given a key $k$,
 >
 > 1. _compute_ the [[hash]] $h$ of $k$
-> 2. if index $h$ of the [[list]] contains $k$, return the value associated with $k$. otherwise, set $h$ to the next value in its _probing sequence_ and repeat this step
+> 2. if index $h$ of the [[list]] contains $k$, return the value associated with $k$. if index $h$ of the [[list]] is empty, the element is not present in the [[hash table]], break. otherwise, set $h$ to the next value in its _probing sequence_ and repeat this step
 > 3. _resize_ the [[hash table]]
+>
+> > **note** if _tomstones_ are encountered during the search, key $k$ can be moved to the first _tombstone_ encountered for faster future lookups. this technique is called _lazy deletion_ or _lazy relocation_

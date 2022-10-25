@@ -61,6 +61,8 @@ _what_ represents the item itself
 
 [[mental illness]]
 
+[[hypnosis]]
+
 **zilch**
 
 [[people are shaped by their surroundings]]
@@ -400,3 +402,5 @@ _what_ represents the item itself
 [[rank polymorphism]]
 
 [[nervous system]]
+
+[[hypnosis]]

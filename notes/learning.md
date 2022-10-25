@@ -4,7 +4,7 @@ _how things learn_
 
 **see** [[memory]], [[neural network]] [[backpropagation]]
 
-**see** [[active recall]], [[spaced repetition]], [[interleaving]]
+**see** _learning techniques_ [[active recall]], [[spaced repetition]], [[interleaving]]
 
 &mdash; <https://youtu.be/5eW6Eagr9XA>
 

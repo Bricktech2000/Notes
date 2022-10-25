@@ -6,15 +6,15 @@ see [[stack]], [[set]]
 
 ```python
 def depth_first_search(start):
-    stack = [start]
-    visited = set()
+  stack = [start]
+  visited = set()
 
-    while stack:
-        node = stack.pop(0)
+  while stack:
+    node = stack.pop(0)
 
-        for neighbor in node.neighbors:
-            if neighbor not in visited:
-                queue.append(neighbor)
-                visited.add(neighbor)
-                yield neighbor
+    for neighbor in node.neighbors:
+      if neighbor not in visited:
+        queue.append(neighbor)
+        visited.add(neighbor)
+        yield neighbor
 ```

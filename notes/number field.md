@@ -11,6 +11,7 @@ loosely speaking, a number field a [[set]] of numbers with certain properties an
 > - the [[set]] of [[real]] numbers
 > - the [[set]] of [[complex]] numbers
 > - the [[set]] of [[integer]]s modulo a prime [[number]]
+> - the [[p-adic]] numbers
 
 **applications**
 

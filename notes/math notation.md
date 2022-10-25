@@ -122,21 +122,21 @@ let:
 
 _in order of high to low precedence_
 
-| operator                                | associativity | unary identity | unary description     |
-| --------------------------------------- | ------------- | -------------- | --------------------- |
-| $()\ \braket{}\ \Big[\Big]\ \ x\ x_a^i$ |               |                |                       |
-| $[]\ \lfloor\rfloor\ \lceil\rceil$      |               |                |                       |
-| $\shortmid \text-$                      | left          | $1$            | inverse               |
-| $\delta\ \sin\ \#\ \smash\leftarrow$    | right-ish     |                |                       |
-| $\ :\ \cdot\ \because\ \ \therefore$    | left          | $0$            | negation              |
-| $\mid -$                                | left          | $1$            | inverse               |
-| $\int \lim\ \dots\ \rightarrow\ \bmod$  | right         |                |                       |
-| $=\ne > \ge < \le$                      | AND           | $0$            | is (not) $0$          |
-| $/$                                     | left          | $\top$         | [[boolean logic]] NOT |
-| $\land\ \lor$                           | left          |                |                       |
-| $\dashv\ \vdash$                        | left          |                |                       |
-| $\equiv \times$                         | AND           | $\top$         | [[boolean logic]] NOT |
-| $,\ \vdots$                             |               |                |                       |
+| operator                                      | associativity | unary identity | unary description     |
+| --------------------------------------------- | ------------- | -------------- | --------------------- |
+| $()\ \braket{}\ \Big[\Big]\ \ x\ x_a^i$       |               |                |                       |
+| $[]\ \lfloor\rfloor\ \lceil\rceil$            |               |                |                       |
+| $\shortmid \text-$                            | left          | $1$            | inverse               |
+| $\delta\ \sin\ \#\ \smash\leftarrow$          | right-ish     |                |                       |
+| $\ :\ \cdot\ \because\ \ \therefore$          | left          | $0$            | negation              |
+| $\mid -$                                      | left          | $1$            | inverse               |
+| $\int\ \ \vdots\ \ \dots\ \rightarrow\ \bmod$ | right         |                |                       |
+| $=\ne > \ge < \le$                            | AND           | $0$            | is (not) $0$          |
+| $/$                                           | left          | $\top$         | [[boolean logic]] NOT |
+| $\land\ \lor$                                 | left          |                |                       |
+| $\dashv\ \vdash$                              | left          |                |                       |
+| $\equiv \times$                               | AND           | $\top$         | [[boolean logic]] NOT |
+| $,$                                           |               |                |                       |
 
 > **note**: above,
 >
@@ -145,7 +145,6 @@ _in order of high to low precedence_
 > - $\leftarrow$ represents [[function]] application
 > - $\rightarrow$ represents [[function]] literals
 > - $\Big[\Big]$ represents [[matrix]] literals
-> - $\lim$ represents [[limit]]s $E\ \ \vdots\ \ x \rightarrow a$
 
 > **note**: unary [[operator]]s have identical precedence to their binary counterparts, but are right associative
 

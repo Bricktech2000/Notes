@@ -9,6 +9,7 @@ _[[set]]s of [[number]]s_
 - [[universal]]
   - [[boolean]]
   - $\dots$
+  - [[p-adic]]s
   - [[complex]]
     - [[imaginary]]
     - [[real]]

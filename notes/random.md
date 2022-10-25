@@ -714,3 +714,7 @@ then, $a^n = [\cdot 2]n : 3[5]n - [5]n$
 $\land \lor \lnot$
 
 you've probably seen how in some classes we do boolean algebra with `+ - '` and in others we do boolean algebra with `∧ ∨ ¬`
+
+---
+
+$M \rightarrow \#\ M = \#\ M^\intercal \land \det M \ne 0$

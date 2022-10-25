@@ -10,4 +10,4 @@ there appears to be a standard way to build [[number]] systems. [[group theory]]
 > - [[complex]] numbers $\mathbb C$
 > - hamiltonians
 > - finite fields
-> - $p$-adic numbers
+> - [[p-adic]] numbers

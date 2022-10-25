@@ -1,5 +1,7 @@
 # Binary Search Tree
 
+**see** [[tree]], binary [[tree]], binary [[tree]] traversal
+
 **definition** a _binary search tree_ is a [[tree]] that supports the [[binary search tree]] invariant
 
 time [[computational complexity]]:
@@ -33,7 +35,7 @@ time [[computational complexity]]:
 > given a [[tree]] root node $n$ and a value $v$ to be removed,
 >
 > 1. _find_ the node with value $v$ in the [[tree]] $n$
-> 2. replace value of the node with value $v$ with the value of its _successor_ if it exists
+> 2. replace the value of the node with value $v$ with the value of its _successor_ if it exists
 > 3. _remove_ the successor node if it exists (recursively if desired)
 
 > **procedure** _finding the successor of a node in a [[binary search tree]]_

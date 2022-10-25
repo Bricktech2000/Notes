@@ -37,3 +37,51 @@ binary [[tree]]s can be implemented using a dynamic [[array]], where a node at i
 used in the implementation of binary [[heap]]s
 
 used in the implementation of [[abstract syntax tree]]s
+
+### Binary Tree Traversal
+
+&mdash; <https://youtu.be/RBSGKlAvoiM?t=12886>
+
+**see** [[depth-first search]], [[breadth-first search]]
+
+**representation** _pre-order traversal_
+
+print values before recursive calls
+
+```python
+def preorder(node):
+  if node is None: return
+  print(node.value)
+  preorder(node.left)
+  preorder(node.right)
+```
+
+**representation** _in-order traversal_
+
+print values between recursive calls
+
+```python
+def inorder(node):
+  if node is None: return
+  inorder(node.left)
+  print(node.value)
+  inorder(node.right)
+```
+
+**representation** _post-order traversal_
+
+print values after recursive calls
+
+```python
+def postorder(node):
+  if node is None: return
+  postorder(node.left)
+  postorder(node.right)
+  print(node.value)
+```
+
+**representation** _level-order traversal_
+
+print values one level at a time
+
+see [[breadth-first search]]

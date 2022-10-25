@@ -1,6 +1,6 @@
 # Minimalism
 
-_mindfulness, intentionality, and the pursuit of value_
+_mindfulness, [[intentional]]ity, and the pursuit of value_
 
 most people chase a minimalist lifestyle. I just realized [[minimalism]] isn't an [[aspiration]] of mine; it is my diagnosis
 
@@ -8,7 +8,7 @@ similarly to the [[encapsulation]] of mutability in [[functional programming]], 
 
 > [containers] create a barrier that can stop clutter from spreading to other areas and corrals it to a single location &mdash; <https://youtu.be/rUnpOplJulM?t=408>
 
-quality is very important to me, see [[price-value sigmoid]]. most of my purchases are intentional, have a clear use and are meant to last a long time. cheap low-quality purchases feel like such a waste in my eyes
+quality is very important to me, see [[price-value sigmoid]]. most of my purchases are [[intentional]], have a clear use and are meant to last a long time. cheap low-quality purchases feel like such a waste in my eyes
 
 > **examples** _cheap low-quality purchases_ low-quality clothes (fast fashion), takeout food, cheap electronics and tools, and so on
 

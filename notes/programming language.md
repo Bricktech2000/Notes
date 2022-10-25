@@ -14,9 +14,11 @@ used for backlinks
 
 [[parser]]
 
+[[type]]
+
 ## Building a Language
 
-see [[backus-naur form]], [[abstract syntax tree]], [[parser]]
+**see** [[backus-naur form]], [[abstract syntax tree]], [[parser]]
 
 **representation**
 

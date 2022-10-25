@@ -4,7 +4,9 @@ _a [[set]] with extra structure_
 
 &mdash; <https://youtu.be/KufsL2VgELo>
 
-> a [[group]] is a [[monoid]] that also has an inverse &mdash; <https://youtu.be/p54Hd7AmVFU?t=1807>
+&mdash; <https://youtu.be/mvmuCPvRoWQ>
+
+> a [[group]] is a [[monoid]] where every element also has an inverse &mdash; <https://youtu.be/p54Hd7AmVFU?t=1807>
 
 **definition** a [[group]] is a finite or infinite [[set]] of invertible elements equipped with a closed associative binary operation and an identity element. &mdash; Wikipedia and me
 
@@ -59,11 +61,10 @@ $\cdot \smash\cdot a = a$
 > **example** the following mathematical objects and binary [[operator]]s are examples of [[group]]s:
 >
 > - [[integer]]s and addition
-> - [[real]]s excluding $0$ and multiplication
+> - [[rational]]s excluding $0$ and multiplication
 > - [[integer]]s modulo $n$ and addition
+> - invertible square [[matrix]]es and [[matrix]] multiplication
 
 ## Subgroup
 
-#todo add subheading _subspace_ to [[vector space]]
-
-**theorem** _Lagrange's Theorem_ let $G$ be a [[group]] and $H$ be a sub[[group]] of $G$. then, $\psi\ \#\ H \le \psi\ \#\ G$, see [[psi function in mat2348]]
+**theorem** _Lagrange's Theorem_ let $G$ be a [[group]] and $H$ be a sub[[group]] of $G$. then, $\psi\ \#\ H \le \psi\ \#\ G$ or equivanently $\psi\ \#\ \ \vdots\ \ H \le G$, see [[psi function in mat2348]]
