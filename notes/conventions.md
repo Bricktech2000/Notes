@@ -12,7 +12,7 @@ whitespace in formulas follow programming-language-like conventions
 
 [[international system of units]] units and other units are to be written using `\text{}`
 
-the $\ : $ [[operator]] must always be surrounded one space on either side, or written as the first character of an equation as `$\ : $`
+the $\, : \,$ [[operator]] must always be surrounded one space on either side, or written as the first or last character of an equation as `$\, : \,$`
 
 the $\rightarrow$ [[operator]] is written as `\to` by default, and must be written as `\rightarrow` when it indicates a [[math notation]] [[function]] definition
 
@@ -224,5 +224,3 @@ headings and content can optionally be seperated using an HTML line break, `<br>
 personal comments and notes are to be written between `<?` and `?>` tags, and not between `<!--` and `-->` tags
 
 level-3 headings are not used as they look too similar to level-2 headings on Obsidian. there can be multiple level-1 headings in one presentation
-
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js"></script><script>window.MathJax = {tex: {inlineMath: [['$', '$']]}, messageStyle: "none"};</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([a-zA-Z0-9\-]+)\]\]/g, (a, b, c) => `<u>${c.replace(/\-/g, ' ')}</u>`).replace(/#[a-zA-Z0-9\-]+/g, (a) => `<u>${a}</u>`).replace(/!\[\[(.+)\]\]/g, (a, b) => `<img src="${b}" />`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } img { border-radius: 4px; } </style>

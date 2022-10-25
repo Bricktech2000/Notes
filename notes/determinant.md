@@ -20,7 +20,7 @@ $\det cA = c^n \mid \det A$, where $n$ is the width and height of the [[matrix]]
 >
 > _Laplace expansion_
 >
-> note the alternating $\ : $ and $\cdot$ below. the following sign matrix can be used to determine the signs of the cofactors:
+> note the alternating $\, : \,$ and $\cdot$ below. the following sign matrix can be used to determine the signs of the cofactors:
 >
 > $\begin{bmatrix} (:) & (\cdot) & (:) & (\cdot) & \dots \\\ (\cdot) & (:) & (\cdot) & (:) & \dots \\\ (:) & (\cdot) & (:) & (\cdot) & \dots \\\ (\cdot) & (:) & (\cdot) & (:) & \dots \\\ \vdots & \vdots & \vdots & \vdots & \ddots \end{bmatrix}$
 >

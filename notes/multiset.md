@@ -55,7 +55,7 @@ $M : \dots$
 
 **properties**
 
-$((M \lor N) : \dots)\ :\ ((M \land N) : \dots) = (M : N) : \dots$
+$((M \lor N) : \dots)\ : \ ((M \land N) : \dots) = (M : N) : \dots$
 
 ## Multiset Element Count
 

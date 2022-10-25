@@ -28,7 +28,7 @@ _keep as many significant figures after the last significant digit as the lowest
 >
 > $\ \ \ \ \ \ 530$ (2 significant figures)
 >
-> $\ : \ 1140.5$ (5 significant figures, offset)
+> $\, : \ 1140.5$ (5 significant figures, offset)
 >
 > $=1190$ (3 significant figures, trailing digits cut off)
 

@@ -10,7 +10,7 @@ this note describes my custom [[math notation]], meant to solve inconsistencies 
 - [[set]]s are [[function]]s that return a [[boolean]] ([[set]]s are [[predicate]]s). this way, [[boolean logic]] [[operator]]s and [[set]] [[operator]]s are one and the same. other [[data structure]]s that work similarly include [[vector]]s, [[matrix]]es, [[sequence]]s, [[multiset]]s, [[ordered pair]]s...
 - some [[operator]]s are identical but have different precedence as "more brackets means more explicit, but less brackets means less complex and less confusing"
 - $\lfloor a \rfloor$ returns both positive and negative square roots ($\lfloor q2 \rfloor \equiv\ \because q$). the same is true for other reciprocals
-- superscripts are modifiers (subscripts with special meanings). this distinction is especially useful when working with [[forward propagation]] and [[backpropagation]] in [[neural network]]s, for example
+- superscripts are modifiers (subscripts with special meanings). this distinction is extremely useful when working with [[forward propagation]] and [[backpropagation]] in [[neural network]]s, for example
 - [[derivative]]s are not to be written as $y'$, but rather as their complete form $\delta y - \delta x$. this makes [[calculus notation]] way more intuitive
 - all indices start at $0$, as they always should have
 - [[rank polymorphism]] is supported over all [[operator]]s
@@ -32,7 +32,7 @@ let:
 - $A$ be a [[sequence]]
 - $B$ be a [[series]]
 - $a, b$ be any mathematical objects
-- $A, B$ be any mathematical objects with ranks greater than $1$
+- $A, B$ be any mathematical objects with rank greater than $1$
 - $n, i$ be [[natural]] numbers
 - $b$ be a [[boolean]]
 - $\omega$ be any [[number]]
@@ -66,6 +66,8 @@ let:
 | $a_0 \circ a_1 \circ \dots a_n$      | with $n = 3$, $a_0 \circ a_1 \circ a_2 \circ a_3$ | step size is $\because 1$ if $a_1 \circ$ is omitted   |
 | $a_0 \dots a_n$                      | with $n = 3$, $a_0, a_1, a_2, a_3$                | step size is $\because 1$ if $a_1$ is omitted         |
 | $a \circ \dots$                      | the [[reduce function]] of $\circ$ on $a$         |                                                       |
+| $f\ \ \vdots\ \ a \circ\dots b$      | $f\ (a \dots b) \circ\dots$                       |                                                       |
+| $f\ \ \vdots\ \ x \rightarrow a$     | the [[limit]] of $f$ as $x$ approaches $a$        |                                                       |
 | $x_{sub}$                            | the [[variable]] $x$ with a subscript $_{sub}$    |                                                       |
 | $V^n$                                | the $n$ th component of $V$                       |                                                       |
 | $A^i$                                | the $i$ th element of $A$                         |                                                       |
@@ -103,8 +105,6 @@ let:
 | $A \circ B$                                                | $A\ x \circ B\ x$ for all $x$                      | $(\top \dots)$ is treated as $\top$    |
 | $\delta y - \delta x$                                      | the [[derivative]] of $y$ with respect to $x$      | $\delta$ should be used instead of $d$ |
 | $\int y \mid \delta x$                                     | the [[antiderivative]] of $y$ with respect to $x$  | $\delta$ should be used instead of $d$ |
-| $f\ \ \vdots\ \ a \circ\dots b$                            | $f\ (a \dots b) \circ\dots$                        | #todo precedence                       |
-| $f\ \ \vdots\ \ x \rightarrow a$                           | the [[limit]] of $f$ as $x$ approaches $a$         | #todo replace throughout notes         |
 
 ### constants
 
@@ -128,9 +128,9 @@ _in order of high to low precedence_
 | $[]\ \lfloor\rfloor\ \lceil\rceil$            |               |                |                       |
 | $\shortmid \text-$                            | left          | $1$            | inverse               |
 | $\delta\ \sin\ \#\ \smash\leftarrow$          | right-ish     |                |                       |
-| $\ :\ \cdot\ \because\ \ \therefore$          | left          | $0$            | negation              |
+| $\, :\ \cdot\ \because\ \ \therefore$         | left          | $0$            | negation              |
 | $\mid -$                                      | left          | $1$            | inverse               |
-| $\int\ \ \vdots\ \ \dots\ \rightarrow\ \bmod$ | right         |                |                       |
+| $\int\ \ \vdots\ \ \dots\ \rightarrow\ \bmod$ | right-ish     |                |                       |
 | $=\ne > \ge < \le$                            | AND           | $0$            | is (not) $0$          |
 | $/$                                           | left          | $\top$         | [[boolean logic]] NOT |
 | $\land\ \lor$                                 | left          |                |                       |
@@ -148,7 +148,7 @@ _in order of high to low precedence_
 
 > **note**: unary [[operator]]s have identical precedence to their binary counterparts, but are right associative
 
-**definition**: let $\circ$ be an [[operator]] with _AND_ associativity. then, $a \circ b \circ c \circ \dots\ \ \equiv\ \ a \circ b \land b \circ c \land c \circ \dots$
+**definition** let $\circ$ be an [[operator]] with _AND_ associativity. then, $a \circ b \circ c \circ \dots\ \ \equiv\ \ a \circ b \land b \circ c \land c \circ \dots$
 
 ## variable scope
 
@@ -179,5 +179,3 @@ the resonant frequency of an LC circuit in [[conventional math notation]]: $f = 
 compared to in my [[math notation]]: $f = -\tau \lfloor LC \rfloor$
 
 see [[random math notation formulas]] for more examples
-
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js"></script><script>window.MathJax = {tex: {inlineMath: [['$', '$']]}, messageStyle: "none"};</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([a-zA-Z0-9\-]+)\]\]/g, (a, b, c) => `<u>${c.replace(/\-/g, ' ')}</u>`).replace(/#[a-zA-Z0-9\-]+/g, (a) => `<u>${a}</u>`).replace(/!\[\[(.+)\]\]/g, (a, b) => `<img src="${b}" />`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } img { border-radius: 4px; } </style>

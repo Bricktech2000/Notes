@@ -4,7 +4,7 @@ see [[math notation]], [[function]], [[antiderivative]], [[calculus notation]]
 
 > **note**
 >
-> _integrating_ refers to calculating the are under a [[function]], **not** computing the [[antiderivative]] and plugging stuff in. this is why indefinite [[integral]]s must include that $\ : c$ whereas [[antiderivative]]s don't have to.
+> _integrating_ refers to calculating the are under a [[function]], **not** computing the [[antiderivative]] and plugging stuff in. this is why indefinite [[integral]]s must include that $\, : c$ whereas [[antiderivative]]s don't have to.
 >
 > "[[antiderivative]]s can be used to **find** [[area]]s ([[integral]]s) and [[area]]s ([[integral]]s) can be used to **define** [[antiderivative]]s." this is the essence of the [[fundamental theorem of calculus]]
 >

@@ -193,7 +193,7 @@ _in [[conventional math notation]]_ $\backslash$
 
 > **AKA**: disjoint union
 
-**notation** _in my [[math notation]]_ $\ : $
+**notation** _in my [[math notation]]_ $\, : \,$
 
 **representation**
 
