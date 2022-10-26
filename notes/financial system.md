@@ -1,12 +1,12 @@
 # Financial System
 
-_the group of institutions that help to match one’s savings with one’s investments_
+_the group of institutions that help to match one’s savings with one’s [[invest]]ments_
 
-saving and investment are key ingredients to long-term [[economic growth]]
+saving and [[invest]]ment are key ingredients to long-term [[economic growth]]
 
 ## financing capital investments
 
-there are various ways of financing capital investments. for example,
+there are various ways of financing capital [[invest]]ments. for example,
 
 - borrowing the money with interest (from a bank, friend, relative...)
 - selling shares of your future profits to someone
@@ -40,7 +40,7 @@ $Y = C : I : G : NX$ (see [[gross domestic product]])
 
 in a closed [[economy]], $NX = 0$
 
-**definition** _National Savings_ is the total income in the economy that remains after paying for consumption and government purchases. $S = Y \cdot C \cdot G = I$. $S = I$ (savings equal investments) is true as an economy as a whole but not necessarily for individual firms.
+**definition** _National Savings_ is the total income in the economy that remains after paying for consumption and government purchases. $S = Y \cdot C \cdot G = I$. $S = I$ (savings equal [[invest]]ments) is true as an economy as a whole but not necessarily for individual firms.
 
 let $\Tau$ denote the taxes collected by the government minus transfer payments. then,
 

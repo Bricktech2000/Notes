@@ -45,7 +45,7 @@ _zero [[function]]_ $O x = 0 \dashv \mathbb R x$
 
 _[[function]] addition_ $(f : g)\ x = f\ x : g\ x$
 
-_multiplication by a scalar_ $(cf)\ x = c \mid f\ x$
+_multiplication by a [[scalar]]_ $(cf)\ x = c \mid f\ x$
 
 ## Domain, Codomain, Range
 

@@ -20,6 +20,6 @@ see [[linear system]], [[linear equation]], [[matrix]]
 > _make all pivots be a $1$. make all pivot columns contain only zeros (apart from their pivot)_
 >
 > - if the right-most pivot is in the first row, stop
-> - multiply the row containing the right-most pivot by a scalar to make the pivot a $1$
+> - multiply the row containing the right-most pivot by a [[scalar]] to make the pivot a $1$
 > - take this pivot to annihilate all other entries in the column
 > - ignore the row with the right-most pivot and go back to the first step

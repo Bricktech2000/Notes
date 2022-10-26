@@ -44,8 +44,6 @@ below are some useful equivalences.
 
 **pros**
 
-#todo rename all "benefits" to "pros" and all "limits" to "cons"
-
 see [[math notation]]
 
 let $m$ and $n$ be the two numbers representing the [[distance]] between two people in a family.

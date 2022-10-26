@@ -30,7 +30,7 @@ _distributivity over addition_ $a\ \check\mid\ b : c = a \check\shortmid b : a \
 
 _distributivity over addition_ $b : c\ \check\mid\ a = b \check\shortmid a : c \check\shortmid a$
 
-_associativity with scalar multiplication_ $k \mid a \check\shortmid b = ka\ \check\mid\ b = a\ \check\mid\ kb$ (think of this intuitively)
+_associativity with [[scalar]] multiplication_ $k \mid a \check\shortmid b = ka\ \check\mid\ b = a\ \check\mid\ kb$ (think of this intuitively)
 
 **applications**
 

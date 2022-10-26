@@ -4,9 +4,21 @@
 
 **see** [[habit]], [[aspiration]], [[goal]], [[system]]
 
+> "You do not rise to the level of your [[goal]]s. You fall to the level of your [[system]]s." &mdash; <https://youtu.be/zUm3fKk00J8?t=3017>
+
 most of our culture is outcome-oriented instead of process-oriented. focusing on outcomes can lead to feeling [[overwhelm]]ed and can prevent people from even starting the process itself (which could be wrongly rationalized as a lack of [[motivation]] or as [[laziness]]) &mdash; <https://youtu.be/\_ZVGXmafWqY?t=72>
 
 because of [[system over goal]], tracking something is often better than trying to restrict it through willpower &mdash; <https://youtu.be/ewzC_ica4Fw>
+
+**pros** _advantages of [[system over goal]]_
+
+- successful and unsuccessful people share the same [[goal]]s, and therefore [[goal]]s cannot be what differentiates winners from losers
+- achieving a [[goal]] only feels good for that moment in time, but then hinders longer-term progress as [[motivation]] quickly fades afterwards
+- [[goal]]s can create an _either-or_ conflict: either you achieve the goal or you don't, even if you were making progress in the right direction
+
+&mdash; <https://youtu.be/PZ7lDrwYdZc?t=215>
+
+&mdash; <https://youtu.be/zUm3fKk00J8?t=2587>
 
 **examples**
 
@@ -21,14 +33,5 @@ because of [[system over goal]], tracking something is often better than trying 
 > **example** _how "the process" can be very valuable_
 >
 > <https://youtu.be/rzwaaWH0ksk?t=1749> from 29:09 to 31:22
-
-> **proof** _systems are more effective than [[goal]]s_
->
-> - successful and unsuccessful people share the same [[goal]]s, so therefore the goal cannot be what differentiates winners from loosers
-> - achieving a [[goal]] only feels good for that moment in time, but then hinders longer-term progress as your [[motivation]] quickly fades afterwards
-> - [[goal]]s can create an _either-or_ conflict: either you achieve the goal or you don't, even if you were making progress in the right direction
->
-> &mdash; <https://youtu.be/PZ7lDrwYdZc?t=215>
-
 
 > **example** _someone favoring [[system over goal]]s_ &mdash; <https://youtu.be/ombpvrlglfU>

@@ -8,13 +8,15 @@ _meditation with utilization_
 
 [[hypnosis]] can be used to treat certain [[mental illness]]es such as [[anxiety]] and [[depression]]
 
-**example** _experiencing hypnosis_
+**procedures**
 
-<https://youtu.be/8oM34KZ5QVQ>
-
-<https://youtu.be/P1Tf33yqpxk>
-
-> **note** _tricks I used to make this experience successful_
+> **procedure** _experiencing [[hypnosis]]_
+>
+> <https://youtu.be/8oM34KZ5QVQ>
+>
+> <https://youtu.be/P1Tf33yqpxk>
+>
+> [[trick]]s I used to make this experience successful include:
 >
 > - understanding that for [[hypnosis]] to work, the subject must be willing to be hypnotized
 > - eliminating distractions by wearing headphones and sitting comfortably on a couch in a dark and quiet room

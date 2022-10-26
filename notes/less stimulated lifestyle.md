@@ -2,7 +2,6 @@
 
 ## problematic activities
 
-
 - [[social media]] ([[algorithm]]-based feed)
 - [[video game]]s (levels & rankings)
 - Netflix & YouTube
@@ -22,7 +21,7 @@ instant gratification with no effort
 
 the release of [[dopamine]] is your [[brain]] thinking what you are currently doing is beneficial to you, or when it believes you are about to be rewarded for doing something
 
-the [[brain]] can come to associate boredom with stimuli (when most people are bored, they open up [[social media]]). for this reason, most people have a really hard time [[focus]]ing
+the [[brain]] can come to associate boredom with stimuli (when most people are bored, they open up [[social media]]). for this reason, most people have a really [[difficult]] time [[focus]]ing
 
 advantages of boredom: self-insight, decreases [[dopamine]] base level (and others)
 

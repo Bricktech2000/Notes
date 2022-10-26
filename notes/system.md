@@ -1,6 +1,6 @@
 # System
 
-_the process leading to a desired outcome_
+_the process that leads to a desired outcome_
 
 **see** [[system over goal]]
 

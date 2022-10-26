@@ -12,7 +12,7 @@ see [[money]], [[principles of economics]]
 
 > the _reserve ratio_ is the fraction of deposits that [[bank]]s hold as reserves
 
-> _leverage_ is the use of borrowed money to supplement existing funds for purposes of investment #think
+> _leverage_ is the use of borrowed money to supplement existing funds for purposes of [[invest]]ment #think
 
 > _leverage ratio_ is the ratio of assets to [[bank]] capital #think
 

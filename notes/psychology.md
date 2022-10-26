@@ -34,6 +34,6 @@
 
 [[learning]], [[active recall]], [[spaced repetition]], [[interleaving]]
 
-[[minimalism]], [[intentional]], [[difficult]]
+[[minimalism]], [[intention]], [[difficult]], [[invest]]
 
 [[hypnosis]]

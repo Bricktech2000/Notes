@@ -10,8 +10,6 @@ see [[math notation]]
 
 the [[real]] numbers can only have finitely many digits to the left of the decimal point. [[p-adic]] numbers can only have finitely many digits to the right of the decimal point. [[p-adic]] integers are [[p-adic]] numbers with no digits to the right of the decimal point
 
-#todo p-adic definition
-
 **properties**
 
 $\mathbb Q^p \vdash \mathbb U$ for any prime $p$, see [[universal]]

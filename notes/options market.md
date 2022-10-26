@@ -104,7 +104,7 @@ beta, delta, gamma, vega, theta, rho, phi
 
 buying the right to buy a stock
 
-calls are a bullish investment
+calls are a bullish [[invest]]ment
 
 #todo <https://youtu.be/NW5927_LPUs?t=182>
 

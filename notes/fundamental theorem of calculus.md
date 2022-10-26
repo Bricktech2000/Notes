@@ -25,6 +25,4 @@ see [[calculus notation]], [[math notation]]
 >
 > &mdash; <https://youtu.be/HfACrKJ_Y2w?t=41225>
 
-definite [[integral]]s [[math notation]] #todo
-
 > **note** I do not understand why the [[fundamental theorem of calculus]] has to be so complicated. the two properties defined in the note _[[calculus notation]]_ are all that is needed to derive the [[fundamental theorem of calculus]]. see [[integral]] for more details.

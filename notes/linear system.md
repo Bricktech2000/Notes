@@ -42,7 +42,7 @@ _operations that don’t change the general solution of a [[linear system]]_
 
 - adding a multiple of a row to another row
 - swapping the position of two rows
-- multiplying a row by a non-zero scalar
+- multiplying a row by a non-zero [[scalar]]
 
 ## Row Echelon Form
 

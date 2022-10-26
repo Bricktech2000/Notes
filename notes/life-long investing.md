@@ -1,6 +1,6 @@
 # Life-Long Investing
 
-see [[wealth]], [[sunk costs fallacy]]
+see [[wealth]], [[sunk costs fallacy]], [[invest]]
 
 the goal of this note is to study the following strategy:
 
@@ -10,7 +10,7 @@ the goal of this note is to study the following strategy:
 
 - prevents economic crises from affecting one’s net worth
 - takes advantage of compound interest from a young age
-- prevents the situation where it is hard save some of your money because your lifestyle is shaped around spending a certain amount of it. however, implementing this strategy from a young age will mean that you will never know what it's like to have the money you're investing, and so you will not miss it. in theory. see <https://youtu.be/eDa1U9qJKxo> for some more information
+- prevents the situation where it is [[difficult]] saving some of your [[money]] because your lifestyle is shaped around spending a certain amount of it. however, implementing this strategy from a young age will mean that you will never know what it's like to have the money you're investing, and so you will not miss it. in theory. see <https://youtu.be/eDa1U9qJKxo> for some more information
 
 **cons** _possible issues of investing &mdash; with solutions_
 

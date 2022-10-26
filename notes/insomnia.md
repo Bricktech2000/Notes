@@ -6,5 +6,5 @@
 
 - trouble falling asleep
 - trouble staying asleep
-- difficulty waking up
+- [[difficult]]y waking up
 - tired during the day

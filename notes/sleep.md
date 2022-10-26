@@ -84,7 +84,7 @@ use bed for [[sleep]] **only**. no working, no reading and no TV when in bed. ot
 
 naps should be $0 \dots 20$ minutes in length. enough to get into stage-2 [[sleep]], which boosts memory and creativity.
 
-naps longer than $90$ minutes will make it more difficult to fall asleep at night
+naps longer than $90$ minutes will make it more [[difficult]] to fall asleep at night
 
 ## solutions
 

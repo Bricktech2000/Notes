@@ -4,11 +4,9 @@ _the importance of doing [[difficult]] things_
 
 &mdash; me and <https://youtu.be/oYeZ3DGPqAA?t=352>
 
-it seems that things we qualify as _[[difficult]]_ are [[difficult]] because they require us to use our conscious mind to overcome our unconscious mind, often seeking long-term benefits over short-term gratification
+it seems that things we qualify as _[[difficult]]_ are [[difficult]] because they require us to use our conscious mind to overcome our unconscious mind, often seeking long-term [[invest]]ments over short-term gratification
 
-whenever something is [[difficult]], we should ask ourselves _why is this [[difficult]]?_ and _what is the benefit of doing this?_. answering these questions allows us to be [[intentional]] about our direction in life and not be manipulated by the short-term desires of our subconscious, see [[subconscious manipulation]]
-
-#todo backlinks throughout notes: difficult, hard, etc.
+whenever something is [[difficult]], we should ask ourselves _why is this [[difficult]]?_ and _what is the benefit of doing this?_. answering these questions allows us to be [[intention]]al about our direction in life and not be manipulated by the short-term desires of our subconscious, see [[subconscious manipulation]]
 
 > **examples** _difficult things &mdash; with explanations_
 >

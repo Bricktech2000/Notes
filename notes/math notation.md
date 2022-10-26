@@ -122,6 +122,8 @@ let:
 
 _in order of high to low precedence_
 
+#todo fix asymmetry between $=\ne > \ge < \le$ and $\land\ \lor \dashv\ \vdash\ \equiv \times$
+
 | operator                                      | associativity | unary identity | unary description     |
 | --------------------------------------------- | ------------- | -------------- | --------------------- |
 | $()\ \braket{}\ \Big[\Big]\ \ x\ x_a^i$       |               |                |                       |

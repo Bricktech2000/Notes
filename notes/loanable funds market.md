@@ -1,6 +1,6 @@
 # Loanable Funds Market
 
-_the market in which those who want to save supply funds and those who want to borrow to invest request funds_
+_the market in which those who want to save supply funds and those who want to borrow to [[invest]] request funds_
 
 ## Supply and Demand for Loanable Funds
 
@@ -31,6 +31,6 @@ the following can be used as incentives to encourage people to save more
 
 **definition** _Government Debt_ is the sum of past budget deficits and surpluses
 
-**definition** _Crowding Out_ is a decrease in investment that results from government borrowing
+**definition** _Crowding Out_ is a decrease in [[invest]]ment that results from government borrowing
 
 a government budget deficit reduces the supply of loanable funds

@@ -153,6 +153,8 @@ _what_ represents the item itself
 
 [[nervous system]]
 
+[[invest]]
+
 **finance**
 
 [[price-value sigmoid]]
@@ -306,6 +308,8 @@ _what_ represents the item itself
 [[notion time management]]
 
 [[esoteric programming language idea]]
+
+[[invest]]
 
 **other**
 

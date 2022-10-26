@@ -23,10 +23,12 @@ this [[data structure]] can also be represented by a [[stack]], where instead of
 - conversation1
 - conversation1
 
-## benefits
+## pros & cons
+
+**pros**
 
 - when one party gets interrupted by a second party, the first party knows it will be able to wrap up its argument when eventually popping subconversations from the [[data structure]]
 
-## limits
+**cons**
 
 - most people get lost easily when trying to contribute to such a structured conversation

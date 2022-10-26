@@ -8,9 +8,9 @@ growth can be represented by the [[gross domestic product]] per person. often re
 
 policymakers can look at the following factors to grow an [[economy]]
 
-- the importance of saving and investment
+- the importance of saving and [[invest]]ment
 - [[diminishing returns]] and the [[catch-up effect]]
-- handling investments from abroad
+- handling [[invest]]ments from abroad
 - handling [[education]] (price, sending to other countries)
 - health and nutrition
 - property rights and political stability
@@ -20,7 +20,7 @@ policymakers can look at the following factors to grow an [[economy]]
 
 ## saving and investment
 
-governments can saving and investment, leading to a higher standard of living in the future
+governments can saving and [[invest]]ment, leading to a higher standard of living in the future
 
 a well-functioning and carefully regulated financial market is essential for long-term [[economic growth]]
 
@@ -36,17 +36,17 @@ it is easier for a country to grow rapidly initially if it starts out relatively
 
 ## investments from abroad
 
-investments from abroad also lead to new capital
+[[invest]]ments from abroad also lead to new capital
 
-**definition** _Foreign Direct Investment_ is a capital investment that is owned and operated by a foreign entity
+**definition** _Foreign Direct Investment_ is a capital [[invest]]ment that is owned and operated by a foreign entity
 
-**definition** _Foreign Portfolio Investment_ is a capital investment that is financed with foreign money but operated by domestic residents
+**definition** _Foreign Portfolio Investment_ is a capital [[invest]]ment that is financed with foreign money but operated by domestic residents
 
-as Canada is a relatively rich country, a foreign investment raises incomes (GNP) more than it raises the country’s [[productivity]] ([[gross domestic product]])
+as Canada is a relatively rich country, a foreign [[invest]]ment raises incomes (GNP) more than it raises the country’s [[productivity]] ([[gross domestic product]])
 
 ## education
 
-investments in human capital (see [[productivity]]) is at least as important as investments in physical capital (see [[productivity]]) for long-term economic success
+[[invest]]ments in human capital (see [[productivity]]) is at least as important as [[invest]]ments in physical capital (see [[productivity]]) for long-term economic success
 
 human capital is also important for [[economic growth]] as it conveys positive externalities
 
@@ -84,7 +84,7 @@ trade volume is determined by both government policy and geographical location
 
 knowledge is a public good
 
-governments have a vested interest in promoting R&D, as knowledge is a high-return investment
+governments have a vested interest in promoting R&D, as knowledge is a high-return [[invest]]ment
 
 tax breaks to firms engaging in R&D and managing patent systems are two ways of promoting R&D
 

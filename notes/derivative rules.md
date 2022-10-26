@@ -110,6 +110,6 @@ $\delta\ f\ g\ x - \delta x = \delta\ g\ x - \delta x \mid \delta\ f\ g\ x - \de
 >
 > #todo fix partial derivative
 >
-> the equivalent of the chain [[derivative rules]] on a function with multiple parameters is:
+> the equivalent chain [[derivative rules]] on a [[function]] of multiple variables is:
 >
 > $\partial_t\ f\ (g\ (t, s), h\ (t, s)) = f_x\ (g\ (t, s), h\ (t, s)) \shortmid g_t\ (t, s) \cdot f_y\ (g\ (t, s), h\ (t, s)) \shortmid h_t\ (t, s)$

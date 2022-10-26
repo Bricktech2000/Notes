@@ -43,8 +43,6 @@ Radix Complements can be used to easily **build adder-subtracters**
 >
 > in **hex**, the bit pattern of the 16’s complement is the same as the bit pattern of the 2’s complement, and so the 16’s complement is never actually used in Computer Science.
 
-#todo search and replace `binary` for `[[binary]]` throughout notes
-
 **examples**
 
 > **example**
