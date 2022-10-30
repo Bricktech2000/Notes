@@ -26,11 +26,9 @@
 
 [[mental illness]]
 
-[[goal]], [[aspiration]], [[habit]], [[system]], [[system over goal]]
+[[goal]], [[aspiration]], [[habit]], [[system]], [[system over goal]], [[cue]]
 
 [[motivation]], [[overwhelm]], [[procrastination]], [[laziness]], [[focus]]
-
-[[environmental dependency of learning]], [[lofi music]], [[cue]]
 
 [[learning]], [[active recall]], [[spaced repetition]], [[interleaving]]
 

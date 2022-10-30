@@ -105,6 +105,10 @@ _what_ represents the item itself
 
 [[esoteric programming language idea]]
 
+[[personal issues with university]]
+
+[[carbon language talk]]
+
 **learn**
 
 [[sensor suite]]
@@ -155,6 +159,8 @@ _what_ represents the item itself
 
 [[invest]]
 
+[[deriving the quadratic formula]]
+
 **finance**
 
 [[price-value sigmoid]]
@@ -180,6 +186,8 @@ _what_ represents the item itself
 **network**
 
 [[public speaking]]
+
+[[vim talk]]
 
 **standard**
 
@@ -226,6 +234,10 @@ _what_ represents the item itself
 [[notion time management]]
 
 [[discord statuses]]
+
+[[recipes]]
+
+[[life quotes]]
 
 ## How
 
@@ -311,6 +323,8 @@ _what_ represents the item itself
 
 [[invest]]
 
+[[personal issues with university]]
+
 **other**
 
 [[english bad habits]]
@@ -327,7 +341,15 @@ _what_ represents the item itself
 
 [[discord statuses]]
 
+[[vim talk]]
+
+[[deriving the quadratic formula]]
+
+[[recipes]]
+
 **social**
+
+[[life quotes]]
 
 **design**
 

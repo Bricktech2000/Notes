@@ -10,9 +10,11 @@
 
 [[random math notation formulas]]
 
+[[interesting electives]]
+
 #todo
 
-[[stoichiometry]], [[thermochemistry]], [[effusion]], [[reaction rate]], [[reaction mechanism]], [[polyatomic cation]], [[polyatomic anion]]
+[[stoichiometry]], [[thermochemistry]], [[effusion]], [[reaction rate]], [[reaction mechanism]], [[polyatomic cation]], [[polyatomic anion]], [[bond]]
 
 [[bank]] and the whole [[economics]] and [[economy]]: [[productivity]]
 

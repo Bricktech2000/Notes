@@ -28,6 +28,10 @@ if the _share price_ doesn't reach the _strike price_ of an option before its _e
 
 **definition** an option that is _X% ITM_ means that the share price is X% away from the _strike price_ and currently in the money
 
+---
+
+# Options Market Trading
+
 ## Everything is Priced In
 
 when trading on the [[options market]], you are trying to outsmart everyone else in the options market. it is likely that if you think you have an edge, you really don't. unless you successfully outsmart most people in the options market, you will likely make approximately $0%$ profit in the long run

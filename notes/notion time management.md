@@ -142,14 +142,14 @@ page load limit: 100
 > **type** Select
 
 - Work On (blue)
-- (no status)
 - Next Up (blue)
 - Not Started (blue)
 - Backlog (light gray)
 - Blocked (light gray)
-- Completed (light gray)
-- Archive (light gray)
-- Revisit (light gray)
+- (no status)
+- Completed (green)
+- Archive (green)
+- Revisit (green)
 
 ### Date
 

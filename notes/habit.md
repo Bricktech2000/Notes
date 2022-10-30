@@ -14,6 +14,8 @@
 
 _good habits_ are an [[invest]]ment that compound over [[time]]. they seem to make no difference in the short term but make a huge difference in the long term, and this is why it can be so [[difficult]] to build [[habit]]s that last. a lot of people give up on their [[habit]]s before breaking through the _plateau of latent potential_ &mdash; <https://youtu.be/zUm3fKk00J8?t=2194>
 
+[[habit]]s are our [[brain]]'s way to delegate an action from our conscious mind to our unconscious mind. they are all about reducing cognitive load and increasing [[energy]] efficiency by recognizing simple [[cue]]s and associating them with a [[sequence]] of actions &mdash; <https://youtu.be/zUm3fKk00J8?t=4599> from 1:16:39 to 1:22:08.
+
 ## habit formation
 
 > **examples** _[[trick]]s to form [[habit]]s_
@@ -23,3 +25,13 @@ _good habits_ are an [[invest]]ment that compound over [[time]]. they seem to ma
 > - the two-minute rule &mdash; anchoring the routine before ramping up the [[difficult]]y (start reading by only reading one page a day, start exercising by only putting on your running shoes and opening the door)
 >
 > &mdash; <https://youtu.be/PZ7lDrwYdZc>
+
+cue
+
+craving
+
+response
+
+reward
+
+#todo

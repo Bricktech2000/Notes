@@ -33,7 +33,7 @@ artificial stimulus is stimulus that wrongfully rewards us (think junk food, mov
 
 _preferably avoid, but still allowed_
 
-- music, unless it is [[lofi music]] for [[environmental dependency of learning]]
+- music, unless it is used as a [[cue]]
 - browsing [[social media]]
 - watching TV
 - [[video game]]s

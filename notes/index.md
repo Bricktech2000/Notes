@@ -18,20 +18,4 @@
 
 [[outdated]]
 
-#todo to sort properly
-
 [[random]]
-
-[[interesting electives]]
-
-[[deriving the quadratic formula]]
-
-[[personal issues with university]]
-
-[[life quotes]]
-
-[[recipes]]
-
-[[vim talk]]
-
-[[carbon language talk]]

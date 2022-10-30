@@ -718,3 +718,5 @@ you've probably seen how in some classes we do boolean algebra with `+ - '` and 
 ---
 
 $M \rightarrow \#\ M = \#\ M^\intercal \land \det M \ne 0$
+
+$^i ^j$
