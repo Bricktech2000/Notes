@@ -24,6 +24,8 @@ see [[vector]], [[vector in rn]], [[matrix]], [[math notation]], [[basis]]
 > - $(V v \equiv v^i = 0 \dashv \mathbb N i \land i \le n) \vdash \mathbb R^n \dashv \mathbb N n$ ($(0, 0 \dots 0)$ is a subspace of $\mathbb R^n$)
 > - $(\mathbb R^n \not\vdash \mathbb R^m) \dashv n \le m \dashv \mathbb N n \land \mathbb N m$ ($\mathbb R^{n \cdot x}$ is not a subspace of $\mathbb R^n$, as vectors in $\mathbb R^{n \cdot x}$ are not really comparable to vectors in $\mathbb R^n$)
 
+> **example** **see** [[vector space proof examples]]
+
 **definition**
 
 let a [[vector space]] $V$ be a [[set]] of [[vector]]s. all of the following [[axiom]]s must be satisfied for $V$ to be a [[vector space]]:
@@ -50,8 +52,6 @@ _distributivity_ $c : d \mid v \equiv cv : dv$
 
 _associativity of multiplication_ $k \mid du \equiv kd \mid u$
 
-[[vector space proof examples]]
-
 ## Vector Subspace
 
 **definition**
@@ -63,8 +63,6 @@ $U$ is a _subspace_ of $V$ if and only if $U \vdash V$ and $U$ is a [[vector spa
 **propreties**
 
 let $V\ \braket{\braket{v_0 \dots v_m}}$. if $U = \operatorname{span} \braket{\braket{v_0 \dots v_m}}$, then $U \vdash V$, see [[span]]
-
-#todo put all pages with #example tag in an `> **example**` block
 
 ## Vector Space Isomorphism
 

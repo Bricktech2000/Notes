@@ -267,9 +267,9 @@ _absorption_ $x \lor \times\ x \land y \equiv x$
 
 _absorption_ $x \land \times\ x \lor y \equiv x$
 
-_or_ $x \times y \equiv (x \land /y) \lor (/x \land y)$ &mdash; e
+_xor_ $x \times y \equiv (x \land /y) \lor (/x \land y)$ &mdash; me
 
-_or_ $x \times y \equiv / x = y$ &mdash; e
+_xor_ $x \times y \equiv / x = y$ &mdash; me
 
 _implication_ $x \vdash y \equiv /x \lor y$
 

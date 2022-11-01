@@ -2,7 +2,9 @@
 
 see [[conventional math notation]]
 
-this note describes my custom [[math notation]], meant to solve inconsistencies in [[conventional math notation]]. it is not meant to be a fully formal system of [[mathematics]]; rather, it is built to be easy to understand and intuitive to use by mere humans.
+this note describes my own [[math notation]], meant to solve inconsistencies in [[conventional math notation]]. it is not meant to be a fully formal system of [[mathematics]]; rather, it is built to be easy to understand and intuitive to use by mere humans.
+
+this [[math notation]] obviously cannot be used to communicate ideas to people who do not know it, but it has made my own experience of using [[mathematics]] much more enjoyable. being able to use a single relatively well defined notation in various [[mathematics]] [[fields]] that conventially use their own made up notation has been invaluable
 
 ## principles
 
@@ -96,10 +98,11 @@ let:
 | $M^{i, j}$                                                 | $M^{\braket{i, j}}$                                | common, longhand discouraged           |
 | $M^{i,}$                                                   | the $i$ th row of $M$                              |                                        |
 | $M^{, j}$                                                  | the $j$ th column of $M$                           |                                        |
-| $S = \braket{\braket{a \dots b}}$                          | $S\ x \equiv x = a \lor \dots x = b$               | see [[set]]                            |
 | $P = \braket{f, t}$                                        | $P^\bot = f \land P^\top = t$                      | see [[ordered pair]]                   |
-| $M = \begin{bmatrix} a & b \\\ c & d \end{bmatrix}$        | [[matrix]] literal                                 | see [[matrix]]                         |
+| $S = \braket{\braket{a \dots b}}$                          | $S\ x \equiv x = a \lor \dots x = b$               | see [[set]]                            |
+| $V = (a \dots b)$                                          | $V^0 = a \land \dots V^n = b$                      | see [[vector in rn]]                   |
 | $M' = ((1, 2, 2, 2, 3, 3))$                                | [[multiset]] literal                               | see [[multiset]]                       |
+| $M = \begin{bmatrix} a & b \\\ c & d \end{bmatrix}$        | [[matrix]] literal                                 | see [[matrix]]                         |
 | $x \rightarrow (a < x < b)$                                | the interval from $a$ to $b$                       |                                        |
 | $A \circ B$                                                | $x \rightarrow A\ x \circ B\ x$                    | see [[rank polymorphism]]              |
 | $A \circ B$                                                | $A\ x \circ B\ x$ for all $x$                      | $(\top \dots)$ is treated as $\top$    |
@@ -158,7 +161,7 @@ _in order of high to low precedence_
 
 ## examples
 
-[[quadratic formula]] $\cdot b : \lfloor b2 \cdot 4ac \rfloor - 2a$
+[[quadratic formula]]: $\cdot b : \lfloor b2 \cdot 4ac \rfloor - 2a$
 
 definition of the [[set]] of [[complex]] numbers: $\mathbb C x \equiv x = a : b\iota \land \mathbb R a \land \mathbb R b$
 

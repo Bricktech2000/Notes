@@ -41,6 +41,7 @@ the following headings are used in blockquotes:
 
 the following headings are used inline:
 
+- **see**
 - **types**
 - **theorem**
 - **definition**
@@ -71,7 +72,7 @@ wiki links are generally avoided in headings
 
 a page can link to itself
 
-_see ..._ statements are for prerequisites
+_see ..._ statements are for prerequisites #todo change this
 
 note names are mostly _-ing_ verbal groups or singular nominal groups, and sometimes adjectives when more appropriate
 

@@ -2,9 +2,7 @@
 
 _the [[set]] of [[rational]] numbers_
 
-see [[math notation]]
-
-see [[even odd proof examples]]
+**see** [[math notation]]
 
 **definition**
 

@@ -1,8 +1,8 @@
 # Odd Number
 
-see [[math notation]], [[boolean logic]], [[number]]
+**see** [[math notation]], [[boolean logic]], [[number]]
 
-see [[even odd proof examples]]
+> **example** **see** [[even odd proof examples]]
 
 **definition**
 

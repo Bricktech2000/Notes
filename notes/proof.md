@@ -1,8 +1,6 @@
 # Proof
 
-see [[improvability theory]], [[zero-knowledge proof]], [[math notation]]
-
-see [[even odd proof examples]]
+**see** [[improvability theory]], [[zero-knowledge proof]], [[math notation]]
 
 **definition** A _mathematical proof_ is an inferential argument for a mathematical [[logic statement]], showing that the stated assumptions logically guarantee the conclusion. &mdash; Wikipedia
 

@@ -37,6 +37,7 @@ languages in the order I learned them:
 4. [[python]]
 5. [[rust]]
 6. [[java]] (forced in university)
+7. [[solidity]]
 
 [[esoteric programming language idea]]
 

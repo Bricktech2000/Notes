@@ -45,6 +45,8 @@ $R_b^n = S_b^\infty \cdot S_b^n$, where
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=15557>
 
+> **example** **see** [[series convergence examples]]
+
 ### Integral Test
 
 _useful for [[series]] containing [[logarithm]]s or easy-to-compute [[integral]]s_

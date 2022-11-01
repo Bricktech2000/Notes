@@ -4,6 +4,8 @@ _mindfulness, [[intention]]ality, and the pursuit of value_
 
 most people chase a minimalist lifestyle. I just realized [[minimalism]] isn't an [[aspiration]] of mine; it is my diagnosis
 
+it seems to be that _frugal_ people are in fact just [[finance]]ial minimalists &mdash; <https://youtu.be/QVbKbyrBMQg>
+
 > **example** _ways in which I am a minimalist_
 >
 > similarly to the [[encapsulation]] of mutability in [[functional programming]], I often find myself encapsulating clutter
@@ -32,3 +34,5 @@ most people chase a minimalist lifestyle. I just realized [[minimalism]] isn't a
 <https://youtu.be/QZr0hh5tSZc>
 
 <https://youtu.be/SYkgGRyKQgY>
+
+<https://www.theminimalists.com/minimalism/>

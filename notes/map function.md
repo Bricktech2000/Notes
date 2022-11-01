@@ -1,4 +1,4 @@
-## Map Function
+# Map Function
 
 _lifts a horizontal [[function]] to the effects world_
 
