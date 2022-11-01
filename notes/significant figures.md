@@ -1,6 +1,6 @@
 # Significant Figures
 
-see [[math notation]]
+**see** [[math notation]]
 
 &mdash; <http://cxp.cengage.com/contentservice/assets/owms01h/references/significantfigures/index.html>
 

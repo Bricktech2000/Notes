@@ -84,7 +84,7 @@ $S\ a$
 
 ## Set Isomorphism
 
-see [[category]], [[category theory]]
+**see** [[category]], [[category theory]]
 
 two [[set]]s are isomorphic if they contain the same elements "labeled" in different ways
 
@@ -94,13 +94,13 @@ two [[set]]s are isomorphic if they contain the same elements "labeled" in diffe
 
 _the empty [[set]]_
 
-see [[empty]]
+**see** [[empty]]
 
 ## [[universal]]
 
 _the [[set]] of all possible mathematical entities_
 
-see [[universal]]
+**see** [[universal]]
 
 ## Set Partition
 

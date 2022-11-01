@@ -4,7 +4,7 @@ _a measure of the average change over [[time]] in the prices paid by urban consu
 
 > **AKA** CPI
 
-see [[economics]]
+**see** [[economics]]
 
 > **procedure** _calculating the CPI_
 >

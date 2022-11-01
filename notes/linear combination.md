@@ -1,6 +1,6 @@
 # Linear Combination
 
-see [[vector]], [[vector space]], [[math notation]], [[span]]
+**see** [[vector]], [[vector space]], [[math notation]], [[span]]
 
 **definition**
 

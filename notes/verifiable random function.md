@@ -1,6 +1,6 @@
 # Verifiable Random Function
 
-see [[function]]
+**see** [[function]]
 
 > **AKA** VRF
 

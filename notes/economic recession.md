@@ -10,4 +10,4 @@ a popular rule of thumb states that:
 
 > **note** the previous statement is **not** a definition; rather, it is a mere indicator
 >
-> see [[indicator generalization]] #think &mdash; Kiera DM
+> **see** [[indicator generalization]] #think &mdash; Kiera DM

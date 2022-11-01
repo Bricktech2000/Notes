@@ -1,3 +1,3 @@
 # Characteristic Equation
 
-see [[characteristic table]]
+**see** [[characteristic table]]

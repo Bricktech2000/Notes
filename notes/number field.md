@@ -1,6 +1,6 @@
 # Number Field
 
-see [[math notation]], [[set]], [[number]]
+**see** [[math notation]], [[set]], [[number]]
 
 loosely speaking, a number field a [[set]] of numbers with certain properties and two operations defined: addition and multiplication
 

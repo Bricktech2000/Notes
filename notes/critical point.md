@@ -1,6 +1,6 @@
 # Critical Point
 
-see [[function]], [[math notation]]
+**see** [[function]], [[math notation]]
 
 **definition** _function of one variable_ a point $(c, f\ c)$ is a _critical point_ of the [[function]] $f$ if $\delta\ f\ c - \delta c = 0$ or it does not exist
 

@@ -1,6 +1,6 @@
 # Plane in R3
 
-see [[normal vector]], [[vector in rn]], [[math notation]]
+**see** [[normal vector]], [[vector in rn]], [[math notation]]
 
 &mdash; <https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s>
 

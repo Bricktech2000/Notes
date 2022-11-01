@@ -1,6 +1,6 @@
 # Currying
 
-see [[function]], [[functional programming]]
+**see** [[function]], [[functional programming]]
 
 **definition** _Currying_ is the process of transforming a [[function]] that takes multiple arguments into a set of nested [[function]]s that each take a single argument. &mdash; Github Copilot
 

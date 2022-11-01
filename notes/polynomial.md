@@ -9,7 +9,7 @@ $p = a_0x[0] : \dots a_nx[n] \land \mathbb N n \land (\mathbb R a_n \dashv \math
 
 ## Vector Space Axioms
 
-see [[polynomial vector space]], [[vector space]]
+**see** [[polynomial vector space]], [[vector space]]
 
 **properties**
 

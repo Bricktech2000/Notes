@@ -1,6 +1,6 @@
 # Multiset
 
-see [[math notation]]
+**see** [[math notation]]
 
 **definition** a _multiset_ is an unordered collection of elements that do not have to be unique
 

@@ -1,6 +1,6 @@
 # Loss Function
 
-see [[math notation]], [[function]], [[neural network]]
+**see** [[math notation]], [[function]], [[neural network]]
 
 ## Mean Squared Error
 

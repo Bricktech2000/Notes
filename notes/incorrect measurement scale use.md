@@ -2,7 +2,7 @@
 
 _using the incorrect scale for a measurement_
 
-see [[math notation]]
+**see** [[math notation]]
 
 this seems to be a common problem among the general public, and frustrates me very much
 

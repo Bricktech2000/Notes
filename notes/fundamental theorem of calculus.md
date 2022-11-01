@@ -1,6 +1,6 @@
 # Fundamental Theorem of Calculus
 
-see [[calculus notation]], [[math notation]]
+**see** [[calculus notation]], [[math notation]]
 
 **theorem** _Part 1_ if $f\ x$ is continuous on $x \rightarrow (a \le x \le b)$, then $\int f\ t \mid \delta t\ \ \vdots\ \ x \cdot a$ is continuous on $x \rightarrow (a \le x \le b)$ and differentiable on $x \rightarrow (a < x < b)$ and $\delta\ (\int f\ t \mid \delta t\ \ \vdots\ \ x \cdot a) - \delta x = f\ x$ (restrictions not necessary, see [[improved expression evaluation]])
 

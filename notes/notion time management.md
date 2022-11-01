@@ -221,7 +221,7 @@ if (not empty(prop("ABS_REPEAT")),
 
 > **type** Formula
 
-see [[math notation]]
+**see** [[math notation]]
 
 the $\, : \text{duration}$ below "shifts" the event left by $\text{duration}$, which allows long-term projects to end up with higher priority at the beginning of their time allocation. this prioritizes tasks better.
 

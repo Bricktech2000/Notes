@@ -1,6 +1,6 @@
 # Calculus Notation
 
-see [[math notation]]
+**see** [[math notation]]
 
 ## notation
 
@@ -40,7 +40,7 @@ $\delta \int y = y$
 
 **properties**
 
-see [[integral]], [[derivative]], [[antiderivative]]
+**see** [[integral]], [[derivative]], [[antiderivative]]
 
 _the antiderivative of the derivative of a function is that same function_ (constant is not present, see [[improved expression evaluation]])
 

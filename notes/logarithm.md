@@ -1,6 +1,6 @@
 # Logarithm
 
-see [[math notation]], [[exponent]]
+**see** [[math notation]], [[exponent]]
 
 **notation**
 

@@ -1,8 +1,8 @@
 # Polynomial Vector Space
 
-see [[vector space]], [[math notation]], [[polynomial]]
+**see** [[vector space]], [[math notation]], [[polynomial]]
 
-see [[polynomial]] for [[axiom]]s
+**see** [[polynomial]] for [[axiom]]s
 
 **notation**
 

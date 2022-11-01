@@ -4,7 +4,7 @@
 
 ## Drawing a Molecule
 
-see [[bond]], [[lewis structure]], [[molecular geometry]], [[expanded octet]], [[resonance structure]], [[formal charge]], [[orbital]], [[quantum numbers]]
+**see** [[bond]], [[lewis structure]], [[molecular geometry]], [[expanded octet]], [[resonance structure]], [[formal charge]], [[orbital]], [[quantum numbers]]
 
 ### finding the [[molecular geometry]]
 

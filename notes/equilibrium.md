@@ -1,8 +1,8 @@
 # Equilibrium
 
-see [[conventional math notation]]
+**see** [[conventional math notation]]
 
-see [[stoichiometry]], [[concentration]], [[reaction rate]]s
+**see** [[stoichiometry]], [[concentration]], [[reaction rate]]s
 
 all reactions have to be reversible for equilibrium to be reached
 

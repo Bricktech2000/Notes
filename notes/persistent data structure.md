@@ -1,6 +1,6 @@
 # Persistent Data Structure
 
-see [[data structure]]
+**see** [[data structure]]
 
 **definition** A _persistent data structure_ is a [[data structure]] that always preserves the previous version of itself when it is modified. Such [[data structure]]s are **effectively** immutable [...]. &mdash; Wikipedia
 

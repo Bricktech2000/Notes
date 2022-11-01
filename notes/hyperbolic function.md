@@ -1,6 +1,6 @@
 # Hyperbolic Function
 
-see [[math notation]], [[function]], [[trigonometric function]]
+**see** [[math notation]], [[function]], [[trigonometric function]]
 
 **definition**
 

@@ -44,7 +44,7 @@ below are some useful equivalences.
 
 **pros**
 
-see [[math notation]]
+**see** [[math notation]]
 
 let $m$ and $n$ be the two numbers representing the [[distance]] between two people in a family.
 

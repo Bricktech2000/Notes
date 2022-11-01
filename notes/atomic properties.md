@@ -1,6 +1,6 @@
 # Atomic Properties
 
-see [[quantum numbers]], [[orbital]], [[atom]]
+**see** [[quantum numbers]], [[orbital]], [[atom]]
 
 ## Atomic Radius
 
@@ -24,7 +24,7 @@ larger on the top, right of the periodic table
 
 ## Electronegativity
 
-see [[electronegativity]]
+**see** [[electronegativity]]
 
 ## Atomic Number
 

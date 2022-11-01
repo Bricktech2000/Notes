@@ -2,7 +2,7 @@
 
 ## [[sigmoid function]]
 
-see [[sigmoid function]]
+**see** [[sigmoid function]]
 
 > **note** using a [[sigmoid function]] as an [[activation function]] is old-school. ReLU is now preferred &mdash; <https://youtu.be/aircAruvnKk?t=1034>
 
@@ -31,7 +31,7 @@ def ReLU(x):
 
 _for getting values between $\cdot 1$ and $1$._
 
-see [[hyperbolic function]]
+**see** [[hyperbolic function]]
 
 **definition**
 

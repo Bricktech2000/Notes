@@ -1,6 +1,6 @@
 # Combinatory Logic
 
-see [[lambda calculus]]
+**see** [[lambda calculus]]
 
 &mdash; <https://en.wikipedia.org/wiki/B,_C,_K,_W_system>
 

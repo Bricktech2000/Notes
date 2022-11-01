@@ -2,7 +2,7 @@
 
 > **AKA** GDP
 
-see [[economy]], [[productivity]], [[math notation]], [[conventional math notation]]
+**see** [[economy]], [[productivity]], [[math notation]], [[conventional math notation]]
 
 A country’s GDP is the market value of all final goods and services produced within a country in a given period of [[time]]. it is thought to be the best measure of a society’s economic well-being, and is the most closely watched [[economics]] statistic
 
@@ -46,7 +46,7 @@ in [[economics]], we want to separate these two effects using the **Real GDP**
 
 ## GDP Deflator
 
-see [[conventional math notation]]
+**see** [[conventional math notation]]
 
 **definition** the _GDP Deflator_ is a measure of the price level as the ratio of nominal GDP to real GDP
 
@@ -60,7 +60,7 @@ the GDP Deflator can be used to calculate [[inflation]] rates
 
 ## Expenditure approach
 
-see [[conventional math notation]]
+**see** [[conventional math notation]]
 
 _calculating the GDP using the Expenditure approach_
 

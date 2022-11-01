@@ -1,6 +1,6 @@
 # Psychopathy
 
-see [[mental illness]], [[antisocial personality disorder]]
+**see** [[mental illness]], [[antisocial personality disorder]]
 
 > **note** [[psychopathy]] is **not** a diagnostic term, see [[antisocial personality disorder]]
 

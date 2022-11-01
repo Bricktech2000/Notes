@@ -1,6 +1,6 @@
 # Referencing Sources
 
-see [[common knowledge]]
+**see** [[common knowledge]]
 
 ## citing authors
 

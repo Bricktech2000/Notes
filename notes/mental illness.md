@@ -8,7 +8,7 @@
 
 _excessive fear and dread_
 
-see [[anxiety]]
+**see** [[anxiety]]
 
 - phobias
 

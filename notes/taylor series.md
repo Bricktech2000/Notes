@@ -2,7 +2,7 @@
 
 _allows for the approximation of a [[function]] near a point by a [[polynomial]]_
 
-see [[calculus]], [[series]]
+**see** [[calculus]], [[series]]
 
 > **note** taylor [[series]] don't necessarily have an infinite radius of convergence, see power [[series]]
 >

@@ -1,6 +1,6 @@
 # Summation and Product Notation
 
-see [[math notation]]
+**see** [[math notation]]
 
 ## summation notation
 

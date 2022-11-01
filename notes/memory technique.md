@@ -1,6 +1,6 @@
 # Memory Technique
 
-see [[memory]], [[trick]]
+**see** [[memory]], [[trick]]
 
 [[memory]] athletes memorize through their semantic [[memory]]
 

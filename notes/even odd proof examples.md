@@ -62,7 +62,7 @@ then, follow proof below
 
 ## example [[proof]]
 
-see [[math notation]]
+**see** [[math notation]]
 
 **theorem** let $n$ be an [[integer]]. if $n$ is odd, then $n2$ is odd
 

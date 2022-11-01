@@ -2,7 +2,7 @@
 
 _Vectors in $\mathbb R^n$._
 
-see [[math notation]], [[math notation]], [[vector]] properties
+**see** [[math notation]], [[math notation]], [[vector]] properties
 
 **definition** a _vector in Rn_ is an ordered collection of elements that do not have to be unique
 
@@ -20,7 +20,7 @@ _negation_ $\cdot(a, b) \equiv (\cdot a, \cdot b)$
 
 ## Vector Space Axioms
 
-see [[vector in rn vector space]], [[vector space]]
+**see** [[vector in rn vector space]], [[vector space]]
 
 **properties**
 
@@ -60,7 +60,7 @@ $V - |V| = (\cos \theta, \sin \theta)$, where
 
 ## Angles Between two Vectors
 
-see [[dot product]], [[cross product]], #magic
+**see** [[dot product]], [[cross product]], #magic
 
 **definition**
 
@@ -110,7 +110,7 @@ $u$ and $v$ are colinear if $u$ is a [[linear combination]] of the [[set]] $\bra
 
 _The scalar projection is equal to the [[length]] of the vector projection_ &mdash; Wikipedia
 
-see [[dot product]]
+**see** [[dot product]]
 
 [[vector]] projections are [[linear transformation]]s. projections can be turned into [[matrix]] multiplication as they are both [[linear transformation]]s
 

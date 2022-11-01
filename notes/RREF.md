@@ -2,4 +2,4 @@
 
 > **AKA** Reduced Row Echelon Form
 
-see [[REF]], [[linear system]]
+**see** [[REF]], [[linear system]]

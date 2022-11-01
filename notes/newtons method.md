@@ -1,6 +1,6 @@
 # Newton's Method
 
-see [[derivative]], [[math notation]]
+**see** [[derivative]], [[math notation]]
 
 _method to approximate the zeros of a [[function]]_
 

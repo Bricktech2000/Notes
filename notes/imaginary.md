@@ -2,7 +2,7 @@
 
 _the [[set]] of [[imaginary]] numbers_
 
-see [[math notation]]
+**see** [[math notation]]
 
 **definition** $(\mathbb C\ /\ \mathbb R)\ x \equiv x = b\iota \land \mathbb R b$
 

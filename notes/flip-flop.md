@@ -1,6 +1,6 @@
 # Flip-Flop
 
-see [[logic gate]], [[latch]], [[logic circuit]]
+**see** [[logic gate]], [[latch]], [[logic circuit]]
 
 [[flip-flop]]s are _edge-triggered_ whereas gated [[latch]]es are _level-triggered_
 

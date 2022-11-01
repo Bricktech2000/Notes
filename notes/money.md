@@ -1,6 +1,6 @@
 # Money
 
-see [[wealth]], [[bank]]
+**see** [[wealth]], [[bank]]
 
 [[money]] is one of the assets with highest [[liquidity]]
 

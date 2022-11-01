@@ -1,6 +1,6 @@
 # Quadratic Formula
 
-see [[math notation]]
+**see** [[math notation]]
 
 **definition**
 

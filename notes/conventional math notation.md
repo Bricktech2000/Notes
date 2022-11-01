@@ -1,6 +1,6 @@
 # Conventional Math Notation
 
-see [[math notation]]
+**see** [[math notation]]
 
 **cons** _fixed in my [[math notation]]_
 

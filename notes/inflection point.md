@@ -1,6 +1,6 @@
 # Inflection Point
 
-see [[function]] extrema, [[math notation]]
+**see** [[function]] extrema, [[math notation]]
 
 **definition** An _inflection point_ [...] is a point on a smooth plane curve at which the curvature changes sign &mdash; Wikipedia
 

@@ -1,6 +1,6 @@
 # Esoteric Programming Language Idea
 
-see [[programming language]]
+**see** [[programming language]]
 
 inspired by [[conventional math notation]], where [[operator]]s like to change what they return based on what surrounds them
 

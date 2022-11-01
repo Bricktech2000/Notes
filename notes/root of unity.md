@@ -2,6 +2,6 @@
 
 used for backlinks
 
-see [[complex]] numbers
+**see** [[complex]] numbers
 
 &mdash; <https://youtu.be/bOXCLR3Wric?t=1986>

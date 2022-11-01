@@ -34,7 +34,7 @@ _in [[conventional math notation]]_ a vertex $v$ is in a graph $\braket{V, E}$ i
 
 ## Graph Isomorphism
 
-see [[category]], [[category theory]]
+**see** [[category]], [[category theory]]
 
 **definition** two [[graph]]s are said to be _isomorphic_ if they have the same edges connecting their vertices, which could be labelled differently
 

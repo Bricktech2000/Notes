@@ -111,7 +111,7 @@ computing $[A]p = P\begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [\lambda_1]p & 0 
 
 ## Multiplicity
 
-see [[multiplicity]]
+**see** [[multiplicity]]
 
 **definition** the _algebraic multiplicity_ of a root $\lambda$ of the [[characteristic polynomial]] of $A$ is its [[multiplicity]]
 

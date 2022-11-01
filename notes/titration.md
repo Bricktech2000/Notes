@@ -1,6 +1,6 @@
 # Titration
 
-see [[equilibrium]], [[acid and base]], [[stoichiometry]], [[conventional math notation]]
+**see** [[equilibrium]], [[acid and base]], [[stoichiometry]], [[conventional math notation]]
 
 **definition** Titration is an analytical technique used to determine the exact [[concentration]] of an [[acid]] using a known [[base]], or vice-versa. &mdash; Rashmi
 

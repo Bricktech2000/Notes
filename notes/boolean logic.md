@@ -1,8 +1,8 @@
 # Boolean Logic
 
-see [[boolean]]
+**see** [[boolean]]
 
-see [[math notation]], [[disjunctive normal form]], [[conjunctive normal form]], [[quantifier]]
+**see** [[math notation]], [[disjunctive normal form]], [[conjunctive normal form]], [[quantifier]]
 
 **definition** two boolean expressions (or [[logic statement]]s) are said to be _logically equivalent_ if they yield the same output for every input. in other words, two boolean expressions (or [[logic statement]]s) are _logically equivalent_ if they share the same [[truth table]]
 
@@ -12,13 +12,13 @@ boolean expressions can be simplified to a different but logically equivalent ex
 
 # Boolean Operators
 
-see [[boolean]], [[boolean logic]]
+**see** [[boolean]], [[boolean logic]]
 
 boolean [[operator]]s can be modeled in [[logic circuit]]s through [[logic gate]]s
 
 ## Operator Precedence
 
-see [[math notation]] for [[operator]] precedence in my [[math notation]]
+**see** [[math notation]] for [[operator]] precedence in my [[math notation]]
 
 in [[conventional math notation]]: $' \cdot + \oplus$
 

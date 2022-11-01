@@ -1,3 +1,3 @@
 # Set Theory
 
-see [[set]]
+**see** [[set]]

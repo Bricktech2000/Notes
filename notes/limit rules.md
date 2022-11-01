@@ -1,6 +1,6 @@
 # Limit Rules
 
-see [[math notation]]
+**see** [[math notation]]
 
 let $c$ be a constant and ensure $f\ x\ \ \vdots\ \ x \rightarrow a$ and $g\ x\ \ \vdots\ \ x \rightarrow a$ are [[limit]]s that exist
 

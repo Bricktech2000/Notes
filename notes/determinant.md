@@ -1,6 +1,6 @@
 # Determinant
 
-see [[math notation]], [[matrix]]
+**see** [[math notation]], [[matrix]]
 
 **notation**
 
@@ -42,7 +42,7 @@ $\det cA = c^n \mid \det A$, where $n$ is the width and height of the [[matrix]]
 
 **properties**
 
-see [[linear system]]
+**see** [[linear system]]
 
 _adding a multiple of a row or column to another row or column_ $\det A = \det A'$
 

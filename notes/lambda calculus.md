@@ -1,6 +1,6 @@
 # Lambda Calculus
 
-see [[combinatory logic]], [[recursion]]
+**see** [[combinatory logic]], [[recursion]]
 
 &mdash; <https://youtu.be/eis11j_iGMs>
 

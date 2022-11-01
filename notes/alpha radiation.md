@@ -2,6 +2,6 @@
 
 _stopped by a sheet of paper_
 
-see [[beta radiatior]], [[gamma radiation]]
+**see** [[beta radiatior]], [[gamma radiation]]
 
 alpha particles consist of two [[proton]]s and two [[neutron]]s bound together

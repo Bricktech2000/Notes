@@ -1,6 +1,6 @@
 # Molecular Geometry
 
-see [[bond]], [[lewis structure]]
+**see** [[bond]], [[lewis structure]]
 
 based on the _Valence Shell Electron Pair Repulsion Theory_ (VSEPR), our guiding principle is to keep electron groups as far away from one another as possible.
 

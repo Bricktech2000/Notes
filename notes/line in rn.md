@@ -1,6 +1,6 @@
 # Line in Rn
 
-see [[vector in rn]], [[math notation]]
+**see** [[vector in rn]], [[math notation]]
 
 &mdash; <https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s>
 

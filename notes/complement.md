@@ -22,7 +22,7 @@ _2’s complement in base 2, 16’s complement in base 16_
 
 **properties**
 
-see [[math notation]]
+**see** [[math notation]]
 
 let $[A]$ be the Radix Complement of $A$ for all $A$, and assume $\mathbb R A$
 

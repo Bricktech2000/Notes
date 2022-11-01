@@ -2,7 +2,7 @@
 
 _restrictions and holes are annoying so let's get rid of them_
 
-see [[math notation]]
+**see** [[math notation]]
 
 ## overview
 

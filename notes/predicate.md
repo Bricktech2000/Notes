@@ -4,7 +4,7 @@ _a [[function]] that returns a [[boolean]]_
 
 &mdash; <https://youtu.be/aIOMRqiwziM?t=560>
 
-see [[logic statement]], [[math notation]]
+**see** [[logic statement]], [[math notation]]
 
 **definition**
 
@@ -20,7 +20,7 @@ in my [[math notation]], [[set]]s are [[predicate]]s
 
 ## Truth Set
 
-see [[math notation]], [[set]], [[predicate]]
+**see** [[math notation]], [[set]], [[predicate]]
 
 **definition** the _truth set_ of a [[predicate]] is the set of all possible values making the [[predicate]] a true [[logic statement]]. $x \rightarrow P\ x$, where $P\ x$ is a [[predicate]] and $x$ is a value of the domain of the [[predicate]]
 

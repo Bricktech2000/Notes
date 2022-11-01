@@ -1,6 +1,6 @@
 # Quantifier
 
-see [[math notation]], [[boolean logic]]
+**see** [[math notation]], [[boolean logic]]
 
 **definition** In [[boolean logic]], a _quantifier_ is an operator that specifies how many individuals in the domain of discourse satisfy an open formula. &mdash; Wikipedia
 

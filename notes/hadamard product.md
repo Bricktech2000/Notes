@@ -1,6 +1,6 @@
 # Hadamard Product
 
-see [[vector]], [[vector in rn]], [[matrix]], [[math notation]]
+**see** [[vector]], [[vector in rn]], [[matrix]], [[math notation]]
 
 &mdash; <http://neuralnetworksanddeeplearning.com/chap2.html#the_hadamard_product_$s_\odot_t$>
 

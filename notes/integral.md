@@ -1,6 +1,6 @@
 # Integral
 
-see [[math notation]], [[function]], [[antiderivative]], [[calculus notation]]
+**see** [[math notation]], [[function]], [[antiderivative]], [[calculus notation]]
 
 > **note**
 >

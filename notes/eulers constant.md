@@ -2,7 +2,7 @@
 
 > **AKA** e
 
-see [[math notation]]
+**see** [[math notation]]
 
 **notation**
 

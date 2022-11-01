@@ -12,7 +12,7 @@ explicitly link [[concept]]s and ideas together instead of listing them
 
 > **examples**
 >
-> see [[writing a report]]
+> **see** [[writing a report]]
 >
 > - start with an empowerment promise. explain why people are listening to you
 > - when using slides, mention the title verbally instead of cluttering the slides with it

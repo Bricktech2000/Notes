@@ -4,7 +4,7 @@ _turns a nested [[effect type]] into a normal [[effect type]]_
 
 > **AKA** `flatten` in Rust
 
-see [[functional programming]]
+**see** [[functional programming]]
 
 **definition** the [[join function]] converts a nested "double-level" [[effect type]] into a "single-level" [[effect type]]
 

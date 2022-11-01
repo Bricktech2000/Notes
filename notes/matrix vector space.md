@@ -1,8 +1,8 @@
 # Matrix Vector Space
 
-see [[vector space]], [[math notation]], [[matrix]]
+**see** [[vector space]], [[math notation]], [[matrix]]
 
-see [[matrix]] for [[axiom]]s
+**see** [[matrix]] for [[axiom]]s
 
 **notation**
 

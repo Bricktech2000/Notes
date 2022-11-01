@@ -2,7 +2,7 @@
 
 absolute values can be defined as a piecewise [[function]]
 
-see [[math notation]]
+**see** [[math notation]]
 
 > **procedure** _solving an absolute value equality_ solve by cases
 

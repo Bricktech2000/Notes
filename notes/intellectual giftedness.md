@@ -1,5 +1,5 @@
 # Intellectual Giftedness
 
-see [[intellectual disability]]
+**see** [[intellectual disability]]
 
 **definition** an _intellectually gifted_ individual can be defined as a person with a level of intelligence more than two standard deviations above the mean. &mdash; me

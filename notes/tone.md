@@ -14,7 +14,7 @@ using [[passive and active voice]]s often influence [[tone]]
 
 **types**
 
-see <https://www.albert.io/blog/ultimate-list-of-tone-words/>
+**see** <https://www.albert.io/blog/ultimate-list-of-tone-words/>
 
 ## Sarcasm
 

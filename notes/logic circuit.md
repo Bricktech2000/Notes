@@ -1,6 +1,6 @@
 # Logic Circuit
 
-see [[digital system]], [[boolean logic]]
+**see** [[digital system]], [[boolean logic]]
 
 **see** [[truth table]], [[characteristic table]], [[excitation table]], [[characteristic equation]], [[truth table]], [[karnaugh map]], [[state table]], [[state diagram]], [[logic gate]]s
 
@@ -22,13 +22,13 @@ see [[digital system]], [[boolean logic]]
 
 _no feedback loops, no clocks_
 
-see [[truth table]], [[karnaugh map]]
+**see** [[truth table]], [[karnaugh map]]
 
 the outputs of a combinational [[logic circuit]] are a [[function]] the inputs, without side effects
 
 ### Sequential Logic Circuit
 
-see [[excitation table]], [[characteristic table]]
+**see** [[excitation table]], [[characteristic table]]
 
 the outputs of a sequential [[logic circuit]] can be based on previous inputs and can have side effects on future inputs
 
@@ -36,7 +36,7 @@ the outputs of a sequential [[logic circuit]] can be based on previous inputs an
 
 _for [[iti1100 a digital systems i]]_
 
-see [[math notation]]
+**see** [[math notation]]
 
 **definition**
 

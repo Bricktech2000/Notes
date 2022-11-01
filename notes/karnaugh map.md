@@ -34,7 +34,7 @@ as [[karnaugh map]]s are difficult to represent in more than two dimensions, mul
 
 ## Implicant
 
-see [[math notation]]
+**see** [[math notation]]
 
 in a [[karnaugh map]],
 

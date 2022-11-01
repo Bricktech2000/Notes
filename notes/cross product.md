@@ -1,6 +1,6 @@
 # Cross Product
 
-see [[math notation]], [[determinant]], [[vector]]
+**see** [[math notation]], [[determinant]], [[vector]]
 
 > **note** the [[cross product]] is only defined for [[vector in rn]]3
 
@@ -8,7 +8,7 @@ _results in a [[vector]] of [[length]] ([[area]] of the parallelogram formed by 
 
 **definition**
 
-see [[determinant]]
+**see** [[determinant]]
 
 $|a\ \check\mid\ b| = \det \begin{bmatrix}a \mid b\end{bmatrix}$ #think looks like the [[determinant]] of a non-square [[matrix]]
 

@@ -2,7 +2,7 @@
 
 _[[vector space]] Basis_
 
-see [[vector]], [[vector space]]
+**see** [[vector]], [[vector space]]
 
 **definition**
 
@@ -29,7 +29,7 @@ all [[basis]]es of a [[vector space]] have the same size
 
 ## Ordered Basis
 
-see [[math notation]]
+**see** [[math notation]]
 
 _a [[basis]] containing [[vector]]s in a specific order_
 

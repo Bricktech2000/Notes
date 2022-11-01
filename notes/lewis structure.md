@@ -1,6 +1,6 @@
 # Lewis Structure
 
-see [[molecular geometry]]
+**see** [[molecular geometry]]
 
 **definition** [[lewis structure]]s are diagrams that show the bonding between atoms of a molecule, as well as the lone pairs of [[electron]]s that may exist in the molecule. &mdash; Wikipedia
 

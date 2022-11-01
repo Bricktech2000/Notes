@@ -1,6 +1,6 @@
 # Polyatomic Cation
 
-see [[polyatomic anion]]
+**see** [[polyatomic anion]]
 
 > positively charged ion consisting of more than one atom
 

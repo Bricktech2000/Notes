@@ -1,5 +1,5 @@
 # Type Theory
 
-see [[type]]
+**see** [[type]]
 
 used for backlinks

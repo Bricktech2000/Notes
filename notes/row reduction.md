@@ -4,7 +4,7 @@ _a process for putting a matrix in [[RREF]]_
 
 ## Gaussian Elimination
 
-see [[linear system]], [[linear equation]], [[matrix]]
+**see** [[linear system]], [[linear equation]], [[matrix]]
 
 > **procedure** _putting a [[matrix]] in [[REF]]_
 >

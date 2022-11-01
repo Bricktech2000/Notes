@@ -1,6 +1,6 @@
 # Category Theory
 
-see [[category]]
+**see** [[category]]
 
 > "[[category theory]] is to programming what chemistry is to baking" &mdash; <https://youtu.be/SmXB2K_5lcA?t=414>
 

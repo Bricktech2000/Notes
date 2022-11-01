@@ -1,6 +1,6 @@
 # Ideal Gas
 
-see [[stoichiometry]], [[math notation]]
+**see** [[stoichiometry]], [[math notation]]
 
 **definition** An _ideal gas_ is a theoretical gas composed of many randomly moving point particles that are not subject to interparticle interactions. &mdash; Wikipedia
 

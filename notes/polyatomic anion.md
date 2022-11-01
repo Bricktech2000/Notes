@@ -1,6 +1,6 @@
 # Polyatomic Anion
 
-see [[polyatomic cation]]
+**see** [[polyatomic cation]]
 
 > negatively charged ion consisting of more than one atom
 

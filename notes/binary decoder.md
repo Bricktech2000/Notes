@@ -2,7 +2,7 @@
 
 _a [[logic circuit]] (or [[boolean]] [[function]]) that converts an $n$-bit binary number to a set of $2[n]$ outputs_
 
-see [[math notation]], [[binary]]
+**see** [[math notation]], [[binary]]
 
 **representation**
 

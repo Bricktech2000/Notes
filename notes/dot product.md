@@ -1,6 +1,6 @@
 # Dot Product
 
-see [[math notation]]
+**see** [[math notation]]
 
 the [[dot product]] is defined for any [[vector in rn]]
 

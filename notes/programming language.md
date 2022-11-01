@@ -4,8 +4,6 @@ used for backlinks
 
 **see**
 
-#todo replace all `see` lines with `**see**` lines
-
 [[statement]]
 
 [[expression]]

@@ -1,6 +1,6 @@
 # Acid and Base
 
-see [[buffer]], [[equilibrium]], [[conventional math notation]]
+**see** [[buffer]], [[equilibrium]], [[conventional math notation]]
 
 ## common [[acid]]s
 
@@ -54,7 +54,7 @@ _dissociate partially_
 
 ### relation between $K_a$ and $K_b$ for conjugate species only
 
-see [[equilibrium]]
+**see** [[equilibrium]]
 
 $K_a = \frac{K_w}{K_b} \therefore K_b = \frac{K_w}{K_a}$, where
 
@@ -63,7 +63,7 @@ $K_a = \frac{K_w}{K_b} \therefore K_b = \frac{K_w}{K_a}$, where
 
 ### Henderson-Hasselbalch equation
 
-see [[equilibrium]], see [[buffer]]
+**see** [[equilibrium]], see [[buffer]]
 
 ## Other
 

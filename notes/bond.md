@@ -1,6 +1,6 @@
 # Bond
 
-see [[orbital]], [[quantum numbers]]
+**see** [[orbital]], [[quantum numbers]]
 
 > A chemical bond is a lasting attraction between atoms, ions or molecules that enables the formation of chemical compounds. &mdash; Wikipedia
 
@@ -12,7 +12,7 @@ a triple bond is strong than a double bond, which is stronger than a single bond
 
 # Types of Bonds
 
-see [[bond]]
+**see** [[bond]]
 
 _there are three different main kinds of bonds_
 

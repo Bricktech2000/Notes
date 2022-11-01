@@ -1,6 +1,6 @@
 # Life-Long Investing
 
-see [[wealth]], [[sunk costs fallacy]], [[invest]]
+**see** [[wealth]], [[sunk costs fallacy]], [[invest]]
 
 the goal of this note is to study the following strategy:
 

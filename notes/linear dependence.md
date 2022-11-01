@@ -1,6 +1,6 @@
 # Linear Dependence
 
-see [[linearly dependent]], [[linearly independent]], [[vector]], [[vector space]], [[linear combination]]
+**see** [[linearly dependent]], [[linearly independent]], [[vector]], [[vector space]], [[linear combination]]
 
 **definition**
 

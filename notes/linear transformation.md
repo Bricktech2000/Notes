@@ -1,6 +1,6 @@
 # Linear Transformation
 
-see [[math notation]]
+**see** [[math notation]]
 
 **definition**
 

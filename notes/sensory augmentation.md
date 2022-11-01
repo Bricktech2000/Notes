@@ -1,6 +1,6 @@
 # Sensory Augmentation
 
-see [[umwelt]]
+**see** [[umwelt]]
 
 _adding new senses to the human body in a non-intrusive manner_
 

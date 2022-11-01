@@ -2,11 +2,11 @@
 
 _just a terrible programming language_
 
-see [[java is a terrible language]]
+**see** [[java is a terrible language]]
 
-see [[object-oriented programming]], [[object]], [[class]]
+**see** [[object-oriented programming]], [[object]], [[class]]
 
-see [[java primitive]], [[java reference]], [[java wrapper]], [[java auto boxing]]
+**see** [[java primitive]], [[java reference]], [[java wrapper]], [[java auto boxing]]
 
 ## Java Hello World
 
@@ -26,7 +26,7 @@ java HelloWorld.java
 
 ## Scopes
 
-see [[scope]]
+**see** [[scope]]
 
 Java [[scope]]s are defined using `{ /*...*/ }`
 
@@ -41,7 +41,7 @@ Java [[scope]]s are defined using `{ /*...*/ }`
 
 ## Overriding Equals
 
-see [[polymorphism]], [[java is a terrible language]]
+**see** [[polymorphism]], [[java is a terrible language]]
 
 overriding the `Object.equals` in Java must follow the pattern below &mdash; [[iti1121 c introductionto computing ii]]
 
@@ -81,7 +81,7 @@ abstract data [[type]]s can be implemented through [[interface]]s
 
 ## Classes
 
-see [[class]]
+**see** [[class]]
 
 in a [[java]] [[class]], a _final variable_ can only be initialized once
 
@@ -89,13 +89,13 @@ in a [[java]] [[class]], the order in which properties and methods are defined i
 
 ## Interfaces
 
-see [[interface]]s
+**see** [[interface]]s
 
 **definition** in [[java]], an _interface_ is an abstract [[type]] that is used to specify what behavior a [[class]] should implement. [[interface]]s may only contain abstract method signatures and constant declarations.
 
 ## Generics
 
-see [[generic]]s
+**see** [[generic]]s
 
 **definition** in [[java]], _generics_ are almost identical to `template`s in C++. behind the scenes, they seem to replace all instances of the generic [[type]] by `Object`, but they still allow for compile-time [[type]] checks to avoid runtime errors &mdash; <https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood>. see [[java is a terrible language]]
 

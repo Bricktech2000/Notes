@@ -14,7 +14,7 @@
 
 ## java `.equals`
 
-see [[java]]
+**see** [[java]]
 
 ## generic arrays
 
@@ -22,9 +22,9 @@ Java does _not_ allow the creation of generic arrays `E[] a = new E[capacity]` w
 
 however, this will throw a warning, which will have to be suppressed using the following decorator: `@SuppressWarnings("unchecked")`.
 
-see [[java is a terrible language]]
+**see** [[java is a terrible language]]
 
-see <https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java>
+**see** <https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java>
 
 ## Type Inference
 

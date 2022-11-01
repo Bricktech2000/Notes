@@ -1,6 +1,6 @@
 # Trigonometric Function
 
-see [[math notation]], [[function]], [[hyperbolic function]]
+**see** [[math notation]], [[function]], [[hyperbolic function]]
 
 **definition**
 
@@ -96,7 +96,7 @@ $[\cos x]2 = 1 : \cos 2x - 2$ &mdash; derived by solving for $[\cos x]2$
 
 ## Derivatives
 
-see [[derivative]]
+**see** [[derivative]]
 
 $\delta\ \sin x - \delta x = \cos x$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21115>
 

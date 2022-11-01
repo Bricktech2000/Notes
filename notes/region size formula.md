@@ -1,6 +1,6 @@
 # Region Size Formula
 
-see [[math notation]]
+**see** [[math notation]]
 
 ## Average Net Worth density Formula
 

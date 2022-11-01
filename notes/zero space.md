@@ -1,6 +1,6 @@
 # Zero Space
 
-see [[vector]], [[math notation]]
+**see** [[vector]], [[math notation]]
 
 **definition**
 

@@ -1,6 +1,6 @@
 # Vector Space
 
-see [[vector]], [[vector in rn]], [[matrix]], [[math notation]], [[basis]]
+**see** [[vector]], [[vector in rn]], [[matrix]], [[math notation]], [[basis]]
 
 **types** see [[vector]]
 
@@ -66,7 +66,7 @@ let $V\ \braket{\braket{v_0 \dots v_m}}$. if $U = \operatorname{span} \braket{\b
 
 ## Vector Space Isomorphism
 
-see [[category]], [[category theory]]
+**see** [[category]], [[category theory]]
 
 > Iso-Morphic &mdash; Same Shape
 

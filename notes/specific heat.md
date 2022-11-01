@@ -1,6 +1,6 @@
 # Specific Heat
 
-see [[math notation]]
+**see** [[math notation]]
 
 **definition**
 

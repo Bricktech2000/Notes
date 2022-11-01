@@ -1,6 +1,6 @@
 # Disjunctive Normal Form
 
-see [[conjunctive normal form]]
+**see** [[conjunctive normal form]]
 
 > **AKA** DNF, SoP
 
@@ -10,7 +10,7 @@ see [[conjunctive normal form]]
 
 > **procedure** _converting a [[boolean]] expression to [[disjunctive normal form]]_
 >
-> see [[boolean logic]]
+> **see** [[boolean logic]]
 >
 > 1. build a [[truth table]] using the [[boolean]] expression
 > 2. write a conjunctive clause for each $\top$ row of the [[truth table]]

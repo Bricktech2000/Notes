@@ -1,6 +1,6 @@
 # Economic Growth
 
-see [[wealth]], [[productivity]]
+**see** [[wealth]], [[productivity]]
 
 growth can be represented by the [[gross domestic product]] per person. often represented in percentage per year.
 

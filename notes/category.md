@@ -2,7 +2,7 @@
 
 &mdash; <https://youtu.be/yAi3XWCBkDo>
 
-see [[category theory]], [[functor]]
+**see** [[category theory]], [[functor]]
 
 **types**
 
@@ -104,7 +104,7 @@ epimorphisms are morphisms that are surjective, see [[function]]
 
 ## Composition
 
-see [[composition]]
+**see** [[composition]]
 
 let $f : A \to B$ and $g : B \to C$ be morphisms from $A$ to $B$ and $B$ to $C$. then, there must exist a morphism $h : A \to C$ from $A$ to $C$ that is the [[composition]] of $f$ and $g$.
 

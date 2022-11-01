@@ -1,6 +1,6 @@
 # Monad
 
-see [[functional programming]], [[return function]], [[bind function]], [[join function]]
+**see** [[functional programming]], [[return function]], [[bind function]], [[join function]]
 
 **definition** a [[monad]]:
 
@@ -11,7 +11,7 @@ see [[functional programming]], [[return function]], [[bind function]], [[join f
 
 **applications**
 
-see [[bind function]]
+**see** [[bind function]]
 
 **properties**
 

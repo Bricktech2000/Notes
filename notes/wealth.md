@@ -1,6 +1,6 @@
 # Wealth
 
-see [[money]]
+**see** [[money]]
 
 **definition** _wealth_ is the total of all [[money|stores-of-value]], including both monetary and non-monetary assets
 

@@ -1,6 +1,6 @@
 # Derivative Rules
 
-see [[derivative]] notation, [[math notation]]
+**see** [[derivative]] notation, [[math notation]]
 
 ## Power Rule
 

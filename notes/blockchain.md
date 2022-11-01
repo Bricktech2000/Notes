@@ -2,6 +2,6 @@
 
 _a decentralized [[persistent data structure]]_
 
-see [[cryptocurrency]]
+**see** [[cryptocurrency]]
 
 used for backlinks

@@ -1,6 +1,6 @@
 # Breadth-First Search
 
-see [[queue]], [[set]]
+**see** [[queue]], [[set]]
 
 **representation**
 

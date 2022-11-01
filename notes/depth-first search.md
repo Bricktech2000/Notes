@@ -1,6 +1,6 @@
 # Depth-First Search
 
-see [[stack]], [[set]]
+**see** [[stack]], [[set]]
 
 **representation**
 

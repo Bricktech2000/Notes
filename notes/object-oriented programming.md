@@ -1,6 +1,6 @@
 # Object-Oriented Programming
 
-see [[object]], [[class]]
+**see** [[object]], [[class]]
 
 the goal of [[object-oriented programming]] is to build [[object]]s based on their real-world properties
 

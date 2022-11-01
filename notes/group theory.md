@@ -1,6 +1,6 @@
 # Group Theory
 
-see [[group]]
+**see** [[group]]
 
 there appears to be a standard way to build [[number]] systems. [[group theory]] is all about formalizing this observation
 

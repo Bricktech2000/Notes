@@ -1,6 +1,6 @@
 # Relation
 
-see [[set]], [[cartesian product]], [[math notation]]
+**see** [[set]], [[cartesian product]], [[math notation]]
 
 **definition**
 

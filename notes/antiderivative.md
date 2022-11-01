@@ -1,6 +1,6 @@
 # Antiderivative
 
-see [[math notation]], [[function]], [[derivative]], [[calculus notation]]
+**see** [[math notation]], [[function]], [[derivative]], [[calculus notation]]
 
 > **note** a [[function]] has an infinite number of [[antiderivative]]s
 

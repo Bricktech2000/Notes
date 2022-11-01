@@ -1,6 +1,6 @@
 # Functor
 
-see [[functional programming]], [[return function]], [[map function]]
+**see** [[functional programming]], [[return function]], [[map function]]
 
 **definition**
 

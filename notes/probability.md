@@ -1,6 +1,6 @@
 # Probability
 
-see [[math notation]], [[boolean logic]]
+**see** [[math notation]], [[boolean logic]]
 
 **definition** a _sample space_ $S$ is a [[set]] of elements
 
@@ -10,7 +10,7 @@ see [[math notation]], [[boolean logic]]
 
 if all events are equally likely to occur in the space, then $P \braket{E, S} = \#\ E - \#\ S$
 
-see [[set]] cardinality
+**see** [[set]] cardinality
 
 ## Multiplicative Rule
 

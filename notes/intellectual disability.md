@@ -1,6 +1,6 @@
 # Intellectual Disability
 
-see [[intellectual giftedness]]
+**see** [[intellectual giftedness]]
 
 > **AKA** mental retardation (formerly), general learning disability (UK)
 

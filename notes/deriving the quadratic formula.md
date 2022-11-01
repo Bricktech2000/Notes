@@ -1,6 +1,6 @@
 # Deriving the Quadratic Formula
 
-see [[conventional math notation]], [[quadratic formula]]
+**see** [[conventional math notation]], [[quadratic formula]]
 
 $y = a(x - h)^2 + k$
 

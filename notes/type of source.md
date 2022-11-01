@@ -1,6 +1,6 @@
 # Type of Source
 
-see [[finding sources]]
+**see** [[finding sources]]
 
 ## Encyclopedia and Newspaper Articles
 

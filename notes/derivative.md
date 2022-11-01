@@ -1,6 +1,6 @@
 # Derivative
 
-see [[math notation]], [[derivative rules]], [[function]], [[calculus notation]]
+**see** [[math notation]], [[derivative rules]], [[function]], [[calculus notation]]
 
 **definition** _in [[conventional math notation]]_
 
@@ -20,7 +20,7 @@ $\delta\ f\ p - \delta p = (\delta\ f\ p - \delta p^0, \delta\ f\ p - \delta p^1
 
 _Lagrange's notation_
 
-see [[conventional math notation]]
+**see** [[conventional math notation]]
 
 $f'(x)$, $f''(x)$, $f'''(x)$
 
@@ -28,7 +28,7 @@ $f^{(n)}(x)$
 
 _Leibniz's Notation_
 
-see [[conventional math notation]]
+**see** [[conventional math notation]]
 
 $\frac{d}{dx}f(x) = \frac{df}{dx}$
 
@@ -44,7 +44,7 @@ $d^n f$ would then be the $n$ th [[derivative]] of $f\ x$ with respect to $x$
 
 ## Directional Derivative
 
-see [[gradient]]
+**see** [[gradient]]
 
 **definition**
 

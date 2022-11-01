@@ -1,6 +1,6 @@
 # Series
 
-see [[math notation]], [[sequence]], [[calculus notation]]
+**see** [[math notation]], [[sequence]], [[calculus notation]]
 
 **definition** a _series_ is the expression representing sum of all elements of a [[sequence]]
 
@@ -178,9 +178,9 @@ _convergence_ a geometric [[series]] $b^0r0 : b^0r1 :\dots$ with $b^0 \ne 0$:
 
 **definition** a _p-series_ is a [[series]] in the form $\text-[0]p : \text-[1]p : \dots$ with $p > 0$
 
-## [[taylor series]]
+## Taylor Series
 
-see [[taylor series]]
+**see** [[taylor series]]
 
 ## Power Series
 
@@ -213,14 +213,14 @@ _convergence_ a power [[series]] either:
 
 ## Harmonic Series
 
-**definition** the _harmonic [[series]]_ is defined as $1 \text- 1 : 1 \text- 2 : 1 \text- 3 : \dots$
+**definition** the _harmonic [[series]]_ is defined as $\text-1 : \text-2 : \text-3 : \dots$
 
-**definition** the _alternating harmonic [[series]]_ is defined as $1 \text- 1 \cdot 1 \text- 2 : 1 \text- 3 \cdot 1 \text- 4 : \dots$
+**definition** the _alternating harmonic [[series]]_ is defined as $\text-1 \cdot \text-2 : \text-3 \cdot \text-4 : \dots$
 
 **properties**
 
 _convergence_ the harmonic [[series]] diverges
 
-_convergence_ the alternating harmonic [[series]] converges at $\lceil 2 \rceil$
+_convergence_ the alternating harmonic [[series]] converges to $\lceil 2 \rceil$
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=21458>

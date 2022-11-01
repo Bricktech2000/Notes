@@ -1,6 +1,6 @@
 # Forward Propagation
 
-see [[math notation]], [[neural network]], [[matrix]]
+**see** [[math notation]], [[neural network]], [[matrix]]
 
 ## mathematics
 

@@ -1,6 +1,6 @@
 # Latch
 
-see [[logic gate]], [[flip-flop]], [[logic circuit]]
+**see** [[logic gate]], [[flip-flop]], [[logic circuit]]
 
 all [[latch]]es can be turned into [[flip-flop]]s and all [[flip-flop]]s can be turned into [[latch]]es
 

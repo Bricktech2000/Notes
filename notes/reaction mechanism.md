@@ -1,6 +1,6 @@
 # Reaction Mechanism
 
-see [[reaction rate]], [[equilibrium]]
+**see** [[reaction rate]], [[equilibrium]]
 
 ## Elementary Steps
 

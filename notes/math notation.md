@@ -1,6 +1,6 @@
 # Math Notation
 
-see [[conventional math notation]]
+**see** [[conventional math notation]]
 
 this note describes my own [[math notation]], meant to solve inconsistencies in [[conventional math notation]]. it is not meant to be a fully formal system of [[mathematics]]; rather, it is built to be easy to understand and intuitive to use by mere humans.
 
@@ -183,4 +183,4 @@ the resonant frequency of an LC circuit in [[conventional math notation]]: $f = 
 
 compared to in my [[math notation]]: $f = -\tau \lfloor LC \rfloor$
 
-see [[random math notation formulas]] for more examples
+**see** [[random math notation formulas]] for more examples

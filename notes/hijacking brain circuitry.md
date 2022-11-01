@@ -30,4 +30,4 @@ the [[brain]] circuitry being hijacked is often related to our [[intent to maste
 
 ## Video Games
 
-see [[video game]]s
+**see** [[video game]]s

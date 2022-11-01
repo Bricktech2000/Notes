@@ -1,6 +1,6 @@
 # Reliable Source
 
-see [[finding sources]]
+**see** [[finding sources]]
 
 ## Peer-Reviewed Sources
 

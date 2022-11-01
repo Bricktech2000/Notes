@@ -2,7 +2,7 @@
 
 a set of [[linear equation]]s
 
-see [[row reduction]], [[math notation]], [[matrix]]
+**see** [[row reduction]], [[math notation]], [[matrix]]
 
 **definition** the _general solution_ is the [[set]] of all solutions to a system
 

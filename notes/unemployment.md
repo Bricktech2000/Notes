@@ -6,7 +6,7 @@
 
 ## Measuring Unemployment
 
-see [[math notation]]
+**see** [[math notation]]
 
 every month, Statistics Canada (SC) conducts the Labour Force Survey (LFS). the following data is collected from 54000 households:
 

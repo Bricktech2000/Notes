@@ -13,7 +13,7 @@ probing [[function]]s include:
 
 ## Cycle Length
 
-see [[set]]
+**see** [[set]]
 
 **definition** the _cycle length_ of a [[probing]] [[function]] $P\ i\ k$ given a [[list]] length $n$ is the minimum number of iterations of $P\ i\ k \bmod n$ that must be performed before the sequence repeats.
 

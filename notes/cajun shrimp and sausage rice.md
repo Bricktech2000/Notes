@@ -2,7 +2,7 @@
 
 ## Directions
 
-see [[improved recipe structure]]
+**see** [[improved recipe structure]]
 
 - In a large stockpot over medium heat, heat <u>**1 tbsp olive oil**</u> until shimmering. Cook <u>**8 oz sweet Italian sausage links**</u> until browned and cooked through. Transfer them to a plate and tent with aluminum foil.<br><br>
 

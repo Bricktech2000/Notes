@@ -2,7 +2,7 @@
 
 _The quantity of goods and services produced per unit of a worker’s [[time]]_
 
-see [[wealth]], [[economic growth]]
+**see** [[wealth]], [[economic growth]]
 
 ## importance of productivity
 

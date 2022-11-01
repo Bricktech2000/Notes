@@ -2,7 +2,7 @@
 
 _plane angle_
 
-see [[math notation]], [[international system of units]]
+**see** [[math notation]], [[international system of units]]
 
 $\tau \text{ rad} = 1 \text{ turn}$, the circumference of a [[circle]]
 

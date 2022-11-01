@@ -2,7 +2,7 @@
 
 ## Number Sets
 
-see [[set]]
+**see** [[set]]
 
 _[[set]]s of [[number]]s_
 

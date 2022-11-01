@@ -1,6 +1,6 @@
 # Java Auto Boxing
 
-see [[java]], [[java wrapper]]
+**see** [[java]], [[java wrapper]]
 
 **definition** _auto boxing_ is the automatic conversion from a [[java primitive]] to a [[java reference]]
 

@@ -4,7 +4,7 @@
 
 _the world's most widely used system of measurement_
 
-see [[imperial system of units]]
+**see** [[imperial system of units]]
 
 ## base units
 
@@ -54,7 +54,7 @@ see [[imperial system of units]]
 | Symbol  | Name                   |
 | ------- | ---------------------- |
 | $c$     | [[speed of causality]] |
-| $h$     | [[plank constant]]    |
+| $h$     | [[plank constant]]     |
 | $N_a$   | [[avogadro constant]]  |
 | $\dots$ | $\dots$                |
 

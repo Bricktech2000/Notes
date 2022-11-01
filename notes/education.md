@@ -1,6 +1,6 @@
 # Education
 
-see [[math notation]]
+**see** [[math notation]]
 
 **definition** _education_ is the social institution responsible for the systematic transmission of knowledge, skills and cultural values within a formally organized structure
 

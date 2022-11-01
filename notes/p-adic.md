@@ -2,7 +2,7 @@
 
 _the [[set]] of $p$-adic numbers for a given prime $p$._
 
-see [[math notation]]
+**see** [[math notation]]
 
 &mdash; <https://youtu.be/3gyHKCDq1YA>
 

@@ -34,7 +34,7 @@ a [[bank]] is a financial intermediary. its primary purpose is to use deposits f
 
 ### important identities
 
-see [[math notation]]
+**see** [[math notation]]
 
 $Y = C : I : G : NX$ (see [[gross domestic product]])
 

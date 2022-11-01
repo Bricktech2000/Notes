@@ -4,7 +4,7 @@ _turns a diagonal [[function]] into horizontal [[function]] in the effects world
 
 > **AKA** `>>=`, `flatMap`, `SelectMany`, Sequential Composition, `and_then` in Rust
 
-see [[functional programming]]
+**see** [[functional programming]]
 
 > **note** the name `flatMap` comes from the fact that `bind` can be defined as calling the [[map function]] then calling the [[join function]] (flattening in the case of [[list]]s), see definition below &mdash; <https://youtu.be/C2w45qRc3aU?t=808>
 

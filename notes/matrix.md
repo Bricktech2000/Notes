@@ -1,6 +1,6 @@
 # Matrix
 
-see [[math notation]]
+**see** [[math notation]]
 
 **definition** _formally in my [[math notation]]_ a [[matrix]] in $\mathbb R^{m, n}$ is a [[set theory]]etical [[function]] with domain at least $\braket{x, y} \rightarrow \mathbb N x \land \mathbb N y \land 0 \le x < m \land 0 \le y < n$ that takes an [[ordered pair]] as an index and returns the element at that index
 
@@ -10,7 +10,7 @@ $\begin{bmatrix}a & b \\\ c & d\end{bmatrix}$
 
 ## Multiplication by a Scalar
 
-see [[matrix vector space]], [[vector space]]
+**see** [[matrix vector space]], [[vector space]]
 
 **definition**
 
@@ -22,7 +22,7 @@ _commutativity with [[scalar]]s_ $kA = Ak$
 
 ## Matrix Addition
 
-see [[matrix vector space]], [[vector space]]
+**see** [[matrix vector space]], [[vector space]]
 
 **definition**
 
@@ -30,7 +30,7 @@ $(A : B)^{i, j} = A^{i, j} : B^{i, j} \dashv \mathbb N i \land \mathbb N j \land
 
 ## Matrix Multiplication
 
-see [[dot product]], [[vector in rn]]
+**see** [[dot product]], [[vector in rn]]
 
 **definition**
 
@@ -88,7 +88,7 @@ $AI = A \land IA = A \dashv \mathbb M A$
 
 ## Zero Matrix
 
-see [[matrix vector space]], [[vector space]]
+**see** [[matrix vector space]], [[vector space]]
 
 **definition**
 
@@ -211,7 +211,7 @@ $AA^- = A^-A = I \dashv \mathbb M A$, where
 
 **definition** an _invertible matrix_ has a corresponding inverse [[matrix]]
 
-see theorems below for invertability criteria
+**see** theorems below for invertability criteria
 
 **properties**
 
@@ -239,7 +239,7 @@ if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 
 > **procedure** _computing the inverse of a $2$ by $2$ [[matrix]]_
 >
-> see [[determinant]]
+> **see** [[determinant]]
 >
 > let $A = \begin{bmatrix}a & b \\\  c & d\end{bmatrix}$
 >
@@ -281,7 +281,7 @@ $[D]x$ can be calculated by raising every entry of $D$ to the power $x$
 
 ## Diagonalizable Matrix
 
-see [[eigenvector]]
+**see** [[eigenvector]]
 
 **definition** an $n$ by $n$ [[matrix]] $A$ is said to be _diagonalizable over the reals_ if there exists a [[basis]] of $\mathbb R^n$ consisting entirely of [[eigenvector]]s of $A$
 
@@ -309,7 +309,7 @@ a [[matrix]] is _diagonalizable_ if and only if the geometic [[multiplicity]] of
 
 ## theorems
 
-see [[linear system]]
+**see** [[linear system]]
 
 **theorem**
 
@@ -323,7 +323,7 @@ let $\mathbb M^{m, n}A$ (see [[matrix]]). the following [[logic statement]]s are
 - $\dim Ker\ A = 0$
 - $rank\ A = n$
 
-see [[linear system theorem proof]]
+**see** [[linear system theorem proof]]
 
 **theorem**
 

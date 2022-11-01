@@ -1,6 +1,6 @@
 # Sigmoid Function
 
-see [[math notation]], [[function]], [[neural network]], [[calculus]]
+**see** [[math notation]], [[function]], [[neural network]], [[calculus]]
 
 **definition**
 
@@ -15,7 +15,7 @@ $\sigma\ z = -1 : e[\cdot z]$, where
 
 ## Derivative
 
-see [[derivative]]
+**see** [[derivative]]
 
 $\delta\ \sigma\ z - \delta z = -[1 : e[\cdot z]]2 \mid e[\cdot z] = (1 - 1 : e[\cdot z]) \mid (e[\cdot z] - 1 : e[\cdot z]) = \sigma\ z \mid 1 \cdot \sigma\ z$
 

@@ -1,6 +1,6 @@
 # Limit
 
-see [[math notation]], [[limit rules]]
+**see** [[math notation]], [[limit rules]]
 
 **notation** _the limit of $f\ x$ as $x$ approaches $a$._
 
@@ -32,7 +32,7 @@ let $f\ x$ be a [[function]] with domain $D$ defined on an open interval around 
 
 ## Limits of Trigonometric Functions
 
-see [[trigonometric function]]
+**see** [[trigonometric function]]
 
 let $\theta$ be an angle in radians
 

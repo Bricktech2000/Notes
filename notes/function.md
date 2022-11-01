@@ -1,6 +1,6 @@
 # Function
 
-see [[math notation]]
+**see** [[math notation]]
 
 **definition**
 
@@ -37,7 +37,7 @@ one can use the _horizontal line test_ to determine whether the graph of a curve
 
 ## Vector Space Axioms
 
-see [[function vector space]], [[vector space]]
+**see** [[function vector space]], [[vector space]]
 
 **properties**
 
@@ -87,7 +87,7 @@ _an odd function is symmetrical about the y axis, but also flipped about the x a
 
 ## Increasing and Decreasing Functions
 
-see [[calculus notation]]
+**see** [[calculus notation]]
 
 **definition** a [[function]] $f$ is _increasing_ on an interval $x \rightarrow (a \le x \le b)$ if $x_1 < x_2 \vdash f\ x_1 < f\ x_2$, or $\delta\ f\ x - \delta x > 0$ on that interval
 
@@ -95,7 +95,7 @@ see [[calculus notation]]
 
 ## Function Concavity
 
-see [[calculus notation]]
+**see** [[calculus notation]]
 
 **definition** a [[function]] $f\ x$ is _concave up_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x < 0$, it _bends upwards_
 
@@ -105,7 +105,7 @@ a point where concavity changes (from up to down or down to up) is an [[inflecti
 
 ## Function Extremum
 
-see [[inflection point]], [[derivative]]
+**see** [[inflection point]], [[derivative]]
 
 > extrema are the largest and smallest value of the function, either within a given range (the local or relative extrema), or on the entire domain (the global or absolute extrema). &mdash; Wikipedia
 
@@ -144,7 +144,7 @@ let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number o
 
 ## Continuity
 
-see [[math notation]]
+**see** [[math notation]]
 
 **definition** a [[function]] $f\ x$ is _continuous_ at $x = a$ if $f\ x\ \ \vdots\ \ x \rightarrow a = f\ a$
 
@@ -243,7 +243,7 @@ the _absolute error_ $\Delta f$ and _relative error_ $\Delta f - f\ x$ on a [[fu
 
 ## Function Average
 
-see [[integral]]
+**see** [[integral]]
 
 **definition**
 
@@ -258,7 +258,7 @@ $f_{ave} = F\ b \cdot F\ a - b \cdot a$, where
 
 ## Function Arclength
 
-see [[integral]]
+**see** [[integral]]
 
 **definition** $f_{arc} = \int \lfloor 1 : [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
 
@@ -322,7 +322,7 @@ a [[function]] can be proven to be bijective by proving it is both injective and
 
 ## Analytic Function
 
-see [[derivative]]
+**see** [[derivative]]
 
 **definition** an _analytic [[function]]_ is a [[function]] that is locally given by a convergent power [[series]] &mdash; Wikipedia
 

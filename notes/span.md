@@ -1,6 +1,6 @@
 # Span
 
-see [[math notation]], [[linear combination]]
+**see** [[math notation]], [[linear combination]]
 
 **definition**
 

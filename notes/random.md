@@ -612,7 +612,7 @@ $5 / 3, 4 / 3, \text{corresponding z}$
 
 ### ???
 
-see [[why-how-what]]
+**see** [[why-how-what]]
 
 - Organization
 - movies and readings read?

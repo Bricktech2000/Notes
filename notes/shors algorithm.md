@@ -1,6 +1,6 @@
 # Shor's Algorithm
 
-see [[algorithm]]
+**see** [[algorithm]]
 
 _allows quantum computers to [[factor]] large numbers way faster than conventional computers can_
 

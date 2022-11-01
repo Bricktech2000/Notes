@@ -19,7 +19,7 @@ _negation_ $\cdot\braket{a, b} \equiv \braket{\cdot a, \cdot b}$
 
 ## Vector Space Axioms
 
-see [[ordered pair vector space]], [[vector space]]
+**see** [[ordered pair vector space]], [[vector space]]
 
 **properties**
 

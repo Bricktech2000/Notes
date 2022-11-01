@@ -14,11 +14,11 @@ vectors can form [[vector space]]s
 
 [[ordered pair]]s, see [[ordered pair vector space]]
 
-see [[zero space]]
+**see** [[zero space]]
 
 **properties**
 
-see [[math notation]]
+**see** [[math notation]]
 
 let $\mathbb R^n (u, v, w) \dashv \mathbb N n$
 

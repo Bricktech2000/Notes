@@ -1,6 +1,6 @@
 # Characteristic Polynomial
 
-see [[math notation]], [[eigenvector and eigenvalue]]
+**see** [[math notation]], [[eigenvector and eigenvalue]]
 
 **definition**
 

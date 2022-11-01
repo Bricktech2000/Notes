@@ -1,6 +1,6 @@
 # Composition
 
-see [[math notation]], [[function]]
+**see** [[math notation]], [[function]]
 
 **definition** _composition in my [[math notation]]_
 

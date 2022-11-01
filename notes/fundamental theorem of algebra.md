@@ -1,6 +1,6 @@
 # Fundamental Theorem of Algebra
 
-see [[math notation]], [[complex]], [[factor]], [[quadratic formula]]
+**see** [[math notation]], [[complex]], [[factor]], [[quadratic formula]]
 
 > **theorem**: _Fundamental Theorem of Algebra_
 >

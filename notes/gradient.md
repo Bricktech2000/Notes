@@ -2,7 +2,7 @@
 
 _gives a [[vector]] representing the direction of steepest ascent of a [[function]]_
 
-see [[calculus]], partial [[derivative]]s
+**see** [[calculus]], partial [[derivative]]s
 
 **definition**
 

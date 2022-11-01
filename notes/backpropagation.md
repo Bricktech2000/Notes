@@ -2,7 +2,7 @@
 
 _algorithm to compute the [[gradient]] of a [[neural network]] efficiently_
 
-see [[math notation]], [[neural network]], [[calculus]], [[calculus notation]]
+**see** [[math notation]], [[neural network]], [[calculus]], [[calculus notation]]
 
 &mdash; <https://youtu.be/kbGu60QBx2o>
 

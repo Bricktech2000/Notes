@@ -1,6 +1,6 @@
 # Mean Value Theorem
 
-see [[math notation]]
+**see** [[math notation]]
 
 ## for Functions
 
