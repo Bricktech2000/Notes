@@ -83,7 +83,7 @@ private // can only be called internally. data marked private is still visible o
 external // can only be called externally
 internal // can only be called internally and by derived contracts
 
-returns(type) // returns a value of type `type`
+returns (type) // returns a value of type `type`
 
 modifier // user-defined modifiers
 ```
@@ -122,6 +122,7 @@ is, super
 >   }
 >   // ...
 > }
+>
 > ```
 
 ## Factories
@@ -141,15 +142,16 @@ new
 > contract Factory {
 >   address public lastContract;
 >
->   function create() public returns(address) {
+>   function create() public returns (address) {
 >     lastContract = new Contract();
 >     return lastContract;
 >   }
 >
->   function getLastContractX() public view returns(uint) {
+>   function getLastContractX() public view returns (uint) {
 >     return Contract(lastContract).x();
 >   }
 > }
+>
 > ```
 
 ## Globals
@@ -169,9 +171,10 @@ address(contract) // address of `contract`
 > **example** _globals_
 >
 > ```solidity
-> function get() public view returns(address) {
+> function get() public view returns (address) {
 >   return address(this);
 > }
+>
 > ```
 
 ## Units
@@ -210,6 +213,7 @@ contract Counter {
     count += 1;
   }
 }
+
 ```
 
 ## #todo

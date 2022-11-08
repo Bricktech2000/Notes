@@ -12,21 +12,9 @@
 
 **definition**
 
-a category $\mathcal C$ consists of:
+a category $\mathcal C$ consists of _objects_ and _morphisms_ with _composition_ and _identities_ all subject to the _associativity law_ and the _identity law_
 
-- Objects
-- Morphisms
-
-all subject to:
-
-- Composition
-- Identities
-- the Associativity Law
-- the Identity Laws
-
-> **example** <https://youtu.be/yAi3XWCBkDo?t=652>
-
-> **counterexample** <https://youtu.be/yAi3XWCBkDo?t=762>
+> **example** [[real]]s and the $\le$ operator form a [[category]] &mdash; <https://youtu.be/yAi3XWCBkDo?t=652>
 
 objects and morphisms do not contain any information; composition and identities do. the goal is to encode everything in composition and identities
 
@@ -122,7 +110,7 @@ identities are morphisms that [[map]] an object to itself. in a category, each o
 
 an identity is denoted $1_A: A \to A$ or as $\textbf{id}_A : A \to A$ in [[conventional math notation]].
 
-### Identity Laws
+### Identity Law
 
 for every object $A$ there is an arrow which is a unit of [[composition]]. let $f : A \to B$ and let $\circ$ be the [[composition]] [[operator]]. then,
 
@@ -132,11 +120,11 @@ $\textbf{id}_B \circ f = f$
 
 in Haskell, let `id :: a -> a`. then, `id x = x`
 
-## [[functor]]s
+## Functors
 
 [[functor]]s are morphisms that [[map]] a [[category]] to another [[category]]. this leads to [[category]]es of [[category]]es
 
-to do so, they must [[map]] both objects and morphisms between the [[category]]es and preserve the identity and composition laws
+to do so, they must use a pair of [[function]]s to [[map]] both objects and morphisms between the [[category]]es and preserve the identity and composition laws
 
 ## Opposite Category
 

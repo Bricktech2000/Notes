@@ -4,9 +4,9 @@
 
 **definition** a _habit_ is a routine or behavior that is performed regularly and in many cases automatically &mdash; <https://youtu.be/zUm3fKk00J8?t=725>
 
-**definition** a _good habit_ is a [[habit]] with low short-term reward but high long-term reward &mdash; me
+**definition** a _good habit_ is a [[habit]] with low short-term reward but high long-term reward &mdash; me and <https://youtu.be/zUm3fKk00J8?t=17314>
 
-**definition** a _bad habit_ is a [[habit]] with high short-term reward but low long-term reward &mdash; me
+**definition** a _bad habit_ is a [[habit]] with high short-term reward but low long-term reward &mdash; me and <https://youtu.be/zUm3fKk00J8?t=17314>
 
 &mdash; <https://youtu.be/PZ7lDrwYdZc?t=1123>
 

@@ -6,20 +6,14 @@ _extended Backus-Naur form_
 
 &mdash; <https://youtu.be/4m7ubrdbWQU?t=365>
 
+&mdash; <https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form>
+
 > **example**
 >
-> ```ebnf
-> Program
->   : StatementList
->   ;
+> ```bnf
+> <program> ::= <statement-list>
 >
-> Statement
->   : BlockStatement
->   | IfStatement
->   | FunctionDeclaration
->   ;
+> <statement> ::= <block-statement> | <if-statement> | function-declaration
 >
-> FunctionDecleration
->   : def Identifier ( Arguments ) BlockStatement
->   ;
+> <function-decleration> ::= "def" <identifier> "(" <parameter-list> ")" <block-statement>
 > ```

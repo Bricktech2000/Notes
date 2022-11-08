@@ -94,15 +94,11 @@ $\mathbb R z \equiv \operatorname{conj} z = z$
 
 multiplying by the conjugate can be used to reduce an expression such as $- 4 : 3\iota$
 
-## Absolute Value
+## Modulus
 
-> **AKA** magnitude
+> **AKA** magnitude, absolute value
 
-**definition**
-
-let $z = a : b\iota$
-
-then, $|z| = \lfloor a2 : b2 \rfloor = \lfloor z^{re}2 : z^{im}2 \rfloor$ is the _absolute value_ of $z$.
+**definition** $|z| = \lfloor z^{re}2 : z^{im}2 \rfloor$ where $|z|$ is the _absolute value_ of $z$.
 
 > **note** the absolute value of [[real]]s can be thought of as "the [[distance]] of a point to the origin", which is why the absolute value of [[complex]] numbers is defined this way
 
@@ -119,3 +115,11 @@ $|zw| = |z|\ |w|$
 $|z - w| = |z| - |w|$
 
 _triangle inequality_ $|z : w| \le |z| : |w|$
+
+## Argument
+
+> **AKA** phase
+
+**definition** the _argument_ of a [[complex]] number $z$ is the counterclockwise [[angle]] between the positive [[real]] axis and the [[line in rn]] segment from the origin to the point $(z^{re}, z^{im})$
+
+**definition** $z = |z|\ e[\iota \arg z]$ where $\arg z$ is the _argument_ of $z$

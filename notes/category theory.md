@@ -19,8 +19,6 @@ there appears to be a standard way to build contexts in which we do [[mathematic
 
 ---
 
-the _curry-howard-lambek isomorphism_ states that [[logic]], [[type theory]] and some subset of [[category theory]] are all equivalent &mdash; <https://youtu.be/I8LbkfSSR58?t=1681>
-
 [[function]]s and [[type]]s can be viewed as morphisms and objects in a [[category theory]] context
 
 the [[empty]] [[set]] corresponds to the [[type]] `Void` in Haskell, which corresponds to $\bot$ in [[logic]] from a [[category theory]] perspective. when looking at propositions as types, [[function]]s are [[proof]]s. $\bot$ cannot be proven, similarly to how a [[function]] that takes `Void` as a parameter cannot be called
@@ -58,3 +56,21 @@ universal construction:
 &mdash; <https://miklos-martin.github.io/learn/fp/category-theory/2018/02/01/adventures-in-category-theory-the-algebra-of-types.html>
 
 factorizes &mdash; <https://youtu.be/Bsdl_NKbNnU?t=1011>
+
+the _curry-howard-lambek isomorphism_ states that [[logic]], [[type theory]] and some subset of [[category theory]] are all equivalent &mdash; <https://youtu.be/I8LbkfSSR58?t=1681>
+
+> **AKA** #todo curry-howard correspondence, propositions as types #todo #think see <https://youtu.be/IOiZatlZtGU?t=1490>
+
+#think <https://youtu.be/IOiZatlZtGU?t=2334>
+
+#think <https://youtu.be/gui_SE8rJUM?t=605> from timestamp to #todo
+
+exponintials are functions &mdash; <https://youtu.be/gui_SE8rJUM?t=1950>
+
+system F (polymorphism) and system Fω (constructor on types) &mdash; <https://youtu.be/gui_SE8rJUM?t=2074>
+
+duals are DeMorgan's laws in category theory &mdash; <https://youtu.be/gui_SE8rJUM?t=2176>
+
+exponential laws in category theory &mdash; <https://youtu.be/gui_SE8rJUM?t=2379>
+
+proper category and functor definitions &mdash; <https://youtu.be/H0Ek86IH-3Y>

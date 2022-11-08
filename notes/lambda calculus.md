@@ -16,6 +16,33 @@ used for backlinks
 
 [[lambda calculus]] is the basis for most [[functional programming]] languages
 
+## Syntax
+
+**see** [[backus-naur form]]
+
+&mdash; <https://youtu.be/IOiZatlZtGU?t=292>
+
+&mdash; <https://opendsa-server.cs.vt.edu/OpenDSA/Books/PL/html/Syntax.html>
+
+**definition**
+
+_in [[conventional math notation]]_
+
+```bnf
+<expr> ::= <var>              ; variable
+         | λ <var> . <expr>   ; abstraction
+         | (<expr> <expr>)    ; application
+```
+
+_in my [[math notation]]_
+
+```bnf
+<expr> ::= <var>             ; variable
+         | <var> -> <expr>   ; abstraction
+         | <expr> <expr>     ; application
+         | (<expr>)
+```
+
 ## Church Booleans
 
 [[boolean]] values and [[boolean logic]] [[operator]]s can be defined as follows:

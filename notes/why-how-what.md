@@ -161,6 +161,8 @@ _what_ represents the item itself
 
 [[deriving the quadratic formula]]
 
+[[fourier transform]]
+
 **finance**
 
 [[price-value sigmoid]]
@@ -188,6 +190,8 @@ _what_ represents the item itself
 [[public speaking]]
 
 [[vim talk]]
+
+[[neat talk]]
 
 **standard**
 
@@ -343,6 +347,8 @@ _what_ represents the item itself
 
 [[vim talk]]
 
+[[neat talk]]
+
 [[deriving the quadratic formula]]
 
 [[recipes]]
@@ -430,3 +436,5 @@ _what_ represents the item itself
 [[nervous system]]
 
 [[hypnosis]]
+
+[[fourier transform]]

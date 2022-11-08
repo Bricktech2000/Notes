@@ -1,6 +1,6 @@
 # Matrix
 
-**see** [[math notation]]
+**see** [[math notation]], [[eigenvector and eigenvalue]]s
 
 **definition** _formally in my [[math notation]]_ a [[matrix]] in $\mathbb R^{m, n}$ is a [[set theory]]etical [[function]] with domain at least $\braket{x, y} \rightarrow \mathbb N x \land \mathbb N y \land 0 \le x < m \land 0 \le y < n$ that takes an [[ordered pair]] as an index and returns the element at that index
 
@@ -304,8 +304,6 @@ a [[matrix]] is _diagonalizable_ if and only if the geometic [[multiplicity]] of
 > **example** let $\mathbb M^{n, n} A \land \mathbb N n$ and suppose $A$ has $n$ distinct [[eigenvalue]]s. deduce that $A$ is diagonalizable over the reals
 >
 > > **proof** $A$ has at most $n$ [[eigenvalue]]s $\to$ the algebraic [[multiplicity]] of every [[eigenvalue]] of $A$ is $1$ as they are all distinct and must be greater than $1$ $\to$ the geometric [[multiplicity]] of every [[eigenvalue]] of $A$ is $1$ as it must be greater than $1$ and less than its algebraic [[multiplicity]] $\to$ all algebraic [[multiplicity]]es and geometric [[multiplicity]]es are equal $\to$ $A$ is diagonalizable. see [[eigenvector and eigenvalue]]
-
-## [[eigenvector and eigenvalue]]s
 
 ## theorems
 
