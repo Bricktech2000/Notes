@@ -21,7 +21,7 @@
 > - any [[line in rn]]3 through the origin is a subspace of $\mathbb R^3$ (same with $\mathbb R^2$)
 > - any [[line in rn]]3 or [[plane in r3]] that does _not_ go through the origin is not a subspace of $\mathbb R^3$
 > - $\mathbb R^n \vdash \mathbb R^n \dashv \mathbb N n$ ($\mathbb R^n$ is a subspace of $\mathbb R^n$)
-> - $(V v \equiv v^i = 0 \dashv \mathbb N i \land i \le n) \vdash \mathbb R^n \dashv \mathbb N n$ ($(0, 0 \dots 0)$ is a subspace of $\mathbb R^n$)
+> - $(V v \equiv v^i = 0 \dashv \mathbb N i \land i \le n) \vdash \mathbb R^n \dashv \mathbb N n$ ($(0, 0 \cdots 0)$ is a subspace of $\mathbb R^n$)
 > - $(\mathbb R^n \not\vdash \mathbb R^m) \dashv n \le m \dashv \mathbb N n \land \mathbb N m$ ($\mathbb R^{n \cdot x}$ is not a subspace of $\mathbb R^n$, as vectors in $\mathbb R^{n \cdot x}$ are not really comparable to vectors in $\mathbb R^n$)
 
 > **example** **see** [[vector space proof examples]]
@@ -62,7 +62,7 @@ $U$ is a _subspace_ of $V$ if and only if $U \vdash V$ and $U$ is a [[vector spa
 
 **propreties**
 
-let $V\ \braket{\braket{v_0 \dots v_m}}$. if $U = \operatorname{span} \braket{\braket{v_0 \dots v_m}}$, then $U \vdash V$, see [[span]]
+let $V\ \braket{\braket{v_0 \cdots v_m}}$. if $U = \operatorname{span} \braket{\braket{v_0 \cdots v_m}}$, then $U \vdash V$, see [[span]]
 
 ## Vector Space Isomorphism
 

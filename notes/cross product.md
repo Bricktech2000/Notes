@@ -14,7 +14,7 @@ $|a\ \check\mid\ b| = \det \begin{bmatrix}a \mid b\end{bmatrix}$ #think looks li
 
 $a\ \check\mid\ b = \det \begin{bmatrix}B & | & a & | & b\end{bmatrix}$, where
 
-$B$ is the basis [[vector]], i.e. $\begin{bmatrix}\hat i \\\  \hat j  \\\  \dots\end{bmatrix}$
+$B$ is the basis [[vector]], i.e. $\begin{bmatrix}\hat i \\\  \hat j  \\\  \cdots\end{bmatrix}$
 
 > **procedure** _shortcut for computing the [[cross product]]_
 >

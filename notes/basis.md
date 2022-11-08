@@ -21,9 +21,9 @@ all [[basis]]es of a [[vector space]] have the same size
 
 > **procedure** _finding a [[basis]] for a [[span]]_
 >
-> to find a basis for a [[vector space]] $W = \operatorname{span} \braket{\braket{v_0 \dots v_m}}$
+> to find a basis for a [[vector space]] $W = \operatorname{span} \braket{\braket{v_0 \cdots v_m}}$
 >
-> 1. write the [[matrix]] $A$ whose rows are the [[vector]]s $v_0 \dots v_m$. if the [[vector]]s are not [[vector in rn]]s, translate them into [[basis|coordinate-vector]]s first
+> 1. write the [[matrix]] $A$ whose rows are the [[vector]]s $v_0 \cdots v_m$. if the [[vector]]s are not [[vector in rn]]s, translate them into [[basis|coordinate-vector]]s first
 > 2. [[row reduction|row-reduce]] $A$ to [[REF]] form
 > 3. use the nonzero rows of the [[REF]] form of $A$ as a [[basis]] for $W$
 
@@ -37,7 +37,7 @@ _a [[basis]] containing [[vector]]s in a specific order_
 >
 > $(\ (1, 0), (0, 1)\ )$ and $(\ (0, 1), (1, 0)\ )$ are the same [[basis]] but different ordered bases
 
-**definition** suppose $B = (v_0 \dots v_n)$ is an ordered [[basis]] for a [[vector space]] $V$. suppose $v = a_0v_0 : \dots a_nv_n$. then, the vector $(a_0 \dots a_n)$ is said to be the _coordinate vector_ of $V$ relative to the ordered [[basis]] $B$
+**definition** suppose $B = (v_0 \cdots v_n)$ is an ordered [[basis]] for a [[vector space]] $V$. suppose $v = a_0v_0 : \cdots a_nv_n$. then, the vector $(a_0 \cdots a_n)$ is said to be the _coordinate vector_ of $V$ relative to the ordered [[basis]] $B$
 
 ## Orthogonal Basis
 

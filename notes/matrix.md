@@ -44,7 +44,7 @@ intuitively, matrix multiplication is the [[dot product]] of **every row** of th
 
 $AA = A2 = [A]2 \dashv \mathbb M A$
 
-and therefore $AA \dots A = [A]n \land \mathbb N n \dashv \mathbb M A$
+and therefore $AA \cdots A = [A]n \land \mathbb N n \dashv \mathbb M A$
 
 **properties**
 
@@ -235,7 +235,7 @@ if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 >
 > let $\mathbb M^{n, n} A$
 >
-> solve the system $AA^- = I$ by extending the [[matrix]] with the identity [[matrix]] and solve the [[linear system]] up to [[RREF]] using [[row reduction]]. $\begin{bmatrix}A & | & I\end{bmatrix} \sim \dots \begin{bmatrix}I & | & A^-\end{bmatrix}$
+> solve the system $AA^- = I$ by extending the [[matrix]] with the identity [[matrix]] and solve the [[linear system]] up to [[RREF]] using [[row reduction]]. $\begin{bmatrix}A & | & I\end{bmatrix} \sim \cdots \begin{bmatrix}I & | & A^-\end{bmatrix}$
 
 > **procedure** _computing the inverse of a $2$ by $2$ [[matrix]]_
 >

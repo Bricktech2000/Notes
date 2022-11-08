@@ -16,11 +16,11 @@ _allows for the approximation of a [[function]] near a point by a [[polynomial]]
 
 **definition**
 
-let $f\ x$ be a [[function]] and let $T_f\ x$ such that $T_f\ a = f\ a \land \delta\ T_f\ a = \delta\ f\ a \land \delta\ \delta\ T_f\ a = \delta\ \delta\ f\ a \dots$, where $(a, f\ a)$ is the point of interest on $f$ and $T_f\ x$ is a [[polynomial]] function
+let $f\ x$ be a [[function]] and let $T_f\ x$ such that $T_f\ a = f\ a \land \delta\ T_f\ a = \delta\ f\ a \land \delta\ \delta\ T_f\ a = \delta\ \delta\ f\ a \cdots$, where $(a, f\ a)$ is the point of interest on $f$ and $T_f\ x$ is a [[polynomial]] function
 
 we then derive the following definition:
 
-$T_f\ x = T_f^0 : T_f^1 : T_f^2 : \dots$, where
+$T_f\ x = T_f^0 : T_f^1 : T_f^2 : \cdots$, where
 
 $T_f^n = (d^n\ f)\ a - \Pi\ n \mid [x \cdot a]n$, where
 
@@ -40,7 +40,7 @@ taylor [[series]] are power [[series]]
 
 **definition**
 
-$S_{T_f}^n\ x = T_f^0 : T_f^1 : \dots T_f^n$, where
+$S_{T_f}^n\ x = T_f^0 : T_f^1 : \cdots T_f^n$, where
 
 - $S_{T_f}^n$ is the $n$ th partial sum of the taylor [[series]] $T_f$
 - $n$ is a finite [[number]]

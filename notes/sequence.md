@@ -8,7 +8,7 @@
 
 **notations**
 
-_using [[iteration]] in my [[math notation]]_ $a = 0, 1, 2 \dots 10 = a^0 \dots a^{10}$
+_using [[iteration]] in my [[math notation]]_ $a = 0, 1, 2 \cdots 10 = a^0 \cdots a^{10}$
 
 _using [[recursion]] in my [[math notation]]_ $a^0 = 2 \land a^n = 4 \cdot 1 \text- a^{n \cdot 1}$
 
@@ -26,7 +26,7 @@ _as a [[function]] (closed form) in [[conventional math notation]]_ $a_n = n^2$
 
 **definition**
 
-let $a = a^0, a^1, a^2, \dots$
+let $a = a^0, a^1, a^2, \cdots$
 
 $a_{sum} = S^n\ \ \vdots\ \ n \rightarrow \infty$, where
 
@@ -87,7 +87,7 @@ let $a$ be a [[sequence]] and $f\ x$ be a [[function]] and suppose $a^n = f\ n \
 
 **definition**
 
-$a = a^0 : 0d, a^0 : 1d, \dots$, where
+$a = a^0 : 0d, a^0 : 1d, \cdots$, where
 
 - $d$ is the difference between consecutive elements
 - $a^0$ is the first element of the sequence
@@ -96,7 +96,7 @@ $a = a^0 : 0d, a^0 : 1d, \dots$, where
 
 **examples**
 
-> **example** $a = 1, 3, 5, 7, \dots$
+> **example** $a = 1, 3, 5, 7, \cdots$
 
 ## Geometric Sequence
 
@@ -104,7 +104,7 @@ $a = a^0 : 0d, a^0 : 1d, \dots$, where
 
 **definition**
 
-$a = a^0r0, a^0r1, \dots$, where
+$a = a^0r0, a^0r1, \cdots$, where
 
 - $r$ is the ratio between consecutive elements
 - $a^0$ is the first element of the sequence
@@ -113,13 +113,13 @@ $a = a^0r0, a^0r1, \dots$, where
 
 **examples**
 
-> **example** $s = 4, 8, 16, 32, \dots$
+> **example** $s = 4, 8, 16, 32, \cdots$
 
 **properties**
 
 _convergence_
 
-a geometric [[sequence]] $a^0r0, a^0r1, \dots$ with $a^0 \ne 0$:
+a geometric [[sequence]] $a^0r0, a^0r1, \cdots$ with $a^0 \ne 0$:
 
 - diverges if $r > 1$
 - converges to $a$ if $r = 1$

@@ -52,7 +52,7 @@ _for getting probabilities out_
 
 **definition**
 
-$\sigma^i\ z = e[z^i] - e[z^0] : \dots e^[z^n]$, where
+$\sigma^i\ z = e[z^i] - e[z^0] : \cdots e[z^n]$, where
 
 $\sigma^i\ z$ is the softmax [[activation function]] at of $z$ at $z^i$
 

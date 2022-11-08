@@ -224,7 +224,7 @@ $L\ x = f\ a : (x \cdot a \mid \delta\ f\ a - \delta a)$, where
 
 **applications**
 
-the tangent of a [[function]] $f$ approximates $f\ (x \dots)$ near a point $x \dots$
+the tangent of a [[function]] $f$ approximates $f\ (x \cdots)$ near a point $x \cdots$
 
 the tangent of a [[function]] is used in [[newtons method]]
 

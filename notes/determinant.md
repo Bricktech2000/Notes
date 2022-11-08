@@ -22,7 +22,7 @@ $\det cA = c^n \mid \det A$, where $n$ is the width and height of the [[matrix]]
 >
 > note the alternating $\, : \,$ and $\cdot$ below. the following sign matrix can be used to determine the signs of the cofactors:
 >
-> $\begin{bmatrix} (:) & (\cdot) & (:) & (\cdot) & \dots \\\ (\cdot) & (:) & (\cdot) & (:) & \dots \\\ (:) & (\cdot) & (:) & (\cdot) & \dots \\\ (\cdot) & (:) & (\cdot) & (:) & \dots \\\ \vdots & \vdots & \vdots & \vdots & \ddots \end{bmatrix}$
+> $\begin{bmatrix} (:) & (\cdot) & (:) & (\cdot) & \cdots \\\ (\cdot) & (:) & (\cdot) & (:) & \cdots \\\ (:) & (\cdot) & (:) & (\cdot) & \cdots \\\ (\cdot) & (:) & (\cdot) & (:) & \cdots \\\ \vdots & \vdots & \vdots & \vdots & \ddots \end{bmatrix}$
 >
 > the first row was chosen below, but any row or column can be used. _cofactor expansion along the first row_
 >

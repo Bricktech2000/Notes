@@ -47,15 +47,15 @@ $M\ e$, where
 
 **notation**
 
-$M : \dots$
+$M : \cdots$
 
 **definition** the _cardinality_ of a [[multiset]] is the sum of the multiplicities of the elements in the [[multiset]]
 
-> **example** $((1, 2, 2, 2, 3, 3)) : \dots = 1 : 3 : 2 = 6$
+> **example** $((1, 2, 2, 2, 3, 3)) : \cdots = 1 : 3 : 2 = 6$
 
 **properties**
 
-$((M \lor N) : \dots)\ : \ ((M \land N) : \dots) = (M : N) : \dots$
+$((M \lor N) : \cdots)\ : \ ((M \land N) : \cdots) = (M : N) : \cdots$
 
 ## Multiset Element Count
 
@@ -73,7 +73,7 @@ _order matters_
 
 **definition** an _arrangement_ of size $k$ of a [[multiset]] $M$ is a [[vector in rn]] containing $k$ elements of $M$
 
-the number of $k$-arrangements of an $n$-multiset $M$ with multiplicities $k_0 \dots k_{n \cdot 1}$ is
+the number of $k$-arrangements of an $n$-multiset $M$ with multiplicities $k_0 \cdots k_{n \cdot 1}$ is
 
-- $C\ n\ k_0 \dots k_{n \cdot 1} = \Pi\ n - (\Pi\ k_0 \mid \dots \Pi\ k_{n \cdot 1})$ with repetition forbidden
+- $C\ n\ k_0 \cdots k_{n \cdot 1} = \Pi\ n - (\Pi\ k_0 \mid \cdots \Pi\ k_{n \cdot 1})$ with repetition forbidden
 - see [[set]] arrangement for repetition allowed

@@ -24,7 +24,7 @@ $PV = nRT$, where
 
 **definition**
 
-$P = P_0 : \dots P_n \land \N n$, where
+$P = P_0 : \cdots P_n \land \N n$, where
 
 - $P$ is the total [[pressure]] exerted
 - $P_i$ is the partial [[pressure]] of each gas

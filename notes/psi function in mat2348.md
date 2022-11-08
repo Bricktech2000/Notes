@@ -6,7 +6,7 @@ $\psi\ n$ takes in a [[natural]] number $n$ and returns the [[multiset]] contain
 
 **properties**
 
-$\psi\ n \mid \dots = n$
+$\psi\ n \mid \cdots = n$
 
 $\psi\ n\ 0 = \psi\ n\ 1 = 0$
 
@@ -22,6 +22,6 @@ $m$ and $n$ are _coprime_ if and only if $\psi\ m \land \psi\ n = (\ )$
 
 $n = 1$ if and only if $\#\ \psi\ n = 0$, or $\psi\ n = (\ )$
 
-the _greatest common divisor_ of $a$ and $b$ is $(\psi\ a \land \psi\ b) \mid \dots$
+the _greatest common divisor_ of $a$ and $b$ is $(\psi\ a \land \psi\ b) \mid \cdots$
 
-the _least common multiple_ of $a$ and $b$ is $(\psi\ a \lor \psi\ b) \mid \dots$
+the _least common multiple_ of $a$ and $b$ is $(\psi\ a \lor \psi\ b) \mid \cdots$

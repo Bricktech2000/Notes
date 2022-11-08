@@ -485,7 +485,7 @@ $(101 \cdot 10 \lfloor 93 \rfloor)a2\ :\ (139 \cdot 13 \lfloor 93 \rfloor)a\ \cd
 
 ---
 
-$[a : b]n = (C\ n\ 0) \shortmid a[n] b0 : \dots (C\ n\ n) \shortmid a0 b[n]$
+$[a : b]n = (C\ n\ 0) \shortmid a[n] b0 : \cdots (C\ n\ n) \shortmid a0 b[n]$
 
 ---
 
@@ -497,7 +497,7 @@ $(\psi\ \ \vdots\ \ m \land n) = (\ )$
 
 $\#\ \ \vdots\ \ a = b$
 
-$: \dots\ \ \vdots\ \ i : i'$
+$: \cdots\ \ \vdots\ \ i : i'$
 
 $\bmod\ 5\ \ \vdots\ \ 1 = 6$
 
@@ -677,9 +677,9 @@ if the number of nodes of a complete binary tree is $2^k - 3$, then the number o
 
 ---
 
-$r \rightarrow [\cdot 1]r (C\ m\ r) [m \cdot r]n\ \ \vdots\ \ 0 : \dots m$
+$r \rightarrow [\cdot 1]r (C\ m\ r) [m \cdot r]n\ \ \vdots\ \ 0 : \cdots m$
 
-$r \rightarrow [\cdot 1]r (C\ s\ r)\ \ \vdots\ \ 0 : \dots r$
+$r \rightarrow [\cdot 1]r (C\ s\ r)\ \ \vdots\ \ 0 : \cdots r$
 
 $$
 Z = \frac{X - \mu}{\sigma}
@@ -705,7 +705,7 @@ concerns:
 
 ---
 
-let $a = (a^0, 13 - 5, 79 - 25, 367 - 125, 1891 - 625, 9343 - 3125, 46939 - 12625, \dots)$
+let $a = (a^0, 13 - 5, 79 - 25, 367 - 125, 1891 - 625, 9343 - 3125, 46939 - 12625, \cdots)$
 
 then, $a^n = [\cdot 2]n : 3[5]n - [5]n$
 
@@ -720,3 +720,11 @@ you've probably seen how in some classes we do boolean algebra with `+ - '` and 
 $M \rightarrow \#\ M = \#\ M^\intercal \land \det M \ne 0$
 
 $^i ^j$
+
+$x^2$
+
+$a \cdots b$ $a \ldots b$
+
+$1 + \cdots 2$ $1 + \ldots 2$
+
+$1 + \cdots + 2$ $1 + \ldots + 2$

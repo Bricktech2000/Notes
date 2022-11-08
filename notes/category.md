@@ -42,7 +42,7 @@ terminal objects are unique up to unique isomorphism
 
 ## Morphisms
 
-for any pair of objects $A$ and $B$, the category has a (mathematical) [[set]] of _morphisms_ from $A$ to $B$ known as their _hom-set_, denoted $\mathcal C(A, B) = \braket{\braket{f, g, \dots}}$ in [[conventional math notation]].
+for any pair of objects $A$ and $B$, the category has a (mathematical) [[set]] of _morphisms_ from $A$ to $B$ known as their _hom-set_, denoted $\mathcal C(A, B) = \braket{\braket{f, g, \cdots}}$ in [[conventional math notation]].
 
 a morphism from $A$ to $B$ is denoted $f: A \to B$ in [[conventional math notation]]. even though $A$ is related to $B$, $B$ is not necessarily related to $A$. they can be thought of as [[function]]s, but don't necessarily have to be.
 
@@ -106,7 +106,7 @@ let $\circ$ be the [[composition]] [[operator]]. then, $h \circ (g \circ f) = (h
 
 ## Identities
 
-identities are morphisms that [[map]] an object to itself. in a category, each object must have an identity morphism. the [[set]] of all identities in a category is denoted $\mathcal C(A, A) = \braket{\braket{1_A, \dots}}$ in [[conventional math notation]].
+identities are morphisms that [[map]] an object to itself. in a category, each object must have an identity morphism. the [[set]] of all identities in a category is denoted $\mathcal C(A, A) = \braket{\braket{1_A, \cdots}}$ in [[conventional math notation]].
 
 an identity is denoted $1_A: A \to A$ or as $\textbf{id}_A : A \to A$ in [[conventional math notation]].
 

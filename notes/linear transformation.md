@@ -37,7 +37,7 @@ $\mathbb T \vdash \mathbb F$, see [[function vector space]]
 
 > **note** the existence of such a [[matrix]] $A$ does not imply that $T$ is a [[linear transformation]]
 
-in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \dots & T\ b_n \\\ | & & |\end{bmatrix}$ where $\braket{\braket{b_0 \dots b_n}}$ is the standard [[basis]] for $\mathbb R^n$, see #magic. $A$ is the _standard [[matrix]]_ of the [[linear transformation]] $T$
+in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \cdots & T\ b_n \\\ | & & |\end{bmatrix}$ where $\braket{\braket{b_0 \cdots b_n}}$ is the standard [[basis]] for $\mathbb R^n$, see #magic. $A$ is the _standard [[matrix]]_ of the [[linear transformation]] $T$
 
 > **example** _computing a standard [[matrix]]_
 >
@@ -61,7 +61,7 @@ in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \dots & T\ b_n \\
 >
 > alternatively, we can use the following, see #magic:
 >
-> $B = \begin{bmatrix}| & & | \\\ b_0 & \dots & b_n \\\ | & & |\end{bmatrix}$ where $\braket{\braket{b_0 \dots b_n}}$ is a [[basis]] for $W$ that does **not** have to be orthogonal. in this case, $b_0 = (1, 0, 1)$ and $b_1 = (0, 1, 0)$
+> $B = \begin{bmatrix}| & & | \\\ b_0 & \cdots & b_n \\\ | & & |\end{bmatrix}$ where $\braket{\braket{b_0 \cdots b_n}}$ is a [[basis]] for $W$ that does **not** have to be orthogonal. in this case, $b_0 = (1, 0, 1)$ and $b_1 = (0, 1, 0)$
 >
 > then, $proj_W\ u = A \mid u$ with $A = B \text-(B^\intercal B) B^\intercal = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix}$, see #magic. $A$ is the _standard [[matrix]]_ of the [[linear transformation]] $T$
 

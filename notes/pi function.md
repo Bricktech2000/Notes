@@ -14,4 +14,4 @@ $\Pi\ z = \int t[z] \shortmid e[\cdot t] \shortmid \delta t\ \ \vdots\ \ \infty 
 
 **theorem** _given a $\mathbb N z$._
 
-$\Pi\ z = z \cdot 0 \mid z \cdot 1 \mid z \cdot 2 \mid \dots 1$
+$\Pi\ z = z \cdot 0 \mid z \cdot 1 \mid z \cdot 2 \mid \cdots 1$

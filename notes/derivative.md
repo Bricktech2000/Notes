@@ -12,9 +12,9 @@ $\delta\ f\ x - \delta x = f\ (x : h) \cdot f\ x - h\ \ \vdots\ \ h \rightarrow 
 
 **definition** _with a multivariable [[function]] in my [[math notation]]_
 
-let $p = (x \dots)$
+let $p = (x \cdots)$
 
-$\delta\ f\ p - \delta p = (\delta\ f\ p - \delta p^0, \delta\ f\ p - \delta p^1, \dots)$
+$\delta\ f\ p - \delta p = (\delta\ f\ p - \delta p^0, \delta\ f\ p - \delta p^1, \cdots)$
 
 **notations**
 
@@ -48,7 +48,7 @@ $d^n f$ would then be the $n$ th [[derivative]] of $f\ x$ with respect to $x$
 
 **definition**
 
-let $f$ be a [[function]] differentiable at $p \equiv (x \dots)$ and let $v$ be a **unit [[vector in rn]]**. then,
+let $f$ be a [[function]] differentiable at $p \equiv (x \cdots)$ and let $v$ be a **unit [[vector in rn]]**. then,
 
 $D^v\ f\ p = \delta\ f\ p - \delta p\ \dot\mid\ v$, where
 
@@ -68,7 +68,7 @@ $D^v\ f\ p = \delta\ f\ p - \delta p\ \dot\mid\ v$, where
 >
 > > differentiate this [[function]] with respect to this [[variable]], and please blindly assume the derivative of the [[variable]] with respect to any other parameter is $0$
 >
-> partial differentiation is equivalent to a directional [[derivative]] with direction $(0 \dots 0, 1, 0 \dots 0)$
+> partial differentiation is equivalent to a directional [[derivative]] with direction $(0 \cdots 0, 1, 0 \cdots 0)$
 >
 > &mdash; <https://www.reddit.com/r/mathematics/comments/oxj88q/why_are_partial_derivatives_a_separate_thing_than/>
 

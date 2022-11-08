@@ -60,7 +60,7 @@ a [[matrix]] (augmented or not) is in [[REF]] if all:
 
 > **procedure** _determining the type of the general solution_
 >
-> - if the [[matrix]] contains a row in the form $\begin{bmatrix}0 & \dots & 0 & | & b\end{bmatrix} \land b \ne 0$, the system has no solutions
+> - if the [[matrix]] contains a row in the form $\begin{bmatrix}0 & \cdots & 0 & | & b\end{bmatrix} \land b \ne 0$, the system has no solutions
 > - else, if every column has a pivot, the system has one unique solution
 > - else, if there is a column with no pivot, the system has an infinite number of solutions
 
@@ -75,7 +75,7 @@ a [[matrix]] (augmented or not) is in [[REF]] if all:
 
 > **procedure** _finding the general solution_
 >
-> - if there is a unique solution, then the solution is the [[vector]] in the augmented column (ignore the $\begin{bmatrix}0 & \dots & 0 & | & 0\end{bmatrix}$ rows, if any)
+> - if there is a unique solution, then the solution is the [[vector]] in the augmented column (ignore the $\begin{bmatrix}0 & \cdots & 0 & | & 0\end{bmatrix}$ rows, if any)
 > - else, each pivot corresponds to one row of the augmented [[matrix]]. write the equation for this row and solve for the corresponding leading [[variable]]
 
 > **procedure** _putting a [[matrix]] in [[RREF]]_ use [[row reduction]]

@@ -65,18 +65,16 @@ let:
 | $a \times b$                         | nonequality                                       | also serves as logical XOR                            |
 | $a \vdash b$                         | implication, subset                               | $a$ implies $b$, $b$ for all $a$                      |
 | $a \dashv b$                         | reverse implication, superset                     | $a$ for all $b$, $b$ implies $a$                      |
-| $a_0 \circ a_1 \circ \dots a_n$      | with $n = 3$, $a_0 \circ a_1 \circ a_2 \circ a_3$ | step size is $\because 1$ if $a_1 \circ$ is omitted   |
-| $a_0 \dots a_n$                      | with $n = 3$, $a_0, a_1, a_2, a_3$                | step size is $\because 1$ if $a_1$ is omitted         |
-| $a \circ \dots$                      | the [[reduce function]] of $\circ$ on $a$         |                                                       |
-| $f\ \ \vdots\ \ a \circ\dots b$      | $f\ (a \dots b) \circ\dots$                       |                                                       |
+| $a_0 \circ a_1 \circ \cdots a_n$     | with $n = 3$, $a_0 \circ a_1 \circ a_2 \circ a_3$ | step size is $\because 1$ if $a_1 \circ$ is omitted   |
+| $a_0 \cdots a_n$                     | with $n = 3$, $a_0, a_1, a_2, a_3$                | step size is $\because 1$ if $a_1$ is omitted         |
+| $a \circ \cdots$                     | the [[reduce function]] of $\circ$ on $a$         |                                                       |
+| $f\ \ \vdots\ \ a \circ\cdots b$     | $f\ (a \cdots b) \circ\cdots$                     |                                                       |
 | $f\ \ \vdots\ \ x \rightarrow a$     | the [[limit]] of $f$ as $x$ approaches $a$        |                                                       |
 | $x_{sub}$                            | the [[variable]] $x$ with a subscript $_{sub}$    |                                                       |
 | $V^n$                                | the $n$ th component of $V$                       |                                                       |
 | $A^i$                                | the $i$ th element of $A$                         |                                                       |
 | $B^i$                                | the $i$ th element of $B$                         |                                                       |
 | $M^{\braket{i, j}}$                  | the $i, j$ th element of $M$                      | uncommon, shorthand preferred                         |
-| $M^\intercal$                        | the transpose [[matrix]] of $M$                   |                                                       |
-| $\text-M$                            | the multiplicative inverse of $M$                 |                                                       |
 | $P^b$                                | the $b$ th element of $P$                         |                                                       |
 | $S\ a$                               | whether $a$ is element of $S$                     |                                                       |
 | $M'\ a$                              | the number of elements $a$ in $M'$                |                                                       |
@@ -99,13 +97,13 @@ let:
 | $M^{i,}$                                                   | the $i$ th row of $M$                              |                                        |
 | $M^{, j}$                                                  | the $j$ th column of $M$                           |                                        |
 | $P = \braket{f, t}$                                        | $P^\bot = f \land P^\top = t$                      | see [[ordered pair]]                   |
-| $S = \braket{\braket{a \dots b}}$                          | $S\ x \equiv x = a \lor \dots x = b$               | see [[set]]                            |
-| $V = (a \dots b)$                                          | $V^0 = a \land \dots V^n = b$                      | see [[vector in rn]]                   |
+| $S = \braket{\braket{a \cdots b}}$                         | $S\ x \equiv x = a \lor \cdots x = b$              | see [[set]]                            |
+| $V = (a \cdots b)$                                         | $V^0 = a \land \cdots V^n = b$                     | see [[vector in rn]]                   |
 | $M' = ((1, 2, 2, 2, 3, 3))$                                | [[multiset]] literal                               | see [[multiset]]                       |
 | $M = \begin{bmatrix} a & b \\\ c & d \end{bmatrix}$        | [[matrix]] literal                                 | see [[matrix]]                         |
 | $x \rightarrow (a < x < b)$                                | the interval from $a$ to $b$                       |                                        |
 | $A \circ B$                                                | $x \rightarrow A\ x \circ B\ x$                    | see [[rank polymorphism]]              |
-| $A \circ B$                                                | $A\ x \circ B\ x$ for all $x$                      | $(\top \dots)$ is treated as $\top$    |
+| $A \circ B$                                                | $A\ x \circ B\ x$ for all $x$                      | $(\top \cdots)$ is treated as $\top$   |
 | $\delta y - \delta x$                                      | the [[derivative]] of $y$ with respect to $x$      | $\delta$ should be used instead of $d$ |
 | $\int y \mid \delta x$                                     | the [[antiderivative]] of $y$ with respect to $x$  | $\delta$ should be used instead of $d$ |
 
@@ -120,6 +118,7 @@ let:
 | $e$           | Euler's constant                                             | see [[eulers constant]]                     |
 | $\iota$       | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]], using $i$ is discouraged |
 | $\Pi$         | the [[pi function]]                                          | using $\operatorname{fact}$ is discouraged  |
+| $\#$          | the size of the range of a [[function]]                      |                                             |
 
 ### operator properties
 
@@ -127,21 +126,21 @@ _in order of high to low precedence_
 
 #todo fix asymmetry between $=\ne > \ge < \le$ and $\land\ \lor \dashv\ \vdash\ \equiv \times$
 
-| operator                                      | associativity | unary identity | unary description     |
-| --------------------------------------------- | ------------- | -------------- | --------------------- |
-| $()\ \braket{}\ \Big[\Big]\ \ x\ x_a^i$       |               |                |                       |
-| $[]\ \lfloor\rfloor\ \lceil\rceil$            |               |                |                       |
-| $\shortmid \text-$                            | left          | $1$            | inverse               |
-| $\delta\ \sin\ \#\ \smash\leftarrow$          | right-ish     |                |                       |
-| $\, :\ \cdot\ \because\ \ \therefore$         | left          | $0$            | negation              |
-| $\mid -$                                      | left          | $1$            | inverse               |
-| $\int\ \ \vdots\ \ \dots\ \rightarrow\ \bmod$ | right-ish     |                |                       |
-| $=\ne > \ge < \le$                            | AND           | $0$            | is (not) $0$          |
-| $/$                                           | left          | $\top$         | [[boolean logic]] NOT |
-| $\land\ \lor$                                 | left          |                |                       |
-| $\dashv\ \vdash$                              | left          |                |                       |
-| $\equiv \times$                               | AND           | $\top$         | [[boolean logic]] NOT |
-| $,$                                           |               |                |                       |
+| operator                                       | associativity | unary identity | unary description     |
+| ---------------------------------------------- | ------------- | -------------- | --------------------- |
+| $()\ \braket{}\ \Big[\Big]\ \ x\ x_a^i$        |               |                |                       |
+| $[]\ \lfloor\rfloor\ \lceil\rceil$             |               |                |                       |
+| $\shortmid \text-$                             | left          | $1$            | inverse               |
+| $\delta\ \sin\ \#\ \smash\leftarrow$           | right-ish     |                |                       |
+| $\, :\ \cdot\ \because\ \ \therefore$          | left          | $0$            | negation              |
+| $\mid -$                                       | left          | $1$            | inverse               |
+| $\int\ \ \vdots\ \ \cdots\ \rightarrow\ \bmod$ | right-ish     |                |                       |
+| $=\ne > \ge < \le$                             | AND           | $0$            | is (not) $0$          |
+| $/$                                            | left          | $\top$         | [[boolean logic]] NOT |
+| $\land\ \lor$                                  | left          |                |                       |
+| $\dashv\ \vdash$                               | left          |                |                       |
+| $\equiv \times$                                | AND           | $\top$         | [[boolean logic]] NOT |
+| $,$                                            |               |                |                       |
 
 > **note**: above,
 >
@@ -153,7 +152,7 @@ _in order of high to low precedence_
 
 > **note**: unary [[operator]]s have identical precedence to their binary counterparts, but are right associative
 
-**definition** let $\circ$ be an [[operator]] with _AND_ associativity. then, $a \circ b \circ c \circ \dots\ \ \equiv\ \ a \circ b \land b \circ c \land c \circ \dots$
+**definition** let $\circ$ be an [[operator]] with _AND_ associativity. then, $a \circ b \circ c \circ \cdots\ \ \equiv\ \ a \circ b \land b \circ c \land c \circ \cdots$
 
 ## variable scope
 
@@ -173,7 +172,7 @@ the probability density of the normal distribution in [[conventional math notati
 
 compared to in my [[math notation]]: $-\lfloor \tau \sigma2 \rfloor - e[\ [x \cdot \mu - \sigma]2 - 2\ ]$
 
-definition of factorials: $\operatorname{fact} n = 1 \mid \dots n$
+definition of factorials: $\operatorname{fact} n = 1 \mid \cdots n$
 
 the negation of an implication in my [[math notation]]: $B \vdash C \times B\ /\ C$ (_B implying C equals not (B without C)_ or _implication is the negation of set difference_ or _the negation of "for all B, C" is "there exists a B such that not C"_)
 

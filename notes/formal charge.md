@@ -18,7 +18,7 @@ $FC = FC_{atom} = \text{valence electrons} \cdot \text{lone electrons} \cdot \te
 
 the total formal charge must equal the charge of the [[molecule]] or ion. therefore, for any neutral [[molecule]],
 
-$FC_{total} = FC_{atom_0} : \dots FC_{atom_n} = 0 \land \mathbb N n$
+$FC_{total} = FC_{atom_0} : \cdots FC_{atom_n} = 0 \land \mathbb N n$
 
 ## Preferred Formal Charge
 

@@ -1,11 +1,9 @@
 # Gradient
 
-_gives a [[vector]] representing the direction of steepest ascent of a [[function]]_
+_returns a [[vector in rn]] representing the direction of steepest ascent of a [[function]] at a given point_
 
 **see** [[calculus]], partial [[derivative]]s
 
-**definition**
+**notation** _in [[conventional math notation]]_ the [[gradient]] of $f$ is denoted $\nabla f(\dots)$
 
-let $f$ be a [[function]] differentiable at $p \equiv (x \dots)$. then, the [[gradient]] of $f$ at $p$ is defined as
-
-$\nabla f\ p = \delta\ f\ p - \delta p$
+**definition** let $f$ be a [[function]] differentiable at $p \equiv (x \cdots)$. then, the [[gradient]] of $f$ at $p$ is defined to be $\delta\ f\ p - \delta p$

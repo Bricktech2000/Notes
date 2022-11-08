@@ -24,7 +24,7 @@ _negation_ $\cdot(a, b) \equiv (\cdot a, \cdot b)$
 
 **properties**
 
-_zero [[vector in rn]]_ $O^m = 0 \land m = 0 \dots n$ where $n$ is the dimension of the [[vector in rn]]
+_zero [[vector in rn]]_ $O^m = 0 \land m = 0 \cdots n$ where $n$ is the dimension of the [[vector in rn]]
 
 _[[vector in rn]] addition_ $(a, b) : (c, d) \equiv (a : c, b : d)$
 
@@ -92,7 +92,7 @@ $u \perp v$
 
 **theorem** orthogonal [[set]] $\vdash$ [[linearly independent]], but not the inverse
 
-**theorem** suppose $w_0 \dots w_m$ is an orthogonal [[basis]] for a subspace $W$ of $\mathbb R^n$. then, $w = w_0 (w \dot\shortmid w_0 - w_0 \dot\shortmid w_0) + \dots w_m (w \dot\shortmid w_m - w_m \dot\shortmid w_m)$, see [[dot product]]
+**theorem** suppose $w_0 \cdots w_m$ is an orthogonal [[basis]] for a subspace $W$ of $\mathbb R^n$. then, $w = w_0 (w \dot\shortmid w_0 - w_0 \dot\shortmid w_0) : \cdots w_m (w \dot\shortmid w_m - w_m \dot\shortmid w_m)$, see [[dot product]]
 
 ### Colinear Vectors
 
@@ -126,10 +126,10 @@ $proj_b\ a = |a| \cos \theta \mid \hat b = a \dot\shortmid \hat b \mid \hat b = 
 
 **definition** _projection onto a [[vector space]]_
 
-$proj_W\ v = (v \dot\shortmid w_0 - w_0 \dot\shortmid w_0) : \dots (v \dot\shortmid w_n - w_n \dot\shortmid w_n)$, where
+$proj_W\ v = (v \dot\shortmid w_0 - w_0 \dot\shortmid w_0) : \cdots (v \dot\shortmid w_n - w_n \dot\shortmid w_n)$, where
 
 - $proj_W\ v$ is the projection of $v$ on the [[vector space]] $W$
-- $W = \operatorname{span} \braket{\braket{w_0 \dots w_n}}$ and $(w_0 \dots w_n)$ form an orthogonal [[basis]] for $W$
+- $W = \operatorname{span} \braket{\braket{w_0 \cdots w_n}}$ and $(w_0 \cdots w_n)$ form an orthogonal [[basis]] for $W$
 
 **properties**
 

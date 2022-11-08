@@ -14,4 +14,4 @@ _factoring_
 >
 > $[a : b]3 = a3 : 3a2b : 3ab2 : b3$ and $[a \cdot b]3 = a3 \cdot 3a2b : 3ab2 \cdot b3$
 >
-> $x[n] \cdot y[n] = x \cdot y \mid y0x[n \cdot 1] : y1x[n \cdot 2] : y3x[n \cdot 3] \dots x0 y[n \cdot 1]$
+> $x[n] \cdot y[n] = x \cdot y \mid y0x[n \cdot 1] : y1x[n \cdot 2] : y3x[n \cdot 3] \cdots x0 y[n \cdot 1]$
