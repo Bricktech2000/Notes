@@ -2,7 +2,7 @@
 
 &mdash; <https://www.investopedia.com/terms/r/recession.asp>
 
-**definition** A recession is a significant, widespread, and prolonged downturn in economic activity.
+**definition** a _recession_ is a significant, widespread, and prolonged downturn in economic activity
 
 a popular rule of thumb states that:
 

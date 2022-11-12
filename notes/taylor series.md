@@ -16,13 +16,13 @@ _allows for the approximation of a [[function]] near a point by a [[polynomial]]
 
 **definition**
 
-let $f\ x$ be a [[function]] and let $T_f\ x$ such that $T_f\ a = f\ a \land \delta\ T_f\ a = \delta\ f\ a \land \delta\ \delta\ T_f\ a = \delta\ \delta\ f\ a \cdots$, where $(a, f\ a)$ is the point of interest on $f$ and $T_f\ x$ is a [[polynomial]] function
+let $f\ x$ be a [[function]] and let $T_f\ x$ such that $T_f\ a = f\ a \land \delta\ T_f\ a = \delta\ f\ a \land \delta\ \delta\ T_f\ a = \delta\ \delta\ f\ a \land \cdots$, where $(a, f\ a)$ is the point of interest on $f$ and $T_f\ x$ is a [[polynomial]] function
 
 we then derive the following definition:
 
-$T_f\ x = T_f^0 : T_f^1 : T_f^2 : \cdots$, where
+$T_f\ x : \dots = T_f^0\ x : T_f^1\ x : T_f^2\ x : \cdots$, where
 
-$T_f^n = (d^n\ f)\ a - \Pi\ n \mid [x \cdot a]n$, where
+$T_f^n\ x = (d^n\ f)\ a - \Pi\ n \mid [x \cdot a]n$, where
 
 $d^n\ f = d^{n \cdot 1}\ (x \rightarrow \delta\ f\ x - \delta x) \land d^0\ f = f$, see [[derivative]]
 

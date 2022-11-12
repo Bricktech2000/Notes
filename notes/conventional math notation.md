@@ -25,3 +25,5 @@
 - $a(b)$ is ambiguous: both multiplication and composition
 - points and [[vector]]s in $\mathbb R^n$ are two different concepts
 - laughable [[summation and product notation]]
+
+also see <https://whystartat.xyz/wiki/Main_Page> &mdash; Terramorpha

@@ -728,3 +728,19 @@ $a \cdots b$ $a \ldots b$
 $1 + \cdots 2$ $1 + \ldots 2$
 
 $1 + \cdots + 2$ $1 + \ldots + 2$
+
+$\mod 3\ \ \vdots\ \ 1 = 4$
+
+$0.5 = -2 = \text-2$
+
+$\sin x \mid \sin x = [\sin x]2$
+
+$\operatorname{asin} x = y \equiv \sin y = x$
+
+$f\ 2\text-3$
+
+$f\ 2 - 3$
+
+$x : 1 \mid x \cdot 1 \mid x2 \cdot 2$
+
+$x \rightarrow c \le x \le d \land x \ne 5$

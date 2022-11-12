@@ -35,3 +35,5 @@
 [[minimalism]], [[intention]], [[difficult]], [[invest]]
 
 [[hypnosis]]
+
+[[goodharts law]]
