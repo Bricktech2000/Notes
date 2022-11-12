@@ -28,11 +28,11 @@ _as a [[function]] (closed form) in [[conventional math notation]]_ $a_n = n^2$
 
 let $a = a^0, a^1, a^2, \cdots$
 
-$a_{sum} = a : \cdots = S^n\ \ \vdots\ \ n \rightarrow \infty$, where
+$a_{sum} =\ :\! a = S^n\ \ \vdots\ \ n \rightarrow \infty$, where
 
 - $a$ is the [[sequence]] to be summed
 - $S$ is the sequence of partial sums of $a$
-- $a_{sum}$ is the sum of $a$
+- $a_{sum} =\ :\! a$ is the sum of $a$
 
 ## Sequence Bounds
 

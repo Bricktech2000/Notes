@@ -67,8 +67,7 @@ let:
 | $a \dashv b$                         | reverse implication, superset                     | $a$ for all $b$, $b$ implies $a$                      |
 | $a_0 \circ a_1 \circ \cdots a_n$     | with $n = 3$, $a_0 \circ a_1 \circ a_2 \circ a_3$ | step size is $\because 1$ if $a_1 \circ$ is omitted   |
 | $a_0 \cdots a_n$                     | with $n = 3$, $a_0, a_1, a_2, a_3$                | step size is $\because 1$ if $a_1$ is omitted         |
-| $a \circ \cdots$                     | the [[reduce function]] of $\circ$ on $a$         |                                                       |
-| $f\ \ \vdots\ \ a \circ\cdots b$     | $f\ (a \cdots b) \circ\cdots$                     |                                                       |
+| $f\ \ \vdots\ \ a \circ b$           | $f\ a \circ f\ b$                                 |                                                       |
 | $f\ \ \vdots\ \ x \rightarrow a$     | the [[limit]] of $f$ as $x$ approaches $a$        |                                                       |
 | $x_{sub}$                            | the [[variable]] $x$ with a subscript $_{sub}$    |                                                       |
 | $V^n$                                | the $n$ th component of $V$                       |                                                       |
@@ -103,7 +102,8 @@ let:
 | $M = \begin{bmatrix} a & b \\\ c & d \end{bmatrix}$        | [[matrix]] literal                                 | see [[matrix]]                         |
 | $x \rightarrow (a < x < b)$                                | the interval from $a$ to $b$                       |                                        |
 | $A \circ B$                                                | $x \rightarrow A\ x \circ B\ x$                    | see [[rank polymorphism]]              |
-| $A \circ B$                                                | $A\ x \circ B\ x$ for all $x$                      | $(\top \cdots)$ is treated as $\top$   |
+| $A \circ B$                                                | $A\ x \circ B\ x$ for all $x$                      | why not $\land A \circ B$ #think       |
+| $\circ\!\ A$                                               | thu [[reduce function]] of $A$ with $\circ$        |                                        |
 | $\delta y - \delta x$                                      | the [[derivative]] of $y$ with respect to $x$      | $\delta$ should be used instead of $d$ |
 | $\int y \mid \delta x$                                     | the [[antiderivative]] of $y$ with respect to $x$  | $\delta$ should be used instead of $d$ |
 

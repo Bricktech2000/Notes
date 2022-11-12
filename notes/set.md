@@ -104,9 +104,9 @@ _the [[set]] of all possible mathematical entities_
 
 ## Set Partition
 
-**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $S^i \land S^j \equiv \braket{\ }$ for all $i, j$ (the [[set]]s are pairwise disjoint) and $S \lor \cdots = A$
+**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $S^i \land S^j \equiv \braket{\ }$ for all $i, j$ (the [[set]]s are pairwise disjoint) and $\lor\!\ S = A$
 
-**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $A = S : \cdots$
+**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $A =\ :\! S$
 
 ## Set Cardinality
 
@@ -187,7 +187,7 @@ the number of $k$-combinations of an $n$-set is
 > - the number of $k$-combinations from an $n$-[[set]] with repetition allowed
 > - the number of $k$-[[multiset]]s from an $n$-[[set]]
 > - the number of ways of distributing $n$ identical marbles into $k$ distinguishable boxes
-> - the number of solutions to $x : \cdots = n$ with $\mathbb N x^i$ for all $i$
+> - the number of solutions to $:\! x = n$ with $\mathbb N x^i$ for all $i$
 > - the number of $n$-sub[[set]]s of an $n : k \cdot 1$-[[set]]
 > - the number of $k \cdot 1$-sub[[set]]s of an $n : k \cdot 1$-[[set]]
 

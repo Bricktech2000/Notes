@@ -8,7 +8,7 @@ the [[dot product]] is defined for any [[vector in rn]]
 
 $a\ \dot\mid\ b = a^0b^0 : \cdots a^nb^n$, or alternatively
 
-$a\ \dot\mid\ b = ab : \cdots$
+$a\ \dot\mid\ b =\ :\! ab$
 
 > **note** if vectors are identified with row [[matrix]]es, the [[dot product]] can also be written as a [[matrix]] product &mdash; Wikipedia
 >

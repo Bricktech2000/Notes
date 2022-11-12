@@ -47,15 +47,15 @@ $M\ e$, where
 
 **notation**
 
-$M : \cdots$
+$:\! M$
 
 **definition** the _cardinality_ of a [[multiset]] is the sum of the multiplicities of the elements in the [[multiset]]
 
-> **example** $((1, 2, 2, 2, 3, 3)) : \cdots = 1 : 3 : 2 = 6$
+> **example** $:\! ((1, 2, 2, 2, 3, 3)) = 1 : 3 : 2 = 6$
 
 **properties**
 
-$((M \lor N) : \cdots)\ : \ ((M \land N) : \cdots) = (M : N) : \cdots$
+$:\! (M \lor N)\ : \ :\! (M \land N) =\ :\! (M : N)$
 
 ## Multiset Element Count
 

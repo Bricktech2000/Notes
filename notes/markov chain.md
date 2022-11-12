@@ -39,7 +39,7 @@ certain [[markov chain]]s converge to a _stationary distribution_, which can be 
 >
 > the [[eigenvector]]s of the [[markov chain]]'s _transition matrix_ are the _stationary distribution_ of the [[markov chain]]
 >
-> it is common to multiply the resulting [[eigenvector]] $x$ by a [[scalar]] $k$ so that $kx : \cdots = 1$
+> it is common to multiply the resulting [[eigenvector]] $x$ by a [[scalar]] $k$ so that $:\! kx = 1$
 >
 > &mdash; <https://youtu.be/EGoRJePORHs?t=551>
 >

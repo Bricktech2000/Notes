@@ -6,10 +6,10 @@
 
 **definition**
 
-$b : \cdots = b^0 : b^1 : \cdots$, where
+$:\! b = b^0 : b^1 : \cdots$, where
 
 - $b$ is a [[sequence]]
-- $b : \cdots$ is the [[series]] corresponding to $b$
+- $:\! b$ is the [[series]] corresponding to $b$
 
 ## Sequence of Partial Sums
 
@@ -35,7 +35,7 @@ $R_b^n = S_b^\infty \cdot S_b^n$, where
 
 **definition** a [[series]] is said to _converge_ if its [[sequence]] of partial sums converges. otherwise, it is said to _diverge_.
 
-**definition** a [[series]] $a : \cdots$ is said to be _absolutely convergent_ (_absolute convergence_) if the [[series]] $|a| : \dots \equiv |a^0| : |a^1| : \cdots$ converges
+**definition** a [[series]] $:\! a$ is said to be _absolutely convergent_ (_absolute convergence_) if the [[series]] $:\! |a| \equiv |a^0| : |a^1| : \cdots$ converges
 
 **definition** a [[series]] is said to be _conditionally convergent_ (_conditional convergence_) if it is _convergent_ but not _absolutely convergent_
 
@@ -53,8 +53,8 @@ _useful for [[series]] containing [[logarithm]]s or easy-to-compute [[integral]]
 
 let $b$ be a [[series]] and suppose $f\ x$ is an eventually _continuous_, _positive_ and _infinite_ [[function]] on $R \le x < \infty \land \mathbb R R$ **for some number $R$** and that $b^n = f\ n \dashv \mathbb N n$. then,
 
-- if $\int f\ x \mid \delta x\ \ \vdots\ \ \infty \cdot 0$ converges, then $b : \cdots$ converges
-- if $\int f\ x \mid \delta x\ \ \vdots\ \ \infty \cdot 0$ diverges, then $b : \cdots$ diverges
+- if $\int f\ x \mid \delta x\ \ \vdots\ \ \infty \cdot 0$ converges, then $:\! b$ converges
+- if $\int f\ x \mid \delta x\ \ \vdots\ \ \infty \cdot 0$ diverges, then $:\! b$ diverges
 
 ### Comparison Tests
 
@@ -67,8 +67,8 @@ let $b$ and $B$ be [[series]] and suppose $0 \le b^n \le B^n \dashv \mathbb N n$
 
 > **note** the following [[series]] are useful for testing convergence:
 >
-> - $b : \cdots = b^0r0 : b^0r1 : \cdots$ (see geometric [[series]] convergence for proof)
-> - $b : \cdots = \text-[1]p : \text-[2]p : \cdots$ (see [[integral]] p-test for proof)
+> - $:\! b = b^0r0 : b^0r1 : \cdots$ (see geometric [[series]] convergence for proof)
+> - $:\! b = \text-[1]p : \text-[2]p : \cdots$ (see [[integral]] p-test for proof)
 
 > **example** determining the convergence of the [[series]] $b^n = 3[n] - 5[n] : n2$ can be done by proving it is lesser than the [[series]] $b^n = 3[n] - 5[n]$ and by proving the series $b^n = 3[n] - 5[n]$ converges
 
@@ -144,7 +144,7 @@ _convergence_ a geometric [[series]] $b^0r0 : b^0r1 : \cdots$ with $b^0 \ne 0$:
 
 > **proof**
 >
-> let the geometric [[series]] $b : \cdots = b^0r0 : b^0r1 : \cdots$
+> let the geometric [[series]] $:\! b = b^0r0 : b^0r1 : \cdots$
 >
 > to determine whether it converges or diverges, we must calculate its sequence of partial sums
 >
@@ -186,7 +186,7 @@ _convergence_ a geometric [[series]] $b^0r0 : b^0r1 : \cdots$ with $b^0 \ne 0$:
 
 a power [[series]] centered at $a$ is of the following form:
 
-$P\ x : \cdots = c^0 [x \cdot a]0 : c^1 [x \cdot a]1 : \cdots$, where
+$:\! P\ x = c^0 [x \cdot a]0 : c^1 [x \cdot a]1 : \cdots$, where
 
 - $c^n$ is a constant (a [[function]] of the [[iteration]] [[variable]])
 - $P\ x$ is the power [[series]] taking the argument $x$
