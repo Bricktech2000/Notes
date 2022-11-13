@@ -1,4 +1,6 @@
-# Plane in R3
+#  Plane in R3
+
+#todo rename to _plane in rn_ or to _plane_
 
 **see** [[normal vector]], [[vector in rn]], [[math notation]]
 

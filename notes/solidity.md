@@ -4,7 +4,7 @@
 
 &mdash; <https://www.bitdegree.org/learn/solidity-variables>
 
-[[solidity]] is an [[object-oriented programming]] language for implementing smart contracts on various [[blockchain]] platforms
+[[solidity]] is an [[object-oriented programming]] language for implementing smart contracts on various [[blockchain]] platforms. also see [[cryptocurrency]]
 
 [[class]] members (which represent state) are stored directly on the [[blockchain]] in [[solidity]]. the [[class]] `constructor` (which initializes state) is called exactly one time when the smart contract gets deployed to the [[blockchain]]
 

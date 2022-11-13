@@ -28,6 +28,8 @@ the [[brain]] circuitry being hijacked is often related to our [[intent to maste
 > - listening to music from an artist
 > - going to an artist’s concert
 
-## Video Games
+## Other Examples
 
-**see** [[video game]]s
+- [[video game]]s
+- [[social media]] platforms
+- junk food, alcohol and caffeine

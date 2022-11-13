@@ -6,15 +6,15 @@ a set of [[linear equation]]s
 
 **definition** the _general solution_ is the [[set]] of all solutions to a system
 
-**definition** an _Inconsistent System_ has no solutions
+**definition** an _inconsistent system_ has no solutions
 
-**definition** a _Consistent System_ has at least one solution
+**definition** a _consistent system_ has at least one solution
 
-**definition** a _Homogeneous System_ has only zeros as constants on the right hand side. the zero vector is always a solution
+**definition** a _homogeneous system_ has only zeros as constants on the right hand side. the zero vector is always a solution
 
-**definition** two [[matrix]]es $A$, $B$ are _Row Equivalent_ $A \sim B$ if $B$ can be obtained from $A$ by a finite sequence of elementary row operations
+**definition** two [[matrix]]es $A$, $B$ are _row equivalent_ $A \sim B$ if $B$ can be obtained from $A$ by a finite sequence of elementary row operations
 
-**definition** a _Leading Variable_ is the [[variable]] associated with a _pivot_ in a matrix in [[REF]]
+**definition** a _leading variable_ is the [[variable]] associated with a _pivot_ in a matrix in [[REF]]
 
 **notation**
 

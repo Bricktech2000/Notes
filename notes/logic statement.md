@@ -12,6 +12,6 @@
 
 **theorem**
 
-given a [[list]] of [[logic statement]]s, for every statement to prove every other statement, the [[graph]] where nodes are statements and edges bijections between statements must be connected. if the minimum number of bijections is present, the [[graph]] is a [[tree]].
+given a [[list]] of [[logic statement]]s, for every statement to prove every other statement, the [[graph]] where nodes are statements and edges bijective [[function]]s between statements must be connected. if the minimum number of bijections is present, the [[graph]] forms a [[tree]].
 
 &mdash; [[mat2348 a discrete mathematics]]

@@ -8,6 +8,6 @@
 
 > **example**
 >
-> $1 \lfloor\ \mathbb x$ in BQN (supports [[rank polymorphism]]) is equivalent to `map (map (min 1)) x` in Haskell (does not support [[rank polymorphism]])
+> $1 \lfloor\ \mathbb x$ in BQN (supports [[rank polymorphism]]) is equivalent to $1 \land x$ in my [[math notation]] (supports [[rank polymorphism]]) which is equivalent to `map (map (min 1)) x` in Haskell (does not support [[rank polymorphism]])
 >
 > &mdash; <https://youtu.be/8ynsN4nJxzU?t=812>

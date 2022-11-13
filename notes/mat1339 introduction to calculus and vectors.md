@@ -18,7 +18,7 @@ Main textbook (required): “Introduction to Computing Using Python: An Applicat
 
 ## Class Notes
 
-[[optimizing a function]]
+optimizing a function
 
 [[limit]]
 

@@ -24,7 +24,7 @@ generally not recommended in the workplace, as it is high risk. however, sarcasm
 
 ## Pedantic Tone
 
-> **definition**: _Pedantic Writing_ calls attention to itself instead of to what you have to say. Often suffers from [[wordiness]] &mdash; Gefen
+**definition** _pedantic writing_ calls attention to itself instead of to what you have to say. Often suffers from [[wordiness]] &mdash; Gefen
 
 > **example** _[[problematic practice]]_
 >

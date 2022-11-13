@@ -10,35 +10,33 @@ prof name: Rashmi Venkateswaran
 
 ## Class Notes
 
-know what is an [[ionic compound]] and know how to identify conjugate [[acid and base]]s
+know what is an [[ionic compound]] and know how to identify conjugate acids and bases
 
-know common [[acid and base]]s, [[polyatomic cation]]s and [[polyatomic anion]]s
+know common acids and bases, polyatomic cations and polyatomic anions
 
 know how to calculate relative [[effusion]]
 
-know how to solve [[stoichiometry]] and [[thermochemistry]] problems
+know how to solve stoichiometry and thermochemistry problems
 
-understand and apply [[equilibrium]] and understand [[reaction rate]]s
+understand and apply equilibrium and understand reaction rates
 
-understand [[buffer]] solutions and [[titration]]
+understand buffer solutions and titration
 
 [[electromagnetic wave]]s
 
-[[orbital]]s, [[bond]]s, [[quantum numbers]]
+[[orbital]]s, [[bond]]s, quantum numbers
 
-[[atomic properties]], [[molecule]]
+[[atom]]ic properties, [[molecule]]
 
 [[ideal gas]] law and partial [[pressure]]s
 
-[[reaction mechanism]]s
+reaction mechanisms
 
 **related**
 
 [[significant figures]]
 
 [[quadratic formula]]
-
-[[specific heat]]
 
 [[ideal gas]]
 

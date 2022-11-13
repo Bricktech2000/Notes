@@ -1,6 +1,6 @@
 # Ideal Gas
 
-**see** [[stoichiometry]], [[math notation]]
+**see** [[math notation]]
 
 **definition** An _ideal gas_ is a theoretical gas composed of many randomly moving point particles that are not subject to interparticle interactions. &mdash; Wikipedia
 
@@ -14,9 +14,7 @@ $PV = nRT$, where
 - $R$ is the ideal gas constant
 - $T$ is the absolute [[temperature]] of the gas
 
-## Ideal Gas Constant
-
-> **constant** $R = 8.31451 J \text- mol\ K = 8.31451 L\ kPa \text- mol\ K = 0.08314 L\ bar \text- mol\ K$
+**constant** _the ideal gas constant_ $R = 8.31451 J \text- mol\ K = 8.31451 L\ kPa \text- mol\ K = 0.08314 L\ bar \text- mol\ K$
 
 ## Dalton's Law
 
@@ -24,7 +22,7 @@ $PV = nRT$, where
 
 **definition**
 
-$P = P_0 : \cdots P_n \land \N n$, where
+$P_{total} =\ :\! P$, where
 
-- $P$ is the total [[pressure]] exerted
-- $P_i$ is the partial [[pressure]] of each gas
+- $P_{total}$ is the total [[pressure]] exerted
+- $P$ is a [[list]] of the partial [[pressure]]s of the gases

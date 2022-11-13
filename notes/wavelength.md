@@ -1,3 +1,3 @@
 # Wavelength
 
-symbol: $\lambda$
+**notation** $\lambda$

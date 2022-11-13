@@ -4,11 +4,9 @@ important to understand for [[technical writing]]
 
 ## Passive Voice
 
-> **example**
+> **examples**
 >
 > > A mistake has been made.
-
-> **example**
 >
 > > A press of the button will take a screenshot.
 
@@ -18,10 +16,8 @@ avoid using to give instructions
 
 ## Active Voice
 
-> **example**
+> **examples**
 >
 > > I made a mistake.
-
-> **example**
 >
 > > Press the button to take a screenshot.

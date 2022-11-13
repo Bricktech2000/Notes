@@ -10,6 +10,5 @@ _does this seem random and pointless? well, it is._
 
 $V = |u\ \check\mid\ v\ \dot\mid\ w|$ (see [[dot product]], [[cross product]]), where
 
-$V$ is the [[volume]] to be calculated
-
-$u, v, w$ are the three [[vector in rn]]3
+- $V$ is the [[volume]] to be calculated
+- $u, v, w$ are the three [[vector in rn]]3

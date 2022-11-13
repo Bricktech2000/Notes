@@ -1,3 +1,3 @@
 # Photon
 
-symbol: $\gamma$
+**notation** $\gamma$

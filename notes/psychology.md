@@ -4,13 +4,11 @@
 
 [[less stimulated lifestyle]]
 
-[[recollection vs recognition]], [[desire vs value]], [[reaction vs response]]
+[[desire vs value]], [[reaction vs response]]
 
-[[hijacking brain circuitry]], [[subconscious manipulation]]
+[[hijacking brain circuitry]], [[subconscious manipulation]], [[intent to mastery]]
 
-[[intent to mastery]]
-
-[[memory]], [[memory technique]]
+[[memory]], [[memory technique]], [[recollection vs recognition]]
 
 [[10x developper]], [[intelligence]]
 
@@ -22,6 +20,8 @@
 
 [[addiction]]
 
+[[hypnosis]]
+
 [[cognitive bias]], [[material distortion]]
 
 [[mental illness]]
@@ -32,8 +32,8 @@
 
 [[learning]], [[active recall]], [[spaced repetition]], [[interleaving]]
 
-[[minimalism]], [[intention]], [[difficult]], [[invest]]
+[[minimalism]], [[difficult]], [[invest]]
 
-[[hypnosis]]
+[[intention]], [[cognitive load]]
 
 [[goodharts law]]

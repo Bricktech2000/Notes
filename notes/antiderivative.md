@@ -4,9 +4,9 @@
 
 > **note** a [[function]] has an infinite number of [[antiderivative]]s
 
-> **note** a [[function]] has a unique general family of [[antiderivative]]s in the form $F\ x : c$ with $\mathbb R c$
+> **note** a [[function]] continuous on an interval has a unique general family of [[antiderivative]]s on that interval in the form $F\ x : c$ with $\mathbb R c$
 >
-> in other words, if $F\ x$ is one [[antiderivative]] of $f\ x$, then any other [[antiderivative]] of $f\ x$ can be rewritten in the form $F\ x : c$ with $\mathbb R c$, see [[antiderivative theorem proof]]
+> in other words, if $F\ x$ is one [[antiderivative]] of $f\ x$ and $f\ x$ is continuous on its domain, then any other [[antiderivative]] of $f\ x$ can be rewritten in the form $F\ x : c$ with $\mathbb R c$, see [[antiderivative theorem proof]]
 
 **notation**
 
@@ -81,7 +81,9 @@ $\int v \delta u = v u \cdot \int u \delta v$
 >
 > computing the integral, $F\ x = xe[x] \cdot e[x] : c$
 
-## Using [[trigonometric function]]s
+## Using Trigonometric Identities
+
+**see** [[trigonometric function]]s
 
 > **procedure**:
 >
@@ -123,7 +125,7 @@ $\int v \delta u = v u \cdot \int u \delta v$
 > 2. simplify the form to eliminate the square root using pythagorean trigonometric identities
 > 3. compute the [[integral]]
 
-## Partial Fractions
+## Using Partial Fractions
 
 _for the [[integral]] of rational [[function]]s_
 

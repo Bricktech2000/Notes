@@ -25,8 +25,6 @@ one can use the _horizontal line test_ to determine whether the graph of a curve
 
 **applications**
 
-[[curve sketching]]
-
 [[functional programming]]
 
 [[function vector space]]

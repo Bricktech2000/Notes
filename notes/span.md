@@ -12,10 +12,10 @@ $u_0 \cdots u_m$ _span_ the resulting [[vector space]]
 
 **notation**
 
-$\operatorname{span} \braket{\braket{u_0 \cdots u_m}} \land (\mathbb R^n u_i \dashv \mathbb N i) \land \mathbb N n$
+$\operatorname{span} \braket{\braket{u \cdots}}$, where $u \cdots$ are the [[vector]]s in the [[set]]
 
 > **note** $\operatorname{Vec}$ is the French notation whereas $\operatorname{Span}$ is the English notation
 
 **properties**
 
-a [[span]]ning [[set]] is always a [[vector space]], and all [[vector space]]s can be represented as a [[span]]ning [[set]]
+a [[span]]ning [[set]] is always a [[vector space]], and any [[vector space]] can be represented as a [[span]]ning [[set]]

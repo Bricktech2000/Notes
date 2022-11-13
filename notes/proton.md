@@ -1,3 +1,3 @@
 # Proton
 
-symbol: $p^+$
+**notation** $p^+$

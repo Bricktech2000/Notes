@@ -20,7 +20,7 @@ being [[intention]]al about where we spend our [[energy]] and attention can redu
 
 being [[intention]]al about our [[finance]] by tracking where we spend our [[money]] can help put us in a better financial position
 
-being [[intention]]al about where we spend our [[time]] can improve productivity and reduce wasted [[time]]
+being [[intention]]al about where we spend our [[time]] can improve [[productivity]] and reduce wasted [[time]]
 
 ## &mdash;
 

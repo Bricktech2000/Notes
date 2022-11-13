@@ -1,6 +1,6 @@
 # Absolute Value
 
-absolute values can be defined as a piecewise [[function]]
+[[absolute value]]s can be defined as a piecewise [[function]]
 
 **see** [[math notation]]
 
@@ -18,8 +18,8 @@ $|a : b| \le |a| : |b| \dashv \mathbb R a \land \mathbb R b$ &mdash; triangle in
 
 in [[conventional math notation]]:
 
-$|x| \le t \Harr -t \le x \le t$
+$|x| \le t \Leftrightarrow -t \le x \le t$
 
-$|x| \ge t \Harr x \ge t \lor x \le -t$
+$|x| \ge t \Leftrightarrow x \ge t \lor x \le -t$
 
 $|a + b| \le |a| + |b| \dashv \mathbb R a \land \mathbb R b$

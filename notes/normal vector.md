@@ -2,7 +2,7 @@
 
 _a [[vector in rn]] perpendicular to a [[plane in r3]]_
 
-symbol: $n$
+**notation** $n$
 
 > **procedure** _computing a normal vector_
 >

@@ -16,4 +16,4 @@ in my [[math notation]], [[function]]s can optionally be defined using [[curryin
 
 [[currying]] allows for extending [[functional programming]] patterns, which generally work on [[function]]s with only one input, to work on [[function]]s with multiple inputs.
 
-[[currying]] allows for [[parital application]]
+[[currying]] allows for [[partial application]]

@@ -2,9 +2,9 @@
 
 **see** [[math notation]], [[international system of units]]
 
-let a substance
-
 **definition**
+
+let a substance
 
 $\rho = m \text- V$, where
 

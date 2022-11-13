@@ -96,8 +96,9 @@ naps longer than $90$ minutes will make it more [[difficult]] to fall asleep at 
 
 ## possible benefits
 
-- productivity skyrockets
-- less pressure and stress
+- [[productivity]] gains
+- reduced [[cognitive load]]
+- improved [[memory]]
 
 ## &mdash;
 

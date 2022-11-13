@@ -4,20 +4,20 @@
 
 **notation**
 
-$(123)_{base}$, where
+$\omega_n$, where
 
-- $base$ is a [[natural]]
-- $123$ is a [[number]]
+- $n$ is the base, represented by a [[natural]]
+- $\omega$ is a [[list]] of digits
 
-**examples**
-
-$35_{10}$
-
-$1001_{2}$
+> **examples**
+>
+> $35_{10}$
+>
+> $1001_{2}$
 
 **pros & cons**
 
-many of the advantages claimed by the [[international system of units]] could be realized by any consistent [[positional numeral system]] &mdash; <https://en.wikipedia.org/wiki/Positional_notation>
+many of the advantages claimed by the [[international system of units]] could be realized by any consistent [[positional numeral system]] &mdash; <https://en.wikipedia.org/w/index.php?title=Positional_notation&oldid=1113494852>
 
 **see**
 

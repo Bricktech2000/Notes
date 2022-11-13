@@ -35,4 +35,4 @@ int main()
 
 undefined benavior is a tool for the compiler to optimize programs even further
 
-for example, as division by zero is undefined behavior, the compiler can assume the [[variable]] `a` in an expresion such as `1 / a` will never be zero
+> **example** since division by zero is undefined behavior, the compiler can assume the [[variable]] `a` in an expresion such as `1 / a` will never be zero. it can then build onto that assumption for further optimization

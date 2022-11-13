@@ -8,7 +8,7 @@
 
 &mdash; <https://youtu.be/OCyrMg9v-vI>
 
-**pros** _advantages of credit cards over debit cards_
+**pros** _advantages of [[credit card]]s over debit cards_
 
 - it can be said that [[credit card]]s allow for small [[loan]]s without having to go to the [[bank]]
 - debit cards are essentially non-revolving credit cards, which means that their interchange fees could end up being higher as those fees are their only source of revenue
@@ -21,7 +21,7 @@
 
 - they make it very easy to fall into debt if used irresponsibly
 
-## facts about credit cards
+## [[fact]]s about credit cards
 
 - [[credit card]] companies make 65% to 80% of their profits through revolving debt (through late fees)
 - in America, 40% of consumers are transactors (pay their bill every month, also called _deadbeats_ from the banker's point of view), 40% are revolvers, and the rest do not own a [[credit card]]. the fourth type of consumer is known as the _hacker_ (takes advantage of [[credit card]] rewards)

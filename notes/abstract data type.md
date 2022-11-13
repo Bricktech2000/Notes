@@ -2,7 +2,7 @@
 
 **see** [[type]], [[data structure]], [[algorithm]], [[abstraction]]
 
-describes the interface a [[data structure]] must implement
+describes the [[interface]] a [[data structure]] must implement
 
 **types**
 

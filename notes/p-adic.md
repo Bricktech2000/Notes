@@ -22,7 +22,7 @@ $(\dots 66667) \mid (\dots 00003) = (\dots 00001) = 1$ and therefore $(\dots 666
 
 [[p-adic]] numbers support division
 
-> **note** [[p-adic]] numbers supporting division is a consequence of $p$ being a prime number &mdash; <https://youtu.be/3gyHKCDq1YA?t=606>. my [[improved expression evaluation]] would need to be extended to support $n$-adic numbers where $n$ is not a prime number
+> **note** [[p-adic]] numbers supporting division is a consequence of $p$ being a prime number &mdash; <https://youtu.be/3gyHKCDq1YA?t=606>. my [[improved expression evaluation]] would need to be extended to support $n$-adic numbers where $n$ is not a prime number #todo
 
 > **note** [[p-adic]] numbers supporting division seems to be in [[contradiction]] with the following &mdash; me
 >

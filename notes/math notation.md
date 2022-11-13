@@ -1,4 +1,4 @@
-# Math Notation
+## Math Notation
 
 **see** [[conventional math notation]]
 
