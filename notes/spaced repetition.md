@@ -15,8 +15,9 @@ using _spaced repetition software_ eliminates the guesswork and ensures you are 
 > - Anki
 > - Duolingo
 > - Memrise
+> - RemNote
 >
-> &mdash; <https://youtu.be/Kl0RM_9cVzE?t=465>
+> &mdash; <https://youtu.be/Kl0RM_9cVzE?t=465> and Pranav
 
 ## &mdash;
 

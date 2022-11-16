@@ -50,6 +50,8 @@ the goal of [[object-oriented programming]] is to build [[object]]s based on the
 
 ### Liskov Substitution Principle (LSP)
 
+<https://youtu.be/IbjoA5xVUq0?t=620> #think
+
 > objects of a super[[class]] shall be replaceable with objects of its sub[[class]]es without breaking the application
 
 ### Interface Segregation Principle (ISP)

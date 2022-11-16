@@ -36,4 +36,4 @@
 
 [[intention]], [[cognitive load]]
 
-[[goodharts law]]
+[[goodharts law]] #todo move to other page

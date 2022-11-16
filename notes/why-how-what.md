@@ -163,6 +163,8 @@ _what_ represents the item itself
 
 [[fourier transform]]
 
+[[goals and risk]]
+
 **finance**
 
 [[price-value sigmoid]]
@@ -328,6 +330,8 @@ _what_ represents the item itself
 [[invest]]
 
 [[personal issues with university]]
+
+[[goals and risk]]
 
 **other**
 

@@ -13,7 +13,7 @@ used for events that generally happen within a single day (friend meetups, class
 >   - _where_ END_DATE is within the next week
 >   - _or_ END_DATE is on or before today
 >   - _or_ START_DATE is within the next week
->   - _or_ Status is Next Up, Work On
+>   - _or_ Status is Next Up
 
 > **sort**
 >
@@ -141,7 +141,6 @@ page load limit: 100
 
 > **type** Select
 
-- Work On (blue)
 - Next Up (blue)
 - Not Started (blue)
 - Backlog (light gray)

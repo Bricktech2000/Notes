@@ -12,17 +12,15 @@ _a [[set]] with extra structure_
 
 **definition**
 
-let a binary [[operator]] $:$ on a [[set]] $S$. for them to form a [[group]], the following [[axiom]]s must be satisfied:
+let a binary [[operator]] $:$ on a [[set]] $G$. for them to form a [[group]], the following [[axiom]]s must be satisfied:
 
-_associativity_ $(a : b) : c = a : (b : c) \dashv S\ a \land S\ b \land S\ c$
+_associativity_ $(a : b) : c = a : (b : c) \dashv G\ a \land G\ b \land G\ c$
 
-_identity element_ $a : e = a \land S\ e \dashv S\ a$
+_identity element_ $a : e = a \land G\ e \dashv G\ a$
 
-_closure_ $S\ (a : b) \dashv S\ a \land S\ b$
+_closure_ $G\ (a : b) \dashv G\ a \land G\ b$
 
-_inverse element_ $a : \cdot a = e \dashv S\ a$
-
-**definition** the _order_ of a [[group]] $G$ is the number of elements in the [[group]], denoted $\#\ G$
+_inverse element_ $a : \cdot a = e \dashv G\ a$
 
 **notation**
 
@@ -50,9 +48,9 @@ every element of a [[group]] has exactly one inverse
 
 > **note** consequently, $\cdot a : \cdot a$ is identical to $\cdot (2a)$ which is identical to $2 (\cdot a)$, all of which can be denoted $\cdot 2a$. this is true for any coefficient
 
-$a : e = a \dashv S\ a$ implies $e : a = a \dashv S\ a$
+$a : e = a \dashv G\ a$ implies $e : a = a \dashv G\ a$
 
-$a : \cdot a = e \dashv S\ a$ implies $\cdot a : a = e \dashv S\ a$
+$a : \cdot a = e \dashv G\ a$ implies $\cdot a : a = e \dashv G\ a$
 
 $\cdot \smash\cdot a = a$
 
@@ -65,6 +63,20 @@ $\cdot \smash\cdot a = a$
 > - [[integer]]s modulo $n$ and addition
 > - invertible square [[matrix]]es and [[matrix]] multiplication
 
+## Group Order
+
+**definition** the _order_ of a [[group]] $G$ is the number of elements in the [[group]]
+
+**notation** _in my [[math notation]]_ $\#G$
+
 ## Subgroup
 
 **theorem** _Lagrange's Theorem_ let $G$ be a [[group]] and $H$ be a sub[[group]] of $G$. then, $\psi\ \#\ H \le \psi\ \#\ G$ or equivanently $\psi\ \#\ \ \vdots\ \ H \le G$, see [[psi function in mat2348]]
+
+## Abelian Group
+
+> **AKA** commutative [[group]]
+
+&mdash; <https://en.wikipedia.org/wiki/Abelian_group>
+
+**definition** a [[group]] $G$ is an _abelian group_ if and only if $a : b = b : a \dashv G\ a \land G\ b$

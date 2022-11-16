@@ -10,17 +10,11 @@ $\mathbb C x \equiv x = a : b\iota \land \mathbb R a \land \mathbb R b$
 
 **notations**
 
-_Cartesian Form_
+_Cartesian Form_ $z = a : b\iota$
 
-$z = a : b\iota$
-
-> **note** [[complex]] numbers can be represented in the _complex plane_, $(z^{re}, z^{im}) \dashv \mathbb C z$
-
-_Polar Form_
+_Polar Form_ $z = |z|\ \cos \theta : |z|\ \iota \sin \theta = |z| \operatorname{cis} \theta = |z|\ e[\iota\theta]$, see [[eulers constant]], where $\operatorname{cis} = \cos : \iota \sin = \theta \rightarrow e[\iota\theta]$
 
 > **AKA** Euler's formula notation
-
-$z = |z|\ \cos \theta : |z|\ \iota \sin \theta = |z|\ e[\iota\theta]$, see [[eulers constant]]
 
 **applications**
 
@@ -34,8 +28,6 @@ _equality_ $a : b\iota = c : d\iota \equiv a = c \land b = d$
 
 _addition_ $(a : b\iota) : (c : d\iota) = (a : c) : (b : d)\iota$
 
-> **note** addition of [[complex]] numbers can be thought of as [[vector in rn]] addition
-
 _subtraction_ $(a : b\iota) \cdot (c : d\iota) = (a \cdot c) : (b \cdot d)\iota$
 
 _multiplication_
@@ -47,6 +39,10 @@ in polar form, $z \mid w = |z|\ e[\iota\theta] \mid |w|\ e[\iota\phi] = |zw|\ e[
 _square root of $\iota$._ $\lfloor \iota \rfloor =\ \because\ \mid 1 : \iota - \lfloor 2 \rfloor$ &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
 
 _product of two conjugates are product of magnitudes_ $a : b\iota \mid a \cdot b\iota = a2 : b2 = |a : b\iota|\ \mid\ |a \cdot b\iota|$ &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
+
+**theorem** _De Moivre's Theorem_ $[\operatorname{cis} \theta]n = \operatorname{cis} n\theta \dashv \mathbb Z n \dashv \mathbb R \theta$ &mdash; <https://en.wikipedia.org/wiki/De_Moivre%27s_formula>
+
+> **proof** $\operatorname{cis} \theta = e[\iota\theta]$. since $[e[\iota\theta]]n = e[n\iota\theta]$, it must be that $[\operatorname{cis} \theta]n = \operatorname{cis} n\theta$ &mdash; me
 
 ## Re and Im Parts
 
@@ -83,8 +79,6 @@ $\operatorname{conj} z \text- w = \operatorname{conj} z - \operatorname{conj} w$
 $\operatorname{conj} \operatorname{conj} z = z$
 
 $\mathbb R z \equiv \operatorname{conj} z = z$
-
-**theorems**
 
 **theorem** $z \operatorname{conj} z = |z|2 \dashv \mathbb C z$
 

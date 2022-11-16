@@ -10,7 +10,13 @@
 > - the [[number field]] of [[complex]] numbers is _algebraically closed_
 > - every single-variable [[polynomial]] of degree $n$ with [[complex]] coefficients has exactly $n$ [[complex]] roots (counted with [[multiplicity]])
 >
+> more generally,
+>
+> - an $n$ th degree [[polynomial]] equation over a [[number field]] has at most $n$ solutions
+>
 > &mdash; <https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra>
+>
+> &mdash; <https://en.wikipedia.org/wiki/Root_of_unity#Elementary_properties>
 
 the same **cannot** be said for [[real]]s
 
