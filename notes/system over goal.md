@@ -1,6 +1,6 @@
 # System over Goal
 
-> **AKA** process-oriented, system-oriented, process over outcome
+> **aka** process-oriented, system-oriented, process over outcome
 
 **see** [[habit]], [[aspiration]], [[goal]], [[system]]
 

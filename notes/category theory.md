@@ -59,7 +59,7 @@ factorizes &mdash; <https://youtu.be/Bsdl_NKbNnU?t=1011>
 
 the _curry-howard-lambek isomorphism_ states that [[logic]], [[type theory]] and some subset of [[category theory]] are all equivalent &mdash; <https://youtu.be/I8LbkfSSR58?t=1681>
 
-> **AKA** #todo curry-howard correspondence, propositions as types #todo #think see <https://youtu.be/IOiZatlZtGU?t=1490>
+> **aka** #todo curry-howard correspondence, propositions as types #todo #think see <https://youtu.be/IOiZatlZtGU?t=1490>
 
 products in the category of [[set]]s are [[cartesian product]]s &mdash; Terramorpha
 

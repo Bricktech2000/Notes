@@ -128,7 +128,7 @@ to do so, they must use a pair of [[function]]s to [[map]] both objects and morp
 
 ## Opposite Category
 
-> **AKA** Duality
+> **aka** Duality
 
 &mdash; <https://youtu.be/Gai-liKAUPo?t=190>
 

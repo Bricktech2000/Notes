@@ -2,7 +2,7 @@
 
 _turns a nested [[effect type]] into a normal [[effect type]]_
 
-> **AKA** `flatten` in Rust
+> **aka** `flatten` in Rust
 
 **see** [[functional programming]]
 

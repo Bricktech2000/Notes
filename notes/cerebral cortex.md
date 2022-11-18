@@ -1,6 +1,6 @@
 # Cerebral Cortex
 
-> **AKA** cortex, neocortex
+> **aka** cortex, neocortex
 
 _the outermost layer of the cerebrum, consisting of [[gray matter]] and convolutions._
 

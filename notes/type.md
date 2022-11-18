@@ -42,10 +42,10 @@ algebraic data [[type]]s can be used in [[programming language]]s to make invali
 
 _`enum` in [[rust]]_
 
-> **AKA** "or" type
+> **aka** "or" type
 
 ### Product Type
 
 _`struct` in [[rust]]_
 
-> **AKA** "and" type, "choice" type, `pair`, `struct`
+> **aka** "and" type, "choice" type, `pair`, `struct`

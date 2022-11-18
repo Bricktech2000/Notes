@@ -2,7 +2,7 @@
 
 _the "default" way to program_
 
-> **AKA** imperative programming
+> **aka** imperative programming
 
 **properties**
 

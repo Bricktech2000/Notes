@@ -210,7 +210,7 @@ the graphs of $y = f\ x$ and $y = F\ x$ are symmetric about the line $y = x$
 
 ## Linear Approximations
 
-> **AKA** linearization
+> **aka** linearization
 
 ### Tangent Line
 
@@ -276,7 +276,7 @@ $f_{ave} = F\ b \cdot F\ a - b \cdot a$, where
 
 _are multiple inputs collapsed into single outputs?_
 
-> **AKA** one-to-one function
+> **aka** one-to-one function
 
 **definition** a [[function]] $f$ is said to be _injective_ if $f\ x_1 = f\ x_2 \vdash x_1 = x_2 \dashv \mathbb U x_1 \land \mathbb U x_2$, see [[universal]]. _for every output value there exists at most one input mapping to it_
 
@@ -286,7 +286,7 @@ a [[function]] can be proven to be injective by proving that two output values b
 
 ## Surjective Function
 
-> **AKA** onto function
+> **aka** onto function
 
 **definition** a [[function]] $f$ is said to be _surjective_ if $f\ x = y \dashv \mathbb U y$, see [[universal]]. _for every output value there exists at least one input mapping to it_
 

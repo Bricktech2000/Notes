@@ -46,7 +46,7 @@ _operations that don’t change the general solution of a [[linear system]]_
 
 ## Row Echelon Form
 
-> **AKA** REF
+> **aka** REF
 
 **definition**
 
@@ -66,7 +66,7 @@ a [[matrix]] (augmented or not) is in [[REF]] if all:
 
 ## Reduced Row Echelon Form
 
-> **AKA** RREF
+> **aka** RREF
 
 **definition** a [[matrix]] is in [[RREF]] if all:
 

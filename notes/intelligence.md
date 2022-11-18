@@ -32,7 +32,7 @@ used for backlinks
 
 ## stuff I don't relate to
 
-> **AKA**: [[difficult]], [[overwhelm]]ing, "boring', complicated
+> **aka**: [[difficult]], [[overwhelm]]ing, "boring', complicated
 
 <https://youtu.be/SrN6ps4NM10?t=83>
 

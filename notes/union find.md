@@ -1,6 +1,6 @@
 # Union Find
 
-> **AKA** disjoint set
+> **aka** disjoint set
 
 **see** [[abstract data type]], [[data structure]]
 

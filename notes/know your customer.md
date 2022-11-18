@@ -1,5 +1,5 @@
 # Know Your Customer
 
-> **AKA** KYC
+> **aka** KYC
 
 used for backlinks

@@ -1,5 +1,5 @@
 # REF
 
-> **AKA** Row Echelon Form
+> **aka** Row Echelon Form
 
 **see** [[RREF]], [[linear system]]

@@ -1,5 +1,5 @@
 # Logic Gate
 
-> **AKA** gate
+> **aka** gate
 
 [[logic gate]]s model [[boolean logic]] [[operator]]s

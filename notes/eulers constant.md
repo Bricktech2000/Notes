@@ -1,7 +1,5 @@
 # Euler's Constant
 
-> **AKA** e
-
 **see** [[math notation]]
 
 **notation**

@@ -1,6 +1,6 @@
 # Conjunctive Normal Form
 
-> **AKA** CNV, PoS
+> **aka** CNV, PoS
 
 **definition** a compound proposition is said to be in _CNF_ if it is a _conjunction of disjunctive clauses_, see [[boolean logic]]
 

@@ -2,7 +2,7 @@
 
 _a measure of the average change over [[time]] in the prices paid by urban consumers for a market basket of consumer [[goods and services]]_
 
-> **AKA** CPI
+> **aka** CPI
 
 **see** [[economics]]
 

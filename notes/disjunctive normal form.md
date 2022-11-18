@@ -2,7 +2,7 @@
 
 **see** [[conjunctive normal form]]
 
-> **AKA** DNF, SoP
+> **aka** DNF, SoP
 
 **definition** a compound proposition is said to be in _DNF_ if it is a _disjunction of conjunctive clauses_, see [[boolean logic]]
 

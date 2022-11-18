@@ -6,7 +6,7 @@
 
 ## REM Sleep
 
-> **AKA** Rapid Eye Movement Sleep
+> **aka** Rapid Eye Movement Sleep
 
 the lightest level of [[sleep]] is known as _REM sleep_. this is the stage of [[sleep]] in which dreaming occurs.
 
