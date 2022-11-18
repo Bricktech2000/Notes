@@ -168,7 +168,7 @@ definition of the implication / sub[[set]] / super[[set]] / “for all” symbol
 
 in [[set theory]], if $U$ is a sub[[set]] of $V$ and $V$ is a sub[[set]] of $U$, then $V$ is $U$. in this math notation: $(U\ x \vdash V\ x) \land (U\ x \dashv V\ x) \equiv U = V$
 
-the probability density of the normal distribution in [[conventional math notation]]: $\frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x - \mu}{\sigma})^2}$
+the probability density of the normal distribution (see [[gaussian function]]) in [[conventional math notation]]: $\frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x - \mu}{\sigma})^2}$
 
 compared to in my [[math notation]]: $-\lfloor \tau \sigma2 \rfloor - e[\ [x \cdot \mu - \sigma]2 - 2\ ]$
 

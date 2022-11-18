@@ -54,7 +54,7 @@ _elements are unique_ $\braket{\braket{1, 1, 1}} = \braket{\braket{1, 1}} = \dot
 
 **see** [[cartesian product]]
 
-### Set Subset
+### Subset
 
 **definition** a [[set]] $A$ is a _subset_ of a [[set]] $B$ if and only if every element of $A$ is an element of $B$
 

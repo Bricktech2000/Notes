@@ -2,7 +2,18 @@
 
 **definition**
 
-$\psi\ n$ takes in a [[natural]] number $n$ and returns the [[multiset]] containing all [[natural]] prime factors of $n$.
+$\psi\ n$ takes in a [[natural]] number $n$ and returns the [[multiset]] containing all [[natural]] prime [[factor]]s of $n$.
+
+#think see [[category theory]]
+
+this [[function]] is a [[functor]] from the [[category]] $\mathbb N, \text{divides}$ to the [[category]] $\text{multiset of primes}, \text{includes}$
+
+[[functor]]s also map morphisms between [[category]]es. this means than:
+
+- products in the first category represent the GCD of two numbers, and therefore products in the second category represent the union of two multisets
+- coproducts in the first category represent the LCM of two numbers, and therefore coproducts in the second category represent the intersection of two multisets
+
+it is also worth noting that this [[functor]] is a bijection, which means that the two [[categories]] are isomorphic
 
 **properties**
 

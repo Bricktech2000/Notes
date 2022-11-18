@@ -61,6 +61,22 @@ the _curry-howard-lambek isomorphism_ states that [[logic]], [[type theory]] and
 
 > **AKA** #todo curry-howard correspondence, propositions as types #todo #think see <https://youtu.be/IOiZatlZtGU?t=1490>
 
+products in the category of [[set]]s are [[cartesian product]]s &mdash; Terramorpha
+
+coproducts in the category of [[set]]s are disjoint unions &mdash; Terramorpha
+
+products in the category of $\mathbb R, \le$ are the minimum of two numbers &mdash; Terramorpha
+
+coproducts in the category of $\mathbb R, \le$ are the maximum of two numbers &mdash; Terramorpha
+
+products in the category of $\mathbb N, \text{divides}$ are the GCD of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
+
+coproducts in the category of $\mathbb N, \text{divides}$ are the LCM of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
+
+products in the category of $\braket{\ }, \vdash$ are the intersection of two sets &mdash; Terramorpha
+
+coproducts in the category of $\braket{\ }, \vdash$ are the union of two sets &mdash; Terramorpha
+
 #think <https://youtu.be/IOiZatlZtGU?t=2334>
 
 #think <https://youtu.be/gui_SE8rJUM?t=605> from timestamp to #todo

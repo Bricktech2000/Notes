@@ -744,3 +744,78 @@ $f\ 2 - 3$
 $x : 1 \mid x \cdot 1 \mid x2 \cdot 2$
 
 $x \rightarrow c \le x \le d \land x \ne 5$
+
+---
+
+[[set#subset]]
+
+---
+
+$f\ x = x : 1 \mid x \cdot 2 - x : 1$
+
+$f\ x = x \cdot 2$
+
+$f(x) = \displaystyle \frac{(x + 1)(x - 2)}{x + 1}$
+
+$a \theta b - \theta = ab$
+
+$[a : b\epsilon]2 = a2 : 2ab\epsilon : b2\epsilon2$
+
+let $b = \delta a - \delta X$. then, $\delta a2 - \delta X = 2ab$
+
+$ab = 2b$
+
+$ab2 = 2b2$
+
+$F((a -> b) \cdot (b -> c)) = F(a -> b) \cdot F(b -> c)$
+
+$\land A \vdash B$
+
+$\land A \le B$
+
+$A \land B$
+
+#todo this is a lattice &mdash; Terramorpha
+
+---
+
+$(a * b)^n = a^0b^n : \cdots a^nb^0$, where
+
+- $a$ and $b$ are [[list]]s
+- $(a * b)$ is the [[convolution]] of $a$ and $b$
+
+> **note** in the definition above, any element of $a$ or $b$ at an out-of-bounds index is $0$
+
+> **iso**
+>
+> [[convolution]] is similar to [[polynomial]] multiplication:
+>
+> $(1, 2, 3) * (4, 5, 6) = (4, 13, 28, 27, 18)$
+>
+> $1x0 : 2x1 : 3x2 \mid 4x0 : 5x1 : 6x2 = 4x0 : 13x1 : 28x2 : 27x3 : 18x4$
+
+**properties**
+
+$\#\ (a * b) = \#\ a : \#\ b \cdot 1$
+
+**applications**
+
+> **example**
+>
+> let a [[list]] $B^n = -\# B$ so that $:\! B = 1$. then, $a * B$ is the moving average of $a$ with window size $\# B$
+
+image processing
+
+> **example**
+>
+> let a [[matrix]] of [[list]]s $M^{j, k} = (r, g, b)^{j, k}$ representing an image and a [[convolution]] $M * B$ with kernel $B$ representing an output image
+>
+> using the [[matrix]] $B^{m, n} = -\# B$ so that $:\! B = 1$ as the kernel will yeild a blurred image with window size $\# B$
+>
+> using the [[gaussian function]] as the kernel, the resulting blur is known as a _gaussian blur_
+>
+> using the [[matrix]] $\begin{bmatrix} \cdot -4 & 0 & -4 \\\ -2 & 0 & -2 \\\ \cdot -4 & 0 & -4 \end{bmatrix}$ as the kernel will detect vertical edges in the original image
+>
+> using the [[matrix]] $\begin{bmatrix} 0 & 0 & \cdot -5 & 0 & 0 \\\ 0 & \cdot -5 & \cdot -2 & \cdot -5 & 0 \\\ \cdot -5 & \cdot -2 & 5 & \cdot -2 & \cdot -5 \\\ 0 & \cdot -5 & \cdot -2 & \cdot -5 & 0 \\\ 0 & 0 & \cdot -5 & 0 & 0 \end{bmatrix}$ as the kernel will sharpen the original image
+
+[[convolution]]al [[neural network]]s

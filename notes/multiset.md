@@ -45,9 +45,7 @@ $M\ e$, where
 
 ## Multiset Cardinality
 
-**notation**
-
-$:\! M$
+**notation** $:\! M$
 
 **definition** the _cardinality_ of a [[multiset]] is the sum of the multiplicities of the elements in the [[multiset]]
 
@@ -59,9 +57,7 @@ $:\! (M \lor N)\ : \ :\! (M \land N) =\ :\! (M : N)$
 
 ## Multiset Element Count
 
-**notation**
-
-$\#\ M$
+**notation** $\#\ M$
 
 **definition** the _element count_ of a [[multiset]] is the number of unique elements in the [[multiset]]
 

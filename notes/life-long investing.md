@@ -4,15 +4,15 @@
 
 the goal of this note is to study the following strategy:
 
-> invest 20% of all [[money]] earned
+> [[invest]] 20% of all [[money]] earned
 
 **pros** _advantages of investing_
 
 - prevents economic crises from affecting one’s net worth
 - takes advantage of compound interest from a young age
-- prevents the situation where it is [[difficult]] saving some of your [[money]] because your lifestyle is shaped around spending a certain amount of it. however, implementing this strategy from a young age will mean that you will never know what it's like to have the money you're investing, and so you will not miss it. in theory. see <https://youtu.be/eDa1U9qJKxo> for some more information
+- prevents the situation where it is [[difficult]] saving some of your [[money]] because your lifestyle is shaped around spending a certain amount of it. however, implementing this strategy from a young age will mean that you will never know what it's like to have the money you're [[invest]]ing, and so you will not miss it. in theory. see <https://youtu.be/eDa1U9qJKxo> for some more information
 
-**cons** _possible issues of investing &mdash; with solutions_
+**cons** _possible issues of [[invest]]ing &mdash; with solutions_
 
 - taxes &mdash; invest in a TFSA account (Canada-only)
 - age of majority &mdash; added reminder to open trading account when turning 18 &mdash; [[cryptocurrency]] does not require users to be 18
@@ -31,7 +31,7 @@ video expressing a similar opinion: <https://youtu.be/hqYXjclDmis?t=37>
 - ~~Terra / Anchor Protocol is very, very interesting (20% ROI &mdash; <https://drive.google.com/file/d/1sKM08sghjCh0FSdzJ0gvir-GSmPPA9yF/view> at 24:30)~~ turns out UST crashed all the way to $0$
 - "the rich build and acquire assets. the poor and middle class acquire liabilities that they mistakenly think are assets." for instance, a home is not an asset, it is a liability. acquiring assets over time is the best way to build [[wealth]]. &mdash; <https://youtu.be/xG75ap4R3aM?t=464>
 - storing all [[liquidity]] in representative or commodity [[money]] such as [[cryptocurrency]]es or precious metals could be a good way to be immune to [[inflation]]
-- investments with management fees are not desirable. a $10%$ ROI investment with no fee bears the risk of a $10%$ ROI investment, whereas a $10%$ ROI investment with a $2%$ fee bears the risk of a $12%$ ROI investment. moreover, [[learning]] to beat the market is very hard even for fund managers as it is a low-validity environment
+- [[invest]]ments with management fees are not desirable. a $10%$ ROI investment with no fee bears the risk of a $10%$ ROI investment, whereas a $10%$ ROI investment with a $2%$ fee bears the risk of a $12%$ ROI investment. moreover, [[learning]] to beat the market is very hard even for fund managers as it is a low-validity environment
 
 ## &mdash;
 

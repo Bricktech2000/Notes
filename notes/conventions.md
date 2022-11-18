@@ -8,7 +8,7 @@ LaTeX is used for all mathematical equations through my custom [[math notation]]
 
 [[variable]]s are defined in separate lines using a _, where_ statement
 
-whitespace in formulas follow programming-language-like conventions
+whitespace in formulas follow [[programming language]]-like conventions
 
 [[international system of units]] units and other units are to be written using `\text{}`
 
@@ -40,6 +40,7 @@ the following headings are used in blockquotes:
 - **proof**
 - **[[mnemonic]]**
 - **constant**
+- **AKA**
 
 the following headings are used inline:
 
@@ -56,7 +57,9 @@ the following headings are used inline:
 - **examples**
 - **procedures**
 
-**examples** (#todo rename, should represent "children" and not examples)
+> **proof** _proof name_ this is an example of a proof used in a blockquote
+
+**definition** _definition name_ this is an example of a definition used inline
 
 ### quotes, italics, bold, sources, URLs
 
@@ -74,8 +77,6 @@ wiki links are generally avoided in headings
 
 a page can link to itself
 
-_see ..._ statements are for prerequisites #todo change this
-
 note names are mostly _-ing_ verbal groups or singular nominal groups, and sometimes adjectives when more appropriate
 
 line breaks are used exclusively for how they look in the render and never to make the source code more readable (which is why almost no single line breaks are used)
@@ -89,28 +90,6 @@ file names are all lowercase and apostrophes and diacritics are removed
 box titles are generated with <https://lingojam.com/BoldTextGenerator>
 
 all internal links are denoted using `[[note]]` and `![[image.png]]`, and all external links are denoted using `<https://example.com/>`
-
-### note, theorem, proof, definition
-
-#todo update this
-
-all constructs below can be multiline
-
-> **note**: this is a note to clarify the previous statement
-
-> **theorem**: this is a theorem &mdash; this is an optional source
-
-> **theorem**: _theorem name_
->
-> this is a theorem &mdash; this is an optional source
-
-> **proof**: this is a proof of the above theorem &mdash; this is an optional source
-
-> **proof**: &mdash; this is a source
-
-> **definition**: _term_ is a term that is defined here &mdash; this is an optional source
-
-> **AKA**: this is a list of synonyms for a concept, "also known as"
 
 ### syntax used
 
@@ -202,17 +181,10 @@ the following stylesheet is to be appended to any report-style document
 > ---
 >
 > horizontal rules act as page breaks
-
-paragraphs have their first line indented &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-<cite>citations have all but their first line indented &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</cite>
-
-### unused syntax
-
-> <div class="theorem">This is a theorem.</div>
-> <div class="lemma">This is a lemma.</div>
-> <div class="definition">This is a definition.</div>
-> <div class="proof">This is a proof.</div>
+>
+> paragraphs have their first line indented &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+>
+> <cite>citations have all but their first line indented &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</cite>
 
 ## presentation-style note conventions
 

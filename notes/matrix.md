@@ -116,6 +116,14 @@ $rank\ A$, where
 
 - $A$ is the [[matrix]] to find the rank of
 
+## Matrix Element Count
+
+**notation** $\#\ M$
+
+**definition** the _element count_ of a [[matrix]] is the total number of elements in the [[matrix]]
+
+> **example** let $M = \begin{bmatrix}1 & 2 & 3 \\\ 4 & 5 & 6\end{bmatrix}$. then, $\mathbb M^{2, 3} M \land \#\ M = 2 \mid 3 = 6$
+
 ## Matrix Vector Spaces
 
 _Null Space (Nullspace, Kernel), Column Space, Row Space_

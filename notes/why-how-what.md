@@ -165,6 +165,8 @@ _what_ represents the item itself
 
 [[goals and risk]]
 
+[[semigroup]]
+
 **finance**
 
 [[price-value sigmoid]]
@@ -442,3 +444,5 @@ _what_ represents the item itself
 [[hypnosis]]
 
 [[fourier transform]]
+
+[[semigroup]]
