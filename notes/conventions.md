@@ -40,6 +40,7 @@ the following headings are used in blockquotes:
 - **proof**
 - **[[mnemonic]]**
 - **constant**
+- **equivalence**
 - **aka**
 
 the following headings are used inline:

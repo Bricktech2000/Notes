@@ -12,6 +12,6 @@ _a [[group]] without necessarily having an identity element or an inverse_
 
 let a binary [[operator]] $:$ on a [[set]] $G'$. for them to form a [[semigroup]], the following [[axiom]]s must be satisfied:
 
-_associativity_ $(a : b) : c = a : (b : c) \dashv G\ a \land G\ b \land G\ c$
+_associativity_ $(a : b) : c = a : (b : c) \dashv G'\ a \land G'\ b \land G'\ c$
 
-_closure_ $G\ (a : b) \dashv G\ a \land G\ b$
+_closure_ $G'\ (a : b) \dashv G'\ a \land G'\ b$

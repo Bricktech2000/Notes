@@ -7,7 +7,7 @@
 - is an [[effect type]]
 - has a [[return function]]
 - has a [[bind function]] or a [[join function]], or both
-- must have a sensible implementation following the Monad laws
+- must have a sensible implementation following the [[monad#laws]]
 
 **applications**
 
@@ -35,10 +35,14 @@ the Kleisli Composition is an alternative to the [[bind function]] that uses [[c
 
 **properties**
 
-[[monad]]s with Kleisli Composition is a [[monoid]]
+the [[set]] of [[monad]]s with Kleisli Composition form a [[monoid]]
 
-## Monad Transformer
+## Transformer
 
 monad transformer #todo
 
 <https://en.wikipedia.org/wiki/Monad_transformer>
+
+## Laws
+
+monad laws #todo

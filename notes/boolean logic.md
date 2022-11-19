@@ -8,6 +8,14 @@
 
 boolean expressions can be simplified to a different but logically equivalent expression using [[boolean logic]] through [[boolean]] [[operator]]s, or alternatively visually using [[karnaugh map]]s or [[truth table]]s
 
+> #todo the correspondence between [[boolean logic]] and [[operator]]s on [[real]]s is a lattic. &mdash; Terramorpha
+>
+> $\land A \vdash B$
+>
+> $\land A \le B$
+>
+> $A \land B$
+
 ---
 
 # Boolean Operators

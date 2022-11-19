@@ -20,13 +20,13 @@ objects and morphisms do not contain any information; composition and identities
 
 [[category]]es are often represented visually as [[graph]]s. however, not all [[graph]]s represent "valid" [[category]]es
 
-## Objects
+## Object
 
 every category has a collection of _objects_. even though objects can be anything, they are usually taken to be mathematical objects
 
 objects of a category are generally specificed by writing them in a [[set]], denoted $\braket{\braket{1, 2, 3}}$ in my [[math notation]]. however, objects of a category do **not** (necessarily) form a (mathematical) [[set]]
 
-### Initial and Terminal Objects
+### Initial and Terminal Object
 
 &mdash; <https://youtu.be/Gai-liKAUPo?t=153>
 
@@ -40,7 +40,7 @@ objects of a category are generally specificed by writing them in a [[set]], den
 
 terminal objects are unique up to unique isomorphism
 
-## Morphisms
+## Morphism
 
 for any pair of objects $A$ and $B$, the category has a (mathematical) [[set]] of _morphisms_ from $A$ to $B$ known as their _hom-set_, denoted $\mathcal C(A, B) = \braket{\braket{f, g, \cdots}}$ in [[conventional math notation]].
 
@@ -122,7 +122,7 @@ in Haskell, let `id :: a -> a`. then, `id x = x`
 
 ## Functors
 
-[[functor]]s are morphisms that [[map]] a [[category]] to another [[category]]. this leads to [[category]]es of [[category]]es
+[[functor]]s are [[map]]s between [[category]]es which respect categorical structure &mdash; <https://youtu.be/yAi3XWCBkDo?t=1238>. this leads to the [[category]] of [[category]]es
 
 to do so, they must use a pair of [[function]]s to [[map]] both objects and morphisms between the [[category]]es and preserve the identity and composition laws
 

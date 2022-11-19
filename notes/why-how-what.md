@@ -167,6 +167,8 @@ _what_ represents the item itself
 
 [[semigroup]]
 
+[[convolution]]
+
 **finance**
 
 [[price-value sigmoid]]
@@ -446,3 +448,5 @@ _what_ represents the item itself
 [[fourier transform]]
 
 [[semigroup]]
+
+[[convolution]]

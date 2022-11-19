@@ -7,9 +7,21 @@
 a [[functor]]:
 
 - is an [[effect type]]
+- has a [[return function]]
 - has a [[map function]]
-- must have a sensible implementation following the Functor laws
+- must have a sensible implementation following the [[functor#laws]]
 
-> "[[functor]]s are [[map]]s between [[category]]es which respect categorical structure" &mdash; <https://youtu.be/yAi3XWCBkDo?t=1238>
+> **equivalence** _[[functor]] [[return function]] and map between [[category#object]]s_
+
+> **equivalence** _[[functor]] [[map function]] and map between [[category#morphism]]s_
 
 see [[map function]] for applications
+
+# Laws
+
+```haskell
+fmap id = id
+fmap (f . g) = fmap f . fmap g
+```
+
+> **note** an intuitive reason for why the second law exists is that is allows the [[functor]] to work without having to "look inside" the [[category#object]]s it is mapping over &mdash; Terramorpha
