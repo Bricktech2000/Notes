@@ -12,13 +12,17 @@ _good habits_ are an [[invest]]ment that compound over [[time]]. they seem to ma
 
 [[habit]]s are our [[brain]]'s way to delegate an action from our conscious mind to our unconscious mind. they are all about reducing [[cognitive load]] and increasing [[energy]] efficiency by recognizing simple [[cue]]s and associating them with a [[sequence]] of actions. technology can also be used to decrease [[cognitive load]] when using [[habit]]s is suboptimal &mdash; <https://youtu.be/zUm3fKk00J8?t=4599> from 1:16:39 to 1:22:08 and <https://youtu.be/zUm3fKk00J8?t=16151>
 
-## The Habit Loop
+## Loop
+
+_the [[habit#loop]]_
 
 habits can be broken down into their four component parts, called the _habit loop_: `cue -> craving -> response -> reward`
 
 > **example** `mind goes blank at work -> want to alleviate the frustration -> check social media -> satisfy the need to feel less frustrated`
 
-## Habit Formation
+## Formation
+
+_[[habit#formation]]_
 
 > **examples** _[[trick]]s to form [[habit]]s_
 >

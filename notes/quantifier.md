@@ -2,7 +2,7 @@
 
 **see** [[math notation]], [[boolean logic]]
 
-**definition** In [[boolean logic]], a _quantifier_ is an operator that specifies how many individuals in the domain of discourse satisfy an open formula. &mdash; Wikipedia
+**definition** in [[boolean logic]], a _quantifier_ is an [[operator]] that specifies how many individuals in the domain of discourse satisfy an open formula. &mdash; Wikipedia
 
 > **note** an _open formula_ is an expression with at least one free [[variable]], see [[linear system]]
 
@@ -32,7 +32,7 @@ _in my [[math notation]]_ $P\ x \land \mathbb R x$
 
 _in [[conventional math notation]]_ $\exists x \in \mathbb R, P(x)$
 
-## Exists a Unique
+## Unique Existential Quantifier
 
 _in [[conventional math notation]]_
 

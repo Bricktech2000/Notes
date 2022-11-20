@@ -4,11 +4,11 @@
 
 **definition** a _chemical bond_ is a lasting attraction between [[atom]]s, ions or [[molecule]]s that enables the formation of chemical compounds &mdash; Wikipedia
 
-a triple bond is strong than a double bond, which is stronger than a single bond. similarly, a triple bond is shorter than a double bond, which is shorter than a single bond.
+a triple [[bond]] is strong than a double [[bond]], which is stronger than a single [[bond]]. similarly, a triple [[bond]] is shorter than a double [[bond]], which is shorter than a single [[bond]].
 
 ---
 
-# Types of Bonds
+# Types
 
 **see** [[bond]]
 

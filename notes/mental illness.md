@@ -4,7 +4,7 @@
 
 &mdash; <https://youtu.be/gpjYtAB9i2w>
 
-## Anxiety Disorders
+## anxiety disorders
 
 _excessive fear and dread_
 
@@ -12,28 +12,28 @@ _excessive fear and dread_
 
 - phobias
 
-## Mood Disorders
+## mood disorders
 
 _persistent swings in mood or persistent feelings that interfere with daily life_
 
 - [[depression]]
 - bipolar disorder
 
-## Psychotic Disorders
+## psychotic disorders
 
 _disordered thinking_
 
 - schizophrenia
 - prayer
 
-## Eating Disorders
+## eating disorders
 
 _extreme emotional attitudes toward food_
 
 - bulimia
 - anorexia
 
-## Impulse Disorders
+## impulse disorders
 
 _unable to resist urges_
 
@@ -41,13 +41,13 @@ _unable to resist urges_
 - pyromania
 - gambling
 
-## Personality Disorders
+## personality disorders
 
 _extreme inflexible personality traits_
 
 &mdash; <https://partyplanner.com.sg/?p=153>
 
-### Cluster A
+### cluster a
 
 _odd, eccentric_
 
@@ -55,7 +55,7 @@ _odd, eccentric_
 - schizoid personality disorder
 - schizotypal personality disorder
 
-### Cluster B
+### cluster b
 
 _dramatic, erratic_
 
@@ -66,7 +66,7 @@ people in this cluster are very "difficult" to deal with socially
 - histrionic personality disorder
 - [[antisocial personality disorder]] &mdash; _unlikely to change_
 
-### Cluster C
+### cluster c
 
 _anxious, fearful_
 
@@ -74,6 +74,6 @@ _anxious, fearful_
 - dependent personality disorder
 - obsessive-compulsive personality disorder
 
-## Post-Traumatic Stress Disorder
+## post-traumatic stress disorder
 
 _persistent, frightening memories leading to emotional numbness_

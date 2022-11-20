@@ -2,7 +2,7 @@
 
 **see** [[math notation]]
 
-## Average Net Worth density Formula
+## average net worth density formula
 
 $\text{average net worth} - \text{geographical area}$
 

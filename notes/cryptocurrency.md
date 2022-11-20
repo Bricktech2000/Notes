@@ -8,7 +8,7 @@ _a type of [[money]]_
 
 it is decentralized, meaning that a node going offline will not have any effect on the health of the network
 
-## Coin VS Token
+## coin vs token
 
 _[[cryptocurrency]] coins_ have their own [[blockchain]]. they are comparable to [[money]]
 

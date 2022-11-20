@@ -2,7 +2,7 @@
 
 #todo combine this note with [[type of source]] and [[reliable source]]?
 
-## Libraries and Databases
+## libraries and databases
 
 uOttawa library: <https://biblio.uottawa.ca/en>
 
@@ -30,7 +30,7 @@ AND (wetland OR marsh)
 AND Florida
 ```
 
-## Search Engines
+## search engines
 
 _search engines are not a source on their own. they are a way to find sources_
 

@@ -2,6 +2,6 @@
 
 _from the day I sneaked into Reid’s and Max’s lecture_
 
-## Class Notes
+## class notes
 
 Chapter 16 [[education]]

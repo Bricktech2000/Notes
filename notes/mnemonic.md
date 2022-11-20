@@ -6,7 +6,7 @@ _[[trick]]s for [[learning]] [[fact]]s_
 
 &mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0&ab_channel=PierceCollegeDist11>
 
-## Acronyms
+## acronyms
 
 > **example** _list of words_
 >
@@ -22,7 +22,7 @@ _[[trick]]s for [[learning]] [[fact]]s_
 >
 > > RADeo: Right Atreum Deoxygenated
 
-## Coined Phrases
+## coined phrases
 
 > **example** _clockwise screws in, counterclockwise unscrews_
 >
@@ -32,7 +32,7 @@ _[[trick]]s for [[learning]] [[fact]]s_
 >
 > > My VeRy good Mother Just Served Us Nine Pizzas
 
-## Interacting Images
+## interacting images
 
 > **example** _number of calories in 1g of..._
 >

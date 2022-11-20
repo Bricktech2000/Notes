@@ -1,10 +1,8 @@
 # Number
 
-## Number Sets
+_[[set]]s of [[number]]s_
 
 **see** [[set]]
-
-_[[set]]s of [[number]]s_
 
 - [[universal]]
   - [[boolean]]

@@ -2,7 +2,7 @@
 
 **see** [[derivative]] notation, [[math notation]]
 
-## Power Rule
+## power rule
 
 $\delta\ x[n] - \delta x= nx[n \cdot 1]$
 
@@ -12,7 +12,7 @@ $\delta\ c - \delta x= 0$
 
 $\delta\ x - \delta x = 1$
 
-## [[exponent]]ial Rule
+## [[exponent]]ial rule
 
 $\delta\ a[x] - \delta x = a[x] \mid \lceil a \rceil$
 
@@ -32,7 +32,7 @@ $\delta\ f\ x - \delta x = m f\ x \equiv f\ x = e[mx]$
 
 > **example** let $g\ x = ex2 : 2e[x] : xe2 : x[e2]$. then, $\delta\ g\ x - \delta x = 2ex : 2e[x] : e2 : e2 x[e2 \cdot 1]$
 
-## [[logarithm]] Rule
+## [[logarithm]] rule
 
 $\delta\ \lceil x \rceil b - \delta x = - x\lceil b \rceil$
 
@@ -54,7 +54,7 @@ $\delta\ \lceil x \rceil - \delta x = -x$
 
 $\delta\ \lceil |x| \rceil - \delta x = -x$
 
-> **proof** define as a piecewise [[function]] and compute both [[derivative]]s
+> **proof** define as a [[function#piecewise function]] and compute both [[derivative]]s
 
 $\delta\ (\lceil |x| \rceil : c\ x) - \delta x = -x$ and therefore
 
@@ -64,27 +64,27 @@ $c\ x = c_0$ if $x < 0$ and $c\ x = c_1$ if $x > 0$
 
 > **proof** &mdash; <https://youtu.be/u4kex7hDC2o>
 
-## Constant Multiple Rule
+## constant multiple rule
 
 if $c$ is a [[real]] and $f$ is [[derivative|differentiable]], then
 
 $\delta\ (cf\ x) - \delta x = c (\delta f\ x - \delta x)$
 
-## Sum Rule
+## sum rule
 
 $\delta\ (f\ x : g\ x) - \delta x = \delta\ f\ x \text- \delta x : \delta\ g\ x \text- \delta x$
 
-## Difference Rule
+## difference rule
 
 $\delta\ (f\ x \cdot g\ x) - \delta x = \delta\ f\ x \text- \delta x \cdot \delta\ g\ x \text- \delta x$
 
 > **proof** derive from the sum rule, $f\ x \cdot g\ x = f\ x : (\cdot 1 \mid g\ x)$
 
-## Product Rule
+## product rule
 
 $\delta\ (f\ x \mid g\ x) - \delta x = (f\ x \mid \delta\ g\ x - \delta x) : (g\ x \mid \delta\ f\ x - \delta x)$
 
-## Quotient Rule
+## quotient rule
 
 $\delta\ (f\ x - g\ x) - \delta x = (g\ x \mid \delta\ f\ x - \delta x) \cdot (f\ x \mid \delta\ g\ x - \delta x) - [g\ x]2$
 
@@ -94,13 +94,13 @@ $\delta\ (f\ x - g\ x) - \delta x = (g\ x \mid \delta\ f\ x - \delta x) \cdot (f
 
 > lo d-hi, minus hi d-lo, over lo-lo
 
-### derived Reciprocal Rule
+### derived reciprocal rule
 
 $\delta\ (-f\ x) - \delta x = \cdot \delta\ f\ x - \delta x - [f\ x]2$
 
 > **proof** derive from the power rule, $-f\ x = [f\ x](\cdot 1)$
 
-## Chain Rule
+## chain rule
 
 $\delta\ f\ g\ x - \delta x = \delta\ g\ x - \delta x \mid \delta\ f\ g\ x - \delta\ g\ x$
 

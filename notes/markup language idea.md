@@ -11,7 +11,7 @@ in this [[programming language]],
 
 ---
 
-# Constructs
+# constructs
 
 ## semantic constructs
 

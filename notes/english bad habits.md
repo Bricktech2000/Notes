@@ -2,7 +2,7 @@
 
 _a few of my English bad habits_
 
-## Correct
+## correct
 
 > what's that called
 
@@ -30,7 +30,7 @@ _a few of my English bad habits_
 
 > **it is** Sunday
 
-## Incorrect
+## incorrect
 
 > how's that called
 
@@ -40,7 +40,7 @@ _a few of my English bad habits_
 
 > take a decision
 
-## Careful
+## careful
 
 > this VS that
 

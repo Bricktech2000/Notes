@@ -24,7 +24,7 @@ the goal of [[object-oriented programming]] is to build [[object]]s based on the
 
 <https://youtu.be/I8LbkfSSR58?t=615>
 
-## Pillars of OOP
+## Pillars
 
 &mdash; Google and Grepper
 
@@ -36,7 +36,7 @@ the goal of [[object-oriented programming]] is to build [[object]]s based on the
 
 [[polymorphism]]
 
-## Principles of OOP
+## Principles
 
 &mdash; Google and Grepper
 

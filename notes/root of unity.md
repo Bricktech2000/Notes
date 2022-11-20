@@ -28,7 +28,7 @@ let $z$ be a primitive [[root of unity]]. then, $z0 \dots z[n \cdot 1]$ are all 
 
 since an $n$ th degree [[polynomial]] equation over a [[number field]] (in this case the [[number field]] of [[complex]] numbers) has at most $n$ solutions by the [[fundamental theorem of algebra]], $z0 \dots z[n \cdot 1]$ are all of the $n$ th [[root of unity]]s
 
-the [[set]] of all [[root of unity]]s and the [[set]] of all $n$ th [[root of unity]]s both form an abelian [[group]] under multiplication. the [[group]] of $n$ th [[root of unity]]s form the cyclic [[group]] of order $n$ &mdash; <https://en.wikipedia.org/wiki/Root_of_unity#Group_properties>
+the [[set]] of all [[root of unity]]s and the [[set]] of all $n$ th [[root of unity]]s both form a [[group#abelian group]] under multiplication. the [[group]] of $n$ th [[root of unity]]s form the cyclic [[group]] of [[group#order]] $n$ &mdash; <https://en.wikipedia.org/wiki/Root_of_unity#Group_properties>
 
 **applications**
 

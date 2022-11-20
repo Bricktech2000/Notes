@@ -20,7 +20,7 @@ time [[computational complexity]]:
 
 **definition** the _maximum load factor_ $\alpha$ of a [[hash table]] load factor allowed before the [[hash table]] is resized
 
-## Hash Table Operations (Separate Chaining)
+## Operations (Separate Chaining)
 
 let a [[list]] of **$n$ buckets** (such as a [[list]], a [[tree]], a [[set]], etc.) be used to store keys and values
 
@@ -54,13 +54,13 @@ let a [[list]] of **$n$ buckets** (such as a [[list]], a [[tree]], a [[set]], et
 > 2. look up $k$ in the bucket at index $h$ in the [[list]]
 > 3. _resize_ the [[hash table]]
 
-## Hash Table Operations (Open Addressing)
+## Operations (Open Addressing)
 
 **see** [[math notation]]
 
 let a [[list]] of $n$ elements be used to store keys and values
 
-let a [[probing]] [[function]] $P$ be used to find the next element to probe. typically, $P$ has a cycle length of $n$.
+let a [[probing]] [[function]] $P$ be used to find the next element to probe. typically, $P$ has a [[probing#cycle length]] of $n$.
 
 **definition** a _tombstone_ is a unique marker used to indicate that a key has been removed from a [[hash table]].
 

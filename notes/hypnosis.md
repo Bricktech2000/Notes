@@ -43,5 +43,5 @@ _meditation with utilization_
 > common techniques include &mdash; with examples:
 >
 > - pattern interrupt &mdash; switching languages in the middle of an interaction before changing the conversation topic &mdash; <https://youtu.be/eDqpWJ-Zcw0?t=184> from 3:05 to 5:32 or <https://youtu.be/7gcQDuv_Kb0>
-> - loud noise &mdash; snapping fingers or clapping hands before telling the subject to wake up or go to sleep &mdash; <https://youtu.be/47RAZ2eEdhA?t=122>
-> - sudden movement &mdash; moving the subject's head or arm suddenly before telling the subject to go to sleep &mdash; <https://youtu.be/47RAZ2eEdhA?t=27> from 0:27 to 1:02 and <https://youtu.be/47RAZ2eEdhA?t=176>
+> - loud noise &mdash; snapping fingers or clapping hands before telling the subject to wake up or go to [[sleep]] &mdash; <https://youtu.be/47RAZ2eEdhA?t=122>
+> - sudden movement &mdash; moving the subject's head or arm suddenly before telling the subject to go to [[sleep]] &mdash; <https://youtu.be/47RAZ2eEdhA?t=27> from 0:27 to 1:02 and <https://youtu.be/47RAZ2eEdhA?t=176>

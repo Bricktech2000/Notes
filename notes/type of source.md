@@ -2,12 +2,12 @@
 
 **see** [[finding sources]]
 
-## Encyclopedia and Newspaper Articles
+## encyclopedia and newspaper articles
 
 - useful as a starting point
 - often fairly basic, [[writing a report]] should go more in-depth
 
-## Research Articles and Standards
+## research articles and standards
 
 - they are often [[reliable source]]s if they have been peer-reviewed
 

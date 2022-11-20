@@ -4,7 +4,7 @@
 
 **definition** a compound proposition is said to be in _CNF_ if it is a _conjunction of disjunctive clauses_, see [[boolean logic]]
 
-## Standard Product of Sums
+## standard product of sums
 
 [[iti1100 a digital systems i]] equivalent of a [[conjunctive normal form]]. the disjunctive clauses are know as _Maxterms_
 

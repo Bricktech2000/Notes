@@ -6,6 +6,6 @@ used for backlinks
 
 [[neural network]]s
 
-[[eigenvector and eigenvalue]]
+[[eigen]]
 
 [[linear programming]]

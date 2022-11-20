@@ -1,14 +1,14 @@
 # Matrix
 
-**see** [[math notation]], [[eigenvector and eigenvalue]]s
+**see** [[math notation]], [[eigen]]
 
-**definition** _formally in my [[math notation]]_ a [[matrix]] in $\mathbb R^{m, n}$ is a [[set theory]]etical [[function]] with domain at least $\braket{x, y} \rightarrow \mathbb N x \land \mathbb N y \land 0 \le x < m \land 0 \le y < n$ that takes an [[ordered pair]] as an index and returns the element at that index
+**definition** _formally in my [[math notation]]_ a [[matrix]] in $\mathbb R^{m, n}$ is a [[set theory]]etical [[function]] with [[function#domain]] at least $\braket{x, y} \rightarrow \mathbb N x \land \mathbb N y \land 0 \le x < m \land 0 \le y < n$ that takes an [[ordered pair]] as an index and returns the element at that index
 
 **notation**
 
 $\begin{bmatrix}a & b \\\ c & d\end{bmatrix}$
 
-## Multiplication by a Scalar
+## Multiplication by Scalar
 
 **see** [[matrix vector space]], [[vector space]]
 
@@ -20,7 +20,7 @@ $(kA)^{i, j} = kA^{i, j} \dashv \mathbb N i \land \mathbb N j \land \mathbb R k 
 
 _commutativity with [[scalar]]s_ $kA = Ak$
 
-## Matrix Addition
+## Addition
 
 **see** [[matrix vector space]], [[vector space]]
 
@@ -28,7 +28,7 @@ _commutativity with [[scalar]]s_ $kA = Ak$
 
 $(A : B)^{i, j} = A^{i, j} : B^{i, j} \dashv \mathbb N i \land \mathbb N j \land \mathbb M^{m, n} A \land \mathbb M^{m, n} B$
 
-## Matrix Multiplication
+## Multiplication
 
 **see** [[dot product]], [[vector in rn]]
 
@@ -64,11 +64,11 @@ _associative with [[scalar]]s_ $k(AB) = (kA)B = A(kB)$
 
 **applications**
 
-matrix multiplication can be used to represent a [[linear system]] of [[linear equation]]s:
+[[matrix#multiplication]] can be used to represent a [[linear system]] of [[linear equation]]s:
 
 $\begin{bmatrix}1 & 2 & 3 \\\  4 & 5 & 6\end{bmatrix}\begin{bmatrix}x \\\  y \\\  z\end{bmatrix}$
 
-matrix multiplication can be used to represent any [[linear transformation]]
+[[matrix#multiplication]] can be used to represent any [[linear transformation]]
 
 ## Identity Matrix
 
@@ -106,7 +106,7 @@ $A_{m, n}O_{n, p} = O_{m, p} \dashv \mathbb M^{n, p} O_{n, p} \land \mathbb M^{m
 
 $O_{q, m}A_{m, n} = O_{q, n} \dashv \mathbb M^{q, m} O_{q, m} \land \mathbb M^{q, n} O_{q, n} \land \mathbb M^{m, n} A_{m, n}$
 
-## Rank of a Matrix
+## Rank
 
 _the number of pivots in any [[REF]] of the [[matrix]]_
 
@@ -114,9 +114,9 @@ _the number of pivots in any [[REF]] of the [[matrix]]_
 
 $rank\ A$, where
 
-- $A$ is the [[matrix]] to find the rank of
+- $A$ is the [[matrix]] to find the [[matrix#rank]] of
 
-## Matrix Element Count
+## Element Count
 
 **notation** $\#\ M$
 
@@ -124,7 +124,7 @@ $rank\ A$, where
 
 > **example** let $M = \begin{bmatrix}1 & 2 & 3 \\\ 4 & 5 & 6\end{bmatrix}$. then, $\mathbb M^{2, 3} M \land \#\ M = 2 \mid 3 = 6$
 
-## Matrix Vector Spaces
+## Vector Spaces
 
 _Null Space (Nullspace, Kernel), Column Space, Row Space_
 
@@ -156,17 +156,17 @@ $\dim Null\ A = \text{number of free variables in } A$
 
 $rank\ A = \text{number of pivots in } A$
 
-the nonzero rows in any [[REF]] of a [[matrix]] $A$ forms a [[basis]] for $Row\ A$. therefore, $\dim Row\ A = rank\ A$ (see rank of a [[matrix]])
+the nonzero rows in any [[REF]] of a [[matrix]] $A$ forms a [[basis]] for $Row\ A$. therefore, $\dim Row\ A = rank\ A$, see [[matrix#rank]]
 
 if $A$ and $B$ are row-equivalent, then $Row\ A = Row\ B$, see [[linear system]]
 
 the [[span]]ning [[set]] of $Null\ A$ obtained from applying [[row reduction]] on the system $Ax = O$ is a [[basis]] for $Null\ A$
 
-$Row\ A$ does not change when applying elementary operations on the rows of $A$, see [[linear system]]
+$Row\ A$ does not change when applying [[linear system#elementary operation]]s on the rows of $A$
 
 **properties**
 
-$Col\ A = Row\ A^\intercal \land Row\ A = Col\ A^\intercal \dashv \mathbb M A$, see transpose [[matrix]]
+$Col\ A = Row\ A^\intercal \land Row\ A = Col\ A^\intercal \dashv \mathbb M A$, see [[matrix#transpose]]
 
 **applications**
 
@@ -184,13 +184,17 @@ the same can be said for $Col\ A$
 >
 > after solving the [[linear system]], we get $W\ (x, y, z, w) \equiv \cdot x : y : w = 0$. therefore, $W$ is the null space of $A = \begin{bmatrix}\cdot 1 & 1 & 0 & 1\end{bmatrix}$
 
-## Transpose Matrix
+## Diagonal
+
+_the diagonal of a [[matrix]]_
+
+**definition** the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element
+
+## Transpose
 
 _the transpose of a [[matrix]]_
 
-_flips a [[matrix]] around its diagonal_
-
-> **note** the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element (triplicate)
+_flips a [[matrix]] around its [[matrix#diagonal]]_
 
 **definition**
 
@@ -204,7 +208,7 @@ $(AB)^\intercal = B^\intercal A^\intercal \dashv \mathbb M A \land \mathbb M B$
 
 **representation** ![[200px-Matrix_transpose.gif]] &mdash; <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif>
 
-## Matrix Inverse
+## Inverse
 
 _the inverse of a [[matrix]]_
 
@@ -217,7 +221,7 @@ $AA^- = A^-A = I \dashv \mathbb M A$, where
 
 ### Invertability
 
-**definition** an _invertible matrix_ has a corresponding inverse [[matrix]]
+**definition** an _invertible matrix_ has a corresponding [[matrix#inverse]]
 
 **see** theorems below for invertability criteria
 
@@ -235,17 +239,17 @@ $(kA)^- = \text-k \mid A^-$ (see [[improved expression evaluation]])
 
 $(AC)^- = C^-A^-$
 
-> **note** in the equation above, the order of the [[matrix]]es has changed. this is significant as [[matrix]] multiplication is not commutative
+> **note** in the equation above, the order of the [[matrix]]es has changed. this is significant as [[matrix#multiplication]] is not commutative
 
 if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 
-> **procedure** _computing the inverse of a [[matrix]]_
+> **procedure** _computing the [[matrix#inverse]] of a [[matrix]]_
 >
 > let $\mathbb M^{n, n} A$
 >
-> solve the system $AA^- = I$ by extending the [[matrix]] with the identity [[matrix]] and solve the [[linear system]] up to [[RREF]] using [[row reduction]]. $\begin{bmatrix}A & | & I\end{bmatrix} \sim \cdots \begin{bmatrix}I & | & A^-\end{bmatrix}$
+> solve the system $AA^- = I$ by extending the [[matrix]] with the [[matrix#identity matrix]] and solve the [[linear system]] up to [[RREF]] using [[row reduction]]. $\begin{bmatrix}A & | & I\end{bmatrix} \sim \cdots \begin{bmatrix}I & | & A^-\end{bmatrix}$
 
-> **procedure** _computing the inverse of a $2$ by $2$ [[matrix]]_
+> **procedure** _computing the [[matrix#inverse]] of a $2$ by $2$ [[matrix]]_
 >
 > **see** [[determinant]]
 >
@@ -255,7 +259,7 @@ if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 >
 > $A^- = - |A|\ \mid\ \begin{bmatrix}d & \cdot b \\\  \cdot c & a\end{bmatrix}$
 
-**applications** _using a matrix inverse to solve a linear system_
+**applications** _using a [[matrix#inverse]] to solve a [[linear system]]_
 
 let $A = \begin{bmatrix}1 & 1 \\\  2 & 3\end{bmatrix}$
 
@@ -271,17 +275,11 @@ $Ix = x = B \begin{bmatrix}\cdot 1 \\\ 1\end{bmatrix}$
 
 ## Triangular Matrix
 
-**definition** a [[matrix]] is said to be _triangular_ if every entry below its diagonal **or** above its diagonal is $0$
-
-> **note** the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element (triplicate)
+**definition** a [[matrix]] is said to be _triangular_ if every entry below its [[matrix#diagonal]] **or** above its [[matrix#diagonal]] is $0$
 
 ## Diagonal Matrix
 
-**definition** a [[matrix]] is said to be _diagonal_ if every entry below its diagonal **and** above its diagonal is $0$
-
-> **note** the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element (triplicate)
-
-let $D$ be a diagonal [[matrix]]
+**definition** a [[matrix]] is said to be _diagonal_ if every entry below its [[matrix#diagonal]] **and** above its [[matrix#diagonal]] is $0$
 
 **applications**
 
@@ -289,29 +287,29 @@ $[D]x$ can be calculated by raising every entry of $D$ to the power $x$
 
 ## Diagonalizable Matrix
 
-**see** [[eigenvector]]
+**see** [[eigen#vector]]
 
-**definition** an $n$ by $n$ [[matrix]] $A$ is said to be _diagonalizable over the reals_ if there exists a [[basis]] of $\mathbb R^n$ consisting entirely of [[eigenvector]]s of $A$
+**definition** an $n$ by $n$ [[matrix]] $A$ is said to be _diagonalizable over the reals_ if there exists a [[basis]] of $\mathbb R^n$ consisting entirely of [[eigen#vector]]s of $A$
 
-a [[matrix]] is _diagonalizable_ if and only if the geometic [[multiplicity]] of an [[eigenvalue]] is equal to the algebraic [[multiplicity]] of said [[eigenvalue]], for every [[eigenvalue]] of the [[matrix]] (see [[eigenvector and eigenvalue]])
+a [[matrix]] is _diagonalizable_ if and only if the geometic [[eigen#multiplicity]] of an [[eigen#value]] is equal to the algebraic [[eigen#multiplicity]] of said [[eigen#value]], for every [[eigen#value]] of the [[matrix]]
 
 > **note** a [[matrix]] may also be diagonalizable over other [[number field]]s such as the [[set]] of [[complex]] numbers $\mathbb C$
 
-> **note** some [[matrix]]es do not have "enough" real [[eigenvalue]]s or "enough" [[eigenvector]]s to be diagonalizable
+> **note** some [[matrix]]es do not have "enough" real [[eigen#value]]s or "enough" [[eigen#vector]]s to be diagonalizable
 
-> **example** the [[matrix]] $A = \begin{bmatrix}1 & 2 \\\ 2 & 1\end{bmatrix}$ is diagonalizable over the reals as $\braket{\braket{\ (1, 1), (1, \cdot 1)\ }}$ is a [[basis]] of $\mathbb R^2$ consisting entirely of [[eigenvector]]s of $A$
+> **example** the [[matrix]] $A = \begin{bmatrix}1 & 2 \\\ 2 & 1\end{bmatrix}$ is diagonalizable over the reals as $\braket{\braket{\ (1, 1), (1, \cdot 1)\ }}$ is a [[basis]] of $\mathbb R^2$ consisting entirely of [[eigen#vector]]s of $A$
 
-> **example** the [[matrix]] $A = \begin{bmatrix}1 & 1 \\\ \cdot 1 & 1\end{bmatrix}$ is not diagonalizable over the reals as it does not have any real [[eigenvalue]]s
+> **example** the [[matrix]] $A = \begin{bmatrix}1 & 1 \\\ \cdot 1 & 1\end{bmatrix}$ is not diagonalizable over the reals as it does not have any real [[eigen#value]]s
 
-> **example** the [[matrix]] $A = \begin{bmatrix}3 & 1 \\\ 0 & 3\end{bmatrix}$ is not diagonalizable over the reals as it only has one [[eigenvalue]], and therefore only one set of [[linearly dependent]] [[eigenvector]]s (see [[eigenvector and eigenvalue]])
+> **example** the [[matrix]] $A = \begin{bmatrix}3 & 1 \\\ 0 & 3\end{bmatrix}$ is not diagonalizable over the reals as it only has one [[eigen#value]], and therefore only one set of [[linearly dependent]] [[eigen#vector]]s
 
-> **example** the [[matrix]] $A = \begin{bmatrix}1 & 0 \\\ 0 & 1\end{bmatrix}$ is diagonalizable over the reals as, even though $A$ has a single [[eigenvalue]] $\lambda = 1$, its [[eigenspace]] [[span]]s $\mathbb R^2$. this is the case for both $A = I \land \lambda = 1$ and $A = O \land \lambda = 0$
+> **example** the [[matrix]] $A = \begin{bmatrix}1 & 0 \\\ 0 & 1\end{bmatrix}$ is diagonalizable over the reals as, even though $A$ has a single [[eigen#value]] $\lambda = 1$, its [[eigen#space]] [[span]]s $\mathbb R^2$. this is the case for both $A = I \land \lambda = 1$ and $A = O \land \lambda = 0$
 >
-> > **proof** let $A = I \land \lambda = 1 \land E_1 = x$. we then have $O = A \cdot \lambda I \mid x = I \cdot 1I \mid E_1= O \mid E_1$. therefore, $E_1 \equiv \mathbb R^2$. see [[eigenvector and eigenvalue]]
+> > **proof** let $A = I \land \lambda = 1 \land E_1 = x$. we then have $O = A \cdot \lambda I \mid x = I \cdot 1I \mid E_1= O \mid E_1$. therefore, $E_1 \equiv \mathbb R^2$. see [[eigen]]
 
-> **example** let $\mathbb M^{n, n} A \land \mathbb N n$ and suppose $A$ has $n$ distinct [[eigenvalue]]s. deduce that $A$ is diagonalizable over the reals
+> **example** let $\mathbb M^{n, n} A \land \mathbb N n$ and suppose $A$ has $n$ distinct [[eigen#value]]s. deduce that $A$ is diagonalizable over the reals
 >
-> > **proof** $A$ has at most $n$ [[eigenvalue]]s $\to$ the algebraic [[multiplicity]] of every [[eigenvalue]] of $A$ is $1$ as they are all distinct and must be greater than $1$ $\to$ the geometric [[multiplicity]] of every [[eigenvalue]] of $A$ is $1$ as it must be greater than $1$ and less than its algebraic [[multiplicity]] $\to$ all algebraic [[multiplicity]]es and geometric [[multiplicity]]es are equal $\to$ $A$ is diagonalizable. see [[eigenvector and eigenvalue]]
+> > **proof** $A$ has at most $n$ [[eigen#value]]s $\to$ the algebraic [[eigen#multiplicity]] of every [[eigen#value]] of $A$ is $1$ as they are all distinct and must be greater than $1$ $\to$ the geometric [[eigen#multiplicity]] of every [[eigen#value]] of $A$ is $1$ as it must be greater than $1$ and less than its algebraic [[eigen#multiplicity]] $\to$ all algebraic [[eigen#multiplicity]]es and geometric [[eigen#multiplicity]]es are equal $\to$ $A$ is diagonalizable. see [[eigen]]
 
 ## theorems
 
@@ -335,11 +333,11 @@ let $\mathbb M^{m, n}A$ (see [[matrix]]). the following [[logic statement]]s are
 
 let $\mathbb M^{n, n} A$ (see [[matrix]]). the following [[logic statement]]s are equivalent:
 
-> **note** all [[logic statement]]s below are valid for both $A$ and $A^\intercal$, see transpose [[matrix]]
+> **note** all [[logic statement]]s below are valid for both $A$ and $A^\intercal$, see [[matrix#transpose]]
 
 - $rank\ A = n$
-- every linear system of the form $Ax = b$ has a unique solution
-- the [[RREF]] of $A$ is the identity [[matrix]]
+- every [[linear system]] of the form $Ax = b$ has a unique solution
+- the [[RREF]] of $A$ is the [[matrix#identity matrix]]
 - $Ker\ A = \braket{\braket{0}}$
 - $Col\ A = \mathbb R^n$
 - $Row\ A = \mathbb R^n$

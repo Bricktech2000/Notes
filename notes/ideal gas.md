@@ -4,7 +4,9 @@
 
 **definition** An _ideal gas_ is a theoretical gas composed of many randomly moving point particles that are not subject to interparticle interactions. &mdash; Wikipedia
 
-## Ideal Gas Law
+## Law
+
+_[[ideal gas#law]]_
 
 $PV = nRT$, where
 

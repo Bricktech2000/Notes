@@ -1,6 +1,6 @@
 # Public Speaking
 
-## Structure
+## structure
 
 be very explicit about the structure of a talk.
 
@@ -19,7 +19,7 @@ explicitly link [[concept]]s and ideas together instead of listing them
 > - use linking words when jumping from one idea to the next
 > - introduce and wrap up each point with an introduction and a conclusion
 
-## Nonverbals
+## nonverbals
 
 keep visual contact with the audience
 
@@ -55,7 +55,7 @@ make people feel what you are feeling by exploiting empathetic mirroring
 > - use props and strong visuals to enhance the empathetic effects
 > - look passionate towards the subject you are talking about (duplicate)
 
-## Other
+## other
 
 ### facts
 

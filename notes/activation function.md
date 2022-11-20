@@ -6,7 +6,7 @@
 
 > **note** using a [[sigmoid function]] as an [[activation function]] is old-school. ReLU is now preferred &mdash; <https://youtu.be/aircAruvnKk?t=1034>
 
-## ReLU
+## ReLU Function
 
 _preferred activation function_
 
@@ -27,7 +27,7 @@ def ReLU(x):
 
 ![[20220628163633.png]]
 
-## tanh
+## Tanh Function
 
 _for getting values between $\cdot 1$ and $1$._
 
@@ -46,7 +46,7 @@ def TANH(x):
 
 ![[20220629115711.png]]
 
-## Softmax
+## Softmax Function
 
 _for getting probabilities out_
 

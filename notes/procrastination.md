@@ -10,17 +10,17 @@ _it isn’t a problem; it’s a solution_ &mdash; <https://youtu.be/DMw8G3RPWrQ?
 >
 > > why would I spend 30 hours over a full month studying to get an A where I could spend 5 hours studying the night before to get a B
 
-## consequences of procrastination
+## Consequences
 
 &mdash; <https://youtu.be/o3YtcwPI5fw>
 
-### Tangible Consequences
+### tangible consequences
 
 _a failed grade, an upset friend_
 
 tangible consequences can lead to stress an panic, creating the [[motivation]] needed to complete a task.
 
-### Intangible Consequences
+### intangible consequences
 
 _not exercising, not keeping in touch with someone_
 

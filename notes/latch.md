@@ -2,7 +2,7 @@
 
 **see** [[logic gate]], [[flip-flop]], [[logic circuit]]
 
-all [[latch]]es can be turned into [[flip-flop]]s and all [[flip-flop]]s can be turned into [[latch]]es
+all [[latch#types]] can be turned into [[flip-flop]]s and all [[flip-flop#types]] can be turned into [[latch]]es
 
 ## Gated Latch
 
@@ -12,7 +12,7 @@ all [[latch]]es can be converted to gated [[latch]]es with an _enable_ input
 
 ---
 
-# Types of Latches
+# Types
 
 &mdash; <https://en.wikipedia.org/wiki/Flip-flop_(electronics)>
 

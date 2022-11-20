@@ -14,9 +14,9 @@
 
 ## Stationary Distribution
 
-certain [[markov chain]]s converge to a _stationary distribution_, which can be computed using [[matrix]] multiplication
+certain [[markov chain]]s converge to a _stationary distribution_, which can be computed using [[matrix#multiplication]]
 
-> **procedure** _computing a stationary distribution through [[iteration]]_
+> **procedure** _computing a [[markov chain#stationary distribution]] through [[iteration]]_
 >
 > let $S_0 = \begin{bmatrix} S_0^0 \\\ \vdots \\\ S_0^s \end{bmatrix}$, where
 >
@@ -35,11 +35,11 @@ certain [[markov chain]]s converge to a _stationary distribution_, which can be 
 >
 > - $S_\infty$ is the _stationary distribution_ of the [[markov chain]]
 
-> **procedure** _computing a stationary distribution through [[eigenvector and eigenvalue]]s_
+> **procedure** _computing a [[markov chain#stationary distribution]] through [[eigen#vector]]s and [[eigen#value]]s_
 >
-> the [[eigenvector]]s of the [[markov chain]]'s _transition matrix_ are the _stationary distribution_ of the [[markov chain]]
+> the [[eigen#vector]]s of the [[markov chain]]'s _transition matrix_ are the _stationary distribution_ of the [[markov chain]]
 >
-> it is common to multiply the resulting [[eigenvector]] $x$ by a [[scalar]] $k$ so that $:\! kx = 1$
+> it is common to multiply the resulting [[eigen#vector]] $x$ by a [[scalar]] $k$ so that $:\! kx = 1$
 >
 > &mdash; <https://youtu.be/EGoRJePORHs?t=551>
 >

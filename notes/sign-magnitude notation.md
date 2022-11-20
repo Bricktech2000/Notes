@@ -1,6 +1,6 @@
 # Sign-Magnitude Notation
 
-_an alternative to Radix [[complement]]s for representing negative [[number]]s in [[digital system]]s_
+_an alternative to [[complement#radix complement]]s for representing negative [[integer]]s in [[digital system]]s_
 
 **see** [[positional numeral system]]
 

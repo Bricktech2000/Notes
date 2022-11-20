@@ -4,6 +4,8 @@
 
 _[[map]] from [[natural]] numbers in range $0 \cdots n$ to elements_
 
+> **equivalence** _[[list]]s and [[vector in rn]]s_
+
 **types**
 
 [[array]]

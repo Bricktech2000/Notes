@@ -2,7 +2,7 @@
 
 **see** [[vector]], [[vector in rn]], [[matrix]], [[math notation]], [[basis]]
 
-**types** see [[vector]]
+**types** **see** [[vector]]
 
 **examples**
 
@@ -11,18 +11,18 @@
 > the following are [[vector space]]s:
 >
 > - $\mathbb R^1$, $\mathbb R^2$, $\mathbb R^n \land \mathbb N n$
-> - $V v \equiv v = O$ (a [[set]] containing only the zero vector is a vector space)
+> - $V v \equiv v = O$ (a [[set]] containing only the zero [[vector]] is a [[vector space]])
 
 > **example**
 >
 > below are examples of [[vector space]]s
 >
-> - any [[plane in r3]] through the origin is a subspace of $\mathbb R^3$
-> - any [[line in rn]]3 through the origin is a subspace of $\mathbb R^3$ (same with $\mathbb R^2$)
-> - any [[line in rn]]3 or [[plane in r3]] that does _not_ go through the origin is not a subspace of $\mathbb R^3$
-> - $\mathbb R^n \vdash \mathbb R^n \dashv \mathbb N n$ ($\mathbb R^n$ is a subspace of $\mathbb R^n$)
-> - $(V v \equiv v^i = 0 \dashv \mathbb N i \land i \le n) \vdash \mathbb R^n \dashv \mathbb N n$ ($(0, 0 \cdots 0)$ is a subspace of $\mathbb R^n$)
-> - $(\mathbb R^n \not\vdash \mathbb R^m) \dashv n \le m \dashv \mathbb N n \land \mathbb N m$ ($\mathbb R^{n \cdot x}$ is not a subspace of $\mathbb R^n$, as vectors in $\mathbb R^{n \cdot x}$ are not really comparable to vectors in $\mathbb R^n$)
+> - any [[plane#plane in r3]] through the origin is a [[vector space#subspace]] of $\mathbb R^3$
+> - any [[line#line in r3]] through the origin is a [[vector space#subspace]] of $\mathbb R^3$ (same with $\mathbb R^2$)
+> - any [[line#line in r3]] or [[plane#plane in r3]] that does _not_ go through the origin is not a [[vector space#subspace]] of $\mathbb R^3$
+> - $\mathbb R^n \vdash \mathbb R^n \dashv \mathbb N n$ ($\mathbb R^n$ is a [[vector space#subspace]] of $\mathbb R^n$)
+> - $(V v \equiv v^i = 0 \dashv \mathbb N i \land i \le n) \vdash \mathbb R^n \dashv \mathbb N n$ ($(0, 0 \cdots 0)$ is a [[vector space#subspace]] of $\mathbb R^n$)
+> - $(\mathbb R^n \not\vdash \mathbb R^m) \dashv n \le m \dashv \mathbb N n \land \mathbb N m$ ($\mathbb R^{n \cdot x}$ is not a [[vector space#subspace]] of $\mathbb R^n$, as [[vector]]s in $\mathbb R^{n \cdot x}$ are not really comparable to [[vector]]s in $\mathbb R^n$)
 
 > **example** **see** [[vector space proof examples]]
 
@@ -52,7 +52,7 @@ _distributivity_ $c : d \mid v \equiv cv : dv$
 
 _associativity of multiplication_ $k \mid du \equiv kd \mid u$
 
-## Vector Subspace
+## Subspace
 
 **definition**
 
@@ -64,7 +64,11 @@ $U$ is a _subspace_ of $V$ if and only if $U \vdash V$ and $U$ is a [[vector spa
 
 let $V\ \braket{\braket{v_0 \cdots v_m}}$. if $U = \operatorname{span} \braket{\braket{v_0 \cdots v_m}}$, then $U \vdash V$, see [[span]]
 
-## Vector Space Isomorphism
+## Isomorphism
+
+#todo **equivalence** with [[category]]
+
+#todo **equivalence** with [[polynomial vector space]]
 
 **see** [[category]], [[category theory]]
 
@@ -72,7 +76,7 @@ let $V\ \braket{\braket{v_0 \cdots v_m}}$. if $U = \operatorname{span} \braket{\
 
 > **example** $\mathbb R^3$ and $\mathbb P^2$ are isomorphic, as any vector in $\mathbb R^3$ can be converted to a unique vector in $\mathbb P^2$, and vice-versa, see [[category]]
 
-## Dimension of a Vector Space
+## Dimension
 
 **notation** _in my [[math notation]]_
 
@@ -84,19 +88,19 @@ the _dimension of a vector space_ is equal to the number of [[vector]]s in any [
 
 > **example**
 >
-> below are the dimensions of a few common vector spaces
+> below are the [[vector space#dimension]]s of a few common [[vector space]]s
 >
 > - $\dim \mathbb R^2 = 2$
 > - $\dim \mathbb P^2 = 3$
 > - $\dim \mathbb F = \infty$
 > - $\dim \mathbb M^{3, 4} = 12$
-> - $\dim V = 2$ where $V$ is a [[plane in r3]]
-> - $\dim V = 1$ where $V$ is a [[line in rn]]3 or in $\mathbb R^2$
+> - $\dim V = 2$ where $V$ is a [[plane#plane in r3]]
+> - $\dim V = 1$ where $V$ is a [[line#line in r3]] or in $\mathbb R^2$
 > - $\dim \operatorname{span} \braket{\braket{O}} = 0$ (see [[span]], zero [[vector]])
 
-## Describing Vector Spaces
+## describing vector spaces
 
-there are three major ways of describing vector spaces
+there are three major ways of describing [[vector space]]s
 
 ### [[vector]] with restrictions
 

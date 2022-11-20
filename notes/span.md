@@ -8,7 +8,7 @@ the [[set]] of all [[linear combination]]s of the [[vector]]s $u_0 \cdots u_m$ i
 
 $u_0 \cdots u_m$ is said to be a _spanning set_ for the resulting [[vector space]]
 
-$u_0 \cdots u_m$ _span_ the resulting [[vector space]]
+it is said that $u_0 \cdots u_m$ _span_ the resulting [[vector space]]
 
 **notation**
 

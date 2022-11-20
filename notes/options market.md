@@ -6,7 +6,7 @@ a single option controls 100 shares of the underlying stock
 
 a single option has a lower [[probability]] of making a profit but limit losses to a certain amount
 
-options trading allows for higher leverage than the [[stock market]]
+[[options market#trading]] allows for higher leverage than the [[stock market]]
 
 options price rise with high volatility and fall with low volatility
 
@@ -30,9 +30,9 @@ if the _share price_ doesn't reach the _strike price_ of an option before its _e
 
 ---
 
-# Options Market Trading
+# Trading
 
-## Everything is Priced In
+## everything is priced in
 
 when trading on the [[options market]], you are trying to outsmart everyone else in the options market. it is likely that if you think you have an edge, you really don't. unless you successfully outsmart most people in the options market, you will likely make approximately $0%$ profit in the long run
 
@@ -40,7 +40,7 @@ when trading on the [[options market]], you are trying to outsmart everyone else
 
 &mdash; <https://youtu.be/dgisRHEQ2FM>
 
-## Trading Best Practices
+## Best Practices
 
 each trade should be around 1-5% of the total portfolio value
 
@@ -52,13 +52,13 @@ paper trading is a good way to practice trading
 
 IV% #todo
 
-## Trading Tools
+## Tools
 
 Webull and Interactive Brokers
 
-<http://barchart.com/options/> for finding options trade ideas
+<http://barchart.com/options/> for finding [[options market#trading]] ideas
 
-## Trading Strategies
+## Strategies
 
 #todo
 

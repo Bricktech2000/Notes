@@ -1,6 +1,6 @@
 # Characteristic Polynomial
 
-**see** [[math notation]], [[eigenvector and eigenvalue]]
+**see** [[math notation]], [[eigen]]
 
 **definition**
 
@@ -10,4 +10,4 @@ $P = \det (A \cdot \lambda I) \land \mathbb M^{n, n} A \land \mathbb N n \land \
 
 **properties**
 
-the roots of the [[characteristic polynomial]] of $A$ are [[eigenvalue]]s of $A$
+the roots of the [[characteristic polynomial]] of $A$ are [[eigen#value]]s of $A$

@@ -8,7 +8,7 @@ prof name: Rashmi Venkateswaran
 - homework deadlines are guidelines
 - class is both online and in-person, _we can participate either way_ (CRX C010 according to Brightspace)
 
-## Class Notes
+## class notes
 
 know what is an [[ionic compound]] and know how to identify conjugate acids and bases
 

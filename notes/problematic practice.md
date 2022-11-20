@@ -80,13 +80,13 @@ you will not be able to do **whatever it takes**
 
 ## improper use of words
 
-### Number and Amount, Fewer and Less
+### _number_ and _amount_, _fewer_ and _less_
 
 _number_ is used when a quantity can be counted, whereas _amount_ is used when a quantity is measured
 
 _fewer_ is used when a quantity can be counted, whereas _less_ is used when a quantity is measured
 
-### Imply and Infer
+### _imply_ and _infer_
 
 _imply_ is used when explicit meaning is communicated implicitly
 
@@ -98,7 +98,7 @@ _infer_ is used when implicit meaning is made explicit
 
 > Based on what the teacher wrote, I inferred that I got a good grade
 
-### Can, Could, May
+### _can_, _could_, _may_
 
 _can_ refers to the physical ability to do something.
 
@@ -120,13 +120,13 @@ should be rewritten as
 
 > When may I submit my report?
 
-### From and Between
+### _from_ and _between_
 
 $\dots$ from $\dots$ to $\dots$
 
 $\dots$ between $\dots$ and $\dots$
 
-### If and Whether
+### _if_ and _whether_
 
 > _If_ and _whether_ are often interchangeable, but have distinct uses. For clarity, it is best to use _whether_ in reference to a choice or to alternatives and _if_ when establishing a condition.
 
@@ -136,11 +136,11 @@ for example,
 
 > we will go if it doesn't rain
 
-### Simple and Simplistic
+### _simple_ and _simplistic_
 
 _Simple_ generally has positive connotations whereas _simplistic_ generally has negative connotations.
 
-### Continually and Continuously
+### _continually_ and _continuously_
 
 _continually_ means _periodically on an ongoing basis_
 
@@ -150,7 +150,7 @@ _continuously_ means _without interruption_
 
 > I left my computer running continuously overnight
 
-### Other problematic words
+### other problematic words
 
 - Later and Latter
 - Discreet and Discrete

@@ -1,10 +1,12 @@
-# Line in Rn
+# Line
 
 **see** [[vector in rn]], [[math notation]]
 
 &mdash; <https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s>
 
-## Parametric Form
+## line in r3
+
+### Parametric Form
 
 $L = p : td$, or
 
@@ -16,7 +18,7 @@ $L = p : t (p_1 \cdot p_0) \land \mathbb R t$, where
 
 _continue below_
 
-## Symmetric Form
+### Symmetric Form
 
 solving the above equation for $t$
 
@@ -28,17 +30,17 @@ $L^x \cdot p^x - p_1^x \cdot p_0^x = L^y \cdot p^y - p_1^y \cdot p_0^y = L^z \cd
 
 > **note** if $p_1^n = p_0^n \land \mathbb N n$, then the term $n$ must be rearranged to avoid a division by $0$
 
-## Intersection of Two Lines
+### intersection of two lines
 
 if $L_0^n = L_1^n \dashv \mathbb N n$ has a solution, then the two lines intersect at said solution
 
 > **note** as a [[trick]], check to see if the lines are parallel first
 
-## Angle Between Two Lines
+### angle between two lines
 
 **definition** the angle between two lines is the angle between their direction [[vector in rn]]s
 
-## other
+### other
 
 **definition**
 
@@ -50,14 +52,14 @@ two lines with points $p$ and $q$ are parallel if $p_1 \cdot p_0 = k \mid q_1 \c
 
 _two lines are parallel if one of their direction [[vector]]s is a [[scalar]] multiple of the other direction [[vector]]_
 
-## Slope-Intercept Form
+### Slope-Intercept Form
 
 $y = mx : b$, where
 
 - $m$ is the slope of the line, $\Delta y \cdot \Delta x$
 - $b$ is the y-intercept of the line ($y$ value when $x = 0$)
 
-## Point-Slope Form
+### Point-Slope Form
 
 $y \cdot y_0 = m \mid x \cdot x_0$, where
 

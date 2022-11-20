@@ -6,9 +6,9 @@
 
 **definition** two boolean expressions (or [[logic statement]]s) are said to be _logically equivalent_ if they yield the same output for every input. in other words, two boolean expressions (or [[logic statement]]s) are _logically equivalent_ if they share the same [[truth table]]
 
-boolean expressions can be simplified to a different but logically equivalent expression using [[boolean logic]] through [[boolean]] [[operator]]s, or alternatively visually using [[karnaugh map]]s or [[truth table]]s
+boolean expressions can be simplified to a different but logically equivalent expression using [[boolean logic]] through [[boolean logic#operators]], or alternatively visually using [[karnaugh map]]s or [[truth table]]s
 
-> #todo the correspondence between [[boolean logic]] and [[operator]]s on [[real]]s is a lattic. &mdash; Terramorpha
+> #todo the correspondence between [[boolean logic]] and [[operator]]s on [[real]]s is a lattie. &mdash; Terramorpha
 >
 > $\land A \vdash B$
 >
@@ -18,13 +18,13 @@ boolean expressions can be simplified to a different but logically equivalent ex
 
 ---
 
-# Boolean Operators
+# Operators
 
 **see** [[boolean]], [[boolean logic]]
 
 boolean [[operator]]s can be modeled in [[logic circuit]]s through [[logic gate]]s
 
-## Operator Precedence
+## operator precedence
 
 **see** [[math notation]] for [[operator]] precedence in my [[math notation]]
 

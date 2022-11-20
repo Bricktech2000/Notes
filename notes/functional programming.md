@@ -4,7 +4,7 @@
 
 [[functor]] & [[map function]], [[monad]] & [[bind function]] & [[join function]], [[monoid]] & [[reduce function]], [[effect type]] & [[return function]]
 
-[[currying]], [[partial application]], pure and total [[function]], [[combinatory logic]], [[lambda calculus]]
+[[currying]], [[partial application]], [[function#pure function]] and [[function#total function]], [[combinatory logic]], [[lambda calculus]]
 
 [[function]], [[type]], [[composition]], [[apply]]
 
@@ -37,7 +37,7 @@
 
 functional languages support [[first-class function]]s
 
-design for totality, see [[function]]
+design for totality, see [[function#total function]]
 
 parameterize all the things, including **both** data and behavior
 

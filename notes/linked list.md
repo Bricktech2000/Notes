@@ -34,6 +34,6 @@ graph LR
 
 can be used to implement [[list]]s, [[queue]]s and [[stack]]s because of their efficient insertion and deletion [[computational complexity]]
 
-can be used in [[hash table]] implementations to deal with [[hash]] collisions
+can be used in [[hash table#operations (separate chaining)]] implementations to deal with [[hash#collision]]s
 
 often used in the implementation of adjacency lists for [[graph]]s

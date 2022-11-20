@@ -22,10 +22,14 @@ _studying [[vector space]]s_
 
 [[determinant]]
 
-[[eigenvector and eigenvalue]]
+[[eigen]]
 
 [[linear transformation]]
 
 [[vector in rn]], [[normal vector]], [[matrix]]
 
 [[span]]s, [[zero space]], [[basis]]
+
+**related**
+
+[[plane]], [[line]], [[vector in r]]

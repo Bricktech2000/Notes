@@ -8,7 +8,7 @@ prof email: <welah096@uottawa.ca>
 
 prof office hours: Every Friday from 15:00 to 16:00, via Zoom
 
-## Grading Scheme
+## grading scheme
 
 - LAB &mdash; 10% (5 labs, each worth 2%)
 - AST &mdash; 30% (4 assignments, each worth 7.5%)
@@ -17,7 +17,7 @@ prof office hours: Every Friday from 15:00 to 16:00, via Zoom
 
 late submissions: -20% for every day. mark of 0 after 3 days (72 hours)
 
-## Labs
+## labs
 
 labs will be performed in groups of two (thank god I’m with Kiera)
 
@@ -39,7 +39,7 @@ Publisher: Pearson-Prentice Hall
 
 &mdash; syllabus
 
-## Class Notes
+## class notes
 
 [[digital system]], [[logic circuit]]
 

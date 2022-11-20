@@ -12,7 +12,7 @@ a set of [[linear equation]]s
 
 **definition** a _homogeneous system_ has only zeros as constants on the right hand side. the zero vector is always a solution
 
-**definition** two [[matrix]]es $A$, $B$ are _row equivalent_ $A \sim B$ if $B$ can be obtained from $A$ by a finite sequence of elementary row operations
+**definition** two [[matrix]]es $A$, $B$ are _row equivalent_ $A \sim B$ if $B$ can be obtained from $A$ by a finite sequence of [[linear system#elementary operation]]s
 
 **definition** a _leading variable_ is the [[variable]] associated with a _pivot_ in a matrix in [[REF]]
 
@@ -36,7 +36,7 @@ $x \begin{bmatrix}1 \\\  1 \\\  0\end{bmatrix} : y \begin{bmatrix}1 \\\  \cdot 1
 
 the system is _consistent_ if and only if $b$ ($\begin{bmatrix}3 \\\  2 \\\  1\end{bmatrix}$ in this case) is a [[linear combination]] of the columns of $A$, $A^{, j}$
 
-## Elementary Operations
+## Elementary Operation
 
 _operations that don’t change the general solution of a [[linear system]]_
 

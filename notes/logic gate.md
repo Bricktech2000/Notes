@@ -2,4 +2,4 @@
 
 > **aka** gate
 
-[[logic gate]]s model [[boolean logic]] [[operator]]s
+[[logic gate]]s model [[boolean logic#operators]]

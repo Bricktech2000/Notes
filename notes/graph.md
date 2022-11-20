@@ -2,7 +2,7 @@
 
 _a collection of vertices connected by a collection of edges_
 
-**definition** _formally in my [[math notation]]_ a [[graph]] is a [[set theory]]etical [[function]] with domain at least $\braket{v, w} \rightarrow \top$ that takes an [[ordered pair]] of vertices as an index and returns whether an edge is connecting them
+**definition** _formally in my [[math notation]]_ a [[graph]] is a [[set theory]]etical [[function]] with [[function#domain]] at least $\braket{v, w} \rightarrow \top$ that takes an [[ordered pair]] of vertices as an index and returns whether an edge is connecting them
 
 **definition** an _undirected graph_ is a [[graph]] $G$ such that $G = G^\intercal$
 
@@ -32,7 +32,9 @@ _in my [[math notation]]_ a vertex $v$ is in a graph $G$ if and only if there is
 
 _in [[conventional math notation]]_ a vertex $v$ is in a graph $\braket{V, E}$ if and only if $V\ v$
 
-## Graph Isomorphism
+## Isomorphism
+
+#todo **equivalence** with [[category]]
 
 **see** [[category]], [[category theory]]
 
@@ -62,16 +64,18 @@ _in [[conventional math notation]]_ a vertex $v$ is in a graph $\braket{V, E}$ i
 
 **definition** the _degree_ of a vertex $v$ is the number of edges incident to $v$
 
-as every edge connects two vertices, the sum of the degrees of all vertices of a [[graph]] is an [[even number]]. if this is not the case, the [[graph]] is not a [[graph]] as at least one of its edges is not connected to two vertices
+as every edge connects two vertices, the sum of the [[graph#vertex degree]]s of all vertices of a [[graph]] is an [[even number]]. if this is not the case, the [[graph]] is not a [[graph]] as at least one of its edges is not connected to two vertices
 
-## Euler Path and Circuit
+## Euler Path
+
+## Euler Circuit
 
 **definition** an _Euler path_ is a path traversing every edge of a [[graph]] exactly once
 
 **definition** an _Euler circuit_ is an _Euler path_ that starts and ends at the same vertex
 
-when visiting a vertex in an Euler path or circuit, one edge is used to go to the vertex and another edge is used to leave it. from this fact the following theorems are derived:
+when visiting a vertex in a [[graph#euler path]] or [[graph#euler circuit]], one edge is used to go to the vertex and another edge is used to leave it. from this fact the following theorems are derived:
 
-**theorem** a [[graph]] has an _Euler path_ if and only if exactly zero or exactly two of its vertices have an [[odd number]] degree
+**theorem** a [[graph]] has an _Euler path_ if and only if exactly zero or exactly two of its vertices have an [[odd number]] [[graph#vertex degree]]
 
-**theorem** a [[graph]] has an _Euler circuit_ if and only if every vertex has an [[even number]] degree
+**theorem** a [[graph]] has an _Euler circuit_ if and only if every vertex has an [[even number]] [[graph#vertex degree]]

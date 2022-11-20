@@ -17,7 +17,7 @@ _equality_ $\braket{a, b} = \braket{c, d} \equiv a = c \land b = d$
 
 _negation_ $\cdot\braket{a, b} \equiv \braket{\cdot a, \cdot b}$
 
-## Vector Space Axioms
+## Vector Space
 
 **see** [[ordered pair vector space]], [[vector space]]
 
@@ -29,7 +29,7 @@ _[[ordered pair]] addition_ $\braket{a, b} : \braket{c, d} \equiv \braket{a : c,
 
 _multiplication by a [[scalar]]_ $c\braket{a, b} \equiv \braket{ca, cb} \dashv \mathbb R c$
 
-## Transpose Ordered Pair
+## Transpose
 
 _the transpose of an [[ordered pair]]_
 

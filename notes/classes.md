@@ -1,6 +1,6 @@
 # 🅲🅻🅰🆂🆂🅴🆂
 
-## Year 1 Semester 1
+## year 1 semester 1
 
 [[eng1112 technical report writing]]
 
@@ -12,7 +12,7 @@
 
 [[soc1101 principles of sociology]]
 
-## Year 1 Semester 2
+## year 1 semester 2
 
 [[iti1100 a digital systems i]]
 
@@ -24,7 +24,7 @@
 
 [[eco1102 h introduction to macroeconomics]]
 
-## Year 2 Semester 1
+## year 2 semester 1
 
 [[seg2105 b introduction to software engineering]]
 

@@ -16,6 +16,8 @@ operators in [[type theory]]
 
 [[exponent]]s
 
+[[quantifier]]s
+
 #todo fix notation for the following operators and fix all dot products and matrix products
 
 #todo extend hadamard product properties with <https://en.wikipedia.org/wiki/Hadamard_product_(matrices)#Properties>

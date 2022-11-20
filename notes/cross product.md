@@ -4,7 +4,7 @@
 
 > **note** the [[cross product]] is only defined for [[vector in rn]]3
 
-_results in a [[vector]] of [[length]] ([[area]] of the parallelogram formed by the two [[vector]]s) and of orientation (perpendicular to the [[plane in r3]] formed by the two [[vector]]s)_ — 3B1B
+_results in a [[vector]] of [[vector in rn#magnitude]] ([[area]] of the parallelogram formed by the two [[vector]]s) and of [[vector in rn#orientation]] (perpendicular to the [[plane#plane in r3]] formed by the two [[vector]]s)_ — 3B1B
 
 **definition**
 
@@ -36,4 +36,4 @@ _associativity with [[scalar]] multiplication_ $k \mid a \check\shortmid b = ka\
 
 $|u\ \check\mid\ v|$ is the [[area]] of the parallelogram with sides $u$ and $v$
 
-can be used to find a [[vector in rn]] perpendicular to a [[plane in r3]] or to two other [[vector in rn]]s
+can be used to find a [[vector in rn]] perpendicular to a [[plane]] or to two other [[vector in rn]]s

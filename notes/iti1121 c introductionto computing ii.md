@@ -16,7 +16,7 @@ lab link: <https://msabet.bitbucket.io/iti1121/labs/>
 
 Piazza link: <https://piazza.com/uottawa.ca/winter2022/iti1121bc/home>
 
-## Grading Scheme
+## grading scheme
 
 - AST &mdash; 25%
 - LAB &mdash; 10%
@@ -27,13 +27,13 @@ textbook: you wish
 
 lab feedback: <https://iti1121.eecs.uottawa.ca/5615127aa8736dbc31207f697b80a9f7a299893e61eff411d0c673fc7c41d197/>
 
-## Lectures
+## lectures
 
 Zoom link: <https://uottawa-ca.zoom.us/j/91777916214?pwd=azRnZFY1eXR1OVNtQmhqU25mWXZzdz09> &mdash; Outlook
 
 lecture recordings: <https://www.dropbox.com/sh/k9xsuw39b7nwhfq/AACNkDGiYZr2-3W-XdVsEUi6a?dl=0>
 
-## Labs
+## labs
 
 watch recordings **before** attending lab sessions
 
@@ -43,7 +43,7 @@ lab submission link: <https://uottawa.brightspace.com/d2l/le/content/274914/Home
 
 lab attendance is **not** mandatory, but highly encouraged
 
-## Class Notes
+## class notes
 
 [[object-oriented programming]]
 

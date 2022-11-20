@@ -8,8 +8,8 @@ this [[math notation]] obviously cannot be used to communicate ideas to people w
 
 ## principles
 
-- all equality [[operator]]s check for equality and return a [[boolean]], and it is implied that an [[expression]] on its own must evaluate to $\top$. this allows for [[boolean logic]] [[operator]]s to be applied on equalities explicitly as opposed informally
-- [[set]]s are [[function]]s that return a [[boolean]] ([[set]]s are [[predicate]]s). this way, [[boolean logic]] [[operator]]s and [[set]] [[operator]]s are one and the same. other [[data structure]]s that work similarly include [[vector]]s, [[matrix]]es, [[sequence]]s, [[multiset]]s, [[ordered pair]]s...
+- all equality [[operator]]s check for equality and return a [[boolean]], and it is implied that an [[expression]] on its own must evaluate to $\top$. this allows for [[boolean logic#operators]] to be applied on equalities explicitly as opposed informally
+- [[set]]s are [[function]]s that return a [[boolean]] ([[set]]s are [[predicate]]s). this way, [[boolean logic#operators]] and [[set]] [[operator]]s are one and the same. other [[data structure]]s that work similarly include [[vector]]s, [[matrix]]es, [[sequence]]s, [[multiset]]s, [[ordered pair]]s...
 - some [[operator]]s are identical but have different precedence as "more brackets means more explicit, but less brackets means less complex and less confusing"
 - $\lfloor a \rfloor$ returns both positive and negative square roots ($\lfloor q2 \rfloor \equiv\ \because q$). the same is true for other reciprocals
 - superscripts are modifiers (subscripts with special meanings). this distinction is extremely useful when working with [[forward propagation]] and [[backpropagation]] in [[neural network]]s, for example
@@ -42,43 +42,43 @@ let:
 
 ### operator descriptions
 
-| notation                             | description                                       | notes                                                 |
-| ------------------------------------ | ------------------------------------------------- | ----------------------------------------------------- |
-| $a : b$                              | addition or disjoint union                        |                                                       |
-| $a \cdot b$                          | subtraction                                       |                                                       |
-| $\because$ and $\therefore$          | $\pm$ and $\mp$                                   |                                                       |
-| $a \smash\shortmid b$ and $a \mid b$ | multiplication                                    |                                                       |
-| $a \text- b$ and $a - b$             | division                                          |                                                       |
-| $[a]b$                               | exponentiation                                    | represents a power by convention                      |
-| $a[b]$                               | exponentiation                                    | represents an exponential by convention               |
-| $\lfloor a \rfloor b$                | $b$ th root of $a$                                | $b = 2$ if $b$ is omitted                             |
-| $\lceil a \rceil b$                  | base-$b$ [[logarithm]] of $a$                     | $b = e$ if $b$ is omitted                             |
-| $x \rightarrow E$                    | [[function]] literal                              | $f = x \rightarrow E \equiv f \smash\leftarrow x = E$ |
-| $f \smash\leftarrow E$               | [[function]] application                          | uncommon, shorthand preferred                         |
-| $a = b$                              | equality                                          | numerical equality by convention                      |
-| $a < b$ and $a > b$                  | strict inequality                                 |                                                       |
-| $a \le b$ and $a \ge b$              | non-strict inequality                             |                                                       |
-| $a \land b$                          | logical AND or $\min$ function                    |                                                       |
-| $a \lor b$                           | logical OR or $\max$ function                     |                                                       |
-| $a\ /\ b$                            | logical difference                                | $a \land b = \bot$                                    |
-| $a \equiv b$                         | equality                                          | logical equality by convention                        |
-| $a \times b$                         | nonequality                                       | also serves as logical XOR                            |
-| $a \vdash b$                         | implication, subset                               | $a$ implies $b$, $b$ for all $a$                      |
-| $a \dashv b$                         | reverse implication, superset                     | $a$ for all $b$, $b$ implies $a$                      |
-| $a_0 \circ a_1 \circ \cdots a_n$     | with $n = 3$, $a_0 \circ a_1 \circ a_2 \circ a_3$ | step size is $\because 1$ if $a_1 \circ$ is omitted   |
-| $a_0 \cdots a_n$                     | with $n = 3$, $a_0, a_1, a_2, a_3$                | step size is $\because 1$ if $a_1$ is omitted         |
-| $f\ \ \vdots\ \ a \circ b$           | $f\ a \circ f\ b$                                 |                                                       |
-| $f\ \ \vdots\ \ x \rightarrow a$     | the [[limit]] of $f$ as $x$ approaches $a$        |                                                       |
-| $x_{sub}$                            | the [[variable]] $x$ with a subscript $_{sub}$    |                                                       |
-| $V^n$                                | the $n$ th component of $V$                       |                                                       |
-| $A^i$                                | the $i$ th element of $A$                         |                                                       |
-| $B^i$                                | the $i$ th element of $B$                         |                                                       |
-| $M^{\braket{i, j}}$                  | the $i, j$ th element of $M$                      | uncommon, shorthand preferred                         |
-| $P^b$                                | the $b$ th element of $P$                         |                                                       |
-| $S\ a$                               | whether $a$ is element of $S$                     |                                                       |
-| $M'\ a$                              | the number of elements $a$ in $M'$                |                                                       |
-| $G\ a$                               | whether vertex $a$ is in $G$                      |                                                       |
-| $G^{\braket{a, b}}$                  | the number of edges from $a$ to $b$ in $G$        | uncommon, shorthand preferred                         |
+| notation                             | description                                       | notes                                               |
+| ------------------------------------ | ------------------------------------------------- | --------------------------------------------------- |
+| $a : b$                              | addition or disjoint union                        |                                                     |
+| $a \cdot b$                          | subtraction                                       |                                                     |
+| $\because$ and $\therefore$          | $\pm$ and $\mp$                                   |                                                     |
+| $a \smash\shortmid b$ and $a \mid b$ | multiplication                                    |                                                     |
+| $a \text- b$ and $a - b$             | division                                          |                                                     |
+| $[a]b$                               | exponentiation                                    | represents a power by convention                    |
+| $a[b]$                               | exponentiation                                    | represents an exponential by convention             |
+| $\lfloor a \rfloor b$                | $b$ th root of $a$                                | $b = 2$ if $b$ is omitted                           |
+| $\lceil a \rceil b$                  | base-$b$ [[logarithm]] of $a$                     | $b = e$ if $b$ is omitted                           |
+| $x \rightarrow E$                    | [[function]] literal                              | $f = x \rightarrow E \equiv f \leftarrow x = E$     |
+| $f \leftarrow E$                     | [[function]] application                          | uncommon, shorthand preferred                       |
+| $a = b$                              | equality                                          | numerical equality by convention                    |
+| $a < b$ and $a > b$                  | strict inequality                                 |                                                     |
+| $a \le b$ and $a \ge b$              | non-strict inequality                             |                                                     |
+| $a \land b$                          | logical AND or $\min$ function                    |                                                     |
+| $a \lor b$                           | logical OR or $\max$ function                     |                                                     |
+| $a\ /\ b$                            | logical difference                                | $a \land b = \bot$                                  |
+| $a \equiv b$                         | equality                                          | logical equality by convention                      |
+| $a \times b$                         | nonequality                                       | also serves as logical XOR                          |
+| $a \vdash b$                         | implication, [[set#subset]]                       | $a$ implies $b$, $b$ for all $a$                    |
+| $a \dashv b$                         | reverse implication, [[set#superset]]             | $a$ for all $b$, $b$ implies $a$                    |
+| $a_0 \circ a_1 \circ \cdots a_n$     | with $n = 3$, $a_0 \circ a_1 \circ a_2 \circ a_3$ | step size is $\because 1$ if $a_1 \circ$ is omitted |
+| $a_0 \cdots a_n$                     | with $n = 3$, $a_0, a_1, a_2, a_3$                | step size is $\because 1$ if $a_1$ is omitted       |
+| $f\ \ \vdots\ \ a \circ b$           | $f\ a \circ f\ b$                                 |                                                     |
+| $f\ \ \vdots\ \ x \rightarrow a$     | the [[limit]] of $f$ as $x$ approaches $a$        |                                                     |
+| $x_{sub}$                            | the [[variable]] $x$ with a subscript $_{sub}$    |                                                     |
+| $V^n$                                | the $n$ th component of $V$                       |                                                     |
+| $A^i$                                | the $i$ th element of $A$                         |                                                     |
+| $B^i$                                | the $i$ th element of $B$                         |                                                     |
+| $M^{\braket{i, j}}$                  | the $i, j$ th element of $M$                      | uncommon, shorthand preferred                       |
+| $P^b$                                | the $b$ th element of $P$                         |                                                     |
+| $S\ a$                               | whether $a$ is element of $S$                     |                                                     |
+| $M'\ a$                              | the number of elements $a$ in $M'$                |                                                     |
+| $G\ a$                               | whether vertex $a$ is in $G$                      |                                                     |
+| $G^{\braket{a, b}}$                  | the number of edges from $a$ to $b$ in $G$        | uncommon, shorthand preferred                       |
 
 ### shorthands
 
@@ -87,7 +87,7 @@ let:
 | $a \not\vdash b$, $a \ne b$, $a \not\le b$, $a \not< b$... | $/(a \vdash b)$, $/a = b$, $/a \le b$, $/a < b$... |                                        |
 | $x\omega$                                                  | $[x]\omega$                                        |                                        |
 | $ax$                                                       | $a \smash\shortmid x$                              |                                        |
-| $f\ x$                                                     | $f \smash\leftarrow x$                             | common, longhand discouraged           |
+| $f\ x$                                                     | $f \leftarrow x$                                   | common, longhand discouraged           |
 | $x\ y \rightarrow E$                                       | $x \rightarrow y \rightarrow E$                    |                                        |
 | $\braket{\ }$                                              | $\braket{\braket{\ }}$                             | see [[empty]] [[set]]                  |
 | $(\ )$                                                     | $((\ ))$                                           | see [[multiset]]                       |
@@ -131,7 +131,7 @@ _in order of high to low precedence_
 | $()\ \braket{}\ \Big[\Big]\ \ x\ x_a^i$        |               |                |                       |
 | $[]\ \lfloor\rfloor\ \lceil\rceil$             |               |                |                       |
 | $\shortmid \text-$                             | left          | $1$            | inverse               |
-| $\delta\ \sin\ \#\ \smash\leftarrow$           | right-ish     |                |                       |
+| $\delta\ \sin\ \#\ \leftarrow$                 | right-ish     |                |                       |
 | $\, :\ \cdot\ \because\ \ \therefore$          | left          | $0$            | negation              |
 | $\mid -$                                       | left          | $1$            | inverse               |
 | $\int\ \ \vdots\ \ \cdots\ \rightarrow\ \bmod$ | right-ish     |                |                       |
@@ -164,9 +164,9 @@ _in order of high to low precedence_
 
 definition of the [[set]] of [[complex]] numbers: $\mathbb C x \equiv x = a : b\iota \land \mathbb R a \land \mathbb R b$
 
-definition of the implication / sub[[set]] / super[[set]] / “for all” symbol: $a \vdash b \equiv /a \lor b$ and $a \dashv b \equiv a \lor /b$
+definition of the [[boolean logic#implication]] / [[set#subset]] / [[set#superset]] / [[quantifier#universal quantifier]]: $a \vdash b \equiv /a \lor b$ and $a \dashv b \equiv a \lor /b$
 
-in [[set theory]], if $U$ is a sub[[set]] of $V$ and $V$ is a sub[[set]] of $U$, then $V$ is $U$. in this math notation: $(U\ x \vdash V\ x) \land (U\ x \dashv V\ x) \equiv U = V$
+in [[set theory]], if $U$ is a [[set#subset]] of $V$ and $V$ is a [[set#subset]] of $U$, then $V$ is $U$. in this math notation: $(U\ x \vdash V\ x) \land (U\ x \dashv V\ x) \equiv U = V$
 
 the probability density of the normal distribution (see [[gaussian function]]) in [[conventional math notation]]: $\frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}(\frac{x - \mu}{\sigma})^2}$
 
@@ -174,7 +174,7 @@ compared to in my [[math notation]]: $-\lfloor \tau \sigma2 \rfloor - e[\ [x \cd
 
 definition of factorials: $\operatorname{fact} n = 1 \mid \cdots n$
 
-the negation of an implication in my [[math notation]]: $B \vdash C \times B\ /\ C$ (_B implying C equals not (B without C)_ or _implication is the negation of set difference_ or _the negation of "for all B, C" is "there exists a B such that not C"_)
+the negation of a [[boolean logic#implication]] in my [[math notation]]: $B \vdash C \times B\ /\ C$ (_B implying C equals not (B without C)_ or _implication is the negation of set difference_ or _the negation of "for all B, C" is "there exists a B such that not C"_)
 
 compared to [[conventional math notation]]: $\lnot (B \to C) = B \land \lnot C$ or $(a \in B \to a \in C) \iff a \notin B \backslash C$ or $B \subset C \iff \forall a \in C, a \notin B$
 

@@ -6,7 +6,7 @@
 
 **definition** a _set_ is an unordered collection of elements, each of which are unique
 
-**definition** _formally in my [[math notation]]_ a [[set]] is a [[set theory]]etical [[function]] with range at most $\mathbb B$ (also known as a [[predicate]]) that takes an element and returns whether it is in the [[set]] or not
+**definition** _formally in my [[math notation]]_ a [[set]] is a [[set theory]]etical [[function]] with [[function#range]] at most $\mathbb B$ (also known as a [[predicate]]) that takes an element and returns whether it is in the [[set]] or not
 
 **notations**
 
@@ -48,7 +48,7 @@ _elements are unique_ $\braket{\braket{1, 1, 1}} = \braket{\braket{1, 1}} = \dot
 
 [[monoid]]s
 
-## Set Operations
+## Operations
 
 **see** [[boolean logic]]
 
@@ -56,15 +56,27 @@ _elements are unique_ $\braket{\braket{1, 1, 1}} = \braket{\braket{1, 1}} = \dot
 
 ### Subset
 
+### Superset
+
 **definition** a [[set]] $A$ is a _subset_ of a [[set]] $B$ if and only if every element of $A$ is an element of $B$
+
+**definition** a [[set]] $B$ is a _superset_ of a [[set]] $A$ if and only if every element of $A$ is an element of $B$
 
 in other words, an element being in $A$ implies it is also in $B$
 
 **notation**
 
-_in my [[math notation]]_ $A \vdash B$ checks if $A$ is a subset of $B$
+_in my [[math notation]]_
 
-_in [[conventional math notation]]_ $A \subseteq B$ states $A$ is a subset of $B$
+$A \vdash B$ checks if $A$ is a [[set#subset]] of $B$
+
+$B \dashv A$ checks if $B$ is a [[set#superset]] of $A$
+
+_in [[conventional math notation]]_
+
+$A \subseteq B$ states $A$ is a [[set#subset]] of $B$
+
+$B \supseteq A$ states $B$ is a [[set#superset]] of $A$
 
 **examples**
 
@@ -72,17 +84,19 @@ $\mathbb Z \vdash \mathbb R$
 
 $\mathbb E \vdash \mathbb Z$
 
-### Set Equivalence
+### Equivalence
 
 **definition** two [[set]]s are _equivalent_ if and only if they contain the same elements $A \equiv B \equiv A\ x = B\ x$
 
-### Set Membership
+### Membership
 
 **notation**
 
 $S\ a$
 
-## Set Isomorphism
+## Isomorphism
+
+#todo **equivalence**
 
 **see** [[category]], [[category theory]]
 
@@ -102,13 +116,13 @@ _the [[set]] of all possible mathematical entities_
 
 **see** [[universal]]
 
-## Set Partition
+## Partition
 
 **definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $S^i \land S^j \equiv \braket{\ }$ for all $i, j$ (the [[set]]s are pairwise disjoint) and $\lor\!\ S = A$
 
 **definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $A =\ :\! S$
 
-## Set Cardinality
+## Cardinality
 
 **notation**
 
@@ -128,9 +142,9 @@ _product principle_ the cardinality of the [[cartesian product]] of two [[set]]s
 
 _generalized product principle_ $\#\ (A\ \acute\shortmid\ B \lor A\ \acute\shortmid\ B) = \#\ A\ \acute\shortmid\ B : \#\ B\ \acute\shortmid\ A \cdot \#\ (A\ \acute\shortmid\ B \land B\ \acute\shortmid\ A) = (2 \mid \#\ A : \#\ B) \cdot $ #todo complete during next lecture
 
-## Set Power Set
+## Power Set
 
-**definition** the _power set_ of a [[set]] $A$ is the [[set]] of all sub[[set]]s of $A$
+**definition** the _power set_ of a [[set]] $A$ is the [[set]] of all [[set#subset]]s of $A$
 
 > **example**
 >
@@ -142,7 +156,7 @@ _generalized product principle_ $\#\ (A\ \acute\shortmid\ B \lor A\ \acute\short
 >
 > $P\ P\ O = \braket{\braket{\ O, \braket{\braket{O}}\ }}$
 
-## Set Arrangement
+## Arrangement
 
 _order matters_
 
@@ -153,7 +167,7 @@ the number of $k$-arrangements of an $n$-set is
 - $P\ n\ k = \Pi\ n - \Pi\ (n \cdot k)$ with repetition forbidden. also called _.$k$-permutations_
 - $P'\ n\ k = [n]k$ with repetition allowed also called _.$k$-tuples_
 
-## Set Combination
+## Combination
 
 _order does not matter_
 
@@ -188,8 +202,8 @@ the number of $k$-combinations of an $n$-set is
 > - the number of $k$-[[multiset]]s from an $n$-[[set]]
 > - the number of ways of distributing $n$ identical marbles into $k$ distinguishable boxes
 > - the number of solutions to $:\! x = n$ with $\mathbb N x^i$ for all $i$
-> - the number of $n$-sub[[set]]s of an $n : k \cdot 1$-[[set]]
-> - the number of $k \cdot 1$-sub[[set]]s of an $n : k \cdot 1$-[[set]]
+> - the number of $n$-subsets of an $n : k \cdot 1$-[[set]]
+> - the number of $k \cdot 1$-subsets of an $n : k \cdot 1$-[[set]]
 
 **theorem**
 
@@ -203,6 +217,6 @@ $C\ n\ k = C\ n\ (n \cdot k)$
 - let $C\ n\ k$ be the $k$-subsets of an $n$-[[set]]
 - let $P\ k\ k$ be the $k$-permutations of a $k$-[[set]]
 
-then, there exists a bijection between $P\ n\ k$ and $C\ n\ k\ \acute\mid\ P\ k\ k$
+then, there exists a [[function#bijective function]] between $P\ n\ k$ and $C\ n\ k\ \acute\mid\ P\ k\ k$
 
 moreover, $\#\ C\ n\ k = \#\ C\ n\ (n \cdot k)$. the number of $k$-subsets of an $n$-[[set]] is equal to the number of $n \cdot k$-subsets of an $n$-[[set]]

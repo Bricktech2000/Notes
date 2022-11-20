@@ -28,7 +28,7 @@ more information about supported features available at: <https://katex.org/docs/
 
 ### headings
 
-capitalized headings are for [[concept]]s
+capitalized headings are for [[concept]]s that can be linked to using [[nested#wiki links]]
 
 lowercease headings are for general titles
 
@@ -121,7 +121,7 @@ all internal links are denoted using `[[note]]` and `![[image.png]]`, and all ex
 >
 > #tag
 >
-> [[index|wiki-link]]
+> [[wiki links]]
 >
 > <https://example.com/>
 >
@@ -139,6 +139,10 @@ all internal links are denoted using `[[note]]` and `![[image.png]]`, and all ex
 > | 1     |     |
 > | 2     |     |
 > | 3     |     |
+>
+> ---
+>
+> horizontal rule
 
 ### unused syntax
 
@@ -150,10 +154,6 @@ all internal links are denoted using `[[note]]` and `![[image.png]]`, and all ex
 >
 > - [ ] task
 > - [x] list
->
-> ---
->
-> horizontal rule
 
 ## PDF export conventions
 

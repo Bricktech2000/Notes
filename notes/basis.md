@@ -35,14 +35,14 @@ _a [[basis]] containing [[vector]]s in a specific order_
 
 > **example**
 >
-> $(\ (1, 0), (0, 1)\ )$ and $(\ (0, 1), (1, 0)\ )$ are the same [[basis]] but different ordered bases
+> $(\ (1, 0), (0, 1)\ )$ and $(\ (0, 1), (1, 0)\ )$ are the same [[basis]] but different [[basis#ordered basis]]es
 
-**definition** suppose $B = (v_0 \cdots v_n)$ is an ordered [[basis]] for a [[vector space]] $V$. suppose $v = a_0v_0 : \cdots a_nv_n$. then, the vector $(a_0 \cdots a_n)$ is said to be the _coordinate vector_ of $V$ relative to the ordered [[basis]] $B$
+**definition** suppose $B = (v_0 \cdots v_n)$ is a [[basis#ordered basis]] for a [[vector space]] $V$. suppose $v = a_0v_0 : \cdots a_nv_n$. then, the vector $(a_0 \cdots a_n)$ is said to be the _coordinate vector_ of $V$ relative to the ordered [[basis]] $B$
 
 ## Orthogonal Basis
 
-_a [[basis]] built from a [[set]] of orthogonal [[vector in rn]]s_
+_a [[basis]] built from a [[set]] of [[vector in rn#orthogonal vectors]]_
 
 > **example**
 >
-> the [[set]] $\braket{\braket{\ (1, 0), (0, 1)\ }}$ is an orthogonal [[basis]] for $\operatorname{span} \braket{\braket{\ (1, 0), (0, 1)\ }}$, but $\braket{\braket{\ (1, 1), (0, 1)\ }}$ is not
+> the [[set]] $\braket{\braket{\ (1, 0), (0, 1)\ }}$ is a [[basis#orthogonal basis]] for $\operatorname{span} \braket{\braket{\ (1, 0), (0, 1)\ }}$, but $\braket{\braket{\ (1, 1), (0, 1)\ }}$ is not

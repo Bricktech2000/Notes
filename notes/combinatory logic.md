@@ -6,7 +6,7 @@
 
 ## Y Combinator
 
-_allows for [[recursion]] in [[lambda calculus]]_
+_allows for [[lambda calculus#recursion]]_
 
 _used to formally define recursive [[function]]s in a [[functional programming]] language that does not support [[recursion]]_
 

@@ -16,7 +16,7 @@
 
 #todo
 
-## Data Types
+## data types
 
 **see** [[type]]
 
@@ -69,7 +69,7 @@ struct, enum // user-defined types
 >
 > ```
 
-## Modifiers and Visibility
+## modifiers and visibility
 
 &mdash; <https://hashnode.com/post/pure-vs-view-in-solidity-cl04tbzlh07kaudnv1ial1gio>
 
@@ -106,7 +106,7 @@ modifier // user-defined modifiers
 > }
 > ```
 
-## Inheritance
+## inheritance
 
 ```solidity
 is, super
@@ -125,7 +125,7 @@ is, super
 >
 > ```
 
-## Factories
+## factories
 
 ```solidity
 new
@@ -154,7 +154,7 @@ new
 >
 > ```
 
-## Globals
+## globals
 
 ```solidity
 msg.sender // address of the sender
@@ -177,7 +177,7 @@ address(contract) // address of `contract`
 >
 > ```
 
-## Units
+## units
 
 **see** [[international system of units]]
 
@@ -201,7 +201,7 @@ years // deprecated due to leap years
 > return 1 ether;
 > ```
 
-## Hello World
+## hello world
 
 ```solidity
 pragma solidity ^0.8.0;

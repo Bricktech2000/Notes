@@ -1,6 +1,6 @@
 # CSI2110 D Data Structures And Algorithms
 
-## Class Notes
+## class notes
 
 [[abstract data type]], [[data structure]], [[algorithm]]
 

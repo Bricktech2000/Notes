@@ -26,20 +26,20 @@ however, this will throw a warning, which will have to be suppressed using the f
 
 **see** <https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java>
 
-## Type Inference
+## type inference
 
 zero [[type]] inference, because Java. actually, <https://www.google.com/search?q=java+var&oq=java+var&aqs=edge..69i57.1406j0j1&sourceid=chrome&ie=UTF-8>
 
-## Operator Overloading
+## operator overloading
 
 Java does **not** support [[operator]] overloading, because Java
 
 ## [[java wrapper]]s
 
-## Other Criticism of Java
+## other criticism of java
 
 of course, there’s a Wikipedia article about Java criticism: <https://en.m.wikipedia.org/wiki/Criticism_of_Java>
 
-## Java Imports
+## java imports
 
 <https://youtu.be/FyCYva9DhsI?t=1673>

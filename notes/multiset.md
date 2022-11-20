@@ -4,13 +4,13 @@
 
 **definition** a _multiset_ is an unordered collection of elements that do not have to be unique
 
-**definition** _formally in my [[math notation]]_ a [[multiset]] is a [[set theory]]etical [[function]] with range at most $\mathbb N$ that takes an element and returns the number of occurrences of that element in the [[multiset]]
+**definition** _formally in my [[math notation]]_ a [[multiset]] is a [[set theory]]etical [[function]] with [[function#range]] at most $\mathbb N$ that takes an element and returns the number of occurrences of that element in the [[multiset]]
 
 **notation**
 
 $M = ((1, 2, 2, 2, 3, 3))$
 
-## Multiset Multiplicity
+## Multiplicity
 
 **definition** the _multiplicity_ of a member of a [[multiset]] is the number of times it appears in the [[multiset]] &mdash; Wikipedia
 
@@ -25,7 +25,7 @@ $M\ e$, where
 - $M$ is a [[multiset]]
 - $e$ is the element to get the [[multiplicity]] of
 
-## Multiset Operations
+## Operations
 
 **see** [[boolean logic]]
 
@@ -43,7 +43,7 @@ $M\ e$, where
 
 **definition** two [[multiset]]s are _equivalent_ if and only if they contain the same number of the same elements. $M \equiv N \equiv x \rightarrow (M\ x = N\ x)$
 
-## Multiset Cardinality
+## Cardinality
 
 **notation** $:\! M$
 
@@ -55,7 +55,7 @@ $M\ e$, where
 
 $:\! (M \lor N)\ : \ :\! (M \land N) =\ :\! (M : N)$
 
-## Multiset Element Count
+## Element Count
 
 **notation** $\#\ M$
 
@@ -63,7 +63,7 @@ $:\! (M \lor N)\ : \ :\! (M \land N) =\ :\! (M : N)$
 
 > **example** $\#\ ((1, 2, 2, 2, 3, 3)) = \#\ \braket{\braket{1, 2, 3}} = 3$
 
-## Multiset Arrangement
+## Arrangement
 
 _order matters_
 

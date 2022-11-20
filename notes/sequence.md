@@ -4,7 +4,7 @@
 
 **definition** a _sequence_ is an ordered collection of infinitely many elements
 
-**definition** _formally in my [[math notation]]_ a [[sequence]] is a [[set theory]]etical [[function]] $k \rightarrow a^k$ with domain at least $x \rightarrow \mathbb Z x \land x \ge 0$ that takes an index and returns the element at that index
+**definition** _formally in my [[math notation]]_ a [[sequence]] is a [[set theory]]etical [[function]] $k \rightarrow a^k$ with [[function#domain]] at least $x \rightarrow \mathbb Z x \land x \ge 0$ that takes an index and returns the element at that index
 
 **notations**
 
@@ -22,7 +22,7 @@ _as a [[function]] (closed form) in [[conventional math notation]]_ $a_n = n^2$
 
 > **example** _the Fibonacci sequence_ $F^0 = 0 \land F^1 = 1 \land F^n = F^{n \cdot 1} : F^{n \cdot 2}$
 
-## Sum of an Infinite Sequence
+## Sum
 
 **definition**
 
@@ -34,7 +34,7 @@ $a_{sum} =\ :\! a = S^n\ \ \vdots\ \ n \rightarrow \infty$, where
 - $S$ is the sequence of partial sums of $a$
 - $a_{sum} =\ :\! a$ is the sum of $a$
 
-## Sequence Bounds
+## Bounds
 
 **definition** a [[sequence]] is said to be _bounded above_ if $a^n \le M \land \mathbb R M \dashv \mathbb N n$
 
@@ -42,9 +42,11 @@ $a_{sum} =\ :\! a = S^n\ \ \vdots\ \ n \rightarrow \infty$, where
 
 **definition** a [[sequence]] is said to be _bounded_ if it is both _bounded above_ and _bounded below_
 
-suppose $a^n = f\ n \dashv \mathbb N n$. then, the extrema of the [[function]] $f$ can be used to determine the bounds of the [[sequence]] $a$
+suppose $a^n = f\ n \dashv \mathbb N n$. then, the [[function#extremum]]a of $f$ can be used to determine the [[sequence#bound]]s of the [[sequence]] $a$
 
-## Increasing and Decreasing Sequences
+## Increasing Sequence
+
+## Decreasing Sequence
 
 **definition** a [[sequence]] is said to be _increasing_ if $a^n < a^{n : 1} \dashv \mathbb N n$
 
@@ -58,15 +60,15 @@ suppose $a^n = f\ n \dashv \mathbb N n$. then, the extrema of the [[function]] $
 
 suppose $a^n = f\ n \dashv \mathbb N n$. then, the increase and decrease of the [[function]] $f$ can be used to determine the increase and decrease of the [[sequence]] $a$
 
-## Sequence Convergence
+## Convergence
 
-**definition** a [[sequence]] is said to _converge_ if the [[limit]] $a^n\ \ \vdots\ \ n \rightarrow \infty$ exists as a finite number
+**definition** a [[sequence]] is said to _converge_ if the [[limit]] $a^n\ \ \vdots\ \ n \rightarrow \infty$ exists as a finite number, see [[limit#existence]]
 
 **properties**
 
 if a [[sequence]] is bounded and monotonic, then it must converge (think of this intuitively)
 
-### Using Limits
+### using limits
 
 **theorem**
 
@@ -75,7 +77,7 @@ let $a$ be a [[sequence]] and $f\ x$ be a [[function]] and suppose $a^n = f\ n \
 - if $f\ x\ \ \vdots\ \ x \rightarrow \infty$ converges, then $a^n\ \ \vdots\ \ n \rightarrow \infty$ converges
 - if $f\ x\ \ \vdots\ \ x \rightarrow \infty$ diverges, then $a^n\ \ \vdots\ \ n \rightarrow \infty$ diverges
 
-### Geometric [[sequence]] Convergence
+### [[sequence#geometric sequence]] convergence
 
 ---
 

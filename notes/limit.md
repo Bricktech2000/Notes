@@ -12,25 +12,25 @@ let $f\ x$ be a [[function]] with domain $D$ defined on an open interval around 
 
 &mdash; <https://brilliant.org/wiki/epsilon-delta-definition-of-a-limit/>
 
-## Indeterminate Forms
+## Indeterminate Form
 
 **definition** a [[limit]] of the form $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a$ is called a _.$0 - 0$ indeterminate form_ if $f\ x\ \ \vdots\ \ x \rightarrow a = 0$ and $g\ x\ \ \vdots\ \ x \rightarrow a = 0$
 
 **definition** a [[limit]] of the form $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a$ is called an _.$\infty - \infty$ indeterminate form_ if $f\ x\ \ \vdots\ \ x \rightarrow a = \infty$ and $g\ x\ \ \vdots\ \ x \rightarrow a = \infty$
 
-## Computing a Limit
+## computing a limit
 
 > **procedure** _computing a [[limit]]_
 >
 > to compute the [[limit]] of a [[function]], apply [[limit rules]] recursively, see [[recursion]]
 
-### Limit Existence
+### Existence
 
 **definition** a [[limit]] $f\ x\ \ \vdots\ \ x \rightarrow a$ _does not exist_ if $f\ x \to L_1$ as $x \to x_0$ along a path $C_1$ and $f\ x \to L_2$ as $x \to x_0$ along a path $C_2$ and $L_1 \ne L_2$ &mdash; the value of the limit is different depending on the path taken
 
 > **note** a limit does not exist if $f\ x\ \ \vdots\ \ x \rightarrow a = \infty$ or if it shows wild behavior (not a technical term), as with $\sin\ \tau \text- x\ \ \vdots\ \ x \rightarrow 0$
 
-## Limits of Trigonometric Functions
+## limits of trigonometric functions
 
 **see** [[trigonometric function]]
 

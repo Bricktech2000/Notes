@@ -13,7 +13,7 @@ this [[function]] is a [[functor]] from the [[category]] $\mathbb N, \text{divid
 - products in the first category represent the GCD of two numbers, and therefore products in the second category represent the union of two multisets
 - coproducts in the first category represent the LCM of two numbers, and therefore coproducts in the second category represent the intersection of two multisets
 
-it is also worth noting that this [[functor]] is a bijection, which means that the two [[categories]] are isomorphic
+it is also worth noting that this [[functor]] is a [[function#bijective function]], which means that the two [[categories]] are isomorphic
 
 **properties**
 

@@ -4,9 +4,11 @@ _Vectors in $\mathbb R^n$._
 
 **see** [[math notation]], [[math notation]], [[vector]] properties
 
-**definition** a _vector in Rn_ is an ordered collection of elements that do not have to be unique
+**definition** a _vector in $\mathbb R^n$._ is an ordered collection of elements that do not have to be unique
 
-**definition** _formally in my [[math notation]]_ a [[vector]] in $\mathbb R^n$ is a [[set theory]]etical [[function]] with domain at least $x \rightarrow \mathbb N x \land 0 \le x < n$ that takes an index and returns the element at that index
+**definition** _formally in my [[math notation]]_ a [[vector]] in $\mathbb R^n$ is a [[set theory]]etical [[function]] with [[function#domain]] at least $x \rightarrow \mathbb N x \land 0 \le x < n$ that takes an index and returns the element at that index
+
+> **equivalence** _[[list]]s and [[vector in rn]]s_
 
 **notation** _in my [[math notation]]_
 
@@ -18,7 +20,7 @@ _equality_ $(a, b) = (c, d) \equiv a = c \land b = d$
 
 _negation_ $\cdot(a, b) \equiv (\cdot a, \cdot b)$
 
-## Vector Space Axioms
+## Vector Space
 
 **see** [[vector in rn vector space]], [[vector space]]
 
@@ -36,7 +38,7 @@ _multiplication by a [[scalar]]_ $c(a, b) \equiv (ca, cb) \dashv \mathbb R c$
 
 $|V|$, where
 
-- $V$ is the vector to find the magnitude of
+- $V$ is the [[vector in rn]] to find the magnitude of
 - $|V| = \lfloor V\ \dot\mid\ V \rfloor$ (derived from the Pythagoras theorem), see [[dot product]]
 
 ### Unit Vector
@@ -58,7 +60,7 @@ $V - |V| = (\cos \theta, \sin \theta)$, where
 
 > **note**: $V - |V|$ is just notation for the direction of the vector $V$
 
-## Angles Between two Vectors
+## angles between two vectors
 
 **see** [[dot product]], [[cross product]], #magic
 
@@ -88,11 +90,11 @@ $u \perp v$
 
 **theorem** any orthogonal [[set]] of [[vector]]s in $\mathbb R^n$ contains at most $n$ [[vector]]s
 
-**theorem** any orthogonal [[set]] of $n$ [[vector]]s in $\mathbb R^n$ is an orthogonal [[basis]] of $\mathbb R^n$
+**theorem** any orthogonal [[set]] of $n$ [[vector]]s in $\mathbb R^n$ is a [[basis#orthogonal basis]] of $\mathbb R^n$
 
 **theorem** orthogonal [[set]] $\vdash$ [[linearly independent]], but not the inverse
 
-**theorem** suppose $w_0 \cdots w_m$ is an orthogonal [[basis]] for a subspace $W$ of $\mathbb R^n$. then, $w = w_0 (w \dot\shortmid w_0 - w_0 \dot\shortmid w_0) : \cdots w_m (w \dot\shortmid w_m - w_m \dot\shortmid w_m)$, see [[dot product]]
+**theorem** suppose $w_0 \cdots w_m$ is a [[basis#orthogonal basis]] for a [[vector space#subspace]] $W$ of $\mathbb R^n$. then, $w = w_0 (w \dot\shortmid w_0 - w_0 \dot\shortmid w_0) : \cdots w_m (w \dot\shortmid w_m - w_m \dot\shortmid w_m)$, see [[dot product]]
 
 ### Colinear Vectors
 
@@ -106,13 +108,13 @@ $u$ and $v$ are colinear if $u = kv \land \mathbb R k$
 
 $u$ and $v$ are colinear if $u$ is a [[linear combination]] of the [[set]] $\braket{\braket{v}}$
 
-## Projections
+## Projection
 
-_The scalar projection is equal to the [[length]] of the vector projection_ &mdash; Wikipedia
+_The scalar projection is equal to the [[vector in rn#magnitude]] of the [[vector in rn#projection]]_ &mdash; Wikipedia
 
 **see** [[dot product]]
 
-[[vector]] projections are [[linear transformation]]s. projections can be turned into [[matrix]] multiplication as they are both [[linear transformation]]s
+[[vector in rn#projection]]s are [[linear transformation]]s. projections can be turned into [[matrix#multiplication]] as they are both [[linear transformation]]s
 
 **definition** _projection onto another [[vector]]_
 
@@ -122,14 +124,14 @@ $proj_b\ a = |a| \cos \theta \mid \hat b = a \dot\shortmid \hat b \mid \hat b = 
 
 - $proj_b\ a$ is the _vector projection of $a$ on $b$ ._
 - $|proj_b\ a|$ is the _scalar projection of $a$ on $b$ ._
-- $\hat b$ is the unit [[vector]] in the direction of $b$, $b - |b|$
+- $\hat b$ is the [[vector in rn#unit vector]] in the direction of $b$, $b - |b|$
 
 **definition** _projection onto a [[vector space]]_
 
 $proj_W\ v = (v \dot\shortmid w_0 - w_0 \dot\shortmid w_0) : \cdots (v \dot\shortmid w_n - w_n \dot\shortmid w_n)$, where
 
 - $proj_W\ v$ is the projection of $v$ on the [[vector space]] $W$
-- $W = \operatorname{span} \braket{\braket{w_0 \cdots w_n}}$ and $(w_0 \cdots w_n)$ form an orthogonal [[basis]] for $W$
+- $W = \operatorname{span} \braket{\braket{w_0 \cdots w_n}}$ and $(w_0 \cdots w_n)$ form a [[basis#orthogonal basis]] for $W$
 
 **properties**
 

@@ -6,4 +6,4 @@ prof name: Mohammad Alja'Afreh
 - this class is such a joke
 - actual prof's email &mdash; Discord questions: <jaafreh@uottawa.ca>
 
-## Class Notes
+## class notes

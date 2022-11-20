@@ -4,13 +4,13 @@
 
 **see** [[habit]]
 
-## Environmental Dependency of Learning
+## environmental dependency of learning
 
 our behavior is highly controlled by environmental [[cue]]s &mdash; <https://youtu.be/IlU-zDU6aQ0?t=867>
 
 for efficient [[learning]] and to [[focus]] more deeply, we must teach our [[brain]]s to associate a specific environment with [[learning]]
 
-_the primary function of a bedroom is sleeping. the primary function of a dining table is eating. the primary function of a living area is recreation and socializing_
+_the primary function of a bedroom is [[sleep]]ing. the primary function of a dining table is eating. the primary function of a living area is recreation and socializing_
 
 > **example**
 >

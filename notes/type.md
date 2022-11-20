@@ -4,7 +4,7 @@
 
 as examples, in Haskell, type `Bool` is a two-element [[set]] of `True` and `False` and type `Char` is a [[set]] of all possible unicode characters. &mdash; <https://youtu.be/aIOMRqiwziM?t=312>
 
-## Algebraic Data Types
+## Algebraic Data Type
 
 [[type]]s can be used with [[composition]] to create new [[type]]s. however, unlike with [[function]]s, they can be combined in two distinct ways.
 
@@ -40,11 +40,15 @@ algebraic data [[type]]s can be used in [[programming language]]s to make invali
 
 ### Sum Type
 
+#todo **equivalence** with [[rust]]
+
 _`enum` in [[rust]]_
 
 > **aka** "or" type
 
 ### Product Type
+
+#todo **equivalence** with [[rust]]
 
 _`struct` in [[rust]]_
 

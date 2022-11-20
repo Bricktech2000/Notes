@@ -123,7 +123,7 @@ $x = \lfloor x2 \rfloor = \lfloor [\cdot x]2 \rfloor = \cdot x$
 
 using the property $[x]2 = [\cdot x]2 \dashv \mathbb R x$, just as we could use the property $0x = 0 \dashv \mathbb R x$ for division by zero
 
-breakthrough (I think): in the case of division by zero, it's not about the zeros being the same; it's about not using the _information-tampering_ property that any real multiplied by zero returns zero. the same is true with the exponent-root pair.
+breakthrough (I think): in the case of division by zero, it's not about the zeros being the same; it's about not using the _information-tampering_ property that any [[real]] multiplied by zero returns zero. the same is true with the exponent-root pair.
 
 > $[ab]2 = a2 \mid b2$
 >
@@ -191,7 +191,7 @@ $\int \delta y = \delta \int y = y$
 
 $\int f \to \varnothing$
 
-in a [[proof]], equalities must be linked together through the intended implications, see [[boolean logic]]. this means that multiplying or dividing an equality by an expresion that could be $0$ or raising it to some power could require additional restrictions.
+in a [[proof]], equalities must be linked together through the intended [[boolean logic#implication]]s. this means that multiplying or dividing an equality by an expresion that could be $0$ or raising it to some power could require additional restrictions.
 
 if the result of an expression is _undefined_, then the expression must be rearranged first in order to avoid the undefined value. note that some expressions (such as $-0$) cannot be computed without proper context, leaving them undefined.
 

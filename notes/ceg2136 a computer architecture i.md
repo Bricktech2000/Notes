@@ -1,6 +1,6 @@
 # CEG2136 A Computer Architecture I
 
-## Class Notes
+## class notes
 
 [[computer engineering]]
 

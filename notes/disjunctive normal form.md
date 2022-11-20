@@ -16,7 +16,7 @@
 > 2. write a conjunctive clause for each $\top$ row of the [[truth table]]
 > 3. join the conjunctive clauses using disjunctions
 
-## Standard Sum of Products
+## standard sum of products
 
 [[iti1100 a digital systems i]] equivalent of a [[disjunctive normal form]]. the conjunctive clauses are known as _Minterms_
 

@@ -10,13 +10,13 @@ _a [[list]] where all elements are stored contiguously in memory_ #todo
 
 **definition** a _max heap_ will poll the element with the highest priority
 
-**definition** a _binary heap_ is a binary [[tree]] that supports the [[heap]] invariant
+**definition** a _binary heap_ is a [[tree#binary tree]] that supports the [[heap]] invariant
 
-binary [[heap]]s are often represented as a complete binary [[tree]]
+binary [[heap]]s are often represented as a complete [[tree#binary tree]]
 
-binary [[heap]]s are often implemented using a dynamic [[array]], see binary [[tree]]
+binary [[heap]]s are often implemented using a dynamic [[array]], see [[tree#binary tree]]
 
-the _last node_ of a [[heap]] represented as a complete binary [[tree]] is the first empty position in the last level of the [[tree]]
+the _last node_ of a [[heap]] represented as a complete [[tree#binary tree]] is the first empty position in the last level of the [[tree]]
 
 the _last node_ of a [[heap]] implemented as an [[array]] is the last element of the [[array]]
 
@@ -37,13 +37,13 @@ time [[computational complexity]]:
 
 ![](20220913201452.png) &mdash; <https://youtu.be/RBSGKlAvoiM?t=7120>
 
-## Heap Invariant
+## Invariant
 
-> **aka** heap property
+> **aka** [[heap#invariant]], heap property
 
 **definition** the _heap invariant_ is a property of [[tree]]s that requires every node to be ordered with respect its children
 
-### Restoring Heap Invariant
+### restoring the heap invariant
 
 time [[computational complexity]]: $O\ \lceil n \rceil$
 
@@ -51,19 +51,19 @@ time [[computational complexity]]: $O\ \lceil n \rceil$
 
 > **procedure** _bubbling up_
 >
-> given a binary [[tree]] and a **leaf** $n$ that is not ordered with respect to its **parent**,
+> given a [[tree#binary tree]] and a **leaf** $n$ that is not ordered with respect to its **parent**,
 >
 > 1. swap $n$ with its parent
 > 2. repeat until $n$ is ordered with respect to its parent
 
 > **procedure** _bubbling down_
 >
-> given a binary [[tree]] and its **root** $n$ that is not ordered with respect to its **children**,
+> given a [[tree#binary tree]] and its **root** $n$ that is not ordered with respect to its **children**,
 >
 > 1. swap $n$ with its smallest child, or its left child if both children are equal
 > 2. repeat until $n$ is ordered with respect to its smallest child
 
-## Heap Operations
+## Operations
 
 > **procedure** _adding an element to a heap_
 >

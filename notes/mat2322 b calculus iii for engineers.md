@@ -4,7 +4,7 @@
 
 #todo
 
-## Class Notes
+## class notes
 
 [[calculus]]
 

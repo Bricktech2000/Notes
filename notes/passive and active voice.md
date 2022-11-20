@@ -2,7 +2,7 @@
 
 important to understand for [[technical writing]]
 
-## Passive Voice
+## passive voice
 
 > **examples**
 >
@@ -14,7 +14,7 @@ avoid using to conceal responsibility, such as when making a mistake
 
 avoid using to give instructions
 
-## Active Voice
+## active voice
 
 > **examples**
 >

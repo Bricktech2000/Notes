@@ -2,4 +2,4 @@
 
 > **aka** Row Echelon Form
 
-**see** [[RREF]], [[linear system]]
+**see** [[RREF]], [[linear system#row echelon form]]

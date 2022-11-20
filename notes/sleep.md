@@ -46,7 +46,7 @@ can help one fall asleep faster, but harms sleep quality. also blocks REM [[slee
 
 ideally, keep room [[temperature]] below $20^\circ C$ to increase [[sleep]] quality.
 
-## Sleep Hygiene
+## sleep hygiene
 
 _the behaviors and patterns leading up to sleep_
 

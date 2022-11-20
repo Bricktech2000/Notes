@@ -12,7 +12,7 @@ mindtap link: <https://www.cengage.ca/dashboard>
 
 anything graded in this class is open-book
 
-## Grading Scheme
+## grading scheme
 
 - AST &mdash; 20% (Mindtap)
 - MTERM &mdash; 2 \* 20%
@@ -22,7 +22,7 @@ anything graded in this class is open-book
 
 Mankiw, N.G., R.D. Kneebone and K.J. McKenzie (2020) Principles of Macroeconomics. 8th Canadian Edition. Toronto: Nelson Education Ltd.
 
-## Class Notes
+## class notes
 
 [[economics]], principles of economics, unemployment
 

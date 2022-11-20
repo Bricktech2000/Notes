@@ -11,7 +11,7 @@ _a language for the next 40 years_
 - performance (no garbage collector, zero-cost [[abstraction]]s)
 - portability (compiles to LLVM bytecode which is widely supported)
 - stability (very strong backwards compatibility)
-- memory safety (done through the ownership and borrowing system)
+- memory safety (done through the [[rust#borrow checker]])
 
 **cons**
 
@@ -26,7 +26,7 @@ accessing out-of-bounds memory causes either a compile time error or a `panic!` 
 
 [[rust]]'s [[type]] system checks thread safety at compile time as ownership rules apply across multiple threads
 
-### borrow checker
+### Borrow Checker
 
 _ownership and borrowing_
 
@@ -35,7 +35,7 @@ _ownership and borrowing_
 
 > _in fixing memory safety, the Rust team accidentally fixed everything_ &mdash; <https://youtu.be/Q3AhzHq8ogs?t=113>
 
-### unsafe system
+### Unsafe System
 
 [[rust]]'s type system can be a bit restrictive for low-level programming. this is why [[rust]] has a way to bypass a few specific checks in the form of the `unsafe` keyword. consequently, [[rust]] code is safe by default
 
@@ -53,9 +53,9 @@ most languages have a floor for [[abstraction]]s, such as builtin functions like
 
 the unsafe code is for framework authors, meaning framework users don't have to worry about it. (duplicate)
 
-### macro system
+### Macro System
 
-[[rust]]'s macro system is Turing complete, see [[turing machine]]. they allow for both [[abstraction]]s and new syntax.
+the [[rust#macro system]] is Turing complete, see [[turing machine]]. they allow for both [[abstraction]]s and new syntax.
 
 [[rust]] macros are for framework authors, meaning framework users don't have to worry about them. (duplicate)
 
@@ -103,7 +103,7 @@ Rust ensures "surprising" behavior is clearly sign-posted:
 > ).unwrap()
 > ```
 
-## edition system
+## Edition System
 
 for breaking changes (such as adding an `async` keyword), [[rust]] uses an edition system (such as the 2015 and 2018 editions), where the [[rust]] compiler understands all editions simultaneously. this means that a project written in any edition of [[rust]] can depend on a library written for any other edition of [[rust]], preventing ecosystem splits
 
@@ -112,7 +112,7 @@ because of the way the compiler is currently built, maintenance to core [[rust]]
 **representation**
 
 ```mermaid
-graph LR;
+graph TD;
 
 A(2015 Edition<br>Source Code)
 B(2018 Edition<br>Source Code)

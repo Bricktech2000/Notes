@@ -17,7 +17,7 @@ quizzes are **not** proctored
 
 calculators and cheat sheets on MTERM not decided yet
 
-## Grading Scheme
+## grading scheme
 
 only the 8 best quizzes count towards our final grade
 
@@ -27,15 +27,15 @@ The final exam grade will replace the grade of your worst midterm test if the fi
 - MTERM &mdash; 2 \* 15%
 - FINAL &mdash; 50%
 
-## Textbook
+## textbook
 
 available on Brightspace
 
-## DGDs
+## dgds
 
 attendance is mandatory &mdash; syllabus
 
-## Class Notes
+## class notes
 
 [[linear algebra]]
 

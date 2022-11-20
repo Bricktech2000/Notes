@@ -4,11 +4,11 @@
 
 [[flip-flop]]s are _edge-triggered_ whereas gated [[latch]]es are _level-triggered_
 
-all [[latch]]es can be turned into [[flip-flop]]s and all [[flip-flop]]s can be turned into [[latch]]es
+all [[latch#types]] can be turned into [[flip-flop]]s and all [[flip-flop#types]] can be turned into [[latch]]es
 
 ---
 
-# Types of Flip-Flops
+# Types
 
 &mdash; <https://en.wikipedia.org/wiki/Flip-flop_(electronics)>
 

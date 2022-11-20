@@ -78,7 +78,7 @@ $\mathbb R k$
 
 prove $T u \equiv \mathbb R^3 u \land u(1, 2, 3) = 0$ (see [[dot product]]) is a [[vector space]]
 
-> all vectors orthogonal to $(1, 2, 3)$ (see [[vector in rn]]), meaning that this [[vector space]] is a [[plane in r3]]
+> all vectors orthogonal to $(1, 2, 3)$ (see [[vector in rn]]), meaning that this [[vector space]] is a [[plane#plane in r3]]
 
 _zero vector_
 

@@ -2,13 +2,13 @@
 
 **see** [[molecular geometry]]
 
-**definition** [[lewis structure]]s are diagrams that show the bonding between atoms of a molecule, as well as the lone pairs of [[electron]]s that may exist in the molecule. &mdash; Wikipedia
+**definition** [[lewis structure]]s are diagrams that show the [[bond]]ing between [[atom]]s of a [[molecule]], as well as the lone pairs of [[electron]]s that may exist in the [[molecule]]. &mdash; Wikipedia
 
-[[bond]]s between two atoms $A$ and $B$ are represented as follows in a [[lewis structure]]:
+[[bond]]s between two [[atom]]s $A$ and $B$ are represented as follows in a [[lewis structure]]:
 
-- $A - B$ (or $A : B$) for single bonds
-- $A = B$ for double bonds
-- $A \equiv B$ for triple bonds
+- $A - B$ (or $A : B$) for single [[bond]]s
+- $A = B$ for double [[bond]]s
+- $A \equiv B$ for triple [[bond]]s
 
 **examples**
 

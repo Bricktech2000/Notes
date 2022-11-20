@@ -8,7 +8,7 @@
 
 **definition**
 
-a _proof by counterexample_ is a form of [[proof]] for a [[logic statement]] with universal [[quantifier]] that shows it is false by finding one counterexample
+a _proof by counterexample_ is a form of [[proof]] for a [[logic statement]] with [[quantifier#universal quantifier]] that shows it is false by finding one counterexample
 
 **definition**
 

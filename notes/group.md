@@ -61,9 +61,9 @@ $\cdot \smash\cdot a = a$
 > - [[integer]]s and addition
 > - [[rational]]s excluding $0$ and multiplication
 > - [[integer]]s modulo $n$ and addition
-> - invertible square [[matrix]]es and [[matrix]] multiplication
+> - invertible square [[matrix]]es and [[matrix#multiplication]]
 
-## Group Order
+## Group
 
 **definition** the _order_ of a [[group]] $G$ is the number of elements in the [[group]]
 
@@ -71,7 +71,7 @@ $\cdot \smash\cdot a = a$
 
 ## Subgroup
 
-**theorem** _Lagrange's Theorem_ let $G$ be a [[group]] and $H$ be a sub[[group]] of $G$. then, $\psi\ \#\ H \le \psi\ \#\ G$ or equivanently $\psi\ \#\ \ \vdots\ \ H \le G$, see [[psi function in mat2348]]
+**theorem** _Lagrange's Theorem_ let $G$ be a [[group]] and $H$ be a [[group#subgroup]] of $G$. then, $\psi\ \#\ H \le \psi\ \#\ G$ or equivanently $\psi\ \#\ \ \vdots\ \ H \le G$, see [[psi function in mat2348]]
 
 ## Abelian Group
 

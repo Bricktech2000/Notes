@@ -14,7 +14,7 @@ used for backlinks
 
 [[type]]
 
-## Building a Language
+## building a language
 
 **see** [[backus-naur form]], [[abstract syntax tree]], [[parser]]
 

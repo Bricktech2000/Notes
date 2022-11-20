@@ -2,7 +2,7 @@
 
 _used to optimize a [[function]] through a set of linear constraints_
 
-[[linear programming]] is a technique that can be used to find the extrema of a [[function]] restricted by a set of linear inequalities, see [[linear equation]]
+[[linear programming]] is a technique that can be used to find the [[function#extremum]]a of a [[function]] restricted by a set of linear inequalities, see [[linear equation]]
 
 > **example** _a problem that can be solved by [[linear programming]]_
 >
@@ -24,9 +24,9 @@ _used to optimize a [[function]] through a set of linear constraints_
 
 > **procedure** _computing the extrema_
 >
-> **theorem** [[function]] extrema occur at vertices of a concave and bounded feasible region
+> **theorem** [[function#extremum]]a occur at vertices of a concave and bounded feasible region
 >
-> therefore, to find the [[function]] extrema of a [[linear programming]] problem,
+> therefore, to find the [[function#extremum]]a of a [[linear programming]] problem,
 >
 > 1. compute the vertices of the feasible region
 > 2. evaluate the [[function]] at each vertex

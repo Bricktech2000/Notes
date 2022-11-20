@@ -28,11 +28,13 @@ $F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
 
 # Integration
 
-## [[antiderivative]] Antidifferentiation
+## [[antiderivative#antidifferentiation]]
+
+**see** [[antiderivative#antidifferentiation]]
 
 ## Improper Integration
 
-### Type I
+### type I
 
 _an [[integral]] with at least one endpoint being infinite_
 
@@ -42,10 +44,10 @@ _an [[integral]] with at least one endpoint being infinite_
 
 a Type I improper [[integral]] is said to:
 
-- converge if the [[limit]] exists
-- diverge if the [[limit]] does not exist (including when the [[limit]] is infinite)
+- converge if the [[limit]] exis, see [[limit#existence]]
+- diverge if the [[limit]] does not exist, see [[limit#existence]]
 
-### Type II
+### type II
 
 _an integral whose integrand has a [[function]] discontinuity on the integration interval_
 
@@ -53,7 +55,7 @@ _an integral whose integrand has a [[function]] discontinuity on the integration
 
 **theorem** if $f\ x\ \ \vdots\ \ x \stackrel {\cdot \cdot} \rightarrow a =\ \because \infty$ #think [[improved expression evaluation]], $\int f\ x \mid \delta x\ \ \vdots\ \ b \cdot a \equiv \int f\ x \mid \delta x\ \ \vdots\ \ b \cdot t\ \ \vdots\ \ t \stackrel {\cdot \cdot} \rightarrow a$
 
-### Comparison Test
+### comparison test
 
 **theorem** _Comparison Test_
 
@@ -62,7 +64,7 @@ let $0 \le g\ x \le f\ x$ on an interval $x \rightarrow (a < x < b)$, where $a$ 
 - if $\int f\ x \mid \delta x\ \ \vdots\ \ b \cdot a$ converges, so does $\int g\ x \mid \delta x\ \ \vdots\ \ b \cdot a$, but not conversely
 - if $\int g\ x \mid \delta x\ \ \vdots\ \ b \cdot a$ diverges, so does $\int f\ x \mid \delta x\ \ \vdots\ \ b \cdot a$, but not conversely
 
-### P-Test
+### p-test
 
 &mdash; <https://youtu.be/TKIdC847K3k>
 

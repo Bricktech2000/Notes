@@ -2,63 +2,63 @@
 
 **see** [[math notation]]
 
-let $c$ be a constant and ensure $f\ x\ \ \vdots\ \ x \rightarrow a$ and $g\ x\ \ \vdots\ \ x \rightarrow a$ are [[limit]]s that exist
+let $c$ be a constant and ensure $f\ x\ \ \vdots\ \ x \rightarrow a$ and $g\ x\ \ \vdots\ \ x \rightarrow a$ are [[limit]]s that exist, see [[limit#existence]]
 
-## Sum Rule
+## sum rule
 
 $f\ x : g\ x\ \ \vdots\ \ x \rightarrow a = (f\ x\ \ \vdots\ \ x \rightarrow a) : (g\ x\ \ \vdots\ \ x \rightarrow a)$
 
-## Difference Rule
+## difference rule
 
 $f\ x \cdot g\ x\ \ \vdots\ \ x \rightarrow a = (f\ x\ \ \vdots\ \ x \rightarrow a) \cdot (g\ x\ \ \vdots\ \ x \rightarrow a)$
 
-## Constant Multiple Rule
+## constant multiple rule
 
 $c f\ x\ \ \vdots\ \ x \rightarrow a = c (f\ x\ \ \vdots\ \ x \rightarrow a)$
 
-## Product Rule
+## product rule
 
 $f\ x \mid g\ x\ \ \vdots\ \ x \rightarrow a = (f\ x\ \ \vdots\ \ x \rightarrow a) \mid (g\ x\ \ \vdots\ \ x \rightarrow a)$
 
-## Quotient Rule
+## quotient rule
 
 $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a = (f\ x\ \ \vdots\ \ x \rightarrow a) - (g\ x\ \ \vdots\ \ x \rightarrow a) \dashv g\ x\ \ \vdots\ \ x \rightarrow a \ne 0$ (restriction not necessary, see [[improved expression evaluation]])
 
-## Power Rule
+## power rule
 
 $[f\ x]n\ \ \vdots\ \ x \rightarrow a = [f\ x\ \ \vdots\ \ x \rightarrow a]n$
 
-### derived Root Rule
+### derived root rule
 
 $\lfloor f\ x \rfloor n\ \ \vdots\ \ x \rightarrow a = \lfloor f\ x\ \ \vdots\ \ x \rightarrow a \rfloor n$. when $\mathbb E n$ (see [[even number]]), we assume that $f\ x\ \ \vdots\ \ x \rightarrow a \ne 0$ (restriction might not be necessary, see [[improved expression evaluation]])
 
-## Composition Rule
+## composition rule
 
 $f\ g\ x\ \ \vdots\ \ x \rightarrow a = f\ (g\ x\ \ \vdots\ \ x \rightarrow a)$ if $f$ is a continuous [[function]] at $a$
 
-## Infinity Rules
+## infinity rules
 
 $[x]r\ \ \vdots\ \ x \rightarrow \because \infty = 0 \dashv r < 0$
 
 $-x\ \ \vdots\ \ x \rightarrow 0 =\ \because \infty$
 
-## Squeeze Theorem
+## squeeze theorem
 
 let $f\ x \le g\ x \le h\ x$ for $x$ near a value $a$
 
 if $f\ x\ \ \vdots\ \ x \rightarrow a = h\ x\ \ \vdots\ \ x \rightarrow a = L$, then $g\ x\ \ \vdots\ \ x \rightarrow a = L$
 
-## L'Hôpital's Rule
+## l'Hôpital's rule
 
-_used to compute [[limit]]s in indeterminate forms using their [[derivative]]s_
+_used to compute [[limit]]s in [[limit#indeterminate form]]s using their [[derivative]]s_
 
 **theorem**
 
-let $f\ x$ and $g\ x$ be differentiable [[function]]s such that $\delta\ g\ x - \delta x \ne 0$ (restriction not necessary, see [[improved expression evaluation]]) in an open interval around $a$. if $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a$ is a $0 - 0$ [[limit]] indeterminate form, then $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a = \delta\ f\ x - \delta\ g\ x\ \ \vdots\ \ x \rightarrow a = (\delta\ f\ x - \delta x) - (\delta\ g\ x - \delta x)\ \ \vdots\ \ x \rightarrow a$
+let $f\ x$ and $g\ x$ be differentiable [[function]]s such that $\delta\ g\ x - \delta x \ne 0$ (restriction not necessary, see [[improved expression evaluation]]) in an open interval around $a$. if $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a$ is a $0 - 0$ [[limit#indeterminate form]], then $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a = \delta\ f\ x - \delta\ g\ x\ \ \vdots\ \ x \rightarrow a = (\delta\ f\ x - \delta x) - (\delta\ g\ x - \delta x)\ \ \vdots\ \ x \rightarrow a$
 
 intuitive explanation &mdash; <https://youtu.be/kfF40MiS7zA?t=734>
 
-other [[limit]] indeterminate forms can be rewritten to use L'Hôpital's rule:
+other [[limit#indeterminate form]]s can be rewritten to use L'Hôpital's rule:
 
 - $\infty - \infty$: $(-\infty) - (-\infty) \to 0 - 0$
 - $0 \mid \infty$: $0 - (-\infty) \to 0 - 0$ or $(-0) - \infty \to 0 - 0$

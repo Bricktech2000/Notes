@@ -2,13 +2,13 @@
 
 prof name: Mahdi Ammar
 
-## Homework
+## homework
 
 homework is really important for this class &mdash; discord
 
 TA email for homework-related questions: <atalekar@uottawa.ca> &mdash; DGD
 
-## Textbook
+## textbook
 
 Main textbook (required): “Introduction to Computing Using Python: An Application Development Focus, 2nd Edition” by LjubomirPerkovic
 
@@ -16,7 +16,7 @@ Main textbook (required): “Introduction to Computing Using Python: An Applicat
 - https://www.wiley.com/en-ca/Introduction+to+Computing+Using+Python%3A+An+Application+Development+Focus%2C+2nd+Edition-p-9781118890943
 - link for textbook &mdash; discord general: <https://libgen.is/book/index.php?md5=7016A2960349062F4E1319315D512E8C> (<https://www.ilc.org/products/mcv4u-calculus-and-vectors-online-course>)
 
-## Class Notes
+## class notes
 
 optimizing a function
 
@@ -24,18 +24,18 @@ optimizing a function
 
 even and odd [[function]]s
 
-[[critical point]]s - [[inflection point]], [[function]] extremum, [[function]] concavity
+[[function#critical point]]s - [[function#inflection point]], [[function#extremum]], [[function#concavity]]
 
 [[vector in rn]]
 
-[[plane in r3]], [[line in rn]]
+[[plane#plane in r3]], [[line#line in r3]]
 
 **related**
 
 [[eulers constant]]
 
-piecewise [[function]]s
+[[function#piecewise function]]s
 
-rational [[function]]s
+[[function#rational function]]s
 
-continuity of [[function]]s
+[[function#continuity]]

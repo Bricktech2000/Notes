@@ -16,17 +16,17 @@ practice problems in the syllabus
 
 AST in mobius
 
-## Grading Scheme
+## grading scheme
 
 - AST &mdash; 5% (mobius)
 - MTERM &mdash; 2 \* 25%
 - FINAL &mdash; 45%
 
-## Lectures
+## lectures
 
 Zoom link: <https://uottawa-ca.zoom.us/j/7297581056?pwd=WnFMMjhTQzlDRXJQZmlQcGJmS2h0QT09>
 
-## DGDs
+## dgds
 
 attendance is “required” &mdash; syllabus
 
@@ -34,7 +34,7 @@ attendance is “required” &mdash; syllabus
 
 Calculus: Early Transcendentals, by James Stewart, 9th Edition.
 
-## Class Notes
+## class notes
 
 [[absolute value]]
 

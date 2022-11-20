@@ -22,7 +22,7 @@ _an average of a group of stock prices_
 
 ---
 
-# Stock Market Trading
+# Trading
 
 &mdash; <https://youtu.be/J3fAI3al08Q>
 

@@ -12,11 +12,11 @@ $x = \cos \theta \land y - \sin \theta$, and $\tan \theta = \sin \theta - \cos \
 
 **properties**
 
-_periodic_ $\sin (\theta : \tau) = \sin \theta$
+_periodic_ $\sin (\theta : \tau) = \sin \theta$, see [[function#periodic function]]
 
-_periodic_ $\cos (\theta : \tau) = \cos \theta$
+_periodic_ $\cos (\theta : \tau) = \cos \theta$, see [[function#periodic function]]
 
-_periodic_ $\tan (\theta : \tau \text- 2) = \tan \theta$
+_periodic_ $\tan (\theta : \tau \text- 2) = \tan \theta$, see [[function#periodic function]]
 
 _even [[function]]_ $\cos (\cdot \theta) = \cos \theta$
 
@@ -25,6 +25,8 @@ _odd [[function]]_ $\sin (\cdot \theta) = \cdot \sin \theta$
 _odd [[function]]_ $\tan (\cdot \theta) = \cdot \tan \theta$
 
 ## reciprocal functions
+
+**see** [[function#reciprocal function]]
 
 **definitions**
 
@@ -35,6 +37,8 @@ $y = \cos x \equiv x = \operatorname{acos} y : \tau n \land \mathbb Z n$
 $y = \tan x \equiv x = \operatorname{atan} y : \tau n \text- 2 \land \mathbb Z n$
 
 ## inverse functions
+
+**see** [[function#inverse function]]
 
 $\text-\sin \theta$
 

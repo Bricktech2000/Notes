@@ -28,4 +28,4 @@ used by processors to implement [[recursion]]
 
 can be used in [[depth-first search]]
 
-can be used in recursive [[parser]]s
+can be used in [[parser#recursive descent parser]]s

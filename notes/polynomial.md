@@ -7,7 +7,7 @@ $p = a_0x[0] : \cdots a_nx[n] \land \mathbb N n \land (\mathbb R a_n \dashv \mat
 - $p$ is a [[polynomial]]
 - $a_0, \cdots, a_n$ are the coefficients
 
-## Vector Space Axioms
+## Vector Space
 
 **see** [[polynomial vector space]], [[vector space]]
 

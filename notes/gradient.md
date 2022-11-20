@@ -2,7 +2,7 @@
 
 _returns a [[vector in rn]] representing the direction of steepest ascent of a [[function]] at a given point_
 
-**see** [[calculus]], partial [[derivative]]s
+**see** [[calculus]], [[derivative#partial derivative]]s
 
 **notation** _in [[conventional math notation]]_ the [[gradient]] of $f$ is denoted $\nabla f(\dots)$
 

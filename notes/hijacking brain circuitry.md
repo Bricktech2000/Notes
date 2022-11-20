@@ -6,7 +6,7 @@ _unlocking rewards by unconsciously manipulating hard-wired [[brain]] circuitry_
 
 the [[brain]] circuitry being hijacked is often related to our [[intent to mastery]]
 
-## Parasocial Relationships
+## parasocial relationships
 
 > **example** _Sasha Grey_
 >
@@ -28,7 +28,7 @@ the [[brain]] circuitry being hijacked is often related to our [[intent to maste
 > - listening to music from an artist
 > - going to an artist’s concert
 
-## Other Examples
+## other examples
 
 - [[video game]]s
 - [[social media]] platforms

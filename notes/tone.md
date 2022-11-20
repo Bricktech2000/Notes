@@ -16,13 +16,13 @@ using [[passive and active voice]]s often influence [[tone]]
 
 **see** <https://www.albert.io/blog/ultimate-list-of-tone-words/>
 
-## Sarcasm
+## sarcasm
 
 generally not recommended in the workplace, as it is high risk. however, sarcasm has had important contributions throughout history.
 
 > **example** _a good use of sarcasm_ in Jonathan Swift's _A Modest Proposal_, he wrote that the only way to stop poverty was to eat all the children.
 
-## Pedantic Tone
+## pedantic tone
 
 **definition** _pedantic writing_ calls attention to itself instead of to what you have to say. Often suffers from [[wordiness]] &mdash; Gefen
 
@@ -36,7 +36,7 @@ generally not recommended in the workplace, as it is high risk. however, sarcasm
 >
 > > Sing, goddess, the rage of Peleus’ son Achilles
 
-## Negative Tone
+## negative tone
 
 usually, negative [[tone]] can be turned into a polite tone
 

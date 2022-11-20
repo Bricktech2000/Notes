@@ -4,7 +4,7 @@
 
 **definition**
 
-a _relation_ $\mathcal R$ between two [[set]]s $A$ and $B$ is a subset of the [[cartesian product]] of the two [[set]]s: $\mathcal R \vdash A\ \acute\mid\ B$
+a _relation_ $\mathcal R$ between two [[set]]s $A$ and $B$ is a [[set#subset]] of the [[cartesian product]] of the two [[set]]s: $\mathcal R \vdash A\ \acute\mid\ B$
 
 **definition**
 
@@ -33,24 +33,24 @@ then, $\mathcal R \braket{x, y} \equiv \mathcal R^\times \braket{y, x}$
 
 $\mathcal R^\times \vdash B\ \acute\mid\ A$
 
-## reflexivity
+## Reflexive Relation
 
 similar to identities in [[category theory]]
 
 **definition** a [[relation]] on $A$ is said to be _reflexive_ if $\mathcal R \braket{x, x} \dashv A x$
 
-## symmetricality
+## Symmetric Relation
 
 similar to isomorphisms in [[category theory]]
 
 **definition** a [[relation]] on $A$ is said to be _symmetric_ if $\mathcal R \braket{x, y} \vdash \mathcal R \braket{y, x}$
 
-## transitivity
+## Transitive Relation
 
 similar to composition in [[category theory]]
 
 **definition** a [[relation]] on $A$ is said to be _transitive_ if $\mathcal R \braket{x, y} \land \mathcal R \braket{y, z} \vdash \mathcal R \braket{x, z}$
 
-## equivalence
+## Equivalent Relation
 
 **definition** a [[relation]] on $A$ is said to be _equivalent_ if it is _reflexive_, _symmetric_ and _transitive_

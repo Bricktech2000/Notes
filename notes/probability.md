@@ -4,15 +4,15 @@
 
 **definition** a _sample space_ $S$ is a [[set]] of elements
 
-**definition** an _event_ $E$ is a sub[[set]] of a _sample space_ $S$
+**definition** an _event_ $E$ is a [[set#subset]] of a _sample space_ $S$
 
 **definition** the _probability_ that _event_ $E$ occurs in a space $S$ is denoted $P \braket{E, S}$, see [[ordered pair]]
 
 if all events are equally likely to occur in the space, then $P \braket{E, S} = \#\ E - \#\ S$
 
-**see** [[set]] cardinality
+**see** [[set#cardinality]]
 
-## Multiplicative Rule
+## multiplicative rule
 
 _for independent events_
 
@@ -22,19 +22,19 @@ the probability of multiple **independent** events happening is the product of t
 
 $P \braket{E_1 \land E_2, S} = P \braket{E_1, S} \mid P \braket{E_2, S}$
 
-## Permutative Rule
+## permutative rule
 
 _without repetition, order matters_
 
 **see** [[set]] permutation
 
-## Combinatory Rule
+## combinatory rule
 
 _without repetition, order does not matter_
 
 **see** [[set]] combination
 
-## Given "Rule"
+## given "rule"
 
 **definition**
 
@@ -44,7 +44,7 @@ $P \braket{A, B} = P \braket{A \land B, S} - P \braket{B, S}$, where
 - $P \braket{B, S}$ is the probability $B$ occuring in the sample space $S$
 - $P \braket{A, B}$ is the probability of $A$ occurring _given that_ $B$ has occurred
 
-## Bayes' Theorem
+## bayes' theorem
 
 **theorem** _Bayes' Theorem_
 

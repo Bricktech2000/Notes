@@ -2,7 +2,7 @@
 
 **see** [[math notation]], [[sequence]], [[calculus notation]]
 
-**definition** a _series_ is the expression representing sum of all elements of a [[sequence]]
+**definition** a _series_ is the expression representing [[sequence#sum]] [[reduce function]] of all elements of a [[sequence]]
 
 **definition**
 
@@ -19,21 +19,21 @@ let $b : \dots = b^0 : b^1 : b^2, \cdots$
 
 $S_b = (b^0), (b^0 : b^1), (b^0 : b^1 : b^2), \cdots$ or alternatively $S_b^0 = b^0 \land S_b^n = S_b^{n \cdot 1} : b^n$, where
 
-- $S_b$ is the [[sequence]] of partial sums of the [[series]] $b$
+- $S_b$ is the _sequence of partial sums_ of the [[series]] $b$
 
-## Series Remainder
+## Remainder
 
 **definition**
 
 $R_b^n = S_b^\infty \cdot S_b^n$, where
 
-- $S_b$ is the [[sequence]] of partial sums of the [[series]] $b$
+- $S_b$ is the [[series#sequence of partial sums]] of $b$
 - $S_b^\infty \equiv b$ is the value at which the [[series]] $b$ converges
-- $R_b^n$ is the remainder of the [[series]] $b$ after $n$ terms
+- $R_b^n$ is the _remainder_ of the [[series]] $b$ after $n$ terms
 
-## Series Convergence
+## Convergence
 
-**definition** a [[series]] is said to _converge_ if its [[sequence]] of partial sums converges. otherwise, it is said to _diverge_.
+**definition** a [[series]] is said to _converge_ if its [[series#sequence of partial sums]] converges. otherwise, it is said to _diverge_.
 
 **definition** a [[series]] $:\! a$ is said to be _absolutely convergent_ (_absolute convergence_) if the [[series]] $:\! |a| \equiv |a^0| : |a^1| : \cdots$ converges
 
@@ -45,7 +45,7 @@ $R_b^n = S_b^\infty \cdot S_b^n$, where
 
 > **example** **see** [[series convergence examples]]
 
-### Integral Test
+### integral test
 
 _useful for [[series]] containing [[logarithm]]s or easy-to-compute [[integral]]s_
 
@@ -56,7 +56,7 @@ let $b$ be a [[series]] and suppose $f\ x$ is an eventually _continuous_, _posit
 - if $\int f\ x \mid \delta x\ \ \vdots\ \ \infty \cdot 0$ converges, then $:\! b$ converges
 - if $\int f\ x \mid \delta x\ \ \vdots\ \ \infty \cdot 0$ diverges, then $:\! b$ diverges
 
-### Comparison Tests
+### comparison tests
 
 **theorem** _Comparison Test for Series_
 
@@ -67,7 +67,7 @@ let $b$ and $B$ be [[series]] and suppose $0 \le b^n \le B^n \dashv \mathbb N n$
 
 > **note** the following [[series]] are useful for testing convergence:
 >
-> - $:\! b = b^0r0 : b^0r1 : \cdots$ (see geometric [[series]] convergence for proof)
+> - $:\! b = b^0r0 : b^0r1 : \cdots$ (see [[series#geometric series]] convergence for proof)
 > - $:\! b = \text-[1]p : \text-[2]p : \cdots$ (see [[integral]] p-test for proof)
 
 > **example** determining the convergence of the [[series]] $b^n = 3[n] - 5[n] : n2$ can be done by proving it is lesser than the [[series]] $b^n = 3[n] - 5[n]$ and by proving the series $b^n = 3[n] - 5[n]$ converges
@@ -81,9 +81,9 @@ let $a$ and $b$ be [[series]] such that $a_n \ge 0 \land b_n \ge 0 \dashv \mathb
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=14964>
 
-### Ratio Test
+### ratio test
 
-_useful for [[series]] containing factorials and a geometric part and for power [[series]]_
+_useful for [[series]] containing factorials and a geometric part and for [[series#power series]]_
 
 **theorem** _Ratio Test_
 
@@ -95,7 +95,7 @@ let $b$ be a [[series]] and let $L = |b^{n : 1} - b^n|\ \ \vdots\ \ n \rightarro
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=16223>
 
-### Divergence Test
+### divergence test
 
 **theorem** _Divergence Test_
 
@@ -103,13 +103,13 @@ let $b$ be a [[series]]. if $b^n\ \ \vdots\ \ n \rightarrow \infty \ne 0$, then 
 
 > **note** $b^n\ \ \vdots\ \ n \rightarrow \infty = 0$ does not imply that $b$ is convergent
 
-### Alternating Test
+### alternating test
 
-**theorem** let $b$ be a [[series]] such that $b^n = [\cdot 1]n \mid a^n$ where either $a^n \ge 0$ for all $n$ or $a^n \le 0$ for all $n$. then, if $a^n\ \ \vdots\ \ n \rightarrow \infty = 0$ and if $a$ is an eventually decreasing sequence, the [[series]] $b$ is convergent &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
+**theorem** let $b$ be a [[series]] such that $b^n = [\cdot 1]n \mid a^n$ where either $a^n \ge 0$ for all $n$ or $a^n \le 0$ for all $n$. then, if $a^n\ \ \vdots\ \ n \rightarrow \infty = 0$ and if $a$ is an eventually [[sequence#decreasing sequence]], the [[series]] $b$ is convergent &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
 
-### Geometric [[series]] Convergence
+### [[series#geometric series]] convergence
 
-### Harmonic [[series]] Convergence
+### [[series#harmonic series]] convergence
 
 ---
 
@@ -117,15 +117,15 @@ let $b$ be a [[series]]. if $b^n\ \ \vdots\ \ n \rightarrow \infty \ne 0$, then 
 
 ## Arithmetic Series
 
-the [[series]] corresponding to an arithmetic [[sequence]]
+the [[series]] corresponding to a [[sequence#arithmetic sequence]]
 
 ## Geometric Series
 
-the [[series]] corresponding to an arithmetic [[sequence]]
+the [[series]] corresponding to a [[sequence#arithmetic sequence]]
 
-### Summation Formula
+### summation formula
 
-_useful for converting a [[function]] to a power [[series]], or vice versa_
+_useful for converting a [[function]] to a [[series#power series]], or vice versa_
 
 **theorem** _the Summation Formula_
 
@@ -136,7 +136,7 @@ $x0 : x1 : x2 : \cdots = -1 \cdot x \dashv \cdot 1 < x < 1$, where
 
 **properties**
 
-_convergence_ a geometric [[series]] $b^0r0 : b^0r1 : \cdots$ with $b^0 \ne 0$:
+_convergence_ a [[series#geometric series]] $b^0r0 : b^0r1 : \cdots$ with $b^0 \ne 0$:
 
 - converges to $b^0 - 1 \cdot r$ if $|r| < 1 \land r \ne 0$
 - diverges if $|r| \ge 1$
@@ -144,9 +144,9 @@ _convergence_ a geometric [[series]] $b^0r0 : b^0r1 : \cdots$ with $b^0 \ne 0$:
 
 > **proof**
 >
-> let the geometric [[series]] $:\! b = b^0r0 : b^0r1 : \cdots$
+> let the [[series#geometric series]] $:\! b = b^0r0 : b^0r1 : \cdots$
 >
-> to determine whether it converges or diverges, we must calculate its sequence of partial sums
+> to determine whether it converges or diverges, we must calculate its [[series#sequence of partial sums]]
 >
 > $S^n = b^0r0 : b^0r1 : b^0r2 : \cdots b^0r[n]$
 >
@@ -176,7 +176,7 @@ _convergence_ a geometric [[series]] $b^0r0 : b^0r1 : \cdots$ with $b^0 \ne 0$:
 
 **definition** a _p-series_ is a [[series]] in the form $\text-[0]p : \text-[1]p : \cdots$ with $p > 0$
 
-## Taylor Series
+## taylor series
 
 **see** [[taylor series]]
 
@@ -189,19 +189,19 @@ a power [[series]] centered at $a$ is of the following form:
 $:\! P\ x = c^0 [x \cdot a]0 : c^1 [x \cdot a]1 : \cdots$, where
 
 - $c^n$ is a constant (a [[function]] of the [[iteration]] [[variable]])
-- $P\ x$ is the power [[series]] taking the argument $x$
+- $P\ x$ is the _power series_ taking the argument $x$
 
 > **note** the starting index does not have to be $0$ but must still be a [[natural]]
 
 > **note** the definition above assumes $[0]0 = 1$, see [[improved expression evaluation]]
 
-**definition** the _radius of convergence_ of a power [[series]] is the [[distance]] between its center and the endpoints of its interval of convergence. it can be computed using the _ratio test_.
+**definition** the _radius of convergence_ of a [[series#power series]] is the [[distance]] between its center and the endpoints of its interval of convergence. it can be computed using the _ratio test_.
 
-**definition** the _interval of convergence_ of a power [[series]] is the interval if input values for which the power [[series]] converges. it can be computed using the _ratio test_. note that the convergence at the interval endpoints will have to be checked separately.
+**definition** the _interval of convergence_ of a [[series#power series]] is the interval if input values for which the power series converges. it can be computed using the _ratio test_. note that the convergence at the interval endpoints will have to be checked separately.
 
 **properties**
 
-_convergence_ a power [[series]] either:
+_convergence_ a [[series#power series]] either:
 
 - converges at its center $x = a$ only &mdash; radius of convergence is $0$
 - converges for all $\mathbb R x$ &mdash; radius of convergence is $\infty$
@@ -217,8 +217,8 @@ _convergence_ a power [[series]] either:
 
 **properties**
 
-_convergence_ the harmonic [[series]] diverges
+_convergence_ the [[series#harmonic series]] diverges
 
-_convergence_ the alternating harmonic [[series]] converges to $\lceil 2 \rceil$
+_convergence_ the alternating [[series#harmonic series]] converges to $\lceil 2 \rceil$
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=21458>

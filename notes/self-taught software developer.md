@@ -1,6 +1,6 @@
 # Self-Taught Software Developer
 
-## Online Visibility
+## online visibility
 
 online visibility is very important for [[self-taught software developer]]s
 
@@ -8,7 +8,7 @@ online visibility is very important for [[self-taught software developer]]s
 - [x] upload all work to Github and keep it well documented
 - [x] write articles, tutorials, videos...
 
-## Learning
+## learning
 
 - [ ] have a clear [[goal]] in mind (company, startup, freelance) (data science, mobile apps, web development)
 - programming bootcamps are usually to teach absolute beginners to build basic apps
@@ -27,7 +27,7 @@ online visibility is very important for [[self-taught software developer]]s
 - [ ] databases (MySQL, PostgreSQL, etc.)
 - [x] Linux (UNIX)
 
-## Portfolio
+## portfolio
 
 [[self-taught software developer]]s need a great portfolio as they do not have a degree to back their skills up
 
@@ -35,7 +35,7 @@ online visibility is very important for [[self-taught software developer]]s
 - [ ] make projects interactive
 - [x] write good project commit messages
 
-## Getting Fist Job
+## getting a fist job
 
 - practice for interviews as they can be "brutal"
 - also apply to jobs that "require" a Bachelor's degree. this is where a great portfolio is so important
@@ -49,7 +49,7 @@ online visibility is very important for [[self-taught software developer]]s
 
 coding interviews are about more than just programming &mdash; <https://youtu.be/0Z9RW_hhUT4>
 
-## Moving Forward
+## moving forward
 
 - best way to increase income often is changing jobs, not asking for a raise
 

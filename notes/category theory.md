@@ -25,7 +25,7 @@ the [[empty]] [[set]] corresponds to the [[type]] `Void` in Haskell, which corre
 
 the singleton [[set]] corresponds to the [[type]] `()` (or `Unit`) in Haskell, which corresponds to $\top$ in [[logic]] from a [[category theory]] perspective. when looking at propositions as types, [[function]]s are [[proof]]s. $\top$ can be proven, similarly to how a [[function]] that takes `Unit` as a parameter can be called
 
-a [[relation]] being reflexive is equivalent to the presence of identity morphisms in [[category theory]]
+a [[relation]] being a [[relation#reflexive relation]] is equivalent to the presence of identity morphisms in [[category theory]]
 
 a [[category]] with exactly one object is a [[monoid]] (yes, that [[monoid]] from [[functional programming]])
 
@@ -51,7 +51,7 @@ absurd function
 
 universal construction:
 
-> A _product_ of two objects $a$ and $b$ is the object $c$ equipped with two projections such that for any other object $c'$ equipped with two projections there is a unique morphism $m$ from $c'$ to $c$ that factorizes those projections.
+> A _product_ of two [[category#object]]s $a$ and $b$ is the object $c$ equipped with two projections such that for any other object $c'$ equipped with two projections there is a unique [[category#morphism]] $m$ from $c'$ to $c$ that factorizes those projections.
 
 &mdash; <https://miklos-martin.github.io/learn/fp/category-theory/2018/02/01/adventures-in-category-theory-the-algebra-of-types.html>
 
@@ -61,21 +61,21 @@ the _curry-howard-lambek isomorphism_ states that [[logic]], [[type theory]] and
 
 > **aka** #todo curry-howard correspondence, propositions as types #todo #think see <https://youtu.be/IOiZatlZtGU?t=1490>
 
-products in the category of [[set]]s are [[cartesian product]]s &mdash; Terramorpha
+[[category#product]]s in the [[category]] of [[set]]s are [[cartesian product]]s &mdash; Terramorpha
 
-coproducts in the category of [[set]]s are disjoint unions &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] of [[set]]s are disjoint unions &mdash; Terramorpha
 
-products in the category of $\mathbb R, \le$ are the minimum of two numbers &mdash; Terramorpha
+[[category#product]]s in the [[category]] of $\mathbb R, \le$ are the minimum of two numbers &mdash; Terramorpha
 
-coproducts in the category of $\mathbb R, \le$ are the maximum of two numbers &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] of $\mathbb R, \le$ are the maximum of two numbers &mdash; Terramorpha
 
-products in the category of $\mathbb N, \text{divides}$ are the GCD of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
+[[category#product]]s in the [[category]] of $\mathbb N, \text{divides}$ are the GCD of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
 
-coproducts in the category of $\mathbb N, \text{divides}$ are the LCM of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] of $\mathbb N, \text{divides}$ are the LCM of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
 
-products in the category of $\braket{\ }, \vdash$ are the intersection of two sets &mdash; Terramorpha
+[[category#product]]s in the [[category]] of $\braket{\ }, \vdash$ are the intersection of two sets &mdash; Terramorpha
 
-coproducts in the category of $\braket{\ }, \vdash$ are the union of two sets &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] of $\braket{\ }, \vdash$ are the union of two sets &mdash; Terramorpha
 
 #think <https://youtu.be/IOiZatlZtGU?t=2334>
 

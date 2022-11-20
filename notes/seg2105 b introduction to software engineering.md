@@ -10,13 +10,13 @@ will work on [[android]] application during labs in groups of 4 to 5 people that
 
 don't have to attend labs but have to submit work
 
-## Q&A
+## q&a
 
 will the [[android]] app be close-ended? will we have to use Android Studio? will we have to use [[java]]? &mdash; we will be forced to use [[java]] and Android Studio
 
 how will the teams be formed? &mdash; students can form their own teams, and then a discussion board will be open for students who didn't find a team
 
-## Class Notes
+## class notes
 
 [[software engineering]]
 

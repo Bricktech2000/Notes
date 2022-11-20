@@ -4,7 +4,9 @@
 
 used for backlinks
 
-## Atomic Properties
+## Properties
+
+_atomic properties_
 
 **see** [[orbital]], [[atom]]
 

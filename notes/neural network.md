@@ -14,13 +14,13 @@
 
 [[activation function]]
 
-## Training a Network
+## Training
 
-training a neural network consists of minimizing a [[loss function]] through [[gradient]] descent. the algorithm that computes this [[gradient]] efficiently is called [[backpropagation]]
+[[neural network#training]] consists of minimizing a [[loss function]] through [[gradient]] descent. the algorithm that computes this [[gradient]] efficiently is called [[backpropagation]]
 
 &mdash; <https://youtu.be/IHZwWFHWa-w>
 
-## Neural Network Hello World
+## hello world
 
 the "hello world" of neural networks is recognizing hand-written digits. the MNIST database contains tens of thousands of labeled hand-written digit images, which can be used for training &mdash; <https://youtu.be/IHZwWFHWa-w>
 

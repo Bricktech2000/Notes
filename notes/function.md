@@ -9,7 +9,7 @@ a [[function]] $\mathcal F$ between [[set]]s $A$ and $B$ is a [[relation]] betwe
 1.  $\mathcal F\ (a, b) \land B\ b \dashv A\ a$ or alternatively $B\ f\ a \dashv A\ a$ &mdash; there is some output for every single input
 2.  $\mathcal F\ (a, b_1) \land \mathcal F\ (a, b_2) \vdash b_1 = b_2$ or alternatively $a_1 = a_2 \vdash f\ a_1 = f\ a_2$ &mdash; there is exactly one output for any input
 
-one can use the _horizontal line test_ to determine whether the graph of a curve is the graph of a [[function]]
+one can use the _horizontal [[line]] test_ to determine whether the graph of a curve is the graph of a [[function]]
 
 **types**
 
@@ -33,7 +33,7 @@ one can use the _horizontal line test_ to determine whether the graph of a curve
 
 [[verifiable random function]] in [[cryptocurrency]]es
 
-## Vector Space Axioms
+## Vector Space
 
 **see** [[function vector space]], [[vector space]]
 
@@ -45,7 +45,11 @@ _[[function]] addition_ $(f : g)\ x = f\ x : g\ x$
 
 _multiplication by a [[scalar]]_ $(cf)\ x = c \mid f\ x$
 
-## Domain, Codomain, Range
+## Domain
+
+## Codomain
+
+## Range
 
 **definition** the _domain_ of a [[function]] is the set of arguments for which it will produce an output
 
@@ -83,7 +87,9 @@ _an odd function is symmetrical about the y axis, but also flipped about the x a
 
 **definition** above, $p$ is said to be the _period_ of $f$
 
-## Increasing and Decreasing Functions
+## Increasing Function
+
+## Decreasing Function
 
 **see** [[calculus notation]]
 
@@ -91,7 +97,7 @@ _an odd function is symmetrical about the y axis, but also flipped about the x a
 
 **definition** a [[function]] $f$ is _decreasing_ on an interval $x \rightarrow (a \le x \le b)$ if $x_1 > x_2 \vdash f\ x_1 > f\ x_2$, or $\delta\ f\ x - \delta x < 0$ on that interval
 
-## Function Concavity
+## Concavity
 
 **see** [[calculus notation]]
 
@@ -99,17 +105,17 @@ _an odd function is symmetrical about the y axis, but also flipped about the x a
 
 **definition** a [[function]] $f\ x$ is _concave down_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x > 0$, it _bends downwards_
 
-a point where concavity changes (from up to down or down to up) is an [[inflection point]]
+a point where [[function#concavity]] changes (from up to down or down to up) is a [[function#inflection point]]
 
-## Function Extremum
+## Extremum
 
-**see** [[inflection point]], [[derivative]]
+**see** [[function#inflection point]], [[derivative]]
 
-> extrema are the largest and smallest value of the function, either within a given range (the local or relative extrema), or on the entire domain (the global or absolute extrema). &mdash; Wikipedia
+> extrema are the largest and smallest value of the function, either within a given range (the local or relative extrema), or on the entire [[function#domain]] (the global or absolute extrema). &mdash; Wikipedia
 
 **definition**
 
-the _global extrema_ $x$ of a [[function]] $f$ with domain $D$ are defined as
+the _global extrema_ $x$ of a [[function]] $f$ with [[function#domain]] $D$ are defined as
 
 $f\ x \ge f\ y \dashv D\ y$, and
 
@@ -119,11 +125,11 @@ $f\ x \le f\ y \dashv D\ y$
 
 **definition** the _local extrema_ of a [[function]] are the highest and lowest points of the function within a given range
 
-**theorem** if $f$ has a local extremum at $c$, the point $(c, f\ c)$ is a [[critical point]] of $f$, but not conversely
+**theorem** if $f$ has a local [[function#extremum]] at $c$, the point $(c, f\ c)$ is a [[function#critical point]] of $f$, but not conversely
 
 ### First Derivative Test
 
-let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number of $f$. then, $f$ has a local extremum at $c$ if $\delta\ f\ c - \delta c$ changes sign at $c$.
+let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number of $f$. then, $f$ has a local [[function#extremum]] at $c$ if $\delta\ f\ c - \delta c$ changes sign at $c$.
 
 ### Second Derivative Test
 
@@ -134,11 +140,29 @@ let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number o
 
 > **note** the test is inconclusive if $\delta\ (\delta f\ x - \delta x) - \delta x = 0$ or if it does not exist
 
-## [[inflection point]]
+## Inflection Point
 
-## [[critical point]]
+**see** [[function#extremum]]
+
+**definition** An _inflection point_ [...] is a point on a smooth plane curve at which the curvature changes sign &mdash; Wikipedia
+
+**definition** a [[function]] $f$ has an _inflection point_ at $c$ if it is continuous at $c$ and its [[function#concavity]] changes sign at $c$
+
+> **note** a [[function]] having its second [[derivative]] equal to zero at $c$ does not imply $c$ is a [[function#inflection point]]. as an example, $f\ x = x4$ does not have a [[function#inflection point]] at $(x, f\ x) = (0, 0)$
+
+## Critical Point
+
+**see** [[function]], [[math notation]]
+
+**definition** _function of one variable_ a point $(c, f\ c)$ is a _critical point_ of the [[function]] $f$ if $\delta\ f\ c - \delta c = 0$ or it does not exist
+
+**definition** _function of multiple variables_ a point $(c, f\ c)$ is a _critical point_ of the [[function]] $f$ if all components of $\delta\ f\ c - \delta c$ either are zero or do not exist
+
+**definition** above, $c$ would be said to be a _critical number_ of $f$
 
 ## [[mean value theorem]]
+
+## [[intermediate value theorem]]
 
 ## Continuity
 
@@ -162,7 +186,7 @@ if $f\ x$ and $g\ x$ are continuous at $a$, then the following functions are als
 
 **definition** a [[function]] is _continuous_ on an interval $a \le x \le b$ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
 
-## Inverse (or Reciprocal) Function
+## Inverse Function
 
 _multiplicative inverse_
 
@@ -176,7 +200,7 @@ if $y = f\ x \land y = -F\ x$, then $F$ is the _inverse_ (or _reciprocal_) of $f
 
 $F\ x = 1 - f\ x$
 
-## Reciprocal (or Inverse) Function
+## Reciprocal Function
 
 _switching input and output_
 
@@ -194,7 +218,7 @@ $f\ F\ x = x$
 
 $F\ f\ x = x$
 
-the graphs of $y = f\ x$ and $y = F\ x$ are symmetric about the line $y = x$
+the graphs of $y = f\ x$ and $y = F\ x$ are symmetric about the [[line]] $y = x$
 
 **procedures**
 
@@ -206,9 +230,9 @@ the graphs of $y = f\ x$ and $y = F\ x$ are symmetric about the line $y = x$
 
 **definition** $m = \delta\ y - \delta x = \Delta y - \Delta x = y_2 \cdot y_1 - x_2 \cdot x_1$, where
 
-- $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the graph of the line
+- $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the graph of the [[line]]
 
-## Linear Approximations
+## linear approximations
 
 > **aka** linearization
 
@@ -218,7 +242,7 @@ the graphs of $y = f\ x$ and $y = F\ x$ are symmetric about the line $y = x$
 
 $L\ x = f\ a : (x \cdot a \mid \delta\ f\ a - \delta a)$, where
 
-- $L\ x$ is line tangent to $f\ x$ at $a$
+- $L\ x$ is [[line]] tangent to $f\ x$ at $a$
 
 **applications**
 
@@ -239,7 +263,7 @@ $\Delta f - \Delta x$ is approximately $\delta\ f - \delta x$, where
 
 the _absolute error_ $\Delta f$ and _relative error_ $\Delta f - f\ x$ on a [[function]] $f$ can be approximated near a point $x$ through its differential at that point
 
-## Function Average
+## Average
 
 **see** [[integral]]
 
@@ -254,7 +278,7 @@ $f_{ave} = F\ b \cdot F\ a - b \cdot a$, where
 
 &mdash; <https://youtu.be/FnJqaIESC2s>
 
-## Function Arclength
+## Arclength
 
 **see** [[integral]]
 
@@ -280,7 +304,7 @@ _are multiple inputs collapsed into single outputs?_
 
 **definition** a [[function]] $f$ is said to be _injective_ if $f\ x_1 = f\ x_2 \vdash x_1 = x_2 \dashv \mathbb U x_1 \land \mathbb U x_2$, see [[universal]]. _for every output value there exists at most one input mapping to it_
 
-given the graph of a [[function]], one can use the _horizontal line test_ to determine whether it is injective or not
+given the graph of a [[function]], one can use the _horizontal [[line]] test_ to determine whether it is injective or not
 
 a [[function]] can be proven to be injective by proving that two output values being equal implies that the corresponding input values are equal
 
@@ -322,15 +346,15 @@ a [[function]] can be proven to be bijective by proving it is both injective and
 
 **see** [[derivative]]
 
-**definition** an _analytic [[function]]_ is a [[function]] that is locally given by a convergent power [[series]] &mdash; Wikipedia
+**definition** an _analytic function_ is a [[function]] that is locally given by a convergent [[series#power series]] &mdash; Wikipedia
 
 **properties**
 
-analytic [[function]] is infinitely differentiable, but an infinitely differentiable [[function]] is not necessarily analytic &mdash; <https://youtu.be/X0razs3zR94?t=598>
+[[function#analytic function]] is infinitely differentiable, but an infinitely differentiable [[function]] is not necessarily analytic &mdash; <https://youtu.be/X0razs3zR94?t=598>
 
 ## Piecewise Function
 
-**definition** In [[mathematics]], a _piecewise-defined function_ is a [[function]] defined by multiple sub-[[function]]s, where each sub-[[function]] applies to a different interval in the domain. &mdash; Wikipedia
+**definition** in [[mathematics]], a _piecewise-defined function_ is a [[function]] defined by multiple sub-[[function]]s, where each sub-[[function]] applies to a different interval in the [[function#domain]]. &mdash; Wikipedia
 
 ## Rational Function
 
@@ -340,7 +364,7 @@ _a function defined as a [[polynomial]] divided by another [[polynomial]]_
 
 **definition** a _pure function_ is a [[function]] that has no side effects and that does not depend on external state.
 
-of course, any [[function]] can be thought of as having side effects. for example, running a pure [[function]] on a CPU still consumes a measurable amount of [[energy]], modifying the entropy of the universe. &mdash; <https://youtu.be/APUCMSPiNh4?t=2594>. practically, however, this definition is useful
+of course, any [[function]] can be thought of as having side effects. for example, running a [[function#pure function]] on a CPU still consumes a measurable amount of [[energy]], modifying the entropy of the universe. &mdash; <https://youtu.be/APUCMSPiNh4?t=2594>. practically, however, this definition is useful
 
 **properties**
 
@@ -350,7 +374,7 @@ pure [[function]]s can be memoized using a [[map]]
 
 _a [[function]] that doesn't "lie" in its [[type]] signature_
 
-a total [[function]] maps every element of its domain to an element of its codomain
+a [[function#total function]] maps every element of its [[function#domain]] to an element of its [[function#codomain]]
 
 let the following [[function]]:
 
@@ -373,4 +397,4 @@ even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it w
 
 ## Parametrically Polymorphic Function
 
-**definition** a [[function]] is said to be _parametrically polymorphic_ if it is possible to replace the type of its input with a different type without having any effect on its behavior. such functions can be implemented with the same "formula" for any type. &mdash; <https://youtu.be/aIOMRqiwziM?t=540>
+**definition** a [[function]] is said to be _parametrically polymorphic_ if it is possible to replace the [[type]] of its input with a different [[type]] without having any effect on its behavior. such [[function]]s can be implemented with the same "formula" for any [[type]]. &mdash; <https://youtu.be/aIOMRqiwziM?t=540>

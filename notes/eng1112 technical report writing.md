@@ -8,13 +8,13 @@ APA style is recommended in this class
 
 Discord link: https://discord.gg/RwU5PETW
 
-## DGDs
+## dgds
 
 read texts from ares before DGDs
 
 DGD powerpoints are useful for studying for tests
 
-## Class Notes
+## class notes
 
 [[technical writing]]
 

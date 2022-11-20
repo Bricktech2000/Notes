@@ -26,7 +26,7 @@
 >
 > - $5 \to 6$
 >
->   the [[matrix|null-space]] of $A$ is the [[zero space]] $\to$ the dimension of the [[zero space]] is $0$
+>   the [[matrix|null-space]] of $A$ is the [[zero space]] $\to$ the [[vector space#dimension]] of the [[zero space]] is $0$
 >
 > - $6 \to 7$
 >
@@ -34,6 +34,6 @@
 >
 > - $7 \to 1$
 >
->   the [[matrix|rank]] of a [[matrix]] is the number leading [[variable]]s in the matrix
+>   the [[matrix#rank]] of a [[matrix]] is the number leading [[variable]]s in the matrix
 >
 >   $rank\ A = n$ and $A$ has $n$ columns $\to$ every [[variable]] is a leading variable

@@ -4,15 +4,15 @@ _allows for the approximation of a [[function]] near a point by a [[polynomial]]
 
 **see** [[calculus]], [[series]]
 
-> **note** taylor [[series]] don't necessarily have an infinite radius of convergence, see power [[series]]
+> **note** [[taylor series]] don't necessarily have an infinite radius of convergence, see [[series#power series]]
 >
-> as an example, the taylor [[series]] of the [[function]] $\lceil x \rceil$ at $a = 1$ has a radius of convergence of $1$, meaning the taylor [[series]] only converges to the [[function]] on the interval $x \rightarrow (0 < x \le 2)$
+> as an example, the [[taylor series]] of the [[function]] $\lceil x \rceil$ at $a = 1$ has a radius of convergence of $1$, meaning the [[taylor series]] only converges to the [[function]] on the interval $x \rightarrow (0 < x \le 2)$
 >
 > &mdash; <https://youtu.be/X0razs3zR94>
 
-> **note** a taylor [[series]] with a nonzero radius of convergence does **not** necessarily converge to the [[function]] it approximates. for this to be the case, the [[function]] must be an analytical [[function]] &mdash; <https://youtu.be/X0razs3zR94> and <https://youtu.be/7gigNsz4Oe8?t=21781>
+> **note** a [[taylor series]] with a nonzero radius of convergence does **not** necessarily converge to the [[function]] it approximates. for this to be the case, the [[function]] must be a [[function#analytic function]] &mdash; <https://youtu.be/X0razs3zR94> and <https://youtu.be/7gigNsz4Oe8?t=21781>
 >
-> Taylor series remainders can be used to determine whether a taylor [[series]] converges to its underlying [[function]] or not.
+> [[taylor series#remainder]]s can be used to determine whether a [[taylor series]] converges to its underlying [[function]] or not.
 
 **definition**
 
@@ -34,30 +34,30 @@ intuitive explanation: <https://youtu.be/3d6DsjIBzJ4?t=383>
 
 **properties**
 
-taylor [[series]] are power [[series]]
+[[taylor series]] are [[series#power series]]
 
-## Taylor Polynomial
+## taylor polynomial
 
 **definition**
 
 $S_{T_f}^n\ x = T_f^0 : T_f^1 : \cdots T_f^n$, where
 
-- $S_{T_f}^n$ is the $n$ th partial sum of the taylor [[series]] $T_f$
+- $S_{T_f}^n$ is the $n$ th partial sum of the [[taylor series]] $T_f$
 - $n$ is a finite [[number]]
 
-## Taylor Series Remainder
+## Remainder
 
 **definition**
 
 $R_{T_f}^n\ x = f\ x \cdot S_{T_f}^n\ x$, where
 
-- $S_{T_f}$ is the Taylor polynomial (the [[sequence]] of partial sums) of the Taylor [[series]] $T_f$
-- $f\ x$ is the [[function]] the Taylor [[series]] $T_f$ approximates
-- $R_{T_f}^n$ is the remainder of the Taylor [[series]] $T_f$ after $n$ terms
+- $S_{T_f}$ is the Taylor polynomial (the [[series#sequence of partial sums]]) of the [[taylor series]] $T_f$
+- $f\ x$ is the [[function]] the [[taylor series]] $T_f$ approximates
+- $R_{T_f}^n$ is the _remainder_ of the [[taylor series]] $T_f$ after $n$ terms
 
-> **note** the definition of the remainter of a Taylor series is different from other series as $S_{T_f}^\infty\ x$ is not necessarily equal to $f\ x$. as we want Taylor series to converge to their underlying [[function]], we use $f\ x$ instead of $S_{T_f}^\infty\ x$ to define the remainder
+> **note** the definition of the [[taylor series#remainder]] is different from the usual [[series#remainder]] as $S_{T_f}^\infty\ x$ is not necessarily equal to $f\ x$. as we want [[taylor series]] to converge to their underlying [[function]], we use $f\ x$ instead of $S_{T_f}^\infty\ x$ to define the [[taylor series#remainder]]
 
-**theorem** the taylor series $T_f\ x$ converges to $f\ x$ in an interval $I$ if and only if $R_{T_f}^n\ x\ \ \vdots\ \ n \rightarrow \infty = 0 \dashv I\ x$
+**theorem** the [[taylor series]] $T_f\ x$ converges to $f\ x$ in an interval $I$ if and only if $R_{T_f}^n\ x\ \ \vdots\ \ n \rightarrow \infty = 0 \dashv I\ x$
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=22042>
 
@@ -67,4 +67,4 @@ $R_{T_f}^n\ x = f\ x \cdot S_{T_f}^n\ x$, where
 
 > **proof** <https://youtu.be/7gigNsz4Oe8?t=22288>
 
-this practical convergence criterion is a good way to show that a Taylor series converges to its underlying [[function]] on a given interval. however, if the inequality does not hold, no conclusion can be drawn; the Taylor series may or may not converge to the underlying [[function]] on the interval.
+this practical convergence criterion is a good way to show that a [[taylor series]] converges to its underlying [[function]] on a given interval. however, if the inequality does not hold, no conclusion can be drawn; the [[taylor series]] may or may not converge to the underlying [[function]] on the interval.

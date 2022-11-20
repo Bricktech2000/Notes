@@ -6,7 +6,7 @@
 
 > **note** a [[function]] continuous on an interval has a unique general family of [[antiderivative]]s on that interval in the form $F\ x : c$ with $\mathbb R c$
 >
-> in other words, if $F\ x$ is one [[antiderivative]] of $f\ x$ and $f\ x$ is continuous on its domain, then any other [[antiderivative]] of $f\ x$ can be rewritten in the form $F\ x : c$ with $\mathbb R c$, see [[antiderivative theorem proof]]
+> in other words, if $F\ x$ is one [[antiderivative]] of $f\ x$ and $f\ x$ is continuous on its [[function#domain]], then any other [[antiderivative]] of $f\ x$ can be rewritten in the form $F\ x : c$ with $\mathbb R c$, see [[antiderivative theorem proof]]
 
 **notation**
 
@@ -51,7 +51,7 @@ $= \int \sin x2 \mid \delta x2$
 
 $= \cdot \cos x2 : c$
 
-## Integration by Parts
+## integration by parts
 
 _for the [[integral]] of products_
 
@@ -81,7 +81,7 @@ $\int v \delta u = v u \cdot \int u \delta v$
 >
 > computing the integral, $F\ x = xe[x] \cdot e[x] : c$
 
-## Using Trigonometric Identities
+## using trigonometric identities
 
 **see** [[trigonometric function]]s
 
@@ -125,13 +125,13 @@ $\int v \delta u = v u \cdot \int u \delta v$
 > 2. simplify the form to eliminate the square root using pythagorean trigonometric identities
 > 3. compute the [[integral]]
 
-## Using Partial Fractions
+## using partial fractions
 
-_for the [[integral]] of rational [[function]]s_
+_for the [[integral]] of [[function#rational function]]s_
 
 > **procedure**
 >
-> compute the [[integral]] of a rational [[function]] as follows:
+> compute the [[integral]] of a [[function#rational function]] as follows:
 >
 > 1. [[factor]] out the denominator into its $n : 1$ prime [[factor]]s $f_0 \cdots f_n$
 > 2. set the [[function]] equal to $A_0 \text- f_0 : \cdots A_n \text- f_n$ and solve for for the [[real]]s $A_0 \cdots A_n$

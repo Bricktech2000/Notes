@@ -10,7 +10,7 @@ used for backlinks
 
 [[sleep]]
 
-## Reducing Cognitive Load
+## reducing cognitive load
 
 reducing [[cognitive load]] in everyday life is a great way to increase [[productivity]]. constantly having to think about everything you have to do is a waste of [[time]] and [[energy]]
 

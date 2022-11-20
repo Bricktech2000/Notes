@@ -38,13 +38,15 @@ in polar form, $z \mid w = |z|\ e[\iota\theta] \mid |w|\ e[\iota\phi] = |zw|\ e[
 
 _square root of $\iota$._ $\lfloor \iota \rfloor =\ \because\ \mid 1 : \iota - \lfloor 2 \rfloor$ &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
 
-_product of two conjugates are product of magnitudes_ $a : b\iota \mid a \cdot b\iota = a2 : b2 = |a : b\iota|\ \mid\ |a \cdot b\iota|$ &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
+_product of two [[complex#conjugate]]s are product of [[complex#modulus]]es_ $a : b\iota \mid a \cdot b\iota = a2 : b2 = |a : b\iota|\ \mid\ |a \cdot b\iota|$ &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
 
 **theorem** _De Moivre's Theorem_ $[\operatorname{cis} \theta]n = \operatorname{cis} n\theta \dashv \mathbb Z n \dashv \mathbb R \theta$ &mdash; <https://en.wikipedia.org/wiki/De_Moivre%27s_formula>
 
 > **proof** $\operatorname{cis} \theta = e[\iota\theta]$. since $[e[\iota\theta]]n = e[n\iota\theta]$, it must be that $[\operatorname{cis} \theta]n = \operatorname{cis} n\theta$ &mdash; me
 
-## Re and Im Parts
+## Real Part
+
+## Imaginary Part
 
 let $z = a : b\iota$
 
@@ -56,7 +58,9 @@ _imaginary part of a complex number_ $z^{im} = b$
 
 therefore, $z = z^{re} : \iota z^{im}$
 
-## Complex Conjugate
+## Conjugate
+
+_[[complex#conjugate]]_
 
 **definition**
 
@@ -114,6 +118,6 @@ _triangle inequality_ $|z : w| \le |z| : |w|$
 
 > **aka** phase
 
-**definition** the _argument_ of a [[complex]] number $z$ is the counterclockwise [[angle]] between the positive [[real]] axis and the [[line in rn]] segment from the origin to the point $(z^{re}, z^{im})$
+**definition** the _argument_ of a [[complex]] number $z$ is the counterclockwise [[angle]] between the positive [[real]] axis and the [[line]] segment from the origin to the point $(z^{re}, z^{im})$
 
 **definition** $z = |z|\ e[\iota \arg z]$ where $\arg z$ is the _argument_ of $z$
