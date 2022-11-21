@@ -16,7 +16,7 @@ _there are three different main kinds of bonds_
 
 ## Ionic Bond
 
-a [[bond]] between one metal and one non-metal, where one [[atom]] gains [[elecrton]]s and the other loses [[electron]]s. this forms two opposite charges that attract eachother, forming a [[bond]]
+a [[bond]] between one metal and one non-metal, where one [[atom]] gains [[electron]]s and the other loses [[electron]]s. this forms two opposite charges that attract eachother, forming a [[bond]]
 
 **properties**
 

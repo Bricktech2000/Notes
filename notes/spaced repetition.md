@@ -6,7 +6,7 @@ _[[learning]] by studying wight berofe forgetting_
 
 > **aka** spacing
 
-for [[spaced reepetition]] to be most effective, repetitions must be spaced out enough that it requires effort to remember a [[concept]] or a [[fact]]; the more effort required, the more **active** the [[learning]] is. [[spaced repetition]] works because of the fact that our [[memory]] decays at an exponential rate with respect to [[time]], a phenomenon often referred to as the _forgetting curve_
+for [[spaced repetition]] to be most effective, repetitions must be spaced out enough that it requires effort to remember a [[concept]] or a [[fact]]; the more effort required, the more **active** the [[learning]] is. [[spaced repetition]] works because of the fact that our [[memory]] decays at an exponential rate with respect to [[time]], a phenomenon often referred to as the _forgetting curve_
 
 using _spaced repetition software_ eliminates the guesswork and ensures you are studying at the right intervals
 

@@ -21,6 +21,6 @@ a lot of degrees nowadays don't seem like they're worth the [[time]] and [[money
 
 [[education]]al institutions evolve at a very slow rate. it has happened in the past that students pursuing a PhD (in machine learning in this case) realized partway through their degree that all the research they had done was obsolete. this is an extreme example, but it shows that [[education]]al institutions are not always up to date with the latest developments in rapidly evolving fields
 
-[[education]]al institutions focus on the [[average]] student, and not on the top students, see [[intelligence]]. this is a problem because top students are likely the ones who will make the largest contributions to society
+[[education]]al institutions focus on the average student, and not on the top students, see [[intelligence]]. this is a problem because top students are likely the ones who will make the largest contributions to society
 
 both [[education]]al institutions and their students focus on grades, and not necessarily on learning. this is a problem because of [[goodharts law]]

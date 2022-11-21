@@ -32,4 +32,4 @@ _studying [[vector space]]s_
 
 **related**
 
-[[plane]], [[line]], [[vector in r]]
+[[plane]], [[line]], [[vector in rn]]

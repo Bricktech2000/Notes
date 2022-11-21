@@ -2,8 +2,6 @@
 
 [[the worst programming language ever]]
 
-[[random math notation formulas]]
-
 [[interesting electives]]
 
 #todo

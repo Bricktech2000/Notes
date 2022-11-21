@@ -11,3 +11,5 @@
 [[newtons method]]
 
 [[limit]], [[derivative]], [[antiderivative]], [[integral]]
+
+[[sequence]], [[series]]

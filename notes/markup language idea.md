@@ -140,7 +140,7 @@ $\LaTeX$
 
 if you're interested, click here! <https://example.com/>
 
-with my conceptual\ notes <conceptual-note-taking>
+with my conceptual\ notes <index>
 
 this person said that |it wasn't fair|
 
@@ -188,7 +188,7 @@ you can run it with `python hello_world.py`
 
 if you're interested, click [here!](https://example.com/)
 
-with my [conceptual notes](conceptual-note-taking)
+with my [conceptual notes](index)
 
 this person said that _"it wasn't fair"_
 

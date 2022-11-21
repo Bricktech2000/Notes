@@ -206,7 +206,11 @@ $(A^\intercal)^\intercal = A \dashv \mathbb M A$
 
 $(AB)^\intercal = B^\intercal A^\intercal \dashv \mathbb M A \land \mathbb M B$
 
-**representation** ![[200px-Matrix_transpose.gif]] &mdash; <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif>
+**representation**
+
+![[200px-Matrix_transpose.gif]]
+
+&mdash; <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif>
 
 ## Inverse
 

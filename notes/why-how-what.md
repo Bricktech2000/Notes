@@ -49,17 +49,11 @@ _what_ represents the item itself
 
 [[master lock alternate combination]]
 
-[[subconscious manipulation]]
-
 [[religion]]
-
-[[hijacking brain circuitry]]
 
 [[curve fitting]]
 
 [[social media]]
-
-[[mental illness]]
 
 [[hypnosis]]
 
@@ -101,8 +95,6 @@ _what_ represents the item itself
 
 [[video game]]
 
-[[operator]]
-
 [[esoteric programming language idea]]
 
 [[personal issues with university]]
@@ -113,83 +105,37 @@ _what_ represents the item itself
 
 [[sensor suite]]
 
-[[learning]]
-
 [[concept]] vs [[fact]]
 
 [[english bad habits]]
 
 [[surface-volume disambiguation]]
 
-[[psychology]]
-
 [[zero-knowledge proof]]
-
-[[functional programming]]
 
 [[refactoring to immutability]]
 
 [[shors algorithm]]
 
-[[recursion]], [[iteration]]
-
-[[algorithm]]
-
-[[calculus]]
-
-[[combinatory logic]]
-
-[[sequence]] [[series]]
-
-[[lambda calculus]]
-
-[[neural network]]
-
 [[verifiable random function]]
 
 [[hadamard product]]
 
-[[category theory]]
-
 [[conspiracy theory]]
-
-[[rank polymorphism]]
 
 [[nervous system]]
 
-[[invest]]
-
 [[deriving the quadratic formula]]
-
-[[fourier transform]]
 
 [[goals and risk]]
 
-[[semigroup]]
-
-[[convolution]]
-
 **finance**
 
-[[price-value sigmoid]]
-
-[[loan]]
-
-[[budget]]
-
 [[education]] system issues
-
-[[credit card]]
-
-[[options market]]
 
 [[self-taught software developer]]
 
 [[finance]]
-
-[[car]]
-
-[[life-long investing]]
 
 **network**
 
@@ -205,11 +151,7 @@ _what_ represents the item itself
 
 [[counterintuitive smarter sorting]]
 
-[[system over goal]]
-
 [[why-how-what]]
-
-[[math notation]]
 
 [[calculus notation]]
 
@@ -218,12 +160,6 @@ _what_ represents the item itself
 [[sensory augmentation]]
 
 [[international system of units]]
-
-[[habit]]
-
-[[lofi music]]
-
-[[trick]]
 
 [[minimalism]]
 
@@ -261,8 +197,6 @@ _what_ represents the item itself
 
 [[random ideas]]
 
-[[math notation]]
-
 [[people are shaped by their surroundings]]
 
 [[improved expression evaluation]]
@@ -281,13 +215,9 @@ _what_ represents the item itself
 
 [[overruling rules]]
 
-[[price-value sigmoid]]
-
 [[nested conversation structure]]
 
 [[region size formula]]
-
-[[loan]]
 
 [[calculus notation]]
 
@@ -301,15 +231,11 @@ _what_ represents the item itself
 
 [[master lock alternate combination]]
 
-[[budget]]
-
 [[improved family relationship vocabulary]]
 
 [[mathematical physical currency]]
 
 [[improved rating system]]
-
-[[subconscious manipulation]]
 
 [[counterintuitive smarter sorting]]
 
@@ -323,15 +249,11 @@ _what_ represents the item itself
 
 [[flawed but established]]
 
-[[education]] system issues
-
 [[concept]] vs [[fact]]
 
 [[notion time management]]
 
 [[esoteric programming language idea]]
-
-[[invest]]
 
 [[personal issues with university]]
 
@@ -344,8 +266,6 @@ _what_ represents the item itself
 [[video game]]
 
 [[curve fitting]]
-
-[[operator]]
 
 [[conspiracy theory]]
 
@@ -371,82 +291,32 @@ _what_ represents the item itself
 
 **research**
 
-[[system over goal]]
-
-[[hijacking brain circuitry]]
-
-[[learning]]
-
 [[sleep]], [[insomnia]]
 
 [[surface-volume disambiguation]]
 
-[[psychology]]
-
-[[credit card]]
-
 [[zero-knowledge proof]]
-
-[[functional programming]]
 
 [[refactoring to immutability]]
 
 [[shors algorithm]]
 
-[[recursion]], [[iteration]]
-
-[[algorithm]]
-
 [[social media]]
-
-[[calculus]]
-
-[[options market]]
 
 [[public speaking]]
 
 [[international system of units]]
 
-[[combinatory logic]]
-
 [[self-taught software developer]]
-
-[[sequence]] [[series]]
-
-[[lambda calculus]]
-
-[[neural network]]
 
 [[verifiable random function]]
 
 [[hadamard product]]
 
-[[category theory]]
-
-[[habit]]
-
 [[finance]]
 
-[[car]]
-
-[[life-long investing]]
-
-[[mental illness]]
-
-[[lofi music]]
-
-[[trick]]
-
 [[minimalism]]
-
-[[rank polymorphism]]
 
 [[nervous system]]
 
 [[hypnosis]]
-
-[[fourier transform]]
-
-[[semigroup]]
-
-[[convolution]]

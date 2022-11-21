@@ -54,7 +54,7 @@ _used to compute [[limit]]s in [[limit#indeterminate form]]s using their [[deriv
 
 **theorem**
 
-let $f\ x$ and $g\ x$ be differentiable [[function]]s such that $\delta\ g\ x - \delta x \ne 0$ (restriction not necessary, see [[improved expression evaluation]]) in an open interval around $a$. if $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a$ is a $0 - 0$ [[limit#indeterminate form]], then $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a = \delta\ f\ x - \delta\ g\ x\ \ \vdots\ \ x \rightarrow a = (\delta\ f\ x - \delta x) - (\delta\ g\ x - \delta x)\ \ \vdots\ \ x \rightarrow a$
+let $f\ x$ and $g\ x$ be differentiable [[function]]s on an open interval $I / a$. if $\delta\ g\ x - \delta x \ne 0 \dashv (I / a)\ x$ (restriction not necessary, see [[improved expression evaluation]]) and $f\ x\ \ \vdots\ \ x \rightarrow a = g\ x\ \ \vdots\ \ x \rightarrow a = 0$ and $\delta\ f\ x - \delta\ g\ x\ \ \vdots\ \ x \rightarrow a$ is a [[limit]] that exists, then $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a = \delta\ f\ x - \delta\ g\ x\ \ \vdots\ \ x \rightarrow a$ &mdash; Wikipedia
 
 intuitive explanation &mdash; <https://youtu.be/kfF40MiS7zA?t=734>
 
@@ -78,4 +78,4 @@ other [[limit#indeterminate form]]s can be rewritten to use L'Hôpital's rule:
 >
 > $\sin x \ln x\ \ \vdots\ \ x \stackrel {\cdot \cdot} \rightarrow 0$
 >
-> $[1 : 1 \text- x]x\ \ \vdots\ \ x \rightarrow \infty$
+> $[1 : \text- x]x\ \ \vdots\ \ x \rightarrow \infty$

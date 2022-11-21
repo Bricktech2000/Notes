@@ -38,6 +38,6 @@ the number of [[proton]]s in the nucleus of an [[atom]]
 
 ### Atomic Mass
 
-includes [[protons]], [[neutron]]s and [[electron]]s
+includes [[proton]]s, [[neutron]]s and [[electron]]s
 
 > **note** more often than not, the [[mass]] of [[electron]]s is negligible

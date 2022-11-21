@@ -104,8 +104,6 @@ multiplying by the conjugate can be used to reduce an expression such as $- 4 : 
 
 let $\mathbb C z \land \mathbb C w \land \mathbb R c$
 
-let $\mathbb R |z| \land |z| \ge 0$
-
 $|z| = |\operatorname{conj} z|$
 
 $|zw| = |z|\ |w|$

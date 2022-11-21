@@ -8,10 +8,10 @@ interesting views on personal finance: <https://youtu.be/oh3sAxd9-jw>
 
 **see**
 
-[[life-long investing]], [[car]] costs
+[[life-long investing]], [[car]] costs, [[price-value sigmoid]]
 
 [[money]], [[wealth]], [[inflation]]
 
-[[credit card]], [[loan]], [[sunk costs fallacy]]
+[[credit card]], [[loan]], [[budget]], [[sunk costs fallacy]]
 
 [[options market]], [[bond market]], [[stock market]], [[loanable funds market]]
