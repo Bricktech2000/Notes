@@ -2,7 +2,7 @@
 
 #example, see backlink
 
-> **proof**:
+> **proof**
 >
 > - $1 \to 2$
 >

@@ -20,7 +20,7 @@ $\det cA = c^n \mid \det A$, where $n$ is the width and height of the [[matrix]]
 >
 > _Laplace expansion_
 >
-> note the alternating $\, : \,$ and $\cdot$ below. the following sign matrix can be used to determine the signs of the cofactors:
+> note the alternating $\, : \,$ and $\cdot$ below. the following sign [[matrix]] can be used to determine the signs of the cofactors:
 >
 > $\begin{bmatrix} (:) & (\cdot) & (:) & (\cdot) & \cdots \\\ (\cdot) & (:) & (\cdot) & (:) & \cdots \\\ (:) & (\cdot) & (:) & (\cdot) & \cdots \\\ (\cdot) & (:) & (\cdot) & (:) & \cdots \\\ \vdots & \vdots & \vdots & \vdots & \ddots \end{bmatrix}$
 >
@@ -38,11 +38,11 @@ $\det cA = c^n \mid \det A$, where $n$ is the width and height of the [[matrix]]
 >
 > the [[determinant]] of a [[matrix#triangular matrix]] is the product of its [[matrix#diagonal]] entries
 >
-> row operations (see [[linear system]]) have a consistent effect on the [[determinant]] of a [[matrix]] (see properties below). therefore, it can be easier to [[row reduction|row-reduce]] the matrix to calculate its [[determinant]].
+> [[linear system#elementary operation]]s have a consistent effect on the [[determinant]] of a [[matrix]] (see properties below). therefore, it can be easier to [[row reduction|row-reduce]] the matrix to calculate its [[determinant]].
 
 **properties**
 
-**see** [[linear system]]
+**see** [[linear system#elementary operation]]
 
 _adding a multiple of a row or column to another row or column_ $\det A = \det A'$
 
@@ -50,11 +50,17 @@ _swapping any two rows or two columns_ $\det A = \cdot \det A'$
 
 _multiplying a row or a column by a [[scalar]] $c$_ $\det A = c \det A'$
 
+#todo mm
+
 $\det AB = \det A \mid \det B$
+
+#todo mm
 
 $\det [A]m = [\det A]m \dashv \mathbb N m$
 
 $\det A = 0$ if and only if $A$ is not invertible, see [[matrix]]
+
+#todo mm
 
 $\det \text-A = -\det A$ if and only if $A$ is invertible, see [[matrix]]
 

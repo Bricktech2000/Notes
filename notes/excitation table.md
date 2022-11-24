@@ -6,4 +6,6 @@ _previous state and next state to circuit inputs. tells you how to get from the 
 
 &mdash; <https://www.quora.com/What-is-the-difference-between-truth-table-and-characteristic-table-and-excitation-table>
 
-> **example** ![[20220427195650.png]]
+> **example**
+>
+> ![[20220427195650.png]]

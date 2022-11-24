@@ -105,11 +105,3 @@ $\delta\ (-f\ x) - \delta x = \cdot \delta\ f\ x - \delta x - [f\ x]2$
 $\delta\ f\ g\ x - \delta x = \delta\ g\ x - \delta x \mid \delta\ f\ g\ x - \delta\ g\ x$
 
 > **proof** $(\delta\ g\ x) - \delta x \mid \delta f\ g\ x - (\delta\ g\ x) = \delta\ f\ g\ x - \delta x$
-
-> **example**
->
-> #todo fix partial derivative
->
-> the equivalent chain [[derivative rules]] on a [[function]] of multiple variables is:
->
-> $\partial_t\ f\ (g\ (t, s), h\ (t, s)) = f_x\ (g\ (t, s), h\ (t, s)) \shortmid g_t\ (t, s) \cdot f_y\ (g\ (t, s), h\ (t, s)) \shortmid h_t\ (t, s)$

@@ -14,7 +14,7 @@ $\begin{bmatrix}a & b \\\ c & d\end{bmatrix}$
 
 **definition**
 
-$(kA)^{i, j} = kA^{i, j} \dashv \mathbb N i \land \mathbb N j \land \mathbb R k \land \mathbb M A$
+$kA$
 
 **properties**
 
@@ -26,9 +26,11 @@ _commutativity with [[scalar]]s_ $kA = Ak$
 
 **definition**
 
-$(A : B)^{i, j} = A^{i, j} : B^{i, j} \dashv \mathbb N i \land \mathbb N j \land \mathbb M^{m, n} A \land \mathbb M^{m, n} B$
+$A : B$
 
 ## Multiplication
+
+#todo mm
 
 **see** [[dot product]], [[vector in rn]]
 
@@ -36,7 +38,7 @@ $(A : B)^{i, j} = A^{i, j} : B^{i, j} \dashv \mathbb N i \land \mathbb N j \land
 
 $AB \ne \varnothing \equiv \mathbb M^{m, n}A \land \mathbb M^{n, p}B \land \mathbb M^{m, p}AB$ ($AB$ is defined if the number of columns in $A$ is equal to the number of rows in $B$. their product will be an $m$ by $p$ [[matrix]])
 
-$(AB)^{i, j} = A^{i, }\ \dot\mid\ B^{, j} \dashv \mathbb N i \land \mathbb N j$, see [[dot product]]
+$(AB)^{i, j} =\ :\! A^{i, } B^{, j}$, see [[dot product]]
 
 intuitively, matrix multiplication is the [[dot product]] of **every row** of the first [[matrix]] by **every column** of the second [[matrix]]
 
@@ -74,7 +76,7 @@ $\begin{bmatrix}1 & 2 & 3 \\\  4 & 5 & 6\end{bmatrix}\begin{bmatrix}x \\\  y \\\
 
 **definition**
 
-$(I^{a, b} = 1 \land a = b) \lor (I^{a, b} = 0 \land a \ne b) \dashv \mathbb N a \land \mathbb N b \land \mathbb M^{n, n} I$
+$(0 \cdots)\ \dot=\ (0 \cdots)$
 
 **examples**
 
@@ -92,7 +94,7 @@ $AI = A \land IA = A \dashv \mathbb M A$
 
 **definition**
 
-$O^{a, b} = 0 \dashv \mathbb N a \land \mathbb N b \land \mathbb M^{n, m} O$
+$O\ \dot=\ 0$
 
 **examples**
 
@@ -198,13 +200,13 @@ _flips a [[matrix]] around its [[matrix#diagonal]]_
 
 **definition**
 
-$(A^\intercal)^{i, j} = (A)^{j, i} \dashv \mathbb N i \land \mathbb N j \land \mathbb M A$
+$(A^\intercal)^{i, j} = A^{j, i}$
 
 **properties**
 
-$(A^\intercal)^\intercal = A \dashv \mathbb M A$
+$(A^\intercal)^\intercal = A$
 
-$(AB)^\intercal = B^\intercal A^\intercal \dashv \mathbb M A \land \mathbb M B$
+$(AB)^\intercal = B^\intercal A^\intercal$ #todo mm
 
 **representation**
 
@@ -212,7 +214,27 @@ $(AB)^\intercal = B^\intercal A^\intercal \dashv \mathbb M A \land \mathbb M B$
 
 &mdash; <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif>
 
+## Conjugate Transpose
+
+_the [[complex#conjugate]] of every entry of the [[matrix#transpose]] of a [[matrix]]_
+
+> **aka** Hermitian transpose, adjoint matrix, transjugate
+
+**definition**
+
+$\operatorname{conj} A^\intercal$, where
+
+- $A$ is the [[matrix]] to find the [[matrix#conjugate transpose]] of
+- $\operatorname{conj}$ is the [[complex#conjugate]] [[function]]
+- $^\intercal$ is the [[matrix#transpose]] [[operator]]
+
+**properties**
+
+let a [[matrix]] of [[real]]s $A$. then, $\operatorname{conj} A^\intercal \equiv A^\intercal$
+
 ## Inverse
+
+#todo mm
 
 _the inverse of a [[matrix]]_
 
@@ -259,9 +281,9 @@ if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 >
 > let $A = \begin{bmatrix}a & b \\\  c & d\end{bmatrix}$
 >
-> $A$ is invertible if and only if $|A| \ne 0$
+> $A$ is invertible if and only if $\det A \ne 0$
 >
-> $A^- = - |A|\ \mid\ \begin{bmatrix}d & \cdot b \\\  \cdot c & a\end{bmatrix}$
+> $A^- = - \det A\ \mid\ \begin{bmatrix}d & \cdot b \\\  \cdot c & a\end{bmatrix}$
 
 **applications** _using a [[matrix#inverse]] to solve a [[linear system]]_
 
@@ -287,7 +309,7 @@ $Ix = x = B \begin{bmatrix}\cdot 1 \\\ 1\end{bmatrix}$
 
 **applications**
 
-$[D]x$ can be calculated by raising every entry of $D$ to the power $x$
+$[D]x$ can be calculated by raising every entry of $D$ to the power $x$ #todo mm
 
 ## Diagonalizable Matrix
 

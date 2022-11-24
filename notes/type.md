@@ -15,23 +15,25 @@ as examples, in Haskell, type `Bool` is a two-element [[set]] of `True` and `Fal
 >   Cash,
 >   Check { checkNumber: u32 },
 >   CreditCard {
->     cardType: enum CardType {
->       Visa,
->       Mastercard
->     },
->     cardNumber (String),
+>     cardType: CardType,
+>     cardNumber: String,
 >   },
+> };
+>
+> enum CardType {
+>   Visa,
+>   Mastercard
 > };
 >
 > enum PaymentAmount {
 >   EUR(u32),
 >   CAD(u32),
-> }
+> };
 >
 > struct Payment {
 >   amount: PaymentAmount,
 >   method: PaymentMethod,
-> }
+> };
 > ```
 
 **applications**

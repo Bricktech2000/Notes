@@ -104,6 +104,7 @@ let:
 | $A \circ B$                                                | $x \rightarrow A\ x \circ B\ x$                    | see [[rank polymorphism]]              |
 | $A \circ B$                                                | $A\ x \circ B\ x$ for all $x$                      | why not $\land A \circ B$ #think       |
 | $\circ\!\ A$                                               | the [[reduce function]] of $A$ with $\circ$        |                                        |
+| $A\ \dot\circ\ B$                                          | the [[outer product]] of $A$ and $B$ with $\circ$  |                                        |
 | $\delta y - \delta x$                                      | the [[derivative]] of $y$ with respect to $x$      | $\delta$ should be used instead of $d$ |
 | $\int y \mid \delta x$                                     | the [[antiderivative]] of $y$ with respect to $x$  | $\delta$ should be used instead of $d$ |
 
@@ -119,6 +120,7 @@ let:
 | $\iota$       | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]], using $i$ is discouraged |
 | $\Pi$         | the [[pi function]]                                          | using $\operatorname{fact}$ is discouraged  |
 | $\#$          | the size of the range of a [[function]]                      |                                             |
+| $\psi$        | the [[multiset]] of prime factors of a [[natural]]           | see [[psi function in mat2348]]             |
 
 ### operator properties
 
@@ -164,17 +166,19 @@ _in order of high to low precedence_
 | ------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | the [[quadratic formula]]                   | $x = \cdot b : \lfloor b2 \cdot 4ac \rfloor - 2a$                       | $\displaystyle x_{1, 2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$                                            |
 | definition of [[complex]] numbers           | $\mathbb C x \equiv x = a : b\iota \land \mathbb R a \land \mathbb R b$ | $\displaystyle \mathbb C = \{a + bi : a, b \in \mathbb R\}$                                              |
-| the [[gaussian function]]                   | $G^\sigma\ p = -\lfloor \tau \sigma2 \rfloor - e[:p2 - 2\sigma2]$       | $\displaystyle G(x, y, \dots) = \frac{1}{\sqrt{2 \pi\sigma^2}} e^{-\frac{x^2 + y^2 + \dots}{2\sigma^2}}$ |
+| the [[gaussian function]]                   | $G^\sigma\ p = -\lfloor \tau \sigma2 \rfloor - e[:\! p2 - 2\sigma2]$    | $\displaystyle G(x, y, \dots) = \frac{1}{\sqrt{2 \pi\sigma^2}} e^{-\frac{x^2 + y^2 + \dots}{2\sigma^2}}$ |
 | [[limit]] form of a [[derivative]]          | $f\ x \cdot f\ a - x \cdot a\ \ \vdots\ \ x \rightarrow a$              | $\displaystyle \lim_{h \rightarrow 0} \frac{f(x + h) - f(x)}{h}$                                         |
-| definition of factorials                    | $\operatorname{fact} n = 1 \mid \cdots n$                               | $\displaystyle n! = 1 \cdot 2 \cdot \cdots n$ (informally)                                               |
+| definition of factorials                    | $\operatorname{fact} n = 1 \mid \cdots n$                               | $\displaystyle n! = \prod_{i = 1}^n i$                                                                   |
 | the resonant [[frequency]] of an LC circuit | $f = -\tau \lfloor LC \rfloor$                                          | $\displaystyle f = \frac{1}{2 \pi \sqrt{LC}}$                                                            |
-| definition of the [[dot product]]           | $:xy$                                                                   | $\displaystyle x \cdot y  = \sum_{i=1}^n x_i y_i$                                                        |
-| definition of [[vector in rn#magnitude]]    | $\lfloor :v2 \rfloor$                                                   | $\displaystyle \vert v \vert = \sqrt{x^2 + y^2 + \dots}$ with $v = (x, y, \dots)$                        |
+| definition of the [[dot product]]           | $:\! xy$                                                                | $\displaystyle x \cdot y  = \sum_{i=1}^n x_i y_i$                                                        |
+| definition of the [[outer product]]         | $x\ \dot\mid\ y$                                                        | $\displaystyle (x \otimes y)_{i, j}  = x_i \times y_j$                                                   |
+| definition of the [[cartesian product]]     | $x\ \dot,\ y$                                                           | $\displaystyle x \times y = \lbrace (x, y) \mid x \in X \text{ and } y \in Y \rbrace$                    |
+| definition of [[vector in rn#magnitude]]    | $\lfloor :\! v2 \rfloor$                                                | $\displaystyle \vert v \vert = \sqrt{x^2 + y^2 + \dots}$ with $v = (x, y, \dots)$                        |
 | definition of [[set]] difference            | $A / B \equiv A \land \times B$                                         | $\displaystyle A \setminus B = \{x \in A : x \notin B\}$                                                 |
 
 definition of the [[boolean logic#implication]] / [[set#subset]] / [[set#superset]] / [[quantifier#universal quantifier]] in this [[math notation]]: $a \vdash b \equiv /a \lor b$ and $a \dashv b \equiv a \lor /b$
 
-in [[set theory]], if $U$ is a [[set#subset]] of $V$ and $V$ is a [[set#subset]] of $U$, then $V$ is $U$. in this [[math notation[[: $(U\ x \vdash V\ x) \land (U\ x \dashv V\ x) \equiv U = V$
+in [[set theory]], if $U$ is a [[set#subset]] of $V$ and $V$ is a [[set#subset]] of $U$, then $V$ is $U$. in this [[math notation]]: $(U\ x \vdash V\ x) \land (U\ x \dashv V\ x) \equiv U = V$
 
 the negation of a [[boolean logic#implication]] in this [[math notation]]: $B \vdash C \times B\ /\ C$
 

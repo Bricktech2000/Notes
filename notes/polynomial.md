@@ -5,7 +5,7 @@
 $p = a_0x[0] : \cdots a_nx[n] \land \mathbb N n \land (\mathbb R a_n \dashv \mathbb N n)$, where
 
 - $p$ is a [[polynomial]]
-- $a_0, \cdots, a_n$ are the coefficients
+- $a_0 \cdots a_n$ are the _coefficients_ of the [[polynomial]]
 
 ## Vector Space
 

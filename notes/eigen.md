@@ -1,5 +1,7 @@
 # Eigen
 
+#todo mm
+
 ## Space
 
 ## Vector
@@ -58,7 +60,7 @@ let $\mathbb M^{n, n} A \land \mathbb N n$
 >
 > $\det\ (A \cdot \lambda I) = 0 = [1 \cdot \lambda]2 \cdot 4 = 1 \cdot \lambda : 2 \mid 1 \cdot \lambda \cdot 2 = 3 \cdot \lambda \mid \cdot 1 \cdot \lambda = 0$
 >
-> $\lambda = 3 \lor \lambda = \cdot 1$ are the [[eigen#value]]s of $A$
+> $\lambda =\ \ \vdots\ \ 3 \lor \cdot 1$ are the [[eigen#value]]s of $A$
 
 > **procedure** _finding [[eigen#vector]]s_
 >

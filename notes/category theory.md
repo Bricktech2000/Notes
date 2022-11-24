@@ -65,17 +65,17 @@ the _curry-howard-lambek isomorphism_ states that [[logic]], [[type theory]] and
 
 [[category#coproduct]]s in the [[category]] of [[set]]s are disjoint unions &mdash; Terramorpha
 
-[[category#product]]s in the [[category]] of $\mathbb R, \le$ are the minimum of two numbers &mdash; Terramorpha
+[[category#product]]s in the [[category]] $\mathbb R, \le$ are the minimum of two numbers &mdash; Terramorpha
 
-[[category#coproduct]]s in the [[category]] of $\mathbb R, \le$ are the maximum of two numbers &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] $\mathbb R, \le$ are the maximum of two numbers &mdash; Terramorpha
 
-[[category#product]]s in the [[category]] of $\mathbb N, \text{divides}$ are the GCD of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
+[[category#product]]s in the [[category]] $\mathbb N, \text{divides}$ are the GCD of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
 
-[[category#coproduct]]s in the [[category]] of $\mathbb N, \text{divides}$ are the LCM of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] $\mathbb N, \text{divides}$ are the LCM of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
 
-[[category#product]]s in the [[category]] of $\braket{\ }, \vdash$ are the intersection of two sets &mdash; Terramorpha
+[[category#product]]s in the [[category]] $\braket{\ }, \vdash$ are the intersection of two sets &mdash; Terramorpha
 
-[[category#coproduct]]s in the [[category]] of $\braket{\ }, \vdash$ are the union of two sets &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] $\braket{\ }, \vdash$ are the union of two sets &mdash; Terramorpha
 
 #think <https://youtu.be/IOiZatlZtGU?t=2334>
 

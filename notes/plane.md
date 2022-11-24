@@ -10,31 +10,31 @@
 
 ### plane from 3 points
 
-find two vectors on the plane. for example, $d_0 = p_1 \cdot p_0$ and $d_1 = p_2 \cdot p_1$
+find two [[vector in rn]]s on the [[plane]]. for example, $d_0 = p_1 \cdot p_0$ and $d_1 = p_2 \cdot p_1$
 
 _continue below_
 
 ### Parametric Form
 
-using two direction vectors on the plane $d_0$ and $d_1$ and a point $p_0$, we can derive the parametric equation of the plane
+using two direction [[vector in rn]]s on the [[plane]] $d_0$ and $d_1$ and a point $p_0$, we can derive the parametric equation of the [[plane]]
 
 $P = p_0 : t_0 d_0 : t_1 d_1 \land \mathbb R t_0 \land \mathbb R t_1$
 
 ### plane from 2 vectors and point
 
-find a [[normal vector]] using the [[cross product]] of the two vectors on the plane
+find a [[normal vector]] using the [[cross product]] of the two [[vector in rn]]s on the [[plane]]
 
 _continue below_
 
 ### plane from normal and point
 
-given that all the vectors forming that plane must be perpendicular to a [[normal vector]],
+given that all the [[vector in rn]]s forming that [[plane]] must be perpendicular to a [[normal vector]],
 
-$n\ \dot\mid\ P \cdot p_0 = 0$, where
+$:\! n (P \cdot p_0) = 0$, where
 
 - $n$ is a [[normal vector]]
-- $p_0$ is a point on the plane
-- $P$ is the plane itself, see [[dot product]]
+- $p_0$ is a point on the [[plane]]
+- $P$ is the [[plane]] itself, see [[dot product]]
 
 _continue below_
 
@@ -60,20 +60,20 @@ from the general form, we can deduce $(n^x, n^y, n^z)$ is a [[normal vector]]
 
 ### parallel, perpendicular, angles
 
-two planes are parallel if their [[normal vector]]s are parallel
+two [[plane]]s are parallel if their [[normal vector]]s are parallel
 
-two planes are perpendicular if their [[normal vector]]s are perpendicular
+two [[plane]]s are perpendicular if their [[normal vector]]s are perpendicular
 
-the angle between two planes is the angle between their [[normal vector]]s
+the angle between two [[plane]]s is the angle between their [[normal vector]]s
 
-two parallel planes can be thought of as having the same [[normal vector]]
+two parallel [[plane]]s can be thought of as having the same [[normal vector]]
 
 ### intersection of 2 planes
 
-if the planes are not perpendicular nor parallel:
+if the [[plane]]s are not perpendicular nor parallel:
 
-to find the equation for a line, we need a direction vector and a point
+to find the equation for a line, we need a direction [[vector in rn]] and a point
 
-find the direction vector by calculating the [[cross product]] of the two planes’ [[normal vector]] (think of this intuitively)
+find the direction [[vector in rn]] by calculating the [[cross product]] of the [[plane]]s’ [[normal vector]]s (think of this intuitively)
 
-find the point by setting any one coordinate of the planes to an arbitrary value, such as $0$ to get rid of it. then, solve the system of two equations
+find the point by setting any one coordinate of the [[plane]]s to an arbitrary value, such as $0$ to get rid of it. then, solve the [[linear system]] of two equations

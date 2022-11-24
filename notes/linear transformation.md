@@ -23,6 +23,8 @@ $\mathbb T \vdash \mathbb F$, see [[function vector space]]
 
 > **example** _proving a [[function]] is a [[linear transformation]]_
 >
+> #todo mm
+>
 > let the [[matrix]] $\mathbb M^{m, n} A$ and let $(T\ u = A \mid u) \land \mathbb R^n u$. prove $\mathbb T T$
 >
 > > **proof**
@@ -32,6 +34,8 @@ $\mathbb T \vdash \mathbb F$, see [[function vector space]]
 > > let $\mathbb R^n u \land \mathbb R c$. we then have $T\ cu = A \mid cu$. commutating, we get $c \mid T\ u = c \mid A \smash\shortmid u$.
 
 ## Standard Matrix
+
+#todo mm
 
 **theorem** for any $\mathbb T T$, there exists a [[matrix]] $A$ such that $(T\ u = A \mid u) \dashv \mathbb R^n u$. in other words, any [[linear transformation]] can be represented as a [[matrix#multiplication]]
 
@@ -57,11 +61,15 @@ in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \cdots & T\ b_n \
 >
 > $proj_W\ u = (u^x : u^z - 2 \mid (1, 0, 1)) : (u^y - 1 \mid (0, 1, 0)) = (u^x : u^z - 2, u^y, u^x : u^z - 2)$ (see [[vector in rn]])
 >
+> #todo mm
+>
 > rearranging, we get $proj_W\ u = u^x (-2, 0, -2) : u^y (0, 1, 0) : u^z (-2, 0, -2) = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix} \begin{bmatrix}u^x \\\ u^y \\\ u^z\end{bmatrix} = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix} \mid u$, which is [[matrix#multiplication]]
 >
 > alternatively, we can use the following, see #magic:
 >
 > $B = \begin{bmatrix}| & & | \\\ b_0 & \cdots & b_n \\\ | & & |\end{bmatrix}$ where $\braket{\braket{b_0 \cdots b_n}}$ is a [[basis]] for $W$ that does **not** have to be a [[basis#orthogonal basis]]. in this case, $b_0 = (1, 0, 1)$ and $b_1 = (0, 1, 0)$
+>
+> #todo mm
 >
 > then, $proj_W\ u = A \mid u$ with $A = B \text-(B^\intercal B) B^\intercal = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix}$, see #magic. $A$ is the [[linear transformation#standard matrix]] of $T$
 
@@ -76,6 +84,8 @@ in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \cdots & T\ b_n \
 > with $(c, f\ c) = (x, y)$, we get the point $(x \cos \alpha \cdot y \sin \alpha,  x \sin \alpha : y \cos \alpha)$, which can be graphed as $x \sin \alpha : y \cos \alpha = f\ (x \cos \alpha \cdot y \sin \alpha)$
 >
 > computing the [[linear transformation#standard matrix]]:
+>
+> #todo mm
 >
 > with $(c, f\ c) = (x, y)$, we get the [[linear transformation]] $T\ (x, y) = (x \cos \alpha \cdot y \sin \alpha,  x \sin \alpha : y \cos \alpha)$. its [[linear transformation#standard matrix]] is $\begin{bmatrix} | & | \\\ T\ (1, 0) & T\ (0, 1) \\\ | & | \end{bmatrix} = \begin{bmatrix} \cos \alpha & \cdot \sin \alpha \\\ \sin \alpha & \cos \alpha \end{bmatrix}$. defining $T$ using [[matrix#multiplication]], we get $T\ (x, y) = \begin{bmatrix} \cos \alpha & \cdot \sin \alpha \\\ \sin \alpha & \cos \alpha \end{bmatrix} \begin{bmatrix} x \\\ y \end{bmatrix} = \begin{bmatrix} x \cos \alpha \cdot y \sin \alpha \\\ x \sin \alpha : y \cos \alpha\end{bmatrix}$, which can also be graphed as $x \sin \alpha : y \cos \alpha = f\ (x \cos \alpha \cdot y \sin \alpha)$
 >

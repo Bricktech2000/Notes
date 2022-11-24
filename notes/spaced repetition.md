@@ -1,6 +1,6 @@
 # Spaced Repetition
 
-_[[learning]] by studying wight berofe forgetting_
+_[[learning]] by studying right before forgetting_
 
 **see** [[active recall]], [[interleaving]]
 

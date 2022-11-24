@@ -16,4 +16,4 @@ _a technique aiming to increase the efficiency of a process_
 
 [[mnemonic]]
 
-[[habit]] formation
+[[habit#formation]]

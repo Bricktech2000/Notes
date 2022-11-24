@@ -6,6 +6,10 @@ _circuit inputs and previous state to next state. tells you how the control bits
 
 &mdash; <https://www.quora.com/What-is-the-difference-between-truth-table-and-characteristic-table-and-excitation-table>
 
-> **example** ![[20220427195727.png]]
+> **example**
+>
+> ![[20220427195727.png]]
 
-> **example** ![[20220427195749.png]]
+> **example**
+>
+> ![[20220427195749.png]]

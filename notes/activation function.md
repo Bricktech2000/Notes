@@ -14,7 +14,7 @@ _preferred activation function_
 
 **definition**
 
-$\text{ReLU}\ z = \max 0, z$
+$\text{ReLU}\ z = 0 \lor z$
 
 ```python
 def ReLU(x):
@@ -52,10 +52,7 @@ _for getting probabilities out_
 
 **definition**
 
-$\sigma^i\ z = e[z^i] - e[z^0] : \cdots e[z^n]$, where
+$\sigma^i\ z = e[z^i] - :\! e[z]$, where
 
-$\sigma^i\ z$ is the softmax [[activation function]] at of $z$ at $z^i$
-
-$z$ is a vector of $n$ values
-
-$e$ is [[eulers constant]]
+- $\sigma^i\ z$ is the softmax [[activation function]] of $z$ at $z^i$
+- $e$ is [[eulers constant]]

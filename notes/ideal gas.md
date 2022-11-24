@@ -16,7 +16,7 @@ $PV = nRT$, where
 - $R$ is the ideal gas constant
 - $T$ is the absolute [[temperature]] of the gas
 
-**constant** _the ideal gas constant_ $R = 8.31451 J \text- mol\ K = 8.31451 L\ kPa \text- mol\ K = 0.08314 L\ bar \text- mol\ K$
+**constant** _the ideal gas constant_ $R = 8.31451 \text{ J - mol K} = 8.31451 \text{ L kPa - mol K} = 0.08314 \text{ L bar - mol K}$
 
 ## Dalton's Law
 

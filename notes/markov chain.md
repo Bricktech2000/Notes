@@ -24,12 +24,16 @@ certain [[markov chain]]s converge to a _stationary distribution_, which can be 
 > - $S_0^i$ is the [[probability]] of the $i$ th state occurring in the initial state
 > - $s$ is the number of states in the [[markov chain]]
 >
+> #todo mm
+>
 > then, we compute $S_n = P \mid S_c = \begin{bmatrix} P^{0, 0} & \cdots \\\ \vdots & \ddots \end{bmatrix} \begin{bmatrix} S_c^0 \\\ \vdots \end{bmatrix}$, where
 >
 > - $S_c$ is the current iteration of the computation starting from $S_0$
 > - $S_n$ is the next iteration of the computation
 > - $P$ is the $s$ by $s$ _transition matrix_ of the [[markov chain]]
 > - $P^{j, k}$ is the [[probability]] of the [[markov chain]] transitioning from the $k$ th state to the $j$ th state
+>
+> #todo mm
 >
 > we can then deduce $S_\infty = [P]n \mid S_0\ \ \vdots\ \ n \rightarrow \infty$, where
 >

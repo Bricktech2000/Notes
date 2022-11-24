@@ -10,9 +10,8 @@ _the default [[loss function]] for regression problems_
 
 **definition**
 
-$\text{MSE} = -n \mid [y^0 \cdot \hat y^0]2 : [y^1 \cdot \hat y^1]2 : \cdots [y^n \cdot \hat y^n]2$, where
+$\text{MSE} = \ :\! [y \cdot \hat y]2 - \#\ y$, where
 
 - $\text{MSE}$ is the _mean squared error_ of the values
-- $n$ is the number of data points
-- $y^i$ are the observed values
-- $\hat y^i$ are the predicted values
+- $y$ are the observed values
+- $\hat y$ are the predicted values

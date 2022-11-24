@@ -1,7 +1,5 @@
 # Group
 
-_a [[set]] with extra structure_
-
 &mdash; <https://youtu.be/KufsL2VgELo>
 
 &mdash; <https://youtu.be/mvmuCPvRoWQ>
@@ -16,11 +14,11 @@ let a binary [[operator]] $:$ on a [[set]] $G$. for them to form a [[group]], th
 
 _associativity_ $(a : b) : c = a : (b : c) \dashv G\ a \land G\ b \land G\ c$
 
-_identity element_ $a : e = a \land G\ e \dashv G\ a$
+_identity element_ $a : O = a \land G\ O \dashv G\ a$
 
 _closure_ $G\ (a : b) \dashv G\ a \land G\ b$
 
-_inverse element_ $a : \cdot a = e \dashv G\ a$
+_inverse element_ $a : \cdot a = O \dashv G\ a$
 
 **notation**
 
@@ -28,7 +26,7 @@ _in my [[math notation]]_
 
 the _inverse_ of $a$ is denoted $\cdot a$
 
-the _identity_ element is denoted $e$
+the _identity_ element is denoted $O$
 
 $a : a$ is denoted $2a$
 
@@ -48,9 +46,9 @@ every element of a [[group]] has exactly one inverse
 
 > **note** consequently, $\cdot a : \cdot a$ is identical to $\cdot (2a)$ which is identical to $2 (\cdot a)$, all of which can be denoted $\cdot 2a$. this is true for any coefficient
 
-$a : e = a \dashv G\ a$ implies $e : a = a \dashv G\ a$
+$a : O = a \dashv G\ a$ implies $O : a = a \dashv G\ a$
 
-$a : \cdot a = e \dashv G\ a$ implies $\cdot a : a = e \dashv G\ a$
+$a : \cdot a = O \dashv G\ a$ implies $\cdot a : a = O \dashv G\ a$
 
 $\cdot \smash\cdot a = a$
 

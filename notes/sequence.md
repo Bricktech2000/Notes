@@ -31,7 +31,7 @@ let $a = a^0, a^1, a^2, \cdots$
 $a_{sum} =\ :\! a = S^n\ \ \vdots\ \ n \rightarrow \infty$, where
 
 - $a$ is the [[sequence]] to be summed
-- $S$ is the sequence of partial sums of $a$
+- $S$ is the [[series#sequence of partial sums]] of $a$
 - $a_{sum} =\ :\! a$ is the sum of $a$
 
 ## Bounds

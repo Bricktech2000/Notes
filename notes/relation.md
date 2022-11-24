@@ -4,11 +4,11 @@
 
 **definition**
 
-a _relation_ $\mathcal R$ between two [[set]]s $A$ and $B$ is a [[set#subset]] of the [[cartesian product]] of the two [[set]]s: $\mathcal R \vdash A\ \acute\mid\ B$
+a _relation_ $\mathcal R$ between two [[set]]s $A$ and $B$ is a [[set#subset]] of the [[cartesian product]] of the two [[set]]s: $\mathcal R \vdash \braket{A\ \dot,\ B}$
 
 **definition**
 
-$\mathcal R\ x = (A\ \acute\mid\ B)\ x \land P\ x$, where
+$\mathcal R\ x = \braket{A\ \dot,\ B}\ x \land P\ x$, where
 
 - $\mathcal R$ is a _relation_ between elements of $A$ and $B$
 - $P$ is a [[predicate]]
@@ -31,13 +31,15 @@ then, $\mathcal R \braket{x, y} \equiv \mathcal R^\times \braket{y, x}$
 
 **properties**
 
-$\mathcal R^\times \vdash B\ \acute\mid\ A$
+$\mathcal R^\times \vdash \braket{B\ \dot,\ A}$
+
+#todo **equivalence** for the three following sections
 
 ## Reflexive Relation
 
 similar to identities in [[category theory]]
 
-**definition** a [[relation]] on $A$ is said to be _reflexive_ if $\mathcal R \braket{x, x} \dashv A x$
+**definition** a [[relation]] on $A$ is said to be _reflexive_ if $\mathcal R \braket{x, x} \dashv A\ x$
 
 ## Symmetric Relation
 

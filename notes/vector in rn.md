@@ -26,7 +26,7 @@ _negation_ $\cdot(a, b) \equiv (\cdot a, \cdot b)$
 
 **properties**
 
-_zero [[vector in rn]]_ $O^m = 0 \land m = 0 \cdots n$ where $n$ is the dimension of the [[vector in rn]]
+_zero [[vector in rn]]_ $O\ \dot=\ 0 \equiv O^m = 0$
 
 _[[vector in rn]] addition_ $(a, b) : (c, d) \equiv (a : c, b : d)$
 
@@ -39,7 +39,7 @@ _multiplication by a [[scalar]]_ $c(a, b) \equiv (ca, cb) \dashv \mathbb R c$
 $|V|$, where
 
 - $V$ is the [[vector in rn]] to find the magnitude of
-- $|V| = \lfloor V\ \dot\mid\ V \rfloor$ (derived from the Pythagoras theorem), see [[dot product]]
+- $|V| = \lfloor :\! V2 \rfloor$ (derived from the Pythagoras theorem), see [[dot product]]
 
 ### Unit Vector
 
@@ -58,21 +58,19 @@ $V - |V| = (\cos \theta, \sin \theta)$, where
 - $V$ is the vector to find the direction of
 - $\theta$ is the angle of the vector
 
-> **note**: $V - |V|$ is just notation for the direction of the vector $V$
-
 ## angles between two vectors
 
 **see** [[dot product]], [[cross product]], #magic
 
 **definition**
 
-$\cos \theta = a\ \dot\mid\ b - |a|\ |b|$
+$\cos \theta =\ :\! ab - |a|\ |b|$
 
-> **note**: use $\cos \theta = |a\ \dot\mid\ b| - |a|\ |b|$ to always get the acute angle solution
+> **note**: use $\cos \theta =\ |:\! ab| - |a|\ |b|$ to always get the acute angle solution
 
 **definition**
 
-> $\sin \theta = a\ \check\mid\ b - |a|\ |b|$, see [[cross product]]
+$\sin \theta = a\ \check\mid\ b - |a|\ |b|$, see [[cross product]]
 
 ### Orthogonal Vectors
 
@@ -82,7 +80,7 @@ _a pair of vectors offset by $90^\circ$._
 
 $u \perp v$
 
-**definition** $u$ and $v$ are _orthogonal_ if and only if $u\ \dot\mid\ v = 0$ (see [[dot product]]), or $u \perp v \equiv u\ \dot\mid\ v = 0$
+**definition** $u$ and $v$ are _orthogonal_ if and only if $:\! uv = 0$ (see [[dot product]]), or $u \perp v \equiv\ :\! uv = 0$
 
 **definition** a [[set]] of [[vector]]s is _orthogonal_ if and only if it does not contain the zero [[vector]] and all [[vector]]s in the [[set]] are orthogonal to all other [[vector]]s
 
@@ -94,7 +92,7 @@ $u \perp v$
 
 **theorem** orthogonal [[set]] $\vdash$ [[linearly independent]], but not the inverse
 
-**theorem** suppose $w_0 \cdots w_m$ is a [[basis#orthogonal basis]] for a [[vector space#subspace]] $W$ of $\mathbb R^n$. then, $w = w_0 (w \dot\shortmid w_0 - w_0 \dot\shortmid w_0) : \cdots w_m (w \dot\shortmid w_m - w_m \dot\shortmid w_m)$, see [[dot product]]
+**theorem** suppose $w_0 \cdots w_m$ is a [[basis#orthogonal basis]] for a [[vector space#subspace]] $W$ of $\mathbb R^n$. then, $w = w_0 (:\! ww_0 - :\! w_0w_0) : \cdots w_m (:\! ww_m - :\! w_mw_m)$, see [[dot product]]
 
 ### Colinear Vectors
 
@@ -114,13 +112,13 @@ _The scalar projection is equal to the [[vector in rn#magnitude]] of the [[vecto
 
 **see** [[dot product]]
 
-[[vector in rn#projection]]s are [[linear transformation]]s. projections can be turned into [[matrix#multiplication]] as they are both [[linear transformation]]s
+[[vector in rn#projection]]s are [[linear transformation]]s, and therefore can be turned into [[matrix#multiplication]]
 
 **definition** _projection onto another [[vector]]_
 
 $|proj_b\ a| = |a| \cos \theta$, and
 
-$proj_b\ a = |a| \cos \theta \mid \hat b = a \dot\shortmid \hat b \mid \hat b = a \dot\shortmid b - b \dot\shortmid b \mid b$ (see [[dot product]]), where
+$proj_b\ a = |a| \cos \theta \mid \hat b =\ :\! a \hat b \mid \hat b =\ :\! ab - :\! bb \mid b$ (see [[dot product]]), where
 
 - $proj_b\ a$ is the _vector projection of $a$ on $b$ ._
 - $|proj_b\ a|$ is the _scalar projection of $a$ on $b$ ._
@@ -128,10 +126,10 @@ $proj_b\ a = |a| \cos \theta \mid \hat b = a \dot\shortmid \hat b \mid \hat b = 
 
 **definition** _projection onto a [[vector space]]_
 
-$proj_W\ v = (v \dot\shortmid w_0 - w_0 \dot\shortmid w_0) : \cdots (v \dot\shortmid w_n - w_n \dot\shortmid w_n)$, where
+$proj_W\ v = (:\! vw_0 - :\! w_0w_0) : \cdots (:\! vw_n - :\! w_nw_n)$, where
 
 - $proj_W\ v$ is the projection of $v$ on the [[vector space]] $W$
-- $W = \operatorname{span} \braket{\braket{w_0 \cdots w_n}}$ and $(w_0 \cdots w_n)$ form a [[basis#orthogonal basis]] for $W$
+- $W = \operatorname{span} \braket{\braket{w_0 \cdots w_n}}$ and $(w_0 \cdots w_n)$ is a [[basis#orthogonal basis]] for $W$
 
 **properties**
 

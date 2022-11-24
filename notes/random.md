@@ -768,3 +768,15 @@ $ab = 2b$
 $ab2 = 2b2$
 
 $F((a -> b) \cdot (b -> c)) = F(a -> b) \cdot F(b -> c)$
+
+---
+
+$a\ \dot,\ b$
+
+$a\ \dot\mid\ b$
+
+$a\ \dot:\ b$
+
+$a\ \dot\land\ b$
+
+$a\ \dot\lor\ b$

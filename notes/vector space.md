@@ -11,7 +11,7 @@
 > the following are [[vector space]]s:
 >
 > - $\mathbb R^1$, $\mathbb R^2$, $\mathbb R^n \land \mathbb N n$
-> - $V v \equiv v = O$ (a [[set]] containing only the zero [[vector]] is a [[vector space]])
+> - $V\ v \equiv v = O$ (a [[set]] containing only the zero [[vector]] is a [[vector space]])
 
 > **example**
 >

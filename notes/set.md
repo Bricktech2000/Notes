@@ -120,7 +120,7 @@ _the [[set]] of all possible mathematical entities_
 
 **definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $S^i \land S^j \equiv \braket{\ }$ for all $i, j$ (the [[set]]s are pairwise disjoint) and $\lor\!\ S = A$
 
-**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $A =\ :\! S$
+**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $\braket{0, 1}\ A =\ :\! \braket{0, 1}\ S$
 
 ## Cardinality
 
@@ -138,9 +138,9 @@ when two [[set]]s form a _union_ $A \lor B$, then $\#\ S = \#\ A : \#\ B \cdot \
 
 _difference principle_ the cardinality of the difference of two [[set]]s is $\#\ (A / B) = \#\ A \cdot \#\ (A \land B)$
 
-_product principle_ the cardinality of the [[cartesian product]] of two [[set]]s is $\#\ A\ \acute\shortmid\ B = \#\ A \mid \#\ B$
+_product principle_ the cardinality of the [[cartesian product]] of two [[set]]s is $\#\ \braket{A\ \dot,\ B} = \#\ A \mid \#\ B$
 
-_generalized product principle_ $\#\ (A\ \acute\shortmid\ B \lor A\ \acute\shortmid\ B) = \#\ A\ \acute\shortmid\ B : \#\ B\ \acute\shortmid\ A \cdot \#\ (A\ \acute\shortmid\ B \land B\ \acute\shortmid\ A) = (2 \mid \#\ A : \#\ B) \cdot $ #todo complete during next lecture
+_generalized product principle_ $\#\ (A\ \acute\shortmid\ B \lor A\ \acute\shortmid\ B) = \#\ A\ \acute\shortmid\ B : \#\ B\ \acute\shortmid\ A \cdot \#\ (A\ \acute\shortmid\ B \land B\ \acute\shortmid\ A) = (2 \mid \#\ A : \#\ B) \cdot$ #todo complete during next lecture
 
 ## Power Set
 

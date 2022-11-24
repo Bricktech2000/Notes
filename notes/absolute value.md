@@ -15,11 +15,3 @@ $|x| \le t \equiv \cdot t \le x \le t$
 $|x| \ge t \equiv x \ge t \lor x \le \cdot t$
 
 $|a : b| \le |a| : |b| \dashv \mathbb R a \land \mathbb R b$ &mdash; triangle inequality
-
-in [[conventional math notation]]:
-
-$|x| \le t \Leftrightarrow -t \le x \le t$
-
-$|x| \ge t \Leftrightarrow x \ge t \lor x \le -t$
-
-$|a + b| \le |a| + |b| \dashv \mathbb R a \land \mathbb R b$

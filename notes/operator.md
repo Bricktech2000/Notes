@@ -18,14 +18,16 @@ operators in [[type theory]]
 
 [[quantifier]]s
 
-#todo fix notation for the following operators and fix all dot products and matrix products
-
-#todo extend hadamard product properties with <https://en.wikipedia.org/wiki/Hadamard_product_(matrices)#Properties>
-
 [[hadamard product]]
 
 [[dot product]]
 
+[[cartesian product]]
+
+[[outer product]]
+
+#todo fix notation for the following operators and fix all dot products and matrix products
+
 [[cross product]]
 
-[[cartesian product]]
+[[matrix#multiplication]]

@@ -16,7 +16,7 @@ $M = ((1, 2, 2, 2, 3, 3))$
 
 > **example** in the [[polynomial]] $[x \cdot 1]2$, the [[multiplicity]] of the root $1$ is $2$
 
-> **example** in the prime factorization of $60$, the [[multiplicity]] of the factor $2$ is $2$ and the [[multiplicity]] of the factors $3$ and $5$ is $1$
+> **example** in the prime [[factor]]ization of $60$, the [[multiplicity]] of the [[factor]] $2$ is $2$ and the [[multiplicity]] of the [[factor]]s $3$ and $5$ is $1$. equivalently, $\psi\ 60 = ((2, 2, 3, 5))$, see [[psi function in mat2348]]
 
 **notation** _in my [[math notation]]_
 

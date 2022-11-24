@@ -16,6 +16,6 @@ _method to approximate the zeros of a [[function]]_
 >
 > given an initial guess $x^0$, we derive the following from the [[function#tangent line]] equation:
 >
-> $x^{n : 1} = x^n \cdot (f\ x^n - \delta\ f\ x^n - \delta x^n)$
+> $x^{n : 1} = x^n \cdot (f\ x^n - \delta\ f\ x^n \mid \delta x^n)$
 
 > **example** the following equation can be solved easily using [[newtons method]]: $e[x] = 4x$

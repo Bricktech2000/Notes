@@ -14,19 +14,16 @@ _algorithm to compute the [[gradient]] of a [[neural network]] efficiently_
 
 let $g'\ z = \begin{bmatrix} (\delta\ g\ z^0 - \delta z^0) \\\ \vdots \\\ (\delta\ g\ z^n - \delta z^n) \end{bmatrix}$
 
-let $g \begin{bmatrix}x^0 \\\ x^1 \\\ \vdots\end{bmatrix} \equiv \begin{bmatrix}g x^0 \\\ g x^1 \\\ \vdots\end{bmatrix}$ (duplicate)
-
 ## computing changes in loss
 
 $\delta \mathcal L - \delta a_y^y = (\delta \mathcal L - \delta a_y^y)$, where
 
-$\mathcal L$ is the [[loss function]]
+- $\mathcal L$ is the [[loss function]]
+- $a_y$ is the last layer of the network
 
-$a_y$ is the last layer of the network
+to maximize $\Delta \mathcal L$, $\Delta a_y^y = (\delta \mathcal L - \delta a_y^y)$, see [[gradient]]
 
-to maximize $\Delta \mathcal L$, $\Delta a_y^y = (a_y^y \rightarrow \delta \mathcal L - \delta a_y^y)\ a_y^y$, see [[gradient]]
-
-written differently, $\Delta a_y = (\delta a_y^y \rightarrow \delta \mathcal L - \delta a_y)\ a_y$
+written differently, $\Delta a_y = (\delta \mathcal L - \delta a_y)$
 
 ## computing changes in weight
 
@@ -40,9 +37,11 @@ $\delta a_j^j - \delta z_j^j = (\delta\ g\ z_j^j - \delta z_j^j)$, where $g$ is 
 
 therefore, $\delta a_j^j - \delta w_{k \to j}^{j, k} = a_k^k \mid (\delta\ g\ z_j^j - \delta z_j^j)$
 
-to maximize $\Delta L$, $\Delta w_{k \to j}^{j, k} = a_k^k \mid (z_j^j \rightarrow \delta\ g\ z_j^j - \delta z_j^j)\ z_j \mid \Delta a_j^j$, see [[gradient]]
+to maximize $\Delta L$, $\Delta w_{k \to j}^{j, k} = a_k^k \mid (\delta\ g\ z_j^j - \delta z_j^j) \mid \Delta a_j^j$, see [[gradient]]
 
-written differently, $\Delta w_{k \to j} = \Delta a_j\ \mathring\shortmid\ g'\ z_j\ \dot\mid\ {a_k}^{\intercal}$, see [[hadamard product]], [[dot product]]
+written using an [[outer product]], $\Delta w_{k \to j} = (\Delta a_j \mid g'\ z_j)\ \dot\mid\ a_k$, see [[hadamard product]], [[outer product]]
+
+written using [[matrix#multiplication]], $\Delta w_{k \to j} = (\Delta a_j \mid g'\ z_j) \mid {a_k}^{\intercal}$, see [[hadamard product]], [[matrix#multiplication]] #todo mm
 
 ## computing changes in activation
 
@@ -56,9 +55,9 @@ $\delta a_j^j - \delta z_j^j = (\delta\ g z_j^j - \delta z_j^j)$, where $g$ is t
 
 therefore, $\delta a_j^j - \delta a_k^k = w_{k \to j}^{j, k} \mid (\delta\ g\ z_j^j - \delta z_j^j)$
 
-to maximize $\Delta L$, $\Delta a_k^k = w_{k \to j}^{j, k} \mid (z_j^j \rightarrow \delta\ g\ z_j^j - \delta z_j^j)\ z_j \mid \Delta a_j^j$ summed over all $j$ , see [[gradient]]
+to maximize $\Delta L$, $\Delta a_k^k = w_{k \to j}^{j, k} \mid (\delta\ g\ z_j^j - \delta z_j^j) \mid \Delta a_j^j$ summed over all $j$ , see [[gradient]]
 
-written differently, $\Delta a_j = {w_{k \to j}}^{\intercal}\ \dot\mid\ \Delta a_j\ \mathring\shortmid\ g'\ z_j$, see [[hadamard product]], [[dot product]]
+written using [[matrix#multiplication]], $\Delta a_j = {w_{k \to j}}^{\intercal}\ \mid (\Delta a_j \mid g'\ z_j)$, see [[hadamard product]], [[matrix#multiplication]] #todo mm
 
 ## propagating the gradient
 
@@ -68,12 +67,10 @@ $\Delta w_{k \to j}$ are averaged through a fixed-size batch of training example
 
 then,
 
-$w'_{k \to j} = w_{k \to j} : \alpha \shortmid \Delta w_{k \to j}$, where
+$w'_{k \to j} = w_{k \to j} : \alpha\ \Delta w_{k \to j}$, where
 
-$w_{k \to j}$ are the original weights from layer $j$ to layer $k$
-
-$w'_{k \to j}$ are the updated weights from layer $j$ to layer $k$
-
-$\alpha$ is the _learning rate_ of the network
+- $w_{k \to j}$ are the original weights from layer $j$ to layer $k$
+- $w'_{k \to j}$ are the updated weights from layer $j$ to layer $k$
+- $\alpha$ is the _learning rate_ of the [[neural network]]
 
 &mdash; <https://youtu.be/w8yWXqWQYmU?t=627>

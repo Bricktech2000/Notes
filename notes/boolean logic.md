@@ -8,7 +8,7 @@
 
 boolean expressions can be simplified to a different but logically equivalent expression using [[boolean logic]] through [[boolean logic#operators]], or alternatively visually using [[karnaugh map]]s or [[truth table]]s
 
-> #todo the correspondence between [[boolean logic]] and [[operator]]s on [[real]]s is a lattie. &mdash; Terramorpha
+> #todo the correspondence between [[boolean logic]] and [[operator]]s on [[real]]s is a lattice. &mdash; Terramorpha
 >
 > $\land A \vdash B$
 >
