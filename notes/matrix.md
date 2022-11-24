@@ -8,9 +8,23 @@
 
 $\begin{bmatrix}a & b \\\ c & d\end{bmatrix}$
 
-## Multiplication by Scalar
+## Vector Space
 
-**see** [[matrix vector space]], [[vector space]]
+**notation**
+
+the [[vector space]] of $m$ by $n$ [[matrix]]es is denoted as follows:
+
+_in my [[math notation]]_
+
+$\mathbb M^{m, n}$
+
+_in [[math notation]]_
+
+$M_{m\ n}(\mathbb R)$
+
+### Multiplication by Scalar
+
+**see** [[vector]], [[vector space]]
 
 **definition**
 
@@ -20,15 +34,15 @@ $kA$
 
 _commutativity with [[scalar]]s_ $kA = Ak$
 
-## Addition
+### Addition
 
-**see** [[matrix vector space]], [[vector space]]
+**see** [[vector]], [[vector space]]
 
 **definition**
 
 $A : B$
 
-## Multiplication
+### Multiplication
 
 #todo mm
 
@@ -90,7 +104,7 @@ $AI = A \land IA = A \dashv \mathbb M A$
 
 ## Zero Matrix
 
-**see** [[matrix vector space]], [[vector space]]
+**see** [[vector]], [[vector space]]
 
 **definition**
 
@@ -126,9 +140,11 @@ $rank\ A$, where
 
 > **example** let $M = \begin{bmatrix}1 & 2 & 3 \\\ 4 & 5 & 6\end{bmatrix}$. then, $\mathbb M^{2, 3} M \land \#\ M = 2 \mid 3 = 6$
 
-## Vector Spaces
+## Null Space
 
-_Null Space (Nullspace, Kernel), Column Space, Row Space_
+## Column Space
+
+## Row Space
 
 **notations**
 
@@ -150,7 +166,7 @@ _row space_ $Row\ A = \operatorname{span} A^{n,} \dashv \mathbb N n$
 
 **theorems**
 
-the Null Space, Row Space and Column Space of a [[matrix]] are always [[vector space]]s
+the [[matrix#null space]], [[matrix#row space]] and [[matrix#column space]] of a [[matrix]] are always [[vector space]]s
 
 $\text{number of free variables in } A : \text{number of pivots in } A = \text{number of columns in } A$
 
@@ -172,19 +188,19 @@ $Col\ A = Row\ A^\intercal \land Row\ A = Col\ A^\intercal \dashv \mathbb M A$, 
 
 **applications**
 
-row spaces can be used to find a [[basis]] for a [[span]]ning [[set]] of vectors through [[row reduction]]
+[[matrix#row space]]s can be used to find a [[basis]] for a [[span]]ning [[set]] of [[vector]]s through [[row reduction]]
 
-the [[basis]] for the row space of a [[matrix]] can be found by applying [[row reduction]] and [[span]]ning the **row-reduced columns** in the [[REF]] form of the [[matrix]]
+the [[basis]] for a [[matrix#row space]] can be found by applying [[row reduction]] and [[span]]ning the **row-reduced columns** in the [[REF]] form of the [[matrix]]
 
-the [[basis]] for the column space of a [[matrix]] can be found by applying [[row reduction]] and [[span]]ning the **original columns** that became pivots in the [[REF]] form of the [[matrix]]
+the [[basis]] for a [[matrix#column space]] of a [[matrix]] can be found by applying [[row reduction]] and [[span]]ning the **original columns** that became pivots in the [[REF]] form of the [[matrix]]
 
 the same can be said for $Col\ A$
 
-> **example** _transforming a [[vector space]] into the null space of a certain [[matrix]]_
+> **example** _transforming a [[vector space]] into the [[matrix#null space]] of a certain [[matrix]]_
 >
 > let $W = \operatorname{span} \braket{\braket{\ (1, 0, 0, 1), (1, 1, 1, 0), (2, 1, \cdot 1, 1)\ }}$
 >
-> after solving the [[linear system]], we get $W\ (x, y, z, w) \equiv \cdot x : y : w = 0$. therefore, $W$ is the null space of $A = \begin{bmatrix}\cdot 1 & 1 & 0 & 1\end{bmatrix}$
+> after solving the [[linear system]], we get $W\ (x, y, z, w) \equiv \cdot x : y : w = 0$. therefore, $W$ is the [[matrix#null space]] of $A = \begin{bmatrix}\cdot 1 & 1 & 0 & 1\end{bmatrix}$
 
 ## Diagonal
 

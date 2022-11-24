@@ -28,7 +28,7 @@ _studying [[vector space]]s_
 
 [[vector in rn]], [[normal vector]], [[matrix]]
 
-[[span]]s, [[zero space]], [[basis]]
+[[span]]s, [[basis]]
 
 **related**
 

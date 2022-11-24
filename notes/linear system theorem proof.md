@@ -26,7 +26,7 @@
 >
 > - $5 \to 6$
 >
->   the [[matrix|null-space]] of $A$ is the [[zero space]] $\to$ the [[vector space#dimension]] of the [[zero space]] is $0$
+>   the [[matrix#null space]] of $A$ is the zero space $\to$ the [[vector space#dimension]] of the zero space is $0$
 >
 > - $6 \to 7$
 >

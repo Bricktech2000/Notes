@@ -1,26 +1,24 @@
 # Vector
 
-vectors can form [[vector space]]s
+**see** [[math notation]]
+
+[[vector]]s can form [[vector space]]s
 
 **types**
 
-[[vector in rn]], see [[vector in rn vector space]]
+[[vector in rn]]s
 
-[[matrix]], see [[vector in rn vector space]]
+[[matrix]]es
 
-[[function]]s, see [[function vector space]]
+[[function]]s
 
-[[polynomial]]s, see [[polynomial vector space]]
+[[polynomial]]s
 
-[[ordered pair]]s, see [[ordered pair vector space]]
+[[ordered pair]]s
 
-[[eigen#space]], see [[eigen#space]]
-
-**see** [[zero space]]
+[[eigen#vector]]s
 
 **properties**
-
-**see** [[math notation]]
 
 let $\mathbb R^n (u, v, w) \dashv \mathbb N n$
 

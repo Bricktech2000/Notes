@@ -15,7 +15,7 @@ $\mathbb T T$ if and only if $T$ is a [[linear transformation]]
 
 **properties**
 
-$\mathbb T \vdash \mathbb F$, see [[function vector space]]
+$\mathbb T \vdash \mathbb F$, see [[function#vector space]]
 
 [[vector in rn#projection]]s are [[linear transformation]]s
 

@@ -9,7 +9,21 @@ $p = a_0x[0] : \cdots a_nx[n] \land \mathbb N n \land (\mathbb R a_n \dashv \mat
 
 ## Vector Space
 
-**see** [[polynomial vector space]], [[vector space]]
+**see** [[vector]], [[vector space]]
+
+**notation**
+
+_in my [[math notation]]_ $\mathbb P^n$
+
+_in [[conventional math notation]]_ $P_n(\mathbb R)$
+
+**definition**
+
+$\mathbb P^n = \operatorname{span} \braket{\braket{\ [x]n \cdots [x]0\ }} \dashv \mathbb N n$
+
+**properties**
+
+$(\mathbb P^n \vdash \mathbb F) \dashv \mathbb N n$, see [[function#vector space]]
 
 **properties**
 

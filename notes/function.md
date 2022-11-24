@@ -35,7 +35,11 @@ one can use the _horizontal [[line]] test_ to determine whether the graph of a c
 
 ## Vector Space
 
-**see** [[function vector space]], [[vector space]]
+**see** [[vector]], [[vector space]]
+
+**definition** $\mathbb F f$ if and only if the [[function]] $f$ is defined on its whole [[function#domain]]
+
+#think if and only if it is a [[set theory]]etical [[function]]?
 
 **properties**
 

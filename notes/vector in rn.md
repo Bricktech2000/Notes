@@ -22,7 +22,7 @@ _negation_ $\cdot(a, b) \equiv (\cdot a, \cdot b)$
 
 ## Vector Space
 
-**see** [[vector in rn vector space]], [[vector space]]
+**see** [[vector]], [[vector space]]
 
 **properties**
 

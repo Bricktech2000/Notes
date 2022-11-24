@@ -2,7 +2,19 @@
 
 **see** [[vector]], [[vector in rn]], [[matrix]], [[math notation]], [[basis]]
 
-**types** **see** [[vector]]
+**types**
+
+[[vector in rn#vector space]]
+
+[[matrix#vector space]]
+
+[[function#vector space]]
+
+[[polynomial#vector space]]
+
+[[ordered pair#vector space]]
+
+[[eigen#space]]
 
 **examples**
 
@@ -68,7 +80,7 @@ let $V\ \braket{\braket{v_0 \cdots v_m}}$. if $U = \operatorname{span} \braket{\
 
 #todo **equivalence** with [[category]]
 
-#todo **equivalence** with [[polynomial vector space]]
+#todo **equivalence** with [[polynomial#vector space]]
 
 **see** [[category]], [[category theory]]
 
