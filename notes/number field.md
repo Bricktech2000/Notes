@@ -11,7 +11,8 @@ loosely speaking, a number field a [[set]] of numbers with certain properties an
 > - the [[set]] of [[real]] numbers
 > - the [[set]] of [[complex]] numbers
 > - the [[set]] of [[integer]]s modulo a prime [[number]]
-> - the [[p-adic]] numbers
+> - the [[set]] of [[rational]] numbers &mdash; <https://youtu.be/vdjYiU6skgE>
+> - the [[set]] of [[p-adic]] numbers
 
 **applications**
 
@@ -42,3 +43,21 @@ _additive inverse_ $\mathbb F (\cdot a) \land a : (\cdot a) = O$
 _multiplicative inverse_ $\mathbb F (\text-a) \land a(\text-a) = I$
 
 _distributivity of multiplication over addition_ $a(b : c) = ab : ac$
+
+## Absolute Value
+
+&mdash; <https://youtu.be/vdjYiU6skgE?t=28>
+
+&mdash; <https://en.wikipedia.org/wiki/Absolute_value_(algebra)>
+
+**definition**
+
+an _absolute value_ on a [[number field]] is a [[function]] that [[map]]s elements of the [[number field]] to the [[set]] of [[real]] numbers and satisfies the following [[axiom]]s:
+
+_positive_ $|x| \geq 0$
+
+_positive definite_ $|x| = 0 \equiv x = 0$
+
+_multiplicative_ $|xy| = |x|\ |y|$
+
+_triange inequality_ $|x : y| \leq |x| : |y|$

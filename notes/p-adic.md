@@ -14,11 +14,11 @@ the [[real]] numbers can only have finitely many digits to the left of the decim
 
 $\mathbb Q^p \vdash \mathbb U$ for any prime $p$, see [[universal]]
 
-the [[p-adic]]s are a completion of the [[rational]]s just like the [[real]]s are a completion of the [[rational]]s
+the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the [[p-adic#absolute value]] [[metric space#metric]]. see [[real]]
 
-$(\dots 99999) : (\dots 00001) = (\dots 00000) = 0$ and therefore $(\dots 99999) = \cdot 1$. gererally, all negative [[integer]]s are present in the [[p-adic]] numbers
+$\dots 99999 : \dots 00001 = \dots 00000 = 0$ and therefore $\dots 99999 = \cdot 1$. gererally, all negative [[integer]]s are present in the [[p-adic]] numbers
 
-$(\dots 66667) \mid (\dots 00003) = (\dots 00001) = 1$ and therefore $(\dots 66667) = -3$. gererally, all [[rational]]s are present in the [[p-adic]] numbers (but only some [[rational]]s are present in the [[p-adic]] integers) &mdash; <https://math.stackexchange.com/questions/3876767/are-rational-numbers-also-p-adic-numbers>
+$\dots 66667 \mid \dots 00003 = \dots 00001 = 1$ and therefore $\dots 66667 = -3$. gererally, all [[rational]]s are present in the [[p-adic]] numbers (but only some [[rational]]s are present in the [[p-adic]] integers) &mdash; <https://math.stackexchange.com/questions/3876767/are-rational-numbers-also-p-adic-numbers>
 
 [[p-adic]] numbers support division
 
@@ -38,12 +38,29 @@ $(\dots 66667) \mid (\dots 00003) = (\dots 00001) = 1$ and therefore $(\dots 666
 
 ## Absolute Value
 
+> **aka** [[p-adic]] metric
+
+**see** [[number field#absolute value]], [[real#absolute value]]
+
 [[real]]s are close when their first few digits are the same. [[p-adic]]s are close when their last few base-$p$ digits are the same, see [[positional numeral system]]
+
+**notation**
+
+$|n|^p$ with $\mathbb Q^p n$
 
 **definition**
 
-$|n|^p = 1 - \text{highest power of \(p\) that divides \(n\)}$
+$|n|^p = -p[\psi\ n\ p]$, where
+
+- $p[\psi\ n\ p]$ is the highest power of $p$ that divides $n$, see [[psi function in mat2348]]
+- $|n|^p$ is the [[p-adic#absolute value]] of $n$
 
 > **example** $|1000|^{10} = -1000 = 0.001$
 
-> **example** $||^p\ \ \vdots\ \ (p[n]\ \ \vdots\ \ n \rightarrow \infty) = 0$ for any $p$
+> **example** $p$-adically, $p[n]\ \ \vdots\ \ n \rightarrow \infty = 0$
+
+> **example** $2$-adically, $1 : 2 : 4 : 8 : \cdots = \dots 11111 = \cdot 1$. more generally, $p0 :  p1 : \cdots = \cdot 1$
+
+> **note** for the [[p-adic#absolute value]] to follow the [[number field#absolute value]] [[axiom]]s, $|0|^p = 0$ for all $p$ &mdash; <https://youtu.be/vdjYiU6skgE?t=407>
+
+> **note** in contrast to the [[real#absolute value]], the [[p-adic#absolute value]] only returns a "discrete" [[set]] of values $x \rightarrow x = p[n] \land \mathbb Z n \lor x = 0$ &mdash; <https://youtu.be/vdjYiU6skgE?t=407>

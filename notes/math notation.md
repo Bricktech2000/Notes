@@ -175,6 +175,7 @@ _in order of high to low precedence_
 | definition of the [[cartesian product]]     | $x\ \dot,\ y$                                                           | $\displaystyle x \times y = \lbrace (x, y) \mid x \in X \text{ and } y \in Y \rbrace$                    |
 | definition of [[vector in rn#magnitude]]    | $\lfloor :\! v2 \rfloor$                                                | $\displaystyle \vert v \vert = \sqrt{x^2 + y^2 + \dots}$ with $v = (x, y, \dots)$                        |
 | definition of [[set]] difference            | $A / B \equiv A \land \times B$                                         | $\displaystyle A \setminus B = \{x \in A : x \notin B\}$                                                 |
+| the [[p-adic#absolute value]]               | $\vert n \vert^p = -p[\psi\ n\ p]$                                      | not really doable in a concise way without using plain English                                           |
 
 definition of the [[boolean logic#implication]] / [[set#subset]] / [[set#superset]] / [[quantifier#universal quantifier]] in this [[math notation]]: $a \vdash b \equiv /a \lor b$ and $a \dashv b \equiv a \lor /b$
 

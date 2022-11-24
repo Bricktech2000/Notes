@@ -98,7 +98,7 @@ multiplying by the conjugate can be used to reduce an expression such as $- 4 : 
 
 **definition** $|z| = \lfloor z^{re}2 : z^{im}2 \rfloor$ where $|z|$ is the _absolute value_ of $z$.
 
-> **note** the absolute value of [[real]]s can be thought of as "the [[distance]] of a point to the origin", which is why the absolute value of [[complex]] numbers is defined this way
+> **note** the [[real#absolute value]] can be thought of as "the [[distance]] of a point to the origin", which is why the absolute value of [[complex]] numbers is defined this way
 
 **properties**
 

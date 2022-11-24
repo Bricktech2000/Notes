@@ -129,6 +129,8 @@ _what_ represents the item itself
 
 [[goals and risk]]
 
+[[metric space]]
+
 **finance**
 
 [[education]] system issues
@@ -320,3 +322,5 @@ _what_ represents the item itself
 [[nervous system]]
 
 [[hypnosis]]
+
+[[metric space]]

@@ -58,7 +58,9 @@ $V - |V| = (\cos \theta, \sin \theta)$, where
 - $V$ is the vector to find the direction of
 - $\theta$ is the angle of the vector
 
-## angles between two vectors
+## Angle
+
+_angle between two [[vector in rn]]s_
 
 **see** [[dot product]], [[cross product]], #magic
 

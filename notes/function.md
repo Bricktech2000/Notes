@@ -334,7 +334,7 @@ a [[function]] can be proven to be surjective by proving one can construct an in
 
 > **example** _proving a function is not surjective_
 >
-> let $y = f\ m\ n = |n|$. $y = \cdot 1$ would cause a [[contradiction]] as the absolute value of an [[integer]] is always a positive [[integer]]. therefore, the [[function]] is not surjective
+> let $y = f\ m\ n = |n|$. $y = \cdot 1$ would cause a [[contradiction]] as the [[real#absolute value]] of an [[integer]] is always a positive [[integer]]. therefore, the [[function]] is not surjective
 
 > **example** _proving a function is surjective_
 >
