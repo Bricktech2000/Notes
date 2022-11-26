@@ -50,11 +50,11 @@ $d^n f$ would then be the $n$ th [[derivative]] of $f\ x$ with respect to $x$
 
 let $f$ be a [[function]] differentiable at $p \equiv (x \cdots)$ and let $v$ be a **[[vector in rn#unit vector]]**. then,
 
-$D^v\ f\ p = \delta\ f\ p - \delta p\ \dot\mid\ v$, where
+$D^v\ f\ p =\ :\! v (\delta\ f\ p - \delta p)$, where
 
 - $D^v\ f\ p$ is the [[derivative]] of $f$ in direction $v$ at $p$
 - $\delta\ f\ p - \delta p$ is the [[gradient]] of $f$ at $p$
-- $v$ is the direction [[vector in rn]]
+- $v$ is the direction [[vector in rn]], see [[dot product]]
 
 > **examples**
 >

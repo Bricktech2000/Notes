@@ -27,7 +27,7 @@ one can use the _horizontal [[line]] test_ to determine whether the graph of a c
 
 [[functional programming]]
 
-[[function vector space]]
+[[function#vector space]]
 
 [[loss function]] in [[neural network]]s
 

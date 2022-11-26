@@ -10,7 +10,7 @@
 
 **applications**
 
-[[hash]] [[function]]s used in [[cryptography]]
+[[hash]] [[function]]s are used in [[cryptography]]
 
 ## Collision
 

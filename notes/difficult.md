@@ -8,7 +8,7 @@ it seems that things we qualify as _[[difficult]]_ are [[difficult]] because the
 
 whenever something is [[difficult]], we should ask ourselves _why is this [[difficult]]?_ and _what is the benefit of doing this?_. answering these questions allows us to be [[intention]]al about our direction in life and not be manipulated by the short-term desires of our subconscious, see [[subconscious manipulation]]
 
-> **examples** _difficult things &mdash; with explanations_
+> **examples** _difficult things &mdash; with [[intention]]al rationale_
 >
 > - forming good [[habit]]s &mdash; they have low short-term reward but high long-term reward, which can make them feel [[difficult]] in the moment
 > - [[learning]] techniques &mdash; they seek to make learning [[difficult]], but what that means is that our [[brain]] is being forced to use more [[energy]], which improves our [[learning]] and [[memory]]

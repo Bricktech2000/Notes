@@ -1,4 +1,4 @@
-# Intentional
+# Intention
 
 _the importance of [[intention]]ality in everyday choices_
 

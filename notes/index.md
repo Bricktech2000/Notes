@@ -19,17 +19,3 @@
 [[outdated]]
 
 [[random]]
-
-## #todo
-
-### #todo reformulate
-
-[[reliable source]], [[finding sources]], [[writing a report]], [[referencing sources]], [[type of source]], [[professional email]]
-
-[[molecular geometry]]
-
-[[passive and active voice]]
-
-### #todo other
-
-fix [[vector]] spaces in seperate notes

@@ -17,7 +17,7 @@ this [[math notation]] obviously cannot be used to communicate ideas to people w
 - all indices start at $0$, as they always should have
 - [[rank polymorphism]] is supported over all [[operator]]s
 
-## notation
+## Notation
 
 also see [[trigonometric function]]s, [[hyperbolic function]]s and [[calculus notation]]
 
@@ -119,7 +119,7 @@ let:
 | $e$           | Euler's constant                                             | see [[eulers constant]]                     |
 | $\iota$       | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]], using $i$ is discouraged |
 | $\Pi$         | the [[pi function]]                                          | using $\operatorname{fact}$ is discouraged  |
-| $\#$          | the size of the range of a [[function]]                      |                                             |
+| $\#$           | the size of the range of a [[function]]                      |                                             |
 | $\psi$        | the [[multiset]] of prime factors of a [[natural]]           | see [[psi function in mat2348]]             |
 
 ### operator properties

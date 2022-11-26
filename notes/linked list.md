@@ -26,8 +26,8 @@ graph LR
 
 ```mermaid
 graph LR
- A(HEAD) --> B(element) --> C(element) --> D(element) --> E(TAIL)
- E --> D --> C --> B --> A
+  A(HEAD) --> B(element) --> C(element) --> D(element) --> E(TAIL)
+  E --> D --> C --> B --> A
 ```
 
 **applications**

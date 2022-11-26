@@ -2,15 +2,19 @@
 
 **see**
 
-operators in [[boolean logic]]
+[[boolean logic#operators]]
 
-operators in my [[math notation]]
+[[math notation#notation]]
 
-operators in [[lambda calculus]]
+[[lambda calculus#syntax]]
 
-operators in [[type theory]]
+[[type theory]] operators
+
+[[category theory]] operators
 
 [[set]] operators
+
+[[multiset]] operators
 
 [[logarithm]]s
 
@@ -26,7 +30,7 @@ operators in [[type theory]]
 
 [[outer product]]
 
-#todo fix notation for the following operators and fix all dot products and matrix products
+#todo fix notation for the following operators
 
 [[cross product]]
 
