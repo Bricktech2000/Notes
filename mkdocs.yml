@@ -1,6 +1,5 @@
 site_name: Emilien Breton&nbsp;&nbsp;|&nbsp;&nbsp;Notes
 repo_url: https://github.com/Bricktech2000/Notes/
-dev_addr: 127.0.0.1:3030
 docs_dir: mkdocs
 
 markdown_extensions:

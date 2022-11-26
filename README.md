@@ -2,7 +2,7 @@
 
 A repository of my conceptual notes
 
-[View Notes](notes/index.md)
+[View Published Notes](https://notes.emilien.ca/)
 
 ## Taking Notes
 
@@ -30,4 +30,15 @@ Taking notes conceptually allows you to build on top of your older notes and mak
 
 ## Conventions
 
-For conventions on writing notes, see the [conventions](notes/conventions.md) page.
+For conventions on writing notes, see the [conventions](https://notes.emilien.ca/conventions) page.
+
+## Publishing
+
+The publishing workflow for my conceptual notes requires [Obsidian Export](https://github.com/zoni/obsidian-export) and [mkdocs](https://www.mkdocs.org/).
+
+Once installed, run the following command:
+
+```bash
+rm mkdocs/*.md; obsidian-export notes mkdocs && mkdocs build
+cd site && python3 -m http.server
+```

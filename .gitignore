@@ -7,3 +7,4 @@ mkdocs/*
 !mkdocs/srcs.howto.txt
 !mkdocs/script.js
 !mkdocs/styles.css
+site
