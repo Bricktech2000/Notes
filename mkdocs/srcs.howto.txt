@@ -1,0 +1,14 @@
+https://github.com/zoni/obsidian-export
+https://towshif.github.io/site/04.Organizing-Reporting/markdown_publishing/
+https://www.mkdocs.org/getting-started/
+https://stackoverflow.com/questions/27882261/mkdocs-and-mathjax
+https://docs.mathjax.org/en/latest/input/tex/extensions/braket.html
+https://docs.mathjax.org/en/v3.2-latest/web/configuration.html
+https://squidfunk.github.io/mkdocs-material/creating-your-site/
+https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/
+https://fonts.google.com/specimen/Fira+Code
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-ligatures
+https://squidfunk.github.io/mkdocs-material/reference/code-blocks/
+https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
+https://www.mkdocs.org/user-guide/configuration/
+https://stackoverflow.com/questions/987142/make-gitignore-ignore-everything-except-a-few-files

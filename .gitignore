@@ -2,3 +2,8 @@
 notes/NOTES_JOINED.md
 notes/NOTES_JOINED.pdf
 notes/NOTES_JOINED.html
+
+mkdocs/*
+!mkdocs/srcs.howto.txt
+!mkdocs/script.js
+!mkdocs/styles.css

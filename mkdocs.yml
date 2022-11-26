@@ -1,0 +1,32 @@
+site_name: Emilien Breton&nbsp;&nbsp;|&nbsp;&nbsp;Notes
+repo_url: https://github.com/Bricktech2000/Notes/
+dev_addr: 127.0.0.1:3030
+docs_dir: mkdocs
+
+markdown_extensions:
+  - extra
+  - tables
+  - fenced_code
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+  font:
+    code: Fira Code
+  features:
+    # - navigation.instant # breaks MathJax
+    - navigation.tracking
+    - toc.follow
+    - toc.integrate 
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+extra_javascript:
+  - script.js
+extra_css:
+  - styles.css

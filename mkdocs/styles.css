@@ -1,0 +1,12 @@
+* {
+  font-variant-ligatures: normal !important;
+}
+
+[data-md-color-scheme='slate'] {
+  --md-default-bg-color: #000000 !important;
+  --md-default-fg-color: #dddddd !important;
+  --md-typeset-a-color: #888888 !important;
+  --md-accent-fg-color: #aaaaaa !important;
+
+  --md-primary-fg-color: var(--md-footer-bg-color) !important;
+}
