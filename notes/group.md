@@ -65,7 +65,7 @@ $\cdot \smash\cdot a = a$
 
 **definition** the _order_ of a [[group]] $G$ is the number of elements in the [[group]]
 
-**notation** _in my [[math notation]]_ $\#G$
+**notation** _in my [[math notation]]_ $\# G$
 
 ## Subgroup
 

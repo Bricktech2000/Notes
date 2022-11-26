@@ -17,8 +17,8 @@ document.head.appendChild(script);
 const main = document.querySelector('.md-main');
 // const main = document.body; // breaks search feature in material theme
 main.innerHTML = main.innerHTML
-  .replace(/\n([^\n\$]*?(\$.*?\$)*?\$[^\n\$]*?)#/g, '$1\\#')
-  .replace(/\n([^\n\$]*?(\$.*?\$)*?\$[^\n\$]*?)!/g, '$1\\!')
+  .replace(/#(\\? |\$)/g, '\\#$1')
+  .replace(/!(\\? |\$)/g, '\\!$1')
   .replace(/\\&lt;/g, '&lt;');
 
 console.log('MathJax loaded');

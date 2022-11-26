@@ -18,17 +18,13 @@ $\delta\ f\ p - \delta p = (\delta\ f\ p - \delta p^0, \delta\ f\ p - \delta p^1
 
 **notations**
 
-_Lagrange's notation_
-
-**see** [[conventional math notation]]
+_[[conventional math notation]] Lagrange's notation_
 
 $f'(x)$, $f''(x)$, $f'''(x)$
 
 $f^{(n)}(x)$
 
-_Leibniz's Notation_
-
-**see** [[conventional math notation]]
+_[[conventional math notation]] Leibniz's Notation_
 
 $\frac{d}{dx}f(x) = \frac{df}{dx}$
 

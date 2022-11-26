@@ -119,7 +119,7 @@ let:
 | $e$           | Euler's constant                                             | see [[eulers constant]]                     |
 | $\iota$       | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]], using $i$ is discouraged |
 | $\Pi$         | the [[pi function]]                                          | using $\operatorname{fact}$ is discouraged  |
-| $\#$           | the size of the range of a [[function]]                      |                                             |
+| $\#$          | the size of the range of a [[function]]                      |                                             |
 | $\psi$        | the [[multiset]] of prime factors of a [[natural]]           | see [[psi function in mat2348]]             |
 
 ### operator properties
