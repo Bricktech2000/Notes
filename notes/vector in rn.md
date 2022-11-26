@@ -1,10 +1,10 @@
 # Vector in Rn
 
-_Vectors in $\mathbb R^n$._
+_Vectors in $\mathbb R^n$_
 
 **see** [[math notation]], [[math notation]], [[vector]] properties
 
-**definition** a _vector in $\mathbb R^n$._ is an ordered collection of elements that do not have to be unique
+**definition** a _vector in $\mathbb R^n$_ is an ordered collection of elements that do not have to be unique
 
 **definition** _formally in my [[math notation]]_ a [[vector]] in $\mathbb R^n$ is a [[set theory]]etical [[function]] with [[function#domain]] at least $x \rightarrow \mathbb N x \land 0 \le x < n$ that takes an index and returns the element at that index
 
@@ -76,7 +76,7 @@ $\sin \theta = a\ \check\mid\ b - |a|\ |b|$, see [[cross product]]
 
 ### Orthogonal Vectors
 
-_a pair of vectors offset by $90^\circ$._
+_a pair of vectors offset by $90^\circ$_
 
 **notation**
 

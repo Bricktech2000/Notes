@@ -130,7 +130,7 @@ _in order of high to low precedence_
 
 | operator                                       | associativity | unary identity | unary description     |
 | ---------------------------------------------- | ------------- | -------------- | --------------------- |
-| $()\ \braket{}\ \Big[\Big]\ \ x\ x_a^i$        |               |                |                       |
+| $()\ \braket{}\ \Big[ \Big]\ \ x\ x_a^i$       |               |                |                       |
 | $[]\ \lfloor\rfloor\ \lceil\rceil$             |               |                |                       |
 | $\shortmid \text-$                             | left          | $1$            | inverse               |
 | $\delta\ \sin\ \#\ \leftarrow$                 | right-ish     |                |                       |
@@ -150,7 +150,7 @@ _in order of high to low precedence_
 > - $x_a^i$ represents subscripts and superscripts
 > - $\leftarrow$ represents [[function]] application
 > - $\rightarrow$ represents [[function]] literals
-> - $\Big[\Big]$ represents [[matrix]] literals
+> - $\Big[ \Big]$ represents [[matrix]] literals
 
 > **note**: unary [[operator]]s have identical precedence to their binary counterparts, but are right associative
 

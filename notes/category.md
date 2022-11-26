@@ -74,7 +74,7 @@ any number of [[category#morphism]]s between two [[category#object]]s can exist.
 
 ### Monomorphism
 
-**definition** let $f : A \to B$, let $g_1 : C \to A$ and $g_2 : C \to A$, and let $\circ$ be the [[composition]] [[operator]]. then, $f$ is a _monomorphism from $A$ to $B$._ if and only if $f \circ g_1 = f \circ g_2 \vdash g_1 = g_2$ for all $\mathcal C(C, A)\ g_1$ and $\mathcal C(C, A)\ g_2$ and for all $C$
+**definition** let $f : A \to B$, let $g_1 : C \to A$ and $g_2 : C \to A$, and let $\circ$ be the [[composition]] [[operator]]. then, $f$ is a _monomorphism from $A$ to $B$_ if and only if $f \circ g_1 = f \circ g_2 \vdash g_1 = g_2$ for all $\mathcal C(C, A)\ g_1$ and $\mathcal C(C, A)\ g_2$ and for all $C$
 
 > **note** this definition works because if $f$ mapped two different [[category#object]]s in $A$ to the same [[category#object]] in $B$, then there could exist two different [[category#morphism]]s $g_1$ and $g_2$ that would map elements of $C$ to $A$ differently which could then be mapped identically to $B$ by $f$
 
@@ -84,7 +84,7 @@ monomorphisms are [[category#morphism]]s that are injective, see [[function#inje
 
 ### Epimorphism
 
-**definition** let $f : A \to B$, let $g_1 : B \to C$ and $g_2 : B \to C$, and let $\circ$ be the [[composition]] [[operator]]. then, $f$ is an _epimorphism from $A$ to $B$._ if and only if $g_1 \circ f = g_2 \circ f \vdash g_1 = g_2$ for all $\mathcal C(B, C)\ g_1$ and $\mathcal C(B, C)\ g_2$ and for all $C$
+**definition** let $f : A \to B$, let $g_1 : B \to C$ and $g_2 : B \to C$, and let $\circ$ be the [[composition]] [[operator]]. then, $f$ is an _epimorphism from $A$ to $B$_ if and only if $g_1 \circ f = g_2 \circ f \vdash g_1 = g_2$ for all $\mathcal C(B, C)\ g_1$ and $\mathcal C(B, C)\ g_2$ and for all $C$
 
 > **note** this definition works because if the [[function#range]] $R$ of $f$ was a [[set#subset]] of its [[function#domain]] $B$, then there could exist two different [[category#morphism]]s $g_1$ and $g_2$ that would map elements in $R$ identically but would map elements in $B / R$ differently
 

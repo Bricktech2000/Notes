@@ -112,19 +112,18 @@ because of the way the compiler is currently built, maintenance to core [[rust]]
 **representation**
 
 ```mermaid
-graph TD;
+graph TD
+  A(2015 Edition<br>Source Code)
+  B(2018 Edition<br>Source Code)
+  A_HIR(High-Level IR)
+  B_HIR(High-Level IR)
+  MIR(Mid-Level IR<br><em>core functionality</em>)
+  LLVM_IR(LLVM IR)
+  MACHINE_CODE(Machine Code)
 
-A(2015 Edition<br>Source Code)
-B(2018 Edition<br>Source Code)
-A_HIR(High-Level IR)
-B_HIR(High-Level IR)
-MIR(Mid-Level IR<br><em>core functionality</em>)
-LLVM_IR(LLVM IR)
-MACHINE_CODE(Machine Code)
-
-A --> A_HIR --> MIR
-B --> B_HIR --> MIR
-MIR --> LLVM_IR --> MACHINE_CODE
+  A --> A_HIR --> MIR
+  B --> B_HIR --> MIR
+  MIR --> LLVM_IR --> MACHINE_CODE
 ```
 
 &mdash; <https://youtu.be/A3AdN7U24iU?t=2009>

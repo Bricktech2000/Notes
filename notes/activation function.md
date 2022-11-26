@@ -29,7 +29,7 @@ def ReLU(x):
 
 ## Tanh Function
 
-_for getting values between $\cdot 1$ and $1$._
+_for getting values between $\cdot 1$ and $1$_
 
 **see** [[hyperbolic function]]
 

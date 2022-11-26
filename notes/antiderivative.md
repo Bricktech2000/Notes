@@ -25,7 +25,7 @@ $\delta\ F\ x - \delta x = f\ x$, where
 
 ## $u$ Substitution
 
-_integrating a [[function]] by substituting $u$ for a [[function]] of $x$._
+_integrating a [[function]] by substituting $u$ for a [[function]] of $x$_
 
 _useful when the [[derivative]] of $u$ is in the integrand_
 

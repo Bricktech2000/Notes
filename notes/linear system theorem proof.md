@@ -8,7 +8,7 @@
 >
 >   each column represents a [[variable]]
 >
->   every [[variable]] is a leading variable $\to$ there is a leading $1$ in each column of the [[RREF]] of $A$
+>   every [[variable]] is a leading variable $\to$ there is a leading $1$ in each column of the [[linear system#reduced row echelon form]] of $A$
 >
 > - $2 \to 3$
 >

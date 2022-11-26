@@ -1,8 +1,8 @@
-# Self-Taught Software Developer
+# Self-Taught Software Engineer
 
 ## online visibility
 
-online visibility is very important for [[self-taught software developer]]s
+online visibility is very important for [[self-taught software engineer]]s
 
 - [x] have an up-to-date Linkedin profile
 - [x] upload all work to Github and keep it well documented
@@ -19,17 +19,17 @@ online visibility is very important for [[self-taught software developer]]s
 ### skills to learn
 
 - [x] using APIs
-- [ ] writing tests
+- [x] writing tests
 - [ ] containers (Docker, Kubernetes, etc.)
 - [ ] cloud computing (AWS, GCP, etc.)
-- [ ] [[data structure]]s and [[algorithm]]s
+- [x] [[data structure]]s and [[algorithm]]s
 - [x] source control (Git, Github, etc.)
 - [ ] databases (MySQL, PostgreSQL, etc.)
 - [x] Linux (UNIX)
 
 ## portfolio
 
-[[self-taught software developer]]s need a great portfolio as they do not have a degree to back their skills up
+[[self-taught software engineer]]s need a great portfolio as they do not have a degree to back their skills up
 
 - [x] have a good readme for projects
 - [ ] make projects interactive

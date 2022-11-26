@@ -1,24 +1,28 @@
 window.MathJax = {
+  loader: { load: ['[tex]/braket'] },
   tex: {
-    inlineMath: [['$', '$']],
+    packages: { '[+]': ['braket'] },
+    inlineMath: [['\\(', '\\)']],
+    displayMath: [['\\[', '\\]']],
+    processEscapes: true,
+    processEnvironments: true,
   },
-  svg: {
-    fontCache: 'global',
+  options: {
+    ignoreHtmlClass: '.*|',
+    processHtmlClass: 'arithmatex',
   },
-  messageStyle: 'none',
 };
 
-var script = document.createElement('script');
-script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js';
-script.async = true;
-document.head.appendChild(script);
+document$.subscribe(() => {
+  // fixup obsidian-export
+  const math = document.querySelectorAll('.arithmatex');
+  math.forEach((m) => {
+    m.innerHTML = m.innerHTML
+      .replace(/\\\[/g, '[')
+      .replace(/\\\]/g, ']')
+      .replace(/\\&lt;/g, '&lt;')
+      .replace(/\\_/g, '_');
+  });
 
-// fixup obsidian-export
-const main = document.querySelector('.md-main');
-// const main = document.body; // breaks search feature in material theme
-main.innerHTML = main.innerHTML
-  .replace(/#(\\? |\$)/g, '\\#$1')
-  .replace(/!(\\? |\$)/g, '\\!$1')
-  .replace(/\\&lt;/g, '&lt;');
-
-console.log('MathJax loaded');
+  MathJax.typesetPromise();
+});

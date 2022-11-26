@@ -14,7 +14,7 @@ a set of [[linear equation]]s
 
 **definition** two [[matrix]]es $A$, $B$ are _row equivalent_ $A \sim B$ if $B$ can be obtained from $A$ by a finite sequence of [[linear system#elementary operation]]s
 
-**definition** a _leading variable_ is the [[variable]] associated with a _pivot_ in a matrix in [[REF]]
+**definition** a _leading variable_ is the [[variable]] associated with a _pivot_ in a matrix in [[linear system#row echelon form]]
 
 **notation**
 
@@ -50,13 +50,13 @@ _operations that don’t change the general solution of a [[linear system]]_
 
 **definition**
 
-a [[matrix]] (augmented or not) is in [[REF]] if all:
+a [[matrix]] (augmented or not) is in [[linear system#row echelon form]] if all:
 
 - all zero rows are at the bottom
 - the first nonzero entry in each row is a $1$ (called the _pivot_) (this criterion seems to be wrong according to <https://en.wikipedia.org/wiki/Gaussian_elimination>)
 - each pivot is to the right of each pivot in all rows above
 
-> **procedure** _putting a matrix in [[REF]]_ use [[row reduction]]
+> **procedure** _putting a [[matrix]] in [[linear system#row echelon form]]_ use [[row reduction]]
 
 > **procedure** _determining the type of the general solution_
 >
@@ -68,9 +68,9 @@ a [[matrix]] (augmented or not) is in [[REF]] if all:
 
 > **aka** RREF
 
-**definition** a [[matrix]] is in [[RREF]] if all:
+**definition** a [[matrix]] is in [[linear system#reduced row echelon form]] if all:
 
-- the [[matrix]] is in [[REF]]
+- the [[matrix]] is in [[linear system#row echelon form]]
 - each pivot is the only nonzero entry in its column
 
 > **procedure** _finding the general solution_
@@ -78,7 +78,7 @@ a [[matrix]] (augmented or not) is in [[REF]] if all:
 > - if there is a unique solution, then the solution is the [[vector]] in the augmented column (ignore the $\begin{bmatrix}0 & \cdots & 0 & | & 0\end{bmatrix}$ rows, if any)
 > - else, each pivot corresponds to one row of the augmented [[matrix]]. write the equation for this row and solve for the corresponding leading [[variable]]
 
-> **procedure** _putting a [[matrix]] in [[RREF]]_ use [[row reduction]]
+> **procedure** _putting a [[matrix]] in [[linear system#reduced row echelon form]]_ use [[row reduction]]
 
 ## Augmented Matrix
 

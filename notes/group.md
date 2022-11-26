@@ -1,5 +1,7 @@
 # Group
 
+**see** [[math notation]]
+
 &mdash; <https://youtu.be/KufsL2VgELo>
 
 &mdash; <https://youtu.be/mvmuCPvRoWQ>

@@ -135,7 +135,7 @@ _what_ represents the item itself
 
 [[education]] system issues
 
-[[self-taught software developer]]
+[[self-taught software engineer]]
 
 [[finance]]
 
@@ -309,7 +309,7 @@ _what_ represents the item itself
 
 [[international system of units]]
 
-[[self-taught software developer]]
+[[self-taught software engineer]]
 
 [[verifiable random function]]
 

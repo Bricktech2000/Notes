@@ -10,8 +10,6 @@
 
 [[iti1120 introduction to computing i]]
 
-[[soc1101 principles of sociology]]
-
 ## year 1 semester 2
 
 [[iti1100 a digital systems i]]

@@ -164,8 +164,8 @@ _order matters_
 
 the number of $k$-arrangements of an $n$-set is
 
-- $P\ n\ k = \Pi\ n - \Pi\ (n \cdot k)$ with repetition forbidden. also called _.$k$-permutations_
-- $P'\ n\ k = [n]k$ with repetition allowed also called _.$k$-tuples_
+- $P\ n\ k = \Pi\ n - \Pi\ (n \cdot k)$ with repetition forbidden. also called _$k$-permutations_
+- $P'\ n\ k = [n]k$ with repetition allowed also called _$k$-tuples_
 
 ## Combination
 
@@ -175,8 +175,8 @@ _order does not matter_
 
 the number of $k$-combinations of an $n$-set is
 
-- $C\ n\ k = P\ n\ k - P\ k\ k = \Pi\ n - \Pi\ (n \cdot k) - \Pi\ k$ with repetition forbidden. also called _.$k$-subsets_
-- $C'\ n\ k = C\ (n : k \cdot 1)\ (k \cdot 1)$ with repetition allowed. also called _.$k$-multisubsets_
+- $C\ n\ k = P\ n\ k - P\ k\ k = \Pi\ n - \Pi\ (n \cdot k) - \Pi\ k$ with repetition forbidden. also called _$k$-subsets_
+- $C'\ n\ k = C\ (n : k \cdot 1)\ (k \cdot 1)$ with repetition allowed. also called _$k$-multisubsets_
 
 > **proof** _stars and bars [[proof]] sketch_
 >

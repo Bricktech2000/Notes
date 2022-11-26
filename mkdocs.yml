@@ -2,11 +2,6 @@ site_name: Emilien Breton&nbsp;&nbsp;|&nbsp;&nbsp;Notes
 repo_url: https://github.com/Bricktech2000/Notes/
 docs_dir: mkdocs
 
-markdown_extensions:
-  - extra
-  - tables
-  - fenced_code
-
 theme:
   name: material
   palette:
@@ -14,18 +9,28 @@ theme:
   font:
     code: Fira Code
   features:
-    # - navigation.instant # breaks MathJax
+    - navigation.instant
     - navigation.tracking
     - toc.follow
-    - toc.integrate 
+    - toc.integrate
+  logo: fa-solid_fa-book_white.svg
+  favicon: fa-solid_fa-book_white.svg
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 extra_javascript:
   - script.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
   - styles.css

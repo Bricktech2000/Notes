@@ -108,3 +108,5 @@ From all this emerge both philosophical and metaethical questions. Machine learn
 <cite>US Bureau of Labor Statistics (2017). 30 percent of civilian jobs require some driving in 2016. Retrieved from https://www.bls.gov/opub/ted/2017/30-percent-of-civilian-jobs-require-some-driving-in-2016.htm</cite>
 
 <cite>Zakharenko, R. (2016). Self-driving cars will change cities. Regional Science and Urban Economics, 61, 26--37. https://doi.org/10.1016/j.regsciurbeco.2016.09.003</cite>
+
+<style> p { text-indent: 40px; } blockquote > p { text-indent: 0; } hr { opacity: 0; page-break-after: always; } cite { display: inline-block; text-indent: -40px; margin-top: 1rem; font-style: inherit; text-align: justify; } </style>

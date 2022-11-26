@@ -124,7 +124,7 @@ $O_{q, m}A_{m, n} = O_{q, n} \dashv \mathbb M^{q, m} O_{q, m} \land \mathbb M^{q
 
 ## Rank
 
-_the number of pivots in any [[REF]] of the [[matrix]]_
+_the number of pivots in any [[linear system#row echelon form]] of the [[matrix]]_
 
 **notation**
 
@@ -174,7 +174,7 @@ $\dim Null\ A = \text{number of free variables in } A$
 
 $rank\ A = \text{number of pivots in } A$
 
-the nonzero rows in any [[REF]] of a [[matrix]] $A$ forms a [[basis]] for $Row\ A$. therefore, $\dim Row\ A = rank\ A$, see [[matrix#rank]]
+the nonzero rows in any [[linear system#row echelon form]] of a [[matrix]] $A$ forms a [[basis]] for $Row\ A$. therefore, $\dim Row\ A = rank\ A$, see [[matrix#rank]]
 
 if $A$ and $B$ are row-equivalent, then $Row\ A = Row\ B$, see [[linear system]]
 
@@ -190,9 +190,9 @@ $Col\ A = Row\ A^\intercal \land Row\ A = Col\ A^\intercal \dashv \mathbb M A$, 
 
 [[matrix#row space]]s can be used to find a [[basis]] for a [[span]]ning [[set]] of [[vector]]s through [[row reduction]]
 
-the [[basis]] for a [[matrix#row space]] can be found by applying [[row reduction]] and [[span]]ning the **row-reduced columns** in the [[REF]] form of the [[matrix]]
+the [[basis]] for a [[matrix#row space]] can be found by applying [[row reduction]] and [[span]]ning the **row-reduced columns** in the [[linear system#row echelon form]] of the [[matrix]]
 
-the [[basis]] for a [[matrix#column space]] of a [[matrix]] can be found by applying [[row reduction]] and [[span]]ning the **original columns** that became pivots in the [[REF]] form of the [[matrix]]
+the [[basis]] for a [[matrix#column space]] of a [[matrix]] can be found by applying [[row reduction]] and [[span]]ning the **original columns** that became pivots in the [[linear system#row echelon form]] of the [[matrix]]
 
 the same can be said for $Col\ A$
 
@@ -289,7 +289,7 @@ if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 >
 > let $\mathbb M^{n, n} A$
 >
-> solve the system $AA^- = I$ by extending the [[matrix]] with the [[matrix#identity matrix]] and solve the [[linear system]] up to [[RREF]] using [[row reduction]]. $\begin{bmatrix}A & | & I\end{bmatrix} \sim \cdots \begin{bmatrix}I & | & A^-\end{bmatrix}$
+> solve the system $AA^- = I$ by extending the [[matrix]] with the [[matrix#identity matrix]] and solve the [[linear system]] up to [[linear system#reduced row echelon form]] using [[row reduction]]. $\begin{bmatrix}A & | & I\end{bmatrix} \sim \cdots \begin{bmatrix}I & | & A^-\end{bmatrix}$
 
 > **procedure** _computing the [[matrix#inverse]] of a $2$ by $2$ [[matrix]]_
 >
@@ -362,7 +362,7 @@ a [[matrix]] is _diagonalizable_ if and only if the geometic [[eigen#multiplicit
 let $\mathbb M^{m, n}A$ (see [[matrix]]). the following [[logic statement]]s are equivalent:
 
 - every [[variable]] is a leading [[variable]]
-- there is a leading [[variable]] in every column of the [[RREF]] of $A$
+- there is a leading [[variable]] in every column of the [[linear system#reduced row echelon form]] of $A$
 - the system $Ax = O$ has a unique solution
 - the columns of $A$ are [[linearly independent]]
 - $Ker\ A = \braket{\braket{0}}$
@@ -379,7 +379,7 @@ let $\mathbb M^{n, n} A$ (see [[matrix]]). the following [[logic statement]]s ar
 
 - $rank\ A = n$
 - every [[linear system]] of the form $Ax = b$ has a unique solution
-- the [[RREF]] of $A$ is the [[matrix#identity matrix]]
+- the [[linear system#reduced row echelon form]] of $A$ is the [[matrix#identity matrix]]
 - $Ker\ A = \braket{\braket{0}}$
 - $Col\ A = \mathbb R^n$
 - $Row\ A = \mathbb R^n$

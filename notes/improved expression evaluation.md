@@ -59,7 +59,7 @@ without the additional restriction, the second equality would have solutions tha
 
 at the [[time]]stamp included in the URL above, the teacher divided both sides of the equality by the value $a \cdot b$ without adding the restriction required by the rule above. if he had added the restriction $a \cdot b \ne 0$, it would've been a [[contradiction]] with the equality $a = b$
 
-> **note**: by using the symbol $\dashv$ (_for all_, see [[math notation]]) to denote the restriction, there is technically no contradiction. the right way to think of the equation is the following: as we know the restriction is always $\bot$, the equation on the left is true _for all $\bot$._, meaning it is never true. this is crucially different form a [[contradiction]], as that would mean all other equations in the same context are rendered invalid.
+> **note**: by using the symbol $\dashv$ (_for all_, see [[math notation]]) to denote the restriction, there is technically no contradiction. the right way to think of the equation is the following: as we know the restriction is always $\bot$, the equation on the left is true _for all $\bot$_, meaning it is never true. this is crucially different form a [[contradiction]], as that would mean all other equations in the same context are rendered invalid.
 
 ### second attempt with multiplication by zero
 

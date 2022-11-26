@@ -1,6 +1,6 @@
 # P-Adic
 
-_the [[set]] of $p$-adic numbers for a given prime $p$._
+_the [[set]] of $p$-adic numbers for a given prime $p$_
 
 **see** [[math notation]]
 

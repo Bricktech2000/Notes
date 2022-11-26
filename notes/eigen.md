@@ -50,7 +50,7 @@ let $\mathbb M^{n, n} A \land \mathbb N n$
 >
 > recall that a homogeneous [[linear system]] can have either a unique solution (with $x = O$, which is not a valid [[eigen#vector]] as per the definition) or an infinite number of solutions (which we can achieve by picking the right values for $\lambda$). for a homogeneous [[linear system]] to have an infinite number of solutions, its coefficient matrix rows (and therefore columns) must be [[linearly independent]], or the [[determinant]] of its coefficient matrix must be equal to $0$, or its coefficient matrix must be invertible, etc. (see [[matrix]])
 >
-> $\det\ (A \cdot \lambda I) = 0$ (this [[polynomial]] is known as the _[[characteristic polynomial]] of $A$._)
+> $\det\ (A \cdot \lambda I) = 0$ (this [[polynomial]] is known as the _[[characteristic polynomial]] of $A$_)
 >
 > solving...
 >

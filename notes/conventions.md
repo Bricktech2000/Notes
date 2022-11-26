@@ -2,11 +2,13 @@
 
 ## general conventions
 
+see [[matrix]] and [[complex]] for examples of general conventions
+
 ### LaTeX
 
 LaTeX is used for all mathematical equations through my custom [[math notation]]
 
-[[variable]]s are defined in separate lines using a _, where_ statement
+[[variable]]s are defined in separate lines using a _, where_ statement followed by a list
 
 whitespace in formulas follow [[programming language]]-like conventions
 
@@ -16,21 +18,31 @@ the $\, : \,$ [[operator]] must always be surrounded one space on either side, o
 
 the $\rightarrow$ [[operator]] is written as `\to` by default, and must be written as `\rightarrow` when it indicates a [[math notation]] [[function]] definition
 
-when using the [[reduce function]] in my [[math notation]], the [[operator]] must be followed by a `\!`
+when using the [[reduce function]] in my [[math notation]], the [[operator]] must be followed by a `\! `
 
 `\R`, `\N`, `\Z`, `\{` and `\}` must not be used, as they are not widely supported. `\mathbb R`, `\mathbb N`, `\mathbb Z`, `\lbrace` and `\rbrace` should be used instead, respectively.
 
 `\\` must be replaced by `\\\` for them to work properly. see the following discussion: <https://github.com/mathjax/MathJax/issues/1301>
 
-when `$` do not parse properly, add a `.` when necessary. for example, write `_this is $\top$_` as `_this is $\top$._`
+more information about supported features available at <https://katex.org/docs/supported.html>
 
-more information about supported features available at: <https://katex.org/docs/supported.html>
+### Sections
 
-### headings
+capitalized headings are for [[concept]]s that can be linked to using `[[nested#wiki links]]` and lowercease headings are for general titles
 
-capitalized headings are for [[concept]]s that can be linked to using [[index|nested#wiki links]]
+some constructs, such as definitions and proofs, are very common. they are to be written as follows in markdown:
 
-lowercease headings are for general titles
+```md
+> **proof** _proof name_ this is an example of a proof used in a blockquote
+
+**definition** _definition name_ this is an example of a definition used inline
+```
+
+and they are rendered as follows:
+
+> **proof** _proof name_ this is an example of a proof used in a blockquote
+
+**definition** _definition name_ this is an example of a definition used inline
 
 the following headings are used in blockquotes:
 
@@ -58,19 +70,13 @@ the following headings are used inline:
 - **examples**
 - **procedures**
 
-> **proof** _proof name_ this is an example of a proof used in a blockquote
+### italics, bold, sources
 
-**definition** _definition name_ this is an example of a definition used inline
+italics are used for [[trick]]s and personal definitions and to replace quotation marks
 
-### quotes, italics, bold, sources, URLs
+bold is used for emphasis &mdash; italics must not be used for emphasis
 
-blockquotes are used for [[fact]]ual information and definitions
-
-italics are used for [[trick]]s and personal definitions and to replace quotation marks. bold is used for emphasis. italics must not be used for emphasis and quotation marks are to be avoided
-
-_&mdash; ..._ statements are used for citing sources
-
-all external URLs are denoted using _<...>_ statements
+`&mdash; ...` statements are used for citing sources
 
 ### note system
 
@@ -84,9 +90,9 @@ line breaks are used exclusively for how they look in the render and never to ma
 
 horizontal rules are occasionally used to separate a whole file in different sections
 
-each page has one title case first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule
+each page has one title-case first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule
 
-file names are all lowercase and apostrophes and diacritics are removed
+file names are all lowercase and apostrophes and diacritics are removed from them
 
 box titles are generated with <https://lingojam.com/BoldTextGenerator>
 
@@ -116,6 +122,9 @@ all internal links are denoted using `[[note]]` and `![[image.png]]`, and all ex
 >
 > 1. ordered
 > 2. list
+>
+> - [ ] task
+> - [x] list
 >
 > $\LaTeX$
 >
@@ -151,45 +160,10 @@ all internal links are denoted using `[[note]]` and `![[image.png]]`, and all ex
 > $$
 >
 > emojis :smile:
->
-> - [ ] task
-> - [x] list
 
-## PDF export conventions
+## presentation-style conventions
 
-see [[matrix]] for an example application of report-style PDF export conventions
-
-the following scripts are to be appended to any page before it is exported
-
-<!-- see `settings.json` for sources -->
-
-```txt
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js"></script><script>window.MathJax = {tex: {inlineMath: [['$', '$']]}, messageStyle: "none"};</script><script>document.body.innerHTML = document.body.innerHTML.replace(/\[\[([a-zA-Z0-9\-]+\|)?([a-zA-Z0-9\-]+)\]\]/g, (a, b, c) => `<u>${c.replace(/\-/g, ' ')}</u>`).replace(/#[a-zA-Z0-9\-]+/g, (a) => `<u>${a}</u>`).replace(/!\[\[(.+)\]\]/g, (a, b) => `<img src="${b}" />`)</script><style> @page { margin: 3rem; } body { background-color: #FFF; max-width: none; margin: 0; padding: 0; } h2, h3, h4, h5, h6 { margin-top: 1em; } blockquote { box-sizing: border-box; border-left: 1px solid #000; margin: 1em 10px; padding: 0 30px; } img { border-radius: 4px; } </style>
-```
-
-## report-style PDF export conventions
-
-see [[eng1112 report 2]] for an example application of report-style PDF export conventions
-
-the following stylesheet is to be appended to any report-style document
-
-```txt
-<style> p { text-indent: 40px; } blockquote > p { text-indent: 0; } hr { opacity: 0; page-break-after: always; } cite { display: inline-block; text-indent: -40px; margin-top: 1rem; font-style: inherit; text-align: justify; } </style>
-```
-
-### syntax used
-
-> ---
->
-> horizontal rules act as page breaks
->
-> paragraphs have their first line indented &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
->
-> <cite>citations have all but their first line indented &mdash; lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</cite>
-
-## presentation-style note conventions
-
-see [[vim talk]] and [[carbon language talk]] for example applications of presentation-style note conventions
+see [[vim talk]] and [[carbon language talk]] for examples of presentation-style conventions
 
 presentation-style notes are viewed using Obisdian's _Start presentation_ feature
 

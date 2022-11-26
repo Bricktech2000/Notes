@@ -122,7 +122,7 @@ useful for computing the [[derivative]] of an [[exponent]]ial [[function]]
 
 **examples**
 
-> **example** _logarithmic differentiation of $x[e[x]]$._
+> **example** _logarithmic differentiation of $x[e[x]]$_
 >
 > $y = x[e[x]]$
 >
@@ -146,7 +146,7 @@ useful for computing the [[derivative]] of an [[exponent]]ial [[function]]
 >
 > $\delta\ y - \delta x = x[e[x]] \mid e[x] \text- x : \lceil x \rceil e[x]$
 
-> **example** _logarithmic differentiation of $[x]x$._
+> **example** _logarithmic differentiation of $[x]x$_
 >
 > $y = [x]x$
 >

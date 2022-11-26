@@ -2,11 +2,11 @@
 
 **see** [[math notation]], [[limit rules]]
 
-**notation** _the limit of $f\ x$ as $x$ approaches $a$._
+**notation** _the limit of $f\ x$ as $x$ approaches $a$_
 
 $f\ x\ \ \vdots\ \ x \rightarrow a$
 
-**definition** _.$(\varepsilon, \delta)$-definition of a limit_
+**definition** _$(\varepsilon, \delta)$-definition of a limit_
 
 let $f\ x$ be a [[function]] with domain $D$ defined on an open interval around $x_0$. then, $f\ x\ \ \vdots\ \ x \rightarrow x_0 = L$ if for every $\varepsilon > 0$ there exists $\delta > 0$ such that $0 < |x \cdot x_0| < \delta\ \ \vdash\ \ |f\ x \cdot L| < \varepsilon$ for all $D\ x$
 
@@ -14,9 +14,9 @@ let $f\ x$ be a [[function]] with domain $D$ defined on an open interval around 
 
 ## Indeterminate Form
 
-**definition** a [[limit]] of the form $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a$ is called a _.$0 - 0$ indeterminate form_ if $f\ x\ \ \vdots\ \ x \rightarrow a = 0$ and $g\ x\ \ \vdots\ \ x \rightarrow a = 0$
+**definition** a [[limit]] of the form $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a$ is called a _$0 - 0$ indeterminate form_ if $f\ x\ \ \vdots\ \ x \rightarrow a = 0$ and $g\ x\ \ \vdots\ \ x \rightarrow a = 0$
 
-**definition** a [[limit]] of the form $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a$ is called an _.$\infty - \infty$ indeterminate form_ if $f\ x\ \ \vdots\ \ x \rightarrow a = \infty$ and $g\ x\ \ \vdots\ \ x \rightarrow a = \infty$
+**definition** a [[limit]] of the form $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a$ is called an _$\infty - \infty$ indeterminate form_ if $f\ x\ \ \vdots\ \ x \rightarrow a = \infty$ and $g\ x\ \ \vdots\ \ x \rightarrow a = \infty$
 
 ## computing a limit
 
