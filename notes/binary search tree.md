@@ -50,7 +50,7 @@ time [[computational complexity]]:
 
 ## Invariant
 
-> **aka** [[binary search tree#invariant]]
+**aka** _[[binary search tree#invariant]]_
 
 **definition** the _binary search tree invariant_ is a property of [[tree]]s that requires every node to have a left sub[[tree]] with values no greater than its value and a right sub[[tree]] with values no less than its value
 

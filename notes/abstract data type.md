@@ -4,7 +4,7 @@
 
 describes the [[interface]] a [[data structure]] must implement
 
-**types**
+**see**
 
 [[list]]
 

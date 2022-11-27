@@ -4,7 +4,7 @@ _actively [[learning]] by retrieving information from your brain_
 
 **see** [[spaced repetition]], [[interleaving]]
 
-> **aka** active retrieval, practice-testing, quizzing yourself
+**aka** _active retrieval, practice-testing, quizzing yourself_
 
 [[active recall]] sources its effectiveness from the reorganisation of information that occurs when trying to remember it. it forces **active [[learning]]** and makes us practice answering questions, which is often the way we are tested. it also provides us with **timely feedback** on our performance
 

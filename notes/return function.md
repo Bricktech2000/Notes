@@ -2,7 +2,7 @@
 
 _lifts a value to the effects world_
 
-> **aka** `pure`, `unit`
+**aka** _`pure`, `unit`_
 
 **see** [[effect type]], [[functional programming]]
 

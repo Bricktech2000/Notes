@@ -32,7 +32,7 @@ in [[conventional math notation]]: $' \cdot + \oplus$
 
 ## AND
 
-> **aka** Conjunction, $\min$
+**aka** _Conjunction, $\min$_
 
 **notations**
 
@@ -53,7 +53,7 @@ straight-curve [[logic gate]]. may take more than one input
 
 ## OR
 
-> **aka** Disjunction, $\max$
+**aka** _Disjunction, $\max$_
 
 **notations**
 
@@ -74,7 +74,7 @@ concave-pointycurve [[logic gate]]. may take more than one input
 
 ## NOT
 
-> **aka** Negation
+**aka** _Negation_
 
 **notations**
 
@@ -95,7 +95,7 @@ triangle-circle [[logic gate]]. may only take one input
 
 ## XOR
 
-> **aka** Exclusive OR, symmetric difference, disjunctive union
+**aka** _Exclusive OR, symmetric difference, disjunctive union_
 
 **notations**
 
@@ -116,7 +116,7 @@ doubleconcave-pointycurve [[logic gate]]. if the [[logic gate]] does not take ex
 
 ## Implication
 
-> **aka** Conditional [[logic statement]]
+**aka** _Conditional [[logic statement]]_
 
 **definition** if $x = \top$, then the conditional [[logic statement]] $x \vdash y$ is said to be _vacuously true_, see [[boolean logic]]
 
@@ -161,13 +161,13 @@ can be built by combining multiple [[logic gate]]s. may only take one input
 
 ## XNOR
 
-> **aka** Double Implication, Equivalent, Biconditional [[logic statement]], Bidirectional Implication
+**aka** _Double Implication, Equivalent, Biconditional [[logic statement]], Bidirectional Implication_
 
 **notations**
 
 _in my [[math notation]]_ $\equiv$
 
-_in [[conventional math notation]]_ $\harr$ or $\odot$ or $=$
+_in [[conventional math notation]]_ $\Leftrightarrow$ or $\odot$ or $=$
 
 **representation**
 
@@ -199,7 +199,7 @@ _in [[conventional math notation]]_ $\backslash$
 
 ## Addition
 
-> **aka**: disjoint union
+**aka**:_ disjoint union_
 
 **notation** _in my [[math notation]]_ $\, : \,$
 

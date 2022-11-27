@@ -130,7 +130,7 @@ to do so, they must use a pair of [[function]]s to [[map]] both [[category#objec
 
 ## Opposite Category
 
-> **aka** Duality
+**aka** _Duality_
 
 &mdash; <https://youtu.be/Gai-liKAUPo?t=190>
 

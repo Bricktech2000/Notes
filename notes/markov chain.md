@@ -1,6 +1,6 @@
 # Markov Chain
 
-> **aka** Markov Process
+**aka** _Markov Process_
 
 **definition** a _Markov Chain_ is a [[sequence]] of events where the [[probability]] of each future event depends only on the state attained in the previous event
 

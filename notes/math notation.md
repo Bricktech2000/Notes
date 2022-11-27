@@ -144,7 +144,7 @@ _in order of high to low precedence_
 | $\equiv \times$                                | AND           | $\top$         | [[boolean logic]] NOT |
 | $,$                                            |               |                |                       |
 
-> **note**: above,
+> **note** above,
 >
 > - $x$ represents [[variable]]s
 > - $x_a^i$ represents subscripts and superscripts
@@ -152,7 +152,7 @@ _in order of high to low precedence_
 > - $\rightarrow$ represents [[function]] literals
 > - $\Big[ \Big]$ represents [[matrix]] literals
 
-> **note**: unary [[operator]]s have identical precedence to their binary counterparts, but are right associative
+> **note** unary [[operator]]s have identical precedence to their binary counterparts, but are right associative
 
 **definition** let $\circ$ be an [[operator]] with _AND associativity_. then, $a \circ b \circ c \circ \cdots\ \ \equiv\ \ a \circ b \land b \circ c \land c \circ \cdots$
 

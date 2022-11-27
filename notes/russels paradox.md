@@ -1,6 +1,6 @@
 # Russel's Paradox
 
-> **aka** barber paradox
+**aka** _barber paradox_
 
 [[russels paradox]] states that it is not possible to construct a [[set]] that contains all sets that are not members of themselves. therefore, it is not possible to construct a [[set]] of all [[set]]s &mdash; <https://youtu.be/I8LbkfSSR58?t=1559>
 

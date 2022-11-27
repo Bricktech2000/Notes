@@ -38,7 +38,7 @@ $\dots 66667 \mid \dots 00003 = \dots 00001 = 1$ and therefore $\dots 66667 = -3
 
 ## Absolute Value
 
-> **aka** [[p-adic]] metric
+**aka** _[[p-adic]] metric_
 
 **see** [[number field#absolute value]], [[real#absolute value]]
 

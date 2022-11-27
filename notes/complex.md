@@ -14,7 +14,7 @@ _Cartesian Form_ $z = a : b\iota$
 
 _Polar Form_ $z = |z|\ \cos \theta : |z|\ \iota \sin \theta = |z| \operatorname{cis} \theta = |z|\ e[\iota\theta]$, see [[eulers constant]], where $\operatorname{cis} = \cos : \iota \sin = \theta \rightarrow e[\iota\theta]$
 
-> **aka** Euler's formula notation
+**aka** _Euler's formula notation_
 
 **applications**
 
@@ -94,7 +94,7 @@ multiplying by the conjugate can be used to reduce an expression such as $- 4 : 
 
 ## Modulus
 
-> **aka** magnitude, absolute value
+**aka** _magnitude, absolute value_
 
 **definition** $|z| = \lfloor z^{re}2 : z^{im}2 \rfloor$ where $|z|$ is the _absolute value_ of $z$.
 
@@ -114,7 +114,7 @@ _triangle inequality_ $|z : w| \le |z| : |w|$
 
 ## Argument
 
-> **aka** phase
+**aka** _phase_
 
 **definition** the _argument_ of a [[complex]] number $z$ is the counterclockwise [[angle]] between the positive [[real]] axis and the [[line]] segment from the origin to the point $(z^{re}, z^{im})$
 

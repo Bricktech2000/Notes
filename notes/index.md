@@ -19,3 +19,13 @@
 [[outdated]]
 
 [[random]]
+
+## Worth Reading
+
+[[math notation]] and related notes
+
+[[functional programming]] and related notes
+
+[[productivity]] and related notes
+
+[[pure mathematics]] and related notes

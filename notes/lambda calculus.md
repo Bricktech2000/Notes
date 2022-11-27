@@ -1,6 +1,6 @@
 # Lambda Calculus
 
-> **aka** $\lambda$-calculus
+**aka** _$\lambda$-calculus_
 
 **see** [[combinatory logic]], [[recursion]]
 

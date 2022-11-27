@@ -101,6 +101,8 @@ _what_ represents the item itself
 
 [[carbon language talk]]
 
+[[goodharts law]]
+
 **learn**
 
 [[sensor suite]]
@@ -282,6 +284,8 @@ _what_ represents the item itself
 [[deriving the quadratic formula]]
 
 [[recipes]]
+
+[[goodharts law]]
 
 **social**
 

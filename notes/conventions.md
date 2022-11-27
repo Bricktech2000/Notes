@@ -53,7 +53,6 @@ the following headings are used in blockquotes:
 - **[[mnemonic]]**
 - **constant**
 - **equivalence**
-- **aka**
 
 the following headings are used inline:
 
@@ -65,6 +64,7 @@ the following headings are used inline:
 - **applications**
 - **pros**
 - **cons**
+- **aka**
 - **pros & cons**
 - **representation**
 - **examples**

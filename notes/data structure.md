@@ -8,11 +8,11 @@ _fundamentally, [[data structure]]s are about optimization_ &mdash; <https://you
 
 > **note** currently at <https://youtu.be/RBSGKlAvoiM?t=23191> for watching, <https://youtu.be/RBSGKlAvoiM?t=20735> for notes
 
-**properties**
+**types**
 
 [[persistent data structure]]
 
-**types**
+**see**
 
 [[array]]
 

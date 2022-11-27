@@ -1,6 +1,6 @@
 # Gross Domestic Product
 
-> **aka** GDP
+**aka** _GDP_
 
 **see** [[economy]], [[math notation]], [[conventional math notation]]
 

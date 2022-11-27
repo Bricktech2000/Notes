@@ -8,7 +8,7 @@ _agenesis of corpus callosum_ is a rare disorder present at birth that is charac
 
 > **examples** _side effects of [[corpus callosum]] severance and agenesis of [[corpus callosum]]_
 >
-> **aka** split [[brain]] syndrome, callosal syndrome
+> **aka** _split [[brain]] syndrome, callosal syndrome_
 >
 > - <https://youtu.be/lfGwsAdS9Dc>
 > - <https://youtu.be/ZMLzP1VCANo>

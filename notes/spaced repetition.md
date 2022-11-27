@@ -4,7 +4,7 @@ _[[learning]] by studying right before forgetting_
 
 **see** [[active recall]], [[interleaving]]
 
-> **aka** spacing
+**aka** _spacing_
 
 for [[spaced repetition]] to be most effective, repetitions must be spaced out enough that it requires effort to remember a [[concept]] or a [[fact]]; the more effort required, the more **active** the [[learning]] is. [[spaced repetition]] works because of the fact that our [[memory]] decays at an exponential rate with respect to [[time]], a phenomenon often referred to as the _forgetting curve_
 

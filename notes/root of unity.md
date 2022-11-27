@@ -1,6 +1,6 @@
 # Root of Unity
 
-> **aka** De Moivre numbers
+**aka** _De Moivre numbers_
 
 **see** [[complex]] numbers
 

@@ -2,7 +2,7 @@
 
 _a 2D version of a [[truth table]]_
 
-> **aka** K Map (informal abbreviation)
+**aka** _K Map (informal abbreviation)_
 
 **representation**
 

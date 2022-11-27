@@ -2,7 +2,7 @@
 
 _lifts a horizontal [[function]] to the effects world_
 
-> **aka** `lift`, `select`, `fmap`
+**aka** _`lift`, `select`, `fmap`_
 
 **definition** the [[map function]] "lifts" a [[function]] to the effects world
 

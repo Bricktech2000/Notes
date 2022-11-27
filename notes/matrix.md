@@ -224,17 +224,11 @@ $(A^\intercal)^\intercal = A$
 
 $(AB)^\intercal = B^\intercal A^\intercal$ #todo mm
 
-**representation**
-
-![[200px-Matrix_transpose.gif]]
-
-&mdash; <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif>
-
 ## Conjugate Transpose
 
 _the [[complex#conjugate]] of every entry of the [[matrix#transpose]] of a [[matrix]]_
 
-> **aka** Hermitian transpose, adjoint matrix, transjugate
+**aka** _Hermitian transpose, adjoint matrix, transjugate_
 
 **definition**
 

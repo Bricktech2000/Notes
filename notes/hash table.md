@@ -4,7 +4,7 @@
 
 _a [[map]] implemented using a [[hash]] [[function]]_
 
-> **aka** hash map
+**aka** _hash map_
 
 time [[computational complexity]]:
 

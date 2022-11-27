@@ -75,7 +75,7 @@ $\cdot \smash\cdot a = a$
 
 ## Abelian Group
 
-> **aka** commutative [[group]]
+**aka** _commutative [[group]]_
 
 &mdash; <https://en.wikipedia.org/wiki/Abelian_group>
 

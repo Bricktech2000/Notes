@@ -6,9 +6,9 @@
 
 [[integral]] and [[derivative]] notation should be thought of as follows (with explicit parentheses to denote [[function]] calls):
 
-$\int y \mid \delta x \equiv \int (y \mid \delta(x))$
-
 $\delta y - \delta x \equiv \delta(y) - \delta(x)$
+
+$\int y \mid \delta x \equiv \int (y \mid \delta(x))$
 
 > **note** when representing the [[derivative]] or [[integral]] of a [[function]], its parameter must be included. for example, $\delta\ f - \delta x$ is invalid whereas $\delta\ f\ x - \delta x$ is valid
 
@@ -16,9 +16,9 @@ $\delta y - \delta x \equiv \delta(y) - \delta(x)$
 
 derivatives and integrals at a point $t$ can be written as follows:
 
-$(x \rightarrow \delta y - \delta x)\ t$
+$(x \rightarrow \delta y - \delta x)\ t$ or more concisely $\delta f\ t - \delta t$
 
-$(x \rightarrow \int y \mid x)\ t$
+$(x \rightarrow \int y \mid \delta x)\ t$ or more concisely $\int f\ t \mid \delta t$
 
 ### intuitive explanation
 

@@ -24,7 +24,7 @@ _in my [[math notation]]_ $Y = f \rightarrow (x \rightarrow f\ (x\ x))\ (x \righ
 
 _the [[composition]] of its arguments_
 
-> **aka** `(.)` in Haskell, "bluebird"
+**aka** _`(.)` in Haskell, "bluebird"_
 
 **definition**
 
@@ -54,7 +54,7 @@ _in my [[math notation]]_ $K = f\ x\ y \rightarrow f\ x$
 
 _duplicates the second argument_
 
-> **aka** 'commute' or 'self' in APL
+**aka** _'commute' or 'self' in APL_
 
 **definition**
 

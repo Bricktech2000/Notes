@@ -2,11 +2,11 @@
 
 _the branch of the [[autonomic nervous system]] responsible for the fight-or-flight response_
 
-> **aka** fight-or-flight system
+**aka** _fight-or-flight system_
 
 ## Fight-or-Flight Response
 
-> **aka** hyperarousal, accute stress response
+**aka** _hyperarousal, accute stress response_
 
 **definition** The _fight or flight response_ is an automatic physiological reaction to an event that is perceived as stressful or frightening. The perception of threat activates the [[sympathetic nervous system]] and triggers an acute stress response that prepares the body to fight or flee. &mdash; <https://www.psychologytools.com/resource/fight-or-flight-response/>
 

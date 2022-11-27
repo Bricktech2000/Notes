@@ -39,7 +39,7 @@ time [[computational complexity]]:
 
 ## Invariant
 
-> **aka** [[heap#invariant]], heap property
+**aka** _[[heap#invariant]], heap property_
 
 **definition** the _heap invariant_ is a property of [[tree]]s that requires every node to be ordered with respect its children
 
@@ -47,7 +47,7 @@ time [[computational complexity]]:
 
 time [[computational complexity]]: $O\ \lceil n \rceil$
 
-> **aka** "bubbling up/down", "sifting up/down", swim/sink
+**aka** _bubbling up/down, sifting up/down, swim/sink_
 
 > **procedure** _bubbling up_
 >

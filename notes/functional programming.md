@@ -8,7 +8,7 @@
 
 [[function]], [[type]], [[composition]], [[apply]]
 
-[[refactoring to immutability]]
+[[refactoring to immutability]], [[function#total function]]
 
 &mdash; <https://youtu.be/Nrp_LZ-XGsY>
 
@@ -20,29 +20,10 @@
 
 [[functional programming]] is both _procedural_ and _functional_, see [[programming paradigm]]
 
-**notes**
-
-> **note** in [[functional programming]], when using an [[operator]] as an argument to the [[reduce function]], the [[map function]], or any other [[function]], make sure to use shorthands when available: `_ + _`, `(+)`, `operator.add`...
-
-## principles
-
-[[function]]s are things
-
-- they are meant to do one thing and do it well
-- they are meant to work well with other [[function]]s
-
-[[composition]] is used everywhere
-
-- allows for [[abstraction]] and [[encapsulation]]
-
 functional languages support [[first-class function]]s
 
-design for totality, see [[function#total function]]
+**pros**
 
-parameterize all the things, including **both** data and behavior
+as all [[function]]s are isolated from any other parts of a program, they can be combined to build larger functions without having to worry about anything breaking. this also allows for testability and reusability
 
-**pros** _pros of the principles of [[functional programming]]_
-
-as all [[function]]s are isolated from any other parts of a program, they can be combined to build larger functions without having to worry about anything breaking. this also allows for testability and reusability.
-
-[[functional programming]] [[function]]s and [[object-oriented programming]] [[object]]s can be compared to Lego bricks, except bricks in [[object-oriented programming]] are likely not going to fit with other bricks in the program, and all bricks are joined by strings and rubber bands wating to become a fragile tangled mess.
+[[functional programming]] [[function]]s and [[object-oriented programming]] [[object]]s can be compared to Lego bricks, except bricks in [[object-oriented programming]] are likely not going to fit with other bricks in the program, and all bricks are joined by strings and rubber bands waiting to become a fragile tangled mess

@@ -2,7 +2,7 @@
 
 **see** [[function]]
 
-> **aka** VRF
+**aka** _VRF_
 
 sample usage: <https://github.com/rgottleber/Demos/tree/main/22-06-29_Encode>
 

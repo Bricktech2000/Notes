@@ -10,7 +10,7 @@
 
 _preferred activation function_
 
-> **aka** rectified linear unit
+**aka** _rectified linear unit_
 
 **definition**
 

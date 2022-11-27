@@ -28,7 +28,9 @@ inverted [[catenary]]es are used in the design of bridges and arches so that [[f
 
 **representation**
 
-![](20220827143458.png) &mdash; <https://en.wikipedia.org/wiki/Catenary>
+![](20220827143458.png)
+
+&mdash; <https://en.wikipedia.org/wiki/Catenary>
 
 above is the comparison between a parabola (dotted black) and a [[catenary]] (solid red)
 

@@ -21,7 +21,7 @@
 
 ## Metric
 
-> **aka** [[distance]] [[function]]
+**aka** _[[distance]] [[function]]_
 
 **definition**
 
