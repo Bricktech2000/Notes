@@ -48,15 +48,9 @@ _elements are unique_ $\braket{\braket{1, 1, 1}} = \braket{\braket{1, 1}} = \dot
 
 [[monoid]]s
 
-## Operations
+## Subset
 
-**see** [[boolean logic]]
-
-**see** [[cartesian product]]
-
-### Subset
-
-### Superset
+## Superset
 
 **definition** a [[set]] $A$ is a _subset_ of a [[set]] $B$ if and only if every element of $A$ is an element of $B$
 
@@ -84,11 +78,23 @@ $\mathbb Z \vdash \mathbb R$
 
 $\mathbb E \vdash \mathbb Z$
 
-### Equivalence
+## Union
+
+**definition** $A \lor B$
+
+### Disjoint Union
+
+**definition** $A \lor B$ with the guarantee that $A \land B = \braket{\ }$
+
+## Intersection
+
+**definition** $A \land B$
+
+## Equivalence
 
 **definition** two [[set]]s are _equivalent_ if and only if they contain the same elements $A \equiv B \equiv A\ x = B\ x$
 
-### Membership
+## Membership
 
 **notation**
 
@@ -132,9 +138,9 @@ $\#\ S$
 
 **properties**
 
-when two [[set]]s form a _disjoint union_ $A : B$, then $\#\ S = \#\ A : \#\ B$
+when two [[set]]s form a [[set#disjoint union]] $A : B$, then $\#\ S = \#\ A : \#\ B$
 
-when two [[set]]s form a _union_ $A \lor B$, then $\#\ S = \#\ A : \#\ B \cdot \#\ (A \land B)$
+when two [[set]]s form a [[set#union]] $A \lor B$, then $\#\ S = \#\ A : \#\ B \cdot \#\ (A \land B)$
 
 _difference principle_ the cardinality of the difference of two [[set]]s is $\#\ (A / B) = \#\ A \cdot \#\ (A \land B)$
 

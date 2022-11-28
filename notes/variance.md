@@ -1,0 +1,3 @@
+# Variance
+
+**see** [[standard deviation]]

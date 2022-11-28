@@ -1,6 +1,6 @@
 # Multiset
 
-**see** [[math notation]]
+**see** [[math notation]], [[boolean logic]]
 
 **definition** a _multiset_ is an unordered collection of elements that do not have to be unique
 
@@ -25,21 +25,39 @@ $M\ e$, where
 - $M$ is a [[multiset]]
 - $e$ is the element to get the [[multiplicity]] of
 
-## Operations
+## Multisubset
 
-**see** [[boolean logic]]
+## Multisuperset
+
+**definition** a [[multiset]] $A$ is a _multisubset_ of a [[multiset]] $B$ if and only if every element of $A$ is an element of $B$ with at least as many occurrences as in $A$
+
+**definition** a [[multiset]] $B$ is a _multisuperset_ of a [[multiset]] $A$ if and only if every element of $A$ is an element of $B$ with at least as many occurrences as in $A$
+
+in other words, an element being in $A$ implies it is also in $B$ with no lesser [[multiset#multiplicity]]
+
+## Union
+
+**definition** $M \lor N \equiv x \rightarrow \max\ (M\ x)\ (N\ x)$
+
+## Intersection
+
+**definition** $M \land N \equiv x \rightarrow \min\ (M\ x)\ (N\ x)$
+
+## Addition
+
+**definition** $M : N \equiv x \rightarrow M\ x : N\ x$
+
+## Subtraction
+
+**definition** $M \cdot N \equiv x \rightarrow M\ x \cdot N\ x$
+
+## Difference
+
+**definition** $M\ /\ N \equiv x \rightarrow M\ x \cdot N\ x \lor 0$
 
 **see** [[cartesian product]]
 
-**definition** _multiset union_ $M \lor N \equiv x \rightarrow \max\ (M\ x)\ (N\ x)$
-
-**definition** _multiset intersection_ $M \land N \equiv x \rightarrow \min\ (M\ x)\ (N\ x)$
-
-**definition** _multiset addition_ $M : N \equiv x \rightarrow M\ x : N\ x$
-
-**definition** _multiset subtraction_ $M \cdot N \equiv x \rightarrow M\ x \cdot N\ x$
-
-**definition** _multiset difference_ $M\ /\ N \equiv x \rightarrow M\ x \cdot N\ x \lor 0$
+## Equivalence
 
 **definition** two [[multiset]]s are _equivalent_ if and only if they contain the same number of the same elements. $M \equiv N \equiv x \rightarrow (M\ x = N\ x)$
 

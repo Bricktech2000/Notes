@@ -63,7 +63,7 @@ $\cdot \smash\cdot a = a$
 > - [[integer]]s modulo $n$ and addition
 > - invertible square [[matrix]]es and [[matrix#multiplication]]
 
-## Group
+## Order
 
 **definition** the _order_ of a [[group]] $G$ is the number of elements in the [[group]]
 

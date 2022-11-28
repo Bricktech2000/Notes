@@ -11,3 +11,5 @@ _a systematic pattern of deviation from norm or rationality in judgment_
 [[hindsight bias]]
 
 [[sunk costs fallacy]]
+
+[[gamblers fallacy]]

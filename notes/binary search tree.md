@@ -1,8 +1,10 @@
 # Binary Search Tree
 
+**see** [[data structure]]
+
 **see** [[tree]], [[tree#binary tree]], binary [[tree#binary tree traversal]]
 
-**definition** a _binary search tree_ is a [[tree]] that supports the [[binary search tree#invariant]]
+**definition** a _binary search tree_ is a [[tree#binary tree]] that supports the [[binary search tree#invariant]]
 
 time [[computational complexity]]:
 

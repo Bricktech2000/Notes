@@ -10,6 +10,8 @@ _Vectors in $\mathbb R^n$_
 
 > **equivalence** _[[list]]s and [[vector in rn]]s_
 
+> **equivalence** _[[vector in rn]] [[vector space#dimension]] and [[list]] length_
+
 **notation** _in my [[math notation]]_
 
 $(1, 2)$

@@ -2,6 +2,8 @@
 
 _a collection of vertices connected by a collection of edges_
 
+**see** [[abstract data type]]
+
 **definition** _formally in my [[math notation]]_ a [[graph]] is a [[set theory]]etical [[function]] with [[function#domain]] at least $\braket{v, w} \rightarrow \top$ that takes an [[ordered pair]] of vertices as an index and returns whether an edge is connecting them
 
 **definition** an _undirected graph_ is a [[graph]] $G$ such that $G = G^\intercal$

@@ -18,4 +18,6 @@ describes the [[interface]] a [[data structure]] must implement
 
 [[tree]]
 
+[[graph]]
+
 [[union find]]

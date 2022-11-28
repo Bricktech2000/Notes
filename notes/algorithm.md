@@ -30,3 +30,5 @@ divide and conquer #todo
 [[breadth-first search]], [[depth-first search]], [[best-first search]]
 
 [[kruskals algorithm]]
+
+[[monte carlo method]]

@@ -74,3 +74,7 @@ the [[integral]] $\int -[x]p \mid \delta x\ \ \vdots\ \ \infty \cdot 1$:
 
 - converges if $p > 1$
 - diverges if $p \le 1$
+
+## Numerical Integration
+
+the definite [[integral]] of a [[function]] can be estimated by the [[monte carlo method]] by generating a finite number of random points and calculating the ratio between the number of points under the [[function]] and the total number of points &mdash; <https://youtu.be/rUxP7TM8-wo?t=2925>. the accuracy of such an [[algorithm]] can be measured through [[inferential statistics]]

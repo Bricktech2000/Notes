@@ -1,3 +1,3 @@
 # Distance
 
-**see** [[length]]
+**see** [[length]], [[number field#absolute value]], [[metric space#metric]]

@@ -350,7 +350,7 @@ a [[function]] can be proven to be bijective by proving it is both injective and
 
 **see** [[derivative]]
 
-**definition** an _analytic function_ is a [[function]] that is locally given by a convergent [[series#power series]] &mdash; Wikipedia
+**definition** an _analytic function_ is a [[function]] that is locally given by a [[series#convergent series]] [[series#power series]] &mdash; Wikipedia
 
 **properties**
 

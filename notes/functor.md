@@ -1,4 +1,4 @@
-# Functor
+## Functor
 
 **see** [[functional programming]], [[return function]], [[map function]]
 

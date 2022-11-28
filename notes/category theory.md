@@ -63,7 +63,7 @@ the _curry-howard-lambek isomorphism_ states that [[logic]], [[type theory]] and
 
 [[category#product]]s in the [[category]] of [[set]]s are [[cartesian product]]s &mdash; Terramorpha
 
-[[category#coproduct]]s in the [[category]] of [[set]]s are disjoint unions &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] of [[set]]s are [[set#disjoint union]]s &mdash; Terramorpha
 
 [[category#product]]s in the [[category]] $\mathbb R, \le$ are the minimum of two numbers &mdash; Terramorpha
 

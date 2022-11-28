@@ -34,7 +34,7 @@ $a_{sum} =\ :\! a = S^n\ \ \vdots\ \ n \rightarrow \infty$, where
 - $S$ is the [[series#sequence of partial sums]] of $a$
 - $a_{sum} =\ :\! a$ is the sum of $a$
 
-## Bounds
+## Bound
 
 **definition** a [[sequence]] is said to be _bounded above_ if $a^n \le M \land \mathbb R M \dashv \mathbb N n$
 
@@ -60,13 +60,15 @@ suppose $a^n = f\ n \dashv \mathbb N n$. then, the [[function#extremum]]a of $f$
 
 suppose $a^n = f\ n \dashv \mathbb N n$. then, the increase and decrease of the [[function]] $f$ can be used to determine the increase and decrease of the [[sequence]] $a$
 
-## Convergence
+## Convergent Sequence
+
+## Divergent Sequence
 
 **definition** a [[sequence]] is said to _converge_ if the [[limit]] $a^n\ \ \vdots\ \ n \rightarrow \infty$ exists as a finite number, see [[limit#existence]]
 
 **properties**
 
-if a [[sequence]] is bounded and monotonic, then it must converge (think of this intuitively)
+if a [[sequence]] is [[sequence#bound]]ed and monotonic (see [[sequence#decreasing sequence]]), then it must converge (think of this intuitively)
 
 ### using limits
 

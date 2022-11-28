@@ -31,7 +31,9 @@ $R_b^n = S_b^\infty \cdot S_b^n$, where
 - $S_b^\infty \equiv b$ is the value at which the [[series]] $b$ converges
 - $R_b^n$ is the _remainder_ of the [[series]] $b$ after $n$ terms
 
-## Convergence
+## Convergent Series
+
+## Divergent Series
 
 **definition** a [[series]] is said to _converge_ if its [[series#sequence of partial sums]] converges. otherwise, it is said to _diverge_.
 
@@ -105,7 +107,7 @@ let $b$ be a [[series]]. if $b^n\ \ \vdots\ \ n \rightarrow \infty \ne 0$, then 
 
 ### alternating test
 
-**theorem** let $b$ be a [[series]] such that $b^n = [\cdot 1]n \mid a^n$ where either $a^n \ge 0$ for all $n$ or $a^n \le 0$ for all $n$. then, if $a^n\ \ \vdots\ \ n \rightarrow \infty = 0$ and if $a$ is an eventually [[sequence#decreasing sequence]], the [[series]] $b$ is convergent &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
+**theorem** let $b$ be a [[series]] such that $b^n = [\cdot 1]n \mid a^n$ where either $a^n \ge 0$ for all $n$ or $a^n \le 0$ for all $n$. then, if $a^n\ \ \vdots\ \ n \rightarrow \infty = 0$ and if $a$ is an eventually [[sequence#decreasing sequence]], the [[series]] $b$ is a [[series#convergent series]] &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
 
 ### [[series#geometric series]] convergence
 
