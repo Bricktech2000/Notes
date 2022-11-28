@@ -13,8 +13,8 @@ theme:
     - navigation.tracking
     - toc.follow
     - toc.integrate
-  logo: fa-solid_fa-book_white.svg
-  favicon: fa-solid_fa-book_white.svg
+  logo: icon.svg
+  favicon: icon.svg
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.arithmatex:

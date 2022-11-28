@@ -4,8 +4,10 @@ used for backlinks
 
 **see**
 
-[[neural network]]s
+[[neural network]]s, [[linear regression]]
 
 [[eigen]]
 
 [[linear programming]]
+
+[[curve fitting]]

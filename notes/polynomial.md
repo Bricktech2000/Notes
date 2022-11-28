@@ -2,10 +2,12 @@
 
 **definition**
 
-$p = a_0x[0] : \cdots a_nx[n] \land \mathbb N n \land (\mathbb R a_n \dashv \mathbb N n)$, where
+$p = a^0x[0] : \cdots a^nx[n]$, where
 
 - $p$ is a [[polynomial]]
-- $a_0 \cdots a_n$ are the _coefficients_ of the [[polynomial]]
+- $a$ is a [[list]] of the _coefficients_ of the [[polynomial]]
+
+**definition** the _degree_ of a [[polynomial]] is the largest [[exponent]] of $x$ in the [[polynomial]]
 
 ## Vector Space
 

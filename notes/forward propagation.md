@@ -35,7 +35,7 @@ $\begin{bmatrix} w_{k \to j}^{0, 0} & w_{k \to j}^{0, 1} & \cdots & w_{k \to j}^
 
 ### applying an activation function
 
-applying an [[activation function]] is important, as, otherwise, every layer would be a [[linear combination]] of the layer before it. this would then mean that the network is just a very fancy linear regression as it wouldn't be able to produce more complex [[function]]s
+applying an [[activation function]] is important, as, otherwise, every layer would be a [[linear combination]] of the layer before it. this would then mean that the network is just a very fancy [[linear regression]] as it wouldn't be able to produce more complex [[function]]s
 
 &mdash; <https://youtu.be/w8yWXqWQYmU?t=309>
 

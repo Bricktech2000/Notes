@@ -6,6 +6,8 @@ _making inferences about [[population]]s by examining one or more random [[sampl
 
 &mdash; <https://youtu.be/rUxP7TM8-wo>
 
+&mdash; <https://youtu.be/soZv_KKax3E>
+
 **see** [[math notation]]
 
 **see**
@@ -27,3 +29,5 @@ _making inferences about [[population]]s by examining one or more random [[sampl
 **theorem** _regression to the mean_ there is a tendency for extreme or unusual scores or observations to be followed by more typical scores or observations &mdash; Github Copilot
 
 > **note** beware of the [[gamblers fallacy]] &mdash; results don't "want to even out" over time
+
+a random [[sample]] tends to exhibit the same properties as the [[population]] from which it was drawn

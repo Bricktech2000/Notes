@@ -12,7 +12,7 @@ _a mathematical description of the [[probability]]es of events_
 
 **definition** the [[probability distribution#probability density function]] of a normal distribution is $x \rightarrow G^\sigma\ (x \cdot \mu)$, where
 
-- $x$ is a value in a [[sample]] $X$
+- $x$ is an _example_ in a [[sample]] $X$
 - $\mu$ is the [[sample#mean]] of $X$
 - $\sigma$ is the [[standard deviation]] of $X$
 - $G^\sigma$ is the [[gaussian function]] with [[standard deviation]] $\sigma$
@@ -39,7 +39,7 @@ _a mathematical description of the [[probability]]es of events_
 
 **definition** the [[probability distribution#probability density function]] of a continuous uniform distribution is $x \rightarrow \braket{0, - b \cdot a}\ (a < x < b)$, where
 
-- $x$ is a value in a [[sample]] $X$
+- $x$ is an \_example in a [[sample]] $X$
 - $a$ is the minimum of $X$
 - $b$ is the maximum of $X$
 
@@ -73,7 +73,7 @@ probability mass functions are used to describe discrete random variables
 
 **see** [[integral]]
 
-**definition** a _probability density function_ is a [[function]] $f$ such that $\int f\ x \mid \delta x\ \ \vdots\ \ b \cdot a$ is the [[probability]] of a value being in the interval $x \rightarrow (a < x < b)$
+**definition** a _probability density function_ is a [[function]] $f$ such that $\int f\ x \mid \delta x\ \ \vdots\ \ b \cdot a$ is the [[probability]] of an _example_ being in the interval $x \rightarrow (a < x < b)$
 
 **applications**
 
@@ -85,7 +85,7 @@ probability density functions are used to describe continuous random variables
 
 **see** [[integral]]
 
-**definition** a _cumulative distribution function_ is a [[function]] $F$ such that $F\ a$ is the [[probability]] of a value being in the interval $x \rightarrow (\cdot \infty < x < a)$
+**definition** a _cumulative distribution function_ is a [[function]] $F$ such that $F\ a$ is the [[probability]] of an _example_ being in the interval $x \rightarrow (\cdot \infty < x < a)$
 
 **definition** $\int f\ x \mid \delta x\ \ \vdots\ \ x \cdot \cdot \infty$ where $f$ is a [[probability distribution#probability density function]]
 

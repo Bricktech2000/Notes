@@ -6,10 +6,6 @@ _a [[list]] of mathematical objects_
 
 **definition** a _sample_ is a [[multiset#multisubset]] of a [[population]] and therefore a [[multiset]] of _examples_
 
-**properties**
-
-a random [[sample]] tends to exhibit the same properties as the [[population]] from which it was drawn
-
 ---
 
 # Sampling

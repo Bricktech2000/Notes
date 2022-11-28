@@ -16,7 +16,7 @@
 
 ## Training
 
-[[neural network#training]] consists of minimizing a [[loss function]] through [[gradient]] descent. the algorithm that computes this [[gradient]] efficiently is called [[backpropagation]]
+[[neural network#training]] consists of minimizing a [[loss function]] through [[gradient#descent]]. the algorithm that computes this [[gradient]] efficiently is called [[backpropagation]]
 
 &mdash; <https://youtu.be/IHZwWFHWa-w>
 

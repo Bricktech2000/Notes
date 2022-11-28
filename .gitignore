@@ -7,5 +7,5 @@ mkdocs/*
 !mkdocs/srcs.howto.txt
 !mkdocs/script.js
 !mkdocs/styles.css
-!mkdocs/fa-solid_fa-book_white.svg
+!mkdocs/icon.svg
 site
