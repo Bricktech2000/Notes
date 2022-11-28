@@ -28,7 +28,7 @@ more information about supported features available at <https://katex.org/docs/s
 
 ### Sections
 
-capitalized headings are for [[concept]]s that can be linked to using `[[nested#wiki links]]` and lowercease headings are for general titles
+capitalized headings are for [[concept]]s that can be linked to using [[index|nested > wiki links]] and lowercease headings are for general titles
 
 some constructs, such as definitions and proofs, are very common. they are to be written as follows in markdown:
 
@@ -57,6 +57,7 @@ the following headings are used in blockquotes:
 the following headings are used inline:
 
 - **see**
+- **aka**
 - **types**
 - **theorem**
 - **definition**
@@ -64,7 +65,6 @@ the following headings are used inline:
 - **applications**
 - **pros**
 - **cons**
-- **aka**
 - **pros & cons**
 - **representation**
 - **examples**
@@ -159,7 +159,7 @@ all internal links are denoted using `[[note]]` and `![[image.png]]`, and all ex
 > \text{Block } \LaTeX
 > $$
 >
-> emojis :smile:
+> emoji :smile:
 
 ## presentation-style conventions
 
@@ -174,3 +174,27 @@ headings and content can optionally be seperated using an HTML line break, `<br>
 personal comments and notes are to be written between `<?` and `?>` tags, and not between `<!--` and `-->` tags
 
 level-3 headings are not used as they look too similar to level-2 headings on Obsidian. there can be multiple level-1 headings in one presentation
+
+## other cenventions
+
+the graph in [[index]] is generated on Obsidian using the following settings:
+
+```yaml
+# if a property is not specified below,
+# it is to be set to its default value
+
+filters:
+  tags: no
+  attachments: no
+  exisiting files only: no
+  orphans: yes
+groups:
+  - query: '[[math notation]]'
+    color: '#ffffff'
+display:
+  arrows: yes
+forces:
+  center force: 0.32
+```
+
+a screenshot of the graph is then taken using Obsidian's _Copy screenshot_ feature

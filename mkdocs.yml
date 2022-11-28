@@ -1,6 +1,7 @@
 site_name: Emilien Breton&nbsp;&nbsp;|&nbsp;&nbsp;Notes
 repo_url: https://github.com/Bricktech2000/Notes/
 docs_dir: mkdocs
+dev_addr: 0.0.0.0:8000
 
 theme:
   name: material
@@ -29,6 +30,10 @@ markdown_extensions:
       custom_checkbox: true
   - admonition
   - pymdownx.details
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 extra_javascript:
   - script.js

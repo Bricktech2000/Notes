@@ -19,6 +19,7 @@ https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
 https://stackoverflow.com/questions/9529300/can-i-change-the-fill-color-of-an-svg-path-with-css
 https://squidfunk.github.io/mkdocs-material/reference/lists/
 https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
 
 icon: fontawesome 6.2.1: fa-solid fa-book
 added fill color to SVG: fill="#ffffff"
