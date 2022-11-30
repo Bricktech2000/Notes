@@ -36,9 +36,10 @@ For conventions on writing notes, see the [conventions](https://notes.emilien.ca
 
 The publishing workflow for my conceptual notes requires [Obsidian Export](https://github.com/zoni/obsidian-export) and [mkdocs](https://www.mkdocs.org/).
 
-Once installed, run the following command:
+Once installed, run the following commands:
 
 ```bash
-rm mkdocs/*.md; obsidian-export notes mkdocs && mkdocs build
-cd site && python3 -m http.server
+rm mkdocs/*.md; rm mkdocs/*.png; rm mkdocs/*.jpg
+obsidian-export notes mkdocs && mkdocs build
+python3 -m http.server --directory site
 ```
