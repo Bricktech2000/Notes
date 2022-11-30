@@ -4,6 +4,8 @@
 
 describes the [[interface]] a [[data structure]] must implement
 
+> **equivalence** _[[abstract data type]]s and [[algebraic structure]]s_ &mdash; <https://en.wikipedia.org/wiki/Algebraic_structure>
+
 **see**
 
 [[list]]
@@ -19,5 +21,9 @@ describes the [[interface]] a [[data structure]] must implement
 [[tree]]
 
 [[graph]]
+
+[[set]]
+
+[[multiset]]
 
 [[union find]]

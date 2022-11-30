@@ -6,6 +6,8 @@ _a [[group]] without necessarily having an identity element or an inverse_
 
 &mdash; <https://en.wikipedia.org/wiki/Semigroup>
 
+**see** [[math notation]], [[algebraic structure]]
+
 **definition** a [[semigroup]] is a finite or infinite [[set]] of elements equipped with a closed associative binary operation &mdash; Wikipedia and me
 
 **definition**

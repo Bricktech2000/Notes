@@ -1,6 +1,8 @@
 # Multiset
 
-**see** [[math notation]], [[boolean logic]]
+**see** [[abstract data type]]
+
+**see** [[math notation]], [[boolean algebra]]
 
 **definition** a _multiset_ is an unordered collection of elements that do not have to be unique
 

@@ -2,7 +2,7 @@
 
 **see** [[abstract data type]], [[algorithm]]
 
-implements the interface an [[abstract data type]] describes
+implements the [[interface]] an [[abstract data type]] describes
 
 _fundamentally, [[data structure]]s are about optimization_ &mdash; <https://youtu.be/JjDsP5n2kSM?t=753>
 

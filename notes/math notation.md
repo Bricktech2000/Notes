@@ -8,8 +8,8 @@ this [[math notation]] obviously cannot be used to communicate ideas to people w
 
 ## principles
 
-- all equality [[operator]]s check for equality and return a [[boolean]], and it is implied that an [[expression]] on its own must evaluate to $\top$. this allows for [[boolean logic#operators]] to be applied on equalities explicitly as opposed informally
-- [[set]]s are [[function]]s that return a [[boolean]] ([[set]]s are [[predicate]]s). this way, [[boolean logic#operators]] and [[set]] [[operator]]s are one and the same. other [[data structure]]s that work similarly include [[vector]]s, [[matrix]]es, [[sequence]]s, [[multiset]]s, [[ordered pair]]s...
+- all equality [[operator]]s check for equality and return a [[boolean]], and it is implied that an [[expression]] on its own must evaluate to $\top$. this allows for [[boolean algebra#operators]] to be applied on equalities explicitly as opposed informally
+- [[set]]s are [[function]]s that return a [[boolean]] ([[set]]s are [[predicate]]s). this way, [[boolean algebra#operators]] and [[set]] [[operator]]s are one and the same. other [[data structure]]s that work similarly include [[vector]]s, [[matrix]]es, [[sequence]]s, [[multiset]]s, [[ordered pair]]s...
 - some [[operator]]s are identical but have different precedence as "more brackets means more explicit, but less brackets means less complex and less confusing"
 - $\lfloor a \rfloor$ returns both positive and negative square roots ($\lfloor q2 \rfloor \equiv\ \because q$). the same is true for other reciprocals
 - superscripts are modifiers (subscripts with special meanings). this distinction is extremely useful when working with [[forward propagation]] and [[backpropagation]] in [[neural network]]s, for example
@@ -138,10 +138,10 @@ _in order of high to low precedence_
 | $\mid -$                                       | left          | $1$            | inverse               |
 | $\int\ \ \vdots\ \ \cdots\ \rightarrow\ \bmod$ | right-ish     |                |                       |
 | $=\ne > \ge < \le$                             | AND           | $0$            | is (not) $0$          |
-| $/$                                            | left          | $\top$         | [[boolean logic]] NOT |
+| $/$                                            | left          | $\top$         | [[boolean algebra]] NOT |
 | $\land\ \lor$                                  | left          |                |                       |
 | $\dashv\ \vdash$                               | left          |                |                       |
-| $\equiv \times$                                | AND           | $\top$         | [[boolean logic]] NOT |
+| $\equiv \times$                                | AND           | $\top$         | [[boolean algebra]] NOT |
 | $,$                                            |               |                |                       |
 
 > **note** above,
@@ -177,10 +177,10 @@ _in order of high to low precedence_
 | definition of [[set]] difference            | $A / B \equiv A \land \times B$                                         | $\displaystyle A \setminus B = \{x \in A : x \notin B\}$                                                 |
 | the [[p-adic#absolute value]]               | $\vert n \vert^p = -p[\psi\ n\ p]$                                      | not really doable in a concise way without using plain English                                           |
 
-definition of the [[boolean logic#implication]] / [[set#subset]] / [[set#superset]] / [[quantifier#universal quantifier]] in this [[math notation]]: $a \vdash b \equiv /a \lor b$ and $a \dashv b \equiv a \lor /b$
+definition of the [[boolean algebra#implication]] / [[set#subset]] / [[set#superset]] / [[quantifier#universal quantifier]] in this [[math notation]]: $a \vdash b \equiv /a \lor b$ and $a \dashv b \equiv a \lor /b$
 
 in [[set theory]], if $U$ is a [[set#subset]] of $V$ and $V$ is a [[set#subset]] of $U$, then $V$ is $U$. in this [[math notation]]: $(U\ x \vdash V\ x) \land (U\ x \dashv V\ x) \equiv U = V$
 
-the negation of a [[boolean logic#implication]] in this [[math notation]]: $B \vdash C \times B\ /\ C$
+the negation of a [[boolean algebra#implication]] in this [[math notation]]: $B \vdash C \times B\ /\ C$
 
 in [[conventional math notation]]: $\lnot (B \to C) = B \land \lnot C$ or $(a \in B \to a \in C) \iff a \notin B \backslash C$ or $B \subset C \iff \forall a \in C, a \notin B$

@@ -2,15 +2,11 @@
 
 **see**
 
-[[linear algebra]]
-
-[[group theory]]
+[[abstract algebra]]
 
 [[type theory]]
 
 [[lambda calculus]]
-
-[[boolean logic]]
 
 [[calculus]]
 

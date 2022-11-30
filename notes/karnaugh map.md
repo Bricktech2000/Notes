@@ -24,7 +24,7 @@ as [[karnaugh map]]s are difficult to represent in more than two dimensions, mul
 
 **applications**
 
-[[karnaugh map]]s allow the simplification of [[boolean]] expressions without using [[boolean logic]]
+[[karnaugh map]]s allow the simplification of [[boolean]] expressions without using [[boolean algebra]]
 
 > **procedure** _simplifying a [[boolean]] expression_
 >

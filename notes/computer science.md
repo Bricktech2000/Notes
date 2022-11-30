@@ -14,7 +14,7 @@
 
 [[cryptography]]
 
-[[boolean logic]]
+[[boolean algebra]]
 
 [[graph theory]]
 

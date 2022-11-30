@@ -1,8 +1,8 @@
 # Quantifier
 
-**see** [[math notation]], [[boolean logic]]
+**see** [[math notation]], [[boolean algebra]]
 
-**definition** in [[boolean logic]], a _quantifier_ is an [[operator]] that specifies how many individuals in the domain of discourse satisfy an open formula. &mdash; Wikipedia
+**definition** in [[boolean algebra]], a _quantifier_ is an [[operator]] that specifies how many individuals in the domain of discourse satisfy an open formula. &mdash; Wikipedia
 
 > **note** an _open formula_ is an expression with at least one free [[variable]], see [[linear system]]
 

@@ -1,6 +1,6 @@
 # Odd Number
 
-**see** [[math notation]], [[boolean logic]], [[number]]
+**see** [[math notation]], [[boolean algebra]], [[number]]
 
 > **example** **see** [[even odd proof examples]]
 

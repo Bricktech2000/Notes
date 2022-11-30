@@ -2,7 +2,7 @@
 
 **see**
 
-[[boolean logic#operators]]
+[[boolean algebra#operators]]
 
 [[math notation#notation]]
 

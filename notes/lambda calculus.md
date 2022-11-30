@@ -47,9 +47,9 @@ _in my [[math notation]]_
 
 ## Church Booleans
 
-#todo **equivacence** with [[boolean logic]]
+#todo **equivacence** with [[boolean algebra]]
 
-[[boolean]] values and [[boolean logic#operators]] can be defined as follows:
+[[boolean]] values and [[boolean algebra#operators]] can be defined as follows:
 
 $\text{true} = x\ y \rightarrow x$
 

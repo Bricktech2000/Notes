@@ -8,7 +8,7 @@
 
 **related**
 
-[[boolean logic]]
+[[boolean algebra]]
 
 [[cartesian product]]
 

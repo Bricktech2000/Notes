@@ -16,4 +16,4 @@ $\mathbb B \equiv \braket{\braket{\top, \bot}}$
 
 $\mathbb B \vdash \mathbb U$, see [[universal]]
 
-[[boolean]]s can be manipulated through [[boolean logic]]
+[[boolean]]s can be manipulated through [[boolean algebra]]

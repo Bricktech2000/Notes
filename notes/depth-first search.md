@@ -14,7 +14,7 @@ def depth_first_search(start):
 
     for neighbor in node.neighbors:
       if neighbor not in visited:
-        queue.append(neighbor)
+        stack.push(neighbor)
         visited.add(neighbor)
         yield neighbor
 ```

@@ -1,6 +1,6 @@
 # Logic Circuit
 
-**see** [[digital system]], [[boolean logic]]
+**see** [[digital system]], [[boolean algebra]]
 
 **see** [[truth table]], [[characteristic table]], [[excitation table]], [[characteristic equation]], [[truth table]], [[karnaugh map]], [[state table]], [[state diagram]], [[logic gate]]s
 

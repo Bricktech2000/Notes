@@ -16,7 +16,7 @@ prof name: Wassim El Ahmar
 
 [[complement]]
 
-[[boolean logic]]
+[[boolean algebra]]
 
 [[latch]], [[flip-flop]]
 

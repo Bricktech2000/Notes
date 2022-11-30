@@ -4,7 +4,7 @@
 
 **definition** A _mathematical proof_ is an inferential argument for a mathematical [[logic statement]], showing that the stated assumptions logically guarantee the conclusion. &mdash; Wikipedia
 
-[[boolean logic]] properties and identities can be useful in [[proof]]s.
+[[boolean algebra]] properties and identities can be useful in [[proof]]s.
 
 **definition**
 
@@ -12,11 +12,11 @@ a _proof by counterexample_ is a form of [[proof]] for a [[logic statement]] wit
 
 **definition**
 
-a _proof by contrapositive_ is a form of [[proof]] for a conditional [[logic statement]] that shows its [[boolean logic]] contrapositive is true, deducing the original [[logic statement]] is also true
+a _proof by contrapositive_ is a form of [[proof]] for a conditional [[logic statement]] that shows its [[boolean algebra]] contrapositive is true, deducing the original [[logic statement]] is also true
 
 **definition**
 
-a _proof by contradiction_ is a form of [[proof]] that shows the [[boolean logic]] negation of a [[logic statement]] implies a [[contradiction]], deducing the [[logic statement]] must be true
+a _proof by contradiction_ is a form of [[proof]] that shows the [[boolean algebra]] negation of a [[logic statement]] implies a [[contradiction]], deducing the [[logic statement]] must be true
 
 **definition**
 

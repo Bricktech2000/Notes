@@ -1,6 +1,6 @@
 # Vector Space
 
-**see** [[vector]], [[vector in rn]], [[matrix]], [[math notation]], [[basis]]
+**see** [[vector]], [[vector in rn]], [[matrix]], [[math notation]], [[basis]], [[algebraic structure]]
 
 **types**
 

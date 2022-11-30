@@ -17,6 +17,10 @@ there appears to be a standard way to build contexts in which we do [[mathematic
 > - [[lambda calculus]]
 > - [[logic]]
 
+**applications**
+
+[[category theory]] is a tool that can be used for studying [[algebraic structure]]s &mdash; <https://en.wikipedia.org/wiki/Algebraic_structure>
+
 ---
 
 [[function]]s and [[type]]s can be viewed as morphisms and objects in a [[category theory]] context

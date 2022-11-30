@@ -1,14 +1,14 @@
-# Boolean Logic
+## Boolean Algebra
 
 **see** [[boolean]]
 
-**see** [[math notation]], [[disjunctive normal form]], [[conjunctive normal form]], [[quantifier]]
+**see** [[math notation]], [[disjunctive normal form]], [[conjunctive normal form]], [[quantifier]], [[algebraic structure]]
 
 **definition** two boolean expressions (or [[logic statement]]s) are said to be _logically equivalent_ if they yield the same output for every input. in other words, two boolean expressions (or [[logic statement]]s) are _logically equivalent_ if they share the same [[truth table]]
 
-boolean expressions can be simplified to a different but logically equivalent expression using [[boolean logic]] through [[boolean logic#operators]], or alternatively visually using [[karnaugh map]]s or [[truth table]]s
+boolean expressions can be simplified to a different but logically equivalent expression using [[boolean algebra]] through [[boolean algebra#operators]], or alternatively visually using [[karnaugh map]]s or [[truth table]]s
 
-> #todo the correspondence between [[boolean logic]] and [[operator]]s on [[real]]s is a lattice. &mdash; Terramorpha
+> #todo the correspondence between [[boolean algebra]] and [[operator]]s on [[real]]s is a lattice, see [[lattice theory]]. &mdash; Terramorpha
 >
 > $\land A \vdash B$
 >
@@ -20,7 +20,7 @@ boolean expressions can be simplified to a different but logically equivalent ex
 
 # Operators
 
-**see** [[boolean]], [[boolean logic]]
+**see** [[boolean]], [[boolean algebra]]
 
 boolean [[operator]]s can be modeled in [[logic circuit]]s through [[logic gate]]s
 
@@ -118,7 +118,7 @@ doubleconcave-pointycurve [[logic gate]]. if the [[logic gate]] does not take ex
 
 **aka** _Conditional [[logic statement]]_
 
-**definition** if $x = \top$, then the conditional [[logic statement]] $x \vdash y$ is said to be _vacuously true_, see [[boolean logic]]
+**definition** if $x = \top$, then the conditional [[logic statement]] $x \vdash y$ is said to be _vacuously true_, see [[boolean algebra]]
 
 **definition** $/x \dashv /y$ is the _contrapositive_ of the [[logic statement]] $x \vdash y$. they are logically equivalent
 

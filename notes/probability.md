@@ -1,6 +1,6 @@
 # Probability
 
-**see** [[math notation]], [[boolean logic]]
+**see** [[math notation]], [[boolean algebra]]
 
 **definition** a _sample space_ $S$ is a [[set]] of elements
 

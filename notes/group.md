@@ -1,12 +1,12 @@
 # Group
 
-**see** [[math notation]]
+**see** [[math notation]], [[algebraic structure]]
 
 &mdash; <https://youtu.be/KufsL2VgELo>
 
 &mdash; <https://youtu.be/mvmuCPvRoWQ>
 
-> a [[group]] is a [[monoid]] where every element also has an inverse &mdash; <https://youtu.be/p54Hd7AmVFU?t=1807>
+_a [[monoid]] where every element also has an inverse_ &mdash; <https://youtu.be/p54Hd7AmVFU?t=1807>
 
 **definition** a [[group]] is a finite or infinite [[set]] of invertible elements equipped with a closed associative binary operation and an identity element. &mdash; Wikipedia and me
 
@@ -72,11 +72,3 @@ $\cdot \smash\cdot a = a$
 ## Subgroup
 
 **theorem** _Lagrange's Theorem_ let $G$ be a [[group]] and $H$ be a [[group#subgroup]] of $G$. then, $\psi\ \#\ H \le \psi\ \#\ G$ or equivanently $\psi\ \#\ \ \vdots\ \ H \le G$, see [[psi function in mat2348]]
-
-## Abelian Group
-
-**aka** _commutative [[group]]_
-
-&mdash; <https://en.wikipedia.org/wiki/Abelian_group>
-
-**definition** a [[group]] $G$ is an _abelian group_ if and only if $a : b = b : a \dashv G\ a \land G\ b$

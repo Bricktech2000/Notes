@@ -4,13 +4,13 @@
 
 **aka** _DNF, SoP_
 
-**definition** a compound proposition is said to be in _DNF_ if it is a _disjunction of conjunctive clauses_, see [[boolean logic]]
+**definition** a compound proposition is said to be in _DNF_ if it is a _disjunction of conjunctive clauses_, see [[boolean algebra]]
 
 **procedures**
 
 > **procedure** _converting a [[boolean]] expression to [[disjunctive normal form]]_
 >
-> **see** [[boolean logic]]
+> **see** [[boolean algebra]]
 >
 > 1. build a [[truth table]] using the [[boolean]] expression
 > 2. write a conjunctive clause for each $\top$ row of the [[truth table]]
@@ -22,4 +22,4 @@
 
 **applications**
 
-Sums of Products can be used to easily convert a [[boolean]] expression to only NOR [[logic gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $\times\ A \equiv \times\ A \lor A$, see [[boolean logic]]
+Sums of Products can be used to easily convert a [[boolean]] expression to only NOR [[logic gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $\times\ A \equiv \times\ A \lor A$, see [[boolean algebra]]

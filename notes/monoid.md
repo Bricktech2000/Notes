@@ -1,5 +1,7 @@
 # Monoid
 
+**see** [[math notation]], [[algebraic structure]]
+
 it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] under [an [[operator]]]_. for example, _[[natural]]s with $0$ for a [[monoid]] under addition_
 
 **definition** a [[monoid]] is a finite or infinite [[set]] equipped with a closed associative binary operation and an identity element. &mdash; Wikipedia
