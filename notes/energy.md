@@ -29,10 +29,6 @@ $Q = mc\Delta T$, where
 - $c$ is the specific heat of the body
 - $\Delta T$ is the change in [[temperature]] of the body
 
-**constants**
-
-$c_{H_2O} = 4.184 \shortmid \text{J} \text- \text{g} ^\circ \text{C}$
-
 ## Potential Energy
 
 **definition**

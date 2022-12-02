@@ -2,4 +2,4 @@
 
 **see** [[electromagnetic wave]], [[math notation]]
 
-> **constant** $c = 2.99792458 \shortmid 10[8]\ \text{m-s}$
+> **constant** $c = 299792458\ \text{m-s}$

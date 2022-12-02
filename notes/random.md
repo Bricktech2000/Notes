@@ -780,3 +780,13 @@ $a\ \dot:\ b$
 $a\ \dot\land\ b$
 
 $a\ \dot\lor\ b$
+
+---
+
+```mermaid
+graph TD
+  A(Object 1)
+  B(Object 2)
+  A -- morphism --> B
+  A -- identity --> A
+```

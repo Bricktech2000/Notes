@@ -2,6 +2,10 @@
 
 **see** [[math notation]]
 
+**properties**
+
+[[conventional math notation]] is [[flawed but established]]
+
 **cons** _fixed in my [[math notation]]_
 
 - [[set]] builder notation $\lbrace \mid \rbrace$ is just a $\cap$

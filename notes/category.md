@@ -136,7 +136,7 @@ to do so, they must use a pair of [[function]]s to [[map]] both [[category#objec
 
 **definition** for any [[category]] $\mathcal C$, one can define the _opposite category_ $\mathcal C^{op}$ by reversing all its morphisms
 
-this can be thought of as _reversing the direction of the arrows_ in the [[graph]] the [[category]].
+this can be thought of as _reversing the direction of the arrows_ in the [[graph]] the [[category]]
 
 ## Product
 

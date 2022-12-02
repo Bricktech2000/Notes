@@ -1,5 +1,7 @@
 # Options Market
 
+**see** [[math notation]]
+
 ## general information
 
 a single option controls 100 shares of the underlying stock
@@ -10,7 +12,7 @@ a single option has a lower [[probability]] of making a profit but limit losses 
 
 options price rise with high volatility and fall with low volatility
 
-the VIX predicts the volatility of the S&P 500 in the next 30 days. it always overstates its volatility by 4% &mdash; Felix. therefore, it is more beneficial to be an options seller than an options buyer.
+the VIX predicts the volatility of the S&P 500 in the next 30 days. it always overstates its volatility by $4\text-100$ &mdash; Felix. therefore, it is more beneficial to be an options seller than an options buyer.
 
 if the _share price_ doesn't reach the _strike price_ of an option before its _expiration_, the option will be worthless. therefore, options with a certain %OTM are more valuable when their _expiration_ further in the future.
 
@@ -34,7 +36,7 @@ if the _share price_ doesn't reach the _strike price_ of an option before its _e
 
 ## everything is priced in
 
-when trading on the [[options market]], you are trying to outsmart everyone else in the options market. it is likely that if you think you have an edge, you really don't. unless you successfully outsmart most people in the options market, you will likely make approximately $0%$ profit in the long run
+when trading on the [[options market]], you are trying to outsmart everyone else in the options market. it is likely that if you think you have an edge, you really don't. unless you successfully outsmart most people in the options market, you will likely make approximately $0\text-100$ profit in the long run
 
 &mdash; <https://youtu.be/CWXvIwv3pg4>
 
@@ -42,9 +44,9 @@ when trading on the [[options market]], you are trying to outsmart everyone else
 
 ## Best Practices
 
-each trade should be around 1-5% of the total portfolio value
+each trade should be around $1\text-100 \cdots 5\text-100$ of the total portfolio value
 
-40-50% of the portfolio value should be an asset with high [[liquidity]], such as [[money]]
+$40\text-100 \cdots 50\text-100$ of the portfolio value should be an asset with high [[liquidity]], such as [[money]]
 
 beta balancing: trades should be neutral to the market direction and not rely on the market going up or down
 

@@ -1,13 +1,17 @@
 # Extremely Spicy Hot Sauce Recipe
 
+**see** [[math notation]]
+
 cheap pepper powder for beta-carotene
 
 nonivamide for spiciness
 
+extracted using a soxhlet extractor
+
 ## first run
 
-60g powder -> 12.45g resin
+$60 \text{g}$ powder resulted in $12\ 45\text-100 \text{g}$ resin
 
 ## second run
 
-120g powder + 20g nonivamide -> 51.63g resin
+$120 \text{g}$ powder and $20 \text{g}$ nonivamide resulted in $51\ 63\text-100 \text{g}$ resin

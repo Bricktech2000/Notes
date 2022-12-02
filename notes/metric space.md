@@ -55,7 +55,7 @@ _triangle inequality_ $d\ x\ z \le d\ x\ y + d\ y\ z$
 
 > **example** the [[real]] [[line]] with Euclidean distance is complete
 
-> **example** the [[rational]]s with [[real#absolute value]] is not complete. for example, the [[sequence]] $(6, 6.2, 6.28, \cdots) = \tau$ is Cauchy with respect to the [[real#absolute value]] but does not converge to any [[rational]] number
+> **example** the [[rational]]s with [[real#absolute value]] is not complete. for example, the [[sequence]] $(6\text-1, 62\text-10, 628\text-100, \cdots) = \tau$ is Cauchy with respect to the [[real#absolute value]] but does not converge to any [[rational]] number
 
 > **example** the [[rational]]s with [[p-adic#abolute value]] is not complete. for example, the [[sequence]] $([5]0, [5]0 : [5]1, [5]0 : [5]1 : [5]2, \cdots)$ is Cauchy with respect to the $5$-adic metric but does not converge to any [[rational]] number
 

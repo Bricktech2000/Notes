@@ -1,12 +1,6 @@
 # Credit Card
 
-&mdash; <https://youtu.be/vtEuChaMDZs>
-
-&mdash; <https://www.netflix.com/watch/81345774?trackId=155573558>
-
-&mdash; <https://youtu.be/2mHsTKvAuZc>
-
-&mdash; <https://youtu.be/OCyrMg9v-vI>
+**see** [[math notation]]
 
 **pros** _advantages of [[credit card]]s over debit cards_
 
@@ -23,11 +17,21 @@
 
 ## [[fact]]s about credit cards
 
-- [[credit card]] companies make 65% to 80% of their profits through revolving debt (through late fees)
-- in America, 40% of consumers are transactors (pay their bill every month, also called _deadbeats_ from the banker's point of view), 40% are revolvers, and the rest do not own a [[credit card]]. the fourth type of consumer is known as the _hacker_ (takes advantage of [[credit card]] rewards)
-- a processing fee is charged to the merchant for every transaction (a bit less than 2%, up to 4%). merchants sometimes raise their prices to cover merchant fees
-- APR fees (also known as _interest rates_) are the fees charged by the [[bank]] to the [[credit card]] holder. they range from 12% to 23% and are on average 16% (which is huge!). interest compounds month to month: "you pay interest on the interest"
-- 30% of americans could not cover a $400\$$ emergency expense (see emergency fund, [[life-long investing]]). the next best option is credit
+- [[credit card]] companies make $65\text-100 \cdots 80\text-100$ of their profits through revolving debt (through late fees)
+- in America, $40\text-100$ of consumers are transactors (pay their bill every month, also called _deadbeats_ from the banker's point of view), $40\text-100$ are revolvers, and the rest do not own a [[credit card]]. the fourth type of consumer is known as the _hacker_ (takes advantage of [[credit card]] rewards)
+- a processing fee is charged to the merchant for every transaction (around $2\text-100 \cdots 4\text-100$). merchants sometimes raise their prices to cover merchant fees
+- APR fees (also known as _interest rates_) are the fees charged by the [[bank]] to the [[credit card]] holder. they range from $12\text-100 \cdots 23\text-100$ and are on average $16\text-100$ (which is huge!). interest compounds month to month: "you pay interest on the interest"
+- $30\text-100$ of americans could not cover a $400\$$ emergency expense (see emergency fund, [[life-long investing]]). the next best option is credit
 - the main things that trigger a bankruptcy filing include someone getting sick, someone losing their job, or a divorce. most American families can deal with their [[credit card]] debt. but when they do stumble, they get entirely tangled up in the high interest rates and fees.
 - "I shouldn't get this new phone, I can't afford it... I mean... oh well I'll pay it later anyway." this is the mentality that can prove very dangerous to a consumer's [[finance]]ial situation
-- 73% of consumers think that roll-over "makes it easier". this seems to me like a flawed way to manage [[money]]
+- $73\text-100$ of consumers think that roll-over "makes it easier". this seems to me like a flawed way to manage [[money]]
+
+## &mdash;
+
+<https://youtu.be/vtEuChaMDZs>
+
+<https://www.netflix.com/watch/81345774?trackId=155573558>
+
+<https://youtu.be/2mHsTKvAuZc>
+
+<https://youtu.be/OCyrMg9v-vI>

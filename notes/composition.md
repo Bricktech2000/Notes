@@ -18,9 +18,9 @@ $C\ f\ g = x \rightarrow f\ g\ x$, where
 >
 > let `f :: A -> B` and `g :: B -> C`. then, `g . f` has type signature `A -> C`, see [[composition]]
 
-let $\circ$ be the [[composition]] [[operator]]. then,
-
 **properties**
+
+let $\circ$ be the [[composition]] [[operator]]. then,
 
 _associativity_ $h \circ (g \circ f) \equiv (h \circ g) \circ f \equiv h \circ g \circ f$ &mdash; <https://youtu.be/SmXB2K_5lcA?t=662>
 

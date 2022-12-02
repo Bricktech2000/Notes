@@ -8,7 +8,7 @@ _just a terrible programming language_
 
 **see** [[java primitive]], [[java reference]], [[java wrapper]], [[java auto boxing]]
 
-## java hello world
+## hello world
 
 ```java
 public class HelloWorld {
@@ -39,7 +39,7 @@ Java [[scope]]s are defined using `{ /*...*/ }`
 > k++; // throws an error
 > ```
 
-## overriding equals
+## Overriding Equals
 
 **see** [[polymorphism]], [[java is a terrible language]]
 
@@ -68,16 +68,6 @@ public class Account {
 ## Garbage Collector
 
 in [[java]], memory is freed by the Garbage Collector when all references to an object are deleted. this means that memory leaks are still possible when references are not explicitly deleted.
-
-## Abstract Data Type
-
-[[abstract data type]]s include:
-
-- [[stack]]s
-- [[queue]]s
-- lists
-
-abstract data [[type]]s can be implemented through [[interface]]s
 
 ## Classes
 

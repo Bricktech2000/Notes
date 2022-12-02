@@ -40,6 +40,18 @@ let:
 - $\omega$ be any [[number]]
 - $\circ$ be any [[operator]]
 
+### numbers
+
+- [[natural]]s are represented using the [[decimal]] [[positional numeral system]]
+- [[integer]]s are represented using the unary $\cdot$ [[operator]] on [[natural]]s
+- [[rational]]s are represented using the $\text-$ [[operator]] on [[integer]]s
+- [[real]]s are represented using other [[operator]]s and [[limit]]s
+- [[p-adic]]s are currently represented using their own notation
+
+> **note** both percentages and decimals are to be represented as [[rational]]s. the $\%$ sign and the decimal $.$ are to be avoided
+
+> **note** to make [[number]]s easier to read, spaces may be introduced in where a decimal $.$ would conventially be used. for example, the value of $49 - 25$ can be written as $1\ 96\text-100$
+
 ### operator descriptions
 
 | notation                             | description                                       | notes                                               |
@@ -128,21 +140,21 @@ _in order of high to low precedence_
 
 #todo fix asymmetry between $=\ne > \ge < \le$ and $\land\ \lor \dashv\ \vdash\ \equiv \times$
 
-| operator                                       | associativity | unary identity | unary description     |
-| ---------------------------------------------- | ------------- | -------------- | --------------------- |
-| $()\ \braket{}\ \Big[ \Big]\ \ x\ x_a^i$       |               |                |                       |
-| $[]\ \lfloor\rfloor\ \lceil\rceil$             |               |                |                       |
-| $\shortmid \text-$                             | left          | $1$            | inverse               |
-| $\delta\ \sin\ \#\ \leftarrow$                 | right-ish     |                |                       |
-| $\, :\ \cdot\ \because\ \ \therefore$          | left          | $0$            | negation              |
-| $\mid -$                                       | left          | $1$            | inverse               |
-| $\int\ \ \vdots\ \ \cdots\ \rightarrow\ \bmod$ | right-ish     |                |                       |
-| $=\ne > \ge < \le$                             | AND           | $0$            | is (not) $0$          |
+| operator                                       | associativity | unary identity | unary description       |
+| ---------------------------------------------- | ------------- | -------------- | ----------------------- |
+| $()\ \braket{}\ \Big[ \Big]\ \ x\ x_a^i$       |               |                |                         |
+| $[]\ \lfloor\rfloor\ \lceil\rceil$             |               |                |                         |
+| $\shortmid \text-$                             | left          | $1$            | inverse                 |
+| $\delta\ \sin\ \#\ \leftarrow$                 | right-ish     |                |                         |
+| $\, :\ \cdot\ \because\ \ \therefore$          | left          | $0$            | negation                |
+| $\mid -$                                       | left          | $1$            | inverse                 |
+| $\int\ \ \vdots\ \ \cdots\ \rightarrow\ \bmod$ | right-ish     |                |                         |
+| $=\ne > \ge < \le$                             | AND           | $0$            | is (not) $0$            |
 | $/$                                            | left          | $\top$         | [[boolean algebra]] NOT |
-| $\land\ \lor$                                  | left          |                |                       |
-| $\dashv\ \vdash$                               | left          |                |                       |
+| $\land\ \lor$                                  | left          |                |                         |
+| $\dashv\ \vdash$                               | left          |                |                         |
 | $\equiv \times$                                | AND           | $\top$         | [[boolean algebra]] NOT |
-| $,$                                            |               |                |                       |
+| $,$                                            |               |                |                         |
 
 > **note** above,
 >

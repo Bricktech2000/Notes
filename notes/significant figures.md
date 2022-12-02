@@ -1,6 +1,6 @@
 # Significant Figures
 
-**see** [[math notation]]
+**see** [[conventional math notation]]
 
 &mdash; <http://cxp.cengage.com/contentservice/assets/owms01h/references/significantfigures/index.html>
 
@@ -28,7 +28,7 @@ _keep as many significant figures after the last significant digit as the lowest
 >
 > $\ \ \ \ \ \ 530$ (2 significant figures)
 >
-> $\, : \ 1140.5$ (5 significant figures, offset)
+> $\, + \ 1140.5$ (5 significant figures, offset)
 >
 > $=1190$ (3 significant figures, trailing digits cut off)
 
@@ -42,7 +42,7 @@ _keep as many significant figures to the right of the decimal point as there are
 
 > **example**
 >
-> $\lceil 4.000 \rceil 10$ (4 significant figures)
+> $\log 4.000$ (4 significant figures)
 >
 > $= 0.6021$ (4 significant figures on the right of the decimal point)
 
@@ -50,8 +50,8 @@ _keep as many significant figures to the right of the decimal point as there are
 
 _keep the same number of significant figures as the number of significant figures after the decimal point in the original number_
 
-> \*\*example
+> **example**
 >
-> $10[\cdot 2.55]$ (2 significant figures on the right of the decimal point)
+> $10^{-2.55}$ (2 significant figures on the right of the decimal point)
 >
-> $= 2.8 10[\cdot 3]$ (2 significant figures)
+> $= 2.8 \times 10^{-3}$ (2 significant figures)

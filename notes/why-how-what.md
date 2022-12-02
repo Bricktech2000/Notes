@@ -189,6 +189,8 @@ _what_ represents the item itself
 
 [[life quotes]]
 
+[[adt organization]]
+
 ## How
 
 **hack**
@@ -262,6 +264,8 @@ _what_ represents the item itself
 [[personal issues with university]]
 
 [[goals and risk]]
+
+[[adt organization]]
 
 **other**
 

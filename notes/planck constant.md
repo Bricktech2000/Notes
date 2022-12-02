@@ -2,4 +2,4 @@
 
 **see** [[math notation]]
 
-$h = 6.62608\ 10[\cdot 34] \text{J}\text{s}$
+> **constant** $h = 6\ 62608\text-10000 \shortmid 10[\cdot 34] \text{J}\text{s}$

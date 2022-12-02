@@ -1,6 +1,6 @@
 # 🅵🅸🅴🅻🅳🆂
 
-[[economics]], [[finance]]
+[[economics]], [[finance]], [[business]]
 
 [[psychology]], [[productivity]]
 

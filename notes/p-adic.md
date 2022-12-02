@@ -55,7 +55,7 @@ $|n|^p = -p[\psi\ n\ p]$, where
 - $p[\psi\ n\ p]$ is the highest power of $p$ that divides $n$, see [[psi function in mat2348]]
 - $|n|^p$ is the [[p-adic#absolute value]] of $n$
 
-> **example** $|1000|^{10} = -1000 = 0.001$
+> **example** $|1000|^{10} = \text-1000$
 
 > **example** $p$-adically, $p[n]\ \ \vdots\ \ n \rightarrow \infty = 0$
 

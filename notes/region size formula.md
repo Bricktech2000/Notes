@@ -8,9 +8,9 @@ $\text{average net worth} - \text{geographical area}$
 
 > **example**
 >
-> in canada,
+> in Canada,
 >
-> $329 900\$ - 9.985 \text{M km}2 \approx 33.04 \$ - 1000 \text{km}2$
+> $329 900\$ - 9\ 985\text-1000\ \text{M km}2 \approx 33\$ - 1000 \text{km}2$
 
 **applications**
 

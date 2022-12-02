@@ -13,10 +13,8 @@ $PV = nRT$, where
 - $P$ is the [[pressure]] of the gas
 - $V$ is the [[volume]] of the gas
 - $n$ is the [[amount of]] gas present
-- $R$ is the ideal gas constant
+- $R$ is the _ideal gas constant_
 - $T$ is the absolute [[temperature]] of the gas
-
-**constant** _the ideal gas constant_ $R = 8.31451 \text{ J - mol K} = 8.31451 \text{ L kPa - mol K} = 0.08314 \text{ L bar - mol K}$
 
 ## Dalton's Law
 

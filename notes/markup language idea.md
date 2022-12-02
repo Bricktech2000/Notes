@@ -9,6 +9,13 @@ in this [[programming language]],
 - every control character can be escaped with a `\`, with no ambiguous exceptions
 - constructs can be nested, and in a way that is actually consistent
 
+## things to iron out
+
+#think
+
+- syntax for tables, checkboxes, tags, dates, keyboard shortcuts...
+- support for running code blocks and parsing their `stdout` as markup
+
 ---
 
 # constructs
@@ -55,16 +62,6 @@ third line
   # name of section
     content of section
     continuation of content
-
-# tables
-  / TODO: find better syntax for tables
-
-  | header 1  header   |
-              number 2
-  | ------------------ |
-  | data 1    data 2   |
-    data 1.1   data 2.1
-  | data 3    data 4   |
 
 # quotes
   | quote
