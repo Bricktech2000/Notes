@@ -790,3 +790,23 @@ graph TD
   A -- morphism --> B
   A -- identity --> A
 ```
+
+```mermaid
+graph LR
+  A(Client)
+  B(API)
+  C(DB)
+  D(Stripe)
+  E(SendGrid)
+  F(RabbitMQ)
+
+  A -- POST --> B
+  subgraph 5. Transaction
+    B -- 1. --> C
+  end
+  B -- 2. ---> D
+  B -- 3. ---> E
+  B -- 4. ---> F
+```
+
+mermaid recreation of <https://youtu.be/VvUdvte1V3s?t=327>

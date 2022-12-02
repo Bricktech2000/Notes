@@ -9,16 +9,16 @@ _an intermediate representation for a [[programming language]]_
 `7 + 3 * 4` can be represented using the following [[abstract syntax tree]]:
 
 ```mermaid
-graph TD;
-A(+)
-B(7)
-C(*)
-D(3)
-E(4)
-A --> B
-A --> C
-C --> D
-C --> E
+graph TD
+  A(+)
+  B(7)
+  C(*)
+  D(3)
+  E(4)
+  A --> B
+  A --> C
+  C --> D
+  C --> E
 ```
 
 **representation**
