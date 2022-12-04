@@ -90,7 +90,7 @@ $\begin{bmatrix}1 & 2 & 3 \\\  4 & 5 & 6\end{bmatrix}\begin{bmatrix}x \\\  y \\\
 
 **definition**
 
-$(0 \cdots)\ \dot=\ (0 \cdots)$
+$(\circ\ \dot=\ \circ)\ (0 \cdots)$
 
 **examples**
 
@@ -108,7 +108,7 @@ $AI = A \land IA = A \dashv \mathbb M A$
 
 **definition**
 
-$O\ \dot=\ 0$
+$(\circ\ \dot\mid\ \circ)\ (0 \cdots 0)$
 
 **examples**
 

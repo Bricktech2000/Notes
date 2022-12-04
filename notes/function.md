@@ -402,3 +402,23 @@ even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it w
 ## Parametrically Polymorphic Function
 
 **definition** a [[function]] is said to be _parametrically polymorphic_ if it is possible to replace the [[type]] of its input with a different [[type]] without having any effect on its behavior. such [[function]]s can be implemented with the same "formula" for any [[type]]. &mdash; <https://youtu.be/aIOMRqiwziM?t=540>
+
+## Idempotent Function
+
+&mdash; <https://en.wikipedia.org/wiki/Idempotence>
+
+&mdash; <https://youtu.be/VvUdvte1V3s?t=1261>
+
+**definition** _[[procedural programming]]_ a [[function]] with side effects is said to be _idempotent_ if calling it multiple times results in the same system state as calling it once
+
+> **example** HTTP `GET`, `PUT` and `DELETE` are all idempotent
+
+**definition** _[[functional programming]] and [[mathematics]]_ an element $x$ of a [[set]] $S$ equiped with an [[operator]] $\circ$ is said to be _idempotent under $\circ$_ if $x \circ x = x$
+
+**definition** _[[functional programming]] and [[mathematics]]_ a [[function]] $f$ is said to be _idempotent_ if $f\ x = f\ (f\ x)$ for all $x$ and, equivalently, an [[operator]] $\circ$ on a set $S$ is said to be _idempotent_ if $x \circ x = x$ for all $S\ x$
+
+> **example** in the [[monoid]] $\braket{\mathbb N, \mid}$, only $0$ and $1$ are idempotent
+
+> **example** in a [[group]] $\braket{\mathbb G, :}$, only $O$ (the identity element) is idempotent
+
+> **example** $||$ is a [[function#idempotent function]] because $|x| = ||x||$ for all $x$

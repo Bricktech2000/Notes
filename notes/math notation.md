@@ -52,6 +52,26 @@ let:
 
 > **note** to make [[number]]s easier to read, spaces may be introduced in where a decimal $.$ would conventially be used. for example, the value of $49 - 25$ can be written as $1\ 96\text-100$
 
+```
+: . | -- - [] () / \ <> -> <- = < > <= >= / === |- -| ... /\ \/ o d S e i # II ; `
+
+-=][)(*&^%$#@!`~_+|}{:"<>?/.,;'\
+
+missing: \shortmid \vdots \times \top \bot \tau \psi \mathbb \lfloor \rfloor \lceil \rceil ^ \sigma
+```
+
+`x = .b : \b2.4ac/ -- 2a` $x = \cdot b : \lfloor b2 \cdot 4ac \rfloor - 2a$
+
+`e[it] = 1` $e[\iota\tau] = 1$
+
+`/e\ = 1` $\lceil e \rceil = 1$
+
+`i = \.1/` $\iota = \lfloor \cdot 1 \rfloor$
+
+`S f x | dx` $\int f\ x \mid \delta x$
+
+`C x == x = a : bi /\ Ra /\ Rb` $\mathbb C x =\!= x = a : b\iota \land \mathbb R a \land \mathbb R b$
+
 ### operator descriptions
 
 | notation                             | description                                       | notes                                               |
@@ -125,10 +145,11 @@ let:
 | constant      | definition                                                   | notes                                       |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------- |
 | $\varnothing$ | _undefined_                                                  | see [[improved expression evaluation]]      |
-| $\top$        | logical true                                                 |                                             |
-| $\bot$        | logical false                                                |                                             |
+| $\top$        | [[boolean]] _true_                                           |                                             |
+| $\bot$        | [[boolean]] _false_                                          |                                             |
+| $\circ$       | the identity over [[function]] [[composition]]               |                                             |
 | $\tau$        | the ratio of the circumference of a [[circle]] to its radius | using $\pi$ is discouraged                  |
-| $e$           | Euler's constant                                             | see [[eulers constant]]                     |
+| $e$           | [[eulers constant]]                                          |                                             |
 | $\iota$       | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]], using $i$ is discouraged |
 | $\Pi$         | the [[pi function]]                                          | using $\operatorname{fact}$ is discouraged  |
 | $\#$          | the number of "links" in a [[function]]                      | #todo define rigorously                     |
@@ -142,13 +163,13 @@ _in order of high to low precedence_
 
 | operator                                       | associativity | unary identity | unary description       |
 | ---------------------------------------------- | ------------- | -------------- | ----------------------- |
-| $()\ \braket{}\ \Big[ \Big]\ \ x\ x_a^i$       |               |                |                         |
-| $[]\ \lfloor\rfloor\ \lceil\rceil$             |               |                |                         |
+| $()\ \braket{}\ \Big[ \Big]\ \ x\ x_a^i\ 123$  |               |                |                         |
+| $[]\ \lfloor\rfloor\ \lceil\rceil$             |               | $2$ or $e$     | see above               |
 | $\shortmid \text-$                             | left          | $1$            | inverse                 |
-| $\delta\ \sin\ \#\ \leftarrow$                 | right-ish     |                |                         |
+| $\delta\ \sin\ \#\ \leftarrow$                 | left-ish      |                |                         |
 | $\, :\ \cdot\ \because\ \ \therefore$          | left          | $0$            | negation                |
 | $\mid -$                                       | left          | $1$            | inverse                 |
-| $\int\ \ \vdots\ \ \cdots\ \rightarrow\ \bmod$ | right-ish     |                |                         |
+| $\int\ \ \vdots\ \ \cdots\ \rightarrow\ \bmod$ | left-ish      |                |                         |
 | $=\ne > \ge < \le$                             | AND           | $0$            | is (not) $0$            |
 | $/$                                            | left          | $\top$         | [[boolean algebra]] NOT |
 | $\land\ \lor$                                  | left          |                |                         |
@@ -160,6 +181,7 @@ _in order of high to low precedence_
 >
 > - $x$ represents [[variable]]s
 > - $x_a^i$ represents subscripts and superscripts
+> - $123$ represents [[number]] literals
 > - $\leftarrow$ represents [[function]] application
 > - $\rightarrow$ represents [[function]] literals
 > - $\Big[ \Big]$ represents [[matrix]] literals

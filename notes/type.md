@@ -35,6 +35,8 @@ as examples, in Haskell, type `Bool` is a two-element [[set]] of `True` and `Fal
 >   method: PaymentMethod,
 > };
 > ```
+>
+> &mdash; <https://youtu.be/mRwHZTNGdoY?t=2366>
 
 **applications**
 

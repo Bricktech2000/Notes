@@ -810,3 +810,63 @@ graph LR
 ```
 
 mermaid recreation of <https://youtu.be/VvUdvte1V3s?t=327>
+
+---
+
+## Day 1
+
+input structure: $((1000, 2000, 3000), (4000), (5000, 6000), (7000, 8000, 9000), (10000))$
+
+### Part 1
+
+$d \rightarrow\ \!\lor\ \!\dot:\ d$
+
+### Part 2
+
+$d \rightarrow\ \ge\ \!\dot:\ d\ \ \vdots\ \ 0 : \cdots 2$
+
+## Day 2
+
+input structure: $(\braket{0, 1}, \braket{1, 0}, \braket{2, 2})$
+
+### Part 1
+
+$d \rightarrow\ \!: (i \rightarrow (d\ i)^\top : a)$ (not finished)
+
+## Day 3
+
+input structure: $((1, 27, 34, 12, 52)$ (not finished)
+
+### Part 1
+
+let $s\ V = \braket{V\ \ \vdots\ \ 0 \cdots\ \text-2 \# V \cdot 1, V\ \ \vdots\ \ \text-2 \# V \cdots \# V \cdot 1}$
+
+$d \rightarrow s\ d\ \top = s\ d\ \bot$ (not finished)
+
+### Part 2
+
+(not completed)
+
+---
+
+given a [[list]] of [[integer]]s $M$, return a [[list]] $N$ where $N\ i$ is the product of all the elements of $M$ except $M\ i$
+
+$M\ i \rightarrow\ \!\mid M - M\ i$
+
+using [[rank polymorphism]],
+
+$M \rightarrow\ \!\mid M - M$
+
+then using an APL fork and $\circ$ as the identity [[function]],
+
+$| - \circ$
+
+&mdash; <https://youtu.be/bXsKo2ZhgTg>
+
+---
+
+$d \rightarrow\ \!: (d\ (1 \cdots) > d)$
+
+$a = \!: b$
+
+$a = \,: b$
