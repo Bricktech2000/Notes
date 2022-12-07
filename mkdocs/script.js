@@ -26,6 +26,10 @@ document$.subscribe(() => {
       .replace(/!/g, '\\!')
       .replace(/\\\\/g, '\\');
   });
+  const code = document.querySelectorAll('code');
+  code.forEach((c) => {
+    c.innerHTML = c.innerHTML.replace(/\\&lt;/g, '&lt;');
+  });
 
   // add tag support
   const items = document
