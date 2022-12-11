@@ -47,4 +47,4 @@ image processing
 >
 > $1x0 : 2x1 : 3x2 \mid 4x0 : 5x1 : 6x2 = 4x0 : 13x1 : 28x2 : 27x3 : 18x4$
 >
-> &mdash; https://youtu.be/KuXjwB4LzSA?t=879
+> &mdash; <https://youtu.be/KuXjwB4LzSA?t=879>

@@ -1,7 +1,7 @@
 ## C++: What Comes Next?
 
 <?
-slides taken from https://youtu.be/omrY53kbVoA
+slides taken from <https://youtu.be/omrY53kbVoA>
 ?>
 
 ---

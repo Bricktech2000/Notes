@@ -371,6 +371,8 @@ let $\mathbb M^{n, n} A$ (see [[matrix]]). the following [[logic statement]]s ar
 
 > **note** all [[logic statement]]s below are valid for both $A$ and $A^\intercal$, see [[matrix#transpose]]
 
+> **note** thinking of [[matrix]]es as [[linear transformation]]s makes the following [[logic statement]]s easier to understand intuitively
+
 - $rank\ A = n$
 - every [[linear system]] of the form $Ax = b$ has a unique solution
 - the [[linear system#reduced row echelon form]] of $A$ is the [[matrix#identity matrix]]
@@ -382,4 +384,4 @@ let $\mathbb M^{n, n} A$ (see [[matrix]]). the following [[logic statement]]s ar
 - the columns of $A$ form a [[basis]] for $\mathbb R^n$
 - the rows of $A$ form a [[basis]] for $\mathbb R^n$
 - $A$ is an invertible [[matrix]]
-- $\det A + 0$
+- $\det A + 0$, see [[determinant#intuition]]

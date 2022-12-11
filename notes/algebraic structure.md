@@ -2,7 +2,7 @@
 
 **see** [[abstract algebra]], [[pure mathematics]]
 
-&mdash; https://en.wikipedia.org/wiki/Algebraic_structure
+&mdash; <https://en.wikipedia.org/wiki/Algebraic_structure>
 
 **definition**
 

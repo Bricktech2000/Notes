@@ -10,4 +10,4 @@ the [[color]]s on the outer edge of a [[cie diagram]] are pure
 
 ![[Pasted image 20221207215805.png]]
 
-&mdash; https://youtu.be/M47YdERx11s?t=347
+&mdash; <https://youtu.be/M47YdERx11s?t=347>

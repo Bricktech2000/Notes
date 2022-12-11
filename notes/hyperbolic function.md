@@ -14,4 +14,4 @@ $x = \cosh \theta \land y = \sinh \theta$, and $\tanh \theta = \sinh \theta - \c
 
 ## identities
 
-$\cosh x : \sinh x = [e]x$ &mdash; https://en.wikipedia.org/wiki/De_Moivre%27s_formula#Hyperbolic_trigonometry
+$\cosh x : \sinh x = [e]x$ &mdash; <https://en.wikipedia.org/wiki/De_Moivre%27s_formula#Hyperbolic_trigonometry>

@@ -14,7 +14,33 @@ $\det A = \det A^\intercal$, see [[matrix#transpose]]
 
 $\det cA = c^n \mid \det A$, where $n$ is the width and height of the [[matrix]]
 
-**procedures**
+**properties**
+
+**see** [[linear system#elementary operation]]
+
+_adding a multiple of a row or column to another row or column_ $\det A = \det A'$
+
+_swapping any two rows or two columns_ $\det A = \cdot \det A'$
+
+_multiplying a row or a column by a [[scalar]] $c$_ $\det A = c \det A'$
+
+#todo mm
+
+$\det AB = \det A \mid \det B$
+
+#todo mm
+
+$\det\ [A]m = [\det A]m \dashv \mathbb N m$
+
+$\det A = 0$ if and only if $A$ is not invertible, see [[matrix]]
+
+#todo mm
+
+$\det\ \text-A = -\det A$ if and only if $A$ is invertible, see [[matrix]]
+
+> **note** the equation above is beautiful, as in [[conventional math notation]], $A^{-1}$ is a [[matrix#inverse]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
+
+## Computation
 
 > **procedure** _computing the determinant using [[recursion]]_ see #magic
 >
@@ -40,32 +66,6 @@ $\det cA = c^n \mid \det A$, where $n$ is the width and height of the [[matrix]]
 >
 > [[linear system#elementary operation]]s have a consistent effect on the [[determinant]] of a [[matrix]] (see properties below). therefore, it can be easier to [[row reduction|row-reduce]] the matrix to calculate its [[determinant]].
 
-**properties**
+## Intuition
 
-**see** [[linear system#elementary operation]]
-
-_adding a multiple of a row or column to another row or column_ $\det A = \det A'$
-
-_swapping any two rows or two columns_ $\det A = \cdot \det A'$
-
-_multiplying a row or a column by a [[scalar]] $c$_ $\det A = c \det A'$
-
-#todo mm
-
-$\det AB = \det A \mid \det B$
-
-#todo mm
-
-$\det [A]m = [\det A]m \dashv \mathbb N m$
-
-$\det A = 0$ if and only if $A$ is not invertible, see [[matrix]]
-
-#todo mm
-
-$\det \text-A = -\det A$ if and only if $A$ is invertible, see [[matrix]]
-
-> **note** the equation above is beautiful, as in [[conventional math notation]], $A^{-1}$ is a [[matrix#inverse]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
-
-## intuitive explanation
-
-> the [[determinant]] is all about measuring how [[area]]s change during a [[linear transformation]]. after the transformation, the $1$ by $1$ unit square formed by the [[vector in rn#unit vector]]s $\vec i$ and $\vec j$ gets turned into the parallelogram formed by the two [[vector in rn]]s &mdash; 3B1B
+> the [[determinant]] is all about measuring how [[area]]s change during a [[linear transformation]] represented as [[matrix#multiplication]]. after the transformation, the $1$ by $1$ unit square formed by the [[vector in rn#unit vector]]s $\vec \imath$ and $\vec \imath$ gets turned into a parallelogram whose [[area]] is the [[determinant]] of the [[linear transformation#standard matrix]] &mdash; 3B1B
