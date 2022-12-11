@@ -22,7 +22,7 @@ $f\ x \mid g\ x\ \ \vdots\ \ x \rightarrow a = (f\ x\ \ \vdots\ \ x \rightarrow 
 
 ## quotient rule
 
-$f\ x - g\ x\ \ \vdots\ \ x \rightarrow a = (f\ x\ \ \vdots\ \ x \rightarrow a) - (g\ x\ \ \vdots\ \ x \rightarrow a) \dashv g\ x\ \ \vdots\ \ x \rightarrow a \ne 0$ (restriction not necessary, see [[improved expression evaluation]])
+$f\ x - g\ x\ \ \vdots\ \ x \rightarrow a = (f\ x\ \ \vdots\ \ x \rightarrow a) - (g\ x\ \ \vdots\ \ x \rightarrow a) > g\ x\ \ \vdots\ \ x \rightarrow a + 0$ (restriction not necessary, see [[improved expression evaluation]])
 
 ## power rule
 
@@ -30,7 +30,7 @@ $[f\ x]n\ \ \vdots\ \ x \rightarrow a = [f\ x\ \ \vdots\ \ x \rightarrow a]n$
 
 ### derived root rule
 
-$\lfloor f\ x \rfloor n\ \ \vdots\ \ x \rightarrow a = \lfloor f\ x\ \ \vdots\ \ x \rightarrow a \rfloor n$. when $\mathbb E n$ (see [[even number]]), we assume that $f\ x\ \ \vdots\ \ x \rightarrow a \ne 0$ (restriction might not be necessary, see [[improved expression evaluation]])
+$\lfloor f\ x \rfloor n\ \ \vdots\ \ x \rightarrow a = \lfloor f\ x\ \ \vdots\ \ x \rightarrow a \rfloor n$. when $\mathbb E n$ (see [[even number]]), we assume that $f\ x\ \ \vdots\ \ x \rightarrow a + 0$ (restriction might not be necessary, see [[improved expression evaluation]])
 
 ## composition rule
 
@@ -38,13 +38,13 @@ $f\ g\ x\ \ \vdots\ \ x \rightarrow a = f\ (g\ x\ \ \vdots\ \ x \rightarrow a)$ 
 
 ## infinity rules
 
-$[x]r\ \ \vdots\ \ x \rightarrow \because \infty = 0 \dashv r < 0$
+$[x]r\ \ \vdots\ \ x \rightarrow \because \infty = 0 > r\ (\dashv \land +)\ 0$
 
 $-x\ \ \vdots\ \ x \rightarrow 0 =\ \because \infty$
 
 ## squeeze theorem
 
-let $f\ x \le g\ x \le h\ x$ for $x$ near a value $a$
+let $f\ x \dashv g\ x \dashv h\ x$ for $x$ near a value $a$
 
 if $f\ x\ \ \vdots\ \ x \rightarrow a = h\ x\ \ \vdots\ \ x \rightarrow a = L$, then $g\ x\ \ \vdots\ \ x \rightarrow a = L$
 
@@ -54,7 +54,7 @@ _used to compute [[limit]]s in [[limit#indeterminate form]]s using their [[deriv
 
 **theorem**
 
-let $f\ x$ and $g\ x$ be differentiable [[function]]s on an open interval $I / a$. if $\delta\ g\ x - \delta x \ne 0 \dashv (I / a)\ x$ (restriction not necessary, see [[improved expression evaluation]]) and $f\ x\ \ \vdots\ \ x \rightarrow a = g\ x\ \ \vdots\ \ x \rightarrow a = 0$ and $\delta\ f\ x - \delta\ g\ x\ \ \vdots\ \ x \rightarrow a$ is a [[limit]] that exists, then $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a = \delta\ f\ x - \delta\ g\ x\ \ \vdots\ \ x \rightarrow a$ &mdash; Wikipedia
+let $f\ x$ and $g\ x$ be differentiable [[function]]s on an open interval $I \land +a$. if $\delta\ g\ x - \delta x + 0 > (I \land +a)\ x$ (restriction not necessary, see [[improved expression evaluation]]) and $f\ x\ \ \vdots\ \ x \rightarrow a = g\ x\ \ \vdots\ \ x \rightarrow a = 0$ and $\delta\ f\ x - \delta\ g\ x\ \ \vdots\ \ x \rightarrow a$ is a [[limit]] that exists, then $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a = \delta\ f\ x - \delta\ g\ x\ \ \vdots\ \ x \rightarrow a$ &mdash; Wikipedia
 
 intuitive explanation &mdash; <https://youtu.be/kfF40MiS7zA?t=734>
 

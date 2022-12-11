@@ -6,13 +6,13 @@
 
 &mdash; <https://en.wikipedia.org/wiki/Hadamard_product_(matrices)#Properties>
 
-**definition** the [[hadamard product]] of $s$ and $t$ is $st$, where $s$ and $t$ have the same rank and the same shape
+**definition** the [[hadamard product]] of $s$ and $t$ is $st$, where $s$ and $t$ have the same rank and the same shape. see [[rank polymorphism]]
 
 > **example** $\begin{bmatrix} 1 \\\ 2 \end{bmatrix} \mid \begin{bmatrix} 3 \\\ 4 \end{bmatrix} = \begin{bmatrix} 1 \mid 3 \\\ 2 \mid 4 \end{bmatrix} = \begin{bmatrix} 3 \\\ 8 \end{bmatrix}$
 
 **properties**
 
-let $\mathbb R k \land \mathbb M A \land \mathbb M B \land \mathbb R C$
+let $\mathbb R k \land \mathbb M A \land \mathbb M B \land \mathbb M C$
 
 _commutative_ $AB = BA$
 

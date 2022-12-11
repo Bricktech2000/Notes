@@ -6,8 +6,8 @@
 
 a [[function]] $\mathcal F$ between [[set]]s $A$ and $B$ is a [[relation]] between $A$ and $B$ such that:
 
-1.  $\mathcal F\ (a, b) \land B\ b \dashv A\ a$ or alternatively $B\ f\ a \dashv A\ a$ &mdash; there is some output for every single input
-2.  $\mathcal F\ (a, b_1) \land \mathcal F\ (a, b_2) \vdash b_1 = b_2$ or alternatively $a_1 = a_2 \vdash f\ a_1 = f\ a_2$ &mdash; there is exactly one output for any input
+1. $\mathcal F\ (a, b) \land B\ b > A\ a$ or alternatively $B\ f\ a > A\ a$ &mdash; there exists some output for every input
+2. $\mathcal F\ (a, b_1) \land \mathcal F\ (a, b_2) < b_1 = b_2$ or alternatively $a_1 = a_2 < f\ a_1 = f\ a_2$ &mdash; there exists exactly one output for any input
 
 one can use the _horizontal [[line]] test_ to determine whether the graph of a curve is the graph of a [[function]]
 
@@ -43,7 +43,7 @@ one can use the _horizontal [[line]] test_ to determine whether the graph of a c
 
 **properties**
 
-_zero [[function]]_ $O x = 0 \dashv \mathbb R x$
+_zero [[function]]_ $O x = 0$
 
 _[[function]] addition_ $(f : g)\ x = f\ x : g\ x$
 
@@ -65,11 +65,11 @@ this asymmetry between the "input" and the "output" of a [[function]] is what di
 
 **properties**
 
-_codomain_ $D\ x \vdash C\ f\ x$
+_codomain_ $D\ x < C\ f\ x$
 
-_range_ $D\ x \equiv R\ f\ x$
+_range_ $D\ x =\!= R\ f\ x$
 
-$D\ x \dashv A\ f\ x$
+$D\ x > A\ f\ x$
 
 ## Function Parity
 
@@ -77,17 +77,17 @@ $D\ x \dashv A\ f\ x$
 
 _an even function is symmetrical about the y axis_
 
-**definition** $f\ x = f\ (\cdot x) \dashv \mathbb R x$
+**definition** $f\ x = f\ (\cdot x) > \mathbb R x$
 
 ### Odd Function
 
 _an odd function is symmetrical about the y axis, but also flipped about the x axis_
 
-**definition** $\cdot f\ x = f\ (\cdot x) \dashv \mathbb R x$
+**definition** $\cdot f\ x = f\ (\cdot x) > \mathbb R x$
 
 ## Periodic Function
 
-**definition** $f\ x = f\ (x : p) \land \mathbb R p \dashv \mathbb R x$
+**definition** $f\ x = f\ (x : p) \land \mathbb R p > \mathbb R x$
 
 **definition** above, $p$ is said to be the _period_ of $f$
 
@@ -97,17 +97,17 @@ _an odd function is symmetrical about the y axis, but also flipped about the x a
 
 **see** [[calculus notation]]
 
-**definition** a [[function]] $f$ is _increasing_ on an interval $x \rightarrow (a \le x \le b)$ if $x_1 < x_2 \vdash f\ x_1 < f\ x_2$, or $\delta\ f\ x - \delta x > 0$ on that interval
+**definition** a [[function]] $f$ is _increasing_ on an interval $x \rightarrow (a \dashv x \dashv b)$ if $x_1 \dashv x_2 < f\ x_1 \dashv f\ x_2$, or $\delta\ f\ x - \delta x \vdash 0$ on that interval
 
-**definition** a [[function]] $f$ is _decreasing_ on an interval $x \rightarrow (a \le x \le b)$ if $x_1 > x_2 \vdash f\ x_1 > f\ x_2$, or $\delta\ f\ x - \delta x < 0$ on that interval
+**definition** a [[function]] $f$ is _decreasing_ on an interval $x \rightarrow (a \dashv x \dashv b)$ if $x_1 \vdash x_2 < f\ x_1 \vdash f\ x_2$, or $\delta\ f\ x - \delta x \dashv 0$ on that interval
 
 ## Concavity
 
 **see** [[calculus notation]]
 
-**definition** a [[function]] $f\ x$ is _concave up_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x < 0$, it _bends upwards_
+**definition** a [[function]] $f\ x$ is _concave up_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x \vdash 0$, it _bends upwards_
 
-**definition** a [[function]] $f\ x$ is _concave down_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x > 0$, it _bends downwards_
+**definition** a [[function]] $f\ x$ is _concave down_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x \dashv 0$, it _bends downwards_
 
 a point where [[function#concavity]] changes (from up to down or down to up) is a [[function#inflection point]]
 
@@ -121,9 +121,7 @@ a point where [[function#concavity]] changes (from up to down or down to up) is 
 
 the _global extrema_ $x$ of a [[function]] $f$ with [[function#domain]] $D$ are defined as
 
-$f\ x \ge f\ y \dashv D\ y$, and
-
-$f\ x \le f\ y \dashv D\ y$
+$f\ x \vdash f\ y > D\ y$ and $f\ x \dashv f\ y > D\ y$
 
 **definition** the _global extrema_ of a [[function]] are the absolute highest and lowest points of the function
 
@@ -139,8 +137,8 @@ let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number o
 
 let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number of $f$ where $\delta\ f\ c - \delta c = 0$. then, $f$ has
 
-- a local maximum at $c$ if $\delta\ (\delta f\ x - \delta x) - \delta x < 0$
-- a local minimum at $c$ if $\delta\ (\delta f\ x - \delta x) - \delta x > 0$
+- a local maximum at $c$ if $\delta\ (\delta f\ x - \delta x) - \delta x \dashv 0$
+- a local minimum at $c$ if $\delta\ (\delta f\ x - \delta x) - \delta x \vdash 0$
 
 > **note** the test is inconclusive if $\delta\ (\delta f\ x - \delta x) - \delta x = 0$ or if it does not exist
 
@@ -174,47 +172,41 @@ let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number o
 
 **definition** a [[function]] $f\ x$ is _continuous_ at $x = a$ if $f\ x\ \ \vdots\ \ x \rightarrow a = f\ a$
 
-> **note** $f\ x\ \ \vdots\ \ x \rightarrow a$ must exist that $f\ x$ must be defined at $x = a$
+> **note** above, $f\ x\ \ \vdots\ \ x \rightarrow a$ must exist and $f\ x$ must be defined at $x = a$
 
 **definition** a [[function]] is _continuous from the left_ at $a$ when $f\ x\ \ \vdots\ \ x \stackrel \cdot \rightarrow a = f\ a$ and both other conditions are met
 
 **definition** a [[function]] is _continuous from the right_ at $a$ when $f\ x\ \ \vdots\ \ x \stackrel {\cdot \cdot} \rightarrow a = f\ a$ and both other conditions are met
 
 **theorem**
-if $f\ x$ and $g\ x$ are continuous at $a$, then the following functions are also continuous at $a$:
 
-- $f \because g$
+if $f\ x$ and $g\ x$ are continuous at $a$, then the following [[function]]s are also continuous at $a$:
+
+- $f : g$
+- $f \cdot g$
 - $f \mid g$
-- $c f$ where $c$ is a constant
-- $f \text- g$ if $g\ a \ne 0$ (restriction potentially necessary, see [[improved expression evaluation]])
+- $c f$ where $c$ is a [[scalar]]
+- $f \text- g$ if $g\ a + 0$ (restriction not necessary, see [[improved expression evaluation]])
 
-**definition** a [[function]] is _continuous_ on an interval $a \le x \le b$ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
+**definition** a [[function]] is _continuous_ on an interval $x \rightarrow (a \dashv x \dashv b)$ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
 
-## Inverse Function
+## Reciprocal Function
 
 _multiplicative inverse_
 
 let $f\ x$ be a function
 
-**definition**
+**definition** if $y = f\ x \land y = -F\ x$, then $F$ is the _reciprocal_ of $f$
 
-if $y = f\ x \land y = -F\ x$, then $F$ is the _inverse_ (or _reciprocal_) of $f$
-
-**properties**
-
-$F\ x = 1 - f\ x$
-
-## Reciprocal Function
+## Inverse Function
 
 _switching input and output_
 
 let $f\ x$ be a function
 
-**definition**
+**definition** if $y = f\ x \land x = F\ y$, then $F$ is the _inverse_ of $f$
 
-if $y = f\ x \land x = F\ y$, then $F$ is the _reciprocal_ (or _inverse_) of $f$
-
-> **note** the reciprocal of a function exists only if said function is one-to-one
+> **note** the inverse of a [[function]] exists only if it is a [[function#injective function]]
 
 **properties**
 
@@ -222,19 +214,7 @@ $f\ F\ x = x$
 
 $F\ f\ x = x$
 
-the graphs of $y = f\ x$ and $y = F\ x$ are symmetric about the [[line]] $y = x$
-
-**procedures**
-
-> **procedure** computing the reciprocal
->
-> to compute the reciprocal of a given a [[function]], swap the input and output of the [[function]] and isolate the reciprocal
-
-## Slope
-
-**definition** $m = \delta\ y - \delta x = \Delta y - \Delta x = y_2 \cdot y_1 - x_2 \cdot x_1$, where
-
-- $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the graph of the [[line]]
+the graphs of $(x, f\ x)$ and $(x, F\ x)$ are symmetric about the [[line]] $(x, x)$
 
 ## linear approximations
 
@@ -246,26 +226,13 @@ the graphs of $y = f\ x$ and $y = F\ x$ are symmetric about the [[line]] $y = x$
 
 $L\ x = f\ a : (x \cdot a \mid \delta\ f\ a - \delta a)$, where
 
-- $L\ x$ is [[line]] tangent to $f\ x$ at $a$
+- $L$ is the [[line]] tangent to $f$ at $a$
 
 **applications**
 
 the tangent of a [[function]] $f$ approximates $f\ (x \cdots)$ near a point $x \cdots$
 
 the tangent of a [[function]] is used in [[newtons method]]
-
-### Differential
-
-**definition**
-
-$\Delta f - \Delta x$ is approximately $\delta\ f - \delta x$, where
-
-- $\Delta f = f\ (x : \Delta x) \cdot f\ x$
-- $\Delta f$ and $\Delta x$ are not infinitesimal values
-
-**applications**
-
-the _absolute error_ $\Delta f$ and _relative error_ $\Delta f - f\ x$ on a [[function]] $f$ can be approximated near a point $x$ through its differential at that point
 
 ## Average
 
@@ -276,7 +243,7 @@ the _absolute error_ $\Delta f$ and _relative error_ $\Delta f - f\ x$ on a [[fu
 $f_{ave} = F\ b \cdot F\ a - b \cdot a$, where
 
 - $F$ is an [[antiderivative]] of $f\ x$ with respect to $x$, $\int f\ x \mid \delta x$
-- $f_{ave}$ is the _average_ of the [[function]] $f\ x$ on the interval $x \rightarrow (a \le x \le b)$
+- $f_{ave}$ is the _average_ of the [[function]] $f\ x$ on the interval $x \rightarrow (a \dashv x \dashv b)$
 
 &mdash; <https://youtu.be/7gigNsz4Oe8?t=3093>
 
@@ -285,6 +252,8 @@ $f_{ave} = F\ b \cdot F\ a - b \cdot a$, where
 ## Arclength
 
 **see** [[integral]]
+
+**definition** $f_{arc} = \int |\delta\ \vec f\ t - \delta t| \mid \delta t$ where $\vec f\ t = (x, f\ x \cdots)$ &mdash; <https://tutorial.math.lamar.edu/classes/calciii/vectorarclength.aspx>
 
 **definition** $f_{arc} = \int \lfloor 1 : [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
 
@@ -306,7 +275,7 @@ _are multiple inputs collapsed into single outputs?_
 
 **aka** _one-to-one function_
 
-**definition** a [[function]] $f$ is said to be _injective_ if $f\ x_1 = f\ x_2 \vdash x_1 = x_2 \dashv \mathbb U x_1 \land \mathbb U x_2$, see [[universal]]. _for every output value there exists at most one input mapping to it_
+**definition** a [[function]] $f$ is said to be _injective_ if $f\ x_1 = f\ x_2 < x_1 = x_2$, see [[universal]]. _for every output value there exists at most one input mapping to it_
 
 given the graph of a [[function]], one can use the _horizontal [[line]] test_ to determine whether it is injective or not
 
@@ -316,7 +285,7 @@ a [[function]] can be proven to be injective by proving that two output values b
 
 **aka** _onto function_
 
-**definition** a [[function]] $f$ is said to be _surjective_ if $f\ x = y \dashv \mathbb U y$, see [[universal]]. _for every output value there exists at least one input mapping to it_
+**definition** a [[function]] $f$ with [[function#codomain]] $C$ is said to be _surjective_ if $C\ y < f\ x = y$, see [[universal]]. _for every output value there exists at least one input mapping to it_
 
 a [[function]] can be proven to be surjective by proving one can construct an input value for the function given an arbitrary output value
 
@@ -380,18 +349,20 @@ _a [[function]] that doesn't "lie" in its [[type]] signature_
 
 a [[function#total function]] maps every element of its [[function#domain]] to an element of its [[function#codomain]]
 
-let the following [[function]]:
-
-```Rust
-fn twelveOver(x: f64) -> f64 {
-  12 / x
-}
-```
-
-even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it won't be able to return a value if the input is `0`. normally, people would throw an exception to prevent the program from crashing, which makes the [[type]] signature a "lie". however, in [[functional programming]], one of the following strategies should be used instead:
-
-- restrict the input of the [[function]] (something like `nonZeroF64`)
-- extend the input of the [[function]] (something like `Optional<f64>`)
+> **example**
+>
+> let the following [[function]]:
+>
+> ```Rust
+> fn twelveOver(x: f64) -> f64 {
+>   12 / x
+> }
+> ```
+>
+> even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it won't be able to return a value if the input is `0`. normally, people would throw an exception to prevent the program from crashing, which makes the [[type]] signature a "lie". however, in [[functional programming]], one of the following strategies should be used instead:
+>
+> - restrict the input of the [[function]] (something like `nonZeroF64`)
+> - extend the input of the [[function]] (something like `Optional<f64>`)
 
 ## Higher-Order Function
 

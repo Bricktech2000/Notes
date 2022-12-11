@@ -12,11 +12,11 @@ this [[improved expression evaluation]] proposes that any algebraic manipulation
 
 ## applications
 
-- conventionally, $\operatorname{atan} y \text- x \land x = 0 \equiv \varnothing$. however, by substituting $y \text- x$ in the definition of the $\operatorname{atan}$ [[function]] directly and by using [[limit rules]] to simplify it, the right answer $\tau - 4$ is obtained.
+- conventionally, $x = 0 < \operatorname{atan} y \text- x = \varnothing$. however, by substituting $y \text- x$ in the definition of the $\operatorname{atan}$ [[function]] directly and by using [[limit rules]] to simplify it, the right answer $\tau\text-4$ is obtained.
 
 - conventionally, the graph of a [[function]] such as $f\ x = - - x \cdot 2$ has a hole at $x = 2$. however, by simplifying the [[function]] using [[limit rules]] before graphing it, the function $f\ x = x \cdot 2$ is obtained; the hole is avoided.
 
-- many algebraic rules contain an arbitrary restriction such as $\dashv x \ne 0$ given a [[variable]] $x$. however, none of them break (have broken yet) when removing the restriction and using this [[improved expression evaluation]]. see backlinks for real-world examples
+- many algebraic rules contain an arbitrary restriction such as $\dots > x + 0$ given a [[variable]] $x$. however, none of them break (have broken yet) when removing the restriction and using this [[improved expression evaluation]]. see backlinks for real-world examples
 
 ## analogy with [[complex]] numbers and [[fraction]]s
 
@@ -38,8 +38,8 @@ the video above does _not_ break the principle stated above. the following rule 
 
 below are some applications of the rule above
 
-- $a = b \equiv ax = bx \dashv x \ne 0 \equiv a \text- x = b \text- x \dashv x \ne 0$ (when multiplying or dividing an equality by an expression, said equality is only equivalent to the previous equality when the expression is non-zero)
-- $a = b \equiv a2 = b2 \dashv a \ne \cdot b$
+- $a = b =\!= (ax = bx > x + 0) =\!= (a - x = b - x > x + 0)$ (when multiplying or dividing an equality by an expression, said equality is only equivalent to the previous equality when the expression is non-zero)
+- $a = b =\!= a2 = b2 > a + \cdot b$
 
 this has the added benifit of preventing the introduction of incorrect solutions when increasing the degree of an expression. see examples below
 
@@ -49,7 +49,7 @@ $a = b$
 
 multiplying by $a$ on both sides and adding the restriction,
 
-$a2 = ab \dashv a \ne 0$
+$a2 = ab > a + 0$
 
 without the additional restriction, the second equality would have solutions that are not present in the first, such as $a = 0 \land \mathbb U b$, see [[universal]]
 
@@ -57,9 +57,9 @@ without the additional restriction, the second equality would have solutions tha
 
 <https://youtu.be/hI9CaQD7P6I?t=70>
 
-at the [[time]]stamp included in the URL above, the teacher divided both sides of the equality by the value $a \cdot b$ without adding the restriction required by the rule above. if he had added the restriction $a \cdot b \ne 0$, it would've been a [[contradiction]] with the equality $a = b$
+at the [[time]]stamp included in the URL above, the teacher divided both sides of the equality by the value $a \cdot b$ without adding the restriction required by the rule above. if he had added the restriction $a \cdot b + 0$, it would've been a [[contradiction]] with the equality $a = b$
 
-> **note**: by using the symbol $\dashv$ (_for all_, see [[math notation]]) to denote the restriction, there is technically no contradiction. the right way to think of the equation is the following: as we know the restriction is always $\bot$, the equation on the left is true _for all $\bot$_, meaning it is never true. this is crucially different form a [[contradiction]], as that would mean all other equations in the same context are rendered invalid.
+> **note**: by using the symbol $>$, the [[quantifier#universal quantifier]], to denote the restriction, there is technically no contradiction. the right way to think of the equation is the following: as we know the restriction is always $\bot$, the equation on the left is true _for all $\bot$_, meaning it is never true. this is crucially different form a [[contradiction]], as that would mean all other equations in the same context are rendered invalid.
 
 ### second attempt with multiplication by zero
 
@@ -69,13 +69,13 @@ $a = b$
 
 multiplying both sides by $x$ and adding the restriction,
 
-$ax = bx \dashv x \ne 0$
+$ax = bx > x + 0$
 
-> **note**: the equality above is always true even if $a \ne b$, which is not equivalent to the original equality. however, the restriction states that the equality is valid only if $x \ne 0$. as $x = 0$, we deduce that the equation is never valid, which means it _is_ equivalent to the first equality. note that in this explanation, a "valid" equation is an equation whose truthness can be determined
+> **note**: the equality above is always true even if $a + b$, which is not equivalent to the original equality. however, the restriction states that the equality is valid only if $x + 0$. as $x = 0$, we deduce that the equation is never valid, which means it _is_ equivalent to the first equality. note that in this explanation, a "valid" equation is an equation whose truthness can be determined
 
 dividing both sides by $x$, adding the restriction and simplifying using [[limit rules]],
 
-$(a = b \dashv x \ne 0) \dashv x \ne 0\ \equiv\ a = b \dashv x \ne 0\ \equiv\ a = b$
+$(a = b > x + 0) > x + 0 =\!= (a = b > x + 0) =\!= a = b$
 
 as the multiplications by zero have been cancelled out, the restrictions are no longer necessary. the equality above is always true.
 
@@ -97,19 +97,19 @@ $[[0]0]0 = [1]0 = 1$ and $[[0]0]0 = 0[0 \mid 0] = 0[0] = 1$
 
 ### additional examples
 
-$0[n : 1] = 0 \dashv \mathbb N n$
+$0[n : 1] = 0 > \mathbb N n$
 
-$0[\cdot n \cdot 1] = \varnothing \dashv \mathbb N n$
+$0[\cdot n \cdot 1] = \varnothing > \mathbb N n$
 
 $0 - 0 = \varnothing$
 
 infinities do not exist
 
-$- 0 = \varnothing \ne \infty$
+$- 0 = \varnothing + \infty$
 
 in order to avoid breaking $0[0] = 1$ (see Wikipedia article), we must define:
 
-$1[\cdot -0] = \varnothing \ne 0$
+$1[\cdot -0] = \varnothing + 0$
 
 ### attempt with [[integral]]s and [[logarithm]]s
 
@@ -117,43 +117,21 @@ using the [[logarithm]] [[antiderivative]] rule, $\int 1 - x \mid \delta x = \lc
 
 ### exponents and square roots
 
-define $\lfloor x2 \rfloor = x$, but $\lfloor 4 \rfloor =\ \because 2$ &mdash; Kiera
+define $\lfloor x2 \rfloor = x$, but $\lfloor 4 \rfloor =\ \vdots\ \ 2 \lor \cdot 2$ &mdash; Kiera
 
 $x = \lfloor x2 \rfloor = \lfloor [\cdot x]2 \rfloor = \cdot x$
 
-using the property $[x]2 = [\cdot x]2 \dashv \mathbb R x$, just as we could use the property $0x = 0 \dashv \mathbb R x$ for division by zero
+using the property $[x]2 = [\cdot x]2 > \mathbb R x$, just as we could use the property $0x = 0 > \mathbb R x$ for division by zero
 
 breakthrough (I think): in the case of division by zero, it's not about the zeros being the same; it's about not using the _information-tampering_ property that any [[real]] multiplied by zero returns zero. the same is true with the exponent-root pair.
 
-> $[ab]2 = a2 \mid b2$
->
-> $[3]2 = [1 \mid 3]2 = 1 \underline : 2 \mid 3 \odot2$
->
-> $[\cdot 1]2 = 1 \underline{\overline\cdot}2$
->
-> $[3 \mid 3]2 = [3]2 \mid [3]2 = \odot4 \mid 9 \mid 9 = \odot4 \mid 81 = \odot2 \mid [9]2 = \odot2 \mid [3 \mid 3]2$
->
-> $[9]2 = [3 \mid 3]2 = [3]2 \mid [3]2 = 9 \odot2 \mid 9 \odot2 = 81 \odot2 = [9]2 = [[\because 3]2]2 = [\because 3]4$
->
-> $[\cdot ab]2 = \circledcirc2 \mid a2 \mid b2$
->
-> $25[ab]2 = [\because 5ab]2$
->
-> $\lfloor 25 \rfloor =\ \because 5$
->
-> $\lfloor 25 \mid \odot2 \rfloor = 5$
->
-> $\lfloor 25 \mid \circledcirc2 \rfloor = \cdot 5$
->
-> $[5]2 = \odot2 \mid 25$
-
-therefore, we define $\theta \to 0$
+we define $\theta \to 0$
 
 $[3]2 \to 9$ and $[\cdot 3]2 \to 9$ (which loses information) just as $\theta x \to 0$ (which loses information)
 
 $\lfloor [3]2 \rfloor = 3$ (through cancellation) just as $\theta x - \theta = x$ (through cancellation)
 
-$\lfloor 9 \rfloor = \varnothing$ (can be thought of as $\because 3$) just as $0 - 0 = \varnothing$ (can be thought of as "any [[real]] number")
+$\lfloor 9 \rfloor = \varnothing$ (can be thought of as $\braket{\braket{3, \cdot 3}}$) just as $0 - 0 = \varnothing$ (can be thought of as "any [[real]] number")
 
 ## conclusion
 
@@ -165,7 +143,7 @@ might be incomplete or erroneous #think
 
 $\theta \to 0$
 
-$0x = 0 \land \theta x \ne \theta$
+$0x = 0 \land \theta x + \theta$
 
 $\theta - \theta = 1$ but $0 - 0 \to \varnothing \land \theta - 0 \to \varnothing \land 0 - \theta \to 0$
 

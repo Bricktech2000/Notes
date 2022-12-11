@@ -8,10 +8,10 @@ _the [[set]] of fractional [[number]]s_
 
 _a [[rational]] that is not an integer_
 
-$\mathbb Q\ /\ \mathbb Z$
+$\mathbb Q \land + \mathbb Z$
 
 **properties**
 
-$(\mathbb Q\ /\ \mathbb Z) \vdash \mathbb R$
+$(\mathbb Q \land +\mathbb Z) < \mathbb R$
 
-$\mathbb Z \lor (\mathbb Q \mathbb\ /\ \mathbb Z) \equiv \mathbb R$
+$\mathbb Z \lor (\mathbb Q \land +\mathbb Z) =\!= \mathbb R$

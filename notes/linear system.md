@@ -60,7 +60,7 @@ a [[matrix]] (augmented or not) is in [[linear system#row echelon form]] if all:
 
 > **procedure** _determining the type of the general solution_
 >
-> - if the [[matrix]] contains a row in the form $\begin{bmatrix}0 & \cdots & 0 & | & b\end{bmatrix} \land b \ne 0$, the system has no solutions
+> - if the [[matrix]] contains a row in the form $\begin{bmatrix}0 & \cdots & 0 & | & b\end{bmatrix} \land b + 0$, the system has no solutions
 > - else, if every column has a pivot, the system has one unique solution
 > - else, if there is a column with no pivot, the system has an infinite number of solutions
 
@@ -88,6 +88,6 @@ a [[linear system]] can be represented using an augmented [[matrix]]
 >
 > let $\begin{bmatrix}A & | & b\end{bmatrix}$ be an augmented [[matrix]].
 >
-> - the system has no solutions if $rank(A) \lt rank(\begin{bmatrix}A & | & b\end{bmatrix})$
-> - the system has a unique solution if and only if $rank(A) = rank(\begin{bmatrix}A & | & b\end{bmatrix}) = \text{number of columns in A}$
-> - the system infinite solutions if and only if $rank(A) = rank(\begin{bmatrix}A & | & b\end{bmatrix}) \lt \text{number of columns in A}$
+> - the system has no solutions if $rank\ A \dashv rank\ \begin{bmatrix}A & | & b\end{bmatrix} \cdot 1$
+> - the system has a unique solution if and only if $rank\ A = rank\ \begin{bmatrix}A & | & b\end{bmatrix} = \text{number of columns in \(A\)}$
+> - the system infinite solutions if and only if $rank\ A = rank\ \begin{bmatrix}A & | & b\end{bmatrix} \dashv \text{number of columns in \(A\)} \cdot 1$

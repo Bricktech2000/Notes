@@ -8,5 +8,5 @@ _previous state to next state. shows how a [[finite-state machine]] transitions 
 >
 > ```mermaid
 > graph LR
-> 1 --> 3 --> 2 --> 4 --> 1
+>   1 --> 3 --> 2 --> 4 --> 1
 > ```

@@ -1,3 +1,3 @@
 # Scalar
 
-**see** [[number field]]
+**see** [[field]]

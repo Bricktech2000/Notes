@@ -2,7 +2,7 @@
 
 **definition**
 
-$p = a^0x[0] : \cdots a^nx[n]$, where
+$p = a^0[x]0 : \cdots a^n[x]n$, where
 
 - $p$ is a [[polynomial]]
 - $a$ is a [[list]] of the _coefficients_ of the [[polynomial]]
@@ -21,15 +21,15 @@ _in [[conventional math notation]]_ $P_n(\mathbb R)$
 
 **definition**
 
-$\mathbb P^n = \operatorname{span} \braket{\braket{\ [x]n \cdots [x]0\ }} \dashv \mathbb N n$
+$\mathbb P^n = \operatorname{span} \braket{\braket{\ [x]0 \cdots [x]n\ }} > \mathbb N n$
 
 **properties**
 
-$(\mathbb P^n \vdash \mathbb F) \dashv \mathbb N n$, see [[function#vector space]]
+$\mathbb P^n \dashv \mathbb F > \mathbb N n$, see [[function#vector space]]
 
 **properties**
 
-_zero [[polynomial]]_ $O \equiv 0$
+_zero [[polynomial]]_ $O$ such that $O =\!= 0$
 
 _[[polynomial]] addition_ let $p_a = a_0x_0 : \cdots a_nx_n$ and $p_b = b_0x_0 : \cdots b_nx_n$. then, $p_a : p_b = (a_0 : b_0) x_0 : \cdots (a_n : b_n) x_n$
 

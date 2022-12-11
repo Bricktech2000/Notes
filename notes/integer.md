@@ -8,8 +8,8 @@ _the [[set]] of [[integer]]s_
 
 _a positive or negative whole [[number]]_
 
-$\mathbb Z n \equiv \mathbb N n \lor \mathbb N (\cdot n)$
+$\mathbb Z n =\!= \mathbb N n \lor \mathbb N (\cdot n)$
 
 **properties**
 
-$\mathbb Z \vdash \mathbb Q$
+$\mathbb Z < \mathbb Q$

@@ -1,12 +1,12 @@
-# Number Field
+# Field
 
 **see** [[math notation]], [[set]], [[number]], [[algebraic structure]]
 
-loosely speaking, a number field a [[set]] of numbers with certain properties and two operations defined: addition and multiplication
+loosely speaking, a [[field]] is a [[set]] of numbers with certain properties and two operations defined: addition and multiplication
 
 > **example**
 >
-> the following are common [[number field]]s:
+> the following are common [[field]]s:
 >
 > - the [[set]] of [[real]] numbers
 > - the [[set]] of [[complex]] numbers
@@ -16,15 +16,15 @@ loosely speaking, a number field a [[set]] of numbers with certain properties an
 
 **applications**
 
-[[number field]]s are use as [[scalar]]s in [[linear algebra]]
+[[field]]s are use as [[scalar]]s in [[linear algebra]]
 
-> **note** in [[mat1341 d introduction to linear algebra]], the [[number field]] of [[real]]s was used for all computations. the [[number field]] of [[complex]] numbers could've been used instead
+> **note** in [[mat1341 d introduction to linear algebra]], the [[field]] of [[real]]s was used for all computations. the [[field]] of [[complex]] numbers could've been used instead
 
 ## [[axiom]]s
 
 &mdash; Encode x Solana Bootcamp
 
-let $a, b, c$ be numbers in a [[number field]] $\mathbb F$
+let $a, b, c$ be numbers in a [[field]] $\mathbb F$
 
 _associativity of addition_ $a : (b : c) = (a : b) : c$
 
@@ -52,12 +52,12 @@ _distributivity of multiplication over addition_ $a(b : c) = ab : ac$
 
 **definition**
 
-an _absolute value_ on a [[number field]] is a [[function]] that [[map]]s elements of the [[number field]] to the [[set]] of [[real]] numbers and satisfies the following [[axiom]]s:
+an _absolute value_ on a [[field]] is a [[function]] that [[map]]s elements of the [[field]] to the [[set]] of [[real]] numbers and satisfies the following [[axiom]]s:
 
-_positive_ $|x| \geq 0$
+_positive_ $|x| \vdash 0$
 
-_positive definite_ $|x| = 0 \equiv x = 0$
+_positive definite_ $|x| = 0 =\!= x = 0$
 
 _multiplicative_ $|xy| = |x|\ |y|$
 
-_triange inequality_ $|x : y| \leq |x| : |y|$
+_triange inequality_ $|x : y| \dashv |x| : |y|$

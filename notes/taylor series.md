@@ -6,7 +6,7 @@ _allows for the approximation of a [[function]] near a point by a [[polynomial]]
 
 > **note** [[taylor series]] don't necessarily have an infinite radius of convergence, see [[series#power series]]
 >
-> as an example, the [[taylor series]] of the [[function]] $\lceil x \rceil$ at $a = 1$ has a radius of convergence of $1$, meaning the [[taylor series]] only converges to the [[function]] on the interval $x \rightarrow (0 < x \le 2)$
+> as an example, the [[taylor series]] of the [[function]] $\lceil x \rceil$ at $a = 1$ has a radius of convergence of $1$, meaning the [[taylor series]] only converges to the [[function]] on the interval $x \rightarrow (0\ (\dashv \land +)\ x \dashv 2)$
 >
 > &mdash; <https://youtu.be/X0razs3zR94>
 
@@ -30,7 +30,7 @@ $d^n\ f = d^{n \cdot 1}\ (x \rightarrow \delta\ f\ x - \delta x) \land d^0\ f = 
 
 intuitive explanation: <https://youtu.be/3d6DsjIBzJ4?t=383>
 
-> **note** the definition above assumes $x0 = 1 \dashv \mathbb R x$ and $\Pi\ 0 = 1$, see [[improved expression evaluation]]
+> **note** the definition above assumes $x0 = 1 > \mathbb R x$ and $\Pi\ 0 = 1$, see [[improved expression evaluation]]
 
 **properties**
 
@@ -57,13 +57,13 @@ $R_{T_f}^n\ x = f\ x \cdot S_{T_f}^n\ x$, where
 
 > **note** the definition of the [[taylor series#remainder]] is different from the usual [[series#remainder]] as $S_{T_f}^\infty\ x$ is not necessarily equal to $f\ x$. as we want [[taylor series]] to converge to their underlying [[function]], we use $f\ x$ instead of $S_{T_f}^\infty\ x$ to define the [[taylor series#remainder]]
 
-**theorem** the [[taylor series]] $T_f\ x$ converges to $f\ x$ in an interval $I$ if and only if $R_{T_f}^n\ x\ \ \vdots\ \ n \rightarrow \infty = 0 \dashv I\ x$
+**theorem** the [[taylor series]] $T_f\ x$ converges to $f\ x$ in an interval $I$ if and only if $R_{T_f}^n\ x\ \ \vdots\ \ n \rightarrow \infty = 0 > I\ x$
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=22042>
 
-**theorem** _Taylor's Inequality #magic_ $|(d^n\ f)\ x| \le M \land \mathbb R M \land \mathbb N n \dashv |x \cdot a| \le d \land \mathbb R a \land \mathbb R d \vdash (|R_{T_f}^{n \cdot 1}\ x| \le M - \Pi\ n \mid [|x \cdot a|]n \dashv |x \cdot a| \le d)$
+**theorem** _Taylor's Inequality #magic_ $|(d^n\ f)\ x| \dashv M \land \mathbb R M \land \mathbb N n > |x \cdot a| \dashv d \land \mathbb R a \land \mathbb R d < (|R_{T_f}^{n \cdot 1}\ x| \dashv M - \Pi\ n \mid [|x \cdot a|]n > |x \cdot a| \dashv d)$
 
-**theorem** _Practical Convergence Condition_ $|(d^n\ f)\ x| < M \land \mathbb R M \dashv \mathbb N n \dashv |x \cdot a| < d \land \mathbb R a \land \mathbb R d \vdash (R_{T_f}^n\ x\ \ \vdots\ \ n \rightarrow \infty = 0 \dashv |x \cdot a| < d)$
+**theorem** _Practical Convergence Condition_ $|(d^n\ f)\ x| \dashv M \land \mathbb R M > \mathbb N n > |x \cdot a| \dashv d \land \mathbb R a \land \mathbb R d < (R_{T_f}^n\ x\ \ \vdots\ \ n \rightarrow \infty = 0 > |x \cdot a| \dashv d)$
 
 > **proof** <https://youtu.be/7gigNsz4Oe8?t=22288>
 

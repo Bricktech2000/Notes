@@ -8,7 +8,7 @@
 - a drum-beat combo of base and snare called _boom bap_ played intentionally off-kilter
 - intentional environmental noise
 - plays at around $70 \cdots 90$ BPM
-- generally falls in the rage of [[frequency]]es $200 \text{Hz} \cdots 10000 \text{Hz}$
+- generally falls in the rage of [[frequency]]es $200\ \text{Hz} \cdots 10000\ \text{Hz}$
 
 **applications**
 

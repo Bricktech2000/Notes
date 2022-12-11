@@ -14,5 +14,5 @@ for root, dirs, files in os.walk('./notes'):
         # joined += f'{content}\n<hr><div style="height: 200px"></div>\n\n'
         joined += f'{content}\n<div style="page-break-after: always;"></div>\n\n'
 
-with open(os.path.join('./notes', 'NOTES_JOINED.md'), 'w') as f:
+with open(os.path.join('.', 'join.md'), 'w') as f:
   f.write(joined)

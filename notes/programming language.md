@@ -21,8 +21,13 @@ used for backlinks
 **representation**
 
 ```mermaid
-graph TD;
-A(<b>Source Code</b><br>print 5) --> B(<b>Tokenizer</b><br><em>Lexical Analysis</em>) --> C(<b>Tokens</b><br>ID: print<br>number: 5) --> D(<b>Parser</b><br><em>syntactic analysis</em>) --> E(<b>Abstract Syntax Tree</b><br>Function Call:<br>name: print<br>args: 5,) --> F(<b>Interpreter</b> or<br><b>Code Generator</b><br><em>semantic analysis</em>) --> G(<b>Output</b><br>5)
+graph TD
+  A(<strong>Source Code</strong><br><code>print 5</code>)
+  B(<strong>Tokens</strong><br><code>ID: print, NUMBER: 5</code>)
+  C(<strong>Abstract Syntax Tree</strong><br><code>CALL: NAME: print, ARGS: 5</code>)
+  D(<strong>Output</strong><br><code>5</code>)
+
+  A -- <strong>Tokenizer</strong><br><em>Lexical Analysis</em> --> B -- <strong>Parser</strong><br><em>Syntactic Analysis</em> --> C -- <strong>Interpreter</strong> or<br><strong>Code Generator</strong><br><em>Semantic Analysis</em> --> D
 ```
 
 **see**

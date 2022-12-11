@@ -10,6 +10,6 @@ prof name: Antoine Poirier
 
 [[number]]
 
-[[number field]]
+[[field]]
 
 [[fundamental theorem of algebra]]

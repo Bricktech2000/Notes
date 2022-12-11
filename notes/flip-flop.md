@@ -1,6 +1,6 @@
 # Flip-Flop
 
-**see** [[logic gate]], [[latch]], [[logic circuit]]
+**see** [[logic gate]], [[latch]], [[logic circuit]], [[math notation]]
 
 [[flip-flop]]s are _edge-triggered_ whereas gated [[latch]]es are _level-triggered_
 
@@ -41,7 +41,7 @@ _same as SR flip-flop, but with undefined states removed_
 | $\uparrow$     | 0        | 0        | $Q$  | no change |
 | $\uparrow$     | 0        | 1        | 0    | reset     |
 | $\uparrow$     | 1        | 0        | 1    | set       |
-| $\uparrow$     | 1        | 1        | $/Q$ | toggle    |
+| $\uparrow$     | 1        | 1        | $+Q$ | toggle    |
 | not $\uparrow$ | $\times$ | $\times$ | $Q$  | no change |
 
 ## T Flip-Flop
@@ -53,5 +53,5 @@ _toggle flip-flop_
 | $CLK$          | $T$      | $Q$  | comment   |
 | -------------- | -------- | ---- | --------- |
 | $\uparrow$     | 0        | $Q$  | no change |
-| $\uparrow$     | 1        | $/Q$ | toggle    |
+| $\uparrow$     | 1        | $+Q$ | toggle    |
 | not $\uparrow$ | $\times$ | 0    | no change |

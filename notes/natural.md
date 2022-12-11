@@ -14,4 +14,4 @@ _a whole, non-negative [[number]]_
 
 **properties**
 
-$\mathbb N \vdash \mathbb Z$
+$\mathbb N < \mathbb Z$

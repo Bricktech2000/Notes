@@ -16,7 +16,7 @@ _the world's most widely used system of measurement_
 | ampere         | $\text{A}$   | $I$       | electric current              | $I, i$                      |
 | kelvin         | $\text{K}$   | $\Theta$  | thermodynamic [[temperature]] | $T$                         |
 | mole           | $\text{mol}$ | $N$       | [[amount of]] substance       | $n$                         |
-| candela        | $\text{cd}$  | $J$       | luminous intensity            | $I_v$                       |
+| candela        | $\text{cd}$  | $J$       | [[luminous intensity]]        | $I_v$                       |
 
 &mdash; Wikipedia
 

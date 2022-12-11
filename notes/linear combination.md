@@ -4,7 +4,7 @@
 
 **definition**
 
-$C =\ :\! kv$, where
+$C = \,: kv$, where
 
 - $v$ is a [[list]] of [[vector]]s
 - $k$ is a [[list]] of [[scalar]]s

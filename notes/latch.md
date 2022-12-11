@@ -64,7 +64,7 @@ _same as SR latch, but with undefined states removed_
 | 0   | 0   | $Q$  | no change |
 | 0   | 1   | 0    | reset     |
 | 1   | 0   | 1    | set       |
-| 1   | 1   | $/Q$ | toggle    |
+| 1   | 1   | $+Q$ | toggle    |
 
 **representation** _[[logic circuit]]_
 

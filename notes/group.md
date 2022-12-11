@@ -1,5 +1,9 @@
 # Group
 
+## Operation
+
+## Identity Element
+
 **see** [[math notation]], [[algebraic structure]]
 
 &mdash; <https://youtu.be/KufsL2VgELo>
@@ -14,13 +18,13 @@ _a [[monoid]] where every element also has an inverse_ &mdash; <https://youtu.be
 
 let a binary [[operator]] $:$ on a [[set]] $G$. for them to form a [[group]], the following [[axiom]]s must be satisfied:
 
-_associativity_ $(a : b) : c = a : (b : c) \dashv G\ a \land G\ b \land G\ c$
+_associativity_ $(a : b) : c = a : (b : c) > G\ a \land G\ b \land G\ c$
 
-_identity element_ $a : O = a \land G\ O \dashv G\ a$
+_identity element_ $a : O = a \land G\ O > G\ a$
 
-_closure_ $G\ (a : b) \dashv G\ a \land G\ b$
+_closure_ $G\ (a : b) > G\ a \land G\ b$
 
-_inverse element_ $a : \cdot a = O \dashv G\ a$
+_inverse element_ $a : \cdot a = O > G\ a$
 
 **notation**
 
@@ -48,9 +52,9 @@ every element of a [[group]] has exactly one inverse
 
 > **note** consequently, $\cdot a : \cdot a$ is identical to $\cdot (2a)$ which is identical to $2 (\cdot a)$, all of which can be denoted $\cdot 2a$. this is true for any coefficient
 
-$a : O = a \dashv G\ a$ implies $O : a = a \dashv G\ a$
+$a : O = a > G\ a$ implies $O : a = a > G\ a$
 
-$a : \cdot a = O \dashv G\ a$ implies $\cdot a : a = O \dashv G\ a$
+$a : \cdot a = O > G\ a$ implies $\cdot a : a = O > G\ a$
 
 $\cdot \smash\cdot a = a$
 
@@ -71,4 +75,4 @@ $\cdot \smash\cdot a = a$
 
 ## Subgroup
 
-**theorem** _Lagrange's Theorem_ let $G$ be a [[group]] and $H$ be a [[group#subgroup]] of $G$. then, $\psi\ \#\ H \le \psi\ \#\ G$ or equivanently $\psi\ \#\ \ \vdots\ \ H \le G$, see [[psi function in mat2348]]
+**theorem** _Lagrange's Theorem_ let $G$ be a [[group]] and $H$ be a [[group#subgroup]] of $G$. then, $\psi\ \#\ H \dashv \psi\ \#\ G$ or equivanently $\psi\ \#\ \ \vdots\ \ H \dashv G$, see [[psi function in mat2348]]

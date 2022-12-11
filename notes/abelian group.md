@@ -1,13 +1,17 @@
 # Abelian Group
 
+## Operation
+
+## Identity Element
+
 **aka** _commutative [[group]]_
 
-_a [[group]] whose binary operation is associative_
+_a [[group]] whose [[group#operation]] is associative_
 
 &mdash; <https://en.wikipedia.org/wiki/Abelian_group>
 
 **see** [[algebraic structure]]
 
-**definition** a [[semigroup]] is a finite or infinite [[set]] of elements equipped with a closed associative commutative binary operation &mdash; Wikipedia and me
+**definition** an [[abelian group]] is a finite or infinite [[set]] of elements equipped with a closed associative commutative binary operation &mdash; Wikipedia and me
 
-**definition** a [[group]] $G$ is an _abelian group_ if and only if $a : b = b : a \dashv G\ a \land G\ b$
+**definition** a [[group]] $G$ is an _abelian group_ if and only if $a : b = b : a > G\ a \land G\ b$

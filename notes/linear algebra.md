@@ -2,7 +2,7 @@
 
 _studying [[vector space]]s_
 
-**see** [[number field]]
+**see** [[field]]
 
 **applications**
 

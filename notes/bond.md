@@ -20,7 +20,7 @@ a [[bond]] between one metal and one non-metal, where one [[atom]] gains [[elect
 
 **properties**
 
-- results in the formation of ionic solids such as crystals
+- result in the formation of ionic solids such as crystals
 - very stable, high melting points, boiling points, rigid
 - they cleave along a line
 - often very soluble in polar solvents such as water
@@ -32,7 +32,7 @@ a [[bond]] between metals, where the [[electron]]s are shared between the [[atom
 **properties**
 
 - bonds are very strong
-- a surface (sea) of electrons allows for great conductivity
+- a surface (sea) of [[electron]]s allows for great conductivity
 - they tend to deform, be very malleable and ductile
 - very high melting and boiling points
 
@@ -40,12 +40,10 @@ a [[bond]] between metals, where the [[electron]]s are shared between the [[atom
 
 a [[bond]] between two non-metals, where pairs of [[electron]]s are shared between the [[atom]]s in a _bonding pair_. this forms a stable balance of attraction and repulsion [[force]]s between the [[atom]]s, forming a [[bond]]
 
-- one bond consists of 2 electrons shared between two atoms, not necessarily equally, see [[electronegativity]]
-
 **properties**
 
 - form brittle or soft solids
 - do not conduct electricity
-- form molecular substances where we could theoretically isolate a single molecule
-- generally have reasonably strong intermolecular bonds, but weak intramolecular bonds
+- form molecular substances where we could theoretically isolate a single [[molecule]]
+- generally have reasonably strong intermolecular [[bond]]s, but weak intramolecular [[bond]]s
 - low melting points, low [[density]], low boiling points

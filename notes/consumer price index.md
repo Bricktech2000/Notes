@@ -4,11 +4,9 @@ _a measure of the average change over [[time]] in the prices paid by urban consu
 
 **aka** _CPI_
 
-**see** [[economics]]
+**see** [[economics]], [[math notation]]
 
 > **procedure** _calculating the CPI_
->
-> **see** [[math notation]]
 >
 > - build a market basket from the most important items for the typical consumer
 > - find the total cost of the items in the basket

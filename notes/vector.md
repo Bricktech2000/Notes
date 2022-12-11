@@ -20,7 +20,7 @@
 
 **properties**
 
-let $\mathbb R^n (u, v, w) \dashv \mathbb N n$
+let $\mathbb R^n (u, v, w) > \mathbb N n$
 
 let $\mathbb R (c1, c2)$
 

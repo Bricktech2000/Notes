@@ -21,7 +21,7 @@ moving averages
 
 > **example**
 >
-> let a [[list]] $B^n = -\# B$ so that $:\! B = 1$. then, $a * B$ is the moving average of $a$ with window size $\# B$
+> let a [[list]] $B^n = -\# B$ so that $\,: B = 1$. then, $a * B$ is the moving average of $a$ with window size $\# B$
 
 image processing
 
@@ -29,7 +29,7 @@ image processing
 >
 > let a [[matrix]] of [[list]]s $M^{j, k} = (r, g, b)^{j, k}$ representing an image and a [[convolution]] $M * B$ with kernel $B$ representing an output image
 >
-> using the [[matrix]] $B^{m, n} = -\# B$ so that $:\! B = 1$ as the kernel will yeild a blurred image with window size $\# B$
+> using the [[matrix]] $B^{m, n} = -\# B$ so that $\,: B = 1$ as the kernel will yeild a blurred image with window size $\# B$
 >
 > using the [[gaussian function]] as the kernel, the resulting blur is known as a _gaussian blur_
 >

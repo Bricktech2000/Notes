@@ -32,8 +32,6 @@ in [[conventional math notation]], this abomination: $\lbrace x \mid P(x) \rbrac
 
 **properties**
 
-[[set]]s are categories, see [[category theory]]
-
 _elements are unordered_ $\braket{\braket{1, 2, 3}} = \braket{\braket{3, 2, 1}} = \dots$
 
 _elements are unique_ $\braket{\braket{1, 1, 1}} = \braket{\braket{1, 1}} = \dots$
@@ -44,7 +42,7 @@ _elements are unique_ $\braket{\braket{1, 1, 1}} = \braket{\braket{1, 1}} = \dot
 
 [[universal]] set
 
-[[number field]]s
+[[field]]s
 
 [[monoid]]s
 
@@ -62,9 +60,9 @@ in other words, an element being in $A$ implies it is also in $B$
 
 _in my [[math notation]]_
 
-$A \vdash B$ checks if $A$ is a [[set#subset]] of $B$
+$\,\land A \dashv B$ checks if $A$ is a [[set#subset]] of $B$
 
-$B \dashv A$ checks if $B$ is a [[set#superset]] of $A$
+$\,\land B \vdash A$ checks if $B$ is a [[set#superset]] of $A$
 
 _in [[conventional math notation]]_
 
@@ -74,25 +72,25 @@ $B \supseteq A$ states $B$ is a [[set#superset]] of $A$
 
 **examples**
 
-$\mathbb Z \vdash \mathbb R$
+$\mathbb Z < \mathbb R$
 
-$\mathbb E \vdash \mathbb Z$
+$\mathbb E < \mathbb Z$
 
 ## Union
 
-**definition** $A \lor B$
+**definition** $A \top B$
 
 ### Disjoint Union
 
-**definition** $A \lor B$ with the guarantee that $A \land B = \braket{\ }$
+**definition** $A \top B$ with the guarantee that $A \bot B =\!= \braket{\ }$
 
 ## Intersection
 
-**definition** $A \land B$
+**definition** $A \bot B$
 
 ## Equivalence
 
-**definition** two [[set]]s are _equivalent_ if and only if they contain the same elements $A \equiv B \equiv A\ x = B\ x$
+**definition** two [[set]]s are _equivalent_ if and only if they contain the same elements, $A = B =\!= x \rightarrow (A\ x = B\ x)$
 
 ## Membership
 
@@ -124,9 +122,9 @@ _the [[set]] of all possible mathematical entities_
 
 ## Partition
 
-**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $S^i \land S^j \equiv \braket{\ }$ for all $i, j$ (the [[set]]s are pairwise disjoint) and $\lor\!\ S = A$
+**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $S^i \land S^j =\!= \braket{\ }$ for all $i, j$ (the [[set]]s are pairwise disjoint) and $\,\lor S = A$
 
-**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $\braket{0, 1}\ A =\ :\! \braket{0, 1}\ S$
+**definition** a _partition_ of a [[set]] $A$ is a collection of [[set]]s $S$ such that $\braket{0, 1}\ A = \,: \braket{0, 1}\ S$
 
 ## Cardinality
 
@@ -138,15 +136,13 @@ $\#\ S$
 
 **properties**
 
-when two [[set]]s form a [[set#disjoint union]] $A : B$, then $\#\ S = \#\ A : \#\ B$
+when two [[set]]s form a [[set#disjoint union]] $A \lor B$, then $\#\ S = \#\ A : \#\ B$
 
 when two [[set]]s form a [[set#union]] $A \lor B$, then $\#\ S = \#\ A : \#\ B \cdot \#\ (A \land B)$
 
-_difference principle_ the cardinality of the difference of two [[set]]s is $\#\ (A / B) = \#\ A \cdot \#\ (A \land B)$
+_difference principle_ the cardinality of the difference of two [[set]]s is $\#\ (A \land +B) = \#\ A \cdot \#\ (A \land B)$
 
-_product principle_ the cardinality of the [[cartesian product]] of two [[set]]s is $\#\ \braket{A\ \dot,\ B} = \#\ A \mid \#\ B$
-
-_generalized product principle_ $\#\ (A\ \acute\shortmid\ B \lor A\ \acute\shortmid\ B) = \#\ A\ \acute\shortmid\ B : \#\ B\ \acute\shortmid\ A \cdot \#\ (A\ \acute\shortmid\ B \land B\ \acute\shortmid\ A) = (2 \mid \#\ A : \#\ B) \cdot$ #todo complete during next lecture
+_product principle_ the cardinality of the [[cartesian product]] of two [[set]]s is $\# \braket{A\ \dot,\ B} = \#\ A \mid \#\ B$
 
 ## Power Set
 
@@ -207,7 +203,7 @@ the number of $k$-combinations of an $n$-set is
 > - the number of $k$-combinations from an $n$-[[set]] with repetition allowed
 > - the number of $k$-[[multiset]]s from an $n$-[[set]]
 > - the number of ways of distributing $n$ identical marbles into $k$ distinguishable boxes
-> - the number of solutions to $:\! x = n$ with $\mathbb N x^i$ for all $i$
+> - the number of solutions to $\,: x = n$ with $\mathbb N x^i$ for all $i$
 > - the number of $n$-subsets of an $n : k \cdot 1$-[[set]]
 > - the number of $k \cdot 1$-subsets of an $n : k \cdot 1$-[[set]]
 
@@ -223,6 +219,6 @@ $C\ n\ k = C\ n\ (n \cdot k)$
 - let $C\ n\ k$ be the $k$-subsets of an $n$-[[set]]
 - let $P\ k\ k$ be the $k$-permutations of a $k$-[[set]]
 
-then, there exists a [[function#bijective function]] between $P\ n\ k$ and $C\ n\ k\ \acute\mid\ P\ k\ k$
+then, there exists a [[function#bijective function]] between $P\ n\ k$ and $\braket{C\ n\ k\ \dot,\ P\ k\ k}$
 
 moreover, $\#\ C\ n\ k = \#\ C\ n\ (n \cdot k)$. the number of $k$-subsets of an $n$-[[set]] is equal to the number of $n \cdot k$-subsets of an $n$-[[set]]

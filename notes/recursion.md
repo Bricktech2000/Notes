@@ -2,7 +2,7 @@
 
 **see** [[recursion]]
 
-**definition** _Recursion_ is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem. &mdash; Wikipedia
+**definition** _recursion_ is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem &mdash; Wikipedia
 
 > **example** _common recursion pattern_
 >

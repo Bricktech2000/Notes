@@ -12,7 +12,7 @@ _the default [[loss function]] for regression problems_
 
 **definition**
 
-$\text{MSE} =\ :\! [y \cdot \hat y]2 - \#\ y$, where
+$\text{MSE} = \,: [y \cdot \hat y]2 - \#\ y$, where
 
 - $\text{MSE}$ is the _mean squared error_ of the values
 - $y$ are the observed values

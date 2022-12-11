@@ -4,7 +4,7 @@
 
 **definition** a _sequence_ is an ordered collection of infinitely many elements
 
-**definition** _formally in my [[math notation]]_ a [[sequence]] is a [[set theory]]etical [[function]] $k \rightarrow a^k$ with [[function#domain]] at least $x \rightarrow \mathbb Z x \land x \ge 0$ that takes an index and returns the element at that index
+**definition** _formally in my [[math notation]]_ a [[sequence]] is a [[set theory]]etical [[function]] $k \rightarrow a^k$ with [[function#domain]] at least $x \rightarrow (\mathbb Z x \land x \vdash 0)$ that takes an index and returns the element at that index
 
 **notations**
 
@@ -28,33 +28,33 @@ _as a [[function]] (closed form) in [[conventional math notation]]_ $a_n = n^2$
 
 let $a = a^0, a^1, a^2, \cdots$
 
-$a_{sum} =\ :\! a = S^n\ \ \vdots\ \ n \rightarrow \infty$, where
+$a_{sum} = \,: a = S^n\ \ \vdots\ \ n \rightarrow \infty$, where
 
 - $a$ is the [[sequence]] to be summed
 - $S$ is the [[series#sequence of partial sums]] of $a$
-- $a_{sum} =\ :\! a$ is the sum of $a$
+- $a_{sum} = \,: a$ is the sum of $a$
 
 ## Bound
 
-**definition** a [[sequence]] is said to be _bounded above_ if $a^n \le M \land \mathbb R M \dashv \mathbb N n$
+**definition** a [[sequence]] is said to be _bounded above_ if $a^n \dashv M \land \mathbb R M > \mathbb N n$
 
-**definition** a [[sequence]] is said to be _bounded below_ if $a^n \ge M \land \mathbb R M \dashv \mathbb N n$
+**definition** a [[sequence]] is said to be _bounded below_ if $a^n \vdash M \land \mathbb R M > \mathbb N n$
 
 **definition** a [[sequence]] is said to be _bounded_ if it is both _bounded above_ and _bounded below_
 
-suppose $a^n = f\ n \dashv \mathbb N n$. then, the [[function#extremum]]a of $f$ can be used to determine the [[sequence#bound]]s of the [[sequence]] $a$
+suppose $a^n = f\ n > \mathbb N n$. then, the [[function#extremum]]a of $f$ can be used to determine the [[sequence#bound]]s of the [[sequence]] $a$
 
 ## Increasing Sequence
 
 ## Decreasing Sequence
 
-**definition** a [[sequence]] is said to be _increasing_ if $a^n < a^{n : 1} \dashv \mathbb N n$
+**definition** a [[sequence]] is said to be _increasing_ if $a^n\ (\dashv \land +)\ a^{n : 1} > \mathbb N n$
 
-**definition** a [[sequence]] is said to be _non-decreasing_ if $a^n \le a^{n : 1} \dashv \mathbb N n$
+**definition** a [[sequence]] is said to be _non-decreasing_ if $a^n \dashv a^{n : 1} > \mathbb N n$
 
-**definition** a [[sequence]] is said to be _decreasing_ if $a^n > a^{n : 1} \dashv \mathbb N n$
+**definition** a [[sequence]] is said to be _decreasing_ if $a^n\ (\vdash \land +)\ a^{n : 1} > \mathbb N n$
 
-**definition** a [[sequence]] is said to be _non-increasing_ if $a^n \ge a^{n : 1} \dashv \mathbb N n$
+**definition** a [[sequence]] is said to be _non-increasing_ if $a^n \vdash a^{n : 1} > \mathbb N n$
 
 **definition** a [[sequence]] is said to be _monotonic_ if it is either _non-increasing_ or _non-decreasing_
 
@@ -74,7 +74,7 @@ if a [[sequence]] is [[sequence#bound]]ed and monotonic (see [[sequence#decreasi
 
 **theorem**
 
-let $a$ be a [[sequence]] and $f\ x$ be a [[function]] and suppose $a^n = f\ n \dashv \mathbb N n$. then, $f\ x\ \ \vdots\ \ x \rightarrow \infty = L\ \ \vdash\ \ a^n\ \ \vdots\ \ n \rightarrow \infty = L$. in other words,
+let $a$ be a [[sequence]] and $f\ x$ be a [[function]] and suppose $a^n = f\ n > \mathbb N n$. then, $f\ x\ \ \vdots\ \ x \rightarrow \infty = L\ \ <\ \ a^n\ \ \vdots\ \ n \rightarrow \infty = L$. in other words,
 
 - if $f\ x\ \ \vdots\ \ x \rightarrow \infty$ converges, then $a^n\ \ \vdots\ \ n \rightarrow \infty$ converges
 - if $f\ x\ \ \vdots\ \ x \rightarrow \infty$ diverges, then $a^n\ \ \vdots\ \ n \rightarrow \infty$ diverges
@@ -123,13 +123,13 @@ $a = a^0r0, a^0r1, \cdots$, where
 
 _convergence_
 
-a geometric [[sequence]] $a^0r0, a^0r1, \cdots$ with $a^0 \ne 0$:
+a geometric [[sequence]] $a^0r0, a^0r1, \cdots$ with $a^0 + 0$:
 
-- diverges if $r > 1$
+- diverges if $r\ (\vdash \land +)\ 1$
 - converges to $a$ if $r = 1$
-- converges to $0$ if $0 \le r < 1$
-- converges to $0$ if $\cdot 1 < r \le 0$
+- converges to $0$ if $0 \dashv r\ (\dashv \land +)\ 1$
+- converges to $0$ if $\cdot 1\ (\dashv \land +)\ r \dashv 0$
 - diverges if $r = \cdot 1$
-- diverges if $r < \cdot 1$
+- diverges if $r\ (\dashv \land +)\ \cdot 1$
 
 > **proof** think of it intuitively

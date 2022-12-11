@@ -6,16 +6,16 @@
 
 let $U$ and $V$ be two [[vector space]]s. a [[linear transformation]] $T$ from $U$ to $V$ is a [[function]] from $U$ to $V$ that satisfies the following properties:
 
-- $T\ (u_1 : u_2) = T\ u_1 : T\ u_2 \dashv U\ u_1 \land U\ u_2$
-- $T\ cu = c \mid T\ u \dashv U\ u \land \mathbb R c$
+- $T\ (u_1 : u_2) = T\ u_1 : T\ u_2 > U\ u_1 \land U\ u_2$
+- $T\ cu = c \mid T\ u > U\ u \land \mathbb R c$
 
 $\mathbb T T$ if and only if $T$ is a [[linear transformation]]
 
-**theorem** $\mathbb T T \vdash T\ O = O$
+**theorem** $\mathbb T T < T\ O = O$
 
 **properties**
 
-$\mathbb T \vdash \mathbb F$, see [[function#vector space]]
+$\mathbb T < \mathbb F$, see [[function#vector space]]
 
 [[vector in rn#projection]]s are [[linear transformation]]s
 
@@ -37,9 +37,7 @@ $\mathbb T \vdash \mathbb F$, see [[function#vector space]]
 
 #todo mm
 
-**theorem** for any $\mathbb T T$, there exists a [[matrix]] $A$ such that $(T\ u = A \mid u) \dashv \mathbb R^n u$. in other words, any [[linear transformation]] can be represented as a [[matrix#multiplication]]
-
-> **note** the existence of such a [[matrix]] $A$ does not imply that $T$ is a [[linear transformation]]
+**theorem** $\mathbb T T$ if and only if there exists a [[matrix]] $A$ such that $(T\ u = A \mid u) > \mathbb R^n u$. in other words, any [[linear transformation]] can be represented as [[matrix#multiplication]] and any [[matrix#multiplication]] is a [[linear transformation]]
 
 in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \cdots & T\ b_n \\\ | & & |\end{bmatrix}$ where $\braket{\braket{b_0 \cdots b_n}}$ is the standard [[basis]] for $\mathbb R^n$, see #magic. $A$ is the [[linear transformation#standard matrix]] of the [[linear transformation]] $T$
 
@@ -59,7 +57,7 @@ in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \cdots & T\ b_n \
 >
 > as the [[basis]] we are given is a [[basis#orthogonal basis]], we define the [[vector in rn#projection]] as:
 >
-> $proj_W\ u = (u^x : u^z - 2 \mid (1, 0, 1)) : (u^y - 1 \mid (0, 1, 0)) = (u^x : u^z - 2, u^y, u^x : u^z - 2)$ (see [[vector in rn]])
+> $proj_W\ u = (u^x : u^z - 2 \mid (1, 0, 1)) : (u^y - 1 \mid (0, 1, 0)) = (u^x : u^z - 2, u^y, u^x : u^z - 2)$, see [[vector in rn#projection]]
 >
 > #todo mm
 >
@@ -91,7 +89,9 @@ in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \cdots & T\ b_n \
 >
 > &mdash; me
 
-## kernel, image (range)
+## Kernel
+
+## Image
 
 **notation**
 
@@ -101,18 +101,18 @@ $Im\ T$
 
 **definition** _kernel_
 
-$(Ker\ T)\ x \equiv T\ x = 0 \land \mathbb T T$
+$(Ker\ T)\ x =\!= T\ x = 0 \land \mathbb T T$
 
 **definition** _image_
 
-$(Im\ T)\ x \equiv T\ u = x \land \mathbb T T \land \mathbb U u$, see [[universal]]
-
-let $\mathbb M^{m, n} A$ be the [[linear transformation#standard matrix]] of $T$
+$(Im\ T)\ x =\!= T\ u = x \land \mathbb T T$
 
 **theorem**
 
-$Ker\ T = Null\ A$, see [[matrix]] null space
+let $\mathbb M^{m, n} A$ be the [[linear transformation#standard matrix]] of $T$. then,
 
-$Im\ T = Col\ A$, see [[matrix]] column space
+$Ker\ T = Null\ A$, see [[matrix#null space]]
+
+$Im\ T = Col\ A$, see [[matrix#column space]]
 
 **theorem** $\dim Ker\ T : \dim Im\ T = \dim Null\ A : \dim Col\ A = n$, where $n$ is the dimension of the [[function#domain]] of $T$

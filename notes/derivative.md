@@ -44,9 +44,9 @@ $d^n f$ would then be the $n$ th [[derivative]] of $f\ x$ with respect to $x$
 
 **definition**
 
-let $f$ be a [[function]] differentiable at $p \equiv (x \cdots)$ and let $v$ be a **[[vector in rn#unit vector]]**. then,
+let $f$ be a [[function]] differentiable at $p = (x \cdots)$ and let $v$ be a **[[vector in rn#unit vector]]**. then,
 
-$D^v\ f\ p =\ :\! v (\delta\ f\ p - \delta p)$, where
+$D^v\ f\ p = \,: v (\delta\ f\ p - \delta p)$, where
 
 - $D^v\ f\ p$ is the [[derivative]] of $f$ in direction $v$ at $p$
 - $\delta\ f\ p - \delta p$ is the [[gradient]] of $f$ at $p$
@@ -104,7 +104,7 @@ the same is true with any other parameter and with any number of parameters
 
 **definition** a [[function]] $f$ is _differentiable_ at $a$ if $\delta f\ a - \delta x$ exists
 
-**definition** a [[function]] is _differentiable_ on an interval $x \rightarrow (a \le x \le b)$ if it is differentiable on every point from $a$ to $b$
+**definition** a [[function]] is _differentiable_ on an interval $x \rightarrow (a \dashv x \dashv b)$ if it is differentiable on every point from $a$ to $b$
 
 **theorem** if $f\ x$ is not continuous at $x = a$, then it is not differentiable at $x = a$
 

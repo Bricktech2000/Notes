@@ -8,17 +8,21 @@ _used to optimize a [[function]] through a set of linear constraints_
 >
 > $f\ x\ y = 180x : 200y$
 >
-> $5x : 4y \le 80$
+> $5x : 4y \dashv 80$
 >
-> $10x : 20y \le 200$
+> $10x : 20y \dashv 200$
 >
-> $x \ge 0 \land y \ge 0$
+> $x \vdash 0 \land y \vdash 0$
 
 ## Feasible Region
 
 **definition** the _feasible region_ of a [[linear programming]] problem is the graphical region in which all linear inequalities are satisfied
 
-**representation** ![[20220718015229.png]] &mdash; <https://youtu.be/K7TL5NMlKIk?t=348>
+**representation**
+
+![[20220718015229.png]]
+
+&mdash; <https://youtu.be/K7TL5NMlKIk?t=348>
 
 ## computing extrema
 

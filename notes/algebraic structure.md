@@ -20,7 +20,9 @@ an [[algebraic structure]] consists of:
 > - [[semigroup]]s
 > - [[abelian group]]s
 > - [[monoid]]s
-> - [[number field]]s
+> - [[field]]s
 > - [[boolean algebra]]
 > - [[vector space]]s
 > - ...
+
+#todo update [[algebraic structure]]s with titles from [[group]]

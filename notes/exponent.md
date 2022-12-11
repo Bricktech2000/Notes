@@ -4,14 +4,14 @@
 
 **notation**
 
-$[b]c \equiv b[c]$, where
+$[b]c =\!= b[c]$, where
 
 - $b$ is the base of the [[exponent]]
 - $c$ is the value to raise the base to
 
 **properties**
 
-$x0 = 1 \dashv x \ne 0$
+$x0 = 1 > x + 0$
 
 _inverse_ $x[\cdot n] = 1 - x[n]$ (see [[improved expression evaluation]])
 

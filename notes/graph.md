@@ -8,9 +8,9 @@ _a collection of vertices connected by a collection of edges_
 
 **definition** an _undirected graph_ is a [[graph]] $G$ such that $G = G^\intercal$
 
-**definition** in [[conventional math notation]], a _graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $\smash\ne E\ e \vdash (V\ \acute\mid\ V)\ e$ and $E\ e \equiv E\ e^\intercal$ (see [[relation]], [[ordered pair]])
+**definition** in [[conventional math notation]], a _graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $E\ e + 0 < \braket{V\ \dot,\ V}\ e$ and $E\ e =\!= E\ e^\intercal$ (see [[relation]], [[ordered pair]])
 
-**definition** in [[conventional math notation]], a _directed graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $\smash\ne E\ e \vdash (V\ \acute\mid\ V)\ e$ (see [[relation]], [[ordered pair]])
+**definition** in [[conventional math notation]], a _directed graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $E\ e + 0 < \braket{V\ \dot,\ V}\ e$ (see [[relation]], [[ordered pair]])
 
 **definition** a _vertex_ or _node_ is a point in a _graph_
 
@@ -30,7 +30,7 @@ below are two equivalent representations of a sample graph
 
 **definition**
 
-_in my [[math notation]]_ a vertex $v$ is in a graph $G$ if and only if there is at least one edge incident to $v$: $G\ v \equiv G^{v,} \ne O \lor G^{, v} \ne O$
+_in my [[math notation]]_ a vertex $v$ is in a graph $G$ if and only if there is at least one edge incident to $v$: $G\ v =\!= G^{v,} + O \lor G^{, v} + O$
 
 _in [[conventional math notation]]_ a vertex $v$ is in a graph $\braket{V, E}$ if and only if $V\ v$
 
@@ -42,7 +42,7 @@ _in [[conventional math notation]]_ a vertex $v$ is in a graph $\braket{V, E}$ i
 
 **definition** two [[graph]]s are said to be _isomorphic_ if they have the same edges connecting their vertices, which could be labelled differently
 
-**definition** in my [[math notation]], a _graph isomorphism_ between two [[graph]]s $G_1$ and $G_2$ is a bijective [[function]] $f$ such that $G_1^{v, w} \equiv G_2^{f\ v, f\ w}$
+**definition** in my [[math notation]], a _graph isomorphism_ between two [[graph]]s $G_1$ and $G_2$ is a bijective [[function]] $f$ such that $G_1^{v, w} =\!= G_2^{f\ v, f\ w}$
 
 **definition** in [[conventional math notation]], a _graph isomorphism_ between two [[graph]]s $\braket{V_1, E_1}$ and $\braket{V_2, E_2}$ is a bijective [[function]] $f$ from $V_1$ to $V_2$ such that any two vertices $a$ and $b$ in $V_1$ have an edge in $E_1$ connecting them if and only if $f\ a$ and $f\ b$ have an edge in $E_2$ connecting them.
 
@@ -58,9 +58,9 @@ _in [[conventional math notation]]_ a vertex $v$ is in a graph $\braket{V, E}$ i
 
 ## Subgraph
 
-**definition** a [[graph]] $G_1$ is a _subgraph_ of $G_2$ if and only if it is a [[graph]] and $G_1^e \le G_2^e$
+**definition** a [[graph]] $G_1$ is a _subgraph_ of $G_2$ if and only if it is a [[graph]] and $G_1^e \dashv G_2^e$
 
-**definition** a [[graph]] $G_1$ is an _induced subgraph_ of $G_2$ if and only if it is a _subgraph_ of $G_2$ and $G_1\ e^\bot \land G_1\ e^\top \vdash G_1^e = G_2^e$ (the subgraph must contain all the original edges connecting its vertices)
+**definition** a [[graph]] $G_1$ is an _induced subgraph_ of $G_2$ if and only if it is a _subgraph_ of $G_2$ and $G_1\ e^\bot \land G_1\ e^\top < G_1^e = G_2^e$ (the subgraph must contain all the original edges connecting its vertices)
 
 ## Vertex Degree
 

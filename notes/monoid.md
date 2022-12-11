@@ -1,5 +1,9 @@
 # Monoid
 
+## Operation
+
+## Identity Element
+
 **see** [[math notation]], [[algebraic structure]]
 
 it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] under [an [[operator]]]_. for example, _[[natural]]s with $0$ for a [[monoid]] under addition_
@@ -8,13 +12,13 @@ it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] un
 
 **definition**
 
-let a binary [[operator]] $\circ$ on a [[set]] $S$. for them to form a [[monoid]], the following [[axiom]]s must be satisfied:
+let a binary [[operator]] $\circ$ on a [[set]] $S$. for them to form a [[monoid]], the following [[axiom]]s must be satisfied for all $S\ a \land S\ b \land S\ c$:
 
-_associativity_ $(a \circ b) \circ c = a \circ (b \circ c) \dashv S\ a \land S\ b \land S\ c$
+_associativity_ $(a \circ b) \circ c = a \circ (b \circ c)$
 
-_identity element_ $a \circ I = a \land S\ I \dashv S\ a$
+_identity element_ $a \circ I = a \land S\ I$
 
-_closure_ $S\ (a \circ b) \dashv S\ a \land S\ b$
+_closure_ $S\ (a \circ b)$
 
 &mdash; Wikipedia
 

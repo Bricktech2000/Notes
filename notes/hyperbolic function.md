@@ -10,7 +10,7 @@ $x = \cosh \theta \land y = \sinh \theta$, and $\tanh \theta = \sinh \theta - \c
 
 **examples**
 
-> **example** $\cosh x \equiv e[x] : e[\cdot x] - 2$, which forms a [[catenary]] curve &mdash; <https://youtu.be/xGxSTzaID3k?t=1316>
+> **example** $\cosh x =\!= e[x] : e[\cdot x] - 2$, which forms a [[catenary]] curve &mdash; <https://youtu.be/xGxSTzaID3k?t=1316>
 
 ## identities
 

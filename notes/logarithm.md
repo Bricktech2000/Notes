@@ -11,7 +11,7 @@ $\lceil a \rceil b$, where
 
 **definition**
 
-$\lceil a \rceil b = c \equiv b[c] = a$
+$\lceil a \rceil b = c =\!= b[c] = a$
 
 > **note** the [[logarithm]] of both positive **and** negative [[number]]s is defined in my [[math notation]]
 
@@ -19,7 +19,7 @@ $\lceil a \rceil b = c \equiv b[c] = a$
 
 $\lceil a \rceil b = \lceil a \rceil x - \lceil b \rceil x$
 
-$\lceil 1 \rceil n = 0 \dashv n \ne 0$
+$\lceil 1 \rceil n = 0 > n + 0$
 
 _inverse_ $\lceil -x \rceil = \cdot \lceil x \rceil$ (see [[improved expression evaluation]])
 
@@ -37,4 +37,4 @@ _reciprocality with [[exponent]]ials_ $b[\lceil x \rceil b] = x$
 
 **definition** $\lceil b \rceil e$ is the _natural log_ of $b$, see [[eulers constant]]
 
-**definition** $\lceil b \rceil 10$ is the _common log_ of $b$
+**definition** $\lceil b \rceil 10$ is the _common log_ of $b$, see [[decimal]]

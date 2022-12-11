@@ -14,7 +14,7 @@
 
 a category $\mathcal C$ consists of [[category#object]]s and [[category#morphism]]s with [[category#composition]] and [[category#identity morphism]] all subject to the [[category#associativity law]] and the [[category#identity law]]
 
-> **example** [[real]]s and the $\le$ operator form a [[category]] &mdash; <https://youtu.be/yAi3XWCBkDo?t=652>
+> **example** [[real]]s and the $\dashv$ operator form a [[category]] &mdash; <https://youtu.be/yAi3XWCBkDo?t=652>
 
 [[category#object]]s and [[category#morphism]]s do not contain any information; [[category#composition]] and [[category#identity morphism]]s do. the goal is to encode everything in composition and identities
 
@@ -62,7 +62,18 @@ any number of [[category#morphism]]s between two [[category#object]]s can exist.
 >
 > in the commutative diagram below, $\alpha$ (or the pair $\braket{\alpha, \alpha^{-1}}$) is an isomorphism
 >
-> ![[20220708044859.png]] &mdash; <https://youtu.be/Gai-liKAUPo?t=483>
+> ```mermaid
+> graph LR
+>   A(<span class=math>A</span>)
+>   B(<span class=math>B</span>)
+>
+>   A -- <span class=math>id_A</span> --> A
+>   B -- <span class=math>id_B</span> --> B
+>   A -- <span class=math>\alpha</span> --> B
+>   B -- <span class=math>\alpha^.1</span> --> A
+> ```
+>
+> &mdash; <https://youtu.be/Gai-liKAUPo?t=483>
 >
 > &mdash; <https://youtu.be/yAi3XWCBkDo?t=954>
 
@@ -74,7 +85,7 @@ any number of [[category#morphism]]s between two [[category#object]]s can exist.
 
 ### Monomorphism
 
-**definition** let $f : A \to B$, let $g_1 : C \to A$ and $g_2 : C \to A$, and let $\circ$ be the [[composition]] [[operator]]. then, $f$ is a _monomorphism from $A$ to $B$_ if and only if $f \circ g_1 = f \circ g_2 \vdash g_1 = g_2$ for all $\mathcal C(C, A)\ g_1$ and $\mathcal C(C, A)\ g_2$ and for all $C$
+**definition** let $f : A \to B$, let $g_1 : C \to A$ and $g_2 : C \to A$, and let $\circ$ be the [[composition]] [[operator]]. then, $f$ is a _monomorphism from $A$ to $B$_ if and only if $f \circ g_1 = f \circ g_2 < g_1 = g_2$ for all $\mathcal C(C, A)\ g_1$ and $\mathcal C(C, A)\ g_2$ and for all $C$
 
 > **note** this definition works because if $f$ mapped two different [[category#object]]s in $A$ to the same [[category#object]] in $B$, then there could exist two different [[category#morphism]]s $g_1$ and $g_2$ that would map elements of $C$ to $A$ differently which could then be mapped identically to $B$ by $f$
 
@@ -84,7 +95,7 @@ monomorphisms are [[category#morphism]]s that are injective, see [[function#inje
 
 ### Epimorphism
 
-**definition** let $f : A \to B$, let $g_1 : B \to C$ and $g_2 : B \to C$, and let $\circ$ be the [[composition]] [[operator]]. then, $f$ is an _epimorphism from $A$ to $B$_ if and only if $g_1 \circ f = g_2 \circ f \vdash g_1 = g_2$ for all $\mathcal C(B, C)\ g_1$ and $\mathcal C(B, C)\ g_2$ and for all $C$
+**definition** let $f : A \to B$, let $g_1 : B \to C$ and $g_2 : B \to C$, and let $\circ$ be the [[composition]] [[operator]]. then, $f$ is an _epimorphism from $A$ to $B$_ if and only if $g_1 \circ f = g_2 \circ f < g_1 = g_2$ for all $\mathcal C(B, C)\ g_1$ and $\mathcal C(B, C)\ g_2$ and for all $C$
 
 > **note** this definition works because if the [[function#range]] $R$ of $f$ was a [[set#subset]] of its [[function#domain]] $B$, then there could exist two different [[category#morphism]]s $g_1$ and $g_2$ that would map elements in $R$ identically but would map elements in $B / R$ differently
 
@@ -128,6 +139,14 @@ in Haskell, let `id :: a -> a`. then, `id x = x`
 
 to do so, they must use a pair of [[function]]s to [[map]] both [[category#object]]s and [[category#morphism]]s between the [[category]]es and preserve the identity and composition laws
 
+### Forgetful Functor
+
+**definition** a _forgetful functor_ is a [[functor]] that forgets some information about the [[category]] it is mapping from &mdash; Github Copilot
+
+> **example**
+>
+> the [[category#functor]] from the [[category]] of [[group]]s to the [[category]] of [[set]]s is a forgetful functor because it forgets the [[group#operation]] and [[group#identity element]]
+
 ## Opposite Category
 
 **aka** _Duality_
@@ -136,14 +155,56 @@ to do so, they must use a pair of [[function]]s to [[map]] both [[category#objec
 
 **definition** for any [[category]] $\mathcal C$, one can define the _opposite category_ $\mathcal C^{op}$ by reversing all its morphisms
 
-this can be thought of as _reversing the direction of the arrows_ in the [[graph]] the [[category]]
+this can be thought of as "reversing the direction" of the "arrows" in the [[graph]] the [[category]]
 
 ## Product
 
 ## Coproduct
 
-Products between [[category#object]]s are basically [[type#product type]]s
+products between [[category#object]]s are basically [[type#product type]]s
 
-Coproducts between [[category#object]]s are basically [[type#sum type]]s
+coproducts between [[category#object]]s are basically [[type#sum type]]s
+
+> A _product_ of two [[category#object]]s $A$ and $B$ is the object $P$ equipped with two projections such that for any other object $P'$ equipped with two projections there is a unique [[category#morphism]] $m$ from $P'$ to $P$ that factorizes those projections.
+
+#todo "factorizes those projections" means that the diagram _commutes_ (composing two of the marphisms gives the third one)
+
+&mdash; <https://miklos-martin.github.io/learn/fp/category-theory/2018/02/01/adventures-in-category-theory-the-algebra-of-types.html>
+
+factorizes &mdash; <https://youtu.be/Bsdl_NKbNnU?t=1011>
 
 #think <https://youtu.be/Gai-liKAUPo?t=327>
+
+**representation** _[[category#product]]_
+
+```mermaid
+graph TD
+  A(<span class=math>A</span>)
+  B(<span class=math>B</span>)
+  P(<span class=math>P</span>)
+  P_(<span class=math>P'</span>)
+
+  P -- <span class=math>f_1</span> --> A
+  P -- <span class=math>f_2</span> --> B
+
+  P_ -- <span class=math>f_1 \circ m</span> --> A
+  P_ -. <span class=math>m</span> .-> P
+  P_ -- <span class=math>f_2 \circ m</span> --> B
+```
+
+**representation** _[[category#coproduct]]_
+
+```mermaid
+graph BT
+  A(<span class=math>A</span>)
+  B(<span class=math>B</span>)
+  Q(<span class=math>Q</span>)
+  Q_(<span class=math>Q'</span>)
+
+  A -- <span class=math>f_1</span> --> Q
+  B -- <span class=math>f_2</span> --> Q
+
+  A -- <span class=math>m \circ f_1</span> --> Q_
+  Q -. <span class=math>m</span> .-> Q_
+  B -- <span class=math>m \circ f_2</span> --> Q_
+```

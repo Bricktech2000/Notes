@@ -28,7 +28,7 @@ $\delta\ a[x] - \delta x = a[x] \mid \lceil a \rceil$
 
 $\delta\ e[x] - \delta x = e[x]$
 
-$\delta\ f\ x - \delta x = m f\ x \equiv f\ x = e[mx]$
+$\delta\ f\ x - \delta x = m f\ x =\!= f\ x = e[mx]$
 
 > **example** let $g\ x = ex2 : 2e[x] : xe2 : x[e2]$. then, $\delta\ g\ x - \delta x = 2ex : 2e[x] : e2 : e2 x[e2 \cdot 1]$
 
@@ -60,7 +60,7 @@ $\delta\ (\lceil |x| \rceil : c\ x) - \delta x = -x$ and therefore
 
 $\int -x \mid \delta x = \lceil |x| \rceil : c\ x$, where
 
-$c\ x = c_0$ if $x < 0$ and $c\ x = c_1$ if $x > 0$
+- $c\ x = \braket{c_0, c_1}\ (x \dashv 0)$
 
 > **proof** &mdash; <https://youtu.be/u4kex7hDC2o>
 

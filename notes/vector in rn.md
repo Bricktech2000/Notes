@@ -6,7 +6,7 @@ _Vectors in $\mathbb R^n$_
 
 **definition** a _vector in $\mathbb R^n$_ is an ordered collection of elements that do not have to be unique
 
-**definition** _formally in my [[math notation]]_ a [[vector]] in $\mathbb R^n$ is a [[set theory]]etical [[function]] with [[function#domain]] at least $x \rightarrow \mathbb N x \land 0 \le x < n$ that takes an index and returns the element at that index
+**definition** _formally in my [[math notation]]_ a [[vector]] in $\mathbb R^n$ is a [[set theory]]etical [[function]] with [[function#domain]] at least $x \rightarrow (\mathbb N x \land 0 \dashv x \dashv n \cdot 1)$ that takes an index and returns the element at that index
 
 > **equivalence** _[[list]]s and [[vector in rn]]s_
 
@@ -16,32 +16,25 @@ _Vectors in $\mathbb R^n$_
 
 $(1, 2)$
 
-**properties**
-
-_equality_ $(a, b) = (c, d) \equiv a = c \land b = d$
-
-_negation_ $\cdot(a, b) \equiv (\cdot a, \cdot b)$
-
 ## Vector Space
 
 **see** [[vector]], [[vector space]]
 
 **properties**
 
-_zero [[vector in rn]]_ $O\ \dot=\ 0 \equiv O^m = 0$
+_zero [[vector in rn]]_ $O$ such that $O\ \dot=\ 0$
 
-_[[vector in rn]] addition_ $(a, b) : (c, d) \equiv (a : c, b : d)$
+_[[vector in rn]] addition_ $(a, b) : (c, d) =\!= (a : c, b : d)$
 
-_multiplication by a [[scalar]]_ $c(a, b) \equiv (ca, cb) \dashv \mathbb R c$
+_multiplication by a [[scalar]]_ $c(a, b) =\!= (ca, cb) > \mathbb R c$
 
 ## Magnitude
 
 **definition**
 
-$|V|$, where
+$|V| = \lfloor \,: V2 \rfloor$, where
 
-- $V$ is the [[vector in rn]] to find the magnitude of
-- $|V| = \lfloor :\! V2 \rfloor$ (derived from the Pythagoras theorem), see [[dot product]]
+- $V$ is the [[vector in rn]] to find the magnitude of, see [[dot product]]
 
 ### Unit Vector
 
@@ -68,9 +61,9 @@ _angle between two [[vector in rn]]s_
 
 **definition**
 
-$\cos \theta =\ :\! ab - |a|\ |b|$
+$\cos \theta = \,: ab - |a|\ |b|$
 
-> **note**: use $\cos \theta =\ |:\! ab| - |a|\ |b|$ to always get the acute angle solution
+> **note**: use $\cos \theta =\ |\,: ab| - |a|\ |b|$ to always get the acute angle solution
 
 **definition**
 
@@ -78,13 +71,11 @@ $\sin \theta = a\ \check\mid\ b - |a|\ |b|$, see [[cross product]]
 
 ### Orthogonal Vectors
 
-_a pair of vectors offset by $90^\circ$_
+_a pair of vectors offset by $\tau\text-4\ \text{rad}$_
 
-**notation**
+**notation** _in [[conventional math notation]]_ $u \perp v$
 
-$u \perp v$
-
-**definition** $u$ and $v$ are _orthogonal_ if and only if $:\! uv = 0$ (see [[dot product]]), or $u \perp v \equiv\ :\! uv = 0$
+**definition** $u$ and $v$ are _orthogonal_ if and only if $\,: uv = 0$, see [[dot product]]
 
 **definition** a [[set]] of [[vector]]s is _orthogonal_ if and only if it does not contain the zero [[vector]] and all [[vector]]s in the [[set]] are orthogonal to all other [[vector]]s
 
@@ -94,17 +85,19 @@ $u \perp v$
 
 **theorem** any orthogonal [[set]] of $n$ [[vector]]s in $\mathbb R^n$ is a [[basis#orthogonal basis]] of $\mathbb R^n$
 
-**theorem** orthogonal [[set]] $\vdash$ [[linearly independent]], but not the inverse
+**theorem** an orthogonal [[set]] of [[vector]]s implies the [[vector]]s are [[linearly independent]], but not conversely
 
-**theorem** suppose $w_0 \cdots w_m$ is a [[basis#orthogonal basis]] for a [[vector space#subspace]] $W$ of $\mathbb R^n$. then, $w = w_0 (:\! ww_0 - :\! w_0w_0) : \cdots w_m (:\! ww_m - :\! w_mw_m)$, see [[dot product]]
+**theorem** suppose $(w_0 \cdots w_m)$ is a [[basis#orthogonal basis]] for a [[vector space#subspace]] $W$ of $\mathbb R^n$. then, $w = w_0 (\,: ww_0\ - \,: w_0w_0) : \cdots w_m (\,: ww_m\ - \,: w_mw_m)$, see [[dot product]]
 
 ### Colinear Vectors
 
 _a pair of parallel vectors_
 
+**notation** _in [[conventional math notation]]_ $u \parallel v$
+
 **definition**
 
-$u$ and $v$ are colinear if $u = kv \land \mathbb R k$
+$u$ and $v$ are colinear if $u = kv$ given a [[scalar]] $k$
 
 **properties**
 
@@ -122,15 +115,15 @@ _The scalar projection is equal to the [[vector in rn#magnitude]] of the [[vecto
 
 $|proj_b\ a| = |a| \cos \theta$, and
 
-$proj_b\ a = |a| \cos \theta \mid \hat b =\ :\! a \hat b \mid \hat b =\ :\! ab - :\! bb \mid b$ (see [[dot product]]), where
+$proj_b\ a = |a| \cos \theta \mid \hat b = \,: a \hat b \mid \hat b = \,: ab\ - \,: bb \mid b$ (see [[dot product]]), where
 
-- $proj_b\ a$ is the _vector projection of $a$ on $b$ ._
-- $|proj_b\ a|$ is the _scalar projection of $a$ on $b$ ._
+- $proj_b\ a$ is the _vector projection of $a$ on $b$_
+- $|proj_b\ a|$ is the _scalar projection of $a$ on $b$_
 - $\hat b$ is the [[vector in rn#unit vector]] in the direction of $b$, $b - |b|$
 
 **definition** _projection onto a [[vector space]]_
 
-$proj_W\ v = (:\! vw_0 - :\! w_0w_0) : \cdots (:\! vw_n - :\! w_nw_n)$, where
+$proj_W\ v = (\,: vw_0\ - \,: w_0w_0) : \cdots (\,: vw_n\ - \,: w_nw_n)$, where
 
 - $proj_W\ v$ is the projection of $v$ on the [[vector space]] $W$
 - $W = \operatorname{span} \braket{\braket{w_0 \cdots w_n}}$ and $(w_0 \cdots w_n)$ is a [[basis#orthogonal basis]] for $W$

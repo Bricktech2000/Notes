@@ -13,9 +13,9 @@ $P = \braket{f, t}$, where
 
 **properties**
 
-_equality_ $\braket{a, b} = \braket{c, d} \equiv a = c \land b = d$
+_equality_ $\braket{a, b} = \braket{c, d} =\!= a = c \land b = d$
 
-_negation_ $\cdot\braket{a, b} \equiv \braket{\cdot a, \cdot b}$
+_negation_ $\cdot\braket{a, b} =\!= \braket{\cdot a, \cdot b}$
 
 ## Vector Space
 
@@ -23,11 +23,11 @@ _negation_ $\cdot\braket{a, b} \equiv \braket{\cdot a, \cdot b}$
 
 **properties**
 
-_zero [[ordered pair]]_ $O \equiv \braket{0, 0}$
+_zero [[ordered pair]]_ $O =\!= \braket{0, 0}$
 
-_[[ordered pair]] addition_ $\braket{a, b} : \braket{c, d} \equiv \braket{a : c, b : d}$
+_[[ordered pair]] addition_ $\braket{a, b} : \braket{c, d} =\!= \braket{a : c, b : d}$
 
-_multiplication by a [[scalar]]_ $c\braket{a, b} \equiv \braket{ca, cb} \dashv \mathbb R c$
+_multiplication by a [[scalar]]_ $c\braket{a, b} =\!= \braket{ca, cb} > \mathbb R c$
 
 ## Transpose
 
@@ -39,7 +39,7 @@ _switches around the two elements of an [[ordered pair]]_
 
 **definition**
 
-$P^\intercal \equiv \braket{P^\top, P^\bot}$
+$P^\intercal =\!= \braket{P^\top, P^\bot}$
 
 **properties**
 

@@ -12,7 +12,7 @@ the [[real]] numbers can only have finitely many digits to the left of the decim
 
 **properties**
 
-$\mathbb Q^p \vdash \mathbb U$ for any prime $p$, see [[universal]]
+$\mathbb Q^p < \mathbb U$ for any prime $p$, see [[universal]]
 
 the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the [[p-adic#absolute value]] [[metric space#metric]]. see [[real]]
 
@@ -40,7 +40,7 @@ $\dots 66667 \mid \dots 00003 = \dots 00001 = 1$ and therefore $\dots 66667 = -3
 
 **aka** _[[p-adic]] metric_
 
-**see** [[number field#absolute value]], [[real#absolute value]]
+**see** [[field#absolute value]], [[real#absolute value]]
 
 [[real]]s are close when their first few digits are the same. [[p-adic]]s are close when their last few base-$p$ digits are the same, see [[positional numeral system]]
 
@@ -61,6 +61,6 @@ $|n|^p = -p[\psi\ n\ p]$, where
 
 > **example** $2$-adically, $1 : 2 : 4 : 8 : \cdots = \dots 11111 = \cdot 1$. more generally, $p0 :  p1 : \cdots = \cdot 1$
 
-> **note** for the [[p-adic#absolute value]] to follow the [[number field#absolute value]] [[axiom]]s, $|0|^p = 0$ for all $p$ &mdash; <https://youtu.be/vdjYiU6skgE?t=407>
+> **note** for the [[p-adic#absolute value]] to follow the [[field#absolute value]] [[axiom]]s, $|0|^p = 0$ for all $p$ &mdash; <https://youtu.be/vdjYiU6skgE?t=407>
 
 > **note** in contrast to the [[real#absolute value]], the [[p-adic#absolute value]] only returns a "discrete" [[set]] of values $x \rightarrow x = p[n] \land \mathbb Z n \lor x = 0$ &mdash; <https://youtu.be/vdjYiU6skgE?t=407>

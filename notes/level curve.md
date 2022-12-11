@@ -1,6 +1,6 @@
 # Level Curve
 
-**definition** the _level curves_ of a [[function]] $f$ is defined as $S_f\ k \equiv f\ (x \cdots) = k$
+**definition** the _level curves_ of a [[function]] $f$ is defined as $S_f\ k =\!= f\ (x \cdots) = k$
 
 let $p$ be a point and $f$ a [[function]]. then, the [[normal vector]] $n$ of a [[plane]] tangent to the [[level curve]] of $f$ at $p$ is defined as
 
@@ -8,7 +8,7 @@ $n = \delta\ f\ p - \delta p$, see [[gradient]]
 
 and said [[plane]] $T$ tangent to the [[level curve]] at $p$ is defined as
 
-$T\ t \equiv\ :\! n (t \cdot p) = 0$, see [[vector in rn]], [[plane]], [[dot product]]
+$T\ t =\!= \,: n (t \cdot p) = 0$, see [[vector in rn]], [[plane]], [[dot product]]
 
 **representation**
 

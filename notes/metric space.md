@@ -15,7 +15,7 @@
 > - the [[real]] [[line]] with Euclidean distance $a\ b \rightarrow |a \cdot b|$, see [[real#absolute value]]
 > - the [[real]] [[line]] with metric $a\ b \rightarrow \braket{1, 0}\ (a = b)$
 > - the [[real]] [[plane]] with Euclidean distance $a\ b \rightarrow |a \cdot b|$, see [[vector in rn#magnitude]]
-> - a [[sphere]] with angular distance $a\ b \rightarrow \operatorname{acos}\ (|:\! ab| - |a|\ |b|)$, see [[vector in rn#angle]]
+> - a [[sphere]] with angular distance $a\ b \rightarrow \operatorname{acos}\ (|\,: ab| - |a|\ |b|)$, see [[vector in rn#angle]]
 > - normed [[vector space]]s with metric $a\ b \rightarrow |a \cdot b|$ where $||$ is the norm of the [[vector space]]
 > - the [[p-adic]]s with metric $a\ b \rightarrow |a \cdot b|^p$, see [[p-adic#absolute value]]
 
@@ -29,23 +29,23 @@ a [[metric space#metric]] $d$ must satisfy the following [[axiom]]s for all $M\ 
 
 $d\ x\ x = 0$
 
-_positive_ $d\ x\ y \ge 0$
+_positive_ $d\ x\ y \vdash 0$
 
 _symmetric_ $d\ x\ y = d\ y\ x$
 
-_triangle inequality_ $d\ x\ z \le d\ x\ y + d\ y\ z$
+_triangle inequality_ $d\ x\ z \dashv d\ x\ y : d\ y\ z$
 
 ## Convergent Sequence
 
 **see** [[sequence]], [[sequence#convergence]]
 
-**definition** a [[sequence]] $x$ in a [[metric space]] converges to a point $a$ if for every $\epsilon > 0$ there exists an $N$ such that $d\ x^n\ a < \epsilon \dashv n > N$
+**definition** a [[sequence]] $x$ in a [[metric space]] converges to a point $a$ if for every $\varepsilon\ (\vdash \land +)\ 0$ there exists an $N$ such that $d\ x^n\ a \dashv \varepsilon < n \vdash N$
 
 ## Cauchy Sequence
 
 **see** [[sequence]], [[sequence#convergence]]
 
-**definition** a [[sequence]] $x$ in a [[metric space]] is called _Cauchy_ if for all $\epsilon > 0$ there exists an $N$ such that $d\ x^m\ x^n < \epsilon \dashv n > N \land m > N$
+**definition** a [[sequence]] $x$ in a [[metric space]] is called _Cauchy_ if for all $\varepsilon\ (\vdash \land +)\ 0$ there exists an $N$ such that $d\ x^m\ x^n \dashv \epsilon < n \vdash N \land m \vdash N$
 
 **theorem** by the _triangle inequality_, any [[metric space#convergent sequence]] is _Cauchy_.
 
@@ -69,4 +69,4 @@ _triangle inequality_ $d\ x\ z \le d\ x\ y + d\ y\ z$
 
 **theorem** the completion of a [[metric space]] is unique up to isometry
 
-**theorem** the completion of a [[number field]] is a [[number field]]
+**theorem** the completion of a [[field]] is a [[field]]

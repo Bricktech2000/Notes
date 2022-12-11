@@ -22,4 +22,4 @@
 
 **applications**
 
-Sums of Products can be used to easily convert a [[boolean]] expression to only NOR [[logic gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $\times\ A \equiv \times\ A \lor A$, see [[boolean algebra]]
+Sums of Products can be used to easily convert a [[boolean]] expression to only NOR [[logic gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $\times A =\!= \times\ A \lor A$, see [[boolean algebra]]

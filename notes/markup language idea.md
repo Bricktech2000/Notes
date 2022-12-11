@@ -15,6 +15,7 @@ in this [[programming language]],
 
 - syntax for tables, checkboxes, tags, dates, keyboard shortcuts...
 - support for running code blocks and parsing their `stdout` as markup
+- support for graphs and plots
 
 ---
 

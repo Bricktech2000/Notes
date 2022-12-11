@@ -2,4 +2,4 @@
 
 **see** [[math notation]]
 
-[[international system of units]] unit: $\text{s}$
+**notation** _[[international system of units]]_ $\text{s}$

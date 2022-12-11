@@ -4,7 +4,7 @@
 
 ## example [[proof]]
 
-prove $0 : \cdots n = n \mid n : 1 - 2 \dashv n \ge 0$
+prove $0 : \cdots n = n \mid n : 1 - 2 > n \vdash 0$
 
 with $n = 0$, $0 : \cdots n = 0$
 
@@ -16,7 +16,7 @@ therefore, $0 : \cdots n = n \mid n : 1 - 2$
 
 ## example [[proof]]
 
-prove $\mathbb E m \land \mathbb O n \vdash \mathbb O (m : n)$
+prove $\mathbb E m \land \mathbb O n < \mathbb O (m : n)$
 
 by definition, $m = 2k_1 \land \mathbb Z k_1$ and $n = 2k_2 : 1 \land \mathbb Z k_2$
 
@@ -28,7 +28,7 @@ therefore, $m : n = 2k_3 : 1 \land \mathbb Z k_3$ by substitution and thus $\mat
 
 ## example [[proof]]
 
-prove $\mathbb Q x \land \mathbb Q y \vdash \mathbb Q (x : y)$
+prove $\mathbb Q x \land \mathbb Q y < \mathbb Q (x : y)$
 
 let $x = x_1 - x_2 \land \mathbb Z x_1 \land \mathbb Z x_2$ by definition and let $y = y_1 - y_2 \land \mathbb Z y_1 \land \mathbb Z y_2$ by definition
 
@@ -42,21 +42,21 @@ therefore, $x : y = z_1 \text- z_2 \land \mathbb Z z_1 \land \mathbb Z z_2$ by s
 
 _no integer is both even and odd_
 
-prove $/(\mathbb Z n \land \mathbb E n \land \mathbb O n)$
+prove $\times\ \mathbb Z n \land \mathbb E n \land \mathbb O n$
 
 assume $\mathbb Z n \land \mathbb E n \land \mathbb O n$
 
 then, $n = 2k_1 \land \mathbb Z k_1 \land n = 2k_2 : 1 \land \mathbb Z k_2$ by definition and therefore $\mathbb Z n$
 
-thus $2k_1 = 2k_2 : 1 \equiv k_1 = k_2 : 1 \text- 2 \equiv k_1 \cdot k_2 = 1 \text- 2$, which is a [[contradiction]] given $\mathbb Z k_1 \land \mathbb Z k_2$
+thus $2k_1 = 2k_2 : 1 =\!= k_1 = k_2 : 1 \text- 2 =\!= k_1 \cdot k_2 = 1 \text- 2$, which is a [[contradiction]] given $\mathbb Z k_1 \land \mathbb Z k_2$
 
-therefore, $/(\mathbb Z n \land \mathbb E n \land \mathbb O n)$
+therefore, $\times\ \mathbb Z n \land \mathbb E n \land \mathbb O n$
 
 ## example [[proof]]
 
-prove $\mathbb E n2 \vdash \mathbb E n$
+prove $\mathbb E n2 < \mathbb E n$
 
-convert to the contrapositive of the above [[logic statement]]: $\mathbb O n \vdash \mathbb O n2$
+convert to the contrapositive of the above [[logic statement]]: $\mathbb O n < \mathbb O n2$
 
 then, follow proof below
 
@@ -68,13 +68,13 @@ then, follow proof below
 
 $\mathbb Z n$ and assume $\mathbb On$
 
-according to definition of [[odd number]]s, $\mathbb On \equiv \mathbb Z k \land n = 2k : 1$
+according to definition of [[odd number]]s, $\mathbb O n =\!= \mathbb Z k \land n = 2k : 1$
 
 then, $n2 = [2k \cdot 1]2 = 4k2 : 4k : 1 = (2 \mid 2k2 : 2k) : 1$
 
 we know $\mathbb Z (2k2 : 2k)$, as it is the result of multiplication and addition of [[integer]]s
 
-therefore, $\mathbb On \vdash \mathbb On2$
+therefore, $\mathbb On < \mathbb On2$
 
 ## example [[proof]]
 

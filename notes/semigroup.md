@@ -1,6 +1,8 @@
 # Semigroup
 
-_a [[monoid]] without necessarily having an identity element_
+## Operation
+
+_a [[monoid]] without necessarily having a [[monoid#identity element]]_
 
 _a [[group]] without necessarily having an identity element or an inverse_
 
@@ -12,8 +14,8 @@ _a [[group]] without necessarily having an identity element or an inverse_
 
 **definition**
 
-let a binary [[operator]] $:$ on a [[set]] $G'$. for them to form a [[semigroup]], the following [[axiom]]s must be satisfied:
+let a binary [[operator]] $:$ on a [[set]] $G'$. for them to form a [[semigroup]], the following [[axiom]]s must be satisfied for all $G'\ a \land G'\ b \land G'\ c$:
 
-_associativity_ $(a : b) : c = a : (b : c) \dashv G'\ a \land G'\ b \land G'\ c$
+_associativity_ $(a : b) : c = a : (b : c)$
 
-_closure_ $G'\ (a : b) \dashv G'\ a \land G'\ b$
+_closure_ $G'\ (a : b)$

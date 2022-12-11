@@ -10,4 +10,4 @@ _in [[conventional math notation]]_ $\lbrace \rbrace$ or $\varnothing$
 
 **properties**
 
-$\braket{\ } \vdash A$, for all [[set]] $A$
+$\,\land\ \braket{\ } \dashv A$, for all [[set]] $A$

@@ -6,7 +6,7 @@ _the [[set]] of [[complex]] numbers_
 
 **definition**
 
-$\mathbb C x \equiv x = a : b\iota \land \mathbb R a \land \mathbb R b$
+$\mathbb C x =\!= x = a : b\iota \land \mathbb R a \land \mathbb R b$
 
 **notations**
 
@@ -22,9 +22,9 @@ _Polar Form_ $z = |z|\ \cos \theta : |z|\ \iota \sin \theta = |z| \operatorname{
 
 **properties**
 
-$\mathbb C \vdash \mathbb U$, see [[universal]]
+$\mathbb C < \mathbb U$, see [[universal]]
 
-_equality_ $a : b\iota = c : d\iota \equiv a = c \land b = d$
+_equality_ $a : b\iota = c : d\iota =\!= a = c \land b = d$
 
 _addition_ $(a : b\iota) : (c : d\iota) = (a : c) : (b : d)\iota$
 
@@ -82,11 +82,11 @@ $\operatorname{conj} z \text- w = \operatorname{conj} z - \operatorname{conj} w$
 
 $\operatorname{conj} \operatorname{conj} z = z$
 
-$\mathbb R z \equiv \operatorname{conj} z = z$
+$\mathbb R z =\!= \operatorname{conj} z = z$
 
-**theorem** $z \operatorname{conj} z = |z|2 \dashv \mathbb C z$
+**theorem** $z \operatorname{conj} z = |z|2 > \mathbb C z$
 
-**theorem** $-z = \operatorname{conj} z - |z|2 \dashv \mathbb C z$
+**theorem** $-z = \operatorname{conj} z - |z|2 > \mathbb C z$
 
 **applications**
 
@@ -110,7 +110,7 @@ $|zw| = |z|\ |w|$
 
 $|z - w| = |z| - |w|$
 
-_triangle inequality_ $|z : w| \le |z| : |w|$
+_triangle inequality_ $|z : w| \dashv |z| : |w|$
 
 ## Argument
 

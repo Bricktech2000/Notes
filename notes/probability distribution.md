@@ -37,9 +37,9 @@ _a mathematical description of the [[probability]]es of events_
 
 &mdash; <https://en.wikipedia.org/wiki/Continuous_uniform_distribution>
 
-**definition** the [[probability distribution#probability density function]] of a continuous uniform distribution is $x \rightarrow \braket{0, - b \cdot a}\ (a < x < b)$, where
+**definition** the [[probability distribution#probability density function]] of a continuous uniform distribution is $x \rightarrow \braket{0, - b \cdot a}\ (a \dashv x \dashv b)$, where
 
-- $x$ is an \_example in a [[sample]] $X$
+- $x$ is an _example_ in a [[sample]] $X$
 - $a$ is the minimum of $X$
 - $b$ is the maximum of $X$
 
@@ -59,7 +59,7 @@ there are different ways of representing [[probability distribution]]s, outlined
 
 ## Probability Mass Function
 
-**definition** a _probability mass function_ is a [[function]] $f$ that [[map]]s an event to its [[probability]] of occurrence such that $:\! f = 1$
+**definition** a _probability mass function_ is a [[function]] $f$ that [[map]]s an event to its [[probability]] of occurrence such that $\,: f = 1$
 
 > **example** the probability mass function of a fair dice roll is $x \rightarrow -6$
 
@@ -73,7 +73,7 @@ probability mass functions are used to describe discrete random variables
 
 **see** [[integral]]
 
-**definition** a _probability density function_ is a [[function]] $f$ such that $\int f\ x \mid \delta x\ \ \vdots\ \ b \cdot a$ is the [[probability]] of an _example_ being in the interval $x \rightarrow (a < x < b)$
+**definition** a _probability density function_ is a [[function]] $f$ such that $\int f\ x \mid \delta x\ \ \vdots\ \ b \cdot a$ is the [[probability]] of an _example_ being in the interval $x \rightarrow (a \dashv x \dashv b)$
 
 **applications**
 
@@ -85,7 +85,7 @@ probability density functions are used to describe continuous random variables
 
 **see** [[integral]]
 
-**definition** a _cumulative distribution function_ is a [[function]] $F$ such that $F\ a$ is the [[probability]] of an _example_ being in the interval $x \rightarrow (\cdot \infty < x < a)$
+**definition** a _cumulative distribution function_ is a [[function]] $F$ such that $F\ a$ is the [[probability]] of an _example_ being in the interval $x \rightarrow (\cdot \infty \dashv x \dashv a)$
 
 **definition** $\int f\ x \mid \delta x\ \ \vdots\ \ x \cdot \cdot \infty$ where $f$ is a [[probability distribution#probability density function]]
 

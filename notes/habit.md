@@ -26,7 +26,7 @@ _[[habit#formation]]_
 
 > **examples** _[[trick]]s to form [[habit]]s_
 >
-> - implementation strategy &mdash; phrasing habits as _I will <habit> at <time> in <location>_
+> - implementation strategy &mdash; phrasing habits as _I will [habit] at [time] in [location]_
 > - habit stacking &mdash; stacking a new [[habit]] on top of an existing habit so the first becomes the [[cue]] for the second
 > - environment design &mdash; designing your environment to make it more obvious to perform a [[habit]]
 > - temptation bundling &mdash; bundling a [[habit]] you have to do with a [[habit]] you want to do

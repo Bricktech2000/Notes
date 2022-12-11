@@ -18,7 +18,7 @@ the $\, : \,$ [[operator]] must always be surrounded one space on either side, o
 
 the $\rightarrow$ [[operator]] is written as `\to` by default, and must be written as `\rightarrow` when it indicates a [[math notation]] [[function]] definition
 
-when using the [[reduce function]] in my [[math notation]], the [[operator]] must be followed by a `\! `
+when using the [[reduce function]] in my [[math notation]], the [[operator]] must be preceeded by a `\,`
 
 `\R`, `\N`, `\Z`, `\{` and `\}` must not be used, as they are not widely supported. `\mathbb R`, `\mathbb N`, `\mathbb Z`, `\lbrace` and `\rbrace` should be used instead, respectively.
 
@@ -138,7 +138,7 @@ all internal links are denoted using `[[note]]` and `![[image.png]]`, and all ex
 >
 > ```mermaid
 > graph LR
-> mermaid --> support
+>   mermaid --> support
 > ```
 >
 > > blockquote

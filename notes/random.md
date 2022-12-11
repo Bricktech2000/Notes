@@ -819,11 +819,11 @@ input structure: $((1000, 2000, 3000), (4000), (5000, 6000), (7000, 8000, 9000),
 
 ### Part 1
 
-$d \rightarrow\ \!\lor\ \!\dot:\ d$
+$d \rightarrow \,\lor \,\dot:\ d$
 
 ### Part 2
 
-$d \rightarrow\ \ge\ \!\dot:\ d\ \ \vdots\ \ 0 : \cdots 2$
+$d \rightarrow\ \ge \,\dot:\ d\ \ \vdots\ \ 0 : \cdots 2$
 
 ## Day 2
 
@@ -831,7 +831,7 @@ input structure: $(\braket{0, 1}, \braket{1, 0}, \braket{2, 2})$
 
 ### Part 1
 
-$d \rightarrow\ \!: (i \rightarrow (d\ i)^\top : a)$ (not finished)
+$d \rightarrow \,: (i \rightarrow (d\ i)^\top : a)$ (not finished)
 
 ## Day 3
 
@@ -847,15 +847,29 @@ $d \rightarrow s\ d\ \top = s\ d\ \bot$ (not finished)
 
 (not completed)
 
+## Day 3
+
+input structure: $(\braket{\braket{2, 4}, \braket{6, 8}}, \cdots)$
+
+### Part 1
+
+$d \rightarrow \,: \,\dot\land\ (d\ \ \vdots\ \ \bot\ (\vdash \lor \dashv)\ \top \ \ \vdots\ \ \bot \cdots \top)$ (actually this won't work)
+
+$d \rightarrow \,: (0 \vdash d^{\bot\bot} \cdot d^{\top\bot} \mid d^{\bot\top} \cdot d^{\top\top})$
+
+### Part 2
+
+$d \rightarrow \,: (0 \vdash d^{\bot\bot} \cdot d^{\top\top} \mid d^{\bot\top} \cdot d^{\top\bot})$
+
 ---
 
 given a [[list]] of [[integer]]s $M$, return a [[list]] $N$ where $N\ i$ is the product of all the elements of $M$ except $M\ i$
 
-$M\ i \rightarrow\ \!\mid M - M\ i$
+$M\ i \rightarrow \,\mid M - M\ i$
 
 using [[rank polymorphism]],
 
-$M \rightarrow\ \!\mid M - M$
+$M \rightarrow \,\mid M - M$
 
 then using an APL fork and $\circ$ as the identity [[function]],
 
@@ -863,10 +877,4 @@ $| - \circ$
 
 &mdash; <https://youtu.be/bXsKo2ZhgTg>
 
----
-
-$d \rightarrow\ \!: (d\ (1 \cdots) > d)$
-
-$a = \!: b$
-
-$a = \,: b$
+$\ell$

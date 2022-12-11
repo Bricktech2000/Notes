@@ -39,41 +39,33 @@ in other words, an element being in $A$ implies it is also in $B$ with no lesser
 
 ## Union
 
-**definition** $M \lor N \equiv x \rightarrow \max\ (M\ x)\ (N\ x)$
+**definition** $M\ \top\ N$
 
 ## Intersection
 
-**definition** $M \land N \equiv x \rightarrow \min\ (M\ x)\ (N\ x)$
-
-## Addition
-
-**definition** $M : N \equiv x \rightarrow M\ x : N\ x$
-
-## Subtraction
-
-**definition** $M \cdot N \equiv x \rightarrow M\ x \cdot N\ x$
+**definition** $M\ \bot\ N$
 
 ## Difference
 
-**definition** $M\ /\ N \equiv x \rightarrow M\ x \cdot N\ x \lor 0$
+**definition** $x \rightarrow (M\ x \cdot N\ x\ \top\ 0)$
 
 **see** [[cartesian product]]
 
 ## Equivalence
 
-**definition** two [[multiset]]s are _equivalent_ if and only if they contain the same number of the same elements. $M \equiv N \equiv x \rightarrow (M\ x = N\ x)$
+**definition** two [[multiset]]s are _equivalent_ if and only if they contain the same number of the same elements. $M = N =\!= x \rightarrow (M\ x = N\ x)$
 
 ## Cardinality
 
-**notation** $:\! M$
+**notation** $\,: M$
 
 **definition** the _cardinality_ of a [[multiset]] is the sum of the multiplicities of the elements in the [[multiset]]
 
-> **example** $:\! ((1, 2, 2, 2, 3, 3)) = 1 : 3 : 2 = 6$
+> **example** $\,: ((1, 2, 2, 2, 3, 3)) = 1 : 3 : 2 = 6$
 
 **properties**
 
-$:\! (M \lor N)\ : \ :\! (M \land N) =\ :\! (M : N)$
+$\,: (M\ \top\ N)\ :\ \,: (M\ \bot\ N) = \,: (M : N)$
 
 ## Element Count
 
@@ -92,4 +84,4 @@ _order matters_
 the number of $k$-arrangements of an $n$-multiset $M$ with multiplicities $k_0 \cdots k_{n \cdot 1}$ is
 
 - $C\ n\ k_0 \cdots k_{n \cdot 1} = \Pi\ n - (\Pi\ k_0 \mid \cdots \Pi\ k_{n \cdot 1})$ with repetition forbidden
-- see [[set]] arrangement for repetition allowed
+- see [[set#arrangement]] for repetition allowed

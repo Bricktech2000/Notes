@@ -6,10 +6,10 @@ _the [[set]] of [[irrational]] numbers_
 
 **definition**
 
-$\mathbb R\ /\ \mathbb Q$
+$\mathbb R \land +\mathbb Q$
 
 **properties**
 
-$(\mathbb R\ /\ \mathbb Q) \vdash \mathbb R$
+$\mathbb R\ \land +\mathbb Q < \mathbb R$
 
-$\mathbb Q \lor (\mathbb R\ /\ \mathbb Q) \equiv \mathbb R$
+$\mathbb R \land +\mathbb Q \lor \mathbb Q =\!= \mathbb R$

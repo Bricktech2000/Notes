@@ -1,7 +1,6 @@
 .obsidian
-notes/NOTES_JOINED.md
-notes/NOTES_JOINED.pdf
-notes/NOTES_JOINED.html
+join.md
+join.pdf
 
 mkdocs/*
 !mkdocs/srcs.howto.txt

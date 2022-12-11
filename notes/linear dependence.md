@@ -4,9 +4,9 @@
 
 **definition**
 
-let $V$ be a [[vector space]] and let $v_0 \cdots v_i$ such that $V\ v_n \dashv \mathbb N n$
+let $V$ be a [[vector space]] and let $v_0 \cdots v_i$ such that $V\ v_0 \land \cdots V\ v_i$
 
-$v_0 \cdots v_i$ are [[linearly independent]] if and only if $a_0v_0 : \cdots a_iv_i = O\ \equiv\ a_n = 0 \dashv \mathbb N n$
+$v_0 \cdots v_i$ are [[linearly independent]] if and only if $a_0v_0 : \cdots a_iv_i = O\ =\!=\ a\ \dot=\ 0$
 
 **procedures**
 
@@ -30,7 +30,7 @@ any [[set]] containing the $O$ [[vector]] is [[linearly dependent]]
 
 **theorem** a [[set]] of [[vector]]s is [[linearly dependent]] if and only if at least one of its [[vector]]s can be represented as a [[linear combination]] of the others
 
-**theorem** $W = \operatorname{span} \braket{\braket{v_0, v_1 \cdots v_m}} \land \operatorname{span} \braket{\braket{v_1 \cdots v_m}}\ v_0 \vdash W = \operatorname{span} \braket{\braket{v_1 \cdots v_m}}$ see [[span]]
+**theorem** $W = \operatorname{span} \braket{\braket{v_0, v_1 \cdots v_m}} \land \operatorname{span} \braket{\braket{v_1 \cdots v_m}}\ v_0 < W = \operatorname{span} \braket{\braket{v_1 \cdots v_m}}$ see [[span]]
 
 **theorem** if a [[vector space]] $V$ can be spanned by $n$ [[vector]]s, then any [[linearly independent]] [[set]] in $V$ has at most $n$ [[vector]]s
 
@@ -38,4 +38,4 @@ any [[set]] containing the $O$ [[vector]] is [[linearly dependent]]
 
 **theorem** any [[linearly independent]] [[set]] in a [[vector space]] is smaller than or equal in length to a [[span]]ing [[set]] of the [[vector space]]
 
-**theorem** size of any [[linearly independent]] [[set]] in $V$ $\le$ $\dim V$ $\le$ size of any [[span]]ning [[set]] in $V$
+**theorem** size of any [[linearly independent]] [[set]] in $V$ $\dashv$ $\dim V$ $\dashv$ size of any [[span]]ning [[set]] in $V$

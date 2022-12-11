@@ -26,7 +26,7 @@ $\det cA = c^n \mid \det A$, where $n$ is the width and height of the [[matrix]]
 >
 > the first row was chosen below, but any row or column can be used. _cofactor expansion along the first row_
 >
-> $\mathbb M^{3, 3} A \vdash \det A = \det \begin{bmatrix}a & b & c \\\  d & e & f \\\  g & h & i\end{bmatrix} = : a \det \begin{bmatrix}e & f \\\  h & i\end{bmatrix} \cdot b \det \begin{bmatrix}d & f \\\  g & i\end{bmatrix} : c \det \begin{bmatrix}d & e \\\  g & h\end{bmatrix}$
+> $\mathbb M^{3, 3} A < \det A = \det \begin{bmatrix}a & b & c \\\  d & e & f \\\  g & h & i\end{bmatrix} = a \det \begin{bmatrix}e & f \\\  h & i\end{bmatrix} \cdot b \det \begin{bmatrix}d & f \\\  g & i\end{bmatrix} : c \det \begin{bmatrix}d & e \\\  g & h\end{bmatrix}$
 >
 > the base case for the [[algorithm]] is $\det \begin{bmatrix}s\end{bmatrix} = s$, where $s$ is a [[scalar]]
 

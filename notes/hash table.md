@@ -70,9 +70,9 @@ let a [[probing]] [[function]] $P$ be used to find the next element to probe. ty
 >
 > 1. return $H\ k \bmod n$
 
-> **procedure** _computing the next value in a probing sequence_
+> **procedure** _computing $i$ th value in a probing sequence_
 >
-> given the current probing sequence value $i$ and a key $k$:
+> given a probing sequence index $i$ and a key $k$:
 >
 > 1. return $H\ k : P\ i\ k \bmod n$
 

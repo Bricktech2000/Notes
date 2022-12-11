@@ -1,6 +1,6 @@
 # Cartesian Product
 
-**see** [[set]], [[math notation]]
+**see** [[set]], [[outer product]], [[math notation]]
 
 **definition** the _cartesian product_ $\braket{A\ \dot,\ B}$ of two [[set]]s $A$ and $B$ is the [[set]] of all possible [[ordered pair]]s $\braket{a, b}$ such that $A\ a \land B\ b$
 

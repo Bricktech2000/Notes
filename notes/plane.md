@@ -30,7 +30,7 @@ _continue below_
 
 given that all the [[vector in rn]]s forming that [[plane]] must be perpendicular to a [[normal vector]],
 
-$:\! n (P \cdot p_0) = 0$, where
+$\,: n (P \cdot p_0) = 0$, where
 
 - $n$ is a [[normal vector]]
 - $p_0$ is a point on the [[plane]]

@@ -24,7 +24,7 @@ $B$ is the basis [[vector]], i.e. $\begin{bmatrix}\hat i \\\  \hat j  \\\  \cdot
 
 _not commutative_ $a\ \check\mid\ b = \cdot\ b\ \check\mid\ a$
 
-_orthogonal to both [[vector]]s_ $:\! (u\ \check\shortmid\ v) v = 0$ and $:\! (u\ \check\shortmid\ v) v = 0$, see [[dot product]]
+_orthogonal to both [[vector]]s_ $\,: (u\ \check\shortmid\ v) v = 0$ and $\,: (u\ \check\shortmid\ v) v = 0$, see [[dot product]]
 
 _distributivity over addition_ $a\ \check\mid\ b : c = a \check\shortmid b : a \check\shortmid c$
 

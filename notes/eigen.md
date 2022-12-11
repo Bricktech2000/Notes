@@ -10,7 +10,7 @@
 
 **definition**
 
-let $\mathbb M^{n, n} A \land \mathbb N n \land \mathbb R \lambda \land \mathbb R^n x \land x \ne O$
+let $\mathbb M^{n, n} A \land \mathbb N n \land \mathbb R \lambda \land \mathbb R^n x \land x + O$
 
 if $Ax = \lambda x$, then $x$ is an [[eigen#vector]] of $A$ and $\lambda$ is its corresponding [[eigen#value]]
 
@@ -125,7 +125,7 @@ computing $[A]p = P\begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [\lambda_1]p & 0 
 
 **definition** the _geometric multiplicity_ of a root $\lambda$ of the [[characteristic polynomial]] of $A$ is the [[vector space#dimension]] of the [[eigen#space]] $E_\lambda$ of $A$ corresponding to the [[eigen#value]] $\lambda$
 
-**theorem** let $\lambda$ be an [[eigen#value]] of $A$. then, $1 \le \text{geometric multiplicity of } \lambda \le \text{algebraic multiplicity of } \lambda$
+**theorem** let $\lambda$ be an [[eigen#value]] of $A$. then, $1 \dashv \text{geometric multiplicity of \(\lambda\)} \dashv \text{algebraic multiplicity of \(\lambda\)}$
 
 > **example** the [[characteristic polynomial]] of $\begin{bmatrix}2 & 4 & \cdot 3 \\\ 0 & 3 & 5 \\\ 0 & 0 & 3\end{bmatrix}$ is $2 \cdot \lambda \mid [3 \cdot \lambda]2$. its [[eigen#value]]s are $\lambda = 2$ and $\lambda = 3$. the algebraic [[eigen#multiplicity]] of $\lambda = 2$ is $1$ and the algebraic [[eigen#multiplicity]] of $\lambda = 3$ is $2$.
 

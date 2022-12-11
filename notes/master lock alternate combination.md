@@ -4,7 +4,7 @@
 
 > **procedure** _finding the alternate combination to a Master Lock combination lock_
 >
-> let the original combination $C \equiv (C^0, C^1, C^2)$. then, the alternate combination $C'$ was found to be $C' \equiv (C^0 \cdot 7, C^1 : 2, C^2)$
+> let the original combination $C = (C^0, C^1, C^2)$. then, the alternate combination $C'$ was found to be $C' = (C^0 \cdot 7, C^1 : 2, C^2)$
 >
 > > **note** to enter the alternate combination, first rotate the dial **counterclockwise**, then **clockwise**, then **counterclockwise**. this order is the reverse of that of the original combination
 

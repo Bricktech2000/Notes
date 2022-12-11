@@ -6,9 +6,9 @@
 
 [[integral]] and [[derivative]] notation should be thought of as follows (with explicit parentheses to denote [[function]] calls):
 
-$\delta y - \delta x \equiv \delta(y) - \delta(x)$
+$\delta y - \delta x = \delta(y) - \delta(x)$
 
-$\int y \mid \delta x \equiv \int (y \mid \delta(x))$
+$\int y \mid \delta x = \int (y \mid \delta(x))$
 
 > **note** when representing the [[derivative]] or [[integral]] of a [[function]], its parameter must be included. for example, $\delta\ f - \delta x$ is invalid whereas $\delta\ f\ x - \delta x$ is valid
 
@@ -28,7 +28,7 @@ $\int y \mid \delta x$ is actually $\int (y \mid \delta x)$ ($\mid \delta x$ is 
 
 $\delta y - \delta x$ is simply a division between the two values involved
 
-$(\delta - \delta x)\ y \equiv \frac{\delta}{\delta x} y$ ~~makes no sense whatsoever and is very likely some weird [[conventional math notation]] shorthand again~~ is superfluous notation and is to be avoided in my [[math notation]].
+$(\delta - \delta x)\ y =\!= \frac{\delta}{\delta x} y$ ~~makes no sense whatsoever and is very likely some weird [[conventional math notation]] shorthand again~~ is superfluous notation and is to be avoided in my [[math notation]].
 
 ## properties with [[proof]]s
 

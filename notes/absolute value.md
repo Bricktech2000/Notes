@@ -10,8 +10,8 @@
 
 **properties**
 
-$|x| \le t \equiv \cdot t \le x \le t$
+$|x| \dashv t =\!= \cdot t \dashv x \dashv t$
 
-$|x| \ge t \equiv x \ge t \lor x \le \cdot t$
+$|x| \vdash t =\!= x \vdash t \lor x \vdash \cdot t$
 
-$|a : b| \le |a| : |b| \dashv \mathbb R a \land \mathbb R b$ &mdash; triangle inequality
+$|a : b| \dashv |a| : |b| > \mathbb R a \land \mathbb R b$ &mdash; triangle inequality

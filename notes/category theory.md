@@ -55,12 +55,6 @@ absurd function
 
 universal construction:
 
-> A _product_ of two [[category#object]]s $a$ and $b$ is the object $c$ equipped with two projections such that for any other object $c'$ equipped with two projections there is a unique [[category#morphism]] $m$ from $c'$ to $c$ that factorizes those projections.
-
-&mdash; <https://miklos-martin.github.io/learn/fp/category-theory/2018/02/01/adventures-in-category-theory-the-algebra-of-types.html>
-
-factorizes &mdash; <https://youtu.be/Bsdl_NKbNnU?t=1011>
-
 the _curry-howard-lambek isomorphism_ states that [[logic]], [[type theory]] and some subset of [[category theory]] are all equivalent &mdash; <https://youtu.be/I8LbkfSSR58?t=1681>
 
 **aka** _#todo curry-howard correspondence, propositions as types #todo #think see <https://youtu.be/IOiZatlZtGU?t=1490>_
@@ -69,17 +63,27 @@ the _curry-howard-lambek isomorphism_ states that [[logic]], [[type theory]] and
 
 [[category#coproduct]]s in the [[category]] of [[set]]s are [[set#disjoint union]]s &mdash; Terramorpha
 
-[[category#product]]s in the [[category]] $\mathbb R, \le$ are the minimum of two numbers &mdash; Terramorpha
+[[category#product]]s in the [[category]] $\mathbb R, \dashv$ are the minimum of two numbers &mdash; Terramorpha
 
-[[category#coproduct]]s in the [[category]] $\mathbb R, \le$ are the maximum of two numbers &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] $\mathbb R, \dashv$ are the maximum of two numbers &mdash; Terramorpha
 
 [[category#product]]s in the [[category]] $\mathbb N, \text{divides}$ are the GCD of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
 
 [[category#coproduct]]s in the [[category]] $\mathbb N, \text{divides}$ are the LCM of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
 
-[[category#product]]s in the [[category]] $\braket{\ }, \vdash$ are the intersection of two sets &mdash; Terramorpha
+[[category#product]]s in the [[category]] $\braket{\ }, a\ b \rightarrow \,\land\ a \dashv b$ are the intersection of two sets &mdash; Terramorpha
 
-[[category#coproduct]]s in the [[category]] $\braket{\ }, \vdash$ are the union of two sets &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] $\braket{\ }, a\ b \rightarrow \,\land\ a \dashv b$ are the union of two sets &mdash; Terramorpha
+
+a category of ([[vector space]]s, linear maps) is a thing. #todo look up linear maps
+
+a category of (topological spaces, continuous maps) is a thing. #todo look up continuous maps and topological spaces
+
+a category of ([[group]]s, [[group]] homomorphisms) is a thing. #todo look up group homomorphisms
+
+(bijective function, function composition) forms a [[group]] #todo
+
+a [[group]] where group elements are morophisms and composition is [[group]] multiplication is a [[category]] #todo
 
 #think <https://youtu.be/IOiZatlZtGU?t=2334>
 

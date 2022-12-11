@@ -41,7 +41,7 @@ substututing $x$ back, $F\ x = \cdot \cos x2 : c$ with $\mathbb R c$
 
 > **note** substitution only a shorthand and is not actually necessary
 
-with $\delta\ x2 - \delta x = 2x \equiv \delta x = \delta x2 - 2x$,
+with $\delta\ x2 - \delta x = 2x =\!= \delta x = \delta x2 - 2x$,
 
 $F\ x = \int 2x\sin x2 \mid \delta x$
 
@@ -133,9 +133,9 @@ _for the [[integral]] of [[function#rational function]]s_
 >
 > compute the [[integral]] of a [[function#rational function]] as follows:
 >
-> 1. [[factor]] out the denominator into its $n : 1$ prime [[factor]]s $f_0 \cdots f_n$
-> 2. set the [[function]] equal to $A_0 \text- f_0 : \cdots A_n \text- f_n$ and solve for for the [[real]]s $A_0 \cdots A_n$
-> 3. compute the [[integral]] of the partial fraction, $\int (A_0 \text- f_0 : \cdots A_n \text- f_n) \mid \delta x$
+> 1. [[factor]] out the denominator into its $n : 1$ prime [[factor]]s $f$
+> 2. set the [[function]] equal to $\,: A \text- f$ and solve for for the [[real]]s $A_0 \cdots A_n$
+> 3. compute the [[integral]] of the partial fraction, $\int \,: A \text- f \mid \delta x$
 >
 > > **note** this method will only work if both
 > >

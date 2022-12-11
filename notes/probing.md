@@ -17,16 +17,16 @@ probing [[function]]s include:
 
 **definition** the _cycle length_ of a [[probing]] [[function]] $P\ i\ k$ given a [[list]] length $n$ is the minimum number of iterations of $P\ i\ k \bmod n$ that must be performed before the sequence repeats.
 
-the cycle length of a linear [[probing]] [[function]] $i \rightarrow ai$ modulo $n$ is $n$ if and only if $\psi\ a \land \psi\ n = (\ )$ , see [[psi function in mat2348]] &mdash; <https://youtu.be/RBSGKlAvoiM?t=17369>
+the cycle length of a linear [[probing]] [[function]] $i \rightarrow ai$ modulo $n$ is $n$ if and only if $\psi\ a\ \bot\ \psi\ n = (\ )$ , see [[psi function in mat2348]] &mdash; <https://youtu.be/RBSGKlAvoiM?t=17369>
 
 the [[probing]] [[function]] $i \rightarrow i$ is popular because it has a cycle length of $n$ for any $n$
 
 the cycle length of a quadratic [[probing]] [[function]] $i \rightarrow ai2 : bi$ modulo $n$ can be difficult to compute. a few examples of quadratic [[probing]] [[function]]s with cycle lengths of $n$ are: &mdash; <https://youtu.be/RBSGKlAvoiM?t=18191>
 
-- $i \rightarrow i2$ with $n > 3\ \land\ \#\ \psi\ n = 1$ (cycle length is not $n$ and therefore it must be the case that $\alpha \le 1\text-2$, see [[hash table]])
+- $i \rightarrow i2$ with $n \vdash 4\ \land\ \#\ \psi\ n = 1$ (cycle length is not $n$ and therefore it must be the case that $\alpha \dashv\ \text-2$, see [[hash table]])
 - $i \rightarrow i2 : i - 2$ with $n = 2[k] \land \mathbb N k$
 - $i \rightarrow [\cdot 1]x \mid x2$ with $\#\ \psi\ n = 1\ \land\ n \bmod 4 = 3$
 
-the cycle length of a double hashing [[probing]] [[function]] $i \rightarrow i \mid H_2\ k$ modulo $n$ is $n$ if and only if $\psi\ H_2\ k \land \psi\ n = (\ )$, see [[psi function in mat2348]] &mdash; <https://youtu.be/RBSGKlAvoiM?t=18571>. to prevent cycles of length less than $n$, a few solutions are available:
+the cycle length of a double hashing [[probing]] [[function]] $i \rightarrow i \mid H_2\ k$ modulo $n$ is $n$ if and only if $\psi\ (H_2\ k)\ \bot\ \psi\ n = (\ )$, see [[psi function in mat2348]] &mdash; <https://youtu.be/RBSGKlAvoiM?t=18571>. to prevent cycles of length less than $n$, a few solutions are available:
 
-- choose an $n$ such that $\#\ \psi\ n = 1$. comupte $\Delta \equiv H_2\ k \bmod n \lor c$ where $c$ is a non-zero constant to ensure $\Delta \ne 0$. since $n$ is prime, this ensures $\psi\ \Delta \land \psi\ n = (\ )$. the value to be returned from the [[probing]] [[function]] is $\Delta$
+- choose an $n$ such that $\#\ \psi\ n = 1$. comupte $\Delta = H_2\ k \bmod n\ \top\ c$ where $c$ is a non-zero constant to ensure $\Delta + 0$. since $n$ is prime, this ensures $\psi\ \Delta\ \bot\ \psi\ n = (\ )$. the value to be returned from the [[probing]] [[function]] is $\Delta$

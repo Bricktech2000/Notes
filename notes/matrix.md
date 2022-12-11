@@ -2,7 +2,7 @@
 
 **see** [[math notation]], [[eigen]]
 
-**definition** _formally in my [[math notation]]_ a [[matrix]] in $\mathbb R^{m, n}$ is a [[set theory]]etical [[function]] with [[function#domain]] at least $\braket{x, y} \rightarrow \mathbb N x \land \mathbb N y \land 0 \le x < m \land 0 \le y < n$ that takes an [[ordered pair]] as an index and returns the element at that index
+**definition** _formally in my [[math notation]]_ a [[matrix]] in $\mathbb R^{m, n}$ is a [[set theory]]etical [[function]] with [[function#domain]] at least $\braket{x, y} \rightarrow \mathbb N x \land \mathbb N y \land 0 \dashv x\ (\dashv \land +)\ m \land 0 \dashv y\ (\dashv \land +)\ n$ that takes an [[ordered pair]] as an index and returns the element at that index
 
 **notation**
 
@@ -50,25 +50,25 @@ $A : B$
 
 **definition**
 
-$AB \ne \varnothing \equiv \mathbb M^{m, n}A \land \mathbb M^{n, p}B \land \mathbb M^{m, p}AB$ ($AB$ is defined if the number of columns in $A$ is equal to the number of rows in $B$. their product will be an $m$ by $p$ [[matrix]])
+$AB + \varnothing =\!= \mathbb M^{m, n}A \land \mathbb M^{n, p}B \land \mathbb M^{m, p}AB$ ($AB$ is defined if the number of columns in $A$ is equal to the number of rows in $B$. their product will be an $m$ by $p$ [[matrix]])
 
-$(AB)^{i, j} =\ :\! A^{i, } B^{, j}$, see [[dot product]]
+$(AB)^{i, j} = \,: A^{i, } B^{, j}$, see [[dot product]]
 
 intuitively, matrix multiplication is the [[dot product]] of **every row** of the first [[matrix]] by **every column** of the second [[matrix]]
 
 **notation**
 
-$AA = A2 = [A]2 \dashv \mathbb M A$
+$AA = A2 = [A]2$
 
-and therefore $AA \cdots A = [A]n \land \mathbb N n \dashv \mathbb M A$
+and therefore $AA \cdots A = [A]n \land \mathbb N n$
 
 **properties**
 
-_not commutative_ $AB = BA \not\dashv \mathbb M A \land \mathbb M B$ or $AB \ne BA \land \mathbb M A \land \mathbb M B$
+_not commutative_ $\times (\mathbb M A \land \mathbb M B < AB = BA)$
 
-$AB = 0 \not\vdash A = 0 \lor B = 0$ (it can happen that $AB = 0$, but $A \ne 0$ and $B \ne 0$) ($AB$ being equal to $0$ does not imply that $A = 0$ or that $B = 0$)
+$\times (AB = 0 < A = 0 \lor B = 0)$ (it can happen that $AB = 0$, but $A + 0$ and $B + 0$) ($AB$ being equal to $0$ does not imply that $A = 0$ or that $B = 0$)
 
-$AC = BC \land C \ne 0 \not\vdash A = B$ ($AC = BC$ and $C \ne 0$ does not imply that $A = B$)
+$\times (AC = BC \land C + 0 < A = B)$ ($AC = BC$ and $C + 0$ does not imply that $A = B$)
 
 _associative_ $(AB)C = A(BC)$
 
@@ -100,7 +100,7 @@ $\begin{bmatrix}1 & 0 & 0 \\\  0 & 1 & 0 \\\  0 & 0 & 1\end{bmatrix}$
 
 **properties**
 
-$AI = A \land IA = A \dashv \mathbb M A$
+$AI = A \land IA = A$
 
 ## Zero Matrix
 
@@ -118,9 +118,9 @@ $\begin{bmatrix}0 & 0 & 0 \\\  0 & 0 & 0 \\\  0 & 0 & 0 \\\  0 & 0 & 0\end{bmatr
 
 **properties**
 
-$A_{m, n}O_{n, p} = O_{m, p} \dashv \mathbb M^{n, p} O_{n, p} \land \mathbb M^{m, p} O_{m, p} \land \mathbb M^{m, n} A_{m, n}$
+$A_{m, n}O_{n, p} = O_{m, p} > \mathbb M^{n, p} O_{n, p} \land \mathbb M^{m, p} O_{m, p} \land \mathbb M^{m, n} A_{m, n}$
 
-$O_{q, m}A_{m, n} = O_{q, n} \dashv \mathbb M^{q, m} O_{q, m} \land \mathbb M^{q, n} O_{q, n} \land \mathbb M^{m, n} A_{m, n}$
+$O_{q, m}A_{m, n} = O_{q, n} > \mathbb M^{q, m} O_{q, m} \land \mathbb M^{q, n} O_{q, n} \land \mathbb M^{m, n} A_{m, n}$
 
 ## Rank
 
@@ -148,7 +148,7 @@ $rank\ A$, where
 
 **notations**
 
-_kernel_ $Ker\ A \equiv Null\ A$
+_kernel_ $Ker\ A =\!= Null\ A$
 
 _column space_ $Col\ A$
 
@@ -156,11 +156,11 @@ _row space_ $Row\ A$
 
 **definitions**
 
-_kernel_ $(Ker\ A)\ x \equiv (Null\ A)\ x \equiv Ax = O \land \mathbb M^{m, n}A \land \mathbb M^{n, 1} x$
+_kernel_ $(Ker\ A)\ x =\!= (Null\ A)\ x =\!= Ax = O \land \mathbb M^{m, n}A \land \mathbb M^{n, 1} x$
 
-_column space_ $Col\ A = \operatorname{span} A^{, n} \dashv \mathbb N n$
+_column space_ $Col\ A = \operatorname{span} \braket{\braket{A^{, 0}, A^{, 1}, \dots}}$
 
-_row space_ $Row\ A = \operatorname{span} A^{n,} \dashv \mathbb N n$
+_row space_ $Row\ A = \operatorname{span} \braket{\braket{A^{0, }, A^{1, }, \dots}}$
 
 **procedure** _computing the kernel of a [[matrix]]_ use [[row reduction]]
 
@@ -168,11 +168,11 @@ _row space_ $Row\ A = \operatorname{span} A^{n,} \dashv \mathbb N n$
 
 the [[matrix#null space]], [[matrix#row space]] and [[matrix#column space]] of a [[matrix]] are always [[vector space]]s
 
-$\text{number of free variables in } A : \text{number of pivots in } A = \text{number of columns in } A$
+$\text{number of free variables in \(A\)} : \text{number of pivots in \(A\)} = \text{number of columns in \(A\)}$
 
-$\dim Null\ A = \text{number of free variables in } A$
+$\dim Null\ A = \text{number of free variables in \(A\)}$
 
-$rank\ A = \text{number of pivots in } A$
+$rank\ A = \text{number of pivots in \(A\)}$
 
 the nonzero rows in any [[linear system#row echelon form]] of a [[matrix]] $A$ forms a [[basis]] for $Row\ A$. therefore, $\dim Row\ A = rank\ A$, see [[matrix#rank]]
 
@@ -184,7 +184,7 @@ $Row\ A$ does not change when applying [[linear system#elementary operation]]s o
 
 **properties**
 
-$Col\ A = Row\ A^\intercal \land Row\ A = Col\ A^\intercal \dashv \mathbb M A$, see [[matrix#transpose]]
+$Col\ A = Row\ A^\intercal \land Row\ A = Col\ A^\intercal$, see [[matrix#transpose]]
 
 **applications**
 
@@ -200,7 +200,7 @@ the same can be said for $Col\ A$
 >
 > let $W = \operatorname{span} \braket{\braket{\ (1, 0, 0, 1), (1, 1, 1, 0), (2, 1, \cdot 1, 1)\ }}$
 >
-> after solving the [[linear system]], we get $W\ (x, y, z, w) \equiv \cdot x : y : w = 0$. therefore, $W$ is the [[matrix#null space]] of $A = \begin{bmatrix}\cdot 1 & 1 & 0 & 1\end{bmatrix}$
+> after solving the [[linear system]], we get $W\ (x, y, z, w) =\!= \cdot x : y : w = 0$. therefore, $W$ is the [[matrix#null space]] of $A = \begin{bmatrix}\cdot 1 & 1 & 0 & 1\end{bmatrix}$
 
 ## Diagonal
 
@@ -240,7 +240,7 @@ $\operatorname{conj} A^\intercal$, where
 
 **properties**
 
-let a [[matrix]] of [[real]]s $A$. then, $\operatorname{conj} A^\intercal \equiv A^\intercal$
+let a [[matrix]] of [[real]]s $A$. then, $\operatorname{conj} A^\intercal = A^\intercal$
 
 ## Inverse
 
@@ -250,7 +250,7 @@ _the inverse of a [[matrix]]_
 
 **definition**
 
-$AA^- = A^-A = I \dashv \mathbb M A$, where
+$AA^- = A^-A = I > \mathbb M A$, where
 
 - $A$ is a square [[matrix]]
 - $A^-$ is the _inverse matrix_ of $A$
@@ -263,7 +263,7 @@ $AA^- = A^-A = I \dashv \mathbb M A$, where
 
 **properties**
 
-let $A$ and $C$ be invertible [[matrix]]es, let $\mathbb Z p$ and let $\mathbb R k \land k \ne 0$. then,
+let $A$ and $C$ be invertible [[matrix]]es, let $\mathbb Z p$ and let $\mathbb R k \land k + 0$. then,
 
 $AA^- = A^-A = I$
 
@@ -291,7 +291,7 @@ if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 >
 > let $A = \begin{bmatrix}a & b \\\  c & d\end{bmatrix}$
 >
-> $A$ is invertible if and only if $\det A \ne 0$
+> $A$ is invertible if and only if $\det A + 0$
 >
 > $A^- = - \det A\ \mid\ \begin{bmatrix}d & \cdot b \\\  \cdot c & a\end{bmatrix}$
 
@@ -299,7 +299,7 @@ if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 
 let $A = \begin{bmatrix}1 & 1 \\\  2 & 3\end{bmatrix}$
 
-then, calculate $B$ such that $B \equiv A^-$
+then, calculate $B$ such that $B = A^-$
 
 this can be used to solve a [[linear system]] such as:
 
@@ -329,7 +329,7 @@ $[D]x$ can be calculated by raising every entry of $D$ to the power $x$ #todo mm
 
 a [[matrix]] is _diagonalizable_ if and only if the geometic [[eigen#multiplicity]] of an [[eigen#value]] is equal to the algebraic [[eigen#multiplicity]] of said [[eigen#value]], for every [[eigen#value]] of the [[matrix]]
 
-> **note** a [[matrix]] may also be diagonalizable over other [[number field]]s such as the [[set]] of [[complex]] numbers $\mathbb C$
+> **note** a [[matrix]] may also be diagonalizable over other [[field]]s such as the [[set]] of [[complex]] numbers $\mathbb C$
 
 > **note** some [[matrix]]es do not have "enough" real [[eigen#value]]s or "enough" [[eigen#vector]]s to be diagonalizable
 
@@ -341,7 +341,7 @@ a [[matrix]] is _diagonalizable_ if and only if the geometic [[eigen#multiplicit
 
 > **example** the [[matrix]] $A = \begin{bmatrix}1 & 0 \\\ 0 & 1\end{bmatrix}$ is diagonalizable over the reals as, even though $A$ has a single [[eigen#value]] $\lambda = 1$, its [[eigen#space]] [[span]]s $\mathbb R^2$. this is the case for both $A = I \land \lambda = 1$ and $A = O \land \lambda = 0$
 >
-> > **proof** let $A = I \land \lambda = 1 \land E_1 = x$. we then have $O = A \cdot \lambda I \mid x = I \cdot 1I \mid E_1= O \mid E_1$. therefore, $E_1 \equiv \mathbb R^2$. see [[eigen]]
+> > **proof** let $A = I \land \lambda = 1 \land E_1 = x$. we then have $O = A \cdot \lambda I \mid x = I \cdot 1I \mid E_1= O \mid E_1$. therefore, $E_1 = \mathbb R^2$. see [[eigen]]
 
 > **example** let $\mathbb M^{n, n} A \land \mathbb N n$ and suppose $A$ has $n$ distinct [[eigen#value]]s. deduce that $A$ is diagonalizable over the reals
 >
@@ -382,4 +382,4 @@ let $\mathbb M^{n, n} A$ (see [[matrix]]). the following [[logic statement]]s ar
 - the columns of $A$ form a [[basis]] for $\mathbb R^n$
 - the rows of $A$ form a [[basis]] for $\mathbb R^n$
 - $A$ is an invertible [[matrix]]
-- $\det A \ne 0$
+- $\det A + 0$

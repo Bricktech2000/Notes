@@ -8,7 +8,7 @@ $f\ x\ \ \vdots\ \ x \rightarrow a$
 
 **definition** _$(\varepsilon, \delta)$-definition of a limit_
 
-let $f\ x$ be a [[function]] with domain $D$ defined on an open interval around $x_0$. then, $f\ x\ \ \vdots\ \ x \rightarrow x_0 = L$ if for every $\varepsilon > 0$ there exists $\delta > 0$ such that $0 < |x \cdot x_0| < \delta\ \ \vdash\ \ |f\ x \cdot L| < \varepsilon$ for all $D\ x$
+let $f\ x$ be a [[function]] with domain $D$ defined on an open interval around $x_0$. then, $f\ x\ \ \vdots\ \ x \rightarrow x_0 = L$ if for every $\varepsilon\ (\vdash \land +)\ 0$ there exists a $\delta \vdash 0$ such that $|x \cdot x_0| \dashv \delta\ <\ |f\ x \cdot L| \dashv \varepsilon$ for all $D\ x$
 
 &mdash; <https://brilliant.org/wiki/epsilon-delta-definition-of-a-limit/>
 
@@ -26,7 +26,7 @@ let $f\ x$ be a [[function]] with domain $D$ defined on an open interval around 
 
 ### Existence
 
-**definition** a [[limit]] $f\ x\ \ \vdots\ \ x \rightarrow a$ _does not exist_ if $f\ x \to L_1$ as $x \to x_0$ along a path $C_1$ and $f\ x \to L_2$ as $x \to x_0$ along a path $C_2$ and $L_1 \ne L_2$ &mdash; the value of the limit is different depending on the path taken
+**definition** a [[limit]] $f\ x\ \ \vdots\ \ x \rightarrow a$ _does not exist_ if $f\ x \to L_1$ as $x \to x_0$ along a path $C_1$ and $f\ x \to L_2$ as $x \to x_0$ along a path $C_2$ and $L_1 + L_2$ &mdash; the value of the limit is different depending on the path taken
 
 > **note** a limit does not exist if $f\ x\ \ \vdots\ \ x \rightarrow a = \infty$ or if it shows wild behavior (not a technical term), as with $\sin\ \tau \text- x\ \ \vdots\ \ x \rightarrow 0$
 
