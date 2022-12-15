@@ -23,7 +23,7 @@ certain [[markov chain]]s converge to a _stationary distribution_, which can be 
 > let $S_0 = \begin{bmatrix} S_0^0 \\\ \vdots \\\ S_0^s \end{bmatrix}$, where
 >
 > - $S_0$ is the initial state of the [[markov chain]]
-> - $S_0^i$ is the [[probability]] of the $i$ th state occurring in the initial state
+> - $S_0^i$ is the [[probability]] of the $i$th state occurring in the initial state
 > - $s$ is the number of states in the [[markov chain]]
 >
 > #todo mm
@@ -33,7 +33,7 @@ certain [[markov chain]]s converge to a _stationary distribution_, which can be 
 > - $S_c$ is the current iteration of the computation starting from $S_0$
 > - $S_n$ is the next iteration of the computation
 > - $P$ is the $s$ by $s$ _transition matrix_ of the [[markov chain]]
-> - $P^{j, k}$ is the [[probability]] of the [[markov chain]] transitioning from the $k$ th state to the $j$ th state
+> - $P^{j, k}$ is the [[probability]] of the [[markov chain]] transitioning from the $k$th state to the $j$th state
 >
 > #todo mm
 >

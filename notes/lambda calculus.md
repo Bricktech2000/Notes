@@ -31,18 +31,18 @@ used for backlinks
 _in [[conventional math notation]]_
 
 ```bnf
-<expr> ::= <var>              ; variable
-         | λ <var> . <expr>   ; abstraction
-         | (<expr> <expr>)    ; application
+<expr> ::= <var>                       ; variable
+         | "λ" <var> "." <expr>        ; abstraction
+         | "(" <expr> " " <expr> ")"   ; application
 ```
 
 _in my [[math notation]]_
 
 ```bnf
-<expr> ::= <var>             ; variable
-         | <var> -> <expr>   ; abstraction
-         | <expr> <expr>     ; application
-         | (<expr>)
+<expr> ::= <var>               ; variable
+         | <var> "->" <expr>   ; abstraction
+         | <expr> " " <expr>   ; application
+         | "(" <expr> ")"      ; grouping
 ```
 
 ## Church Booleans
@@ -78,3 +78,75 @@ general [[recursion]] in [[lambda calculus]] can be defined using the [[combinat
 $\operatorname{rec} f =\!= Y\ f$
 
 &mdash; <https://youtu.be/9T8A89jgeTI?t=627>
+
+## array representation
+
+all [[lambda calculus]] expressions can be represented as one-dimensional [[array]]s using the following [[backus-naur form]] syntax &mdash; me:
+
+```bnf
+<expr> ::= <index>                                   ; De Bruijn index
+         | "λ"* "(" (<expr> | "id") " " <expr> ")"   ; (abstraction of)* application
+```
+
+> **example**
+>
+> in my [[math notation]]: $z \rightarrow (y \rightarrow y\ (x \rightarrow x))\ (x \rightarrow z\ x)$
+>
+> using De Bruijn indices: $\lambda\ (\lambda\ 0\ (\lambda\ 0))\ (\lambda\ 1\ 0)$
+>
+> as a [[tree#binary tree]]:
+>
+> ```mermaid
+> graph TD;
+>   node8(0)
+>   node5(λ A)
+>   node6(0)
+>   node7(λ A)
+>   node1(λ A)
+>   node2(1)
+>   node3(0)
+>   node9(λ A)
+>
+>   node1 --> node3
+>   node1 --> node2
+>
+>   node5 --> node6
+>
+>   node7 --> node8
+>   node7 --> node5
+>
+>   node9 --> node7
+>   node9 --> node1
+> ```
+>
+> as an [[array]]: `0x01010100010100XXXXXX00XXXXXXXX`
+
+> **example**
+>
+> in my [[math notation]]: $s\ z \rightarrow s\ (s\ (s\ z))$
+>
+> using De Bruijn indices: $\lambda\ (\lambda\ (1\ (1\ (1\ 0))))$
+>
+> as a [[tree#binary tree]]:
+>
+> ```mermaid
+> graph TD;
+>   node1(λ λ A)
+>   node2(1)
+>   node3(A)
+>   node4(1)
+>   node5(A)
+>   node6(1)
+>   node7(0)
+>
+>   node1 --> node2
+>   node1 --> node3
+>
+>   node3 --> node4
+>   node3 --> node5
+>
+>   node5 --> node6
+>   node5 --> node7
+> ```
+>
+> as an [[array]]: `0x020100XXXX0100XXXXXXXXXXXX0100`

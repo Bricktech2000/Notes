@@ -12,7 +12,7 @@
 >
 > more generally,
 >
-> - an $n$ th degree [[polynomial]] equation over a [[field]] has at most $n$ solutions
+> - an $n$th degree [[polynomial]] equation over a [[field]] has at most $n$ solutions
 >
 > &mdash; <https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra>
 >

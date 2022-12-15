@@ -327,7 +327,7 @@ a [[function]] can be proven to be bijective by proving it is both injective and
 
 ## Piecewise Function
 
-**definition** in [[mathematics]], a _piecewise-defined function_ is a [[function]] defined by multiple sub-[[function]]s, where each sub-[[function]] applies to a different interval in the [[function#domain]]. &mdash; Wikipedia
+**definition** in [[mathematics]], a _piecewise-defined function_ is a [[function]] defined by multiple sub-[[function]]s, where each sub-[[function]] applies to a different interval in the [[function#domain]] &mdash; Wikipedia
 
 ## Rational Function
 
@@ -335,9 +335,9 @@ _a function defined as a [[polynomial]] divided by another [[polynomial]]_
 
 ## Pure Function
 
-**definition** a _pure function_ is a [[function]] that has no side effects and that does not depend on external state.
+**definition** a _pure function_ is a [[function]] that has no side effects and that does not depend on external state
 
-of course, any [[function]] can be thought of as having side effects. for example, running a [[function#pure function]] on a CPU still consumes a measurable amount of [[energy]], modifying the entropy of the universe. &mdash; <https://youtu.be/APUCMSPiNh4?t=2594>. practically, however, this definition is useful
+of course, any [[function]] can be thought of as having side effects. for example, running a [[function#pure function]] on a CPU still consumes a measurable amount of [[energy]], modifying the entropy of the universe &mdash; <https://youtu.be/APUCMSPiNh4?t=2594>. practically, however, this definition remains useful
 
 **properties**
 
@@ -359,14 +359,14 @@ a [[function#total function]] maps every element of its [[function#domain]] to a
 > }
 > ```
 >
-> even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it won't be able to return a value if the input is `0`. normally, people would throw an exception to prevent the program from crashing, which makes the [[type]] signature a "lie". however, in [[functional programming]], one of the following strategies should be used instead:
+> even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it won't be able to return a value if the input is `0`. most developers would add an `if` check and throw an exception if that were the case, which makes the [[type]] signature a "lie". however, in [[functional programming]], one of the following strategies should be used instead:
 >
 > - restrict the input of the [[function]] (something like `nonZeroF64`)
-> - extend the input of the [[function]] (something like `Optional<f64>`)
+> - extend the output of the [[function]] (something like `Optional<f64>`)
 
 ## Higher-Order Function
 
-**definition** a _higher-order function_ is a [[function]] that takes a [[function]] as argument or returns a [[function]]
+**definition** a _higher-order function_ is a [[function]] that takes a [[function]] as an argument or returns a [[function]]
 
 **definition** a _first-order function_ is a [[function]] whose arguments and return values are not [[function]]s
 

@@ -1,8 +1,8 @@
 # Absolute Value
 
-[[absolute value]]s can be defined as a [[function#piecewise function]]
-
 **see** [[math notation]]
+
+[[absolute value]]s can be defined as a [[function#piecewise function]]
 
 > **procedure** _solving an absolute value equality_ solve by cases
 

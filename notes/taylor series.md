@@ -42,7 +42,7 @@ intuitive explanation: <https://youtu.be/3d6DsjIBzJ4?t=383>
 
 $S_{T_f}^n\ x = T_f^0 : T_f^1 : \cdots T_f^n$, where
 
-- $S_{T_f}^n$ is the $n$ th partial sum of the [[taylor series]] $T_f$
+- $S_{T_f}^n$ is the $n$th partial sum of the [[taylor series]] $T_f$
 - $n$ is a finite [[number]]
 
 ## Remainder

@@ -36,7 +36,7 @@ $\delta\ f\ x - \delta x$, see [[calculus notation]]
 
 $d^n\ f = d^{n \cdot 1}\ (x \rightarrow \delta\ f\ x - \delta x) \land d^0\ f = f$
 
-$d^n f$ would then be the $n$ th [[derivative]] of $f\ x$ with respect to $x$
+$d^n f$ would then be the $n$th [[derivative]] of $f\ x$ with respect to $x$
 
 ## Directional Derivative
 

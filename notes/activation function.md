@@ -14,7 +14,7 @@ _preferred activation function_
 
 **definition**
 
-$\text{ReLU}\ z = 0 \top z$
+$\text{ReLU}\ z = 0\ \top\ z$
 
 ```python
 def ReLU(x):

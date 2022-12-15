@@ -103,7 +103,7 @@ let $\mathbb M^{n, n} A \land \mathbb N n$ be a [[matrix#diagonalizable matrix]]
 
 then, $AP = PD$. as the columns of $P$ are [[linearly independent]], we know $P$ is an invertible [[matrix]]. therefore, $A = PDP^-$ and $P^-AP = D$
 
-> **proof** the $n$ th column of $AP$ is $AP^{,n} = Ax_n$. since $x_n$ is an [[eigen#vector]] of $A$, we use its corresponding [[eigen#value]] to get $AP^{,n} = Ax_n = \lambda_n x_n$ by definition, see [[eigen]]. the $n$ th column of $PD$ is $PD^{, n}$. when multiplying out, we get $PD^{, n} = x_n D^{n, n} = x_n \lambda_n$. as $AP^{,n} = PD^{,n} \dashv \mathbb N n$, we conclude $AP = PD$
+> **proof** the $n$th column of $AP$ is $AP^{,n} = Ax_n$. since $x_n$ is an [[eigen#vector]] of $A$, we use its corresponding [[eigen#value]] to get $AP^{,n} = Ax_n = \lambda_n x_n$ by definition, see [[eigen]]. the $n$th column of $PD$ is $PD^{, n}$. when multiplying out, we get $PD^{, n} = x_n D^{n, n} = x_n \lambda_n$. as $AP^{,n} = PD^{,n} \dashv \mathbb N n$, we conclude $AP = PD$
 
 now, compute $[A]p \land \mathbb N p$ with $p$ being a very large integer
 

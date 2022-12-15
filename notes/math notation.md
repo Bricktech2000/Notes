@@ -62,7 +62,7 @@ let:
 | $a \smash\shortmid b$ and $a \mid b$ | `a'b` and <code>a \| b</code>    | $a$ multiplied by $b$                             |                                                     |
 | $a \text- b$ and $a - b$             | `a-b` and `a -- b`               | $a$ divided by $b$                                |                                                     |
 | $[a]b$ and $a[b]$                    | `[a]b` and `a[b]`                | $a$ to the power of $b$                           | represents a power by convention                    |
-| $\lfloor a \rfloor b$                | `\a/b`                           | the $b$ th root of $a$                            | $b = 2$ if $b$ is omitted                           |
+| $\lfloor a \rfloor b$                | `\a/b`                           | the $b$th root of $a$                             | $b = 2$ if $b$ is omitted                           |
 | $\lceil a \rceil b$                  | `/a\b`                           | the base-$b$ [[logarithm]] of $a$                 | $b = e$ if $b$ is omitted                           |
 | $x \rightarrow E$                    | `x -> E`                         | [[function]] literal                              | $f = x \rightarrow E =\!= f \leftarrow x = E$       |
 | $f \leftarrow E$                     | `f <- E`                         | [[function]] application                          | uncommon, shorthand preferred                       |
@@ -84,11 +84,11 @@ let:
 | $\delta y - \delta x$                | `dy -- dx`                       | the [[derivative]] of $y$ with respect to $x$     | $\delta$ should be used instead of $d$              |
 | $\int y \mid \delta x$               | <code>S y \| dx</code>           | the [[antiderivative]] of $y$ with respect to $x$ | $\delta$ should be used instead of $d$              |
 | $x_{sub}$                            | `x_sub`                          | the [[variable]] $x$ with a subscript $_{sub}$    |                                                     |
-| $V^n$                                | `V^n`                            | the $n$ th component of $V$                       |                                                     |
-| $A^i$                                | `A^i`                            | the $i$ th element of $A$                         |                                                     |
-| $B^i$                                | `B^i`                            | the $i$ th element of $B$                         |                                                     |
-| $M^{\braket{i, j}}$                  | `M^i,j`                          | the $i, j$ th element of $M$                      | uncommon, shorthand preferred                       |
-| $P^b$                                | `P^b`                            | the $b$ th element of $P$                         |                                                     |
+| $V^n$                                | `V^n`                            | the $n$th component of $V$                        |                                                     |
+| $A^i$                                | `A^i`                            | the $i$th element of $A$                          |                                                     |
+| $B^i$                                | `B^i`                            | the $i$th element of $B$                          |                                                     |
+| $M^{\braket{i, j}}$                  | `M^i,j`                          | the $i, j$th element of $M$                       | uncommon, shorthand preferred                       |
+| $P^b$                                | `P^b`                            | the $b$th element of $P$                          |                                                     |
 | $S\ a$                               | `S a`                            | whether $a$ is element of $S$                     |                                                     |
 | $M'\ a$                              | `M' a`                           | the number of elements $a$ in $M'$                |                                                     |
 | $G\ a$                               | `G a`                            | whether vertex $a$ is in $G$                      |                                                     |
@@ -153,8 +153,8 @@ _in order of high to low precedence_
 | $(\ )$                                | $((\ ))$                            | see [[multiset]]                 |
 | $V^x, V^y, V^z$                       | $V^0, V^1, V^2$                     |                                  |
 | $M^{i, j}$                            | $M^{\braket{i, j}}$                 | common, longhand discouraged     |
-| $M^{i,}$                              | the $i$ th row of $M$               |                                  |
-| $M^{, j}$                             | the $j$ th column of $M$            |                                  |
+| $M^{i,}$                              | the $i$th row of $M$                |                                  |
+| $M^{, j}$                             | the $j$th column of $M$             |                                  |
 | $x \rightarrow (a \dashv x \dashv b)$ | the closed interval from $a$ to $b$ |                                  |
 | $A \circ B$                           | $A\ x \circ B\ x$ for all $x$       | why not $\land A \circ B$ #think |
 

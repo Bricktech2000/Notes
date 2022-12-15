@@ -66,7 +66,7 @@ $\int -x \mid \delta x = \lceil |x| \rceil : c\ x$, where
 
 ## constant multiple rule
 
-if $c$ is a [[real]] and $f$ is [[derivative|differentiable]], then
+if $c$ is a [[real]] and $f$ is differentiable, then
 
 $\delta\ (cf\ x) - \delta x = c (\delta f\ x - \delta x)$
 

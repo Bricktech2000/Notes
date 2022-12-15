@@ -28,7 +28,7 @@ more information about supported features available at <https://katex.org/docs/s
 
 ### Sections
 
-capitalized headings are for [[concept]]s that can be linked to using [[index|nested > wiki links]] and lowercease headings are for general titles
+capitalized headings are for [[concept]]s that can be linked to using [[wikilink#nested wikilink]]s and lowercease headings are for general titles
 
 some constructs, such as definitions and proofs, are very common. they are to be written as follows in markdown:
 
@@ -96,7 +96,7 @@ file names are all lowercase and apostrophes and diacritics are removed from the
 
 box titles are generated with <https://lingojam.com/BoldTextGenerator>
 
-all internal links are denoted using `[[note]]` and `![[image.png]]`, and all external links are denoted using `<https://example.com/>`
+all internal links are denoted using `[[note]]` and `![[image.png]]` [[wikilink]]s, and all external links are denoted using `<https://example.com/>`
 
 ### syntax used
 
@@ -130,7 +130,7 @@ all internal links are denoted using `[[note]]` and `![[image.png]]`, and all ex
 >
 > #tag
 >
-> [[index|wiki links]]
+> [[wikilink]]
 >
 > <https://example.com/>
 >
@@ -160,6 +160,8 @@ all internal links are denoted using `[[note]]` and `![[image.png]]`, and all ex
 > $$
 >
 > emoji :smile:
+>
+> [[wikilink|wikilink alias]]
 
 ## presentation-style conventions
 

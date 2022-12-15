@@ -24,5 +24,3 @@ an [[algebraic structure]] consists of:
 > - [[boolean algebra]]
 > - [[vector space]]s
 > - ...
-
-#todo update [[algebraic structure]]s with titles from [[group]]

@@ -2,7 +2,7 @@
 
 #example
 
-let $p^i$ be the $i$ th prime number. then, the [[series]] $\,: \text-p$ diverges
+let $p^i$ be the $i$th prime number. then, the [[series]] $\,: \text-p$ diverges
 
 > **proof**
 >

@@ -64,7 +64,7 @@ $\det\ \text-A = -\det A$ if and only if $A$ is invertible, see [[matrix]]
 >
 > the [[determinant]] of a [[matrix#triangular matrix]] is the product of its [[matrix#diagonal]] entries
 >
-> [[linear system#elementary operation]]s have a consistent effect on the [[determinant]] of a [[matrix]] (see properties below). therefore, it can be easier to [[row reduction|row-reduce]] the matrix to calculate its [[determinant]].
+> [[linear system#elementary operation]]s have a consistent effect on the [[determinant]] of a [[matrix]] (see properties above). therefore, it can be easier to row-reduce the [[matrix]] to compute its [[determinant]]
 
 ## Intuition
 

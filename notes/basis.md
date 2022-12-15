@@ -23,8 +23,8 @@ all [[basis]]es of a [[vector space]] have the same size
 >
 > to find a basis for a [[vector space]] $W = \operatorname{span} \braket{\braket{v_0 \cdots v_m}}$
 >
-> 1. write the [[matrix]] $A$ whose rows are the [[vector]]s $v_0 \cdots v_m$. if the [[vector]]s are not [[vector in rn]]s, translate them into [[basis|coordinate-vector]]s first
-> 2. [[row reduction|row-reduce]] $A$ to [[linear system#row echelon form]]
+> 1. write the [[matrix]] $A$ whose rows are the [[vector]]s $v_0 \cdots v_m$. if the [[vector]]s are not [[vector in rn]]s, translate them into coordinate vectors first
+> 2. use [[row reduction]] to get $A$ to its [[linear system#row echelon form]]
 > 3. use the nonzero rows of the [[linear system#row echelon form]] of $A$ as a [[basis]] for $W$
 
 ## Ordered Basis
