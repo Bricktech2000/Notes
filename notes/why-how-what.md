@@ -83,7 +83,7 @@ _what_ represents the item itself
 
 [[subjectivity to objectivity]]
 
-[[incorrect measurement scale use]]
+[[improper measurement scale]]
 
 [[improved family relationship vocabulary]]
 
@@ -231,7 +231,7 @@ _what_ represents the item itself
 
 [[subjectivity to objectivity]]
 
-[[incorrect measurement scale use]]
+[[improper measurement scale]]
 
 [[improved recipe structure]]
 

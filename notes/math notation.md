@@ -143,20 +143,20 @@ _in order of high to low precedence_
 
 ### shorthands
 
-| shorthand                             | definition                          | notes                            |
-| ------------------------------------- | ----------------------------------- | -------------------------------- |
-| $x\omega$                             | $[x]\omega$                         |                                  |
-| $ax$                                  | $a \smash\shortmid x$               |                                  |
-| $f\ E$                                | $f \leftarrow E$                    | common, longhand discouraged     |
-| $x\ y \rightarrow E$                  | $x \rightarrow y \rightarrow E$     |                                  |
-| $\braket{\ }$                         | $\braket{\braket{\ }}$              | see [[empty]] [[set]]            |
-| $(\ )$                                | $((\ ))$                            | see [[multiset]]                 |
-| $V^x, V^y, V^z$                       | $V^0, V^1, V^2$                     |                                  |
-| $M^{i, j}$                            | $M^{\braket{i, j}}$                 | common, longhand discouraged     |
-| $M^{i,}$                              | the $i$th row of $M$                |                                  |
-| $M^{, j}$                             | the $j$th column of $M$             |                                  |
-| $x \rightarrow (a \dashv x \dashv b)$ | the closed interval from $a$ to $b$ |                                  |
-| $A \circ B$                           | $A\ x \circ B\ x$ for all $x$       | why not $\land A \circ B$ #think |
+| shorthand                             | definition                          | notes                               |
+| ------------------------------------- | ----------------------------------- | ----------------------------------- |
+| $x\omega$                             | $[x]\omega$                         |                                     |
+| $ax$                                  | $a \smash\shortmid x$               |                                     |
+| $f\ E$                                | $f \leftarrow E$                    | common, longhand discouraged        |
+| $x\ y \rightarrow E$                  | $x \rightarrow y \rightarrow E$     |                                     |
+| $\braket{\ }$                         | $\braket{\braket{\ }}$              | see [[empty]] [[set]]               |
+| $(\ )$                                | $((\ ))$                            | see [[multiset]]                    |
+| $V^x, V^y, V^z$                       | $V^0, V^1, V^2$                     |                                     |
+| $M^{i, j}$                            | $M^{\braket{i, j}}$                 | common, longhand discouraged        |
+| $M^{i,}$                              | the $i$th row of $M$                |                                     |
+| $M^{, j}$                             | the $j$th column of $M$             |                                     |
+| $x \rightarrow (a \dashv x \dashv b)$ | the closed interval from $a$ to $b$ |                                     |
+| $A \circ B$                           | $A\ x \circ B\ x$ for all $x$       | why not $\,\land\ A \circ B$ #think |
 
 ## variable scope
 

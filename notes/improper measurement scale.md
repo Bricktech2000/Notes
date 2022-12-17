@@ -1,6 +1,6 @@
-# Incorrect Measurement Scale Use
+# Improper Measurement Scale
 
-_using the incorrect scale for a measurement_
+_using an improper scale for a measurement_
 
 **see** [[math notation]]
 

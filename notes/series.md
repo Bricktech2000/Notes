@@ -15,7 +15,7 @@ $\,: b = b^0 : b^1 : \cdots$, where
 
 **definition**
 
-let $b : \dots = b^0 : b^1 : b^2 : \cdots$
+let $\,: b = b^0 : b^1 : b^2 : \cdots$
 
 $S_b = (b^0), (b^0 : b^1), (b^0 : b^1 : b^2), \cdots$ or alternatively $S_b^0 = b^0 \land S_b^n = S_b^{n \cdot 1} : b^n$, where
 
@@ -28,7 +28,7 @@ $S_b = (b^0), (b^0 : b^1), (b^0 : b^1 : b^2), \cdots$ or alternatively $S_b^0 = 
 $R_b^n = S_b^\infty \cdot S_b^n$, where
 
 - $S_b$ is the [[series#sequence of partial sums]] of $b$
-- $S_b^\infty =\!= b$ is the value the [[series]] $b$ converges to
+- $S_b^\infty =\!= \,: b$ is the value the [[series]] $b$ converges to
 - $R_b^n$ is the _remainder_ of the [[series]] $b$ after $n$ terms
 
 ## Convergent Series
