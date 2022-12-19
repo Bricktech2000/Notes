@@ -2,7 +2,7 @@
 
 **see** [[math notation]], [[eigen]]
 
-**definition** _formally in my [[math notation]]_ a [[matrix]] in $\mathbb R^{m, n}$ is a [[set theory]]etical [[function]] with [[function#domain]] at least $\braket{x, y} \rightarrow \mathbb N x \land \mathbb N y \land 0 \dashv x\ (\dashv \land +)\ m \land 0 \dashv y\ (\dashv \land +)\ n$ that takes an [[ordered pair]] as an index and returns the element at that index
+**definition** _formally in my [[math notation]]_ a [[matrix]] is a [[set theory]]etical [[function]] that takes an [[ordered pair]] of [[natural]] indices and returns the element at that index
 
 **notation**
 

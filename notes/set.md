@@ -6,7 +6,7 @@
 
 **definition** a _set_ is an unordered collection of elements, each of which are unique
 
-**definition** _formally in my [[math notation]]_ a [[set]] is a [[set theory]]etical [[function]] with [[function#range]] at most $\mathbb B$ (also known as a [[predicate]]) that takes an element and returns whether it is in the [[set]] or not
+**definition** _formally in my [[math notation]]_ a [[set]] is a [[set theory]]etical [[function]] that takes an element and returns whether it is a member of the [[set]] (a [[predicate]])
 
 **notations**
 

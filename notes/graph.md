@@ -4,7 +4,7 @@ _a collection of vertices connected by a collection of edges_
 
 **see** [[abstract data type]]
 
-**definition** _formally in my [[math notation]]_ a [[graph]] is a [[set theory]]etical [[function]] with [[function#domain]] at least $\braket{v, w} \rightarrow \top$ that takes an [[ordered pair]] of vertices as an index and returns whether an edge is connecting them
+**definition** _formally in my [[math notation]]_ a [[graph]] is a [[set theory]]etical [[function]] that takes an [[ordered pair]] of vertices and returns whether an edge is connecting them
 
 **definition** an _undirected graph_ is a [[graph]] $G$ such that $G = G^\intercal$
 
@@ -28,11 +28,9 @@ below are two equivalent representations of a sample graph
 
 ## vertex membership
 
-**definition**
+**definition** _in my [[math notation]]_ a vertex $v$ is in a graph $G$ if and only if there is at least one edge incident to it; $G\ v =\!= G^{v,} + \braket{\ } \lor G^{, v} + \braket{\ }$
 
-_in my [[math notation]]_ a vertex $v$ is in a graph $G$ if and only if there is at least one edge incident to $v$: $G\ v =\!= G^{v,} + O \lor G^{, v} + O$
-
-_in [[conventional math notation]]_ a vertex $v$ is in a graph $\braket{V, E}$ if and only if $V\ v$
+**definition** _in [[conventional math notation]]_ a vertex $v$ is in a graph $\braket{V, E}$ if and only if $V\ v$
 
 ## Isomorphism
 
@@ -52,15 +50,15 @@ _in [[conventional math notation]]_ a vertex $v$ is in a graph $\braket{V, E}$ i
 
 ## Connected Graph
 
-**definition** a [[graph]] is said to be _connected_ if every pair of vertices are connected directly or indirectly by a path
+**definition** a [[graph]] is said to be _connected_ if every pair of vertices is connected directly or indirectly by a path
 
 **definition** a [[graph]] is said to be _disconnected_ if it is not _connected_
 
 ## Subgraph
 
-**definition** a [[graph]] $G_1$ is a _subgraph_ of $G_2$ if and only if it is a [[graph]] and $G_1^e \dashv G_2^e$
+**definition** a [[graph]] $G_1$ is a _subgraph_ of $G_2$ if and only if it is a [[graph]] and $\,\land\ G_1^e \dashv G_2^e$
 
-**definition** a [[graph]] $G_1$ is an _induced subgraph_ of $G_2$ if and only if it is a _subgraph_ of $G_2$ and $G_1\ e^\bot \land G_1\ e^\top < G_1^e = G_2^e$ (the subgraph must contain all the original edges connecting its vertices)
+**definition** a [[graph]] $G_1$ is an _induced subgraph_ of $G_2$ if and only if it is a _subgraph_ of $G_2$ and $G_1\ v \land G_1\ w < G_1^{v, w} = G_2^{v, w}$ (the subgraph must contain all the original edges connecting its vertices)
 
 ## Vertex Degree
 
@@ -81,3 +79,13 @@ when visiting a vertex in a [[graph#euler path]] or [[graph#euler circuit]], one
 **theorem** a [[graph]] has an _Euler path_ if and only if exactly zero or exactly two of its vertices have an [[odd number]] [[graph#vertex degree]]
 
 **theorem** a [[graph]] has an _Euler circuit_ if and only if every vertex has an [[even number]] [[graph#vertex degree]]
+
+## Adjacency Matrix
+
+**definition** the _adjacency matrix_ of a [[graph]] $G$ is $G$
+
+## Adjacency List
+
+**definition** the _adjacency list_ of a [[graph]] $G$ is $v\ w \rightarrow G^{v, w}$
+
+> **note** a [[graph#adjacency list]] is a collection of [[set]]s. the person who came up with that name should probably be fired

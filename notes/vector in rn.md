@@ -6,7 +6,7 @@ _Vectors in $\mathbb R^n$_
 
 **definition** a _vector in $\mathbb R^n$_ is an ordered collection of elements that do not have to be unique
 
-**definition** _formally in my [[math notation]]_ a [[vector]] in $\mathbb R^n$ is a [[set theory]]etical [[function]] with [[function#domain]] at least $x \rightarrow (\mathbb N x \land 0 \dashv x \dashv n \cdot 1)$ that takes an index and returns the element at that index
+**definition** _formally in my [[math notation]]_ a [[vector]] is a [[set theory]]etical [[function]] that takes a [[natural]] index and returns the element at that index
 
 > **equivalence** _[[list]]s and [[vector in rn]]s_
 

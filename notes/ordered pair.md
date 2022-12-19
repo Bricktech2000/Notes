@@ -2,7 +2,7 @@
 
 **definition** an _ordered pair_ is an ordered collection containing exactly two elements
 
-**definition** _formally in my [[math notation]]_ an [[ordered pair]] is a [[set theory]]etical [[function]] with domain at least $\mathbb B$ that takes a boolean as an index and returns the element at that index
+**definition** _formally in my [[math notation]]_ an [[ordered pair]] is a [[set theory]]etical [[function]] that takes a [[boolean]] index and returns the element at that index
 
 **notation**
 

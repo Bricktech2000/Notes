@@ -4,7 +4,7 @@
 
 **definition** a _sequence_ is an ordered collection of infinitely many elements
 
-**definition** _formally in my [[math notation]]_ a [[sequence]] is a [[set theory]]etical [[function]] $k \rightarrow a^k$ with [[function#domain]] at least $x \rightarrow (\mathbb Z x \land x \vdash 0)$ that takes an index and returns the element at that index
+**definition** _formally in my [[math notation]]_ a [[sequence]] is a [[set theory]]etical [[function]] that takes a [[natural]] index and returns the element at that index
 
 **notations**
 

@@ -10,21 +10,19 @@
 
 [[group]]s
 
-**definition**
+**definition** _formally in my [[math notation]]_ a [[category]] is a [[set theory]]etical [[function]] that takes an [[ordered pair]] of [[category#object]]s and returns their hom-[[set]]s (the [[set]] of [[category#morphism]]s between them) while satisfying the [[category#associativity law]] and [[category#identity law]]
 
-a category $\mathcal C$ consists of [[category#object]]s and [[category#morphism]]s with [[category#composition]] and [[category#identity morphism]] all subject to the [[category#associativity law]] and the [[category#identity law]]
+**definition** a category $\mathcal C$ consists of [[category#object]]s and [[category#morphism]]s with [[category#composition]] and [[category#identity morphism]] all subject to the [[category#associativity law]] and the [[category#identity law]]
 
-> **example** [[real]]s and the $\dashv$ operator form a [[category]] &mdash; <https://youtu.be/yAi3XWCBkDo?t=652>
+> **example** [[real]]s and the $\dashv$ [[operator]] form a [[category]] &mdash; <https://youtu.be/yAi3XWCBkDo?t=652>
 
-[[category#object]]s and [[category#morphism]]s do not contain any information; [[category#composition]] and [[category#identity morphism]]s do. the goal is to encode everything in composition and identities
+> **note** [[category#object]]s and [[category#morphism]]s do not contain any information; [[category#composition]] and [[category#identity morphism]]s do. the goal is to encode everything in composition and identities
 
-[[category]]es are often represented visually as [[graph]]s. however, not all [[graph]]s represent "valid" [[category]]es
+> **note** [[category]]es are often represented visually as [[graph]]s. however, not all [[graph]]s represent "valid" [[category]]es
 
 ## Object
 
-every category has a collection of _objects_. even though [[category#object]]s can be anything, they are usually taken to be mathematical objects
-
-objects of a category are generally specificed by writing them in a [[set]], denoted $\braket{\braket{1, 2, 3}}$ in my [[math notation]]. however, objects of a category do **not** (necessarily) form a (mathematical) [[set]]
+every category has a collection of _objects_. even though [[category#object]]s can be anything, they are usually taken to be mathematical objects. objects of a category are generally specificed by writing them in a [[set]]. however, objects of a category do **not** (necessarily) form a (mathematical) [[set]]
 
 ### Initial Object
 
@@ -42,19 +40,29 @@ objects of a category are generally specificed by writing them in a [[set]], den
 
 [[category#terminal object]]s are unique up to unique isomorphism
 
+### Hom-Set
+
+**definition** the _hom-set_ of any [[ordered pair]] of [[category#object]]s $A$ and $B$ is $\mathcal C^{A, B}$
+
+**notation** _in [[conventional math notation]]_ $\mathcal C(A, B) = \braket{\braket{f, g, \cdots}}$
+
 ## Morphism
 
-for any pair of [[category#object]]s $A$ and $B$, the category has a (mathematical) [[set]] of _morphisms_ from $A$ to $B$ known as their _hom-set_, denoted $\mathcal C(A, B) = \braket{\braket{f, g, \cdots}}$ in [[conventional math notation]].
+every category has a collection of _morphisms_. morphisms are the arrows in the category diagram
 
-a morphism from $A$ to $B$ is denoted $f: A \to B$ in [[conventional math notation]]. even though $A$ is related to $B$, $B$ is not necessarily related to $A$. they can be thought of as [[function]]s, but don't necessarily have to be.
+**notation** _a morphism from $A$ to $B$ in [[conventional math notation]]_ $f: A \to B$
 
-any number of [[category#morphism]]s between two [[category#object]]s can exist. this includes zero morphisms to an infinity of morphisms.
+**notation** _a morphism from $A$ to $B$ in my [[math notation]]_ $\mathcal C^{A, B}\ f$
+
+even if $A$ is related to $B$ by a morphism, $B$ is not necessarily related to $A$. morphisms can be thought of as [[function]]s, but don't necessarily have to be. any number of [[category#morphism]]s between two [[category#object]]s can exist. this includes no morphisms to an infinity of morphisms
 
 ### Isomorphism
 
-**definition** an _isomorphism_ is a [[category#morphism]] with a corresponding inverse. let $f : A \to B$ and let $f^- : B \to A$ and let $\circ$ be the [[composition]] [[operator]]. then, there exists an _isomorphism_ between $A$ and $B$ if and only if $f \circ f^- = \textbf{id}_B$ and $f^- \circ f = \textbf{id}_A$
+**definition** an _isomorphism_ is a [[category#morphism]] with a corresponding inverse. let $\mathcal C^{A, B}\ f$ and let $\mathcal C^{B, A}\ f'$ and let $\circ$ be the [[composition]] [[operator]]. then, there exists an _isomorphism_ between $A$ and $B$ if and only if $f \circ f' = \textbf{id}_B \land f' \circ f = \textbf{id}_A$
 
-**definition** if there exists a [[category#isomorphism]] between two [[category#object]]s $A$ and $B$, they are said to be _isomorphic_, denoted $A \cong B$ in [[conventional math notation]].
+**definition** if there exists a [[category#isomorphism]] between two [[category#object]]s $A$ and $B$, they are said to be _isomorphic_
+
+**notation** _in [[conventional math notation]]_ $A \cong B$
 
 > **note** a [[category#morphism]] being both _epic_ and _monic_ does not imply that it is a [[category#isomorphism]]
 
@@ -85,7 +93,7 @@ any number of [[category#morphism]]s between two [[category#object]]s can exist.
 
 ### Monomorphism
 
-**definition** let $f : A \to B$, let $g_1 : C \to A$ and $g_2 : C \to A$, and let $\circ$ be the [[composition]] [[operator]]. then, $f$ is a _monomorphism from $A$ to $B$_ if and only if $f \circ g_1 = f \circ g_2 < g_1 = g_2$ for all $\mathcal C(C, A)\ g_1$ and $\mathcal C(C, A)\ g_2$ and for all $C$
+**definition** let $\mathcal C^{A, B}\ f$, let $\mathcal C^{C, A}\ g_1$ and $\mathcal C^{C, A}\ g_2$, and let $\circ$ be the [[composition]] [[operator]]. then, $f$ is a _monomorphism from $A$ to $B$_ if and only if $f \circ g_1 = f \circ g_2 < g_1 = g_2$, for all $\mathcal C^{C, A}\ g_1$ and $\mathcal C^{C, A}\ g_2$, and for all $\mathcal C\ C$
 
 > **note** this definition works because if $f$ mapped two different [[category#object]]s in $A$ to the same [[category#object]] in $B$, then there could exist two different [[category#morphism]]s $g_1$ and $g_2$ that would map elements of $C$ to $A$ differently which could then be mapped identically to $B$ by $f$
 
@@ -95,7 +103,7 @@ monomorphisms are [[category#morphism]]s that are injective, see [[function#inje
 
 ### Epimorphism
 
-**definition** let $f : A \to B$, let $g_1 : B \to C$ and $g_2 : B \to C$, and let $\circ$ be the [[composition]] [[operator]]. then, $f$ is an _epimorphism from $A$ to $B$_ if and only if $g_1 \circ f = g_2 \circ f < g_1 = g_2$ for all $\mathcal C(B, C)\ g_1$ and $\mathcal C(B, C)\ g_2$ and for all $C$
+**definition** let $\mathcal C^{A, B}\ f$, let $\mathcal C^{B, C}\ g_1$ and $\mathcal C^{B, C}\ g_2$, and let $\circ$ be the [[composition]] [[operator]]. then, $f$ is an _epimorphism from $A$ to $B$_ if and only if $g_1 \circ f = g_2 \circ f < g_1 = g_2$, for all $\mathcal C^{B, C}\ g_1$ and $\mathcal C^{B, C}\ g_2$, and for all $\mathcal C\ C$
 
 > **note** this definition works because if the [[function#range]] $R$ of $f$ was a [[set#subset]] of its [[function#domain]] $B$, then there could exist two different [[category#morphism]]s $g_1$ and $g_2$ that would map elements in $R$ identically but would map elements in $B / R$ differently
 
@@ -107,9 +115,9 @@ epimorphisms are [[category#morphism]]s that are surjective, see [[function#surj
 
 **see** [[composition]]
 
-let $f : A \to B$ and $g : B \to C$ be morphisms from $A$ to $B$ and $B$ to $C$. then, there must exist a morphism $h : A \to C$ from $A$ to $C$ that is the [[composition]] of $f$ and $g$.
+**definition** let $\mathcal C^{A, B}\ f$ and $\mathcal C^{B, C}\ g$. then, there must exist a morphism $\mathcal C^{A, C}\ h$ that is the [[composition]] of $f$ and $g$
 
-composition is denoted through the [[operator]] $\circ$ in [[conventional math notation]] and read as _after_ or _then_. for example, $f \circ g$ is read as _f after g_ or _f then g_.
+**notation** _in [[conventional math notation]]_ $h = g \circ f$, and is read as _after_ or _then_. for example, $f \circ g$ is read as _f after g_ or _f then g_
 
 ### Associativity Law
 
@@ -119,25 +127,27 @@ let $\circ$ be the [[composition]] [[operator]]. then, $h \circ (g \circ f) = (h
 
 ## Identity Morphism
 
-identities are [[category#morphism]]s that [[map]] a [[category#object]] to itself. in a category, each object must have an identity morphism. the [[set]] of all identities in a category is denoted $\mathcal C(A, A) = \braket{\braket{1_A, \cdots}}$ in [[conventional math notation]].
+**definition** _identities_ are [[category#morphism]]s that [[map]] a [[category#object]] to itself
 
-an identity is denoted $1_A: A \to A$ or as $\textbf{id}_A : A \to A$ in [[conventional math notation]].
+**notation** _in [[conventional math notation]]_ $1_A : A \to A$ or $\textbf{id}_A : A \to A$
+
+**notation** _in my [[math notation]]_ $\mathcal C^{A, A}\ \textbf{id}_A$
 
 ### Identity Law
 
-for every [[category#object]] $A$ there is an arrow which is a unit of [[composition]]. let $f : A \to B$ and let $\circ$ be the [[composition]] [[operator]]. then,
+for every [[category#object]] $A$ there is an arrow which is a unit of [[composition]]. let $\mathcal C^{A, B}\ f$ and let $\circ$ be the [[composition]] [[operator]]. then,
 
 $f \circ \textbf{id}_A = f$
 
 $\textbf{id}_B \circ f = f$
 
-in Haskell, let `id :: a -> a`. then, `id x = x`
-
 ## Functor
 
-[[functor]]s are [[map]]s between [[category]]es which respect categorical structure &mdash; <https://youtu.be/yAi3XWCBkDo?t=1238>. this leads to the [[category]] of [[category]]es
+**see** [[functor]]
 
-to do so, they must use a pair of [[function]]s to [[map]] both [[category#object]]s and [[category#morphism]]s between the [[category]]es and preserve the identity and composition laws
+**definition** _functors_ are [[map]]s between [[category]]es which respect categorical structure &mdash; <https://youtu.be/yAi3XWCBkDo?t=1238>
+
+this leads to the [[category]] of [[category]]es. functors must use a pair of [[function]]s to [[map]] both [[category#object]]s and [[category#morphism]]s between the [[category]]es and preserve the identity and composition laws
 
 ### Forgetful Functor
 
@@ -149,13 +159,21 @@ to do so, they must use a pair of [[function]]s to [[map]] both [[category#objec
 
 ## Opposite Category
 
-**aka** _Duality_
+**aka** _dual category_
 
 &mdash; <https://youtu.be/Gai-liKAUPo?t=190>
 
-**definition** for any [[category]] $\mathcal C$, one can define the _opposite category_ $\mathcal C^{op}$ by reversing all its morphisms
+**definition** the _oposite category_ of any [[category]] $\mathcal C$ is $\mathcal C^\intercal$
 
-this can be thought of as "reversing the direction" of the "arrows" in the [[graph]] the [[category]]
+this can be thought of as "reversing the direction" of the "arrows" in the [[category]] diagram
+
+**notation** _in [[conventional math notation]]_ $\mathcal C^{\text{op}}$
+
+**notation** _in my [[math notation]]_ $\mathcal C^\intercal$
+
+**properties**
+
+$\mathcal C^{\intercal \intercal} = \mathcal C$
 
 ## Product
 
@@ -175,7 +193,7 @@ factorizes &mdash; <https://youtu.be/Bsdl_NKbNnU?t=1011>
 
 #think <https://youtu.be/Gai-liKAUPo?t=327>
 
-**representation** _[[category#product]]_
+**representation** _[[category#product]] $P$_
 
 ```mermaid
 graph TD
@@ -192,7 +210,7 @@ graph TD
   P_ -- <span class=math>f_2 \circ m</span> --> B
 ```
 
-**representation** _[[category#coproduct]]_
+**representation** _[[category#coproduct]] $Q$_
 
 ```mermaid
 graph BT
