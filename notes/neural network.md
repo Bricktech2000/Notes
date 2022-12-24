@@ -22,7 +22,7 @@
 
 ## hello world
 
-the "hello world" of neural networks is recognizing hand-written digits. the MNIST database contains tens of thousands of labeled hand-written digit images, which can be used for training &mdash; <https://youtu.be/IHZwWFHWa-w>
+the "hello world" of neural networks is recognizing hand-written digits. the MNIST [[database]] contains tens of thousands of labeled hand-written digit images, which can be used for training &mdash; <https://youtu.be/IHZwWFHWa-w>
 
 ## differences with biology
 

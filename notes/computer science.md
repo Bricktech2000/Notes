@@ -20,6 +20,8 @@
 
 [[combinatory logic]]
 
+[[database]]
+
 **applications**
 
 [[optimization]]

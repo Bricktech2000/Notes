@@ -133,6 +133,8 @@ _what_ represents the item itself
 
 [[metric space]]
 
+[[journaling]]
+
 **finance**
 
 [[education]] system issues
@@ -196,6 +198,8 @@ _what_ represents the item itself
 **hack**
 
 **write**
+
+[[journaling]]
 
 **think**
 

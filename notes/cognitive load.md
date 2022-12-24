@@ -2,8 +2,6 @@
 
 _the amount of working memory resources used to process information_
 
-used for backlinks
-
 **see**
 
 [[habit]]
@@ -12,9 +10,10 @@ used for backlinks
 
 ## reducing cognitive load
 
-reducing [[cognitive load]] in everyday life is a great way to increase [[productivity]]. constantly having to think about everything you have to do is a waste of [[time]] and [[energy]]
+reducing [[cognitive load]] in everyday life is a great way to increase [[productivity]]. constantly having to think about everything you have to do is a waste of [[time]] and [[energy]] &mdash; me and <https://youtu.be/bP8wTapHsbc?t=52>
 
 > **examples** _methods to reduce cognitive load_
 >
 > - running your life on a calendar
-> - using a to-do list for everything
+> - using a to-do list for planning everything
+> - capturing ideas in a notebook as soon as they come to you

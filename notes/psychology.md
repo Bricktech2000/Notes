@@ -29,3 +29,5 @@
 [[cognitive bias]], [[material distortion]]
 
 [[mental illness]]
+
+[[luck]]

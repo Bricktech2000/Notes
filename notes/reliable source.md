@@ -47,4 +47,4 @@ the following is not a checklist, but rather a guide on what to consider
 _highly active topics in which a lot of research is being done in a small timeframe_
 
 - find information that has been published very recently because information gets outdated fast
-- check for biases, since hot topics can increase the chance of exaggerated claims
+- check for biases, since hot topics can increase the [[probability]] of exaggerated claims

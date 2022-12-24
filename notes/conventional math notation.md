@@ -31,3 +31,5 @@
 - laughable [[summation and product notation]]
 
 also see <https://whystartat.xyz/wiki/Main_Page> &mdash; Terramorpha
+
+[[conventional math notation]] is impressionistic &mdash; <https://youtu.be/HB5TrK7A4pI?t=1058>

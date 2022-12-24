@@ -26,7 +26,7 @@ estimates produced by probability sampling are more accurate than those produced
 
 ### Simple Random Sampling
 
-**definition** _simple random sampling_ is a method of [[sample#probability sampling]] in which each member of the [[population]] has an equal chance of being selected in the [[sample]] &mdash; Github Copilot
+**definition** _simple random sampling_ is a method of [[sample#probability sampling]] in which each member of the [[population]] has an equal [[probability]] of being selected in the [[sample]] &mdash; Github Copilot
 
 > **note** simple random sampling can be done with or without replacement (with or without the possibility of a member of the [[population]] being selected more than once)
 

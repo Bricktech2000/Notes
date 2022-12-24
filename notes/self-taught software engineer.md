@@ -23,9 +23,9 @@ online visibility is very important for [[self-taught software engineer]]s
 - [ ] containers (Docker, Kubernetes, etc.)
 - [ ] cloud computing (AWS, GCP, etc.)
 - [x] [[data structure]]s and [[algorithm]]s
-- [x] source control (Git, Github, etc.)
-- [ ] databases (MySQL, PostgreSQL, etc.)
-- [x] Linux (UNIX)
+- [x] [[version control]] (Git, Github, etc.)
+- [ ] [[database]]s (MySQL, PostgreSQL, etc.)
+- [x] [[linux]] (UNIX)
 
 ## portfolio
 
