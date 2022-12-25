@@ -131,11 +131,11 @@ $f\ x \vdash f\ y > D\ y$ and $f\ x \dashv f\ y > D\ y$
 
 ### First Derivative Test
 
-let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number of $f$. then, $f$ has a local [[function#extremum]] at $c$ if $\delta\ f\ c - \delta c$ changes sign at $c$.
+let $f$ be a [[function#continuous function]] near $x = c$ and $c$ be a critical number of $f$. then, $f$ has a local [[function#extremum]] at $c$ if $\delta\ f\ c - \delta c$ changes sign at $c$.
 
 ### Second Derivative Test
 
-let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number of $f$ where $\delta\ f\ c - \delta c = 0$. then, $f$ has
+let $f$ be a [[function#continuous function]] near $x = c$ and $c$ be a critical number of $f$ where $\delta\ f\ c - \delta c = 0$. then, $f$ has
 
 - a local maximum at $c$ if $\delta\ (\delta f\ x - \delta x) - \delta x \dashv 0$
 - a local minimum at $c$ if $\delta\ (\delta f\ x - \delta x) - \delta x \vdash 0$
@@ -146,7 +146,7 @@ let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number o
 
 **see** [[function#extremum]]
 
-**definition** An _inflection point_ [...] is a point on a smooth plane curve at which the curvature changes sign &mdash; Wikipedia
+**definition** An _inflection point_ [...] is a point on a smooth plane curve at which the [[function#curvature]] changes sign &mdash; Wikipedia
 
 **definition** a [[function]] $f$ has an _inflection point_ at $c$ if it is continuous at $c$ and its [[function#concavity]] changes sign at $c$
 
@@ -166,7 +166,7 @@ let $f$ be a continuous [[function]] near $x = c$ and $c$ be a critical number o
 
 ## [[intermediate value theorem]]
 
-## Continuity
+## Continuous Function
 
 **see** [[math notation]]
 
@@ -216,11 +216,15 @@ $F\ f\ x = x$
 
 the graphs of $(x, f\ x)$ and $(x, F\ x)$ are symmetric about the [[line]] $(x, x)$
 
-## linear approximations
+## Slope
 
-**aka** _linearization_
+**definition** $x \rightarrow \delta\ f\ x - \delta x$
 
 ### Tangent Line
+
+_used to represent [[function#slope]] at a point_
+
+a tangent [[line]] has the same [[function#slope]] as a given [[function]] at a point
 
 **definition**
 
@@ -232,7 +236,19 @@ $L\ x = f\ a : (x \cdot a \mid \delta\ f\ a - \delta a)$, where
 
 the tangent of a [[function]] $f$ approximates $f\ (x \cdots)$ near a point $x \cdots$
 
-the tangent of a [[function]] is used in [[newtons method]]
+[[function#tangent line]]s are used in [[newton's method]]
+
+## Curvature
+
+**definition** $x \rightarrow \delta\ (\delta f\ x - \delta x) - \delta x$
+
+### Osculating Circle
+
+_used to represent [[function#curvature]] at a point_
+
+&mdash; <https://youtu.be/jvPPXbo87ds?t=1847>
+
+an osculating [[circle]] has the same [[function#slope]] and the same [[function#curvature]] as a given [[function]] at a point
 
 ## Average
 

@@ -103,7 +103,7 @@ let:
 | $\bot$        | `F`   | [[boolean]] _false_                                          |                                             |
 | $\circ$       | `o`   | the identity over [[function]] [[composition]]               |                                             |
 | $\tau$        | `t`   | the ratio of the circumference of a [[circle]] to its radius | using $\pi$ is discouraged                  |
-| $e$           | `e`   | [[eulers constant]]                                          |                                             |
+| $e$           | `e`   | [[euler's constant]]                                          |                                             |
 | $\iota$       | `i`   | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]], using $i$ is discouraged |
 | $\Pi$         | `II`  | the [[pi function]]                                          | using $\operatorname{fact}$ is discouraged  |
 | $\#$          | `#`   | the number of "links" in a [[function]]                      | #todo define rigorously                     |

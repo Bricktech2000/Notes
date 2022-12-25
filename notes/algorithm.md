@@ -21,7 +21,7 @@ divide and conquer #todo
 
 **see**
 
-[[shors algorithm]]
+[[shor's algorithm]]
 
 [[row reduction]] through Gaussian Elimination
 
@@ -29,6 +29,8 @@ divide and conquer #todo
 
 [[breadth-first search]], [[depth-first search]], [[best-first search]]
 
-[[kruskals algorithm]]
+[[kruskal's algorithm]]
 
 [[monte carlo method]]
+
+[[bezier curve#decasteljau's algorithm]]

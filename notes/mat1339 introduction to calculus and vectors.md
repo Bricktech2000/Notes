@@ -18,10 +18,10 @@ even and odd [[function]]s
 
 **related**
 
-[[eulers constant]]
+[[euler's constant]]
 
 [[function#piecewise function]]s
 
 [[function#rational function]]s
 
-[[function#continuity]]
+[[function#continuous function]]

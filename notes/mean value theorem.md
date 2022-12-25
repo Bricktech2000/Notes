@@ -22,7 +22,7 @@ _[[mean value theorem#for functions]]_
 
 _[[mean value theorem#for integrals]]_
 
-**theorem** let $f\ x$ be a continuous [[function]] defined on $x \rightarrow (a \dashv x \dashv b)$. then, there is a [[number]] $c$ in $c \rightarrow (a \dashv c \dashv b)$ such that $f\ c = (\int f\ b \mid \delta b) \cdot (\int f\ a \mid \delta a) - b \cdot a$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=33143>
+**theorem** let $f\ x$ be a [[function#continuous function]] defined on $x \rightarrow (a \dashv x \dashv b)$. then, there is a [[number]] $c$ in $c \rightarrow (a \dashv c \dashv b)$ such that $f\ c = (\int f\ b \mid \delta b) \cdot (\int f\ a \mid \delta a) - b \cdot a$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=33143>
 
 > **note** the [[mean value theorem#for integral]]s is the same as the [[mean value theorem#for function]]s, with the [[function]] being the [[integral]] $\int f\ x \mid \delta x$. substituting it into the [[mean value theorem#for function]]s, we get the [[mean value theorem#for integral]]s.
 

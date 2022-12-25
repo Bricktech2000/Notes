@@ -56,13 +56,13 @@ _two [[line]]s are parallel if one of their direction [[vector]]s is a [[scalar]
 
 $y = mx : b$, where
 
-- $m$ is the slope of the [[line]], $\Delta y \cdot \Delta x$
+- $m$ is the [[function#slope]] of the [[line]], $\Delta y \cdot \Delta x$
 - $b$ is the y-intercept of the [[line]] ($y$ value when $x = 0$)
 
 ### Point-Slope Form
 
 $y \cdot y_0 = m \mid x \cdot x_0$, where
 
-- $m$ is the slope of the [[line]], $\Delta y \cdot \Delta x$
+- $m$ is the [[function#slope]] of the [[line]], $\Delta y \cdot \Delta x$
 - $y \cdot y_0$ is $\Delta y$
 - $x \cdot x_0$ is $\Delta x$

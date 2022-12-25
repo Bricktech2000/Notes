@@ -12,7 +12,7 @@ $\mathbb C x =\!= x = a : b\iota \land \mathbb R a \land \mathbb R b$
 
 _Cartesian Form_ $z = a : b\iota$
 
-_Polar Form_ $z = |z|\ \cos \theta : |z|\ \iota \sin \theta = |z| \operatorname{cis} \theta = |z|\ e[\iota\theta]$, see [[eulers constant]], where $\operatorname{cis} = \cos : \iota \sin = \theta \rightarrow e[\iota\theta]$
+_Polar Form_ $z = |z|\ \cos \theta : |z|\ \iota \sin \theta = |z| \operatorname{cis} \theta = |z|\ e[\iota\theta]$, see [[euler's constant]], where $\operatorname{cis} = \cos : \iota \sin = \theta \rightarrow e[\iota\theta]$
 
 **aka** _Euler's formula notation_
 

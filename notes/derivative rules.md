@@ -58,9 +58,7 @@ $\delta\ \lceil |x| \rceil - \delta x = -x$
 
 $\delta\ (\lceil |x| \rceil : c\ x) - \delta x = -x$ and therefore
 
-$\int -x \mid \delta x = \lceil |x| \rceil : c\ x$, where
-
-- $c\ x = \braket{c_0, c_1}\ (x \dashv 0)$
+$\int -x \mid \delta x = \lceil |x| \rceil : c\ x$ where $c\ x = \braket{c_0, c_1}\ (x \dashv 0)$
 
 > **proof** &mdash; <https://youtu.be/u4kex7hDC2o>
 

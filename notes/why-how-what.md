@@ -101,7 +101,7 @@ _what_ represents the item itself
 
 [[carbon language talk]]
 
-[[goodharts law]]
+[[goodhart's law]]
 
 **learn**
 
@@ -111,13 +111,13 @@ _what_ represents the item itself
 
 [[english bad habits]]
 
-[[surface-volume disambiguation]]
+[[boundary-interior disambiguation]]
 
 [[zero-knowledge proof]]
 
 [[refactoring to immutability]]
 
-[[shors algorithm]]
+[[shor's algorithm]]
 
 [[verifiable random function]]
 
@@ -293,7 +293,7 @@ _what_ represents the item itself
 
 [[recipes]]
 
-[[goodharts law]]
+[[goodhart's law]]
 
 **social**
 
@@ -307,13 +307,13 @@ _what_ represents the item itself
 
 [[sleep]], [[insomnia]]
 
-[[surface-volume disambiguation]]
+[[boundary-interior disambiguation]]
 
 [[zero-knowledge proof]]
 
 [[refactoring to immutability]]
 
-[[shors algorithm]]
+[[shor's algorithm]]
 
 [[social media]]
 

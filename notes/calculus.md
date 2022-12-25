@@ -8,7 +8,7 @@
 
 [[mean value theorem]], [[intermediate value theorem]]
 
-[[newtons method]]
+[[newton's method]]
 
 [[limit]], [[derivative]], [[antiderivative]], [[integral]]
 

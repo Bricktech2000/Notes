@@ -39,7 +39,7 @@ The publishing workflow for my conceptual notes requires [Obsidian Export](https
 Once installed, run the following commands:
 
 ```bash
-rm mkdocs/*.md; rm mkdocs/*.png; rm mkdocs/*.jpg
+rm mkdocs/*.md; rm mkdocs/*.png; rm mkdocs/*.jpg; rm mkdocs/*.gif
 obsidian-export notes mkdocs && mkdocs build
 python3 -m http.server --directory site
 ```

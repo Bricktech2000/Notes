@@ -61,7 +61,7 @@ as the elements of this particular [[union find]] are [[natural]]s, this [[map]]
 
 **applications**
 
-[[kruskals algorithm]]
+[[kruskal's algorithm]]
 
 ## Path Compression
 

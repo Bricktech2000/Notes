@@ -35,6 +35,6 @@ _reciprocality with [[exponent]]ials_ $b[\lceil x \rceil b] = x$
 
 ## common bases
 
-**definition** $\lceil b \rceil e$ is the _natural log_ of $b$, see [[eulers constant]]
+**definition** $\lceil b \rceil e$ is the _natural log_ of $b$, see [[euler's constant]]
 
 **definition** $\lceil b \rceil 10$ is the _common log_ of $b$, see [[decimal]]

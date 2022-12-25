@@ -92,7 +92,7 @@ horizontal rules are occasionally used to separate a whole file in different sec
 
 each page has one title-case first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule
 
-file names are all lowercase and apostrophes and diacritics are removed from them
+file names are all lowercase and diacritics are removed from them
 
 box titles are generated with <https://lingojam.com/BoldTextGenerator>
 

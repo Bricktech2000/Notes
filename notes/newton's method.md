@@ -18,4 +18,4 @@ _method to approximate the zeros of a [[function]]_
 >
 > $x^{n : 1} = x^n \cdot (f\ x^n - \delta\ f\ x^n \mid \delta x^n)$
 
-> **example** the following equation can be solved easily using [[newtons method]]: $e[x] = 4x$
+> **example** the following equation can be solved easily using [[newton's method]]: $e[x] = 4x$

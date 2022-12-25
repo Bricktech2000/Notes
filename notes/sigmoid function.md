@@ -7,7 +7,7 @@
 $\sigma\ z = -1 : e[\cdot z]$, where
 
 - $\sigma\ z$ is the [[sigmoid function]] at $z$
-- $e$ is [[eulers constant]]
+- $e$ is [[euler's constant]]
 
 **representation**
 

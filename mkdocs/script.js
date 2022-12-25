@@ -24,6 +24,7 @@ document$.subscribe(() => {
       .replace(/\\&lt;/g, '&lt;')
       .replace(/\\_/g, '_')
       .replace(/!/g, '\\!')
+      // .replace(/,/g, '\\,')
       .replace(/\\\\/g, '\\');
   });
   const code = document.querySelectorAll('code');

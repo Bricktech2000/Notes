@@ -34,7 +34,7 @@ $\lfloor f\ x \rfloor n\ \ \vdots\ \ x \rightarrow a = \lfloor f\ x\ \ \vdots\ \
 
 ## composition rule
 
-$f\ g\ x\ \ \vdots\ \ x \rightarrow a = f\ (g\ x\ \ \vdots\ \ x \rightarrow a)$ if $f$ is a continuous [[function]] at $a$
+$f\ g\ x\ \ \vdots\ \ x \rightarrow a = f\ (g\ x\ \ \vdots\ \ x \rightarrow a)$ if $f$ is a [[function#continuous function]] at $a$
 
 ## infinity rules
 

@@ -1,6 +1,6 @@
 # Pi Function
 
-**see** [[math notation]], [[integral]], [[eulers constant]]
+**see** [[math notation]], [[integral]], [[euler's constant]]
 
 **notation** $\Pi\ z$
 

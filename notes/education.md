@@ -23,4 +23,4 @@ a lot of degrees nowadays don't seem like they're worth the [[time]] and [[money
 
 [[education]]al institutions focus on the average student, and not on the top students, see [[intelligence]]. this is a problem because top students are likely the ones who will make the largest contributions to society
 
-both [[education]]al institutions and their students focus on grades, and not necessarily on learning. this is a problem because of [[goodharts law]]
+both [[education]]al institutions and their students focus on grades, and not necessarily on learning. this is a problem because of [[goodhart's law]]

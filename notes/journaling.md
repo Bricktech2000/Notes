@@ -9,9 +9,9 @@ _turning your own mind into a personal therapist_
 _to prevent writer's block_
 
 - how can I make someone else happy right now?
-- what's something I'm grateful for?
-- what's something I could see differently?
-- what's a mistake I made today?
+- what's an aspect of my life am I grateful for?
+- what's something I could see in a different light?
+- what's a mistake I made and and what can I learn from it?
 - how am I feeling right now, and why?
 
 ## &mdash;

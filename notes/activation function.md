@@ -55,4 +55,4 @@ _for getting probabilities out_
 $\sigma^i\ z = e[z^i]\ - \,: e[z]$, where
 
 - $\sigma^i\ z$ is the softmax [[activation function]] of $z$ at $z^i$
-- $e$ is [[eulers constant]]
+- $e$ is [[euler's constant]]

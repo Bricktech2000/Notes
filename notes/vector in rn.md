@@ -48,7 +48,7 @@ $|V| = 1$, where
 
 **definition**
 
-$V - |V| = (\cos \theta, \sin \theta)$, where
+$V - |V| =\!= (\circ - ||)\ V =\!= (\cos \theta, \sin \theta)$, where
 
 - $V$ is the vector to find the direction of
 - $\theta$ is the angle of the vector
