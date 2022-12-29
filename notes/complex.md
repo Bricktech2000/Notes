@@ -12,7 +12,7 @@ $\mathbb C x =\!= x = a : b\iota \land \mathbb R a \land \mathbb R b$
 
 _Cartesian Form_ $z = a : b\iota$
 
-_Polar Form_ $z = |z|\ \cos \theta : |z|\ \iota \sin \theta = |z| \operatorname{cis} \theta = |z|\ e[\iota\theta]$, see [[euler's constant]], where $\operatorname{cis} = \cos : \iota \sin = \theta \rightarrow e[\iota\theta]$
+_Polar Form_ $z = |z|\ \cos \arg z : |z|\ \iota \sin \arg z = |z| \operatorname{cis} \arg z = |z|\ e[\iota\arg z]$, where $\operatorname{cis} = \cos : \iota \sin = \theta \rightarrow [\iota\theta]$
 
 **aka** _Euler's formula notation_
 
@@ -34,7 +34,7 @@ _multiplication_
 
 in cartesian form, $a : b\iota \mid c : d\iota = ac : ad\iota : b\iota c : bd\iota 2 = (ac \cdot bd) : (ad : bc)\iota$
 
-in polar form, $z \mid w = |z|\ e[\iota\theta] \mid |w|\ e[\iota\phi] = |zw|\ e[\iota \mid \theta : \phi]$
+in polar form, $z \mid w = |z|\ e[\iota\arg z] \mid |w|\ e[\iota\arg w] = |zw|\ e[\iota \mid \arg z : \arg w]$
 
 _square root of $\iota$_ $\lfloor \iota \rfloor =\ \because\ \mid 1 : \iota - \lfloor 2 \rfloor$ &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
 
@@ -42,7 +42,7 @@ _product of two [[complex#conjugate]]s are product of [[complex#modulus]]es_ $a 
 
 **theorem** _De Moivre's Theorem_ $[\operatorname{cis} \theta]n = \operatorname{cis} n\theta \dashv \mathbb Z n \dashv \mathbb R \theta$ &mdash; <https://en.wikipedia.org/wiki/De_Moivre%27s_formula>
 
-> **proof** $\operatorname{cis} \theta = e[\iota\theta]$. since $[e[\iota\theta]]n = e[n\iota\theta]$, it must be that $[\operatorname{cis} \theta]n = \operatorname{cis} n\theta$ &mdash; me
+> **proof** $\operatorname{cis} \theta = [\iota\theta]$. since $[[\iota\theta]]n = [n\iota\theta]$, it must be that $[\operatorname{cis} \theta]n = \operatorname{cis} n\theta$ &mdash; me
 
 ## Real Part
 

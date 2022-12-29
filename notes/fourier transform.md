@@ -8,7 +8,7 @@ convolution theorem #todo learn &mdash; <https://youtu.be/851U557j6HE?t=974>
 
 **definition**
 
-$\mathcal F\ g\ f = \int\ g\ t \mid e[\cdot\iota\tau ft] \mid dt\ \ \vdots\ \ \infty \cdot \cdot \infty$, where
+$\mathcal F\ g\ f = \int\ g\ t \mid [\cdot\iota\tau ft] \mid dt\ \ \vdots\ \ \infty \cdot \cdot \infty$, where
 
 - $g\ t$ is the amplitude of a wave $g$ at time $t$
 - $\mathcal F\ g$ represents the [[frequency]] components of the wave, where

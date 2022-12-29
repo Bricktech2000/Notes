@@ -39,3 +39,5 @@
 below, I stumbled upon video 6. kept watching until half way through video 10, at which point the prof had changed and course had turned into mindless rambling
 
 [![](https://img.youtube.com/vi/OgO1gpXSUzU/0.jpg)](https://www.youtube.com/watch?v=OgO1gpXSUzU&list=PLUl4u3cNGP619EG1wp0kT-7rDE_Az5TNd&index=6)
+
+[![](https://img.youtube.com/vi/jvPPXbo87ds/0.jpg)](https://www.youtube.com/watch?v=jvPPXbo87ds)

@@ -33,7 +33,7 @@ _[[habit#formation]]_
 > - group influence &mdash; surrounding yourself with people who have the same [[habit]]s as you to reinforce them
 > - decreasing friction &mdash; removing [[psychology]]cal barriers to a [[habit]] so it becomes easier to perform
 > - brain reprogramming &mdash; reinforcing a [[habit]] by constantly repeating to yourself its pros xor cons
-> - the two-minute rule &mdash; anchoring the routine before ramping up the [[difficult]]y to make it stick
+> - two-minute rule &mdash; anchoring the routine before ramping up the [[difficult]]y to make it stick
 > - habit tracking &mdash; tracking a [[habit]] to make it more visible and to keep you accountable and [[intention]]al
 > - accountability &mdash; having someone to report to about your [[habit]]s to keep you accountable
 >

@@ -130,9 +130,9 @@ useful for computing the [[derivative]] of an [[exponent]]ial [[function]]
 >
 > $\delta\ \lceil y \rceil - \delta x = \delta\ \lceil x \rceil e[x] - \delta x$
 >
-> $-y \mid \delta\ y - \delta x = e[x] \text- x : \lceil x \rceil e[x]$
+> $-y \mid \delta\ y - \delta x = \text-xe[x] : \lceil x \rceil e[x]$
 >
-> $\delta\ y - \delta x = x[e[x]] \mid e[x] \text- x : \lceil x \rceil e[x]$
+> $\delta\ y - \delta x = x[e[x]] \mid \text-x e[x] : \lceil x \rceil e[x]$
 >
 > the alternative would be the following, by transforming and using the chain [[derivative rules]]:
 >
@@ -144,7 +144,7 @@ useful for computing the [[derivative]] of an [[exponent]]ial [[function]]
 >
 > $\delta\ y - \delta x = e[\lceil x \rceil e[x]] \mid \delta\ \lceil x \rceil e[x] - \delta x$
 >
-> $\delta\ y - \delta x = x[e[x]] \mid e[x] \text- x : \lceil x \rceil e[x]$
+> $\delta\ y - \delta x = x[e[x]] \mid \text-x e[x] : \lceil x \rceil e[x]$
 
 > **example** _logarithmic differentiation of $[x]x$_
 >

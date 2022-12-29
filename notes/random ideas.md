@@ -40,3 +40,11 @@ use GPT-3 on a list of true statements to get it to complete new statements in a
 ## UTF-256
 
 a service that assigns a UTF-256 codepoint to any image uploaded to it &mdash; idea stolen from PIKE MATCHBOX talk if I remember correctly
+
+## Reaction YouTube Channel
+
+a reaction channel with higher production value than reaction channels. playing part of a video, pausing, talking about it, then **cutting** to the next noteworthy part of the video and repeating. this would make it very easy to produce large amounts of content without needing much preparation, all the while only stealing noteworthy parts of other videos
+
+> **example** _a video of the style mentioned above_ <https://youtu.be/VfNdps0daF8>
+
+## [[personal finance tracker]]

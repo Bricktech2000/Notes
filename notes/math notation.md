@@ -54,14 +54,14 @@ let:
 
 ### operator descriptions
 
-| $\LaTeX$                             | ASCII                            | description                                       | notes                                               |
+| $\LaTeX$                             | `ASCII`                          | description                                       | notes                                               |
 | ------------------------------------ | -------------------------------- | ------------------------------------------------- | --------------------------------------------------- |
 | $a : b$                              | `a : b`                          | $b$ added to $a$                                  |                                                     |
 | $a \cdot b$                          | `a . b`                          | $b$ subtracted from $a$                           |                                                     |
 | $\because$ and $\therefore$          |                                  | $\pm$ and $\mp$                                   |                                                     |
 | $a \smash\shortmid b$ and $a \mid b$ | `a'b` and <code>a \| b</code>    | $a$ multiplied by $b$                             |                                                     |
 | $a \text- b$ and $a - b$             | `a-b` and `a -- b`               | $a$ divided by $b$                                |                                                     |
-| $[a]b$ and $a[b]$                    | `[a]b` and `a[b]`                | $a$ to the power of $b$                           | represents a power by convention                    |
+| $[a]b$ and $a[b]$                    | `[a]b` and `a[b]`                | $a$ to the power of $b$                           | $a = e$ if $a$ is omitted                           |
 | $\lfloor a \rfloor b$                | `\a/b`                           | the $b$th root of $a$                             | $b = 2$ if $b$ is omitted                           |
 | $\lceil a \rceil b$                  | `/a\b`                           | the base-$b$ [[logarithm]] of $a$                 | $b = e$ if $b$ is omitted                           |
 | $x \rightarrow E$                    | `x -> E`                         | [[function]] literal                              | $f = x \rightarrow E =\!= f \leftarrow x = E$       |
@@ -96,18 +96,18 @@ let:
 
 ### constants
 
-| $\LaTeX$      | ASCII | definition                                                   | notes                                       |
-| ------------- | ----- | ------------------------------------------------------------ | ------------------------------------------- |
-| $\varnothing$ |       | _undefined_                                                  | see [[improved expression evaluation]]      |
-| $\top$        | `T`   | [[boolean]] _true_                                           |                                             |
-| $\bot$        | `F`   | [[boolean]] _false_                                          |                                             |
-| $\circ$       | `o`   | the identity over [[function]] [[composition]]               |                                             |
-| $\tau$        | `t`   | the ratio of the circumference of a [[circle]] to its radius | using $\pi$ is discouraged                  |
-| $e$           | `e`   | [[euler's constant]]                                          |                                             |
-| $\iota$       | `i`   | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]], using $i$ is discouraged |
-| $\Pi$         | `II`  | the [[pi function]]                                          | using $\operatorname{fact}$ is discouraged  |
-| $\#$          | `#`   | the number of "links" in a [[function]]                      | #todo define rigorously                     |
-| $\psi$        |       | the [[multiset]] of prime factors of a [[natural]]           | see [[psi function in mat2348]]             |
+| $\LaTeX$      | `ASCII` | definition                                                   | notes                                       |
+| ------------- | ------- | ------------------------------------------------------------ | ------------------------------------------- |
+| $\varnothing$ |         | _undefined_                                                  | see [[improved expression evaluation]]      |
+| $\top$        | `T`     | [[boolean]] _true_                                           |                                             |
+| $\bot$        | `F`     | [[boolean]] _false_                                          |                                             |
+| $\circ$       | `o`     | the identity over [[function]] [[composition]]               |                                             |
+| $\tau$        | `t`     | the ratio of the circumference of a [[circle]] to its radius | using $\pi$ is discouraged                  |
+| $e$           | `e`     | [[euler's constant]]                                         |                                             |
+| $\iota$       | `i`     | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]], using $i$ is discouraged |
+| $\Pi$         | `II`    | the [[pi function]]                                          | using $\operatorname{fact}$ is discouraged  |
+| $\#$          | `#`     | the number of "links" in a [[function]]                      | #todo define rigorously                     |
+| $\psi$        |         | the [[multiset]] of prime factors of a [[natural]]           | see [[psi function in mat2348]]             |
 
 ### operator properties
 
@@ -170,7 +170,7 @@ _in order of high to low precedence_
 | ------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | the [[quadratic formula]]                   | $x = \cdot b : \lfloor b2 \cdot 4ac \rfloor - 2a$                     | $\displaystyle x_{1, 2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$                                            |
 | definition of [[complex]] numbers           | $\mathbb C x =\!= x = a : b\iota \land \mathbb R a \land \mathbb R b$ | $\displaystyle \mathbb C = \{a + bi : a, b \in \mathbb R\}$                                              |
-| the [[gaussian function]]                   | $G^\sigma\ p = -\lfloor \tau \sigma2 \rfloor - e[\,: p2 - 2\sigma2]$  | $\displaystyle G(x, y, \dots) = \frac{1}{\sqrt{2 \pi\sigma^2}} e^{-\frac{x^2 + y^2 + \dots}{2\sigma^2}}$ |
+| the [[gaussian function]]                   | $G^\sigma\ p = -\lfloor \tau \sigma2 \rfloor - [\,: p2 - 2\sigma2]$   | $\displaystyle G(x, y, \dots) = \frac{1}{\sqrt{2 \pi\sigma^2}} e^{-\frac{x^2 + y^2 + \dots}{2\sigma^2}}$ |
 | [[limit]] form of a [[derivative]]          | $f\ x \cdot f\ a - x \cdot a\ \ \vdots\ \ x \rightarrow a$            | $\displaystyle \lim_{h \rightarrow 0} \frac{f(x + h) - f(x)}{h}$                                         |
 | definition of factorials                    | $\operatorname{fact} n = 1 \mid \cdots n$                             | $\displaystyle n! = \prod_{i = 1}^n i$                                                                   |
 | the resonant [[frequency]] of an LC circuit | $f = -\tau \lfloor LC \rfloor$                                        | $\displaystyle f = \frac{1}{2 \pi \sqrt{LC}}$                                                            |
@@ -191,10 +191,10 @@ in [[conventional math notation]]: $\lnot (B \to C) = B \land \lnot C$ or $(a \i
 
 ### comparison between LaTeX and ASCII
 
-| $\LaTeX$                                                              | ASCII                           |
+| $\LaTeX$                                                              | `ASCII`                         |
 | --------------------------------------------------------------------- | ------------------------------- |
 | $x = \cdot b : \lfloor b2 \cdot 4ac \rfloor - 2a$                     | `x = .b : \b2.4ac/ -- 2a`       |
-| $e[\iota\tau] = 1$                                                    | `e[it] = 1`                     |
+| $[\iota\tau] = 1$                                                     | `[it] = 1`                      |
 | $\lceil e \rceil = 1$                                                 | `/e\ = 1`                       |
 | $\iota = \lfloor \cdot 1 \rfloor$                                     | `i = \.1/`                      |
 | $\int f\ x \mid \delta x$                                             | <code>S f x \| dx</code>        |

@@ -52,7 +52,7 @@ _for getting probabilities out_
 
 **definition**
 
-$\sigma^i\ z = e[z^i]\ - \,: e[z]$, where
+$\sigma^i\ z = [z^i]\ - \,: [z]$, where
 
 - $\sigma^i\ z$ is the softmax [[activation function]] of $z$ at $z^i$
 - $e$ is [[euler's constant]]

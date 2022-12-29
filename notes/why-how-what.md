@@ -63,8 +63,6 @@ _what_ represents the item itself
 
 [[improved expression evaluation]]
 
-[[tiktok account]]
-
 [[improvability theory]]
 
 [[control over convenience]]
@@ -210,8 +208,6 @@ _what_ represents the item itself
 [[people are shaped by their surroundings]]
 
 [[improved expression evaluation]]
-
-[[tiktok account]]
 
 [[improvability theory]]
 

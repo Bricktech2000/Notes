@@ -4,10 +4,9 @@
 
 **definition**
 
-$\sigma\ z = -1 : e[\cdot z]$, where
+$\sigma\ z = -1 : [\cdot z]$, where
 
 - $\sigma\ z$ is the [[sigmoid function]] at $z$
-- $e$ is [[euler's constant]]
 
 **representation**
 
@@ -17,6 +16,6 @@ $\sigma\ z = -1 : e[\cdot z]$, where
 
 **see** [[derivative]]
 
-$\delta\ \sigma\ z - \delta z = -[1 : e[\cdot z]]2 \mid e[\cdot z] = (1 - 1 : e[\cdot z]) \mid (e[\cdot z] - 1 : e[\cdot z]) = \sigma\ z \mid 1 \cdot \sigma\ z$
+$\delta\ \sigma\ z - \delta z = -[1 : [\cdot z]]2 \mid [\cdot z] = (1 - 1 : [\cdot z]) \mid ([\cdot z] - 1 : [\cdot z]) = \sigma\ z \mid 1 \cdot \sigma\ z$
 
 &mdash; <https://youtu.be/kbGu60QBx2o>

@@ -18,17 +18,17 @@ $\delta\ a[x] - \delta x = a[x] \mid \lceil a \rceil$
 
 > **proof**
 >
-> $a[x] = e[\lceil a[x] \rceil] = e[x\lceil a \rceil]$
+> $a[x] = [\lceil a[x] \rceil] = [x\lceil a \rceil]$
 >
-> $\delta\ a[x] - \delta x = e[x\lceil a \rceil] \mid \delta\ x\lceil a \rceil - \delta x = [a]x \mid \lceil a \rceil$
+> $\delta\ a[x] - \delta x = [x\lceil a \rceil] \mid \delta\ x\lceil a \rceil - \delta x = [a]x \mid \lceil a \rceil$
 >
 > &mdash; me
 
 ### derived shortcuts
 
-$\delta\ e[x] - \delta x = e[x]$
+$\delta\ [x] - \delta x = [x]$
 
-$\delta\ f\ x - \delta x = m f\ x =\!= f\ x = e[mx]$
+$\delta\ f\ x - \delta x = m f\ x =\!= f\ x = [mx]$
 
 > **example** let $g\ x = ex2 : 2e[x] : xe2 : x[e2]$. then, $\delta\ g\ x - \delta x = 2ex : 2e[x] : e2 : e2 x[e2 \cdot 1]$
 
@@ -42,11 +42,11 @@ $\delta\ \lceil x \rceil - \delta x = -x$
 
 > **proof** let $y = \lceil x \rceil$. then,
 >
-> $x = e[y]$
+> $x = [y]$
 >
-> $\delta x = e[y] \mid \delta y$
+> $\delta x = [y] \mid \delta y$
 >
-> $\delta y - \delta x = -e[y]$
+> $\delta y - \delta x = -[y]$
 >
 > $\delta\ \lceil x \rceil - \delta x = -x$
 >

@@ -10,8 +10,8 @@ $x = \cosh \theta \land y = \sinh \theta$, and $\tanh \theta = \sinh \theta - \c
 
 **examples**
 
-> **example** $\cosh x =\!= e[x] : e[\cdot x] - 2$, which forms a [[catenary]] curve &mdash; <https://youtu.be/xGxSTzaID3k?t=1316>
+> **example** $\cosh x =\!= [x] : [\cdot x] - 2$, which forms a [[catenary]] curve &mdash; <https://youtu.be/xGxSTzaID3k?t=1316>
 
 ## identities
 
-$\cosh x : \sinh x = [e]x$ &mdash; <https://en.wikipedia.org/wiki/De_Moivre%27s_formula#Hyperbolic_trigonometry>
+$\cosh x : \sinh x = [x]$ &mdash; <https://en.wikipedia.org/wiki/De_Moivre%27s_formula#Hyperbolic_trigonometry>

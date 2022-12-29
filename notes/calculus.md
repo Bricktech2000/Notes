@@ -10,6 +10,6 @@
 
 [[newton's method]]
 
-[[limit]], [[derivative]], [[antiderivative]], [[integral]]
+[[limit]], [[derivative]], [[antiderivative]], [[exponential derivative]], [[integral]]
 
 [[sequence]], [[series]]

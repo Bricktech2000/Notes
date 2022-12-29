@@ -30,6 +30,8 @@ used for backlinks
 
 <https://youtu.be/sQC0jfH_rrM?t=34> (using "we")
 
+<https://youtu.be/Gs790JOeN3Y?t=605> ([[intelligence]] being part of one's identity)
+
 ## stuff I don't relate to
 
 **aka** _[[difficult]], [[overwhelm]]ing, "boring', complicated_

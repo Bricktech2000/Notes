@@ -14,14 +14,16 @@ $[1 : -n]n\ \ \vdots\ \ n \rightarrow \infty = e$
 >
 > the definition above can be thought of intuitively as:
 >
-> ![](20221017182600.png) &mdash; <https://betterexplained.com/articles/definitions-of-e-colorized/>
+> ![](20221017182600.png)
+>
+> &mdash; <https://betterexplained.com/articles/definitions-of-e-colorized/>
 
 **properties**
 
-$\delta\ e[x] - \delta x = e[x]$, see [[derivative]]
+$\delta\ [x] - \delta x = [x]$, see [[derivative]]
 
-from the [[limit]] definition, we then derive
+$[h] \cdot 1 - h = 1\ \ \vdots\ \ h \rightarrow 0$ &mdash; derived from the [[limit]] definition
 
-$e[h] \cdot 1 - h = 1\ \ \vdots\ \ h \rightarrow 0$
+_Euler's identity_ $[\iota\tau] = 1$, see [[complex]]
 
-$e[\iota\tau] = 1$, see [[complex]]
+_IEEEuler's identity_ $[\iota\tau] = 1[\infty \text{NaN}]$ &mdash; <http://tom7.org/nand/nand.pdf>

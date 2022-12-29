@@ -28,6 +28,22 @@ $C^n < C^{n \cdot 1}$ and $G^n < G^{n \cdot 1}$
 
 $C^n < G^n$, **generally** &mdash; <https://youtu.be/jvPPXbo87ds?t=2265>
 
+**representation** _[[spline#continuity]] [[boolean algebra#implication]]s_
+
+```mermaid
+graph BT;
+  0(<span class=math>C^0 =\!= G^1</span><br>Position)
+  C1(<span class=math>C^1</span><br>Velocity)
+  G1(<span class=math>G^1</span><br>Tangent)
+  C2(<span class=math>C^2</span><br>Acceleration)
+  G2(<span class=math>G^2</span><br>Curvature)
+  C3(<span class=math>C^3</span><br>Jerk)
+  G3(<span class=math>G^3</span><br>Torsion)
+
+  C3 --> C2 --> C1 --> 0
+  G3 --> G2 --> G1 --> 0
+```
+
 ### Parametric Continuity
 
 let a [[spline]] $S$
@@ -78,7 +94,7 @@ $G^2$ continuity is crucial in industrial design because of the smooth-looking r
 
 ## Linear Spline
 
-**definition** a _linear spline_ is a [[spline]] built from a series of [[lines]] that interpolate the control points
+**definition** a _linear spline_ is a [[spline]] built from a series of [[line]]s that interpolate the control points
 
 **properties**
 
