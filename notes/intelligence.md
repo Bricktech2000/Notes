@@ -32,6 +32,8 @@ used for backlinks
 
 <https://youtu.be/Gs790JOeN3Y?t=605> ([[intelligence]] being part of one's identity)
 
+<https://youtu.be/-Fhf5dX1efo?t=562> (mixing up intelligence and knowledge)
+
 ## stuff I don't relate to
 
 **aka** _[[difficult]], [[overwhelm]]ing, "boring', complicated_

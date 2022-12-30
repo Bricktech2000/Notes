@@ -5,7 +5,7 @@ import re
 joined = ''
 
 for root, dirs, files in os.walk('./notes'):
-  for file in files:
+  for file in sorted(files):
     if file.endswith('.md'):
       with open(os.path.join(root, file), 'r') as f:
         content = f.read()

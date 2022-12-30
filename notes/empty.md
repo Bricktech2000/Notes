@@ -1,4 +1,4 @@
-## Empty
+# Empty
 
 _the [[set]] containing no elements_
 

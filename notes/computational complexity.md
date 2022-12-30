@@ -22,4 +22,4 @@ $O\ 1\ <\ O\ \lceil \lceil n \rceil \rceil\ <\ O\ \lceil n \rceil\ <\ O\ [\lceil
 
 $O\ (c : f\ n) = O\ f\ n$ for all $c$
 
-$O\ (cf\ n) = O\ f\ n$ for all $c > 0$
+$O\ (c \mid f\ n) = O\ f\ n$ for all $c\ (\vdash \land +)\ 0$

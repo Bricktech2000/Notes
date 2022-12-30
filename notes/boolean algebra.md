@@ -1,4 +1,4 @@
-## Boolean Algebra
+# Boolean Algebra
 
 **see** [[boolean]]
 
