@@ -4,12 +4,12 @@
 
 **definition**
 
-$\sigma2 = \,: I[\bar X \cdot \mu]2\ - \,: X$, where
+$\sigma2 = \,: \circ \shortmid [\bar X \cdot \mu]2\ - \,: X$, where
 
 - $X$ is a [[sample]] (or a [[population]])
 - $\,: X$ is the [[sample]] size of $X$
 - $\mu$ is the [[sample]] [[mean]] of $X$
-- $I$ is the #todo identity function
+- $\circ$ is the [[function]] [[composition#identity]]
 - $\sigma$ is the _standard deviation_ of $X$
 - $\sigma2$ is the _variance_ of $X$
 

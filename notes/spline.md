@@ -2,17 +2,19 @@
 
 &mdash; <https://youtu.be/jvPPXbo87ds?t=461>
 
-**definition** a _spline_ is a [[function]] that transforms a [[list]] of control points into a curve with a set of properties &mdash; <https://youtu.be/jvPPXbo87ds?t=654>
+**see** [[math notation]], [[curve]]
+
+**definition** a _spline_ is a [[function]] that transforms a [[list]] of control points into a [[function#piecewise function]] [[polynomial]] [[curve]] with a set of promises about continuity &mdash; <https://youtu.be/jvPPXbo87ds?t=654>
 
 **definition** _control points_ are the [[vector in rn]]s that define the shape of a [[spline]]
 
 **definition** a [[spline]] is said to _interpolate_ a control point if it passes through it
 
-**definition** a _joint_ or _knot_ is a point where two curves meet within a [[spline]]
+**definition** a _joint_ or _knot_ is a point where two [[curve]]s meet within a [[spline]]
 
 ## Continuity
 
-_a measure of how "connected" the curves of a [[spline]] are_
+_a measure of how "connected" the [[curve]]s of a [[spline]] are_
 
 computing [[spline#parametric continuity]] requires the mathematical definition of a [[spline]] whereas [[spline#geometric continuity]] can be computed through the way the [[spline]] looks geometrically
 
@@ -76,7 +78,7 @@ let a [[spline]] $S$
 
 **applications**
 
-$G^1$ continuity is useful in vector graphics because it ensures the [[spline]] curves "go in the same direction" at each joint
+$G^1$ continuity is useful in vector graphics because it ensures the [[spline]] [[curve]]s "go in the same direction" at each joint
 
 $G^2$ continuity is crucial in industrial design because of the smooth-looking reflections it creates on reflective surfaces. surfaces with $G^2$ continuity or higher are often called _class A surfaces_
 
@@ -99,9 +101,10 @@ $G^2$ continuity is crucial in industrial design because of the smooth-looking r
 **properties**
 
 - offer local control
+- interpolate every control point
 - very fast to compute
 
-[[spline#linear spline]]s are only $C^0$ and therefore $G^0$ continuous
+[[spline#linear spline]]s are only $C^0$ and therefore only $G^0$ continuous
 
 **representation**
 
@@ -174,3 +177,122 @@ the _tangent points_ of a [[spline#cubic bezier spline]] are the pairs of contro
 [[spline#cubic bezier spline]] can be made $C^2$ continuous, but doing so results in loss of local control and of many degrees of freedom
 
 [[spline#cubic bezier spline]]s can be made $C^3$ continuous, but doing so results in a "[[spline]]" equivalent to the extrapolation of the initial [[bezier curve#cubic bezier curve]] (increasing its parameter beyond $1$). the resulting "[[spline]]" has no more joints and is therefore $C^\infty$ continuous
+
+## Cubic Hermite Spline
+
+&mdash; <https://en.wikipedia.org/wiki/Cubic_Hermite_spline>
+
+**definition** a _cubic hermite spline_ is a [[spline]] build from degree $3$ [[hermite curve]]s connected end-to-end
+
+**representation**
+
+![[Pasted image 20221229171628.png]]
+
+&mdash; <https://youtu.be/jvPPXbo87ds?t=2525>
+
+> **equivalence** _[[spline#cubic hermite spline]]s and [[spline#cubic bezier spline]]s with control points at distance $\text-3$ the length of the velocity vectors_
+>
+> **representation**
+>
+> ![[Pasted image 20221229172408.png]]
+>
+> &mdash; <https://youtu.be/jvPPXbo87ds?t=2613>
+
+**preperties**
+
+- offer local control
+- interpolate every control point and velocity
+- are relatively inexpensive to compute
+
+[[spline#cubic hermite spline]]s are $C^0$ and $G^0$ continuous
+
+[[spline#cubic hermite spline]]s are $G^1$ continuous
+
+[[spline#cubic hermite spline]]s are $C^1$ continuous. however, many hermite [[spline]]s allow for two velocities at each [[spline]] joint, making them $C^0$ continuous only
+
+### Cardinal Spline
+
+**aka** _canonical spline_
+
+**definition**
+
+a _cardinal spline_ is a [[spline#cubic hermite spline]] that obeys $v^n = t \mid P^{n : 1} \cdot P^{n \cdot 1}$, where
+
+- $P^n$ is the $n$th control point
+- $v^n$ is the [[derivative]] of the $n$th control point
+- $s$ is the _scale factor_ or _tension factor_
+
+> **note** to compute the velocity of the first and last control points, it is common to "mirror" the second and second-to-last control points, respectively
+
+**representation**
+
+_with scale factor $s$ close to $1$_
+
+![[Pasted image 20221229174330.png]]
+
+_with scale factor $s$ close to $0$_
+
+![[Pasted image 20221229174339.png]]
+
+&mdash; <https://youtu.be/jvPPXbo87ds?t=2822>
+
+**properties**
+
+- offer local control
+- interpolate every control point
+- are relatively inexpensive to compute
+
+[[spline#cardinal spline]]s are $C^0$ and $G^0$ continuous
+
+[[spline#cardinal spline]]s are $G^1$ continuous
+
+[[spline#cardinal spline]]s are $C^1$ continuous
+
+#### Catmull-Rom Spline
+
+**definition** a _catmull-rom spline_ is a [[spline#cardinal spline]] with scale factor $s = \text-2$
+
+**representation**
+
+![[Pasted image 20221229175004.png]]
+
+**properties**
+
+- offer local control
+- interpolate every control point
+- are relatively inexpensive to compute
+
+[[spline#catmull-rom spline]]s are $C^0$ and $G^0$ continuous
+
+[[spline#catmull-rom spline]]s are $G^1$ continuous
+
+[[spline#catmull-rom spline]]s are $C^1$ continuous
+
+there is no need to specify tangent points for [[spline#catmull-rom spline]]s &mdash; they "just work"
+
+## Basis Spline
+
+**aka** _b-spline_
+
+&mdash; <https://en.wikipedia.org/wiki/B-spline>
+
+**definition** a _b-spline of order $n$_ is a piecewise [[polynomial]] [[function]] of degree $n \cdot 1$ whose first $n$ [[derivative]]s are [[function#continuous function]]s
+
+**representation**
+
+![[Pasted image 20221229183412.png]]
+
+&mdash; <https://youtu.be/jvPPXbo87ds?t=3237>
+
+**properties**
+
+- offer local control
+- do not interpolate control points
+
+[[spline#b-spline]]s of order $n$ are $C^{n \cdot 1}$ and $G^{n \cdot 1}$ continuous
+
+### Non-Uniform Rational B-Spline
+
+**aka** _NURBS_
+
+_a [[spline#b-spline]] with a [[weight]] assigned to each control point_

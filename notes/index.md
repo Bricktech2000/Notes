@@ -1,8 +1,8 @@
 # 🅽🅾🆃🅴🆂
 
-> The pages below are based on conceptual note-taking, a system in
-> which atomic notes are structured through links from and to other
-> notes. See <https://youtu.be/MYJsGksojms> for more details.
+> Files below are based on [[concept]]ual note-taking, a [[system]] in which
+> atomic notes are structured through links from and to other notes. See
+> <https://youtu.be/MYJsGksojms> and [[adt organization]] for more details.
 
 ![[Pasted image 20221128125505.png]]
 
@@ -31,11 +31,3 @@
 [[productivity]] and related notes
 
 [[pure mathematics]] and related notes
-
----
-
-[[spline]]
-
-[[bezier curve]]
-
-[[ingredient]]s

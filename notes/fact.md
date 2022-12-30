@@ -1,6 +1,6 @@
 # Fact
 
-_an isolated piece of information related to a concept_
+_an isolated unit of information related to a [[concept]]_
 
 &mdash; <https://youtu.be/IlU-zDU6aQ0?t=1264>
 

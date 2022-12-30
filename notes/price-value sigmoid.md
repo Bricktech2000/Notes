@@ -15,7 +15,7 @@ the price-to-value relationship for a given product can be represented on the gr
 
 > **examples**
 >
-> below are the positions of some items on the [[price-value sigmoid]] curve (note that the value stated is on the horizontal axis of the graph above)
+> below are the positions of some items on the [[price-value sigmoid]] [[curve]] (note that the value stated is on the horizontal axis of the graph above)
 >
 > - Samsung Galaxy S21 Ultra 5G at $2$ &mdash; paying twice the money impacts the value less than paying half the money
 > - Creality Ender 3 at $0$ &mdash; paying twice the money impacts the value the same as paying half the money

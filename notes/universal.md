@@ -2,6 +2,8 @@
 
 _the universal [[set]]_
 
+**see** [[math notation]], [[empty]]
+
 **definition**
 
 $\mathbb U x = \top$

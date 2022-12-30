@@ -9,7 +9,7 @@ a [[function]] $\mathcal F$ between [[set]]s $A$ and $B$ is a [[relation]] betwe
 1. $\mathcal F\ (a, b) \land B\ b > A\ a$ or alternatively $B\ f\ a > A\ a$ &mdash; there exists some output for every input
 2. $\mathcal F\ (a, b_1) \land \mathcal F\ (a, b_2) < b_1 = b_2$ or alternatively $a_1 = a_2 < f\ a_1 = f\ a_2$ &mdash; there exists exactly one output for any input
 
-one can use the _horizontal [[line]] test_ to determine whether the graph of a curve is the graph of a [[function]]
+one can use the _horizontal [[line]] test_ to determine whether the graph of a [[curve]] is the graph of a [[function]]
 
 **types**
 
@@ -146,7 +146,7 @@ let $f$ be a [[function#continuous function]] near $x = c$ and $c$ be a critical
 
 **see** [[function#extremum]]
 
-**definition** An _inflection point_ [...] is a point on a smooth plane curve at which the [[function#curvature]] changes sign &mdash; Wikipedia
+**definition** An _inflection point_ [...] is a point on a smooth plane [[curve]] at which the [[function#curvature]] changes sign &mdash; Wikipedia
 
 **definition** a [[function]] $f$ has an _inflection point_ at $c$ if it is continuous at $c$ and its [[function#concavity]] changes sign at $c$
 

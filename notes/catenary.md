@@ -12,9 +12,9 @@ $a$ is the scaling factor
 
 **properties**
 
-all [[catenary]] curves are [[similar]] as changing the parameter $a$ is equivalent to a uniform scaling of the curve
+all [[catenary]] [[curve]]s are [[similar]] as changing the parameter $a$ is equivalent to a uniform scaling of the [[curve]]
 
-[[catenary]]es are the perfect curve for a [[line]] segment to roll on
+[[catenary]]es are the perfect [[curve]] for a [[line]] segment to roll on
 
 **applications**
 

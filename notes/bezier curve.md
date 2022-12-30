@@ -6,6 +6,8 @@
 
 &mdash; <https://youtu.be/jvPPXbo87ds?t=191>
 
+**see** [[math notatio]], [[spline]], [[curve]]
+
 **representation**
 
 ![[bezier_curve.gif]]
@@ -47,7 +49,7 @@ $B\ (p^0 \cdots p^n) = t \rightarrow \,: (p^0 \cdots p^n) (P\ t)$, where
 
 ## Polynomial Form
 
-the [[polynomial]] form of a [[bezier curve]] is useful because, given a [[list]] of control points, one can cache the coefficients of the [[polynomial]] and use them to evaluate the curve at any point $t$
+the [[polynomial]] form of a [[bezier curve]] is useful because, given a [[list]] of control points, one can cache the coefficients of the [[polynomial]] and use them to evaluate the [[curve]] at any point $t$
 
 **definition** _polynomial form_
 

@@ -2,10 +2,10 @@
 
 **see** [[math notation]]
 
-**definition** $\,: IX\ - \,: X$ where $X$ is a [[multiset]]
+**definition** $\,: \circ \shortmid M\ - \,: M$ where $M$ is a [[multiset]], see [[composition#identity]]
 
-**definition** $\,: V - \#\ V$ where $X$ is a [[vector in rn]]
+**definition** $\,: V - \#\ V$ where $V$ is a [[vector in rn]]
 
-**notation** _[[statistics]]_ $\mu$
+**notation** _in [[statistics]]_ $\mu$
 
 > **example** the [[mean]] of $((1, 2, 2, 3, 4, 7, 9))$ is $4$

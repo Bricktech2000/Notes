@@ -133,6 +133,10 @@ _what_ represents the item itself
 
 [[journaling]]
 
+[[spline]]
+
+[[bezier curve]]
+
 **finance**
 
 [[education]] system issues
@@ -190,6 +194,8 @@ _what_ represents the item itself
 [[life quotes]]
 
 [[adt organization]]
+
+[[ingredient]]s
 
 ## How
 
@@ -332,3 +338,9 @@ _what_ represents the item itself
 [[hypnosis]]
 
 [[metric space]]
+
+[[spline]]
+
+[[bezier curve]]
+
+[[ingredient]]s

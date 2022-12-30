@@ -2,7 +2,7 @@
 
 **see** [[abstract data type]], [[algebraic structure]]
 
-there seems to be some sort of a [[category#isomorphism]] between [[abstract data type]]s and information organization. I use the term _isomorphism_ not because this is related to [[category theory]], but rather because knownedge can be tranlsated between the two [[concept]]s in a similar way to how knowledge can be translated between [[category]]es
+there seems to exist some sort of a [[category#isomorphism]] between [[abstract data type]]s and information organization. I use the term _isomorphism_ loosely in this context to refer to the fact that knownedge can be losslessly tranlsated between the two [[concept]]s
 
 > **example** _isomorphisms between [[abstract data type]]s and information organization_
 >

@@ -101,7 +101,7 @@ let:
 | $\varnothing$ |         | _undefined_                                                  | see [[improved expression evaluation]]      |
 | $\top$        | `T`     | [[boolean]] _true_                                           |                                             |
 | $\bot$        | `F`     | [[boolean]] _false_                                          |                                             |
-| $\circ$       | `o`     | the identity over [[function]] [[composition]]               |                                             |
+| $\circ$       | `o`     | [[function]] [[composition#identity]]                        |                                             |
 | $\tau$        | `t`     | the ratio of the circumference of a [[circle]] to its radius | using $\pi$ is discouraged                  |
 | $e$           | `e`     | [[euler's constant]]                                         |                                             |
 | $\iota$       | `i`     | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]], using $i$ is discouraged |
@@ -118,7 +118,7 @@ _in order of high to low precedence_
 | $()\ \braket{}\ \Big[ \Big]\ \ x\ x_a^i\ 123$  |               |                |                         |
 | $[]\ \lfloor\rfloor\ \lceil\rceil$             |               |                |                         |
 | $\shortmid \text-$                             | left          | $1$            | multiplicative inverse  |
-| $\delta\ \sin\ \#\ \leftarrow$                 | left-ish      |                |                         |
+| $\delta\ \sin\ \#\ \circ\ \leftarrow$          | left-ish      |                |                         |
 | $\, :\ \cdot\ \because\ \ \therefore$          | left          | $0$            | negation                |
 | $\mid -$                                       | left          | $1$            | multiplicative inverse  |
 | $\int\ \ \vdots\ \ \cdots\ \rightarrow\ \bmod$ | left-ish      |                |                         |

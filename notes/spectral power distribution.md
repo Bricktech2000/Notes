@@ -2,7 +2,7 @@
 
 **aka** _SPD_
 
-> **definition** the term _spectral power distribution_ can refer to the concentration, as a function of wavelength, of any radiometric or photometric quantity &mdash; Wikipedia
+> **definition** the term _spectral power distribution_ can refer to the [[concentration]], as a [[function]] of [[wavelength]], of any radiometric or photometric quantity &mdash; Wikipedia
 
 [[spectral power distribution]]s can be used to represent [[color]]s in a plot where the horizontal axis represents [[wavelength]] and the vertical axis represents [[luminous intensity]]
 

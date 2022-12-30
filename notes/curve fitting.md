@@ -1,6 +1,6 @@
 # Curve Fitting
 
-**see** [[optimization]]
+**see** [[optimization]], [[curve]]
 
 &mdash; <https://youtu.be/vIFKGFl1Cn8>
 

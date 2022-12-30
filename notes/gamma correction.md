@@ -15,7 +15,7 @@ $V_\text{out} = A [V_\text{in}]\gamma$, where
 - $A$ is a constant, generally equal to $1$
 - $\gamma$ is the gamma value, generally around $22\text-10$
 
-**representation** _the gamma curve and [[lightness]]_
+**representation** _the gamma [[curve]] and [[lightness]]_
 
 ![[Pasted image 20221208160740.png]]
 

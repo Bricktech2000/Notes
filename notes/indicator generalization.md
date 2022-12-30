@@ -37,6 +37,6 @@ generalizations are convenient for people to use, but they are not always accura
 
 indicator overgeneralization seems to occur to certain people more than others.
 
-scratch that; indicator overgeneralization seems to occur at the outermost regions of a metaphorical bell curve
+scratch that; indicator overgeneralization seems to occur at the outermost regions of a metaphorical bell curve [[probability distribution]]
 
-scratch that too; indicator overgeneralization seems to be an issue around the outermost regions of the bell curve
+scratch that too; indicator overgeneralization seems to be an issue around the outermost regions of the bell curve [[probability distribution]]

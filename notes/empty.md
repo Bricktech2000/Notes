@@ -2,6 +2,8 @@
 
 _the [[set]] containing no elements_
 
+**see** [[math notation]], [[universal]]
+
 **notation**
 
 _in my [[math notation]]_ $\braket{\ }$ or $x \rightarrow \bot$
