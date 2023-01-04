@@ -2,6 +2,8 @@
 
 &mdash; <https://youtu.be/jvPPXbo87ds?t=461>
 
+&mdash; <https://en.wikipedia.org/wiki/Spline_(mathematics)>
+
 **see** [[math notation]], [[curve]]
 
 **definition** a _spline_ is a [[function]] that transforms a [[list]] of control points into a [[function#piecewise function]] [[polynomial]] [[curve]] with a set of promises about continuity &mdash; <https://youtu.be/jvPPXbo87ds?t=654>
@@ -295,4 +297,4 @@ there is no need to specify tangent points for [[spline#catmull-rom spline]]s &m
 
 **aka** _NURBS_
 
-_a [[spline#b-spline]] with a [[weight]] assigned to each control point_
+_a [[spline#b-spline]] with a weight assigned to each control point_

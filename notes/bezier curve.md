@@ -6,7 +6,7 @@
 
 &mdash; <https://youtu.be/jvPPXbo87ds?t=191>
 
-**see** [[math notatio]], [[spline]], [[curve]]
+**see** [[math notation]], [[spline]], [[curve]]
 
 **representation**
 

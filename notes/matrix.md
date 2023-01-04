@@ -359,7 +359,7 @@ let $\mathbb M^{m, n}A$ (see [[matrix]]). the following [[logic statement]]s are
 - there is a leading [[variable]] in every column of the [[linear system#reduced row echelon form]] of $A$
 - the system $Ax = O$ has a unique solution
 - the columns of $A$ are [[linearly independent]]
-- $Ker\ A = \braket{\braket{0}}$
+- $Ker\ A = \braket{\braket{O}}$
 - $\dim Ker\ A = 0$
 - $rank\ A = n$
 
@@ -376,7 +376,7 @@ let $\mathbb M^{n, n} A$ (see [[matrix]]). the following [[logic statement]]s ar
 - $rank\ A = n$
 - every [[linear system]] of the form $Ax = b$ has a unique solution
 - the [[linear system#reduced row echelon form]] of $A$ is the [[matrix#identity matrix]]
-- $Ker\ A = \braket{\braket{0}}$
+- $Ker\ A = \braket{\braket{O}}$
 - $Col\ A = \mathbb R^n$
 - $Row\ A = \mathbb R^n$
 - the columns of $A$ are [[linearly independent]]

@@ -10,9 +10,9 @@ _an increase in the overall level of prices in the economy_
 
 > **example** _inflation rates_
 >
-> $2\text-100$ is a low to moderate inflation rate &mdash; Investopedia
+> $2\ 0\text-1000$ is a low to moderate inflation rate &mdash; Investopedia
 >
-> $85\text-1000$ is a high inflation rate &mdash; <https://www.youtube.com/watch?v=QYPb9ebUQbs>
+> $8\ 5\text-1000$ is a high inflation rate &mdash; <https://www.youtube.com/watch?v=QYPb9ebUQbs>
 
 **procedures**
 

@@ -197,6 +197,10 @@ _what_ represents the item itself
 
 [[ingredient]]s
 
+[[can't]]
+
+[[empathy by inversion]]
+
 ## How
 
 **hack**
@@ -272,6 +276,10 @@ _what_ represents the item itself
 [[goals and risk]]
 
 [[adt organization]]
+
+[[can't]]
+
+[[empathy by inversion]]
 
 **other**
 

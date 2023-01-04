@@ -1,10 +1,10 @@
-# Personal Finance Tracker
+# Personal Tracker
+
+## Finance
 
 **see** [[math notation]], [[finance]]
 
 asset tracking over [[time]] to improve [[intention]]ality in personal [[finance]]
-
-## core system
 
 [[python]] server responsible for all data analysis. [[javascript]] web app responsible for data visualization. using a web app is meant to be an "afterthought" that can easily be swapped out for a different data visualization tool.
 
@@ -23,3 +23,5 @@ library to use: <https://nivo.rocks/stream/> &mdash; <https://www.youtube.com/wa
   3. $(t, [\delta\ \lceil V\ t \rceil - \delta t])$ &mdash; [[exponential derivative]] of value over [[time]]. used for [[inflation]], compound interest, [[stock market]] growth, etc.
 
 ### config file
+
+## Habits

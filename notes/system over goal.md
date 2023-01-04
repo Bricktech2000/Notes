@@ -35,3 +35,4 @@ because of [[system over goal]], tracking something is often better than trying 
 > <https://youtu.be/rzwaaWH0ksk?t=1749> from 29:09 to 31:22
 
 > **example** _someone favoring [[system over goal]]s_ &mdash; <https://youtu.be/ombpvrlglfU>
+

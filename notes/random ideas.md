@@ -47,4 +47,4 @@ a reaction channel with higher production value than reaction channels. playing 
 
 > **example** _a video of the style mentioned above_ <https://youtu.be/VfNdps0daF8>
 
-## [[personal finance tracker]]
+## [[personal tracker]]

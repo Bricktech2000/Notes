@@ -8,6 +8,7 @@ _[[set]]s of [[number]]s_
   - [[boolean]]
   - $\dots$
   - [[p-adic]]s
+  - [[floating point]]
   - [[complex]]
     - [[imaginary]]
     - [[real]]

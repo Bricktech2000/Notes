@@ -42,7 +42,7 @@ _product of two [[complex#conjugate]]s are product of [[complex#modulus]]es_ $a 
 
 **theorem** _De Moivre's Theorem_ $[\operatorname{cis} \theta]n = \operatorname{cis} n\theta \dashv \mathbb Z n \dashv \mathbb R \theta$ &mdash; <https://en.wikipedia.org/wiki/De_Moivre%27s_formula>
 
-> **proof** $\operatorname{cis} \theta = [\iota\theta]$. since $[[\iota\theta]]n = [n\iota\theta]$, it must be that $[\operatorname{cis} \theta]n = \operatorname{cis} n\theta$ &mdash; me
+> **proof** $\operatorname{cis} \theta = [\iota\theta]$. since $[ [\iota\theta] ]n = [n\iota\theta]$, it must be that $[\operatorname{cis} \theta]n = \operatorname{cis} n\theta$ &mdash; me
 
 ## Real Part
 
