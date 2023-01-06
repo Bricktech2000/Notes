@@ -26,7 +26,7 @@ _[[function#odd function]]_ $\tan (\cdot \theta) = \cdot \tan \theta$
 
 ## inverse functions
 
-**see** [[function#inverse function]]
+**see** [[function#inverse]]
 
 **definitions**
 
@@ -38,7 +38,7 @@ $y = \tan x =\!= x = \operatorname{atan} y : \tau n \text- 2 \land \mathbb Z n$
 
 ## reciprocal functions
 
-**see** [[function#reciprocal function]]
+**see** [[function#reciprocal]]
 
 $\text-\sin \theta$
 

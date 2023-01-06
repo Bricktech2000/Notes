@@ -10,17 +10,9 @@ $\begin{bmatrix}a & b \\\ c & d\end{bmatrix}$
 
 ## Vector Space
 
-**notation**
+**notation** _in my [[math notation]]_ $\mathbb M^{m, n}$
 
-the [[vector space]] of $m$ by $n$ [[matrix]]es is denoted as follows:
-
-_in my [[math notation]]_
-
-$\mathbb M^{m, n}$
-
-_in [[math notation]]_
-
-$M_{m\ n}(\mathbb R)$
+**notation** _in [[math notation]]_ $M_{m\ n}(\mathbb R)$
 
 ### Multiplication by Scalar
 
@@ -42,7 +34,7 @@ _commutativity with [[scalar]]s_ $kA = Ak$
 
 $A : B$
 
-### Multiplication
+## Multiplication
 
 #todo mm
 
@@ -50,19 +42,13 @@ $A : B$
 
 **definition**
 
-$AB + \varnothing =\!= \mathbb M^{m, n}A \land \mathbb M^{n, p}B \land \mathbb M^{m, p}AB$ ($AB$ is defined if the number of columns in $A$ is equal to the number of rows in $B$. their product will be an $m$ by $p$ [[matrix]])
-
 $(AB)^{i, j} = \,: A^{i, } B^{, j}$, see [[dot product]]
 
 intuitively, matrix multiplication is the [[dot product]] of **every row** of the first [[matrix]] by **every column** of the second [[matrix]]
 
-**notation**
-
-$AA = A2 = [A]2$
-
-and therefore $AA \cdots A = [A]n \land \mathbb N n$
-
 **properties**
+
+$AB + \varnothing =\!= \mathbb M^{m, n}A \land \mathbb M^{n, p}B \land \mathbb M^{m, p}AB$ ($AB$ is defined if the number of columns in $A$ is equal to the number of rows in $B$. their product will be an $m$ by $p$ [[matrix]])
 
 _not commutative_ $\times (\mathbb M A \land \mathbb M B < AB = BA)$
 
@@ -80,23 +66,17 @@ _associative with [[scalar]]s_ $k(AB) = (kA)B = A(kB)$
 
 **applications**
 
-[[matrix#multiplication]] can be used to represent a [[linear system]] of [[linear equation]]s:
+[[matrix#multiplication]] can be used to represent a [[linear system]] of [[linear equation]]s. matrix-vector products can be seen as yielding a [[linear combination]] of the columns of the [[matrix]]:
 
-$\begin{bmatrix}1 & 2 & 3 \\\  4 & 5 & 6\end{bmatrix}\begin{bmatrix}x \\\  y \\\  z\end{bmatrix}$
+$\begin{bmatrix} 1 & 2 & 3 \\\  4 & 5 & 6 \end{bmatrix} \begin{bmatrix} x \\\  y \\\  z \end{bmatrix} = x \begin{bmatrix} 1 \\\ 4 \end{bmatrix} : y \begin{bmatrix} 2 \\\ 5 \end{bmatrix} : z \begin{bmatrix} 3 \\\ 6 \end{bmatrix}$
 
-[[matrix#multiplication]] can be used to represent any [[linear transformation]]
+> **equivalence** _[[matrix#multiplication]] and [[linear transformation]]s_
 
 ## Identity Matrix
 
 **definition**
 
-$(\circ\ \dot=\ \circ)\ (0 \cdots)$
-
-**examples**
-
-$\begin{bmatrix}1 & 0 \\\  0 & 1\end{bmatrix}$
-
-$\begin{bmatrix}1 & 0 & 0 \\\  0 & 1 & 0 \\\  0 & 0 & 1\end{bmatrix}$
+$\braket{i, j} \rightarrow (i = j)$
 
 **properties**
 
@@ -108,13 +88,7 @@ $AI = A \land IA = A$
 
 **definition**
 
-$(\circ\ \dot\mid\ \circ)\ (0 \cdots 0)$
-
-**examples**
-
-$\begin{bmatrix}0 & 0 \\\  0 & 0\end{bmatrix}$
-
-$\begin{bmatrix}0 & 0 & 0 \\\  0 & 0 & 0 \\\  0 & 0 & 0 \\\  0 & 0 & 0\end{bmatrix}$
+$\braket{i, j} \rightarrow 0$
 
 **properties**
 
@@ -126,11 +100,7 @@ $O_{q, m}A_{m, n} = O_{q, n} > \mathbb M^{q, m} O_{q, m} \land \mathbb M^{q, n} 
 
 _the number of pivots in any [[linear system#row echelon form]] of the [[matrix]]_
 
-**notation**
-
-$rank\ A$, where
-
-- $A$ is the [[matrix]] to find the [[matrix#rank]] of
+**notation** $\operatorname{rank}\ A$
 
 ## Element Count
 
@@ -148,21 +118,21 @@ $rank\ A$, where
 
 **notations**
 
-_kernel_ $Ker\ A =\!= Null\ A$
+_null space_ $\mathcal N A$
 
-_column space_ $Col\ A$
+_column space_ $\mathcal C A$
 
-_row space_ $Row\ A$
+_row space_ $\mathcal R A$
 
 **definitions**
 
-_kernel_ $(Ker\ A)\ x =\!= (Null\ A)\ x =\!= Ax = O \land \mathbb M^{m, n}A \land \mathbb M^{n, 1} x$
+_kernel_ $(\mathcal N A)\ x =\!= Ax = O \land \mathbb M^{m, n}A \land \mathbb M^{n, 1} x$
 
-_column space_ $Col\ A = \operatorname{span} \braket{\braket{A^{, 0}, A^{, 1}, \dots}}$
+_column space_ $\mathcal C A = \operatorname{span} \braket{\braket{A^{, 0}, A^{, 1}, \dots}}$
 
-_row space_ $Row\ A = \operatorname{span} \braket{\braket{A^{0, }, A^{1, }, \dots}}$
+_row space_ $\mathcal R A = \operatorname{span} \braket{\braket{A^{0, }, A^{1, }, \dots}}$
 
-**procedure** _computing the kernel of a [[matrix]]_ use [[row reduction]]
+**procedure** _computing the null space of a [[matrix]]_ use [[row reduction]]
 
 **theorems**
 
@@ -170,21 +140,21 @@ the [[matrix#null space]], [[matrix#row space]] and [[matrix#column space]] of a
 
 $\text{number of free variables in \(A\)} : \text{number of pivots in \(A\)} = \text{number of columns in \(A\)}$
 
-$\dim Null\ A = \text{number of free variables in \(A\)}$
+$\dim \mathcal N A = \text{number of free variables in \(A\)}$
 
-$rank\ A = \text{number of pivots in \(A\)}$
+$\operatorname{rank}\ A = \text{number of pivots in \(A\)}$
 
-the nonzero rows in any [[linear system#row echelon form]] of a [[matrix]] $A$ forms a [[basis]] for $Row\ A$. therefore, $\dim Row\ A = rank\ A$, see [[matrix#rank]]
+the nonzero rows in any [[linear system#row echelon form]] of a [[matrix]] $A$ forms a [[basis]] for $\mathcal R A$. therefore, $\dim \mathcal R A = \operatorname{rank}\ A$, see [[matrix#rank]]
 
-if $A$ and $B$ are row-equivalent, then $Row\ A = Row\ B$, see [[linear system]]
+if $A$ and $B$ are row-equivalent, then $\mathcal R A = \mathcal R B$, see [[linear system]]
 
-the [[span]]ning [[set]] of $Null\ A$ obtained from applying [[row reduction]] on the system $Ax = O$ is a [[basis]] for $Null\ A$
+the [[span]]ning [[set]] of $\mathcal N A$ obtained from applying [[row reduction]] on the system $Ax = O$ is a [[basis]] for $\mathcal N A$
 
-$Row\ A$ does not change when applying [[linear system#elementary operation]]s on the rows of $A$
+$\mathcal R A$ does not change when applying [[linear system#elementary operation]]s on the rows of $A$
 
 **properties**
 
-$Col\ A = Row\ A^\intercal \land Row\ A = Col\ A^\intercal$, see [[matrix#transpose]]
+$\mathcal C A = \mathcal R A^\intercal \land \mathcal R A = \mathcal C A^\intercal$, see [[matrix#transpose]]
 
 **applications**
 
@@ -194,7 +164,7 @@ the [[basis]] for a [[matrix#row space]] can be found by applying [[row reductio
 
 the [[basis]] for a [[matrix#column space]] of a [[matrix]] can be found by applying [[row reduction]] and [[span]]ning the **original columns** that became pivots in the [[linear system#row echelon form]] of the [[matrix]]
 
-the same can be said for $Col\ A$
+the same can be said for $\mathcal C A$
 
 > **example** _transforming a [[vector space]] into the [[matrix#null space]] of a certain [[matrix]]_
 >
@@ -359,9 +329,9 @@ let $\mathbb M^{m, n}A$ (see [[matrix]]). the following [[logic statement]]s are
 - there is a leading [[variable]] in every column of the [[linear system#reduced row echelon form]] of $A$
 - the system $Ax = O$ has a unique solution
 - the columns of $A$ are [[linearly independent]]
-- $Ker\ A = \braket{\braket{O}}$
-- $\dim Ker\ A = 0$
-- $rank\ A = n$
+- $\mathcal N A = \braket{\braket{O}}$
+- $\dim \mathcal N A = 0$
+- $\operatorname{rank}\ A = n$
 
 **see** [[linear system theorem proof]]
 
@@ -373,12 +343,12 @@ let $\mathbb M^{n, n} A$ (see [[matrix]]). the following [[logic statement]]s ar
 
 > **note** thinking of [[matrix]]es as [[linear transformation]]s makes the following [[logic statement]]s easier to understand intuitively
 
-- $rank\ A = n$
+- $\operatorname{rank}\ A = n$
 - every [[linear system]] of the form $Ax = b$ has a unique solution
 - the [[linear system#reduced row echelon form]] of $A$ is the [[matrix#identity matrix]]
-- $Ker\ A = \braket{\braket{O}}$
-- $Col\ A = \mathbb R^n$
-- $Row\ A = \mathbb R^n$
+- $\mathcal N A = \braket{\braket{O}}$
+- $\mathcal C A = \mathbb R^n$
+- $\mathcal R A = \mathbb R^n$
 - the columns of $A$ are [[linearly independent]]
 - the rows of $A$ are [[linearly independent]]
 - the columns of $A$ form a [[basis]] for $\mathbb R^n$

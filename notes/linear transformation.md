@@ -4,12 +4,16 @@
 
 **definition**
 
+let $U$ and $V$ be two [[vector space]]s with $\dim U = u$ and $\dim V = v$. a [[linear transformation]] $T$ from $U$ to $V$ is a [[matrix#multiplication]] $T\ u = A \mid u$ with $\mathbb M^{v, u} A$ #todo mm
+
+**definition**
+
 let $U$ and $V$ be two [[vector space]]s. a [[linear transformation]] $T$ from $U$ to $V$ is a [[function]] from $U$ to $V$ that satisfies the following properties:
 
 - $T\ (u_1 : u_2) = T\ u_1 : T\ u_2 > U\ u_1 \land U\ u_2$
 - $T\ cu = c \mid T\ u > U\ u \land \mathbb R c$
 
-$\mathbb T T$ if and only if $T$ is a [[linear transformation]]
+**notation** $\mathbb T T$ if and only if $T$ is a [[linear transformation]]
 
 **theorem** $\mathbb T T < T\ O = O$
 
@@ -17,27 +21,13 @@ $\mathbb T T$ if and only if $T$ is a [[linear transformation]]
 
 $\mathbb T < \mathbb F$, see [[function#vector space]]
 
-[[vector in rn#projection]]s are [[linear transformation]]s
-
-**examples**
-
-> **example** _proving a [[function]] is a [[linear transformation]]_
->
-> #todo mm
->
-> let the [[matrix]] $\mathbb M^{m, n} A$ and let $(T\ u = A \mid u) \land \mathbb R^n u$. prove $\mathbb T T$
->
-> > **proof**
-> >
-> > let $\mathbb R^n u_1 \land \mathbb R^n u_2$. we then have $T\ (u_1 : u_2) = A \mid u_1 : u_2$. distributing, we get $T\ u_1 : T\ u_2 = A \smash\shortmid u_1 : A \smash\shortmid u_2$
-> >
-> > let $\mathbb R^n u \land \mathbb R c$. we then have $T\ cu = A \mid cu$. commutating, we get $c \mid T\ u = c \mid A \smash\shortmid u$.
-
 ## Standard Matrix
 
 #todo mm
 
-**theorem** $\mathbb T T$ if and only if there exists a [[matrix]] $A$ such that $(T\ u = A \mid u) > \mathbb R^n u$. in other words, any [[linear transformation]] can be represented as [[matrix#multiplication]] and any [[matrix#multiplication]] is a [[linear transformation]]
+**theorem** $\mathbb T T$ if and only if there exists a [[matrix]] $A$ such that $(T\ u = A \mid u) > \mathbb R^n u$. in other words,
+
+> **equivalence** _[[matrix#multiplication]] and [[linear transformation]]s_
 
 in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \cdots & T\ b_n \\\ | & & |\end{bmatrix}$ where $\braket{\braket{b_0 \cdots b_n}}$ is the standard [[basis]] for $\mathbb R^n$, see #magic. $A$ is the [[linear transformation#standard matrix]] of the [[linear transformation]] $T$
 
@@ -95,13 +85,13 @@ in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \cdots & T\ b_n \
 
 **notation**
 
-$Ker\ T$
+$\mathcal K T$
 
 $Im\ T$
 
 **definition** _kernel_
 
-$(Ker\ T)\ x =\!= T\ x = 0 \land \mathbb T T$
+$(\mathcal K T)\ x =\!= T\ x = 0 \land \mathbb T T$
 
 **definition** _image_
 
@@ -109,10 +99,12 @@ $(Im\ T)\ x =\!= T\ u = x \land \mathbb T T$
 
 **theorem**
 
+#todo fix below
+
 let $\mathbb M^{m, n} A$ be the [[linear transformation#standard matrix]] of $T$. then,
 
-$Ker\ T = Null\ A$, see [[matrix#null space]]
+$\mathcal K T = \mathcal N A$, see [[matrix#null space]]
 
-$Im\ T = Col\ A$, see [[matrix#column space]]
+$Im\ T = \mathcal C A$, see [[matrix#column space]]
 
-**theorem** $\dim Ker\ T : \dim Im\ T = \dim Null\ A : \dim Col\ A = n$, where $n$ is the dimension of the [[function#domain]] of $T$
+**theorem** $\dim \mathcal K T : \dim Im\ T = \dim \mathcal N A : \dim \mathcal C A = n$, where $n$ is the dimension of the [[function#domain]] of $T$

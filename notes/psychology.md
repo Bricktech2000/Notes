@@ -12,7 +12,7 @@
 
 [[hijacking brain circuitry]], [[subconscious manipulation]], [[intent to mastery]]
 
-[[memory]], [[memory technique]], [[recollection vs recognition]]
+[[memory]], [[memory technique]]
 
 [[10x developper]], [[intelligence]]
 

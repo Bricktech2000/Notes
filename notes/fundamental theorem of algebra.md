@@ -6,9 +6,9 @@
 >
 > the following are equivalent:
 >
-> - every single-variable [[polynomial]] with [[complex]] coefficients has at least one [[complex]] root
+> - every single-variable [[polynomial]] with [[complex]] coefficients has at least one [[complex]] [[function#root]]
 > - the [[field]] of [[complex]] numbers is _algebraically closed_
-> - every single-variable [[polynomial]] of degree $n$ with [[complex]] coefficients has exactly $n$ [[complex]] roots (counted with [[multiplicity]])
+> - every single-variable [[polynomial]] of degree $n$ with [[complex]] coefficients has exactly $n$ [[complex]] [[function#root]]s (counted with [[multiplicity]])
 >
 > more generally,
 >

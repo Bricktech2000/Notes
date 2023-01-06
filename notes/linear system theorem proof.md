@@ -30,10 +30,10 @@
 >
 > - $6 \to 7$
 >
->   $\dim Null\ A : rank\ A = \text{number of columns in } A$ (see [[matrix]]) $\to$ as $\dim Null\ A = 0$, $rank\ A = \text{number of columns in } A = n$
+>   $\dim \mathcal N A : \operatorname{rank}\ A = \text{number of columns in } A$ (see [[matrix]]) $\to$ as $\dim \mathcal N A = 0$, $\operatorname{rank}\ A = \text{number of columns in } A = n$
 >
 > - $7 \to 1$
 >
 >   the [[matrix#rank]] of a [[matrix]] is the number leading [[variable]]s in the matrix
 >
->   $rank\ A = n$ and $A$ has $n$ columns $\to$ every [[variable]] is a leading variable
+>   $\operatorname{rank}\ A = n$ and $A$ has $n$ columns $\to$ every [[variable]] is a leading variable

@@ -16,7 +16,7 @@ $M = ((1, 2, 2, 2, 3, 3))$
 
 **definition** the _multiplicity_ of a member of a [[multiset]] is the number of times it appears in the [[multiset]] &mdash; Wikipedia
 
-> **example** in the [[polynomial]] $[x \cdot 1]2$, the [[multiplicity]] of the root $1$ is $2$
+> **example** in the [[polynomial]] $[x \cdot 1]2$, the [[multiplicity]] of the [[function#root]] $1$ is $2$
 
 > **example** in the prime [[factor]]ization of $60$, the [[multiplicity]] of the [[factor]] $2$ is $2$ and the [[multiplicity]] of the [[factor]]s $3$ and $5$ is $1$. equivalently, $\psi\ 60 = ((2, 2, 3, 5))$, see [[psi function in mat2348]]
 

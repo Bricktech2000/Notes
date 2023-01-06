@@ -28,7 +28,7 @@ $f\ x - g\ x\ \ \vdots\ \ x \rightarrow a = (f\ x\ \ \vdots\ \ x \rightarrow a) 
 
 $[f\ x]n\ \ \vdots\ \ x \rightarrow a = [f\ x\ \ \vdots\ \ x \rightarrow a]n$
 
-### derived root rule
+### derived radical rule
 
 $\lfloor f\ x \rfloor n\ \ \vdots\ \ x \rightarrow a = \lfloor f\ x\ \ \vdots\ \ x \rightarrow a \rfloor n$. when $\mathbb E n$ (see [[even number]]), we assume that $f\ x\ \ \vdots\ \ x \rightarrow a + 0$ (restriction might not be necessary, see [[improved expression evaluation]])
 

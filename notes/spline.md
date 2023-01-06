@@ -218,7 +218,7 @@ the _tangent points_ of a [[spline#cubic bezier spline]] are the pairs of contro
 
 **definition**
 
-a _cardinal spline_ is a [[spline#cubic hermite spline]] that obeys $v^n = t \mid P^{n : 1} \cdot P^{n \cdot 1}$, where
+a _cardinal spline_ is a [[spline#cubic hermite spline]] that obeys $v^n = s \mid P^{n : 1} \cdot P^{n \cdot 1}$, where
 
 - $P^n$ is the $n$th control point
 - $v^n$ is the [[derivative]] of the $n$th control point

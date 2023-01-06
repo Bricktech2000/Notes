@@ -22,7 +22,7 @@ let $\mathbb M^{n, n} A \land \mathbb N n$
 
 **theorem** all [[eigen#vector]]s together with the zero [[vector]] form a [[vector space]]
 
-**theorem** the [[characteristic polynomial]] $\det\ (A \cdot \lambda I)$ is a [[polynomial]] of degree $n$, meaning it has at most $n$ distinct roots by the [[fundamental theorem of algebra]]
+**theorem** the [[characteristic polynomial]] $\det\ (A \cdot \lambda I)$ is a [[polynomial]] of degree $n$, meaning it has at most $n$ distinct [[function#root]]s by the [[fundamental theorem of algebra]]
 
 **theorem** $A$ has at most $n$ distinct [[eigen#value]]s
 
@@ -64,9 +64,9 @@ let $\mathbb M^{n, n} A \land \mathbb N n$
 
 > **procedure** _finding [[eigen#vector]]s_
 >
-> as $A \cdot \lambda I \mid x = O$, we get the following (see [[matrix#vector spaces]] Kernel):
+> as $A \cdot \lambda I \mid x = O$, we get the following (see [[matrix#null space]]):
 >
-> $E_\lambda = Ker\ (A \cdot \lambda I)$, where
+> $E_\lambda = \mathcal N (A \cdot \lambda I)$, where
 >
 > $E_\lambda$ is the _[[eigen#space]]_ of $A$ corresponding to the [[eigen#value]] $\lambda$ (this [[vector space]] is called the λ-[[eigen#space]] of $A$)
 >
@@ -88,7 +88,7 @@ let $\mathbb M^{n, n} A \land \mathbb N n$
 >
 > $\braket{\braket{\ (1, 1)\ }}$ is then a [[basis]] for the [[eigen#space]] $E_3$ of $A$
 >
-> > **note** the general solution of the homogenous [[linear system]] will always be a [[basis]] as the resulting [[vector]]s will always be [[linearly independent]], see [[matrix#vector spaces]] Kernel for more information
+> > **note** the general solution of the homogenous [[linear system]] will always be a [[basis]] as the resulting [[vector]]s will always be [[linearly independent]], see [[matrix#null space]] for more information
 >
 > for $\lambda = \cdot 1$, we get the [[basis]] $\braket{\braket{\ (1, \cdot 1)\ }}$ for the [[eigen#space]] $E_{\cdot 1}$ of $A$
 
@@ -121,9 +121,9 @@ computing $[A]p = P\begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [\lambda_1]p & 0 
 
 **see** [[multiplicity]]
 
-**definition** the _algebraic multiplicity_ of a root $\lambda$ of the [[characteristic polynomial]] of $A$ is its [[multiplicity]]
+**definition** the _algebraic multiplicity_ of a [[function#root]] $\lambda$ of the [[characteristic polynomial]] of $A$ is its [[multiplicity]]
 
-**definition** the _geometric multiplicity_ of a root $\lambda$ of the [[characteristic polynomial]] of $A$ is the [[vector space#dimension]] of the [[eigen#space]] $E_\lambda$ of $A$ corresponding to the [[eigen#value]] $\lambda$
+**definition** the _geometric multiplicity_ of a [[function#root]] $\lambda$ of the [[characteristic polynomial]] of $A$ is the [[vector space#dimension]] of the [[eigen#space]] $E_\lambda$ of $A$ corresponding to the [[eigen#value]] $\lambda$
 
 **theorem** let $\lambda$ be an [[eigen#value]] of $A$. then, $1 \dashv \text{geometric multiplicity of \(\lambda\)} \dashv \text{algebraic multiplicity of \(\lambda\)}$
 

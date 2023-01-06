@@ -4,9 +4,7 @@
 
 **notation**
 
-$\det A$, where
-
-- $A$ is a square [[matrix]], $\mathbb M^{n, n} A$
+$\det A$ where $A$ is a square [[matrix]]
 
 **properties**
 

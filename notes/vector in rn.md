@@ -30,62 +30,47 @@ _multiplication by a [[scalar]]_ $c(a, b) =\!= (ca, cb) > \mathbb R c$
 
 ## Magnitude
 
+**see** [[dot product]]
+
 **definition**
 
 $|V| = \lfloor \,: V2 \rfloor$, where
-
-- $V$ is the [[vector in rn]] to find the magnitude of, see [[dot product]]
 
 ### Unit Vector
 
 **definition**
 
-$|V| = 1$, where
+a _unit vector_ is a [[vector in rn]] $V$ such that $|V| = 1$
 
-- $V$ is a _unit vector_
-
-## Orientation
-
-**definition**
-
-$V - |V| =\!= (\circ - ||)\ V =\!= (\cos \theta, \sin \theta)$, where
-
-- $V$ is the vector to find the direction of
-- $\theta$ is the angle of the vector
+a [[vector in rn]] $V$ can be _normalized_ (turned into a unit vector) through $V - |V| =\!= (\circ - ||)\ V$
 
 ## Angle
 
 _angle between two [[vector in rn]]s_
 
-**see** [[dot product]], [[cross product]], #magic
-
 **definition**
 
-$\cos \theta = \,: ab - |a|\ |b|$
+$\cos \theta = \,: ab - |a|\ |b|$, see [[dot product]] #magic
 
 > **note**: use $\cos \theta =\ |\,: ab| - |a|\ |b|$ to always get the acute angle solution
 
 **definition**
 
-$\sin \theta = a\ \check\mid\ b - |a|\ |b|$, see [[cross product]]
+$\sin \theta = a\ \check\mid\ b - |a|\ |b|$, see [[cross product]] #magic
 
 ### Orthogonal Vectors
 
 _a pair of vectors offset by $\tau\text-4\ \text{rad}$_
 
-**notation** _in [[conventional math notation]]_ $u \perp v$
-
 **definition** $u$ and $v$ are _orthogonal_ if and only if $\,: uv = 0$, see [[dot product]]
 
 **definition** a [[set]] of [[vector]]s is _orthogonal_ if and only if it does not contain the zero [[vector]] and all [[vector]]s in the [[set]] are orthogonal to all other [[vector]]s
-
-**theorem** an orthogonal [[set]] of [[vector]]s is [[linearly independent]] (think of this visually)
 
 **theorem** any orthogonal [[set]] of [[vector]]s in $\mathbb R^n$ contains at most $n$ [[vector]]s
 
 **theorem** any orthogonal [[set]] of $n$ [[vector]]s in $\mathbb R^n$ is a [[basis#orthogonal basis]] of $\mathbb R^n$
 
-**theorem** an orthogonal [[set]] of [[vector]]s implies the [[vector]]s are [[linearly independent]], but not conversely
+**theorem** a [[set]] of [[vector]]s being orthogonal implies the [[vector]]s are [[linearly independent]], but not conversely
 
 **theorem** suppose $(w_0 \cdots w_m)$ is a [[basis#orthogonal basis]] for a [[vector space#subspace]] $W$ of $\mathbb R^n$. then, $w = w_0 (\,: ww_0\ - \,: w_0w_0) : \cdots w_m (\,: ww_m\ - \,: w_mw_m)$, see [[dot product]]
 
@@ -93,11 +78,7 @@ _a pair of vectors offset by $\tau\text-4\ \text{rad}$_
 
 _a pair of parallel vectors_
 
-**notation** _in [[conventional math notation]]_ $u \parallel v$
-
-**definition**
-
-$u$ and $v$ are colinear if $u = kv$ given a [[scalar]] $k$
+**definition** $u$ and $v$ are _colinear_ if and only if $u = kv$ given a [[scalar]] $k$
 
 **properties**
 

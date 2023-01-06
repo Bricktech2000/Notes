@@ -55,11 +55,15 @@ _multiplication by a [[scalar]]_ $(cf)\ x = c \mid f\ x$
 
 ## Range
 
+## Root
+
 **definition** the _domain_ of a [[function]] is the set of arguments for which it will produce an output
 
 **definition** the _codomain_ of a [[function]] is the set of all **possible** outputs
 
 **definition** the _range_ of a [[function]] is the set of all outputs it can produce
+
+**definition** the _roots_ of a [[function]] $f$ are the values of $x$ such that $f\ x = 0$
 
 this asymmetry between the "input" and the "output" of a [[function]] is what distinguishes it from a [[relation]] &mdash; <https://youtu.be/O2lZkr-aAqk?t=724>
 
@@ -190,7 +194,7 @@ if $f\ x$ and $g\ x$ are continuous at $a$, then the following [[function]]s are
 
 **definition** a [[function]] is _continuous_ on an interval $x \rightarrow (a \dashv x \dashv b)$ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
 
-## Reciprocal Function
+## Reciprocal
 
 _multiplicative inverse_
 
@@ -198,7 +202,7 @@ let $f\ x$ be a function
 
 **definition** if $y = f\ x \land y = -F\ x$, then $F$ is the _reciprocal_ of $f$
 
-## Inverse Function
+## Inverse
 
 _switching input and output_
 

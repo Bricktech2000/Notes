@@ -13,3 +13,5 @@ _a systematic pattern of deviation from norm or rationality in judgment_
 [[sunk costs fallacy]]
 
 [[gambler's fallacy]]
+
+[[dunning-kruger effect]]

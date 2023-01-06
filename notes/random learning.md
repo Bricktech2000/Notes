@@ -34,6 +34,8 @@
 
 [![](https://img.youtube.com/vi/gui_SE8rJUM/0.jpg)](https://www.youtube.com/watch?v=gui_SE8rJUM)
 
+[![](https://img.youtube.com/vi/IlU-zDU6aQ0/0.jpg)](https://www.youtube.com/watch?v=IlU-zDU6aQ0)
+
 [![](https://img.youtube.com/vi/hy1wjkcIBCU/0.jpg)](https://www.youtube.com/watch?v=hy1wjkcIBCU)
 
 below, I stumbled upon video 6. kept watching until half way through video 10, at which point the prof had changed and course had turned into mindless rambling
@@ -43,3 +45,5 @@ below, I stumbled upon video 6. kept watching until half way through video 10, a
 [![](https://img.youtube.com/vi/jvPPXbo87ds/0.jpg)](https://www.youtube.com/watch?v=jvPPXbo87ds)
 
 <http://tom7.org/nand/nand.pdf>
+
+<https://courses.engr.illinois.edu/ece498rc3/fa2016/material/linearAlgebra_4pgs.pdf>

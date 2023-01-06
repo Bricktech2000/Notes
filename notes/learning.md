@@ -24,4 +24,8 @@ for a system to become talented at performing a task, the task **repetition-to-c
 > - radiologists don't improve much at giving diagnoses; they often don't get timely feedback on them and therefore the feedback cannot be actively used in improving
 > - people responsible for admissions or employment can have a hard time learning patterns in ideal candidates as they often don't get timely feedback on their decisions
 
-for humans to learn efficiently, they must practice **deliberately**; this is often referred to as _active learning_, and can be achieved through [[active recall]]. they must practice in that uncomfortable zone the skills they haven't quite learned yet, which requires a lot of effort. a teacher can be very valuable for [[learning]] as they can point out weeknesses go consistently keep a student at the limit of their abilities
+when [[learning]] through a biological [[brain]], other factors are worth considering:
+
+- for humans to learn efficiently, they must practice **deliberately**; this is often referred to as _active learning_, and can be achieved through [[active recall]]. they must practice in that uncomfortable zone the skills they haven't quite learned yet, which requires a lot of effort. a teacher can be very valuable for [[learning]] as they can point out weeknesses go consistently keep a student at the limit of their abilities
+- there is evidence that [[memory]] consolidation is highly dependent on getting a proper amount of [[sleep#rem sleep]] &mdash; <https://youtu.be/IlU-zDU6aQ0?t=2219>. this is why it is important to get enough [[sleep]] after [[learning]] new [[fact]]s or [[concept]]s
+- [[learning]] can be seen as a [[habit]], in which case it is highly dependent on environmental [[cue]]s
