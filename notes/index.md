@@ -12,7 +12,7 @@
 
 ## Launchpad
 
-[[why-how-what]]
+[[categories]]
 
 [[classes]]
 

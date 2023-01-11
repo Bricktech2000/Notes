@@ -14,6 +14,7 @@
 > - someone owning a degree
 > - the make of someone's car
 > - someone's grades or the school someone attends
+> - whether someone uses [[social media]] or parties
 
 > **note** indicators seem similar to _proxies_ &mdash; <https://youtu.be/0Z9RW_hhUT4>
 

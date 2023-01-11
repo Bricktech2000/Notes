@@ -47,3 +47,5 @@ below, I stumbled upon video 6. kept watching until half way through video 10, a
 <http://tom7.org/nand/nand.pdf>
 
 <https://courses.engr.illinois.edu/ece498rc3/fa2016/material/linearAlgebra_4pgs.pdf>
+
+<https://virtual-addiction.com/smartphone-compulsion-test/>

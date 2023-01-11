@@ -207,3 +207,77 @@ $| - \circ$
 ---
 
 $\ell$
+
+---
+
+```
+: o A = x -> : (A x)
+(: o A) o B = y -> (x -> : (A x)) (B y)
+(: o A) o B = y -> : (A (B y))
+
+fork
+(A : B) x = A x : B x
+
+double fork
+x (.|:) y = x . y | x : y
+
+vdots
+F $ x . y = F x . F y
+
+cross product
+F A B O a b = O (A a) (B b)
+```
+
+fork $A : B = x \rightarrow A\ x : B\ x$ #todo
+
+vector normalization $\circ - ||$ #todo
+
+double fork $x\ (. | :)\ y =$
+
+composition $F\ G\ \circ$
+
+vdots $F\ \ \vdots\ \ x \cdot y = F\ x \cdot F\ y$ #todo
+
+cartesian product $\,\land\ (f, g, h)\ \circ$ #todo
+
+vector in Rn $\,\land\ \mathbb R\ \circ$ #todo
+
+outer product $F\ (A\ \circ)\ (B\ \circ)$
+
+conventional outer product $A\ \circ \mid B\ \circ$
+
+k combinator $K\ x =\ \rightarrow x$
+
+vector-scalar addition $5 : (1, 2, 3) = 5 : (1, 2, 3)\ \circ$
+
+vector-scalar multiplication $5 \mid (1, 2, 3) = 5 \mid (1, 2, 3)\ \circ$
+
+function-scalar addition $f : 5 = f\ \circ : 5$
+
+"over" operator $|V\ \circ|$
+
+linear transformation standard matrix $A = \rho\ (T\ I\ \circ)$
+
+matrix transpose / c combinator $\rho\ M$
+
+set power set $\,\land\ \circ \dashv S$
+
+---
+
+vdots:
+
+$\bmod 5 \braket{a = b}$
+
+$\int f\ x \mid \delta x \braket{b \cdot a}$
+
+fork:
+
+$\braket{A : B}$ or shorthand $A : B$
+
+$\braket{\circ\ - ||}$ or shorthand $\circ - ||$
+
+$\#\ \psi\ \braket{a = b}$
+
+$x4 = 1 < x2 = \braket{1 \lor \cdot 1} < x = \braket{1 \lor \cdot 1 \lor \iota \lor \cdot \iota}$
+
+$y = \braket{: \lor\ \cdot}\ 5$

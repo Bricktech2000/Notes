@@ -1,12 +1,14 @@
 # Public Speaking
 
+&mdash; <https://youtu.be/Unzc731iCUY>
+
 ## structure
 
 be very explicit about the structure of a talk.
 
 > "here's what I'll talk about and here is what you'll learn by listening. let's start with [...]. now, [...]. alright so that's all for [...]. let's now discuss [...]"
 
-verbal punctuation can be used to convey structure. it also nonverbally tells people who fogged out it's a good time to join back in
+[[verbal]] punctuation can be used to convey structure. it also [[nonverbal]]ly tells people who fogged out it's a good time to join back in
 
 explicitly link [[concept]]s and ideas together instead of listing them
 
@@ -15,7 +17,7 @@ explicitly link [[concept]]s and ideas together instead of listing them
 > **see** [[writing a report]]
 >
 > - start with an empowerment promise. explain why people are listening to you
-> - when using slides, mention the title verbally instead of cluttering the slides with it
+> - when using slides, mention the title [[verbal]]ly instead of cluttering the slides with it
 > - use linking words when jumping from one idea to the next
 > - introduce and wrap up each point with an introduction and a conclusion
 
@@ -36,7 +38,7 @@ look like someone confident and comfortable
 
 ### artificial interest
 
-trick people into being interested through nonverbals
+trick people into being interested through [[nonverbal]]s
 
 > **examples**
 >
@@ -65,7 +67,7 @@ after asking a question, wait around 7 seconds for an answer from the audience
 
 flipping through slides can be too quick for people. the speed at which one writes on a chalkboard is approximately the speed at which people absorb information
 
-saying "thank you" or "thank you for listening" suggests people stayed and listened out of politeness
+see [[verbal#connotation]]s
 
 ### other tools
 
@@ -80,7 +82,3 @@ use slides as a visual complement to your ideas
 using slides incorrectly: <https://youtu.be/Unzc731iCUY?t=1530>
 
 bad final slide: <https://youtu.be/Unzc731iCUY?t=3268>
-
-## &mdash;
-
-<https://youtu.be/Unzc731iCUY>
