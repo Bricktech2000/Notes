@@ -4,6 +4,8 @@
 
 ## Identity Element
 
+## Inverse Element
+
 **see** [[math notation]], [[algebraic structure]]
 
 &mdash; <https://youtu.be/KufsL2VgELo>

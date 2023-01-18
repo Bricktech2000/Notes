@@ -34,3 +34,5 @@ divide and conquer #todo
 [[monte carlo method]]
 
 [[bezier curve#decasteljau's algorithm]]
+
+[[binary exponentiation]]
