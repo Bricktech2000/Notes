@@ -210,6 +210,12 @@ $\ell$
 
 ---
 
+$\,: (0 \dashv)\ \top \,: (0 \vdash)$
+
+an APL fork is similar to the Psi Combinator #todo &mdash; <https://youtu.be/U6I-Kwj-AvY?t=441>
+
+---
+
 ```
 : o A = x -> : (A x)
 (: o A) o B = y -> (x -> : (A x)) (B y)
@@ -228,15 +234,13 @@ cross product
 F A B O a b = O (A a) (B b)
 ```
 
-fork $A : B = x \rightarrow A\ x : B\ x$ #todo
+fork $A : B = \braket{A : B} = x \rightarrow A\ x : B\ x$
 
-vector normalization $\circ - ||$ #todo
+vector normalization $\circ - || = \braket{\circ\ - ||} = x \rightarrow x - |x|$
 
-double fork $x\ (. | :)\ y =$
+double fork $x\ (. | :)\ y =$ #todo
 
 composition $F\ G\ \circ$
-
-vdots $F\ \ \vdots\ \ x \cdot y = F\ x \cdot F\ y$ #todo
 
 cartesian product $\,\land\ (f, g, h)\ \circ$ #todo
 
@@ -262,6 +266,8 @@ matrix transpose / c combinator $\rho\ M$
 
 set power set $\,\land\ \circ \dashv S$
 
+matrix multiplication $\,:(A\ \circ)(\rho\ B\ \circ)$
+
 ---
 
 vdots:
@@ -281,3 +287,15 @@ $\#\ \psi\ \braket{a = b}$
 $x4 = 1 < x2 = \braket{1 \lor \cdot 1} < x = \braket{1 \lor \cdot 1 \lor \iota \lor \cdot \iota}$
 
 $y = \braket{: \lor\ \cdot}\ 5$
+
+---
+
+```bash
+git branch -d # delete local branch
+git branch -v # list all branches
+
+git fetch -p # figure out what this does and set up alias
+# prune remote-tracking branches -- Copilot
+
+npx git-removed-branches --prune --force
+```

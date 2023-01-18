@@ -4,7 +4,7 @@
 
 _a [[monoid]] without necessarily having a [[monoid#identity element]]_
 
-_a [[group]] without necessarily having an identity element or an inverse_
+_a [[group]] without necessarily having a [[group#identity element]] or [[group#inverse element]]s_
 
 &mdash; <https://en.wikipedia.org/wiki/Semigroup>
 
