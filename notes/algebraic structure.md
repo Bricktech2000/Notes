@@ -16,10 +16,11 @@ an [[algebraic structure]] consists of:
 
 > **examples** _[[algebraic structure]]s_
 >
-> - [[group]]s
 > - [[semigroup]]s
-> - [[abelian group]]s
 > - [[monoid]]s
+> - [[group]]s
+> - [[abelian group]]s
+> - [[divisible group]]s
 > - [[field]]s
 > - [[boolean algebra]]
 > - [[vector space]]s

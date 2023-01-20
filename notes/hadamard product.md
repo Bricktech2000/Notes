@@ -22,6 +22,6 @@ _distributive_ $A \mid B : C = AB : AC$
 
 _distributive with [[scalar]]s_ $kA \mid B = A \mid kB = AB \mid k$
 
-_identity_ $I \mid A = A \mid I = A$ with $I\ \dot=\ 1$
+_identity_ $I \mid A = A \mid I = A$ with $\,\land \,\land I \circ \circ = 1$
 
-_zero_ $O \mid A = A \mid O = O$ with $O\ \dot=\ 0$
+_zero_ $O \mid A = A \mid O = O$ with $\,\land \,\land O \circ \circ = 0$

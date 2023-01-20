@@ -18,7 +18,7 @@ any [[integer]] power of an $n$th [[root of unity]] is also an $n$th [[root of u
 
 > **proof** $[z]n = 1 =\!= [[z]n]k = [1]k = 1 =\!= [[z]k]n = [1]k = 1$. by definition, both $z$ and $[z]k$ are [[root of unity]]s
 
-if $z$ is an $n$th [[root of unity]] and $\bmod n\ \ \vdots\ \ a = b$, then $[z]a = [z]b$
+if $z$ is an $n$th [[root of unity]] and $\bmod n\ \braket{a = b}$, then $[z]a = [z]b$
 
 > **proof** let $\mathbb Z k$. then, $[z]a = z[b : kn] = [z]b [[z]n]k = [z]b [1]k = [z]b$
 

@@ -117,7 +117,7 @@ using the [[logarithm]] [[antiderivative]] rule, $\int 1 - x \mid \delta x = \lc
 
 ### exponents and square roots
 
-define $\lfloor x2 \rfloor = x$, but $\lfloor 4 \rfloor =\ \vdots\ \ 2 \lor \cdot 2$ &mdash; Kiera
+define $\lfloor x2 \rfloor = x$, but $\lfloor 4 \rfloor = \braket{2 \lor \cdot 2}$ &mdash; Kiera
 
 $x = \lfloor x2 \rfloor = \lfloor [\cdot x]2 \rfloor = \cdot x$
 

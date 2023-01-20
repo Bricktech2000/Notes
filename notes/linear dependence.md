@@ -4,9 +4,9 @@
 
 **definition**
 
-let $V$ be a [[vector space]] and let $v_0 \cdots v_i$ such that $V\ v_0 \land \cdots V\ v_i$
+let $V$ be a [[vector space]] and let $v = (v^0 \cdots v^i)$ such that $V\ v\ \circ$
 
-$v_0 \cdots v_i$ are [[linearly independent]] if and only if $a_0v_0 : \cdots a_iv_i = O\ =\!=\ a\ \dot=\ 0$
+then, $v$ are [[linearly independent]] if and only if $\,:av = O\ =\!=\ a = O$
 
 **procedures**
 

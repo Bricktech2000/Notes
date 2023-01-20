@@ -272,9 +272,9 @@ matrix multiplication $\,:(A\ \circ)(\rho\ B\ \circ)$
 
 vdots:
 
-$\bmod 5 \braket{a = b}$
+$\bmod 5\ \braket{a = b}$
 
-$\int f\ x \mid \delta x \braket{b \cdot a}$
+$\int f\ x \mid \delta x\ \braket{b \cdot a}$
 
 fork:
 
@@ -287,6 +287,12 @@ $\#\ \psi\ \braket{a = b}$
 $x4 = 1 < x2 = \braket{1 \lor \cdot 1} < x = \braket{1 \lor \cdot 1 \lor \iota \lor \cdot \iota}$
 
 $y = \braket{: \lor\ \cdot}\ 5$
+
+---
+
+$f \text- \smash\circ\ \braket{x \cdot a}\ \braket{x \rightarrow a}$
+
+$\delta f \text- \circ = \delta f - \delta \circ$
 
 ---
 

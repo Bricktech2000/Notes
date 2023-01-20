@@ -8,7 +8,7 @@ $\det A$ where $A$ is a square [[matrix]]
 
 **properties**
 
-$\det A = \det A^\intercal$, see [[matrix#transpose]]
+$\det A = \det\ (\rho\ A)$, see [[matrix#transpose]]
 
 $\det cA = c^n \mid \det A$, where $n$ is the width and height of the [[matrix]]
 

@@ -12,13 +12,13 @@ it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] un
 
 **definition**
 
-let a binary [[operator]] $\circ$ on a [[set]] $S$. for them to form a [[monoid]], the following [[axiom]]s must be satisfied for all $S\ a \land S\ b \land S\ c$:
+let a binary [[operator]] $*$ on a [[set]] $S$. for them to form a [[monoid]], the following [[axiom]]s must be satisfied for all $S\ a \land S\ b \land S\ c$:
 
-_associativity_ $(a \circ b) \circ c = a \circ (b \circ c)$
+_associativity_ $(a * b) * c = a * (b * c)$
 
-_identity element_ $a \circ I = a \land S\ I$
+_identity element_ $a * I = a \land S\ I$
 
-_closure_ $S\ (a \circ b)$
+_closure_ $S\ (a * b)$
 
 &mdash; Wikipedia
 

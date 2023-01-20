@@ -4,11 +4,11 @@
 
 the [[derivative]] of a [[line]]ar [[function]] $x \rightarrow ax : b$ is its [[function#slope]] $a$. similarly, the [[exponential derivative]] of an [[exponent]]ial [[function]] $x \rightarrow ba[x]$ is its base $a$
 
-**definition** $D\ f =\!= x \rightarrow \lfloor f\ x - f\ a \rfloor (x \cdot a)\ \ \vdots\ \ x \rightarrow a =\!= x \rightarrow [\delta\ \lceil f\ x \rceil - \delta x]$
+**definition** $D\ f =\!= x \rightarrow \lfloor f\ x - f\ a \rfloor (x \cdot a)\ \braket{x \rightarrow a} =\!= x \rightarrow [\delta\ \lceil f\ x \rceil - \delta x]$
 
 > **proof**
 >
-> $\begin{align*} & [\delta\ \lceil f\ x \rceil - \delta x] \\\ =\!= & [\lceil f\ x \rceil \cdot \lceil f\ a \rceil - x \cdot a]\ \ \vdots\ \ x \rightarrow a \\\ =\!= & [\lceil f\ x - f\ a \rceil - x \cdot a]\ \ \vdots\ \ x \rightarrow a \\\ =\!= & \lfloor f\ x - f\ a \rfloor (x \cdot a)\ \ \vdots\ \ x \rightarrow a \end{align*}$
+> $\begin{align*} & [\delta\ \lceil f\ x \rceil - \delta x] \\\ =\!= & [\lceil f\ x \rceil \cdot \lceil f\ a \rceil - x \cdot a]\ \braket{x \rightarrow a} \\\ =\!= & [\lceil f\ x - f\ a \rceil - x \cdot a]\ \braket{x \rightarrow a} \\\ =\!= & \lfloor f\ x - f\ a \rfloor (x \cdot a)\ \braket{x \rightarrow a} \end{align*}$
 
 > **note** this is not actually a thing, I made it up. I came up with the [[derivative]]-[[limit]]-definition&ndash;like form first by intuitively swapping out the subtraction and the division $f\ x \cdot f\ a - \dots$ for a ratio and a radical $\lfloor f\ x - f\ a \rfloor \dots$. I then realized that the base-agnostic [[logarithm]] of an [[exponent]]ial [[function]] is a [[line]]ar [[function]], the [[derivative]] of which contains the base of that [[exponent]]ial [[function]]. finally, I realized that taking the [[exponent]]ial of the [[derivative]] of that [[logarithm]] would give me the base of the original [[exponent]]ial [[function]]. this is what the second definition $[\delta\ \lceil f\ x \rceil - \delta x]$ represents
 

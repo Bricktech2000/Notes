@@ -6,11 +6,11 @@ _a collection of vertices connected by a collection of edges_
 
 **definition** _formally in my [[math notation]]_ a [[graph]] is a [[set theory]]etical [[function]] that takes an [[ordered pair]] of vertices and returns whether an edge is connecting them
 
-**definition** an _undirected graph_ is a [[graph]] $G$ such that $G = G^\intercal$
+**definition** an _undirected graph_ is a [[graph]] $G$ such that $G = \rho\ G$
 
-**definition** in [[conventional math notation]], a _graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $E\ e + 0 < \braket{V\ \dot,\ V}\ e$ and $E\ e =\!= E\ e^\intercal$ (see [[relation]], [[ordered pair]])
+**definition** in [[conventional math notation]], a _graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $E\ e + 0 < V\ e^\top \land V\ e^\bot$ and $E\ e =\!= E\ (\rho\ e)$ (see [[relation]], [[ordered pair]])
 
-**definition** in [[conventional math notation]], a _directed graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $E\ e + 0 < \braket{V\ \dot,\ V}\ e$ (see [[relation]], [[ordered pair]])
+**definition** in [[conventional math notation]], a _directed graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $E\ e + 0 < V\ e^\top \land V\ e^\bot$ (see [[relation]], [[ordered pair]])
 
 **definition** a _vertex_ or _node_ is a point in a _graph_
 

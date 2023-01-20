@@ -59,7 +59,7 @@ in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \cdots & T\ b_n \
 >
 > #todo mm
 >
-> then, $proj_W\ u = A \mid u$ with $A = B \text-(B^\intercal B) B^\intercal = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix}$, see #magic. $A$ is the [[linear transformation#standard matrix]] of $T$
+> then, $proj_W\ u = A \mid u$ with $A = B - (\rho\ B \mid B) \mid \rho\ B = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix}$, see #magic. $A$ is the [[linear transformation#standard matrix]] of $T$
 
 > **example** _computing the 2D Rotation Matrix_
 >

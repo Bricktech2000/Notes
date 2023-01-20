@@ -4,11 +4,11 @@
 
 **definition**
 
-a _relation_ $\mathcal R$ between two [[set]]s $A$ and $B$ is a [[set#subset]] of the [[cartesian product]] of the two [[set]]s: $\,\land\ \mathcal R \dashv \braket{A\ \dot,\ B}$
+a _relation_ $\mathcal R$ between two [[set]]s $A$ and $B$ is a [[set#subset]] of the [[cartesian product]] of the two [[set]]s: $\,\land\ \mathcal R \dashv (\bot \braket{A, B}\ \circ)$
 
 **definition**
 
-$\mathcal R\ x = \braket{A\ \dot,\ B}\ x \land P\ x$, where
+$\mathcal R \braket{a, b} = A\ a \land B\ b \land P\ \braket{a, b}$, where
 
 - $\mathcal R$ is a _relation_ between elements of $A$ and $B$
 - $P$ is a [[predicate]]
@@ -31,7 +31,7 @@ then, $\mathcal R \braket{x, y} = \mathcal R^\times \braket{y, x}$
 
 **properties**
 
-$\,\land\ \mathcal R^\times \dashv \braket{B\ \dot,\ A}$
+$\,\land\ \mathcal R^\times \dashv (\bot \braket{B, A}\ \circ)$
 
 #todo **equivalence** for the three following sections
 

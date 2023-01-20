@@ -8,7 +8,7 @@ $e$
 
 **definition**
 
-$[1 : -n]n\ \ \vdots\ \ n \rightarrow \infty = e$
+$[1 : -n]n\ \braket{n \rightarrow \infty} = e$
 
 > **note**
 >
@@ -22,7 +22,7 @@ $[1 : -n]n\ \ \vdots\ \ n \rightarrow \infty = e$
 
 $\delta\ [x] - \delta x = [x]$, see [[derivative]]
 
-$[h] \cdot 1 - h = 1\ \ \vdots\ \ h \rightarrow 0$ &mdash; derived from the [[limit]] definition
+$[h] \cdot 1 - h = 1\ \braket{h \rightarrow 0}$ &mdash; derived from the [[limit]] definition
 
 _Euler's identity_ $[\iota\tau] = 1$, see [[complex]]
 

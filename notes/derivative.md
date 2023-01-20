@@ -8,7 +8,7 @@ $\frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{x \to 
 
 **definition** _in my [[math notation]]_
 
-$\delta\ f\ x - \delta x = f\ (x : h) \cdot f\ x - h\ \ \vdots\ \ h \rightarrow 0 = f\ x \cdot f\ a - x \cdot a\ \ \vdots\ \ x \rightarrow a$
+$\delta\ f\ x - \delta x = f\ (x : h) \cdot f\ x - h\ \braket{h \rightarrow 0} = f\ x \cdot f\ a - x \cdot a\ \braket{x \rightarrow a}$
 
 **definition** _with a multivariable [[function]] in my [[math notation]]_
 
@@ -88,7 +88,7 @@ $\delta\ f\ x\ y - \delta x$, see [[calculus notation]]
 
 the _partial derivative_ of $f\ (x, y)$ with respect to $x$ is defined as follows:
 
-$f\ (x : h, y) \cdot f\ (x, y) - h\ \ \vdots\ \ h \rightarrow 0$
+$f\ (x : h, y) \cdot f\ (x, y) - h\ \braket{h \rightarrow 0}$
 
 the same is true with any other parameter and with any number of parameters
 
