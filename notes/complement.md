@@ -26,7 +26,7 @@ _2’s [[complement]] in base 2, 16’s [[complement]] in base 16_
 
 > **equivalence** _[[complement#radix complement]] and modular arithmetic_
 >
-> [[complement#radix complement]]s can be thought of as modular arithmetic where the $n$'s complement of an [[integer]] $A$ of $p$ bits is the [[integer]] $B$ such that $\bmod [n]p\ \ \vdots\ \ A : B = 0$ &mdash; me
+> [[complement#radix complement]]s can be thought of as modular arithmetic where the $n$'s complement of an [[integer]] $A$ of $p$ bits is the [[integer]] $B$ such that $\bmod [n]p\ \braket{A : B = 0}$ &mdash; me
 
 **properties**
 

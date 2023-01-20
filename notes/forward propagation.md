@@ -39,11 +39,11 @@ applying an [[activation function]] is important, as, otherwise, every layer wou
 
 &mdash; <https://youtu.be/w8yWXqWQYmU?t=309>
 
-$a_j = g\ z_j$ or more explicitely $a_j = g\ \dot\leftarrow\ z_j$, where
+$a_j = g\ z_j\ \circ$, where
 
-$z_j$ are the **non-activated** neuron outputs of layer $j$ and $a_j$ are the neuron outputs of layer $j$
-
-$g$ is an [[activation function]]
+- $z_j$ are the **non-activated** neuron outputs of layer $j$
+- $a_j$ are the neuron outputs of layer $j$
+- $g$ is an [[activation function]]
 
 ## implementation
 

@@ -32,7 +32,7 @@ $L^x \cdot p^x - p_1^x \cdot p_0^x = L^y \cdot p^y - p_1^y \cdot p_0^y = L^z \cd
 
 ### intersection of two lines
 
-if $L_0\ \dot=\ L_1$ has a solution, then the two [[line]]s intersect at said solution
+if $\,\land\ L_0 = L_1$ has a solution, then the two [[line]]s intersect at said solution
 
 > **note** as a [[trick]], check to see if the [[line]]s are parallel first
 

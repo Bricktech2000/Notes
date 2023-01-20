@@ -58,7 +58,7 @@ even if $A$ is related to $B$ by a morphism, $B$ is not necessarily related to $
 
 ### Isomorphism
 
-**definition** an _isomorphism_ is a [[category#morphism]] with a corresponding inverse. let $\mathcal C^{A, B}\ f$ and let $\mathcal C^{B, A}\ f'$ and let $\circ$ be the [[composition]] [[operator]]. then, there exists an _isomorphism_ between $A$ and $B$ if and only if $f \circ f' = \textbf{id}_B \land f' \circ f = \textbf{id}_A$
+**definition** an _isomorphism_ is a [[category#morphism]] with a corresponding inverse. let $\mathcal C^{A, B}\ f$ and let $\mathcal C^{B, A}\ f'$. then, there exists an _isomorphism_ between $A$ and $B$ if and only if $f\ f'\ \circ = \textbf{id}_B \land f'\ f\ \circ = \textbf{id}_A$
 
 **definition** if there exists a [[category#isomorphism]] between two [[category#object]]s $A$ and $B$, they are said to be _isomorphic_
 
@@ -93,7 +93,7 @@ even if $A$ is related to $B$ by a morphism, $B$ is not necessarily related to $
 
 ### Monomorphism
 
-**definition** let $\mathcal C^{A, B}\ f$, let $\mathcal C^{C, A}\ g_1$ and $\mathcal C^{C, A}\ g_2$, and let $\circ$ be the [[composition]] [[operator]]. then, $f$ is a _monomorphism from $A$ to $B$_ if and only if $f \circ g_1 = f \circ g_2 < g_1 = g_2$, for all $\mathcal C^{C, A}\ g_1$ and $\mathcal C^{C, A}\ g_2$, and for all $\mathcal C\ C$
+**definition** let $\mathcal C^{A, B}\ f$, let $\mathcal C^{C, A}\ g_1$ and $\mathcal C^{C, A}\ g_2$. then, $f$ is a _monomorphism from $A$ to $B$_ if and only if $f\ g_1\ \circ = f\ g_2 \circ < g_1 = g_2$, for all $\mathcal C^{C, A}\ g_1$ and $\mathcal C^{C, A}\ g_2$, and for all $\mathcal C\ C$
 
 > **note** this definition works because if $f$ mapped two different [[category#object]]s in $A$ to the same [[category#object]] in $B$, then there could exist two different [[category#morphism]]s $g_1$ and $g_2$ that would map elements of $C$ to $A$ differently which could then be mapped identically to $B$ by $f$
 
@@ -103,7 +103,7 @@ monomorphisms are [[category#morphism]]s that are injective, see [[function#inje
 
 ### Epimorphism
 
-**definition** let $\mathcal C^{A, B}\ f$, let $\mathcal C^{B, C}\ g_1$ and $\mathcal C^{B, C}\ g_2$, and let $\circ$ be the [[composition]] [[operator]]. then, $f$ is an _epimorphism from $A$ to $B$_ if and only if $g_1 \circ f = g_2 \circ f < g_1 = g_2$, for all $\mathcal C^{B, C}\ g_1$ and $\mathcal C^{B, C}\ g_2$, and for all $\mathcal C\ C$
+**definition** let $\mathcal C^{A, B}\ f$, let $\mathcal C^{B, C}\ g_1$ and $\mathcal C^{B, C}\ g_2$. then, $f$ is an _epimorphism from $A$ to $B$_ if and only if $g_1\ f\ \circ = g_2\ f\ \circ < g_1 = g_2$, for all $\mathcal C^{B, C}\ g_1$ and $\mathcal C^{B, C}\ g_2$, and for all $\mathcal C\ C$
 
 > **note** this definition works because if the [[function#range]] $R$ of $f$ was a [[set#subset]] of its [[function#domain]] $B$, then there could exist two different [[category#morphism]]s $g_1$ and $g_2$ that would map elements in $R$ identically but would map elements in $B / R$ differently
 
@@ -119,11 +119,13 @@ epimorphisms are [[category#morphism]]s that are surjective, see [[function#surj
 
 **notation** _in [[conventional math notation]]_ $h = g \circ f$, and is read as _after_ or _then_. for example, $f \circ g$ is read as _f after g_ or _f then g_
 
+**notation** _in my [[math notation]]_ $h = g\ f\ \circ$
+
 ### Associativity Law
 
 [[composition]] in a category is required to be associative
 
-let $\circ$ be the [[composition]] [[operator]]. then, $h \circ (g \circ f) = (h \circ g) \circ f$
+$h\ (g\ f\ \circ)\ \circ = (h\ g\ \circ)\ f \circ$
 
 ## Identity Morphism
 
@@ -135,11 +137,11 @@ let $\circ$ be the [[composition]] [[operator]]. then, $h \circ (g \circ f) = (h
 
 ### Identity Law
 
-for every [[category#object]] $A$ there is an arrow which is a unit of [[composition]]. let $\mathcal C^{A, B}\ f$ and let $\circ$ be the [[composition]] [[operator]]. then,
+for every [[category#object]] $A$ there is an arrow which is a unit of [[composition]]. let $\mathcal C^{A, B}\ f$. then,
 
-$f \circ \textbf{id}_A = f$
+$f\ \textbf{id}_A\ \circ = f$
 
-$\textbf{id}_B \circ f = f$
+$\textbf{id}_B\ f\ \circ = f$
 
 ## Functor
 
@@ -163,17 +165,17 @@ this leads to the [[category]] of [[category]]es. functors must use a pair of [[
 
 &mdash; <https://youtu.be/Gai-liKAUPo?t=190>
 
-**definition** the _oposite category_ of any [[category]] $\mathcal C$ is $\mathcal C^\intercal$
+**definition** the _oposite category_ of any [[category]] $\mathcal C$ is $\rho\ \mathcal C$
 
 this can be thought of as "reversing the direction" of the "arrows" in the [[category]] diagram
 
 **notation** _in [[conventional math notation]]_ $\mathcal C^{\text{op}}$
 
-**notation** _in my [[math notation]]_ $\mathcal C^\intercal$
+**notation** _in my [[math notation]]_ $\rho\ \mathcal C$
 
 **properties**
 
-$\mathcal C^{\intercal \intercal} = \mathcal C$
+$\rho\ \rho\ \mathcal C = \mathcal C$
 
 ## Product
 
@@ -205,9 +207,9 @@ graph TD
   P -- <span class=math>f_1</span> --> A
   P -- <span class=math>f_2</span> --> B
 
-  P_ -- <span class=math>f_1 \circ m</span> --> A
+  P_ -- <span class=math>f_1\ m\ \circ</span> --> A
   P_ -. <span class=math>m</span> .-> P
-  P_ -- <span class=math>f_2 \circ m</span> --> B
+  P_ -- <span class=math>f_2\ m\ \circ</span> --> B
 ```
 
 **representation** _[[category#coproduct]] $Q$_
@@ -222,7 +224,7 @@ graph BT
   A -- <span class=math>f_1</span> --> Q
   B -- <span class=math>f_2</span> --> Q
 
-  A -- <span class=math>m \circ f_1</span> --> Q_
+  A -- <span class=math>m\ f_1\ \circ</span> --> Q_
   Q -. <span class=math>m</span> .-> Q_
-  B -- <span class=math>m \circ f_2</span> --> Q_
+  B -- <span class=math>m\ f_2\ \circ</span> --> Q_
 ```

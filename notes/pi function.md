@@ -6,7 +6,7 @@
 
 **definition** _given a $\mathbb C z$ such that $z^{re} > 0$_
 
-$\Pi\ z = \int t[z] - e[t] \mid \delta t\ \ \vdots\ \ \infty \cdot 0$
+$\Pi\ z = \int t[z] - e[t] \mid \delta t\ \braket{\infty \cdot 0}$
 
 > **note** the [[pi function]] is defined for all $\mathbb C z$ such that $+\mathbb N (\cdot z \cdot 1)$ (it is not defined for negative [[integer]]s but is defined for $0$).
 >

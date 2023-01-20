@@ -22,7 +22,7 @@ $(1, 2)$
 
 **properties**
 
-_zero [[vector in rn]]_ $O$ such that $O\ \dot=\ 0$
+_zero [[vector in rn]]_ $O$ such that $O \circ \circ = 0$
 
 _[[vector in rn]] addition_ $(a, b) : (c, d) =\!= (a : c, b : d)$
 

@@ -8,7 +8,7 @@ the [[dot product]] is defined for any [[vector in rn]]
 
 > **note** if vectors are identified with row [[matrix]]es, the [[dot product]] can also be written as a [[matrix]] product &mdash; Wikipedia
 >
-> $\,:ab = ab^\intercal$ #todo mm
+> $\,:ab = (0 \rightarrow a) \mid \rho\ (0 \rightarrow b)$ #todo mm
 
 > **example** $\,: (3, 2, \cdot 1)(4, \cdot6, 3) = 3 \shortmid 4 : 2 \shortmid \cdot 6 : \cdot 1 \shortmid 3 = \cdot3$
 

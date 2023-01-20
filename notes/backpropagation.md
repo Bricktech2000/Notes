@@ -12,7 +12,7 @@ _algorithm to compute the [[gradient]] of a [[neural network]] efficiently_
 
 &mdash; me
 
-let $g'\ z = \begin{bmatrix} (\delta\ g\ z^0 - \delta z^0) \\\ \vdots \\\ (\delta\ g\ z^n - \delta z^n) \end{bmatrix}$
+let $g'\ z = x \rightarrow \delta\ g\ (z\ x) - \delta x =  \begin{bmatrix} (\delta\ g\ z^0 - \delta z^0) \\\ \vdots \\\ (\delta\ g\ z^n - \delta z^n) \end{bmatrix}$
 
 ## computing changes in loss
 
@@ -39,9 +39,9 @@ therefore, $\delta a_j^j - \delta w_{k \to j}^{j, k} = a_k^k \mid (\delta\ g\ z_
 
 to maximize $\Delta L$, $\Delta w_{k \to j}^{j, k} = a_k^k \mid (\delta\ g\ z_j^j - \delta z_j^j) \mid \Delta a_j^j$, see [[gradient]]
 
-written using an [[outer product]], $\Delta w_{k \to j} = (\Delta a_j \mid g'\ z_j)\ \dot\mid\ a_k$, see [[hadamard product]], [[outer product]]
+written using an [[outer product]], $\Delta w_{k \to j} = (\Delta a_j \mid g'\ z_j)\ \circ \mid a_k\ \circ$, see [[hadamard product]], [[outer product]]
 
-written using [[matrix#multiplication]], $\Delta w_{k \to j} = (\Delta a_j \mid g'\ z_j) \mid {a_k}^{\intercal}$, see [[hadamard product]], [[matrix#multiplication]] #todo mm
+written using [[matrix#multiplication]], $\Delta w_{k \to j} = (\Delta a_j \mid g'\ z_j) \mid \rho\ a_k$, see [[hadamard product]], [[matrix#multiplication]] #todo mm
 
 ## computing changes in activation
 
@@ -57,7 +57,7 @@ therefore, $\delta a_j^j - \delta a_k^k = w_{k \to j}^{j, k} \mid (\delta\ g\ z_
 
 to maximize $\Delta L$, $\Delta a_k^k = w_{k \to j}^{j, k} \mid (\delta\ g\ z_j^j - \delta z_j^j) \mid \Delta a_j^j$ summed over all $j$ , see [[gradient]]
 
-written using [[matrix#multiplication]], $\Delta a_j = {w_{k \to j}}^{\intercal}\ \mid (\Delta a_j \mid g'\ z_j)$, see [[hadamard product]], [[matrix#multiplication]] #todo mm
+written using [[matrix#multiplication]], $\Delta a_j = \rho\ w_{k \to j}\ \mid (\Delta a_j \mid g'\ z_j)$, see [[hadamard product]], [[matrix#multiplication]] #todo mm
 
 ## propagating the gradient
 

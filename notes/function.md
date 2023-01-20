@@ -174,13 +174,13 @@ let $f$ be a [[function#continuous function]] near $x = c$ and $c$ be a critical
 
 **see** [[math notation]]
 
-**definition** a [[function]] $f\ x$ is _continuous_ at $x = a$ if $f\ x\ \ \vdots\ \ x \rightarrow a = f\ a$
+**definition** a [[function]] $f\ x$ is _continuous_ at $x = a$ if $f\ x\ \braket{x \rightarrow a} = f\ a$
 
-> **note** above, $f\ x\ \ \vdots\ \ x \rightarrow a$ must exist and $f\ x$ must be defined at $x = a$
+> **note** above, $f\ x\ \braket{x \rightarrow a}$ must exist and $f\ x$ must be defined at $x = a$
 
-**definition** a [[function]] is _continuous from the left_ at $a$ when $f\ x\ \ \vdots\ \ x \stackrel \cdot \rightarrow a = f\ a$ and both other conditions are met
+**definition** a [[function]] is _continuous from the left_ at $a$ when $f\ x\ \braket{x \stackrel \cdot \rightarrow a} = f\ a$ and both other conditions are met
 
-**definition** a [[function]] is _continuous from the right_ at $a$ when $f\ x\ \ \vdots\ \ x \stackrel {\cdot \cdot} \rightarrow a = f\ a$ and both other conditions are met
+**definition** a [[function]] is _continuous from the right_ at $a$ when $f\ x\ \braket{x \stackrel {\cdot \cdot} \rightarrow a} = f\ a$ and both other conditions are met
 
 **theorem**
 
@@ -404,9 +404,9 @@ a [[function#total function]] maps every element of its [[function#domain]] to a
 
 > **example** HTTP `GET`, `PUT` and `DELETE` are all idempotent
 
-**definition** _[[functional programming]] and [[mathematics]]_ an element $x$ of a [[set]] $S$ equiped with an [[operator]] $\circ$ is said to be _idempotent under $\circ$_ if $x \circ x = x$
+**definition** _[[functional programming]] and [[mathematics]]_ an element $x$ of a [[set]] $S$ equiped with an [[operator]] $*$ is said to be _idempotent under $*$_ if $x * x = x$
 
-**definition** _[[functional programming]] and [[mathematics]]_ a [[function]] $f$ is said to be _idempotent_ if $f\ x = f\ (f\ x)$ for all $x$ and, equivalently, an [[operator]] $\circ$ on a set $S$ is said to be _idempotent_ if $x \circ x = x$ for all $S\ x$
+**definition** _[[functional programming]] and [[mathematics]]_ a [[function]] $f$ is said to be _idempotent_ if $f\ x = f\ (f\ x)$ for all $x$ and, equivalently, an [[operator]] $*$ on a set $S$ is said to be _idempotent_ if $x * x = x$ for all $S\ x$
 
 > **example** in the [[monoid]] $\braket{\mathbb N, \mid}$, only $0$ and $1$ are idempotent
 

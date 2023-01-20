@@ -28,7 +28,7 @@ _as a [[function]] (closed form) in [[conventional math notation]]_ $a_n = n^2$
 
 let $a = a^0, a^1, a^2, \cdots$
 
-$a_{sum} = \,: a = S^n\ \ \vdots\ \ n \rightarrow \infty$, where
+$a_{sum} = \,: a = S^n\ \braket{n \rightarrow \infty}$, where
 
 - $a$ is the [[sequence]] to be summed
 - $S$ is the [[series#sequence of partial sums]] of $a$
@@ -64,7 +64,7 @@ suppose $a^n = f\ n \dashv \mathbb N n$. then, the increase and decrease of the 
 
 ## Divergent Sequence
 
-**definition** a [[sequence]] is said to _converge_ if the [[limit]] $a^n\ \ \vdots\ \ n \rightarrow \infty$ exists as a finite number, see [[limit#existence]]
+**definition** a [[sequence]] is said to _converge_ if the [[limit]] $a^n\ \braket{n \rightarrow \infty}$ exists as a finite number, see [[limit#existence]]
 
 **properties**
 
@@ -74,10 +74,10 @@ if a [[sequence]] is [[sequence#bound]]ed and monotonic (see [[sequence#decreasi
 
 **theorem**
 
-let $a$ be a [[sequence]] and $f\ x$ be a [[function]] and suppose $a^n = f\ n > \mathbb N n$. then, $f\ x\ \ \vdots\ \ x \rightarrow \infty = L\ \ <\ \ a^n\ \ \vdots\ \ n \rightarrow \infty = L$. in other words,
+let $a$ be a [[sequence]] and $f\ x$ be a [[function]] and suppose $a^n = f\ n > \mathbb N n$. then, $f\ x\ \braket{x \rightarrow \infty} = L\ \ <\ \ a^n\ \braket{n \rightarrow \infty} = L$. in other words,
 
-- if $f\ x\ \ \vdots\ \ x \rightarrow \infty$ converges, then $a^n\ \ \vdots\ \ n \rightarrow \infty$ converges
-- if $f\ x\ \ \vdots\ \ x \rightarrow \infty$ diverges, then $a^n\ \ \vdots\ \ n \rightarrow \infty$ diverges
+- if $f\ x\ \braket{x \rightarrow \infty}$ converges, then $a^n\ \braket{n \rightarrow \infty}$ converges
+- if $f\ x\ \braket{x \rightarrow \infty}$ diverges, then $a^n\ \braket{n \rightarrow \infty}$ diverges
 
 ### [[sequence#geometric sequence]] convergence
 

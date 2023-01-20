@@ -26,13 +26,13 @@ $\dots 66667 \mid \dots 00003 = \dots 00001 = 1$ and therefore $\dots 66667 = -3
 
 > **note** [[p-adic]] numbers supporting division seems to be in [[contradiction]] with the following &mdash; me
 >
-> $2[5[n]]\ \ \vdots\ \ n \rightarrow \infty = 2[5[n : 1]]\ \ \vdots\ \ n \rightarrow \infty$ and therefore $x = x5$ with $x = 2[5[n]]\ \ \vdots\ \ n \rightarrow \infty$ &mdash; <https://youtu.be/3gyHKCDq1YA?t=829>
+> $2[5[n]]\ \braket{n \rightarrow \infty} = 2[5[n : 1]]\ \braket{n \rightarrow \infty}$ and therefore $x = x5$ with $x = 2[5[n]]\ \braket{n \rightarrow \infty}$ &mdash; <https://youtu.be/3gyHKCDq1YA?t=829>
 >
 > dividing both sides by $x$, we get $1 = x4$. taking the fourth root on both sides, we get $1 = x$. however, acconding to <https://youtu.be/3gyHKCDq1YA?t=829>, $x = \iota$
 >
 > > **note** this [[contradiction]] could be eliminated by the following &mdash; me and <https://www.wolframalpha.com/input?i=1%5E%281%2F4%29>
 > >
-> > let $1 = x4$. taking the square root on both sides, we get $x2 =\ \ \vdots\ \ 1 \lor \cdot 1$. taking the square root on both sides again, we get $x =\ \ \vdots\ \ 1 \lor \cdot 1 \lor \iota \lor \cdot \iota$. this resolves the contradiction
+> > let $1 = x4$. taking the square root on both sides, we get $x2 = \braket{1 \lor \cdot 1}$. taking the square root on both sides again, we get $x = \braket{1 \lor \cdot 1 \lor \iota \lor \cdot \iota}$. this resolves the contradiction
 > >
 > > #think superposition in [[improved expression evaluation]]
 
@@ -57,7 +57,7 @@ $|n|^p = -p[\psi\ n\ p]$, where
 
 > **example** $|1000|^{10} = \text-1000$
 
-> **example** $p$-adically, $p[n]\ \ \vdots\ \ n \rightarrow \infty = 0$
+> **example** $p$-adically, $p[n]\ \braket{n \rightarrow \infty} = 0$
 
 > **example** $2$-adically, $1 : 2 : 4 : 8 : \cdots = \dots 11111 = \cdot 1$. more generally, $p0 :  p1 : \cdots = \cdot 1$
 

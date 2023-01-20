@@ -55,8 +55,8 @@ _useful for [[series]] containing [[logarithm]]s or easy-to-compute [[integral]]
 
 let $b$ be a [[series]] and suppose $f$ is an eventually _continuous_, _positive_ and _infinite_ [[function]] on $x \rightarrow (R \dashv x\ (\dashv \land +)\ \infty)$ **for some $\mathbb R R$** and that $b^n = f\ n > \mathbb N n$. then,
 
-- if $\int f\ x \mid \delta x\ \ \vdots\ \ \infty \cdot 0$ converges, then $\,: b$ converges
-- if $\int f\ x \mid \delta x\ \ \vdots\ \ \infty \cdot 0$ diverges, then $\,: b$ diverges
+- if $\int f\ x \mid \delta x\ \braket{\infty \cdot 0}$ converges, then $\,: b$ converges
+- if $\int f\ x \mid \delta x\ \braket{\infty \cdot 0}$ diverges, then $\,: b$ diverges
 
 ### comparison tests
 
@@ -76,7 +76,7 @@ let $b$ and $B$ be [[series]] and suppose $0 \dashv b^n \dashv B^n > \mathbb N n
 
 **theorem** _Limit Comparison Test_
 
-let $a$ and $b$ be [[series]] such that $a_n \vdash 0 \land b_n \vdash 0 > \mathbb N n$. if $a^n - b^n\ \ \vdots\ \ n \rightarrow \infty = L$ where $L\ (\vdash \land +)\ 0$ and is finite, then:
+let $a$ and $b$ be [[series]] such that $a_n \vdash 0 \land b_n \vdash 0 > \mathbb N n$. if $a^n - b^n\ \braket{n \rightarrow \infty} = L$ where $L\ (\vdash \land +)\ 0$ and is finite, then:
 
 - $a$ converges if and only if $b$ converges
 - $a$ diverges if and only if $b$ diverges
@@ -89,7 +89,7 @@ _useful for [[series]] containing factorials and a geometric part and for [[seri
 
 **theorem** _Ratio Test_
 
-let $b$ be a [[series]] and let $L = |b^{n : 1} - b^n|\ \ \vdots\ \ n \rightarrow \infty$. then,
+let $b$ be a [[series]] and let $L = |b^{n : 1} - b^n|\ \braket{n \rightarrow \infty}$. then,
 
 - if $L\ (\dashv \land +)\ 1$, $b$ is absolutely convergent and therefore also convergent
 - if $L\ (\vdash \land +)\ 1$ or $L = \infty$, $b$ is divergent
@@ -101,13 +101,13 @@ let $b$ be a [[series]] and let $L = |b^{n : 1} - b^n|\ \ \vdots\ \ n \rightarro
 
 **theorem** _Divergence Test_
 
-let $b$ be a [[series]]. if $b^n\ \ \vdots\ \ n \rightarrow \infty + 0$, then $b$ is divergent
+let $b$ be a [[series]]. if $b^n\ \braket{n \rightarrow \infty} + 0$, then $b$ is divergent
 
-> **note** $b^n\ \ \vdots\ \ n \rightarrow \infty = 0$ does not imply that $b$ is convergent
+> **note** $b^n\ \braket{n \rightarrow \infty} = 0$ does not imply that $b$ is convergent
 
 ### alternating test
 
-**theorem** let $b$ be a [[series]] such that $b^n = [\cdot 1]n \mid a^n$ where either $a^n \vdash 0$ for all $n$ or $a^n \dashv 0$ for all $n$. then, if $a^n\ \ \vdots\ \ n \rightarrow \infty = 0$ and if $a$ is an eventually [[sequence#decreasing sequence]], the [[series]] $b$ is a [[series#convergent series]] &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
+**theorem** let $b$ be a [[series]] such that $b^n = [\cdot 1]n \mid a^n$ where either $a^n \vdash 0$ for all $n$ or $a^n \dashv 0$ for all $n$. then, if $a^n\ \braket{n \rightarrow \infty} = 0$ and if $a$ is an eventually [[sequence#decreasing sequence]], the [[series]] $b$ is a [[series#convergent series]] &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
 
 ### [[series#geometric series]] convergence
 
@@ -160,8 +160,8 @@ _convergence_ a [[series#geometric series]] $b^0r0 : b^0r1 : \cdots$ with $b^0 +
 >
 > taking the [[limit]] to compute the value at which the [[series]] converges,
 >
-> - if $|r|\ (\dashv \land +)\ 1 \land r + 0$, then $S^n\ \ \vdots\ \ n \rightarrow \infty = b^0 - 1 \cdot r$, the [[series]] converges
-> - if $|r| \vdash 1 \land r + 1$, then $S^n\ \ \vdots\ \ n \rightarrow \infty =\ \because \infty$, the [[series]] diverges
+> - if $|r|\ (\dashv \land +)\ 1 \land r + 0$, then $S^n\ \braket{n \rightarrow \infty} = b^0 - 1 \cdot r$, the [[series]] converges
+> - if $|r| \vdash 1 \land r + 1$, then $S^n\ \braket{n \rightarrow \infty} =\ \because \infty$, the [[series]] diverges
 >
 > if $r = 0 \lor r = 1$, the above definition of $S^n$ does not necessarily hold, see [[improved expression evaluation]]. therefore, we must use the definition
 >
@@ -169,10 +169,10 @@ _convergence_ a [[series#geometric series]] $b^0r0 : b^0r1 : \cdots$ with $b^0 +
 >
 > taking the [[limit]] to compute the value at which the [[series]] converges,
 >
-> - if $r = 0 \land b^0 + 0$, then $S^n\ \ \vdots\ \ n \rightarrow \infty = [0]0 = 1$, the [[series]] converges, see [[improved expression evaluation]]
-> - if $r = 0 \land b^0 = 0$, then $S^n\ \ \vdots\ \ n \rightarrow \infty = 0$, the [[series]] converges
-> - if $r = 1 \land b^0 + 0$, then $S^n\ \ \vdots\ \ n \rightarrow \infty =\ \because \infty$, the [[series]] diverges
-> - if $r = 1 \land b^0 = 0$, then $S^n\ \ \vdots\ \ n \rightarrow \infty = 0$, the [[series]] converges
+> - if $r = 0 \land b^0 + 0$, then $S^n\ \braket{n \rightarrow \infty} = [0]0 = 1$, the [[series]] converges, see [[improved expression evaluation]]
+> - if $r = 0 \land b^0 = 0$, then $S^n\ \braket{n \rightarrow \infty} = 0$, the [[series]] converges
+> - if $r = 1 \land b^0 + 0$, then $S^n\ \braket{n \rightarrow \infty} =\ \because \infty$, the [[series]] diverges
+> - if $r = 1 \land b^0 = 0$, then $S^n\ \braket{n \rightarrow \infty} = 0$, the [[series]] converges
 
 ## P-Series
 

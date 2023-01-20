@@ -154,7 +154,7 @@ $\mathcal R A$ does not change when applying [[linear system#elementary operatio
 
 **properties**
 
-$\mathcal C A = \mathcal R A^\intercal \land \mathcal R A = \mathcal C A^\intercal$, see [[matrix#transpose]]
+$\mathcal C A = \mathcal R (\rho\ A) \land \mathcal R A = \mathcal C (\rho\ A)$, see [[matrix#transpose]]
 
 **applications**
 
@@ -184,15 +184,15 @@ _the transpose of a [[matrix]]_
 
 _flips a [[matrix]] around its [[matrix#diagonal]]_
 
-**definition**
+**notation** $\rho\ A$
 
-$(A^\intercal)^{i, j} = A^{j, i}$
+**definition** $\rho\ A$
 
 **properties**
 
-$(A^\intercal)^\intercal = A$
+$\rho\ \rho\ A = A$
 
-$(AB)^\intercal = B^\intercal A^\intercal$ #todo mm
+$\rho\ AB = \rho\ B \mid \rho\ A$ #todo mm
 
 ## Conjugate Transpose
 
@@ -202,15 +202,15 @@ _the [[complex#conjugate]] of every entry of the [[matrix#transpose]] of a [[mat
 
 **definition**
 
-$\operatorname{conj} A^\intercal$, where
+$\operatorname{conj}\ (\rho\ A)$, where
 
 - $A$ is the [[matrix]] to find the [[matrix#conjugate transpose]] of
 - $\operatorname{conj}$ is the [[complex#conjugate]] [[function]]
-- $^\intercal$ is the [[matrix#transpose]] [[operator]]
+- $\rho$ is the [[matrix#transpose]] [[operator]]
 
 **properties**
 
-let a [[matrix]] of [[real]]s $A$. then, $\operatorname{conj} A^\intercal = A^\intercal$
+let a [[matrix]] of [[real]]s $A$. then, $\operatorname{conj}\ (\rho\ A) = (\rho\ A)$
 
 ## Inverse
 
@@ -339,7 +339,7 @@ let $\mathbb M^{m, n}A$ (see [[matrix]]). the following [[logic statement]]s are
 
 let $\mathbb M^{n, n} A$ (see [[matrix]]). the following [[logic statement]]s are equivalent:
 
-> **note** all [[logic statement]]s below are valid for both $A$ and $A^\intercal$, see [[matrix#transpose]]
+> **note** all [[logic statement]]s below are valid for both $A$ and $\rho\ A$, see [[matrix#transpose]]
 
 > **note** thinking of [[matrix]]es as [[linear transformation]]s makes the following [[logic statement]]s easier to understand intuitively
 

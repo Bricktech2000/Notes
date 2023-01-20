@@ -18,7 +18,7 @@ _a [[monoid]] where every element also has an inverse_ &mdash; <https://youtu.be
 
 **definition**
 
-let a binary [[operator]] $:$ on a [[set]] $G$. for them to form a [[group]], the following [[axiom]]s must be satisfied:
+let a binary [[operator]] $:$ on a [[set]] $G$. for them to form a [[group]], the following [[axiom]]s must be satisfied for all $G\ a \land G\ b \land G\ c$:
 
 _associativity_ $(a : b) : c = a : (b : c) > G\ a \land G\ b \land G\ c$
 
@@ -44,7 +44,7 @@ the _inverse_ of $a$ is denoted $a^{-1}$
 
 the _identity_ element is denoted $e$
 
-$a \circ a$ is denoted $a^2$
+$a * a$ is denoted $a^2$
 
 **properties** _follow from the [[axiom]]s_
 
@@ -77,4 +77,4 @@ $\cdot \smash\cdot a = a$
 
 ## Subgroup
 
-**theorem** _Lagrange's Theorem_ let $G$ be a [[group]] and $H$ be a [[group#subgroup]] of $G$. then, $\psi\ \#\ H \dashv \psi\ \#\ G$ or equivanently $\psi\ \#\ \ \vdots\ \ H \dashv G$, see [[psi function in mat2348]]
+**theorem** _Lagrange's Theorem_ let $G$ be a [[group]] and $H$ be a [[group#subgroup]] of $G$. then, $\psi\ \#\ H \dashv \psi\ \#\ G$ or equivanently $\psi\ \#\ \braket{H \dashv G}$, see [[psi function in mat2348]]

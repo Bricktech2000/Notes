@@ -20,9 +20,7 @@ $C\ f\ g = x \rightarrow f\ g\ x$, where
 
 **properties**
 
-let $\circ$ be the [[composition]] [[operator]]. then,
-
-_associativity_ $h \circ (g \circ f) =\!= (h \circ g) \circ f =\!= h \circ g \circ f$ &mdash; <https://youtu.be/SmXB2K_5lcA?t=662>
+_associativity_ $h\ (g\ f\ \circ)\ \circ =\!= (h\ g\ \circ)\ f\ \circ =\!= h\ g\ f\ \circ$ &mdash; <https://youtu.be/SmXB2K_5lcA?t=662>
 
 **applications**
 
@@ -34,10 +32,8 @@ _associativity_ $h \circ (g \circ f) =\!= (h \circ g) \circ f =\!= h \circ g \ci
 
 **aka** _identity [[function]]_
 
-**notation**
+**notation** $\circ$
 
-$\circ$
+**definition** $\circ$
 
-**definition**
-
-$\circ x =\!= x$
+**properties** $\circ\ x =\!= x$

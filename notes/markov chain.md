@@ -37,7 +37,7 @@ certain [[markov chain]]s converge to a _stationary distribution_, which can be 
 >
 > #todo mm
 >
-> we can then deduce $S_\infty = [P]n \mid S_0\ \ \vdots\ \ n \rightarrow \infty$, where
+> we can then deduce $S_\infty = [P]n \mid S_0\ \braket{n \rightarrow \infty}$, where
 >
 > - $S_\infty$ is the _stationary distribution_ of the [[markov chain]]
 

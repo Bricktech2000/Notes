@@ -78,15 +78,15 @@ $\mathbb E < \mathbb Z$
 
 ## Union
 
-**definition** $A \top B$
+**definition** $A\ \top\ B$
 
 ### Disjoint Union
 
-**definition** $A \top B$ with the guarantee that $A \bot B =\!= \braket{\ }$
+**definition** $A\ \top\ B$ with the guarantee that $A\ \bot\ B =\!= \braket{\ }$
 
 ## Intersection
 
-**definition** $A \bot B$
+**definition** $A\ \bot\ B$
 
 ## Equivalence
 
@@ -142,7 +142,7 @@ when two [[set]]s form a [[set#union]] $A \lor B$, then $\#\ S = \#\ A : \#\ B \
 
 _difference principle_ the cardinality of the difference of two [[set]]s is $\#\ (A \land +B) = \#\ A \cdot \#\ (A \land B)$
 
-_product principle_ the cardinality of the [[cartesian product]] of two [[set]]s is $\# \braket{A\ \dot,\ B} = \#\ A \mid \#\ B$
+_product principle_ the cardinality of the [[cartesian product]] of two [[set]]s is $\#\ (\bot \braket{A, B}\ \circ) = \#\ A \mid \#\ B$
 
 ## Power Set
 
@@ -219,6 +219,6 @@ $C\ n\ k = C\ n\ (n \cdot k)$
 - let $C\ n\ k$ be the $k$-subsets of an $n$-[[set]]
 - let $P\ k\ k$ be the $k$-permutations of a $k$-[[set]]
 
-then, there exists a [[function#bijective function]] between $P\ n\ k$ and $\braket{C\ n\ k\ \dot,\ P\ k\ k}$
+then, there exists a [[function#bijective function]] between $P\ n\ k$ and $\bot \braket{C\ n\ k, P\ k\ k}\ \circ$
 
 moreover, $\#\ C\ n\ k = \#\ C\ n\ (n \cdot k)$. the number of $k$-subsets of an $n$-[[set]] is equal to the number of $n \cdot k$-subsets of an $n$-[[set]]

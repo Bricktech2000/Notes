@@ -29,22 +29,22 @@ _[[ordered pair]] addition_ $\braket{a, b} : \braket{c, d} =\!= \braket{a : c, b
 
 _multiplication by a [[scalar]]_ $c\braket{a, b} =\!= \braket{ca, cb} > \mathbb R c$
 
-## Transpose
-
-_the transpose of an [[ordered pair]]_
+## Inverse
 
 _switches around the two elements of an [[ordered pair]]_
 
 > **note** this was made up by me and probably doesn't have an equivalent in [[conventional math notation]]
 
-**definition**
+**notation** $P\ (+ \circ)$
 
-$P^\intercal =\!= \braket{P^\top, P^\bot}$
+**definition** $P\ (+ \circ)$
 
 **properties**
 
-$(P^\intercal)^\intercal = P$ for all [[ordered pair]] $P$
+$P\ (+ \circ) =\!= \braket{P^\top, P^\bot}$
+
+$P\ (+ \circ)\ (+ \circ) = P$ for all [[ordered pair]] $P$
 
 **examples**
 
-> **example** $\braket{e, i}^\intercal = \braket{i, e}$
+> **example** $\braket{e, i}\ (+ \circ) = \braket{i, e}$

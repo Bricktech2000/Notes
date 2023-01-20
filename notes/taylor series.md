@@ -57,13 +57,13 @@ $R_{T_f}^n\ x = f\ x \cdot S_{T_f}^n\ x$, where
 
 > **note** the definition of the [[taylor series#remainder]] is different from the usual [[series#remainder]] as $S_{T_f}^\infty\ x$ is not necessarily equal to $f\ x$. as we want [[taylor series]] to converge to their underlying [[function]], we use $f\ x$ instead of $S_{T_f}^\infty\ x$ to define the [[taylor series#remainder]]
 
-**theorem** the [[taylor series]] $T_f\ x$ converges to $f\ x$ in an interval $I$ if and only if $R_{T_f}^n\ x\ \ \vdots\ \ n \rightarrow \infty = 0 > I\ x$
+**theorem** the [[taylor series]] $T_f\ x$ converges to $f\ x$ in an interval $I$ if and only if $R_{T_f}^n\ x\ \braket{n \rightarrow \infty} = 0 > I\ x$
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=22042>
 
 **theorem** _Taylor's Inequality #magic_ $|(d^n\ f)\ x| \dashv M \land \mathbb R M \land \mathbb N n > |x \cdot a| \dashv d \land \mathbb R a \land \mathbb R d < (|R_{T_f}^{n \cdot 1}\ x| \dashv M - \Pi\ n \mid [|x \cdot a|]n > |x \cdot a| \dashv d)$
 
-**theorem** _Practical Convergence Condition_ $|(d^n\ f)\ x| \dashv M \land \mathbb R M > \mathbb N n > |x \cdot a| \dashv d \land \mathbb R a \land \mathbb R d < (R_{T_f}^n\ x\ \ \vdots\ \ n \rightarrow \infty = 0 > |x \cdot a| \dashv d)$
+**theorem** _Practical Convergence Condition_ $|(d^n\ f)\ x| \dashv M \land \mathbb R M > \mathbb N n > |x \cdot a| \dashv d \land \mathbb R a \land \mathbb R d < (R_{T_f}^n\ x\ \braket{n \rightarrow \infty} = 0 > |x \cdot a| \dashv d)$
 
 > **proof** <https://youtu.be/7gigNsz4Oe8?t=22288>
 
