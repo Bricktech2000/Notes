@@ -104,7 +104,7 @@ the same is true with any other parameter and with any number of parameters
 
 **definition** a [[function]] $f$ is _differentiable_ at $a$ if $\delta f\ a - \delta x$ exists
 
-**definition** a [[function]] is _differentiable_ on an interval $x \rightarrow (a \dashv x \dashv b)$ if it is differentiable on every point from $a$ to $b$
+**definition** a [[function]] is _differentiable_ on an interval $a \dashv \circ \dashv b$ if it is differentiable on every point from $a$ to $b$
 
 **theorem** if $f\ x$ is not continuous at $x = a$, then it is not differentiable at $x = a$
 

@@ -6,7 +6,7 @@ _allows for the approximation of a [[function]] near a point by a [[polynomial]]
 
 > **note** [[taylor series]] don't necessarily have an infinite radius of convergence, see [[series#power series]]
 >
-> as an example, the [[taylor series]] of the [[function]] $\lceil x \rceil$ at $a = 1$ has a radius of convergence of $1$, meaning the [[taylor series]] only converges to the [[function]] on the interval $x \rightarrow (0\ (\dashv \land +)\ x \dashv 2)$
+> as an example, the [[taylor series]] of the [[function]] $\lceil x \rceil$ at $a = 1$ has a radius of convergence of $1$, meaning the [[taylor series]] only converges to the [[function]] on the interval $0\ (\dashv \land +)\ \circ \dashv 2$
 >
 > &mdash; <https://youtu.be/X0razs3zR94>
 

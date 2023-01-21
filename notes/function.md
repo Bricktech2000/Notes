@@ -101,9 +101,9 @@ _an odd function is symmetrical about the y axis, but also flipped about the x a
 
 **see** [[calculus notation]]
 
-**definition** a [[function]] $f$ is _increasing_ on an interval $x \rightarrow (a \dashv x \dashv b)$ if $x_1 \dashv x_2 < f\ x_1 \dashv f\ x_2$, or $\delta\ f\ x - \delta x \vdash 0$ on that interval
+**definition** a [[function]] $f$ is _increasing_ on an interval $a \dashv \circ \dashv b$ if $x_1 \dashv x_2 < f\ x_1 \dashv f\ x_2$, or $\delta\ f\ x - \delta x \vdash 0$ on that interval
 
-**definition** a [[function]] $f$ is _decreasing_ on an interval $x \rightarrow (a \dashv x \dashv b)$ if $x_1 \vdash x_2 < f\ x_1 \vdash f\ x_2$, or $\delta\ f\ x - \delta x \dashv 0$ on that interval
+**definition** a [[function]] $f$ is _decreasing_ on an interval $a \dashv \circ \dashv b$ if $x_1 \vdash x_2 < f\ x_1 \vdash f\ x_2$, or $\delta\ f\ x - \delta x \dashv 0$ on that interval
 
 ## Concavity
 
@@ -192,7 +192,7 @@ if $f\ x$ and $g\ x$ are continuous at $a$, then the following [[function]]s are
 - $c f$ where $c$ is a [[scalar]]
 - $f \text- g$ if $g\ a + 0$ (restriction not necessary, see [[improved expression evaluation]])
 
-**definition** a [[function]] is _continuous_ on an interval $x \rightarrow (a \dashv x \dashv b)$ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
+**definition** a [[function]] is _continuous_ on an interval $a \dashv \circ \dashv b$ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
 
 ## Reciprocal
 
@@ -263,7 +263,7 @@ an osculating [[circle]] has the same [[function#slope]] and the same [[function
 $f_{ave} = F\ b \cdot F\ a - b \cdot a$, where
 
 - $F$ is an [[antiderivative]] of $f\ x$ with respect to $x$, $\int f\ x \mid \delta x$
-- $f_{ave}$ is the _average_ of the [[function]] $f\ x$ on the interval $x \rightarrow (a \dashv x \dashv b)$
+- $f_{ave}$ is the _average_ of the [[function]] $f\ x$ on the interval $a \dashv \circ \dashv b$
 
 &mdash; <https://youtu.be/7gigNsz4Oe8?t=3093>
 

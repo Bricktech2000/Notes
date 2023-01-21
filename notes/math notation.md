@@ -138,18 +138,15 @@ _in order of high to low precedence_
 
 ### shorthands
 
-| shorthand                             | definition                          | notes                        |
-| ------------------------------------- | ----------------------------------- | ---------------------------- |
-| $x\omega$                             | $[x]\omega$                         |                              |
-| $ax$                                  | $a \smash\shortmid x$               |                              |
-| $f\ E$                                | $f \leftarrow E$                    | common, longhand discouraged |
-| $x\ y \rightarrow E$                  | $x \rightarrow y \rightarrow E$     |                              |
-| $\braket{\ }$                         | $\braket{\braket{\ }}$              | see [[empty]] [[set]]        |
-| $(\ )$                                | $((\ ))$                            | see [[multiset]]             |
-| $V^x, V^y, V^z$                       | $V^0, V^1, V^2$                     |                              |
-| $M^{i, j}$                            | $M^{\braket{i, j}}$                 | common, longhand discouraged |
-| $x \rightarrow (a \dashv x \dashv b)$ | the closed interval from $a$ to $b$ |                              |
-| $f\ g\ \circ$                         | $x \rightarrow f\ (g\ x)$           | $\circ$ is a "hole"          |
+| shorthand            | definition                      | notes                        |
+| -------------------- | ------------------------------- | ---------------------------- |
+| $x\omega$            | $[x]\omega$                     |                              |
+| $ax$                 | $a \smash\shortmid x$           |                              |
+| $f\ E$               | $f \leftarrow E$                | common, longhand discouraged |
+| $x\ y \rightarrow E$ | $x \rightarrow y \rightarrow E$ |                              |
+| $\braket{\ }$        | $\braket{\braket{\ }}$          | see [[empty]] [[set]]        |
+| $(\ )$               | $((\ ))$                        | see [[multiset]]             |
+| $f\ g\ \circ$        | $x \rightarrow f\ (g\ x)$       | $\circ$ is a "hole"          |
 
 ## variable scope
 
@@ -183,6 +180,8 @@ the negation of a [[boolean algebra#implication]] in this [[math notation]]: $B 
 in [[conventional math notation]]: $\lnot (B \to C) = B \land \lnot C$ or $(a \in B \to a \in C) \iff a \notin B \backslash C$ or $B \subset C \iff \forall a \in C, a \notin B$
 
 definition of the $n$th column of a [[matrix]]: $\rho\ M\ n$ or $M \circ n$
+
+the closed interval from $a$ to $b$: $a \dashv \circ \dashv b$
 
 ### comparison between LaTeX and ASCII
 

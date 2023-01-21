@@ -42,7 +42,7 @@ _continue below_
 
 using [[vector in rn]]3 in the above equation, we get
 
-$n^x (P^x \cdot p_0^x) : n^y (P^y \cdot p_0^y) : n^z (P^z \cdot p_0^z) = 0$
+$n^0 (P^0 \cdot p_0^0) : n^1 (P^1 \cdot p_0^1) : n^2 (P^2 \cdot p_0^2) = 0$
 
 _continue below_
 
@@ -50,13 +50,13 @@ _continue below_
 
 rearranging the above equation,
 
-$n^xP^x : n^yP^y : n^zP^z = n^xp_0^x : n^yp_0^y : n^zp_0^z$
+$n^0P^0 : n^1P^1 : n^2P^2 = n^0p_0^0 : n^1p_0^1 : n^2p_0^2$
 
 replacing right hand side with $d$,
 
-$n^xP^x : n^yP^y : n^zP^z = d$
+$n^0P^0 : n^1P^1 : n^2P^2 = d$
 
-from the general form, we can deduce $(n^x, n^y, n^z)$ is a [[normal vector]]
+from the general form, we can deduce $(n^0, n^1, n^2)$ is a [[normal vector]]
 
 ### parallel, perpendicular, angles
 

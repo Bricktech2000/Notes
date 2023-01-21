@@ -316,3 +316,5 @@ git fetch -p # figure out what this does and set up alias
 
 npx git-removed-branches --prune --force
 ```
+
+powersets are neat as well: `/\ * -| S`. they are parsed as `/\ (* -| S)` with precedence, which is equivalent to `x -> /\ (x -| S)` and can be read as "the set of all sets that are a sumbet of the original set". and subsets are the and-reduction of boolean implication: `/\ s -| S`
