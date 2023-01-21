@@ -38,7 +38,9 @@
 - [x] vdots
 - [x] intercal
   - [ ] redefine [[matrix]]es
-  - [ ] define $\rho$ in [[math notataion]]
+  - [ ] define $\rho$ in [[math notation]]
 - [ ] outer product \\dot
   - [ ] [[outer product]]
   - [ ] [[relation#inverse relation]]
+
+[[knowledge]]

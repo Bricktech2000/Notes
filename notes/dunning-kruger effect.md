@@ -4,7 +4,7 @@
 
 **aka** _illusion of confidence_, _illusion of competency_
 
-**definition** the _Dunning-Kruger effect_ is a [[cognitive bias]] whereby people with low ability, expertise or experience tend to overestimate their ability or knowledge
+**definition** the _Dunning-Kruger effect_ is a [[cognitive bias]] whereby people with low ability, expertise or experience tend to overestimate their ability or [[knowledge]]
 
 the [[dunning-kruger effect]] is a _self-assessment_ [[cognitive bias]] &mdash; <https://en.wikipedia.org/wiki/List_of_cognitive_biases>
 

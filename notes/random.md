@@ -57,8 +57,6 @@ one one +
 
 ### ???
 
-**see** [[why-how-what]]
-
 - Organization
 - movies and readings read?
 - think about fix for notifications efficiency?

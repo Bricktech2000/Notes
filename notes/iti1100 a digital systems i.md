@@ -2,10 +2,6 @@
 
 prof name: Wassim El Ahmar
 
-[[lab3]]
-
-[[lab5]]
-
 ## class notes
 
 [[digital system]], [[logic circuit]]

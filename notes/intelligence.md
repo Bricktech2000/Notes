@@ -30,9 +30,9 @@ used for backlinks
 
 <https://youtu.be/sQC0jfH_rrM?t=34> (using "we")
 
-<https://youtu.be/Gs790JOeN3Y?t=605> ([[intelligence]] being part of one's identity)
+<https://youtu.be/Gs790JOeN3Y?t=605> ([[intelligence]] being part of one's [[identity]])
 
-<https://youtu.be/-Fhf5dX1efo?t=562> (mixing up intelligence and knowledge)
+<https://youtu.be/-Fhf5dX1efo?t=562> (mixing up [[intelligence]] and [[knowledge]])
 
 ## stuff I don't relate to
 
