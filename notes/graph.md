@@ -4,7 +4,7 @@ _a collection of vertices connected by a collection of edges_
 
 **see** [[abstract data type]]
 
-**definition** _formally in my [[math notation]]_ a [[graph]] is a [[set theory]]etical [[function]] that takes an [[ordered pair]] of vertices and returns whether an edge is connecting them
+**definition** _formally in my [[math notation]]_ a [[graph]] is a [[set theory]]etical [[function]] that takes two vertices and returns whether an edge is connecting them
 
 **definition** an _undirected graph_ is a [[graph]] $G$ such that $G = \rho\ G$
 
@@ -28,7 +28,7 @@ below are two equivalent representations of a sample graph
 
 ## vertex membership
 
-**definition** _in my [[math notation]]_ a vertex $v$ is in a graph $G$ if and only if there is at least one edge incident to it; $G\ v =\!= G^{v,} + \braket{\ } \lor G^{, v} + \braket{\ }$
+**definition** _in my [[math notation]]_ a vertex $v$ is in a graph $G$ if and only if there is at least one edge incident to it; $G\ v =\!= G^{v, \circ}\ \top\ G^{\circ, v} + \braket{\ }$
 
 **definition** _in [[conventional math notation]]_ a vertex $v$ is in a graph $\braket{V, E}$ if and only if $V\ v$
 
@@ -56,7 +56,7 @@ below are two equivalent representations of a sample graph
 
 ## Subgraph
 
-**definition** a [[graph]] $G_1$ is a _subgraph_ of $G_2$ if and only if it is a [[graph]] and $\,\land\ G_1^e \dashv G_2^e$
+**definition** a [[graph]] $G_1$ is a _subgraph_ of $G_2$ if and only if it is a [[graph]] and $\,\land\ G_1 \dashv G_2$
 
 **definition** a [[graph]] $G_1$ is an _induced subgraph_ of $G_2$ if and only if it is a _subgraph_ of $G_2$ and $G_1\ v \land G_1\ w < G_1^{v, w} = G_2^{v, w}$ (the subgraph must contain all the original edges connecting its vertices)
 
@@ -86,6 +86,6 @@ when visiting a vertex in a [[graph#euler path]] or [[graph#euler circuit]], one
 
 ## Adjacency List
 
-**definition** the _adjacency list_ of a [[graph]] $G$ is $v\ w \rightarrow G^{v, w}$
+**definition** the _adjacency list_ of a [[graph]] $G$ is $G$
 
 > **note** a [[graph#adjacency list]] is a collection of [[set]]s. the person who came up with that name should probably be fired

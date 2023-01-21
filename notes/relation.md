@@ -19,7 +19,7 @@ $\mathcal R \braket{a, b} = A\ a \land B\ b \land P\ \braket{a, b}$, where
 
 _membership in my [[math notation]]_ $\mathcal R \braket{x, y}$, see [[ordered pair]]
 
-_membership in my [[math notation]]_ $x \mathcal R y$
+_membership in [[conventional math notation]]_ $x \mathcal R y$
 
 ## Inverse Relation
 

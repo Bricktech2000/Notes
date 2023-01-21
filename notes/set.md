@@ -148,15 +148,19 @@ _product principle_ the cardinality of the [[cartesian product]] of two [[set]]s
 
 **definition** the _power set_ of a [[set]] $A$ is the [[set]] of all [[set#subset]]s of $A$
 
+**definition** $\,\land\ \circ \dashv S$
+
+**notation** $\,\land\ \circ \dashv S$
+
 > **example**
 >
-> let $P\ A$ be the power set of $A$ and let $O = \braket{\ }$
+> let $O = \braket{\ }$
 >
-> $P\ \braket{\braket{1, 2, 3}} = \braket{\braket{\ \braket{\braket{1}}, \braket{\braket{2}}, \braket{\braket{3}}, \braket{\braket{1, 2}}, \braket{\braket{2, 3}}, \braket{\braket{1, 3}}, \braket{\braket{1, 2, 3}}, \braket{\ }\ }}$
+> $\,\land\ \circ \dashv\ \braket{\braket{1, 2, 3}} = \braket{\braket{\ \braket{\braket{1}}, \braket{\braket{2}}, \braket{\braket{3}}, \braket{\braket{1, 2}}, \braket{\braket{2, 3}}, \braket{\braket{1, 3}}, \braket{\braket{1, 2, 3}}, \braket{\ }\ }}$
 >
-> $P\ O = \braket{\braket{O}}$
+> $\,\land\ \circ \dashv\ O = \braket{\braket{O}}$
 >
-> $P\ P\ O = \braket{\braket{\ O, \braket{\braket{O}}\ }}$
+> $\,\land\ \circ \dashv\ (\,\land\ \circ \dashv\ O) = \braket{\braket{\ O, \braket{\braket{O}}\ }}$
 
 ## Arrangement
 

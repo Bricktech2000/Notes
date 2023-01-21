@@ -18,7 +18,7 @@
 >
 > - $3 \to 4$
 >
->   $Ax = O$ has a unique solution $\to$ $x = O$ $\to$ $A^{,j}x^j : \cdots A^{,j}x^j = O$ has a unique solution (all coefficients are $0$) $\to$ the columns of $A$ are [[linearly independent]]
+>   $Ax = O$ has a unique solution $\to$ $x = O$ $\to$ $A^{\circ, j}x^j : \cdots A^{\circ, j}x^j = O$ has a unique solution (all coefficients are $0$) $\to$ the columns of $A$ are [[linearly independent]]
 >
 > - $4 \to 5$
 >

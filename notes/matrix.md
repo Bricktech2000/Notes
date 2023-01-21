@@ -2,7 +2,7 @@
 
 **see** [[math notation]], [[eigen]]
 
-**definition** _formally in my [[math notation]]_ a [[matrix]] is a [[set theory]]etical [[function]] that takes an [[ordered pair]] of [[natural]] indices and returns the element at that index
+**definition** _formally in my [[math notation]]_ a [[matrix]] is a [[set theory]]etical [[function]] that takes two [[natural]] indices and returns the element at that index
 
 **notation**
 
@@ -42,7 +42,7 @@ $A : B$
 
 **definition**
 
-$(AB)^{i, j} = \,: A^{i, } B^{, j}$, see [[dot product]]
+$AB = \,:(A\ \circ)(\rho\ B\ \circ)$, see [[dot product]]
 
 intuitively, matrix multiplication is the [[dot product]] of **every row** of the first [[matrix]] by **every column** of the second [[matrix]]
 
@@ -76,7 +76,7 @@ $\begin{bmatrix} 1 & 2 & 3 \\\  4 & 5 & 6 \end{bmatrix} \begin{bmatrix} x \\\  y
 
 **definition**
 
-$\braket{i, j} \rightarrow (i = j)$
+$I = i\ j \rightarrow (i = j)$
 
 **properties**
 
@@ -88,7 +88,7 @@ $AI = A \land IA = A$
 
 **definition**
 
-$\braket{i, j} \rightarrow 0$
+$O = i\ j \rightarrow 0$
 
 **properties**
 
@@ -128,9 +128,9 @@ _row space_ $\mathcal R A$
 
 _kernel_ $(\mathcal N A)\ x =\!= Ax = O \land \mathbb M^{m, n}A \land \mathbb M^{n, 1} x$
 
-_column space_ $\mathcal C A = \operatorname{span} \braket{\braket{A^{, 0}, A^{, 1}, \dots}}$
+_column space_ $\mathcal C A = \operatorname{span} \braket{\braket{A^{\circ, 0}, A^{\circ, 1}, \dots}}$
 
-_row space_ $\mathcal R A = \operatorname{span} \braket{\braket{A^{0, }, A^{1, }, \dots}}$
+_row space_ $\mathcal R A = \operatorname{span} \braket{\braket{A^{0, \circ}, A^{1, \circ}, \dots}}$
 
 **procedure** _computing the null space of a [[matrix]]_ use [[row reduction]]
 
@@ -202,7 +202,7 @@ _the [[complex#conjugate]] of every entry of the [[matrix#transpose]] of a [[mat
 
 **definition**
 
-$\operatorname{conj}\ (\rho\ A)$, where
+$\operatorname{conj}\ \rho\ A$, where
 
 - $A$ is the [[matrix]] to find the [[matrix#conjugate transpose]] of
 - $\operatorname{conj}$ is the [[complex#conjugate]] [[function]]
@@ -210,7 +210,7 @@ $\operatorname{conj}\ (\rho\ A)$, where
 
 **properties**
 
-let a [[matrix]] of [[real]]s $A$. then, $\operatorname{conj}\ (\rho\ A) = (\rho\ A)$
+let a [[matrix]] of [[real]]s $A$. then, $\operatorname{conj} \rho\ A = \rho\ A$
 
 ## Inverse
 
@@ -265,19 +265,21 @@ if $AC$ is invertible, then $A$ is invertible and $C$ is invertible
 >
 > $A^- = - \det A\ \mid\ \begin{bmatrix}d & \cdot b \\\  \cdot c & a\end{bmatrix}$
 
-**applications** _using a [[matrix#inverse]] to solve a [[linear system]]_
+**applications**
 
-let $A = \begin{bmatrix}1 & 1 \\\  2 & 3\end{bmatrix}$
-
-then, calculate $B$ such that $B = A^-$
-
-this can be used to solve a [[linear system]] such as:
-
-$Ax = \begin{bmatrix}\cdot 1 \\\ 1\end{bmatrix}$
-
-$BAx = B \begin{bmatrix}\cdot 1 \\\ 1\end{bmatrix}$
-
-$Ix = x = B \begin{bmatrix}\cdot 1 \\\ 1\end{bmatrix}$
+> **example** _using a [[matrix#inverse]] to solve a [[linear system]]_
+>
+> let $A = \begin{bmatrix}1 & 1 \\\  2 & 3\end{bmatrix}$
+>
+> then, calculate $B$ such that $B = A^-$
+>
+> this can be used to solve a [[linear system]] such as:
+>
+> $Ax = \begin{bmatrix}\cdot 1 \\\ 1\end{bmatrix}$
+>
+> $BAx = B \begin{bmatrix}\cdot 1 \\\ 1\end{bmatrix}$
+>
+> $Ix = x = B \begin{bmatrix}\cdot 1 \\\ 1\end{bmatrix}$
 
 ## Triangular Matrix
 
@@ -323,7 +325,7 @@ a [[matrix]] is _diagonalizable_ if and only if the geometic [[eigen#multiplicit
 
 **theorem**
 
-let $\mathbb M^{m, n}A$ (see [[matrix]]). the following [[logic statement]]s are equivalent:
+let $\mathbb M^{m, n}A$. the following [[logic statement]]s are equivalent:
 
 - every [[variable]] is a leading [[variable]]
 - there is a leading [[variable]] in every column of the [[linear system#reduced row echelon form]] of $A$

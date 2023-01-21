@@ -25,11 +25,19 @@ $\mathbb T < \mathbb F$, see [[function#vector space]]
 
 #todo mm
 
-**theorem** $\mathbb T T$ if and only if there exists a [[matrix]] $A$ such that $(T\ u = A \mid u) > \mathbb R^n u$. in other words,
+**theorem** $\mathbb T T$ if and only if there exists a [[matrix]] $A$ such that $T\ u = A \mid u > \mathbb R^n u$
+
+**theorem** given a $\mathbb T T$ with $T\ u =\!= A \mid u$, $A = \rho\ (T\ I\ \circ)$
+
+> **proof**
+>
+> $A \mid u = AI \mid u = T\ I \mid u$. it is worth noting that $T\ I$ is not a valid [[linear transformation]] because $I$ is a [[matrix]]. however, since $I$ is the [[matrix#identity matrix]], $T\ I$ is equivalent to $\rho\ (T\ (\rho\ I)\ \circ)$, which is equivalent to $\rho\ (T\ I\ \circ)$. we therefore conclude that $A = \rho\ (T\ I\ \circ)$, which is to be read as:
+>
+> > $A$ is a [[matrix]] ($A =$) whose columns ($\rho$) are the rows of the [[matrix#identity matrix]] ($I\ \circ$) transformed by $T$ ($T$)
+>
+> &mdash; me
 
 > **equivalence** _[[matrix#multiplication]] and [[linear transformation]]s_
-
-in the theorem above, $A = \begin{bmatrix}| & & | \\\ T\ b_0 & \cdots & T\ b_n \\\ | & & |\end{bmatrix}$ where $\braket{\braket{b_0 \cdots b_n}}$ is the standard [[basis]] for $\mathbb R^n$, see #magic. $A$ is the [[linear transformation#standard matrix]] of the [[linear transformation]] $T$
 
 > **example** _computing a [[linear transformation#standard matrix]]_
 >

@@ -10,7 +10,7 @@
 
 [[group]]s
 
-**definition** _formally in my [[math notation]]_ a [[category]] is a [[set theory]]etical [[function]] that takes an [[ordered pair]] of [[category#object]]s and returns their hom-[[set]]s (the [[set]] of [[category#morphism]]s between them) while satisfying the [[category#associativity law]] and [[category#identity law]]
+**definition** _formally in my [[math notation]]_ a [[category]] is a [[set theory]]etical [[function]] that takes two [[category#object]]s and returns their hom-[[set]]s (the [[set]] of [[category#morphism]]s between them) while satisfying the [[category#associativity law]] and [[category#identity law]]
 
 **definition** a category $\mathcal C$ consists of [[category#object]]s and [[category#morphism]]s with [[category#composition]] and [[category#identity morphism]] all subject to the [[category#associativity law]] and the [[category#identity law]]
 
@@ -125,7 +125,7 @@ epimorphisms are [[category#morphism]]s that are surjective, see [[function#surj
 
 [[composition]] in a category is required to be associative
 
-$h\ (g\ f\ \circ)\ \circ = (h\ g\ \circ)\ f \circ$
+$h\ (g\ f\ \circ)\ \circ = (h\ g\ \circ)\ f\ \circ$
 
 ## Identity Morphism
 
@@ -169,6 +169,8 @@ this leads to the [[category]] of [[category]]es. functors must use a pair of [[
 
 this can be thought of as "reversing the direction" of the "arrows" in the [[category]] diagram
 
+> **equivalence** _[[category#opposite category]] and [[matrix#transpose]]_
+
 **notation** _in [[conventional math notation]]_ $\mathcal C^{\text{op}}$
 
 **notation** _in my [[math notation]]_ $\rho\ \mathcal C$
@@ -187,7 +189,7 @@ coproducts between [[category#object]]s are basically [[type#sum type]]s
 
 > A _product_ of two [[category#object]]s $A$ and $B$ is the object $P$ equipped with two projections such that for any other object $P'$ equipped with two projections there is a unique [[category#morphism]] $m$ from $P'$ to $P$ that factorizes those projections.
 
-#todo "factorizes those projections" means that the diagram _commutes_ (composing two of the marphisms gives the third one)
+#todo "factorizes those projections" means that the diagram _commutes_ (composing two of the morphisms gives the third one)
 
 &mdash; <https://miklos-martin.github.io/learn/fp/category-theory/2018/02/01/adventures-in-category-theory-the-algebra-of-types.html>
 

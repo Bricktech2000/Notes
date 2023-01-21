@@ -34,7 +34,7 @@ which can be represented by the following [[vector in rn]] equation:
 
 $x \begin{bmatrix}1 \\\  1 \\\  0\end{bmatrix} : y \begin{bmatrix}1 \\\  \cdot 1 \\\  1\end{bmatrix} : z \begin{bmatrix}2 \\\  1 \\\  \cdot 1\end{bmatrix} = \begin{bmatrix}3 \\\  2 \\\  1\end{bmatrix}$
 
-the system is _consistent_ if and only if $b$ ($\begin{bmatrix}3 \\\  2 \\\  1\end{bmatrix}$ in this case) is a [[linear combination]] of the columns of $A$, $A^{, j}$
+the system is _consistent_ if and only if $b$ ($\begin{bmatrix}3 \\\  2 \\\  1\end{bmatrix}$ in this case) is a [[linear combination]] of the columns of $A$ ($\rho\ A$)
 
 ## Elementary Operation
 

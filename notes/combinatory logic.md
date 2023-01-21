@@ -10,11 +10,9 @@ _allows for [[lambda calculus#recursion]]_
 
 _used to formally define recursive [[function]]s in a [[functional programming]] language that does not support [[recursion]]_
 
-**definition**
+**definition** _in [[lambda calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
 
-_in [[lambda calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
-
-_in my [[math notation]]_ $Y = f \rightarrow (x \rightarrow f\ (x\ x))\ (x \rightarrow f\ (x\ x))$
+**definition** _in my [[math notation]]_ $Y = f \rightarrow (x \rightarrow f\ (x\ x))\ (x \rightarrow f\ (x\ x))$
 
 > "it's not recursive but it encodes [[recursion]]" &mdash; <https://youtu.be/9T8A89jgeTI?t=678>
 
@@ -26,11 +24,13 @@ _the [[composition]] of its arguments_
 
 **aka** _`(.)` in Haskell, "bluebird"_
 
-**definition**
+**definition** _in [[lambda calculus]]_ $B = \lambda fgx.\ f\ (g\ x)$
 
-_in [[lambda calculus]]_ $B = \lambda fgx.\ f\ (g\ x)$
+**definition** _in my [[math notation]]_ $B = f\ g\ x \rightarrow f\ (g\ x)$
 
-_in my [[math notation]]_ $B = f\ g\ x \rightarrow f\ (g\ x)$
+**notation** $f\ g\ \circ$
+
+> **equivalence** _[[combinatory logic#b combinator]] and [[function]] [[composition]]_
 
 &mdash; <https://youtu.be/SmXB2K_5lcA?t=612>
 
@@ -38,17 +38,19 @@ _in my [[math notation]]_ $B = f\ g\ x \rightarrow f\ (g\ x)$
 
 _swaps the arguments to a function_
 
-**definition**
+**definition** _in my [[math notation]]_ $C = f\ x\ y \rightarrow f\ y\ x$
 
-_in my [[math notation]]_ $C = f\ x\ y \rightarrow f\ y\ x$
+**notation** $\rho$
+
+> **equivalence** _[[combinatory logic#c combinator]] and [[matrix#transpose]]_
 
 ## K Combinator
 
 _discards the second argument_
 
-**definition**
+**definition** _in my [[math notation]]_ $K = f\ x\ y \rightarrow f\ x$
 
-_in my [[math notation]]_ $K = f\ x\ y \rightarrow f\ x$
+**notation** $\rightarrow$
 
 ## W Combinator
 
@@ -56,6 +58,4 @@ _duplicates the second argument_
 
 **aka** _'commute' or 'self' in APL_
 
-**definition**
-
-_in my [[math notation]]_ $W = f\ x\ \rightarrow f\ x\ x$
+**definition** _in my [[math notation]]_ $W = f\ x\ \rightarrow f\ x\ x$
