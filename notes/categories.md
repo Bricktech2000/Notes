@@ -100,6 +100,8 @@
 
 [[bezier curve]]
 
+[[pareto principle]]
+
 **finance**
 
 [[education]] system issues

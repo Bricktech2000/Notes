@@ -53,7 +53,7 @@ _useful for [[series]] containing [[logarithm]]s or easy-to-compute [[integral]]
 
 **theorem** _the integral test_
 
-let $b$ be a [[series]] and suppose $f$ is an eventually _continuous_, _positive_ and _infinite_ [[function]] on $x \rightarrow (R \dashv x\ (\dashv \land +)\ \infty)$ **for some $\mathbb R R$** and that $b^n = f\ n > \mathbb N n$. then,
+let $b$ be a [[series]] and suppose $f$ is an eventually _continuous_, _positive_ and _infinite_ [[function]] on $R \dashv \circ\ (\dashv \land +)\ \infty$ **for some $\mathbb R R$** and that $b^n = f\ n > \mathbb N n$. then,
 
 - if $\int f\ x \mid \delta x\ \braket{\infty \cdot 0}$ converges, then $\,: b$ converges
 - if $\int f\ x \mid \delta x\ \braket{\infty \cdot 0}$ diverges, then $\,: b$ diverges

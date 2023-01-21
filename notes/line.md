@@ -26,9 +26,9 @@ $L \cdot p - p_1 \cdot p_0 = t$
 
 using [[vector in rn]]s, we get
 
-$L^x \cdot p^x - p_1^x \cdot p_0^x = L^y \cdot p^y - p_1^y \cdot p_0^y = L^z \cdot p^z - p_1^z \cdot p_0^z$
+$L^0 \cdot p^0 - p_1^0 \cdot p_0^0 = L^1 \cdot p^1 - p_1^1 \cdot p_0^1 = L^2 \cdot p^2 - p_1^2 \cdot p_0^2$
 
-> **note** if $p_1^n = p_0^n$, then the term $n$ must be rearranged to avoid a division by $0$
+> **note** if $p_1^n = p_0^n$, then the term $n$ must be rearranged to avoid a division by $0$. see [[improved expression evaluation]]
 
 ### intersection of two lines
 

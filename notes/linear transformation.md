@@ -55,11 +55,11 @@ $\mathbb T < \mathbb F$, see [[function#vector space]]
 >
 > as the [[basis]] we are given is a [[basis#orthogonal basis]], we define the [[vector in rn#projection]] as:
 >
-> $proj_W\ u = (u^x : u^z - 2 \mid (1, 0, 1)) : (u^y - 1 \mid (0, 1, 0)) = (u^x : u^z - 2, u^y, u^x : u^z - 2)$, see [[vector in rn#projection]]
+> $proj_W\ u = (u^0 : u^2 - 2 \mid (1, 0, 1)) : (u^1 - 1 \mid (0, 1, 0)) = (u^0 : u^2 - 2, u^1, u^0 : u^2 - 2)$, see [[vector in rn#projection]]
 >
 > #todo mm
 >
-> rearranging, we get $proj_W\ u = u^x (-2, 0, -2) : u^y (0, 1, 0) : u^z (-2, 0, -2) = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix} \begin{bmatrix}u^x \\\ u^y \\\ u^z\end{bmatrix} = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix} \mid u$, which is [[matrix#multiplication]]
+> rearranging, we get $proj_W\ u = u^0 (-2, 0, -2) : u^0 (0, 1, 0) : u^0 (-2, 0, -2) = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix} \begin{bmatrix}u^0 \\\ u^1 \\\ u^2\end{bmatrix} = \begin{bmatrix}-2 & 0 & -2 \\\ 0 & 1 & 0 \\\ -2 & 0 & -2\end{bmatrix} \mid u$, which is [[matrix#multiplication]]
 >
 > alternatively, we can use the following, see #magic:
 >
