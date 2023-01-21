@@ -54,45 +54,39 @@ let:
 
 ### operator descriptions
 
-| $\LaTeX$                             | `ASCII`                          | description                                       | notes                                           |
-| ------------------------------------ | -------------------------------- | ------------------------------------------------- | ----------------------------------------------- |
-| $a : b$                              | `a : b`                          | $b$ added to $a$                                  |                                                 |
-| $a \cdot b$                          | `a . b`                          | $b$ subtracted from $a$                           |                                                 |
-| $\because$ and $\therefore$          |                                  | $\pm$ and $\mp$                                   |                                                 |
-| $a \smash\shortmid b$ and $a \mid b$ | `a'b` and <code>a \| b</code>    | $a$ multiplied by $b$                             |                                                 |
-| $a \text- b$ and $a - b$             | `a-b` and `a -- b`               | $a$ divided by $b$                                |                                                 |
-| $[a]b$ and $a[b]$                    | `[a]b` and `a[b]`                | $a$ to the power of $b$                           | $a = e$ if $a$ is omitted                       |
-| $\lfloor a \rfloor b$                | `\a/b`                           | the $b$th root of $a$                             | $b = 2$ if $b$ is omitted                       |
-| $\lceil a \rceil b$                  | `/a\b`                           | the base-$b$ [[logarithm]] of $a$                 | $b = e$ if $b$ is omitted                       |
-| $x \rightarrow E$                    | `x -> E`                         | [[function]] literal                              | $f = x \rightarrow E =\!= f \leftarrow x = E$   |
-| $f \leftarrow E$                     | `f <- E`                         | [[function]] application                          | uncommon, shorthand preferred                   |
-| $a = b$ and $a =\!= b$               | `a = b` and `a == b`             | $a$ is equal to $b$                               | also serves as [[boolean algebra#xnor]]         |
-| $a + b$ and $a \times b$             | `a + b` and `a >< b`             | $a$ is not equal to $b$                           | also serves as [[boolean algebra#xor]]          |
-| $a \dashv b$ and $a < b$             | <code>a -\| b</code> and `a < b` | $a$ is at most $b$                                | identical to [[boolean algebra#implication]]    |
-| $a \vdash b$ and $a > b$             | <code>a \|- b</code> and `a > b` | $a$ is at least $b$                               | identical to [[boolean algebra#implication]]    |
-| $a\ \bot\ b$ and $a \land b$         | `a F b ` and `a /\ b`            | the minimum of $a$ and $b$                        | identical to [[boolean algebra#and]]            |
-| $a\ \top\ b$ and $a \lor b$          | `a T b` and `a \/ b`             | the maximum of $a$ and $b$                        | identical to [[boolean algebra#or]]             |
-| $a_0 * a_1 * \cdots a_n$             | `a_0 * a_1 * ... a_n`            | with $n = 3$, $a_0 * a_1 * a_2 * a_3$             | step size is $\because 1$ if $a_1 *$ is omitted |
-| $a_0 \cdots a_n$                     | `a_0 ... a_n`                    | with $n = 3$, $a_0, a_1, a_2, a_3$                | step size is $\because 1$ if $a_1$ is omitted   |
-| $f\ \braket{a * b}$                  | `f {a * b}`                      | $f\ a * f\ b$                                     |                                                 |
-| $f\ \braket{x \rightarrow a}$        | `f {x -> a}`                     | the [[limit]] of $f$ as $x$ approaches $a$        |                                                 |
-| $A * B$                              | `A * B`                          | $x \rightarrow A\ x * B\ x$                       | see [[rank polymorphism]]                       |
-| $a\ (\mid * :)\ b$                   | <code>a (\|\*:) b</code>         | $(a \mid b) * (a : b)$                            | works with any unary [[operator]]               |
-| $(\# * f)\ a$                        | `(#*f) a`                        | $(\#\ a) * (f\ a)$                                | works with any binary [[operator]]              |
-| $\,* A$                              | `* A`                            | the [[reduce function]] of $A$ with $*$           |                                                 |
-| $A \circ *\ B\ \circ$                | `A * * B *`                      | the [[outer product]] of $A$ and $B$ with $*$     |                                                 |
-| $\delta y - \delta x$                | `dy -- dx`                       | the [[derivative]] of $y$ with respect to $x$     | $\delta$ should be used instead of $d$          |
-| $\int y \mid \delta x$               | <code>S y \| dx</code>           | the [[antiderivative]] of $y$ with respect to $x$ | $\delta$ should be used instead of $d$          |
-| $x_{sub}$                            | `x_sub`                          | the [[variable]] $x$ with a subscript $_{sub}$    |                                                 |
-| $V^n$                                | `V^n`                            | the $n$th component of $V$                        |                                                 |
-| $A^i$                                | `A^i`                            | the $i$th element of $A$                          |                                                 |
-| $B^i$                                | `B^i`                            | the $i$th element of $B$                          |                                                 |
-| $M^{\braket{i, j}}$                  | `M^i,j`                          | the $i, j$th element of $M$                       | uncommon, shorthand preferred                   |
-| $P^b$                                | `P^b`                            | the $b$th element of $P$                          |                                                 |
-| $S\ a$                               | `S a`                            | whether $a$ is element of $S$                     |                                                 |
-| $M'\ a$                              | `M' a`                           | the number of elements $a$ in $M'$                |                                                 |
-| $G\ a$                               | `G a`                            | whether vertex $a$ is in $G$                      |                                                 |
-| $G^{\braket{a, b}}$                  | `G^a,b`                          | the number of edges from $a$ to $b$ in $G$        | uncommon, shorthand preferred                   |
+| $\LaTeX$                               | `ASCII`                                | description                                       | notes                                               |
+| -------------------------------------- | -------------------------------------- | ------------------------------------------------- | --------------------------------------------------- |
+| $a : b$                                | `a : b`                                | $b$ added to $a$                                  |                                                     |
+| $a \cdot b$                            | `a . b`                                | $b$ subtracted from $a$                           |                                                     |
+| $\because$ <br> $\therefore$           |                                        | $\pm$ <br> $\mp$                                  |                                                     |
+| $a \smash\shortmid b$ <br> $a \mid b$  | `a'b` <br> <code>a \| b</code>         | $a$ multiplied by $b$                             |                                                     |
+| $a \text- b$ <br> $a - b$              | `a-b` <br> `a -- b`                    | $a$ divided by $b$                                |                                                     |
+| $[a]b$ <br> $a[b]$                     | `[a]b` <br> `a[b]`                     | $a$ to the power of $b$                           | $a = e$ if $a$ is omitted                           |
+| $\lfloor a \rfloor b$                  | `\a/b`                                 | the $b$th root of $a$                             | $b = 2$ if $b$ is omitted                           |
+| $\lceil a \rceil b$                    | `/a\b`                                 | the base-$b$ [[logarithm]] of $a$                 | $b = e$ if $b$ is omitted                           |
+| $x \rightarrow E$                      | `x -> E`                               | [[function]] literal                              | $f = x \rightarrow E =\!= f \leftarrow x = E$       |
+| $f \leftarrow E$                       | `f <- E`                               | [[function]] application                          | uncommon, shorthand preferred                       |
+| $a = b$ <br> $a =\!= b$                | `a = b` <br> `a == b`                  | $a$ is equal to $b$                               | also serves as [[boolean algebra#xnor]]             |
+| $a + b$ <br> $a \times b$              | `a + b` <br> `a >< b`                  | $a$ is not equal to $b$                           | also serves as [[boolean algebra#xor]]              |
+| $a \dashv b$ <br> $a < b$              | <code>a -\| b</code> <br> `a < b`      | $a$ is at most $b$                                | identical to [[boolean algebra#implication]]        |
+| $a \vdash b$ <br> $a > b$              | <code>a \|- b</code> <br> `a > b`      | $a$ is at least $b$                               | identical to [[boolean algebra#implication]]        |
+| $a\ \bot\ b$ <br> $a \land b$          | `a F b ` <br> `a /\ b`                 | the minimum of $a$ and $b$                        | identical to [[boolean algebra#and]]                |
+| $a\ \top\ b$ <br> $a \lor b$           | `a T b` <br> `a \/ b`                  | the maximum of $a$ and $b$                        | identical to [[boolean algebra#or]]                 |
+| $a_0 * a_1 * \cdots a_n$               | `a_0 * a_1 * ... a_n`                  | with $n = 3$, $a_0 * a_1 * a_2 * a_3$             | step size is $1$ or $\cdot 1$ if $a_1 *$ is omitted |
+| $a_0 \cdots a_n$                       | `a_0 ... a_n`                          | with $n = 3$, $a_0, a_1, a_2, a_3$                | step size is $1$ or $\cdot 1$ if $a_1$ is omitted   |
+| $f\ \braket{a * b}$                    | `f {a * b}`                            | $f\ a * f\ b$                                     |                                                     |
+| $f\ \braket{x \rightarrow a}$          | `f {x -> a}`                           | the [[limit]] of $f$ as $x$ approaches $a$        |                                                     |
+| $A * B$                                | `A * B`                                | $x \rightarrow A\ x * B\ x$                       | see [[rank polymorphism]]                           |
+| $A * a$                                | `A * a`                                | $x \rightarrow A\ x * a$                          | see [[rank polymorphism]]                           |
+| $a\ (\mid * :)\ b$                     | <code>a (\|\*:) b</code>               | $(a \mid b) * (a : b)$                            | works with any binary [[operator]]                  |
+| $(\# * f)\ a$                          | `(#*f) a`                              | $(\#\ a) * (f\ a)$                                | works with any unary [[operator]]                   |
+| $\,* A$                                | `* A`                                  | the [[reduce function]] of $A$ with $*$           |                                                     |
+| $\delta y - \delta x$                  | `dy -- dx`                             | the [[derivative]] of $y$ with respect to $x$     | $\delta$ should be used instead of $d$              |
+| $\int y \mid \delta x$                 | <code>S y \| dx</code>                 | the [[antiderivative]] of $y$ with respect to $x$ | $\delta$ should be used instead of $d$              |
+| $x_{sub}$                              | `x_sub`                                | the [[variable]] $x$ with a subscript $_{sub}$    |                                                     |
+| $A^i$ <br> $B^i$ <br> $V^n$ <br> $P^b$ | `A^i` <br> `B^i` <br> `V^n` <br> `P^b` | $A\ i$ <br> $B\ i$ <br> $V\ n$ <br> $P\ b$        | to be used for indices                              |
+| $M^{i,j}$ <br> $G^{a, b}$              | `M^i,j` <br> `G^a, b`                  | $M\ i\ j$ <br> $G\ a\ b$                          | to be used for indices                              |
+| $S\ a$ <br> $M'\ a$ <br> $G\ a$        | `S a` <br> `M' a` <br> `G a`           | $S\ a$ <br> $M\ a$ <br> $G\ a$                    | to be used for membership                           |
 
 ### constants
 
@@ -104,7 +98,8 @@ let:
 | $\circ$       | `*`     | [[function]] [[composition#identity]]                        |                                             |
 | $\tau$        | `t`     | the ratio of the circumference of a [[circle]] to its radius | using $\pi$ is discouraged                  |
 | $e$           | `e`     | [[euler's constant]]                                         |                                             |
-| $\iota$       | `i`     | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]], using $i$ is discouraged |
+| $\iota$       | `i`     | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]]. using $i$ is discouraged |
+| $\rho$        | `p`     | $f\ a\ b \rightarrow f\ b\ a$                                | see [[matrix#transpose]]                    |
 | $\Pi$         | `II`    | the [[pi function]]                                          | using $\operatorname{fact}$ is discouraged  |
 | $\#$          | `#`     | the number of "links" in a [[function]]                      | #todo define rigorously                     |
 | $\psi$        |         | the [[multiset]] of prime factors of a [[natural]]           | see [[psi function in mat2348]]             |
@@ -153,8 +148,6 @@ _in order of high to low precedence_
 | $(\ )$                                | $((\ ))$                            | see [[multiset]]             |
 | $V^x, V^y, V^z$                       | $V^0, V^1, V^2$                     |                              |
 | $M^{i, j}$                            | $M^{\braket{i, j}}$                 | common, longhand discouraged |
-| $M^{i,}$                              | the $i$th row of $M$                |                              |
-| $M^{, j}$                             | the $j$th column of $M$             |                              |
 | $x \rightarrow (a \dashv x \dashv b)$ | the closed interval from $a$ to $b$ |                              |
 | $f\ g\ \circ$                         | $x \rightarrow f\ (g\ x)$           | $\circ$ is a "hole"          |
 
@@ -189,6 +182,8 @@ the negation of a [[boolean algebra#implication]] in this [[math notation]]: $B 
 
 in [[conventional math notation]]: $\lnot (B \to C) = B \land \lnot C$ or $(a \in B \to a \in C) \iff a \notin B \backslash C$ or $B \subset C \iff \forall a \in C, a \notin B$
 
+definition of the $n$th column of a [[matrix]]: $\rho\ M\ n$ or $M \circ n$
+
 ### comparison between LaTeX and ASCII
 
 | $\LaTeX$                                                              | `ASCII`                         |
@@ -200,3 +195,4 @@ in [[conventional math notation]]: $\lnot (B \to C) = B \land \lnot C$ or $(a \i
 | $\int f\ x \mid \delta x$                                             | <code>S f x \| dx</code>        |
 | $\mathbb C x =\!= x = a : b\iota \land \mathbb R a \land \mathbb R b$ | `C x == x = a : bi /\ Ra /\ Rb` |
 | $B \dashv C \times B \land +C$                                        | <code>B -\| C >< B /\ +C</code> |
+| $S \rightarrow \,\land\ \circ \dashv S$                               | <code>S -> /\ \* -\| S</code>   |

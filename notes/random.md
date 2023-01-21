@@ -294,6 +294,19 @@ $\delta f \text- \circ = \delta f - \delta \circ$
 
 ---
 
+- [x] circ
+- [x] vdots
+- [x] intercal
+  - [x] redefine [[matrix]]es and [[graph]]s and [[category]]es
+  - [x] define $\rho$ in [[math notation]]
+- [x] outer product \\dot
+  - [x] [[outer product]]
+  - [x] [[relation#inverse relation]]
+  - [x] redefine powersets
+  - [x] lin transform std matrix
+
+---
+
 ```bash
 git branch -d # delete local branch
 git branch -v # list all branches

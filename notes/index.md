@@ -31,16 +31,3 @@
 [[productivity]] and related notes
 
 [[pure mathematics]] and related notes
-
-#todo
-
-- [x] circ
-- [x] vdots
-- [x] intercal
-  - [ ] redefine [[matrix]]es
-  - [ ] define $\rho$ in [[math notation]]
-- [ ] outer product \\dot
-  - [ ] [[outer product]]
-  - [ ] [[relation#inverse relation]]
-
-[[knowledge]]

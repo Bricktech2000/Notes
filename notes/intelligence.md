@@ -1,6 +1,6 @@
 # Intelligence
 
-**see** [[intellectual disability]], [[intellectual giftedness]], [[mensa]], [[iq]]
+**see** [[intellectual disability]], [[intellectual giftedness]], [[mensa]], [[iq]], [[knowledge]]
 
 used for backlinks
 
