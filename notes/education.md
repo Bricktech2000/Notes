@@ -1,6 +1,6 @@
 # Education
 
-**definition** _education_ is the social institution responsible for the systematic transmission of knowledge, skills and cultural values within a formally organized structure
+**definition** _education_ is the social institution responsible for the systematic transmission of [[knowledge]], skills and cultural values within a formally organized structure
 
 ## mass education
 

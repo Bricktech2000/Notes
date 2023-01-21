@@ -1,6 +1,6 @@
 # Zero-Knowledge Proof
 
-_a [[proof]] that an entity knows something that does not give away any additional information_
+_a [[proof]] that an entity has [[knowledge]] of something that does not give away any additional information_
 
 **see** [[proof]], [[cryptography]]
 

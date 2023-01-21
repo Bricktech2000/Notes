@@ -2,7 +2,7 @@
 
 even when we don't get caught,
 
-> Authors and intellectuals devote a lot of [[time]] and knowledge to producing their intellectual property. [[plagiarism]] is a sign of disrespect to those authors. &mdash; Gefen
+> Authors and intellectuals devote a lot of [[time]] and [[knowledge]] to producing their intellectual property. [[plagiarism]] is a sign of disrespect to those authors. &mdash; Gefen
 
 it is essentially theft of information
 
