@@ -2,6 +2,12 @@
 
 _a systematic pattern of deviation from norm or rationality in judgment_
 
+&mdash; <https://youtu.be/nYYkRaU0xh8>
+
+&mdash; <https://youtu.be/6G1F1KVeiNA>
+
+**see** [[subconscious manipulation]]
+
 **types**
 
 [[confirmation bias]]
@@ -17,3 +23,17 @@ _a systematic pattern of deviation from norm or rationality in judgment_
 [[dunning-kruger effect]]
 
 [[correlation implies causation]]
+
+[[anchoring]]
+
+[[self-serving bias]]
+
+[[framing effect]]
+
+## other "mind traps"
+
+[[cognitive dissonance]]
+
+[[zeigarnik effect]]
+
+[[exponential growth]]

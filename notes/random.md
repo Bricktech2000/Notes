@@ -318,3 +318,34 @@ npx git-removed-branches --prune --force
 ```
 
 powersets are neat as well: `/\ * -| S`. they are parsed as `/\ (* -| S)` with precedence, which is equivalent to `x -> /\ (x -| S)` and can be read as "the set of all sets that are a sumbet of the original set". and subsets are the and-reduction of boolean implication: `/\ s -| S`
+
+---
+
+&mdash; <https://youtu.be/-bPnt2oxw-Q
+
+E24 &mdash; $1\text-100$ tolerance &mdash; $\text-4\ \text{W}$
+
+- [x] $10$
+- [ ] $11$
+- [x] $12$
+- [ ] $13$
+- [x] $15$
+- [ ] $16$
+- [x] $18$
+- [x] $20$
+- [x] $22$
+- [x] $24$
+- [x] $27$
+- [x] $30$
+- [x] $33$
+- [x] $36$
+- [x] $39$
+- [x] $43$
+- [x] $47$
+- [x] $51$
+- [x] $56$
+- [x] $62$
+- [x] $68$
+- [x] $75$
+- [x] $82$
+- [x] $91$

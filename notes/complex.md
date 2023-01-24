@@ -106,7 +106,7 @@ let $\mathbb C z \land \mathbb C w \land \mathbb R c$
 
 $|z| = |\operatorname{conj} z|$
 
-$|zw| = |z|\ |w|$
+$|zw| = |z| |w|$
 
 $|z - w| = |z| - |w|$
 

@@ -58,6 +58,6 @@ _positive_ $|x| \vdash 0$
 
 _positive definite_ $|x| = 0 =\!= x = 0$
 
-_multiplicative_ $|xy| = |x|\ |y|$
+_multiplicative_ $|xy| = |x| |y|$
 
 _triange inequality_ $|x : y| \dashv |x| : |y|$
