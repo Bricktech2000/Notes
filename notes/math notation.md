@@ -11,7 +11,7 @@ this [[math notation]] obviously cannot be used to communicate ideas to people w
 - all equality [[operator]]s check for equality and return a [[boolean]], and it is implied that an [[expression]] on its own must evaluate to $\top$. this allows for [[boolean algebra#operators]] to be applied on equalities explicitly as opposed informally
 - [[set]]s are [[function]]s that return a [[boolean]] ([[set]]s are [[predicate]]s). this way, [[boolean algebra#operators]] and [[set]] [[operator]]s are one and the same. other [[data structure]]s that work similarly include [[vector]]s, [[matrix]]es, [[sequence]]s, [[multiset]]s, [[ordered pair]]s...
 - some [[operator]]s are identical but have different precedence as "more brackets means more explicit, but less brackets means less complex and less confusing"
-- $\lfloor a \rfloor$ returns both positive and negative square roots ($\lfloor q2 \rfloor =\!=\ \because q$). the same is true for other reciprocals
+- [[operator]]s return what they should actually return to match their inverse. for example, $\lfloor a \rfloor$ returns both positive and negative square roots
 - superscripts are modifiers (subscripts with special meanings). this distinction is extremely useful when working with [[forward propagation]] and [[backpropagation]] in [[neural network]]s, for example
 - [[derivative]]s are not to be written as $y'$, but rather as their complete form $\delta y - \delta x$. this makes [[calculus notation]] way more intuitive
 - all indices start at $0$, as they always should have

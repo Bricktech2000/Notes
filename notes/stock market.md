@@ -26,6 +26,8 @@ _an average of a group of stock prices_
 
 &mdash; <https://youtu.be/J3fAI3al08Q>
 
+**see** [[sunk costs fallacy]]
+
 trading on the [[stock market]] is done through a _broker_ who executes the trade on behalf of the investor
 
 > "time in the market beats timing the market"

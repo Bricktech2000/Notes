@@ -17,7 +17,7 @@
 > - the [[real]] [[plane]] with Euclidean distance $a\ b \rightarrow |a \cdot b|$, see [[vector in rn#magnitude]]
 > - the [[real]] [[plane]] with Manhattan metric $a\ b \rightarrow \,: |(a \cdot b)\ \smash\circ|$, see [[real#absolute value]], [[composition]]
 > - the [[real]] [[plane]] with Chebyshev metric $a\ b \rightarrow \,\lor\ |(a \cdot b)\ \smash\circ|$, see [[real#absolute value]], [[composition]]
-> - a [[sphere]] with angular distance $a\ b \rightarrow \operatorname{acos}\ (|\,: ab| - |a|\ |b|)$, see [[vector in rn#angle]]
+> - a [[sphere]] with angular distance $a\ b \rightarrow \operatorname{acos}\ (|\,: ab| - |a| |b|)$, see [[vector in rn#angle]]
 > - normed [[vector space]]s with metric $a\ b \rightarrow |a \cdot b|$ where $||$ is the norm of the [[vector space]]
 > - the [[p-adic]]s with metric $a\ b \rightarrow |a \cdot b|^p$, see [[p-adic#absolute value]]
 

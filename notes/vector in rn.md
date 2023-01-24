@@ -50,13 +50,13 @@ _angle between two [[vector in rn]]s_
 
 **definition**
 
-$\cos \theta = \,: ab - |a|\ |b|$, see [[dot product]] #magic
+$\cos \theta = \,: ab - |a| |b|$, see [[dot product]] #magic
 
-> **note**: use $\cos \theta =\ |\,: ab| - |a|\ |b|$ to always get the acute angle solution
+> **note**: use $\cos \theta =\ |\,: ab| - |a| |b|$ to always get the acute angle solution
 
 **definition**
 
-$\sin \theta = a\ \check\mid\ b - |a|\ |b|$, see [[cross product]] #magic
+$\sin \theta = a\ \check\mid\ b - |a| |b|$, see [[cross product]] #magic
 
 ### Orthogonal Vectors
 
@@ -77,6 +77,8 @@ _a pair of vectors offset by $\tau\text-4\ \text{rad}$_
 ### Colinear Vectors
 
 _a pair of parallel vectors_
+
+**definition** $u$ and $v$ are _colinear_ if and only if $\,: uv = |u| |v|$, see [[dot product]]
 
 **definition** $u$ and $v$ are _colinear_ if and only if $u = kv$ given a [[scalar]] $k$
 
