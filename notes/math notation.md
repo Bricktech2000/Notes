@@ -80,7 +80,7 @@ let:
 | $A * a$                                | `A * a`                                | $x \rightarrow A\ x * a$                          | see [[rank polymorphism]]                           |
 | $a\ (\mid * :)\ b$                     | <code>a (\|\*:) b</code>               | $(a \mid b) * (a : b)$                            | works with any binary [[operator]]                  |
 | $(\# * f)\ a$                          | `(#*f) a`                              | $(\#\ a) * (f\ a)$                                | works with any unary [[operator]]                   |
-| $\,* A$                                | `* A`                                  | the [[reduce function]] of $A$ with $*$           |                                                     |
+| $\,* A$                                | `* A`                                  | the [[reduce function]] on $A$ with $*$           |                                                     |
 | $\delta y - \delta x$                  | `dy -- dx`                             | the [[derivative]] of $y$ with respect to $x$     | $\delta$ should be used instead of $d$              |
 | $\int y \mid \delta x$                 | <code>S y \| dx</code>                 | the [[antiderivative]] of $y$ with respect to $x$ | $\delta$ should be used instead of $d$              |
 | $x_{sub}$                              | `x_sub`                                | the [[variable]] $x$ with a subscript $_{sub}$    |                                                     |
@@ -90,19 +90,19 @@ let:
 
 ### constants
 
-| $\LaTeX$      | `ASCII` | definition                                                   | notes                                       |
-| ------------- | ------- | ------------------------------------------------------------ | ------------------------------------------- |
-| $\varnothing$ |         | _undefined_                                                  | see [[improved expression evaluation]]      |
-| $\top$        | `T`     | [[boolean]] _true_                                           |                                             |
-| $\bot$        | `F`     | [[boolean]] _false_                                          |                                             |
-| $\circ$       | `*`     | [[function]] [[composition#identity]]                        |                                             |
-| $\tau$        | `t`     | the ratio of the circumference of a [[circle]] to its radius | using $\pi$ is discouraged                  |
-| $e$           | `e`     | [[euler's constant]]                                         |                                             |
-| $\iota$       | `i`     | $\lfloor \cdot 1 \rfloor$                                    | see [[imaginary]]. using $i$ is discouraged |
-| $\rho$        | `p`     | $f\ a\ b \rightarrow f\ b\ a$                                | see [[matrix#transpose]]                    |
-| $\Pi$         | `II`    | the [[pi function]]                                          | using $\operatorname{fact}$ is discouraged  |
-| $\#$          | `#`     | the number of "links" in a [[function]]                      | #todo define rigorously                     |
-| $\psi$        |         | the [[multiset]] of prime factors of a [[natural]]           | see [[psi function in mat2348]]             |
+| $\LaTeX$      | `ASCII` | definition                                         | notes                                       |
+| ------------- | ------- | -------------------------------------------------- | ------------------------------------------- |
+| $\varnothing$ |         | _undefined_                                        | see [[improved expression evaluation]]      |
+| $\top$        | `T`     | [[boolean]] _true_                                 |                                             |
+| $\bot$        | `F`     | [[boolean]] _false_                                |                                             |
+| $\circ$       | `*`     | [[function]] [[composition#identity]]              |                                             |
+| $\tau$        | `t`     | the [[circle]] constant                            | see [[tau]]                                 |
+| $\varepsilon$ | `e`     | [[euler's constant]]                               |                                             |
+| $\iota$       | `i`     | $\lfloor \cdot 1 \rfloor$                          | see [[imaginary]]. using $i$ is discouraged |
+| $\rho$        | `p`     | $f\ a\ b \rightarrow f\ b\ a$                      | see [[matrix#transpose]]                    |
+| $\Pi$         | `II`    | the [[pi function]]                                | using $\operatorname{fact}$ is discouraged  |
+| $\#$          | `#`     | the number of "links" in a [[function]]            | #todo define rigorously                     |
+| $\psi$        |         | the [[multiset]] of prime factors of a [[natural]] | see [[psi function in mat2348]]             |
 
 ### operator properties
 
@@ -114,7 +114,7 @@ _in order of high to low precedence_
 | $[]\ \lfloor\rfloor\ \lceil\rceil$            |               |                |                         |
 | $\shortmid \text-$                            | left          | $1$            | multiplicative inverse  |
 | $\delta\ \sin\ \#\ \circ\ \leftarrow$         | left-ish      |                |                         |
-| $\, :\ \cdot\ \because\ \ \therefore$         | left          | $0$            | negation                |
+| $:\ \cdot\ \because\ \ \therefore$            | left          | $0$            | negation                |
 | $\mid -$                                      | left          | $1$            | multiplicative inverse  |
 | $\int\ \braket{}\ \cdots\ \rightarrow\ \bmod$ | left-ish      |                |                         |
 | $\bot\ \top$                                  | left          |                |                         |
@@ -189,7 +189,7 @@ the closed interval from $a$ to $b$: $a \dashv \circ \dashv b$
 | --------------------------------------------------------------------- | ------------------------------- |
 | $x = \cdot b : \lfloor b2 \cdot 4ac \rfloor - 2a$                     | `x = .b : \b2.4ac/ -- 2a`       |
 | $[\iota\tau] = 1$                                                     | `[it] = 1`                      |
-| $\lceil e \rceil = 1$                                                 | `/e\ = 1`                       |
+| $\lceil \varepsilon \rceil = 1$                                       | `/e\ = 1`                       |
 | $\iota = \lfloor \cdot 1 \rfloor$                                     | `i = \.1/`                      |
 | $\int f\ x \mid \delta x$                                             | <code>S f x \| dx</code>        |
 | $\mathbb C x =\!= x = a : b\iota \land \mathbb R a \land \mathbb R b$ | `C x == x = a : bi /\ Ra /\ Rb` |

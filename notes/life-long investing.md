@@ -33,6 +33,8 @@ video expressing a similar opinion: <https://youtu.be/hqYXjclDmis?t=37>
 - storing all [[liquidity]] in representative or commodity [[money]] such as [[cryptocurrency]]es or precious metals could be a good way to be immune to [[inflation]]
 - [[invest]]ments with management fees are not desirable. a $10\text-100$ ROI investment with no fee bears the risk of a $10\text-100$ ROI investment, whereas a $10\text-100$ ROI investment with a $2\text-100$ fee bears the risk of a $12\text-100$ ROI investment. moreover, [[learning]] to beat the market is very hard even for fund managers as it is a low-validity environment
 
+someone sharing the same opinion: <https://youtu.be/Q0uXGQu55GM?t=27>
+
 ## &mdash;
 
 <https://youtu.be/eDa1U9qJKxo>

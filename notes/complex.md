@@ -12,7 +12,7 @@ $\mathbb C x =\!= x = a : b\iota \land \mathbb R a \land \mathbb R b$
 
 _Cartesian Form_ $z = a : b\iota$
 
-_Polar Form_ $z = |z|\ \cos \arg z : |z|\ \iota \sin \arg z = |z| \operatorname{cis} \arg z = |z|\ e[\iota\arg z]$, where $\operatorname{cis} = \cos : \iota \sin = \theta \rightarrow [\iota\theta]$
+_Polar Form_ $z = |z|\ \cos \arg z : |z|\ \iota \sin \arg z = |z| \operatorname{cis} \arg z = |z|\ \varepsilon[\iota\arg z]$, where $\operatorname{cis} = \cos : \iota \sin = \theta \rightarrow [\iota\theta]$
 
 **aka** _Euler's formula notation_
 
@@ -34,7 +34,7 @@ _multiplication_
 
 in cartesian form, $a : b\iota \mid c : d\iota = ac : ad\iota : b\iota c : bd\iota 2 = (ac \cdot bd) : (ad : bc)\iota$
 
-in polar form, $z \mid w = |z|\ e[\iota\arg z] \mid |w|\ e[\iota\arg w] = |zw|\ e[\iota \mid \arg z : \arg w]$
+in polar form, $z \mid w = |z|\ \varepsilon[\iota\arg z] \mid |w|\ \varepsilon[\iota\arg w] = |zw|\ \varepsilon[\iota \mid \arg z : \arg w]$
 
 _square root of $\iota$_ $\lfloor \iota \rfloor =\ \because\ \mid 1 : \iota - \lfloor 2 \rfloor$ &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
 
@@ -118,4 +118,4 @@ _triangle inequality_ $|z : w| \dashv |z| : |w|$
 
 **definition** the _argument_ of a [[complex]] number $z$ is the counterclockwise [[angle]] between the positive [[real]] axis and the [[line]] segment from the origin to the point $(z^{re}, z^{im})$
 
-**definition** $z = |z|\ e[\iota \arg z]$ where $\arg z$ is the _argument_ of $z$
+**definition** $z = |z|\ \varepsilon[\iota \arg z]$ where $\arg z$ is the _argument_ of $z$

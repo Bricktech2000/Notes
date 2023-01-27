@@ -127,3 +127,7 @@ graph TD
 ```
 
 &mdash; <https://youtu.be/A3AdN7U24iU?t=2009>
+
+## Type System
+
+&mdash; <https://youtu.be/bnnacleqg6k>

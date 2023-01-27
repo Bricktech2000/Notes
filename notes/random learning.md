@@ -51,3 +51,5 @@ below, I stumbled upon video 6. kept watching until half way through video 10, a
 <https://virtual-addiction.com/smartphone-compulsion-test/>
 
 _BIG OMICRON AND BIG OMEGA AND BIG THETA_, Donald E. Knuth &mdash; <https://dl.acm.org/doi/pdf/10.1145/1008328.1008329>
+
+<https://tauday.com/tau-manifesto>
