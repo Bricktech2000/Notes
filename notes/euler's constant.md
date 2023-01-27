@@ -4,11 +4,11 @@
 
 **notation**
 
-$e$
+$\varepsilon$
 
 **definition**
 
-$[1 : -n]n\ \braket{n \rightarrow \infty} = e$
+$[1 : -n]n\ \braket{n \rightarrow \infty} = \varepsilon$
 
 > **note**
 >

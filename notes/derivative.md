@@ -122,29 +122,29 @@ useful for computing the [[derivative]] of an [[exponent]]ial [[function]]
 
 **examples**
 
-> **example** _logarithmic differentiation of $x[e[x]]$_
+> **example** _logarithmic differentiation of $x[\varepsilon[x]]$_
 >
-> $y = x[e[x]]$
+> $y = x[\varepsilon[x]]$
 >
-> $\lceil y \rceil = \lceil x[e[x]] \rceil = \lceil x \rceil e[x]$
+> $\lceil y \rceil = \lceil x[\varepsilon[x]] \rceil = \lceil x \rceil \varepsilon[x]$
 >
-> $\delta\ \lceil y \rceil - \delta x = \delta\ \lceil x \rceil e[x] - \delta x$
+> $\delta\ \lceil y \rceil - \delta x = \delta\ \lceil x \rceil \varepsilon[x] - \delta x$
 >
-> $-y \mid \delta\ y - \delta x = \text-xe[x] : \lceil x \rceil e[x]$
+> $-y \mid \delta\ y - \delta x = \text-x\varepsilon[x] : \lceil x \rceil \varepsilon[x]$
 >
-> $\delta\ y - \delta x = x[e[x]] \mid \text-x e[x] : \lceil x \rceil e[x]$
+> $\delta\ y - \delta x = x[\varepsilon[x]] \mid \text-x \varepsilon[x] : \lceil x \rceil \varepsilon[x]$
 >
 > the alternative would be the following, by transforming and using the chain [[derivative rules]]:
 >
-> $y = x[e[x]]$
+> $y = x[\varepsilon[x]]$
 >
-> $x[e[x]] = e[\lceil x[e[x]] \rceil] = e[\lceil x \rceil e[x]]$
+> $x[\varepsilon[x]] = \varepsilon[\lceil x[\varepsilon[x]] \rceil] = \varepsilon[\lceil x \rceil \varepsilon[x]]$
 >
-> $\delta\ y - \delta x = \delta\ e[\lceil x \rceil e[x]] - \delta x$
+> $\delta\ y - \delta x = \delta\ \varepsilon[\lceil x \rceil \varepsilon[x]] - \delta x$
 >
-> $\delta\ y - \delta x = e[\lceil x \rceil e[x]] \mid \delta\ \lceil x \rceil e[x] - \delta x$
+> $\delta\ y - \delta x = \varepsilon[\lceil x \rceil \varepsilon[x]] \mid \delta\ \lceil x \rceil \varepsilon[x] - \delta x$
 >
-> $\delta\ y - \delta x = x[e[x]] \mid \text-x e[x] : \lceil x \rceil e[x]$
+> $\delta\ y - \delta x = x[\varepsilon[x]] \mid \text-x \varepsilon[x] : \lceil x \rceil \varepsilon[x]$
 
 > **example** _logarithmic differentiation of $[x]x$_
 >

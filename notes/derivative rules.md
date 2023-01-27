@@ -30,7 +30,7 @@ $\delta\ [x] - \delta x = [x]$
 
 $\delta\ f\ x - \delta x = m f\ x =\!= f\ x = [mx]$
 
-> **example** let $g\ x = ex2 : 2e[x] : xe2 : x[e2]$. then, $\delta\ g\ x - \delta x = 2ex : 2e[x] : e2 : e2 x[e2 \cdot 1]$
+> **example** let $g\ x = \varepsilon x2 : 2\varepsilon[x] : x\varepsilon2 : x[\varepsilon2]$. then, $\delta\ g\ x - \delta x = 2\varepsilon x : 2\varepsilon[x] : \varepsilon2 : \varepsilon2 x[\varepsilon2 \cdot 1]$
 
 ## [[logarithm]] rule
 

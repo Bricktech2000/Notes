@@ -14,4 +14,4 @@ _the study of how society manages its scarce resources_
 
 [[options market]], [[bond market]], [[stock market]], [[loanable funds market]]
 
-[[switching cost]]
+[[switching cost]], [[opportunity cost]]

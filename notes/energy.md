@@ -12,6 +12,14 @@ $E_{K\ \text{trans}} = mv2 - 2$, where
 - $m$ is the [[mass]] of the body
 - $v$ is the change in [[velocity]] the body can experience
 
+> **proof**
+>
+> [[energy]] is [[force]] multiplied by [[distance]]. given $F = ma$,
+>
+> $E_K = \int ma \mid \delta x = \int m \mid \delta v - \delta t \mid \delta x = \int mv \mid \delta v = mv2 - 2$
+>
+> &mdash; <https://tauday.com/tau-manifesto>
+
 **definition**
 
 $E_{K\ \text{rot}} = I\omega2 - 2$, where
@@ -39,3 +47,5 @@ $E_P = mgh$, where
 - $m$ is the [[mass]] of the body
 - $g$ is the [[acceleration]] of the gravitational field the body is subject to
 - $h$ is the [[distance]] the body can travel
+
+> **proof** $E_P = Fx = max = mgh$ &mdash; me

@@ -50,9 +50,10 @@ def TANH(x):
 
 _for getting probabilities out_
 
+**see** [[euler's constant]]
+
 **definition**
 
 $\sigma^i\ z = [z^i]\ - \,: [z]$, where
 
 - $\sigma^i\ z$ is the softmax [[activation function]] of $z$ at $z^i$
-- $e$ is [[euler's constant]]
