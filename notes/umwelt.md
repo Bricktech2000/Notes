@@ -1,6 +1,6 @@
 # Umwelt
 
-pronounced _oum velt_
+pronounced _oum-velt_
 
 _represents an organism's model of the world, the slice of their ecosystem that it can pick up on_
 

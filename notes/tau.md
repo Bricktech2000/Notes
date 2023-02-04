@@ -12,9 +12,9 @@ _the true circle constant_
 
 **pros** _compared to $\pi$_
 
-[[tau]] (alias $2\pi$) appears everywhere: in the [[gaussian function]], in the [[fourier transform]], in the $n$th [[root of unity]]s, in [[euler's constant]] identity, in [[trigonometric function]]s, and so on
+[[tau]], alias $2\pi$, appears everywhere: in the [[gaussian function]], in the [[fourier transform]], in the $n$th [[root of unity]]s, in euler's identity (see [[euler's constant]]), in [[trigonometric function]]s, and many more
 
-an [[angle]] in radians whose value is a [[real]] multiple of [[tau]] represents that multiple of a turn
+[[tau]] plays nicely with radians: an [[angle]] in radians whose value is a [[real]] multiple of [[tau]] represents that multiple of a turn
 
 **cons** _compared to $\pi$_
 

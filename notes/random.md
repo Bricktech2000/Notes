@@ -351,3 +351,7 @@ E24 &mdash; $1\text-100$ tolerance &mdash; $\text-4\ \text{W}$
 - [x] $91$
 
 ---
+
+$P\ t = a[t] =\!= \delta\ P\ t - \delta t = a[t] \mid \lceil a \rceil =\!= \delta\ P\ t - \delta t = P\ t \mid \lceil a \rceil$
+
+---->---<--|-----

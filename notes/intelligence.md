@@ -34,6 +34,8 @@ used for backlinks
 
 <https://youtu.be/-Fhf5dX1efo?t=562> (mixing up [[intelligence]] and [[knowledge]])
 
+<https://youtu.be/BN3KT7IERSw> (8 struggles of highly intelligent people)
+
 ## stuff I don't relate to
 
 **aka** _[[difficult]], [[overwhelm]]ing, "boring', complicated_
@@ -69,3 +71,7 @@ used for backlinks
 <https://youtu.be/UEJmgaFQUH8?t=353>
 
 <https://youtu.be/0-brF21ShRk?t=60>
+
+<https://youtu.be/dA_8NcYCMok?t=260>
+
+<https://youtu.be/MYmIIVpc2Ds?t=273>
