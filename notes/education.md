@@ -24,3 +24,5 @@ a lot of degrees nowadays don't seem like they're worth the [[time]] and [[money
 [[education]]al institutions focus on the average student, and not on the top students, see [[intelligence]]. this is a problem because top students are likely the ones who will make the largest contributions to society
 
 both [[education]]al institutions and their students focus on grades, and not necessarily on learning. this is a problem because of [[goodhart's law]]
+
+[[finance]]ial skills are not taught in schools. even smart doctors and lawyers can be [[finance]]ially illiterate, regardless of how much [[money]] they make or of what grades they received &mdash; <https://youtu.be/wp7Lz1svVro?t=258>

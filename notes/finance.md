@@ -4,7 +4,7 @@ _the management of large amounts of money_
 
 aka the useful slice of [[economics]]
 
-interesting views on personal finance: <https://youtu.be/oh3sAxd9-jw>
+interesting views on personal finance: <https://youtu.be/oh3sAxd9-jw> #todo rephrase this
 
 **see**
 
@@ -12,6 +12,6 @@ interesting views on personal finance: <https://youtu.be/oh3sAxd9-jw>
 
 [[money]], [[wealth]], [[inflation]]
 
-[[credit card]], [[loan]], [[budget]], [[sunk costs fallacy]]
+[[credit card]], [[loan]], [[budget]], [[sunk costs fallacy]], [[lifestyle inflation]]
 
 [[options market]], [[bond market]], [[stock market]], [[loanable funds market]]

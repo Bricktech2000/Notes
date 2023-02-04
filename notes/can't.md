@@ -14,4 +14,4 @@ everyone has $24 \text{h}$ to work with every day. if something were **actually*
 
 > **note** this powerlessness is a [[verbal#connotation]]
 
-you don't have the [[money]] to afford it **yet**. how can you get to the point where you do have the [[money]] to afford it? &mdash; Rich Dad, Poor Dad
+you don't have the [[money]] to afford it **yet**. how can you get to the point where you do have the [[money]] to afford it? &mdash; <https://youtu.be/wp7Lz1svVro?t=362>
