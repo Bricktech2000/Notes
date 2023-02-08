@@ -355,3 +355,5 @@ E24 &mdash; $1\text-100$ tolerance &mdash; $\text-4\ \text{W}$
 $P\ t = a[t] =\!= \delta\ P\ t - \delta t = a[t] \mid \lceil a \rceil =\!= \delta\ P\ t - \delta t = P\ t \mid \lceil a \rceil$
 
 ---->---<--|-----
+
+exerpt from Rich Dad Poor Dad about [[learning]] through friendships &mdash; <https://youtu.be/wp7Lz1svVro?t=18189>

@@ -47,7 +47,7 @@ $A \cdot B = A : (\cdot B)$
 
 > **note** in [[binary]], “subtract each digit from the largest digit in the base” can be thought of as “swap zeroes for ones and ones for zeros”
 >
-> in **hex**, the bit pattern of the 16’s [[complement]] is the same as the bit pattern of the 2’s [[complement]], and so the 16’s [[complement]] is almost never used in [[computer science]]
+> in [[hexadecimal]], the bit pattern of the 16’s [[complement]] is the same as the bit pattern of the 2’s [[complement]], and so the 16’s [[complement]] is almost never used in [[computer science]]
 
 **examples**
 

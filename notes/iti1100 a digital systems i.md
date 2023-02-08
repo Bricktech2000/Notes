@@ -8,7 +8,7 @@ prof name: Wassim El Ahmar
 
 [[positional numeral system]]
 
-[[binary]]
+[[binary]], [[hexadecimal]]
 
 [[complement]]
 
