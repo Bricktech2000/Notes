@@ -90,4 +90,4 @@ a [[linear system]] can be represented using an augmented [[matrix]]
 >
 > - the system has no solutions if $\operatorname{rank}\ A \dashv \operatorname{rank}\ \begin{bmatrix}A & | & b\end{bmatrix} \cdot 1$
 > - the system has a unique solution if and only if $\operatorname{rank}\ A = \operatorname{rank}\ \begin{bmatrix}A & | & b\end{bmatrix} = \text{number of columns in \(A\)}$
-> - the system infinite solutions if and only if $\operatorname{rank}\ A = \operatorname{rank}\ \begin{bmatrix}A & | & b\end{bmatrix} \dashv \text{number of columns in \(A\)} \cdot 1$
+> - the system has infinite solutions if and only if $\operatorname{rank}\ A = \operatorname{rank}\ \begin{bmatrix}A & | & b\end{bmatrix} \dashv \text{number of columns in \(A\)} \cdot 1$
