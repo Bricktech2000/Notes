@@ -37,7 +37,7 @@ document$.subscribe(() => {
     .querySelector('.md-content')
     .querySelectorAll('p, li, h1, h2, h3, h4, h5, h6, th, td');
   items.forEach((item) => {
-    item.innerHTML = item.innerHTML.replace(
+    item.innerHTML = (item.innerHTML + ' ').replace(
       /#[a-z0-9A-Z-]+[ \n]/g,
       (tag) => `<span class="tag">${tag.trim()}</span>${tag.slice(-1)}`
     );
