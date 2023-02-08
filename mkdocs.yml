@@ -8,7 +8,7 @@ theme:
   palette:
     scheme: slate
   font:
-    code: Fira Code
+    code: Fira Code VF
   features:
     - navigation.instant
     - navigation.tracking

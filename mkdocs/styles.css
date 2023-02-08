@@ -1,5 +1,9 @@
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
 * {
   font-variant-ligatures: normal !important;
+  font-feature-settings: 'zero', 'onum', 'cv01', 'cv02', 'cv06', 'ss01', 'cv14',
+    'ss04', 'cv18', 'ss07' !important;
 }
 
 [data-md-color-scheme='slate'] {
