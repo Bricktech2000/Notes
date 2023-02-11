@@ -19,7 +19,7 @@ random idea: buy an index fund, make people believe you are managing their portf
 
 ## README.yaml
 
-a standard for a file named something like README.yaml that describes the folder structure of a project. would make it easier for someone approaching a code base for the first time to "know where to start"
+a standard for a file named something like _README.[[yaml]]_ that describes the folder structure of a project. would make it easier for someone approaching a code base for the first time to "know where to start"
 
 ## large language model chatbot idea
 

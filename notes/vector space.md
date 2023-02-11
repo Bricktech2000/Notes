@@ -69,10 +69,6 @@ let $V\ \braket{\braket{v_0 \cdots v_m}}$. if $U = \operatorname{span} \braket{\
 
 ## Isomorphism
 
-#todo **equivalence** with [[category]]
-
-#todo **equivalence** with [[polynomial#vector space]]
-
 **see** [[category]], [[category theory]]
 
 > Iso-Morphic &mdash; Same Shape

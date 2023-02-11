@@ -30,7 +30,7 @@ more information about supported features available at <https://katex.org/docs/s
 
 capitalized headings are for [[concept]]s that can be linked to using [[wikilink#nested wikilink]]s and lowercease headings are for general titles
 
-some constructs, such as definitions and proofs, are very common. they are to be written as follows in markdown:
+some constructs, such as definitions and proofs, are very common. they are to be written as follows in [[markdown]]:
 
 ```md
 > **proof** _proof name_ this is an example of a proof used in a blockquote
@@ -177,9 +177,9 @@ personal comments and notes are to be written between `<?` and `?>` tags, and no
 
 level-3 headings are not used as they look too similar to level-2 headings on Obsidian. there can be multiple level-1 headings in one presentation
 
-## other cenventions
+## other conventions
 
-the graph in [[index]] is generated on Obsidian using the following settings:
+the [[graph]] in [[index]] is generated on Obsidian using the following settings:
 
 ```yaml
 # if a property is not specified below,
@@ -199,4 +199,4 @@ forces:
   center force: 0.32
 ```
 
-a screenshot of the graph is then taken using Obsidian's _Copy screenshot_ feature
+a screenshot of the [[graph]] is then taken using Obsidian's _Copy screenshot_ feature

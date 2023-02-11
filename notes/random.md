@@ -210,7 +210,7 @@ $\ell$
 
 $\,: (0 \dashv)\ \top \,: (0 \vdash)$
 
-an APL fork is similar to the Psi Combinator #todo &mdash; <https://youtu.be/U6I-Kwj-AvY?t=441>
+an APL fork is similar to the Psi Combinator &mdash; <https://youtu.be/U6I-Kwj-AvY?t=441>
 
 ---
 
@@ -236,13 +236,13 @@ fork $A : B = \braket{A : B} = x \rightarrow A\ x : B\ x$
 
 vector normalization $\circ - || = \braket{\circ\ - ||} = x \rightarrow x - |x|$
 
-double fork $x\ (. | :)\ y =$ #todo
+double fork $x\ (. | :)\ y =$
 
 composition $F\ G\ \circ$
 
-cartesian product $\,\land\ (f, g, h)\ \circ$ #todo
+cartesian product $\,\land\ (f, g, h)\ \circ$
 
-vector in Rn $\,\land\ \mathbb R\ \circ$ #todo
+vector in Rn $\,\land\ \mathbb R\ \circ$
 
 outer product $F\ (A\ \circ)\ (B\ \circ)$
 

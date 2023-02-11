@@ -30,9 +30,7 @@ graph TD
   A -- <strong>Tokenizer</strong><br><em>Lexical Analysis</em> --> B -- <strong>Parser</strong><br><em>Syntactic Analysis</em> --> C -- <strong>Interpreter</strong> or<br><strong>Code Generator</strong><br><em>Semantic Analysis</em> --> D
 ```
 
-**see**
-
-languages in the order I learned them:
+**examples** _languages in the rough order I learned them_
 
 1. Visual Basic Script (and Batch)
 2. [[javascript]] (and HTML and CSS)
@@ -47,3 +45,11 @@ languages in the order I learned them:
 [[the worst programming language ever]]
 
 [[markup language idea]]
+
+**examples** _other types of languages_
+
+[[json]]
+
+[[yaml]]
+
+[[markdown]]

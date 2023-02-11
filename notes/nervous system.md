@@ -19,11 +19,3 @@
 **definition** _afferent_ refers to outflow and _efferent_ refers to inflow
 
 **definition** _ventral_ refers to "above" and _dorsal_ refers to "below"
-
-## #todo
-
-ventricles
-
-csf
-
-law of Bell and Magendie

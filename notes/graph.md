@@ -34,8 +34,6 @@ below are two equivalent representations of a sample graph
 
 ## Isomorphism
 
-#todo **equivalence** with [[category]]
-
 **see** [[category]], [[category theory]]
 
 **definition** two [[graph]]s are said to be _isomorphic_ if they have the same edges connecting their vertices, which could be labelled differently

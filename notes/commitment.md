@@ -2,6 +2,8 @@
 
 #todo link with control over coasting
 
+#todo Rich Dad Poor Dad "life pushess you around" is control over coasting
+
 **definition** a [[commitment]] is an implicit or explicit agreement to meeting an [[expectation]]
 
 > **example** _an implicit commitment_ Chris makes coffee for his wife every morning. even though there is no explicit agreement, not making coffee one morning would be a breach of [[commitment]]
