@@ -8,14 +8,6 @@
 
 [[class]] members (which represent state) are stored directly on the [[blockchain]] in [[solidity]]. the [[class]] `constructor` (which initializes state) is called exactly one time when the smart contract gets deployed to the [[blockchain]]
 
-**pros**
-
-#todo
-
-**cons**
-
-#todo
-
 ## data types
 
 **see** [[type]]
@@ -216,7 +208,7 @@ contract Counter {
 
 ```
 
-## #todo
+## left to learn
 
 ```solidity
 memory

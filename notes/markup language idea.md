@@ -1,6 +1,6 @@
 # Markup Language Idea
 
-this [[markup language idea]] is meant to address the main issue with Markdown in my opinion: inconsistency.
+this [[markup language idea]] is meant to address the main issue with [[markdown]] in my opinion: inconsistency.
 
 in this [[programming language]],
 

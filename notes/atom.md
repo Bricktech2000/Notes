@@ -1,12 +1,10 @@
 # Atom
 
-#todo create backlinks throughout notes
-
 used for backlinks
 
 ## Properties
 
-_atomic properties_
+_[[atom]]ic properties_
 
 **see** [[orbital]], [[atom]]
 
@@ -14,21 +12,21 @@ _atomic properties_
 
 ### Atomic Radius
 
-_the radius of the atom_
+_the radius of the [[atom]]_
 
 larger on the left, bottom of the periodic table
 
 ### Ionization Energy
 
-_the amount of [[energy]] required to remove one [[electron]] from a neutral atom in the gas phase_
+_the amount of [[energy]] required to remove one [[electron]] from a neutral [[atom]] in the gas phase_
 
 larger on the top, right of the periodic table
 
 ### Electron Affinity
 
-_the amount of [[energy]] required or released to add one [[electron]] to a neutral atom in the gas phase_
+_the amount of [[energy]] required or released to add one [[electron]] to a neutral [[atom]] in the gas phase_
 
-not as regular as other atomic properties
+not as regular as other [[atom]]ic properties
 
 larger on the top, right of the periodic table
 

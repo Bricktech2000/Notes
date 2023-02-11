@@ -2,9 +2,9 @@
 
 &mdash; <https://youtu.be/DMw8G3RPWrQ?t=7038>
 
-#todo seems not to be an official term, see src
-
 [[intent to mastery]] is a hard-wired core part of our [[brain]]s
+
+> **note** _[[intent to mastery]]_ doesn not seem to be an official term
 
 > **examples** _demonstrating the importance of [[intent to mastery]]_
 >

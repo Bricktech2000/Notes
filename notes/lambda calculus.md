@@ -47,7 +47,7 @@ _in my [[math notation]]_
 
 ## Church Booleans
 
-#todo **equivacence** with [[boolean algebra]]
+> **equivalence** _[[lambda calculus#church booleans]]_ and _[[boolean algebra]]_
 
 [[boolean]] values and [[boolean algebra#operators]] can be defined as follows:
 
