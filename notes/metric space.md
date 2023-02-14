@@ -35,7 +35,11 @@ _positive_ $d\ x\ y \vdash 0$
 
 _symmetric_ $d\ x\ y = d\ y\ x$
 
+> **equivalence** _[[metric space]] symmetry and [[relation#symmetric relation]]_
+
 _triangle inequality_ $d\ x\ z \dashv d\ x\ y : d\ y\ z$
+
+> **equivalence** _[[metric space]] triangle inequality and [[relation#transitive relation]]_
 
 ## Convergent Sequence
 

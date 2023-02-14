@@ -40,6 +40,6 @@ _identity element_ allows for the binary operation to be used when data is empty
 
 > **example** the following data [[type]]s and binary [[operator]]s are examples of [[monoid]]s:
 >
-> - `String` and concatenation
+> - `String` and concatenation, see [[string]]
 > - `u32` and addition
 > - `f64` and multiplication

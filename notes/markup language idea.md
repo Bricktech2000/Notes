@@ -6,7 +6,7 @@ in this [[programming language]],
 
 - most constructs have a clear semantic meaning
 - most constructs have block-level and inline equivalents
-- every control character can be escaped with a `\`, with no ambiguous exceptions
+- every control [[character]] can be escaped with a `\`, with no ambiguous exceptions
 - constructs can be nested, and in a way that is actually consistent
 
 ## things to iron out
@@ -27,7 +27,7 @@ in this [[programming language]],
 
 `|` represents content that was sourced somewhere else
 
-`-` represents a set of items
+`-` represents a [[set]] or [[list]] of items
 
 `>` and `<>` represent external files
 
@@ -45,7 +45,7 @@ in this [[programming language]],
 
 `$` is used for LaTeX mathematical equations
 
-`\` is used for escaping control characters
+`\` is used for escaping [[control]] characters
 
 ## block-level examples
 

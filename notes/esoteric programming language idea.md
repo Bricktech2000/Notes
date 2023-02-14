@@ -7,7 +7,7 @@ inspired by [[conventional math notation]], where [[operator]]s like to change w
 ## initiators
 
 - whether a comment is present in a [[function]]
-- number of characters in a line
+- number of [[character]]s in a line
 
 ## operations
 

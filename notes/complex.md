@@ -112,6 +112,8 @@ $|z - w| = |z| - |w|$
 
 _triangle inequality_ $|z : w| \dashv |z| : |w|$
 
+> **equivalence** _[[complex#modulus]] triangle inequality and [[relation#transitive relation]]_
+
 ## Argument
 
 **aka** _phase_

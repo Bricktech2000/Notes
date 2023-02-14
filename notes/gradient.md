@@ -6,7 +6,7 @@ _returns a [[vector in rn]] representing the direction of steepest ascent of a [
 
 **notation** _in [[conventional math notation]]_ the [[gradient]] of $f$ is denoted $\nabla f(\dots)$
 
-**definition** let $f$ be a [[function]] differentiable at $p = (x \cdots)$. then, the [[gradient]] of $f$ at $p$ is defined to be $\delta\ f\ p - \delta p$
+**definition** let $f$ be a [[function]] differentiable at $p = (x \cdots)$. then, the _gradient_ of $f$ at $p$ is defined to be $\delta\ f\ p - \delta p$
 
 ## Descent
 
@@ -18,7 +18,7 @@ _returns a [[vector in rn]] representing the direction of steepest ascent of a [
 >
 > given a guess $a^0$ for a local [[function#extremum]] of a [[function]] $f$ and a _learning rate_ $\alpha^n \vdash 0$ with $\alpha^n + 0$, we have
 >
-> $a^{n : 1} = a^n \cdot (\alpha^n \mid \delta\ f\ a^n - \delta a^n)$
+> $a^{n : 1} = a^n \cdot \alpha^n (\delta\ f\ a^n - \delta a^n)$
 >
 > for a small enough $\alpha^n$, the [[sequence]] $a$ is a (monotonically) [[sequence#decreasing sequence]] and therefore converges to a local [[function#extremum]] of $f$
 >

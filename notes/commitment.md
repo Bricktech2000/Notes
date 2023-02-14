@@ -1,16 +1,12 @@
 # Commitment
 
-#todo link with control over coasting
-
-#todo Rich Dad Poor Dad "life pushess you around" is control over coasting
-
 **definition** a [[commitment]] is an implicit or explicit agreement to meeting an [[expectation]]
 
 > **example** _an implicit commitment_ Chris makes coffee for his wife every morning. even though there is no explicit agreement, not making coffee one morning would be a breach of [[commitment]]
 
 > **example** dishonesty is the breach of the implicit [[commitment]] to honesty, which is a breach of [[integrity]]
 
-not fulfilling a [[commitment]] is a breach of [[integrity]]. keeping people updated on the status of a [[commitment]] is a way to maintain [[integrity]] when [[expectation]]s are not met. when [[integrity]] is breached, it can be "restored" through the procedure outlined below
+not fulfilling a [[commitment]] is a breach of [[integrity]]. keeping people updated on the status of a [[commitment]] is a way to maintain [[integrity]] when [[expectation]]s are not met. when [[integrity]] is breached, it can be "restored" to [[steer over drift]] through the procedure outlined below
 
 > **procedure** _restoring [[integrity]]_
 >

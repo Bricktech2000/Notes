@@ -7,3 +7,4 @@ it can be easier to empathize with someone not by imagining what it would feel l
 > - homosexuality &mdash; someone heterozexual imagining a world in which homosexuality is the norm instead of trying to imagine what it would be like to be homosexual
 > - [[wealth]] &mdash; someone in the middle class experiencing being surrounded by the poor instead of trying to imagine what it would be like to be wealthy
 > - [[intelligence]] &mdash; someone of average [[intelligence]] imagining interracting with people of low [[intelligence]] instead of imagining what it would be like to be of high [[intelligence]]
+> -

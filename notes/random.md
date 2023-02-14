@@ -357,3 +357,25 @@ $P\ t = a[t] =\!= \delta\ P\ t - \delta t = a[t] \mid \lceil a \rceil =\!= \delt
 ---->---<--|-----
 
 exerpt from Rich Dad Poor Dad about [[learning]] through friendships &mdash; <https://youtu.be/wp7Lz1svVro?t=18189>
+
+---
+
+# Header
+
+_aoeuaoeu_
+
+this is an _important_ idea
+
+```html
+<i>test</i> <em>test</em>
+```
+
+$\forall x \in \mathbb R \quad \exists \begin{bmatrix}1 & 0 & 0 \\\ 0 & 1 & 0 \\\ 0 & 0 & 1\end{bmatrix} \quad \text{s.t.} \quad 1 + 2 = 3$
+
+$\frac 1 2$
+
+$\,\mid\ (1 \cdots n)$
+
+$-1, 1, -2, 2, -4, 4, -8, 8$
+
+$-1, -2, -4, -8$

@@ -48,9 +48,13 @@ let:
 - [[real]]s are represented using other [[operator]]s and [[limit]]s
 - [[p-adic]]s are currently represented using their own notation
 
-> **note** both percentages and decimals are to be represented as [[rational]]s. the $\%$ sign and the decimal $.$ are to be avoided
+> **note** both percentages and decimals are to be represented as [[rational]]s. the `%` [[character]] and the decimal `.` are to be avoided
 
-> **note** to make [[number]]s easier to read, spaces may be introduced in where a decimal $.$ would conventially be used. for example, the value of $49 - 25$ can be written as $1\ 96\text-100$
+> **note** to make [[number]]s easier to read, spaces may be introduced in where a decimal `.` would conventially be used. for example, the value of $49 - 25$ can be written as $1\ 96\text-100$
+
+### characters
+
+[[character]]s are to be written surrounded by $\text{`}$ and $\text{'}$. for example, the [[character]] `&` is to be written $\text{`\&'}$
 
 ### operator descriptions
 
@@ -138,15 +142,16 @@ _in order of high to low precedence_
 
 ### shorthands
 
-| shorthand            | definition                      | notes                        |
-| -------------------- | ------------------------------- | ---------------------------- |
-| $x\omega$            | $[x]\omega$                     |                              |
-| $ax$                 | $a \smash\shortmid x$           |                              |
-| $f\ E$               | $f \leftarrow E$                | common, longhand discouraged |
-| $x\ y \rightarrow E$ | $x \rightarrow y \rightarrow E$ |                              |
-| $\braket{\ }$        | $\braket{\braket{\ }}$          | see [[empty]] [[set]]        |
-| $(\ )$               | $((\ ))$                        | see [[multiset]]             |
-| $f\ g\ \circ$        | $x \rightarrow f\ (g\ x)$       | $\circ$ is a "hole"          |
+| shorthand            | definition                             | notes                        |
+| -------------------- | -------------------------------------- | ---------------------------- |
+| $x\omega$            | $[x]\omega$                            |                              |
+| $ax$                 | $a \smash\shortmid x$                  |                              |
+| $f\ E$               | $f \leftarrow E$                       | common, longhand discouraged |
+| $x\ y \rightarrow E$ | $x \rightarrow y \rightarrow E$        |                              |
+| $\braket{\ }$        | $\braket{\braket{\ }}$                 | see [[set]], [[empty]]       |
+| $(\ )$               | $((\ ))$                               | see [[multiset]]             |
+| $f\ g\ \circ$        | $x \rightarrow f\ (g\ x)$              | $\circ$ is a "hole"          |
+| $\text{``foo''}$     | $(\text{`f'}, \text{`o'}, \text{`o'})$ | see [[string]], [[list]]     |
 
 ## variable scope
 

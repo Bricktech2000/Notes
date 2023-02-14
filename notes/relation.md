@@ -33,7 +33,7 @@ then, $\mathcal R \braket{x, y} = \mathcal R^\times \braket{y, x}$
 
 $\,\land\ \mathcal R^\times \dashv (\bot \braket{B, A}\ \circ)$
 
-#todo **equivalence** for the three following sections
+#todo **equivalence** for the three sections below
 
 ## Reflexive Relation
 
@@ -53,6 +53,18 @@ similar to composition in [[category theory]]
 
 **definition** a [[relation]] on $A$ is said to be _transitive_ if $\mathcal R \braket{x, y} \land \mathcal R \braket{y, z} < \mathcal R \braket{x, z}$ for all $x$, $y$, and $z$
 
-## Equivalent Relation
+## Equivalence Relation
 
-**definition** a [[relation]] on $A$ is said to be _equivalent_ if it is _reflexive_, _symmetric_ and _transitive_
+**definition** a [[relation]] on $A$ is said to be an _equivalence relation_ if it is _reflexive_, _symmetric_ and _transitive_
+
+## Antisymmetric Relation
+
+&mdash; <https://en.wikipedia.org/wiki/Antisymmetric_relation>
+
+**definition** a [[relation]] on $A$ is said to be _antisymmetric_ if $\mathcal R \braket{x, y} \land \mathcal R \braket{y, x} < x = y$ for all $x$ and $y$
+
+## Asymmetric Relation
+
+&mdash; <https://en.wikipedia.org/wiki/Asymmetric_relation>
+
+**definition** a [[relation]] on $A$ is said to be _asymmetric_ if $\mathcal R \braket{x, y} < + \mathcal R \braket{y, x}$ for all $x$ and $y$

@@ -102,6 +102,8 @@
 
 [[pareto principle]]
 
+[[de bruijn sequence]]
+
 **finance**
 
 [[education]] system issues

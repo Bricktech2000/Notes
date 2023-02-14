@@ -6,7 +6,7 @@
 
 **definition**
 
-$E_{K\ \text{trans}} = mv2 - 2$, where
+$E_K = mv2 - 2$, where
 
 - $E_K$ is the kinetic [[energy]] of a body
 - $m$ is the [[mass]] of the body
@@ -22,11 +22,19 @@ $E_{K\ \text{trans}} = mv2 - 2$, where
 
 **definition**
 
-$E_{K\ \text{rot}} = I\omega2 - 2$, where
+$E_K = I\omega2 - 2$, where
 
 - $E_K$ is the kinetic [[energy]] of a body
 - $I$ is the moment of inertia of the body
 - $\omega$ is the change in [[angular velocity]] the body can experience
+
+> **proof**
+>
+> when integrating over [[mass]], [[velocity]] is radius multiplied by [[angular velocity]]:
+>
+> $E = mv2 - 2 = \int v2 - 2 \mid \delta m = \int [r\omega]2 - 2 \mid \delta m = \omega2 - 2 \mid \int r2 \mid \delta m = I\omega2 - 2$
+>
+> &mdash; me
 
 **definition**
 
