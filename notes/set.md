@@ -60,9 +60,9 @@ in other words, an element being in $A$ implies it is also in $B$
 
 _in my [[math notation]]_
 
-$\,\land A \dashv B$ checks if $A$ is a [[set#subset]] of $B$
+$\,\land A \dashv B$ checks whether $A$ is a [[set#subset]] of $B$
 
-$\,\land B \vdash A$ checks if $B$ is a [[set#superset]] of $A$
+$\,\land B \vdash A$ checks whether $B$ is a [[set#superset]] of $A$
 
 _in [[conventional math notation]]_
 
@@ -75,6 +75,10 @@ $B \supseteq A$ states $B$ is a [[set#superset]] of $A$
 $\mathbb Z < \mathbb R$
 
 $\mathbb E < \mathbb Z$
+
+**properties**
+
+both the [[set#subset]] and the [[set#superset]] form a [[partial order]]
 
 ## Union
 
@@ -128,9 +132,7 @@ _the [[set]] of all possible mathematical entities_
 
 ## Cardinality
 
-**notation**
-
-$\#\ S$
+**notation** $\#\ S$
 
 **definition** the _cardinality_ of a [[set]] is the number of elements in the [[set]]
 

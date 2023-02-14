@@ -1,6 +1,6 @@
 # Sequence
 
-**see** [[math notation]], [[series]], [[calculus notation]]
+**see** [[math notation]], [[series]], [[calculus notation]], [[substring]], [[subsequence]]
 
 **definition** a _sequence_ is an ordered collection of infinitely many elements
 

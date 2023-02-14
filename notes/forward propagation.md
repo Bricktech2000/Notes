@@ -27,7 +27,7 @@ $\begin{bmatrix} w_{k \to j}^{0, 0} & w_{k \to j}^{0, 1} & \cdots & w_{k \to j}^
 - $a_k^b$ is the bias neuron (in layer $k$) for layer $j$
 - $w_{k \to j}^{j, b}$ is the bias for neuron $a_j^j$
 
-> **note** recall that superscripts have special meaning whereas subscript are just English characters. this means that neuron $a_j^j$ is the $j$th neuron in the vector $a_j$; the subscript $_j$ is part of the name $a_j$ whereas the superscript $^j$ is an index in $a_j$. see [[math notation]]
+> **note** recall that superscripts have special meaning whereas subscript are just English [[character]]s. this means that neuron $a_j^j$ is the $j$th neuron in the vector $a_j$; the subscript $_j$ is part of the name $a_j$ whereas the superscript $^j$ is an index in $a_j$. see [[math notation]]
 
 &mdash; <https://youtu.be/aircAruvnKk?t=807>
 

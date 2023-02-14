@@ -21,7 +21,7 @@ uOttawa technical report writing research guide: <https://uottawa.libguides.com/
 
 **example**
 
-sample search string using synonyms, [[operator]]s, wildcard and quotes
+sample search [[string]] using synonyms, [[operator]]s, wildcard and quotes
 
 ```jsx
 ("sea level" AND (rise OR change))

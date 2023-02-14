@@ -14,4 +14,6 @@ $|x| \dashv t =\!= \cdot t \dashv x \dashv t$
 
 $|x| \vdash t =\!= x \vdash t \lor x \vdash \cdot t$
 
-$|a : b| \dashv |a| : |b| > \mathbb R a \land \mathbb R b$ &mdash; triangle inequality
+_triangle inequality_ $|a : b| \dashv |a| : |b| > \mathbb R a \land \mathbb R b$
+
+> **equivalence** _[[absolute value]] triangle inequality and [[relation#transitive relation]]_

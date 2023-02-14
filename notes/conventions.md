@@ -14,7 +14,7 @@ whitespace in formulas follow [[programming language]]-like conventions
 
 [[international system of units]] units and other units are to be written using `\text{}`
 
-the $\, : \,$ [[operator]] must always be surrounded one space on either side, or written as the first or last character of an equation as `$\, : \,$`
+the $\, : \,$ [[operator]] must always be surrounded one space on either side, or written as the first or last [[character]] of an equation as `$\, : \,$`
 
 the $\rightarrow$ [[operator]] is written as `\to` by default, and must be written as `\rightarrow` when it indicates a [[math notation]] [[function]] definition
 

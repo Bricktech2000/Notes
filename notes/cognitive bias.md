@@ -30,6 +30,8 @@ _a systematic pattern of deviation from norm or rationality in judgment_
 
 [[framing effect]]
 
+[[survivorship bias]]
+
 ## other "mind traps"
 
 [[cognitive dissonance]]
