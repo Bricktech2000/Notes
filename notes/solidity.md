@@ -25,7 +25,7 @@ struct, enum // user-defined types
 
 > **note** `uint` and `int` are shorthands for `uint256` and `int256` respectively
 
-> **example** _basic data types_
+> **examples**
 >
 > ```solidity
 > bool isReady = true;
@@ -35,8 +35,6 @@ struct, enum // user-defined types
 > bytes32 d = "0x1234567890123456789012345678901234567890123456789012345678901234";
 > string e = "hello world";
 > ```
-
-> **example** _[[abstract data type]]s_
 >
 > ```solidity
 > uint[][] a = [[1, 2], [3, 4]];
@@ -46,8 +44,6 @@ struct, enum // user-defined types
 > balances[0x1234567890123456789012345678901234567890] = 200;
 > mapping(address => mapping(address => uint)) allowed;
 > ```
-
-> **example** _algebraic data [[type]]s_
 >
 > ```solidity
 > struct Person {
