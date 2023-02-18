@@ -4,6 +4,8 @@ _the OG with UB_
 
 &mdash; <https://youtu.be/A3AdN7U24iU>
 
+&mdash; Effective C by Robert C. Seacord
+
 **pros**
 
 - performance (fast, very little overhead, very little resources)
@@ -20,8 +22,7 @@ _the OG with UB_
 ```Cpp
 #include <iostream>
 
-int main()
-{
+int main(void) {
  short a[4] = {1, 2, 3, 4};
 
  std::cout << a[3] << std::endl; // 4
@@ -62,22 +63,6 @@ upon encountering undefined behavior, a compiler may:
 undefined behavior is a tool for the compiler to optimize programs even further
 
 > **example** since division by zero is undefined behavior, the compiler can assume the [[variable]] `a` in an expresion such as `1 / a` will never be zero. it can then build onto that assumption for further optimization
-
-## variable declaration
-
-```C
-char *src, c;
-int x, y[5];
-```
-
-is equivalent to the following:
-
-```C
-char *src;
-char c;
-int x;
-int y[5];
-```
 
 ## lifetimes
 
@@ -131,6 +116,7 @@ _allocated_ lifetimes #todo
 ```C
 _Bool // boolean
 char // character
+void // void
 
 // signed integer data
 signed char
@@ -145,7 +131,38 @@ unsigned short int // aka `unsigned short`
 unsigned int
 unsigned long int // aka `unsigned long`
 unsigned long long int // aka `unsigned long long`
+
+// floating-point data
+float
+double
+long double
+
+// user-defined types
+enum, struct, union, typedef
 ```
+
+> **examples**
+>
+> ```C
+> enum day { sun, mon, tue, wed, thu, fri, sat };
+> enum month { jan = 1, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec };
+>
+> struct {
+>   int x;
+>   int y;
+> } point;
+>
+> union {
+>   float f;
+>   char c;
+> } u;
+>
+> char *str;
+> int arr[10];
+> int f(void);
+>
+> typedef unsigned int uint_type;
+> ```
 
 > **note** `stdbool.h` defines the following:
 >
@@ -155,14 +172,66 @@ unsigned long long int // aka `unsigned long long`
 > #define false 0
 > ```
 
-> **note** each compiler implementation defines `char` as either `signed char` or `unsigned char`. regardless of the choice made, `char` is a different type from the other two and is incompatible with both. `char` is to be used for characters **only**, and `signed char` and `unsigned char` for small integer data
+> **note** `void f();` declares a function that takes any number of arguments or any type. `void f(void);` declares a function that takes no arguments. the former is to be avoided
 
-> **note** the size of integer data types is implementation-defined behavior and is available in `limits.h`
+> **note**
+>
+> ```C
+> char *src, c;
+> int x, y[5];
+> // is equivalent to
+> char *src;
+> char c;
+> int x;
+> int y[5];
+> ```
 
-> **note** actual width integers such as `uint32_t`, and widest integer types `uintmax_t` and `intmax_t`, are available in `stdint.h` and `inttypes.h`
+> **note**
+>
+> ```C
+> typedef signed char schar_type, *schar_p, (*fp)(void);
+> // is equivalent to
+> typedef signed char schar_type;
+> typedef signed char *schar_p;
+> typedef signed char (*fp)(void);
+> ```
+>
+> - `schar_type` is an alias to `signed char`
+> - `schar_p` is a pointer to `signed char *`
+> - `fp` is an alias to `char(*)(void)`
 
-#todo currently on page 23
+each compiler implementation defines `char` as either `signed char` or `unsigned char`. regardless of the choice made, `char` is a different type from the other two and is incompatible with both. `char` is to be used for characters **only**, and `signed char` and `unsigned char` for small integer data
+
+the size of integer data types is implementation-defined behavior and is available in `limits.h`
+
+actual width integers such as `uint32_t`, and widest integer types `uintmax_t` and `intmax_t`, are available in `stdint.h` and `inttypes.h`
+
+floating-point implementations are implementation-defined behavior
+
+## tags
+
+tags are a special naming mechanism for `enum`, `struct`, and `union` types. they live in a seperate namespace from ordinary identifiers
+
+> **note**
+>
+> the snippets below are valid
+>
+> ```C
+> struct s { };
+> struct s s; // an object `s` of type `struct s`
+>
+> enum status { ok, fail };
+> enum status status(void); // a function `status` that returns an `enum status`
+>
+> // the name of the type and of the tag can be the same
+> typedef struct tnode {
+>   struct tnode *left;
+>   struct tnode *right;
+> } tnode;
+> ```
+
+#todo currently on page 31
 
 ## reserved identifiers
 
-any identifier matching the [[regular expression]]s `/$__/` or `/$_[A-Z]/` is reserved and is not to be used
+any identifier matching the [[regular expression]]s `/__.*/` or `/_[A-Z].*/` or `/int[0-9a-z_]*_t/` or `/uint[0-9a-z_]*_t/` is reserved and is not to be used
