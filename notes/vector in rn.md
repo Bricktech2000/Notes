@@ -42,7 +42,7 @@ $|V| = \lfloor \,: V2 \rfloor$, where
 
 a _unit vector_ is a [[vector in rn]] $V$ such that $|V| = 1$
 
-a [[vector in rn]] $V$ can be _normalized_ (turned into a unit vector) through $V - |V| =\!= (\circ - ||)\ V$
+a [[vector in rn]] can be _normalized_ (scaled into into a [[vector in rn#unit vector]]) through $(\circ - ||)$
 
 ## Angle
 

@@ -8,4 +8,6 @@ _when a square root is in the denominator_
 >
 > if the denominator is $\lfloor a \rfloor$, multiply the fraction by $\lfloor a \rfloor - \lfloor a \rfloor$
 >
-> if the denominator is $\lfloor a \rfloor \because \lfloor b \rfloor$, multiply the fraction by $\lfloor a \rfloor \therefore \lfloor b \rfloor - \lfloor a \rfloor \therefore \lfloor b \rfloor$
+> if the denominator is $\lfloor a \rfloor : \lfloor b \rfloor$, multiply the fraction by $\lfloor a \rfloor \cdot \lfloor b \rfloor - \lfloor a \rfloor \cdot \lfloor b \rfloor$
+>
+> if the denominator is $\lfloor a \rfloor \cdot \lfloor b \rfloor$, multiply the fraction by $\lfloor a \rfloor : \lfloor b \rfloor - \lfloor a \rfloor : \lfloor b \rfloor$

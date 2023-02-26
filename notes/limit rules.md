@@ -38,9 +38,9 @@ $f\ g\ x\ \braket{x \rightarrow a} = f\ (g\ x\ \braket{x \rightarrow a})$ if $f$
 
 ## infinity rules
 
-$[x]r\ \braket{x \rightarrow\ \because \infty} = 0 > r\ (\dashv \land +)\ 0$
+$[x]r\ \braket{x \rightarrow \infty} = 0 > r\ (\dashv \land +)\ 0$
 
-$-x\ \braket{x \rightarrow 0} =\ \because \infty$
+$-x\ \braket{x \rightarrow 0} = \braket{\infty \lor \cdot \infty}$ #think [[improved expression evaluation]]
 
 ## squeeze theorem
 

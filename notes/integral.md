@@ -51,9 +51,9 @@ a Type I improper [[integral]] is said to:
 
 _an integral whose integrand has a [[function]] discontinuity on the integration interval_
 
-**theorem** if $f\ x\ \braket{x \stackrel \cdot \rightarrow b} =\ \because \infty$ #think [[improved expression evaluation]], then $\int f\ x \mid \delta x\ \braket{b \cdot a} =\!= \int f\ x \mid \delta x\ \braket{t \cdot a}\ \braket{t \stackrel \cdot \rightarrow b}$
+**theorem** if $f\ x\ \braket{x \stackrel \cdot \rightarrow b} = \braket{\infty \lor \cdot \infty}$ #think [[improved expression evaluation]], then $\int f\ x \mid \delta x\ \braket{b \cdot a} =\!= \int f\ x \mid \delta x\ \braket{t \cdot a}\ \braket{t \stackrel \cdot \rightarrow b}$
 
-**theorem** if $f\ x\ \braket{x \stackrel {\cdot \cdot} \rightarrow a} =\ \because \infty$ #think [[improved expression evaluation]], $\int f\ x \mid \delta x\ \braket{b \cdot a} =\!= \int f\ x \mid \delta x\ \braket{b \cdot t}\ \braket{t \stackrel {\cdot \cdot} \rightarrow a}$
+**theorem** if $f\ x\ \braket{x \stackrel {\cdot \cdot} \rightarrow a} = \braket{\infty \lor \cdot \infty}$ #think [[improved expression evaluation]], $\int f\ x \mid \delta x\ \braket{b \cdot a} =\!= \int f\ x \mid \delta x\ \braket{b \cdot t}\ \braket{t \stackrel {\cdot \cdot} \rightarrow a}$
 
 ### comparison test
 

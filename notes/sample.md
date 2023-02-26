@@ -2,8 +2,6 @@
 
 **see** [[inferential statistics]], [[math notation]], [[population]]
 
-_a [[list]] of mathematical objects_
-
 **definition** a _sample_ is a [[multiset#multisubset]] of a [[population]] and therefore a [[multiset]] of _examples_
 
 ---
@@ -38,7 +36,7 @@ simple random sampling without replacement is usually more convenient and gives 
 
 simple random sampling does not require any information about the [[population]]
 
-formulas for calculating the [[sample#size]] required for simple random sampling are relatively simple
+formulas for calculating the [[sample]] size required for simple random sampling are relatively simple
 
 ### Stratified Sampling
 

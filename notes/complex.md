@@ -36,7 +36,7 @@ in cartesian form, $a : b\iota \mid c : d\iota = ac : ad\iota : b\iota c : bd\io
 
 in polar form, $z \mid w = |z|\ \varepsilon[\iota\arg z] \mid |w|\ \varepsilon[\iota\arg w] = |zw|\ \varepsilon[\iota \mid \arg z : \arg w]$
 
-_square root of $\iota$_ $\lfloor \iota \rfloor =\ \because\ \mid 1 : \iota - \lfloor 2 \rfloor$ &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
+_square root of $\iota$_ $\lfloor \iota \rfloor = \braket{1 : \iota - \lfloor 2 \rfloor \lor 1 : \iota - \cdot \lfloor 2 \rfloor}$ &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
 
 _product of two [[complex#conjugate]]s are product of [[complex#modulus]]es_ $a : b\iota \mid a \cdot b\iota = a2 : b2 = |a : b\iota|\ \mid\ |a \cdot b\iota|$ &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
 

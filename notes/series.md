@@ -161,7 +161,7 @@ _convergence_ a [[series#geometric series]] $b^0r0 : b^0r1 : \cdots$ with $b^0 +
 > taking the [[limit]] to compute the value at which the [[series]] converges,
 >
 > - if $|r|\ (\dashv \land +)\ 1 \land r + 0$, then $S^n\ \braket{n \rightarrow \infty} = b^0 - 1 \cdot r$, the [[series]] converges
-> - if $|r| \vdash 1 \land r + 1$, then $S^n\ \braket{n \rightarrow \infty} =\ \because \infty$, the [[series]] diverges
+> - if $|r| \vdash 1 \land r + 1$, then $S^n\ \braket{n \rightarrow \infty} = \braket{\infty \lor \cdot \infty}$, the [[series]] diverges
 >
 > if $r = 0 \lor r = 1$, the above definition of $S^n$ does not necessarily hold, see [[improved expression evaluation]]. therefore, we must use the definition
 >
@@ -171,7 +171,7 @@ _convergence_ a [[series#geometric series]] $b^0r0 : b^0r1 : \cdots$ with $b^0 +
 >
 > - if $r = 0 \land b^0 + 0$, then $S^n\ \braket{n \rightarrow \infty} = [0]0 = 1$, the [[series]] converges, see [[improved expression evaluation]]
 > - if $r = 0 \land b^0 = 0$, then $S^n\ \braket{n \rightarrow \infty} = 0$, the [[series]] converges
-> - if $r = 1 \land b^0 + 0$, then $S^n\ \braket{n \rightarrow \infty} =\ \because \infty$, the [[series]] diverges
+> - if $r = 1 \land b^0 + 0$, then $S^n\ \braket{n \rightarrow \infty} = \braket{\infty \lor \cdot \infty}$, the [[series]] diverges
 > - if $r = 1 \land b^0 = 0$, then $S^n\ \braket{n \rightarrow \infty} = 0$, the [[series]] converges
 
 ## P-Series
