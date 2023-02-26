@@ -19,7 +19,7 @@ the goal of this note is to study the following strategy:
 - trading fees &mdash; Wealth Simple Trade has very low fees for long-term investments
 - [[inflation]] &mdash; ROI on index funds (see [[stock market]]) are higher than inflation rates
 
-video expressing a similar opinion: <https://youtu.be/hqYXjclDmis?t=37>
+videos expressing similar opinions: <https://youtu.be/hqYXjclDmis?t=37>, <https://youtu.be/lNdOtlpmH5U?t=935>
 
 ## other notes
 

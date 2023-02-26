@@ -32,7 +32,7 @@ _in my [[math notation]]_ $P\ x \land \mathbb R x$
 
 _in [[conventional math notation]]_ $\exists x \in \mathbb R, P(x)$
 
-## Unique Existential Quantifier
+## Uniqueness Quantifier
 
 _in [[conventional math notation]]_
 

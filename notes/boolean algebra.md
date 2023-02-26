@@ -22,9 +22,9 @@ see [[math notation]] for [[operator]] precedence in my [[math notation]]
 
 in [[conventional math notation]]: $' \cdot + \oplus$
 
-## AND
+## Conjunction
 
-**aka** _Conjunction, $\min$_
+**aka** _AND, $\min$_
 
 **notations**
 
@@ -43,9 +43,9 @@ straight-curve [[logic gate]]. may take more than one input
 | 1   | 0   | 0           |
 | 1   | 1   | 1           |
 
-## OR
+## Disjunction
 
-**aka** _Disjunction, $\max$_
+**aka** _OR, $\max$_
 
 **notations**
 
@@ -64,9 +64,9 @@ concave-pointycurve [[logic gate]]. may take more than one input
 | 1   | 0   | 1          |
 | 1   | 1   | 1          |
 
-## NOT
+## Negation
 
-**aka** _Negation_
+**aka** _NOT_
 
 **notations**
 
@@ -85,9 +85,9 @@ triangle-circle [[logic gate]]. may only take one input
 
 **properties**
 
-## XOR
+## Exclusive OR
 
-**aka** _Exclusive OR, symmetric difference, disjunctive union_
+**aka** _XOR, symmetric difference, disjunctive union_
 
 **notations**
 
@@ -108,7 +108,7 @@ doubleconcave-pointycurve [[logic gate]]. if the [[logic gate]] does not take ex
 
 ## Implication
 
-**aka** _Conditional [[logic statement]]_
+**aka** _conditional [[logic statement]], logical consequence_
 
 **definition** if $x = \top$, then the conditional [[logic statement]] $x < y$ is said to be _vacuously true_, see [[boolean algebra]]
 
@@ -151,9 +151,9 @@ can be built by combining multiple [[logic gate]]s. may only take one input
 | 1   | 0   | 0       |
 | 1   | 1   | 1       |
 
-## XNOR
+## Equivalence
 
-**aka** _Double Implication, Equivalent, Biconditional [[logic statement]], Bidirectional Implication_
+**aka** _XNOR, double implication, equivalence, biconditional [[logic statement]], bidirectional implication_
 
 **notations**
 
@@ -188,34 +188,6 @@ _in [[conventional math notation]]_ $\backslash$
 | 0   | 1   | 0            |
 | 1   | 0   | 1            |
 | 1   | 1   | 0            |
-
-## Addition
-
-**aka**:_ disjoint union_
-
-**notation** _in my [[math notation]]_ $\, : \,$
-
-**representation**
-
-| $A$ | $B$ | $A : B$       |
-| --- | --- | ------------- |
-| 0   | 0   | 0             |
-| 0   | 1   | 1             |
-| 1   | 0   | 1             |
-| 1   | 1   | $\varnothing$ |
-
-## Subtraction
-
-**notation** _in my [[math notation]]_ $\cdot$
-
-**representation**
-
-| $A$ | $B$ | $A \cdot B$   |
-| --- | --- | ------------- |
-| 0   | 0   | 0             |
-| 0   | 1   | $\varnothing$ |
-| 1   | 0   | 1             |
-| 1   | 1   | 0             |
 
 ## identities
 

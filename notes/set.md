@@ -138,7 +138,7 @@ _the [[set]] of all possible mathematical entities_
 
 **properties**
 
-when two [[set]]s form a [[set#disjoint union]] $A \lor B$, then $\#\ S = \#\ A : \#\ B$
+when two [[set]]s form a [[set#disjoint union]] $A \lor B$, then $\#\ S =\ \not\#\ A :\ \not\#\ B$
 
 when two [[set]]s form a [[set#union]] $A \lor B$, then $\#\ S = \#\ A : \#\ B \cdot \#\ (A \land B)$
 

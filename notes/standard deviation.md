@@ -4,12 +4,10 @@
 
 **definition**
 
-$\sigma2 = \,: \circ \shortmid [\bar X \cdot \mu]2\ - \,: X$, where
+$\sigma2 = (\,: - \#)\ [X \cdot \mu]2$
 
-- $X$ is a [[sample]] (or a [[population]])
-- $\,: X$ is the [[sample]] size of $X$
+- $X$ is a [[sample]] or a [[population]] as a [[list]]
 - $\mu$ is the [[sample]] [[mean]] of $X$
-- $\circ$ is the [[function]] [[composition#identity]]
 - $\sigma$ is the _standard deviation_ of $X$
 - $\sigma2$ is the _variance_ of $X$
 
