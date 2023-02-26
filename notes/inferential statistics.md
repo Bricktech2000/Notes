@@ -26,7 +26,7 @@ _making inferences about [[population]]s by examining one or more random [[sampl
 
 **theorem** _the law of large numbers_ the average of the results obtained from a large number of trials should be close to the expected value and tends to become closer to the expected value as more trials are performed &mdash; Wikipedia
 
-**theorem** _regression to the mean_ there is a tendency for extreme or unusual scores or observations to be followed by more typical scores or observations &mdash; Github Copilot
+**theorem** _regression to the mean_ there is a tendency for extreme or unusual scores or observations to be followed by more typical scores or observations &mdash; GitHub Copilot
 
 > **note** beware of the [[gambler's fallacy]] &mdash; results don't "want to even out" over time
 

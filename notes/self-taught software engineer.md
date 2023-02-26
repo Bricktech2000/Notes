@@ -4,8 +4,8 @@
 
 online visibility is very important for [[self-taught software engineer]]s
 
-- [x] have an up-to-date Linkedin profile
-- [x] upload all work to Github and keep it well documented
+- [x] have an up-to-date LinkedIn profile
+- [x] upload all work to GitHub and keep it well documented
 - [x] write articles, tutorials, videos...
 
 ## learning
@@ -23,7 +23,7 @@ online visibility is very important for [[self-taught software engineer]]s
 - [ ] containers (Docker, Kubernetes, etc.)
 - [ ] cloud computing (AWS, GCP, etc.)
 - [x] [[data structure]]s and [[algorithm]]s
-- [x] [[version control]] (Git, Github, etc.)
+- [x] [[version control]] (Git, GitHub, etc.)
 - [ ] [[database]]s (MySQL, PostgreSQL, etc.)
 - [x] [[linux]] (UNIX)
 
@@ -41,7 +41,7 @@ online visibility is very important for [[self-taught software engineer]]s
 - also apply to jobs that "require" a Bachelor's degree. this is where a great portfolio is so important
 - keep in mind that this is a **first job**; it doesn't have to be perfect
 - networking can be more effective than applying to jobs on job boards
-  - reach out to recruiters on Linkedin
+  - reach out to recruiters on LinkedIn
   - attend tech events, conferences, hackathons, meetups, etc.
   - attend career fairs
 
