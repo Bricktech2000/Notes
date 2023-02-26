@@ -2,7 +2,7 @@
 
 **see** [[sequence]], [[substring]], [[set]], [[math notation]]
 
-**definition** a _De Bruijn sequence_ of order $n$ on a finite alphabet $A$ is a cyclic [[sequence]] in which every possible length-$n$ [[string]] on $A$ occurs exactly once as a [[substring]] &mdash; Github Copilot
+**definition** a _De Bruijn sequence_ of order $n$ on a finite alphabet $A$ is a cyclic [[sequence]] in which every possible length-$n$ [[string]] on $A$ occurs exactly once as a [[substring]] &mdash; GitHub Copilot
 
 **notation**
 

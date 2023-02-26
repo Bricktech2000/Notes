@@ -14,7 +14,7 @@ _a [[list]] of mathematical objects_
 
 &mdash; <https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch13/prob/5214899-eng.htm>
 
-**definition** _probability sampling_ is a method of [[sample#sampling]] in which each member of the [[population]] has a known, non-zero probability of being selected in the [[sample]] &mdash; Github Copilot
+**definition** _probability sampling_ is a method of [[sample#sampling]] in which each member of the [[population]] has a known, non-zero probability of being selected in the [[sample]] &mdash; GitHub Copilot
 
 **properties**
 
@@ -26,7 +26,7 @@ estimates produced by probability sampling are more accurate than those produced
 
 ### Simple Random Sampling
 
-**definition** _simple random sampling_ is a method of [[sample#probability sampling]] in which each member of the [[population]] has an equal [[probability]] of being selected in the [[sample]] &mdash; Github Copilot
+**definition** _simple random sampling_ is a method of [[sample#probability sampling]] in which each member of the [[population]] has an equal [[probability]] of being selected in the [[sample]] &mdash; GitHub Copilot
 
 > **note** simple random sampling can be done with or without replacement (with or without the possibility of a member of the [[population]] being selected more than once)
 
@@ -42,7 +42,7 @@ formulas for calculating the [[sample#size]] required for simple random sampling
 
 ### Stratified Sampling
 
-**definition** _stratified sampling_ is a method of [[sample#probability sampling]] in which the [[population]] is divided into disjoint subgroups called _strata_, from each of which a [[sample]] is selected &mdash; Github Copilot
+**definition** _stratified sampling_ is a method of [[sample#probability sampling]] in which the [[population]] is divided into disjoint subgroups called _strata_, from each of which a [[sample]] is selected &mdash; GitHub Copilot
 
 **pros & cons**
 

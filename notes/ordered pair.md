@@ -1,4 +1,4 @@
-# Ordered Pair
+## Ordered Pair
 
 **definition** an _ordered pair_ is an ordered collection containing exactly two elements
 

@@ -153,7 +153,7 @@ this leads to the [[category]] of [[category]]es. functors must use a pair of [[
 
 ### Forgetful Functor
 
-**definition** a _forgetful functor_ is a [[functor]] that forgets some information about the [[category]] it is mapping from &mdash; Github Copilot
+**definition** a _forgetful functor_ is a [[functor]] that forgets some information about the [[category]] it is mapping from &mdash; GitHub Copilot
 
 > **example**
 >

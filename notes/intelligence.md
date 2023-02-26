@@ -36,6 +36,8 @@ used for backlinks
 
 <https://youtu.be/BN3KT7IERSw> (8 struggles of highly intelligent people)
 
+<https://youtu.be/6PKYd0mnUxQ> (someone discussing their experience with [[intellectual giftedness]])
+
 ## stuff I don't relate to
 
 **aka** _[[difficult]], [[overwhelm]]ing, "boring', complicated_

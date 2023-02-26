@@ -14,4 +14,4 @@
 
 ## Collision
 
-**definition** a _hash collision_ is a situation in which two different inputs are mapped to the same [[hash]] value &mdash; Github Copilot
+**definition** a _hash collision_ is a situation in which two different inputs are mapped to the same [[hash]] value &mdash; GitHub Copilot
