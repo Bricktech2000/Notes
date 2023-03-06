@@ -45,7 +45,7 @@ in this [[programming language]],
 
 `$` is used for LaTeX mathematical equations
 
-`\` is used for escaping [[control]] characters
+`\` is used for escaping control characters
 
 ## block-level examples
 

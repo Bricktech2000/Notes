@@ -2,13 +2,13 @@
 
 **see** [[improved recipe structure]]
 
-- In a large stockpot over medium heat, heat <u>**1 tbsp olive oil**</u> until shimmering. Cook <u>**8 oz sweet Italian sausage links**</u> until browned and cooked through. Transfer them to a plate and tent with aluminum foil.<br><br>
+- In a large stockpot over medium heat, heat <u>**1 tbsp olive oil**</u> until shimmering. Cook <u>**8 oz sweet Italian sausage links**</u> until browned and cooked through. Transfer them to a plate and tent with aluminum foil.<br /><br />
 
   - Chop <u>**1 cup onion**</u>, <u>**1/2 cup bell pepper**</u> and <u>**1/2 cup celery**</u>.
 
 - In a large stockpot over medium heat, add the onion, pepper and celery and cook for 5 minutes, stirring and scraping up any brown bits. Add <u>**2 cups white rice**</u> and cook until the rice starts to appear opaque, another 3 to 5 minutes.
 
-  Stir in <u>**2 tbsp Cajun spice blend**</u> and then add <u>**4 cups chicken stock**</u>, scraping up any brown bits. Bring the mixture to a low boil. Reduce the heat to low, cover, and simmer for 15 minutes.<br><br>
+  Stir in <u>**2 tbsp Cajun spice blend**</u> and then add <u>**4 cups chicken stock**</u>, scraping up any brown bits. Bring the mixture to a low boil. Reduce the heat to low, cover, and simmer for 15 minutes.<br /><br />
 
   - Thaw, peel and devein <u>**8 oz medium shrimp**</u>.
 

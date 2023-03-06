@@ -113,11 +113,11 @@ because of the way the compiler is currently built, maintenance to core [[rust]]
 
 ```mermaid
 graph TD
-  A(2015 Edition<br>Source Code)
-  B(2018 Edition<br>Source Code)
+  A(2015 Edition<br />Source Code)
+  B(2018 Edition<br />Source Code)
   A_HIR(High-Level IR)
   B_HIR(High-Level IR)
-  MIR(Mid-Level IR<br><em>core functionality</em>)
+  MIR(Mid-Level IR<br /><em>core functionality</em>)
   LLVM_IR(LLVM IR)
   MACHINE_CODE(Machine Code)
 

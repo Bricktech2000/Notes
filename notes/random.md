@@ -210,7 +210,7 @@ $\ell$
 
 $\,: (0 \dashv)\ \top \,: (0 \vdash)$
 
-an APL fork is similar to the Psi Combinator &mdash; <https://youtu.be/U6I-Kwj-AvY?t=441>
+an APL fork is similar to the Psi Combinator &mdash; <https://youtu.be/U6I-Kwj-AvY?t=441>. actually, it seems to be known as the _Phi Combinator_ &mdash; <https://youtu.be/i1K_kUKJnE4?t=525>
 
 ---
 
@@ -383,3 +383,7 @@ $-1, -2, -4, -8$
 ---
 
 $a^{n:1} = \braket{\text-2a^n, 3a^n : 1}\ (\!\!\bmod 2\ a^n)$ with $a^0 = x$
+
+---
+
+$f = x \rightarrow \mathbb Q x$ is a [[function#continuous function]] nowhere on its [[function#domain]]

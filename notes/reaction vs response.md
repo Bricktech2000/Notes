@@ -2,7 +2,7 @@
 
 &mdash; <https://youtu.be/gpjYtAB9i2w?t=1287>
 
-**definition** a _reaction_ is fast and somewhat automatic whereas a _response_ is [[intentional]], mindful and more deliberate
+**definition** a _reaction_ is fast and somewhat automatic whereas a _response_ is [[intention]]al, mindful and more deliberate
 
 > **examples** _examples of reactions_
 >

@@ -1,9 +1,9 @@
 <center>
 <h1>
-  Personal Issues with University<br>
-  <br>
+  Personal Issues with University<br />
+  <br />
 </h1>
-May 2022<br>
+May 2022<br />
 </center>
 
 ---
