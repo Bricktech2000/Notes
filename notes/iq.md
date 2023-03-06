@@ -2,6 +2,8 @@
 
 _an attempt to quantify [[intelligence]]_
 
+studies have estimated that [[iq]] is weakly correlated with genetics in children ($2\text-10 \dashv \circ \dashv 4\text-10$ heritability) with environmental factors playing a significant role, and strongly correlated with genetics in late teens and adults ($7\text-10 \dashv \circ \dashv 8\text-10$ heritability) &mdash; La Douance, page 100 and <https://en.wikipedia.org/wiki/Heritability_of_IQ>
+
 **properties** _[[iq]] scores_
 
 - have a [[mean]], [[median]] and [[mode]] of $100$

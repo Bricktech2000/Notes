@@ -24,7 +24,7 @@ efficient
 
 # Modes
 
-<br>
+<br />
 
 <?
 I and ESC
@@ -54,7 +54,7 @@ N --- C
 
 #### Motion Commands
 
-<br>
+<br />
 
 |                        |              |
 | ---------------------- | ------------ |
@@ -72,7 +72,7 @@ USE NUMBERS
 
 #### Verb Commands
 
-<br>
+<br />
 
 |              |             |
 | ------------ | ----------- |
@@ -90,7 +90,7 @@ nothing happened...
 
 #### Phrases
 
-<br>
+<br />
 
 |                  |                  |
 | ---------------- | ---------------- |

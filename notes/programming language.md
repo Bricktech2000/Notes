@@ -22,12 +22,12 @@ used for backlinks
 
 ```mermaid
 graph TD
-  A(<strong>Source Code</strong><br><code>print 5</code>)
-  B(<strong>Tokens</strong><br><code>ID: print, NUMBER: 5</code>)
-  C(<strong>Abstract Syntax Tree</strong><br><code>CALL: NAME: print, ARGS: 5</code>)
-  D(<strong>Output</strong><br><code>5</code>)
+  A(<strong>Source Code</strong><br /><code>print 5</code>)
+  B(<strong>Tokens</strong><br /><code>ID: print, NUMBER: 5</code>)
+  C(<strong>Abstract Syntax Tree</strong><br /><code>CALL: NAME: print, ARGS: 5</code>)
+  D(<strong>Output</strong><br /><code>5</code>)
 
-  A -- <strong>Tokenizer</strong><br><em>Lexical Analysis</em> --> B -- <strong>Parser</strong><br><em>Syntactic Analysis</em> --> C -- <strong>Interpreter</strong> or<br><strong>Code Generator</strong><br><em>Semantic Analysis</em> --> D
+  A -- <strong>Tokenizer</strong><br /><em>Lexical Analysis</em> --> B -- <strong>Parser</strong><br /><em>Syntactic Analysis</em> --> C -- <strong>Interpreter</strong> or<br /><strong>Code Generator</strong><br /><em>Semantic Analysis</em> --> D
 ```
 
 **examples** _languages in the rough order I learned them_

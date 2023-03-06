@@ -51,3 +51,5 @@ the [[tau]] manifesto &mdash; <https://tauday.com/tau-manifesto>
 the _homotopy [[type theory]]_ book &mdash; <https://hott.github.io/book/hott-online.pdf.html> (Chapter 1 &mdash; Type Theory)
 
 _Rich Dad, Poor Dad_ by Robert Kiyosaki audiobook &mdash; <https://youtu.be/wp7Lz1svVro>
+
+_La Douance_ by Marianne Belanger, Psy. D., PH. D.

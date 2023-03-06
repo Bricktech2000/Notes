@@ -174,13 +174,17 @@ let $f$ be a [[function#continuous function]] near $x = c$ and $c$ be a critical
 
 **see** [[math notation]]
 
-**definition** a [[function]] $f\ x$ is _continuous_ at $x = a$ if $f\ x\ \braket{x \rightarrow a} = f\ a$
+**definition** a [[function]] $f\ x$ is _continuous at $x = a$_ if $f\ x\ \braket{x \rightarrow a} = f\ a$
 
 > **note** above, $f\ x\ \braket{x \rightarrow a}$ must exist and $f\ x$ must be defined at $x = a$
 
 **definition** a [[function]] is _continuous from the left_ at $a$ when $f\ x\ \braket{x \stackrel \cdot \rightarrow a} = f\ a$ and both other conditions are met
 
 **definition** a [[function]] is _continuous from the right_ at $a$ when $f\ x\ \braket{x \stackrel {\cdot \cdot} \rightarrow a} = f\ a$ and both other conditions are met
+
+**definition** a [[function]] is _continuous on an interval $a \dashv \circ \dashv b$_ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
+
+**definition** a [[function]] is _continuous_ (_globally continuous_) if it is continuous on every point of its [[function#domain]]
 
 **theorem**
 
@@ -191,8 +195,6 @@ if $f\ x$ and $g\ x$ are continuous at $a$, then the following [[function]]s are
 - $f \mid g$
 - $c f$ where $c$ is a [[scalar]]
 - $f \text- g$ if $g\ a + 0$ (restriction not necessary, see [[improved expression evaluation]])
-
-**definition** a [[function]] is _continuous_ on an interval $a \dashv \circ \dashv b$ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
 
 ## Reciprocal
 

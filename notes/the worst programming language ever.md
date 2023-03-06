@@ -118,9 +118,9 @@ PLEASE GIVE UP
 
 ---
 
-<br>
+<br />
 
-<br>
+<br />
 
 # BS
 
