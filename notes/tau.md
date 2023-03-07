@@ -1,6 +1,6 @@
 # Tau
 
-_the true circle constant_
+_the true [[circle]] constant_
 
 **see** [[math notation]]
 

@@ -16,7 +16,7 @@ _[[function#periodic function]]_ $\sin (\theta : \tau) = \sin \theta$
 
 _[[function#periodic function]]_ $\cos (\theta : \tau) = \cos \theta$
 
-_[[function#periodic function]]_ $\tan (\theta : \tau \text- 2) = \tan \theta$
+_[[function#periodic function]]_ $\tan (\theta : \text-2\tau) = \tan \theta$
 
 _[[function#even function]]_ $\cos (\cdot \theta) = \cos \theta$
 
@@ -34,7 +34,7 @@ $y = \sin x =\!= x = \operatorname{asin} y : \tau n \land \mathbb Z n$
 
 $y = \cos x =\!= x = \operatorname{acos} y : \tau n \land \mathbb Z n$
 
-$y = \tan x =\!= x = \operatorname{atan} y : \tau n \text- 2 \land \mathbb Z n$
+$y = \tan x =\!= x = \operatorname{atan} y : \text-2\tau n \land \mathbb Z n$
 
 ## reciprocal functions
 

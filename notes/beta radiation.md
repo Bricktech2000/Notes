@@ -1,6 +1,6 @@
 # Beta Radiation
 
-_can go through paper but are stopped by a few millimeters of aluminum_
+_can go through paper but stopped by a few millimeters of aluminum_
 
 **see** [[alpha radiation]], [[gamma radiation]]
 

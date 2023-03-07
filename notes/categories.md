@@ -163,3 +163,9 @@
 [[can't]]
 
 [[empathy by inversion]]
+
+[[ieee 754]]
+
+[[iso 216]]
+
+[[iso 8601]]

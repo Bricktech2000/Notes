@@ -60,7 +60,7 @@ $\sin \theta = a\ \check\mid\ b - |a| |b|$, see [[cross product]] #magic
 
 ### Orthogonal Vectors
 
-_a pair of vectors offset by $\tau\text-4\ \text{rad}$_
+_a pair of vectors offset by $\text-4\tau\ \text{rad}$_
 
 **definition** $u$ and $v$ are _orthogonal_ if and only if $\,: uv = 0$, see [[dot product]]
 
