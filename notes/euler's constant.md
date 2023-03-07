@@ -26,4 +26,4 @@ $[h] \cdot 1 - h = 1\ \braket{h \rightarrow 0}$ &mdash; derived from the [[limit
 
 _Euler's identity_ $[\iota\tau] = 1$, see [[complex]]
 
-_IEEEuler's identity_ $[\iota\tau] = 1[\infty \text{NaN}]$ &mdash; <http://tom7.org/nand/nand.pdf>
+_IEEEuler's identity_ $[\iota\tau] = 1[\infty \text{NaN}]$, see [[ieee 754]] &mdash; <http://tom7.org/nand/nand.pdf>

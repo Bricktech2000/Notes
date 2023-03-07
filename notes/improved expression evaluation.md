@@ -12,7 +12,7 @@ this [[improved expression evaluation]] proposes that any algebraic manipulation
 
 ## applications
 
-- conventionally, $x = 0 < \operatorname{atan} y \text- x = \varnothing$. however, by substituting $y \text- x$ in the definition of the $\operatorname{atan}$ [[function]] directly and by using [[limit rules]] to simplify it, the right answer $\tau\text-4$ is obtained.
+- conventionally, $x = 0 < \operatorname{atan} y \text- x = \varnothing$. however, by substituting $y \text- x$ in the definition of the $\operatorname{atan}$ [[function]] directly and by using [[limit rules]] to simplify it, the right answer $\text-4\tau$ is obtained.
 
 - conventionally, the graph of a [[function]] such as $f\ x = - - x \cdot 2$ has a hole at $x = 2$. however, by simplifying the [[function]] using [[limit rules]] before graphing it, the function $f\ x = x \cdot 2$ is obtained; the hole is avoided.
 

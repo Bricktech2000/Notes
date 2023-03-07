@@ -10,7 +10,7 @@
 
 **theorem** if $\#\ \psi\ n = 1$, then all $n$th [[root of unity]]s except $1$ are primitive, see [[psi function in mat2348]]
 
-**theorem** $[z]n = 1 =\!= z = [ki\tau\text-n] \land \mathbb N k$ &mdash; <https://tauday.com/tau-manifesto>
+**theorem** $[z]n = 1 =\!= z = [\iota k\text-n\tau] \land \mathbb N k$ &mdash; <https://tauday.com/tau-manifesto>
 
 **properties**
 

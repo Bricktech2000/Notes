@@ -38,7 +38,7 @@ MIT intro to [[statistics]] video series &mdash; [![](https://img.youtube.com/vi
 
 introduction to [[spline]]s &mdash; [![](https://img.youtube.com/vi/jvPPXbo87ds/0.jpg)](https://www.youtube.com/watch?v=jvPPXbo87ds)
 
-parody of the IEEE 754 standard &mdash; <http://tom7.org/nand/nand.pdf>
+parody of the [[ieee 754]] standard &mdash; <http://tom7.org/nand/nand.pdf>
 
 [[linear algebra]] summarized in $4$ pages &mdash; <https://courses.engr.illinois.edu/ece498rc3/fa2016/material/linearAlgebra_4pgs.pdf>
 

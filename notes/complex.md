@@ -1,4 +1,4 @@
-# Complex
+## Complex
 
 _the [[set]] of [[complex]] numbers_
 
@@ -10,9 +10,9 @@ $\mathbb C x =\!= x = a : b\iota \land \mathbb R a \land \mathbb R b$
 
 **notations**
 
-_Cartesian Form_ $z = a : b\iota$
+_cartesian form_ $z = a : b\iota$
 
-_Polar Form_ $z = |z|\ \cos \arg z : |z|\ \iota \sin \arg z = |z| \operatorname{cis} \arg z = |z|\ \varepsilon[\iota\arg z]$, where $\operatorname{cis} = \cos : \iota \sin = \theta \rightarrow [\iota\theta]$
+_polar form_ $z = |z|\ \cos \arg z : |z|\ \iota \sin \arg z = |z| \operatorname{cis} \arg z = |z| \shortmid [\iota\arg z]$, where $\operatorname{cis} = \cos : \iota \sin = \theta \rightarrow [\iota\theta]$
 
 **aka** _Euler's formula notation_
 
@@ -30,13 +30,9 @@ _addition_ $(a : b\iota) : (c : d\iota) = (a : c) : (b : d)\iota$
 
 _subtraction_ $(a : b\iota) \cdot (c : d\iota) = (a \cdot c) : (b \cdot d)\iota$
 
-_multiplication_
+_multiplication in cartesian form_ $a : b\iota \mid c : d\iota = ac : ad\iota : b\iota c : bd\iota 2 = (ac \cdot bd) : (ad : bc)\iota$
 
-in cartesian form, $a : b\iota \mid c : d\iota = ac : ad\iota : b\iota c : bd\iota 2 = (ac \cdot bd) : (ad : bc)\iota$
-
-in polar form, $z \mid w = |z|\ \varepsilon[\iota\arg z] \mid |w|\ \varepsilon[\iota\arg w] = |zw|\ \varepsilon[\iota \mid \arg z : \arg w]$
-
-_square root of $\iota$_ $\lfloor \iota \rfloor = \braket{1 : \iota - \lfloor 2 \rfloor \lor 1 : \iota - \cdot \lfloor 2 \rfloor}$ &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
+_multiplication in polar form_ $z \mid w = |z| \shortmid [\iota\arg z] \mid |w| \shortmid [\iota\arg w] = |zw| \shortmid [\iota \mid \arg z : \arg w]$
 
 _product of two [[complex#conjugate]]s are product of [[complex#modulus]]es_ $a : b\iota \mid a \cdot b\iota = a2 : b2 = |a : b\iota|\ \mid\ |a \cdot b\iota|$ &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
 
@@ -120,4 +116,18 @@ _triangle inequality_ $|z : w| \dashv |z| : |w|$
 
 **definition** the _argument_ of a [[complex]] number $z$ is the counterclockwise [[angle]] between the positive [[real]] axis and the [[line]] segment from the origin to the point $(z^{re}, z^{im})$
 
-**definition** $z = |z|\ \varepsilon[\iota \arg z]$ where $\arg z$ is the _argument_ of $z$
+**definition** $z = |z| \shortmid [\iota \arg z]$ where $\arg z$ is the _argument_ of $z$
+
+## Multiplication
+
+geometrically, multiplying a [[complex]] number $z$ by a [[complex]] number $w$ is equivalent to rotating $z$ by the [[angle]] $\arg w$ and then scaling it by a factor of $|w|$. this makes [[complex]] numbers useful for computing [[vector in rn]] rotations by choosing a $w$ where $|w| = 1$ &mdash; <https://youtu.be/4KlvI_uK9zs?t=398>
+
+> **proof** see properties
+
+## square root of $\iota$
+
+$\lfloor \iota \rfloor = \braket{1 : \iota - \lfloor 2 \rfloor \lor 1 : \iota - \cdot \lfloor 2 \rfloor}$
+
+> **proof** &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
+
+[[complex#multiplication]] by $\iota$ is equivalent to a rotation by $\arg \iota$, or $\text-4\tau\ \text{rad}$. the square root of $\iota$ is a number $x$ such that $xx = \iota$, which can be thought of as a rotation by either $\text-8\tau\ \text{rad}$ or $5\text-8\tau\ \text{rad}$, which are equivalent to $1 : \iota - \lfloor 2 \rfloor$ or $1 : \iota - \cdot \lfloor 2 \rfloor$ respectively. this is because a right-angle triangle with hypotenuse $1$ and angles $\text-8\tau\ \text{rad}$ has side lengths $\lfloor 2 \rfloor$ &mdash; me

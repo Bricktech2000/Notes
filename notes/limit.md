@@ -30,7 +30,7 @@ let $f\ x$ be a [[function]] with domain $D$ defined on an open interval around 
 
 > **note** a limit does not exist if $f\ x\ \braket{x \rightarrow a} = \infty$ or if it shows wild behavior (not a technical term), as with $\sin\ \tau \text- x\ \braket{x \rightarrow 0}$
 >
-> > **note** what if $\sin\ \tau\text-2\ \braket{x \rightarrow 0}$ is a superposition of all numbers in $0 \dashv \circ \dashv 1$? #think [[improved expression evaluation]]
+> > **note** what if $\sin\ \text-2\tau\ \braket{x \rightarrow 0}$ is a superposition of all numbers in $0 \dashv \circ \dashv 1$? #think [[improved expression evaluation]]
 
 ## limits of trigonometric functions
 
