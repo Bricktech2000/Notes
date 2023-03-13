@@ -51,7 +51,7 @@ _triangle inequality_ $d\ x\ z \dashv d\ x\ y : d\ y\ z$
 
 **see** [[sequence]], [[sequence#convergence]]
 
-**definition** a [[sequence]] $x$ in a [[metric space]] is called _Cauchy_ if for all $\varepsilon\ (\vdash \land +)\ 0$ there exists an $N$ such that $d\ x^m\ x^n \dashv \epsilon < n \vdash N \land m \vdash N$
+**definition** a [[sequence]] $x$ in a [[metric space]] is called _Cauchy_ if for all $\varepsilon\ (\vdash \land +)\ 0$ there exists an $N$ such that $d\ x^m\ x^n \dashv \varepsilon < n \vdash N \land m \vdash N$
 
 **theorem** by the _triangle inequality_, any [[metric space#convergent sequence]] is _Cauchy_.
 

@@ -8,6 +8,8 @@
 
 [[lambda calculus]]
 
+[[combinatory logic]]
+
 [[calculus]]
 
 [[topology]]
