@@ -46,6 +46,8 @@ graph TD
 
 [[markup language idea]]
 
+[[iota language]]
+
 **examples** _other types of languages_
 
 [[json]]

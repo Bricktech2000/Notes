@@ -1,61 +1,242 @@
 # Combinatory Logic
 
-**see** [[lambda calculus]]
+**see** [[lambda calculus]], [[math notation]]
 
-&mdash; <https://en.wikipedia.org/wiki/B,_C,_K,_W_system>
+**properties**
 
-## Y Combinator
+[[combinatory logic#s combinator]] and [[combinatory logic#k combinator]] can be composed to produce [[combinatory logic#combinators]] that are extentionally equal to any [[lambda calculus]] term. consequently, $SK$ [[combinatory logic]] is Turing complete, see [[turing machine]]
 
-_allows for [[lambda calculus#recursion]]_
+## Booleans
 
-_used to formally define recursive [[function]]s in a [[functional programming]] language that does not support [[recursion]]_
+> **equivalence** _[[combinatory logic#booleans]]_ and _[[boolean algebra]]_
 
-**definition** _in [[lambda calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
+[[boolean]] values and [[boolean algebra#operators]] can be defined as follows, see [[lambda calculus]]:
 
-**definition** _in my [[math notation]]_ $Y = f \rightarrow (x \rightarrow f\ (x\ x))\ (x \rightarrow f\ (x\ x))$
+- $\text{true} = x\ y \rightarrow x = K$
+- $\text{false} = x\ y \rightarrow y = K\ I$
 
-> "it's not recursive but it encodes [[recursion]]" &mdash; <https://youtu.be/9T8A89jgeTI?t=678>
+we can then define:
 
-&mdash; <https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator>
+- $\text{not} = p \rightarrow p\ \text{false}\ \text{true} = C\ (T\ \text{false})\ \text{true}$
 
-## B Combinator
+## Pairs
+
+> **equivalence** _[[combinatory logic#pairs]]_ and _[[ordered pair]]_
+
+[[ordered pair]]s can be defined as follows:
+
+- $\text{pair} = x\ y\ z \rightarrow z\ x\ y = B\ C\ T$
+- $\text{fst} = p \rightarrow p\ \text{true} = T\ \text{true}$
+- $\text{snd} = p \rightarrow p\ \text{false} = T\ \text{false}$
+
+## Naturals
+
+> **equivalence** _[[combinatory logic#naturals]]_ and _[[natural]] number_
+
+[[natural]] numbers can be defined as follows, see [[lambda calculus]]:
+
+- $0 = \text{pair}\ \text{true}\ \text{false}$ (equivalent to $I$)
+- $\text{succ} = n \rightarrow \text{pair}\ \text{false}\ n = \text{pair}\ \text{false}$
+
+we can then define:
+
+- $\text{pred} = n \rightarrow \text{snd}\ n = \text{snd}$
+- $\text{is\_zero} = n \rightarrow \text{fst}\ n = \text{fst}$
+
+## Combinators
+
+### I Combinator
+
+_[[function]] [[composition#identity]]_
+
+**aka** _identity, `id` in Haskell_
+
+**definition** $I = x \rightarrow x = \circ$
+
+**definition** $I = S\ K\ K$
+
+**definition** $I = \iota\ \iota$
+
+**notation** $\circ\ x$
+
+### K Combinator
+
+_discards the second argument_
+
+**aka** _constant, `const` in Haskell_
+
+**definition** $K = f\ x\ y \rightarrow f\ x$
+
+**definition** $K = \iota\ (\iota\ (\iota\ \iota))$
+
+**notation** $(\rightarrow)\ x\ y$
+
+### S Combinator
+
+**aka** _substitution, `<*>` in Haskell_
+
+**definition** $S = f\ g\ x \rightarrow f\ x\ (g\ x)$
+
+**definition** $K = \iota\ (\iota\ (\iota\ (\iota\ \iota)))$
+
+**notation** $\braket{\circ\ f\ g}\ x$
+
+### B Combinator
 
 _the [[composition]] of its arguments_
 
-**aka** _`(.)` in Haskell, "bluebird"_
+**aka** _compose, `(.)` and `fmap` in Haskell, "bluebird"_
+
+**definition** $B = f\ g\ x \rightarrow f\ (g\ x)$
+
+**definition** $B = S\ (K\ S)\ K$
 
 **definition** _in [[lambda calculus]]_ $B = \lambda fgx.\ f\ (g\ x)$
 
-**definition** _in my [[math notation]]_ $B = f\ g\ x \rightarrow f\ (g\ x)$
-
-**notation** $f\ g\ \circ$
+**notation** $f\ (g\ x)$
 
 > **equivalence** _[[combinatory logic#b combinator]] and [[function]] [[composition]]_
 
 &mdash; <https://youtu.be/SmXB2K_5lcA?t=612>
 
-## C Combinator
+### B1 Combinator
+
+**aka** _"blackbird"_
+
+**definition** $B_1 = f\ g\ x\ y \rightarrow f\ (g\ x\ y)$
+
+**definition** $B_1 = B\ B\ B$
+
+**notation** $f\ (g\ x\ y)$
+
+### C Combinator
 
 _swaps the arguments to a function_
 
-**definition** _in my [[math notation]]_ $C = f\ x\ y \rightarrow f\ y\ x$
+**aka** _flip, `flip` in Haskell_
 
-**notation** $\rho$
+**definition** $C = f\ x\ y \rightarrow f\ y\ x$
+
+**definition** $C = S\ (B\ B\ S)\ (K\ K)$
+
+**notation** $\rho\ f\ x\ y$
 
 > **equivalence** _[[combinatory logic#c combinator]] and [[matrix#transpose]]_
 
-## K Combinator
-
-_discards the second argument_
-
-**definition** _in my [[math notation]]_ $K = f\ x\ y \rightarrow f\ x$
-
-**notation** $\rightarrow$
-
-## W Combinator
+### W Combinator
 
 _duplicates the second argument_
 
-**aka** _'commute' or 'self' in APL_
+**aka** _duplication, 'commute' or 'self' in APL, `join` in Haskell_
 
-**definition** _in my [[math notation]]_ $W = f\ x\ \rightarrow f\ x\ x$
+**definition** $W = f\ x\ \rightarrow f\ x\ x$
+
+**definition** $W = C\ S\ K$
+
+**notation** $\braket{f\ \circ}\ x$
+
+### KI Combinator
+
+_discards the first argument_
+
+**definition** $K\ I = f\ x\ y \rightarrow f\ y$
+
+### T Combinator
+
+_applies the first argument to the second argument_
+
+**aka** _thrush, `&` in Haskell_
+
+**definition** $T = x\ f \rightarrow f\ x$
+
+**definition** $T = C\ I$
+
+### SBI Combinator
+
+_applies a [[function]] twice_
+
+**definition** $S\ B\ I = f\ x \rightarrow f\ f\ x$
+
+### S' Combinator
+
+**aka** _chain, `=<<` in Haskell_
+
+**definition** $S' = f\ g\ x \rightarrow f\ (g\ x)\ x$
+
+**notation** $\braket{b\ a\ \circ}\ c$
+
+### Psi Combinator
+
+**aka** _`on` in Haskell_
+
+**definition** $\Psi = f\ g\ x\ y \rightarrow f\ (g\ x)\ (g\ y)$
+
+**notation** $g\ \braket{x\ f\ y}$
+
+### Phi Combinator
+
+**aka** _converge, `apply2way` and `liftA2` and `liftM2` in Haskell, S2 combinator, S' combinator_
+
+**definition** $\Phi = f\ g\ h\ x \rightarrow f\ (g\ x)\ (h\ x)$
+
+**notation** $\braket{g\ f\ h}\ x$
+
+### Phi1 Combinator
+
+**definition** $\Phi_1 = f\ g\ h\ x\ y \rightarrow f\ (g\ x\ y)\ (h\ x\ y)$
+
+**notation** $x\ \braket{g\ f\ h}\ y$
+
+### Y Combinator
+
+_allows for [[lambda calculus#recursion]]_
+
+_used to formally define recursive [[function]]s in a [[functional programming]] language that does not support [[recursion]]_
+
+**aka** _fixed-point combinator, `fix` in Haskell_
+
+**definition** $Y = f \rightarrow (x \rightarrow f\ (x\ x))\ (x \rightarrow f\ (x\ x))$
+
+**definition** _using [[recursion]]_ $Y = f \rightarrow f\ (Y\ f)$
+
+**definition** _in [[lambda calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
+
+> "it's not recursive but it encodes [[recursion]]" &mdash; <https://youtu.be/9T8A89jgeTI?t=678>
+
+&mdash; <https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator>
+
+### Iota Combinator
+
+**definition** $\iota = x \rightarrow x\ S\ K$
+
+the [[combinatory logic#iota combinator]] can be used to define the [[combinatory logic#s combinator]] and [[combinatory logic#k combinator]], and can therefore be composed to produce [[combinatory logic#combinator]]s that are extentionally equal to any [[lambda calculus]] term. consequently, $\iota$ [[combinatory logic]] is Turing complete, see [[turing machine]]
+
+### &mdash;
+
+&mdash; <https://en.wikipedia.org/wiki/Combinatory_logic#One-point_basis>
+
+&mdash; <https://en.wikipedia.org/wiki/SKI_combinator_calculus#Informal_description>
+
+&mdash; <https://youtu.be/gnrSedVucXs?t=1678>
+
+&mdash; <https://en.wikipedia.org/wiki/Iota_and_Jot#Universal_iota>
+
+## &mdash;
+
+&mdash; <https://en.wikipedia.org/wiki/B,_C,_K,_W_system>
+
+&mdash; <https://en.wikipedia.org/wiki/SKI_combinator_calculus>
+
+&mdash; <https://youtu.be/Y0KKPYkeOTA>
+
+&mdash; <https://youtu.be/gnrSedVucXs>
+
+&mdash; <https://combinatorylogic.com/table.html> &mdash; <https://youtu.be/Y0KKPYkeOTA>
+
+&mdash; <https://www.angelfire.com/tx4/cus/combinator/birds.html> &mdash; <https://combinatorylogic.com/table.html> &mdash; <https://youtu.be/Y0KKPYkeOTA>
+
+&mdash; <https://gist.github.com/Avaq/1f0636ec5c8d6aed2e45#file-combinators-md> &mdash; <https://combinatorylogic.com/table.html> &mdash; <https://youtu.be/Y0KKPYkeOTA>
+
+&mdash; <https://cs.stackexchange.com/questions/13901/what-is-the-name-of-this-combinator>
+
+#todo this is an applicative ([[apply]]?) in [[category theory]] &mdash; <https://youtu.be/Y0KKPYkeOTA?t=501>

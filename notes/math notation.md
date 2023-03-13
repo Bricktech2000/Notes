@@ -103,7 +103,7 @@ let:
 | $\,\mid A$ <br /> $\,\shortmid A$ | <code>\|A</code> <br /> `'A`  | $A$ reduced with $\mid$ <br /> $A$ reduced with $\shortmid$ | see [[reduce function]]                             |
 | $\,- a$ <br /> $\,\text- a$       | `--a` <br /> `-a`             | $1 - a$ <br /> $1 \text- a$                                 | multiplicative inverse                              |
 | $ax$                              | `ax`                          | $a \smash\shortmid x$                                       |                                                     |
-| $[a]$                             | `[a]`                         | $\epsilon[a]$                                               | [[exponent]]ial                                     |
+| $[a]$                             | `[a]`                         | $\varepsilon[a]$                                            | [[exponent]]ial                                     |
 | $x\omega$                         | `xw`                          | $[x]\omega$                                                 |                                                     |
 | $\lfloor a \rfloor$               | `\a/`                         | $\lfloor a \rfloor 2$                                       | square root                                         |
 | $\lceil a \rceil$                 | `/a\`                         | $\lceil a \rceil e$                                         | natural [[logarithm]]                               |
@@ -117,9 +117,11 @@ let:
 | $\top A$ <br /> $\lor A$          | `TA` <br /> `\/A`             | $A$ reduced with $\top$ <br /> $A$ reduced with $\lor$      | see [[reduce function]]                             |
 | $a_0 * a_1 * \cdots a_n$          | `a_0 * a_1 * ... a_n`         | with $n = 3$, $a_0 * a_1 * a_2 * a_3$                       | step size is $1$ or $\cdot 1$ if $a_1 *$ is omitted |
 | $a_0 \cdots a_n$                  | `a_0 ... a_n`                 | with $n = 3$, $a_0, a_1, a_2, a_3$                          | step size is $1$ or $\cdot 1$ if $a_1$ is omitted   |
-| $f\ \braket{a * b}$               | `f {a * b}`                   | $f\ a * f\ b$                                               | works with any binary [[operator]]                  |
-| $a\ \braket{\mid * :}\ b$         | <code>a {\|\*:} b</code>      | $(a \mid b) * (a : b)$                                      | works with any binary [[operator]]                  |
-| $\braket{\# * f}\ a$              | `{#*f} a`                     | $(\#\ a) * (f\ a)$                                          | works with any unary [[operator]]                   |
+| $f\ \braket{a * b}$               | `f {a*b}`                     | $f\ a * f\ b$                                               | [[combinatory logic#psi combinator]]                |
+| $a\ \braket{-\ * :}\ b$           | `a {--*:} b`                  | $(a - b) * (a : b)$                                         | [[combinatory logic#phi 1 combinator]]              |
+| $f\ \braket{a\ b}$                | `f {a b}`                     | $f\ \braket{a \leftarrow b}$                                |                                                     |
+| $\braket{f * g}\ a$               | `{f*g} a`                     | $(f\ a) * (g\ a)$                                           | [[combinatory logic#phi combinator]]                |
+| $\braket{f\ g}\ a$                | `{f g} a`                     | $\braket{f \leftarrow g}\ a$                                |                                                     |
 | $A * B$                           | `A * B`                       | $x \rightarrow A\ x * B\ x$                                 | see [[rank polymorphism]]                           |
 | $A * a$                           | `A * a`                       | $x \rightarrow A\ x * a$                                    | see [[rank polymorphism]]                           |
 | $\braket{\ }$                     | `{ }`                         | $\braket{\braket{\ }}$                                      | see [[set]], [[empty]]                              |

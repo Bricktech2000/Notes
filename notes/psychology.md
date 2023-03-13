@@ -30,6 +30,6 @@
 
 [[mental illness]]
 
-[[luck]]
+[[can't]], [[luck]], [[steer over drift]]
 
 [[integrity]]

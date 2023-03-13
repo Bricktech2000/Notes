@@ -10,8 +10,6 @@ used for backlinks
 
 **properties**
 
-[[lambda calculus]] and [[turing machine]]s are equivalent
-
 [[function]]s in [[lambda calculus]] are [[function#pure function]]s
 
 [[lambda calculus]] is Turing complete, see [[turing machine]]
@@ -51,21 +49,33 @@ _in my [[math notation]]_
 
 [[boolean]] values and [[boolean algebra#operators]] can be defined as follows:
 
-$\text{true} = x\ y \rightarrow x$
-
-$\text{false} = x\ y \rightarrow y$
+- $\text{true} = x\ y \rightarrow x$
+- $\text{false} = x\ y \rightarrow y$
 
 &mdash; <https://youtu.be/eis11j_iGMs?t=413>
 
-$\text{not} = p \rightarrow p\ \text{false}\ \text{true}$
+we can then define:
 
-$\text{and} = p\ q \rightarrow p\ q\ p$
-
-$\text{or} = p\ q\ \rightarrow q\ p\ q$
+- $\text{not} = p \rightarrow p\ \text{false}\ \text{true}$
+- $\text{and} = p\ q \rightarrow p\ q\ p$
+- $\text{or} = p\ q\ \rightarrow q\ p\ q$
 
 &mdash; <https://youtu.be/eis11j_iGMs?t=484>
 
 &mdash; <https://en.wikipedia.org/wiki/Lambda_calculus#Logic_and_predicates>
+
+## Church Encoding
+
+> **equivalence** _[[lambda calculus#church encoding]]_ and _[[natural]] numbers_
+
+[[natural]] numbers can be defined as follows:
+
+- $0 = f\ x \rightarrow x$
+- $\text{succ} = n\ f\ x \rightarrow f\ (n\ f\ x)$
+
+we can then define:
+
+- $\text{is\_zero} = n \rightarrow n\ (\rightarrow \text{false})\ \text{true}$
 
 ## Iteration
 
