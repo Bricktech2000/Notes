@@ -16,7 +16,7 @@ $a$ _divides_ $b$ if and only if $\psi\ a \dashv \psi\ b$
 
 $n$ is a _square [[number]]_ if and only if $\mathbb E \psi\ n$
 
-$n$ is a _prime [[number]]_ if and only if $\#\ \psi\ n = 1$, or $\psi\ n = ((n))$
+$n$ is a _prime [[number]]_ if and only if $\#\ \psi\ n = 1$, or $\psi\ n = ((n,))$
 
 $m$ and $n$ are _coprime_ if and only if $\psi\ m\ \bot\ \psi\ n = (\ )$
 

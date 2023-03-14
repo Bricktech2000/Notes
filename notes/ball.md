@@ -6,4 +6,4 @@ _the [[volume]] of a [[sphere]]_
 
 $x2 : y2 : z2 \dashv r2$
 
-$|x, y, z| \dashv r$
+$|(x, y, z)| \dashv r$

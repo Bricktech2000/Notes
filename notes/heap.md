@@ -20,16 +20,16 @@ the _last node_ of a [[heap]] implemented as an [[array]] is the last element of
 
 time [[computational complexity]]:
 
-|                                                 | Heap                 |
-| ----------------------------------------------- | -------------------- |
-| Construction from unordered [[array]] (heapify) | $O\ n$               |
-| Polling                                         | $O\ \lceil n \rceil$ |
-| Peeking                                         | $O\ 1$               |
-| Adding                                          | $O\ \lceil n \rceil$ |
-| Removing using linear search                    | $O\ n$               |
-| Removing using a [[hash table]]                 | $O\ n$               |
-| Contains using linear search                    | $O\ n$               |
-| Contains using a [[hash table]]                 | $O\ 1$               |
+|                                                 | Heap                     |
+| ----------------------------------------------- | ------------------------ |
+| Construction from unordered [[array]] (heapify) | $O\ \circ$               |
+| Polling                                         | $O\ \lceil \circ \rceil$ |
+| Peeking                                         | $O\ 1$                   |
+| Adding                                          | $O\ \lceil \circ \rceil$ |
+| Removing using linear search                    | $O\ \circ$               |
+| Removing using a [[hash table]]                 | $O\ \circ$               |
+| Contains using linear search                    | $O\ \circ$               |
+| Contains using a [[hash table]]                 | $O\ 1$                   |
 
 **representation**
 
@@ -43,7 +43,7 @@ time [[computational complexity]]:
 
 ### restoring the heap invariant
 
-time [[computational complexity]]: $O\ \lceil n \rceil$
+time [[computational complexity]]: $O\ \lceil \circ \rceil$
 
 **aka** _bubbling up/down, sifting up/down, swim/sink_
 
@@ -89,6 +89,6 @@ time [[computational complexity]]: $O\ \lceil n \rceil$
 
 ### finding an element in a heap
 
-finding an element from a [[heap]] naively using linear search has time [[computational complexity]] $O\ n$. a more efficient way to find an element is to maintain a [[hash table]] synced with the [[heap]] that [[map]]s node values to a [[set]] of their indices in the [[heap]]. this way, any element can be found in $O\ 1$ time [[computational complexity]].
+finding an element from a [[heap]] naively using linear search has time [[computational complexity]] $O\ \circ$. a more efficient way to find an element is to maintain a [[hash table]] synced with the [[heap]] that [[map]]s node values to a [[set]] of their indices in the [[heap]]. this way, any element can be found in $O\ 1$ time [[computational complexity]].
 
 using a [[hash table]] in this way adds a relatively large constant overhead to the time [[computational complexity]] of all operations, which is often undesirable

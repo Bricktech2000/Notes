@@ -21,7 +21,7 @@
 
 > **example**
 >
-> the statement is incorrect because it is a [[correlation implies causation]] logical fallacy
+> the statement below is incorrect because it is a [[correlation implies causation]] logical fallacy
 >
 > > many successful people have attended Ivy League schools and, therefore, attending an Ivy League school is a good way to become successful
 >

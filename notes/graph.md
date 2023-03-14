@@ -20,7 +20,7 @@ _a collection of vertices connected by a collection of edges_
 
 **representation**
 
-below are two equivalent representations of a sample graph
+below are two equivalent representations of a sample [[graph]]
 
 ![[20220718021503.png]]
 

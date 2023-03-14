@@ -8,7 +8,7 @@ $f\ x\ \braket{x \rightarrow a}$
 
 **definition** _$(\varepsilon, \delta)$-definition of a limit_
 
-let $f\ x$ be a [[function]] with domain $D$ defined on an open interval around $x_0$. then, $f\ x\ \braket{x \rightarrow x_0} = L$ if for every $\varepsilon\ (\vdash \land +)\ 0$ there exists a $\delta\ (\vdash \land +)\ 0$ such that $0 + |x \cdot x_0| \dashv \delta\ <\ |f\ x \cdot L| \dashv \varepsilon$ for all $D\ x$
+let $f\ x$ be a [[function]] with domain $D$ defined on an open interval around $x_0$. then, $f\ x\ \braket{x \rightarrow x_0} = L$ if for every $\varepsilon\ \braket{\vdash \land +}\ 0$ there exists a $\delta\ \braket{\vdash \land +}\ 0$ such that $0 + |x \cdot x_0| \dashv \delta\ <\ |f\ x \cdot L| \dashv \varepsilon$ for all $D\ x$
 
 &mdash; <https://brilliant.org/wiki/epsilon-delta-definition-of-a-limit/>
 

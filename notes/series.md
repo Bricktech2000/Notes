@@ -53,7 +53,7 @@ _useful for [[series]] containing [[logarithm]]s or easy-to-compute [[integral]]
 
 **theorem** _the integral test_
 
-let $b$ be a [[series]] and suppose $f$ is an eventually _continuous_, _positive_ and _infinite_ [[function]] on $R \dashv \circ\ (\dashv \land +)\ \infty$ **for some $\mathbb R R$** and that $b^n = f\ n > \mathbb N n$. then,
+let $b$ be a [[series]] and suppose $f$ is an eventually _continuous_, _positive_ and _infinite_ [[function]] on $R \dashv \circ\ \braket{\dashv \land +}\ \infty$ **for some $\mathbb R R$** and that $b^n = f\ n > \mathbb N n$. then,
 
 - if $\int f\ x \mid \delta x\ \braket{\infty \cdot 0}$ converges, then $\,: b$ converges
 - if $\int f\ x \mid \delta x\ \braket{\infty \cdot 0}$ diverges, then $\,: b$ diverges
@@ -76,7 +76,7 @@ let $b$ and $B$ be [[series]] and suppose $0 \dashv b^n \dashv B^n > \mathbb N n
 
 **theorem** _Limit Comparison Test_
 
-let $a$ and $b$ be [[series]] such that $a_n \vdash 0 \land b_n \vdash 0 > \mathbb N n$. if $a^n - b^n\ \braket{n \rightarrow \infty} = L$ where $L\ (\vdash \land +)\ 0$ and is finite, then:
+let $a$ and $b$ be [[series]] such that $a_n \vdash 0 \land b_n \vdash 0 > \mathbb N n$. if $a^n - b^n\ \braket{n \rightarrow \infty} = L$ where $L\ \braket{\vdash \land +}\ 0$ and is finite, then:
 
 - $a$ converges if and only if $b$ converges
 - $a$ diverges if and only if $b$ diverges
@@ -91,8 +91,8 @@ _useful for [[series]] containing factorials and a geometric part and for [[seri
 
 let $b$ be a [[series]] and let $L = |b^{n : 1} - b^n|\ \braket{n \rightarrow \infty}$. then,
 
-- if $L\ (\dashv \land +)\ 1$, $b$ is absolutely convergent and therefore also convergent
-- if $L\ (\vdash \land +)\ 1$ or $L = \infty$, $b$ is divergent
+- if $L\ \braket{\dashv \land +}\ 1$, $b$ is absolutely convergent and therefore also convergent
+- if $L\ \braket{\vdash \land +}\ 1$ or $L = \infty$, $b$ is divergent
 - if $L = 1$ or if $L$ does not exist, the ratio test is inconclusive
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=16223>
@@ -131,7 +131,7 @@ _useful for converting a [[function]] to a [[series#power series]], or vice vers
 
 **theorem** _the Summation Formula_
 
-$x0 : x1 : x2 : \cdots = -1 \cdot x > \cdot 1\ (\dashv \land +)\ x\ (\dashv \land +)\ 1$, where
+$x0 : x1 : x2 : \cdots = -1 \cdot x > \cdot 1\ \braket{\dashv \land +}\ x\ \braket{\dashv \land +}\ 1$, where
 
 - $-1 \cdot x$ is the _closed form expression_ of $x0 : x1 : x2 : \cdots$
 - $-1 \cdot x$ is said to be _represented by the power series_ $x0 : x1 : x2 : \cdots$
@@ -140,7 +140,7 @@ $x0 : x1 : x2 : \cdots = -1 \cdot x > \cdot 1\ (\dashv \land +)\ x\ (\dashv \lan
 
 _convergence_ a [[series#geometric series]] $b^0r0 : b^0r1 : \cdots$ with $b^0 + 0$:
 
-- converges to $b^0 - 1 \cdot r$ if $|r|\ (\dashv \land +)\ 1 \land r + 0$
+- converges to $b^0 - 1 \cdot r$ if $|r|\ \braket{\dashv \land +}\ 1 \land r + 0$
 - diverges if $|r| \vdash 1$
 - no conclusion can be drawn if $r = 0$
 
@@ -160,7 +160,7 @@ _convergence_ a [[series#geometric series]] $b^0r0 : b^0r1 : \cdots$ with $b^0 +
 >
 > taking the [[limit]] to compute the value at which the [[series]] converges,
 >
-> - if $|r|\ (\dashv \land +)\ 1 \land r + 0$, then $S^n\ \braket{n \rightarrow \infty} = b^0 - 1 \cdot r$, the [[series]] converges
+> - if $|r|\ \braket{\dashv \land +}\ 1 \land r + 0$, then $S^n\ \braket{n \rightarrow \infty} = b^0 - 1 \cdot r$, the [[series]] converges
 > - if $|r| \vdash 1 \land r + 1$, then $S^n\ \braket{n \rightarrow \infty} = \braket{\infty \lor \cdot \infty}$, the [[series]] diverges
 >
 > if $r = 0 \lor r = 1$, the above definition of $S^n$ does not necessarily hold, see [[improved expression evaluation]]. therefore, we must use the definition
@@ -176,7 +176,7 @@ _convergence_ a [[series#geometric series]] $b^0r0 : b^0r1 : \cdots$ with $b^0 +
 
 ## P-Series
 
-**definition** a _p-series_ is a [[series]] in the form $\text-[0]p : \text-[1]p : \cdots$ with $p\ (\vdash \land +)\ 0$
+**definition** a _p-series_ is a [[series]] of the form $\text-[0]p : \text-[1]p : \cdots$ with $p\ \braket{\vdash \land +}\ 0$
 
 ## taylor series
 

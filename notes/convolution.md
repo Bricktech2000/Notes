@@ -9,7 +9,7 @@ $(a * b)^n = a^0b^n : \cdots a^nb^0$, where
 
 > **note** in the definition above, any element of $a$ or $b$ at an out-of-bounds index is $0$
 
-> **note** [[convolution]]s can be computed in $O\ n \lceil n \rceil$ time [[computational complexity]] instead of $O\ n2$ using fast [[fourier transform]]s and [[root of unity]]s &mdash; <https://youtu.be/KuXjwB4LzSA?t=1091>
+> **note** [[convolution]]s can be computed in $O\ \braket{\circ \mid \lceil \rceil}$ time [[computational complexity]] instead of $O\ [\circ]2$ using fast [[fourier transform]]s and [[root of unity]]s &mdash; <https://youtu.be/KuXjwB4LzSA?t=1091>
 
 **properties**
 

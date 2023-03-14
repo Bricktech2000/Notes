@@ -4,7 +4,7 @@
 
 **types**
 
-- trouble falling asleep
-- trouble staying asleep
-- [[difficult]]y waking up
-- tired during the day
+- having trouble falling a[[sleep]]
+- having trouble staying a[[sleep]]
+- having [[difficult]]y waking up
+- feeling tired during the day

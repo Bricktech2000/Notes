@@ -34,14 +34,14 @@ _a collection of disjoint [[set]]s that can be merged together and queried for m
 
 time [[computational complexity]]:
 
-|                               | Union Find       |
-| ----------------------------- | ---------------- |
-| Construction                  | $O\ n$           |
-| Union with _path compression_ | $O\ n$ amortized |
-| Find with _path compression_  | $O\ n$ amortized |
-| Getting size of [[set]]       | $O\ n$ amortized |
-| Naive Count Components        | $O\ n$           |
-| Count Components by tracking  | $O\ 1$           |
+|                               | Union Find           |
+| ----------------------------- | -------------------- |
+| Construction                  | $O\ \circ$           |
+| Union with _path compression_ | $O\ \circ$ amortized |
+| Find with _path compression_  | $O\ \circ$ amortized |
+| Getting size of [[set]]       | $O\ \circ$ amortized |
+| Naive Count Components        | $O\ \circ$           |
+| Count Components by tracking  | $O\ 1$               |
 
 **representation**
 

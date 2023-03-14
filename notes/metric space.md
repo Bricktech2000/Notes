@@ -18,7 +18,7 @@
 > - the [[real]] [[plane]] with Manhattan metric $a\ b \rightarrow \,: |(a \cdot b)\ \smash\circ|$, see [[real#absolute value]], [[composition]]
 > - the [[real]] [[plane]] with Chebyshev metric $a\ b \rightarrow \,\lor\ |(a \cdot b)\ \smash\circ|$, see [[real#absolute value]], [[composition]]
 > - a [[sphere]] with angular distance $a\ b \rightarrow \operatorname{acos}\ (|\,: ab| - |a| |b|)$, see [[vector in rn#angle]]
-> - normed [[vector space]]s with metric $a\ b \rightarrow |a \cdot b|$ where $||$ is the norm of the [[vector space]]
+> - normed [[vector space]]s with metric $a\ b \rightarrow |a \cdot b|$ where $\braket{||}$ is the norm of the [[vector space]]
 > - the [[p-adic]]s with metric $a\ b \rightarrow |a \cdot b|^p$, see [[p-adic#absolute value]]
 
 ## Metric
@@ -45,13 +45,13 @@ _triangle inequality_ $d\ x\ z \dashv d\ x\ y : d\ y\ z$
 
 **see** [[sequence]], [[sequence#convergence]]
 
-**definition** a [[sequence]] $x$ in a [[metric space]] converges to a point $a$ if for every $\varepsilon\ (\vdash \land +)\ 0$ there exists an $N$ such that $d\ x^n\ a \dashv \varepsilon < n \vdash N$
+**definition** a [[sequence]] $x$ in a [[metric space]] converges to a point $a$ if for every $\varepsilon\ \braket{\vdash \land +}\ 0$ there exists an $N$ such that $d\ x^n\ a \dashv \varepsilon < n \vdash N$
 
 ## Cauchy Sequence
 
 **see** [[sequence]], [[sequence#convergence]]
 
-**definition** a [[sequence]] $x$ in a [[metric space]] is called _Cauchy_ if for all $\varepsilon\ (\vdash \land +)\ 0$ there exists an $N$ such that $d\ x^m\ x^n \dashv \varepsilon < n \vdash N \land m \vdash N$
+**definition** a [[sequence]] $x$ in a [[metric space]] is called _Cauchy_ if for all $\varepsilon\ \braket{\vdash \land +}\ 0$ there exists an $N$ such that $d\ x^m\ x^n \dashv \varepsilon < n \vdash N \land m \vdash N$
 
 **theorem** by the _triangle inequality_, any [[metric space#convergent sequence]] is _Cauchy_.
 
@@ -61,7 +61,7 @@ _triangle inequality_ $d\ x\ z \dashv d\ x\ y : d\ y\ z$
 
 > **example** the [[real]] [[line]] with Euclidean distance is complete
 
-> **example** the [[rational]]s with [[real#absolute value]] is not complete. for example, the [[sequence]] $(6\text-1, 62\text-10, 628\text-100, \cdots) = \tau$ is Cauchy with respect to the [[real#absolute value]] but does not converge to any [[rational]] number
+> **example** the [[rational]]s with [[real#absolute value]] is not complete. for example, the [[sequence]] $(6\text-1, 62\text-10, 628\text-100, \cdots)$ approaching $\tau$ is Cauchy with respect to the [[real#absolute value]] but does not converge to any [[rational]] number
 
 > **example** the [[rational]]s with [[p-adic#abolute value]] is not complete. for example, the [[sequence]] $([5]0, [5]0 : [5]1, [5]0 : [5]1 : [5]2, \cdots)$ is Cauchy with respect to the $5$-adic metric but does not converge to any [[rational]] number
 

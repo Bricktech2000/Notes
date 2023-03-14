@@ -8,4 +8,4 @@ _an instance of a [[class]]_
 
 **properties**
 
-an [[object]] has a state whereas a [[class]] does not (duplicate)
+an [[object]] has a state whereas a [[class]] does not, see [[class]]

@@ -10,7 +10,7 @@
 
 **representation** _using [[recursion]]_
 
-the time [[computational complexity]] of [[binary exponentiation]] is $O\ \lceil n \rceil$
+the time [[computational complexity]] of [[binary exponentiation]] is $O\ \lceil \circ \rceil$
 
 ```python
 def monoid_reduce(multiply, identity, x, n):

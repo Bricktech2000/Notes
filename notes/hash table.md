@@ -8,11 +8,11 @@ _a [[map]] implemented using a [[hash]] [[function]]_
 
 time [[computational complexity]]:
 
-|        | Average | Worst  |
-| ------ | ------- | ------ |
-| Insert | $O\ 1$  | $O\ n$ |
-| Remove | $O\ 1$  | $O\ n$ |
-| Lookup | $O\ 1$  | $O\ n$ |
+|        | Average | Worst      |
+| ------ | ------- | ---------- |
+| Insert | $O\ 1$  | $O\ \circ$ |
+| Remove | $O\ 1$  | $O\ \circ$ |
+| Lookup | $O\ 1$  | $O\ \circ$ |
 
 > **note** time [[computational complexity]] is $O\ 1$ only if the [[hash]] [[function]] is uniform
 

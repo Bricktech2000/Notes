@@ -16,8 +16,10 @@
 
 ## General Recursion
 
+> **equivalence** _[[combinatory logic#y combinator]] and [[recursion#general recursion]]_
+
 any [[algorithm]] that uses [[recursion]] can be represented as repeated [[function]] [[composition]]
 
-$\operatorname{rec} f = f\ (\operatorname{rec} f)$, which evaluates to $f\ f\ f\ f\ \cdots$
+$\operatorname{rec} f = f\ (\operatorname{rec} f)$, which evaluates to $f\ (f\ (f\ (f\ \cdots)))$
 
 &mdash; <https://youtu.be/9T8A89jgeTI?t=482>

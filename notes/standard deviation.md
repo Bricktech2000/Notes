@@ -4,7 +4,7 @@
 
 **definition**
 
-$\sigma2 = (\,: - \#)\ [X \cdot \mu]2$
+$\sigma2 = \braket{\,: - \#}\ [X \cdot \mu]2$
 
 - $X$ is a [[sample]] or a [[population]] as a [[list]]
 - $\mu$ is the [[sample]] [[mean]] of $X$

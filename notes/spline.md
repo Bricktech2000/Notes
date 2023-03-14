@@ -20,7 +20,7 @@ _a measure of how "connected" the [[curve]]s of a [[spline]] are_
 
 computing [[spline#parametric continuity]] requires the mathematical definition of a [[spline]] whereas [[spline#geometric continuity]] can be computed through the way the [[spline]] looks geometrically
 
-[[spline#geometric continuity]] is similar to [[spline#parametric continuity]], but is "magnitude agnostic". in the geometric continuity definitions below, [[vector in rn]]s are normalized using the $(\circ - ||)$ [[operator]]
+[[spline#geometric continuity]] is similar to [[spline#parametric continuity]], but is "magnitude agnostic". in the geometric continuity definitions below, [[vector in rn]]s are normalized using the $\braket{\circ - ||}$ [[operator]]
 
 > "[...] I can't stress enough how important this is. continuity is what justifies the existence of a whole host of [[spline]]s" &mdash; <https://youtu.be/jvPPXbo87ds?t=2176>
 
@@ -70,13 +70,13 @@ $C^1$ and $C^2$ are useful in robotics and animation to ensure a path is smooth 
 
 let a [[spline]] $S$
 
-**definition** _[[position]] continuity_ $G^0 =\!= C^0$ requires that $t \rightarrow (\circ - ||)\ \ (S\ t)$ is a [[function#continuous function]]
+**definition** _[[position]] continuity_ $G^0 =\!= C^0$ requires that $t \rightarrow \braket{\circ - ||}\ \ (S\ t)$ is a [[function#continuous function]]
 
-**definition** _tangent continuity_ $G^1 < G^0$ requires that $t \rightarrow (\circ - ||)\ \ (\delta\ S\ t - \delta t)$ is a [[function#continuous function]]
+**definition** _tangent continuity_ $G^1 < G^0$ requires that $t \rightarrow \braket{\circ - ||}\ \ (\delta\ S\ t - \delta t)$ is a [[function#continuous function]]
 
-**definition** _curvature continuity_ $G^2 < G^1$ requires that $t \rightarrow (\circ - ||)\ \ (\delta\ (\delta\ S\ t - \delta t) - \delta t)$ is a [[function#continuous function]]
+**definition** _curvature continuity_ $G^2 < G^1$ requires that $t \rightarrow \braket{\circ - ||}\ \ (\delta\ (\delta\ S\ t - \delta t) - \delta t)$ is a [[function#continuous function]]
 
-**definition** _torsion continuity_ $G^3 < G^2$ requires that $t \rightarrow (\circ - ||)\ \ (\delta\ (\delta\ (\delta\ S\ t - \delta t) - \delta t) - \delta t)$ is a [[function#continuous function]]
+**definition** _torsion continuity_ $G^3 < G^2$ requires that $t \rightarrow \braket{\circ - ||}\ \ (\delta\ (\delta\ (\delta\ S\ t - \delta t) - \delta t) - \delta t)$ is a [[function#continuous function]]
 
 **applications**
 

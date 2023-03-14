@@ -48,11 +48,11 @@ suppose $a^n = f\ n > \mathbb N n$. then, the [[function#extremum]]a of $f$ can 
 
 ## Decreasing Sequence
 
-**definition** a [[sequence]] is said to be _increasing_ if $a^n\ (\dashv \land +)\ a^{n : 1} > \mathbb N n$
+**definition** a [[sequence]] is said to be _increasing_ if $a^n\ \braket{\dashv \land +}\ a^{n : 1} > \mathbb N n$
 
 **definition** a [[sequence]] is said to be _non-decreasing_ if $a^n \dashv a^{n : 1} > \mathbb N n$
 
-**definition** a [[sequence]] is said to be _decreasing_ if $a^n\ (\vdash \land +)\ a^{n : 1} > \mathbb N n$
+**definition** a [[sequence]] is said to be _decreasing_ if $a^n\ \braket{\vdash \land +}\ a^{n : 1} > \mathbb N n$
 
 **definition** a [[sequence]] is said to be _non-increasing_ if $a^n \vdash a^{n : 1} > \mathbb N n$
 
@@ -125,11 +125,11 @@ _convergence_
 
 a geometric [[sequence]] $a^0r0, a^0r1, \cdots$ with $a^0 + 0$:
 
-- diverges if $r\ (\vdash \land +)\ 1$
+- diverges if $r\ \braket{\vdash \land +}\ 1$
 - converges to $a$ if $r = 1$
-- converges to $0$ if $0 \dashv r\ (\dashv \land +)\ 1$
-- converges to $0$ if $\cdot 1\ (\dashv \land +)\ r \dashv 0$
+- converges to $0$ if $0 \dashv r\ \braket{\dashv \land +}\ 1$
+- converges to $0$ if $\cdot 1\ \braket{\dashv \land +}\ r \dashv 0$
 - diverges if $r = \cdot 1$
-- diverges if $r\ (\dashv \land +)\ \cdot 1$
+- diverges if $r\ \braket{\dashv \land +}\ \cdot 1$
 
 > **proof** think of it intuitively

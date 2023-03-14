@@ -13,7 +13,7 @@ $[b]c =\!= b[c]$, where
 
 $x0 = 1 > x + 0$
 
-_inverse_ $x[\cdot n] = 1 - x[n]$ (see [[improved expression evaluation]])
+_inverse_ $x[\cdot n] = -x[n]$ (see [[improved expression evaluation]])
 
 _product rule_ $x[m : n] = x[m] \mid x[n]$
 
