@@ -6,8 +6,8 @@ _when a square root is in the denominator_
 
 > **procedure** _[[trick]]s for rationalization_
 >
-> if the denominator is $\lfloor a \rfloor$, multiply the fraction by $\lfloor a \rfloor - \lfloor a \rfloor$
+> if the denominator is of the form $\lfloor a \rfloor$, multiply the fraction by $\lfloor a \rfloor - \lfloor a \rfloor$
 >
-> if the denominator is $\lfloor a \rfloor : \lfloor b \rfloor$, multiply the fraction by $\lfloor a \rfloor \cdot \lfloor b \rfloor - \lfloor a \rfloor \cdot \lfloor b \rfloor$
+> if the denominator is of the form $\lfloor a \rfloor : \lfloor b \rfloor$, multiply the fraction by $\lfloor a \rfloor \cdot \lfloor b \rfloor - \lfloor a \rfloor \cdot \lfloor b \rfloor$
 >
-> if the denominator is $\lfloor a \rfloor \cdot \lfloor b \rfloor$, multiply the fraction by $\lfloor a \rfloor : \lfloor b \rfloor - \lfloor a \rfloor : \lfloor b \rfloor$
+> if the denominator is of the form $\lfloor a \rfloor \cdot \lfloor b \rfloor$, multiply the fraction by $\lfloor a \rfloor : \lfloor b \rfloor - \lfloor a \rfloor : \lfloor b \rfloor$

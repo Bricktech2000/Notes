@@ -54,8 +54,6 @@
 
 [[esoteric programming language idea]]
 
-[[personal issues with university]]
-
 [[carbon language talk]]
 
 [[goodhart's law]]
@@ -65,8 +63,6 @@
 [[nonverbal]]
 
 **learn**
-
-[[sensor suite]]
 
 [[concept]] vs [[fact]]
 

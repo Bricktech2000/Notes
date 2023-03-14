@@ -8,12 +8,12 @@ time [[computational complexity]]:
 
 |                                | Singly-Linked | Doubly-Linked |
 | ------------------------------ | ------------- | ------------- |
-| Search                         | $O\ n$        | $O\ n$        |
+| Search                         | $O\ \circ$    | $O\ \circ$    |
 | isEmpty                        | $O\ 1$        | $O\ 1$        |
-| Contains                       | $O\ n$        | $O\ n$        |
+| Contains                       | $O\ \circ$    | $O\ \circ$    |
 | Insert / Remove / Peek at head | $O\ 1$        | $O\ 1$        |
-| Insert / Remove / Peek at tail | $O\ n$        | $O\ 1$        |
-| Insert / Remove / Peek at mid  | $O\ n$        | $O\ n$        |
+| Insert / Remove / Peek at tail | $O\ \circ$    | $O\ 1$        |
+| Insert / Remove / Peek at mid  | $O\ \circ$    | $O\ \circ$    |
 
 **representation** _Singly-Linked List_
 

@@ -82,10 +82,10 @@ let:
 | $A^i$ <br /> $B^i$ <br /> $V^n$ <br /> $P^b$ | `A^i` <br /> `B^i` <br /> `V^n` <br /> `P^b` | $A\ i$ <br /> $B\ i$ <br /> $V\ n$ <br /> $P\ b$   | to be used for indices                                       |
 | $M^{i,j}$ <br /> $G^{a, b}$                  | `M^i,j` <br /> `G^a, b`                      | $M\ i\ j$ <br /> $G\ a\ b$                         | to be used for indices                                       |
 | $S\ a$ <br /> $M'\ a$ <br /> $G\ a$          | `S a` <br /> `M' a` <br /> `G a`             | $S\ a$ <br /> $M\ a$ <br /> $G\ a$                 | to be used for membership                                    |
+| $\braket{*}$                                 | `{*}`                                        | $*$ [[operator]] as a non-infix [[function]]       | works with any [[operator]]                                  |
 | $\varnothing$                                |                                              | _undefined_                                        | see [[improved expression evaluation]]                       |
 | $\top$                                       | `T`                                          | [[boolean]] _true_                                 |                                                              |
 | $\bot$                                       | `F`                                          | [[boolean]] _false_                                |                                                              |
-| $\circ$                                      | `*`                                          | [[function]] [[composition#identity]]              |                                                              |
 | $\tau$                                       | `t`                                          | the [[circle]] constant                            | see [[tau]]                                                  |
 | $\varepsilon$                                | `e`                                          | [[euler's constant]]                               |                                                              |
 | $\iota$                                      | `i`                                          | $\lfloor \cdot 1 \rfloor$                          | see [[imaginary]]. using $i$ is discouraged                  |
@@ -127,6 +127,7 @@ let:
 | $\braket{\ }$                     | `{ }`                         | $\braket{\braket{\ }}$                                      | see [[set]], [[empty]]                              |
 | $(\ )$                            | `( )`                         | $((\ ))$                                                    | see [[multiset]]                                    |
 | $f\ g\ \circ$                     | `f g *`                       | $x \rightarrow f\ (g\ x)$                                   | $\circ$ is a "hole"                                 |
+| $\braket\circ$                    | `{*}`                         | $x \rightarrow x$                                           | see [[function]] [[composition#identity]]           |
 | $\text{``foo''}$                  | `"foo"`                       | $(\text{`f'}, \text{`o'}, \text{`o'})$                      | see [[string]], [[list]]                            |
 
 ### precedence and associativity
@@ -140,10 +141,10 @@ _in order of high to low precedence_
 | $x^i$                                         |               |
 | $[]\ \lfloor\rfloor\ \lceil\rceil$            | left          |
 | $\shortmid \text-$                            | left          |
-| $\delta\ \sin\ \#\ \circ\ \leftarrow$         | left-ish      |
+| $\delta\ \sin\ \#\ \circ\ \leftarrow$         | left          |
 | $:\ \cdot$                                    | left          |
 | $\mid -$                                      | left          |
-| $\int\ \braket{}\ \cdots\ \rightarrow\ \bmod$ | right-ish     |
+| $\int\ \braket{}\ \cdots\ \rightarrow\ \bmod$ | right         |
 | $\bot\ \top$                                  | left          |
 | $=\ \dashv\ \vdash\ +$                        | AND           |
 | $\land\ \lor$                                 | left          |

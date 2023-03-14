@@ -59,7 +59,7 @@ _an integral whose integrand has a [[function]] discontinuity on the integration
 
 **theorem** _Comparison Test_
 
-let $0 \dashv g\ x \dashv f\ x$ on an interval $a\ (\dashv \land +)\ \circ\ (\dashv \land +)\ b$, where $a$ and $b$ are not necessarily finite. then,
+let $0 \dashv g\ x \dashv f\ x$ on an interval $a\ \braket{\dashv \land +}\ \circ\ \braket{\dashv \land +}\ b$, where $a$ and $b$ are not necessarily finite. then,
 
 - if $\int f\ x \mid \delta x\ \braket{b \cdot a}$ converges, so does $\int g\ x \mid \delta x\ \braket{b \cdot a}$, but not conversely
 - if $\int g\ x \mid \delta x\ \braket{b \cdot a}$ diverges, so does $\int f\ x \mid \delta x\ \braket{b \cdot a}$, but not conversely
@@ -72,7 +72,7 @@ let $0 \dashv g\ x \dashv f\ x$ on an interval $a\ (\dashv \land +)\ \circ\ (\da
 
 the [[integral]] $\int -[x]p \mid \delta x\ \braket{\infty \cdot 1}$:
 
-- converges if $p\ (\vdash \land +)\ 1$
+- converges if $p\ \braket{\vdash \land +}\ 1$
 - diverges if $p \dashv 1$
 
 ## Numerical Integration

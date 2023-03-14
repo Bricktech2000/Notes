@@ -35,16 +35,16 @@ _switches around the two elements of an [[ordered pair]]_
 
 > **note** this was made up by me and probably doesn't have an equivalent in [[conventional math notation]]
 
-**notation** $P\ (+ \circ)$
+**notation** $P\ \braket+\ \circ$
 
-**definition** $P\ (+ \circ)$
+**definition** $P\ \braket+\ \circ$
 
 **properties**
 
-$P\ (+ \circ) =\!= \braket{P^\top, P^\bot}$
+$P\ \braket+\ \circ =\!= \braket{P^\top, P^\bot}$
 
-$P\ (+ \circ)\ (+ \circ) = P$ for all [[ordered pair]] $P$
+$(P\ \braket+\ \circ)\ \braket+\ \circ = P$ for all [[ordered pair]] $P$
 
 **examples**
 
-> **example** $\braket{e, i}\ (+ \circ) = \braket{i, e}$
+> **example** $\braket{e, i}\ \braket+\ \circ = \braket{i, e}$

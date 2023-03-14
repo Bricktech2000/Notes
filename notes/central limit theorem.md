@@ -1,10 +1,12 @@
 # Central Limit Theorem
 
-**theorem** _central limit theorem_ given a sufficiently large [[set]] of sufficiently large [[sample]]s:
+&mdash; <https://youtu.be/zeJD6dqJ5lo>
+
+**theorem** _central limit theorem_ given a sufficiently large [[set]] of sufficiently large [[sample]]s **independent from eathother** drawn from the **same [[probability distribution]]** with **finite [[variance]]**,
 
 1. the [[sample]] [[mean]]s are approximately normally distributed, see [[probability distribution#normal distribution]]
-2. the [[sample]] [[mean]]s have a [[mean]] equal to the [[population]] [[mean]]
-3. the [[sample]] [[mean]]s have a [[variance]] equal to the [[population]] [[variance]] divided by the [[sample]] size
+2. the [[sample]] [[mean]]s have a [[mean]] approximately equal to the [[population]] [[mean]]
+3. the [[sample]] [[mean]]s have a [[variance]] approximately equal to the [[population]] [[variance]] divided by the [[sample]] size
 
 **properties**
 

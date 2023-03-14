@@ -8,11 +8,11 @@
 
 time [[computational complexity]]:
 
-|        | Average              | Worst  |
-| ------ | -------------------- | ------ |
-| Insert | $O\ \lceil n \rceil$ | $O\ n$ |
-| Remove | $O\ \lceil n \rceil$ | $O\ n$ |
-| Search | $O\ \lceil n \rceil$ | $O\ n$ |
+|        | Average                  | Worst      |
+| ------ | ------------------------ | ---------- |
+| Insert | $O\ \lceil \circ \rceil$ | $O\ \circ$ |
+| Remove | $O\ \lceil \circ \rceil$ | $O\ \circ$ |
+| Search | $O\ \lceil \circ \rceil$ | $O\ \circ$ |
 
 ## Operations
 

@@ -60,7 +60,7 @@ a [[matrix]] (augmented or not) is in [[linear system#row echelon form]] if all:
 
 > **procedure** _determining the type of the general solution_
 >
-> - if the [[matrix]] contains a row in the form $\begin{bmatrix}0 & \cdots & 0 & | & b\end{bmatrix} \land b + 0$, the system has no solutions
+> - if the [[matrix]] contains a row of the form $\begin{bmatrix}0 & \cdots & 0 & | & b\end{bmatrix} \land b + 0$, the system has no solutions
 > - else, if every column has a pivot, the system has one unique solution
 > - else, if there is a column with no pivot, the system has an infinite number of solutions
 

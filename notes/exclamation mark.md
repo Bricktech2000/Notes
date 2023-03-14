@@ -1,8 +1,6 @@
 # Exclamation Mark
 
-**notation**
-
-`!`
+**notation** `!`
 
 > **example** _[[problematic practice]]_
 >

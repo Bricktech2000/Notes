@@ -26,7 +26,7 @@ if $z$ is an $n$th [[root of unity]] and $\bmod n\ \braket{a = b}$, then $[z]a =
 
 let $z$ be a primitive $n$th [[root of unity]]. then, $z0 \cdots z[n \cdot 1]$ are all $n$th [[root of unity]]s and are all distinct
 
-> **proof** if $[z]a = [z]b$ with $0 \dashv a\ (\dashv \land +)\ b \dashv n \cdot 1$, then $[z]b - [z]a = 1 = z[b \cdot a]$, which would imply that $z$ is not primitive
+> **proof** if $[z]a = [z]b$ with $0 \dashv a\ \braket{\dashv \land +}\ b \dashv n \cdot 1$, then $[z]b - [z]a = 1 = z[b \cdot a]$, which would imply that $z$ is not primitive
 
 since an $n$th degree [[polynomial]] equation over a [[field]] (in this case the [[field]] of [[complex]] numbers) has at most $n$ solutions by the [[fundamental theorem of algebra]], $z0 \cdots z[n \cdot 1]$ are all of the $n$th [[root of unity]]s
 

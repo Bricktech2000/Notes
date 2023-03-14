@@ -40,7 +40,7 @@ _the world's most widely used system of measurement_
 |                          |              | $\text{m} - \text{s}4$                                            | $L - T4$        | snap, jounce (nonstandard) | $s$                  |
 |                          |              | $\text{m} - \text{s}5$                                            | $L - T5$        | crackle (nonstandard)      | $c$                  |
 |                          |              | $\text{m} - \text{s}6$                                            | $L - T6$        | pop (nonstandard)          | $p$                  |
-| reciprocal meter         |              | $-\text{m}$                                                       | $-L$            | vergence                   | $V, 1\text-f$        |
+| reciprocal meter         |              | $-\text{m}$                                                       | $-L$            | vergence                   | $V, \text-f$         |
 | kilogram per cubic meter |              | $\text{kg} - \text{m}3$                                           | $M - L3$        | [[density]]                | $\rho$               |
 | mole per cubic meter     |              | $\text{mol} - \text{m}3$                                          | $N - L3$        | [[concentration]]          | $c$                  |
 | $\dots$                  | $\dots$      | $\dots$                                                           | $\dots$         | $\dots$                    | $\dots$              |

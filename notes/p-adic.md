@@ -63,4 +63,4 @@ $|n|^p = -p[\psi\ n\ p]$, where
 
 > **note** for the [[p-adic#absolute value]] to follow the [[field#absolute value]] [[axiom]]s, $|0|^p = 0$ for all $p$ &mdash; <https://youtu.be/vdjYiU6skgE?t=407>
 
-> **note** in contrast to the [[real#absolute value]], the [[p-adic#absolute value]] only returns a "discrete" [[set]] of values $x \rightarrow x = p[n] \land \mathbb Z n \lor x = 0$ &mdash; <https://youtu.be/vdjYiU6skgE?t=407>
+> **note** in contrast to the [[real#absolute value]], the [[p-adic#absolute value]] only returns a "discrete" [[set]] of values $x \rightarrow (x = p[n] \land \mathbb Z n \lor x = 0)$ &mdash; <https://youtu.be/vdjYiU6skgE?t=407>

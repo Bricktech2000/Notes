@@ -210,8 +210,6 @@ $\ell$
 
 $\,: (0 \dashv)\ \top \,: (0 \vdash)$
 
-an APL fork is similar to the Psi Combinator &mdash; <https://youtu.be/U6I-Kwj-AvY?t=441>. actually, it seems to be known as the _Phi Combinator_ &mdash; <https://youtu.be/i1K_kUKJnE4?t=525>
-
 ---
 
 ```
@@ -234,7 +232,7 @@ F A B O a b = O (A a) (B b)
 
 fork $A : B = \braket{A : B} = x \rightarrow A\ x : B\ x$
 
-vector normalization $\circ - || = \braket{\circ\ - ||} = x \rightarrow x - |x|$
+vector normalization $\braket{\circ\ - ||} = x \rightarrow x - |x|$
 
 double fork $x\ (. | :)\ y =$
 
@@ -278,7 +276,7 @@ fork:
 
 $\braket{A : B}$ or shorthand $A : B$
 
-$\braket{\circ\ - ||}$ or shorthand $\circ - ||$
+$\braket{\circ\ - ||}$
 
 $\#\ \psi\ \braket{a = b}$
 
@@ -386,4 +384,22 @@ $a^{n:1} = \braket{\text-2a^n, 3a^n : 1}\ (\!\!\bmod 2\ a^n)$ with $a^0 = x$
 
 ---
 
-$f = x \rightarrow \mathbb Q x$ is a [[function#continuous function]] nowhere on its [[function#domain]]
+$x \rightarrow \mathbb Q x$ is a [[function#continuous function]] nowhere on its [[function#domain]]
+
+$\circ \quad \dot\circ \quad \ddot\circ \quad \dddot\circ \quad \ddddot\circ$
+
+$\_ \quad \dot\_ \quad \ddot\_ \quad \dddot\_ \quad \ddddot\_$
+
+$\dddot \imath$
+
+$\dot{\ddot{\dddot{\ddddot{}}}} \quad \ddddot{\dddot{\ddot{\dot{}}}} \quad \dot{\ddot{\dddot{\ddddot{}}}} \quad \ddddot{\dddot{\ddot{\dot{}}}}$
+
+---
+
+$\braket\circ$
+
+$\braket\rightarrow$
+
+$\braket\mid\ x\ y = x \mid y$
+
+$\braket: 1\ 2 = 1 : 2$

@@ -2,4 +2,4 @@
 
 **see** [[math notation]], [[international system of units]]
 
-$\nu$ is often used to represent [[electromagnetic wave]]s &mdash; Britannica
+$\nu$ is often used to represent the [[frequency]] of [[electromagnetic wave]]s &mdash; Britannica

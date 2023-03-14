@@ -54,4 +54,4 @@ let $m$ and $n$ be the two numbers representing the [[distance]] between two peo
 
 **cons**
 
-- dumb vocabulary already exists to describe the relationship between two people in a family, so getting the general public on board is not an easy task
+- the [[switching cost]]; dumb vocabulary already exists to describe the relationship between two people in a family, so getting the general public onboard is not an easy task

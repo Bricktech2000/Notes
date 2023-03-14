@@ -51,13 +51,13 @@ _[[function]] [[composition#identity]]_
 
 **aka** _identity, `id` in Haskell_
 
-**definition** $I = x \rightarrow x = \circ$
+**definition** $I = x \rightarrow x = \braket\circ$
 
 **definition** $I = S\ K\ K$
 
 **definition** $I = \iota\ \iota$
 
-**notation** $\circ\ x$
+**notation** $\braket\circ\ x$
 
 ### K Combinator
 
@@ -69,7 +69,7 @@ _discards the second argument_
 
 **definition** $K = \iota\ (\iota\ (\iota\ \iota))$
 
-**notation** $(\rightarrow)\ x\ y$
+**notation** $\braket\rightarrow\ x\ y$
 
 ### S Combinator
 
@@ -101,7 +101,7 @@ _the [[composition]] of its arguments_
 
 ### B1 Combinator
 
-**aka** _"blackbird"_
+**aka** _"blackbird", `.:` in Haskell_
 
 **definition** $B_1 = f\ g\ x\ y \rightarrow f\ (g\ x\ y)$
 
@@ -133,7 +133,7 @@ _duplicates the second argument_
 
 **definition** $W = C\ S\ K$
 
-**notation** $\braket{f\ \circ}\ x$
+**notation** $\braket{f\ \circ}\ x$ or equivalently $\braket{\circ\ f\ \circ}\ x$
 
 ### KI Combinator
 
@@ -175,7 +175,7 @@ _applies a [[function]] twice_
 
 ### Phi Combinator
 
-**aka** _converge, `apply2way` and `liftA2` and `liftM2` in Haskell, S2 combinator, S' combinator_
+**aka** _converge, `apply2way` and `liftA2` and `liftM2` in Haskell, S2 combinator, S' combinator, 'fork' in APL_
 
 **definition** $\Phi = f\ g\ h\ x \rightarrow f\ (g\ x)\ (h\ x)$
 
@@ -192,6 +192,8 @@ _applies a [[function]] twice_
 _allows for [[lambda calculus#recursion]]_
 
 _used to formally define recursive [[function]]s in a [[functional programming]] language that does not support [[recursion]]_
+
+> **equivalence** _[[combinatory logic#y combinator]] and [[recursion#general recursion]]_
 
 **aka** _fixed-point combinator, `fix` in Haskell_
 
@@ -238,5 +240,9 @@ the [[combinatory logic#iota combinator]] can be used to define the [[combinator
 &mdash; <https://gist.github.com/Avaq/1f0636ec5c8d6aed2e45#file-combinators-md> &mdash; <https://combinatorylogic.com/table.html> &mdash; <https://youtu.be/Y0KKPYkeOTA>
 
 &mdash; <https://cs.stackexchange.com/questions/13901/what-is-the-name-of-this-combinator>
+
+&mdash; <https://youtu.be/i1K_kUKJnE4?t=525>
+
+&mdash; <https://youtu.be/i1K_kUKJnE4?t=562>
 
 #todo this is an applicative ([[apply]]?) in [[category theory]] &mdash; <https://youtu.be/Y0KKPYkeOTA?t=501>

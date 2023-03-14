@@ -22,7 +22,7 @@ $(1, 2)$
 
 **properties**
 
-_zero [[vector in rn]]_ $O$ such that $O \circ \circ = 0$
+_zero [[vector in rn]]_ $O$ such that $\,\land\ \,\land\ O \circ \circ = 0$
 
 _[[vector in rn]] addition_ $(a, b) : (c, d) =\!= (a : c, b : d)$
 
@@ -42,7 +42,7 @@ $|V| = \lfloor \,: V2 \rfloor$, where
 
 a _unit vector_ is a [[vector in rn]] $V$ such that $|V| = 1$
 
-a [[vector in rn]] can be _normalized_ (scaled into into a [[vector in rn#unit vector]]) through $(\circ - ||)$
+a [[vector in rn]] can be _normalized_ (scaled into into a [[vector in rn#unit vector]]) through $\braket{\circ - ||}$
 
 ## Angle
 

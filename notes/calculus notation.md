@@ -4,11 +4,11 @@
 
 ## notation
 
-[[integral]] and [[derivative]] notation should be thought of as follows (with explicit parentheses to denote [[function]] calls):
+[[integral]] and [[derivative]] notation should be thought of as follows:
 
-$\delta y - \delta x = \delta(y) - \delta(x)$
+$\delta y - \delta x = (\delta \leftarrow y) - (\delta \leftarrow x)$
 
-$\int y \mid \delta x = \int (y \mid \delta(x))$
+$\int y \mid \delta x = \int \leftarrow (y \mid (\delta \leftarrow x))$
 
 > **note** when representing the [[derivative]] or [[integral]] of a [[function]], its parameter must be included. for example, $\delta\ f - \delta x$ is invalid whereas $\delta\ f\ x - \delta x$ is valid
 

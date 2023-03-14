@@ -2,8 +2,6 @@
 
 [[the worst programming language ever]]
 
-[[interesting electives]]
-
 #todo
 
 a lot of [[technical writing]] especially sources, [[professional email]]

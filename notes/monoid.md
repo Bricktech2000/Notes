@@ -12,7 +12,7 @@ it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] un
 
 **definition**
 
-let a binary [[operator]] $*$ on a [[set]] $S$. for them to form a [[monoid]], the following [[axiom]]s must be satisfied for all $S\ a \land S\ b \land S\ c$:
+let a binary [[operator]] $\braket*$ on a [[set]] $S$. for them to form a [[monoid]], the following [[axiom]]s must be satisfied for all $S\ a \land S\ b \land S\ c$:
 
 _associativity_ $(a * b) * c = a * (b * c)$
 

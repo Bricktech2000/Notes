@@ -20,16 +20,16 @@ _an increase in the overall level of prices in the economy_
 >
 > **see** [[math notation]]
 >
-> $\text{Inflation}_t = \text{CPI}_t \cdot \text{CPI}_0 - \text{CPI}_0$, where
+> $\text{Inflation}^t = \text{CPI}^t \cdot \text{CPI}^0 - \text{CPI}^0$, where
 >
-> - $\text{CPI}_t$ is the current [[consumer price index]]
-> - $\text{CPI}_0$ is the base [[consumer price index]]
+> - $\text{CPI}^t$ is the current [[consumer price index]]
+> - $\text{CPI}^0$ is the base [[consumer price index]]
 >
 > alternatively, an online [[inflation]] calculator is available at <https://www.bankofcanada.ca/rates/related/inflation-calculator/>
 
 > **procedure** _correcting prices using [[inflation]]_
 >
-> $P_t = P_0 \mid \text{CPI}_t \text- \text{CPI}_0 = P_0 : P_0 \text{Inflation}_t$, where
+> $P^t = P^0 \mid \text{CPI}^t \text- \text{CPI}^0 = P^0 : P^0 \text{Inflation}^t$, where
 >
-> - $P_t$ is the current price of an item
-> - $P_0$ is the base price of an item
+> - $P^t$ is the current price of an item
+> - $P^0$ is the base price of an item

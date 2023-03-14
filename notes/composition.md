@@ -4,7 +4,7 @@
 
 **definition** _composition in my [[math notation]]_
 
-$C\ f\ g = x \rightarrow f\ g\ x$, where
+$C\ f\ g = x \rightarrow f\ (g\ x)$, where
 
 - $f$ and $g$ are the original [[function]]s
 - $C$ is the [[composition]] [[function]]
@@ -32,8 +32,8 @@ _associativity_ $h\ (g\ f\ \circ)\ \circ =\!= (h\ g\ \circ)\ f\ \circ =\!= h\ g\
 
 **aka** _identity [[function]]_
 
-**notation** $\circ$
+**notation** $\braket\circ$
 
-**definition** $\circ$
+**definition** $\braket\circ$
 
-**properties** $\circ\ x =\!= x$
+**properties** $\braket\circ\ x =\!= x$

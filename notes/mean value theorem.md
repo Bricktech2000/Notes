@@ -8,15 +8,15 @@ _[[mean value theorem#for functions]]_
 
 > [...] For a given planar arc between two endpoints, there is at least one point at which the [[function#tangent line]] to the arc is parallel to the secant through its endpoints. &mdash; Wikipedia
 
-**theorem** let $f\ x$ be a [[function]] defined on $a \dashv \circ \dashv b$ such that $f\ x$ is continuous on $a \dashv \circ \dashv b$ and that $f\ x$ is differentiable on $a\ (\dashv \land +)\ \circ\ (\dashv \land +)\ b$. then, there is a number $c$ in $a \dashv \circ \dashv b$ such that the average rate of change of $f\ x$ on $a \dashv \circ \dashv b$ is equal to the [[derivative]] of $f\ x$ with respect to $x$ at $c$, or equivalently $f\ b \cdot f\ a - b \cdot a = \delta\ f\ c - \delta c$
+**theorem** let $f\ x$ be a [[function]] defined on $a \dashv \circ \dashv b$ such that $f\ x$ is continuous on $a \dashv \circ \dashv b$ and that $f\ x$ is differentiable on $a\ \braket{\dashv \land +}\ \circ\ \braket{\dashv \land +}\ b$. then, there is a number $c$ in $a \dashv \circ \dashv b$ such that the average rate of change of $f\ x$ on $a \dashv \circ \dashv b$ is equal to the [[derivative]] of $f\ x$ with respect to $x$ at $c$, or equivalently $f\ b \cdot f\ a - b \cdot a = \delta\ f\ c - \delta c$
 
 > **note** the number $c$ above is not necessarily unique
 
 ## Rolle's Theorem
 
-> Rolle's theorem or Rolle's lemma essentially states that any real-valued differentiable function that attains equal values at two distinct points must have at least one stationary point somewhere between them -- that is, a point where the first derivative is zero. &mdash; Wikipedia
+> Rolle's theorem or Rolle's lemma essentially states that any real-valued differentiable function that attains equal values at two distinct points must have at least one stationary point somewhere between them &mdash; that is, a point where the first derivative is zero. &mdash; Wikipedia
 
-**theorem** let $f\ x$ be a [[function]] defined on $a \dashv \circ \dashv b$ such that $f\ x$ is continuous on $a \dashv \circ \dashv b$, that $f\ x$ is differentiable on $a\ (\dashv \land +)\  \circ\ (\dashv \land +)\ b$ **and** that $f\ a = f\ b$. then, there is a number $c$ in $a \dashv \circ \dashv b$ such that the [[derivative]] of $f\ x$ with respect to $x$ at $c$ is zero, or equivalently $\delta f\ c - \delta c = 0$
+**theorem** let $f\ x$ be a [[function]] defined on $a \dashv \circ \dashv b$ such that $f\ x$ is continuous on $a \dashv \circ \dashv b$, that $f\ x$ is differentiable on $a\ \braket{\dashv \land +}\  \circ\ \braket{\dashv \land +}\ b$ **and** that $f\ a = f\ b$. then, there is a number $c$ in $a \dashv \circ \dashv b$ such that the [[derivative]] of $f\ x$ with respect to $x$ at $c$ is zero, or equivalently $\delta f\ c - \delta c = 0$
 
 ## For Integrals
 

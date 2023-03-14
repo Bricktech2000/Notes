@@ -6,7 +6,7 @@
 
 **definition**
 
-$G^\sigma\ p = -\lfloor \tau \sigma2 \rfloor - [\,: p2 - 2\sigma2]$, where
+$G^\sigma\ p = -\sigma \lfloor \tau \rfloor - [\,: p2 - 2\sigma2]$, where
 
 - $G^\sigma$ is the [[gaussian function]] with [[standard deviation]] $\sigma$
 - $p = (x \cdots)$ is a point

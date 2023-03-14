@@ -23,12 +23,12 @@ _the OG with UB_
 #include <iostream>
 
 int main(void) {
- short a[4] = {1, 2, 3, 4};
+  short a[4] = {1, 2, 3, 4};
 
- std::cout << a[3] << std::endl; // 4
- std::cout << 3 [a] << std::endl; // 4
- std::cout << *(a + 3) << std::endl; // 4
- std::cout << *(3 + a) << std::endl; // 4
+  std::cout << a[3] << std::endl; // 4
+  std::cout << 3 [a] << std::endl; // 4
+  std::cout << *(a + 3) << std::endl; // 4
+  std::cout << *(3 + a) << std::endl; // 4
 }
 ```
 

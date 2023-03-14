@@ -410,8 +410,8 @@ a [[function#total function]] maps every element of its [[function#domain]] to a
 
 **definition** _[[functional programming]] and [[mathematics]]_ a [[function]] $f$ is said to be _idempotent_ if $f\ x = f\ (f\ x)$ for all $x$ and, equivalently, an [[operator]] $*$ on a set $S$ is said to be _idempotent_ if $x * x = x$ for all $S\ x$
 
-> **example** in the [[monoid]] $\braket{\mathbb N, \mid}$, only $0$ and $1$ are idempotent
+> **example** in the [[monoid]] $\braket{\mathbb N, \braket\mid}$, only $0$ and $1$ are idempotent
 
-> **example** in a [[group]] $\braket{\mathbb G, :}$, only $O$ (the identity element) is idempotent
+> **example** in a [[group]] $\braket{\mathbb G, \braket:}$, only $O$ (the identity element) is idempotent
 
-> **example** $||$ is a [[function#idempotent function]] because $|x| = ||x||$ for all $x$
+> **example** $\braket{||}$ is a [[function#idempotent function]] because $|x| = ||x||$ for all $x$

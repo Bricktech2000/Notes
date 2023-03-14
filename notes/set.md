@@ -225,6 +225,6 @@ $C\ n\ k = C\ n\ (n \cdot k)$
 - let $C\ n\ k$ be the $k$-subsets of an $n$-[[set]]
 - let $P\ k\ k$ be the $k$-permutations of a $k$-[[set]]
 
-then, there exists a [[function#bijective function]] between $P\ n\ k$ and $\bot \braket{C\ n\ k, P\ k\ k}\ \circ$
+then, there exists a [[function#bijective function]] between $P\ n\ k$ and $\bot \braket{C\ n\ k, P\ k\ k}\ \circ$, see [[cartesian product]]
 
 moreover, $\#\ C\ n\ k = \#\ C\ n\ (n \cdot k)$. the number of $k$-subsets of an $n$-[[set]] is equal to the number of $n \cdot k$-subsets of an $n$-[[set]]
