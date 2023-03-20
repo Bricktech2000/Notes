@@ -23,6 +23,12 @@ _2’s [[complement]] in base 2, 16’s [[complement]] in base 16_
 > ```rust
 > digits.map(|digit| base - digit) + 1
 > ```
+>
+> > **note** in [[binary]], “subtracting each digit from the largest digit in the base” can be thought of as “swap zeroes for ones and ones for zeros”
+>
+> > **note** the [[complement#radix complement]] of an [[integer]] can be thought of as its representation in a [[positional numeral system]] where the most significant digit is assigned a negative weight. for example, $1011$, the 2's complement of $5$, can be interpreted as $(\cdot8) : 2 : 1 = \cdot5$
+
+> **note** in [[hexadecimal]], the bit pattern of the 16’s [[complement]] is the same as the bit pattern of the 2’s [[complement]], and so the 16’s [[complement]] is almost never used in [[computer science]]
 
 > **equivalence** _[[complement#radix complement]] and modular arithmetic_
 >
@@ -44,10 +50,6 @@ $A \cdot B = A : (\cdot B)$
 
 - to add $A$ and $B$, feed in $A$ and $B$ to get $A : B$ as output
 - to subtract $B$ from $A$, feed in $A$ and $\times B$ and set the _CARRY IN_ bit to get $A \cdot B$ as output
-
-> **note** in [[binary]], “subtract each digit from the largest digit in the base” can be thought of as “swap zeroes for ones and ones for zeros”
->
-> in [[hexadecimal]], the bit pattern of the 16’s [[complement]] is the same as the bit pattern of the 2’s [[complement]], and so the 16’s [[complement]] is almost never used in [[computer science]]
 
 **examples**
 

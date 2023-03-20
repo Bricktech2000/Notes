@@ -4,7 +4,7 @@
 
 ## Identity Element
 
-**see** [[math notation]], [[algebraic structure]]
+**see** [[math notation]], [[algebraic structure]], [[binary exponentiation]]
 
 it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] under [an [[operator]]]_. for example, _[[natural]]s with $0$ form a [[monoid]] under addition_
 
@@ -28,7 +28,7 @@ _closure_ $S\ (a * b)$
 
 _closure_ allows the binary operation to be used on a list of elements of the set $S$. this is known as a `reduce` operation in [[functional programming]]. as examples, `[1, 2, 3].reduce(+) = 1 + 2 + 3 = 6` and `["a", "b", "c"].reduce(&) = "a" & "b" & "c" = "abc"`.
 
-_associativity_ allows for divide and conquer [[algorithm]]s
+_associativity_ allows for [[divide and conquer]] [[algorithm]]s
 
 _associativity_ allows for automatic parallelization of operations throughout multiple threads, CPUs, GPUs...
 

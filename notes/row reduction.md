@@ -6,6 +6,13 @@ _a process for putting a [[matrix]] in [[linear system#reduced row echelon form]
 
 **see** [[linear system]], [[linear equation]], [[matrix]]
 
+[[row reduction#gaussian elimination]] has a time [[computational complexity]] of $O\ [\circ]3$. this makes it unfeasible for large [[matrix]]es. there exist many alternatives, such as:
+
+- the _Gauss-Seidel_ method (numerical approximation through [[iteration]])
+- the _Conjugate Gradient_ method (for _sparse_ [[matrix]]es, numerical approximation often through [[iteration]])
+
+&mdash; <https://en.wikipedia.org/wiki/Gauss%E2%80%93Seidel_method> and <https://en.wikipedia.org/wiki/Conjugate_gradient_method> &mdash; <https://youtu.be/oulfRfqTxJA?t=159>
+
 > **procedure** _putting a [[matrix]] in [[linear system#row echelon form]]_
 >
 > _eliminate $x_0$ from all lines below $L_0$, eliminate $x_1$ from all lines below $L_1$, and so on_

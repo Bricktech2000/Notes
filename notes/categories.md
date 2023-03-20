@@ -100,6 +100,8 @@
 
 [[de bruijn sequence]]
 
+[[fundamental theorem of arithmetic]]
+
 **finance**
 
 [[education]] system issues

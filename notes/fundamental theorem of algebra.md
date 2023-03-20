@@ -2,7 +2,7 @@
 
 **see** [[math notation]], [[complex]], [[factor]], [[quadratic formula]]
 
-> **theorem**: _Fundamental Theorem of Algebra_
+> **theorem** _Fundamental Theorem of Algebra_
 >
 > the following are equivalent:
 >

@@ -85,7 +85,7 @@ $\int v \delta u = v u \cdot \int u \delta v$
 
 **see** [[trigonometric function]]s
 
-> **procedure**:
+> **procedure**
 >
 > with an [[integral]] of the form $\int [\operatorname{trig_1} x]p_1 \mid [\operatorname{trig_2} x]p_2 \mid \delta x$ with $p_1$ being odd and $p_2$ even, compute the [[integral]] as follows:
 >
@@ -117,7 +117,7 @@ $\int v \delta u = v u \cdot \int u \delta v$
 >
 > > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=6366>
 
-> **procedure**:
+> **procedure**
 >
 > with an [[integral]] with respect to $x$ containing the form $-\lfloor a \cdot x2 \rfloor$ with $a$ being a constant, compute the [[integral]] as follows:
 >

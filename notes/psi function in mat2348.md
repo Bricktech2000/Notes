@@ -2,13 +2,11 @@
 
 **definition**
 
-$\psi\ n$ takes in a [[natural]] number $n$ and returns the [[multiset]] containing all [[natural]] prime [[factor]]s of $n$.
+$\psi$ is a [[function]] that takes in a [[natural]] number $n$ and returns the unique [[multiset]] of prime [[factor]]s of $n$
 
 **properties**
 
 $\,\mid \psi\ n = n$
-
-$\psi\ n\ 0 = \psi\ n\ 1 = 0$
 
 $\psi\ ab = \psi\ a : \psi\ b$
 
@@ -25,6 +23,8 @@ $n = 1$ if and only if $\#\ \psi\ n = 0$, or $\psi\ n = (\ )$
 the _greatest common divisor_ of $a$ and $b$ is $\,\mid (\psi\ a\ \bot\ \psi\ b)$
 
 the _least common multiple_ of $a$ and $b$ is $\,\mid (\psi\ a\ \top\ \psi\ b)$
+
+by the [[fundamental theorem of arithmetic]], the [[psi function in mat2348]] is a [[function#bijective function]]
 
 **equivalences**
 

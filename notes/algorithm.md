@@ -8,7 +8,9 @@
 
 [[iteration]]
 
-divide and conquer #todo
+[[divide and conquer]]
+
+[[dynamic programming]]
 
 > **procedure** _turning [[recursion]] into [[iteration]]_
 >
@@ -23,7 +25,7 @@ divide and conquer #todo
 
 [[shor's algorithm]]
 
-[[row reduction]] through Gaussian Elimination
+[[row reduction#gaussian elimination]]
 
 [[hash]] [[function]]s
 

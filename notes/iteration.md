@@ -4,4 +4,4 @@
 
 **see**
 
-the [[reduce function]]
+[[reduce function]]

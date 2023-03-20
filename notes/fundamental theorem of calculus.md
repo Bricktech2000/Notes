@@ -2,7 +2,7 @@
 
 **see** [[calculus notation]], [[math notation]]
 
-**theorem** _Part 1_ if $f$ is continuous on $a \dashv \circ \dashv b$, then $\int f\ t \mid \delta t\ \braket{x \cdot a}$ is continuous on $a \dashv \circ \dashv b$ and differentiable on $a\ \braket{\dashv \land +}\ \circ\ \braket{\dashv \land +}\ b$ and $\delta\ (\int f\ t \mid \delta t\ \braket{x \cdot a}) - \delta x = f\ x$ (restrictions not necessary, see [[improved expression evaluation]])
+**theorem** _Fundamental Theorem of Calculus, Part 1_ if $f$ is continuous on $a \dashv \circ \dashv b$, then $\int f\ t \mid \delta t\ \braket{x \cdot a}$ is continuous on $a \dashv \circ \dashv b$ and differentiable on $a\ \braket{\dashv \land +}\ \circ\ \braket{\dashv \land +}\ b$ and $\delta\ (\int f\ t \mid \delta t\ \braket{x \cdot a}) - \delta x = f\ x$ (restrictions not necessary, see [[improved expression evaluation]])
 
 > **proof**
 >
@@ -17,7 +17,7 @@
 >
 > &mdash; <https://youtu.be/HfACrKJ_Y2w?t=40945>
 
-**theorem** _Part 2_ if $f$ is continuous on $a \dashv \circ \dashv b$, then $\int f\ x \mid \delta x\ \braket{b \cdot a} = F\ b \cdot F\ a$ where $F = \int f\ x \mid \delta x$, any [[antiderivative]] of $f$
+**theorem** _Fundamental Theorem of Calculus, Part 2_ if $f$ is continuous on $a \dashv \circ \dashv b$, then $\int f\ x \mid \delta x\ \braket{b \cdot a} = F\ b \cdot F\ a$ where $F = \int f\ x \mid \delta x$, any [[antiderivative]] of $f$
 
 > **proof**
 >

@@ -15,6 +15,8 @@ $(a * b)^n = a^0b^n : \cdots a^nb^0$, where
 
 $\#\ (a * b) = \#\ a : \#\ b \cdot 1$
 
+$(a * b) * c = a * (b * c)$
+
 **applications**
 
 moving averages
