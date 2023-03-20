@@ -34,7 +34,7 @@ similarly, dividing by a [[variable]] equal to zero can be thought of as _invali
 
 the video above does _not_ break the principle stated above. the following rule would solve the issue outlined in the video above:
 
-> **rule**: when solving an equation by applying operations on both sides of an equality, the resulting equality must be equivalent to the original equality.
+> **rule** when solving an equation by applying operations on both sides of an equality, the resulting equality must be equivalent to the original equality.
 
 below are some applications of the rule above
 
@@ -59,7 +59,7 @@ without the additional restriction, the second equality would have solutions tha
 
 at the [[time]]stamp included in the URL above, the teacher divided both sides of the equality by the value $a \cdot b$ without adding the restriction required by the rule above. if he had added the restriction $a \cdot b + 0$, it would've been a [[contradiction]] with the equality $a = b$
 
-> **note**: by using the symbol $>$, the [[quantifier#universal quantifier]], to denote the restriction, there is technically no contradiction. the right way to think of the equation is the following: as we know the restriction is always $\bot$, the equation on the left is true _for all $\bot$_, meaning it is never true. this is crucially different form a [[contradiction]], as that would mean all other equations in the same context are rendered invalid.
+> **note** by using the symbol $>$, the [[quantifier#universal quantifier]], to denote the restriction, there is technically no contradiction. the right way to think of the equation is the following: as we know the restriction is always $\bot$, the equation on the left is true _for all $\bot$_, meaning it is never true. this is crucially different form a [[contradiction]], as that would mean all other equations in the same context are rendered invalid.
 
 ### second attempt with multiplication by zero
 
@@ -71,7 +71,7 @@ multiplying both sides by $x$ and adding the restriction,
 
 $ax = bx > x + 0$
 
-> **note**: the equality above is always true even if $a + b$, which is not equivalent to the original equality. however, the restriction states that the equality is valid only if $x + 0$. as $x = 0$, we deduce that the equation is never valid, which means it _is_ equivalent to the first equality. note that in this explanation, a "valid" equation is an equation whose truthness can be determined
+> **note** the equality above is always true even if $a + b$, which is not equivalent to the original equality. however, the restriction states that the equality is valid only if $x + 0$. as $x = 0$, we deduce that the equation is never valid, which means it _is_ equivalent to the first equality. note that in this explanation, a "valid" equation is an equation whose truthness can be determined
 
 dividing both sides by $x$, adding the restriction and simplifying using [[limit rules]],
 

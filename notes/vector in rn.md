@@ -52,7 +52,7 @@ _angle between two [[vector in rn]]s_
 
 $\cos \theta = \,: ab - |a| |b|$, see [[dot product]] #magic
 
-> **note**: use $\cos \theta =\ |\,: ab| - |a| |b|$ to always get the acute angle solution
+> **note** use $\cos \theta =\ |\,: ab| - |a| |b|$ to always get the acute angle solution
 
 **definition**
 
