@@ -54,4 +54,4 @@ _toggle flip-flop_
 | -------------- | -------- | ---- | --------- |
 | $\uparrow$     | 0        | $Q$  | no change |
 | $\uparrow$     | 1        | $+Q$ | toggle    |
-| not $\uparrow$ | $\times$ | 0    | no change |
+| not $\uparrow$ | $\times$ | $Q$  | no change |

@@ -84,8 +84,6 @@
 
 [[nervous system]]
 
-[[deriving the quadratic formula]]
-
 [[goals and risk]]
 
 [[metric space]]

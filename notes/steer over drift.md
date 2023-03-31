@@ -10,7 +10,9 @@ the majority of people drift through life; that is, they do not have plans, do n
 > - [[intention]]ality
 > - restoring [[integrity]]
 
-> **note** I think I might've been in the process of reinventing part of stoicism
+> **note**
+>
+> I think I might've been in the process of reinventing part of stoicism
 >
 > - the core of stoicism is acceptance and indifference
 > - we don't have much control over what happens to us, we do have control of how it affects us; this is known as the _dichotomy of control_
@@ -25,5 +27,7 @@ the majority of people drift through life; that is, they do not have plans, do n
 ## &mdash;
 
 &mdash; "life pushing you around" &mdash; Rich Dad Poor Dad
+
+&mdash; <https://youtu.be/sL5XWO2Z-yw?t=1260>
 
 &mdash; me

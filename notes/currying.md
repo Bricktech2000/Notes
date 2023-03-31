@@ -6,9 +6,9 @@
 
 **examples**
 
-in [[conventional math notation]], we define [[function]]s as $f(x , y) = x + 2y$ and call them using $f(x, y)$
+in [[conventional math notation]], we define [[function]]s with $f(x , y) = x + 2y$ and call them using $f(x, y)$
 
-with [[currying]] in [[conventional math notation]], we define [[function]]s as $f = x \to y \to x + 2y$ and call them using $f(x)(y)$
+with [[currying]] in [[conventional math notation]], we define [[function]]s with $f = x \to y \to x + 2y$ and call them using $f(x)(y)$
 
 in my [[math notation]], [[function]]s can optionally be defined using [[currying]]
 

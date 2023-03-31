@@ -15,7 +15,7 @@ _the OG with UB_
 
 **cons**
 
-- memory unsafety (use after free, double free, memory leaks, buffer overreads and overwrites, [[null]] pointers, data races...)
+- memory unsafety (use-after-free, double-free, memory leaks, buffer overreads and overwrites, [[null]] pointers, data races...)
 
 ## array indexing quirk
 
@@ -26,7 +26,7 @@ int main(void) {
   short a[4] = {1, 2, 3, 4};
 
   std::cout << a[3] << std::endl; // 4
-  std::cout << 3 [a] << std::endl; // 4
+  std::cout << 3[a] << std::endl; // 4
   std::cout << *(a + 3) << std::endl; // 4
   std::cout << *(3 + a) << std::endl; // 4
 }
@@ -34,17 +34,23 @@ int main(void) {
 
 ## portability
 
+&mdash; <https://www.reddit.com/r/rust/comments/jf66eu/why_are_there_no_increment_and_decrement/>
+
 ### implementation-defined behavior
 
 **definition** _implementation-defined behavior_ is program behavior that is not specified by the [[c]] standard and that may offer different results among implementations [...]. &mdash; Effective C
 
 > **example** the number of bits in a byte
 
+a compiler must choose a single behavior, document it, and implement it consistently
+
 ### unspecified behavior
 
 **definition** _unspecified behavior_ is program behavior for which the standard provides two or more options and imposes no requirements on which option is chosen at any instance &mdash; Effective C
 
 > **example** function parameter storage layout
+
+a compiler must compile the program meaningfully but may choose a different behavior each time it encounters a construct
 
 ### undefined behavior
 
@@ -54,11 +60,12 @@ int main(void) {
 
 > **note** classifying behavior as _undefined_ is **intentional** and **considered**; it isn't an error or omission in the [[c]] standard
 
-upon encountering undefined behavior, a compiler may:
+a compiler may:
 
 - ignore undefined behavior completely, giving unpredictable results
 - behave in a documented manner characteristic of the environment (with or without issuing a diagnostic)
 - terminate a translation or execution (with issuing a diagnostic)
+- produce arbitrary output (anything from a corrupted binary to a program that formats the hard drive)
 
 undefined behavior is a tool for the compiler to optimize programs even further
 
