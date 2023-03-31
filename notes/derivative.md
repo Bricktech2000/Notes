@@ -2,10 +2,6 @@
 
 **see** [[math notation]], [[derivative rules]], [[function]], [[calculus notation]]
 
-**definition** _in [[conventional math notation]]_
-
-$\frac{df}{dx} = f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$
-
 **definition** _in my [[math notation]]_
 
 $\delta\ f\ x - \delta x = f\ (x : h) \cdot f\ x - h\ \braket{h \rightarrow 0} = f\ x \cdot f\ a - x \cdot a\ \braket{x \rightarrow a}$

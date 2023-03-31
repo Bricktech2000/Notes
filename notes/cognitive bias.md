@@ -39,3 +39,5 @@ _a systematic pattern of deviation from norm or rationality in judgment_
 [[zeigarnik effect]]
 
 [[exponential growth]]
+
+[[circular reasoning]]

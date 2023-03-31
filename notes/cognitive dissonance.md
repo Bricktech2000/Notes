@@ -2,7 +2,7 @@
 
 _incompatible beliefs_
 
-**definition** _cognitive dissonance_ is a mental conflict that occurs when your beliefs don't line up with your actions. It's an uncomfortable state of mind when someone has contradictory values, attitudes, or perspectives about the same thing &mdash; Psycom.net
+**definition** _cognitive dissonance_ is a mental conflict that occurs when your beliefs don't line up with your actions. it's an uncomfortable state of mind when someone has contradictory values, attitudes, or perspectives about the same thing &mdash; Psycom.net
 
 > **examples**
 >

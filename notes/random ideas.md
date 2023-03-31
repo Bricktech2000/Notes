@@ -46,3 +46,9 @@ a service that assigns a UTF-256 codepoint to any image uploaded to it &mdash; i
 a reaction channel with higher production value than reaction channels. playing part of a video, pausing, talking about it, then **cutting** to the next noteworthy part of the video and repeating. this would make it very easy to produce large amounts of content without needing much preparation, all the while only stealing noteworthy parts of other videos
 
 > **example** _a video of the style mentioned above_ <https://youtu.be/VfNdps0daF8>
+
+## Explore -> Learn -> Share
+
+creating free value is a great way of growing an audience. it is then possible to monitize that audience by creating a course or merchandise by the small fraction of people willing to pay for it
+
+an interesting idea for creating free value is to start sharing what you learn every day. just continue exploring and learning, but spend some time actually sharing that. see <https://youtu.be/sL5XWO2Z-yw>
