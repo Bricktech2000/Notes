@@ -1,7 +1,5 @@
 # Inheritance
 
-_Super and Sub Class_
-
 used for backlinks
 
 **definition** a _inheritance hierarchy_ is a [[tree]] of [[class]]es that shows [[inheritance]] relationships between those [[class]]es

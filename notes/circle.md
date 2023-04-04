@@ -2,6 +2,6 @@
 
 _the circumference of a [[disk]]_
 
-**see** [[math notation]]
+**see** [[math notation]], [[conic section]]
 
-$x2 : y2 = r2$ or equivalently $x2 : y2 - r2 = 1$
+$[x \cdot h]2 : [y \cdot k]2 - r2 = 1$ or equivalently $[x \cdot h]2 : [y \cdot k]2 = r2$
