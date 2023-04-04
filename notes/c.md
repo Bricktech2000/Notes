@@ -19,16 +19,16 @@ _the OG with UB_
 
 ## array indexing quirk
 
-```Cpp
-#include <iostream>
+```C
+#include <stdio.h>
 
 int main(void) {
   short a[4] = {1, 2, 3, 4};
 
-  std::cout << a[3] << std::endl; // 4
-  std::cout << 3[a] << std::endl; // 4
-  std::cout << *(a + 3) << std::endl; // 4
-  std::cout << *(3 + a) << std::endl; // 4
+  printf("%d", a[3]); // 4
+  printf("%d", 3[a]); // 4
+  prinf("%d", *(a + 3)); // 4
+  printf("%d", *(3 + a)); // 4
 }
 ```
 
@@ -179,7 +179,7 @@ enum, struct, union, typedef
 > #define false 0
 > ```
 
-> **note** `void f();` declares a function that takes any number of arguments or any type. `void f(void);` declares a function that takes no arguments. the former is to be avoided
+> **note** until C23, `void f();` declares a function that takes any number of arguments of any type. `void f(void);` declares a function that takes no arguments. the former is to be avoided &mdash; <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++>
 
 > **note**
 >

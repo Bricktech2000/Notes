@@ -87,7 +87,7 @@ in a [[java]] [[class]], the order in which properties and methods are defined i
 
 **see** [[generic]]s
 
-**definition** in [[java]], _generics_ are almost identical to `template`s in C++. behind the scenes, they seem to replace all instances of the generic [[type]] by `Object`, but they still allow for compile-time [[type]] checks to avoid runtime errors &mdash; <https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood>. see [[java is a terrible language]]
+**definition** in [[java]], _generics_ are almost identical to `template`s in [[c++]]. behind the scenes, they seem to replace all instances of the generic [[type]] by `Object`, but they still allow for compile-time [[type]] checks to avoid runtime errors &mdash; <https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood>. see [[java is a terrible language]]
 
 ## other definitions and properties
 

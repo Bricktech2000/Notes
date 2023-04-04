@@ -8,4 +8,4 @@
 
 [[parabola]]
 
-> **note** [[circle]]s are considered to be a special case of [[ellipse]]s
+> **note** the [[circle]] is considered to be a special case the [[ellipse]]

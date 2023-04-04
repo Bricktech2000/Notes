@@ -34,11 +34,12 @@ graph TD
 
 1. Visual Basic Script (and Batch)
 2. [[javascript]] (and HTML and CSS)
-3. [[c]] (and C++)
+3. [[c++]]
 4. [[python]]
 5. [[rust]]
 6. [[java]] (forced in university)
-7. [[solidity]]
+7. [[solidity]] (familiar)
+8. [[c]]
 
 [[esoteric programming language idea]]
 

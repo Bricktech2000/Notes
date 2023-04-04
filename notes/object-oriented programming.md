@@ -2,8 +2,6 @@
 
 **see** [[object]], [[class]]
 
-the goal of [[object-oriented programming]] is to build [[object]]s based on their real-world properties
-
 **properties**
 
 [[object-oriented programming]] is both _object-oriented_ and _imperative_, see [[programming paradigm]]
@@ -26,38 +24,26 @@ the goal of [[object-oriented programming]] is to build [[object]]s based on the
 
 ## Pillars
 
-&mdash; Google and Grepper
+&mdash; <https://rodrigodeoliveira.netlify.app/the-four-pillars-of-oop>
 
-[[abstraction]]
+> **definition** _[[abstraction]]_ defines the essential characteristics of an [[object]]
 
-[[encapsulation]]
+> **definition** _[[encapsulation]]_ hides the details of the implementation of an [[object]]
 
-[[inheritance]]
+> **definition** _[[inheritance]]_ allows the creation of new classes from existing [[class]]es
 
-[[polymorphism]]
+> **definition** _[[polymorphism]]_ allows the same method to be used on different [[object]]s
 
 ## Principles
 
 &mdash; Google and Grepper
 
-### Single Responsibility Principle (SRP)
+> **definition** _Single Responsibility Principle_ every module, [[class]] or [[function]] in a computer program should have responsibility for a single part of that program's functionality
 
-> every module, [[class]] or [[function]] in a computer program should have responsibility for a single part of that program's functionality
+> **definition** _Open-Closed Principle_ software entities ([[class]]es, modules, [[function]]s, etc.) should be open for extension but closed for modification
 
-### Open-Closed Principle (OCP)
+> **definition** _Liskov Substitution Principle_ objects of a super[[class]] shall be replaceable with objects of its sub[[class]]es without breaking the application. also see <https://youtu.be/IbjoA5xVUq0?t=620>
 
-> software entities ([[class]]es, modules, [[function]]s, etc.) should be open for extension but closed for modification
+> **definition** _Interface Segregation Principle_ Clients should not be forced to depend upon [[interface]]s that they do not use
 
-### Liskov Substitution Principle (LSP)
-
-<https://youtu.be/IbjoA5xVUq0?t=620> #think
-
-> objects of a super[[class]] shall be replaceable with objects of its sub[[class]]es without breaking the application
-
-### Interface Segregation Principle (ISP)
-
-> Clients should not be forced to depend upon [[interface]]s that they do not use
-
-### Dependency Inversion Principle (DIP)
-
-> high-level modules should not depend on low-level modules; both should depend on abstractions
+> **definition** _Dependency Inversion Principle_ high-level modules should not depend on low-level modules; both should depend on abstractions

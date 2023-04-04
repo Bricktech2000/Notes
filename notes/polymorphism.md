@@ -1,7 +1,9 @@
 # Polymorphism
 
-_Static - Overloading & Dynamic - Overriding_
-
-**see** [[rank polymorphism]]
+> **examples**
+>
+> - [[rank polymorphism]]
+> - operator overloading
+> - [[object-oriented programming]] runtime binding
 
 used for backlinks

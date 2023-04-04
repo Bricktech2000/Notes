@@ -1,5 +1,5 @@
 # Hyperbola
 
-**see** [[math notation]], [[circle]]
+**see** [[math notation]], [[conic section]]
 
-$x2 \cdot y2 = r2$ or equivalently $x2 \cdot y2 - r2 = 1$
+$[x \cdot h]2\text-a2 \cdot [y \cdot k]2\text-b2 = 1$
