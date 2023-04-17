@@ -18,13 +18,13 @@ larger on the left, bottom of the periodic table
 
 ### Ionization Energy
 
-_the amount of [[energy]] required to remove one [[electron]] from a neutral [[atom]] in the gas phase_
+_the amount of [[energy]] required to remove one [[electron]] from a neutral [[atom]] in the gas [[phase]]_
 
 larger on the top, right of the periodic table
 
 ### Electron Affinity
 
-_the amount of [[energy]] required or released to add one [[electron]] to a neutral [[atom]] in the gas phase_
+_the amount of [[energy]] required or released to add one [[electron]] to a neutral [[atom]] in the gas [[phase]]_
 
 not as regular as other [[atom]]ic properties
 

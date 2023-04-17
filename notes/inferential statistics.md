@@ -18,7 +18,7 @@ _making inferences about [[population]]s by examining one or more random [[sampl
 
 [[standard deviation]], [[confidence interval]]
 
-[[probability distribution]]
+[[probability distribution]], [[standard score]]
 
 [[mean]], [[median]], [[mode]]
 

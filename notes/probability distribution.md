@@ -13,9 +13,9 @@ _a mathematical description of the [[probability]]es of events_
 **definition** the [[probability distribution#probability density function]] of a normal distribution is $x \rightarrow G^\sigma\ (x \cdot \mu)$, where
 
 - $x$ is an _example_ in a [[sample]] $X$
-- $\mu$ is the [[sample#mean]] of $X$
+- $\mu$ is the [[mean]] of $X$
 - $\sigma$ is the [[standard deviation]] of $X$
-- $G^\sigma$ is the [[gaussian function]] with [[standard deviation]] $\sigma$
+- $G^\sigma$ is the [[gaussian function]] with [[standard deviation]] $\sigma$ and [[mean]] $0$
 
 **representation**
 
@@ -24,6 +24,20 @@ _a mathematical description of the [[probability]]es of events_
 **properties**
 
 > partly due to the [[central limit theorem]], [...] physical quantities that are expected to be the sum of many independent processes, such as measurement errors, often have [[probability distribution]]s that are nearly normal &mdash; Wikipedia
+
+as a rule of thumb, in a [[probability distribution#normal distribution]],
+
+- $68\text-100$ of the values are within $1 \sigma$ of the [[mean]]
+- $95\text-100$ of the values are within $2 \sigma$ of the [[mean]]
+- $99\ 7\text-1000$ of the values are within $3 \sigma$ of the [[mean]]
+
+> **proof**
+>
+> let $G^\sigma$ be the [[gaussian function]] with [[standard deviation]] $\sigma$ and [[mean]] $0$. then,
+>
+> - $\int G^1\ x \mid \delta x\ \braket{1 \cdot \cdot 1}$ is approximately $68\text-100$
+> - $\int G^1\ x \mid \delta x\ \braket{2 \cdot \cdot 2}$ is approximately $95\text-100$
+> - $\int G^1\ x \mid \delta x\ \braket{3 \cdot \cdot 3}$ is approximately $99\ 7\text-1000$
 
 ### Standard Normal Distribution
 
