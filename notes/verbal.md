@@ -8,6 +8,8 @@
 
 _an association that any given word or phrase carries_
 
+**see** [[nonverbal#connotation]]
+
 > **note** this interpretation of _connotation_ was made up by me
 
 > **examples**
