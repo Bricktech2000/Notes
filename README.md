@@ -34,12 +34,12 @@ For conventions on writing notes, see the [conventions](https://notes.emilien.ca
 
 ## Publishing
 
-The publishing workflow for my conceptual notes requires [Obsidian Export](https://github.com/zoni/obsidian-export) and [mkdocs](https://www.mkdocs.org/).
+The publishing workflow for my conceptual notes requires [mkdocs](https://www.mkdocs.org/).
 
 Once installed, run the following commands:
 
 ```bash
 rm mkdocs/*.md; rm mkdocs/*.png; rm mkdocs/*.jpg; rm mkdocs/*.gif
-obsidian-export notes mkdocs && mkdocs build
+python3 mkdocs.py notes mkdocs && mkdocs build
 python3 -m http.server --directory site
 ```
