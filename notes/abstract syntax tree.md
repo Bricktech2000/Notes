@@ -23,7 +23,7 @@ graph TD
 
 **representation**
 
-`7 + 3 * 4` can be compiled to the following [[JavaScript]] representation:
+`7 + 3 * 4` can be compiled to the following [[javascript]] representation:
 
 ```javascript
 ({

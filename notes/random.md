@@ -403,3 +403,41 @@ $\braket\rightarrow$
 $\braket\mid\ x\ y = x \mid y$
 
 $\braket: 1\ 2 = 1 : 2$
+
+---
+
+$\lfloor x \rfloor : \lfloor \cdot x \rfloor = 2$
+
+$\lfloor x \rfloor \braket{\smash: \lor \cdot}\ \iota\lfloor x \rfloor = 2$
+
+$1 \braket{\smash: \lor \cdot}\ \iota \mid \lfloor x \rfloor = 2$
+
+$\lfloor x \rfloor = 2 - 1 \braket{\smash: \lor \cdot}\ \iota$
+
+$x = [2 - 1 : \iota]2 \lor x = [2 - 1 \cdot \iota]2$
+
+$x = 4 - 2\iota \lor x = \cdot 4 - 2\iota$
+
+$x = \braket{\smash: \lor \cdot} 2\iota$
+
+---
+
+$\lceil x \rceil : \lceil \cdot x \rceil = 0$
+
+$\lceil \cdot x2 \rceil = 0$
+
+$1 = \cdot x2$
+
+$x = \braket{\smash: \lor \cdot} \iota$
+
+---
+
+$[x] : [\cdot x] = 0$
+
+$[x] = \cdot [\cdot x]$
+
+$[2x] = \cdot 1$
+
+$2x = \iota \mid \text-2\tau : n\tau \land \mathbb N n$
+
+$x = \text-4\iota \mid \tau : 2n\tau \land \mathbb N n$
