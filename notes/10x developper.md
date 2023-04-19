@@ -8,7 +8,9 @@ developers who actually outproduce other developers by a factor of $10$ don't re
 
 large companies are often looking for [[10x developper]]s
 
-## similarities with [[intellectual giftedness]]
+## similarities with intellectual giftedness
+
+**see** [[intellectual giftedness]]
 
 - have very developed problem-solving skills
 - come up with unique or different solutions that can benefit others

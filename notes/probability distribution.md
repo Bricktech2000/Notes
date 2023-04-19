@@ -43,7 +43,7 @@ as a rule of thumb, in a [[probability distribution#normal distribution]],
 
 **definition** the [[probability distribution#probability density function]] of a standard normal distribution is $G^1$, where
 
-- $G^1$ is the [[gaussian function]] with [[standard deviation]] $1$
+- $G^1$ is the [[gaussian function]] with [[standard deviation]] $1$ and [[mean]] $0$
 
 **definition** the standard normal distribution is the normal distribution with $\mu = 0$ and $\sigma = 1$
 
