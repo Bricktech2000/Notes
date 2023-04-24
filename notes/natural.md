@@ -8,10 +8,10 @@ _the [[set]] of [[natural]] numbers_
 
 _a whole, non-negative [[number]]_
 
-> **note** $\mathbb N 0$
+> **note** **`NN 0`**
 
-> **note** some definitions exclude $0$ from the [[set]] of [[natural]] [[number]]s &mdash; <https://en.wikipedia.org/wiki/Natural_number>
+> **note** some definitions exclude **`0`** from the [[set]] of [[natural]] [[number]]s &mdash; <https://en.wikipedia.org/wiki/Natural_number>
 
 **properties**
 
-$\mathbb N < \mathbb Z$
+**`NN < ZZ`**

@@ -6,19 +6,19 @@
 
 **see** [[math notation]], [[algebraic structure]], [[binary exponentiation]]
 
-it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] under [an [[operator]]]_. for example, _[[natural]]s with $0$ form a [[monoid]] under addition_
+it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] under [an [[operator]]]_. for example, _[[natural]]s with **`0`** form a [[monoid]] under addition_
 
 **definition** a [[monoid]] is a finite or infinite [[set]] equipped with a closed associative binary operation and an identity element &mdash; Wikipedia
 
 **definition**
 
-let a binary [[operator]] $\braket*$ on a [[set]] $S$. for them to form a [[monoid]], the following [[axiom]]s must be satisfied for all $S\ a \land S\ b \land S\ c$:
+let a binary [[operator]] **`{*}`** on a [[set]] **`S`**. for them to form a [[monoid]], the following [[axiom]]s must be satisfied for all **`S a /\ S b /\ S c`**:
 
-_associativity_ $(a * b) * c = a * (b * c)$
+_associativity_ **`(a * b) * c = a * (b * c)`**
 
-_identity element_ $a * I = a \land S\ I$
+_identity element_ **`a * I = a /\ S I`**
 
-_closure_ $S\ (a * b)$
+_closure_ **`S (a * b)`**
 
 &mdash; Wikipedia
 
@@ -26,7 +26,7 @@ _closure_ $S\ (a * b)$
 
 **applications**
 
-_closure_ allows the binary operation to be used on a list of elements of the set $S$. this is known as a `reduce` operation in [[functional programming]]. as examples, `[1, 2, 3].reduce(+) = 1 + 2 + 3 = 6` and `["a", "b", "c"].reduce(&) = "a" & "b" & "c" = "abc"`.
+_closure_ allows the binary operation to be used on a list of elements of the set **`S`**. this is known as a `reduce` operation in [[functional programming]]. as examples, `[1, 2, 3].reduce(+) = 1 + 2 + 3 = 6` and `["a", "b", "c"].reduce(&) = "a" & "b" & "c" = "abc"`.
 
 _associativity_ allows for [[divide and conquer]] [[algorithm]]s
 

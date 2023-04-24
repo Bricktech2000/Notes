@@ -4,9 +4,9 @@
 
 **see** [[superstring]], [[subsequence]], [[math notation]]
 
-**definition** a _substring_ of a [[sequence]] $a$ is a [[subsequence]] of consecutive elements of $a$
+**definition** a _substring_ of a [[sequence]] **`a`** is a [[subsequence]] of consecutive elements of **`a`**
 
-> **example** consider the [[string]] `"hello world"`. then, `"hell"` is a [[substring]], and `"lord"` a [[subsequence]] but not a [[substring]]
+> **example** consider the [[string]] **`""hello world""`**. then, **`""hell""`** is a [[substring]], and **`""lord""`** a [[subsequence]] but not a [[substring]]
 
 the [[substring]] is a refinement of the [[subsequence]]
 

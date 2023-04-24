@@ -25,9 +25,9 @@ there appears to be a standard way to build contexts in which we do [[mathematic
 
 [[function]]s and [[type]]s can be viewed as morphisms and objects in a [[category theory]] context
 
-the [[empty]] [[set]] corresponds to the [[type]] `Void` in Haskell, which corresponds to $\bot$ in [[logic]] from a [[category theory]] perspective. when looking at propositions as types, [[function]]s are [[proof]]s. $\bot$ cannot be proven, similarly to how a [[function]] that takes `Void` as a parameter cannot be called
+the [[empty]] [[set]] corresponds to the [[type]] `Void` in Haskell, which corresponds to **`__`** in [[logic]] from a [[category theory]] perspective. when looking at propositions as types, [[function]]s are [[proof]]s. **`__`** cannot be proven, similarly to how a [[function]] that takes `Void` as a parameter cannot be called
 
-the singleton [[set]] corresponds to the [[type]] `()` (or `Unit`) in Haskell, which corresponds to $\top$ in [[logic]] from a [[category theory]] perspective. when looking at propositions as types, [[function]]s are [[proof]]s. $\top$ can be proven, similarly to how a [[function]] that takes `Unit` as a parameter can be called
+the singleton [[set]] corresponds to the [[type]] `()` (or `Unit`) in Haskell, which corresponds to **`^^`** in [[logic]] from a [[category theory]] perspective. when looking at propositions as types, [[function]]s are [[proof]]s. **`^^`** can be proven, similarly to how a [[function]] that takes `Unit` as a parameter can be called
 
 a [[relation]] being a [[relation#reflexive relation]] is equivalent to the presence of identity morphisms in [[category theory]]
 
@@ -63,17 +63,17 @@ the _curry-howard-lambek isomorphism_ states that [[logic]], [[type theory]] and
 
 [[category#coproduct]]s in the [[category]] of [[set]]s are [[set#disjoint union]]s &mdash; Terramorpha
 
-[[category#product]]s in the [[category]] $\mathbb R, \dashv$ are the minimum of two numbers &mdash; Terramorpha
+[[category#product]]s in the [[category]] **`RR, -|`** are the minimum of two numbers &mdash; Terramorpha
 
-[[category#coproduct]]s in the [[category]] $\mathbb R, \dashv$ are the maximum of two numbers &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] **`RR, -|`** are the maximum of two numbers &mdash; Terramorpha
 
-[[category#product]]s in the [[category]] $\mathbb N, \text{divides}$ are the GCD of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
+[[category#product]]s in the [[category]] **`NN, "divides"`** are the GCD of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
 
-[[category#coproduct]]s in the [[category]] $\mathbb N, \text{divides}$ are the LCM of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] **`NN, "divides"`** are the LCM of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
 
-[[category#product]]s in the [[category]] $\braket{\ }, a\ b \rightarrow \,\land\ a \dashv b$ are the intersection of two sets &mdash; Terramorpha
+[[category#product]]s in the [[category]] **`{{ }}, a b -> /\ a -| b`** are the intersection of two sets &mdash; Terramorpha
 
-[[category#coproduct]]s in the [[category]] $\braket{\ }, a\ b \rightarrow \,\land\ a \dashv b$ are the union of two sets &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] **`{{ }}, a b -> /\ a -| b`** are the union of two sets &mdash; Terramorpha
 
 a category of ([[vector space]]s, linear maps) is a thing. #todo look up linear maps
 

@@ -4,6 +4,6 @@
 
 > **note** an ionic formula is not a [[molecule]]; rather, it is the simplified ratio between its two components
 
-**representation** _the $\text{NaCl}$ ionic compound_
+**representation** _the **`"Na""Cl"`** ionic compound_
 
 ![[2022-02-26-01-17-40.png]]

@@ -2,15 +2,15 @@
 
 **definition**
 
-$y = a \cosh x\text-a$, where
+**`y = a"cosh" x-a`**, where
 
-- $(x, y)$ is a point on the [[catenary]]
-- $\cosh$ is a [[hyperbolic function]]
-- $a$ is the scaling factor
+- **`(x, y)`** is a point on the [[catenary]]
+- **`"cosh"`** is a [[hyperbolic function]]
+- **`a`** is the scaling factor
 
 **properties**
 
-all [[catenary]] [[curve]]s are [[similar]] as changing the parameter $a$ is equivalent to a uniform scaling of the [[curve]]
+all [[catenary]] [[curve]]s are [[similar]] as changing the parameter **`a`** is equivalent to a uniform scaling of the [[curve]]
 
 [[catenary]]es are the perfect [[curve]] for a [[line]] segment to roll on
 

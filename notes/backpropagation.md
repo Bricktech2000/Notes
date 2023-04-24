@@ -12,65 +12,65 @@ _algorithm to compute the [[gradient]] of a [[neural network]] efficiently_
 
 &mdash; me
 
-let $g'\ z = x \rightarrow \delta\ g\ (z\ x) - \delta x =  \begin{bmatrix} (\delta\ g\ z^0 - \delta z^0) \\\ \vdots \\\ (\delta\ g\ z^n - \delta z^n) \end{bmatrix}$
+let **`g_* z = x -> \d g z^x -- \d x`**
 
 ## computing changes in loss
 
-$\delta \mathcal L - \delta a_y^y = (\delta \mathcal L - \delta a_y^y)$, where
+**`\d L -- \d a_y^y = (\d L -- \d a_y^y )`**, where
 
-- $\mathcal L$ is the [[loss function]]
-- $a_y$ is the last layer of the network
+- **`L`** is the [[loss function]]
+- **`a_y`** is the last layer of the network
 
-to maximize $\Delta \mathcal L$, $\Delta a_y^y = (\delta \mathcal L - \delta a_y^y)$, see [[gradient]]
+to maximize **`\D L`**, **`\D a_y^y = (\d L -- \d a_y^y )`**, see [[gradient]]
 
-written differently, $\Delta a_y = (\delta \mathcal L - \delta a_y)$
+written differently, **`\D a_y = (\d L -- \d a_y )`**
 
 ## computing changes in weight
 
-$\delta a_j^j - \delta w_{k \to j}^{j, k} = \delta z_j^j - \delta w_{k \to j}^{j, k} \mid \delta a_j^j - \delta z_j^j$
+**`\d a_j^j -- \d w_k->j^j,k = \d z_j^j -- \d w_k->j^j,k | \d a_j^j -- \d z_j^j`**
 
 computing the [[derivative]]s using the chain [[derivative rules]],
 
-$\delta z_j^j - \delta w_{k \to j}^{j, k} = a_k^k$, see [[forward propagation]]
+**`\d z_j^j -- \d w_k->j^j,k = a_k^k`**, see [[forward propagation]]
 
-$\delta a_j^j - \delta z_j^j = (\delta\ g\ z_j^j - \delta z_j^j)$, where $g$ is the [[activation function]]
+**`\d a_j^j -- \d z_j^j = (\d g z_j^j -- \d z_j^j )`**, where **`g`** is the [[activation function]]
 
-therefore, $\delta a_j^j - \delta w_{k \to j}^{j, k} = a_k^k \mid (\delta\ g\ z_j^j - \delta z_j^j)$
+therefore, **`\d a_j^j -- \d w_k->j^j,k = a_k^k | (\d g z_j^j -- \d z_j^j )`**
 
-to maximize $\Delta L$, $\Delta w_{k \to j}^{j, k} = a_k^k \mid (\delta\ g\ z_j^j - \delta z_j^j) \mid \Delta a_j^j$, see [[gradient]]
+to maximize **`\D L`**, **`\D w_k->j^j,k = a_k^k | (\d g z_j^j -- \d z_j^j ) | \D a_j^j`**, see [[gradient]]
 
-written using an [[outer product]], $\Delta w_{k \to j} = (\Delta a_j \mid g'\ z_j)\ \circ \mid a_k\ \circ$, see [[hadamard product]], [[outer product]]
+written using an [[outer product]], **`\D w_k->j = (\D a_j | g_* z_j ) * | a_k *`**, see [[hadamard product]], [[outer product]]
 
-written using [[matrix#multiplication]], $\Delta w_{k \to j} = (\Delta a_j \mid g'\ z_j) \mid \rho\ a_k$, see [[hadamard product]], [[matrix#multiplication]] #todo mm
+written using [[matrix#multiplication]], **`\D w_k->j = (\D a_j | g_* z_j) | \r a_k`**, see [[hadamard product]], [[matrix#multiplication]] #todo mm
 
 ## computing changes in activation
 
-$\delta a_j^j - \delta a_k^k = \delta z_j^j - \delta a_k^k \mid \delta a_j^j - \delta z_j^j$
+**`\d a_j^j -- \d a_k^k = \d z_j^j -- \d a_k^k | \d a_j^j -- \d z_j^j`**
 
 computing the [[derivative]]s using the chain [[derivative rules]],
 
-$\delta z_j^j - \delta a_k^k = w_{k \to j}^{j, k}$, see [[forward propagation]]
+**`\d z_j^j -- \d a_k^k = w_k->j^j,k`**, see [[forward propagation]]
 
-$\delta a_j^j - \delta z_j^j = (\delta\ g z_j^j - \delta z_j^j)$, where $g$ is the [[activation function]]
+**`\d a_j^j -- \d z_j^j = (\d g z_j^j -- \d z_j^j )`**, where **`g`** is the [[activation function]]
 
-therefore, $\delta a_j^j - \delta a_k^k = w_{k \to j}^{j, k} \mid (\delta\ g\ z_j^j - \delta z_j^j)$
+therefore, **`\d a_j^j -- \d a_k^k = w_k->j^j,k | (\d g z_j^j -- \d z_j^j )`**
 
-to maximize $\Delta L$, $\Delta a_k^k = w_{k \to j}^{j, k} \mid (\delta\ g\ z_j^j - \delta z_j^j) \mid \Delta a_j^j$ summed over all $j$ , see [[gradient]]
+to maximize **`\D L`**, **`\D a_k^k = w_k->j^j,k | (\d g z_j^j -- \d z_j^j ) | \D a_j^j`** summed over all **`j`** , see [[gradient]]
 
-written using [[matrix#multiplication]], $\Delta a_j = \rho\ w_{k \to j}\ \mid (\Delta a_j \mid g'\ z_j)$, see [[hadamard product]], [[matrix#multiplication]] #todo mm
+written using [[matrix#multiplication]], **`\D a_j = \r w_k->j | (\D a_j | g_* z_j )`**, see [[hadamard product]], [[matrix#multiplication]] #todo mm
 
 ## propagating the gradient
 
-$\Delta w_{k \to j}$ are averaged through a fixed-size batch of training examples
+**`\D w_k->j`** are averaged through a fixed-size batch of training examples
 
 &mdash; <https://youtu.be/tIeHLnjs5U8?t=310>
 
 then,
 
-$w'_{k \to j} = w_{k \to j} : \alpha\ \Delta w_{k \to j}$, where
+**`w_*k->j = w_k->j : \a \D w_k->j`**, where
 
-- $w_{k \to j}$ are the original weights from layer $j$ to layer $k$
-- $w'_{k \to j}$ are the updated weights from layer $j$ to layer $k$
-- $\alpha$ is the _learning rate_ of the [[neural network]]
+- **`w_k->j`** are the original weights from layer **`j`** to layer **`k`**
+- **`w_*k->j`** are the updated weights from layer **`j`** to layer **`k`**
+- **`\a`** is the _learning rate_ of the [[neural network]]
 
 &mdash; <https://youtu.be/w8yWXqWQYmU?t=627>

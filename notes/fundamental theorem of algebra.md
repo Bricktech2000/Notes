@@ -8,11 +8,11 @@
 >
 > - every single-variable [[polynomial]] with [[complex]] coefficients has at least one [[complex]] [[function#root]]
 > - the [[field]] of [[complex]] numbers is _algebraically closed_
-> - every single-variable [[polynomial]] of degree $n$ with [[complex]] coefficients has exactly $n$ [[complex]] [[function#root]]s (counted with [[multiplicity]])
+> - every single-variable [[polynomial]] of degree **`n`** with [[complex]] coefficients has exactly **`n`** [[complex]] [[function#root]]s (counted with [[multiplicity]])
 >
 > more generally,
 >
-> - an $n$th degree [[polynomial]] equation over a [[field]] has at most $n$ solutions
+> - an **`n`**th degree [[polynomial]] equation over a [[field]] has at most **`n`** solutions
 >
 > &mdash; <https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra>
 >
@@ -22,6 +22,6 @@ the same **cannot** be said for [[real]]s
 
 **examples**
 
-> **example** $x2 : 1 = x \cdot \iota \mid x : \iota$
+> **example** **`x2 : 1 = x . \i | x : \i`**
 
-> **example** $x2 : x : 1 = 0 =\!= x = \iota \lfloor 3 \rfloor \cdot 1 - 2$
+> **example** **`x2 : x : 1 = 0 == x = \i \3/ . 1 -- 2`**

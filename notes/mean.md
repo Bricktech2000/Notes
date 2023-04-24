@@ -2,8 +2,8 @@
 
 **see** [[math notation]]
 
-**definition** $\braket{\,: - \#}$ where the argument is a [[list]]
+**definition** **`{:--#}`** where the argument is a [[list]]
 
-**notation** _in [[statistics]]_ $\mu$
+**notation** _in [[statistics]]_ **`\m`**
 
-> **example** $\braket{\,: - \#}\ ((9, 1, 2, 2, 3, 4, 7)) = 4$
+> **example** **`{:--#} ((9, 1, 2, 2, 3, 4, 7)) = 4`**

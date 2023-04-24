@@ -6,8 +6,8 @@ there appears to be a standard way to build [[number]] systems. [[group theory]]
 
 > **examples** _number systems_
 >
-> - [[integer]]s $\mathbb Z$
-> - [[complex]] numbers $\mathbb C$
+> - [[integer]]s **`ZZ`**
+> - [[complex]] numbers **`CC`**
 > - hamiltonians
 > - finite [[field]]s
 > - [[p-adic]] numbers

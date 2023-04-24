@@ -4,15 +4,15 @@
 
 the [[dot product]] is defined for any [[vector in rn]]
 
-**definition** $\,: ab$
+**definition** **`:ab`**
 
 > **note** if vectors are identified with row [[matrix]]es, the [[dot product]] can also be written as a [[matrix]] product &mdash; Wikipedia
 >
-> $\,:ab = (0 \rightarrow a) \mid \rho\ (0 \rightarrow b)$ #todo mm
+> **`:ab = (0 -> a) | \r (0 -> b)`** #todo mm
 
-> **example** $\,: (3, 2, \cdot 1)(4, \cdot6, 3) = 3 \shortmid 4 : 2 \shortmid \cdot 6 : \cdot 1 \shortmid 3 = \cdot3$
+> **example** **`:(3, 2, .1)(4, .6, 3) = 3'4 : 2'.6 : .1'3 = .3`**
 
-> **example** $:\begin{bmatrix} 3 & 2 & \cdot 1\end{bmatrix} \begin{bmatrix} 4 & \cdot6 & 3\end{bmatrix} = \begin{bmatrix} 3 & 2 & \cdot 1\end{bmatrix} \begin{bmatrix} 4 \\\  \cdot6 \\\  3\end{bmatrix} = \cdot3$ #todo mm
+> **example** **`:[]3 & 2 & .1[][]4 & .6 & 3[] = []3 & 2 & .1[][]4 && .6 && 3[] = .3`** #todo mm
 
 **properties**
 

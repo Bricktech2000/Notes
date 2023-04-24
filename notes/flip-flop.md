@@ -24,11 +24,11 @@ _data flip-flop_
 
 **representation** _[[truth table]]_
 
-| $CLK$          | $D$      | $Q$ | comment    |
-| -------------- | -------- | --- | ---------- |
-| $\uparrow$     | 0        | 0   | data reset |
-| $\uparrow$     | 1        | 1   | data set   |
-| not $\uparrow$ | $\times$ | $Q$ | no change  |
+| **`"CLK"`** | **`D`** | **`Q`** | comment    |
+| ----------- | ------- | ------- | ---------- |
+| &uarr;      | **`0`** | **`0`** | data reset |
+| &uarr;      | **`1`** | **`1`** | data set   |
+| not &uarr;  | &times; | **`Q`** | no change  |
 
 ## JK Flip-Flop
 
@@ -36,13 +36,13 @@ _same as SR flip-flop, but with undefined states removed_
 
 **representation** _[[truth table]]_
 
-| $CLK$          | $J$      | $K$      | $Q$  | comment   |
-| -------------- | -------- | -------- | ---- | --------- |
-| $\uparrow$     | 0        | 0        | $Q$  | no change |
-| $\uparrow$     | 0        | 1        | 0    | reset     |
-| $\uparrow$     | 1        | 0        | 1    | set       |
-| $\uparrow$     | 1        | 1        | $+Q$ | toggle    |
-| not $\uparrow$ | $\times$ | $\times$ | $Q$  | no change |
+| **`"CLK"`** | **`J`** | **`K`** | **`Q`**  | comment   |
+| ----------- | ------- | ------- | -------- | --------- |
+| &uarr;      | **`0`** | **`0`** | **`Q`**  | no change |
+| &uarr;      | **`0`** | **`1`** | **`0`**  | reset     |
+| &uarr;      | **`1`** | **`0`** | **`1`**  | set       |
+| &uarr;      | **`1`** | **`1`** | **`+Q`** | toggle    |
+| not &uarr;  | &times; | &times; | **`Q`**  | no change |
 
 ## T Flip-Flop
 
@@ -50,8 +50,8 @@ _toggle flip-flop_
 
 **representation** _[[truth table]]_
 
-| $CLK$          | $T$      | $Q$  | comment   |
-| -------------- | -------- | ---- | --------- |
-| $\uparrow$     | 0        | $Q$  | no change |
-| $\uparrow$     | 1        | $+Q$ | toggle    |
-| not $\uparrow$ | $\times$ | $Q$  | no change |
+| **`"CLK"`** | **`T`** | **`Q`**  | comment   |
+| ----------- | ------- | -------- | --------- |
+| &uarr;      | **`0`** | **`Q`**  | no change |
+| &uarr;      | **`1`** | **`+Q`** | toggle    |
+| not &uarr;  | &times; | **`Q`**  | no change |

@@ -4,17 +4,17 @@
 
 **definition**
 
-the [[set]] of all [[linear combination]]s of the [[vector]]s $u_0 \cdots u_m$ is called their _span_
+the [[set]] of all [[linear combination]]s of the [[vector]]s **`u_0 ... u_m`** is called their _span_
 
-$u_0 \cdots u_m$ is said to be a _spanning set_ for the resulting [[vector space]]
+**`u_0 ... u_m`** is said to be a _spanning set_ for the resulting [[vector space]]
 
-it is said that $u_0 \cdots u_m$ _span_ the resulting [[vector space]]
+it is said that **`u_0 ... u_m`** _span_ the resulting [[vector space]]
 
 **notation**
 
-$\operatorname{span} \braket{\braket{u \cdots}}$, where $u \cdots$ are the [[vector]]s in the [[set]]
+**`"span" {{u ...}}`** where **`u ...`** are the [[vector]]s in the [[set]]
 
-> **note** $\operatorname{Vec}$ is the French notation whereas $\operatorname{Span}$ is the English notation
+> **note** **`"Vec"`** is the French notation whereas **`"Span"`** is the English notation
 
 **properties**
 

@@ -10,9 +10,7 @@ the probable reason for the bad smell of feces is to prevent us from eating them
 
 ## everything is a subscription
 
-every (physical) purchase is a subscription, or recurring payment. as every physical object has a finite lifetime, its price can be thought of as the length of the subscription to said object. a smart phone that lasts 3 years and costs 2000\$ has a subscription of 2000\$ / 3y = 56\$ / mo
-
-\$ (unbreak syntax highlighting)
+every (physical) purchase is a subscription, or recurring payment. as every physical object has a finite lifetime, its price can be thought of as the length of the subscription to said object. a smart phone that lasts **`3`** years and costs **`2000 \$`** has a subscription of **`2000 \$ -- 3"y"`**, which is **`56 \$ -- "mo"`**
 
 ## different view on smart phones
 

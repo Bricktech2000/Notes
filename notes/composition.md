@@ -4,11 +4,11 @@
 
 **definition** _composition in my [[math notation]]_
 
-$C\ f\ g = x \rightarrow f\ (g\ x)$, where
+**`C f g = x -> f (g x)`**, where
 
-- $f$ and $g$ are the original [[function]]s
-- $C$ is the [[composition]] [[function]]
-- $x$ is the parameter to be passed to $f$ and $g$
+- **`f`** and **`g`** are the original [[function]]s
+- **`C`** is the [[composition]] [[function]]
+- **`x`** is the parameter to be passed to **`f`** and **`g`**
 
 **definition** _[[composition]] in Haskell_
 
@@ -20,20 +20,20 @@ $C\ f\ g = x \rightarrow f\ (g\ x)$, where
 
 **properties**
 
-_associativity_ $h\ (g\ f\ \circ)\ \circ =\!= (h\ g\ \circ)\ f\ \circ =\!= h\ g\ f\ \circ$ &mdash; <https://youtu.be/SmXB2K_5lcA?t=662>
+_associativity_ **`h (g f *) * == (h g *) f * == h g f *`** &mdash; <https://youtu.be/SmXB2K_5lcA?t=662>
 
 **applications**
 
 [[function]] [[composition]] is very useful in [[functional programming]] as it allows for building larger [[function]]s from smaller ones. it also allows for [[abstraction]] and [[encapsulation]].
 
-> **example** suppose we have two [[function]]s: $A \to B$ and $B \to C$. after composing them, we get $A \to C$. there is no way to differentiate this [[function]] from any other [[function]], and the intermediate value $B$ is not exposed to the outside world anymore.
+> **example** suppose we have two [[function]]s: **`A -> B`** and **`B -> C`**. after composing them, we get **`A -> C`**. there is no way to differentiate this [[function]] from any other [[function]], and the intermediate value **`B`** is not exposed to the outside world anymore.
 
 ## Identity
 
 **aka** _identity [[function]]_
 
-**notation** $\braket\circ$
+**notation** **`{*}`**
 
-**definition** $\braket\circ$
+**definition** **`{*}`**
 
-**properties** $\braket\circ\ x =\!= x$
+**properties** **`{*} x == x`**

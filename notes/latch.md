@@ -24,12 +24,12 @@ _set-reset latch_
 
 **representation** _[[truth table]]_
 
-| $S$ | $R$ | $Q$      | comment   |
-| --- | --- | -------- | --------- |
-| 0   | 0   | $Q$      | no change |
-| 0   | 1   | 0        | reset     |
-| 1   | 0   | 1        | set       |
-| 1   | 1   | $\times$ | undefined |
+| **`S`** | **`R`** | **`Q`** | comment   |
+| ------- | ------- | ------- | --------- |
+| **`0`** | **`0`** | **`Q`** | no change |
+| **`0`** | **`1`** | **`0`** | reset     |
+| **`1`** | **`0`** | **`1`** | set       |
+| **`1`** | **`1`** | &times; | undefined |
 
 **representation** _[[logic circuit]]_
 
@@ -43,11 +43,11 @@ _data latch, gated by default_
 
 **representation** _[[truth table]]_
 
-| $E$ | $D$      | $Q$ | comment    |
-| --- | -------- | --- | ---------- |
-| 0   | $\times$ | $Q$ | no change  |
-| 1   | 0        | 0   | data reset |
-| 1   | 1        | 1   | data set   |
+| **`E`** | **`D`** | **`Q`** | comment    |
+| ------- | ------- | ------- | ---------- |
+| **`0`** | &times; | **`Q`** | no change  |
+| **`1`** | **`0`** | **`0`** | data reset |
+| **`1`** | **`1`** | **`1`** | data set   |
 
 **representation** _[[logic circuit]]_
 
@@ -59,12 +59,12 @@ _same as SR latch, but with undefined states removed_
 
 **representation** _[[truth table]]_
 
-| $J$ | $K$ | $Q$  | comment   |
-| --- | --- | ---- | --------- |
-| 0   | 0   | $Q$  | no change |
-| 0   | 1   | 0    | reset     |
-| 1   | 0   | 1    | set       |
-| 1   | 1   | $+Q$ | toggle    |
+| **`J`** | **`K`** | **`Q`**  | comment   |
+| ------- | ------- | -------- | --------- |
+| **`0`** | **`0`** | **`Q`**  | no change |
+| **`0`** | **`1`** | **`0`**  | reset     |
+| **`1`** | **`0`** | **`1`**  | set       |
+| **`1`** | **`1`** | **`+Q`** | toggle    |
 
 **representation** _[[logic circuit]]_
 

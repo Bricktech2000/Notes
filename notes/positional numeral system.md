@@ -6,16 +6,16 @@
 
 **notation**
 
-$\omega_n$, where
+**`\w_n`**, where
 
-- $n$ is the base, represented by a [[natural]]
-- $\omega$ is a [[list]] of digits
+- **`n`** is the base, represented by a [[natural]]
+- **`\w`** is a [[list]] of digits
 
 > **examples**
 >
-> $35_{10}$
+> **`35_10`**
 >
-> $1001_{2}$
+> **`1001_2`**
 
 **pros & cons**
 

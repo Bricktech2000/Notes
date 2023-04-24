@@ -1,30 +1,20 @@
 # 🅲🅾🅽🆅🅴🅽🆃🅸🅾🅽🆂
 
+#todo mu
+
 ## general conventions
 
 see [[matrix]] and [[complex]] for examples of general conventions
 
 ### LaTeX
 
-LaTeX is used for all mathematical equations through my custom [[math notation]]
+a custom syntax is used for all mathematical equations through my custom [[math notation]]
 
 [[variable]]s are defined in separate lines using a _, where_ statement followed by a list
 
 whitespace in formulas follow [[programming language]]-like conventions
 
-[[international system of units]] units and other units are to be written using `\text{}`
-
-the $\, : \,$ [[operator]] must always be surrounded one space on either side, or written as the first or last [[character]] of an equation as `$\, : \,$`
-
-the $\rightarrow$ [[operator]] is written as `\to` by default, and must be written as `\rightarrow` when it indicates a [[math notation]] [[function]] definition
-
-when using the [[reduce function]] in my [[math notation]], the [[operator]] must be preceeded by a `\,`
-
-`\R`, `\N`, `\Z`, `\{` and `\}` must not be used, as they are not widely supported. `\mathbb R`, `\mathbb N`, `\mathbb Z`, `\lbrace` and `\rbrace` should be used instead, respectively.
-
-`\\` must be replaced by `\\\` for them to work properly. see the following discussion: <https://github.com/mathjax/MathJax/issues/1301>
-
-more information about supported features available at <https://katex.org/docs/supported.html>
+[[international system of units]] units and chemical elements are to be written within `"`. spaces are to be added between the number and the unit
 
 ### Sections
 
@@ -74,9 +64,11 @@ the following headings are used inline:
 
 italics are used for [[trick]]s and personal definitions and to replace quotation marks
 
-bold is used for emphasis &mdash; italics must not be used for emphasis
+bold is used for emphasis; italics must not be used for emphasis
 
 `&mdash; ...` statements are used for citing sources
+
+HTML entities are used for any non-ASCII [[character]]s and for ellipses
 
 ### note system
 
@@ -84,7 +76,7 @@ wiki links are generally avoided in headings
 
 a page can link to itself
 
-note names are mostly _-ing_ verbal groups or singular nominal groups, and sometimes adjectives when more appropriate
+note names are mostly singular nominal groups, and sometimes adjectives when more appropriate
 
 line breaks are used exclusively for how they look in the render and never to make the source code more readable (which is why almost no single line breaks are used)
 
@@ -126,7 +118,7 @@ all internal links are denoted using `[[note]]` and `![[image.png]]` [[wikilink]
 > - [ ] task
 > - [x] list
 >
-> $\LaTeX$
+> **`"math syntax"`**
 >
 > #tag
 >
@@ -155,6 +147,8 @@ all internal links are denoted using `[[note]]` and `![[image.png]]` [[wikilink]
 
 ### unused syntax
 
+> $\LaTeX$
+>
 > $$
 > \text{Block } \LaTeX
 > $$

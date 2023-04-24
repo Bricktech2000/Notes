@@ -4,11 +4,11 @@
 
 ## average net worth density formula
 
-$\text{average net worth} - \text{geographical area}$
+**`"average net worth" -- "geographical area"`**
 
 > **example**
 >
-> in Canada, $329 900\$ - 9\ 985\text-1000\ \text{M km}2$, which is about $33\$ - 1000 \text{km}2$
+> in Canada, **`329 900 \$ -- 9 985-1000 "M""km"2`**, which is about **`33 \$ -- 1000 "km"2`**
 
 **applications**
 

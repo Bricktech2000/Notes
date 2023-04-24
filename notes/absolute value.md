@@ -10,10 +10,10 @@
 
 **properties**
 
-$|x| \dashv t =\!= \cdot t \dashv x \dashv t$
+**`||x|| -| t == .t -| x -| t`**
 
-$|x| \vdash t =\!= x \vdash t \lor x \vdash \cdot t$
+**`||x|| |- t == x |- t \/ x |- .t`**
 
-_triangle inequality_ $|a : b| \dashv |a| : |b| > \mathbb R a \land \mathbb R b$
+_triangle inequality_ **`||a : b|| -| ||a|| : ||b|| > RR a /\ RR b`**
 
 > **equivalence** _[[absolute value]] triangle inequality and [[relation#transitive relation]]_

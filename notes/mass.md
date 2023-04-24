@@ -2,4 +2,4 @@
 
 **see** [[math notation]]
 
-**notation** _[[international system of units]]_ $\text{kg}$
+**notation** _[[international system of units]]_ **`"kg"`**

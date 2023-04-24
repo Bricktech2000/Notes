@@ -6,7 +6,7 @@
 
 - "[Steve Jobs] was smart" &mdash; <https://youtu.be/VJI88QIW7H4?t=791>
 - "Do Kwon was a bright kid" &mdash; <https://youtu.be/3KZY41SqaTI?t=93>
-- "Dr. Ruja [...] was extremely intelligent" &mdash; <https://youtu.be/64xcgvEJ3Ys?t=103>
+- "Dr. Ruja [&hellip;] was extremely intelligent" &mdash; <https://youtu.be/64xcgvEJ3Ys?t=103>
 - Yan Chernikov from The Cherno saying he is not a particularily smart person &mdash; <https://youtu.be/ILt1j3xEmw0?t=389>
 - Andrew Tate was extremely talented at chess &mdash; <https://youtu.be/HJ4xoxYAya4?t=168>
 - Casey Muratori from Handmade Hero taught himself [[linear algebra]], differential equations, trigonometry <https://youtu.be/O7wFP1Z5KQY?t=427> (and rest of video)

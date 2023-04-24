@@ -4,7 +4,7 @@
 
 > **note**
 >
-> _integrating_ refers to calculating the are under a [[function]], **not** computing the [[antiderivative]] and plugging stuff in. this is why indefinite [[integral]]s must include that $\, : c$ whereas [[antiderivative]]s don't have to.
+> _integrating_ refers to calculating the are under a [[function]], **not** computing the [[antiderivative]] and plugging stuff in. this is why indefinite [[integral]]s must include that **`... : c`** whereas [[antiderivative]]s don't have to.
 >
 > "[[antiderivative]]s can be used to **find** [[area]]s ([[integral]]s) and [[area]]s ([[integral]]s) can be used to **define** [[antiderivative]]s." this is the essence of the [[fundamental theorem of calculus]]
 >
@@ -14,7 +14,7 @@
 
 **notation** _in [[conventional math notation]]_
 
-with $\delta\ F\ x - \delta x = f$,
+with **`\d F x -- \d x = f`**,
 
 $F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
 
@@ -22,7 +22,7 @@ $F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
 
 **definition** an _indefinite integral_ has its two endpoints missing
 
-**definition** the _integrand_ is the [[function]] being integrated. it would be $f\ x$ in the [[integral]] $\int f\ x \mid \delta x$
+**definition** the _integrand_ is the [[function]] being integrated. it would be **`f x`** in the [[integral]] **`$ f x | \d x`**
 
 ---
 
@@ -38,9 +38,9 @@ $F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
 
 _an [[integral]] with at least one endpoint being infinite_
 
-**theorem** $\int f\ x \mid \delta x\ \braket{\infty \cdot a} =\!= \int f\ x \mid \delta x\ \braket{t \cdot a}\ \braket{t \rightarrow \infty}$
+**theorem** **`$ f x | \d x {@@ . a} == $ f x | \d x {t . a} {t -> @@}`**
 
-**theorem** $\int f\ x \mid \delta x\ \braket{b \cdot \cdot \infty} =\!= \int f\ x \mid \delta x\ \braket{b \cdot t}\ \braket{t \rightarrow \cdot \infty}$
+**theorem** **`$ f x | \d x {b . .@@} == $ f x | \d x {b . t} {t -> .@@}`**
 
 a Type I improper [[integral]] is said to:
 
@@ -51,18 +51,18 @@ a Type I improper [[integral]] is said to:
 
 _an integral whose integrand has a [[function]] discontinuity on the integration interval_
 
-**theorem** if $f\ x\ \braket{x \stackrel \cdot \rightarrow b} = \braket{\infty \lor \cdot \infty}$ #think [[improved expression evaluation]], then $\int f\ x \mid \delta x\ \braket{b \cdot a} =\!= \int f\ x \mid \delta x\ \braket{t \cdot a}\ \braket{t \stackrel \cdot \rightarrow b}$
+**theorem** if **`f x {x -> b "from the left"} = {@@ \/ .@@}`** #think [[improved expression evaluation]], then **`$ f x | \d x {b . a} == $ f x | \d x {t . a} {t -> b "from the left"}`**
 
-**theorem** if $f\ x\ \braket{x \stackrel {\cdot \cdot} \rightarrow a} = \braket{\infty \lor \cdot \infty}$ #think [[improved expression evaluation]], $\int f\ x \mid \delta x\ \braket{b \cdot a} =\!= \int f\ x \mid \delta x\ \braket{b \cdot t}\ \braket{t \stackrel {\cdot \cdot} \rightarrow a}$
+**theorem** if **`f x {x -> a "from the right"} = {@@ \/ .@@}`** #think [[improved expression evaluation]], **`$ f x | \d x {b . a} == $ f x | \d x {b . t} {t -> a "from the right"}`**
 
 ### comparison test
 
 **theorem** _Comparison Test_
 
-let $0 \dashv g\ x \dashv f\ x$ on an interval $a\ \braket{\dashv \land +}\ \circ\ \braket{\dashv \land +}\ b$, where $a$ and $b$ are not necessarily finite. then,
+let **`0 -| g x -| f x`** on an interval **`a {-|/\+} * {-|/\+} b`**, where **`a`** and **`b`** are not necessarily finite. then,
 
-- if $\int f\ x \mid \delta x\ \braket{b \cdot a}$ converges, so does $\int g\ x \mid \delta x\ \braket{b \cdot a}$, but not conversely
-- if $\int g\ x \mid \delta x\ \braket{b \cdot a}$ diverges, so does $\int f\ x \mid \delta x\ \braket{b \cdot a}$, but not conversely
+- if **`$ f x | \d x {b . a}`** converges, so does **`$ g x | \d x {b . a}`**, but not conversely
+- if **`$ g x | \d x {b . a}`** diverges, so does **`$ f x | \d x {b . a}`**, but not conversely
 
 ### p-test
 
@@ -70,10 +70,10 @@ let $0 \dashv g\ x \dashv f\ x$ on an interval $a\ \braket{\dashv \land +}\ \cir
 
 **theorem** _P-Test_
 
-the [[integral]] $\int -[x]p \mid \delta x\ \braket{\infty \cdot 1}$:
+the [[integral]] **`$ --[x]p | \d x {@@ . 1}`**:
 
-- converges if $p\ \braket{\vdash \land +}\ 1$
-- diverges if $p \dashv 1$
+- converges if **`p {|-/\+} 1`**
+- diverges if **`p -| 1`**
 
 ## Numerical Integration
 

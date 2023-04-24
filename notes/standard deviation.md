@@ -4,12 +4,12 @@
 
 **definition**
 
-$\sigma2 = \braket{\,: - \#}\ [X \cdot \mu]2$
+**`\s2 = {:--#} [X.\m]2`**
 
-- $X$ is a [[sample]] or a [[population]] as a [[list]]
-- $\mu$ is the [[sample]] [[mean]] of $X$
-- $\sigma$ is the _standard deviation_ of $X$
-- $\sigma2$ is the _variance_ of $X$
+- **`X`** is a [[sample]] or a [[population]] as a [[list]]
+- **`\m`** is the [[sample]] [[mean]] of **`X`**
+- **`\s`** is the _standard deviation_ of **`X`**
+- **`\s2`** is the _variance_ of **`X`**
 
 > **note** squaring the [[distance]] between every element and the [[sample]] [[mean]] makes it so that outliers have a greater effect on the result
 

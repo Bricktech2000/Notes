@@ -2,7 +2,7 @@
 
 **definition**
 
-$a_0x_0 : \cdots a_nx_n : a = 0$, where
+**`a_0 x_0 : ... a_n x_n : a = 0`**, where
 
-- $x_0 \cdots x_n$ are [[variable]]s raised to the power of $1$
-- $a, a_0 \cdots a_n$ are [[scalar]]s
+- **`x_0 ... x_n`** are [[variable]]s raised to the power of **`1`**
+- **`a, a_0 ... a_n`** are [[scalar]]s

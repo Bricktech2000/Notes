@@ -4,9 +4,9 @@
 
 **see** [[substring]], [[superstring]], [[math notation]]
 
-**definition** a _subsequence_ of a [[sequence]] $a$ is a [[sequence]] obtained by "deleting" some or no elements from $a$
+**definition** a _subsequence_ of a [[sequence]] **`a`** is a [[sequence]] obtained by "deleting" some or no elements from **`a`**
 
-> **example** $(0, 2, 4, \dots)$ is a [[subsequence]] of $(0, 1, 2, 3, 4, \dots)$
+> **example** **`(0, 2, 4, ...)`** is a [[subsequence]] of **`(0, 1, 2, 3, 4, ...)`**
 
 the [[subsequence]] is a generalization of the [[substring]]
 

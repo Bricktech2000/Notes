@@ -8,12 +8,12 @@
 
 **definition**
 
-$V_\text{out} = A [V_\text{in}]\gamma$, where
+**`V_"out" = A | [V_"in"]\g`**, where
 
-- $V_\text{out}$ is the output value
-- $V_\text{in}$ is the input value
-- $A$ is a constant, generally equal to $1$
-- $\gamma$ is the gamma value, generally around $22\text-10$
+- **`V_"out"`** is the output value
+- **`V_"in"`** is the input value
+- **`A`** is a constant, generally equal to **`1`**
+- **`\g`** is the gamma value, generally around **`22-10`**
 
 **representation** _the gamma [[curve]] and [[lightness]]_
 

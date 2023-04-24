@@ -1,3 +1,3 @@
 # Wavelength
 
-**notation** $\lambda$
+**notation** **`\l`**

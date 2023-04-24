@@ -20,32 +20,32 @@ certain [[markov chain]]s converge to a _stationary distribution_, which can be 
 
 > **procedure** _computing a [[markov chain#stationary distribution]] through [[iteration]]_
 >
-> let $S_0 = \begin{bmatrix} S_0^0 \\\ \vdots \\\ S_0^s \end{bmatrix}$, where
+> let **`S_0 = []S_0^0 && ... && S_0^s[]`**, where
 >
-> - $S_0$ is the initial state of the [[markov chain]]
-> - $S_0^i$ is the [[probability]] of the $i$th state occurring in the initial state
-> - $s$ is the number of states in the [[markov chain]]
->
-> #todo mm
->
-> then, we compute $S_n = P \mid S_c = \begin{bmatrix} P^{0, 0} & \cdots \\\ \vdots & \ddots \end{bmatrix} \begin{bmatrix} S_c^0 \\\ \vdots \end{bmatrix}$, where
->
-> - $S_c$ is the current iteration of the computation starting from $S_0$
-> - $S_n$ is the next iteration of the computation
-> - $P$ is the $s$ by $s$ _transition matrix_ of the [[markov chain]]
-> - $P^{j, k}$ is the [[probability]] of the [[markov chain]] transitioning from the $k$th state to the $j$th state
+> - **`S_0`** is the initial state of the [[markov chain]]
+> - **`S_0^i`** is the [[probability]] of the **`i`**th state occurring in the initial state
+> - **`s`** is the number of states in the [[markov chain]]
 >
 > #todo mm
 >
-> we can then deduce $S_\infty = [P]n \mid S_0\ \braket{n \rightarrow \infty}$, where
+> then, we compute **`S_n = P | S_c = []P^0,0 & ... && ... & ...[][]S_c^0 && ...[]`**, where
 >
-> - $S_\infty$ is the _stationary distribution_ of the [[markov chain]]
+> - **`S_c`** is the current iteration of the computation starting from **`S_0`**
+> - **`S_n`** is the next iteration of the computation
+> - **`P`** is the **`s`** by **`s`** _transition matrix_ of the [[markov chain]]
+> - **`P^j,k`** is the [[probability]] of the [[markov chain]] transitioning from the **`k`**th state to the **`j`**th state
+>
+> #todo mm
+>
+> we can then deduce **`S_@@ = [P]n | S_0 {n -> @@}`**, where
+>
+> - **`S_@@`** is the _stationary distribution_ of the [[markov chain]]
 
 > **procedure** _computing a [[markov chain#stationary distribution]] through [[eigen#vector]]s and [[eigen#value]]s_
 >
 > the [[eigen#vector]]s of the [[markov chain]]'s _transition matrix_ are the _stationary distribution_ of the [[markov chain]]
 >
-> it is common to multiply the resulting [[eigen#vector]] $x$ by a [[scalar]] $k$ so that $\,: kx = 1$
+> it is common to multiply the resulting [[eigen#vector]] **`x`** by a [[scalar]] **`k`** so that **`:kx = 1`**
 >
 > &mdash; <https://youtu.be/EGoRJePORHs?t=551>
 >

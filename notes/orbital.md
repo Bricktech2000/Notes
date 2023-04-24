@@ -4,8 +4,8 @@
 
 **notation**
 
-- $s$ orbital
-- $p$ orbital
-- $d$ orbital
-- $f$ orbital
-- ...
+- **`s`** orbital
+- **`p`** orbital
+- **`d`** orbital
+- **`f`** orbital
+- &hellip;

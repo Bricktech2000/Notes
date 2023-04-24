@@ -4,89 +4,89 @@
 
 ## power rule
 
-$\delta\ x[n] - \delta x= nx[n \cdot 1]$
+**`\d x[n] -- \d x= nx[n . 1]`**
 
 ### derived shortcuts
 
-$\delta\ c - \delta x= 0$
+**`\d c -- \d x = 0`**
 
-$\delta\ x - \delta x = 1$
+**`\d x -- \d x = 1`**
 
 ## [[exponent]]ial rule
 
-$\delta\ a[x] - \delta x = a[x] \mid \lceil a \rceil$
+**`\d a[x] -- \d x = a[x] | /a\`**
 
 > **proof**
 >
-> $a[x] = [\lceil a[x] \rceil] = [x\lceil a \rceil]$
+> **`a[x] = [ \a[x]/ ] = [x /a\ ]`**
 >
-> $\delta\ a[x] - \delta x = [x\lceil a \rceil] \mid \delta\ x\lceil a \rceil - \delta x = [a]x \mid \lceil a \rceil$
+> **`\d a[x] -- \d x = [x /a\ ] | \d x /a\ -- \d x = [a]x | /a\`**
 >
 > &mdash; me
 
 ### derived shortcuts
 
-$\delta\ [x] - \delta x = [x]$
+**`\d [x] -- \d x = [x]`**
 
-$\delta\ f\ x - \delta x = m f\ x =\!= f\ x = [mx]$
+**`\d f x -- \d x = mf x == f x = [mx]`**
 
-> **example** let $g\ x = \varepsilon x2 : 2\varepsilon[x] : x\varepsilon2 : x[\varepsilon2]$. then, $\delta\ g\ x - \delta x = 2\varepsilon x : 2\varepsilon[x] : \varepsilon2 : \varepsilon2 x[\varepsilon2 \cdot 1]$
+> **example** let **`g x = \ex2 : 2\e[x] : x\e2 : x[\e2]`**. then, **`\d g x -- \d x = 2\e x : 2\e[x] : \e2 : \e2 x[\e2.1]`**
 
 ## [[logarithm]] rule
 
-$\delta\ \lceil x \rceil b - \delta x = - x\lceil b \rceil$
+**`\d /x\ b -- \d x = -- x /b\`**
 
 ### derived shortcuts
 
-$\delta\ \lceil x \rceil - \delta x = -x$
+**`\d /x\ -- \d x = --x`**
 
-> **proof** let $y = \lceil x \rceil$. then,
+> **proof** let **`y = /x\`**. then,
 >
-> $x = [y]$
+> **`x = [y]`**
 >
-> $\delta x = [y] \mid \delta y$
+> **`\d x = [y] | \d y`**
 >
-> $\delta y - \delta x = -[y]$
+> **`\d y -- \d x = --[y]`**
 >
-> $\delta\ \lceil x \rceil - \delta x = -x$
+> **`\d /x\ -- \d x = --x`**
 >
 > &mdash; <https://youtu.be/qb40J4N1fa4?t=762>
 
-$\delta\ \lceil |x| \rceil - \delta x = -x$
+**`\d /||x||\ -- \d x = --x`**
 
 > **proof** define as a [[function#piecewise function]] and compute both [[derivative]]s
 
-$\delta\ (\lceil |x| \rceil : c\ x) - \delta x = -x$ and therefore
+**`\d ( /||x||\ : c x) -- \d x = --x`** and therefore
 
-$\int -x \mid \delta x = \lceil |x| \rceil : c\ x$ where $c\ x = \braket{c_0, c_1}\ (x \dashv 0)$
+**`$ --x | \d x = /||x||\ : c x`** where **`c x = {c_0, c_1} (x -| 0)`**
 
 > **proof** &mdash; <https://youtu.be/u4kex7hDC2o>
 
 ## constant multiple rule
 
-if $c$ is a [[real]] and $f$ is differentiable, then
+if **`c`** is a [[real]] and **`f`** is differentiable, then
 
-$\delta\ (cf\ x) - \delta x = c (\delta f\ x - \delta x)$
+**`\d (cf x) -- \d x = c(\d f x -- \d x)`**
 
 ## sum rule
 
-$\delta\ (f\ x : g\ x) - \delta x = \delta\ f\ x \text- \delta x : \delta\ g\ x \text- \delta x$
+**`\d (f x : g x) -- \d x = (\d f x -- \d x) : (\d g x -- \d x)`**
 
 ## difference rule
 
-$\delta\ (f\ x \cdot g\ x) - \delta x = \delta\ f\ x \text- \delta x \cdot \delta\ g\ x \text- \delta x$
+**`\d (f x . g x) -- \d x = (\d f x -- \d x) . (\d g x -- \d x)`**
 
-> **proof** derive from the sum rule, $f\ x \cdot g\ x = f\ x : (\cdot 1 \mid g\ x)$
+> **proof** derive from the sum rule, **`f x . g x = f x : (.1 | g\ x)`**
 
 ## product rule
 
-$\delta\ (f\ x \mid g\ x) - \delta x = (f\ x \mid \delta\ g\ x - \delta x) : (g\ x \mid \delta\ f\ x - \delta x)$
+**`\d (f x | g x) -- \d x = (f x | \d g x -- \d x) : (g x | \d f x -- \d x)`**
 
 ## quotient rule
 
-$\delta\ (f\ x - g\ x) - \delta x = (g\ x \mid \delta\ f\ x - \delta x) \cdot (f\ x \mid \delta\ g\ x - \delta x) - [g\ x]2$
+**`\d (f x -- g x) -- \d x = (g x | \d f x -- \d x) . (f x | \d g x -- \d x) -- [g x]2`**
 
-> **proof** derive from the product and power rules, $f\ x - g\ x = f\ x \mid [g\ x](\cdot 1)$
+> **proof** derive from the product and power rules, **`f x -- g x = f x | [g x](.1)`**
 
 ### [[mnemonic]]
 
@@ -94,12 +94,12 @@ $\delta\ (f\ x - g\ x) - \delta x = (g\ x \mid \delta\ f\ x - \delta x) \cdot (f
 
 ### derived reciprocal rule
 
-$\delta\ (-f\ x) - \delta x = \cdot \delta\ f\ x - \delta x - [f\ x]2$
+**`\d (--f x) -- \d x = .\d f x -- \d x -- [f x]2`**
 
-> **proof** derive from the power rule, $-f\ x = [f\ x](\cdot 1)$
+> **proof** derive from the power rule, **`--f x = [f x](.1)`**
 
 ## chain rule
 
-$\delta\ f\ g\ x - \delta x = \delta\ g\ x - \delta x \mid \delta\ f\ g\ x - \delta\ g\ x$
+**`\d f g x -- \d x = \d g x -- \d x | \d f g x -- \d g x`**
 
-> **proof** $(\delta\ g\ x) - \delta x \mid \delta f\ g\ x - (\delta\ g\ x) = \delta\ f\ g\ x - \delta x$
+> **proof** **`(\d g x) -- \d x | \d f g x -- (\d g x) = \d f g x -- \d x`**

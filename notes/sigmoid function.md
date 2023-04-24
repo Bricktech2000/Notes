@@ -4,9 +4,9 @@
 
 **definition**
 
-$\sigma\ z = -1 : [\cdot z]$, where
+**`\s z = -- 1 : [.z]`**, where
 
-- $\sigma\ z$ is the [[sigmoid function]] at $z$
+- **`\s z`** is the [[sigmoid function]] at **`z`**
 
 **representation**
 
@@ -16,6 +16,6 @@ $\sigma\ z = -1 : [\cdot z]$, where
 
 **see** [[derivative]]
 
-$\delta\ \sigma\ z - \delta z = -[1 : [\cdot z]]2 \mid [\cdot z] = (1 - 1 : [\cdot z]) \mid ([\cdot z] - 1 : [\cdot z]) = \sigma\ z \mid 1 \cdot \sigma\ z$
+**`\d \s z -- \d z = --[1:[.z]]2 | [.z] = (1 -- 1 : [.z]) | ([.z] -- 1 : [.z]) = \s z | 1 . \s z`**
 
 &mdash; <https://youtu.be/kbGu60QBx2o>

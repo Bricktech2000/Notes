@@ -10,30 +10,30 @@ _results in a [[vector]] of [[vector in rn#magnitude]] ([[area]] of the parallel
 
 **see** [[determinant]]
 
-$|a\ \check\mid\ b| = \det \begin{bmatrix}a & \mid & b\end{bmatrix}$ #think looks like the [[determinant]] of a non-square [[matrix]]
+**`||a "cross" b|| = "det" []a & || & b[]`** #think looks like the [[determinant]] of a non-square [[matrix]]
 
-$a\ \check\mid\ b = \det \begin{bmatrix}B & | & a & | & b\end{bmatrix}$, where
+**`a "cross" b = "det" []B & || & a & || & b[]`**, where
 
-$B$ is the basis [[vector]], i.e. $\begin{bmatrix}\hat i \\\  \hat j  \\\  \cdots\end{bmatrix}$
+**`B`** is the basis [[vector]], i.e. **`[](1, 0, 0, ...) && (0, 1, 0, ...) && ...[]`**
 
 > **procedure** _shortcut for computing the [[cross product]]_
 >
-> $\begin{bmatrix}a_1 \\\  a_2 \\\  a_3\end{bmatrix}\ \check\mid\ \begin{bmatrix}b_1 \\\  b_2 \\\  b_3\end{bmatrix} = \begin{bmatrix}a_2b_3 \cdot b_2a_3 \\\  a_3b_1 \cdot b_3a_1 \\\  a_1b_2 \cdot b_1a_2\end{bmatrix}$
+> **`[]a_1 && a_2 && a_3 [] "cross" []b_1 && b_2 && b_3 [] = []a_2 b_3 . b_2 a_3 && a_3 b_1 . b_3 a_1 && a_1 b_2 . b_1 a_2 []`**
 
 **properties**
 
-_not commutative_ $a\ \check\mid\ b = \cdot\ b\ \check\mid\ a$
+_not commutative_ **`a "cross" b = .b "cross" a`**
 
-_orthogonal to both [[vector]]s_ $\,: (u\ \check\shortmid\ v) v = 0$ and $\,: (u\ \check\shortmid\ v) v = 0$, see [[dot product]]
+_orthogonal to both [[vector]]s_ **`:(u "cross" v) v = 0`** and **`:(u "cross" v) v = 0`**, see [[dot product]]
 
-_distributivity over addition_ $a\ \check\mid\ b : c = a \check\shortmid b : a \check\shortmid c$
+_distributivity over addition_ **`a "cross" b : c = (a "cross" b) : (a "cross" c)`**
 
-_distributivity over addition_ $b : c\ \check\mid\ a = b \check\shortmid a : c \check\shortmid a$
+_distributivity over addition_ **`b : c "cross" a = (b "cross" a) : (c "cross" a)`**
 
-_associativity with [[scalar]] multiplication_ $k \mid a \check\shortmid b = ka\ \check\mid\ b = a\ \check\mid\ kb$ (think of this intuitively)
+_associativity with [[scalar]] multiplication_ **`k | (a "cross" b) = ka "cross" b = a "cross" kb`** (think of this intuitively)
 
 **applications**
 
-$|u\ \check\mid\ v|$ is the [[area]] of the parallelogram with sides $u$ and $v$
+**`||u "cross" v||`** is the [[area]] of the parallelogram with sides **`u`** and **`v`**
 
 can be used to find a [[vector in rn]] perpendicular to a [[plane]] or to two other [[vector in rn]]s

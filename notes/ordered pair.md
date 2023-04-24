@@ -6,16 +6,16 @@
 
 **notation**
 
-$P = \braket{f, t}$, where
+**`P = {f, t}`**, where
 
-- $P$ is an [[ordered pair]]
-- $t$ and $f$ are the elements of $P$ such that $P^\bot = f \land P^\top = t$
+- **`P`** is an [[ordered pair]]
+- **`t`** and **`f`** are the elements of **`P`** such that **`P^.__ = f /\ P^.^^ = t`**
 
 **properties**
 
-_equality_ $\braket{a, b} = \braket{c, d} =\!= a = c \land b = d$
+_equality_ **`{a, b} = {c, d} == a = c /\ b = d`**
 
-_negation_ $\cdot\braket{a, b} =\!= \braket{\cdot a, \cdot b}$
+_negation_ **`.{a, b} == {.a, .b}`**
 
 ## Vector Space
 
@@ -23,11 +23,11 @@ _negation_ $\cdot\braket{a, b} =\!= \braket{\cdot a, \cdot b}$
 
 **properties**
 
-_zero [[ordered pair]]_ $O =\!= \braket{0, 0}$
+_zero [[ordered pair]]_ **`O == {0, 0}`**
 
-_[[ordered pair]] addition_ $\braket{a, b} : \braket{c, d} =\!= \braket{a : c, b : d}$
+_[[ordered pair]] addition_ **`{a, b} : {c, d} == {a : c, b : d}`**
 
-_multiplication by a [[scalar]]_ $c\braket{a, b} =\!= \braket{ca, cb} > \mathbb R c$
+_multiplication by a [[scalar]]_ **`c{a, b} == {ca, cb} > RR c`**
 
 ## Inverse
 
@@ -35,16 +35,16 @@ _switches around the two elements of an [[ordered pair]]_
 
 > **note** this was made up by me and probably doesn't have an equivalent in [[conventional math notation]]
 
-**notation** $P\ \braket+\ \circ$
+**notation** **`P {+} *`**
 
-**definition** $P\ \braket+\ \circ$
+**definition** **`P {+} *`**
 
 **properties**
 
-$P\ \braket+\ \circ =\!= \braket{P^\top, P^\bot}$
+**`P {+} * == {P^.^^, P^__}`**
 
-$(P\ \braket+\ \circ)\ \braket+\ \circ = P$ for all [[ordered pair]] $P$
+**`(P {+} *) {+} * = P`** for all [[ordered pair]] **`P`**
 
 **examples**
 
-> **example** $\braket{e, i}\ \braket+\ \circ = \braket{i, e}$
+> **example** **`{e, i} {+} * = {i, e}`**

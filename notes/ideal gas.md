@@ -8,13 +8,13 @@
 
 _[[ideal gas#law]]_
 
-$PV = nRT$, where
+**`PV = nRT`**, where
 
-- $P$ is the [[pressure]] of the gas
-- $V$ is the [[volume]] of the gas
-- $n$ is the [[amount of]] gas present
-- $R$ is the _ideal gas constant_
-- $T$ is the absolute [[temperature]] of the gas
+- **`P`** is the [[pressure]] of the gas
+- **`V`** is the [[volume]] of the gas
+- **`n`** is the [[amount of]] gas present
+- **`R`** is the _ideal gas constant_
+- **`T`** is the absolute [[temperature]] of the gas
 
 ## Dalton's Law
 
@@ -22,7 +22,7 @@ $PV = nRT$, where
 
 **definition**
 
-$P_{total} = \,: P$, where
+**`P_"total" = :P`**, where
 
-- $P_{total}$ is the total [[pressure]] exerted
-- $P$ is a [[list]] of the partial [[pressure]]s of the gases
+- **`P_"total"`** is the total [[pressure]] exerted
+- **`P`** is a [[list]] of the partial [[pressure]]s of the gases

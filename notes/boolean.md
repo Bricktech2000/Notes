@@ -8,12 +8,12 @@ _the [[set]] of [[boolean]]s_
 
 _either true or false_
 
-$\mathbb B b =\!= b = \top \lor b = \bot$
+**`BB b == b = ^^ \/ b = __`**
 
-$\mathbb B =\!= \braket{\braket{\top, \bot}}$
+**`BB == { {^^, __} }`**
 
 **properties**
 
-$\mathbb B < \mathbb U$, see [[universal]]
+**`BB < UU`**, see [[universal]]
 
 [[boolean]]s can be manipulated through [[boolean algebra]]

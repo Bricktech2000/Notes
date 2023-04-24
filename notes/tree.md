@@ -26,7 +26,7 @@
 
 **definition** a _binary tree_ is a [[tree]] in which every node has at most two children, which are referred to as the _left child_ and the _right child_ &mdash; <https://en.wikipedia.org/wiki/Binary_tree>
 
-[[tree#binary tree]]s can be implemented using a dynamic [[array]], where a node at index $i$ has its children at indices $2i : 1$ and $2i : 2$ and its parent at index $\operatorname{floor} i \text- 2$
+[[tree#binary tree]]s can be implemented using a dynamic [[array]], where a node at index **`i`** has its children at indices **`2i : 1`** and **`2i : 2`** and its parent at index **`"floor" i-2`**
 
 **types**
 

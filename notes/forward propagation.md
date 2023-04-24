@@ -8,26 +8,26 @@
 
 #todo mm
 
-given weights $w$ from layer $k$ to layer $j$, we define:
+given weights **`w`** from layer **`k`** to layer **`j`**, we define:
 
-$w_{k \to j} \begin{bmatrix} a_k & | & 1 \end{bmatrix} = z_j$ or more conventionally $w^*_{k \to j} a_k : b^* = z_j$, where
+**`w_k->j []a_k & || & 1[] = z_j`** or more conventionally **`w^*_k->j a_k : b^* = z_j`**, where
 
-- $z_j$ are the **non-activated** neuron outputs of layer $j$ and $a_k$ are the neuron outputs of layer $k$
-- $w^*_{k \to j}$ is the weight [[matrix]] from layer $k$ to layer $j$
-- $b^*$ is the bias [[vector]] for layer $j$
-- $w_{k \to j}$ is the weight [[matrix]] augmented with the bias [[matrix]], $\begin{bmatrix} w^*_{k \to j} & | & b^* \end{bmatrix}$
+- **`z_j`** are the **non-activated** neuron outputs of layer **`j`** and **`a_k`** are the neuron outputs of layer **`k`**
+- **`w^*_k->j`** is the weight [[matrix]] from layer **`k`** to layer **`j`**
+- **`b^*`** is the bias [[vector]] for layer **`j`**
+- **`w_k->j`** is the weight [[matrix]] augmented with the bias [[matrix]], **`[]w^*_k->j & || & b^*[]`**
 
 expanding,
 
-$\begin{bmatrix} w_{k \to j}^{0, 0} & w_{k \to j}^{0, 1} & \cdots & w_{k \to j}^{0, k} & w_{k \to j}^{0, b} \\\ w_{k \to j}^{1, 0} & w_{k \to j}^{1, 1} & \cdots & w_{k \to j}^{1, k} & w_{k \to j}^{1, b} \\\ \vdots & \vdots & \ddots & \vdots & \vdots \\\ w_{k \to j}^{j, 0} & w_{k \to j}^{j, 1} & \cdots & w_{k \to j}^{j, k} & w_{k \to j}^{j, b} \end{bmatrix} \begin{bmatrix} a_k^0 \\\ a_k^1 \\\ \vdots \\\ a_k^k \\\ a_k^b \end{bmatrix} = \begin{bmatrix} z_j^0 \\\ z_j^1 \\\ \vdots \\\ z_j^j \end{bmatrix}$ with $b = k : 1 \land a_k^b = 1$, where
+**`[]w_k->j^0,0 & w_k->j^0,1 & ... & w_k->j^0,k & w_k->j^0,b && w_k->j^1,0 & w_k->j^1,1 & ... & w_k->j^1,k & w_k->j^1,b && ... & ... & ... & ... & ... && w_k->j^j,0 & w_k->j^j,1 & ... & w_k->j^j,k & w_k->j^j,b[] []a_k^0 && a_k^1 && ... && a_k^k && a_k^b[] = []z_j^0 && z_j^1 && ... && z_j^j[]`** with **`b = k : 1 /\ a_k^b = 1`**, where
 
-- $j$ is the number of neurons in layer $j$ and $k$ is the number of neurons in layer $k$, or layer $j \cdot 1$
-- $z_j$ are the **non-activated** neuron outputs of layer $j$ and $a_k$ are the neuron outputs of layer $k$
-- $w_{k \to j}^{j, k}$ is the weight from neuron $a_k^k$ to neuron $a_j^j$
-- $a_k^b$ is the bias neuron (in layer $k$) for layer $j$
-- $w_{k \to j}^{j, b}$ is the bias for neuron $a_j^j$
+- **`j`** is the number of neurons in layer **`j`** and **`k`** is the number of neurons in layer **`k`**, or layer **`j . 1`**
+- **`z_j`** are the **non-activated** neuron outputs of layer **`j`** and **`a_k`** are the neuron outputs of layer **`k`**
+- **`w_k->j^j,k`** is the weight from neuron **`a_k^k`** to neuron **`a_j^j`**
+- **`a_k^b`** is the bias neuron (in layer **`k`**) for layer **`j`**
+- **`w_k->j^j,b`** is the bias for neuron **`a_j^j`**
 
-> **note** recall that superscripts have special meaning whereas subscript are just English [[character]]s. this means that neuron $a_j^j$ is the $j$th neuron in the vector $a_j$; the subscript $_j$ is part of the name $a_j$ whereas the superscript $^j$ is an index in $a_j$. see [[math notation]]
+> **note** recall that superscripts have special meaning whereas subscript are just English [[character]]s. this means that neuron **`a_j^j`** is the **`j`**th neuron in the vector **`a_j`**; the subscript **`_j`** is part of the name **`a_j`** whereas the superscript **`^j`** is an index in **`a_j`**. see [[math notation]]
 
 &mdash; <https://youtu.be/aircAruvnKk?t=807>
 
@@ -39,11 +39,11 @@ applying an [[activation function]] is important, as, otherwise, every layer wou
 
 &mdash; <https://youtu.be/w8yWXqWQYmU?t=309>
 
-$a_j = g\ z_j\ \circ$, where
+**`a_j = g z_j *`**, where
 
-- $z_j$ are the **non-activated** neuron outputs of layer $j$
-- $a_j$ are the neuron outputs of layer $j$
-- $g$ is an [[activation function]]
+- **`z_j`** are the **non-activated** neuron outputs of layer **`j`**
+- **`a_j`** are the neuron outputs of layer **`j`**
+- **`g`** is an [[activation function]]
 
 ## implementation
 

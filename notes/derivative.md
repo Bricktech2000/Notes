@@ -4,13 +4,13 @@
 
 **definition** _in my [[math notation]]_
 
-$\delta\ f\ x - \delta x = f\ (x : h) \cdot f\ x - h\ \braket{h \rightarrow 0} = f\ x \cdot f\ a - x \cdot a\ \braket{x \rightarrow a}$
+**`\d f x -- \d x = f (x : h) . f x -- h {h -> 0} = f x . f a -- x . a {x -> a}`**
 
 **definition** _with a multivariable [[function]] in my [[math notation]]_
 
-let $p = (x \cdots)$
+let **`p = (x ...)`**
 
-$\delta\ f\ p - \delta p = (\delta\ f\ p - \delta p^0, \delta\ f\ p - \delta p^1, \cdots)$
+**`\d f p -- \d p = (\d f p -- \d p^0 , \d f p -- \d p^1 , ...)`**
 
 **notations**
 
@@ -28,11 +28,11 @@ $\frac{d^n}{dx^n} = \frac{d^nf}{dx^n}$
 
 _in my [[math notation]]_
 
-$\delta\ f\ x - \delta x$, see [[calculus notation]]
+**`\d f x -- \d x`**, see [[calculus notation]]
 
-$d^n\ f = d^{n \cdot 1}\ (x \rightarrow \delta\ f\ x - \delta x) \land d^0\ f = f$
+**`d^n f = d^n.1 (x -> \d f x -- \d x) /\ d^0 f = f`**
 
-$d^n f$ would then be the $n$th [[derivative]] of $f\ x$ with respect to $x$
+**`d^n f`** would then be the **`n`**th [[derivative]] of **`f x`** with respect to **`x`**
 
 ## Directional Derivative
 
@@ -40,27 +40,27 @@ $d^n f$ would then be the $n$th [[derivative]] of $f\ x$ with respect to $x$
 
 **definition**
 
-let $f$ be a [[function]] differentiable at $p = (x \cdots)$ and let $v$ be a **[[vector in rn#unit vector]]**. then,
+let **`f`** be a [[function]] differentiable at **`p = (x ...)`** and let **`v`** be a **[[vector in rn#unit vector]]**. then,
 
-$D^v\ f\ p = \,: v (\delta\ f\ p - \delta p)$, where
+**`D^v f p = :v(\d f p -- \d p)`**, where
 
-- $D^v\ f\ p$ is the [[derivative]] of $f$ in direction $v$ at $p$
-- $\delta\ f\ p - \delta p$ is the [[gradient]] of $f$ at $p$
-- $v$ is the direction [[vector in rn]], see [[dot product]]
+- **`D^v f p`** is the [[derivative]] of **`f`** in direction **`v`** at **`p`**
+- **`\d f p -- \d p`** is the [[gradient]] of **`f`** at **`p`**
+- **`v`** is the direction [[vector in rn]], see [[dot product]]
 
 > **examples**
 >
-> $D^{(1, 0)}\ f\ (x, y) = \delta f\ (x, y) - \delta x$
+> **`D^1,0 f (x, y) = \d f (x, y) -- \d x`**
 >
-> $D^{(0, 1)}\ f\ (x, y) = \delta f\ (x, y) - \delta y$
+> **`D^0,1 f (x, y) = \d f (x, y) -- \d y`**
 
 ## Partial Derivative
 
 > **note** partial differentiation is not a thing. unless I'm missing something major, all it means is:
 >
-> > differentiate this [[function]] with respect to this [[variable]], and please blindly assume the derivative of the [[variable]] with respect to any other parameter is $0$
+> > differentiate this [[function]] with respect to this [[variable]], and please blindly assume the derivative of the [[variable]] with respect to any other parameter is **`0`**
 >
-> partial differentiation is equivalent to a [[derivative#directional derivative]] with direction $(0 \cdots 0, 1, 0 \cdots 0)$
+> partial differentiation is equivalent to a [[derivative#directional derivative]] with direction **`(0 ... 0, 1, 0 ... 0)`**
 >
 > &mdash; <https://www.reddit.com/r/mathematics/comments/oxj88q/why_are_partial_derivatives_a_separate_thing_than/>
 
@@ -78,13 +78,13 @@ _in my [[math notation]]_
 
 in my [[math notation]], it's just a [[derivative]]:
 
-$\delta\ f\ x\ y - \delta x$, see [[calculus notation]]
+**`\d f x y -- \d x`**, see [[calculus notation]]
 
 **definition**
 
-the _partial derivative_ of $f\ (x, y)$ with respect to $x$ is defined as follows:
+the _partial derivative_ of **`f (x, y)`** with respect to **`x`** is defined as follows:
 
-$f\ (x : h, y) \cdot f\ (x, y) - h\ \braket{h \rightarrow 0}$
+**`f (x : h, y) . f (x, y) -- h {h -> 0}`**
 
 the same is true with any other parameter and with any number of parameters
 
@@ -98,15 +98,15 @@ the same is true with any other parameter and with any number of parameters
 
 ## differentiability
 
-**definition** a [[function]] $f$ is _differentiable_ at $a$ if $\delta f\ a - \delta x$ exists
+**definition** a [[function]] **`f`** is _differentiable_ at **`a`** if **`\d f a -- \d x`** exists
 
-**definition** a [[function]] is _differentiable_ on an interval $a \dashv \circ \dashv b$ if it is differentiable on every point from $a$ to $b$
+**definition** a [[function]] is _differentiable_ on an interval **`a -| * -| b`** if it is differentiable on every point from **`a`** to **`b`**
 
-**theorem** if $f\ x$ is not continuous at $x = a$, then it is not differentiable at $x = a$
+**theorem** if **`f x`** is not continuous at **`x = a`**, then it is not differentiable at **`x = a`**
 
-**theorem** if $f\ x$ is differentiable at $x = a$, then it is continuous at $x = a$
+**theorem** if **`f x`** is differentiable at **`x = a`**, then it is continuous at **`x = a`**
 
-**theorem** if $f\ x$ is continuous at $x = a$, then it may or may not be differentiable at $x = a$
+**theorem** if **`f x`** is continuous at **`x = a`**, then it may or may not be differentiable at **`x = a`**
 
 ## Logarithmic Differentiation
 
@@ -118,41 +118,41 @@ useful for computing the [[derivative]] of an [[exponent]]ial [[function]]
 
 **examples**
 
-> **example** _logarithmic differentiation of $x[\varepsilon[x]]$_
+> **example** _logarithmic differentiation of **`x[\e[x]]`**_
 >
-> $y = x[\varepsilon[x]]$
+> **`y = x[\e[x]]`**
 >
-> $\lceil y \rceil = \lceil x[\varepsilon[x]] \rceil = \lceil x \rceil \varepsilon[x]$
+> **`/y\ = /x[\e[x]]\ = /x\ \e[x]`**
 >
-> $\delta\ \lceil y \rceil - \delta x = \delta\ \lceil x \rceil \varepsilon[x] - \delta x$
+> **`\d /y\ -- \d x = \d /x\ \e[x] -- \d x`**
 >
-> $-y \mid \delta\ y - \delta x = \text-x\varepsilon[x] : \lceil x \rceil \varepsilon[x]$
+> **`--y | \d y -- \d x = -x\e[x] : /x\ \e[x]`**
 >
-> $\delta\ y - \delta x = x[\varepsilon[x]] \mid \text-x \varepsilon[x] : \lceil x \rceil \varepsilon[x]$
+> **`\d y -- \d x = x[\e[x]] | -x\e[x] : /x\ \e[x]`**
 >
 > the alternative would be the following, by transforming and using the chain [[derivative rules]]:
 >
-> $y = x[\varepsilon[x]]$
+> **`y = x[\e[x]]`**
 >
-> $x[\varepsilon[x]] = \varepsilon[\lceil x[\varepsilon[x]] \rceil] = \varepsilon[\lceil x \rceil \varepsilon[x]]$
+> **`x[\e[x]] = \e[ /x[\e[x]]\ ] = \e[ /x\ \e[x]]`**
 >
-> $\delta\ y - \delta x = \delta\ \varepsilon[\lceil x \rceil \varepsilon[x]] - \delta x$
+> **`\d y -- \d x = \d \e[ /x\ \e[x]] -- \d x`**
 >
-> $\delta\ y - \delta x = \varepsilon[\lceil x \rceil \varepsilon[x]] \mid \delta\ \lceil x \rceil \varepsilon[x] - \delta x$
+> **`\d y -- \d x = \e[ /x\ \e[x]] | \d /x\ \e[x] -- \d x`**
 >
-> $\delta\ y - \delta x = x[\varepsilon[x]] \mid \text-x \varepsilon[x] : \lceil x \rceil \varepsilon[x]$
+> **`\d y -- \d x = x[\e[x]] | -x\e[x] : /x\ \e[x]`**
 
-> **example** _logarithmic differentiation of $[x]x$_
+> **example** _logarithmic differentiation of **`[x]x`**_
 >
-> $y = [x]x$
+> **`y = [x]x`**
 >
-> $\lceil y \rceil = x \lceil x \rceil$
+> **`/y\ = x /x\`**
 >
-> $\delta\ \lceil y \rceil - \delta x = \delta\ x \lceil x \rceil - \delta x$
+> **`\d /y\ -- \d x = \d x /x\ -- \d x`**
 >
-> $-y \mid \delta y - \delta x = 1 : \lceil x \rceil$
+> **`--y | \d y -- \d x = 1 : /x\`**
 >
-> $\delta y - \delta x = y \mid 1 : \lceil x \rceil = [x]x \mid 1 : \lceil x \rceil$
+> **`\d y -- \d x = y | 1 : /x\ = [x]x | 1 : /x\`**
 
 ## Implicit Differentiation
 
@@ -160,22 +160,22 @@ differentiation of an implicit equation (where the dependent [[variable]] is not
 
 > **example**
 >
-> $x2 : y2 = 2$
+> **`x2 : y2 = 2`**
 >
-> $\delta\ (x2 : y2) - \delta x = \delta 2 - \delta x$
+> **`\d (x2 : y2) -- \d x = \d 2 -- \d x`**
 >
-> $2x : 2y(\delta y - \delta x) = 0$
+> **`2x : 2y(\d y -- \d x) = 0`**
 >
-> $\delta y - \delta x = \cdot x - y$
+> **`\d y -- \d x = .x -- y`**
 >
 > or alternatively,
 >
-> $x2 : y2 = 2$
+> **`x2 : y2 = 2`**
 >
-> $\delta x2 : \delta y2 = \delta 2$
+> **`\d x2 : \d y2 = \d 2`**
 >
-> $2x \delta x : 2y \delta y = 0$
+> **`2x \d x : 2y \d y = 0`**
 >
-> $\delta y - \delta x = \cdot x - y$
+> **`\d y -- \d x = .x -- y`**
 >
-> > **note** as both $x$ and $y$ are present in the equation, the [[derivative]] at $\cdot y$ will be different from the one at $y$
+> > **note** as both **`x`** and **`y`** are present in the equation, the [[derivative]] at **`.y`** will be different from the one at **`y`**

@@ -6,8 +6,8 @@ _the universal [[set]]_
 
 **definition**
 
-$\mathbb U x = \top$
+**`UU x = ^^`**
 
 **properties**
 
-$\mathbb U x =\!= +\braket{\ } =\!= +\ x \rightarrow \bot =\!= x \rightarrow \top$
+**`UU x == +{ } == +x -> __ == x -> ^^`**

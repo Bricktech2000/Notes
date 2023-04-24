@@ -10,15 +10,15 @@
 
 ### plane from 3 points
 
-find two [[vector in rn]]s on the [[plane]]. for example, $d_0 = p_1 \cdot p_0$ and $d_1 = p_2 \cdot p_1$
+find two [[vector in rn]]s on the [[plane]]. for example, **`d_0 = p_1 . p_0`** and **`d_1 = p_2 . p_1`**
 
 _continue below_
 
 ### Parametric Form
 
-using two direction [[vector in rn]]s on the [[plane]] $d_0$ and $d_1$ and a point $p_0$, we can derive the parametric equation of the [[plane]]
+using two direction [[vector in rn]]s on the [[plane]] **`d_0`** and **`d_1`** and a point **`p_0`**, we can derive the parametric equation of the [[plane]]
 
-$P = p_0 : t_0 d_0 : t_1 d_1 \land \mathbb R t_0 \land \mathbb R t_1$
+**`P = p_0 : t_0 d_0 : t_1 d_1 /\ RR t_0 /\ RR t_1`**
 
 ### plane from 2 vectors and point
 
@@ -30,11 +30,11 @@ _continue below_
 
 given that all the [[vector in rn]]s forming that [[plane]] must be perpendicular to a [[normal vector]],
 
-$\,: n (P \cdot p_0) = 0$, where
+**`:n(P . p_0) = 0`**, where
 
-- $n$ is a [[normal vector]]
-- $p_0$ is a point on the [[plane]]
-- $P$ is the [[plane]] itself, see [[dot product]]
+- **`n`** is a [[normal vector]]
+- **`p_0`** is a point on the [[plane]]
+- **`P`** is the [[plane]] itself, see [[dot product]]
 
 _continue below_
 
@@ -42,7 +42,7 @@ _continue below_
 
 using [[vector in rn]]3 in the above equation, we get
 
-$n^0 (P^0 \cdot p_0^0) : n^1 (P^1 \cdot p_0^1) : n^2 (P^2 \cdot p_0^2) = 0$
+**`n^0 (P^0 . p_0^0) : n^1 (P^1 . p_0^1) : n^2 (P^2 . p_0^2) = 0`**
 
 _continue below_
 
@@ -50,13 +50,13 @@ _continue below_
 
 rearranging the above equation,
 
-$n^0P^0 : n^1P^1 : n^2P^2 = n^0p_0^0 : n^1p_0^1 : n^2p_0^2$
+**`n^0 P^0 : n^1 P^1 : n^2 P^2 = n^0 p_0^0 : n^1 p_0^1 : n^2 p_0^2`**
 
-replacing right hand side with $d$,
+replacing right hand side with **`d`**,
 
-$n^0P^0 : n^1P^1 : n^2P^2 = d$
+**`n^0 P^0 : n^1 P^1 : n^2 P^2 = d`**
 
-from the general form, we can deduce $(n^0, n^1, n^2)$ is a [[normal vector]]
+from the general form, we can deduce **`(n^0 , n^1 , n^2)`** is a [[normal vector]]
 
 ### parallel, perpendicular, angles
 
@@ -76,4 +76,4 @@ to find the equation for a line, we need a direction [[vector in rn]] and a poin
 
 find the direction [[vector in rn]] by calculating the [[cross product]] of the [[plane]]s’ [[normal vector]]s (think of this intuitively)
 
-find the point by setting any one coordinate of the [[plane]]s to an arbitrary value, such as $0$ to get rid of it. then, solve the [[linear system]] of two equations
+find the point by setting any one coordinate of the [[plane]]s to an arbitrary value, such as **`0`** to get rid of it. then, solve the [[linear system]] of two equations

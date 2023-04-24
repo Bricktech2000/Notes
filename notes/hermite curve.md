@@ -4,7 +4,7 @@
 
 **see** [[math notation]], [[spline]], [[curve]]
 
-**definition** a _degree $n$ hermite curve_ is a degree $n$ [[polynomial]] specified in _hermite form_, that is, by its values and first [[derivative]]s at its endpoints &mdash; Wikipedia and me
+**definition** a _degree **`n`** hermite curve_ is a degree **`n`** [[polynomial]] specified in _hermite form_, that is, by its values and first [[derivative]]s at its endpoints &mdash; Wikipedia and me
 
 **representation**
 

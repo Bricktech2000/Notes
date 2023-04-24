@@ -14,7 +14,7 @@ fractions are hyphenated
 
 > **example**
 >
-> > one-third of employees [...]
+> > one-third of employees [&hellip;]
 
 adverbs ending in _ly_ are not hyphenated
 

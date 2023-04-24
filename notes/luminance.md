@@ -2,9 +2,9 @@
 
 **see** [[color science]], [[lightness]], [[cielab]], [[gamma correction]], [[math notation]]
 
-**notation** _[[international system of units]]_ $\text{cd} - \text{m}2$
+**notation** _[[international system of units]]_ **`"cd" -- "m"2`**
 
-**notation** $L$
+**notation** **`L`**
 
 **definition** in [[color science]], _luminance_ is a linear measurement of [[luminous intensity]] &mdash; Wikipedia
 

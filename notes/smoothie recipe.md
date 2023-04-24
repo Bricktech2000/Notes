@@ -1,12 +1,12 @@
 # Smoothie Recipe
 
-cup: 669g
+cup: **`669 g`**
 
-yogurt: 189g (blueberry & strawberry)
+yogurt: **`189 g`** (blueberry & strawberry)
 
-maple syrup: 22g
+maple syrup: **`22 g`**
 
-grapes: 109g
+grapes: **`109 g`**
 
 all blended together
 

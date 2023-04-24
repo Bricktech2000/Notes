@@ -12,14 +12,14 @@
 >
 > the following are [[metric space]]s:
 >
-> - the [[real]] [[line]] with Euclidean distance $a\ b \rightarrow |a \cdot b|$, see [[real#absolute value]]
-> - the [[real]] [[line]] with metric $a\ b \rightarrow \braket{1, 0}\ (a = b)$
-> - the [[real]] [[plane]] with Euclidean distance $a\ b \rightarrow |a \cdot b|$, see [[vector in rn#magnitude]]
-> - the [[real]] [[plane]] with Manhattan metric $a\ b \rightarrow \,: |(a \cdot b)\ \smash\circ|$, see [[real#absolute value]], [[composition]]
-> - the [[real]] [[plane]] with Chebyshev metric $a\ b \rightarrow \,\lor\ |(a \cdot b)\ \smash\circ|$, see [[real#absolute value]], [[composition]]
-> - a [[sphere]] with angular distance $a\ b \rightarrow \operatorname{acos}\ (|\,: ab| - |a| |b|)$, see [[vector in rn#angle]]
-> - normed [[vector space]]s with metric $a\ b \rightarrow |a \cdot b|$ where $\braket{||}$ is the norm of the [[vector space]]
-> - the [[p-adic]]s with metric $a\ b \rightarrow |a \cdot b|^p$, see [[p-adic#absolute value]]
+> - the [[real]] [[line]] with Euclidean distance **`a b -> ||a . b||`**, see [[real#absolute value]]
+> - the [[real]] [[line]] with metric **`a b -> {1, 0} (a = b)`**
+> - the [[real]] [[plane]] with Euclidean distance **`a b -> ||a . b||`**, see [[vector in rn#magnitude]]
+> - the [[real]] [[plane]] with Manhattan metric **`a b -> :||(a . b) *||`**, see [[real#absolute value]], [[composition]]
+> - the [[real]] [[plane]] with Chebyshev metric **`a b -> \/||(a . b) *||`**, see [[real#absolute value]], [[composition]]
+> - a [[sphere]] with angular distance **`a b -> "acos" (||:ab|| -- ||a|| ||b||)`**, see [[vector in rn#angle]]
+> - normed [[vector space]]s with metric **`a b -> ||a . b||`** where **`{||}`** is the norm of the [[vector space]]
+> - the [[p-adic]]s with metric **`a b -> |a . b|^p`**, see [[p-adic#absolute value]]
 
 ## Metric
 
@@ -27,17 +27,17 @@
 
 **definition**
 
-a [[metric space#metric]] $d$ must satisfy the following [[axiom]]s for all $M\ x \land M\ y \land M\ z$:
+a [[metric space#metric]] **`d`** must satisfy the following [[axiom]]s for all **`M x /\ M y /\ M z`**:
 
-$d\ x\ x = 0$
+**`d x x = 0`**
 
-_positive_ $d\ x\ y \vdash 0$
+_positive_ **`d x y |- 0`**
 
-_symmetric_ $d\ x\ y = d\ y\ x$
+_symmetric_ **`d x y = d y x`**
 
 > **equivalence** _[[metric space]] symmetry and [[relation#symmetric relation]]_
 
-_triangle inequality_ $d\ x\ z \dashv d\ x\ y : d\ y\ z$
+_triangle inequality_ **`d x z -| d x y : d y z`**
 
 > **equivalence** _[[metric space]] triangle inequality and [[relation#transitive relation]]_
 
@@ -45,31 +45,31 @@ _triangle inequality_ $d\ x\ z \dashv d\ x\ y : d\ y\ z$
 
 **see** [[sequence]], [[sequence#convergence]]
 
-**definition** a [[sequence]] $x$ in a [[metric space]] converges to a point $a$ if for every $\varepsilon\ \braket{\vdash \land +}\ 0$ there exists an $N$ such that $d\ x^n\ a \dashv \varepsilon < n \vdash N$
+**definition** a [[sequence]] **`x`** in a [[metric space]] converges to a point **`a`** if for every **`\e {|-/\+} 0`** there exists an **`N`** such that **`d x^n a -| \e < n |- N`**
 
 ## Cauchy Sequence
 
 **see** [[sequence]], [[sequence#convergence]]
 
-**definition** a [[sequence]] $x$ in a [[metric space]] is called _Cauchy_ if for all $\varepsilon\ \braket{\vdash \land +}\ 0$ there exists an $N$ such that $d\ x^m\ x^n \dashv \varepsilon < n \vdash N \land m \vdash N$
+**definition** a [[sequence]] **`x`** in a [[metric space]] is called _Cauchy_ if for all **`\e {|-/\+} 0`** there exists an **`N`** such that **`d x^m x^n -| \e < n |- N /\ m |- N`**
 
 **theorem** by the _triangle inequality_, any [[metric space#convergent sequence]] is _Cauchy_.
 
 ## Complete Metric Space
 
-**definition** a [[metric space]] $M$ is called _complete_ if every [[metric space#cauchy sequence]] in $M$ is a [[metric space#convergent sequence]] in $M$
+**definition** a [[metric space]] **`M`** is called _complete_ if every [[metric space#cauchy sequence]] in **`M`** is a [[metric space#convergent sequence]] in **`M`**
 
 > **example** the [[real]] [[line]] with Euclidean distance is complete
 
-> **example** the [[rational]]s with [[real#absolute value]] is not complete. for example, the [[sequence]] $(6\text-1, 62\text-10, 628\text-100, \cdots)$ approaching $\tau$ is Cauchy with respect to the [[real#absolute value]] but does not converge to any [[rational]] number
+> **example** the [[rational]]s with [[real#absolute value]] is not complete. for example, the [[sequence]] **`(6-1, 62-10, 628-100, .s)`** approaching **`\t`** is Cauchy with respect to the [[real#absolute value]] but does not converge to any [[rational]] number
 
-> **example** the [[rational]]s with [[p-adic#abolute value]] is not complete. for example, the [[sequence]] $([5]0, [5]0 : [5]1, [5]0 : [5]1 : [5]2, \cdots)$ is Cauchy with respect to the $5$-adic metric but does not converge to any [[rational]] number
+> **example** the [[rational]]s with [[p-adic#abolute value]] is not complete. for example, the [[sequence]] **`([5]0, [5]0 : [5]1, [5]0 : [5]1 : [5]2, ...)`** is Cauchy with respect to the **`5`**-adic metric but does not converge to any [[rational]] number
 
 ### Completion
 
 &mdash; <http://sites.iiserpune.ac.in/~supriya/teaching/Topology-MTH322/files/Completion.pdf>
 
-**definition** the _completion_ of a [[metric space]] $M$ is the complete [[metric space]] $M'$ with a [[set#superset]] of the points of $M$ and the same [[metric space#metric]] as $M$
+**definition** the _completion_ of a [[metric space]] **`M`** is the complete [[metric space]] **`M_*`** with a [[set#superset]] of the points of **`M`** and the same [[metric space#metric]] as **`M`**
 
 **theorem** every [[metric space]] has a completion
 

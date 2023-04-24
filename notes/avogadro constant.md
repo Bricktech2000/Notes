@@ -2,4 +2,4 @@
 
 **see** [[math notation]]
 
-> **constant** $6\ 022\text-1000 \shortmid 10[23] - \text{mol}$
+> **constant** **`6 022-1000 ' 10[23] -- "mol"`**

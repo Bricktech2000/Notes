@@ -98,7 +98,7 @@ nothing happened...
 | **y**2*w* &emsp; | yank two words   |
 | **y**\_          | yank line        |
 | **d**2\_         | delete two lines |
-| $\dots$          | $\dots$          |
+| &hellip;         | &hellip;         |
 
 <?
 easy to remember, switch keyboard layouts

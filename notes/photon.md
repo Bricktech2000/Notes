@@ -1,3 +1,3 @@
 # Photon
 
-**notation** $\gamma$
+**notation** **`\g`**

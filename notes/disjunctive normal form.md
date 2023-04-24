@@ -13,7 +13,7 @@
 > **see** [[boolean algebra]]
 >
 > 1. build a [[truth table]] using the [[boolean]] expression
-> 2. write a conjunctive clause for each $\top$ row of the [[truth table]]
+> 2. write a conjunctive clause for each **`^^`** row of the [[truth table]]
 > 3. join the conjunctive clauses using disjunctions
 
 ## standard sum of products
@@ -22,4 +22,4 @@
 
 **applications**
 
-Sums of Products can be used to easily convert a [[boolean]] expression to only NOR [[logic gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that $\times A =\!= \times\ A \lor A$, see [[boolean algebra]]
+Sums of Products can be used to easily convert a [[boolean]] expression to only NOR [[logic gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that **`>< A == >< A \/ A`**, see [[boolean algebra]]

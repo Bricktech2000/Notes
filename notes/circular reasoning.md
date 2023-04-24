@@ -6,7 +6,7 @@
 
 **definition** _circular reasoning_ is a fallacy in which the reasoner assumes what they are trying to prove. _there is no reason to accept the premises unless already convinced of the conclusion_ &mdash; <https://en.wikipedia.org/wiki/Circular_reasoning>
 
-[[circular reasoning]] is often of the form $(A \dashv B < B) \land (B \dashv A < A)$; _$A$ is true because of $B$, and $B$ is true because of $A$_
+[[circular reasoning]] is often of the form **`(A -| B < B) /\ (B -| A < A)`**; _**`A`** is true because of **`B`**, and **`B`** is true because of **`A`**_
 
 > **examples** &mdash; <https://www.grammarly.com/blog/circular-argument-fallacy/>
 >

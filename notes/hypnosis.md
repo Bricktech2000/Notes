@@ -38,7 +38,7 @@ _meditation with utilization_
 > - telling the subject to drop deeper into their state of relaxation &mdash; you drop their hand down and let it hang loosely so they actually feel more relaxed &mdash; <https://youtu.be/47RAZ2eEdhA?t=61>
 > - looking like you know what you are doing &mdash; speaking confidently, and acting as if a trick worked when it doesn't and using another technique to convince the subject further &mdash; <https://youtu.be/47RAZ2eEdhA?t=151>
 >
-> surprise can also be used to incease a subject's responsiveness to suggestion. this is most effective when the subject is focused and relaxed, gets surprised, and is given a suggestion $\text- 8$ of a second later &mdash; <https://youtu.be/eDqpWJ-Zcw0>
+> surprise can also be used to incease a subject's responsiveness to suggestion. this is most effective when the subject is focused and relaxed, gets surprised, and is given a suggestion **`--8`** of a second later &mdash; <https://youtu.be/eDqpWJ-Zcw0>
 >
 > common techniques include &mdash; with examples:
 >

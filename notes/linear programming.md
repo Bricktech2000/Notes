@@ -6,13 +6,13 @@ _used to optimize a [[function]] through a set of linear constraints_
 
 > **example** _a problem that can be solved by [[linear programming]]_
 >
-> $f\ x\ y = 180x : 200y$
+> **`f x y = 180x : 200y`**
 >
-> $5x : 4y \dashv 80$
+> **`5x : 4y -| 80`**
 >
-> $10x : 20y \dashv 200$
+> **`10x : 20y -| 200`**
 >
-> $x \vdash 0 \land y \vdash 0$
+> **`x |- 0 /\ y |- 0`**
 
 ## Feasible Region
 
