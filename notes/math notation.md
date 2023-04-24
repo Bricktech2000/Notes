@@ -26,7 +26,7 @@ let:
 - **`M`** be a [[matrix]]
 - **`V`** be a [[vector]]
 - **`P`** be an [[ordered pair]]
-- **`M'`** be a [[multiset]]
+- **`M_*`** be a [[multiset]]
 - **`G`** be a [[graph]]
 - **`E`** be an [[expression]]
 - **`x`** be a [[variable]]
@@ -85,7 +85,7 @@ let:
 | **`x_"sub"`**                                                | the [[variable]] **`x`** with a subscript **`_"sub"`**       |                                                              |
 | **`A^i`** <br /> **`B^i`** <br /> **`V^n`** <br /> **`P^b`** | **`A i`** <br /> **`B i`** <br /> **`V n`** <br /> **`P b`** | to be used for indices                                       |
 | **`M^i,j`** <br /> **`G^a,b`**                               | **`M i j`** <br /> **`G a b`**                               | to be used for indices                                       |
-| **`S a`** <br /> **`M_* a`** <br /> **`G a`**                | **`S a`** <br /> **`M_* a`** <br /> **`G a`**                | to be used for membership                                    |
+| **`S a`** <br /> **`M_*  a`** <br /> **`G a`**               | **`S a`** <br /> **`M_*  a`** <br /> **`G a`**               | to be used for membership                                    |
 | **`{\*}`**                                                   | **`\*`** [[operator]] as a non-infix [[function]]            | works with any [[operator]]                                  |
 | **`@`**                                                      | _undefined_                                                  | see [[improved expression evaluation]]                       |
 | **`@@`**                                                     | _infinity_                                                   |                                                              |
@@ -110,7 +110,7 @@ let:
 | **`ax`**                    | **`a'x`**                                                          |                                                             |
 | **` [a]`**                  | **`\e[a]`**                                                        | [[exponent]]ial                                             |
 | **`x\w`**                   | **`[x]\w`**                                                        |                                                             |
-| **`\ a /`**                 | **`\a/ 2`**                                                        | square root                                                 |
+| **`\ a /`**                 | **`\ a / 2`**                                                      | square root                                                 |
 | **`/a\`**                   | **`/a\ \e`**                                                       | natural [[logarithm]]                                       |
 | **`->E`**                   | **`* ->  E`**                                                      | [[combinatory logic#k combinator]]                          |
 | **`x y -> E`**              | **`x -> y -> E`**                                                  |                                                             |
@@ -171,20 +171,20 @@ _in order of high to low precedence_
 
 ### comparison with conventional notation
 
-| description                                 | in this [[math notation]]                   | in [[conventional math notation]]                                                                        |
-| ------------------------------------------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| the [[quadratic formula]]                   | **`x = .b : \ b2.4ac / -- 2a`**             | $\displaystyle x_{1, 2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$                                            |
-| definition of [[complex]] numbers           | **`CC x == x = a : b\i /\ RR a /\ RR b`**   | $\displaystyle \mathbb C = \{a + bi : a, b \in \mathbb R\}$                                              |
-| the [[gaussian function]]                   | **`G^\s p = -- \s \\t/ -- [: p2 -- 2\s2]`** | $\displaystyle G(x, y, \dots) = \frac{1}{\sqrt{2 \pi\sigma^2}} e^{-\frac{x^2 + y^2 + \dots}{2\sigma^2}}$ |
-| [[limit]] form of a [[derivative]]          | **`f x . f a -- x . a {x -> a}`**           | $\displaystyle \lim_{h \rightarrow 0} \frac{f(x + h) - f(x)}{h}$                                         |
-| definition of factorials                    | **`"fact" n = 1 \| ... n`**                 | $\displaystyle n! = \prod_{i = 1}^n i$                                                                   |
-| the resonant [[frequency]] of an LC circuit | **`f = -- \t \"LC"/`**                      | $\displaystyle f = \frac{1}{2 \pi \sqrt{LC}}$                                                            |
-| definition of the [[dot product]]           | **`:xy`**                                   | $\displaystyle x \cdot y  = \sum_{i=1}^n x_i y_i$                                                        |
-| definition of the [[outer product]]         | **`x * \| y *`**                            | $\displaystyle (x \otimes y)_{i, j}  = x_i \times y_j$                                                   |
-| definition of the [[cartesian product]]     | **`__ (x, y) *`**                           | $\displaystyle x \times y = \lbrace (x, y) \mid x \in X \text{ and } y \in Y \rbrace$                    |
-| definition of [[vector in rn#magnitude]]    | **`\|\|v\|\| = \:v2/`**                     | $\displaystyle \vert v \vert = \sqrt{x^2 + y^2 + \dots}$ with $v = (x, y, \dots)$                        |
-| definition of [[set]] difference            | **`A /\ +B`**                               | $\displaystyle A \setminus B = \{x \in A : x \notin B\}$                                                 |
-| the [[p-adic#absolute value]]               | **`\|\|n\|\|^p = --p[\y n p]`**             | not really doable in a concise way without using plain English                                           |
+| description                                 | in this [[math notation]]                  | in [[conventional math notation]]                                                                        |
+| ------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| the [[quadratic formula]]                   | **`x = .b : \ b2.4ac / -- 2a`**            | $\displaystyle x_{1, 2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$                                            |
+| definition of [[complex]] numbers           | **`CC x == x = a : b\i /\ RR a /\ RR b`**  | $\displaystyle \mathbb C = \{a + bi : a, b \in \mathbb R\}$                                              |
+| the [[gaussian function]]                   | **`G^\s p = -- \s \\t/ -- [:p2 -- 2\s2]`** | $\displaystyle G(x, y, \dots) = \frac{1}{\sqrt{2 \pi\sigma^2}} e^{-\frac{x^2 + y^2 + \dots}{2\sigma^2}}$ |
+| [[limit]] form of a [[derivative]]          | **`f x . f a -- x . a {x -> a}`**          | $\displaystyle \lim_{h \rightarrow 0} \frac{f(x + h) - f(x)}{h}$                                         |
+| definition of factorials                    | **`"fact" n = 1 \| ... n`**                | $\displaystyle n! = \prod_{i = 1}^n i$                                                                   |
+| the resonant [[frequency]] of an LC circuit | **`f = -- \t \"LC"/`**                     | $\displaystyle f = \frac{1}{2 \pi \sqrt{LC}}$                                                            |
+| definition of the [[dot product]]           | **`:xy`**                                  | $\displaystyle x \cdot y  = \sum_{i=1}^n x_i y_i$                                                        |
+| definition of the [[outer product]]         | **`x * \| y *`**                           | $\displaystyle (x \otimes y)_{i, j}  = x_i \times y_j$                                                   |
+| definition of the [[cartesian product]]     | **`__ (x, y) *`**                          | $\displaystyle x \times y = \lbrace (x, y) \mid x \in X \text{ and } y \in Y \rbrace$                    |
+| definition of [[vector in rn#magnitude]]    | **`\|\|v\|\| = \:v2/`**                    | $\displaystyle \vert v \vert = \sqrt{x^2 + y^2 + \dots}$ with $v = (x, y, \dots)$                        |
+| definition of [[set]] difference            | **`A /\ +B`**                              | $\displaystyle A \setminus B = \{x \in A : x \notin B\}$                                                 |
+| the [[p-adic#absolute value]]               | **`\|\|n\|\|^p = --p[\y n p]`**            | not really doable in a concise way without using plain English                                           |
 
 definition of the [[boolean algebra#implication]] / [[set#subset]] / [[set#superset]] / [[quantifier#universal quantifier]] in this [[math notation]]: **`a -| b == +a \/ b`** and **`a |- b == a \/ +b`**
 

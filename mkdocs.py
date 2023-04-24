@@ -14,11 +14,12 @@ def h2a(string):
 
 def l2e(string):
   # link to escaped
-  return re.sub(r' ', r'%20', string)
+  split = string.split('#', 1) + ['']
+  return re.sub(r' ', r'%20', split[0]) + '#' + re.sub(r' ', r'-', split[1])
 
 
 def t2e(string):
-    # text to escaped
+  # text to escaped
   return '&CHAR'.join(string)
 
 
@@ -142,32 +143,32 @@ def parse_math(string):
   string = re.sub(r'_([^\s_\^\)\}\]\|]*)\s?', r'_&LBRA\1&RBRA', string)
   string = re.sub(r'\^([^\s_\^\)\}\]\|]*)\s?', r'^&LBRA\1&RBRA', string)
 
-  string = re.sub(r'\s?:\s?', r':', string)
-  string = re.sub(r'\s?\.\s?', r'&BScdot&SPACE', string)
-  string = re.sub(r'\s?\'\s?', r'&BSsmash&BSshortmid&SPACE', string)
-  string = re.sub(r'\s?--\s?', r'&DASH', string)
+  string = re.sub(r':|\s:\s', r':', string)
+  string = re.sub(r'\.|\s\.\s', r'&BScdot&SPACE', string)
+  string = re.sub(r"'|\s'\s", r'&BSsmash&BSshortmid&SPACE', string)
+  string = re.sub(r'--|\s--\s', r'&DASH', string)
   string = re.sub(r'\[\](.*?)\[\]', r'&BSbegin&LBRAbmatrix&RBRA\1&BSend&LBRAbmatrix&RBRA', string)
   string = re.sub(r'\[', r'[', string)
   string = re.sub(r'\]', r']', string)
-  string = re.sub(r'\s?->\s?', r'&BSrightarrow&SPACE', string)
-  string = re.sub(r'\s?<-\s?', r'&BSleftarrow&SPACE', string)
-  string = re.sub(r'\s?==\s?', r'=&BS!=', string)
-  string = re.sub(r'\s?=\s?', r'=', string)
-  string = re.sub(r'\s?\+\s?', r'+', string)
-  string = re.sub(r'\s?><\s?', r'&BStimes&SPACE', string)
-  string = re.sub(r'\s?-\|\s?', r'&BSdashv&SPACE', string)
-  string = re.sub(r'\s?<\s?', r'<', string)
-  string = re.sub(r'\s?\|-\s?', r'&BSvdash&SPACE', string)
-  string = re.sub(r'\s?>\s?', r'>', string)
+  string = re.sub(r'->|\s->\s', r'&BSrightarrow&SPACE', string)
+  string = re.sub(r'<-|\s<-\s', r'&BSleftarrow&SPACE', string)
+  string = re.sub(r'==|\s==\s', r'=&BS!=', string)
+  string = re.sub(r'=|\s=\s', r'=', string)
+  string = re.sub(r'\+|\s\+\s', r'+', string)
+  string = re.sub(r'><|\s><\s', r'&BStimes&SPACE', string)
+  string = re.sub(r'-\||\s-\|\s', r'&BSdashv&SPACE', string)
+  string = re.sub(r'<|\s<\s', r'<', string)
+  string = re.sub(r'\|-|\s\|-\s', r'&BSvdash&SPACE', string)
+  string = re.sub(r'>|\s>\s', r'>', string)
   string = re.sub(r'{{', r'&BSbraket&LBRA&BSbraket&LBRA', string)
   string = re.sub(r'{', r'&BSbraket&LBRA', string)
   string = re.sub(r'}}', r'&RBRA&RBRA', string)
   string = re.sub(r'}', r'&RBRA', string)
-  string = re.sub(r'\s?\*\s?', r'*', string)
+  string = re.sub(r'\*|\s\*\s', r'*', string)
 
-  string = re.sub(r'\s?\|\|\s?', r'&BSvert&SPACE', string)
-  string = re.sub(r'\s?\|\s?', r'&BSmid&SPACE', string)
-  string = re.sub(r'\s?-\s?', r'&BStext&DASH', string)
+  string = re.sub(r'\|\||\s\|\|\s', r'&BSvert&SPACE', string)
+  string = re.sub(r'\||\s\|\s', r'&BSmid&SPACE', string)
+  string = re.sub(r'-|\s-\s', r'&BStext&DASH', string)
 
   string = re.sub(r'^ | $', r'', string)
   string = re.sub(r'^&SPACE|&SPACE$', r'', string)

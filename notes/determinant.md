@@ -10,17 +10,17 @@
 
 **`"det" A = "det" (\r A)`**, see [[matrix#transpose]]
 
-**`"det" cA = c^n | "det" A`**, where **`n`** is the width and height of the [[matrix]]
+**`"det" cA = [c]n | "det" A`**, where **`n`** is the width and height of the [[matrix]]
 
 **properties**
 
 **see** [[linear system#elementary operation]]
 
-_adding a multiple of a row or column to another row or column_ **`"det" A = "det" A'`**
+_adding a multiple of a row or column to another row or column_ **`"det" A = "det" A_*`**
 
-_swapping any two rows or two columns_ **`"det" A = ."det" A'`**
+_swapping any two rows or two columns_ **`"det" A = ."det" A_*`**
 
-_multiplying a row or a column by a [[scalar]] **`c`**_ **`"det" A = c"det" A'`**
+_multiplying a row or a column by a [[scalar]] **`c`**_ **`"det" A = c"det" A_*`**
 
 #todo mm
 
@@ -36,7 +36,7 @@ _multiplying a row or a column by a [[scalar]] **`c`**_ **`"det" A = c"det" A'`*
 
 **`"det" -A = -"det" A`** if and only if **`A`** is invertible, see [[matrix]]
 
-> **note** the equation above is beautiful, as in [[conventional math notation]], $A^{-1}$ is a [[matrix#inverse]] whereas $"det"(A)^{-1}$ is $\frac 1 {"det"(A)}$
+> **note** the equation above is beautiful, as in [[conventional math notation]], $A^{-1}$ is a [[matrix#inverse]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
 
 ## Computation
 
