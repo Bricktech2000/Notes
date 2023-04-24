@@ -58,7 +58,7 @@ even if **`A`** is related to **`B`** by a morphism, **`B`** is not necessarily 
 
 ### Isomorphism
 
-**definition** an _isomorphism_ is a [[category#morphism]] with a corresponding inverse. let **`cc^A,B f`** and let **`cc^B,A f_*`**. then, there exists an _isomorphism_ between **`A`** and **`B`** if and only if **`f f_* * = "id"_B /\ f' f * = "id"_A`**
+**definition** an _isomorphism_ is a [[category#morphism]] with a corresponding inverse. let **`cc^A,B f`** and let **`cc^B,A f_*`**. then, there exists an _isomorphism_ between **`A`** and **`B`** if and only if **`f f_* * = "id"_B /\ f_* f * = "id"_A`**
 
 **definition** if there exists a [[category#isomorphism]] between two [[category#object]]s **`A`** and **`B`**, they are said to be _isomorphic_
 
