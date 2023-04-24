@@ -4,25 +4,25 @@
 
 **definition**
 
-let $(x, y)$ be a point on the unit [[circle]] and let $\theta$ be the [[angle]] from the positive x-axis counterclockwise to that point. then,
+let **`(x, y)`** be a point on the unit [[circle]] and let **`\q`** be the [[angle]] from the positive x-axis counterclockwise to that point. then,
 
-$x = \cos \theta \land y - \sin \theta$, and $\tan \theta = \sin \theta - \cos \theta$
+**`x = "cos" \q /\ y = "sin" \q`**, and **`"tan" \q = "sin" \q -- "cos" \q`**
 
 > **[[mnemonic]]** SOHCAHTOA
 
 **properties**
 
-_[[function#periodic function]]_ $\sin (\theta : \tau) = \sin \theta$
+_[[function#periodic function]]_ **`"sin" (\q : \t) = "sin" \q`**
 
-_[[function#periodic function]]_ $\cos (\theta : \tau) = \cos \theta$
+_[[function#periodic function]]_ **`"cos" (\q : \t) = "cos" \q`**
 
-_[[function#periodic function]]_ $\tan (\theta : \text-2\tau) = \tan \theta$
+_[[function#periodic function]]_ **`"tan" (\q : -2\t) = "tan" \q`**
 
-_[[function#even function]]_ $\cos (\cdot \theta) = \cos \theta$
+_[[function#even function]]_ **`"cos" (.\q) = "cos" \q`**
 
-_[[function#odd function]]_ $\sin (\cdot \theta) = \cdot \sin \theta$
+_[[function#odd function]]_ **`"sin" (.\q) = ."sin" \q`**
 
-_[[function#odd function]]_ $\tan (\cdot \theta) = \cdot \tan \theta$
+_[[function#odd function]]_ **`"tan" (.\q) = ."tan" \q`**
 
 ## inverse functions
 
@@ -30,27 +30,27 @@ _[[function#odd function]]_ $\tan (\cdot \theta) = \cdot \tan \theta$
 
 **definitions**
 
-$y = \sin x =\!= x = \operatorname{asin} y : \tau n \land \mathbb Z n$
+**`y = "sin" x == x = "asin" y : \tn /\ ZZ n`**
 
-$y = \cos x =\!= x = \operatorname{acos} y : \tau n \land \mathbb Z n$
+**`y = "cos" x == x = "acos" y : \tn /\ ZZ n`**
 
-$y = \tan x =\!= x = \operatorname{atan} y : \text-2\tau n \land \mathbb Z n$
+**`y = "tan" x == x = "atan" y : -2\tn /\ ZZ n`**
 
 ## reciprocal functions
 
 **see** [[function#reciprocal]]
 
-$\text-\sin \theta$
+**`-"sin" \q`**
 
-$\text-\cos \theta$
+**`-"cos" \q`**
 
-$\text-\tan \theta$
+**`-"tan" \q`**
 
-$\text-\operatorname{asin} x$
+**`-"asin" x`**
 
-$\text-\operatorname{acos} x$
+**`-"acos" x`**
 
-$\text-\operatorname{atan} x$
+**`-"atan" x`**
 
 ## identities
 
@@ -62,17 +62,17 @@ $\text-\operatorname{atan} x$
 
 ### pythagorean identities
 
-$[\sin \theta]2 : [\cos \theta]2 = 1$
+**`["sin" \q]2 : ["cos" \q]2 = 1`**
 
-$[\tan \theta]2 : 1 = [\text-\cos \theta]2$ &mdash; derived by dividing by $\cos \theta$
+**`["tan" \q]2 : 1 = [-"cos" \q]2`** &mdash; derived by dividing by **`"cos" \q`**
 
-$[\text-\tan \theta]2 : 1 = [\text-\sin \theta]2$ &mdash; derived by dividing by $\sin \theta$
+**`[-"tan" \q]2 : 1 = [-"sin" \q]2`** &mdash; derived by dividing by **`"sin" \q`**
 
 ### angle sum identities
 
-$\sin (x : y) = (\sin x \mid \cos y) : (\cos x \mid \sin y)$
+**`"sin" (x : y) = ("sin" x | "cos" y) : ("cos" x | "sin" y)`**
 
-$\cos (x : y) = (\cos x \mid \cos y) \cdot (\sin x \mid \sin y)$
+**`"cos" (x : y) = ("cos" x | "cos" y) .("sin" x | "sin" y)`**
 
 difference identities can be computed using the sum identities above
 
@@ -80,42 +80,42 @@ difference identities can be computed using the sum identities above
 
 ### double- and half-angle identities
 
-$\sin 2x = 2\ | \ \sin x \mid \cos x$ &mdash; derived from angle sum identities
+**`"sin" 2x = 2 | "sin" x | "cos" x`** &mdash; derived from angle sum identities
 
-$\cos 2x = [\cos x]2 \cdot [\sin x]2$ &mdash; derived from angle sum identities
+**`"cos" 2x = ["cos" x]2 .["sin" x]2`** &mdash; derived from angle sum identities
 
-$\cos 2x = 1 \cdot 2[\sin x]2$ &mdash; derived by substituting by the pythagorean identity
+**`"cos" 2x = 1 .2["sin" x]2`** &mdash; derived by substituting by the pythagorean identity
 
-$\cos 2x = 2[\cos x]2 \cdot 1$ &mdash; derived by substituting by the pythagorean identity
+**`"cos" 2x = 2["cos" x]2 . 1`** &mdash; derived by substituting by the pythagorean identity
 
-$[\sin x]2 = 1 \cdot \cos 2x - 2$ &mdash; derived by solving for $[\sin x]2$
+**`["sin" x]2 = 1 . "cos" 2x -- 2`** &mdash; derived by solving for **`["sin" x]2`**
 
-$[\cos x]2 = 1 : \cos 2x - 2$ &mdash; derived by solving for $[\cos x]2$
+**`["cos" x]2 = 1 : "cos" 2x -- 2`** &mdash; derived by solving for **`["cos" x]2`**
 
 ## cosine and sine "law"s
 
-**theorem** _sine law_ let a triangle with sides $A, B, C$ and [[angle]]s $a, b, c$ where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, $\sin a - A = \sin b - B = \sin c - C$
+**theorem** _sine law_ let a triangle with sides **`A, B, C`** and [[angle]]s **`a, b, c`** where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, **`"sin" a -- A = "sin" b -- B = "sin" c -- C`**
 
-**theorem** _cosine law_ let a triangle with sides $A, B, C$ and [[angle]]s $a, b, c$ where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, $a2 = b2 : c2 \cdot 2bc \cos A$
+**theorem** _cosine law_ let a triangle with sides **`A, B, C`** and [[angle]]s **`a, b, c`** where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, **`a2 = b2 : c2 . 2bc"cos" A`**
 
 ## Derivatives
 
 **see** [[derivative]]
 
-$\delta\ \sin x - \delta x = \cos x$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21115>
+**`\d "sin" x -- \d x = "cos" x`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21115>
 
-$\delta\ \cos x - \delta x = \cdot \sin x$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21193>
+**`\d "cos" x -- \d x = ."sin" x`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21193>
 
-$\delta\ \tan x - \delta x = [\text-\cos x]2$
+**`\d "tan" x -- \d x = [-"cos" x]2`**
 
-$\delta\ \text-\sin x - \delta x = \cdot \mid \text-\sin x \mid \text-\tan x$
+**`\d -"sin" x -- \d x = . | -"sin" x | -"tan" x`**
 
-$\delta\ \text-\cos x - \delta x = \text-\cos\ x \mid \tan x$
+**`\d -"cos" x -- \d x = -"cos" x | "tan" x`**
 
-$\delta\ \text-\tan x - \delta x = \cdot [\text-\sin x]2$
+**`\d -"tan" x -- \d x = .[-"sin" x]2`**
 
-$\delta\ \operatorname{asin} x - \delta x = -\lfloor 1 \cdot x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29016>
+**`\d "asin" x -- \d x = -- \1.x2/`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29016>
 
-$\delta\ \operatorname{acos} x - \delta x = \cdot -\lfloor 1 \cdot x2 \rfloor$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29111>
+**`\d "acos" x -- \d x = . -- \1.x2/`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29111>
 
-$\delta\ \operatorname{atan} x - \delta x = - 1 : x2$ &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29233>
+**`\d "atan" x -- \d x = -- 1 : x2`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29233>

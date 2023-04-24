@@ -10,108 +10,108 @@
 
 **definition**
 
-let $\mathbb M^{n, n} A \land \mathbb N n \land \mathbb R \lambda \land \mathbb R^n x \land x + O$
+let **`MM^n,n A /\ NN n /\ RR \l /\ RR^n x /\ x + O`**
 
-if $Ax = \lambda x$, then $x$ is an [[eigen#vector]] of $A$ and $\lambda$ is its corresponding [[eigen#value]]
+if **`Ax = \lx`**, then **`x`** is an [[eigen#vector]] of **`A`** and **`\l`** is its corresponding [[eigen#value]]
 
 **theorems**
 
-let $\mathbb M^{n, n} A \land \mathbb N n$
+let **`MM^n,n A /\ NN n`**
 
 **theorem** there are infinitely many [[eigen#vector]]s for each [[eigen#value]]
 
 **theorem** all [[eigen#vector]]s together with the zero [[vector]] form a [[vector space]]
 
-**theorem** the [[characteristic polynomial]] $\det\ (A \cdot \lambda I)$ is a [[polynomial]] of degree $n$, meaning it has at most $n$ distinct [[function#root]]s by the [[fundamental theorem of algebra]]
+**theorem** the [[characteristic polynomial]] **`"det" (A . \lI)`** is a [[polynomial]] of degree **`n`**, meaning it has at most **`n`** distinct [[function#root]]s by the [[fundamental theorem of algebra]]
 
-**theorem** $A$ has at most $n$ distinct [[eigen#value]]s
+**theorem** **`A`** has at most **`n`** distinct [[eigen#value]]s
 
-**theorem** each [[eigen#value]] of $A$ gives an [[eigen#space]] of [[vector space#dimension]] greater than $0$
+**theorem** each [[eigen#value]] of **`A`** gives an [[eigen#space]] of [[vector space#dimension]] greater than **`0`**
 
-**theorem** any [[set]] consisting of [[eigen#vector]]s of $A$ corresponding to **distinct [[eigen#value]]s** is [[linearly independent]]
+**theorem** any [[set]] consisting of [[eigen#vector]]s of **`A`** corresponding to **distinct [[eigen#value]]s** is [[linearly independent]]
 
 **procedures**
 
 > **procedure** _finding [[eigen#value]]s_
 >
-> $Ax = \lambda x$
+> **`Ax = \lx`**
 >
 > rewriting into a homogeneous [[linear system]]
 >
-> $Ax \cdot \lambda x = O$
+> **`Ax . \lx = O`**
 >
-> $Ax \cdot \lambda I x = O$
+> **`Ax . \lIx = O`**
 >
-> factoring out $x$
+> factoring out **`x`**
 >
-> $A \cdot \lambda I \mid x = O$
+> **`A . \lI | x = O`**
 >
-> the equation above is a homogeneous [[linear system]] where $A \cdot \lambda I$ is the _coefficient matrix_
+> the equation above is a homogeneous [[linear system]] where **`A . \lI`** is the _coefficient matrix_
 >
-> recall that a homogeneous [[linear system]] can have either a unique solution (with $x = O$, which is not a valid [[eigen#vector]] as per the definition) or an infinite number of solutions (which we can achieve by picking the right values for $\lambda$). for a homogeneous [[linear system]] to have an infinite number of solutions, its coefficient matrix rows (and therefore columns) must be [[linearly independent]], or the [[determinant]] of its coefficient matrix must be equal to $0$, or its coefficient matrix must be invertible, etc. (see [[matrix]])
+> recall that a homogeneous [[linear system]] can have either a unique solution (with **`x = O`**, which is not a valid [[eigen#vector]] as per the definition) or an infinite number of solutions (which we can achieve by picking the right values for **`\l`**). for a homogeneous [[linear system]] to have an infinite number of solutions, its coefficient matrix rows (and therefore columns) must be [[linearly independent]], or the [[determinant]] of its coefficient matrix must be equal to **`0`**, or its coefficient matrix must be invertible, etc. (see [[matrix]])
 >
-> $\det\ (A \cdot \lambda I) = 0$ (this [[polynomial]] is known as the _[[characteristic polynomial]] of $A$_)
+> **`"det" (A . \lI) = 0`** (this [[polynomial]] is known as the _[[characteristic polynomial]] of **`A`**_)
 >
 > solving...
 >
-> _using $A = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix}$ as an example_
+> _using **`A = []1 & 2 && 2 & 1[]`** as an example_
 >
-> $A \cdot \lambda I = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \cdot \lambda \begin{bmatrix}1 & 0 \\\  0 & 1\end{bmatrix} = \begin{bmatrix}1 \cdot \lambda & 2 \\\  2 & 1 \cdot \lambda\end{bmatrix}$
+> **`A . \lI = []1 & 2 && 2 & 1[] . \l[]1 & 0 && 0 & 1[] = []1 .\l & 2 && 2 & 1 . \l[]`**
 >
-> $\det\ (A \cdot \lambda I) = 0 = [1 \cdot \lambda]2 \cdot 4 = 1 \cdot \lambda : 2 \mid 1 \cdot \lambda \cdot 2 = 3 \cdot \lambda \mid \cdot 1 \cdot \lambda = 0$
+> **`"det" (A . \lI) = 0 = [1 . \l]2 . 4 = 1 . \l : 2 | 1 . \l . 2 = 3 . \l | . 1 . \l = 0`**
 >
-> $\lambda = \braket{3 \lor \cdot 1}$ are the [[eigen#value]]s of $A$
+> **`\l = {3 \/ .1}`** are the [[eigen#value]]s of **`A`**
 
 > **procedure** _finding [[eigen#vector]]s_
 >
-> as $A \cdot \lambda I \mid x = O$, we get the following (see [[matrix#null space]]):
+> as **`A . \lI | x = O`**, we get the following (see [[matrix#null space]]):
 >
-> $E_\lambda = \mathcal N (A \cdot \lambda I)$, where
+> **`E_\l = nn (A.\lI)`**, where
 >
-> $E_\lambda$ is the _[[eigen#space]]_ of $A$ corresponding to the [[eigen#value]] $\lambda$ (this [[vector space]] is called the λ-[[eigen#space]] of $A$)
+> **`E_\l`** is the _[[eigen#space]]_ of **`A`** corresponding to the [[eigen#value]] **`\l`** (this [[vector space]] is called the λ-[[eigen#space]] of **`A`**)
 >
-> the [[eigen#vector]]s of $A$ associated with the [[eigen#value]] $\lambda$ are all the nonzero [[vector]]s in $E_\lambda$. therefore, instead of finding the [[eigen#vector]]s corresponding to the known [[eigen#value]], we will find a basis for the [[eigen#space]]
+> the [[eigen#vector]]s of **`A`** associated with the [[eigen#value]] **`\l`** are all the nonzero [[vector]]s in **`E_\l`**. therefore, instead of finding the [[eigen#vector]]s corresponding to the known [[eigen#value]], we will find a basis for the [[eigen#space]]
 >
-> for $\lambda = 3$:
+> for **`\l = 3`**:
 >
-> $A \cdot 3I \mid x = O$
+> **`A . 3I | x = O`**
 >
-> $A \cdot 3I \mid x = \begin{bmatrix}1 & 2 \\\  2 & 1\end{bmatrix} \cdot \begin{bmatrix}3 & 0 \\\  0 & 3\end{bmatrix} \mid x = \begin{bmatrix}\cdot 2 & 2 \\\  2 & \cdot 2\end{bmatrix} \mid x = 0$
+> **`A . 3I | x = []1 & 2 && 2 & 1[] . []3 & 0 && 0 & 3[] | x = [].2 & 2 && 2 & .2[] | x = 0`**
 >
 > therefore, we can solve the following [[linear system]] using [[row reduction]]
 >
-> $\begin{bmatrix}\cdot 2 & 2 & | & 0 \\\  2 & \cdot 2 & | & 0\end{bmatrix}$
+> **`[].2 & 2 & || & 0 && 2 & .2 & || & 0[]`**
 >
 > and we get:
 >
-> $x = c (1, 1) \dashv \mathbb R c$
+> **`x = c(1, 1) -| RR c`**
 >
-> $\braket{\braket{\ (1, 1)\ }}$ is then a [[basis]] for the [[eigen#space]] $E_3$ of $A$
+> **`{{ (1, 1) }}`** is then a [[basis]] for the [[eigen#space]] **`E_3`** of **`A`**
 >
 > > **note** the general solution of the homogenous [[linear system]] will always be a [[basis]] as the resulting [[vector]]s will always be [[linearly independent]], see [[matrix#null space]] for more information
 >
-> for $\lambda = \cdot 1$, we get the [[basis]] $\braket{\braket{\ (1, \cdot 1)\ }}$ for the [[eigen#space]] $E_{\cdot 1}$ of $A$
+> for **`\l = .1`**, we get the [[basis]] **`{{ (1, .1) }}`** for the [[eigen#space]] **`E_.1`** of **`A`**
 
 **application**
 
 _raising a matrix to a large power efficiently_
 
-let $\mathbb M^{n, n} A \land \mathbb N n$ be a [[matrix#diagonalizable matrix]]
+let **`MM^n,n A /\ NN n`** be a [[matrix#diagonalizable matrix]]
 
-1.  construct a matrix $P = \begin{bmatrix}| & | & | \\\ x_0 & x_1 & x_2 \\\ | & | & |\end{bmatrix} = \begin{bmatrix}x_{0_x} & x_{1_x} & x_{2_x} \\\ x_{0_y} & x_{1_y} & x_{2_y} \\\ x_{0_z} & x_{1_z} & x_{2_z}\end{bmatrix}$ whose columns are the $n$ [[linearly independent]] [[eigen#vector]]s $x$ of $A$
-2.  construct a matrix $D = \begin{bmatrix}\lambda_0 & 0 & 0 \\\ 0 & \lambda_1 & 0 \\\ 0 & 0 & \lambda _2\end{bmatrix}$ whose [[matrix#diagonal]] entries are the [[eigen#value]]s of $A$ and all other entries equal to $0$, in the same order as the columns of $P$
+1.  construct a matrix **`P = []|| & || & || && x_0 & x_1 & x_2 && || & || & ||[] = []x_0^0 & x_1^0 & x_2^0 && x_0^1 & x_1^1 & x_2^1 && x_0^2 & x_1^2 & x_2^2[]`** whose columns are the **`n`** [[linearly independent]] [[eigen#vector]]s **`x`** of **`A`**
+2.  construct a matrix **`D = []\l_0 & 0 & 0 && 0 & \l_1 & 0 && 0 & 0 & \l_2[]`** whose [[matrix#diagonal]] entries are the [[eigen#value]]s of **`A`** and all other entries equal to **`0`**, in the same order as the columns of **`P`**
 
-then, $AP = PD$. as the columns of $P$ are [[linearly independent]], we know $P$ is an invertible [[matrix]]. therefore, $A = PDP^-$ and $P^-AP = D$
+then, **`AP = PD`**. as the columns of **`P`** are [[linearly independent]], we know **`P`** is an invertible [[matrix]]. therefore, **`A = PDP^-`** and **`P^- AP = D`**
 
-> **proof** the $n$th column of $AP$ is $AP^{\circ, n} = Ax_n$. since $x_n$ is an [[eigen#vector]] of $A$, we use its corresponding [[eigen#value]] to get $AP^{\circ, n} = Ax_n = \lambda_n x_n$ by definition, see [[eigen]]. the $n$th column of $PD$ is $PD^{\circ, n}$. when multiplying out, we get $PD^{\circ, n} = x_n D^{n, n} = x_n \lambda_n$. as $AP^{\circ, n} = PD^{\circ, n} \dashv \mathbb N n$, we conclude $AP = PD$
+> **proof** the **`n`**th column of **`AP`** is **`AP^*,n = Ax_n`**. since **`x_n`** is an [[eigen#vector]] of **`A`**, we use its corresponding [[eigen#value]] to get **`AP^*,n = Ax_n = \l_n x_n`** by definition, see [[eigen]]. the **`n`**th column of **`PD`** is **`PD^*,n`**. when multiplying out, we get **`PD^*,n = x_n D^n,n = x_n \l_n`**. as **`AP^*,n = PD^*,n -| NN n`**, we conclude **`AP = PD`**
 
-now, compute $[A]p \land \mathbb N p$ with $p$ being a very large integer
+now, compute **`[A]p /\ NN p`** with **`p`** being a very large integer
 
-with $A = PDP^-$, we get $[A]p = [PDP^-]p = P \mid [D]p \mid P^-$
+with **`A = PDP^-`**, we get **`[A]p = [PDP^-]p = P | [D]p | P^-`**
 
-as $D$ is a [[matrix#diagonal matrix]], we get $[D]p = \begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [\lambda_1]p & 0 \\\ 0 & 0 & [\lambda_2]p\end{bmatrix}$
+as **`D`** is a [[matrix#diagonal matrix]], we get **`[D]p = [] [\l_0]p & 0 & 0 && 0 & [\l_1]p & 0 && 0 & 0 & [\l_2]p []`**
 
-computing $[A]p = P\begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [\lambda_1]p & 0 \\\ 0 & 0 & [\lambda_2]p\end{bmatrix}P^-$ is now way less computationally expensive than computing $[A]p$ directly
+computing **`[A]p = P[][\l_0]p & 0 & 0 && 0 & [\l_1]p & 0 && 0 & 0 & [\l_2]p[]P^-`** is now way less computationally expensive than computing **`[A]p`** directly
 
 **application**
 
@@ -121,13 +121,13 @@ computing $[A]p = P\begin{bmatrix}[\lambda_0]p & 0 & 0 \\\ 0 & [\lambda_1]p & 0 
 
 **see** [[multiplicity]]
 
-**definition** the _algebraic multiplicity_ of a [[function#root]] $\lambda$ of the [[characteristic polynomial]] of $A$ is its [[multiplicity]]
+**definition** the _algebraic multiplicity_ of a [[function#root]] **`\l`** of the [[characteristic polynomial]] of **`A`** is its [[multiplicity]]
 
-**definition** the _geometric multiplicity_ of a [[function#root]] $\lambda$ of the [[characteristic polynomial]] of $A$ is the [[vector space#dimension]] of the [[eigen#space]] $E_\lambda$ of $A$ corresponding to the [[eigen#value]] $\lambda$
+**definition** the _geometric multiplicity_ of a [[function#root]] **`\l`** of the [[characteristic polynomial]] of **`A`** is the [[vector space#dimension]] of the [[eigen#space]] **`E_\l`** of **`A`** corresponding to the [[eigen#value]] **`\l`**
 
-**theorem** let $\lambda$ be an [[eigen#value]] of $A$. then, $1 \dashv \text{geometric multiplicity of \(\lambda\)} \dashv \text{algebraic multiplicity of \(\lambda\)}$
+**theorem** let **`\l`** be an [[eigen#value]] of **`A`**. then, **`1 -| "geometric multiplicity of" \l -| "algebraic multiplicity of" \l`**
 
-> **example** the [[characteristic polynomial]] of $\begin{bmatrix}2 & 4 & \cdot 3 \\\ 0 & 3 & 5 \\\ 0 & 0 & 3\end{bmatrix}$ is $2 \cdot \lambda \mid [3 \cdot \lambda]2$. its [[eigen#value]]s are $\lambda = 2$ and $\lambda = 3$. the algebraic [[eigen#multiplicity]] of $\lambda = 2$ is $1$ and the algebraic [[eigen#multiplicity]] of $\lambda = 3$ is $2$.
+> **example** the [[characteristic polynomial]] of **`[]2 & 4 & .3 && 0 & 3 & 5 && 0 & 0 & 3[]`** is **`2 . \l | [3 . \l]2`**. its [[eigen#value]]s are **`\l = 2`** and **`\l = 3`**. the algebraic [[eigen#multiplicity]] of **`\l = 2`** is **`1`** and the algebraic [[eigen#multiplicity]] of **`\l = 3`** is **`2`**.
 
 **applications**
 

@@ -18,7 +18,7 @@ _2’s [[complement]] in base 2, 16’s [[complement]] in base 16_
 
 > **procedure** _computing the [[complement#radix complement]] of an [[integer]]_
 >
-> subtract each digit from the largest digit in the base and add $1$
+> subtract each digit from the largest digit in the base and add **`1`**
 >
 > ```rust
 > digits.map(|digit| base - digit) + 1
@@ -26,36 +26,36 @@ _2’s [[complement]] in base 2, 16’s [[complement]] in base 16_
 >
 > > **note** in [[binary]], “subtracting each digit from the largest digit in the base” can be thought of as “swap zeroes for ones and ones for zeros”
 >
-> > **note** the [[complement#radix complement]] of an [[integer]] can be thought of as its representation in a [[positional numeral system]] where the most significant digit is assigned a negative weight. for example, $1011$, the 2's complement of $5$, can be interpreted as $(\cdot8) : 2 : 1 = \cdot5$
+> > **note** the [[complement#radix complement]] of an [[integer]] can be thought of as its representation in a [[positional numeral system]] where the most significant digit is assigned a negative weight. for example, **`1011`**, the 2's complement of **`5`**, can be interpreted as **`(.8) : 2 : 1 = .5`**
 
 > **note** in [[hexadecimal]], the bit pattern of the 16’s [[complement]] is the same as the bit pattern of the 2’s [[complement]], and so the 16’s [[complement]] is almost never used in [[computer science]]
 
 > **equivalence** _[[complement#radix complement]] and modular arithmetic_
 >
-> [[complement#radix complement]]s can be thought of as modular arithmetic where the $n$'s complement of an [[integer]] $A$ of $p$ bits is the [[integer]] $B$ such that $\bmod [n]p\ \braket{A : B = 0}$ &mdash; me
+> [[complement#radix complement]]s can be thought of as modular arithmetic where the **`n`**'s complement of an [[integer]] **`A`** of **`p`** bits is the [[integer]] **`B`** such that **`"mod" [n]p {A : B = 0}`** &mdash; me
 
 **properties**
 
-let $(\cdot A)$ be the [[complement#radix complement]] of $A$. then,
+let **`(.A)`** be the [[complement#radix complement]] of **`A`**. then,
 
-$A : (\cdot A) = 0$
+**`A : (.A) = 0`**
 
-$(\cdot (\cdot A)) = A$
+**`(.(.A)) = A`**
 
-$A \cdot B = A : (\cdot B)$
+**`A.B = A : (.B)`**
 
 **applications**
 
 [[complement#radix complement]]s can be used to easily **build adder-subtracters**
 
-- to add $A$ and $B$, feed in $A$ and $B$ to get $A : B$ as output
-- to subtract $B$ from $A$, feed in $A$ and $\times B$ and set the _CARRY IN_ bit to get $A \cdot B$ as output
+- to add **`A`** and **`B`**, feed in **`A`** and **`B`** to get **`A : B`** as output
+- to subtract **`B`** from **`A`**, feed in **`A`** and **`><B`** and set the _CARRY IN_ bit to get **`A.B`** as output
 
 **examples**
 
 > **example**
 >
-> finding the 16’s [[complement]] of $1234_{16}$, see [[positional numeral system]]
+> finding the 16’s [[complement]] of **`1234`**, see [[positional numeral system]]
 >
 > ```python
 > 0xFFFF - 0x1234 + 1 = 0xEDCB + 1 = 0xEDCC
@@ -67,4 +67,4 @@ _1’s [[complement]] in base 2, 15’s [[complement]] in base 16_
 
 > **note** [[complement#diminished radix complement]]s do **not** have the same properties as [[complement#radix complement]]s
 
-> **procedure** identical to [[complement#radix complement]]s, but without adding $1$ at the end (or without setting the _CARRY IN_ bit of an adder)
+> **procedure** identical to [[complement#radix complement]]s, but without adding **`1`** at the end (or without setting the _CARRY IN_ bit of an adder)

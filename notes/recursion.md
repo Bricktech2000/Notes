@@ -20,6 +20,6 @@
 
 any [[algorithm]] that uses [[recursion]] can be represented as repeated [[function]] [[composition]]
 
-$\operatorname{rec} f = f\ (\operatorname{rec} f)$, which evaluates to $f\ (f\ (f\ (f\ \cdots)))$
+**`"rec" f = f ("rec" f)`**, which evaluates to **`f (f (f (f ...)))`**
 
 &mdash; <https://youtu.be/9T8A89jgeTI?t=482>

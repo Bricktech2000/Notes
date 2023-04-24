@@ -150,8 +150,6 @@
 
 [[recipes]]
 
-[[life quotes]]
-
 [[adt organization]]
 
 [[ingredient]]s

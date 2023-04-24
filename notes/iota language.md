@@ -4,7 +4,7 @@
 
 **see** [[math notation]], [[combinatory logic]]
 
-the [[iota language]] is a minimalist [[programming language]] based on the [[combinatory logic#iota combinator]]. it is designed to be even simpler than other more popular alternatives, such as [[lambda calculus]] and $SKI$ [[combinatory logic]]
+the [[iota language]] is a minimalist [[programming language]] based on the [[combinatory logic#iota combinator]]. it is designed to be even simpler than other more popular alternatives, such as [[lambda calculus]] and **`S, K, I`** [[combinatory logic]]
 
 ## Syntax
 
@@ -17,7 +17,7 @@ the [[iota language]] is a minimalist [[programming language]] based on the [[co
 
 > **example**
 >
-> `0011011` denodes $((\iota\ \iota)\ (\iota\ \iota))$
+> `0011011` denodes **`((\i \i) (\i \i))`**
 >
 > **representation** _as a [[tree#binary tree]]_
 >
@@ -40,7 +40,7 @@ the [[iota language]] is a minimalist [[programming language]] based on the [[co
 
 > **example**
 >
-> `0101011` denodes $(\iota\ (\iota\ (\iota\ \iota)))$
+> `0101011` denodes **`(\i (\i (\i \i)))`**
 >
 > **representation** _as a [[tree#binary tree]]_
 >

@@ -6,7 +6,7 @@ _the largest and oldest high-[[iq]] society_
 
 &mdash; <https://youtu.be/BRoVVU--BkU>
 
-[[mensa]] members are required to score in the $98$th percentile or higher on a standardized [[iq]] test, see [[standard score]]. this is approxiately to $2$ or more [[standard deviation]]s above the [[mean]] [[iq]], which corresponds to an [[iq]] score of $130$ or higher
+[[mensa]] members are required to score in the **`98`**th percentile or higher on a standardized [[iq]] test, see [[standard score]]. this is approxiately to **`2`** or more [[standard deviation]]s above the [[mean]] [[iq]], which corresponds to an [[iq]] score of **`130`** or higher
 
 [[mensa]] is meant to be a safe space and to provide a community for people with that kind of distinguishment. it is not meant to be an elitist organization
 

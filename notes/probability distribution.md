@@ -10,12 +10,12 @@ _a mathematical description of the [[probability]]es of events_
 
 &mdash; <https://en.wikipedia.org/wiki/Normal_distribution>
 
-**definition** the [[probability distribution#probability density function]] of a normal distribution is $x \rightarrow G^\sigma\ (x \cdot \mu)$, where
+**definition** the [[probability distribution#probability density function]] of a normal distribution is **`x -> G^\s (x . \m)`**, where
 
-- $x$ is an _example_ in a [[sample]] $X$
-- $\mu$ is the [[mean]] of $X$
-- $\sigma$ is the [[standard deviation]] of $X$
-- $G^\sigma$ is the [[gaussian function]] with [[standard deviation]] $\sigma$ and [[mean]] $0$
+- **`x`** is an _example_ in a [[sample]] **`X`**
+- **`\m`** is the [[mean]] of **`X`**
+- **`\s`** is the [[standard deviation]] of **`X`**
+- **`G^\s`** is the [[gaussian function]] with [[standard deviation]] **`\s`** and [[mean]] **`0`**
 
 **representation**
 
@@ -23,39 +23,39 @@ _a mathematical description of the [[probability]]es of events_
 
 **properties**
 
-> partly due to the [[central limit theorem]], [...] physical quantities that are expected to be the sum of many independent processes, such as measurement errors, often have [[probability distribution]]s that are nearly normal &mdash; Wikipedia
+> partly due to the [[central limit theorem]], [&hellip;] physical quantities that are expected to be the sum of many independent processes, such as measurement errors, often have [[probability distribution]]s that are nearly normal &mdash; Wikipedia
 
 as a rule of thumb, in a [[probability distribution#normal distribution]],
 
-- $68\text-100$ of the values are within $1 \sigma$ of the [[mean]]
-- $95\text-100$ of the values are within $2 \sigma$ of the [[mean]]
-- $99\ 7\text-1000$ of the values are within $3 \sigma$ of the [[mean]]
+- **`68-100`** of the values are within **`1 \s`** of the [[mean]]
+- **`95-100`** of the values are within **`2 \s`** of the [[mean]]
+- **`99 7-1000`** of the values are within **`3 \s`** of the [[mean]]
 
 > **proof**
 >
-> let $G^\sigma$ be the [[gaussian function]] with [[standard deviation]] $\sigma$ and [[mean]] $0$. then,
+> let **`G^\s`** be the [[gaussian function]] with [[standard deviation]] **`\s`** and [[mean]] **`0`**. then,
 >
-> - $\int G^1\ x \mid \delta x\ \braket{1 \cdot \cdot 1}$ is approximately $68\text-100$
-> - $\int G^1\ x \mid \delta x\ \braket{2 \cdot \cdot 2}$ is approximately $95\text-100$
-> - $\int G^1\ x \mid \delta x\ \braket{3 \cdot \cdot 3}$ is approximately $99\ 7\text-1000$
+> - **`$ G^1 x | \d x {1 . .1}`** is approximately **`68-100`**
+> - **`$ G^1 x | \d x {2 . .2}`** is approximately **`95-100`**
+> - **`$ G^1 x | \d x {3 . .3}`** is approximately **`99 7-1000`**
 
 ### Standard Normal Distribution
 
-**definition** the [[probability distribution#probability density function]] of a standard normal distribution is $G^1$, where
+**definition** the [[probability distribution#probability density function]] of a standard normal distribution is **`G^1`**, where
 
-- $G^1$ is the [[gaussian function]] with [[standard deviation]] $1$ and [[mean]] $0$
+- **`G^1`** is the [[gaussian function]] with [[standard deviation]] **`1`** and [[mean]] **`0`**
 
-**definition** the standard normal distribution is the normal distribution with $\mu = 0$ and $\sigma = 1$
+**definition** the standard normal distribution is the normal distribution with **`\m = 0`** and **`\s = 1`**
 
 ## Continuous Uniform Distribution
 
 &mdash; <https://en.wikipedia.org/wiki/Continuous_uniform_distribution>
 
-**definition** the [[probability distribution#probability density function]] of a continuous uniform distribution is $x \rightarrow \braket{0, - b \cdot a}\ (a \dashv x \dashv b)$, where
+**definition** the [[probability distribution#probability density function]] of a continuous uniform distribution is **`x -> {0, -- b . a} (a -| x -| b)`**, where
 
-- $x$ is an _example_ in a [[sample]] $X$
-- $a$ is the minimum of $X$
-- $b$ is the maximum of $X$
+- **`x`** is an _example_ in a [[sample]] **`X`**
+- **`a`** is the minimum of **`X`**
+- **`b`** is the maximum of **`X`**
 
 **representation**
 
@@ -73,9 +73,9 @@ there are different ways of representing [[probability distribution]]s, outlined
 
 ## Probability Mass Function
 
-**definition** a _probability mass function_ is a [[function]] $f$ that [[map]]s an event to its [[probability]] of occurrence such that $\,: f = 1$
+**definition** a _probability mass function_ is a [[function]] **`f`** that [[map]]s an event to its [[probability]] of occurrence such that **`:f = 1`**
 
-> **example** the probability mass function of a fair dice roll is $x \rightarrow -6$
+> **example** the probability mass function of a fair dice roll is **`x -> --6`**
 
 **applications**
 
@@ -87,7 +87,7 @@ probability mass functions are used to describe discrete random variables
 
 **see** [[integral]]
 
-**definition** a _probability density function_ is a [[function]] $f$ such that $\int f\ x \mid \delta x\ \braket{b \cdot a}$ is the [[probability]] of an _example_ being in the interval $a \dashv \circ \dashv b$
+**definition** a _probability density function_ is a [[function]] **`f`** such that **`$ f x | \d x {b . a}`** is the [[probability]] of an _example_ being in the interval **`a -| * -| b`**
 
 **applications**
 
@@ -99,9 +99,9 @@ probability density functions are used to describe continuous random variables
 
 **see** [[integral]]
 
-**definition** a _cumulative distribution function_ is a [[function]] $F$ such that $F\ a$ is the [[probability]] of an _example_ being in the interval $\cdot \infty \dashv \circ \dashv a$
+**definition** a _cumulative distribution function_ is a [[function]] **`F`** such that **`F a`** is the [[probability]] of an _example_ being in the interval **`.@@ -| * -| a`**
 
-**definition** $\int f\ x \mid \delta x\ \braket{x \cdot \cdot \infty}$ where $f$ is a [[probability distribution#probability density function]]
+**definition** **`$ f x | \d x {x . .@@}`** where **`f`** is a [[probability distribution#probability density function]]
 
 **applications**
 

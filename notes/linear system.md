@@ -12,7 +12,7 @@ a set of [[linear equation]]s
 
 **definition** a _homogeneous system_ has only zeros as constants on the right hand side. the zero vector is always a solution
 
-**definition** two [[matrix]]es $A$, $B$ are _row equivalent_ $A \sim B$ if $B$ can be obtained from $A$ by a finite sequence of [[linear system#elementary operation]]s
+**definition** two [[matrix]]es **`A`**, **`B`** are _row equivalent_ $A \sim B$ if **`B`** can be obtained from **`A`** by a finite sequence of [[linear system#elementary operation]]s
 
 **definition** a _leading variable_ is the [[variable]] associated with a _pivot_ in a matrix in [[linear system#row echelon form]]
 
@@ -20,21 +20,21 @@ a set of [[linear equation]]s
 
 the following linear system:
 
-$x : y : 2z = 3$
+**`x : y : 2z = 3`**
 
-$x \cdot y : z = 2$
+**`x . y : z = 2`**
 
-$y \cdot z = 1$
+**`y . z = 1`**
 
 can be represented by the following _augmented [[matrix]]_:
 
-$\begin{bmatrix} 1 & 1 & 2 & | & 3 \\\  1 & \cdot 1 & 1 & | & 2 \\\  0 & 1 & \cdot 1 & | & 1\end{bmatrix}$
+**`[]1 & 1 & 2 & || & 3 && 1 & .1 & 1 & || & 2 && 0 & 1 & .1 & || & 1[]`**
 
 which can be represented by the following [[vector in rn]] equation:
 
-$x \begin{bmatrix}1 \\\  1 \\\  0\end{bmatrix} : y \begin{bmatrix}1 \\\  \cdot 1 \\\  1\end{bmatrix} : z \begin{bmatrix}2 \\\  1 \\\  \cdot 1\end{bmatrix} = \begin{bmatrix}3 \\\  2 \\\  1\end{bmatrix}$
+**`x[]1 && 1 && 0[] : y[]1 && .1 && 1[] : z[]2 && 1 && .1[] = []3 && 2 && 1[]`**
 
-the system is _consistent_ if and only if $b$ ($\begin{bmatrix}3 \\\  2 \\\  1\end{bmatrix}$ in this case) is a [[linear combination]] of the columns of $A$ ($\rho\ A$)
+the system is _consistent_ if and only if **`b`** (**`[]3 && 2 && 1[]`** in this case) is a [[linear combination]] of the columns of **`A`** (**`\r A`**)
 
 ## Elementary Operation
 
@@ -53,14 +53,14 @@ _operations that don’t change the general solution of a [[linear system]]_
 a [[matrix]] (augmented or not) is in [[linear system#row echelon form]] if all:
 
 - all zero rows are at the bottom
-- the first nonzero entry in each row is a $1$ (called the _pivot_) (this criterion seems to be wrong according to <https://en.wikipedia.org/wiki/Gaussian_elimination>)
+- the first nonzero entry in each row is a **`1`** (called the _pivot_) (this criterion seems to be wrong according to <https://en.wikipedia.org/wiki/Gaussian_elimination>)
 - each pivot is to the right of each pivot in all rows above
 
 > **procedure** _putting a [[matrix]] in [[linear system#row echelon form]]_ use [[row reduction]]
 
 > **procedure** _determining the type of the general solution_
 >
-> - if the [[matrix]] contains a row of the form $\begin{bmatrix}0 & \cdots & 0 & | & b\end{bmatrix} \land b + 0$, the system has no solutions
+> - if the [[matrix]] contains a row of the form **`[]0 & ... & 0 & || & b[]`** with **`b + 0`**, the system has no solutions
 > - else, if every column has a pivot, the system has one unique solution
 > - else, if there is a column with no pivot, the system has an infinite number of solutions
 
@@ -75,7 +75,7 @@ a [[matrix]] (augmented or not) is in [[linear system#row echelon form]] if all:
 
 > **procedure** _finding the general solution_
 >
-> - if there is a unique solution, then the solution is the [[vector]] in the augmented column (ignore the $\begin{bmatrix}0 & \cdots & 0 & | & 0\end{bmatrix}$ rows, if any)
+> - if there is a unique solution, then the solution is the [[vector]] in the augmented column (ignore the **`[]0 & ... & 0 & || & 0[]`** rows, if any)
 > - else, each pivot corresponds to one row of the augmented [[matrix]]. write the equation for this row and solve for the corresponding leading [[variable]]
 
 > **procedure** _putting a [[matrix]] in [[linear system#reduced row echelon form]]_ use [[row reduction]]
@@ -86,8 +86,8 @@ a [[linear system]] can be represented using an augmented [[matrix]]
 
 > **procedure** _determining the type of the general solution_
 >
-> let $\begin{bmatrix}A & | & b\end{bmatrix}$ be an augmented [[matrix]].
+> let **`[]A & || & b[]`** be an augmented [[matrix]].
 >
-> - the system has no solutions if $\operatorname{rank}\ A \dashv \operatorname{rank}\ \begin{bmatrix}A & | & b\end{bmatrix} \cdot 1$
-> - the system has a unique solution if and only if $\operatorname{rank}\ A = \operatorname{rank}\ \begin{bmatrix}A & | & b\end{bmatrix} = \text{number of columns in \(A\)}$
-> - the system has infinite solutions if and only if $\operatorname{rank}\ A = \operatorname{rank}\ \begin{bmatrix}A & | & b\end{bmatrix} \dashv \text{number of columns in \(A\)} \cdot 1$
+> - the system has no solutions if **`"rank" A -| "rank" []A & || & b[] . 1`**
+> - the system has a unique solution if and only if **`"rank" A = "rank" []A & || & b[] = "number of columns in" A`**
+> - the system has infinite solutions if and only if **`"rank" A = "rank" []A & || & b[] -| "number of columns in" A . 1`**

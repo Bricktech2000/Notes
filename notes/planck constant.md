@@ -2,4 +2,4 @@
 
 **see** [[math notation]]
 
-> **constant** $h = 6\ 62608\text-10000 \shortmid 10[\cdot 34] \text{J}\text{s}$
+> **constant** **`h = 6 62608-10000 ' 10[.34] "J""s"`**

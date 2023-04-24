@@ -8,7 +8,7 @@ _can't_ is a very dangerous word. it represents the belief that there exists som
 
 **aka** _I don't deem this important enough to make [[time]] for_
 
-everyone has $24 \text{h}$ to work with every day. if something were **actually** important to you, you would make [[time]] for it &mdash; Ali Abdaal (if I remember correctly) and <https://youtu.be/suG-oqsdcGo?t=0>
+everyone has **`24 "h"`** to work with every day. if something were **actually** important to you, you would make [[time]] for it &mdash; Ali Abdaal (if I remember correctly) and <https://youtu.be/suG-oqsdcGo?t=0>
 
 ## I can't afford it
 

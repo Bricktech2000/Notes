@@ -44,7 +44,7 @@ can help one fall asleep faster, but harms sleep quality. also blocks REM [[slee
 
 ### temperature
 
-ideally, keep room [[temperature]] below $20^\circ\text{C}$ to increase [[sleep]] quality
+ideally, keep room [[temperature]] below **`20^* "C"`** to increase [[sleep]] quality
 
 ## sleep hygiene
 
@@ -77,22 +77,22 @@ use bed for [[sleep]] **only**. no working, no reading and no TV when in bed. ot
 
 ### recommended hours of sleep by age
 
-- teenagers: $8 \cdots 10$ hours
-- adults: $7 \cdots 9$ hours
+- teenagers: **`8 ... 10`** hours
+- adults: **`7 ... 9`** hours
 
 ### naps
 
-naps should be $0 \cdots 20$ minutes in length. enough to get into stage-2 [[sleep]], which boosts memory and creativity
+naps should be **`0 ... 20`** minutes in length. enough to get into stage-2 [[sleep]], which boosts memory and creativity
 
-naps longer than $90$ minutes will make it more [[difficult]] to fall asleep at night
+naps longer than **`90`** minutes will make it more [[difficult]] to fall asleep at night
 
 ## solutions
 
 - wear face mask (and optionally earplugs)
 - avoid naps, otherwise max 20 minutes
 - place alarm clock far from bed to avoid snoozathons
-- turn off all light sources $30$ minutes before bedtime
-- ~~take shower and reflect $30$ minutes before bedtime~~
+- turn off all light sources `**30**` minutes before bedtime
+- ~~take shower and reflect `**30**` minutes before bedtime~~
 
 ## possible benefits
 

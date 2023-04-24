@@ -10,9 +10,9 @@ _an increase in the overall level of prices in the economy_
 
 > **example** _inflation rates_
 >
-> $2\ 0\text-1000$ is a low to moderate inflation rate &mdash; Investopedia
+> **`2 0-1000`** is a low to moderate inflation rate &mdash; Investopedia
 >
-> $8\ 5\text-1000$ is a high inflation rate &mdash; <https://www.youtube.com/watch?v=QYPb9ebUQbs>
+> **`8 5-1000`** is a high inflation rate &mdash; <https://www.youtube.com/watch?v=QYPb9ebUQbs>
 
 **procedures**
 
@@ -20,16 +20,16 @@ _an increase in the overall level of prices in the economy_
 >
 > **see** [[math notation]]
 >
-> $\text{Inflation}^t = \text{CPI}^t \cdot \text{CPI}^0 - \text{CPI}^0$, where
+> **`"Inflation"^t = "CPI"^t . "CPI"^0 - "CPI"^0`**, where
 >
-> - $\text{CPI}^t$ is the current [[consumer price index]]
-> - $\text{CPI}^0$ is the base [[consumer price index]]
+> - **`"CPI"^t`** is the current [[consumer price index]]
+> - **`"CPI"^0`** is the base [[consumer price index]]
 >
 > alternatively, an online [[inflation]] calculator is available at <https://www.bankofcanada.ca/rates/related/inflation-calculator/>
 
 > **procedure** _correcting prices using [[inflation]]_
 >
-> $P^t = P^0 \mid \text{CPI}^t \text- \text{CPI}^0 = P^0 : P^0 \text{Inflation}^t$, where
+> **`P^t = P^0 | "CPI"^t - "CPI"^0 = P^0 : P^0 "Inflation"^t`**, where
 >
-> - $P^t$ is the current price of an item
-> - $P^0$ is the base price of an item
+> - **`P^t`** is the current price of an item
+> - **`P^0`** is the base price of an item

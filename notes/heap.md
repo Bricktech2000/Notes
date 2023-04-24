@@ -20,16 +20,16 @@ the _last node_ of a [[heap]] implemented as an [[array]] is the last element of
 
 time [[computational complexity]]:
 
-|                                                 | Heap                     |
-| ----------------------------------------------- | ------------------------ |
-| Construction from unordered [[array]] (heapify) | $O\ \circ$               |
-| Polling                                         | $O\ \lceil \circ \rceil$ |
-| Peeking                                         | $O\ 1$                   |
-| Adding                                          | $O\ \lceil \circ \rceil$ |
-| Removing using linear search                    | $O\ \circ$               |
-| Removing using a [[hash table]]                 | $O\ \circ$               |
-| Contains using linear search                    | $O\ \circ$               |
-| Contains using a [[hash table]]                 | $O\ 1$                   |
+|                                                 | Heap        |
+| ----------------------------------------------- | ----------- |
+| Construction from unordered [[array]] (heapify) | **`O *`**   |
+| Polling                                         | **`O /*\`** |
+| Peeking                                         | **`O 1`**   |
+| Adding                                          | **`O /*\`** |
+| Removing using linear search                    | **`O *`**   |
+| Removing using a [[hash table]]                 | **`O *`**   |
+| Contains using linear search                    | **`O *`**   |
+| Contains using a [[hash table]]                 | **`O 1`**   |
 
 **representation**
 
@@ -43,52 +43,52 @@ time [[computational complexity]]:
 
 ### restoring the heap invariant
 
-time [[computational complexity]]: $O\ \lceil \circ \rceil$
+time [[computational complexity]]: **`O /*\`**
 
 **aka** _bubbling up/down, sifting up/down, swim/sink_
 
 > **procedure** _bubbling up_
 >
-> given a [[tree#binary tree]] and a **leaf** $n$ that is not ordered with respect to its **parent**,
+> given a [[tree#binary tree]] and a **leaf** **`n`** that is not ordered with respect to its **parent**,
 >
-> 1. swap $n$ with its parent
-> 2. repeat until $n$ is ordered with respect to its parent
+> 1. swap **`n`** with its parent
+> 2. repeat until **`n`** is ordered with respect to its parent
 
 > **procedure** _bubbling down_
 >
-> given a [[tree#binary tree]] and its **root** $n$ that is not ordered with respect to its **children**,
+> given a [[tree#binary tree]] and its **root** **`n`** that is not ordered with respect to its **children**,
 >
-> 1. swap $n$ with its smallest child, or its left child if both children are equal
-> 2. repeat until $n$ is ordered with respect to its smallest child
+> 1. swap **`n`** with its smallest child, or its left child if both children are equal
+> 2. repeat until **`n`** is ordered with respect to its smallest child
 
 ## Operations
 
 > **procedure** _adding an element to a heap_
 >
-> given a [[heap]] $h$ nd an element $n$,
+> given a [[heap]] **`h`** nd an element **`n`**,
 >
-> 1. add $n$ to the end of $h$
+> 1. add **`n`** to the end of **`h`**
 > 2. restore the [[heap]] invariant by _swimming_
 
 > **procedure** _polling an element from a heap_
 >
-> given a [[heap]] $h$ and its root $n$,
+> given a [[heap]] **`h`** and its root **`n`**,
 >
-> 1. swap $n$ with the last node of $h$
-> 2. remove the last node of $h$
+> 1. swap **`n`** with the last node of **`h`**
+> 2. remove the last node of **`h`**
 > 3. restore the [[heap]] invariant by _sinking_
 
 > **procedure** _removing an element from a heap_
 >
-> given a heap $h$ and a node value $v$,
+> given a heap **`h`** and a node value **`v`**,
 >
-> 1. find the node $n$ with value $v$ in $h$ (see below)
-> 2. swap $n$ with the last node of $h$
-> 3. remove the last node of $h$
+> 1. find the node **`n`** with value **`v`** in **`h`** (see below)
+> 2. swap **`n`** with the last node of **`h`**
+> 3. remove the last node of **`h`**
 > 4. restore the [[heap]] invariant by either _swimming_ or _sinking_
 
 ### finding an element in a heap
 
-finding an element from a [[heap]] naively using linear search has time [[computational complexity]] $O\ \circ$. a more efficient way to find an element is to maintain a [[hash table]] synced with the [[heap]] that [[map]]s node values to a [[set]] of their indices in the [[heap]]. this way, any element can be found in $O\ 1$ time [[computational complexity]].
+finding an element from a [[heap]] naively using linear search has time [[computational complexity]] **`O *`**. a more efficient way to find an element is to maintain a [[hash table]] synced with the [[heap]] that [[map]]s node values to a [[set]] of their indices in the [[heap]]. this way, any element can be found in **`O 1`** time [[computational complexity]].
 
 using a [[hash table]] in this way adds a relatively large constant overhead to the time [[computational complexity]] of all operations, which is often undesirable

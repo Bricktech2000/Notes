@@ -8,7 +8,7 @@
 
 **properties**
 
-$B < C =\!= +B \lor C$ means “for all $B$, $C$”. negating, we get $+ (B < C) =\!= B \land +C$, which means “there exists a $B$ such that $+C$”
+**`B < C == +B \/ C`** means “for all **`B`**, **`C`**”. negating, we get **`+ (B < C) == B /\ +C`**, which means “there exists a **`B`** such that **`+C`**”
 
 the inverse is also true
 
@@ -18,7 +18,7 @@ _expresses that every item in the domain satisfies a condition_
 
 **notations**
 
-_in my [[math notation]]_ $P\ x > \mathbb R x$
+_in my [[math notation]]_ **`P x > RR x`**
 
 _in [[conventional math notation]]_ $\forall x \in \mathbb R, P(x)$
 
@@ -28,7 +28,7 @@ _expresses that at least one item in the domain satisfies a condition_
 
 **notations**
 
-_in my [[math notation]]_ $P\ x \land \mathbb R x$
+_in my [[math notation]]_ **`P x /\ RR x`**
 
 _in [[conventional math notation]]_ $\exists x \in \mathbb R, P(x)$
 

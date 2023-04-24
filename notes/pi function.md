@@ -2,16 +2,16 @@
 
 **see** [[math notation]], [[integral]], [[euler's constant]]
 
-**notation** $\Pi\ z$
+**notation** **`\P z`**
 
-**definition** _given a $\mathbb C z$ such that $z^{re} > 0$_
+**definition** _given a **`CC z`** such that **`z^re > 0`**_
 
-$\Pi\ z = \int t[z] - \varepsilon[t] \mid \delta t\ \braket{\infty \cdot 0}$
+**`\P z = $ t[z] -- \e[t] | \d t {@@ . 0}`**
 
-> **note** the [[pi function]] is defined for all $\mathbb C z$ such that $+\mathbb N (\cdot z \cdot 1)$ (it is not defined for negative [[integer]]s but is defined for $0$).
+> **note** the [[pi function]] is defined for all **`CC z`** such that **`+NN (.z . 1)`** (it is not defined for negative [[integer]]s but is defined for **`0`**).
 >
 > > The gamma function then is defined as the analytic continuation of this integral function to a meromorphic function that is holomorphic in the whole complex plane except zero and the negative integers, where the function has simple poles. &mdash; <https://en.wikipedia.org/wiki/Gamma_function>
 
-**theorem** _given a $\mathbb N z$_
+**theorem** _given a **`NN z`**_
 
-$\Pi\ z = 1 \mid \cdots z$
+**`\P z = 1 | ... z`**

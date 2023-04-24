@@ -1,6 +1,6 @@
 # Lambda Calculus
 
-**aka** _$\lambda$-calculus_
+**aka** _&lambda;-calculus_
 
 **see** [[combinatory logic]], [[recursion]]
 
@@ -49,16 +49,16 @@ _in my [[math notation]]_
 
 [[boolean]] values and [[boolean algebra#operators]] can be defined as follows:
 
-- $\text{true} = x\ y \rightarrow x$
-- $\text{false} = x\ y \rightarrow y$
+- **`"true" = x y -> x`**
+- **`"false" = x y -> y`**
 
 &mdash; <https://youtu.be/eis11j_iGMs?t=413>
 
 we can then define:
 
-- $\text{not} = p \rightarrow p\ \text{false}\ \text{true}$
-- $\text{and} = p\ q \rightarrow p\ q\ p$
-- $\text{or} = p\ q\ \rightarrow q\ p\ q$
+- **`"not" = p -> p "false" "true"`**
+- **`"and" = p q -> p q p`**
+- **`"or" = p q -> q p q`**
 
 &mdash; <https://youtu.be/eis11j_iGMs?t=484>
 
@@ -70,22 +70,22 @@ we can then define:
 
 [[natural]] numbers can be defined as follows:
 
-- $0 = f\ x \rightarrow x$
-- $\text{succ} = n\ f\ x \rightarrow f\ (n\ f\ x)$
+- **`0 = f x -> x`**
+- **`"succ" = n f x -> f (n f x)`**
 
 we can then define:
 
-- $\text{is\_zero} = n \rightarrow n\ (\rightarrow \text{false})\ \text{true}$
+- **`"iszero" = n -> n (-> "false") "true"`**
 
 ## Iteration
 
-[[iteration]] is defined as $(x \rightarrow x\ x)\ (x \rightarrow x\ x)$ in my [[math notation]] or as $(\lambda x.\ x\ x) (\lambda x.\ x\ x)$ in [[conventional math notation]]. evaluating this [[function]] call once yields itself. this definition is equivalent to $\operatorname{rec}\ (x \rightarrow x)$ in my [[math notation]] or to $\operatorname{rec} \lambda x.\ x$ in [[conventional math notation]], see [[recursion#general recursion]] &mdash; <https://youtu.be/9T8A89jgeTI?t=544>
+[[iteration]] is defined as **`(x -> x x) (x -> x x)`** in my [[math notation]] or as $(\lambda x.\ x\ x) (\lambda x.\ x\ x)$ in [[conventional math notation]]. evaluating this [[function]] call once yields itself. this definition is equivalent to **`"rec" {*}`** in my [[math notation]] or to $\operatorname{rec} \lambda x.\ x$ in [[conventional math notation]], see [[recursion#general recursion]] &mdash; <https://youtu.be/9T8A89jgeTI?t=544>
 
 ## Recursion
 
 general [[recursion]] in [[lambda calculus]] can be defined using the [[combinatory logic#y combinator]]
 
-$\operatorname{rec} f =\!= Y\ f$
+**`"rec" f == Y f`**
 
 &mdash; <https://youtu.be/9T8A89jgeTI?t=627>
 
@@ -100,9 +100,9 @@ all [[lambda calculus]] expressions can be represented as one-dimensional [[arra
 
 > **example**
 >
-> in my [[math notation]]: $z \rightarrow (y \rightarrow y\ (x \rightarrow x))\ (x \rightarrow z\ x)$
+> in my [[math notation]]: **`z -> (y -> y (x -> x)) (x -> z x)`**
 >
-> using De Bruijn indices: $\lambda\ (\lambda\ 0\ (\lambda\ 0))\ (\lambda\ 1\ 0)$
+> using De Bruijn indices: **`\l (\l 0 (\l 0)) (\l 1 0)`**
 >
 > as a [[tree#binary tree]]:
 >
@@ -133,9 +133,9 @@ all [[lambda calculus]] expressions can be represented as one-dimensional [[arra
 
 > **example**
 >
-> in my [[math notation]]: $s\ z \rightarrow s\ (s\ (s\ z))$
+> in my [[math notation]]: **`s z -> s (s (s z))`**
 >
-> using De Bruijn indices: $\lambda\ (\lambda\ (1\ (1\ (1\ 0))))$
+> using De Bruijn indices: **`\l (\l (1 (1 (1 0))))`**
 >
 > as a [[tree#binary tree]]:
 >

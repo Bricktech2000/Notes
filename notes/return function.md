@@ -19,4 +19,4 @@ _lifts a value to the effects world_
 
 `Some(1)` to create an `Option<T>` [[effect type]]
 
-`[1]` to create a `Vec<T>` [[effect type]]
+`1` to create a `Vec<T>` [[effect type]]

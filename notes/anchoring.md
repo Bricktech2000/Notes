@@ -9,4 +9,4 @@ our mind often uses completely unrelated anchors to make decisions, such as the 
 > **examples**
 >
 > - a [[car]] salesman setting a high price initially for the actual price to appear lower
-> - the $150\$$ dress at the front of the store that makes the $50\$$ dress at the back of the store seem like a bargain
+> - the **`150 \$`** dress at the front of the store that makes the **`50 \$`** dress at the back of the store seem like a bargain

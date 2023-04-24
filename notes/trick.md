@@ -8,7 +8,7 @@ _a technique aiming to increase the efficiency of a process_
 >
 > **see** [[math notation]]
 >
-> computing $9 - \text-4$ mentally can be done more efficiently by computing $9 \mid 4$ instead. this [[trick]] does not make its user smarter or better at arithmetic, but still improves the efficiency of the user's arithmetic
+> computing **`9 -- -4`** mentally can be done more efficiently by computing **`9 | 4`** instead. this [[trick]] does not make its user smarter or better at arithmetic, but still improves the efficiency of the user's arithmetic
 
 **see**
 

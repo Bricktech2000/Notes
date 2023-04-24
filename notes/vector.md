@@ -20,22 +20,22 @@
 
 **properties**
 
-let $\mathbb R^n (u, v, w) > \mathbb N n$
+let **`RR^n (u, v, w) > NN n`**
 
-let $\mathbb R (c1, c2)$
+let **`RR (c1, c2)`**
 
-$u : 0 = 0$
+**`u : 0 = 0`**
 
-$u : \cdot u = 0$
+**`u : .u = 0`**
 
-$(u : v) : w = u : (v : w)$
+**`(u : v) : w = u : (v : w)`**
 
-$u : v = v : u$
+**`u : v = v : u`**
 
-$c \mid u : v = cu : cv$
+**`c | u : v = cu : cv`**
 
-$c_1 : c_2 \mid u = c_1u : c_2u$
+**`c_1 : c_2 | u = c_1u : c_2u`**
 
-$c_1 c_2 \mid u = c_1 \mid c_2u$
+**`c_1 c_2 | u = c_1 | c_2u`**
 
-$1u = u$
+**`1u = u`**

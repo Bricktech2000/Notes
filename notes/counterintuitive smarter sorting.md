@@ -1,6 +1,6 @@
 # Counterintuitive Smarter Sorting
 
-let some items that can be sorted in two different ways, $A$ and $B$, and assume it is more natural to sort the items in way $A$ (where _natural_ is the first sorting solution that comes to mind). this is ideal when an item with characteristic $A$ is to be found. however, a lot of the time, when wanting to get an item with both characteristics $A$ and $B$, sorting the items in the less natural way $B$ would be more efficient
+let some items that can be sorted in two different ways, **`A`** and **`B`**, and assume it is more natural to sort the items in way **`A`** (where _natural_ is the first sorting solution that comes to mind). this is ideal when an item with characteristic **`A`** is to be found. however, a lot of the time, when wanting to get an item with both characteristics **`A`** and **`B`**, sorting the items in the less natural way **`B`** would be more efficient
 
 _don't group items based on the way they look; rather, group them based on a property that is not as easily recognizable_
 

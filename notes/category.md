@@ -12,9 +12,9 @@
 
 **definition** _formally in my [[math notation]]_ a [[category]] is a [[set theory]]etical [[function]] that takes two [[category#object]]s and returns their hom-[[set]]s (the [[set]] of [[category#morphism]]s between them) while satisfying the [[category#associativity law]] and [[category#identity law]]
 
-**definition** a category $\mathcal C$ consists of [[category#object]]s and [[category#morphism]]s with [[category#composition]] and [[category#identity morphism]] all subject to the [[category#associativity law]] and the [[category#identity law]]
+**definition** a category **`cc`** consists of [[category#object]]s and [[category#morphism]]s with [[category#composition]] and [[category#identity morphism]] all subject to the [[category#associativity law]] and the [[category#identity law]]
 
-> **example** [[real]]s and the $\dashv$ [[operator]] form a [[category]] &mdash; <https://youtu.be/yAi3XWCBkDo?t=652>
+> **example** [[real]]s and the **`-|`** [[operator]] form a [[category]] &mdash; <https://youtu.be/yAi3XWCBkDo?t=652>
 
 > **note** [[category#object]]s and [[category#morphism]]s do not contain any information; [[category#composition]] and [[category#identity morphism]]s do. the goal is to encode everything in composition and identities
 
@@ -42,7 +42,7 @@ every category has a collection of _objects_. even though [[category#object]]s c
 
 ### Hom-Set
 
-**definition** the _hom-set_ of any [[ordered pair]] of [[category#object]]s $A$ and $B$ is $\mathcal C^{A, B}$
+**definition** the _hom-set_ of any [[ordered pair]] of [[category#object]]s **`A`** and **`B`** is **`cc^A,B`**
 
 **notation** _in [[conventional math notation]]_ $\mathcal C(A, B) = \braket{\braket{f, g, \cdots}}$
 
@@ -50,17 +50,17 @@ every category has a collection of _objects_. even though [[category#object]]s c
 
 every category has a collection of _morphisms_. morphisms are the arrows in the category diagram
 
-**notation** _a morphism from $A$ to $B$ in [[conventional math notation]]_ $f: A \to B$
+**notation** _a morphism from **`A`** to **`B`** in [[conventional math notation]]_ $f: A \to B$
 
-**notation** _a morphism from $A$ to $B$ in my [[math notation]]_ $\mathcal C^{A, B}\ f$
+**notation** _a morphism from **`A`** to **`B`** in my [[math notation]]_ **`cc^A,B f`**
 
-even if $A$ is related to $B$ by a morphism, $B$ is not necessarily related to $A$. morphisms can be thought of as [[function]]s, but don't necessarily have to be. any number of [[category#morphism]]s between two [[category#object]]s can exist. this includes no morphisms to an infinity of morphisms
+even if **`A`** is related to **`B`** by a morphism, **`B`** is not necessarily related to **`A`**. morphisms can be thought of as [[function]]s, but don't necessarily have to be. any number of [[category#morphism]]s between two [[category#object]]s can exist. this includes no morphisms to an infinity of morphisms
 
 ### Isomorphism
 
-**definition** an _isomorphism_ is a [[category#morphism]] with a corresponding inverse. let $\mathcal C^{A, B}\ f$ and let $\mathcal C^{B, A}\ f'$. then, there exists an _isomorphism_ between $A$ and $B$ if and only if $f\ f'\ \circ = \textbf{id}_B \land f'\ f\ \circ = \textbf{id}_A$
+**definition** an _isomorphism_ is a [[category#morphism]] with a corresponding inverse. let **`cc^A,B f`** and let **`cc^B,A f_*`**. then, there exists an _isomorphism_ between **`A`** and **`B`** if and only if **`f f_* * = "id"_B /\ f' f * = "id"_A`**
 
-**definition** if there exists a [[category#isomorphism]] between two [[category#object]]s $A$ and $B$, they are said to be _isomorphic_
+**definition** if there exists a [[category#isomorphism]] between two [[category#object]]s **`A`** and **`B`**, they are said to be _isomorphic_
 
 **notation** _in [[conventional math notation]]_ $A \cong B$
 
@@ -68,17 +68,17 @@ even if $A$ is related to $B$ by a morphism, $B$ is not necessarily related to $
 
 > **example**
 >
-> in the commutative diagram below, $\alpha$ (or the pair $\braket{\alpha, \alpha^{-1}}$) is an isomorphism
+> in the commutative diagram below, **`\a`** (or the pair **`{\a, \a_*}`**) is an isomorphism
 >
 > ```mermaid
 > graph LR
->   A(<span class=math>A</span>)
->   B(<span class=math>B</span>)
+>   A(<span `A`)
+>   B(<span `B`)
 >
->   A -- <span class=math>id_A</span> --> A
->   B -- <span class=math>id_B</span> --> B
->   A -- <span class=math>\alpha</span> --> B
->   B -- <span class=math>\alpha^.1</span> --> A
+>   A -- `id_A` --> A
+>   B -- `id_B` --> B
+>   A -- `\a` --> B
+>   B -- `\a_*` --> A
 > ```
 >
 > &mdash; <https://youtu.be/Gai-liKAUPo?t=483>
@@ -93,9 +93,9 @@ even if $A$ is related to $B$ by a morphism, $B$ is not necessarily related to $
 
 ### Monomorphism
 
-**definition** let $\mathcal C^{A, B}\ f$, let $\mathcal C^{C, A}\ g_1$ and $\mathcal C^{C, A}\ g_2$. then, $f$ is a _monomorphism from $A$ to $B$_ if and only if $f\ g_1\ \circ = f\ g_2 \circ < g_1 = g_2$, for all $\mathcal C^{C, A}\ g_1$ and $\mathcal C^{C, A}\ g_2$, and for all $\mathcal C\ C$
+**definition** let **`cc^A,B f`**, let **`cc^D,A g_1`** and **`cc^D,A g_2`**. then, **`f`** is a _monomorphism from **`A`** to **`B`**_ if and only if **`f g_1 * = f g_2 * < g_1 = g_2`**, for all **`cc^D,A g_1`** and **`cc^D,A g_2`**, and for all **`cc D`**
 
-> **note** this definition works because if $f$ mapped two different [[category#object]]s in $A$ to the same [[category#object]] in $B$, then there could exist two different [[category#morphism]]s $g_1$ and $g_2$ that would map elements of $C$ to $A$ differently which could then be mapped identically to $B$ by $f$
+> **note** this definition works because if **`f`** mapped two different [[category#object]]s in **`A`** to the same [[category#object]] in **`B`**, then there could exist two different [[category#morphism]]s **`g_1`** and **`g_2`** that would map elements of **`D`** to **`A`** differently which could then be mapped identically to **`B`** by **`f`**
 
 **properties**
 
@@ -103,9 +103,9 @@ monomorphisms are [[category#morphism]]s that are injective, see [[function#inje
 
 ### Epimorphism
 
-**definition** let $\mathcal C^{A, B}\ f$, let $\mathcal C^{B, C}\ g_1$ and $\mathcal C^{B, C}\ g_2$. then, $f$ is an _epimorphism from $A$ to $B$_ if and only if $g_1\ f\ \circ = g_2\ f\ \circ < g_1 = g_2$, for all $\mathcal C^{B, C}\ g_1$ and $\mathcal C^{B, C}\ g_2$, and for all $\mathcal C\ C$
+**definition** let **`cc^A,B f`**, let **`cc^B,D g_1`** and **`cc^B,D g_2`**. then, **`f`** is an _epimorphism from **`A`** to **`B`**_ if and only if **`g_1 f * = g_2 f * < g_1 = g_2`**, for all **`cc^B,D g_1`** and **`cc^B,D g_2`**, and for all **`cc D`**
 
-> **note** this definition works because if the [[function#range]] $R$ of $f$ was a [[set#subset]] of its [[function#domain]] $B$, then there could exist two different [[category#morphism]]s $g_1$ and $g_2$ that would map elements in $R$ identically but would map elements in $B / R$ differently
+> **note** this definition works because if the [[function#range]] **`R`** of **`f`** was a [[set#subset]] of its [[function#domain]] **`B`**, then there could exist two different [[category#morphism]]s **`g_1`** and **`g_2`** that would map elements in **`R`** identically but would map elements in **`B / R`** differently
 
 **properties**
 
@@ -115,17 +115,17 @@ epimorphisms are [[category#morphism]]s that are surjective, see [[function#surj
 
 **see** [[composition]]
 
-**definition** let $\mathcal C^{A, B}\ f$ and $\mathcal C^{B, C}\ g$. then, there must exist a morphism $\mathcal C^{A, C}\ h$ that is the [[composition]] of $f$ and $g$
+**definition** let **`cc^A,B f`** and **`cc^B,D g`**. then, there must exist a morphism **`cc^A,D h`** that is the [[composition]] of **`f`** and **`g`**
 
 **notation** _in [[conventional math notation]]_ $h = g \circ f$, and is read as _after_ or _then_. for example, $f \circ g$ is read as _f after g_ or _f then g_
 
-**notation** _in my [[math notation]]_ $h = g\ f\ \circ$
+**notation** _in my [[math notation]]_ **`h = g f *`**
 
 ### Associativity Law
 
 [[composition]] in a category is required to be associative
 
-$h\ (g\ f\ \circ)\ \circ = (h\ g\ \circ)\ f\ \circ$
+**`h (g f *) * = (h g *) f *`**
 
 ## Identity Morphism
 
@@ -133,15 +133,15 @@ $h\ (g\ f\ \circ)\ \circ = (h\ g\ \circ)\ f\ \circ$
 
 **notation** _in [[conventional math notation]]_ $1_A : A \to A$ or $\textbf{id}_A : A \to A$
 
-**notation** _in my [[math notation]]_ $\mathcal C^{A, A}\ \textbf{id}_A$
+**notation** _in my [[math notation]]_ **`cc^A,A "id"_A`**
 
 ### Identity Law
 
-for every [[category#object]] $A$ there is an arrow which is a unit of [[composition]]. let $\mathcal C^{A, B}\ f$. then,
+for every [[category#object]] **`A`** there is an arrow which is a unit of [[composition]]. let **`cc^A,B f`**. then,
 
-$f\ \textbf{id}_A\ \circ = f$
+**`f "id"_A * = f`**
 
-$\textbf{id}_B\ f\ \circ = f$
+**`"id"_B f * = f`**
 
 ## Functor
 
@@ -165,7 +165,7 @@ this leads to the [[category]] of [[category]]es. functors must use a pair of [[
 
 &mdash; <https://youtu.be/Gai-liKAUPo?t=190>
 
-**definition** the _oposite category_ of any [[category]] $\mathcal C$ is $\rho\ \mathcal C$
+**definition** the _oposite category_ of any [[category]] **`cc`** is **`\r cc`**
 
 this can be thought of as "reversing the direction" of the "arrows" in the [[category]] diagram
 
@@ -173,11 +173,11 @@ this can be thought of as "reversing the direction" of the "arrows" in the [[cat
 
 **notation** _in [[conventional math notation]]_ $\mathcal C^{\text{op}}$
 
-**notation** _in my [[math notation]]_ $\rho\ \mathcal C$
+**notation** _in my [[math notation]]_ **`\r cc`**
 
 **properties**
 
-$\rho\ \rho\ \mathcal C = \mathcal C$
+**`\r \r cc = cc`**
 
 ## Product
 
@@ -187,7 +187,7 @@ products between [[category#object]]s are basically [[type#product type]]s
 
 coproducts between [[category#object]]s are basically [[type#sum type]]s
 
-> A _product_ of two [[category#object]]s $A$ and $B$ is the object $P$ equipped with two projections such that for any other object $P'$ equipped with two projections there is a unique [[category#morphism]] $m$ from $P'$ to $P$ that factorizes those projections.
+> A _product_ of two [[category#object]]s **`A`** and **`B`** is the object **`P`** equipped with two projections such that for any other object **`P_*`** equipped with two projections there is a unique [[category#morphism]] **`m`** from **`P_*`** to **`P`** that factorizes those projections.
 
 #todo "factorizes those projections" means that the diagram _commutes_ (composing two of the morphisms gives the third one)
 
@@ -197,36 +197,36 @@ factorizes &mdash; <https://youtu.be/Bsdl_NKbNnU?t=1011>
 
 #think <https://youtu.be/Gai-liKAUPo?t=327>
 
-**representation** _[[category#product]] $P$_
+**representation** _[[category#product]] **`P`**_
 
 ```mermaid
 graph TD
-  A(<span class=math>A</span>)
-  B(<span class=math>B</span>)
-  P(<span class=math>P</span>)
-  P_(<span class=math>P'</span>)
+  A(`A`)
+  B(`B`)
+  P(`P`)
+  P_(`P_*`)
 
-  P -- <span class=math>f_1</span> --> A
-  P -- <span class=math>f_2</span> --> B
+  P -- `f_1` --> A
+  P -- `f_2` --> B
 
-  P_ -- <span class=math>f_1\ m\ \circ</span> --> A
-  P_ -. <span class=math>m</span> .-> P
-  P_ -- <span class=math>f_2\ m\ \circ</span> --> B
+  P_ -- `f_1 m *` --> A
+  P_ -. `m` .-> P
+  P_ -- `f_2 m *` --> B
 ```
 
-**representation** _[[category#coproduct]] $Q$_
+**representation** _[[category#coproduct]] **`Q`**_
 
 ```mermaid
 graph BT
-  A(<span class=math>A</span>)
-  B(<span class=math>B</span>)
-  Q(<span class=math>Q</span>)
-  Q_(<span class=math>Q'</span>)
+  A(`A`)
+  B(`B`)
+  Q(`Q`)
+  Q_(`Q_*`)
 
-  A -- <span class=math>f_1</span> --> Q
-  B -- <span class=math>f_2</span> --> Q
+  A -- `f_1` --> Q
+  B -- `f_2` --> Q
 
-  A -- <span class=math>m\ f_1\ \circ</span> --> Q_
-  Q -. <span class=math>m</span> .-> Q_
-  B -- <span class=math>m\ f_2\ \circ</span> --> Q_
+  A -- `m f_1 *` --> Q_
+  Q -. `m` .-> Q_
+  B -- `m f_2 *` --> Q_
 ```

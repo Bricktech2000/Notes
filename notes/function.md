@@ -4,10 +4,10 @@
 
 **definition**
 
-a [[function]] $\mathcal F$ between [[set]]s $A$ and $B$ is a [[relation]] between $A$ and $B$ such that:
+a [[function]] **`ff`** between [[set]]s **`A`** and **`B`** is a [[relation]] between **`A`** and **`B`** such that:
 
-1. $\mathcal F\ (a, b) \land B\ b > A\ a$ or alternatively $B\ f\ a > A\ a$ &mdash; there exists some output for every input
-2. $\mathcal F\ (a, b_1) \land \mathcal F\ (a, b_2) < b_1 = b_2$ or alternatively $a_1 = a_2 < f\ a_1 = f\ a_2$ &mdash; there exists exactly one output for any input
+1. **`ff (a, b) /\ B b > A a`** or alternatively **`B f a > A a`** &mdash; there exists some output for every input
+2. **`ff (a, b_1) /\ ff (a, b_2) < b_1 = b_2`** or alternatively **`a_1 = a_2 < f a_1 = f a_2`** &mdash; there exists exactly one output for any input
 
 one can use the _horizontal [[line]] test_ to determine whether the graph of a [[curve]] is the graph of a [[function]]
 
@@ -37,17 +37,17 @@ one can use the _horizontal [[line]] test_ to determine whether the graph of a [
 
 **see** [[vector]], [[vector space]]
 
-**definition** $\mathbb F f$ if and only if the [[function]] $f$ is defined on its whole [[function#domain]]
+**definition** **`FF f`** if and only if the [[function]] **`f`** is defined on its whole [[function#domain]]
 
 #think if and only if it is a [[set theory]]etical [[function]]?
 
 **properties**
 
-_zero [[function]]_ $O x = 0$
+_zero [[function]]_ **`O x = 0`**
 
-_[[function]] addition_ $(f : g)\ x = f\ x : g\ x$
+_[[function]] addition_ **`(f : g) x = f x : g x`**
 
-_multiplication by a [[scalar]]_ $(cf)\ x = c \mid f\ x$
+_multiplication by a [[scalar]]_ **`(cf) x = c | f x`**
 
 ## Domain
 
@@ -63,17 +63,17 @@ _multiplication by a [[scalar]]_ $(cf)\ x = c \mid f\ x$
 
 **definition** the _range_ of a [[function]] is the set of all outputs it can produce
 
-**definition** the _roots_ of a [[function]] $f$ are the values of $x$ such that $f\ x = 0$
+**definition** the _roots_ of a [[function]] **`f`** are the values of **`x`** such that **`f x = 0`**
 
 this asymmetry between the "input" and the "output" of a [[function]] is what distinguishes it from a [[relation]] &mdash; <https://youtu.be/O2lZkr-aAqk?t=724>
 
 **properties**
 
-_codomain_ $D\ x < C\ f\ x$
+_codomain_ **`D x < C f x`**
 
-_range_ $D\ x =\!= R\ f\ x$
+_range_ **`D x == R f x`**
 
-$D\ x > A\ f\ x$
+**`D x > A f x`**
 
 ## Function Parity
 
@@ -81,19 +81,19 @@ $D\ x > A\ f\ x$
 
 _an even function is symmetrical about the y axis_
 
-**definition** $f\ x = f\ (\cdot x) > \mathbb R x$
+**definition** **`f x = f (.x) > RR x`**
 
 ### Odd Function
 
 _an odd function is symmetrical about the y axis, but also flipped about the x axis_
 
-**definition** $\cdot f\ x = f\ (\cdot x) > \mathbb R x$
+**definition** **`.f x = f (.x) > RR x`**
 
 ## Periodic Function
 
-**definition** $f\ x = f\ (x : p) \land \mathbb R p > \mathbb R x$
+**definition** **`f x = f (x : p) /\ RR p > RR x`**
 
-**definition** above, $p$ is said to be the _period_ of $f$
+**definition** above, **`p`** is said to be the _period_ of **`f`**
 
 ## Increasing Function
 
@@ -101,17 +101,17 @@ _an odd function is symmetrical about the y axis, but also flipped about the x a
 
 **see** [[calculus notation]]
 
-**definition** a [[function]] $f$ is _increasing_ on an interval $a \dashv \circ \dashv b$ if $x_1 \dashv x_2 < f\ x_1 \dashv f\ x_2$, or $\delta\ f\ x - \delta x \vdash 0$ on that interval
+**definition** a [[function]] **`f`** is _increasing_ on an interval **`a -| * -| b`** if **`x_1 -| x_2 < f x_1 -| f x_2`**, or **`\d f x -- \d x |- 0`** on that interval
 
-**definition** a [[function]] $f$ is _decreasing_ on an interval $a \dashv \circ \dashv b$ if $x_1 \vdash x_2 < f\ x_1 \vdash f\ x_2$, or $\delta\ f\ x - \delta x \dashv 0$ on that interval
+**definition** a [[function]] **`f`** is _decreasing_ on an interval **`a -| * -| b`** if **`x_1 |- x_2 < f x_1 |- f x_2`**, or **`\d f x -- \d x -| 0`** on that interval
 
 ## Concavity
 
 **see** [[calculus notation]]
 
-**definition** a [[function]] $f\ x$ is _concave up_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x \vdash 0$, it _bends upwards_
+**definition** a [[function]] **`f x`** is _concave up_ at **`x`** if **`\d (\d f x -- \d x) -- \d x |- 0`**, it _bends upwards_
 
-**definition** a [[function]] $f\ x$ is _concave down_ at $x$ if $\delta\ (\delta f\ x - \delta x) - \delta x \dashv 0$, it _bends downwards_
+**definition** a [[function]] **`f x`** is _concave down_ at **`x`** if **`\d (\d f x -- \d x) -- \d x -| 0`**, it _bends downwards_
 
 a point where [[function#concavity]] changes (from up to down or down to up) is a [[function#inflection point]]
 
@@ -123,48 +123,48 @@ a point where [[function#concavity]] changes (from up to down or down to up) is 
 
 **definition**
 
-the _global extrema_ $x$ of a [[function]] $f$ with [[function#domain]] $D$ are defined as
+the _global extrema_ **`x`** of a [[function]] **`f`** with [[function#domain]] **`D`** are defined as
 
-$f\ x \vdash f\ y > D\ y$ and $f\ x \dashv f\ y > D\ y$
+**`f x |- f y > D y`** and **`f x -| f y > D y`**
 
 **definition** the _global extrema_ of a [[function]] are the absolute highest and lowest points of the function
 
 **definition** the _local extrema_ of a [[function]] are the highest and lowest points of the function within a given range
 
-**theorem** if $f$ has a local [[function#extremum]] at $c$, the point $(c, f\ c)$ is a [[function#critical point]] of $f$, but not conversely
+**theorem** if **`f`** has a local [[function#extremum]] at **`c`**, the point **`(c, f c)`** is a [[function#critical point]] of **`f`**, but not conversely
 
 ### First Derivative Test
 
-let $f$ be a [[function#continuous function]] near $x = c$ and $c$ be a critical number of $f$. then, $f$ has a local [[function#extremum]] at $c$ if $\delta\ f\ c - \delta c$ changes sign at $c$.
+let **`f`** be a [[function#continuous function]] near **`x = c`** and **`c`** be a critical number of **`f`**. then, **`f`** has a local [[function#extremum]] at **`c`** if **`\d f c -- \d c`** changes sign at **`c`**
 
 ### Second Derivative Test
 
-let $f$ be a [[function#continuous function]] near $x = c$ and $c$ be a critical number of $f$ where $\delta\ f\ c - \delta c = 0$. then, $f$ has
+let **`f`** be a [[function#continuous function]] near **`x = c`** and **`c`** be a critical number of **`f`** where **`\d f c -- \d c = 0`**. then, **`f`** has
 
-- a local maximum at $c$ if $\delta\ (\delta f\ x - \delta x) - \delta x \dashv 0$
-- a local minimum at $c$ if $\delta\ (\delta f\ x - \delta x) - \delta x \vdash 0$
+- a local maximum at **`c`** if **`\d (\d f x -- \d x) -- \d x -| 0`**
+- a local minimum at **`c`** if **`\d (\d f x -- \d x) -- \d x |- 0`**
 
-> **note** the test is inconclusive if $\delta\ (\delta f\ x - \delta x) - \delta x = 0$ or if it does not exist
+> **note** the test is inconclusive if **`\d (\d f x -- \d x) -- \d x = 0`** or if it does not exist
 
 ## Inflection Point
 
 **see** [[function#extremum]]
 
-**definition** An _inflection point_ [...] is a point on a smooth plane [[curve]] at which the [[function#curvature]] changes sign &mdash; Wikipedia
+**definition** An _inflection point_ [&hellip;] is a point on a smooth plane [[curve]] at which the [[function#curvature]] changes sign &mdash; Wikipedia
 
-**definition** a [[function]] $f$ has an _inflection point_ at $c$ if it is continuous at $c$ and its [[function#concavity]] changes sign at $c$
+**definition** a [[function]] **`f`** has an _inflection point_ at **`c`** if it is continuous at **`c`** and its [[function#concavity]] changes sign at **`c`**
 
-> **note** a [[function]] having its second [[derivative]] equal to zero at $c$ does not imply $c$ is a [[function#inflection point]]. as an example, $f\ x = x4$ does not have a [[function#inflection point]] at $(x, f\ x) = (0, 0)$
+> **note** a [[function]] having its second [[derivative]] equal to zero at **`c`** does not imply **`c`** is a [[function#inflection point]]. as an example, **`f x = x4`** does not have a [[function#inflection point]] at **`(x, f x) = (0, 0)`**
 
 ## Critical Point
 
 **see** [[function]], [[math notation]]
 
-**definition** _function of one variable_ a point $(c, f\ c)$ is a _critical point_ of the [[function]] $f$ if $\delta\ f\ c - \delta c = 0$ or it does not exist
+**definition** _function of one variable_ a point **`(c, f c)`** is a _critical point_ of the [[function]] **`f`** if **`\d f c -- \d c = 0`** or it does not exist
 
-**definition** _function of multiple variables_ a point $(c, f\ c)$ is a _critical point_ of the [[function]] $f$ if all components of $\delta\ f\ c - \delta c$ either are zero or do not exist
+**definition** _function of multiple variables_ a point **`(c, f c)`** is a _critical point_ of the [[function]] **`f`** if all components of **`\d f c -- \d c`** either are zero or do not exist
 
-**definition** above, $c$ would be said to be a _critical number_ of $f$
+**definition** above, **`c`** would be said to be a _critical number_ of **`f`**
 
 ## [[mean value theorem]]
 
@@ -174,57 +174,57 @@ let $f$ be a [[function#continuous function]] near $x = c$ and $c$ be a critical
 
 **see** [[math notation]]
 
-**definition** a [[function]] $f\ x$ is _continuous at $x = a$_ if $f\ x\ \braket{x \rightarrow a} = f\ a$
+**definition** a [[function]] **`f x`** is _continuous at **`x = a`**_ if **`f x {x -> a} = f a`**
 
-> **note** above, $f\ x\ \braket{x \rightarrow a}$ must exist and $f\ x$ must be defined at $x = a$
+> **note** above, **`f x {x -> a}`** must exist and **`f x`** must be defined at **`x = a`**
 
-**definition** a [[function]] is _continuous from the left_ at $a$ when $f\ x\ \braket{x \stackrel \cdot \rightarrow a} = f\ a$ and both other conditions are met
+**definition** a [[function]] is _continuous from the left_ at **`a`** when **`f x {x -> a "from the left"} = f a`** and both other conditions are met
 
-**definition** a [[function]] is _continuous from the right_ at $a$ when $f\ x\ \braket{x \stackrel {\cdot \cdot} \rightarrow a} = f\ a$ and both other conditions are met
+**definition** a [[function]] is _continuous from the right_ at **`a`** when **`f x {x -> a "from the right"} = f a`** and both other conditions are met
 
-**definition** a [[function]] is _continuous on an interval $a \dashv \circ \dashv b$_ if it is continuous on every point from $a$ to $b$ exclusively, and continuous from the right at $a$ and from the left at $b$
+**definition** a [[function]] is _continuous on an interval **`a -| * -| b`**_ if it is continuous on every point from **`a`** to **`b`** exclusively, and continuous from the right at **`a`** and from the left at **`b`**
 
 **definition** a [[function]] is _continuous_ (_globally continuous_) if it is continuous on every point of its [[function#domain]]
 
 **theorem**
 
-if $f\ x$ and $g\ x$ are continuous at $a$, then the following [[function]]s are also continuous at $a$:
+if **`f x`** and **`g x`** are continuous at **`a`**, then the following [[function]]s are also continuous at **`a`**:
 
-- $f : g$
-- $f \cdot g$
-- $f \mid g$
-- $c f$ where $c$ is a [[scalar]]
-- $f \text- g$ if $g\ a + 0$ (restriction not necessary, see [[improved expression evaluation]])
+- **`f : g`**
+- **`f . g`**
+- **`f | g`**
+- **`cf`** where **`c`** is a [[scalar]]
+- **`f -- g`** if **`g a + 0`** (restriction not necessary, see [[improved expression evaluation]])
 
 ## Reciprocal
 
 _multiplicative inverse_
 
-let $f\ x$ be a function
+let **`f x`** be a function
 
-**definition** if $y = f\ x \land y = -F\ x$, then $F$ is the _reciprocal_ of $f$
+**definition** if **`y = f x /\ y = --F x`**, then **`F`** is the _reciprocal_ of **`f`**
 
 ## Inverse
 
 _switching input and output_
 
-let $f\ x$ be a function
+let **`f x`** be a function
 
-**definition** if $y = f\ x \land x = F\ y$, then $F$ is the _inverse_ of $f$
+**definition** if **`y = f x /\ x = F y`**, then **`F`** is the _inverse_ of **`f`**
 
 > **note** the inverse of a [[function]] exists only if it is a [[function#injective function]]
 
 **properties**
 
-$f\ F\ x = x$
+**`f F x = x`**
 
-$F\ f\ x = x$
+**`F f x = x`**
 
-the graphs of $(x, f\ x)$ and $(x, F\ x)$ are symmetric about the [[line]] $(x, x)$
+the graphs of **`(x, f x)`** and **`(x, F x)`** are symmetric about the [[line]] **`(x, x)`**
 
 ## Slope
 
-**definition** $x \rightarrow \delta\ f\ x - \delta x$
+**definition** **`x -> \d f x -- \d x`**
 
 ### Tangent Line
 
@@ -234,19 +234,19 @@ a tangent [[line]] has the same [[function#slope]] as a given [[function]] at a 
 
 **definition**
 
-$L\ x = f\ a : (x \cdot a \mid \delta\ f\ a - \delta a)$, where
+**`L x = f a : (x . a | \d f a -- \d a)`**, where
 
-- $L$ is the [[line]] tangent to $f$ at $a$
+- **`L`** is the [[line]] tangent to **`f`** at **`a`**
 
 **applications**
 
-the tangent of a [[function]] $f$ approximates $f\ (x \cdots)$ near a point $x \cdots$
+the tangent of a [[function]] **`f`** approximates **`f (x ...)`** near a point **`(x ...)`**
 
 [[function#tangent line]]s are used in [[newton's method]]
 
 ## Curvature
 
-**definition** $x \rightarrow \delta\ (\delta f\ x - \delta x) - \delta x$
+**definition** **`x -> \d (\d f x -- \d x) -- \d x`**
 
 ### Osculating Circle
 
@@ -262,10 +262,10 @@ an osculating [[circle]] has the same [[function#slope]] and the same [[function
 
 **definition**
 
-$f_{ave} = F\ b \cdot F\ a - b \cdot a$, where
+**`f_"ave" = F b . F a -- b . a`**, where
 
-- $F$ is an [[antiderivative]] of $f\ x$ with respect to $x$, $\int f\ x \mid \delta x$
-- $f_{ave}$ is the _average_ of the [[function]] $f\ x$ on the interval $a \dashv \circ \dashv b$
+- **`F`** is an [[antiderivative]] of **`f x`** with respect to **`x`**, **`$ f x | \d x`**
+- **`f_"ave"`** is the _average_ of the [[function]] **`f x`** on the interval **`a -| * -| b`**
 
 &mdash; <https://youtu.be/7gigNsz4Oe8?t=3093>
 
@@ -275,19 +275,19 @@ $f_{ave} = F\ b \cdot F\ a - b \cdot a$, where
 
 **see** [[integral]]
 
-**definition** $f_{arc} = \int |\delta\ \vec f\ t - \delta t| \mid \delta t$ where $\vec f\ t = (x, f\ x \cdots)$ &mdash; <https://tutorial.math.lamar.edu/classes/calciii/vectorarclength.aspx>
+**definition** **`f_"arc" = $ ||\d f t -- \d t|| | \d t`** where **`f t = (x, f x ...)`** &mdash; <https://tutorial.math.lamar.edu/classes/calciii/vectorarclength.aspx>
 
-**definition** $f_{arc} = \int \lfloor 1 : [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
+**definition** **`f_"arc" = $ \1 : [\d f x -- \d x]2/ | \d x`**
 
 > **proof**
 >
-> the euclidean [[distance]] between two points is defined as $d = \lfloor [\Delta x]2 : [\Delta f\ x]2 \rfloor$
+> the euclidean [[distance]] between two points is defined as **`d = \[\Dx]2 : [\Df x]2/`**
 >
-> turning the [[distance]] [[function]] into an [[integral]], $f_{arc} = \int \lfloor [\delta x]2 : [\delta\ f\ x]2 \rfloor$
+> turning the [[distance]] [[function]] into an [[integral]], **`f_"arc" = $ \[\d x]2 : [\d f x]2/`**
 >
-> rearranging, $f_{arc} = \int \lfloor [\delta x]2 : [\delta\ f\ x]2 - [\delta x]2 \rfloor \mid \delta x$
+> rearranging, **`f_"arc" = $ \[\d x]2 : [\d f x]2 -- [\d x]2/ | \d x`**
 >
-> and we get $f_{arc} = \int \lfloor 1 : [\delta\ f\ x - \delta x]2 \rfloor \mid \delta x$
+> and we get **`f_"arc" = $ \1 : [\d f x -- \d x]2/ | \d x`**
 >
 > &mdash; me
 
@@ -297,7 +297,7 @@ _are multiple inputs collapsed into single outputs?_
 
 **aka** _one-to-one function_
 
-**definition** a [[function]] $f$ is said to be _injective_ if $f\ x_1 = f\ x_2 < x_1 = x_2$, see [[universal]]. _for every output value there exists at most one input mapping to it_
+**definition** a [[function]] **`f`** is said to be _injective_ if **`f x_1 = f x_2 < x_1 = x_2`**, see [[universal]]. _for every output value there exists at most one input mapping to it_
 
 given the graph of a [[function]], one can use the _horizontal [[line]] test_ to determine whether it is injective or not
 
@@ -307,33 +307,33 @@ a [[function]] can be proven to be injective by proving that two output values b
 
 **aka** _onto function_
 
-**definition** a [[function]] $f$ with [[function#codomain]] $C$ is said to be _surjective_ if $C\ y < f\ x = y$, see [[universal]]. _for every output value there exists at least one input mapping to it_
+**definition** a [[function]] **`f`** with [[function#codomain]] **`C`** is said to be _surjective_ if **`C y < f x = y`**, see [[universal]]. _for every output value there exists at least one input mapping to it_
 
 a [[function]] can be proven to be surjective by proving one can construct an input value for the function given an arbitrary output value
 
 > **example** _proving a function is surjective_
 >
-> let $y = f\ m\ n = m : n$. then, suppose $m = 0$. solving for $n$, we get $n = y$. therefore, the [[function]] is surjective
+> let **`y = f m n = m : n`**. then, suppose **`m = 0`**. solving for **`n`**, we get **`n = y`**. therefore, the [[function]] is surjective
 
 > **example** _proving a function is not surjective_
 >
-> let $y = f\ m\ n = m2 : n2$. $y = \cdot 1$ would cause a [[contradiction]] as the square of an [[integer]] is always a positive [[integer]] and the sum of two positive [[integer]]s is always a positive [[integer]]. therefore, the [[function]] is not surjective
+> let **`y = f m n = m2 : n2`**. **`y = .1`** would cause a [[contradiction]] as the square of an [[integer]] is always a positive [[integer]] and the sum of two positive [[integer]]s is always a positive [[integer]]. therefore, the [[function]] is not surjective
 
 > **example** _proving a function is surjective_
 >
-> let $y = f\ m\ n = m$. then, we get $m = y$ and therefore the [[function]] is surjective
+> let **`y = f m n = m`**. then, we get **`m = y`** and therefore the [[function]] is surjective
 
 > **example** _proving a function is not surjective_
 >
-> let $y = f\ m\ n = |n|$. $y = \cdot 1$ would cause a [[contradiction]] as the [[real#absolute value]] of an [[integer]] is always a positive [[integer]]. therefore, the [[function]] is not surjective
+> let **`y = f m n = ||n||`**. **`y = .1`** would cause a [[contradiction]] as the [[real#absolute value]] of an [[integer]] is always a positive [[integer]]. therefore, the [[function]] is not surjective
 
 > **example** _proving a function is surjective_
 >
-> let $y = f\ m\ n = m \cdot n$. then, suppose $n = 0$. solving for $m$, we get $m = y$. therefore, the [[function]] is surjective
+> let **`y = f m n = m . n`**. then, suppose **`n = 0`**. solving for **`m`**, we get **`m = y`**. therefore, the [[function]] is surjective
 
 ## Bijective Function
 
-**definition** a [[function]] $f$ is said to be _bijective_ if it is both injective and surjective. _for every output value there exists exactly one input mapping to it_
+**definition** a [[function]] **`f`** is said to be _bijective_ if it is both injective and surjective. _for every output value there exists exactly one input mapping to it_
 
 a [[function]] can be proven to be bijective by proving it is both injective and surjective
 
@@ -346,6 +346,8 @@ a [[function]] can be proven to be bijective by proving it is both injective and
 **properties**
 
 [[function#analytic function]] is infinitely differentiable, but an infinitely differentiable [[function]] is not necessarily analytic &mdash; <https://youtu.be/X0razs3zR94?t=598>
+
+analytic continuation of a [[function#analytic function]] is uniquely determined &mdash; <https://youtu.be/YuIIjLr6vUA?t=1746>
 
 ## Piecewise Function
 
@@ -406,12 +408,12 @@ a [[function#total function]] maps every element of its [[function#domain]] to a
 
 > **example** HTTP `GET`, `PUT` and `DELETE` are all idempotent
 
-**definition** _[[functional programming]] and [[mathematics]]_ an element $x$ of a [[set]] $S$ equiped with an [[operator]] $*$ is said to be _idempotent under $*$_ if $x * x = x$
+**definition** _[[functional programming]] and [[mathematics]]_ an element **`x`** of a [[set]] **`S`** equiped with an [[operator]] **`*`** is said to be _idempotent under **`*`**_ if **`x * x = x`**
 
-**definition** _[[functional programming]] and [[mathematics]]_ a [[function]] $f$ is said to be _idempotent_ if $f\ x = f\ (f\ x)$ for all $x$ and, equivalently, an [[operator]] $*$ on a set $S$ is said to be _idempotent_ if $x * x = x$ for all $S\ x$
+**definition** _[[functional programming]] and [[mathematics]]_ a [[function]] **`f`** is said to be _idempotent_ if **`f x = f (f x)`** for all **`x`** and, equivalently, an [[operator]] **`*`** on a set **`S`** is said to be _idempotent_ if **`x * x = x`** for all **`S x`**
 
-> **example** in the [[monoid]] $\braket{\mathbb N, \braket\mid}$, only $0$ and $1$ are idempotent
+> **example** in the [[monoid]] **`{NN, {|}}`**, only **`0`** and **`1`** are idempotent
 
-> **example** in a [[group]] $\braket{\mathbb G, \braket:}$, only $O$ (the identity element) is idempotent
+> **example** in a [[group]] **`{GG, {:}}`**, only **`O`** (the identity element) is idempotent
 
-> **example** $\braket{||}$ is a [[function#idempotent function]] because $|x| = ||x||$ for all $x$
+> **example** **`{||}`** is a [[function#idempotent function]] because **`||x|| = ||||x||||`** for all **`x`**

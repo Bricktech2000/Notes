@@ -8,10 +8,10 @@ _the [[set]] of fractional [[number]]s_
 
 _a [[rational]] that is not an integer_
 
-$\mathbb Q \land + \mathbb Z$
+**`QQ /\ +ZZ`**
 
 **properties**
 
-$(\mathbb Q \land +\mathbb Z) < \mathbb R$
+**`(QQ /\ +ZZ) < RR`**
 
-$\mathbb Z \lor (\mathbb Q \land +\mathbb Z) =\!= \mathbb R$
+**`ZZ \/ (QQ /\ +ZZ) == RR`**

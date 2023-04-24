@@ -8,10 +8,10 @@ this seems to be a common problem among the general public, and frustrates me ve
 
 > **examples** _scale examples &mdash; with correct use, and example use_
 >
-> - [[gaussian function]] &mdash; for quantities with a [[probability distribution#normal distribution]], $\cdot 2\sigma$
-> - pie chart &mdash; for quantities that add up to a whole, $\text-5 : 3\text-10 : \text-2 = 1$
+> - [[gaussian function]] &mdash; for quantities with a [[probability distribution#normal distribution]], **`.2\s`**
+> - pie chart &mdash; for quantities that add up to a whole, **`-5 : 3-10 : -2 = 1`**
 > - [[logarithm]]ic scale &mdash; for quantities that are proportional to a base
-> - [[fraction]]al scale &mdash; for quantities that are proportional to a whole, $20\text-100$, $2 - 10$
+> - [[fraction]]al scale &mdash; for quantities that are proportional to a whole, **`20-100`**, **`2 -- 10`**
 
 > **examples** _incorrect scale uses &mdash; with correct use_
 >

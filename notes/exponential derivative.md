@@ -2,27 +2,27 @@
 
 **see** [[math notation]], [[derivative]], [[exponent]], [[logarithm]], [[limit]], [[euler's constant]]
 
-the [[derivative]] of a [[line]]ar [[function]] $x \rightarrow ax : b$ is its [[function#slope]] $a$. similarly, the [[exponential derivative]] of an [[exponent]]ial [[function]] $x \rightarrow ba[x]$ is its base $a$
+the [[derivative]] of a [[line]]ar [[function]] **`x -> ax : b`** is its [[function#slope]] **`a`**. similarly, the [[exponential derivative]] of an [[exponent]]ial [[function]] **`x -> ba[x]`** is its base **`a`**
 
-**definition** $D\ f =\!= x \rightarrow \lfloor f\ x - f\ a \rfloor (x \cdot a)\ \braket{x \rightarrow a} =\!= x \rightarrow [\delta\ \lceil f\ x \rceil - \delta x]$
+**definition** **`D f == x -> \f x -- f a/ (x.a) {x -> a} == x -> [\d /f x\ -- \d x]`**
 
 > **proof**
 >
-> $\begin{align*} & [\delta\ \lceil f\ x \rceil - \delta x] \\\ =\!= & [\lceil f\ x \rceil \cdot \lceil f\ a \rceil - x \cdot a]\ \braket{x \rightarrow a} \\\ =\!= & [\lceil f\ x - f\ a \rceil - x \cdot a]\ \braket{x \rightarrow a} \\\ =\!= & \lfloor f\ x - f\ a \rfloor (x \cdot a)\ \braket{x \rightarrow a} \end{align*}$
+> **`[\d /f x\ -- \d x] == [ /f x\ . /f a\ -- x . a] {x -> a} == [ /f x -- f a\ -- x . a] {x -> a} == \f x -- f a/ (x . a) {x -> a}`**
 
-> **note** this is not actually a thing, I made it up. I came up with the [[derivative]]-[[limit]]-definition&ndash;like form first by intuitively swapping out the subtraction and the division $f\ x \cdot f\ a - \dots$ for a ratio and a radical $\lfloor f\ x - f\ a \rfloor \dots$. I then realized that the base-agnostic [[logarithm]] of an [[exponent]]ial [[function]] is a [[line]]ar [[function]], the [[derivative]] of which contains the base of that [[exponent]]ial [[function]]. finally, I realized that taking the [[exponent]]ial of the [[derivative]] of that [[logarithm]] would give me the base of the original [[exponent]]ial [[function]]. this is what the second definition $[\delta\ \lceil f\ x \rceil - \delta x]$ represents
+> **note** this is not actually a thing, I made it up. I came up with the [[derivative]]-[[limit]]-definition&ndash;like form first by intuitively swapping out the subtraction and the division **`f x . f\ a -- ...`** for a ratio and a radical **`\f x -- f a/ ...`**. I then realized that the base-agnostic [[logarithm]] of an [[exponent]]ial [[function]] is a [[line]]ar [[function]], the [[derivative]] of which contains the base of that [[exponent]]ial [[function]]. finally, I realized that taking the [[exponent]]ial of the [[derivative]] of that [[logarithm]] would give me the base of the original [[exponent]]ial [[function]]. this is what the second definition **`[\d /f x\ -- \d x]`** represents
 
 **properties**
 
-$[\delta\ \lceil f\ x \rceil - \delta x] =\!= [\delta\ f\ x - \delta x - f\ x]$ by the [[derivative rules]]
+**`[\d /f x\ -- \d x] == [\d f x -- \d x -- f x]`** by the [[derivative rules]]
 
-let $D\ f = x \rightarrow [\delta\ \lceil f\ x \rceil - \delta x]$. then,
+let **`D f = x -> [\d /f x\ -- \d x]`**. then,
 
-$D\ (x \rightarrow ba[x]) = x \rightarrow a$
+**`D (x -> ba[x]) = x -> a`**
 
-$D\ (x \rightarrow ax : b) = x \rightarrow [a - ax : b]$
+**`D (x -> ax : b) = x -> [a -- ax : b]`**
 
-$D\ (x \rightarrow ax2 : bx : c) = x \rightarrow [2ax : b - ax2 : bx : c]$
+**`D (x -> ax2 : bx : c) = x -> [2ax : b -- ax2 : bx : c]`**
 
 ## &mdash;
 

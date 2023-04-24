@@ -20,7 +20,7 @@
 - MIT intro to [[statistics]] video series &mdash; <https://www.youtube.com/watch?v=OgO1gpXSUzU&list=PLUl4u3cNGP619EG1wp0kT-7rDE_Az5TNd&index=6>
 - introduction to [[spline]]s &mdash; <https://www.youtube.com/watch?v=jvPPXbo87ds>
 - parody of the [[ieee 754]] standard &mdash; <http://tom7.org/nand/nand.pdf>
-- [[linear algebra]] summarized in $4$ pages &mdash; <https://courses.engr.illinois.edu/ece498rc3/fa2016/material/linearAlgebra_4pgs.pdf>
+- [[linear algebra]] summarized in **`4`** pages &mdash; <https://courses.engr.illinois.edu/ece498rc3/fa2016/material/linearAlgebra_4pgs.pdf>
 - Smartphone Compulsion Test to discover phone [[addiction]] &mdash; <https://virtual-addiction.com/smartphone-compulsion-test/>
 - _BIG OMICRON AND BIG OMEGA AND BIG THETA_ by Donald E. Knuth &mdash; <https://dl.acm.org/doi/pdf/10.1145/1008328.1008329>
 - the [[tau]] manifesto &mdash; <https://tauday.com/tau-manifesto>

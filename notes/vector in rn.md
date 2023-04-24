@@ -1,10 +1,10 @@
 # Vector in Rn
 
-_Vectors in $\mathbb R^n$_
+_vectors in **`RR^n`**_
 
 **see** [[math notation]], [[math notation]], [[vector]] properties
 
-**definition** a _vector in $\mathbb R^n$_ is an ordered collection of elements that do not have to be unique
+**definition** a _vector in **`RR^n`**_ is an ordered collection of elements that do not have to be unique
 
 **definition** _formally in my [[math notation]]_ a [[vector]] is a [[set theory]]etical [[function]] that takes a [[natural]] index and returns the element at that index
 
@@ -14,7 +14,7 @@ _Vectors in $\mathbb R^n$_
 
 **notation** _in my [[math notation]]_
 
-$(1, 2)$
+**`(1, 2)`**
 
 ## Vector Space
 
@@ -22,11 +22,11 @@ $(1, 2)$
 
 **properties**
 
-_zero [[vector in rn]]_ $O$ such that $\,\land\ \,\land\ O \circ \circ = 0$
+_zero [[vector in rn]]_ **`O`** such that **`/\ O * = 0`**
 
-_[[vector in rn]] addition_ $(a, b) : (c, d) =\!= (a : c, b : d)$
+_[[vector in rn]] addition_ **`(a, b) : (c, d) == (a : c, b : d)`**
 
-_multiplication by a [[scalar]]_ $c(a, b) =\!= (ca, cb) > \mathbb R c$
+_multiplication by a [[scalar]]_ **`c(a, b) == (ca, cb) > RR c`**
 
 ## Magnitude
 
@@ -34,15 +34,15 @@ _multiplication by a [[scalar]]_ $c(a, b) =\!= (ca, cb) > \mathbb R c$
 
 **definition**
 
-$|V| = \lfloor \,: V2 \rfloor$, where
+**`||V|| = \:V2/`**, where
 
 ### Unit Vector
 
 **definition**
 
-a _unit vector_ is a [[vector in rn]] $V$ such that $|V| = 1$
+a _unit vector_ is a [[vector in rn]] **`V`** such that **`||V|| = 1`**
 
-a [[vector in rn]] can be _normalized_ (scaled into into a [[vector in rn#unit vector]]) through $\braket{\circ - ||}$
+a [[vector in rn]] can be _normalized_ (scaled into into a [[vector in rn#unit vector]]) through **`{*--||||}`**
 
 ## Angle
 
@@ -50,41 +50,41 @@ _angle between two [[vector in rn]]s_
 
 **definition**
 
-$\cos \theta = \,: ab - |a| |b|$, see [[dot product]] #magic
+**`"cos" \q = :ab -- ||a||||b||`**, see [[dot product]] #magic
 
-> **note** use $\cos \theta =\ |\,: ab| - |a| |b|$ to always get the acute angle solution
+> **note** use **`"cos" \q = ||:ab|| -- ||a||||b||`** to always get the acute angle solution
 
 **definition**
 
-$\sin \theta = a\ \check\mid\ b - |a| |b|$, see [[cross product]] #magic
+**`"sin" \q = (a "cross" b) -- ||a||||b||`**, see [[cross product]] #magic
 
 ### Orthogonal Vectors
 
-_a pair of vectors offset by $\text-4\tau\ \text{rad}$_
+_a pair of vectors offset by **`-4\t "rad"`**_
 
-**definition** $u$ and $v$ are _orthogonal_ if and only if $\,: uv = 0$, see [[dot product]]
+**definition** **`u`** and **`v`** are _orthogonal_ if and only if **`:uv = 0`**, see [[dot product]]
 
 **definition** a [[set]] of [[vector]]s is _orthogonal_ if and only if it does not contain the zero [[vector]] and all [[vector]]s in the [[set]] are orthogonal to all other [[vector]]s
 
-**theorem** any orthogonal [[set]] of [[vector]]s in $\mathbb R^n$ contains at most $n$ [[vector]]s
+**theorem** any orthogonal [[set]] of [[vector]]s in **`RR^n`** contains at most **`n`** [[vector]]s
 
-**theorem** any orthogonal [[set]] of $n$ [[vector]]s in $\mathbb R^n$ is a [[basis#orthogonal basis]] of $\mathbb R^n$
+**theorem** any orthogonal [[set]] of **`n`** [[vector]]s in **`RR^n`** is a [[basis#orthogonal basis]] of **`RR^n`**
 
 **theorem** a [[set]] of [[vector]]s being orthogonal implies the [[vector]]s are [[linearly independent]], but not conversely
 
-**theorem** suppose $(w_0 \cdots w_m)$ is a [[basis#orthogonal basis]] for a [[vector space#subspace]] $W$ of $\mathbb R^n$. then, $w = w_0 (\,: ww_0\ - \,: w_0w_0) : \cdots w_m (\,: ww_m\ - \,: w_mw_m)$, see [[dot product]]
+**theorem** suppose **`(w_0 ... w_m)`** is a [[basis#orthogonal basis]] for a [[vector space#subspace]] **`W`** of **`RR^n`**. then, **`w = w_0 (:w w_0 -- :w_0 w_0) : ... w_m (:w w_m -- :w_m w_m)`**, see [[dot product]]
 
 ### Colinear Vectors
 
 _a pair of parallel vectors_
 
-**definition** $u$ and $v$ are _colinear_ if and only if $\,: uv = |u| |v|$, see [[dot product]]
+**definition** **`u`** and **`v`** are _colinear_ if and only if **`:uv = ||u||||v||`**, see [[dot product]]
 
-**definition** $u$ and $v$ are _colinear_ if and only if $u = kv$ given a [[scalar]] $k$
+**definition** **`u`** and **`v`** are _colinear_ if and only if **`u = kv`** given a [[scalar]] **`k`**
 
 **properties**
 
-$u$ and $v$ are colinear if $u$ is a [[linear combination]] of the [[set]] $\braket{\braket{v}}$
+**`u`** and **`v`** are colinear if **`u`** is a [[linear combination]] of the [[set]] **`{{v}}`**
 
 ## Projection
 
@@ -96,31 +96,31 @@ _The scalar projection is equal to the [[vector in rn#magnitude]] of the [[vecto
 
 **definition** _projection onto another [[vector]]_
 
-$|proj_b\ a| = |a| \cos \theta$, and
+**`||"proj"^b a|| = ||a|| "cos" \q`**, and
 
-$proj_b\ a = |a| \cos \theta \mid \hat b = \,: a \hat b \mid \hat b = \,: ab\ - \,: bb \mid b$ (see [[dot product]]), where
+**`"proj"^b a = ||a|| "cos" \q | b_* = :ab_* | b_* = :ab -- :b2 | b`** (see [[dot product]]), where
 
-- $proj_b\ a$ is the _vector projection of $a$ on $b$_
-- $|proj_b\ a|$ is the _scalar projection of $a$ on $b$_
-- $\hat b$ is the [[vector in rn#unit vector]] in the direction of $b$, $b - |b|$
+- **`"proj"^b a`** is the _vector projection of **`a`** on **`b`**_
+- **`||"proj"^b a||`** is the _scalar projection of **`a`** on **`b`**_
+- **`b_*`** is the [[vector in rn#unit vector]] in the direction of **`b`**, **`b -- ||b||`**
 
 **definition** _projection onto a [[vector space]]_
 
-$proj_W\ v = (\,: vw_0\ - \,: w_0w_0) : \cdots (\,: vw_n\ - \,: w_nw_n)$, where
+**`"proj"^W v = (:vw_0 -- :w_0 w_0) : ... (:vw_n -- :w_n w_n)`**, where
 
-- $proj_W\ v$ is the projection of $v$ on the [[vector space]] $W$
-- $W = \operatorname{span} \braket{\braket{w_0 \cdots w_n}}$ and $(w_0 \cdots w_n)$ is a [[basis#orthogonal basis]] for $W$
+- **`"proj"^W v`** is the projection of **`v`** on the [[vector space]] **`W`**
+- **`W = "span" {{w_0 ... w_n}}`** and **`(w_0 ... w_n)`** is a [[basis#orthogonal basis]] for **`W`**
 
 **properties**
 
-$proj_b\ a$ is parallel to $b$
+**`"proj"^b a`** is parallel to **`b`**
 
-$a \cdot proj_b\ a$ is orthogonal to $b$
+**`a . "proj"^b a`** is orthogonal to **`b`**
 
-$W\ (proj_W\ v)$
+**`W ("proj"^W v)`**
 
-$v \cdot proj_W\ v$ is orthogonal to every [[vector]] in $W$
+**`v . "proj"^W v`** is orthogonal to every [[vector]] in **`W`**
 
-the [[vector]] $proj_W\ v$ is the only [[vector]] in $\mathbb R^n$ that satisfies the two properties above
+the [[vector]] **`"proj"^W v`** is the only [[vector]] in **`RR^n`** that satisfies the two properties above
 
-$proj_W\ v$ is the "best approximation" to $v$ by [[vector]]s in $W$
+**`"proj"^W v`** is the "best approximation" to **`v`** by [[vector]]s in **`W`**

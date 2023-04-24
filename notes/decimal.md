@@ -8,4 +8,4 @@ humans have 10 fingers
 
 **cons**
 
-$x \rightarrow \top$
+**`x -> ^^`**

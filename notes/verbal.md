@@ -14,15 +14,15 @@ _an association that any given word or phrase carries_
 
 > **examples**
 >
-> - > **when** we come to paint these windows, we will ...
+> - > **when** we come to paint these windows, we will &hellip;
 >
->   > **if** we come to paint these windows, we will ...
+>   > **if** we come to paint these windows, we will &hellip;
 >
 >   the former has a [[verbal#connotation]] indicating the sale is already done whereas the latter does not &mdash; Student Works Operations Manual, 2023, p. 33
 >
-> - > we **expect** to achieve sales of ...
+> - > we **expect** to achieve sales of &hellip;
 >
->   > we **hope** to achieve sales of ...
+>   > we **hope** to achieve sales of &hellip;
 >
 >   the former has a [[verbal#connotation]] of confidence whereas the latter does not
 >

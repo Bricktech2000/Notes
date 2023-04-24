@@ -6,9 +6,9 @@ _APL-style Outer Product_
 
 **see** [[rank polymorphism]]
 
-**notation** $A\ \circ *\ B\ \circ$
+**notation** **`A * \* B *`**
 
-**definition** $A\ \circ *\ B\ \circ$
+**definition** **`A * \* B *`**
 
 **definition** an _outer product_ is an operation where an [[operator]] is applied to every [[ordered pair]] of elements from two objects. the rank of the [[outer product]] of two objects is the sum of the ranks of the two objects. the shape of the [[outer product]] of two objects is the concatenation of the shapes of the two objects
 
@@ -16,4 +16,4 @@ _APL-style Outer Product_
 
 &mdash; <https://en.wikipedia.org/wiki/Outer_product>
 
-**definition** the [[outer product#conventional outer product]] of $a$ and $b$ is $a\ \circ \mid b\ \circ$
+**definition** the [[outer product#conventional outer product]] of **`a`** and **`b`** is **`a * | b *`**

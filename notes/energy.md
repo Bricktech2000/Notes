@@ -6,54 +6,54 @@
 
 **definition**
 
-$E_K = mv2 - 2$, where
+**`E_K = mv2 -- 2`**, where
 
-- $E_K$ is the kinetic [[energy]] of a body
-- $m$ is the [[mass]] of the body
-- $v$ is the change in [[velocity]] the body can experience
+- **`E_K`** is the kinetic [[energy]] of a body
+- **`m`** is the [[mass]] of the body
+- **`v`** is the change in [[velocity]] the body can experience
 
 > **proof**
 >
-> [[energy]] is [[force]] multiplied by [[distance]]. given $F = ma$,
+> [[energy]] is [[force]] multiplied by [[distance]]. given **`F = ma`**,
 >
-> $E_K = \int ma \mid \delta x = \int m \mid \delta v - \delta t \mid \delta x = \int mv \mid \delta v = mv2 - 2$
+> **`E_K = $ ma | \d x = $ m | \d v -- \d t | \d x = $ mv | \d v = mv2 -- 2`**
 >
 > &mdash; <https://tauday.com/tau-manifesto>
 
 **definition**
 
-$E_K = I\omega2 - 2$, where
+**`E_K = I\w2 -- 2`**, where
 
-- $E_K$ is the kinetic [[energy]] of a body
-- $I$ is the moment of inertia of the body
-- $\omega$ is the change in [[angular velocity]] the body can experience
+- **`E_K`** is the kinetic [[energy]] of a body
+- **`I`** is the moment of inertia of the body
+- **`\w`** is the change in [[angular velocity]] the body can experience
 
 > **proof**
 >
 > when integrating over [[mass]], [[velocity]] is radius multiplied by [[angular velocity]]:
 >
-> $E = mv2 - 2 = \int v2 - 2 \mid \delta m = \int [r\omega]2 - 2 \mid \delta m = \omega2 - 2 \mid \int r2 \mid \delta m = I\omega2 - 2$
+> **`E = mv2 -- 2 = $ v2 -- 2 | \d m = $ [r\w]2 -- 2 | \d m = \w2 -- 2 | $ r2 | \d m = I\w2 -- 2`**
 >
 > &mdash; me
 
 **definition**
 
-$Q = mc\Delta T$, where
+**`Q = mc\DT`**, where
 
-- $Q$ is the potential [[energy]] stored in the form of heat, see [[electromagnetic wave]]
-- $m$ is the [[mass]] of the body
-- $c$ is the specific heat of the body
-- $\Delta T$ is the change in [[temperature]] of the body
+- **`Q`** is the potential [[energy]] stored in the form of heat, see [[electromagnetic wave]]
+- **`m`** is the [[mass]] of the body
+- **`c`** is the specific heat of the body
+- **`\DT`** is the change in [[temperature]] of the body
 
 ## Potential Energy
 
 **definition**
 
-$E_P = mgh$, where
+**`E_P = mgh`**, where
 
-- $E_P$ is the potential [[energy]] of a body
-- $m$ is the [[mass]] of the body
-- $g$ is the [[acceleration]] of the gravitational field the body is subject to
-- $h$ is the [[distance]] the body can travel
+- **`E_P`** is the potential [[energy]] of a body
+- **`m`** is the [[mass]] of the body
+- **`g`** is the [[acceleration]] of the gravitational field the body is subject to
+- **`h`** is the [[distance]] the body can travel
 
-> **proof** $E_P = Fx = max = mgh$ &mdash; me
+> **proof** **`E_P = Fx = max = mgh`** &mdash; me

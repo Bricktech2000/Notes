@@ -4,7 +4,7 @@ _type system madness_
 
 **properties**
 
-equality is **not** a [[relation#reflexive relation]] in [[javascript]] because of [[ieee 754]] `NaN`
+equality is **not** a [[relation#reflexive relation]] in [[javascript]] because of [[ieee 754]] **`"NaN"`**
 
 weak equality is **not** a [[relation#transitive relation]] in [[javascript]] &mdash; <https://youtu.be/vcFBwt1nu2U?t=1290> &mdash; JavaScript: The Good Parts, by Douglas Crockford
 

@@ -6,6 +6,6 @@ _an alternative to [[complement#radix complement]]s for representing negative [[
 
 **representation**
 
-an $n$-bit [[binary]] [[number]] is represented with $1$ sign bit and $n \cdot 1$ magnitude bits
+an **`n`**-bit [[binary]] [[number]] is represented with **`1`** sign bit and **`n . 1`** magnitude bits
 
-> **example** $\cdot 3$ as a byte would be represented as $10000011_2$, see [[positional numeral system]]
+> **example** **`.3`** as a byte would be represented as **`10000011_2`**, see [[positional numeral system]]

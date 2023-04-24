@@ -4,10 +4,10 @@ _the [[set]] of [[imaginary]] numbers_
 
 **see** [[math notation]]
 
-**definition** $(\mathbb C \land +\mathbb R)\ x =\!= x = b\iota \land \mathbb R b$
+**definition** **`(CC /\ +RR) x == x = b\i /\ RR b`**
 
 **properties**
 
-$(\mathbb C \land +\mathbb R) < \mathbb C$
+**`(CC /\ +RR) < CC`**
 
-$\mathbb C \land +\mathbb R \lor \mathbb R =\!= \mathbb C$
+**`CC /\ +RR \/ RR == CC`**

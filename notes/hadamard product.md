@@ -6,22 +6,22 @@
 
 &mdash; <https://en.wikipedia.org/wiki/Hadamard_product_(matrices)#Properties>
 
-**definition** the [[hadamard product]] of $s$ and $t$ is $st$, where $s$ and $t$ have the same rank and the same shape. see [[rank polymorphism]]
+**definition** the [[hadamard product]] of **`s`** and **`t`** is **`st`**, where **`s`** and **`t`** have the same rank and the same shape. see [[rank polymorphism]]
 
-> **example** $\begin{bmatrix} 1 \\\ 2 \end{bmatrix} \mid \begin{bmatrix} 3 \\\ 4 \end{bmatrix} = \begin{bmatrix} 1 \mid 3 \\\ 2 \mid 4 \end{bmatrix} = \begin{bmatrix} 3 \\\ 8 \end{bmatrix}$
+> **example** **`[]1 && 2[] | []3 && 4[] = []1 | 3 && 2 | 4[] = []3 && 8[]`**
 
 **properties**
 
-let $\mathbb R k \land \mathbb M A \land \mathbb M B \land \mathbb M C$
+let **`RR k /\ MM A /\ MM B /\ MM C`**
 
-_commutative_ $AB = BA$
+_commutative_ **`AB = BA`**
 
-_associative_ $A \mid BC = AB \mid C$
+_associative_ **`A | BC = AB | C`**
 
-_distributive_ $A \mid B : C = AB : AC$
+_distributive_ **`A | B : C = AB : AC`**
 
-_distributive with [[scalar]]s_ $kA \mid B = A \mid kB = AB \mid k$
+_distributive with [[scalar]]s_ **`kA | B = A | kB = AB | k`**
 
-_identity_ $I \mid A = A \mid I = A$ with $\,\land \,\land I \circ \circ = 1$
+_identity_ **`I | A = A | I = A`** with **`/\/\ I * * = 1`**
 
-_zero_ $O \mid A = A \mid O = O$ with $\,\land \,\land O \circ \circ = 0$
+_zero_ **`O | A = A | O = O`** with **`/\/\ O * * = 0`**

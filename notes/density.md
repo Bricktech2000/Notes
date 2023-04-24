@@ -6,8 +6,8 @@
 
 let a substance
 
-$\rho = m \text- V$, where
+**`\r = m-V`**, where
 
-- $\rho$ is the [[density]] of a substance
-- $m$ is the [[mass]] of the substance
-- $V$ is the [[volume]] of the substance
+- **`\r`** is the [[density]] of a substance
+- **`m`** is the [[mass]] of the substance
+- **`V`** is the [[volume]] of the substance

@@ -4,4 +4,4 @@ _the circumference of a [[disk]]_
 
 **see** [[math notation]], [[conic section]]
 
-$[x \cdot h]2 : [y \cdot k]2 - r2 = 1$ or equivalently $[x \cdot h]2 : [y \cdot k]2 = r2$
+**`[x.h]2 : [y.k]2 -- r2 = 1`** or equivalently **`[x.h]2 : [y.k]2 = r2`**

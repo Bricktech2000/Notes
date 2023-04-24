@@ -24,25 +24,25 @@ loosely speaking, a [[field]] is a [[set]] of numbers with certain properties an
 
 &mdash; Encode x Solana Bootcamp
 
-let $a, b, c$ be numbers in a [[field]] $\mathbb F$
+let **`a, b, c`** be numbers in a [[field]] **`FF`**
 
-_associativity of addition_ $a : (b : c) = (a : b) : c$
+_associativity of addition_ **`a : (b : c) = (a : b) : c`**
 
-_associativity of multiplication_ $a(bc) = (ab)c$
+_associativity of multiplication_ **`a(bc) = (ab)c`**
 
-_commutativity of addition_ $a : b = b : a$
+_commutativity of addition_ **`a : b = b : a`**
 
-_commutativity of multiplication_ $ab = ba$
+_commutativity of multiplication_ **`ab = ba`**
 
-_additive identity_ $\mathbb F O \land a : O = a$
+_additive identity_ **`FF O /\ a : O = a`**
 
-_multiplicative identity_ $\mathbb F I \land aI = a$
+_multiplicative identity_ **`FF I /\ aI = a`**
 
-_additive inverse_ $\mathbb F (\cdot a) \land a : (\cdot a) = O$
+_additive inverse_ **`FF (.a) /\ a : (.a) = O`**
 
-_multiplicative inverse_ $\mathbb F (\text-a) \land a(\text-a) = I$
+_multiplicative inverse_ **`FF (-a) /\ a(-a) = I`**
 
-_distributivity of multiplication over addition_ $a(b : c) = ab : ac$
+_distributivity of multiplication over addition_ **`a(b : c) = ab : ac`**
 
 ## Absolute Value
 
@@ -54,10 +54,10 @@ _distributivity of multiplication over addition_ $a(b : c) = ab : ac$
 
 an _absolute value_ on a [[field]] is a [[function]] that [[map]]s elements of the [[field]] to the [[set]] of [[real]] numbers and satisfies the following [[axiom]]s:
 
-_positive_ $|x| \vdash 0$
+_positive_ **`||x|| |- 0`**
 
-_positive definite_ $|x| = 0 =\!= x = 0$
+_positive definite_ **`||x|| = 0 == x = 0`**
 
-_multiplicative_ $|xy| = |x| |y|$
+_multiplicative_ **`||xy|| = ||x||||y||`**
 
-_triange inequality_ $|x : y| \dashv |x| : |y|$
+_triange inequality_ **`||x : y|| -| ||x|| : ||y||`**

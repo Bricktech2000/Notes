@@ -38,7 +38,7 @@ the following are examples of terms that are singular and not plural:
 
 after an acronym is defined, the full term should not be used
 
-> Machine learning (ML) $\dots$. ML is also $\dots$.
+> Machine learning (ML) &hellip;. ML is also &hellip;.
 
 ## switching from indirect to direct questions
 
@@ -122,9 +122,9 @@ should be rewritten as
 
 ### _from_ and _between_
 
-$\dots$ from $\dots$ to $\dots$
+&hellip; from &hellip; to &hellip;
 
-$\dots$ between $\dots$ and $\dots$
+&hellip; between &hellip; and &hellip;
 
 ### _if_ and _whether_
 

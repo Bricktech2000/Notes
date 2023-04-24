@@ -6,37 +6,37 @@
 
 [[integral]] and [[derivative]] notation should be thought of as follows:
 
-$\delta y - \delta x = (\delta \leftarrow y) - (\delta \leftarrow x)$
+**`\d y -- \d x = (\d <- y) -- (\d <- x)`**
 
-$\int y \mid \delta x = \int \leftarrow (y \mid (\delta \leftarrow x))$
+**`$ y | \d x = $ <- (y | (\d <- x))`**
 
-> **note** when representing the [[derivative]] or [[integral]] of a [[function]], its parameter must be included. for example, $\delta\ f - \delta x$ is invalid whereas $\delta\ f\ x - \delta x$ is valid
+> **note** when representing the [[derivative]] or [[integral]] of a [[function]], its parameter must be included. for example, **`\d f -- \d x`** is invalid whereas **`\d f x -- \d x`** is valid
 
-> **note** by convention, a space is added when the parameter to a $\delta$ or a $\int$ is a [[function]]
+> **note** by convention, a space is added when the parameter to a **`\d`** or a **`$`** is a [[function]]
 
-derivatives and integrals at a point $t$ can be written as follows:
+derivatives and integrals at a point **`t`** can be written as follows:
 
-$(x \rightarrow \delta y - \delta x)\ t$ or more concisely $\delta f\ t - \delta t$
+**`(x -> \d y -- \d x) t`** or more concisely **`\d f t -- \d t`**
 
-$(x \rightarrow \int y \mid \delta x)\ t$ or more concisely $\int f\ t \mid \delta t$
+**`(x -> $ y | \d x) t`** or more concisely **`$ f t | \d t`**
 
 ### intuitive explanation
 
-$\int$ and $\delta$ can be thought of as [[function]]s
+**`$`** and **`\d`** can be thought of as [[function]]s
 
-$\int y \mid \delta x$ is actually $\int (y \mid \delta x)$ ($\mid \delta x$ is simply a multiplication, and is part of the argument of $\int$)
+**`$ y | \d x`** is actually **`$ (y | \d x)`** (**`| \d x`** is simply a multiplication, and is part of the argument to **`$`**)
 
-$\delta y - \delta x$ is simply a division between the two values involved
+**`\d y -- \d x`** is simply a division between the two values involved
 
-$(\delta - \delta x)\ y =\!= \frac{\delta}{\delta x} y$ ~~makes no sense whatsoever and is very likely some weird [[conventional math notation]] shorthand again~~ is superfluous notation and is to be avoided in my [[math notation]].
+**`(\d -- \d x) y`** alias $\frac{\delta}{\delta x} y$ ~~makes no sense whatsoever and is very likely some weird [[conventional math notation]] shorthand again~~ is superfluous notation and is to be avoided in my [[math notation]].
 
 ## properties with [[proof]]s
 
-let $\mathbb U c$, see [[universal]], [[improved expression evaluation]]
+let **`UU c`**, see [[universal]], [[improved expression evaluation]]
 
-$\int \delta y = y$
+**`$ \d y = y`**
 
-$\delta \int y = y$
+**`\d $ y = y`**
 
 **properties**
 
@@ -44,8 +44,8 @@ $\delta \int y = y$
 
 _the antiderivative of the derivative of a function is that same function_ (constant is not present, see [[improved expression evaluation]])
 
-> **proof** $\int (\delta y - \delta x) \mid \delta x = \int (\delta y) = y$
+> **proof** **`$ (\d y -- \d x) | \d x = $ (\d y) = y`**
 
 _the derivative of the antiderivative of a function is that same function_
 
-> **proof** $\delta (\int y \mid \delta x) - \delta x = y \mid \delta x - \delta x = y$
+> **proof** **`\d ($ y | \d x) -- \d x = y | \d x -- \d x = y`**

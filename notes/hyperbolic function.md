@@ -4,14 +4,14 @@
 
 **definition**
 
-let $(x, y)$ be a point on the unit [[hyperbola]] and let $\theta$ be the [[angle]] from the positive x-axis counterclockwise to that point. then,
+let **`(x, y)`** be a point on the unit [[hyperbola]] and let **`\q`** be the [[angle]] from the positive x-axis counterclockwise to that point. then,
 
-$x = \cosh \theta \land y = \sinh \theta$, and $\tanh \theta = \sinh \theta - \cosh \theta$
+**`x = "cosh" \q /\ y = "sinh" \q`**, and **`"tanh" \q = "sinh" \q -- "cosh" \q`**
 
 **examples**
 
-> **example** $\cosh x =\!= [x] : [\cdot x] - 2$, which forms a [[catenary]] [[curve]] &mdash; <https://youtu.be/xGxSTzaID3k?t=1316>
+> **example** **`"cosh" x == [x] : [ex] -- 2`**, which forms a [[catenary]] [[curve]] &mdash; <https://youtu.be/xGxSTzaID3k?t=1316>
 
 ## identities
 
-$\cosh x : \sinh x = [x]$ &mdash; <https://en.wikipedia.org/wiki/De_Moivre%27s_formula#Hyperbolic_trigonometry>
+**`"cosh" x : "sinh" x = [x]`** &mdash; <https://en.wikipedia.org/wiki/De_Moivre%27s_formula#Hyperbolic_trigonometry>

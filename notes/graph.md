@@ -6,11 +6,11 @@ _a collection of vertices connected by a collection of edges_
 
 **definition** _formally in my [[math notation]]_ a [[graph]] is a [[set theory]]etical [[function]] that takes two vertices and returns whether an edge is connecting them
 
-**definition** an _undirected graph_ is a [[graph]] $G$ such that $G = \rho\ G$
+**definition** an _undirected graph_ is a [[graph]] **`G`** such that **`G = \r G`**
 
-**definition** in [[conventional math notation]], a _graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $E\ e + 0 < V\ e^\top \land V\ e^\bot$ and $E\ e =\!= E\ (\rho\ e)$ (see [[relation]], [[ordered pair]])
+**definition** in [[conventional math notation]], a _graph_ **`{V, E}`** is a [[set]] of _vertices_ **`V`** and a [[multiset]] of _edges_ **`E`** such that **`E e + 0 < V e^.^^ /\ V e^.__`** and **`E e == E (\r e)`** (see [[relation]], [[ordered pair]])
 
-**definition** in [[conventional math notation]], a _directed graph_ $\braket{V, E}$ is a [[set]] of _vertices_ $V$ and a [[multiset]] of _edges_ $E$ such that $E\ e + 0 < V\ e^\top \land V\ e^\bot$ (see [[relation]], [[ordered pair]])
+**definition** in [[conventional math notation]], a _directed graph_ **`{V, E}`** is a [[set]] of _vertices_ **`V`** and a [[multiset]] of _edges_ **`E`** such that **`E e + 0 < V e^.^^ /\ V e^.__`** (see [[relation]], [[ordered pair]])
 
 **definition** a _vertex_ or _node_ is a point in a _graph_
 
@@ -28,9 +28,9 @@ below are two equivalent representations of a sample [[graph]]
 
 ## vertex membership
 
-**definition** _in my [[math notation]]_ a vertex $v$ is in a graph $G$ if and only if there is at least one edge incident to it; $G\ v =\!= G^{v, \circ}\ \top\ G^{\circ, v} + \braket{\ }$
+**definition** _in my [[math notation]]_ a vertex **`v`** is in a graph **`G`** if and only if there is at least one edge incident to it; **`G v == G^v,*  ^^ G^*,v + {{ }}`**
 
-**definition** _in [[conventional math notation]]_ a vertex $v$ is in a graph $\braket{V, E}$ if and only if $V\ v$
+**definition** _in [[conventional math notation]]_ a vertex **`v`** is in a graph **`{V, E}`** if and only if **`V v`**
 
 ## Isomorphism
 
@@ -38,13 +38,13 @@ below are two equivalent representations of a sample [[graph]]
 
 **definition** two [[graph]]s are said to be _isomorphic_ if they have the same edges connecting their vertices, which could be labelled differently
 
-**definition** in my [[math notation]], a _graph isomorphism_ between two [[graph]]s $G_1$ and $G_2$ is a bijective [[function]] $f$ such that $G_1^{v, w} =\!= G_2^{f\ v, f\ w}$
+**definition** in my [[math notation]], a _graph isomorphism_ between two [[graph]]s **`G_1`** and **`G_2`** is a bijective [[function]] **`f`** such that **`G_1^v,w == G_2^fv,fw`**
 
-**definition** in [[conventional math notation]], a _graph isomorphism_ between two [[graph]]s $\braket{V_1, E_1}$ and $\braket{V_2, E_2}$ is a bijective [[function]] $f$ from $V_1$ to $V_2$ such that any two vertices $a$ and $b$ in $V_1$ have an edge in $E_1$ connecting them if and only if $f\ a$ and $f\ b$ have an edge in $E_2$ connecting them.
+**definition** in [[conventional math notation]], a _graph isomorphism_ between two [[graph]]s **`{V_1, E_1}`** and **`{V_2, E_2}`** is a bijective [[function]] **`f`** from **`V_1`** to **`V_2`** such that any two vertices **`a`** and **`b`** in **`V_1`** have an edge in **`E_1`** connecting them if and only if **`f a`** and **`f b`** have an edge in **`E_2`** connecting them.
 
 ## Complete Graph
 
-**definition** a _complete graph_ $K^n$ is a graph with $n$ vertices, each pair of which is connected by exactly one edge
+**definition** a _complete graph_ **`K^n`** is a graph with **`n`** vertices, each pair of which is connected by exactly one edge
 
 ## Connected Graph
 
@@ -54,13 +54,13 @@ below are two equivalent representations of a sample [[graph]]
 
 ## Subgraph
 
-**definition** a [[graph]] $G_1$ is a _subgraph_ of $G_2$ if and only if it is a [[graph]] and $\,\land\ G_1 \dashv G_2$
+**definition** a [[graph]] **`G_1`** is a _subgraph_ of **`G_2`** if and only if it is a [[graph]] and **`/\ G_1 -| G_2`**
 
-**definition** a [[graph]] $G_1$ is an _induced subgraph_ of $G_2$ if and only if it is a _subgraph_ of $G_2$ and $G_1\ v \land G_1\ w < G_1^{v, w} = G_2^{v, w}$ (the subgraph must contain all the original edges connecting its vertices)
+**definition** a [[graph]] **`G_1`** is an _induced subgraph_ of **`G_2`** if and only if it is a _subgraph_ of **`G_2`** and **`G_1 v /\ G_1 w < G_1^v,w = G_2^v,w`** (the subgraph must contain all the original edges connecting its vertices)
 
 ## Vertex Degree
 
-**definition** the _degree_ of a vertex $v$ is the number of edges incident to $v$
+**definition** the _degree_ of a vertex **`v`** is the number of edges incident to **`v`**
 
 as every edge connects two vertices, the sum of the [[graph#vertex degree]]s of all vertices of a [[graph]] is an [[even number]]. if this is not the case, the [[graph]] is not a [[graph]] as at least one of its edges is not connected to two vertices
 
@@ -80,10 +80,10 @@ when visiting a vertex in a [[graph#euler path]] or [[graph#euler circuit]], one
 
 ## Adjacency Matrix
 
-**definition** the _adjacency matrix_ of a [[graph]] $G$ is $G$
+**definition** the _adjacency matrix_ of a [[graph]] **`G`** is **`G`**
 
 ## Adjacency List
 
-**definition** the _adjacency list_ of a [[graph]] $G$ is $G$
+**definition** the _adjacency list_ of a [[graph]] **`G`** is **`G`**
 
 > **note** a [[graph#adjacency list]] is a collection of [[set]]s. the person who came up with that name should probably be fired

@@ -14,7 +14,7 @@ _preferred activation function_
 
 **definition**
 
-$\text{ReLU}\ z = 0\ \top\ z$
+**`"ReLU" z = 0 ^^ z`**
 
 ```python
 def ReLU(x):
@@ -29,13 +29,13 @@ def ReLU(x):
 
 ## Tanh Function
 
-_for getting values between $\cdot 1$ and $1$_
+_for getting values between **`.1`** and **`1`**_
 
 **see** [[hyperbolic function]]
 
 **definition**
 
-$\text{TANH}\ z = \tanh z$
+**`"TANH" z = "tanh" z`**
 
 ```python
 def TANH(x):
@@ -54,6 +54,6 @@ _for getting probabilities out_
 
 **definition**
 
-$\sigma^i\ z = [z^i]\ - \,: [z]$, where
+**`\s^i z = [z^i] -- :[z]`**, where
 
-- $\sigma^i\ z$ is the softmax [[activation function]] of $z$ at $z^i$
+- **`\s^i z`** is the softmax [[activation function]] of **`z`** at **`z^i`**

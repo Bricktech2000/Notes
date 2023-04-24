@@ -22,8 +22,8 @@ a _proof by contradiction_ is a form of [[proof]] that shows the [[boolean algeb
 
 a _proof by induction_ is a form of [[proof]] for a [[logic statement]] consisting of two stages:
 
-1.  a _base case_ proves the [[logic statement]] is true at an initial value $n^0$
-2.  an _induction case_ proves that if the [[logic statement]] holds for $n^k$ for an arbitrary $k$, then the [[logic statement]] holds for $n^{k : 1}$
+1.  a _base case_ proves the [[logic statement]] is true at an initial value **`n^0`**
+2.  an _induction case_ proves that if the [[logic statement]] holds for **`n^k`** for an arbitrary **`k`**, then the [[logic statement]] holds for **`n^k:1`**
 
 &mdash; Wikipedia
 

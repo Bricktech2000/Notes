@@ -8,9 +8,9 @@ _[[c]] with OOP_
 
 &mdash; <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++> &mdash; <https://stackoverflow.com/questions/3777031/what-prevents-c-from-being-a-strict-superset-of-c>
 
-[[c++]] is not a [[set#superset]] of [[c]]; that is, $\times \,\land \text{C++} \vdash \text{C}$
+[[c++]] is not a [[set#superset]] of [[c]]; that is, **`>< /\ "C++" |- "C"`**
 
-> **examples** _valid [[c]] but invalid [[c++]]; that is, elements of $\text{C} \vdash \text{C++}$_
+> **examples** _valid [[c]] but invalid [[c++]]; that is, elements of **`"C" /\ +"C++"`**_
 >
 > ```C
 > // implicit conversion from `void*`

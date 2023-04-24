@@ -4,37 +4,37 @@
 
 **notation**
 
-$\lceil a \rceil b$, where
+**`/a\ b`**, where
 
-- $a$ is the value to take the [[logarithm]] of
-- $b$ is the base of the [[logarithm]]
+- **`a`** is the value to take the [[logarithm]] of
+- **`b`** is the base of the [[logarithm]]
 
 **definition**
 
-$\lceil a \rceil b = c =\!= b[c] = a$
+**`/a\ b = c == b[c] = a`**
 
 > **note** the [[logarithm]] of both positive **and** negative [[number]]s is defined in my [[math notation]]
 
 **properties**
 
-$\lceil a \rceil b = \lceil a \rceil x - \lceil b \rceil x$
+**`/a\ b = /a\ x -- /b\ x`**
 
-$\lceil 1 \rceil n = 0 > n + 0$
+**`/1\ n = 0 > n + 0`**
 
-_inverse_ $\lceil -x \rceil = \cdot \lceil x \rceil$ (see [[improved expression evaluation]])
+_inverse_ **`/--x\ = . /x\`** (see [[improved expression evaluation]])
 
-_product rule_ $\lceil x \mid y \rceil = \lceil x \rceil : \lceil y \rceil$
+_product rule_ **`/x | y\ = /x\ : /y\`**
 
-_quotient rule_ $\lceil x - y \rceil = \lceil x \rceil \cdot \lceil y \rceil$
+_quotient rule_ **`/x -- y\ = /x\ . /y\`**
 
-_power rule_ $\lceil [x]n \rceil = n \lceil x \rceil$
+_power rule_ **`/[x]n\ = n /x\`**
 
-_reciprocality with [[exponent]]ials_ $\lceil b[x] \rceil b = x$
+_reciprocality with [[exponent]]ials_ **`/b[x]\ b = x`**
 
-_reciprocality with [[exponent]]ials_ $b[\lceil x \rceil b] = x$
+_reciprocality with [[exponent]]ials_ **`b[/x\ b] = x`**
 
 ## common bases
 
-**definition** $\lceil b \rceil \varepsilon$ is the _natural log_ of $b$, see [[euler's constant]]
+**definition** **`/b\ \e`** is the _natural log_ of **`b`**, see [[euler's constant]]
 
-**definition** $\lceil b \rceil 10$ is the _common log_ of $b$, see [[decimal]]
+**definition** **`/b\ 10`** is the _common log_ of **`b`**, see [[decimal]]

@@ -10,7 +10,7 @@ a [[real]] [[number]] is a value of a continuous quantity that can represent a [
 
 **properties**
 
-$\mathbb R < \mathbb C$
+**`RR < CC`**
 
 the [[real]]s are a [[metric space#completion]] of the [[rational]]s with the [[real#absolute value]] [[metric space#metric]]. see [[p-adic]]
 
@@ -22,10 +22,10 @@ _the [[distance]] between a [[real]] to zero_
 
 **notation**
 
-$|x|$ with $\mathbb R x$
+**`||x||`** with **`RR x`**
 
 **definition**
 
-$|x| = \braket{\cdot x, x}\ (x \vdash 0)$
+**`||x|| = {.x, x} (x |- 0)`**
 
 > **note** the [[real#absolute value]] follows the [[field#absolute value]] [[axiom]]s

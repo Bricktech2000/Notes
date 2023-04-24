@@ -14,7 +14,7 @@ by `2`, the [[sample]] [[mean]]s are unbiased estimators of the [[population]] [
 
 by `1.` and `3.`, the [[standard deviation]] of the [[sample]] [[mean]]s decreases as the [[sample]] size increases but remains stable as the number of [[sample]]s increases
 
-by `3.`, the _standard error of the mean_, defined as $\sigma - \lfloor n \rfloor$ where $\sigma$ is the [[population]] [[standard deviation]] and $n$ is the [[sample]] size, is approximately equal to the [[standard deviation]] of the [[sample]] [[mean]]s
+by `3.`, the _standard error of the mean_, defined as **`\s - \n/`** where **`\s`** is the [[population]] [[standard deviation]] and **`n`** is the [[sample]] size, is approximately equal to the [[standard deviation]] of the [[sample]] [[mean]]s
 
 generally, the [[standard deviation]] of a [[sample]] becomes a better estimation of the [[population]] [[standard deviation]] as the [[sample]] size increases and as the [[population]] [[probability distribution#skew]] decreases, but remains stable as the [[population]] size increases
 

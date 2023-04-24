@@ -16,13 +16,13 @@ except it doesn’t really work &mdash; Kiera
 
 **definition**
 
-$R2 = 1 \cdot (\,: [y \cdot \hat y]2\ - \,: [y \cdot \mu]2\ )$, where
+**`R2 = 1 . (:[y . y_*]2  --  :[y . \m]2)`**, where
 
-- $R2$ is the _coefficient of determination_ of the model
-- $y$ are the observed values
-- $\hat y$ are the predicted values
-- $\mu$ is the [[mean]] of the observed values
+- **`R2`** is the _coefficient of determination_ of the model
+- **`y`** are the observed values
+- **`y_*`** are the predicted values
+- **`\m`** is the [[mean]] of the observed values
 
-> **example** a model $\hat y = y$ will have an $R2 = 1$ because the error in the estimates is $0$ as the model perfectly fits the data
+> **example** a model **`y_* = y`** will have an **`R2 = 1`** because the error in the estimates is **`0`** as the model perfectly fits the data
 
-> **example** a model $\hat y = \mu$ will have an $R2 = 0$ because the error in the estimates is equal to the total variability of the observed data
+> **example** a model **`y_* = \m`** will have an **`R2 = 0`** because the error in the estimates is equal to the total variability of the observed data
