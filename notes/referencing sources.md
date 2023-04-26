@@ -18,7 +18,7 @@ _quoting_ is repeating something someone has said or written verbatim. quotation
 
 > **example**
 >
-> > Author says "Quote" (Author 24), but &hellip;
+> > Author says "Quote" (Author 24), but [...]
 
 - nested quotes are replaced by single quotes
 - when trying to emphasize the information, the first of the two following is preferred:

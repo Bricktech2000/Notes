@@ -6,7 +6,7 @@ _[[set]]s of [[number]]s_
 
 - [[universal]]
   - [[boolean]]
-  - &hellip;
+  - ...
   - [[p-adic]]s
   - [[floating point]]
   - [[complex]]

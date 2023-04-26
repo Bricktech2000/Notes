@@ -8,4 +8,4 @@
 - **`p`** orbital
 - **`d`** orbital
 - **`f`** orbital
-- &hellip;
+- ...

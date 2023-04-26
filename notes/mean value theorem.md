@@ -6,7 +6,7 @@
 
 _[[mean value theorem#for functions]]_
 
-> [&hellip;] For a given planar arc between two endpoints, there is at least one point at which the [[function#tangent line]] to the arc is parallel to the secant through its endpoints. &mdash; Wikipedia
+> [...] for a given planar arc between two endpoints, there is at least one point at which the [[function#tangent line]] to the arc is parallel to the secant through its endpoints. &mdash; Wikipedia
 
 **theorem** let **`f`** be a [[function]] defined on **`a -| * -| b`** such that **`f`** is continuous on **`a -| * -| b`** and that **`f`** is differentiable on **`a {-|/\+} * {-|/\+} b`**. then, there is a number **`c`** in **`a -| * -| b`** such that the average rate of change of **`f`** on **`a -| * -| b`** is equal to the [[derivative]] of **`f x`** with respect to **`x`** at **`c`**, or equivalently **`f b . f a -- b . a = \d f c -- \d c`**
 

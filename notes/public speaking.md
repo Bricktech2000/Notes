@@ -6,7 +6,7 @@
 
 be very explicit about the structure of a talk.
 
-> "here's what I'll talk about and here is what you'll learn by listening. let's start with [&hellip;]. now, [&hellip;]. alright so that's all for [&hellip;]. let's now discuss [&hellip;]"
+> "here's what I'll talk about and here is what you'll learn by listening. let's start with [...]. now, [...]. alright so that's all for [...]. let's now discuss [...]"
 
 [[verbal]] punctuation can be used to convey structure. it also [[nonverbal]]ly tells people who fogged out it's a good time to join back in
 

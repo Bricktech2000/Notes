@@ -12,7 +12,7 @@ _for [[eng1112 technical report writing]]_
 - avoid cherry-picking sources to prove a point
 - going into detail about both sides of a topic is _not_ required, but it is important to acknowledge that there is another side to it
 - no source is perfect, so mention limitations in reports
-  > [&hellip;], however, the sample size of the study was very small. [&hellip;]
+  > [...], however, the sample size of the study was very small. [...]
 - it is valid to use the opinions of article authors in a report
 - block quotations have a bad reputation when it comes to university reports because it can make it seem like the student wanted to make the report seem longer than it really is. the only way to really justify a block quotation is to analyze it thoroughly
   > copy-paste is a very good way to fill space without doing much work &mdash; Gefen

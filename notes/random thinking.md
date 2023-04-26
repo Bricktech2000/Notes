@@ -1,9 +1,5 @@
 # Random Thinking
 
-## pain hurts
-
-physical pain is a necessary mechanism for our survival. it lets us know that our body has overgone some sort of damage and punishes us for it. someone who doesn't feel pain could, for example, forget that hot water can burn their skin as they only get a long-term inconvenience as opposed to short-term pain as a punishment.
-
 ## feces smell bad
 
 the probable reason for the bad smell of feces is to prevent us from eating them

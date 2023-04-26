@@ -21,3 +21,5 @@ giftedness is dynamic; it can manifest at certain times, in certain ways, with c
 #think _douance_ seems to be synonymous with _giftedness_ and not _intellectual giftedness_
 
 #think [[high intellectual potential]] seems to be a subset of _high potential_
+
+#think [[intellectual giftedness]] seems to be a subset of _giftedness_ &mdash; <https://youtu.be/rnOotT-DRTg>

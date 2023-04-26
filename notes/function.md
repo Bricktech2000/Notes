@@ -150,7 +150,7 @@ let **`f`** be a [[function#continuous function]] near **`x = c`** and **`c`** b
 
 **see** [[function#extremum]]
 
-**definition** An _inflection point_ [&hellip;] is a point on a smooth plane [[curve]] at which the [[function#curvature]] changes sign &mdash; Wikipedia
+**definition** An _inflection point_ [...] is a point on a smooth plane [[curve]] at which the [[function#curvature]] changes sign &mdash; Wikipedia
 
 **definition** a [[function]] **`f`** has an _inflection point_ at **`c`** if it is continuous at **`c`** and its [[function#concavity]] changes sign at **`c`**
 

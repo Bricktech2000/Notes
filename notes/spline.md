@@ -22,7 +22,7 @@ computing [[spline#parametric continuity]] requires the mathematical definition 
 
 [[spline#geometric continuity]] is similar to [[spline#parametric continuity]], but is "magnitude agnostic". in the geometric continuity definitions below, [[vector in rn]]s are normalized using the **`{*--||||}`** [[operator]]
 
-> "[&hellip;] I can't stress enough how important this is. continuity is what justifies the existence of a whole host of [[spline]]s" &mdash; <https://youtu.be/jvPPXbo87ds?t=2176>
+> "[...] I can't stress enough how important this is. continuity is what justifies the existence of a whole host of [[spline]]s" &mdash; <https://youtu.be/jvPPXbo87ds?t=2176>
 
 **properties**
 

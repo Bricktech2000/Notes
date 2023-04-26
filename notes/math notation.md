@@ -108,7 +108,7 @@ let:
 | **`\|A`** <br /> **`'A`**   | **`A`** reduced with **`\|`** <br /> **`A`** reduced with **`'`**  | see [[reduce function]]                                     |
 | **`--a`** <br /> **`-a`**   | **`1 -- a`** <br /> **`1-a`**                                      | multiplicative inverse                                      |
 | **`ax`**                    | **`a'x`**                                                          |                                                             |
-| **` [a]`**                  | **`\e[a]`**                                                        | [[exponent]]ial                                             |
+| **`[a]\w`**                 | **`\e[a]`**                                                        | [[exponent]]ial                                             |
 | **`x\w`**                   | **`[x]\w`**                                                        |                                                             |
 | **`\ a /`**                 | **`\ a / 2`**                                                      | square root                                                 |
 | **`/a\`**                   | **`/a\ \e`**                                                       | natural [[logarithm]]                                       |

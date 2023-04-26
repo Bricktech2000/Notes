@@ -8,15 +8,15 @@ _the world's most widely used system of measurement_
 
 ## base units
 
-| Unit&nbsp;Name | Unit        | Dimension | Quantity&nbsp;Name            | Typical&nbsp;Symbols               |
-| -------------- | ----------- | --------- | ----------------------------- | ---------------------------------- |
-| second         | **`"s"`**   | **`T`**   | [[time]]                      | **`t`**                            |
-| meter          | **`"m"`**   | **`L`**   | [[length]]                    | **`l, h, a, b, x, y, r`** &hellip; |
-| kilogram       | **`"kg"`**  | **`M`**   | [[mass]]                      | **`m`**                            |
-| ampere         | **`"A"`**   | **`I`**   | electric current              | **`I, i`**                         |
-| kelvin         | **`"K"`**   | **`\T`**  | thermodynamic [[temperature]] | **`T`**                            |
-| mole           | **`"mol"`** | **`N`**   | [[amount of]] substance       | **`n`**                            |
-| candela        | **`"cd"`**  | **`J`**   | [[luminous intensity]]        | **`I_v`**                          |
+| Unit&nbsp;Name | Unit        | Dimension | Quantity&nbsp;Name            | Typical&nbsp;Symbols          |
+| -------------- | ----------- | --------- | ----------------------------- | ----------------------------- |
+| second         | **`"s"`**   | **`T`**   | [[time]]                      | **`t`**                       |
+| meter          | **`"m"`**   | **`L`**   | [[length]]                    | **`l, h, a, b, x, y, r`** ... |
+| kilogram       | **`"kg"`**  | **`M`**   | [[mass]]                      | **`m`**                       |
+| ampere         | **`"A"`**   | **`I`**   | electric current              | **`I, i`**                    |
+| kelvin         | **`"K"`**   | **`\T`**  | thermodynamic [[temperature]] | **`T`**                       |
+| mole           | **`"mol"`** | **`N`**   | [[amount of]] substance       | **`n`**                       |
+| candela        | **`"cd"`**  | **`J`**   | [[luminous intensity]]        | **`I_v`**                     |
 
 &mdash; Wikipedia
 
@@ -24,8 +24,8 @@ _the world's most widely used system of measurement_
 
 | Unit&nbsp;Name           | Unit        | Definition                                           | Dimension            | Quantity&nbsp;Name         | Typical&nbsp;Symbols |
 | ------------------------ | ----------- | ---------------------------------------------------- | -------------------- | -------------------------- | -------------------- |
-| radian                   | **`"rad"`** | **`"m" -- "m"`** <br /> **`1`**                      | **`1`**              | plane [[angle]]            | **`\q, a`** &hellip; |
-| steradian                | **`"sr"`**  | **`"m"2 -- "m"2 `** <br /> **`1`**                   | **`1`**              | [[solid angle]]            | **`\q, a`** &hellip; |
+| radian                   | **`"rad"`** | **`"m" -- "m"`** <br /> **`1`**                      | **`1`**              | plane [[angle]]            | **`\q, a`** ...      |
+| steradian                | **`"sr"`**  | **`"m"2 -- "m"2 `** <br /> **`1`**                   | **`1`**              | [[solid angle]]            | **`\q, a`** ...      |
 | radian per second        |             | **`"rad" -- "s"`**                                   | **`--T`**            | [[angular velocity]]       | **`\w`**             |
 | hertz                    | **`"Hz"`**  | **`--"s"`**                                          | **`--T`**            | [[frequency]]              | **`f, \n, \w`**      |
 | newton                   | **`"N"`**   | **`"kg" \mid "m" -- "s"2`**                          | **`M \mid L -- T2`** | [[force]], weight          | **`f, F`**           |
@@ -43,7 +43,7 @@ _the world's most widely used system of measurement_
 | reciprocal meter         |             | **`--"m"`**                                          | **`--L`**            | vergence                   | **`V, "f"**          |
 | kilogram per cubic meter |             | **`"kg" -- "m"3`**                                   | **`M -- L3`**        | [[density]]                | **`\r`**             |
 | mole per cubic meter     |             | **`"mol" -- "m"3`**                                  | **`N -- L3`**        | [[concentration]]          | **`c`**              |
-| &hellip;                 | &hellip;    | &hellip;                                             | &hellip;             | &hellip;                   | &hellip;             |
+| ...                      | ...         | ...                                                  | ...                  | ...                        | ...                  |
 
 &mdash; Wikipedia
 
@@ -56,6 +56,6 @@ _the world's most widely used system of measurement_
 | **`c`**   | [[speed of causality]] |
 | **`h`**   | [[planck constant]]    |
 | **`N_a`** | [[avogadro constant]]  |
-| &hellip;  | &hellip;               |
+| ...       | ...                    |
 
 &mdash; Wikipedia

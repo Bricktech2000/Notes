@@ -32,6 +32,8 @@ _a systematic pattern of deviation from norm or rationality in judgment_
 
 [[survivorship bias]]
 
+[[frequency illusion]]
+
 ## other "mind traps"
 
 [[cognitive dissonance]]

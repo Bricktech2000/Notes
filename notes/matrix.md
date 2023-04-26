@@ -253,7 +253,7 @@ if **`AC`** is invertible, then **`A`** is invertible and **`C`** is invertible
 >
 > let **`MM^n,n A`**
 >
-> solve the system **`AA^- = I`** by extending the [[matrix]] with the [[matrix#identity matrix]] and solve the [[linear system]] up to [[linear system#reduced row echelon form]] using [[row reduction]]. **`[]A & || & I[]`** &hellip; **`[]I & || & A^-[]`**
+> solve the system **`AA^- = I`** by extending the [[matrix]] with the [[matrix#identity matrix]] and solve the [[linear system]] up to [[linear system#reduced row echelon form]] using [[row reduction]]. **`[]A & || & I[]`** [...] **`[]I & || & A^-[]`**
 
 > **procedure** _computing the [[matrix#inverse]] of a **`2`** by **`2`** [[matrix]]_
 >
