@@ -40,4 +40,4 @@ high-risk phrases include:
 
 > **example**
 >
-> > Internet addiction is enabled by several factors. **These factors** include &hellip;
+> > Internet addiction is enabled by several factors. **These factors** include [...]

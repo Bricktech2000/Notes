@@ -100,6 +100,8 @@
 
 [[fundamental theorem of arithmetic]]
 
+[[pain]]
+
 **finance**
 
 [[education]] system issues

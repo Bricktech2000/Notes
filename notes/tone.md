@@ -28,7 +28,7 @@ generally not recommended in the workplace, as it is high risk. however, sarcasm
 
 > **example** _[[problematic practice]]_
 >
-> > I am writing with reference to &hellip;
+> > I am writing with reference to [...]
 
 ## culture- and time-specific tone
 

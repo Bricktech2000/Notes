@@ -10,7 +10,7 @@ this can lead to [[anxiety]] disorders, [[depression]] and [[addiction]]. [[soci
 
 [[social media]] does more than selling its users' attention to advertisers:
 
-> [&hellip;] That's a little too simplistic.
+> [...] That's a little too simplistic.
 >
 > > It's the gradual, slight, imperceptible change in your own behavior and perception that is the product.
 >

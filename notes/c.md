@@ -38,7 +38,7 @@ int main(void) {
 
 ### implementation-defined behavior
 
-**definition** _implementation-defined behavior_ is program behavior that is not specified by the [[c]] standard and that may offer different results among implementations [&hellip;]. &mdash; Effective C
+**definition** _implementation-defined behavior_ is program behavior that is not specified by the [[c]] standard and that may offer different results among implementations [...]. &mdash; Effective C
 
 > **example** the number of bits in a byte
 

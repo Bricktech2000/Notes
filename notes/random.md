@@ -491,3 +491,7 @@ $x = \text-4\iota \mid \tau : 2n\tau \land \mathbb N n$
 **`$ f a = (f (a : 0-n : -n) . f (a : 0-n)) : ... (f (a : n-n : -n) . f (a : n-n)) {n -> @@}`**
 
 **`\d f -- \d *, $ f | \d *`**
+
+---
+
+[[pain]]
