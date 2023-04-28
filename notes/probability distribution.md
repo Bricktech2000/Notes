@@ -39,6 +39,8 @@ as a rule of thumb, in a [[probability distribution#normal distribution]],
 > - **`$ G^1 x | \d x {2 . .2}`** is approximately **`95-100`**
 > - **`$ G^1 x | \d x {3 . .3}`** is approximately **`99 7-1000`**
 
+[[standard normal table]]
+
 ### Standard Normal Distribution
 
 **definition** the [[probability distribution#probability density function]] of a standard normal distribution is **`G^1`**, where
@@ -93,6 +95,10 @@ probability mass functions are used to describe discrete random variables
 
 probability density functions are used to describe continuous random variables
 
+**properties**
+
+**`$ f x | \d x {@@ . .@@} = 1`** where **`f`** is a _probability density function_
+
 ## Cumulative Distribution Function
 
 **aka** _CDF_
@@ -106,3 +112,7 @@ probability density functions are used to describe continuous random variables
 **applications**
 
 cumulative distribution functions are used to describe continuous random variables
+
+**properties**
+
+**`F a {a -> @@} = 1`** where **`F`** is a _cumulative distribution function_

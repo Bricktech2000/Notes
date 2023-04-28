@@ -4,6 +4,7 @@ _[[set]]s of [[number]]s_
 
 **see** [[set]]
 
+- [[empty]]
 - [[universal]]
   - [[boolean]]
   - ...
@@ -17,7 +18,10 @@ _[[set]]s of [[number]]s_
         - [[fraction]]
         - [[integer]]
           - [[natural]]
+            - **`0`**
+            - **`1`**
+            - [[prime]]
+            - [[composite]]
           - negative [[integer]]
-- [[empty]]
 
 ![[20220530145423.png]] &mdash; <https://en.wikipedia.org/wiki/Natural_number>

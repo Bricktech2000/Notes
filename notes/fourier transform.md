@@ -19,4 +19,4 @@ convolution theorem #todo learn &mdash; <https://youtu.be/851U557j6HE?t=974>
 
 **properties**
 
-**`$ f t | \d t {@@ . .@@} = ff f 0`** by definition &mdash; <https://youtu.be/851U557j6HE?t=823>
+**`$ g t | \d t {@@ . .@@} = ff g 0`** by definition &mdash; <https://youtu.be/851U557j6HE?t=823> and <https://youtu.be/UOuxo6SA8Uc?t=961>
