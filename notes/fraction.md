@@ -6,7 +6,7 @@ _the [[set]] of fractional [[number]]s_
 
 **definition**
 
-_a [[rational]] that is not an integer_
+_a [[rational]] that is not an [[integer]]_
 
 **`QQ /\ +ZZ`**
 
