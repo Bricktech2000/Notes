@@ -4,8 +4,6 @@
 
 **see** [[verbal]]
 
-#todo <https://youtu.be/vK0UjNH2Y10>
-
 ## Connotation
 
 _an association that any given action carries_
@@ -16,10 +14,116 @@ _an association that any given action carries_
 
 > **examples**
 >
-> - a powerful individual does not have to resort to shouting to be heard
-> - a person with compelling arguments does not have to interrupt to prove their point
-> - a financially literate person does not need to work to grow their wealth
-> - a skilled negotiator does not need to resort to threats to get what they want
-> - a competent teacher does not need to humiliate their students to assert their authority
-> - a knowledgeable expert does not need to exaggerate or lie to gain credibility
-> - a good leader does not need to micromanage their team to get things done
+> - shouting to prove a point &mdash; a powerful individual does not have to resort to shouting to be heard
+> - interrupting in a debate &mdash; a person with compelling arguments does not have to interrupt to prove their point
+> - working to make more [[money]] &mdash; a financially literate person does not need to work to build their [[wealth]]
+> - threatening in a negotiation &mdash; a skilled negotiator does not need to resort to threats to get what they want
+> - humiliating students &mdash; a competent teacher does not need to humiliate their students to assert their authority
+> - exaggerating to convince &mdash; a knowledgeable expert does not need to exaggerate or lie to gain credibility
+> - micromanaging employees &mdash; a good leader does not need to micromanage their team to get things done
+
+## Behavior
+
+> **examples** _interested behavior_
+>
+> - dilated pupils
+> - gazing into eyes
+> - leaning forward
+> - feet coming closer
+> - hands moving forward
+> - ventral fronting
+> - mirroring
+
+> **examples** _disinterested behavior_
+>
+> - hands moving back
+> - angling body away
+> - angling feet toward exit
+
+> **examples** _self-soothing behavior_
+>
+> - anything repetitive
+>   - shaking the leg
+>   - tapping the fingers
+> - self-hugging
+> - touching the face
+> - covering the mouth
+> - clearing the throat
+
+> **examples** _protective behavior_
+>
+> - making ourselves smaller
+>   - crossing arms
+>   - crossing legs
+>   - hunching over
+>   - putting hands in pockets
+>   - tucking chin in
+> - eye lids going down
+
+> **examples** _confident behavior_
+>
+> - making ourselves bigger
+>   - walking with a greater stride
+>   - spreading of the legs
+>   - standing with arms akimbo
+>   - elbows on table far apart
+> - showing temporal control
+>   - talking with proper cadence, pauses
+>   - moving smoothly without hesitation
+> - steepling fingers
+> - making eye contact
+> - marking territory
+> - no preening
+
+> **examples** _intimidating behavior_
+>
+> - direct and intense eye contact
+
+> **examples** _confort behavior_
+>
+> - dilated pupils
+> - full lips
+> - chin further out
+> - head tilted
+
+> **examples** _discomfort behavior_
+>
+> - furrowing of the forehead
+> - tucking chin in
+> - covering of the eyes
+> - squinting
+> - bunny nose
+> - head straight up
+> - compressed lips
+
+there exists no single behavior indicative of deception, but there do exist behavior indicating psychological discomfort
+
+> **examples** _myths about deception_
+>
+> looking up and to the left -- lying
+>
+> touching nose -- lying
+>
+> covering mouth -- lying
+
+appearance has a great effect on success &mdash; <https://youtu.be/qsx7YFkPMlQ>
+
+## &mdash;
+
+&mdash; <https://youtu.be/KfkOSYpMToo>
+
+&mdash; <https://youtu.be/f9SA25OukyM>
+
+&mdash; <https://youtu.be/f9SA25OukyM?t=647>
+
+&mdash; <https://youtu.be/VRJzvJ5XPQI>
+
+&mdash; <https://youtu.be/VAB9cUlGrRo>
+
+&mdash; <https://youtu.be/qsx7YFkPMlQ>
+
+&mdash; <https://youtu.be/PBDgOU_kr5E>
+
+&mdash; <https://youtu.be/fLaslONQAKM>
+
+&mdash; <https://youtu.be/vK0UjNH2Y10>

@@ -30,7 +30,7 @@ similarly, dividing by a [[variable]] equal to zero can be thought of as _invali
 
 ### attempt with contradiction from division by zero
 
-<https://youtu.be/hI9CaQD7P6I>
+&mdash; <https://youtu.be/hI9CaQD7P6I>
 
 the video above does _not_ break the principle stated above. the following rule would solve the issue outlined in the video above:
 
@@ -55,7 +55,7 @@ without the additional restriction, the second equality would have solutions tha
 
 ### attempt with division by zero
 
-<https://youtu.be/hI9CaQD7P6I?t=70>
+&mdash; <https://youtu.be/hI9CaQD7P6I?t=70>
 
 at the [[time]]stamp included in the URL above, the teacher divided both sides of the equality by the value **`a . b`** without adding the restriction required by the rule above. if he had added the restriction **`a . b + 0`**, it would've been a [[contradiction]] with the equality **`a = b`**
 
@@ -175,17 +175,17 @@ if the result of an expression is _undefined_, then the expression must be rearr
 
 ## &mdash;
 
-<https://en.wikipedia.org/wiki/Indeterminate_form>
+&mdash; <https://en.wikipedia.org/wiki/Indeterminate_form>
 
-<https://www.youtube.com/watch?v=jNhjB4UfR9A>
+&mdash; <https://www.youtube.com/watch?v=jNhjB4UfR9A>
 
-<https://www.wolframalpha.com/input?i=derivative+x%5E%28n+%2B+1%29+%2F+%28n+%2B+1%29%2C+n+%3D+-1>
+&mdash; <https://www.wolframalpha.com/input?i=derivative+x%5E%28n+%2B+1%29+%2F+%28n+%2B+1%29%2C+n+%3D+-1>
 
-<https://www.wolframalpha.com/input?i=derivative+ln+x>
+&mdash; <https://www.wolframalpha.com/input?i=derivative+ln+x>
 
-<https://www.wolframalpha.com/input?i=lim+as+n+-%3E+0+%28x%5En+%2F+n+-+1+%2F+n%29>
+&mdash; <https://www.wolframalpha.com/input?i=lim+as+n+-%3E+0+%28x%5En+%2F+n+-+1+%2F+n%29>
 
-<https://en.wikipedia.org/wiki/Natural_logarithm#Properties>
+&mdash; <https://en.wikipedia.org/wiki/Natural_logarithm#Properties>
 
 [[trigonometric function]] period #think
 

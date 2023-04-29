@@ -25,4 +25,4 @@ it seems to be that connecting a [[memory]] to various components of our [[umwel
 
 ## &mdash;
 
-The Mind Explained | Memory <https://www.netflix.com/watch/81062188?trackId=255824129>
+&mdash; The Mind Explained | Memory <https://www.netflix.com/watch/81062188?trackId=255824129>

@@ -23,16 +23,16 @@ it seems to be that _frugal_ people are in fact just [[finance]]ial minimalists 
 
 ## &mdash;
 
-<https://youtu.be/rUnpOplJulM>
+&mdash; <https://youtu.be/rUnpOplJulM>
 
-<https://youtu.be/vOhQHpNHbXg>
+&mdash; <https://youtu.be/vOhQHpNHbXg>
 
-<https://youtu.be/G_OJbbtNuPg>
+&mdash; <https://youtu.be/G_OJbbtNuPg>
 
-<https://youtu.be/UC7X2NQtGK0>
+&mdash; <https://youtu.be/UC7X2NQtGK0>
 
-<https://youtu.be/QZr0hh5tSZc>
+&mdash; <https://youtu.be/QZr0hh5tSZc>
 
-<https://youtu.be/SYkgGRyKQgY>
+&mdash; <https://youtu.be/SYkgGRyKQgY>
 
-<https://www.theminimalists.com/minimalism/>
+&mdash; <https://www.theminimalists.com/minimalism/>

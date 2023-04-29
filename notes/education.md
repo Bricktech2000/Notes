@@ -26,3 +26,5 @@ a lot of degrees nowadays don't seem like they're worth the [[time]] and [[money
 both [[education]]al institutions and their students focus on grades, and not necessarily on learning. this is a problem because of [[goodhart's law]]
 
 [[finance]]ial skills are not taught in schools. even smart doctors and lawyers can be [[finance]]ially illiterate, regardless of how much [[money]] they make or of what grades they received &mdash; <https://youtu.be/wp7Lz1svVro?t=258>
+
+[[nonverbal]] communication is not taught in schools, despite its importance &mdash; <https://youtu.be/f9SA25OukyM?t=1009>

@@ -26,8 +26,8 @@ let **`D f = x -> [\d /f x\ -- \d x]`**. then,
 
 ## &mdash;
 
-<https://www.wolframalpha.com/input?i=Limit%5B%28%28%28bk%5Ex%29%2F%28bk%5Ea%29%29%5E%281%2F%28x+-+a%29%29%29%2Cx-%3Ea%5D>
+&mdash; <https://www.wolframalpha.com/input?i=Limit%5B%28%28%28bk%5Ex%29%2F%28bk%5Ea%29%29%5E%281%2F%28x+-+a%29%29%29%2Cx-%3Ea%5D>
 
-<https://www.wolframalpha.com/input?i=Limit%5B%28%28%28kx+%2B+b%29%2F%28ka+%2B+b%29%29%5E%281%2F%28x+-+a%29%29%29%2Cx-%3Ea%5D>
+&mdash; <https://www.wolframalpha.com/input?i=Limit%5B%28%28%28kx+%2B+b%29%2F%28ka+%2B+b%29%29%5E%281%2F%28x+-+a%29%29%29%2Cx-%3Ea%5D>
 
-<https://www.wolframalpha.com/input?i=Limit%5B%28%28%28kx%5E2+%2B+bx+%2B+c%29%2F%28ka%5E2+%2B+ba+%2B+c%29%29%5E%281%2F%28x+-+a%29%29%29%2Cx-%3Ea%5D>
+&mdash; <https://www.wolframalpha.com/input?i=Limit%5B%28%28%28kx%5E2+%2B+bx+%2B+c%29%2F%28ka%5E2+%2B+ba+%2B+c%29%29%5E%281%2F%28x+-+a%29%29%29%2Cx-%3Ea%5D>

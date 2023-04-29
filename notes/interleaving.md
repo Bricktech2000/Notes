@@ -10,4 +10,4 @@ _[[learning]] by forcing us to understand instead of memorizing_
 
 ## &mdash;
 
-<https://youtu.be/UEJmgaFQUH8>
+&mdash; <https://youtu.be/UEJmgaFQUH8>
