@@ -14,8 +14,8 @@ our eyes see [[color]] in a way that can be described as a [[vector in rn]] of $
 
 ## &mdash;
 
-<https://youtu.be/AS1OHMW873s>
+&mdash; <https://youtu.be/AS1OHMW873s>
 
-<https://en.wikipedia.org/wiki/Metamerism_(color)>
+&mdash; <https://en.wikipedia.org/wiki/Metamerism_(color)>
 
-<https://youtu.be/M47YdERx11s>
+&mdash; <https://youtu.be/M47YdERx11s>

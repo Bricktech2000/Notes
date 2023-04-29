@@ -156,8 +156,6 @@
 
 [[ingredient]]s
 
-[[can't]]
-
 [[empathy by inversion]]
 
 [[ieee 754]]

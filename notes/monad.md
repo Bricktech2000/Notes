@@ -39,9 +39,7 @@ the [[set]] of [[monad]]s with Kleisli Composition form a [[monoid]]
 
 ## Transformer
 
-monad transformer #todo
-
-<https://en.wikipedia.org/wiki/Monad_transformer>
+monad transformer #todo <https://en.wikipedia.org/wiki/Monad_transformer>
 
 ## Laws
 

@@ -28,12 +28,12 @@ being [[intention]]al about where we spend our [[time]] can improve [[productivi
 
 me
 
-<https://youtu.be/oYeZ3DGPqAA?t=122>
+&mdash; <https://youtu.be/oYeZ3DGPqAA?t=122>
 
-<https://youtu.be/ombpvrlglfU>
+&mdash; <https://youtu.be/ombpvrlglfU>
 
-<https://youtu.be/ewzC_ica4Fw>
+&mdash; <https://youtu.be/ewzC_ica4Fw>
 
-<https://youtu.be/BsLC5eIjcag?t=533>
+&mdash; <https://youtu.be/BsLC5eIjcag?t=533>
 
-<https://youtu.be/M_VLcEMPXzk?t=44>
+&mdash; <https://youtu.be/M_VLcEMPXzk?t=44>

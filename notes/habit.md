@@ -43,12 +43,12 @@ _[[habit#formation]]_
 
 ## &mdash;
 
-<https://youtu.be/PZ7lDrwYdZc?t=1123>
+&mdash; <https://youtu.be/PZ7lDrwYdZc?t=1123>
 
-<https://youtu.be/5Gzv61nYVZI>
+&mdash; <https://youtu.be/5Gzv61nYVZI>
 
-<https://youtu.be/PZ7lDrwYdZc>
+&mdash; <https://youtu.be/PZ7lDrwYdZc>
 
-<https://youtu.be/zUm3fKk00J8?t=17314>
+&mdash; <https://youtu.be/zUm3fKk00J8?t=17314>
 
-<https://youtu.be/B-d79DtMTiE>
+&mdash; <https://youtu.be/B-d79DtMTiE>

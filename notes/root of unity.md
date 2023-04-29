@@ -38,6 +38,6 @@ discrete [[fourier transform]]
 
 ## &mdash;
 
-<https://youtu.be/bOXCLR3Wric?t=1986>
+&mdash; <https://youtu.be/bOXCLR3Wric?t=1986>
 
-<https://en.wikipedia.org/wiki/Root_of_unity>
+&mdash; <https://en.wikipedia.org/wiki/Root_of_unity>

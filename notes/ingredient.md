@@ -26,7 +26,7 @@ helps the formation of carcinogenic nitrosamines
 
 ## Soy Lecithin
 
-Wikipedia &mdash; <https://youtu.be/fQL16H9HRzg> &mdash; Oreo Cookie
+&mdash; Wikipedia &mdash; <https://youtu.be/fQL16H9HRzg> &mdash; Oreo Cookie
 
 is both both hydrophilic and lipophilic. among other uses, lecithins serve as emulsifiers (used to form [[emulsion]]s)
 
@@ -36,7 +36,7 @@ is both both hydrophilic and lipophilic. among other uses, lecithins serve as em
 
 **notation** **`"Na""H""C""O"_3`**
 
-<https://en.wikipedia.org/wiki/Sodium_bicarbonate> &mdash; <https://youtu.be/fQL16H9HRzg> &mdash; Oreo Cookie
+&mdash; <https://en.wikipedia.org/wiki/Sodium_bicarbonate> &mdash; <https://youtu.be/fQL16H9HRzg> &mdash; Oreo Cookie
 
 used as a leavening agent in baking. it is alkaline, and reacts with acids to form carbon dioxide gas
 
@@ -44,7 +44,7 @@ used as a leavening agent in baking. it is alkaline, and reacts with acids to fo
 
 **aka** _calcium phosphate, monocalcium phosphate_
 
-<https://en.wikipedia.org/wiki/Monocalcium_phosphate> &mdash; <https://youtu.be/fQL16H9HRzg> &mdash; Oreo Cookie and Gerber Snacks for Baby
+&mdash; <https://en.wikipedia.org/wiki/Monocalcium_phosphate> &mdash; <https://youtu.be/fQL16H9HRzg> &mdash; Oreo Cookie and Gerber Snacks for Baby
 
 used as a leavening agent in baking. it is acidic, and reacts with bases to form carbon dioxide gas, salt, and water
 

@@ -494,4 +494,4 @@ $x = \text-4\iota \mid \tau : 2n\tau \land \mathbb N n$
 
 ---
 
-[[pain]]
+**`--\d x | \d ([x : h]3 . x3 -- h {h -> 0}) | (x[n:1] -- n:1 {0 : ...}) -- ($ /t\ | \d t {x . 0})`** &mdash; <https://youtu.be/X0zYYFgQ5z0>

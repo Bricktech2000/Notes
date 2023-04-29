@@ -1,6 +1,6 @@
 # Religion
 
-believing in the existence of a god seems to be a catch-all way for people to explain what they [[can't]] understand
+believing in the existence of a god seems to be a catch-all way for people to explain what they can't understand
 
 more generally, this could be phrased as:
 

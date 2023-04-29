@@ -21,8 +21,8 @@ using _spaced repetition software_ eliminates the guesswork and ensures you are 
 
 ## &mdash;
 
-<https://youtu.be/UEJmgaFQUH8>
+&mdash; <https://youtu.be/UEJmgaFQUH8>
 
-<https://youtu.be/Z-zNHHpXoMM>
+&mdash; <https://youtu.be/Z-zNHHpXoMM>
 
-<https://youtu.be/fBXnxlLR0PY>
+&mdash; <https://youtu.be/fBXnxlLR0PY>

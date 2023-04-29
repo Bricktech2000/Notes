@@ -23,15 +23,15 @@
 - APR fees (also known as _interest rates_) are the fees charged by the [[bank]] to the [[credit card]] holder. they range from **`12-100 ... 23-100`** and are on average **`16-100`** (which is huge!). interest compounds month to month: "you pay interest on the interest"
 - **`30-100`** of americans could not cover a **`400 \$\`** emergency expense (see emergency fund, [[life-long investing]]). the next best option is credit
 - the main things that trigger a bankruptcy filing include someone getting sick, someone losing their job, or a divorce. most American families can deal with their [[credit card]] debt. but when they do stumble, they get entirely tangled up in the high interest rates and fees.
-- "I shouldn't get this new phone, I [[can't]] afford it... I mean... oh well I'll pay it later anyway." this is the mentality that can prove very dangerous to a consumer's [[finance]]ial situation
+- "I shouldn't get this new phone, I can't afford it... I mean... oh well I'll pay it later anyway." this is the mentality that can prove very dangerous to a consumer's [[finance]]ial situation
 - **`73-100`** of consumers think that roll-over "makes it easier". this seems to me like a flawed way to manage [[money]]
 
 ## &mdash;
 
-<https://youtu.be/vtEuChaMDZs>
+&mdash; <https://youtu.be/vtEuChaMDZs>
 
-<https://www.netflix.com/watch/81345774?trackId=155573558>
+&mdash; <https://www.netflix.com/watch/81345774?trackId=155573558>
 
-<https://youtu.be/2mHsTKvAuZc>
+&mdash; <https://youtu.be/2mHsTKvAuZc>
 
-<https://youtu.be/OCyrMg9v-vI>
+&mdash; <https://youtu.be/OCyrMg9v-vI>
