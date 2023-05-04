@@ -20,6 +20,8 @@ _the primary function of a bedroom is [[sleep]]ing. the primary function of a di
 > - when you want to study in your room, sit down, turn on the lamp and start studying. when you wish to take a break, turn the lamp off, get up and leave the desk.
 >
 > this way, you're training your [[brain]] to study whenever you're seating at your desk with your study lamp on.
+>
+> > **note** Nate O'Brien seems to have accidentally discovered this technique, but with an egg timer: <https://youtu.be/Vca2l0rZM8U?t=305>
 
 **see**
 

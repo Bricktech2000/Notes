@@ -28,3 +28,5 @@
 - _Rich Dad, Poor Dad_ by Robert Kiyosaki audiobook &mdash; <https://youtu.be/wp7Lz1svVro>
 - _La Douance_ by Marianne Belanger, Psy. D., PH. D.
 - pedagogy and rigor in [[mathematics]], talk by Grant Sanderson &mdash; <https://youtu.be/UOuxo6SA8Uc>
+- _The Duct Tape Programmer_ by Joel Spolsky <https://www.joelonsoftware.com/2009/09/23/the-duct-tape-programmer/>
+- LYT Kit &mdash; <https://www.linkingyourthinking.com/lyt-kit-course/onboarding>

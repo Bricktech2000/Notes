@@ -1,10 +1,12 @@
 # C
 
-_the OG with UB_
+_assembly with syntactic sugar_
 
 &mdash; <https://youtu.be/A3AdN7U24iU>
 
 &mdash; Effective C by Robert C. Seacord
+
+**see** [[math notation]]
 
 **pros**
 
@@ -19,7 +21,7 @@ _the OG with UB_
 
 ## array indexing quirk
 
-```C
+```c
 #include <stdio.h>
 
 int main(void) {
@@ -77,7 +79,7 @@ objects declared within a block or within a function parameter have _automatic_ 
 
 > **example**
 >
-> ```C
+> ```c
 > {
 >   int x;
 > }
@@ -87,7 +89,7 @@ objects declared in file scope have _static_ lifetimes, living throughout the ex
 
 > **example**
 >
-> ```C
+> ```c
 > int x;
 > ```
 
@@ -97,7 +99,7 @@ objects declared within a block can be made to have a static lifetime using the 
 >
 > the program below outputs `1 2 3 4 5 `
 >
-> ```C
+> ```c
 > void increment(void) {
 >   static unsigned int counter = 0;
 >   counter++;
@@ -120,7 +122,7 @@ _allocated_ lifetimes #todo
 
 **see** [[type]]
 
-```C
+```c
 _Bool // boolean
 char // character
 void // void
@@ -150,7 +152,7 @@ enum, struct, union, typedef
 
 > **examples**
 >
-> ```C
+> ```c
 > enum day { sun, mon, tue, wed, thu, fri, sat };
 > enum month { jan = 1, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec };
 >
@@ -173,7 +175,7 @@ enum, struct, union, typedef
 
 > **note** `stdbool.h` defines the following:
 >
-> ```C
+> ```c
 > #define bool _Bool
 > #define true 1
 > #define false 0
@@ -183,7 +185,7 @@ enum, struct, union, typedef
 
 > **note**
 >
-> ```C
+> ```c
 > char *src, c;
 > int x, y[5];
 > // is equivalent to
@@ -195,7 +197,7 @@ enum, struct, union, typedef
 
 > **note**
 >
-> ```C
+> ```c
 > typedef signed char schar_type, *schar_p, (*fp)(void);
 > // is equivalent to
 > typedef signed char schar_type;
@@ -207,13 +209,43 @@ enum, struct, union, typedef
 > - `schar_p` is a pointer to `signed char *`
 > - `fp` is an alias to `char(*)(void)`
 
+### arithmetic types
+
 each compiler implementation defines `char` as either `signed char` or `unsigned char`. regardless of the choice made, `char` is a different type from the other two and is incompatible with both. `char` is to be used for characters **only**, and `signed char` and `unsigned char` for small integer data
 
-the size of integer data types is implementation-defined behavior and is available in `limits.h`
+actual-width integers such as `uint32_t`, and widest integer types `uintmax_t` and `intmax_t`, are available in `stdint.h` and `inttypes.h`
 
-actual width integers such as `uint32_t`, and widest integer types `uintmax_t` and `intmax_t`, are available in `stdint.h` and `inttypes.h`
+the size of integer data types is implementation-defined behavior and is available in `limits.h`:
 
-floating-point implementations are implementation-defined behavior
+| `limits.h` constant expression | type                 | standard-imposed minimum magnitude |
+| ------------------------------ | -------------------- | ---------------------------------- |
+| `UCHAR_MAX`                    | `unsigned char`      | **`2[8] . 1`**                     |
+| `USHRT_MAX`                    | `unsigned short`     | **`2[16] . 1`**                    |
+| `UINT_MAX`                     | `unsigned int`       | **`2[16] . 1`**                    |
+| `ULONG_MAX`                    | `unsigned long`      | **`2[32] . 1`**                    |
+| `ULLONG_MAX`                   | `unsigned long long` | **`2[64] . 1`**                    |
+| `SCHAR_MIN`                    | `signed char`        | **`.(2[7] . 1)`**                  |
+| `SCHAR_MAX`                    | `signed char`        | **`2[7] . 1`**                     |
+| `SHRT_MIN`                     | `signed short`       | **`.(2[15] . 1)`**                 |
+| `SHRT_MAX`                     | `signed short`       | **`2[15] . 1`**                    |
+| `INT_MIN`                      | `signed int`         | **`.(2[15] . 1)`**                 |
+| `INT_MAX`                      | `signed int`         | **`2[15] . 1`**                    |
+| `LONG_MIN`                     | `signed long`        | **`.(2[31] . 1)`**                 |
+| `LONG_MAX`                     | `signed long`        | **`2[31] . 1`**                    |
+| `LLONG_MIN`                    | `signed long long`   | **`.(2[63] . 1)`**                 |
+| `LLONG_MAX`                    | `signed long long`   | **`2[63] . 1`**                    |
+
+_wraparound_ (which is specific to unsigned integers) is well-defined behavior in [[c]]. values are reduced modulo the number that is one greater than the largest value that can be represented by the resulting type. however, _overflow_ (which is specific to signed integers) is undefined behavior in [[c]]
+
+the representation of signed integers in [[c]] is implementation-defined behavior. historically, the C language has supported three representation schemes:
+
+- two's [[complement]]
+- one's [[complement]]
+- [[sign-magnitude notation]]
+
+implementation of [[floating point]] numbers is implementation-defined behavior
+
+#todo currently on page 45
 
 ## tags
 
@@ -223,7 +255,7 @@ tags are a special naming mechanism for `enum`, `struct`, and `union` types. the
 >
 > the snippets below are valid
 >
-> ```C
+> ```c
 > struct s { };
 > struct s s; // an object `s` of type `struct s`
 >
@@ -237,7 +269,50 @@ tags are a special naming mechanism for `enum`, `struct`, and `union` types. the
 > } tnode;
 > ```
 
-#todo currently on page 31
+## type qualifiers
+
+**definition** _type qualifiers_ are keywords that modify the meaning of a type &mdash; GitHub Copilot
+
+### `const`
+
+`const` is a type qualifier that specifies that an object's value cannot be modified after initialization. the compiler can place `const`-qualified objects in read-only memory, which makes modifying them undefined behavior
+
+> **example**
+>
+> ```c
+> const int x = 1;
+> x = 2; // error
+>
+> int *p = (int *)&x;
+> *p = 2; // undefined behavior
+> ```
+
+### `volatile`
+
+`volatile` is a type qualifier that specifies that an object's value could be modified by something beyond the control of the program, such as a hardware device. this prevents the compiler from optimizing away reads and writes to the object
+
+> **example**
+>
+> ```c
+> volatile int port;
+> port = port; // will generate instructions to read and write to `port`
+> ```
+
+### `restrict`
+
+`restrict` is a type qualifier that specifies that a pointer is the only way to access the object it points to. this allows the compiler to perform additional optimizations
+
+> **example**
+>
+> ```c
+> // `restrict` promises to the compiler that `s1` and `s2` do not overlap
+> void copy(char *restrict s1, const char *restrict s2) {
+>   while ((*s1++ = *s2++));
+> }
+>
+> char s[10];
+> copy(s, s + 1); // undefined behavior
+> ```
 
 ## reserved identifiers
 

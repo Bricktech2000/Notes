@@ -10,7 +10,7 @@ as examples, in Haskell, type `Bool` is a two-element [[set]] of `True` and `Fal
 
 > **example** _ADT [[composition]]_
 >
-> ```Rust
+> ```rust
 > enum PaymentMethod {
 >   Cash,
 >   Check { checkNumber: u32 },

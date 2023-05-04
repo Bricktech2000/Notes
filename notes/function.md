@@ -377,7 +377,7 @@ a [[function#total function]] maps every element of its [[function#domain]] to a
 >
 > let the following [[function]]:
 >
-> ```Rust
+> ```rust
 > fn twelveOver(x: f64) -> f64 {
 >   12 / x
 > }

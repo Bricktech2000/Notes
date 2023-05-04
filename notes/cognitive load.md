@@ -10,7 +10,6 @@ reducing [[cognitive load]] in everyday life is a great way to increase [[produc
 
 > **examples** _methods to reduce [[cognitive load]]_
 >
-> - running your life on a calendar
-> - using a to-do list for planning everything
-> - capturing ideas in a notebook as soon as they come to you
-> - writing down (or using [[memory technique]]s to temporarily memorize) incomplete tasks to get them off you mind, see [[zeigarnik effect]]
+> - running your life on a calendar so you don't have to constantly think about what you have to do
+> - capturing ideas in a notebook as soon as they come to you so you don't have to keep thinking about them
+> - writing down (or using [[memory technique]]s to temporarily memorize) incomplete tasks to get them off you mind

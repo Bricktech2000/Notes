@@ -16,9 +16,19 @@ _good habits_ are [[invest]]ments that compound over [[time]]. they seem to make
 
 _the [[habit#loop]]_
 
-habits can be broken down into their four component parts, called the _habit loop_: `cue -> craving -> response -> reward`
+habits can be broken down into their four component parts, called the _habit loop_:
 
-> **example** `mind goes blank at work -> want to alleviate the frustration -> check social media -> satisfy the need to feel less frustrated`
+1. cue &mdash; make it obvious or invisible
+2. craving &mdash; make it attractive or unattractive
+3. response &mdash; make it easy or difficult
+4. reward &mdash; make it satisfying or unsatisfying
+
+> **example**
+>
+> 1. cue &mdash; mind goes blank at work
+> 2. craving &mdash; want to alleviate the frustration
+> 3. response &mdash; check social media
+> 4. reward &mdash; satisfy the need to feel less frustrated
 
 ## Formation
 

@@ -1,6 +1,6 @@
 # C++
 
-_[[c]] with OOP_
+_C with OOP_
 
 **see** [[c]], [[object-oriented programming]], [[math notation]]
 
@@ -10,9 +10,9 @@ _[[c]] with OOP_
 
 [[c++]] is not a [[set#superset]] of [[c]]; that is, **`>< /\ "C++" |- "C"`**
 
-> **examples** _valid [[c]] but invalid [[c++]]; that is, elements of **`"C" /\ +"C++"`**_
+> **examples** _valid [[c]] but invalid [[c++]]; that is, elements of **`"C" /\ +"C++"`** _
 >
-> ```C
+> ```c
 > // implicit conversion from `void*`
 > void *p;
 > int *i = p;

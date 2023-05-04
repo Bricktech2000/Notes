@@ -8,7 +8,7 @@ this replaces setters (which have side effects) with the creation of a new objec
 
 > **example**
 >
-> ```Python
+> ```python
 > class Counter:
 >   def __init__(self):
 >     self.value = 0
@@ -22,7 +22,7 @@ this replaces setters (which have side effects) with the creation of a new objec
 >
 > can be refactored as:
 >
-> ```Python
+> ```python
 > class Counter:
 >   def __init__(self, value):
 >     self.value = value
