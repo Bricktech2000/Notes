@@ -21,6 +21,7 @@ _an association that any given action carries_
 > - humiliating students &mdash; a competent teacher does not need to humiliate their students to assert their authority
 > - exaggerating to convince &mdash; a knowledgeable expert does not need to exaggerate or lie to gain credibility
 > - micromanaging employees &mdash; a good leader does not need to micromanage their team to get things done
+> - cleaning before hosting &mdash; a clean individual does not need to clean their house before guests arrive
 
 ## Behavior
 
@@ -106,15 +107,17 @@ there exists no single behavior indicative of deception, but there do exist beha
 >
 > covering mouth -- lying
 
-appearance has a great effect on success &mdash; <https://youtu.be/qsx7YFkPMlQ>
+**applications**
+
+physical appearance has a great effect on success &mdash; <https://youtu.be/qsx7YFkPMlQ>
+
+the way we carry ourselves has an effect how we are perceived &mdash; <https://youtu.be/f9SA25OukyM?t=629>
 
 ## &mdash;
 
 &mdash; <https://youtu.be/KfkOSYpMToo>
 
 &mdash; <https://youtu.be/f9SA25OukyM>
-
-&mdash; <https://youtu.be/f9SA25OukyM?t=647>
 
 &mdash; <https://youtu.be/VRJzvJ5XPQI>
 

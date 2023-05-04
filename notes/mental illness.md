@@ -74,6 +74,8 @@ _anxious, fearful_
 - dependent personality disorder
 - obsessive-compulsive personality disorder
 
+> **example** what OCD looks like &mdash; <https://youtu.be/L7CnRgnceW4>
+
 ## post-traumatic stress disorder
 
 _persistent, frightening memories leading to emotional numbness_

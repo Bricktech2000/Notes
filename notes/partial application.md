@@ -6,7 +6,7 @@
 
 > **example**
 >
-> ```F#
+> ```f#
 > let hello = printfn "Hello, %s"
 > let names = ["John", "Jane", "Mary"]
 >

@@ -13,5 +13,6 @@
 > - Ryan makes delicious burgers because he is an excellent cook
 > - You must drive under the speed limit because it is illegal to drive over the speed limit
 > - Nobody goes there anymore because it is too crowded
+> - We want the tests to run as fast as possible as that allows us to run more tests in the same amount of time &mdash; <https://youtu.be/qaj5q88eLjk?t=736>
 
 [[circular reasoning]] is a _logical fallacy_ &mdash; <https://en.wikipedia.org/wiki/Circular_reasoning>

@@ -8,7 +8,7 @@
 
 most of our culture is outcome-oriented instead of process-oriented. focusing on outcomes can lead to feeling [[overwhelm]]ed and can prevent people from even starting the process itself (which could be wrongly rationalized as a lack of [[motivation]] or as [[laziness]]) &mdash; <https://youtu.be/\_ZVGXmafWqY?t=72>. while [[goal]]s are good at setting a direction, [[system]]s are best for making progress &mdash; <https://youtu.be/D_F45YuUHUA>
 
-because of [[system over goal]], tracking something is often better than trying to restrict it through willpower &mdash; <https://youtu.be/ewzC_ica4Fw>. this is often referred to as _[[habit]] tracking_ &mdash; <https://youtu.be/zUm3fKk00J8?t=18342>. however, for the measure to remain relevant, it must never become the target, see [[goodhart's law]]
+because of [[system over goal]], tracking something is often better than trying to restrict it through [[willpower]] &mdash; <https://youtu.be/ewzC_ica4Fw>. this is often referred to as _[[habit]] tracking_ &mdash; <https://youtu.be/zUm3fKk00J8?t=18342>. however, for the measure to remain relevant, it must never become the target, see [[goodhart's law]]
 
 **pros** _advantages of [[system over goal]]_
 

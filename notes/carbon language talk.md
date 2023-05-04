@@ -64,7 +64,7 @@ But why?
 
 ---
 
-```C++
+```cpp
 co_await, co_yield, co_return
 ```
 
@@ -223,7 +223,7 @@ Introducer keywords and a simpler grammar.
 
 ---
 
-```Kotlin
+```kotlin
 ...
 ```
 
@@ -233,7 +233,7 @@ Function input parameters are readonly values.
 
 ---
 
-```Kotlin
+```kotlin
 ...
 ```
 
@@ -243,7 +243,7 @@ Pointers provide indirect access & mutation.
 
 ---
 
-```Kotlin
+```kotlin
 ...
 ```
 
@@ -253,7 +253,7 @@ Use expressions to name types.
 
 ---
 
-```Kotlin
+```kotlin
 ...
 ```
 
@@ -263,7 +263,7 @@ The package is the root namespace.
 
 ---
 
-```Kotlin
+```kotlin
 ...
 ```
 
@@ -273,7 +273,7 @@ Import APIs through their package name.
 
 ---
 
-```Kotlin
+```kotlin
 ...
 ```
 
@@ -283,7 +283,7 @@ Members are public unless declared private.
 
 ---
 
-```Kotlin
+```kotlin
 ...
 ```
 
@@ -293,7 +293,7 @@ Explicit object parameter declares a method.
 
 ---
 
-```Kotlin
+```kotlin
 ...
 ```
 
@@ -303,7 +303,7 @@ Single inheritance; classes are final by default.
 
 ---
 
-```Kotlin
+```kotlin
 ...
 ```
 
@@ -313,7 +313,7 @@ Powerful, definition-checked generics.
 
 ---
 
-```Kotlin
+```kotlin
 ...
 ```
 
@@ -323,7 +323,7 @@ Types explicitly implement interfaces.
 
 ---
 
-```Kotlin
+```kotlin
 ...
 ```
 
@@ -333,7 +333,7 @@ Interfaces provide API extension points.
 
 ---
 
-```Kotlin
+```kotlin
 ...
 ```
 
@@ -347,14 +347,14 @@ So much more I can't cover here...
 
 ---
 
-```Cpp
+```cpp
 // C++ header: `circle.h`
 struct Circle {
   float r;
 };
 ```
 
-```Kotlin
+```kotlin
 // Carbon file: `geometry.carbon`
 package Geometry api;
 import Math;
@@ -374,7 +374,7 @@ fn printArea(circles: Slice(Cpp.Circle)) {
 
 ---
 
-```Cpp
+```cpp
 // C++ source file.
 #include <vector>
 #include "circle.h"

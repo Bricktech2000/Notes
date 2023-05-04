@@ -4,6 +4,4 @@ _the process that leads to a desired outcome_
 
 **see** [[system over goal]]
 
-**examples**
-
-[[habit]]
+[[habit]]s are the fundamental unit of [[system]]s &mdash; LYT Kit
