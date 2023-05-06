@@ -1,94 +1,72 @@
 # 🅲🅾🅽🆅🅴🅽🆃🅸🅾🅽🆂
 
-#todo mu
-
 ## general conventions
 
 see [[matrix]] and [[complex]] for examples of general conventions
 
-### LaTeX
+### markup
 
-a custom syntax is used for all mathematical equations through my custom [[math notation]]
+- [[markdown]] is used **excllusively** semantically; a [[markdown]] element should never be used for styling purposes
+- custom [[markdown]] syntax, `` **`...`** ``, is used for all mathematical equations through my custom [[math notation]]
+- [[variable]]s in equations are defined in separate lines using a `, where` statement followed by a [[markdown]] list
+- [[international system of units]] units and chemical elements are to be written within `"`. a space is to be added before a unit
+- italics are used for [[trick]]s and personal definitions and to replace quotation marks
+- bold is used for emphasis; italics are not to be used for emphasis
+- `&mdash; ...` statements are used for citing sources
+- HTML entities `&...;` are used for any non-ASCII [[character]]s, such as &lambda; and &times;
+- all internal links are denoted using `[[note]]` and `![[image.png]]` [[wikilink]]s, and all external links are denoted using `<https://example.com/>`. bare URLs are to be avoided
 
-[[variable]]s are defined in separate lines using a _, where_ statement followed by a list
+### sections
 
-whitespace in formulas follow [[programming language]]-like conventions
+- titce-case headings are for [[concept]]s that can be linked to using [[wikilink#nested wikilink]]s and lowercease headings are for general titles
 
-[[international system of units]] units and chemical elements are to be written within `"`. spaces are to be added between the number and the unit
+- some constructs, such as definitions and proofs, are very common. they are to be written as follows in [[markdown]]:
 
-### Sections
+  ```md
+  > **proof** _proof name_ this is an example of a proof used in a blockquote
 
-capitalized headings are for [[concept]]s that can be linked to using [[wikilink#nested wikilink]]s and lowercease headings are for general titles
+  **definition** _definition name_ this is an example of a definition used inline
+  ```
 
-some constructs, such as definitions and proofs, are very common. they are to be written as follows in [[markdown]]:
+  the following headings are used in blockquotes:
 
-```md
-> **proof** _proof name_ this is an example of a proof used in a blockquote
+  - **note**
+  - **example**
+  - **procedure**
+  - **proof**
+  - **[[mnemonic]]**
+  - **constant**
+  - **equivalence**
 
-**definition** _definition name_ this is an example of a definition used inline
-```
+  the following headings are used inline:
 
-and they are rendered as follows:
-
-> **proof** _proof name_ this is an example of a proof used in a blockquote
-
-**definition** _definition name_ this is an example of a definition used inline
-
-the following headings are used in blockquotes:
-
-- **note**
-- **example**
-- **procedure**
-- **proof**
-- **[[mnemonic]]**
-- **constant**
-- **equivalence**
-
-the following headings are used inline:
-
-- **see**
-- **aka**
-- **types**
-- **theorem**
-- **definition**
-- **properties**
-- **applications**
-- **pros**
-- **cons**
-- **pros & cons**
-- **representation**
-- **examples**
-- **procedures**
-
-### italics, bold, sources
-
-italics are used for [[trick]]s and personal definitions and to replace quotation marks
-
-bold is used for emphasis; italics must not be used for emphasis
-
-`&mdash; ...` statements are used for citing sources
-
-HTML entities are used for any non-ASCII [[character]]s and for ellipses
+  - **see**
+  - **aka**
+  - **types**
+  - **theorem**
+  - **definition**
+  - **properties**
+  - **applications**
+  - **pros**
+  - **cons**
+  - **pros & cons**
+  - **representation**
+  - **examples**
+  - **procedures**
 
 ### note system
 
-wiki links are generally avoided in headings
-
-a page can link to itself
-
-note names are mostly singular nominal groups, and sometimes adjectives when more appropriate
-
-line breaks are used exclusively for how they look in the render and never to make the source code more readable (which is why almost no single line breaks are used)
-
-horizontal rules are occasionally used to separate a whole file in different sections
-
-each page has one title-case first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule
-
-file names are all lowercase and diacritics are removed from them
-
-box titles are generated with <https://lingojam.com/BoldTextGenerator>
-
-all internal links are denoted using `[[note]]` and `![[image.png]]` [[wikilink]]s, and all external links are denoted using `<https://example.com/>`
+- [[wikilink]]s are generally avoided in headings
+- a page can link to itself
+- note names are mostly singular nominal groups, and sometimes adjectives when more appropriate. diacritics are removed from them
+- file names are lowercase. diacritics are removed from them
+- line breaks are used exclusively for how they look in the render and never to make the [[markdown]] source more readable (which is why almost no single line breaks are used)
+- horizontal rules are occasionally used to separate a whole file in different sections
+- each page has one title-case first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule
+- box titles such as that of the [[conventions]] page are generated with <https://lingojam.com/BoldTextGenerator>
+- aoeu; that is,
+  - the first word of a sentence does not have to be capilatized
+  - full stops seperate sentences; they do not end them
 
 ### syntax used
 
@@ -98,9 +76,11 @@ all internal links are denoted using `[[note]]` and `![[image.png]]` [[wikilink]
 >
 > ### h3
 >
-> _italics_
+> #### h4
 >
-> **bold**
+> _italicized text_
+>
+> **bold text**
 >
 > `inline code`
 >
@@ -118,7 +98,7 @@ all internal links are denoted using `[[note]]` and `![[image.png]]` [[wikilink]
 > - [ ] task
 > - [x] list
 >
-> **`"math syntax"`**
+> **`"equation"`**
 >
 > #tag
 >
@@ -130,16 +110,16 @@ all internal links are denoted using `[[note]]` and `![[image.png]]` [[wikilink]
 >
 > ```mermaid
 > graph LR
->   mermaid --> support
+>   A(mermaid) --> B(support)
 > ```
 >
 > > blockquote
 >
-> | table |     |
-> | ----- | --- |
-> | 1     |     |
-> | 2     |     |
-> | 3     |     |
+> | simple | table |
+> | ------ | ----- |
+> | 0      | foo   |
+> | 1      | bar   |
+> | 2      | baz   |
 >
 > ---
 >
@@ -163,13 +143,16 @@ see [[vim talk]] and [[carbon language talk]] for examples of presentation-style
 
 presentation-style notes are viewed using Obisdian's _Start presentation_ feature
 
-slides are seperated by using horizontal rules, `---`
+### markup
 
-headings and content can optionally be seperated using an HTML line break, `<br />`
+- [[markdown]] is used non-semantically for styling purposes
+- slides are seperated by using horizontal rules, `---`
+- headings and content can optionally be seperated using an HTML line break, `<br />`
+- personal comments and notes are to be written between `<?` and `?>` tags, and not between `<!--` and `-->` tags
 
-personal comments and notes are to be written between `<?` and `?>` tags, and not between `<!--` and `-->` tags
+### note system
 
-level-3 headings are not used as they look too similar to level-2 headings on Obsidian. there can be multiple level-1 headings in one presentation
+- level-3 headings are not used as they look too similar to level-2 headings on Obsidian. there may be multiple level-1 headings in one presentation
 
 ## other conventions
 

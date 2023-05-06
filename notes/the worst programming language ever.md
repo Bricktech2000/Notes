@@ -156,4 +156,4 @@ Because F\*\*\* You, That's Why.
 
 ---
 
-yeah let's stop here. this is such an unorganized talk
+let's stop here. this is such an unorganized talk

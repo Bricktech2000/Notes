@@ -56,10 +56,6 @@ _[[function#odd function]]_ **`"tan" (.\q) = ."tan" \q`**
 
 &mdash; <https://youtu.be/7gigNsz4Oe8?t=4383>
 
-### offset identities
-
-![[2022-02-26-01-29-33.png]]
-
 ### pythagorean identities
 
 **`["sin" \q]2 : ["cos" \q]2 = 1`**

@@ -12,12 +12,6 @@ to clarify some assumptions made in the original theorem &mdash; as any proof is
 
 that’s meta.
 
-> **note** this theory was formulated while eating nachos with Kiera. see **`"Fig 1"`**
->
-> ![[2022-02-26-01-16-56.png]]
->
-> **`"Fig 1"`**: eating nachos with Kiera
-
 **examples**
 
 > **example**

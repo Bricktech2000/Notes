@@ -23,13 +23,13 @@ the [[iota language]] is a minimalist [[programming language]] based on the [[co
 >
 > ```mermaid
 > graph TD
->   A(1)
->   B(1)
->   C(1)
->   D(1)
->   E(0)
->   F(0)
->   G(0)
+>   A(**`1`**)
+>   B(**`1`**)
+>   C(**`1`**)
+>   D(**`1`**)
+>   E(**`0`**)
+>   F(**`0`**)
+>   G(**`0`**)
 >   E --> F
 >   E --> G
 >   F --> A
@@ -46,13 +46,13 @@ the [[iota language]] is a minimalist [[programming language]] based on the [[co
 >
 > ```mermaid
 > graph TD
->   A(1)
->   B(1)
->   C(1)
->   D(1)
->   E(0)
->   F(0)
->   G(0)
+>   A(**`1`**)
+>   B(**`1`**)
+>   C(**`1`**)
+>   D(**`1`**)
+>   E(**`0`**)
+>   F(**`0`**)
+>   G(**`0`**)
 >   E --> A
 >   E --> F
 >   F --> B

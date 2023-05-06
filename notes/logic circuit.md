@@ -18,7 +18,7 @@
 
 # Types
 
-### Combinational Logic Circuit
+## Combinational Logic Circuit
 
 _no feedback loops, no clocks_
 
@@ -26,7 +26,7 @@ _no feedback loops, no clocks_
 
 the outputs of a combinational [[logic circuit]] are a [[function]] the inputs, without side effects
 
-### Sequential Logic Circuit
+## Sequential Logic Circuit
 
 **see** [[excitation table]], [[characteristic table]]
 

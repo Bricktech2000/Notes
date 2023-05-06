@@ -107,15 +107,15 @@ all [[lambda calculus]] expressions can be represented as one-dimensional [[arra
 > as a [[tree#binary tree]]:
 >
 > ```mermaid
-> graph TD;
->   node8(0)
->   node5(λ A)
->   node6(0)
->   node7(λ A)
->   node1(λ A)
->   node2(1)
->   node3(0)
->   node9(λ A)
+> graph TD
+>   node8(**`0`**)
+>   node5(**`\l A`**)
+>   node6(**`0`**)
+>   node7(**`\l A`**)
+>   node1(**`\l A`**)
+>   node2(**`1`**)
+>   node3(**`0`**)
+>   node9(**`\l A`**)
 >
 >   node1 --> node3
 >   node1 --> node2
@@ -140,14 +140,14 @@ all [[lambda calculus]] expressions can be represented as one-dimensional [[arra
 > as a [[tree#binary tree]]:
 >
 > ```mermaid
-> graph TD;
->   node1(λ λ A)
->   node2(1)
->   node3(A)
->   node4(1)
->   node5(A)
->   node6(1)
->   node7(0)
+> graph TD
+>   node1(**`\l \l A`**)
+>   node2(**`1`**)
+>   node3(**`A`**)
+>   node4(**`1`**)
+>   node5(**`A`**)
+>   node6(**`1`**)
+>   node7(**`0`**)
 >
 >   node1 --> node2
 >   node1 --> node3

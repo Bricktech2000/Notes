@@ -35,14 +35,14 @@ computing [[spline#parametric continuity]] requires the mathematical definition 
 **representation** _[[spline#continuity]] [[boolean algebra#implication]]s_
 
 ```mermaid
-graph BT;
-  0(<span class=math>C^0 =\!= G^1</span><br />Position)
-  C1(<span class=math>C^1</span><br />Velocity)
-  G1(<span class=math>G^1</span><br />Tangent)
-  C2(<span class=math>C^2</span><br />Acceleration)
-  G2(<span class=math>G^2</span><br />Curvature)
-  C3(<span class=math>C^3</span><br />Jerk)
-  G3(<span class=math>G^3</span><br />Torsion)
+graph BT
+  0(**`C^0 == G^1`**<br />Position)
+  C1(**`C^1`**<br />Velocity)
+  G1(**`G^1`**<br />Tangent)
+  C2(**`C^2`**<br />Acceleration)
+  G2(**`G^2`**<br />Curvature)
+  C3(**`C^3`**<br />Jerk)
+  G3(**`G^3`**<br />Torsion)
 
   C3 --> C2 --> C1 --> 0
   G3 --> G2 --> G1 --> 0

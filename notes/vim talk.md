@@ -32,16 +32,15 @@ I and ESC
 
 ```mermaid
 graph TD
+  N(Normal)
 
-N(Normal)
+  I(Insert)
+  C(Command)
+  V(Visual)
 
-I(Insert)
-C(Command)
-V(Visual)
-
-N --- I
-N --- V
-N --- C
+  N --- I
+  N --- V
+  N --- C
 ```
 
 ---

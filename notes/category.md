@@ -72,13 +72,13 @@ even if **`A`** is related to **`B`** by a morphism, **`B`** is not necessarily 
 >
 > ```mermaid
 > graph LR
->   A(<span `A`)
->   B(<span `B`)
+>   A(**`A`**)
+>   B(**`B`**)
 >
->   A -- `id_A` --> A
->   B -- `id_B` --> B
->   A -- `\a` --> B
->   B -- `\a_*` --> A
+>   A -- **`id_A`** --> A
+>   B -- **`id_B`** --> B
+>   A -- **`\a`** --> B
+>   B -- **`\a_*`** --> A
 > ```
 >
 > &mdash; <https://youtu.be/Gai-liKAUPo?t=483>
@@ -201,32 +201,32 @@ factorizes &mdash; <https://youtu.be/Bsdl_NKbNnU?t=1011>
 
 ```mermaid
 graph TD
-  A(`A`)
-  B(`B`)
-  P(`P`)
-  P_(`P_*`)
+  A(**`A`**)
+  B(**`B`**)
+  P(**`P`**)
+  P_(**`P_*`**)
 
-  P -- `f_1` --> A
-  P -- `f_2` --> B
+  P -- **`f_1`** --> A
+  P -- **`f_2`** --> B
 
-  P_ -- `f_1 m *` --> A
-  P_ -. `m` .-> P
-  P_ -- `f_2 m *` --> B
+  P_ -- **`f_1 m *`** --> A
+  P_ -. **`m`** .-> P
+  P_ -- **`f_2 m *`** --> B
 ```
 
 **representation** _[[category#coproduct]] **`Q`**_
 
 ```mermaid
 graph BT
-  A(`A`)
-  B(`B`)
-  Q(`Q`)
-  Q_(`Q_*`)
+  A(**`A`**)
+  B(**`B`**)
+  Q(**`Q`**)
+  Q_(**`Q_*`**)
 
-  A -- `f_1` --> Q
-  B -- `f_2` --> Q
+  A -- **`f_1`** --> Q
+  B -- **`f_2`** --> Q
 
-  A -- `m f_1 *` --> Q_
-  Q -. `m` .-> Q_
-  B -- `m f_2 *` --> Q_
+  A -- **`m f_1 *`** --> Q_
+  Q -. **`m`** .-> Q_
+  B -- **`m f_2 *`** --> Q_
 ```
