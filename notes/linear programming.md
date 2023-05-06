@@ -1,5 +1,7 @@
 # Linear Programming
 
+&mdash; <https://youtu.be/K7TL5NMlKIk?t=348>
+
 _used to optimize a [[function]] through a set of linear constraints_
 
 [[linear programming]] is a technique that can be used to find the [[function#extremum]]a of a [[function]] restricted by a set of linear inequalities, see [[linear equation]]
@@ -20,9 +22,9 @@ _used to optimize a [[function]] through a set of linear constraints_
 
 **representation**
 
-![[20220718015229.png]]
+![[Pasted image 20230506120415.png]]
 
-&mdash; <https://youtu.be/K7TL5NMlKIk?t=348>
+&mdash; <https://en.wikipedia.org/wiki/Linear_programming>
 
 ## computing extrema
 

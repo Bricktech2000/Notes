@@ -28,6 +28,20 @@
 
 ## Performance Impacts
 
-_using [[java primitive]]s is almost always faster than using [[java reference]]s_
+using [[java primitive]]s is almost always faster than using [[java reference]]s
 
-![[2022-02-26-01-14-04.png]]
+> **example**
+>
+> ```java
+> // the following executes in 40ms
+> long sum = (long) 0;
+> for (int i = 0; i < 100000000; i++) {
+>   sum += sum + (long) 1;
+> }
+>
+> // the following executes in 477ms
+> Long sum = (long) 0;
+> for (int i = 0; i < 100000000; i++) {
+>   sum += sum + (long) 1;
+> }
+> ```

@@ -38,13 +38,15 @@ however, this will throw a warning, which will have to be suppressed using the f
 
 ## type inference
 
-zero [[type]] inference, because Java. actually, <https://www.google.com/search?q=java+var&oq=java+var&aqs=edge..69i57.1406j0j1&sourceid=chrome&ie=UTF-8>
+Java has simplistic [[type]] inference through the `var` keyword &mdash; <https://www.geeksforgeeks.org/var-keyword-in-java/>
 
 ## operator overloading
 
 Java does **not** support [[operator]] overloading, because Java
 
-## [[java wrapper]]s
+## wrappers
+
+[[java wrapper]]s are such a duct-tape solution
 
 ## other criticism of java
 

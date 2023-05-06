@@ -117,7 +117,7 @@ graph TD
   B(2018 Edition<br />Source Code)
   A_HIR(High-Level IR)
   B_HIR(High-Level IR)
-  MIR(Mid-Level IR<br /><em>core functionality</em>)
+  MIR(Mid-Level IR<br />_core functionality_)
   LLVM_IR(LLVM IR)
   MACHINE_CODE(Machine Code)
 

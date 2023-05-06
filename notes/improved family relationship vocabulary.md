@@ -1,12 +1,10 @@
 # Improved Family Relationship Vocabulary
 
-who thought this would be an intuitive way to describe family relationships? let's fix that
-
-![[20220519150236.png]]
+who thought <https://www.tfcg.ca/family-relationship-chart> would be an intuitive way to describe family relationships? let's fix that
 
 ## vocabulary
 
-all that is needed to describe the relationship between two people in a family is the two [[distance]]s between them and a common ancestor. below is an example of the representation of an _uncle_
+all that is needed to describe the relationship between two people in a family [[tree]] is the two [[distance]]s between them and a common ancestor. below is an example of the representation of an _uncle_
 
 ```
     grandparent

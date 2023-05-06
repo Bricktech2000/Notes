@@ -209,6 +209,35 @@ enum, struct, union, typedef
 > - `schar_p` is a pointer to `signed char *`
 > - `fp` is an alias to `char(*)(void)`
 
+### literals
+
+&mdash; <https://en.cppreference.com/w/cpp/language/floating_literal>
+
+```c
+// literals
+42 // decimal integer
+0b101010 // binary integer
+052 // octal integer
+0x2a // hexadecimal integer
+0x1e5 // hexadecimal integer with exponent
+3.14 // decimal floating-point
+314e-2 // decimal floating-point with exponent
+0.0314E+2 // decimal floating-point with exponent
+0x0.3p10 // hexadecimal floating-point with exponent
+
+// suffixes
+42L // long integer
+42LL // long long integer
+42U // unsigned integer
+42UL // unsigned long integer
+42ULL // unsigned long long integer
+3.14f // float
+3.14F // float
+3.14 // double
+3.14l // long double
+3.14L // long double
+```
+
 ### arithmetic types
 
 each compiler implementation defines `char` as either `signed char` or `unsigned char`. regardless of the choice made, `char` is a different type from the other two and is incompatible with both. `char` is to be used for characters **only**, and `signed char` and `unsigned char` for small integer data
@@ -245,11 +274,29 @@ the representation of signed integers in [[c]] is implementation-defined behavio
 
 implementation of [[floating point]] numbers is implementation-defined behavior
 
-#todo currently on page 45
+`math.h` defines the following macros to classify [[floating point]] numbers:
+
+```c
+int fpclassify(real-floating x);
+int isfinite(real-floating x);
+int isinf(real-floating x);
+int isnan(real-floating x);
+int isnormal(real-floating x);
+int signbit(real-floating x);
+
+// fpclassify returns one of the following:
+FP_INFINITE
+FP_NAN
+FP_NORMAL
+FP_SUBNORMAL
+FP_ZERO
+```
+
+#todo currently taking notes on pages 49 to 55
 
 ## tags
 
-tags are a special naming mechanism for `enum`, `struct`, and `union` types. they live in a seperate namespace from ordinary identifiers
+tags are a special naming mechanism for `enum`, `struct`, and `union` types. they live in a seperate namespace than that of ordinary identifiers
 
 > **note**
 >

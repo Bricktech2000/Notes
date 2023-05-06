@@ -8,7 +8,7 @@ equality is **not** a [[relation#reflexive relation]] in [[javascript]] because 
 
 weak equality is **not** a [[relation#transitive relation]] in [[javascript]] &mdash; <https://youtu.be/vcFBwt1nu2U?t=1290> &mdash; JavaScript: The Good Parts, by Douglas Crockford
 
-> **example**
+> **proof**
 >
 > ```javascript
 > a = '0';
