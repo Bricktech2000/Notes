@@ -34,7 +34,7 @@ habits can be broken down into their four component parts, called the _habit loo
 
 _[[habit#formation]]_
 
-> **examples** _[[trick]]s to form [[habit]]s_
+> **procedure** _[[trick]]s to form [[habit]]s_
 >
 > - implementation strategy &mdash; phrasing habits as _I will [habit] at [time] in [location]_
 > - habit stacking &mdash; stacking a new [[habit]] on top of an existing habit so the first becomes the [[cue]] for the second
@@ -51,6 +51,24 @@ _[[habit#formation]]_
 
 > **note** _habit tracking_ can be thought of as providing the **timely feedback** necessary for [[learning]] and the [[accountable]]ility necessary for the feedback to **actively be used in improving** &mdash; me
 
+## Keystone Habit
+
+**definition** a _keystone habit_ is a [[habit]] that produces something of a ripple effect onto other [[habit]]s
+
+> **example**
+>
+> > A few months ago, I started to notice a funny thing.
+> >
+> > When I worked out, I wanted to eat better. Even though I could have rewarded myself with chocolate bars and ice cream, I felt like eating real, healthy foods.
+> >
+> > I also slept better. And when I was awake, I seemed more productive. Especially in the hour or two after working out, when my mind seemed to think clearer and my writing was crisper. Thoughts flowed easily.
+> >
+> > When I didn’t exercise, however, I was more prone to eating junk food. I would stay up later working on unimportant tasks. I started to feel tension in my back. I didn’t check it, but my guess is that my blood pressure raised as a result of additional stress and no place to release it.
+> >
+> > In other words, fitness is the keystone habit the puts the rest of my life in place. When I workout, other things naturally fall into place. I don’t have to think about eating better. I don’t have to force myself to focus on getting things done. Exercise naturally pushes me towards my best self.
+>
+> &mdash; <https://jamesclear.com/keystone-habits>
+
 ## &mdash;
 
 &mdash; <https://youtu.be/PZ7lDrwYdZc?t=1123>
@@ -62,3 +80,5 @@ _[[habit#formation]]_
 &mdash; <https://youtu.be/zUm3fKk00J8?t=17314>
 
 &mdash; <https://youtu.be/B-d79DtMTiE>
+
+&mdash; <https://www.gen-i.co.uk/index.php/2019/12/19/what-are-keystone-habits>

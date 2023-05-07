@@ -20,18 +20,20 @@ def l2e(string):
 
 def t2e(string):
   # text to escaped
-  return '&CHAR'.join(string)
+  return ''.join(f'&CHAR{ord(c)}' for c in string)
 
 
 def parse_math(string):
   string = f' {string} '
-  string = re.sub(r'\\\|', r'|', string)
-  string = re.sub(r'&', r'&AMP', string)
-  string = re.sub(r'&AMP&AMP', r'&BS&BS', string)
-  string = re.sub(r'\\\*', r'&STAR', string)
-  string = re.sub(r'""([^"]*)""', lambda m: f'&BStext&LBRA&DQUOT{t2e(m.group(1))}&DQUOT&RBRA', string)
-  string = re.sub(r"''([^']*)''", lambda m: f'&BStext&LBRA&QUOT{t2e(m.group(1))}&QUOT&RBRA', string)
-  string = re.sub(r'"([^"]*)"', lambda m: f'&BStext&LBRA{t2e(m.group(1))}&RBRA', string)
+  string = re.sub(r'\\\|', r'|', string)  # when inside Markdown tables
+  string = re.sub(r'&', r'&AMP', string)  # for matrices
+  string = re.sub(r'&AMP&AMP', r'&BS&BS', string)  # for matrices
+  string = re.sub(r'""(([^"\\]|\\"|\\\\)*)""', lambda m: f'&BStext&LBRA&DQUOT{t2e(m.group(1))}&DQUOT&RBRA', string)
+  string = re.sub(r"''(([^'\\]|\\'|\\\\)*)''", lambda m: f'&BStext&LBRA&QUOT{t2e(m.group(1))}&QUOT&RBRA', string)
+  string = re.sub(r'"(([^"\\]|\\"|\\\\)*)"', lambda m: f'&BStext&LBRA{t2e(m.group(1))}&RBRA', string)
+  string = re.sub(r'\\\*', r'&STAR', string)  # escape sequence
+  string = re.sub(r'\\\$', r'&BS&DOLLAR', string)  # escape sequence
+  string = re.sub(r'\\\\', r'&BS&BS', string)  # escape sequence
 
   string = re.sub(r'\\a', r'&BSalpha&SPACE', string)
   string = re.sub(r'\\b', r'&BSbeta&SPACE', string)
@@ -172,10 +174,15 @@ def parse_math(string):
 
   string = re.sub(r'^ | $', r'', string)
   string = re.sub(r'^&SPACE|&SPACE$', r'', string)
-  string = re.sub(r' ', r'\\ ', string)
-  string = re.sub(r'\$', r'&BS$', string)
-  string = re.sub(r'=:', r'=\ :', string)  # fix spacing
-  string = re.sub(r'&CHAR', r'', string)
+  string = re.sub(r' ', r'\\ ', string)  # white space is significant
+  string = re.sub(r'=:', r'=\\ :', string)  # fix spacing
+  string = re.sub(r'&CHAR([0-9]{,3})', lambda m: chr(int(m.group(1))), string)
+  string = re.sub(r'\$', r'&BS&DOLLAR', string)  # in case of $ produced above
+  string = re.sub(r'{', r'&BS&LBRA', string)  # in case of { produced above
+  string = re.sub(r'}', r'&BS&RBRA', string)  # in case of } produced above
+  string = re.sub(r"\\\'", r'&QUOT', string)  # in case of \' produced above
+  string = re.sub(r'\\\"', r'&DQUOT', string)  # in case of \" produced above
+  string = re.sub(r'\\\\', r'&BS', string)  # in case of \\ produced above
   string = re.sub(r'&BS', r'\\', string)
   string = re.sub(r'&AMP', r'&', string)
   string = re.sub(r'&DASH', r'-', string)
@@ -185,6 +192,8 @@ def parse_math(string):
   string = re.sub(r'&QUOT', r"'", string)
   string = re.sub(r'&DQUOT', r'"', string)
   string = re.sub(r'&STAR', r'*', string)
+  string = re.sub(r'&DOLLAR', r'$', string)
+  string = re.sub(r'&VERT', r'|', string)
   return string
 
 
@@ -193,7 +202,7 @@ for file in os.listdir(src_dir):
     with open(os.path.join(src_dir, file), 'r') as src:
       with open(os.path.join(dst_dir, file), 'w') as dst:
         source = src.read()
-        source = re.sub(r'\*\*`(.*?)`\*\*', lambda m: f'${parse_math(m.group(1))}$', source)
+        source = re.sub(r'\*\*`+ ?(.*?) ?`+\*\*', lambda m: f'${parse_math(m.group(1))}$', source)
         source = re.sub(r'\[\[([^\[\]]+?)\]\]', lambda m: f'[{h2a(m.group(1))}](/{l2e(m.group(1))})', source)
         source = re.sub(r'\[\[([^\[\]]+?)\|(.+?)\]\]', lambda m: f'[{m.group(2)}](/{l2e(m.group(1))})', source)
         source = re.sub(r'#([a-zA-Z0-9-]+[ \n])',

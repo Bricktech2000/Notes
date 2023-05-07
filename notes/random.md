@@ -495,3 +495,11 @@ $x = \text-4\iota \mid \tau : 2n\tau \land \mathbb N n$
 ---
 
 **`--\d x | \d ([x : h]3 . x3 -- h {h -> 0}) | (x[n:1] -- n:1 {0 : ...}) -- ($ /t\ | \d t {x . 0})`** &mdash; <https://youtu.be/X0zYYFgQ5z0>
+
+---
+
+the last element of a [[list]]
+
+**`V (# V . 1) == {* (#.1)} V`**
+
+**`\F {<-} {*} (#.1) V == {<-} ({*} V) ((#.1) V) == V (# V . 1)`**, see [[combinatory logic#phi combinator]]

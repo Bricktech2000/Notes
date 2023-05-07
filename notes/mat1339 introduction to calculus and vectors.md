@@ -10,7 +10,7 @@ optimizing a function
 
 even and odd [[function]]s
 
-[[function#critical point]]s - [[function#inflection point]], [[function#extremum]], [[function#concavity]]
+[[function#critical point]]s &mdash; [[function#inflection point]], [[function#extremum]], [[function#concavity]]
 
 [[vector in rn]]
 

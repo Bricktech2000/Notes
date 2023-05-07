@@ -12,6 +12,6 @@ _the study of how society manages its scarce resources_
 
 [[gross domestic product]], [[consumer price index]] [[economic recession]]
 
-[[options market]], [[bond market]], [[stock market]], [[loanable funds market]]
+[[options market]], [[bond market]], [[stock market]]
 
 [[switching cost]], [[opportunity cost]]
