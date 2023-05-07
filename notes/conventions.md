@@ -148,7 +148,7 @@ presentation-style notes are viewed using Obisdian's _Start presentation_ featur
 - [[markdown]] is used non-semantically for styling purposes
 - slides are seperated by using horizontal rules, `---`
 - headings and content can optionally be seperated using an HTML line break, `<br />`
-- personal comments and notes are to be written between `<?` and `?>` tags, and not between `<!--` and `-->` tags
+- personal comments and notes are to be written between `<!--` and `-->` tags
 
 ### note system
 

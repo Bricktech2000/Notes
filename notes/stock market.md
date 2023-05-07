@@ -16,9 +16,7 @@ _an average of a group of stock prices_
 
 ## Mutual Funds
 
-#todo complete this
-
-#todo maybe merge with [[life-long investing]]
+#todo complete this section
 
 ---
 
