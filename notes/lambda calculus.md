@@ -64,6 +64,16 @@ we can then define:
 
 &mdash; <https://en.wikipedia.org/wiki/Lambda_calculus#Logic_and_predicates>
 
+## Pairs
+
+> **equivalence** _[[lambda calculus#pairs]]_ and _[[ordered pair]]_
+
+[[ordered pair]]s can be defined as follows:
+
+- **`"pair" = x y z -> z x y`**
+- **`"fst" = p -> p "true"`**
+- **`"snd" = p -> p "false"`**
+
 ## Church Encoding
 
 > **equivalence** _[[lambda calculus#church encoding]]_ and _[[natural]] numbers_

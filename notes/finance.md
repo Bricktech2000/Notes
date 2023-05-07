@@ -14,4 +14,4 @@ interesting views on personal finance: <https://youtu.be/oh3sAxd9-jw> #todo reph
 
 [[credit card]], [[loan]], [[budget]], [[sunk costs fallacy]], [[lifestyle inflation]]
 
-[[options market]], [[bond market]], [[stock market]], [[loanable funds market]]
+[[options market]], [[bond market]], [[stock market]]

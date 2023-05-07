@@ -102,6 +102,10 @@
 
 [[pain]]
 
+[[ascii]]
+
+[[utf-8]]
+
 **finance**
 
 [[education]] system issues
@@ -149,8 +153,6 @@
 [[pi function]]
 
 [[discord statuses]]
-
-[[recipes]]
 
 [[adt organization]]
 

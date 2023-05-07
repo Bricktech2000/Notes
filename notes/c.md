@@ -292,7 +292,30 @@ FP_SUBNORMAL
 FP_ZERO
 ```
 
-#todo currently taking notes on pages 49 to 55
+### arithmetic conversions
+
+**definition** the _integer types_ in [[c]] are `char`, `short`, `int`, `long`, `long long` and `enum`. \_Bool is also treated as an integer type when it comes to type promotions
+
+**definition** the _small integer types_ in [[c]] are _integer types_ whose _conversion rank_ is less than `int`: `_Bool`, `char` and `short`
+
+explicit conversions are performed using the _cast [[operator]]_ `(type)expression`
+
+> **example**
+>
+> ```c
+> float x = 3.14;
+> int y = (int)x; // y == 3
+> ```
+
+implicit conversions, also known as _coercions_, are performed as follows:
+
+simplistically, whenever a _small integer type_ is used in an expression in [[c]], it is converted to a `signed int` regardless of its signedness, or to an `unsigned int` under specific conditions. this process is called the _integer promotions_. this has the side effect that almost no operation in [[c]] can be performed directly on _small integer types_; operations are always carried out on `int`s or larger types
+
+whenever a binary [[operator]] is applied to two operands of different types, [[c]] enforces an implicit conversion of one of the operands to the type of the other operand. the rules for this process are called _the usual arithmetic conversions_. simplistically, if one of the arguments has a [[floating point]] type, then the other is converted to that [[floating point]] type; otherwise, the _integer promotions_ are performed on both operands. then, if both operands have identical signedness, the operand with lesser _conversion rank_ is converted to the type of the other; otherwise, things get complicated and unintuitive
+
+&mdash; Effective C p. 49-55 and <https://stackoverflow.com/questions/46073295/implicit-type-promotion-rules>
+
+#todo currently on page 58
 
 ## tags
 

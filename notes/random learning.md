@@ -30,3 +30,4 @@
 - pedagogy and rigor in [[mathematics]], talk by Grant Sanderson &mdash; <https://youtu.be/UOuxo6SA8Uc>
 - _The Duct Tape Programmer_ by Joel Spolsky <https://www.joelonsoftware.com/2009/09/23/the-duct-tape-programmer/>
 - LYT Kit &mdash; <https://www.linkingyourthinking.com/lyt-kit-course/onboarding>
+- _Plain Text_ talk (alias PIKE MATCHBOX) by Dylan Beattie &mdash; <https://youtu.be/_mZBa3sqTrI>
