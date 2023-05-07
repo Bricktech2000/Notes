@@ -5,13 +5,3 @@ the human [[brain]] evolved in an immediate return environement, which is optima
 moreover, many [[invest]]ments exhibit [[exponential growth]], which is unintuitive for humans; see [[exponential growth]]
 
 brand new shiny hyped-up technologies are over-valued stocks; it follows that [[invest]]ing [[time]] and [[energy]] into [[learning]] new shiny hyped-up technologies corresponds to [[invest]]ing [[money]] in over-valued stocks in the [[stock market]]. _sure you can make a quick buck, but it's likely the whole thing will soon start slidnig from under your feet._ [[learning]] is an [[invest]]ment in yourself. make the most out of it
-
-#todo #think about relationship with:
-
-[[options market]]
-
-[[stock market]]
-
-[[bond market]]
-
-#todo potentially merge with [[life-long investing]]

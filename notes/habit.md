@@ -34,7 +34,7 @@ habits can be broken down into their four component parts, called the _habit loo
 
 _[[habit#formation]]_
 
-> **procedure** _[[trick]]s to form [[habit]]s_
+> **examples** _[[trick]]s to form [[habit]]s_
 >
 > - implementation strategy &mdash; phrasing habits as _I will [habit] at [time] in [location]_
 > - habit stacking &mdash; stacking a new [[habit]] on top of an existing habit so the first becomes the [[cue]] for the second

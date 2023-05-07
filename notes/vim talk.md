@@ -1,6 +1,6 @@
 # Vim
 
-<?
+<!--
 see [[public speaking]]
 
 prep:
@@ -9,16 +9,16 @@ prep:
 - open MosaicLarge in window
 - open [[vim talk demo]] in window
 - zoom in 3x
-?>
+-->
 
 ---
 
 # Background
 
-<?
+<!--
 a set of key bindings?
 efficient
-?>
+-->
 
 ---
 
@@ -26,9 +26,9 @@ efficient
 
 <br />
 
-<?
+<!--
 I and ESC
-?>
+-->
 
 ```mermaid
 graph TD
@@ -61,9 +61,9 @@ graph TD
 | _w_                    | word         |
 | \_                     | line         |
 
-<?
+<!--
 USE NUMBERS
-?>
+-->
 
 ---
 
@@ -79,9 +79,9 @@ USE NUMBERS
 | **y**        | yank (copy) |
 | **p**        | paste       |
 
-<?
+<!--
 nothing happened...
-?>
+-->
 
 ---
 
@@ -99,9 +99,9 @@ nothing happened...
 | **d**2\_         | delete two lines |
 | ...              | ...              |
 
-<?
+<!--
 easy to remember, switch keyboard layouts
-?>
+-->
 
 ---
 
@@ -109,7 +109,7 @@ easy to remember, switch keyboard layouts
 
 ---
 
-<?
+<!--
 learn Vim!
 disadvantage: frustrating
-?>
+-->
