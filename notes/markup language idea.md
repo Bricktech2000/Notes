@@ -13,9 +13,17 @@ in this [[programming language]],
 
 #think
 
-- syntax for tables, checkboxes, tags, dates, keyboard shortcuts...
+- syntax for tables, checkboxes, tags, dates, keyboard shortcuts, currencies, inserted text, deleted text...
 - support for running code blocks and parsing their `stdout` as markup
 - support for graphs and plots
+
+## &mdash;
+
+&mdash; <https://textile-lang.com/>
+
+&mdash; <https://github.com/BradSharp/Remark>
+
+&mdash; <https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/>
 
 ---
 

@@ -1,5 +1,7 @@
 # People Are Shaped by Their Surroundings
 
+**see** [[nonverbal#connotation]]
+
 hypothesis: unique behavior observed in someone can often be explained by a unique trait of theirs having a direct impact on the way their peers treat them.
 
 > **examples**
