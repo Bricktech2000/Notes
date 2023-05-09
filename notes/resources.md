@@ -1,4 +1,4 @@
-# Random Learning
+# Resources
 
 - using [[complex]] numbers to solve [[discrete mathematics]] problems &mdash; <https://www.youtube.com/watch?v=bOXCLR3Wric>
 - undergrad [[calculus]] course &mdash; <https://www.youtube.com/watch?v=HfACrKJ_Y2w>

@@ -1,7 +1,5 @@
 # 🅾🆄🆃🅳🅰🆃🅴🅳
 
-[[the worst programming language ever]]
-
 #todo
 
 a lot of [[technical writing]] especially sources, [[professional email]]

@@ -2,7 +2,7 @@
 
 _mindfulness, [[intention]]ality, and the pursuit of value_
 
-most people chase a minimalist lifestyle. I just realized [[minimalism]] isn't an [[aspiration]] of mine; it is my diagnosis
+many people chase a minimalist lifestyle. I just realized [[minimalism]] isn't an [[aspiration]] of mine; it is my diagnosis
 
 it seems to be that _frugal_ people are in fact just [[finance]]ial minimalists &mdash; <https://youtu.be/QVbKbyrBMQg>
 

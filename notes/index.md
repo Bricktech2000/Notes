@@ -31,3 +31,5 @@
 [[productivity]] and related notes
 
 [[pure mathematics]] and related notes
+
+[[resources]] and related notes

@@ -38,8 +38,6 @@
 
 [[indicator generalization]]
 
-[[subjectivity to objectivity]]
-
 [[improper measurement scale]]
 
 [[improved family relationship vocabulary]]
@@ -61,6 +59,8 @@
 [[verbal]]
 
 [[nonverbal]]
+
+[[the worst programming language ever]]
 
 **learn**
 
@@ -140,7 +140,7 @@
 
 **reproduce**
 
-[[random learning]]
+[[resources]]
 
 [[random thinking]]
 
