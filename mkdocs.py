@@ -9,7 +9,15 @@ dst_dir = os.path.join(os.path.dirname(__file__), sys.argv[2])
 
 def h2a(string):
   # hashtag to angle bracket
-  return re.sub(r'#', r' > ', string)
+  split = string.split('#', 1) + ['']
+  # this would replace a link like `[[function#pure function]]` with text `pure < function`
+  # and would replace a link like `[[function#slope]]` with text `function > slope`
+  if not split[1]:
+    return split[0]
+  elif split[1].endswith(split[0]):
+    return split[1][:-len(split[0])] + ' < ' + split[0]
+  else:
+    return split[0] + ' > ' + split[1]
 
 
 def l2e(string):
