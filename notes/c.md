@@ -315,7 +315,7 @@ whenever a binary [[operator]] is applied to two operands of different types, [[
 
 &mdash; Effective C p. 49-55 and <https://stackoverflow.com/questions/46073295/implicit-type-promotion-rules>
 
-#todo currently on page 58
+#todo currently on page 62
 
 ## tags
 
@@ -387,3 +387,9 @@ tags are a special naming mechanism for `enum`, `struct`, and `union` types. the
 ## reserved identifiers
 
 any identifier matching the [[regular expression]]s `/__.*/` or `/_[A-Z].*/` or `/int[0-9a-z_]*_t/` or `/uint[0-9a-z_]*_t/` is reserved and is not to be used
+
+## #todo sort
+
+**definition** an _lvalue_ is an expression that refers to an object; it makes sense for it to be on the left (or right) side of an assignment
+
+**definition** an _rvalue_ is an expression that does not refer to an object; it only makes sense for it to be on the right side of an assignment

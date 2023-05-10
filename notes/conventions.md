@@ -18,7 +18,7 @@ see [[matrix]] and [[complex]] for examples of general conventions
 
 ### sections
 
-- titce-case headings are for [[concept]]s that can be linked to using [[wikilink#nested wikilink]]s and lowercease headings are for general titles
+- title-case headings are for [[concept]]s that can be linked to using [[wikilink#nested wikilink]]s and lowercease headings are for general titles
 
 - some constructs, such as definitions and proofs, are very common. they are to be written as follows in [[markdown]]:
 
