@@ -69,7 +69,7 @@ a standard for a file named something like _README.[[yaml]]_ that describes the 
 
 ### large language model chatbot idea
 
-use GPT-3 on a list of true statements to get it to complete new statements in a true way. this could be used as some sort of a smart chatbot for a business
+use GPT-3 on a list of true statements to get it to complete new statements in a true way. this could be used as some sort of a smart chatbot for a [[business]]
 
 > **example** _list of true statements_
 >
@@ -412,8 +412,6 @@ exerpt from Rich Dad Poor Dad about [[learning]] through friendships &mdash; <ht
 
 # Header
 
-_aoeuaoeu_
-
 this is an _important_ idea
 
 ```html
@@ -555,3 +553,21 @@ the last element of a [[list]]
 **`V (# V . 1) == {* (#.1)} V`**
 
 **`\F {<-} {*} (#.1) V == {<-} ({*} V) ((#.1) V) == V (# V . 1)`**, see [[combinatory logic#phi combinator]]
+
+---
+
+obsidian is all-in-one for note-taking
+
+Vim does text editing for everything
+
+`python.vim` is all-in-one for python language
+
+mason does lsp config for all languages
+
+visual studio is all-in-one for C++ development
+
+gdb debugs everything and the terminal compiles everything
+
+lyt kit is all-in-one for jotting things down
+
+my notion calendar does time management for everything

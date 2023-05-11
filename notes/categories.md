@@ -142,10 +142,6 @@
 
 [[resources]]
 
-[[random thinking]]
-
-[[random ideas]]
-
 [[markup language idea]]
 
 [[flawed but established]]

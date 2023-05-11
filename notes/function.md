@@ -345,7 +345,7 @@ a [[function]] can be proven to be bijective by proving it is both injective and
 
 **properties**
 
-an [[function#analytic function]] is infinitely differentiable, but an infinitely differentiable [[function]] is not necessarily analytic &mdash; <https://youtu.be/X0razs3zR94?t=598>
+a [[function#analytic function]] is infinitely differentiable, but an infinitely differentiable [[function]] is not necessarily analytic &mdash; <https://youtu.be/X0razs3zR94?t=598>
 
 analytic continuation of a [[function#analytic function]] is uniquely determined &mdash; <https://youtu.be/YuIIjLr6vUA?t=1746>
 

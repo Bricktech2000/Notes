@@ -1,6 +1,6 @@
 # 🅽🅾🆃🅴🆂
 
-> Files below are based on [[concept]]ual note-taking, a [[system]] in which
+> Files below are based on [[conceptual note-taking]], a [[system]] in which
 > atomic notes are structured through links from and to other notes. See
 > <https://youtu.be/MYJsGksojms> and [[adt organization]] for more details.
 
@@ -28,8 +28,10 @@
 
 [[functional programming]] and related notes
 
-[[productivity]] and related notes
+[[conceptual note-taking]] and related notes
 
 [[pure mathematics]] and related notes
+
+[[productivity]] and related notes
 
 [[resources]] and related notes

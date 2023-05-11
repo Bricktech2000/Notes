@@ -63,8 +63,8 @@ see [[matrix]] and [[complex]] for examples of general conventions
 - line breaks are used exclusively for how they look in the render and never to make the [[markdown]] source more readable (which is why almost no single line breaks are used)
 - horizontal rules are occasionally used to separate a whole file in different sections
 - each page has one title-case first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule
-- box titles such as that of the [[conventions]] page are generated with <https://lingojam.com/BoldTextGenerator>
-- aoeu; that is,
+- box titles such as that of the [[conventions]] page are generated using <https://lingojam.com/BoldTextGenerator>
+- "lax syntax and punctuation" is used; that is,
   - the first word of a sentence does not have to be capilatized
   - full stops seperate sentences; they do not end them
 
