@@ -1,5 +1,7 @@
 # Operator
 
+**see** [[prefix notation]], [[infix notation]], [[postfix notation]]
+
 **see**
 
 [[boolean algebra#operators]]

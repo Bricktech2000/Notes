@@ -44,6 +44,8 @@ used in the implementation of [[abstract syntax tree]]s
 
 **see** [[depth-first search]], [[breadth-first search]]
 
+#### Pre-Order Binary Tree Traversal
+
 **representation** _pre-order traversal_
 
 print values before recursive calls
@@ -55,6 +57,10 @@ def preorder(node):
   preorder(node.left)
   preorder(node.right)
 ```
+
+> **equivalence** _[[prefix notation]] and [[tree#pre-order binary tree traversal]]_
+
+#### In-Order Binary Tree Traversal
 
 **representation** _in-order traversal_
 
@@ -68,6 +74,10 @@ def inorder(node):
   inorder(node.right)
 ```
 
+> **equivalence** _[[infix notation]] and [[tree#in-order binary tree traversal]]_
+
+#### Post-Order Binary Tree Traversal
+
 **representation** _post-order traversal_
 
 print values after recursive calls
@@ -79,6 +89,10 @@ def postorder(node):
   postorder(node.right)
   print(node.value)
 ```
+
+> **equivalence** _[[postfix notation]] and [[tree#post-order binary tree traversal]]_
+
+#### Level-Order Binary Tree Traversal
 
 **representation** _level-order traversal_
 

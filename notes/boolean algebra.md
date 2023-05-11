@@ -18,7 +18,7 @@ boolean [[operator]]s can be modeled in [[logic circuit]]s through [[logic gate]
 
 ## operator precedence
 
-see [[math notation]] for [[operator]] precedence in my [[math notation]]
+see [[math notation]] for [[infix notation#precedence]] in my [[math notation]]
 
 in [[conventional math notation]]: $' \cdot + \oplus$
 

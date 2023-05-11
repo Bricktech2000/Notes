@@ -10,7 +10,7 @@ this [[math notation]] obviously cannot be used to communicate ideas to people w
 
 - all equality [[operator]]s check for equality and return a [[boolean]], and it is implied that an [[expression]] on its own must evaluate to **`^^`**. this allows for [[boolean algebra#operators]] to be applied on equalities explicitly as opposed informally
 - [[set]]s are [[function]]s that return a [[boolean]] ([[set]]s are [[predicate]]s). this way, [[boolean algebra#operators]] and [[set]] [[operator]]s are one and the same. other [[data structure]]s that work similarly include [[vector]]s, [[matrix]]es, [[sequence]]s, [[multiset]]s, [[ordered pair]]s...
-- some [[operator]]s are identical but have different precedence as "more brackets means more explicit, but less brackets means less complex and less confusing"
+- some [[operator]]s are identical but have different [[infix notation#precedence]] as "more brackets means more explicit, but less brackets means less complex and less confusing"
 - [[operator]]s return what they should actually return to match their inverse. for example, **`\ a /`** returns both positive and negative square roots
 - superscripts are modifiers (subscripts with special meanings). this distinction is extremely useful when working with [[forward propagation]] and [[backpropagation]] in [[neural network]]s, for example
 - [[derivative]]s are not to be written as **`y_*`**, but rather as their complete form **`\d y -- \d x`**. this makes [[calculus notation]] way more intuitive
@@ -86,7 +86,7 @@ let:
 | **`A^i`** <br /> **`B^i`** <br /> **`V^n`** <br /> **`P^b`** | **`A i`** <br /> **`B i`** <br /> **`V n`** <br /> **`P b`** | to be used for indices                                       |
 | **`M^i,j`** <br /> **`G^a,b`**                               | **`M i j`** <br /> **`G a b`**                               | to be used for indices                                       |
 | **`S a`** <br /> **`M_*  a`** <br /> **`G a`**               | **`S a`** <br /> **`M_*  a`** <br /> **`G a`**               | to be used for membership                                    |
-| **`{\*}`**                                                   | **`\*`** [[operator]] as a non-infix [[function]]            | works with any [[operator]]                                  |
+| **`{\*}`**                                                   | **`\*`** as a [[prefix notation]] [[operator]]               | works with any [[operator]]                                  |
 | **`@`**                                                      | _undefined_                                                  | see [[improved expression evaluation]]                       |
 | **`@@`**                                                     | _infinity_                                                   |                                                              |
 | **`__`**                                                     | [[boolean]] _false_                                          |                                                              |
@@ -137,6 +137,8 @@ let:
 
 _in order of high to low precedence_
 
+**see** [[infix notation#precedence]], [[infix notation#associativity]]
+
 | operator                                | associativity |
 | --------------------------------------- | ------------- |
 | **`( ) (( )) { } {{ }} [] [] 123 x_a`** |               |
@@ -160,10 +162,10 @@ _in order of high to low precedence_
 > - **`x^i`** represents superscripts
 > - **`<-`** represents [[function]] application
 > - **`->`** represents [[function]] abstraction
-> - **`"sin"`** represents any prefix text [[operator]]
-> - **`"mod"`** represents any infix text [[operator]]
+> - **`"sin"`** represents any text [[operator]] in [[prefix notation]]
+> - **`"mod"`** represents any text [[operator]] in [[infix notation]]
 
-> **note** unary [[operator]]s have identical precedence to their binary counterparts, but are right associative
+> **note** unary [[operator]]s have identical [[infix notation#precedence]] to their binary counterparts, but are right associative
 
 **definition** let **`\*`** be an [[operator]] with _AND associativity_. then, **`a \* b \* c \* ... == a \* b /\ b \* c /\ c \* ...`**
 

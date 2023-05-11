@@ -21,7 +21,7 @@ _recollection_ (retrieving information from memory) is often confused with _reco
 >
 > this theory represents the idea that [[active recall]] provides the **feedback** necessary for our subconscious to learn to store the right information. since our subconscious is trying to figure out whether we have successfully learned what we set out to learn, it must have access to **feedback** that is a **[[function]] of its inputs**, see [[learning]]. if it does not have access to said feedback, it assumes we have already learned enough and does not unnecessarily waste [[energy]] trying to learn further. following this theory, [[spaced repetition]] can be thought as **repeatedly** teaching our subconscious to store the right information, and [[sleep]] can be thought of as the **timely active [[learning]]** phase of our subconscious, where it consolidates memories as it erases what turns out to have low value
 >
-> our subconscious batteling our [[willpower]] over [[energy]] efficiency can also be observed in certain types of [[procrastination]]
+> our subconscious battling our [[willpower]] over [[energy]] efficiency can also be observed in certain types of [[procrastination]]
 
 ## &mdash;
 
