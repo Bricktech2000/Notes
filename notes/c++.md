@@ -31,3 +31,33 @@ _C with OOP_
 > // using any reserved C++ keyword as an identifier
 > int new = 0;
 > ```
+
+## duck typing
+
+[[c++]] `template`s are a form of [[type system#duck typing]]
+
+> **example**
+>
+> ```cpp
+> // to be compiled with `g++ -std=c++20`
+>
+> #include<string>
+> #include<iostream>
+> #include<filesystem>
+>
+> using namespace std::filesystem;
+>
+> template<typename T>
+> T divide(T a, T b) {
+>   return a / b;
+> }
+>
+> int main() {
+>   double division = divide(1.0, 2.0); // 0.5
+>   path concatenation = divide(path("foo"), path("bar")); // "foo/bar"
+> }
+> ```
+
+&mdash; <https://en.wikipedia.org/wiki/Duck_typing#Templates_or_generic_types> &mdash; <https://stackoverflow.com/questions/6923299/whats-the-relationship-between-c-template-and-duck-typing>
+
+&mdash; <https://www.reddit.com/r/cpp/comments/139c2v1/whats_the_most_hilarious_use_of_operator/>

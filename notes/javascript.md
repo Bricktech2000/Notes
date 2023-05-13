@@ -1,6 +1,6 @@
 # JavaScript
 
-_type system madness_
+_[[type system]] madness_
 
 **properties**
 

@@ -15,7 +15,7 @@
 - talk about propositions as [[type]]s and related concepts &mdash; <https://www.youtube.com/watch?v=IOiZatlZtGU>
 - "[[category theory]] for the working hacker" &mdash; <https://www.youtube.com/watch?v=gui_SE8rJUM>
 - "learn how to study smart" by Marty Lobdell &mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0>
-- [[type]] systems in [[functional programming]] &mdash; <https://www.youtube.com/watch?v=hy1wjkcIBCU>
+- [[type system]]s in [[functional programming]] &mdash; <https://www.youtube.com/watch?v=hy1wjkcIBCU>
 - below, I stumbled upon video 6. kept watching until half way through video 10, at which point the prof had changed and course had turned into mindless rambling
 - MIT intro to [[statistics]] video series &mdash; <https://www.youtube.com/watch?v=OgO1gpXSUzU&list=PLUl4u3cNGP619EG1wp0kT-7rDE_Az5TNd&index=6>
 - introduction to [[spline]]s &mdash; <https://www.youtube.com/watch?v=jvPPXbo87ds>

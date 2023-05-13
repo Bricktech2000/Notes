@@ -24,7 +24,7 @@ _a language for the next 40 years_
 
 accessing out-of-bounds memory causes either a compile time error or a `panic!` at runtime instead of maybe or maybe not causing a segfault. the `#[no_panic]` attribute macro can be used to force the compiler to prove that a function will never panic. &mdash; <https://youtu.be/sbVxq7nNtgo?t=586>
 
-[[rust]]'s [[type]] system checks thread safety at compile time as ownership rules apply across multiple threads
+[[rust]]'s [[type system]] checks thread safety at compile time as ownership rules apply across multiple threads
 
 ### Borrow Checker
 
@@ -37,7 +37,7 @@ _ownership and borrowing_
 
 ### Unsafe System
 
-[[rust]]'s type system can be a bit restrictive for low-level programming. this is why [[rust]] has a way to bypass a few specific checks in the form of the `unsafe` keyword. consequently, [[rust]] code is safe by default
+[[rust]]'s [[type system]] can be a bit restrictive for low-level programming. this is why [[rust]] has a way to bypass a few specific checks in the form of the `unsafe` keyword. consequently, [[rust]] code is safe by default
 
 unsafe code can:
 

@@ -8,7 +8,7 @@ _time complexity, space complexity_
 
 **definition** **`\W f`** denotes the [[set]] of all **`g`** such that there exist positive [[real]]s **`C`** and **`n_0`** with **`0 -| Cf n -| g n`** for all **`n |- n_0`**
 
-**definition** **`\Q f`** denotes the [[set]] of all **`g`** such that there exist positive [[real]]s **`C`**, **`D`** and **`n_0`** with **`0 -| Cf n -| g\ n -| Df n`** for all **`n |- n_0`**
+**definition** **`\Q f`** denotes the [[set]] of all **`g`** such that there exist positive [[real]]s **`C`**, **`D`** and **`n_0`** with **`0 -| Cf n -| g n -| Df n`** for all **`n |- n_0`**
 
 &mdash; _BIG OMICRON AND BIG OMEGA AND BIG THETA_, Donald E. Knuth &mdash; <https://dl.acm.org/doi/pdf/10.1145/1008328.1008329>
 
@@ -16,10 +16,10 @@ _time complexity, space complexity_
 
 **properties**
 
-let **`0 {-| /\ +} \w {-| /\ +} 1`** and let **`b {|- /\ +} 1`**
+let **`0 {-|/\+} \w {-|/\+} 1`** and let **`b {|-/\+} 1`**
 
 **`O 1 < O //*\\ < O /*\ < O [ /*\ ]2 < O [*]\w < O * < O {* | /*\ } < O [*]b < O b[*] < O (\P *) < O {* [] *}`**
 
 **`O (c : f) = O f`** for all **`c`**
 
-**`O (c | f) = O f`** for all **`c {|- /\ +} 0`**
+**`O (c | f) = O f`** for all **`c {|-/\+} 0`**
