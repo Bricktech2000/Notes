@@ -19,6 +19,10 @@ _assembly with syntactic sugar_
 
 - memory unsafety (use-after-free, double-free, memory leaks, buffer overreads and overwrites, [[null]] pointers, data races...)
 
+**definition** an _lvalue_ is an expression that refers to an object; it makes sense for it to be on the left (or right) side of an assignment
+
+**definition** an _rvalue_ is an expression that does not refer to an object; it only makes sense for it to be on the right side of an assignment
+
 ## array indexing quirk
 
 ```c
@@ -150,6 +154,8 @@ long double
 enum, struct, union, typedef
 ```
 
+**note** until C23, `void f();` declares a function that takes any number of arguments of any type. `void f(void);` declares a function that takes no arguments. the former is to be avoided &mdash; <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++>
+
 > **examples**
 >
 > ```c
@@ -181,9 +187,7 @@ enum, struct, union, typedef
 > #define false 0
 > ```
 
-> **note** until C23, `void f();` declares a function that takes any number of arguments of any type. `void f(void);` declares a function that takes no arguments. the former is to be avoided &mdash; <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++>
-
-> **note**
+> **example**
 >
 > ```c
 > char *src, c;
@@ -195,7 +199,7 @@ enum, struct, union, typedef
 > int y[5];
 > ```
 
-> **note**
+> **example**
 >
 > ```c
 > typedef signed char schar_type, *schar_p, (*fp)(void);
@@ -209,7 +213,52 @@ enum, struct, union, typedef
 > - `schar_p` is a pointer to `signed char *`
 > - `fp` is an alias to `char(*)(void)`
 
-### literals
+### type qualifiers
+
+**definition** _type qualifiers_ are keywords that modify the meaning of a type &mdash; GitHub Copilot
+
+#### `const`
+
+`const` is a type qualifier that specifies that an object's value cannot be modified after initialization. the compiler can place `const`-qualified objects in read-only memory, which makes modifying them _undefined behavior_
+
+> **example**
+>
+> ```c
+> const int x = 1;
+> x = 2; // error
+>
+> int *p = (int *)&x;
+> *p = 2; // undefined behavior
+> ```
+
+#### `volatile`
+
+`volatile` is a type qualifier that specifies that an object's value could be modified by something beyond the control of the program, such as a hardware device. this prevents the compiler from optimizing away reads and writes to the object
+
+> **example**
+>
+> ```c
+> volatile int port;
+> port = port; // will generate instructions to read and write to `port`
+> ```
+
+#### `restrict`
+
+`restrict` is a type qualifier that specifies that a pointer is the only way to access the object it points to. this allows the compiler to perform additional optimizations
+
+> **example**
+>
+> ```c
+> // `restrict` promises to the compiler that `s1` and `s2` do not overlap
+> void copy(char *restrict s1, const char *restrict s2) {
+>   while ((*s1++ = *s2++));
+> }
+>
+> char s[10];
+> copy(s, s + 1); // undefined behavior
+> ```
+
+### arithmetic literals
 
 &mdash; <https://en.cppreference.com/w/cpp/language/floating_literal>
 
@@ -244,7 +293,7 @@ each compiler implementation defines `char` as either `signed char` or `unsigned
 
 actual-width integers such as `uint32_t`, and widest integer types `uintmax_t` and `intmax_t`, are available in `stdint.h` and `inttypes.h`
 
-the size of integer data types is implementation-defined behavior and is available in `limits.h`:
+the size of integer data types is _implementation-defined behavior_ and is available in `limits.h`:
 
 | `limits.h` constant expression | type                 | standard-imposed minimum magnitude |
 | ------------------------------ | -------------------- | ---------------------------------- |
@@ -264,15 +313,15 @@ the size of integer data types is implementation-defined behavior and is availab
 | `LLONG_MIN`                    | `signed long long`   | **`.(2[63] . 1)`**                 |
 | `LLONG_MAX`                    | `signed long long`   | **`2[63] . 1`**                    |
 
-_wraparound_ (which is specific to unsigned integers) is well-defined behavior in [[c]]. values are reduced modulo the number that is one greater than the largest value that can be represented by the resulting type. however, _overflow_ (which is specific to signed integers) is undefined behavior in [[c]]
+_wraparound_ (which is specific to unsigned integers) is well-defined behavior in [[c]]. values are reduced modulo the number that is one greater than the largest value that can be represented by the resulting type. however, _overflow_ (which is specific to signed integers) is _undefined behavior_ in [[c]]
 
-the representation of signed integers in [[c]] is implementation-defined behavior. historically, the C language has supported three representation schemes:
+the representation of signed integers in [[c]] is _implementation-defined behavior_. historically, the C language has supported three representation schemes:
 
 - two's [[complement]]
 - one's [[complement]]
 - [[sign-magnitude notation]]
 
-implementation of [[floating point]] numbers is implementation-defined behavior
+implementation of [[floating point]] numbers is _implementation-defined behavior_
 
 `math.h` defines the following macros to classify [[floating point]] numbers:
 
@@ -315,7 +364,38 @@ whenever a binary [[operator]] is applied to two operands of different types, [[
 
 &mdash; Effective C p. 49-55 and <https://stackoverflow.com/questions/46073295/implicit-type-promotion-rules>
 
-#todo currently on page 62
+### arithmetic operators
+
+for historical reasons, the return value of the unary `!` [[operator]] is `int` and not `_Bool`
+
+`a / b` with `b == 0` is _undefined behavior_ in [[c]]
+
+the [[c]] language imelements _truncating division_; that is,
+
+| quotient        | remainder        |
+| --------------- | ---------------- |
+| `10 / 3 == 3`   | `10 % 3 == 1`    |
+| `10 / -3 == -3` | `10 % -3 == 1`   |
+| `-10 / 3 == -3` | `-10 % 3 == -1`  |
+| `-10 / -3 == 3` | `-10 % -3 == -1` |
+
+left shifting a negative number is _undefined behavior_ in [[c]]. left shifting a signed positive number leading to an _overflow_ is _undefined behavior_ in [[c]]. right shifting a negative number is _implementation-defined behavior_ in [[c]]; either an arithmetic shift or a logical shift is performed
+
+shifting by a negative number of bits or by a number of bits greater than or equal to the width of the _integer-promoted_ left operand is _undefined behavior_ in [[c]]
+
+the _usual arithmetic conversions_ are **not** performed on the operands of the `<<` and `>>` [[operators]]
+
+type casts in [[c]] either reinterpret the bits of a value or perform a conversion
+
+> **example**
+>
+> ```c
+> float x = 1.2f;
+> int y = *(int *)&x; // reinterpret the bits of x as an int
+> int z = (int)x; // converts x to an int
+> ```
+
+#todo currently on page 67
 
 ## tags
 
@@ -339,57 +419,33 @@ tags are a special naming mechanism for `enum`, `struct`, and `union` types. the
 > } tnode;
 > ```
 
-## type qualifiers
-
-**definition** _type qualifiers_ are keywords that modify the meaning of a type &mdash; GitHub Copilot
-
-### `const`
-
-`const` is a type qualifier that specifies that an object's value cannot be modified after initialization. the compiler can place `const`-qualified objects in read-only memory, which makes modifying them undefined behavior
-
-> **example**
->
-> ```c
-> const int x = 1;
-> x = 2; // error
->
-> int *p = (int *)&x;
-> *p = 2; // undefined behavior
-> ```
-
-### `volatile`
-
-`volatile` is a type qualifier that specifies that an object's value could be modified by something beyond the control of the program, such as a hardware device. this prevents the compiler from optimizing away reads and writes to the object
-
-> **example**
->
-> ```c
-> volatile int port;
-> port = port; // will generate instructions to read and write to `port`
-> ```
-
-### `restrict`
-
-`restrict` is a type qualifier that specifies that a pointer is the only way to access the object it points to. this allows the compiler to perform additional optimizations
-
-> **example**
->
-> ```c
-> // `restrict` promises to the compiler that `s1` and `s2` do not overlap
-> void copy(char *restrict s1, const char *restrict s2) {
->   while ((*s1++ = *s2++));
-> }
->
-> char s[10];
-> copy(s, s + 1); // undefined behavior
-> ```
-
 ## reserved identifiers
 
 any identifier matching the [[regular expression]]s `/__.*/` or `/_[A-Z].*/` or `/int[0-9a-z_]*_t/` or `/uint[0-9a-z_]*_t/` is reserved and is not to be used
 
-## #todo sort
+## order of evaluation
 
-**definition** an _lvalue_ is an expression that refers to an object; it makes sense for it to be on the left (or right) side of an assignment
+"the order of evaluation of the operands of any [[c]] [[operator]], including the order of evaluation of any subexpressions, is generally _unspecified behavior_" &mdash; Effective C.
 
-**definition** an _rvalue_ is an expression that does not refer to an object; it only makes sense for it to be on the right side of an assignment
+> **example**
+>
+> ```c
+> int f(void);
+> int g(void);
+> int sum = f() + g(); // order of evaluation is unspecified
+> int max = max(f(), g()); // order of evaluation is unspecified
+> ```
+
+"if a side effect is unsequenced relative to either a different side effect on the same scalar of a value computation that uses the value of the same scalar object, the code has _undefined behabior_" &mdash; Effective C.
+
+> **example**
+>
+> ```c
+> int i = 5;
+> printf("%d\n", i++ * i++); // undefined behavior
+> printf("%d %d\n", i++, i); // undefined behavior
+> ```
+
+it is guaranteed that the `&&` and `||` [[operator]]s will evaluate their operands from left to right. the `&&` and `||` operators "short-circuit" in [[c]]
+
+it is guaranteed that the `? :` [[operator]] will evaluate its first operand before its second or third operand. only one of the second and third operands will be evaluated
