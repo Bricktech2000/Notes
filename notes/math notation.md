@@ -183,7 +183,7 @@ _in order of high to low precedence_
 | the resonant [[frequency]] of an LC circuit | **`f = -- \t \"LC"/`**                     | $\displaystyle f = \frac{1}{2 \pi \sqrt{LC}}$                                                            |
 | definition of the [[dot product]]           | **`:xy`**                                  | $\displaystyle x \cdot y  = \sum_{i=1}^n x_i y_i$                                                        |
 | definition of the [[outer product]]         | **`x * \| y *`**                           | $\displaystyle (x \otimes y)_{i, j}  = x_i \times y_j$                                                   |
-| definition of the [[cartesian product]]     | **`__ (x, y) *`**                          | $\displaystyle x \times y = \lbrace (x, y) \mid x \in X \text{ and } y \in Y \rbrace$                    |
+| definition of the [[cartesian product]]     | **`__ (X, Y) *`**                          | $\displaystyle X \times Y = \lbrace (x, y) \mid x \in X \text{ and } y \in Y \rbrace$                    |
 | definition of [[vector in rn#magnitude]]    | **`\|\|v\|\| = \:v2/`**                    | $\displaystyle \vert v \vert = \sqrt{x^2 + y^2 + \dots}$ with $v = (x, y, \dots)$                        |
 | definition of [[set]] difference            | **`A /\ +B`**                              | $\displaystyle A \setminus B = \{x \in A : x \notin B\}$                                                 |
 | the [[p-adic#absolute value]]               | **`\|\|n\|\|^p = --p[\y n p]`**            | not really doable in a concise way without using plain English                                           |

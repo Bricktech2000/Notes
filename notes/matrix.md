@@ -356,4 +356,4 @@ let **`MM^n,n A`** (see [[matrix]]). the following [[logic statement]]s are equi
 - the columns of **`A`** form a [[basis]] for **`RR^n`**
 - the rows of **`A`** form a [[basis]] for **`RR^n`**
 - **`A`** is an invertible [[matrix]]
-- **`"det" A + 0`**, see [[determinant#intuition]]
+- **`"det" A + 0`**, see [[determinant]]

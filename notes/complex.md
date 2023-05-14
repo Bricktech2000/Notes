@@ -12,7 +12,7 @@ _the [[set]] of [[complex]] numbers_
 
 _cartesian form_ **`z = a : b\i`**
 
-_polar form_ **`z = ||z||"cos" "arg" z : ||z||\i"sin" "arg" z = ||z||"cis" "arg" z = ||z|| ' [\i"arg" z]`**, where **`"cis" = "cos" : \i "sin" = \q -> [\i\q]`**
+_polar form_ **`z = ||z||"cos" "arg" z : ||z||\i"sin" "arg" z = ||z||"cis" "arg" z = ||z|| ' [\i"arg" z]`**, where **`"cis" = "cos" : \i"sin" = \a -> [\i\a]`**
 
 **aka** _Euler's formula notation_
 
@@ -36,9 +36,9 @@ _multiplication in polar form_ **`z | w = ||z|| ' [\i"arg" z] | ||w|| ' [\i"arg"
 
 _product of two [[complex#conjugate]]s are product of [[complex#modulus]]es_ **`a : b\i | a . b\i = a2 : b2 = ||a : b\i|| | ||a . b\i||`** &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
 
-**theorem** _De Moivre's Theorem_ **`["cis" \q]n = "cis" n\q -| ZZ n -| RR \q`** &mdash; <https://en.wikipedia.org/wiki/De_Moivre%27s_formula>
+**theorem** _De Moivre's Theorem_ **`["cis" \a]n = "cis" n\a > ZZ n > RR \a`** &mdash; <https://en.wikipedia.org/wiki/De_Moivre%27s_formula>
 
-> **proof** **`"cis" \q = [\i\q]`**. since **`[[\i\q]]n = [n\i\q]`**, it must be that **`["cis" \q]n = "cis" n\q`** &mdash; me
+> **proof** **`"cis" \a = [\i\a]`**. since **`[ [\i\a] ]n = [n\i\a]`**, it must be that **`["cis" \a]n = "cis" n\a`** &mdash; me
 
 ## Real Part
 
@@ -92,7 +92,7 @@ multiplying by the conjugate can be used to reduce an expression such as **`-- 4
 
 **aka** _magnitude, absolute value_
 
-**definition** **`||z|| = \z^re 2 : z^im 2/`** where **`||z||`** is the _absolute value_ of **`z`**.
+**definition** **`||z|| = \ z^re 2 : z^im 2 /`** where **`||z||`** is the _absolute value_ of **`z`**.
 
 > **note** the [[real#absolute value]] can be thought of as "the [[distance]] of a point to the origin", which is why the absolute value of [[complex]] numbers is defined this way
 
