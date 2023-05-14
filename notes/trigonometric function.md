@@ -4,25 +4,25 @@
 
 **definition**
 
-let **`(x, y)`** be a point on the unit [[circle]] and let **`\q`** be the [[angle]] from the positive x-axis counterclockwise to that point. then,
+let **`(x, y)`** be a point on the unit [[circle]] and let **`\a`** be the [[angle]] from the positive x-axis counterclockwise to that point. then,
 
-**`x = "cos" \q /\ y = "sin" \q`**, and **`"tan" \q = "sin" \q -- "cos" \q`**
+**`x = "cos" \a /\ y = "sin" \a`**, and **`"tan" \a = "sin" \a -- "cos" \a`**
 
 > **[[mnemonic]]** SOHCAHTOA
 
 **properties**
 
-_[[function#periodic function]]_ **`"sin" (\q : \t) = "sin" \q`**
+_[[function#periodic function]]_ **`"sin" (\a : \t) = "sin" \a`**
 
-_[[function#periodic function]]_ **`"cos" (\q : \t) = "cos" \q`**
+_[[function#periodic function]]_ **`"cos" (\a : \t) = "cos" \a`**
 
-_[[function#periodic function]]_ **`"tan" (\q : -2\t) = "tan" \q`**
+_[[function#periodic function]]_ **`"tan" (\a : -2\t) = "tan" \a`**
 
-_[[function#even function]]_ **`"cos" (.\q) = "cos" \q`**
+_[[function#even function]]_ **`"cos" (.\a) = "cos" \a`**
 
-_[[function#odd function]]_ **`"sin" (.\q) = ."sin" \q`**
+_[[function#odd function]]_ **`"sin" (.\a) = ."sin" \a`**
 
-_[[function#odd function]]_ **`"tan" (.\q) = ."tan" \q`**
+_[[function#odd function]]_ **`"tan" (.\a) = ."tan" \a`**
 
 ## inverse functions
 
@@ -40,11 +40,11 @@ _[[function#odd function]]_ **`"tan" (.\q) = ."tan" \q`**
 
 **see** [[function#reciprocal]]
 
-**`-"sin" \q`**
+**`-"sin" \a`**
 
-**`-"cos" \q`**
+**`-"cos" \a`**
 
-**`-"tan" \q`**
+**`-"tan" \a`**
 
 **`-"asin" x`**
 
@@ -58,11 +58,11 @@ _[[function#odd function]]_ **`"tan" (.\q) = ."tan" \q`**
 
 ### pythagorean identities
 
-**`["sin" \q]2 : ["cos" \q]2 = 1`**
+**`["sin" \a]2 : ["cos" \a]2 = 1`**
 
-**`["tan" \q]2 : 1 = [-"cos" \q]2`** &mdash; derived by dividing by **`"cos" \q`**
+**`["tan" \a]2 : 1 = [-"cos" \a]2`** &mdash; derived by dividing by **`"cos" \a`**
 
-**`[-"tan" \q]2 : 1 = [-"sin" \q]2`** &mdash; derived by dividing by **`"sin" \q`**
+**`[-"tan" \a]2 : 1 = [-"sin" \a]2`** &mdash; derived by dividing by **`"sin" \a`**
 
 ### angle sum identities
 

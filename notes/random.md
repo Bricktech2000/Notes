@@ -556,6 +556,10 @@ the last element of a [[list]]
 
 ---
 
+**`(v * | u *) . (u * | v *)`** &mdash; <https://youtu.be/Y1gOYtQYRXo?t=1466>
+
+---
+
 obsidian is all-in-one for note-taking
 
 Vim does text editing for everything

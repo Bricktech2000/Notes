@@ -46,3 +46,13 @@ _a [[basis]] built from a [[set]] of [[vector in rn#orthogonal vectors]]_
 > **example**
 >
 > the [[set]] **`{{ (1, 0), (0, 1) }}`** is a [[basis#orthogonal basis]] for **`"span" {{ (1, 0), (0, 1) }}`**, but **`{{ (1, 1), (0, 1) }}`** is not
+
+## Standard Basis
+
+**aka** _canonical basis, natural basis_
+
+_a [[basis]] built from a [[set]] of [[vector in rn]]s whole components are all zero except for one, which is one_
+
+> **example**
+>
+> the [[set]] **`{{ (1, 0), (0, 1) }}`** is a [[basis#standard basis]] for **`"span" {{ (1, 0), (0, 1) }}`**, but **`{{ (2, 0), (0, 2) }}`** is not

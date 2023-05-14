@@ -121,7 +121,7 @@ _rewrites a hard-to-compute [[integral]] as an easy-to-compute [[integral]]_
 >
 > with an [[integral]] with respect to **`x`** containing the form **`-- \a . x2/`** with **`a`** being a constant, compute the [[integral]] as follows:
 >
-> 1. substitute **`x2`** with **`[b2 | "trig" \q]2`** such that the form **`-- \a . x2/`** can be rewritten as **`-- b \1 . ["trig" \q]2/`**
+> 1. substitute **`x2`** with **`[b2 | "trig" \a]2`** such that the form **`-- \a . x2/`** can be rewritten as **`-- b \1 . ["trig" \a]2/`**
 > 2. simplify the form to eliminate the square root using pythagorean trigonometric identities
 > 3. compute the [[integral]]
 
