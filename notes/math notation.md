@@ -127,6 +127,7 @@ let:
 | **`f {a b}`**               | **`f {a <- b}`**                                                   |                                                             |
 | **`{f\*g} a`**              | **`(f a) \* (g a)`**                                               | [[combinatory logic#phi combinator]]                        |
 | **`{f g} a`**               | **`{f <- g} a`**                                                   |                                                             |
+| **`E @@`**                  | **`E x {x -> @@}`**                                                |                                                             |
 | **`A \* B`**                | **`x -> A x \* B x`**                                              | see [[rank polymorphism]]                                   |
 | **`A \* a`**                | **`x -> A x \* a`**                                                | see [[rank polymorphism]]                                   |
 | **`f g *`**                 | **`x -> f (g x)`**                                                 | **`*`** is a "hole"                                         |

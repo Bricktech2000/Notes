@@ -20,26 +20,25 @@ certain [[markov chain]]s converge to a _stationary distribution_, which can be 
 
 > **procedure** _computing a [[markov chain#stationary distribution]] through [[iteration]]_
 >
-> let **`S_0 = []S_0^0 && ... && S_0^s[]`**, where
+> let **`S`** be a column [[vector in rn]], where
 >
-> - **`S_0`** is the initial state of the [[markov chain]]
-> - **`S_0^i`** is the [[probability]] of the **`i`**th state occurring in the initial state
-> - **`s`** is the number of states in the [[markov chain]]
->
-> #todo mm
->
-> then, we compute **`S_n = P | S_c = []P^0,0 & ... && ... & ...[][]S_c^0 && ...[]`**, where
->
-> - **`S_c`** is the current iteration of the computation starting from **`S_0`**
-> - **`S_n`** is the next iteration of the computation
-> - **`P`** is the **`s`** by **`s`** _transition matrix_ of the [[markov chain]]
-> - **`P^j,k`** is the [[probability]] of the [[markov chain]] transitioning from the **`k`**th state to the **`j`**th state
+> - **`S^0`** is the initial state of the [[markov chain]]
+> - **`S^0,i`** is the [[probability]] of node **`i`** being present in the initial state
 >
 > #todo mm
 >
-> we can then deduce **`S_@@ = [P]n | S_0 {n -> @@}`**, where
+> then, we compute **`S^n:1 = P | S^n`**, where
 >
-> - **`S_@@`** is the _stationary distribution_ of the [[markov chain]]
+> - **`S^n`** is the current iteration of the computation starting from **`S^0`**
+> - **`S^n:1`** is the next iteration of the computation
+> - **`P`** is the **`# S`** by **`# S`** _transition matrix_ of the [[markov chain]]
+> - **`P^j,k`** is the [[probability]] of a transition from node **`k`** to node **`j`**
+>
+> #todo mm
+>
+> we can then deduce **`S^@@ = [P]@@ | S^0`**, where
+>
+> - **`S^@@`** is the _stationary distribution_ of the [[markov chain]]
 
 > **procedure** _computing a [[markov chain#stationary distribution]] through [[eigen#vector]]s and [[eigen#value]]s_
 >

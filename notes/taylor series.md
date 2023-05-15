@@ -57,13 +57,13 @@ intuitive explanation: <https://youtu.be/3d6DsjIBzJ4?t=383>
 
 > **note** the definition of the [[taylor series#remainder]] is different from the usual [[series#remainder]] as **`S_Tf^@@ x`** is not necessarily equal to **`f x`**. as we want [[taylor series]] to converge to their underlying [[function]], we use **`f x`** instead of **`S_Tf^@@ x`** to define the [[taylor series#remainder]]
 
-**theorem** the [[taylor series]] **`T f x`** converges to **`f x`** in an interval **`I`** if and only if **`R_Tf^n x {n -> @@} = 0 > I x`**
+**theorem** the [[taylor series]] **`T f x`** converges to **`f x`** in an interval **`I`** if and only if **`R_Tf^@@ x = 0 > I x`**
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=22042>
 
 **theorem** _Taylor's Inequality #magic_ **`||(d^n f) x|| -| M /\ RR M /\ NN n > ||x.a|| -| d /\ RR a /\ RR d < (||R_Tf^n.1 x|| -| M -- \P n | [||x.a||]n > ||x.a|| -| d)`**
 
-**theorem** _Practical Convergence Condition_ **`||(d^n f) x|| -| M /\ RR M > NN n > ||x.a|| -| d /\ RR a /\ R d < (R_Tf^n x {n -> @@} = 0 > ||x.a|| -| d)`**
+**theorem** _Practical Convergence Condition_ **`||(d^n f) x|| -| M /\ RR M > NN n > ||x.a|| -| d /\ RR a /\ R d < (R_Tf^@@ x = 0 > ||x.a|| -| d)`**
 
 > **proof** <https://youtu.be/7gigNsz4Oe8?t=22288>
 

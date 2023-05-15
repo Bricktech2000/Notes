@@ -115,4 +115,4 @@ cumulative distribution functions are used to describe continuous random variabl
 
 **properties**
 
-**`F a {a -> @@} = 1`** where **`F`** is a _cumulative distribution function_
+**`F @@ = 1`** where **`F`** is a _cumulative distribution function_

@@ -2,7 +2,7 @@
 
 _a brilliant and beautiful hack_
 
-[[utf-8]] is a [[set#superset]] of [[ascii]]; every valid [[ascii]] [[string]] is a valid [[utf-8]] [[string]]
+[[utf-8]] is a [[set#superset]] of [[ascii]]; every valid 7-bit [[ascii]] [[string]] is a valid [[utf-8]] [[string]]
 
 | encoding                                      | meaning                      |
 | --------------------------------------------- | ---------------------------- |

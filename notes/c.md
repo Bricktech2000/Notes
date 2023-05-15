@@ -364,9 +364,9 @@ whenever a binary [[operator]] is applied to two operands of different types, [[
 
 &mdash; Effective C p. 49-55 and <https://stackoverflow.com/questions/46073295/implicit-type-promotion-rules>
 
-### arithmetic operators
+## operators
 
-for historical reasons, the return value of the unary `!` [[operator]] is `int` and not `_Bool`
+for historical reasons, the return [[type]] of the `!`, `==`, `!=`, `<`, `>`, `<=` and `>=` [[operator]]s is `int` and not `_Bool`
 
 `a / b` with `b == 0` is _undefined behavior_ in [[c]]
 
@@ -395,7 +395,29 @@ type casts in [[c]] either reinterpret the bits of a value or perform a conversi
 > int z = (int)x; // converts x to an int
 > ```
 
-#todo currently on page 67
+using one of `<`, `<=`, `>` or `>=` on two pointers to different objects is _undefined behavior_ in [[c]]
+
+> **example**
+>
+> ```c
+> int x, y;
+> &x < &y; // undefined behavior
+> x == y; // well-defined behavior
+> x != y; // well-defined behavior
+> ```
+
+the `,` [[operator] evaluates its left operand, discards the result, then evaluates its right operand and returns that result
+
+> **example**
+>
+> ```c
+> f(a, (t=3, t+2), c);
+> // is equivalent to
+> t = 3;
+> f(a, t+2, c);
+> ```
+
+#todo currently on page 79
 
 ## tags
 

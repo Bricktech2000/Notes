@@ -106,6 +106,8 @@
 
 [[utf-8]]
 
+[[mandelbrot set]]
+
 **finance**
 
 [[education]] system issues

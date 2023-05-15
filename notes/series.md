@@ -101,13 +101,13 @@ let **`b`** be a [[series]] and let **`L = ||b^n:1 -- b^n|| {n -> @@}`**. then,
 
 **theorem** _Divergence Test_
 
-let **`b`** be a [[series]]. if **`b^n {n -> @@} + 0`**, then **`b`** is divergent
+let **`b`** be a [[series]]. if **`b^@@ + 0`**, then **`b`** is divergent
 
-> **note** **`b^n {n -> @@} = 0`** does not imply that **`b`** is convergent
+> **note** **`b^@@ = 0`** does not imply that **`b`** is convergent
 
 ### alternating test
 
-**theorem** let **`b`** be a [[series]] such that **`b^n = [.1]n | a^n`** where either **`a^n |- 0`** for all **`n`** or **`a^n -| 0`** for all **`n`**. then, if **`a^n {n -> @@} = 0`** and if **`a`** is an eventually [[sequence#decreasing sequence]], the [[series]] **`b`** is a [[series#convergent series]] &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
+**theorem** let **`b`** be a [[series]] such that **`b^n = [.1]n | a^n`** where either **`a^n |- 0`** for all **`n`** or **`a^n -| 0`** for all **`n`**. then, if **`a^@@ = 0`** and if **`a`** is an eventually [[sequence#decreasing sequence]], the [[series]] **`b`** is a [[series#convergent series]] &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
 
 ### [[series#geometric series]] convergence
 
@@ -160,8 +160,8 @@ _convergence_ a [[series#geometric series]] **`b^0 r0 : b^0 r1 : ...`** with **`
 >
 > taking the [[limit]] to compute the value at which the [[series]] converges,
 >
-> - if **`||r|| {-|/\+} 1 /\ r + 0`**, then **`S^n {n -> @@} = b^0 -- 1 . r`**, the [[series]] converges
-> - if **`||r|| |- 1 /\ r + 1`**, then **`S^n {n -> @@} = {@@ \/ .@@}`**, the [[series]] diverges
+> - if **`||r|| {-|/\+} 1 /\ r + 0`**, then **`S^@@ = b^0 -- 1 . r`**, the [[series]] converges
+> - if **`||r|| |- 1 /\ r + 1`**, then **`S^@@ = {@@ \/ .@@}`**, the [[series]] diverges
 >
 > if **`r = 0 \/ r = 1`**, the above definition of **`S^n`** does not necessarily hold, see [[improved expression evaluation]]. therefore, we must use the definition
 >
@@ -169,10 +169,10 @@ _convergence_ a [[series#geometric series]] **`b^0 r0 : b^0 r1 : ...`** with **`
 >
 > taking the [[limit]] to compute the value at which the [[series]] converges,
 >
-> - if **`r = 0 /\ b^0 + 0`**, then **`S^n {n -> @@} = [0]0 = 1`**, the [[series]] converges, see [[improved expression evaluation]]
-> - if **`r = 0 /\ b^0 = 0`**, then **`S^n {n -> @@} = 0`**, the [[series]] converges
-> - if **`r = 1 /\ b^0 + 0`**, then **`S^n {n -> @@} = {@@ \/ .@@}`**, the [[series]] diverges
-> - if **`r = 1 /\ b^0 = 0`**, then **`S^n {n -> @@} = 0`**, the [[series]] converges
+> - if **`r = 0 /\ b^0 + 0`**, then **`S^@@ = [0]0 = 1`**, the [[series]] converges, see [[improved expression evaluation]]
+> - if **`r = 0 /\ b^0 = 0`**, then **`S^@@ = 0`**, the [[series]] converges
+> - if **`r = 1 /\ b^0 + 0`**, then **`S^@@ = {@@ \/ .@@}`**, the [[series]] diverges
+> - if **`r = 1 /\ b^0 = 0`**, then **`S^@@ = 0`**, the [[series]] converges
 
 ## P-Series
 
