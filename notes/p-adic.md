@@ -26,7 +26,7 @@ the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the 
 
 > **note** [[p-adic]] numbers supporting division seems to be in [[contradiction]] with the following &mdash; me
 >
-> **`2[5[n]] {n -> @@} = 2[5[n:1]] {n -> @@}`** and therefore **`x = x5`** with **`x = 2[5[n]] {n -> @@}`** &mdash; <https://youtu.be/3gyHKCDq1YA?t=829>
+> **`2[5[@@]] = 2[5[@@:1]]`** and therefore **`x = x5`** with **`x = 2[5[@@]]`** &mdash; <https://youtu.be/3gyHKCDq1YA?t=829>
 >
 > dividing both sides by **`x`**, we get **`1 = x4`**. taking the fourth root on both sides, we get **`1 = x`**. however, acconding to <https://youtu.be/3gyHKCDq1YA?t=829>, **`x = \i`**
 >
@@ -57,7 +57,7 @@ the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the 
 
 > **example** **`||1000||^10 = -1000`**
 
-> **example** **`p`**-adically, **`p[n] {n -> @@} = 0`**
+> **example** **`p`**-adically, **`p[@@] = 0`**
 
 > **example** **`2`**-adically, **`1 : 2 : 4 : 8 : ... = ...11111 = .1`**. more generally, **`p0 :  p1 : ... = .1`**
 

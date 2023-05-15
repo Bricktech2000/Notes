@@ -13,7 +13,7 @@ see [[matrix]] and [[complex]] for examples of general conventions
 - italics are used for [[trick]]s and personal definitions and to replace quotation marks
 - bold is used for emphasis; italics are not to be used for emphasis
 - `&mdash; ...` statements are used for citing sources
-- HTML entities `&...;` are used for any non-ASCII [[character]]s, such as &lambda; and &times;
+- HTML entities `&...;` are used for any non-[[ascii]] [[character]]s, such as &lambda; and &times;
 - all internal links are denoted using `[[note]]` and `![[image.png]]` [[wikilink]]s, and all external links are denoted using `<https://example.com/>`. bare URLs are to be avoided
 
 ### sections

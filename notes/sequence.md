@@ -28,13 +28,15 @@ _as a [[function]] (closed form) in [[conventional math notation]]_ $a_n = n^2$
 
 let **`a = a^0, a^1, a^2, ...`**
 
-**`a_"sum" = :a = S^n {n -> @@}`**, where
+**`a_"sum" = :a = S^@@`**, where
 
 - **`a`** is the [[sequence]] to be summed
 - **`S`** is the [[series#sequence of partial sums]] of **`a`**
 - **`a_"sum" = :a`** is the sum of **`a`**
 
 ## Bound
+
+## Bounded Sequence
 
 **definition** a [[sequence]] is said to be _bounded above_ if **`a^n -| M /\ RR M > NN n`**
 
@@ -64,20 +66,20 @@ suppose **`a^n = f n > NN n`**. then, the increase and decrease of the [[functio
 
 ## Divergent Sequence
 
-**definition** a [[sequence]] is said to _converge_ if the [[limit]] **`a^n {n -> @@}`** exists as a finite number, see [[limit#existence]]
+**definition** a [[sequence]] is said to _converge_ if the [[limit]] **`a^@@`** exists as a finite number, see [[limit#existence]]
 
 **properties**
 
-if a [[sequence]] is [[sequence#bound]]ed and monotonic (see [[sequence#decreasing sequence]]), then it must converge (think of this intuitively)
+if a [[sequence]] is a [[sequence#bounded sequence]] and a monotonically [[sequence#decreasing sequence]], then it must converge (think of this intuitively)
 
 ### using limits
 
 **theorem**
 
-let **`a`** be a [[sequence]] and **`f x`** be a [[function]] and suppose **`a^n = f n > NN n`**. then, **`f x {x -> @@} = L < a^n {n -> @@} = L`**. in other words,
+let **`a`** be a [[sequence]] and **`f x`** be a [[function]] and suppose **`a^n = f n > NN n`**. then, **`f @@ = L < a^@@ = L`**. in other words,
 
-- if **`f x {x -> @@}`** converges, then **`a^n {n -> @@}`** converges
-- if **`f x {x -> @@}`** diverges, then **`a^n {n -> @@}`** diverges
+- if **`f @@`** converges, then **`a^@@`** converges
+- if **`f @@`** diverges, then **`a^@@`** diverges
 
 ### [[sequence#geometric sequence]] convergence
 
