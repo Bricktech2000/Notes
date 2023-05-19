@@ -1,6 +1,6 @@
 # Notes
 
-A repository of my conceptual notes
+_A repository of my conceptual notes_
 
 [View Published Notes](https://notes.emilien.ca/)
 
