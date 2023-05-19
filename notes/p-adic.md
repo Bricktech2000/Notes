@@ -1,6 +1,6 @@
 # P-Adic
 
-_the [[set]] of **`p`**-adic numbers for a given prime **`p`**_
+_the [[set]] of **`p`**-adic numbers for a given [[prime]] **`p`**_
 
 **see** [[math notation]]
 
@@ -12,7 +12,7 @@ the [[real]] numbers can only have finitely many digits to the left of the decim
 
 **properties**
 
-**`QQ^p < UU`** for any prime **`p`**, see [[universal]]
+**`QQ^p < UU`** for any [[prime]] **`p`**, see [[universal]]
 
 the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the [[p-adic#absolute value]] [[metric space#metric]]. see [[real]]
 
@@ -22,7 +22,7 @@ the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the 
 
 [[p-adic]] numbers support division
 
-> **note** [[p-adic]] numbers supporting division is a consequence of **`p`** being a prime number &mdash; <https://youtu.be/3gyHKCDq1YA?t=606>. my [[improved expression evaluation]] would need to be extended to support **`n`**-adic numbers where **`n`** is not a prime number #think
+> **note** [[p-adic]] numbers supporting division is a consequence of **`p`** being a [[prime]] number &mdash; <https://youtu.be/3gyHKCDq1YA?t=606>. my [[improved expression evaluation]] would need to be extended to support **`n`**-adic numbers where **`n`** is not a [[prime]] number #think
 
 > **note** [[p-adic]] numbers supporting division seems to be in [[contradiction]] with the following &mdash; me
 >

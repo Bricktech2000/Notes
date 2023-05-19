@@ -52,7 +52,7 @@ _real part of a complex number_ **`z^re = a`**
 
 _imaginary part of a complex number_ **`z^im = b`**
 
-therefore, **`z = z^re : \i z^im`**
+therefore, **`z = z^re : \iz^im`**
 
 ## Conjugate
 
@@ -83,10 +83,6 @@ let **`CC z /\ CC w /\ RR c`**
 **theorem** **`z"conj" z = ||z||2 > CC z`**
 
 **theorem** **`--z = "conj" z -- ||z||2 > CC z`**
-
-**applications**
-
-multiplying by the conjugate can be used to reduce an expression such as **`-- 4 : 3\i`**
 
 ## Modulus
 

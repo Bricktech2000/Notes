@@ -6,13 +6,15 @@ the goal of this note is to study the following strategy:
 
 > [[invest]] **`-5`** of all [[money]] earned
 
-**pros** _advantages of investing_
+**tradeoffs**
+
+_advantages of investing_
 
 - prevents economic crises from affecting one’s net worth
 - takes advantage of compound interest from a young age
 - prevents the situation where it is [[difficult]] saving some of your [[money]] because your lifestyle is shaped around spending a certain amount of it, which is called [[lifestyle inflation]]. however, implementing this strategy from a young age will mean that you will never know what it's like to have the money you're [[invest]]ing, and so you will not miss it. in theory. see <https://youtu.be/eDa1U9qJKxo?t=263> for some more information
 
-**cons** _possible issues of [[invest]]ing &mdash; with solutions_
+_possible issues of [[invest]]ing &mdash; with solutions_
 
 - taxes &mdash; invest in a TFSA account (Canada-only)
 - age of majority &mdash; added reminder to open trading account when turning 18 &mdash; [[cryptocurrency]] does not require users to be 18

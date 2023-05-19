@@ -10,7 +10,7 @@ most of our culture is outcome-oriented instead of process-oriented. focusing on
 
 because of [[system over goal]], tracking something is often better than trying to restrict it through [[willpower]] &mdash; <https://youtu.be/ewzC_ica4Fw>. this is often referred to as _[[habit]] tracking_ &mdash; <https://youtu.be/zUm3fKk00J8?t=18342>. however, for the measure to remain relevant, it must never become the target, see [[goodhart's law]]
 
-**pros** _advantages of [[system over goal]]_
+**tradeoffs** _advantages of [[system over goal]]_
 
 - successful and unsuccessful people share the same [[goal]]s, and therefore [[goal]]s cannot be what differentiates winners from losers
 - achieving a [[goal]] only feels good for that moment in time, but then hinders longer-term progress as [[motivation]] quickly fades afterwards

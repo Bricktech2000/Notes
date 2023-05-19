@@ -2,7 +2,7 @@
 
 _the base-16 [[positional numeral system]]_
 
-**pros**
+**tradeoffs**
 
 [[binary]] [[number]] can easily be converted to [[hexadecimal]] [[number]], and vice versa
 

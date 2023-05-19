@@ -10,7 +10,7 @@ _free, public schooling for wide segments of a nation's population_
 
 today, schools attempt to meet the needs of industrial and post-industrial society by teaching a **wide diversity of students** a **myriad of topics**
 
-**cons**
+**tradeoffs**
 
 mass [[education]] often results in students learning bad habits. examples include:
 

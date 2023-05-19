@@ -97,7 +97,7 @@ let:
 | **`\r`**                                                     | **`f a b -> f b a`**                                         | see [[matrix#transpose]], [[combinatory logic#c combinator]] |
 | **`\P`**                                                     | the [[pi function]]                                          | using **`"fact"`** is discouraged                            |
 | **`#`**                                                      | the number of "links" in a [[function]]                      | #todo define rigorously                                      |
-| **`\y`**                                                     | the [[multiset]] of prime factors of a [[natural]]           | see [[psi function in mat2348]]                              |
+| **`\y`**                                                     | the [[multiset]] of [[prime]] factors of a [[natural]]       | see [[psi function in mat2348]]                              |
 
 ### shorthands
 

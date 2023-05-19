@@ -6,8 +6,6 @@ conversations can be structured as a [[stack]] evolving over [[time]], onto whic
 
 this contrasts with "normal" conversations, which feel like mindlessly jumping around a free-form [[graph]] of topics
 
-## structure
-
 **representation** _as nested [[list]]s, [[time]] going down_
 
 - conversation **`0`**
@@ -32,13 +30,10 @@ this contrasts with "normal" conversations, which feel like mindlessly jumping a
 8. conversation **`0`**
 9. conversation **`0`**
 
-## pros & cons
+**tradeoffs**
 
-**pros**
+when one party gets interrupted by another party, the first party knows it will be able to wrap up its argument when eventually popping subconversations from the [[stack]]
 
-- when one party gets interrupted by another party, the first party knows it will be able to wrap up its argument when eventually popping subconversations from the [[stack]]
+most people get "lost" when trying to contribute to a conversation structured this way
 
-**cons**
-
-- most people get "lost" when trying to contribute to a conversation structured this way
-- both parties must understand the structure for benefits to emerge
+both parties must understand the structure for benefits to emerge

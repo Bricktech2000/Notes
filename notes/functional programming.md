@@ -22,7 +22,7 @@
 
 functional languages support [[first-class function]]s
 
-**pros**
+**tradeoffs**
 
 as all [[function]]s are isolated from any other parts of a program, they can be combined to build larger functions without having to worry about anything breaking. this also allows for testability and reusability
 

@@ -16,7 +16,7 @@ the small gains [[intention]]ality provides are an [[invest]]ment that compound 
 
 [[eisenhower matrix]]
 
-**pros**
+**tradeoffs**
 
 being [[intention]]al about where we spend our [[energy]] and attention can reduce stress and [[anxiety]]
 

@@ -289,7 +289,7 @@ if **`AC`** is invertible, then **`A`** is invertible and **`C`** is invertible
 
 **definition** a [[matrix]] is said to be _diagonal_ if every entry below its [[matrix#diagonal]] **and** above its [[matrix#diagonal]] is **`0`**
 
-**applications**
+**properties**
 
 **`[D]x`** can be calculated by raising every entry of **`D`** to the power **`x`** #todo mm
 
@@ -339,7 +339,7 @@ let **`MM^m,n A`**. the following [[logic statement]]s are equivalent:
 
 **theorem**
 
-let **`MM^n,n A`** (see [[matrix]]). the following [[logic statement]]s are equivalent:
+let **`MM^n,n A`**. the following [[logic statement]]s are equivalent:
 
 > **note** all [[logic statement]]s below are valid for both **`A`** and **`\r A`**, see [[matrix#transpose]]
 

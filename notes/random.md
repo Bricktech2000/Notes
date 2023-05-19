@@ -560,6 +560,11 @@ the last element of a [[list]]
 
 ---
 
+**`c^re = "lerp" .3-2 1-2 x-"size"`**
+**`c^im = "lerp" .1 1 y-"size"`**
+
+---
+
 obsidian is all-in-one for note-taking
 
 Vim does text editing for everything

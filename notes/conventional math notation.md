@@ -2,11 +2,9 @@
 
 **see** [[math notation]]
 
-**properties**
+**tradeoffs**
 
-[[conventional math notation]] is [[flawed but established]]
-
-**cons** _fixed in my [[math notation]]_
+- [[conventional math notation]] is [[flawed but established]]
 
 - [[set]] builder notation $\lbrace \mid \rbrace$ is just a $\cap$
 - $\sqrt{}$ often only returns a positive solution

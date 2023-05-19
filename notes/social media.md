@@ -1,6 +1,6 @@
 # Social Media
 
-**cons**
+**tradeoffs**
 
 &mdash; <https://youtu.be/lQ00Nii5gfE>
 
