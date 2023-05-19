@@ -2,7 +2,7 @@
 
 **see** [[type]], [[data structure]], [[algorithm]], [[abstraction]]
 
-describes the [[interface]] a [[data structure]] must implement
+[[abstract data type]]s describe the [[interface]] a [[data structure]] must implement
 
 > **equivalence** _[[abstract data type]]s and [[algebraic structure]]s_ &mdash; <https://en.wikipedia.org/wiki/Algebraic_structure>
 

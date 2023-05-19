@@ -2,7 +2,7 @@
 
 **see** [[psi function in mat2348]], [[reduce function]]
 
-> **theorem** every [[natural]] greater than **`0`** can be represented as the product of a unique [[multiset]] of prime numbers &mdash; me
+> **theorem** every [[natural]] greater than **`0`** can be represented as the product of a unique [[multiset]] of [[prime]]s &mdash; me
 
 it follows from the above that **`\y 1 = (( ))`** and therefore **`1 = | (( ))`**
 

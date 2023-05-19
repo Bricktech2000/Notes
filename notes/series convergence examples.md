@@ -2,7 +2,7 @@
 
 #example
 
-let **`p^i`** be the **`i`**th prime number. then, the [[series]] **`:-p`** diverges
+let **`p^i`** be the **`i`**th [[prime]] number. then, the [[series]] **`:-p`** diverges
 
 > **proof**
 >

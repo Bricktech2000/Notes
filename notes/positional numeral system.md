@@ -17,7 +17,7 @@
 >
 > **`1001_2`**
 
-**pros & cons**
+**tradeoffs**
 
 many of the advantages claimed by the [[international system of units]] could be realized by any consistent [[positional numeral system]] &mdash; <https://en.wikipedia.org/w/index.php?title=Positional_notation&oldid=1113494852>
 

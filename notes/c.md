@@ -8,14 +8,12 @@ _assembly with syntactic sugar_
 
 **see** [[math notation]]
 
-**pros**
+**tradeoffs**
 
-- performance (fast, very little overhead, very little resources)
-- portability (compilers support many different targets)
-- simplicity (language is simple, not much syntax to learn)
-- stability (code doesn't break or become obsolete)
-
-**cons**
+- high performance (fast, very little overhead, very little resources)
+- great portability (compilers support many different targets)
+- great simplicity (language is simple, not much syntax to learn)
+- great stability (code doesn't break or become obsolete)
 
 - memory unsafety (use-after-free, double-free, memory leaks, buffer overreads and overwrites, [[null]] pointers, data races...)
 
@@ -23,7 +21,7 @@ _assembly with syntactic sugar_
 
 **definition** an _rvalue_ is an expression that does not refer to an object; it only makes sense for it to be on the right side of an assignment
 
-## array indexing quirk
+## Array Indexing Quirk
 
 ```c
 #include <stdio.h>
@@ -94,10 +92,11 @@ objects declared in file scope have _static_ lifetimes, living throughout the ex
 > **example**
 >
 > ```c
+> // file scope
 > int x;
 > ```
 
-objects declared within a block can be made to have a static lifetime using the `static` keyword
+objects declared within a block can be made to have a static lifetime using the `static` storage-class specifier
 
 > **example**
 >
@@ -118,9 +117,16 @@ objects declared within a block can be made to have a static lifetime using the 
 > return 0;
 > ```
 
-_thread_ lifetimes #todo
+objects stored in dynamically allocated memory have _allocated_ lifetimes, living from the time they are allocated to the time they are deallocated
 
-_allocated_ lifetimes #todo
+> **example**
+>
+> ```c
+> int *x = malloc(sizeof(int));
+> free(x);
+> ```
+
+_thread_ lifetimes #todo
 
 ## data types
 
@@ -244,7 +250,7 @@ enum, struct, union, typedef
 
 #### `restrict`
 
-`restrict` is a type qualifier that specifies that a pointer is the only way to access the object it points to. this allows the compiler to perform additional optimizations
+`restrict` is a type qualifier that specifies that a pointer is the only way to access the object it points to. this allows the compiler to perform additional [[optimization]]
 
 > **example**
 >
@@ -257,6 +263,30 @@ enum, struct, union, typedef
 > char s[10];
 > copy(s, s + 1); // undefined behavior
 > ```
+
+### tags
+
+tags are a special naming mechanism for `enum`, `struct`, and `union` types. they live in a seperate namespace than that of ordinary identifiers
+
+> **note**
+>
+> the snippets below are valid
+>
+> ```c
+> struct s { };
+> struct s s; // an object `s` of type `struct s`
+>
+> enum status { ok, fail };
+> enum status status(void); // a function `status` that returns an `enum status`
+>
+> // the name of the type and of the tag can be the same
+> typedef struct tnode {
+>   struct tnode *left;
+>   struct tnode *right;
+> } tnode;
+> ```
+
+## arithmetic
 
 ### arithmetic literals
 
@@ -364,6 +394,26 @@ whenever a binary [[operator]] is applied to two operands of different types, [[
 
 &mdash; Effective C p. 49-55 and <https://stackoverflow.com/questions/46073295/implicit-type-promotion-rules>
 
+### pointer arithmetic
+
+adding or subtracting an _integer type_ to or from a pointer [[type]] in [[c]] returns a value whose [[type]] is that of the pointer operand. this partly explains the [[c#array indexing quirk]]. the difference between the [[array]] subscripts is the value of the [[integer]] operand
+
+> **note** the [[c]] standard does not impose that the members of a `struct` be contiguous. therefore, when using pointer arithmetic on members of a [[c]] `struct`s, one should use the `offsetof` macro from `stddef.h` to determine the offset of the element from the beginning of the `struct`
+
+the resulting pointer must point to an element of the same [[array]] as the original pointer, or to an element one past the end of the [[array]] for historical reasons (known as the "too-far" pointer). otherwise, the behavior is _undefined behavior_. note that [[scalar]]s are considered length-one [[array]]s
+
+> **example**
+>
+> ```c
+> int m[2] = {1, 2};
+>
+> int sub_m_elements(void) {
+>   int sum = 0;
+>   for (int *pi = &m[0]; pi < &m[2]; pi++) sum += *pi; // &m[2] is a "too-far" pointer
+>   return sum;
+> }
+> ```
+
 ## operators
 
 for historical reasons, the return [[type]] of the `!`, `==`, `!=`, `<`, `>`, `<=` and `>=` [[operator]]s is `int` and not `_Bool`
@@ -383,7 +433,7 @@ left shifting a negative number is _undefined behavior_ in [[c]]. left shifting 
 
 shifting by a negative number of bits or by a number of bits greater than or equal to the width of the _integer-promoted_ left operand is _undefined behavior_ in [[c]]
 
-the _usual arithmetic conversions_ are **not** performed on the operands of the `<<` and `>>` [[operators]]
+the _usual arithmetic conversions_ are **not** performed on the operands of the `<<` and `>>` [[operator]]s
 
 type casts in [[c]] either reinterpret the bits of a value or perform a conversion
 
@@ -406,7 +456,7 @@ using one of `<`, `<=`, `>` or `>=` on two pointers to different objects is _und
 > x != y; // well-defined behavior
 > ```
 
-the `,` [[operator] evaluates its left operand, discards the result, then evaluates its right operand and returns that result
+the `,` [[operator]] evaluates its left operand, discards the result, then evaluates its right operand and returns that result
 
 > **example**
 >
@@ -417,29 +467,75 @@ the `,` [[operator] evaluates its left operand, discards the result, then evalua
 > f(a, t+2, c);
 > ```
 
-#todo currently on page 79
+## statements
 
-## tags
+[[c]] includes the following statements, most of which are self-explanatory:
 
-tags are a special naming mechanism for `enum`, `struct`, and `union` types. they live in a seperate namespace than that of ordinary identifiers
+```c
+if (expression) statement
+
+if (expression) statement else statement
+
+while (expression) statement
+
+do statement while (expression);
+
+for (expression; expression; expression) statement
+
+switch (expression) statement
+
+goto label;
+
+continue;
+
+break;
+
+return expression;
+```
+
+the type of the controlling expression to a `switch` statement must be an _integer type_. _integer promotions_ are performed on the controlling expression. the constant expression in each `case` label is converted to the type of the promoted controlling expression
+
+returning no value from a non-`void` [[function]] (through `return;` or through control reaching the end of the [[function]] body) and subsequently using the returned value is _undefined behavior_ in [[c]]
+
+## dynamic allocation
+
+`stdlib.h` defines various [[function]]s for dealing with dynamic memory allocation, including `malloc`, `calloc`, `realloc` and `free`. [[c]] memory allocation [[function]]s will ensure proper alignment so any [[type]] can be correctly stored in the allocated memory
 
 > **note**
 >
-> the snippets below are valid
+> in [[c]], a `void *` is implicitly converted to any other pointer type
+>
+> > **example**
+> >
+> > the following is valid [[c]]:
+> >
+> > ```c
+> > int *pi = malloc(sizeof(int));
+> > ```
+
+> **note** reading uninitialized memory is not _undefined behavior_ in [[c]]. with that said, is is not a great idea to do so
+
+`void *malloc(size_t size)` allocates `size` bytes of memory and returns a pointer to the allocated memory. the memory is not initialized. if `size == 0`, `malloc` returns either `NULL` or a unique pointer value that can later be passed to `free`. if `malloc` fails to allocate memory, it returns `NULL`
+
+`void *calloc(size_t nmemb, size_t size)` allocates `nmemb * size` bytes of memory and returns a pointer to the allocated memory. the memory is initialized to all bits zero. if `nmemb == 0` or `size == 0`, `calloc` returns either `NULL` or a unique pointer value that can later be passed to `free`. if `nmemb * size` overflows, `calloc` returns `NULL`. if `calloc` fails to allocate memory, it returns `NULL`
+
+`void *realloc(void *ptr, size_t size)` changes the size of the memory block pointed to by `ptr` to `size` bytes and returns a pointer to the reallocated memory. the contents of the memory block are preserved up to the lesser of the new and old sizes. if `ptr == NULL`, `realloc` behaves like `malloc`. if `size == 0`, `realloc` behaves like `free`. if `realloc` fails to allocate memory, it returns `NULL` and leaves the original memory block unchanged
+
+> **example**
+>
+> the following leaks memory:
 >
 > ```c
-> struct s { };
-> struct s s; // an object `s` of type `struct s`
->
-> enum status { ok, fail };
-> enum status status(void); // a function `status` that returns an `enum status`
->
-> // the name of the type and of the tag can be the same
-> typedef struct tnode {
->   struct tnode *left;
->   struct tnode *right;
-> } tnode;
+> int *p = malloc(0x10);
+> // ...
+> if ((p = realloc(p, 0x20)) == NULL) return NULL;
 > ```
+
+`void free(void *ptr)` frees the memory block pointed to by `ptr`. if `ptr == NULL`, `free` does nothing. calling `free` on a pointer that was not returned by `malloc`, `calloc` or `realloc` is _undefined behavior_ in [[c]]. calling `free` on a pointer that has already been freed is _undefined behavior_ in [[c]]
+
+> **note** to mitigate issues with dangling pointers and double-frees, it is considered good practice to set pointers to `NULL` after freeing them
+
+#todo currently on pages 110
 
 ## reserved identifiers
 
@@ -447,7 +543,7 @@ any identifier matching the [[regular expression]]s `/__.*/` or `/_[A-Z].*/` or 
 
 ## order of evaluation
 
-"the order of evaluation of the operands of any [[c]] [[operator]], including the order of evaluation of any subexpressions, is generally _unspecified behavior_" &mdash; Effective C.
+_the order of evaluation of the operands of any [[c]] [[operator]], including the order of evaluation of any subexpressions, is generally unspecified behavior_ &mdash; Effective C
 
 > **example**
 >
@@ -458,7 +554,7 @@ any identifier matching the [[regular expression]]s `/__.*/` or `/_[A-Z].*/` or 
 > int max = max(f(), g()); // order of evaluation is unspecified
 > ```
 
-"if a side effect is unsequenced relative to either a different side effect on the same scalar of a value computation that uses the value of the same scalar object, the code has _undefined behabior_" &mdash; Effective C.
+_if a side effect is unsequenced relative to either a different side effect on the same scalar of a value computation that uses the value of the same scalar object, the code has undefined behavior_ &mdash; Effective C
 
 > **example**
 >
@@ -468,6 +564,6 @@ any identifier matching the [[regular expression]]s `/__.*/` or `/_[A-Z].*/` or 
 > printf("%d %d\n", i++, i); // undefined behavior
 > ```
 
-it is guaranteed that the `&&` and `||` [[operator]]s will evaluate their operands from left to right. the `&&` and `||` operators "short-circuit" in [[c]]
+it is guaranteed that the `&&` and `||` [[operator]]s will evaluate their operands from left to right. the `&&` and `||` [[operator]]s "short-circuit" in [[c]]
 
 it is guaranteed that the `? :` [[operator]] will evaluate its first operand before its second or third operand. only one of the second and third operands will be evaluated

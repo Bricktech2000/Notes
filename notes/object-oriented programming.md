@@ -6,21 +6,17 @@
 
 [[object-oriented programming]] is both _object-oriented_ and _imperative_, see [[programming paradigm]]
 
-**pros**
+**tradeoffs**
 
-[[object]]s are things and people like things
+- [[object]]s are things and people like things
 
-**cons**
+cons of [[object-oriented programming]] include:
 
-<https://youtu.be/GKYCA3UsmrU>
-
-<https://youtu.be/_xLgr6Ng4qQ>
-
-<https://youtu.be/IRTfhkiAqPw>
-
-<https://youtu.be/agTmccNAXlI>
-
-<https://youtu.be/I8LbkfSSR58?t=615>
+- <https://youtu.be/GKYCA3UsmrU>
+- <https://youtu.be/_xLgr6Ng4qQ>
+- <https://youtu.be/IRTfhkiAqPw>
+- <https://youtu.be/agTmccNAXlI>
+- <https://youtu.be/I8LbkfSSR58?t=615>
 
 ## Pillars
 

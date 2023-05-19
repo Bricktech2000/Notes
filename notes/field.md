@@ -10,7 +10,7 @@ loosely speaking, a [[field]] is a [[set]] of numbers with certain properties an
 >
 > - the [[set]] of [[real]] numbers
 > - the [[set]] of [[complex]] numbers
-> - the [[set]] of [[integer]]s modulo a prime [[number]]
+> - the [[set]] of [[integer]]s modulo a [[prime]] [[number]]
 > - the [[set]] of [[rational]] numbers &mdash; <https://youtu.be/vdjYiU6skgE>
 > - the [[set]] of [[p-adic]] numbers
 

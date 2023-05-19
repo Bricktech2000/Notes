@@ -133,7 +133,7 @@ _for the [[integral]] of [[function#rational function]]s_
 >
 > compute the [[integral]] of a [[function#rational function]] as follows:
 >
-> 1. [[factor]] out the denominator into its **`n : 1`** prime [[factor]]s **`f`**
+> 1. [[factor]] out the denominator into its **`n : 1`** [[prime]] [[factor]]s **`f`**
 > 2. set the [[function]] equal to **`:A-f`** and solve for for the [[real]]s **`A_0 ... A_n`**
 > 3. compute the [[integral]] of the partial fraction, **`$ :A-f | \d x`**
 >

@@ -1,8 +1,8 @@
 # Improved Family Relationship Vocabulary
 
-who thought <https://www.tfcg.ca/family-relationship-chart> would be an intuitive way to describe family relationships? let's fix that
+**see** [[math notation]]
 
-## vocabulary
+who thought <https://www.tfcg.ca/family-relationship-chart> would be an intuitive way to describe family relationships? let's fix that
 
 all that is needed to describe the relationship between two people in a family [[tree]] is the two [[distance]]s between them and a common ancestor. below is an example of the representation of an _uncle_
 
@@ -37,11 +37,7 @@ below are some useful equivalences
 - `2-3` is one's first cousin once removed
 - `3-3` is one's **second cousin**
 
-## pros & cons
-
-**pros**
-
-**see** [[math notation]]
+**tradeoffs**
 
 let **`m`** and **`n`** be the two numbers representing the [[distance]] between two people in a family
 
@@ -50,6 +46,4 @@ let **`m`** and **`n`** be the two numbers representing the [[distance]] between
 - the larger **`m : n`**, the further away the people are
 - the larger **`||m . n||`**, the greater age difference between the people
 
-**cons**
-
-- the [[switching cost]]; dumb vocabulary already exists to describe the relationship between two people in a family, so getting the general public onboard is not an easy task
+[[improved family relationship vocabulary]] has a high [[switching cost]]; dumb vocabulary already exists to describe the relationship between two people in a family, so getting the general public onboard is not an easy task

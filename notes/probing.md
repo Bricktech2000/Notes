@@ -29,4 +29,4 @@ the cycle length of a quadratic [[probing]] [[function]] **`i -> ai2 : bi`** mod
 
 the cycle length of a double hashing [[probing]] [[function]] **`i -> i | H_2  k`** modulo **`n`** is **`n`** if and only if **`\y (H_2  k) __ \y n = (( ))`**, see [[psi function in mat2348]] &mdash; <https://youtu.be/RBSGKlAvoiM?t=18571>. to prevent cycles of length less than **`n`**, a few solutions are available:
 
-- choose an **`n`** such that **`# \y n = 1`**. comupte **`\D = H_2  k "mod" n ^^ c`** where **`c`** is a non-zero constant to ensure **`\D + 0`**. since **`n`** is prime, this ensures **`\y \D __ \y n = (( ))`**. the value to be returned from the [[probing]] [[function]] is **`\D`**
+- choose an **`n`** such that **`# \y n = 1`**. comupte **`\D = H_2  k "mod" n ^^ c`** where **`c`** is a non-zero constant to ensure **`\D + 0`**. since **`n`** is [[prime]], this ensures **`\y \D __ \y n = (( ))`**. the value to be returned from the [[probing]] [[function]] is **`\D`**

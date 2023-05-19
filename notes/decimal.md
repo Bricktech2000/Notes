@@ -2,10 +2,8 @@
 
 _the base-10 [[positional numeral system]]_
 
-**pros**
+**tradeoffs**
 
-humans have 10 fingers
+intuitive since humans have 10 fingers
 
-**cons**
-
-**`x -> ^^`**
+suboptimal for everything else

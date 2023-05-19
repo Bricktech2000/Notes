@@ -2,4 +2,6 @@
 
 **see** [[electromagnetic wave]], [[math notation]]
 
-> **constant** **`c = 299792458 "m"-"s"`**
+**notation** **`c`**
+
+**definition** **`c = 299792458 "m"-"s"`**

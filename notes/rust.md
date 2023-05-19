@@ -6,17 +6,15 @@ _a language for the next 40 years_
 
 &mdash; <https://youtu.be/PuMXWc0xrK0>
 
-**pros**
+**tradeoffs**
 
-- performance (no garbage collector, zero-cost [[abstraction]]s)
-- portability (compiles to LLVM bytecode which is widely supported)
-- stability (very strong backwards compatibility)
-- memory safety (done through the [[rust#borrow checker]])
+- high performance (no garbage collector, zero-cost [[abstraction]]s)
+- great portability (compiles to LLVM bytecode which is widely supported)
+- great stability (very strong backwards compatibility)
+- great memory safety (done through the [[rust#borrow checker]])
 
-**cons**
-
-- simplicity (more features and more syntax than languages like [[c]])
-- ecosystem features (no standard, no LTS releases, no private crate hosting)
+- relatively complex (more features and more syntax than languages like [[c]])
+- lacking ecosystem features (no standard, no LTS releases, no private crate hosting)
 
 ## safety features
 
@@ -107,7 +105,7 @@ Rust ensures "surprising" behavior is clearly sign-posted:
 
 for breaking changes (such as adding an `async` keyword), [[rust]] uses an edition system (such as the 2015 and 2018 editions), where the [[rust]] compiler understands all editions simultaneously. this means that a project written in any edition of [[rust]] can depend on a library written for any other edition of [[rust]], preventing ecosystem splits
 
-because of the way the compiler is currently built, maintenance to core [[rust]] functionality (such as borrow checking, optimization, code generation) is not affected.
+because of the way the compiler is currently built, maintenance to core [[rust]] functionality (such as borrow checking, [[optimization]], code generation) is not affected.
 
 **representation**
 

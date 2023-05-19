@@ -8,7 +8,7 @@ let **`(x, y)`** be a point on the unit [[circle]] and let **`\a`** be the [[ang
 
 **`x = "cos" \a /\ y = "sin" \a`**, and **`"tan" \a = "sin" \a -- "cos" \a`**
 
-> **[[mnemonic]]** SOHCAHTOA
+> **note** _[[mnemonic]]_ SOHCAHTOA
 
 **properties**
 
@@ -30,9 +30,9 @@ _[[function#odd function]]_ **`"tan" (.\a) = ."tan" \a`**
 
 **definitions**
 
-**`y = "sin" x == x = "asin" y : \tn /\ ZZ n`**
+**`y = "sin" x == x = {"asin" y \/ ."asin" y : -2\t} : \tn /\ ZZ n`**
 
-**`y = "cos" x == x = "acos" y : \tn /\ ZZ n`**
+**`y = "cos" x == x = {"acos" y \/ ."acos" y} : \tn /\ ZZ n`**
 
 **`y = "tan" x == x = "atan" y : -2\tn /\ ZZ n`**
 
@@ -90,9 +90,9 @@ difference identities can be computed using the sum identities above
 
 ## cosine and sine "law"s
 
-**theorem** _sine law_ let a triangle with sides **`A, B, C`** and [[angle]]s **`a, b, c`** where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, **`"sin" a -- A = "sin" b -- B = "sin" c -- C`**
+**theorem** _sine law_ let a triangle with sides **`a, b, c`** and [[angle]]s **`A, B, C`** where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, **`"sin" A -- a = "sin" B -- b = "sin" C -- c`**
 
-**theorem** _cosine law_ let a triangle with sides **`A, B, C`** and [[angle]]s **`a, b, c`** where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, **`a2 = b2 : c2 . 2bc"cos" A`**
+**theorem** _cosine law_ let a triangle with sides **`a, b, c`** and [[angle]]s **`A, B, C`** where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, **`c2 = a2 : b2 . 2ab"cos" C`**
 
 ## Derivatives
 
