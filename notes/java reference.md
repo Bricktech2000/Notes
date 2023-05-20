@@ -8,7 +8,7 @@ in [[java]], all reference types are store on the heap; pointers to reference [[
 > String, Array
 > ```
 >
-> all user-defined classes are [[java reference]]s
+> all user-defined [[class]]es are [[java reference]]s
 
 ## the `==` operator on references
 

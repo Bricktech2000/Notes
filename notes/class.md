@@ -8,4 +8,4 @@ _the blueprint of an [[object]]_
 
 an [[object]] has a state whereas a [[class]] does not
 
-[[classes]] are used as a unit of [[abstraction]] in [[object-oriented programming]], see [[object]]
+[[class]]es are used as a unit of [[abstraction]] in [[object-oriented programming]], see [[object]]

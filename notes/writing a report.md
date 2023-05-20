@@ -2,8 +2,6 @@
 
 ## best practices
 
-_for [[eng1112 technical report writing]]_
-
 - the goal of a report is to communicate our analysis of information, not to "dump" information
 - make sure to find [[reliable source]]s
 - [[finding sources]] and [[referencing sources]]

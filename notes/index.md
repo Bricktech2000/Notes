@@ -14,8 +14,6 @@
 
 [[categories]]
 
-[[classes]]
-
 [[fields]]
 
 [[outdated]]

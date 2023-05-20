@@ -1,4 +1,6 @@
-# Psi Function in MAT2348
+# Psi Function
+
+&mdash; MAT2348 Discrete Mathematics
 
 **definition**
 
@@ -24,13 +26,13 @@ the _greatest common divisor_ of **`a`** and **`b`** is **`| (\y a __ \y b)`**
 
 the _least common multiple_ of **`a`** and **`b`** is **`| (\y a ^^ \y b)`**
 
-by the [[fundamental theorem of arithmetic]], the [[psi function in mat2348]] is a [[function#bijective function]]
+by the [[fundamental theorem of arithmetic]], the [[psi function]] is a [[function#bijective function]]
 
 **equivalences**
 
 > **equivalence** _the [[category]] **`NN /\ +0, "divides"`** and the [[category]] **`"multiset of primes", "multisubset"`**_
 >
-> the [[psi function in mat2348]] is a [[functor]] from the [[category]] **`NN /\ +0, "divides"`** to the [[category]] **`"multiset of primes", "multisubset"`**
+> the [[psi function]] is a [[functor]] from the [[category]] **`NN /\ +0, "divides"`** to the [[category]] **`"multiset of primes", "multisubset"`**
 >
 > [[functor]]s [[map]] both [[category#morphism]]s and [[category#object]]s between [[category]]es. this means than:
 >

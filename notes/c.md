@@ -17,10 +17,6 @@ _assembly with syntactic sugar_
 
 - memory unsafety (use-after-free, double-free, memory leaks, buffer overreads and overwrites, [[null]] pointers, data races...)
 
-**definition** an _lvalue_ is an expression that refers to an object; it makes sense for it to be on the left (or right) side of an assignment
-
-**definition** an _rvalue_ is an expression that does not refer to an object; it only makes sense for it to be on the right side of an assignment
-
 ## Array Indexing Quirk
 
 ```c
@@ -219,11 +215,13 @@ enum, struct, union, typedef
 > - `schar_p` is a pointer to `signed char *`
 > - `fp` is an alias to `char(*)(void)`
 
+**definition** an _lvalue_ is an expression that refers to an object; it makes sense for it to be on the left (or right) side of an assignment
+
+**definition** an _rvalue_ is an expression that does not refer to an object; it only makes sense for it to be on the right side of an assignment
+
 ### type qualifiers
 
 **definition** _type qualifiers_ are keywords that modify the meaning of a type &mdash; GitHub Copilot
-
-#### `const`
 
 `const` is a type qualifier that specifies that an object's value cannot be modified after initialization. the compiler can place `const`-qualified objects in read-only memory, which makes modifying them _undefined behavior_
 
@@ -237,8 +235,6 @@ enum, struct, union, typedef
 > *p = 2; // undefined behavior
 > ```
 
-#### `volatile`
-
 `volatile` is a type qualifier that specifies that an object's value could be modified by something beyond the control of the program, such as a hardware device. this prevents the compiler from optimizing away reads and writes to the object
 
 > **example**
@@ -247,8 +243,6 @@ enum, struct, union, typedef
 > volatile int port;
 > port = port; // will generate instructions to read and write to `port`
 > ```
-
-#### `restrict`
 
 `restrict` is a type qualifier that specifies that a pointer is the only way to access the object it points to. this allows the compiler to perform additional [[optimization]]
 
@@ -284,6 +278,21 @@ tags are a special naming mechanism for `enum`, `struct`, and `union` types. the
 >   struct tnode *left;
 >   struct tnode *right;
 > } tnode;
+> ```
+
+### flexible array members
+
+[[c]] allows the last member of a `struct` to be a _flexible array member_ &mdash; an array of unspecified length. calling `sizeof` on a `struct` with a _flexible array member_ will return the size of the `struct` disregarding the flexible array member
+
+> **example**
+>
+> ```c
+> struct s {
+>   int x;
+>   int y[];
+> };
+>
+> struct s *p = malloc(sizeof(struct s) + 10 * sizeof(int));
 > ```
 
 ## arithmetic
@@ -499,6 +508,8 @@ returning no value from a non-`void` [[function]] (through `return;` or through 
 
 ## dynamic allocation
 
+### heap allocation
+
 `stdlib.h` defines various [[function]]s for dealing with dynamic memory allocation, including `malloc`, `calloc`, `realloc` and `free`. [[c]] memory allocation [[function]]s will ensure proper alignment so any [[type]] can be correctly stored in the allocated memory
 
 > **note**
@@ -535,7 +546,30 @@ returning no value from a non-`void` [[function]] (through `return;` or through 
 
 > **note** to mitigate issues with dangling pointers and double-frees, it is considered good practice to set pointers to `NULL` after freeing them
 
-#todo currently on pages 110
+### stack allocation
+
+`void *alloca(size_t size)` is a [[function]] that allocates memory on the stack. it is not part of the [[c]] standard, but is supported by many [[c]] compilers. `alloca` is declared in `alloca.h`. using `alloca` is risky:
+
+- `alloca` can very quickly cause a stack overflow if used incorrectly
+- calling `free` on a pointer returned by `alloca` is _undefined behavior_ in [[c]]
+
+_variable-length arrays_ (VLAs) are a [[c]] feature that allows for the declaration of [[array]]s with runtime-specified lengths in the current [[stack]] frame. calling `sizeof` on a VLA will be evaluated at runtime
+
+> **example** _VLA in block scope_
+>
+> ```c
+> void func(size_t size) {
+>   int vla[size];
+> }
+> ```
+
+> **example** _VLA in function prototype scope_ #todo
+>
+> ```c
+>
+> ```
+
+#todo currently on page 114
 
 ## reserved identifiers
 

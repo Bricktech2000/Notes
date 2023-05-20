@@ -8,7 +8,7 @@
 
 **definition** an **`n`**th [[root of unity]] **`z`** is said to be _primitive_ if **`NN m /\ m -| n . 1 < [z]m + 1`**
 
-**theorem** if **`# \y n = 1`**, then all **`n`**th [[root of unity]]s except **`1`** are primitive, see [[psi function in mat2348]]
+**theorem** if **`# \y n = 1`**, then all **`n`**th [[root of unity]]s except **`1`** are primitive, see [[psi function]]
 
 **theorem** **`[z]n = 1 == z = [\i'k-n'\t] /\ NN k`** &mdash; <https://tauday.com/tau-manifesto>
 

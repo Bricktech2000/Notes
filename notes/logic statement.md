@@ -10,8 +10,4 @@
 
 [[contradiction]]
 
-**theorem**
-
-given a [[list]] of [[logic statement]]s, for every statement to prove every other statement, the [[graph]] where nodes are statements and edges [[function#bijective function]]s between statements must be a [[graph#connected graph]]. if the minimum number of bijections is present, the [[graph]] forms a [[tree]].
-
-&mdash; [[mat2348 a discrete mathematics]]
+**theorem** given a [[list]] of [[logic statement]]s, for every statement to prove every other statement, the [[graph]] where nodes are statements and edges [[function#bijective function]]s between statements must be a [[graph#connected graph]]. if the minimum number of bijections is present, the [[graph]] forms a [[tree]]. &mdash; MAT2348 Discrete Mathetatics
