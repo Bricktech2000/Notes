@@ -1,6 +1,6 @@
 # Composite
 
-**see** [[math notation]], [[psi function in mat2348]]
+**see** [[math notation]], [[psi function]]
 
 **definition**
 

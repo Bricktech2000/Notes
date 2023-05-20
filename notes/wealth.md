@@ -8,6 +8,6 @@
 
 **see** [[fact]]
 
-the average person in a rich country (such as Canada, the United States or Germany) has an income more than 10 times greater than a person in a poor country &mdash; [[eco1102 h introduction to macroeconomics]]
+the average person in a rich country (such as Canada, the United States or Germany) has an income more than 10 times greater than a person in a poor country &mdash; ECO1102 Introduction to Macroeconomics
 
 being [[wealth]]y does not significantly improve one's quality of life &mdash; seemingly a consensus among the wealthy

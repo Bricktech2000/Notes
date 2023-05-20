@@ -18,8 +18,6 @@ loosely speaking, a [[field]] is a [[set]] of numbers with certain properties an
 
 [[field]]s are use as [[scalar]]s in [[linear algebra]]
 
-> **note** in [[mat1341 d introduction to linear algebra]], the [[field]] of [[real]]s was used for all computations. the [[field]] of [[complex]] numbers could've been used instead
-
 ## [[axiom]]s
 
 &mdash; Encode x Solana Bootcamp

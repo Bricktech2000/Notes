@@ -1,6 +1,6 @@
 # Fundamental Theorem of Arithmetic
 
-**see** [[psi function in mat2348]], [[reduce function]]
+**see** [[psi function]], [[reduce function]]
 
 > **theorem** every [[natural]] greater than **`0`** can be represented as the product of a unique [[multiset]] of [[prime]]s &mdash; me
 

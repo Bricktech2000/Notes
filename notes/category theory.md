@@ -67,9 +67,9 @@ the _curry-howard-lambek isomorphism_ states that [[logic]], [[type theory]] and
 
 [[category#coproduct]]s in the [[category]] **`RR, -|`** are the maximum of two numbers &mdash; Terramorpha
 
-[[category#product]]s in the [[category]] **`NN, "divides"`** are the GCD of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
+[[category#product]]s in the [[category]] **`NN, "divides"`** are the GCD of two numbers, see [[psi function]] &mdash; Terramorpha
 
-[[category#coproduct]]s in the [[category]] **`NN, "divides"`** are the LCM of two numbers, see [[psi function in mat2348]] &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] **`NN, "divides"`** are the LCM of two numbers, see [[psi function]] &mdash; Terramorpha
 
 [[category#product]]s in the [[category]] **`{{ }}, a b -> /\ a -| b`** are the intersection of two sets &mdash; Terramorpha
 

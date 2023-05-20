@@ -10,6 +10,6 @@
 
 **`OO = +EE`**, see [[even number]]
 
-**`OO = n -> (0 = \y n 2)`**, see [[psi function in mat2348]]
+**`OO = n -> (0 = \y n 2)`**, see [[psi function]]
 
 **`OO < ZZ`**

@@ -52,7 +52,7 @@ the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the 
 
 **`||n||^p = --p[\y n p]`**, where
 
-- **`p[\y n p]`** is the highest power of **`p`** that divides **`n`**, see [[psi function in mat2348]]
+- **`p[\y n p]`** is the highest power of **`p`** that divides **`n`**, see [[psi function]]
 - **`||n||^p`** is the [[p-adic#absolute value]] of **`n`**
 
 > **example** **`||1000||^10 = -1000`**

@@ -43,7 +43,7 @@ Java [[scope]]s are defined using `{ /*...*/ }`
 
 **see** [[polymorphism]], [[java is a terrible language]]
 
-overriding the `Object.equals` in Java must follow the pattern below &mdash; [[iti1121 c introductionto computing ii]]
+overriding `Object.equals` in [[java]] must follow the pattern below &mdash; ITI1121 Introduction to Computing II
 
 ```java
 public class Account {

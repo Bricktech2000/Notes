@@ -16,8 +16,7 @@
 - "[[category theory]] for the working hacker" &mdash; <https://www.youtube.com/watch?v=gui_SE8rJUM>
 - "learn how to study smart" by Marty Lobdell &mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0>
 - [[type system]]s in [[functional programming]] &mdash; <https://www.youtube.com/watch?v=hy1wjkcIBCU>
-- below, I stumbled upon video 6. kept watching until half way through video 10, at which point the prof had changed and course had turned into mindless rambling
-- MIT intro to [[statistics]] video series &mdash; <https://www.youtube.com/watch?v=OgO1gpXSUzU&list=PLUl4u3cNGP619EG1wp0kT-7rDE_Az5TNd&index=6>
+- MIT intro to [[statistics]] video series &mdash; <https://www.youtube.com/watch?v=OgO1gpXSUzU&list=PLUl4u3cNGP619EG1wp0kT-7rDE_Az5TNd&index=6> (from video 6 to halfway through video 10)
 - introduction to [[spline]]s &mdash; <https://www.youtube.com/watch?v=jvPPXbo87ds>
 - parody of the [[ieee 754]] standard &mdash; <http://tom7.org/nand/nand.pdf>
 - [[linear algebra]] summarized in **`4`** pages &mdash; <https://courses.engr.illinois.edu/ece498rc3/fa2016/material/linearAlgebra_4pgs.pdf>
