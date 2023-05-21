@@ -18,7 +18,7 @@ time [[computational complexity]]:
 
 **definition** the _load factor_ of a [[hash table]] is the ratio of the number of elements in the [[hash table]] to the number of slots in the [[hash table]]
 
-**definition** the _maximum load factor_ **`\alpha`** of a [[hash table]] load factor allowed before the [[hash table]] is resized
+**definition** the _maximum load factor_ **`aa`** of a [[hash table]] load factor allowed before the [[hash table]] is resized
 
 ## Operations (Separate Chaining)
 

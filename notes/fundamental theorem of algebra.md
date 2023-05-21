@@ -22,6 +22,6 @@ the same **cannot** be said for [[real]]s
 
 **examples**
 
-> **example** **`x2 : 1 = x . \i | x : \i`**
+> **example** **`x2 : 1 = x . ii | x : ii`**
 
-> **example** **`x2 : x : 1 = 0 == x = \i \3/ . 1 -- 2`**
+> **example** **`x2 : x : 1 = 0 == x = ii \3/ . 1 -- 2`**

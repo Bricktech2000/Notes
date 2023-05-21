@@ -45,13 +45,13 @@ _triangle inequality_ **`d x z -| d x y : d y z`**
 
 **see** [[sequence]], [[sequence#convergence]]
 
-**definition** a [[sequence]] **`x`** in a [[metric space]] converges to a point **`a`** if for every **`\e {|-/\+} 0`** there exists an **`N`** such that **`d x^n a -| \e < n |- N`**
+**definition** a [[sequence]] **`x`** in a [[metric space]] converges to a point **`a`** if for every **`ee {|-/\+} 0`** there exists an **`N`** such that **`d x^n a -| ee < n |- N`**
 
 ## Cauchy Sequence
 
 **see** [[sequence]], [[sequence#convergence]]
 
-**definition** a [[sequence]] **`x`** in a [[metric space]] is called _Cauchy_ if for all **`\e {|-/\+} 0`** there exists an **`N`** such that **`d x^m x^n -| \e < n |- N /\ m |- N`**
+**definition** a [[sequence]] **`x`** in a [[metric space]] is called _Cauchy_ if for all **`ee {|-/\+} 0`** there exists an **`N`** such that **`d x^m x^n -| ee < n |- N /\ m |- N`**
 
 **theorem** by the _triangle inequality_, any [[metric space#convergent sequence]] is _Cauchy_.
 
@@ -61,7 +61,7 @@ _triangle inequality_ **`d x z -| d x y : d y z`**
 
 > **example** the [[real]] [[line]] with Euclidean distance is complete
 
-> **example** the [[rational]]s with [[real#absolute value]] is not complete. for example, the [[sequence]] **`(6-1, 62-10, 628-100, .s)`** approaching **`\t`** is Cauchy with respect to the [[real#absolute value]] but does not converge to any [[rational]] number
+> **example** the [[rational]]s with [[real#absolute value]] is not complete. for example, the [[sequence]] **`(6-1, 62-10, 628-100, .s)`** approaching **`tt`** is Cauchy with respect to the [[real#absolute value]] but does not converge to any [[rational]] number
 
 > **example** the [[rational]]s with [[p-adic#abolute value]] is not complete. for example, the [[sequence]] **`([5]0, [5]0 : [5]1, [5]0 : [5]1 : [5]2, ...)`** is Cauchy with respect to the **`5`**-adic metric but does not converge to any [[rational]] number
 

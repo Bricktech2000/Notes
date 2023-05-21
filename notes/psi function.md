@@ -4,27 +4,27 @@
 
 **definition**
 
-**`\y`** is a [[function]] that takes in a [[natural]] number **`n`** and returns the unique [[multiset]] of [[prime]] [[factor]]s of **`n`**
+**`yy`** is a [[function]] that takes in a [[natural]] number **`n`** and returns the unique [[multiset]] of [[prime]] [[factor]]s of **`n`**
 
 **properties**
 
-**`| \y n = n`**
+**`| yy n = n`**
 
-**`\y ab = \y a : \y b`**
+**`yy ab = yy a : yy b`**
 
-**`a`** _divides_ **`b`** if and only if **`\y a -| \y b`**
+**`a`** _divides_ **`b`** if and only if **`yy a -| yy b`**
 
-**`n`** is a _square [[number]]_ if and only if **`EE \y n`**
+**`n`** is a _square [[number]]_ if and only if **`EE yy n`**
 
-**`n`** is a _[[prime]] [[number]]_ if and only if **`# \y n = 1`**, or **`\y n = ((n,))`**
+**`n`** is a _[[prime]] [[number]]_ if and only if **`# yy n = 1`**, or **`yy n = ((n,))`**
 
-**`m`** and **`n`** are _co[[prime]]_ if and only if **`\y m __ \y n = (( ))`**
+**`m`** and **`n`** are _co[[prime]]_ if and only if **`yy m __ yy n = (( ))`**
 
-**`n = 1`** if and only if **`# \y n = 0`**, or **`\y n = (( ))`**
+**`n = 1`** if and only if **`# yy n = 0`**, or **`yy n = (( ))`**
 
-the _greatest common divisor_ of **`a`** and **`b`** is **`| (\y a __ \y b)`**
+the _greatest common divisor_ of **`a`** and **`b`** is **`| (yy a __ yy b)`**
 
-the _least common multiple_ of **`a`** and **`b`** is **`| (\y a ^^ \y b)`**
+the _least common multiple_ of **`a`** and **`b`** is **`| (yy a ^^ yy b)`**
 
 by the [[fundamental theorem of arithmetic]], the [[psi function]] is a [[function#bijective function]]
 

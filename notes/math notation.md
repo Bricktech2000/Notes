@@ -13,7 +13,7 @@ this [[math notation]] obviously cannot be used to communicate ideas to people w
 - some [[operator]]s are identical but have different [[infix notation#precedence]] as "more brackets means more explicit, but less brackets means less complex and less confusing"
 - [[operator]]s return what they should actually return to match their inverse. for example, **`\ a /`** returns both positive and negative square roots
 - superscripts are modifiers (subscripts with special meanings). this distinction is extremely useful when working with [[forward propagation]] and [[backpropagation]] in [[neural network]]s, for example
-- [[derivative]]s are not to be written as **`y_*`**, but rather as their complete form **`\d y -- \d x`**. this makes [[calculus notation]] way more intuitive
+- [[derivative]]s are not to be written as **`y_*`**, but rather as their complete form **`dd y -- dd x`**. this makes [[calculus notation]] way more intuitive
 - all indices start at **`0`**, as they always should have
 - [[rank polymorphism]] is supported over all [[operator]]s
 
@@ -37,7 +37,7 @@ let:
 - **`A, B`** be any mathematical objects with rank greater than **`1`**
 - **`n, i`** be [[natural]] numbers
 - **`b`** be a [[boolean]]
-- **`\w`** be any [[number]]
+- **`ww`** be any [[number]]
 - **`\*`** be any [[operator]]
 
 ### numbers
@@ -54,11 +54,11 @@ let:
 
 ### characters
 
-[[character]]s are to be written surrounded by `'`. for example, the [[character]] `&` is to be written **`''\&''`**
+[[character]]s are to be written surrounded by `'`. for example, the [[character]] `&` is to be written **`''&''`**
 
 ### variables
 
-[[variable]]s can be any latin letter (**`a`**), greek letter (**`\a`**), calligraphic letter (**`aa`**), or double-struck letter (**`AA`**). constructs such as $\hat y$ and $y'$ and $\vec y$ are to be written using subscripts; by convention, **`y_*`** is used for both $\hat y$ and $y'$, and **`y`** is used for $\vec y$
+[[variable]]s can be any lower-case latin letter (**`a`**), upper-case latin letter (**`A`**), calligraphic letter (**`BB`**), lower-case greek letter (**`gg`**), upper-case greek letter (**`GG`**). constructs such as $\hat y$ and $y'$ and $\vec y$ are to be written using subscripts; by convention, **`y_*`** is used for both $\hat y$ and $y'$, and **`y`** is used for $\vec y$
 
 ### operators and constants
 
@@ -80,8 +80,8 @@ let:
 | **`a __ b`** <br /> **`a /\ b`**                             | the minimum of **`a`** and **`b`**                           | identical to [[boolean algebra#conjunction]]                 |
 | **`a ^^ b`** <br /> **`a \/ b`**                             | the maximum of **`a`** and **`b`**                           | identical to [[boolean algebra#disjunction]]                 |
 | **`f {x -> a}`**                                             | the [[limit]] of **`f`** as **`x`** approaches **`a`**       |                                                              |
-| **`\d y -- \d x`**                                           | the [[derivative]] of **`y`** with respect to **`x`**        | **`\d`** should be used instead of **`d`**                   |
-| **`$ y \| \d x`**                                            | the [[antiderivative]] of **`y`** with respect to **`x`**    | **`\d`** should be used instead of **`d`**                   |
+| **`dd y -- dd x`**                                           | the [[derivative]] of **`y`** with respect to **`x`**        | **`dd`** should be used instead of **`d`**                   |
+| **`$ y \| dd x`**                                            | the [[antiderivative]] of **`y`** with respect to **`x`**    | **`dd`** should be used instead of **`d`**                   |
 | **`x_"sub"`**                                                | the [[variable]] **`x`** with a subscript **`_"sub"`**       |                                                              |
 | **`A^i`** <br /> **`B^i`** <br /> **`V^n`** <br /> **`P^b`** | **`A i`** <br /> **`B i`** <br /> **`V n`** <br /> **`P b`** | to be used for indices                                       |
 | **`M^i,j`** <br /> **`G^a,b`**                               | **`M i j`** <br /> **`G a b`**                               | to be used for indices                                       |
@@ -91,13 +91,13 @@ let:
 | **`@@`**                                                     | _infinity_                                                   |                                                              |
 | **`__`**                                                     | [[boolean]] _false_                                          |                                                              |
 | **`^^`**                                                     | [[boolean]] _true_                                           |                                                              |
-| **`\t`**                                                     | the [[circle]] constant                                      | see [[tau]]                                                  |
-| **`\e`**                                                     | [[euler's constant]]                                         |                                                              |
-| **`\i`**                                                     | **`\.1/`**                                                   | see [[imaginary]]. using **`i`** is discouraged              |
-| **`\r`**                                                     | **`f a b -> f b a`**                                         | see [[matrix#transpose]], [[combinatory logic#c combinator]] |
-| **`\P`**                                                     | the [[pi function]]                                          | using **`"fact"`** is discouraged                            |
+| **`tt`**                                                     | the [[circle]] constant                                      | see [[tau]]                                                  |
+| **`ee`**                                                     | [[euler's constant]]                                         |                                                              |
+| **`ii`**                                                     | **`\.1/`**                                                   | see [[imaginary]]. using **`i`** is discouraged              |
+| **`rr`**                                                     | **`f a b -> f b a`**                                         | see [[matrix#transpose]], [[combinatory logic#c combinator]] |
+| **`PP`**                                                     | the [[pi function]]                                          | using **`"fact"`** is discouraged                            |
 | **`#`**                                                      | the number of "links" in a [[function]]                      | #todo define rigorously                                      |
-| **`\y`**                                                     | the [[multiset]] of [[prime]] factors of a [[natural]]       | see [[psi function]]                                         |
+| **`yy`**                                                     | the [[multiset]] of [[prime]] factors of a [[natural]]       | see [[psi function]]                                         |
 
 ### shorthands
 
@@ -108,10 +108,10 @@ let:
 | **`\|A`** <br /> **`'A`**   | **`A`** reduced with **`\|`** <br /> **`A`** reduced with **`'`**  | see [[reduce function]]                                     |
 | **`--a`** <br /> **`-a`**   | **`1 -- a`** <br /> **`1-a`**                                      | multiplicative inverse                                      |
 | **`ax`**                    | **`a'x`**                                                          |                                                             |
-| **`[a]\w`**                 | **`\e[a]`**                                                        | [[exponent]]ial                                             |
-| **`x\w`**                   | **`[x]\w`**                                                        |                                                             |
+| **`[a]ww`**                 | **`ee[a]`**                                                        | [[exponent]]ial                                             |
+| **`xww`**                   | **`[x]ww`**                                                        |                                                             |
 | **`\ a /`**                 | **`\ a / 2`**                                                      | square root                                                 |
-| **`/a\`**                   | **`/a\ \e`**                                                       | natural [[logarithm]]                                       |
+| **`/a\`**                   | **`/a\ ee`**                                                       | natural [[logarithm]]                                       |
 | **`->E`**                   | **`* ->  E`**                                                      | [[combinatory logic#k combinator]]                          |
 | **`x y -> E`**              | **`x -> y -> E`**                                                  |                                                             |
 | **`f E`**                   | **`f <- E`**                                                       | common, longhand discouraged                                |
@@ -146,7 +146,7 @@ _in order of high to low precedence_
 | **`x^i`**                               |               |
 | **`\./ [.] /.\`**                       | left          |
 | **`' -`**                               | left          |
-| **`\d "sin" # \* <-`**                  | left          |
+| **`dd "sin" # \* <-`**                  | left          |
 | **`: .`**                               | left          |
 | **`\| --`**                             | left          |
 | **`$ { } ... -> "mod"`**                | right         |
@@ -176,18 +176,18 @@ _in order of high to low precedence_
 
 | description                                 | in this [[math notation]]                  | in [[conventional math notation]]                                                                        |
 | ------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
-| the [[quadratic formula]]                   | **`x = .b : \ b2.4ac / -- 2a`**            | $\displaystyle x_{1, 2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$                                            |
-| definition of [[complex]] numbers           | **`CC x == x = a : b\i /\ RR a /\ RR b`**  | $\displaystyle \mathbb C = \{a + bi : a, b \in \mathbb R\}$                                              |
-| the [[gaussian function]]                   | **`G^\s p = -- \s \\t/ -- [:p2 -- 2\s2]`** | $\displaystyle G(x, y, \dots) = \frac{1}{\sqrt{2 \pi\sigma^2}} e^{-\frac{x^2 + y^2 + \dots}{2\sigma^2}}$ |
+| the [[quadratic formula]]                   | **`x = .b : \b2.4ac/ -- 2a`**              | $\displaystyle x_{1, 2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$                                            |
+| definition of [[complex]] numbers           | **`CC x == x = a : bii /\ RR a /\ RR b`**  | $\displaystyle \mathbb C = \{a + bi : a, b \in \mathbb R\}$                                              |
+| the [[gaussian function]]                   | **`G^ss p = -- ss \tt/ -- [:p2 -- 2ss2]`** | $\displaystyle G(x, y, \dots) = \frac{1}{\sqrt{2 \pi\sigma^2}} e^{-\frac{x^2 + y^2 + \dots}{2\sigma^2}}$ |
 | [[limit]] form of a [[derivative]]          | **`f x . f a -- x . a {x -> a}`**          | $\displaystyle \lim_{h \rightarrow 0} \frac{f(x + h) - f(x)}{h}$                                         |
 | definition of factorials                    | **`"fact" n = 1 \| ... n`**                | $\displaystyle n! = \prod_{i = 1}^n i$                                                                   |
-| the resonant [[frequency]] of an LC circuit | **`f = -- \t \"LC"/`**                     | $\displaystyle f = \frac{1}{2 \pi \sqrt{LC}}$                                                            |
+| the resonant [[frequency]] of an LC circuit | **`f = -- tt \"LC"/`**                     | $\displaystyle f = \frac{1}{2 \pi \sqrt{LC}}$                                                            |
 | definition of the [[dot product]]           | **`:xy`**                                  | $\displaystyle x \cdot y  = \sum_{i=1}^n x_i y_i$                                                        |
 | definition of the [[outer product]]         | **`x * \| y *`**                           | $\displaystyle (x \otimes y)_{i, j}  = x_i \times y_j$                                                   |
 | definition of the [[cartesian product]]     | **`__ (X, Y) *`**                          | $\displaystyle X \times Y = \lbrace (x, y) \mid x \in X \text{ and } y \in Y \rbrace$                    |
 | definition of [[vector in rn#magnitude]]    | **`\|\|v\|\| = \:v2/`**                    | $\displaystyle \vert v \vert = \sqrt{x^2 + y^2 + \dots}$ with $v = (x, y, \dots)$                        |
 | definition of [[set]] difference            | **`A /\ +B`**                              | $\displaystyle A \setminus B = \{x \in A : x \notin B\}$                                                 |
-| the [[p-adic#absolute value]]               | **`\|\|n\|\|^p = --p[\y n p]`**            | not really doable in a concise way without using plain English                                           |
+| the [[p-adic#absolute value]]               | **`\|\|n\|\|^p = --p[yy n p]`**            | not really doable in a concise way without using plain English                                           |
 
 definition of the [[boolean algebra#implication]] / [[set#subset]] / [[set#superset]] / [[quantifier#universal quantifier]] in this [[math notation]]: **`a -| b == +a \/ b`** and **`a |- b == a \/ +b`**
 
@@ -197,6 +197,6 @@ the negation of a [[boolean algebra#implication]] in this [[math notation]]: **`
 
 in [[conventional math notation]]: $\lnot (B \to C) = B \land \lnot C$ or $(a \in B \to a \in C) \iff a \notin B \backslash C$ or $B \subset C \iff \forall a \in C, a \notin B$
 
-definition of the **`n`**th column of a [[matrix]]: **`\r M n`** or **`M * n`**
+definition of the **`n`**th column of a [[matrix]]: **`rr M n`** or **`M * n`**
 
 the closed interval from **`a`** to **`b`**: **`a -| * -| b`**

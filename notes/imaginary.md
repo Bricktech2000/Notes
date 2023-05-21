@@ -4,7 +4,7 @@ _the [[set]] of [[imaginary]] numbers_
 
 **see** [[math notation]]
 
-**definition** **`(CC /\ +RR) x == x = b\i /\ RR b`**
+**definition** **`(CC /\ +RR) x == x = bii /\ RR b`**
 
 **properties**
 

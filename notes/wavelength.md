@@ -1,3 +1,3 @@
 # Wavelength
 
-**notation** **`\l`**
+**notation** **`ll`**

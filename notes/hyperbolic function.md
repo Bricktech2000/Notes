@@ -4,9 +4,9 @@
 
 **definition**
 
-let **`(x, y)`** be a point on the unit [[hyperbola]] and let **`\a`** be the [[angle]] from the positive x-axis counterclockwise to that point. then,
+let **`(x, y)`** be a point on the unit [[hyperbola]] and let **`aa`** be the [[angle]] from the positive x-axis counterclockwise to that point. then,
 
-**`x = "cosh" \a /\ y = "sinh" \a`**, and **`"tanh" \a = "sinh" \a -- "cosh" \a`**
+**`x = "cosh" aa /\ y = "sinh" aa`**, and **`"tanh" aa = "sinh" aa -- "cosh" aa`**
 
 **examples**
 

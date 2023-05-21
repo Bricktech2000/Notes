@@ -12,7 +12,7 @@ this [[improved expression evaluation]] proposes that any algebraic manipulation
 
 ## applications
 
-- conventionally, **`x = 0 < "atan" y-x = @`**. however, by substituting **`y-x`** in the definition of the **`"atan"`** [[function]] directly and by using [[limit rules]] to simplify it, the right answer **`-4\t`** is obtained.
+- conventionally, **`x = 0 < "atan" y-x = @`**. however, by substituting **`y-x`** in the definition of the **`"atan"`** [[function]] directly and by using [[limit rules]] to simplify it, the right answer **`-4tt`** is obtained.
 
 - conventionally, the graph of a [[function]] such as **`f x = -- -- x . 2`** has a hole at **`x = 2`**. however, by simplifying the [[function]] using [[limit rules]] before graphing it, the function **`f x = x . 2`** is obtained; the hole is avoided.
 
@@ -113,7 +113,7 @@ in order to avoid breaking **`0[0] = 1`** (see Wikipedia article), we must defin
 
 ### attempt with [[integral]]s and [[logarithm]]s
 
-using the [[logarithm]] [[antiderivative]] rule, **`$ 1 -- x | \d x = /||x||\ : c x`**. then, using the power [[antiderivative]] rule, **`$ 1 -- x | \d x = $ x[.1] | \d x = x[\q]-q : c`**. with **`c = .1 -- \q`**, we get **`/x\ = x[\q] . 1 -- \q`**
+using the [[logarithm]] [[antiderivative]] rule, **`$ 1 -- x | dd x = /||x||\ : c x`**. then, using the power [[antiderivative]] rule, **`$ 1 -- x | dd x = $ x[.1] | dd x = x[qq]-q : c`**. with **`c = .1 -- qq`**, we get **`/x\ = x[qq] . 1 -- qq`**
 
 ### exponents and square roots
 
@@ -125,11 +125,11 @@ using the property **`[x]2 = [.x]2 > RR x`**, just as we could use the property 
 
 breakthrough (I think): in the case of division by zero, it's not about the zeros being the same; it's about not using the _information-tampering_ property that any [[real]] multiplied by zero returns zero. the same is true with the exponent-root pair.
 
-we define **`\q -> 0`**
+we define **`qq -> 0`**
 
-**`[3]2 -> 9`** and **`[.3]2 -> 9`** (which loses information) just as **`\q x -> 0`** (which loses information)
+**`[3]2 -> 9`** and **`[.3]2 -> 9`** (which loses information) just as **`qq x -> 0`** (which loses information)
 
-**`\[3]2/ = 3`** (through cancellation) just as **`\q x -- \q = x`** (through cancellation)
+**`\[3]2/ = 3`** (through cancellation) just as **`qq x -- qq = x`** (through cancellation)
 
 **`\9/ = @`** (can be thought of as **`{{3, .3}}`**) just as **`0 -- 0 = @`** (can be thought of as "any [[real]] number")
 
@@ -141,19 +141,19 @@ I could not break this [[improved expression evaluation]]. it would be very hard
 
 might be incomplete or erroneous #think
 
-**`\q -> 0`**
+**`qq -> 0`**
 
-**`0x = 0 /\ \q x + \q`**
+**`0x = 0 /\ qq x + qq`**
 
-**`\q -- \q = 1`** but **`0 -- 0 -> @ /\ \q - 0 -> @ /\ 0 - \q -> 0`**
+**`qq -- qq = 1`** but **`0 -- 0 -> @ /\ qq - 0 -> @ /\ 0 - qq -> 0`**
 
-**`-- -- \q = \q`** but **`-- -- 0 -> @`**
+**`-- -- qq = qq`** but **`-- -- 0 -> @`**
 
-**`-- 0 -> @ /\ --\q -> @`**
+**`-- 0 -> @ /\ --qq -> @`**
 
-**`x[\q] = 1`**
+**`x[qq] = 1`**
 
-**`\q[0] -> 1 /\ \q[0] -> @ /\ 0[0] -> @ /\ \q[\q] -> @`**
+**`qq[0] -> 1 /\ qq[0] -> @ /\ 0[0] -> @ /\ qq[qq] -> @`**
 
 **`/x2\ = x`**
 
@@ -163,9 +163,9 @@ might be incomplete or erroneous #think
 
 **`(>< [.x]2 -> [x]2) /\ (>< "square of x" -> [x]2)`**
 
-**`x[\q] = 1`**
+**`x[qq] = 1`**
 
-**`$ \d y = \d $ y = y`**
+**`$ dd y = dd $ y = y`**
 
 **`$ f -> @`**
 

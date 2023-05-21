@@ -30,7 +30,7 @@
 >
 > - 6 &rarr; 7
 >
->   **`"dim" nn A : "rank" A = "number of columns in" A`** (see [[matrix]]) &rarr; as **`"dim" nn A = 0`**, **`"rank" A = "number of columns in" A = n`**
+>   **`"dim" NN A : "rank" A = "number of columns in" A`** (see [[matrix]]) &rarr; as **`"dim" NN A = 0`**, **`"rank" A = "number of columns in" A = n`**
 >
 > - 7 &rarr; 1
 >

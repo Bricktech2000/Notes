@@ -54,11 +54,11 @@ let a [[spline]] **`S`**
 
 **definition** _[[position]] continuity_ **`C^0 == G^0`** requires that **`t -> S t`** is a [[function#continuous function]]
 
-**definition** _[[velocity]] continuity_ **`C^1 < C^0`** requires that **`t -> \d S t -- \d t`** is a [[function#continuous function]]
+**definition** _[[velocity]] continuity_ **`C^1 < C^0`** requires that **`t -> dd S t -- dd t`** is a [[function#continuous function]]
 
-**definition** _[[acceleration]] continuity_ **`C^2 < C^1`** requires that **`t -> \d (\d S t -- \d t) -- \d t`** is a [[function#continuous function]]
+**definition** _[[acceleration]] continuity_ **`C^2 < C^1`** requires that **`t -> dd (dd S t -- dd t) -- dd t`** is a [[function#continuous function]]
 
-**definition** _[[jerk]] continuity_ **`C^3 < C^2`** requires that **`t -> \d (\d (\d S t -- \d t) -- \d t) -- \d t`** is a [[function#continuous function]]
+**definition** _[[jerk]] continuity_ **`C^3 < C^2`** requires that **`t -> dd (dd (dd S t -- dd t) -- dd t) -- dd t`** is a [[function#continuous function]]
 
 **applications**
 
@@ -72,11 +72,11 @@ let a [[spline]] **`S`**
 
 **definition** _[[position]] continuity_ **`G^0 == C^0`** requires that **`t -> {*--||||} (S t)`** is a [[function#continuous function]]
 
-**definition** _tangent continuity_ **`G^1 < G^0`** requires that **`t -> {*--||||} (\d S t -- \d t)`** is a [[function#continuous function]]
+**definition** _tangent continuity_ **`G^1 < G^0`** requires that **`t -> {*--||||} (dd S t -- dd t)`** is a [[function#continuous function]]
 
-**definition** _curvature continuity_ **`G^2 < G^1`** requires that **`t -> {*--||||} (\d (\d S t -- \d t) -- \d t)`** is a [[function#continuous function]]
+**definition** _curvature continuity_ **`G^2 < G^1`** requires that **`t -> {*--||||} (dd (dd S t -- dd t) -- dd t)`** is a [[function#continuous function]]
 
-**definition** _torsion continuity_ **`G^3 < G^2`** requires that **`t -> {*--||||} (\d (\d (\d S t -- \d t) -- \d t) -- \d t)`** is a [[function#continuous function]]
+**definition** _torsion continuity_ **`G^3 < G^2`** requires that **`t -> {*--||||} (dd (dd (dd S t -- dd t) -- dd t) -- dd t)`** is a [[function#continuous function]]
 
 **applications**
 

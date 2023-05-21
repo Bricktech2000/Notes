@@ -4,9 +4,9 @@
 
 **definition**
 
-**`\s z = -- 1 : [.z]`**, where
+**`ss z = -- 1 : [.z]`**, where
 
-- **`\s z`** is the [[sigmoid function]] at **`z`**
+- **`ss z`** is the [[sigmoid function]] at **`z`**
 
 **representation**
 
@@ -16,6 +16,6 @@
 
 **see** [[derivative]]
 
-**`\d \s z -- \d z = --[1:[.z]]2 | [.z] = (1 -- 1 : [.z]) | ([.z] -- 1 : [.z]) = \s z | 1 . \s z`**
+**`dd ss z -- dd z = --[1:[.z]]2 | [.z] = (1 -- 1 : [.z]) | ([.z] -- 1 : [.z]) = ss z | 1 . ss z`**
 
 &mdash; <https://youtu.be/kbGu60QBx2o>

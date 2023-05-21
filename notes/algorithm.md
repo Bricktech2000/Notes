@@ -38,3 +38,5 @@
 [[bezier curve#decasteljau's algorithm]]
 
 [[binary exponentiation]]
+
+[[fast inverse square root]]

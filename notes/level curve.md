@@ -4,7 +4,7 @@
 
 let **`p`** be a point and **`f`** a [[function]]. then, the [[normal vector]] **`n`** of a [[plane]] tangent to the [[level curve]] of **`f`** at **`p`** is defined as
 
-**`n = \d f p -- \d p`**, see [[gradient]]
+**`n = dd f p -- dd p`**, see [[gradient]]
 
 and said [[plane]] **`T`** tangent to the [[level curve]] at **`p`** is defined as
 

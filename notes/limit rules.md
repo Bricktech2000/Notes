@@ -38,7 +38,7 @@ let **`c`** be a constant and ensure **`f x {x -> a}`** and **`g x {x -> a}`** a
 
 ## infinity rules
 
-**`[x]r {x -> @@} = 0 > r {-|/\+}\ 0`**
+**`[x]r {x -> @@} = 0 > r {-|/\+} 0`**
 
 **`--x {x -> 0} = {@@ \/ .@@}`** #think [[improved expression evaluation]]
 
@@ -46,7 +46,7 @@ let **`c`** be a constant and ensure **`f x {x -> a}`** and **`g x {x -> a}`** a
 
 **theorem** _Squeeze Theorem_
 
-let **`f x -| g x -| h\ x`** for **`x`** near a value **`a`**
+let **`f x -| g x -| h x`** for **`x`** near a value **`a`**
 
 if **`f x {x -> a} = h x {x -> a} = L`**, then **`g x {x -> a} = L`**
 
@@ -56,7 +56,7 @@ _used to compute [[limit]]s in [[limit#indeterminate form]]s using their [[deriv
 
 **theorem**
 
-let **`f x`** and **`g x`** be differentiable [[function]]s on an open interval **`I /\ +a`**. if **`\d g x -- \d x + 0 > (I /\ +a) x`** (restriction not necessary, see [[improved expression evaluation]]) and **`f x {x -> a} = g x {x -> a} = 0`** and **`\d f x -- \d g x {x -> a}`** is a [[limit]] that exists, then **`f x -- g x {x -> a} = \d f x -- \d g x {x -> a}`** &mdash; Wikipedia
+let **`f x`** and **`g x`** be differentiable [[function]]s on an open interval **`I /\ +a`**. if **`dd g x -- dd x + 0 > (I /\ +a) x`** (restriction not necessary, see [[improved expression evaluation]]) and **`f x {x -> a} = g x {x -> a} = 0`** and **`dd f x -- dd g x {x -> a}`** is a [[limit]] that exists, then **`f x -- g x {x -> a} = dd f x -- dd g x {x -> a}`** &mdash; Wikipedia
 
 intuitive explanation &mdash; <https://youtu.be/kfF40MiS7zA?t=734>
 

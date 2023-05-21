@@ -10,12 +10,12 @@ _a mathematical description of the [[probability]]es of events_
 
 &mdash; <https://en.wikipedia.org/wiki/Normal_distribution>
 
-**definition** the [[probability distribution#probability density function]] of a normal distribution is **`x -> G^\s (x . \m)`**, where
+**definition** the [[probability distribution#probability density function]] of a normal distribution is **`x -> G^ss (x . mm)`**, where
 
 - **`x`** is an _example_ in a [[sample]] **`X`**
-- **`\m`** is the [[mean]] of **`X`**
-- **`\s`** is the [[standard deviation]] of **`X`**
-- **`G^\s`** is the [[gaussian function]] with [[standard deviation]] **`\s`** and [[mean]] **`0`**
+- **`mm`** is the [[mean]] of **`X`**
+- **`ss`** is the [[standard deviation]] of **`X`**
+- **`G^ss`** is the [[gaussian function]] with [[standard deviation]] **`ss`** and [[mean]] **`0`**
 
 **representation**
 
@@ -27,17 +27,17 @@ _a mathematical description of the [[probability]]es of events_
 
 as a rule of thumb, in a [[probability distribution#normal distribution]],
 
-- **`68-100`** of the values are within **`1 \s`** of the [[mean]]
-- **`95-100`** of the values are within **`2 \s`** of the [[mean]]
-- **`99 7-1000`** of the values are within **`3 \s`** of the [[mean]]
+- **`68-100`** of the values are within **`1 ss`** of the [[mean]]
+- **`95-100`** of the values are within **`2 ss`** of the [[mean]]
+- **`99 7-1000`** of the values are within **`3 ss`** of the [[mean]]
 
 > **proof**
 >
-> let **`G^\s`** be the [[gaussian function]] with [[standard deviation]] **`\s`** and [[mean]] **`0`**. then,
+> let **`G^ss`** be the [[gaussian function]] with [[standard deviation]] **`ss`** and [[mean]] **`0`**. then,
 >
-> - **`$ G^1 x | \d x {1 . .1}`** is approximately **`68-100`**
-> - **`$ G^1 x | \d x {2 . .2}`** is approximately **`95-100`**
-> - **`$ G^1 x | \d x {3 . .3}`** is approximately **`99 7-1000`**
+> - **`$ G^1 x | dd x {1 . .1}`** is approximately **`68-100`**
+> - **`$ G^1 x | dd x {2 . .2}`** is approximately **`95-100`**
+> - **`$ G^1 x | dd x {3 . .3}`** is approximately **`99 7-1000`**
 
 [[standard normal table]]
 
@@ -47,7 +47,7 @@ as a rule of thumb, in a [[probability distribution#normal distribution]],
 
 - **`G^1`** is the [[gaussian function]] with [[standard deviation]] **`1`** and [[mean]] **`0`**
 
-**definition** the standard normal distribution is the normal distribution with **`\m = 0`** and **`\s = 1`**
+**definition** the standard normal distribution is the normal distribution with **`mm = 0`** and **`ss = 1`**
 
 ## Continuous Uniform Distribution
 
@@ -89,7 +89,7 @@ probability mass functions are used to describe discrete random variables
 
 **see** [[integral]]
 
-**definition** a _probability density function_ is a [[function]] **`f`** such that **`$ f x | \d x {b . a}`** is the [[probability]] of an _example_ being in the interval **`a -| * -| b`**
+**definition** a _probability density function_ is a [[function]] **`f`** such that **`$ f x | dd x {b . a}`** is the [[probability]] of an _example_ being in the interval **`a -| * -| b`**
 
 **applications**
 
@@ -97,7 +97,7 @@ probability density functions are used to describe continuous random variables
 
 **properties**
 
-**`$ f x | \d x {@@ . .@@} = 1`** where **`f`** is a _probability density function_
+**`$ f x | dd x {@@ . .@@} = 1`** where **`f`** is a _probability density function_
 
 ## Cumulative Distribution Function
 
@@ -107,7 +107,7 @@ probability density functions are used to describe continuous random variables
 
 **definition** a _cumulative distribution function_ is a [[function]] **`F`** such that **`F a`** is the [[probability]] of an _example_ being in the interval **`.@@ -| * -| a`**
 
-**definition** **`$ f x | \d x {x . .@@}`** where **`f`** is a [[probability distribution#probability density function]]
+**definition** **`$ f x | dd x {x . .@@}`** where **`f`** is a [[probability distribution#probability density function]]
 
 **applications**
 

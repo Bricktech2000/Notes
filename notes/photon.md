@@ -1,3 +1,3 @@
 # Photon
 
-**notation** **`\g`**
+**notation** **`gg`**

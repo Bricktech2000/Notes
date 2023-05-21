@@ -2,11 +2,11 @@
 
 **see** [[math notation]], [[integral]], [[euler's constant]]
 
-**notation** **`\P z`**
+**notation** **`PP z`**
 
 **definition** _given a **`CC z`** such that **`z^re > 0`**_
 
-**`\P z = $ t[z] -- \e[t] | \d t {@@ . 0}`**
+**`PP z = $ t[z] -- ee[t] | dd t {@@ . 0}`**
 
 > **note** the [[pi function]] is defined for all **`CC z`** such that **`+NN (.z . 1)`** (it is not defined for negative [[integer]]s but is defined for **`0`**).
 >
@@ -14,4 +14,4 @@
 
 **theorem** _given a **`NN z`**_
 
-**`\P z = 1 | ... z`**
+**`PP z = 1 | ... z`**

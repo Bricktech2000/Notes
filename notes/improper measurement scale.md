@@ -8,7 +8,7 @@ this seems to be a common problem among the general public, and frustrates me ve
 
 > **examples** _scale examples &mdash; with correct use, and example use_
 >
-> - [[gaussian function]] &mdash; for quantities with a [[probability distribution#normal distribution]], **`.2\s`**
+> - [[gaussian function]] &mdash; for quantities with a [[probability distribution#normal distribution]], **`.2ss`**
 > - pie chart &mdash; for quantities that add up to a whole, **`-5 : 3-10 : -2 = 1`**
 > - [[logarithm]]ic scale &mdash; for quantities that are proportional to a base
 > - [[fraction]]al scale &mdash; for quantities that are proportional to a whole, **`20-100`**, **`2 -- 10`**

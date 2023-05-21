@@ -55,7 +55,7 @@ _[[function]] [[composition#identity]]_
 
 **definition** **`I = S K K`**
 
-**definition** **`I = \i \i`**
+**definition** **`I = ii ii`**
 
 **notation** **`{*} x`**
 
@@ -67,7 +67,7 @@ _discards the second argument_
 
 **definition** **`K = f x y -> f x`**
 
-**definition** **`K = \i (\i (\i \i))`**
+**definition** **`K = ii (ii (ii ii))`**
 
 **notation** **`{->} x y`**
 
@@ -77,7 +77,7 @@ _discards the second argument_
 
 **definition** **`S = f g x -> f x (g x)`**
 
-**definition** **`K = \i (\i (\i (\i \i)))`**
+**definition** **`K = ii (ii (ii (ii ii)))`**
 
 **notation** **`{* f g} x`**
 
@@ -119,7 +119,7 @@ _swaps the arguments to a function_
 
 **definition** **`C = S (B B S) (K K)`**
 
-**notation** **`\r f x y`**
+**notation** **`rr f x y`**
 
 > **equivalence** _[[combinatory logic#c combinator]] and [[matrix#transpose]]_
 
@@ -133,7 +133,7 @@ _duplicates the second argument_
 
 **definition** **`W = C S K`**
 
-**notation** **`{f *} x`** or equivalently **`{* f *}\ x`**
+**notation** **`{f *} x`** or equivalently **`{* f *} x`**
 
 ### KI Combinator
 
@@ -169,7 +169,7 @@ _applies a [[function]] twice_
 
 **aka** _`on` in Haskell_
 
-**definition** **`\U = f g x y -> f (g x) (g y)`**
+**definition** **`UU = f g x y -> f (g x) (g y)`**
 
 **notation** **`g {x f y}`**
 
@@ -177,13 +177,13 @@ _applies a [[function]] twice_
 
 **aka** _converge, `apply2way` and `liftA2` and `liftM2` in Haskell, S2 combinator, S' combinator, 'fork' in APL_
 
-**definition** **`\F = f g h x -> f (g x) (h x)`**
+**definition** **`FF = f g h x -> f (g x) (h x)`**
 
 **notation** **`{g f h} x`**
 
 ### Phi1 Combinator
 
-**definition** **`\F_1 = f g h x y -> f (g x y) (h x y)`**
+**definition** **`FF_1 = f g h x y -> f (g x y) (h x y)`**
 
 **notation** **`x {g f h} y`**
 
@@ -209,9 +209,9 @@ _used to formally define recursive [[function]]s in a [[functional programming]]
 
 ### Iota Combinator
 
-**definition** **`\i = x -> x S K`**
+**definition** **`ii = x -> x S K`**
 
-the [[combinatory logic#iota combinator]] can be used to define the [[combinatory logic#s combinator]] and [[combinatory logic#k combinator]], and can therefore be composed to produce [[combinatory logic#combinator]]s that are extentionally equal to any [[lambda calculus]] term. consequently, **`\i`** [[combinatory logic]] is Turing complete, see [[turing machine]]
+the [[combinatory logic#iota combinator]] can be used to define the [[combinatory logic#s combinator]] and [[combinatory logic#k combinator]], and can therefore be composed to produce [[combinatory logic#combinator]]s that are extentionally equal to any [[lambda calculus]] term. consequently, **`ii`** [[combinatory logic]] is Turing complete, see [[turing machine]]
 
 ### &mdash;
 

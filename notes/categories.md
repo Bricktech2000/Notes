@@ -108,6 +108,8 @@
 
 [[mandelbrot set]]
 
+[[fast inverse square root]]
+
 **finance**
 
 [[education]] system issues

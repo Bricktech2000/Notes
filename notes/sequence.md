@@ -125,7 +125,7 @@ let **`a`** be a [[sequence]] and **`f x`** be a [[function]] and suppose **`a^n
 
 _convergence_
 
-a geometric [[sequence]] **`a^0 r0, a^0 r1, \cdots`** with **`a^0 + 0`**:
+a geometric [[sequence]] **`a^0 r0, a^0 r1, ...`** with **`a^0 + 0`**:
 
 - diverges if **`r {|-/\+} 1`**
 - converges to **`a`** if **`r = 1`**

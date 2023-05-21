@@ -35,6 +35,6 @@ _reciprocality with [[exponent]]ials_ **`b[/x\ b] = x`**
 
 ## common bases
 
-**definition** **`/b\ \e`** is the _natural log_ of **`b`**, see [[euler's constant]]
+**definition** **`/b\ ee`** is the _natural log_ of **`b`**, see [[euler's constant]]
 
 **definition** **`/b\ 10`** is the _common log_ of **`b`**, see [[decimal]]

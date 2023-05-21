@@ -2,4 +2,4 @@
 
 **see** [[math notation]], [[international system of units]]
 
-**`A = \d V -- \d t`**, see [[velocity]]
+**`A = dd V -- dd t`**, see [[velocity]]

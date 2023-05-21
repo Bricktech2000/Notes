@@ -38,4 +38,4 @@ any [[set]] containing the **`O`** [[vector]] is [[linearly dependent]]
 
 **theorem** any [[linearly independent]] [[set]] in a [[vector space]] is smaller than or equal in length to a [[span]]ing [[set]] of the [[vector space]]
 
-**theorem** the size of any [[linearly independent]] [[set]] in **`V`** is no more than **`\dim V`** is no more than the size of any [[span]]ning [[set]] in **`V`**
+**theorem** the size of any [[linearly independent]] [[set]] in **`V`** is no more than **`"dim" V`** is no more than the size of any [[span]]ning [[set]] in **`V`**

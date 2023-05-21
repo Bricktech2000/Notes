@@ -4,10 +4,10 @@
 
 **definition**
 
-a [[function]] **`ff`** between [[set]]s **`A`** and **`B`** is a [[relation]] between **`A`** and **`B`** such that:
+a [[function]] **`HH`** between [[set]]s **`A`** and **`B`** is a [[relation]] between **`A`** and **`B`** such that:
 
-1. **`ff (a, b) /\ B b > A a`** or alternatively **`B f a > A a`** &mdash; there exists some output for every input
-2. **`ff (a, b_1) /\ ff (a, b_2) < b_1 = b_2`** or alternatively **`a_1 = a_2 < f a_1 = f a_2`** &mdash; there exists exactly one output for any input
+1. **`HH (a, b) /\ B b > A a`** or alternatively **`B f a > A a`** &mdash; there exists some output for every input
+2. **`HH (a, b_1) /\ HH (a, b_2) < b_1 = b_2`** or alternatively **`a_1 = a_2 < f a_1 = f a_2`** &mdash; there exists exactly one output for any input
 
 one can use the _horizontal [[line]] test_ to determine whether the graph of a [[curve]] is the graph of a [[function]]
 
@@ -101,17 +101,17 @@ _an odd function is symmetrical about the y axis, but also flipped about the x a
 
 **see** [[calculus notation]]
 
-**definition** a [[function]] **`f`** is _increasing_ on an interval **`a -| * -| b`** if **`x_1 -| x_2 < f x_1 -| f x_2`**, or **`\d f x -- \d x |- 0`** on that interval
+**definition** a [[function]] **`f`** is _increasing_ on an interval **`a -| * -| b`** if **`x_1 -| x_2 < f x_1 -| f x_2`**, or **`dd f x -- dd x |- 0`** on that interval
 
-**definition** a [[function]] **`f`** is _decreasing_ on an interval **`a -| * -| b`** if **`x_1 |- x_2 < f x_1 |- f x_2`**, or **`\d f x -- \d x -| 0`** on that interval
+**definition** a [[function]] **`f`** is _decreasing_ on an interval **`a -| * -| b`** if **`x_1 |- x_2 < f x_1 |- f x_2`**, or **`dd f x -- dd x -| 0`** on that interval
 
 ## Concavity
 
 **see** [[calculus notation]]
 
-**definition** a [[function]] **`f x`** is _concave up_ at **`x`** if **`\d (\d f x -- \d x) -- \d x |- 0`**, it _bends upwards_
+**definition** a [[function]] **`f x`** is _concave up_ at **`x`** if **`dd (dd f x -- dd x) -- dd x |- 0`**, it _bends upwards_
 
-**definition** a [[function]] **`f x`** is _concave down_ at **`x`** if **`\d (\d f x -- \d x) -- \d x -| 0`**, it _bends downwards_
+**definition** a [[function]] **`f x`** is _concave down_ at **`x`** if **`dd (dd f x -- dd x) -- dd x -| 0`**, it _bends downwards_
 
 a point where [[function#concavity]] changes (from up to down or down to up) is a [[function#inflection point]]
 
@@ -135,16 +135,16 @@ the _global extrema_ **`x`** of a [[function]] **`f`** with [[function#domain]] 
 
 ### First Derivative Test
 
-let **`f`** be a [[function#continuous function]] near **`x = c`** and **`c`** be a critical number of **`f`**. then, **`f`** has a local [[function#extremum]] at **`c`** if **`\d f c -- \d c`** changes sign at **`c`**
+let **`f`** be a [[function#continuous function]] near **`x = c`** and **`c`** be a critical number of **`f`**. then, **`f`** has a local [[function#extremum]] at **`c`** if **`dd f c -- dd c`** changes sign at **`c`**
 
 ### Second Derivative Test
 
-let **`f`** be a [[function#continuous function]] near **`x = c`** and **`c`** be a critical number of **`f`** where **`\d f c -- \d c = 0`**. then, **`f`** has
+let **`f`** be a [[function#continuous function]] near **`x = c`** and **`c`** be a critical number of **`f`** where **`dd f c -- dd c = 0`**. then, **`f`** has
 
-- a local maximum at **`c`** if **`\d (\d f x -- \d x) -- \d x -| 0`**
-- a local minimum at **`c`** if **`\d (\d f x -- \d x) -- \d x |- 0`**
+- a local maximum at **`c`** if **`dd (dd f x -- dd x) -- dd x -| 0`**
+- a local minimum at **`c`** if **`dd (dd f x -- dd x) -- dd x |- 0`**
 
-> **note** the test is inconclusive if **`\d (\d f x -- \d x) -- \d x = 0`** or if it does not exist
+> **note** the test is inconclusive if **`dd (dd f x -- dd x) -- dd x = 0`** or if it does not exist
 
 ## Inflection Point
 
@@ -160,9 +160,9 @@ let **`f`** be a [[function#continuous function]] near **`x = c`** and **`c`** b
 
 **see** [[function]], [[math notation]]
 
-**definition** _function of one variable_ a point **`(c, f c)`** is a _critical point_ of the [[function]] **`f`** if **`\d f c -- \d c = 0`** or it does not exist
+**definition** _function of one variable_ a point **`(c, f c)`** is a _critical point_ of the [[function]] **`f`** if **`dd f c -- dd c = 0`** or it does not exist
 
-**definition** _function of multiple variables_ a point **`(c, f c)`** is a _critical point_ of the [[function]] **`f`** if all components of **`\d f c -- \d c`** either are zero or do not exist
+**definition** _function of multiple variables_ a point **`(c, f c)`** is a _critical point_ of the [[function]] **`f`** if all components of **`dd f c -- dd c`** either are zero or do not exist
 
 **definition** above, **`c`** would be said to be a _critical number_ of **`f`**
 
@@ -224,7 +224,7 @@ the graphs of **`(x, f x)`** and **`(x, F x)`** are symmetric about the [[line]]
 
 ## Slope
 
-**definition** **`x -> \d f x -- \d x`**
+**definition** **`x -> dd f x -- dd x`**
 
 ### Tangent Line
 
@@ -234,7 +234,7 @@ a tangent [[line]] has the same [[function#slope]] as a given [[function]] at a 
 
 **definition**
 
-**`L x = f a : (x . a | \d f a -- \d a)`**, where
+**`L x = f a : (x . a | dd f a -- dd a)`**, where
 
 - **`L`** is the [[line]] tangent to **`f`** at **`a`**
 
@@ -246,7 +246,7 @@ the tangent of a [[function]] **`f`** approximates **`f (x ...)`** near a point 
 
 ## Curvature
 
-**definition** **`x -> \d (\d f x -- \d x) -- \d x`**
+**definition** **`x -> dd (dd f x -- dd x) -- dd x`**
 
 ### Osculating Circle
 
@@ -264,7 +264,7 @@ an osculating [[circle]] has the same [[function#slope]] and the same [[function
 
 **`f_"ave" = F b . F a -- b . a`**, where
 
-- **`F`** is an [[antiderivative]] of **`f x`** with respect to **`x`**, **`$ f x | \d x`**
+- **`F`** is an [[antiderivative]] of **`f x`** with respect to **`x`**, **`$ f x | dd x`**
 - **`f_"ave"`** is the _average_ of the [[function]] **`f x`** on the interval **`a -| * -| b`**
 
 &mdash; <https://youtu.be/7gigNsz4Oe8?t=3093>
@@ -275,19 +275,19 @@ an osculating [[circle]] has the same [[function#slope]] and the same [[function
 
 **see** [[integral]]
 
-**definition** **`f_"arc" = $ ||\d f t -- \d t|| | \d t`** where **`f t = (x, f x ...)`** &mdash; <https://tutorial.math.lamar.edu/classes/calciii/vectorarclength.aspx>
+**definition** **`f_"arc" = $ ||dd f t -- dd t|| | dd t`** where **`f t = (x, f x ...)`** &mdash; <https://tutorial.math.lamar.edu/classes/calciii/vectorarclength.aspx>
 
-**definition** **`f_"arc" = $ \1 : [\d f x -- \d x]2/ | \d x`**
+**definition** **`f_"arc" = $ \1 : [dd f x -- dd x]2/ | dd x`**
 
 > **proof**
 >
-> the euclidean [[distance]] between two points is defined as **`d = \[\Dx]2 : [\Df x]2/`**
+> the euclidean [[distance]] between two points is defined as **`d = \[DDx]2 : [DDf x]2/`**
 >
-> turning the [[distance]] [[function]] into an [[integral]], **`f_"arc" = $ \[\d x]2 : [\d f x]2/`**
+> turning the [[distance]] [[function]] into an [[integral]], **`f_"arc" = $ \[dd x]2 : [dd f x]2/`**
 >
-> rearranging, **`f_"arc" = $ \[\d x]2 : [\d f x]2 -- [\d x]2/ | \d x`**
+> rearranging, **`f_"arc" = $ \[dd x]2 : [dd f x]2 -- [dd x]2/ | dd x`**
 >
-> and we get **`f_"arc" = $ \1 : [\d f x -- \d x]2/ | \d x`**
+> and we get **`f_"arc" = $ \1 : [dd f x -- dd x]2/ | dd x`**
 >
 > &mdash; me
 

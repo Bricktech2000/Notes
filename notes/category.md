@@ -12,7 +12,7 @@
 
 **definition** _formally in my [[math notation]]_ a [[category]] is a [[set theory]]etical [[function]] that takes two [[category#object]]s and returns their hom-[[set]]s (the [[set]] of [[category#morphism]]s between them) while satisfying the [[category#associativity law]] and [[category#identity law]]
 
-**definition** a category **`cc`** consists of [[category#object]]s and [[category#morphism]]s with [[category#composition]] and [[category#identity morphism]] all subject to the [[category#associativity law]] and the [[category#identity law]]
+**definition** a category **`CC`** consists of [[category#object]]s and [[category#morphism]]s with [[category#composition]] and [[category#identity morphism]] all subject to the [[category#associativity law]] and the [[category#identity law]]
 
 > **example** [[real]]s and the **`-|`** [[operator]] form a [[category]] &mdash; <https://youtu.be/yAi3XWCBkDo?t=652>
 
@@ -42,7 +42,7 @@ every category has a collection of _objects_. even though [[category#object]]s c
 
 ### Hom-Set
 
-**definition** the _hom-set_ of any [[ordered pair]] of [[category#object]]s **`A`** and **`B`** is **`cc^A,B`**
+**definition** the _hom-set_ of any [[ordered pair]] of [[category#object]]s **`A`** and **`B`** is **`CC^A,B`**
 
 **notation** _in [[conventional math notation]]_ $\mathcal C(A, B) = \braket{\braket{f, g, \cdots}}$
 
@@ -52,13 +52,13 @@ every category has a collection of _morphisms_. morphisms are the arrows in the 
 
 **notation** _a morphism from **`A`** to **`B`** in [[conventional math notation]]_ $f: A \to B$
 
-**notation** _a morphism from **`A`** to **`B`** in my [[math notation]]_ **`cc^A,B f`**
+**notation** _a morphism from **`A`** to **`B`** in my [[math notation]]_ **`CC^A,B f`**
 
 even if **`A`** is related to **`B`** by a morphism, **`B`** is not necessarily related to **`A`**. morphisms can be thought of as [[function]]s, but don't necessarily have to be. any number of [[category#morphism]]s between two [[category#object]]s can exist. this includes no morphisms to an infinity of morphisms
 
 ### Isomorphism
 
-**definition** an _isomorphism_ is a [[category#morphism]] with a corresponding inverse. let **`cc^A,B f`** and let **`cc^B,A f_*`**. then, there exists an _isomorphism_ between **`A`** and **`B`** if and only if **`f f_* * = "id"_B /\ f_* f * = "id"_A`**
+**definition** an _isomorphism_ is a [[category#morphism]] with a corresponding inverse. let **`CC^A,B f`** and let **`CC^B,A f_*`**. then, there exists an _isomorphism_ between **`A`** and **`B`** if and only if **`f f_* * = "id"_B /\ f_* f * = "id"_A`**
 
 **definition** if there exists a [[category#isomorphism]] between two [[category#object]]s **`A`** and **`B`**, they are said to be _isomorphic_
 
@@ -68,7 +68,7 @@ even if **`A`** is related to **`B`** by a morphism, **`B`** is not necessarily 
 
 > **example**
 >
-> in the commutative diagram below, **`\a`** (or the pair **`{\a, \a_*}`**) is an isomorphism
+> in the commutative diagram below, **`aa`** (or the pair **`{aa, aa_*}`**) is an isomorphism
 >
 > ```mermaid
 > graph LR
@@ -77,8 +77,8 @@ even if **`A`** is related to **`B`** by a morphism, **`B`** is not necessarily 
 >
 >   A -- **`id_A`** --> A
 >   B -- **`id_B`** --> B
->   A -- **`\a`** --> B
->   B -- **`\a_*`** --> A
+>   A -- **`aa`** --> B
+>   B -- **`aa_*`** --> A
 > ```
 >
 > &mdash; <https://youtu.be/Gai-liKAUPo?t=483>
@@ -93,7 +93,7 @@ even if **`A`** is related to **`B`** by a morphism, **`B`** is not necessarily 
 
 ### Monomorphism
 
-**definition** let **`cc^A,B f`**, let **`cc^D,A g_1`** and **`cc^D,A g_2`**. then, **`f`** is a _monomorphism from **`A`** to **`B`**_ if and only if **`f g_1 * = f g_2 * < g_1 = g_2`**, for all **`cc^D,A g_1`** and **`cc^D,A g_2`**, and for all **`cc D`**
+**definition** let **`CC^A,B f`**, let **`CC^D,A g_1`** and **`CC^D,A g_2`**. then, **`f`** is a _monomorphism from **`A`** to **`B`**_ if and only if **`f g_1 * = f g_2 * < g_1 = g_2`**, for all **`CC^D,A g_1`** and **`CC^D,A g_2`**, and for all **`CC D`**
 
 > **note** this definition works because if **`f`** mapped two different [[category#object]]s in **`A`** to the same [[category#object]] in **`B`**, then there could exist two different [[category#morphism]]s **`g_1`** and **`g_2`** that would map elements of **`D`** to **`A`** differently which could then be mapped identically to **`B`** by **`f`**
 
@@ -103,7 +103,7 @@ monomorphisms are [[category#morphism]]s that are injective, see [[function#inje
 
 ### Epimorphism
 
-**definition** let **`cc^A,B f`**, let **`cc^B,D g_1`** and **`cc^B,D g_2`**. then, **`f`** is an _epimorphism from **`A`** to **`B`**_ if and only if **`g_1 f * = g_2 f * < g_1 = g_2`**, for all **`cc^B,D g_1`** and **`cc^B,D g_2`**, and for all **`cc D`**
+**definition** let **`CC^A,B f`**, let **`CC^B,D g_1`** and **`CC^B,D g_2`**. then, **`f`** is an _epimorphism from **`A`** to **`B`**_ if and only if **`g_1 f * = g_2 f * < g_1 = g_2`**, for all **`CC^B,D g_1`** and **`CC^B,D g_2`**, and for all **`CC D`**
 
 > **note** this definition works because if the [[function#range]] **`R`** of **`f`** was a [[set#subset]] of its [[function#domain]] **`B`**, then there could exist two different [[category#morphism]]s **`g_1`** and **`g_2`** that would map elements in **`R`** identically but would map elements in **`B / R`** differently
 
@@ -115,7 +115,7 @@ epimorphisms are [[category#morphism]]s that are surjective, see [[function#surj
 
 **see** [[composition]]
 
-**definition** let **`cc^A,B f`** and **`cc^B,D g`**. then, there must exist a morphism **`cc^A,D h`** that is the [[composition]] of **`f`** and **`g`**
+**definition** let **`CC^A,B f`** and **`CC^B,D g`**. then, there must exist a morphism **`CC^A,D h`** that is the [[composition]] of **`f`** and **`g`**
 
 **notation** _in [[conventional math notation]]_ $h = g \circ f$, and is read as _after_ or _then_. for example, $f \circ g$ is read as _f after g_ or _f then g_
 
@@ -133,11 +133,11 @@ epimorphisms are [[category#morphism]]s that are surjective, see [[function#surj
 
 **notation** _in [[conventional math notation]]_ $1_A : A \to A$ or $\textbf{id}_A : A \to A$
 
-**notation** _in my [[math notation]]_ **`cc^A,A "id"_A`**
+**notation** _in my [[math notation]]_ **`CC^A,A "id"_A`**
 
 ### Identity Law
 
-for every [[category#object]] **`A`** there is an arrow which is a unit of [[composition]]. let **`cc^A,B f`**. then,
+for every [[category#object]] **`A`** there is an arrow which is a unit of [[composition]]. let **`CC^A,B f`**. then,
 
 **`f "id"_A * = f`**
 
@@ -165,7 +165,7 @@ this leads to the [[category]] of [[category]]es. functors must use a pair of [[
 
 &mdash; <https://youtu.be/Gai-liKAUPo?t=190>
 
-**definition** the _oposite category_ of any [[category]] **`cc`** is **`\r cc`**
+**definition** the _oposite category_ of any [[category]] **`CC`** is **`rr CC`**
 
 this can be thought of as "reversing the direction" of the "arrows" in the [[category]] diagram
 
@@ -173,11 +173,11 @@ this can be thought of as "reversing the direction" of the "arrows" in the [[cat
 
 **notation** _in [[conventional math notation]]_ $\mathcal C^{\text{op}}$
 
-**notation** _in my [[math notation]]_ **`\r cc`**
+**notation** _in my [[math notation]]_ **`rr CC`**
 
 **properties**
 
-**`\r \r cc = cc`**
+**`rr rr CC = CC`**
 
 ## Product
 

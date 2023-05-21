@@ -34,7 +34,7 @@ which can be represented by the following [[vector in rn]] equation:
 
 **`x[]1 && 1 && 0[] : y[]1 && .1 && 1[] : z[]2 && 1 && .1[] = []3 && 2 && 1[]`**
 
-the system is _consistent_ if and only if **`b`** (**`[]3 && 2 && 1[]`** in this case) is a [[linear combination]] of the columns of **`A`** (**`\r A`**)
+the system is _consistent_ if and only if **`b`** (**`[]3 && 2 && 1[]`** in this case) is a [[linear combination]] of the columns of **`A`** (**`rr A`**)
 
 ## Elementary Operation
 

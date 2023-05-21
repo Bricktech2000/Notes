@@ -54,6 +54,6 @@ _for getting probabilities out_
 
 **definition**
 
-**`\s^i z = [z^i] -- :[z]`**, where
+**`ss^i z = [z^i] -- :[z]`**, where
 
-- **`\s^i z`** is the softmax [[activation function]] of **`z`** at **`z^i`**
+- **`ss^i z`** is the softmax [[activation function]] of **`z`** at **`z^i`**

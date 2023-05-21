@@ -50,17 +50,17 @@ _angle between two [[vector in rn]]s_
 
 **definition**
 
-**`"cos" \\a = :ab -- ||a||||b||`**, see [[dot product]] #magic
+**`"cos" aa = :ab -- ||a||||b||`**, see [[dot product]] #magic
 
-> **note** use **`"cos" \\a = ||:ab|| -- ||a||||b||`** to always get the acute angle solution
+> **note** use **`"cos" aa = ||:ab|| -- ||a||||b||`** to always get the acute angle solution
 
 **definition**
 
-**`"sin" \\a = (a "cross" b) -- ||a||||b||`**, see [[cross product]] #magic
+**`"sin" aa = (a "cross" b) -- ||a||||b||`**, see [[cross product]] #magic
 
 ### Orthogonal Vectors
 
-_a pair of vectors offset by **`-4\t "rad"`**_
+_a pair of vectors offset by **`-4tt "rad"`**_
 
 **definition** **`u`** and **`v`** are _orthogonal_ if and only if **`:uv = 0`**, see [[dot product]]
 
@@ -96,9 +96,9 @@ _The scalar projection is equal to the [[vector in rn#magnitude]] of the [[vecto
 
 **definition** _projection onto another [[vector]]_
 
-**`||"proj"^b a|| = ||a|| "cos" \\a`**, and
+**`||"proj"^b a|| = ||a|| "cos" aa`**, and
 
-**`"proj"^b a = ||a|| "cos" \\a | b_* = :ab_* | b_* = :ab -- :b2 | b`** (see [[dot product]]), where
+**`"proj"^b a = ||a|| "cos" aa | b_* = :ab_* | b_* = :ab -- :b2 | b`** (see [[dot product]]), where
 
 - **`"proj"^b a`** is the _vector projection of **`a`** on **`b`**_
 - **`||"proj"^b a||`** is the _scalar projection of **`a`** on **`b`**_
