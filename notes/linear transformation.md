@@ -29,13 +29,13 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear transformation]] **
 
 > **equivalence** _[[matrix#multiplication]] and [[linear transformation]]s_
 
-**theorem** given a **`TT T`** with **`T u == A | u`**, **`A = \r (T I *)`**
+**theorem** given a **`TT T`** with **`T u == A | u`**, **`A = rr (T I *)`**
 
 > **proof**
 >
-> **`A | u = AI | u = T I | u`**. it is worth noting that **`T I`** is not a valid [[linear transformation]] because **`I`** is a [[matrix]]. however, since **`I`** is the [[matrix#identity matrix]], **`T I`** is equivalent to **`\r (T (\r I) *)`**, which is equivalent to **`\r (T I *)`**. we therefore conclude that **`A = \r (T I *)`**, which is to be read as:
+> **`A | u = AI | u = T I | u`**. it is worth noting that **`T I`** is not a valid [[linear transformation]] because **`I`** is a [[matrix]]. however, since **`I`** is the [[matrix#identity matrix]], **`T I`** is equivalent to **`rr (T (rr I) *)`**, which is equivalent to **`rr (T I *)`**. we therefore conclude that **`A = rr (T I *)`**, which is to be read as:
 >
-> > **`A`** is a [[matrix]] (**`A =`**) whose columns (**`\r`**) are the rows of the [[matrix#identity matrix]] (**`I *`**) transformed by **`T`** (**`T`**)
+> > **`A`** is a [[matrix]] (**`A =`**) whose columns (**`rr`**) are the rows of the [[matrix#identity matrix]] (**`I *`**) transformed by **`T`** (**`T`**)
 >
 > &mdash; me
 
@@ -63,21 +63,21 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear transformation]] **
 >
 > let a [[vector in rn#unit vector]] on the **`x`** axis **`i`** and let a [[vector in rn#unit vector]] on the **`y`** axis **`j`**
 >
-> let a [[vector in rn#unit vector]] on the **`x_*`** axis **`i_* = ("cos" \a, "sin" \a)`** and let a [[vector in rn#unit vector]] on the **`y_*`** axis **`j_* = (."sin" \a, "cos" \a)`**
+> let a [[vector in rn#unit vector]] on the **`x_*`** axis **`i_* = ("cos" aa, "sin" aa)`** and let a [[vector in rn#unit vector]] on the **`y_*`** axis **`j_* = (."sin" aa, "cos" aa)`**
 >
-> let **`(c, f c) = ic : jf c`** be a point on a [[function]] **`f`**. replacing **`i, j`** by **`i_* , j_*`**, we get the point **`i_* c : j_* f c = ("cos" \a, "sin" \a)c : (."sin" \a, "cos" \a)f c = (c("cos" \a) : (f c)(."sin" \a), c("sin" \a) : (f c)("cos" \a))`**.
+> let **`(c, f c) = ic : jf c`** be a point on a [[function]] **`f`**. replacing **`i, j`** by **`i_* , j_*`**, we get the point **`i_* c : j_* f c = ("cos" aa, "sin" aa)c : (."sin" aa, "cos" aa)f c = (c("cos" aa) : (f c)(."sin" aa), c("sin" aa) : (f c)("cos" aa))`**.
 >
-> with **`(c, f c) = (x, y)`**, we get the point **`(x"cos" \a . y"sin" \a, x"sin" \a : y"cos" \a)`**, which can be graphed as **`x"sin" \a : y"cos" \a = f (x"cos" \a . y"sin" \a)`**
+> with **`(c, f c) = (x, y)`**, we get the point **`(x"cos" aa . y"sin" aa, x"sin" aa : y"cos" aa)`**, which can be graphed as **`x"sin" aa : y"cos" aa = f (x"cos" aa . y"sin" aa)`**
 >
 > computing the [[linear transformation#standard matrix]]:
 >
-> with **`(c, f c) = (x, y)`**, we get the [[linear transformation]] **`T (x, y) = (x"cos" \a . y"sin" \a, x"sin" \a : y"cos" \a)`**. its [[linear transformation#standard matrix]] is **`[]|| & || && T (1, 0) & T (0, 1) && || & ||[] = []"cos" \a & ."sin" \a && "sin" \a & "cos" \a[]`**. defining **`T`** using [[matrix#multiplication]], we get **`T (x, y) = []"cos" \a & ."sin" \a && "sin" \a & "cos" \a[][]x && y[] = []x"cos" \a . y"sin" \a && x"sin" \a : y"cos" \a[]`**, which can also be graphed as **`x"sin" \a : y"cos" \a = f (x"cos" \a . y"sin" \a)`**
+> with **`(c, f c) = (x, y)`**, we get the [[linear transformation]] **`T (x, y) = (x"cos" aa . y"sin" aa, x"sin" aa : y"cos" aa)`**. its [[linear transformation#standard matrix]] is **`[]|| & || && T (1, 0) & T (0, 1) && || & ||[] = []"cos" aa & ."sin" aa && "sin" aa & "cos" aa[]`**. defining **`T`** using [[matrix#multiplication]], we get **`T (x, y) = []"cos" aa & ."sin" aa && "sin" aa & "cos" aa[][]x && y[] = []x"cos" aa . y"sin" aa && x"sin" aa : y"cos" aa[]`**, which can also be graphed as **`x"sin" aa : y"cos" aa = f (x"cos" aa . y"sin" aa)`**
 >
 > &mdash; me
 
 > **example** _deriving the 2D Rotation Matrix, in a sane way_
 >
-> the columns of a [[linear transformation#standard matrix]] are the images of the [[basis#standard basis]] [[vector]]s. to rotate a [[plane]] by **`\a "rad"`**, we want **`(1, 0)`** to end up at **`("cos" \a, "sin" \a)`** and **`(0, 1)`** to end up at **`(."sin" \a, "cos" \a)`**. therefore, the [[linear transformation#standard matrix]] is **`[]"cos" \a & ."sin" \a && "sin" \a & "cos" \a[]`**
+> the columns of a [[linear transformation#standard matrix]] are the images of the [[basis#standard basis]] [[vector]]s. to rotate a [[plane]] by **`aa "rad"`**, we want **`(1, 0)`** to end up at **`("cos" aa, "sin" aa)`** and **`(0, 1)`** to end up at **`(."sin" aa, "cos" aa)`**. therefore, the [[linear transformation#standard matrix]] is **`[]"cos" aa & ."sin" aa && "sin" aa & "cos" aa[]`**
 >
 > &mdash; me
 
@@ -87,13 +87,13 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear transformation]] **
 
 **notation**
 
-**`kk T`**
+**`KK T`**
 
 **`"Im" T`**
 
 **definition** _kernel_
 
-**`(kk T) x == T x = 0 /\ TT T`**
+**`(KK T) x == T x = 0 /\ TT T`**
 
 **definition** _image_
 
@@ -105,8 +105,8 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear transformation]] **
 
 let **`MM^m,n A`** be the [[linear transformation#standard matrix]] of **`T`**. then,
 
-**`kk T = nn A`**, see [[matrix#null space]]
+**`KK T = NN A`**, see [[matrix#null space]]
 
-**`"Im" T = cc A`**, see [[matrix#column space]]
+**`"Im" T = CC A`**, see [[matrix#column space]]
 
-**theorem** **`"dim" kk T : "dim" "Im" T = "dim" nn A : "dim" cc A = n`**, where **`n`** is the dimension of the [[function#domain]] of **`T`**
+**theorem** **`"dim" KK T : "dim" "Im" T = "dim" NN A : "dim" CC A = n`**, where **`n`** is the dimension of the [[function#domain]] of **`T`**

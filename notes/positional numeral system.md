@@ -6,10 +6,10 @@
 
 **notation**
 
-**`\w_n`**, where
+**`ww_n`**, where
 
 - **`n`** is the base, represented by a [[natural]]
-- **`\w`** is a [[list]] of digits
+- **`ww`** is a [[list]] of digits
 
 > **examples**
 >

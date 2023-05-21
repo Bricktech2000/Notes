@@ -105,7 +105,7 @@ an interesting idea for creating free value is to start sharing what you learn e
 S ((+) map.) reduce. A ==
 ```
 
-$[a : b]n = (C\ n\ 0) \shortmid a[n] b0 : \cdots (C\ n\ n) \shortmid a0 b[n]$
+$[a : b]n = (C\ n\ 0) \sshortmid a[n] b0 : \cdots (C\ n\ n) \shortmid a0 b[n]$
 
 ```lua
 x (1 min.) map.
@@ -402,7 +402,7 @@ E24 &mdash; **`1-100`** tolerance &mdash; **`-4 "W"`**
 
 ---
 
-**`P t = a[t] == \d P t -- \d t = a[t] | /a\ == \d P t -- \d t = P t | /a\`**
+**`P t = a[t] == dd P t -- dd t = a[t] | /a\ == dd P t -- dd t = P t | /a\`**
 
 ---->---<--|-----
 
@@ -472,17 +472,17 @@ $x = \braket{\smash: \lor \cdot} 2\iota$
 
 **`\x/ : \.x/ = 2`**
 
-**`\x/ {: \/ .} \i \x/ = 2`**
+**`\x/ {: \/ .} ii \x/ = 2`**
 
-**`1 {: \/ .} \i | \x/ = 2`**
+**`1 {: \/ .} ii | \x/ = 2`**
 
-**`\x/ = 2 -- 1 {: \/ .} \i`**
+**`\x/ = 2 -- 1 {: \/ .} ii`**
 
-**`x = [2 -- 1 : \i]2 \/ x = [2 -- 1 . \i]2`**
+**`x = [2 -- 1 : ii]2 \/ x = [2 -- 1 . ii]2`**
 
-**`x = 4 -- 2\i \/ x = .4 -- 2\i`**
+**`x = 4 -- 2ii \/ x = .4 -- 2ii`**
 
-**`x = {: \/ .} 2\i`**
+**`x = {: \/ .} 2ii`**
 
 ---
 
@@ -500,7 +500,7 @@ $x = \braket{\smash: \lor \cdot} \iota$
 
 **`1 = .x2`**
 
-**`x = {: \/ .} \i`**
+**`x = {: \/ .} ii`**
 
 ---
 
@@ -520,31 +520,31 @@ $x = \text-4\iota \mid \tau : 2n\tau \land \mathbb N n$
 
 **`[2x] = .1`**
 
-**`2x = \i | -2\t : n\t /\ NN n`**
+**`2x = ii | -2tt : ntt /\ NN n`**
 
-**`x = -4\i | \t : 2n\t /\ NN n`**
+**`x = -4ii | tt : 2ntt /\ NN n`**
 
 ---
 
 **`/| /_ _|`**
 
-**`a -> f x . f a -- x . a {x -> a} = a -> f {x . a} -- {*} {x . a} {x -> a} = a -> {f -- *} {x . a} {x -> a} = \d f -- \d * = \d {f -- *}`**
+**`a -> f x . f a -- x . a {x -> a} = a -> f {x . a} -- {*} {x . a} {x -> a} = a -> {f -- *} {x . a} {x -> a} = dd f -- dd * = dd {f -- *}`**
 
-**`\d f a = f x . f a {x -> a}`** and **`$ f a = f_*  a /\ \d f_* = f`**
+**`dd f a = f x . f a {x -> a}`** and **`$ f a = f_*  a /\ dd f_* = f`**
 
-**`$ \d f -- \d * | \d * = $ \d f = f = $ a -> f x . f a {x -> a}`**
+**`$ dd f -- dd * | dd * = $ dd f = f = $ a -> f x . f a {x -> a}`**
 
-**`\d f a = f (a : -n) . f a {n -> @@}`**
+**`dd f a = f (a : -n) . f a {n -> @@}`**
 
 **`$ f a = f (a : 0-n) : ... f (a : n-n) {n -> @@}`**
 
 **`$ f a = (f (a : 0-n : -n) . f (a : 0-n)) : ... (f (a : n-n : -n) . f (a : n-n)) {n -> @@}`**
 
-**`\d f -- \d *, $ f | \d *`**
+**`dd f -- dd *, $ f | dd *`**
 
 ---
 
-**`--\d x | \d ([x : h]3 . x3 -- h {h -> 0}) | (x[n:1] -- n:1 {0 : ...}) -- ($ /t\ | \d t {x . 0})`** &mdash; <https://youtu.be/X0zYYFgQ5z0>
+**`--dd x | dd ([x : h]3 . x3 -- h {h -> 0}) | (x[n:1] -- n:1 {0 : ...}) -- ($ /t\ | dd t {x . 0})`** &mdash; <https://youtu.be/X0zYYFgQ5z0>
 
 ---
 
@@ -552,7 +552,7 @@ the last element of a [[list]]
 
 **`V (# V . 1) == {* (#.1)} V`**
 
-**`\F {<-} {*} (#.1) V == {<-} ({*} V) ((#.1) V) == V (# V . 1)`**, see [[combinatory logic#phi combinator]]
+**`FF {<-} {*} (#.1) V == {<-} ({*} V) ((#.1) V) == V (# V . 1)`**, see [[combinatory logic#phi combinator]]
 
 ---
 
@@ -562,6 +562,8 @@ the last element of a [[list]]
 
 **`c^re = "lerp" .3-2 1-2 x-"size"`**
 **`c^im = "lerp" .1 1 y-"size"`**
+
+`` ^[^`]*(\*\*`[^`]*`\*\*[^`]*)*\*\*`[^`]* ``
 
 ---
 

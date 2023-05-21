@@ -112,20 +112,20 @@ all [[lambda calculus]] expressions can be represented as one-dimensional [[arra
 >
 > in my [[math notation]]: **`z -> (y -> y (x -> x)) (x -> z x)`**
 >
-> using De Bruijn indices: **`\l (\l 0 (\l 0)) (\l 1 0)`**
+> using De Bruijn indices: **`ll (ll 0 (ll 0)) (ll 1 0)`**
 >
 > as a [[tree#binary tree]]:
 >
 > ```mermaid
 > graph TD
 >   node8(**`0`**)
->   node5(**`\l A`**)
+>   node5(**`ll A`**)
 >   node6(**`0`**)
->   node7(**`\l A`**)
->   node1(**`\l A`**)
+>   node7(**`ll A`**)
+>   node1(**`ll A`**)
 >   node2(**`1`**)
 >   node3(**`0`**)
->   node9(**`\l A`**)
+>   node9(**`ll A`**)
 >
 >   node1 --> node3
 >   node1 --> node2
@@ -145,13 +145,13 @@ all [[lambda calculus]] expressions can be represented as one-dimensional [[arra
 >
 > in my [[math notation]]: **`s z -> s (s (s z))`**
 >
-> using De Bruijn indices: **`\l (\l (1 (1 (1 0))))`**
+> using De Bruijn indices: **`ll (ll (1 (1 (1 0))))`**
 >
 > as a [[tree#binary tree]]:
 >
 > ```mermaid
 > graph TD
->   node1(**`\l \l A`**)
+>   node1(**`ll ll A`**)
 >   node2(**`1`**)
 >   node3(**`A`**)
 >   node4(**`1`**)

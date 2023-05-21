@@ -4,7 +4,7 @@
 
 **definition**
 
-**`x = .b : \ b2.4ac / -- 2a`**, where
+**`x = .b : \b2.4ac/ -- 2a`**, where
 
 - **`a, b, c`** are coefficients in the quadratic equation **`ax2 : bx : c = 0`**
 - **`x`** are the solutions to the quadratic equation

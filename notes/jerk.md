@@ -4,4 +4,4 @@
 
 **see** [[math notation]], [[international system of units]]
 
-**`j = \d A -- \d t`**, see [[acceleration]]
+**`j = dd A -- dd t`**, see [[acceleration]]

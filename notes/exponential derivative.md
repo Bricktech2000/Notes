@@ -4,19 +4,19 @@
 
 the [[derivative]] of a [[line]]ar [[function]] **`x -> ax : b`** is its [[function#slope]] **`a`**. similarly, the [[exponential derivative]] of an [[exponent]]ial [[function]] **`x -> ba[x]`** is its base **`a`**
 
-**definition** **`D f == x -> \f x -- f a/ (x.a) {x -> a} == x -> [\d /f x\ -- \d x]`**
+**definition** **`D f == x -> ff x -- f a/ (x.a) {x -> a} == x -> [dd /f x\ -- dd x]`**
 
 > **proof**
 >
-> **`[\d /f x\ -- \d x] == [ /f x\ . /f a\ -- x . a] {x -> a} == [ /f x -- f a\ -- x . a] {x -> a} == \f x -- f a/ (x . a) {x -> a}`**
+> **`[dd /f x\ -- dd x] == [ /f x\ . /f a\ -- x . a] {x -> a} == [ /f x -- f a\ -- x . a] {x -> a} == \f x -- f a/ (x . a) {x -> a}`**
 
-> **note** this is not actually a thing, I made it up. I came up with the [[derivative]]-[[limit]]-definition&ndash;like form first by intuitively swapping out the subtraction and the division **`f x . f\ a -- ...`** for a ratio and a radical **`\f x -- f a/ ...`**. I then realized that the base-agnostic [[logarithm]] of an [[exponent]]ial [[function]] is a [[line]]ar [[function]], the [[derivative]] of which contains the base of that [[exponent]]ial [[function]]. finally, I realized that taking the [[exponent]]ial of the [[derivative]] of that [[logarithm]] would give me the base of the original [[exponent]]ial [[function]]. this is what the second definition **`[\d /f x\ -- \d x]`** represents
+> **note** this is not actually a thing, I made it up. I came up with the [[derivative]]-[[limit]]-definition&ndash;like form first by intuitively swapping out the subtraction and the division **`f x . f a -- ...`** for a ratio and a radical **`\f x -- f a/ ...`**. I then realized that the base-agnostic [[logarithm]] of an [[exponent]]ial [[function]] is a [[line]]ar [[function]], the [[derivative]] of which contains the base of that [[exponent]]ial [[function]]. finally, I realized that taking the [[exponent]]ial of the [[derivative]] of that [[logarithm]] would give me the base of the original [[exponent]]ial [[function]]. this is what the second definition **`[dd /f x\ -- dd x]`** represents
 
 **properties**
 
-**`[\d /f x\ -- \d x] == [\d f x -- \d x -- f x]`** by the [[derivative rules]]
+**`[dd /f x\ -- dd x] == [dd f x -- dd x -- f x]`** by the [[derivative rules]]
 
-let **`D f = x -> [\d /f x\ -- \d x]`**. then,
+let **`D f = x -> [dd /f x\ -- dd x]`**. then,
 
 **`D (x -> ba[x]) = x -> a`**
 

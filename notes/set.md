@@ -14,7 +14,7 @@ _Set Roster notation_
 
 **`S = {{1, 2, 3}}`**
 
-**`S = {{1, 2, 3 \cdots}}`** &mdash; **`...`** are allowed
+**`S = {{1, 2, 3 ...}}`** &mdash; **`...`** are allowed
 
 _Set Builder notation_
 
@@ -172,7 +172,7 @@ _order matters_
 
 the number of **`k`**-arrangements of an **`n`**-set is
 
-- **`P n k = \P n -- \P (n.k)`** with repetition forbidden. also called _**`k`**-permutations_
+- **`P n k = PP n -- PP (n.k)`** with repetition forbidden. also called _**`k`**-permutations_
 - **`P_*  n k = [n]k`** with repetition allowed. also called _**`k`**-tuples_
 
 ## Combination
@@ -183,7 +183,7 @@ _order does not matter_
 
 the number of **`k`**-combinations of an **`n`**-set is
 
-- **`C n k = P n k -- P k k = \P n -- \P (n.k) -- \P k`** with repetition forbidden. also called _**`k`**-subsets_
+- **`C n k = P n k -- P k k = PP n -- PP (n.k) -- PP k`** with repetition forbidden. also called _**`k`**-subsets_
 - **`C_* n k = C (n:k.1) (k.1)`** with repetition allowed. also called _**`k`**-multisubsets_
 
 > **proof** _stars and bars [[proof]] sketch_

@@ -16,21 +16,21 @@ _allows for the approximation of a [[function]] near a point by a [[polynomial]]
 
 **definition**
 
-let **`f`** be a [[function]] and let **`T f`** such that **`T f a = f a /\ \d T f a = \d f a /\ \d \d T f a = \d \d f a /\ ...`**, where **`(a, f a)`** is the point of interest on **`f`** and **`T f`** is a [[polynomial]] function
+let **`f`** be a [[function]] and let **`T f`** such that **`T f a = f a /\ dd T f a = dd f a /\ dd dd T f a = dd dd f a /\ ...`**, where **`(a, f a)`** is the point of interest on **`f`** and **`T f`** is a [[polynomial]] function
 
 we then derive the following definition:
 
 **`: T f = (T f)^0 : (T f)^1 : (T f)^2 : ...`**, where
 
-**`(T f)^n x = (d^n f) a -- \P n | [x.a]n`**, where
+**`(T f)^n x = (d^n f) a -- PP n | [x.a]n`**, where
 
-**`d^n f = d^n.1 (x -> \d f x -- \d x) /\ d^0 f = f`**, see [[derivative]]
+**`d^n f = d^n.1 (x -> dd f x -- dd x) /\ d^0 f = f`**, see [[derivative]]
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=17431>
 
 intuitive explanation: <https://youtu.be/3d6DsjIBzJ4?t=383>
 
-> **note** the definition above assumes **`x0 = 1 > RR x`** and **`\P 0 = 1`**, see [[improved expression evaluation]]
+> **note** the definition above assumes **`x0 = 1 > RR x`** and **`PP 0 = 1`**, see [[improved expression evaluation]]
 
 **properties**
 
@@ -61,7 +61,7 @@ intuitive explanation: <https://youtu.be/3d6DsjIBzJ4?t=383>
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=22042>
 
-**theorem** _Taylor's Inequality #magic_ **`||(d^n f) x|| -| M /\ RR M /\ NN n > ||x.a|| -| d /\ RR a /\ RR d < (||R_Tf^n.1 x|| -| M -- \P n | [||x.a||]n > ||x.a|| -| d)`**
+**theorem** _Taylor's Inequality #magic_ **`||(d^n f) x|| -| M /\ RR M /\ NN n > ||x.a|| -| d /\ RR a /\ RR d < (||R_Tf^n.1 x|| -| M -- PP n | [||x.a||]n > ||x.a|| -| d)`**
 
 **theorem** _Practical Convergence Condition_ **`||(d^n f) x|| -| M /\ RR M > NN n > ||x.a|| -| d /\ RR a /\ R d < (R_Tf^@@ x = 0 > ||x.a|| -| d)`**
 

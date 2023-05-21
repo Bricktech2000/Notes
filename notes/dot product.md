@@ -8,7 +8,7 @@ the [[dot product]] is defined for any [[vector in rn]]
 
 > **note** if vectors are identified with row [[matrix]]es, the [[dot product]] can also be written as a [[matrix]] product &mdash; Wikipedia
 >
-> **`:ab = (0 -> a) | \r (0 -> b)`** #todo mm
+> **`:ab = (0 -> a) | rr (0 -> b)`** #todo mm
 
 > **example** **`:(3, 2, .1)(4, .6, 3) = 3'4 : 2'.6 : .1'3 = .3`**
 

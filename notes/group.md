@@ -77,4 +77,4 @@ every element of a [[group]] has exactly one inverse
 
 ## Subgroup
 
-**theorem** _Lagrange's Theorem_ let **`G`** be a [[group]] and **`H`** be a [[group#subgroup]] of **`G`**. then, **`\y # {H -| G}`**, see [[psi function]]
+**theorem** _Lagrange's Theorem_ let **`G`** be a [[group]] and **`H`** be a [[group#subgroup]] of **`G`**. then, **`yy # {H -| G}`**, see [[psi function]]

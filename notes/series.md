@@ -53,10 +53,10 @@ _useful for [[series]] containing [[logarithm]]s or easy-to-compute [[integral]]
 
 **theorem** _the integral test_
 
-let **`b`** be a [[series]] and suppose **`f`** is an eventually _continuous_, _positive_ and _infinite_ [[function]] on **`R -| * {-|/\+} @@`** **for some** **`\mathbb R R`** and that **`b^n = f n > NN n`**. then,
+let **`b`** be a [[series]] and suppose **`f`** is an eventually _continuous_, _positive_ and _infinite_ [[function]] on **`R -| * {-|/\+} @@`** **for some** **`RR R`** and that **`b^n = f n > NN n`**. then,
 
-- if **`$ f x | \d x {@@ . 0}`** converges, then **`:b`** converges
-- if **`$ f x | \d x {@@ . 0}`** diverges, then **`:b`** diverges
+- if **`$ f x | dd x {@@ . 0}`** converges, then **`:b`** converges
+- if **`$ f x | dd x {@@ . 0}`** diverges, then **`:b`** diverges
 
 ### comparison tests
 

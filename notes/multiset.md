@@ -18,7 +18,7 @@
 
 > **example** in the [[polynomial]] **`[x.1]2`**, the [[multiplicity]] of the [[function#root]] **`1`** is **`2`**
 
-> **example** in the [[prime]] [[factor]]ization of **`60`**, the [[multiplicity]] of the [[factor]] **`2`** is **`2`** and the [[multiplicity]] of the [[factor]]s **`3`** and **`5`** is **`1`**. equivalently, **`\y 60 = ((2, 2, 3, 5))`**, see [[psi function]]
+> **example** in the [[prime]] [[factor]]ization of **`60`**, the [[multiplicity]] of the [[factor]] **`2`** is **`2`** and the [[multiplicity]] of the [[factor]]s **`3`** and **`5`** is **`1`**. equivalently, **`yy 60 = ((2, 2, 3, 5))`**, see [[psi function]]
 
 **notation** _in my [[math notation]]_
 
@@ -83,5 +83,5 @@ _order matters_
 
 the number of **`k`**-arrangements of an **`n`**-multiset **`M`** with multiplicities **`k^0 ... k^n.1`** is
 
-- **`C n k^0 ... k^n.1 = \P n -- (\P k^0 | ... \P k^n.1)`** with repetition forbidden
+- **`C n k^0 ... k^n.1 = PP n -- (PP k^0 | ... PP k^n.1)`** with repetition forbidden
 - see [[set#arrangement]] for repetition allowed

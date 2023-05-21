@@ -42,7 +42,7 @@ _commutativity with [[scalar]]s_ **`kA = Ak`**
 
 **definition**
 
-**`AB = :(A *)(\r B *)`**, see [[dot product]]
+**`AB = :(A *)(rr B *)`**, see [[dot product]]
 
 intuitively, matrix multiplication is the [[dot product]] of **every row** of the first [[matrix]] by **every column** of the second [[matrix]]
 
@@ -118,19 +118,19 @@ _the number of pivots in any [[linear system#row echelon form]] of the [[matrix]
 
 **notations**
 
-_null space_ **`nn A`**
+_null space_ **`NN A`**
 
-_column space_ **`cc A`**
+_column space_ **`CC A`**
 
-_row space_ **`rr A`**
+_row space_ **`RR A`**
 
 **definitions**
 
-_kernel_ **`(nn A) x == Ax = O /\ MM^m,n A /\ MM^n,1 x`**
+_kernel_ **`(NN A) x == Ax = O /\ MM^m,n A /\ MM^n,1 x`**
 
-_column space_ **`cc A = "span" {{A^*,0 , A^*,1 , ...}}`**
+_column space_ **`CC A = "span" {{A^*,0 , A^*,1 , ...}}`**
 
-_row space_ **`rr A = "span" {{A^0,* , A^1,* , ...}}`**
+_row space_ **`RR A = "span" {{A^0,* , A^1,* , ...}}`**
 
 **procedure** _computing the null space of a [[matrix]]_ use [[row reduction]]
 
@@ -140,21 +140,21 @@ the [[matrix#null space]], [[matrix#row space]] and [[matrix#column space]] of a
 
 **`"number of free variables in" A : "number of pivots in" A = "number of columns in" A`**
 
-**`"dim" nn A = "number of free variables in" A`**
+**`"dim" NN A = "number of free variables in" A`**
 
 **`"rank" A = "number of pivots in" A`**
 
-the nonzero rows in any [[linear system#row echelon form]] of a [[matrix]] **`A`** forms a [[basis]] for **`rr A`**. therefore, **`"dim" rr A = "rank" A`**, see [[matrix#rank]]
+the nonzero rows in any [[linear system#row echelon form]] of a [[matrix]] **`A`** forms a [[basis]] for **`RR A`**. therefore, **`"dim" RR A = "rank" A`**, see [[matrix#rank]]
 
-if **`A`** and **`B`** are row-equivalent, then **`rr A = rr B`**, see [[linear system]]
+if **`A`** and **`B`** are row-equivalent, then **`RR A = RR B`**, see [[linear system]]
 
-the [[span]]ning [[set]] of **`nn A`** obtained from applying [[row reduction]] on the system **`Ax = O`** is a [[basis]] for **`nn A`**
+the [[span]]ning [[set]] of **`NN A`** obtained from applying [[row reduction]] on the system **`Ax = O`** is a [[basis]] for **`NN A`**
 
-**`rr A`** does not change when applying [[linear system#elementary operation]]s on the rows of **`A`**
+**`RR A`** does not change when applying [[linear system#elementary operation]]s on the rows of **`A`**
 
 **properties**
 
-**`cc A = rr (\r A) /\ rr A = cc (\r A)`**, see [[matrix#transpose]]
+**`CC A = RR (rr A) /\ RR A = CC (rr A)`**, see [[matrix#transpose]]
 
 **applications**
 
@@ -164,7 +164,7 @@ the [[basis]] for a [[matrix#row space]] can be found by applying [[row reductio
 
 the [[basis]] for a [[matrix#column space]] of a [[matrix]] can be found by applying [[row reduction]] and [[span]]ning the **original columns** that became pivots in the [[linear system#row echelon form]] of the [[matrix]]
 
-the same can be said for **`cc A`**
+the same can be said for **`CC A`**
 
 > **example** _transforming a [[vector space]] into the [[matrix#null space]] of a certain [[matrix]]_
 >
@@ -184,15 +184,15 @@ _the transpose of a [[matrix]]_
 
 _flips a [[matrix]] around its [[matrix#diagonal]]_
 
-**notation** **`\r A`**
+**notation** **`rr A`**
 
-**definition** **`\r A`**
+**definition** **`rr A`**
 
 **properties**
 
-**`\r \r A = A`**
+**`rr rr A = A`**
 
-**`\r AB = \r B | \r A`** #todo mm
+**`rr AB = rr B | rr A`** #todo mm
 
 ## Conjugate Transpose
 
@@ -202,15 +202,15 @@ _the [[complex#conjugate]] of every entry of the [[matrix#transpose]] of a [[mat
 
 **definition**
 
-**`"conj" \r A`**, where
+**`"conj" rr A`**, where
 
 - **`A`** is the [[matrix]] to find the [[matrix#conjugate transpose]] of
 - **`"conj"`** is the [[complex#conjugate]] [[function]]
-- **`\r`** is the [[matrix#transpose]] [[operator]]
+- **`rr`** is the [[matrix#transpose]] [[operator]]
 
 **properties**
 
-let a [[matrix]] of [[real]]s **`A`**. then, **`"conj" \r A = \r A`**
+let a [[matrix]] of [[real]]s **`A`**. then, **`"conj" rr A = rr A`**
 
 ## Inverse
 
@@ -311,9 +311,9 @@ a [[matrix]] is _diagonalizable_ if and only if the geometic [[eigen#multiplicit
 
 > **example** the [[matrix]] **`A = []3 & 1 && 0 & 3[]`** is not diagonalizable over the reals as it only has one [[eigen#value]], and therefore only one set of [[linearly dependent]] [[eigen#vector]]s
 
-> **example** the [[matrix]] **`A = []1 & 0 && 0 & 1[]`** is diagonalizable over the reals as, even though **`A`** has a single [[eigen#value]] **`\l = 1`**, its [[eigen#space]] [[span]]s **`RR^2`**. this is the case for both **`A = I /\ \l = 1`** and **`A = O /\ \l = 0`**
+> **example** the [[matrix]] **`A = []1 & 0 && 0 & 1[]`** is diagonalizable over the reals as, even though **`A`** has a single [[eigen#value]] **`ll = 1`**, its [[eigen#space]] [[span]]s **`RR^2`**. this is the case for both **`A = I /\ ll = 1`** and **`A = O /\ ll = 0`**
 >
-> > **proof** let **`A = I /\ \l = 1 /\ E_1 = x`**. we then have **`O = A . \lI | x = I . 1I | E_1 = O | E_1`**. therefore, **`E_1 = RR^2`**. see [[eigen]]
+> > **proof** let **`A = I /\ ll = 1 /\ E_1 = x`**. we then have **`O = A . llI | x = I . 1I | E_1 = O | E_1`**. therefore, **`E_1 = RR^2`**. see [[eigen]]
 
 > **example** let **`MM^n,n A /\ NN n`** and suppose **`A`** has **`n`** distinct [[eigen#value]]s. deduce that **`A`** is diagonalizable over the reals
 >
@@ -331,8 +331,8 @@ let **`MM^m,n A`**. the following [[logic statement]]s are equivalent:
 - there is a leading [[variable]] in every column of the [[linear system#reduced row echelon form]] of **`A`**
 - the system **`Ax = O`** has a unique solution
 - the columns of **`A`** are [[linearly independent]]
-- **`nn A = {{O}}`**
-- **`"dim" nn A = 0`**
+- **`NN A = {{O}}`**
+- **`"dim" NN A = 0`**
 - **`"rank" A = n`**
 
 **see** [[linear system theorem proof]]
@@ -341,16 +341,16 @@ let **`MM^m,n A`**. the following [[logic statement]]s are equivalent:
 
 let **`MM^n,n A`**. the following [[logic statement]]s are equivalent:
 
-> **note** all [[logic statement]]s below are valid for both **`A`** and **`\r A`**, see [[matrix#transpose]]
+> **note** all [[logic statement]]s below are valid for both **`A`** and **`rr A`**, see [[matrix#transpose]]
 
 > **note** thinking of [[matrix]]es as [[linear transformation]]s makes the following [[logic statement]]s easier to understand intuitively
 
 - **`"rank" A = n`**
 - every [[linear system]] of the form **`Ax = b`** has a unique solution
 - the [[linear system#reduced row echelon form]] of **`A`** is the [[matrix#identity matrix]]
-- **`nn A = {{O}}`**
-- **`cc A = RR^n`**
-- **`rr A = RR^n`**
+- **`NN A = {{O}}`**
+- **`CC A = RR^n`**
+- **`RR A = RR^n`**
 - the columns of **`A`** are [[linearly independent]]
 - the rows of **`A`** are [[linearly independent]]
 - the columns of **`A`** form a [[basis]] for **`RR^n`**

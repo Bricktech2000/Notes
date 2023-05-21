@@ -28,11 +28,11 @@ the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the 
 >
 > **`2[5[@@]] = 2[5[@@:1]]`** and therefore **`x = x5`** with **`x = 2[5[@@]]`** &mdash; <https://youtu.be/3gyHKCDq1YA?t=829>
 >
-> dividing both sides by **`x`**, we get **`1 = x4`**. taking the fourth root on both sides, we get **`1 = x`**. however, acconding to <https://youtu.be/3gyHKCDq1YA?t=829>, **`x = \i`**
+> dividing both sides by **`x`**, we get **`1 = x4`**. taking the fourth root on both sides, we get **`1 = x`**. however, acconding to <https://youtu.be/3gyHKCDq1YA?t=829>, **`x = ii`**
 >
 > > **note** this [[contradiction]] could be eliminated by the following &mdash; me and <https://www.wolframalpha.com/input?i=1%5E%281%2F4%29>
 > >
-> > let **`1 = x4`**. taking the square root on both sides, we get **`x2 = {1 \/ .1}`**. taking the square root on both sides again, we get **`x = {1 \/ .1 \/ \i \/ .\i}`**. this resolves the contradiction
+> > let **`1 = x4`**. taking the square root on both sides, we get **`x2 = {1 \/ .1}`**. taking the square root on both sides again, we get **`x = {1 \/ .1 \/ ii \/ .ii}`**. this resolves the contradiction
 > >
 > > #think superposition in [[improved expression evaluation]]
 
@@ -50,9 +50,9 @@ the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the 
 
 **definition**
 
-**`||n||^p = --p[\y n p]`**, where
+**`||n||^p = --p[yy n p]`**, where
 
-- **`p[\y n p]`** is the highest power of **`p`** that divides **`n`**, see [[psi function]]
+- **`p[yy n p]`** is the highest power of **`p`** that divides **`n`**, see [[psi function]]
 - **`||n||^p`** is the [[p-adic#absolute value]] of **`n`**
 
 > **example** **`||1000||^10 = -1000`**

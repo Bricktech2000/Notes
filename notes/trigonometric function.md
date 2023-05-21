@@ -4,25 +4,25 @@
 
 **definition**
 
-let **`(x, y)`** be a point on the unit [[circle]] and let **`\a`** be the [[angle]] from the positive x-axis counterclockwise to that point. then,
+let **`(x, y)`** be a point on the unit [[circle]] and let **`aa`** be the [[angle]] from the positive x-axis counterclockwise to that point. then,
 
-**`x = "cos" \a /\ y = "sin" \a`**, and **`"tan" \a = "sin" \a -- "cos" \a`**
+**`x = "cos" aa /\ y = "sin" aa`**, and **`"tan" aa = "sin" aa -- "cos" aa`**
 
 > **note** _[[mnemonic]]_ SOHCAHTOA
 
 **properties**
 
-_[[function#periodic function]]_ **`"sin" (\a : \t) = "sin" \a`**
+_[[function#periodic function]]_ **`"sin" (aa : tt) = "sin" aa`**
 
-_[[function#periodic function]]_ **`"cos" (\a : \t) = "cos" \a`**
+_[[function#periodic function]]_ **`"cos" (aa : tt) = "cos" aa`**
 
-_[[function#periodic function]]_ **`"tan" (\a : -2\t) = "tan" \a`**
+_[[function#periodic function]]_ **`"tan" (aa : -2tt) = "tan" aa`**
 
-_[[function#even function]]_ **`"cos" (.\a) = "cos" \a`**
+_[[function#even function]]_ **`"cos" (.aa) = "cos" aa`**
 
-_[[function#odd function]]_ **`"sin" (.\a) = ."sin" \a`**
+_[[function#odd function]]_ **`"sin" (.aa) = ."sin" aa`**
 
-_[[function#odd function]]_ **`"tan" (.\a) = ."tan" \a`**
+_[[function#odd function]]_ **`"tan" (.aa) = ."tan" aa`**
 
 ## inverse functions
 
@@ -30,21 +30,21 @@ _[[function#odd function]]_ **`"tan" (.\a) = ."tan" \a`**
 
 **definitions**
 
-**`y = "sin" x == x = {"asin" y \/ ."asin" y : -2\t} : \tn /\ ZZ n`**
+**`y = "sin" x == x = {"asin" y \/ ."asin" y : -2tt} : ttn /\ ZZ n`**
 
-**`y = "cos" x == x = {"acos" y \/ ."acos" y} : \tn /\ ZZ n`**
+**`y = "cos" x == x = {"acos" y \/ ."acos" y} : ttn /\ ZZ n`**
 
-**`y = "tan" x == x = "atan" y : -2\tn /\ ZZ n`**
+**`y = "tan" x == x = "atan" y : -2ttn /\ ZZ n`**
 
 ## reciprocal functions
 
 **see** [[function#reciprocal]]
 
-**`-"sin" \a`**
+**`-"sin" aa`**
 
-**`-"cos" \a`**
+**`-"cos" aa`**
 
-**`-"tan" \a`**
+**`-"tan" aa`**
 
 **`-"asin" x`**
 
@@ -58,11 +58,11 @@ _[[function#odd function]]_ **`"tan" (.\a) = ."tan" \a`**
 
 ### pythagorean identities
 
-**`["sin" \a]2 : ["cos" \a]2 = 1`**
+**`["sin" aa]2 : ["cos" aa]2 = 1`**
 
-**`["tan" \a]2 : 1 = [-"cos" \a]2`** &mdash; derived by dividing by **`"cos" \a`**
+**`["tan" aa]2 : 1 = [-"cos" aa]2`** &mdash; derived by dividing by **`"cos" aa`**
 
-**`[-"tan" \a]2 : 1 = [-"sin" \a]2`** &mdash; derived by dividing by **`"sin" \a`**
+**`[-"tan" aa]2 : 1 = [-"sin" aa]2`** &mdash; derived by dividing by **`"sin" aa`**
 
 ### angle sum identities
 
@@ -98,20 +98,20 @@ difference identities can be computed using the sum identities above
 
 **see** [[derivative]]
 
-**`\d "sin" x -- \d x = "cos" x`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21115>
+**`dd "sin" x -- dd x = "cos" x`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21115>
 
-**`\d "cos" x -- \d x = ."sin" x`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21193>
+**`dd "cos" x -- dd x = ."sin" x`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21193>
 
-**`\d "tan" x -- \d x = [-"cos" x]2`**
+**`dd "tan" x -- dd x = [-"cos" x]2`**
 
-**`\d -"sin" x -- \d x = . | -"sin" x | -"tan" x`**
+**`dd -"sin" x -- dd x = . | -"sin" x | -"tan" x`**
 
-**`\d -"cos" x -- \d x = -"cos" x | "tan" x`**
+**`dd -"cos" x -- dd x = -"cos" x | "tan" x`**
 
-**`\d -"tan" x -- \d x = .[-"sin" x]2`**
+**`dd -"tan" x -- dd x = .[-"sin" x]2`**
 
-**`\d "asin" x -- \d x = -- \1.x2/`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29016>
+**`dd "asin" x -- dd x = -- \1.x2/`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29016>
 
-**`\d "acos" x -- \d x = . -- \1.x2/`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29111>
+**`dd "acos" x -- dd x = . -- \1.x2/`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29111>
 
-**`\d "atan" x -- \d x = -- 1 : x2`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29233>
+**`dd "atan" x -- dd x = -- 1 : x2`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29233>

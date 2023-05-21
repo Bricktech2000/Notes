@@ -4,13 +4,13 @@
 
 **definition** _in my [[math notation]]_
 
-**`\d f x -- \d x = f (x : h) . f x -- h {h -> 0} = f x . f a -- x . a {x -> a}`**
+**`dd f x -- dd x = f (x : h) . f x -- h {h -> 0} = f x . f a -- x . a {x -> a}`**
 
 **definition** _with a multivariable [[function]] in my [[math notation]]_
 
 let **`p = (x ...)`**
 
-**`\d f p -- \d p = (\d f p -- \d p^0 , \d f p -- \d p^1 , ...)`**
+**`dd f p -- dd p = (dd f p -- dd p^0 , dd f p -- dd p^1 , ...)`**
 
 **notations**
 
@@ -28,9 +28,9 @@ $\frac{d^n}{dx^n} = \frac{d^nf}{dx^n}$
 
 _in my [[math notation]]_
 
-**`\d f x -- \d x`**, see [[calculus notation]]
+**`dd f x -- dd x`**, see [[calculus notation]]
 
-**`d^n f = d^n.1 (x -> \d f x -- \d x) /\ d^0 f = f`**
+**`d^n f = d^n.1 (x -> dd f x -- dd x) /\ d^0 f = f`**
 
 **`d^n f`** would then be the **`n`**th [[derivative]] of **`f x`** with respect to **`x`**
 
@@ -42,17 +42,17 @@ _in my [[math notation]]_
 
 let **`f`** be a [[function]] differentiable at **`p = (x ...)`** and let **`v`** be a **[[vector in rn#unit vector]]**. then,
 
-**`D^v f p = :v(\d f p -- \d p)`**, where
+**`D^v f p = :v(dd f p -- dd p)`**, where
 
 - **`D^v f p`** is the [[derivative]] of **`f`** in direction **`v`** at **`p`**
-- **`\d f p -- \d p`** is the [[gradient]] of **`f`** at **`p`**
+- **`dd f p -- dd p`** is the [[gradient]] of **`f`** at **`p`**
 - **`v`** is the direction [[vector in rn]], see [[dot product]]
 
 > **examples**
 >
-> **`D^1,0 f (x, y) = \d f (x, y) -- \d x`**
+> **`D^1,0 f (x, y) = dd f (x, y) -- dd x`**
 >
-> **`D^0,1 f (x, y) = \d f (x, y) -- \d y`**
+> **`D^0,1 f (x, y) = dd f (x, y) -- dd y`**
 
 ## Partial Derivative
 
@@ -78,7 +78,7 @@ _in my [[math notation]]_
 
 in my [[math notation]], it's just a [[derivative]]:
 
-**`\d f x y -- \d x`**, see [[calculus notation]]
+**`dd f x y -- dd x`**, see [[calculus notation]]
 
 **definition**
 
@@ -98,7 +98,7 @@ the same is true with any other parameter and with any number of parameters
 
 ## differentiability
 
-**definition** a [[function]] **`f`** is _differentiable_ at **`a`** if **`\d f a -- \d x`** exists
+**definition** a [[function]] **`f`** is _differentiable_ at **`a`** if **`dd f a -- dd x`** exists
 
 **definition** a [[function]] is _differentiable_ on an interval **`a -| * -| b`** if it is differentiable on every point from **`a`** to **`b`**
 
@@ -118,29 +118,29 @@ useful for computing the [[derivative]] of an [[exponent]]ial [[function]]
 
 **examples**
 
-> **example** _logarithmic differentiation of **`x[\e[x]]`**_
+> **example** _logarithmic differentiation of **`x[ee[x]]`**_
 >
-> **`y = x[\e[x]]`**
+> **`y = x[ee[x]]`**
 >
-> **`/y\ = /x[\e[x]]\ = /x\ \e[x]`**
+> **`/y\ = /x[ee[x]]\ = /x\ ee[x]`**
 >
-> **`\d /y\ -- \d x = \d /x\ \e[x] -- \d x`**
+> **`dd /y\ -- dd x = dd /x\ ee[x] -- dd x`**
 >
-> **`--y | \d y -- \d x = -x\e[x] : /x\ \e[x]`**
+> **`--y | dd y -- dd x = -xee[x] : /x\ ee[x]`**
 >
-> **`\d y -- \d x = x[\e[x]] | -x\e[x] : /x\ \e[x]`**
+> **`dd y -- dd x = x[ee[x]] | -xee[x] : /x\ ee[x]`**
 >
 > the alternative would be the following, by transforming and using the chain [[derivative rules]]:
 >
-> **`y = x[\e[x]]`**
+> **`y = x[ee[x]]`**
 >
-> **`x[\e[x]] = \e[ /x[\e[x]]\ ] = \e[ /x\ \e[x]]`**
+> **`x[ee[x]] = ee[ /x[ee[x]]\ ] = ee[ /x\ ee[x]]`**
 >
-> **`\d y -- \d x = \d \e[ /x\ \e[x]] -- \d x`**
+> **`dd y -- dd x = dd ee[ /x\ ee[x]] -- dd x`**
 >
-> **`\d y -- \d x = \e[ /x\ \e[x]] | \d /x\ \e[x] -- \d x`**
+> **`dd y -- dd x = ee[ /x\ ee[x]] | dd /x\ ee[x] -- dd x`**
 >
-> **`\d y -- \d x = x[\e[x]] | -x\e[x] : /x\ \e[x]`**
+> **`dd y -- dd x = x[ee[x]] | -xee[x] : /x\ ee[x]`**
 
 > **example** _logarithmic differentiation of **`[x]x`**_
 >
@@ -148,11 +148,11 @@ useful for computing the [[derivative]] of an [[exponent]]ial [[function]]
 >
 > **`/y\ = x /x\`**
 >
-> **`\d /y\ -- \d x = \d x /x\ -- \d x`**
+> **`dd /y\ -- dd x = dd x /x\ -- dd x`**
 >
-> **`--y | \d y -- \d x = 1 : /x\`**
+> **`--y | dd y -- dd x = 1 : /x\`**
 >
-> **`\d y -- \d x = y | 1 : /x\ = [x]x | 1 : /x\`**
+> **`dd y -- dd x = y | 1 : /x\ = [x]x | 1 : /x\`**
 
 ## Implicit Differentiation
 
@@ -162,20 +162,20 @@ differentiation of an implicit equation (where the dependent [[variable]] is not
 >
 > **`x2 : y2 = 2`**
 >
-> **`\d (x2 : y2) -- \d x = \d 2 -- \d x`**
+> **`dd (x2 : y2) -- dd x = dd 2 -- dd x`**
 >
-> **`2x : 2y(\d y -- \d x) = 0`**
+> **`2x : 2y(dd y -- dd x) = 0`**
 >
-> **`\d y -- \d x = .x -- y`**
+> **`dd y -- dd x = .x -- y`**
 >
 > or alternatively,
 >
 > **`x2 : y2 = 2`**
 >
-> **`\d x2 : \d y2 = \d 2`**
+> **`dd x2 : dd y2 = dd 2`**
 >
-> **`2x \d x : 2y \d y = 0`**
+> **`2x dd x : 2y dd y = 0`**
 >
-> **`\d y -- \d x = .x -- y`**
+> **`dd y -- dd x = .x -- y`**
 >
 > > **note** as both **`x`** and **`y`** are present in the equation, the [[derivative]] at **`.y`** will be different from the one at **`y`**

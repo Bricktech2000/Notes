@@ -10,7 +10,7 @@ the [[determinant]] is all about measuring how [[area]]s change during a [[linea
 
 **properties**
 
-**`"det" A = "det" (\r A)`**, see [[matrix#transpose]]
+**`"det" A = "det" (rr A)`**, see [[matrix#transpose]]
 
 **`"det" cA = [c]n | "det" A`**, where **`n`** is the width and height of the [[matrix]]
 

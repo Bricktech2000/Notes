@@ -12,7 +12,7 @@ _results in a [[vector]] of [[vector in rn#magnitude]] ([[area]] of the parallel
 
 **definition**
 
-**`:(a "cross" b)a = :(a "cross" b)b = 0`** and **`||a||||b||"sin" \a = ||a "cross" b||`** where **`\a`** is the [[vector in rn#angle]] between **`a`** and **`b`**
+**`:(a "cross" b)a = :(a "cross" b)b = 0`** and **`||a||||b||"sin" aa = ||a "cross" b||`** where **`aa`** is the [[vector in rn#angle]] between **`a`** and **`b`**
 
 **properties**
 

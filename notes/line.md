@@ -56,13 +56,13 @@ _two [[line]]s are parallel if one of their direction [[vector]]s is a [[scalar]
 
 **`y = mx : b`**, where
 
-- **`m`** is the [[function#slope]] of the [[line]], **`\Dy . \Dx`**
+- **`m`** is the [[function#slope]] of the [[line]], **`DDy . DDx`**
 - **`b`** is the y-intercept of the [[line]] (**`y`** value when **`x = 0`**)
 
 ### Point-Slope Form
 
 **`y . y_0 = m | x . x_0`**, where
 
-- **`m`** is the [[function#slope]] of the [[line]], **`\Dy . \Dx`**
-- **`y . y_0`** is **`\Dy`**
-- **`x . x_0`** is **`\Dx`**
+- **`m`** is the [[function#slope]] of the [[line]], **`DDy . DDx`**
+- **`y . y_0`** is **`DDy`**
+- **`x . x_0`** is **`DDx`**

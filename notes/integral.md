@@ -14,7 +14,7 @@
 
 **notation** _in [[conventional math notation]]_
 
-with **`\d F x -- \d x = f`**,
+with **`dd F x -- dd x = f`**,
 
 $F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
 
@@ -22,7 +22,7 @@ $F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
 
 **definition** an _indefinite integral_ has its two endpoints missing
 
-**definition** the _integrand_ is the [[function]] being integrated. it would be **`f x`** in the [[integral]] **`$ f x | \d x`**
+**definition** the _integrand_ is the [[function]] being integrated. it would be **`f x`** in the [[integral]] **`$ f x | dd x`**
 
 ---
 
@@ -38,9 +38,9 @@ $F\ x\ \bigr|_{a}^{b} \dots = F\ b \cdot F\ a$
 
 _an [[integral]] with at least one endpoint being infinite_
 
-**theorem** **`$ f x | \d x {@@ . a} == $ f x | \d x {t . a} {t -> @@}`**
+**theorem** **`$ f x | dd x {@@ . a} == $ f x | dd x {t . a} {t -> @@}`**
 
-**theorem** **`$ f x | \d x {b . .@@} == $ f x | \d x {b . t} {t -> .@@}`**
+**theorem** **`$ f x | dd x {b . .@@} == $ f x | dd x {b . t} {t -> .@@}`**
 
 a Type I improper [[integral]] is said to:
 
@@ -51,9 +51,9 @@ a Type I improper [[integral]] is said to:
 
 _an integral whose integrand has a [[function]] discontinuity on the integration interval_
 
-**theorem** if **`f x {x -> b "from the left"} = {@@ \/ .@@}`** #think [[improved expression evaluation]], then **`$ f x | \d x {b . a} == $ f x | \d x {t . a} {t -> b "from the left"}`**
+**theorem** if **`f x {x -> b "from the left"} = {@@ \/ .@@}`** #think [[improved expression evaluation]], then **`$ f x | dd x {b . a} == $ f x | dd x {t . a} {t -> b "from the left"}`**
 
-**theorem** if **`f x {x -> a "from the right"} = {@@ \/ .@@}`** #think [[improved expression evaluation]], **`$ f x | \d x {b . a} == $ f x | \d x {b . t} {t -> a "from the right"}`**
+**theorem** if **`f x {x -> a "from the right"} = {@@ \/ .@@}`** #think [[improved expression evaluation]], **`$ f x | dd x {b . a} == $ f x | dd x {b . t} {t -> a "from the right"}`**
 
 ### comparison test
 
@@ -61,8 +61,8 @@ _an integral whose integrand has a [[function]] discontinuity on the integration
 
 let **`0 -| g x -| f x`** on an interval **`a {-|/\+} * {-|/\+} b`**, where **`a`** and **`b`** are not necessarily finite. then,
 
-- if **`$ f x | \d x {b . a}`** converges, so does **`$ g x | \d x {b . a}`**, but not conversely
-- if **`$ g x | \d x {b . a}`** diverges, so does **`$ f x | \d x {b . a}`**, but not conversely
+- if **`$ f x | dd x {b . a}`** converges, so does **`$ g x | dd x {b . a}`**, but not conversely
+- if **`$ g x | dd x {b . a}`** diverges, so does **`$ f x | dd x {b . a}`**, but not conversely
 
 ### p-test
 
@@ -70,7 +70,7 @@ let **`0 -| g x -| f x`** on an interval **`a {-|/\+} * {-|/\+} b`**, where **`a
 
 **theorem** _P-Test_
 
-the [[integral]] **`$ --[x]p | \d x {@@ . 1}`**:
+the [[integral]] **`$ --[x]p | dd x {@@ . 1}`**:
 
 - converges if **`p {|-/\+} 1`**
 - diverges if **`p -| 1`**
