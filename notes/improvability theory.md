@@ -8,9 +8,9 @@ The Improvability Theory states that:
 
 this statement implies that every theorem believed to be true has some edge cases, even if they are negligible in practice.
 
-to clarify some assumptions made in the original theorem &mdash; as any proof is based on a set of assumptions, it should be rephrased as “no proof for a theorem is valid as its list of assumption can never be considered complete.” to clarify some assumptions made in the second version of the theorem, it should be rephrased as...
+to clarify some assumptions made in the original theorem &mdash; as any proof is based on a set of assumptions, it should be rephrased as "no proof for a theorem is valid as its list of assumption can never be considered complete." to clarify some assumptions made in the second version of the theorem, it should be rephrased as...
 
-that’s meta.
+that's meta.
 
 **examples**
 
@@ -18,7 +18,7 @@ that’s meta.
 >
 > > _anything_ squared is a positive [[number]]: **`[x]2 |- 0`**
 >
-> the statement above used to be true, except on rare cases where **`x`** happens to be an [[imaginary]] number. it is right for most practical use cases, but it is in fact “almost always right”
+> the statement above used to be true, except on rare cases where **`x`** happens to be an [[imaginary]] number. it is right for most practical use cases, but it is in fact "almost always right"
 
 > **example**
 >

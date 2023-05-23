@@ -61,7 +61,7 @@ having a strict and consistent [[sleep]] schedule drastically increases [[sleep]
 
 stick to this schedule at least 6 days a week
 
-[[sleep]] has evolved to be adaptable, which is why it is so easy to disrupt one’s [[sleep]] schedule &mdash; <https://youtu.be/1aogY1Tm2Lo?t=1250>
+[[sleep]] has evolved to be adaptable, which is why it is so easy to disrupt one's [[sleep]] schedule &mdash; <https://youtu.be/1aogY1Tm2Lo?t=1250>
 
 ### pre-bedtime routine
 

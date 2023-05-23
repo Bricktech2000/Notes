@@ -66,8 +66,6 @@
 
 [[concept]] vs [[fact]]
 
-[[english bad habits]]
-
 [[boundary-interior disambiguation]]
 
 [[zero-knowledge proof]]

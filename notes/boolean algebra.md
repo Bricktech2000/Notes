@@ -163,7 +163,7 @@ _in [[conventional math notation]]_ $\Leftrightarrow$ or $\odot$ or $=$
 
 **representation**
 
-doubleconcave-pointycurve-circle [[logic gate]]. if the [[logic gate]] does not take exactly two inputs, the output of the [[logic gate]] can be thought of as “is the number of true inputs even?”
+doubleconcave-pointycurve-circle [[logic gate]]. if the [[logic gate]] does not take exactly two inputs, the output of the [[logic gate]] can be thought of as "is the number of true inputs even?"
 
 | **`A`** | **`B`** | **`A == B`** |
 | ------- | ------- | ------------ |

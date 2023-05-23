@@ -1,10 +1,10 @@
 # Procrastination
 
-_it isn’t a problem; it’s a solution_ &mdash; <https://youtu.be/DMw8G3RPWrQ?t=9715>
+_it isn't a problem; it's a solution_ &mdash; <https://youtu.be/DMw8G3RPWrQ?t=9715>
 
 &mdash; <https://youtu.be/o3YtcwPI5fw>
 
-[[procrastination]] is an umbrella term, an emergent phenomenon that’s based on all kinds of different processes &mdash; <https://youtu.be/DMw8G3RPWrQ?t=2653>
+[[procrastination]] is an umbrella term, an emergent phenomenon that's based on all kinds of different processes &mdash; <https://youtu.be/DMw8G3RPWrQ?t=2653>
 
 > **example** _procrastination for studying before a test_
 >

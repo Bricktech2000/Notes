@@ -74,6 +74,6 @@ if the [[plane]]s are not perpendicular nor parallel:
 
 to find the equation for a line, we need a direction [[vector in rn]] and a point
 
-find the direction [[vector in rn]] by calculating the [[cross product]] of the [[plane]]s’ [[normal vector]]s (think of this intuitively)
+find the direction [[vector in rn]] by calculating the [[cross product]] of the [[plane]]s' [[normal vector]]s (think of this intuitively)
 
 find the point by setting any one coordinate of the [[plane]]s to an arbitrary value, such as **`0`** to get rid of it. then, solve the [[linear system]] of two equations

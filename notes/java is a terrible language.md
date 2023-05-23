@@ -50,7 +50,7 @@ Java does **not** support [[operator]] overloading, because Java
 
 ## other criticism of java
 
-of course, there’s a Wikipedia article about Java criticism: <https://en.m.wikipedia.org/wiki/Criticism_of_Java>
+of course, there's a Wikipedia article about Java criticism: <https://en.m.wikipedia.org/wiki/Criticism_of_Java>
 
 ## java imports
 

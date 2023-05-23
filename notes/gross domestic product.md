@@ -4,7 +4,7 @@
 
 **see** [[economy]], [[math notation]]
 
-A country’s GDP is the market value of all final goods and services produced within a country in a given period of [[time]]. it is thought to be the best measure of a society’s economic well-being, and is the most closely watched [[economics]] statistic
+A country's GDP is the market value of all final goods and services produced within a country in a given period of [[time]]. it is thought to be the best measure of a society's economic well-being, and is the most closely watched [[economics]] statistic
 
 ## real GDP vs nominal GDP
 

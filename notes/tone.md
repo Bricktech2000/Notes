@@ -34,7 +34,7 @@ generally not recommended in the workplace, as it is high risk. however, sarcasm
 
 > **example** _[[problematic practice]]_
 >
-> > Sing, goddess, the rage of Peleus’ son Achilles
+> > Sing, goddess, the rage of Peleus' son Achilles
 
 ## negative tone
 

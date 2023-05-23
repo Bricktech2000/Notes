@@ -14,9 +14,9 @@ capital letters are not to be used at the beginning of sentences, unless automat
 
 ### question marks
 
-_indicate the rise of the writer’s tone_
+_indicate the rise of the writer's tone_
 
-question marks are not required at the end of a question sentence. question marks can be added at the end of non-question sentences to indicate the rise of the writer’s tone
+question marks are not required at the end of a question sentence. question marks can be added at the end of non-question sentences to indicate the rise of the writer's tone
 
 ### full stops
 

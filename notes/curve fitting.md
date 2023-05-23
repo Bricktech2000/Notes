@@ -4,7 +4,7 @@
 
 &mdash; <https://youtu.be/vIFKGFl1Cn8>
 
-except it doesn’t really work &mdash; Kiera
+except it doesn't really work &mdash; Kiera
 
 <https://www.desmos.com/calculator/eqhyj44th9>
 

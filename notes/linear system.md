@@ -38,7 +38,7 @@ the system is _consistent_ if and only if **`b`** (**`[]3 && 2 && 1[]`** in this
 
 ## Elementary Operation
 
-_operations that don’t change the general solution of a [[linear system]]_
+_operations that don't change the general solution of a [[linear system]]_
 
 - adding a multiple of a row to another row
 - swapping the position of two rows

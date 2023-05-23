@@ -8,7 +8,7 @@
 
 **properties**
 
-**`B < C == +B \/ C`** means “for all **`B`**, **`C`**”. negating, we get **`+ (B < C) == B /\ +C`**, which means “there exists a **`B`** such that **`+C`**”
+**`B < C == +B \/ C`** means "for all **`B`**, **`C`**". negating, we get **`+ (B < C) == B /\ +C`**, which means "there exists a **`B`** such that **`+C`**"
 
 the inverse is also true
 

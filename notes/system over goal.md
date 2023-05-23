@@ -24,11 +24,11 @@ because of [[system over goal]], tracking something is often better than trying 
 
 > **example** _seeing jobs in a [[system over goal]] way_
 >
-> focusing on “getting a job” is very abstract and outcome-oriented, see [[aspiration]]. instead, one should focus on “applying for 10 jobs a week”, which is a concrete [[habit]] that is easy to measure.
+> focusing on "getting a job" is very abstract and outcome-oriented, see [[aspiration]]. instead, one should focus on "applying for 10 jobs a week", which is a concrete [[habit]] that is easy to measure.
 >
-> even though that person wouldn’t be guaranteed to get a job that way (as they are not focusing on the outcome), they are still way more likely to reach the outcome (as the process is what often leads to the outcome).
+> even though that person wouldn't be guaranteed to get a job that way (as they are not focusing on the outcome), they are still way more likely to reach the outcome (as the process is what often leads to the outcome).
 >
-> “getting a job” is completely out of one’s control, but “applying to 10 jobs a week” is entirely under one’s control. this can also increase the likelihood of that person getting a job.
+> "getting a job" is completely out of one's control, but "applying to 10 jobs a week" is entirely under one's control. this can also increase the likelihood of that person getting a job.
 
 > **example** _how "the process" can be very valuable_
 >
