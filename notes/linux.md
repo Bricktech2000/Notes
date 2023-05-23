@@ -1,6 +1,6 @@
 # Linux
 
-_a family of open-source Unix-like [[operating system]]s based on the Linux kernel_
+_a family of open-source Unix-like [[operating system]]s based on the Linux kernel_
 
 > Linux is great when you're a power user and Linux-based systems are great when you program a lot
 >

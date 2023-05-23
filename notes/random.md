@@ -567,6 +567,14 @@ the last element of a [[list]]
 
 ---
 
+[[string]] **`(0, 1, 0, 1, 1)`** on a [[set]] **`{{0, 1}}`**
+
+**`"str" S = s -> /\ S s *`**
+
+**`"str" {{0, 1}} (0, 1, 0, 1, 1)`** is **`^^`**
+
+---
+
 obsidian is all-in-one for note-taking
 
 Vim does text editing for everything

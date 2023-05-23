@@ -91,7 +91,7 @@ a [[group]] where group elements are morophisms and composition is [[group]] mul
 
 exponintials are functions &mdash; <https://youtu.be/gui_SE8rJUM?t=1950>
 
-system F (polymorphism) and system Fω (constructor on types) &mdash; <https://youtu.be/gui_SE8rJUM?t=2074>
+system F (polymorphism) and system F&omega; (constructor on types) &mdash; <https://youtu.be/gui_SE8rJUM?t=2074>
 
 duals are DeMorgan's laws in category theory &mdash; <https://youtu.be/gui_SE8rJUM?t=2176>
 

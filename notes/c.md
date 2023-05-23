@@ -23,7 +23,7 @@ _assembly with syntactic sugar_
 #include <stdio.h>
 
 int main(void) {
-  short a[4] = {1, 2, 3, 4};
+  short a[4] = {1, 2, 3, 4};
 
   printf("%d", a[3]); // 4
   printf("%d", 3[a]); // 4
@@ -563,13 +563,17 @@ _variable-length arrays_ (VLAs) are a [[c]] feature that allows for the declarat
 > }
 > ```
 
-> **example** _VLA in function prototype scope_ #todo
+> **example** _VLA in function prototype scope_
+>
+> the [[function]] below takes a 2D [[array]] of any size. to index into a multi-dimensional array, the compiler needs to know the sizes of its innermost dimensions, which, in this case, are unknown at compile time. this would be somewhat awkward to accomplish without VLAs
 >
 > ```c
->
+> int matrix_sum(size_t rows, size_t cols, int matrix[rows][cols]) {
+>   // ...
+> }
 > ```
 
-#todo currently on page 114
+#todo currently on page 119
 
 ## reserved identifiers
 

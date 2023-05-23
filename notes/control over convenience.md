@@ -6,7 +6,7 @@ as a general rule, I seem to prefer control over convenience. it is often very f
 >
 > - FPV drones over DJI drones
 > - device sleep timeouts set to _never_ over automatic sleep
-> - [[android]]’s flexibility over iOS’ simplicity
+> - [[android]]'s flexibility over iOS' simplicity
 > - Nutrition facts table over Mexico's warning labels
 
 > **examples** _where I prefer convenience &mdash; with rationale_

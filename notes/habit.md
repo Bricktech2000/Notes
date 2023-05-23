@@ -63,9 +63,9 @@ _[[habit#formation]]_
 > >
 > > I also slept better. And when I was awake, I seemed more productive. Especially in the hour or two after working out, when my mind seemed to think clearer and my writing was crisper. Thoughts flowed easily.
 > >
-> > When I didn’t exercise, however, I was more prone to eating junk food. I would stay up later working on unimportant tasks. I started to feel tension in my back. I didn’t check it, but my guess is that my blood pressure raised as a result of additional stress and no place to release it.
+> > When I didn't exercise, however, I was more prone to eating junk food. I would stay up later working on unimportant tasks. I started to feel tension in my back. I didn't check it, but my guess is that my blood pressure raised as a result of additional stress and no place to release it.
 > >
-> > In other words, fitness is the keystone habit the puts the rest of my life in place. When I workout, other things naturally fall into place. I don’t have to think about eating better. I don’t have to force myself to focus on getting things done. Exercise naturally pushes me towards my best self.
+> > In other words, fitness is the keystone habit the puts the rest of my life in place. When I workout, other things naturally fall into place. I don't have to think about eating better. I don't have to force myself to focus on getting things done. Exercise naturally pushes me towards my best self.
 >
 > &mdash; <https://jamesclear.com/keystone-habits>
 

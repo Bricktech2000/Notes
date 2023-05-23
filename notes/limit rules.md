@@ -50,7 +50,9 @@ let **`f x -| g x -| h x`** for **`x`** near a value **`a`**
 
 if **`f x {x -> a} = h x {x -> a} = L`**, then **`g x {x -> a} = L`**
 
-## l'Hôpital's rule
+## l'Hopital's rule
+
+**aka** _L'Hôpital's rule_
 
 _used to compute [[limit]]s in [[limit#indeterminate form]]s using their [[derivative]]s_
 
@@ -60,7 +62,7 @@ let **`f x`** and **`g x`** be differentiable [[function]]s on an open interval 
 
 intuitive explanation &mdash; <https://youtu.be/kfF40MiS7zA?t=734>
 
-other [[limit#indeterminate form]]s can be rewritten to use L'Hôpital's rule:
+other [[limit#indeterminate form]]s can be rewritten to use L'Hopital's rule:
 
 - **`@@ -- @@`**: **`(--@@) -- (--@@) -> 0 -- 0`**
 - **`0 | @@`**: **`0 -- (--@@) -> 0 -- 0`** or **`(--0) -- @@ -> 0 -- 0`**
@@ -70,7 +72,7 @@ other [[limit#indeterminate form]]s can be rewritten to use L'Hôpital's rule:
 
 **examples**
 
-> **example** _[[limit]]s that can be computed using L'Hôpital's rule_:
+> **example** _[[limit]]s that can be computed using L'Hopital's rule_:
 >
 > **`x -- 3[x] {x -> @@}`**
 >

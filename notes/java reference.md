@@ -16,16 +16,16 @@ using the `==` [[operator]] on reference [[type]]s compares their location in me
 
 ```java
 public class References {
- public static void main(String[] args) {
-   String a = "asdf";
-   String b = "asdf";
-   String c = "a" + "sdf";
-   String first = "a";
-   String d = first + "sdf";
+  public static void main(String[] args) {
+    String a = "asdf";
+    String b = "asdf";
+    String c = "a" + "sdf";
+    String first = "a";
+    String d = first + "sdf";
 
-   System.out.println(a == b); // true
-   System.out.println(a == c); // true
-   System.out.println(a == d); // false
- }
+    System.out.println(a == b); // true
+    System.out.println(a == c); // true
+    System.out.println(a == d); // false
+  }
 }
 ```

@@ -4,7 +4,7 @@
 
 > **note** the [[cross product]] is only defined for [[vector in rn]]3
 
-_results in a [[vector]] of [[vector in rn#magnitude]] ([[area]] of the parallelogram formed by the two [[vector]]s) and of orientation (perpendicular to the [[plane]] formed by the two [[vector]]s)_ — 3B1B
+_results in a [[vector]] of [[vector in rn#magnitude]] ([[area]] of the parallelogram formed by the two [[vector]]s) and of orientation (perpendicular to the [[plane]] formed by the two [[vector]]s)_ &mdash; 3B1B
 
 **definition**, see #magic
 

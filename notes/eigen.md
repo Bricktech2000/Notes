@@ -68,7 +68,7 @@ let **`MM^n,n A /\ NN n`**
 >
 > **`E_ll = NN (A.llI)`**, where
 >
-> **`E_ll`** is the _[[eigen#space]]_ of **`A`** corresponding to the [[eigen#value]] **`ll`** (this [[vector space]] is called the λ-[[eigen#space]] of **`A`**)
+> **`E_ll`** is the _[[eigen#space]]_ of **`A`** corresponding to the [[eigen#value]] **`ll`** (this [[vector space]] is called the &lambda;-[[eigen#space]] of **`A`**)
 >
 > the [[eigen#vector]]s of **`A`** associated with the [[eigen#value]] **`ll`** are all the nonzero [[vector]]s in **`E_ll`**. therefore, instead of finding the [[eigen#vector]]s corresponding to the known [[eigen#value]], we will find a basis for the [[eigen#space]]
 >

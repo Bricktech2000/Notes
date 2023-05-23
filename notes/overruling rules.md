@@ -2,7 +2,7 @@
 
 _the philosophical flaw in the idea of a rule itself_
 
-rules are put in place for a reason. however, if one understands thoroughly the motivation behind a rule’s existence, they can make decisions that do not obey the rule. said decisions are virtually risk-free, but are legally still a violation of the rule.
+rules are put in place for a reason. however, if one understands thoroughly the motivation behind a rule's existence, they can make decisions that do not obey the rule. said decisions are virtually risk-free, but are legally still a violation of the rule.
 
 > **examples**
 >

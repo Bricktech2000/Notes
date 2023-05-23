@@ -23,6 +23,8 @@ explicitly link [[concept]]s and ideas together instead of listing them
 
 ## nonverbals
 
+**see** [[nonverbal]]
+
 keep visual contact with the audience
 
 ### speaker confidence
