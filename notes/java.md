@@ -1,6 +1,6 @@
 # Java
 
-_just a terrible programming language_
+_just a terrible [[programming language]]_
 
 **see** [[java is a terrible language]]
 

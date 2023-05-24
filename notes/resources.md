@@ -30,3 +30,6 @@
 - _The Duct Tape Programmer_ by Joel Spolsky <https://www.joelonsoftware.com/2009/09/23/the-duct-tape-programmer/>
 - LYT Kit &mdash; <https://www.linkingyourthinking.com/lyt-kit-course/onboarding>
 - _Plain Text_ talk (alias PIKE MATCHBOX) by Dylan Beattie &mdash; <https://youtu.be/_mZBa3sqTrI>
+- _the [[yaml]] document from hell_, about the complexity of [[yaml]] &mdash; <https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell>
+- _[[go]] at Google: Language Design in the Service of [[software engineering]]_ &mdash; <https://go.dev/talks/2012/splash.article>
+- _why [[go]] is not good_, article sharing my opinions on the language &mdash; <https://yager.io/programming/go.html>

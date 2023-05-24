@@ -1,5 +1,7 @@
 # Solidity
 
+_a high-level language for implementing smart contracts_
+
 &mdash; <https://youtu.be/EhPeHeoKF88>
 
 &mdash; <https://www.bitdegree.org/learn/solidity-variables>
@@ -204,7 +206,7 @@ contract Counter {
 
 ```
 
-## left to learn
+## #todo left to learn
 
 ```solidity
 memory
