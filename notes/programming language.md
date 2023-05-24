@@ -32,12 +32,12 @@ graph TD
 
 **examples** _languages in the rough order I learned them_
 
-1. Visual Basic Script (and Batch)
-2. [[javascript]] (and HTML and CSS)
+1. Visual Basic Script and Batch
+2. [[javascript]] and HTML and CSS
 3. [[c++]]
 4. [[python]]
 5. [[rust]]
-6. [[java]] (forced in university)
+6. [[java]] (familiar, forced in university)
 7. [[solidity]] (familiar)
 8. [[c]]
 
@@ -48,6 +48,8 @@ graph TD
 [[markup language idea]]
 
 [[iota language]]
+
+[[go]]
 
 **examples** _other types of languages_
 

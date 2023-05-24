@@ -1,6 +1,6 @@
 # C++
 
-_C with OOP_
+_[[c]] with OOP_
 
 **see** [[c]], [[object-oriented programming]], [[math notation]]
 

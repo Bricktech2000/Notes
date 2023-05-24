@@ -1,6 +1,6 @@
 # YAML
 
-_a very complex human-friendly data interchange format_
+_a highly complex human-friendly data interchange format_
 
 **see** [[json]]
 

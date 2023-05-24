@@ -55,7 +55,7 @@ _the world's most widely used system of measurement_
 | --------- | ---------------------- |
 | **`c`**   | [[speed of causality]] |
 | **`h`**   | [[planck constant]]    |
-| **`N_a`** | [[avogadro constant]]  |
+| **`N_A`** | [[avogadro constant]]  |
 | ...       | ...                    |
 
 &mdash; Wikipedia
