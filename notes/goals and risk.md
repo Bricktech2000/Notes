@@ -1,4 +1,4 @@
-# goals and risk
+# Goals and Risk
 
 _philosophical thought on [[goal]]s_
 
