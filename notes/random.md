@@ -552,7 +552,7 @@ the last element of a [[list]]
 
 **`V (# V . 1) == {* (#.1)} V`**
 
-**`FF {<-} {*} (#.1) V == {<-} ({*} V) ((#.1) V) == V (# V . 1)`**, see [[combinatory logic#phi combinator]]
+**`HH {<-} {*} (#.1) V == {<-} ({*} V) ((#.1) V) == V (# V . 1)`**, see [[combinatory logic#phi combinator]]
 
 ---
 

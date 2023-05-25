@@ -25,7 +25,7 @@ _in [[conventional math notation]]_ $P_n(\mathbb R)$
 
 **properties**
 
-**`PP^n -| FF > NN n`**, see [[function#vector space]]
+**`PP^n -| HH > NN n`**, see [[function#vector space]]
 
 **properties**
 

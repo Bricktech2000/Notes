@@ -22,7 +22,7 @@ loosely speaking, a [[field]] is a [[set]] of numbers with certain properties an
 
 &mdash; Encode x Solana Bootcamp
 
-let **`a, b, c`** be numbers in a [[field]] **`FF`**
+let **`a, b, c`** be numbers in a [[field]] **`HH`**
 
 _associativity of addition_ **`a : (b : c) = (a : b) : c`**
 
@@ -32,13 +32,13 @@ _commutativity of addition_ **`a : b = b : a`**
 
 _commutativity of multiplication_ **`ab = ba`**
 
-_additive identity_ **`FF O /\ a : O = a`**
+_additive identity_ **`HH O /\ a : O = a`**
 
-_multiplicative identity_ **`FF I /\ aI = a`**
+_multiplicative identity_ **`HH I /\ aI = a`**
 
-_additive inverse_ **`FF (.a) /\ a : (.a) = O`**
+_additive inverse_ **`HH (.a) /\ a : (.a) = O`**
 
-_multiplicative inverse_ **`FF (-a) /\ a(-a) = I`**
+_multiplicative inverse_ **`HH (-a) /\ a(-a) = I`**
 
 _distributivity of multiplication over addition_ **`a(b : c) = ab : ac`**
 
