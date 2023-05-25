@@ -91,7 +91,7 @@ the _dimension of a vector space_ is equal to the number of [[vector]]s in any [
 >
 > - **`"dim" RR^2 = 2`**
 > - **`"dim" PP^2 = 3`**
-> - **`"dim" FF = @@`**
+> - **`"dim" HH = @@`**
 > - **`"dim" MM^3,4 = 12`**
 > - **`"dim" V = 2`** where **`V`** is a [[plane#plane in r3]]
 > - **`"dim" V = 1`** where **`V`** is a [[line#line in r3]] or in **`RR^2`**

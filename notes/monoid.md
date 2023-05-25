@@ -12,13 +12,13 @@ it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] un
 
 **definition**
 
-let a binary [[operator]] **`{*}`** on a [[set]] **`S`**. for them to form a [[monoid]], the following [[axiom]]s must be satisfied for all **`S a /\ S b /\ S c`**:
+let a binary [[operator]] **`{\*}`** on a [[set]] **`S`**. for them to form a [[monoid]], the following [[axiom]]s must be satisfied for all **`S a /\ S b /\ S c`**:
 
-_associativity_ **`(a * b) * c = a * (b * c)`**
+_associativity_ **`(a \* b) \* c = a \* (b \* c)`**
 
-_identity element_ **`a * I = a /\ S I`**
+_identity element_ **`a \* I = a /\ S I`**
 
-_closure_ **`S (a * b)`**
+_closure_ **`S (a \* b)`**
 
 &mdash; Wikipedia
 
@@ -26,7 +26,7 @@ _closure_ **`S (a * b)`**
 
 **applications**
 
-_closure_ allows the binary operation to be used on a list of elements of the set **`S`**. this is known as a `reduce` operation in [[functional programming]]. as examples, `[1, 2, 3].reduce(+) = 1 + 2 + 3 = 6` and `["a", "b", "c"].reduce(&) = "a" & "b" & "c" = "abc"`.
+_closure_ allows the binary operation to be used on a list of elements of the set **`S`**. this is known as the _[[reduce function]]_ in [[functional programming]]. as examples, `[1, 2, 3].reduce(+) = 1 + 2 + 3 = 6` and `["a", "b", "c"].reduce(&) = "a" & "b" & "c" = "abc"`.
 
 _associativity_ allows for [[divide and conquer]] [[algorithm]]s
 
@@ -34,7 +34,7 @@ _associativity_ allows for automatic parallelization of operations throughout mu
 
 _associativity_ allows for incremental accumulation. if we have already computed `(1 + 2 + 3) = 6`, we can compute `(1 + 2 + 3) + 4 = 6 + 4 = 10` without having to recompute the result of `(1 + 2 + 3)`
 
-_identity element_ allows for the binary operation to be used when data is empty or missing; on an empty list, for instance. this is known as a `fold` operation in [[functional programming]]. as examples, `[].reduce(+) = 0` and `[].reduce(&) = ""`.
+_identity element_ allows for the binary operation to be used when data is empty or missing; on an empty list, for instance. this is known as the _fold function_ in [[functional programming]]. as examples, `[].reduce(+) = 0` and `[].reduce(&) = ""`.
 
 **examples**
 

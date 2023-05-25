@@ -19,7 +19,7 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear transformation]] **
 
 **properties**
 
-**`TT < FF`**, see [[function#vector space]]
+**`TT < HH`**, see [[function#vector space]]
 
 ## Standard Matrix
 

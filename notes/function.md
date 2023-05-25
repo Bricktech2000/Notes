@@ -6,8 +6,8 @@
 
 a [[function]] **`HH`** between [[set]]s **`A`** and **`B`** is a [[relation]] between **`A`** and **`B`** such that:
 
-1. **`HH (a, b) /\ B b > A a`** or alternatively **`B f a > A a`** &mdash; there exists some output for every input
-2. **`HH (a, b_1) /\ HH (a, b_2) < b_1 = b_2`** or alternatively **`a_1 = a_2 < f a_1 = f a_2`** &mdash; there exists exactly one output for any input
+1. **`HH {a, b} /\ B b > A a`** or alternatively **`B h a > A a`** &mdash; there exists some output for every input
+2. **`HH {a, b_1} /\ HH {a, b_2} < b_1 = b_2`** or alternatively **`a_1 = a_2 < h a_1 = h a_2`** &mdash; there exists exactly one output for any input
 
 one can use the _horizontal [[line]] test_ to determine whether the graph of a [[curve]] is the graph of a [[function]]
 
@@ -37,7 +37,7 @@ one can use the _horizontal [[line]] test_ to determine whether the graph of a [
 
 **see** [[vector]], [[vector space]]
 
-**definition** **`FF f`** if and only if the [[function]] **`f`** is defined on its whole [[function#domain]]
+**definition** **`HH f`** if and only if the [[function]] **`f`** is defined on its whole [[function#domain]]
 
 #think if and only if it is a [[set theory]]etical [[function]]?
 
