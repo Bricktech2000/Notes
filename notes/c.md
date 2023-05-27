@@ -130,8 +130,13 @@ _thread_ lifetimes #todo
 
 ```c
 _Bool // boolean
-char // character
 void // void
+
+// characters
+char
+wchar_t
+char16_t // UTF-16
+char32_t // UTF-32
 
 // signed integer data
 signed char
@@ -156,8 +161,6 @@ long double
 enum, struct, union, typedef
 ```
 
-**note** until C23, `void f();` declares a function that takes any number of arguments of any type. `void f(void);` declares a function that takes no arguments. the former is to be avoided &mdash; <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++>
-
 > **examples**
 >
 > ```c
@@ -179,14 +182,6 @@ enum, struct, union, typedef
 > int f(void);
 >
 > typedef unsigned int uint_type;
-> ```
-
-> **note** `stdbool.h` defines the following:
->
-> ```c
-> #define bool _Bool
-> #define true 1
-> #define false 0
 > ```
 
 > **example**
@@ -215,11 +210,21 @@ enum, struct, union, typedef
 > - `schar_p` is a pointer to `signed char *`
 > - `fp` is an alias to `char(*)(void)`
 
+until C23, `void f();` declares a function that takes any number of arguments of any type. `void f(void);` declares a function that takes no arguments. the former is to be avoided &mdash; <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++>
+
+`stdbool.h` defines the following:
+
+```c
+#define bool _Bool
+#define true 1
+#define false 0
+```
+
 **definition** an _lvalue_ is an expression that refers to an object; it makes sense for it to be on the left (or right) side of an assignment
 
 **definition** an _rvalue_ is an expression that does not refer to an object; it only makes sense for it to be on the right side of an assignment
 
-### type qualifiers
+## type qualifiers
 
 **definition** _type qualifiers_ are keywords that modify the meaning of a type &mdash; GitHub Copilot
 
@@ -258,7 +263,7 @@ enum, struct, union, typedef
 > copy(s, s + 1); // undefined behavior
 > ```
 
-### tags
+## tags
 
 tags are a special naming mechanism for `enum`, `struct`, and `union` types. they live in a seperate namespace than that of ordinary identifiers
 
@@ -280,7 +285,7 @@ tags are a special naming mechanism for `enum`, `struct`, and `union` types. the
 > } tnode;
 > ```
 
-### flexible array members
+## flexible array members
 
 [[c]] allows the last member of a `struct` to be a _flexible array member_ &mdash; an array of unspecified length. calling `sizeof` on a `struct` with a _flexible array member_ will return the size of the `struct` disregarding the flexible array member
 
@@ -293,6 +298,134 @@ tags are a special naming mechanism for `enum`, `struct`, and `union` types. the
 > };
 >
 > struct s *p = malloc(sizeof(struct s) + 10 * sizeof(int));
+> ```
+
+## statements
+
+[[c]] includes the following statements, most of which are self-explanatory:
+
+```c
+if (expression) statement
+
+if (expression) statement else statement
+
+while (expression) statement
+
+do statement while (expression);
+
+for (expression; expression; expression) statement
+
+switch (expression) statement
+
+goto label;
+
+continue;
+
+break;
+
+return expression;
+```
+
+the type of the controlling expression to a `switch` statement must be an _integer type_. _integer promotions_ are performed on the controlling expression. the constant expression in each `case` label is converted to the type of the promoted controlling expression
+
+returning no value from a non-`void` [[function]] (through `return;` or through control reaching the end of the [[function]] body) and subsequently using the returned value is _undefined behavior_ in [[c]]
+
+## reserved identifiers
+
+any identifier matching the [[regular expression]]s `/__.*/` or `/_[A-Z].*/` or `/int[0-9a-z_]*_t/` or `/uint[0-9a-z_]*_t/` is reserved and is not to be used
+
+## order of evaluation
+
+_the order of evaluation of the operands of any [[c]] [[operator]], including the order of evaluation of any subexpressions, is generally unspecified behavior_ &mdash; Effective C
+
+> **example**
+>
+> ```c
+> int f(void);
+> int g(void);
+> int sum = f() + g(); // order of evaluation is unspecified
+> int max = max(f(), g()); // order of evaluation is unspecified
+> ```
+
+_if a side effect is unsequenced relative to either a different side effect on the same scalar of a value computation that uses the value of the same scalar object, the code has undefined behavior_ &mdash; Effective C
+
+> **example**
+>
+> ```c
+> int i = 5;
+> printf("%d\n", i++ * i++); // undefined behavior
+> printf("%d %d\n", i++, i); // undefined behavior
+> ```
+
+it is guaranteed that the `&&` and `||` [[operator]]s will evaluate their operands from left to right. the `&&` and `||` [[operator]]s "short-circuit" in [[c]]
+
+it is guaranteed that the `? :` [[operator]] will evaluate its first operand before its second or third operand. only one of the second and third operands will be evaluated
+
+## dynamic allocation
+
+### heap allocation
+
+`stdlib.h` defines various [[function]]s for dealing with dynamic memory allocation, including `malloc`, `calloc`, `realloc` and `free`. [[c]] memory allocation [[function]]s will ensure proper alignment so any [[type]] can be correctly stored in the allocated memory
+
+> **note**
+>
+> in [[c]], a `void *` is implicitly converted to any other pointer type
+>
+> > **example**
+> >
+> > the following is valid [[c]]:
+> >
+> > ```c
+> > int *pi = malloc(sizeof(int));
+> > ```
+
+> **note** reading uninitialized memory is not _undefined behavior_ in [[c]]. with that said, is is not a great idea to do so
+
+`void *malloc(size_t size)` allocates `size` bytes of memory and returns a pointer to the allocated memory. the memory is not initialized. if `size == 0`, `malloc` returns either `NULL` or a unique pointer value that can later be passed to `free`. if `malloc` fails to allocate memory, it returns `NULL`
+
+`void *calloc(size_t nmemb, size_t size)` allocates `nmemb * size` bytes of memory and returns a pointer to the allocated memory. the memory is initialized to all bits zero. if `nmemb == 0` or `size == 0`, `calloc` returns either `NULL` or a unique pointer value that can later be passed to `free`. if `nmemb * size` overflows, `calloc` returns `NULL`. if `calloc` fails to allocate memory, it returns `NULL`
+
+`void *realloc(void *ptr, size_t size)` changes the size of the memory block pointed to by `ptr` to `size` bytes and returns a pointer to the reallocated memory. the contents of the memory block are preserved up to the lesser of the new and old sizes. if `ptr == NULL`, `realloc` behaves like `malloc`. if `size == 0`, `realloc` behaves like `free`. if `realloc` fails to allocate memory, it returns `NULL` and leaves the original memory block unchanged
+
+> **example**
+>
+> the following leaks memory:
+>
+> ```c
+> int *p = malloc(0x10);
+> // ...
+> if ((p = realloc(p, 0x20)) == NULL) return NULL;
+> ```
+
+`void free(void *ptr)` frees the memory block pointed to by `ptr`. if `ptr == NULL`, `free` does nothing. calling `free` on a pointer that was not returned by `malloc`, `calloc` or `realloc` is _undefined behavior_ in [[c]]. calling `free` on a pointer that has already been freed is _undefined behavior_ in [[c]]
+
+> **note** to mitigate issues with dangling pointers and double-frees, it is considered good practice to set pointers to `NULL` after freeing them
+
+### stack allocation
+
+`void *alloca(size_t size)` is a [[function]] that allocates memory on the stack. it is not part of the [[c]] standard, but is supported by many [[c]] compilers. `alloca` is declared in `alloca.h`. using `alloca` is risky:
+
+- `alloca` can very quickly cause a stack overflow if used incorrectly
+- calling `free` on a pointer returned by `alloca` is _undefined behavior_ in [[c]]
+
+_variable-length arrays_ (VLAs) are a [[c]] feature that allows for the declaration of [[array]]s with runtime-specified lengths in the current [[stack]] frame. calling `sizeof` on a VLA will be evaluated at runtime
+
+> **example** _VLA in block scope_
+>
+> ```c
+> void func(size_t size) {
+>   int vla[size];
+> }
+> ```
+
+> **example** _VLA in function prototype scope_
+>
+> the [[function]] below takes a 2D [[array]] of any size. to index into a multi-dimensional array, the compiler needs to know the sizes of its innermost dimensions, which, in this case, are unknown at compile time. this would be somewhat awkward to accomplish without VLAs
+>
+> ```c
+> int matrix_sum(size_t rows, size_t cols, int matrix[rows][cols]) {
+>   // ...
+> }
 > ```
 
 ## arithmetic
@@ -476,132 +609,36 @@ the `,` [[operator]] evaluates its left operand, discards the result, then evalu
 > f(a, t+2, c);
 > ```
 
-## statements
+#todo currently on page 130
 
-[[c]] includes the following statements, most of which are self-explanatory:
+## textual data
+
+### character literals
+
+**see** [[ascii]]
 
 ```c
-if (expression) statement
-
-if (expression) statement else statement
-
-while (expression) statement
-
-do statement while (expression);
-
-for (expression; expression; expression) statement
-
-switch (expression) statement
-
-goto label;
-
-continue;
-
-break;
-
-return expression;
+'a' // int
+L'a' // wchar_t
+u'a' // char16_t
+U'a' // char32_t
 ```
 
-the type of the controlling expression to a `switch` statement must be an _integer type_. _integer promotions_ are performed on the controlling expression. the constant expression in each `case` label is converted to the type of the promoted controlling expression
+| escape sequence | description     |
+| --------------- | --------------- |
+| `'\'`           | Apostrophe      |
+| `'\"'`          | Quotation Mark  |
+| `'\?'`          | Question Mark   |
+| `'\\'`          | Backslash       |
+| `'\a'`          | Alert           |
+| `'\b'`          | Backspace       |
+| `'\f'`          | Form Feed       |
+| `'\n'`          | Newline         |
+| `'\r'`          | Carriage Return |
+| `'\t'`          | Horizontal Tab  |
+| `'\v'`          | Vertical Tab    |
+| `'\0'`          | Null            |
+| `'\xhh'`        | Hexadecimal     |
+| `'\ooo'`        | Octal           |
 
-returning no value from a non-`void` [[function]] (through `return;` or through control reaching the end of the [[function]] body) and subsequently using the returned value is _undefined behavior_ in [[c]]
-
-## dynamic allocation
-
-### heap allocation
-
-`stdlib.h` defines various [[function]]s for dealing with dynamic memory allocation, including `malloc`, `calloc`, `realloc` and `free`. [[c]] memory allocation [[function]]s will ensure proper alignment so any [[type]] can be correctly stored in the allocated memory
-
-> **note**
->
-> in [[c]], a `void *` is implicitly converted to any other pointer type
->
-> > **example**
-> >
-> > the following is valid [[c]]:
-> >
-> > ```c
-> > int *pi = malloc(sizeof(int));
-> > ```
-
-> **note** reading uninitialized memory is not _undefined behavior_ in [[c]]. with that said, is is not a great idea to do so
-
-`void *malloc(size_t size)` allocates `size` bytes of memory and returns a pointer to the allocated memory. the memory is not initialized. if `size == 0`, `malloc` returns either `NULL` or a unique pointer value that can later be passed to `free`. if `malloc` fails to allocate memory, it returns `NULL`
-
-`void *calloc(size_t nmemb, size_t size)` allocates `nmemb * size` bytes of memory and returns a pointer to the allocated memory. the memory is initialized to all bits zero. if `nmemb == 0` or `size == 0`, `calloc` returns either `NULL` or a unique pointer value that can later be passed to `free`. if `nmemb * size` overflows, `calloc` returns `NULL`. if `calloc` fails to allocate memory, it returns `NULL`
-
-`void *realloc(void *ptr, size_t size)` changes the size of the memory block pointed to by `ptr` to `size` bytes and returns a pointer to the reallocated memory. the contents of the memory block are preserved up to the lesser of the new and old sizes. if `ptr == NULL`, `realloc` behaves like `malloc`. if `size == 0`, `realloc` behaves like `free`. if `realloc` fails to allocate memory, it returns `NULL` and leaves the original memory block unchanged
-
-> **example**
->
-> the following leaks memory:
->
-> ```c
-> int *p = malloc(0x10);
-> // ...
-> if ((p = realloc(p, 0x20)) == NULL) return NULL;
-> ```
-
-`void free(void *ptr)` frees the memory block pointed to by `ptr`. if `ptr == NULL`, `free` does nothing. calling `free` on a pointer that was not returned by `malloc`, `calloc` or `realloc` is _undefined behavior_ in [[c]]. calling `free` on a pointer that has already been freed is _undefined behavior_ in [[c]]
-
-> **note** to mitigate issues with dangling pointers and double-frees, it is considered good practice to set pointers to `NULL` after freeing them
-
-### stack allocation
-
-`void *alloca(size_t size)` is a [[function]] that allocates memory on the stack. it is not part of the [[c]] standard, but is supported by many [[c]] compilers. `alloca` is declared in `alloca.h`. using `alloca` is risky:
-
-- `alloca` can very quickly cause a stack overflow if used incorrectly
-- calling `free` on a pointer returned by `alloca` is _undefined behavior_ in [[c]]
-
-_variable-length arrays_ (VLAs) are a [[c]] feature that allows for the declaration of [[array]]s with runtime-specified lengths in the current [[stack]] frame. calling `sizeof` on a VLA will be evaluated at runtime
-
-> **example** _VLA in block scope_
->
-> ```c
-> void func(size_t size) {
->   int vla[size];
-> }
-> ```
-
-> **example** _VLA in function prototype scope_
->
-> the [[function]] below takes a 2D [[array]] of any size. to index into a multi-dimensional array, the compiler needs to know the sizes of its innermost dimensions, which, in this case, are unknown at compile time. this would be somewhat awkward to accomplish without VLAs
->
-> ```c
-> int matrix_sum(size_t rows, size_t cols, int matrix[rows][cols]) {
->   // ...
-> }
-> ```
-
-#todo currently on page 119
-
-## reserved identifiers
-
-any identifier matching the [[regular expression]]s `/__.*/` or `/_[A-Z].*/` or `/int[0-9a-z_]*_t/` or `/uint[0-9a-z_]*_t/` is reserved and is not to be used
-
-## order of evaluation
-
-_the order of evaluation of the operands of any [[c]] [[operator]], including the order of evaluation of any subexpressions, is generally unspecified behavior_ &mdash; Effective C
-
-> **example**
->
-> ```c
-> int f(void);
-> int g(void);
-> int sum = f() + g(); // order of evaluation is unspecified
-> int max = max(f(), g()); // order of evaluation is unspecified
-> ```
-
-_if a side effect is unsequenced relative to either a different side effect on the same scalar of a value computation that uses the value of the same scalar object, the code has undefined behavior_ &mdash; Effective C
-
-> **example**
->
-> ```c
-> int i = 5;
-> printf("%d\n", i++ * i++); // undefined behavior
-> printf("%d %d\n", i++, i); // undefined behavior
-> ```
-
-it is guaranteed that the `&&` and `||` [[operator]]s will evaluate their operands from left to right. the `&&` and `||` [[operator]]s "short-circuit" in [[c]]
-
-it is guaranteed that the `? :` [[operator]] will evaluate its first operand before its second or third operand. only one of the second and third operands will be evaluated
+for historical reasons, the [[type]] of a [[character]] literal in [[c]] is `int` and not `char`. this differs from [[c++]]

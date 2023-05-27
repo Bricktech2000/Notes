@@ -15,7 +15,7 @@
 - equalities return [[boolean]]s, except when they do not
 - [[matrix]] and [[vector]] literals can be ambiguous
 - [[variable]]s are one letter in length, except when they are not
-- [[conventional math notation]] is neither $1D$ nor $2D$; it is some sort of a $2.5D$
+- [[conventional math notation]] is neither $1D$ nor $2D$; it is some sort of a $1.5D$
 - $\sin^2 x = (\sin x)^2$ whereas $f^2(x) = f(f(x))$ and $\sin^{-1} x = \arcsin x$
 - $\sqrt{-a}$ and $\ln -a$ are often considered "undefined"
 - $a < b < c$ might or might not mean $a < b \land b < c$

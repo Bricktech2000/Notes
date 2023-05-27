@@ -575,6 +575,20 @@ the last element of a [[list]]
 
 ---
 
+[[set]] UU -> BB
+
+[[multiset]] UU -> NN
+
+[[list]] NN -> UU
+
+[[matrix]] NN -> NN -> UU
+
+[[graph]] NN -> NN -> BB, G == rr G
+
+[[graph]] NN -> NN -> RR
+
+---
+
 obsidian is all-in-one for note-taking
 
 Vim does text editing for everything
@@ -590,3 +604,7 @@ gdb debugs everything and the terminal compiles everything
 lyt kit is all-in-one for jotting things down
 
 my notion calendar does time management for everything
+
+hammer is all-in-one for hitting stuff
+
+game engive is all-in-one for game development
