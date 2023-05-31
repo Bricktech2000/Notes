@@ -1,14 +1,16 @@
 # CIELAB
 
+**aka** _CIE L\*a\*b\*_
+
 _for data visualization and color interpolation_
 
 **see** [[color space]]
 
-**aka** _CIE L\*a\*b\*_
+math is "incorrect" in the [[cielab]] [[color space]] but looks perceptually smooth because it is tuned to human perception of [[color]]
 
-[[mathematics]] are "incorrect" in the [[cielab]] [[color space]] but looks perceptually smooth because it is tuned to [[lightness]] (perception of [[luminance]])
+the **`L^\*`** component [[cielab]] represents [[lightness]] and the **`a^\*`** and **`b^\*`** components of [[cielab]] represent [[chroma]]ticity
 
-**representation** _[[color space]] linear to [[luminance]] compared to [[color space]] linear to [[lightness]]_
+**representation** _a gradient in [[linear srgb]] compared to a gradient in [[cielab]]_
 
 ![[Pasted image 20221208181251.png]]
 

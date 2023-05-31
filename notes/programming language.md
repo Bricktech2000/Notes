@@ -43,8 +43,6 @@ graph TD
 
 [[esoteric programming language idea]]
 
-[[the worst programming language ever]]
-
 [[markup language idea]]
 
 [[iota language]]

@@ -609,8 +609,6 @@ the `,` [[operator]] evaluates its left operand, discards the result, then evalu
 > f(a, t+2, c);
 > ```
 
-#todo currently on page 130
-
 ## textual data
 
 ### character literals
@@ -642,3 +640,30 @@ U'a' // char32_t
 | `'\ooo'`        | Octal           |
 
 for historical reasons, the [[type]] of a [[character]] literal in [[c]] is `int` and not `char`. this differs from [[c++]]
+
+### string literals
+
+**see** [[ascii]], [[utf-8]]
+
+```c
+"foo" // char[6]
+L"foo" // wchar_t[6]
+u8"foo" // UTF-8 char[6]
+u"foo" // char16_t[6]
+U"foo" // char32_t[6]
+```
+
+[[c]] [[string]] literals can be used to construct both null-terminated [[string]]s and [[character]] [[array]]s:
+
+```c
+char *s = "foo"; // null-terminated string
+char s[] = "foo"; // null-terminated string
+char s[4] = "foo"; // null-terminated string
+char s[3] = "foo"; // character array
+```
+
+writing to a string literal is _undefined behavior_ in [[c]]
+
+> **note** `sizeof (char[])"foo"` is the length of the [[string]] including the null terminator (`4`) whereas `sizeof (char*)"foo"` is the size of the pointer (`sizeof char*`). `strlen((char*)"foo")` is the length of the [[string]] (`3`) but may incur a runtime cost
+>
+> #todo currently on pages 136 .. 142

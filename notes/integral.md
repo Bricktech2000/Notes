@@ -2,16 +2,6 @@
 
 **see** [[math notation]], [[function]], [[antiderivative]], [[calculus notation]]
 
-> **note**
->
-> _integrating_ refers to calculating the are under a [[function]], **not** computing the [[antiderivative]] and plugging stuff in. this is why indefinite [[integral]]s must include that **`... : c`** whereas [[antiderivative]]s don't have to.
->
-> "[[antiderivative]]s can be used to **find** [[area]]s ([[integral]]s) and [[area]]s ([[integral]]s) can be used to **define** [[antiderivative]]s." this is the essence of the [[fundamental theorem of calculus]]
->
-> I was taught [[integral]]s went hand-in-hand with [[derivative]]s, but I now see that [[integral]]s as we are taught them are a mere side effect of [[antiderivative]]s. what a mess!
->
-> &mdash; me and <https://www.quora.com/Is-there-any-difference-whatsoever-between-an-indefinite-integral-and-an-antiderivative> and <https://socratic.org/questions/what-is-the-difference-between-an-antiderivative-and-an-integral>
-
 **notation** _in [[conventional math notation]]_
 
 with **`dd F x -- dd x = f`**,

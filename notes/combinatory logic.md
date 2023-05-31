@@ -203,7 +203,7 @@ _used to formally define recursive [[function]]s in a [[functional programming]]
 
 **definition** _in [[lambda calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
 
-> "it's not recursive but it encodes [[recursion]]" &mdash; <https://youtu.be/9T8A89jgeTI?t=678>
+_it's not recursive but it encodes [[recursion]]_ &mdash; <https://youtu.be/9T8A89jgeTI?t=678>
 
 &mdash; <https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator>
 

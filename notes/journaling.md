@@ -15,6 +15,8 @@ _to prevent writer's block_
 - what's something I could see in a different light?
 - what's a mistake I made and and what can I learn from it?
 - how am I feeling right now, and why?
+- what's something amazing that happened today?
+- what would have made today better?
 
 ## &mdash;
 
@@ -23,3 +25,5 @@ _to prevent writer's block_
 &mdash; <https://youtu.be/dArgOrm98Bk>
 
 &mdash; <https://youtu.be/4EHrQMR6qko>
+
+&mdash; <https://youtu.be/gDNDlPejKr4?t=155>

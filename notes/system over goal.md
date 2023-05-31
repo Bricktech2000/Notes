@@ -4,7 +4,7 @@
 
 **see** [[habit]], [[aspiration]], [[goal]], [[system]]
 
-> "You do not rise to the level of your [[goal]]s. You fall to the level of your [[system]]s." &mdash; <https://youtu.be/zUm3fKk00J8?t=3017>
+_you do not rise to the level of your [[goal]]s. you fall to the level of your [[system]]s_ &mdash; <https://youtu.be/zUm3fKk00J8?t=3017>
 
 most of our culture is outcome-oriented instead of process-oriented. focusing on outcomes can lead to feeling [[overwhelm]]ed and can prevent people from even starting the process itself (which could be wrongly rationalized as a lack of [[motivation]] or as [[laziness]]) &mdash; <https://youtu.be/\_ZVGXmafWqY?t=72>. while [[goal]]s are good at setting a direction, [[system]]s are best for making progress &mdash; <https://youtu.be/D_F45YuUHUA>
 
@@ -24,11 +24,11 @@ because of [[system over goal]], tracking something is often better than trying 
 
 > **example** _seeing jobs in a [[system over goal]] way_
 >
-> focusing on "getting a job" is very abstract and outcome-oriented, see [[aspiration]]. instead, one should focus on "applying for 10 jobs a week", which is a concrete [[habit]] that is easy to measure.
+> focusing on _getting a job_ is very abstract and outcome-oriented, see [[aspiration]]. instead, one should focus on _applying for 10 jobs a week_, which is a concrete [[habit]] that is easy to measure
 >
-> even though that person wouldn't be guaranteed to get a job that way (as they are not focusing on the outcome), they are still way more likely to reach the outcome (as the process is what often leads to the outcome).
+> even though that person wouldn't be guaranteed to get a job that way (as they are not focusing on the outcome), they are still way more likely to reach the outcome (as the process is what often leads to the outcome)
 >
-> "getting a job" is completely out of one's control, but "applying to 10 jobs a week" is entirely under one's control. this can also increase the likelihood of that person getting a job.
+> _getting a job_ is completely out of one's control, but _applying to 10 jobs a week_ is entirely under one's control. this can also increase the likelihood of that person getting a job
 
 > **example** _how "the process" can be very valuable_
 >
