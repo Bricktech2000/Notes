@@ -22,7 +22,7 @@ computing [[spline#parametric continuity]] requires the mathematical definition 
 
 [[spline#geometric continuity]] is similar to [[spline#parametric continuity]], but is "magnitude agnostic". in the geometric continuity definitions below, [[vector in rn]]s are normalized using the **`{*--||||}`** [[operator]]
 
-> "[...] I can't stress enough how important this is. continuity is what justifies the existence of a whole host of [[spline]]s" &mdash; <https://youtu.be/jvPPXbo87ds?t=2176>
+_[...] I can't stress enough how important this is. continuity is what justifies the existence of a whole host of [[spline]]s_ &mdash; <https://youtu.be/jvPPXbo87ds?t=2176>
 
 **properties**
 
@@ -88,7 +88,7 @@ let a [[spline]] **`S`**
 >
 > ![[Pasted image 20221224215047.png]]
 
-> **example** _seams in reflective arcs tangent to line segments, which is **`G^1`** continuity_ &mdash; <https://youtu.be/jvPPXbo87ds?t=1731>
+> **example** _seams in reflective arcs tangent to line segments, which has **`G^1`** continuity_ &mdash; <https://youtu.be/jvPPXbo87ds?t=1731>
 >
 > ![[Pasted image 20221224215415.png]]
 

@@ -52,15 +52,11 @@
 
 [[esoteric programming language idea]]
 
-[[carbon language talk]]
-
 [[goodhart's law]]
 
 [[verbal]]
 
 [[nonverbal]]
-
-[[the worst programming language ever]]
 
 **learn**
 
@@ -119,10 +115,6 @@
 **network**
 
 [[public speaking]]
-
-[[vim talk]]
-
-[[neat talk]]
 
 **standard**
 

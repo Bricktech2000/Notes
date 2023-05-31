@@ -1,8 +1,10 @@
 # Lightness
 
+_perceived [[luminance]]_
+
 **see** [[color science]], [[luminance]], [[cielab]], [[gamma correction]], [[math notation]]
 
-**notation** **`J`** (used in CIECAM02), **`L^*`** (used in [[cielab]] and CIELUV)
+**notation** **`J`** (used in CIECAM02), **`L^\*`** (used in [[cielab]] and CIELUV)
 
 **definition** in [[color science]], _lightness_ is a linear prediction of the perceived brightness of a color by the human eye &mdash; Wikipedia
 

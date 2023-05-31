@@ -13,7 +13,7 @@ _CIPA_ is a rare genetic disorder (17 documentated cases in the United States) a
 
 this is a life-threatening condition, with many patients never reaching adulthood
 
-> "doctors say Roberto will be wheelchair-bound by the age of 10 &mdash; a result of the wear and tear he does to his own body every day" &mdash; <https://youtu.be/m5B20VvzWqA?t=215>
+_doctors say Roberto will be wheelchair-bound by the age of 10 &mdash; a result of the wear and tear he does to his own body every day_ &mdash; <https://youtu.be/m5B20VvzWqA?t=215>
 
 ## &mdash;
 

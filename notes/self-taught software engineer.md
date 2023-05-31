@@ -45,7 +45,7 @@ online visibility is very important for [[self-taught software engineer]]s
   - attend tech events, conferences, hackathons, meetups, etc.
   - attend career fairs
 
-> "the hardest part about this whole journey is getting that first job -- but once you get that first job, recruiters are gonna be messaging you almost everyday."
+_the hardest part about this whole journey is getting that first job &mdash; but once you get that first job, recruiters are gonna be messaging you almost everyday_
 
 coding interviews are about more than just programming &mdash; <https://youtu.be/0Z9RW_hhUT4>
 

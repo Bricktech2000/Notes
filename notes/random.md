@@ -1,6 +1,6 @@
 # Random
 
-## ideas
+## thinking
 
 ### feces smell bad
 
@@ -85,7 +85,7 @@ use GPT-3 on a list of true statements to get it to complete new statements in a
 
 ### UTF-256
 
-a service that assigns a UTF-256 codepoint to any image uploaded to it &mdash; idea stolen from [[the worst programming language ever]] talk if I remember correctly
+a service that assigns a UTF-256 codepoint to any image uploaded to it &mdash; idea stolen from <https://youtu.be/vcFBwt1nu2U> if I remember correctly
 
 ### Reaction YouTube Channel
 

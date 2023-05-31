@@ -85,7 +85,7 @@ even if **`A`** is related to **`B`** by a morphism, **`B`** is not necessarily 
 >
 > &mdash; <https://youtu.be/yAi3XWCBkDo?t=954>
 
-> "isomorphism captures the idea that objects can be functionally the same, where the meaning of _functionally_ depends on the working category" &mdash; <https://youtu.be/yAi3XWCBkDo?t=1012>
+_isomorphism captures the idea that objects can be functionally the same, where the meaning of "functionally" depends on the working category_ &mdash; <https://youtu.be/yAi3XWCBkDo?t=1012>
 
 **properties**
 

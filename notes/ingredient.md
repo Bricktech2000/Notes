@@ -12,7 +12,7 @@ improves the [[color]] of meat products, turning them red then pink. used as a p
 
 adding nitrites to meat has been shown to generate known carcinogens such as nitrosamines
 
-> "each **`50 g`** of "processed meats" eaten a day would raise the risk of getting bowel cancer by 18% over a lifetime &mdash; World Health Organization
+_each **`50 g`** of "processed meats" eaten a day would raise the risk of getting bowel cancer by **`10-188`** over a lifetime_ &mdash; World Health Organization
 
 ## Sodium Erythorbate
 

@@ -13,8 +13,8 @@
 - [[category theory]] for programmers by Bartosz Milewski &mdash; <https://www.youtube.com/watch?v=I8LbkfSSR58&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM> (not yet finished)
 - _Atomic Habits_ by James Clear audiobook &mdash; <https://www.youtube.com/watch?v=zUm3fKk00J8>
 - talk about propositions as [[type]]s and related concepts &mdash; <https://www.youtube.com/watch?v=IOiZatlZtGU>
-- "[[category theory]] for the working hacker" &mdash; <https://www.youtube.com/watch?v=gui_SE8rJUM>
-- "learn how to study smart" by Marty Lobdell &mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0>
+- _[[category theory]] for the working hacker_ &mdash; <https://www.youtube.com/watch?v=gui_SE8rJUM>
+- _learn how to study smart_ by Marty Lobdell &mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0>
 - [[type system]]s in [[functional programming]] &mdash; <https://www.youtube.com/watch?v=hy1wjkcIBCU>
 - MIT intro to [[statistics]] video series &mdash; <https://www.youtube.com/watch?v=OgO1gpXSUzU&list=PLUl4u3cNGP619EG1wp0kT-7rDE_Az5TNd&index=6> (from video 6 to halfway through video 10)
 - introduction to [[spline]]s &mdash; <https://www.youtube.com/watch?v=jvPPXbo87ds>
@@ -33,3 +33,4 @@
 - _the [[yaml]] document from hell_, about the complexity of [[yaml]] &mdash; <https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell>
 - _[[go]] at Google: Language Design in the Service of [[software engineering]]_ &mdash; <https://go.dev/talks/2012/splash.article>
 - _why [[go]] is not good_, article sharing my opinions on the language &mdash; <https://yager.io/programming/go.html>
+- Sam Altman testimony on AI that might mark history &mdash; <https://youtu.be/TO0J2Yw7usM>

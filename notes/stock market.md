@@ -28,7 +28,7 @@ _an average of a group of stock prices_
 
 trading on the [[stock market]] is done through a _broker_ who executes the trade on behalf of the investor
 
-> "time in the market beats timing the market"
+_time in the market beats timing the market_
 
 ## Strategies
 

@@ -1,10 +1,8 @@
 # 🅲🅾🅽🆅🅴🅽🆃🅸🅾🅽🆂
 
-## general conventions
+see [[matrix]] and [[complex]] for examples of [[conventions]]
 
-see [[matrix]] and [[complex]] for examples of general conventions
-
-### markup
+## markup
 
 - [[markdown]] is used **exclusively** semantically; a [[markdown]] element is never to be used for styling purposes
 - custom [[markdown]] syntax, `` **`...`** ``, is used for all mathematical equations through my custom [[math notation]]
@@ -19,7 +17,7 @@ see [[matrix]] and [[complex]] for examples of general conventions
 
 italics are used for informal and opinionated statements, and literal aoenuatosenuth #todo. [[trick]]s and personal definitions and to replace quotation marks
 
-### sections
+## sections
 
 - title-case headings are for [[concept]]s that can be linked to using [[wikilink#anchor wikilink]]s and lowercease headings are for general titles
 
@@ -53,7 +51,7 @@ italics are used for informal and opinionated statements, and literal aoenuatose
   - **examples**
   - **procedures**
 
-### note system
+## note system
 
 - [[wikilink]]s are generally avoided in headings
 - a page can link to itself
@@ -67,7 +65,7 @@ italics are used for informal and opinionated statements, and literal aoenuatose
   - the first word of a sentence is not capilatized
   - full stops seperate sentences; they do not end them
 
-### syntax used
+## syntax used
 
 > # h1
 >
@@ -124,7 +122,7 @@ italics are used for informal and opinionated statements, and literal aoenuatose
 >
 > horizontal rule
 
-### unused syntax
+## unused syntax
 
 > $\LaTeX$
 >
@@ -136,24 +134,7 @@ italics are used for informal and opinionated statements, and literal aoenuatose
 >
 > [[wikilink|wikilink alias]]
 
-## presentation-style conventions
-
-see [[vim talk]] and [[carbon language talk]] for examples of presentation-style conventions
-
-presentation-style notes are viewed using Obisdian's _Start presentation_ feature
-
-### markup
-
-- [[markdown]] is used non-semantically for styling purposes
-- slides are seperated by using horizontal rules, `---`
-- headings and content can optionally be seperated using an HTML line break, `<br />`
-- personal comments and notes are to be written between `<!--` and `-->` tags
-
-### note system
-
-- level-3 headings are not used as they look too similar to level-2 headings on Obsidian. there may be multiple level-1 headings in one presentation
-
-## other conventions
+## other
 
 the [[graph]] in [[index]] is generated on Obsidian using the following settings:
 
