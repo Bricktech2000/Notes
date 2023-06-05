@@ -6,4 +6,4 @@ it is said that a [[programming language]] _supports_ or _does not support_ firs
 
 **applications**
 
-[[first-class function]]s are important in [[functional programming]]
+[[first-class function]] support is essential for [[functional programming]]

@@ -175,7 +175,7 @@ _applies a [[function]] twice_
 
 ### Phi Combinator
 
-**aka** _converge, `apply2way` and `liftA2` and `liftM2` in Haskell, S2 combinator, S' combinator, 'fork' in APL_
+**aka** _converge, `liftA2` and `liftM2` and `phoenix` and `starling'` in Haskell, S2 combinator, S' combinator, 'fork' in APL_
 
 **definition** **`FF = f g h x -> f (g x) (h x)`**
 

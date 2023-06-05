@@ -9,3 +9,14 @@ _interpreting information so it becomes compatible with existing beliefs_
 [[social media]] taylors content to personal preferences, worsening [[confirmation bias]]
 
 [[confirmation bias]] often leads people to believe in [[conspiracy theory]]es
+
+## leveraging confirmation bias
+
+_whether you think the world and everyone in it is out to hurt you or help you, you're right_
+
+one can leverage [[confirmation bias]] to change a belief of theirs. assuming something to be true will lead to [[confirmation bias]] and thus make it true &mdash; <https://youtu.be/0FGlsuTnt_U?t=844>
+
+> **examples**
+>
+> - assuming good intentions of others will lead to [[confirmation bias]] reinforcing that belief
+> - having a positive outlook on life will lead to [[confirmation bias]] reinforcing the belief that life is good

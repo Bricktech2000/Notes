@@ -4,9 +4,7 @@ _the [[set]] of [[natural]] numbers_
 
 **see** [[math notation]]
 
-**definition**
-
-_a whole, non-negative [[number]]_
+**definition** a [[natural]] number is a "whole", "non-negative" "number"
 
 > **note** **`NN 0`**
 

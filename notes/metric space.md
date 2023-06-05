@@ -61,7 +61,7 @@ _triangle inequality_ **`d x z -| d x y : d y z`**
 
 > **example** the [[real]] [[line]] with Euclidean distance is complete
 
-> **example** the [[rational]]s with [[real#absolute value]] is not complete. for example, the [[sequence]] **`(6-1, 62-10, 628-100, .s)`** approaching **`tt`** is Cauchy with respect to the [[real#absolute value]] but does not converge to any [[rational]] number
+> **example** the [[rational]]s with [[real#absolute value]] is not complete. for example, the [[sequence]] **`(6-1, 62-10, 628-100, ...)`** approaching **`tt`** is Cauchy with respect to the [[real#absolute value]] but does not converge to any [[rational]] number
 
 > **example** the [[rational]]s with [[p-adic#abolute value]] is not complete. for example, the [[sequence]] **`([5]0, [5]0 : [5]1, [5]0 : [5]1 : [5]2, ...)`** is Cauchy with respect to the **`5`**-adic metric but does not converge to any [[rational]] number
 
@@ -69,7 +69,7 @@ _triangle inequality_ **`d x z -| d x y : d y z`**
 
 &mdash; <http://sites.iiserpune.ac.in/~supriya/teaching/Topology-MTH322/files/Completion.pdf>
 
-**definition** the _completion_ of a [[metric space]] **`M`** is the complete [[metric space]] **`M_*`** with a [[set#superset]] of the points of **`M`** and the same [[metric space#metric]] as **`M`**
+**definition** the _completion_ of a [[metric space]] **`M`** is the [[metric space#complete metric space]] **`M_*`** with a [[set#superset]] of the points of **`M`** and the same [[metric space#metric]] as **`M`**
 
 **theorem** every [[metric space]] has a completion
 

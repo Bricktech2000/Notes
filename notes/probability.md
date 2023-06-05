@@ -48,7 +48,7 @@ _without repetition, order does not matter_
 
 **theorem** _Bayes' Theorem_
 
-**`P {A, B} = P {A, S} - P {B, S} | P {B, A}`**
+**`P {A, B} = P {A, S} -- P {B, S} | P {B, A}`**
 
 > **proof**
 >

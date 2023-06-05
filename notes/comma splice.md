@@ -1,6 +1,6 @@
 # Comma Splice
 
-**definition** A _comma splice_ occurs when two sentences are joined by a comma instead of a full stop
+**definition** a _comma splice_ occurs when two sentences are joined by a comma
 
 [[comma splice]]s are a [[problematic practice]]
 
