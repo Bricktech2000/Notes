@@ -126,9 +126,7 @@ _the [[set]] of all possible mathematical entities_
 
 ## Partition
 
-**definition** a _partition_ of a [[set]] **`A`** is a collection of [[set]]s **`S`** such that **`S^i /\ S^j == {{ }}`** for all **`i, j`** (the [[set]]s are pairwise disjoint) and **`\/ S = A`**
-
-**definition** a _partition_ of a [[set]] **`A`** is a collection of [[set]]s **`S`** such that **`{0, 1} A = : {0, 1} S`**
+**definition** a _partition_ of a [[set]] **`A`** is a collection of non-[[empty]] [[set#subset]]s of **`A`** such that every element of **`A`** is in exactly one of the [[set#subset]]s
 
 ## Cardinality
 

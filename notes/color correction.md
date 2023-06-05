@@ -2,7 +2,7 @@
 
 **aka** _color grading_
 
-**see** [[lut]], [[color science]]
+**see** [[lookup table]], [[color science]]
 
 [[color correction]] is all about deciding what slice of a wider [[color space]] to bring into a narrower [[color space]] for display
 

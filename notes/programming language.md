@@ -41,9 +41,7 @@ graph TD
 7. [[solidity]] (familiar)
 8. [[c]]
 
-[[esoteric programming language idea]]
-
-[[markup language idea]]
+[[better markdown]]
 
 [[iota language]]
 

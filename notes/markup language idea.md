@@ -1,8 +1,8 @@
-# Markup Language Idea
+# Better Markdown
 
-this [[markup language idea]] is meant to address the main issue with [[markdown]] in my opinion: inconsistency.
+this [[better markdown]] idea is meant to address the main issue with [[markdown]] in my opinion: inconsistency
 
-in this [[programming language]],
+in this language,
 
 - most constructs have a clear semantic meaning
 - most constructs have block-level and inline equivalents

@@ -1,6 +1,6 @@
 # Commitment
 
-**definition** a [[commitment]] is an implicit or explicit agreement to meeting an [[expectation]]
+**definition** a _commitment_ is an implicit or explicit agreement to meeting an [[expectation]]
 
 > **example** _an implicit commitment_ Chris makes coffee for his wife every morning. even though there is no explicit agreement, not making coffee one morning would be a breach of [[commitment]]
 

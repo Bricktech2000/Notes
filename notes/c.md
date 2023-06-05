@@ -83,7 +83,7 @@ objects declared within a block or within a function parameter have _automatic_ 
 > }
 > ```
 
-objects declared in file scope have _static_ lifetimes, living throughout the execution of the program
+objects declared in file [[scope]] have _static_ lifetimes, living throughout the execution of the program
 
 > **example**
 >
@@ -410,7 +410,7 @@ it is guaranteed that the `? :` [[operator]] will evaluate its first operand bef
 
 _variable-length arrays_ (VLAs) are a [[c]] feature that allows for the declaration of [[array]]s with runtime-specified lengths in the current [[stack]] frame. calling `sizeof` on a VLA will be evaluated at runtime
 
-> **example** _VLA in block scope_
+> **example** _VLA in block [[scope]]_
 >
 > ```c
 > void func(size_t size) {
@@ -418,7 +418,7 @@ _variable-length arrays_ (VLAs) are a [[c]] feature that allows for the declarat
 > }
 > ```
 
-> **example** _VLA in function prototype scope_
+> **example** _VLA in function prototype [[scope]]_
 >
 > the [[function]] below takes a 2D [[array]] of any size. to index into a multi-dimensional array, the compiler needs to know the sizes of its innermost dimensions, which, in this case, are unknown at compile time. this would be somewhat awkward to accomplish without VLAs
 >

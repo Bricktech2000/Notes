@@ -10,8 +10,6 @@
 
 [[neuron]]
 
-[[limbic system]]
-
 [[corpus callosum]]
 
 **definition** a _nucleus_ is a cluster of [[neuron]]s in the [[brain]] that forms a specific functional grouping

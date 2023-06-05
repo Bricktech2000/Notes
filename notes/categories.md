@@ -28,8 +28,6 @@
 
 [[non-copyable data]]
 
-[[informal writing]]
-
 [[overruling rules]]
 
 [[nested conversation structure]]
@@ -42,15 +40,11 @@
 
 [[improved family relationship vocabulary]]
 
-[[mathematical physical currency]]
-
 [[improved rating system]]
 
 [[perfectionism vs high standards]]
 
 [[video game]]
-
-[[esoteric programming language idea]]
 
 [[goodhart's law]]
 
@@ -136,7 +130,7 @@
 
 [[resources]]
 
-[[markup language idea]]
+[[better markdown]]
 
 [[flawed but established]]
 

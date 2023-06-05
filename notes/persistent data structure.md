@@ -2,7 +2,7 @@
 
 **see** [[data structure]]
 
-**definition** A _persistent data structure_ is a [[data structure]] that always preserves the previous version of itself when it is modified. Such [[data structure]]s are **effectively** immutable [...]. &mdash; Wikipedia
+**definition** a _persistent data structure_ is a [[data structure]] that always preserves the previous version of itself when it is modified. such [[data structure]]s are **effectively** immutable [...] &mdash; Wikipedia
 
 > **note** not to be confused with _persistent data storage_
 
@@ -22,11 +22,11 @@
 
 ### git
 
-Git is a type of [[persistent data structure]], as every commit is appended to the end of list of commits without changing any of the previous commits.
+Git is a type of [[persistent data structure]], as every commit is appended to the end of list of commits without changing any of the previous commits
 
 ### blockchain
 
-the [[blockchain]] used in [[cryptocurrency]]es is a type of [[persistent data structure]], as every block is appended to the end of the chain without changing any of the previous blocks.
+the [[blockchain]] used in [[cryptocurrency]]es is a type of [[persistent data structure]], as every block is appended to the end of the chain without changing any of the previous blocks
 
 ## &mdash;
 

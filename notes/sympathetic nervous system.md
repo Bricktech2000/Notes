@@ -1,8 +1,6 @@
 # Sympathetic Nervous System
 
-_the branch of the [[autonomic nervous system]] responsible for the fight-or-flight response_
-
-**aka** _fight-or-flight system_
+_fight-or-flight_
 
 ## Fight-or-Flight Response
 

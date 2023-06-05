@@ -2,7 +2,7 @@
 
 _digital systems_ and _analog systems_ are children of _electronic systems_
 
-a [[digital system]] is **not** necessarily [[binary]]; with that said, [[binary]] has a high noise tolerance, and it is easy to implement [[boolean algebra]] through [[logic gates]]
+a [[digital system]] is **not** necessarily [[binary]]; with that said, [[binary]] has a high noise tolerance, and it is easy to implement [[boolean algebra]] through [[logic gate]]s
 
 [[digital system]]s are implemented using [[logic circuit]]
 

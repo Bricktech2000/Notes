@@ -16,9 +16,9 @@
 
 ## Stationary Distribution
 
-certain [[markov chain]]s converge to a _stationary distribution_, which can be computed using [[matrix#multiplication]]
+certain [[markov chain]]s converge to a _stationary distribution_, which can be computed through [[matrix#multiplication]]
 
-> **procedure** _computing a [[markov chain#stationary distribution]] through [[iteration]]_
+> **procedure** _approximating a [[markov chain#stationary distribution]] through [[iteration]]_
 >
 > let **`S`** be a column [[vector in rn]], where
 >
@@ -42,7 +42,7 @@ certain [[markov chain]]s converge to a _stationary distribution_, which can be 
 
 > **procedure** _computing a [[markov chain#stationary distribution]] through [[eigen#vector]]s and [[eigen#value]]s_
 >
-> the [[eigen#vector]]s of the [[markov chain]]'s _transition matrix_ are the _stationary distribution_ of the [[markov chain]]
+> the [[eigen#vector]]s of the [[markov chain]]'s _transition matrix_ are the _stationary distributions_ of the [[markov chain]]
 >
 > it is common to multiply the resulting [[eigen#vector]] **`x`** by a [[scalar]] **`k`** so that **`:kx = 1`**
 >

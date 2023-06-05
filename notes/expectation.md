@@ -1,6 +1,6 @@
 # Expectation
 
-**definition** an [[expectation]] is the feeling or belief that something is likely to happen
+**definition** an _expectation_ is the feeling or belief that something is likely to happen
 
 > **examples**
 >
