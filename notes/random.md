@@ -589,22 +589,16 @@ the last element of a [[list]]
 
 ---
 
-obsidian is all-in-one for note-taking
+let the base and height of the triangle be **`B`** and **`H`** respectively and the number of rectangles be **`n`**
 
-Vim does text editing for everything
+then, the height of the **`i`**th rectangle from the top is **`H-n`** and its width is **`iB-n`**
 
-`python.vim` is all-in-one for python language
+therefore, the area of the collection of rectangles is **`*HB-n2 {0:...n}`** which by **`0:...n = n|n:1--2`** is equal to **`n|n:1--2 | HB-n2`** which simplifies to **`n:1--2n | HB`**
 
-mason does lsp config for all languages
+---
 
-visual studio is all-in-one for C++ development
+let the base and height of the triangle be $B$ and $H$ respectively and the number of rectangles be $n$
 
-gdb debugs everything and the terminal compiles everything
+then, the height of the $i$th rectangle from the top is $\displaystyle \frac Hn$ and its width is $\displaystyle \frac{iB}n$
 
-lyt kit is all-in-one for jotting things down
-
-my notion calendar does time management for everything
-
-hammer is all-in-one for hitting stuff
-
-game engive is all-in-one for game development
+therefore, the area of the collection of rectangles is $\displaystyle \sum_{i=0}^n \frac{iHB}{n^2}$ which by $\displaystyle \sum_{k=0}^{n} k = \frac{n(n + 1)}2$ is equal to $\displaystyle \frac{n(n + 1)}2 \frac{HB}{n^2}$ which simplifies to $\displaystyle \frac{n + 1}{2n} HB$

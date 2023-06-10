@@ -1,5 +1,13 @@
 # Discord Statuses
 
+&mdash; <https://www.unicodeit.net/>
+
+&mdash; <https://lingojam.com/BoldTextGenerator>
+
+&mdash; <https://en.wikipedia.org/wiki/Braille_Patterns>
+
+## status
+
 $\mathbb C \equiv x = a : b\lfloor \cdot 1 \rfloor \land \mathbb R a \land \mathbb R b$
 
 ```
@@ -34,4 +42,25 @@ $\tau > \pi$
 
 ```
 τ > π
+```
+
+Atto-8
+
+```
+⠞⠆⠹⠁⠹⠁⠯⠇⠒⠂⠾⠇
+```
+
+## about
+
+```
+<https://edgie.emilien.ca/>
+```
+
+```
+`         Vim ― about.md    ― □ × `
+`  1 ` **# Contact**
+`  2 ` \<<https://edgie.emilien.ca/>\>
+`~   `
+`~   `
+`-- INSERT --           1,1   All `
 ```
