@@ -67,7 +67,7 @@ a compiler may:
 - terminate a translation or execution (with issuing a diagnostic)
 - produce arbitrary output (anything from a corrupted binary to a program that formats the hard drive)
 
-undefined behavior is a tool for the compiler to optimize programs even further
+undefined behavior is a [[tool]] for the compiler to optimize programs even further
 
 > **example** since division by zero is undefined behavior, the compiler can assume the [[variable]] `a` in an expresion such as `1 / a` will never be zero. it can then build onto that assumption for further optimization
 

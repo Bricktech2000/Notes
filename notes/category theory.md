@@ -19,7 +19,7 @@ there appears to be a standard way to build contexts in which we do [[mathematic
 
 **applications**
 
-[[category theory]] is a tool that can be used for studying [[algebraic structure]]s &mdash; <https://en.wikipedia.org/wiki/Algebraic_structure>
+[[category theory]] is a [[tool]] that can be used for studying [[algebraic structure]]s &mdash; <https://en.wikipedia.org/wiki/Algebraic_structure>
 
 ---
 

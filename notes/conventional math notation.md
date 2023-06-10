@@ -4,7 +4,7 @@
 
 **tradeoffs**
 
-- [[conventional math notation]] is [[flawed but established]]
+[[conventional math notation]] is [[flawed but established]]
 
 - [[set]] builder notation $\lbrace \mid \rbrace$ is just a $\cap$
 - $\sqrt{}$ often only returns a positive solution
@@ -38,6 +38,13 @@
 - $2x = 2 \times x$ whereas $2 \frac 2 3 = 2 + \frac 2 3$, and $-1 \frac 1 4$ might or might not equal $-\frac 5 4$
 - there exists no symbol for unary division
 - there exists no symbol for function application
+
+other notations used contextually include:
+
+- $-$ is used for both subtraction and range
+- $+$ is used for both addition and concatenation
+- $=$ is used for both equality and assignment
+- $.$ are used for decimal points and versioning
 
 also see <https://whystartat.xyz/wiki/Main_Page> &mdash; Terramorpha
 

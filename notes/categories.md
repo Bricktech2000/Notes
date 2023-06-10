@@ -151,3 +151,7 @@
 [[iso 8601]]
 
 [[reinventing the wheel]]
+
+[[muscle memory]]
+
+[[tool]]
