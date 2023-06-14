@@ -2,8 +2,6 @@
 
 - using [[complex]] numbers to solve [[discrete mathematics]] problems &mdash; <https://www.youtube.com/watch?v=bOXCLR3Wric>
 - undergrad [[calculus]] course &mdash; <https://www.youtube.com/watch?v=HfACrKJ_Y2w>
-- what genius actually looks like &mdash; <https://www.youtube.com/watch?v=xvDuqW9SFT8>
-- quick overview of [[category theory]] for programmers &mdash; <https://www.youtube.com/watch?v=SmXB2K_5lcA>
 - [[discrete mathematics]] course by Dr. Trefor Bazett &mdash; <https://www.youtube.com/watch?v=rdXw7Ps9vxc&list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS>
 - crash course on [[psychopathy]] and [[sociopathy]] &mdash; <https://www.youtube.com/watch?v=gpjYtAB9i2w>
 - behing the scenes of a vending machine [[business]] &mdash; <https://www.youtube.com/watch?v=OnfPWmOMgPk>
@@ -18,7 +16,7 @@
 - [[type system]]s in [[functional programming]] &mdash; <https://www.youtube.com/watch?v=hy1wjkcIBCU>
 - MIT intro to [[statistics]] video series &mdash; <https://www.youtube.com/watch?v=OgO1gpXSUzU&list=PLUl4u3cNGP619EG1wp0kT-7rDE_Az5TNd&index=6> (from video 6 to halfway through video 10)
 - introduction to [[spline]]s &mdash; <https://www.youtube.com/watch?v=jvPPXbo87ds>
-- parody of the [[ieee 754]] standard &mdash; <http://tom7.org/nand/nand.pdf>
+- parody of the [[ieee 754]] standard by tom7 &mdash; <http://tom7.org/nand/nand.pdf>
 - [[linear algebra]] summarized in **`4`** pages &mdash; <https://courses.engr.illinois.edu/ece498rc3/fa2016/material/linearAlgebra_4pgs.pdf>
 - Smartphone Compulsion Test to discover phone [[addiction]] &mdash; <https://virtual-addiction.com/smartphone-compulsion-test/>
 - _BIG OMICRON AND BIG OMEGA AND BIG THETA_ by Donald E. Knuth &mdash; <https://dl.acm.org/doi/pdf/10.1145/1008328.1008329>
@@ -34,3 +32,4 @@
 - _[[go]] at Google: Language Design in the Service of [[software engineering]]_ &mdash; <https://go.dev/talks/2012/splash.article>
 - _why [[go]] is not good_, article sharing my opinions on the language &mdash; <https://yager.io/programming/go.html>
 - Sam Altman testimony on AI that might mark history &mdash; <https://youtu.be/TO0J2Yw7usM>
+- Steve Jobs on Hiring Truly Gifted People &mdash; <https://youtu.be/a7mS9ZdU6k4>

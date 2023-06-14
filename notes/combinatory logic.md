@@ -8,7 +8,7 @@
 
 ## Booleans
 
-> **equivalence** _[[combinatory logic#booleans]]_ and _[[boolean algebra]]_
+> **equivalence** _[[combinatory logic#booleans]] and [[boolean algebra]]_
 
 [[boolean]] values and [[boolean algebra#operators]] can be defined as follows, see [[lambda calculus]]:
 
@@ -21,7 +21,7 @@ we can then define:
 
 ## Pairs
 
-> **equivalence** _[[combinatory logic#pairs]]_ and _[[ordered pair]]_
+> **equivalence** _[[combinatory logic#pairs]] and [[ordered pair]]_
 
 [[ordered pair]]s can be defined as follows:
 
@@ -31,7 +31,7 @@ we can then define:
 
 ## Naturals
 
-> **equivalence** _[[combinatory logic#naturals]]_ and _[[natural]] number_
+> **equivalence** _[[combinatory logic#naturals]] and [[natural]] number_
 
 [[natural]] numbers can be defined as follows, see [[lambda calculus]]:
 
@@ -73,11 +73,11 @@ _discards the second argument_
 
 ### S Combinator
 
-**aka** _substitution, `<*>` in Haskell_
+**aka** _substitution, `<*>` and `ap` in Haskell_
 
 **definition** **`S = f g x -> f x (g x)`**
 
-**definition** **`K = ii (ii (ii (ii ii)))`**
+**definition** **`S = ii (ii (ii (ii ii)))`**
 
 **notation** **`{* f g} x`**
 
@@ -93,7 +93,7 @@ _the [[composition]] of its arguments_
 
 **definition** _in [[lambda calculus]]_ $B = \lambda fgx.\ f\ (g\ x)$
 
-**notation** **`f (g x)`**
+**notation** **`(f g *) x`**
 
 > **equivalence** _[[combinatory logic#b combinator]] and [[function]] [[composition]]_
 
@@ -107,7 +107,7 @@ _the [[composition]] of its arguments_
 
 **definition** **`B_1 = B B B`**
 
-**notation** **`f (g x y)`**
+**notation** **`(f g * *) x y`**
 
 ### C Combinator
 
@@ -157,19 +157,19 @@ _applies a [[function]] twice_
 
 **definition** **`S B I = f x -> f f x`**
 
-### S' Combinator
+### Sigma Combinator
 
-**aka** _chain, `=<<` in Haskell_
+**aka** _chain, `=<<` in Haskell, S' combinator_
 
-**definition** **`S_* = f g x -> f (g x) x`**
+**definition** **`SS = f g x -> f (g x) x`**
 
-**notation** **`{b a *} c`**
+**notation** **`{g f *} x`**
 
 ### Psi Combinator
 
 **aka** _`on` in Haskell_
 
-**definition** **`UU = f g x y -> f (g x) (g y)`**
+**definition** **`YY = f g x y -> f (g x) (g y)`**
 
 **notation** **`g {x f y}`**
 
@@ -202,6 +202,8 @@ _used to formally define recursive [[function]]s in a [[functional programming]]
 **definition** _using [[recursion]]_ **`Y = f -> f (Y f)`**
 
 **definition** _in [[lambda calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
+
+**definition** _using the [[combinatory logic#w combinator]]_ **`Y = f -> {f *} {f *}`**
 
 _it's not recursive but it encodes [[recursion]]_ &mdash; <https://youtu.be/9T8A89jgeTI?t=678>
 

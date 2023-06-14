@@ -1,6 +1,6 @@
-# LUT
+# Lookup Table
 
-**aka** _lut_
+**aka** _LUT_
 
 **definition** in [[color correction]], a [[lookup table]] is a [[map]] from a [[set]] of [[color]]s of a [[color space]] to another [[set]] of [[color]]s of that [[color space]]
 

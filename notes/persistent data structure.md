@@ -22,7 +22,7 @@
 
 ### git
 
-Git is a type of [[persistent data structure]], as every commit is appended to the end of list of commits without changing any of the previous commits
+[[version control]] software such as Git is a type of [[persistent data structure]], as every commit is appended to the end of list of commits without changing any of the previous commits
 
 ### blockchain
 
