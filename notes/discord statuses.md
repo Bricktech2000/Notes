@@ -57,8 +57,8 @@ Atto-8
 ```
 
 ```
-`         Vim ― about.md    ― □ × `
-`  1 ` **# Contact**
+`        Vim ― about.md     ― □ × `
+`  1 ` **# Get in Touch**
 `  2 ` \<<https://edgie.emilien.ca/>\>
 `~   `
 `~   `
