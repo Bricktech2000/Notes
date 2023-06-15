@@ -17,7 +17,7 @@ the [[iota language]] is a minimalist [[programming language]] based on the [[co
 
 > **example**
 >
-> `0011011` denodes **`((\i \i) (\i \i))`**
+> `0011011` denodes **`((ii ii) (ii ii))`**
 >
 > **representation** _as a [[tree#binary tree]]_
 >
@@ -40,7 +40,7 @@ the [[iota language]] is a minimalist [[programming language]] based on the [[co
 
 > **example**
 >
-> `0101011` denodes **`(\i (\i (\i \i)))`**
+> `0101011` denodes **`(ii (ii (ii ii)))`**
 >
 > **representation** _as a [[tree#binary tree]]_
 >

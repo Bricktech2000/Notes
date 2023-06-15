@@ -18,10 +18,12 @@ _an association that any given action carries_
 > - interrupting in a debate &mdash; a person with compelling arguments does not have to interrupt to prove their point
 > - working to make more [[money]] &mdash; a financially literate person does not need to work to build their [[wealth]]
 > - threatening in a negotiation &mdash; a skilled negotiator does not need to resort to threats to get what they want
-> - humiliating students &mdash; a competent teacher does not need to humiliate their students to assert their authority
-> - exaggerating to convince &mdash; a knowledgeable expert does not need to exaggerate or lie to gain credibility
-> - micromanaging employees &mdash; a good leader does not need to micromanage their team to get things done
+> - boasting about accomplishments &mdash; a successful person does not need to boast about their accomplishments to be respected
+> - humiliating students &mdash; a competent teacher does not have to humiliate their students to assert their authority
+> - exaggerating to convince &mdash; a knowledgeable expert does not have to exaggerate or lie to gain credibility
+> - micromanaging employees &mdash; a good leader does not have to micromanage their team to get things done
 > - cleaning before hosting &mdash; a clean individual does not need to clean their house before guests arrive
+> - mentioning [[intelligence]] &mdash; an intelligent person does not need to mention their intelligence to be respected
 
 ## Behavior
 
@@ -97,15 +99,15 @@ _an association that any given action carries_
 > - head straight up
 > - compressed lips
 
-there exists no single behavior indicative of deception, but there do exist behavior indicating psychological discomfort
+there exists no single behavior indicative of deception, but there does exist behavior indicating psychological discomfort
 
-> **examples** _myths about deception_
+> **example**
 >
-> looking up and to the left -- lying
+> it is a myth that any of the following behaviors indicate deception:
 >
-> touching nose -- lying
->
-> covering mouth -- lying
+> - looking up and to the left
+> - touching the nose
+> - covering the mouth
 
 **applications**
 

@@ -1,12 +1,8 @@
 # Java
 
-_just a terrible [[programming language]]_
+_such a painful [[programming language]]_
 
-**see** [[java is a terrible language]]
-
-**see** [[object-oriented programming]], [[object]], [[class]]
-
-**see** [[java primitive]], [[java reference]], [[java wrapper]], [[java auto boxing]]
+**see** [[object-oriented programming]], [[math notation]]
 
 ## hello world
 
@@ -24,24 +20,25 @@ compilation and execution:
 java HelloWorld.java
 ```
 
-## Scope
+## a painful language
 
-**see** [[scope]]
+in my opinion, [[java#auto boxing]] is a band-aid and [[java#wrapper]]s are a duct-tape solution
 
-Java [[scope]]s are defined using `{ /*...*/ }`
+[[java]] does **not** support operator overloading. [[java]] does **not** have [[first-class function]]s
 
-> **example**
->
-> ```java
-> {
->   int k = 0;
-> }
-> k++; // throws an error
-> ```
+[[java]] does **not** allow the creation of generic [[array]]s `E[] a = new E[capacity]` where `E` is the generic [[type]]. `E[] = (E[]) Object[capacity]` is to be used instead, which will generate a compile-time a warning, which can be suppressed using the decorator `@SuppressWarnings("unchecked")` &mdash; <https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java>
 
-## Overriding Equals
+[[java]] only has simplistic [[type]] inference, through the `var` keyword &mdash; <https://www.geeksforgeeks.org/var-keyword-in-java/>
 
-**see** [[polymorphism]], [[java is a terrible language]]
+[[java]] [[array]]s are indexed by [[integer]]s, meaning no [[java]] [[array]] can hold more than **`2[31]`** elements
+
+[[java]] `import` best practices are basically cargo cult programming &mdash; <https://youtu.be/FyCYva9DhsI?t=1673>
+
+refer to the Wikipedia article (yes, there's a Wikipedia article) <https://en.m.wikipedia.org/wiki/Criticism_of_Java> for further reading
+
+### overriding equals
+
+**see** [[polymorphism]]
 
 overriding `Object.equals` in [[java]] must follow the pattern below &mdash; ITI1121 Introduction to Computing II
 
@@ -65,42 +62,119 @@ public class Account {
 }
 ```
 
-## Garbage Collector
+### `==` on references
 
-in [[java]], memory is freed by the Garbage Collector when all references to an object are deleted. this means that memory leaks are still possible when references are not explicitly deleted.
+using the `==` [[operator]] on [[java#reference]]s compares their location in memory, which can be influenced by compiler [[optimization]]
 
-## Classes
+> **example**
+>
+> ```java
+> public class References {
+>   public static void main(String[] args) {
+>     String a = "asdf";
+>     String b = "asdf";
+>     String c = "a" + "sdf";
+>     String first = "a";
+>     String d = first + "sdf";
+>
+>     System.out.println(a == b); // true
+>     System.out.println(a == c); // true
+>     System.out.println(a == d); // false
+>   }
+> }
+> ```
 
-**see** [[class]]
+### auto boxing
 
-in a [[java]] [[class]], a _final variable_ can only be initialized once
+_auto boxing_ is the automatic conversion from a [[java#primitive]] to a [[java#reference]]; _auto unboxing_ is the automatic conversion from a [[java#reference]] to a [[java#primitive]]
 
-in a [[java]] [[class]], the order in which properties and methods are defined is irrelevant
+> **example**
+>
+> ```java
+> Integer i = 1; // valid in Java 5 and up
+> Integer i = Integer.valueOf(1); // transforms into this (called boxing)
+>
+> Integer i = new Integer(1); // this syntax is deprecated since Java 9
+> ```
 
-## Interfaces
+> **example**
+>
+> ```java
+> Integer i = 1;
+> i = i + 5;
+>
+> //gets turned into
+>
+> i = Integer.valueOf(
+>   i.intValue() + 5 // unboxing and adding to another primitive
+> ); // re-boxing the value again
+> ```
 
-**see** [[interface]]s
+## type "system"
 
-**definition** in [[java]], an _interface_ is an abstract [[type]] that is used to specify what behavior a [[class]] should implement. [[interface]]s may only contain abstract method signatures and constant declarations.
+using [[java#primitive]]s is almost always faster than using [[java#reference]]s
 
-## Generics
+> **example**
+>
+> ```java
+> // the following executes in 40ms
+> long sum = (long) 0;
+> for (int i = 0; i < 100000000; i++) {
+>   sum += sum + (long) 1;
+> }
+>
+> // the following executes in 477ms
+> Long sum = (long) 0;
+> for (int i = 0; i < 100000000; i++) {
+>   sum += sum + (long) 1;
+> }
+> ```
 
-**see** [[generic]]s
+### Generic
 
-**definition** in [[java]], _generics_ are almost identical to `template`s in [[c++]]. behind the scenes, they seem to replace all instances of the generic [[type]] by `Object`, but they still allow for compile-time [[type]] checks to avoid runtime errors &mdash; <https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood>. see [[java is a terrible language]]
+**see** [[generic]]
 
-## other definitions and properties
+[[java#generic]]s are basically type casts to `Object` (known as a _type erasure_) that are checked at compile time &mdash; <https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood>. consequently, collections cannot contain [[java#primitive]]s &mdash; <https://stackoverflow.com/questions/4594529/java-collections-why-no-primitive-types>
 
-**definition** _collections_ are data [[type]]s containing multiple elements. they cannot contain [[java primitive]]s &mdash; <https://stackoverflow.com/questions/4594529/java-collections-why-no-primitive-types>. see [[java is a terrible language]]
+### Primitive
 
-**definition** in Java, an _abstract method_ is used to have a definition but no implementation. abstract methods must be implemented by sub[[class]]es.
+[[java#primitive]]s are stored on the [[stack]]
 
-**definition** in Java, an _abstract class_ is used to prevent its instantiation. it must be used when a [[class]] contains abstract methods
+[[java#primitive]]s are passed by value and can be passed by reference through [[java#wrapper]]s
 
-**properties**
+> **examples**
+>
+> ```java
+> byte
+> short
+> int
+> long
+> float
+> double
+> boolean
+> char
+> ```
 
-in Java, declaring a [[class]] `class MyClass` is shorthand for `class MyClass extents Object`
+### Reference
 
-Java does **not** support operator overloading, because Java
+[[java#reference]] types are stored in the heap; pointers to [[java#reference]] types are stored on the [[stack]]
 
-Java does **not** support [[first-class function]]s, because Java
+despite [[java]] being a managed language, memory leaks can still occur if references to [[object]]s are not explicitly deleted
+
+[[java#reference]]s are passed by reference. [[java#reference]]s inherit from `Object`, which allows them to be used in [[java#generic]]s. all user-defined [[class]]es are [[java#reference]]s
+
+> **note** declaring a [[java]] [[class]] `class MyClass` is shorthand for `class MyClass extents Object`
+
+> **examples**
+>
+> ```java
+> String
+> Integer
+> Object
+> ```
+
+### Wrapper
+
+every [[java#primitive]] has a corresponding [[java#wrapper]], which are [[java#reference]]s
+
+> **example** `Integer` is a wrapper for `int`
