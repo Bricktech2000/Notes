@@ -10,7 +10,7 @@ _[[c]] with OOP_
 
 [[c++]] is not a [[set#superset]] of [[c]]; that is, **`>< /\ "C++" |- "C"`**
 
-> **examples** _valid [[c]] but invalid [[c++]]; that is, elements of **`"C" /\ +"C++"`** _
+> **examples** _valid [[c]] but invalid [[c++]]; that is, elements of **`"C" /\ +"C++"`**_
 >
 > ```c
 > // implicit conversion from `void*`

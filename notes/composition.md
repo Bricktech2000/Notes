@@ -39,3 +39,5 @@ _associativity_ **`h (g f *) * == (h g *) f * == h g f *`** &mdash; <https://you
 **definition** **`{*}`**
 
 **properties** **`{*} x == x`**
+
+> **equivalence** _[[combinatory logic#i combinator]] and [[composition#identity]]_

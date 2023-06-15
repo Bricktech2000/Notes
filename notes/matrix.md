@@ -184,6 +184,8 @@ _the transpose of a [[matrix]]_
 
 _flips a [[matrix]] around its [[matrix#diagonal]]_
 
+> **equivalence** _[[combinatory logic#c combinator]] and [[matrix#transpose]]_
+
 **notation** **`rr A`**
 
 **definition** **`rr A`**

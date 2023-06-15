@@ -12,8 +12,6 @@ a lot of [[technical writing]] especially sources, [[professional email]]
 
 [[autonomic nervous system]] merge with children, maybe merge [[central nervous system]]
 
-[[java reference]], [[java wrapper]], [[java primitive]], [[java auto boxing]], [[java is a terrible language]]
-
 [[discord statuses]]
 
 [[non-copyable data]], [[rationalizing]]

@@ -47,7 +47,7 @@ we can then define:
 
 ### I Combinator
 
-_[[function]] [[composition#identity]]_
+_identity_
 
 **aka** _identity, `id` in Haskell_
 
@@ -58,6 +58,8 @@ _[[function]] [[composition#identity]]_
 **definition** **`I = ii ii`**
 
 **notation** **`{*} x`**
+
+> **equivalence** _[[combinatory logic#i combinator]] and [[composition#identity]]_
 
 ### K Combinator
 
