@@ -15,7 +15,7 @@ today, schools attempt to meet the needs of industrial and post-industrial socie
 mass [[education]] often results in students learning bad habits. examples include:
 
 - to perform a calculation, reaching for a physical calculator instead of using their phone or performing it mentally because school imposes physical calculators in exams
-- writing in a [[vague ambiguous generic]] manner suffering from [[wordiness]] because school imposes word count minimums but never maximums
+- writing in a vague, ambiguous, generic manner suffering from [[wordiness]] because school imposes word count minimums but never maximums
 
 a lot of degrees nowadays don't seem like they're worth the [[time]] and [[money]] [[invest]]ed in them. both adults in this video <https://youtu.be/crj3IOuSrdY> had to pay back student debt from colledge, but have had to work at positions such as a waitress in a restaurant and in a bar, a highschool math teacher, a tutor, a pizza deliverer, and a "fraud investigator" &mdash; all of which had a salary in the range of **`20 000 \$ -- "y" ... 35 000 \$ -- "y"`**
 

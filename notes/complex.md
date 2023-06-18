@@ -2,7 +2,7 @@
 
 _the [[set]] of [[complex]] numbers_
 
-**see** [[math notation]]
+**see** [[math notation]], [[imaginary unit]]
 
 **definition**
 

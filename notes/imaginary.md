@@ -2,7 +2,7 @@
 
 _the [[set]] of [[imaginary]] numbers_
 
-**see** [[math notation]]
+**see** [[math notation]], [[imaginary unit]]
 
 **definition** **`(CC /\ +RR) x == x = bii /\ RR b`**
 

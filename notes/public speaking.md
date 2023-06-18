@@ -14,8 +14,6 @@ explicitly link [[concept]]s and ideas together instead of listing them
 
 > **examples**
 >
-> **see** [[writing a report]]
->
 > - start with an empowerment promise. explain why people are listening to you
 > - when using slides, mention the title [[verbal]]ly instead of cluttering the slides with it
 > - use linking words when jumping from one idea to the next

@@ -6,8 +6,6 @@ this note describes my own [[math notation]], meant to solve inconsistencies in 
 
 this [[math notation]] obviously cannot be used to communicate ideas to people who do not know it, but it has made my own experience of using [[mathematics]] much more enjoyable; it has become a [[tool]] for thought. being able to use a single relatively well-defined notation in various [[mathematics]] [[fields]] that conventially use their own made up notation has been invaluable
 
-> **note** _[[math notation]]_ can be a deceiving name; this [[math notation]] reimagines not only the syntax but also the semantics of [[mathematics]]
-
 ## principles
 
 below is a non-exhaustive list of principles that guide the design of this [[math notation]]
@@ -88,7 +86,7 @@ let:
 | **`[a]b`** <br /> **`a[b]`**                                 | **`a`** to the power of **`b`**                              |                                                 |
 | **`\a/ b`**                                                  | the **`b`**th root of **`a`**                                |                                                 |
 | **`/a\ b`**                                                  | the base-**`b`** [[logarithm]] of **`a`**                    |                                                 |
-| **`x -> E`**                                                 | [[function]] literal                                         | **`f = x -> E == f <- x = E`**                  |
+| **`x -> E`**                                                 | [[function]] abstraction                                     | **`f = x -> E == f <- x = E`**                  |
 | **`f <- E`**                                                 | [[function]] application                                     | longhand discouraged                            |
 | **`a = b`** <br /> **`a == b`**                              | whether **`a`** is equal to **`b`**                          | also serves as [[boolean algebra#equivalence]]  |
 | **`a + b`** <br /> **`a >< b`**                              | whether **`a`** is not equal to **`b`**                      | also serves as [[boolean algebra#exclusive or]] |
@@ -110,11 +108,11 @@ let:
 | **`^^`**                                                     | [[boolean]] _true_                                           |                                                 |
 | **`tt`**                                                     | [[tau]], the [[circle]] constant                             |                                                 |
 | **`ee`**                                                     | [[euler's constant]]                                         |                                                 |
-| **`ii`**                                                     | **`\.1/`**                                                   | see [[imaginary]]. using **`i`** is discouraged |
+| **`ii`**                                                     | the [[imaginary unit]]                                       | using **`i`** is discouraged                    |
 | **`rr`**                                                     | **`f a b -> f b a`**                                         | see [[combinatory logic#c combinator]]          |
 | **`PP`**                                                     | the [[pi function]]                                          | using **`"fact"`** is discouraged               |
 | **`#`**                                                      | the number of "links" in a [[function]]                      | #todo define rigorously                         |
-| **`yy`**                                                     | the [[multiset]] of [[prime]] factors of a [[natural]]       | see [[psi function]]                            |
+| **`yy`**                                                     | the [[psi function]]                                         |                                                 |
 
 ### shorthands
 
@@ -153,25 +151,22 @@ let:
 
 ### precedence and associativity
 
-_in order of high to low precedence_
-
 **see** [[infix notation#precedence]], [[infix notation#associativity]]
 
-| operator                                | associativity |
-| --------------------------------------- | ------------- |
-| **`( ) (( )) { } {{ }} [] [] 123 x_a`** |               |
-| **`x^i`**                               |               |
-| **`\./ [.] /.\`**                       | left          |
-| **`' -`**                               | left          |
-| **`dd "sin" # \* <-`**                  | left          |
-| **`: .`**                               | left          |
-| **`\| --`**                             | left          |
-| **`$ { } ... -> "mod"`**                | right         |
-| **`__ ^^`**                             | left          |
-| **`= -\| \|- +`**                       | AND           |
-| **`/\ \/`**                             | left          |
-| **`== < > ><`**                         | AND           |
-| **`,`**                                 |               |
+| operator                                | precedence | associativity |
+| --------------------------------------- | ---------- | ------------- |
+| **`( ) (( )) { } {{ }} [] [] 123 x_a`** | highest    |               |
+| **`\./ [.] /.\ x^i`**                   | ...        | left          |
+| **`' -`**                               | ...        | left          |
+| **`dd "sin" # \* <-`**                  | ...        | left          |
+| **`: .`**                               | ...        | left          |
+| **`\| --`**                             | ...        | left          |
+| **`$ { } ... -> "mod"`**                | ...        | right         |
+| **`__ ^^`**                             | ...        | left          |
+| **`= -\| \|- +`**                       | ...        | AND           |
+| **`/\ \/`**                             | ...        | left          |
+| **`== < > ><`**                         | ...        | AND           |
+| **`,`**                                 | lowest     |               |
 
 > **note** above,
 >
