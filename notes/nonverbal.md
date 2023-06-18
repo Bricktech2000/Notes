@@ -6,11 +6,9 @@
 
 ## Connotation
 
-_an association that any given action carries_
+_an association that any given action carries_ &mdash; me
 
 **see** [[verbal#connotation]]
-
-> **note** this interpretation of _connotation_ was made up by me
 
 > **examples**
 >
@@ -24,6 +22,15 @@ _an association that any given action carries_
 > - micromanaging employees &mdash; a good leader does not have to micromanage their team to get things done
 > - cleaning before hosting &mdash; a clean individual does not need to clean their house before guests arrive
 > - mentioning [[intelligence]] &mdash; an intelligent person does not need to mention their intelligence to be respected
+
+unique behavior observed in someone can sometimes be explained by a unique trait of theirs having a direct impact on the way their peers treat them &mdash; me
+
+> **examples**
+
+> - someone who makes mean comments could've received mean comments from other people in the past. this could be caused by the way they used to act, for example
+> - the way a father treats a son can affect the way his son will treat his children. this could result in anything from a lack of emotional attachment to physical or verbal abuse
+> - a person who shows very high levels of empathy could've been through difficult moments in the past. since other people used to show empathy towards them, they learned to treat others people with empathy
+> - _the homophobic homosexual_ &mdash; if a homosexual individual has been treated poorly by homophobic people, they might become homophobic themselves
 
 ## Behavior
 

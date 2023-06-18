@@ -33,7 +33,7 @@ _multiplication by a [[scalar]]_ **`c{a, b} == {ca, cb} > RR c`**
 
 _switches around the two elements of an [[ordered pair]]_
 
-> **note** this was made up by me and probably doesn't have an equivalent in [[conventional math notation]]
+> **note** &mdash; me; likely has no [[conventional math notation]] equivalent
 
 **notation** **`P {+} *`**
 

@@ -1,11 +1,21 @@
 # Autonomic Nervous System
 
-**definition** the _autonomic nervous system_ is a control system that acts largely unconsciously and regulates bodily functions, such as the heart rate, digestion, respiratory rate, pupillary response, urination, and sexual arousal. this system is the primary mechanism in control of the fight-or-flight response (see [[sympathetic nervous system]]) &mdash; Wikipedia
+**definition** the _autonomic nervous system_ is a control system that acts largely unconsciously and regulates bodily functions, such as the heart rate, digestion, respiratory rate, pupillary response, urination, and sexual arousal. this system is the primary mechanism in control of the fight-or-flight response &mdash; Wikipedia
 
 used for backlinks
 
-## branches
+## Sympathetic Nervous System
 
-[[sympathetic nervous system]]
+_fight-or-flight_
 
-[[parasympathetic nervous system]]
+### Fight-or-Flight Response
+
+**aka** _hyperarousal, accute stress response_
+
+**definition** the _fight or flight response_ is an automatic physiological reaction to an event that is perceived as stressful or frightening. the perception of threat activates the sympathetic nervous system and triggers an acute stress response that prepares the body to fight or flee &mdash; <https://www.psychologytools.com/resource/fight-or-flight-response/>
+
+## Parasympathetic Nervous System
+
+_rest and digest_
+
+the _parasympathetic nervous system_ is practically the opposite of the _sympathetic nervous system_. it relaxes the body after periods of stress or danger and allows for processes like digestion when the body is calm

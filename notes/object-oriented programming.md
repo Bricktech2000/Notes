@@ -22,13 +22,15 @@ cons of [[object-oriented programming]] include:
 
 &mdash; <https://rodrigodeoliveira.netlify.app/the-four-pillars-of-oop>
 
-> **definition** _[[abstraction]]_ defines the essential characteristics of an [[object]]
+**see** [[polymorphism]], [[abstraction]]
 
-> **definition** _[[encapsulation]]_ hides the details of the implementation of an [[object]]
+> **definition** _abstraction_ groups the essential characteristics of an [[object]]
 
-> **definition** _[[inheritance]]_ allows the creation of new classes from existing [[class]]es
+> **definition** _encapsulation_ hides the details of the implementation of an [[object]]
 
-> **definition** _[[polymorphism]]_ allows the same method to be used on different [[object]]s
+> **definition** _inheritance_ allows the creation of new classes from existing [[class]]es
+
+> **definition** _polymorphism_ allows the same method to be used on different [[object]]s
 
 ## Principles
 

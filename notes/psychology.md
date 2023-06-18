@@ -6,8 +6,6 @@
 
 **see**
 
-[[less stimulated lifestyle]]
-
 [[desire vs value]], [[reaction vs response]]
 
 [[hijacking brain circuitry]], [[subconscious manipulation]], [[intent to mastery]]
@@ -15,8 +13,6 @@
 [[memory]], [[memory technique]]
 
 [[10x developper]], [[intelligence]]
-
-[[people are shaped by their surroundings]]
 
 [[social media]]
 
@@ -27,6 +23,8 @@
 [[hypnosis]]
 
 [[cognitive bias]], [[material distortion]]
+
+[[verbal#connotation]], [[nonverbal#connotation]]
 
 [[mental illness]]
 

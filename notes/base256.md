@@ -1,5 +1,7 @@
 ## Base256
 
+&mdash; me
+
 **see** [[ascii]]
 
 [[base256]] is a binary-to-text encoding scheme. it encodes 8-bit bytes into single characters in such a way that printable [[ascii]] data is represented one-to-one and that the output can be decoded manually if necessary
@@ -7,8 +9,6 @@
 [[base256]] is meant to be used to losslessly and compatcly store arbitrary data on sheets of paper as a ridiculously future-proof backup medium. it is fast and cheap to produce, and can be read by humans and machines alike
 
 > **example** the [[utf-8]] [[string]] <code>"did you know that &tau; > &pi;?\n"</code>, which is [[hexadecimal]] `64 69 64 20 79 6f 75 20 6b 6e 6f 77 20 74 68 61 74 20 cf 84 20 3e 20 cf 80 3f 0a`, is equivalent to <code>"did&#x2E31;you&#x2E31;know&#x2E31;that&#x2E31;<u>O&epsilon;</u>&#x2E31;&gt;&#x2E31;<u>O&alpha;</u>?&#x25FE;"</code> encoded in [[base256]]. see [[tau]]
-
-> **note** [[base256]] is a thing I made up
 
 **properties**
 

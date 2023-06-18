@@ -1,5 +1,7 @@
 # Exponential Derivative
 
+&mdash; me
+
 **see** [[math notation]], [[derivative]], [[exponent]], [[logarithm]], [[limit]], [[euler's constant]]
 
 the [[derivative]] of a [[line]]ar [[function]] **`x -> ax : b`** is its [[function#slope]] **`a`**. similarly, the [[exponential derivative]] of an [[exponent]]ial [[function]] **`x -> ba[x]`** is its base **`a`**
@@ -10,7 +12,7 @@ the [[derivative]] of a [[line]]ar [[function]] **`x -> ax : b`** is its [[funct
 >
 > **`[dd /f x\ -- dd x] == [ /f x\ . /f a\ -- x . a] {x -> a} == [ /f x -- f a\ -- x . a] {x -> a} == \f x -- f a/ (x . a) {x -> a}`**
 
-> **note** this is not actually a thing, I made it up. I came up with the [[derivative]]-[[limit]]-definition&ndash;like form first by intuitively swapping out the subtraction and the division **`f x . f a -- ...`** for a ratio and a radical **`\f x -- f a/ ...`**. I then realized that the base-agnostic [[logarithm]] of an [[exponent]]ial [[function]] is a [[line]]ar [[function]], the [[derivative]] of which contains the base of that [[exponent]]ial [[function]]. finally, I realized that taking the [[exponent]]ial of the [[derivative]] of that [[logarithm]] would give me the base of the original [[exponent]]ial [[function]]. this is what the second definition **`[dd /f x\ -- dd x]`** represents
+> **note** I came up with the [[derivative]]-[[limit]]-definition&ndash;like form first by intuitively swapping out the subtraction and the division **`f x . f a -- ...`** for a ratio and a radical **`\f x -- f a/ ...`**. I then realized that the base-agnostic [[logarithm]] of an [[exponent]]ial [[function]] is a [[line]]ar [[function]], the [[derivative]] of which contains the base of that [[exponent]]ial [[function]]. finally, I realized that taking the [[exponent]]ial of the [[derivative]] of that [[logarithm]] would give me the base of the original [[exponent]]ial [[function]]. this is what the second definition **`[dd /f x\ -- dd x]`** represents
 
 **properties**
 

@@ -43,3 +43,5 @@ _a systematic pattern of deviation from norm or rationality in judgment_
 [[exponential growth]]
 
 [[circular reasoning]]
+
+[[material distortion]]

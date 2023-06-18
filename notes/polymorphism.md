@@ -3,7 +3,7 @@
 > **examples**
 >
 > - [[rank polymorphism]]
-> - operator overloading
+> - [[operator]] overloading
 > - [[object-oriented programming]] runtime binding
 
 used for backlinks
