@@ -1,11 +1,11 @@
 # Dash
 
-used as punctuation. see [[hyphen]]
+_used as punctuation_
 
-**notation** &mdash;
+**see** [[hyphen]]
 
-[[dash]]es be used to replace pretty much all [[punctuation]], but overusing it in [[technical writing]] is to be avoided
+**notation** _&mdash;_
 
-> **example** _sample usage_
->
-> > _his report is excellent &mdash; clear, concise and informative_
+[[dash]]es can be used to replace pretty much any punctuation, but overusing it in [[technical writing]] is to be avoided
+
+> **example** _his report is excellent &mdash; clear, concise and informative_

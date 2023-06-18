@@ -62,7 +62,7 @@ italics are used for informal and opinionated statements, and literal aoenuatose
 - horizontal rules are occasionally used to separate a whole file in different sections
 - each page has one title-case first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule
 - box titles such as that of the [[conventions]] page are generated using <https://lingojam.com/BoldTextGenerator>
-- "lax" syntax and [[punctuation]] is used; that is,
+- "lax" syntax and punctuation is used; that is,
   - the first word of a sentence is not capilatized
   - full stops seperate sentences; they do not end them
 

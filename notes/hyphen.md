@@ -1,29 +1,23 @@
 # Hyphen
 
-used to link words together. see [[dash]].
+_used to group words together_
+
+**see** [[dash]]
+
+**notation** _-_
 
 compound adjective are hyphenated but complements are not
 
-> **examples**
->
-> > three-year-old boy, the boy was three years old
->
-> > well-written report, the report was well written
+> **example** _three-year-old boy_, _the boy was three years old_
 
 fractions are hyphenated
 
-> **example**
->
-> > one-third of employees [...]
+> **example** _one-third of employees [...]_
 
-adverbs ending in _ly_ are not hyphenated
+adverbs are not hyphenated
 
-> **example**
->
-> > Poorly developed writing skills
+> **example** _poorly developed writing skills_
 
-units should be hyphenated when used as adjectives
+units are hyphenated when used as adjectives
 
-> **example**
->
-> > A 110-foot sandy beachfront
+> **example** _a 110-foot sandy beachfront_

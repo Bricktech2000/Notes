@@ -1,43 +1,25 @@
 # Wordiness
 
-**definition** _wordiness_ is one of the most common ESL mistakes. it happens when a writer, either intentionally or unintentionally, uses far too many words or unnecessarily complex or abstract words. wordiness can seriously detract from the coherency and quality of your writing and frustrate your readers &mdash; Scribendi
+**definition** _wordiness_ is a measure of the [[density]] of information in a text; high wordiness corresponds to low information density
 
-wordiness can "cover-up" for lack of information and analysis &mdash; Gefen. it is to be avoided in [[technical writing]]
+**definition** a _vague_ word has many different meanings, is open to interpretation
 
-## signs of wordiness
+**definition** an _ambiguous_ word has a few distinct different meanings
 
-- redundant words
-- unnecessary background (about the author, for instance)
-- rhetorical questions (can add emphasis, but adds no information)
+**definition** a _generic_ word is not specific enough but doesn't cause vagueness
 
-high-risk phrases include:
+high [[wordiness]] can "cover-up" for a lack of information and analysis &mdash; Gefen. it is to be avoided in [[technical writing]]
 
-- _it is_ and _there is_, as that means the sentence can likely be reworded
-- the verb _to be_, as this could indicate wordiness
-- _, and this_ can often be replaced by _, which_
+[[wordiness]] can manifest in several ways, often through the use of:
 
-## examples of wordiness
+- vague, ambiguous, generic words and [[rhetorical question]]s
+- _it is [...] who_ and _there is [...] that_ and similar constructions
+- _, and this_ and similar constructions
+- _in order to_ and _in the process of_ and similar constructions
 
-> **example**
+> **examples**
 >
-> > **there are** 70 participants **who** completed the survey
->
-> can be rewritten as:
->
-> > 70 participants completed the survey
-
-> **example**
->
-> > we will have a discussion
->
-> can be rewritten as:
->
-> > we will discuss
-
-> **example**
->
-> > Albert Einstein **was a scientist who** revolutionized our understanding of [[time]].
-
-> **example**
->
-> > Internet addiction is enabled by several factors. **These factors** include [...]
+> - _**there are** 70 participants **who** completed the survey_ can be rewritten as _70 participants completed the survey_
+> - _we will have a discussion_ can be rewritten as _we will discuss_
+> - _Albert Einstein **was a scientist who** revolutionized our understanding of [[time]]_ can be rewritten as _Albert Einstein revolutionized our understanding of time_
+> - _internet addiction is enabled by several factors. **These factors** include [...]_ can be rewritten as _internet addiction is enabled by several factors, including [...]_
