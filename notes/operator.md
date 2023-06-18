@@ -6,7 +6,7 @@
 
 [[boolean algebra#operators]]
 
-[[math notation#notation]]
+[[math notation]]
 
 [[lambda calculus#syntax]]
 

@@ -81,7 +81,7 @@ _discards the second argument_
 
 **definition** **`S = ii (ii (ii (ii ii)))`**
 
-**notation** **`{* f g} x`**
+**notation** **`{f g} x`** or equivalently **`{* f g} x`**
 
 ### B Combinator
 
@@ -137,11 +137,23 @@ _duplicates the second argument_
 
 **notation** **`{f *} x`** or equivalently **`{* f *} x`**
 
+### M Combinator
+
+_applies a [[function]] to itself_
+
+**definition** **`M = f -> f f`**
+
+**definition** **`M = S I I`**
+
+**notation** **`{* *} f`**
+
 ### KI Combinator
 
 _discards the first argument_
 
 **definition** **`K I = f x y -> f y`**
+
+**notation** **`{->} {*}`**
 
 ### T Combinator
 
@@ -157,7 +169,7 @@ _applies the first argument to the second argument_
 
 _applies a [[function]] twice_
 
-**definition** **`S B I = f x -> f f x`**
+**definition** **`S B I = f x -> f (f x)`**
 
 ### Sigma Combinator
 
@@ -205,9 +217,9 @@ _used to formally define recursive [[function]]s in a [[functional programming]]
 
 **definition** _in [[lambda calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
 
-**definition** _using the [[combinatory logic#w combinator]]_ **`Y = f -> {f *} {f *}`**
+**definition** _using [[combinatory logic]]_ **`Y = f -> {* *} (f {* *} *)`**
 
-_it's not recursive but it encodes [[recursion]]_ &mdash; <https://youtu.be/9T8A89jgeTI?t=678>
+_it is not recursive but it encodes [[recursion]]_ &mdash; <https://youtu.be/9T8A89jgeTI?t=678>
 
 &mdash; <https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator>
 
@@ -242,6 +254,8 @@ the [[combinatory logic#iota combinator]] can be used to define the [[combinator
 &mdash; <https://www.angelfire.com/tx4/cus/combinator/birds.html> &mdash; <https://combinatorylogic.com/table.html> &mdash; <https://youtu.be/Y0KKPYkeOTA>
 
 &mdash; <https://gist.github.com/Avaq/1f0636ec5c8d6aed2e45#file-combinators-md> &mdash; <https://combinatorylogic.com/table.html> &mdash; <https://youtu.be/Y0KKPYkeOTA>
+
+&mdash; <https://codegolf.stackexchange.com/questions/53250/optimizing-ski-compiler>
 
 &mdash; <https://cs.stackexchange.com/questions/13901/what-is-the-name-of-this-combinator>
 

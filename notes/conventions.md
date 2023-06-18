@@ -17,7 +17,7 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 
 italics are used for informal and opinionated statements, and literal aoenuatosenuth #todo. [[trick]]s and personal definitions and to replace quotation marks
 
-## sections
+## headings
 
 - title-case headings are for [[concept]]s that can be linked to using [[wikilink#anchor wikilink]]s and lowercease headings are for general titles
 
@@ -55,6 +55,7 @@ italics are used for informal and opinionated statements, and literal aoenuatose
 
 - [[wikilink]]s are generally avoided in headings
 - a page can link to itself
+- most [[fact]]s, opinions and judgements are accompanied by their source and not just stated as an absolute truth
 - note names are mostly singular nominal groups, and sometimes adjectives when more appropriate. diacritics are removed from them
 - file names are lowercase. diacritics are removed from them
 - line breaks are used exclusively for how they look in the render and never to make the [[markdown]] source more readable (which is why almost no single line breaks are used)
@@ -81,9 +82,9 @@ italics are used for informal and opinionated statements, and literal aoenuatose
 >
 > `inline code`
 >
-> ```javascript
+> ```rust
 > // code block
-> console.log(() => 'Fira Code Ligatures');
+> println!("-> with ligatures <-");
 > ```
 >
 > - unordered

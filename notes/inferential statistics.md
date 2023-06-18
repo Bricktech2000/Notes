@@ -2,12 +2,6 @@
 
 _making inferences about [[population]]s by examining one or more random [[sample]]s drawn from that [[population]]_
 
-&mdash; <https://youtu.be/OgO1gpXSUzU>
-
-&mdash; <https://youtu.be/rUxP7TM8-wo>
-
-&mdash; <https://youtu.be/soZv_KKax3E>
-
 **see** [[math notation]]
 
 **see**
@@ -31,3 +25,11 @@ _making inferences about [[population]]s by examining one or more random [[sampl
 > **note** beware of the [[gambler's fallacy]] &mdash; results don't "want to even out" over time
 
 a random [[sample]] tends to exhibit the same properties as the [[population]] from which it was drawn
+
+## &mdash;
+
+&mdash; <https://youtu.be/OgO1gpXSUzU>
+
+&mdash; <https://youtu.be/rUxP7TM8-wo>
+
+&mdash; <https://youtu.be/soZv_KKax3E>
