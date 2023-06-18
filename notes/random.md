@@ -34,7 +34,10 @@ having units in [[programming language]]s would solve a lot of issues, such as:
 - forgetting to multiply by `dt` in a [[video game]] engine
 - sending [[time]] to a `sleep` function in milliseconds as opposed to seconds
 
-<https://youtu.be/qC_ioJQpv4E?t=2126> #think
+as with every idea I have, turns out it already exists:
+
+- <https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/units-of-measure> &mdash; <https://youtu.be/qC_ioJQpv4E?t=2126>
+- <https://en.wikipedia.org/wiki/Dimensional_analysis#Programming_languages>
 
 ### we are a tiny subset of everything
 

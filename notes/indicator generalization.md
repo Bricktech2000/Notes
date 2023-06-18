@@ -14,7 +14,7 @@
 > - someone owning a degree
 > - the make of someone's car
 > - someone's grades or the school someone attends
-> - whether someone uses [[social media]] or parties
+> - whether someone uses [[social media]] or attends parties
 
 > **note** indicators seem similar to _proxies_ &mdash; <https://youtu.be/0Z9RW_hhUT4>
 
@@ -33,3 +33,30 @@ as the brands of one's possessions are **indicators**, they can be used as a _st
 people often mistake generalizations of one's **indicators** for an accurate representation of one's personality and personal qualities
 
 generalizations are convenient for people to use, but they are not always accurate
+
+#todo #think
+
+> en francais, u nprédicteur
+> essentiellement, un truc tel que r² != 0
+> l'idée, c'est que tu veux prédire quelque chose
+> /que tu aimerais mesurer quelque chose
+> mais que tu peux pas
+> alors, tu essaye de bypasser cette contrainte là
+> et tu utilise des sidechannels funky
+> genre, dans le cas de ce que j'ai écrit, la race
+> aussi, je viens de remarquer que dans tes notes...
+> (c'est quand même intéressant)
+> à chaque fois qu'il y aurait un jugement de fait, tu donne une attribution
+> qui a dit ça
+>
+> je viens de lire ta page sur les indicateurs
+> ça me fait penser au concept de countersignalling
+>
+> Autre concept utile à savoir nommer sur les indicateurs, c'est goodhart's law
+> Lorsqu'une métrique devient un but, elle cesse d'etre une bonnemetrique
+>
+> La valeur dun degree, c'est en tant qu'indicateur de compétence
+> Cependant, il est possible de vendre un degree à quelqu'un d'incompétent
+> C'est une stratégie bonne pour l'incompétent ET pour l'uni à court terme
+> Dans le sens que faire ça va éroder la valeur du degree
+> Et qu'après, peut etre que pour avoir le même niveau de compétence qu'avant, tu vas devoir demander un master's au lieu d'un bac

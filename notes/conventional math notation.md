@@ -6,25 +6,22 @@
 
 [[conventional math notation]] is [[flawed but established]]
 
-- [[set]] builder notation $\lbrace \mid \rbrace$ is just a $\cap$
-- $\sqrt{}$ often only returns a positive solution
-- $\pm$ and $|\ |$ are totally different but do effectively the same thing
+- $\sqrt{}$ often only returns the positive solution
 - $ab = a \times b$, $fg(x) = f(g(x))$, $\sin x = \sin(x)$, $xy = x * y$ ([[group#operation]])
 - division can be written as long bar, but multiplication cannot
 - $4^2$, $\sqrt{4}$, $\log_2 4$ are the same operation with completely different notation
 - equalities return [[boolean]]s, except when they do not
-- [[matrix]] and [[vector]] literals can be ambiguous
 - [[variable]]s are one letter in length, except when they are not
-- [[conventional math notation]] is neither $1D$ nor $2D$; it is some sort of a $1.5D$
+- [[conventional math notation]] is neither 1D nor 2D; it is some sort of a 1.5D
 - $\sin^2 x = (\sin x)^2$ whereas $f^2(x) = f(f(x))$ and $\sin^{-1} x = \arcsin x$
 - $\sqrt{-a}$ and $\ln -a$ are often considered "undefined"
 - $a < b < c$ might or might not mean $a < b \land b < c$
 - [[exponent]]s are right-associative. why?
 - indices start at $1$
 - $a(b)$ represents both multiplication and application
-- [[summation and product notation]] is shameful
+- $\sum_{i = 0}^{n} x_i$ and $\prod_{i = 0}^{n} x_i$ are shameful at best
 - [[matrix]] indices are often written without commas
-- $(a, b)$ is a GCD and a tuple and a [[vector]] and an interval
+- $(a, b)$ is a GCD and a tuple and a [[vector]] and an [[interval]]
 - $\begin{pmatrix} a \\\ b \end{pmatrix}$ is a [[matrix]] and a [[vector]] and a [[set#combination]]
 - $f^{(n)}$ is repeated differentiation whereas $f^{n}$ is not
 - $f'$ is both a seperate variable name and a [[derivative]]
@@ -44,7 +41,7 @@ other notations used contextually include:
 - $-$ is used for both subtraction and range
 - $+$ is used for both addition and concatenation
 - $=$ is used for both equality and assignment
-- $.$ are used for decimal points and versioning
+- $.$ is used both as a decimal point and for versioning
 
 also see <https://whystartat.xyz/wiki/Main_Page> &mdash; Terramorpha
 

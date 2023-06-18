@@ -2,43 +2,58 @@
 
 **see** [[conventional math notation]]
 
-this note describes my own [[math notation]], meant to solve inconsistencies in [[conventional math notation]]. it is not meant to be a fully formal system of [[mathematics]]; rather, it is built to be easy to understand and intuitive to use by mere humans.
+this note describes my own [[math notation]], meant to solve inconsistencies in [[conventional math notation]]. it is not meant to be a fully formal system of [[mathematics]]; rather, it is built to be easy to understand and intuitive to use by mere humans
 
 this [[math notation]] obviously cannot be used to communicate ideas to people who do not know it, but it has made my own experience of using [[mathematics]] much more enjoyable; it has become a [[tool]] for thought. being able to use a single relatively well-defined notation in various [[mathematics]] [[fields]] that conventially use their own made up notation has been invaluable
 
+> **note** _[[math notation]]_ can be a deceiving name; this [[math notation]] reimagines not only the syntax but also the semantics of [[mathematics]]
+
 ## principles
 
-- all equality [[operator]]s check for equality and return a [[boolean]], and it is implied that an [[expression]] on its own must evaluate to **`^^`**. this allows for [[boolean algebra#operators]] to be applied on equalities explicitly as opposed informally
-- [[set]]s are [[function]]s that return a [[boolean]] ([[set]]s are [[predicate]]s). this way, [[boolean algebra#operators]] and [[set]] [[operator]]s are one and the same. other [[data structure]]s that work similarly include [[vector]]s, [[matrix]]es, [[sequence]]s, [[multiset]]s, [[ordered pair]]s...
-- some [[operator]]s are identical but have different [[infix notation#precedence]] as "more brackets means more explicit, but less brackets means less complex and less confusing"
-- [[operator]]s return what they should actually return to match their inverse. for example, **`\ a /`** returns both positive and negative square roots
-- superscripts are modifiers (subscripts with special meanings). this distinction is extremely useful when working with [[forward propagation]] and [[backpropagation]] in [[neural network]]s, for example
-- [[derivative]]s are not to be written as **`y_*`**, but rather as their complete form **`dd y -- dd x`**. this makes [[calculus notation]] way more intuitive
-- all indices start at **`0`**, as they always should have
-- [[rank polymorphism]] is supported over all [[operator]]s
+below is a non-exhaustive list of principles that guide the design of this [[math notation]]
 
-## Notation
+- **simple** &mdash; build on simple foundations and eliminate superfluous concepts
+- **expressive** &mdash; be expressive to the point that notations are their own definitions
+- **opinionated** &mdash; embrace opinionated and controversial design choices
+- **unambiguous** &mdash; stay clear of ambiguity and of abuse of notation
+
+below are examples of a few design decisions following from these principles
+
+- all equality [[operator]]s check for equality and return a [[boolean]], and it is implied that an [[expression]] on its own must evaluate to **`^^`**. this allows for [[boolean algebra#operators]] to be applied on equalities formally and not as an abuse of notation
+- [[set]]s, [[vector]]s, [[matrix]]es, [[sequence]]s, [[multiset]]s, [[ordered pair]]s, [[graph]]s, [[interval]]s, and other objects are defined as [[function]]s. this has some nice consequences, such as:
+  - [[set]] [[operator]]s such as unions and intersections are [[boolean algebra#operators]]
+  - [[interval]]s are inequalities and [[interval]] [[operator]]s are [[boolean algebra#operators]]
+  - [[graph]]s are their own [[graph#adjacency matrix]]es and their own [[graph#adjacency list]]s
+  - the [[matrix#transpose]] of a [[graph]] yields its converse
+  - [[markov chain]]s are their own transition matrix
+- some [[operator]]s are identical but have different [[infix notation#precedence]]. this reduces the number of parentheses required in expressions, making them easier to visually parse
+- [[rank polymorphism]] is supported over all [[operator]]s
+- all indices start at **`0`**, as they always should have
+- the [[circle]] constant is **`tt`**, and **`pp`** is to be avoided; see [[tau]]
+- this [[math notation]] is 1D; it takes up constant vertical space and can wrap at the end of a line
+
+## notation
 
 also see [[trigonometric function]]s, [[hyperbolic function]]s and [[calculus notation]]
 
 let:
 
-- **`M`** be a [[matrix]]
-- **`V`** be a [[vector]]
-- **`P`** be an [[ordered pair]]
-- **`M_*`** be a [[multiset]]
-- **`G`** be a [[graph]]
-- **`E`** be an [[expression]]
-- **`x`** be a [[variable]]
-- **`f`** be a [[function]]
-- **`A`** be a [[sequence]]
-- **`B`** be a [[series]]
-- **`a, b`** be any mathematical objects
-- **`A, B`** be any mathematical objects with rank greater than **`1`**
-- **`n, i`** be [[natural]] numbers
-- **`b`** be a [[boolean]]
-- **`ww`** be any [[number]]
-- **`\*`** be any [[operator]]
+- **`M`** represent a [[matrix]]
+- **`V`** represent a [[vector]]
+- **`P`** represent an [[ordered pair]]
+- **`M_*`** represent a [[multiset]]
+- **`G`** represent a [[graph]]
+- **`E`** represent any [[expression]]
+- **`x`** represent a [[variable]]
+- **`f`** represent a [[function]]
+- **`A`** represent a [[sequence]]
+- **`B`** represent a [[series]]
+- **`a, b`** represent any mathematical object
+- **`A, B`** represent any mathematical object with rank greater than **`1`**
+- **`n, i`** represent a [[natural]]
+- **`b`** represent a [[boolean]]
+- **`ww`** represent any [[number]]
+- **`\*`** represent any [[operator]]
 
 ### numbers
 
@@ -58,7 +73,9 @@ let:
 
 ### variables
 
-[[variable]]s can be any lower-case latin letter (**`a`**), upper-case latin letter (**`A`**), calligraphic letter (**`BB`**), lower-case greek letter (**`gg`**), upper-case greek letter (**`GG`**). constructs such as $\hat y$ and $y'$ and $\vec y$ are to be written using subscripts; by convention, **`y_*`** is used for both $\hat y$ and $y'$, and **`y`** is used for $\vec y$
+[[variable]]s can be any lower-case latin letter (**`a`**), upper-case latin letter (**`A`**), calligraphic letter (**`BB`**), lower-case greek letter (**`gg`**), upper-case greek letter (**`GG`**)
+
+> **note** constructs such as $\hat y$ and $y'$ and $\vec y$ are to be written using subscripts; by convention, **`y_*`** is used for both $\hat y$ and $y'$, and **`y`** is used for $\vec y$
 
 ### operators and constants
 
@@ -69,14 +86,14 @@ let:
 | **`a'b`** <br /> **`a \| b`**                                | **`a`** multiplied by **`b`**                                |                                                 |
 | **`a-b`** <br /> **`a -- b`**                                | **`a`** divided by **`b`**                                   |                                                 |
 | **`[a]b`** <br /> **`a[b]`**                                 | **`a`** to the power of **`b`**                              |                                                 |
-| **`\ a / b`**                                                | the **`b`**th root of **`a`**                                |                                                 |
+| **`\a/ b`**                                                  | the **`b`**th root of **`a`**                                |                                                 |
 | **`/a\ b`**                                                  | the base-**`b`** [[logarithm]] of **`a`**                    |                                                 |
 | **`x -> E`**                                                 | [[function]] literal                                         | **`f = x -> E == f <- x = E`**                  |
-| **`f <- E`**                                                 | [[function]] application                                     | uncommon, shorthand preferred                   |
-| **`a = b`** <br /> **`a == b`**                              | **`a`** is equal to **`b`**                                  | also serves as [[boolean algebra#equivalence]]  |
-| **`a + b`** <br /> **`a >< b`**                              | **`a`** is not equal to **`b`**                              | also serves as [[boolean algebra#exclusive or]] |
-| **`a -\| b`** <br /> **`a < b`**                             | **`a`** is at most **`b`**                                   | identical to [[boolean algebra#implication]]    |
-| **`a \|- b`** <br /> **`a > b`**                             | **`a`** is at least **`b`**                                  | identical to [[boolean algebra#implication]]    |
+| **`f <- E`**                                                 | [[function]] application                                     | longhand discouraged                            |
+| **`a = b`** <br /> **`a == b`**                              | whether **`a`** is equal to **`b`**                          | also serves as [[boolean algebra#equivalence]]  |
+| **`a + b`** <br /> **`a >< b`**                              | whether **`a`** is not equal to **`b`**                      | also serves as [[boolean algebra#exclusive or]] |
+| **`a -\| b`** <br /> **`a < b`**                             | whether **`a`** is at most **`b`**                           | identical to [[boolean algebra#implication]]    |
+| **`a \|- b`** <br /> **`a > b`**                             | whether **`a`** is at least **`b`**                          | identical to [[boolean algebra#implication]]    |
 | **`a __ b`** <br /> **`a /\ b`**                             | the minimum of **`a`** and **`b`**                           | identical to [[boolean algebra#conjunction]]    |
 | **`a ^^ b`** <br /> **`a \/ b`**                             | the maximum of **`a`** and **`b`**                           | identical to [[boolean algebra#disjunction]]    |
 | **`f {x -> a}`**                                             | the [[limit]] of **`f`** as **`x`** approaches **`a`**       |                                                 |
@@ -108,13 +125,13 @@ let:
 | **`\|A`** <br /> **`'A`**   | **`A`** reduced with **`\|`** <br /> **`A`** reduced with **`'`**  | see [[reduce function]]                                          |
 | **`--a`** <br /> **`-a`**   | **`1 -- a`** <br /> **`1-a`**                                      | multiplicative inverse                                           |
 | **`ax`**                    | **`a'x`**                                                          |                                                                  |
-| **`[a]ww`**                 | **`ee[a]`**                                                        | see [[exponent]]                                                 |
+| **`[a]`**                   | **`ee[a]`**                                                        | [[exponent]]ial                                                  |
 | **`xww`**                   | **`[x]ww`**                                                        |                                                                  |
-| **`\ a /`**                 | **`\ a / 2`**                                                      | square root                                                      |
+| **`\a/`**                   | **`\a/ 2`**                                                        | square root                                                      |
 | **`/a\`**                   | **`/a\ ee`**                                                       | natural [[logarithm]]                                            |
 | **`->E`**                   | **`* ->  E`**                                                      | see [[combinatory logic#k combinator]]                           |
 | **`x y -> E`**              | **`x -> y -> E`**                                                  |                                                                  |
-| **`f E`**                   | **`f <- E`**                                                       | common, longhand discouraged                                     |
+| **`f E`**                   | **`f <- E`**                                                       | shorthand preferred                                              |
 | **`+a`** <br /> **`><a`**   | **`^^ + a`** <br /> **`^^ >< a`**                                  | [[boolean algebra#negation]]                                     |
 | **`-\|A`** <br /> **`<A`**  | **`A`** sorted from least to greatest                              |                                                                  |
 | **`\|-A`** <br />**`>A`**   | **`A`** sorted from greatest to least                              |                                                                  |
@@ -126,7 +143,7 @@ let:
 | **`a {--\*:} b`**           | **`(a -- b) \* (a : b)`**                                          | see [[combinatory logic#phi 1 combinator]]                       |
 | **`f {a b}`**               | **`f {a <- b}`**                                                   |                                                                  |
 | **`{f\*g} a`**              | **`(f a) \* (g a)`**                                               | see [[combinatory logic#phi combinator]]                         |
-| **`{f g} a`**               | **`{f <- g} a`**                                                   |                                                                  |
+| **`{f g} a`**               | **`{f <- g} a`**                                                   | see [[combinatory logic#s combinator]]                           |
 | **`E @@`**                  | **`E x {x -> @@}`**                                                |                                                                  |
 | **`A \* B`**                | **`x -> A x \* B x`**                                              | see [[rank polymorphism]]                                        |
 | **`A \* a`**                | **`x -> A x \* a`**                                                | see [[rank polymorphism]]                                        |
@@ -166,11 +183,9 @@ _in order of high to low precedence_
 > - **`"sin"`** represents any text [[operator]] in [[prefix notation]]
 > - **`"mod"`** represents any text [[operator]] in [[infix notation]]
 
-> **note** unary [[operator]]s have identical [[infix notation#precedence]] to their binary counterparts, but are right associative
+> **note** unary [[operator]]s have identical [[infix notation#precedence]] to their binary counterparts but are right associative
 
 **definition** let **`\*`** be an [[operator]] with _AND associativity_. then, **`a \* b \* c \* ... == a \* b /\ b \* c /\ c \* ...`**
-
-## examples
 
 ### comparison with conventional notation
 
@@ -186,17 +201,6 @@ _in order of high to low precedence_
 | definition of the [[outer product]]         | **`x * \| y *`**                           | $\displaystyle (x \otimes y)_{i, j}  = x_i \times y_j$                                                   |
 | definition of the [[cartesian product]]     | **`__ (X, Y) *`**                          | $\displaystyle X \times Y = \lbrace (x, y) \mid x \in X \text{ and } y \in Y \rbrace$                    |
 | definition of [[vector in rn#magnitude]]    | **`\|\|v\|\| = \:v2/`**                    | $\displaystyle \vert v \vert = \sqrt{x^2 + y^2 + \dots}$ with $v = (x, y, \dots)$                        |
-| definition of [[set]] difference            | **`A /\ +B`**                              | $\displaystyle A \setminus B = \{x \in A : x \notin B\}$                                                 |
+| definition of [[set]] difference            | **`A /\ +B`**                              | $\displaystyle A \setminus B = \{x : x \in A \text{ and } x \notin B\}$                                  |
 | the [[p-adic#absolute value]]               | **`\|\|n\|\|^p = --p[yy n p]`**            | not really doable in a concise way without using plain English                                           |
-
-definition of the [[boolean algebra#implication]] / [[set#subset]] / [[set#superset]] / [[quantifier#universal quantifier]] in this [[math notation]]: **`a -| b == +a \/ b`** and **`a |- b == a \/ +b`**
-
-in [[set theory]], if **`U`** is a [[set#subset]] of **`V`** and **`V`** is a [[set#subset]] of **`U`**, then **`V`** is **`U`**. in this [[math notation]]: **`U |- V /\ U -| V == U = V`**
-
-the negation of a [[boolean algebra#implication]] in this [[math notation]]: **`B -| C >< B /\ +C`**
-
-in [[conventional math notation]]: $\lnot (B \to C) = B \land \lnot C$ or $(a \in B \to a \in C) \iff a \notin B \backslash C$ or $B \subset C \iff \forall a \in C, a \notin B$
-
-definition of the **`n`**th column of a [[matrix]]: **`rr M n`** or **`M * n`**
-
-the closed interval from **`a`** to **`b`**: **`a -| * -| b`**
+| the **`n`**th column of a [[matrix]]        | **`rr M n`**                               | no standard notation; $(M^\intercal)_n$ or $\operatorname{col}_n(M)$ or $M_{\cdot j}$                    |

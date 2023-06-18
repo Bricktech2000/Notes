@@ -18,8 +18,6 @@ a lot of [[technical writing]] especially sources, [[professional email]]
 
 [[people are shaped by their surroundings]] is [[nonverbal#connotation]]
 
-[[summation and product notation]] is part of [[conventional math notation]]
-
 delete children of [[object-oriented programming#pillar]]
 
 [[boundary-interior disambiguation]], [[less stimulated lifestyle]]

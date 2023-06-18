@@ -28,7 +28,7 @@ derivatives and integrals at a point **`t`** can be written as follows:
 
 **`dd y -- dd x`** is simply a division between the two values involved
 
-**`(dd -- dd x) y`** alias $\frac{ddelta}{ddelta x} y$ ~~makes no sense whatsoever and is very likely some weird [[conventional math notation]] shorthand again~~ is superfluous notation and is to be avoided in my [[math notation]].
+**`(dd -- dd x) y`** alias $\frac{\delta}{\delta x} y$ ~~makes no sense whatsoever and is very likely some weird [[conventional math notation]] shorthand again~~ is superfluous notation and is to be avoided in my [[math notation]]
 
 ## properties with [[proof]]s
 

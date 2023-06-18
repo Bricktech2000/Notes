@@ -10,7 +10,7 @@ _an introduction into mathematical thinking_
 
 [[logic statement]], [[predicate]], [[boolean algebra#operators]], [[quantifier]]s
 
-[[sequence]] definition, [[summation and product notation]]
+[[sequence]] definition
 
 [[probability]]
 

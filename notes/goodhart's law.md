@@ -1,4 +1,4 @@
-# Goordhart's Law
+# Goodhart's Law
 
 &mdash; <https://youtu.be/zUm3fKk00J8?t=18867> &mdash; <https://en.wikipedia.org/wiki/Goodhart%27s_law>
 
