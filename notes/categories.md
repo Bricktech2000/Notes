@@ -18,15 +18,11 @@
 
 **zilch**
 
-[[people are shaped by their surroundings]]
-
 [[improved expression evaluation]]
 
 [[improvability theory]]
 
 [[control over convenience]]
-
-[[non-copyable data]]
 
 [[overruling rules]]
 
@@ -55,8 +51,6 @@
 **learn**
 
 [[concept]] vs [[fact]]
-
-[[boundary-interior disambiguation]]
 
 [[zero-knowledge proof]]
 
@@ -99,6 +93,8 @@
 [[fast inverse square root]]
 
 [[dimensional analysis]]
+
+[[analog hole]]
 
 **finance**
 
