@@ -40,3 +40,5 @@
 [[binary exponentiation]]
 
 [[fast inverse square root]]
+
+[[jpeg#compression]]

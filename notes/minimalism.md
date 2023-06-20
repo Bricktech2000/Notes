@@ -8,7 +8,7 @@ it seems to be that _frugal_ people are in fact just [[finance]]ial minimalists 
 
 > **example** _ways in which I am a minimalist_
 >
-> similarly to the [[encapsulation]] of mutability in [[functional programming]], I often find myself encapsulating clutter
+> similarly to the encapsulation of mutability in [[functional programming]], I often find myself encapsulating clutter
 >
 > > [containers] create a barrier that can stop clutter from spreading to other areas and corrals it to a single location &mdash; <https://youtu.be/rUnpOplJulM?t=408>
 >

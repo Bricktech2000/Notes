@@ -1,6 +1,6 @@
 # Basis
 
-_[[vector space]] Basis_
+_[[vector space]] basis_
 
 **see** [[vector]], [[vector space]]
 
