@@ -2,7 +2,7 @@
 
 _used as punctuation_
 
-**see** [[hyphen]]
+**see** [[hyphen]], [[technical writing]]
 
 **notation** _&mdash;_
 

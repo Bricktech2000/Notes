@@ -1,5 +1,7 @@
 # Chroma
 
-**definition** _chromaticity_ is an objective specification of the quality of a [[color]] regardless of its [[luminance]] &mdash; Wikipedia
+**see** [[luma]]
 
-[[chroma]]city consists of _hue_ and _saturation_
+**definition** _chroma_ represents the "color" quality of a [[color]], seperately from the accompanying [[luma]] &mdash me and Wikipedia
+
+[[chromaticity]] and [[chrominance]] are two different ways of measuring [[chroma]]

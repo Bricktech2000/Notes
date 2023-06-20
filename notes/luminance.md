@@ -1,6 +1,6 @@
 # Luminance
 
-**see** [[color science]], [[lightness]], [[cielab]], [[gamma correction]], [[math notation]]
+**see** [[color science]], [[lightness]], [[cielab]], [[gamma correction]], [[math notation]], [[luma]]
 
 **notation** _[[international system of units]]_ **`"cd" -- "m"2`**
 

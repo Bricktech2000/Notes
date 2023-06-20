@@ -4,16 +4,16 @@
 
 ## intelligence mentions
 
-- "[Steve Jobs] was smart" &mdash; <https://youtu.be/VJI88QIW7H4?t=791>
-- "Do Kwon was a bright kid" &mdash; <https://youtu.be/3KZY41SqaTI?t=93>
-- "Dr. Ruja [...] was extremely intelligent" &mdash; <https://youtu.be/64xcgvEJ3Ys?t=103>
+- _[Steve Jobs] was smart_ &mdash; <https://youtu.be/VJI88QIW7H4?t=791>
+- _Do Kwon was a bright kid_ &mdash; <https://youtu.be/3KZY41SqaTI?t=93>
+- _Dr. Ruja [...] was extremely intelligent_ &mdash; <https://youtu.be/64xcgvEJ3Ys?t=103>
 - Yan Chernikov from The Cherno saying he is not a particularily smart person &mdash; <https://youtu.be/ILt1j3xEmw0?t=389>
 - Andrew Tate was extremely talented at chess &mdash; <https://youtu.be/HJ4xoxYAya4?t=168>
 - Casey Muratori from Handmade Hero taught himself [[linear algebra]], differential equations, trigonometry <https://youtu.be/O7wFP1Z5KQY?t=427> (and rest of video)
 - #todo <https://youtu.be/YNQDp3v-VGE?t=121>
 - Mark Zuckerberg on the importance of hiring highly intelligent people in a [[business]] &mdash; <https://youtu.be/xFFs9UgOAlE?t=1135> (and in comments)
-- FitMC calling Pyrobyte a "gifted programmer and hacker" <https://youtu.be/ilZFBL6Yt4E?t=143> (informal mention)
-- Alok Kanojia from HealthyGamerGG using the pronoun "we" to replace "gifted children" &mdash; <https://youtu.be/sQC0jfH_rrM?t=34>
+- FitMC calling Pyrobyte a _gifted programmer and hacker_ <https://youtu.be/ilZFBL6Yt4E?t=143> (informal mention)
+- Alok Kanojia from HealthyGamerGG using the pronoun _we_ to replace _gifted children_ &mdash; <https://youtu.be/sQC0jfH_rrM?t=34>
 - Scotty Allen from Strange Parts on [[intelligence]] being part of one's [[identity]] &mdash; <https://youtu.be/Gs790JOeN3Y?t=605>
 - Zack Nelson from JerryRigEverything mixing up [[intelligence]] and [[knowledge]] &mdash; <https://youtu.be/-Fhf5dX1efo?t=562>
 - 8 struggles of highly intelligent people &mdash; <https://youtu.be/BN3KT7IERSw>

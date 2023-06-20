@@ -2,7 +2,7 @@
 
 _perceived [[luminance]]_
 
-**see** [[color science]], [[luminance]], [[cielab]], [[gamma correction]], [[math notation]]
+**see** [[color science]], [[luminance]], [[cielab]], [[gamma correction]], [[math notation]], [[luma]]
 
 **notation** **`J`** (used in CIECAM02), **`L^\*`** (used in [[cielab]] and CIELUV)
 

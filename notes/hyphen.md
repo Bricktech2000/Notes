@@ -2,7 +2,7 @@
 
 _used to group words together_
 
-**see** [[dash]]
+**see** [[dash]], [[technical writing]]
 
 **notation** _-_
 

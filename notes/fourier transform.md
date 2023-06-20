@@ -15,7 +15,11 @@ convolution theorem #todo learn &mdash; <https://youtu.be/851U557j6HE?t=974>
   - **`||HH g f||`** is the amplitude of the [[frequency]] component **`f`**, see [[complex]]
   - **`"arg" (HH g f)`** is the phase of the [[frequency]] component **`f`**, see [[complex]]
 
-**representation** ![](20221103111349.png) &mdash; <https://youtu.be/spUNpyF58BY?t=666>
+**representation**
+
+![[20221103111349.png]]
+
+&mdash; <https://youtu.be/spUNpyF58BY?t=666>
 
 **properties**
 

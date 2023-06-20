@@ -98,11 +98,13 @@ modifier // user-defined modifiers
 
 ## inheritance
 
+**see** [[object-oriented programming]]
+
 ```solidity
 is, super
 ```
 
-> **example** _[[inheritance]]_
+> **example**
 >
 > ```solidity
 > contract A is Ownable {
