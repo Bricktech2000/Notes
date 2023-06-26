@@ -26,7 +26,7 @@ in my opinion, [[java#auto boxing]] is a band-aid and [[java#wrapper]]s are a du
 
 [[java]] does **not** support operator overloading. [[java]] does **not** have [[first-class function]]s
 
-[[java]] does **not** allow the creation of generic [[array]]s `E[] a = new E[capacity]` where `E` is the generic [[type]]. `E[] = (E[]) Object[capacity]` is to be used instead, which will generate a compile-time a warning, which can be suppressed using the decorator `@SuppressWarnings("unchecked")` &mdash; <https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java>
+[[java]] does **not** allow the creation of generic [[array]]s `E[] a = new E[capacity]` where `E` is the generic [[type]]. `E[] = (E[]) Object[capacity]` is to be used instead, which will generate a compile-time a warning, which has to be suppressed using the decorator `@SuppressWarnings("unchecked")` &mdash; <https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java>
 
 [[java]] only has simplistic [[type]] inference, through the `var` keyword &mdash; <https://www.geeksforgeeks.org/var-keyword-in-java/>
 
@@ -34,9 +34,11 @@ in my opinion, [[java#auto boxing]] is a band-aid and [[java#wrapper]]s are a du
 
 [[java]] `import` best practices are basically cargo cult programming &mdash; <https://youtu.be/FyCYva9DhsI?t=1673>
 
+[[java]] has [[null]]s and `try-catch` exceptions, but that is somewhat to be expected even in modern languages
+
 refer to the Wikipedia article (yes, there's a Wikipedia article) <https://en.m.wikipedia.org/wiki/Criticism_of_Java> for further reading
 
-### overriding equals
+### overriding `equals`
 
 **see** [[polymorphism]]
 

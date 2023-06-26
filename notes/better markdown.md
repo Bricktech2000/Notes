@@ -139,10 +139,10 @@ $\LaTeX$
 - first, a quote:
   | quote in a list
 - then, some code:
- ` rust
-   if true {
-     println!("true");
-   }
+  ` rust
+    if true {
+      println!("true");
+    }
 
 if you're interested, click here! <https://example.com/>
 

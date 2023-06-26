@@ -10,6 +10,7 @@ _suboptimal systems that have too high of a [[switching cost]] to be replaced_
 > - the [[imperial system of units]]
 > - the [[markdown]] language
 > - ANSI paper sizes (Letter, Legal, Tabloid...)
+> - the QWERTY layout
 
 > **examples** _superior alternatives_
 >
@@ -18,3 +19,4 @@ _suboptimal systems that have too high of a [[switching cost]] to be replaced_
 > - my [[better markdown]] idea
 > - [[iso 216]] paper sizes
 > - [[improved family relationship vocabulary]]
+> - the Dvorak layout

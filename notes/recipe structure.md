@@ -1,8 +1,8 @@
-# Improved Recipe Structure
+# Recipe Structure
 
 &mdash; initial idea by Kiera
 
-> **procedure** _principles of [[improved recipe structure]]_
+> **procedure** _principles of [[recipe structure]]_
 >
 > - synchronous steps have different indentation levels whereas asynchronous steps have identical indentation levels
 > - "subrecipes" are indented and placed above their parent step so the recipe can still be read top to bottom

@@ -5,3 +5,8 @@
 _when a measure becomes a target, it ceases to be a good measure_ &mdash; Charles Goordhart
 
 measurements are useful as guides. however, any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes &mdash; Wikipedia
+
+> **examples**
+>
+> - grades in [[education]]
+> - [[algorithm]]-type interviews

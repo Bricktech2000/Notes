@@ -13,7 +13,7 @@ _an association that any given action carries_ &mdash; me
 > **examples**
 >
 > - shouting to prove a point &mdash; a powerful individual does not have to resort to shouting to be heard
-> - interrupting in a debate &mdash; a person with compelling arguments does not have to interrupt to prove their point
+> - interrupting in a [[debate]] &mdash; a person with compelling arguments does not have to interrupt to prove their point
 > - working to make more [[money]] &mdash; a financially literate person does not need to work to build their [[wealth]]
 > - threatening in a negotiation &mdash; a skilled negotiator does not need to resort to threats to get what they want
 > - boasting about accomplishments &mdash; a successful person does not need to boast about their accomplishments to be respected
@@ -30,7 +30,7 @@ unique behavior observed in someone can sometimes be explained by a unique trait
 > - someone who makes mean comments could've received mean comments from other people in the past. this could be caused by the way they used to act, for example
 > - the way a father treats a son can affect the way his son will treat his children. this could result in anything from a lack of emotional attachment to physical or verbal abuse
 > - a person who shows very high levels of empathy could've been through difficult moments in the past. since other people used to show empathy towards them, they learned to treat others people with empathy
-> - _the homophobic homosexual_ &mdash; if a homosexual individual has been treated poorly by homophobic people, they might become homophobic themselves
+> - the _homophobic homosexual_ &mdash; if a homosexual individual has been treated poorly by homophobic people, they might become homophobic themselves
 
 ## Behavior
 

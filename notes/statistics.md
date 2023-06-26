@@ -1,5 +1,5 @@
 # Statistics
 
-used for backlinks
+**see**
 
 [[inferential statistics]]

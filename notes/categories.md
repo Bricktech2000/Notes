@@ -6,7 +6,7 @@
 
 **intel**
 
-[[master lock alternate combination]]
+[[combination lock]]
 
 [[religion]]
 
@@ -35,8 +35,6 @@
 [[improper measurement scale]]
 
 [[improved family relationship vocabulary]]
-
-[[improved rating system]]
 
 [[perfectionism vs high standards]]
 
@@ -96,6 +94,8 @@
 
 [[analog hole]]
 
+[[benford's law]]
+
 **finance**
 
 [[education]] system issues
@@ -116,7 +116,7 @@
 
 [[calculus notation]]
 
-[[improved recipe structure]]
+[[recipe structure]]
 
 [[sensory augmentation]]
 
@@ -155,3 +155,5 @@
 [[tool]]
 
 [[vim]]
+
+[[debate]]

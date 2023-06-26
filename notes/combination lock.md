@@ -1,12 +1,20 @@
-# Master Lock Alternate Combination
+# Combination Lock
+
+_Master Lock combination lock_
+
+## Decoding
+
+&mdash; <https://youtu.be/qkolWO6pAL8>
+
+## Alternate Combination
 
 **see** [[math notation]]
 
 > **procedure** _finding the alternate combination to a Master Lock combination lock_
 >
-> let the original combination **`C = (C^0 , C^1 , C^2)`**. then, the alternate combination **`C_*`** was found to be **`C_* = (C^0 . 7, C^1 : 2, C^2)`**
+> let the original combination **`C`**. then, the alternate combination **`C_*`** was found to be **`C_* = C : (.7, 2, 0)`**
 >
-> > **note** to enter the alternate combination, first rotate the dial **counterclockwise**, then **clockwise**, then **counterclockwise**. this order is the reverse of that of the original combination
+> > **note** to enter the alternate combination, first rotate the dial **counterclockwise**, then **clockwise**, then **counterclockwise**. this order is the inverse of that of the original combination
 
 this method was developped by discovering the following [[fact]]s:
 
