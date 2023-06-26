@@ -7,3 +7,5 @@
 [[self-taught software engineer]], [[life-long investing]], read over [[credit card]], [[subconscious manipulation]]
 
 [[discord statuses]]
+
+[[intellectual giftedness]], [[high intellectual potential]], [[creativity]]

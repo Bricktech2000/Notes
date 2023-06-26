@@ -23,3 +23,9 @@ giftedness is dynamic; it can manifest at certain times, in certain ways, with c
 #think [[high intellectual potential]] seems to be a subset of _high potential_
 
 #think [[intellectual giftedness]] seems to be a subset of _giftedness_ &mdash; <https://youtu.be/rnOotT-DRTg>
+
+#think
+
+- <https://youtu.be/WYBP3bVt5SY> (contains subsets of giftedness close to start). "gifted therapy" is a thing it seems. gifted communities are a thing
+- <https://youtu.be/VJnqN8PMK4Q>. discussion on overexcitability
+- <https://youtu.be/4GCe4CKHtec> giftedness in the workplace
