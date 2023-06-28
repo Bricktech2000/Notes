@@ -18,7 +18,7 @@
 >
 > let `f :: A -> B` and `g :: B -> C`. then, `g . f` has type signature `A -> C`
 
-> **equivalence** _[[combinatory logic#b combinator]] and [[function]] [[composition]]_
+> **equivalence** _[[combinator#b combinator]] and [[function]] [[composition]]_
 
 **properties**
 
@@ -40,4 +40,4 @@ _associativity_ **`h (g f *) * == (h g *) f * == h g f *`** &mdash; <https://you
 
 **properties** **`{*} x == x`**
 
-> **equivalence** _[[combinatory logic#i combinator]] and [[composition#identity]]_
+> **equivalence** _[[combinator#i combinator]] and [[composition#identity]]_

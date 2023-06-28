@@ -35,14 +35,17 @@
 - $2x = 2 \times x$ whereas $2 \frac 2 3 = 2 + \frac 2 3$, and $-1 \frac 1 4$ might or might not equal $-\frac 5 4$
 - there exists no symbol for unary division
 - there exists no symbol for function application
+- implied multiplication is often informally evaluated before multiplication and division
 
 other notations used contextually include:
 
-- $-$ is used for both subtraction and range
+- $-$ is used for both subtraction and ranges
 - $+$ is used for both addition and concatenation
 - $=$ is used for both equality and assignment
-- $.$ is used both as a decimal point and for versioning
+- $.$ is used for denoting both decimals and version numbers
 
-also see <https://whystartat.xyz/wiki/Main_Page> &mdash; Terramorpha
+&mdash; <https://whystartat.xyz/wiki/Main_Page> &mdash; Justin Veilleux
 
-[[conventional math notation]] is impressionistic &mdash; <https://youtu.be/HB5TrK7A4pI?t=1058>
+&mdash; <https://youtu.be/4x-BcYCiKCk>
+
+_[<wbr>[[conventional math notation]]<wbr>] is both awful, and it turns out ambiguous, and, to be perfectly honest, impressionistic_ &mdash; <https://youtu.be/HB5TrK7A4pI?t=1058>

@@ -59,21 +59,21 @@ the _curry-howard-lambek isomorphism_ states that [[logic]], [[type theory]] and
 
 **aka** _#todo curry-howard correspondence, propositions as types #todo #think see <https://youtu.be/IOiZatlZtGU?t=1490>_
 
-[[category#product]]s in the [[category]] of [[set]]s are [[cartesian product]]s &mdash; Terramorpha
+[[category#product]]s in the [[category]] of [[set]]s are [[cartesian product]]s &mdash; Justin Veilleux
 
-[[category#coproduct]]s in the [[category]] of [[set]]s are [[set#disjoint union]]s &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] of [[set]]s are [[set#disjoint union]]s &mdash; Justin Veilleux
 
-[[category#product]]s in the [[category]] **`RR, -|`** are the minimum of two numbers &mdash; Terramorpha
+[[category#product]]s in the [[category]] **`RR, -|`** are the minimum of two numbers &mdash; Justin Veilleux
 
-[[category#coproduct]]s in the [[category]] **`RR, -|`** are the maximum of two numbers &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] **`RR, -|`** are the maximum of two numbers &mdash; Justin Veilleux
 
-[[category#product]]s in the [[category]] **`NN, "divides"`** are the GCD of two numbers, see [[psi function]] &mdash; Terramorpha
+[[category#product]]s in the [[category]] **`NN, "divides"`** are the GCD of two numbers, see [[psi function]] &mdash; Justin Veilleux
 
-[[category#coproduct]]s in the [[category]] **`NN, "divides"`** are the LCM of two numbers, see [[psi function]] &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] **`NN, "divides"`** are the LCM of two numbers, see [[psi function]] &mdash; Justin Veilleux
 
-[[category#product]]s in the [[category]] **`{{ }}, a b -> /\ a -| b`** are the intersection of two sets &mdash; Terramorpha
+[[category#product]]s in the [[category]] **`{{ }}, a b -> /\ a -| b`** are the intersection of two sets &mdash; Justin Veilleux
 
-[[category#coproduct]]s in the [[category]] **`{{ }}, a b -> /\ a -| b`** are the union of two sets &mdash; Terramorpha
+[[category#coproduct]]s in the [[category]] **`{{ }}, a b -> /\ a -| b`** are the union of two sets &mdash; Justin Veilleux
 
 a category of ([[vector space]]s, linear maps) is a thing. #todo look up linear maps
 

@@ -189,4 +189,4 @@ if the result of an expression is _undefined_, then the expression must be rearr
 
 [[trigonometric function]] period #think
 
-#todo is <https://ncatlab.org/nlab/show/wheel> related here? &mdash; <https://whystartat.xyz/wiki/Unary_division> &mdash; Terramorpha
+#todo is <https://ncatlab.org/nlab/show/wheel> related here? &mdash; <https://whystartat.xyz/wiki/Unary_division> &mdash; Justin Veilleux

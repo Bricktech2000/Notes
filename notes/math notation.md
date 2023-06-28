@@ -109,45 +109,45 @@ let:
 | **`tt`**                                                     | [[tau]], the [[circle]] constant                             |                                                 |
 | **`ee`**                                                     | [[euler's constant]]                                         |                                                 |
 | **`ii`**                                                     | the [[imaginary unit]]                                       | using **`i`** is discouraged                    |
-| **`rr`**                                                     | **`f a b -> f b a`**                                         | see [[combinatory logic#c combinator]]          |
+| **`rr`**                                                     | **`f a b -> f b a`**                                         | see [[combinator#c combinator]]                 |
 | **`PP`**                                                     | the [[pi function]]                                          | using **`"fact"`** is discouraged               |
 | **`#`**                                                      | the number of "links" in a [[function]]                      | #todo define rigorously                         |
 | **`yy`**                                                     | the [[psi function]]                                         |                                                 |
 
 ### shorthands
 
-| notation                    | definition                                                         | notes                                                            |
-| --------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------- |
-| **`:A`**                    | **`A`** reduced with **`:`**                                       | see [[reduce function]]                                          |
-| **`.a`**                    | **`0 . a`**                                                        | addidive inverse                                                 |
-| **`\|A`** <br /> **`'A`**   | **`A`** reduced with **`\|`** <br /> **`A`** reduced with **`'`**  | see [[reduce function]]                                          |
-| **`--a`** <br /> **`-a`**   | **`1 -- a`** <br /> **`1-a`**                                      | multiplicative inverse                                           |
-| **`ax`**                    | **`a'x`**                                                          |                                                                  |
-| **`[a]`**                   | **`ee[a]`**                                                        | [[exponent]]ial                                                  |
-| **`xww`**                   | **`[x]ww`**                                                        |                                                                  |
-| **`\a/`**                   | **`\a/ 2`**                                                        | square root                                                      |
-| **`/a\`**                   | **`/a\ ee`**                                                       | natural [[logarithm]]                                            |
-| **`->E`**                   | **`* ->  E`**                                                      | see [[combinatory logic#k combinator]]                           |
-| **`x y -> E`**              | **`x -> y -> E`**                                                  |                                                                  |
-| **`f E`**                   | **`f <- E`**                                                       | shorthand preferred                                              |
-| **`+a`** <br /> **`><a`**   | **`^^ + a`** <br /> **`^^ >< a`**                                  | [[boolean algebra#negation]]                                     |
-| **`-\|A`** <br /> **`<A`**  | **`A`** sorted from least to greatest                              |                                                                  |
-| **`\|-A`** <br />**`>A`**   | **`A`** sorted from greatest to least                              |                                                                  |
-| **`__A`** <br /> **`/\A`**  | **`A`** reduced with **`__`** <br /> **`A`** reduced with **`/\`** | see [[reduce function]]                                          |
-| **`^^A`** <br /> **`\/A`**  | **`A`** reduced with **`^^`** <br /> **`A`** reduced with **`\/`** | see [[reduce function]]                                          |
-| **`a_0 \* a_1 \* ... a_n`** | with **`n = 3`**, **`a_0 \* a_1 \* a_2 \* a_3`**                   | step size is **`1`** or **`.1`** if **`a_1 \*`** is omitted      |
-| **`a_0 ... a_n`**           | with **`n = 3`**, **`a_0, a_1, a_2, a_3`**                         | step size is **`1`** or **`.1`** if **`a_1`** is omitted         |
-| **`f {a\*b}`**              | **`f a \* f b`**                                                   | see [[combinatory logic#psi combinator]]                         |
-| **`a {--\*:} b`**           | **`(a -- b) \* (a : b)`**                                          | see [[combinatory logic#phi 1 combinator]]                       |
-| **`f {a b}`**               | **`f {a <- b}`**                                                   |                                                                  |
-| **`{f\*g} a`**              | **`(f a) \* (g a)`**                                               | see [[combinatory logic#phi combinator]]                         |
-| **`{f g} a`**               | **`{f <- g} a`**                                                   | see [[combinatory logic#s combinator]]                           |
-| **`E @@`**                  | **`E x {x -> @@}`**                                                |                                                                  |
-| **`A \* B`**                | **`x -> A x \* B x`**                                              | see [[rank polymorphism]]                                        |
-| **`A \* a`**                | **`x -> A x \* a`**                                                | see [[rank polymorphism]]                                        |
-| **`f g *`**                 | **`x -> f (g x)`**                                                 | **`*`** is a "hole"                                              |
-| **`{*}`**                   | **`x -> x`**                                                       | see [[combinatory logic#i combinator]], [[composition#identity]] |
-| **`""math""`**              | **`(''m'', ''a'', ''t'', ''h'')`**                                 | see [[string]], [[list]]                                         |
+| notation                    | definition                                                         | notes                                                       |
+| --------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------- |
+| **`:A`**                    | **`A`** reduced with **`:`**                                       | see [[reduce function]]                                     |
+| **`.a`**                    | **`0 . a`**                                                        | addidive inverse                                            |
+| **`\|A`** <br /> **`'A`**   | **`A`** reduced with **`\|`** <br /> **`A`** reduced with **`'`**  | see [[reduce function]]                                     |
+| **`--a`** <br /> **`-a`**   | **`1 -- a`** <br /> **`1-a`**                                      | multiplicative inverse                                      |
+| **`ax`**                    | **`a'x`**                                                          |                                                             |
+| **`[a]`**                   | **`ee[a]`**                                                        | [[exponent]]ial                                             |
+| **`xww`**                   | **`[x]ww`**                                                        |                                                             |
+| **`\a/`**                   | **`\a/ 2`**                                                        | square root                                                 |
+| **`/a\`**                   | **`/a\ ee`**                                                       | natural [[logarithm]]                                       |
+| **`->E`**                   | **`* ->  E`**                                                      | see [[combinator#k combinator]]                             |
+| **`x y -> E`**              | **`x -> y -> E`**                                                  |                                                             |
+| **`f E`**                   | **`f <- E`**                                                       | shorthand preferred                                         |
+| **`+a`** <br /> **`><a`**   | **`^^ + a`** <br /> **`^^ >< a`**                                  | [[boolean algebra#negation]]                                |
+| **`-\|A`** <br /> **`<A`**  | **`A`** sorted from least to greatest                              |                                                             |
+| **`\|-A`** <br />**`>A`**   | **`A`** sorted from greatest to least                              |                                                             |
+| **`__A`** <br /> **`/\A`**  | **`A`** reduced with **`__`** <br /> **`A`** reduced with **`/\`** | see [[reduce function]]                                     |
+| **`^^A`** <br /> **`\/A`**  | **`A`** reduced with **`^^`** <br /> **`A`** reduced with **`\/`** | see [[reduce function]]                                     |
+| **`a_0 \* a_1 \* ... a_n`** | with **`n = 3`**, **`a_0 \* a_1 \* a_2 \* a_3`**                   | step size is **`1`** or **`.1`** if **`a_1 \*`** is omitted |
+| **`a_0 ... a_n`**           | with **`n = 3`**, **`a_0, a_1, a_2, a_3`**                         | step size is **`1`** or **`.1`** if **`a_1`** is omitted    |
+| **`f {a\*b}`**              | **`f a \* f b`**                                                   | see [[combinator#psi combinator]]                           |
+| **`a {--\*:} b`**           | **`(a -- b) \* (a : b)`**                                          | see [[combinator#phi1 combinator]]                          |
+| **`f {a b}`**               | **`f {a <- b}`**                                                   |                                                             |
+| **`{f\*g} a`**              | **`(f a) \* (g a)`**                                               | see [[combinator#phi combinator]]                           |
+| **`{f g} a`**               | **`{f <- g} a`**                                                   | see [[combinator#s combinator]]                             |
+| **`E @@`**                  | **`E x {x -> @@}`**                                                |                                                             |
+| **`A \* B`**                | **`x -> A x \* B x`**                                              | see [[rank polymorphism]]                                   |
+| **`A \* a`**                | **`x -> A x \* a`**                                                | see [[rank polymorphism]]                                   |
+| **`f g *`**                 | **`x -> f (g x)`**                                                 | **`*`** is a "hole"                                         |
+| **`{*}`**                   | **`x -> x`**                                                       | see [[combinator#i combinator]], [[composition#identity]]   |
+| **`""math""`**              | **`(''m'', ''a'', ''t'', ''h'')`**                                 | see [[string]], [[list]]                                    |
 
 ### precedence and associativity
 
