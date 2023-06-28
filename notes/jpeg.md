@@ -1,5 +1,7 @@
 # JPEG
 
+#todo
+
 ---
 
 # Compression

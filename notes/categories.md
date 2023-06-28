@@ -96,6 +96,8 @@
 
 [[benford's law]]
 
+[[jpeg]]
+
 **finance**
 
 [[education]] system issues

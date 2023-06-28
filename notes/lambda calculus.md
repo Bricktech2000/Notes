@@ -93,7 +93,7 @@ we can then define:
 
 ## Recursion
 
-general [[recursion]] in [[lambda calculus]] can be defined using the [[combinatory logic#y combinator]]
+general [[recursion]] in [[lambda calculus]] can be defined using the [[combinator#y combinator]]
 
 **`"rec" f == Y f`**
 

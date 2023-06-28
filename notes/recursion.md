@@ -16,7 +16,7 @@
 
 ## General Recursion
 
-> **equivalence** _[[combinatory logic#y combinator]] and [[recursion#general recursion]]_
+> **equivalence** _[[combinator#y combinator]] and [[recursion#general recursion]]_
 
 any [[algorithm]] that uses [[recursion]] can be represented as repeated [[function]] [[composition]]
 

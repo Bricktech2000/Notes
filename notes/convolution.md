@@ -1,21 +1,36 @@
 # Convolution
 
+&mdash; <https://youtu.be/IaSGqQa5O-M>
+
+&mdash; <https://youtu.be/KuXjwB4LzSA>
+
 **definition**
 
-**`(a * b)^n = a^0 b^n : ... a^n b^0`**, where
+**`(a \* b)^n = a^0 b^n : ... a^n b^0 = :(x -> a x | b (n.x))`**, where
 
 - **`a`** and **`b`** are [[list]]s
-- **`(a * b)`** is the [[convolution]] of **`a`** and **`b`**
+- **`(a \* b)`** is the [[convolution]] of **`a`** and **`b`**
 
-> **note** in the definition above, any element of **`a`** or **`b`** at an out-of-bounds index is **`0`**
+> **note** in the definition above, any element of **`a`** or **`b`** at an out-of-bounds index is taken to be **`0`**
 
-> **note** [[convolution]]s can be computed in **`O {* | /*\}`** time [[computational complexity]] instead of **`O [*]2`** using fast [[fourier transform]]s and [[root of unity]]s &mdash; <https://youtu.be/KuXjwB4LzSA?t=1091>
+> **note** this can be thought of as "the [[convolution]] of **`a`** and **`b`** at **`n`** is the [[dot product]] of elements of **`a`** and **`b`** at indices that sum to **`n`**"
+
+> **note** [[convolution]]s can be computed in **`O {* | /*\ }`** time [[computational complexity]] instead of **`O [*]2`** using fast [[fourier transform]]s and [[root of unity]]s &mdash; <https://youtu.be/KuXjwB4LzSA?t=1091>
+
+**definition**
+
+**`(a \* b) n = $ a x | b (n.x) | dd x {@@ . .@@}`**
+
+- **`a`** and **`b`** are [[function]]s
+- **`a \* b`** is the [[convolution]] of **`a`** and **`b`**
 
 **properties**
 
-**`# (a * b) = # a : # b . 1`**
+_length_ **`# (a \* b) = # a : # b . 1`**
 
-**`(a * b) * c = a * (b * c)`**
+_commutativity_ **`a \* b = b \* a`**
+
+_associativity_ **`(a \* b) \* c = a \* (b \* c)`**
 
 **applications**
 
@@ -23,13 +38,13 @@ moving averages
 
 > **example**
 >
-> let a [[list]] **`B^n = -- # B`** so that **`:B = 1`**. then, **`a * B`** is the moving average of **`a`** with window size **`# B`**
+> let a [[list]] **`B^n = -- # B`** so that **`:B = 1`**. then, **`a \* B`** is the moving average of **`a`** with window size **`# B`**
 
 image processing
 
 > **example**
 >
-> let a [[matrix]] of [[list]]s **`MM^j,k = (r, g, b)^j,k`** representing an image and a [[convolution]] **`M * B`** with kernel **`B`** representing an output image
+> let a [[matrix]] of [[list]]s **`MM^j,k = (r, g, b)^j,k`** representing an image and a [[convolution]] **`M \* B`** with kernel **`B`** representing an output image
 >
 > using the [[matrix]] **`B^m,n = -- # B`** so that **`:B = 1`** as the kernel will yeild a blurred image with window size **`# B`**
 >
@@ -41,11 +56,17 @@ image processing
 
 [[convolution]]al [[neural network]]s
 
+sums of [[probability distribution]]s
+
+> **example**
+>
+> let a fair dice with [[probability distribution]] **`d = x -> {0, -6} {{1 ... 6}} x`**. the probability of rolling two such die such that the sum of their values is **`n`** is **`(d \* d) n`**
+
 **equivalences**
 
 > **equivalence** _[[convolution]] and [[polynomial]] multiplication_
 >
-> **`(1, 2, 3) * (4, 5, 6) = (4, 13, 28, 27, 18)`**
+> **`(1, 2, 3) \* (4, 5, 6) = (4, 13, 28, 27, 18)`**
 >
 > **`1x0 : 2x1 : 3x2 | 4x0 : 5x1 : 6x2 = 4x0 : 13x1 : 28x2 : 27x3 : 18x4`**
 >

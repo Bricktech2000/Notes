@@ -555,7 +555,7 @@ the last element of a [[list]]
 
 **`V (# V . 1) == {* (#.1)} V`**
 
-**`HH {<-} {*} (#.1) V == {<-} ({*} V) ((#.1) V) == V (# V . 1)`**, see [[combinatory logic#phi combinator]]
+**`HH {<-} {*} (#.1) V == {<-} ({*} V) ((#.1) V) == V (# V . 1)`**, see [[combinator#phi combinator]]
 
 ---
 
@@ -605,3 +605,7 @@ let the base and height of the triangle be $B$ and $H$ respectively and the numb
 then, the height of the $i$th rectangle from the top is $\displaystyle \frac Hn$ and its width is $\displaystyle \frac{iB}n$
 
 therefore, the area of the collection of rectangles is $\displaystyle \sum_{i=0}^n \frac{iHB}{n^2}$ which by $\displaystyle \sum_{k=0}^{n} k = \frac{n(n + 1)}2$ is equal to $\displaystyle \frac{n(n + 1)}2 \frac{HB}{n^2}$ which simplifies to $\displaystyle \frac{n + 1}{2n} HB$
+
+---
+
+$O\ 1<O\lceil \lceil \smash\circ \<O\lceil \smash\circ \rceil <\ O\ [\lceil \smash\circ \rceil ]2<O\ [\smash\circ ]\omega <O\ \smash\circ <O\ \braket{\smash\circ \ \mid \lceil \smash\circ aoeu}<O\ [\smash\circ ]b<O\ b[\smash\circ ]<O\ (\Pi \ \smash\circ )<O\ \braket{\smash\circ \ []\ \smash\circ }$

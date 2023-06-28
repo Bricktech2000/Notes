@@ -60,3 +60,5 @@ generalizations are convenient for people to use, but they are not always accura
 > C'est une stratégie bonne pour l'incompétent ET pour l'uni à court terme
 > Dans le sens que faire ça va éroder la valeur du degree
 > Et qu'après, peut etre que pour avoir le même niveau de compétence qu'avant, tu vas devoir demander un master's au lieu d'un bac
+
+#todo move everything to [[proxy]]

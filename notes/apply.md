@@ -12,4 +12,4 @@ used for backlinks
 
 <https://github.com/fantasyland/static-land/blob/master/docs/spec.md#functor>
 
-#todo applicative [[functor]]s, see Terramorpha DMs
+#todo applicative [[functor]]s, see Justin Veilleux Discord DMs
