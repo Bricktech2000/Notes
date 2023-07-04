@@ -2,20 +2,58 @@
 
 this [[better markdown]] idea is meant to address the main issue with [[markdown]] in my opinion: inconsistency
 
-in this language,
+in [[better markdown]],
 
 - most constructs have a clear semantic meaning
 - most constructs have block-level and inline equivalents
-- every control [[character]] can be escaped with a `\`, with no ambiguous exceptions
+- every markup [[character]] can be escaped with a `\`, with no ambiguous exceptions
 - constructs can be nested, and in a way that is actually consistent
+
+_a [[markdown]]-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions_ &mdash; <https://daringfireball.net/projects/markdown/syntax>. this is not a goal of [[better markdown]]. [[better markdown]] aims to be a consistent, extensible, formally-defined, light-weight markup language
 
 ## things to iron out
 
 #think
 
-- syntax for tables, checkboxes, tags, dates, keyboard shortcuts, currencies, inserted text, deleted text...
+- syntax for:
+  - tables
+  - checkboxes
+  - tags
+  - dates
+  - keyboard shortcuts
+  - currencies
+  - inserted text
+  - deleted text
+  - emoji
+  - admonitions aka call-outs
+  - ...
 - support for running code blocks and parsing their `stdout` as markup
 - support for graphs and plots
+
+other things to think about:
+
+- `\` for preformatted blocks?
+  ```
+  \ pre block maybe?
+  ```
+- `#` and `` ` `` contain "metadata" (heading content and [[programmin language]] name). do we want that?
+- `<` and `>` work differently from the rest of the syntax. probably want to fix that
+- probably want to remove `###`
+- probably want to remove `$`
+- `~` for removed text and strikethrough, `+` for inserted text and underline?
+- what if lists had "metadata" for whether they are checked, which would be displayed as a checkbox? what if links had "metadata" to replace the link text?
+- `!` with metadata for admonitions aka call-outs?
+- what about `:` for metadata:
+  - `! note: this is a note`
+  - `! warning: this is a warning`
+  - `! theorem: this is a theorem`
+  - `- _: todo`
+  - `- x: done`
+  - `- o: in progress`
+  - `` ` rust: println!("hello world") ``
+  - `# Heading: content`
+- non-[[ascii]] characters such as &times; and &mdash;
+- inline lists can be repeated `-a-b-c` but not other constructs
 
 ## &mdash;
 
@@ -24,6 +62,10 @@ in this language,
 &mdash; <https://github.com/BradSharp/Remark>
 
 &mdash; <https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/>
+
+&mdash; <http://tantek.pbworks.com/w/page/59905776/Markdown>
+
+&mdash; <https://squidfunk.github.io/mkdocs-material/reference/admonitions/>
 
 ---
 

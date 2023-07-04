@@ -1,5 +1,7 @@
 # Fast Inverse Square Root
 
+**see** [[math notation]]
+
 the [[fast inverse square root]] is an [[algorithm]] that estimates **`-- \x/`** for a 32-bit [[ieee 754]] [[floating point]] number **`x`**
 
 **representation** _original implementation stripped of [[c]] preprocessor directives_

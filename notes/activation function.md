@@ -1,10 +1,10 @@
 # Activation Function
 
-## [[sigmoid function]]
+## Sigmoid Function
 
 **see** [[sigmoid function]]
 
-> **note** using a [[sigmoid function]] as an [[activation function]] is old-school. ReLU is now preferred &mdash; <https://youtu.be/aircAruvnKk?t=1034>
+> **note** using the [[sigmoid function]] as an [[activation function]] is old-school. the [[activation function#relu function]] is now preferred &mdash; <https://youtu.be/aircAruvnKk?t=1034>
 
 ## ReLU Function
 
@@ -49,6 +49,8 @@ def TANH(x):
 ## Softmax Function
 
 _for getting probabilities out_
+
+&mdash; <https://youtu.be/p-6wUOXaVqs>
 
 **see** [[euler's constant]]
 

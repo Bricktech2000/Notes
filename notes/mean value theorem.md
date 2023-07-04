@@ -30,4 +30,4 @@ _[[mean value theorem#for integrals]]_
 
 _[[mean value theorem#corollary]]_
 
-**theorem** if **`dd f x = dd g x`** on an interval **`a -| * -| b`**, then **`f = g : c`** with **`RR c`** on that same interval &mdash; <https://youtu.be/u4kex7hDC2o?t=433>
+**theorem** if **`dd f x = dd g x`** on an [[interval]] **`a -| * -| b`**, then **`f = g : c`** with **`RR c`** on that same [[interval]] &mdash; <https://youtu.be/u4kex7hDC2o?t=433>

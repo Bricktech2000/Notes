@@ -1,5 +1,7 @@
 # Compression
 
-**see** [[jpeg]]
+**see**
 
-used for backlinks
+[[jpeg]], [[png]]
+
+[[run-length encoding]], [[huffman coding]], [[deflate]]

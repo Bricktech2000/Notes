@@ -39,7 +39,7 @@ a Type I improper [[integral]] is said to:
 
 ### type II
 
-_an integral whose integrand has a [[function]] discontinuity on the integration interval_
+_an [[integral]] whose integrand has a [[function]] discontinuity on the integration [[interval]]_
 
 **theorem** if **`f x {x -> b "from the left"} = {@@ \/ .@@}`** #think [[improved expression evaluation]], then **`$ f x | dd x {b . a} == $ f x | dd x {t . a} {t -> b "from the left"}`**
 
@@ -49,7 +49,7 @@ _an integral whose integrand has a [[function]] discontinuity on the integration
 
 **theorem** _Comparison Test_
 
-let **`0 -| g x -| f x`** on an interval **`a {-|/\+} * {-|/\+} b`**, where **`a`** and **`b`** are not necessarily finite. then,
+let **`0 -| g x -| f x`** on an [[interval]] **`a {-|/\+} * {-|/\+} b`**, where **`a`** and **`b`** are not necessarily finite. then,
 
 - if **`$ f x | dd x {b . a}`** converges, so does **`$ g x | dd x {b . a}`**, but not conversely
 - if **`$ g x | dd x {b . a}`** diverges, so does **`$ f x | dd x {b . a}`**, but not conversely

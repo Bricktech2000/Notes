@@ -1,27 +1,15 @@
 # JPEG
 
-#todo
+_a widespread lossy [[compression]] format for images_
 
----
+**see** [[png]], [[compression]]
 
-# Compression
+## Compression
 
-## Color Space Conversion
+&mdash; <https://youtu.be/0me3guauqOU>
 
-the initial step in [[jpeg#compression]] is converting the image to the [[ycbcr]] [[color space]]
+the initial step in [[jpeg#compression]] is converting the image to the [[ycbcr]] [[color space]]. human eyes are more sensitive to [[luma]] and less sensitive to [[chroma]]. therefore, reducing the resolution of the [[chroma]] components of an image has little effect on perceived image quality. _chroma subsamlping_ does so by **"choosing"** the [[chroma]] of one pixel and applying it to the surrounding pixels. _chroma downsampling_ does so by **averaging** the [[chroma]] of a group of pixels and applying it to the group
 
-## Chroma Subsampling
+an image can be represented in the _frequency domain_ through [[discrete cosine transform]]s. real-world images tend to have more low-[[frequency]] components; human eyes are less sensitive to high-[[frequency]] components. therefore, discarding high-[[frequency]] components has little effect on perceived image quality. [[jpeg]] applies the [[discrete cosine transform]] to 8 by 8 pixel groups from each [[ycbcr]] channel. then, it divides through a [[hadamard product]] the [[frequency]] components by a _quantization table_ then rounds to the nearest [[integer]]; this process is called _quantization_. _quantization tables_ are provided by the [[jpeg]] standard, chosen through visual experiments to discard high-[[frequency]] components and are the main way for [[jpeg]] to define [[compression]] quality
 
-human eyes are more sensitive to [[luma]] and less sensitive to [[chroma]]. therefore, reducing the resolution of the [[chroma]] components of an image has little effect on perceived image quality
-
-[[jpeg#chroma subsamlping]] does so by **"choosing"** the [[chroma]] of one pixel and applying it to the surrounding pixels
-
-_chroma downsampling_ does so by **averaging** the [[chroma]] of a group of pixels and applying it to the group
-
-## Discrete Cosine Transform
-
-an image can be represented in the _frequency domain_ through [[fourier transform]]s. real-world images tend to have more low-[[frequency]] components; human eyes are less sensitive to high-[[frequency]] components. therefore, discarding high-[[frequency]] components has little effect on perceived image quality
-
-the [[jpeg#discrete cosine transform]] does so for every [[ycbrc]] channel
-
-[[discrete cosine transform]]
+quantized [[frequency]] components are then compressed further through a combination of [[run-length encoding]] and [[huffman coding]]

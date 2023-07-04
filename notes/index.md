@@ -33,7 +33,3 @@
 [[productivity]] and related notes
 
 [[resources]] and related notes
-
----
-
-[[equality]]

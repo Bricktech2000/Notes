@@ -4,7 +4,7 @@ used for backlinks
 
 **see**
 
-[[neural network]]s, [[gradient descent]]
+[[neural network]]s, [[gradient#descent]]
 
 [[linear regression]]
 

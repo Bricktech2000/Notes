@@ -42,3 +42,7 @@
 [[fast inverse square root]]
 
 [[jpeg#compression]]
+
+[[run-length encoding]]
+
+[[huffman coding]]

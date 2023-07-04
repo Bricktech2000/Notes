@@ -1,6 +1,6 @@
 # Flawed but Established
 
-_suboptimal systems that have too high of a [[switching cost]] to be replaced_
+_suboptimal [[system]]s, [[tool]]s and [[concept]]s that have too high of a [[switching cost]] to be replaced_
 
 > **examples** _[[flawed but established]]_
 >
@@ -16,7 +16,7 @@ _suboptimal systems that have too high of a [[switching cost]] to be replaced_
 >
 > - my [[math notation]]
 > - the [[international system of units]]
-> - my [[better markdown]] idea
+> - [[better markdown]] when I get around to finishing it
 > - [[iso 216]] paper sizes
 > - [[improved family relationship vocabulary]]
 > - the Dvorak layout

@@ -608,4 +608,237 @@ therefore, the area of the collection of rectangles is $\displaystyle \sum_{i=0}
 
 ---
 
-$O\ 1<O\lceil \lceil \smash\circ \<O\lceil \smash\circ \rceil <\ O\ [\lceil \smash\circ \rceil ]2<O\ [\smash\circ ]\omega <O\ \smash\circ <O\ \braket{\smash\circ \ \mid \lceil \smash\circ aoeu}<O\ [\smash\circ ]b<O\ b[\smash\circ ]<O\ (\Pi \ \smash\circ )<O\ \braket{\smash\circ \ []\ \smash\circ }$
+&mdash; <https://qoiformat.org/qoi-specification.pdf>
+
+```
+# The Quite Ok Image Format:
+  Specification *Version 1.0*, 2022-01-05 -- qoiformat.org -- Dominic Szablewski /todo: date, mdash, link/
+
+  A QOI file consists of a 14-byte header, followed by any number of
+  data "chunks" and an 8-byte end marker.
+
+  ` c:
+    qoi_header {
+      char magic[4];      // magic bytes "qoif"
+      uint32_t width;     // image width in pixels (BE)
+      uint32_t height;    // image height in pixels (BE)
+      uint8_t channels;   // 3 = RGB, 4 = RGBA
+      uint8_t colorspace; // 0 = sRGB with linear alpha
+                          // 1 = all channels linear
+    };
+
+  The colorspace and channel fields are purely informative. They do
+  not change the way data chunks are encoded.
+
+  Images are encoded row by row, left to right, top to bottom. The
+  decoder and encoder start with `{r: 0, g: 0, b: 0, a: 255}` as the
+  previous pixel value. An image is complete when all pixels specified
+  by `width * height` have been covered. Pixels are encoded as:
+
+  - a run of the previous pixel
+  - an index into an array of previously seen pixels
+  - a difference to the previous pixel value in RGB
+  - full RGB or RGBA values
+
+  The color channels are assumed to not be premultiplied with the
+  alpha channel ("un-premultiplied alpha")
+
+  A running `array[64]` (zero-initialized) of previously seen pixel
+  values is maintained by the encoder and decoder. Each pixel that is
+  seen by the encoder and decoder is put into this array at the
+  position formed by a hash function of the color value. In the
+  encoder, if the pixel value at the index matches the current pixel,
+  this index position is written to the stream as `QOI_OP_INDEX`. The
+  hash function for the index is:
+
+  ` c:
+    index_position = (r * 3 + g * 5 + b * 7 + a * 11) % 64
+
+  Each chunk starts with a 2- or 8-bit tag, followed by a number of
+  data bits. The bit length of chunks is divisible by 8 - i.e. all
+  chunks are byte aligned. All values encoded in these data bits have
+  the most significant bit on the left. The 8-bit tags have
+  precedence over the 2-bit tags. A decoder must check for the
+  presence of an 8-bit tag first.
+
+  The byte stream's end is marked with 7 `0x00` bytes followed by a
+  single `0x01` byte.
+
+  The possible chunks are:
+
+  # `QOI_OP_RGB`:
+    - 8-bit tag `0b11111110`
+    - 8-bit red   channel value
+    - 8-bit green channel value
+    - 8-bit blue  channel value
+
+    The alpha value remains unchanged from the previous pixel.
+
+  # `QOI_OP_RGBA`:
+    - 8-bit tag `0b11111111`
+    - 8-bit red   channel value
+    - 8-bit green channel value
+    - 8-bit blue  channel value
+    - 8-bit alpha channel value
+
+  # `QOI_OP_INDEX`:
+    - 2-bit tag `0b00`
+    - 6-bit index into the color index array: `0..=63`
+
+    A valid encoder must not issue 2 or more consecutive `QOI_OP_INDEX`
+    chunks to the same index. `QOI_OP_RUN` should be used instead.
+
+  # `QOI_OP_DIFF`:
+    - 2-bit tag `0b01`
+    - 2-bit red   channel difference from the previous pixel `-2..=1`
+    - 2-bit green channel difference from the previous pixel `-2..=1`
+    - 2-bit blue  channel difference from the previous pixel `-2..=1`
+
+    The difference to the current channel values are using a wraparound
+    operation, so `1 - 2` will result in `255`, while `255 + 1` will result
+    in `0`.
+
+    Values are stored as unsigned integers with a bias of `2`. E.g. `-2`
+    is stored as `0` (`0b00`). `1` is stored as `3` (`0b11`).
+
+    The alpha value remains unchanged from the previous pixel.
+
+  # `QOI_OP_LUMA`:
+    - 2-bit tag `0b10`
+    - 6-bit green channel difference from the previous pixel `-32..=31`
+    - 4-bit red channel difference minus green channel difference `-8..=7`
+    - 4-bit blue channel difference minus green channel difference `-8..=7`
+
+    The green channel is used to indicate the general direction
+    of change and is encoded in 6 bits. The red and blue channels (`dr`
+    and `db`) base their diffs off of the green channel difference. I.e.:
+
+    ` c:
+      dr_dg = (cur_px.r - prev_px.r) - (cur_px.g - prev_px.g)
+      db_dg = (cur_px.b - prev_px.b) - (cur_px.g - prev_px.g)
+
+    The difference to the current channel values are using a wraparound
+    operation, so `10 - 13` will result in `253`, while `250 + 7` will result
+    in `1`.
+
+    Values are stored as unsigned integers with a bias of `32` for the
+    green channel and a bias of `8` for the red and blue channels.
+
+    The alpha value remains unchanged from the previous pixel.
+
+  # `QOI_OP_RUN`:
+    - 2-bit tag `0b11`
+    - 6-bit run-length repeating the previous pixel: `1..62`
+
+    The run-length is stored with a bias of `-1`. Note that the run-
+    lengths `63` and `64` (`0b111110` and `0b111111`) are illegal as they are
+    occupied by the `QOI_OP_RGB` and `QOI_OP_RGBA` tags.
+```
+
+# The Quite Ok Image Format
+
+Specification **Version 1.0**, 2022-01-05 &mdash; <https://qoiformat.org> &mdash; Dominic Szablewski
+
+A QOI file consists of a 14-byte header, followed by any number of data "chunks" and an 8-byte end marker.
+
+```c
+qoi_header {
+  char magic[4];      // magic bytes "qoif"
+  uint32_t width;     // image width in pixels (BE)
+  uint32_t height;    // image height in pixels (BE)
+  uint8_t channels;   // 3 = RGB, 4 = RGBA
+  uint8_t colorspace; // 0 = sRGB with linear alpha
+                      // 1 = all channels linear
+};
+```
+
+The colorspace and channel fields are purely informative. They do not change the way data chunks are encoded.
+
+Images are encoded row by row, left to right, top to bottom. The decoder and encoder start with `{r: 0, g: 0, b: 0, a: 255}` as the previous pixel value. An image is complete when all pixels specified by `width * height` have been covered. Pixels are encoded as:
+
+- a run of the previous pixel
+- an index into an array of previously seen pixels
+- a difference to the previous pixel value in RGB
+- full RGB or RGBA values
+
+The color channels are assumed to not be premultiplied with the alpha channel ("un-premultiplied alpha")
+
+A running `array[64]` (zero-initialized) of previously seen pixel values is maintained by the encoder and decoder. Each pixel that is seen by the encoder and decoder is put into this array at the position formed by a hash function of the color value. In the encoder, if the pixel value at the index matches the current pixel, this index position is written to the stream as `QOI_OP_INDEX`. The hash function for the index is:
+
+```c
+index_position = (r _ 3 + g _ 5 + b _ 7 + a _ 11) % 64
+```
+
+Each chunk starts with a 2- or 8-bit tag, followed by a number of data bits. The bit length of chunks is divisible by 8 - i.e. all chunks are byte aligned. All values encoded in these data bits have the most significant bit on the left. The 8-bit tags have precedence over the 2-bit tags. A decoder must check for the presence of an 8-bit tag first.
+
+The byte stream's end is marked with 7 `0x00` bytes followed by a single `0x01` byte.
+
+The possible chunks are:
+
+## `QOI_OP_RGB`
+
+- 8-bit tag `0b11111110`
+- 8-bit red channel value
+- 8-bit green channel value
+- 8-bit blue channel value
+
+The alpha value remains unchanged from the previous pixel.
+
+## `QOI_OP_RGBA`
+
+- 8-bit tag `0b11111111`
+- 8-bit red channel value
+- 8-bit green channel value
+- 8-bit blue channel value
+- 8-bit alpha channel value
+
+## `QOI_OP_INDEX`
+
+- 2-bit tag `0b00`
+- 6-bit index into the color index array: `0..=63`
+
+A valid encoder must not issue 2 or more consecutive `QOI_OP_INDEX` chunks to the same index. `QOI_OP_RUN` should be used instead.
+
+## `QOI_OP_DIFF`
+
+- 2-bit tag `0b01`
+- 2-bit red channel difference from the previous pixel `-2..=1`
+- 2-bit green channel difference from the previous pixel `-2..=1`
+- 2-bit blue channel difference from the previous pixel `-2..=1`
+
+The difference to the current channel values are using a wraparound operation, so `1 - 2` will result in `255`, while `255 + 1` will result in `0`.
+
+Values are stored as unsigned integers with a bias of `2`. E.g. `-2` is stored as `0` (`0b00`). `1` is stored as `3` (`0b11`).
+
+The alpha value remains unchanged from the previous pixel.
+
+## `QOI_OP_LUMA`
+
+- 2-bit tag `0b10`
+- 6-bit green channel difference from the previous pixel `-32..=31`
+- 4-bit red channel difference minus green channel difference `-8..=7`
+- 4-bit blue channel difference minus green channel difference `-8..=7`
+
+The green channel is used to indicate the general direction of change and is encoded in 6 bits. The red and blue channels (`dr` and `db`) base their diffs off of the green channel difference. I.e.:
+
+```c
+dr_dg = (cur_px.r - prev_px.r) - (cur_px.g - prev_px.g)
+db_dg = (cur_px.b - prev_px.b) - (cur_px.g - prev_px.g)
+```
+
+The difference to the current channel values are using a wraparound operation, so `10 - 13` will result in `253`, while `250 + 7` will result in `1`.
+
+Values are stored as unsigned integers with a bias of `32` for the green channel and a bias of `8` for the red and blue channels.
+
+The alpha value remains unchanged from the previous pixel.
+
+## `QOI_OP_RUN`
+
+- 2-bit tag `0b11`
+- 6-bit run-length repeating the previous pixel: `1..62`
+
+The run-length is stored with a bias of `-1`. Note that the run- lengths `63` and `64` (`0b111110` and `0b111111`) are illegal as they are occupied by the `QOI_OP_RGB` and `QOI_OP_RGBA` tags.
+
+---
+
+**`--a.1`**

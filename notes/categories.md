@@ -16,6 +16,8 @@
 
 [[hypnosis]]
 
+[[equality]]
+
 **zilch**
 
 [[improved expression evaluation]]
@@ -45,6 +47,8 @@
 [[verbal]]
 
 [[nonverbal]]
+
+[[entropy]]
 
 **learn**
 

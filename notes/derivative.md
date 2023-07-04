@@ -6,12 +6,6 @@
 
 **`dd f x -- dd x = f (x : h) . f x -- h {h -> 0} = f x . f a -- x . a {x -> a}`**
 
-**definition** _with a multivariable [[function]] in my [[math notation]]_
-
-let **`p = (x ...)`**
-
-**`dd f p -- dd p = (dd f p -- dd p^0 , dd f p -- dd p^1 , ...)`**
-
 **notations**
 
 _[[conventional math notation]] Lagrange's notation_
@@ -100,7 +94,7 @@ the same is true with any other parameter and with any number of parameters
 
 **definition** a [[function]] **`f`** is _differentiable_ at **`a`** if **`dd f a -- dd x`** exists
 
-**definition** a [[function]] is _differentiable_ on an interval **`a -| * -| b`** if it is differentiable on every point from **`a`** to **`b`**
+**definition** a [[function]] is _differentiable_ on an [[interval]] **`a -| * -| b`** if it is differentiable on every point from **`a`** to **`b`**
 
 **theorem** if **`f x`** is not continuous at **`x = a`**, then it is not differentiable at **`x = a`**
 
