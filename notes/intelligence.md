@@ -17,7 +17,7 @@
 - Scotty Allen from Strange Parts on [[intelligence]] being part of one's [[identity]] &mdash; <https://youtu.be/Gs790JOeN3Y?t=605>
 - Zack Nelson from JerryRigEverything mixing up [[intelligence]] and [[knowledge]] &mdash; <https://youtu.be/-Fhf5dX1efo?t=562>
 - 8 struggles of highly intelligent people &mdash; <https://youtu.be/BN3KT7IERSw>
-- Amos Wenger from fasterthanlime on his experience with [[intellectual giftedness]] &mdash; <https://youtu.be/6PKYd0mnUxQ
+- Amos Wenger from fasterthanlime on his experience with [[intellectual giftedness]] &mdash; <https://youtu.be/6PKYd0mnUxQ>
 - Destin Sandlin from Smarter Every Day being described as smart by his teachers &mdash; <https://youtu.be/xLWUGumz1dI>
 - Tabs "sex chocolate" creator about his father's intelligence <https://youtu.be/Vt7ZWcyNc18?t=5095>
 

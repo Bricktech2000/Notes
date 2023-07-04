@@ -101,9 +101,9 @@ _an odd function is symmetrical about the y axis, but also flipped about the x a
 
 **see** [[calculus notation]]
 
-**definition** a [[function]] **`f`** is _increasing_ on an interval **`a -| * -| b`** if **`x_1 -| x_2 < f x_1 -| f x_2`**, or **`dd f x -- dd x |- 0`** on that interval
+**definition** a [[function]] **`f`** is _increasing_ on an [[interval]] **`a -| * -| b`** if **`x_1 -| x_2 < f x_1 -| f x_2`**, or **`dd f x -- dd x |- 0`** on that [[interval]]
 
-**definition** a [[function]] **`f`** is _decreasing_ on an interval **`a -| * -| b`** if **`x_1 |- x_2 < f x_1 |- f x_2`**, or **`dd f x -- dd x -| 0`** on that interval
+**definition** a [[function]] **`f`** is _decreasing_ on an [[interval]] **`a -| * -| b`** if **`x_1 |- x_2 < f x_1 |- f x_2`**, or **`dd f x -- dd x -| 0`** on that [[interval]]
 
 ## Concavity
 
@@ -182,7 +182,7 @@ let **`f`** be a [[function#continuous function]] near **`x = c`** and **`c`** b
 
 **definition** a [[function]] is _continuous from the right_ at **`a`** when **`f x {x -> a "from the right"} = f a`** and both other conditions are met
 
-**definition** a [[function]] is _continuous on an interval **`a -| * -| b`**_ if it is continuous on every point from **`a`** to **`b`** exclusively, and continuous from the right at **`a`** and from the left at **`b`**
+**definition** a [[function]] is _continuous on an [[interval]] **`a -| * -| b`**_ if it is continuous on every point from **`a`** to **`b`** exclusively, and continuous from the right at **`a`** and from the left at **`b`**
 
 **definition** a [[function]] is _continuous_ (_globally continuous_) if it is continuous on every point of its [[function#domain]]
 
@@ -265,7 +265,7 @@ an osculating [[circle]] has the same [[function#slope]] and the same [[function
 **`f_"ave" = F b . F a -- b . a`**, where
 
 - **`F`** is an [[antiderivative]] of **`f x`** with respect to **`x`**, **`$ f x | dd x`**
-- **`f_"ave"`** is the _average_ of the [[function]] **`f x`** on the interval **`a -| * -| b`**
+- **`f_"ave"`** is the _average_ of the [[function]] **`f x`** on the [[interval]] **`a -| * -| b`**
 
 &mdash; <https://youtu.be/7gigNsz4Oe8?t=3093>
 
@@ -351,7 +351,7 @@ analytic continuation of a [[function#analytic function]] is uniquely determined
 
 ## Piecewise Function
 
-**definition** in [[mathematics]], a _piecewise-defined function_ is a [[function]] defined by multiple sub-[[function]]s, where each sub-[[function]] applies to a different interval in the [[function#domain]] &mdash; Wikipedia
+**definition** in [[mathematics]], a _piecewise-defined function_ is a [[function]] defined by multiple sub-[[function]]s, where each sub-[[function]] applies to a different [[interval]] in the [[function#domain]] &mdash; Wikipedia
 
 ## Rational Function
 

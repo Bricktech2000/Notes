@@ -197,17 +197,17 @@ a power [[series]] centered at **`a`** is of the following form:
 
 > **note** the definition above assumes **`[0]0 = 1`**, see [[improved expression evaluation]]
 
-**definition** the _radius of convergence_ of a [[series#power series]] is the [[distance]] between its center and the endpoints of its interval of convergence. it can be computed using the _ratio test_.
+**definition** the _radius of convergence_ of a [[series#power series]] is the [[distance]] between its center and the endpoints of its _interval of convergence_. it can be computed using the _ratio test_
 
-**definition** the _interval of convergence_ of a [[series#power series]] is the interval if input values for which the power series converges. it can be computed using the _ratio test_. note that the convergence at the interval endpoints will have to be checked separately.
+**definition** the _interval of convergence_ of a [[series#power series]] is the [[interval]] if input values for which the power series converges. it can be computed using the _ratio test_. note that the convergence at the [[interval]] endpoints will have to be checked separately
 
 **properties**
 
 _convergence_ a [[series#power series]] either:
 
-- converges at its center **`x = a`** only &mdash; radius of convergence is **`0`**
-- converges for all **`RR x`** &mdash; radius of convergence is **`@@`**
-- converges on an interval centered around its center **`x = a`** &mdash; radius of convergence is a finite [[number]]
+- converges only at its center **`* = a`** &mdash; radius of convergence is **`0`**
+- converges on its whole domain **`* -> ^^`** &mdash; radius of convergence is **`@@`**
+- converges on an [[interval]] around its center **`a.k -| * -| a:k`** &mdash; radius of convergence is finite
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=19897>
 

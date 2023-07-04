@@ -6,7 +6,7 @@ _allows for the approximation of a [[function]] near a point by a [[polynomial]]
 
 > **note** [[taylor series]] don't necessarily have an infinite radius of convergence, see [[series#power series]]
 >
-> as an example, the [[taylor series]] of the [[function]] **`/x\`** at **`a = 1`** has a radius of convergence of **`1`**, meaning the [[taylor series]] only converges to the [[function]] on the interval **`0 {-|/\+} * -| 2`**
+> as an example, the [[taylor series]] of the [[function]] **`/x\`** at **`a = 1`** has a radius of convergence of **`1`**, meaning the [[taylor series]] only converges to the [[function]] on the [[interval]] **`0 {-|/\+} * -| 2`**
 >
 > &mdash; <https://youtu.be/X0razs3zR94>
 
@@ -57,7 +57,7 @@ intuitive explanation: <https://youtu.be/3d6DsjIBzJ4?t=383>
 
 > **note** the definition of the [[taylor series#remainder]] is different from the usual [[series#remainder]] as **`S_Tf^@@ x`** is not necessarily equal to **`f x`**. as we want [[taylor series]] to converge to their underlying [[function]], we use **`f x`** instead of **`S_Tf^@@ x`** to define the [[taylor series#remainder]]
 
-**theorem** the [[taylor series]] **`T f x`** converges to **`f x`** in an interval **`I`** if and only if **`R_Tf^@@ x = 0 > I x`**
+**theorem** the [[taylor series]] **`T f x`** converges to **`f x`** in an [[interval]] **`I`** if and only if **`R_Tf^@@ x = 0 > I x`**
 
 > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=22042>
 
@@ -67,4 +67,4 @@ intuitive explanation: <https://youtu.be/3d6DsjIBzJ4?t=383>
 
 > **proof** <https://youtu.be/7gigNsz4Oe8?t=22288>
 
-this practical convergence criterion is a good way to show that a [[taylor series]] converges to its underlying [[function]] on a given interval. however, if the inequality does not hold, no conclusion can be drawn; the [[taylor series]] may or may not converge to the underlying [[function]] on the interval.
+this practical convergence criterion is a good way to show that a [[taylor series]] converges to its underlying [[function]] on a given [[interval]]. however, if the inequality does not hold, no conclusion can be drawn; the [[taylor series]] may or may not converge to the underlying [[function]] on the [[interval]].

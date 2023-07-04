@@ -149,6 +149,8 @@ let:
 | **`{*}`**                   | **`x -> x`**                                                       | see [[combinator#i combinator]], [[composition#identity]]   |
 | **`""math""`**              | **`(''m'', ''a'', ''t'', ''h'')`**                                 | see [[string]], [[list]]                                    |
 
+#think **`x = y`** has been taken to mean **`/\ {x = y}`** whereas **`x : y`** means **`{x : y}`** and so should **`x = y`**, see <https://www.cs.utexas.edu/users/EWD/transcriptions/EWD13xx/EWD1300.html>
+
 ### precedence and associativity
 
 **see** [[infix notation#precedence]], [[infix notation#associativity]]
@@ -182,20 +184,21 @@ let:
 
 **definition** let **`\*`** be an [[operator]] with _AND associativity_. then, **`a \* b \* c \* ... == a \* b /\ b \* c /\ c \* ...`**
 
-### comparison with conventional notation
+## comparison with conventional notation
 
-| description                                 | in this [[math notation]]                  | in [[conventional math notation]]                                                                        |
-| ------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
-| the [[quadratic formula]]                   | **`x = .b : \b2.4ac/ -- 2a`**              | $\displaystyle x_{1, 2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$                                            |
-| definition of [[complex]] numbers           | **`CC x == x = a : bii /\ RR a /\ RR b`**  | $\displaystyle \mathbb C = \{a + bi : a, b \in \mathbb R\}$                                              |
-| the [[gaussian function]]                   | **`G^ss p = -- ss \tt/ -- [:p2 -- 2ss2]`** | $\displaystyle G(x, y, \dots) = \frac{1}{\sqrt{2 \pi\sigma^2}} e^{-\frac{x^2 + y^2 + \dots}{2\sigma^2}}$ |
-| [[limit]] form of a [[derivative]]          | **`f x . f a -- x . a {x -> a}`**          | $\displaystyle \lim_{h \rightarrow 0} \frac{f(x + h) - f(x)}{h}$                                         |
-| definition of factorials                    | **`"fact" n = 1 \| ... n`**                | $\displaystyle n! = \prod_{i = 1}^n i$                                                                   |
-| the resonant [[frequency]] of an LC circuit | **`f = -- tt \"LC"/`**                     | $\displaystyle f = \frac{1}{2 \pi \sqrt{LC}}$                                                            |
-| definition of the [[dot product]]           | **`:xy`**                                  | $\displaystyle x \cdot y  = \sum_{i=1}^n x_i y_i$                                                        |
-| definition of the [[outer product]]         | **`x * \| y *`**                           | $\displaystyle (x \otimes y)_{i, j}  = x_i \times y_j$                                                   |
-| definition of the [[cartesian product]]     | **`__ (X, Y) *`**                          | $\displaystyle X \times Y = \lbrace (x, y) \mid x \in X \text{ and } y \in Y \rbrace$                    |
-| definition of [[vector in rn#magnitude]]    | **`\|\|v\|\| = \:v2/`**                    | $\displaystyle \vert v \vert = \sqrt{x^2 + y^2 + \dots}$ with $v = (x, y, \dots)$                        |
-| definition of [[set]] difference            | **`A /\ +B`**                              | $\displaystyle A \setminus B = \{x : x \in A \text{ and } x \notin B\}$                                  |
-| the [[p-adic#absolute value]]               | **`\|\|n\|\|^p = --p[yy n p]`**            | not really doable in a concise way without using plain English                                           |
-| the **`n`**th column of a [[matrix]]        | **`rr M n`**                               | no standard notation; $(M^\intercal)_n$ or $\operatorname{col}_n(M)$ or $M_{\cdot j}$                    |
+| description                                  | in this [[math notation]]                  | in [[conventional math notation]]                                                                        |
+| -------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| the [[quadratic formula]]                    | **`x = .b : \b2.4ac/ -- 2a`**              | $\displaystyle x_{1, 2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$                                            |
+| definition of [[complex]] numbers            | **`CC x == x = a : bii /\ RR a /\ RR b`**  | $\displaystyle \mathbb C = \{a + bi : a, b \in \mathbb R\}$                                              |
+| the [[gaussian function]]                    | **`G^ss p = -- ss \tt/ -- [:p2 -- 2ss2]`** | $\displaystyle G(x, y, \dots) = \frac{1}{\sqrt{2 \pi\sigma^2}} e^{-\frac{x^2 + y^2 + \dots}{2\sigma^2}}$ |
+| [[limit]] form of a [[derivative]]           | **`f x . f a -- x . a {x -> a}`**          | $\displaystyle \lim_{h \rightarrow 0} \frac{f(x + h) - f(x)}{h}$                                         |
+| definition of factorials                     | **`"fact" n = 1 \| ... n`**                | $\displaystyle n! = \prod_{i = 1}^n i$                                                                   |
+| the resonant [[frequency]] of an LC circuit  | **`f = -- tt \"LC"/`**                     | $\displaystyle f = \frac{1}{2 \pi \sqrt{LC}}$                                                            |
+| definition of the [[dot product]]            | **`:xy`**                                  | $\displaystyle x \cdot y  = \sum_{i=1}^n x_i y_i$                                                        |
+| definition of the [[outer product]]          | **`x * \| y *`**                           | $\displaystyle (x \otimes y)_{i, j}  = x_i \times y_j$                                                   |
+| definition of the [[cartesian product]]      | **`__ (X, Y) *`**                          | $\displaystyle X \times Y = \lbrace (x, y) \mid x \in X \text{ and } y \in Y \rbrace$                    |
+| definition of [[vector in rn#magnitude]]     | **`\|\|v\|\| = \:v2/`**                    | $\displaystyle \vert v \vert = \sqrt{x^2 + y^2 + \dots}$ with $v = (x, y, \dots)$                        |
+| definition of [[set]] difference             | **`A /\ +B`**                              | $\displaystyle A \setminus B = \{x : x \in A \text{ and } x \notin B\}$                                  |
+| the [[activation function#softmax function]] | **`ss^i z = [z^i] -- :[z]`**               | $\displaystyle \sigma(s)_c = \frac{\exp(s_c)}{\sum_{c'} \exp(s_{c'})}$                                   |
+| the [[p-adic#absolute value]]                | **`\|\|n\|\|^p = --p[yy n p]`**            | not really doable in a concise way without using plain English                                           |
+| the **`n`**th column of a [[matrix]]         | **`rr M n`**                               | no standard notation; $(M^\intercal)_n$ or $\operatorname{col}_n(M)$ or $M_{\cdot j}$                    |

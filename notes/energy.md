@@ -1,6 +1,6 @@
 # Energy
 
-**see** [[math notation]], [[international system of units]]
+**see** [[entropy]], [[math notation]], [[international system of units]]
 
 ## Kinetic Energy
 

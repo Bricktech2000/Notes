@@ -48,4 +48,6 @@ other notations used contextually include:
 
 &mdash; <https://youtu.be/4x-BcYCiKCk>
 
+&mdash; <https://www.cs.utexas.edu/users/EWD/transcriptions/EWD13xx/EWD1300.html> &mdash; Ben Burk
+
 _[<wbr>[[conventional math notation]]<wbr>] is both awful, and it turns out ambiguous, and, to be perfectly honest, impressionistic_ &mdash; <https://youtu.be/HB5TrK7A4pI?t=1058>

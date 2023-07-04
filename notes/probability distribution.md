@@ -91,7 +91,7 @@ probability mass functions are used to describe discrete random variables
 
 **see** [[integral]]
 
-**definition** a _probability density function_ is a [[function]] **`f`** such that **`$ f x | dd x {b . a}`** is the [[probability]] of an _example_ being in the interval **`a -| * -| b`**
+**definition** a _probability density function_ is a [[function]] **`f`** such that **`$ f x | dd x {b . a}`** is the [[probability]] of an _example_ being in the [[interval]] **`a -| * -| b`**
 
 **applications**
 
@@ -107,7 +107,7 @@ probability density functions are used to describe continuous random variables
 
 **see** [[integral]]
 
-**definition** a _cumulative distribution function_ is a [[function]] **`F`** such that **`F a`** is the [[probability]] of an _example_ being in the interval **`.@@ -| * -| a`**
+**definition** a _cumulative distribution function_ is a [[function]] **`F`** such that **`F a`** is the [[probability]] of an _example_ being in the [[interval]] **`.@@ -| * -| a`**
 
 **definition** **`$ f x | dd x {x . .@@}`** where **`f`** is a [[probability distribution#probability density function]]
 
