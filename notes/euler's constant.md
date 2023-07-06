@@ -12,7 +12,7 @@
 
 **definition**
 
-**`[x] = {x[]--PP} {0:...}`**
+**`[x] = {x[*]--PP} {0:...}`**
 
 > **note** above, **`PP 0 = 1`**, see [[improved expression evaluation]]
 

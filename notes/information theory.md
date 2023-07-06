@@ -5,3 +5,5 @@
 [[compression]]
 
 [[error correction]]
+
+[[entropy]]

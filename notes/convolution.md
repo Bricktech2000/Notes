@@ -15,7 +15,7 @@
 
 > **note** this can be thought of as "the [[convolution]] of **`a`** and **`b`** at **`n`** is the [[dot product]] of elements of **`a`** and **`b`** at indices that sum to **`n`**"
 
-> **note** [[convolution]]s can be computed in **`O {* | /*\ }`** time [[computational complexity]] instead of **`O [*]2`** using fast [[fourier transform]]s and [[root of unity]]s &mdash; <https://youtu.be/KuXjwB4LzSA?t=1091>
+> **note** [[convolution]]s can be computed in **`O {| /.\}`** time [[computational complexity]] instead of **`O [*]2`** using fast [[fourier transform]]s and [[root of unity]]s &mdash; <https://youtu.be/KuXjwB4LzSA?t=1091>
 
 **definition**
 

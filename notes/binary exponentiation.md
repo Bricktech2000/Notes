@@ -10,7 +10,7 @@
 
 **representation** _using [[recursion]]_
 
-the time [[computational complexity]] of [[binary exponentiation]] is **`O /*\`**
+the time [[computational complexity]] of [[binary exponentiation]] is **`O /.\`**
 
 ```python
 def monoid_reduce(mul, id, x, n):
