@@ -34,14 +34,14 @@ _a collection of disjoint [[set]]s that can be merged together and queried for m
 
 time [[computational complexity]]:
 
-|                               | Union Find          |
-| ----------------------------- | ------------------- |
-| Construction                  | **`O *`**           |
-| Union with _path compression_ | **`O *`** amortized |
-| Find with _path compression_  | **`O *`** amortized |
-| Getting size of [[set]]       | **`O *`** amortized |
-| Naive Count Components        | **`O *`**           |
-| Count Components by tracking  | **`O 1`**           |
+|                               | Union Find            |
+| ----------------------------- | --------------------- |
+| Construction                  | **`O {*}`**           |
+| Union with _path compression_ | **`O {*}`** amortized |
+| Find with _path compression_  | **`O {*}`** amortized |
+| Getting size of [[set]]       | **`O {*}`** amortized |
+| Naive Count Components        | **`O {*}`**           |
+| Count Components by tracking  | **`O ->1`**           |
 
 **representation**
 
@@ -65,7 +65,7 @@ as the elements of this particular [[union find]] are [[natural]]s, this [[map]]
 
 ## Path Compression
 
-_allows for amortized **`O 1`** time [[computational complexity]]_
+_allows for amortized **`O ->1`** time [[computational complexity]]_
 
 > **procedure** _path compression_
 >

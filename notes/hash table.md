@@ -8,13 +8,13 @@ _a [[map]] implemented using a [[hash]] [[function]]_
 
 time [[computational complexity]]:
 
-|        | Average   | Worst     |
-| ------ | --------- | --------- |
-| Insert | **`O 1`** | **`O *`** |
-| Remove | **`O 1`** | **`O *`** |
-| Lookup | **`O 1`** | **`O *`** |
+|        | Average     | Worst       |
+| ------ | ----------- | ----------- |
+| Insert | **`O ->1`** | **`O {*}`** |
+| Remove | **`O ->1`** | **`O {*}`** |
+| Lookup | **`O ->1`** | **`O {*}`** |
 
-> **note** time [[computational complexity]] is **`O 1`** only if the [[hash]] [[function]] is uniform
+> **note** time [[computational complexity]] is **`O ->1`** only if the [[hash]] [[function]] is uniform
 
 **definition** the _load factor_ of a [[hash table]] is the ratio of the number of elements in the [[hash table]] to the number of slots in the [[hash table]]
 

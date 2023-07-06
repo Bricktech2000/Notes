@@ -178,6 +178,14 @@ _the diagonal of a [[matrix]]_
 
 **definition** the _diagonal_ of a square [[matrix]] goes from its top left element to its bottom right element
 
+## Trace
+
+**definition** the _trace_ of a square [[matrix]] is the sum of its [[matrix#diagonal]] entries
+
+**definition** **`:{A *}`**, see [[combinator#w combinator]]
+
+**notation** **`:{A *}`**, see [[combinator#w combinator]]
+
 ## Transpose
 
 _the transpose of a [[matrix]]_

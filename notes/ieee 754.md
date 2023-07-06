@@ -14,4 +14,4 @@ _equality does not obey substitution_ **`0 = .0`** but **`1 -- 0 + 1 -- .0`**
 
 _not associative_ **`(a : b) : c + a : (b : c)`** for some **`a, b, c`**
 
-_not distributive_ **`m(a : b) + ma : mb`** is not **`^^`** for some **`a, b, m`**
+_not distributive_ **`m(a : b) + ma : mb`** for some **`a, b, m`**

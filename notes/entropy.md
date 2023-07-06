@@ -8,6 +8,8 @@
 
 _entropy_ can be thought of as the "likeliness" of a system being in a given state; highly likely states have high entropy whereas unlikely states have low entropy
 
+low entropy and high entropy are generally uninteresting; transitions from low to high entropy can often be interesting
+
 > **example** we don't use up [[energy]]; we transform [[energy]] and use up [[entropy]] &mdash; me
 
 > **example** the amount of [[energy]] on Earth is relatively stable: approximately equal are the amounts of [[energy]] provided by the Sun and radiated back into space. what the Sun **actually** gives us is a stream of low [[entropy]]

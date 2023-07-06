@@ -22,8 +22,6 @@
 
 [[improved expression evaluation]]
 
-[[improvability theory]]
-
 [[control over convenience]]
 
 [[overruling rules]]

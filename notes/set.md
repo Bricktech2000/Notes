@@ -6,23 +6,13 @@
 
 **definition** a _set_ is an unordered collection of elements, each of which are unique
 
-**definition** _formally in my [[math notation]]_ a [[set]] is a [[set theory]]etical [[function]] that takes an element and returns whether it is a member of the [[set]] (a [[predicate]])
+**definition** _formally in my [[math notation]]_ a [[set]] is a [[set theory]]etical [[function]] that takes an element and returns whether it is a member of the [[set]]. that ys, [[set]]s are [[predicate]]s
 
-**notations**
+**notation** _set roster notation_ **`S = {{1, 2, 3}}`**
 
-_Set Roster notation_
+**notation** _set roster notation_ **`S = {{1, 2, 3 ...}}`** &mdash; **`...`** are allowed
 
-**`S = {{1, 2, 3}}`**
-
-**`S = {{1, 2, 3 ...}}`** &mdash; **`...`** are allowed
-
-_Set Builder notation_
-
-**`S x = P x`** or **`S = x -> P x`**, where
-
-**`P`** is a [[predicate]], see [[math notation]]
-
-in [[conventional math notation]], this abomination: $\lbrace x \mid P(x) \rbrace$
+**notation** _set builder notation_ **`S x = P x`** or **`S = x -> P x`** where **`P`** is [[predicate]]
 
 **types**
 
@@ -42,9 +32,7 @@ _elements are unique_ **`{{1, 1, 1}} = {{1, 1}} = ...`**
 
 [[universal]] set
 
-[[field]]s
-
-[[monoid]]s
+[[empty]] set
 
 ## Subset
 
@@ -56,25 +44,15 @@ _elements are unique_ **`{{1, 1, 1}} = {{1, 1}} = ...`**
 
 in other words, an element being in **`A`** implies it is also in **`B`**
 
-**notation**
+**notation** _in my [[math notation]]_ **`/\ A -| B`** checks whether **`A`** is a [[set#subset]] of **`B`**
 
-_in my [[math notation]]_
-
-**`/\ A -| B`** checks whether **`A`** is a [[set#subset]] of **`B`**
-
-**`/\ B |- A`** checks whether **`B`** is a [[set#superset]] of **`A`**
-
-_in [[conventional math notation]]_
-
-$A \subseteq B$ states **`A`** is a [[set#subset]] of **`B`**
-
-$B \supseteq A$ states **`B`** is a [[set#superset]] of **`A`**
+**notation** _in my [[math notation]]_ **`/\ B |- A`** checks whether **`B`** is a [[set#superset]] of **`A`**
 
 **examples**
 
-**`ZZ < RR`**
+**`/\ ZZ -| RR`**
 
-**`EE < ZZ`**
+**`/\ EE -| ZZ`**
 
 **properties**
 
@@ -94,13 +72,11 @@ both the [[set#subset]] and the [[set#superset]] form a [[partial order]]
 
 ## Equivalence
 
-**definition** two [[set]]s are _equivalent_ if and only if they contain the same elements, **`A = B == x -> (A x = B x)`**
+**definition** two [[set]]s are _equivalent_ if and only if they contain the same elements; **`A = B == /\ A = B`**
 
 ## Membership
 
-**notation**
-
-**`S a`**
+**notation** **`S a`**
 
 ## Isomorphism
 
@@ -111,18 +87,6 @@ both the [[set#subset]] and the [[set#superset]] form a [[partial order]]
 two [[set]]s are isomorphic if they contain the same elements "labeled" in different ways
 
 &mdash; <https://youtu.be/yAi3XWCBkDo?t=998>
-
-## [[empty]]
-
-_the empty [[set]]_
-
-**see** [[empty]]
-
-## [[universal]]
-
-_the [[set]] of all possible mathematical entities_
-
-**see** [[universal]]
 
 ## Partition
 
@@ -154,13 +118,8 @@ _product principle_ the cardinality of the [[cartesian product]] of two [[set]]s
 
 > **examples**
 >
-> let **`O = {{ }}`**
->
-> **`/\ * -| {{1, 2, 3}} = {{ {{1}}, {{2}}, {{3}}, {{1, 2}}, {{2, 3}}, {{1, 3}}, {{1, 2, 3}}, {{ }} }}`**
->
-> **`/\ * -| O = {{O}}`**
->
-> **`/\ * -| (/\ * -| O) = {{ O, {{O}} }}`**
+> - **`/\ * -| {{ }} = {{ {{ }} }}`**
+> - **`/\ * -| (/\ * -| O) = {{ {{ }}, {{ {{ }} }} }}`**
 
 ## Arrangement
 
@@ -223,6 +182,6 @@ the number of **`k`**-combinations of an **`n`**-set is
 - let **`C n k`** be the **`k`**-subsets of an **`n`**-[[set]]
 - let **`P k k`** be the **`k`**-permutations of a **`k`**-[[set]]
 
-then, there exists a [[function#bijective function]] between **`P n k`** and **`\_\_ {C n k, P k k} **`\*\*, see [[cartesian product]]
+then, there exists a [[function#bijective function]] between **`P n k`** and **`__ {C n k, P k k} *`**, see [[cartesian product]]
 
-moreover, **`# C n k = # C n (n.k)`**. the number of **`k`**-subsets of an **`n`**-[[set]] is equal to the number of **`n.k`**-subsets of an **`n`**-[[set]]
+moreover, **`# C n k = # C n (n.k)`**; the number of **`k`**-subsets of an **`n`**-[[set]] is equal to the number of **`n.k`**-subsets of an **`n`**-[[set]]
