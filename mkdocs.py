@@ -15,9 +15,9 @@ def h2a(string):
   if not split[1]:
     return split[0]
   elif split[1].endswith(split[0]):
-    return split[1][:-len(split[0])] + ' < ' + split[0]
+    return split[1][:-len(split[0])] + ' &#8882; ' + split[0]
   else:
-    return split[0] + ' > ' + split[1]
+    return split[0] + ' &#8883; ' + split[1]
 
 
 def l2e(string):
