@@ -8,7 +8,7 @@
 
 the reason why RAW footage looks desaturated on most displays is that its wide [[color space]] is being "squeezed" (and not sliced) into a narrow [[color space]] for display
 
-HD video and most computer screens use the [[srgb]] [[color space]]. recording in a wide [[color gamut]] such as RAW gives us more information to work with for [[color correction]] before [[compression]] to [[srgb]] for distribution
+HD video and most computer screens use the [[srgb]] [[color space]]. recording in a wide [[color gamut]] such as RAW gives us more information to work with for [[color correction]] before [[data compression]] to [[srgb]] for distribution
 
 > **example**
 >

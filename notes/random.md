@@ -96,6 +96,16 @@ a reaction channel with higher production value than reaction channels. playing 
 
 > **example** _a video of the style mentioned above_ <https://youtu.be/VfNdps0daF8>
 
+### simpler web
+
+a simpler web would be nice. a web where computers exchange simple non-interactive semantic markup, with no stylesheet. all styling would be done on the client side. a web that doesn't try to do everything, and proudly lacks modern features
+
+> **note** Edge's _Immersive Reader_ seems to be similar, but does not serve the same purpose
+>
+> - <https://learn.microsoft.com/en-us/azure/applied-ai-services/immersive-reader/how-to-prepare-html>
+> - <https://learn.microsoft.com/en-us/azure/applied-ai-services/immersive-reader/reference#browser-support>
+> - <read://https_en.wikipedia.org/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRegular_expression>
+
 ### Explore -> Learn -> Share
 
 creating free value is a great way of growing an audience. it is then possible to monitize that audience by creating a course or merchandise by the small fraction of people willing to pay for it

@@ -6,10 +6,10 @@
 
 **definition**
 
-**`(a \* b)^n = a^0 b^n : ... a^n b^0 = :(x -> a x | b (n.x))`**, where
+**`(CC a b)^n = a^0 b^n : ... a^n b^0 = :(x -> a x | b (n.x))`**, where
 
 - **`a`** and **`b`** are [[list]]s
-- **`(a \* b)`** is the [[convolution]] of **`a`** and **`b`**
+- **`CC a b`** is the [[convolution]] of **`a`** and **`b`**
 
 > **note** in the definition above, any element of **`a`** or **`b`** at an out-of-bounds index is taken to be **`0`**
 
@@ -19,18 +19,18 @@
 
 **definition**
 
-**`(a \* b) n = $ a x | b (n.x) | dd x {@@ . .@@}`**
+**`(CC a b) n = $ a x | b (n.x) | dd x {@@ . .@@}`**
 
 - **`a`** and **`b`** are [[function]]s
-- **`a \* b`** is the [[convolution]] of **`a`** and **`b`**
+- **`CC a b`** is the [[convolution]] of **`a`** and **`b`**
 
 **properties**
 
-_length_ **`# (a \* b) = # a : # b . 1`**
+_length_ **`# (CC a b) == # a : # b . 1`**
 
-_commutativity_ **`a \* b = b \* a`**
+_commutativity_ **`CC a b == CC b a`** or equivalently **`CC == rr CC`**
 
-_associativity_ **`(a \* b) \* c = a \* (b \* c)`**
+_associativity_ **`CC (CC a b) c == CC a (CC b c)`**
 
 **applications**
 
@@ -38,13 +38,13 @@ moving averages
 
 > **example**
 >
-> let a [[list]] **`B^n = -- # B`** so that **`:B = 1`**. then, **`a \* B`** is the moving average of **`a`** with window size **`# B`**
+> let a [[list]] **`B^n = -- # B`** so that **`:B = 1`**. then, **`CC a B`** is the moving average of **`a`** with window size **`# B`**
 
 image processing
 
 > **example**
 >
-> let a [[matrix]] of [[list]]s **`MM^j,k = (r, g, b)^j,k`** representing an image and a [[convolution]] **`M \* B`** with kernel **`B`** representing an output image
+> let a [[matrix]] of [[list]]s **`MM^j,k = (r, g, b)^j,k`** representing an image and a [[convolution]] **`CC M B`** with kernel **`B`** representing an output image
 >
 > using the [[matrix]] **`B^m,n = -- # B`** so that **`:B = 1`** as the kernel will yeild a blurred image with window size **`# B`**
 >
@@ -60,13 +60,13 @@ sums of [[probability distribution]]s
 
 > **example**
 >
-> let a fair dice with [[probability distribution]] **`d = x -> {0, -6} {{1 ... 6}} x`**. the probability of rolling two such die such that the sum of their values is **`n`** is **`(d \* d) n`**
+> let a fair dice with [[probability distribution]] **`d = x -> {0, -6} {{1 ... 6}} x`**. the probability of rolling two such die such that the sum of their values is **`n`** is **`(CC d d) n`**
 
 **equivalences**
 
 > **equivalence** _[[convolution]] and [[polynomial]] multiplication_
 >
-> **`(1, 2, 3) \* (4, 5, 6) = (4, 13, 28, 27, 18)`**
+> **`CC (1, 2, 3) (4, 5, 6) = (4, 13, 28, 27, 18)`**
 >
 > **`1x0 : 2x1 : 3x2 | 4x0 : 5x1 : 6x2 = 4x0 : 13x1 : 28x2 : 27x3 : 18x4`**
 >

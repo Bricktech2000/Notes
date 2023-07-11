@@ -4,7 +4,7 @@
 
 **definition** _gamma correction_ is a nonlinear operation used to encode and decode [[luminance]] or whole [[color space]]s in video or still image systems &mdash; Wikipedia
 
-[[gamma correction]] allows for the efficient [[compression]] of [[color]] data into [[binary]] data by taking advantage of the fact that the human eye is more sensitive to low [[luminance]] than to high [[luminance]], see [[lightness]]
+[[gamma correction]] allows for the efficient [[data compression]] of [[color]] data into [[binary]] data by taking advantage of the fact that the human eye is more sensitive to low [[luminance]] than to high [[luminance]], see [[lightness]]
 
 **definition**
 

@@ -138,8 +138,6 @@
 
 [[pi function]]
 
-[[discord statuses]]
-
 [[adt organization]]
 
 [[ingredient]]s

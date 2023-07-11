@@ -1,4 +1,4 @@
-# Anchoring
+# Anchoring Effect
 
 _the secret weapon of sales and negotiations_
 

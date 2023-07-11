@@ -2,7 +2,7 @@
 
 **aka** _Y'CbCr_
 
-_for video streaming and [[compression]]_
+_for video streaming and [[data compression]]_
 
 **see** [[color space]]
 
@@ -25,4 +25,3 @@ the **`Y_\*`** component of [[ycbcr]] represents [[luma]] and the **`C_B`** and 
 ![[Pasted image 20230619162253.png]]
 
 &mdash; <https://youtu.be/0me3guauqOU?t=327>
-

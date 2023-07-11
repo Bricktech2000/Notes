@@ -1,4 +1,4 @@
-# Compression
+# Data Compression
 
 **see**
 
