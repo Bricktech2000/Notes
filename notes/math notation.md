@@ -178,6 +178,19 @@ f <- x = y == f = x -> y == f ? y = x
 y ?? f = x ==  y = f x   == y ?? x = f
 ```
 
+#think formally define **`*`**, see [[set#power set]]:
+
+```
+min (less * S)
+x -> min (less x S)
+
+rr (T I *)
+rr (i -> T (I i))
+
+f g * *
+x y -> f (g x y)
+```
+
 ### precedence and associativity
 
 **see** [[infix notation#precedence]], [[infix notation#associativity]]

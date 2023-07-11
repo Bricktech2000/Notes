@@ -10,21 +10,21 @@
 
 **`| yy n = n`**
 
-**`yy ab = yy a : yy b`**
+**`yy ab = yy {a : b}`**
 
 **`a`** _divides_ **`b`** if and only if **`yy a -| yy b`**
 
 **`n`** is a _square [[number]]_ if and only if **`EE yy n`**
 
-**`n`** is a _[[prime]] [[number]]_ if and only if **`# yy n = 1`**, or **`yy n = ((n,))`**
+**`n`** is a _[[prime]] [[number]]_ if and only if **`# yy n = 1`** and if and only if **`yy n = ((n,))`**
 
-**`m`** and **`n`** are _co[[prime]]_ if and only if **`yy m __ yy n = (( ))`**
+**`m`** and **`n`** are _co[[prime]]_ if and only if **`yy {m __ n} = (( ))`**
 
-**`n = 1`** if and only if **`# yy n = 0`**, or **`yy n = (( ))`**
+**`n = 1`** if and only if **`# yy n = 0`** and if and only if **`yy n = (( ))`**
 
-the _greatest common divisor_ of **`a`** and **`b`** is **`| (yy a __ yy b)`**
+the _greatest common divisor_ of **`a`** and **`b`** is **`| yy {a __ b}`**
 
-the _least common multiple_ of **`a`** and **`b`** is **`| (yy a ^^ yy b)`**
+the _least common multiple_ of **`a`** and **`b`** is **`| yy {a ^^ b}`**
 
 by the [[fundamental theorem of arithmetic]], the [[psi function]] is a [[function#bijective function]]
 

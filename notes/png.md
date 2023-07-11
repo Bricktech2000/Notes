@@ -1,8 +1,8 @@
 # PNG
 
-_a rather complex and slow lossless [[compression]] format for images_
+_a rather complex and slow lossless [[data compression]] format for images_
 
-**see** [[jpeg]], [[compression]]
+**see** [[jpeg]], [[data compression]]
 
 ## Compression
 

@@ -18,6 +18,6 @@ used in [[best-first search]] [[algorithm]]s
 
 used in certain implementations of [[dijkstra's algorithm]]
 
-used in huffman coding for data [[compression]]
+used in [[huffman coding]] for [[data compression]]
 
 used by minimum spanning tree [[algorithm]]s #todo

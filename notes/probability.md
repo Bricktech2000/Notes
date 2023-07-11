@@ -1,5 +1,9 @@
 # Probability
 
+&mdash; <https://courses.lumenlearning.com/introstats1/chapter/two-basic-rules-of-probability/>
+
+&mdash; <https://youtu.be/BCiZc0n6COY?t=1884>
+
 **see** [[math notation]], [[boolean algebra]]
 
 **definition** a _sample space_ **`S`** is a [[set]] of elements
@@ -8,53 +12,27 @@
 
 **definition** the _probability_ that _event_ **`E`** occurs in a space **`S`** is denoted **`P {E, S}`**, see [[ordered pair]]
 
-if all events are equally likely to occur in the space, then **`P {E, S} = # E -- # S`**
+if all events are equally likely to occur in the space, then **`P {E, S} = # E -- # S`**, see [[set#cardinality]]
 
-**see** [[set#cardinality]]
+## Sum Rule
 
-## multiplicative rule
+**theorem** _sum rule_ **`P {A \/ B, S} = P {A, S} : P {B, S} . P {A /\ B, S}`**
 
-_for independent events_
+> **note** if **`A`** and **`B`** are _mutually exclusive_ in **`S`** (**`A /\ B /\ S = { }`**), then **`P {A /\ B, S} = 0`**
 
-**definition**
+## Product Rule
 
-the probability of multiple **independent** events happening is the product of the probabilities of each event:
+**theorem** _product rule_ **`P {A /\ B, S} = P {A, S} | P {B, A /\ S} = P {B, S} | P {A, B /\ S}`**
 
-**`P {E_1 /\ E_2 , S} = P {E_1 , S} | P {E_2 , S}`**
+the above can also be written as **`P {A, B /\ S} = P {A /\ B, S} -- P {B, S}`**
 
-## permutative rule
+> **note** if **`A`** and **`B`** are _independent_ in **`S`**, then **`P {A, B /\ S} = P {A, S}`** and **`P {B, A /\ S} = P {B, S}`**
 
-_without repetition, order matters_
+### Bayes' Theorem
 
-**see** [[set]] permutation
+**theorem** _Bayes' Theorem_ **`P {A, B /\ S} = P {A, S} -- P {B, S} | P {B, A /\ S}`**
 
-## combinatory rule
-
-_without repetition, order does not matter_
-
-**see** [[set]] combination
-
-## given "rule"
-
-**definition**
-
-**`P {A, B} = P {A /\ B, S} -- P {B, S}`**, where
-
-- **`P {A /\ B, S}`** is the probability of both **`A`** and **`B`** occuring in the sample space **`S`**
-- **`P {B, S}`** is the probability **`B`** occuring in the sample space **`S`**
-- **`P {A, B}`** is the probability of **`A`** occurring _given that_ **`B`** has occurred
-
-## bayes' theorem
-
-**theorem** _Bayes' Theorem_
-
-**`P {A, B} = P {A, S} -- P {B, S} | P {B, A}`**
-
-> **proof**
->
-> from the given "rule", we know **`P {A, B} = P {A /\ B, S} -- P {B, S}`** and that **`P {B, A} = P {B /\ A, S} -- P {A, S}`**
->
-> solving for **`P {B /\ A, S}`** and substituting into the first equation, we get **`P {A, B} = P {A, S} -- P {B, S} | P {B, A}`**
+> **proof** isolate **`P {A, B /\ S}`** from the [[probability#product rule]]
 
 > **example**
 >
@@ -70,8 +48,8 @@ _without repetition, order does not matter_
 >
 > **`P {B_1 , S} = 1-2`**
 >
-> **`P {R, B_1} = 1-2`**
+> **`P {R, B_1 /\ S} = 1-2`**
 >
-> using Bayes' theorem, we get **`P {B_1 , R} = P {B_1 , S} - P {R, S} | P {R, B_1}`**
+> using Bayes' theorem, we get **`P {B_1 , R /\ S} = P {B_1 , S} - P {R, S} | P {R, B_1 /| S}`**
 >
-> and therefore **`P {B_1 , R} = 1-2 - 5-12 | 1-22 = 3-5`**
+> and therefore **`P {B_1 , R /\ S} = 1-2 - 5-12 | 1-22 = 3-5`**

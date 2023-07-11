@@ -24,7 +24,7 @@ _a systematic pattern of deviation from norm or rationality in judgment_
 
 [[correlation implies causation]]
 
-[[anchoring]]
+[[anchoring effect]]
 
 [[self-serving bias]]
 
