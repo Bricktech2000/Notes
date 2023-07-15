@@ -275,7 +275,7 @@ an osculating [[circle]] has the same [[function#slope]] and the same [[function
 
 **see** [[integral]]
 
-**definition** **`f_"arc" = $ ||dd f t -- dd t|| | dd t`** where **`f t = (x, f x ...)`** &mdash; <https://tutorial.math.lamar.edu/classes/calciii/vectorarclength.aspx>
+**definition** **`f_"arc" = $ \:(dd f t -- dd t)2/ | dd t`** where **`f t = (x, f x ...)`** &mdash; <https://tutorial.math.lamar.edu/classes/calciii/vectorarclength.aspx>
 
 **definition** **`f_"arc" = $ \1 : [dd f x -- dd x]2/ | dd x`**
 
@@ -325,7 +325,7 @@ a [[function]] can be proven to be surjective by proving one can construct an in
 
 > **example** _proving a function is not surjective_
 >
-> let **`y = f m n = ||n||`**. **`y = .1`** would cause a [[contradiction]] as the [[real#absolute value]] of an [[integer]] is always a positive [[integer]]. therefore, the [[function]] is not surjective
+> let **`y = f m n = "abs" n`**. **`y = .1`** would cause a [[contradiction]] as the [[real#absolute value]] of an [[integer]] is always a positive [[integer]]. therefore, the [[function]] is not surjective
 
 > **example** _proving a function is surjective_
 >
@@ -416,4 +416,4 @@ a [[function#total function]] maps every element of its [[function#domain]] to a
 
 > **example** in a [[group]] **`{GG, {:}}`**, only **`O`** (the identity element) is idempotent
 
-> **example** **`{||}`** is a [[function#idempotent function]] because **`||x|| = ||||x||||`** for all **`x`**
+> **example** **`"abs"`** is a [[function#idempotent function]] because **`"abs" x = "abs" "abs" x`** for all **`x`**

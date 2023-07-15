@@ -10,9 +10,9 @@ time [[computational complexity]]:
 
 |        | Average     | Worst       |
 | ------ | ----------- | ----------- |
-| Insert | **`O /.\`** | **`O {*}`** |
-| Remove | **`O /.\`** | **`O {*}`** |
-| Search | **`O /.\`** | **`O {*}`** |
+| Insert | **`O /.\`** | **`O (*)`** |
+| Remove | **`O /.\`** | **`O (*)`** |
+| Search | **`O /.\`** | **`O (*)`** |
 
 ## Operations
 

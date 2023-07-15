@@ -36,11 +36,11 @@ time [[computational complexity]]:
 
 |                               | Union Find            |
 | ----------------------------- | --------------------- |
-| Construction                  | **`O {*}`**           |
-| Union with _path compression_ | **`O {*}`** amortized |
-| Find with _path compression_  | **`O {*}`** amortized |
-| Getting size of [[set]]       | **`O {*}`** amortized |
-| Naive Count Components        | **`O {*}`**           |
+| Construction                  | **`O (*)`**           |
+| Union with _path compression_ | **`O (*)`** amortized |
+| Find with _path compression_  | **`O (*)`** amortized |
+| Getting size of [[set]]       | **`O (*)`** amortized |
+| Naive Count Components        | **`O (*)`**           |
 | Count Components by tracking  | **`O ->1`**           |
 
 **representation**

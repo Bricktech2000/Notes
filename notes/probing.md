@@ -15,7 +15,7 @@ probing [[function]]s include:
 
 **see** [[set]]
 
-**definition** the _cycle length_ of a [[probing]] [[function]] **`P i k`** given a [[list]] length **`n`** is the minimum number of iterations of **`P i k "mod" n`** that must be performed before the sequence repeats.
+**definition** the _cycle length_ of a [[probing]] [[function]] **`P i k`** given a [[list]] length **`n`** is the minimum number of iterations of **`"mod" n (P i k)`** that must be performed before the sequence repeats.
 
 the cycle length of a linear [[probing]] [[function]] **`i -> ai`** modulo **`n`** is **`n`** if and only if **`yy a __ yy n = (( ))`** , see [[psi function]] &mdash; <https://youtu.be/RBSGKlAvoiM?t=17369>
 
@@ -25,8 +25,8 @@ the cycle length of a quadratic [[probing]] [[function]] **`i -> ai2 : bi`** mod
 
 - **`i -> i2`** with **`n |- 4 /\ # yy n = 1`** (cycle length is not **`n`** and therefore it must be the case that **`aa -| -2`**, see [[hash table]])
 - **`i -> i2 : i -- 2`** with **`n = 2[k] /\ NN k`**
-- **`i -> [.1]x | x2`** with **`# yy n = 1 /\ n "mod" 4 = 3`**
+- **`i -> [.1]x | x2`** with **`# yy n = 1 /\ "mod" n 4 = 3`**
 
 the cycle length of a double hashing [[probing]] [[function]] **`i -> i | H_2  k`** modulo **`n`** is **`n`** if and only if **`yy (H_2  k) __ yy n = (( ))`**, see [[psi function]] &mdash; <https://youtu.be/RBSGKlAvoiM?t=18571>. to prevent cycles of length less than **`n`**, a few solutions are available:
 
-- choose an **`n`** such that **`# yy n = 1`**. comupte **`DD = H_2  k "mod" n ^^ c`** where **`c`** is a non-zero constant to ensure **`DD + 0`**. since **`n`** is [[prime]], this ensures **`yy DD __ yy n = (( ))`**. the value to be returned from the [[probing]] [[function]] is **`DD`**
+- choose an **`n`** such that **`# yy n = 1`**. comupte **`DD = "mod" n (H_2 k) ^^ c`** where **`c`** is a non-zero constant to ensure **`DD + 0`**. since **`n`** is [[prime]], this ensures **`yy DD __ yy n = (( ))`**. the value to be returned from the [[probing]] [[function]] is **`DD`**

@@ -12,7 +12,7 @@ _the [[set]] of [[complex]] numbers_
 
 _cartesian form_ **`z = a : bii`**
 
-_polar form_ **`z = ||z||"cos" "arg" z : ||z||ii"sin" "arg" z = ||z||"cis" "arg" z = ||z|| ' [ii"arg" z]`**, where **`"cis" = "cos" : ii"sin" = aa -> [iiaa]`**
+_polar form_ **`z = "abs" z | "cos" "arg" z : "abs" z | ii"sin" "arg" z = "abs" z | "cis" "arg" z = "abs" z | [ii"arg" z]`**, where **`"cis" = "cos" : ii"sin" = aa -> [iiaa]`**
 
 **aka** _Euler's formula notation_
 
@@ -32,9 +32,9 @@ _subtraction_ **`(a : bii) . (c : dii) = (a . c) : (b . d)ii`**
 
 _multiplication in cartesian form_ **`a : bii | c : dii = ac : adii : bii c : bdii2 = (ac . bd) : (ad : bc)ii`**
 
-_multiplication in polar form_ **`z | w = ||z|| ' [ii"arg" z] | ||w|| ' [ii"arg" w] = ||zw|| ' [ii | "arg" z : "arg" w]`**
+_multiplication in polar form_ **`z | w = "abs" z | [ii"arg" z] | "abs" w | [ii"arg" w] = "abs" zw | [ii | "arg" z : "arg" w]`**
 
-_product of two [[complex#conjugate]]s are product of [[complex#modulus]]es_ **`a : bii | a . bii = a2 : b2 = ||a : bii|| | ||a . bii||`** &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
+_product of two [[complex#conjugate]]s are product of [[complex#modulus]]es_ **`a : bii | a . bii = a2 : b2 = "abs" (a : bii) | "abs" (a . bii)`** &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
 
 **theorem** _De Moivre's Theorem_ **`["cis" aa]n = "cis" naa > ZZ n > RR aa`** &mdash; <https://en.wikipedia.org/wiki/De_Moivre%27s_formula>
 
@@ -62,33 +62,33 @@ _[[complex#conjugate]]_
 
 let **`z = a : bii`**
 
-then, **`"conj" z = a . bii = z^re . iiz^im`** is the _complex conjugate_ of **`z`**
+then, **`(re.iiim) z = a . bii = z^re . iiz^im`** is the _complex conjugate_ of **`z`**
 
 **properties**
 
 let **`CC z /\ CC w /\ RR c`**
 
-**`"conj" (z : w) = "conj" z : "conj" w`**
+**`(re.iiim) (z : w) = (re.iiim) z : (re.iiim) w`**
 
-**`"conj" cz = c"conj" z`**
+**`(re.iiim) cz = c(re.iiim) z`**
 
-**`"conj" z'w = "conj" z | "conj" w`**
+**`(re.iiim) z'w = (re.iiim) z | (re.iiim) w`**
 
-**`"conj" z-w = "conj" z -- "conj" w`**
+**`(re.iiim) z-w = (re.iiim) z -- (re.iiim) w`**
 
-**`"conj" "conj" z = z`**
+**`(re.iiim) (re.iiim) z = z`**
 
-**`RR z == "conj" z = z`**
+**`RR z == (re.iiim) z = z`**
 
-**theorem** **`z"conj" z = ||z||2 > CC z`**
+**theorem** **`z(re.iiim) z = ["abs" z]2 > CC z`**
 
-**theorem** **`--z = "conj" z -- ||z||2 > CC z`**
+**theorem** **`--z = (re.iiim) z -- ["abs" z]2 > CC z`**
 
 ## Modulus
 
 **aka** _magnitude, absolute value_
 
-**definition** **`||z|| = \z^re 2 : z^im 2/`** where **`||z||`** is the _absolute value_ of **`z`**.
+**definition** **`"abs" z = \z^re 2 : z^im 2/`** where **`"abs" z`** is the _absolute value_ of **`z`**.
 
 > **note** the [[real#absolute value]] can be thought of as "the [[distance]] of a point to the origin", which is why the absolute value of [[complex]] numbers is defined this way
 
@@ -96,13 +96,13 @@ let **`CC z /\ CC w /\ RR c`**
 
 let **`CC z /\ CC w /\ RR c`**
 
-**`||z|| = ||"conj" z||`**
+**`"abs" z = "abs" (re.iiim) z`**
 
-**`||zw|| = ||z|| ||w||`**
+**`"abs" zw = "abs" z | "abs" w`**
 
-**`||z -- w|| = ||z|| -- ||w||`**
+**`"abs" z-w = "abs" z -- "abs" w`**
 
-_triangle inequality_ **`||z : w|| -| ||z|| : ||w||`**
+_triangle inequality_ **`"abs" (z : w) -| "abs" z : "abs" w`**
 
 > **equivalence** _[[complex#modulus]] triangle inequality and [[relation#transitive relation]]_
 
@@ -112,11 +112,11 @@ _triangle inequality_ **`||z : w|| -| ||z|| : ||w||`**
 
 **definition** the _argument_ of a [[complex]] number **`z`** is the counterclockwise [[angle]] between the positive [[real]] axis and the [[line]] segment from the origin to the point **`(z^re , z^im)`**
 
-**definition** **`z = ||z|| ' [ii"arg" z]`** where **`"arg" z`** is the _argument_ of **`z`**
+**definition** **`z = "abs" z | [ii"arg" z]`** where **`"arg" z`** is the _argument_ of **`z`**
 
 ## Multiplication
 
-geometrically, multiplying a [[complex]] number **`z`** by a [[complex]] number **`w`** is equivalent to rotating **`z`** by the [[angle]] **`"arg" w`** and then scaling it by a factor of **`||w||`**. this makes [[complex]] numbers useful for computing [[vector in rn]] rotations by choosing a **`w`** where **`||w|| = 1`** &mdash; <https://youtu.be/4KlvI_uK9zs?t=398>
+geometrically, multiplying a [[complex]] number **`z`** by a [[complex]] number **`w`** is equivalent to rotating **`z`** by the [[angle]] **`"arg" w`** and then scaling it by a factor of **`"abs" w`**. this makes [[complex]] numbers useful for computing [[vector in rn]] rotations by choosing a **`w`** where **`"abs" w = 1`** &mdash; <https://youtu.be/4KlvI_uK9zs?t=398>
 
 > **proof** see properties
 

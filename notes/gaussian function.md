@@ -11,7 +11,7 @@
 - **`G^ss`** is the [[gaussian function]] with [[standard deviation]] **`ss`**
 - **`p = (x ...)`** is a point
 
-> **note** **`:p2 == ||p||2`** and therefore **`G^ss (x ...) == G^ss ||(x ...)||`**
+> **note** **`:p2 == :[ \:p2/ ]2`** and therefore **`G^ss (x ...) == G^ss \:(x ...)2/`**
 
 > **note**
 >

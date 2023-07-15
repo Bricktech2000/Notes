@@ -10,7 +10,7 @@
 
 - **`g t`** is the amplitude of a wave **`g`** at time **`t`**
 - **`VV g`** represents the [[frequency]] components of the wave, where
-  - **`||VV g f||`** is the amplitude of the [[frequency]] component **`f`**, see [[complex]]
+  - **`"abs" (VV g f)`** is the amplitude of the [[frequency]] component **`f`**, see [[complex]]
   - **`"arg" (VV g f)`** is the phase of the [[frequency]] component **`f`**, see [[complex]]
 
 **representation**

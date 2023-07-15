@@ -33,3 +33,6 @@
 - _why [[go]] is not good_, article sharing my opinions on the language &mdash; <https://yager.io/programming/go.html>
 - Sam Altman testimony on AI that might mark history &mdash; <https://youtu.be/TO0J2Yw7usM>
 - Steve Jobs on Hiring Truly Gifted People &mdash; <https://youtu.be/a7mS9ZdU6k4>
+- great lectures for an introduction to [[information theory]] &mdash; <https://www.youtube.com/@JakobFoerster/videos>
+- _Advanced [[c]]: The UB and optimizations that trick good programmers._ &mdash; <https://youtu.be/w3_e9vZj7D8>
+- _A firehose of Rust_, good overview of why the [[rust]] borrow checker is valuable &mdash; <https://youtu.be/IPmRDS0OSxM>

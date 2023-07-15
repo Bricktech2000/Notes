@@ -67,9 +67,17 @@ a compiler may:
 - terminate a translation or execution (with issuing a diagnostic)
 - produce arbitrary output (anything from a corrupted binary to a program that formats the hard drive)
 
-undefined behavior is a [[tool]] for the compiler to optimize programs even further
+undefined behavior is a [[tool]] for the compiler to optimize programs even further; a compiler may assume programs never contain undefined behavior
 
 > **example** since division by zero is undefined behavior, the compiler can assume the [[variable]] `a` in an expresion such as `1 / a` will never be zero. it can then build onto that assumption for further optimization
+
+## indeterminate values
+
+_trap representations_ are essentially a value in memory that cannot be represented by the [[type]] of an object. uninitialized memory contains _indeterminate values_, and it is _implementation-defined behavior_ whether or not these values can be _trap representations_
+
+reading a _trap representation_ is _undefined behavior_ in [[c]]; reading an _uninitialized value_ is not necessarily _undefined behavior_ in [[c]] but is in [[c++]]. using _indeterminate values_ in arithmetic operations is _undefined behavior_ in [[c]]
+
+&mdash; Effective C and <https://stackoverflow.com/questions/13423673/what-is-indeterminate-value>
 
 ## lifetimes
 
@@ -332,7 +340,19 @@ returning no value from a non-`void` [[function]] (through `return;` or through 
 
 ## reserved identifiers
 
-any identifier matching the [[regular expression]]s `/__.*/` or `/_[A-Z].*/` or `/int[0-9a-z_]*_t/` or `/uint[0-9a-z_]*_t/` is reserved and is not to be used
+&mdash; <https://www.gnu.org/software/libc/manual/html_node/Reserved-Names.html>
+
+any identifier matching one of the following [[regular expression]]s is reserved and should not be used in a user program:
+
+- `/^_/` at file scope
+- `/^__/`
+- `/^_[A-Z]/`
+- `/_t$/` for type names
+- `/^E[A-Z0-9]/` for error codes
+- `/^SIG[A-Z]/` for signal names
+- `/^SIG_[A-Z]/` for signal actions
+- `/^(str|mem|wcs)[a-z]/` for [[string]] and [[array]] [[function]]s
+- ...
 
 ## order of evaluation
 
@@ -378,8 +398,6 @@ it is guaranteed that the `? :` [[operator]] will evaluate its first operand bef
 > > ```c
 > > int *pi = malloc(sizeof(int));
 > > ```
-
-> **note** reading uninitialized memory is not _undefined behavior_ in [[c]]. with that said, is is not a great idea to do so
 
 `void *malloc(size_t size)` allocates `size` bytes of memory and returns a pointer to the allocated memory. the memory is not initialized. if `size == 0`, `malloc` returns either `NULL` or a unique pointer value that can later be passed to `free`. if `malloc` fails to allocate memory, it returns `NULL`
 

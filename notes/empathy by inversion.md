@@ -13,3 +13,5 @@ it can be easier to empathize with someone not by imagining what it would feel l
 #todo equivalent deltas example: <https://youtu.be/Q7MkSpJk5tM>
 
 #todo delta between chimps and humans ad AI, <https://youtu.be/zaB_20bkoA4?t=1387>
+
+#todo driving quote

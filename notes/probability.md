@@ -4,35 +4,33 @@
 
 &mdash; <https://youtu.be/BCiZc0n6COY?t=1884>
 
+**see** [[outcome]], [[event]], [[sample space]]
+
 **see** [[math notation]], [[boolean algebra]]
 
-**definition** a _sample space_ **`S`** is a [[set]] of elements
+**definition** the _probability_ that [[event]] **`E`** occurs in a [[sample space]] **`S`** is denoted **`P S E`**
 
-**definition** an _event_ **`E`** is a [[set#subset]] of a _sample space_ **`S`**
-
-**definition** the _probability_ that _event_ **`E`** occurs in a space **`S`** is denoted **`P {E, S}`**, see [[ordered pair]]
-
-if all events are equally likely to occur in the space, then **`P {E, S} = # E -- # S`**, see [[set#cardinality]]
+if all [[event]]s are equally likely to occur in the [[sample space]], then **`P S E = # E -- # S`**, see [[set#cardinality]]
 
 ## Sum Rule
 
-**theorem** _sum rule_ **`P {A \/ B, S} = P {A, S} : P {B, S} . P {A /\ B, S}`**
+**theorem** _sum rule_ **`P S (A \/ B) = P S A : P S B . P S (A /\ B)`**
 
-> **note** if **`A`** and **`B`** are _mutually exclusive_ in **`S`** (**`A /\ B /\ S = { }`**), then **`P {A /\ B, S} = 0`**
+> **note** if **`A`** and **`B`** are _mutually exclusive_ in **`S`**, then **`P S (A /\ B) = 0`**
 
 ## Product Rule
 
-**theorem** _product rule_ **`P {A /\ B, S} = P {A, S} | P {B, A /\ S} = P {B, S} | P {A, B /\ S}`**
+**theorem** _product rule_ **`P S (A /\ B) = P S A | P (S /\ A) B = P S B | P (S /\ B) A`**
 
-the above can also be written as **`P {A, B /\ S} = P {A /\ B, S} -- P {B, S}`**
+the above can also be written as **`P (S /\ B) A = P S (A /\ B) -- P S B`**
 
-> **note** if **`A`** and **`B`** are _independent_ in **`S`**, then **`P {A, B /\ S} = P {A, S}`** and **`P {B, A /\ S} = P {B, S}`**
+> **note** if **`A`** and **`B`** are _independent_ in **`S`**, then **`P (S /\ B) A = P S A`** and **`P (S /\ A) B = P S B`**
 
 ### Bayes' Theorem
 
-**theorem** _Bayes' Theorem_ **`P {A, B /\ S} = P {A, S} -- P {B, S} | P {B, A /\ S}`**
+**theorem** _Bayes' Theorem_ **`P (S /\ B) A = P S A -- P S B | P (S /\ A) B`**
 
-> **proof** isolate **`P {A, B /\ S}`** from the [[probability#product rule]]
+> **proof** isolate **`P (S /\ B) A`** from the [[probability#product rule]]
 
 > **example**
 >
@@ -44,12 +42,12 @@ the above can also be written as **`P {A, B /\ S} = P {A /\ B, S} -- P {B, S}`**
 >
 > defining some events,
 >
-> **`P {R, S} = 5-12`**
+> **`P S R = 5-12`**
 >
-> **`P {B_1 , S} = 1-2`**
+> **`P S B_1 = 1-2`**
 >
-> **`P {R, B_1 /\ S} = 1-2`**
+> **`P (S /\ B_1) R = 1-2`**
 >
-> using Bayes' theorem, we get **`P {B_1 , R /\ S} = P {B_1 , S} - P {R, S} | P {R, B_1 /| S}`**
+> using Bayes' theorem, we get **`P (S /\ R) B_1 = P S B_1 -- P S R | P (S /\ B_1) R`**
 >
-> and therefore **`P {B_1 , R /\ S} = 1-2 - 5-12 | 1-22 = 3-5`**
+> and therefore **`P (S /\ R) B_1 = 1-2 -- 5-12 | 1-22 = 3-5`**

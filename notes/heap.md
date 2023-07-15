@@ -22,13 +22,13 @@ time [[computational complexity]]:
 
 |                                                 | Heap        |
 | ----------------------------------------------- | ----------- |
-| Construction from unordered [[array]] (heapify) | **`O {*}`** |
+| Construction from unordered [[array]] (heapify) | **`O (*)`** |
 | Polling                                         | **`O /.\`** |
 | Peeking                                         | **`O ->1`** |
 | Adding                                          | **`O /.\`** |
-| Removing using linear search                    | **`O {*}`** |
-| Removing using a [[hash table]]                 | **`O {*}`** |
-| Contains using linear search                    | **`O {*}`** |
+| Removing using linear search                    | **`O (*)`** |
+| Removing using a [[hash table]]                 | **`O (*)`** |
+| Contains using linear search                    | **`O (*)`** |
 | Contains using a [[hash table]]                 | **`O ->1`** |
 
 **representation**
@@ -89,6 +89,6 @@ time [[computational complexity]]: **`O /.\`**
 
 ### finding an element in a heap
 
-finding an element from a [[heap]] naively using linear search has time [[computational complexity]] **`O {*}`**. a more efficient way to find an element is to maintain a [[hash table]] synced with the [[heap]] that [[map]]s node values to a [[set]] of their indices in the [[heap]]. this way, any element can be found in **`O ->1`** time [[computational complexity]].
+finding an element from a [[heap]] naively using linear search has time [[computational complexity]] **`O (*)`**. a more efficient way to find an element is to maintain a [[hash table]] synced with the [[heap]] that [[map]]s node values to a [[set]] of their indices in the [[heap]]. this way, any element can be found in **`O ->1`** time [[computational complexity]].
 
 using a [[hash table]] in this way adds a relatively large constant overhead to the time [[computational complexity]] of all operations, which is often undesirable

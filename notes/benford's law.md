@@ -1,4 +1,4 @@
-## Benford's Law
+# Benford's Law
 
 **aka** _law of anomalous numbers, first-digit law_
 
