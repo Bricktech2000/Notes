@@ -44,6 +44,6 @@ let **`m`** and **`n`** be the two numbers representing the [[distance]] between
 - **`m = n`** indicates both people are in the same generation
 - **`--2[m:n]`** is the amount of DNA two people have in common (excluding significant others)
 - the larger **`m : n`**, the further away the people are
-- the larger **`||m . n||`**, the greater age difference between the people
+- the larger **`"abs" (m.n)`**, the greater age difference between the people
 
 [[improved family relationship vocabulary]] has a high [[switching cost]]; dumb vocabulary already exists to describe the relationship between two people in a family, so getting the general public onboard is not an easy task

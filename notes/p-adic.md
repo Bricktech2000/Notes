@@ -46,21 +46,21 @@ the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the 
 
 **notation**
 
-**`||n||^p`** with **`QQ^p n`**
+**`"abs"^p n`** with **`QQ^p n`**
 
 **definition**
 
-**`||n||^p = --p[yy n p]`**, where
+**`"abs"^p n = --p[yy n p]`**, where
 
 - **`p[yy n p]`** is the highest power of **`p`** that divides **`n`**, see [[psi function]]
-- **`||n||^p`** is the [[p-adic#absolute value]] of **`n`**
+- **`"abs"^p n`** is the [[p-adic#absolute value]] of **`n`**
 
-> **example** **`||1000||^10 = -1000`**
+> **example** **`"abs"^10 1000 = -1000`**
 
 > **example** **`p`**-adically, **`p[@@] = 0`**
 
 > **example** **`2`**-adically, **`1 : 2 : 4 : 8 : ... = ...11111 = .1`**. more generally, **`p0 :  p1 : ... = .1`**
 
-> **note** for the [[p-adic#absolute value]] to follow the [[field#absolute value]] [[axiom]]s, **`||0||^p = 0`** for all **`p`** &mdash; <https://youtu.be/vdjYiU6skgE?t=407>
+> **note** for the [[p-adic#absolute value]] to follow the [[field#absolute value]] [[axiom]]s, **`"abs"^p 0 = 0`** for all **`p`** &mdash; <https://youtu.be/vdjYiU6skgE?t=407>
 
 > **note** in contrast to the [[real#absolute value]], the [[p-adic#absolute value]] only returns a "discrete" [[set]] of values **`x -> (x = p[n] /\ ZZ n \/ x = 0)`** &mdash; <https://youtu.be/vdjYiU6skgE?t=407>

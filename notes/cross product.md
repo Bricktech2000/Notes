@@ -12,7 +12,7 @@ _results in a [[vector]] of [[vector in rn#magnitude]] ([[area]] of the parallel
 
 **definition**
 
-**`:(a "cross" b)a = :(a "cross" b)b = 0`** and **`||a||||b||"sin" aa = ||a "cross" b||`** where **`aa`** is the [[vector in rn#angle]] between **`a`** and **`b`**
+**`:(a "cross" b)a = :(a "cross" b)b = 0`** and **`\:a2/ \:b2/ "sin" aa = \:(a "cross" b)2/`** where **`aa`** is the [[vector in rn#angle]] between **`a`** and **`b`**
 
 **properties**
 
@@ -28,6 +28,6 @@ _associativity with [[scalar]] multiplication_ **`k | (a "cross" b) = ka "cross"
 
 **applications**
 
-**`||u "cross" v||`** is the [[area]] of the parallelogram with sides **`u`** and **`v`**
+**`\:(u "cross" v)2/`** is the [[area]] of the parallelogram with sides **`u`** and **`v`**
 
 can be used to find a [[vector in rn]] perpendicular to a [[plane]] or to two other [[vector in rn]]s

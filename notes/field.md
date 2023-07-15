@@ -52,10 +52,10 @@ _distributivity of multiplication over addition_ **`a(b : c) = ab : ac`**
 
 an _absolute value_ on a [[field]] is a [[function]] that [[map]]s elements of the [[field]] to the [[set]] of [[real]] numbers and satisfies the following [[axiom]]s:
 
-_positive_ **`||x|| |- 0`**
+_positive_ **`"abs" x |- 0`**
 
-_positive definite_ **`||x|| = 0 == x = 0`**
+_positive definite_ **`"abs" x = 0 == x = 0`**
 
-_multiplicative_ **`||xy|| = ||x||||y||`**
+_multiplicative_ **`"abs" xy = "abs" x | "abs" y`**
 
-_triange inequality_ **`||x : y|| -| ||x|| : ||y||`**
+_triange inequality_ **`"abs" (x:y) -| "abs" x : "abs" y`**

@@ -6,13 +6,13 @@ _the [[set]] of [[real]] numbers_
 
 **definition**
 
-a [[real]] [[number]] is a value of a continuous quantity that can represent a [[distance]] along a line. &mdash; Wikipedia
+a [[real]] [[number]] is a value of a continuous quantity that can represent a [[distance]] along a line &mdash; Wikipedia
 
 **properties**
 
 **`RR < CC`**
 
-the [[real]]s are a [[metric space#completion]] of the [[rational]]s with the [[real#absolute value]] [[metric space#metric]]. see [[p-adic]]
+the [[real]]s are a [[metric space#completion]] of the [[rational]]s with the [[real#absolute value]] [[metric space#metric]] see [[p-adic]]
 
 ## Absolute Value
 
@@ -20,12 +20,8 @@ _the [[distance]] between a [[real]] to zero_
 
 **see** [[field#absolute value]], [[p-adic#absolute value]]
 
-**notation**
+**notation** **`(:^^.) x`** with **`RR x`**
 
-**`||x||`** with **`RR x`**
-
-**definition**
-
-**`||x|| = {.x, x} (x |- 0)`**
+**definition** **`(:^^.) x`**
 
 > **note** the [[real#absolute value]] follows the [[field#absolute value]] [[axiom]]s

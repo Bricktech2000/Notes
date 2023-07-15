@@ -16,11 +16,11 @@ _time complexity, space complexity_
 
 **properties**
 
-let **`0 {-|/\+} ww {-|/\+} 1`** and let **`b {|-/\+} 1`**
+let **`0 (-|/\+) ww (-|/\+) 1`** and let **`b (|-/\+) 1`**
 
-**`O ->1 < O //.\\ < O /.\ < O /.\2 < O [*]ww < O {*} < O {| /.\} < O [*]b < O b[*] < O PP < O {[.] *}`**
+**`O ->1 < O //.\\ < O /.\ < O /.\2 < O [*]ww < O (*) < O (| /.\) < O [*]b < O b[*] < O PP < O ([.] *)`**
 
-**`O cf = O f > RR c /\ c {|-/\+} 0`**
+**`O cf = O f > RR c /\ c (|-/\+) 0`**
 
 **`O fg f_* g_* > O f f_* /\ O g g_*`**
 

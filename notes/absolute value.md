@@ -2,6 +2,10 @@
 
 **see** [[math notation]]
 
+**notation** **`"abs"`**
+
+**definition** **`"abs" = {:\/.}`**
+
 [[absolute value]]s can be defined as a [[function#piecewise function]]
 
 > **procedure** _solving an absolute value equality_ solve by cases
@@ -10,10 +14,10 @@
 
 **properties**
 
-**`||x|| -| t == .t -| x -| t`**
+**`"abs" x -| t == .t -| x -| t`**
 
-**`||x|| |- t == x |- t \/ x |- .t`**
+**`"abs" x |- t == x |- t \/ x |- .t`**
 
-_triangle inequality_ **`||a : b|| -| ||a|| : ||b|| > RR a /\ RR b`**
+_triangle inequality_ **`"abs" (a:b) -| "abs" a : "abs" b > R a /\ RR b`**
 
 > **equivalence** _[[absolute value]] triangle inequality and [[relation#transitive relation]]_

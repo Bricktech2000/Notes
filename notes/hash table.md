@@ -10,9 +10,9 @@ time [[computational complexity]]:
 
 |        | Average     | Worst       |
 | ------ | ----------- | ----------- |
-| Insert | **`O ->1`** | **`O {*}`** |
-| Remove | **`O ->1`** | **`O {*}`** |
-| Lookup | **`O ->1`** | **`O {*}`** |
+| Insert | **`O ->1`** | **`O (*)`** |
+| Remove | **`O ->1`** | **`O (*)`** |
+| Lookup | **`O ->1`** | **`O (*)`** |
 
 > **note** time [[computational complexity]] is **`O ->1`** only if the [[hash]] [[function]] is uniform
 
@@ -28,7 +28,7 @@ let a [[list]] of **`n`** **buckets** (such as a [[list]], a [[tree]], a [[set]]
 >
 > given a key **`k`** and a [[hash]] [[function]] **`H`**,
 >
-> 1. return **`H k "mod" n`**
+> 1. return **`"mod" n (H k)`**
 
 > **procedure** _inserting into a hash table_
 >
@@ -68,13 +68,13 @@ let a [[probing]] [[function]] **`P`** be used to find the next element to probe
 >
 > given a key **`k`** and a [[hash]] [[function]] **`H`**,
 >
-> 1. return **`H k "mod" n`**
+> 1. return **`"mod" n (H k)`**
 
 > **procedure** _computing **`i`**th value in a probing sequence_
 >
 > given a probing sequence index **`i`** and a key **`k`**:
 >
-> 1. return **`H k : P i k "mod" n`**
+> 1. return **`"mod" n (H k : P i k)`**
 
 > **procedure** _inserting into a hash table_
 >

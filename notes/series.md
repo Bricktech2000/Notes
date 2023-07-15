@@ -37,7 +37,7 @@ let **`:b = b^0 : b^1 : b^2 : ...`**
 
 **definition** a [[series]] is said to _converge_ if its [[series#sequence of partial sums]] converges. otherwise, it is said to _diverge_.
 
-**definition** a [[series]] **`:a`** is said to be _absolutely convergent_ (_absolute convergence_) if the [[series]] **`:||a|| == ||a^0|| : ||a^1|| : ...`** converges
+**definition** a [[series]] **`:a`** is said to be _absolutely convergent_ (_absolute convergence_) if the [[series]] **`: "abs" a`** converges
 
 **definition** a [[series]] is said to be _conditionally convergent_ (_conditional convergence_) if it is _convergent_ but not _absolutely convergent_
 
@@ -89,7 +89,7 @@ _useful for [[series]] containing factorials and a geometric part and for [[seri
 
 **theorem** _Ratio Test_
 
-let **`b`** be a [[series]] and let **`L = ||b^n:1 -- b^n|| {n -> @@}`**. then,
+let **`b`** be a [[series]] and let **`L = "abs" (b^n:1 -- b^n) {n -> @@}`**. then,
 
 - if **`L {-|/\+} 1`**, **`b`** is absolutely convergent and therefore also convergent
 - if **`L {|-/\+} 1`** or **`L = @@`**, **`b`** is divergent
@@ -140,8 +140,8 @@ _useful for converting a [[function]] to a [[series#power series]], or vice vers
 
 _convergence_ a [[series#geometric series]] **`b^0 r0 : b^0 r1 : ...`** with **`b^0 + 0`**:
 
-- converges to **`b^0 -- 1.r`** if **`||r|| {-|/\+} 1 /\ r + 0`**
-- diverges if **`||r|| |- 1`**
+- converges to **`b^0 -- 1.r`** if **`"abs" r {-|/\+} 1 /\ r + 0`**
+- diverges if **`"abs" r |- 1`**
 - no conclusion can be drawn if **`r = 0`**
 
 > **proof**
@@ -160,8 +160,8 @@ _convergence_ a [[series#geometric series]] **`b^0 r0 : b^0 r1 : ...`** with **`
 >
 > taking the [[limit]] to compute the value at which the [[series]] converges,
 >
-> - if **`||r|| {-|/\+} 1 /\ r + 0`**, then **`S^@@ = b^0 -- 1 . r`**, the [[series]] converges
-> - if **`||r|| |- 1 /\ r + 1`**, then **`S^@@ = {@@ \/ .@@}`**, the [[series]] diverges
+> - if **`"abs" r {-|/\+} 1 /\ r + 0`**, then **`S^@@ = b^0 -- 1 . r`**, the [[series]] converges
+> - if **`"abs" r |- 1 /\ r + 1`**, then **`S^@@ = {@@ \/ .@@}`**, the [[series]] diverges
 >
 > if **`r = 0 \/ r = 1`**, the above definition of **`S^n`** does not necessarily hold, see [[improved expression evaluation]]. therefore, we must use the definition
 >

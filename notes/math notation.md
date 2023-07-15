@@ -45,8 +45,8 @@ let:
 - **`f, g, h`** represent a [[function]]
 - **`A`** represent a [[sequence]]
 - **`B`** represent a [[series]]
-- **`a, b`** represent any mathematical object
-- **`A, B`** represent any mathematical object with rank greater than **`1`**
+- **`a, b, c`** represent any mathematical object
+- **`A, B, C`** represent any mathematical object with rank greater than **`1`**
 - **`n, i`** represent a [[natural]]
 - **`b`** represent a [[boolean]]
 - **`ww, ff`** represent a [[number]]
@@ -100,7 +100,8 @@ let:
 | **`A^i`** <br /> **`B^i`** <br /> **`V^n`** <br /> **`P^b`** | **`A i`** <br /> **`B i`** <br /> **`V n`** <br /> **`P b`** | to be used for indices                         |
 | **`M^i,j`** <br /> **`G^a,b`**                               | **`M i j`** <br /> **`G a b`**                               | to be used for indices                         |
 | **`S a`** <br /> **`M_*  a`** <br /> **`G a`**               | **`S a`** <br /> **`M_*  a`** <br /> **`G a`**               | to be used for membership                      |
-| **`{\*}`**                                                   | **`\*`** as a [[prefix notation]] [[operator]]               | works with any [[operator]]                    |
+| **`(\*)`**                                                   | **`\*`** as a unary [[prefix notation]] [[operator]]         | works with any [[operator]]                    |
+| **`{\*}`**                                                   | **`\*`** as a binary [[prefix notation]] [[operator]]        | works with any [[operator]]                    |
 | **`@`**                                                      | _undefined_                                                  | see [[improved expression evaluation]]         |
 | **`@@`**                                                     | _infinity_                                                   |                                                |
 | **`__`**                                                     | [[boolean]] _false_                                          |                                                |
@@ -108,13 +109,14 @@ let:
 | **`tt`**                                                     | [[tau]], the [[circle]] constant                             |                                                |
 | **`ee`**                                                     | [[euler's constant]]                                         |                                                |
 | **`ii`**                                                     | the [[imaginary unit]]                                       | using **`i`** is discouraged                   |
-| **`PP`**                                                     | the [[pi function]]                                          | using **`"fact"`** is discouraged              |
+| **`PP`**                                                     | the [[pi function]]                                          | using **`"fact"`** and **`GG`** is discouraged |
 | **`#`**                                                      | the number of "links" in a [[function]]                      | #todo define rigorously                        |
 | **`yy`**                                                     | the [[psi function]]                                         |                                                |
 | **`rr`**                                                     | the [[combinator#c combinator]]                              | equivalent to [[matrix#transpose]]             |
-| **`f {a g b}`**                                              | the [[combinator#psi combinator]]                            |                                                |
-| **`{g f h} a`**                                              | the [[combinator#phi combinator]]                            |                                                |
-| **`a {g f h} b`**                                            | the [[combinator#phi1 combinator]]                           |                                                |
+| **`f {a g b}`** <br /> **`{.} f g a b`**                     | the [[combinator#psi combinator]]                            |                                                |
+| **`f {a g b} c`** <br /> **`{{.}} f g a b`**                 | #todo define                                                 |                                                |
+| **`(g f h) a`** <br /> **`(.) f g h a`**                     | the [[combinator#phi combinator]]                            |                                                |
+| **`a (g f h) b`** <br /> **`((.)) f g h a b`**               | the [[combinator#phi1 combinator]]                           |                                                |
 
 ### shorthands
 
@@ -145,26 +147,50 @@ let:
 | **`A \* B`**                     | **`x -> A x \* B x`**                                              | see [[rank polymorphism]]                                   |
 | **`A \* a`** <br /> **`a \* A`** | **`x -> A x \* a`** <br /> **`x -> a \* A x`**                     | see [[rank polymorphism]]                                   |
 | **`f g *`**                      | **`x -> f (g x)`**                                                 | **`*`** is a "hole" #todo define rigorously                 |
-| **`{*}`**                        | the [[combinator#i combinator]]                                    | equivalent to [[composition#identity]]                      |
+| **`(*)`**                        | the [[combinator#i combinator]]                                    | equivalent to [[composition#identity]]                      |
 | **`{f g} a`**                    | **`{f <- g} a`**                                                   | equivalent to [[combinator#s combinator]]                   |
 | **`f {a b}`**                    | **`f {a <- b}`**                                                   |                                                             |
 | **`""math""`**                   | **`(''m'', ''a'', ''t'', ''h'')`**                                 | see [[string]], [[list]]                                    |
 
-#think **`x = y`** has been taken to mean **`/\ {x = y}`** whereas **`x : y`** means **`{x : y}`** and so should **`x = y`**, see <https://www.cs.utexas.edu/users/EWD/transcriptions/EWD13xx/EWD1300.html>
+h (f (g x)) (f (i x))
 
-#todo get rid of **`"abs" == x -> ||x||`** and replace in [[metric space]] examples
+#think **`x = y`** has been taken to mean **`/\ {x = y}`** whereas **`x : y`** means **`{x : y}`** and so should **`x = y`**, see <https://www.cs.utexas.edu/users/EWD/transcriptions/EWD13xx/EWD1300.html>
 
 #think **`{<-} f x`** and **`{*} f x`** are both the [[composition#identity]]
 
-#think **`__`** and **`^^`** used as both [[boolean]]s ad [[boolean algebra#operators]]
+#think **`__`** and **`^^`** used as both [[boolean]]s and [[boolean algebra#operators]]
+
+```
+x (^^) b
+```
+
+**`x = II`** **`x = OO`**
+
+**`x = I`** **`x = O`**
+
+**`x = "I"`** **`x = "O"`**
+
+**`1 "1" 0 "0"`**
 
 #think is **`...`** necessary?
 
-#think [[combinator#psi combinator]] and [[combinator#phi combinator]] notations are ambiguous
+#todo get rid of remaining **`||`**s
+
+#todo get rid of **`"re"`** and **`"im"`** in [[complex]]
+
+**`"abs"`** in **`RR`**, could be replaced with **`(:\/.)`**
+
+**`"abs"`** in **`CC`**, could be replaced with **`(\re2:im2/)`**
+
+**`"conj"`** in **`CC`**, could be replaced with **`(re.iiim)`**
+
+**`"arg"`** in **`CC`**
+
+**`"abs"^p`** in **`QQ^p`**
+
+**`\:*2/`** in **`RR^n`**
 
 #think [[combinator#phi1 combinator]] is in [[infix notation]] whereas the others are not
-
-#think should **`"mod"`** be infix? should there exist [[infix notation]] [[string]] [[operator]]s?
 
 #think inverses of [[function]] application and abstraction:
 
@@ -191,7 +217,21 @@ f g * *
 x y -> f (g x y)
 ```
 
+#todo get rid of `"approx"`
+
+fixed #todo update:
+
+- [[combinator#psi combinator]] and [[combinator#phi combinator]] notations are ambiguous, see [[real#absolute value]]
+
 ### precedence and associativity
+
+already updated:
+
+- should **`"mod"`** be infix? should there exist [[infix notation]] [[string]] [[operator]]s?
+- [[complex#conjugate]]
+- [[real#absolute value]]
+- [[mean]]
+- `O {`
 
 **see** [[infix notation#precedence]], [[infix notation#associativity]]
 
@@ -200,20 +240,15 @@ x y -> f (g x y)
 | **`( ) (( )) { } {{ }} [] [] ww x_"sub"`** | highest    |               |
 | **`\./ [.] /.\ x^a`**                      | ...        | left          |
 | **`' -`**                                  | ...        | left          |
-| **`dd "sin" # \* <-`**                     | ...        | left          |
+| **`dd # \* <-`**                           | ...        | left          |
 | **`: .`**                                  | ...        | left          |
 | **`\| --`**                                | ...        | left          |
-| **`$ { } ... -> "mod"`**                   | ...        | right         |
+| **`$ { } ... ->`**                         | ...        | right         |
 | **`__ ^^`**                                | ...        | left          |
 | **`= -\| \|- +`**                          | ...        | AND           |
 | **`/\ \/`**                                | ...        | left          |
 | **`== < > ><`**                            | ...        | AND           |
 | **`,`**                                    | lowest     |               |
-
-> **note** above,
->
-> - **`"sin"`** represents any text [[operator]] in [[prefix notation]]
-> - **`"mod"`** represents any text [[operator]] in [[infix notation]]
 
 > **note** unary [[operator]]s have identical [[infix notation#precedence]] to their binary counterparts but are right associative
 
@@ -233,8 +268,9 @@ x y -> f (g x y)
 | definition of the [[matrix#trace]]           | **`:{A *}`**                               | $\displaystyle \operatorname{tr}(A) = \sum_{i=1}^n a_{ii}$                                               |
 | definition of the [[outer product]]          | **`x * \| y *`**                           | $\displaystyle (x \otimes y)_{i, j}  = x_i \times y_j$                                                   |
 | definition of the [[cartesian product]]      | **`__ (X, Y) *`**                          | $\displaystyle X \times Y = \lbrace (x, y) \mid x \in X \text{ and } y \in Y \rbrace$                    |
-| definition of [[vector in rn#magnitude]]     | **`\|\|v\|\| = \:v2/`**                    | $\displaystyle \vert v \vert = \sqrt{x^2 + y^2 + \dots}$ with $v = (x, y, \dots)$                        |
+| definition of [[vector in rn#magnitude]]     | **`\:v2/`**                                | $\displaystyle \vert v \vert = \sqrt{v_x^2 + v_y^2 + \dots}$                                             |
 | definition of [[set]] difference             | **`A /\ +B`**                              | $\displaystyle A \setminus B = \{x : x \in A \text{ and } x \notin B\}$                                  |
 | the [[activation function#softmax function]] | **`ss^i z = [z^i] -- :[z]`**               | $\displaystyle \sigma(s)_c = \frac{\exp(s_c)}{\sum_{c'} \exp(s_{c'})}$                                   |
-| the [[p-adic#absolute value]]                | **`\|\|n\|\|^p = --p[yy n p]`**            | not really doable in a concise way without using plain English                                           |
+| definition of [[information entropy]]        | **`H = :PI`**                              | $\displaystyle H(X) = \sum_{i=1}^n P(x_i) \cdot I(x_i)$                                                  |
+| the [[p-adic#absolute value]]                | **`"abs"^p n = --p[yy n p]`**              | not really doable in a concise way without using plain English                                           |
 | the **`n`**th column of a [[matrix]]         | **`rr M n`**                               | $(M^\intercal)_n$ or $\operatorname{col}_n(M)$ or $M_{\cdot j}$ &mdash; nothing standard                 |

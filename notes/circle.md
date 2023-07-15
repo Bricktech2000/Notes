@@ -6,4 +6,4 @@ _the circumference of a [[disk]]_
 
 **`[x.h]2 : [y.k]2 -- r2 = 1`** or equivalently **`[x.h]2 : [y.k]2 = r2`**
 
-**`||(x, y)|| = r`**
+**`\:(x, y)2/ = r`**

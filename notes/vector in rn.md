@@ -32,17 +32,15 @@ _multiplication by a [[scalar]]_ **`c(a, b) == (ca, cb) > RR c`**
 
 **see** [[dot product]]
 
-**definition**
-
-**`||V|| = \:V2/`**, where
+**definition** **`\:V2/`**
 
 ### Unit Vector
 
 **definition**
 
-a _unit vector_ is a [[vector in rn]] **`V`** such that **`||V|| = 1`**
+a _unit vector_ is a [[vector in rn]] **`V`** such that **`\:V2/ = 1`**
 
-a [[vector in rn]] can be _normalized_ (scaled into into a [[vector in rn#unit vector]]) through **`{*--||||}`**
+a [[vector in rn]] can be _normalized_ (scaled into into a [[vector in rn#unit vector]]) through **`{*--\:*2/}`**
 
 ## Angle
 
@@ -50,13 +48,13 @@ _angle between two [[vector in rn]]s_
 
 **definition**
 
-**`"cos" aa = :ab -- ||a||||b||`**, see [[dot product]] #magic
+**`"cos" aa = :ab -- \:a2/ \:b2/`**, see [[dot product]] #magic
 
-> **note** use **`"cos" aa = ||:ab|| -- ||a||||b||`** to always get the acute angle solution
+> **note** use **`"cos" aa = "abs" :ab -- \:a2/ \:b2/`** to always get the acute angle solution
 
 **definition**
 
-**`"sin" aa = (a "cross" b) -- ||a||||b||`**, see [[cross product]] #magic
+**`"sin" aa = (a "cross" b) -- \:a2/ \:b2/`**, see [[cross product]] #magic
 
 ### Orthogonal Vectors
 
@@ -78,7 +76,7 @@ _a pair of vectors offset by **`-4tt "rad"`**_
 
 _a pair of parallel vectors_
 
-**definition** **`u`** and **`v`** are _colinear_ if and only if **`:uv = ||u||||v||`**, see [[dot product]]
+**definition** **`u`** and **`v`** are _colinear_ if and only if **`:uv = \:u2/ \:v2/`**, see [[dot product]]
 
 **definition** **`u`** and **`v`** are _colinear_ if and only if **`u = kv`** given a [[scalar]] **`k`**
 
@@ -96,13 +94,13 @@ _The scalar projection is equal to the [[vector in rn#magnitude]] of the [[vecto
 
 **definition** _projection onto another [[vector]]_
 
-**`||"proj"^b a|| = ||a|| "cos" aa`**, and
+**`\:("proj"^b a)2/ = \:a2/ "cos" aa`**, and
 
-**`"proj"^b a = ||a|| "cos" aa | b_* = :ab_* | b_* = :ab -- :b2 | b`** (see [[dot product]]), where
+**`"proj"^b a = \:a2/ "cos" aa | b_* = :ab_* | b_* = :ab -- :b2 | b`** (see [[dot product]]), where
 
 - **`"proj"^b a`** is the _vector projection of **`a`** on **`b`**_
-- **`||"proj"^b a||`** is the _scalar projection of **`a`** on **`b`**_
-- **`b_*`** is the [[vector in rn#unit vector]] in the direction of **`b`**, **`b -- ||b||`**
+- **`\:("proj"^b a)2/`** is the _scalar projection of **`a`** on **`b`**_
+- **`b_*`** is the [[vector in rn#unit vector]] in the direction of **`b`**, **`{*--||||} b`**
 
 **definition** _projection onto a [[vector space]]_
 

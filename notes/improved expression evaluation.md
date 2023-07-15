@@ -113,7 +113,7 @@ in order to avoid breaking **`0[0] = 1`** (see Wikipedia article), we must defin
 
 ### attempt with [[integral]]s and [[logarithm]]s
 
-using the [[logarithm]] [[antiderivative]] rule, **`$ 1 -- x | dd x = /||x||\ : c x`**. then, using the power [[antiderivative]] rule, **`$ 1 -- x | dd x = $ x[.1] | dd x = x[qq]-q : c`**. with **`c = .1 -- qq`**, we get **`/x\ = x[qq] . 1 -- qq`**
+using the [[logarithm]] [[antiderivative]] rule, **`$ 1 -- x | dd x = /"abs" x\ : c x`**. then, using the power [[antiderivative]] rule, **`$ 1 -- x | dd x = $ x[.1] | dd x = x[qq]-q : c`**. with **`c = .1 -- qq`**, we get **`/x\ = x[qq] . 1 -- qq`**
 
 ### exponents and square roots
 

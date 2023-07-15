@@ -52,13 +52,13 @@
 >
 > &mdash; <https://youtu.be/qb40J4N1fa4?t=762>
 
-**`dd /||x||\ -- dd x = --x`**
+**`dd /"abs" x\ -- dd x = --x`**
 
 > **proof** define as a [[function#piecewise function]] and compute both [[derivative]]s
 
-**`dd ( /||x||\ : c x) -- dd x = --x`** and therefore
+**`dd ( /"abs" x\ : c x) -- dd x = --x`** and therefore
 
-**`$ --x | dd x = /||x||\ : c x`** where **`c x = {c_0, c_1} (x -| 0)`**
+**`$ --x | dd x = /"abs" x\ : c x`** where **`c x = {c_0, c_1} (x -| 0)`**
 
 > **proof** &mdash; <https://youtu.be/u4kex7hDC2o>
 
