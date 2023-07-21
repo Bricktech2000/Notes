@@ -41,8 +41,6 @@ float Q_rsqrt(float number)
 
 ## explanation
 
-let **`a  "approx"  b`** mean that **`a`** is approximately equal to **`b`**, with identical precedence to **`=`** and with _AND_ associativity. see [[math notation]]
-
 ### floating-point bit representation
 
 **aka** _evil floating point bit level hacking_
@@ -59,15 +57,15 @@ let **`x = 2[e_x] | m_x`**. assuming **`x |- 0`** and **`1 -| m_x -| 2`**, accor
 
 let **`y = -- \x/`**. since square roots and divisions are expensive to compute, we derive **`/y\ 2 = .-2 /x\ 2`**. we need to look for an efficient way to compute base-2 [[logarithm]]s
 
-given **`x = 2[e_x] | m_x`**, **`/x\ 2 = e_x : /m_x\ 2`**. since **`1 -| m_x -| 2`**, a common approximation can be used, **`/m_x\ 2  "approx"  m_x . 1 : ss`** where **`ss`** is a free parameter used to tune the approximation. therefore, **`/x\ 2  "approx"  e_x : m_x . 1 : ss`**
+given **`x = 2[e_x] | m_x`**, **`/x\ 2 = e_x : /m_x\ 2`**. since **`1 -| m_x -| 2`**, a common approximation can be used, **`/m_x\ 2 ~ m_x . 1 : ss`** where **`ss`** is a free parameter used to tune the approximation. therefore, **`/x\ 2 ~ e_x : m_x . 1 : ss`**
 
-given **`i_x = L(e_x : B) : L(m_x . 1)`**, we get **`i_x = L(e_x : B : m_x . 1) = L(e_x : m_x . 1 : ss : B . ss)  "approx"  L /x\ 2 : L(B . ss)`**. solving, we get **`/x\ 2  "approx"  -Li_x . (B . ss)`**; in other words, the [[ieee 754]] bit representation of a [[floating point]] number is approximately its own [[logarithm]] up to constant scaling and shifting
+given **`i_x = L(e_x : B) : L(m_x . 1)`**, we get **`i_x = L(e_x : B : m_x . 1) = L(e_x : m_x . 1 : ss : B . ss) ~  L /x\ 2 : L(B . ss)`**. solving, we get **`/x\ 2 ~ -Li_x . (B . ss)`**; in other words, the [[ieee 754]] bit representation of a [[floating point]] number is approximately its own [[logarithm]] up to constant scaling and shifting
 
 ### inverse square root
 
 **aka** _what the fuck_
 
-substituting the above into **`/y\ 2 = .-2 /x\ 2`**, we get **`-Li_y . (B . ss)  "approx"  .-2 | -Li_x . (B . ss)`**. thus, **`i_y  "approx"  3-2L(B . ss) . -2i_x`**, which is written in code as follows, in which the magic `0x5f3759df` is derived from the value of **`3-2L(B . ss)`** with **`ss  "approx"  0 0450466-10000000`**:
+substituting the above into **`/y\ 2 = .-2 /x\ 2`**, we get **`-Li_y . (B . ss) ~ .-2 | -Li_x . (B . ss)`**. thus, **`i_y ~ 3-2L(B . ss) . -2i_x`**, which is written in code as follows, in which the magic `0x5f3759df` is derived from the value of **`3-2L(B . ss)`** with **`ss ~ 0 0450466-10000000`**:
 
 ```c
 i = 0x5f3759df - (i >> 1);

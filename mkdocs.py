@@ -132,6 +132,8 @@ def parse_math(string):
   string = re.sub(r'\]', r']', string)
   string = re.sub(r'->|\s->\s', r'&BSrightarrow&SPACE', string)
   string = re.sub(r'<-|\s<-\s', r'&BSleftarrow&SPACE', string)
+  string = re.sub(r'~~|\s~~\s', r'&BSsim&BS!&BSsim&SPACE', string)
+  string = re.sub(r'~|\s~\s', r'&BSsim&SPACE', string)
   string = re.sub(r'==|\s==\s', r'=&BS!=', string)
   string = re.sub(r'=|\s=\s', r'=', string)
   string = re.sub(r'\+|\s\+\s', r'+', string)

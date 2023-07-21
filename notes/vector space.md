@@ -33,7 +33,7 @@
 
 **definition**
 
-let a [[vector space]] **`V`** be a [[set]] of [[vector]]s. all of the following [[axiom]]s must be satisfied for all **`V u /\ V v /\ V w /\ RR c /\ RR d`** for **`V`** to be a [[vector space]]:
+let a [[vector space]] **`V`** be a [[set]] of [[vector]]s. all of the following [[axiom]]s must be satisfied for all **`V {u /\ v /\ w} /\ RR {c /\ d}`** for **`V`** to be a [[vector space]]:
 
 _closure under addition_ **`V (u : v)`**
 
@@ -103,11 +103,11 @@ there are three major ways of describing [[vector space]]s
 
 ### [[vector]] with restrictions
 
-**`V v == v = (x, y, z) /\ x . 2y : z = 0 > RR x /\ RR y /\ RR z`**
+**`V v == v = (x, y, z) /\ x . 2y : z = 0 > RR {x /\ y /\ z}`**
 
 ### [insert name here]
 
-**`V v == v = (2y . z, y, z) > RR y /\ RR z`**
+**`V v == v = (2y . z, y, z) > RR {y /\ z}`**
 
 ### as a [[linear combination]]
 

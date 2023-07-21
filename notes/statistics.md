@@ -3,3 +3,5 @@
 **see**
 
 [[inferential statistics]]
+
+[[probability]]

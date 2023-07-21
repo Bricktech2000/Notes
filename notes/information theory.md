@@ -14,6 +14,8 @@
 
 [[information entropy]]
 
+[[inference coding]]
+
 #todo
 
 weighing game, information content, entropy (lecture 3 start)

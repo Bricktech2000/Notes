@@ -6,7 +6,7 @@ _the [[set]] of [[rational]] numbers_
 
 **definition**
 
-**`QQ x == x = a-b /\ ZZ a /\ ZZ b /\ b + 0`** (restriction not necessary, see [[improved expression evaluation]])
+**`QQ x == x = a-b /\ ZZ {a /\ b} /\ b + 0`** (restriction not necessary, see [[improved expression evaluation]])
 
 **properties**
 

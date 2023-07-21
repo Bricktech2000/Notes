@@ -87,6 +87,7 @@ let:
 | **`/a\ b`** <br /> **`/.\ b a`**                             | the base-**`b`** [[logarithm]] of **`a`**                    |                                                |
 | **`x -> a`**                                                 | [[function]] abstraction                                     | **`f = x -> a == f <- x = a`**                 |
 | **`f <- a`**                                                 | [[function]] application                                     | longhand discouraged                           |
+| **`a ~ b`** <br /> **`a ~~ b`**                              | whether **`a`** is similar to **`b`**                        | _similar_ as in _approximately equal to_       |
 | **`a = b`** <br /> **`a == b`**                              | whether **`a`** is equal to **`b`**                          | equivalent to [[boolean algebra#equivalence]]  |
 | **`a + b`** <br /> **`a >< b`**                              | whether **`a`** is different from **`b`**                    | equivalent to [[boolean algebra#exclusive or]] |
 | **`a -\| b`** <br /> **`a < b`**                             | whether **`a`** is at most **`b`**                           | equivalent to [[boolean algebra#implication]]  |
@@ -114,7 +115,7 @@ let:
 | **`yy`**                                                     | the [[psi function]]                                         |                                                |
 | **`rr`**                                                     | the [[combinator#c combinator]]                              | equivalent to [[matrix#transpose]]             |
 | **`f {a g b}`** <br /> **`{.} f g a b`**                     | the [[combinator#psi combinator]]                            |                                                |
-| **`f {a g b} c`** <br /> **`{{.}} f g a b`**                 | #todo define                                                 |                                                |
+| **`f {a g b} c`** <br /> **`{{.}} f g a b`**                 | **`g (f (a c)) (f (b c))`** #think                           |                                                |
 | **`(g f h) a`** <br /> **`(.) f g h a`**                     | the [[combinator#phi combinator]]                            |                                                |
 | **`a (g f h) b`** <br /> **`((.)) f g h a b`**               | the [[combinator#phi1 combinator]]                           |                                                |
 
@@ -204,6 +205,8 @@ f <- x = y == f = x -> y == f ? y = x
 y ?? f = x ==  y = f x   == y ?? x = f
 ```
 
+#todo when found inverse of function application2 fix [[trigonometric function#inverse functions]] and [[function#inverse]] and others
+
 #think formally define **`*`**, see [[set#power set]]:
 
 ```
@@ -217,8 +220,6 @@ f g * *
 x y -> f (g x y)
 ```
 
-#todo get rid of `"approx"`
-
 fixed #todo update:
 
 - [[combinator#psi combinator]] and [[combinator#phi combinator]] notations are ambiguous, see [[real#absolute value]]
@@ -228,6 +229,8 @@ fixed #todo update:
 already updated:
 
 - should **`"mod"`** be infix? should there exist [[infix notation]] [[string]] [[operator]]s?
+- update **`/\ RR x /\ RR y`** and **`/\ NN m /\ NN n`** notations to use the [[combinator#psi combinator]]
+- get rid of `"approx"`
 - [[complex#conjugate]]
 - [[real#absolute value]]
 - [[mean]]
@@ -245,9 +248,9 @@ already updated:
 | **`\| --`**                                | ...        | left          |
 | **`$ { } ... ->`**                         | ...        | right         |
 | **`__ ^^`**                                | ...        | left          |
-| **`= -\| \|- +`**                          | ...        | AND           |
+| **`~ = -\| \|- +`**                        | ...        | AND           |
 | **`/\ \/`**                                | ...        | left          |
-| **`== < > ><`**                            | ...        | AND           |
+| **`~~ == < > ><`**                         | ...        | AND           |
 | **`,`**                                    | lowest     |               |
 
 > **note** unary [[operator]]s have identical [[infix notation#precedence]] to their binary counterparts but are right associative
@@ -259,7 +262,7 @@ already updated:
 | description                                  | in this [[math notation]]                  | in [[conventional math notation]]                                                                        |
 | -------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | the [[quadratic formula]]                    | **`x = .b : \b2.4ac/ -- 2a`**              | $\displaystyle x_{1, 2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$                                            |
-| definition of [[complex]] numbers            | **`CC x == x = a : bii /\ RR a /\ RR b`**  | $\displaystyle \mathbb C = \{a + bi : a, b \in \mathbb R\}$                                              |
+| definition of [[complex]] numbers            | **`CC x == x = a : bii /\ RR {a /\ b}`**   | $\displaystyle \mathbb C = \{a + bi : a, b \in \mathbb R\}$                                              |
 | the [[gaussian function]]                    | **`G^ss p = -- ss \tt/ -- [:p2 -- 2ss2]`** | $\displaystyle G(x, y, \dots) = \frac{1}{\sqrt{2 \pi\sigma^2}} e^{-\frac{x^2 + y^2 + \dots}{2\sigma^2}}$ |
 | [[limit]] form of a [[derivative]]           | **`f x . f a -- x . a {x -> a}`**          | $\displaystyle \lim_{h \rightarrow 0} \frac{f(x + h) - f(x)}{h}$                                         |
 | definition of factorials                     | **`"fact" n = 1 \| ... n`**                | $\displaystyle n! = \prod_{i = 1}^n i$                                                                   |

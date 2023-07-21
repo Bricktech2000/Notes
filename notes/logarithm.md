@@ -21,7 +21,7 @@
 
 **`/1\ n = 0 > n + 0`**
 
-_inverse_ **`/--x\ = . /x\`** (see [[improved expression evaluation]])
+_reciprocal_ **`/--x\ = . /x\`** (see [[improved expression evaluation]])
 
 _product rule_ **`/x | y\ = /x\ : /y\`**
 
@@ -32,6 +32,8 @@ _power rule_ **`/[x]n\ = n /x\`**
 _reciprocality with [[exponent]]ials_ **`/b[x]\ b = x`**
 
 _reciprocality with [[exponent]]ials_ **`b[/x\ b] = x`**
+
+_[[function#multivalued function]]_ **`/x\ b = /x\ b : iitt - /b\`** &mdash; me (see [[improved expression evaluation]])
 
 ## common bases
 

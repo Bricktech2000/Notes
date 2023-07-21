@@ -6,7 +6,7 @@ _the [[set]] of [[complex]] numbers_
 
 **definition**
 
-**`CC x == x = a : bii /\ RR a /\ RR b`**
+**`CC x == x = a : bii /\ RR {a /\ b}`**
 
 **notations**
 
@@ -66,7 +66,7 @@ then, **`(re.iiim) z = a . bii = z^re . iiz^im`** is the _complex conjugate_ of 
 
 **properties**
 
-let **`CC z /\ CC w /\ RR c`**
+let **`CC {z /\ w} w /\ RR c`**
 
 **`(re.iiim) (z : w) = (re.iiim) z : (re.iiim) w`**
 
@@ -94,7 +94,7 @@ let **`CC z /\ CC w /\ RR c`**
 
 **properties**
 
-let **`CC z /\ CC w /\ RR c`**
+let **`CC {z /\ w} /\ RR c`**
 
 **`"abs" z = "abs" (re.iiim) z`**
 

@@ -11,6 +11,7 @@ _suboptimal [[system]]s, [[tool]]s and [[concept]]s that have too high of a [[sw
 > - the [[markdown]] language
 > - ANSI paper sizes (Letter, Legal, Tabloid...)
 > - the QWERTY layout
+> - bash and other shell languages
 
 > **examples** _superior alternatives_
 >
