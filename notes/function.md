@@ -95,6 +95,12 @@ _an odd function is symmetrical about the y axis, but also flipped about the x a
 
 **definition** above, **`p`** is said to be the _period_ of **`f`**
 
+## Multivalued Function
+
+**definition** a [[function]] is _multivalued_ if it maps a single input to multiple outputs
+
+#todo link with [[improved expression evaluation]] suporpositions
+
 ## Increasing Function
 
 ## Decreasing Function

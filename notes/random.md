@@ -850,3 +850,9 @@ The alpha value remains unchanged from the previous pixel.
 The run-length is stored with a bias of `-1`. Note that the run- lengths `63` and `64` (`0b111110` and `0b111111`) are illegal as they are occupied by the `QOI_OP_RGB` and `QOI_OP_RGBA` tags.
 
 ---
+
+$a \sim b$ &emsp; $a \sim\!\sim b$
+
+$a = b$ &emsp; $a =\!= b$
+
+$a + b$ &emsp; $a \times b$

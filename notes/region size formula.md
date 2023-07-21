@@ -8,7 +8,7 @@
 
 > **example**
 >
-> in Canada, **`329 900 \$ -- 9 985-1000 "M""km"2`**, which is about **`33 \$ -- 1000 "km"2`**
+> in Canada, **`329 900 \$ -- 9 985-1000 "M""km"2 ~~ 33 \$ -- 1000 "km"2`**
 
 **applications**
 

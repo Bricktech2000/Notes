@@ -18,7 +18,7 @@ _continue below_
 
 using two direction [[vector in rn]]s on the [[plane]] **`d_0`** and **`d_1`** and a point **`p_0`**, we can derive the parametric equation of the [[plane]]
 
-**`P = p_0 : t_0 d_0 : t_1 d_1 /\ RR t_0 /\ RR t_1`**
+**`P = p_0 : t_0 d_0 : t_1 d_1 /\ RR {t_0 /\ t_1}`**
 
 ### plane from 2 vectors and point
 

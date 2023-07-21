@@ -193,7 +193,7 @@ _in [[conventional math notation]]_ $\backslash$
 
 **properties**
 
-identities below hold for all **`BB x /\ BB y`**
+identities below hold for all **`BB {x /\ y}`**
 
 _identity_ **`x \/ __ == x`**
 
@@ -217,7 +217,7 @@ _involution_ **`++x == x`**
 
 **properties**
 
-properties below hold for all **`BB x /\ BB y`**
+properties below hold for all **`BB {x /\ y}`**
 
 _commutativity_ **`x \/ y == y \/ x`**
 

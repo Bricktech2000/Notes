@@ -6,11 +6,11 @@
 
 **`ee`**
 
-**definition**
+**definition** _[[limit]]_
 
 **`ee = [1 : -n]n {n -> @@}`**
 
-**definition**
+**definition** _[[series#power series]]_
 
 **`[x] = {x[*]--PP} {0:...}`**
 

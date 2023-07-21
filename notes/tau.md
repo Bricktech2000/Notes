@@ -8,7 +8,7 @@ _the true [[circle]] constant_
 
 **definition** **`tt`** is the ratio of the circumference of a [[circle]] to its radius
 
-**definition** given a [[circle]] of radius **`r`** and of circumference **`C`**, **`tt = C -- r`**, or approximately **`6 28318530-100000000`**
+**definition** given a [[circle]] of radius **`r`** and of circumference **`C`**, **`tt = C -- r ~ 6 28318530-100000000`**
 
 **tradeoffs**
 

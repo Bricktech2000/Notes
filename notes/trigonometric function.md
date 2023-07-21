@@ -36,6 +36,16 @@ _[[function#odd function]]_ **`"tan" (.aa) = ."tan" aa`**
 
 **`y = "tan" x == x = "atan" y : -2ttn /\ ZZ n`**
 
+**properties**
+
+[[improved expression evaluation]] superposition #think
+
+_[[function#multivalued function]]_ **`"asin" x = "asin" x : tt = ."asin" (.x)`**
+
+_[[function#multivalued function]]_ **`"acos" x = "acos" x : tt = ."acos" x`**
+
+_[[function#multivalued function]]_ **`"atan" x = "atan" x : -2tt = ."atan" x`**
+
 ## reciprocal functions
 
 **see** [[function#reciprocal]]

@@ -34,7 +34,7 @@ lowercase and uppercase letters are offset by `0x20` or `0b00100000` or `' '`
 | `0x03` &bull; `0b00000011`        | ETX           | End of Text               |
 | `0x04` &bull; `0b00000100`        | EOT           | End of Transmission       |
 | `0x05` &bull; `0b00000101`        | ENQ           | Enquiry                   |
-| `0x06` &bull; `0b00000110`        | ACK           | Acknowledgment            |
+| `0x06` &bull; `0b00000110`        | ACK           | Acknowledge               |
 | `0x07` &bull; `0b00000111`        | BEL           | Bell                      |
 | `0x08` &bull; `0b00001000`        | BS            | Backspace                 |
 | `0x09` &bull; `0b00001001`        | HT            | Horizontal Tab            |
@@ -49,7 +49,7 @@ lowercase and uppercase letters are offset by `0x20` or `0b00100000` or `' '`
 | `0x12` &bull; `0b00010010`        | DC2           | Device Control 2          |
 | `0x13` &bull; `0b00010011`        | DC3           | Device Control 3          |
 | `0x14` &bull; `0b00010100`        | DC4           | Device Control 4          |
-| `0x15` &bull; `0b00010101`        | NAK           | Negative Acknowledgement  |
+| `0x15` &bull; `0b00010101`        | NAK           | Negative Acknowledge      |
 | `0x16` &bull; `0b00010110`        | SYN           | Synchronous Idle          |
 | `0x17` &bull; `0b00010111`        | ETB           | End of Transmission Block |
 | `0x18` &bull; `0b00011000`        | CAN           | Cancel                    |
