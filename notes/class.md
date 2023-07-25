@@ -2,10 +2,6 @@
 
 _the blueprint of an [[object]]_
 
-**definition** two [[class]]es are said to be _coupled_ if the implementation of one of them depends on the implementation of the other. this is to be avoided
+[[class]]es are used as a unit of [[abstraction]] in [[object-oriented programming]]
 
-**properties**
-
-an [[object]] has a state whereas a [[class]] does not
-
-[[class]]es are used as a unit of [[abstraction]] in [[object-oriented programming]], see [[object]]
+**properties** an [[object]] has state whereas a [[class]] does not

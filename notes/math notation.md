@@ -25,7 +25,7 @@ below are examples of a few design decisions following from these principles
   - the [[matrix#transpose]] of a [[graph]] yields its converse
   - [[markov chain]]s are their own transition matrix
 - some [[operator]]s are identical but have different [[infix notation#precedence]]. this reduces the number of parentheses required in expressions, making them easier to visually parse
-- [[rank polymorphism]] is supported over all [[operator]]s
+- [[polymorphism#rank polymorphism]] is supported over all [[operator]]s
 - all indices start at **`0`**, as they always should have
 - the [[circle]] constant is **`tt`**, and **`pp`** is to be avoided; see [[tau]]
 - this [[math notation]] is 1D; it takes up constant vertical space and can wrap at the end of a line
@@ -145,96 +145,101 @@ let:
 | **`a_0 \* a_1 \* ... a_n`**      | with **`n = 3`**, **`a_0 \* a_1 \* a_2 \* a_3`**                   | step size is **`1`** or **`.1`** if **`a_1 \*`** is omitted |
 | **`a_0 ... a_n`**                | with **`n = 3`**, **`a_0, a_1, a_2, a_3`**                         | step size is **`1`** or **`.1`** if **`a_1`** is omitted    |
 | **`@@`**                         | **`x {x -> @@}`**                                                  | **`@@`** in an expression is an implicit [[limit]]          |
-| **`A \* B`**                     | **`x -> A x \* B x`**                                              | see [[rank polymorphism]]                                   |
-| **`A \* a`** <br /> **`a \* A`** | **`x -> A x \* a`** <br /> **`x -> a \* A x`**                     | see [[rank polymorphism]]                                   |
+| **`A \* B`**                     | **`x -> A x \* B x`**                                              | see [[polymorphism#rank polymorphism]]                      |
+| **`A \* a`** <br /> **`a \* A`** | **`x -> A x \* a`** <br /> **`x -> a \* A x`**                     | see [[polymorphism#rank polymorphism]]                      |
 | **`f g *`**                      | **`x -> f (g x)`**                                                 | **`*`** is a "hole" #todo define rigorously                 |
 | **`(*)`**                        | the [[combinator#i combinator]]                                    | equivalent to [[composition#identity]]                      |
 | **`{f g} a`**                    | **`{f <- g} a`**                                                   | equivalent to [[combinator#s combinator]]                   |
 | **`f {a b}`**                    | **`f {a <- b}`**                                                   |                                                             |
 | **`""math""`**                   | **`(''m'', ''a'', ''t'', ''h'')`**                                 | see [[string]], [[list]]                                    |
 
-h (f (g x)) (f (i x))
+#todo:
 
-#think **`x = y`** has been taken to mean **`/\ {x = y}`** whereas **`x : y`** means **`{x : y}`** and so should **`x = y`**, see <https://www.cs.utexas.edu/users/EWD/transcriptions/EWD13xx/EWD1300.html>
+- conceptual:
 
-#think **`{<-} f x`** and **`{*} f x`** are both the [[composition#identity]]
+  - [x] get rid of `"approx"`
+  - [x] should **`"mod"`** be infix? should there exist [[infix notation]] [[string]] [[operator]]s?
+  - [x] update **`/\ RR x /\ RR y`** and **`/\ NN m /\ NN n`** notations to use the [[combinator#psi combinator]]
+  - [ ] is **`...`** necessary?
+  - **`x = y`** has been taken to mean **`/\ {x = y}`** whereas **`x : y`** means **`{x : y}`** and so should **`x = y`**, see <https://www.cs.utexas.edu/users/EWD/transcriptions/EWD13xx/EWD1300.html>
 
-#think **`__`** and **`^^`** used as both [[boolean]]s and [[boolean algebra#operators]]
+- ambiguity:
 
-```
-x (^^) b
-```
+  - [ ] formally define **`*`**, see [[set#power set]]:
 
-**`x = II`** **`x = OO`**
+    ```
+    min (less * S)
+    x -> min (less x S)
 
-**`x = I`** **`x = O`**
+    rr (T I *)
+    rr (i -> T (I i))
 
-**`x = "I"`** **`x = "O"`**
+    f g * *
+    x y -> f (g x y)
+    ```
 
-**`1 "1" 0 "0"`**
+  - [ ] **`__`** and **`^^`** used as both [[boolean]]s and [[boolean algebra#operators]]
 
-#think is **`...`** necessary?
+    ```
+    x (^^) b
+    ```
 
-#todo get rid of remaining **`||`**s
+    **`x = II`** **`x = OO`**
 
-#todo get rid of **`"re"`** and **`"im"`** in [[complex]]
+    **`x = I`** **`x = O`**
 
-**`"abs"`** in **`RR`**, could be replaced with **`(:\/.)`**
+    **`x = "I"`** **`x = "O"`**
 
-**`"abs"`** in **`CC`**, could be replaced with **`(\re2:im2/)`**
+    **`1 "1" 0 "0"`**
 
-**`"conj"`** in **`CC`**, could be replaced with **`(re.iiim)`**
+- absolute value:
 
-**`"arg"`** in **`CC`**
+  - [ ] get rid of remaining **`||`**s
+  - [ ] delete [[absolute value]] file
+  - [ ] todo get rid of **`"re"`** and **`"im"`** in [[complex]]
 
-**`"abs"^p`** in **`QQ^p`**
+  **`"abs"`** in **`RR`**, could be replaced with **`(:^^.)`**
 
-**`\:*2/`** in **`RR^n`**
+  **`"abs"`** in **`CC`**, could be replaced with **`(\"re"2:"im"2/)`**
 
-#think [[combinator#phi1 combinator]] is in [[infix notation]] whereas the others are not
+  **`"conj"`** in **`CC`**, could be replaced with **`("re".ii"im")`**
 
-#think inverses of [[function]] application and abstraction:
+  **`"arg"`** in **`CC`**
 
-```
- /x\ b = a ==  x = [b]a  == \x/ a = b
+  **`"abs"^p`** in **`QQ^p`**
 
-x -- b = a == x = b | a  == x -- a = b
+  **`\:*2/`** in **`RR^n`**
 
-f <- x = y == f = x -> y == f ? y = x
+- function:
 
-y ?? f = x ==  y = f x   == y ?? x = f
-```
+  - [ ] **`{<-} f x`** and **`{*} f x`** are both the [[composition#identity]]
+  - [ ] inverses of [[function]] application and abstraction:
 
-#todo when found inverse of function application2 fix [[trigonometric function#inverse functions]] and [[function#inverse]] and others
+    ```
+     /x\ b = a ==  x = [b]a  == \x/ a = b
 
-#think formally define **`*`**, see [[set#power set]]:
+    x -- b = a == x = b | a  == x -- a = b
 
-```
-min (less * S)
-x -> min (less x S)
+    f <- x = y == f = x -> y == f ? y = x
 
-rr (T I *)
-rr (i -> T (I i))
+    y ?? f = x ==  y = f x   == y ?? x = f
+    ```
 
-f g * *
-x y -> f (g x y)
-```
+  - [ ] when found inverse of function application, fix [[trigonometric function#inverse functions]] and [[function#inverse]] and others
 
 fixed #todo update:
 
-- [[combinator#psi combinator]] and [[combinator#phi combinator]] notations are ambiguous, see [[real#absolute value]]
-
-### precedence and associativity
+- [ ] [[combinator#psi combinator]] and [[combinator#phi combinator]] notations are ambiguous, see [[real#absolute value]]
+- [ ] [[combinator#phi1 combinator]] is in [[infix notation]] whereas the others are not
 
 already updated:
 
-- should **`"mod"`** be infix? should there exist [[infix notation]] [[string]] [[operator]]s?
-- update **`/\ RR x /\ RR y`** and **`/\ NN m /\ NN n`** notations to use the [[combinator#psi combinator]]
-- get rid of `"approx"`
 - [[complex#conjugate]]
 - [[real#absolute value]]
 - [[mean]]
 - `O {`
+
+### precedence and associativity
 
 **see** [[infix notation#precedence]], [[infix notation#associativity]]
 

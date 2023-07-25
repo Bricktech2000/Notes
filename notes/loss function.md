@@ -12,7 +12,7 @@ _the default [[loss function]] for regression problems_
 
 **definition**
 
-**`"MSE" y y_* = {:--#} [y.y_* ]2`**, where
+**`"MSE" y y_* = {:-#} [y.y_* ]2`**, where
 
 - **`"MSE"`** is the _mean squared error_ of the values
 - **`y`** are the observed values

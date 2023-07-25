@@ -12,7 +12,7 @@
 
 let **`MM^n,n A /\ NN n /\ RR ll /\ RR^n x /\ x + O`**
 
-if **`Ax = llx`**, then **`x`** is an [[eigen#vector]] of **`A`** and **`ll`** is its corresponding [[eigen#value]]
+if **`:Ax = llx`**, then **`x`** is an [[eigen#vector]] of **`A`** and **`ll`** is its corresponding [[eigen#value]]
 
 **theorems**
 

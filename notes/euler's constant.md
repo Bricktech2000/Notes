@@ -2,17 +2,11 @@
 
 **see** [[math notation]]
 
-**notation**
+**notation** **`ee`**
 
-**`ee`**
+**definition** _[[limit]]_ **`ee = [1 : -n]n {n -> @@}`**
 
-**definition** _[[limit]]_
-
-**`ee = [1 : -n]n {n -> @@}`**
-
-**definition** _[[series#power series]]_
-
-**`[x] = {x[*]--PP} {0:...}`**
+**definition** _[[series#power series]]_ **`[x] = {x[*]--PP} {0:...}`**
 
 > **note** above, **`PP 0 = 1`**, see [[improved expression evaluation]]
 

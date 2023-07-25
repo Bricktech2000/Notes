@@ -39,7 +39,7 @@ The publishing workflow for my conceptual notes requires [mkdocs](https://www.mk
 Once installed, run the following commands:
 
 ```bash
-rm -r site; rm mkdocs/*.md; rm mkdocs/*.png; rm mkdocs/*.jpg; rm mkdocs/*.gif
+rm -r site; rm mkdocs/*.md; rm mkdocs/*.png; rm mkdocs/*.jpg; rm mkdocs/*.gif; rm mkdocs/*.pdf;
 python3 mkdocs.py notes mkdocs && mkdocs build
 python3 -m http.server --directory site
 ```

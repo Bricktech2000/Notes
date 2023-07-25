@@ -13,7 +13,7 @@
 > the following are [[metric space]]s:
 >
 > - the [[real]] [[line]] with Euclidean distance **`a b -> "abs" (a.b)`**, see [[real#absolute value]]
-> - the [[real]] [[line]] with metric **`a b -> {1, 0} (a = b)`**
+> - the [[real]] [[line]] with metric **`a b -> (a = b)`**
 > - the [[real]] [[plane]] with Euclidean distance **`a b -> \:(a.b)2/`**, see [[vector in rn#magnitude]]
 > - the [[real]] [[plane]] with Manhattan metric **`a b -> : "abs" (a.b)`**, see [[real#absolute value]], [[composition]]
 > - the [[real]] [[plane]] with Chebyshev metric **`a b -> \/ "abs" (a.b)`**, see [[real#absolute value]], [[composition]]

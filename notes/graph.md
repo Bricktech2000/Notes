@@ -6,7 +6,7 @@ _a collection of vertices connected by a collection of edges_
 
 **definition** _formally in my [[math notation]]_ a [[graph]] is a [[set theory]]etical [[function]] that takes two vertices and returns whether an edge is connecting them
 
-**definition** an _undirected graph_ is a [[graph]] **`G`** such that **`G = rr G`**
+**definition** an _undirected graph_ is a [[graph]] **`G`** such that **`{= rr} G`**, see [[combinator#s combinator]]
 
 **definition** in [[conventional math notation]], a _graph_ **`{V, E}`** is a [[set]] of _vertices_ **`V`** and a [[multiset]] of _edges_ **`E`** such that **`E e + 0 < V e^.^^ /\ V e^.__`** and **`E e == E (rr e)`** (see [[relation]], [[ordered pair]])
 

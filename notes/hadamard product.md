@@ -6,7 +6,7 @@
 
 &mdash; <https://en.wikipedia.org/wiki/Hadamard_product_(matrices)#Properties>
 
-**definition** the [[hadamard product]] of **`s`** and **`t`** is **`st`**, where **`s`** and **`t`** have the same rank and the same shape. see [[rank polymorphism]]
+**definition** the [[hadamard product]] of **`s`** and **`t`** is **`st`**, where **`s`** and **`t`** have the same rank and the same shape. see [[polymorphism#rank polymorphism]]
 
 > **example** **`[]1 && 2[] | []3 && 4[] = []1 | 3 && 2 | 4[] = []3 && 8[]`**
 

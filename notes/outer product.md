@@ -4,7 +4,7 @@ _APL-style Outer Product_
 
 &mdash; <https://aplwiki.com/wiki/Outer_Product>
 
-**see** [[rank polymorphism]]
+**see** [[polymorphism#rank polymorphism]]
 
 **notation** **`A * \* B *`**
 
