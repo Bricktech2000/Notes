@@ -60,29 +60,27 @@ _[[complex#conjugate]]_
 
 **definition**
 
-let **`z = a : bii`**
-
-then, **`(re.iiim) z = a . bii = z^re . iiz^im`** is the _complex conjugate_ of **`z`**
+**`("re".ii"im") z`** is the _complex conjugate_ of **`z`**
 
 **properties**
 
-let **`CC {z /\ w} w /\ RR c`**
+let **`CC {z /\ w} /\ RR c`**
 
-**`(re.iiim) (z : w) = (re.iiim) z : (re.iiim) w`**
+**`("re".ii"im") (z : w) = ("re".ii"im") z : ("re".ii"im") w`**
 
-**`(re.iiim) cz = c(re.iiim) z`**
+**`("re".ii"im") cz = c("re".ii"im") z`**
 
-**`(re.iiim) z'w = (re.iiim) z | (re.iiim) w`**
+**`("re".ii"im") z'w = ("re".ii"im") z | ("re".ii"im") w`**
 
-**`(re.iiim) z-w = (re.iiim) z -- (re.iiim) w`**
+**`("re".ii"im") z-w = ("re".ii"im") z -- ("re".ii"im") w`**
 
-**`(re.iiim) (re.iiim) z = z`**
+**`("re".ii"im") ("re".ii"im") z = z`**
 
-**`RR z == (re.iiim) z = z`**
+**`RR z == ("re".ii"im") z = z`**
 
-**theorem** **`z(re.iiim) z = ["abs" z]2 > CC z`**
+**theorem** **`z("re".ii"im") z = ["abs" z]2 > CC z`**
 
-**theorem** **`--z = (re.iiim) z -- ["abs" z]2 > CC z`**
+**theorem** **`--z = ("re".ii"im") z -- ["abs" z]2 > CC z`**
 
 ## Modulus
 
@@ -96,7 +94,7 @@ let **`CC {z /\ w} w /\ RR c`**
 
 let **`CC {z /\ w} /\ RR c`**
 
-**`"abs" z = "abs" (re.iiim) z`**
+**`"abs" z = "abs" ("re".ii"im") z`**
 
 **`"abs" zw = "abs" z | "abs" w`**
 

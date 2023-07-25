@@ -202,7 +202,7 @@ _flips a [[matrix]] around its [[matrix#diagonal]]_
 
 **`rr rr A = A`**
 
-**`rr AB = rr B | rr A`** #todo mm
+**`rr :(A *)(rr B *) = :(rr B *)(rr rr A *)`**
 
 ## Conjugate Transpose
 
@@ -289,7 +289,7 @@ if **`AC`** is invertible, then **`A`** is invertible and **`C`** is invertible
 >
 > **`BAx = B [].1 && 1[]`**
 >
-> **`Ix = x = B [].1 && 1[]`\***
+> **`Ix = x = B [].1 && 1[]`**
 
 ## Triangular Matrix
 

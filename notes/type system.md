@@ -1,6 +1,6 @@
 # Type System
 
-**see** [[type]]
+**see** [[type]], [[polymorphism]]
 
 ## Nominal Type System
 
@@ -64,6 +64,22 @@ _if it walks like a duck and it quacks like a duck, then it must be a duck_
 >   x.qux() # until they are not
 > ```
 
+## Static Typing
+
+_type safety is enforced at compile time_
+
+## Dynamic Typing
+
+_type compatibility is verified at runtime_
+
+## Strong Typing
+
+_memory-safe, invalid operations impossible, explicit type conversion_
+
+## Weak Typing
+
+_memory-unsafe, invalid operations possible, implicit type conversion_
+
 ## &mdash;
 
 &mdash; <https://en.wikipedia.org/wiki/Type_system>
@@ -75,3 +91,5 @@ _if it walks like a duck and it quacks like a duck, then it must be a duck_
 &mdash; <https://en.wikipedia.org/wiki/Nominal_type_system>
 
 &mdash; <https://en.wikipedia.org/wiki/Comparison_of_programming_languages_by_type_system>
+
+&mdash; <https://youtu.be/QI-ktlf7qFU>

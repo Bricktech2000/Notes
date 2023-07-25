@@ -4,7 +4,7 @@
 
 **definition**
 
-**`ss2 = {:--#} [X.mm]2`**
+**`ss2 = {:-#} [X.mm]2`**
 
 - **`X`** is a [[sample]] or a [[population]] as a [[list]]
 - **`mm`** is the [[sample]] [[mean]] of **`X`**

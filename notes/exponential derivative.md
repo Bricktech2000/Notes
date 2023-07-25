@@ -6,7 +6,7 @@
 
 the [[derivative]] of a [[line]]ar [[function]] **`x -> ax : b`** is its [[function#slope]] **`a`**. similarly, the [[exponential derivative]] of an [[exponent]]ial [[function]] **`x -> ba[x]`** is its base **`a`**
 
-**definition** **`D f == x -> ff x -- f a/ (x.a) {x -> a} == x -> [dd /f x\ -- dd x]`**
+**definition** **`D f == x -> \ff x -- f a/ (x.a) {x -> a} == x -> [dd /f x\ -- dd x]`**
 
 > **proof**
 >

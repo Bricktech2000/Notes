@@ -257,7 +257,7 @@ given a [[list]] of [[integer]]s $M$, return a [[list]] $N$ where $N\ i$ is the 
 
 $M\ i \rightarrow \,\mid M - M\ i$
 
-using [[rank polymorphism]],
+using [[polymorphism#rank polymorphism]],
 
 $M \rightarrow \,\mid M - M$
 
@@ -856,3 +856,33 @@ $a \sim b$ &emsp; $a \sim\!\sim b$
 $a = b$ &emsp; $a =\!= b$
 
 $a + b$ &emsp; $a \times b$
+
+---
+
+**`(*) (:-#) (*)`** is an arithmetic [[mean]]
+
+**`(-) (:-#) (-)`** is a harmonic [[mean]]
+
+**`[.] (:-#) /.\`** is a geometric [[mean]]
+
+**`(*) dd (*)`** is a [[derivative]] (gives the **`m`** in **`x -> mx : b`**)
+
+**`(-) dd (-)`** is a "reciprocal" [[derivative]] (gives the **`a`** in **`x -> a -- x : b`**)
+
+**`[.] dd /.\`** is an [[exponential derivative]] (gives the **`b`** in **`x -> ab[x]`**)
+
+define **`ww f g = x -> "inverse" f (g (f x)) `** function inverse #todo
+
+**`ww (*) (:-#)`**
+
+**`ww (-) (:-#)`**
+
+**`ww /.\ (:-#)`**
+
+**`ww (*) dd`**
+
+**`ww (-) dd`**
+
+**`ww /.\ dd`**
+
+**`ww VV {|} = CC`**

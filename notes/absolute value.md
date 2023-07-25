@@ -4,7 +4,7 @@
 
 **notation** **`"abs"`**
 
-**definition** **`"abs" = {:\/.}`**
+**definition** **`"abs" = (:^^.)`**
 
 [[absolute value]]s can be defined as a [[function#piecewise function]]
 
