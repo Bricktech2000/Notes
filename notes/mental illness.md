@@ -61,7 +61,7 @@ _dramatic, erratic_
 
 people in this cluster are very "difficult" to deal with socially
 
-- borderline personality disorder &mdash; _likely to get help_, likely to react instead of respond, see [[reaction vs response]]
+- borderline personality disorder &mdash; _likely to get help_, likely of [[reaction]] instead of [[response]]
 - [[narcissistic personality disorder]] &mdash; _unlikely to change_
 - histrionic personality disorder
 - [[antisocial personality disorder]] &mdash; _unlikely to change_

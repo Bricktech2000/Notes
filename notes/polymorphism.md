@@ -22,6 +22,10 @@ _[[object-oriented programming]] inheritance and [[interface]]s, often [[type sy
 
 **definition** a [[type]] `A` is a _subtype_ of a [[type]] `B` if an instance of `A` can be used wherever an instance of `B` is expected &mdash; GitHub Copilot
 
+**properties**
+
+the _subtype_ [[relation]] is a [[partial order]] &mdash; <https://youtu.be/hy1wjkcIBCU?t=1926>
+
 ## Rank Polymorphism
 
 **definition** _rank polymorphism_ allows a [[function]] to be polymorphic in the _rank_ of its arguments

@@ -56,7 +56,7 @@ italics are used for informal and opinionated statements, and literal aoenuatose
 - [[wikilink]]s are generally avoided in headings
 - a page can link to itself
 - most [[fact]]s, opinions and judgements are accompanied by their source and not just stated as an absolute truth
-- note names are mostly singular nominal groups, and sometimes adjectives when more appropriate. diacritics are removed from them
+- note names are reduced to their simplest form. they are mostly singular nominal groups, and sometimes adjectives when more appropriate. diacritics are removed from them
 - file names are lowercase. diacritics are removed from them
 - line breaks are used exclusively for how they look in the render and never to make the [[markdown]] source more readable (which is why almost no single line breaks are used)
 - horizontal rules are occasionally used to separate a whole file in different sections

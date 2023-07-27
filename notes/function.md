@@ -396,6 +396,8 @@ a [[function#total function]] maps every element of its [[function#domain]] to a
 
 ## Higher-Order Function
 
+_[[function]]s as [[type]]s_
+
 **definition** a _higher-order function_ is a [[function]] that takes a [[function]] as an argument or returns a [[function]]
 
 **definition** a _first-order function_ is a [[function]] whose arguments and return values are not [[function]]s

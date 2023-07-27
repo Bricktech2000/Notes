@@ -8,6 +8,6 @@
 
 [[learning]], [[active recall]], [[spaced repetition]], [[interleaving]]
 
-[[minimalism]], [[difficult]], [[invest]], [[steer over drift]], [[intention]], [[cognitive load]]
+[[minimalism]], [[stoicism]], [[difficult]], [[invest]], [[intention]], [[cognitive load]]
 
 [[conceptual note-taking]]

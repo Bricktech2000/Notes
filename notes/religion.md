@@ -8,8 +8,8 @@ more generally, this could be phrased as:
 
 > **examples** _a higher power bringing comfort_
 >
-> - rationalizing the creation of the universe by a higher power (instead of hypothesizing a natural process)
-> - praying to a higher power for help (instead of [[steer over drift]] to solve their problems themselves)
+> - rationalizing the creation of the universe through a higher power (instead of hypothesizing a natural process)
+> - praying to a higher power for help (instead of solving problems ourselves, a principle of [[stoicism]])
 > - believing in paradise to provide comfort in the face of death (instead of making peace with the unknown)
 
 > **examples** _other methods people use to cope with the unknown_

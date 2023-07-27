@@ -18,13 +18,13 @@ _a [[monoid]] where every element also has an inverse_ &mdash; <https://youtu.be
 
 **definition**
 
-let a binary [[operator]] **`{:}`** on a [[set]] **`G`**. for them to form a [[group]], the following [[axiom]]s must be satisfied for all **`G a /\ G b /\ G c`**:
+let a binary [[operator]] **`{:}`** on a [[set]] **`G`**. for them to form a [[group]], the following [[axiom]]s must be satisfied for all **`G {a /\ b /\ c}`**:
 
-_associativity_ **`(a : b) : c = a : (b : c) > G a /\ G b /\ G c`**
+_associativity_ **`(a : b) : c = a : (b : c) > G {a /\ b /\ c}`**
 
 _identity element_ **`a : O = a /\ G O > G a`**
 
-_closure_ **`G (a : b) > G a /\ G b`**
+_closure_ **`G (a : b) > G {a /\ b}`**
 
 _inverse element_ **`a : .a = O > G a`**
 

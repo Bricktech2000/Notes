@@ -19,5 +19,5 @@ _suboptimal [[system]]s, [[tool]]s and [[concept]]s that have too high of a [[sw
 > - the [[international system of units]]
 > - [[better markdown]] when I get around to finishing it
 > - [[iso 216]] paper sizes
-> - [[improved family relationship vocabulary]]
+> - [[distance pair kinship]]
 > - the Dvorak layout

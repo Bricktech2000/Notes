@@ -14,8 +14,8 @@ _a [[group]] without necessarily having a [[group#identity element]] or [[group#
 
 **definition**
 
-let a binary [[operator]] **`{:}`** on a [[set]] **`G_*`**. for them to form a [[semigroup]], the following [[axiom]]s must be satisfied for all **`G_*  a /\ G_*  b /\ G_*  c`**:
+let a binary [[operator]] **`{:}`** on a [[set]] **`G_*`**. for them to form a [[semigroup]], the following [[axiom]]s must be satisfied for all **`G_* {a /\ b /\ c}`**:
 
 _associativity_ **`(a : b) : c = a : (b : c)`**
 
-_closure_ **`G_*  (a : b)`**
+_closure_ **`G_* (a : b)`**

@@ -6,9 +6,9 @@
 
 > **example** dishonesty is the breach of the implicit [[commitment]] to honesty, which is a breach of [[integrity]]
 
-not fulfilling a [[commitment]] is a breach of [[integrity]]. keeping people updated on the status of a [[commitment]] is a way to maintain [[integrity]] when [[expectation]]s are not met. when [[integrity]] is breached, it can be "restored" to [[steer over drift]] through the procedure outlined below
+not fulfilling a [[commitment]] is a breach of [[integrity]]. keeping people updated on the status of a [[commitment]] is one way to maintain [[integrity]] when [[expectation]]s are not met. when [[integrity]] is breached, it is important to reflect on the situation and "restore" [[integrity]]
 
-> **procedure** _restoring [[integrity]]_
+> **procedure** _"restoring" [[integrity]]_
 >
 > 1. identify the [[commitment]] that was not fulfilled
 > 2. analyze events leading to the [[commitment]] not being fulfilled

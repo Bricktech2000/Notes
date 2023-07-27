@@ -50,4 +50,4 @@ when psychopaths have a relationship with someone, it is solely exploitative. th
 
 sociopaths, in their unskilled way, may get into a relationship but still remain very cold and rejecting
 
-the psychopath makes a better criminal as sociopaths are somewhat messy, sloppy or reactive (see [[reaction vs response]]). _the sociopath is the bar fighter. the psychopath will kill that same person three days later methodically_
+the psychopath makes a better criminal as sociopaths are somewhat messy, sloppy or reactive (see [[reaction]]). _the sociopath is the bar fighter. the psychopath will kill that same person three days later methodically_

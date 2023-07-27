@@ -34,9 +34,9 @@
 
 [[improper measurement scale]]
 
-[[improved family relationship vocabulary]]
+[[distance pair kinship]]
 
-[[perfectionism vs high standards]]
+[[perfectionism]]
 
 [[video game]]
 

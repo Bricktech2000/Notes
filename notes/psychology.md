@@ -6,7 +6,7 @@
 
 **see**
 
-[[desire vs value]], [[reaction vs response]]
+[[reaction]], [[response]]
 
 [[hijacking brain circuitry]], [[subconscious manipulation]], [[intent to mastery]]
 
@@ -27,7 +27,5 @@
 [[verbal#connotation]], [[nonverbal#connotation]]
 
 [[mental illness]]
-
-[[luck]], [[steer over drift]]
 
 [[integrity]]
