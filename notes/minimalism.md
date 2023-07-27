@@ -8,18 +8,11 @@ it seems to be that _frugal_ people are in fact just [[finance]]ial minimalists 
 
 > **example** _ways in which I am a minimalist_
 >
-> similarly to the encapsulation of mutability in [[functional programming]], I often find myself encapsulating clutter
+> similarly to the encapsulation of mutability in [[functional programming]], I often find myself encapsulating clutter. _[containers] create a barrier that can stop clutter from spreading to other areas and corrals it to a single location_ &mdash; <https://youtu.be/rUnpOplJulM?t=408>
 >
-> > [containers] create a barrier that can stop clutter from spreading to other areas and corrals it to a single location &mdash; <https://youtu.be/rUnpOplJulM?t=408>
+> quality is very important to me, see [[price-value sigmoid]]. most of my purchases are [[intention]]al, have a clear reason to be, and are meant to last a long time. quick low-quality purchases feel like such a waste of [[money]]
 >
-> quality is very important to me, see [[price-value sigmoid]]. most of my purchases are [[intention]]al, have a clear use and are meant to last a long time. cheap low-quality purchases feel like such a waste in my eyes
->
-> > **examples** _cheap low-quality purchases_ low-quality clothes (fast fashion), takeout food, cheap electronics and tools, and so on
->
-> other practices of mine include:
->
-> - disabling any redundant notifications on my phone
-> - getting rid of any unnecessary items in my home
+> > **examples** _low-quality purchases_ fast fashion, takeout food, cheap tools
 
 ## &mdash;
 

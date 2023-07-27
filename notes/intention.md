@@ -8,13 +8,17 @@ the small gains [[intention]]ality provides are an [[invest]]ment that compound 
 
 **see**
 
-[[minimalism]]
-
 [[invest]]
 
-[[life-long investing]]
+[[minimalism]]
 
 [[eisenhower matrix]]
+
+[[difficult]]
+
+[[procrastination]]
+
+[[stoicism]]
 
 **tradeoffs**
 

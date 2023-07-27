@@ -1,4 +1,4 @@
-# Steer over Drift
+# Stoicism
 
 **see** [[luck]]
 
@@ -13,24 +13,22 @@ the majority of people drift through life; that is, they do not have plans, do n
 
 > **examples** _people who drift over steer_
 >
-> - people who scream for help
-> - people who appeal to emotion
+> - people who instinctively scream for help
+> - people who appeal to their emotions
 > - people resorting to faith and [[religion]]
 
-> **note**
->
-> I think I might've been in the process of reinventing part of stoicism
->
-> - the core of stoicism is acceptance and indifference
-> - we don't have much control over what happens to us, we do have control of how it affects us; this is known as the _dichotomy of control_
-> - picture the worst outcome and be content knowing it could happen
->
-> &mdash; <https://youtu.be/KH7yjwe3l00?t=110> and <https://youtu.be/o3SWsIfDz-c> and <https://youtu.be/R9OCA6UFE-0>
+> **note** I think I might've been in the process of reinventing part of stoicism
 
 ## &mdash;
 
 &mdash; "life pushing you around" &mdash; Rich Dad Poor Dad
 
 &mdash; <https://youtu.be/sL5XWO2Z-yw?t=1260>
+
+&mdash; <https://youtu.be/o3SWsIfDz-c>
+
+&mdash; <https://youtu.be/R9OCA6UFE-0>
+
+&mdash; <https://youtu.be/EFkyxzJtiv4>
 
 &mdash; me

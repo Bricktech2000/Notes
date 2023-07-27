@@ -125,8 +125,8 @@ let:
 | -------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------- |
 | **`:A`**                         | **`A`** reduced with **`:`**                                       | see [[reduce function]]                                     |
 | **`.a`**                         | **`0 . a`**                                                        |                                                             |
-| **`\|A`** <br /> **`'A`**        | **`A`** reduced with **`\|`** <br /> **`A`** reduced with **`'`**  | see [[reduce function]]                                     |
-| **`--a`** <br /> **`-a`**        | **`1 -- a`** <br /> **`1-a`**                                      |                                                             |
+| **`'A`** <br /> **`\|A`**        | **`A`** reduced with **`'`** <br /> **`A`** reduced with **`\|`**  | see [[reduce function]]                                     |
+| **`-a`** <br /> **`--a`**        | **`1-a`** <br /> **`1 -- a`**                                      |                                                             |
 | **`xy`**                         | **`x'y`**                                                          |                                                             |
 | **`wwx`**                        | **`ww'x`**                                                         |                                                             |
 | **`xww`**                        | **`[x]ww`**                                                        |                                                             |
@@ -137,6 +137,8 @@ let:
 | **`/a\`**                        | **`/a\ ee`**, the natural [[logarithm]] of **`a`**                 |                                                             |
 | **`x y -> a`**                   | **`x -> y -> a`**                                                  |                                                             |
 | **`f a`**                        | **`f <- a`**                                                       | shorthand preferred                                         |
+| **`~a`** <br /> **`~~a`**        | **`A`** reduced with **`~`** <br /> **`A`** reduced with **`~~`**  | see [[reduce function]]                                     |
+| **`=a`** <br /> **`==a`**        | **`A`** reduced with **`=`** <br /> **`A`** reduced with **`==`**  | see [[reduce function]]                                     |
 | **`+a`** <br /> **`><a`**        | **`^^ + a`** <br /> **`^^ >< a`**                                  | equivalent to [[boolean algebra#negation]]                  |
 | **`-\|A`** <br /> **`<A`**       | **`A`** sorted from least to greatest                              |                                                             |
 | **`\|-A`** <br />**`>A`**        | **`A`** sorted from greatest to least                              |                                                             |

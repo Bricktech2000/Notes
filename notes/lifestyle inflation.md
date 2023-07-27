@@ -6,4 +6,4 @@
 
 _[<wbr />[[lifestyle inflation]]<wbr />] is the foundation of today's debt-ridden society_ &mdash; <https://youtu.be/wp7Lz1svVro?t=7314>
 
-one [[system]] to avoid the bad [[habit]] of [[lifestyle inflation]] is _paying yourself first_ &mdash; Rich Dad Poor Dad; that is, setting aside a certain amount of money for [[invest]]ment before spending any of your income
+one [[system]] to avoid the bad [[habit]] of [[lifestyle inflation]] is _paying yourself first_ &mdash; Rich Dad Poor Dad; that is, setting aside a certain amount of money for [[invest]]ment before spending any other income
