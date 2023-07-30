@@ -22,7 +22,7 @@ _polar form_ **`z = "abs" z | "cos" "arg" z : "abs" z | ii"sin" "arg" z = "abs" 
 
 **properties**
 
-**`CC < UU`**, see [[universal]]
+**`CC < UU`**, see [[set#universal set]]
 
 _equality_ **`a : bii = c : dii == a = c /\ b = d`**
 

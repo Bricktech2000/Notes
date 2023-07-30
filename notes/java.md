@@ -136,7 +136,7 @@ using [[java#primitive]]s is almost always faster than using [[java#reference]]s
 
 **see** [[generic]]
 
-[[java#generic]]s are basically type casts to `Object` (known as a _type erasure_) that are checked at compile time &mdash; <https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood>. consequently, collections cannot contain [[java#primitive]]s &mdash; <https://stackoverflow.com/questions/4594529/java-collections-why-no-primitive-types>
+[[java#generic]]s are basically type casts to [[java]]'s [[type#top type]] (`Object`) (known as a _type erasure_) that are checked at compile time &mdash; <https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood>. consequently, collections cannot contain [[java#primitive]]s &mdash; <https://stackoverflow.com/questions/4594529/java-collections-why-no-primitive-types>
 
 ### Primitive
 
@@ -165,7 +165,7 @@ despite [[java]] being a managed language, memory leaks can still occur if refer
 
 [[java#reference]]s are passed by reference. [[java#reference]]s inherit from `Object`, which allows them to be used in [[java#generic]]s. all user-defined [[class]]es are [[java#reference]]s
 
-> **note** declaring a [[java]] [[class]] `class MyClass` is shorthand for `class MyClass extents Object`
+> **note** declaring a [[java]] [[class]] `class MyClass` is shorthand for `class MyClass extents Object` as `Object` is the [[type#top type]] in [[java]]
 
 > **examples**
 >

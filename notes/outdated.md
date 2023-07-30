@@ -9,4 +9,6 @@
 
 [[intellectual giftedness]], [[high intellectual potential]], [[creativity]]
 
+read over [[options market]], [[stock market]], [[bond market]]
+
 [[improved expression evaluation]]

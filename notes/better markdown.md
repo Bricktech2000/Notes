@@ -36,7 +36,7 @@ other things to think about:
   ```
   \ pre block maybe?
   ```
-- `#` and `` ` `` contain "metadata" (heading content and [[programmin language]] name). do we want that?
+- `#` and `` ` `` contain "metadata" (heading content and [[programming language]] name). do we want that?
 - `<` and `>` work differently from the rest of the syntax. probably want to fix that
 - probably want to remove `###`
 - probably want to remove `$`

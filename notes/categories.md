@@ -142,7 +142,7 @@
 
 [[ingredient]]s
 
-[[empathy by inversion]]
+[[delta equivalence]]
 
 [[ieee 754]]
 

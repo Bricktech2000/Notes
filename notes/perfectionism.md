@@ -5,3 +5,5 @@ many seem to confuse embodying high standards for perfectionism &mdash; me. I be
 **definition** _perfectionism_ is refusing to accept any standard short of perfection
 
 **definition** _embodying high standards_ is the drive to achieve a high standard of performance
+
+that said, both are susceptible to [[procrastination#idealistic procrastination]]

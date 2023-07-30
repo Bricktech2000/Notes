@@ -1,12 +1,9 @@
 # Resources
 
-- using [[complex]] numbers to solve [[discrete mathematics]] problems &mdash; <https://www.youtube.com/watch?v=bOXCLR3Wric>
 - undergrad [[calculus]] course &mdash; <https://www.youtube.com/watch?v=HfACrKJ_Y2w>
 - [[discrete mathematics]] course by Dr. Trefor Bazett &mdash; <https://www.youtube.com/watch?v=rdXw7Ps9vxc&list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS>
 - crash course on [[psychopathy]] and [[sociopathy]] &mdash; <https://www.youtube.com/watch?v=gpjYtAB9i2w>
-- behing the scenes of a vending machine [[business]] &mdash; <https://www.youtube.com/watch?v=OnfPWmOMgPk>
-- going from poor to [[wealth]]y by moving to Mexico &mdash; <https://www.youtube.com/watch?v=SbiTocYipro>
-- proper [[finance]] management leading to an ideal life &mdash; <https://www.youtube.com/watch?v=lUAn6YpHQao>
+- good personal [[finance]] management leading to an ideal life &mdash; <https://www.youtube.com/watch?v=lUAn6YpHQao>
 - [[data structure]]s and [[algorithm]]s course &mdash; <https://www.youtube.com/watch?v=RBSGKlAvoiM>
 - [[category theory]] for programmers by Bartosz Milewski &mdash; <https://www.youtube.com/watch?v=I8LbkfSSR58&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM> (not yet finished)
 - _Atomic Habits_ by James Clear audiobook &mdash; <https://www.youtube.com/watch?v=zUm3fKk00J8>

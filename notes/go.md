@@ -10,7 +10,7 @@ _it's not bad; it's just not good_
 - it has the imperativity of [[c]] but the built-in dynamic [[array]]s of [[python]]
 - it proudly uses [[ordered pair]]s over special syntax for error handling, but using [[type#product type]]s for error handling is a half-baked solution anyway
 - it is a modern language designed from the ground up yet still uses [[null]]s for failure conditions and has [[c]]-style valueless statements for control flow
-- it is a statically typed language yet has a thing called the _empty [[interface]]_, alias [[java]] `Object`, which completely defeats the purpose of [[type system]]s
+- it is a statically typed language yet has a [[type#top type]] in the form of the _empty [[interface]]_, which completely defeats the purpose of [[type system]]s
 
 most of this can be explained by the fact that [[go]] is the result of _language design in the service of [[software engineering]]_:
 

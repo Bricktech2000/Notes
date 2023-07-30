@@ -6,8 +6,6 @@
 
 the [[combinator#s combinator]] and the [[combinator#k combinator]] can be composed to produce [[combinator]]s that are extentionally equal to any [[lambda calculus]] term. consequently, **`S, K`** [[combinatory logic]] is Turing complete, see [[turing machine]]
 
-#todo this is an applicative ([[apply]]?) in [[category theory]] &mdash; <https://youtu.be/Y0KKPYkeOTA?t=501>
-
 ## Booleans
 
 > **equivalence** _[[combinatory logic#booleans]] and [[boolean algebra]]_

@@ -108,6 +108,8 @@ _duplicates the second argument_
 
 _applies a [[function]] to itself_
 
+**aka** _mockingbird, **`ww`** combinator_
+
 **definition** **`M = f -> f f`**
 
 **definition** **`M = S I I`**
@@ -117,6 +119,8 @@ _applies a [[function]] to itself_
 ### KI Combinator
 
 _discards the first argument_
+
+**aka** _kite, `const id` in Haskell_
 
 **definition** **`K I = f x y -> f y`**
 

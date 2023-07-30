@@ -44,7 +44,7 @@ image processing
 
 > **example**
 >
-> let a [[matrix]] of [[colors]]s **`MM^j,k M`** representing an image and a [[convolution]] **`CC M B`** with kernel **`B`** representing an output image
+> let a [[matrix]] of [[color]]s **`MM^j,k M`** representing an image and a [[convolution]] **`CC M B`** with kernel **`B`** representing an output image
 >
 > using the [[matrix]] **`B^*,* = -- # B`** so that **`::B = 1`** as the kernel will yeild a blurred image with window size **`# B`**
 >

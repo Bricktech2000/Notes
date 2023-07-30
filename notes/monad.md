@@ -9,21 +9,11 @@
 - has a [[bind function]] or a [[join function]], or both
 - must have a sensible implementation following the [[monad#laws]]
 
-**applications**
-
-**see** [[bind function]]
+**applications** **see** [[bind function]]
 
 **properties**
 
-_[[monad]]s are [[functor]]s_
-
-let a [[function]] `f :: a -> b` and a [[monad]] `ma = M a`. then, `f` can be [[map]]ped to that [[monad]] using only the [[bind function]] and [[return function]] and [[function]] [[composition]] as follows:
-
-`map :: (a -> b) -> M a -> M b`
-
-`map f ma = bind (return . f) ma`
-
-&mdash; me, DM with Simon
+[[monad]]s are [[functor]]s because the [[map function]] can be defined in terms of the [[bind function]] and [[return function]]
 
 ## Kleisli Composition
 

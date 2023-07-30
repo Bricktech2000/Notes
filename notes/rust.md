@@ -129,3 +129,9 @@ graph TD
 ## Type System
 
 &mdash; <https://youtu.be/bnnacleqg6k>
+
+&mdash; <https://youtu.be/s5S2Ed5T-dc>
+
+`!`, pronounced _never_, is [[rust]]'s [[type#bottom type]]. it is the type of an expression that never returns, such as `panic!()` or `loop {}` &mdash; <https://doc.rust-lang.org/std/primitive.never.html>
+
+`()` is [[rust]]'s [[type#unit type]]. it is the type of an expression that returns nothing, such as `println!()` or `let x = 1;`
