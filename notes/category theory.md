@@ -25,9 +25,9 @@ there appears to be a standard way to build contexts in which we do [[mathematic
 
 [[function]]s and [[type]]s can be viewed as morphisms and objects in a [[category theory]] context
 
-the [[empty]] [[set]] corresponds to the [[type]] `Void` in Haskell, which corresponds to **`__`** in [[logic]] from a [[category theory]] perspective. when looking at propositions as types, [[function]]s are [[proof]]s. **`__`** cannot be proven, similarly to how a [[function]] that takes `Void` as a parameter cannot be called
+the [[set#empty set]] corresponds to the [[type]] `Void` in Haskell, which corresponds to **`__`** in [[logic]] from a [[category theory]] perspective. when looking at propositions as types, [[function]]s are [[proof]]s. **`__`** cannot be proven, similarly to how a [[function]] that takes `Void` as a parameter cannot be called
 
-the singleton [[set]] corresponds to the [[type]] `()` (or `Unit`) in Haskell, which corresponds to **`^^`** in [[logic]] from a [[category theory]] perspective. when looking at propositions as types, [[function]]s are [[proof]]s. **`^^`** can be proven, similarly to how a [[function]] that takes `Unit` as a parameter can be called
+the [[set#singleton set]] corresponds to the [[type]] `()` (or `Unit`) in Haskell, which corresponds to **`^^`** in [[logic]] from a [[category theory]] perspective. when looking at propositions as types, [[function]]s are [[proof]]s. **`^^`** can be proven, similarly to how a [[function]] that takes `Unit` as a parameter can be called
 
 a [[relation]] being a [[relation#reflexive relation]] is equivalent to the presence of identity morphisms in [[category theory]]
 
@@ -35,7 +35,7 @@ a [[category]] with exactly one object is a [[monoid]] (yes, that [[monoid]] fro
 
 the [[category]] of [[type]]s is equivalent to a strongly typed [[programming language]], as [[function]]s in such a language are only composable if their [[type]]s match
 
-the terminal object of a [[category]] corresponds to the singleton [[set]] and the initial object of a [[category]] corresponds to the [[empty]] [[set]]
+the terminal object of a [[category]] corresponds to the [[set#singleton set]] and the initial object of a [[category]] corresponds to the [[set#empty set]]
 
 _co..._ refers to the same object in the opposite [[category]]. product & coproduct, monad & comonad, monoid & comonoid...
 

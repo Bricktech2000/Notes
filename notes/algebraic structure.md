@@ -8,7 +8,7 @@
 
 an [[algebraic structure]] consists of:
 
-- a non[[empty]] [[set]], called the _underlying set_, _carrier set_ or _domain_
+- a non-empty [[set]], called the _underlying set_, _carrier set_ or _domain_
 - a collection of operations on the underlying [[set]], typically binary operations
 - a finite set of identities the operations must satisfy, knows as _[[axiom]]s_
 

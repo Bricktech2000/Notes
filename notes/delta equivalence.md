@@ -1,4 +1,4 @@
-# Empathy by Inversion
+# Delta Equivalence
 
 it can be easier to empathize with someone not by imagining what it would feel like to be in their shoes, but rather by imagining what environment would make us feel the way their environment makes them feel &mdash; me
 
@@ -10,7 +10,7 @@ it can be easier to empathize with someone not by imagining what it would feel l
 
 > **example** I go down stairs two by two. to empathize with people who are scared of doing that, I imagine what it would feel like for me to go down stairs four by four instead of trying to imagine being scared of going down stairs two by two
 
-#todo equivalent deltas example: <https://youtu.be/Q7MkSpJk5tM>
+#todo delta equivalence example: <https://youtu.be/Q7MkSpJk5tM>
 
 #todo delta between chimps and humans ad AI, <https://youtu.be/zaB_20bkoA4?t=1387>
 

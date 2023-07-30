@@ -51,7 +51,7 @@ multiplying by **`a`** on both sides and adding the restriction,
 
 **`a2 = ab > a + 0`**
 
-without the additional restriction, the second equality would have solutions that are not present in the first, such as **`a = 0 /\ UU b`**, see [[universal]]
+without the additional restriction, the second equality would have solutions that are not present in the first, such as **`a = 0 /\ UU b`**, see [[set#universal set]]
 
 ### attempt with division by zero
 

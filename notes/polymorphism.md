@@ -18,13 +18,7 @@ _[[operator]] overloading, [[generic]]s_
 
 _[[object-oriented programming]] inheritance and [[interface]]s, often [[type system#structural type system]]s_
 
-**definition** _subtype polymorphism_ allows a [[function]] to be written to take an instance of a certain [[type]] and automatically work with instances of any subtype of that [[type]]
-
-**definition** a [[type]] `A` is a _subtype_ of a [[type]] `B` if an instance of `A` can be used wherever an instance of `B` is expected &mdash; GitHub Copilot
-
-**properties**
-
-the _subtype_ [[relation]] is a [[partial order]] &mdash; <https://youtu.be/hy1wjkcIBCU?t=1926>
+**definition** _subtype polymorphism_ allows a [[function]] to be written to take an instance of a certain [[type]] and automatically work with instances of any [[type#subtype]] of that [[type]]
 
 ## Rank Polymorphism
 

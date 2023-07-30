@@ -15,7 +15,7 @@ a [[functor]]:
 
 > **equivalence** _[[functor]] [[map function]] and map between [[category#morphism]]s_
 
-see [[map function]] for applications
+**applications** **see** [[map function]]
 
 # Laws
 

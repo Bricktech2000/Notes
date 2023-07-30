@@ -199,6 +199,7 @@ let:
   - [ ] get rid of remaining **`||`**s
   - [ ] delete [[absolute value]] file
   - [ ] todo get rid of **`"re"`** and **`"im"`** in [[complex]]
+  - [ ] when figured out, fix up [[metric space]] example
 
   **`"abs"`** in **`RR`**, could be replaced with **`(:^^.)`**
 
@@ -228,6 +229,7 @@ let:
     ```
 
   - [ ] when found inverse of function application, fix [[trigonometric function#inverse functions]] and [[function#inverse]] and others
+  - [ ] when figured out composition, fix up [[algebraic structure]]s, see <https://discord.com/channels/@me/892957003645853717/1133641823542313050>
 
 fixed #todo update:
 

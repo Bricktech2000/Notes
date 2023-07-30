@@ -12,7 +12,7 @@ the [[real]] numbers can only have finitely many digits to the left of the decim
 
 **properties**
 
-**`QQ^p < UU`** for any [[prime]] **`p`**, see [[universal]]
+**`QQ^p < UU`** for any [[prime]] **`p`**, see [[set#universal set]]
 
 the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the [[p-adic#absolute value]] [[metric space#metric]]. see [[real]]
 

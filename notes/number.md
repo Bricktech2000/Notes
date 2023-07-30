@@ -4,8 +4,8 @@ _[[set]]s of [[number]]s_
 
 **see** [[set]]
 
-- [[empty]]
-- [[universal]]
+- [[set#empty set]]
+- [[set#universal set]]
   - [[boolean]]
   - ...
   - [[p-adic]]s

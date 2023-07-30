@@ -14,6 +14,6 @@ _either true or false_
 
 **properties**
 
-**`BB < UU`**, see [[universal]]
+**`BB < UU`**, see [[set#universal set]]
 
 [[boolean]]s can be manipulated through [[boolean algebra]]

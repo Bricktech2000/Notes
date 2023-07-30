@@ -26,13 +26,31 @@ _elements are unordered_ **`{{1, 2, 3}} = {{3, 2, 1}} = ...`**
 
 _elements are unique_ **`{{1, 1, 1}} = {{1, 1}} = ...`**
 
-**see**
+## Universal Set
 
-[[number]] sets
+**definition** **`UU x = ^^`**
 
-[[universal]] set
+**definition** **`UU x == +{ } == + x -> __ == x -> ^^`**
 
-[[empty]] set
+> **equivalence** _[[set#universal set]] and [[type#top type]]_
+
+**properties** **`/\ UU |- A`**, for all [[set]] **`A`**
+
+## Empty Set
+
+**definition** **`{{ }}`**
+
+**definition** **`x -> __`**
+
+> **equivalence** _[[set#empty set]] and [[type#bottom type]]_
+
+**properties** **`/\ {{ }} -| A`**, for all [[set]] **`A`**
+
+## Singleton Set
+
+**definition** a _singleton set_ is a [[set]] **`A`** with **`# A = 1`**
+
+> **equivalence** _[[set#singleton set]] and [[type#unit type]]_
 
 ## Subset
 
@@ -44,15 +62,13 @@ _elements are unique_ **`{{1, 1, 1}} = {{1, 1}} = ...`**
 
 in other words, an element being in **`A`** implies it is also in **`B`**
 
+> **equivalence** _[[set#subset]] and [[type#subtype]]_
+
+> **equivalence** _[[set#superset]] and [[type#supertype]]_
+
 **notation** _in my [[math notation]]_ **`/\ A -| B`** checks whether **`A`** is a [[set#subset]] of **`B`**
 
 **notation** _in my [[math notation]]_ **`/\ B |- A`** checks whether **`B`** is a [[set#superset]] of **`A`**
-
-**examples**
-
-**`/\ ZZ -| RR`**
-
-**`/\ EE -| ZZ`**
 
 **properties**
 
@@ -90,7 +106,7 @@ two [[set]]s are isomorphic if they contain the same elements "labeled" in diffe
 
 ## Partition
 
-**definition** a _partition_ of a [[set]] **`A`** is a collection of non-[[empty]] [[set#subset]]s of **`A`** such that every element of **`A`** is in exactly one of the [[set#subset]]s
+**definition** a _partition_ of a [[set]] **`A`** is a collection of non-empty [[set#subset]]s of **`A`** such that every element of **`A`** is in exactly one of the [[set#subset]]s
 
 ## Cardinality
 

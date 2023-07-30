@@ -23,15 +23,17 @@ _membership in [[conventional math notation]]_ $x \mathcal R y$
 
 ## Inverse Relation
 
-**definition**
+**definition** **`RR {+} *`**
 
-let **`RR^-`** be the inverse of the [[relation]] **`RR`** from **`A`** to **`B`**
+**notation** **`RR {+} *`**
 
-then, **`RR {x, y} = RR^- {y, x}`**
+> **equivalence** _[[ordered pair#inverse]] and [[relation#inverse relation]]_
 
 **properties**
 
-**`/\ RR^- -| (__ {B, A} *)`**
+**`RR {x, y} = (RR {+} *) {y, x}`**
+
+**`/\ (RR {+} *) -| (__ {B, A} *)`**
 
 #todo **equivalence** for the three sections below
 

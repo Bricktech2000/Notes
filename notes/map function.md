@@ -2,7 +2,7 @@
 
 _lifts a horizontal [[function]] to the effects world_
 
-**aka** _`lift`, `select`, `fmap`_
+**aka** _`lift`, `select`, `fmap`, `<$>`_
 
 **definition** the [[map function]] "lifts" a [[function]] to the effects world
 
@@ -13,17 +13,41 @@ _lifts a horizontal [[function]] to the effects world_
 - `a` is a value
 - `T` is an [[effect type]] constructor
 
+**definition** _in terms of the [[apply function]]_
+
+let a [[function]] `f :: a -> b`. then,
+
+`fmap :: (a -> b) -> T a -> T b`
+
+`fmap f fa = pure f <*> fa`, where
+
+- `fa` is a [[functor]]
+- `fmap` is the [[map function]]
+- `pure` is the [[return function]]
+- `<*>` is the [[apply function]]
+
+&mdash; <https://github.com/fantasyland/static-land/blob/master/docs/spec.md#applicative>
+
+&mdash; <https://en.wikipedia.org/wiki/Applicative_functor>
+
+**definition** _in terms of the [[bind function]]_
+
+let a [[function]] `f :: a -> T b`. then,
+
+`fmap :: (a -> b) -> T a -> T b`
+
+`fmap f ma = (return . f) =<< ma`, where
+
+- `ma` is a [[monad]]
+- `fmap` is the [[map function]]
+- `return` is the [[return function]]
+- `=<<` is the [[bind function]]
+
+&mdash; me, Simon Discord DM
+
 **applications**
 
-**application**
-
-[[map function]]s unwrap the inputs to a [[function]] before wrapping them back after execution, see [[effect type]]
-
-let a [[function]] `let inc = |x| x + 1` and a [[effect type]] `Option<T>`
-
-`inc 1` works fine, but `inc Some(1)` will fail. it would be possible to work around this issue by defining a custom [[function]] to unwrap the optional [[type]], increment it, and wrap it back into an optional [[type]]. however, this is an antipattern in [[functional programming]].
-
-ideally, we would want to stay in the "optional" world while using a value and unwrap it only after being done all operations. this is what [[map function]]s are for.
+[[map function]]s unwrap the inputs to a [[function]] before wrapping them back after execution, see [[effect type]]. let a [[function]] `let inc = |x| x + 1` and a [[effect type]] `Option<T>`. `inc 1` works fine, but `inc Some(1)` will fail. it would be possible to work around this issue by defining a custom [[function]] to unwrap the optional [[type]], increment it, and wrap it back into an optional [[type]]. however, this is an antipattern in [[functional programming]]. ideally, we would want to stay in the "optional" world while using a value and unwrap it only after being done all operations. this is what [[map function]]s are for.
 
 **examples**
 

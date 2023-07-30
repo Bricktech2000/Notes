@@ -32,7 +32,7 @@ derivatives and integrals at a point **`t`** can be written as follows:
 
 ## properties with [[proof]]s
 
-let **`UU c`**, see [[universal]], [[improved expression evaluation]]
+let **`UU c`**, see [[set#universal set]], [[improved expression evaluation]]
 
 **`$ dd y = y`**
 

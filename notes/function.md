@@ -303,7 +303,7 @@ _are multiple inputs collapsed into single outputs?_
 
 **aka** _one-to-one function_
 
-**definition** a [[function]] **`f`** is said to be _injective_ if **`f x_1 = f x_2 < x_1 = x_2`**, see [[universal]]. _for every output value there exists at most one input mapping to it_
+**definition** a [[function]] **`f`** is said to be _injective_ if **`f x_1 = f x_2 < x_1 = x_2`**, see [[set#universal set]]. _for every output value there exists at most one input mapping to it_
 
 given the graph of a [[function]], one can use the _horizontal [[line]] test_ to determine whether it is injective or not
 
@@ -313,7 +313,7 @@ a [[function]] can be proven to be injective by proving that two output values b
 
 **aka** _onto function_
 
-**definition** a [[function]] **`f`** with [[function#codomain]] **`C`** is said to be _surjective_ if **`C y < f x = y`**, see [[universal]]. _for every output value there exists at least one input mapping to it_
+**definition** a [[function]] **`f`** with [[function#codomain]] **`C`** is said to be _surjective_ if **`C y < f x = y`**, see [[set#universal set]]. _for every output value there exists at least one input mapping to it_
 
 a [[function]] can be proven to be surjective by proving one can construct an input value for the function given an arbitrary output value
 

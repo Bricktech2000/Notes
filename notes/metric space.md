@@ -27,7 +27,7 @@
 
 **definition**
 
-a [[metric space#metric]] **`d`** must satisfy the following [[axiom]]s for all **`M x /\ M y /\ M z`**:
+a [[metric space#metric]] **`d`** must satisfy the following [[axiom]]s for all **`M {x /\ y /\ z}`**:
 
 **`d x x = 0`**
 
