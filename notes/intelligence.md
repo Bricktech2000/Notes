@@ -21,6 +21,7 @@
 - Destin Sandlin from Smarter Every Day being described as smart by his teachers &mdash; <https://youtu.be/xLWUGumz1dI>
 - Tabs "sex chocolate" creator about his father's intelligence <https://youtu.be/Vt7ZWcyNc18?t=5095>
 - Dave from Dave's Garage being high-functioning because of his [[iq]] &mdash; <https://youtu.be/fJ9X5DSnVms?t=102>
+- [[iq]] of Derek from Veritasium was measured at 134 <https://youtu.be/FkKPsLxgpuY>>
 
 ## stuff I don't relate to
 

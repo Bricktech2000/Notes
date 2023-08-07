@@ -10,7 +10,7 @@ _a high-level language for implementing smart contracts_
 
 [[class]] members (which represent state) are stored directly on the [[blockchain]] in [[solidity]]. the [[class]] `constructor` (which initializes state) is called exactly one time when the smart contract gets deployed to the [[blockchain]]
 
-## data types
+## types and literals
 
 **see** [[type]]
 

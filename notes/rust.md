@@ -11,12 +11,22 @@ _a language for the next 40 years_
 - high performance (no garbage collector, zero-cost [[abstraction]]s)
 - great portability (compiles to LLVM bytecode which is widely supported)
 - great stability (very strong backwards compatibility)
-- great memory safety (done through the [[rust#borrow checker]])
+- great memory safety (done through the borrow checker)
 
 - relatively complex (more features and more syntax than languages like [[c]])
 - lacking ecosystem features (no standard, no LTS releases, no private crate hosting)
 
-## safety features
+## type system
+
+&mdash; <https://youtu.be/bnnacleqg6k>
+
+&mdash; <https://youtu.be/s5S2Ed5T-dc>
+
+the [[type#empty type]] `!`, pronounced _never_, is [[rust]]'s [[type#bottom type]]. it is the type of an expression that never returns, such as `panic!()` or `loop {}` &mdash; <https://doc.rust-lang.org/std/primitive.never.html>
+
+`()` is [[rust]]'s [[type#unit type]]. it is the type of an expression that returns nothing, such as `println!()` or `let x = 1;`
+
+## safety
 
 [[rust]] borrows many features from [[functional programming]] and makes them easy to use. for instance, [[rust]] has `Option`s instead of [[null]] pointers, and it has `Result`s instead of `try catch` exceptions.
 
@@ -24,16 +34,16 @@ accessing out-of-bounds memory causes either a compile time error or a `panic!` 
 
 [[rust]]'s [[type system]] checks thread safety at compile time as ownership rules apply across multiple threads
 
-### Borrow Checker
+### borrow checker
 
-_ownership and borrowing_
+[[rust]] borrow checker rules are as follows:
 
 - data can have either one mutable reference or any number of immutable references
 - the lifetime of a reference may not exceed the lifetime of the owner
 
-> _in fixing memory safety, the Rust team accidentally fixed everything_ &mdash; <https://youtu.be/Q3AhzHq8ogs?t=113>
+_in fixing memory safety, the Rust team accidentally fixed everything_ &mdash; <https://youtu.be/Q3AhzHq8ogs?t=113>
 
-### Unsafe System
+### unsafe system
 
 [[rust]]'s [[type system]] can be a bit restrictive for low-level programming. this is why [[rust]] has a way to bypass a few specific checks in the form of the `unsafe` keyword. consequently, [[rust]] code is safe by default
 
@@ -45,17 +55,13 @@ unsafe code can:
 - mutate global [[variable]]s
 - access fields of unions (see algebraic data [[type]]s)
 
-> other languages say _here is the line; you may never cross it_. [[rust]] says _cross here if you know what you're doing_ &mdash; <https://youtu.be/PuMXWc0xrK0?t=76>
+_other languages say "here is the line; you may never cross it". [[rust]] says "cross here if you know what you're doing"_ &mdash; <https://youtu.be/PuMXWc0xrK0?t=76>
 
 most languages have a floor for [[abstraction]]s, such as builtin functions like `parseInt` in [[javascript]] or `sorted` in [[python]]. in [[rust]], the `unsafe` system allows access to lower-level functionality **without** sacrificing high-level orgonomics.
 
-the unsafe code is for framework authors, meaning framework users don't have to worry about it. (duplicate)
+### macro system
 
-### Macro System
-
-the [[rust#macro system]] is Turing complete, see [[turing machine]]. they allow for both [[abstraction]]s and new syntax.
-
-[[rust]] macros are for framework authors, meaning framework users don't have to worry about them. (duplicate)
+the [[rust]] macro system is Turing complete, see [[turing machine]]. they allow for both [[abstraction]]s and new syntax
 
 ### smart pointers
 
@@ -103,6 +109,8 @@ Rust ensures "surprising" behavior is clearly sign-posted:
 
 ## Edition System
 
+&mdash; <https://youtu.be/A3AdN7U24iU?t=2009>
+
 for breaking changes (such as adding an `async` keyword), [[rust]] uses an edition system (such as the 2015 and 2018 editions), where the [[rust]] compiler understands all editions simultaneously. this means that a project written in any edition of [[rust]] can depend on a library written for any other edition of [[rust]], preventing ecosystem splits
 
 because of the way the compiler is currently built, maintenance to core [[rust]] functionality (such as borrow checking, [[optimization]], code generation) is not affected.
@@ -123,15 +131,3 @@ graph TD
   B --> B_HIR --> MIR
   MIR --> LLVM_IR --> MACHINE_CODE
 ```
-
-&mdash; <https://youtu.be/A3AdN7U24iU?t=2009>
-
-## Type System
-
-&mdash; <https://youtu.be/bnnacleqg6k>
-
-&mdash; <https://youtu.be/s5S2Ed5T-dc>
-
-`!`, pronounced _never_, is [[rust]]'s [[type#bottom type]]. it is the type of an expression that never returns, such as `panic!()` or `loop {}` &mdash; <https://doc.rust-lang.org/std/primitive.never.html>
-
-`()` is [[rust]]'s [[type#unit type]]. it is the type of an expression that returns nothing, such as `println!()` or `let x = 1;`

@@ -38,7 +38,7 @@ _an association that any given word or phrase carries_ &mdash; me
 >
 >   > they **should** get it touch soon
 >
->   the latter has a [[verbal#connotation]] of uncertainty whereas the latter does not &mdash; Hack the Hill #sponsorship
+>   the latter has a [[verbal#connotation]] of uncertainty whereas the latter does not &mdash; Hack the Hill#sponsorship
 >
 > - > **when** we come to paint these windows, we will [...]
 >
