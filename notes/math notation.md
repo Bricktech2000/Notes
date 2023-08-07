@@ -163,6 +163,8 @@ let:
   - [x] should **`"mod"`** be infix? should there exist [[infix notation]] [[string]] [[operator]]s?
   - [x] update **`/\ RR x /\ RR y`** and **`/\ NN m /\ NN n`** notations to use the [[combinator#psi combinator]]
   - [ ] is **`...`** necessary?
+  - [ ] do we want subscripts and superscripts? maybe just one character?
+  - [ ] should unary **`<`** be a sort or a reduce?
   - **`x = y`** has been taken to mean **`/\ {x = y}`** whereas **`x : y`** means **`{x : y}`** and so should **`x = y`**, see <https://www.cs.utexas.edu/users/EWD/transcriptions/EWD13xx/EWD1300.html>
 
 - ambiguity:
@@ -277,12 +279,12 @@ already updated:
 | definition of factorials                     | **`"fact" n = 1 \| ... n`**                | $\displaystyle n! = \prod_{i = 1}^n i$                                                                   |
 | the resonant [[frequency]] of an LC circuit  | **`f = -- tt \"LC"/`**                     | $\displaystyle f = \frac{1}{2 \pi \sqrt{LC}}$                                                            |
 | definition of the [[dot product]]            | **`:xy`**                                  | $\displaystyle x \cdot y  = \sum_{i=1}^n x_i y_i$                                                        |
-| definition of the [[matrix#trace]]           | **`:{A *}`**                               | $\displaystyle \operatorname{tr}(A) = \sum_{i=1}^n a_{ii}$                                               |
+| definition of the [[matrix#trace]]           | **`:{A *}`**                               | $\displaystyle \operatorname{tr}(A) = \sum_{i=1}^n A_{ii}$                                               |
 | definition of the [[outer product]]          | **`x * \| y *`**                           | $\displaystyle (x \otimes y)_{i, j}  = x_i \times y_j$                                                   |
 | definition of the [[cartesian product]]      | **`__ (X, Y) *`**                          | $\displaystyle X \times Y = \lbrace (x, y) \mid x \in X \text{ and } y \in Y \rbrace$                    |
 | definition of [[vector in rn#magnitude]]     | **`\:v2/`**                                | $\displaystyle \vert v \vert = \sqrt{v_x^2 + v_y^2 + \dots}$                                             |
 | definition of [[set]] difference             | **`A /\ +B`**                              | $\displaystyle A \setminus B = \{x : x \in A \text{ and } x \notin B\}$                                  |
-| the [[activation function#softmax function]] | **`ss^i z = [z^i] -- :[z]`**               | $\displaystyle \sigma(s)_c = \frac{\exp(s_c)}{\sum_{c'} \exp(s_{c'})}$                                   |
+| the [[activation function#softmax function]] | **`ss z = {*-:} [z]`**                     | $\displaystyle \sigma(s)_c = \frac{\exp(s_c)}{\sum_{c'} \exp(s_{c'})}$                                   |
 | definition of [[information entropy]]        | **`H = :PI`**                              | $\displaystyle H(X) = \sum_{i=1}^n P(x_i) \cdot I(x_i)$                                                  |
 | the [[p-adic#absolute value]]                | **`"abs"^p n = --p[yy n p]`**              | not really doable in a concise way without using plain English                                           |
 | the **`n`**th column of a [[matrix]]         | **`rr M n`**                               | $(M^\intercal)_n$ or $\operatorname{col}_n(M)$ or $M_{\cdot j}$ &mdash; nothing standard                 |

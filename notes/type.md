@@ -12,15 +12,11 @@ as examples, in Haskell, type `Bool` is a two-element [[set]] of `True` and `Fal
 
 **definition** the _top type_ is the [[type]] that is a [[type#supertype]] of all other [[type]]s
 
-> **equivalence** _[[set#universal set]] and [[type#top type]]_
-
 > **example** `Object` is [[javascript]]'s and [[java]]'s [[type#top type]] and `interface{}` is [[go]]'s [[type#top type]]
 
 ## Bottom Type
 
 **definition** the _bottom type_ is the [[type]] that is a [[type#subtype]] of all other [[type]]s
-
-> **equivalence** _[[set#empty set]] and [[type#bottom type]]_
 
 > **example** `!` is [[rust]]'s [[type#bottom type]]
 
@@ -37,6 +33,18 @@ the [[type#unit type]] can be thought of as the [[type#product type]] of zero [[
 > **equivalence** _[[set#singleton set]] and [[type#unit type]]_
 
 > **example** `()` is [[rust]]'s and Haskell's [[type#unit type]] and `void` is [[c]]'s [[type#unit type]]
+
+## Empty Type
+
+&mdash; <https://en.wikipedia.org/wiki/Empty_type>
+
+**definition** an _empty type_ is a [[type]] with no inhabitants
+
+all [[type#empty type]]s are isomorphic, and thus it is common to refer to one as _the_ [[type#empty type]]
+
+> **equivalence** _[[set#empty set]] and [[type#empty type]]_
+
+> **example** `enum {}` and `!` are [[rust]]'s [[type#empty type]]s
 
 ## Subtype
 
@@ -61,18 +69,9 @@ the _subtype_ [[relation]] is a [[partial order]] &mdash; <https://youtu.be/hy1w
 > **example** _ADT [[composition]]_
 >
 > ```rust
-> enum PaymentMethod {
->   Cash,
->   Check { checkNumber: u32 },
->   CreditCard {
->     cardType: CardType,
->     cardNumber: String,
->   },
-> };
->
-> enum CardType {
->   Visa,
->   Mastercard
+> struct Payment {
+>   amount: PaymentAmount,
+>   method: PaymentMethod,
 > };
 >
 > enum PaymentAmount {
@@ -80,17 +79,34 @@ the _subtype_ [[relation]] is a [[partial order]] &mdash; <https://youtu.be/hy1w
 >   CAD(u32),
 > };
 >
-> struct Payment {
->   amount: PaymentAmount,
->   method: PaymentMethod,
+> enum PaymentMethod {
+>   Cash,
+>   Check {
+>     checkNumber: CheckNumber
+>   },
+>   CreditCard {
+>     cardType: CardType,
+>     cardNumber: CardNumber,
+>   },
+> };
+>
+> type CheckNumber = u32;
+>
+> type CardNumber = u32;
+>
+> enum CardType {
+>   Visa,
+>   Mastercard
 > };
 > ```
 >
 > &mdash; <https://youtu.be/mRwHZTNGdoY?t=2366>
+>
+> &mdash; <https://youtu.be/2JB1_e5wZmU?t=23m46s>
 
 **applications**
 
-algebraic data [[type]]s can be used in [[programming language]]s to make invalid states unrepresentable by only modeling valid states
+leveraging [[type#algebraic data type]]s allows us to _make illegal states unrepresentable_ &mdash; Yaron Minsky, &mdash; <https://youtu.be/2JB1_e5wZmU?t=46m16s>
 
 ### Sum Type
 

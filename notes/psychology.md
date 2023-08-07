@@ -8,7 +8,7 @@
 
 [[reaction]], [[response]]
 
-[[hijacking brain circuitry]], [[subconscious manipulation]], [[intent to mastery]]
+[[brain circuitry hijack]], [[subconscious manipulation]], [[intent to mastery]]
 
 [[memory]], [[memory technique]]
 

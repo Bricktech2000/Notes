@@ -8,7 +8,7 @@
 
 **aka** _commutative [[group]]_
 
-_a [[group]] whose [[group#operation]] is associative_
+_a [[group]] whose [[group#operation]] is commutative_
 
 &mdash; <https://en.wikipedia.org/wiki/Abelian_group>
 

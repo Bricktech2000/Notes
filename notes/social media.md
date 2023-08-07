@@ -6,7 +6,7 @@
 
 [[social media]] has devastating effects on teenagers, including making them feel like they need to be perfect, feel undesirable and unloved, feel like they do not have enough [[money]] or friends, and so on
 
-this can lead to [[anxiety]] disorders, [[depression]] and [[addiction]]. [[social media]] seems to take advantage of [[hijacking brain circuitry]] and [[subconscious manipulation]] to keep users hooked
+this can lead to [[anxiety]] disorders, [[depression]] and [[addiction]]. [[social media]] seems to take advantage of [[brain circuitry hijack]]ing and [[subconscious manipulation]] to keep users hooked
 
 [[social media]] does more than selling its users' attention to advertisers:
 

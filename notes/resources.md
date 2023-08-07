@@ -34,3 +34,4 @@
 - _Advanced [[c]]: The UB and optimizations that trick good programmers._ &mdash; <https://youtu.be/w3_e9vZj7D8>
 - _A firehose of Rust_, good overview of why the [[rust]] borrow checker is valuable &mdash; <https://youtu.be/IPmRDS0OSxM>
 - [[vim]] bindings crash course by Ben Awad &mdash; <https://youtu.be/IiwGbcd8S7I>
+- _Domain Modeling Made Functional_, through the use of [[type#algebraic data type]]s &mdash; <https://youtu.be/2JB1_e5wZmU>

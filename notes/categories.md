@@ -142,7 +142,7 @@
 
 [[ingredient]]s
 
-[[delta equivalence]]
+[[delta invariance]]
 
 [[ieee 754]]
 

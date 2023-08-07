@@ -1,4 +1,4 @@
-# Hijacking Brain Circuitry
+# Brain Circuitry Hijack
 
 &mdash; <https://youtu.be/DMw8G3RPWrQ?t=7038>
 

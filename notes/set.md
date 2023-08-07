@@ -32,8 +32,6 @@ _elements are unique_ **`{{1, 1, 1}} = {{1, 1}} = ...`**
 
 **definition** **`UU x == +{ } == + x -> __ == x -> ^^`**
 
-> **equivalence** _[[set#universal set]] and [[type#top type]]_
-
 **properties** **`/\ UU |- A`**, for all [[set]] **`A`**
 
 ## Empty Set
@@ -42,7 +40,7 @@ _elements are unique_ **`{{1, 1, 1}} = {{1, 1}} = ...`**
 
 **definition** **`x -> __`**
 
-> **equivalence** _[[set#empty set]] and [[type#bottom type]]_
+> **equivalence** _[[set#empty set]] and [[type#empty type]]_
 
 **properties** **`/\ {{ }} -| A`**, for all [[set]] **`A`**
 
@@ -141,12 +139,12 @@ _product principle_ the cardinality of the [[cartesian product]] of two [[set]]s
 
 _order matters_
 
-**definition** an _arrangement_ of size **`k`** of a [[set]] **`A`** is a [[vector in rn]] containing **`k`** elements of **`A`**
+**definition** an _arrangement_ of size **`k`** of a [[set]] **`A`** is a [[list]] containing **`k`** elements of **`A`**
 
 the number of **`k`**-arrangements of an **`n`**-set is
 
-- **`P n k = PP n -- PP (n.k)`** with repetition forbidden. also called _**`k`**-permutations_
-- **`P_*  n k = [n]k`** with repetition allowed. also called _**`k`**-tuples_
+- **`P n k = PP {n -- n.k}`** with repetition forbidden. also called _**`k`**-permutations_
+- **`P_* n k = [n]k`** with repetition allowed. also called _**`k`**-tuples_
 
 ## Combination
 
@@ -156,7 +154,7 @@ _order does not matter_
 
 the number of **`k`**-combinations of an **`n`**-set is
 
-- **`C n k = P n k -- P k k = PP n -- PP (n.k) -- PP k`** with repetition forbidden. also called _**`k`**-subsets_
+- **`C n k = P {n -- k} k = PP {n -- n.k -- k}`** with repetition forbidden. also called _**`k`**-subsets_
 - **`C_* n k = C (n:k.1) (k.1)`** with repetition allowed. also called _**`k`**-multisubsets_
 
 > **proof** _stars and bars [[proof]] sketch_
@@ -182,7 +180,7 @@ the number of **`k`**-combinations of an **`n`**-set is
 > - the number of **`k`**-combinations from an **`n`**-[[set]] with repetition allowed
 > - the number of **`k`**-[[multiset]]s from an **`n`**-[[set]]
 > - the number of ways of distributing **`n`** identical marbles into **`k`** distinguishable boxes
-> - the number of solutions to **`:x = n`** with **`NN x^i`** for all **`i`**
+> - the number of solutions to **`:x = n`** with **`/\ NN x *`**
 > - the number of **`n`**-subsets of an **`n:k.1`**-[[set]]
 > - the number of **`k.1`**-subsets of an **`n:k.1`**-[[set]]
 
