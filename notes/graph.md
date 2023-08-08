@@ -6,7 +6,9 @@ _a collection of vertices connected by a collection of edges_
 
 **definition** _formally in my [[math notation]]_ a [[graph]] is a [[set theory]]etical [[function]] that takes two vertices and returns whether an edge is connecting them
 
-**definition** an _undirected graph_ is a [[graph]] **`G`** such that **`{= rr} G`**, see [[combinator#s combinator]]
+**definition** an _undirected graph_ is a [[graph]] **`G`** such that **`{= rr} G`**
+
+**definition** a _weighted graph_ is a [[graph]] **`G`** such that **`RR (G a b)`** for all **`a`** and **`b`**
 
 **definition** in [[conventional math notation]], a _graph_ **`{V, E}`** is a [[set]] of _vertices_ **`V`** and a [[multiset]] of _edges_ **`E`** such that **`E e + 0 < V e^.^^ /\ V e^.__`** and **`E e == E (rr e)`** (see [[relation]], [[ordered pair]])
 
@@ -16,15 +18,15 @@ _a collection of vertices connected by a collection of edges_
 
 **definition** an _edge_ is a connection between two _vertices_
 
-**definition** a vertex is _incident_ to an edge if the vertex is one of the two vertices the edge connects
+**definition** a vertex is _incident_ to an edge if the vertex is connected to the edge
 
-**representation**
+**definition** two vertices are _neighbors_ if they are connected by an edge
 
-below are two equivalent representations of a sample [[graph]]
+**definition** a _path_ is a [[sequence]] of edges connecting a [[sequence]] of vertices
 
-![[20220718021503.png]]
+**definition** a _cycle_ is a _path_ that starts and ends at the same vertex
 
-![[20220718021524.png]]
+**definition** two vertices are _connected_ if there exists a _path_ between them
 
 ## vertex membership
 
@@ -60,7 +62,7 @@ below are two equivalent representations of a sample [[graph]]
 
 ## Vertex Degree
 
-**definition** the _degree_ of a vertex **`v`** is the number of edges incident to **`v`**
+**definition** the _degree_ of a vertex **`v`** is the number of edges incident to it, **`# G v`**
 
 as every edge connects two vertices, the sum of the [[graph#vertex degree]]s of all vertices of a [[graph]] is an [[even number]]. if this is not the case, the [[graph]] is not a [[graph]] as at least one of its edges is not connected to two vertices
 
@@ -70,7 +72,7 @@ as every edge connects two vertices, the sum of the [[graph#vertex degree]]s of 
 
 **definition** an _Euler path_ is a path traversing every edge of a [[graph]] exactly once
 
-**definition** an _Euler circuit_ is an _Euler path_ that starts and ends at the same vertex
+**definition** an _Euler circuit_ is an _Euler path_ that is a _cycle_
 
 when visiting a vertex in a [[graph#euler path]] or [[graph#euler circuit]], one edge is used to go to the vertex and another edge is used to leave it. from this fact the following theorems are derived:
 

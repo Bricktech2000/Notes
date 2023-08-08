@@ -335,10 +335,10 @@ while (expression) statement
 do statement while (expression)
 for (expression; expression; expression) statement
 switch (expression) statement
-goto label;
-continue;
-break;
-return expression;
+goto label
+continue
+break
+return expression
 ```
 
 the type of the controlling expression to a `switch` statement must be an _integer type_. _integer promotions_ are performed on the controlling expression. the constant expression in each `case` label is converted to the type of the promoted controlling expression
