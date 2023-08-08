@@ -32,16 +32,16 @@ italics are used for informal and opinionated statements, and literal aoenuatose
   the following headings are used in blockquotes:
 
   - **note**
-  - **example**
   - **proof**
+  - **example**
   - **procedure**
-  - **equivalence**
 
   the following headings are used inline:
 
   - **see**
   - **aka**
   - **types**
+  - **equiv**
   - **theorem**
   - **definition**
   - **properties**
@@ -55,12 +55,12 @@ italics are used for informal and opinionated statements, and literal aoenuatose
 
 - [[wikilink]]s are generally avoided in headings
 - a page can link to itself
-- most [[fact]]s, opinions and judgements are accompanied by their source and not just stated as an absolute truth
+- most [[fact]]s, opinions and judgements are accompanied by their source and not solely stated as absolute truths
+- line breaks are used exclusively semantically and never to make the [[markdown]] source more readable
+- horizontal rules are occasionally used to separate one file into different sections
+- each page has one title-case first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule
 - note names are reduced to their simplest form. they are mostly singular nominal groups, and sometimes adjectives when more appropriate. diacritics are removed from them
 - file names are lowercase. diacritics are removed from them
-- line breaks are used exclusively for how they look in the render and never to make the [[markdown]] source more readable (which is why almost no single line breaks are used)
-- horizontal rules are occasionally used to separate a whole file in different sections
-- each page has one title-case first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule
 - box titles such as that of the [[conventions]] page are generated using <https://lingojam.com/BoldTextGenerator>
 - "lax" syntax and punctuation is used; that is,
   - the first word of a sentence is not capilatized

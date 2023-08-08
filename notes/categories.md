@@ -30,8 +30,6 @@
 
 [[region size formula]]
 
-[[indicator generalization]]
-
 [[improper measurement scale]]
 
 [[distance pair kinship]]

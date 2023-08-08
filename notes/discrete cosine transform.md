@@ -8,7 +8,7 @@
 
 **`CC x f = :(S (# x) f)x`**, where
 
-- **`x`** is a signal consisting of a [[list]] of **`n`** samples
+- **`x`** is a signal consisting of a [[list]] of samples
 - **`S n f`** is a [[list]] of **`n`** samples of the cosine wave of frequency **`f`**, defined as **`i -> "cos" (i:-2--n | -2tt | f)`**
 - **`CC x f`** is the "amount of" cosine wave of frequency **`f`** in the signal **`x`**
 

@@ -5,3 +5,5 @@
 [[inferential statistics]]
 
 [[probability]]
+
+[[proxy]]
