@@ -36,33 +36,33 @@ _elements are unique_ **`{{1, 1, 1}} = {{1, 1}} = ...`**
 
 ## Empty Set
 
+**equiv** _[[type#empty type]]_
+
 **definition** **`{{ }}`**
 
 **definition** **`x -> __`**
-
-> **equivalence** _[[set#empty set]] and [[type#empty type]]_
 
 **properties** **`/\ {{ }} -| A`**, for all [[set]] **`A`**
 
 ## Singleton Set
 
-**definition** a _singleton set_ is a [[set]] **`A`** with **`# A = 1`**
+**equiv** _[[type#unit type]]_
 
-> **equivalence** _[[set#singleton set]] and [[type#unit type]]_
+**definition** a _singleton set_ is a [[set]] **`A`** with **`# A = 1`**
 
 ## Subset
 
 ## Superset
+
+**equiv** _[[type#subtype]]_
+
+**equiv** _[[type#supertype]]_
 
 **definition** a [[set]] **`A`** is a _subset_ of a [[set]] **`B`** if and only if every element of **`A`** is an element of **`B`**
 
 **definition** a [[set]] **`B`** is a _superset_ of a [[set]] **`A`** if and only if every element of **`A`** is an element of **`B`**
 
 in other words, an element being in **`A`** implies it is also in **`B`**
-
-> **equivalence** _[[set#subset]] and [[type#subtype]]_
-
-> **equivalence** _[[set#superset]] and [[type#supertype]]_
 
 **notation** _in my [[math notation]]_ **`/\ A -| B`** checks whether **`A`** is a [[set#subset]] of **`B`**
 

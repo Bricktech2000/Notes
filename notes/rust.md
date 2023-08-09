@@ -26,6 +26,8 @@ the [[type#empty type]] `!`, pronounced _never_, is [[rust]]'s [[type#bottom typ
 
 `()` is [[rust]]'s [[type#unit type]]. it is the type of an expression that returns nothing, such as `println!()` or `let x = 1;`
 
+`struct` is a [[type#product type]] and `enum` is a [[type#sum type]] of [[type#product type]]s
+
 ## safety
 
 [[rust]] borrows many features from [[functional programming]] and makes them easy to use. for instance, [[rust]] has `Option`s instead of [[null]] pointers, and it has `Result`s instead of `try catch` exceptions.

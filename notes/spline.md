@@ -192,13 +192,11 @@ the _tangent points_ of a [[spline#cubic bezier spline]] are the pairs of contro
 
 &mdash; <https://youtu.be/jvPPXbo87ds?t=2525>
 
-> **equivalence** _[[spline#cubic hermite spline]]s and [[spline#cubic bezier spline]]s with control points at distance **`-3`** the length of the velocity vectors_
->
-> **representation**
->
-> ![[Pasted image 20221229172408.png]]
->
-> &mdash; <https://youtu.be/jvPPXbo87ds?t=2613>
+**equiv** _[[spline#cubic bezier spline]] with control points at distance **`-3`** the length of the velocity vectors_
+
+![[Pasted image 20221229172408.png]]
+
+&mdash; <https://youtu.be/jvPPXbo87ds?t=2613>
 
 **preperties**
 

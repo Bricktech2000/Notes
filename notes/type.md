@@ -20,9 +20,23 @@ as examples, in Haskell, type `Bool` is a two-element [[set]] of `True` and `Fal
 
 > **example** `!` is [[rust]]'s [[type#bottom type]]
 
+## Empty Type
+
+&mdash; <https://en.wikipedia.org/wiki/Empty_type>
+
+**equiv** _[[set#empty set]]_
+
+**definition** an _empty type_ is a [[type]] with no inhabitants
+
+all [[type#empty type]]s are isomorphic, and thus it is common to refer to one as _the_ [[type#empty type]]
+
+> **example** `enum {}` and `!` are [[rust]]'s [[type#empty type]]s
+
 ## Unit Type
 
 &mdash; <https://en.wikipedia.org/wiki/Unit_type>
+
+**equiv** _[[set#singleton set]]_
 
 **definition** a _unit type_ is a [[type]] with exactly one inhabitant
 
@@ -30,33 +44,19 @@ all [[type#unit type]]s are isomorphic, and thus it is common to refer to one as
 
 the [[type#unit type]] can be thought of as the [[type#product type]] of zero [[type]]s, which is an empty tuple
 
-> **equivalence** _[[set#singleton set]] and [[type#unit type]]_
-
 > **example** `()` is [[rust]]'s and Haskell's [[type#unit type]] and `void` is [[c]]'s [[type#unit type]]
-
-## Empty Type
-
-&mdash; <https://en.wikipedia.org/wiki/Empty_type>
-
-**definition** an _empty type_ is a [[type]] with no inhabitants
-
-all [[type#empty type]]s are isomorphic, and thus it is common to refer to one as _the_ [[type#empty type]]
-
-> **equivalence** _[[set#empty set]] and [[type#empty type]]_
-
-> **example** `enum {}` and `!` are [[rust]]'s [[type#empty type]]s
 
 ## Subtype
 
 ## Supertype
 
+**equiv** _[[set#subset]]_
+
+**equiv** _[[set#superset]]_
+
 **definition** a [[type]] `A` is a [[type#subtype]] of a [[type]] `B` if all inhabitants of `A` are also inhabitants of `B`
 
 **definition** a [[type]] `A` is a [[type#supertype]] of a [[type]] `B` if all inhabitants of `B` are also inhabitants of `A`
-
-> **equivalence** _[[set#subset]] and [[type#subtype]]_
-
-> **equivalence** _[[set#superset]] and [[type#supertype]]_
 
 **properties**
 
@@ -112,8 +112,6 @@ leveraging [[type#algebraic data type]]s allows us to _make illegal states unrep
 
 **aka** _"or" type_
 
-> **equivalence** _[[type#sum type]] and [[rust]] `enum`_
-
 **properties**
 
 the [[set#cardinality]] of a [[type#sum type]] is the sum of the [[set#cardinality]]es of its constituent [[type]]s
@@ -121,8 +119,6 @@ the [[set#cardinality]] of a [[type#sum type]] is the sum of the [[set#cardinali
 ### Product Type
 
 **aka** _"and" type, "choice" type, `pair`, `struct`_
-
-> **equivalence** _[[type#product type]] and [[rust]] `struct`_
 
 **properties**
 

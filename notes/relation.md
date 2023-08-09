@@ -23,11 +23,11 @@ _membership in [[conventional math notation]]_ $x \mathcal R y$
 
 ## Inverse Relation
 
+**equiv** _[[ordered pair#inverse]]_
+
 **definition** **`RR {+} *`**
 
 **notation** **`RR {+} *`**
-
-> **equivalence** _[[ordered pair#inverse]] and [[relation#inverse relation]]_
 
 **properties**
 

@@ -13,4 +13,4 @@
 
 > **note** squaring the [[distance]] between every element and the [[sample]] [[mean]] makes it so that outliers have a greater effect on the result
 
-> **equivalence** _[[variance]] and [[loss function#mean squared error]] with [[sample#mean]] as expected [[neural network]] output_
+**equiv** _[[variance]] and [[loss function#mean squared error]] with [[sample#mean]] as expected [[neural network]] output_

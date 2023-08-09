@@ -33,11 +33,11 @@ _multiplication by a [[scalar]]_ **`c{a, b} == {ca, cb} > RR c`**
 
 _switches around the two elements of an [[ordered pair]]_
 
+**equiv** _[[relation#inverse relation]]_
+
 **notation** **`P {+} *`**
 
 **definition** **`P {+} *`**
-
-> **equivalence** _[[ordered pair#inverse]] and [[relation#inverse relation]]_
 
 > **note** &mdash; me; likely has no [[conventional math notation]] equivalent
 

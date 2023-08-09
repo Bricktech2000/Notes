@@ -35,11 +35,11 @@ _positive_ **`d x y |- 0`**
 
 _symmetric_ **`d x y = d y x`**
 
-> **equivalence** _[[metric space]] symmetry and [[relation#symmetric relation]]_
+**equiv** _symmetry with [[relation#symmetric relation]]_
 
 _triangle inequality_ **`d x z -| d x y : d y z`**
 
-> **equivalence** _[[metric space]] triangle inequality and [[relation#transitive relation]]_
+**equiv** _triangle inequality with [[relation#transitive relation]]_
 
 ## Convergent Sequence
 

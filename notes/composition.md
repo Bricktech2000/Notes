@@ -2,6 +2,8 @@
 
 **see** [[math notation]], [[function]]
 
+**equiv** _[[combinator#b combinator]]_
+
 **definition** _composition in my [[math notation]]_
 
 **`C f g = x -> f (g x)`**, where
@@ -18,8 +20,6 @@
 >
 > let `f :: A -> B` and `g :: B -> C`. then, `g . f` has type signature `A -> C`
 
-> **equivalence** _[[combinator#b combinator]] and [[function]] [[composition]]_
-
 **properties**
 
 _associativity_ **`h (g f *) * == (h g *) f * == h g f *`** &mdash; <https://youtu.be/SmXB2K_5lcA?t=662>
@@ -34,10 +34,10 @@ _associativity_ **`h (g f *) * == (h g *) f * == h g f *`** &mdash; <https://you
 
 **aka** _identity [[function]]_
 
+**equiv** _[[combinator#i combinator]]_
+
 **notation** **`{*}`**
 
 **definition** **`{*}`**
 
 **properties** **`{*} x == x`**
-
-> **equivalence** _[[combinator#i combinator]] and [[composition#identity]]_

@@ -12,7 +12,7 @@ an [[algebraic structure]] consists of:
 - a collection of operations on the underlying [[set]], typically binary operations
 - a finite set of identities the operations must satisfy, knows as _[[axiom]]s_
 
-> **equivalence** _[[abstract data type]]s and [[algebraic structure]]s_ &mdash; <https://en.wikipedia.org/wiki/Algebraic_structure>
+**equiv** _[[abstract data type]]_ &mdash; <https://en.wikipedia.org/wiki/Algebraic_structure>
 
 > **examples** _[[algebraic structure]]s_
 >

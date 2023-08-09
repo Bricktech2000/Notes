@@ -30,9 +30,7 @@ _2's [[complement]] in base 2, 16's [[complement]] in base 16_
 
 > **note** in [[hexadecimal]], the bit pattern of the 16's [[complement]] is the same as the bit pattern of the 2's [[complement]], and so the 16's [[complement]] is almost never used in [[computer science]]
 
-> **equivalence** _[[complement#radix complement]] and modular arithmetic_
->
-> [[complement#radix complement]]s can be thought of as modular arithmetic where the **`n`**'s complement of an [[integer]] **`A`** of **`p`** bits is the [[integer]] **`B`** such that **`"mod" [n]p {A : B = 0}`** &mdash; me
+**equiv** _modular arithmetic_ [[complement#radix complement]]s can be thought of as modular arithmetic where the **`n`**'s complement of an [[integer]] **`A`** of **`p`** bits is the [[integer]] **`B`** such that **`"mod" [n]p {A : B = 0}`** &mdash; me
 
 **properties**
 

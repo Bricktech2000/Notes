@@ -165,11 +165,11 @@ this leads to the [[category]] of [[category]]es. functors must use a pair of [[
 
 &mdash; <https://youtu.be/Gai-liKAUPo?t=190>
 
+**equiv** _[[matrix#transpose]]_
+
 **definition** the _oposite category_ of any [[category]] **`CC`** is **`rr CC`**
 
 this can be thought of as "reversing the direction" of the "arrows" in the [[category]] diagram
-
-> **equivalence** _[[category#opposite category]] and [[matrix#transpose]]_
 
 **notation** _in [[conventional math notation]]_ $\mathcal C^{\text{op}}$
 

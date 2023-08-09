@@ -11,10 +11,6 @@ a [[functor]]:
 - has a [[map function]]
 - must have a sensible implementation following the [[functor#laws]]
 
-> **equivalence** _[[functor]] [[return function]] and map between [[category#object]]s_
-
-> **equivalence** _[[functor]] [[map function]] and map between [[category#morphism]]s_
-
 **applications** **see** [[map function]]
 
 # Laws
