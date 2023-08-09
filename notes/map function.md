@@ -4,6 +4,8 @@ _lifts a horizontal [[function]] to the effects world_
 
 **aka** _`lift`, `select`, `fmap`, `<$>`_
 
+**equiv** _[[map]] between [[category#morphism]]s_
+
 **definition** the [[map function]] "lifts" a [[function]] to the effects world
 
 **definition**

@@ -45,7 +45,7 @@ _in my [[math notation]]_
 
 ## Church Booleans
 
-> **equivalence** _[[lambda calculus#church booleans]] and [[boolean algebra]]_
+**equiv** _[[boolean algebra]]_
 
 [[boolean]] values and [[boolean algebra#operators]] can be defined as follows:
 
@@ -66,7 +66,7 @@ we can then define:
 
 ## Pairs
 
-> **equivalence** _[[lambda calculus#pairs]] and [[ordered pair]]_
+**equiv** _[[ordered pair]]_
 
 [[ordered pair]]s can be defined as follows:
 
@@ -76,7 +76,7 @@ we can then define:
 
 ## Church Encoding
 
-> **equivalence** _[[lambda calculus#church encoding]] and [[natural]] numbers_
+**equiv** _[[natural]]s_
 
 [[natural]] numbers can be defined as follows:
 

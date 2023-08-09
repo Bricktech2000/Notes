@@ -28,9 +28,9 @@ the _least common multiple_ of **`a`** and **`b`** is **`| yy {a ^^ b}`**
 
 by the [[fundamental theorem of arithmetic]], the [[psi function]] is a [[function#bijective function]]
 
-**equivalences**
+**examples**
 
-> **equivalence** _the [[category]] **`NN /\ +0, "divides"`** and the [[category]] **`"multiset of primes", "multisubset"`**_
+> **example** the [[category]] **`NN /\ +0, "divides"`** and the [[category]] **`"multiset of primes", "multisubset"`** are equivalent
 >
 > the [[psi function]] is a [[functor]] from the [[category]] **`NN /\ +0, "divides"`** to the [[category]] **`"multiset of primes", "multisubset"`**
 >

@@ -2,13 +2,13 @@
 
 _returns a [[vector in rn]] representing the direction of steepest ascent of a [[function]] at a given point_
 
+**equiv** _[[jacobian#matrix]]_
+
 **see** [[math notation]], [[calculus]], [[derivative#partial derivative]], [[jacobian]]
 
 **notation** _in [[conventional math notation]]_ the [[gradient]] of **`f`** is denoted $\nabla f(\dots)$
 
 **definition** let **`f`** be a [[function]] differentiable at **`p = (x ...)`**. then, the _gradient_ of **`f`** at **`p`** is defined to be **`dd f p -- dd p *`**, or equivalently **`dd f p -- dd p`**
-
-> **equivalence** _[[jacobian#matrix]] and [[gradient]]_
 
 ## Descent
 

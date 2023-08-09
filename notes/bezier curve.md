@@ -87,9 +87,9 @@ the [[bezier curve]] **`B p`** of degree **`n`** with control points **`p^0 ... 
 
 ## Linear Bezier Curve
 
-**definition** a _linear bezier curve_ is a [[bezier curve]] of degree **`1`**
+**equiv** _linear interpolation **`"lerp"`**_
 
-> **equivalence** _[[bezier curve#linear bezier curve]] and linear interpolation **`"lerp"`**_
+**definition** a _linear bezier curve_ is a [[bezier curve]] of degree **`1`**
 
 **representation**
 

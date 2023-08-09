@@ -32,6 +32,14 @@ _commutativity_ **`CC a b == CC b a`** or equivalently **`CC == rr CC`**
 
 _associativity_ **`CC (CC a b) c == CC a (CC b c)`**
 
+**equiv** _[[polynomial]] multiplication_
+
+**`CC (1, 2, 3) (4, 5, 6) = (4, 13, 28, 27, 18)`**
+
+**`1x0 : 2x1 : 3x2 | 4x0 : 5x1 : 6x2 = 4x0 : 13x1 : 28x2 : 27x3 : 18x4`**
+
+&mdash; <https://youtu.be/KuXjwB4LzSA?t=879>
+
 **applications**
 
 moving averages
@@ -61,13 +69,3 @@ sums of [[probability distribution]]s
 > **example**
 >
 > let a fair dice with [[probability distribution]] **`d = x -> {0, -6} {{1 ... 6}} x`**. the probability of rolling two such die such that the sum of their values is **`n`** is **`(CC d d) n`**
-
-**equivalences**
-
-> **equivalence** _[[convolution]] and [[polynomial]] multiplication_
->
-> **`CC (1, 2, 3) (4, 5, 6) = (4, 13, 28, 27, 18)`**
->
-> **`1x0 : 2x1 : 3x2 | 4x0 : 5x1 : 6x2 = 4x0 : 13x1 : 28x2 : 27x3 : 18x4`**
->
-> &mdash; <https://youtu.be/KuXjwB4LzSA?t=879>

@@ -12,4 +12,4 @@
 
 > **example** _less than_ is a strict [[preorder]] and equivalently a strict [[partial order]] on the [[set]] of [[real]]s
 
-> **equivalence** _strict [[preorder]] and strict [[partial order]]_
+**equiv** _strict with strict [[partial order]]_

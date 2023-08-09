@@ -4,6 +4,8 @@ _lifts a value to the effects world_
 
 **aka** _`pure`, `unit`_
 
+**equiv** _[[map]] between [[category#object]]s_
+
 **see** [[effect type]], [[functional programming]]
 
 **definition** the [[return function]] lifts a value to the effects world. can be thought of as the constructor to an [[effect type]] or as wrapping a value into an [[effect type]]

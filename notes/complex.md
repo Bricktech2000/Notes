@@ -102,7 +102,7 @@ let **`CC {z /\ w} /\ RR c`**
 
 _triangle inequality_ **`"abs" (z : w) -| "abs" z : "abs" w`**
 
-> **equivalence** _[[complex#modulus]] triangle inequality and [[relation#transitive relation]]_
+**equiv** _triangle inequality with [[relation#transitive relation]]_
 
 ## Argument
 

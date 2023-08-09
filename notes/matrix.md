@@ -38,6 +38,8 @@ _commutativity with [[scalar]]s_ **`kA = Ak`**
 
 #todo mm
 
+**equiv** _[[linear transformation]]_
+
 **see** [[dot product]], [[vector in rn]]
 
 **definition**
@@ -69,8 +71,6 @@ _associative with [[scalar]]s_ **`k(AB) = (kA)B = A(kB)`**
 [[matrix#multiplication]] can be used to represent a [[linear system]] of [[linear equation]]s. matrix-vector products can be seen as yielding a [[linear combination]] of the columns of the [[matrix]]:
 
 **`[]1 & 2 & 3 && 4 & 5 & 6[][]x && y && z[] = x[]1 && 4[] : y[] 2 && 5[] : z[]3 && 6[]`**
-
-> **equivalence** _[[matrix#multiplication]] and [[linear transformation]]s_
 
 ## Identity Matrix
 
@@ -192,7 +192,7 @@ _the transpose of a [[matrix]]_
 
 _flips a [[matrix]] around its [[matrix#diagonal]]_
 
-> **equivalence** _[[combinator#c combinator]] and [[matrix#transpose]]_
+**equiv** _[[combinator#c combinator]]_
 
 **notation** **`rr A`**
 

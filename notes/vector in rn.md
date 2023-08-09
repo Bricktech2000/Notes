@@ -1,16 +1,12 @@
 # Vector in Rn
 
-_vectors in **`RR^n`**_
+**equiv** _[[list]] of **`RR`**_
 
 **see** [[math notation]], [[math notation]], [[vector]] properties
 
 **definition** a _vector in **`RR^n`**_ is an ordered collection of elements that do not have to be unique
 
 **definition** _formally in my [[math notation]]_ a [[vector]] is a [[set theory]]etical [[function]] that takes a [[natural]] index and returns the element at that index
-
-> **equivalence** _[[list]]s and [[vector in rn]]s_
-
-> **equivalence** _[[vector in rn]] [[vector space#dimension]] and [[list]] length_
 
 **notation** _in my [[math notation]]_
 

@@ -2,6 +2,8 @@
 
 **see** [[math notation]]
 
+**equiv** _[[matrix#multiplication]]_
+
 **definition**
 
 let **`U`** and **`V`** be two [[vector space]]s with **`"dim" U = u`** and **`"dim" V = v`**. a [[linear transformation]] **`T`** from **`U`** to **`V`** is a [[matrix#multiplication]] **`T u = :(A *)u`** with **`MM^v,u A`**
@@ -24,8 +26,6 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear transformation]] **
 ## Standard Matrix
 
 **theorem** **`TT T`** if and only if there exists a [[matrix]] **`A`** such that **`T u = :(A *)u`** for all **`u`**
-
-> **equivalence** _[[matrix#multiplication]] and [[linear transformation]]s_
 
 **theorem** given a **`TT T`** with **`T u == :(A *)u`**, **`A = rr (T I *)`**
 

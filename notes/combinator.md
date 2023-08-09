@@ -16,6 +16,8 @@ _identity_
 
 **aka** _identity, `id` in Haskell_
 
+**equiv** _[[composition#identity]]_
+
 **definition** **`I = x -> x = {*}`**
 
 **definition** **`I = S K K`**
@@ -23,8 +25,6 @@ _identity_
 **definition** **`I = ii ii`**
 
 **notation** **`{*} x`**
-
-> **equivalence** _[[combinator#i combinator]] and [[composition#identity]]_
 
 ### K Combinator
 
@@ -54,6 +54,8 @@ _the [[composition]] of its arguments_
 
 **aka** _compose, `(.)` and `fmap` in Haskell, "bluebird"_
 
+**equiv** _[[composition]]_
+
 **definition** **`B = f g x -> f (g x)`**
 
 **definition** **`B = S (K S) K`**
@@ -61,8 +63,6 @@ _the [[composition]] of its arguments_
 **definition** _in [[lambda calculus]]_ $B = \lambda fgx.\ f\ (g\ x)$
 
 **notation** **`(f g *) x`**
-
-> **equivalence** _[[combinator#b combinator]] and [[function]] [[composition]]_
 
 &mdash; <https://youtu.be/SmXB2K_5lcA?t=612>
 
@@ -84,13 +84,13 @@ _swaps the arguments to a function_
 
 **aka** _flip, `flip` in Haskell_
 
+**equiv** _[[matrix#transpose]]_
+
 **definition** **`C = f x y -> f y x`**
 
 **definition** **`C = S (B B S) (K K)`**
 
 **notation** **`rr f x y`**
-
-> **equivalence** _[[combinator#c combinator]] and [[matrix#transpose]]_
 
 ### W Combinator
 
@@ -178,9 +178,9 @@ _allows for [[lambda calculus#recursion]]_
 
 _used to formally define recursive [[function]]s in a [[functional programming]] language that does not support [[recursion]]_
 
-> **equivalence** _[[combinator#y combinator]] and [[recursion#general recursion]]_
-
 **aka** _fixed-point [[combinator]], `fix` in Haskell_
+
+**equiv** _[[recursion#general recursion]]_
 
 **definition** **`Y = f -> (x -> f (x x)) (x -> f (x x))`**
 

@@ -20,4 +20,4 @@
 
 _triangle inequality_ **`"abs" (a:b) -| "abs" a : "abs" b > R a /\ RR b`**
 
-> **equivalence** _[[absolute value]] triangle inequality and [[relation#transitive relation]]_
+**equiv** _triangle inequality with [[relation#transitive relation]]_
