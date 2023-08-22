@@ -14,9 +14,9 @@ a non-standard 8th bit is sometimes used for:
 
 lowercase and uppercase letters are offset by `0x20` or `0b00100000` or `' '`
 
-`c & 0b11011111` where `c` is a lowercase letter will return its uppercase equivalent
+`c & 0b11011111` where `c` is a lower[[case]] letter will return its upper[[case]] equivalent
 
-`c | 0b00100000` where `c` is an uppercase letter will return its lowercase equivalent
+`c | 0b00100000` where `c` is an upper[[case]] letter will return its lower[[case]] equivalent
 
 `c & 0b00111111` where `c` is a letter will return its position in the alphabet, starting at **`1`**
 

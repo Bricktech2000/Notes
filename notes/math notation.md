@@ -70,7 +70,7 @@ let:
 
 ### variables
 
-[[variable]]s can be any lower-case latin letter (**`a`**), upper-case latin letter (**`A`**), calligraphic letter (**`BB`**), lower-case greek letter (**`gg`**), upper-case greek letter (**`GG`**), or an arbitrary [[string]] surrounded by `"` (**`"var"`**)
+[[variable]]s can be any lower[[case]] latin letter (**`a`**), upper[[case]] latin letter (**`A`**), calligraphic letter (**`BB`**), lower[[case]] greek letter (**`gg`**), upper[[case]] greek letter (**`GG`**), or an arbitrary [[string]] surrounded by `"` (**`"var"`**)
 
 > **note** constructs such as $\hat y$ and $y'$ and $\vec y$ are to be written using subscripts; by convention, **`y_*`** is used for both $\hat y$ and $y'$, and **`y`** is used for $\vec y$
 
@@ -230,8 +230,13 @@ let:
     y ?? f = x ==  y = f x   == y ?? x = f
     ```
 
+  - repeeated composition:
+    - [[function#inverse]]s are inverses with respect to both [[composition]] and application. the inverse of a [[function]] is applying that [[function]] **`.1`** times
+    - a half-[[derivative]] is applying the [[derivative]] [[operator]] **`-2`** times
+    - an [[antiderivative]]/[[integral]] is applying the [[derivative]] [[operator]] **`.1`** times
   - [ ] when found inverse of function application, fix [[trigonometric function#inverse functions]] and [[function#inverse]] and others
   - [ ] when figured out composition, fix up [[algebraic structure]]s, see <https://discord.com/channels/@me/892957003645853717/1133641823542313050>
+  - [ ] when figured out all of the above, fix up [[pid controller]] definition
 
 fixed #todo update:
 

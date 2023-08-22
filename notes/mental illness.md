@@ -4,6 +4,8 @@
 
 &mdash; <https://youtu.be/gpjYtAB9i2w>
 
+&mdash; <https://youtu.be/dXm2NM5Or0o?t=5m56s>
+
 ## anxiety disorders
 
 _excessive fear and dread_
@@ -74,7 +76,7 @@ _anxious, fearful_
 - dependent personality disorder
 - obsessive-compulsive personality disorder
 
-> **example** what OCD looks like &mdash; <https://youtu.be/L7CnRgnceW4>
+> **example** _what OCD looks like_ &mdash; <https://youtu.be/L7CnRgnceW4>
 
 ## post-traumatic stress disorder
 

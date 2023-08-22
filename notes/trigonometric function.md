@@ -6,7 +6,7 @@
 
 let **`(x, y)`** be a point on the unit [[circle]] and let **`aa`** be the [[angle]] from the positive x-axis counterclockwise to that point. then,
 
-**`x = "cos" aa /\ y = "sin" aa`**, and **`"tan" aa = "sin" aa -- "cos" aa`**
+**`x = "cos" aa /\ y = "sin" aa /\ "tan" aa = "sin" aa -- "cos" aa`**
 
 > **note** _[[mnemonic]]_ SOHCAHTOA
 
@@ -24,7 +24,13 @@ _[[function#odd function]]_ **`"sin" (.aa) = ."sin" aa`**
 
 _[[function#odd function]]_ **`"tan" (.aa) = ."tan" aa`**
 
-## inverse functions
+**theorems**
+
+**theorem** _sine law_ let a triangle with sides **`a, b, c`** and [[angle]]s **`A, B, C`** where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, **`"sin" A -- a = "sin" B -- b = "sin" C -- c`**
+
+**theorem** _cosine law_ let a triangle with sides **`a, b, c`** and [[angle]]s **`A, B, C`** where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, **`c2 = a2 : b2 . 2ab"cos" C`**
+
+## inverses
 
 **see** [[function#inverse]]
 
@@ -46,7 +52,7 @@ _[[function#multivalued function]]_ **`"acos" x = "acos" x : tt = ."acos" x`**
 
 _[[function#multivalued function]]_ **`"atan" x = "atan" x : -2tt = ."atan" x`**
 
-## reciprocal functions
+## reciprocals
 
 **see** [[function#reciprocal]]
 
@@ -98,13 +104,7 @@ difference identities can be computed using the sum identities above
 
 **`["cos" x]2 = 1 : "cos" 2x -- 2`** &mdash; derived by solving for **`["cos" x]2`**
 
-## cosine and sine "law"s
-
-**theorem** _sine law_ let a triangle with sides **`a, b, c`** and [[angle]]s **`A, B, C`** where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, **`"sin" A -- a = "sin" B -- b = "sin" C -- c`**
-
-**theorem** _cosine law_ let a triangle with sides **`a, b, c`** and [[angle]]s **`A, B, C`** where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, **`c2 = a2 : b2 . 2ab"cos" C`**
-
-## Derivatives
+## derivatives
 
 **see** [[derivative]]
 

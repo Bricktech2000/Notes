@@ -57,7 +57,7 @@ unsafe code can:
 - mutate global [[variable]]s
 - access fields of unions (see algebraic data [[type]]s)
 
-_other languages say "here is the line; you may never cross it". [[rust]] says "cross here if you know what you're doing"_ &mdash; <https://youtu.be/PuMXWc0xrK0?t=76>
+_other languages say "here is the line; you may never cross it". [[rust]] says "cross here, if you know what you're doing"_ &mdash; <https://youtu.be/PuMXWc0xrK0?t=76>
 
 most languages have a floor for [[abstraction]]s, such as builtin functions like `parseInt` in [[javascript]] or `sorted` in [[python]]. in [[rust]], the `unsafe` system allows access to lower-level functionality **without** sacrificing high-level orgonomics.
 

@@ -6,11 +6,7 @@
 
 let **`(x, y)`** be a point on the unit [[hyperbola]] and let **`aa`** be the [[angle]] from the positive x-axis counterclockwise to that point. then,
 
-**`x = "cosh" aa /\ y = "sinh" aa`**, and **`"tanh" aa = "sinh" aa -- "cosh" aa`**
-
-**examples**
-
-> **example** **`"cosh" x == [x] : [ex] -- 2`**, which forms a [[catenary]] [[curve]] &mdash; <https://youtu.be/xGxSTzaID3k?t=1316>
+**`x = "cosh" aa /\ y = "sinh" aa /\ "tanh" aa = "sinh" aa -- "cosh" aa`**
 
 ## identities
 

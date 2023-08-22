@@ -281,7 +281,7 @@
 >
 > 1. set bytes `0x20..=0x7E` to a copy of [[ascii]], bytes which correspond to printable [[character]]s
 > 2. set byte `0x20` (Space) to `'&#x2E31;'` (Word Separator Middle Dot) and byte `0x0A` (Line Feed) to `'&#x25FE;'` (Black Medium Small Square)
-> 3. fill empty bytes in `0x00..=0x7F` with lowercase then uppercase greek letters whose glyphs look different from that of latin letters
->    > **note** the _lowercase then uppercase greek letters whose glyphs look different from that of latin letters_ are as follows: _&alpha;&beta;&gamma;&delta;&epsilon;&zeta;&eta;&theta;&iota;&kappa;&lambda;&mu;&nu;&xi;&pi;&rho;&sigma;&tau;&upsilon;&phi;&chi;&psi;&omega;&Gamma;&Delta;&Theta;&Lambda;&Xi;&Pi;&Sigma;&Phi;&Psi;&Omega;_
+> 3. fill empty bytes in `0x00..=0x7F` with lower[[case]] then upper[[case]] greek letters whose glyphs look different from that of latin letters
+>    > **note** the _lower[[case]] then upper[[case]] greek letters whose glyphs look different from that of latin letters_ are as follows: _&alpha;&beta;&gamma;&delta;&epsilon;&zeta;&eta;&theta;&iota;&kappa;&lambda;&mu;&nu;&xi;&pi;&rho;&sigma;&tau;&upsilon;&phi;&chi;&psi;&omega;&Gamma;&Delta;&Theta;&Lambda;&Xi;&Pi;&Sigma;&Phi;&Psi;&Omega;_
 > 4. set every byte in `0x80..=0xFF` to the corresponding [[character]] in `0x00..=0x7F` with an unspecified modifier `mod` applied
 >    > **note** any discernible modifier can be used, including font weight, font style, font family, font color, background color, and so on

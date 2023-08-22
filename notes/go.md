@@ -7,7 +7,7 @@ _it's not bad; it's just not good_
 [[go]] contains a myriad of contradictory design decisions, including:
 
 - it calls itself a _systems language_ yet requires a garbage collector
-- it has the imperativity of [[c]] but the built-in dynamic [[array]]s of [[python]]
+- it has the imperativity and verbosity of [[c]] but the built-in dynamic [[array]]s of [[python]]
 - it proudly uses [[ordered pair]]s over special syntax for error handling, but using [[type#product type]]s for error handling is a half-baked solution anyway
 - it is a modern language designed from the ground up yet still uses [[null]]s for failure conditions and has [[c]]-style valueless statements for control flow
 - it is a statically typed language yet has a [[type#top type]] in the form of the _empty [[interface]]_, which completely defeats the purpose of [[type system]]s
