@@ -2,9 +2,8 @@
 
 **definition**
 
-**`y = a"cosh" x-a`**, where
+**`x -> a"cosh" x-a`**, where
 
-- **`(x, y)`** is a point on the [[catenary]]
 - **`"cosh"`** is a [[hyperbolic function]]
 - **`a`** is the scaling factor
 

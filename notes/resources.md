@@ -36,3 +36,5 @@
 - [[vim]] bindings crash course by Ben Awad &mdash; <https://youtu.be/IiwGbcd8S7I>
 - _Domain Modeling Made Functional_, through the use of [[type#algebraic data type]]s &mdash; <https://youtu.be/2JB1_e5wZmU>
 - _Guessing the Teacher's Password_, on the distinction between _passwords_ and _explanations_ &mdash; <https://www.readthesequences.com/Guessing-The-Teachers-Password>
+- just-in-time [[learning]] over just-in-case [[learning]] by Ali Abdaal &mdash; <https://youtu.be/z2ZJiIt4pmo?t=1m38s>
+- building on strong foundations instead of making things up, with [[rust]] as a case study &mdash; <https://youtu.be/v6RxJsk8otY>

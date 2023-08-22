@@ -12,9 +12,9 @@
 
 **`yy ab = yy {a : b}`**
 
-**`a`** _divides_ **`b`** if and only if **`yy a -| yy b`**
+**`a`** _divides_ **`b`** if and only if **`yy {a -| b}`**
 
-**`n`** is a _square [[number]]_ if and only if **`EE yy n`**
+**`n`** is a _square [[number]]_ if and only if **`EE (yy n)`**
 
 **`n`** is a _[[prime]] [[number]]_ if and only if **`# yy n = 1`** and if and only if **`yy n = ((n,))`**
 
