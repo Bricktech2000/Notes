@@ -30,6 +30,8 @@ _[[function#odd function]]_ **`"tan" (.aa) = ."tan" aa`**
 
 **theorem** _cosine law_ let a triangle with sides **`a, b, c`** and [[angle]]s **`A, B, C`** where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, **`c2 = a2 : b2 . 2ab"cos" C`**
 
+**theorem** _harmonic addition theorem_ **`a"cos" : b"sin"`** can always be rewritten into the form **`c"cos"(aa:)`**, where **`c2 = a2 : b2`** and **`"tan" aa = .b-a`** &mdash; <https://mathworld.wolfram.com/HarmonicAdditionTheorem.html> &mdash; <https://youtu.be/bn38o3u0lDc?t=72>
+
 ## inverses
 
 **see** [[function#inverse]]
@@ -84,7 +86,7 @@ _[[function#multivalued function]]_ **`"atan" x = "atan" x : -2tt = ."atan" x`**
 
 **`"sin" (x : y) = ("sin" x | "cos" y) : ("cos" x | "sin" y)`**
 
-**`"cos" (x : y) = ("cos" x | "cos" y) .("sin" x | "sin" y)`**
+**`"cos" (x : y) = ("cos" x | "cos" y) . ("sin" x | "sin" y)`**
 
 difference identities can be computed using the sum identities above
 

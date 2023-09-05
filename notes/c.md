@@ -283,7 +283,7 @@ it is guaranteed that the `&&` and `||` [[operator]]s will evaluate their operan
 
 it is guaranteed that the `? :` [[operator]] will evaluate its first operand before its second or third operand. only one of the second and third operands will be evaluated
 
-## arithmetic conversions
+## type coercions
 
 **definition** the _integer types_ in [[c]] are `char`, `short`, `int`, `long`, `long long` and `enum`. `_Bool` is also treated as an integer type when it comes to type promotions
 

@@ -1,4 +1,4 @@
-# Random
+# 🆁🅰🅽🅳🅾🅼
 
 ## thinking
 
@@ -872,36 +872,6 @@ $a + b$ &emsp; $a \times b$
 
 ---
 
-**`(*) (:-#) (*)`** is an arithmetic [[mean]]
-
-**`(-) (:-#) (-)`** is a harmonic [[mean]]
-
-**`[.] (:-#) /.\`** is a geometric [[mean]]
-
-**`(*) dd (*)`** is a [[derivative]] (gives the **`m`** in **`x -> mx : b`**)
-
-**`(-) dd (-)`** is a "reciprocal" [[derivative]] (gives the **`a`** in **`x -> a -- x : b`**)
-
-**`[.] dd /.\`** is an [[exponential derivative]] (gives the **`b`** in **`x -> ab[x]`**)
-
-define **`ww f g = x -> "inverse" f (g (f x)) `** function inverse #todo
-
-**`ww (*) (:-#)`**
-
-**`ww (-) (:-#)`**
-
-**`ww /.\ (:-#)`**
-
-**`ww (*) dd`**
-
-**`ww (-) dd`**
-
-**`ww /.\ dd`**
-
-**`ww VV {|} = CC`**
-
----
-
 $x : y$ $x \operatorname{\cdot\cdot} y$
 
 **`x:y`** **`x..y`**
@@ -922,16 +892,67 @@ $a \operatorname- b$
 
 $a - b$
 
-**`a'b`**
+---
 
-**`a-b`**
-
-**`a | b`**
-
-**`a -- b`**
-
-**`a:b`**
-
-**`a..b`**
+**`"cas" = "cos" : "sin"`**
 
 ---
+
+**`a'b`** &mdash; multiplication
+
+**`a-b`** &mdash; division
+
+**`a | b`** &mdash; multiplication
+
+**`a -- b`** &mdash; division
+
+**`a:b`** &mdash; addition
+
+**`a..b`** &mdash; subtraction
+
+**`f = a. b. a-b`** &mdash; abstraction
+
+**`f <- x`** and **`f x`** &mdash; application
+
+**`f -> y`** and **`-f y`** &mdash; inverse application
+
+**`fg`** &mdash; [[composition]]
+
+**`(fg)`** &mdash; [[combinator#phi combinator]], [[polymorphism#rank polymorphism]]
+
+**`f2`** and **`[f]n`** &mdash; repeated composition
+
+> **examples**
+>
+> - **`\dd/`** &mdash; half-derivative operator
+> - **`-dd`** &mdash; antiderivative operator
+> - **`x = ..b : \b2..4ac/ -- 2a`** &mdash; quadratic formula
+
+> **examples**
+>
+> interesting thing I noticed:
+>
+> - **`(*)(:-#)(*)`** is an arithmetic [[mean]]
+> - **`(-)(:-#)(-)`** is a harmonic [[mean]]
+> - **`[.](:-#)/.\`** is a geometric [[mean]]
+> - **`(*)dd(*)`** is a [[derivative]] (gives the **`m`** in **`x -> mx : b`**)
+> - **`(-)dd(-)`** is a "reciprocal" [[derivative]] (gives the **`a`** in **`x -> a -- x : b`**)
+> - **`[.]dd/.\`** is an [[exponential derivative]] (gives the **`b`** in **`x -> ab[x]`**)
+>
+> define **`ww f g = fg-f`** function inverse #todo &mdash; <https://en.wikipedia.org/wiki/Conjugacy_class>. then,
+>
+> - **`ww (*) (:-#)`** is an arithmetic [[mean]]
+> - **`ww (-) (:-#)`** is a harmonic [[mean]]
+> - **`ww [.] (:-#)`** is a geometric [[mean]]
+> - **`ww (*) dd`** is a [[derivative]] (gives the **`m`** in **`x -> mx : b`**)
+> - **`ww (-) dd`** is a "reciprocal" [[derivative]] (gives the **`a`** in **`x -> a -- x : b`**)
+> - **`ww [.] dd`** is an [[exponential derivative]] (gives the **`b`** in **`x -> ab[x]`**)
+> - **`ww VV {|} = CC`** represents that in the world of [[fourier transform]]s, multiplication is [[convolution]]
+>
+> define **`cc f g = fg-f-g`** function inverse #todo &mdash; <https://en.wikipedia.org/wiki/Commutator>. then,
+>
+> - **`cc r u`** is the "sexy move" **`ru-r-u`**
+
+#think about [[standard deviation]]
+
+#think about [[loss function#mean squared error]]

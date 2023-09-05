@@ -8,4 +8,4 @@
 >
 > - tweeting and answering tweets
 > - texting and reacting to texts
-> - often [[social media]] as a whole
+> - [[social media]] as a whole

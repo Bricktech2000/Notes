@@ -10,6 +10,8 @@ used for backlinks
 
 [[null]]
 
+[[lexer]]
+
 [[parser]]
 
 [[type]]

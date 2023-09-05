@@ -27,9 +27,9 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear transformation]] **
 
 **theorem** **`TT T`** if and only if there exists a [[matrix]] **`A`** such that **`T u = :(A *)u`** for all **`u`**
 
-**theorem** given a **`TT T`** with **`T u == :(A *)u`**, **`A = rr (T I *)`**
+**theorem** given a **`TT T`** with **`T u == :(A *)u`**, **`A = rr TI`**
 
-> **note** **`A = rr (T I *)`** is to be read as follows: **`A`** is a [[matrix]] (**`A =`**) whose columns (**`rr`**) are the rows of the [[matrix#identity matrix]] (**`I *`**) transformed by **`T`** (**`T`**)
+> **note** **`A = rr TI`** is to be read as follows: **`A`** is a [[matrix]] (**`A =`**) whose columns (**`rr`**) are the rows of the [[matrix#identity matrix]] transformed by **`T`** (**`TI`**)
 
 > **proof** by definition, applying a [[linear transformation]] on [[vector]]s of the [[function#domain]] [[vector space]] will yield the images of those [[vector]]s in the [[function#codomain]] [[vector space]]. since multiplying a [[matrix]] by a [[basis#standard basis]] [[vector]] yields one of the columns of the [[matrix]], the columns of a [[linear transformation#standard matrix]] corresponds to the images of the [[basis#standard basis]] [[vector]]s
 >

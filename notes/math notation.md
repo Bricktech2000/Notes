@@ -133,7 +133,7 @@ let:
 | **`wwff`**                       | the [[natural]] formed by the digits **`ww`** and **`ff`**         | see [[positional numeral system]]                           |
 | **`->a`**                        | the [[combinator#k combinator]]                                    |                                                             |
 | **`[a]`**                        | **`ee[a]`**, the [[exponent]]ial of **`a`**                        |                                                             |
-| **`\a/`**                        | **`\a/ 2`**, the equare root of **`a`**                            |                                                             |
+| **`\a/`**                        | **`\a/ 2`**, the square root of **`a`**                            |                                                             |
 | **`/a\`**                        | **`/a\ ee`**, the natural [[logarithm]] of **`a`**                 |                                                             |
 | **`x y -> a`**                   | **`x -> y -> a`**                                                  |                                                             |
 | **`f a`**                        | **`f <- a`**                                                       | shorthand preferred                                         |
@@ -151,7 +151,7 @@ let:
 | **`A \* a`** <br /> **`a \* A`** | **`x -> A x \* a`** <br /> **`x -> a \* A x`**                     | see [[polymorphism#rank polymorphism]]                      |
 | **`f g *`**                      | **`x -> f (g x)`**                                                 | **`*`** is a "hole" #todo define rigorously                 |
 | **`(*)`**                        | the [[combinator#i combinator]]                                    | equivalent to [[composition#identity]]                      |
-| **`{f g} a`**                    | **`{f <- g} a`**                                                   | equivalent to [[combinator#s combinator]]                   |
+| **`(f g) a`**                    | **`(f <- g) a`**                                                   | equivalent to [[combinator#s combinator]]                   |
 | **`f {a b}`**                    | **`f {a <- b}`**                                                   |                                                             |
 | **`""math""`**                   | **`(''m'', ''a'', ''t'', ''h'')`**                                 | see [[string]], [[list]]                                    |
 
@@ -200,8 +200,8 @@ let:
 
   - [ ] get rid of remaining **`||`**s
   - [ ] delete [[absolute value]] file
-  - [ ] todo get rid of **`"re"`** and **`"im"`** in [[complex]]
-  - [ ] when figured out, fix up [[metric space]] example
+  - [ ] #todo get rid of **`"re"`** and **`"im"`** in [[complex]]
+  - [ ] when figured out, fix up [[metric space]] examples
 
   **`"abs"`** in **`RR`**, could be replaced with **`(:^^.)`**
 
@@ -234,9 +234,10 @@ let:
     - [[function#inverse]]s are inverses with respect to both [[composition]] and application. the inverse of a [[function]] is applying that [[function]] **`.1`** times
     - a half-[[derivative]] is applying the [[derivative]] [[operator]] **`-2`** times
     - an [[antiderivative]]/[[integral]] is applying the [[derivative]] [[operator]] **`.1`** times
-  - [ ] when found inverse of function application, fix [[trigonometric function#inverse functions]] and [[function#inverse]] and others
+  - [ ] when found inverse of function application, fix [[trigonometric function#inverses]] and [[function#inverse]] and [[trigonometric function#reciprocals]] (#todo invalid link) and [[function#reciprocal]] and others
   - [ ] when figured out composition, fix up [[algebraic structure]]s, see <https://discord.com/channels/@me/892957003645853717/1133641823542313050>
   - [ ] when figured out all of the above, fix up [[pid controller]] definition
+  - [ ] move [[composition]] within [[function]]; create [[application]] wthin [[function]]; create [[abstraction]] within [[function]]
 
 fixed #todo update:
 
@@ -249,6 +250,12 @@ already updated:
 - [[real#absolute value]]
 - [[mean]]
 - `O {`
+
+partially testing out:
+
+- [[pid controller]]
+- [[linear transformation#standard matrix]] **`A = rr (T I *)`**
+- [[trigonometric function]] theorem **`c"cos" (* + aa)`**
 
 ### precedence and associativity
 

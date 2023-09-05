@@ -16,7 +16,7 @@ _a language for the next 40 years_
 - relatively complex (more features and more syntax than languages like [[c]])
 - lacking ecosystem features (no standard, no LTS releases, no private crate hosting)
 
-## type system
+## Type System
 
 &mdash; <https://youtu.be/bnnacleqg6k>
 
@@ -28,26 +28,48 @@ the [[type#empty type]] `!`, pronounced _never_, is [[rust]]'s [[type#bottom typ
 
 `struct` is a [[type#product type]] and `enum` is a [[type#sum type]] of [[type#product type]]s
 
-## safety
+### Function Types
+
+&mdash; <https://youtu.be/SqT5YglW3qU>
+
+all [[function]] items and all closures of a [[rust]] program have a unique [[type]] internal to the compiler. as they only have a single inhabitant, their corresponding [[function]], these [[type]] are [[type#unit type]]s. consequently, the size of any inhabitant of theirs is zero. they are completely opaque; the only reason they are useful is because they implement one of the `Fn` [[trait]]s, which allows them to be called. _we don't know exactly what's inside the [[function]], but we can call it as long as we know how to set up everything according to the calling convention_ &mdash; <https://youtu.be/SqT5YglW3qU>
+
+### Impl Traits
+
+&mdash; <https://stackoverflow.com/questions/47514930/what-are-the-differences-between-an-impl-trait-argument-and-generic-function-par>
+
+`impl Trait`s as [[function]] arguments or return types are syntactic sugar for anonymous [[type]] parameters
+
+### Function Traits
+
+&mdash; <https://www.eventhelix.com/rust/rust-to-assembly-return-impl-fn-vs-dyn-fn/>
+
+[[rust]] defines the following [[function]] traits:
+
+- `FnOnce` &mdash; takes ownership of its environment and can only be called once
+- `FnMut` &mdash; takes mutable references to its environment and can be called multiple non-overlapping times
+- `Fn` &mdash; takes immutable references to its environment and can be called multiple overlapping times
+
+## Safety
 
 [[rust]] borrows many features from [[functional programming]] and makes them easy to use. for instance, [[rust]] has `Option`s instead of [[null]] pointers, and it has `Result`s instead of `try catch` exceptions.
 
 accessing out-of-bounds memory causes either a compile time error or a `panic!` at runtime instead of maybe or maybe not causing a segfault. the `#[no_panic]` attribute macro can be used to force the compiler to prove that a function will never panic. &mdash; <https://youtu.be/sbVxq7nNtgo?t=586>
 
-[[rust]]'s [[type system]] checks thread safety at compile time as ownership rules apply across multiple threads
+the [[rust#type system]] checks thread safety at compile time as ownership rules apply across multiple threads
 
-### borrow checker
+### Borrow Checker
 
-[[rust]] borrow checker rules are as follows:
+[[rust#borrow checker]] rules are as follows:
 
 - data can have either one mutable reference or any number of immutable references
 - the lifetime of a reference may not exceed the lifetime of the owner
 
 _in fixing memory safety, the Rust team accidentally fixed everything_ &mdash; <https://youtu.be/Q3AhzHq8ogs?t=113>
 
-### unsafe system
+### Unsafe System
 
-[[rust]]'s [[type system]] can be a bit restrictive for low-level programming. this is why [[rust]] has a way to bypass a few specific checks in the form of the `unsafe` keyword. consequently, [[rust]] code is safe by default
+the [[rust#type system]] can be a bit restrictive for low-level programming. this is why [[rust]] has a way to bypass a few specific checks in the form of the `unsafe` keyword. consequently, [[rust]] code is safe by default
 
 unsafe code can:
 
@@ -61,11 +83,11 @@ _other languages say "here is the line; you may never cross it". [[rust]] says "
 
 most languages have a floor for [[abstraction]]s, such as builtin functions like `parseInt` in [[javascript]] or `sorted` in [[python]]. in [[rust]], the `unsafe` system allows access to lower-level functionality **without** sacrificing high-level orgonomics.
 
-### macro system
+### Macro System
 
-the [[rust]] macro system is Turing complete, see [[turing machine]]. they allow for both [[abstraction]]s and new syntax
+the [[rust#macro system]] is Turing complete, see [[turing machine]]. they allow for both [[abstraction]]s and new syntax
 
-### smart pointers
+### Smart Pointers
 
 - `Box` is for unique ownership
 - `Rc` is for multiple ownership (reference counted)
@@ -84,7 +106,7 @@ the following can be used for interior mutability:
 
 &mdash; <https://doc.rust-lang.org/std/cell/struct.UnsafeCell.html>
 
-## sign posts
+## Sign Posts
 
 Rust ensures "surprising" behavior is clearly sign-posted:
 

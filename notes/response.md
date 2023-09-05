@@ -4,8 +4,6 @@
 
 **definition** a _response_ is [[intention]]al, mindful and deliberate. see [[reaction]]
 
-> **examples**
->
-> _stop. think. what's meaningful? am I hurting people?_
+> **examples** _stop. think. what's meaningful? am I hurting people?_
 >
 > - writing an angry message, then reading it the next morning and being glad you didn't send it
