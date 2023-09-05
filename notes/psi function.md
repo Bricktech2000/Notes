@@ -12,7 +12,7 @@
 
 **`yy ab = yy {a : b}`**
 
-**`a`** _divides_ **`b`** if and only if **`yy {a -| b}`**
+**`a`** _divides_ **`b`** if and only if **`/\ yy {a -| b}`**
 
 **`n`** is a _square [[number]]_ if and only if **`EE (yy n)`**
 

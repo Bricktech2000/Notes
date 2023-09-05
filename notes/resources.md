@@ -38,3 +38,6 @@
 - _Guessing the Teacher's Password_, on the distinction between _passwords_ and _explanations_ &mdash; <https://www.readthesequences.com/Guessing-The-Teachers-Password>
 - just-in-time [[learning]] over just-in-case [[learning]] by Ali Abdaal &mdash; <https://youtu.be/z2ZJiIt4pmo?t=1m38s>
 - building on strong foundations instead of making things up, with [[rust]] as a case study &mdash; <https://youtu.be/v6RxJsk8otY>
+- some talk the talk; some walk the walk &mdash; <https://youtu.be/uDDeves6Crs>
+- _A half-hour to learn [[rust]]_, a fast introduction [[rust]] &mdash; <https://fasterthanli.me/articles/a-half-hour-to-learn-rust>
+- the _nanobyte_ channel, decent resource for writing a simple [[operating system]] &mdash; <https://youtube.com/@nanobyte-dev>

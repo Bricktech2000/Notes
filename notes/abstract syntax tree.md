@@ -23,27 +23,20 @@ graph TD
 
 **representation**
 
-`7 + 3 * 4` can be compiled to the following [[javascript]] representation:
+`7 + 3 * 4` can be represented using the following [[rust]] code:
 
-```javascript
-({
-  type: 'BinaryExpression',
-  operator: '+',
-  left: {
-    type: 'NumericLiteral',
-    value: 7,
-  },
-  right: {
-    type: 'BinaryExpression',
-    operator: '*',
-    left: {
-      type: 'NumericLiteral',
-      value: 3,
-    },
-    right: {
-      type: 'NumericLiteral',
-      value: 4,
-    },
-  },
-});
+```rust
+enum Expression {
+  NumberLiteral(i32),
+  Addition(Box<Expression>, Box<Expression>),
+  Multiplication(Box<Expression>, Box<Expression>),
+}
+
+Expression::Addition(
+  Box::new(Expression::NumberLiteral(7)),
+  Box::new(Expression::Multiplication(
+    Box::new(Expression::NumberLiteral(3)),
+    Box::new(Expression::NumberLiteral(4)),
+  )),
+)
 ```

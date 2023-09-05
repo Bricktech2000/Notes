@@ -10,6 +10,8 @@ _an association that any given action carries_ &mdash; me
 
 **see** [[verbal#connotation]]
 
+many behaviors seem to consist of some sort of accidental overcompensation. things seem fine on the surface, but irony is hiding right underneath &mdash; me
+
 > **examples**
 >
 > - shouting to prove a point &mdash; a powerful individual does not have to resort to shouting to be heard
@@ -23,10 +25,18 @@ _an association that any given action carries_ &mdash; me
 > - cleaning before hosting &mdash; a clean individual does not need to clean their house before guests arrive
 > - mentioning [[intelligence]] &mdash; an intelligent person does not need to mention their intelligence to be respected
 
+> **examples** &mdash; 200 répliques &mdash; Hélène Drouard
+>
+> - _Moins les gens ont d'idées à exprimer, plus ils parlent fort._ &mdash; François Mauriac
+> - _The more you know, the less you need to say._ &mdash; Jim Rohn
+> - _La critique est la puissance des impuissants._ &mdash; Alphonse de Lamartine
+> - _Des chercheurs qui cherchent, on en trouve. Des chercheurs qui trouvent, on en cherche._ &mdash; Charles de Gaulle
+> - _Some talk the talk; some walk the walk._ &mdash; me
+
 unique behavior observed in someone can sometimes be explained by a unique trait of theirs having a direct impact on the way their peers treat them &mdash; me
 
 > **examples**
-
+>
 > - someone who makes mean comments could've received mean comments from other people in the past. this could be caused by the way they used to act, for example
 > - the way a father treats a son can affect the way his son will treat his children. this could result in anything from a lack of emotional attachment to physical or verbal abuse
 > - a person who shows very high levels of empathy could've been through difficult moments in the past. since other people used to show empathy towards them, they learned to treat others people with empathy

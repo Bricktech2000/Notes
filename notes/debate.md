@@ -15,6 +15,7 @@ I'll be blunt: some arguments are plain out dumb and not worth responding to. it
 > - separation of ideas from people
 > - desire to refine one's own perspective
 > - desire to learn from others
+> - listening to understand; see [[response]]
 
 > **examples** _characteristics of ineffective [[debate]]s_
 >
@@ -23,6 +24,7 @@ I'll be blunt: some arguments are plain out dumb and not worth responding to. it
 > - overwhelming desire to be right
 > - merging of ideas with [[identity]]
 > - appeal to authority or status
+> - listening to reply; see [[reaction]]
 >
 > > **note** notice that many of the points above display [[nonverbal#connotation]]
 
