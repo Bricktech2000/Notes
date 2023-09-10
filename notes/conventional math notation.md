@@ -4,6 +4,8 @@
 
 **tradeoffs**
 
+[[conventional math notation]] is full of _special-case the simplest use-case_; it is [[invent]]ed, not [[discover]]ed
+
 [[conventional math notation]] is [[flawed but established]]
 
 - $\sqrt{}$ often only returns the positive solution

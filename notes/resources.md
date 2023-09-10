@@ -41,3 +41,5 @@
 - some talk the talk; some walk the walk &mdash; <https://youtu.be/uDDeves6Crs>
 - _A half-hour to learn [[rust]]_, a fast introduction [[rust]] &mdash; <https://fasterthanli.me/articles/a-half-hour-to-learn-rust>
 - the _nanobyte_ channel, decent resource for writing a simple [[operating system]] &mdash; <https://youtube.com/@nanobyte-dev>
+- _Programming Challenges V4_, decent programming project ideas &mdash; <https://programming-challenges.jeremyjaydan.dev/media/programming-challenges-v4.0.png>
+- _Bash Pitfalls_, highlighting the complexity of Bash &mdash; <https://mywiki.wooledge.org/BashPitfalls>

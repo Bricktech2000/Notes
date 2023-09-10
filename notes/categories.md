@@ -157,3 +157,7 @@
 [[vim]]
 
 [[debate]]
+
+[[invent]]
+
+[[discover]]

@@ -67,6 +67,8 @@ after asking a question, wait around 7 seconds for an answer from the audience
 
 flipping through slides can be too quick for people. the speed at which one writes on a chalkboard is approximately the speed at which people absorb information
 
+most only remember a few key takeaways; make them count
+
 see [[verbal#connotation]]s
 
 ### other tools

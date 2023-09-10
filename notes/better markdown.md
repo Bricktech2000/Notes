@@ -9,7 +9,7 @@ in [[better markdown]],
 - every markup [[character]] can be escaped with a `\`, with no ambiguous exceptions
 - constructs can be nested, and in a way that is actually consistent
 
-_a [[markdown]]-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions_ &mdash; <https://daringfireball.net/projects/markdown/syntax>. this is not a goal of [[better markdown]]. [[better markdown]] aims to be a consistent, extensible, formally-defined, light-weight markup language
+_a [[markdown]]-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions_ &mdash; <https://daringfireball.net/projects/markdown/syntax>. this is not a goal of [[better markdown]]. [[better markdown]] aims to be a consistent, extensible, formally-defined, light-weight markup language
 
 ## things to iron out
 
