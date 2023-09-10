@@ -1,5 +1,7 @@
 # Intelligence
 
+**aka** _fluid intelligence_
+
 **see** [[intellectual disability]], [[intellectual giftedness]], [[mensa]], [[iq]], [[knowledge]]
 
 ## intelligence mentions
@@ -22,7 +24,7 @@
 - Tabs "sex chocolate" creator about his father's intelligence <https://youtu.be/Vt7ZWcyNc18?t=5095>
 - Dave from Dave's Garage being high-functioning because of his [[iq]] &mdash; <https://youtu.be/fJ9X5DSnVms?t=102>
 - [[iq]] of Derek from Veritasium was measured at 134 <https://youtu.be/FkKPsLxgpuY>
-- Jessica from How to ADHD using _we_ when  discussing [[intellectual giftedness]] &mdash; <https://youtu.be/DbeeWRcHgN0?t=2m17s>
+- Jessica from How to ADHD using _we_ when discussing [[intellectual giftedness]] &mdash; <https://youtu.be/DbeeWRcHgN0?t=2m17s>
 
 ## stuff I don't relate to
 

@@ -2,6 +2,8 @@
 
 **aka** _the billion-dollar mistake &mdash; Tony Hoare_
 
+[[null]] was [[invent]]ed
+
 &mdash; <https://youtu.be/vcFBwt1nu2U?t=1069>
 
 &mdash; <https://youtu.be/qC_ioJQpv4E?t=1372>

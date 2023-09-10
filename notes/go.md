@@ -4,16 +4,28 @@ _it's not bad; it's just not good_
 
 &mdash; <https://yager.io/programming/go.html>
 
-[[go]] contains a myriad of contradictory design decisions, including:
+[[go]] contains a myriad of contradictory design decisions; examples include:
 
-- it calls itself a _systems language_ yet requires a garbage collector
-- it has the imperativity and verbosity of [[c]] but the built-in dynamic [[array]]s of [[python]]
-- it proudly uses [[ordered pair]]s over special syntax for error handling, but using [[type#product type]]s for error handling is a half-baked solution anyway
-- it is a modern language designed from the ground up yet still uses [[null]]s for failure conditions and has [[c]]-style valueless statements for control flow
-- it is a statically typed language yet has a [[type#top type]] in the form of the _empty [[interface]]_, which completely defeats the purpose of [[type system]]s
+- [[go]] calls itself a _systems language_ yet requires a garbage collector
+- [[go]] has the imperativity and verbosity of [[c]] but the built-in dynamic [[array]]s of [[python]]
+- [[go]] is a modern language designed from the ground up yet still uses [[null]]s for failure conditions and has [[c]]-style valueless statements for control flow
+- [[go]] is a statically typed language yet has a [[type#top type]] in the form of the _empty [[interface]]_, which completely defeats the purpose of [[type system]]s
 
 most of this can be explained by the fact that [[go]] is the result of _language design in the service of [[software engineering]]_:
 
 - _Go's purpose is therefore not to do research into programming language design; it is to improve the working environment for its designers and their coworkers. Go is more about software engineering than programming language research. Or to rephrase, it is about language design in the service of software engineering._ &mdash; Rob Pike &mdash; <https://go.dev/talks/2012/splash.article>
-- _The key point here is our programmers are Googlers, they’re not researchers. They’re typically, fairly young, fresh out of school, probably learned Java, maybe learned C or C++, probably learned Python. They’re not capable of understanding a brilliant language but we want to use them to build good software. So, the language that we give them has to be easy for them to understand and easy to adopt._ &mdash; Rob Pike &mdash; <https://news.ycombinator.com/item?id=16143918>
+- _The key point here is our programmers are Googlers, they're not researchers. They're typically, fairly young, fresh out of school, probably learned Java, maybe learned C or C++, probably learned Python. They're not capable of understanding a brilliant language but we want to use them to build good software. So, the language that we give them has to be easy for them to understand and easy to adopt._ &mdash; Rob Pike &mdash; <https://news.ycombinator.com/item?id=16143918>
 - _It must be familiar, roughly C-like. Programmers working at Google are early in their careers and are most familiar with procedural languages, particularly from the C family. The need to get programmers productive quickly in a new language means that the language cannot be too radical._ &mdash; Rob Pike &mdash; <https://go.dev/talks/2012/splash.article>
+
+a large portion of the [[go]] language was [[invent]]ed rather than [[discover]]ed; examples include:
+
+- `append`, `clear`, `delete`, `min`, `max`, and `new` are all [[go]] built-ins &mdash; <https://go.dev/ref/spec#Built-in_functions>
+- `range` and `map` are hard-coded into the [[go]] syntax &mdash; <https://go.dev/ref/spec#For_range> and <https://go.dev/ref/spec#Map_types>
+- [[function]]s returning multiple values is a hard-coded feature; tuples don't exist in [[go]] &mdash; <https://go.dev/ref/spec#Return_statements>
+
+and the rest of [[go]] is half-baked at best; examples include:
+
+- [[go]] uses "zero values" to avoid uninitialized variables, which is a band-aid solution to a problem that should be solved by the [[type system]]
+- [[go]] has [[interface]]s, which are a poor man's [[trait]]s. and [[go]] [[interface]]s are duck-typed, which is another shady decision
+- [[go]] dares to list [[type]] inference as a feature, but all its [[type]] inference engine does is guess the [[type]] of a [[variable]] based on the value it's assigned
+- [[go]] proudly uses [[ordered pair]]s over special syntax for error handling, but using [[type#product type]]s for error handling is a half-baked solution anyway

@@ -956,3 +956,11 @@ $a - b$
 #think about [[standard deviation]]
 
 #think about [[loss function#mean squared error]]
+
+#think about <https://youtu.be/eLhsyAu7G-U>
+
+---
+
+**definition** an _open ball_ **`BB a r`** of radius **`r`** centered at **`a`** is the [[set]] **`p -> (\:(p . a)2/ {-|/\+} r)`**
+
+**definition** a [[set]] **`S`** is _open_ if **`S a < r {|-/\+} 0 /\ /\BB a r -| S`**, where **`BB a r`** is an open ball of radius **`r`** centered at **`a`**

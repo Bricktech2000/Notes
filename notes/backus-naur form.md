@@ -1,4 +1,4 @@
-# Backus-Naur form
+# Backus-Naur Form
 
 _a notation to describe the syntax and grammar of a [[programming language]]_
 
