@@ -155,7 +155,7 @@ let:
 | **`f {a b}`**                    | **`f {a <- b}`**                                                   |                                                             |
 | **`""math""`**                   | **`(''m'', ''a'', ''t'', ''h'')`**                                 | see [[string]], [[list]]                                    |
 
-#todo:
+#todo
 
 - conceptual:
 

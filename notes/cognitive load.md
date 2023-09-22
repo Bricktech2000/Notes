@@ -2,7 +2,7 @@
 
 _the amount of working memory resources used to process information_
 
-**see** [[habit]], [[sleep]], [[zeigarnik effect]]
+**see** [[habit]], [[sleep]], [[zeigarnik effect]], [[overwhelm]]
 
 [[cognitive load]] consists of incomplete tasks "running in the background", taking up bandwidth and consuming [[energy]]. David Allen calls this a _thought loop_ &mdash; <https://youtu.be/q5udGQj4iVY?t=112>
 

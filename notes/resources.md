@@ -43,3 +43,4 @@
 - the _nanobyte_ channel, decent resource for writing a simple [[operating system]] &mdash; <https://youtube.com/@nanobyte-dev>
 - _Programming Challenges V4_, decent programming project ideas &mdash; <https://programming-challenges.jeremyjaydan.dev/media/programming-challenges-v4.0.png>
 - _Bash Pitfalls_, highlighting the complexity of Bash &mdash; <https://mywiki.wooledge.org/BashPitfalls>
+- _Putting the "You" in CPU_, high-level overview of how computers run programs &mdash; <https://cpu.land/epilogue>

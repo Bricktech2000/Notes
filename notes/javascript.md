@@ -28,6 +28,7 @@ _[[type system]] madness_
   [] == ![]; // true
   ',,,' == new Array(4); // true
   'false' == ['false']; // true
+  [6, -2, 2, -7].sort() // [-2, -7, 2, 6]
 }
 ```
 

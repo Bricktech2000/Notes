@@ -1,10 +1,10 @@
 # 🅲🅰🆃🅴🅶🅾🆁🅸🅴🆂
 
-**body**
+## body
 
 [[sleep]], [[insomnia]]
 
-**intel**
+## intel
 
 [[combination lock]]
 
@@ -18,13 +18,13 @@
 
 [[equality]]
 
-**zilch**
+## zilch
 
 [[improved expression evaluation]]
 
 [[control over convenience]]
 
-[[overruling rules]]
+[[rule overrule]]
 
 [[nested conversation structure]]
 
@@ -46,7 +46,7 @@
 
 [[entropy]]
 
-**learn**
+## learn
 
 [[concept]] vs [[fact]]
 
@@ -98,7 +98,7 @@
 
 [[jpeg]]
 
-**finance**
+## finance
 
 [[education]] system issues
 
@@ -106,15 +106,15 @@
 
 [[finance]]
 
-**network**
+## newtork
 
 [[public speaking]]
 
-**standard**
+## standard
 
-**optimize**
+## optimize
 
-[[counterintuitive smarter sorting]]
+[[unobvious grouping]]
 
 [[calculus notation]]
 
@@ -126,7 +126,7 @@
 
 [[minimalism]]
 
-**reproduce**
+## reproduce
 
 [[resources]]
 

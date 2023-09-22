@@ -33,3 +33,16 @@
 >   A --> B
 >   A --> C
 > ```
+
+> **example**
+>
+> people who pay for Duolingo Plus complete $X$ percent more lessons than those who do not. however, it is not the case that getting Duolingo Plus results in completing more lessons; it is not the case that [[correlation implies causation]]
+>
+> ```mermaid
+> graph LR
+>   A(Passion for Language Learning)
+>   B(Paying for Duolingo Plus)
+>   C(Completing More Lessons)
+>   A --> B
+>   A --> C
+> ```
