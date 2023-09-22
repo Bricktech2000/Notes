@@ -4,6 +4,7 @@
 
 - _#example_
 - _... over ..._
+- _...ing ..._
 
 [[self-taught software engineer]], [[life-long investing]], [[goals and risk]], read over [[credit card]], [[subconscious manipulation]]
 

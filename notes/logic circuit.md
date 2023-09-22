@@ -22,11 +22,15 @@
 
 _no feedback loops, no clocks_
 
+**equiv** _[[function#pure function]]_
+
 **see** [[truth table]], [[karnaugh map]]
 
 the outputs of a combinational [[logic circuit]] are a [[function]] the inputs, without side effects
 
 ## Sequential Logic Circuit
+
+**equiv** _im[[function#pure function]]_
 
 **see** [[excitation table]], [[characteristic table]]
 

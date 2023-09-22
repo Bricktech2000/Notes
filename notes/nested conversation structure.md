@@ -4,7 +4,15 @@
 
 conversations can be structured as a [[stack]] evolving over [[time]], onto which subconversations are pushed before being popped off when they are completed
 
-this contrasts with "normal" conversations, which feel like mindlessly jumping around a free-form [[graph]] of topics
+this contrasts with "normal" conversations, which feel like mindless jumps around a free-form [[graph]] of topics
+
+> **note**
+>
+> [[nested conversation structure]] is the natural way I approach conversation. whenever changing conversation topic, I instinctively and subconsciously mentally record a stack of ideas to ultimately be wrapped up
+>
+> during conversation, I occasionally find myself [[overwhelm]]ed because of the [[cognitive load]] resulting from keeping track of dozens of those loose ends. I make a small remark, which I see as a subconversation. then, before I wrap it up to continue on the main topic, the person I am talking with makes **another** remark on top of my remark. and then I might make **another** remark on top of **that** remark. in the blink of an eye we're 10 levels deep and I'm having a hard time keeping up
+>
+> that is usually the point at which I realize that the person I have been talking with is not planning on ever wrapping up previous ideas. in my mind, we're in the middle of a complex large-scale highly nested conversation. in their mind, though, we've just been changing topics frequently. when I realize that, I flip the switch over to _normal conversation mode_ and everything is fine from there. or I send them this note. if you're reading this note after I sent it to you, then hi! how's your day been?
 
 **representation** _as nested [[list]]s, [[time]] going down_
 
@@ -32,8 +40,6 @@ this contrasts with "normal" conversations, which feel like mindlessly jumping a
 
 **tradeoffs**
 
-when one party gets interrupted by another party, the first party knows it will be able to wrap up its argument when eventually popping subconversations from the [[stack]]
+with [[nested conversation structure]], interrupting is not impolite and getting interrupted is not frustrating because both parties know they will have the opportunity to wrap up their argument when eventually popping subconversations from the [[stack]]
 
-most people get "lost" when trying to contribute to a conversation structured this way
-
-both parties must understand the structure for benefits to emerge
+there must exist a mutual understanding between all parties for [[nested conversation structure]] to be effective

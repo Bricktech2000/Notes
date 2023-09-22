@@ -91,3 +91,19 @@ can often be replaced by [[ingredient#sodium bicarbonate]] or baking powder. can
 **aka** _folate, vitamin B9_
 
 &mdash; Wikipedia &mdash; Gerber Snacks for Baby
+
+## Rosin
+
+**aka** _colophonium, colophony_
+
+can be used as a _glazing agent_ in medicines and chewing gum. can be used as an emulsifier (used to form [[emulsion]]s) in soft drinks
+
+&mdash; Wikipedia &mdash; Sattva Climbing Chalk
+
+## Hydroxypropyl Cellulose
+
+**aka** _HPC_
+
+can be used as a _thickener_ or as an [[emulsion]] _stabilizer_
+
+&mdash; Wikipedia &mdash; Sattva Climbing Chalk
