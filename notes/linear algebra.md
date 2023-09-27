@@ -4,6 +4,8 @@ _studying [[vector space]]s_
 
 **see** [[field]]
 
+> **resource** [[linear algebra]] summarized in **`4`** pages &mdash; <https://courses.engr.illinois.edu/ece498rc3/fa2016/material/linearAlgebra_4pgs.pdf>
+
 **applications**
 
 <https://youtu.be/bI-FS7aZJpY>
@@ -29,7 +31,5 @@ _studying [[vector space]]s_
 [[vector in rn]], [[normal vector]], [[matrix]]
 
 [[span]]s, [[basis]]
-
-**related**
 
 [[plane]], [[line]], [[vector in rn]]

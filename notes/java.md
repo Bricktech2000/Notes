@@ -34,7 +34,7 @@ in my opinion, [[java#auto boxing]] is a band-aid and [[java#wrapper]]s are a du
 
 [[java]] `import` best practices are basically cargo cult programming &mdash; <https://youtu.be/FyCYva9DhsI?t=1673>
 
-[[java]] has [[null]]s and `try-catch` exceptions, but that is somewhat to be expected even in modern languages
+[[java]] has [[null]]s and [[exception]]s, but that is somewhat to be expected even in modern languages
 
 refer to the Wikipedia article (yes, there's a Wikipedia article) <https://en.m.wikipedia.org/wiki/Criticism_of_Java> for further reading
 

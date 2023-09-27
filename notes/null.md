@@ -4,6 +4,8 @@
 
 [[null]] was [[invent]]ed
 
+[[null]] is an escape hatch that subverts the [[type system]], making it extremely dangerous
+
 &mdash; <https://youtu.be/vcFBwt1nu2U?t=1069>
 
 &mdash; <https://youtu.be/qC_ioJQpv4E?t=1372>

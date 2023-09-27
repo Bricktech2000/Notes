@@ -1,5 +1,7 @@
 # Calculus
 
+> **resource** undergrad [[calculus]] course &mdash; <https://www.youtube.com/watch?v=HfACrKJ_Y2w>
+
 **see**
 
 [[calculus notation]]

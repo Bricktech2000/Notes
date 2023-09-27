@@ -2,6 +2,8 @@
 
 **see** [[system over goal]]
 
+> **resource** _Atomic Habits_ by James Clear audiobook &mdash; <https://www.youtube.com/watch?v=zUm3fKk00J8>
+
 **definition** a _habit_ is a routine or behavior that is performed regularly and in many cases automatically &mdash; <https://youtu.be/zUm3fKk00J8?t=725>
 
 **definition** a _good habit_ is a [[habit]] with low short-term reward but high long-term reward &mdash; me

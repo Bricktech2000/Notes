@@ -4,6 +4,10 @@
 
 _[[category theory]] is to programming what chemistry is to baking_ &mdash; <https://youtu.be/SmXB2K_5lcA?t=414>
 
+> **resource** [[category theory]] for programmers by Bartosz Milewski &mdash; <https://www.youtube.com/watch?v=I8LbkfSSR58&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM> (not yet finished)
+
+> **resource** _[[category theory]] for the working hacker_ &mdash; <https://www.youtube.com/watch?v=gui_SE8rJUM>
+
 there appears to be a standard way to build contexts in which we do [[mathematics]]. [[category theory]] is all about formalizing this observation
 
 > **examples** _mathematical contexts_
@@ -38,6 +42,8 @@ the [[category]] of [[type]]s is equivalent to a strongly typed [[programming la
 the terminal object of a [[category]] corresponds to the [[set#singleton set]] and the initial object of a [[category]] corresponds to the [[set#empty set]]
 
 _co..._ refers to the same object in the opposite [[category]]. product & coproduct, monad & comonad, monoid & comonoid...
+
+[[monoid]]s are one-object categories. [[group]]s are one-object categories where every [[category#morphism]] has an inverse. adding the _oid_ suffix to a one-object category represents the equivalent multi-object category. as a consequence [[category]]es are jokingly called _monoidoids_ &mdash; <https://grossack.site/2022/08/21/monoidal-monoidoidoids.html>
 
 ---
 

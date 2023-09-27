@@ -6,6 +6,8 @@ _assembly with syntactic sugar and undefined behavior_
 
 &mdash; Effective C by Robert C. Seacord
 
+> **resoource** _Advanced [[c]]: The UB and optimizations that trick good programmers._ &mdash; <https://youtu.be/w3_e9vZj7D8>
+
 **see** [[math notation]]
 
 **tradeoffs**

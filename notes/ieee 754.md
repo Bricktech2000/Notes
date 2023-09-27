@@ -4,7 +4,9 @@
 
 **see** [[math notation]], [[floating point]]
 
-[[ieee 754]] defines arithmetic formats, interchange formats, rounding rules, operations, and exception handling for [[floating point]] arithmetic &mdash; <https://en.wikipedia.org/wiki/IEEE_754>. it is the standard for [[floating point]] arithmetic used by most modern computers
+> **resource** parody of the [[ieee 754]] standard by tom7 &mdash; <http://tom7.org/nand/nand.pdf>
+
+[[ieee 754]] defines arithmetic formats, interchange formats, rounding rules, operations, and [[exception]] handling for [[floating point]] arithmetic &mdash; <https://en.wikipedia.org/wiki/IEEE_754>. it is the standard for [[floating point]] arithmetic used by most modern computers
 
 **properties** &mdash; <http://tom7.org/nand/nand.pdf> and <https://youtu.be/Ae9EKCyI1xU?t=272> and Effective C, p. 47
 

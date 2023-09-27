@@ -2,6 +2,8 @@
 
 _an introduction into mathematical thinking_
 
+> **resource** [[discrete mathematics]] course by Dr. Trefor Bazett &mdash; <https://www.youtube.com/watch?v=rdXw7Ps9vxc&list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS>
+
 **see**
 
 [[proof]]

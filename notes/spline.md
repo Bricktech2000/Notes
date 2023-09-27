@@ -1,8 +1,6 @@
 # Spline
 
-&mdash; <https://youtu.be/jvPPXbo87ds?t=461>
-
-&mdash; <https://en.wikipedia.org/wiki/Spline_(mathematics)>
+> **resource** introduction to [[spline]]s &mdash; <https://www.youtube.com/watch?v=jvPPXbo87ds>
 
 **see** [[math notation]], [[curve]]
 
@@ -296,3 +294,9 @@ there is no need to specify tangent points for [[spline#catmull-rom spline]]s &m
 **aka** _NURBS_
 
 _a [[spline#b-spline]] with a weight assigned to each control point_
+
+## &mdash;
+
+&mdash; <https://youtu.be/jvPPXbo87ds?t=461>
+
+&mdash; <https://en.wikipedia.org/wiki/Spline_(mathematics)>

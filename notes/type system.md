@@ -2,6 +2,8 @@
 
 **see** [[type]], [[polymorphism]]
 
+> **resource** [[type system]]s in [[functional programming]] &mdash; <https://www.youtube.com/watch?v=hy1wjkcIBCU>
+
 ## Nominal Type System
 
 **aka** _name-based type system, nominative type system_

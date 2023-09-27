@@ -4,7 +4,7 @@ _the true [[circle]] constant_
 
 **see** [[math notation]]
 
-&mdash; <https://tauday.com/tau-manifesto>
+> **resource** the [[tau]] manifesto &mdash; <https://tauday.com/tau-manifesto>
 
 **definition** **`tt`** is the ratio of the circumference of a [[circle]] to its radius
 

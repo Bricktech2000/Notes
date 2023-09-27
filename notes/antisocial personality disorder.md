@@ -1,10 +1,10 @@
 # Antisocial Personality Disorder
 
-&mdash; <https://youtu.be/gpjYtAB9i2w?t=444>
-
 **see** [[mental illness]]
 
-> **note** [[antisocial personality disorder]] is one of the most unfortunately named [[mental illness]]es. _antisocial_ in this context means _against society_ and **not** _socially awkward_ because of historical reasons
+> **resource** crash course on [[psychopathy]] and [[sociopathy]] &mdash; <https://www.youtube.com/watch?v=gpjYtAB9i2w>
+
+> **note** [[antisocial personality disorder]] is one of the most unfortunately named [[mental illness]]es. _antisocial_ in this context means _against society_ and **not** _socially awkward_ because of historical reasons &mdash; <https://youtu.be/gpjYtAB9i2w?t=444>
 
 _[[antisocial personality disorder]]_ is the diagnostic term for [[mental illness]]es often referred to as _[[psychopathy]]c-personality-disorder_ and _[[sociopathy]]c-personality-disorder_. [[psychopathy]] and [[sociopathy]] have a lot of overlap
 

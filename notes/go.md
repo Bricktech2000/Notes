@@ -1,8 +1,10 @@
 # Go
 
-_it's not bad; it's just not good_
+_it's not bad; it's just not good_ &mdash; <https://yager.io/programming/go.html>
 
-&mdash; <https://yager.io/programming/go.html>
+> **resource** _[[go]] at Google: Language Design in the Service of [[software engineering]]_ &mdash; <https://go.dev/talks/2012/splash.article>
+
+> **resource** _why [[go]] is not good_, article sharing my opinions on the language &mdash; <https://yager.io/programming/go.html>
 
 [[go]] contains a myriad of contradictory design decisions; examples include:
 

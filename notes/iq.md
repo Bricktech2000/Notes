@@ -8,5 +8,5 @@ studies have estimated that [[iq]] is weakly correlated with genetics in childre
 
 - have a [[mean]], [[median]] and [[mode]] of **`100`**
 - have a [[standard deviation]] of **`15`**
-- have a [[probability distribution#skew]] of **`0`**
-- form a [[probability distribution#normal distribution]]
+- have a [[skew]] of **`0`**
+- form a [[normal distribution]]

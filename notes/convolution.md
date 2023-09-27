@@ -32,6 +32,8 @@ _commutativity_ **`CC a b == CC b a`** or equivalently **`CC == rr CC`**
 
 _associativity_ **`CC (CC a b) c == CC a (CC b c)`**
 
+_identity_ **`CC D a = a`** where **`D`** is the [[dirac delta function]]
+
 **equiv** _[[polynomial]] multiplication_
 
 **`CC (1, 2, 3) (4, 5, 6) = (4, 13, 28, 27, 18)`**
