@@ -4,6 +4,8 @@ _time complexity, space complexity_
 
 **see** [[algorithm]]
 
+> **resource** _BIG OMICRON AND BIG OMEGA AND BIG THETA_ by Donald E. Knuth &mdash; <https://dl.acm.org/doi/pdf/10.1145/1008328.1008329>
+
 **definition** **`O f`** denotes the [[set]] of all **`g`** such that there exist positive [[real]]s **`D`** and **`n_0`** with **`0 -| g n -| Df n`** for all **`n |- n_0`**
 
 **definition** **`WW f`** denotes the [[set]] of all **`g`** such that there exist positive [[real]]s **`C`** and **`n_0`** with **`Cf n -| g n -| @@`** for all **`n |- n_0`**

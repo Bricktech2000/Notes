@@ -124,7 +124,7 @@ lowercase and uppercase letters are offset by `0x20` or `0b00100000` or `' '`
 | `0x5D` &bull; `0b01011101`        | `']'`         | Right Square Bracket      |
 | `0x5E` &bull; `0b01011110`        | `'^'`         | Circumflex Accent         |
 | `0x5F` &bull; `0b01011111`        | `'_'`         | Low Line                  |
-| `0x60` &bull; `0b01100000`        | `` '`' ``     | Grave Accent              |
+| `0x60` &bull; `0b01100000`        | ``'`'``       | Grave Accent              |
 | `0x61` &bull; `0b01100001`        | `'a'`         | Latin Small Letter A      |
 | `0x62` &bull; `0b01100010`        | `'b'`         | Latin Small Letter B      |
 | `0x63` &bull; `0b01100011`        | `'c'`         | Latin Small Letter C      |

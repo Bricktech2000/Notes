@@ -6,9 +6,9 @@
 
 _you do not rise to the level of your [[goal]]s. you fall to the level of your [[system]]s_ &mdash; <https://youtu.be/zUm3fKk00J8?t=3017>
 
-most of our culture is outcome-oriented instead of process-oriented. focusing on outcomes can lead to feeling [[overwhelm]]ed and can prevent people from even starting the process itself (which could be wrongly rationalized as a lack of [[motivation]] or as [[laziness]]) &mdash; <https://youtu.be/\_ZVGXmafWqY?t=72>. while [[goal]]s are good at setting a direction, [[system]]s are best for making progress &mdash; <https://youtu.be/D_F45YuUHUA>
+most of our culture is outcome-oriented instead of process-oriented. focusing on outcomes can lead to feeling [[overwhelm]]ed and can prevent people from even starting the process itself (which could be wrongly rationalized as a lack of [[motivation]] or as [[laziness]]) &mdash; <https://youtu.be/\_ZVGXmafWqY?t=72>. while [[goal]]s are lighthouses helping set a direction, [[system]]s are best for making progress &mdash; <https://youtu.be/D_F45YuUHUA> and <https://youtu.be/Duo7OB3NEQg?t=7m15s> and <https://youtu.be/Duo7OB3NEQg?t=9m53s>
 
-because of [[system over goal]], tracking something is often better than trying to restrict it through [[willpower]] &mdash; <https://youtu.be/ewzC_ica4Fw>. this is often referred to as _[[habit]] tracking_ &mdash; <https://youtu.be/zUm3fKk00J8?t=18342>. however, for the measure to remain relevant, it must never become the target, see [[goodhart's law]]
+because of [[system over goal]], tracking something is often better than trying to restrict it through [[willpower]] &mdash; <https://youtu.be/ewzC_ica4Fw>. this is often referred to as _[[habit]] tracking_ &mdash; <https://youtu.be/zUm3fKk00J8?t=18342>. however, for the measure to remain relevant, it must not become the target, see [[goodhart's law]]
 
 **tradeoffs** _advantages of [[system over goal]]_
 

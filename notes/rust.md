@@ -6,6 +6,10 @@ _a language for the next 40 years_
 
 &mdash; <https://youtu.be/PuMXWc0xrK0>
 
+> **resource** _A firehose of Rust_, good overview of why the [[rust]] borrow checker is valuable &mdash; <https://youtu.be/IPmRDS0OSxM>
+
+> **resource** _A half-hour to learn [[rust]]_, a fast introduction [[rust]] &mdash; <https://fasterthanli.me/articles/a-half-hour-to-learn-rust>
+
 **tradeoffs**
 
 - high performance (no garbage collector, zero-cost [[abstraction]]s)
@@ -52,7 +56,7 @@ all [[function]] items and all closures of a [[rust]] program have a unique [[ty
 
 ## Safety
 
-[[rust]] borrows many features from [[functional programming]] and makes them easy to use. for instance, [[rust]] has `Option`s instead of [[null]] pointers, and it has `Result`s instead of `try-catch` exceptions.
+[[rust]] borrows many features from [[functional programming]] and makes them easy to use. for instance, [[rust]] has `Option`s instead of [[null]]s, and it has `Result`s instead of [[exception]]s.
 
 accessing out-of-bounds memory causes either a compile time error or a `panic!` at runtime instead of maybe or maybe not causing a segfault. the `#[no_panic]` attribute macro can be used to force the compiler to prove that a function will never panic. &mdash; <https://youtu.be/sbVxq7nNtgo?t=586>
 
@@ -112,7 +116,7 @@ Rust ensures "surprising" behavior is clearly sign-posted:
 
 - macros are sign-posted with a `!`
 - unsafe code is sign-posted with the `unsafe` keyword
-- lazy exception handling is sign-posted with an `unwrap()` call
+- lazy error handling is sign-posted with an `unwrap()` call
 - anything that could cause a [[function]] to return early is sign-posted with the `!` or `?` operators
 
 > **example**

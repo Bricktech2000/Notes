@@ -5,7 +5,7 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 ## markup
 
 - [[markdown]] is used **exclusively** semantically; a [[markdown]] element is never to be used for styling purposes
-- custom [[markdown]] syntax, `` **`...`** ``, is used for all mathematical equations through my custom [[math notation]]
+- custom [[markdown]] syntax, ``**`...`**``, is used for all mathematical equations through my custom [[math notation]]
 - [[variable]]s in equations are defined in separate lines using a `, where` statement followed by a [[markdown]] list
 - [[international system of units]] units and chemical elements in equations are to be written within `"`. a space is to be added before a unit
 - italics indicate "as-is" text (formal terms, direct quotations, titles of works...) and are used for "taglines" (easy-to-remember one-line summaries of a section)
@@ -35,6 +35,7 @@ italics are used for informal and opinionated statements, and literal aoenuatose
   - **proof**
   - **example**
   - **procedure**
+  - **resource**
 
   the following headings are used inline:
 

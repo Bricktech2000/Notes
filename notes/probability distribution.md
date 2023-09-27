@@ -2,157 +2,30 @@
 
 _a mathematical description of the [[probability]]es of events_
 
+**see** [[math notation]], [[statistics]]
+
 &mdash; <https://en.wikipedia.org/wiki/Probability_distribution>
+
+**see**
+
+[[normal distribution]]
+
+[[continuous uniform distribution]]
+
+[[binomial distribution]]
+
+[[pareto distribution]]
+
+**properties**
 
 the [[probability distribution]] of the sum of two independent random variables is the [[convolution]] of their [[probability distribution]]s &mdash; <https://youtu.be/IaSGqQa5O-M>
 
-## Normal Distribution
+## Representation
 
-**aka** _gaussian distribution_
+**see**
 
-&mdash; <https://en.wikipedia.org/wiki/Normal_distribution>
+[[probability mass function]]
 
-**definition** the [[probability distribution#probability density function]] of a normal distribution is **`x -> G^ss (x . mm)`**, where
+[[probability density function]]
 
-- **`x`** is an _example_ in a [[sample]] **`X`**
-- **`mm`** is the [[mean]] of **`X`**
-- **`ss`** is the [[standard deviation]] of **`X`**
-- **`G^ss`** is the [[gaussian function]] with [[standard deviation]] **`ss`** and [[mean]] **`0`**
-
-**representation**
-
-![[Pasted image 20221127185202.png]]
-
-**properties**
-
-_partly due to the [[central limit theorem]], [...] physical quantities that are expected to be the sum of many independent processes, such as measurement errors, often have [[probability distribution]]s that are nearly normal_ &mdash; Wikipedia
-
-as a rule of thumb, in a [[probability distribution#normal distribution]],
-
-- **`68-100`** of the values are within **`1 ss`** of the [[mean]]
-- **`95-100`** of the values are within **`2 ss`** of the [[mean]]
-- **`99 7-1000`** of the values are within **`3 ss`** of the [[mean]]
-
-> **proof**
->
-> let **`G^ss`** be the [[gaussian function]] with [[standard deviation]] **`ss`** and [[mean]] **`0`**. then,
->
-> - **`$ G^1 x | dd x {1 . .1} ~ 68-100`**
-> - **`$ G^1 x | dd x {2 . .2} ~ 95-100`**
-> - **`$ G^1 x | dd x {3 . .3} ~ 99 7-1000`**
-
-offsetting a [[probability distribution#normal distribution]] upward or downward may not have much of an effect in the middle of the distribution but can have a huge impact at the tails of the distribution &mdash; <https://youtu.be/h02w5E7FGlY?t=948>
-
-> **example**
->
-> let two [[probability distribution#normal distribution]]s **`A = G^ss /\ B = G^ss : 4-11ss`**. then, given [[outcome]]s **`a`** from **`A`** and **`b`** from **`B`**, the [[probability]] that **`a |- b`** is **`6-10`**, which is relatively close to fifty-fifty. however, the [[probability]] that **`a |- 2ss`** is **`5-2`** times higher than the [[probability]] that **`b |- 2ss`**, which is way larger of a difference
->
-> > **proof**
-> >
-> > ```python
-> > import numpy as np
-> >
-> > trails = 1000000
-> > matches = (np.random.normal(0, 1, trails) < np.random.normal(4/11, 1, trails)).sum()
-> >
-> > print(matches / trails) # prints approximately 0.6
-> > ```
->
-> > **proof** **`($ G^1 x | dd x {@@ . 2}) -- ($ G^1 x : 4-11 | dd x {@@ . 2}) ~ 5-2`**
-
-### Standard Normal Distribution
-
-**see** [[standard normal table]]
-
-**definition** the [[probability distribution#probability density function]] of a standard normal distribution is **`G^1`**, where
-
-- **`G^1`** is the [[gaussian function]] with [[standard deviation]] **`1`** and [[mean]] **`0`**
-
-**definition** the standard normal distribution is the normal distribution with **`mm = 0`** and **`ss = 1`**
-
-## Continuous Uniform Distribution
-
-&mdash; <https://en.wikipedia.org/wiki/Continuous_uniform_distribution>
-
-**definition** the [[probability distribution#probability density function]] of a continuous uniform distribution is **`x -> {0, -- b . a} (a -| x -| b)`**, where
-
-- **`x`** is an _example_ in a [[sample]] **`X`**
-- **`a`** is the minimum of **`X`**
-- **`b`** is the maximum of **`X`**
-
-**representation**
-
-![[Pasted image 20221127184826.png]]
-
-## Binomial Distribution
-
-&mdash; <https://en.wikipedia.org/wiki/Binomial_distribution>
-
-**definition** the [[probability distribution#probability mass function]] of a binomial distribution is **`k -> C n k | [p]k | [1.p](n.k)`**, where
-
-- **`C`** is a [[set#combination]]
-- **`p`** is the [[probability]] of success of a [[bernoulli trial]]
-- **`n`** is the number of [[bernoulli trial]]s in a [[sample]] **`X`**
-- **`k`** is the number of successes in a [[sample]] **`X`**
-
-the [[probability distribution#probability mass function]] of a [[probability distribution#binomial distribution]] represents the [[probability]] of exactly **`k`** successes in **`n`** independent [[bernoulli trial]]s with [[probability]] **`p`** of success
-
-> **note** the definition above can be understood as follows. the [[probability]] of **`k`** successes is **`[p]k`** and the [[probability]] of **`n.k`** failures is **`[1.p](n.k)`**. the [[probability]] of **`k`** successes followed by **`n.k`** failures is **`[p]k | [1.p](n.k)`** by the [[probability#prduct rule]]. however, the number of ways to arrange **`k`** successes and **`n.k`** failures is **`C n k`**. therefore, the probability of **`k`** successes occuring **anywhere** in **`n`** [[bernoulli trial]]s is **`C n k | [p]k | [1.p](n.k)`** &mdash; me
-
-**representation**
-
-![[Pasted image 20230710113541.png]]
-
-## Skew
-
-_a measure of the asymmetry of a [[probability distribution]]_
-
----
-
-# Representation
-
-there are different ways of representing [[probability distribution]]s, outlined below
-
-## Probability Mass Function
-
-**definition** a _probability mass function_ is a [[function]] **`f`** that [[map]]s an event to its [[probability]] of occurrence such that **`:f = 1`**
-
-> **example** the probability mass function of a fair dice roll is **`x -> --6`**
-
-**applications**
-
-probability mass functions are used to describe discrete random variables
-
-## Probability Density Function
-
-**aka** _PDF_
-
-**see** [[integral]]
-
-**definition** a _probability density function_ is a [[function]] **`f`** such that **`$ f x | dd x {b . a}`** is the [[probability]] of an _example_ being in the [[interval]] **`a -| * -| b`**
-
-**applications**
-
-probability density functions are used to describe continuous random variables
-
-**properties**
-
-**`$ f x | dd x {@@ . .@@} = 1`** where **`f`** is a _probability density function_
-
-## Cumulative Distribution Function
-
-**aka** _CDF_
-
-**see** [[integral]]
-
-**definition** a _cumulative distribution function_ is a [[function]] **`F`** such that **`F a`** is the [[probability]] of an _example_ being in the [[interval]] **`.@@ -| * -| a`**
-
-**definition** **`$ f x | dd x {x . .@@}`** where **`f`** is a [[probability distribution#probability density function]]
-
-**applications**
-
-cumulative distribution functions are used to describe continuous random variables
-
-**properties**
-
-**`F @@ = 1`** where **`F`** is a _cumulative distribution function_
+[[cumulative distribution function]]

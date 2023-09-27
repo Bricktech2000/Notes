@@ -237,7 +237,7 @@ let:
   - [ ] when found inverse of function application, fix [[trigonometric function#inverses]] and [[function#inverse]] and [[trigonometric function#reciprocals]] (#todo invalid link) and [[function#reciprocal]] and others
   - [ ] when figured out composition, fix up [[algebraic structure]]s, see <https://discord.com/channels/@me/892957003645853717/1133641823542313050>
   - [ ] when figured out all of the above, fix up [[pid controller]] definition
-  - [ ] move [[composition]] within [[function]]; create [[application]] wthin [[function]]; create [[abstraction]] within [[function]]
+  - [ ] move [[composition]] within [[function]]; create `[[application]]` wthin [[function]]; create `[[abstraction]]` within [[function]]
 
 fixed #todo update:
 

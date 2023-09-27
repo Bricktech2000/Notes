@@ -389,10 +389,10 @@ a [[function#total function]] maps every element of its [[function#domain]] to a
 > }
 > ```
 >
-> even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it won't be able to return a value if the input is `0`. most developers would add an `if` check and throw an exception if that were the case, which makes the [[type]] signature a "lie". however, in [[functional programming]], one of the following strategies should be used instead:
+> even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it won't be able to return a value if the input is `0`. most developers would add an `if` check and throw an [[exception]] if that were the case, which makes the [[type]] signature a "lie". however, in [[functional programming]], one of the following strategies should be used instead:
 >
-> - restrict the input of the [[function]] (something like `nonZeroF64`)
-> - extend the output of the [[function]] (something like `Optional<f64>`)
+> - restrict the input of the [[function]] (`nonZeroF64` is an example)
+> - extend the output of the [[function]] (`Option<f64>` is an example)
 
 ## Higher-Order Function
 

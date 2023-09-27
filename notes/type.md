@@ -64,6 +64,8 @@ the _subtype_ [[relation]] is a [[partial order]] &mdash; <https://youtu.be/hy1w
 
 ## Algebraic Data Type
 
+> **resource** _Domain Modeling Made Functional_, and why [[type#algebraic data type]]s matter &mdash; <https://youtu.be/2JB1_e5wZmU>
+
 [[type]]s can be used with [[composition]] to create new [[type]]s. however, unlike with [[function]]s, they can be combined in two distinct ways
 
 > **example** _ADT [[composition]]_

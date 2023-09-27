@@ -1,6 +1,6 @@
 # Aspiration
 
-_vague [[goal]]s_
+_vague, unactionable [[goal]]s_
 
 **see** [[system over goal]]
 

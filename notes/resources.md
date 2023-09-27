@@ -1,46 +1,15 @@
 # Resources
 
-- undergrad [[calculus]] course &mdash; <https://www.youtube.com/watch?v=HfACrKJ_Y2w>
-- [[discrete mathematics]] course by Dr. Trefor Bazett &mdash; <https://www.youtube.com/watch?v=rdXw7Ps9vxc&list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS>
-- crash course on [[psychopathy]] and [[sociopathy]] &mdash; <https://www.youtube.com/watch?v=gpjYtAB9i2w>
-- good personal [[finance]] management leading to an ideal life &mdash; <https://www.youtube.com/watch?v=lUAn6YpHQao>
-- [[data structure]]s and [[algorithm]]s course &mdash; <https://www.youtube.com/watch?v=RBSGKlAvoiM>
-- [[category theory]] for programmers by Bartosz Milewski &mdash; <https://www.youtube.com/watch?v=I8LbkfSSR58&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM> (not yet finished)
-- _Atomic Habits_ by James Clear audiobook &mdash; <https://www.youtube.com/watch?v=zUm3fKk00J8>
-- talk about propositions as [[type]]s and related concepts &mdash; <https://www.youtube.com/watch?v=IOiZatlZtGU>
-- _[[category theory]] for the working hacker_ &mdash; <https://www.youtube.com/watch?v=gui_SE8rJUM>
 - _learn how to study smart_ by Marty Lobdell &mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0>
-- [[type system]]s in [[functional programming]] &mdash; <https://www.youtube.com/watch?v=hy1wjkcIBCU>
-- MIT intro to [[statistics]] video series &mdash; <https://www.youtube.com/watch?v=OgO1gpXSUzU&list=PLUl4u3cNGP619EG1wp0kT-7rDE_Az5TNd&index=6> (from video 6 to halfway through video 10)
-- introduction to [[spline]]s &mdash; <https://www.youtube.com/watch?v=jvPPXbo87ds>
-- parody of the [[ieee 754]] standard by tom7 &mdash; <http://tom7.org/nand/nand.pdf>
-- [[linear algebra]] summarized in **`4`** pages &mdash; <https://courses.engr.illinois.edu/ece498rc3/fa2016/material/linearAlgebra_4pgs.pdf>
-- Smartphone Compulsion Test to discover phone [[addiction]] &mdash; <https://virtual-addiction.com/smartphone-compulsion-test/>
-- _BIG OMICRON AND BIG OMEGA AND BIG THETA_ by Donald E. Knuth &mdash; <https://dl.acm.org/doi/pdf/10.1145/1008328.1008329>
-- the [[tau]] manifesto &mdash; <https://tauday.com/tau-manifesto>
-- the _homotopy [[type theory]]_ book &mdash; <https://hott.github.io/book/hott-online.pdf.html> (Chapter 1 &mdash; Type Theory)
-- _Rich Dad, Poor Dad_ by Robert Kiyosaki audiobook &mdash; <https://youtu.be/wp7Lz1svVro>
-- _La Douance_ by Marianne Belanger, Psy. D., PH. D.
 - pedagogy and rigor in [[mathematics]], talk by Grant Sanderson &mdash; <https://youtu.be/UOuxo6SA8Uc>
 - _The Duct Tape Programmer_ by Joel Spolsky <https://www.joelonsoftware.com/2009/09/23/the-duct-tape-programmer/>
-- LYT Kit &mdash; <https://www.linkingyourthinking.com/lyt-kit-course/onboarding>
 - _Plain Text_ talk (alias PIKE MATCHBOX) by Dylan Beattie &mdash; <https://youtu.be/_mZBa3sqTrI>
-- _the [[yaml]] document from hell_, about the complexity of [[yaml]] &mdash; <https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell>
-- _[[go]] at Google: Language Design in the Service of [[software engineering]]_ &mdash; <https://go.dev/talks/2012/splash.article>
-- _why [[go]] is not good_, article sharing my opinions on the language &mdash; <https://yager.io/programming/go.html>
 - Sam Altman testimony on AI that might mark history &mdash; <https://youtu.be/TO0J2Yw7usM>
-- Steve Jobs on Hiring Truly Gifted People &mdash; <https://youtu.be/a7mS9ZdU6k4>
-- great lectures for an introduction to [[information theory]] &mdash; <https://www.youtube.com/@JakobFoerster/videos>
-- _Advanced [[c]]: The UB and optimizations that trick good programmers._ &mdash; <https://youtu.be/w3_e9vZj7D8>
-- _A firehose of Rust_, good overview of why the [[rust]] borrow checker is valuable &mdash; <https://youtu.be/IPmRDS0OSxM>
-- [[vim]] bindings crash course by Ben Awad &mdash; <https://youtu.be/IiwGbcd8S7I>
-- _Domain Modeling Made Functional_, through the use of [[type#algebraic data type]]s &mdash; <https://youtu.be/2JB1_e5wZmU>
 - _Guessing the Teacher's Password_, on the distinction between _passwords_ and _explanations_ &mdash; <https://www.readthesequences.com/Guessing-The-Teachers-Password>
+
 - just-in-time [[learning]] over just-in-case [[learning]] by Ali Abdaal &mdash; <https://youtu.be/z2ZJiIt4pmo?t=1m38s>
-- building on strong foundations instead of making things up, with [[rust]] as a case study &mdash; <https://youtu.be/v6RxJsk8otY>
 - some talk the talk; some walk the walk &mdash; <https://youtu.be/uDDeves6Crs>
-- _A half-hour to learn [[rust]]_, a fast introduction [[rust]] &mdash; <https://fasterthanli.me/articles/a-half-hour-to-learn-rust>
-- the _nanobyte_ channel, decent resource for writing a simple [[operating system]] &mdash; <https://youtube.com/@nanobyte-dev>
+
 - _Programming Challenges V4_, decent programming project ideas &mdash; <https://programming-challenges.jeremyjaydan.dev/media/programming-challenges-v4.0.png>
 - _Bash Pitfalls_, highlighting the complexity of Bash &mdash; <https://mywiki.wooledge.org/BashPitfalls>
 - _Putting the "You" in CPU_, high-level overview of how computers run programs &mdash; <https://cpu.land/epilogue>

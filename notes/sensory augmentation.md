@@ -6,9 +6,9 @@ _adding new senses to the human body in a non-intrusive manner_
 
 _feeding information into the [[brain]] via unusual sensory channels_
 
-as humans, we don't "miss" the world of smell a dog lives in as we have never experienced it. "we are firmly settled in our [[umwelt]]"
+as humans, we don't "miss" the world of smell a dog lives in as we have never experienced it. _we are firmly settled in our [[umwelt]]_
 
-in the case of [[sensory augmentation]], **the brain** adapts to the signals sent to it, and so the signals do not have to adapt to the [[brain]]. "whatever information comes in, it just figures out what to do with it". [[brain]]s are therefore general-purpose computing devices, and all nature has to worry about is designing new peripherals to plug into it
+in the case of [[sensory augmentation]], **the brain** adapts to the signals sent to it, and so the signals do not have to adapt to the [[brain]]. _whatever information comes in, it just figures out what to do with it_. [[brain]]s are therefore general-purpose computing devices, and all nature has to worry about is designing new peripherals to plug into it
 
 > **example**
 >
@@ -19,11 +19,9 @@ in the case of [[sensory augmentation]], **the brain** adapts to the signals sen
 
 **applications**
 
-exampes of sending information to the [[brain]] through nonoptimal means:
+exampes of sending information to the [[brain]] through suboptimal means include:
 
-- sirens of firetrucks and of police cars
-- alarms, both audible and visual
 - audible phone notifications and phone vibration patterns
-- airplane cockpits full of gages and instruments
+- gauges and instruments in airplane cockpits
 
-the examples above could be sent to the [[brain]] through an optimized channel using [[sensory augmentation]]
+the examples above could be sent to the [[brain]] through optimized channels using [[sensory augmentation]]

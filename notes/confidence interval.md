@@ -8,6 +8,6 @@
 >
 > this means that there is a **`95-100`** [[probability]] that the [[mean]] of **`10000`** bets will be in the [[interval]] **`33-1000 . 35-1000 -| * -| 33-1000 : 35-1000`**
 
-> **note** generally, when not specified, the level of confidence of a [[confidence interval]] is **`95-100`**, which corresponds to values within approximately **`2`** [[standard deviation]]s from the [[mean]] on a [[probability distribution#normal distribution]]
+> **note** generally, when not specified, the level of confidence of a [[confidence interval]] is **`95-100`**, which corresponds to values within approximately **`2`** [[standard deviation]]s from the [[mean]] on a [[normal distribution]]
 
 > **note** generally, when [[confidence interval]]s do not overlap, we can conclude that the difference between the unknown values is _statistically significant_. when they do overlap, no conclusion can be drawn
