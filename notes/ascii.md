@@ -10,6 +10,8 @@ a non-standard 8th bit is sometimes used for:
 - code page extensions
 - parity checks and [[error correction]]
 
+> **resource** _Plain Text_ talk (alias PIKE MATCHBOX) by Dylan Beattie &mdash; <https://youtu.be/_mZBa3sqTrI>
+
 **properties**
 
 lowercase and uppercase letters are offset by `0x20` or `0b00100000` or `' '`

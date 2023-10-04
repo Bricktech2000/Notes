@@ -4,7 +4,7 @@
 
 **properties**
 
-the [[combinator#s combinator]] and the [[combinator#k combinator]] can be composed to produce [[combinator]]s that are extentionally equal to any [[lambda calculus]] term. consequently, **`S, K`** [[combinatory logic]] is Turing complete, see [[turing machine]]
+the [[combinator#s combinator]] and the [[combinator#k combinator]] can be composed to produce [[combinator]]s that are extentionally equal to any [[lambda calculus]] term. consequently, **`S, K`** [[combinatory logic]] is [[turing complete]]
 
 ## Booleans
 

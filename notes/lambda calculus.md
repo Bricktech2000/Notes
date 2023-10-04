@@ -12,9 +12,9 @@ used for backlinks
 
 [[function]]s in [[lambda calculus]] are [[function#pure function]]s
 
-[[lambda calculus]] is Turing complete, see [[turing machine]]
+[[lambda calculus]] is [[turing complete]]
 
-[[lambda calculus]] is the basis for most [[functional programming]] languages
+[[lambda calculus]] is the basis for most [[functional programming]] [[programming language]]s
 
 ## Syntax
 

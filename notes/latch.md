@@ -31,12 +31,6 @@ _set-reset latch_
 | **`1`** | **`0`** | **`1`** | set       |
 | **`1`** | **`1`** | &times; | undefined |
 
-**representation** _[[logic circuit]]_
-
-![[20220427161726.png]]
-
-> **note** SR latches can also be built using NAND [[logic gate]]s
-
 ## D Latch
 
 _data latch, gated by default_
@@ -48,10 +42,6 @@ _data latch, gated by default_
 | **`0`** | &times; | **`Q`** | no change  |
 | **`1`** | **`0`** | **`0`** | data reset |
 | **`1`** | **`1`** | **`1`** | data set   |
-
-**representation** _[[logic circuit]]_
-
-![[20220427161914.png]]
 
 ## JK Latch
 
@@ -65,10 +55,6 @@ _same as SR latch, but with undefined states removed_
 | **`0`** | **`1`** | **`0`**  | reset     |
 | **`1`** | **`0`** | **`1`**  | set       |
 | **`1`** | **`1`** | **`+Q`** | toggle    |
-
-**representation** _[[logic circuit]]_
-
-![[20220427162006.png]]
 
 ## T Latch
 

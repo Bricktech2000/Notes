@@ -2,17 +2,9 @@
 
 **see** [[digital system]], [[boolean algebra]]
 
-**see** [[truth table]], [[characteristic table]], [[excitation table]], [[characteristic equation]], [[truth table]], [[karnaugh map]], [[state table]], [[state diagram]], [[logic gate]]s
+**see** [[truth table]], [[characteristic table]], [[excitation table]], [[characteristic equation]], [[truth table]], [[karnaugh map]], [[state table]], [[state diagram]], [[logic gate]]
 
-**see**
-
-[[latch]]
-
-[[flip-flop]]
-
-[[binary decoder]]
-
-[[multiplexer]]
+**see** [[latch]], [[flip-flop]]
 
 ---
 

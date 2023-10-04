@@ -198,7 +198,7 @@ _it is not recursive but it encodes [[recursion]]_ &mdash; <https://youtu.be/9T8
 
 **definition** **`ii = x -> x S K`**
 
-the [[combinator#iota combinator]] can be used to define the [[combinator#s combinator]] and [[combinator#k combinator]], and can therefore be composed to produce [[combinator#combinator]]s that are extentionally equal to any [[lambda calculus]] term. consequently, **`ii`** [[combinatory logic]] is Turing complete, see [[turing machine]]
+the [[combinator#iota combinator]] can be used to define the [[combinator#s combinator]] and [[combinator#k combinator]], and can therefore be composed to produce [[combinator#combinator]]s that are extentionally equal to any [[lambda calculus]] term. consequently, **`ii`** [[combinatory logic]] is [[turing complete]]
 
 #### &mdash;
 

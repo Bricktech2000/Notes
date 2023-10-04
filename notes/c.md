@@ -349,7 +349,7 @@ the type of the controlling expression to a `switch` statement must be an _integ
 
 &mdash; <https://www.gnu.org/software/libc/manual/html_node/Reserved-Names.html>
 
-any identifier matching one of the following [[regular expression]]s is reserved and should not be used in a user program: #todo rephrase
+any identifier matching one of the following [[regular expression]]s is reserved and should not be used in a user program:
 
 - `/^_/` at file scope
 - `/^__/`

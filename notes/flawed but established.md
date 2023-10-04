@@ -10,8 +10,8 @@ _suboptimal [[system]]s, [[tool]]s and [[concept]]s that have too high of a [[sw
 > - the [[imperial system of units]]
 > - the [[markdown]] language
 > - ANSI paper sizes (Letter, Legal, Tabloid...)
-> - the QWERTY layout
-> - bash and other shell languages
+> - the [[qwerty layout]]
+> - [[bash]] and other shell languages
 
 > **examples** _superior alternatives_
 >
@@ -20,4 +20,4 @@ _suboptimal [[system]]s, [[tool]]s and [[concept]]s that have too high of a [[sw
 > - [[better markdown]] when I get around to finishing it
 > - [[iso 216]] paper sizes
 > - [[distance pair kinship]]
-> - the Dvorak layout
+> - the [[dvorak layout]]

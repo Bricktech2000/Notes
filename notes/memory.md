@@ -1,8 +1,6 @@
 # Memory
 
-**see** [[learning]]
-
-[[memory technique]]s can be used as [[trick]]s to remember [[fact]]s better and faster
+**see** [[memory technique]], [[learning]]
 
 **types** _&mdash; with examples_
 

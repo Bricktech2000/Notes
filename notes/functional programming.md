@@ -18,9 +18,9 @@ functional languages support [[first-class function]]s
 
 **tradeoffs**
 
-as all [[function]]s are isolated from any other parts of a program, they can be combined to build larger functions without having to worry about anything breaking. this also allows for testability and reusability
+as all [[function]]s are isolated from other parts of a program, they can be combined to build larger [[function]]s without having to worry about anything breaking. this also allows for testability and reusability
 
-[[functional programming]] [[function]]s and [[object-oriented programming]] [[object]]s can be compared to Lego bricks, except bricks in [[object-oriented programming]] are likely not going to fit with other bricks in the program, and all bricks are joined by strings and rubber bands waiting to become a fragile tangled mess
+[[functional programming]] [[function]]s and [[object-oriented programming]] [[object]]s can be compared to Lego bricks, except the bricks in [[object-oriented programming]] are likely not going to fit with other bricks in the program, and all bricks are joined by strings and rubber bands waiting to become a fragile tangled mess
 
 ## &mdash;
 

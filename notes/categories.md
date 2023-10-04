@@ -118,7 +118,7 @@
 
 [[calculus notation]]
 
-[[recipe structure]]
+[[nested recipe structure]]
 
 [[sensory augmentation]]
 
@@ -127,8 +127,6 @@
 [[minimalism]]
 
 ## reproduce
-
-[[resources]]
 
 [[better markdown]]
 
