@@ -17,6 +17,7 @@ _to prevent writer's block_
 - how am I feeling right now, and why?
 - what's something amazing that happened today?
 - what would have made today better?
+- what's something I learned today?
 
 ## &mdash;
 
@@ -29,3 +30,5 @@ _to prevent writer's block_
 &mdash; <https://youtu.be/gDNDlPejKr4?t=155>
 
 &mdash; <https://youtu.be/FNJO1pZV-I8>
+
+&mdash; <https://youtu.be/E8vwGLMTx5I>

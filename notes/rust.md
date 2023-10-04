@@ -89,7 +89,7 @@ most languages have a floor for [[abstraction]]s, such as builtin functions like
 
 ### Macro System
 
-the [[rust#macro system]] is Turing complete, see [[turing machine]]. they allow for both [[abstraction]]s and new syntax
+the [[rust#macro system]] is [[turing complete]]. it allows for both [[abstraction]]s and new syntax
 
 ### Smart Pointers
 

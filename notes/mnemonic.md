@@ -34,7 +34,7 @@ _[[trick]]s for [[learning]] [[fact]]s_
 
 ## interacting images
 
-> **example** _number of calories in 1g of..._
+> **example** _amount of calories in 1g of..._
 >
 > car-bo-hy-drates: 4 syllables
 >

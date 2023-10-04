@@ -2,11 +2,11 @@
 
 **see** [[memory]], [[trick]]
 
+[[memory technique]]s can be used as [[trick]]s to remember [[fact]]s more efficiently. [[memory technique]] are [[function#bijective function]]s between a [[fact]] to be memorized and a [[fact]] that is easier for the [[brain]] to remember
+
+[[mnemonic]]s are an effective [[memory technique]]. bundling unrelated [[fact]]s into a single related construct can also help remember them &mdash; me
+
 [[memory]] athletes memorize through their semantic [[memory]]
-
-using [[mnemonic]]s can be an effective a [[memory technique]]
-
-bundling unrelated [[fact]]s into a single related construct can help remember them &mdash; me
 
 > **example** _memorizing digits_
 >

@@ -125,6 +125,37 @@ turns out someone has already had this idea. see the following papers for more i
 
 use a crude automated [[discounted cash flow]] analysis to build an index fund of sorts
 
+### data storage for future analysis
+
+store data as a [[tree]] of plain English sentences to be concatenated:
+
+```text
+2023-01-01
+  groceries
+    1x 6 bagels total 12.99$
+    ...
+  sleep
+    2 hours deep
+    5 hours light
+    1 hour REM
+    ...
+  ...
+```
+
+which would get compiled into:
+
+```text
+2023-01-01 groceries 1x 6 bagels total 12.99$
+2023-01-01 groceries ...
+2023-01-01 sleep 2 hours deep
+2023-01-01 sleep 2 hours light
+2023-01-01 sleep 1 hour REM
+2023-01-01 sleep ...
+2023-01-01 ...
+```
+
+this is an efficient method for **recording data completely independently from how it is to be analyzed**. then, use a language model to perform queries. finally, send to data viz / data analysis library such as pandas, see <https://youtu.be/FbBXtqtRnWU> for examples
+
 ---
 
 ```lua

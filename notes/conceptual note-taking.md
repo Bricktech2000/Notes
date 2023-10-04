@@ -16,6 +16,8 @@ through some pseudo-[[frequency illusion]], writing a note about a [[concept]] l
 
 having to reason about where a [[concept]] fits in leads to a **better understanding** of it and of related ones. refreshing our [[memory]] by going back over related [[concept]]s forms a **basis for [[spaced repetition]]**
 
+[[conceptual note-taking]] allows for multi-level [[encapsulation]] of ideas, fostering a **focus on connection**
+
 [[conceptual note-taking]] has somewhat of a learning curve
 
 ## &mdash;

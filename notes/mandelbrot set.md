@@ -2,7 +2,7 @@
 
 **see** [[complex]], [[complex#modulus]]
 
-**definition** let **`z^c n = [z^c n.1]2 : c /\ z^c 0 = 0 /\ NN n`** be a [[complex]] [[function]]. then, the _mandelbrot set_ is the [[set]] of all **`c`** such that **`"abs" z^c`** is a [[sequence#bounded sequence]]
+**definition** let **`z c (n:1) = [z c n]2 : c /\ z c 0 = 0 /\ NN n`** be a [[complex]] [[function]]. then, the _mandelbrot set_ is the [[set]] of all **`c`** such that **`"abs" (z c)`** is a [[sequence#bounded sequence]]
 
 **representation** _in the [[complex]] [[plane]]_
 

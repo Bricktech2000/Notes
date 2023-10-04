@@ -4,7 +4,7 @@
 
 **see** [[javascript]], [[c++]], [[python]], [[rust]], [[c]], [[iota language]], [[java]], [[go]], [[solidity]]
 
-**see** _other types of languages_ [[json]], [[yaml]], [[markdown]], [[better markdown]]
+**see** _other types of languages_ [[json]], [[yaml]], [[markdown]], [[better markdown]], [[bash]]
 
 ## building a language
 

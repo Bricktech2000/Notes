@@ -22,7 +22,7 @@ cons of [[object-oriented programming]] include:
 
 &mdash; <https://rodrigodeoliveira.netlify.app/the-four-pillars-of-oop>
 
-**see** [[polymorphism]], [[abstraction]]
+**see** [[polymorphism]], [[abstraction]], [[encapsulation]]
 
 **definition** _abstraction_ groups the essential characteristics of an [[object]]
 

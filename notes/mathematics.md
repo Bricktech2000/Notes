@@ -6,6 +6,8 @@ _if you think [[mathematics]] is all about [[number]]s, you probably think Shake
 
 _[[mathematics]] is about making stuff up and seeing what happens_ &mdash; Vi Hart, supposedly. see [[invent]] and [[discover]]
 
+> **resource** pedagogy and rigor in [[mathematics]], talk by Grant Sanderson &mdash; <https://youtu.be/UOuxo6SA8Uc>
+
 **see**
 
 [[pure mathematics]]

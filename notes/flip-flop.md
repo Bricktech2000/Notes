@@ -16,7 +16,15 @@ all [[latch#types]] can be turned into [[flip-flop]]s and all [[flip-flop#types]
 
 _set-reset flip-flop_
 
-not used as it has an undefined state
+**representation** _[[truth table]]_
+
+| **`"CLK"`** | **`S`** | **`R`** | **`Q`** | comment   |
+| ----------- | ------- | ------- | ------- | --------- |
+| &uarr;      | **`0`** | **`0`** | **`Q`** | no change |
+| &uarr;      | **`0`** | **`1`** | **`0`** | reset     |
+| &uarr;      | **`1`** | **`0`** | **`1`** | set       |
+| &uarr;      | **`1`** | **`1`** | &times; | undefined |
+| not &uarr;  | &times; | &times; | **`Q`** | no change |
 
 ## D Flip-Flop
 
@@ -24,11 +32,11 @@ _data flip-flop_
 
 **representation** _[[truth table]]_
 
-| **`"CLK"`** | **`D`** | **`Q`** | comment    |
-| ----------- | ------- | ------- | ---------- |
-| &uarr;      | **`0`** | **`0`** | data reset |
-| &uarr;      | **`1`** | **`1`** | data set   |
-| not &uarr;  | &times; | **`Q`** | no change  |
+| **`"CLK"`** | **`D`** | **`Q`** | comment   |
+| ----------- | ------- | ------- | --------- |
+| &uarr;      | **`0`** | **`0`** | reset     |
+| &uarr;      | **`1`** | **`1`** | set       |
+| not &uarr;  | &times; | **`Q`** | no change |
 
 ## JK Flip-Flop
 
