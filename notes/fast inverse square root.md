@@ -2,7 +2,7 @@
 
 **see** [[math notation]]
 
-the [[fast inverse square root]] is an [[algorithm]] that estimates **`-- \x/`** for a 32-bit [[ieee 754]] [[floating point]] number **`x`**
+the [[fast inverse square root]] is an [[algorithm]] that estimates **`-- \x/`** for a 32-bit [[ieee 754]] [[float]]ing-point number **`x`**
 
 **representation** _original implementation stripped of [[c]] preprocessor directives_
 
@@ -47,7 +47,7 @@ float Q_rsqrt(float number)
 
 let **`x = 2[e_x] | m_x`**. assuming **`x |- 0`** and **`1 -| m_x -| 2`**, according to [[ieee 754]], we get **`i_x = L(e_x : B) : L(m_x . 1)`**, where
 
-- **`i_x`** is the [[natural]] whose bit representation is that of the [[ieee 754]] [[floating point]] **`x`**
+- **`i_x`** is the [[natural]] whose bit representation is that of the [[ieee 754]] [[float]] **`x`**
 - **`B = 127`** is the [[ieee 754]] _exponent bias_ for 32-bit floats
 - **`L = 2[23]`** is abstracting away a "magic" constant for 32-bit floats
 
@@ -59,7 +59,7 @@ let **`y = -- \x/`**. since square roots and divisions are expensive to compute,
 
 given **`x = 2[e_x] | m_x`**, **`/x\ 2 = e_x : /m_x\ 2`**. since **`1 -| m_x -| 2`**, a common approximation can be used, **`/m_x\ 2 ~ m_x . 1 : ss`** where **`ss`** is a free parameter used to tune the approximation. therefore, **`/x\ 2 ~ e_x : m_x . 1 : ss`**
 
-given **`i_x = L(e_x : B) : L(m_x . 1)`**, we get **`i_x = L(e_x : B : m_x . 1) = L(e_x : m_x . 1 : ss : B . ss) ~  L /x\ 2 : L(B . ss)`**. solving, we get **`/x\ 2 ~ -Li_x . (B . ss)`**; in other words, the [[ieee 754]] bit representation of a [[floating point]] number is approximately its own [[logarithm]] up to constant scaling and shifting
+given **`i_x = L(e_x : B) : L(m_x . 1)`**, we get **`i_x = L(e_x : B : m_x . 1) = L(e_x : m_x . 1 : ss : B . ss) ~  L /x\ 2 : L(B . ss)`**. solving, we get **`/x\ 2 ~ -Li_x . (B . ss)`**; in other words, the [[ieee 754]] bit representation of a [[float]] is approximately its own [[logarithm]] up to constant scaling and shifting
 
 ### inverse square root
 

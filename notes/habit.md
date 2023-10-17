@@ -47,11 +47,15 @@ _[[habit#formation]]_
 > - brain reprogramming &mdash; reinforcing a [[habit]] by constantly repeating to yourself its pros xor cons
 > - two-minute rule &mdash; anchoring the routine before ramping up the [[difficult]]y to make it stick
 > - habit tracking &mdash; tracking a [[habit]] to make it more visible and to keep you [[accountable]] and [[intention]]al
-> - accountability &mdash; having someone to report to about your [[habit]]s to keep you [[accountable]]
+> - accountability &mdash; having someone to report to about your [[habit]]s to keep you [[accountable]]; see [[commitment#device]]
 >
 > &mdash; <https://youtu.be/PZ7lDrwYdZc>
 
-> **note** _habit tracking_ can be thought of as providing the **timely feedback** necessary for [[learning]] and the [[accountable]]ility necessary for the feedback to **actively be used in improving** &mdash; me
+## Tracking
+
+[[habit#tracking]] can be thought of as providing the **timely feedback** necessary for [[learning]] and the [[accountable]]ility necessary for the feedback to **actively be used in improving** &mdash; me
+
+[[habit#tracking]] can lead to the **introspection** required for [[self-control]]
 
 ## Keystone Habit
 

@@ -69,9 +69,9 @@ let **`V {{v_0 ... v_m}}`**. if **`U = "span" {{v_0 ... v_m}}`**, then **`/\ U -
 
 ## Isomorphism
 
-**see** [[category]], [[category theory]]
+_Iso-Morphic &mdash; Same Shape_
 
-> Iso-Morphic &mdash; Same Shape
+**see** [[category]], [[category theory]]
 
 > **example** **`RR^3`** and **`PP^2`** are isomorphic, as any vector in **`RR^3`** can be converted to a unique vector in **`PP^2`**, and vice-versa, see [[category]]
 

@@ -6,30 +6,16 @@ _studying [[vector space]]s_
 
 > **resource** [[linear algebra]] summarized in **`4`** pages &mdash; <https://courses.engr.illinois.edu/ece498rc3/fa2016/material/linearAlgebra_4pgs.pdf>
 
-**applications**
-
-<https://youtu.be/bI-FS7aZJpY>
+> **resource** leveraging [[linear algebra]] to reason about systems of units &mdash; <https://youtu.be/bI-FS7aZJpY>
 
 **see**
 
-[[vector]], [[vector space]]s
+[[vector]], [[vector space]]
 
-[[linear combination]]s, [[linear dependence]]
+[[linear combination]], [[linear dependence]], [[span]], [[basis]]
 
-[[linear system]]s, [[linear equation]]s
+[[linear system]], [[linear equation]], [[row reduction]]
 
-[[row reduction]]
+[[vector in rn]], [[eigen]], [[matrix]], [[linear transformation]], [[determinant]]
 
-[[complex]] numbers
-
-[[determinant]]
-
-[[eigen]]
-
-[[linear transformation]]
-
-[[vector in rn]], [[normal vector]], [[matrix]]
-
-[[span]]s, [[basis]]
-
-[[plane]], [[line]], [[vector in rn]]
+[[plane]], [[line]], [[normal vector]]

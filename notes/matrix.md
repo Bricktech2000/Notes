@@ -319,7 +319,7 @@ a [[matrix]] is _diagonalizable_ if and only if the geometic [[eigen#multiplicit
 
 > **example** the [[matrix]] **`A = []1 & 1 && 1 & 1[]`** is not diagonalizable over the reals as it does not have any real [[eigen#value]]s
 
-> **example** the [[matrix]] **`A = []3 & 1 && 0 & 3[]`** is not diagonalizable over the reals as it only has one [[eigen#value]], and therefore only one set of [[linearly dependent]] [[eigen#vector]]s
+> **example** the [[matrix]] **`A = []3 & 1 && 0 & 3[]`** is not diagonalizable over the reals as it only has one [[eigen#value]], and therefore only one set of [[vector#linearly dependent vector]] [[eigen#vector]]s
 
 > **example** the [[matrix]] **`A = []1 & 0 && 0 & 1[]`** is diagonalizable over the reals as, even though **`A`** has a single [[eigen#value]] **`ll = 1`**, its [[eigen#space]] [[span]]s **`RR^2`**. this is the case for both **`A = I /\ ll = 1`** and **`A = O /\ ll = 0`**
 >
@@ -340,7 +340,7 @@ let **`MM^m,n A`**. the following [[logic statement]]s are equivalent:
 - every [[variable]] is a leading [[variable]]
 - there is a leading [[variable]] in every column of the [[linear system#reduced row echelon form]] of **`A`**
 - the system **`Ax = O`** has a unique solution
-- the columns of **`A`** are [[linearly independent]]
+- the columns of **`A`** are [[vector#linearly independent vector]]s
 - **`NN A = {{O}}`**
 - **`"dim" NN A = 0`**
 - **`"rank" A = n`**
@@ -361,8 +361,8 @@ let **`MM^n,n A`**. the following [[logic statement]]s are equivalent:
 - **`NN A = {{O}}`**
 - **`CC A = RR^n`**
 - **`RR A = RR^n`**
-- the columns of **`A`** are [[linearly independent]]
-- the rows of **`A`** are [[linearly independent]]
+- the columns of **`A`** are [[vector#linearly independent vector]]s
+- the rows of **`A`** are [[vector#linearly independent vector]]s
 - the columns of **`A`** form a [[basis]] for **`RR^n`**
 - the rows of **`A`** form a [[basis]] for **`RR^n`**
 - **`A`** is an invertible [[matrix]]

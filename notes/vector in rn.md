@@ -64,7 +64,7 @@ _a pair of vectors offset by **`-4tt "rad"`**_
 
 **theorem** any orthogonal [[set]] of **`n`** [[vector]]s in **`RR^n`** is a [[basis#orthogonal basis]] of **`RR^n`**
 
-**theorem** a [[set]] of [[vector]]s being orthogonal implies the [[vector]]s are [[linearly independent]], but not conversely
+**theorem** a [[set]] of [[vector]]s being orthogonal implies they are [[vector#linearly independent vector]]s, but not conversely
 
 **theorem** suppose **`(w_0 ... w_m)`** is a [[basis#orthogonal basis]] for a [[vector space#subspace]] **`W`** of **`RR^n`**. then, **`w = w_0 (:w w_0 -- :w_0 w_0) : ... w_m (:w w_m -- :w_m w_m)`**, see [[dot product]]
 

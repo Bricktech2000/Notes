@@ -6,14 +6,14 @@ _[[vector space]] basis_
 
 **definition**
 
-a [[set]] of [[vector]]s is the [[basis]] of a [[vector space]] if both:
+a [[set]] of [[vector]]s is a [[basis]] of a [[vector space]] if both:
 
-- the [[set]] is [[linearly independent]]
+- the [[set]] is of [[vector#linearly independent vector]]s
 - the [[set]] [[span]]s the [[vector space]]
 
 **properties**
 
-all [[basis]]es of a [[vector space]] have the same size
+all [[basis]]es of a [[vector space]] have identical [[set#cardinality]]
 
 **theorems**
 

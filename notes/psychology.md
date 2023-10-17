@@ -18,7 +18,7 @@
 
 [[religion]]
 
-[[addiction]]
+[[self-control]], [[addiction]]
 
 [[hypnosis]]
 

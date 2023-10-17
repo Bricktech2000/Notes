@@ -4,7 +4,7 @@
 
 _meditation with utilization_
 
-> **definition** _hypnosis_ is a human condition involving [[focus]]ed attention, reduced peripheral awareness, and an enhanced capacity to respond to suggestion &mdash; Wikipedia
+**definition** _hypnosis_ is a human condition involving [[focus]]ed attention, reduced peripheral awareness, and an enhanced capacity to respond to suggestion &mdash; Wikipedia
 
 > **example** _being hypnotized_ &mdash; <https://youtu.be/82on_9rviTo>
 

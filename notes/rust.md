@@ -22,8 +22,6 @@ _a language for the next 40 years_
 
 ## Type System
 
-&mdash; <https://youtu.be/bnnacleqg6k>
-
 &mdash; <https://youtu.be/s5S2Ed5T-dc>
 
 the [[type#empty type]] `!`, pronounced _never_, is [[rust]]'s [[type#bottom type]]. it is the type of an expression that never returns, such as `panic!()` or `loop {}` &mdash; <https://doc.rust-lang.org/std/primitive.never.html>

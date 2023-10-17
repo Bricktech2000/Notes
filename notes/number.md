@@ -9,7 +9,7 @@ _[[set]]s of [[number]]s_
   - [[boolean]]
   - ...
   - [[p-adic]]s
-  - [[floating point]]
+  - [[float]]
   - [[complex]]
     - [[imaginary]]
     - [[real]]

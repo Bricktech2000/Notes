@@ -39,3 +39,9 @@ let **`RR (c1, c2)`**
 **`c_1 c_2 | u = c_1 | c_2u`**
 
 **`1u = u`**
+
+## Linearly Dependent Vector
+
+## Linearly Independent Vector
+
+**see** [[linear dependence]]
