@@ -2,11 +2,11 @@
 
 **aka** _IEEE Standard for Floating-Point Arithmetic_
 
-**see** [[math notation]], [[floating point]]
+**see** [[math notation]], [[float]]
 
 > **resource** parody of the [[ieee 754]] standard by tom7 &mdash; <http://tom7.org/nand/nand.pdf>
 
-[[ieee 754]] defines arithmetic formats, interchange formats, rounding rules, operations, and [[exception]] handling for [[floating point]] arithmetic &mdash; <https://en.wikipedia.org/wiki/IEEE_754>. it is the standard for [[floating point]] arithmetic used by most modern computers
+[[ieee 754]] defines arithmetic formats, interchange formats, rounding rules, operations, and [[exception]] handling for [[float]]ing-point arithmetic &mdash; <https://en.wikipedia.org/wiki/IEEE_754>. it is the standard for [[float]]ing-point arithmetic used by most modern computers
 
 **properties** &mdash; <http://tom7.org/nand/nand.pdf> and <https://youtu.be/Ae9EKCyI1xU?t=272> and Effective C, p. 47
 

@@ -14,3 +14,16 @@ not fulfilling a [[commitment]] is a breach of [[integrity]]. keeping people upd
 > 2. analyze events leading to the [[commitment]] not being fulfilled
 > 3. understand the the consequences of not fulfilling the [[commitment]]
 > 4. explore solutions to ensure future fulfillment of the [[commitment]]
+
+## Device
+
+**aka** _Ulysses pact_
+
+**definition** a _commitment device_ is a [[system]] put in place in the present to ensure a [[commitment]] is fulfilled in the future, especially during moments of weakness and temptation
+
+> **examples**
+>
+> - licensing an open-source project with GPL so your company can't make it proprietary somewhere down the line
+> - designing a system in such a way that giving away data to an intelligence agency is mathematically impossible
+
+&mdash; Wikipedia

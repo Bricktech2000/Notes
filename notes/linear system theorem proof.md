@@ -18,11 +18,11 @@
 >
 > - 3 &rarr; 4
 >
->   **`Ax = O`** has a unique solution &rarr; **`x = O`** &rarr; **`A^*,j x^j : ... A^*,j x^j = O`** has a unique solution (all coefficients are **`0`**) &rarr; the columns of **`A`** are [[linearly independent]]
+>   **`Ax = O`** has a unique solution &rarr; **`x = O`** &rarr; **`A^*,j x^j : ... A^*,j x^j = O`** has a unique solution (all coefficients are **`0`**) &rarr; the columns of **`A`** are [[vector#linearly independent vector]]s
 >
 > - 4 &rarr; 5
 >
->   the columns of **`A`** are [[linearly independent]] &rarr; **`Ax = O`** has a unique solution (**`x = O`**) &rarr; the [[matrix#null space]] of **`A`** is the [[set]] containing the zero [[vector]]
+>   the columns of **`A`** are [[vector#linearly independent vector]]s &rarr; **`Ax = O`** has a unique solution (**`x = O`**) &rarr; the [[matrix#null space]] of **`A`** is the [[set]] containing the zero [[vector]]
 >
 > - 5 &rarr; 6
 >

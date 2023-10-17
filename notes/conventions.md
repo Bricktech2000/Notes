@@ -150,7 +150,7 @@ filters:
   exisiting files only: no
   orphans: yes
 groups:
-  - query: '[[math notation]]'
+  - query: 'math notation'
     color: '#ffffff'
 display:
   arrows: yes

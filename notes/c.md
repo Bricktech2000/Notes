@@ -154,7 +154,7 @@ the size of integer data types is [[c#implementation-defined behavior]] and is a
 
 _wraparound_ (which is specific to unsigned integers) is well-defined behavior in [[c]]. values are reduced modulo the number that is one greater than the largest value that can be represented by the resulting type. however, _overflow_ (which is specific to signed integers) is [[c#undefined behavior]]
 
-the representation of signed integers in [[c]] is [[c#implementation-defined behavior_]] historically, the [[c]] language has supported three representation schemes: two's [[complement]], one's [[complement]] and [[sign-magnitude notation]]. implementation of [[floating point]] numbers is [[c#implementation-defined behavior]]
+the representation of signed integers in [[c]] is [[c#implementation-defined behavior_]] historically, the [[c]] language has supported three representation schemes: two's [[complement]], one's [[complement]] and [[sign-magnitude notation]]. implementation of [[float]]ing-point numbers is [[c#implementation-defined behavior]]
 
 each compiler implementation defines `char` as either `signed char` or `unsigned char`. regardless of the choice made, `char` is a different type from the other two and is incompatible with both. `char` is to be used for characters **only**, and `signed char` and `unsigned char` for small integer data
 
@@ -173,7 +173,7 @@ char s[3] = "foo"; // character array
 
 `stdbool.h` defines `bool`, `true`, and `false`
 
-`math.h` defines the various functions for classifying [[floating point]] numbers, such as `fpclassify`, `isfinite`, `isinf`, `isnan`, `isnormal` and `signbit`, along with various macros, such as `FP_INFINITE`, `FP_NAN`, `FP_NORMAL`, `FP_SUBNORMAL` and `FP_ZERO`
+`math.h` defines the various functions for classifying [[float]]ing-point numbers, such as `fpclassify`, `isfinite`, `isinf`, `isnan`, `isnormal` and `signbit`, along with various macros, such as `FP_INFINITE`, `FP_NAN`, `FP_NORMAL`, `FP_SUBNORMAL` and `FP_ZERO`
 
 until C23, `void f();` declares a function that takes any number of arguments of any type. `void f(void);` declares a function that takes no arguments. the former is to be avoided &mdash; <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++>
 
@@ -295,7 +295,7 @@ in [[c]], implicit type conversions, also known as _coercions_, are performed as
 
 simplistically, whenever a _small integer type_ is used in an expression in [[c]], it is converted to a `signed int` regardless of its signedness, or to an `unsigned int` under specific conditions. this process is called the _integer promotions_. this has the side effect that almost no operation in [[c]] can be performed directly on _small integer types_; operations are always carried out on `int`s or larger types
 
-whenever a binary [[operator]] is applied to two operands of different types, [[c]] enforces an implicit conversion of one of the operands to the type of the other operand. the rules for this process are called _the usual arithmetic conversions_. simplistically, if one of the arguments has a [[floating point]] type, then the other is converted to that [[floating point]] type; otherwise, the _integer promotions_ are performed on both operands. then, if both operands have identical signedness, the operand with lesser _conversion rank_ is converted to the type of the other; otherwise, things get complicated and unintuitive
+whenever a binary [[operator]] is applied to two operands of different types, [[c]] enforces an implicit conversion of one of the operands to the type of the other operand. the rules for this process are called _the usual arithmetic conversions_. simplistically, if one of the arguments has a [[float]]ing-point type, then the other is converted to that [[float]]ing-point type; otherwise, the _integer promotions_ are performed on both operands. then, if both operands have identical signedness, the operand with lesser _conversion rank_ is converted to the type of the other; otherwise, things get complicated and unintuitive
 
 &mdash; Effective C p. 49-55 and <https://stackoverflow.com/questions/46073295/implicit-type-promotion-rules>
 

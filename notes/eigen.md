@@ -28,7 +28,7 @@ let **`MM^n,n A /\ NN n`**
 
 **theorem** each [[eigen#value]] of **`A`** gives an [[eigen#space]] of [[vector space#dimension]] greater than **`0`**
 
-**theorem** any [[set]] consisting of [[eigen#vector]]s of **`A`** corresponding to **distinct [[eigen#value]]s** is [[linearly independent]]
+**theorem** [[eigen#vector]]s of **`A`** corresponding to **distinct [[eigen#value]]s** are [[vector#linearly independent vector]]s
 
 **procedures**
 
@@ -48,7 +48,7 @@ let **`MM^n,n A /\ NN n`**
 >
 > the equation above is a homogeneous [[linear system]] where **`A . llI`** is the _coefficient matrix_
 >
-> recall that a homogeneous [[linear system]] can have either a unique solution (with **`x = O`**, which is not a valid [[eigen#vector]] as per the definition) or an infinite number of solutions (which we can achieve by picking the right values for **`ll`**). for a homogeneous [[linear system]] to have an infinite number of solutions, its coefficient matrix rows (and therefore columns) must be [[linearly independent]], or the [[determinant]] of its coefficient matrix must be equal to **`0`**, or its coefficient matrix must be invertible, etc. (see [[matrix]])
+> recall that a homogeneous [[linear system]] can have either a unique solution (with **`x = O`**, which is not a valid [[eigen#vector]] as per the definition) or an infinite number of solutions (which we can achieve by picking the right values for **`ll`**). for a homogeneous [[linear system]] to have an infinite number of solutions, its coefficient matrix rows (and therefore columns) must be [[vector#linearly independent vector]]s, or the [[determinant]] of its coefficient matrix must be equal to **`0`**, or its coefficient matrix must be invertible, etc. (see [[matrix]])
 >
 > **`"det" (A . llI) = 0`** (this [[polynomial]] is known as the _[[characteristic polynomial]] of **`A`**_)
 >
@@ -88,7 +88,7 @@ let **`MM^n,n A /\ NN n`**
 >
 > **`{{ (1, 1) }}`** is then a [[basis]] for the [[eigen#space]] **`E_3`** of **`A`**
 >
-> > **note** the general solution of the homogenous [[linear system]] will always be a [[basis]] as the resulting [[vector]]s will always be [[linearly independent]], see [[matrix#null space]] for more information
+> > **note** the general solution of the homogenous [[linear system]] will always be a [[basis]] as the resulting [[vector]]s will always be [[vector#linearly independent vector]]s, see [[matrix#null space]] for more information
 >
 > for **`ll = .1`**, we get the [[basis]] **`{{ (1, .1) }}`** for the [[eigen#space]] **`E_.1`** of **`A`**
 
@@ -98,10 +98,10 @@ _raising a matrix to a large power efficiently_
 
 let **`MM^n,n A /\ NN n`** be a [[matrix#diagonalizable matrix]]
 
-1.  construct a matrix **`P = []|| & || & || && x_0 & x_1 & x_2 && || & || & ||[] = []x_0^0 & x_1^0 & x_2^0 && x_0^1 & x_1^1 & x_2^1 && x_0^2 & x_1^2 & x_2^2[]`** whose columns are the **`n`** [[linearly independent]] [[eigen#vector]]s **`x`** of **`A`**
+1.  construct a matrix **`P = []|| & || & || && x_0 & x_1 & x_2 && || & || & ||[] = []x_0^0 & x_1^0 & x_2^0 && x_0^1 & x_1^1 & x_2^1 && x_0^2 & x_1^2 & x_2^2[]`** whose columns are the **`n`** [[vector#linearly independent vector]] [[eigen#vector]]s **`x`** of **`A`**
 2.  construct a matrix **`D = []ll_0 & 0 & 0 && 0 & ll_1 & 0 && 0 & 0 & ll_2[]`** whose [[matrix#diagonal]] entries are the [[eigen#value]]s of **`A`** and all other entries equal to **`0`**, in the same order as the columns of **`P`**
 
-then, **`AP = PD`**. as the columns of **`P`** are [[linearly independent]], we know **`P`** is an invertible [[matrix]]. therefore, **`A = PDP^-`** and **`P^- AP = D`**
+then, **`AP = PD`**. as the columns of **`P`** are [[vector#linearly independent vector]]s, we know **`P`** is an invertible [[matrix]]. therefore, **`A = PDP^-`** and **`P^- AP = D`**
 
 > **proof** the **`n`**th column of **`AP`** is **`AP^*,n = Ax_n`**. since **`x_n`** is an [[eigen#vector]] of **`A`**, we use its corresponding [[eigen#value]] to get **`AP^*,n = Ax_n = ll_n x_n`** by definition, see [[eigen]]. the **`n`**th column of **`PD`** is **`PD^*,n`**. when multiplying out, we get **`PD^*,n = x_n D^n,n = x_n ll_n`**. as **`AP^*,n = PD^*,n -| NN n`**, we conclude **`AP = PD`**
 
