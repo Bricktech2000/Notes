@@ -1,6 +1,6 @@
 # Euler's Constant
 
-**see** [[math notation]]
+**see** [[euler's formula]], [[euler's identity]], [[math notation]]
 
 **notation** **`ee`**
 
@@ -15,7 +15,3 @@
 **`dd [x] -- dd x = [x]`**, see [[derivative]]
 
 **`[h] . 1 -- h {h -> 0} = 1`** &mdash; derived from the [[limit]] definition
-
-_Euler's identity_ **`[iitt] = 1`**, see [[complex]]
-
-_IEEEuler's identity_ **`[iitt] = 1[@@"NaN"]`**, see [[ieee 754]] &mdash; <http://tom7.org/nand/nand.pdf>

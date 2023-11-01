@@ -1,6 +1,6 @@
 # C++
 
-_[[c]] with OOP_
+_bloated [[c]] &mdash; but with [[class]]es!_
 
 **see** [[c]], [[object-oriented programming]], [[math notation]]
 
@@ -61,3 +61,42 @@ _[[c]] with OOP_
 &mdash; <https://en.wikipedia.org/wiki/Duck_typing#Templates_or_generic_types> &mdash; <https://stackoverflow.com/questions/6923299/whats-the-relationship-between-c-template-and-duck-typing>
 
 &mdash; <https://www.reddit.com/r/cpp/comments/139c2v1/whats_the_most_hilarious_use_of_operator/>
+
+## undecidability of grammar
+
+parsing the [[c++]] grammar is undecidable
+
+> **resource** [[proof]] sketch of [[turing complete]]ness of [[c++]] templates &mdash; <https://port70.net/~nsz/c/c%2B%2B/turing.pdf>
+
+> **proof**
+>
+> &mdash; <https://blog.reverberate.org/2013/08/parsing-c-is-literally-undecidable.html>
+>
+> consider the following [[c++]] program:
+>
+> ```cpp
+> struct SomeType {};
+>
+> template <...> struct TuringMachine {
+>   // Insert implementation of a Turing machine here, which we know
+>   // is possible from previous proofs.
+> };
+>
+> template <typename T> struct S {
+>   static int name;
+> };
+>
+> template<> struct S<SomeType> {
+>   typedef int name;
+> };
+>
+> int x;
+> int main() {
+>   S<TuringMachine<...>::output>::name * x;
+> }
+> ```
+>
+> - if `TuringMachine<...>::output` is `SomeType` then `::name` is an [[integer]] and the [[abstract syntax tree]] is the multiplication of two [[integer]]s
+> - if `TuringMachine<...>::output` is not `SomeType` then `::name` is a `typedef` for the [[integer]] [[type]] and the [[abstract syntax tree]] is the declaration of the pointer-to-int `x`
+>
+> _These two are completely different parse trees, and the difference between them cannot be delayed to further stages of the compiler. The parse tree **itself** depends on arbitrary template instantiation, and is therefore the parsing step is undecidable_ &mdash; <https://blog.reverberate.org/2013/08/parsing-c-is-literally-undecidable.html>

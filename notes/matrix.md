@@ -54,7 +54,7 @@ intuitively, matrix multiplication is the [[dot product]] of **every row** of th
 
 _not commutative_ **`><(MM A /\ MM B < AB = BA)`**
 
-**`><(AB = 0 < A = 0 \/ B = 0)`** (it can happen that **`AB = 0`**, but **`A + 0`** and **`B + 0`**) (**`AB`** being equal to **`0`** does not imply that **`A = 0`** or that **`B = 0`**)
+**`><(AB = 0 < A = 0 \/ B = 0)`** (it can happen that **`AB = 0`**, but **`A + 0`** and **`B + 0`**) (**`AB`** being equal to **`0`** does not imply that **`A = 0`** or that **`B = 0`**) ([[matrix]]es have _zero divisors_ &mdash; <https://youtu.be/V7Pl4Jdiuac?t=6m6s>)
 
 **`><(AC = BC /\ C + 0 < A = B)`** (**`AC = BC`** and **`C + 0`** does not imply that **`A = B`**)
 
@@ -353,7 +353,7 @@ let **`MM^n,n A`**. the following [[logic statement]]s are equivalent:
 
 > **note** all [[logic statement]]s below are valid for both **`A`** and **`rr A`**, see [[matrix#transpose]]
 
-> **note** thinking of [[matrix]]es as [[linear transformation]]s makes the following [[logic statement]]s easier to understand intuitively
+> **note** thinking of [[matrix]]es as [[linear transformation]]s makes the following [[logic statement]]s extremely intuitive
 
 - **`"rank" A = n`**
 - every [[linear system]] of the form **`Ax = b`** has a unique solution

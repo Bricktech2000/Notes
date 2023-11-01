@@ -2,9 +2,7 @@
 
 **see** [[math notation]], [[psi function]]
 
-**definition**
-
-**`n -> (# yy n = 1)`**
+**definition** a [[number]] `n` is called _prime_ if and only if **`# yy n = 1`**; it follows that the [[set]] of [[prime]]s is **`n -> (# yy n = 1)`**
 
 ## computing primeness
 

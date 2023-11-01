@@ -1,12 +1,12 @@
 # Binary Exponentiation
 
-**aka** _exponentiation by squaring_
+**aka** _exponentiation by squaring, square-and-multiply algorithm_
 
 [[binary exponentiation]] is an [[algorithm]] to repeatedly apply [[monoid#operation]]s in [[logarithm]]ic time [[computational complexity]]
 
 [[binary exponentiation]] requires its binary [[operator]] to be associative and requires the existence of an identity element; this corresponds to a [[monoid]]. [[binary exponentiation]] can be modified to work with [[semigroup]]s such as those formed by [[convolution]] by handling differently the case where **`n = 0`**. [[binary exponentiation]] can also be extended to work with negative exponents by ensuring the elements form a [[group]]
 
-[[binary exponentiation]] achieves [[logarithm]]ic time [[computational complexity]] by taking advantage of the fact that repeated [[monoid#operation]] applications can be represented as a [[tree#binary tree]]: **`x * x * x * x * x * x * x * x == (x * x * x) * (x * x * x) == (x * (x * x)) * (x * (x * x))`**
+[[binary exponentiation]] achieves [[logarithm]]ic time [[computational complexity]] by taking advantage of the fact that repeated [[monoid#operation]] applications can be represented as a [[tree#binary tree]]: **`x \* x \* x \* x \* x \* x \* x \* x == (x \* x \* x) \* (x \* x \* x) == (x \* (x \* x)) \* (x \* (x \* x))`**
 
 **representation** _using [[recursion]]_
 
@@ -28,8 +28,12 @@ def monoid_reduce(mul, id, x, n):
 > binary_concatenation = lambda s, n: monoid_reduce(lambda s, n: s + n, '', s, n)
 > ```
 
+**equiv** _pencil-and-paper multiplication, in [[binary]]_ pencil-and-paper [[binary]] multiplicatiion consists of repeatedly doubling the multiplicand and adding it to the product if the corresponding bit in the multiplier is set; this corresponds to [[binary exponentiation]] on [[monoid]]s. if the multiplier is negative, the multiplicand is replaced by its additive inverse; this corresponds to the extension of [[binary exponentiation]] to [[group]]s
+
 # &mdash;
 
 &mdash; <https://en.wikipedia.org/wiki/Exponentiation_by_squaring>
 
 &mdash; <https://youtu.be/GrNJE6ogyQU>
+
+&mdash; <https://youtu.be/cbGB__V8MNk>

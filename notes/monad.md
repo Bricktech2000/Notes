@@ -25,7 +25,7 @@ the Kleisli Composition is an alternative to the [[bind function]] that uses [[c
 
 **properties**
 
-a [[set]] of [[monad]]s with Kleisli Composition form a [[monoid]], where [[return]] is the [[monoid#identity element]]
+a [[set]] of [[monad]]s with Kleisli Composition form a [[monoid]], where the [[return function]] is the [[monoid#identity element]]
 
 ## Transformer
 

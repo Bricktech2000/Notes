@@ -8,7 +8,7 @@ _the [[set]] of [[integer]]s_
 
 _a positive or negative whole [[number]]_
 
-**`ZZ n == NN {n \/ .n}`**
+**`ZZ n == NN {:\/.} n`**
 
 **properties**
 

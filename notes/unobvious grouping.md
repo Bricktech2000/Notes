@@ -2,7 +2,7 @@
 
 _categorizing items based on a hard-to-recognize characteristic rather than on an obvious one_
 
-let some items that can be categorized in two different ways, **`A`** and **`B`**, and assume it is more natural or more obvious to categorize the items in way **`A`**. this optimal when an item with characteristic **`A`** is to be found. however, when retrieving an item with both characteristics **`A`** and **`B`**, categorizing the items in the less natural or less obvious way **`B`** is often be more efficient
+let some items that can be categorized in two different ways, **`A`** and **`B`**, and assume it is more natural or more obvious to categorize the items in way **`A`**. this optimal when an item with characteristic **`A`** is to be found. however, when retrieving an item with both characteristics **`A`** and **`B`**, categorizing the items in the less natural or less obvious way **`B`** is often more efficient
 
 > **examples**
 >
