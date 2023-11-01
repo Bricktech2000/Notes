@@ -156,6 +156,10 @@ which would get compiled into:
 
 this is an efficient method for **recording data completely independently from how it is to be analyzed**. then, use a language model to perform queries. finally, send to data viz / data analysis library such as pandas, see <https://youtu.be/FbBXtqtRnWU> for examples
 
+### HDL as library
+
+HDLs probably shouldn't be DSLs. feels like everything is awkward in HDLs, **including** hardware description. why aren't HDLs just libraries? HDLs have crappy preprocessor-like templating syntax. why not use a neat general-purpose [[turing complete]] [[programming language]] for templating instead? feels like HDLs are [[reinventing the wheel]]. instead of starting from a general-purpose language and specializing it, they start from a domain-specific language and extend it as people need more features. that's how [[bash]] became [[bash]] and [[c++]] became [[c++]]
+
 ---
 
 ```lua
@@ -428,7 +432,7 @@ powersets are neat as well: **`/\ * -| S`**. they are parsed as **`/\ (* -| S)`*
 
 ---
 
-&mdash; <https://youtu.be/-bPnt2oxw-Q
+&mdash; <https://youtu.be/-bPnt2oxw-Q>
 
 E24 &mdash; **`1-100`** tolerance &mdash; **`-4 "W"`**
 
@@ -820,7 +824,7 @@ The color channels are assumed to not be premultiplied with the alpha channel ("
 A running `array[64]` (zero-initialized) of previously seen pixel values is maintained by the encoder and decoder. Each pixel that is seen by the encoder and decoder is put into this array at the position formed by a hash function of the color value. In the encoder, if the pixel value at the index matches the current pixel, this index position is written to the stream as `QOI_OP_INDEX`. The hash function for the index is:
 
 ```c
-index_position = (r _ 3 + g _ 5 + b _ 7 + a _ 11) % 64
+index_position = (r * 3 + g * 5 + b * 7 + a * 11) % 64
 ```
 
 Each chunk starts with a 2- or 8-bit tag, followed by a number of data bits. The bit length of chunks is divisible by 8 - i.e. all chunks are byte aligned. All values encoded in these data bits have the most significant bit on the left. The 8-bit tags have precedence over the 2-bit tags. A decoder must check for the presence of an 8-bit tag first.
@@ -929,13 +933,51 @@ $a - b$
 
 ---
 
+**definition** an _open ball_ **`BB a r`** of radius **`r`** centered at **`a`** is the [[set]] **`p -> (\:(p . a)2/ {-|/\+} r)`**
+
+**definition** a [[set]] **`S`** is _open_ if **`S a < r {|-/\+} 0 /\ /\BB a r -| S`**, where **`BB a r`** is an open ball of radius **`r`** centered at **`a`**
+
+---
+
+**`f x | f (x . -2) = x`**
+
+**`f .-2 | f .1 = .-2`**
+
+**`f 0 | f .-2 = 0`**
+
+**`f -2 | f 0 = -2`**
+
+**`f 1 | f -2 = 1`**
+
+**`f .-2 = 0`**
+
+**`/.\f x : /.\f (x . -2) = /.\ x`**
+
+**`/.\f 1 : /.\f -2 = 0`**
+
+**`/.\f ee : /.\f (ee . -2) = 1`**
+
+**`(dd f x | f (x . -2)) : (f x | dd f (x . -2)) = 1`**
+
+**`f x = 1 . (dd f x | f (x . -2)) -- dd f (x . -2)`**
+
+---
+
+[[regex]] to find/search something within a ``**`...`**`` math equation: ``\*\*`[^*]*...[^*]*`\*\*`` where `...` is the thing we're looking for
+
+``\(\*\*`[^*]\{-}\)\@<=\(||\|->\|\.\|\*\|{\|}\)\([^*]\{-}`\*\*\)\@=``
+
+---
+
+**`ab`** &mdash; shorthand multiplication
+
 **`a'b`** &mdash; multiplication
 
 **`a-b`** &mdash; division
 
-**`a | b`** &mdash; multiplication
+**`a | b`** &mdash; low-precedence multiplication
 
-**`a -- b`** &mdash; division
+**`a -- b`** &mdash; low-precedence division
 
 **`a:b`** &mdash; addition
 
@@ -943,15 +985,25 @@ $a - b$
 
 **`f = a. b. a-b`** &mdash; abstraction
 
-**`f <- x`** and **`f x`** &mdash; application
+**`f x`** &mdash; shorthand application
 
-**`f -> y`** and **`-f y`** &mdash; inverse application
+**`f <- x`** &mdash; application
 
-**`fg`** &mdash; [[composition]]
+**`-f y`** &mdash; shorthand inverse application
 
-**`(fg)`** &mdash; [[combinator#phi combinator]], [[polymorphism#rank polymorphism]]
+**`f -> y`** &mdash; inverse application
 
-**`f2`** and **`[f]n`** &mdash; repeated composition
+**`fg`** &mdash; shorthand [[composition]]
+
+**``f`g``** &mdash; [[composition]]
+
+**`f \\ g`** &mdash; low-precedence [[composition]]
+
+**`fww`** &mdash; shorthand repeated composition
+
+**`[f]n`** &mdash; repeated composition
+
+**`f'g`** &mdash; [[combinator#phi combinator]], [[polymorphism#rank polymorphism]]
 
 > **examples**
 >
@@ -992,6 +1044,68 @@ $a - b$
 
 ---
 
-**definition** an _open ball_ **`BB a r`** of radius **`r`** centered at **`a`** is the [[set]] **`p -> (\:(p . a)2/ {-|/\+} r)`**
+factorial **`"fact" = (|)sshh`** &mdash; <https://oeis.org/A000142>
 
-**definition** a [[set]] **`S`** is _open_ if **`S a < r {|-/\+} 0 /\ /\BB a r -| S`**, where **`BB a r`** is an open ball of radius **`r`** centered at **`a`**
+factorial of factorial **`((|)sshh)2`** &mdash; <https://oeis.org/A000197>
+
+superfactorial **`(|)2(sshh)2`** &mdash; <https://en.wikipedia.org/wiki/Superfactorial> and <https://oeis.org/A000178>
+
+**`(:)(ww [.]) == [1]1 : [2]2 : [3]3 : ...`**
+
+**`"fact"ss n = ss n | "fact" n`**
+
+**`"sf"ss n = "fact"ss n | "sf" n`**
+
+$\operatorname{fact} n = (\vert)\sigma\eta\ n$
+
+$a'b$ $a`b$ $a | b$ $a \backslash b$
+
+[[cartesian product]] **`(/\)(X, Y)`**
+
+**`:{A *}`** [[composition#identity]]?
+
+[[outer product]] **`rr (|)Y \\ X`**? ~~oh wait. see <https://combinatorylogic.com/table.html>. **`D_2 = DD = a. b. c. d. e. a (b c) (d e)`** and **`D = B B`** and therefore **``D = ((`) (`)) ((`) (`))``** and therefore the [[outer product]] of **`X`** and **`Y`** is **``((`) (`)) ((`) (`)) (|) X Y``** which is **``(`) ((`) (`) (|)) X Y``** which is **``(`)`(|) (X Y)``**~~ scratch all of that. the [[outer product]] is **`a. b. c. d. e. a (b d) (c e)`** and not **`a. b. c. d. e. a (b c) (d e)`**
+
+**`ZZ^n x == NN x /\ x -| n.1`**
+
+**`ZZ^n = {0 ... n.1}`**
+
+**`RR x < f x | g x = 0 == f'g = .0`**
+
+**`ab = 0 < 0 = {a /\ b}`** zero divisors
+
+**`{A /\ 0+} a`** any non-zero element **`a`** from **`A`**
+
+**`$ r. ttr = $ (tt') = r. ttr2-2`**
+
+$\int\ r. \tau r = \int\ (\tau') = r. \tau r2\text-2$
+
+**`$(.) = (|)`**
+
+$\int(.) = (|)$
+
+$\operatorname{\cdot\cdot} b : \lfloor b2 \operatorname{\cdot\cdot} 4ac \rfloor - 2a$
+
+search:
+
+``\(\*\*`[^*]\{-}\)\@<=\(||\|->\|\.\|\*\|{\|}\)\([^*]\{-}`\*\*\)\@=``
+
+`||\|->\|\.\|\*`
+
+&mdash; <https://chat.openai.com/c/a8ad9268-d064-4385-a98b-05c34e4744e5>
+
+&mdash; <https://stackoverflow.com/questions/18391665/vim-positive-lookahead-regex>
+
+&mdash; <https://vi.stackexchange.com/questions/16276/whats-the-difference-between-the-zs-and-atoms-in-vim-regex>
+
+&mdash; <https://vi.stackexchange.com/questions/36229/how-to-overlap-searching-result>
+
+&mdash; <https://superuser.com/questions/505727/is-there-a-pattern-like-in-vim>
+
+todo tags to be added:
+
+- [[matrix#multiplication]] &mdash; #todo mm
+- [[limit]] notation &mdash; #todo lim
+- [[composition#identity]] notation #todo id
+- **`"abs"`** and **`"arg"`** notations #todo abs
+- [[function#inverse]] notation #todo inv

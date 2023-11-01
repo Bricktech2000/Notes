@@ -12,9 +12,7 @@ _the [[set]] of [[complex]] numbers_
 
 _cartesian form_ **`z = a : bii`**
 
-_polar form_ **`z = "abs" z | "cos" "arg" z : "abs" z | ii"sin" "arg" z = "abs" z | "cis" "arg" z = "abs" z | [ii"arg" z]`**, where **`"cis" = "cos" : ii"sin" = aa -> [iiaa]`**
-
-**aka** _Euler's formula notation_
+_polar form, [[euler's formula]] notation_ **`z = "abs" z | ("cos" : ii"sin") "arg" z = "abs" z | [ii"arg" z]`**
 
 **applications**
 

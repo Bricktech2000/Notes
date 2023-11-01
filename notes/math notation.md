@@ -163,6 +163,13 @@ let:
   - [x] should **`"mod"`** be infix? should there exist [[infix notation]] [[string]] [[operator]]s?
   - [x] update **`/\ RR x /\ RR y`** and **`/\ NN m /\ NN n`** notations to use the [[combinator#psi combinator]]
   - [ ] is **`...`** necessary?
+    - [ ] replace **`PP`** with **`(|)sshh`**? where **`hh`** is an iota [[sequence]] and **`ss``** the successor [[function]]
+    - [ ] replace **`0:...n`** with **`:hh n`**? where **`hh`** is an iota sequence
+    - [ ] implement **`ss`** sucessor [[function]]? globally replace `:1`s.
+      - [[newton's method]] with new [[function]] composition would then be **`xss = x . (fx -- ddfx)`**
+      - [[gradient#descent]] with new [[function]] composition would then be **`ass = a . aa(ddf a)`**
+      - [[mandelbrot set]] with new [[function]] composition would then be **`(z c)ss = (z c)2 : c /\ z c 0 = 0`** and **`"abs"z c`**
+      - [ ] allow **`(E)ww`** to represent **`[E]ww`**
   - [ ] do we want subscripts and superscripts? maybe just one character?
   - [ ] should unary **`<`** be a sort or a reduce?
   - **`x = y`** has been taken to mean **`/\ {x = y}`** whereas **`x : y`** means **`{x : y}`** and so should **`x = y`**, see <https://www.cs.utexas.edu/users/EWD/transcriptions/EWD13xx/EWD1300.html>
@@ -230,14 +237,14 @@ let:
     y ?? f = x ==  y = f x   == y ?? x = f
     ```
 
-  - repeeated composition:
+  - repeated composition:
     - [[function#inverse]]s are inverses with respect to both [[composition]] and application. the inverse of a [[function]] is applying that [[function]] **`.1`** times
-    - a half-[[derivative]] is applying the [[derivative]] [[operator]] **`-2`** times
+    - a half-[[derivative]] is applying the [[derivative]] [[operator]] **`-2`** times. write note about <https://en.wikipedia.org/wiki/Functional_square_root>
     - an [[antiderivative]]/[[integral]] is applying the [[derivative]] [[operator]] **`.1`** times
-  - [ ] when found inverse of function application, fix [[trigonometric function#inverses]] and [[function#inverse]] and [[trigonometric function#reciprocals]] (#todo invalid link) and [[function#reciprocal]] and others
+  - [ ] when found inverse of function composition, fix [[trigonometric function#inverses]] and [[function#inverse]] and [[trigonometric function#reciprocals]] (#todo invalid link) and [[function#reciprocal]] and others
   - [ ] when figured out composition, fix up [[algebraic structure]]s, see <https://discord.com/channels/@me/892957003645853717/1133641823542313050>
   - [ ] when figured out all of the above, fix up [[pid controller]] definition
-  - [ ] move [[composition]] within [[function]]; create `[[application]]` wthin [[function]]; create `[[abstraction]]` within [[function]]
+  - [ ] move [[composition]] within [[function]]; create `[[application]]` wthin [[function]]; create `[[abstraction]]` within [[function]]; move [[function#inverse]] within [[composition]]
 
 fixed #todo update:
 
@@ -261,20 +268,21 @@ partially testing out:
 
 **see** [[infix notation#precedence]], [[infix notation#associativity]]
 
-| operator                                   | precedence | associativity |
-| ------------------------------------------ | ---------- | ------------- |
-| **`( ) (( )) { } {{ }} [] [] ww x_"sub"`** | highest    |               |
-| **`\./ [.] /.\ x^a`**                      | ...        | left          |
-| **`' -`**                                  | ...        | left          |
-| **`dd # \* <-`**                           | ...        | left          |
-| **`: .`**                                  | ...        | left          |
-| **`\| --`**                                | ...        | left          |
-| **`$ { } ... ->`**                         | ...        | right         |
-| **`__ ^^`**                                | ...        | left          |
-| **`~ = -\| \|- +`**                        | ...        | AND           |
-| **`/\ \/`**                                | ...        | left          |
-| **`~~ == < > ><`**                         | ...        | AND           |
-| **`,`**                                    | lowest     |               |
+| operator                        | precedence | associativity |
+| ------------------------------- | ---------- | ------------- |
+| **`( ) (( )) { } {{ }} [] []`** | &times;    | &times;       |
+| **`wwff x^a x_"sub"`**          | highest    | &times;       |
+| **`\./ [.] /.\`**               | ...        | left          |
+| **`' -`**                       | ...        | left          |
+| **`dd # \* <-`**                | ...        | left          |
+| **`: .`**                       | ...        | left          |
+| **`\| --`**                     | ...        | left          |
+| **`$ { } ... ->`**              | ...        | right         |
+| **`__ ^^`**                     | ...        | left          |
+| **`~ = -\| \|- +`**             | ...        | AND           |
+| **`/\ \/`**                     | ...        | left          |
+| **`~~ == < > ><`**              | ...        | AND           |
+| **`,`**                         | lowest     | &times;       |
 
 > **note** unary [[operator]]s have identical [[infix notation#precedence]] to their binary counterparts but are right associative
 

@@ -2,13 +2,29 @@
 
 **see** [[math notation]], [[function]], [[hyperbolic function]]
 
-**definition**
+**definition** _geometrically_
 
 let **`(x, y)`** be a point on the unit [[circle]] and let **`aa`** be the [[angle]] from the positive x-axis counterclockwise to that point. then,
 
-**`x = "cos" aa /\ y = "sin" aa /\ "tan" aa = "sin" aa -- "cos" aa`**
+- **`x = "cos" aa`**
+- **`y = "sin" aa`**
+- **`"tan" aa = "sin" aa -- "cos" aa`**
 
 > **note** _[[mnemonic]]_ SOHCAHTOA
+
+**definition** _in terms of [[euler's constant]]_ &mdash; <https://math.stackexchange.com/questions/2853279/the-interconnection-between-hyperbolic-functions-and-eulers-formula>
+
+- **`"cos" aa = [iiaa] : [.iiaa] -- 2`**
+- **`"sin" aa = [iiaa] . [.iiaa] -- 2`**
+- **`"tan" aa = "sin" aa -- "cos" aa`**
+
+**definition** _in terms of [[hyperbolic function]]s_
+
+the following follow from [[euler's formula]]: &mdash; <https://youtu.be/HnHnEnkZpJA?t=14m3s>
+
+- **`"cos" aa = "cosh" iiaa`**
+- **`"sin" aa = .ii"sinh" iiaa`**
+- **`"tan" aa = .ii"tanh" iiaa`**
 
 **properties**
 
@@ -18,11 +34,11 @@ _[[function#periodic function]]_ **`"cos" (aa : tt) = "cos" aa`**
 
 _[[function#periodic function]]_ **`"tan" (aa : -2tt) = "tan" aa`**
 
-_[[function#even function]]_ **`"cos" (.aa) = "cos" aa`**
+_[[function#even function]]_ **`"cos" .aa = "cos" aa`**
 
-_[[function#odd function]]_ **`"sin" (.aa) = ."sin" aa`**
+_[[function#odd function]]_ **`"sin" .aa = ."sin" aa`**
 
-_[[function#odd function]]_ **`"tan" (.aa) = ."tan" aa`**
+_[[function#odd function]]_ **`"tan" .aa = ."tan" aa`**
 
 **theorems**
 
@@ -58,27 +74,29 @@ _[[function#multivalued function]]_ **`"atan" x = "atan" x : -2tt = ."atan" x`**
 
 **see** [[function#reciprocal]]
 
-**`-"sin" aa`**
+_cosecant_ **`-"sin" aa`**
 
-**`-"cos" aa`**
+_secant_ **`-"cos" aa`**
 
-**`-"tan" aa`**
+_cotangent_ **`-"tan" aa`**
 
-**`-"asin" x`**
+_cosecant_ **`-"asin" x`**
 
-**`-"acos" x`**
+_secant_ **`-"acos" x`**
 
-**`-"atan" x`**
+_cotangent_ **`-"atan" x`**
 
 ## identities
 
 &mdash; <https://youtu.be/7gigNsz4Oe8?t=4383>
 
+also see [[euler's formula]]
+
 ### pythagorean identities
 
 **`["sin" aa]2 : ["cos" aa]2 = 1`**
 
-**`["tan" aa]2 : 1 = [-"cos" aa]2`** &mdash; derived by dividing by **`"cos" aa`**
+**`1 : ["tan" aa]2 = [-"cos" aa]2`** &mdash; derived by dividing by **`"cos" aa`**
 
 **`[-"tan" aa]2 : 1 = [-"sin" aa]2`** &mdash; derived by dividing by **`"sin" aa`**
 

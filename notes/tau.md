@@ -12,7 +12,7 @@ _the true [[circle]] constant_
 
 **tradeoffs**
 
-[[tau]], alias **`2pp`**, appears everywhere: in the [[gaussian function]], in the [[fourier transform]], in the **`n`**th [[root of unity]]s, in euler's identity (see [[euler's constant]]), in [[trigonometric function]]s, and many more
+[[tau]], alias **`2pp`**, appears everywhere: in the [[gaussian function]], in the [[fourier transform]], in the **`n`**th [[root of unity]]s, in [[euler's identity]], in [[trigonometric function]]s, and many more
 
 [[tau]] plays nicely with radians: an [[angle]] in radians whose value is a [[real]] multiple of [[tau]] represents that multiple of a turn
 

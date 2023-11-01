@@ -150,7 +150,7 @@ U"foo" // char32_t[6]
 
 > **example** `struct s { int x; int y[]; };`
 
-the size of integer data types is [[c#implementation-defined behavior]] and is available in `limits.h`. each has a standard-imposed minimum magnitude. actual-width integers such as `uint32_t`, and widest integer types `uintmax_t` and `intmax_t`, are available in `stdint.h` and `inttypes.h`
+`sizeof char` is `1`, and the size of the other integer data types is [[c#implementation-defined behavior]] and is available in `limits.h`. each has a standard-imposed minimum magnitude. actual-width integers such as `uint32_t` and widest integer types `uintmax_t` and `intmax_t` are available in `stdint.h` and `inttypes.h`
 
 _wraparound_ (which is specific to unsigned integers) is well-defined behavior in [[c]]. values are reduced modulo the number that is one greater than the largest value that can be represented by the resulting type. however, _overflow_ (which is specific to signed integers) is [[c#undefined behavior]]
 
@@ -203,6 +203,10 @@ in [[c]], a `void *` is implicitly converted to any other pointer type
 
 > **example** `int *pi = malloc(sizeof(int));` is valid [[c]] but not valid [[c++]]
 
+the _strict aliasing rule_ allows the compiler to assume that pointers to different types do not alias each other. therefore, apart from a few exceptions, referring to the same memory simultaneously through pointers of different types is [[c#undefined behavior]] &mdash; <https://youtu.be/SmlLdd1Q2V8?t=5m46s>
+
+> **example** `int x = 1; float *f = (float *)&x; *f = 2;` is [[c#undefined behavior]]
+
 ### type qualifiers
 
 `const` is a type qualifier that specifies that an object's value cannot be modified after initialization. the compiler can place `const`-qualified objects in read-only memory, which makes modifying them [[c#undefined behavior]]
@@ -218,6 +222,14 @@ in [[c]], a `void *` is implicitly converted to any other pointer type
 `restrict` is a type qualifier that specifies that a pointer is the only way to access the object it points to. this allows the compiler to perform further optimization. using the `restrict` qualifier on two pointers that overlap is [[c#undefined behavior]]
 
 > **example** `void copy(char *restrict s1, const char *restrict s2);`
+
+### declaration specifiers
+
+the order of declaration specifiers does not matter in [[c]] &mdash; <https://youtu.be/zGWj7Qo_POY?t=21m28s>
+
+> **example** `int typedef const a;` is equivalent to `typedef const int a;`, and `long unsigned static long b;` is equivalent to `static unsigned long long b;`
+
+`*` is part of the _declarator_ and not of the _declaration specifier_, which is why `int* a;` is considered bad style
 
 ### tags
 
@@ -248,6 +260,10 @@ shifting by a negative number of bits or by a number of bits greater than or equ
 
 the _usual arithmetic conversions_ are **not** performed on the operands of the `<<` and `>>` [[operator]]s
 
+the _integer promotions_ are applied to the argument of the unary `+` and `-` [[operator]]s &mdash; <https://youtu.be/zGWj7Qo_POY?t=1m37s>
+
+> **example** `sizeof +(short)1` is equal to `sizeof(int)`
+
 type casts in [[c]] can either reinterpret the bits of a value or perform a conversion
 
 > **example** `int i = *(int *)&f;` reinterprets the bits of `float f` as an `int`
@@ -265,7 +281,7 @@ using one of `<`, `<=`, `>` or `>=` on two pointers to different objects is [[c#
 > x != y; // well-defined behavior
 > ```
 
-the `,` [[operator]] evaluates its left operand, discards the result, then evaluates its right operand and returns that result
+the `,` [[operator]] evaluates its left operand, discards the result, then evaluates its right operand and returns that result. the left operand of the `,` operator is _sequenced before_ the right operand
 
 > **example** `f(a, (t=3, t+2), c);` is equivalent to `t = 3; f(a, t+2, c);`
 
@@ -344,6 +360,10 @@ return expression
 ```
 
 the type of the controlling expression to a `switch` statement must be an _integer type_. _integer promotions_ are performed on the controlling expression. the constant expression in each `case` label is converted to the type of the promoted controlling expression
+
+`else if` is not its own [[statement]] in [[c]]; rather, it is an `if-else` statement with another `if` statement as its `else` clause
+
+> **example** a common guideline is to always use braces to convert statements into compound statements inside of control flow statements. therefore, to be pedantic, `if (c) { ... } else if (d) { ... }` should be written as `if (c) { ... } else { if (d) { ... } }`. if `else-if`s are allowed, why aren't `else-switch`es? `if (!color) { return false; } else switch (*color) { ... }` &mdash; <https://youtu.be/zGWj7Qo_POY?t=10m32s>
 
 ## reserved identifiers
 

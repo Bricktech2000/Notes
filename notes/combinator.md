@@ -1,6 +1,6 @@
 # Combinator
 
-**definition** a _combinator_ is a [[lambda calculus]] expression that refers only to its arguments &mdash; <https://youtu.be/seVSlKazsNk>
+**definition** a _combinator_ is a [[lambda calculus]] term that refers only to its arguments &mdash; <https://youtu.be/seVSlKazsNk>
 
 **properties**
 
