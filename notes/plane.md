@@ -1,6 +1,6 @@
 # Plane
 
-**see** [[normal vector]], [[vector in rn]], [[math notation]]
+**see** [[normal vector]], [[euclidean vector]], [[math notation]]
 
 ## plane in r3
 
@@ -10,25 +10,25 @@
 
 ### plane from 3 points
 
-find two [[vector in rn]]s on the [[plane]]. for example, **`d_0 = p_1 . p_0`** and **`d_1 = p_2 . p_1`**
+find two [[euclidean vector]]s on the [[plane]]. for example, **`d_0 = p_1 . p_0`** and **`d_1 = p_2 . p_1`**
 
 _continue below_
 
 ### Parametric Form
 
-using two direction [[vector in rn]]s on the [[plane]] **`d_0`** and **`d_1`** and a point **`p_0`**, we can derive the parametric equation of the [[plane]]
+using two direction [[euclidean vector]]s on the [[plane]] **`d_0`** and **`d_1`** and a point **`p_0`**, we can derive the parametric equation of the [[plane]]
 
 **`P = p_0 : t_0 d_0 : t_1 d_1 /\ RR {t_0 /\ t_1}`**
 
 ### plane from 2 vectors and point
 
-find a [[normal vector]] using the [[cross product]] of the two [[vector in rn]]s on the [[plane]]
+find a [[normal vector]] using the [[cross product]] of the two [[euclidean vector]]s on the [[plane]]
 
 _continue below_
 
 ### plane from normal and point
 
-given that all the [[vector in rn]]s forming that [[plane]] must be perpendicular to a [[normal vector]],
+given that all the [[euclidean vector]]s forming that [[plane]] must be perpendicular to a [[normal vector]],
 
 **`:n(P . p_0) = 0`**, where
 
@@ -40,7 +40,7 @@ _continue below_
 
 ### Standard Form
 
-using [[vector in rn]]3 in the above equation, we get
+using [[euclidean vector]]3 in the above equation, we get
 
 **`n^0 (P^0 . p_0^0) : n^1 (P^1 . p_0^1) : n^2 (P^2 . p_0^2) = 0`**
 
@@ -72,8 +72,8 @@ two parallel [[plane]]s can be thought of as having the same [[normal vector]]
 
 if the [[plane]]s are not perpendicular nor parallel:
 
-to find the equation for a line, we need a direction [[vector in rn]] and a point
+to find the equation for a line, we need a direction [[euclidean vector]] and a point
 
-find the direction [[vector in rn]] by calculating the [[cross product]] of the [[plane]]s' [[normal vector]]s (think of this intuitively)
+find the direction [[euclidean vector]] by calculating the [[cross product]] of the [[plane]]s' [[normal vector]]s (think of this intuitively)
 
 find the point by setting any one coordinate of the [[plane]]s to an arbitrary value, such as **`0`** to get rid of it. then, solve the [[linear system]] of two equations

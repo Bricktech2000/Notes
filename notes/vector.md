@@ -6,7 +6,7 @@
 
 **types**
 
-[[vector in rn]]s
+[[euclidean vector]]s
 
 [[matrix]]es
 

@@ -1,6 +1,6 @@
 # Gradient
 
-_returns a [[vector in rn]] representing the direction of steepest ascent of a [[function]] at a given point_
+_returns a [[euclidean vector]] representing the direction of steepest ascent of a [[function]] at a given point_
 
 **equiv** _[[jacobian#matrix]]_
 

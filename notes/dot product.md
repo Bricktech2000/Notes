@@ -2,7 +2,7 @@
 
 **see** [[math notation]]
 
-the [[dot product]] is defined for any [[vector in rn]]
+the [[dot product]] is defined for any [[euclidean vector]]
 
 **definition** **`:ab`**
 

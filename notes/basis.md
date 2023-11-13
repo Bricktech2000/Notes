@@ -2,6 +2,8 @@
 
 _[[vector space]] basis_
 
+when represented in a chosen [[basis]], [[vector]]s become isomorphic to [[euclidean vector]]s aka tuples of [[scalar]]s &mdash; <https://youtu.be/KbyYTjfgZJI?t=28m55s>
+
 **see** [[vector]], [[vector space]]
 
 **definition**
@@ -23,7 +25,7 @@ all [[basis]]es of a [[vector space]] have identical [[set#cardinality]]
 >
 > to find a basis for a [[vector space]] **`W = "span" {{v_0 ... v_m}}`**
 >
-> 1. write the [[matrix]] **`A`** whose rows are the [[vector]]s **`v_0 ... v_m`**. if the [[vector]]s are not [[vector in rn]]s, translate them into coordinate vectors first
+> 1. write the [[matrix]] **`A`** whose rows are the [[vector]]s **`v_0 ... v_m`**. if the [[vector]]s are not [[euclidean vector]]s, translate them into coordinate vectors first
 > 2. use [[row reduction]] to get **`A`** to its [[linear system#row echelon form]]
 > 3. use the nonzero rows of the [[linear system#row echelon form]] of **`A`** as a [[basis]] for **`W`**
 
@@ -41,7 +43,7 @@ _a [[basis]] containing [[vector]]s in a specific order_
 
 ## Orthogonal Basis
 
-_a [[basis]] built from a [[set]] of [[vector in rn#orthogonal vectors]]_
+_a [[basis]] built from a [[set]] of [[euclidean vector#orthogonal euclidean vectors]]_
 
 > **example**
 >
@@ -51,7 +53,7 @@ _a [[basis]] built from a [[set]] of [[vector in rn#orthogonal vectors]]_
 
 **aka** _canonical basis, natural basis_
 
-_a [[basis]] built from a [[set]] of [[vector in rn]]s whole components are all zero except for one, which is one_
+_a [[basis]] built from a [[set]] of [[euclidean vector]]s whole components are all zero except for one, which is one_
 
 > **example**
 >

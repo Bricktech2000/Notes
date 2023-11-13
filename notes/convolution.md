@@ -1,5 +1,7 @@
 # Convolution
 
+**see** [[math notation]]
+
 &mdash; <https://youtu.be/IaSGqQa5O-M>
 
 &mdash; <https://youtu.be/KuXjwB4LzSA>
@@ -15,7 +17,7 @@
 
 > **note** this can be thought of as "the [[convolution]] of **`a`** and **`b`** at **`n`** is the [[dot product]] of elements of **`a`** and **`b`** at indices that sum to **`n`**"
 
-> **note** [[convolution]]s can be computed in **`O (| /.\)`** time [[computational complexity]] instead of **`O [*]2`** using fast [[fourier transform]]s and [[root of unity]]s &mdash; <https://youtu.be/KuXjwB4LzSA?t=1091>
+> **note** [[convolution]]s can be computed in **`O (| /.\)`** time [[computational complexity]] instead of **`O [*]2`**, using fast [[fourier transform]]s, which leverage [[root of unity]]s &mdash; <https://youtu.be/KuXjwB4LzSA?t=1091>. this allows for multiplication [[algorithm]]s with time [[computational complexity]] **`O (| /.\)`** in the number of digits &mdash; <https://youtu.be/cCKOl5li6YM?t=15m25s>
 
 **definition**
 
@@ -70,4 +72,4 @@ sums of [[probability distribution]]s
 
 > **example**
 >
-> let a fair dice with [[probability distribution]] **`d = x -> {0, -6} {{1 ... 6}} x`**. the probability of rolling two such die such that the sum of their values is **`n`** is **`(CC d d) n`**
+> let a fair dice with [[probability distribution]] **`d`**. the [[probability]] of rolling two such die such that the sum of their values is **`n`** is **`(CC d d) n`**

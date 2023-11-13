@@ -8,7 +8,7 @@ let **`p`** be a point and **`f`** a [[function]]. then, the [[normal vector]] *
 
 and said [[plane]] **`T`** tangent to the [[level curve]] at **`p`** is defined as
 
-**`T t == :n(t.p) = 0`**, see [[vector in rn]], [[plane]], [[dot product]]
+**`T t == :n(t.p) = 0`**, see [[euclidean vector]], [[plane]], [[dot product]]
 
 **representation**
 

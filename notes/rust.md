@@ -40,7 +40,11 @@ all [[function]] items and all closures of a [[rust]] program have a unique [[ty
 
 &mdash; <https://stackoverflow.com/questions/47514930/what-are-the-differences-between-an-impl-trait-argument-and-generic-function-par>
 
-`impl Trait`s as [[function]] arguments or return types are syntactic sugar for anonymous [[type]] parameters
+&mdash; <https://youtu.be/CWiz_RtA1Hw>
+
+`fn f(x: impl Trait)` &mdash; the caller chooses the concrete [[type]] of `Trait`; syntactic sugar for a type parameter, `fn f<T: Trait>(x: T)`. note that switching to an `impl Trait` parameter is a breaking change because the callee can no longer specify the concrete [[type]] of `Trait` through the `f::<T>` syntax
+
+`fn f() -> impl Trait` &mdash; the callee chooses the concrete [[type]] of `Trait`; used as a "placeholder" for the return [[type]] of the [[function]]. useful for returning a hard-to-name or unnameable [[type]]
 
 ### Function Traits
 

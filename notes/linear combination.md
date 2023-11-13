@@ -1,5 +1,7 @@
 # Linear Combination
 
+_the [[polynomial]]s of [[linear algebra]]_
+
 **see** [[vector]], [[vector space]], [[math notation]], [[span]]
 
 **definition**

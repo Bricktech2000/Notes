@@ -927,6 +927,8 @@ $a \operatorname- b$
 
 $a - b$
 
+$n \mapsto \sum_{k=1}^n \log k$
+
 ---
 
 **`"cas" = "cos" : "sin"`**

@@ -1,10 +1,10 @@
 # Vector Space
 
-**see** [[vector]], [[vector in rn]], [[matrix]], [[math notation]], [[basis]], [[algebraic structure]]
+**see** [[vector]], [[euclidean vector]], [[matrix]], [[math notation]], [[basis]], [[algebraic structure]]
 
 **types**
 
-[[vector in rn#vector space]]
+[[euclidean vector#vector space]]
 
 [[matrix#vector space]]
 

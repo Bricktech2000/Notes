@@ -14,6 +14,10 @@ time [[computational complexity]]:
 | Remove | **`O /.\`** | **`O (*)`** |
 | Search | **`O /.\`** | **`O (*)`** |
 
+**applications**
+
+used in the implementation of some [[map]] and [[set]] [[abstract data type]]s
+
 ## Operations
 
 > **procedure** _finding an element in a [[binary search tree]]_
@@ -55,7 +59,3 @@ time [[computational complexity]]:
 **aka** _[[binary search tree#invariant]]_
 
 **definition** the _binary search tree invariant_ is a property of [[tree]]s that requires every node to have a left sub[[tree]] with values no greater than its value and a right sub[[tree]] with values no less than its value
-
-**applications**
-
-used in the implementation of some [[map]] and [[set]] [[abstract data type]]s

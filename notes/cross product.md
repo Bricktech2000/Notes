@@ -2,9 +2,9 @@
 
 **see** [[math notation]], [[determinant]], [[vector]]
 
-> **note** the [[cross product]] is only defined for [[vector in rn]]3
+> **note** the [[cross product]] is only defined for [[euclidean vector]]s in **`RR^3`**
 
-_results in a [[vector]] of [[vector in rn#magnitude]] ([[area]] of the parallelogram formed by the two [[vector]]s) and of orientation (perpendicular to the [[plane]] formed by the two [[vector]]s)_ &mdash; 3B1B
+_results in a [[euclidean vector]] of [[euclidean vector#magnitude]] ([[area]] of the parallelogram formed by the two [[vector]]s) and of [[euclidean vector#angle]] (perpendicular to the [[plane]] formed by the two [[vector]]s)_ &mdash; 3B1B
 
 **definition**, see #magic
 
@@ -12,7 +12,7 @@ _results in a [[vector]] of [[vector in rn#magnitude]] ([[area]] of the parallel
 
 **definition**
 
-**`:(a "cross" b)a = :(a "cross" b)b = 0`** and **`\:a2/ \:b2/ "sin" aa = \:(a "cross" b)2/`** where **`aa`** is the [[vector in rn#angle]] between **`a`** and **`b`**
+**`:(a "cross" b)a = :(a "cross" b)b = 0`** and **`\:a2/ \:b2/ "sin" aa = \:(a "cross" b)2/`** where **`aa`** is the [[euclidean vector#angle]] between **`a`** and **`b`**
 
 **properties**
 
@@ -30,4 +30,4 @@ _associativity with [[scalar]] multiplication_ **`k | (a "cross" b) = ka "cross"
 
 **`\:(u "cross" v)2/`** is the [[area]] of the parallelogram with sides **`u`** and **`v`**
 
-can be used to find a [[vector in rn]] perpendicular to a [[plane]] or to two other [[vector in rn]]s
+can be used to find a [[euclidean vector]] perpendicular to a [[plane]] or to two other [[euclidean vector]]s

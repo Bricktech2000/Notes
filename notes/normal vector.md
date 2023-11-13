@@ -1,6 +1,6 @@
 # Normal Vector
 
-_a [[vector in rn]] perpendicular to a [[plane]]_
+_a [[euclidean vector]] perpendicular to a [[plane]]_
 
 **notation** **`n`**
 
@@ -8,4 +8,4 @@ _a [[vector in rn]] perpendicular to a [[plane]]_
 >
 > the [[normal vector]] of a [[plane]] is perpendicular to all its direction vectors. it can therefore be computed by setting the [[dot product]] of the normal vector to every direction vector to zero, and solving for the normal vector
 >
-> in the case of [[vector in rn]]3, the [[cross product]] of two [[vector]]s in a [[plane]] will yield a [[normal vector]] to that [[plane]]
+> in the case of [[euclidean vector]]s in **`RR^3`**, the [[cross product]] of two [[vector]]s in a [[plane]] will yield a [[normal vector]] to that [[plane]]

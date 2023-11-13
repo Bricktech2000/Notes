@@ -20,7 +20,7 @@ the [[discrete cosine transform]] has a [[function#inverse]], the _inverse discr
 
 > **proof**
 >
-> define the [[function]] **`S`** such that, given a sample count **`n`** and a [[frequency]] **`f`**, returns a [[vector in rn]] of **`n`** samples of the first half of a cosine wave of [[frequency]] **`f`**: **`S n f = i -> "cos" (i-n | -2tt | f)`**
+> define the [[function]] **`S`** such that, given a sample count **`n`** and a [[frequency]] **`f`**, returns a [[euclidean vector]] of **`n`** samples of the first half of a cosine wave of [[frequency]] **`f`**: **`S n f = i -> "cos" (i-n | -2tt | f)`**
 >
 > we can then redefine **`S`** to shift the samples over by **`-2n`** so the **`i`**th sample lands in the middle of the [[interval]] **`i-n -| * -| i:1--n`**: **`S n f = i -> "cos" (i:-2--n | -2tt | f)`**
 >

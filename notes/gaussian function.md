@@ -23,6 +23,6 @@
 >
 > **`x -> -- ss \tt/ -- [x2 -- 2ss2]`** stretches the [[gaussian function]] vertically so it integrates to **`1`**, making it a [[probability density function]]
 >
-> **`p -> -- ss \tt/ -- [:p2 -- 2ss2]`** extends the [[gaussian function]] to take [[vector in rn]]s as input while still returning a [[real]] number
+> **`p -> -- ss \tt/ -- [:p2 -- 2ss2]`** extends the [[gaussian function]] to take [[euclidean vector]]s as input while still returning a [[real]] number
 >
 > &mdash; me and <https://youtu.be/cy8r7WSuT1I?t=130>

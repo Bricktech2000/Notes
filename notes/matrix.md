@@ -40,7 +40,7 @@ _commutativity with [[scalar]]s_ **`kA = Ak`**
 
 **equiv** _[[linear transformation]]_
 
-**see** [[dot product]], [[vector in rn]]
+**see** [[dot product]], [[euclidean vector]]
 
 **definition**
 

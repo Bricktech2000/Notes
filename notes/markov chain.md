@@ -26,7 +26,7 @@ certain [[markov chain]]s converge to a _stationary distribution_, which can be 
 
 > **procedure** _approximating a [[markov chain#stationary distribution]] through [[iteration]]_
 >
-> let **`S`** be a [[sequence]] of column [[vector in rn]]s, where
+> let **`S`** be a [[sequence]] of column [[euclidean vector]]s, where
 >
 > - **`S^0`** is the initial state of the [[markov chain]]
 > - **`S^0,i`** is the initial state of node **`i`**
