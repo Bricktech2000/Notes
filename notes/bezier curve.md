@@ -73,8 +73,8 @@ the [[bezier curve]] **`B p`** of degree **`n`** with control points **`p^0 ... 
 
 **`B (p^0 ... p^n) = t -> (t0 ... [t]n) | M | (p^0 ... p^n)`**, where #todo mm
 
-- **`(p^0 ... p^n)`** are the control points as a column [[vector in rn]] #todo mm
-- **`(t0 ... [t]n)`** are powers of **`t`** as a row [[vector in rn]] #todo mm
+- **`(p^0 ... p^n)`** are the control points as a column [[euclidean vector]] #todo mm
+- **`(t0 ... [t]n)`** are powers of **`t`** as a row [[euclidean vector]] #todo mm
 - **`M`** is the _characteristic matrix_ of the [[bezier curve]]
 
 > **example** _[[matrix]] form of [[bezier curve#cubic bezier curve]]s_

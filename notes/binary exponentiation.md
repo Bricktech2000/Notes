@@ -30,6 +30,8 @@ def monoid_reduce(mul, id, x, n):
 
 **equiv** _pencil-and-paper multiplication, in [[binary]]_ pencil-and-paper [[binary]] multiplicatiion consists of repeatedly doubling the multiplicand and adding it to the product if the corresponding bit in the multiplier is set; this corresponds to [[binary exponentiation]] on [[monoid]]s. if the multiplier is negative, the multiplicand is replaced by its additive inverse; this corresponds to the extension of [[binary exponentiation]] to [[group]]s
 
+**equiv** _Russian multiplication_ Russian multiplication is a specialization of [[binary exponentiation]] to the [[monoid]] formed by the [[natural]]s under addition. the _mediation_ and _duplation_ steps along with "striking out the even rows" forms a one-to-one correspondence with the above [[python]] implementation of [[binary exponentiation]]
+
 # &mdash;
 
 &mdash; <https://en.wikipedia.org/wiki/Exponentiation_by_squaring>

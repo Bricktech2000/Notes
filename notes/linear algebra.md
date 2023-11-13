@@ -16,6 +16,6 @@ _studying [[vector space]]s_
 
 [[linear system]], [[linear equation]], [[row reduction]]
 
-[[vector in rn]], [[eigen]], [[matrix]], [[linear transformation]], [[determinant]]
+[[euclidean vector]], [[eigen]], [[matrix]], [[linear transformation]], [[determinant]]
 
 [[plane]], [[line]], [[normal vector]]

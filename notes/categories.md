@@ -98,6 +98,8 @@
 
 [[jpeg]]
 
+[[halting problem]]
+
 ## finance
 
 [[education]] system issues

@@ -2,7 +2,7 @@
 
 **see** [[math notation]], [[matrix]]
 
-the [[determinant]] is all about measuring how [[area]]s change during a [[linear transformation]] represented as [[matrix#multiplication]]. after the transformation, the **`1`** by **`1`** unit square formed by the [[vector in rn#unit vector]]s **`(0, 1)`** and **`(1, 0)`** gets turned into a parallelogram whose [[area]] is the [[determinant]] of the [[linear transformation#standard matrix]] &mdash; 3B1B
+the [[determinant]] is all about measuring how [[area]]s change during a [[linear transformation]] represented as [[matrix#multiplication]]. after the transformation, the **`1`** by **`1`** unit square formed by the [[euclidean vector#unit vector]]s **`(0, 1)`** and **`(1, 0)`** gets turned into a parallelogram whose [[area]] is the [[determinant]] of the [[linear transformation#standard matrix]] &mdash; 3B1B
 
 **notation**
 

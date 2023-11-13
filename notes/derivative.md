@@ -34,13 +34,13 @@ _in my [[math notation]]_
 
 **definition**
 
-let **`f`** be a [[function]] differentiable at **`p = (x ...)`** and let **`v`** be a **[[vector in rn#unit vector]]**. then,
+let **`f`** be a [[function]] differentiable at **`p = (x ...)`** and let **`v`** be a **[[euclidean vector#unit vector]]**. then,
 
 **`D^v f p = :v(dd f p -- dd p)`**, where
 
 - **`D^v f p`** is the [[derivative]] of **`f`** in direction **`v`** at **`p`**
 - **`dd f p -- dd p`** is the [[gradient]] of **`f`** at **`p`**
-- **`v`** is the direction [[vector in rn]], see [[dot product]]
+- **`v`** is the direction [[euclidean vector]], see [[dot product]]
 
 > **examples**
 >

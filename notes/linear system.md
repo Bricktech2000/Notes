@@ -30,7 +30,7 @@ can be represented by the following _augmented [[matrix]]_:
 
 **`[]1 & 1 & 2 & || & 3 && 1 & .1 & 1 & || & 2 && 0 & 1 & .1 & || & 1[]`**
 
-which can be represented by the following [[vector in rn]] equation:
+which can be represented by the following [[euclidean vector]] equation:
 
 **`x[]1 && 1 && 0[] : y[]1 && .1 && 1[] : z[]2 && 1 && .1[] = []3 && 2 && 1[]`**
 

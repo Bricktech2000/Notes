@@ -79,7 +79,7 @@ in other words, an element being in **`A`** implies it is also in **`B`** with n
 
 _order matters_
 
-**definition** an _arrangement_ of size **`k`** of a [[multiset]] **`M`** is a [[vector in rn]] containing **`k`** elements of **`M`**
+**definition** an _arrangement_ of size **`k`** of a [[multiset]] **`M`** is a [[euclidean vector]] containing **`k`** elements of **`M`**
 
 the number of **`k`**-arrangements of an **`n`**-multiset **`M`** with multiplicities **`k^0 ... k^n.1`** is
 

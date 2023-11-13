@@ -112,7 +112,7 @@ _triangle inequality_ **`"abs" (z : w) -| "abs" z : "abs" w`**
 
 ## Multiplication
 
-geometrically, multiplying a [[complex]] number **`z`** by a [[complex]] number **`w`** is equivalent to rotating **`z`** by the [[angle]] **`"arg" w`** and then scaling it by a factor of **`"abs" w`**. this makes [[complex]] numbers useful for computing [[vector in rn]] rotations by choosing a **`w`** where **`"abs" w = 1`** &mdash; <https://youtu.be/4KlvI_uK9zs?t=398>
+geometrically, multiplying a [[complex]] number **`z`** by a [[complex]] number **`w`** is equivalent to rotating **`z`** by the [[angle]] **`"arg" w`** and then scaling it by a factor of **`"abs" w`**. this makes [[complex]] numbers useful for computing [[euclidean vector]] rotations by choosing a **`w`** where **`"abs" w = 1`** &mdash; <https://youtu.be/4KlvI_uK9zs?t=398>
 
 > **proof** see properties
 

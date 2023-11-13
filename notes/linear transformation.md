@@ -43,9 +43,9 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear transformation]] **
 
 > **example** _deriving the 2D rotation matrix_
 >
-> let a [[vector in rn#unit vector]] on the **`x`** axis **`i`** and let a [[vector in rn#unit vector]] on the **`y`** axis **`j`**
+> let a [[euclidean vector#unit vector]] on the **`x`** axis **`i`** and let a [[euclidean vector#unit vector]] on the **`y`** axis **`j`**
 >
-> let a [[vector in rn#unit vector]] on the **`x_*`** axis **`i_* = ("cos" aa, "sin" aa)`** and let a [[vector in rn#unit vector]] on the **`y_*`** axis **`j_* = (."sin" aa, "cos" aa)`**
+> let a [[euclidean vector#unit vector]] on the **`x_*`** axis **`i_* = ("cos" aa, "sin" aa)`** and let a [[euclidean vector#unit vector]] on the **`y_*`** axis **`j_* = (."sin" aa, "cos" aa)`**
 >
 > let **`(c, f c) = ic : jf c`** be a point on a [[function]] **`f`**. replacing **`i, j`** by **`i_* , j_*`**, we get the point **`i_* c : j_* f c = ("cos" aa, "sin" aa)c : (."sin" aa, "cos" aa)f c = (c("cos" aa) : (f c)(."sin" aa), c("sin" aa) : (f c)("cos" aa))`**.
 >

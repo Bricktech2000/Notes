@@ -6,7 +6,7 @@
 
 **definition** a _spline_ is a [[function]] that transforms a [[list]] of control points into a [[function#piecewise function]] [[polynomial]] [[curve]] with a set of promises about continuity &mdash; <https://youtu.be/jvPPXbo87ds?t=654>
 
-**definition** _control points_ are the [[vector in rn]]s that define the shape of a [[spline]]
+**definition** _control points_ are the [[euclidean vector]]s that define the shape of a [[spline]]
 
 **definition** a [[spline]] is said to _interpolate_ a control point if it passes through it
 
@@ -18,7 +18,7 @@ _a measure of how "connected" the [[curve]]s of a [[spline]] are_
 
 computing [[spline#parametric continuity]] requires the mathematical definition of a [[spline]] whereas [[spline#geometric continuity]] can be computed through the way the [[spline]] looks geometrically
 
-[[spline#geometric continuity]] is similar to [[spline#parametric continuity]], but is "magnitude agnostic". in the geometric continuity definitions below, [[vector in rn]]s are normalized using the **`{*--||||}`** [[operator]]
+[[spline#geometric continuity]] is similar to [[spline#parametric continuity]], but is "magnitude agnostic". in the geometric continuity definitions below, [[euclidean vector]]s are normalized using the **`{*--||||}`** [[operator]]
 
 _[...] I can't stress enough how important this is. continuity is what justifies the existence of a whole host of [[spline]]s_ &mdash; <https://youtu.be/jvPPXbo87ds?t=2176>
 
@@ -64,7 +64,7 @@ let a [[spline]] **`S`**
 
 ### Geometric Continuity
 
-**see** [[vector in rn#magnitude]]
+**see** [[euclidean vector#magnitude]]
 
 let a [[spline]] **`S`**
 

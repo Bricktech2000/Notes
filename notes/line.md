@@ -1,6 +1,6 @@
 # Line
 
-**see** [[vector in rn]], [[math notation]]
+**see** [[euclidean vector]], [[math notation]]
 
 &mdash; <https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s>
 
@@ -24,7 +24,7 @@ solving the above equation for **`t`**
 
 **`L . p -- p_1 . p_0 = t`**
 
-using [[vector in rn]]s, we get
+using [[euclidean vector]]s, we get
 
 **`L^0 . p^0 -- p_1^0 . p_0^0 = L^1 . p^1 -- p_1^1 . p_0^1 = L^2 . p^2 -- p_1^2 . p_0^2`**
 
@@ -38,7 +38,7 @@ if **`/\ L_0 = L_1`** has a solution, then the two [[line]]s intersect at said s
 
 ### angle between two lines
 
-**definition** the angle between two [[line]]s is the angle between their direction [[vector in rn]]s
+**definition** the angle between two [[line]]s is the angle between their direction [[euclidean vector]]s
 
 ### other
 

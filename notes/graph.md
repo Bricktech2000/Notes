@@ -56,9 +56,13 @@ _a collection of vertices connected by a collection of edges_
 
 ## Subgraph
 
+## Supergraph
+
 **definition** a [[graph]] **`G_1`** is a _subgraph_ of **`G_2`** if and only if it is a [[graph]] and **`/\ G_1 -| G_2`**
 
 **definition** a [[graph]] **`G_1`** is an _induced subgraph_ of **`G_2`** if and only if it is a _subgraph_ of **`G_2`** and **`G_1 v /\ G_1 w < G_1^v,w = G_2^v,w`** (the subgraph must contain all the original edges connecting its vertices)
+
+**definition** a [[graph]] **`G_2`** is a _supergraph_ of **`G_1`** if and only if it is a [[graph]] and **`/\ G_2 |- G_1`**
 
 ## Vertex Degree
 
