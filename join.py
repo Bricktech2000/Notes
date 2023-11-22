@@ -1,6 +1,5 @@
 import os
 
-# assumptions: all files end with a trailing newline
 joined = ''
 
 for root, dirs, files in os.walk('./notes'):
