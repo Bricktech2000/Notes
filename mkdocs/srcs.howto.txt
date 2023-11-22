@@ -18,7 +18,6 @@ https://squidfunk.github.io/mkdocs-material/reference/diagrams/
 https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
 https://stackoverflow.com/questions/9529300/can-i-change-the-fill-color-of-an-svg-path-with-css
 https://squidfunk.github.io/mkdocs-material/reference/lists/
-https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
 https://www.w3schools.com/css/css_font_google.asp
 https://github.com/mkdocs/mkdocs/issues/545
