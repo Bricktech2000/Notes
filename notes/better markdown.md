@@ -5,55 +5,60 @@ this [[better markdown]] idea is meant to address the main issue with [[markdown
 in [[better markdown]],
 
 - most constructs have a clear semantic meaning
-- most constructs have block-level and inline equivalents
-- every markup [[character]] can be escaped with a `\`, with no ambiguous exceptions
+- most constructs have block and inline equivalents
+- every control [[character]] can be escaped with a `\`, with no ambiguous exceptions
 - constructs can be nested, and in a way that is actually consistent
 
 _a [[markdown]]-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions_ &mdash; <https://daringfireball.net/projects/markdown/syntax>. this is not a goal of [[better markdown]]. [[better markdown]] aims to be a consistent, extensible, formally-defined, light-weight markup language
 
-## things to iron out
+## syntax
+
+#todo complete
+
+#todo rewrite everything above (and excluding) `<block-specifier>` as none of it makes much sense
+
+```bnf
+<document> ::= <block-element>*
+
+<block-element> ::= <block-specifier>* <element-metadata>? <inline-element>
+<block-specifier> ::= <control-character> <space-character>
+<element-metadata> ::= <character-unit>* <metadata-character> <space-character>
+
+<inline-element> ::= TODO
+
+<character-unit> ::= <escape-sequence> | <unicode-character>
+<escape-sequence> ::= <escape-character> (<control-character> | <space-character> | <escape-character> | <metadata-character> | <unicode-name> | <entity-name> | <emoji-name>)
+<unicode-name> ::= TODO
+<entity-name> ::= TODO
+<emoji-name> ::= TODO
+
+<control-character> ::= "#" | "|" | "-" | "=" | "<" | ">" | "[" | "]" | "!" | "*" | "`" | "/" | "+" | "~" | "$"
+<space-character> ::= " " | "\t"
+<escape-character> ::= "\"
+<newline-character> ::= "\n"
+<metadata-character> ::= ":"
+```
 
 #think
 
 - syntax for:
   - tables
-  - checkboxes
   - tags
-  - dates
-  - keyboard shortcuts
-  - currencies
-  - inserted text
-  - deleted text
+  - dates `date`
+  - keyboard keys `kbd`
   - emoji
-  - admonitions aka call-outs
+  - images
+  - ~~subscript `sub`~~
+  - ~~superscript `sup`~~
+  - paragraphs `p`
   - ...
+  - non-[[ascii]] characters such as &times; and &mdash;
 - support for running code blocks and parsing their `stdout` as markup
 - support for graphs and plots
-
-other things to think about:
-
-- `\` for preformatted blocks?
-  ```
-  \ pre block maybe?
-  ```
-- `#` and `` ` `` contain "metadata" (heading content and [[programming language]] name). do we want that?
-- `<` and `>` work differently from the rest of the syntax. probably want to fix that
-- probably want to remove `###`
-- probably want to remove `$`
-- `~` for removed text and strikethrough, `+` for inserted text and underline?
-- what if lists had "metadata" for whether they are checked, which would be displayed as a checkbox? what if links had "metadata" to replace the link text?
-- `!` with metadata for admonitions aka call-outs?
-- what about `:` for metadata:
-  - `! note: this is a note`
-  - `! warning: this is a warning`
-  - `! theorem: this is a theorem`
-  - `- _: todo`
-  - `- x: done`
-  - `- o: in progress`
-  - `` ` rust: println!("hello world") ``
-  - `# Heading: content`
-- non-[[ascii]] characters such as &times; and &mdash;
-- inline lists can be repeated `-a-b-c` but not other constructs
+- do we really want double newlines to be paragraphs?
+- formalize grammar for inline constructs. inline constructs should be surrounded by either whitespace or other inline constructs
+  - what about plural with inline code? i.e. `Object`s
+- `<>` and `[]` work differently from rest of syntax (instead of one character, uses two "reflected" ones). do we want this?
 
 ## &mdash;
 
@@ -67,37 +72,39 @@ other things to think about:
 
 &mdash; <https://squidfunk.github.io/mkdocs-material/reference/admonitions/>
 
+&mdash; <https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
+
 ---
 
 # constructs
 
-## semantic constructs
+`#` represents a document section
 
-`#` represents a section of a file (not a heading)
+`|` represents a direct quotation
 
-`|` represents content that was sourced somewhere else
+`-` represents a [[set]] of items
 
-`-` represents a [[set]] or [[list]] of items
+`=` represents a [[list]] of items
 
-`>` and `<>` represent external files
+`<>` represents a link
 
-`*` represents an important or emphasized item
+`[]` represents a citation
 
-`_` replaces quotation marks when mentioning something
+`!` represents an admonition
+
+`*` represents emphasis
 
 `` ` `` represents computer code
 
-`###` represents a file-wide separation (not a horizontal rule)
+`/` represents temporary content
 
-## not-so-semantic constructs
+`+` represents inserted content
 
-`/` is used for comments
+`~` represents removed content
 
-`$` is used for LaTeX mathematical equations
+`$` represents mathematical content
 
-`\` is used for escaping control characters
-
-## block-level examples
+## examples
 
 ```
 first paragraph
@@ -109,161 +116,193 @@ third paragraph
 second line
 third line
 
-# headings
-  # name of section
-    content of section
-    continuation of content
+# name of section:
+  content of section
+  continuation of content
 
-# quotes
-  | quote
-    second line
-    third line
-  | second quote
-  | third quote
+| quote
+  second line
+  third line
+| second quote
+| third quote
 
-# lists
-  - first item
-  - second item
-  - third item
-    second ine
+- some item
+- some item
+- some item
+  second ine
+= first item
+= second item
+= third item
+  second line
 
-# includes
-  > filename.incl
+* emphasis
+  block
+` code
+  block
+$ \text{block}
+  \LaTeX
+/ block comment
+  second line
+  third line
++ inserted
+  content
+  block
+~ deleted
+  content
+  block
 
-# other
-  * bold
-    text block
-  _ italicized
-    block
-  ` language
-    code block
-  $ \text{block}
-    \LaTeX
-
-  / block comment
-    second line
-    third line
-```
-
-## inline examples
-
-```
-|quote|
-
-###
-
--list-
-
-*bold*
-
-_italics_
-
-`code`
-
+|direct quote|
+-set item-
+=list item=
+*emphasis*
+`computer code`
 /inline comment/
-
 $\LaTeX$
-
-<filename.link>
+<https://example.com/>
++inserted text+
+~deleted text~
 ```
 
-## nesting examples
-
-### source code
+## source
 
 ```
 | quote
   | nested quote
-  # heading in quote
-  - list item 1
-  - list item 2
+  # section in quote:
+    - some item
+    - some item
 
-- first, a quote:
+= first, a quote:
   | quote in a list
-- then, some code:
-  ` rust
-    if true {
-      println!("true");
-    }
+= then, some code:
+  ` rust:
+  if true {
+    println!("true");
+  }
 
-if you're interested, click here! <https://example.com/>
+if you're interested, click <here: https://example.com/>!
 
-with my conceptual\ notes <index>
+with my <conceptual notes: index>
 
-this person said that |it wasn't fair|
+this person said |it isn't fair| [the person]
 
 he wrote the following:
 | This is \*\*very\*\* important.
   so important that I escaped the asterisks
 
-so that's how it happened /comment: rephrase this/
+~rambling is the state of rambles which are rambling in a rambling manner~ +rambling is wordy+.
 
-supported languages include -HTML-Markdown-LaTeX-.
+so that's how it happened /you should rephrase this/
 
-| * theorem
+supported languages include -HTML--Markdown--LaTeX-.
+
+the main steps are =preparation==execution==analysis==conclusion=.
+
+! theorem:
   it is a theorem that $x = y$
 
-| * note
+! note:
   this theorem only works for certain values of $x$
   therefore, some values of $y$ are not possible
 
-this is _hello world_ in Python:
-` python
+- _: this is to be done
+- x: this is done
+
+this is |hello world| in Python:
+` python:
   # hello_world.py
   print("hello world")
 you can run it with `python hello_world.py`
 ```
 
-### result
+## result
 
-> quote
->
-> > nested quote
->
-> ### heading inside quote
->
-> - list item 1
-> - list item 2
+<blockquote>
+  quote<br />
+  <blockquote>
+    nested quote<br />
+    <h4>section in quote</h4>
+    <ul>
+      <li>some item</li>
+      <li>some item</li>
+    </ul>
+  </blockquote>
+</blockquote>
 
-- first, a quote:
-  > quote in a list
-- then, some code:
-  ```rust
-  if true {
-    println!("true");
-  }
-  ```
+<ol>
+  <li>
+    first, a quote:
+    <blockquote>quote in a list</blockquote>
+  </li>
+  <li>
+    then, some code:
+    <pre><code class="language-rust">if true {
+  println!("true");
+}</code></pre>
+  </li>
+</ol>
 
-if you're interested, click [here!](https://example.com/)
+<p>if you're interested, click <a href="https://example.com/">here</a>!</p>
 
-with my [conceptual notes](index)
+<p>with my <a href="index">conceptual notes</a></p>
 
-this person said that _"it wasn't fair"_
+<p>
+  this person said <i><q>it isn't fair</q></i>
+  &mdash; the person&ensp;
+</p>
 
-he wrote the following:
+<p>he wrote the following:</p>
 
-> This is \*\*very\*\* important.
->
-> so important that I escaped the asterisks
+<blockquote>
+  This is **very** important. <br />
+  so important that I escaped the asterisks
+</blockquote>
 
-so that's how it happened <!-- comment: rephrase this -->
+<p>
+  <del>
+    rambling is the state of rambles which are rambling in a rambling manner
+  </del>
+  <ins>rambling is wordy</ins>.
+</p>
 
-supported languages include HTML &bull; Markdown &bull; LaTeX.
+<p>
+  so that's how it happened
+  <u style="text-decoration: underline dashed">you should rephrase this</u>
+</p>
 
-> **theorem**
->
-> it is a theorem that $x = y$
+<p>supported languages include&ensp;HTML &bull; Markdown &bull; LaTeX&ensp;.</p>
 
-> **note**
->
-> this theorem only works for certain values of $x$
-> therefore, some values of $y$ are not possible
+<p>
+  the main steps are&ensp;preparation &blacktriangleright; execution
+  &blacktriangleright; analysis &blacktriangleright; conclusion&ensp;.
+</p>
 
-this is _hello world_ in Python:
+<blockquote>
+  <b>theorem</b>
+  <p>it is a theorem that <span class="math inline">x = y</span></p>
+</blockquote>
 
-```python
-# hello_world.py
+<blockquote>
+  <b>note</b>
+  <p>
+    this theorem only works for certain values of
+    <span class="math inline">x</span><br />
+    therefore, some values of <span class="math inline">y</span> are not
+    possible
+  </p>
+</blockquote>
+
+<p>
+  <input type="checkbox" disabled />this is to be done<br />
+  <input type="checkbox" checked disabled />this is done
+</p>
+
+<p>
+  this is <i><q>hello world</q></i> in Python:
+</p>
+
+<pre><code class="language-python"># hello_world.py
 print("hello world")
-```
+</code></pre>
 
-you can run it with `python hello_world.py`
+<p>you can run it with <code>python hello_world.py</code></p>

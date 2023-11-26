@@ -361,7 +361,7 @@ return expression
 
 the type of the controlling expression to a `switch` statement must be an _integer type_. _integer promotions_ are performed on the controlling expression. the constant expression in each `case` label is converted to the type of the promoted controlling expression
 
-`else if` is not its own [[statement]] in [[c]]; rather, it is an `if-else` statement with another `if` statement as its `else` clause
+`else if` is not its own [[statement]] in [[c]]; rather, it is an `if-else` statement whose `else` clause contains another `if` statement
 
 > **example** a common guideline is to always use braces to convert statements into compound statements inside of control flow statements. therefore, to be pedantic, `if (c) { ... } else if (d) { ... }` should be written as `if (c) { ... } else { if (d) { ... } }`. if `else-if`s are allowed, why aren't `else-switch`es? `if (!color) { return false; } else switch (*color) { ... }` &mdash; <https://youtu.be/zGWj7Qo_POY?t=10m32s>
 
@@ -381,25 +381,27 @@ any identifier matching one of the following [[regular expression]]s is reserved
 - `/^(str|mem|wcs)[a-z]/` for [[string]] and [[array]] [[function]]s
 - ...
 
-## lifetimes
+## storage duration
 
-objects declared within a block or within a function parameter have _automatic_ lifetimes, living from the start to the end of the block
+objects declared within a block or within a function parameter have _automatic_ storage duration, living from the start to the end of the block
 
 > **example** `{ int x; }`
 
-objects declared in file [[scope]] have _static_ lifetimes, living throughout the execution of the program
+objects declared in file [[scope]] have _static_ storage duration, living throughout the execution of the program
 
 > **example** `int x; // in file scope`
 
-objects declared within a block can be made to have a static lifetime using the `static` storage-class specifier
+objects declared within a block can be made to have a static storage duration using the `static` storage-class specifier
 
 > **example** `void increment(void) { static size_t counter = 0; return counter++; }`
 
-objects stored in dynamically allocated memory have _allocated_ lifetimes, living from the time they are allocated to the time they are deallocated
+objects stored in dynamically allocated memory have _allocated_ storage duration, living from the time they are allocated to the time they are deallocated
 
 > **example** `int *x = malloc(sizeof(int)); free(x);`
 
-_thread_ lifetimes #todo
+objects declared with the `thread_local` storage-class specifier have _thread_ storage duration, living from thread startup to thread termination
+
+> **example** `thread_local int x;`
 
 ## portability
 
@@ -444,4 +446,4 @@ reading a _trap representation_ is [[c#undefined behavior]]; reading an _uniniti
 
 **definition** an _rvalue_ is an expression that does not refer to an object; it only makes sense for it to be on the right side of an assignment
 
-currently on pages 136 .. 142
+currently on page 161

@@ -12,10 +12,9 @@
 - Yan Chernikov from The Cherno saying he is not a particularily smart person &mdash; <https://youtu.be/ILt1j3xEmw0?t=389>
 - Andrew Tate was extremely talented at chess &mdash; <https://youtu.be/HJ4xoxYAya4?t=168>
 - Casey Muratori from Handmade Hero taught himself [[linear algebra]], differential equations, trigonometry <https://youtu.be/O7wFP1Z5KQY?t=427> (and rest of video)
-- #todo <https://youtu.be/YNQDp3v-VGE?t=121>
 - Mark Zuckerberg on the importance of hiring highly intelligent people in a [[business]] &mdash; <https://youtu.be/xFFs9UgOAlE?t=1135> (and in comments)
 - FitMC calling Pyrobyte a _gifted programmer and hacker_ <https://youtu.be/ilZFBL6Yt4E?t=143> (informal mention)
-- Alok Kanojia from HealthyGamerGG using the pronoun _we_ to replace _gifted children_ &mdash; <https://youtu.be/sQC0jfH_rrM?t=34>
+- Dr. K from HealthyGamerGG using the pronoun _we_ to replace _gifted children_ &mdash; <https://youtu.be/sQC0jfH_rrM?t=34>
 - Scotty Allen from Strange Parts on [[intelligence]] being part of one's [[identity]] &mdash; <https://youtu.be/Gs790JOeN3Y?t=605>
 - Zack Nelson from JerryRigEverything mixing up [[intelligence]] and [[knowledge]] &mdash; <https://youtu.be/-Fhf5dX1efo?t=562>
 - 8 struggles of highly intelligent people &mdash; <https://youtu.be/BN3KT7IERSw>
@@ -26,6 +25,7 @@
 - [[iq]] of Derek from Veritasium was measured at 134 <https://youtu.be/FkKPsLxgpuY>
 - Jessica from How to ADHD using _we_ when discussing [[intellectual giftedness]] &mdash; <https://youtu.be/DbeeWRcHgN0?t=2m17s>
 - Stephen from Diary of a CEO being called highly intelligent &mdash; <https://youtu.be/bk-nQ7HF6k4?t=31m54s>
+- Dr. K from HealthyGamerGG a gifted child &mdash; <https://youtu.be/kPZwR3v_UyI?t=20m26s> and <https://youtu.be/kPZwR3v_UyI?t=1h19m4s> and <https://youtu.be/kPZwR3v_UyI?t=1h23m20s>
 
 ## stuff I don't relate to
 

@@ -2,4 +2,4 @@
 
 **see** [[statement]]
 
-**definition** in [[programming language]]s, an _expression_ is a piece of code that returns a value
+**definition** in programming, an _expression_ is a unit of code that may be evaluated to a value

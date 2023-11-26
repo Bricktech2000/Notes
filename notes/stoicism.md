@@ -15,7 +15,7 @@ the majority of people drift through life; that is, they do not have plans, do n
 >
 > - people who instinctively scream for help
 > - people who appeal to their emotions
-> - people resorting to faith and [[religion]]
+> - people who resort to faith and [[religion]]
 
 > **note** I think I might've been in the process of reinventing part of stoicism
 
