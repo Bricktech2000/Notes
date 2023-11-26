@@ -19,7 +19,7 @@ parasocial relationships occcur when our brains are tricked into thinking that w
 > - inside jokes between a content creator and their audience
 > - laughing and having a good time, _remember when... ?_ moments
 
-_I think what [[social media]] platforms are discovering is that the stronger the parasocial relationship, probably the higher the user engagement_ &mdash; Dr K.
+_I think what [[social media]] platforms are discovering is that the stronger the parasocial relationship, probably the higher the user engagement_ &mdash; Dr. K
 
 ## video games
 

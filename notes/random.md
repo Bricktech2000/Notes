@@ -156,10 +156,6 @@ which would get compiled into:
 
 this is an efficient method for **recording data completely independently from how it is to be analyzed**. then, use a language model to perform queries. finally, send to data viz / data analysis library such as pandas, see <https://youtu.be/FbBXtqtRnWU> for examples
 
-### HDL as library
-
-HDLs probably shouldn't be DSLs. feels like everything is awkward in HDLs, **including** hardware description. why aren't HDLs just libraries? HDLs have crappy preprocessor-like templating syntax. why not use a neat general-purpose [[turing complete]] [[programming language]] for templating instead? feels like HDLs are [[reinventing the wheel]]. instead of starting from a general-purpose language and specializing it, they start from a domain-specific language and extend it as people need more features. that's how [[bash]] became [[bash]] and [[c++]] became [[c++]]
-
 ---
 
 ```lua
@@ -670,7 +666,7 @@ therefore, the area of the collection of rectangles is $\displaystyle \sum_{i=0}
 
 ```
 # The Quite Ok Image Format:
-  Specification *Version 1.0*, 2022-01-05 -- qoiformat.org -- Dominic Szablewski /todo: date, mdash, link/
+  -Specification *Version 1.0*, 2022-01-05--<qoiformat.org>--Dominic Szablewski
 
   A QOI file consists of a 14-byte header, followed by any number of
   data "chunks" and an 8-byte end marker.
@@ -795,7 +791,7 @@ therefore, the area of the collection of rectangles is $\displaystyle \sum_{i=0}
 
 # The Quite Ok Image Format
 
-Specification **Version 1.0**, 2022-01-05 &mdash; <https://qoiformat.org> &mdash; Dominic Szablewski
+Specification **Version 1.0**, 2022-01-05 &bull; <https://qoiformat.org> &bull; Dominic Szablewski
 
 A QOI file consists of a 14-byte header, followed by any number of data "chunks" and an 8-byte end marker.
 

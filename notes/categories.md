@@ -163,3 +163,5 @@
 [[discover]]
 
 [[xy problem]]
+
+[[generalism]]

@@ -8,7 +8,7 @@ when seen through [[adt organization]], [[conceptual note-taking]] consists of a
 
 atomicity allows for the **efficient reorganization** of continually evolving [[knowledge]]
 
-[[conceptual note-taking]] avoids the need for "disciplines", which are, in essence, arbitrary lines that hinder serendipitous discovery
+[[conceptual note-taking]] encourages [[generalism]] by avoiding the need for "disciplines", which are, in essence, arbitrary lines that hinder serendipitous discovery
 
 [[conceptual note-taking]] builds a strong, permanent [[knowledge]] base that offers **great support** when [[learning]] new [[concept]]s and serves as a foundation for coming up with **novel ideas**
 

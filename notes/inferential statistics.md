@@ -14,7 +14,7 @@ _making inferences about [[population]]s by examining one or more random [[sampl
 
 [[probability distribution]], [[standard score]]
 
-[[mean]], [[median]], [[mode]]
+[[average]]
 
 **properties**
 

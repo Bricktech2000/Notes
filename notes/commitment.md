@@ -25,5 +25,6 @@ not fulfilling a [[commitment]] is a breach of [[integrity]]. keeping people upd
 >
 > - licensing an open-source project with GPL so your company can't make it proprietary somewhere down the line
 > - designing a system in such a way that giving away data to an intelligence agency is mathematically impossible
+> - signing up to the military to force yourself to become disciplined and put your life back together
 
 &mdash; Wikipedia

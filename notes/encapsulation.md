@@ -2,7 +2,7 @@
 
 _an [[abstraction]] over implementation details_
 
-[[encapsulation]] is a powerful idea, especially outside of [[object-oriented programming]] and [[computer science]]. temporarily treating an idea or [[concept]] as a black box while understanding its [[interface]] saves tremendous [[time]] and [[energy]]. diving into implementation details is a great way to get lost in the weeds and lose sight of the big picture
+[[encapsulation]] (not the encapsulation from [[object-oriented programming]]) is a powerful idea. temporarily treating an idea or [[concept]] as a black box while understanding its [[interface]] saves tremendous [[time]] and [[energy]]. diving into implementation details is a great way to get lost in the weeds and lose sight of the big picture
 
 > **example** treating the hypocampus as a black box &mdash; <https://youtu.be/Lt54CX9DmS4?t=24m54s>
 
