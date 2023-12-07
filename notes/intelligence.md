@@ -25,7 +25,7 @@
 - [[iq]] of Derek from Veritasium was measured at 134 <https://youtu.be/FkKPsLxgpuY>
 - Jessica from How to ADHD using _we_ when discussing [[intellectual giftedness]] &mdash; <https://youtu.be/DbeeWRcHgN0?t=2m17s>
 - Stephen from Diary of a CEO being called highly intelligent &mdash; <https://youtu.be/bk-nQ7HF6k4?t=31m54s>
-- Dr. K from HealthyGamerGG a gifted child &mdash; <https://youtu.be/kPZwR3v_UyI?t=20m26s> and <https://youtu.be/kPZwR3v_UyI?t=1h19m4s> and <https://youtu.be/kPZwR3v_UyI?t=1h23m20s>
+- Dr. K from HealthyGamerGG a gifted child &mdash; <https://youtu.be/kPZwR3v_UyI?t=20m26s> and <https://youtu.be/kPZwR3v_UyI?t=1h19m4s> and <https://youtu.be/kPZwR3v_UyI?t=1h23m20s> and <https://youtu.be/bmvBTDPzzaY?t=17m53s>
 
 ## stuff I don't relate to
 

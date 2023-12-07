@@ -18,6 +18,14 @@
 
 [[equality]]
 
+[[xy problem]]
+
+[[generalism]]
+
+[[benign violation]]
+
+[[power of belief]]
+
 ## zilch
 
 [[improved expression evaluation]]
@@ -161,7 +169,3 @@
 [[invent]]
 
 [[discover]]
-
-[[xy problem]]
-
-[[generalism]]

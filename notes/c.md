@@ -179,7 +179,41 @@ until C23, `void f();` declares a function that takes any number of arguments of
 
 returning no value from a non-`void` [[function]] (through `return;` or through control reaching the end of the [[function]] body) and subsequently using the returned value is [[c#undefined behavior]]
 
-### pointer arithmetic
+### tags
+
+tags are a special naming mechanism for `enum`, `struct`, and `union` types. they live in a seperate namespace than that of ordinary identifiers
+
+> **example** `struct s { }; struct s s;` is an object `s` of type `struct s`
+
+> **example** `enum status { ok, fail }; enum status status(void);` is a function named `status` that returns an `enum status`
+
+> **example** in `typedef struct tnode { struct tnode *left; struct tnode *right; } tnode;`, the type name and tag name are the same
+
+### declaration specifiers
+
+reordering of declaration specifiers has no effect in [[c]] &mdash; <https://youtu.be/zGWj7Qo_POY?t=21m28s>
+
+> **example** `int typedef const a;` is equivalent to `typedef const int a;`, and `long unsigned static long b;` is equivalent to `static unsigned long long b;`
+
+`*` is part of the _declarator_ and not of the _declaration specifier_, which is why `int* a;` is considered bad style
+
+### incomplete types
+
+&mdash; Effective C and <https://learn.microsoft.com/en-us/cpp/c-language/incomplete-types>
+
+**definition** an _incomplete type_ is a type that describes an object but lacks information needed to determine its size
+
+> **example** `struct s; enum e; int a[];` are all incomplete types
+
+incomplete types can be completed by specifying the missing information. `void` is an incomplete type that cannot be completed
+
+## lvalues and rvalues
+
+**definition** an _lvalue_ is an expression that refers to an object; it makes sense for it to be on the left side of an assignment [[expression]]
+
+**definition** an _rvalue_ is an expression that does not refer to an object; it only makes sense for it to be on the right side of an assignment [[expression]]
+
+## pointer arithmetic
 
 adding or subtracting an _integer type_ to or from a pointer [[type]] in [[c]] returns a value whose [[type]] is that of the pointer operand. the difference between the [[array]] subscripts is the value of the [[integer]] operand
 
@@ -207,41 +241,21 @@ the _strict aliasing rule_ allows the compiler to assume that pointers to differ
 
 > **example** `int x = 1; float *f = (float *)&x; *f = 2;` is [[c#undefined behavior]]
 
-### type qualifiers
+## type coercions
 
-`const` is a type qualifier that specifies that an object's value cannot be modified after initialization. the compiler can place `const`-qualified objects in read-only memory, which makes modifying them [[c#undefined behavior]]
+**definition** the _integer types_ in [[c]] are `char`, `short`, `int`, `long`, `long long` and `enum`. `_Bool` is also treated as an integer type when it comes to type promotions
 
-> **example** `const int x = 1; x = 2;` produces an error
+**definition** the _small integer types_ in [[c]] are _integer types_ whose _conversion rank_ is less than `int`: `_Bool`, `char` and `short`
 
-> **example** `int *p = (int *)&x; *p = 2;` is [[c#undefined behavior]]
+in [[c]], implicit type conversions, also known as _coercions_, are performed as follows:
 
-`volatile` is a type qualifier that specifies that an object's value could be modified by something beyond the control of the program, such as a hardware device. this prevents the compiler from optimizing away reads and writes to the object
+simplistically, whenever a _small integer type_ is used in an expression in [[c]], it is converted to a `signed int` regardless of its signedness, or to an `unsigned int` under specific conditions. this process is called the _integer promotions_. this has the side effect that almost no operation in [[c]] can be performed directly on _small integer types_; operations are always carried out on `int`s or larger types
 
-> **example** `volatile int port; port = port;` will generate instructions to read and write to `port`
+whenever a binary [[operator]] is applied to two operands of different types, [[c]] enforces an implicit conversion of one of the operands to the type of the other operand. the rules for this process are called _the usual arithmetic conversions_. simplistically, if one of the arguments has a [[float]]ing-point type, then the other is converted to that [[float]]ing-point type; otherwise, the _integer promotions_ are performed on both operands. then, if both operands have identical signedness, the operand with lesser _conversion rank_ is converted to the type of the other; otherwise, things get complicated and unintuitive
 
-`restrict` is a type qualifier that specifies that a pointer is the only way to access the object it points to. this allows the compiler to perform further optimization. using the `restrict` qualifier on two pointers that overlap is [[c#undefined behavior]]
+&mdash; Effective C p. 49-55 and <https://stackoverflow.com/questions/46073295/implicit-type-promotion-rules>
 
-> **example** `void copy(char *restrict s1, const char *restrict s2);`
-
-### declaration specifiers
-
-the order of declaration specifiers does not matter in [[c]] &mdash; <https://youtu.be/zGWj7Qo_POY?t=21m28s>
-
-> **example** `int typedef const a;` is equivalent to `typedef const int a;`, and `long unsigned static long b;` is equivalent to `static unsigned long long b;`
-
-`*` is part of the _declarator_ and not of the _declaration specifier_, which is why `int* a;` is considered bad style
-
-### tags
-
-tags are a special naming mechanism for `enum`, `struct`, and `union` types. they live in a seperate namespace than that of ordinary identifiers
-
-> **example** `struct s { }; struct s s;` is an object `s` of type `struct s`
-
-> **example** `enum status { ok, fail }; enum status status(void);` is a function named `status` that returns an `enum status`
-
-> **example** in `typedef struct tnode { struct tnode *left; struct tnode *right; } tnode;`, the type name and tag name are the same
-
-## operators and order of evaluation
+## operators
 
 for historical reasons, the return [[type]] of the `!`, `==`, `!=`, `<`, `>`, `<=` and `>=` [[operator]]s is `int` and not `_Bool`
 
@@ -285,6 +299,12 @@ the `,` [[operator]] evaluates its left operand, discards the result, then evalu
 
 > **example** `f(a, (t=3, t+2), c);` is equivalent to `t = 3; f(a, t+2, c);`
 
+the `&&` and `||` [[operator]]s "short-circuit" in [[c]]
+
+exactly one of the second and third operands of the `? :` [[operator]] is evaluated
+
+## order of evaluation
+
 _the order of evaluation of the operands of any [[c]] [[operator]], including the order of evaluation of any subexpressions, is generally [[c#unspecified behavior]]_ &mdash; Effective C
 
 > **example** in `int sum = f() + g();`, the order of evaluation is [[c#unspecified behavior]]
@@ -297,23 +317,9 @@ _if a side effect is unsequenced relative to either a different side effect on t
 
 > **example** `printf("%d %d\n", i++, i);` is [[c#undefined behavior]]
 
-it is guaranteed that the `&&` and `||` [[operator]]s will evaluate their operands from left to right. the `&&` and `||` [[operator]]s "short-circuit" in [[c]]
+it is guaranteed that the `&&` and `||` [[operator]]s will evaluate their operands from left to right
 
-it is guaranteed that the `? :` [[operator]] will evaluate its first operand before its second or third operand. only one of the second and third operands will be evaluated
-
-## type coercions
-
-**definition** the _integer types_ in [[c]] are `char`, `short`, `int`, `long`, `long long` and `enum`. `_Bool` is also treated as an integer type when it comes to type promotions
-
-**definition** the _small integer types_ in [[c]] are _integer types_ whose _conversion rank_ is less than `int`: `_Bool`, `char` and `short`
-
-in [[c]], implicit type conversions, also known as _coercions_, are performed as follows:
-
-simplistically, whenever a _small integer type_ is used in an expression in [[c]], it is converted to a `signed int` regardless of its signedness, or to an `unsigned int` under specific conditions. this process is called the _integer promotions_. this has the side effect that almost no operation in [[c]] can be performed directly on _small integer types_; operations are always carried out on `int`s or larger types
-
-whenever a binary [[operator]] is applied to two operands of different types, [[c]] enforces an implicit conversion of one of the operands to the type of the other operand. the rules for this process are called _the usual arithmetic conversions_. simplistically, if one of the arguments has a [[float]]ing-point type, then the other is converted to that [[float]]ing-point type; otherwise, the _integer promotions_ are performed on both operands. then, if both operands have identical signedness, the operand with lesser _conversion rank_ is converted to the type of the other; otherwise, things get complicated and unintuitive
-
-&mdash; Effective C p. 49-55 and <https://stackoverflow.com/questions/46073295/implicit-type-promotion-rules>
+it is guaranteed that the `? :` [[operator]] will evaluate its first operand before its second or third operand
 
 ## dynamic allocation
 
@@ -387,11 +393,11 @@ objects declared within a block or within a function parameter have _automatic_ 
 
 > **example** `{ int x; }`
 
-objects declared in file [[scope]] have _static_ storage duration, living throughout the execution of the program
+objects declared at file [[scope]] have _static_ storage duration, living throughout the execution of the program
 
-> **example** `int x; // in file scope`
+> **example** `int x; // at file scope`
 
-objects declared within a block can be made to have a static storage duration using the `static` storage-class specifier
+objects declared within a block can be made to have a static storage duration using the `static` storage-class specifier; not to be confused with `static` at file [[scope]]
 
 > **example** `void increment(void) { static size_t counter = 0; return counter++; }`
 
@@ -403,23 +409,57 @@ objects declared with the `thread_local` storage-class specifier have _thread_ s
 
 > **example** `thread_local int x;`
 
+## linkage
+
+a declaration with _external linkage_ makes all its references refer to the same object throughout the entire program. objects declared at file [[scope]] have external linkage by default
+
+> **example** `int x; int f(void); extern int x; extern int f(void); // at file scope`
+
+block-scope objects can be made to have external linkage using the `extern` storage-class specifier
+
+> **example** `{ extern int x; extern int f(void); }`
+
+a declaration with _internal linkage_ makes all its references refer to the same object within the same translation unit. objects declared at file [[scope]] with the `static` storage-class specifier have internal linkage; not to be confused with `static` at block [[scope]]
+
+> **example** `static int x; static int f(void); // at file scope`
+
+a declaration with _no linkage_ makes all its references refer to the same object within the same block. identifiers with no linkage include function parameters, objects declared at block [[scope]] and enumeration constants
+
+> **example** `{ int x; }` and parameter `x` at `int f(int x) { ... }`
+
+## type qualifiers
+
+`const` is a type qualifier that specifies that an object's value cannot be modified after initialization. the compiler can place `const`-qualified objects in read-only memory, which makes modifying them [[c#undefined behavior]]
+
+> **example** `const int x = 1; x = 2;` produces an error
+
+> **example** `int *p = (int *)&x; *p = 2;` is [[c#undefined behavior]]
+
+`volatile` is a type qualifier that specifies that an object's value could be modified by something beyond the control of the program, such as a hardware device. this prevents the compiler from optimizing away reads and writes to the object
+
+> **example** `volatile int port; port = port;` will generate instructions to read and write to `port`
+
+`restrict` is a type qualifier that specifies that a pointer is the only way to access the object it points to. this allows the compiler to perform further optimization. using the `restrict` qualifier on two pointers that overlap is [[c#undefined behavior]]
+
+> **example** `void copy(char *restrict s1, const char *restrict s2);`
+
 ## portability
 
 &mdash; <https://www.reddit.com/r/rust/comments/jf66eu/why_are_there_no_increment_and_decrement/>
 
-### implementation-defined behavior
+### Implementation-Defined Behavior
 
 **definition** _implementation-defined behavior_ is program behavior that is not specified by the [[c]] standard and that may offer different results among implementations [...] &mdash; Effective C
 
 a compiler must choose a single behavior, document it, and implement it consistently
 
-### unspecified behavior
+### Unspecified Behavior
 
 **definition** _unspecified behavior_ is program behavior for which the standard provides two or more options and imposes no requirements on which option is chosen at any instance &mdash; Effective C
 
 a compiler must compile the program meaningfully but may choose a different behavior each time it encounters a construct
 
-### undefined behavior
+### Undefined Behavior
 
 **definition** _undefined behavior_ is behavior that implicitly or explicitly isn't defined by the [[c]] standard &mdash; Effective C
 
@@ -440,10 +480,52 @@ reading a _trap representation_ is [[c#undefined behavior]]; reading an _uniniti
 
 &mdash; Effective C and <https://stackoverflow.com/questions/13423673/what-is-indeterminate-value>
 
-## #todo
+## Preprocessor
 
-**definition** an _lvalue_ is an expression that refers to an object; it makes sense for it to be on the left (or right) side of an assignment
+&mdash; Effective C
 
-**definition** an _rvalue_ is an expression that does not refer to an object; it only makes sense for it to be on the right side of an assignment
+&mdash; <https://cplusplus.com/doc/tutorial/preprocessor/>
 
-currently on page 161
+### directives
+
+the [[c#preprocessor]] includes the following directives:
+
+```c
+#include
+#define #undef
+#ifdef #ifndef #if #elif #else #endif
+#error
+#line
+#pragma
+#
+```
+
+whitespace may added between the beginning of a line and a `#` character or between a `#` character and a directive name to indent directives
+
+`#include` inserts the contents of a file into the current file. the file is searched for in an implementation-defined manner. if the file is not found, the behavior is [[c#implementation-defined behavior]]. if the file is found, the contents of the file are inserted into the current file at the point of the `#include` directive. the difference between quoted include strings (`#include "filename"`) and angle-bracketed include strings (`#include <filename>`) is [[c#implementation-defined behavior]]. typically, the former is used for user-defined headers and the latter for system headers
+
+`#define identifier replacement-list` defines an _object-like macro_ named `identifier`; `#define identifier(parameter-list) replacement-list` (with no whitespace between `identifier` and `(`) defines a _function-like macro_ named `identifier`. macro identifiers textually expand to `replacement-list`. `replacement-list` may be empty, in which case instances of `identifier` will simply be removed. `#undef identifier` undefines macro `identifier` and is safe regardless of whether `identifier` is defined. instances of the `##` preprocessing token within a replacement list are deleted, concatenating the preceeding token with the following token; this process is called _token pasting_. within a function-like macro replacement list, a parameter preceeded by a `#` is replaced with a string literal containing the text of the argument; this process is sometimes called _stringisizing_. a `,` within a function-like macro invocation is always interpreted as a macro argument, meaning `LOG([1, 2, 3])` invokes `LOG` with arguments `[1`, `2` and `3]`
+
+`#ifdef`, `#ifndef`, `#if`, `#elif`, `#else` and `#endif` are used for conditional compilation. `#ifdef identifier` is equivalent to `#if defined identifier` which is equivalent to `#if defined(identifier)`. `#ifndef identifier` is equivalent to `#if !defined identifier` which is equivalent to `#if !defined(identifier)`. `#if` evaluates its expression and if it is nonzero, the following group of lines is compiled
+
+`#error message` issues a diagnostic message that includes `messsage` then terminates translation
+
+`#line line-number` sets the current line number to `line-number`. `#line line-number "filename"` sets the current line number to `line-number` and the current filename to `filename`
+
+`#pragma` is used to issue implementation-defined commands to the compiler. no diagnostic is issued for an unknown `#pragma` directive
+
+`#` (the _null directive_) is a no-op
+
+### predefined macros
+
+_predefined macros_ are macros implicitly defined by the [[c#preprocessor]]. they include, non-exhaustively:
+
+`__LINE__` expands to the current line number as an integer literal
+
+`__FILE__` expands to the name of the current file as a string literal
+
+`__DATE__` expands to the current date as a string literal in the form `Mmm dd yyyy`
+
+`__TIME__` expands to the current time as a string literal in the form `hh:mm:ss`
+
+`__STDC__` expands to `1` if the implementation conforms to the [[c]] standard

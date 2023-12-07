@@ -4,7 +4,7 @@
 
 **see** [[intellectual disability]]
 
-> **resource** _La Douance_ by Marianne Belanger, Psy. D., PH. D.
+> **resource** _La Douance_ by Marianne Belanger
 
 defining [[intellectual giftedness]] as a level of [[intelligence]] more than two [[standard deviation]]s above the [[mean]] is simplistic and misleading. [[iq]] tests only measure a subset of an individual's [[intelligence]], and their results are highly dependent on external factors affecting [[focus]] such as [[anxiety]] and stress, quality of [[sleep]], daily [[cognitive load]], and so on
 

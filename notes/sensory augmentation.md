@@ -2,8 +2,6 @@
 
 **see** [[umwelt]]
 
-_adding new senses to the human body in a non-intrusive manner_
-
 _feeding information into the [[brain]] via unusual sensory channels_
 
 as humans, we don't "miss" the world of smell a dog lives in as we have never experienced it. _we are firmly settled in our [[umwelt]]_
