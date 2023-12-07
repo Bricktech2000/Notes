@@ -31,3 +31,5 @@
 [[integrity]]
 
 [[proxy]], [[signal]]
+
+[[benign violation]]

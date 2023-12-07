@@ -2,9 +2,7 @@
 
 believing in the existence of a god seems to be a catch-all way for people to explain what they can't understand
 
-more generally, this could be phrased as:
-
-> belief in a higher power brings comfort by providing meaning to [[concept]]s people lack the [[intelligence]] or [[knowledge]] to rationally explain &mdash; me
+more generally, _belief in a higher power brings comfort by providing meaning to [[concept]]s people lack the [[intelligence]] or [[knowledge]] to rationally explain_ &mdash; me
 
 > **examples** _a higher power bringing comfort_
 >

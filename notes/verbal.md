@@ -22,26 +22,11 @@ _an association that any given word or phrase carries_ &mdash; me
 
 > **examples**
 >
-> - > we **expect** to achieve sales of [...]
->
->   > we **hope** to achieve sales of [...]
->
->   the former has a [[verbal#connotation]] of confidence whereas the latter does not
->
-> - > thank you for this **opportunity**, and **have** a great night
->
->   > thank you for **listening**, I **hope** you enjoyed
->
->   the latter has a [[verbal#connotation]] implying people stayed and listened out of politeness whereas the former does not &mdash; <https://youtu.be/Unzc731iCUY>
->
-> - > they **will** get it touch soon
->
->   > they **should** get it touch soon
->
->   the latter has a [[verbal#connotation]] of uncertainty whereas the latter does not &mdash; Hack the Hill#sponsorship
->
-> - > **when** we come to paint these windows, we will [...]
->
->   > **if** we come to paint these windows, we will [...]
->
->   the former has a [[verbal#connotation]] indicating the sale is already done whereas the latter does not &mdash; Student Works Operations Manual, 2023, p. 33
+> - _we **expect** to achieve sales of [...]_ &bull; _we **hope** to achieve sales of [...]_. the former has a [[verbal#connotation]] of confidence whereas the latter does not
+> - _thank you for this **opportunity**, and **have** a great night_ &bull; _thank you for **listening**, I **hope** you enjoyed_. the latter has a [[verbal#connotation]] implying people stayed and listened out of politeness whereas the former does not &mdash; <https://youtu.be/Unzc731iCUY>
+> - _they **will** get it touch soon_ &bull; _they **should** get it touch soon_. the latter has a [[verbal#connotation]] of uncertainty whereas the latter does not &mdash; Hack the Hill#sponsorship
+> - _**when** we come to paint these windows, we will [...]_ &bull; _**if** we come to paint these windows, we will [...]_. the former has a [[verbal#connotation]] which assumes the sale whereas the latter does not &mdash; _Student Works Operations Manual_ (2023) p. 33
+
+> **example** protagonists of the debate over abortion call themselves _pro-life_ and _pro-choice_. this is not a coincidence &mdash; who would want to be _anti-life_ or _anti-choice_? &mdash; _Petit cours d'autodéfense intellectuelle_ p. 25
+
+_euphemisms_ are a type of [[verbal#connotation]]; they are words or phrases that conceal an unpleasant or offensive truth

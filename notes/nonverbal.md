@@ -99,7 +99,7 @@ unique behavior observed in someone can sometimes be explained by a unique trait
 >
 > - direct and intense eye contact
 
-> **examples** _confort behavior_
+> **examples** _comfort behavior_
 >
 > - dilated pupils
 > - full lips

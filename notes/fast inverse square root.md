@@ -4,7 +4,7 @@
 
 the [[fast inverse square root]] is an [[algorithm]] that estimates **`-- \x/`** for a 32-bit [[ieee 754]] [[float]]ing-point number **`x`**
 
-**representation** _original implementation stripped of [[c]] preprocessor directives_
+**representation** _original implementation stripped of [[c#preprocessor]] directives_
 
 ```c
 float Q_rsqrt( float number )

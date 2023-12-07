@@ -147,7 +147,7 @@
 | `0x7C` &bull; `0b01111100` &bull; `'\|'`           | `'\|'`             |
 | `0x7D` &bull; `0b01111101` &bull; `'}'`            | `'}'`              |
 | `0x7E` &bull; `0b01111110` &bull; `'~'`            | `'~'`              |
-| `0x7F` &bull; `0b01111111` &bull; `DEL`            | `mod('&Psi;')`     |
+| `0x7F` &bull; `0b01111111` &bull; `DEL`            | `'&Psi;'`          |
 | `0x80` &bull; `0b10000000` &bull; `0x80 + NUL`     | `mod('&alpha;')`   |
 | `0x81` &bull; `0b10000001` &bull; `0x80 + SOH`     | `mod('&beta;')`    |
 | `0x82` &bull; `0b10000010` &bull; `0x80 + STX`     | `mod('&gamma;')`   |
