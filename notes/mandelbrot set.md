@@ -10,4 +10,4 @@
 
 &mdash; <https://en.wikipedia.org/wiki/Mandelbrot_set>
 
-> **note** the patterns that emerge from the [[mandlebrot set]] are unexpected and surprizingly beautiful, as if hard-coded into [[mathematics]] on purpose. yet, I would argue it is a coincidence that we find them beautiful; I would argue they just happen to tickle our [[brain]]'s visual cortex in a way we find pleasing
+> **note** the patterns that emerge from the [[mandelbrot set]] are unexpected and surprizingly beautiful, as if hard-coded into [[mathematics]] on purpose. yet, I would argue it is a coincidence that we find them beautiful; I would argue they just happen to tickle our [[brain]]'s visual cortex in a way we find pleasing

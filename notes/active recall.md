@@ -15,7 +15,7 @@ _actively [[learning]] by retrieving information from your brain_
 
 _recollection_ (retrieving information from memory) is often confused with _recognition_ (identifying information one has seen before). [[active recall]] is about recollection, not recognition &mdash; <https://youtu.be/RJKNtXgo39o?t=1081>
 
-> **proof** _recollection != recollection_ grab a magazine in your house you haven't looked at in a while. leaf through it and you will get the illusion of remembering virtually every advertisement and article. to prove that this is _recognition_ and not _recollection_, before you turn to the next page, try to predict what's on it. there's no way you're going to be right &mdash; <https://youtu.be/IlU-zDU6aQ0?t=2086>
+> **proof** _recollection &ne; recollection_ grab a magazine in your house you haven't looked at in a while. leaf through it and you will get the illusion of remembering virtually every advertisement and article. to prove that this is _recognition_ and not _recollection_, before you turn to the next page, try to predict what's on it. there's no way you're going to be right &mdash; <https://youtu.be/IlU-zDU6aQ0?t=2086>
 
 > **note** _personal theory on active recall_
 >

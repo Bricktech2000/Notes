@@ -33,4 +33,10 @@ monad transformer #todo <https://en.wikipedia.org/wiki/Monad_transformer>
 
 ## Laws
 
-monad laws #todo
+&mdash; <https://youtu.be/vhVG6sFeA58?t=3m50s>
+
+```haskell
+return x >>= f = f x -- left identity
+m >>= return = m -- right identity
+(m >>= f) >>= g = m >>= (\x -> f x >>= g) -- associativity
+```

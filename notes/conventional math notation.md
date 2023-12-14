@@ -26,7 +26,7 @@
 - $(a, b)$ is a GCD and a tuple and a [[vector]] and an [[interval]]
 - $\begin{pmatrix} a \\\ b \end{pmatrix}$ is a [[matrix]] and a [[vector]] and a [[set#combination]]
 - $f^{(n)}$ is repeated differentiation whereas $f^{n}$ is not
-- $f'$ is both a seperate variable name and a [[derivative]]
+- $f'$ is both a separate variable name and a [[derivative]]
 - $f(1, 2)$ is both $f(1.2)$ and $f(1; 2)$
 - $\sqrt{x^2 + 2x + 1}a$ can be mistaken in handwriting
 - $4 \equiv 1 \mod 3$ is awful notation

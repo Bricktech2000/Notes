@@ -1,6 +1,6 @@
 # Circular Reasoning
 
-**aka** _circular logic_, _begging the question_
+**aka** _circular logic_, _begging the question_, _petitio principii_
 
 **see** [[cognitive bias]], [[math notation]]
 

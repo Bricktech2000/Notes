@@ -15,8 +15,6 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 - HTML entities `&...;` are used for any non-[[ascii]] [[character]]s, such as &lambda; and &times; and &rarr;
 - all internal links are denoted using `[[note]]` and `![[image.png]]` [[wikilink]]s, and all external links are denoted using `<https://example.com/>`. bare URLs are to be avoided
 
-italics are used for informal and opinionated statements, and literal aoenuatosenuth #todo. [[trick]]s and personal definitions and to replace quotation marks
-
 ## headings
 
 - title[[case]] headings are for [[concept]]s that can be linked to using [[wikilink#anchor wikilink]]s and lowercease headings are for general titles
@@ -65,7 +63,7 @@ italics are used for informal and opinionated statements, and literal aoenuatose
 - box titles such as that of the [[conventions]] page are generated using <https://lingojam.com/BoldTextGenerator>
 - "lax" syntax and punctuation is used; that is,
   - the first word of a sentence is not capilatized
-  - full stops seperate sentences; they do not end them
+  - full stops separate sentences; they do not end them
 
 ## syntax used
 
