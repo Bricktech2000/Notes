@@ -1,7 +1,5 @@
 # Eigen
 
-#todo mm
-
 ## Space
 
 ## Vector
@@ -34,21 +32,13 @@ let **`MM^n,n A /\ NN n`**
 
 > **procedure** _finding [[eigen#value]]s_
 >
-> **`Ax = llx`**
+> **`:Ax = llx`**
 >
-> rewriting into a homogeneous [[linear system]]
->
-> **`Ax . llx = O`**
->
-> **`Ax . llIx = O`**
->
-> factoring out **`x`**
->
-> **`A . llI | x = O`**
+> **`O = :Ax . llx = :Ax . :(llI)x = :(A . llI)x = O`**
 >
 > the equation above is a homogeneous [[linear system]] where **`A . llI`** is the _coefficient matrix_
 >
-> recall that a homogeneous [[linear system]] can have either a unique solution (with **`x = O`**, which is not a valid [[eigen#vector]] as per the definition) or an infinite number of solutions (which we can achieve by picking the right values for **`ll`**). for a homogeneous [[linear system]] to have an infinite number of solutions, its coefficient matrix rows (and therefore columns) must be [[vector#linearly independent vector]]s, or the [[determinant]] of its coefficient matrix must be equal to **`0`**, or its coefficient matrix must be invertible, etc. (see [[matrix]])
+> recall that a homogeneous [[linear system]] can have either a unique solution (with **`x = O`**, which is not a valid [[eigen#vector]] as per the definition) or an infinite number of solutions (which we can achieve by picking the right values for **`ll`**). for a homogeneous [[linear system]] to have an infinite number of solutions, the [[determinant]] of its coefficient matrix must be equal to **`0`** (see [[matrix#theorems]])
 >
 > **`"det" (A . llI) = 0`** (this [[polynomial]] is known as the _[[characteristic polynomial]] of **`A`**_)
 >
@@ -64,7 +54,7 @@ let **`MM^n,n A /\ NN n`**
 
 > **procedure** _finding [[eigen#vector]]s_
 >
-> as **`A . llI | x = O`**, we get the following (see [[matrix#null space]]):
+> as **`:(A . llI)x = O`**, we get the following (see [[matrix#null space]]):
 >
 > **`E_ll = NN (A.llI)`**, where
 >
@@ -74,9 +64,9 @@ let **`MM^n,n A /\ NN n`**
 >
 > for **`ll = 3`**:
 >
-> **`A . 3I | x = O`**
+> **`:(A . 3I)x = O`**
 >
-> **`A . 3I | x = []1 & 2 && 2 & 1[] . []3 & 0 && 0 & 3[] | x = [].2 & 2 && 2 & .2[] | x = 0`**
+> **`:(A . 3I)x = :([]1 & 2 && 2 & 1[] . []3 & 0 && 0 & 3[])x = :[].2 & 2 && 2 & .2[]x = 0`**
 >
 > therefore, we can solve the following [[linear system]] using [[row reduction]]
 >
@@ -84,7 +74,7 @@ let **`MM^n,n A /\ NN n`**
 >
 > and we get:
 >
-> **`x = c(1, 1) -| RR c`**
+> **`x = c(1, 1) > RR c`**
 >
 > **`{{ (1, 1) }}`** is then a [[basis]] for the [[eigen#space]] **`E_3`** of **`A`**
 >
@@ -93,6 +83,8 @@ let **`MM^n,n A /\ NN n`**
 > for **`ll = .1`**, we get the [[basis]] **`{{ (1, .1) }}`** for the [[eigen#space]] **`E_.1`** of **`A`**
 
 **application**
+
+#todo mm
 
 _raising a matrix to a large power efficiently_
 

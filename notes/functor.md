@@ -16,8 +16,8 @@ a [[functor]]:
 # Laws
 
 ```haskell
-fmap id = id
-fmap (f . g) = fmap f . fmap g
+fmap id = id -- identity
+fmap (f . g) = fmap f . fmap g -- composition
 ```
 
 > **note** an intuitive reason for why the second law exists is that is allows the [[functor]] to work without having to "look inside" the [[category#object]]s it is mapping over &mdash; Justin Veilleux

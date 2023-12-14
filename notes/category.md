@@ -135,7 +135,7 @@ epimorphisms are [[category#morphism]]s that are surjective, see [[function#surj
 
 **notation** _in my [[math notation]]_ **`CC^A,A "id"_A`**
 
-### Identity Law
+[###](###) Identity Law
 
 for every [[category#object]] **`A`** there is an arrow which is a unit of [[composition]]. let **`CC^A,B f`**. then,
 

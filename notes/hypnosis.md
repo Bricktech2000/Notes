@@ -29,7 +29,7 @@ _meditation with utilization_
 
 > **procedure** _hypnotizing someone_
 >
-> **the** secret to hypnotizing someone is to convince them and their subconscious that the hypnotist has control over them &mdash; <https://youtu.be/tXIRq6LxYFk>
+> **the** secret to hypnotizing someone is convincing their mind that the hypnotist has control over them &mdash; <https://youtu.be/tXIRq6LxYFk>, through the [[power of belief]]
 >
 > common techniques include &mdash; with explanations:
 >

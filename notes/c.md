@@ -181,7 +181,7 @@ returning no value from a non-`void` [[function]] (through `return;` or through 
 
 ### tags
 
-tags are a special naming mechanism for `enum`, `struct`, and `union` types. they live in a seperate namespace than that of ordinary identifiers
+tags are a special naming mechanism for `enum`, `struct`, and `union` types. they live in a separate namespace than that of ordinary identifiers
 
 > **example** `struct s { }; struct s s;` is an object `s` of type `struct s`
 

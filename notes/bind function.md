@@ -29,7 +29,7 @@ let a [[function]] `f :: a -> M b`. then,
 - `bind` is the [[bind function]]
 - `fmap` is the [[map function]]
 
-&mdash; Simon
+&mdash; Simon and <https://youtu.be/3ynPUN64eTA?t=8m5s>
 
 **applications**
 

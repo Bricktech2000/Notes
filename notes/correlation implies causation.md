@@ -1,5 +1,7 @@
 # Correlation Implies Causation
 
+**aka** _post hoc ergo propter hoc_
+
 **definition** _correlation implies causation_ is a [[cognitive bias]] characterized by the belief that a correlation between two variables implies a cause-and-effect relationship between them &mdash; Wikipedia and me
 
 [[correlation implies causation]] is a _logical fallacy_ &mdash; <https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation>

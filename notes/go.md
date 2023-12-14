@@ -37,4 +37,4 @@ for the sake of [[confirmation bias]], let's end with a few cherry-picked quotes
 
 - _the [[go]] way is to half-ass things. the [[go]] way is to patch things up until they sorta kinda work, in the name of simplicity_ &mdash; <https://fasterthanli.me/articles/i-want-off-mr-golangs-wild-ride>
 - _[...] it becomes extremely hard to follow what any program is doing at a high level, because everywhere you look, you get bogged down in imperative code doing trivial data manipulation or error propagation_ &mdash; <https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang>
-- _the closest thing to a flexible iterator keyword is building a wrapper around you data structure that return a `chan` and then iterate over the `chan`, but that is slow, complicated, and bug-prone_ &mdash; <https://yager.io/programming/go.html>
+- _the closest thing to a flexible iterator keyword is building a wrapper around you data structure that returns a `chan` and then iterate over the `chan`, but that is slow, complicated, and bug-prone_ &mdash; <https://yager.io/programming/go.html>

@@ -961,9 +961,9 @@ $n \mapsto \sum_{k=1}^n \log k$
 
 ---
 
-[[regex]] to find/search something within a ``**`...`**`` math equation: ``\*\*`[^*]*...[^*]*`\*\*`` where `...` is the thing we're looking for
+[[regular expression]] to find/search something within a ``**`...`**`` math equation: ``\*\*`[^*]*...[^*]*`\*\*`` where `...` is the thing we're looking for
 
-``\(\*\*`[^*]\{-}\)\@<=\(||\|->\|\.\|\*\|{\|}\)\([^*]\{-}`\*\*\)\@=``
+for a more precise search: ``\(\*\*`[^*]\{-}\)\@<=\(...\)\([^*]\{-}`\*\*\)\@=``
 
 ---
 
@@ -1066,27 +1066,27 @@ $a'b$ $a`b$ $a | b$ $a \backslash b$
 
 **`ZZ^n x == NN x /\ x -| n.1`**
 
-**`ZZ^n = {0 ... n.1}`**
+**`ZZ^n = {{ 0 ... n.1 }}`**
 
 **`RR x < f x | g x = 0 == f'g = .0`**
 
-**`ab = 0 < 0 = {a /\ b}`** zero divisors
+**`ab = 0 < 0 = {a \/ b}`** zero divisors
 
-**`{A /\ 0+} a`** any non-zero element **`a`** from **`A`**
+**`(A /\ 0+) a`** any non-zero element **`a`** from **`A`**
 
 **`$ r. ttr = $ (tt') = r. ttr2-2`**
 
 $\int\ r. \tau r = \int\ (\tau') = r. \tau r2\text-2$
 
-**`$(.) = (|)`**
+**`${.} = {|}`**
 
-$\int(.) = (|)$
+$\int\braket{.} = \braket{|}$
 
 $\operatorname{\cdot\cdot} b : \lfloor b2 \operatorname{\cdot\cdot} 4ac \rfloor - 2a$
 
 search:
 
-``\(\*\*`[^*]\{-}\)\@<=\(||\|->\|\.\|\*\|{\|}\)\([^*]\{-}`\*\*\)\@=``
+``\(\*\*`[^*]\{-}\)\@<=\(||\|->\|\.\|\*\|{\|}\|:1\|PP\|\.\.\.\|__\|\^\^\)\([^*]\{-}`\*\*\)\@=``
 
 `||\|->\|\.\|\*`
 
@@ -1107,3 +1107,4 @@ todo tags to be added:
 - [[composition#identity]] notation #todo id
 - **`"abs"`** and **`"arg"`** notations #todo abs
 - [[function#inverse]] notation #todo inv
+- superscripts and subscripts #todo sup
