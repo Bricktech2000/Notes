@@ -26,9 +26,9 @@ in my opinion, [[java#auto boxing]] is a band-aid and [[java#wrapper]]s are a du
 
 [[java]] does **not** support operator overloading. [[java]] does **not** have [[first-class function]]s
 
-[[java]] does **not** allow the creation of generic [[array]]s `E[] a = new E[capacity]` where `E` is the generic [[type]]. `E[] = (E[]) Object[capacity]` is to be used instead, which will generate a compile-time a warning, which has to be suppressed using the decorator `@SuppressWarnings("unchecked")` &mdash; <https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java>
+[[java]] does **not** allow the creation of generic [[array]]s `E[] a = new E[capacity]` where `E` is the generic [[type]]. `E[] = (E[]) Object[capacity]` is to be used instead, which will generate a compile-time a warning, which may be suppressed using the decorator `@SuppressWarnings("unchecked")` &mdash; <https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java>
 
-[[java]] only has simplistic [[type]] inference, through the `var` keyword &mdash; <https://www.geeksforgeeks.org/var-keyword-in-java/>
+[[java]] has simplistic [[type]] inference, through the `var` keyword &mdash; <https://www.geeksforgeeks.org/var-keyword-in-java/>
 
 [[java]] [[array]]s are indexed by [[integer]]s, meaning no [[java]] [[array]] can hold more than **`2[31]`** elements
 
@@ -66,7 +66,7 @@ public class Account {
 
 ### `==` on references
 
-using the `==` [[operator]] on [[java#reference]]s compares their location in memory, which can be influenced by compiler [[optimization]]
+using the `==` [[operator]] on [[java#reference]]s compares memory locations, which can be influenced by compiler [[optimization]]
 
 > **example**
 >
@@ -136,7 +136,7 @@ using [[java#primitive]]s is almost always faster than using [[java#reference]]s
 
 **see** [[generic]]
 
-[[java#generic]]s are basically type casts to [[java]]'s [[type#top type]] (`Object`) (known as a _type erasure_) that are checked at compile time &mdash; <https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood>. consequently, collections cannot contain [[java#primitive]]s &mdash; <https://stackoverflow.com/questions/4594529/java-collections-why-no-primitive-types>
+[[java#generic]]s are basically compile-time-checked type casts to [[java]]'s [[type#top type]] `Object`, a process known as _type erasure_ &mdash; <https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood>. consequently, collections may not contain [[java#primitive]]s &mdash; <https://stackoverflow.com/questions/4594529/java-collections-why-no-primitive-types>
 
 ### Primitive
 
@@ -159,7 +159,7 @@ using [[java#primitive]]s is almost always faster than using [[java#reference]]s
 
 ### Reference
 
-[[java#reference]] types are stored in the heap; pointers to [[java#reference]] types are stored on the [[stack]]
+[[java#reference]] types are stored on the heap; pointers to [[java#reference]] types are stored on the [[stack]]
 
 despite [[java]] being a managed language, memory leaks can still occur if references to [[object]]s are not explicitly deleted
 

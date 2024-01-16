@@ -1,6 +1,6 @@
 # Correlation Implies Causation
 
-**aka** _post hoc ergo propter hoc_
+**aka** _post hoc ergo propter hoc_, _false cause_
 
 **definition** _correlation implies causation_ is a [[cognitive bias]] characterized by the belief that a correlation between two variables implies a cause-and-effect relationship between them &mdash; Wikipedia and me
 

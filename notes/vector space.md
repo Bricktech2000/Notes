@@ -41,7 +41,7 @@ _closure under multiplication by a [[scalar]]_ **`V (c | u)`**
 
 _zero vector_ **`V O /\ O : u = u`**
 
-_inverse_ **`V (.u) /\ u : .u = O`**
+_inverse_ **`V .u /\ u : .u = O`**
 
 _identity_ **`1u = u`**
 
@@ -69,11 +69,17 @@ let **`V {{v_0 ... v_m}}`**. if **`U = "span" {{v_0 ... v_m}}`**, then **`/\ U -
 
 ## Isomorphism
 
-_Iso-Morphic &mdash; Same Shape_
+**see** [[morphism#isomorphism]]
 
-**see** [[category]], [[category theory]]
+a [[vector space#isomorphism]] is an invertible [[linear transformation]]; see [[vector space#homomorphism]]
 
 > **example** **`RR^3`** and **`PP^2`** are isomorphic, as any vector in **`RR^3`** can be converted to a unique vector in **`PP^2`**, and vice-versa, see [[category]]
+
+## Homomorphism
+
+**see** [[morphism#homomorphism]]
+
+a [[vector space#homomorphism]] is a [[linear transformation]]
 
 ## Dimension
 

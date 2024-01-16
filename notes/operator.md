@@ -32,6 +32,8 @@
 
 [[outer product]]
 
+[[composition]]
+
 #todo fix notation for the following operators
 
 [[cross product]]

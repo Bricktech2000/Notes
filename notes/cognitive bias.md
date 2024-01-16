@@ -8,6 +8,8 @@ _a systematic pattern of deviation from norm or rationality in judgment_
 
 &mdash; _Petit cours d'autodéfense intellectuelle_, 1.2.2
 
+&mdash; <https://youtu.be/VZbYecAkGo0>
+
 **see** [[subconscious manipulation]]
 
 **types**

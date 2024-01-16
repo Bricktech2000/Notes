@@ -18,9 +18,7 @@
 > # naive solution that recomputes the same subproblems several times
 >
 > def fib(n):
->   if n <= 1:
->     return n
->   return fib(n-1) + fib(n-2)
+>   return n if n <= 1 else fib(n-1) + fib(n-2)
 > ```
 >
 > ```python
@@ -30,7 +28,5 @@
 >
 > @lru_cache(maxsize=None)
 > def fib(n):
->   if n <= 1:
->     return n
->   return fib(n-1) + fib(n-2)
+>   return n if n <= 1 else fib(n-1) + fib(n-2)
 > ```

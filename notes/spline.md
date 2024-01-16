@@ -4,7 +4,7 @@
 
 **see** [[math notation]], [[curve]]
 
-**definition** a _spline_ is a [[function]] that transforms a [[list]] of control points into a [[function#piecewise function]] [[polynomial]] [[curve]] with a set of promises about continuity &mdash; <https://youtu.be/jvPPXbo87ds?t=654>
+**definition** a _spline_ is a [[function]] that transforms a [[list]] of control points into a piecewise [[polynomial]] [[curve]] with a set of promises about continuity &mdash; <https://youtu.be/jvPPXbo87ds?t=654>
 
 **definition** _control points_ are the [[euclidean vector]]s that define the shape of a [[spline]]
 

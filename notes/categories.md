@@ -108,6 +108,8 @@
 
 [[halting problem]]
 
+[[morphism]]
+
 ## finance
 
 [[education]] system issues
