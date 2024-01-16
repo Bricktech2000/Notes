@@ -8,7 +8,7 @@ _starts from the top symbol and builds an [[abstract syntax tree]] through [[rec
 
 ## Combinator
 
-_a [[function#higher-order function]] that combines [[parser]]s_
+_a higher-order [[function]] that combines [[parser]]s_
 
 > **example**
 >
@@ -21,7 +21,7 @@ _a [[function#higher-order function]] that combines [[parser]]s_
 > char c (x:xs) | c == x = Right (c, xs)
 > char c _ = Left "no match"
 >
-> -- `many` would be a parser combinator
+> -- `many` is a parser combinator
 > whitespaces :: Parser String
 > whitespaces = many (char ' ')
 > ```

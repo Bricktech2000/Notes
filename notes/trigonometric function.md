@@ -50,8 +50,6 @@ _[[function#odd function]]_ **`"tan" .aa = ."tan" aa`**
 
 ## inverses
 
-**see** [[function#inverse]]
-
 **definitions**
 
 **`y = "sin" x == x = {"asin" y \/ ."asin" y : -2tt} : ttn /\ ZZ n`**
@@ -64,15 +62,13 @@ _[[function#odd function]]_ **`"tan" .aa = ."tan" aa`**
 
 [[improved expression evaluation]] superposition #think
 
-_[[function#multivalued function]]_ **`"asin" x = "asin" x : tt = ."asin" (.x)`**
+_[[function#multivalued function]]_ **`"asin" x = "asin" x : tt = ."asin" .x`**
 
 _[[function#multivalued function]]_ **`"acos" x = "acos" x : tt = ."acos" x`**
 
 _[[function#multivalued function]]_ **`"atan" x = "atan" x : -2tt = ."atan" x`**
 
 ## reciprocals
-
-**see** [[function#reciprocal]]
 
 _cosecant_ **`-"sin" aa`**
 

@@ -15,7 +15,7 @@ this is a life-threatening condition, with many patients never reaching adulthoo
 
 _doctors say Roberto will be wheelchair-bound by the age of 10 &mdash; a result of the wear and tear he does to his own body every day_ &mdash; <https://youtu.be/m5B20VvzWqA?t=215>
 
-## &mdash;
+### &mdash;
 
 &mdash; <https://en.wikipedia.org/wiki/Congenital_insensitivity_to_pain_with_anhidrosis>
 

@@ -39,5 +39,5 @@ notice that many [[tool]]s match one of the following _scopes_
 > - Obsidian lacks file access control. but file access control is a solved problem; Nextcloud and ownCloud are great at it
 > - Obsidian has a paid [[markdown]]-to-web service &mdash; but [[markdown]]-to-web is a solved problem; mkdocs and hugo are great at it
 > - Obsidian lacks support for team collaboration &mdash; but team collaboration is a solved problem; Git and GitHub are great at it
-> - Obsidian is good at text manipulation &mdash; but text manipulation is a solved problem; [[vim]] bindings are great at it
+> - Obsidian is good at text manipulation &mdash; but text manipulation is a solved problem; [[vim#bindings]] are great at it
 > - Obsidian is phenomenal for linking &mdash; but linking is a solved problem; [[markdown]] and [[wikilink]]s are great at it

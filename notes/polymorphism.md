@@ -12,7 +12,9 @@ _[[trait]]s, type classes_
 
 _[[operator]] overloading, [[generic]]s_
 
-**definition** _paraametric polymorphism_ allows a [[function]] to be written generally so that it can handle values uniformly regardless of their [[type]]
+**definition** _parametric polymorphism_ allows a [[function]] to be written generally so that it can handle values uniformly regardless of their [[type]]
+
+a [[function]] is said to be _parametrically polymorphic_ if it is possible to replace the [[type]] of its input with a different [[type]] without having any effect on its behavior. such [[function]]s can be implemented with the same "formula" for any [[type]]. &mdash; <https://youtu.be/aIOMRqiwziM?t=540>
 
 ## Subtype Polymorphism
 

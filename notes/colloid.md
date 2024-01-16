@@ -6,7 +6,7 @@
 
 > **examples**
 >
-> - milk &madsh; liquid dispersed in liquid
+> - milk &mdash; liquid dispersed in liquid
 > - fog &mdash; liquid dispersed in gas
 > - smoke &mdash; solid dispersed in gas
 > - aerogel &mdash; gas dispersed in solid

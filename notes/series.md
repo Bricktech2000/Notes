@@ -197,6 +197,8 @@ a power [[series]] centered at **`a`** is of the following form:
 
 > **note** the definition above assumes **`[0]0 = 1`**, see [[improved expression evaluation]]
 
+a [[series#power series]] is a [[linear combination]] of the [[vector]]s of the [[basis#ordered basis]] **`n -> [x.a]n`**, forming a [[function#vector space]] isomorphic to the [[euclidean vector#vector space]] &mdash; <https://youtu.be/dn0SSkgCiII?t=9m28s>
+
 **definition** the _radius of convergence_ of a [[series#power series]] is the [[distance]] between its center and the endpoints of its _interval of convergence_. it can be computed using the _ratio test_
 
 **definition** the _interval of convergence_ of a [[series#power series]] is the [[interval]] if input values for which the power series converges. it can be computed using the _ratio test_. note that the convergence at the [[interval]] endpoints will have to be checked separately

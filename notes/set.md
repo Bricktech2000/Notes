@@ -94,9 +94,7 @@ both the [[set#subset]] and the [[set#superset]] form a [[partial order]]
 
 ## Isomorphism
 
-#todo **equivalence**
-
-**see** [[category]], [[category theory]]
+**see** [[morphism#isomorphism]]
 
 two [[set]]s are isomorphic if they contain the same elements "labeled" in different ways
 
