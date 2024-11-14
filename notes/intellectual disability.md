@@ -4,4 +4,6 @@
 
 **aka** _mental retardation (formerly), general learning disability (UK)_
 
-**definition** an _intellectually disabled_ individual can be defined as a person with a level of [[intelligence]] more than two [[standard deviation]]s below the [[mean]] &mdash; me
+&mdash; <https://en.wikipedia.org/wiki/Intellectual_disability>
+
+persons with [[intellectual disability]] typically have an [[iq]] more than two [[standard deviation]]s below the [[mean]]

@@ -18,4 +18,4 @@ computer graphics
 
 [[software engineering]]
 
-[[digital system]]s, [[logic circuit]]s (hardware)
+[[digital system]]s, [[logic circuit]]s, hardware

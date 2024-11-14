@@ -6,7 +6,11 @@
 
 &mdash; <https://english.stackexchange.com/questions/100576/whats-the-difference-between-just-and-fair>
 
-it seems that _equality_ can mean both _equality of process_ and _equality of outcome_ &mdash; me; assuming an inequal starting point, they are mutually exclusive. it could be argued that the former is _fair_ while the latter is _just_. consequently, a unjust outcome does not imply an unfair process and a fair process does not imply a just outcome
+[[equality]] may be taken to refer to _fairness_ or to _justice_ &mdash; me. _fairness_ treats people identically, regardless of circumstances, while _justice_ treats people differently, owing to circumstances
+
+> **example** a family rations food. a _fair_ parent gives each child the same amount of food, impartially and free of bias. a _just_ parent gives more food to the hungrier or bigger child, so as to best satisfy the needs of each child
+
+additionally, [[equality]] can mean both _equality of process_ and _equality of outcome_ &mdash; me; assuming an inequal starting point, they are mutually exclusive. consequently, a inequal outcome does not imply an inequal process and an equal process does not imply an equal outcome
 
 > **example** it can be argued that gender is a [[proxy]] to a myriad of characteristics that cause more men than women to be CEOs; it is an exmple of _outcome in[[equality]]_ but is not a proof of _process in[[equality]]_. moreover, _process [[equality]]_ would not guarantee _outcome [[equality]]_ because of fundamental intrinsic differences between the genders &mdash; me and <https://youtu.be/aMcjxSThD54?t=331> and <https://youtu.be/aMcjxSThD54?t=725>
 

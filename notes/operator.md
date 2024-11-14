@@ -4,7 +4,7 @@
 
 **see**
 
-[[boolean algebra#operators]]
+[[boolean#operators]]
 
 [[math notation]]
 

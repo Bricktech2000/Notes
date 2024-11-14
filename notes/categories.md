@@ -1,14 +1,14 @@
-# 🅲🅰🆃🅴🅶🅾🆁🅸🅴🆂
+# Categories
 
 ## body
 
-[[sleep]], [[insomnia]]
+[[sleep]]
+
+[[insomnia]]
 
 ## intel
 
 [[combination lock]]
-
-[[religion]]
 
 [[curve fitting]]
 
@@ -26,13 +26,15 @@
 
 [[power of belief]]
 
+[[quine]]
+
+[[projection]]
+
 ## zilch
 
 [[improved expression evaluation]]
 
 [[control over convenience]]
-
-[[rule overrule]]
 
 [[nested conversation structure]]
 
@@ -63,8 +65,6 @@
 [[refactoring to immutability]]
 
 [[shor's algorithm]]
-
-[[verifiable random function]]
 
 [[hadamard product]]
 
@@ -109,6 +109,8 @@
 [[halting problem]]
 
 [[morphism]]
+
+[[unicode]]
 
 ## finance
 
@@ -171,3 +173,11 @@
 [[invent]]
 
 [[discover]]
+
+[[reversal cipher]]
+
+[[matrix factorization]]
+
+[[under]]
+
+[[hallucination]]

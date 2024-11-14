@@ -26,13 +26,13 @@ _equality_ **`a : bii = c : dii == a = c /\ b = d`**
 
 _addition_ **`(a : bii) : (c : dii) = (a : c) : (b : d)ii`**
 
-_subtraction_ **`(a : bii) . (c : dii) = (a . c) : (b . d)ii`**
+_subtraction_ **`(a : bii) .. (c : dii) = (a .. c) : (b .. d)ii`**
 
-_multiplication in cartesian form_ **`a : bii | c : dii = ac : adii : bii c : bdii2 = (ac . bd) : (ad : bc)ii`**
+_multiplication in cartesian form_ **`a : bii | c : dii = ac : adii : bii c : bdii2 = (ac .. bd) : (ad : bc)ii`**
 
 _multiplication in polar form_ **`z | w = "abs" z | [ii"arg" z] | "abs" w | [ii"arg" w] = "abs" zw | [ii | "arg" z : "arg" w]`**
 
-_product of two [[complex#conjugate]]s are product of [[complex#modulus]]es_ **`a : bii | a . bii = a2 : b2 = "abs" (a : bii) | "abs" (a . bii)`** &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
+_product of two [[complex#conjugate]]s are product of [[complex#modulus]]es_ **`a : bii | a .. bii = a2 : b2 = "abs" (a : bii) | "abs" (a .. bii)`** &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
 
 **theorem** _De Moivre's Theorem_ **`["cis" aa]n = "cis" naa > ZZ n > RR aa`** &mdash; <https://en.wikipedia.org/wiki/De_Moivre%27s_formula>
 
@@ -46,11 +46,11 @@ let **`z = a : bii`**
 
 **definitions**
 
-_real part of a complex number_ **`z^re = a`**
+_real part of a complex number_ **`"re" z = a`**
 
-_imaginary part of a complex number_ **`z^im = b`**
+_imaginary part of a complex number_ **`"im" z = b`**
 
-therefore, **`z = z^re : iiz^im`**
+therefore, **`z = ("re" : ii"im") z`**
 
 ## Conjugate
 
@@ -58,33 +58,33 @@ _[[complex#conjugate]]_
 
 **definition**
 
-**`("re".ii"im") z`** is the _complex conjugate_ of **`z`**
+**`"conj" z == ("re..ii"im")`** is the _complex conjugate_ of **`z`**
 
 **properties**
 
 let **`CC {z /\ w} /\ RR c`**
 
-**`("re".ii"im") (z : w) = ("re".ii"im") z : ("re".ii"im") w`**
+**`"conj" (z : w) = "conj" z : "conj" w`**
 
-**`("re".ii"im") cz = c("re".ii"im") z`**
+**`"conj" cz = c"conj" z`**
 
-**`("re".ii"im") z'w = ("re".ii"im") z | ("re".ii"im") w`**
+**`"conj" z'w = "conj" z | "conj" w`**
 
-**`("re".ii"im") z-w = ("re".ii"im") z -- ("re".ii"im") w`**
+**`"conj" z-w = "conj" z -- "conj" w`**
 
-**`("re".ii"im") ("re".ii"im") z = z`**
+_[[function#self-inverse function]]_ **`"conj"2 z = z`**
 
-**`RR z == ("re".ii"im") z = z`**
+**`RR z == "conj" z = z`**
 
-**theorem** **`z("re".ii"im") z = ["abs" z]2 > CC z`**
+**theorem** **`z"conj" z = ["abs" z]2 > CC z`**
 
-**theorem** **`--z = ("re".ii"im") z -- ["abs" z]2 > CC z`**
+**theorem** **`--z = "conj" z -- ["abs" z]2 > CC z`**
 
 ## Modulus
 
 **aka** _magnitude, absolute value_
 
-**definition** **`"abs" z = \z^re 2 : z^im 2/`** where **`"abs" z`** is the _absolute value_ of **`z`**.
+**definition** **`"abs" z = "abs" ("re" z, "im" z)`** where **`"abs" z`** is the _absolute value_ of **`z`**.
 
 > **note** the [[real#absolute value]] can be thought of as "the [[distance]] of a point to the origin", which is why the absolute value of [[complex]] numbers is defined this way
 
@@ -92,13 +92,13 @@ let **`CC {z /\ w} /\ RR c`**
 
 let **`CC {z /\ w} /\ RR c`**
 
-**`"abs" z = "abs" ("re".ii"im") z`**
+**`"abs" z = "abs""conj" z`**
 
 **`"abs" zw = "abs" z | "abs" w`**
 
 **`"abs" z-w = "abs" z -- "abs" w`**
 
-_triangle inequality_ **`"abs" (z : w) -| "abs" z : "abs" w`**
+_triangle inequality_ **`"abs" (z : w) -| "abs" {z : w}`**
 
 **equiv** _triangle inequality with [[relation#transitive relation]]_
 
@@ -106,7 +106,7 @@ _triangle inequality_ **`"abs" (z : w) -| "abs" z : "abs" w`**
 
 **aka** _phase_
 
-**definition** the _argument_ of a [[complex]] number **`z`** is the counterclockwise [[angle]] between the positive [[real]] axis and the [[line]] segment from the origin to the point **`(z^re , z^im)`**
+**definition** the _argument_ of a [[complex]] number **`z`** is the counterclockwise [[angle]] between the positive [[real]] axis and the [[line]] segment from the origin to the point **`("re" z, "im" z)`**
 
 **definition** **`z = "abs" z | [ii"arg" z]`** where **`"arg" z`** is the _argument_ of **`z`**
 
@@ -118,8 +118,8 @@ geometrically, multiplying a [[complex]] number **`z`** by a [[complex]] number 
 
 ## square root of **`ii`**
 
-**`\ii/ = { 1 : ii -- \2/ \/ 1 : ii -- . \2/ }`**
+**`\ii/ = { 1 : ii -- \2/ \/ 1 : ii -- .. \2/ }`**
 
 > **proof** &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
 
-[[complex#multiplication]] by **`ii`** is equivalent to a rotation by **`"arg" ii`**, or **`-4tt "rad"`**. the square root of **`ii`** is a number **`x`** such that **`x | x = ii`**, which can be thought of as a rotation by either **`-8tt "rad"`** or **`5-8tt "rad"`**, which are equivalent to **`1 : ii -- \2/`** or **`1 : ii -- . \2/`** respectively. this is because a right-angle triangle with hypotenuse **`1`** and angles **`-8tt "rad"`** has side lengths **`\2/`** &mdash; me
+[[complex#multiplication]] by **`ii`** is equivalent to a rotation by **`"arg" ii`**, or **`-4tt"rad"`**. the square root of **`ii`** is a number **`x`** such that **`x | x = ii`**, which can be thought of as a rotation by either **`-8tt"rad"`** or **`5-8tt"rad"`**, which are equivalent to **`1 : ii -- \2/`** or **`1 : ii -- .. \2/`** respectively. this is because a right-angle triangle with hypotenuse **`1`** and angles **`-8tt"rad"`** has side lengths **`\2/`** &mdash; me

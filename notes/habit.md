@@ -18,7 +18,7 @@ _good habits_ are [[invest]]ments that compound over [[time]]. they seem to make
 
 _the [[habit#loop]]_
 
-habits can be broken down into their four component parts, called the _habit loop_:
+habits can be broken down into their four component parts, forming the so-called _habit loop_:
 
 1. cue &mdash; make it obvious or invisible
 2. craving &mdash; make it attractive or unattractive

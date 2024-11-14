@@ -1,4 +1,4 @@
-## Base256
+# Base256
 
 &mdash; me
 
@@ -6,7 +6,7 @@
 
 [[base256]] is a binary-to-text encoding scheme. it encodes 8-bit bytes into single characters in such a way that printable [[ascii]] data is represented one-to-one and that the output can be decoded manually if necessary
 
-[[base256]] is meant to be used to losslessly and compatcly store arbitrary data on sheets of paper as a ridiculously future-proof backup medium. it is fast and cheap to produce, and can be read by humans and machines alike
+[[base256]] is meant to be used to losslessly and compatcly store arbitrary data on sheets of paper as a ridiculously future-proof backup medium
 
 > **example** the [[utf-8]] [[string]] <code>"did you know that &tau; > &pi;?\n"</code>, which is [[hexadecimal]] `64 69 64 20 79 6f 75 20 6b 6e 6f 77 20 74 68 61 74 20 cf 84 20 3e 20 cf 80 3f 0a`, is equivalent to <code>"did&#x2E31;you&#x2E31;know&#x2E31;that&#x2E31;<u>O&epsilon;</u>&#x2E31;&gt;&#x2E31;<u>O&alpha;</u>?&#x25FE;"</code> encoded in [[base256]]. see [[tau]]
 
@@ -244,7 +244,7 @@
 | `0xDD` &bull; `0b11011101` &bull; `0x80 + ']'`     | `mod(']')`         |
 | `0xDE` &bull; `0b11011110` &bull; `0x80 + '^'`     | `mod('^')`         |
 | `0xDF` &bull; `0b11011111` &bull; `0x80 + '_'`     | `mod('_')`         |
-| `0xE0` &bull; `0b11100000` &bull; `0x80 + '`' ``   | ``mod('`') ``      |
+| `0xE0` &bull; `0b11100000` &bull; ``0x80 + '`'``   | ``mod('`')``       |
 | `0xE1` &bull; `0b11100001` &bull; `0x80 + 'a'`     | `mod('a')`         |
 | `0xE2` &bull; `0b11100010` &bull; `0x80 + 'b'`     | `mod('b')`         |
 | `0xE3` &bull; `0b11100011` &bull; `0x80 + 'c'`     | `mod('c')`         |

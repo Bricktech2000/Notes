@@ -20,7 +20,7 @@ let **`MM^n,n A /\ NN n`**
 
 **theorem** all [[eigen#vector]]s together with the zero [[vector]] form a [[vector space]]
 
-**theorem** the [[characteristic polynomial]] **`"det" (A . llI)`** is a [[polynomial]] of degree **`n`**, meaning it has at most **`n`** distinct [[function#root]]s by the [[fundamental theorem of algebra]]
+**theorem** the [[characteristic polynomial]] **`"det" (A..llI)`** is a [[polynomial]] of degree **`n`**, meaning it has at most **`n`** distinct [[function#root]]s by the [[fundamental theorem of algebra]]
 
 **theorem** **`A`** has at most **`n`** distinct [[eigen#value]]s
 
@@ -34,29 +34,29 @@ let **`MM^n,n A /\ NN n`**
 >
 > **`:Ax = llx`**
 >
-> **`O = :Ax . llx = :Ax . :(llI)x = :(A . llI)x = O`**
+> **`O = :Ax..llx = :Ax..:(llI)x = :(A..llI)x = O`**
 >
-> the equation above is a homogeneous [[linear system]] where **`A . llI`** is the _coefficient matrix_
+> the equation above is a homogeneous [[linear system]] where **`A..llI`** is the _coefficient matrix_
 >
 > recall that a homogeneous [[linear system]] can have either a unique solution (with **`x = O`**, which is not a valid [[eigen#vector]] as per the definition) or an infinite number of solutions (which we can achieve by picking the right values for **`ll`**). for a homogeneous [[linear system]] to have an infinite number of solutions, the [[determinant]] of its coefficient matrix must be equal to **`0`** (see [[matrix#theorems]])
 >
-> **`"det" (A . llI) = 0`** (this [[polynomial]] is known as the _[[characteristic polynomial]] of **`A`**_)
+> **`"det" (A..llI) = 0`** (this [[polynomial]] is known as the _[[characteristic polynomial]] of **`A`**_)
 >
 > solving...
 >
 > _using **`A = []1 & 2 && 2 & 1[]`** as an example_
 >
-> **`A . llI = []1 & 2 && 2 & 1[] . ll[]1 & 0 && 0 & 1[] = []1 .ll & 2 && 2 & 1 . ll[]`**
+> **`A..llI = []1 & 2 && 2 & 1[] .. ll[]1 & 0 && 0 & 1[] = []1 ..ll & 2 && 2 & 1 ..ll[]`**
 >
-> **`"det" (A . llI) = 0 = [1 . ll]2 . 4 = 1 . ll : 2 | 1 . ll . 2 = 3 . ll | . 1 . ll = 0`**
+> **`"det" (A..llI) = 0 = [1 .. ll]2 .. 4 = 1 .. ll : 2 | 1 .. ll .. 2 = 3 .. ll | ..1 .. ll = 0`**
 >
-> **`ll = {3 \/ .1}`** are the [[eigen#value]]s of **`A`**
+> **`ll = {3 \/ ..1}`** are the [[eigen#value]]s of **`A`**
 
 > **procedure** _finding [[eigen#vector]]s_
 >
-> as **`:(A . llI)x = O`**, we get the following (see [[matrix#null space]]):
+> as **`:(A..llI)x = O`**, we get the following (see [[matrix#null space]]):
 >
-> **`E_ll = NN (A.llI)`**, where
+> **`E_ll = NN (A..llI)`**, where
 >
 > **`E_ll`** is the _[[eigen#space]]_ of **`A`** corresponding to the [[eigen#value]] **`ll`** (this [[vector space]] is called the &lambda;-[[eigen#space]] of **`A`**)
 >
@@ -64,13 +64,13 @@ let **`MM^n,n A /\ NN n`**
 >
 > for **`ll = 3`**:
 >
-> **`:(A . 3I)x = O`**
+> **`:(A..3I)x = O`**
 >
-> **`:(A . 3I)x = :([]1 & 2 && 2 & 1[] . []3 & 0 && 0 & 3[])x = :[].2 & 2 && 2 & .2[]x = 0`**
+> **`:(A..3I)x = :([]1 & 2 && 2 & 1[] .. []3 & 0 && 0 & 3[])x = :[]..2 & 2 && 2 & ..2[]x = 0`**
 >
 > therefore, we can solve the following [[linear system]] using [[row reduction]]
 >
-> **`[].2 & 2 & || & 0 && 2 & .2 & || & 0[]`**
+> **`[]..2 & 2 & || & 0 && 2 & ..2 & || & 0[]`**
 >
 > and we get:
 >
@@ -80,7 +80,7 @@ let **`MM^n,n A /\ NN n`**
 >
 > > **note** the general solution of the homogenous [[linear system]] will always be a [[basis]] as the resulting [[vector]]s will always be [[vector#linearly independent vector]]s, see [[matrix#null space]] for more information
 >
-> for **`ll = .1`**, we get the [[basis]] **`{{ (1, .1) }}`** for the [[eigen#space]] **`E_.1`** of **`A`**
+> for **`ll = ..1`**, we get the [[basis]] **`{{ (1, ..1) }}`** for the [[eigen#space]] **`E_..1`** of **`A`**
 
 **application**
 
@@ -119,7 +119,7 @@ computing **`[A]p = P[][ll_0]p & 0 & 0 && 0 & [ll_1]p & 0 && 0 & 0 & [ll_2]p[]P^
 
 **theorem** let **`ll`** be an [[eigen#value]] of **`A`**. then, **`1 -| "geometric multiplicity of" ll -| "algebraic multiplicity of" ll`**
 
-> **example** the [[characteristic polynomial]] of **`[]2 & 4 & .3 && 0 & 3 & 5 && 0 & 0 & 3[]`** is **`2 . ll | [3 . ll]2`**. its [[eigen#value]]s are **`ll = 2`** and **`ll = 3`**. the algebraic [[eigen#multiplicity]] of **`ll = 2`** is **`1`** and the algebraic [[eigen#multiplicity]] of **`ll = 3`** is **`2`**.
+> **example** the [[characteristic polynomial]] of **`[]2 & 4 & ..3 && 0 & 3 & 5 && 0 & 0 & 3[]`** is **`2 .. ll | [3 .. ll]2`**. its [[eigen#value]]s are **`ll = 2`** and **`ll = 3`**. the algebraic [[eigen#multiplicity]] of **`ll = 2`** is **`1`** and the algebraic [[eigen#multiplicity]] of **`ll = 3`** is **`2`**.
 
 **applications**
 

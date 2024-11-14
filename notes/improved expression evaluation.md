@@ -139,7 +139,7 @@ I could not break this [[improved expression evaluation]]. it would be very hard
 
 ### current rules
 
-might be incomplete or erroneous #think
+#xxx might be incomplete or erroneous
 
 **`qq -> 0`**
 
@@ -169,7 +169,7 @@ might be incomplete or erroneous #think
 
 **`$ f -> @`**
 
-in a [[proof]], equalities must be linked together through the intended [[boolean algebra#implication]]s. this means that multiplying or dividing an equality by an expresion that could be **`0`** or raising it to some power could require additional restrictions.
+in a [[proof]], equalities must be linked together through the intended [[boolean#implication]]s. this means that multiplying or dividing an equality by an expresion that could be **`0`** or raising it to some power could require additional restrictions.
 
 if the result of an expression is _undefined_, then the expression must be rearranged first in order to avoid the undefined value. note that some expressions (such as **`--0`**) cannot be computed without proper context, leaving them undefined.
 
@@ -187,6 +187,6 @@ if the result of an expression is _undefined_, then the expression must be rearr
 
 &mdash; <https://en.wikipedia.org/wiki/Natural_logarithm#Properties>
 
-[[trigonometric function]] period #think
+[[trigonometric function]] period #xxx
 
 #todo is <https://ncatlab.org/nlab/show/wheel> related here? &mdash; <https://whystartat.xyz/wiki/Unary_division> &mdash; Justin Veilleux

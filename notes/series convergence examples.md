@@ -1,6 +1,6 @@
 # Series Convergence Examples
 
-#example
+#example, see backlink
 
 let **`p^i`** be the **`i`**th [[prime]] number. then, the [[series]] **`:-p`** diverges
 

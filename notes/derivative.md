@@ -4,7 +4,7 @@
 
 **definition** _in my [[math notation]]_
 
-**`dd f x -- dd x = f (x : h) . f x -- h {h -> 0} = f x . f a -- x . a {x -> a}`**
+**`dd f a = f {x:h..x} -- h {h -> 0} = f {x..a} -- x..a {x -> a}`**
 
 **notations**
 
@@ -22,11 +22,13 @@ $\frac{d^n}{dx^n} = \frac{d^nf}{dx^n}$
 
 _in my [[math notation]]_
 
-**`dd f x -- dd x`**, see [[calculus notation]]
+**`dd f`**, see [[calculus notation]]
 
-**`d^n f = d^n.1 (x -> dd f x -- dd x) /\ d^0 f = f`**
+**`{dd}n f`** is the **`n`**th [[derivative]] of **`f`**
 
-**`d^n f`** would then be the **`n`**th [[derivative]] of **`f x`** with respect to **`x`**
+**properties**
+
+the [[eigen#vector]]s of the [[derivative]] [[operator]] are **`x. [llx]`** with [[eigen#value]]s **`ll`** &mdash; <https://youtu.be/M35iuFAxQxY?t=18m8s>
 
 ## Directional Derivative
 
@@ -36,17 +38,17 @@ _in my [[math notation]]_
 
 let **`f`** be a [[function]] differentiable at **`p = (x ...)`** and let **`v`** be a **[[euclidean vector#unit vector]]**. then,
 
-**`D^v f p = :v(dd f p -- dd p)`**, where
+**`D^v f p = :v(dd f p)`**, where
 
 - **`D^v f p`** is the [[derivative]] of **`f`** in direction **`v`** at **`p`**
-- **`dd f p -- dd p`** is the [[gradient]] of **`f`** at **`p`**
+- **`dd f p`** is the [[gradient]] of **`f`** at **`p`**
 - **`v`** is the direction [[euclidean vector]], see [[dot product]]
 
 > **examples**
 >
-> **`D^1,0 f (x, y) = dd f (x, y) -- dd x`**
+> **`D^1,0 f (x, y) = dd x. f (x, y)`**
 >
-> **`D^0,1 f (x, y) = dd f (x, y) -- dd y`**
+> **`D^0,1 f (x, y) = dd y. f (x, y)`**
 
 ## Partial Derivative
 
@@ -72,13 +74,13 @@ _in my [[math notation]]_
 
 in my [[math notation]], it's just a [[derivative]]:
 
-**`dd f x y -- dd x`**, see [[calculus notation]]
+**`dd x. f x y`**, see [[calculus notation]]
 
 **definition**
 
 the _partial derivative_ of **`f (x, y)`** with respect to **`x`** is defined as follows:
 
-**`f (x : h, y) . f (x, y) -- h {h -> 0}`**
+**`f (x:h, y) .. f (x, y) -- h {h -> 0}`**
 
 the same is true with any other parameter and with any number of parameters
 
@@ -92,7 +94,7 @@ the same is true with any other parameter and with any number of parameters
 
 ## differentiability
 
-**definition** a [[function]] **`f`** is _differentiable_ at **`a`** if **`dd f a -- dd x`** exists
+**definition** a [[function]] **`f`** is _differentiable_ at **`a`** if **`dd f a`** exists
 
 **definition** a [[function]] is _differentiable_ on an [[interval]] **`a -| * -| b`** if it is differentiable on every point from **`a`** to **`b`**
 
@@ -114,39 +116,39 @@ useful for computing the [[derivative]] of an [[exponent]]ial [[function]]
 
 > **example** _logarithmic differentiation of **`x[ee[x]]`**_
 >
-> **`y = x[ee[x]]`**
+> **`y = x[[x]]`**
 >
-> **`/y\ = /x[ee[x]]\ = /x\ ee[x]`**
+> **`/y\ = /x[[x]]\ = /x\'[x]`**
 >
-> **`dd /y\ -- dd x = dd /x\ ee[x] -- dd x`**
+> **`dd x. /y\ = dd x. /x\'[x]`**
 >
-> **`--y | dd y -- dd x = -xee[x] : /x\ ee[x]`**
+> **`--y | dd x. y = -x'[x] : /x\'[x]`**
 >
-> **`dd y -- dd x = x[ee[x]] | -xee[x] : /x\ ee[x]`**
+> **`dd x. x[[x]] = x[[x]] | -x'[x] : /x\'[x]`**
 >
 > the alternative would be the following, by transforming and using the chain [[derivative rules]]:
 >
-> **`y = x[ee[x]]`**
+> **`y = x[[x]]`**
 >
-> **`x[ee[x]] = ee[ /x[ee[x]]\ ] = ee[ /x\ ee[x]]`**
+> **`x[[x]] = [/x[[x]]\] = [/x\'[x]]`**
 >
-> **`dd y -- dd x = dd ee[ /x\ ee[x]] -- dd x`**
+> **`dd x. y = dd x. [/x\'[x]]`**
 >
-> **`dd y -- dd x = ee[ /x\ ee[x]] | dd /x\ ee[x] -- dd x`**
+> **`dd x. y = [/x\'[x]] | dd x. /x\'[x]`**
 >
-> **`dd y -- dd x = x[ee[x]] | -xee[x] : /x\ ee[x]`**
+> **`dd x. x[[x]] = x[[x]] | -x'[x] : /x\'[x]`**
 
 > **example** _logarithmic differentiation of **`[x]x`**_
 >
 > **`y = [x]x`**
 >
-> **`/y\ = x /x\`**
+> **`/y\ = x/x\`**
 >
-> **`dd /y\ -- dd x = dd x /x\ -- dd x`**
+> **`dd x. /y\ = dd x. x/x\`**
 >
-> **`--y | dd y -- dd x = 1 : /x\`**
+> **`--y | dd x. y = 1 : /x\`**
 >
-> **`dd y -- dd x = y | 1 : /x\ = [x]x | 1 : /x\`**
+> **`dd x. [x]x = [x]x | 1 : /x\`**
 
 ## Implicit Differentiation
 
@@ -156,20 +158,20 @@ differentiation of an implicit equation (where the dependent [[variable]] is not
 >
 > **`x2 : y2 = 2`**
 >
-> **`dd (x2 : y2) -- dd x = dd 2 -- dd x`**
+> **`dd x. x2 : y2 = dd x. 2`**
 >
-> **`2x : 2y(dd y -- dd x) = 0`**
+> **`(x. 2x) : 2y(dd x. y) = .0`**
 >
-> **`dd y -- dd x = .x -- y`**
+> **`dd x. y = x. ..x -- y`**
 >
 > or alternatively,
 >
 > **`x2 : y2 = 2`**
 >
-> **`dd x2 : dd y2 = dd 2`**
+> **`dd x. x2 : dd x. y2 = dd x. 2`**
 >
-> **`2x dd x : 2y dd y = 0`**
+> **`2xdd x. x : 2ydd x. y = 0`**
 >
-> **`dd y -- dd x = .x -- y`**
+> **`dd x. y = ..x -- y`**
 >
-> > **note** as both **`x`** and **`y`** are present in the equation, the [[derivative]] at **`.y`** will be different from the one at **`y`**
+> > **note** as both **`x`** and **`y`** are present in the equation, the [[derivative]] at **`..y`** will be different from that at **`y`**

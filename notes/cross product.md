@@ -8,7 +8,7 @@ _results in a [[euclidean vector]] of [[euclidean vector#magnitude]] ([[area]] o
 
 **definition**, see #magic
 
-**`a "cross" b = []a^1 b^2 . a^2 b^1 && a^2 b^0 . a^0 b^2 && a^0 b^1 . a^1 b^0 []`**
+**`a "cross" b = []a^1 b^2 .. a^2 b^1 && a^2 b^0 .. a^0 b^2 && a^0 b^1 .. a^1 b^0 []`**
 
 **definition**
 
@@ -16,7 +16,7 @@ _results in a [[euclidean vector]] of [[euclidean vector#magnitude]] ([[area]] o
 
 **properties**
 
-_not commutative_ **`a "cross" b = .b "cross" a`**
+_not commutative_ **`a "cross" b = ..b "cross" a`**
 
 _orthogonal to both [[vector]]s_ **`:(u "cross" v)v = 0`** and **`:(u "cross" v)v = 0`**, see [[dot product]]
 
@@ -28,6 +28,6 @@ _associativity with [[scalar]] multiplication_ **`k | (a "cross" b) = ka "cross"
 
 **applications**
 
-**`\:(u "cross" v)2/`** is the [[area]] of the parallelogram with sides **`u`** and **`v`**
+**`"abs" (u "cross" v)`** is the [[area]] of the parallelogram with sides **`u`** and **`v`**
 
 can be used to find a [[euclidean vector]] perpendicular to a [[plane]] or to two other [[euclidean vector]]s

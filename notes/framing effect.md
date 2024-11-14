@@ -9,5 +9,5 @@ _being influenced by the connotations of the presentation_
 > **examples**
 >
 > - buying **`98-100`**-fat-free meat instead of **`2-100`**-fat meat (or even **`1-100`**-fat meat)
-> - most people will choose a **`3 \$`** small popcorn bucket over ar **`7 \$`** large popcorn bucket. introducing a **`6 \$`** medium popcorn bucket as a decoy option will increase the sales of the **`7 \$`** large popcorn bucket
+> - most people will choose a **`3"$"`** small popcorn bucket over ar **`7"$"`** large popcorn bucket. introducing a **`6"$"`** medium popcorn bucket as a decoy option will increase the sales of the **`7"$"`** large popcorn bucket
 > - most people will use their [[credit card]] on a **`5-100`** cash discount. most people will use cash on a **`5-100`** [[credit card]] surcharge

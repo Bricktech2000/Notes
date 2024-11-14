@@ -1,5 +1,7 @@
 # Refactoring to Immutability
 
+&mdash; <https://youtu.be/APUCMSPiNh4>
+
 ## replace `set` with `with`
 
 _what would you be if I were to [operation with side effects]?_
@@ -37,7 +39,3 @@ this replaces setters (which have side effects) with the creation of a new objec
 ## use persistent data structures
 
 **see** [[persistent data structure]]
-
-## &mdash;
-
-&mdash; <https://youtu.be/APUCMSPiNh4>

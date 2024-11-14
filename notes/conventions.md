@@ -1,4 +1,4 @@
-# 🅲🅾🅽🆅🅴🅽🆃🅸🅾🅽🆂
+# Conventions
 
 see [[matrix]] and [[complex]] for examples of [[conventions]]
 
@@ -60,7 +60,6 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 - each page has one title[[case]] first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule
 - note names are reduced to their simplest form. they are mostly singular nominal groups, and sometimes adjectives when more appropriate. diacritics are removed from them
 - file names are lower[[case]]. diacritics are removed from them
-- box titles such as that of the [[conventions]] page are generated using <https://lingojam.com/BoldTextGenerator>
 - "lax" syntax and punctuation is used; that is,
   - the first word of a sentence is not capilatized
   - full stops separate sentences; they do not end them
@@ -86,6 +85,8 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 > println!("-> with ligatures <-");
 > ```
 >
+> $\text{Inline }\LaTeX$
+>
 > - unordered
 > - list
 >
@@ -107,7 +108,7 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 >
 > ```mermaid
 > graph LR
->   A(mermaid) --> B(support)
+>   mermaid --> support
 > ```
 >
 > > blockquote
@@ -124,8 +125,6 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 
 ## unused syntax
 
-> $\LaTeX$
->
 > $$
 > \text{Block } \LaTeX
 > $$
@@ -139,7 +138,7 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 the [[graph]] in [[index]] is generated on Obsidian using the following settings:
 
 ```yaml
-# if a property is not specified below,
+# if a property is not mentioned below,
 # it is to be set to its default value
 
 filters:

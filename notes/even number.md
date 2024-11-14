@@ -10,6 +10,6 @@
 
 **`EE = +OO`**, see [[odd number]]
 
-**`EE = n -> (0 + yy n 2)`**, see [[psi function]]
+**`EE = n. (0 + yy n 2)`**, see [[psi function]]
 
 **`EE < ZZ`**

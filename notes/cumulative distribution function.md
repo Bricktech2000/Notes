@@ -1,12 +1,12 @@
-## Cumulative Distribution Function
+# Cumulative Distribution Function
 
 **aka** _CDF_
 
 **see** [[integral]], [[math notation]], [[probability distribution]]
 
-**definition** a _cumulative distribution function_ is a [[function]] **`F`** such that **`F a`** is the [[probability]] of an _example_ being in the [[interval]] **`.@@ -| * -| a`**
+**definition** a _cumulative distribution function_ is a [[function]] **`F`** such that **`F a`** is the [[probability]] of an _example_ being in the [[interval]] **`..@@ -| * -| a`**
 
-**definition** **`$ f x | dd x {x . .@@}`** where **`f`** is a [[probability density function]]
+**definition** **`$ f {x .. ..@@}`** where **`f`** is a [[probability density function]]
 
 **applications**
 

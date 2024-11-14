@@ -14,6 +14,4 @@
 > 2. write a conjunctive clause for each **`^^`** row of the [[truth table]]
 > 3. join the conjunctive clauses using disjunctions
 
-**applications**
-
-the [[disjunctive normal form]] can be used to easily convert a [[boolean]] expression to only NOR [[logic gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that **`>< A == >< A \/ A`**, see [[boolean algebra]]
+the [[disjunctive normal form]] can be used to convert a [[boolean]] expression to exclusively NOR [[logic gate]]s by double-negating the [[boolean]] expression and distributing one of the negations. note that **`>< A == >< A \/ A`**, see [[boolean algebra]]

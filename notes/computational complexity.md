@@ -20,7 +20,7 @@ _time complexity, space complexity_
 
 let **`0 (-|/\+) ww (-|/\+) 1`** and let **`b (|-/\+) 1`**
 
-**`O ->1 < O //.\\ < O /.\ < O /.\2 < O [*]ww < O (*) < O (| /.\) < O [*]b < O b[*] < O PP < O ([.] *)`**
+**`O .1 < O //.\\ < O /.\ < O /.\2 < O [*]ww < O (*) < O (| /.\) < O [*]b < O b[*] < O PP < O ([.] *)`** #todo id
 
 **`O cf = O f > RR c /\ c (|-/\+) 0`**
 

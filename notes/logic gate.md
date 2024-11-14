@@ -2,4 +2,4 @@
 
 **aka** _gate_
 
-[[logic gate]]s model [[boolean algebra#operators]]
+[[logic gate]]s model [[boolean#operators]]

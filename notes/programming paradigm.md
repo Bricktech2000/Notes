@@ -6,7 +6,7 @@
 
 [[programming paradigm]]s can be represented as follows:
 
-|                | **Procedural**             | **Object-Oriented**             |
+|                | **Procedural**             | **Object Oriented**             |
 | -------------- | -------------------------- | ------------------------------- |
 | **Imperative** | [[procedural programming]] | [[object-oriented programming]] |
 | **Functional** | [[functional programming]] |                                 |

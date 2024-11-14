@@ -1,12 +1,10 @@
 # Proxy
 
-**aka** _proxy variable_
-
 **see** [[statistics]], [[goodhart's law]], [[equality]]
 
 **definition** a _proxy_ is a variable that is not in itself directly relevant, but that serves in place of an unobservable or immeasurable variable &mdash; Wikipedia
 
-[[proxy]]es must have either a positive or a negative correlation with the variable they are proxies for
+[[proxy]]es have either a positive or a negative correlation with the variable they are proxies for
 
 > **examples**
 >
@@ -15,12 +13,20 @@
 > - ownership of branded goods is a [[proxy]] for [[wealth]] and status
 > - per-capita [[gross domestic product]] is a [[proxy]] for standard of living &mdash; Wikipedia
 
-recognizing and identifying [[proxy]]es is crucial, for they are often mistaken for the variables they are proxies for. one consequence of this behavior is an effect I like to call "fixing the proxy", which is susceptible to [[goodhart's law]]
+# Pursuit
+
+recognizing and identifying [[proxy]]es is important, for they are often mistaken for the variables they are proxies for. this can lead to what I like to call "proxy pursuits", where people work on chasing or fixing what they don't realize are deceptively poor proxies
+
+one class of [[proxy#pursuit]]s that's easy to recognize in the wild is people (metaphorically) treating the symptoms because they don't see the disease
+
+[[proxy#pursuit]]s are susceptible to [[goodhart's law]]
 
 > **examples**
 >
 > - going to the gym to build muscle (a [[proxy]] for fitness) instead of actually becoming fit
 > - taking easy classes to get a higher GPA (a [[proxy]] for knowledge) instead of actually learning more
-> - escaping from emotions (a [[proxy]] for well-being) instead of actually fixing underlying issues
+> - escaping from negative emotions ([[proxy]]es for deeper issues) instead actually working to fix the underlying issues
+>   > **note** this can take many forms: taking on busywork, scrolling on [[social media]], [[projection]]...
+> - watching a movie to avoid boredom (a [[proxy]] for stagnation) instead of actually exploring interesting new things
 
 _in life [...] we devalue the thing that leads to the result and instead we value the result as a [[proxy]] to the thing_ &mdash; <https://youtu.be/kPZwR3v_UyI?t=2h1m43s>

@@ -16,7 +16,7 @@
 
 **definition** an _isomorphism_ is an invertible [[morphism#homomorphism]]
 
-> **example** **`x. [x]`** and its inverse **`x. \x/`** are [[morphism#isomorphism]]s between the [[group]]s **`ZZ, {:}`** and **`ZZ, {|}`**
+> **example** **`[.] ee`** and its inverse **`\./ ee`** are [[morphism#isomorphism]]s between the [[group]]s **`ZZ, {:}`** and **`ZZ, {|}`**
 
 > **example** an invertible [[linear transformation]] is an [[morphism#isomorphism]] between [[vector space]]s
 

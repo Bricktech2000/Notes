@@ -4,13 +4,13 @@ _it's not bad; it's just not good_ &mdash; <https://yager.io/programming/go.html
 
 > **resource** _[[go]] at Google: Language Design in the Service of [[software engineering]]_ &mdash; <https://go.dev/talks/2012/splash.article>
 
-> **resource** _why [[go]] is not good_, article sharing my opinions on the language &mdash; <https://yager.io/programming/go.html>
+> **resource** _why [[go]] is not good_, comparing design decisions in [[go]] to Haskell and [[rust]] &mdash; <https://yager.io/programming/go.html>
 
 [[go]] contains a myriad of contradictory design decisions; examples include:
 
 - [[go]] calls itself a _systems language_ yet requires a garbage collector
 - [[go]] has the imperativity and verbosity of [[c]] but the built-in dynamic [[array]]s of [[python]]
-- [[go]] is a modern language designed from the ground up yet still uses [[null]]s for failure conditions and has [[c]]-style valueless statements for control flow
+- [[go]] is a modern language designed from the ground up yet still uses [[null]]s for failure conditions and [[c]]-style valueless statements for control flow
 - [[go]] is a statically typed language yet has a [[type#top type]] in the form of the _empty [[interface]]_, which completely defeats the purpose of [[type system]]s
 
 most of this can be explained by the fact that [[go]] is the result of _language design in the service of [[software engineering]]_:
@@ -31,10 +31,10 @@ and the rest of [[go]] is half-baked at best; examples include:
 - [[go]] uses "zero values" to avoid uninitialized variables, which is a band-aid solution to a problem that should be solved at the [[type system]] level
 - [[go]] has [[interface]]s, which are a poor man's [[trait]]s. and [[go]] [[interface]]s are duck-typed, which is another shady decision
 - [[go]] dares to list [[type]] inference as a feature, but all its [[type]] inference engine does is guess the [[type]] of a [[variable]] based on the value it's assigned
-- [[go]] proudly uses [[ordered pair]]s over special syntax for error handling, but using [[type#product type]]s for error handling is a half-baked solution anyway
+- [[go]] proudly uses [[ordered pair]]s over special syntax for error handling, except that using [[type#product type]]s for error handling is a half-baked solution anyway
 
 for the sake of [[confirmation bias]], let's end with a few cherry-picked quotes:
 
 - _the [[go]] way is to half-ass things. the [[go]] way is to patch things up until they sorta kinda work, in the name of simplicity_ &mdash; <https://fasterthanli.me/articles/i-want-off-mr-golangs-wild-ride>
 - _[...] it becomes extremely hard to follow what any program is doing at a high level, because everywhere you look, you get bogged down in imperative code doing trivial data manipulation or error propagation_ &mdash; <https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang>
-- _the closest thing to a flexible iterator keyword is building a wrapper around you data structure that returns a `chan` and then iterate over the `chan`, but that is slow, complicated, and bug-prone_ &mdash; <https://yager.io/programming/go.html>
+- _the closest thing to a flexible iterator keyword is building a wrapper around your data structure that returns a `chan` and then iterate over the `chan`, but that is slow, complicated, and bug-prone_ &mdash; <https://yager.io/programming/go.html>

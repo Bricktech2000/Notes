@@ -8,7 +8,7 @@
 
 **definition**
 
-**`(CC a b)^n = a^0 b^n : ... a^n b^0 = :(x -> a x | b (n.x))`**, where
+**``(CC a b) n = (a 0)(b n) : ... (a n)(b 0) = :b`(n..)'a``**, where
 
 - **`a`** and **`b`** are [[list]]s
 - **`CC a b`** is the [[convolution]] of **`a`** and **`b`**
@@ -17,20 +17,20 @@
 
 > **note** this can be thought of as "the [[convolution]] of **`a`** and **`b`** at **`n`** is the [[dot product]] of elements of **`a`** and **`b`** at indices that sum to **`n`**"
 
-> **note** [[convolution]]s can be computed in **`O (| /.\)`** time [[computational complexity]] instead of **`O [*]2`**, using fast [[fourier transform]]s, which leverage [[root of unity]]s &mdash; <https://youtu.be/KuXjwB4LzSA?t=1091>. this allows for multiplication [[algorithm]]s with time [[computational complexity]] **`O (| /.\)`** in the number of digits &mdash; <https://youtu.be/cCKOl5li6YM?t=15m25s>
+> **note** [[convolution]]s can be computed in **`O (| /.\)`** time [[computational complexity]] instead of **`O [*]2`** #todo id, using fast [[fourier transform]]s, which leverage [[root of unity]]s &mdash; <https://youtu.be/KuXjwB4LzSA?t=1091>. this allows for multiplication [[algorithm]]s with time [[computational complexity]] **`O (| /.\)`** in the number of digits &mdash; <https://youtu.be/cCKOl5li6YM?t=15m25s>
 
 **definition**
 
-**`(CC a b) n = $ a x | b (n.x) | dd x {@@ . .@@}`**
+**``(CC a b) n = $ b`(n..)'a {@@ .. ..@@}``**
 
 - **`a`** and **`b`** are [[function]]s
 - **`CC a b`** is the [[convolution]] of **`a`** and **`b`**
 
 **properties**
 
-_length_ **`# (CC a b) == # a : # b . 1`**
+_length_ **`# (CC a b) == # a : # b .. 1`**
 
-_commutativity_ **`CC a b == CC b a`** or equivalently **`CC == rr CC`**
+_commutativity_ **`CC a b == CC b a`** or equivalently **`(== rr) CC`**
 
 _associativity_ **`CC (CC a b) c == CC a (CC b c)`**
 
@@ -50,7 +50,7 @@ moving averages
 
 > **example**
 >
-> let a [[list]] **`B^* = -- # B`** so that **`:B = 1`**. then, **`CC a B`** is the moving average of **`a`** with window size **`# B`**
+> let a [[list]] **`B = . -- # B`** so that **`:B = 1`**. then, **`CC a B`** is the moving average of **`a`** with window size **`# B`**
 
 image processing
 
@@ -62,9 +62,9 @@ image processing
 >
 > using the [[gaussian function]] as the kernel, the resulting blur is known as a _gaussian blur_
 >
-> using the [[matrix]] **`[].--4 & 0 & --4 && --2 & 0 & --2 && .--4 & 0 & --4[]`** as the kernel will detect vertical edges in the original image
+> using the [[matrix]] **`[]..--4 & 0 & --4 && --2 & 0 & --2 && ..--4 & 0 & --4[]`** as the kernel will detect vertical edges in the original image
 >
-> using the [[matrix]] **`[]0 & 0 & .--5 & 0 & 0 && 0 & .--5 & .--2 & .--5 & 0 && .--5 & .--2 & 5 & .--2 & .--5 && 0 & .--5 & .--2 & .--5 & 0 && 0 & 0 & .--5 & 0 & 0[]`** as the kernel will sharpen the original image
+> using the [[matrix]] **`[]0 & 0 & ..--5 & 0 & 0 && 0 & ..--5 & ..--2 & ..--5 & 0 && ..--5 & ..--2 & 5 & ..--2 & ..--5 && 0 & ..--5 & ..--2 & ..--5 & 0 && 0 & 0 & ..--5 & 0 & 0[]`** as the kernel will sharpen the original image
 
 [[convolution]]al [[neural network]]s
 

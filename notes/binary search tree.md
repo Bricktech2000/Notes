@@ -8,15 +8,11 @@
 
 time [[computational complexity]]:
 
-|        | Average     | Worst       |
-| ------ | ----------- | ----------- |
-| Insert | **`O /.\`** | **`O (*)`** |
-| Remove | **`O /.\`** | **`O (*)`** |
-| Search | **`O /.\`** | **`O (*)`** |
-
-**applications**
-
-used in the implementation of some [[map]] and [[set]] [[abstract data type]]s
+|        | Average     | Worst                |
+| ------ | ----------- | -------------------- |
+| Insert | **`O /.\`** | **`O (*)`** #todo id |
+| Remove | **`O /.\`** | **`O (*)`** #todo id |
+| Search | **`O /.\`** | **`O (*)`** #todo id |
 
 ## Operations
 

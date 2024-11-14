@@ -4,21 +4,19 @@
 
 > **resource** crash course on [[psychopathy]] and [[sociopathy]] &mdash; <https://www.youtube.com/watch?v=gpjYtAB9i2w>
 
-> **note** [[antisocial personality disorder]] is one of the most unfortunately named [[mental illness]]es. _antisocial_ in this context means _against society_ and **not** _socially awkward_ because of historical reasons &mdash; <https://youtu.be/gpjYtAB9i2w?t=444>
+> **note** [[antisocial personality disorder]] is one of the most unfortunately named [[mental illness]]es. _antisocial_ in this context means _against society_ and **not** _socially awkward_ &mdash; <https://youtu.be/gpjYtAB9i2w?t=444>
 
-_[[antisocial personality disorder]]_ is the diagnostic term for [[mental illness]]es often referred to as _[[psychopathy]]c-personality-disorder_ and _[[sociopathy]]c-personality-disorder_. [[psychopathy]] and [[sociopathy]] have a lot of overlap
+_[[antisocial personality disorder]]_ is the diagnostic term for [[mental illness]]es often referred to as _[[psychopathy]]c personality disorder_ and _[[sociopathy]]c personality disorder_. [[psychopathy]] and [[sociopathy]] have a lot of overlap
 
 ## Symptoms
 
-people with an [[antisocial personality disorder]]
+people with an [[antisocial personality disorder]]:
 
-- lack empathy and are unable to feel guilt or remorse
+- lack empathy and are unable to feel guilt or remorse (makes them most dangerous)
 - often exploit other people to achieve their ends by lying, cheating, stealing, and manipulating
 - are unable to form meaningful relationships with other people
 - are often described as being _cold_ and _calculating_
 - constantly break norms (moral codes, social codes, legal codes...) as they don't think they apply to them
-
-when someone with an [[antisocial personality disorder]] lacks remorse, they can be very dangerous
 
 ## Biological Model
 
@@ -34,13 +32,13 @@ consequences include:
 
 ## Treatment
 
-people with an [[antisocial personality disorder]]
+people with an [[antisocial personality disorder]]:
 
 - will often try to outwit or intimidate a therapist
-- aren't motivated to change as they don't believe there's anything to change in the first place
+- aren't motivated to change as they don't believe there is anything to change in the first place
+  > **note** but there **is** nothing to change! [[antisocial personality disorder]] is a feature, not a bug. psychopaths are psychopaths by design
 - will try and game the system instead of making progress
-
-when they are court ordered to therapy as a condition, they will often wait out all sessions and say something along the lines of _I don't need to say anything I just need you to sign that document saying I came here for 10 sessions_
+  > **example** when court-ordered to therapy, they may wait out the sessions and say something like _I don't need to say anything I just need you to sign that document saying I came here for 10 sessions_
 
 ## [[sociopathy]] vs [[psychopathy]]
 

@@ -28,9 +28,9 @@ _elements are unique_ **`{{1, 1, 1}} = {{1, 1}} = ...`**
 
 ## Universal Set
 
-**definition** **`UU x = ^^`**
+**definition** **`x -> ^^`**
 
-**definition** **`UU x == +{ } == + x -> __ == x -> ^^`**
+**definition** **`UU == +{{ }} == + x -> __ == x -> ^^`**
 
 **properties** **`/\ UU |- A`**, for all [[set]] **`A`**
 
@@ -83,6 +83,14 @@ both the [[set#subset]] and the [[set#superset]] form a [[partial order]]
 ## Intersection
 
 **definition** **`A __ B`**
+
+## Difference
+
+**definition** **`A ^^ +B`**
+
+## Complementation
+
+**definition** **`+A`**
 
 ## Equivalence
 

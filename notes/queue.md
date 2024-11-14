@@ -25,9 +25,3 @@ enqueue
 [[linked list]] [[queue]]
 
 [[array]] [[queue]]
-
-**applications**
-
-can be used in [[breadth-first search]]
-
-can be used to buffer requests in a first-come-first-serve basis

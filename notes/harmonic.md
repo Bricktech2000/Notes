@@ -4,4 +4,4 @@
 
 **properties**
 
-a [[linear combination]] of [[harmonic]]s is periodic at the _fundamental frequency_
+any [[linear combination]] of [[harmonic]]s is periodic at the _fundamental frequency_

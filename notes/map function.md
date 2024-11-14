@@ -4,7 +4,7 @@ _lifts a horizontal [[function]] to the effects world_
 
 **aka** _`lift`, `select`, `fmap`, `<$>`_
 
-**equiv** _[[map]] between [[category#morphism]]s_
+**equiv** _map between [[category#morphism]]s_
 
 **definition** the [[map function]] "lifts" a [[function]] to the effects world
 
@@ -21,9 +21,9 @@ let a [[function]] `f :: a -> b`. then,
 
 `fmap :: (a -> b) -> T a -> T b`
 
-`fmap f fa = pure f <*> fa`, where
+`fmap f aa = pure f <*> aa`, where
 
-- `fa` is a [[functor]]
+- `aa` is an [[applicative]]
 - `fmap` is the [[map function]]
 - `pure` is the [[return function]]
 - `<*>` is the [[apply function]]

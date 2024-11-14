@@ -6,4 +6,4 @@ _the [[volume]] of a [[sphere]]_
 
 **`x2 : y2 : z2 -| r2`**
 
-**`\:(x, y, z)2/ -| r`**
+**`"abs" (x, y, z) -| r`**

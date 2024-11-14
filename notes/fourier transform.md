@@ -6,7 +6,7 @@
 
 **definition**
 
-**`VV g f = $ g t | [.iittft] | dd t {@@ . .@@}`**, where
+**`VV g f = $ t. g t | [..iittft] {@@ .. ..@@}`** #todo lim, where
 
 - **`g t`** is the amplitude of a wave **`g`** at time **`t`**
 - **`VV g`** represents the [[frequency]] components of the wave, where
@@ -21,11 +21,11 @@
 
 **properties**
 
-**`$ g t | dd t {@@ . .@@} = VV g 0`** by definition &mdash; <https://youtu.be/851U557j6HE?t=823> and <https://youtu.be/UOuxo6SA8Uc?t=961>
+**`$ g | {@@ .. ..@@} = VV g 0`** by definition &mdash; <https://youtu.be/851U557j6HE?t=823> and <https://youtu.be/UOuxo6SA8Uc?t=961>
 
 **theorem** _convolution theorem_
 
-**`VV (CC f g) = VV f | VV g`** and **`VV fg = CC (VV f) (VV g)`**, where
+**`VV (CC f g) = {|} (VV f) (VV g)`** and **`VV ({|} f g) = CC (VV f) (VV g)`**, where
 
 - **`CC g h`** is the [[convolution]] of **`g`** and **`h`**
 

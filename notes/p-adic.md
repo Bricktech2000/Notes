@@ -22,7 +22,7 @@ the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the 
 
 [[p-adic]] numbers support division
 
-> **note** [[p-adic]] numbers supporting division is a consequence of **`p`** being a [[prime]] number &mdash; <https://youtu.be/3gyHKCDq1YA?t=606>. my [[improved expression evaluation]] would need to be extended to support **`n`**-adic numbers where **`n`** is not a [[prime]] number #think
+> **note** [[p-adic]] numbers supporting division is a consequence of **`p`** being a [[prime]] number &mdash; <https://youtu.be/3gyHKCDq1YA?t=606>. my [[improved expression evaluation]] would need to be extended to support **`n`**-adic numbers where **`n`** is not a [[prime]] number #xxx
 
 > **note** [[p-adic]] numbers supporting division seems to be in [[contradiction]] with the following &mdash; me
 >
@@ -34,7 +34,7 @@ the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the 
 > >
 > > let **`1 = x4`**. taking the square root on both sides, we get **`x2 = {1 \/ .1}`**. taking the square root on both sides again, we get **`x = {1 \/ .1 \/ ii \/ .ii}`**. this resolves the contradiction
 > >
-> > #think superposition in [[improved expression evaluation]]
+> > #xxx superposition in [[improved expression evaluation]]
 
 ## Absolute Value
 

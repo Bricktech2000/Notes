@@ -14,11 +14,7 @@
 >
 > ```mermaid
 > graph LR
->   A(Sunny Summer Weather)
->   B(Eating Ice Cream)
->   C(Getting a Sunburn)
->   A --> B
->   A --> C
+>   A(Sunny Summer Weather) --> B(Eating Ice Cream) & C(Getting a Sunburn)
 > ```
 
 > **example**
@@ -29,11 +25,7 @@
 >
 > ```mermaid
 > graph LR
->   A(Intelligence and Hard Work)
->   B(Being Someone Successful)
->   C(Attending an Ivy League School)
->   A --> B
->   A --> C
+>   A(Intelligence and Hard Work) --> B(Being Someone Successful) & C(Attending an Ivy League School)
 > ```
 
 > **example**
@@ -42,9 +34,5 @@
 >
 > ```mermaid
 > graph LR
->   A(Passion for Language Learning)
->   B(Paying for Duolingo Plus)
->   C(Completing More Lessons)
->   A --> B
->   A --> C
+>   A(Passion for Language Learning) --> B(Paying for Duolingo Plus) & C(Completing More Lessons)
 > ```

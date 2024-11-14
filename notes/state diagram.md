@@ -1,8 +1,8 @@
 # State Diagram
 
-for [[finite-state machine]]s. see [[state table]], [[characteristic table]]
+for [[finite automaton]]s. see [[state table]], [[characteristic table]]
 
-_previous state to next state. shows how a [[finite-state machine]] transitions between its different states_
+_previous state to next state. shows how a [[finite automaton]] transitions between its different states_
 
 > **example**
 >

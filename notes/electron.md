@@ -2,7 +2,7 @@
 
 [[math notation]]
 
-**notation** **`e^-`**
+**notation** $e^-$
 
 **definition** a _lone electron_ is an [[electron]] that is not bound to an [[atom]]
 

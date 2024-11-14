@@ -4,7 +4,7 @@
 
 [[null]] was [[invent]]ed
 
-[[null]] is an escape hatch that subverts the [[type system]], making it extremely dangerous
+[[null]] is an escape hatch that subverts the [[type system]]
 
 &mdash; <https://youtu.be/vcFBwt1nu2U?t=1069>
 

@@ -4,9 +4,9 @@
 
 **notation** **`"abs"`**
 
-**definition** **`"abs" = (:^^.)`**
+**definition** **`"abs" = (:^^..)`**
 
-[[absolute value]]s can be defined as a [[function#piecewise function]]
+[[absolute value]]s can be defined as a piecewise [[function]]
 
 > **procedure** _solving an absolute value equality_ solve by cases
 
@@ -14,10 +14,10 @@
 
 **properties**
 
-**`"abs" x -| t == .t -| x -| t`**
+**`"abs" x -| t == ..t -| x -| t`**
 
-**`"abs" x |- t == x |- t \/ x |- .t`**
+**`"abs" x |- t == x |- t \/ x |- ..t`**
 
-_triangle inequality_ **`"abs" (a:b) -| "abs" a : "abs" b > R a /\ RR b`**
+_triangle inequality_ **`"abs" (a : b) -| "abs" {a : b} > R a /\ RR b`**
 
 **equiv** _triangle inequality with [[relation#transitive relation]]_

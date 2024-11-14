@@ -6,7 +6,7 @@
 
 **`f x {x -> a}`**
 
-**definition** _**`(ee, dd)`**-definition of a limit_
+**definition** _**`(ee, dd)`** definition of a limit_
 
 let **`f x`** be a [[function]] with [[function#domain]] **`D`** defined on an open [[interval]] around **`x_0`**. then, **`f x {x -> x_0} = L`** if for every **`ee {|-/\+} 0`** there exists a **`dd {|-/\+} 0`** such that **`0 + |x . x_0| -| dd < |f x . L| -| ee`** for all **`D x`**
 
@@ -30,7 +30,7 @@ let **`f x`** be a [[function]] with [[function#domain]] **`D`** defined on an o
 
 > **note** a limit does not exist if **`f x {x -> a} = @@`** or if it shows wild behavior (not a technical term), as with **`"sin" tt-x {x -> 0}`**
 >
-> > **note** what if **`"sin" tt-x {x -> 0}`** is a superposition of all numbers in **`0 -| * -| 1`**? #think [[improved expression evaluation]]
+> > **note** what if **`"sin" tt-x {x -> 0}`** is a superposition of all numbers in **`0 -| * -| 1`**? #xxx [[improved expression evaluation]]
 
 ## limits of trigonometric functions
 

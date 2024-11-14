@@ -17,10 +17,10 @@ below is a non-exhaustive list of principles that guide the design of this [[mat
 
 below are examples of a few design decisions following from these principles
 
-- all equality [[operator]]s check for equality and return a [[boolean]], and it is implied that an [[expression]] on its own must evaluate to **`^^`**. this allows for [[boolean algebra#operators]] to be applied on equalities formally and not as an abuse of notation
+- all equality [[operator]]s check for equality and return a [[boolean]], and it is implied that an [[expression]] on its own must evaluate to **`^^`**. this allows for [[boolean#operators]] to be applied on equalities formally and not as an abuse of notation
 - [[set]]s, [[vector]]s, [[matrix]]es, [[sequence]]s, [[multiset]]s, [[ordered pair]]s, [[graph]]s, [[interval]]s, and other objects are defined as [[function]]s. this has some nice consequences, such as:
-  - [[set]] [[operator]]s such as unions and intersections are [[boolean algebra#operators]]
-  - [[interval]]s are inequalities and [[interval]] [[operator]]s are [[boolean algebra#operators]]
+  - [[set]] [[operator]]s such as unions and intersections are [[boolean#operators]]
+  - [[interval]]s are inequalities and [[interval]] [[operator]]s are [[boolean#operators]]
   - [[graph]]s are their own [[graph#adjacency matrix]]es and their own [[graph#adjacency list]]s
   - the [[matrix#transpose]] of a [[graph]] yields its converse
   - [[markov chain]]s are their own transition matrix
@@ -29,6 +29,10 @@ below are examples of a few design decisions following from these principles
 - all indices start at **`0`**, as they always should have
 - the [[circle]] constant is **`tt`**, and **`pp`** is to be avoided; see [[tau]]
 - this [[math notation]] is 1D; it takes up constant vertical space and can wrap at the end of a line
+
+> **resource** _from Boolean Algebra to Unified Algebra_, redesigning [[boolean algebra]] as a [[set#subset]] of number algebra &mdash; <https://www.cs.toronto.edu/~hehner/BAUA.pdf>
+>
+> > **note** it turns out that thinking of $\land$ as $\min$ and $\lor$ as $\max$ and $\forall$ as $\land$-reduce and $\exists$ as $\lor$-reduce and $\implies$ as $\leq$ and $\impliedby$ as $\geq$ is, to my dismay, not an original idea
 
 ## notation
 
@@ -54,7 +58,7 @@ let:
 
 ### number literals
 
-- [[natural]]s are represented using the [[decimal]] [[positional numeral system]]
+- [[natural]]s are represented using the Hindu-Arabic [[positional numeral system]]
 - [[integer]]s are represented using the **`.`** [[operator]] on [[natural]]s
 - [[rational]]s are represented using the **`-`** [[operator]] on [[integer]]s
 - [[real]]s are represented using various other [[operator]]s and [[limit]]s
@@ -66,7 +70,7 @@ let:
 
 ### character literals
 
-[[character]]s are to be written surrounded by `'`. for example, the [[character]] `&` is to be written **`''&''`**
+[[character]]s are to be written surrounded by **`''`**. for example, the [[character]] `&` is to be written **`''&''`**
 
 ### variables
 
@@ -88,12 +92,12 @@ let:
 | **`x -> a`**                                                 | [[function]] abstraction                                     | **`f = x -> a == f <- x = a`**                 |
 | **`f <- a`**                                                 | [[function]] application                                     | longhand discouraged                           |
 | **`a ~ b`** <br /> **`a ~~ b`**                              | whether **`a`** is similar to **`b`**                        | _similar_ as in _approximately equal to_       |
-| **`a = b`** <br /> **`a == b`**                              | whether **`a`** is equal to **`b`**                          | equivalent to [[boolean algebra#equivalence]]  |
-| **`a + b`** <br /> **`a >< b`**                              | whether **`a`** is different from **`b`**                    | equivalent to [[boolean algebra#exclusive or]] |
-| **`a -\| b`** <br /> **`a < b`**                             | whether **`a`** is at most **`b`**                           | equivalent to [[boolean algebra#implication]]  |
-| **`a \|- b`** <br /> **`a > b`**                             | whether **`a`** is at least **`b`**                          | equivalent to [[boolean algebra#implication]]  |
-| **`a __ b`** <br /> **`a /\ b`**                             | the minimum of **`a`** and **`b`**                           | equivalent to [[boolean algebra#conjunction]]  |
-| **`a ^^ b`** <br /> **`a \/ b`**                             | the maximum of **`a`** and **`b`**                           | equivalent to [[boolean algebra#disjunction]]  |
+| **`a = b`** <br /> **`a == b`**                              | whether **`a`** is equal to **`b`**                          | equivalent to [[boolean#equivalence]]          |
+| **`a + b`** <br /> **`a >< b`**                              | whether **`a`** is different from **`b`**                    | equivalent to [[boolean#exclusive or]]         |
+| **`a -\| b`** <br /> **`a < b`**                             | whether **`a`** is at most **`b`**                           | equivalent to [[boolean#implication]]          |
+| **`a \|- b`** <br /> **`a > b`**                             | whether **`a`** is at least **`b`**                          | equivalent to [[boolean#implication]]          |
+| **`a __ b`** <br /> **`a /\ b`**                             | the minimum of **`a`** and **`b`**                           | equivalent to [[boolean#conjunction]]          |
+| **`a ^^ b`** <br /> **`a \/ b`**                             | the maximum of **`a`** and **`b`**                           | equivalent to [[boolean#disjunction]]          |
 | **`f {x -> a}`**                                             | the [[limit]] of **`f`** as **`x`** approaches **`a`**       |                                                |
 | **`dd y -- dd x`**                                           | the [[derivative]] of **`y`** with respect to **`x`**        | **`dd`** should be used instead of **`d`**     |
 | **`$ y \| dd x`**                                            | the [[antiderivative]] of **`y`** with respect to **`x`**    | **`dd`** should be used instead of **`d`**     |
@@ -115,7 +119,7 @@ let:
 | **`yy`**                                                     | the [[psi function]]                                         |                                                |
 | **`rr`**                                                     | the [[combinator#c combinator]]                              | equivalent to [[matrix#transpose]]             |
 | **`f {a g b}`** <br /> **`{.} f g a b`**                     | the [[combinator#psi combinator]]                            |                                                |
-| **`f {a g b} c`** <br /> **`{{.}} f g a b`**                 | **`g (f (a c)) (f (b c))`** #think                           |                                                |
+| **`f {a g b} c`** <br /> **`{{.}} f g a b`**                 | **`g (f (a c)) (f (b c))`** #xxx                             |                                                |
 | **`(g f h) a`** <br /> **`(.) f g h a`**                     | the [[combinator#phi combinator]]                            |                                                |
 | **`a (g f h) b`** <br /> **`((.)) f g h a b`**               | the [[combinator#phi1 combinator]]                           |                                                |
 
@@ -139,7 +143,7 @@ let:
 | **`f a`**                        | **`f <- a`**                                                       | shorthand preferred                                         |
 | **`~a`** <br /> **`~~a`**        | **`A`** reduced with **`~`** <br /> **`A`** reduced with **`~~`**  | see [[reduce function]]                                     |
 | **`=a`** <br /> **`==a`**        | **`A`** reduced with **`=`** <br /> **`A`** reduced with **`==`**  | see [[reduce function]]                                     |
-| **`+a`** <br /> **`><a`**        | **`^^ + a`** <br /> **`^^ >< a`**                                  | equivalent to [[boolean algebra#negation]]                  |
+| **`+a`** <br /> **`><a`**        | **`^^ + a`** <br /> **`^^ >< a`**                                  | equivalent to [[boolean#negation]]                          |
 | **`-\|A`** <br /> **`<A`**       | **`A`** sorted from least to greatest                              |                                                             |
 | **`\|-A`** <br />**`>A`**        | **`A`** sorted from greatest to least                              |                                                             |
 | **`__A`** <br /> **`/\A`**       | **`A`** reduced with **`__`** <br /> **`A`** reduced with **`/\`** | see [[reduce function]]                                     |
@@ -159,11 +163,11 @@ let:
 
 - conceptual:
 
-  - [x] get rid of `"approx"`
+  - [x] get rid of **`"approx"`**
   - [x] should **`"mod"`** be infix? should there exist [[infix notation]] [[string]] [[operator]]s?
   - [x] update **`/\ RR x /\ RR y`** and **`/\ NN m /\ NN n`** notations to use the [[combinator#psi combinator]]
   - [ ] is **`...`** necessary?
-    - [ ] replace **`PP`** with **`(|)sshh`**? where **`hh`** is an iota [[sequence]] and **`ss``** the successor [[function]]
+    - [ ] replace **`PP`** with **`(|)sshh`**? where **`hh`** is an iota [[sequence]] and **`ss`** the successor [[function]]
     - [ ] replace **`0:...n`** with **`:hh n`**? where **`hh`** is an iota sequence
     - [ ] implement **`ss`** sucessor [[function]]? globally replace `:1`s.
       - [[newton's method]] with new [[function]] composition would then be **`xss = x . (fx -- ddfx)`**
@@ -189,7 +193,7 @@ let:
     x y -> f (g x y)
     ```
 
-  - [ ] **`__`** and **`^^`** used as both [[boolean]]s and [[boolean algebra#operators]]
+  - [ ] **`__`** and **`^^`** used as both [[boolean]]s and [[boolean#operators]]
 
     ```
     x (^^) b
@@ -203,11 +207,12 @@ let:
 
     **`1 "1" 0 "0"`**
 
+  - [ ] the syntax split between functions and operators is annoying. and the `[.]` and `/.\` and `\./` operators are special syntax, and many [[combinator]]s are special syntax. one consequence is there are several ways of achieving [[partial application]] and several ways of "quoting" operators and combinators to be passed to higher-order functions
+
 - absolute value:
 
   - [ ] get rid of remaining **`||`**s
   - [ ] delete [[absolute value]] file
-  - [ ] #todo get rid of **`"re"`** and **`"im"`** in [[complex]]
   - [ ] when figured out, fix up [[metric space]] examples
 
   **`"abs"`** in **`RR`**, could be replaced with **`(:^^.)`**
@@ -263,6 +268,7 @@ partially testing out:
 - [[pid controller]]
 - [[linear transformation#standard matrix]] **`A = rr (T I *)`**
 - [[trigonometric function]] theorem **`c"cos" (* + aa)`**
+- [[binary exponentiation]] [[monoid#operation]] through [[composition]]
 
 ### precedence and associativity
 
@@ -279,14 +285,14 @@ partially testing out:
 | **`\| --`**                     | ...        | left          |
 | **`$ { } ... ->`**              | ...        | right         |
 | **`__ ^^`**                     | ...        | left          |
-| **`~ = -\| \|- +`**             | ...        | AND           |
+| **`~ = -\| \|- +`**             | ...        | transitive    |
 | **`/\ \/`**                     | ...        | left          |
-| **`~~ == < > ><`**              | ...        | AND           |
+| **`~~ == < > ><`**              | ...        | transitive    |
 | **`,`**                         | lowest     | &times;       |
 
 > **note** unary [[operator]]s have identical [[infix notation#precedence]] to their binary counterparts but are right associative
 
-**definition** let **`\*`** be an [[operator]] with _AND associativity_. then, **`a \* b \* c \* ... == a \* b /\ b \* c /\ c \* ...`**
+if **`\*`** is an [[operator]] with _transitive associativity_, then **`a \* b \* c \* ... == a \* b /\ b \* c /\ c \* ...`**
 
 ## comparison with conventional notation
 

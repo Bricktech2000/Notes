@@ -6,8 +6,8 @@ used for backlinks
 
 [[cryptocurrency]]
 
-[[hash]] [[function]]
+[[hash]] [[function]]s
 
 [[zero-knowledge proof]]
 
-[[verifiable random function]]
+[[reversal cipher]]

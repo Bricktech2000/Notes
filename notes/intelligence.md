@@ -27,9 +27,9 @@
 - Stephen from Diary of a CEO being called highly intelligent &mdash; <https://youtu.be/bk-nQ7HF6k4?t=31m54s>
 - Dr. K from HealthyGamerGG a gifted child &mdash; <https://youtu.be/kPZwR3v_UyI?t=20m26s> and <https://youtu.be/kPZwR3v_UyI?t=1h19m4s> and <https://youtu.be/kPZwR3v_UyI?t=1h23m20s> and <https://youtu.be/bmvBTDPzzaY?t=17m53s>
 
-## stuff I don't relate to
+## "don't you worry"
 
-**aka** _[[difficult]], [[overwhelm]]ing, "boring', complicated_
+**aka** _[[difficult]], [[overwhelm]]ing, "boring", complicated_
 
 - <https://youtu.be/SrN6ps4NM10?t=83>
 - <https://youtu.be/SrN6ps4NM10?t=537>

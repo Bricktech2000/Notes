@@ -15,6 +15,8 @@
 
 [[monad]]s are [[functor]]s because the [[map function]] can be defined in terms of the [[bind function]] and [[return function]]
 
+[[monad]]s are [[applicative]]s because the [[apply function]] can be defined in terms of the [[bind function]] and [[return function]]
+
 ## Kleisli Composition
 
 _an alternative to the [[bind function]]_
@@ -25,7 +27,7 @@ the Kleisli Composition is an alternative to the [[bind function]] that uses [[c
 
 **properties**
 
-a [[set]] of [[monad]]s with Kleisli Composition form a [[monoid]], where the [[return function]] is the [[monoid#identity element]]
+a [[set]] of [[monad]]s with Kleisli Composition form a [[monoid]] whose [[monoid#identity element]] is the [[return function]]
 
 ## Transformer
 
@@ -34,6 +36,8 @@ monad transformer #todo <https://en.wikipedia.org/wiki/Monad_transformer>
 ## Laws
 
 &mdash; <https://youtu.be/vhVG6sFeA58?t=3m50s>
+
+&mdash; <https://en.m.wikibooks.org/wiki/Haskell/Understanding_monads>
 
 ```haskell
 return x >>= f = f x -- left identity

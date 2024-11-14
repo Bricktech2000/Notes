@@ -18,13 +18,13 @@ DeCasteljau's algorithm is a recursive [[algorithm]] for evaluating [[bezier cur
 
 **definition** _DeCasteljau's [[algorithm]]_
 
-the [[bezier curve]] **`B p`** of degree **`n`** with control points **`p^0 ... p^n`** at point **`t`** can be defined as:
+the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points **`p`** at point **`t`** can be defined as:
 
-**`B (p^0) = t -> p^0`**, and
+**`B (p^0,) = t. p^0`**, and
 
-**`B (p^0 ... p^n) = t -> "lerp"  (B (p^0 ... p^n.1) t)  (B (p^1 ... p^n) t)  t`**, where
+**`B (p^0 ... p^n) = t. "lerp"  (B (p^0 ... p^n..1) t)  (B (p^1 ... p^n) t)  t`**, where
 
-- **`"lerp" p^0 p^1 = t -> (1.t)p^0 : tp^1`**
+- **`"lerp" a b = t. (1..t)a : tb`**
 
 > **example** _DeCasteljau's [[algorithm]] for [[bezier curve#cubic bezier curve]]s_
 >
@@ -32,15 +32,15 @@ the [[bezier curve]] **`B p`** of degree **`n`** with control points **`p^0 ... 
 
 ## Bernstein Polynomial
 
-Bernstein polynomials can be used to graphically represent the "influence" of each control point on the [[bezier curve]]. Bernstein polynomials are easy to derive from DeCasteljau's [[algorithm]]
+Bernstein polynomials can be used to graphically represent the "influence" of each control point on the [[bezier curve]]. Bernstein polynomials are easy to derive from DeCasteljau's [[algorithm]] &mdash; <https://youtu.be/aVwxzDHniEw?t=262>
 
 **definition** _Bernstein polynomials_
 
-the [[bezier curve]] **`B p`** of degree **`n`** with control points **`p^0 ... p^n`** at point **`t`** can be defined as:
+the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points **`p`** at point **`t`** can be defined as:
 
-**`B (p^0 ... p^n) = t -> :(p^0 ... p^n)(P t)`**, where
+**`B p = t. :p(P t)`**, where
 
-- **`P t`** are the Bernstein polynomials **`P t = k -> C n k | [1.t](n.k) | [t]k`** of the [[bezier curve]]
+- **`P t`** are the Bernstein polynomials **`P t = k. C n k | [1..t](n..k) | [t]k`** of the [[bezier curve]]
 - **`C n k`** is [[set#combination]] "**`n`** choose **`k`**"
 
 > **example** _Bernstein polynomials for [[bezier curve#cubic bezier curve]]s_
@@ -53,9 +53,9 @@ the [[polynomial]] form of a [[bezier curve]] is useful because, given a [[list]
 
 **definition** _polynomial form_
 
-the [[bezier curve]] **`B p`** of degree **`n`** with control points **`p^0 ... p^n`** at point **`t`** can be defined as:
+the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points **`p`** at point **`t`** can be defined as:
 
-**`B (p^0 ... p^n) = t -> :(t0 ... [t]n)(C p)`**, where
+**`B p = t. :t[0...n](C p)`**, where
 
 - **`C p`** are the [[polynomial]] cofficients of the [[bezier curve]]
 
@@ -69,12 +69,12 @@ the [[matrix]] form of a [[bezier curve]] consists of two [[matrix#multiplicatio
 
 **definition** _matrix form_
 
-the [[bezier curve]] **`B p`** of degree **`n`** with control points **`p^0 ... p^n`** at point **`t`** can be defined as:
+the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points **`p`** at point **`t`** can be defined as:
 
-**`B (p^0 ... p^n) = t -> (t0 ... [t]n) | M | (p^0 ... p^n)`**, where #todo mm
+**`B p = t. :(:t[0...n]M)p`**, where
 
-- **`(p^0 ... p^n)`** are the control points as a column [[euclidean vector]] #todo mm
-- **`(t0 ... [t]n)`** are powers of **`t`** as a row [[euclidean vector]] #todo mm
+- **`p`** are the control points as a column [[euclidean vector]] #todo mm
+- **`t[0...n]`** are powers of **`t`** as a row [[euclidean vector]] #todo mm
 - **`M`** is the _characteristic matrix_ of the [[bezier curve]]
 
 > **example** _[[matrix]] form of [[bezier curve#cubic bezier curve]]s_

@@ -2,7 +2,7 @@
 
 **see** [[math notation]], [[matrix]]
 
-the [[determinant]] is all about measuring how [[area]]s change during a [[linear transformation]] represented as [[matrix#multiplication]]. after the transformation, the **`1`** by **`1`** unit square formed by the [[euclidean vector#unit vector]]s **`(0, 1)`** and **`(1, 0)`** gets turned into a parallelogram whose [[area]] is the [[determinant]] of the [[linear transformation#standard matrix]] &mdash; 3B1B
+the [[determinant]] is a [[morphism#homomorphism]] from [[matrix]]es with [[matrix#multiplication]] to [[scalar]]s with multiplication. similarly, the [[determinant]] is a [[morphism#homomorphism]] from [[linear transformation]]s with [[composition]] to their effect on [[area]]s with multiplication
 
 **notation**
 
@@ -14,9 +14,17 @@ the [[determinant]] is all about measuring how [[area]]s change during a [[linea
 
 **`"det" cA = [c]n | "det" A`**, where **`n`** is the width and height of the [[matrix]]
 
-**properties**
+**`"det" AB = "det" A | "det" B`** #todo mm
 
-**see** [[linear system#elementary operation]]
+**`"det" [A]m = ["det" A]m -| NN m`** #todo mm
+
+**`"det" A = 0`** if and only if **`A`** is not invertible, see [[matrix]]
+
+**`"det" -A = -"det" A`** #todo mm if and only if **`A`** is invertible, see [[matrix]]
+
+> **note** the equation above is beautiful because, in [[conventional math notation]], $A^{-1}$ is a [[matrix#inverse]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
+
+**properties** _[[linear system#elementary operation]]_
 
 _adding a multiple of a row or column to another row or column_ **`"det" A = "det" A_*`**
 
@@ -24,35 +32,19 @@ _swapping any two rows or two columns_ **`"det" A = ."det" A_*`**
 
 _multiplying a row or a column by a [[scalar]] **`c`**_ **`"det" A = c"det" A_*`**
 
-#todo mm
-
-**`"det" AB = "det" A | "det" B`**
-
-#todo mm
-
-**`"det" [A]m = ["det" A]m -| NN m`**
-
-**`"det" A = 0`** if and only if **`A`** is not invertible, see [[matrix]]
-
-#todo mm
-
-**`"det" -A = -"det" A`** if and only if **`A`** is invertible, see [[matrix]]
-
-> **note** the equation above is beautiful because, in [[conventional math notation]], $A^{-1}$ is a [[matrix#inverse]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
-
 ## Computation
 
 > **procedure** _computing the determinant using [[recursion]]_ see #magic
 >
 > _Laplace expansion_
 >
-> note the alternating **`{:}`** and **`{.}`** below. the following sign [[matrix]] can be used to determine the signs of the cofactors:
+> note the alternating **`(:)`** and **`(.)`** below. the following sign [[matrix]] can be used to determine the signs of the cofactors:
 >
-> **`[]{:} & {.} & {:} & {.} & ... && {.} & {:} & {.} & {:} & ... && {:} & {.} & {:} & {.} & ... && {.} & {:} & {.} & {:} & ... && ... & ... & ... & ... & ...[]`**
+> **`[](:) & (.) & (:) & (.) & ... && (.) & (:) & (.) & (:) & ... && (:) & (.) & (:) & (.) & ... && (.) & (:) & (.) & (:) & ... && ... & ... & ... & ... & ...[]`**
 >
 > the first row was chosen below, but any row or column can be used. _cofactor expansion along the first row_
 >
-> **`MM^3,3 A < "det" A = "det" []a & b & c && d & e & f && g & h & i[] = a"det" []e & f && h & i[] . b"det" []d & f && g & i[] : c"det" []d & e && g & h[]`**
+> **`MM^3,3 A < "det" A = "det" []a & b & c && d & e & f && g & h & i[] = a"det" []e & f && h & i[] .. b"det" []d & f && g & i[] : c"det" []d & e && g & h[]`**
 >
 > the base case for the [[algorithm]] is **`"det" []s[] = s`**, where **`s`** is a [[scalar]]
 

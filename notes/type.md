@@ -4,7 +4,7 @@
 
 > **note** in [[functional programming]], [[type]]s are not [[class]]es. they are simply a [[set]] (assuming [[type]]s are modeled in the [[category]] of [[set]]s) containing all possible values that can be used with a given [[function]]. no behavior is defined in a [[type]]
 
-as examples, in Haskell, type `Bool` is a two-element [[set]] of `True` and `False` and type `Char` is the [[set]] of all possible unicode [[character]]s &mdash; <https://youtu.be/aIOMRqiwziM?t=312>
+as examples, in Haskell, type `Bool` is a two-element [[set]] of `True` and `False` and type `Char` is the [[set]] of all possible [[unicode]] [[character]]s &mdash; <https://youtu.be/aIOMRqiwziM?t=312>
 
 ## Top Type
 
@@ -26,9 +26,11 @@ as examples, in Haskell, type `Bool` is a two-element [[set]] of `True` and `Fal
 
 **equiv** _[[set#empty set]]_
 
-**definition** an _empty type_ is a [[type]] with no inhabitants
+**definition** an _empty type_ is a [[type]] with no terms
 
 all [[type#empty type]]s are isomorphic, and thus it is common to refer to one as _the_ [[type#empty type]]
+
+the [[type#empty type]] can be thought of as the [[type#sum type]] of no [[type]]s
 
 > **example** `enum {}` and `!` are [[rust]]'s [[type#empty type]]s
 
@@ -38,11 +40,11 @@ all [[type#empty type]]s are isomorphic, and thus it is common to refer to one a
 
 **equiv** _[[set#singleton set]]_
 
-**definition** a _unit type_ is a [[type]] with exactly one inhabitant
+**definition** a _unit type_ is a [[type]] with exactly one term
 
 all [[type#unit type]]s are isomorphic, and thus it is common to refer to one as _the_ [[type#unit type]]
 
-the [[type#unit type]] can be thought of as the [[type#product type]] of zero [[type]]s, which is an empty tuple
+the [[type#unit type]] can be thought of as the [[type#product type]] of no [[type]]s
 
 > **example** `()` is [[rust]]'s and Haskell's [[type#unit type]] and `void` is [[c]]'s [[type#unit type]]
 
@@ -54,19 +56,42 @@ the [[type#unit type]] can be thought of as the [[type#product type]] of zero [[
 
 **equiv** _[[set#superset]]_
 
-**definition** a [[type]] `A` is a [[type#subtype]] of a [[type]] `B` if all inhabitants of `A` are also inhabitants of `B`
+**definition** a [[type]] `A` is a [[type#subtype]] of a [[type]] `B` if all terms of `A` are also terms of `B`
 
-**definition** a [[type]] `A` is a [[type#supertype]] of a [[type]] `B` if all inhabitants of `B` are also inhabitants of `A`
+**definition** a [[type]] `A` is a [[type#supertype]] of a [[type]] `B` if all terms of `B` are also terms of `A`
 
 **properties**
 
 the _subtype_ [[relation]] is a [[partial order]] &mdash; <https://youtu.be/hy1wjkcIBCU?t=1926>
 
+## Refinement Type
+
+&mdash; <https://en.wikipedia.org/wiki/Refinement_type>
+
+**definition** a _refinement type_ is a [[type]] equipped with a [[predicate]] that is assumed to hold for all terms of the refinement type
+
+> **example**
+>
+> ```rust
+> use non_zero_u8::*; //*
+> mod non_zero_u8 {
+>   pub struct NonZeroU8(u8);
+>   impl NonZeroU8 {
+>     pub fn new(n: u8) -> Option<Self> { (n != 0).then_some(Self(n)) }
+>     pub fn get(&self) -> u8 { self.0 }
+>   }
+> }
+> ```
+>
+> &mdash; <https://youtu.be/KWB-gDVuy_I?t=375>
+
+refinement types may be used to assert pre- and post-conditions at the [[type system]] level
+
 ## Algebraic Data Type
 
-> **resource** _Domain Modeling Made Functional_, and why [[type#algebraic data type]]s matter &mdash; <https://youtu.be/2JB1_e5wZmU>
+[[type#algebraic data type]]s are one tool for _making illegal states unrepresentable_ &mdash; Yaron Minsky &mdash; <https://youtu.be/2JB1_e5wZmU?t=46m16s>
 
-[[type]]s can be used with [[composition]] to create new [[type]]s. however, unlike with [[function]]s, they can be combined in two distinct ways
+> **resource** _Domain Modeling Made Functional_, and why [[type#algebraic data type]]s matter &mdash; <https://youtu.be/2JB1_e5wZmU>
 
 > **example** _ADT [[composition]]_
 >
@@ -83,18 +108,13 @@ the _subtype_ [[relation]] is a [[partial order]] &mdash; <https://youtu.be/hy1w
 >
 > enum PaymentMethod {
 >   Cash,
->   Check {
->     checkNumber: CheckNumber
->   },
->   CreditCard {
->     cardType: CardType,
->     cardNumber: CardNumber,
->   },
+>   Check(CheckNumber),
+>   CreditCard(CardType, CardNumber),
 > };
 >
-> type CheckNumber = u32;
+> struct CheckNumber(u32);
 >
-> type CardNumber = u32;
+> struct CardNumber(u32);
 >
 > enum CardType {
 >   Visa,
@@ -106,13 +126,9 @@ the _subtype_ [[relation]] is a [[partial order]] &mdash; <https://youtu.be/hy1w
 >
 > &mdash; <https://youtu.be/2JB1_e5wZmU?t=23m46s>
 
-**applications**
-
-leveraging [[type#algebraic data type]]s allows us to _make illegal states unrepresentable_ &mdash; Yaron Minsky, &mdash; <https://youtu.be/2JB1_e5wZmU?t=46m16s>
-
 ### Sum Type
 
-**aka** _"or" type_
+**aka** _"or" type, "choice" type, Rust `enum`_
 
 **properties**
 
@@ -120,7 +136,7 @@ the [[set#cardinality]] of a [[type#sum type]] is the sum of the [[set#cardinali
 
 ### Product Type
 
-**aka** _"and" type, "choice" type, `pair`, `struct`_
+**aka** _"and" type, `pair`, `struct`_
 
 **properties**
 

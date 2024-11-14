@@ -12,9 +12,9 @@
 
 &mdash; <https://youtu.be/mvmuCPvRoWQ>
 
-_a [[monoid]] where every element also has an inverse_ &mdash; <https://youtu.be/p54Hd7AmVFU?t=1807>
+_a [[monoid]] where every element also has an inverse_
 
-**definition** a [[group]] is a finite or infinite [[set]] of invertible elements equipped with a closed associative binary operation and an identity element. &mdash; Wikipedia and me
+**definition** a [[group]] is a finite or infinite [[set]] of invertible elements equipped with a closed associative binary operation and an identity element &mdash; Wikipedia and me
 
 **definition**
 
@@ -56,7 +56,7 @@ every element of a [[group]] has exactly one inverse
 
 **`a : O = a > G a`** implies **`O : a = a > G a`**
 
-**`a : . a = O > G a`** implies **`.a : a = O > G a`**
+**`a : .a = O > G a`** implies **`.a : a = O > G a`**
 
 **`..a = a`**
 
@@ -77,4 +77,16 @@ every element of a [[group]] has exactly one inverse
 
 ## Subgroup
 
-**theorem** _Lagrange's Theorem_ let **`G`** be a [[group]] and **`H`** be a [[group#subgroup]] of **`G`**. then, **`/\ yy # {H -| G}`**, see [[psi function]]
+**theorem** _Lagrange's Theorem_ let **`G`** be a [[group]] and **`H`** be a [[group#subgroup]] of **`G`**. then, **`# H`** divides **`# G`**
+
+**theorem** _Cauchy's Theorem_ if **`G`** is a finite [[group]] and **`p`** is a [[prime]] that divides **`# G`** then **`G`** has a [[group#subgroup]] **`H`** with **`# H = p`**
+
+## Homomorphism
+
+**see** [[morphism#homomorphism]]
+
+**definition** a _group homomorphism_ from a [[group]] **`G`** to a [[group]] **`H`** is a [[function]] **`f`** such that **`f (a : b) = f a : f b > G {a /\ b}`**
+
+## Trivial Group
+
+**definition** the _trivial group_ is a [[group]] with exactly one element, the [[group#identity element]]

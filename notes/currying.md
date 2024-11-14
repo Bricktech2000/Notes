@@ -2,18 +2,16 @@
 
 **see** [[function]], [[functional programming]]
 
-**definition** _currying_ is the process of transforming a [[function]] that takes multiple arguments into a set of nested [[function]]s that each take a single argument. &mdash; GitHub Copilot
+**definition** _currying_ is the process of transforming a [[function]] that takes multiple arguments into a set of nested [[function]]s that each take a single argument &mdash; GitHub Copilot
 
 **examples**
 
-in [[conventional math notation]], we define [[function]]s with $f(x , y) = x + 2y$ and call them using $f(x, y)$
+with [[type#product type]]s in [[conventional math notation]], we define [[function]]s with $f(x , y) = x + 2y$ and call them with $f(x, y)$
 
-with [[currying]] in [[conventional math notation]], we define [[function]]s with $f = x \to y \to x + 2y$ and call them using $f(x)(y)$
+with [[currying]] in [[conventional math notation]], we define [[function]]s with $f = x \mapsto y \mapsto x + 2y$ and call them with $f(x)(y)$
 
-in my [[math notation]], [[function]]s can optionally be defined using [[currying]]
+**tradeoffs**
 
-**applications**
+[[currying]] allows for extending [[functional programming]] patterns, which generally work on **`1`**-ary [[function]]s, to work on **`n`**-ary [[function]]s
 
-[[currying]] allows for extending [[functional programming]] patterns, which generally work on [[function]]s with only one input, to work on [[function]]s with multiple inputs.
-
-[[currying]] allows for [[partial application]]
+from [[currying]] one may [[discover]] and not [[invent]] [[partial application]]

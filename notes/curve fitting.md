@@ -16,7 +16,7 @@ except it doesn't really work &mdash; Kiera
 
 **definition**
 
-**`R2 = 1 . (:[y . y_*]2  --  :[y . mm]2)`**, where
+**`R2 = 1 .. (:[y..y_*]2 -- :[y..mm]2)`**, where
 
 - **`R2`** is the _coefficient of determination_ of the model
 - **`y`** are the observed values

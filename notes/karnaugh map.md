@@ -1,8 +1,6 @@
 # Karnaugh Map
 
-_a 2D version of a [[truth table]]_
-
-**aka** _K Map (informal abbreviation)_
+_2D [[truth table]]s_
 
 **see** [[math notation]]
 
@@ -26,13 +24,7 @@ as [[karnaugh map]]s are difficult to represent in more than two dimensions, mul
 
 **applications**
 
-[[karnaugh map]]s allow the simplification of [[boolean]] expressions without using [[boolean algebra]]
-
-> **procedure** _simplifying a [[boolean]] expression_
->
-> 1. draw the [[boolean]] expression as a [[karnaugh map]], see [[disjunctive normal form]]
-> 2. find "rectangles" of the same value, which can actually wrap around the edges of the [[karnaugh map]]. use the AND [[operator]] to group them together.
-> 3. use the OR [[operator]] to join the "rectangles" together
+[[karnaugh map]]s help simplify [[boolean]] expressions to [[disjunctive normal form]] and [[conjunctive normal form]] through [[karnaugh map#implicant]]s
 
 ## Implicant
 
@@ -40,8 +32,8 @@ as [[karnaugh map]]s are difficult to represent in more than two dimensions, mul
 
 in a [[karnaugh map]],
 
-**definition** an _implicant_ is a product term that, if true, implies the [[boolean]] [[function]] represented is true (informally, **`I = ^^ < f x = ^^`**). it is a rectangle of **`2[*] == (1, 2, 4, 8 ...)`** values
+**definition** an _implicant_ is a product term that, if true, implies the [[boolean]] [[function]] represented is true. it is a rectangle of **`{{1, 2, 4, 8 ...}}`** values
 
 **definition** a _prime implicant_ is an implicant (rectangle) that "can't be explanded any larger". more formally, it cannot be covered entirely by any other implicant.
 
-**definition** an _Essential Prime Implicant_ is a prime implicant that cannot be removed without leaving a **`1`** not covered. for all the **`1`** values to be covered in a [[karnaugh map]], all essential prime implicants must be present, but all essential prime implicants being present does not imply all **`1`** values have been covered. prime implicants that can be removed without leaving a **`1`** not covered are known as _Non-Essential Prime Implicants_
+**definition** an _essential prime implicant_ is a prime implicant that cannot be removed without leaving a **`1`** not covered. for all the **`1`** values to be covered in a [[karnaugh map]], all essential prime implicants must be present, but all essential prime implicants being present does not imply all **`1`** values have been covered. prime implicants that can be removed without leaving a **`1`** not covered are known as _non-essential prime implicants_

@@ -40,7 +40,35 @@ _identity element_ allows for the binary operation to be used when data is empty
 
 > **example** the following data [[type]]s and binary [[operator]]s are examples of [[monoid]]s:
 >
-> - `String` and concatenation, see [[string]]
+> - `String` and [[string#concatenation]], see [[string]]
 > - `u32` and addition, see [[natural]]
 > - `f64` and multiplication, see [[float]]
 > - `Fn` and [[composition]], see [[function]]
+
+## Free Monoid
+
+&mdash; <https://en.wikipedia.org/wiki/Free_monoid>
+
+**see** [[semigroup#free semigroup]]
+
+**notation** _in [[conventional math notation]]_ $S^*$
+
+**definition** the _free monoid_ on a [[set]] is its smallest [[set#superset]] forming a [[monoid]] under [[string#concatenation]]
+
+**definition** $S^* = S^+ \cup \{\epsilon\}$, see [[semigroup#free semigroup]]
+
+> **note** $\{\epsilon\}^+ = \{\epsilon\}$ and therefore it is not always the case that $S^* = S^+ \sqcup \{\epsilon\}$, see [[set#disjoint union]] &mdash; <https://cs.stackexchange.com/questions/35600/kleene-star-and-kleene-plus>
+
+**equiv** _`*` operator in [[regular expression]]s_
+
+**properties**
+
+the [[monoid#free monoid]] [[operator]] is a [[function#idempotent function]]
+
+## Homomorphism
+
+&mdash; <https://en.wikipedia.org/wiki/Monoid#Monoid_homomorphisms>
+
+**see** [[morphism#homomorphism]]
+
+**definition** a _monoid homomorphism_ from a [[monoid]] **`M`** to a [[monoid]] **`N`** is a [[function]] **`f`** such that **`f I = I /\ f (a \* b) = f a \* f b > M {a /\ b}`** #todo id

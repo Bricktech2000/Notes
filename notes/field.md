@@ -36,7 +36,7 @@ _additive identity_ **`HH O /\ a : O = a`**
 
 _multiplicative identity_ **`HH I /\ aI = a`**
 
-_additive inverse_ **`HH (.a) /\ a : (.a) = O`**
+_additive inverse_ **`HH ..a /\ a : ..a = O`**
 
 _multiplicative inverse_ **`HH (-a) /\ a(-a) = I`**
 

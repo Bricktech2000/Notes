@@ -24,7 +24,7 @@ _a highly customizable text editor with efficient key bindings_
 - `R` &mdash; _replace_ [[vim#mode]]
 - `v` &mdash; _visual_ [[vim#mode]]
 - `V` &mdash; _visual line_ [[vim#mode]]
-- `<C-v>` &mdash; _visual block_ [[vim#mode]]
+- `<c-v>` &mdash; _visual block_ [[vim#mode]]
 - `i` &mdash; _insert_ [[vim#mode]]
 - `I` &mdash; _insert_ [[vim#mode]] at start of line
 - `a` &mdash; insert [[vim#mode]] _after_ cursor
@@ -35,9 +35,9 @@ _a highly customizable text editor with efficient key bindings_
 ## Operator
 
 - `u` &mdash; _undo_
-- `<C-r>` &mdash; _redo_
-- `g+` &mdash; go to next change in undo tree
-- `g-` &mdash; go to previous change in undo tree
+- `<c-r>` &mdash; _redo_
+- `g+` &mdash; go to newer text state in undo tree
+- `g-` &mdash; go to older text state in undo tree
 - `.` &mdash; repeat
 - `r` &mdash; _replace_ character
 - `J` &mdash; _join_ current line with next
@@ -72,18 +72,23 @@ _a highly customizable text editor with efficient key bindings_
 - `""` &mdash; unnamed [[vim#register]]
 - `"_` &mdash; black hole [[vim#register]]
 - `"0` &mdash; last yank [[vim#register]]
+- `"1` &mdash; last delete [[vim#register]]
 - `"/` &mdash; last search [[vim#register]]
-- `":` &mdash; last command [[vim#register]]
 - `"+` &mdash; system clipboard [[vim#register]]
+- `":` &mdash; last command-line [[vim#register]]
 
 ## Motion
 
-- `<C-o>` &mdash; jump back in jump list
-- `<C-i>` &mdash; jump forward in jump list
+- `<c-o>` &mdash; jump back in jump list
+- `<c-i>` &mdash; jump forward in jump list
+- `<c-^>` &mdash; jump to alternate file
 - `''` &mdash; jump back to last jump
-- `` ` ``**m** &mdash; jump to mark **m**
-- `'`**m** &mdash; jump to line containing mark **m**
+- `` ` ``**m** &mdash; jump to [[vim#mark]] **m**
+- `'`**m** &mdash; jump to line containing [[vim#mark]] **m**
 - **n**`gg` &bull; **n**`G` &mdash; jump to line number **n**
+- **n**`|` &mdash; jump to column number **n**
+- **n**`go` &mdash; jump to byte number **n**
+  > **resource** _Byte Positions Are Better Than Line Numbers_, by Casey Muratori &mdash; <https://www.computerenhance.com/p/byte-positions-are-better-than-line>
 
 |              | next | prev | start | mid   | end  |
 | ------------ | ---- | ---- | ----- | ----- | ---- |
@@ -92,16 +97,16 @@ _a highly customizable text editor with efficient key bindings_
 | Word         | `W`  | `B`  | `gE`  |       | `E`  |
 | sentence     | `)`  | `(`  |       |       |      |
 | display line | `gj` | `gk` | `g0`  |       | `g$` |
-| line         | `j`  | `k`  | `0`   |       | `$`  |
+| line         | `j`  | `k`  | `0`   | `gM`  | `$`  |
 | paragraph    | `}`  | `{`  |       |       |      |
 | screen       |      |      | `H`   | `M`   | `L`  |
 | file         |      |      | `gg`  | `50%` | `G`  |
 
 |             | next    | prev    | start | mid  | end  |
 | ----------- | ------- | ------- | ----- | ---- | ---- |
-| line        | `<C-e>` | `<C-y>` |       |      |      |
-| half screen | `<C-d>` | `<C-u>` |       |      |      |
-| screen      | `<C-f>` | `<C-b>` | `zb`  | `zz` | `zt` |
+| line        | `<c-e>` | `<c-y>` |       |      |      |
+| half screen | `<c-d>` | `<c-u>` |       |      |      |
+| screen      | `<c-f>` | `<c-b>` | `zb`  | `zz` | `zt` |
 
 ## Text Object
 
@@ -124,19 +129,20 @@ _a highly customizable text editor with efficient key bindings_
 - `q` &mdash; stop recording [[vim#macro]]
 - `@`**m** &mdash; play back [[vim#macro]] **m**
 - `@@` &mdash; repeat last [[vim#macro]] playback
-- `Q` &mdash; play back last recorded [[vim#macro]]
+- `Q` &mdash; play back last recorded [[vim#macro]] (Neovim only)
+- `@:` &mdash; re-run last command-line
 
 ## Search
 
 - `cgn` &mdash; change next [[vim#search]] match
 - `dgn` &mdash; delete next [[vim#search]] match
 
-|                              | forward    | backward   | next | prev |
-| ---------------------------- | ---------- | ---------- | ---- | ---- |
-| search string **str**        | `/`**str** | `?`**str** | `n`  | `N`  |
-| search word                  | `*`        | `#`        | `n`  | `N`  |
-| find _first_ character **c** | `f`**c**   | `F`**c**   | `;`  | `,`  |
-| find _upto_ character **c**  | `t`**c**   | `T`**c**   | `;`  | `,`  |
+|                              | forward         | backward        | next | prev |
+| ---------------------------- | --------------- | --------------- | ---- | ---- |
+| search string **str**        | `/`**str**      | `?`**str**      | `n`  | `N`  |
+| search word                  | `*` &bull; `g*` | `#` &bull; `g#` | `n`  | `N`  |
+| find _first_ character **c** | `f`**c**        | `F`**c**        | `;`  | `,`  |
+| find _upto_ character **c**  | `t`**c**        | `T`**c**        | `;`  | `,`  |
 
 ## Mark
 
@@ -153,13 +159,18 @@ _a highly customizable text editor with efficient key bindings_
 - `xp` &mdash; swap character with next
 - `ddp` &mdash; swap current line with next
 - `r<cr>` &mdash; split line at cursor
+- `==` &mdash; push text state onto undo tree (well kind of)
+- `99g+` &mdash; jump to latest change in undo tree
+- `99<c-r>` &mdash; jump to latest change in undo branch
 
-## Miscellanous
+## miscellanous
 
-- `<C-g>` &bull; `g<C-g>` &mdash; show some buffer info
+- `<c-g>` &bull; `g<c-g>` &mdash; show some buffer info
 - `gv` &mdash; re-select last _visual_ selection
 - `gf` &mdash; open _file_ under cursor
 - `gd` &mdash; jump to local _definition_ under cursor
 - `gD` &mdash; jump to global _declaration_ under cursor
 - `:!`**cmd** &mdash; run shell command **cmd**
 - `!!`**cmd** &mdash; run shell command **cmd** on current line
+- `:%!`**cmd** &mdash; run shell command **cmd** on entire file
+- `:u!` &mdash; undo one change and remove it from undo tree

@@ -8,7 +8,7 @@ there seems to exist some sort of a [[morphism#isomorphism]] between [[abstract 
 >
 > - [[book]]s are [[array]]s. it is hard to look up data stored on an unknown page of a [[book]], and it is hard to find a specific item in an [[array]]. the table of contents of a [[book]] is a [[map]] that can be used to find data in the [[book]]
 > - sequential notes are a [[set]] of [[linked list]]s or [[array]]s, depending on whether the notes are digital. most people use one notebook per subject, which creates a [[set]]. sequential notes are taken sequentially, which forms a [[list]]
-> - conceptual notes are a [[graph]] of [[tree]]s. every [[concept]] is organized by the [[set]] of [[concept]]s it is related to, which forms a [[graph]]. each [[concept]] is divided into multiple levels of subtitles within one file, which creates a [[tree]]
+> - conceptual notes are a [[graph]] of [[tree]]s. every [[concept]] is organized by the [[set]] of [[concept]]s it is related to, which forms a [[graph]]. each [[concept]] is divided into a hierarchy of subheadings within one file, which creates a [[tree]]
 > - a file system is a [[tree]], or a [[set]] of [[set]]s of [[set]]s of items. this is self-explanatory. if the files within a folder are sorted by some metric, then the file system becomes a [[list]] of [[list]]s of [[list]]s of items
 
 > **example** _translating between [[abstract data type]]s and information organization through isomorphisms_

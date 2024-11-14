@@ -4,7 +4,7 @@
 
 **properties**
 
-[[hash]] [[function]]s are often optimized for a low number of [[hash#collision]]s
+[[hash]] [[function]]s are often optimized so as to minimize [[hash#collision]]s
 
 [[hash]] [[function]]s are deterministic
 

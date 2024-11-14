@@ -1,3 +1,3 @@
 # Proton
 
-**notation** **`p^+`**
+**notation** $p^+$

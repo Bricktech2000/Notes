@@ -1,6 +1,6 @@
 # Depth-First Search
 
-**see** [[stack]], [[set]]
+**see** [[stack]], [[set]], [[graph]]
 
 **representation**
 
@@ -10,11 +10,11 @@ def depth_first_search(start):
   visited = set()
 
   while stack:
-    node = stack.pop(0)
+    node = stack.pop()
 
     for neighbor in node.neighbors:
       if neighbor not in visited:
-        stack.push(neighbor)
+        stack.append(neighbor)
         visited.add(neighbor)
         yield neighbor
 ```

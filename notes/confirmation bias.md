@@ -14,7 +14,7 @@ _interpreting information so it becomes compatible with existing beliefs_
 
 _whether you think the world and everyone in it is out to hurt you or help you, you're right_
 
-one can leverage [[confirmation bias]] to change a belief of theirs. assuming something to be true will lead to [[confirmation bias]] and thus make it true &mdash; <https://youtu.be/0FGlsuTnt_U?t=844>
+one can leverage [[confirmation bias]] to change a belief of theirs. assuming something to be true will lead to [[confirmation bias]] and thus make it true &mdash; <https://youtu.be/0FGlsuTnt_U?t=844>, forming a _self fulfilling prophecy_ through the [[power of belief]]
 
 > **examples**
 >

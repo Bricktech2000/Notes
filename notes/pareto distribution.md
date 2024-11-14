@@ -1,4 +1,4 @@
-## Pareto Distribution
+# Pareto Distribution
 
 **see** [[math notation]], [[probability distribution]]
 

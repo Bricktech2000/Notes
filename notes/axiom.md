@@ -2,4 +2,4 @@
 
 _assumptions of a mathematical system that do not require a proof_
 
-used for backlinks
+[[axiom]]s are [[invent]]ions atop which [[mathematics]] are [[discover]]ed

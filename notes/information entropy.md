@@ -2,7 +2,7 @@
 
 &mdash; <https://en.wikipedia.org/wiki/Entropy_(information_theory)>
 
-**see** [[entropy]]
+**see** [[entropy]], [[math notation]]
 
 **definition** **`H = :PI`**, where
 

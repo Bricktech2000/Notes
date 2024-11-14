@@ -2,7 +2,7 @@
 
 **see** [[set]], [[outer product]], [[math notation]]
 
-**definition** the _cartesian product_ **`__ {A, B} *`** of two [[set]]s **`A`** and **`B`** is the [[set]] of all possible [[ordered pair]]s **`{a, b}`** such that **`A a __ B b`**
+**definition** the _cartesian product_ **`__ {A, B} *`** of two [[set]]s **`A`** and **`B`** is the [[set]] of all possible [[ordered pair]]s **`{a, b}`** such that **`A a /\ B b`**
 
 > **example** **`__ { {{x, y}}, {{0, 1}} } * = {{ {x, 0}, {x, 1}, {y, 0}, {y, 1} }}`**
 

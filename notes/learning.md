@@ -12,7 +12,7 @@ _how things learn_
 
 > **resource** _Guessing the Teacher's Password_, on the distinction between _passwords_ and _explanations_ &mdash; <https://www.readthesequences.com/Guessing-The-Teachers-Password>
 
-for efficient [[learning]], a system must **have access to feedback** that is a **[[function]] of the system inputs** and that is **timely and actively used in improving**
+for efficient [[learning]], a system must **have access to feedback** that is a **[[function]] of the system inputs** and that is **timely and actively used for improvement**
 
 for a system to become talented at performing a task, the task **repetition-to-complexity ratio must be high enough**
 
@@ -30,6 +30,6 @@ for a system to become talented at performing a task, the task **repetition-to-c
 
 when [[learning]] through a biological [[brain]], other factors are worth considering:
 
-- for humans to learn efficiently, they must practice **deliberately**; this is often referred to as _active learning_, and can be achieved through [[active recall]]. they must practice in that uncomfortable zone the skills they haven't quite learned yet, which is [[difficult]] and requires a lot of effort. a teacher can be very valuable for [[learning]] as they can point out weeknesses to consistently keep a student at the limit of their abilities
-- there is evidence that [[memory]] consolidation is highly dependent on getting a proper amount of [[sleep#rem sleep]] &mdash; <https://youtu.be/IlU-zDU6aQ0?t=2219>. this is why it is important to get enough [[sleep]] after [[learning]] new [[fact]]s or [[concept]]s
+- for humans to learn efficiently, they must practice **deliberately**; this is often referred to as _active learning_, and can be achieved through [[active recall]]. they must practice in that uncomfortable zone the skills they haven't quite learned yet, which is [[difficult]] and requires a lot of effort. teachers are valuable because they can point out weeknesses to consistently keep a student at the limit of their abilities
+- there is evidence that [[memory]] consolidation is highly dependent on getting a proper amount of [[sleep#rem sleep]] &mdash; <https://youtu.be/IlU-zDU6aQ0?t=2219>
 - [[learning]] can be seen as a [[habit]], in which case it is highly dependent on environmental [[cue]]s. see [[habit#formation]]
