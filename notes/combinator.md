@@ -1,6 +1,6 @@
 # Combinator
 
-**definition** a _combinator_ is a [[lambda calculus]] term that refers only to its arguments &mdash; <https://youtu.be/seVSlKazsNk>
+**definition** a _combinator_ is a closed [[lambda calculus]] term &mdash; <https://youtu.be/seVSlKazsNk>
 
 **properties**
 
@@ -18,13 +18,13 @@ _identity_
 
 **equiv** _[[composition#identity]]_
 
-**definition** **`I = x -> x = {*}`**
+**definition** **`I = x -> x = (*)`** #todo id
 
 **definition** **`I = S K K`**
 
 **definition** **`I = ii ii`**
 
-**notation** **`{*} x`**
+**notation** **`(*) x`** #todo id
 
 ### K Combinator
 
@@ -32,21 +32,21 @@ _discards the second argument_
 
 **aka** _constant, `const` in Haskell_
 
-**definition** **`K = f x y -> f x`**
+**definition** **`K = x. y. x`**
 
 **definition** **`K = ii (ii (ii ii))`**
 
-**notation** **`{->} x y`**
+**notation** **`.x y`**
 
 ### S Combinator
 
 **aka** _substitution, `<*>` and `ap` in Haskell_
 
-**definition** **`S = f g x -> f x (g x)`**
+**definition** **`S = f. g. x. f x (g x)`**
 
 **definition** **`S = ii (ii (ii (ii ii)))`**
 
-**notation** **`{f g} x`** or equivalently **`{* f g} x`**
+**notation** **`(f g) x`** or equivalently **`(* f g) x`** #todo id
 
 ### B Combinator
 
@@ -56,13 +56,13 @@ _the [[composition]] of its arguments_
 
 **equiv** _[[composition]]_
 
-**definition** **`B = f g x -> f (g x)`**
+**definition** **`B = f. g. x. f (g x)`**
 
 **definition** **`B = S (K S) K`**
 
-**definition** _in [[lambda calculus]]_ $B = \lambda fgx.\ f\ (g\ x)$
+**definition** _in the [[lambda calculus]]_ $B = \lambda fgx.\ f\ (g\ x)$
 
-**notation** **`(f g *) x`**
+**notation** **``f`g x``**
 
 &mdash; <https://youtu.be/SmXB2K_5lcA?t=612>
 
@@ -70,13 +70,11 @@ _the [[composition]] of its arguments_
 
 **aka** _"blackbird", `.:` in Haskell_
 
-**definition** **`B_1 = f g x y -> f (g x y)`**
+**definition** **`B_1 = f. g. x. y. f (g x y)`**
 
 **definition** **`B_1 = B B B`**
 
 **definition** `.: = (.) . (.)`
-
-**notation** **`(f g * *) x y`**
 
 ### C Combinator
 
@@ -86,7 +84,7 @@ _swaps the arguments to a function_
 
 **equiv** _[[matrix#transpose]]_
 
-**definition** **`C = f x y -> f y x`**
+**definition** **`C = f. x. y. f y x`**
 
 **definition** **`C = S (B B S) (K K)`**
 
@@ -98,11 +96,11 @@ _duplicates the second argument_
 
 **aka** _duplication, 'commute' or 'self' in APL, `join` in Haskell_
 
-**definition** **`W = f x -> f x x`**
+**definition** **`W = f. x. f x x`**
 
 **definition** **`W = C S K`**
 
-**notation** **`{f *} x`** or equivalently **`{* f *} x`**
+**notation** **`(f *) x`** or equivalently **`(* f *) x`** #todo id
 
 ### M Combinator
 
@@ -110,11 +108,11 @@ _applies a [[function]] to itself_
 
 **aka** _mockingbird, **`ww`** combinator_
 
-**definition** **`M = f -> f f`**
+**definition** **`M = f. f f`**
 
 **definition** **`M = S I I`**
 
-**notation** **`{* *} f`**
+**notation** **`(* *) f`** #todo id
 
 ### KI Combinator
 
@@ -122,9 +120,9 @@ _discards the first argument_
 
 **aka** _kite, `const id` in Haskell_
 
-**definition** **`K I = f x y -> f y`**
+**definition** **`K I = f. x. y. f y`**
 
-**notation** **`{->} {*}`**
+**notation** **`.(*)`** #todo id
 
 ### T Combinator
 
@@ -132,7 +130,7 @@ _applies the first argument to the second argument_
 
 **aka** _thrush, `&` in Haskell_
 
-**definition** **`T = x f -> f x`**
+**definition** **`T = x. f. f x`**
 
 **definition** **`T = C I`**
 
@@ -140,21 +138,21 @@ _applies the first argument to the second argument_
 
 _applies a [[function]] twice_
 
-**definition** **`S B I = f x -> f (f x)`**
+**definition** **`S B I = f. x. f (f x)`**
 
 ### Sigma Combinator
 
 **aka** _chain, `=<<` in Haskell, S' combinator_
 
-**definition** **`SS = f g x -> f (g x) x`**
+**definition** **`SS = f. g. x. f (g x) x`**
 
-**notation** **`{g f *} x`**
+**notation** **`(g f *) x`** #todo id
 
 ### Psi Combinator
 
 **aka** _`on` in Haskell_
 
-**definition** **`YY = f g x y -> f (g x) (g y)`**
+**definition** **`YY = f. g. x. y. f (g x) (g y)`**
 
 **notation** **`g {x f y}`**
 
@@ -162,15 +160,15 @@ _applies a [[function]] twice_
 
 **aka** _converge, `liftA2` and `liftM2` and `phoenix` and `starling'` in Haskell, S2 combinator, S' combinator, 'fork' in APL_
 
-**definition** **`FF = f g h x -> f (g x) (h x)`**
+**definition** **`FF = f. g. h. x. f (g x) (h x)`**
 
-**notation** **`{g f h} x`**
+**notation** **`(g f h) x`**
 
 ### Phi1 Combinator
 
-**definition** **`FF_1 = f g h x y -> f (g x y) (h x y)`**
+**definition** **`FF_1 = f. g. h. x. y. f (g x y) (h x y)`**
 
-**notation** **`x {g f h} y`**
+**notation** **`x (g f h) y`**
 
 ### Y Combinator
 
@@ -182,23 +180,35 @@ _used to formally define recursive [[function]]s in a [[functional programming]]
 
 **equiv** _[[recursion#general recursion]]_
 
-**definition** **`Y = f -> (x -> f (x x)) (x -> f (x x))`**
+**definition** **`Y = f. (x. f (x x)) (x. f (x x))`**
 
-**definition** _using [[recursion]]_ **`Y = f -> f (Y f)`**
+**definition** _using [[recursion]]_ **`Y = f. f (Y f)`**
 
-**definition** _in [[lambda calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
+**definition** _in the [[lambda calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
 
-**definition** _using [[combinator]]s_ **`Y = f -> {* *} (f {* *} *)`**
+**definition** _using [[combinator]]s_ **``Y = f. (* *) f`(* *)``** #todo id
 
-_it is not recursive but it encodes [[recursion]]_ &mdash; <https://youtu.be/9T8A89jgeTI?t=678>
+> **example** $fact = Y\ (\lambda f\ n.\ (is0\ n)\ 1\ (mul\ n\ (f\ (pred\ n))))$ &mdash; <https://crypto.stanford.edu/~blynn/lambda/>
 
 &mdash; <https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator>
 
+### Theta Combinator
+
+**aka** _Turing combinator_
+
+**definition** **`QQ = (x. y. y (x x y)) (x. y. y (x x y))`**
+
+the advantage of the [[combinator#theta combinator]] over the [[combinator#y combinator]] is that **`QQ f`** &beta;-reduces to **`f (QQ f)`** while **`Y f`** and **`f (Y f)`** only &beta;-reduce to a common term
+
+&mdash; <https://en.wikipedia.org/wiki/Fixed-point_combinator#Other_fixed-point_combinators>
+
+&mdash; <https://crypto.stanford.edu/~blynn/lambda/quine.html#_curry>
+
 ### Iota Combinator
 
-**definition** **`ii = x -> x S K`**
+**definition** **`ii = x. x S K`**
 
-the [[combinator#iota combinator]] can be used to define the [[combinator#s combinator]] and [[combinator#k combinator]], and can therefore be composed to produce [[combinator#combinator]]s that are extentionally equal to any [[lambda calculus]] term. consequently, **`ii`** [[combinatory logic]] is [[turing complete]]
+the [[combinator#iota combinator]] can be used to define the [[combinator#s combinator]] and [[combinator#k combinator]], and can therefore be composed to produce [[combinator#combinator]]s that are extentionally equal to any term in the [[lambda calculus]]. consequently, **`ii`** [[combinatory logic]] is [[turing complete]]
 
 #### &mdash;
 

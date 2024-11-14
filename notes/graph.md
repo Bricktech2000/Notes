@@ -2,17 +2,19 @@
 
 _a collection of vertices connected by a collection of edges_
 
-**see** [[abstract data type]]
+**see** [[abstract data type]], [[dependency graph]]
 
-**definition** _formally in my [[math notation]]_ a [[graph]] is a [[set theory]]etical [[function]] that takes two vertices and returns whether an edge is connecting them
-
-**definition** an _undirected graph_ is a [[graph]] **`G`** such that **`{= rr} G`**
+**definition** _formally in my [[math notation]]_ a [[graph]] is a [[set theory]]etical incidence [[function]] that takes two vertices and returns whether an edge is connecting them; it is a [[relation]] on vertices
 
 **definition** a _weighted graph_ is a [[graph]] **`G`** such that **`RR (G a b)`** for all **`a`** and **`b`**
 
-**definition** in [[conventional math notation]], a _graph_ **`{V, E}`** is a [[set]] of _vertices_ **`V`** and a [[multiset]] of _edges_ **`E`** such that **`E e + 0 < V e^.^^ /\ V e^.__`** and **`E e == E (rr e)`** (see [[relation]], [[ordered pair]])
+**definition** an _undirected graph_ is a [[graph]] **`G`** such that **`(= rr) G`**
 
-**definition** in [[conventional math notation]], a _directed graph_ **`{V, E}`** is a [[set]] of _vertices_ **`V`** and a [[multiset]] of _edges_ **`E`** such that **`E e + 0 < V e^.^^ /\ V e^.__`** (see [[relation]], [[ordered pair]])
+directionality can be "forgotten" by taking the [[relation#symmetric closure]] of the [[graph]]
+
+**definition** in [[conventional math notation]], a _graph_ **`{V, E}`** is a [[set]] of _vertices_ **`V`** and a [[multiset]] of _edges_ **`E`** such that **`E e + 0 < V (e I) /\ V (e O)`** and **`E e == E e(+)`** (see [[relation]], [[ordered pair]])
+
+**definition** in [[conventional math notation]], a _directed graph_ **`{V, E}`** is a [[set]] of _vertices_ **`V`** and a [[multiset]] of _edges_ **`E`** such that **`E e + 0 < V (e I) /\ V (e O)`** (see [[relation]], [[ordered pair]])
 
 **definition** a _vertex_ or _node_ is a point in a _graph_
 
@@ -30,19 +32,19 @@ _a collection of vertices connected by a collection of edges_
 
 ## vertex membership
 
-**definition** _in my [[math notation]]_ a vertex **`v`** is in a graph **`G`** if and only if there is at least one edge incident to it; **`G v == G^v,*  ^^ G^*,v + {{ }}`**
+**definition** _in my [[math notation]]_ a vertex **`v`** is in a graph **`G`** if and only if there is at least one edge incident to it; **`(\/ rr) G v + {{ }}`**
 
 **definition** _in [[conventional math notation]]_ a vertex **`v`** is in a graph **`{V, E}`** if and only if **`V v`**
 
 ## Isomorphism
 
-**see** [[category]], [[category theory]]
+**see** [[morphism#isomorphism]]
 
-**definition** two [[graph]]s are said to be _isomorphic_ if they have the same edges connecting their vertices, which could be labelled differently
+**definition** two [[graph]]s are said to be _isomorphic_ if they have the same edges connecting their vertices, which could be labeled differently
 
-**definition** in my [[math notation]], a _graph isomorphism_ between two [[graph]]s **`G_1`** and **`G_2`** is a bijective [[function]] **`f`** such that **`G_1^v,w == G_2^fv,fw`**
+**definition** in my [[math notation]], a _graph isomorphism_ between two [[graph]]s **`G_1`** and **`G_2`** is a [[function#bijective function]] **`f`** such that **`G_1 v w == G_2 (f v) (f w)`**
 
-**definition** in [[conventional math notation]], a _graph isomorphism_ between two [[graph]]s **`{V_1, E_1}`** and **`{V_2, E_2}`** is a bijective [[function]] **`f`** from **`V_1`** to **`V_2`** such that any two vertices **`a`** and **`b`** in **`V_1`** have an edge in **`E_1`** connecting them if and only if **`f a`** and **`f b`** have an edge in **`E_2`** connecting them.
+**definition** in [[conventional math notation]], a _graph isomorphism_ between two [[graph]]s **`{V_1, E_1}`** and **`{V_2, E_2}`** is a [[function#bijective function]] **`f`** from **`V_1`** to **`V_2`** such that any two vertices **`a`** and **`b`** in **`V_1`** have an edge in **`E_1`** connecting them if and only if **`f a`** and **`f b`** have an edge in **`E_2`** connecting them.
 
 ## Complete Graph
 
@@ -60,13 +62,11 @@ _a collection of vertices connected by a collection of edges_
 
 **definition** a [[graph]] **`G_1`** is a _subgraph_ of **`G_2`** if and only if it is a [[graph]] and **`/\ G_1 -| G_2`**
 
-**definition** a [[graph]] **`G_1`** is an _induced subgraph_ of **`G_2`** if and only if it is a _subgraph_ of **`G_2`** and **`G_1 v /\ G_1 w < G_1^v,w = G_2^v,w`** (the subgraph must contain all the original edges connecting its vertices)
-
 **definition** a [[graph]] **`G_2`** is a _supergraph_ of **`G_1`** if and only if it is a [[graph]] and **`/\ G_2 |- G_1`**
 
 ## Vertex Degree
 
-**definition** the _degree_ of a vertex **`v`** is the number of edges incident to it, **`# G v`**
+**definition** the _degree_ of a vertex **`v`** is the number of edges incident to it, **`#G v`**
 
 as every edge connects two vertices, the sum of the [[graph#vertex degree]]s of all vertices of a [[graph]] is an [[even number]]. if this is not the case, the [[graph]] is not a [[graph]] as at least one of its edges is not connected to two vertices
 

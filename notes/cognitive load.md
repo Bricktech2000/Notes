@@ -8,10 +8,10 @@ _the amount of working memory resources used to process information_
 
 > **examples**
 >
-> - "I need to call Alice on Thursday"
-> - "that comment he made really bugged me"
-> - "I need to get milk on the way home"
-> - "why did she lie to them?"
+> - _I need to call Alice on Thursday_
+> - _that comment he made really bugged me_
+> - _I need to get milk on the way home_
+> - _why did she lie to them?_
 >
 > &mdash; <https://youtu.be/q5udGQj4iVY> and me
 

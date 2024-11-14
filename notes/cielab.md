@@ -8,7 +8,7 @@ _for data visualization and color interpolation_
 
 math is "incorrect" in the [[cielab]] [[color space]] but looks perceptually smooth because it is tuned to human perception of [[color]]
 
-the **`L_\*`** component of [[cielab]] represents _perceptual [[lightness]]_ and the **`a_\*`** and **`b_*`** components of [[cielab]] represent [[chromaticity]]
+the **`L_\*`** component of [[cielab]] represents _perceptual [[lightness]]_ and the **`a_\*`** and **`b_\*`** components of [[cielab]] represent [[chromaticity]]
 
 **representation** _a gradient in [[linear srgb]] compared to a gradient in [[cielab]]_
 

@@ -46,6 +46,6 @@ technical analysis uses data on past movements in stock price and overall market
 
 behavioral analysis emphasizes human [[psychology]] and [[cognitive bias]]es and seeks to take advantage of the irrationality of the [[stock market]]
 
-### Dollar-Cost Averaging
+### Dollar Cost Averaging
 
-dollar-cost averaging is a passive strategy which attempts to neutralize short-term volatility by assuming that the long-term trend of the [[stock market]] is upward. this is done by [[invest]]ing a fixed amount of [[money]] at regular intervals
+dollar cost averaging is a passive strategy which attempts to neutralize short-term volatility by assuming that the long-term trend of the [[stock market]] is upward. this is done by [[invest]]ing a fixed amount of [[money]] at regular intervals

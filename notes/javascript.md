@@ -18,6 +18,7 @@ _[[type system]] madness_
   [] + []; // ''
   [] + {}; // '[object Object]'
   {} + []; // 0
+  {} + {}; // '[object Object][object Object]'
   typeof document.all; // 'undefined'
   true + true + true === 3; // true
   true - true === 0; // true
@@ -28,7 +29,7 @@ _[[type system]] madness_
   [] == ![]; // true
   ',,,' == new Array(4); // true
   'false' == ['false']; // true
-  [6, -2, 2, -7].sort() // [-2, -7, 2, 6]
+  [21, 12, 2, 1].sort() // [1, 12, 2, 21]
 }
 ```
 

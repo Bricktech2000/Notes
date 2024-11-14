@@ -186,9 +186,11 @@ _the diagonal of a [[matrix]]_
 
 **notation** **`:{A *}`**, see [[combinator#w combinator]]
 
-## Transpose
+**properties**
 
-_the transpose of a [[matrix]]_
+**`:{(A:B) *} = :{A *} : :{B *}`**
+
+## Transpose
 
 _flips a [[matrix]] around its [[matrix#diagonal]]_
 
@@ -200,9 +202,9 @@ _flips a [[matrix]] around its [[matrix#diagonal]]_
 
 **properties**
 
-**`rr rr A = A`**
+_[[function#self-inverse function]]_ **`rr rr A = A`**
 
-**`rr :(A *)(rr B *) = :(rr B *)(rr rr A *)`**
+**`rr AB = rr B | rr A`** #todo mm
 
 ## Conjugate Transpose
 
@@ -293,15 +295,15 @@ if **`AC`** is invertible, then **`A`** is invertible and **`C`** is invertible
 
 ## Triangular Matrix
 
-**definition** a [[matrix]] is said to be _triangular_ if every entry below its [[matrix#diagonal]] **or** above its [[matrix#diagonal]] is **`0`**
+**definition** a [[matrix]] **`A`** is said to be _triangular_ if every entry below its [[matrix#diagonal]] **or** above its [[matrix#diagonal]] is **`0`**
 
 ## Diagonal Matrix
 
-**definition** a [[matrix]] is said to be _diagonal_ if every entry below its [[matrix#diagonal]] **and** above its [[matrix#diagonal]] is **`0`**
+**definition** a [[matrix]] **`A`** is said to be _diagonal_ if every entry below its [[matrix#diagonal]] **and** above its [[matrix#diagonal]] is **`0`**; that is, **`m + n < A m n = 0`**
 
 **properties**
 
-**`[D]x`** can be calculated by raising every entry of **`D`** to the power **`x`** #todo mm
+**`[D]x`** can be computed by raising every entry of **`D`** to the power **`x`** #todo mm
 
 ## Diagonalizable Matrix
 

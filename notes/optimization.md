@@ -13,3 +13,5 @@ used for backlinks
 [[linear programming]]
 
 [[curve fitting]]
+
+[[matrix factorization]]

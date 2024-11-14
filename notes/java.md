@@ -1,6 +1,6 @@
 # Java
 
-_such a painful [[programming language]]_
+_everything that seemed like a good idea 20 years ago_
 
 **see** [[object-oriented programming]], [[math notation]]
 
@@ -22,7 +22,7 @@ java HelloWorld.java
 
 ## a painful language
 
-in my opinion, [[java#auto boxing]] is a band-aid and [[java#wrapper]]s are a duct-tape solution
+[[java#auto boxing]] is a band-aid and [[java#wrapper]]s are a duct-tape solution
 
 [[java]] does **not** support operator overloading. [[java]] does **not** have [[first-class function]]s
 
@@ -34,15 +34,15 @@ in my opinion, [[java#auto boxing]] is a band-aid and [[java#wrapper]]s are a du
 
 [[java]] `import` best practices are basically cargo cult programming &mdash; <https://youtu.be/FyCYva9DhsI?t=1673>
 
-[[java]] has [[null]]s and [[exception]]s, but that is somewhat to be expected even in modern languages
+[[java]] has [[null]]s and [[exception]]s
 
-refer to the Wikipedia article (yes, there's a Wikipedia article) <https://en.m.wikipedia.org/wiki/Criticism_of_Java> for further reading
+also see <https://en.m.wikipedia.org/wiki/Criticism_of_Java>
 
 ### overriding `equals`
 
 **see** [[polymorphism]]
 
-overriding `Object.equals` in [[java]] must follow the pattern below &mdash; ITI1121 Introduction to Computing II
+overriding `Object.equals` in [[java]] should ideally follow the pattern below &mdash; ITI1121 Introduction to Computing II
 
 ```java
 public class Account {
@@ -113,24 +113,6 @@ _auto boxing_ is the automatic conversion from a [[java#primitive]] to a [[java#
 > ```
 
 ## type "system"
-
-using [[java#primitive]]s is almost always faster than using [[java#reference]]s
-
-> **example**
->
-> ```java
-> // the following executes in 40ms
-> long sum = (long) 0;
-> for (int i = 0; i < 100000000; i++) {
->   sum += sum + (long) 1;
-> }
->
-> // the following executes in 477ms
-> Long sum = (long) 0;
-> for (int i = 0; i < 100000000; i++) {
->   sum += sum + (long) 1;
-> }
-> ```
 
 ### Generic
 

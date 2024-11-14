@@ -1,12 +1,12 @@
-# 🆃🅰🅶🆂
+# Tags
 
 ## #todo
 
 something to do or to complete
 
-## #think
+## #xxx
 
-something to think about and to try to understand better
+something to think about or to try to understand better
 
 ## #magic
 

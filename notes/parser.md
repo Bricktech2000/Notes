@@ -4,11 +4,15 @@ _used to build a [[programming language]]_
 
 ## Recursive Descent Parser
 
-_starts from the top symbol and builds an [[abstract syntax tree]] through [[recursion]]_
+recursive descent parsers start from the top symbol and build a [[syntax tree]] through [[recursion]]
 
-## Combinator
+### Combinator
 
 _a higher-order [[function]] that combines [[parser]]s_
+
+> **resource** JSON parser in Haskell leveraging [[parser#combinator]]s by Tsoding &mdash; <https://youtu.be/N9RUqGYuGfw>
+
+_[[parser#combinator]]s are a way to program a [[parser#recursive descent parser]]_ &mdash; <https://youtu.be/ZI198eFghJk?t=6m25s>
 
 > **example**
 >

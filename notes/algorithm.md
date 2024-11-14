@@ -1,5 +1,7 @@
 # Algorithm
 
+_a finite answer to an infinite number of questions_ &mdash; Stephen Kleene
+
 **see** [[abstract data type]], [[data structure]]
 
 **types**

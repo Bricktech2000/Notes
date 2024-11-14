@@ -13,9 +13,24 @@ an [[applicative]]:
 
 **applications** **see** [[apply function]]
 
+**properties**
+
+[[applicative]]s are [[functor]]s because the [[map function]] can be defined in terms of the [[apply function]] and [[return function]]
+
+[[monad]]s generalize [[applicative]]s
+
 ## Laws
 
-applicative laws #todo
+&mdash; <https://youtu.be/caSOTjr1z18?t=20m43s>
+
+&mdash; <https://en.m.wikibooks.org/wiki/Haskell/Applicative_functors>
+
+```haskell
+pure id <*> v = v -- identity
+pure f <*> pure x = pure (f x) -- homomorphism
+u <*> pure y = pure ($ y) <*> u -- interchange
+pure (.) <*> u <*> v <*> w = u <*> (v <*> w) -- composition
+```
 
 ## &mdash;
 

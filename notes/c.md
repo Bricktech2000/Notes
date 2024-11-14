@@ -6,7 +6,11 @@ _assembly with syntactic sugar and undefined behavior_
 
 &mdash; Effective C by Robert C. Seacord
 
-> **resoource** _Advanced [[c]]: The UB and optimizations that trick good programmers._ &mdash; <https://youtu.be/w3_e9vZj7D8>
+> **resource** _Advanced [[c]]: The UB and optimizations that trick good programmers._ &mdash; <https://youtu.be/w3_e9vZj7D8>
+
+> **resource** _"New" Features in C_ by Dan Saks, a firehose of modern C features &mdash; <https://youtu.be/ieERUEhs910>
+
+> **resource** ISO/IEC 9899:TC3, WG14/N1256 &mdash; <https://www.open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf>
 
 **see** [[math notation]]
 
@@ -154,7 +158,7 @@ U"foo" // char32_t[6]
 
 _wraparound_ (which is specific to unsigned integers) is well-defined behavior in [[c]]. values are reduced modulo the number that is one greater than the largest value that can be represented by the resulting type. however, _overflow_ (which is specific to signed integers) is [[c#undefined behavior]]
 
-the representation of signed integers in [[c]] is [[c#implementation-defined behavior_]] historically, the [[c]] language has supported three representation schemes: two's [[complement]], one's [[complement]] and [[sign-magnitude notation]]. implementation of [[float]]ing-point numbers is [[c#implementation-defined behavior]]
+the representation of signed integers in [[c]] is [[c#implementation-defined behavior]] historically, the [[c]] language has supported three representation schemes: two's [[complement]], one's [[complement]] and [[sign-magnitude notation]]. implementation of [[float]]ing-point numbers is [[c#implementation-defined behavior]]
 
 each compiler implementation defines `char` as either `signed char` or `unsigned char`. regardless of the choice made, `char` is a different type from the other two and is incompatible with both. `char` is to be used for characters **only**, and `signed char` and `unsigned char` for small integer data
 
@@ -189,14 +193,6 @@ tags are a special naming mechanism for `enum`, `struct`, and `union` types. the
 
 > **example** in `typedef struct tnode { struct tnode *left; struct tnode *right; } tnode;`, the type name and tag name are the same
 
-### declaration specifiers
-
-reordering of declaration specifiers has no effect in [[c]] &mdash; <https://youtu.be/zGWj7Qo_POY?t=21m28s>
-
-> **example** `int typedef const a;` is equivalent to `typedef const int a;`, and `long unsigned static long b;` is equivalent to `static unsigned long long b;`
-
-`*` is part of the _declarator_ and not of the _declaration specifier_, which is why `int* a;` is considered bad style
-
 ### incomplete types
 
 &mdash; Effective C and <https://learn.microsoft.com/en-us/cpp/c-language/incomplete-types>
@@ -206,6 +202,48 @@ reordering of declaration specifiers has no effect in [[c]] &mdash; <https://you
 > **example** `struct s; enum e; int a[];` are all incomplete types
 
 incomplete types can be completed by specifying the missing information. `void` is an incomplete type that cannot be completed
+
+## declarations
+
+reordering of declaration specifiers has no effect in [[c]] &mdash; <https://youtu.be/zGWj7Qo_POY?t=21m28s>
+
+> **example** `int typedef const a;` is equivalent to `typedef const int a;`, and `long unsigned static long b;` is equivalent to `static unsigned long long b;`
+
+`*` is part of the _declarator_ and not of the _declaration specifier_, which is why `int* a;` is considered bad style
+
+as a rule of thumb, read declarators from the inside out, at each level moving right then moving left
+
+> **example** `float (*(*b(void))[])(void);` &mdash; `b` is a function that returns a pointer to an array of pointers to functions returning `float`s &mdash; <https://www.codeproject.com/Articles/7042/How-to-interpret-complex-C-C-declarations>
+
+> **example** `void *(*c)(char, int (*)(void));` &mdash; `c` is a pointer to a function that takes a `char` and {a pointer to a function that returns an `int`} and returns a pointer to `void` &mdash; <https://www.codeproject.com/Articles/7042/How-to-interpret-complex-C-C-declarations>
+
+## initialization
+
+&mdash; <https://youtu.be/lLv1s7rKeCM?t=19m55s>
+
+objects of pretty much any [[type]] can be initialized using _initializer lists_ in [[c]]
+
+> **example** `int x = {5};` is valid [[c]]
+
+initializer lists are brace-enclosed sequences of _positional initializers_ (which do not include a _designation_) and _designated initializers_ (which do include a _designation_). any subobjects not explicitly initialized are zeroed. initializers initialize subobjects in order according to the type of object being initialized, and designations cause the following initializers to continue initialization starting at the subobject designated &mdash; ISO/IEC 9899:TC3, &sect;6.7.8, paragraph 17
+
+> **example** `struct { int a[10]; float f; } s = {.a = {2, 3, [8] = 7, 9, [1] = 5}, .f = 5.5, .a[9] = 8, 6.6};`
+
+_empty initialization_ (informally also known as _zero initialization_ and _default initialization_), written `{0}`, zeroes out an object's memory. starting in C23, it can also be written `{}`
+
+## compound literals
+
+a _compound literal_, written _`(` type-name `)` `{` initializer-list `,`? `}`_, creates an unnamed lvalue (!!) of the specified type. compound literals used in _block scope_ have _automatic storage duration_ and live for the entire duration of the block; compound literals may be used in _file scope_, in which case they have _static storage duration_ &mdash; ISO/IEC 9899:TC3, &sect;6.5.2.5, paragraph 6
+
+> **example** `struct vec2 zero(void) { return (struct vec2){0.0, 0.0}; }`
+
+> **example** constructs such as `f(&(int){5});` can be used to pass a literal to a function expecting a pointer &mdash; me
+
+> **example** `(int){3} = 5;` is valid [[c]] &mdash; me
+
+> **example** `(char []){"/tmp/fileXXXXXX"}` is essentially a modifiable string literal &mdash; ISO/IEC 9899:TC3, &sect;6.5.2.5, paragraph 13
+
+> **example** `*p = (struct p){0};` can be used to zero out a structure, say after a `free(p);` &mdash; <https://youtu.be/lLv1s7rKeCM?t=56m32s>
 
 ## lvalues and rvalues
 
@@ -225,9 +263,10 @@ adding or subtracting an _integer type_ to or from a pointer [[type]] in [[c]] r
 > printf("%d", 3[a]); // 4
 > prinf("%d", *(a + 3)); // 4
 > printf("%d", *(3 + a)); // 4
+> //*
 > ```
 
-the resulting pointer must point to an element of the same [[array]] as the original pointer, or to an element one past the end of the [[array]] for historical reasons (known as the "too-far" pointer). otherwise, the behavior is [[c#undefined behavior]]. note that [[scalar]]s are considered length-one [[array]]s
+the resulting pointer must point to an element of the same [[array]] as the original pointer, or to an element one past the end of the [[array]] for historical reasons (known as the "too-far" pointer). otherwise, the behavior is [[c#undefined behavior]]. scalars are treated as length-one [[array]]s
 
 > **example** in `int m[2] = {1, 2}; for (int *p = &m[0]; p < &m[2]; p++);`, `&m[2]` is a "too-far" pointer
 
@@ -291,11 +330,11 @@ using one of `<`, `<=`, `>` or `>=` on two pointers to different objects is [[c#
 > ```c
 > int x, y;
 > &x < &y; // undefined behavior
-> x == y; // well-defined behavior
-> x != y; // well-defined behavior
+> &x == &y; // well-defined behavior
+> &x != &y; // well-defined behavior
 > ```
 
-the `,` [[operator]] evaluates its left operand, discards the result, then evaluates its right operand and returns that result. the left operand of the `,` operator is _sequenced before_ the right operand
+the `,` [[operator]] evaluates its left operand, discards the result, then evaluates its right operand and returns that result
 
 > **example** `f(a, (t=3, t+2), c);` is equivalent to `t = 3; f(a, t+2, c);`
 
@@ -311,15 +350,19 @@ _the order of evaluation of the operands of any [[c]] [[operator]], including th
 
 > **example** in `int max = max(f(), g());`, the order of evaluation is [[c#unspecified behavior]]
 
-_if a side effect is unsequenced relative to either a different side effect on the same scalar of a value computation that uses the value of the same scalar object, the code has [[c#undefined behavior]]_ &mdash; Effective C
+_if a side effect is unsequenced relative to either a different side effect on the same scalar or a value computation that uses the value of the same scalar object, the code has [[c#undefined behavior]]_ &mdash; Effective C
 
 > **example** `printf("%d\n", i++ * i++);` is [[c#undefined behavior]]
 
 > **example** `printf("%d %d\n", i++, i);` is [[c#undefined behavior]]
 
-it is guaranteed that the `&&` and `||` [[operator]]s will evaluate their operands from left to right
+> **example** `i = ++i;` is [[c#undefined behavior]] &mdash; <https://stackoverflow.com/questions/78286568/in-standard-c-is-the-expression-i-i-1-1-well-defined>
 
-it is guaranteed that the `? :` [[operator]] will evaluate its first operand before its second or third operand
+there is a sequence point between the evaluations of the operands of the `&&`, `||` and `,` [[operator]]s
+
+there is a sequence point between the evaluations of the first and second or third operands of the `? :` [[operator]], whichever is evaluated
+
+there is **no** sequence point between evaluations of the operands of the `=` [[operator]], and the stored value may be updated any time between the previous and next sequence points &mdash; ISO/IEC 9899:TC3, &sect;6.5.16, paragraphs 3-4
 
 ## dynamic allocation
 
@@ -342,11 +385,15 @@ it is guaranteed that the `? :` [[operator]] will evaluate its first operand bef
 - `alloca` can very quickly cause a stack overflow if used incorrectly
 - calling `free` on a pointer returned by `alloca` is [[c#undefined behavior]]
 
-_variable-length arrays_ (VLAs) are a [[c]] feature that allows for the declaration of [[array]]s with runtime-specified lengths in the current [[stack]] frame. calling `sizeof` on a VLA will be evaluated at runtime
+_variable-length arrays_ (VLAs) are a [[c]] feature that allows for the creation of [[array]]s with runtime-specified lengths on the stack (the [[c]] standard does not require VLAs to be placed on the stack, but most compilers do). `sizeof` on a VLA is evaluated at runtime
 
 > **example** _VLA in block [[scope]]_ `void func(size_t size) { int vla[size]; }`
 
 > **example** _VLA in function prototype [[scope]]_ `int matrix_sum(size_t rows, size_t cols, int matrix[rows][cols]);`
+
+VLAs can be used to make indexing into dynamic multidimensional [[array]]s less cumbersome
+
+> **example** `double *p = malloc(sizeof(*p) * rows * cols);` has to be indexed with `p[i * rows + j]` while `double (*p)[rows][cols] = malloc(sizeof(*p));` can be indexed with `(*p)[i][j]` and `double (*p)[rows] = malloc(sizeof(*p) * cols);` can be indexed with `p[i][j]`
 
 ## control flow
 
@@ -369,11 +416,13 @@ the type of the controlling expression to a `switch` statement must be an _integ
 
 `else if` is not its own [[statement]] in [[c]]; rather, it is an `if-else` statement whose `else` clause contains another `if` statement
 
-> **example** a common guideline is to always use braces to convert statements into compound statements inside of control flow statements. therefore, to be pedantic, `if (c) { ... } else if (d) { ... }` should be written as `if (c) { ... } else { if (d) { ... } }`. if `else-if`s are allowed, why aren't `else-switch`es? `if (!color) { return false; } else switch (*color) { ... }` &mdash; <https://youtu.be/zGWj7Qo_POY?t=10m32s>
+> **example** a common guideline is to always use braces to convert statements into compound statements inside of control flow statements. therefore, to be pedantic, `if (c) { ... } else if (d) { ... }` should be written as `if (c) { ... } else { if (d) { ... } }`. if `else-if`s are allowed, why aren't `else-switch`es? `if (!color) { alpha = 1; } else switch (*color) { ... }` &mdash; <https://youtu.be/zGWj7Qo_POY?t=10m32s>
 
 ## reserved identifiers
 
 &mdash; <https://www.gnu.org/software/libc/manual/html_node/Reserved-Names.html>
+
+#xxx note ub
 
 any identifier matching one of the following [[regular expression]]s is reserved and should not be used in a user program:
 
@@ -389,7 +438,7 @@ any identifier matching one of the following [[regular expression]]s is reserved
 
 ## storage duration
 
-objects declared within a block or within a function parameter have _automatic_ storage duration, living from the start to the end of the block
+objects declared within a block or within a function parameter and objects declared with the `auto` storage-class specifier have _automatic_ storage duration, living from the start to the end of the block. `auto` is a bit useless, because the only places it's allowed to be used, automatic storage duration is already the default &mdash; <https://stackoverflow.com/questions/4688816/concept-of-auto-keyword-in-c>. starting in C23, `auto` provides [[c++]]-style [[type]] "inference" &mdash; <https://youtu.be/lLv1s7rKeCM?t=11m45s>
 
 > **example** `{ int x; }`
 
@@ -415,6 +464,8 @@ a declaration with _external linkage_ makes all its references refer to the same
 
 > **example** `int x; int f(void); extern int x; extern int f(void); // at file scope`
 
+`extern` at file scope has no effect on functions, but when used on variables it _doesn't instantiate the variable itself, i.e. doesn't allocate any memory_ &mdash; <https://stackoverflow.com/questions/496448/how-to-correctly-use-the-extern-keyword-in-c>. `extern` should be used to declare global variables shared across translation units
+
 block-scope objects can be made to have external linkage using the `extern` storage-class specifier
 
 > **example** `{ extern int x; extern int f(void); }`
@@ -422,6 +473,10 @@ block-scope objects can be made to have external linkage using the `extern` stor
 a declaration with _internal linkage_ makes all its references refer to the same object within the same translation unit. objects declared at file [[scope]] with the `static` storage-class specifier have internal linkage; not to be confused with `static` at block [[scope]]
 
 > **example** `static int x; static int f(void); // at file scope`
+
+> **example** `static` can be used to redefine a local version of some library function, say `static void *memchr(const void *s, int c, size_t n) { ... }`
+
+> **note** it is good practice to mark file-scoped implementation details with `static` so as not to pollute the global namespace
 
 a declaration with _no linkage_ makes all its references refer to the same object within the same block. identifiers with no linkage include function parameters, objects declared at block [[scope]] and enumeration constants
 
@@ -463,7 +518,7 @@ a compiler must compile the program meaningfully but may choose a different beha
 
 **definition** _undefined behavior_ is behavior that implicitly or explicitly isn't defined by the [[c]] standard &mdash; Effective C
 
-classifying behavior as _undefined_ is **intentional** and **considered**; it isn't an error or omission in the [[c]] standard. [[c#undefined behavior]] is a [[tool]] the compiler can use to optimize programs; a compiler may assume programs never contain [[c#undefined behavior]]
+classifying behavior as _undefined_ is **intentional** and **considered**; it isn't an error or omission in the [[c]] standard. [[c#undefined behavior]] is a tool the compiler can use to optimize programs; a compiler may assume programs never contain [[c#undefined behavior]]
 
 a compiler may:
 

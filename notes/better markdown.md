@@ -1,15 +1,15 @@
 # Better Markdown
 
-this [[better markdown]] idea is meant to address the main issue with [[markdown]] in my opinion: inconsistency
+this [[better markdown]] idea is meant to address the main shortcoming of [[markdown]] in my opinion: inconsistency. formal markup doesn't have to be verbose and lightweight markup doesn't have to be informal; see also RFC 7764 $1.1 'On Formats' <https://www.rfc-editor.org/rfc/rfc7764.html#section-1.1>. [[markdown]] is human-first while [[better markdown]] is machine-first
 
 in [[better markdown]],
 
-- most constructs have a clear semantic meaning
-- most constructs have block and inline equivalents
-- every control [[character]] can be escaped with a `\`, with no ambiguous exceptions
+- constructs have a clear semantic meaning
+- constructs have block and inline equivalents
+- every meta[[character]] can be escaped with a `\`, with no ambiguous exceptions
 - constructs can be nested, and in a way that is actually consistent
 
-_a [[markdown]]-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions_ &mdash; <https://daringfireball.net/projects/markdown/syntax>. this is not a goal of [[better markdown]]. [[better markdown]] aims to be a consistent, extensible, formally-defined, light-weight markup language
+_a [[markdown]]-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions_ &mdash; <https://daringfireball.net/projects/markdown/syntax>. this is not a goal of [[better markdown]]. [[better markdown]] aims to be a consistent, extensible, formally-defined, lightweight markup language
 
 ## syntax
 
@@ -39,10 +39,10 @@ _a [[markdown]]-formatted document should be publishable as-is, as plain text, w
 <metadata-character> ::= ":"
 ```
 
-#think
+#xxx
 
 - syntax for:
-  - tables
+  - N-dimensional tables
   - tags
   - dates `date`
   - keyboard keys `kbd`
@@ -56,9 +56,11 @@ _a [[markdown]]-formatted document should be publishable as-is, as plain text, w
 - support for running code blocks and parsing their `stdout` as markup
 - support for graphs and plots
 - do we really want double newlines to be paragraphs?
+- do we really want single newlines to be line breaks?
 - formalize grammar for inline constructs. inline constructs should be surrounded by either whitespace or other inline constructs
   - what about plural with inline code? i.e. `Object`s
 - `<>` and `[]` work differently from rest of syntax (instead of one character, uses two "reflected" ones). do we want this?
+- what is the inline equivalent of `#`? what are the block equivalent of `[]` and `<>`?
 
 ## &mdash;
 
@@ -73,6 +75,8 @@ _a [[markdown]]-formatted document should be publishable as-is, as plain text, w
 &mdash; <https://squidfunk.github.io/mkdocs-material/reference/admonitions/>
 
 &mdash; <https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
+
+&mdash; <https://jira.atlassian.com/secure/WikiRendererHelpAction.jspa?section=all>
 
 ---
 
@@ -176,9 +180,9 @@ $\LaTeX$
   | quote in a list
 = then, some code:
   ` rust:
-  if true {
-    println!("true");
-  }
+    if true {
+      println!("true");
+    }
 
 if you're interested, click <here: https://example.com/>!
 
@@ -187,8 +191,8 @@ with my <conceptual notes: index>
 this person said |it isn't fair| [the person]
 
 he wrote the following:
-| This is \*\*very\*\* important.
-  so important that I escaped the asterisks
+| This is \*very\* important.
+  *so important* that I escaped the asterisks
 
 ~rambling is the state of rambles which are rambling in a rambling manner~ +rambling is wordy+.
 
@@ -254,8 +258,8 @@ you can run it with `python hello_world.py`
 <p>he wrote the following:</p>
 
 <blockquote>
-  This is **very** important. <br />
-  so important that I escaped the asterisks
+  This is *very* important. <br />
+  <b>so important</b> that I escaped the asterisks
 </blockquote>
 
 <p>

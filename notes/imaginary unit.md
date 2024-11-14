@@ -2,14 +2,8 @@
 
 **see** [[math notation]]
 
-**notation**
+**notation** **`ii`**
 
-**`ii`**
+**definition** **`ii = \.1/`**
 
-**definition**
-
-**`ii = \.1/`**
-
-**definition**
-
-**`ii2 : 1 = 0`**
+**definition** **`ii2 : 1 = 0`**

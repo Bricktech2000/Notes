@@ -2,8 +2,6 @@
 
 _a notation to describe the syntax and grammar of a [[programming language]]_
 
-_extended Backus-Naur form_
-
 &mdash; <https://youtu.be/4m7ubrdbWQU?t=365>
 
 &mdash; <https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form>
@@ -13,7 +11,7 @@ _extended Backus-Naur form_
 > ```bnf
 > <program> ::= <statement-list>
 >
-> <statement> ::= <block-statement> | <if-statement> | function-declaration
+> <statement> ::= <block-statement> | <if-statement> | <function-declaration>
 >
 > <function-decleration> ::= "def" <identifier> "(" <parameter-list> ")" <block-statement>
 > ```

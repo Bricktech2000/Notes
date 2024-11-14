@@ -4,102 +4,94 @@
 
 ## power rule
 
-**`dd x[n] -- dd x= nx[n . 1]`**
+**`dd x. x[n] = x. nx[n..1]`**
 
 ### derived shortcuts
 
-**`dd c -- dd x = 0`**
+**`dd x. c = .0`**
 
-**`dd x -- dd x = 1`**
+**`dd x. x = .1`**
 
 ## [[exponent]]ial rule
 
-**`dd a[x] -- dd x = a[x] | /a\`**
+**`dd x. a[x] = x. a[x]/a\`**
 
 > **proof**
 >
-> **`a[x] = [ \a[x]/ ] = [x /a\ ]`**
+> **`a[x] = [/a[x]\] = [x/a\]`**
 >
-> **`dd a[x] -- dd x = [x /a\ ] | dd x /a\ -- dd x = [a]x | /a\`**
+> **`dd x. a[x] = (x. [x/a\]) | dd x. x/a\ = x. a[x]/a\`**
 >
 > &mdash; me
 
 ### derived shortcuts
 
-**`dd [x] -- dd x = [x]`**
+**`dd x. [x] = x. [x]`**
 
-**`dd f x -- dd x = mf x == f x = [mx]`**
-
-> **example** let **`g x = eex2 : 2ee[x] : xee2 : x[ee2]`**. then, **`dd g x -- dd x = 2ee x : 2ee[x] : ee2 : ee2 x[ee2.1]`**
+**`dd f = mf == f = x. [mx]`**
 
 ## [[logarithm]] rule
 
-**`dd /x\ b -- dd x = -- x /b\`**
+**`dd x. /x\b = x. --x/b\`**
 
 ### derived shortcuts
 
-**`dd /x\ -- dd x = --x`**
+**`dd x. /x\ = x. --x`**
 
-> **proof** let **`y = /x\`**. then,
->
-> **`x = [y]`**
->
-> **`dd x = [y] | dd y`**
->
-> **`dd y -- dd x = --[y]`**
->
-> **`dd /x\ -- dd x = --x`**
->
-> &mdash; <https://youtu.be/qb40J4N1fa4?t=762>
+> **proof** &mdash; <https://youtu.be/qb40J4N1fa4?t=762>
 
-**`dd /"abs" x\ -- dd x = --x`**
+**`dd x. /"abs" x\ = --x`**
 
-> **proof** define as a [[function#piecewise function]] and compute both [[derivative]]s
+> **proof** define as a piecewise [[function]] and compute both [[derivative]]s
 
-**`dd ( /"abs" x\ : c x) -- dd x = --x`** and therefore
+**`dd (x. /"abs" x\ : c x) = --x`** and therefore
 
-**`$ --x | dd x = /"abs" x\ : c x`** where **`c x = {c_0, c_1} (x -| 0)`**
+**`$ x. --x = /"abs" x\ : c x`** where **`c x = {c_0, c_1} (x -| 0)`**
 
 > **proof** &mdash; <https://youtu.be/u4kex7hDC2o>
 
 ## constant multiple rule
 
-if **`c`** is a [[real]] and **`f`** is differentiable, then
+if **`c`** is a scalar and **`f`** is differentiable, then
 
-**`dd (cf x) -- dd x = c(dd f x -- dd x)`**
+**`dd cf = cdd f`**
 
 ## sum rule
 
-**`dd (f x : g x) -- dd x = (dd f x -- dd x) : (dd g x -- dd x)`**
+**`dd (f:g) = dd f : dd g`**
 
 ## difference rule
 
-**`dd (f x . g x) -- dd x = (dd f x -- dd x) . (dd g x -- dd x)`**
+**`dd (f..g) = dd f .. dd g`**
 
-> **proof** derive from the sum rule, **`f x . g x = f x : (.1 | g x)`**
+> **proof** derive from the sum rule, **`f..g = f : (..1)g`**
 
 ## product rule
 
-**`dd (f x | g x) -- dd x = (f x | dd g x -- dd x) : (g x | dd f x -- dd x)`**
+**`dd f'g = f'dd g : g'dd f`**
 
 ## quotient rule
 
-**`dd (f x -- g x) -- dd x = (g x | dd f x -- dd x) . (f x | dd g x -- dd x) -- [g x]2`**
+**`dd f-g = g'dd f .. f'dd g -- g'g`**
 
-> **proof** derive from the product and power rules, **`f x -- g x = f x | [g x](.1)`**
+> **proof** derive from the product and power rules, **`f-g = f | g[..1]`**
 
-### [[mnemonic]]
-
-> lo d-hi, minus hi d-lo, over lo-lo
+> **[[mnemonic]]** lo d-hi, minus hi d-lo, over lo-lo
 
 ### derived reciprocal rule
 
-**`dd (--f x) -- dd x = .dd f x -- dd x -- [f x]2`**
+**`dd -f = ..dd f -- f'f`**
 
-> **proof** derive from the power rule, **`--f x = [f x](.1)`**
+> **proof** derive from the power rule, **`-f = f[..1]`**
 
 ## chain rule
 
-**`dd f g x -- dd x = dd g x -- dd x | dd f g x -- dd g x`**
+**``dd f`g = dd f \\ g | dd g``**
 
-> **proof** **`(dd g x) -- dd x | dd f g x -- (dd g x) = dd f g x -- dd x`**
+> **proof** **``dd f \\ g | dd g = (dd f`g -- dd g) | dd g = dd f`g``**
+
+### derived inverse rule
+
+**``dd `f = --(dd f \\ `f)``** #todo inv
+
+> **proof** derive from the chain rule, **`dd f``f = dd (*) = .1`** #todo inv #todo id &mdash; me

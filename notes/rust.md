@@ -6,25 +6,25 @@ _a language for the next 40 years_
 
 &mdash; <https://youtu.be/PuMXWc0xrK0>
 
-> **resource** _A firehose of Rust_, good overview of why the [[rust]] borrow checker is valuable &mdash; <https://youtu.be/IPmRDS0OSxM>
-
 > **resource** _A half-hour to learn [[rust]]_, a fast introduction [[rust]] &mdash; <https://fasterthanli.me/articles/a-half-hour-to-learn-rust>
+
+> **resource** _The Rust Reference_, aka the [[rust]] book but without the endless babble &mdash; <https://doc.rust-lang.org/reference/>
 
 **tradeoffs**
 
 - high performance (no garbage collector, zero-cost [[abstraction]]s)
 - great portability (compiles to LLVM bytecode which is widely supported)
 - great stability (very strong backwards compatibility)
-- great memory safety (done through the borrow checker)
+- great memory safety (achieved through the borrow checker)
 
-- relatively complex (more features and more syntax than languages like [[c]])
+- relatively complex (more features and syntax than languages like [[c]])
 - lacking ecosystem features (no standard, no LTS releases, no private crate hosting)
 
 ## Type System
 
 &mdash; <https://youtu.be/s5S2Ed5T-dc>
 
-the [[type#empty type]] `!`, pronounced _never_, is [[rust]]'s [[type#bottom type]]. it is the type of an expression that never returns, such as `panic!()` or `loop {}` &mdash; <https://doc.rust-lang.org/std/primitive.never.html>
+`!`, the [[type#empty type]], pronounced _never_, is [[rust]]'s [[type#bottom type]]. it is the type of an expression that never returns, such as `panic!()` or `loop {}` &mdash; <https://doc.rust-lang.org/std/primitive.never.html>
 
 `()` is [[rust]]'s [[type#unit type]]. it is the type of an expression that returns nothing, such as `println!()` or `let x = 1;`
 
@@ -34,7 +34,7 @@ the [[type#empty type]] `!`, pronounced _never_, is [[rust]]'s [[type#bottom typ
 
 &mdash; <https://youtu.be/SqT5YglW3qU>
 
-all [[function]] items and all closures of a [[rust]] program have a unique [[type]] internal to the compiler. as they only have a single inhabitant, their corresponding [[function]], these [[type]] are [[type#unit type]]s. consequently, the size of any inhabitant of theirs is zero. they are completely opaque; the only reason they are useful is because they implement one of the `Fn` [[trait]]s, which allows them to be called. _we don't know exactly what's inside the [[function]], but we can call it as long as we know how to set up everything according to the calling convention_ &mdash; <https://youtu.be/SqT5YglW3qU>
+all [[function]] items and all closures of a [[rust]] program have a unique [[type]] internal to the compiler. as they only have a single term, their corresponding [[function]], these [[type]] are [[type#unit type]]s. consequently, the size of any term of theirs is zero. they are completely opaque; they are useful only because they implement one of the [[rust#function traits]], allowing us to call them. _"we don't know exactly what's inside the [[function]], but we can call it as long as we know how to set up everything according to the calling convention"_ &mdash; <https://youtu.be/SqT5YglW3qU>
 
 ### Impl Traits
 
@@ -56,13 +56,62 @@ all [[function]] items and all closures of a [[rust]] program have a unique [[ty
 - `FnMut` &mdash; takes mutable references to its environment and can be called multiple non-overlapping times
 - `Fn` &mdash; takes immutable references to its environment and can be called multiple overlapping times
 
+## Macros
+
+_declarative macros_ "macros by example" contain a series of _rules_ consisting of a _matcher_ and a _transcriber_. metavariables are denoted _`$` name `:` fragment-specifier_. valid fragment specifiers are `item` &bull; `block` &bull; `stmt` &bull; `pat_param` &bull; `pat` &bull; `expr` &bull; `ty` &bull; `ident` &bull; `path` &bull; `tt` &bull; `meta` &bull; `lifetime` &bull; `vis` &bull; `literal`. repetitions are denoted _`$(` tokens `)`_, followed by an optional token to be used as a seperator, followed by one of `*` &bull; `+` &bull; `?` to be used as a quantifier
+
+scoping of declarative macros is funky; see <https://doc.rust-lang.org/reference/macros-by-example.html#scoping-exporting-and-importing>. simplest solution is to write _`pub(crate) use` macro-name_ somewhere after its definition _`macro_rules!` macro-name_ so it can be used and imported like any other item &mdash; <https://stackoverflow.com/questions/26731243/how-do-i-use-a-macro-across-module-files>
+
+_procedural macros_ can be thought of as [[turing complete]] [[function]]s from a `TokenStream` to a `TokenStream`. they are used to define custom derives `#[derive(SomeMacro)]`, attributes `#[some_macro(...)]`, and function-like macros `some_macro!(...)`. they are defined in library crates with the `proc-macro` crate type. &mdash; <https://doc.rust-lang.org/reference/procedural-macros.html>
+
+## Items
+
+### Modules
+
+&mdash; <https://doc.rust-lang.org/reference/items/modules.html> and <https://doc.rust-lang.org/reference/crates-and-source-files.html>
+
+_`mod` name `;`_ declares a module; it notifies the compiler of a module's existence. modules of a crate form [[tree]], within which a module only has to be declared once &mdash; <https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html>
+
+every source file is a module, but not every module needs its own source file. the `path` attribute can be used to specify the path to a module's source file
+
+### Use Declarations
+
+&mdash; <https://doc.rust-lang.org/reference/items/use-declarations.html>
+
+_`use` use-tree `;`_ creates local name bindings for paths, in a syntactically convenient way
+
+`crate::` means `/`, `super::` means `../` and `self::` means `./`.
+
+> **example** `use a::b::{self as ab, c, d::{*, e::f}};`
+
+## Sign Posts
+
+Rust ensures "surprising" behavior is clearly sign-posted:
+
+- macros are sign-posted with a `!`
+- unsafe code is sign-posted with the `unsafe` keyword
+- lazy error handling is sign-posted with an `unwrap()` call
+- possible early returns are sign-posted with a `!` or a `?`
+
+> **example**
+>
+> below, the [[rust]] solution is just as unsafe as the [[python]] solution, but anything unsafe is clearly sign-posted
+>
+> ```python
+> int(items['ViewCount']['N'])
+> ```
+>
+> ```rust
+> i32::from_str_radix(
+>   item.get("ViewCount").unwrap()
+>     .get("N").unwrap(),
+>   10
+> ).unwrap()
+> ```
+
 ## Safety
 
-[[rust]] borrows many features from [[functional programming]] and makes them easy to use. for instance, [[rust]] has `Option`s instead of [[null]]s, and it has `Result`s instead of [[exception]]s.
-
-accessing out-of-bounds memory causes either a compile time error or a `panic!` at runtime instead of maybe or maybe not causing a segfault. the `#[no_panic]` attribute macro can be used to force the compiler to prove that a function will never panic. &mdash; <https://youtu.be/sbVxq7nNtgo?t=586>
-
-the [[rust#type system]] checks thread safety at compile time as ownership rules apply across multiple threads
+the `#[no_panic]` attribute macro can be used to force the compiler to prove that a function will never panic. &mdash; <https://youtu.be/sbVxq7nNtgo?t=586>
 
 ### Borrow Checker
 
@@ -73,32 +122,22 @@ the [[rust#type system]] checks thread safety at compile time as ownership rules
 
 _in fixing memory safety, the Rust team accidentally fixed everything_ &mdash; <https://youtu.be/Q3AhzHq8ogs?t=113>
 
+> **resource** _A firehose of Rust_, an overview of why the [[rust#borrow checker]] matters &mdash; <https://youtu.be/IPmRDS0OSxM>
+
 ### Unsafe System
 
-the [[rust#type system]] can be a bit restrictive for low-level programming. this is why [[rust]] has a way to bypass a few specific checks in the form of the `unsafe` keyword. consequently, [[rust]] code is safe by default
+the [[rust#type system]] may prove restrictive, notably with low-level programming. as an escape hatch, [[rust]] provides the `unsafe` keyword. _other languages say "here is the line; you may never cross it". [[rust]] says "cross here, if you know what you're doing"_ &mdash; <https://youtu.be/PuMXWc0xrK0?t=76>
 
-unsafe code can:
+unsafe code can: dereference a raw pointer &bull; call an unsafe [[function]] &bull; implement unsafe traits &bull; mutate global [[variable]]s &bull; access fields of `union`s
 
-- dereference a raw pointer
-- call an unsafe [[function]]
-- implement unsafe traits
-- mutate global [[variable]]s
-- access fields of unions (see algebraic data [[type]]s)
-
-_other languages say "here is the line; you may never cross it". [[rust]] says "cross here, if you know what you're doing"_ &mdash; <https://youtu.be/PuMXWc0xrK0?t=76>
-
-most languages have a floor for [[abstraction]]s, such as builtin functions like `parseInt` in [[javascript]] or `sorted` in [[python]]. in [[rust]], the `unsafe` system allows access to lower-level functionality **without** sacrificing high-level orgonomics.
-
-### Macro System
-
-the [[rust#macro system]] is [[turing complete]]. it allows for both [[abstraction]]s and new syntax
+most languages have a floor built by [[invent]]ion, such as builtin functions like `parseInt` in [[javascript]] and `sorted` in [[python]]. in [[rust]], the `unsafe` system allows access to lower-level functionality **without** sacrificing high-level ergonomics
 
 ### Smart Pointers
 
-- `Box` is for unique ownership
-- `Rc` is for multiple ownership (reference counted)
-- `Arc` is for multiple ownership across threads (atomic reference counted)
-- `Mutex` is for interior mutability across threads (atomic not reference counted)
+- `Box` &mdash; for unique ownership
+- `Rc` &mdash; for multiple ownership (reference counted)
+- `Arc` &mdash; for multiple ownership across threads (atomic reference counted)
+- `Mutex` &mdash; for interior mutability across threads (atomic not reference counted)
 
 the following can be used for interior mutability:
 
@@ -112,52 +151,27 @@ the following can be used for interior mutability:
 
 &mdash; <https://doc.rust-lang.org/std/cell/struct.UnsafeCell.html>
 
-## Sign Posts
-
-Rust ensures "surprising" behavior is clearly sign-posted:
-
-- macros are sign-posted with a `!`
-- unsafe code is sign-posted with the `unsafe` keyword
-- lazy error handling is sign-posted with an `unwrap()` call
-- anything that could cause a [[function]] to return early is sign-posted with the `!` or `?` operators
-
-> **example**
->
-> below, the [[rust]] solution is just as unsafe as the [[python]] solution, but that anything unsafe is clearly sign-posted with an `.unwrap()` call
->
-> ```python
-> int(items['ViewCount']['N'])
-> ```
->
-> ```rust
-> i32::from_str_radix(
->   item.get("ViewCount").unwrap()
->       .get("N").unwrap(),
->   10
-> ).unwrap()
-> ```
-
 ## Edition System
 
 &mdash; <https://youtu.be/A3AdN7U24iU?t=2009>
 
-for breaking changes (such as adding an `async` keyword), [[rust]] uses an edition system (such as the 2015 and 2018 editions), where the [[rust]] compiler understands all editions simultaneously. this means that a project written in any edition of [[rust]] can depend on a library written for any other edition of [[rust]], preventing ecosystem splits
+rust leverages its edition system for breaking changes (such as adding an `async` keyword). the [[rust]] compiler understands all editions simultaneously, and so a project written in one edition of [[rust]] can depend on a library written for any other edition of [[rust]], preventing ecosystem splits
 
-because of the way the compiler is currently built, maintenance to core [[rust]] functionality (such as borrow checking, [[optimization]], code generation) is not affected.
+core [[rust]] functionality (borrow checking, optimization, code generation...) remains unaffected by the edition system
 
 **representation**
 
 ```mermaid
 graph TD
-  A(2015 Edition<br />Source Code)
-  B(2018 Edition<br />Source Code)
-  A_HIR(High-Level IR)
-  B_HIR(High-Level IR)
+  2015(2015 Edition<br />Source Code)
+  2018(2018 Edition<br />Source Code)
+  2015_HIR(High-Level IR)
+  2018_HIR(High-Level IR)
   MIR(Mid-Level IR<br />_core functionality_)
   LLVM_IR(LLVM IR)
   MACHINE_CODE(Machine Code)
 
-  A --> A_HIR --> MIR
-  B --> B_HIR --> MIR
+  2015 --> 2015_HIR --> MIR
+  2018 --> 2018_HIR --> MIR
   MIR --> LLVM_IR --> MACHINE_CODE
 ```

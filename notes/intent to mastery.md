@@ -4,7 +4,7 @@
 
 [[intent to mastery]] is a hard-wired core part of our [[brain]]s
 
-> **note** _[[intent to mastery]]_ doesn not seem to be an official term
+> **note** _[[intent to mastery]]_ does not seem to be a formal term
 
 > **examples** _demonstrating the importance of [[intent to mastery]]_
 >

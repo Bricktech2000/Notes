@@ -6,4 +6,4 @@
 
 > **example** **`""efabccla""`** is a [[superstring]] of **`{{ ""abcc"", ""efab"", ""bccla"" }}`**
 
-> **note** trivial [[superstring]]s can always be constructed by concatenation
+> **note** trivial [[superstring]]s can always be constructed by [[string#concatenation]]

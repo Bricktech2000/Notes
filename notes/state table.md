@@ -1,12 +1,12 @@
 # State Table
 
-for [[finite-state machine]]s. see [[state diagram]], [[characteristic table]]
+for [[finite automaton]]s. see [[state diagram]], [[characteristic table]]
 
-_previous state to next state. shows how a [[finite-state machine]] transitions between its different states_
+_previous state to next state. shows how a [[finite automaton]] transitions between its different states_
 
 > **example**
 >
-> | **`Q^t`** | **`Q^t:1`** |
+> | **`Q t`** | **`Qss t`** |
 > | --------- | ----------- |
 > | **`1`**   | **`3`**     |
 > | **`3`**   | **`2`**     |

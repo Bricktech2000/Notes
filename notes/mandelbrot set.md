@@ -2,7 +2,9 @@
 
 **see** [[complex]], [[complex#modulus]]
 
-**definition** let **`z c (n:1) = [z c n]2 : c /\ z c 0 = 0 /\ NN n`** be a [[complex]] [[function]]. then, the _mandelbrot set_ is the [[set]] of all **`c`** such that **`"abs" (z c)`** is a [[sequence#bounded sequence]]
+**definition** _by induction_ the _mandelbrot set_ is the [[set]] of all **`CC c`** such that **`"abs"f`** is a [[sequence#bounded sequence]] given **`fss = [f]2 : c /\ f 0 = 0`**
+
+**definition** _by [[iteration]]_ the _mandelbrot set_ is the [[set]] of all **`CC c`** such that **`"abs"f`** is a [[sequence#bounded sequence]] given **`f n = {z. z2:c}n`**
 
 **representation** _in the [[complex]] [[plane]]_
 

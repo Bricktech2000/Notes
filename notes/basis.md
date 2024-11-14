@@ -23,9 +23,9 @@ all [[basis]]es of a [[vector space]] have identical [[set#cardinality]]
 
 > **procedure** _finding a [[basis]] for a [[span]]_
 >
-> to find a basis for a [[vector space]] **`W = "span" {{v_0 ... v_m}}`**
+> to find a basis for a [[vector space]] **`W = "span" V`**
 >
-> 1. write the [[matrix]] **`A`** whose rows are the [[vector]]s **`v_0 ... v_m`**. if the [[vector]]s are not [[euclidean vector]]s, translate them into coordinate vectors first
+> 1. write the [[matrix]] **`A`** whose rows are the [[vector]]s **`V`**. if the [[vector]]s are not [[euclidean vector]]s, translate them into coordinate vectors first
 > 2. use [[row reduction]] to get **`A`** to its [[linear system#row echelon form]]
 > 3. use the nonzero rows of the [[linear system#row echelon form]] of **`A`** as a [[basis]] for **`W`**
 
@@ -39,7 +39,7 @@ _a [[basis]] containing [[vector]]s in a specific order_
 >
 > **`( (1, 0), (0, 1) )`** and **`( (0, 1), (1, 0) )`** are the same [[basis]] but different [[basis#ordered basis]]es
 
-**definition** suppose **`B = (v_0 ... v_n)`** is a [[basis#ordered basis]] for a [[vector space]] **`V`**. suppose **`u = :av`**. then, the vector **`(a_0 ... a_n)`** is said to be the _coordinate vector_ of **`u`** relative to the ordered [[basis]] **`B`**
+**definition** suppose **`B`** is a [[basis#ordered basis]] for a [[vector space]] **`V`**. suppose **`u = :aB`**. then, the vector **`a`** is said to be the _coordinate vector_ of **`u`** relative to the ordered [[basis]] **`B`**
 
 ## Orthogonal Basis
 

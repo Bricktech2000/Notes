@@ -60,7 +60,7 @@ _[[function#odd function]]_ **`"tan" .aa = ."tan" aa`**
 
 **properties**
 
-[[improved expression evaluation]] superposition #think
+[[improved expression evaluation]] superposition #xxx
 
 _[[function#multivalued function]]_ **`"asin" x = "asin" x : tt = ."asin" .x`**
 

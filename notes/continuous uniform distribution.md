@@ -1,10 +1,10 @@
-## Continuous Uniform Distribution
+# Continuous Uniform Distribution
 
 **see** [[math notation]], [[probability distribution]]
 
 &mdash; <https://en.wikipedia.org/wiki/Continuous_uniform_distribution>
 
-**definition** the [[probability density function]] of a continuous uniform distribution is **`x -> {0, -- b . a} (a -| x -| b)`**, where
+**definition** the [[probability density function]] of a continuous uniform distribution is **`x. {0, --b..a} (a -| x -| b)`**, where
 
 - **`x`** is an _example_ in a [[sample]] **`X`**
 - **`a`** is the minimum of **`X`**

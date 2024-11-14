@@ -11,7 +11,15 @@ a [[functor]]:
 - has a [[map function]]
 - must have a sensible implementation following the [[functor#laws]]
 
+**equiv** _[[category#functor]]_ the [[return function]] is the map for [[category#object]]s, the [[map function]] is the map for [[category#morphism]]s, the identity [[functor#law]] preserves the [[category#identity law]] and the composition [[functor#law]] preserves [[category#composition]]
+
 **applications** **see** [[map function]]
+
+**properties**
+
+[[monad]]s generalize [[functor]]s
+
+[[applicative]]s generalize [[functor]]s
 
 # Laws
 

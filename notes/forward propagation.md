@@ -21,7 +21,7 @@ expanding,
 
 **`[]w_k->j^0,0 & w_k->j^0,1 & ... & w_k->j^0,k & w_k->j^0,b && w_k->j^1,0 & w_k->j^1,1 & ... & w_k->j^1,k & w_k->j^1,b && ... & ... & ... & ... & ... && w_k->j^j,0 & w_k->j^j,1 & ... & w_k->j^j,k & w_k->j^j,b[] []a_k^0 && a_k^1 && ... && a_k^k && a_k^b[] = []z_j^0 && z_j^1 && ... && z_j^j[]`** with **`b = k : 1 /\ a_k^b = 1`**, where
 
-- **`j`** is the number of neurons in layer **`j`** and **`k`** is the number of neurons in layer **`k`**, or layer **`j . 1`**
+- **`j`** is the number of neurons in layer **`j`** and **`k`** is the number of neurons in layer **`k`**, or layer **`j .. 1`**
 - **`z_j`** are the **non-activated** neuron outputs of layer **`j`** and **`a_k`** are the neuron outputs of layer **`k`**
 - **`w_k->j^j,k`** is the weight from neuron **`a_k^k`** to neuron **`a_j^j`**
 - **`a_k^b`** is the bias neuron (in layer **`k`**) for layer **`j`**
@@ -39,7 +39,7 @@ applying an [[activation function]] is important, as, otherwise, every layer wou
 
 &mdash; <https://youtu.be/w8yWXqWQYmU?t=309>
 
-**`a_j = g z_j *`**, where
+**``a_j = g`z_j``**, where
 
 - **`z_j`** are the **non-activated** neuron outputs of layer **`j`**
 - **`a_j`** are the neuron outputs of layer **`j`**

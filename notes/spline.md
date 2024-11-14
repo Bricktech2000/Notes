@@ -1,6 +1,6 @@
 # Spline
 
-> **resource** introduction to [[spline]]s &mdash; <https://www.youtube.com/watch?v=jvPPXbo87ds>
+> **resource** [[spline]]s crash course by Freya Holmér &mdash; <https://www.youtube.com/watch?v=jvPPXbo87ds>
 
 **see** [[math notation]], [[curve]]
 
@@ -28,9 +28,9 @@ _[...] I can't stress enough how important this is. continuity is what justifies
 
 **`C^n < C^n.1`** and **`G^n < G^n.1`**
 
-**`C^n < G^n`**, **generally** &mdash; <https://youtu.be/jvPPXbo87ds?t=2265>
+**`C^n < G^n`**, most of the time &mdash; <https://youtu.be/jvPPXbo87ds?t=2265>
 
-**representation** _[[spline#continuity]] [[boolean algebra#implication]]s_
+**representation** _[[spline#continuity]] [[boolean#implication]]s_ &mdash; <https://youtu.be/jvPPXbo87ds?t=2187>
 
 ```mermaid
 graph BT
@@ -106,6 +106,10 @@ let a [[spline]] **`S`**
 
 [[spline#linear spline]]s are only **`C^0`** and therefore only **`G^0`** continuous
 
+**applications**
+
+[[spline#linear spline]]s are useful to interpolate dense data, and whenever smoothness doesn't matter
+
 **representation**
 
 ![[Pasted image 20221224225414.png]]
@@ -160,41 +164,29 @@ the _tangent points_ of a [[spline#cubic bezier spline]] are the pairs of contro
 - _aligned_ if they form a [[line]] with the joint
 - _mirrored_ if are form a [[line]] with and are the same [[distance]] from the joint
 
-**applications**
-
-[[spline#cubic bezier spline]]s are the type of [[spline]] used in vector graphics and font rendering
-
 **properties**
 
 [[spline#cubic bezier spline]]s are **`C^0`** and **`G^0`** continuous
 
 [[spline#cubic bezier spline]]s are **`G^1`** continuous if the _tangent points_ are _aligned_
 
-[[spline#cubic bezier spline]]s are **`C^1`** continuous if all _tangent points_ are _mirrored_ &mdash; [[proof]] https://youtu.be/jvPPXbo87ds?t=1129
+[[spline#cubic bezier spline]]s are **`C^1`** continuous if all _tangent points_ are _mirrored_ &mdash; [[proof]] <https://youtu.be/jvPPXbo87ds?t=1129>
 
 [[spline#cubic bezier spline]]s can be made **`G^2`** continuous, but doing so results in loss of local control
 
-[[spline#cubic bezier spline]] can be made **`C^2`** continuous, but doing so results in loss of local control and of many degrees of freedom
+[[spline#cubic bezier spline]] can be made **`C^2`** continuous, but doing so results in loss of local control and of many degrees of freedom &mdash; <https://youtu.be/jvPPXbo87ds?t=1305>
 
 [[spline#cubic bezier spline]]s can be made **`C^3`** continuous, but doing so results in a "[[spline]]" equivalent to the extrapolation of the initial [[bezier curve#cubic bezier curve]] (increasing its parameter beyond **`1`**). the resulting "[[spline]]" has no more joints and is therefore **`C^@@`** continuous
+
+**applications**
+
+[[spline#cubic bezier spline]]s are often used in vector graphics and font rendering because they allow for tangent discontinuities when needed
 
 ## Cubic Hermite Spline
 
 &mdash; <https://en.wikipedia.org/wiki/Cubic_Hermite_spline>
 
 **definition** a _cubic hermite spline_ is a [[spline]] build from degree **`3`** [[hermite curve]]s connected end-to-end
-
-**representation**
-
-![[Pasted image 20221229171628.png]]
-
-&mdash; <https://youtu.be/jvPPXbo87ds?t=2525>
-
-**equiv** _[[spline#cubic bezier spline]] with control points at distance **`-3`** the length of the velocity vectors_
-
-![[Pasted image 20221229172408.png]]
-
-&mdash; <https://youtu.be/jvPPXbo87ds?t=2613>
 
 **preperties**
 
@@ -207,6 +199,22 @@ the _tangent points_ of a [[spline#cubic bezier spline]] are the pairs of contro
 [[spline#cubic hermite spline]]s are **`G^1`** continuous
 
 [[spline#cubic hermite spline]]s are **`C^1`** continuous. however, many hermite [[spline]]s allow for two velocities at each [[spline]] joint, making them **`C^0`** continuous only
+
+**applications**
+
+[[spline#cubic hermite spline]]s are the most common splines in animation because they guarantee passitng through control points at specific velocities
+
+**representation**
+
+![[Pasted image 20221229171628.png]]
+
+&mdash; <https://youtu.be/jvPPXbo87ds?t=2525>
+
+**equiv** _[[spline#cubic bezier spline]] with control points at distance **`-3`** the length of the velocity vectors_
+
+![[Pasted image 20221229172408.png]]
+
+&mdash; <https://youtu.be/jvPPXbo87ds?t=2613>
 
 ### Cardinal Spline
 
@@ -222,18 +230,6 @@ a _cardinal spline_ is a [[spline#cubic hermite spline]] that obeys **`v^n = s |
 
 > **note** to compute the velocity of the first and last control points, it is common to "mirror" the second and second-to-last control points, respectively
 
-**representation**
-
-_with scale factor **`s`** close to **`1`**_
-
-![[Pasted image 20221229174330.png]]
-
-_with scale factor **`s`** close to **`0`**_
-
-![[Pasted image 20221229174339.png]]
-
-&mdash; <https://youtu.be/jvPPXbo87ds?t=2822>
-
 **properties**
 
 - offer local control
@@ -246,13 +242,21 @@ _with scale factor **`s`** close to **`0`**_
 
 [[spline#cardinal spline]]s are **`C^1`** continuous
 
+**representation**
+
+_with scale factor **`s`** close to **`1`**_
+
+![[Pasted image 20221229174330.png]]
+
+_with scale factor **`s`** close to **`0`**_
+
+![[Pasted image 20221229174339.png]]
+
+&mdash; <https://youtu.be/jvPPXbo87ds?t=2822>
+
 #### Catmull-Rom Spline
 
 **definition** a _catmull-rom spline_ is a [[spline#cardinal spline]] with scale factor **`s = -2`**
-
-**representation**
-
-![[Pasted image 20221229175004.png]]
 
 **properties**
 
@@ -268,6 +272,14 @@ _with scale factor **`s`** close to **`0`**_
 
 there is no need to specify tangent points for [[spline#catmull-rom spline]]s &mdash; they "just work"
 
+**applications**
+
+[[spline#catmull-rom spline]]s are useful for path smoothing because they smoothly interpolate control points without needing to specify tangent points
+
+**representation**
+
+![[Pasted image 20221229175004.png]]
+
 ## Basis Spline
 
 **aka** _b-spline_
@@ -276,10 +288,6 @@ there is no need to specify tangent points for [[spline#catmull-rom spline]]s &m
 
 **definition** a _b-spline of order **`n`**_ is a piecewise [[polynomial]] [[function]] of degree **`n . 1`** whose first **`n`** [[derivative]]s are [[function#continuous function]]s
 
-**representation**
-
-![[Pasted image 20221229183412.png]]
-
 &mdash; <https://youtu.be/jvPPXbo87ds?t=3237>
 
 **properties**
@@ -287,13 +295,21 @@ there is no need to specify tangent points for [[spline#catmull-rom spline]]s &m
 - offer local control
 - do not interpolate control points
 
-[[spline#b-spline]]s of order **`n`** are **`C^n.1`** and **`G^n.1`** continuous
+[[spline#basis spline]]s of order **`n`** are **`C^n.1`** and **`G^n.1`** continuous
+
+**applications**
+
+[[spline#basis spline]]s of degree **`3`** are the most common splines in industrial design because they allows the design of curvature-sensitive reflexive surfaces without loss of local control
+
+**representation**
+
+![[Pasted image 20221229183412.png]]
 
 ### Non-Uniform Rational B-Spline
 
 **aka** _NURBS_
 
-_a [[spline#b-spline]] with a weight assigned to each control point_
+_a non-uniform [[spline#basis spline]] with a weight assigned to each control point_
 
 ## &mdash;
 

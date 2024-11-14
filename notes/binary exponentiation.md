@@ -2,11 +2,13 @@
 
 **aka** _exponentiation by squaring, square-and-multiply algorithm_
 
+**see** [[reduce function]]
+
 [[binary exponentiation]] is an [[algorithm]] to repeatedly apply [[monoid#operation]]s in [[logarithm]]ic time [[computational complexity]]
 
 [[binary exponentiation]] requires its binary [[operator]] to be associative and requires the existence of an identity element; this corresponds to a [[monoid]]. [[binary exponentiation]] can be modified to work with [[semigroup]]s such as those formed by [[convolution]] by handling differently the case where **`n = 0`**. [[binary exponentiation]] can also be extended to work with negative exponents by ensuring the elements form a [[group]]
 
-[[binary exponentiation]] achieves [[logarithm]]ic time [[computational complexity]] by taking advantage of the fact that repeated [[monoid#operation]] applications can be represented as a [[tree#binary tree]]: **`x \* x \* x \* x \* x \* x \* x \* x == (x \* x \* x) \* (x \* x \* x) == (x \* (x \* x)) \* (x \* (x \* x))`**
+[[binary exponentiation]] achieves [[logarithm]]ic time [[computational complexity]] by taking advantage of the fact that repeated [[monoid#operation]] applications can be represented as a [[tree#binary tree]]: **`{x}6 == xxxxxx == (xxx)(xxx) == (x(xx))(x(xx))`**
 
 **representation** _using [[recursion]]_
 

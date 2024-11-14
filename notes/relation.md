@@ -1,6 +1,6 @@
 # Relation
 
-**see** [[set]], [[cartesian product]], [[math notation]]
+**see** [[set]], [[math notation]]
 
 **equiv** _[[graph]]_
 
@@ -45,6 +45,12 @@ _every element is related to itself_
 
 **definition** a [[relation#homogenous relation]] is said to be _reflexive_ if **`RR x x`** for all **`x`**
 
+### Reflexive Closure
+
+**definition** the _reflexive closure_ of a [[relation]] is the smallest [[relation#reflexive relation]] that contains it &mdash; Wikipedia
+
+**definition** the _reflexive closure_ of a [[relation]] **`R`** is **`R \/ {=}`**
+
 ## Symmetric Relation
 
 _swapping arguments never changes the result_
@@ -59,6 +65,12 @@ _swapping arguments never changes the result_
 
 **definition** a [[relation#homogenous relation]] is said to be _symmetric_ if **`{= rr} RR`**
 
+### Symmetric Closure
+
+**definition** the _symmetric closure_ of a [[relation]] is the smallest [[relation#symmetric relation]] that contains it &mdash; Wikipedia
+
+**definition** the _symmetric closure_ of a [[relation]] **`R`** is **`{\/ rr} R`**
+
 ## Transitive Relation
 
 _middleman can always be cut out_
@@ -66,6 +78,10 @@ _middleman can always be cut out_
 **equiv** _[[category#composition]]_
 
 **definition** a [[relation#homogenous relation]] is said to be _transitive_ if **`RR x y /\ RR y z < RR x z`** for all **`x`**, **`y`**, and **`z`**
+
+### Transitive Closure
+
+**definition** the _transitive closure_ of a [[relation]] is the smallest [[relation#transitive relation]] that contains it &mdash; Wikipedia
 
 ## Equivalence Relation
 

@@ -7,7 +7,7 @@ _incompatible beliefs_
 > **examples**
 >
 > - wanting a job, failing the interview, and telling yourself you didn't want the job anyway
-> - thinking all [[wealth]]y people are greedy and evil while you also want to be [[wealth]]y
+> - thinking all [[wealth]]y people are greedy and evil while also wanting to be [[wealth]]y
 > - _your call is extremely important to us_ &mdash; <https://youtu.be/oTugjssqOT0?t=1843>
 
 [[cognitive dissonance]] can lead to mental stress ([[cognitive load]]?), [[anxiety]], and [[depression]]

@@ -4,169 +4,208 @@
 
 **see** [[combinatory logic]], [[recursion]]
 
-&mdash; <https://youtu.be/eis11j_iGMs>
+> **resource** _SSA is Functional Programming_ "SSA is just another name for [[lambda calculus]]" &mdash; <https://www.cs.princeton.edu/~appel/papers/ssafun.pdf> &mdash; <https://crypto.stanford.edu/~blynn/compiler/lambda.html>
 
-used for backlinks
+**definition** _&beta;-reduction_ is the process of replacing bound variables with the argument to an abstraction
+
+**definition** a &lambda;-term is in _&beta;-normal form_ if it cannot be _&beta;-reduced_ any further
+
+**definition** _&alpha;-conversion_ is the process of renaming bound variables to avoid name collisions
+
+**definition** two &lambda;-terms are _&alpha;-equivalent_ if and only if one can be converted into the other through _&alpha;-conversion_
+
+> **note** &lambda;-terms can be denoted canonically using De Bruijn indices, eliminating the need for &alpha;-conversion and &alpha;-equivalence &mdash; <https://youtu.be/UUUQp8HvrH0?t=892>
 
 **properties**
 
-[[function]]s in [[lambda calculus]] are [[function#pure function]]s
+[[function]]s in the [[lambda calculus]] are [[function#pure function]]s
 
-[[lambda calculus]] is [[turing complete]]
+the [[lambda calculus]] is [[turing complete]]
 
-[[lambda calculus]] is the basis for most [[functional programming]] [[programming language]]s
+the [[lambda calculus]] is the basis for most [[functional programming]] [[programming language]]s
 
 ## Syntax
 
-**see** [[backus-naur form]]
-
 &mdash; <https://youtu.be/IOiZatlZtGU?t=292>
 
-&mdash; <https://opendsa-server.cs.vt.edu/OpenDSA/Books/PL/html/Syntax.html>
-
-**definition**
+**see** [[backus-naur form]]
 
 _in [[conventional math notation]]_
 
 ```bnf
-<expr> ::= <var>                       ; variable
-         | "λ" <var> "." <expr>        ; abstraction
-         | "(" <expr> " " <expr> ")"   ; application
+<expr> ::= <var>                        ; variable
+         | "(" <expr> " " <expr> ")"    ; application
+         | "(" "λ" <var> "." <expr> ")" ; abstraction
+<var> ::= (? some lowercase latin letter ?)
 ```
 
 _in my [[math notation]]_
 
 ```bnf
-<expr> ::= <var>               ; variable
-         | <var> "->" <expr>   ; abstraction
-         | <expr> " " <expr>   ; application
-         | "(" <expr> ")"      ; grouping
+<expr> ::= <var>             ; variable
+         | <expr> " " <expr> ; application
+         | <var> "->" <expr> ; abstraction
+         | "(" <expr> ")"    ; grouping
+<var> ::= (? some lowercase latin letter ?)
 ```
 
-## Church Booleans
+## Simply Typed Lambda Calculus
 
-**equiv** _[[boolean algebra]]_
+**aka** &lambda; &#8407;-calculus
 
-[[boolean]] values and [[boolean algebra#operators]] can be defined as follows:
+**properties** &mdash; <https://youtu.be/WHQ-OYFqp5w?t=449>
 
-- **`"true" = x y -> x`**
-- **`"false" = x y -> y`**
+every chain of &beta;-reductions of &lambda; &#8407;-terms reaches the &beta;-normal form, and so every program in the &lambda; &#8407;-calculus is terminating. consequently, it is not [[turing complete]]
 
-&mdash; <https://youtu.be/eis11j_iGMs?t=413>
+self-application is not typeable in the &lambda; &#8407;-calculus. consequently, [[recursion]] is impossible
 
-we can then define:
+### Syntax
 
-- **`"not" = p -> p "false" "true"`**
-- **`"and" = p q -> p q p`**
-- **`"or" = p q -> q p q`**
+**see** [[backus-naur form]]
 
-&mdash; <https://youtu.be/eis11j_iGMs?t=484>
+_in [[conventional math notation]]_
+
+```bnf
+<expr> ::= <var>                                   ; variable
+         | "(" <expr> " " <expr> ")"               ; application
+         | "(" "λ" <var> ":" <type> "." <expr> ")" ; abstraction
+<var> ::= (? some lowercase latin letter ?)
+<type> ::= <base>                                  ; variable type
+         | "(" <type> "->" <type> ")"              ; arrow type
+<base> ::= (? some lowercase greek letter ?)
+```
+
+### Typing Rules
+
+_variable_ $\displaystyle\frac{x : \sigma \in \Gamma}{\Gamma \vdash x : \sigma}$
+
+_application_ $\displaystyle\frac{\Gamma \vdash e_1 : \sigma \to \tau \quad \Gamma \vdash e_2 : \sigma}{\Gamma \vdash (e_1\ e_2) : \tau}$
+
+_abstraction_ $\displaystyle\frac{\Gamma, x : \sigma \vdash e : \tau}{\Gamma \vdash (\lambda x : \sigma.\ e) : (\sigma \to \tau)}$
+
+&mdash; <https://youtu.be/knD_5pBCmuI?t=621>
+
+&mdash; <https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus#Typing_rules>
+
+### &mdash;
+
+&mdash; <https://youtu.be/UUUQp8HvrH0>
+
+&mdash; <https://youtu.be/knD_5pBCmuI>
+
+&mdash; <https://youtu.be/WHQ-OYFqp5w>
+
+&mdash; <https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus>
+
+---
+
+# Constructions
+
+&mdash; _Church Encoding of Data Types Considered Harmful for Implementations_ <https://ifl2014.github.io/submissions/ifl2014_submission_13.pdf> (though lots of babble and grammar errors and typos)
+
+## Non-Recursive Types
+
+non-recursive [[type#algebraic data type]]s can be encoded naturally in the [[lambda calculus]]. [[type#sum type]]s are [[function]]s that call one of their several parameters to emulate case analysis, and [[type#product type]]s are [[function]]s that call their single parameter with several arguments to emulate destructuring
+
+[[lambda calculus#church encoding]] and [[lambda calculus#scott encoding]] coincide to this non-recursive encoding when the [[type#algebraic data type]] they encode is not recursive
+
+### Booleans
+
+**see** [[boolean]]
+
+`data Bool = True | False` can be encoded in the [[lambda calculus]] as follows:
+
+- **`"true" = x. y. x`**
+- **`"false" = x. y. y`**
+
+we can then define the [[boolean#operator]]s:
+
+- **`"not" p = p "false" "true"`**
+- **`"and" p q = p q p`**
+- **`"or" p q = p p q`**
 
 &mdash; <https://en.wikipedia.org/wiki/Lambda_calculus#Logic_and_predicates>
 
-## Pairs
+### Pairs
 
-**equiv** _[[ordered pair]]_
+**see** [[ordered pair]]
 
-[[ordered pair]]s can be defined as follows:
+`data Pair x y = Pair x y` be encoded in the [[lambda calculus]] as follows:
 
-- **`"pair" = x y z -> z x y`**
-- **`"fst" = p -> p "true"`**
-- **`"snd" = p -> p "false"`**
+- **`"pair" x y = z. z x y`**
+- **`"fst" p = p (x. y. x)`**
+- **`"snd" p = p (x. y. y)`**
 
 ## Church Encoding
 
-**equiv** _[[natural]]s_
+the Church encoding encodes recursive [[type#algebraic data type]]s by building up a generalized fold over the data; see [[reduce function]]. providing a fold [[function]] and a base case to a term &beta;-reduces to the result of a fold over it. however, accessing the data of a recursive variant is tricky and generally not of constant time [[computational complexity]]
 
-[[natural]] numbers can be defined as follows:
+### Church Numerals
 
-- **`0 = f x -> x`**
-- **`"succ" = n f x -> f (n f x)`**
+**see** [[natural]]
+
+the Church encoding of `data Nat = Succ Nat | Zero` is as follows:
+
+- **`"zero" = s. z. z`**
+- **`"succ" n = s. z. s (n s z)`**
 
 we can then define:
 
-- **`"iszero" = n -> n (-> "false") "true"`**
+- **`"iszero" n = n (."false") "true"`**
 
-## Iteration
+### lists
 
-[[iteration]] is defined as **`(x -> x x) (x -> x x)`** in my [[math notation]] or as $(\lambda x.\ x\ x) (\lambda x.\ x\ x)$ in [[conventional math notation]]. evaluating this [[function]] call once yields itself. this definition is equivalent to **`"rec" {*}`** in my [[math notation]] or to $\operatorname{rec} \lambda x.\ x$ in [[conventional math notation]], see [[recursion#general recursion]] &mdash; <https://youtu.be/9T8A89jgeTI?t=544>
+**see** [[list]]
 
-## Recursion
+the Church encoding of `data List a = Cons a (List a) | Nil` is as follows:
 
-general [[recursion]] in [[lambda calculus]] can be defined using the [[combinator#y combinator]]
+- **`"nil" = c. n. n`**
+- **`"cons" h t = c. n. c h (t c n)`**
 
-**`"rec" f == Y f`**
+we can then define:
 
-&mdash; <https://youtu.be/9T8A89jgeTI?t=627>
+- **`"isnil" l = l (.."false") "true"`**
+- **`"list1" h = c. n. c h (nil c n)`**
+- **`"head" l = l (h. f. some h) none`**
 
-## array representation
+## Scott Encoding
 
-all [[lambda calculus]] expressions can be represented as one-dimensional [[array]]s using the following [[backus-naur form]] syntax &mdash; me:
+&mdash; <https://crypto.stanford.edu/~blynn/compiler/scott.html>
 
-```bnf
-<expr> ::= <index>                                   ; De Bruijn index
-         | "λ"* "(" (<expr> | "id") " " <expr> ")"   ; (abstraction of)* application
-```
+the Scott encoding encodes recursive [[type#algebraic data type]]s in the obvious way, building a decision tree of sorts. folding over a term requires explicit external [[recursion]], say by using a fixed-point combinator such as the [[combinator#y combinator]]. that said, accessing the data of a recursive variant is trivial and of constant time [[computational complexity]]
 
-> **example**
->
-> in my [[math notation]]: **`z -> (y -> y (x -> x)) (x -> z x)`**
->
-> using De Bruijn indices: **`ll (ll 0 (ll 0)) (ll 1 0)`**
->
-> as a [[tree#binary tree]]:
->
-> ```mermaid
-> graph TD
->   node8(**`0`**)
->   node5(**`ll A`**)
->   node6(**`0`**)
->   node7(**`ll A`**)
->   node1(**`ll A`**)
->   node2(**`1`**)
->   node3(**`0`**)
->   node9(**`ll A`**)
->
->   node1 --> node3
->   node1 --> node2
->
->   node5 --> node6
->
->   node7 --> node8
->   node7 --> node5
->
->   node9 --> node7
->   node9 --> node1
-> ```
->
-> as an [[array]]: `0x01010100010100XXXXXX00XXXXXXXX`
+### Scott Numbers
 
-> **example**
->
-> in my [[math notation]]: **`s z -> s (s (s z))`**
->
-> using De Bruijn indices: **`ll (ll (1 (1 (1 0))))`**
->
-> as a [[tree#binary tree]]:
->
-> ```mermaid
-> graph TD
->   node1(**`ll ll A`**)
->   node2(**`1`**)
->   node3(**`A`**)
->   node4(**`1`**)
->   node5(**`A`**)
->   node6(**`1`**)
->   node7(**`0`**)
->
->   node1 --> node2
->   node1 --> node3
->
->   node3 --> node4
->   node3 --> node5
->
->   node5 --> node6
->   node5 --> node7
-> ```
->
-> as an [[array]]: `0x020100XXXX0100XXXXXXXXXXXX0100`
+**see** [[natural]]
+
+the Scott encoding of `data Nat = Succ Nat | Zero` is as follows:
+
+- **`"zero" = s. z. z`**
+- **`"succ" n = s. z. s n`**
+
+we can then define:
+
+- **`"iszero" n = n (."false") "true"`**
+
+unlike with [[lambda calculus#church encoding]], we may easily define:
+
+- **`"pred" n = s. z. n (n. n) z`**
+
+### lists
+
+**see** [[list]]
+
+the Scott encoding of `data List a = Cons a (List a) | Nil` is as follows:
+
+- **`"nil" = c. n. n`**
+- **`"cons" h t = c. n. c h t`**
+
+we can then define:
+
+- **`"isnil" l = l (."false") "true"`**
+- **`"list1" h = c. n. c h nil`**
+- **`"head" l = l (h. t. some h) none`**
+
+unlike with [[lambda calculus#church encoding]], we may easily define:
+
+- **`"tail" l = l (h. t. some t) none`**

@@ -1,4 +1,4 @@
-# 🆁🅰🅽🅳🅾🅼
+# Random
 
 ## thinking
 
@@ -43,15 +43,15 @@ as with every idea I have, turns out it already exists:
 
 humans are a minuscule slice of everything. we look for life that have **evolved using water** and that are **roughly our size**. we try to split materials into [[atom]]s into elementary particles and assume that **there is a lower limit to how our world can be divided**. we assume that the universe must be the **interaction of "simple" rules**. we try to communicate with other life forms that are **roughly our level of intelligence**
 
-all the items in bold are a minuscule subset of what is possible. as an example, solar systems are relatively simple when viewed abstractly and gravity is a simple force that pulls spheres together. well, what if the elementary particles we keep looking for are in reality equivalent to planets? maybe they hide huge complexity, but seem simple when looked at as spheres affected by gravity. as another example, it would be almost impossible to teach the rules of the game of life to chimpanzees. explaining those rules to humans would take a few minutes. this is a case of [[delta invariance]]. thinking about it, the intelligence of humans and of chimpanzees are actually identical when viewed in the context of all possible intelligence levels. if we find that difference significant, then intelligence levels higher than ours go so high that it is impossible for us to even attempt to understand them.
+all the items in bold are a minuscule subset of what is possible. as an example, solar systems are relatively simple when viewed abstractly and gravity is a simple force that pulls spheres together. well, what if the elementary particles we keep looking for are in reality equivalent to planets? maybe they hide huge complexity, but seem simple when looked at as spheres affected by gravity. as another example, it would be almost impossible to teach the rules of the game of life to chimpanzees. explaining those rules to humans would take a few minutes. this is a case of [[delta invariance]]. thinking about it, the intelligence of humans and of chimpanzees are practically identical when viewed in the context of all possible intelligence levels. if we find that difference significant, then intelligence levels higher than ours go so high that it is impossible for us to even attempt to understand them
 
 all of that to say that there might very well be no point in looking for answers at all
 
 ## ideas
 
-### shipping VPN
+### shipping proxy
 
-a "shipping vpn" for shipping products to countries where it can't be shipped
+a "shipping proxy" for shipping products to countries where they can't be shipped
 
 ### general idea of money schemes
 
@@ -68,7 +68,7 @@ random idea: buy an index fund, make people believe you are managing their portf
 
 ### README.yaml
 
-a standard for a file named something like _README.[[yaml]]_ that describes the folder structure of a project. would make it easier for someone approaching a code base for the first time to "know where to start"
+a standard for a file named something like _README.yaml_ that describes the folder structure of a project. would make it easier for someone approaching a code base for the first time to "know where to start"
 
 ### large language model chatbot idea
 
@@ -95,6 +95,8 @@ a service that assigns a UTF-256 codepoint to any image uploaded to it &mdash; i
 a reaction channel with higher production value than reaction channels. playing part of a video, pausing, talking about it, then **cutting** to the next noteworthy part of the video and repeating. this would make it very easy to produce large amounts of content without needing much preparation, all the while only stealing noteworthy parts of other videos
 
 > **example** _a video of the style mentioned above_ <https://youtu.be/VfNdps0daF8>
+
+careful not to become a Prime or a Theo
 
 ### simpler web
 
@@ -162,7 +164,7 @@ this is an efficient method for **recording data completely independently from h
 S ((+) map.) reduce. A ==
 ```
 
-$[a : b]n = (C\ n\ 0) \sshortmid a[n] b0 : \cdots (C\ n\ n) \shortmid a0 b[n]$
+$[a : b]n = (C\ n\ 0) \shortmid a[n] b0 : \cdots (C\ n\ n) \shortmid a0 b[n]$
 
 ```lua
 x (1 min.) map.
@@ -219,28 +221,21 @@ $a\ \dot\lor\ b$
 
 ```mermaid
 graph TD
-  A(Object 1)
-  B(Object 2)
-  A -- morphism --> B
-  A -- identity --> A
+  O1(Object 1)
+  O2(Object 2)
+  O1 --morphism--> O2
+  O1 --identity--> O1
 ```
 
 ```mermaid
 graph LR
-  A(Client)
-  B(API)
-  C(DB)
-  D(Stripe)
-  E(SendGrid)
-  F(RabbitMQ)
-
-  A -- POST --> B
+  Client -- POST --> API
   subgraph 5. Transaction
-    B -- 1. --> C
+    API --1.--> DB
   end
-  B -- 2. ---> D
-  B -- 3. ---> E
-  B -- 4. ---> F
+  API --2.---> Stripe
+  API --3.---> SendGrid
+  API --4.---> RabbitMQ
 ```
 
 mermaid recreation of <https://youtu.be/VvUdvte1V3s?t=327>
@@ -961,9 +956,53 @@ $n \mapsto \sum_{k=1}^n \log k$
 
 ---
 
-[[regular expression]] to find/search something within a ``**`...`**`` math equation: ``\*\*`[^*]*...[^*]*`\*\*`` where `...` is the thing we're looking for
+```mermaid
+graph LR
+  RE --ltre_parse--> NFA --ltre_compile--> DFA
+  DFA --ltre_uncompile--> NFA
+  DFA --ltre_decompile--> RE
+  RE --ltre_fixed_string--> NFA
+  DFA --ltre_serialize--> BUF --ltre_deserialize--> DFA
+  NFA --ltre_partial--> NFA --ltre_ignorecase--> NFA --ltre_complement--> NFA
+  DFA --ltre_matches--> A( )
+  NFA --ltre_matches_lazy--> B( )
+```
 
-for a more precise search: ``\(\*\*`[^*]\{-}\)\@<=\(...\)\([^*]\{-}`\*\*\)\@=``
+---
+
+**`/\ (RR /\ 0+ < x. \/ (RR /\ y. (xy = 1)))`**
+
+1. "the [[mean]] of a [[list]] is at most its maximum element"
+2. **`((:-#) -| ^^) L ==`**
+3. **`:L -- #L -| ^^L <`**
+4. **`>< :L -- #L -| 1 < >< ^^L -| 1 ==`**
+5. **`>< :L -| #L < ^^ >< L -| 1`**
+6. "if there are more things than slots then there is a slot with more than one thing"
+
+**definition** _**`ee, dd`** definition of a [[limit]]_ **`"lim" f a = L == /\ (0+) -| ee. \/ dd. /\ x. ("abs" {{0 + x..a -| dd} < {f x..L -| ee}})`**
+
+1. **`\/ n. (n1 : n2 = n3) >`**
+2. **`[0]1 : [0]2 = [0]3 ==`**
+3. **`I`**
+
+notes from <https://www.cs.toronto.edu/~hehner/BAUA.pdf>:
+
+- _We can use operators other than = down the left side of the calculation; we can even use a mixture of operators, as long as there is transitivity_
+- _In this brief introduction to boolean calculation, I have not taken the time to present all the rules. For a complete presentation, the reader is referred to [14]_ <http://www.cs.toronto.edu/~hehner/UA.pdf> #todo read
+- _If a remains boolean but b and c are numbers, the if-expression on the left is still sensible (the Algol if), and this is still a law. In the unified notation it is if a then b else c f = (a ↓ b) ↑ (–a ↓ c)_
+- advantages of **`I`** being **`@@`** and **`O`** being **`..@@`**:
+  - _It is exactly the same calculation. By unifying number algebra with boolean algebra we carry our ability to calculate over from numbers to booleans._
+  - the laws _a ∨ ⊤ ≡ ⊤_, _a ∧ ⊥ ≡ ⊥_, _a ∨ ⊥ ≡ a_, _a ∧ ⊤ ≡ a_, _a ⇒ ⊤_, _⊥ ⇒ a_ still hold in number algebra
+- _A different unification of boolean algebra and number algebra that aims at the same goal (using the same calculations for booleans and numbers), but emphasizes traditional modular arithmetic along the way, can be found in [5], a provocative work of grand scope._ #todo maybe read
+- _Two notations that have not yet made the transition from informal beginning to formal, calculational tool are the quantifiers ∀ and ∃ . For most mathematicians today they remain abbreviations for the words “for all” and “there exists”, and their meaning is just whatever can be understood from those words._
+- _The fact that the booleans can be embedded in the extended integers just as smoothly as the integers are embedded in the rationals seems a compelling reason to do so_
+- maybe consider changing the precedence of boolean operators in my [[math notation]]
+
+---
+
+[[regular expression]] to find/search something within a ``**`...`**`` math equation: ``\v\*\*`[^*]*...[^*]*`\*\*`` where `...` is the thing we're looking for
+
+for a more precise search: ``\v(\*\*`[^*]{-})@<=(...)([^*]{-}`\*\*)@=``
 
 ---
 
@@ -985,11 +1024,11 @@ for a more precise search: ``\(\*\*`[^*]\{-}\)\@<=\(...\)\([^*]\{-}`\*\*\)\@=``
 
 **`f x`** &mdash; shorthand application
 
-**`f <- x`** &mdash; application
+**`f <- x`** &mdash; application #xxx remove?
 
-**`-f y`** &mdash; shorthand inverse application
+**`` `f y ``** &mdash; shorthand inverse application
 
-**`f -> y`** &mdash; inverse application
+**`f -> y`** &mdash; inverse application #xxx remove?
 
 **`fg`** &mdash; shorthand [[composition]]
 
@@ -999,46 +1038,19 @@ for a more precise search: ``\(\*\*`[^*]\{-}\)\@<=\(...\)\([^*]\{-}`\*\*\)\@=``
 
 **`fww`** &mdash; shorthand repeated composition
 
-**`[f]n`** &mdash; repeated composition
+**`{f}n`** &mdash; repeated composition
 
 **`f'g`** &mdash; [[combinator#phi combinator]], [[polymorphism#rank polymorphism]]
 
+**`` `f `** &mdash; composition inverse
+
+**`\\ f`** &mdash; low-precedence composition inverse
+
 > **examples**
 >
-> - **`\dd/`** &mdash; half-derivative operator
-> - **`-dd`** &mdash; antiderivative operator
+> - **`dd{-2}`** &mdash; half-derivative operator
+> - **`` `dd``** &mdash; antiderivative operator
 > - **`x = ..b : \b2..4ac/ -- 2a`** &mdash; quadratic formula
-
-> **examples**
->
-> interesting thing I noticed:
->
-> - **`(*)(:-#)(*)`** is an arithmetic [[mean]]
-> - **`(-)(:-#)(-)`** is a harmonic [[mean]]
-> - **`[.](:-#)/.\`** is a geometric [[mean]]
-> - **`(*)dd(*)`** is a [[derivative]] (gives the **`m`** in **`x -> mx : b`**)
-> - **`(-)dd(-)`** is a "reciprocal" [[derivative]] (gives the **`a`** in **`x -> a -- x : b`**)
-> - **`[.]dd/.\`** is an [[exponential derivative]] (gives the **`b`** in **`x -> ab[x]`**)
->
-> define **`ww f g = fg-f`** function inverse #todo &mdash; <https://en.wikipedia.org/wiki/Conjugacy_class>. then,
->
-> - **`ww (*) (:-#)`** is an arithmetic [[mean]]
-> - **`ww (-) (:-#)`** is a harmonic [[mean]]
-> - **`ww [.] (:-#)`** is a geometric [[mean]]
-> - **`ww (*) dd`** is a [[derivative]] (gives the **`m`** in **`x -> mx : b`**)
-> - **`ww (-) dd`** is a "reciprocal" [[derivative]] (gives the **`a`** in **`x -> a -- x : b`**)
-> - **`ww [.] dd`** is an [[exponential derivative]] (gives the **`b`** in **`x -> ab[x]`**)
-> - **`ww VV {|} = CC`** represents that in the world of [[fourier transform]]s, multiplication is [[convolution]]
->
-> define **`cc f g = fg-f-g`** function inverse #todo &mdash; <https://en.wikipedia.org/wiki/Commutator>. then,
->
-> - **`cc r u`** is the "sexy move" **`ru-r-u`**
-
-#think about [[standard deviation]]
-
-#think about [[loss function#mean squared error]]
-
-#think about <https://youtu.be/eLhsyAu7G-U>
 
 ---
 
@@ -1050,9 +1062,9 @@ superfactorial **`(|)2(sshh)2`** &mdash; <https://en.wikipedia.org/wiki/Superfac
 
 **`(:)(ww [.]) == [1]1 : [2]2 : [3]3 : ...`**
 
-**`"fact"ss n = ss n | "fact" n`**
+**`"fact"ss n = ss n | "fact" n`** aka **`"fact"ss = ss | "fact"`**
 
-**`"sf"ss n = "fact"ss n | "sf" n`**
+**`"sf"ss n = "fact"ss n | "sf" n`** aka **`"sf"ss = "fact"ss | "sf"`**
 
 $\operatorname{fact} n = (\vert)\sigma\eta\ n$
 
@@ -1078,7 +1090,7 @@ $a'b$ $a`b$ $a | b$ $a \backslash b$
 
 $\int\ r. \tau r = \int\ (\tau') = r. \tau r2\text-2$
 
-**`${.} = {|}`**
+**`$(.) = {|}`**
 
 $\int\braket{.} = \braket{|}$
 
@@ -1086,9 +1098,7 @@ $\operatorname{\cdot\cdot} b : \lfloor b2 \operatorname{\cdot\cdot} 4ac \rfloor 
 
 search:
 
-``\(\*\*`[^*]\{-}\)\@<=\(||\|->\|\.\|\*\|{\|}\|:1\|PP\|\.\.\.\|__\|\^\^\)\([^*]\{-}`\*\*\)\@=``
-
-`||\|->\|\.\|\*`
+``\v(\*\*`[^*]{-})@<=(\|\||-\>|\.|\*|\{|\}|:1|PP|dd|\$|\.\.\.|_|\^| ")([^*]{-}`\*\*)@=``
 
 &mdash; <https://chat.openai.com/c/a8ad9268-d064-4385-a98b-05c34e4744e5>
 
@@ -1107,4 +1117,3 @@ todo tags to be added:
 - [[composition#identity]] notation #todo id
 - **`"abs"`** and **`"arg"`** notations #todo abs
 - [[function#inverse]] notation #todo inv
-- superscripts and subscripts #todo sup

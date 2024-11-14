@@ -7,7 +7,7 @@
 a non-standard 8th bit is sometimes used for:
 
 - [[utf-8]] encoding
-- code page extensions
+- [[code page]] extensions
 - parity checks and [[error correction]]
 
 > **resource** _Plain Text_ talk (alias PIKE MATCHBOX) by Dylan Beattie &mdash; <https://youtu.be/_mZBa3sqTrI>

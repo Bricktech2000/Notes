@@ -8,7 +8,7 @@ _previous state and next state to circuit inputs. tells you how to get from the 
 
 > **example**
 >
-> | **`Q^t`** | **`Q^t:1`** | **`P`** | **`N`** |
+> | **`Q t`** | **`Qss t`** | **`P`** | **`N`** |
 > | --------- | ----------- | ------- | ------- |
 > | **`0`**   | **`0`**     | **`0`** | &times; |
 > | **`0`**   | **`1`**     | **`1`** | &times; |

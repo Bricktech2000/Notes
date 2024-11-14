@@ -12,11 +12,9 @@
 
 [[memory]], [[memory technique]]
 
-[[10x developper]], [[intelligence]]
+[[knowledge]], [[intelligence]]
 
 [[social media]]
-
-[[religion]]
 
 [[self-control]], [[addiction]]
 
@@ -32,4 +30,4 @@
 
 [[proxy]], [[signal]]
 
-[[benign violation]]
+[[defense mechanism]], [[benign violation]]

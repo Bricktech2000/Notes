@@ -4,4 +4,4 @@
 
 **properties**
 
-two [[melody]]es **`M /\ N`** "sound like the same melody" if **`M -- N = (1...)`** or, equivalently, if **`kM = N /\ RR k`**
+two [[melody]]es **`M, N`** "sound the same" if **`M -- N = (1...)`** or, equivalently, if **`kM = N /\ RR k`**

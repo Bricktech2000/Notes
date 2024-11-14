@@ -2,9 +2,13 @@
 
 &mdash; <https://youtu.be/SzJ46YA_RaA>
 
-> **resource** _Putting the "You" in CPU_, high-level overview of how computers run programs &mdash; <https://cpu.land/epilogue>
+> **resource** _Programming Challenges V4_, list containing some decent programming project ideas &mdash; <https://programming-challenges.jeremyjaydan.dev/media/programming-challenges-v4.0.png>
 
-> **resource** _Programming Challenges V4_, list of decent programming project ideas &mdash; <https://programming-challenges.jeremyjaydan.dev/media/programming-challenges-v4.0.png>
+> **resource** _Build your own X_, links to guides on building classic programming projects from scratch &mdash; <https://github.com/codecrafters-io/build-your-own-x>
+
+> **resource** _Bit Twiddling Hacks_, collection of low-level programming tricks &mdash; <https://graphics.stanford.edu/~seander/bithacks.html>
+
+> **resource** _Reflections on Trusting Trust_ by Ken Thompson, on why source code cannot truly be trusted &mdash; <https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf>
 
 **see**
 
@@ -25,6 +29,8 @@
 [[combinatory logic]]
 
 [[database]]
+
+[[formal language]]
 
 **applications**
 

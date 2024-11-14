@@ -1,3 +1,3 @@
 # Neutron
 
-**notation** **`n^0`**
+**notation** $n^0$

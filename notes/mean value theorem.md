@@ -22,7 +22,7 @@ _[[mean value theorem#for functions]]_
 
 _[[mean value theorem#for integrals]]_
 
-**theorem** let **`f`** be a [[function#continuous function]] defined on **`a -| * -| b`**. then, there is a [[number]] **`c`** in **`a -| * -| b`** such that **`f c = ($ f b | dd b) . ($ f a | dd a) -- b . a`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=33143>
+**theorem** let **`f`** be a [[function#continuous function]] defined on **`a -| * -| b`**. then, there is a number **`c`** in **`a -| * -| b`** such that **`f c = "ave" f = ($ f b | dd b) . ($ f a | dd a) -- b . a`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=33143>
 
 > **note** the [[mean value theorem#for integral]]s is the same as the [[mean value theorem#for function]]s, with the [[function]] being the [[integral]] **`$ f x | dd x`**. substituting it into the [[mean value theorem#for function]]s, we get the [[mean value theorem#for integral]]s.
 

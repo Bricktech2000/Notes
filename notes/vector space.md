@@ -103,6 +103,10 @@ the _dimension of a vector space_ is equal to the number of [[vector]]s in any [
 > - **`"dim" V = 1`** where **`V`** is a [[line#line in r3]] or in **`RR^2`**
 > - **`"dim" "span" {{O}} = 0`** (see [[span]], zero [[vector]])
 
+## Zero Vector Space
+
+**definition** **`{{ O }}`**
+
 ## describing vector spaces
 
 there are three major ways of describing [[vector space]]s

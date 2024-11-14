@@ -24,14 +24,14 @@ _the world's most widely used system of measurement_
 
 | Unit&nbsp;Name           | Unit        | Definition                                          | Dimension           | Quantity&nbsp;Name         | Typical&nbsp;Symbols |
 | ------------------------ | ----------- | --------------------------------------------------- | ------------------- | -------------------------- | -------------------- |
-| radian                   | **`"rad"`** | **`"m" -- "m"`** <br /> **`1`**                     | **`1`**             | plane [[angle]]            | **`qq, a`** ...      |
-| steradian                | **`"sr"`**  | **`"m"2 -- "m"2 `** <br /> **`1`**                  | **`1`**             | [[solid angle]]            | **`qq, a`** ...      |
+| radian                   | **`"rad"`** | **`"m" -- "m"`** &bull; **`1`**                     | **`1`**             | plane [[angle]]            | **`qq, a`** ...      |
+| steradian                | **`"sr"`**  | **`"m"2 -- "m"2 `** &bull; **`1`**                  | **`1`**             | [[solid angle]]            | **`qq, a`** ...      |
 | radian per second        |             | **`"rad" -- "s"`**                                  | **`--T`**           | [[angular velocity]]       | **`ww`**             |
 | hertz                    | **`"Hz"`**  | **`--"s"`**                                         | **`--T`**           | [[frequency]]              | **`f, nn, ww`**      |
 | newton                   | **`"N"`**   | **`"kg" \| "m" -- "s"2`**                           | **`M \| L -- T2`**  | [[force]], weight          | **`f, F`**           |
-| pascal                   | **`"Pa"`**  | **`"kg" -- "m" -- "s"2 `** <br /> **`"N" -- "m"2`** | **`M -- L -- T2`**  | [[pressure]], stress       | **`P`**              |
-| joule                    | **`"J"`**   | **`"kg" \| "m"2 -- "s"2`** <br /> **`"N" \| "m"`**  | **`M -- L2 -- T2`** | work, [[energy]], heat     | **`E, Q`**           |
-| watt                     | **`"W"`**   | **`"kg" -- "m"2 -- "s"3 `** <br /> **`"J"--"s"`**   | **`M -- L2 -- T3`** | power, radiant flux        | **`P`**              |
+| pascal                   | **`"Pa"`**  | **`"kg" -- "m" -- "s"2 `** &bull; **`"N" -- "m"2`** | **`M -- L -- T2`**  | [[pressure]], stress       | **`P`**              |
+| joule                    | **`"J"`**   | **`"kg" \| "m"2 -- "s"2`** &bull; **`"N" \| "m"`**  | **`M -- L2 -- T2`** | work, [[energy]], heat     | **`E, Q`**           |
+| watt                     | **`"W"`**   | **`"kg" -- "m"2 -- "s"3 `** &bull; **`"J"--"s"`**   | **`M -- L2 -- T3`** | power, radiant flux        | **`P`**              |
 | square meter             |             | **`"m"2`**                                          | **`L2`**            | [[area]]                   | **`A`**              |
 | cubic meter              |             | **`"m"3`**                                          | **`L3`**            | [[volume]]                 | **`V`**              |
 | meter per second         |             | **`"m" -- "s"`**                                    | **`L -- T`**        | speed, [[velocity]]        | **`v`**              |

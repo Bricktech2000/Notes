@@ -4,7 +4,7 @@
 
 &mdash; <https://youtu.be/ysSgG5V-R3U>
 
-the [[benign violation]] theory states that humor occurs when and only when a situation is **simultaneously** perceived as **benign** and as a **violation**
+the [[benign violation]] theory stipulates that humor occurs when and only when a situation is **simultaneously** perceived as **benign** and as a **violation**
 
 > **example**
 >

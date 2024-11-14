@@ -2,7 +2,7 @@
 
 **see** [[type]], [[polymorphism]]
 
-> **resource** [[type system]]s in [[functional programming]] &mdash; <https://www.youtube.com/watch?v=hy1wjkcIBCU>
+> **resource** [[type system]]s in [[functional programming]] &mdash; <https://youtu.be/hy1wjkcIBCU>
 
 ## Nominal Type System
 

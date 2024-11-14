@@ -6,7 +6,7 @@
 
 **definition** a [[relation]] is a _non-strict preorder_ or simply _preorder_ if it is both a [[relation#reflexive relation]] and a [[relation#transitive relation]]
 
-> **example** _divides_ is a non-strict [[preorder]] but not a non-strict [[partial order]] on the [[set]] of [[integer]]s
+> **example** _divides_ is a non-strict [[preorder]] but not a non-strict [[partial order]] on the [[set]] of [[integer]]s ($1$ divides $..1$ and $..1$ divides $1$)
 
 **definition** a [[relation]] is a _strict preorder_ if it is both a [[relation#irreflexive relation]] and a [[relation#transitive relation]]
 

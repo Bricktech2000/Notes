@@ -4,7 +4,7 @@
 
 **definition**
 
-**`x = \.q-2 . \q2-4:p3-27// 3 : \.q-2 : \q2-4:p3-27// 3`** with **`p = c-a . b2-3a2`** and **`q = 2b3-27a3 . bc-3a2 : d-a`**, where
+**`x = \..q-2 .. \q2-4:p3-27// 3 : \..q-2 : \q2-4:p3-27// 3`** with **`p = c-a .. b2-3a2`** and **`q = 2b3-27a3 .. bc-3a2 : d-a`**, where
 
 - **`a, b, c, d`** are coefficients in the cubic equation **`ax3 : bx2 : cx : d = 0`**
 - **`p, q`** are coefficients in the cubic equation **`x3 : px : q = 0`**

@@ -4,4 +4,4 @@ _reduces a [[list]] into a value whose [[type]] is that of [[list]] elements by 
 
 **aka** _`fold`_
 
-the [[reduce function]] [[algorithm]] works through [[iteration]]
+**see** [[binary exponentiation]]

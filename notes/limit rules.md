@@ -40,7 +40,7 @@ let **`c`** be a constant and ensure **`f x {x -> a}`** and **`g x {x -> a}`** a
 
 **`[x]r {x -> @@} = 0 > r {-|/\+} 0`**
 
-**`--x {x -> 0} = {@@ \/ .@@}`** #think [[improved expression evaluation]]
+**`--x {x -> 0} = {@@ \/ .@@}`** #xxx [[improved expression evaluation]]
 
 ## squeeze theorem
 

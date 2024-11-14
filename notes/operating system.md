@@ -1,21 +1,11 @@
 # Operating System
 
-_an intermediary between programs and the computer hardware_
+_an intermediary between user programs and computer hardware_
 
-> **resource** the _nanobyte_ channel, decent resource for writing a simple [[operating system]] &mdash; <https://youtube.com/@nanobyte-dev>
+**see** [[linux]]
+
+> **resource** video series on writing a simple [[operating system]], from the _nanobyte_ channel &mdash; <https://youtube.com/@nanobyte-dev>
 
 **representation** _architecture of an [[operating system]]_
 
-![](20220813134253.png) &mdash; <https://en.wikipedia.org/wiki/Operating_system>
-
-**see**
-
-[[linux]]
-
-Windows
-
-MacOS
-
-[[android]]
-
-ChromeOS
+![[20220813134253.png]] &mdash; <https://en.wikipedia.org/wiki/Operating_system>

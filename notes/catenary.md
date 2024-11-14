@@ -2,7 +2,7 @@
 
 **definition**
 
-**`x -> a"cosh" x-a`**, where
+**`x. a"cosh" x-a`**, where
 
 - **`"cosh"`** is a [[hyperbolic function]]
 - **`a`** is the scaling factor

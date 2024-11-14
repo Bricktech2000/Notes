@@ -8,7 +8,7 @@ choosing [[control over convenience]] is an [[invest]]ment. with that said, the 
 >
 > - FPV drones over DJI drones
 > - sleep timeouts set to _never_ over automatic sleep
-> - [[android]]'s flexibility over iOS' simplicity
+> - Android's flexibility over iOS' simplicity
 > - _Nutrition Facts_ table over Mexico's warning seals
 
 > **examples** _where I prefer convenience &mdash; with rationale_

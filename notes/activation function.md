@@ -29,7 +29,7 @@ def ReLU(x):
 
 ## Tanh Function
 
-_for getting values between **`.1`** and **`1`**_
+_for getting values between **`..1`** and **`1`**_
 
 **see** [[hyperbolic function]]
 
@@ -48,7 +48,7 @@ def TANH(x):
 
 ## Softmax Function
 
-_for getting probabilities out_
+_for getting a [[probability distribution]] out_
 
 &mdash; <https://youtu.be/p-6wUOXaVqs>
 
@@ -56,4 +56,4 @@ _for getting probabilities out_
 
 **definition**
 
-**`ss z = {*-:} [z]`**
+**`ss z = {*-:} [z]`** #todo id

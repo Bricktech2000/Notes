@@ -44,7 +44,7 @@ let **`K`** represent kinship according to [[distance pair kinship]]. then,
 - **`=K`** indicates that the relatives belong to the same generation
 - **`--2[:K]`** is the amount of DNA the relatives share
 - the greater **`:K`**, the "further away" the relatives are
-- the greater **`{^^.__} K`**, the greater the generation gap between the relatives
+- the greater **`{\/../\} K`**, the greater the generation gap between the relatives
 
 **tradeoffs**
 

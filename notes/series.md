@@ -15,9 +15,7 @@
 
 **definition**
 
-let **`:b = b^0 : b^1 : b^2 : ...`**
-
-**`S_b = (b^0), (b^0 : b^1), (b^0 : b^1 : b^2), ...`** or alternatively **`S_b^0 = b^0 /\ S_b^n = S_b^n.1 : b^n`**, where
+let **`:b = b^0 : b^1 : b^2 : ...`**. then, **`S_b = (b^0), (b^0 : b^1), (b^0 : b^1 : b^2), ...`** or alternatively **`S_b^0 = b^0 /\ S_b^n = S_b^n.1 : b^n`**, where
 
 - **`S_b`** is the _sequence of partial sums_ of the [[series]] **`b`**
 

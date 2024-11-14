@@ -16,7 +16,7 @@
 >
 > [[energy]] is [[force]] multiplied by [[distance]]. given **`F = ma`**,
 >
-> **`E_K = $ ma | dd x = $ m | dd v -- dd t | dd x = $ mv | dd v = mv2 -- 2`**
+> **`E_K = $ x. ma = $ x. m'dd t. v = $ v. mv = .mv2 -- 2`**
 >
 > &mdash; <https://tauday.com/tau-manifesto>
 
@@ -32,7 +32,7 @@
 >
 > when integrating over [[mass]], [[velocity]] is radius multiplied by [[angular velocity]]:
 >
-> **`E = mv2 -- 2 = $ v2 -- 2 | dd m = $ [rww]2 -- 2 | dd m = ww2 -- 2 | $ r2 | dd m = Iww2 -- 2`**
+> **`E_K = mv2 -- 2 = $ m. v2 -- 2 = $ m. [rww]2 -- 2 = ww2 -- 2 | $ m. r2 = .Iww2 -- 2`**
 >
 > &mdash; me
 

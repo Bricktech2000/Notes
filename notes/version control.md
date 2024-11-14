@@ -4,6 +4,4 @@ _a class of systems responsible for managing changes to collections of informati
 
 **aka** _source control_, _revision control_
 
-> **example** Git
-
-used for backlinks
+**see** [[git]]

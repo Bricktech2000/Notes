@@ -2,6 +2,8 @@
 
 **see** [[math notation]], [[hash]]
 
+> **resource** talk by Linus Torvalds on the fundamental ideas behind [[git]] &mdash; <https://youtu.be/MjIPv8a0hU8>
+
 ## Data Model
 
 &mdash; <https://missing.csail.mit.edu/2020/version-control/>

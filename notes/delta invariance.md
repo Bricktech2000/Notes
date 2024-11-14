@@ -1,6 +1,6 @@
 # Delta Invariance
 
-[[delta invariance]] represents the idea that "deltas" are _translationally invariant_
+[[delta invariance]] is an interpretation of the idea that "deltas" are _translationally invariant_
 
 > **example** _have you ever noticed that anybody driving slower than you is an idiot, and anyone going faster than you is a maniac?_ &mdash; George Carlin. this quote is ironic because it describes someone who sits on one side of one delta and on the other side of another delta while both deltas are translationally equivalent
 
@@ -8,7 +8,7 @@
 
 > **example** _using [[delta invariance]] in a discussion about gender inequalities_ &mdash; <https://youtu.be/Q7MkSpJk5tM?t=1180> and <https://youtu.be/Q7MkSpJk5tM?t=2465>
 
-the way a circumstance makes someone feel is a "delta". it can be easier to empathize with someone not by imagining what it would feel like to be in their shoes, but rather by imagining what environment would make us feel the way their environment makes them feel &mdash; me
+the way some circumstance makes someone feel is a "delta". it can be easier to empathize with someone not by imagining what it would feel like to be in their shoes, but rather by imagining an environment which would make us feel the way their environment makes them feel &mdash; me
 
 > **examples**
 >
@@ -17,3 +17,12 @@ the way a circumstance makes someone feel is a "delta". it can be easier to empa
 > - [[intelligence]] &mdash; someone of average [[intelligence]] imagining interracting with people of low [[intelligence]] instead of imagining what it would be like to be of high [[intelligence]]
 
 > **example** I go down stairs two by two. to empathize with people who feel uncomfortable doing that, I imagine what it would feel like for me to go down stairs four by four instead of trying to imagine being uncomfortable going down stairs two by two
+
+many opinions and feelings are "deltas" with respect to some baseline. baselines don't drive opinions and feelings &mdash; deltas do. this in part explains why people fall down the [[lifestyle inflation]] spiral and why free trails are so effective
+
+> **example**
+>
+> - unsalting food makes it taste unflavored, but only when you are used to salted food
+> - 60Hz displays and 120Hz displays feel the same, until you get used to 120Hz displays
+> - cheap coffee doesn't taste very good, but only when you are used to expensive coffee
+> - climbing chalk feels unnecessary, until you get used to its performance improvement

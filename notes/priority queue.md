@@ -11,13 +11,3 @@ _an [[abstract data type]] that can add elements and poll elements based on thei
 **types**
 
 [[heap]] [[priority queue]]
-
-**applications**
-
-used in [[best-first search]] [[algorithm]]s
-
-used in certain implementations of [[dijkstra's algorithm]]
-
-used in [[huffman coding]] for [[data compression]]
-
-used by minimum spanning tree [[algorithm]]s #todo

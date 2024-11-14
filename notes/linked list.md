@@ -19,15 +19,15 @@ time [[computational complexity]]:
 
 ```mermaid
 graph LR
-  A(HEAD) --> B(element) --> C(element) --> D(element) --> E(TAIL)
+  HEAD --> E1(element) --> E2(element) --> E3(element) --> TAIL
 ```
 
 **representation** _Doubly Linked List_
 
 ```mermaid
 graph LR
-  A(HEAD) --> B(element) --> C(element) --> D(element) --> E(TAIL)
-  E --> D --> C --> B --> A
+  HEAD --> E1(element) --> E2(element) --> E3(element) --> TAIL
+  TAIL --> E3 --> E2 --> E1 --> HEAD
 ```
 
 **applications**

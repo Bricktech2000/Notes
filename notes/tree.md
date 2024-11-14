@@ -32,12 +32,6 @@
 
 ![](20221004211912.png) &mdash; <https://towardsdatascience.com/5-types-of-binary-tree-with-cool-illustrations-9b335c430254>
 
-**applications**
-
-used in the implementation of binary [[heap]]s
-
-used in the implementation of [[abstract syntax tree]]s
-
 ### Binary Tree Traversal
 
 &mdash; <https://youtu.be/RBSGKlAvoiM?t=12886>

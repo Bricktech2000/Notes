@@ -41,9 +41,9 @@ a Type I improper [[integral]] is said to:
 
 _an [[integral]] whose integrand has a [[function]] discontinuity on the integration [[interval]]_
 
-**theorem** if **`f x {x -> b "from the left"} = {@@ \/ .@@}`** #think [[improved expression evaluation]], then **`$ f x | dd x {b . a} == $ f x | dd x {t . a} {t -> b "from the left"}`**
+**theorem** if **`f x {x -> b "from the left"} = {@@ \/ .@@}`** #xxx [[improved expression evaluation]], then **`$ f x | dd x {b . a} == $ f x | dd x {t . a} {t -> b "from the left"}`**
 
-**theorem** if **`f x {x -> a "from the right"} = {@@ \/ .@@}`** #think [[improved expression evaluation]], **`$ f x | dd x {b . a} == $ f x | dd x {b . t} {t -> a "from the right"}`**
+**theorem** if **`f x {x -> a "from the right"} = {@@ \/ .@@}`** #xxx [[improved expression evaluation]], **`$ f x | dd x {b . a} == $ f x | dd x {b . t} {t -> a "from the right"}`**
 
 ### comparison test
 

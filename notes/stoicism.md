@@ -17,7 +17,7 @@ the majority of people drift through life; that is, they do not have plans, do n
 > - people who appeal to their emotions
 > - people who resort to faith and [[religion]]
 
-> **note** I think I might've been in the process of reinventing part of stoicism
+> **note** this note was originally named _steer over drift_. turns out I think I might've been in the process of rediscovering part of stoicism
 
 ## &mdash;
 

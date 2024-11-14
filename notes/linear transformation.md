@@ -2,11 +2,13 @@
 
 **see** [[math notation]]
 
+**aka** _linear map_
+
 **equiv** _[[matrix#multiplication]]_
 
-**definition**
+**definition** a [[linear transformation]] is a [[vector space#homomorphism]]
 
-let **`U`** and **`V`** be two [[vector space]]s with **`"dim" U = u`** and **`"dim" V = v`**. a [[linear transformation]] **`T`** from **`U`** to **`V`** is a [[matrix#multiplication]] **`T u = :(A *)u`** with **`MM^v,u A`**
+**definition** let **`U`** and **`V`** be two [[vector space]]s with **`"dim" U = u`** and **`"dim" V = v`**. a [[linear transformation]] **`T`** from **`U`** to **`V`** is a [[matrix#multiplication]] **`T u = :(A *)u`** with **`MM^v,u A`**
 
 **definition**
 
@@ -17,19 +19,19 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear transformation]] **
 
 **notation** **`TT T`** if and only if **`T`** is a [[linear transformation]]
 
-**theorem** **`TT T < T O = O`**
-
 **properties**
 
 **`TT < HH`**, see [[function#vector space]]
+
+**`TT T < T O = O`**
 
 ## Standard Matrix
 
 **theorem** **`TT T`** if and only if there exists a [[matrix]] **`A`** such that **`T u = :(A *)u`** for all **`u`**
 
-**theorem** given a **`TT T`** with **`T u == :(A *)u`**, **`A = rr TI`**
+**theorem** given a **`TT T`** with **`T u == :(A *)u`**, **``rr A = T`I``**
 
-> **note** **`A = rr TI`** is to be read as follows: **`A`** is a [[matrix]] (**`A =`**) whose columns (**`rr`**) are the rows of the [[matrix#identity matrix]] transformed by **`T`** (**`TI`**)
+> **note** **``rr A = T`I``** is to be read as follows: **`A`** is a [[matrix]] (**`A =`**) whose columns (**`rr`**) are the rows of the [[matrix#identity matrix]] transformed by **`T`** (**``T`I``**)
 
 > **proof** by definition, applying a [[linear transformation]] on [[vector]]s of the [[function#domain]] [[vector space]] will yield the images of those [[vector]]s in the [[function#codomain]] [[vector space]]. since multiplying a [[matrix]] by a [[basis#standard basis]] [[vector]] yields one of the columns of the [[matrix]], the columns of a [[linear transformation#standard matrix]] corresponds to the images of the [[basis#standard basis]] [[vector]]s
 >
@@ -37,7 +39,7 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear transformation]] **
 
 **properties**
 
-**`:(:(A *)(rr B *) *)u = :(A *)(:(B *)u)`** &mdash; [[matrix#multiplication]] on the [[linear transformation#standard matrix]]es of two [[linear transformation]]s gives the [[composition]] of the two [[linear transformation]]s
+**`:(AB)x = A(:Bx)`** #todo mm &mdash; [[matrix#multiplication]] on the [[linear transformation#standard matrix]]es of two [[linear transformation]]s gives the [[composition]] of the two [[linear transformation]]s
 
 **examples**
 
@@ -47,7 +49,7 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear transformation]] **
 >
 > let a [[euclidean vector#unit vector]] on the **`x_*`** axis **`i_* = ("cos" aa, "sin" aa)`** and let a [[euclidean vector#unit vector]] on the **`y_*`** axis **`j_* = (."sin" aa, "cos" aa)`**
 >
-> let **`(c, f c) = ic : jf c`** be a point on a [[function]] **`f`**. replacing **`i, j`** by **`i_* , j_*`**, we get the point **`i_* c : j_* f c = ("cos" aa, "sin" aa)c : (."sin" aa, "cos" aa)f c = (c("cos" aa) : (f c)(."sin" aa), c("sin" aa) : (f c)("cos" aa))`**.
+> let **`(c, f c) = ic : jf c`** be a point on a [[function]] **`f`**. replacing **`i, j`** by **`i_* , j_*`**, we get the point **`i_* c : j_* f c = ("cos" aa, "sin" aa)c : (."sin" aa, "cos" aa)f c = (c("cos" aa) : (f c)(."sin" aa), c("sin" aa) : (f c)("cos" aa))`**
 >
 > with **`(c, f c) = (x, y)`**, we get the point **`(x"cos" aa . y"sin" aa, x"sin" aa : y"cos" aa)`**, which can be graphed as **`x"sin" aa : y"cos" aa = f (x"cos" aa . y"sin" aa)`**
 >

@@ -4,7 +4,7 @@
 
 **see** [[math notation]], [[combinatory logic]]
 
-the [[iota language]] is a minimalist [[programming language]] based on the [[combinator#iota combinator]]. it is designed to be even simpler than other more popular alternatives, such as [[lambda calculus]] and **`S, K, I`** [[combinatory logic]]
+the [[iota language]] is a minimalist [[programming language]] based on the [[combinator#iota combinator]]. it is designed to be even simpler than other more popular alternatives, such as the [[lambda calculus]] and **`S, K, I`** [[combinatory logic]]
 
 ## Syntax
 
@@ -30,12 +30,8 @@ the [[iota language]] is a minimalist [[programming language]] based on the [[co
 >   E(**`0`**)
 >   F(**`0`**)
 >   G(**`0`**)
->   E --> F
->   E --> G
->   F --> A
->   F --> B
->   G --> C
->   G --> D
+>   E --> F --> A & B
+>   E --> G --> C & D
 > ```
 
 > **example**
@@ -54,9 +50,6 @@ the [[iota language]] is a minimalist [[programming language]] based on the [[co
 >   F(**`0`**)
 >   G(**`0`**)
 >   E --> A
->   E --> F
->   F --> B
->   F --> G
->   G --> C
->   G --> D
+>   E --> F --> B
+>         F --> G --> C & D
 > ```

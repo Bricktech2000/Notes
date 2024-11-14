@@ -1,4 +1,4 @@
-## Normal Distribution
+# Normal Distribution
 
 **see** [[math notation]], [[probability distribution]]
 

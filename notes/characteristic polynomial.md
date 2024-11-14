@@ -4,7 +4,7 @@
 
 **definition**
 
-**`P = "det" (A . llI) /\ MM^n,n A /\ NN n /\ RR ll`**, where
+**`P = "det" (A..llI) /\ MM^n,n A /\ NN n /\ RR ll`**, where
 
 - **`P`** is the _characteristic polynomial_ of the [[matrix]] **`A`**
 
