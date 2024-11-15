@@ -14,4 +14,4 @@
 
 **`dd x. [x] = x. [x]`**, see [[derivative]]
 
-**`[h] .. 1 -- h {h -> 0} = 1`** #todo lim &mdash; derived from the [[limit]] definition
+**`[h] .. 1 -- h {h -> 0} = 1`** #todo lim --- derived from the [[limit]] definition

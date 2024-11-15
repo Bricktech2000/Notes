@@ -16,7 +16,7 @@ _polar form, [[euler's formula]] notation_ **`z = "abs" z | ("cos" : ii"sin") "a
 
 **applications**
 
-[[complex]] numbers are often intimately related to [[discrete mathematics]] &mdash; 3B1B <https://youtu.be/bOXCLR3Wric>
+[[complex]] numbers are often intimately related to [[discrete mathematics]] --- 3B1B <https://youtu.be/bOXCLR3Wric>
 
 **properties**
 
@@ -32,11 +32,11 @@ _multiplication in cartesian form_ **`a : bii | c : dii = ac : adii : bii c : bd
 
 _multiplication in polar form_ **`z | w = "abs" z | [ii"arg" z] | "abs" w | [ii"arg" w] = "abs" zw | [ii | "arg" z : "arg" w]`**
 
-_product of two [[complex#conjugate]]s are product of [[complex#modulus]]es_ **`a : bii | a .. bii = a2 : b2 = "abs" (a : bii) | "abs" (a .. bii)`** &mdash; <https://youtu.be/bOXCLR3Wric?t=1522>
+_product of two [[complex#conjugate]]s are product of [[complex#modulus]]es_ **`a : bii | a .. bii = a2 : b2 = "abs" (a : bii) | "abs" (a .. bii)`** --- <https://youtu.be/bOXCLR3Wric?t=1522>
 
-**theorem** _De Moivre's Theorem_ **`["cis" aa]n = "cis" naa > ZZ n > RR aa`** &mdash; <https://en.wikipedia.org/wiki/De_Moivre%27s_formula>
+**theorem** _De Moivre's Theorem_ **`["cis" aa]n = "cis" naa > ZZ n > RR aa`** --- <https://en.wikipedia.org/wiki/De_Moivre%27s_formula>
 
-> **proof** **`"cis" aa = [iiaa]`**. since **`[ [iiaa] ]n = [niiaa]`**, it must be that **`["cis" aa]n = "cis" naa`** &mdash; me
+> **proof** **`"cis" aa = [iiaa]`**. since **`[ [iiaa] ]n = [niiaa]`**, it must be that **`["cis" aa]n = "cis" naa`** --- me
 
 ## Real Part
 
@@ -112,7 +112,7 @@ _triangle inequality_ **`"abs" (z : w) -| "abs" {z : w}`**
 
 ## Multiplication
 
-geometrically, multiplying a [[complex]] number **`z`** by a [[complex]] number **`w`** is equivalent to rotating **`z`** by the [[angle]] **`"arg" w`** and then scaling it by a factor of **`"abs" w`**. this makes [[complex]] numbers useful for computing [[euclidean vector]] rotations by choosing a **`w`** where **`"abs" w = 1`** &mdash; <https://youtu.be/4KlvI_uK9zs?t=398>
+geometrically, multiplying a [[complex]] number **`z`** by a [[complex]] number **`w`** is equivalent to rotating **`z`** by the [[angle]] **`"arg" w`** and then scaling it by a factor of **`"abs" w`**. this makes [[complex]] numbers useful for computing [[euclidean vector]] rotations by choosing a **`w`** where **`"abs" w = 1`** --- <https://youtu.be/4KlvI_uK9zs?t=398>
 
 > **proof** see properties
 
@@ -120,6 +120,6 @@ geometrically, multiplying a [[complex]] number **`z`** by a [[complex]] number 
 
 **`\ii/ = { 1 : ii -- \2/ \/ 1 : ii -- .. \2/ }`**
 
-> **proof** &mdash; <https://www.youtube.com/watch?v=Z49hXoN4KWg>
+> **proof** --- <https://www.youtube.com/watch?v=Z49hXoN4KWg>
 
-[[complex#multiplication]] by **`ii`** is equivalent to a rotation by **`"arg" ii`**, or **`-4tt"rad"`**. the square root of **`ii`** is a number **`x`** such that **`x | x = ii`**, which can be thought of as a rotation by either **`-8tt"rad"`** or **`5-8tt"rad"`**, which are equivalent to **`1 : ii -- \2/`** or **`1 : ii -- .. \2/`** respectively. this is because a right-angle triangle with hypotenuse **`1`** and angles **`-8tt"rad"`** has side lengths **`\2/`** &mdash; me
+[[complex#multiplication]] by **`ii`** is equivalent to a rotation by **`"arg" ii`**, or **`-4tt"rad"`**. the square root of **`ii`** is a number **`x`** such that **`x | x = ii`**, which can be thought of as a rotation by either **`-8tt"rad"`** or **`5-8tt"rad"`**, which are equivalent to **`1 : ii -- \2/`** or **`1 : ii -- .. \2/`** respectively. this is because a right-angle triangle with hypotenuse **`1`** and angles **`-8tt"rad"`** has side lengths **`\2/`** --- me

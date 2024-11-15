@@ -1,5 +1,5 @@
 # Dopamine
 
-**see** [[motivation]], [[memory]], [[learning]], [[addiction]] &mdash; <https://youtu.be/PZ7lDrwYdZc?t=676>
+**see** [[motivation]], [[memory]], [[learning]], [[addiction]] --- <https://youtu.be/PZ7lDrwYdZc?t=676>
 
 used for backlinks

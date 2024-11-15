@@ -4,9 +4,9 @@
 
 ## plane in r3
 
-&mdash; <https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s>
+--- <https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s>
 
-&mdash; MAT1341 Introduction to Linear Algebra
+--- MAT1341 Introduction to Linear Algebra
 
 ### plane from 3 points
 

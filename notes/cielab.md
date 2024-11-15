@@ -14,4 +14,4 @@ the **`L_\*`** component of [[cielab]] represents _perceptual [[lightness]]_ and
 
 ![[Pasted image 20221208181251.png]]
 
-&mdash; <https://youtu.be/AS1OHMW873s?t=1691>
+--- <https://youtu.be/AS1OHMW873s?t=1691>

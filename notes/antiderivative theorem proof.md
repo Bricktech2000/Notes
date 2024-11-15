@@ -1,6 +1,6 @@
 # Antiderivative Theorem Proof
 
-&mdash; <https://youtu.be/HfACrKJ_Y2w?t=38531>
+--- <https://youtu.be/HfACrKJ_Y2w?t=38531>
 
 #example, see backlink
 

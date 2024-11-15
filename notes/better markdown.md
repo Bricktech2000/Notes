@@ -9,7 +9,7 @@ in [[better markdown]],
 - every meta[[character]] can be escaped with a `\`, with no ambiguous exceptions
 - constructs can be nested, and in a way that is actually consistent
 
-_a [[markdown]]-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions_ &mdash; <https://daringfireball.net/projects/markdown/syntax>. this is not a goal of [[better markdown]]. [[better markdown]] aims to be a consistent, extensible, formally-defined, lightweight markup language
+_a [[markdown]]-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions_ --- <https://daringfireball.net/projects/markdown/syntax>. this is not a goal of [[better markdown]]. [[better markdown]] aims to be a consistent, extensible, formally-defined, lightweight markup language
 
 ## syntax
 
@@ -52,7 +52,7 @@ _a [[markdown]]-formatted document should be publishable as-is, as plain text, w
   - ~~superscript `sup`~~
   - paragraphs `p`
   - ...
-  - non-[[ascii]] characters such as &times; and &mdash;
+  - non-[[ascii]] characters such as × and —
 - support for running code blocks and parsing their `stdout` as markup
 - support for graphs and plots
 - do we really want double newlines to be paragraphs?
@@ -62,21 +62,21 @@ _a [[markdown]]-formatted document should be publishable as-is, as plain text, w
 - `<>` and `[]` work differently from rest of syntax (instead of one character, uses two "reflected" ones). do we want this?
 - what is the inline equivalent of `#`? what are the block equivalent of `[]` and `<>`?
 
-## &mdash;
+## ---
 
-&mdash; <https://textile-lang.com/>
+--- <https://textile-lang.com/>
 
-&mdash; <https://github.com/BradSharp/Remark>
+--- <https://github.com/BradSharp/Remark>
 
-&mdash; <https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/>
+--- <https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/>
 
-&mdash; <http://tantek.pbworks.com/w/page/59905776/Markdown>
+--- <http://tantek.pbworks.com/w/page/59905776/Markdown>
 
-&mdash; <https://squidfunk.github.io/mkdocs-material/reference/admonitions/>
+--- <https://squidfunk.github.io/mkdocs-material/reference/admonitions/>
 
-&mdash; <https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
+--- <https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
 
-&mdash; <https://jira.atlassian.com/secure/WikiRendererHelpAction.jspa?section=all>
+--- <https://jira.atlassian.com/secure/WikiRendererHelpAction.jspa?section=all>
 
 ---
 

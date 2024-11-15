@@ -2,7 +2,7 @@
 
 **see** [[math notation]], [[probability distribution]]
 
-&mdash; <https://en.wikipedia.org/wiki/Continuous_uniform_distribution>
+--- <https://en.wikipedia.org/wiki/Continuous_uniform_distribution>
 
 **definition** the [[probability density function]] of a continuous uniform distribution is **`x. {0, --b..a} (a -| x -| b)`**, where
 

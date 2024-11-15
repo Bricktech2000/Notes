@@ -10,7 +10,7 @@ the [[combinator#s combinator]] and the [[combinator#k combinator]] can be compo
 
 # Constructions
 
-&mdash; <https://youtu.be/gnrSedVucXs>
+--- <https://youtu.be/gnrSedVucXs>
 
 ## Booleans
 

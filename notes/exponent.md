@@ -23,6 +23,6 @@ _power rule_ **`[[x]m]n = x[mn]`** (but messes with superpositions #xxx [[improv
 
 _distribution over multiplication_ **`[xy]n = [x]n | [y]n`**
 
-_[[function#periodic function]]_ **`x[n] = x[n : iitt - /n\]`** &mdash; me (see [[improved expression evaluation]])
+_[[function#periodic function]]_ **`x[n] = x[n : iitt - /n\]`** --- me (see [[improved expression evaluation]])
 
 see [[logarithm]] for additional properties

@@ -2,13 +2,13 @@
 
 **see** [[type]], [[polymorphism]]
 
-> **resource** [[type system]]s in [[functional programming]] &mdash; <https://youtu.be/hy1wjkcIBCU>
+> **resource** [[type system]]s in [[functional programming]] --- <https://youtu.be/hy1wjkcIBCU>
 
 ## Nominal Type System
 
 **aka** _name-based type system, nominative type system_
 
-**definition** a [[type system]] is a _nominal type system_ if [[type]] equivalence and compatibility are determined by explicit declarations and/or the name of the [[type]]s &mdash; Wikipedia
+**definition** a [[type system]] is a _nominal type system_ if [[type]] equivalence and compatibility are determined by explicit declarations and/or the name of the [[type]]s --- Wikipedia
 
 > **example**
 >
@@ -24,7 +24,7 @@
 
 **aka** _property-based type system_
 
-**definition** a [[type system]] is a _structural type system_ if [[type]] equivalence and compatibility are determined by the structure, content, or members of the [[type]]s &mdash; Wikipedia
+**definition** a [[type system]] is a _structural type system_ if [[type]] equivalence and compatibility are determined by the structure, content, or members of the [[type]]s --- Wikipedia
 
 > **example**
 >
@@ -44,7 +44,7 @@
 
 _if it walks like a duck and it quacks like a duck, then it must be a duck_
 
-**definition** in _duck typing_, [[type]] compatibility is determined by the part of the [[type]]'s structure that is used in a given context &mdash; Wikipedia
+**definition** in _duck typing_, [[type]] compatibility is determined by the part of the [[type]]'s structure that is used in a given context --- Wikipedia
 
 [[type system#duck type system]]s can be seen as a usage-based [[type system#structural type system]]
 
@@ -82,16 +82,16 @@ _memory-safe, invalid operations impossible, explicit type conversion_
 
 _memory-unsafe, invalid operations possible, implicit type conversion_
 
-## &mdash;
+## ---
 
-&mdash; <https://en.wikipedia.org/wiki/Type_system>
+--- <https://en.wikipedia.org/wiki/Type_system>
 
-&mdash; <https://en.wikipedia.org/wiki/Duck_typing>
+--- <https://en.wikipedia.org/wiki/Duck_typing>
 
-&mdash; <https://en.wikipedia.org/wiki/Structural_type_system>
+--- <https://en.wikipedia.org/wiki/Structural_type_system>
 
-&mdash; <https://en.wikipedia.org/wiki/Nominal_type_system>
+--- <https://en.wikipedia.org/wiki/Nominal_type_system>
 
-&mdash; <https://en.wikipedia.org/wiki/Comparison_of_programming_languages_by_type_system>
+--- <https://en.wikipedia.org/wiki/Comparison_of_programming_languages_by_type_system>
 
-&mdash; <https://youtu.be/QI-ktlf7qFU>
+--- <https://youtu.be/QI-ktlf7qFU>

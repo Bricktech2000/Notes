@@ -4,7 +4,7 @@
 
 > **note** the [[cross product]] is only defined for [[euclidean vector]]s in **`RR^3`**
 
-_results in a [[euclidean vector]] of [[euclidean vector#magnitude]] ([[area]] of the parallelogram formed by the two [[vector]]s) and of [[euclidean vector#angle]] (perpendicular to the [[plane]] formed by the two [[vector]]s)_ &mdash; 3B1B
+_results in a [[euclidean vector]] of [[euclidean vector#magnitude]] ([[area]] of the parallelogram formed by the two [[vector]]s) and of [[euclidean vector#angle]] (perpendicular to the [[plane]] formed by the two [[vector]]s)_ --- 3B1B
 
 **definition**, see #magic
 

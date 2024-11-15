@@ -29,15 +29,15 @@ expanding,
 
 > **note** recall that superscripts have special meaning whereas subscript are just English [[character]]s. this means that neuron **`a_j^j`** is the **`j`**th neuron in the vector **`a_j`**; the subscript **`_j`** is part of the name **`a_j`** whereas the superscript **`^j`** is an index in **`a_j`**. see [[math notation]]
 
-&mdash; <https://youtu.be/aircAruvnKk?t=807>
+--- <https://youtu.be/aircAruvnKk?t=807>
 
-&mdash; me
+--- me
 
 ### applying an activation function
 
 applying an [[activation function]] is important, as, otherwise, every layer would be a [[linear combination]] of the layer before it. this would then mean that the network is just a very fancy [[linear regression]] as it wouldn't be able to produce more complex [[function]]s
 
-&mdash; <https://youtu.be/w8yWXqWQYmU?t=309>
+--- <https://youtu.be/w8yWXqWQYmU?t=309>
 
 **``a_j = g`z_j``**, where
 
@@ -47,7 +47,7 @@ applying an [[activation function]] is important, as, otherwise, every layer wou
 
 ## implementation
 
-using [[matrix#multiplication]] makes implementations of [[forward propagation]] in code much simpler and much faster as many libraries optimize "the heck out of" [[matrix#multiplication]] &mdash; <https://youtu.be/aircAruvnKk?t=907>
+using [[matrix#multiplication]] makes implementations of [[forward propagation]] in code much simpler and much faster as many libraries optimize "the heck out of" [[matrix#multiplication]] --- <https://youtu.be/aircAruvnKk?t=907>
 
 below is a sample `feedforward` function using _numpy_
 
@@ -59,4 +59,4 @@ def feedforward(self, a):
   return a
 ```
 
-&mdash; <https://youtu.be/aircAruvnKk?t=915>
+--- <https://youtu.be/aircAruvnKk?t=915>

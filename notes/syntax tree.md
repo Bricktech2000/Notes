@@ -2,7 +2,7 @@
 
 _an intermediate representation for a [[programming language]]_
 
-&mdash; <https://youtu.be/4m7ubrdbWQU?t=429>
+--- <https://youtu.be/4m7ubrdbWQU?t=429>
 
 **representation**
 

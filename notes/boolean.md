@@ -112,9 +112,9 @@ in [[conventional math notation]]: $' \cdot + \oplus$
 
 let **`S < R < Q`** be a [[logic statement]] (square implies rectangle implies quadrilateral). then,
 
-**`S`** is said to be a _sufficient condition_ for **`R`** &mdash; knowing that **`S`** is true allows the deduction that **`R`** is true
+**`S`** is said to be a _sufficient condition_ for **`R`**---knowing that **`S`** is true allows the deduction that **`R`** is true
 
-**`Q`** is said to be a _necessary condition_ for **`R`** &mdash; for **`R`** to be true, **`Q`** must be true
+**`Q`** is said to be a _necessary condition_ for **`R`**---for **`R`** to be true, **`Q`** must be true
 
 alternatively, let **`A < B`** be a [[logic statement]]. then,
 
@@ -229,9 +229,9 @@ _absorption_ **`x \/ +x__y == x`**
 
 _absorption_ **`x /\ +x^^y == x`**
 
-_xor_ **`x >< y == x__+y \/ y__+x`** &mdash; me
+_xor_ **`x >< y == x__+y \/ y__+x`** --- me
 
-_xor_ **`x >< y == >< x = y`** &mdash; me
+_xor_ **`x >< y == >< x = y`** --- me
 
 _implication_ **`x < y == +x \/ y`**
 
@@ -241,14 +241,14 @@ _biconditional_ **`x = y == +x /\ +y \/ x __ y`**
 
 _biconditional_ **`x = y == x -| y /\ x |- y`**
 
-_and-implies_ **`x__y -| z == x -| z \/ y -| z`** &mdash; me
+_and-implies_ **`x__y -| z == x -| z \/ y -| z`** --- me
 
-_or-implies_ **`x^^y -| z == x -| z /\ y -| z`** &mdash; me
+_or-implies_ **`x^^y -| z == x -| z /\ y -| z`** --- me
 
-_implies-or_ **`x -| y^^z == x -| y \/ x -| z`** &mdash; me
+_implies-or_ **`x -| y^^z == x -| y \/ x -| z`** --- me
 
-_implies-and_ **`x -| y__z == x -| y /\ x -| z`** &mdash; me
+_implies-and_ **`x -| y__z == x -| y /\ x -| z`** --- me
 
-_portation_ **`x < y -| z == x__y -| z`** &mdash; <https://www.cs.toronto.edu/~hehner/BAUA.pdf>
+_portation_ **`x < y -| z == x__y -| z`** --- <https://www.cs.toronto.edu/~hehner/BAUA.pdf>
 
-> **note** many [[boolean]] laws based on [[boolean#implication]]s become painfully obvious when seen from the perspective of [[type theory]] by the Curry-Howard correspondence. for instance, the [[boolean]] portation law corresponds to [[currying]] in [[type theory]]
+> **note** many [[boolean]] laws based on [[boolean#implication]]s become painfully obvious when seen from the perspective of [[type theory]] by the Curry--Howard correspondence. for instance, the [[boolean]] portation law corresponds to [[currying]] in [[type theory]]

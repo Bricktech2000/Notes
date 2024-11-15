@@ -24,4 +24,4 @@ _returns a [[euclidean vector]] representing the direction of steepest ascent of
 >
 > for a small enough **`aa n`**, the [[sequence]] **`a`** is a (monotonically) [[sequence#decreasing sequence]] and therefore converges to a local [[function#extremum]] of **`f`**
 >
-> &mdash; <https://en.wikipedia.org/wiki/Gradient_descent>
+> --- <https://en.wikipedia.org/wiki/Gradient_descent>

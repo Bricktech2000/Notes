@@ -1,6 +1,6 @@
 # Nat
 
-&mdash; <https://en.wikipedia.org/wiki/Nat_(unit)>
+--- <https://en.wikipedia.org/wiki/Nat_(unit)>
 
 **aka** _nit, nepit_
 

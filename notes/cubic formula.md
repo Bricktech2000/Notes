@@ -10,7 +10,7 @@
 - **`p, q`** are coefficients in the cubic equation **`x3 : px : q = 0`**
 - **`x`** are the solutions to the cubic equation
 
-> **proof** &mdash; <https://youtu.be/N-KXStupwsc>
+> **proof** --- <https://youtu.be/N-KXStupwsc>
 
 **definition** above, **`q2-4:p3-27`** is the _discriminant_ of the cubic equation
 

@@ -10,7 +10,7 @@
 
 **theorem** if **`n`** is [[prime]], then all **`n`**th [[root of unity]]s except **`1`** are primitive
 
-**theorem** **`[z]n = 1 == z = [ii'k-n'tt] /\ NN k`** &mdash; <https://tauday.com/tau-manifesto>
+**theorem** **`[z]n = 1 == z = [ii'k-n'tt] /\ NN k`** --- <https://tauday.com/tau-manifesto>
 
 **properties**
 
@@ -30,14 +30,14 @@ let **`z`** be a primitive **`n`**th [[root of unity]]. then, **`z0 ... z[n.1]`*
 
 since an **`n`**th degree [[polynomial]] equation over a [[field]] (in this case the [[field]] of [[complex]] numbers) has at most **`n`** solutions by the [[fundamental theorem of algebra]], **`z0 ... z[n.1]`** are all of the **`n`**th [[root of unity]]s
 
-the [[set]] of all [[root of unity]]s and the [[set]] of all **`n`**th [[root of unity]]s both form an [[abelian group]] under multiplication. the [[group]] of **`n`**th [[root of unity]]s form the cyclic [[group]] of [[group#order]] **`n`** &mdash; <https://en.wikipedia.org/wiki/Root_of_unity#Group_properties>
+the [[set]] of all [[root of unity]]s and the [[set]] of all **`n`**th [[root of unity]]s both form an [[abelian group]] under multiplication. the [[group]] of **`n`**th [[root of unity]]s form the cyclic [[group]] of [[group#order]] **`n`** --- <https://en.wikipedia.org/wiki/Root_of_unity#Group_properties>
 
 **applications**
 
 discrete [[fourier transform]]
 
-## &mdash;
+## ---
 
-&mdash; <https://youtu.be/bOXCLR3Wric?t=1986>
+--- <https://youtu.be/bOXCLR3Wric?t=1986>
 
-&mdash; <https://en.wikipedia.org/wiki/Root_of_unity>
+--- <https://en.wikipedia.org/wiki/Root_of_unity>

@@ -10,7 +10,7 @@
 
 let **`f x`** be a [[function]] with [[function#domain]] **`D`** defined on an open [[interval]] around **`x_0`**. then, **`f x {x -> x_0} = L`** if for every **`ee {|-/\+} 0`** there exists a **`dd {|-/\+} 0`** such that **`0 + |x . x_0| -| dd < |f x . L| -| ee`** for all **`D x`**
 
-&mdash; <https://brilliant.org/wiki/epsilon-delta-definition-of-a-limit/>
+--- <https://brilliant.org/wiki/epsilon-delta-definition-of-a-limit/>
 
 ## Indeterminate Form
 
@@ -26,7 +26,7 @@ let **`f x`** be a [[function]] with [[function#domain]] **`D`** defined on an o
 
 ### Existence
 
-**definition** a [[limit]] **`f x {x -> a}`** _does not exist_ if **`f x -> L_1`** as **`x -> x_0`** along a path **`C_1`** and **`f x -> L_2`** as **`x -> x_0`** along a path **`C_2`** and **`L_1 + L_2`** &mdash; the value of the limit is different depending on the path taken
+**definition** a [[limit]] **`f x {x -> a}`** _does not exist_ if **`f x -> L_1`** as **`x -> x_0`** along a path **`C_1`** and **`f x -> L_2`** as **`x -> x_0`** along a path **`C_2`** and **`L_1 + L_2`** --- the value of the limit is different depending on the path taken
 
 > **note** a limit does not exist if **`f x {x -> a} = @@`** or if it shows wild behavior (not a technical term), as with **`"sin" tt-x {x -> 0}`**
 >
@@ -40,8 +40,8 @@ let **`aa`** be an angle in radians
 
 **`"sin" aa -- aa {aa -> 0} = 1`**
 
-> **proof** &mdash; <https://youtu.be/HfACrKJ_Y2w?t=20802>
+> **proof** --- <https://youtu.be/HfACrKJ_Y2w?t=20802>
 
 **`"cos" (aa . 1) -- aa {aa -> 0} = 0`**
 
-> **proof** &mdash; <https://youtu.be/HfACrKJ_Y2w?t=21029>
+> **proof** --- <https://youtu.be/HfACrKJ_Y2w?t=21029>

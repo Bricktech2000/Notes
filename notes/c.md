@@ -2,15 +2,15 @@
 
 _assembly with syntactic sugar and undefined behavior_
 
-&mdash; <https://youtu.be/A3AdN7U24iU>
+--- <https://youtu.be/A3AdN7U24iU>
 
-&mdash; Effective C by Robert C. Seacord
+--- Effective C by Robert C. Seacord
 
-> **resource** _Advanced [[c]]: The UB and optimizations that trick good programmers._ &mdash; <https://youtu.be/w3_e9vZj7D8>
+> **resource** _Advanced [[c]]: The UB and optimizations that trick good programmers._ --- <https://youtu.be/w3_e9vZj7D8>
 
-> **resource** _"New" Features in C_ by Dan Saks, a firehose of modern C features &mdash; <https://youtu.be/ieERUEhs910>
+> **resource** _"New" Features in C_ by Dan Saks, a firehose of modern C features --- <https://youtu.be/ieERUEhs910>
 
-> **resource** ISO/IEC 9899:TC3, WG14/N1256 &mdash; <https://www.open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf>
+> **resource** ISO/IEC 9899:TC3, WG14/N1256 --- <https://www.open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf>
 
 **see** [[math notation]]
 
@@ -148,9 +148,9 @@ U"foo" // char32_t[6]
 '\ooo' // Octal
 ```
 
-&mdash; <https://en.cppreference.com/w/cpp/language/floating_literal>
+--- <https://en.cppreference.com/w/cpp/language/floating_literal>
 
-[[c]] allows the last member of a `struct` to be a _flexible array member_ &mdash; an array of unspecified length. calling `sizeof` on a `struct` with a _flexible array member_ will return the size of the `struct` as if it didn't contain the flexible array member
+[[c]] allows the last member of a `struct` to be a _flexible array member_---an array of unspecified length. calling `sizeof` on a `struct` with a _flexible array member_ will return the size of the `struct` as if it didn't contain the flexible array member
 
 > **example** `struct s { int x; int y[]; };`
 
@@ -158,7 +158,7 @@ U"foo" // char32_t[6]
 
 _wraparound_ (which is specific to unsigned integers) is well-defined behavior in [[c]]. values are reduced modulo the number that is one greater than the largest value that can be represented by the resulting type. however, _overflow_ (which is specific to signed integers) is [[c#undefined behavior]]
 
-the representation of signed integers in [[c]] is [[c#implementation-defined behavior]] historically, the [[c]] language has supported three representation schemes: two's [[complement]], one's [[complement]] and [[sign-magnitude notation]]. implementation of [[float]]ing-point numbers is [[c#implementation-defined behavior]]
+the representation of signed integers in [[c]] is [[c#implementation-defined behavior]] historically, the [[c]] language has supported three representation schemes: two's [[complement]], one's [[complement]] and [[sign--magnitude notation]]. implementation of [[float]]ing-point numbers is [[c#implementation-defined behavior]]
 
 each compiler implementation defines `char` as either `signed char` or `unsigned char`. regardless of the choice made, `char` is a different type from the other two and is incompatible with both. `char` is to be used for characters **only**, and `signed char` and `unsigned char` for small integer data
 
@@ -179,7 +179,7 @@ char s[3] = "foo"; // character array
 
 `math.h` defines the various functions for classifying [[float]]ing-point numbers, such as `fpclassify`, `isfinite`, `isinf`, `isnan`, `isnormal` and `signbit`, along with various macros, such as `FP_INFINITE`, `FP_NAN`, `FP_NORMAL`, `FP_SUBNORMAL` and `FP_ZERO`
 
-until C23, `void f();` declares a function that takes any number of arguments of any type. `void f(void);` declares a function that takes no arguments. the former is to be avoided &mdash; <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++>
+until C23, `void f();` declares a function that takes any number of arguments of any type. `void f(void);` declares a function that takes no arguments. the former is to be avoided --- <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++>
 
 returning no value from a non-`void` [[function]] (through `return;` or through control reaching the end of the [[function]] body) and subsequently using the returned value is [[c#undefined behavior]]
 
@@ -195,7 +195,7 @@ tags are a special naming mechanism for `enum`, `struct`, and `union` types. the
 
 ### incomplete types
 
-&mdash; Effective C and <https://learn.microsoft.com/en-us/cpp/c-language/incomplete-types>
+--- Effective C and <https://learn.microsoft.com/en-us/cpp/c-language/incomplete-types>
 
 **definition** an _incomplete type_ is a type that describes an object but lacks information needed to determine its size
 
@@ -205,7 +205,7 @@ incomplete types can be completed by specifying the missing information. `void` 
 
 ## declarations
 
-reordering of declaration specifiers has no effect in [[c]] &mdash; <https://youtu.be/zGWj7Qo_POY?t=21m28s>
+reordering of declaration specifiers has no effect in [[c]] --- <https://youtu.be/zGWj7Qo_POY?t=21m28s>
 
 > **example** `int typedef const a;` is equivalent to `typedef const int a;`, and `long unsigned static long b;` is equivalent to `static unsigned long long b;`
 
@@ -213,19 +213,19 @@ reordering of declaration specifiers has no effect in [[c]] &mdash; <https://you
 
 as a rule of thumb, read declarators from the inside out, at each level moving right then moving left
 
-> **example** `float (*(*b(void))[])(void);` &mdash; `b` is a function that returns a pointer to an array of pointers to functions returning `float`s &mdash; <https://www.codeproject.com/Articles/7042/How-to-interpret-complex-C-C-declarations>
+> **example** `float (*(*b(void))[])(void);` --- `b` is a function that returns a pointer to an array of pointers to functions returning `float`s --- <https://www.codeproject.com/Articles/7042/How-to-interpret-complex-C-C-declarations>
 
-> **example** `void *(*c)(char, int (*)(void));` &mdash; `c` is a pointer to a function that takes a `char` and {a pointer to a function that returns an `int`} and returns a pointer to `void` &mdash; <https://www.codeproject.com/Articles/7042/How-to-interpret-complex-C-C-declarations>
+> **example** `void *(*c)(char, int (*)(void));` --- `c` is a pointer to a function that takes a `char` and {a pointer to a function that returns an `int`} and returns a pointer to `void` --- <https://www.codeproject.com/Articles/7042/How-to-interpret-complex-C-C-declarations>
 
 ## initialization
 
-&mdash; <https://youtu.be/lLv1s7rKeCM?t=19m55s>
+--- <https://youtu.be/lLv1s7rKeCM?t=19m55s>
 
 objects of pretty much any [[type]] can be initialized using _initializer lists_ in [[c]]
 
 > **example** `int x = {5};` is valid [[c]]
 
-initializer lists are brace-enclosed sequences of _positional initializers_ (which do not include a _designation_) and _designated initializers_ (which do include a _designation_). any subobjects not explicitly initialized are zeroed. initializers initialize subobjects in order according to the type of object being initialized, and designations cause the following initializers to continue initialization starting at the subobject designated &mdash; ISO/IEC 9899:TC3, &sect;6.7.8, paragraph 17
+initializer lists are brace-enclosed sequences of _positional initializers_ (which do not include a _designation_) and _designated initializers_ (which do include a _designation_). any subobjects not explicitly initialized are zeroed. initializers initialize subobjects in order according to the type of object being initialized, and designations cause the following initializers to continue initialization starting at the subobject designated --- ISO/IEC 9899:TC3, $6.7.8, paragraph 17
 
 > **example** `struct { int a[10]; float f; } s = {.a = {2, 3, [8] = 7, 9, [1] = 5}, .f = 5.5, .a[9] = 8, 6.6};`
 
@@ -233,17 +233,17 @@ _empty initialization_ (informally also known as _zero initialization_ and _defa
 
 ## compound literals
 
-a _compound literal_, written _`(` type-name `)` `{` initializer-list `,`? `}`_, creates an unnamed lvalue (!!) of the specified type. compound literals used in _block scope_ have _automatic storage duration_ and live for the entire duration of the block; compound literals may be used in _file scope_, in which case they have _static storage duration_ &mdash; ISO/IEC 9899:TC3, &sect;6.5.2.5, paragraph 6
+a _compound literal_, written _`(` type-name `)` `{` initializer-list `,`? `}`_, creates an unnamed lvalue (!!) of the specified type. compound literals used in _block scope_ have _automatic storage duration_ and live for the entire duration of the block; compound literals may be used in _file scope_, in which case they have _static storage duration_ --- ISO/IEC 9899:TC3, $6.5.2.5, paragraph 6
 
 > **example** `struct vec2 zero(void) { return (struct vec2){0.0, 0.0}; }`
 
-> **example** constructs such as `f(&(int){5});` can be used to pass a literal to a function expecting a pointer &mdash; me
+> **example** constructs such as `f(&(int){5});` can be used to pass a literal to a function expecting a pointer --- me
 
-> **example** `(int){3} = 5;` is valid [[c]] &mdash; me
+> **example** `(int){3} = 5;` is valid [[c]] --- me
 
-> **example** `(char []){"/tmp/fileXXXXXX"}` is essentially a modifiable string literal &mdash; ISO/IEC 9899:TC3, &sect;6.5.2.5, paragraph 13
+> **example** `(char []){"/tmp/fileXXXXXX"}` is essentially a modifiable string literal --- ISO/IEC 9899:TC3, $6.5.2.5, paragraph 13
 
-> **example** `*p = (struct p){0};` can be used to zero out a structure, say after a `free(p);` &mdash; <https://youtu.be/lLv1s7rKeCM?t=56m32s>
+> **example** `*p = (struct p){0};` can be used to zero out a structure, say after a `free(p);` --- <https://youtu.be/lLv1s7rKeCM?t=56m32s>
 
 ## lvalues and rvalues
 
@@ -276,7 +276,7 @@ in [[c]], a `void *` is implicitly converted to any other pointer type
 
 > **example** `int *pi = malloc(sizeof(int));` is valid [[c]] but not valid [[c++]]
 
-the _strict aliasing rule_ allows the compiler to assume that pointers to different types do not alias each other. therefore, apart from a few exceptions, referring to the same memory simultaneously through pointers of different types is [[c#undefined behavior]] &mdash; <https://youtu.be/SmlLdd1Q2V8?t=5m46s>
+the _strict aliasing rule_ allows the compiler to assume that pointers to different types do not alias each other. therefore, apart from a few exceptions, referring to the same memory simultaneously through pointers of different types is [[c#undefined behavior]] --- <https://youtu.be/SmlLdd1Q2V8?t=5m46s>
 
 > **example** `int x = 1; float *f = (float *)&x; *f = 2;` is [[c#undefined behavior]]
 
@@ -292,7 +292,7 @@ simplistically, whenever a _small integer type_ is used in an expression in [[c]
 
 whenever a binary [[operator]] is applied to two operands of different types, [[c]] enforces an implicit conversion of one of the operands to the type of the other operand. the rules for this process are called _the usual arithmetic conversions_. simplistically, if one of the arguments has a [[float]]ing-point type, then the other is converted to that [[float]]ing-point type; otherwise, the _integer promotions_ are performed on both operands. then, if both operands have identical signedness, the operand with lesser _conversion rank_ is converted to the type of the other; otherwise, things get complicated and unintuitive
 
-&mdash; Effective C p. 49-55 and <https://stackoverflow.com/questions/46073295/implicit-type-promotion-rules>
+--- Effective C p. 49-55 and <https://stackoverflow.com/questions/46073295/implicit-type-promotion-rules>
 
 ## operators
 
@@ -313,7 +313,7 @@ shifting by a negative number of bits or by a number of bits greater than or equ
 
 the _usual arithmetic conversions_ are **not** performed on the operands of the `<<` and `>>` [[operator]]s
 
-the _integer promotions_ are applied to the argument of the unary `+` and `-` [[operator]]s &mdash; <https://youtu.be/zGWj7Qo_POY?t=1m37s>
+the _integer promotions_ are applied to the argument of the unary `+` and `-` [[operator]]s --- <https://youtu.be/zGWj7Qo_POY?t=1m37s>
 
 > **example** `sizeof +(short)1` is equal to `sizeof(int)`
 
@@ -344,25 +344,25 @@ exactly one of the second and third operands of the `? :` [[operator]] is evalua
 
 ## order of evaluation
 
-_the order of evaluation of the operands of any [[c]] [[operator]], including the order of evaluation of any subexpressions, is generally [[c#unspecified behavior]]_ &mdash; Effective C
+_the order of evaluation of the operands of any [[c]] [[operator]], including the order of evaluation of any subexpressions, is generally [[c#unspecified behavior]]_ --- Effective C
 
 > **example** in `int sum = f() + g();`, the order of evaluation is [[c#unspecified behavior]]
 
 > **example** in `int max = max(f(), g());`, the order of evaluation is [[c#unspecified behavior]]
 
-_if a side effect is unsequenced relative to either a different side effect on the same scalar or a value computation that uses the value of the same scalar object, the code has [[c#undefined behavior]]_ &mdash; Effective C
+_if a side effect is unsequenced relative to either a different side effect on the same scalar or a value computation that uses the value of the same scalar object, the code has [[c#undefined behavior]]_ --- Effective C
 
 > **example** `printf("%d\n", i++ * i++);` is [[c#undefined behavior]]
 
 > **example** `printf("%d %d\n", i++, i);` is [[c#undefined behavior]]
 
-> **example** `i = ++i;` is [[c#undefined behavior]] &mdash; <https://stackoverflow.com/questions/78286568/in-standard-c-is-the-expression-i-i-1-1-well-defined>
+> **example** `i = ++i;` is [[c#undefined behavior]] --- <https://stackoverflow.com/questions/78286568/in-standard-c-is-the-expression-i-i-1-1-well-defined>
 
 there is a sequence point between the evaluations of the operands of the `&&`, `||` and `,` [[operator]]s
 
 there is a sequence point between the evaluations of the first and second or third operands of the `? :` [[operator]], whichever is evaluated
 
-there is **no** sequence point between evaluations of the operands of the `=` [[operator]], and the stored value may be updated any time between the previous and next sequence points &mdash; ISO/IEC 9899:TC3, &sect;6.5.16, paragraphs 3-4
+there is **no** sequence point between evaluations of the operands of the `=` [[operator]], and the stored value may be updated any time between the previous and next sequence points --- ISO/IEC 9899:TC3, $6.5.16, paragraphs 3-4
 
 ## dynamic allocation
 
@@ -416,11 +416,11 @@ the type of the controlling expression to a `switch` statement must be an _integ
 
 `else if` is not its own [[statement]] in [[c]]; rather, it is an `if-else` statement whose `else` clause contains another `if` statement
 
-> **example** a common guideline is to always use braces to convert statements into compound statements inside of control flow statements. therefore, to be pedantic, `if (c) { ... } else if (d) { ... }` should be written as `if (c) { ... } else { if (d) { ... } }`. if `else-if`s are allowed, why aren't `else-switch`es? `if (!color) { alpha = 1; } else switch (*color) { ... }` &mdash; <https://youtu.be/zGWj7Qo_POY?t=10m32s>
+> **example** a common guideline is to always use braces to convert statements into compound statements inside of control flow statements. therefore, to be pedantic, `if (c) { ... } else if (d) { ... }` should be written as `if (c) { ... } else { if (d) { ... } }`. if `else-if`s are allowed, why aren't `else-switch`es? `if (!color) { alpha = 1; } else switch (*color) { ... }` --- <https://youtu.be/zGWj7Qo_POY?t=10m32s>
 
 ## reserved identifiers
 
-&mdash; <https://www.gnu.org/software/libc/manual/html_node/Reserved-Names.html>
+--- <https://www.gnu.org/software/libc/manual/html_node/Reserved-Names.html>
 
 #xxx note ub
 
@@ -438,7 +438,7 @@ any identifier matching one of the following [[regular expression]]s is reserved
 
 ## storage duration
 
-objects declared within a block or within a function parameter and objects declared with the `auto` storage-class specifier have _automatic_ storage duration, living from the start to the end of the block. `auto` is a bit useless, because the only places it's allowed to be used, automatic storage duration is already the default &mdash; <https://stackoverflow.com/questions/4688816/concept-of-auto-keyword-in-c>. starting in C23, `auto` provides [[c++]]-style [[type]] "inference" &mdash; <https://youtu.be/lLv1s7rKeCM?t=11m45s>
+objects declared within a block or within a function parameter and objects declared with the `auto` storage-class specifier have _automatic_ storage duration, living from the start to the end of the block. `auto` is a bit useless, because the only places it's allowed to be used, automatic storage duration is already the default --- <https://stackoverflow.com/questions/4688816/concept-of-auto-keyword-in-c>. starting in C23, `auto` provides [[c++]]-style [[type]] "inference" --- <https://youtu.be/lLv1s7rKeCM?t=11m45s>
 
 > **example** `{ int x; }`
 
@@ -464,7 +464,7 @@ a declaration with _external linkage_ makes all its references refer to the same
 
 > **example** `int x; int f(void); extern int x; extern int f(void); // at file scope`
 
-`extern` at file scope has no effect on functions, but when used on variables it _doesn't instantiate the variable itself, i.e. doesn't allocate any memory_ &mdash; <https://stackoverflow.com/questions/496448/how-to-correctly-use-the-extern-keyword-in-c>. `extern` should be used to declare global variables shared across translation units
+`extern` at file scope has no effect on functions, but when used on variables it _doesn't instantiate the variable itself, i.e. doesn't allocate any memory_ --- <https://stackoverflow.com/questions/496448/how-to-correctly-use-the-extern-keyword-in-c>. `extern` should be used to declare global variables shared across translation units
 
 block-scope objects can be made to have external linkage using the `extern` storage-class specifier
 
@@ -500,23 +500,23 @@ a declaration with _no linkage_ makes all its references refer to the same objec
 
 ## portability
 
-&mdash; <https://www.reddit.com/r/rust/comments/jf66eu/why_are_there_no_increment_and_decrement/>
+--- <https://www.reddit.com/r/rust/comments/jf66eu/why_are_there_no_increment_and_decrement/>
 
 ### Implementation-Defined Behavior
 
-**definition** _implementation-defined behavior_ is program behavior that is not specified by the [[c]] standard and that may offer different results among implementations [...] &mdash; Effective C
+**definition** _implementation-defined behavior_ is program behavior that is not specified by the [[c]] standard and that may offer different results among implementations [...] --- Effective C
 
 a compiler must choose a single behavior, document it, and implement it consistently
 
 ### Unspecified Behavior
 
-**definition** _unspecified behavior_ is program behavior for which the standard provides two or more options and imposes no requirements on which option is chosen at any instance &mdash; Effective C
+**definition** _unspecified behavior_ is program behavior for which the standard provides two or more options and imposes no requirements on which option is chosen at any instance --- Effective C
 
 a compiler must compile the program meaningfully but may choose a different behavior each time it encounters a construct
 
 ### Undefined Behavior
 
-**definition** _undefined behavior_ is behavior that implicitly or explicitly isn't defined by the [[c]] standard &mdash; Effective C
+**definition** _undefined behavior_ is behavior that implicitly or explicitly isn't defined by the [[c]] standard --- Effective C
 
 classifying behavior as _undefined_ is **intentional** and **considered**; it isn't an error or omission in the [[c]] standard. [[c#undefined behavior]] is a tool the compiler can use to optimize programs; a compiler may assume programs never contain [[c#undefined behavior]]
 
@@ -533,13 +533,13 @@ _trap representations_ are essentially a value in memory that cannot be represen
 
 reading a _trap representation_ is [[c#undefined behavior]]; reading an _uninitialized value_ is not necessarily [[c#undefined behavior]] in [[c]] but is in [[c++]]. using _indeterminate values_ in arithmetic operations is [[c#undefined behavior]]
 
-&mdash; Effective C and <https://stackoverflow.com/questions/13423673/what-is-indeterminate-value>
+--- Effective C and <https://stackoverflow.com/questions/13423673/what-is-indeterminate-value>
 
 ## Preprocessor
 
-&mdash; Effective C
+--- Effective C
 
-&mdash; <https://cplusplus.com/doc/tutorial/preprocessor/>
+--- <https://cplusplus.com/doc/tutorial/preprocessor/>
 
 ### directives
 

@@ -10,7 +10,7 @@
 
 **notation** _set roster notation_ **`S = {{1, 2, 3}}`**
 
-**notation** _set roster notation_ **`S = {{1, 2, 3 ...}}`** &mdash; **`...`** are allowed
+**notation** _set roster notation_ **`S = {{1, 2, 3 ...}}`** --- **`...`** are allowed
 
 **notation** _set builder notation_ **`S x = P x`** or **`S = x -> P x`** where **`P`** is [[predicate]]
 
@@ -106,7 +106,7 @@ both the [[set#subset]] and the [[set#superset]] form a [[partial order]]
 
 two [[set]]s are isomorphic if they contain the same elements "labeled" in different ways
 
-&mdash; <https://youtu.be/yAi3XWCBkDo?t=998>
+--- <https://youtu.be/yAi3XWCBkDo?t=998>
 
 ## Partition
 

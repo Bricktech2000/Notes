@@ -2,9 +2,9 @@
 
 _a high-level language for implementing smart contracts_
 
-&mdash; <https://youtu.be/EhPeHeoKF88>
+--- <https://youtu.be/EhPeHeoKF88>
 
-&mdash; <https://www.bitdegree.org/learn/solidity-variables>
+--- <https://www.bitdegree.org/learn/solidity-variables>
 
 [[solidity]] is an [[object-oriented programming]] language for implementing smart contracts on various [[blockchain]] platforms. also see [[cryptocurrency]]
 
@@ -61,7 +61,7 @@ struct, enum // user-defined types
 
 ## modifiers and visibility
 
-&mdash; <https://hashnode.com/post/pure-vs-view-in-solidity-cl04tbzlh07kaudnv1ial1gio>
+--- <https://hashnode.com/post/pure-vs-view-in-solidity-cl04tbzlh07kaudnv1ial1gio>
 
 ```solidity
 payable // can receive ether

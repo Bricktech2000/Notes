@@ -8,13 +8,13 @@
 
 **see** [[math notation]], [[algebraic structure]]
 
-&mdash; <https://youtu.be/KufsL2VgELo>
+--- <https://youtu.be/KufsL2VgELo>
 
-&mdash; <https://youtu.be/mvmuCPvRoWQ>
+--- <https://youtu.be/mvmuCPvRoWQ>
 
 _a [[monoid]] where every element also has an inverse_
 
-**definition** a [[group]] is a finite or infinite [[set]] of invertible elements equipped with a closed associative binary operation and an identity element &mdash; Wikipedia and me
+**definition** a [[group]] is a finite or infinite [[set]] of invertible elements equipped with a closed associative binary operation and an identity element --- Wikipedia and me
 
 **definition**
 

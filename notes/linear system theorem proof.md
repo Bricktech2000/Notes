@@ -4,36 +4,36 @@
 
 > **proof**
 >
-> - 1 &rarr; 2
+> - 1 -> 2
 >
 >   each column represents a [[variable]]
 >
->   every [[variable]] is a leading variable &rarr; there is a leading **`1`** in each column of the [[linear system#reduced row echelon form]] of **`A`**
+>   every [[variable]] is a leading variable -> there is a leading **`1`** in each column of the [[linear system#reduced row echelon form]] of **`A`**
 >
-> - 2 &rarr; 3
+> - 2 -> 3
 >
->   **`Ax = O`** is homogeneous &rarr; the system is consistent
+>   **`Ax = O`** is homogeneous -> the system is consistent
 >
->   no free [[variable]]s &rarr; here cannot be infinitely many solutions &rarr; it must have a single solution
+>   no free [[variable]]s -> here cannot be infinitely many solutions -> it must have a single solution
 >
-> - 3 &rarr; 4
+> - 3 -> 4
 >
->   **`Ax = O`** has a unique solution &rarr; **`x = O`** &rarr; **`A^*,j x^j : ... A^*,j x^j = O`** has a unique solution (all coefficients are **`0`**) &rarr; the columns of **`A`** are [[vector#linearly independent vector]]s
+>   **`Ax = O`** has a unique solution -> **`x = O`** -> **`A^*,j x^j : ... A^*,j x^j = O`** has a unique solution (all coefficients are **`0`**) -> the columns of **`A`** are [[vector#linearly independent vector]]s
 >
-> - 4 &rarr; 5
+> - 4 -> 5
 >
->   the columns of **`A`** are [[vector#linearly independent vector]]s &rarr; **`Ax = O`** has a unique solution (**`x = O`**) &rarr; the [[matrix#null space]] of **`A`** is the [[set]] containing the zero [[vector]]
+>   the columns of **`A`** are [[vector#linearly independent vector]]s -> **`Ax = O`** has a unique solution (**`x = O`**) -> the [[matrix#null space]] of **`A`** is the [[set]] containing the zero [[vector]]
 >
-> - 5 &rarr; 6
+> - 5 -> 6
 >
->   the [[matrix#null space]] of **`A`** is the zero space &rarr; the [[vector space#dimension]] of the zero space is **`0`**
+>   the [[matrix#null space]] of **`A`** is the zero space -> the [[vector space#dimension]] of the zero space is **`0`**
 >
-> - 6 &rarr; 7
+> - 6 -> 7
 >
->   **`"dim" NN A : "rank" A = "number of columns in" A`** (see [[matrix]]) &rarr; as **`"dim" NN A = 0`**, **`"rank" A = "number of columns in" A = n`**
+>   **`"dim" NN A : "rank" A = "number of columns in" A`** (see [[matrix]]) -> as **`"dim" NN A = 0`**, **`"rank" A = "number of columns in" A = n`**
 >
-> - 7 &rarr; 1
+> - 7 -> 1
 >
 >   the [[matrix#rank]] of a [[matrix]] is the number leading [[variable]]s in the matrix
 >
->   **`"rank" A = n`** and **`A`** has **`n`** columns &rarr; every [[variable]] is a leading variable
+>   **`"rank" A = n`** and **`A`** has **`n`** columns -> every [[variable]] is a leading variable

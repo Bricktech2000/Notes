@@ -2,7 +2,7 @@
 
 **aka** _barber paradox_
 
-[[russel's paradox]] states that it is not possible to construct a [[set]] that contains all sets that are not members of themselves. therefore, it is not possible to construct a [[set]] of all [[set]]s &mdash; <https://youtu.be/I8LbkfSSR58?t=1559>
+[[russel's paradox]] states that it is not possible to construct a [[set]] that contains all sets that are not members of themselves. therefore, it is not possible to construct a [[set]] of all [[set]]s --- <https://youtu.be/I8LbkfSSR58?t=1559>
 
 **definition**
 

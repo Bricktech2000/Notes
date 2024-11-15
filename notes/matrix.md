@@ -54,7 +54,7 @@ intuitively, matrix multiplication is the [[dot product]] of **every row** of th
 
 _not commutative_ **`><(MM A /\ MM B < AB = BA)`**
 
-**`><(AB = 0 < A = 0 \/ B = 0)`** (it can happen that **`AB = 0`**, but **`A + 0`** and **`B + 0`**) (**`AB`** being equal to **`0`** does not imply that **`A = 0`** or that **`B = 0`**) ([[matrix]]es have _zero divisors_ &mdash; <https://youtu.be/V7Pl4Jdiuac?t=6m6s>)
+**`><(AB = 0 < A = 0 \/ B = 0)`** (it can happen that **`AB = 0`**, but **`A + 0`** and **`B + 0`**) (**`AB`** being equal to **`0`** does not imply that **`A = 0`** or that **`B = 0`**) ([[matrix]]es have _zero divisors_ --- <https://youtu.be/V7Pl4Jdiuac?t=6m6s>)
 
 **`><(AC = BC /\ C + 0 < A = B)`** (**`AC = BC`** and **`C + 0`** does not imply that **`A = B`**)
 
@@ -329,7 +329,7 @@ a [[matrix]] is _diagonalizable_ if and only if the geometic [[eigen#multiplicit
 
 > **example** let **`MM^n,n A /\ NN n`** and suppose **`A`** has **`n`** distinct [[eigen#value]]s. deduce that **`A`** is diagonalizable over the reals
 >
-> > **proof** **`A`** has at most **`n`** [[eigen#value]]s &rarr; the algebraic [[eigen#multiplicity]] of every [[eigen#value]] of **`A`** is **`1`** as they are all distinct and must be greater than **`1`** &rarr; the geometric [[eigen#multiplicity]] of every [[eigen#value]] of **`A`** is **`1`** as it must be greater than **`1`** and less than its algebraic [[eigen#multiplicity]] &rarr; all algebraic [[eigen#multiplicity]]es and geometric [[eigen#multiplicity]]es are equal &rarr; **`A`** is diagonalizable. see [[eigen]]
+> > **proof** **`A`** has at most **`n`** [[eigen#value]]s -> the algebraic [[eigen#multiplicity]] of every [[eigen#value]] of **`A`** is **`1`** as they are all distinct and must be greater than **`1`** -> the geometric [[eigen#multiplicity]] of every [[eigen#value]] of **`A`** is **`1`** as it must be greater than **`1`** and less than its algebraic [[eigen#multiplicity]] -> all algebraic [[eigen#multiplicity]]es and geometric [[eigen#multiplicity]]es are equal -> **`A`** is diagonalizable. see [[eigen]]
 
 ## theorems
 

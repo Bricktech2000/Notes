@@ -2,7 +2,7 @@
 
 **see** [[cognitive load]]
 
-people feel [[overwhelm]]ed when they are unable to break down a [[goal]] into its component tasks &mdash; <https://youtu.be/DMw8G3RPWrQ?t=9715> or when their [[cognitive load]] is too high. this is a reason why [[system over goal]] is important
+people feel [[overwhelm]]ed when they are unable to break down a [[goal]] into its component tasks --- <https://youtu.be/DMw8G3RPWrQ?t=9715> or when their [[cognitive load]] is too high. this is a reason why [[system over goal]] is important
 
 feeling [[overwhelm]]ed can hinder [[motivation]] and can cause [[procrastination#operational procrastination]]
 

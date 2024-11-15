@@ -4,7 +4,7 @@
 
 _allows quantum computers to [[factor]] large numbers way faster than conventional computers can_
 
-Shor's [[proof]] leverages [[root of unity]]s to do so &mdash; <https://youtu.be/bOXCLR3Wric?t=1986>
+Shor's [[proof]] leverages [[root of unity]]s to do so --- <https://youtu.be/bOXCLR3Wric?t=1986>
 
 **applications**
 

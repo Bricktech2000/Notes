@@ -4,9 +4,9 @@ _a highly customizable text editor with efficient key bindings_
 
 **see** [[muscle memory]]
 
-> **resource** [[vim#bindings]] crash course by Ben Awad &mdash; <https://youtu.be/IiwGbcd8S7I>
+> **resource** [[vim#bindings]] crash course by Ben Awad --- <https://youtu.be/IiwGbcd8S7I>
 
-> **resource** [[vim#bindings]] cheat sheet &mdash; <https://i.imgur.com/YLInLlY.png>
+> **resource** [[vim#bindings]] cheat sheet --- <https://i.imgur.com/YLInLlY.png>
 
 ---
 
@@ -16,79 +16,79 @@ _a highly customizable text editor with efficient key bindings_
 
 [[vim#macro]]s allow for recording and playing back sequences of bindings. [[vim#search]] and [[vim#mark]]s allow for jumping around efficiently
 
-[[vim#compound]]s &mdash; me, are sequences of bindings that can be thought of as a single binding for the sake of [[muscle memory]]
+[[vim#compound]]s --- me, are sequences of bindings that can be thought of as a single binding for the sake of [[muscle memory]]
 
 ## Mode
 
-- `:` &mdash; _command_ [[vim#mode]]
-- `R` &mdash; _replace_ [[vim#mode]]
-- `v` &mdash; _visual_ [[vim#mode]]
-- `V` &mdash; _visual line_ [[vim#mode]]
-- `<c-v>` &mdash; _visual block_ [[vim#mode]]
-- `i` &mdash; _insert_ [[vim#mode]]
-- `I` &mdash; _insert_ [[vim#mode]] at start of line
-- `a` &mdash; insert [[vim#mode]] _after_ cursor
-- `A` &mdash; insert [[vim#mode]] at end of line
-- `o` &mdash; insert [[vim#mode]] on _opened_ line below
-- `O` &mdash; insert [[vim#mode]] on _opened_ line above
+- `:` --- _command_ [[vim#mode]]
+- `R` --- _replace_ [[vim#mode]]
+- `v` --- _visual_ [[vim#mode]]
+- `V` --- _visual line_ [[vim#mode]]
+- `<c-v>` --- _visual block_ [[vim#mode]]
+- `i` --- _insert_ [[vim#mode]]
+- `I` --- _insert_ [[vim#mode]] at start of line
+- `a` --- insert [[vim#mode]] _after_ cursor
+- `A` --- insert [[vim#mode]] at end of line
+- `o` --- insert [[vim#mode]] on _opened_ line below
+- `O` --- insert [[vim#mode]] on _opened_ line above
 
 ## Operator
 
-- `u` &mdash; _undo_
-- `<c-r>` &mdash; _redo_
-- `g+` &mdash; go to newer text state in undo tree
-- `g-` &mdash; go to older text state in undo tree
-- `.` &mdash; repeat
-- `r` &mdash; _replace_ character
-- `J` &mdash; _join_ current line with next
-- **r**`x` &mdash; delete character into (optional) [[vim#register]] **r**
-- **r**`X` &mdash; delete character before into (optional) [[vim#register]] **r**
-- **r**`p` &mdash; _put_ from (optional) [[vim#register]] **r** after
-- **r**`P` &mdash; _put_ from (optional) [[vim#register]] **r** before
-- **r**`d`**m** &mdash; _delete_ [[vim#motion]] **m** into (optional) [[vim#register]] **r**
-- **r**`y`**m** &mdash; _yank_ [[vim#motion]] **m** into (optional) [[vim#register]] **r**
-- **r**`c`**m** &mdash; _change_ [[vim#motion]] **m** into (optional) [[vim#register]] **r**
-- **r**`s` &mdash; _substitute_ character into (optional) [[vim#register]] **r**
-- **r**`D` &mdash; _delete_ to end of line into (optional) [[vim#register]] **r**
-- **r**`Y` &mdash; _yank_ to end of line into (optional) [[vim#register]] **r**
-- **r**`C` &mdash; _change_ to end of line into (optional) [[vim#register]] **r**
-- **r**`S` &mdash; _substitute_ line into (optional) [[vim#register]] **r**
-- **r**`dd` &mdash; _delete_ line into (optional) [[vim#register]] **r**
-- **r**`yy` &mdash; _yank_ line into (optional) [[vim#register]] **r**
-- **r**`cc` &mdash; _change_ line into (optional) [[vim#register]] **r**
-- `gU`**m** &mdash; make [[vim#motion]] **m** _uppercase_
-- `gu`**m** &mdash; make [[vim#motion]] **m** lowercase
-- `g~`**m** &mdash; swap [[vim#motion]] **m** case
-- `~` &mdash; swap character case
-- `>`**m** &mdash; indent [[vim#motion]] **m**
-- `<`**m** &mdash; unindent [[vim#motion]] **m**
-- `=`**m** &mdash; reindent [[vim#motion]] **m**
-- `>>` &mdash; indent line
-- `<<` &mdash; unindent line
-- `==` &mdash; reindent line
+- `u` --- _undo_
+- `<c-r>` --- _redo_
+- `g+` --- go to newer text state in undo tree
+- `g-` --- go to older text state in undo tree
+- `.` --- repeat
+- `r` --- _replace_ character
+- `J` --- _join_ current line with next
+- **r**`x` --- delete character into (optional) [[vim#register]] **r**
+- **r**`X` --- delete character before into (optional) [[vim#register]] **r**
+- **r**`p` --- _put_ from (optional) [[vim#register]] **r** after
+- **r**`P` --- _put_ from (optional) [[vim#register]] **r** before
+- **r**`d`**m** --- _delete_ [[vim#motion]] **m** into (optional) [[vim#register]] **r**
+- **r**`y`**m** --- _yank_ [[vim#motion]] **m** into (optional) [[vim#register]] **r**
+- **r**`c`**m** --- _change_ [[vim#motion]] **m** into (optional) [[vim#register]] **r**
+- **r**`s` --- _substitute_ character into (optional) [[vim#register]] **r**
+- **r**`D` --- _delete_ to end of line into (optional) [[vim#register]] **r**
+- **r**`Y` --- _yank_ to end of line into (optional) [[vim#register]] **r**
+- **r**`C` --- _change_ to end of line into (optional) [[vim#register]] **r**
+- **r**`S` --- _substitute_ line into (optional) [[vim#register]] **r**
+- **r**`dd` --- _delete_ line into (optional) [[vim#register]] **r**
+- **r**`yy` --- _yank_ line into (optional) [[vim#register]] **r**
+- **r**`cc` --- _change_ line into (optional) [[vim#register]] **r**
+- `gU`**m** --- make [[vim#motion]] **m** _uppercase_
+- `gu`**m** --- make [[vim#motion]] **m** lowercase
+- `g~`**m** --- swap [[vim#motion]] **m** case
+- `~` --- swap character case
+- `>`**m** --- indent [[vim#motion]] **m**
+- `<`**m** --- unindent [[vim#motion]] **m**
+- `=`**m** --- reindent [[vim#motion]] **m**
+- `>>` --- indent line
+- `<<` --- unindent line
+- `==` --- reindent line
 
 ## Register
 
-- `""` &mdash; unnamed [[vim#register]]
-- `"_` &mdash; black hole [[vim#register]]
-- `"0` &mdash; last yank [[vim#register]]
-- `"1` &mdash; last delete [[vim#register]]
-- `"/` &mdash; last search [[vim#register]]
-- `"+` &mdash; system clipboard [[vim#register]]
-- `":` &mdash; last command-line [[vim#register]]
+- `""` --- unnamed [[vim#register]]
+- `"_` --- black hole [[vim#register]]
+- `"0` --- last yank [[vim#register]]
+- `"1` --- last delete [[vim#register]]
+- `"/` --- last search [[vim#register]]
+- `"+` --- system clipboard [[vim#register]]
+- `":` --- last command-line [[vim#register]]
 
 ## Motion
 
-- `<c-o>` &mdash; jump back in jump list
-- `<c-i>` &mdash; jump forward in jump list
-- `<c-^>` &mdash; jump to alternate file
-- `''` &mdash; jump back to last jump
-- `` ` ``**m** &mdash; jump to [[vim#mark]] **m**
-- `'`**m** &mdash; jump to line containing [[vim#mark]] **m**
-- **n**`gg` &bull; **n**`G` &mdash; jump to line number **n**
-- **n**`|` &mdash; jump to column number **n**
-- **n**`go` &mdash; jump to byte number **n**
-  > **resource** _Byte Positions Are Better Than Line Numbers_, by Casey Muratori &mdash; <https://www.computerenhance.com/p/byte-positions-are-better-than-line>
+- `<c-o>` --- jump back in jump list
+- `<c-i>` --- jump forward in jump list
+- `<c-^>` --- jump to alternate file
+- `''` --- jump back to last jump
+- `` ` ``**m** --- jump to [[vim#mark]] **m**
+- `'`**m** --- jump to line containing [[vim#mark]] **m**
+- **n**`gg` - **n**`G` --- jump to line number **n**
+- **n**`|` --- jump to column number **n**
+- **n**`go` --- jump to byte number **n**
+  > **resource** _Byte Positions Are Better Than Line Numbers_, by Casey Muratori --- <https://www.computerenhance.com/p/byte-positions-are-better-than-line>
 
 |              | next | prev | start | mid   | end  |
 | ------------ | ---- | ---- | ----- | ----- | ---- |
@@ -110,67 +110,67 @@ _a highly customizable text editor with efficient key bindings_
 
 ## Text Object
 
-|               | _in_ &bull; _inner_              | _all_ &bull; _around_            |
-| ------------- | -------------------------------- | -------------------------------- |
-| _word_        | `iw`                             | `aw`                             |
-| _Word_        | `iW`                             | `aW`                             |
-| _sentence_    | `is`                             | `as`                             |
-| _paragraph_   | `ip`                             | `ap`                             |
-| `<>` _tag_    | `it`                             | `at`                             |
-| `()` _braces_ | `ib` &bull; `i(` &bull; `i)`     | `ab` &bull; `a(` &bull; `a)`     |
-| `{}` _Braces_ | `iB` &bull; `i{` &bull; `i}`     | `aB` &bull; `a{` &bull; `a}`     |
-| `` "'` ``     | `i"` &bull; `i'` &bull; `` i` `` | `a"` &bull; `a'` &bull; `` a` `` |
-| `[]`          | `i[` &bull; `i]`                 | `a[` &bull; `a]`                 |
-| `<>`          | `i<` &bull; `i>`                 | `a<` &bull; `a>`                 |
+|               | _in_ - _inner_         | _all_ - _around_       |
+| ------------- | ---------------------- | ---------------------- |
+| _word_        | `iw`                   | `aw`                   |
+| _Word_        | `iW`                   | `aW`                   |
+| _sentence_    | `is`                   | `as`                   |
+| _paragraph_   | `ip`                   | `ap`                   |
+| `<>` _tag_    | `it`                   | `at`                   |
+| `()` _braces_ | `ib` - `i(` - `i)`     | `ab` - `a(` - `a)`     |
+| `{}` _Braces_ | `iB` - `i{` - `i}`     | `aB` - `a{` - `a}`     |
+| `` "'` ``     | `i"` - `i'` - `` i` `` | `a"` - `a'` - `` a` `` |
+| `[]`          | `i[` - `i]`            | `a[` - `a]`            |
+| `<>`          | `i<` - `i>`            | `a<` - `a>`            |
 
 ## Macro
 
-- `q`**m** &mdash; start recording [[vim#macro]] **m**
-- `q` &mdash; stop recording [[vim#macro]]
-- `@`**m** &mdash; play back [[vim#macro]] **m**
-- `@@` &mdash; repeat last [[vim#macro]] playback
-- `Q` &mdash; play back last recorded [[vim#macro]] (Neovim only)
-- `@:` &mdash; re-run last command-line
+- `q`**m** --- start recording [[vim#macro]] **m**
+- `q` --- stop recording [[vim#macro]]
+- `@`**m** --- play back [[vim#macro]] **m**
+- `@@` --- repeat last [[vim#macro]] playback
+- `Q` --- play back last recorded [[vim#macro]] (Neovim only)
+- `@:` --- re-run last command-line
 
 ## Search
 
-- `cgn` &mdash; change next [[vim#search]] match
-- `dgn` &mdash; delete next [[vim#search]] match
+- `cgn` --- change next [[vim#search]] match
+- `dgn` --- delete next [[vim#search]] match
 
-|                              | forward         | backward        | next | prev |
-| ---------------------------- | --------------- | --------------- | ---- | ---- |
-| search string **str**        | `/`**str**      | `?`**str**      | `n`  | `N`  |
-| search word                  | `*` &bull; `g*` | `#` &bull; `g#` | `n`  | `N`  |
-| find _first_ character **c** | `f`**c**        | `F`**c**        | `;`  | `,`  |
-| find _upto_ character **c**  | `t`**c**        | `T`**c**        | `;`  | `,`  |
+|                              | forward    | backward   | next | prev |
+| ---------------------------- | ---------- | ---------- | ---- | ---- |
+| search string **str**        | `/`**str** | `?`**str** | `n`  | `N`  |
+| search word                  | `*` - `g*` | `#` - `g#` | `n`  | `N`  |
+| find _first_ character **c** | `f`**c**   | `F`**c**   | `;`  | `,`  |
+| find _upto_ character **c**  | `t`**c**   | `T`**c**   | `;`  | `,`  |
 
 ## Mark
 
-- `m`**m** &mdash; set local [[vim#mark]] **m**
-- `m`**M** &mdash; set global [[vim#mark]] **M**
+- `m`**m** --- set local [[vim#mark]] **m**
+- `m`**M** --- set global [[vim#mark]] **M**
 
 ## Compound
 
-- `ea` &mdash; insert after word
-- `Ea` &mdash; insert after Word
-- `0w` &mdash; first non-blank character of line
-- `Jx` &mdash; join lines without a space
-- `Jde` &mdash; join lines removing leading characters
-- `xp` &mdash; swap character with next
-- `ddp` &mdash; swap current line with next
-- `r<cr>` &mdash; split line at cursor
-- `==` &mdash; push text state onto undo tree (well kind of)
-- `99g+` &mdash; jump to latest change in undo tree
-- `99<c-r>` &mdash; jump to latest change in undo branch
+- `ea` --- insert after word
+- `Ea` --- insert after Word
+- `0w` --- first non-blank character of line
+- `Jx` --- join lines without a space
+- `Jde` --- join lines removing leading characters
+- `xp` --- swap character with next
+- `ddp` --- swap current line with next
+- `r<cr>` --- split line at cursor
+- `==` --- push text state onto undo tree (well kind of)
+- `99g+` --- jump to latest change in undo tree
+- `99<c-r>` --- jump to latest change in undo branch
 
 ## miscellanous
 
-- `<c-g>` &bull; `g<c-g>` &mdash; show some buffer info
-- `gv` &mdash; re-select last _visual_ selection
-- `gf` &mdash; open _file_ under cursor
-- `gd` &mdash; jump to local _definition_ under cursor
-- `gD` &mdash; jump to global _declaration_ under cursor
-- `:!`**cmd** &mdash; run shell command **cmd**
-- `!!`**cmd** &mdash; run shell command **cmd** on current line
-- `:%!`**cmd** &mdash; run shell command **cmd** on entire file
-- `:u!` &mdash; undo one change and remove it from undo tree
+- `<c-g>` - `g<c-g>` --- show some buffer info
+- `gv` --- re-select last _visual_ selection
+- `gf` --- open _file_ under cursor
+- `gd` --- jump to local _definition_ under cursor
+- `gD` --- jump to global _declaration_ under cursor
+- `:!`**cmd** --- run shell command **cmd**
+- `!!`**cmd** --- run shell command **cmd** on current line
+- `:%!`**cmd** --- run shell command **cmd** on entire file
+- `:u!` --- undo one change and remove it from undo tree

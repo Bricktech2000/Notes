@@ -43,10 +43,10 @@ other notations used contextually include:
 - $=$ is used for both equality and assignment
 - $.$ is used for both decimals and version numbers
 
-&mdash; <https://whystartat.xyz/wiki/Main_Page> &mdash; Justin Veilleux
+--- <https://whystartat.xyz/wiki/Main_Page> --- Justin Veilleux
 
-&mdash; <https://youtu.be/4x-BcYCiKCk>
+--- <https://youtu.be/4x-BcYCiKCk>
 
-&mdash; <https://www.cs.utexas.edu/users/EWD/transcriptions/EWD13xx/EWD1300.html> &mdash; Ben Burk
+--- <https://www.cs.utexas.edu/users/EWD/transcriptions/EWD13xx/EWD1300.html> --- Ben Burk
 
-_[<wbr>[[conventional math notation]]<wbr>] is both awful, and it turns out ambiguous, and, to be perfectly honest, impressionistic_ &mdash; <https://youtu.be/HB5TrK7A4pI?t=1058>
+_[<wbr>[[conventional math notation]]<wbr>] is both awful, and it turns out ambiguous, and, to be perfectly honest, impressionistic_ --- <https://youtu.be/HB5TrK7A4pI?t=1058>

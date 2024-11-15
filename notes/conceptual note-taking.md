@@ -2,7 +2,7 @@
 
 when seen through [[adt organization]], [[conceptual note-taking]] consists of a [[graph]] of [[tree]]s coupled with a [[map]] from [[concept]] name to [[concept]] content; a [[graph]] whose edges are [[wikilink]]s and vectices [[concept]]s, each of which is the root of a [[tree]] of [[markdown]] headings. this [[adt organization]] model forms a great balance between the flexibility of [[graph]]s, the structure of [[tree]]s, and the constant lookup [[computational complexity]] of [[map]]s
 
-> **resource** LYT Kit &mdash; <https://www.linkingyourthinking.com/lyt-kit-course/onboarding>
+> **resource** LYT Kit --- <https://www.linkingyourthinking.com/lyt-kit-course/onboarding>
 
 **tradeoffs**
 
@@ -20,10 +20,10 @@ having to reason about where a [[concept]] fits in leads to a **better understan
 
 [[conceptual note-taking]] has somewhat of a learning curve
 
-## &mdash;
+## ---
 
-&mdash; <https://youtu.be/MYJsGksojms>
+--- <https://youtu.be/MYJsGksojms>
 
-&mdash; <https://youtu.be/JV_7nppxv7A>
+--- <https://youtu.be/JV_7nppxv7A>
 
-&mdash; _Sensemaking happens by triangulation_ &mdash; LYT Kit
+--- _Sensemaking happens by triangulation_ --- LYT Kit

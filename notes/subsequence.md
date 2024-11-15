@@ -1,6 +1,6 @@
 # Subsequence
 
-&mdash; <https://en.wikipedia.org/wiki/Subsequence>
+--- <https://en.wikipedia.org/wiki/Subsequence>
 
 **see** [[substring]], [[superstring]], [[math notation]]
 

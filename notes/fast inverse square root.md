@@ -81,8 +81,8 @@ given **`y = -- \x/`**, we can use [[newton's method]] to refine the [[function#
 y = y * (1.5F - x*0.5F*y*y);
 ```
 
-## &mdash;
+## ---
 
-&mdash; <https://en.wikipedia.org/wiki/Fast_inverse_square_root#Overview_of_the_code>
+--- <https://en.wikipedia.org/wiki/Fast_inverse_square_root#Overview_of_the_code>
 
-&mdash; <https://youtu.be/p8u_k2LIZyo>
+--- <https://youtu.be/p8u_k2LIZyo>

@@ -27,7 +27,7 @@ let a [[function]] `f :: T (a -> b)`. then,
 - `return` is the [[return function]]
 - `>>=` is the [[bind function]]
 
-&mdash; <https://youtu.be/caSOTjr1z18?t=21m12s>
+--- <https://youtu.be/caSOTjr1z18?t=21m12s>
 
 **applications**
 

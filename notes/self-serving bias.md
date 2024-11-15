@@ -2,7 +2,7 @@
 
 _failures are due to external factors, successes are due to internal factors_
 
-**definition** a [[self-serving bias]] is a [[cognitive bias]] in which individuals tend to ascribe success to their own abilities and efforts, but ascribe failure to external factors &mdash; Wikipedia
+**definition** a [[self-serving bias]] is a [[cognitive bias]] in which individuals tend to ascribe success to their own abilities and efforts, but ascribe failure to external factors --- Wikipedia
 
 > **examples**
 >

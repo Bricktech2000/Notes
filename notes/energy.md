@@ -18,7 +18,7 @@
 >
 > **`E_K = $ x. ma = $ x. m'dd t. v = $ v. mv = .mv2 -- 2`**
 >
-> &mdash; <https://tauday.com/tau-manifesto>
+> --- <https://tauday.com/tau-manifesto>
 
 **definition**
 
@@ -34,7 +34,7 @@
 >
 > **`E_K = mv2 -- 2 = $ m. v2 -- 2 = $ m. [rww]2 -- 2 = ww2 -- 2 | $ m. r2 = .Iww2 -- 2`**
 >
-> &mdash; me
+> --- me
 
 **definition**
 
@@ -56,4 +56,4 @@
 - **`g`** is the [[acceleration]] of the gravitational field the body is subject to
 - **`h`** is the [[distance]] the body can travel
 
-> **proof** **`E_P = Fx = max = mgh`** &mdash; me
+> **proof** **`E_P = Fx = max = mgh`** --- me

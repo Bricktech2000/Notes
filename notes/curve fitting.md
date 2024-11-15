@@ -2,13 +2,13 @@
 
 **see** [[optimization]], [[curve]]
 
-&mdash; <https://youtu.be/vIFKGFl1Cn8>
+--- <https://youtu.be/vIFKGFl1Cn8>
 
-except it doesn't really work &mdash; Kiera
+except it doesn't really work --- Kiera
 
 <https://www.desmos.com/calculator/eqhyj44th9>
 
-> **procedure** [[curve fitting]] can be achieved by choosing a model for the data (such as a [[polynomial]] or [[exponent]]ial [[function]]) and a [[loss function]] that measures how well the model fits the data. the parameters of the model can then be optimized using [[gradient#descent]] &mdash; <https://youtu.be/vIFKGFl1Cn8>
+> **procedure** [[curve fitting]] can be achieved by choosing a model for the data (such as a [[polynomial]] or [[exponent]]ial [[function]]) and a [[loss function]] that measures how well the model fits the data. the parameters of the model can then be optimized using [[gradient#descent]] --- <https://youtu.be/vIFKGFl1Cn8>
 
 ## Coefficient of Determination
 

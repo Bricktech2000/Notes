@@ -29,12 +29,12 @@ this contrasts with "normal" conversations, which feel like mindless jumps aroun
 **representation** _as a [[stack]] over [[time]], growing to the right_
 
 1. conversation **`0`**
-2. conversation **`0`** &bull; conversation **`1`**
-3. conversation **`0`** &bull; conversation **`1`**
-4. conversation **`0`** &bull; conversation **`1`** &bull; conversation **`2`**
-5. conversation **`0`** &bull; conversation **`1`**
+2. conversation **`0`** - conversation **`1`**
+3. conversation **`0`** - conversation **`1`**
+4. conversation **`0`** - conversation **`1`** - conversation **`2`**
+5. conversation **`0`** - conversation **`1`**
 6. conversation **`0`**
-7. conversation **`0`** &bull; conversation **`3`**
+7. conversation **`0`** - conversation **`3`**
 8. conversation **`0`**
 9. conversation **`0`**
 

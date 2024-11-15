@@ -9,4 +9,4 @@ people seem to confuse _[[reinventing the wheel]]_ and _redesigning the [[car]]_
 
 most would agree [[reinventing the wheel]] is a waste of [[time]]. yet, by spending [[time]] redesigning the [[car]], one might just invent the bicycle and revolutionize transportation
 
-&mdash; me and <https://youtu.be/fQeqsn7JJWA?t=147>
+--- me and <https://youtu.be/fQeqsn7JJWA?t=147>

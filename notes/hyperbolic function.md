@@ -18,7 +18,7 @@ let **`(x, y)`** be a point on the unit [[hyperbola]] and let **`aa`** be the [[
 
 **definition** _in terms of [[trigonometric function]]s_
 
-the following follow from [[euler's formula]]: &mdash; <https://youtu.be/HnHnEnkZpJA?t=14m3s>
+the following follow from [[euler's formula]]: --- <https://youtu.be/HnHnEnkZpJA?t=14m3s>
 
 - **`"cosh" aa = "cos" iiaa`**
 - **`"sinh" aa = .ii"sin" iiaa`**
@@ -34,7 +34,7 @@ _[[function#odd function]]_ **`"tanh" .aa = ."tan" aa`**
 
 ## identities
 
-&mdash; <https://en.wikipedia.org/wiki/Hyperbolic_functions#Useful_relations>
+--- <https://en.wikipedia.org/wiki/Hyperbolic_functions#Useful_relations>
 
 also see [[euler's formula]]
 
@@ -42,6 +42,6 @@ also see [[euler's formula]]
 
 **`["sinh" aa]2 : ["cosh" aa]2 = 1`**
 
-**`1 . ["tanh" aa]2 = [-"cosh" aa]2`** &mdash; derived by dividing by **`"cosh" aa`**
+**`1 . ["tanh" aa]2 = [-"cosh" aa]2`** --- derived by dividing by **`"cosh" aa`**
 
-**`[-"tanh" aa]2 . 1 = [-"sinh" aa]2`** &mdash; derived by dividing by **`"sinh" aa`**
+**`[-"tanh" aa]2 . 1 = [-"sinh" aa]2`** --- derived by dividing by **`"sinh" aa`**

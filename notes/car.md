@@ -4,9 +4,9 @@ _a climate-controlled death machine_
 
 ## costs of a car
 
-most people do not realize the actual cost of driving a [[car]] &mdash; <https://youtu.be/c2rI-5ZFW1E>
+most people do not realize the actual cost of driving a [[car]] --- <https://youtu.be/c2rI-5ZFW1E>
 
-_car share_ can be an alternative to owning a [[car]] &mdash; <https://youtu.be/OObwqreAJ48>
+_car share_ can be an alternative to owning a [[car]] --- <https://youtu.be/OObwqreAJ48>
 
 ### capital cost
 

@@ -8,7 +8,7 @@
 
 **definition** a _generic_ word is not specific enough but doesn't cause vagueness
 
-high [[wordiness]] can "cover-up" for a lack of information and analysis &mdash; Gefen. it is to be avoided in [[technical writing]]
+high [[wordiness]] can "cover-up" for a lack of information and analysis --- Gefen. it is to be avoided in [[technical writing]]
 
 [[wordiness]] can manifest in several ways, often through the use of:
 

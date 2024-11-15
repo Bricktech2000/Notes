@@ -8,9 +8,9 @@
 
 money is:
 
-- a _medium of exchange_ &mdash; an item that buyers give to sellers when they want to purchase [[goods and services]]
-- a _unit of account_ &mdash; a yardstick people use to post prices and record debts
-- a _store of value_ &mdash; an item that people can use to transfer purchasing power from the present to the future
+- a _medium of exchange_---an item that buyers give to sellers when they want to purchase [[goods and services]]
+- a _unit of account_---a yardstick people use to post prices and record debts
+- a _store of value_---an item that people can use to transfer purchasing power from the present to the future
 
 ## types of money
 

@@ -10,4 +10,4 @@ _cells that carry out the [[brain]]'s major functions_
 
 **representation**
 
-![](20220920201920.png) &mdash; <https://www.hopkinsmedicine.org/health/conditions-and-diseases/anatomy-of-the-brain>
+![](20220920201920.png) --- <https://www.hopkinsmedicine.org/health/conditions-and-diseases/anatomy-of-the-brain>

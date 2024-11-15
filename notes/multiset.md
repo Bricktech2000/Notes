@@ -14,7 +14,7 @@
 
 ## Multiplicity
 
-**definition** the _multiplicity_ of a member of a [[multiset]] is the number of times it appears in the [[multiset]] &mdash; Wikipedia
+**definition** the _multiplicity_ of a member of a [[multiset]] is the number of times it appears in the [[multiset]] --- Wikipedia
 
 > **example** in the [[polynomial]] **`[x.1]2`**, the [[multiplicity]] of the [[function#root]] **`1`** is **`2`**
 

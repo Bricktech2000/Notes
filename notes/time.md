@@ -1,6 +1,6 @@
 # Time
 
-_our most valuable asset_ &mdash; <https://youtu.be/wp7Lz1svVro?t=17886>
+_our most valuable asset_ --- <https://youtu.be/wp7Lz1svVro?t=17886>
 
 **see** [[math notation]], [[productivity]]
 
@@ -10,9 +10,9 @@ _our most valuable asset_ &mdash; <https://youtu.be/wp7Lz1svVro?t=17886>
 
 _time as a commodity_
 
-> **resource** Randy Pausch on equating [[time]] with [[money]] &mdash; <https://youtu.be/oTugjssqOT0?t=354>
+> **resource** Randy Pausch on equating [[time]] with [[money]] --- <https://youtu.be/oTugjssqOT0?t=354>
 
-> **resource** actionable advice for [[time]] management, talk by Randy Pausch &mdash; <https://youtu.be/oTugjssqOT0>
+> **resource** actionable advice for [[time]] management, talk by Randy Pausch --- <https://youtu.be/oTugjssqOT0>
 
 [[time]] and [[money]] are highly equatable. many fail to understand the value of their [[time]], throwing away hours to save a few dollars
 

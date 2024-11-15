@@ -1,6 +1,6 @@
 # Jacobian
 
-&mdash; <https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant>
+--- <https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant>
 
 **see** [[math notation]], [[calculus]], [[derivative#partial derivative]], [[gradient]]
 

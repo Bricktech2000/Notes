@@ -4,7 +4,7 @@
 
 **see** [[sigmoid function]]
 
-> **note** using the [[sigmoid function]] as an [[activation function]] is old-school. the [[activation function#relu function]] is now preferred &mdash; <https://youtu.be/aircAruvnKk?t=1034>
+> **note** using the [[sigmoid function]] as an [[activation function]] is old-school. the [[activation function#relu function]] is now preferred --- <https://youtu.be/aircAruvnKk?t=1034>
 
 ## ReLU Function
 
@@ -21,7 +21,7 @@ def ReLU(x):
   return np.maximum(0, x)
 ```
 
-&mdash; <https://www.sharpsightlabs.com/blog/numpy-relu/>
+--- <https://www.sharpsightlabs.com/blog/numpy-relu/>
 
 **representation**
 
@@ -50,7 +50,7 @@ def TANH(x):
 
 _for getting a [[probability distribution]] out_
 
-&mdash; <https://youtu.be/p-6wUOXaVqs>
+--- <https://youtu.be/p-6wUOXaVqs>
 
 **see** [[euler's constant]]
 

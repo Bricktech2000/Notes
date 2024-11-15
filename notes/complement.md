@@ -4,11 +4,11 @@
 
 _used to simplify subtraction by instead performing addition with the number's complement_
 
-it is one of the ways of representing negative [[number]]s in [[digital system]]s and is usually preferred over [[sign-magnitude notation]]
+it is one of the ways of representing negative [[number]]s in [[digital system]]s and is usually preferred over [[sign--magnitude notation]]
 
 there are two different [[complement]]s for a given [[positional numeral system]], outlined below
 
-&mdash; <https://www.quora.com/In-computing-what-is-16-s-complement-Why-is-it-used>
+--- <https://www.quora.com/In-computing-what-is-16-s-complement-Why-is-it-used>
 
 ## Radix Complement
 
@@ -36,9 +36,9 @@ _2's [[complement]] in base 2, 16's [[complement]] in base 16_
 
 > **note** the [[complement#radix complement]] of an [[integer]] can be thought of as its representation in a [[positional numeral system]] where the most significant digit is assigned a negative weight. for example, **`1011`**, the 2's complement of **`5`**, can be interpreted as **`(..8) : 2 : 1 = ..5`**
 
-**equiv** _modular arithmetic_ [[complement#radix complement]]s can be thought of as modular arithmetic where the **`n`**'s complement of an [[integer]] **`A`** of **`p`** bits is the [[integer]] **`B`** such that **`"mod" [n]p {A : B = 0}`** &mdash; me and <https://mabi.tmpinc.io/numbers/>
+**equiv** _modular arithmetic_ [[complement#radix complement]]s can be thought of as modular arithmetic where the **`n`**'s complement of an [[integer]] **`A`** of **`p`** bits is the [[integer]] **`B`** such that **`"mod" [n]p {A : B = 0}`** --- me and <https://mabi.tmpinc.io/numbers/>
 
-**equiv** _truncated [[p-adic]]s_ [[complement#radix complement]]s can be thought of as truncated **`2`**-adic numbers &mdash; me and <https://mabi.tmpinc.io/numbers/>:
+**equiv** _truncated [[p-adic]]s_ [[complement#radix complement]]s can be thought of as truncated **`2`**-adic numbers --- me and <https://mabi.tmpinc.io/numbers/>:
 
 - `00000010.` is close to **`2`** with respect to **both** the **`2`**-adic metric and the real metric; `11111110.` is close to **`..2`** with respect to **only** the **`2`**-adic metric. consequently, their sum `100000000.` is close to **`0`** with respect to **only** the **`2`**-adic metric
 - `00000001.` is close to **`3-3`** with respect to **both** the **`2`**-adic metric and the real metric; `.01010101` is close to **`1-3`** with respect to **only** the real metric. consequently, their sum `00000001.01010101` is close to **`4-3`** with respect to **only** the real metric

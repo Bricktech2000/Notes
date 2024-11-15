@@ -2,9 +2,9 @@
 
 **see** [[vector]], [[euclidean vector]], [[matrix]], [[math notation]]
 
-&mdash; <http://neuralnetworksanddeeplearning.com/chap2.html#the_hadamard_product_$s_\odot_t$>
+--- <http://neuralnetworksanddeeplearning.com/chap2.html#the_hadamard_product_$s_\odot_t$>
 
-&mdash; <https://en.wikipedia.org/wiki/Hadamard_product_(matrices)#Properties>
+--- <https://en.wikipedia.org/wiki/Hadamard_product_(matrices)#Properties>
 
 **definition** the [[hadamard product]] of **`s`** and **`t`** is **`st`**, where **`s`** and **`t`** have the same rank and the same shape. see [[polymorphism#rank polymorphism]]
 

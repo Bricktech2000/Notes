@@ -56,7 +56,7 @@ let **`0 -| g x -| f x`** on an [[interval]] **`a {-|/\+} * {-|/\+} b`**, where 
 
 ### p-test
 
-&mdash; <https://youtu.be/TKIdC847K3k>
+--- <https://youtu.be/TKIdC847K3k>
 
 **theorem** _P-Test_
 
@@ -67,4 +67,4 @@ the [[integral]] **`$ --[x]p | dd x {@@ . 1}`**:
 
 ## Numerical Integration
 
-the definite [[integral]] of a [[function]] can be estimated by the [[monte carlo method]] by generating a finite number of random points and calculating the ratio between the number of points under the [[function]] and the total number of points &mdash; <https://youtu.be/rUxP7TM8-wo?t=2925>. the accuracy of such an [[algorithm]] can be measured through [[inferential statistics]]
+the definite [[integral]] of a [[function]] can be estimated by the [[monte carlo method]] by generating a finite number of random points and calculating the ratio between the number of points under the [[function]] and the total number of points --- <https://youtu.be/rUxP7TM8-wo?t=2925>. the accuracy of such an [[algorithm]] can be measured through [[inferential statistics]]

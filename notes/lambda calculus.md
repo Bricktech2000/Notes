@@ -1,20 +1,20 @@
 # Lambda Calculus
 
-**aka** _&lambda;-calculus_
+**aka** _λ-calculus_
 
 **see** [[combinatory logic]], [[recursion]]
 
-> **resource** _SSA is Functional Programming_ "SSA is just another name for [[lambda calculus]]" &mdash; <https://www.cs.princeton.edu/~appel/papers/ssafun.pdf> &mdash; <https://crypto.stanford.edu/~blynn/compiler/lambda.html>
+> **resource** _SSA is Functional Programming_ "SSA is just another name for [[lambda calculus]]" --- <https://www.cs.princeton.edu/~appel/papers/ssafun.pdf> --- <https://crypto.stanford.edu/~blynn/compiler/lambda.html>
 
-**definition** _&beta;-reduction_ is the process of replacing bound variables with the argument to an abstraction
+**definition** _β-reduction_ is the process of replacing bound variables with the argument to an abstraction
 
-**definition** a &lambda;-term is in _&beta;-normal form_ if it cannot be _&beta;-reduced_ any further
+**definition** a λ-term is in _β-normal form_ if it cannot be _β-reduced_ any further
 
-**definition** _&alpha;-conversion_ is the process of renaming bound variables to avoid name collisions
+**definition** _α-conversion_ is the process of renaming bound variables to avoid name collisions
 
-**definition** two &lambda;-terms are _&alpha;-equivalent_ if and only if one can be converted into the other through _&alpha;-conversion_
+**definition** two λ-terms are _α-equivalent_ if and only if one can be converted into the other through _α-conversion_
 
-> **note** &lambda;-terms can be denoted canonically using De Bruijn indices, eliminating the need for &alpha;-conversion and &alpha;-equivalence &mdash; <https://youtu.be/UUUQp8HvrH0?t=892>
+> **note** λ-terms can be denoted canonically using De Bruijn indices, eliminating the need for α-conversion and α-equivalence --- <https://youtu.be/UUUQp8HvrH0?t=892>
 
 **properties**
 
@@ -26,7 +26,7 @@ the [[lambda calculus]] is the basis for most [[functional programming]] [[progr
 
 ## Syntax
 
-&mdash; <https://youtu.be/IOiZatlZtGU?t=292>
+--- <https://youtu.be/IOiZatlZtGU?t=292>
 
 **see** [[backus-naur form]]
 
@@ -51,13 +51,11 @@ _in my [[math notation]]_
 
 ## Simply Typed Lambda Calculus
 
-**aka** &lambda; &#8407;-calculus
+**properties** --- <https://youtu.be/WHQ-OYFqp5w?t=449>
 
-**properties** &mdash; <https://youtu.be/WHQ-OYFqp5w?t=449>
+every chain of β-reductions of simply typed λ-terms reaches the β-normal form, and so every program in the simply typed λ-calculus is terminating. consequently, it is not [[turing complete]]
 
-every chain of &beta;-reductions of &lambda; &#8407;-terms reaches the &beta;-normal form, and so every program in the &lambda; &#8407;-calculus is terminating. consequently, it is not [[turing complete]]
-
-self-application is not typeable in the &lambda; &#8407;-calculus. consequently, [[recursion]] is impossible
+self-application is not typeable in the simply typed λ-calculus. consequently, [[recursion]] is impossible
 
 ### Syntax
 
@@ -83,25 +81,25 @@ _application_ $\displaystyle\frac{\Gamma \vdash e_1 : \sigma \to \tau \quad \Gam
 
 _abstraction_ $\displaystyle\frac{\Gamma, x : \sigma \vdash e : \tau}{\Gamma \vdash (\lambda x : \sigma.\ e) : (\sigma \to \tau)}$
 
-&mdash; <https://youtu.be/knD_5pBCmuI?t=621>
+--- <https://youtu.be/knD_5pBCmuI?t=621>
 
-&mdash; <https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus#Typing_rules>
+--- <https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus#Typing_rules>
 
-### &mdash;
+### ---
 
-&mdash; <https://youtu.be/UUUQp8HvrH0>
+--- <https://youtu.be/UUUQp8HvrH0>
 
-&mdash; <https://youtu.be/knD_5pBCmuI>
+--- <https://youtu.be/knD_5pBCmuI>
 
-&mdash; <https://youtu.be/WHQ-OYFqp5w>
+--- <https://youtu.be/WHQ-OYFqp5w>
 
-&mdash; <https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus>
+--- <https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus>
 
 ---
 
 # Constructions
 
-&mdash; _Church Encoding of Data Types Considered Harmful for Implementations_ <https://ifl2014.github.io/submissions/ifl2014_submission_13.pdf> (though lots of babble and grammar errors and typos)
+--- _Church Encoding of Data Types Considered Harmful for Implementations_ <https://ifl2014.github.io/submissions/ifl2014_submission_13.pdf> (though lots of babble and grammar errors and typos)
 
 ## Non-Recursive Types
 
@@ -124,7 +122,7 @@ we can then define the [[boolean#operator]]s:
 - **`"and" p q = p q p`**
 - **`"or" p q = p p q`**
 
-&mdash; <https://en.wikipedia.org/wiki/Lambda_calculus#Logic_and_predicates>
+--- <https://en.wikipedia.org/wiki/Lambda_calculus#Logic_and_predicates>
 
 ### Pairs
 
@@ -138,7 +136,7 @@ we can then define the [[boolean#operator]]s:
 
 ## Church Encoding
 
-the Church encoding encodes recursive [[type#algebraic data type]]s by building up a generalized fold over the data; see [[reduce function]]. providing a fold [[function]] and a base case to a term &beta;-reduces to the result of a fold over it. however, accessing the data of a recursive variant is tricky and generally not of constant time [[computational complexity]]
+the Church encoding encodes recursive [[type#algebraic data type]]s by building up a generalized fold over the data; see [[reduce function]]. providing a fold [[function]] and a base case to a term β-reduces to the result of a fold over it. however, accessing the data of a recursive variant is tricky and generally not of constant time [[computational complexity]]
 
 ### Church Numerals
 
@@ -170,7 +168,7 @@ we can then define:
 
 ## Scott Encoding
 
-&mdash; <https://crypto.stanford.edu/~blynn/compiler/scott.html>
+--- <https://crypto.stanford.edu/~blynn/compiler/scott.html>
 
 the Scott encoding encodes recursive [[type#algebraic data type]]s in the obvious way, building a decision tree of sorts. folding over a term requires explicit external [[recursion]], say by using a fixed-point combinator such as the [[combinator#y combinator]]. that said, accessing the data of a recursive variant is trivial and of constant time [[computational complexity]]
 

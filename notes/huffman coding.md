@@ -24,4 +24,4 @@
 
 ![[Pasted image 20230628214746.png]]
 
-&mdash; Wikipedia
+--- Wikipedia

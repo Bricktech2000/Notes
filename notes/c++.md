@@ -1,12 +1,12 @@
 # C++
 
-_bloated [[c]]&hellip; but with [[class]]es!_
+_bloated [[c]]... but with [[class]]es!_
 
 **see** [[c]], [[object-oriented programming]], [[math notation]]
 
 ## an improper superset
 
-&mdash; <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++> &mdash; <https://stackoverflow.com/questions/3777031/what-prevents-c-from-being-a-strict-superset-of-c>
+--- <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++> --- <https://stackoverflow.com/questions/3777031/what-prevents-c-from-being-a-strict-superset-of-c>
 
 [[c++]] is not a [[set#superset]] of [[c]]; that is, **`>< /\ "C++" |- "C"`**
 
@@ -58,19 +58,19 @@ _bloated [[c]]&hellip; but with [[class]]es!_
 > }
 > ```
 
-&mdash; <https://en.wikipedia.org/wiki/Duck_typing#Templates_or_generic_types> &mdash; <https://stackoverflow.com/questions/6923299/whats-the-relationship-between-c-template-and-duck-typing>
+--- <https://en.wikipedia.org/wiki/Duck_typing#Templates_or_generic_types> --- <https://stackoverflow.com/questions/6923299/whats-the-relationship-between-c-template-and-duck-typing>
 
-&mdash; <https://www.reddit.com/r/cpp/comments/139c2v1/whats_the_most_hilarious_use_of_operator/>
+--- <https://www.reddit.com/r/cpp/comments/139c2v1/whats_the_most_hilarious_use_of_operator/>
 
 ## undecidability of grammar
 
 parsing the [[c++]] grammar is undecidable
 
-> **resource** [[proof]] sketch of [[turing complete]]ness of [[c++]] templates &mdash; <https://port70.net/~nsz/c/c%2B%2B/turing.pdf>
+> **resource** [[proof]] sketch of [[turing complete]]ness of [[c++]] templates --- <https://port70.net/~nsz/c/c%2B%2B/turing.pdf>
 
 > **proof**
 >
-> &mdash; <https://blog.reverberate.org/2013/08/parsing-c-is-literally-undecidable.html>
+> --- <https://blog.reverberate.org/2013/08/parsing-c-is-literally-undecidable.html>
 >
 > consider the following [[c++]] program:
 >
@@ -99,4 +99,4 @@ parsing the [[c++]] grammar is undecidable
 > - if `TuringMachine<...>::output` is `SomeType` then `::name` is an [[integer]] and the [[syntax tree]] is the multiplication of two [[integer]]s
 > - if `TuringMachine<...>::output` is not `SomeType` then `::name` is a `typedef` for the [[integer]] [[type]] and the [[syntax tree]] is the declaration of the pointer-to-int `x`
 >
-> _These two are completely different parse trees, and the difference between them cannot be delayed to further stages of the compiler. The parse tree **itself** depends on arbitrary template instantiation, and is therefore the parsing step is undecidable_ &mdash; <https://blog.reverberate.org/2013/08/parsing-c-is-literally-undecidable.html>
+> _These two are completely different parse trees, and the difference between them cannot be delayed to further stages of the compiler. The parse tree **itself** depends on arbitrary template instantiation, and is therefore the parsing step is undecidable_ --- <https://blog.reverberate.org/2013/08/parsing-c-is-literally-undecidable.html>

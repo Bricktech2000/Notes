@@ -24,4 +24,4 @@ the **`Y_\*`** component of [[ycbcr]] represents [[luma]] and the **`C_B`** and 
 
 ![[Pasted image 20230619162253.png]]
 
-&mdash; <https://youtu.be/0me3guauqOU?t=327>
+--- <https://youtu.be/0me3guauqOU?t=327>

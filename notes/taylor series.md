@@ -8,9 +8,9 @@ _allows for the approximation of a [[function]] near a point by a [[polynomial]]
 >
 > as an example, the [[taylor series]] of the [[function]] **`/x\`** at **`a = 1`** has a radius of convergence of **`1`**, meaning the [[taylor series]] only converges to the [[function]] on the [[interval]] **`0 {-|/\+} * -| 2`**
 >
-> &mdash; <https://youtu.be/X0razs3zR94>
+> --- <https://youtu.be/X0razs3zR94>
 
-> **note** a [[taylor series]] with a nonzero radius of convergence does **not** necessarily converge to the [[function]] it approximates. for this to be the case, the [[function]] must be a [[function#analytic function]] &mdash; <https://youtu.be/X0razs3zR94> and <https://youtu.be/7gigNsz4Oe8?t=21781>
+> **note** a [[taylor series]] with a nonzero radius of convergence does **not** necessarily converge to the [[function]] it approximates. for this to be the case, the [[function]] must be a [[function#analytic function]] --- <https://youtu.be/X0razs3zR94> and <https://youtu.be/7gigNsz4Oe8?t=21781>
 >
 > [[taylor series#remainder]]s can be used to determine whether a [[taylor series]] converges to its underlying [[function]] or not.
 
@@ -26,7 +26,7 @@ we then derive the following definition:
 
 **`d^n f = d^n.1 (x -> dd f x -- dd x) /\ d^0 f = f`**, see [[derivative]]
 
-> **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=17431>
+> **proof** --- <https://youtu.be/7gigNsz4Oe8?t=17431>
 
 intuitive explanation: <https://youtu.be/3d6DsjIBzJ4?t=383>
 
@@ -59,7 +59,7 @@ intuitive explanation: <https://youtu.be/3d6DsjIBzJ4?t=383>
 
 **theorem** the [[taylor series]] **`T f x`** converges to **`f x`** in an [[interval]] **`I`** if and only if **`R_Tf^@@ x = 0 > I x`**
 
-> **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=22042>
+> **proof** --- <https://youtu.be/7gigNsz4Oe8?t=22042>
 
 **theorem** _Taylor's Inequality #magic_ **`"abs" ((d^n f) x) -| M /\ RR M /\ NN n > "abs" (x.a) -| d /\ RR a /\ RR d < ("abs" (R_Tf^n.1 x) -| M -- PP n | ["abs" (x.a)]n > "abs" (x.a) -| d)`**
 

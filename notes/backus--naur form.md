@@ -1,10 +1,10 @@
-# Backus-Naur Form
+# Backus--Naur Form
 
 _a notation to describe the syntax and grammar of a [[programming language]]_
 
-&mdash; <https://youtu.be/4m7ubrdbWQU?t=365>
+--- <https://youtu.be/4m7ubrdbWQU?t=365>
 
-&mdash; <https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form>
+--- <https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form>
 
 > **example**
 >

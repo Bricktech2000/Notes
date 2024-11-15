@@ -1,10 +1,10 @@
 # Dependency Graph
 
-&mdash; Wikipedia
+--- Wikipedia
 
 **see** [[graph]]
 
-**definition** a _dependency graph_ is a (directed) [[graph]] whose edges represent some notion of dependency &mdash; me
+**definition** a _dependency graph_ is a (directed) [[graph]] whose edges represent some notion of dependency --- me
 
 the [[relation#transitive closure]] of a [[dependency graph]] gives a [[relation]] that encodes transitive dependencies
 

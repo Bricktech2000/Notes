@@ -1,13 +1,13 @@
 # Goodhart's Law
 
-&mdash; <https://youtu.be/zUm3fKk00J8?t=18867>
+--- <https://youtu.be/zUm3fKk00J8?t=18867>
 
-&mdash; <https://en.wikipedia.org/wiki/Goodhart%27s_law>
+--- <https://en.wikipedia.org/wiki/Goodhart%27s_law>
 
 **see** [[system over goal]]
 
-_when a measure becomes a target, it ceases to be a good measure_ &mdash; Charles Goordhart
+_when a measure becomes a target, it ceases to be a good measure_ --- Charles Goordhart
 
-_measures_ are [[proxy]]es for what they measure &mdash; me. however, any observed statistical regularity will tend to collapse once pressure is placed upon them for control purposes &mdash; Wikipedia
+_measures_ are [[proxy]]es for what they measure --- me. however, any observed statistical regularity will tend to collapse once pressure is placed upon them for control purposes --- Wikipedia
 
 > **examples** grades and GPAs, "Leetcode" interviews

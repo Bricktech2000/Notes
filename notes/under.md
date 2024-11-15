@@ -8,14 +8,14 @@ _X [[under]] Y_ is the answer to the question _what's the transformation that, w
 
 > **examples**
 >
-> - "setup" moves in cubing &mdash; <https://youtu.be/rZiDvDGHfe8&t=243>
-> - the _under_ modifier in BQN &mdash; <https://mlochbaum.github.io/BQN/doc/under.html> and <https://youtu.be/Hecqsl3GG9s?t=8m57s>
+> - "setup" moves in cubing --- <https://youtu.be/rZiDvDGHfe8&t=243>
+> - the _under_ modifier in BQN --- <https://mlochbaum.github.io/BQN/doc/under.html> and <https://youtu.be/Hecqsl3GG9s?t=8m57s>
 > - solving "word problems" by translating them into equations, solving, then translating back
-> - using [[fourier transform]]s to filter out signal noise &mdash; <https://youtu.be/gAPlRlmhXyI?t=5m28s>
-> - using Laplace transforms to solve differential equations &mdash; <https://youtu.be/1u5Z1oap1g8?t=6m1s>
-> - conjugate elements in [[group theory]] &mdash; <https://en.wikipedia.org/wiki/Conjugacy_class#Definition>
-> - similar [[matrix]]es in [[linear algebra]] &mdash; <https://en.wikipedia.org/wiki/Conjugacy_class#Definition>
-> - a vertical flip under a quarter turn is a horizontal flip &mdash; <https://youtu.be/eLhsyAu7G-U&t=1125>
+> - using [[fourier transform]]s to filter out signal noise --- <https://youtu.be/gAPlRlmhXyI?t=5m28s>
+> - using Laplace transforms to solve differential equations --- <https://youtu.be/1u5Z1oap1g8?t=6m1s>
+> - conjugate elements in [[group theory]] --- <https://en.wikipedia.org/wiki/Conjugacy_class#Definition>
+> - similar [[matrix]]es in [[linear algebra]] --- <https://en.wikipedia.org/wiki/Conjugacy_class#Definition>
+> - a vertical flip under a quarter turn is a horizontal flip --- <https://youtu.be/eLhsyAu7G-U&t=1125>
 > - the Enigma machine. and `f`, the reflector, is a [[function#self-inverse function]] and therefore so is **`uu g f`**
 
 > **examples**

@@ -24,4 +24,4 @@ _[[set]]s of [[number]]s_
             - [[composite]]
           - negative [[integer]]
 
-&mdash; <https://en.wikipedia.org/wiki/Natural_number>
+--- <https://en.wikipedia.org/wiki/Natural_number>

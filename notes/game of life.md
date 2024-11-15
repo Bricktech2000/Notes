@@ -29,10 +29,10 @@ let next_state = match neighbor_count {
 }
 ```
 
-> **note** the [[entropy]] of most starting positions in the [[game of life]] seems to reach a maximum after few generations &mdash; me. slowing the increase in [[entropy]] might lead to noteworthy results
+> **note** the [[entropy]] of most starting positions in the [[game of life]] seems to reach a maximum after few generations --- me. slowing the increase in [[entropy]] might lead to noteworthy results
 
 **representation**
 
 ![[unnamed.gif]]
 
-&mdash; <https://experiments.withgoogle.com/conway-game-of-life>
+--- <https://experiments.withgoogle.com/conway-game-of-life>

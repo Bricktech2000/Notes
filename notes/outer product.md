@@ -2,7 +2,7 @@
 
 _APL-style Outer Product_
 
-&mdash; <https://aplwiki.com/wiki/Outer_Product>
+--- <https://aplwiki.com/wiki/Outer_Product>
 
 **see** [[polymorphism#rank polymorphism]]
 
@@ -14,6 +14,6 @@ _APL-style Outer Product_
 
 ## Conventional Outer Product
 
-&mdash; <https://en.wikipedia.org/wiki/Outer_product>
+--- <https://en.wikipedia.org/wiki/Outer_product>
 
 **definition** the [[outer product#conventional outer product]] of **`a`** and **`b`** is **`a * | b *`**

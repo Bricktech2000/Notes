@@ -2,9 +2,9 @@
 
 **see** [[mental illness]]
 
-> **resource** crash course on [[psychopathy]] and [[sociopathy]] &mdash; <https://www.youtube.com/watch?v=gpjYtAB9i2w>
+> **resource** crash course on [[psychopathy]] and [[sociopathy]] --- <https://www.youtube.com/watch?v=gpjYtAB9i2w>
 
-> **note** [[antisocial personality disorder]] is one of the most unfortunately named [[mental illness]]es. _antisocial_ in this context means _against society_ and **not** _socially awkward_ &mdash; <https://youtu.be/gpjYtAB9i2w?t=444>
+> **note** [[antisocial personality disorder]] is one of the most unfortunately named [[mental illness]]es. _antisocial_ in this context means _against society_ and **not** _socially awkward_ --- <https://youtu.be/gpjYtAB9i2w?t=444>
 
 _[[antisocial personality disorder]]_ is the diagnostic term for [[mental illness]]es often referred to as _[[psychopathy]]c personality disorder_ and _[[sociopathy]]c personality disorder_. [[psychopathy]] and [[sociopathy]] have a lot of overlap
 
@@ -20,7 +20,7 @@ people with an [[antisocial personality disorder]]:
 
 ## Biological Model
 
-&mdash; <https://youtu.be/gpjYtAB9i2w?t=3485>
+--- <https://youtu.be/gpjYtAB9i2w?t=3485>
 
 there is a belief that people with [[antisocial personality disorder]]s have lower [[autonomic nervous system]] arousal. this means that under conditions of fear or threat, they don't get as aroused. it is believed that this [[autonomic nervous system]] under-arousal could be inherited
 

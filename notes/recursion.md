@@ -2,7 +2,7 @@
 
 **see** [[recursion]]
 
-**definition** _recursion_ is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem &mdash; Wikipedia
+**definition** _recursion_ is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem --- Wikipedia
 
 > **example** _common recursion pattern_
 >
@@ -12,7 +12,7 @@
 >
 > > **note** invariants are used in recursive [[algorithm]]s that must mutate their parameters to work properly. this is the reason why invariant parameters must be restored before exiting the [[function]]
 >
-> &mdash; <https://youtu.be/jUM_Dpt6yu0?t=477>
+> --- <https://youtu.be/jUM_Dpt6yu0?t=477>
 
 ## General Recursion
 
@@ -22,4 +22,4 @@ any [[algorithm]] that uses [[recursion]] can be represented as repeated [[funct
 
 **`"rec" f = f ("rec" f)`**, which evaluates to **`f (f (f (f ...)))`**
 
-&mdash; <https://youtu.be/9T8A89jgeTI?t=482>
+--- <https://youtu.be/9T8A89jgeTI?t=482>

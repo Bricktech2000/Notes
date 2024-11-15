@@ -2,7 +2,7 @@
 
 **see** [[math notation]]
 
-**definition** an _ideal gas_ is a theoretical gas composed of many randomly moving point particles that are not subject to interparticle interactions &mdash; Wikipedia
+**definition** an _ideal gas_ is a theoretical gas composed of many randomly moving point particles that are not subject to interparticle interactions --- Wikipedia
 
 ## Law
 
@@ -18,7 +18,7 @@ _[[ideal gas#law]]_
 
 ## Dalton's Law
 
-**definition** _Dalton's law_ states that in a mixture of non-reacting gases, the total [[pressure]] exerted is equal to the sum of the partial [[pressure]]s of the individual gases &mdash; Wikipedia
+**definition** _Dalton's law_ states that in a mixture of non-reacting gases, the total [[pressure]] exerted is equal to the sum of the partial [[pressure]]s of the individual gases --- Wikipedia
 
 **definition**
 

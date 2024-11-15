@@ -22,7 +22,7 @@
 >
 > **`dd x. a[x] = (x. [x/a\]) | dd x. x/a\ = x. a[x]/a\`**
 >
-> &mdash; me
+> --- me
 
 ### derived shortcuts
 
@@ -38,7 +38,7 @@
 
 **`dd x. /x\ = x. --x`**
 
-> **proof** &mdash; <https://youtu.be/qb40J4N1fa4?t=762>
+> **proof** --- <https://youtu.be/qb40J4N1fa4?t=762>
 
 **`dd x. /"abs" x\ = --x`**
 
@@ -48,7 +48,7 @@
 
 **`$ x. --x = /"abs" x\ : c x`** where **`c x = {c_0, c_1} (x -| 0)`**
 
-> **proof** &mdash; <https://youtu.be/u4kex7hDC2o>
+> **proof** --- <https://youtu.be/u4kex7hDC2o>
 
 ## constant multiple rule
 
@@ -94,4 +94,4 @@ if **`c`** is a scalar and **`f`** is differentiable, then
 
 **``dd `f = --(dd f \\ `f)``** #todo inv
 
-> **proof** derive from the chain rule, **`dd f``f = dd (*) = .1`** #todo inv #todo id &mdash; me
+> **proof** derive from the chain rule, **`dd f``f = dd (*) = .1`** #todo inv #todo id --- me

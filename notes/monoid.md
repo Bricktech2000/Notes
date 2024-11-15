@@ -8,7 +8,7 @@
 
 it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] under [an [[operator]]]_. for example, _[[natural]]s with **`0`** form a [[monoid]] under addition_
 
-**definition** a [[monoid]] is a finite or infinite [[set]] equipped with a closed associative binary operation and an identity element &mdash; Wikipedia
+**definition** a [[monoid]] is a finite or infinite [[set]] equipped with a closed associative binary operation and an identity element --- Wikipedia
 
 **definition**
 
@@ -20,9 +20,9 @@ _identity element_ **`a \* I = a /\ S I`**
 
 _closure_ **`S (a \* b)`**
 
-&mdash; Wikipedia
+--- Wikipedia
 
-&mdash; <https://youtu.be/Nrp_LZ-XGsY?t=1041>
+--- <https://youtu.be/Nrp_LZ-XGsY?t=1041>
 
 **applications**
 
@@ -47,7 +47,7 @@ _identity element_ allows for the binary operation to be used when data is empty
 
 ## Free Monoid
 
-&mdash; <https://en.wikipedia.org/wiki/Free_monoid>
+--- <https://en.wikipedia.org/wiki/Free_monoid>
 
 **see** [[semigroup#free semigroup]]
 
@@ -57,7 +57,7 @@ _identity element_ allows for the binary operation to be used when data is empty
 
 **definition** $S^* = S^+ \cup \{\epsilon\}$, see [[semigroup#free semigroup]]
 
-> **note** $\{\epsilon\}^+ = \{\epsilon\}$ and therefore it is not always the case that $S^* = S^+ \sqcup \{\epsilon\}$, see [[set#disjoint union]] &mdash; <https://cs.stackexchange.com/questions/35600/kleene-star-and-kleene-plus>
+> **note** $\{\epsilon\}^+ = \{\epsilon\}$ and therefore it is not always the case that $S^* = S^+ \sqcup \{\epsilon\}$, see [[set#disjoint union]] --- <https://cs.stackexchange.com/questions/35600/kleene-star-and-kleene-plus>
 
 **equiv** _`*` operator in [[regular expression]]s_
 
@@ -67,7 +67,7 @@ the [[monoid#free monoid]] [[operator]] is a [[function#idempotent function]]
 
 ## Homomorphism
 
-&mdash; <https://en.wikipedia.org/wiki/Monoid#Monoid_homomorphisms>
+--- <https://en.wikipedia.org/wiki/Monoid#Monoid_homomorphisms>
 
 **see** [[morphism#homomorphism]]
 

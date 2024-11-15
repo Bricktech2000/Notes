@@ -2,11 +2,11 @@
 
 **see** [[emulsion]]
 
-**definition** a _colloid_ is a mixture in which one substance of microscopically dispersed insoluble particles is suspended throughout another substance &mdash; <https://en.wikipedia.org/wiki/Colloid>
+**definition** a _colloid_ is a mixture in which one substance of microscopically dispersed insoluble particles is suspended throughout another substance --- <https://en.wikipedia.org/wiki/Colloid>
 
 > **examples**
 >
-> - milk &mdash; liquid dispersed in liquid
-> - fog &mdash; liquid dispersed in gas
-> - smoke &mdash; solid dispersed in gas
-> - aerogel &mdash; gas dispersed in solid
+> - milk --- liquid dispersed in liquid
+> - fog --- liquid dispersed in gas
+> - smoke --- solid dispersed in gas
+> - aerogel --- gas dispersed in solid

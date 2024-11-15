@@ -1,10 +1,10 @@
 # Information Theory
 
-&mdash; <https://www.youtube.com/@JakobFoerster/videos>
+--- <https://www.youtube.com/@JakobFoerster/videos>
 
-&mdash; <https://youtu.be/B3y0RsVCyrw>
+--- <https://youtu.be/B3y0RsVCyrw>
 
-> **resource** lectures for introduction to [[information theory]] &mdash; <https://www.youtube.com/@JakobFoerster/videos>
+> **resource** lectures for introduction to [[information theory]] --- <https://www.youtube.com/@JakobFoerster/videos>
 
 **see**
 

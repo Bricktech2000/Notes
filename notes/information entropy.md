@@ -1,6 +1,6 @@
 # Information Entropy
 
-&mdash; <https://en.wikipedia.org/wiki/Entropy_(information_theory)>
+--- <https://en.wikipedia.org/wiki/Entropy_(information_theory)>
 
 **see** [[entropy]], [[math notation]]
 

@@ -12,10 +12,10 @@
 
 functional languages support [[first-class function]]s
 
-## &mdash;
+## ---
 
-&mdash; <https://youtu.be/Nrp_LZ-XGsY>
+--- <https://youtu.be/Nrp_LZ-XGsY>
 
-&mdash; <https://youtu.be/srQt1NAHYC0>
+--- <https://youtu.be/srQt1NAHYC0>
 
-&mdash; <https://youtu.be/c_F1o_so2MQ>
+--- <https://youtu.be/c_F1o_so2MQ>

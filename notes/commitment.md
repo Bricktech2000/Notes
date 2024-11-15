@@ -15,4 +15,4 @@ not fulfilling a [[commitment]] is a breach of [[integrity]]
 > - licensing an open-source project with GPL so your company can't make it proprietary somewhere down the line
 > - signing up to the military to force yourself to become disciplined and put your life back together
 
-&mdash; Wikipedia
+--- Wikipedia

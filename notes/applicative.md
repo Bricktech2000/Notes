@@ -21,9 +21,9 @@ an [[applicative]]:
 
 ## Laws
 
-&mdash; <https://youtu.be/caSOTjr1z18?t=20m43s>
+--- <https://youtu.be/caSOTjr1z18?t=20m43s>
 
-&mdash; <https://en.m.wikibooks.org/wiki/Haskell/Applicative_functors>
+--- <https://en.m.wikibooks.org/wiki/Haskell/Applicative_functors>
 
 ```haskell
 pure id <*> v = v -- identity
@@ -32,10 +32,10 @@ u <*> pure y = pure ($ y) <*> u -- interchange
 pure (.) <*> u <*> v <*> w = u <*> (v <*> w) -- composition
 ```
 
-## &mdash;
+## ---
 
-&mdash; <https://youtu.be/s5S2Ed5T-dc?t=571>
+--- <https://youtu.be/s5S2Ed5T-dc?t=571>
 
-&mdash; <https://thedet.wordpress.com/2012/04/28/functors-monads-applicatives-can-be-so-simple/>
+--- <https://thedet.wordpress.com/2012/04/28/functors-monads-applicatives-can-be-so-simple/>
 
-&mdash; <https://youtu.be/Y0KKPYkeOTA?t=501>
+--- <https://youtu.be/Y0KKPYkeOTA?t=501>

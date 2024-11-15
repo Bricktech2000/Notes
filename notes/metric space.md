@@ -1,12 +1,12 @@
 # Metric Space
 
-&mdash; <https://en.wikipedia.org/wiki/Metric_space>
+--- <https://en.wikipedia.org/wiki/Metric_space>
 
-&mdash; <https://youtu.be/vdjYiU6skgE>
+--- <https://youtu.be/vdjYiU6skgE>
 
 **see** [[math notation]]
 
-**definition** a _metric space_ is a [[set]] together with a notion of [[distance]] between its element, referred to as a _metric_ between its _points_ &mdash; Wikipedia
+**definition** a _metric space_ is a [[set]] together with a notion of [[distance]] between its element, referred to as a _metric_ between its _points_ --- Wikipedia
 
 > **examples**
 >
@@ -67,7 +67,7 @@ _triangle inequality_ **`d x z -| d x y : d y z`**
 
 ### Completion
 
-&mdash; <http://sites.iiserpune.ac.in/~supriya/teaching/Topology-MTH322/files/Completion.pdf>
+--- <http://sites.iiserpune.ac.in/~supriya/teaching/Topology-MTH322/files/Completion.pdf>
 
 **definition** the _completion_ of a [[metric space]] **`M`** is the [[metric space#complete metric space]] **`M_*`** with a [[set#superset]] of the points of **`M`** and the same [[metric space#metric]] as **`M`**
 

@@ -26,6 +26,6 @@ you failed, so what? think about all the walls you powered through and all the m
 
 as a side note, the [[goal]]s one sets must **feel achievable**. about half must be achieved, while the other must not. this ensures the full commitment of the subject to the goal. if the [[goal]]s one sets feel out of reach, the accomplishment-to-failure ratio must be increased to avoid burnout or feelings of powerlessness.
 
-&mdash; Grace Campbell
+--- Grace Campbell
 
-&mdash; <https://youtu.be/Olzc15hIcyI>
+--- <https://youtu.be/Olzc15hIcyI>

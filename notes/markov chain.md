@@ -10,7 +10,7 @@
 
 ![[20220718005316.png]]
 
-&mdash; Wikipedia
+--- Wikipedia
 
 > **note** there are numbers on the edges of the [[graph]] above that are harder to see in dark mode
 
@@ -18,9 +18,9 @@
 
 certain [[markov chain]]s converge to a _stationary distribution_, which can be computed through [[matrix#multiplication]]
 
-**theorem** an _irreducible_ [[markov chain]] has a unique [[markov chain#stationary distribution]] &mdash; <https://youtu.be/JGQe4kiPnrU>
+**theorem** an _irreducible_ [[markov chain]] has a unique [[markov chain#stationary distribution]] --- <https://youtu.be/JGQe4kiPnrU>
 
-**theorem** _ergodic theorem_ an _irreducible_ and _aperiodic_ [[markov chain]] converges to its unique [[markov chain#stationary distribution]] regardless of the initial state &mdash; <https://youtu.be/JGQe4kiPnrU?t=784>
+**theorem** _ergodic theorem_ an _irreducible_ and _aperiodic_ [[markov chain]] converges to its unique [[markov chain#stationary distribution]] regardless of the initial state --- <https://youtu.be/JGQe4kiPnrU?t=784>
 
 **proceduces**
 
@@ -52,8 +52,8 @@ certain [[markov chain]]s converge to a _stationary distribution_, which can be 
 >
 > it is common to multiply the resulting [[eigen#vector]] **`x`** by a [[scalar]] **`k`** so that **`:kx = 1`**
 >
-> &mdash; <https://youtu.be/EGoRJePORHs?t=551>
+> --- <https://youtu.be/EGoRJePORHs?t=551>
 >
-> &mdash; <https://youtu.be/d9-L2AmngKE>
+> --- <https://youtu.be/d9-L2AmngKE>
 >
-> &mdash; <https://youtu.be/JGQe4kiPnrU>
+> --- <https://youtu.be/JGQe4kiPnrU>

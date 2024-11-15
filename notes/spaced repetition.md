@@ -10,12 +10,12 @@ for [[spaced repetition]] to be most effective, repetitions must be spaced out e
 
 using _spaced repetition software_ eliminates the guesswork and ensures you are studying at the right intervals
 
-> **examples** _apps leveraging spaced repetition_ Anki &bull; Duolingo &bull; Memrise &bull; RemNote &mdash; <https://youtu.be/Kl0RM_9cVzE?t=465> and Pranav
+> **examples** _apps leveraging spaced repetition_ Anki, Duolingo, Memrise, RemNote --- <https://youtu.be/Kl0RM_9cVzE?t=465> and Pranav
 
-## &mdash;
+## ---
 
-&mdash; <https://youtu.be/UEJmgaFQUH8>
+--- <https://youtu.be/UEJmgaFQUH8>
 
-&mdash; <https://youtu.be/Z-zNHHpXoMM>
+--- <https://youtu.be/Z-zNHHpXoMM>
 
-&mdash; <https://youtu.be/fBXnxlLR0PY>
+--- <https://youtu.be/fBXnxlLR0PY>

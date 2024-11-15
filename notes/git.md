@@ -2,15 +2,15 @@
 
 **see** [[math notation]], [[hash]]
 
-> **resource** talk by Linus Torvalds on the fundamental ideas behind [[git]] &mdash; <https://youtu.be/MjIPv8a0hU8>
+> **resource** talk by Linus Torvalds on the fundamental ideas behind [[git]] --- <https://youtu.be/MjIPv8a0hU8>
 
 ## Data Model
 
-&mdash; <https://missing.csail.mit.edu/2020/version-control/>
+--- <https://missing.csail.mit.edu/2020/version-control/>
 
-&mdash; <https://eagain.net/articles/git-for-computer-scientists/>
+--- <https://eagain.net/articles/git-for-computer-scientists/>
 
-&mdash; <https://youtu.be/u0VotuGzD_w?t=13m49s>
+--- <https://youtu.be/u0VotuGzD_w?t=13m49s>
 
 a [[git]] history is a directed acyclic [[graph]] of snapshots forming a [[persistent data structure]]. **`H a b`** means node **`a`** depends on and cannot exist without node **`b`** in history **`H`**
 

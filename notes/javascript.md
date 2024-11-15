@@ -45,7 +45,7 @@ equality is **not** a [[relation#reflexive relation]] in [[javascript]] because 
 > x == x; // false
 > ```
 
-weak equality is **not** a [[relation#transitive relation]] in [[javascript]] &mdash; <https://youtu.be/vcFBwt1nu2U?t=1290> &mdash; JavaScript: The Good Parts, by Douglas Crockford
+weak equality is **not** a [[relation#transitive relation]] in [[javascript]] --- <https://youtu.be/vcFBwt1nu2U?t=1290> --- JavaScript: The Good Parts, by Douglas Crockford
 
 > **proof**
 >
@@ -59,12 +59,12 @@ weak equality is **not** a [[relation#transitive relation]] in [[javascript]] &m
 > a == c; // false
 > ```
 
-### &mdash;
+### ---
 
-&mdash; <https://youtu.be/5wnlYIQKPXM>
+--- <https://youtu.be/5wnlYIQKPXM>
 
-&mdash; <https://dev.to/royal_bhati/understanding-weird-parts-of-javascript-44o>
+--- <https://dev.to/royal_bhati/understanding-weird-parts-of-javascript-44o>
 
-&mdash; <https://youtu.be/qC_ioJQpv4E?t=2760>
+--- <https://youtu.be/qC_ioJQpv4E?t=2760>
 
-&mdash; <https://youtu.be/_CEBG_s92P8?t=646>
+--- <https://youtu.be/_CEBG_s92P8?t=646>

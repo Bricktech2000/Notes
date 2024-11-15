@@ -1,12 +1,12 @@
 # Cue
 
-**see** [[lofi music]] &mdash; me and <https://youtu.be/LE8mNTJOYmQ?t=285>
+**see** [[lofi music]] --- me and <https://youtu.be/LE8mNTJOYmQ?t=285>
 
 **see** [[sleep]], [[habit]]
 
 ## environmental dependency of learning
 
-our behavior is highly dependent on environmental [[cue]]s &mdash; <https://youtu.be/IlU-zDU6aQ0?t=867>
+our behavior is highly dependent on environmental [[cue]]s --- <https://youtu.be/IlU-zDU6aQ0?t=867>
 
 one [[trick]] for more efficient [[learning]] and deeper [[focus]] is teaching our mind to associate some specific environment with [[learning]]
 
@@ -21,10 +21,10 @@ _the primary function of a bedroom is [[sleep]]ing. the primary function of a di
 >
 > > **note** Nate O'Brien seems to have accidentally discovered this technique, but with an egg timer: <https://youtu.be/Vca2l0rZM8U?t=305>
 
-## &mdash;
+## ---
 
-&mdash; <https://youtu.be/5Gzv61nYVZI>
+--- <https://youtu.be/5Gzv61nYVZI>
 
-&mdash; <https://youtu.be/SIsCy663mz4>
+--- <https://youtu.be/SIsCy663mz4>
 
-&mdash; <https://youtu.be/zUm3fKk00J8?t=8393>
+--- <https://youtu.be/zUm3fKk00J8?t=8393>

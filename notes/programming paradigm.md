@@ -1,8 +1,8 @@
 # Programming Paradigm
 
-&mdash; <https://youtu.be/agTmccNAXlI>
+--- <https://youtu.be/agTmccNAXlI>
 
-&mdash; <https://youtu.be/QM1iUe6IofM>
+--- <https://youtu.be/QM1iUe6IofM>
 
 [[programming paradigm]]s can be represented as follows:
 

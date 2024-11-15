@@ -1,8 +1,8 @@
 # Probability
 
-&mdash; <https://courses.lumenlearning.com/introstats1/chapter/two-basic-rules-of-probability/>
+--- <https://courses.lumenlearning.com/introstats1/chapter/two-basic-rules-of-probability/>
 
-&mdash; <https://youtu.be/BCiZc0n6COY?t=1884>
+--- <https://youtu.be/BCiZc0n6COY?t=1884>
 
 **see** [[outcome]], [[event]], [[sample space]]
 

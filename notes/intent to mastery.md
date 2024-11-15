@@ -1,6 +1,6 @@
 # Intent to Mastery
 
-&mdash; <https://youtu.be/DMw8G3RPWrQ?t=7038>
+--- <https://youtu.be/DMw8G3RPWrQ?t=7038>
 
 [[intent to mastery]] is a hard-wired core part of our [[brain]]s
 

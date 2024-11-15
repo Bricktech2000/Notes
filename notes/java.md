@@ -26,13 +26,13 @@ java HelloWorld.java
 
 [[java]] does **not** support operator overloading. [[java]] does **not** have [[first-class function]]s
 
-[[java]] does **not** allow the creation of generic [[array]]s `E[] a = new E[capacity]` where `E` is the generic [[type]]. `E[] = (E[]) Object[capacity]` is to be used instead, which will generate a compile-time a warning, which may be suppressed using the decorator `@SuppressWarnings("unchecked")` &mdash; <https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java>
+[[java]] does **not** allow the creation of generic [[array]]s `E[] a = new E[capacity]` where `E` is the generic [[type]]. `E[] = (E[]) Object[capacity]` is to be used instead, which will generate a compile-time a warning, which may be suppressed using the decorator `@SuppressWarnings("unchecked")` --- <https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java>
 
-[[java]] has simplistic [[type]] inference, through the `var` keyword &mdash; <https://www.geeksforgeeks.org/var-keyword-in-java/>
+[[java]] has simplistic [[type]] inference, through the `var` keyword --- <https://www.geeksforgeeks.org/var-keyword-in-java/>
 
 [[java]] [[array]]s are indexed by [[integer]]s, meaning no [[java]] [[array]] can hold more than **`2[31]`** elements
 
-[[java]] `import` best practices are basically cargo cult programming &mdash; <https://youtu.be/FyCYva9DhsI?t=1673>
+[[java]] `import` best practices are basically cargo cult programming --- <https://youtu.be/FyCYva9DhsI?t=1673>
 
 [[java]] has [[null]]s and [[exception]]s
 
@@ -42,7 +42,7 @@ also see <https://en.m.wikipedia.org/wiki/Criticism_of_Java>
 
 **see** [[polymorphism]]
 
-overriding `Object.equals` in [[java]] should ideally follow the pattern below &mdash; ITI1121 Introduction to Computing II
+overriding `Object.equals` in [[java]] should ideally follow the pattern below --- ITI1121 Introduction to Computing II
 
 ```java
 public class Account {
@@ -118,7 +118,7 @@ _auto boxing_ is the automatic conversion from a [[java#primitive]] to a [[java#
 
 **see** [[generic]]
 
-[[java#generic]]s are basically compile-time-checked type casts to [[java]]'s [[type#top type]] `Object`, a process known as _type erasure_ &mdash; <https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood>. consequently, collections may not contain [[java#primitive]]s &mdash; <https://stackoverflow.com/questions/4594529/java-collections-why-no-primitive-types>
+[[java#generic]]s are basically compile-time-checked type casts to [[java]]'s [[type#top type]] `Object`, a process known as _type erasure_ --- <https://stackoverflow.com/questions/48438160/how-do-java-generic-methods-work-under-the-hood>. consequently, collections may not contain [[java#primitive]]s --- <https://stackoverflow.com/questions/4594529/java-collections-why-no-primitive-types>
 
 ### Primitive
 

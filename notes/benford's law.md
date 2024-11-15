@@ -2,7 +2,7 @@
 
 **aka** _law of anomalous numbers, first-digit law_
 
-&mdash; <https://en.wikipedia.org/wiki/Benford%27s_law>
+--- <https://en.wikipedia.org/wiki/Benford%27s_law>
 
 **theorem** _Benford's Law_ in many real-life sets of numerical data, the leading digit is likely to be small
 

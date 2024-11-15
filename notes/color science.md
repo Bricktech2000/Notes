@@ -12,12 +12,12 @@ our eyes see [[color]] in a way that can be described as a [[euclidean vector]] 
 
 [[cie 1931]], [[cie diagram]], [[cielab]]
 
-## &mdash;
+## ---
 
-&mdash; <https://youtu.be/AS1OHMW873s>
+--- <https://youtu.be/AS1OHMW873s>
 
-&mdash; <https://en.wikipedia.org/wiki/Metamerism_(color)>
+--- <https://en.wikipedia.org/wiki/Metamerism_(color)>
 
-&mdash; <https://youtu.be/M47YdERx11s>
+--- <https://youtu.be/M47YdERx11s>
 
-&mdash; <https://youtu.be/gnUYoQ1pwes>
+--- <https://youtu.be/gnUYoQ1pwes>

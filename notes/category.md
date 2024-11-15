@@ -2,7 +2,7 @@
 
 #todo id
 
-&mdash; <https://youtu.be/yAi3XWCBkDo>
+--- <https://youtu.be/yAi3XWCBkDo>
 
 **see** [[category theory]], [[functor]]
 
@@ -14,20 +14,20 @@
 
 ## examples
 
-| category      | objects                      | morphisms                  | initial &bull; terminal                                                      | product &bull; coproduct                               |
-| ------------- | ---------------------------- | -------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------ |
-| **`"Set"`**   | [[set]]s                     | [[function]]s              | [[set#empty set]] &bull; [[set#singleton set]]                               | [[cartesian product]] &bull; [[set#disjoint union]]    |
-| **`"Grp"`**   | [[group]]s                   | [[group#homomorphism]]s    | [[group#trivial group]] &bull; [[group#trivial group]]                       | direct product &bull; free product                     |
-| **`"Top"`**   | topological spaces           | continuous maps            | empty space &bull; singleton space                                           | cartesian product &bull; disjoint union                |
-| **`"Sub"`**   | [[set]]s                     | [[set#subset]]             | [[set#empty set]] &bull; [[set#universal set]]                               | [[set#intersection]] &bull; [[set#union]]              |
-| **`"Vect"`**  | [[vector space]]s            | [[linear transformation]]s | [[vector space#zero vector space]] &bull; [[vector space#zero vector space]] | direct sum &bull; tensor product                       |
-| **`"Poset"`** | [[partial order]]ed elements | no more than               | bottom element &bull; top element                                            | join &bull; meet                                       |
-| **`"Type"`**  | [[type]]s                    | [[function]]s              | [[type#empty type]] &bull; [[type#unit type]]                                | [[type#product type]] &bull; [[type#sum type]]         |
-| **`"Bool"`**  | [[boolean]]s                 | [[boolean#implication]]    | boolean false &bull; boolean true                                            | [[boolean#conjunction]] &bull; [[boolean#disjunction]] |
-|               | [[real]]s                    | no more than               | negative infinity &bull; positive infinity                                   | minimum &bull; maximum                                 |
-|               | [[natural]]s                 | divides                    | natural **`1`** &bull; natural **`0`**                                       | greatest common divisor &bull; least common multiple   |
+| category      | objects                      | morphisms                  | initial - terminal                                                      | product - coproduct                               |
+| ------------- | ---------------------------- | -------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- |
+| **`"Set"`**   | [[set]]s                     | [[function]]s              | [[set#empty set]] - [[set#singleton set]]                               | [[cartesian product]] - [[set#disjoint union]]    |
+| **`"Grp"`**   | [[group]]s                   | [[group#homomorphism]]s    | [[group#trivial group]] - [[group#trivial group]]                       | direct product - free product                     |
+| **`"Top"`**   | topological spaces           | continuous maps            | empty space - singleton space                                           | cartesian product - disjoint union                |
+| **`"Sub"`**   | [[set]]s                     | [[set#subset]]             | [[set#empty set]] - [[set#universal set]]                               | [[set#intersection]] - [[set#union]]              |
+| **`"Vect"`**  | [[vector space]]s            | [[linear transformation]]s | [[vector space#zero vector space]] - [[vector space#zero vector space]] | direct sum - tensor product                       |
+| **`"Poset"`** | [[partial order]]ed elements | no more than               | bottom element - top element                                            | join - meet                                       |
+| **`"Type"`**  | [[type]]s                    | [[function]]s              | [[type#empty type]] - [[type#unit type]]                                | [[type#product type]] - [[type#sum type]]         |
+| **`"Bool"`**  | [[boolean]]s                 | [[boolean#implication]]    | boolean false - boolean true                                            | [[boolean#conjunction]] - [[boolean#disjunction]] |
+|               | [[real]]s                    | no more than               | negative infinity - positive infinity                                   | minimum - maximum                                 |
+|               | [[natural]]s                 | divides                    | natural **`1`** - natural **`0`**                                       | greatest common divisor - least common multiple   |
 
-&mdash; <https://ncatlab.org/nlab/show/category> and <https://math.stackexchange.com/questions/414465/initial-and-terminal-objects-in-textbffinvect-r> and <https://en.wikipedia.org/wiki/Join_and_meet> and <https://ncatlab.org/nlab/show/initial+object> and <https://ncatlab.org/nlab/show/terminal+object> and <https://ncatlab.org/nlab/show/top> and <https://ncatlab.org/nlab/show/meet> and <https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence> and <https://en.wikipedia.org/wiki/Lattice_(order)>
+--- <https://ncatlab.org/nlab/show/category> and <https://math.stackexchange.com/questions/414465/initial-and-terminal-objects-in-textbffinvect-r> and <https://en.wikipedia.org/wiki/Join_and_meet> and <https://ncatlab.org/nlab/show/initial+object> and <https://ncatlab.org/nlab/show/terminal+object> and <https://ncatlab.org/nlab/show/top> and <https://ncatlab.org/nlab/show/meet> and <https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence> and <https://en.wikipedia.org/wiki/Lattice_(order)>
 
 ## Object
 
@@ -63,7 +63,7 @@ even if **`A`** is related to **`B`** by a morphism, **`B`** is not necessarily 
 
 > **note** a [[category#morphism]] being both _epic_ and _monic_ does not imply that it is a [[category#isomorphism]]
 
-_isomorphism captures the idea that objects can be functionally the same, where the meaning of "functionally" depends on the working category_ &mdash; <https://youtu.be/yAi3XWCBkDo?t=1012>
+_isomorphism captures the idea that objects can be functionally the same, where the meaning of "functionally" depends on the working category_ --- <https://youtu.be/yAi3XWCBkDo?t=1012>
 
 a [[category]] "cannot tell the difference" between isomorphic objects. given any morphism from any object to one of the isomorphic objects, there must exist an equivalent morphism to the other isomorphic object, obtained through [[category#composition]] with one of the [[category#isomorphism]]s
 
@@ -135,13 +135,13 @@ for every [[category#object]] **`A`** there is an arrow which is a unit of [[com
 
 **see** [[functor]]
 
-**definition** _functors_ are [[map]]s between [[category]]es which respect categorical structure &mdash; <https://youtu.be/yAi3XWCBkDo?t=1238>
+**definition** _functors_ are [[map]]s between [[category]]es which respect categorical structure --- <https://youtu.be/yAi3XWCBkDo?t=1238>
 
 this leads to the [[category]] of [[category]]es. functors consist of a pair of [[function]]s to map both [[category#object]]s and [[category#morphism]]s between the [[category]]es and preserve the [[category#identity law]] and [[category#composition]]
 
 ### Forgetful Functor
 
-**definition** a _forgetful functor_ is a [[functor]] that forgets some information about the [[category]] it is mapping from &mdash; GitHub Copilot
+**definition** a _forgetful functor_ is a [[functor]] that forgets some information about the [[category]] it is mapping from --- GitHub Copilot
 
 > **example**
 >
@@ -151,7 +151,7 @@ this leads to the [[category]] of [[category]]es. functors consist of a pair of 
 
 **aka** _dual category_
 
-&mdash; <https://youtu.be/Gai-liKAUPo?t=190>
+--- <https://youtu.be/Gai-liKAUPo?t=190>
 
 **equiv** _[[matrix#transpose]]_
 
@@ -175,7 +175,7 @@ this can be thought of as "reversing the direction" of the "arrows" in the [[cat
 
 ## Terminal Object
 
-&mdash; <https://youtu.be/Gai-liKAUPo?t=153>
+--- <https://youtu.be/Gai-liKAUPo?t=153>
 
 **definition** the _initial object_ of a [[category]] is the [[category#object]] that has exactly one [[category#morphism]] going to every object in the [[category]]
 
@@ -195,9 +195,9 @@ this can be thought of as "reversing the direction" of the "arrows" in the [[cat
 
 #todo "factorizes those projections" means that the diagram _commutes_ (composing two of the morphisms gives the third one)
 
-&mdash; <https://miklos-martin.github.io/learn/fp/category-theory/2018/02/01/adventures-in-category-theory-the-algebra-of-types.html>
+--- <https://miklos-martin.github.io/learn/fp/category-theory/2018/02/01/adventures-in-category-theory-the-algebra-of-types.html>
 
-factorizes &mdash; <https://youtu.be/Bsdl_NKbNnU?t=1011>
+factorizes --- <https://youtu.be/Bsdl_NKbNnU?t=1011>
 
 #xxx <https://youtu.be/Gai-liKAUPo?t=327>
 

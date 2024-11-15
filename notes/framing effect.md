@@ -4,7 +4,7 @@ _being influenced by the connotations of the presentation_
 
 **see** [[math notation]]
 
-**definition** the _framing effect_ is a [[cognitive bias]] where people decide on options based on whether the options are presented with positive or negative connotations &mdash; Wkikpedia
+**definition** the _framing effect_ is a [[cognitive bias]] where people decide on options based on whether the options are presented with positive or negative connotations --- Wkikpedia
 
 > **examples**
 >

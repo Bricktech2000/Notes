@@ -6,4 +6,4 @@ a [[digital system]] is **not** necessarily [[binary]], though binary is most co
 
 [[digital system]]s are implemented using [[logic circuit]]s
 
-[[digital system]]s may store negative [[integer]]s with [[complement#radix complement]]s or with [[sign-magnitude notation]]
+[[digital system]]s may store negative [[integer]]s with [[complement#radix complement]]s or with [[sign--magnitude notation]]

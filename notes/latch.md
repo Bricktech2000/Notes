@@ -14,9 +14,9 @@ all [[latch]]es can be converted to gated [[latch]]es with an _enable_ input
 
 # Types
 
-&mdash; <https://en.wikipedia.org/wiki/Flip-flop_(electronics)>
+--- <https://en.wikipedia.org/wiki/Flip-flop_(electronics)>
 
-[[logic circuit]] diagrams &mdash; <https://www.javatpoint.com/latches-in-digital-electronics>
+[[logic circuit]] diagrams --- <https://www.javatpoint.com/latches-in-digital-electronics>
 
 ## SR Latch
 
@@ -29,7 +29,7 @@ _set-reset latch_
 | **`0`** | **`0`** | **`Q`** | no change |
 | **`0`** | **`1`** | **`0`** | reset     |
 | **`1`** | **`0`** | **`1`** | set       |
-| **`1`** | **`1`** | &times; | undefined |
+| **`1`** | **`1`** | ×       | undefined |
 
 ## D Latch
 
@@ -39,7 +39,7 @@ _data latch, gated by default_
 
 | **`E`** | **`D`** | **`Q`** | comment    |
 | ------- | ------- | ------- | ---------- |
-| **`0`** | &times; | **`Q`** | no change  |
+| **`0`** | ×       | **`Q`** | no change  |
 | **`1`** | **`0`** | **`0`** | data reset |
 | **`1`** | **`1`** | **`1`** | data set   |
 

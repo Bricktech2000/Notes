@@ -33,7 +33,7 @@ time [[computational complexity]]:
 
 **representation**
 
-![](20220913201452.png) &mdash; <https://youtu.be/RBSGKlAvoiM?t=7120>
+![](20220913201452.png) --- <https://youtu.be/RBSGKlAvoiM?t=7120>
 
 ## Invariant
 

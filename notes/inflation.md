@@ -2,7 +2,7 @@
 
 _an increase in the overall level of prices in the economy_
 
-**definition** _inflation_ is the decline of purchasing power of a given currency over [[time]]. a quantitative estimate of the rate at which the decline in purchasing power occurs can be reflected in the increase of an average price level of a basket of selected [[goods and services]] (see [[consumer price index]]) in an economy over some period of [[time]] &mdash; Investopedia
+**definition** _inflation_ is the decline of purchasing power of a given currency over [[time]]. a quantitative estimate of the rate at which the decline in purchasing power occurs can be reflected in the increase of an average price level of a basket of selected [[goods and services]] (see [[consumer price index]]) in an economy over some period of [[time]] --- Investopedia
 
 **see** [[economics]]
 
@@ -10,9 +10,9 @@ _an increase in the overall level of prices in the economy_
 
 > **example** _inflation rates_
 >
-> **`2 0-1000`** is a low to moderate inflation rate &mdash; Investopedia
+> **`2 0-1000`** is a low to moderate inflation rate --- Investopedia
 >
-> **`8 5-1000`** is a high inflation rate &mdash; <https://www.youtube.com/watch?v=QYPb9ebUQbs>
+> **`8 5-1000`** is a high inflation rate --- <https://www.youtube.com/watch?v=QYPb9ebUQbs>
 
 **procedures**
 

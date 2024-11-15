@@ -1,4 +1,4 @@
-# Sign-Magnitude Notation
+# Sign--Magnitude Notation
 
 _an alternative to [[complement#radix complement]]s for representing negative [[integer]]s in [[digital system]]s_
 

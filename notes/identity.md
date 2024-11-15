@@ -2,7 +2,7 @@
 
 _the qualities, beliefs, and personality that characterize a person or group_
 
-every decision we make is a vote for a certain [[identity]] &mdash; <https://youtu.be/PZ7lDrwYdZc?t=303>
+every decision we make is a vote for a certain [[identity]] --- <https://youtu.be/PZ7lDrwYdZc?t=303>
 
 > **example**
 >

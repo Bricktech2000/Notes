@@ -1,6 +1,6 @@
 # Partial Order
 
-&mdash; <https://en.wikipedia.org/wiki/Partially_ordered_set#Partial_orders>
+--- <https://en.wikipedia.org/wiki/Partially_ordered_set#Partial_orders>
 
 **definition** a [[relation]] is a _non-strict partial order_ or simply _partial order_ if it is a [[relation#antisymmetric relation]], a [[relation#reflexive relation]] and a [[relation#transitive relation]]
 

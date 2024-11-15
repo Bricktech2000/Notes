@@ -6,32 +6,32 @@
 
 ## Connotation
 
-_an association that any given action carries_ &mdash; me
+_an association that any given action carries_ --- me
 
 **see** [[verbal#connotation]]
 
-many behaviors seem to consist of some sort of accidental overcompensation. things seem fine on the surface, but irony is hiding right underneath &mdash; me
+many behaviors seem to consist of some sort of accidental overcompensation. things seem fine on the surface, but irony is hiding right underneath --- me
 
 > **examples**
 >
-> - shouting to prove a point &mdash; a powerful individual does not have to resort to shouting to be heard
-> - interrupting in a [[debate]] &mdash; a person with compelling arguments does not have to interrupt to prove their point
-> - working to make more [[money]] &mdash; a financially literate person does not need to work to build their [[wealth]]
-> - threatening in a negotiation &mdash; a skilled negotiator does not need to resort to threats to get what they want
-> - boasting about accomplishments &mdash; a successful person does not need to boast about their accomplishments to be respected
-> - humiliating students &mdash; a competent teacher does not have to humiliate their students to assert their authority
-> - exaggerating to convince &mdash; a knowledgeable expert does not have to exaggerate or lie to gain credibility
-> - micromanaging employees &mdash; a good leader does not have to micromanage their team to get things done
-> - cleaning before hosting &mdash; a clean individual does not need to clean their house before guests arrive
-> - mentioning [[intelligence]] &mdash; an intelligent person does not need to mention their intelligence to be respected
+> - shouting to prove a point --- a powerful individual does not have to resort to shouting to be heard
+> - interrupting in a [[debate]] --- a person with compelling arguments does not have to interrupt to prove their point
+> - working to make more [[money]] --- a financially literate person does not need to work to build their [[wealth]]
+> - threatening in a negotiation --- a skilled negotiator does not need to resort to threats to get what they want
+> - boasting about accomplishments --- a successful person does not need to boast about their accomplishments to be respected
+> - humiliating students --- a competent teacher does not have to humiliate their students to assert their authority
+> - exaggerating to convince --- a knowledgeable expert does not have to exaggerate or lie to gain credibility
+> - micromanaging employees --- a good leader does not have to micromanage their team to get things done
+> - cleaning before hosting --- a clean individual does not need to clean their house before guests arrive
+> - mentioning [[intelligence]] --- an intelligent person does not need to mention their intelligence to be respected
 
-> **examples** &mdash; 200 répliques &mdash; Hélène Drouard
+> **examples** --- 200 répliques --- Hélène Drouard
 >
-> - _Moins les gens ont d'idées à exprimer, plus ils parlent fort._ &mdash; François Mauriac
-> - _The more you know, the less you need to say._ &mdash; Jim Rohn
-> - _La critique est la puissance des impuissants._ &mdash; Alphonse de Lamartine
-> - _Des chercheurs qui cherchent, on en trouve. Des chercheurs qui trouvent, on en cherche._ &mdash; Charles de Gaulle
-> - _Some talk the talk; some walk the walk._ &mdash; me
+> - _Moins les gens ont d'idées à exprimer, plus ils parlent fort._ --- François Mauriac
+> - _The more you know, the less you need to say._ --- Jim Rohn
+> - _La critique est la puissance des impuissants._ --- Alphonse de Lamartine
+> - _Des chercheurs qui cherchent, on en trouve. Des chercheurs qui trouvent, on en cherche._ --- Charles de Gaulle
+> - _Some talk the talk; some walk the walk._ --- me
 
 ## Behavior
 
@@ -119,24 +119,24 @@ there exists no single behavior indicative of deception, but there does exist be
 
 **applications**
 
-physical appearance has a great effect on success &mdash; <https://youtu.be/qsx7YFkPMlQ>
+physical appearance has a great effect on success --- <https://youtu.be/qsx7YFkPMlQ>
 
-the way we carry ourselves has an effect how we are perceived &mdash; <https://youtu.be/f9SA25OukyM?t=629>
+the way we carry ourselves has an effect how we are perceived --- <https://youtu.be/f9SA25OukyM?t=629>
 
-## &mdash;
+## ---
 
-&mdash; <https://youtu.be/KfkOSYpMToo>
+--- <https://youtu.be/KfkOSYpMToo>
 
-&mdash; <https://youtu.be/f9SA25OukyM>
+--- <https://youtu.be/f9SA25OukyM>
 
-&mdash; <https://youtu.be/VRJzvJ5XPQI>
+--- <https://youtu.be/VRJzvJ5XPQI>
 
-&mdash; <https://youtu.be/VAB9cUlGrRo>
+--- <https://youtu.be/VAB9cUlGrRo>
 
-&mdash; <https://youtu.be/qsx7YFkPMlQ>
+--- <https://youtu.be/qsx7YFkPMlQ>
 
-&mdash; <https://youtu.be/PBDgOU_kr5E>
+--- <https://youtu.be/PBDgOU_kr5E>
 
-&mdash; <https://youtu.be/fLaslONQAKM>
+--- <https://youtu.be/fLaslONQAKM>
 
-&mdash; <https://youtu.be/vK0UjNH2Y10>
+--- <https://youtu.be/vK0UjNH2Y10>

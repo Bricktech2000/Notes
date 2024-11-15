@@ -1,6 +1,6 @@
 # Shannon
 
-&mdash; <https://en.wikipedia.org/wiki/Shannon_(unit)>
+--- <https://en.wikipedia.org/wiki/Shannon_(unit)>
 
 **aka** _bit_
 

@@ -16,4 +16,4 @@ let **`p^i`** be the **`i`**th [[prime]] number. then, the [[series]] **`:-p`** 
 >
 > **`-B`** is a sub[[series]] of **`S`**. the former diverges while the latter converges, which is a [[contradiction]]. therefore, **`N`** does not exist and **`:-p`** diverges
 >
-> &mdash; <https://youtu.be/zu8emZWsdA8>
+> --- <https://youtu.be/zu8emZWsdA8>

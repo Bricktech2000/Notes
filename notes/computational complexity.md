@@ -4,7 +4,7 @@ _time complexity, space complexity_
 
 **see** [[algorithm]]
 
-> **resource** _BIG OMICRON AND BIG OMEGA AND BIG THETA_ by Donald E. Knuth &mdash; <https://dl.acm.org/doi/pdf/10.1145/1008328.1008329>
+> **resource** _BIG OMICRON AND BIG OMEGA AND BIG THETA_ by Donald E. Knuth --- <https://dl.acm.org/doi/pdf/10.1145/1008328.1008329>
 
 **definition** **`O f`** denotes the [[set]] of all **`g`** such that there exist positive [[real]]s **`D`** and **`n_0`** with **`0 -| g n -| Df n`** for all **`n |- n_0`**
 
@@ -12,9 +12,9 @@ _time complexity, space complexity_
 
 **definition** **`QQ f`** denotes the [[set]] of all **`g`** such that there exist positive [[real]]s **`C`**, **`D`** and **`n_0`** with **`Cf n -| g n -| Df n`** for all **`n |- n_0`**
 
-&mdash; _BIG OMICRON AND BIG OMEGA AND BIG THETA_, Donald E. Knuth &mdash; <https://dl.acm.org/doi/pdf/10.1145/1008328.1008329>
+--- _BIG OMICRON AND BIG OMEGA AND BIG THETA_, Donald E. Knuth --- <https://dl.acm.org/doi/pdf/10.1145/1008328.1008329>
 
-&mdash; <https://en.wikipedia.org/wiki/Big_O_notation>
+--- <https://en.wikipedia.org/wiki/Big_O_notation>
 
 **properties**
 

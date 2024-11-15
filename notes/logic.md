@@ -12,4 +12,4 @@ model theory
 
 [[recursion]] theory
 
-&mdash; <https://en.wikipedia.org/wiki/Mathematical_logic>
+--- <https://en.wikipedia.org/wiki/Mathematical_logic>

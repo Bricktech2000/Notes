@@ -14,9 +14,9 @@
 >
 > - an **`n`**th degree [[polynomial]] equation over a [[field]] has at most **`n`** solutions
 >
-> &mdash; <https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra>
+> --- <https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra>
 >
-> &mdash; <https://en.wikipedia.org/wiki/Root_of_unity#Elementary_properties>
+> --- <https://en.wikipedia.org/wiki/Root_of_unity#Elementary_properties>
 
 the same **cannot** be said for [[real]]s
 

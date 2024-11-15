@@ -1,6 +1,6 @@
 # Nested Recipe Structure
 
-&mdash; initial idea by Kiera
+--- initial idea by Kiera
 
 principles of [[nested recipe structure]] are as follows:
 
@@ -10,8 +10,7 @@ principles of [[nested recipe structure]] are as follows:
 
 > **example** _Cajun Shrimp and Sausage Rice_
 >
-> - &nbsp;
->   - in a large stockpot over medium heat, heat **1 tbsp olive oil** until shimmering. cook **8 oz sweet Italian sausage links** until browned and cooked through. transfer them to a plate and tent with aluminum foil
+> - - in a large stockpot over medium heat, heat **1 tbsp olive oil** until shimmering. cook **8 oz sweet Italian sausage links** until browned and cooked through. transfer them to a plate and tent with aluminum foil
 >     - chop **1 cup onion**, **1/2 cup bell pepper** and **1/2 cup celery**
 >   - in a large stockpot over medium heat, add the onion, pepper and celery and cook for 5 minutes, stirring and scraping up any brown bits. add **2 cups white rice** and cook until the rice starts to appear opaque, another 3 to 5 minutes.
 >     stir in **2 tbsp Cajun spice blend** and then add **4 cups chicken stock**, scraping up any brown bits. bring the mixture to a low boil. reduce the heat to low, cover, and simmer for 15 minutes

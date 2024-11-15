@@ -1,10 +1,10 @@
 # XY Problem
 
-> **resource** one-page summary of the [[xy problem]] &mdash; <https://xyproblem.info/>
+> **resource** one-page summary of the [[xy problem]] --- <https://xyproblem.info/>
 
-&mdash; <https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem>
+--- <https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem>
 
-&mdash; <https://en.wikipedia.org/wiki/XY_problem>
+--- <https://en.wikipedia.org/wiki/XY_problem>
 
 the [[xy problem]] is a communication problem characterized by a party asking about an **attempted solution** rather than about the **original problem**
 

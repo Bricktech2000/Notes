@@ -29,7 +29,7 @@ let a [[function]] `f :: a -> M b`. then,
 - `bind` is the [[bind function]]
 - `fmap` is the [[map function]]
 
-&mdash; Simon and <https://youtu.be/3ynPUN64eTA?t=8m5s>
+--- Simon and <https://youtu.be/3ynPUN64eTA?t=8m5s>
 
 **applications**
 
@@ -39,7 +39,7 @@ this often leads to deeply nested `if` checks with [[null]] values in languages 
 
 the [[bind function]] fixes this issue by providing a way to connect the meaningful output of such [[function]]s to the input of the next one and to short-circuit the alternative output. it makes "world-crossing" [[function]]s composable by turning them into "effects-world"-only [[function]]s.
 
-> **note** the name `flatMap` comes from the fact that `bind` can be defined as calling the [[map function]] then calling the [[join function]] (flattening in the case of [[list]]s), see definition below &mdash; <https://youtu.be/C2w45qRc3aU?t=808>
+> **note** the name `flatMap` comes from the fact that `bind` can be defined as calling the [[map function]] then calling the [[join function]] (flattening in the case of [[list]]s), see definition below --- <https://youtu.be/C2w45qRc3aU?t=808>
 
 **examples**
 

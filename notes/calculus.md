@@ -1,6 +1,6 @@
 # Calculus
 
-> **resource** undergrad [[calculus]] course &mdash; <https://www.youtube.com/watch?v=HfACrKJ_Y2w>
+> **resource** undergrad [[calculus]] course --- <https://www.youtube.com/watch?v=HfACrKJ_Y2w>
 
 **see**
 

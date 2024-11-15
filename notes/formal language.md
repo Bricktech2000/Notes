@@ -38,7 +38,7 @@ the [[set]] of regular languages is closed under Kleene closure, Kleene plus, [[
 
 > **procedure** _conversions for Kleene's theorem_
 >
-> ![[lec27-overview.svg]] &mdash; <https://www.cs.cornell.edu/courses/cs2800/2017sp/lectures/lec27-kleene.html>
+> ![[lec27-overview.svg]] --- <https://www.cs.cornell.edu/courses/cs2800/2017sp/lectures/lec27-kleene.html>
 
 **theorem** any finite language is regular
 
@@ -50,15 +50,15 @@ the [[set]] of regular languages is closed under Kleene closure, Kleene plus, [[
 
 > **note** intuitively, the pumping lemma states that all sufficiently long words of a regular language may be "pumped" (there exists a [[substring]] that, when repeated any number of times, produces another word in the language)
 
-> **example** the [[set]] of all [[string]]s of [[prime]] [[string#length]] is not a [[formal language#regular formal language]] &mdash; me
+> **example** the [[set]] of all [[string]]s of [[prime]] [[string#length]] is not a [[formal language#regular formal language]] --- me
 >
-> > **proof** by the pumping lemma, the [[string#length]] of pumped words is a [[sequence#arithmetic sequence]] **`n. #w{y}n ee = n. (#w ee) : n(#y ee)`**, which, since **`#y ee + 0`**, will always hit a non-[[prime]], namely, at **`n = #w ee`** &mdash; me
+> > **proof** by the pumping lemma, the [[string#length]] of pumped words is a [[sequence#arithmetic sequence]] **`n. #w{y}n ee = n. (#w ee) : n(#y ee)`**, which, since **`#y ee + 0`**, will always hit a non-[[prime]], namely, at **`n = #w ee`** --- me
 
 ## Non-Regular Language
 
 **definition** a [[formal language]] is _non-regular_ if and only if it cannot be described by a [[finite acceptor]]
 
-#todo complete #xxx not actually a thing &mdash; <https://en.wikipedia.org/wiki/Theory_of_computation#Automata_theory>
+#todo complete #xxx not actually a thing --- <https://en.wikipedia.org/wiki/Theory_of_computation#Automata_theory>
 
 ## Regular Grammar
 
@@ -93,14 +93,14 @@ link with [[prefix notation]], [[postfix notation]], [[syntax tree]]
 
 #xxx useful table <https://en.wikipedia.org/wiki/Theory_of_computation#Automata_theory>
 
-## &mdash;
+## ---
 
-&mdash; <https://en.wikipedia.org/wiki/Kleene_star>
+--- <https://en.wikipedia.org/wiki/Kleene_star>
 
-&mdash; <https://en.wikipedia.org/wiki/Formal_language>
+--- <https://en.wikipedia.org/wiki/Formal_language>
 
-&mdash; [[automata-and-formal-languages-cheatsheet.pdf]]
+--- [[automata-and-formal-languages-cheatsheet.pdf]]
 
-&mdash; <https://en.wikipedia.org/wiki/Deterministic_finite_automaton>
+--- <https://en.wikipedia.org/wiki/Deterministic_finite_automaton>
 
-&mdash; [[CSI3104A_Introduction_to_Formal_Languages_LEC_20241_-_3152024_-_502_PM_1.zip]]
+--- [[CSI3104A_Introduction_to_Formal_Languages_LEC_20241_-_3152024_-_502_PM_1.zip]]

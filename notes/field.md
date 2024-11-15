@@ -11,7 +11,7 @@ loosely speaking, a [[field]] is a [[set]] of numbers with certain properties an
 > - the [[set]] of [[real]] numbers
 > - the [[set]] of [[complex]] numbers
 > - the [[set]] of [[integer]]s modulo a [[prime]] [[number]]
-> - the [[set]] of [[rational]] numbers &mdash; <https://youtu.be/vdjYiU6skgE>
+> - the [[set]] of [[rational]] numbers --- <https://youtu.be/vdjYiU6skgE>
 > - the [[set]] of [[p-adic]] numbers
 
 **applications**
@@ -20,7 +20,7 @@ loosely speaking, a [[field]] is a [[set]] of numbers with certain properties an
 
 ## [[axiom]]s
 
-&mdash; Encode x Solana Bootcamp
+--- Encode x Solana Bootcamp
 
 let **`a, b, c`** be numbers in a [[field]] **`HH`**
 
@@ -44,9 +44,9 @@ _distributivity of multiplication over addition_ **`a(b : c) = ab : ac`**
 
 ## Absolute Value
 
-&mdash; <https://youtu.be/vdjYiU6skgE?t=28>
+--- <https://youtu.be/vdjYiU6skgE?t=28>
 
-&mdash; <https://en.wikipedia.org/wiki/Absolute_value_(algebra)>
+--- <https://en.wikipedia.org/wiki/Absolute_value_(algebra)>
 
 **definition**
 

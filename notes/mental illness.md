@@ -1,10 +1,10 @@
 # Mental Illness
 
-&mdash; <https://themindsjournal.com/types-of-mental-illnesses/>
+--- <https://themindsjournal.com/types-of-mental-illnesses/>
 
-&mdash; <https://youtu.be/gpjYtAB9i2w>
+--- <https://youtu.be/gpjYtAB9i2w>
 
-&mdash; <https://youtu.be/dXm2NM5Or0o?t=5m56s>
+--- <https://youtu.be/dXm2NM5Or0o?t=5m56s>
 
 ## anxiety disorders
 
@@ -47,7 +47,7 @@ _unable to resist urges_
 
 _extreme inflexible personality traits_
 
-&mdash; <https://partyplanner.com.sg/?p=153>
+--- <https://partyplanner.com.sg/?p=153>
 
 ### cluster a
 
@@ -63,10 +63,10 @@ _dramatic, erratic_
 
 people in this cluster are very "difficult" to deal with socially
 
-- borderline personality disorder &mdash; _likely to get help_, likely of [[reaction]] instead of [[response]]
-- [[narcissistic personality disorder]] &mdash; _unlikely to change_
+- borderline personality disorder --- _likely to get help_, likely of [[reaction]] instead of [[response]]
+- [[narcissistic personality disorder]] --- _unlikely to change_
 - histrionic personality disorder
-- [[antisocial personality disorder]] &mdash; _unlikely to change_
+- [[antisocial personality disorder]] --- _unlikely to change_
 
 ### cluster c
 
@@ -76,7 +76,7 @@ _anxious, fearful_
 - dependent personality disorder
 - obsessive-compulsive personality disorder
 
-> **example** _what OCD looks like_ &mdash; <https://youtu.be/L7CnRgnceW4>
+> **example** _what OCD looks like_ --- <https://youtu.be/L7CnRgnceW4>
 
 ## post-traumatic stress disorder
 

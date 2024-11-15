@@ -1,6 +1,6 @@
 # Color Gamut
 
-&mdash; <https://www.howtogeek.com/802159/what-is-color-gamut/>
+--- <https://www.howtogeek.com/802159/what-is-color-gamut/>
 
 **definition** the _color gamut_ is the [[set]] of [[color]]s of a [[color space]] that can be captured by a camera or displayed by a screen
 

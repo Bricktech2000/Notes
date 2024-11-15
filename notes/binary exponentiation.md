@@ -34,10 +34,10 @@ def monoid_reduce(mul, id, x, n):
 
 **equiv** _Russian multiplication_ Russian multiplication is a specialization of [[binary exponentiation]] to the [[monoid]] formed by the [[natural]]s under addition. the _mediation_ and _duplation_ steps along with "striking out the even rows" forms a one-to-one correspondence with the above [[python]] implementation of [[binary exponentiation]]
 
-# &mdash;
+# ---
 
-&mdash; <https://en.wikipedia.org/wiki/Exponentiation_by_squaring>
+--- <https://en.wikipedia.org/wiki/Exponentiation_by_squaring>
 
-&mdash; <https://youtu.be/GrNJE6ogyQU>
+--- <https://youtu.be/GrNJE6ogyQU>
 
-&mdash; <https://youtu.be/cbGB__V8MNk>
+--- <https://youtu.be/cbGB__V8MNk>

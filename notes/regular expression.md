@@ -4,13 +4,13 @@
 
 _a finite [[string]] denoting a [[formal language#regular formal language]]_
 
-&mdash; <https://en.wikipedia.org/wiki/Regular_expression#Formal_language_theory>
+--- <https://en.wikipedia.org/wiki/Regular_expression#Formal_language_theory>
 
-&mdash; [[automata-and-formal-languages-cheatsheet.pdf]]
+--- [[automata-and-formal-languages-cheatsheet.pdf]]
 
-> **resource** LTRE, my [[finite automaton]] [[regular expression]] engine and [[formal language]]s playground &mdash; <https://github.com/Bricktech2000/LTRE>
+> **resource** LTRE, my [[finite automaton]] [[regular expression]] engine and [[formal language]]s playground --- <https://github.com/Bricktech2000/LTRE>
 
-> **resource** _Regular Expression Matching Can Be Simple And Fast_, an intro to [[finite automaton]] [[regular expression]] engines and a manifesto for why there are no good excuses to use backtracking engines &mdash; <https://swtch.com/~rsc/regexp/regexp1.html>
+> **resource** _Regular Expression Matching Can Be Simple And Fast_, an intro to [[finite automaton]] [[regular expression]] engines and a manifesto for why there are no good excuses to use backtracking engines --- <https://swtch.com/~rsc/regexp/regexp1.html>
 
 in [[formal language]] theory, [[regular expression]]s support grouping `(r)`, concatenation `rs`, alternation `r|s` and Kleene closure `r*`; `?` and `+` are omitted since `r? = r|ε` and `r+ = rr*`. additionaly, `ε` denotes the [[set]] containing the empty word, `∅` the empty [[set]], and any other [[character]] the [[set]] containing the word formed by that [[character]]
 

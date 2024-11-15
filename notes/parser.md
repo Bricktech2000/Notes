@@ -10,9 +10,9 @@ recursive descent parsers start from the top symbol and build a [[syntax tree]] 
 
 _a higher-order [[function]] that combines [[parser]]s_
 
-> **resource** JSON parser in Haskell leveraging [[parser#combinator]]s by Tsoding &mdash; <https://youtu.be/N9RUqGYuGfw>
+> **resource** JSON parser in Haskell leveraging [[parser#combinator]]s by Tsoding --- <https://youtu.be/N9RUqGYuGfw>
 
-_[[parser#combinator]]s are a way to program a [[parser#recursive descent parser]]_ &mdash; <https://youtu.be/ZI198eFghJk?t=6m25s>
+_[[parser#combinator]]s are a way to program a [[parser#recursive descent parser]]_ --- <https://youtu.be/ZI198eFghJk?t=6m25s>
 
 > **example**
 >
