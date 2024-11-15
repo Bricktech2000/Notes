@@ -8,6 +8,6 @@ _[[learning]] by forcing us to understand instead of memorizing_
 
 [[interleaving]] is all about balance: switching too infrequently can make us fall back to memorization, and switching too frequently can make us lose [[focus]] and get distracted
 
-## &mdash;
+## ---
 
-&mdash; <https://youtu.be/UEJmgaFQUH8>
+--- <https://youtu.be/UEJmgaFQUH8>

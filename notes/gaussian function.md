@@ -1,6 +1,6 @@
 # Gaussian Function
 
-&mdash; <https://en.wikipedia.org/wiki/Gaussian_blur>
+--- <https://en.wikipedia.org/wiki/Gaussian_blur>
 
 **aka** _bell curve_
 
@@ -25,4 +25,4 @@
 >
 > **`p. --ss\tt/ -- [:p2 -- 2ss2]`** extends the [[gaussian function]] to take [[euclidean vector]]s as input while still returning a [[real]] number
 >
-> &mdash; me and <https://youtu.be/cy8r7WSuT1I?t=130>
+> --- me and <https://youtu.be/cy8r7WSuT1I?t=130>

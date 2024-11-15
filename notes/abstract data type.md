@@ -4,7 +4,7 @@
 
 [[abstract data type]]s describe the interface a [[data structure]] must implement
 
-**equiv** _[[algebraic structure]]_ &mdash; <https://en.wikipedia.org/wiki/Algebraic_structure>
+**equiv** _[[algebraic structure]]_ --- <https://en.wikipedia.org/wiki/Algebraic_structure>
 
 **see**
 

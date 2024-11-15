@@ -2,7 +2,7 @@
 
 _incomplete work versus the mind_
 
-**definition** the _Zeigarnik effect_ occurs when an activity that has been interrupted may be more readily recalled. it postulates that people remember unfinished or interrupted tasks better than completed tasks &mdash; Wikipedia
+**definition** the _Zeigarnik effect_ occurs when an activity that has been interrupted may be more readily recalled. it postulates that people remember unfinished or interrupted tasks better than completed tasks --- Wikipedia
 
 > **examples**
 >

@@ -6,7 +6,7 @@
 
 **notation** **`L`**
 
-**definition** in [[color science]], _luminance_ is a linear measurement of [[luminous intensity]] &mdash; Wikipedia
+**definition** in [[color science]], _luminance_ is a linear measurement of [[luminous intensity]] --- Wikipedia
 
 consequently, [[luminance]] can be though of a "counting the number of [[photon]]s" hitting a given [[area]]
 
@@ -14,4 +14,4 @@ consequently, [[luminance]] can be though of a "counting the number of [[photon]
 
 ![[Pasted image 20221208153407.png]]
 
-&mdash; <https://youtu.be/M47YdERx11s?t=785>
+--- <https://youtu.be/M47YdERx11s?t=785>

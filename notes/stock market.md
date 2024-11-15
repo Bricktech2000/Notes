@@ -22,7 +22,7 @@ _an average of a group of stock prices_
 
 # Trading
 
-&mdash; <https://youtu.be/J3fAI3al08Q>
+--- <https://youtu.be/J3fAI3al08Q>
 
 **see** [[sunk costs fallacy]]
 
@@ -40,7 +40,7 @@ fundamental analysis assumes a level of irrationality in the [[stock market]] an
 
 ### Technical Analysis
 
-technical analysis uses data on past movements in stock price and overall market sentiment in an attempt to predict the future change in a stock's price &mdash; The Motley Fool. technical analysis is generally used by short-term day traders and swing traders. it is the stereotypical trading strategy, with fast-paced candlestick charts over five and a half monitors
+technical analysis uses data on past movements in stock price and overall market sentiment in an attempt to predict the future change in a stock's price --- The Motley Fool. technical analysis is generally used by short-term day traders and swing traders. it is the stereotypical trading strategy, with fast-paced candlestick charts over five and a half monitors
 
 ### Behavioral Analysis
 

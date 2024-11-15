@@ -80,7 +80,7 @@ _a pair of parallel vectors_
 
 ## Projection
 
-_the scalar projection is equal to the [[euclidean vector#magnitude]] of the [[euclidean vector#projection]]_ &mdash; Wikipedia
+_the scalar projection is equal to the [[euclidean vector#magnitude]] of the [[euclidean vector#projection]]_ --- Wikipedia
 
 **see** [[dot product]]
 

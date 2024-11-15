@@ -28,7 +28,7 @@ _in my [[math notation]]_
 
 **properties**
 
-the [[eigen#vector]]s of the [[derivative]] [[operator]] are **`x. [llx]`** with [[eigen#value]]s **`ll`** &mdash; <https://youtu.be/M35iuFAxQxY?t=18m8s>
+the [[eigen#vector]]s of the [[derivative]] [[operator]] are **`x. [llx]`** with [[eigen#value]]s **`ll`** --- <https://youtu.be/M35iuFAxQxY?t=18m8s>
 
 ## Directional Derivative
 
@@ -58,7 +58,7 @@ let **`f`** be a [[function]] differentiable at **`p = (x ...)`** and let **`v`*
 >
 > partial differentiation is equivalent to a [[derivative#directional derivative]] with direction **`(0 ... 0, 1, 0 ... 0)`**
 >
-> &mdash; <https://www.reddit.com/r/mathematics/comments/oxj88q/why_are_partial_derivatives_a_separate_thing_than/>
+> --- <https://www.reddit.com/r/mathematics/comments/oxj88q/why_are_partial_derivatives_a_separate_thing_than/>
 
 **notation**
 
@@ -68,7 +68,7 @@ in [[conventional math notation]], use the following abomination:
 
 $f_x = f'_x = \partial_x f = D_x f = D_1 f = \frac{\partial}{\partial x}f = \frac{\partial f}{\partial x}$
 
-$\frac{\partial^2 f}{\partial x^2} = f^n_{x x} = \partial_{x x} f = \partial^2_x f$ &mdash; Wikipedia
+$\frac{\partial^2 f}{\partial x^2} = f^n_{x x} = \partial_{x x} f = \partial^2_x f$ --- Wikipedia
 
 _in my [[math notation]]_
 

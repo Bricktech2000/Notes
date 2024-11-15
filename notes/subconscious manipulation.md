@@ -4,7 +4,7 @@
 
 a lot of "things" in this world seem to directly target our subconscious mind in order to trick us into making decisions we wouldn't have made otherwise
 
-for deep [[focus]], it is essential that decisions we take are [[intention]]al and not the result of [[subconscious manipulation]] &mdash; <https://youtu.be/SIsCy663mz4>
+for deep [[focus]], it is essential that decisions we take are [[intention]]al and not the result of [[subconscious manipulation]] --- <https://youtu.be/SIsCy663mz4>
 
 > **examples**
 >

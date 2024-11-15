@@ -19,16 +19,16 @@ the majority of people drift through life; that is, they do not have plans, do n
 
 > **note** this note was originally named _steer over drift_. turns out I think I might've been in the process of rediscovering part of stoicism
 
-## &mdash;
+## ---
 
-&mdash; "life pushing you around" &mdash; Rich Dad Poor Dad
+--- "life pushing you around" --- Rich Dad Poor Dad
 
-&mdash; <https://youtu.be/sL5XWO2Z-yw?t=1260>
+--- <https://youtu.be/sL5XWO2Z-yw?t=1260>
 
-&mdash; <https://youtu.be/o3SWsIfDz-c>
+--- <https://youtu.be/o3SWsIfDz-c>
 
-&mdash; <https://youtu.be/R9OCA6UFE-0>
+--- <https://youtu.be/R9OCA6UFE-0>
 
-&mdash; <https://youtu.be/EFkyxzJtiv4>
+--- <https://youtu.be/EFkyxzJtiv4>
 
-&mdash; me
+--- me

@@ -12,7 +12,7 @@ let **`(x, y)`** be a point on the unit [[circle]] and let **`aa`** be the [[ang
 
 > **note** _[[mnemonic]]_ SOHCAHTOA
 
-**definition** _in terms of [[euler's constant]]_ &mdash; <https://math.stackexchange.com/questions/2853279/the-interconnection-between-hyperbolic-functions-and-eulers-formula>
+**definition** _in terms of [[euler's constant]]_ --- <https://math.stackexchange.com/questions/2853279/the-interconnection-between-hyperbolic-functions-and-eulers-formula>
 
 - **`"cos" aa = [iiaa] : [.iiaa] -- 2`**
 - **`"sin" aa = [iiaa] . [.iiaa] -- 2`**
@@ -20,7 +20,7 @@ let **`(x, y)`** be a point on the unit [[circle]] and let **`aa`** be the [[ang
 
 **definition** _in terms of [[hyperbolic function]]s_
 
-the following follow from [[euler's formula]]: &mdash; <https://youtu.be/HnHnEnkZpJA?t=14m3s>
+the following follow from [[euler's formula]]: --- <https://youtu.be/HnHnEnkZpJA?t=14m3s>
 
 - **`"cos" aa = "cosh" iiaa`**
 - **`"sin" aa = .ii"sinh" iiaa`**
@@ -46,7 +46,7 @@ _[[function#odd function]]_ **`"tan" .aa = ."tan" aa`**
 
 **theorem** _cosine law_ let a triangle with sides **`a, b, c`** and [[angle]]s **`A, B, C`** where an [[angle]] is opposite the side whose [[variable]] is the same letter. then, **`c2 = a2 : b2 . 2ab"cos" C`**
 
-**theorem** _harmonic addition theorem_ **`a"cos" : b"sin"`** can always be rewritten into the form **`c"cos"(aa:)`**, where **`c2 = a2 : b2`** and **`"tan" aa = .b-a`** &mdash; <https://mathworld.wolfram.com/HarmonicAdditionTheorem.html> &mdash; <https://youtu.be/bn38o3u0lDc?t=72>
+**theorem** _harmonic addition theorem_ **`a"cos" : b"sin"`** can always be rewritten into the form **`c"cos"(aa:)`**, where **`c2 = a2 : b2`** and **`"tan" aa = .b-a`** --- <https://mathworld.wolfram.com/HarmonicAdditionTheorem.html> --- <https://youtu.be/bn38o3u0lDc?t=72>
 
 ## inverses
 
@@ -84,7 +84,7 @@ _cotangent_ **`-"atan" x`**
 
 ## identities
 
-&mdash; <https://youtu.be/7gigNsz4Oe8?t=4383>
+--- <https://youtu.be/7gigNsz4Oe8?t=4383>
 
 also see [[euler's formula]]
 
@@ -92,9 +92,9 @@ also see [[euler's formula]]
 
 **`["sin" aa]2 : ["cos" aa]2 = 1`**
 
-**`1 : ["tan" aa]2 = [-"cos" aa]2`** &mdash; derived by dividing by **`"cos" aa`**
+**`1 : ["tan" aa]2 = [-"cos" aa]2`** --- derived by dividing by **`"cos" aa`**
 
-**`[-"tan" aa]2 : 1 = [-"sin" aa]2`** &mdash; derived by dividing by **`"sin" aa`**
+**`[-"tan" aa]2 : 1 = [-"sin" aa]2`** --- derived by dividing by **`"sin" aa`**
 
 ### angle sum identities
 
@@ -104,29 +104,29 @@ also see [[euler's formula]]
 
 difference identities can be computed using the sum identities above
 
-> **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=5103>
+> **proof** --- <https://youtu.be/7gigNsz4Oe8?t=5103>
 
 ### double- and half-angle identities
 
-**`"sin" 2x = 2 | "sin" x | "cos" x`** &mdash; derived from angle sum identities
+**`"sin" 2x = 2 | "sin" x | "cos" x`** --- derived from angle sum identities
 
-**`"cos" 2x = ["cos" x]2 .["sin" x]2`** &mdash; derived from angle sum identities
+**`"cos" 2x = ["cos" x]2 .["sin" x]2`** --- derived from angle sum identities
 
-**`"cos" 2x = 1 .2["sin" x]2`** &mdash; derived by substituting by the pythagorean identity
+**`"cos" 2x = 1 .2["sin" x]2`** --- derived by substituting by the pythagorean identity
 
-**`"cos" 2x = 2["cos" x]2 . 1`** &mdash; derived by substituting by the pythagorean identity
+**`"cos" 2x = 2["cos" x]2 . 1`** --- derived by substituting by the pythagorean identity
 
-**`["sin" x]2 = 1 . "cos" 2x -- 2`** &mdash; derived by solving for **`["sin" x]2`**
+**`["sin" x]2 = 1 . "cos" 2x -- 2`** --- derived by solving for **`["sin" x]2`**
 
-**`["cos" x]2 = 1 : "cos" 2x -- 2`** &mdash; derived by solving for **`["cos" x]2`**
+**`["cos" x]2 = 1 : "cos" 2x -- 2`** --- derived by solving for **`["cos" x]2`**
 
 ## derivatives
 
 **see** [[derivative]]
 
-**`dd "sin" x -- dd x = "cos" x`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21115>
+**`dd "sin" x -- dd x = "cos" x`** --- [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21115>
 
-**`dd "cos" x -- dd x = ."sin" x`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21193>
+**`dd "cos" x -- dd x = ."sin" x`** --- [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=21193>
 
 **`dd "tan" x -- dd x = [-"cos" x]2`**
 
@@ -136,8 +136,8 @@ difference identities can be computed using the sum identities above
 
 **`dd -"tan" x -- dd x = .[-"sin" x]2`**
 
-**`dd "asin" x -- dd x = -- \1.x2/`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29016>
+**`dd "asin" x -- dd x = -- \1.x2/`** --- [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29016>
 
-**`dd "acos" x -- dd x = . -- \1.x2/`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29111>
+**`dd "acos" x -- dd x = . -- \1.x2/`** --- [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29111>
 
-**`dd "atan" x -- dd x = -- 1 : x2`** &mdash; [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29233>
+**`dd "atan" x -- dd x = -- 1 : x2`** --- [[proof]] <https://youtu.be/HfACrKJ_Y2w?t=29233>

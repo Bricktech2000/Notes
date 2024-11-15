@@ -4,13 +4,13 @@ _algorithm to compute the [[gradient]] of a [[neural network]] efficiently_
 
 **see** [[math notation]], [[neural network]], [[calculus]], [[calculus notation]]
 
-&mdash; <https://youtu.be/kbGu60QBx2o>
+--- <https://youtu.be/kbGu60QBx2o>
 
-&mdash; <https://youtu.be/Ilg3gGewQ5U?t=698>
+--- <https://youtu.be/Ilg3gGewQ5U?t=698>
 
-&mdash; <http://neuralnetworksanddeeplearning.com/chap2.html#the_four_fundamental_equations_behind_backpropagation> summary
+--- <http://neuralnetworksanddeeplearning.com/chap2.html#the_four_fundamental_equations_behind_backpropagation> summary
 
-&mdash; me
+--- me
 
 let **`g_* z = x -> dd g z^x -- dd x`**
 
@@ -63,7 +63,7 @@ written using [[matrix#multiplication]], **`dd a_j = rr w_k->j | (dd a_j | g_* z
 
 **`dd w_k->j`** are averaged through a fixed-size batch of training examples
 
-&mdash; <https://youtu.be/tIeHLnjs5U8?t=310>
+--- <https://youtu.be/tIeHLnjs5U8?t=310>
 
 then,
 
@@ -73,4 +73,4 @@ then,
 - **`w_*k->j`** are the updated weights from layer **`j`** to layer **`k`**
 - **`aa`** is the _learning rate_ of the [[neural network]]
 
-&mdash; <https://youtu.be/w8yWXqWQYmU?t=627>
+--- <https://youtu.be/w8yWXqWQYmU?t=627>

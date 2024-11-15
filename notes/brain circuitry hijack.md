@@ -1,6 +1,6 @@
 # Brain Circuitry Hijack
 
-&mdash; <https://youtu.be/DMw8G3RPWrQ?t=7038>
+--- <https://youtu.be/DMw8G3RPWrQ?t=7038>
 
 _unlocking rewards by unconsciously manipulating hard-wired [[brain]] circuitry_
 
@@ -10,7 +10,7 @@ the [[brain]] circuitry being hijacked is often related to [[intent to mastery]]
 
 parasocial relationships occcur when our brains are tricked into thinking that we have a relationship with someone, even though that is not the case
 
-> **example** _Sasha Grey_ &mdash; <https://youtu.be/DMw8G3RPWrQ?t=7128>
+> **example** _Sasha Grey_ --- <https://youtu.be/DMw8G3RPWrQ?t=7128>
 
 > **examples** _items that should come at a certain "tier" of a relationship but can also be experienced through following someone_
 >
@@ -19,7 +19,7 @@ parasocial relationships occcur when our brains are tricked into thinking that w
 > - inside jokes between a content creator and their audience
 > - laughing and having a good time, _remember when... ?_ moments
 
-_I think what [[social media]] platforms are discovering is that the stronger the parasocial relationship, probably the higher the user engagement_ &mdash; Dr. K
+_I think what [[social media]] platforms are discovering is that the stronger the parasocial relationship, probably the higher the user engagement_ --- Dr. K
 
 ## video games
 

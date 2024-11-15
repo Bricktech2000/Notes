@@ -36,7 +36,7 @@ having units in [[programming language]]s would solve a lot of issues, such as:
 
 as with every idea I have, turns out it already exists:
 
-- <https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/units-of-measure> &mdash; <https://youtu.be/qC_ioJQpv4E?t=2126>
+- <https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/units-of-measure> --- <https://youtu.be/qC_ioJQpv4E?t=2126>
 - <https://en.wikipedia.org/wiki/Dimensional_analysis#Programming_languages>
 
 ### we are a tiny subset of everything
@@ -88,7 +88,7 @@ use GPT-3 on a list of true statements to get it to complete new statements in a
 
 ### UTF-256
 
-a service that assigns a UTF-256 codepoint to any image uploaded to it &mdash; idea stolen from <https://youtu.be/vcFBwt1nu2U> if I remember correctly
+a service that assigns a UTF-256 codepoint to any image uploaded to it --- idea stolen from <https://youtu.be/vcFBwt1nu2U> if I remember correctly
 
 ### Reaction YouTube Channel
 
@@ -304,7 +304,7 @@ then using an APL fork and $\circ$ as the [[composition#identity]],
 
 $| - \circ$
 
-&mdash; <https://youtu.be/bXsKo2ZhgTg>
+--- <https://youtu.be/bXsKo2ZhgTg>
 
 ---
 
@@ -423,9 +423,9 @@ powersets are neat as well: **`/\ * -| S`**. they are parsed as **`/\ (* -| S)`*
 
 ---
 
-&mdash; <https://youtu.be/-bPnt2oxw-Q>
+--- <https://youtu.be/-bPnt2oxw-Q>
 
-E24 &mdash; **`1-100`** tolerance &mdash; **`-4 "W"`**
+E24 --- **`1-100`** tolerance --- **`-4 "W"`**
 
 - [x] **`10`**
 - [ ] **`11`**
@@ -458,7 +458,7 @@ E24 &mdash; **`1-100`** tolerance &mdash; **`-4 "W"`**
 
 ---->---<--|-----
 
-exerpt from Rich Dad Poor Dad about [[learning]] through friendships &mdash; <https://youtu.be/wp7Lz1svVro?t=18189>
+exerpt from Rich Dad Poor Dad about [[learning]] through friendships --- <https://youtu.be/wp7Lz1svVro?t=18189>
 
 ---
 
@@ -596,7 +596,7 @@ $x = \text-4\iota \mid \tau : 2n\tau \land \mathbb N n$
 
 ---
 
-**`--dd x | dd ([x : h]3 . x3 -- h {h -> 0}) | (x[n:1] -- n:1 {0 : ...}) -- ($ /t\ | dd t {x . 0})`** &mdash; <https://youtu.be/X0zYYFgQ5z0>
+**`--dd x | dd ([x : h]3 . x3 -- h {h -> 0}) | (x[n:1] -- n:1 {0 : ...}) -- ($ /t\ | dd t {x . 0})`** --- <https://youtu.be/X0zYYFgQ5z0>
 
 ---
 
@@ -608,7 +608,7 @@ the last element of a [[list]]
 
 ---
 
-**`(v * | u *) . (u * | v *)`** &mdash; <https://youtu.be/Y1gOYtQYRXo?t=1466>
+**`(v * | u *) . (u * | v *)`** --- <https://youtu.be/Y1gOYtQYRXo?t=1466>
 
 ---
 
@@ -657,7 +657,7 @@ therefore, the area of the collection of rectangles is $\displaystyle \sum_{i=0}
 
 ---
 
-&mdash; <https://qoiformat.org/qoi-specification.pdf>
+--- <https://qoiformat.org/qoi-specification.pdf>
 
 ```
 # The Quite Ok Image Format:
@@ -890,11 +890,11 @@ The run-length is stored with a bias of `-1`. Note that the run- lengths `63` an
 
 ---
 
-$a \sim b$ &emsp; $a \sim\!\sim b$
+$a \sim b$ --- $a \sim\!\sim b$
 
-$a = b$ &emsp; $a =\!= b$
+$a = b$ --- $a =\!= b$
 
-$a + b$ &emsp; $a \times b$
+$a + b$ --- $a \times b$
 
 ---
 
@@ -1006,59 +1006,59 @@ for a more precise search: ``\v(\*\*`[^*]{-})@<=(...)([^*]{-}`\*\*)@=``
 
 ---
 
-**`ab`** &mdash; shorthand multiplication
+**`ab`** --- shorthand multiplication
 
-**`a'b`** &mdash; multiplication
+**`a'b`** --- multiplication
 
-**`a-b`** &mdash; division
+**`a-b`** --- division
 
-**`a | b`** &mdash; low-precedence multiplication
+**`a | b`** --- low-precedence multiplication
 
-**`a -- b`** &mdash; low-precedence division
+**`a -- b`** --- low-precedence division
 
-**`a:b`** &mdash; addition
+**`a:b`** --- addition
 
-**`a..b`** &mdash; subtraction
+**`a..b`** --- subtraction
 
-**`f = a. b. a-b`** &mdash; abstraction
+**`f = a. b. a-b`** --- abstraction
 
-**`f x`** &mdash; shorthand application
+**`f x`** --- shorthand application
 
-**`f <- x`** &mdash; application #xxx remove?
+**`f <- x`** --- application #xxx remove?
 
-**`` `f y ``** &mdash; shorthand inverse application
+**`` `f y ``** --- shorthand inverse application
 
-**`f -> y`** &mdash; inverse application #xxx remove?
+**`f -> y`** --- inverse application #xxx remove?
 
-**`fg`** &mdash; shorthand [[composition]]
+**`fg`** --- shorthand [[composition]]
 
-**``f`g``** &mdash; [[composition]]
+**``f`g``** --- [[composition]]
 
-**`f \\ g`** &mdash; low-precedence [[composition]]
+**`f \\ g`** --- low-precedence [[composition]]
 
-**`fww`** &mdash; shorthand repeated composition
+**`fww`** --- shorthand repeated composition
 
-**`{f}n`** &mdash; repeated composition
+**`{f}n`** --- repeated composition
 
-**`f'g`** &mdash; [[combinator#phi combinator]], [[polymorphism#rank polymorphism]]
+**`f'g`** --- [[combinator#phi combinator]], [[polymorphism#rank polymorphism]]
 
-**`` `f `** &mdash; composition inverse
+**`` `f `** --- composition inverse
 
-**`\\ f`** &mdash; low-precedence composition inverse
+**`\\ f`** --- low-precedence composition inverse
 
 > **examples**
 >
-> - **`dd{-2}`** &mdash; half-derivative operator
-> - **`` `dd``** &mdash; antiderivative operator
-> - **`x = ..b : \b2..4ac/ -- 2a`** &mdash; quadratic formula
+> - **`dd{-2}`** --- half-derivative operator
+> - **`` `dd``** --- antiderivative operator
+> - **`x = ..b : \b2..4ac/ -- 2a`** --- quadratic formula
 
 ---
 
-factorial **`"fact" = (|)sshh`** &mdash; <https://oeis.org/A000142>
+factorial **`"fact" = (|)sshh`** --- <https://oeis.org/A000142>
 
-factorial of factorial **`((|)sshh)2`** &mdash; <https://oeis.org/A000197>
+factorial of factorial **`((|)sshh)2`** --- <https://oeis.org/A000197>
 
-superfactorial **`(|)2(sshh)2`** &mdash; <https://en.wikipedia.org/wiki/Superfactorial> and <https://oeis.org/A000178>
+superfactorial **`(|)2(sshh)2`** --- <https://en.wikipedia.org/wiki/Superfactorial> and <https://oeis.org/A000178>
 
 **`(:)(ww [.]) == [1]1 : [2]2 : [3]3 : ...`**
 
@@ -1100,20 +1100,20 @@ search:
 
 ``\v(\*\*`[^*]{-})@<=(\|\||-\>|\.|\*|\{|\}|:1|PP|dd|\$|\.\.\.|_|\^| ")([^*]{-}`\*\*)@=``
 
-&mdash; <https://chat.openai.com/c/a8ad9268-d064-4385-a98b-05c34e4744e5>
+--- <https://chat.openai.com/c/a8ad9268-d064-4385-a98b-05c34e4744e5>
 
-&mdash; <https://stackoverflow.com/questions/18391665/vim-positive-lookahead-regex>
+--- <https://stackoverflow.com/questions/18391665/vim-positive-lookahead-regex>
 
-&mdash; <https://vi.stackexchange.com/questions/16276/whats-the-difference-between-the-zs-and-atoms-in-vim-regex>
+--- <https://vi.stackexchange.com/questions/16276/whats-the-difference-between-the-zs-and-atoms-in-vim-regex>
 
-&mdash; <https://vi.stackexchange.com/questions/36229/how-to-overlap-searching-result>
+--- <https://vi.stackexchange.com/questions/36229/how-to-overlap-searching-result>
 
-&mdash; <https://superuser.com/questions/505727/is-there-a-pattern-like-in-vim>
+--- <https://superuser.com/questions/505727/is-there-a-pattern-like-in-vim>
 
 todo tags to be added:
 
-- [[matrix#multiplication]] &mdash; #todo mm
-- [[limit]] notation &mdash; #todo lim
+- [[matrix#multiplication]] --- #todo mm
+- [[limit]] notation --- #todo lim
 - [[composition#identity]] notation #todo id
 - **`"abs"`** and **`"arg"`** notations #todo abs
 - [[function#inverse]] notation #todo inv

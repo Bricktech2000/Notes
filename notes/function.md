@@ -6,8 +6,8 @@
 
 a [[function]] **`HH`** between [[set]]s **`A`** and **`B`** is a [[relation]] between **`A`** and **`B`** such that:
 
-1. **`HH a b /\ B b > A a`** or alternatively **`B h a > A a`** &mdash; there exists some output for every input
-2. **`HH a b_1 /\ HH a b_2 < b_1 = b_2`** or alternatively **`a_1 = a_2 < h a_1 = h a_2`** &mdash; there exists exactly one output for any input
+1. **`HH a b /\ B b > A a`** or alternatively **`B h a > A a`** --- there exists some output for every input
+2. **`HH a b_1 /\ HH a b_2 < b_1 = b_2`** or alternatively **`a_1 = a_2 < h a_1 = h a_2`** --- there exists exactly one output for any input
 
 one can use the _horizontal [[line]] test_ to determine whether the graph of a [[curve]] is the graph of a [[function]]
 
@@ -63,7 +63,7 @@ _multiplication by a [[scalar]]_ **`cf x = c | f x`**
 
 **definition** the _roots_ of a [[function]] **`f`** are the values of **`x`** such that **`f x = 0`**
 
-this asymmetry between the "input" and the "output" of a [[function]] is what distinguishes it from a [[relation]] &mdash; <https://youtu.be/O2lZkr-aAqk?t=724>
+this asymmetry between the "input" and the "output" of a [[function]] is what distinguishes it from a [[relation]] --- <https://youtu.be/O2lZkr-aAqk?t=724>
 
 **properties**
 
@@ -123,7 +123,7 @@ a point where [[function#concavity]] changes (from up to down or down to up) is 
 
 **see** [[function#inflection point]], [[derivative]]
 
-> extrema are the largest and smallest value of the function, either within a given range (the local or relative extrema), or on the entire [[function#domain]] (the global or absolute extrema). &mdash; Wikipedia
+> extrema are the largest and smallest value of the function, either within a given range (the local or relative extrema), or on the entire [[function#domain]] (the global or absolute extrema). --- Wikipedia
 
 **definition**
 
@@ -154,7 +154,7 @@ let **`f`** be a [[function#continuous function]] near **`x = c`** and **`c`** b
 
 **see** [[function#extremum]]
 
-**definition** An _inflection point_ [...] is a point on a smooth plane [[curve]] at which the [[function#curvature]] changes sign &mdash; Wikipedia
+**definition** An _inflection point_ [...] is a point on a smooth plane [[curve]] at which the [[function#curvature]] changes sign --- Wikipedia
 
 **definition** a [[function]] **`f`** has an _inflection point_ at **`c`** if it is continuous at **`c`** and its [[function#concavity]] changes sign at **`c`**
 
@@ -236,7 +236,7 @@ the tangent of a [[function]] **`f`** approximates **`f (x ...)`** near a point 
 
 _used to represent [[function#curvature]] at a point_
 
-&mdash; <https://youtu.be/jvPPXbo87ds?t=1847>
+--- <https://youtu.be/jvPPXbo87ds?t=1847>
 
 an osculating [[circle]] has the same [[function#slope]] and the same [[function#curvature]] as a given [[function]] at a point
 
@@ -251,15 +251,15 @@ an osculating [[circle]] has the same [[function#slope]] and the same [[function
 - **`$ f`** is an [[antiderivative]] of **`f`** with respect to **`x`**
 - **`"ave" f`** is the _average_ of the [[function]] **`f`** on the [[interval]] **`a -| * -| b`**
 
-&mdash; <https://youtu.be/7gigNsz4Oe8?t=3093>
+--- <https://youtu.be/7gigNsz4Oe8?t=3093>
 
-&mdash; <https://youtu.be/FnJqaIESC2s>
+--- <https://youtu.be/FnJqaIESC2s>
 
 ## Arclength
 
 **see** [[integral]]
 
-**definition** **`"arc" f = $ t. "abs" (dd f t)`** where **`f t = (x, f x ...)`** &mdash; <https://tutorial.math.lamar.edu/classes/calciii/vectorarclength.aspx>
+**definition** **`"arc" f = $ t. "abs" (dd f t)`** where **`f t = (x, f x ...)`** --- <https://tutorial.math.lamar.edu/classes/calciii/vectorarclength.aspx>
 
 **definition** **`"arc" f = $ x. "abs" (1, dd f x)`**, see [[euclidean vector#magnitude]]
 
@@ -311,19 +311,19 @@ a [[function]] can be proven to be bijective by proving it is both injective and
 
 **see** [[derivative]]
 
-**definition** an _analytic function_ is a [[function]] that is locally given by a [[series#convergent series]] [[series#power series]] &mdash; Wikipedia
+**definition** an _analytic function_ is a [[function]] that is locally given by a [[series#convergent series]] [[series#power series]] --- Wikipedia
 
 **properties**
 
-a [[function#analytic function]] is infinitely differentiable, but an infinitely differentiable [[function]] is not necessarily analytic &mdash; <https://youtu.be/X0razs3zR94?t=598>
+a [[function#analytic function]] is infinitely differentiable, but an infinitely differentiable [[function]] is not necessarily analytic --- <https://youtu.be/X0razs3zR94?t=598>
 
-analytic continuation of a [[function#analytic function]] is uniquely determined &mdash; <https://youtu.be/YuIIjLr6vUA?t=1746>
+analytic continuation of a [[function#analytic function]] is uniquely determined --- <https://youtu.be/YuIIjLr6vUA?t=1746>
 
 ## Pure Function
 
 **definition** a _pure function_ is a [[function]] that has no side effects and that does not depend on external state
 
-of course, any [[function]] can be thought of as having side effects. for example, running a [[function#pure function]] on a CPU still consumes a measurable amount of [[energy]], modifying the entropy of the universe &mdash; <https://youtu.be/APUCMSPiNh4?t=2594>. practically, however, this definition remains useful
+of course, any [[function]] can be thought of as having side effects. for example, running a [[function#pure function]] on a CPU still consumes a measurable amount of [[energy]], modifying the entropy of the universe --- <https://youtu.be/APUCMSPiNh4?t=2594>. practically, however, this definition remains useful
 
 **properties**
 
@@ -352,9 +352,9 @@ a [[function#total function]] maps every element of its [[function#domain]] to s
 
 ## Idempotent Function
 
-&mdash; <https://en.wikipedia.org/wiki/Idempotence>
+--- <https://en.wikipedia.org/wiki/Idempotence>
 
-&mdash; <https://youtu.be/VvUdvte1V3s?t=1261>
+--- <https://youtu.be/VvUdvte1V3s?t=1261>
 
 **definition** _[[procedural programming]]_ a [[function]] with side effects is said to be _idempotent_ if calling it multiple times results in the same system state as calling it once
 

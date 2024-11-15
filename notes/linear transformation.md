@@ -35,11 +35,11 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear transformation]] **
 
 > **proof** by definition, applying a [[linear transformation]] on [[vector]]s of the [[function#domain]] [[vector space]] will yield the images of those [[vector]]s in the [[function#codomain]] [[vector space]]. since multiplying a [[matrix]] by a [[basis#standard basis]] [[vector]] yields one of the columns of the [[matrix]], the columns of a [[linear transformation#standard matrix]] corresponds to the images of the [[basis#standard basis]] [[vector]]s
 >
-> &mdash; me
+> --- me
 
 **properties**
 
-**`:(AB)x = A(:Bx)`** #todo mm &mdash; [[matrix#multiplication]] on the [[linear transformation#standard matrix]]es of two [[linear transformation]]s gives the [[composition]] of the two [[linear transformation]]s
+**`:(AB)x = A(:Bx)`** #todo mm --- [[matrix#multiplication]] on the [[linear transformation#standard matrix]]es of two [[linear transformation]]s gives the [[composition]] of the two [[linear transformation]]s
 
 **examples**
 
@@ -57,13 +57,13 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear transformation]] **
 >
 > with **`(c, f c) = (x, y)`**, we get the [[linear transformation]] **`T (x, y) = (x"cos" aa . y"sin" aa, x"sin" aa : y"cos" aa)`**. its [[linear transformation#standard matrix]] is **`rr (T I *) = []"cos" aa & ."sin" aa && "sin" aa & "cos" aa[]`**. defining **`T`** using [[matrix#multiplication]], we get **`T (x, y) = :([]"cos" aa & ."sin" aa && "sin" aa & "cos" aa[] *)[]x && y[] = []x"cos" aa . y"sin" aa && x"sin" aa : y"cos" aa[]`**, which can also be graphed as **`x"sin" aa : y"cos" aa = f (x"cos" aa . y"sin" aa)`**
 >
-> &mdash; me
+> --- me
 
 > **example** _deriving the 2D Rotation Matrix, in a sane way_
 >
 > the columns of a [[linear transformation#standard matrix]] are the images of the [[basis#standard basis]] [[vector]]s. to rotate a [[plane]] by **`aa "rad"`**, we want **`(1, 0)`** to end up at **`("cos" aa, "sin" aa)`** and **`(0, 1)`** to end up at **`(."sin" aa, "cos" aa)`**. therefore, the [[linear transformation#standard matrix]] is **`[]"cos" aa & ."sin" aa && "sin" aa & "cos" aa[]`**
 >
-> &mdash; me
+> --- me
 
 ## Kernel
 

@@ -1,14 +1,14 @@
 # Computer Science
 
-&mdash; <https://youtu.be/SzJ46YA_RaA>
+--- <https://youtu.be/SzJ46YA_RaA>
 
-> **resource** _Programming Challenges V4_, list containing some decent programming project ideas &mdash; <https://programming-challenges.jeremyjaydan.dev/media/programming-challenges-v4.0.png>
+> **resource** _Programming Challenges V4_, list containing some decent programming project ideas --- <https://programming-challenges.jeremyjaydan.dev/media/programming-challenges-v4.0.png>
 
-> **resource** _Build your own X_, links to guides on building classic programming projects from scratch &mdash; <https://github.com/codecrafters-io/build-your-own-x>
+> **resource** _Build your own X_, links to guides on building classic programming projects from scratch --- <https://github.com/codecrafters-io/build-your-own-x>
 
-> **resource** _Bit Twiddling Hacks_, collection of low-level programming tricks &mdash; <https://graphics.stanford.edu/~seander/bithacks.html>
+> **resource** _Bit Twiddling Hacks_, collection of low-level programming tricks --- <https://graphics.stanford.edu/~seander/bithacks.html>
 
-> **resource** _Reflections on Trusting Trust_ by Ken Thompson, on why source code cannot truly be trusted &mdash; <https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf>
+> **resource** _Reflections on Trusting Trust_ by Ken Thompson, on why source code cannot truly be trusted --- <https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf>
 
 **see**
 

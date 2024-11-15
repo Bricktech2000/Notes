@@ -2,7 +2,7 @@
 
 **see** [[math notation]], [[probability distribution]]
 
-&mdash; <https://en.wikipedia.org/wiki/Pareto_distribution>
+--- <https://en.wikipedia.org/wiki/Pareto_distribution>
 
 **definition** the [[probability density function]] of a pareto distribution is **`x -> [x_m -- x]a`** with **`x_m |- 0 /\ a |- 0`**
 

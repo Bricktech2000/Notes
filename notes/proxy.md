@@ -2,7 +2,7 @@
 
 **see** [[statistics]], [[goodhart's law]], [[equality]]
 
-**definition** a _proxy_ is a variable that is not in itself directly relevant, but that serves in place of an unobservable or immeasurable variable &mdash; Wikipedia
+**definition** a _proxy_ is a variable that is not in itself directly relevant, but that serves in place of an unobservable or immeasurable variable --- Wikipedia
 
 [[proxy]]es have either a positive or a negative correlation with the variable they are proxies for
 
@@ -11,7 +11,7 @@
 > - degrees are a [[proxy]] for knowledge. also see mass [[education]] issues
 > - resumes are a [[proxy]] for professional experience and competence
 > - ownership of branded goods is a [[proxy]] for [[wealth]] and status
-> - per-capita [[gross domestic product]] is a [[proxy]] for standard of living &mdash; Wikipedia
+> - per-capita [[gross domestic product]] is a [[proxy]] for standard of living --- Wikipedia
 
 # Pursuit
 
@@ -29,4 +29,4 @@ one class of [[proxy#pursuit]]s that's easy to recognize in the wild is people (
 >   > **note** this can take many forms: taking on busywork, scrolling on [[social media]], [[projection]]...
 > - watching a movie to avoid boredom (a [[proxy]] for stagnation) instead of actually exploring interesting new things
 
-_in life [...] we devalue the thing that leads to the result and instead we value the result as a [[proxy]] to the thing_ &mdash; <https://youtu.be/kPZwR3v_UyI?t=2h1m43s>
+_in life [...] we devalue the thing that leads to the result and instead we value the result as a [[proxy]] to the thing_ --- <https://youtu.be/kPZwR3v_UyI?t=2h1m43s>

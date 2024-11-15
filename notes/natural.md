@@ -8,7 +8,7 @@ _the [[set]] of [[natural]] numbers_
 
 > **note** **`NN 0`**
 
-> **note** some definitions exclude **`0`** from the [[set]] of [[natural]] [[number]]s &mdash; <https://en.wikipedia.org/wiki/Natural_number>
+> **note** some definitions exclude **`0`** from the [[set]] of [[natural]] [[number]]s --- <https://en.wikipedia.org/wiki/Natural_number>
 
 **properties**
 

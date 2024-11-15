@@ -4,7 +4,7 @@ _[[trick]]s for [[learning]] [[fact]]s_
 
 **see** [[memory]], [[memory technique]], [[trick]]
 
-&mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0&ab_channel=PierceCollegeDist11>
+--- <https://www.youtube.com/watch?v=IlU-zDU6aQ0&ab_channel=PierceCollegeDist11>
 
 ## acronyms
 

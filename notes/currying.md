@@ -2,7 +2,7 @@
 
 **see** [[function]], [[functional programming]]
 
-**definition** _currying_ is the process of transforming a [[function]] that takes multiple arguments into a set of nested [[function]]s that each take a single argument &mdash; GitHub Copilot
+**definition** _currying_ is the process of transforming a [[function]] that takes multiple arguments into a set of nested [[function]]s that each take a single argument --- GitHub Copilot
 
 **examples**
 

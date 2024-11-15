@@ -16,7 +16,7 @@ a malfunction of the pons can lead to a [[sleep]] disorder known as _REM behavio
 
 some people believe that dreaming is meant for one to explore logically nonsensical scenarios while asleep to then come up with novel ideas while awake (the emotional regions of the [[brain]] are stimulated but the logical reasoning regions are almost shut down)
 
-&mdash; The Mind Explained | Dreams <https://www.netflix.com/watch/81062189?trackId=254743534>
+--- The Mind Explained | Dreams <https://www.netflix.com/watch/81062189?trackId=254743534>
 
 ## factors affecting sleep
 
@@ -41,26 +41,26 @@ having a strict and consistent [[sleep]] schedule drastically increases [[sleep]
 
 stick to this schedule at least 6 days a week
 
-[[sleep]] has evolved to be adaptable, which is why it is so easy to disrupt one's [[sleep]] schedule &mdash; <https://youtu.be/1aogY1Tm2Lo?t=1250>
+[[sleep]] has evolved to be adaptable, which is why it is so easy to disrupt one's [[sleep]] schedule --- <https://youtu.be/1aogY1Tm2Lo?t=1250>
 
 ## pre-bedtime routine
 
 for example, warm shower and 10 minutes of meditation. writing down lingering thoughts and ideas can be a solution to a running mind at night
 
-limiting screen use is important. for example, _no screentime 30 minutes before bed_. 1 to 2 hours is even better &mdash; <https://youtu.be/iMfsa7ntJZE?t=502>
+limiting screen use is important. for example, _no screentime 30 minutes before bed_. 1 to 2 hours is even better --- <https://youtu.be/iMfsa7ntJZE?t=502>
 
 ## naps
 
-naps should be **`0 ... 20`** minutes in length &mdash; enough to get into stage-2 [[sleep]], which boosts [[memory]] and creativity
+naps should be **`0 ... 20`** minutes in length---enough to get into stage-2 [[sleep]], which boosts [[memory]] and creativity
 
 naps longer than **`90`** minutes will make it more [[difficult]] to fall asleep at night
 
-## &mdash;
+## ---
 
-&mdash; <https://www.youtube.com/watch?v=Oq28WJpZfLg&ab_channel=MedSchoolInsiders>
+--- <https://www.youtube.com/watch?v=Oq28WJpZfLg&ab_channel=MedSchoolInsiders>
 
-&mdash; <https://www.youtube.com/watch?v=XtDc_iJ-j-M&ab_channel=MedSchoolInsiders>
+--- <https://www.youtube.com/watch?v=XtDc_iJ-j-M&ab_channel=MedSchoolInsiders>
 
-&mdash; <https://www.youtube.com/watch?v=eavEgXMmenQ>
+--- <https://www.youtube.com/watch?v=eavEgXMmenQ>
 
-&mdash; <https://www.youtube.com/watch?v=qB4H3QuVpMo&ab_channel=DrSamRobbins>
+--- <https://www.youtube.com/watch?v=qB4H3QuVpMo&ab_channel=DrSamRobbins>

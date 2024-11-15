@@ -1,6 +1,6 @@
 # Polymorphism
 
-&mdash; <https://en.wikipedia.org/wiki/Polymorphism_(computer_science)>
+--- <https://en.wikipedia.org/wiki/Polymorphism_(computer_science)>
 
 ## Ad Hoc Polymorphism
 
@@ -14,7 +14,7 @@ _[[operator]] overloading, [[generic]]s_
 
 **definition** _parametric polymorphism_ allows a [[function]] to be written generally so that it can handle values uniformly regardless of their [[type]]
 
-a [[function]] is said to be _parametrically polymorphic_ if it is possible to replace the [[type]] of its input with a different [[type]] without having any effect on its behavior. such [[function]]s can be implemented with the same "formula" for any [[type]]. &mdash; <https://youtu.be/aIOMRqiwziM?t=540>
+a [[function]] is said to be _parametrically polymorphic_ if it is possible to replace the [[type]] of its input with a different [[type]] without having any effect on its behavior. such [[function]]s can be implemented with the same "formula" for any [[type]]. --- <https://youtu.be/aIOMRqiwziM?t=540>
 
 ## Subtype Polymorphism
 
@@ -30,12 +30,12 @@ _[[object-oriented programming]] inheritance and [[interface]]s, often [[type sy
 >
 > $1 \lfloor\ \mathbb x$ in BQN (supports [[polymorphism#rank polymorphism]]) is equivalent to **`1 __ x`** in my [[math notation]] (supports [[polymorphism#rank polymorphism]]) which is equivalent to `map (map (min 1)) x` in Haskell (does not support [[polymorphism#rank polymorphism]])
 >
-> &mdash; <https://youtu.be/8ynsN4nJxzU?t=812>
+> --- <https://youtu.be/8ynsN4nJxzU?t=812>
 
-### &mdash;
+### ---
 
-&mdash; <https://youtu.be/8ynsN4nJxzU?t=612>
+--- <https://youtu.be/8ynsN4nJxzU?t=612>
 
-&mdash; <https://prl.ccs.neu.edu/blog/2017/05/04/rank-polymorphism/>
+--- <https://prl.ccs.neu.edu/blog/2017/05/04/rank-polymorphism/>
 
-&mdash; <https://youtu.be/8Ab3ArE8W3s?t=659>
+--- <https://youtu.be/8Ab3ArE8W3s?t=659>

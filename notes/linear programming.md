@@ -1,6 +1,6 @@
 # Linear Programming
 
-&mdash; <https://youtu.be/K7TL5NMlKIk?t=348>
+--- <https://youtu.be/K7TL5NMlKIk?t=348>
 
 _used to optimize a [[function]] through a set of linear constraints_
 
@@ -24,7 +24,7 @@ _used to optimize a [[function]] through a set of linear constraints_
 
 ![[Pasted image 20230506120415.png]]
 
-&mdash; <https://en.wikipedia.org/wiki/Linear_programming>
+--- <https://en.wikipedia.org/wiki/Linear_programming>
 
 ## computing extrema
 

@@ -1,6 +1,6 @@
 # Reversal Cipher
 
-&mdash; me
+--- me
 
 **see** [[math notation]]
 
@@ -24,8 +24,8 @@ both the [[function#domain]] and [[function#range]] of **`e`** and **`` `e``** a
 >
 > that is, _[[dvorak layout]] touch-typing on [[qwerty layout]] setting_ and _[[qwerty layout]] touch-typing on [[dvorak layout]] setting_ are [[function#inverse]]s of each other, forming the encipher-decipher pair of a [[reversal cipher]]
 
-## &mdash;
+## ---
 
-&mdash; <https://planetmath.org/inverseofcompositionoffunctions>
+--- <https://planetmath.org/inverseofcompositionoffunctions>
 
-&mdash; <https://proofwiki.org/wiki/Inverse_of_Product>
+--- <https://proofwiki.org/wiki/Inverse_of_Product>

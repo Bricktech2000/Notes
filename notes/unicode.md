@@ -2,9 +2,9 @@
 
 _a text encoding standard_
 
-&mdash; <https://en.wikipedia.org/wiki/Unicode>
+--- <https://en.wikipedia.org/wiki/Unicode>
 
-&mdash; <https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/>
+--- <https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/>
 
 **see** [[ascii]], [[utf-8]]
 

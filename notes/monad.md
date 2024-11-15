@@ -35,9 +35,9 @@ monad transformer #todo <https://en.wikipedia.org/wiki/Monad_transformer>
 
 ## Laws
 
-&mdash; <https://youtu.be/vhVG6sFeA58?t=3m50s>
+--- <https://youtu.be/vhVG6sFeA58?t=3m50s>
 
-&mdash; <https://en.m.wikibooks.org/wiki/Haskell/Understanding_monads>
+--- <https://en.m.wikibooks.org/wiki/Haskell/Understanding_monads>
 
 ```haskell
 return x >>= f = f x -- left identity

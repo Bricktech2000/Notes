@@ -2,7 +2,7 @@
 
 **see** [[data structure]]
 
-**definition** a _persistent data structure_ is a [[data structure]] that always preserves the previous version of itself when it is modified. such [[data structure]]s are **effectively** immutable [...] &mdash; Wikipedia
+**definition** a _persistent data structure_ is a [[data structure]] that always preserves the previous version of itself when it is modified. such [[data structure]]s are **effectively** immutable [...] --- Wikipedia
 
 > **note** not to be confused with _persistent data storage_
 
@@ -16,7 +16,7 @@
 >
 > only immutable types must be pushed to the [[stack]] to conserve the illusion of the [[stack]]'s immutability.
 >
-> &mdash; <https://youtu.be/APUCMSPiNh4?t=2830>
+> --- <https://youtu.be/APUCMSPiNh4?t=2830>
 
 ## examples
 
@@ -28,6 +28,6 @@
 
 the [[blockchain]] used in [[cryptocurrency]]es is a type of [[persistent data structure]], as every block is appended to the end of the chain without changing any of the previous blocks
 
-## &mdash;
+## ---
 
-&mdash; <https://youtu.be/APUCMSPiNh4>
+--- <https://youtu.be/APUCMSPiNh4>

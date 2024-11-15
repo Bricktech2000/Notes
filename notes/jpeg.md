@@ -6,7 +6,7 @@ _a widespread lossy [[data compression]] format for images_
 
 ## Compression
 
-&mdash; <https://youtu.be/0me3guauqOU>
+--- <https://youtu.be/0me3guauqOU>
 
 the initial step in [[jpeg#compression]] is converting the image to the [[ycbcr]] [[color space]]. human eyes are more sensitive to [[luma]] and less sensitive to [[chroma]]. therefore, reducing the resolution of the [[chroma]] components of an image has little effect on perceived image quality. _chroma subsamlping_ does so by **"choosing"** the [[chroma]] of one pixel and applying it to the surrounding pixels. _chroma downsampling_ does so by **averaging** the [[chroma]] of a group of pixels and applying it to the group
 

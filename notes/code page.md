@@ -4,7 +4,7 @@ used for backlinks
 
 ## 437
 
-&mdash; <https://en.wikipedia.org/wiki/Code_page_437>
+--- <https://en.wikipedia.org/wiki/Code_page_437>
 
 [[code page#437]] is a [[set#superset]] of **printable** [[ascii]]. it includes line-drawing characters, a few accented letters with most being lowercase, symbols and icons in place of control characters, and just about enough greek letters for highschool math
 
@@ -16,4 +16,4 @@ used for backlinks
 
 **representation**
 
-![[250px-Codepage-437.png]] &mdash; Wikipedia
+![[250px-Codepage-437.png]] --- Wikipedia

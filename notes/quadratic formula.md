@@ -10,7 +10,7 @@
 - **`p, q`** are coefficients in the quadratic equation **`x2 : px : q = 0`**
 - **`x`** are the solutions to the quadratic equation
 
-> **proof** **`\(-2p)2 . q/ . -2p = .b-(2a) : \b2-(4a2) . c-a/ = .b : \b2.4ac/ -- 2a`** &mdash; me
+> **proof** **`\(-2p)2 . q/ . -2p = .b-(2a) : \b2-(4a2) . c-a/ = .b : \b2.4ac/ -- 2a`** --- me
 
 **definition** above, **`(-2p)2 . q`** is the _discriminant_ of the quadratic equation
 
@@ -21,7 +21,7 @@
 - **`a, b, c`** are coefficients in the quadratic equation **`ax2 : bx : c = 0`**
 - **`x`** are the solutions to the quadratic equation
 
-> **proof** &mdash; <https://youtu.be/N-KXStupwsc>
+> **proof** --- <https://youtu.be/N-KXStupwsc>
 
 **definition** above, **`b2.4ac`** is the _discriminant_ of the quadratic equation
 

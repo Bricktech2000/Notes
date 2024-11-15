@@ -1,6 +1,6 @@
 # Psi Function
 
-&mdash; MAT2348 Discrete Mathematics
+--- MAT2348 Discrete Mathematics
 
 **definition**
 

@@ -1,8 +1,8 @@
 # Dynamic Programming
 
-&mdash; <https://youtu.be/6z4ePR7YYa8>
+--- <https://youtu.be/6z4ePR7YYa8>
 
-&mdash; <https://en.wikipedia.org/wiki/Dynamic_programming>
+--- <https://en.wikipedia.org/wiki/Dynamic_programming>
 
 **see** [[divide and conquer]]
 

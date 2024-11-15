@@ -39,7 +39,7 @@ _switches around the two elements of an [[ordered pair]]_
 
 **definition** **`P {+} *`**
 
-> **note** &mdash; me; likely has no [[conventional math notation]] equivalent
+> **note** --- me; likely has no [[conventional math notation]] equivalent
 
 **properties**
 

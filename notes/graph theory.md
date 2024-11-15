@@ -6,4 +6,4 @@
 
 [[breadth-first search]], [[best-first search]], [[depth-first search]]
 
-&mdash; <https://youtu.be/RBSGKlAvoiM?t=13412>
+--- <https://youtu.be/RBSGKlAvoiM?t=13412>

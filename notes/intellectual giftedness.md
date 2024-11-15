@@ -10,9 +10,9 @@ giftedness is dynamic; it can manifest at certain times, in certain ways, with c
 
 _intellectual giftedness_ is a subset of _giftedness_ focused on intellectual abilities. _high potential_ is to _giftedness_ what _high intellectual potential_ is to _intellectual giftedness_
 
-giftedness, ADHD and ASDs have similar diagnostic criteria and classic signs; they are differentiated by what lies beneath: &mdash; <https://youtu.be/jOdQ4g1gjJU>
+giftedness, ADHD and ASDs have similar diagnostic criteria and classic signs; they are differentiated by what lies beneath: --- <https://youtu.be/jOdQ4g1gjJU>
 
-|                       | giftedness &mdash; intensely perceptive              | ADHD &mdash; dopamine seeking                             | ASDs &mdash; pattern focused                  |
+|                       | giftedness---intensely perceptive                    | ADHD---dopamine seeking                                   | ASDs---pattern focused                        |
 | --------------------- | ---------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------- |
 | intense focus         | intellectual curiosity, results in exceptional skill | immediately engaging, rewarding; "addictive" [[focus]]    | rigid special interests (a coping mechanism)  |
 | need for stimulation  | intellectual challenges, keep mind engaged           | need for novelty, excitement                              | repetitive behaviors, seek consistency        |
@@ -21,18 +21,18 @@ giftedness, ADHD and ASDs have similar diagnostic criteria and classic signs; th
 | emotional intensities | hightened emotional empathy, feel more deeply        | emotional volatility, impulsivity; emotional outbursts    | emotional regulation issues, strong reactions |
 | executive functioning | [[perfectionism]], [[procrastination]], overplanning | struggle staying organized, following through with plans  | rigid thinking, distress when plans change    |
 
-## &mdash;
+## ---
 
-&mdash; _La Douance_ by Marianne Belanger
+--- _La Douance_ by Marianne Belanger
 
-&mdash; <https://youtu.be/WYBP3bVt5SY>
+--- <https://youtu.be/WYBP3bVt5SY>
 
-&mdash; <https://youtu.be/VJnqN8PMK4Q>
+--- <https://youtu.be/VJnqN8PMK4Q>
 
-&mdash; <https://youtu.be/4GCe4CKHtec>
+--- <https://youtu.be/4GCe4CKHtec>
 
-&mdash; <https://youtu.be/T6SIg9XiT7M>
+--- <https://youtu.be/T6SIg9XiT7M>
 
-&mdash; <https://youtu.be/9hq51UFkt-k>
+--- <https://youtu.be/9hq51UFkt-k>
 
-&mdash; <https://youtu.be/3DQrJ8Gsw9o> (damn.)
+--- <https://youtu.be/3DQrJ8Gsw9o> (damn.)

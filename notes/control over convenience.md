@@ -11,7 +11,7 @@ choosing [[control over convenience]] is an [[invest]]ment. with that said, the 
 > - Android's flexibility over iOS' simplicity
 > - _Nutrition Facts_ table over Mexico's warning seals
 
-> **examples** _where I prefer convenience &mdash; with rationale_
+> **examples** _where I prefer convenience --- with rationale_
 >
-> - point-and-shoot cameras are more convenient than professional cameras &mdash; however, good point-and-shoot cameras offer professional features
-> - paddle shifter transmissions are more convenient than manual transmissions &mdash; however, paddle shifter transmissions don't sacrifice control
+> - point-and-shoot cameras are more convenient than professional cameras --- however, good point-and-shoot cameras offer professional features
+> - paddle shifter transmissions are more convenient than manual transmissions --- however, paddle shifter transmissions don't sacrifice control

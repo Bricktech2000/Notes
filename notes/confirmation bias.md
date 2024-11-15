@@ -2,7 +2,7 @@
 
 _interpreting information so it becomes compatible with existing beliefs_
 
-**definition** _confirmation bias_ is a [[cognitive bias]] characterized by the tendency to search for, interpret, favor, and recall information in a way that confirms or supports one's prior beliefs or values &mdash; Wikipedia
+**definition** _confirmation bias_ is a [[cognitive bias]] characterized by the tendency to search for, interpret, favor, and recall information in a way that confirms or supports one's prior beliefs or values --- Wikipedia
 
 [[confirmation bias]] can arise from [[frequency illusion]]
 
@@ -14,7 +14,7 @@ _interpreting information so it becomes compatible with existing beliefs_
 
 _whether you think the world and everyone in it is out to hurt you or help you, you're right_
 
-one can leverage [[confirmation bias]] to change a belief of theirs. assuming something to be true will lead to [[confirmation bias]] and thus make it true &mdash; <https://youtu.be/0FGlsuTnt_U?t=844>, forming a _self fulfilling prophecy_ through the [[power of belief]]
+one can leverage [[confirmation bias]] to change a belief of theirs. assuming something to be true will lead to [[confirmation bias]] and thus make it true --- <https://youtu.be/0FGlsuTnt_U?t=844>, forming a _self fulfilling prophecy_ through the [[power of belief]]
 
 > **examples**
 >

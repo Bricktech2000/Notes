@@ -11,8 +11,8 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 - italics indicate "as-is" text (formal terms, direct quotations, titles of works...) and are used for "taglines" (easy-to-remember one-line summaries of a section)
 - bold indicates emphasis; italics are not to be used for emphasis
 - quotation marks indicate non-standard or informal usage of a word or phrase; quotation marks are not to be used for direct quotations
-- `&mdash; ...` statements are used for citing sources
-- HTML entities `&...;` are used for any non-[[ascii]] [[character]]s, such as &lambda; and &times; and &rarr;
+- `--- ...` statements are used for citing sources
+- non-[[ascii]] [[character]]s are inserted verbatim; HTML entities `&...;` are never used
 - all internal links are denoted using `[[note]]` and `![[image.png]]` [[wikilink]]s, and all external links are denoted using `<https://example.com/>`. bare URLs are to be avoided
 
 ## headings

@@ -50,9 +50,9 @@ brand new shiny hyped-up technologies are over-valued stocks; it follows that [[
 
 [[concept]] [[fact]]
 
-&mdash; <https://youtu.be/qqUgl6pFx8Q?t=1139>
+--- <https://youtu.be/qqUgl6pFx8Q?t=1139>
 
-_la mode, c'est ce qui se démode_ &mdash; Jean Cocteau &mdash; 200 répliques &mdash; Hélène Drouard
+_la mode, c'est ce qui se démode_ --- Jean Cocteau --- 200 répliques --- Hélène Drouard
 
 problem solving is usually fun but not always. when it isn't, is it because of artificiality? or maybe because it's "in the way"?
 
@@ -70,19 +70,17 @@ resource use of the semicolon <https://practicaltypography.com/semicolons-and-co
 
 Parentheses are for separating citations or other asides from the body text. Brackets show changes within quoted material. <https://practicaltypography.com/parentheses-brackets-and-braces.html>
 
-#todo hyphen en dash en dash <https://practicaltypography.com/hyphens-and-dashes.html>. en dash: dunning-kruger, backus-naur, price-value sigmoid, sign-magnitude notation, curry-howard correspondence/isomorphism, slope-intercept?, point-slope?, hindu-arabic, gauss-seidel, catmull-rom. what about `&bull;` and `&times;`?
+#todo hyphen en dash en dash <https://practicaltypography.com/hyphens-and-dashes.html>
 
-use em dash for interrupted dialogue <https://practicaltypography.com/ellipses.html>
+#xxx use em dash for interrupted dialogue <https://practicaltypography.com/ellipses.html>
 
-#todo use ellipses? <https://practicaltypography.com/ellipses.html>
+#todo ellipses <https://practicaltypography.com/ellipses.html>
 
 Also use a nonbreaking space after other abbreviated reference marks (Ex. A, Fig. 23), honorifics and titles (Sgt. Rock, Ms. Marvel), and trademark and copyright symbols. <https://practicaltypography.com/nonbreaking-spaces.html> common sense; use non-breaking spaces whenever want to prevent soft wrap
 
-#xxx `set list`? remove instead `hi Trailing`? what about`inoremap <c-space> <c-k>NS`?
-
 #todo unrelated but `:set fo+=ta tw=80`
 
-#xxx testing: Dunning--Kruger effect --- <https://practicaltypography.com/ellipses.html> #todo turn on `smarty` on website? `ltrep -s '\&\w+;&~\&mdash;&~\&bull;' **.md` and `ltrep -FH '...' **.md` and `ltrep '[rs]\. [A-Z]'`
+#todo `ltrep -H '\&\w+;' **.md | ltrep -v 'node_modules|join\.md'` and `ltrep -HF '...' **.md | ltrep -v 'node_modules|Notes' | v` and `ltrep -H '[rs]\. [A-Z]' **.md`
 
 ```
 updated:
@@ -113,7 +111,10 @@ $ v Sync/Map/Transformer\ Compressor/WRITEUP.md
 
 $ v Sync/Map/Talks/the\ lambda-calculus\ is\ practical,\ actually.md
 
+Notes
+Recipes
+
 to update:
 readmes
-resume
+Resume
 ```

@@ -1,6 +1,6 @@
 # Combinator
 
-**definition** a _combinator_ is a closed [[lambda calculus]] term &mdash; <https://youtu.be/seVSlKazsNk>
+**definition** a _combinator_ is a closed [[lambda calculus]] term --- <https://youtu.be/seVSlKazsNk>
 
 **properties**
 
@@ -64,7 +64,7 @@ _the [[composition]] of its arguments_
 
 **notation** **``f`g x``**
 
-&mdash; <https://youtu.be/SmXB2K_5lcA?t=612>
+--- <https://youtu.be/SmXB2K_5lcA?t=612>
 
 ### B1 Combinator
 
@@ -188,9 +188,9 @@ _used to formally define recursive [[function]]s in a [[functional programming]]
 
 **definition** _using [[combinator]]s_ **``Y = f. (* *) f`(* *)``** #todo id
 
-> **example** $fact = Y\ (\lambda f\ n.\ (is0\ n)\ 1\ (mul\ n\ (f\ (pred\ n))))$ &mdash; <https://crypto.stanford.edu/~blynn/lambda/>
+> **example** $fact = Y\ (\lambda f\ n.\ (is0\ n)\ 1\ (mul\ n\ (f\ (pred\ n))))$ --- <https://crypto.stanford.edu/~blynn/lambda/>
 
-&mdash; <https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator>
+--- <https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator>
 
 ### Theta Combinator
 
@@ -198,11 +198,11 @@ _used to formally define recursive [[function]]s in a [[functional programming]]
 
 **definition** **`QQ = (x. y. y (x x y)) (x. y. y (x x y))`**
 
-the advantage of the [[combinator#theta combinator]] over the [[combinator#y combinator]] is that **`QQ f`** &beta;-reduces to **`f (QQ f)`** while **`Y f`** and **`f (Y f)`** only &beta;-reduce to a common term
+the advantage of the [[combinator#theta combinator]] over the [[combinator#y combinator]] is that **`QQ f`** β-reduces to **`f (QQ f)`** while **`Y f`** and **`f (Y f)`** only β-reduce to a common term
 
-&mdash; <https://en.wikipedia.org/wiki/Fixed-point_combinator#Other_fixed-point_combinators>
+--- <https://en.wikipedia.org/wiki/Fixed-point_combinator#Other_fixed-point_combinators>
 
-&mdash; <https://crypto.stanford.edu/~blynn/lambda/quine.html#_curry>
+--- <https://crypto.stanford.edu/~blynn/lambda/quine.html#_curry>
 
 ### Iota Combinator
 
@@ -210,38 +210,38 @@ the advantage of the [[combinator#theta combinator]] over the [[combinator#y com
 
 the [[combinator#iota combinator]] can be used to define the [[combinator#s combinator]] and [[combinator#k combinator]], and can therefore be composed to produce [[combinator#combinator]]s that are extentionally equal to any term in the [[lambda calculus]]. consequently, **`ii`** [[combinatory logic]] is [[turing complete]]
 
-#### &mdash;
+#### ---
 
-&mdash; <https://en.wikipedia.org/wiki/Combinatory_logic#One-point_basis>
+--- <https://en.wikipedia.org/wiki/Combinatory_logic#One-point_basis>
 
-&mdash; <https://en.wikipedia.org/wiki/SKI_combinator_calculus#Informal_description>
+--- <https://en.wikipedia.org/wiki/SKI_combinator_calculus#Informal_description>
 
-&mdash; <https://youtu.be/gnrSedVucXs?t=1678>
+--- <https://youtu.be/gnrSedVucXs?t=1678>
 
-&mdash; <https://en.wikipedia.org/wiki/Iota_and_Jot#Universal_iota>
+--- <https://en.wikipedia.org/wiki/Iota_and_Jot#Universal_iota>
 
-### &mdash;
+### ---
 
-&mdash; <https://en.wikipedia.org/wiki/B,_C,_K,_W_system>
+--- <https://en.wikipedia.org/wiki/B,_C,_K,_W_system>
 
-&mdash; <https://en.wikipedia.org/wiki/SKI_combinator_calculus>
+--- <https://en.wikipedia.org/wiki/SKI_combinator_calculus>
 
-&mdash; <https://youtu.be/Y0KKPYkeOTA>
+--- <https://youtu.be/Y0KKPYkeOTA>
 
-&mdash; <https://youtu.be/gnrSedVucXs>
+--- <https://youtu.be/gnrSedVucXs>
 
-&mdash; <https://combinatorylogic.com/table.html> &mdash; <https://youtu.be/Y0KKPYkeOTA>
+--- <https://combinatorylogic.com/table.html> --- <https://youtu.be/Y0KKPYkeOTA>
 
-&mdash; <https://www.angelfire.com/tx4/cus/combinator/birds.html> &mdash; <https://combinatorylogic.com/table.html> &mdash; <https://youtu.be/Y0KKPYkeOTA>
+--- <https://www.angelfire.com/tx4/cus/combinator/birds.html> --- <https://combinatorylogic.com/table.html> --- <https://youtu.be/Y0KKPYkeOTA>
 
-&mdash; <https://gist.github.com/Avaq/1f0636ec5c8d6aed2e45#file-combinators-md> &mdash; <https://combinatorylogic.com/table.html> &mdash; <https://youtu.be/Y0KKPYkeOTA>
+--- <https://gist.github.com/Avaq/1f0636ec5c8d6aed2e45#file-combinators-md> --- <https://combinatorylogic.com/table.html> --- <https://youtu.be/Y0KKPYkeOTA>
 
-&mdash; <https://codegolf.stackexchange.com/questions/53250/optimizing-ski-compiler>
+--- <https://codegolf.stackexchange.com/questions/53250/optimizing-ski-compiler>
 
-&mdash; <https://cs.stackexchange.com/questions/13901/what-is-the-name-of-this-combinator>
+--- <https://cs.stackexchange.com/questions/13901/what-is-the-name-of-this-combinator>
 
-&mdash; <https://youtu.be/i1K_kUKJnE4?t=525>
+--- <https://youtu.be/i1K_kUKJnE4?t=525>
 
-&mdash; <https://youtu.be/i1K_kUKJnE4?t=562>
+--- <https://youtu.be/i1K_kUKJnE4?t=562>
 
-&mdash; <https://youtu.be/seVSlKazsNk?t=703>
+--- <https://youtu.be/seVSlKazsNk?t=703>

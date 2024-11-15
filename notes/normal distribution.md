@@ -4,7 +4,7 @@
 
 **aka** _gaussian distribution_
 
-&mdash; <https://en.wikipedia.org/wiki/Normal_distribution>
+--- <https://en.wikipedia.org/wiki/Normal_distribution>
 
 **definition** the [[probability density function]] of a normal distribution is **`x -> G^ss (x . mm)`**, where
 
@@ -19,7 +19,7 @@
 
 **properties**
 
-_partly due to the [[central limit theorem]], [...] physical quantities that are expected to be the sum of many independent processes, such as measurement errors, often have [[probability distribution]]s that are nearly normal_ &mdash; Wikipedia
+_partly due to the [[central limit theorem]], [...] physical quantities that are expected to be the sum of many independent processes, such as measurement errors, often have [[probability distribution]]s that are nearly normal_ --- Wikipedia
 
 as a rule of thumb, in a [[normal distribution]],
 
@@ -35,7 +35,7 @@ as a rule of thumb, in a [[normal distribution]],
 > - **`$ G^1 x | dd x {2 . .2} ~ 95-100`**
 > - **`$ G^1 x | dd x {3 . .3} ~ 99 7-1000`**
 
-offsetting a [[normal distribution]] upward or downward may not have much of an effect in the middle of the distribution but can have a huge impact at the tails of the distribution &mdash; <https://youtu.be/h02w5E7FGlY?t=948>
+offsetting a [[normal distribution]] upward or downward may not have much of an effect in the middle of the distribution but can have a huge impact at the tails of the distribution --- <https://youtu.be/h02w5E7FGlY?t=948>
 
 > **example**
 >

@@ -4,7 +4,7 @@
 
 **definition** a _tree_ is an acyclic undirected [[graph]]
 
-**definition** a _tree_ is a [[graph]] in which every node has exactly one parent, except for the _root node_, which has no parent &mdash; <https://en.wikipedia.org/wiki/Tree_(data_structure)>
+**definition** a _tree_ is a [[graph]] in which every node has exactly one parent, except for the _root node_, which has no parent --- <https://en.wikipedia.org/wiki/Tree_(data_structure)>
 
 > **note** in certain cases, it can be useful to set the parent of the _root node_ to itself
 
@@ -24,17 +24,17 @@
 
 ## Binary Tree
 
-**definition** a _binary tree_ is a [[tree]] in which every node has at most two children, which are referred to as the _left child_ and the _right child_ &mdash; <https://en.wikipedia.org/wiki/Binary_tree>
+**definition** a _binary tree_ is a [[tree]] in which every node has at most two children, which are referred to as the _left child_ and the _right child_ --- <https://en.wikipedia.org/wiki/Binary_tree>
 
 [[tree#binary tree]]s can be implemented using a dynamic [[array]], where a node at index **`i`** has its children at indices **`2i : 1`** and **`2i : 2`** and its parent at index **`"floor" i-2`**
 
 **types**
 
-![](20221004211912.png) &mdash; <https://towardsdatascience.com/5-types-of-binary-tree-with-cool-illustrations-9b335c430254>
+![](20221004211912.png) --- <https://towardsdatascience.com/5-types-of-binary-tree-with-cool-illustrations-9b335c430254>
 
 ### Binary Tree Traversal
 
-&mdash; <https://youtu.be/RBSGKlAvoiM?t=12886>
+--- <https://youtu.be/RBSGKlAvoiM?t=12886>
 
 **see** [[depth-first search]], [[breadth-first search]]
 

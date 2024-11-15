@@ -30,7 +30,7 @@ similarly, dividing by a [[variable]] equal to zero can be thought of as _invali
 
 ### attempt with contradiction from division by zero
 
-&mdash; <https://youtu.be/hI9CaQD7P6I>
+--- <https://youtu.be/hI9CaQD7P6I>
 
 the video above does _not_ break the principle stated above. the following rule would solve the issue outlined in the video above:
 
@@ -55,7 +55,7 @@ without the additional restriction, the second equality would have solutions tha
 
 ### attempt with division by zero
 
-&mdash; <https://youtu.be/hI9CaQD7P6I?t=70>
+--- <https://youtu.be/hI9CaQD7P6I?t=70>
 
 at the [[time]]stamp included in the URL above, the teacher divided both sides of the equality by the value **`a . b`** without adding the restriction required by the rule above. if he had added the restriction **`a . b + 0`**, it would've been a [[contradiction]] with the equality **`a = b`**
 
@@ -117,7 +117,7 @@ using the [[logarithm]] [[antiderivative]] rule, **`$ 1 -- x | dd x = /"abs" x\ 
 
 ### exponents and square roots
 
-define **`\x2/ = x`**, but **`\4/ = {2 \/ .2}`** &mdash; Kiera
+define **`\x2/ = x`**, but **`\4/ = {2 \/ .2}`** --- Kiera
 
 **`x = \x2/ = \[.x]2/ = .x`**
 
@@ -173,20 +173,20 @@ in a [[proof]], equalities must be linked together through the intended [[boolea
 
 if the result of an expression is _undefined_, then the expression must be rearranged first in order to avoid the undefined value. note that some expressions (such as **`--0`**) cannot be computed without proper context, leaving them undefined.
 
-## &mdash;
+## ---
 
-&mdash; <https://en.wikipedia.org/wiki/Indeterminate_form>
+--- <https://en.wikipedia.org/wiki/Indeterminate_form>
 
-&mdash; <https://www.youtube.com/watch?v=jNhjB4UfR9A>
+--- <https://www.youtube.com/watch?v=jNhjB4UfR9A>
 
-&mdash; <https://www.wolframalpha.com/input?i=derivative+x%5E%28n+%2B+1%29+%2F+%28n+%2B+1%29%2C+n+%3D+-1>
+--- <https://www.wolframalpha.com/input?i=derivative+x%5E%28n+%2B+1%29+%2F+%28n+%2B+1%29%2C+n+%3D+-1>
 
-&mdash; <https://www.wolframalpha.com/input?i=derivative+ln+x>
+--- <https://www.wolframalpha.com/input?i=derivative+ln+x>
 
-&mdash; <https://www.wolframalpha.com/input?i=lim+as+n+-%3E+0+%28x%5En+%2F+n+-+1+%2F+n%29>
+--- <https://www.wolframalpha.com/input?i=lim+as+n+-%3E+0+%28x%5En+%2F+n+-+1+%2F+n%29>
 
-&mdash; <https://en.wikipedia.org/wiki/Natural_logarithm#Properties>
+--- <https://en.wikipedia.org/wiki/Natural_logarithm#Properties>
 
 [[trigonometric function]] period #xxx
 
-#todo is <https://ncatlab.org/nlab/show/wheel> related here? &mdash; <https://whystartat.xyz/wiki/Unary_division> &mdash; Justin Veilleux
+#todo is <https://ncatlab.org/nlab/show/wheel> related here? --- <https://whystartat.xyz/wiki/Unary_division> --- Justin Veilleux

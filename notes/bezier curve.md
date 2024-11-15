@@ -2,9 +2,9 @@
 
 **aka** _Bézier Curve_
 
-&mdash; <https://en.wikipedia.org/wiki/B%C3%A9zier_curve>
+--- <https://en.wikipedia.org/wiki/B%C3%A9zier_curve>
 
-&mdash; <https://youtu.be/jvPPXbo87ds?t=191>
+--- <https://youtu.be/jvPPXbo87ds?t=191>
 
 **see** [[math notation]], [[spline]], [[curve]]
 
@@ -32,7 +32,7 @@ the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points
 
 ## Bernstein Polynomial
 
-Bernstein polynomials can be used to graphically represent the "influence" of each control point on the [[bezier curve]]. Bernstein polynomials are easy to derive from DeCasteljau's [[algorithm]] &mdash; <https://youtu.be/aVwxzDHniEw?t=262>
+Bernstein polynomials can be used to graphically represent the "influence" of each control point on the [[bezier curve]]. Bernstein polynomials are easy to derive from DeCasteljau's [[algorithm]] --- <https://youtu.be/aVwxzDHniEw?t=262>
 
 **definition** _Bernstein polynomials_
 
@@ -95,7 +95,7 @@ the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points
 
 ![[bezier_1_big.gif]]
 
-&mdash; Wikipedia
+--- Wikipedia
 
 ## Quadratic Bezier Curve
 
@@ -105,7 +105,7 @@ the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points
 
 ![[bezier_2_big.gif]]
 
-&mdash; Wikipedia
+--- Wikipedia
 
 ## Cubic Bezier Curve
 
@@ -115,4 +115,4 @@ the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points
 
 ![[bezier_3_big.gif]]
 
-&mdash; Wikipedia
+--- Wikipedia

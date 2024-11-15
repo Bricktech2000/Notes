@@ -6,4 +6,4 @@ _achieves [[polymorphism#parametric polymorphism]] in [[functional programming]]
 
 **see** [[trait]]
 
-&mdash; <https://youtu.be/hy1wjkcIBCU?t=1805>
+--- <https://youtu.be/hy1wjkcIBCU?t=1805>

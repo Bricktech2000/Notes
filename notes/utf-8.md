@@ -2,13 +2,13 @@
 
 _a brilliant and beautiful hack_
 
-&mdash; <https://youtu.be/_mZBa3sqTrI?t=2407>
+--- <https://youtu.be/_mZBa3sqTrI?t=2407>
 
-&mdash; <https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/>
+--- <https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/>
 
-> **resource** RFC 3629, _UTF-8, a transformation format of ISO 10646_ &mdash; <https://www.rfc-editor.org/rfc/rfc3629.html>
+> **resource** RFC 3629, _UTF-8, a transformation format of ISO 10646_ --- <https://www.rfc-editor.org/rfc/rfc3629.html>
 
-> **resource** _UTF-8 history_ email chain, a trip to the past &mdash; <https://www.cl.cam.ac.uk/~mgk25/ucs/utf-8-history.txt>
+> **resource** _UTF-8 history_ email chain, a trip to the past --- <https://www.cl.cam.ac.uk/~mgk25/ucs/utf-8-history.txt>
 
 [[utf-8]] is a [[set#superset]] of [[ascii]]; every valid 7-bit [[ascii]] [[string]] is a valid [[utf-8]] [[string]]. furthermore, no 7-bit [[ascii]] bytes appear within [[utf-8]] multi-byte sequences, and thus programs expecting [[ascii]] sentinels such as the `\0` terminator and the `/` path separator do not misbehave when processing [[utf-8]]. for other advantages of [[utf-8]] see RFC 3229 $1 'Introduction' <https://www.rfc-editor.org/rfc/rfc3629.html#section-1>
 

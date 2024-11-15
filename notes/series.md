@@ -41,7 +41,7 @@ let **`:b = b^0 : b^1 : b^2 : ...`**. then, **`S_b = (b^0), (b^0 : b^1), (b^0 : 
 
 **theorem** a [[series]] being _absolutely convergent_ implies it is _convergent_
 
-> **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=15557>
+> **proof** --- <https://youtu.be/7gigNsz4Oe8?t=15557>
 
 > **example** **see** [[series convergence examples]]
 
@@ -79,7 +79,7 @@ let **`a`** and **`b`** be [[series]] such that **`a_n |- 0 /\ b_n |- 0 > NN n`*
 - **`a`** converges if and only if **`b`** converges
 - **`a`** diverges if and only if **`b`** diverges
 
-> **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=14964>
+> **proof** --- <https://youtu.be/7gigNsz4Oe8?t=14964>
 
 ### ratio test
 
@@ -93,7 +93,7 @@ let **`b`** be a [[series]] and let **`L = "abs" (b^n:1 -- b^n) {n -> @@}`**. th
 - if **`L {|-/\+} 1`** or **`L = @@`**, **`b`** is divergent
 - if **`L = 1`** or if **`L`** does not exist, the ratio test is inconclusive
 
-> **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=16223>
+> **proof** --- <https://youtu.be/7gigNsz4Oe8?t=16223>
 
 ### divergence test
 
@@ -105,7 +105,7 @@ let **`b`** be a [[series]]. if **`b^@@ + 0`**, then **`b`** is divergent
 
 ### alternating test
 
-**theorem** let **`b`** be a [[series]] such that **`b^n = [.1]n | a^n`** where either **`a^n |- 0`** for all **`n`** or **`a^n -| 0`** for all **`n`**. then, if **`a^@@ = 0`** and if **`a`** is an eventually [[sequence#decreasing sequence]], the [[series]] **`b`** is a [[series#convergent series]] &mdash; <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
+**theorem** let **`b`** be a [[series]] such that **`b^n = [.1]n | a^n`** where either **`a^n |- 0`** for all **`n`** or **`a^n -| 0`** for all **`n`**. then, if **`a^@@ = 0`** and if **`a`** is an eventually [[sequence#decreasing sequence]], the [[series]] **`b`** is a [[series#convergent series]] --- <https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx>
 
 ### [[series#geometric series]] convergence
 
@@ -195,7 +195,7 @@ a power [[series]] centered at **`a`** is of the following form:
 
 > **note** the definition above assumes **`[0]0 = 1`**, see [[improved expression evaluation]]
 
-a [[series#power series]] is a [[linear combination]] of the [[vector]]s of the [[basis#ordered basis]] **`n -> [x.a]n`**, forming a [[function#vector space]] isomorphic to the [[euclidean vector#vector space]] &mdash; <https://youtu.be/dn0SSkgCiII?t=9m28s>
+a [[series#power series]] is a [[linear combination]] of the [[vector]]s of the [[basis#ordered basis]] **`n -> [x.a]n`**, forming a [[function#vector space]] isomorphic to the [[euclidean vector#vector space]] --- <https://youtu.be/dn0SSkgCiII?t=9m28s>
 
 **definition** the _radius of convergence_ of a [[series#power series]] is the [[distance]] between its center and the endpoints of its _interval of convergence_. it can be computed using the _ratio test_
 
@@ -205,11 +205,11 @@ a [[series#power series]] is a [[linear combination]] of the [[vector]]s of the 
 
 _convergence_ a [[series#power series]] either:
 
-- converges only at its center **`* = a`** &mdash; radius of convergence is **`0`**
-- converges on its whole domain **`* -> ^^`** &mdash; radius of convergence is **`@@`**
-- converges on an [[interval]] around its center **`a.k -| * -| a:k`** &mdash; radius of convergence is finite
+- converges only at its center **`* = a`** --- radius of convergence is **`0`**
+- converges on its whole domain **`* -> ^^`** --- radius of convergence is **`@@`**
+- converges on an [[interval]] around its center **`a.k -| * -| a:k`** --- radius of convergence is finite
 
-> **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=19897>
+> **proof** --- <https://youtu.be/7gigNsz4Oe8?t=19897>
 
 ## Harmonic Series
 
@@ -223,4 +223,4 @@ _convergence_ the [[series#harmonic series]] diverges
 
 _convergence_ the alternating [[series#harmonic series]] converges to **`/2\`**
 
-> **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=21458>
+> **proof** --- <https://youtu.be/7gigNsz4Oe8?t=21458>

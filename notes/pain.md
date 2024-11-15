@@ -1,6 +1,6 @@
 # Pain
 
-[[pain]] motivates us to withdraw from damaging situations, to protect a damaged body part while it heals, and to avoid similar experiences in the future &mdash; <https://en.wikipedia.org/wiki/Pain>. [[pain]] is an essential warning signal that helps us protect ourselves from injury
+[[pain]] motivates us to withdraw from damaging situations, to protect a damaged body part while it heals, and to avoid similar experiences in the future --- <https://en.wikipedia.org/wiki/Pain>. [[pain]] is an essential warning signal that helps us protect ourselves from injury
 
 ## congenital insensitivity to pain with anhidrosis
 
@@ -13,16 +13,16 @@ _CIPA_ is a rare genetic disorder (17 documentated cases in the United States) a
 
 this is a life-threatening condition, with many patients never reaching adulthood
 
-_doctors say Roberto will be wheelchair-bound by the age of 10 &mdash; a result of the wear and tear he does to his own body every day_ &mdash; <https://youtu.be/m5B20VvzWqA?t=215>
+_doctors say Roberto will be wheelchair-bound by the age of 10---a result of the wear and tear he does to his own body every day_ --- <https://youtu.be/m5B20VvzWqA?t=215>
 
-### &mdash;
+### ---
 
-&mdash; <https://en.wikipedia.org/wiki/Congenital_insensitivity_to_pain_with_anhidrosis>
+--- <https://en.wikipedia.org/wiki/Congenital_insensitivity_to_pain_with_anhidrosis>
 
-&mdash; <https://en.wikipedia.org/wiki/Hereditary_sensory_and_autonomic_neuropathy#Type_4,_Congenital_insensitivity_to_pain_with_anhidrosis>
+--- <https://en.wikipedia.org/wiki/Hereditary_sensory_and_autonomic_neuropathy#Type_4,_Congenital_insensitivity_to_pain_with_anhidrosis>
 
-&mdash; <https://youtu.be/ths2RJRenvI>
+--- <https://youtu.be/ths2RJRenvI>
 
-&mdash; <https://youtu.be/m5B20VvzWqA>
+--- <https://youtu.be/m5B20VvzWqA>
 
-&mdash; <https://youtu.be/n6iOUW523BE>
+--- <https://youtu.be/n6iOUW523BE>

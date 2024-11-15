@@ -27,7 +27,7 @@ _integrating a [[function]] by substituting **`u`** for a [[function]] of **`x`*
 
 _useful when the [[derivative]] of **`u`** is in the integrand_
 
-**``$ f = $ (f -- dd u \\ `u) \\ u``** #todo inv &mdash; me
+**``$ f = $ (f -- dd u \\ `u) \\ u``** #todo inv --- me
 
 > **proof** #todo inv
 >
@@ -39,7 +39,7 @@ _useful when the [[derivative]] of **`u`** is in the integrand_
 >
 > **``= $ (f -- dd u \\ `u) \\ u``** since **``f`h -- g`h = f-g \\ h``**
 >
-> &mdash; me
+> --- me
 
 > **example**
 >
@@ -59,7 +59,7 @@ _rewrites a hard-to-compute [[integral]] as an easy-to-compute [[integral]]_
 
 **`$ v'dd u = u'v .. $ u'dd v`**
 
-> **proof** integrate both sides of the product [[derivative rules]] &mdash; me and <https://youtu.be/7gigNsz4Oe8?t=3908>
+> **proof** integrate both sides of the product [[derivative rules]] --- me and <https://youtu.be/7gigNsz4Oe8?t=3908>
 
 > **example**
 >
@@ -105,7 +105,7 @@ _rewrites a hard-to-compute [[integral]] as an easy-to-compute [[integral]]_
 >
 > computing **`$ -"sin"`** can be done similarely
 >
-> > **proof** &mdash; <https://youtu.be/7gigNsz4Oe8?t=6366>
+> > **proof** --- <https://youtu.be/7gigNsz4Oe8?t=6366>
 
 > **procedure**
 >

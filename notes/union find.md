@@ -47,17 +47,17 @@ time [[computational complexity]]:
 
 _as a [[set]] of [[tree]]s_
 
-![](20220914132818.png) &mdash; <https://youtu.be/RBSGKlAvoiM?t=9911>
+![](20220914132818.png) --- <https://youtu.be/RBSGKlAvoiM?t=9911>
 
 _visually as a [[set]] of colored groups_
 
-![](20220914132951.png) &mdash; <https://youtu.be/RBSGKlAvoiM?t=9097>
+![](20220914132951.png) --- <https://youtu.be/RBSGKlAvoiM?t=9097>
 
 _as a [[map]] from child to parent_
 
 as the elements of this particular [[union find]] are [[natural]]s, this [[map]] was implemented using a [[list]] of [[natural]]s
 
-![](20220914133131.png) &mdash; <https://youtu.be/RBSGKlAvoiM?t=9911>
+![](20220914133131.png) --- <https://youtu.be/RBSGKlAvoiM?t=9911>
 
 **applications**
 

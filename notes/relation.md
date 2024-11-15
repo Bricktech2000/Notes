@@ -47,7 +47,7 @@ _every element is related to itself_
 
 ### Reflexive Closure
 
-**definition** the _reflexive closure_ of a [[relation]] is the smallest [[relation#reflexive relation]] that contains it &mdash; Wikipedia
+**definition** the _reflexive closure_ of a [[relation]] is the smallest [[relation#reflexive relation]] that contains it --- Wikipedia
 
 **definition** the _reflexive closure_ of a [[relation]] **`R`** is **`R \/ {=}`**
 
@@ -67,7 +67,7 @@ _swapping arguments never changes the result_
 
 ### Symmetric Closure
 
-**definition** the _symmetric closure_ of a [[relation]] is the smallest [[relation#symmetric relation]] that contains it &mdash; Wikipedia
+**definition** the _symmetric closure_ of a [[relation]] is the smallest [[relation#symmetric relation]] that contains it --- Wikipedia
 
 **definition** the _symmetric closure_ of a [[relation]] **`R`** is **`{\/ rr} R`**
 
@@ -81,11 +81,11 @@ _middleman can always be cut out_
 
 ### Transitive Closure
 
-**definition** the _transitive closure_ of a [[relation]] is the smallest [[relation#transitive relation]] that contains it &mdash; Wikipedia
+**definition** the _transitive closure_ of a [[relation]] is the smallest [[relation#transitive relation]] that contains it --- Wikipedia
 
 ## Equivalence Relation
 
-&mdash; <https://en.wikipedia.org/wiki/Partition_of_a_set>
+--- <https://en.wikipedia.org/wiki/Partition_of_a_set>
 
 **definition** a [[relation#homogenous relation]] is said to be an _equivalence relation_ if it is _reflexive_, _symmetric_ and _transitive_
 
@@ -97,7 +97,7 @@ every _equivalence relation_ on a [[set]] induces a [[set#partition]] of that [[
 
 _distinct elements can't be related in both directions_
 
-&mdash; <https://en.wikipedia.org/wiki/Antisymmetric_relation>
+--- <https://en.wikipedia.org/wiki/Antisymmetric_relation>
 
 **definition** a [[relation#homogenous relation]] is said to be _antisymmetric_ if **`RR x y /\ RR y x < x = y`** for all **`x`** and **`y`**
 
@@ -111,7 +111,7 @@ _elements can't be related in both directions_
 
 _if related one way then not related the other_
 
-&mdash; <https://en.wikipedia.org/wiki/Asymmetric_relation>
+--- <https://en.wikipedia.org/wiki/Asymmetric_relation>
 
 **definition** a [[relation#homogenous relation]] is said to be _asymmetric_ if **`RR x y < +RR y x`** for all **`x`** and **`y`**
 

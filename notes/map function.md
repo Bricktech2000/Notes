@@ -28,9 +28,9 @@ let a [[function]] `f :: a -> b`. then,
 - `pure` is the [[return function]]
 - `<*>` is the [[apply function]]
 
-&mdash; <https://github.com/fantasyland/static-land/blob/master/docs/spec.md#applicative>
+--- <https://github.com/fantasyland/static-land/blob/master/docs/spec.md#applicative>
 
-&mdash; <https://en.wikipedia.org/wiki/Applicative_functor>
+--- <https://en.wikipedia.org/wiki/Applicative_functor>
 
 **definition** _in terms of the [[bind function]]_
 
@@ -45,7 +45,7 @@ let a [[function]] `f :: a -> T b`. then,
 - `return` is the [[return function]]
 - `=<<` is the [[bind function]]
 
-&mdash; me, Simon Discord DM
+--- me, Simon Discord DM
 
 **applications**
 

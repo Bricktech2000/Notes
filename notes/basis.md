@@ -2,7 +2,7 @@
 
 _[[vector space]] basis_
 
-when represented in a chosen [[basis]], [[vector]]s become isomorphic to [[euclidean vector]]s aka tuples of [[scalar]]s &mdash; <https://youtu.be/KbyYTjfgZJI?t=28m55s>
+when represented in a chosen [[basis]], [[vector]]s become isomorphic to [[euclidean vector]]s aka tuples of [[scalar]]s --- <https://youtu.be/KbyYTjfgZJI?t=28m55s>
 
 **see** [[vector]], [[vector space]]
 

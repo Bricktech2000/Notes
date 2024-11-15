@@ -52,12 +52,12 @@
 
 **definition** an _epimorphism_ is a structure-preserving [[function#surjective function]] between two [[algebraic structure]]s of the same type
 
-## &mdash;
+## ---
 
-&mdash; <https://en.wikipedia.org/wiki/Homomorphism>
+--- <https://en.wikipedia.org/wiki/Homomorphism>
 
-&mdash; <https://en.wikipedia.org/wiki/Automorphism>
+--- <https://en.wikipedia.org/wiki/Automorphism>
 
-&mdash; <https://en.wikipedia.org/wiki/Linear_map>
+--- <https://en.wikipedia.org/wiki/Linear_map>
 
-&mdash; <https://math.stackexchange.com/questions/4539161/question-about-the-definition-of-a-homomorphism>
+--- <https://math.stackexchange.com/questions/4539161/question-about-the-definition-of-a-homomorphism>

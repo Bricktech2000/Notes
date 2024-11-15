@@ -1,6 +1,6 @@
 # Ionic Compound
 
-**definition** in chemistry, an _ionic compound_ is a chemical compound composed of ions held together by the electrostatic [[force]]s of [[bond#ionic bond]]s. the compound is neutral overall, but consists of positively charged ions called _cations_ and negatively charged ions called _anions_ &mdash; Wikipedia
+**definition** in chemistry, an _ionic compound_ is a chemical compound composed of ions held together by the electrostatic [[force]]s of [[bond#ionic bond]]s. the compound is neutral overall, but consists of positively charged ions called _cations_ and negatively charged ions called _anions_ --- Wikipedia
 
 > **note** an ionic formula is not a [[molecule]]; rather, it is the simplified ratio between its two components
 

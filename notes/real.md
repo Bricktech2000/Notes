@@ -6,7 +6,7 @@ _the [[set]] of [[real]] numbers_
 
 **definition**
 
-a [[real]] [[number]] is a value of a continuous quantity that can represent a [[distance]] along a line &mdash; Wikipedia
+a [[real]] [[number]] is a value of a continuous quantity that can represent a [[distance]] along a line --- Wikipedia
 
 **properties**
 

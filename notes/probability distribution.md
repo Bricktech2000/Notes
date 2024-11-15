@@ -4,7 +4,7 @@ _a mathematical description of the [[probability]]es of events_
 
 **see** [[math notation]], [[statistics]]
 
-&mdash; <https://en.wikipedia.org/wiki/Probability_distribution>
+--- <https://en.wikipedia.org/wiki/Probability_distribution>
 
 **see**
 
@@ -18,7 +18,7 @@ _a mathematical description of the [[probability]]es of events_
 
 **properties**
 
-the [[probability distribution]] of the sum of two independent random variables is the [[convolution]] of their [[probability distribution]]s &mdash; <https://youtu.be/IaSGqQa5O-M>
+the [[probability distribution]] of the sum of two independent random variables is the [[convolution]] of their [[probability distribution]]s --- <https://youtu.be/IaSGqQa5O-M>
 
 ## Representation
 

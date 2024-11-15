@@ -2,7 +2,7 @@
 
 _a program that outputs its own listing_
 
-> **resource** the "de facto" [[quine]] quickstart by David Madore &mdash; <http://www.madore.org/~david/computers/quine.html>
+> **resource** the "de facto" [[quine]] quickstart by David Madore --- <http://www.madore.org/~david/computers/quine.html>
 
 [[quine]]s are not the result of language-specific hacks; they exist, up to practical interpretation of program output, in every [[turing complete]] [[programming language]] for which there exists a total computable [[function]] that maps programs to their listings, as follows from the _fixed-point theorem_
 
@@ -28,7 +28,7 @@ _a program that outputs its own listing_
 >     pass
 > ```
 >
-> &mdash; me &mdash; <https://stackoverflow.com/questions/2568020/is-it-possible-to-create-a-quine-in-every-turing-complete-language>
+> --- me --- <https://stackoverflow.com/questions/2568020/is-it-possible-to-create-a-quine-in-every-turing-complete-language>
 
 **representation** _constructive quine_
 
@@ -56,14 +56,13 @@ print(data)
 
 **theorem** _fixed-point theorem_ any total computable [[function]] from programs to programs has a fixed point
 
-> **proof** apply the _s-m-n theorem_ to the structure of the [[combinator#y combinator]]
-&mdash; <http://www.madore.org/~david/computers/quine.html#sec_fp>.
+> **proof** apply the _s-m-n theorem_ to the structure of the [[combinator#y combinator]] --- <http://www.madore.org/~david/computers/quine.html#sec_fp>.
 
-_The fixed-point theorem has other amusing applications. Essentially, its intuitive (and effective) content is that [...] adding to a programming language the ability for a program to manipulate itself (its source code) does not add to its expressive power._ &mdash; <http://www.madore.org/~david/computers/quine.html#sec_fp>. intuitively, performing &beta;-reduction "running the program" on the [[combinator#y combinator]] gives back the transformation **`f`** applied to the original &lambda;-term (that is, a manipulation of its own source code)
+_The fixed-point theorem has other amusing applications. Essentially, its intuitive (and effective) content is that [...] adding to a programming language the ability for a program to manipulate itself (its source code) does not add to its expressive power._ --- <http://www.madore.org/~david/computers/quine.html#sec_fp>. intuitively, performing β-reduction "running the program" on the [[combinator#y combinator]] gives back the transformation **`f`** applied to the original &lambda;-term (that is, a manipulation of its own source code)
 
 > **note**
 >
-> _Quines are possible in any Turing-complete programming language, as a direct consequence of Kleene's recursion theorem_ &mdash; <https://en.wikipedia.org/wiki/Quine_(computing)>. I believe this statement may be incorrect
+> _Quines are possible in any Turing-complete programming language, as a direct consequence of Kleene's recursion theorem_ --- <https://en.wikipedia.org/wiki/Quine_(computing)>. I believe this statement may be incorrect
 >
 > consider the following [[programming language]]. it is clearly [[turing complete]], yet a [[quine]] cannot be written in it
 >
@@ -79,7 +78,7 @@ _The fixed-point theorem has other amusing applications. Essentially, its intuit
 
 > **note**
 >
-> _Any programming language which is Turing complete, and which is able to output any string (by a computable function of the string as program [...]) has a quine program [...] as follows by the fixed-point theorem_ &mdash; <https://www.madore.org/~david/computers/quine.html#sec_intro>. I believe this statement may be incorrect
+> _Any programming language which is Turing complete, and which is able to output any string (by a computable function of the string as program [...]) has a quine program [...] as follows by the fixed-point theorem_ --- <https://www.madore.org/~david/computers/quine.html#sec_intro>. I believe this statement may be incorrect
 >
 > consider the following [[programming language]]. it is clearly [[turing complete]], and the computable [[function]] `lambda s: '0' + s` clearly maps an arbitrary [[string]] to a program that outputs it, yet a [[quine]] cannot be written in it
 >
@@ -98,12 +97,12 @@ _The fixed-point theorem has other amusing applications. Essentially, its intuit
 >
 > on another note, _[...] by a computable function of the string as program [...]_ appears redundant because the [[composition#identity]] is computable and therefore by the _s-m-n theorem_ we have that there indeed exists a computable [[function]] that maps any [[string]] to a computable program that outputs that [[string]]
 
-## &mdash;
+## ---
 
-&mdash; <https://en.wikipedia.org/wiki/Quine_(computing)>
+--- <https://en.wikipedia.org/wiki/Quine_(computing)>
 
-&mdash; <https://en.wikipedia.org/wiki/Kleene%27s_recursion_theorem>
+--- <https://en.wikipedia.org/wiki/Kleene%27s_recursion_theorem>
 
-&mdash; <https://en.wikipedia.org/wiki/Smn_theorem>
+--- <https://en.wikipedia.org/wiki/Smn_theorem>
 
-&mdash; <https://cs.stackexchange.com/questions/80837/is-smn-theorem-the-same-concept-as-currying>
+--- <https://cs.stackexchange.com/questions/80837/is-smn-theorem-the-same-concept-as-currying>

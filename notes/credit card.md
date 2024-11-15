@@ -28,12 +28,12 @@ _disadvantages of [[credit card]]s_
 - "I shouldn't get this new phone, I can't afford it... I mean... oh well I'll pay it later anyway." this is the mentality that can prove very dangerous to a consumer's [[finance]]ial situation
 - **`73-100`** of consumers think that roll-over "makes it easier". this seems to me like a flawed way to manage [[money]]
 
-## &mdash;
+## ---
 
-&mdash; <https://youtu.be/vtEuChaMDZs>
+--- <https://youtu.be/vtEuChaMDZs>
 
-&mdash; <https://www.netflix.com/watch/81345774?trackId=155573558>
+--- <https://www.netflix.com/watch/81345774?trackId=155573558>
 
-&mdash; <https://youtu.be/2mHsTKvAuZc>
+--- <https://youtu.be/2mHsTKvAuZc>
 
-&mdash; <https://youtu.be/OCyrMg9v-vI>
+--- <https://youtu.be/OCyrMg9v-vI>

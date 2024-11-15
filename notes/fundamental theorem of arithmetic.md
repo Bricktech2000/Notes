@@ -2,7 +2,7 @@
 
 **see** [[psi function]], [[reduce function]]
 
-**theorem** every [[natural]] greater than **`0`** can be represented as the product of a unique [[multiset]] of [[prime]]s &mdash; me
+**theorem** every [[natural]] greater than **`0`** can be represented as the product of a unique [[multiset]] of [[prime]]s --- me
 
 it follows from the above that **`yy 1 = (( ))`** and therefore **`1 = | (( ))`**
 

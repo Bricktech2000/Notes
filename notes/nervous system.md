@@ -1,6 +1,6 @@
 # Nervous System
 
-&mdash; <https://www.hopkinsmedicine.org/health/conditions-and-diseases/anatomy-of-the-brain>
+--- <https://www.hopkinsmedicine.org/health/conditions-and-diseases/anatomy-of-the-brain>
 
 **see**
 

@@ -1,8 +1,8 @@
 # Case
 
-&mdash; <https://stackoverflow.com/questions/17326185/what-are-the-different-kinds-of-cases>
+--- <https://stackoverflow.com/questions/17326185/what-are-the-different-kinds-of-cases>
 
-&mdash; <https://en.wikipedia.org/wiki/Naming_convention_(programming)#Examples_of_multiple-word_identifier_formats>
+--- <https://en.wikipedia.org/wiki/Naming_convention_(programming)#Examples_of_multiple-word_identifier_formats>
 
 ```
 flatcase mumblecase lazycase

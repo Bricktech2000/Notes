@@ -10,10 +10,10 @@ this [[math notation]] obviously cannot be used to communicate ideas to people w
 
 below is a non-exhaustive list of principles that guide the design of this [[math notation]]
 
-- **simple** &mdash; build on simple foundations and eliminate superfluous concepts
-- **expressive** &mdash; be expressive to the point that notations are their own definitions
-- **opinionated** &mdash; embrace opinionated and controversial design choices
-- **unambiguous** &mdash; stay clear of ambiguity and of abuse of notation
+- **simple** --- build on simple foundations and eliminate superfluous concepts
+- **expressive** --- be expressive to the point that notations are their own definitions
+- **opinionated** --- embrace opinionated and controversial design choices
+- **unambiguous** --- stay clear of ambiguity and of abuse of notation
 
 below are examples of a few design decisions following from these principles
 
@@ -30,7 +30,7 @@ below are examples of a few design decisions following from these principles
 - the [[circle]] constant is **`tt`**, and **`pp`** is to be avoided; see [[tau]]
 - this [[math notation]] is 1D; it takes up constant vertical space and can wrap at the end of a line
 
-> **resource** _from Boolean Algebra to Unified Algebra_, redesigning [[boolean algebra]] as a [[set#subset]] of number algebra &mdash; <https://www.cs.toronto.edu/~hehner/BAUA.pdf>
+> **resource** _from Boolean Algebra to Unified Algebra_, redesigning [[boolean algebra]] as a [[set#subset]] of number algebra --- <https://www.cs.toronto.edu/~hehner/BAUA.pdf>
 >
 > > **note** it turns out that thinking of $\land$ as $\min$ and $\lor$ as $\max$ and $\forall$ as $\land$-reduce and $\exists$ as $\lor$-reduce and $\implies$ as $\leq$ and $\impliedby$ as $\geq$ is, to my dismay, not an original idea
 
@@ -58,7 +58,7 @@ let:
 
 ### number literals
 
-- [[natural]]s are represented using the Hindu-Arabic [[positional numeral system]]
+- [[natural]]s are represented using the Hindu--Arabic [[positional numeral system]]
 - [[integer]]s are represented using the **`.`** [[operator]] on [[natural]]s
 - [[rational]]s are represented using the **`-`** [[operator]] on [[integer]]s
 - [[real]]s are represented using various other [[operator]]s and [[limit]]s
@@ -276,8 +276,8 @@ partially testing out:
 
 | operator                        | precedence | associativity |
 | ------------------------------- | ---------- | ------------- |
-| **`( ) (( )) { } {{ }} [] []`** | &times;    | &times;       |
-| **`wwff x^a x_"sub"`**          | highest    | &times;       |
+| **`( ) (( )) { } {{ }} [] []`** | ×          | ×             |
+| **`wwff x^a x_"sub"`**          | highest    | ×             |
 | **`\./ [.] /.\`**               | ...        | left          |
 | **`' -`**                       | ...        | left          |
 | **`dd # \* <-`**                | ...        | left          |
@@ -288,7 +288,7 @@ partially testing out:
 | **`~ = -\| \|- +`**             | ...        | transitive    |
 | **`/\ \/`**                     | ...        | left          |
 | **`~~ == < > ><`**              | ...        | transitive    |
-| **`,`**                         | lowest     | &times;       |
+| **`,`**                         | lowest     | ×             |
 
 > **note** unary [[operator]]s have identical [[infix notation#precedence]] to their binary counterparts but are right associative
 
@@ -313,4 +313,4 @@ if **`\*`** is an [[operator]] with _transitive associativity_, then **`a \* b \
 | the [[activation function#softmax function]] | **`ss z = {*-:} [z]`**                     | $\displaystyle \sigma(s)_c = \frac{\exp(s_c)}{\sum_{c'} \exp(s_{c'})}$                                   |
 | definition of [[information entropy]]        | **`H = :PI`**                              | $\displaystyle H(X) = \sum_{i=1}^n P(x_i) \cdot I(x_i)$                                                  |
 | the [[p-adic#absolute value]]                | **`"abs"^p n = --p[yy n p]`**              | not really doable in a concise way without using plain English                                           |
-| the **`n`**th column of a [[matrix]]         | **`rr M n`**                               | $(M^\intercal)_n$ or $\operatorname{col}_n(M)$ or $M_{\cdot j}$ &mdash; nothing standard                 |
+| the **`n`**th column of a [[matrix]]         | **`rr M n`**                               | $(M^\intercal)_n$ or $\operatorname{col}_n(M)$ or $M_{\cdot j}$ --- nothing standard                     |

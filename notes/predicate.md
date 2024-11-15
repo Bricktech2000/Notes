@@ -2,7 +2,7 @@
 
 _a [[function]] that returns a [[boolean]]_
 
-&mdash; <https://youtu.be/aIOMRqiwziM?t=560>
+--- <https://youtu.be/aIOMRqiwziM?t=560>
 
 **see** [[logic statement]], [[math notation]]
 

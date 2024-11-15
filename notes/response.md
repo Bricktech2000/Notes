@@ -1,6 +1,6 @@
 # Response
 
-&mdash; <https://youtu.be/gpjYtAB9i2w?t=1287>
+--- <https://youtu.be/gpjYtAB9i2w?t=1287>
 
 **definition** a _response_ is [[intention]]al, mindful and deliberate. see [[reaction]]
 

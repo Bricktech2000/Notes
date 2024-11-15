@@ -18,4 +18,4 @@
 
 **`dd ss z -- dd z = --[1:[.z]]2 | [.z] = (1 -- 1 : [.z]) | ([.z] -- 1 : [.z]) = ss z | 1 . ss z`**
 
-&mdash; <https://youtu.be/kbGu60QBx2o>
+--- <https://youtu.be/kbGu60QBx2o>

@@ -1,10 +1,10 @@
 # Spline
 
-> **resource** [[spline]]s crash course by Freya Holmér &mdash; <https://www.youtube.com/watch?v=jvPPXbo87ds>
+> **resource** [[spline]]s crash course by Freya Holmér --- <https://www.youtube.com/watch?v=jvPPXbo87ds>
 
 **see** [[math notation]], [[curve]]
 
-**definition** a _spline_ is a [[function]] that transforms a [[list]] of control points into a piecewise [[polynomial]] [[curve]] with a set of promises about continuity &mdash; <https://youtu.be/jvPPXbo87ds?t=654>
+**definition** a _spline_ is a [[function]] that transforms a [[list]] of control points into a piecewise [[polynomial]] [[curve]] with a set of promises about continuity --- <https://youtu.be/jvPPXbo87ds?t=654>
 
 **definition** _control points_ are the [[euclidean vector]]s that define the shape of a [[spline]]
 
@@ -20,7 +20,7 @@ computing [[spline#parametric continuity]] requires the mathematical definition 
 
 [[spline#geometric continuity]] is similar to [[spline#parametric continuity]], but is "magnitude agnostic". in the geometric continuity definitions below, [[euclidean vector]]s are normalized using the **`{*--||||}`** [[operator]]
 
-_[...] I can't stress enough how important this is. continuity is what justifies the existence of a whole host of [[spline]]s_ &mdash; <https://youtu.be/jvPPXbo87ds?t=2176>
+_[...] I can't stress enough how important this is. continuity is what justifies the existence of a whole host of [[spline]]s_ --- <https://youtu.be/jvPPXbo87ds?t=2176>
 
 **properties**
 
@@ -28,9 +28,9 @@ _[...] I can't stress enough how important this is. continuity is what justifies
 
 **`C^n < C^n.1`** and **`G^n < G^n.1`**
 
-**`C^n < G^n`**, most of the time &mdash; <https://youtu.be/jvPPXbo87ds?t=2265>
+**`C^n < G^n`**, most of the time --- <https://youtu.be/jvPPXbo87ds?t=2265>
 
-**representation** _[[spline#continuity]] [[boolean#implication]]s_ &mdash; <https://youtu.be/jvPPXbo87ds?t=2187>
+**representation** _[[spline#continuity]] [[boolean#implication]]s_ --- <https://youtu.be/jvPPXbo87ds?t=2187>
 
 ```mermaid
 graph BT
@@ -82,11 +82,11 @@ let a [[spline]] **`S`**
 
 **`G^2`** continuity is crucial in industrial design because of the smooth-looking reflections it creates on reflective surfaces. surfaces with **`G^2`** continuity or higher are often called _class A surfaces_
 
-> **example** _seams in reflective **`G^1`** continuous [[spline]]s_ &mdash; <https://youtu.be/jvPPXbo87ds?t=1700>
+> **example** _seams in reflective **`G^1`** continuous [[spline]]s_ --- <https://youtu.be/jvPPXbo87ds?t=1700>
 >
 > ![[Pasted image 20221224215047.png]]
 
-> **example** _seams in reflective arcs tangent to line segments, which has **`G^1`** continuity_ &mdash; <https://youtu.be/jvPPXbo87ds?t=1731>
+> **example** _seams in reflective arcs tangent to line segments, which has **`G^1`** continuity_ --- <https://youtu.be/jvPPXbo87ds?t=1731>
 >
 > ![[Pasted image 20221224215415.png]]
 
@@ -114,7 +114,7 @@ let a [[spline]] **`S`**
 
 ![[Pasted image 20221224225414.png]]
 
-&mdash; <https://youtu.be/jvPPXbo87ds?t=2656>
+--- <https://youtu.be/jvPPXbo87ds?t=2656>
 
 ## High-Degree Bezier Curve Spline
 
@@ -132,7 +132,7 @@ using high-degree [[bezier curve]]s as [[spline]]s is not ideal because of its p
 
 ![[Pasted image 20221223233309.png]]
 
-&mdash; <https://youtu.be/jvPPXbo87ds?t=480>
+--- <https://youtu.be/jvPPXbo87ds?t=480>
 
 ## Bezier Spline
 
@@ -148,7 +148,7 @@ using high-degree [[bezier curve]]s as [[spline]]s is not ideal because of its p
 
 ![[Pasted image 20221223234213.png]]
 
-&mdash; <https://youtu.be/jvPPXbo87ds?t=585>
+--- <https://youtu.be/jvPPXbo87ds?t=585>
 
 ### Cubic Bezier Spline
 
@@ -170,11 +170,11 @@ the _tangent points_ of a [[spline#cubic bezier spline]] are the pairs of contro
 
 [[spline#cubic bezier spline]]s are **`G^1`** continuous if the _tangent points_ are _aligned_
 
-[[spline#cubic bezier spline]]s are **`C^1`** continuous if all _tangent points_ are _mirrored_ &mdash; [[proof]] <https://youtu.be/jvPPXbo87ds?t=1129>
+[[spline#cubic bezier spline]]s are **`C^1`** continuous if all _tangent points_ are _mirrored_ --- [[proof]] <https://youtu.be/jvPPXbo87ds?t=1129>
 
 [[spline#cubic bezier spline]]s can be made **`G^2`** continuous, but doing so results in loss of local control
 
-[[spline#cubic bezier spline]] can be made **`C^2`** continuous, but doing so results in loss of local control and of many degrees of freedom &mdash; <https://youtu.be/jvPPXbo87ds?t=1305>
+[[spline#cubic bezier spline]] can be made **`C^2`** continuous, but doing so results in loss of local control and of many degrees of freedom --- <https://youtu.be/jvPPXbo87ds?t=1305>
 
 [[spline#cubic bezier spline]]s can be made **`C^3`** continuous, but doing so results in a "[[spline]]" equivalent to the extrapolation of the initial [[bezier curve#cubic bezier curve]] (increasing its parameter beyond **`1`**). the resulting "[[spline]]" has no more joints and is therefore **`C^@@`** continuous
 
@@ -184,7 +184,7 @@ the _tangent points_ of a [[spline#cubic bezier spline]] are the pairs of contro
 
 ## Cubic Hermite Spline
 
-&mdash; <https://en.wikipedia.org/wiki/Cubic_Hermite_spline>
+--- <https://en.wikipedia.org/wiki/Cubic_Hermite_spline>
 
 **definition** a _cubic hermite spline_ is a [[spline]] build from degree **`3`** [[hermite curve]]s connected end-to-end
 
@@ -208,13 +208,13 @@ the _tangent points_ of a [[spline#cubic bezier spline]] are the pairs of contro
 
 ![[Pasted image 20221229171628.png]]
 
-&mdash; <https://youtu.be/jvPPXbo87ds?t=2525>
+--- <https://youtu.be/jvPPXbo87ds?t=2525>
 
 **equiv** _[[spline#cubic bezier spline]] with control points at distance **`-3`** the length of the velocity vectors_
 
 ![[Pasted image 20221229172408.png]]
 
-&mdash; <https://youtu.be/jvPPXbo87ds?t=2613>
+--- <https://youtu.be/jvPPXbo87ds?t=2613>
 
 ### Cardinal Spline
 
@@ -252,11 +252,11 @@ _with scale factor **`s`** close to **`0`**_
 
 ![[Pasted image 20221229174339.png]]
 
-&mdash; <https://youtu.be/jvPPXbo87ds?t=2822>
+--- <https://youtu.be/jvPPXbo87ds?t=2822>
 
-#### Catmull-Rom Spline
+#### Catmull--Rom Spline
 
-**definition** a _catmull-rom spline_ is a [[spline#cardinal spline]] with scale factor **`s = -2`**
+**definition** a _catmull--rom spline_ is a [[spline#cardinal spline]] with scale factor **`s = -2`**
 
 **properties**
 
@@ -264,17 +264,17 @@ _with scale factor **`s`** close to **`0`**_
 - interpolate every control point
 - are relatively inexpensive to compute
 
-[[spline#catmull-rom spline]]s are **`C^0`** and **`G^0`** continuous
+[[spline#catmull--rom spline]]s are **`C^0`** and **`G^0`** continuous
 
-[[spline#catmull-rom spline]]s are **`G^1`** continuous
+[[spline#catmull--rom spline]]s are **`G^1`** continuous
 
-[[spline#catmull-rom spline]]s are **`C^1`** continuous
+[[spline#catmull--rom spline]]s are **`C^1`** continuous
 
-there is no need to specify tangent points for [[spline#catmull-rom spline]]s &mdash; they "just work"
+there is no need to specify tangent points for [[spline#catmull--rom spline]]s---they "just work"
 
 **applications**
 
-[[spline#catmull-rom spline]]s are useful for path smoothing because they smoothly interpolate control points without needing to specify tangent points
+[[spline#catmull--rom spline]]s are useful for path smoothing because they smoothly interpolate control points without needing to specify tangent points
 
 **representation**
 
@@ -284,11 +284,11 @@ there is no need to specify tangent points for [[spline#catmull-rom spline]]s &m
 
 **aka** _b-spline_
 
-&mdash; <https://en.wikipedia.org/wiki/B-spline>
+--- <https://en.wikipedia.org/wiki/B-spline>
 
 **definition** a _b-spline of order **`n`**_ is a piecewise [[polynomial]] [[function]] of degree **`n . 1`** whose first **`n`** [[derivative]]s are [[function#continuous function]]s
 
-&mdash; <https://youtu.be/jvPPXbo87ds?t=3237>
+--- <https://youtu.be/jvPPXbo87ds?t=3237>
 
 **properties**
 
@@ -311,8 +311,8 @@ there is no need to specify tangent points for [[spline#catmull-rom spline]]s &m
 
 _a non-uniform [[spline#basis spline]] with a weight assigned to each control point_
 
-## &mdash;
+## ---
 
-&mdash; <https://youtu.be/jvPPXbo87ds?t=461>
+--- <https://youtu.be/jvPPXbo87ds?t=461>
 
-&mdash; <https://en.wikipedia.org/wiki/Spline_(mathematics)>
+--- <https://en.wikipedia.org/wiki/Spline_(mathematics)>

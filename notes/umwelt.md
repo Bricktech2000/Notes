@@ -4,9 +4,9 @@ pronounced _oum-velt_
 
 _represents an organism's model of the world, the slice of their ecosystem that it can pick up on_
 
-&mdash; Wikipedia
+--- Wikipedia
 
-&mdash; <https://youtu.be/4c1lqFXHvqI>
+--- <https://youtu.be/4c1lqFXHvqI>
 
 > **examples** _creature [[umwelt]]s_
 >

@@ -1,6 +1,6 @@
 # Divide and Conquer
 
-&mdash; <https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm>
+--- <https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm>
 
 **see** [[dynamic programming]]
 

@@ -1,6 +1,6 @@
 # Event
 
-&mdash; <https://en.wikipedia.org/wiki/Sample_space>
+--- <https://en.wikipedia.org/wiki/Sample_space>
 
 **notation** **`E`**
 

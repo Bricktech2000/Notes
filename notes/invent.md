@@ -8,5 +8,5 @@ _special-case the simplest use-case_ and "hard-coding everything" are telltale s
 
 > **examples**
 >
-> - instead of [[discover]]ing iterators, [[go]] [[invent]]ed them, resulting in the `range` keyword &mdash; <https://go.dev/ref/spec#For_range>
+> - instead of [[discover]]ing iterators, [[go]] [[invent]]ed them, resulting in the `range` keyword --- <https://go.dev/ref/spec#For_range>
 > - [[conventional math notation]] exhibits _special-case the simplest use-case_: instead of building on strong foundations, people keep making up new notation for anything they want to express

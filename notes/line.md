@@ -2,7 +2,7 @@
 
 **see** [[euclidean vector]], [[math notation]]
 
-&mdash; <https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s>
+--- <https://www.youtube.com/watch?v=IB1-lrPQjCw&t=10556s>
 
 ## line in r3
 
@@ -52,14 +52,14 @@ two [[line]]s with points **`p`** and **`q`** are parallel if **`p_1 . p_0 = k |
 
 _two [[line]]s are parallel if one of their direction [[vector]]s is a [[scalar]] multiple of the other direction [[vector]]_
 
-### Slope-Intercept Form
+### Slope--Intercept Form
 
 **`y = mx : b`**, where
 
 - **`m`** is the [[function#slope]] of the [[line]], **`DDy . DDx`**
 - **`b`** is the y-intercept of the [[line]] (**`y`** value when **`x = 0`**)
 
-### Point-Slope Form
+### Point--Slope Form
 
 **`y . y_0 = m | x . x_0`**, where
 

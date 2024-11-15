@@ -6,11 +6,11 @@ _how things learn_
 
 **see** _learning techniques_ [[active recall]], [[spaced repetition]], [[interleaving]]
 
-&mdash; <https://youtu.be/5eW6Eagr9XA>
+--- <https://youtu.be/5eW6Eagr9XA>
 
-> **resource** _learn how to study smart_ by Marty Lobdell &mdash; <https://www.youtube.com/watch?v=IlU-zDU6aQ0>
+> **resource** _learn how to study smart_ by Marty Lobdell --- <https://www.youtube.com/watch?v=IlU-zDU6aQ0>
 
-> **resource** _Guessing the Teacher's Password_, on the distinction between _passwords_ and _explanations_ &mdash; <https://www.readthesequences.com/Guessing-The-Teachers-Password>
+> **resource** _Guessing the Teacher's Password_, on the distinction between _passwords_ and _explanations_ --- <https://www.readthesequences.com/Guessing-The-Teachers-Password>
 
 for efficient [[learning]], a system must **have access to feedback** that is a **[[function]] of the system inputs** and that is **timely and actively used for improvement**
 
@@ -23,7 +23,7 @@ for a system to become talented at performing a task, the task **repetition-to-c
 
 > **examples** _inefficient [[learning]]_
 >
-> - experts who predict political or [[economics]] trends can be worse than random chance as the highly complex situations they study have very low repetition &mdash; <https://youtu.be/Zs9Tifup1Bc?t=102>
+> - experts who predict political or [[economics]] trends can be worse than random chance as the highly complex situations they study have very low repetition --- <https://youtu.be/Zs9Tifup1Bc?t=102>
 > - a gambler betting at the roulette wheel has bet thousands of times, but the feedback is not a [[function]] of the inputs as a roulette wheel is essentially random
 > - radiologists don't improve much at giving diagnoses; they often don't get timely feedback on them and therefore the feedback cannot be actively used in improving
 > - people responsible for admissions or employment can have a hard time learning patterns in ideal candidates as they often don't get timely feedback on their decisions
@@ -31,5 +31,5 @@ for a system to become talented at performing a task, the task **repetition-to-c
 when [[learning]] through a biological [[brain]], other factors are worth considering:
 
 - for humans to learn efficiently, they must practice **deliberately**; this is often referred to as _active learning_, and can be achieved through [[active recall]]. they must practice in that uncomfortable zone the skills they haven't quite learned yet, which is [[difficult]] and requires a lot of effort. teachers are valuable because they can point out weeknesses to consistently keep a student at the limit of their abilities
-- there is evidence that [[memory]] consolidation is highly dependent on getting a proper amount of [[sleep#rem sleep]] &mdash; <https://youtu.be/IlU-zDU6aQ0?t=2219>
+- there is evidence that [[memory]] consolidation is highly dependent on getting a proper amount of [[sleep#rem sleep]] --- <https://youtu.be/IlU-zDU6aQ0?t=2219>
 - [[learning]] can be seen as a [[habit]], in which case it is highly dependent on environmental [[cue]]s. see [[habit#formation]]

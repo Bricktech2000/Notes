@@ -8,7 +8,7 @@ interesting views on personal finance: <https://youtu.be/oh3sAxd9-jw> #todo reph
 
 **see**
 
-[[life-long investing]], [[car]] costs, [[price-value sigmoid]]
+[[life-long investing]], [[car]] costs, [[price--value sigmoid]]
 
 [[money]], [[wealth]], [[inflation]]
 

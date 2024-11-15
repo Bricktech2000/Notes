@@ -19,15 +19,15 @@ a string makes a [[catenary]] when it is held on its ends and subject to gravita
 
 inverted [[catenary]]es are used in the design of bridges and arches so that [[force]]s do not result in bending moments
 
-&mdash; <https://youtu.be/xGxSTzaID3k?t=1316>
+--- <https://youtu.be/xGxSTzaID3k?t=1316>
 
-&mdash; <https://en.wikipedia.org/wiki/Catenary>
+--- <https://en.wikipedia.org/wiki/Catenary>
 
 **representation**
 
 ![](20220827143458.png)
 
-&mdash; <https://en.wikipedia.org/wiki/Catenary>
+--- <https://en.wikipedia.org/wiki/Catenary>
 
 above is the comparison between a parabola (dotted black) and a [[catenary]] (solid red)
 

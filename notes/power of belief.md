@@ -8,10 +8,10 @@ often overlooked is the insignificance of the level of deception employed to cem
 
 I used to understand prayer as a method of offloading problems onto a higher power in the hopes that they resolve themselves, which goes against [[stoicism]]. recognizing the [[power of belief]] changed my mind; whether a higher power exists and whether prayer suffers from [[confirmation bias]] are irrelevant. **faith** is that which makes prayer effective, through the [[power of belief]]
 
-## &mdash;
+## ---
 
-&mdash; <https://youtu.be/tefIopDJQBQ>
+--- <https://youtu.be/tefIopDJQBQ>
 
-&mdash; <https://en.wikipedia.org/wiki/Faith>
+--- <https://en.wikipedia.org/wiki/Faith>
 
-&mdash; <https://en.wikipedia.org/wiki/Homeopathy>
+--- <https://en.wikipedia.org/wiki/Homeopathy>

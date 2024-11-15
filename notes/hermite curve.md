@@ -1,16 +1,16 @@
 # Hermite Curve
 
-&mdash; <https://www.inf.ed.ac.uk/teaching/courses/cg/d3/hermite.html>
+--- <https://www.inf.ed.ac.uk/teaching/courses/cg/d3/hermite.html>
 
 **see** [[math notation]], [[spline]], [[curve]]
 
-**definition** a _degree **`n`** hermite curve_ is a degree **`n`** [[polynomial]] specified in _hermite form_, that is, by its values and first [[derivative]]s at its endpoints &mdash; Wikipedia and me
+**definition** a _degree **`n`** hermite curve_ is a degree **`n`** [[polynomial]] specified in _hermite form_, that is, by its values and first [[derivative]]s at its endpoints --- Wikipedia and me
 
 **representation**
 
 ![[Pasted image 20221229171436.png]]
 
-&mdash; <https://youtu.be/jvPPXbo87ds?t=2515>
+--- <https://youtu.be/jvPPXbo87ds?t=2515>
 
 ## Matrix Form
 
@@ -20,4 +20,4 @@
 >
 > ![[Pasted image 20221229170938.png]]
 >
-> &mdash; <https://youtu.be/jvPPXbo87ds?t=2489>
+> --- <https://youtu.be/jvPPXbo87ds?t=2489>

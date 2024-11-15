@@ -4,11 +4,11 @@
 
 > **note** in [[functional programming]], [[type]]s are not [[class]]es. they are simply a [[set]] (assuming [[type]]s are modeled in the [[category]] of [[set]]s) containing all possible values that can be used with a given [[function]]. no behavior is defined in a [[type]]
 
-as examples, in Haskell, type `Bool` is a two-element [[set]] of `True` and `False` and type `Char` is the [[set]] of all possible [[unicode]] [[character]]s &mdash; <https://youtu.be/aIOMRqiwziM?t=312>
+as examples, in Haskell, type `Bool` is a two-element [[set]] of `True` and `False` and type `Char` is the [[set]] of all possible [[unicode]] [[character]]s --- <https://youtu.be/aIOMRqiwziM?t=312>
 
 ## Top Type
 
-&mdash; <https://en.wikipedia.org/wiki/Top_type>
+--- <https://en.wikipedia.org/wiki/Top_type>
 
 **definition** the _top type_ is the [[type]] that is a [[type#supertype]] of all other [[type]]s
 
@@ -22,7 +22,7 @@ as examples, in Haskell, type `Bool` is a two-element [[set]] of `True` and `Fal
 
 ## Empty Type
 
-&mdash; <https://en.wikipedia.org/wiki/Empty_type>
+--- <https://en.wikipedia.org/wiki/Empty_type>
 
 **equiv** _[[set#empty set]]_
 
@@ -36,7 +36,7 @@ the [[type#empty type]] can be thought of as the [[type#sum type]] of no [[type]
 
 ## Unit Type
 
-&mdash; <https://en.wikipedia.org/wiki/Unit_type>
+--- <https://en.wikipedia.org/wiki/Unit_type>
 
 **equiv** _[[set#singleton set]]_
 
@@ -62,11 +62,11 @@ the [[type#unit type]] can be thought of as the [[type#product type]] of no [[ty
 
 **properties**
 
-the _subtype_ [[relation]] is a [[partial order]] &mdash; <https://youtu.be/hy1wjkcIBCU?t=1926>
+the _subtype_ [[relation]] is a [[partial order]] --- <https://youtu.be/hy1wjkcIBCU?t=1926>
 
 ## Refinement Type
 
-&mdash; <https://en.wikipedia.org/wiki/Refinement_type>
+--- <https://en.wikipedia.org/wiki/Refinement_type>
 
 **definition** a _refinement type_ is a [[type]] equipped with a [[predicate]] that is assumed to hold for all terms of the refinement type
 
@@ -83,15 +83,15 @@ the _subtype_ [[relation]] is a [[partial order]] &mdash; <https://youtu.be/hy1w
 > }
 > ```
 >
-> &mdash; <https://youtu.be/KWB-gDVuy_I?t=375>
+> --- <https://youtu.be/KWB-gDVuy_I?t=375>
 
 refinement types may be used to assert pre- and post-conditions at the [[type system]] level
 
 ## Algebraic Data Type
 
-[[type#algebraic data type]]s are one tool for _making illegal states unrepresentable_ &mdash; Yaron Minsky &mdash; <https://youtu.be/2JB1_e5wZmU?t=46m16s>
+[[type#algebraic data type]]s are one tool for _making illegal states unrepresentable_ --- Yaron Minsky --- <https://youtu.be/2JB1_e5wZmU?t=46m16s>
 
-> **resource** _Domain Modeling Made Functional_, and why [[type#algebraic data type]]s matter &mdash; <https://youtu.be/2JB1_e5wZmU>
+> **resource** _Domain Modeling Made Functional_, and why [[type#algebraic data type]]s matter --- <https://youtu.be/2JB1_e5wZmU>
 
 > **example** _ADT [[composition]]_
 >
@@ -122,9 +122,9 @@ refinement types may be used to assert pre- and post-conditions at the [[type sy
 > };
 > ```
 >
-> &mdash; <https://youtu.be/mRwHZTNGdoY?t=2366>
+> --- <https://youtu.be/mRwHZTNGdoY?t=2366>
 >
-> &mdash; <https://youtu.be/2JB1_e5wZmU?t=23m46s>
+> --- <https://youtu.be/2JB1_e5wZmU?t=23m46s>
 
 ### Sum Type
 

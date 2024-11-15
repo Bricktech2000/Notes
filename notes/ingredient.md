@@ -4,7 +4,7 @@
 
 **aka** _nitrite_
 
-&mdash; Wikipedia &mdash; Mitch Jerky
+--- Wikipedia --- Mitch Jerky
 
 **notation** **`"Na""N""O"_2`**
 
@@ -12,11 +12,11 @@ improves the [[color]] of meat products, turning them red then pink. used as a p
 
 adding nitrites to meat has been shown to generate known carcinogens such as nitrosamines
 
-_each **`50 g`** of "processed meats" eaten a day would raise the risk of getting bowel cancer by **`10-188`** over a lifetime_ &mdash; World Health Organization
+_each **`50 g`** of "processed meats" eaten a day would raise the risk of getting bowel cancer by **`10-188`** over a lifetime_ --- World Health Organization
 
 ## Sodium Erythorbate
 
-&mdash; Wikipedia &mdash; Mitch Jerky
+--- Wikipedia --- Mitch Jerky
 
 used as a preservative and antioxidant predominantly in meat, poultry, and soft drinks
 
@@ -26,7 +26,7 @@ helps the formation of carcinogenic nitrosamines
 
 ## Soy Lecithin
 
-&mdash; Wikipedia &mdash; <https://youtu.be/fQL16H9HRzg> &mdash; Oreo Cookie
+--- Wikipedia --- <https://youtu.be/fQL16H9HRzg> --- Oreo Cookie
 
 is both both hydrophilic and lipophilic. among other uses, lecithins serve as emulsifiers (used to form [[emulsion]]s)
 
@@ -36,7 +36,7 @@ is both both hydrophilic and lipophilic. among other uses, lecithins serve as em
 
 **notation** **`"Na""H""C""O"_3`**
 
-&mdash; <https://en.wikipedia.org/wiki/Sodium_bicarbonate> &mdash; <https://youtu.be/fQL16H9HRzg> &mdash; Oreo Cookie
+--- <https://en.wikipedia.org/wiki/Sodium_bicarbonate> --- <https://youtu.be/fQL16H9HRzg> --- Oreo Cookie
 
 used as a leavening agent in baking. it is alkaline, and reacts with acids to form carbon dioxide gas
 
@@ -44,7 +44,7 @@ used as a leavening agent in baking. it is alkaline, and reacts with acids to fo
 
 **aka** _calcium phosphate, monocalcium phosphate_
 
-&mdash; <https://en.wikipedia.org/wiki/Monocalcium_phosphate> &mdash; <https://youtu.be/fQL16H9HRzg> &mdash; Oreo Cookie and Gerber Snacks for Baby
+--- <https://en.wikipedia.org/wiki/Monocalcium_phosphate> --- <https://youtu.be/fQL16H9HRzg> --- Oreo Cookie and Gerber Snacks for Baby
 
 used as a leavening agent in baking. it is acidic, and reacts with bases to form carbon dioxide gas, salt, and water
 
@@ -52,7 +52,7 @@ used as a leavening agent in baking. it is acidic, and reacts with bases to form
 
 **aka** _sodium acid pyrophosphate_
 
-&mdash; Wikipedia &mdash; Gerber Snacks for Baby
+--- Wikipedia --- Gerber Snacks for Baby
 
 a popular leavening agent. combines with [[ingredient#sodium bicarbonate]] to release carbon dioxide gas
 
@@ -72,25 +72,25 @@ can often be replaced by [[ingredient#sodium bicarbonate]] or baking powder. can
 
 **aka** _nicotinic acid, vitamin B3_
 
-&mdash; Wikipedia &mdash; Gerber Snacks for Baby
+--- Wikipedia --- Gerber Snacks for Baby
 
 ## Thiamine
 
 **aka** _thiamin, vitamin B1_
 
-&mdash; Wikipedia &mdash; Gerber Snacks for Baby
+--- Wikipedia --- Gerber Snacks for Baby
 
 ## Riboflavin
 
 **aka** _vitamin B2_
 
-&mdash; Wikipedia &mdash; Gerber Snacks for Baby
+--- Wikipedia --- Gerber Snacks for Baby
 
 ## Folic Acid
 
 **aka** _folate, vitamin B9_
 
-&mdash; Wikipedia &mdash; Gerber Snacks for Baby
+--- Wikipedia --- Gerber Snacks for Baby
 
 ## Rosin
 
@@ -98,7 +98,7 @@ can often be replaced by [[ingredient#sodium bicarbonate]] or baking powder. can
 
 can be used as a _glazing agent_ in medicines and chewing gum. can be used as an emulsifier (used to form [[emulsion]]s) in soft drinks
 
-&mdash; Wikipedia &mdash; Sattva Climbing Chalk
+--- Wikipedia --- Sattva Climbing Chalk
 
 ## Hydroxypropyl Cellulose
 
@@ -106,4 +106,4 @@ can be used as a _glazing agent_ in medicines and chewing gum. can be used as an
 
 can be used as a _thickener_ or as an [[emulsion]] _stabilizer_
 
-&mdash; Wikipedia &mdash; Sattva Climbing Chalk
+--- Wikipedia --- Sattva Climbing Chalk

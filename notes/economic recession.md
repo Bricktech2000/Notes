@@ -1,6 +1,6 @@
 # Economic Recession
 
-&mdash; <https://www.investopedia.com/terms/r/recession.asp>
+--- <https://www.investopedia.com/terms/r/recession.asp>
 
 **definition** a _recession_ is a significant, widespread, and prolonged downturn in economic activity
 

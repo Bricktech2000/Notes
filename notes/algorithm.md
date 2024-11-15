@@ -1,6 +1,6 @@
 # Algorithm
 
-_a finite answer to an infinite number of questions_ &mdash; Stephen Kleene
+_a finite answer to an infinite number of questions_ --- Stephen Kleene
 
 **see** [[abstract data type]], [[data structure]]
 
@@ -16,7 +16,7 @@ _a finite answer to an infinite number of questions_ &mdash; Stephen Kleene
 
 > **procedure** _turning [[recursion]] into [[iteration]]_
 >
-> [[recursion]] does not exist at the processor level, meaning all recursive algorithms can be implemented using [[iteration]] &mdash; <https://youtu.be/jUM_Dpt6yu0?t=571>
+> [[recursion]] does not exist at the processor level, meaning all recursive algorithms can be implemented using [[iteration]] --- <https://youtu.be/jUM_Dpt6yu0?t=571>
 >
 > [[trick]]s:
 >

@@ -1,6 +1,6 @@
 # Refactoring to Immutability
 
-&mdash; <https://youtu.be/APUCMSPiNh4>
+--- <https://youtu.be/APUCMSPiNh4>
 
 ## replace `set` with `with`
 

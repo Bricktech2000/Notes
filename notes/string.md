@@ -20,7 +20,7 @@ used for backlinks
 
 ## Homomorphism
 
-&mdash; <https://en.wikipedia.org/wiki/String_operations#String_homomorphism>
+--- <https://en.wikipedia.org/wiki/String_operations#String_homomorphism>
 
 **see** [[morphism#homomorphism]]
 

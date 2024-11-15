@@ -33,7 +33,7 @@ _reciprocality with [[exponent]]ials_ **`/b[x]\ b = x`**
 
 _reciprocality with [[exponent]]ials_ **`b[/x\ b] = x`**
 
-_[[function#multivalued function]]_ **`/x\ b = /x\ b : iitt - /b\`** &mdash; me (see [[improved expression evaluation]])
+_[[function#multivalued function]]_ **`/x\ b = /x\ b : iitt - /b\`** --- me (see [[improved expression evaluation]])
 
 ## common bases
 

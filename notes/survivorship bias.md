@@ -4,7 +4,7 @@ _focus on the winners_
 
 **aka** _survival bias_
 
-**definition** _survivorship bias_ is the logical error of concentrating on the people or things that made it past some selection process and overlooking those that did not &mdash; <https://en.wikipedia.org/wiki/Survivorship_bias>
+**definition** _survivorship bias_ is the logical error of concentrating on the people or things that made it past some selection process and overlooking those that did not --- <https://en.wikipedia.org/wiki/Survivorship_bias>
 
 > **examples**
 >

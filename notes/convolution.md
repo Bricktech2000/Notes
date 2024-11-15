@@ -2,9 +2,9 @@
 
 **see** [[math notation]]
 
-&mdash; <https://youtu.be/IaSGqQa5O-M>
+--- <https://youtu.be/IaSGqQa5O-M>
 
-&mdash; <https://youtu.be/KuXjwB4LzSA>
+--- <https://youtu.be/KuXjwB4LzSA>
 
 **definition**
 
@@ -17,7 +17,7 @@
 
 > **note** this can be thought of as "the [[convolution]] of **`a`** and **`b`** at **`n`** is the [[dot product]] of elements of **`a`** and **`b`** at indices that sum to **`n`**"
 
-> **note** [[convolution]]s can be computed in **`O (| /.\)`** time [[computational complexity]] instead of **`O [*]2`** #todo id, using fast [[fourier transform]]s, which leverage [[root of unity]]s &mdash; <https://youtu.be/KuXjwB4LzSA?t=1091>. this allows for multiplication [[algorithm]]s with time [[computational complexity]] **`O (| /.\)`** in the number of digits &mdash; <https://youtu.be/cCKOl5li6YM?t=15m25s>
+> **note** [[convolution]]s can be computed in **`O (| /.\)`** time [[computational complexity]] instead of **`O [*]2`** #todo id, using fast [[fourier transform]]s, which leverage [[root of unity]]s --- <https://youtu.be/KuXjwB4LzSA?t=1091>. this allows for multiplication [[algorithm]]s with time [[computational complexity]] **`O (| /.\)`** in the number of digits --- <https://youtu.be/cCKOl5li6YM?t=15m25s>
 
 **definition**
 
@@ -42,7 +42,7 @@ _identity_ **`CC D a = a`** where **`D`** is the [[dirac delta function]]
 
 **`1x0 : 2x1 : 3x2 | 4x0 : 5x1 : 6x2 = 4x0 : 13x1 : 28x2 : 27x3 : 18x4`**
 
-&mdash; <https://youtu.be/KuXjwB4LzSA?t=879>
+--- <https://youtu.be/KuXjwB4LzSA?t=879>
 
 **applications**
 

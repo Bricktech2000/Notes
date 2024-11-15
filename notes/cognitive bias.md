@@ -2,13 +2,13 @@
 
 _a systematic pattern of deviation from norm or rationality in judgment_
 
-&mdash; <https://youtu.be/nYYkRaU0xh8>
+--- <https://youtu.be/nYYkRaU0xh8>
 
-&mdash; <https://youtu.be/6G1F1KVeiNA>
+--- <https://youtu.be/6G1F1KVeiNA>
 
-&mdash; _Petit cours d'autodéfense intellectuelle_, 1.2.2
+--- _Petit cours d'autodéfense intellectuelle_, 1.2.2
 
-&mdash; <https://youtu.be/VZbYecAkGo0>
+--- <https://youtu.be/VZbYecAkGo0>
 
 **see** [[subconscious manipulation]]
 
@@ -24,7 +24,7 @@ _a systematic pattern of deviation from norm or rationality in judgment_
 
 [[gambler's fallacy]]
 
-[[dunning-kruger effect]]
+[[dunning--kruger effect]]
 
 [[correlation implies causation]]
 

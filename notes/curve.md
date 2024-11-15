@@ -14,6 +14,6 @@ _an object similar to a [[line]] but that does not have to be straight_
 
 [[catenary]]es
 
-[[price-value sigmoid]]
+[[price--value sigmoid]]
 
 [[color gamut]] representation

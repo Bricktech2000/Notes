@@ -1,6 +1,6 @@
 # Iota Language
 
-&mdash; <https://en.wikipedia.org/wiki/Iota_and_Jot#Iota>
+--- <https://en.wikipedia.org/wiki/Iota_and_Jot#Iota>
 
 **see** [[math notation]], [[combinatory logic]]
 

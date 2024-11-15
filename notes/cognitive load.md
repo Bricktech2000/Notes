@@ -4,7 +4,7 @@ _the amount of working memory resources used to process information_
 
 **see** [[habit]], [[sleep]], [[zeigarnik effect]], [[overwhelm]]
 
-[[cognitive load]] consists of incomplete tasks "running in the background", taking up bandwidth and consuming [[energy]]. David Allen calls this a _thought loop_ &mdash; <https://youtu.be/q5udGQj4iVY?t=112>
+[[cognitive load]] consists of incomplete tasks "running in the background", taking up bandwidth and consuming [[energy]]. David Allen calls this a _thought loop_ --- <https://youtu.be/q5udGQj4iVY?t=112>
 
 > **examples**
 >
@@ -13,11 +13,11 @@ _the amount of working memory resources used to process information_
 > - _I need to get milk on the way home_
 > - _why did she lie to them?_
 >
-> &mdash; <https://youtu.be/q5udGQj4iVY> and me
+> --- <https://youtu.be/q5udGQj4iVY> and me
 
 ## Reduction
 
-[[cognitive load#reduction]] in everyday life is a great way to increase [[productivity]]. constantly having to think about everything you have to do is a waste of [[time]] and [[energy]] &mdash; me and <https://youtu.be/bP8wTapHsbc?t=52>
+[[cognitive load#reduction]] in everyday life is a great way to increase [[productivity]]. constantly having to think about everything you have to do is a waste of [[time]] and [[energy]] --- me and <https://youtu.be/bP8wTapHsbc?t=52>
 
 > **examples** _methods of [[cognitive load#reduction]]_
 >

@@ -14,7 +14,7 @@ _a [[finite automaton]] which recognizes a [[formal language#regular formal lang
 
 **notation** _the language recognized by a finite acceptor $M$_ $L(M)$
 
-an _&epsilon;-NFA_ is a finite acceptor containing transitions which consume no input, termed _&epsilon;-transitions_. such finite acceptors are considered non-deterministic, even though their _&epsilon;-closure_ may be deterministic
+an _ε-NFA_ is a finite acceptor containing transitions which consume no input, termed _ε-transitions_. such finite acceptors are considered non-deterministic, even though their _ε-closure_ may be deterministic
 
 a _generalized NFA_ or _GNFA_ is a finite acceptor whose transitions are labeled with [[regular expression]]s instead of symbols
 
@@ -33,6 +33,6 @@ a _generalized NFA_ or _GNFA_ is a finite acceptor whose transitions are labeled
 >  A --0--> D --1--> D --0--> D
 > ```
 
-**definition** a deterministic [[finite acceptor]] is called _minimal_ if it has the minimum number of states needed to recognize its language &mdash; <https://en.wikipedia.org/wiki/DFA_minimization>
+**definition** a deterministic [[finite acceptor]] is called _minimal_ if it has the minimum number of states needed to recognize its language --- <https://en.wikipedia.org/wiki/DFA_minimization>
 
-_minimization_ is performed by merging _indistinguishable_ states &mdash; <https://www.youtube.com/watch?v=7W2lSrt8r-0>. a pair of states is indistinguishable if and only if they are either both or neither final and their transitions are equal up to target state indistinguishability. minimal deterministic finite acceptors are unique up to state renumbering
+_minimization_ is performed by merging _indistinguishable_ states --- <https://www.youtube.com/watch?v=7W2lSrt8r-0>. a pair of states is indistinguishable if and only if they are either both or neither final and their transitions are equal up to target state indistinguishability. minimal deterministic finite acceptors are unique up to state renumbering

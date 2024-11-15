@@ -45,20 +45,20 @@ online visibility is very important for [[self-taught software engineer]]s
   - attend tech events, conferences, hackathons, meetups, etc.
   - attend career fairs
 
-_the hardest part about this whole journey is getting that first job &mdash; but once you get that first job, recruiters are gonna be messaging you almost everyday_
+_the hardest part about this whole journey is getting that first job---but once you get that first job, recruiters are gonna be messaging you almost everyday_
 
-coding interviews are about more than just programming &mdash; <https://youtu.be/0Z9RW_hhUT4>
+coding interviews are about more than just programming --- <https://youtu.be/0Z9RW_hhUT4>
 
 ## moving forward
 
 - best way to increase income often is changing jobs, not asking for a raise
 
-## &mdash;
+## ---
 
-&mdash; <https://www.youtube.com/watch?v=NyCyknm_n8M>
+--- <https://www.youtube.com/watch?v=NyCyknm_n8M>
 
-&mdash; <https://youtu.be/dbia5lqgEXI>
+--- <https://youtu.be/dbia5lqgEXI>
 
-&mdash; <https://youtu.be/J6rVaFzOEP8>
+--- <https://youtu.be/J6rVaFzOEP8>
 
 interesting read: #todo #xxx <https://inika.medium.com/everything-i-did-to-become-a-microsoft-explore-intern-74784738ba5a>

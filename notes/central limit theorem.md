@@ -1,6 +1,6 @@
 # Central Limit Theorem
 
-&mdash; <https://youtu.be/zeJD6dqJ5lo>
+--- <https://youtu.be/zeJD6dqJ5lo>
 
 **theorem** _central limit theorem_ given a sufficiently large [[set]] of sufficiently large [[sample]]s **independent from eathother** drawn from the **same [[probability distribution]]** with **finite [[variance]]**,
 

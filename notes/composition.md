@@ -22,7 +22,7 @@
 
 **properties**
 
-_associativity_ **``h\\g`f == h`g\\f == h`g`f``** &mdash; <https://youtu.be/SmXB2K_5lcA?t=662>
+_associativity_ **``h\\g`f == h`g\\f == h`g`f``** --- <https://youtu.be/SmXB2K_5lcA?t=662>
 
 **applications**
 

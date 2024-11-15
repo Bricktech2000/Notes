@@ -28,4 +28,4 @@ fmap id = id -- identity
 fmap (f . g) = fmap f . fmap g -- composition
 ```
 
-> **note** an intuitive reason for why the second law exists is to allow the [[functor]] to work without having to "look inside" the [[category#object]]s it is mapping over &mdash; Justin Veilleux
+> **note** an intuitive reason for why the second law exists is to allow the [[functor]] to work without having to "look inside" the [[category#object]]s it is mapping over --- Justin Veilleux

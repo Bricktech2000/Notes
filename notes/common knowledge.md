@@ -1,6 +1,6 @@
 # Common Knowledge
 
-**definition** _common knowledge_ is the [[knowledge]] that is known by everyone or nearly everyone, usually with reference to the community in which the term is used &mdash; Wikipedia
+**definition** _common knowledge_ is the [[knowledge]] that is known by everyone or nearly everyone, usually with reference to the community in which the term is used --- Wikipedia
 
 if the majority of experts in a field agree on a [[fact]], it is considered [[common knowledge]] in that field. [[common knowledge]] does not need to be cited
 

@@ -4,7 +4,7 @@ _Master Lock combination lock_
 
 ## Decoding
 
-> **resource** explanation of Master Lock [[combination lock#decoding]] by Samy Kamkar &mdash; <https://youtu.be/qkolWO6pAL8>
+> **resource** explanation of Master Lock [[combination lock#decoding]] by Samy Kamkar --- <https://youtu.be/qkolWO6pAL8>
 
 ## Alternate Combination
 

@@ -1,8 +1,8 @@
 # Fourier Transform
 
-&mdash; <https://youtu.be/spUNpyF58BY>
+--- <https://youtu.be/spUNpyF58BY>
 
-&mdash; <https://en.wikipedia.org/wiki/Fourier_transform>
+--- <https://en.wikipedia.org/wiki/Fourier_transform>
 
 **definition**
 
@@ -17,11 +17,11 @@
 
 ![[20221103111349.png]]
 
-&mdash; <https://youtu.be/spUNpyF58BY?t=666>
+--- <https://youtu.be/spUNpyF58BY?t=666>
 
 **properties**
 
-**`$ g | {@@ .. ..@@} = VV g 0`** by definition &mdash; <https://youtu.be/851U557j6HE?t=823> and <https://youtu.be/UOuxo6SA8Uc?t=961>
+**`$ g | {@@ .. ..@@} = VV g 0`** by definition --- <https://youtu.be/851U557j6HE?t=823> and <https://youtu.be/UOuxo6SA8Uc?t=961>
 
 **theorem** _convolution theorem_
 
@@ -29,4 +29,4 @@
 
 - **`CC g h`** is the [[convolution]] of **`g`** and **`h`**
 
-&mdash; <https://youtu.be/851U557j6HE?t=974> and <https://en.wikipedia.org/wiki/Convolution_theorem#Convolution_theorem_for_inverse_Fourier_transform>
+--- <https://youtu.be/851U557j6HE?t=974> and <https://en.wikipedia.org/wiki/Convolution_theorem#Convolution_theorem_for_inverse_Fourier_transform>
