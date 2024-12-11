@@ -93,6 +93,8 @@ link with [[prefix notation]], [[postfix notation]], [[syntax tree]]
 
 #xxx useful table <https://en.wikipedia.org/wiki/Theory_of_computation#Automata_theory>
 
+"meta-rules" for regular/context-free/context-sensitive grammars: <https://youtu.be/ENKT0Z3gldE?t=408>
+
 ## ---
 
 --- <https://en.wikipedia.org/wiki/Kleene_star>

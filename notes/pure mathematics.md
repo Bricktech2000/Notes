@@ -6,7 +6,7 @@
 
 [[type theory]]
 
-[[lambda calculus]]
+[[lambda-calculus]]
 
 [[combinatory logic]]
 

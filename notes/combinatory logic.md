@@ -1,10 +1,10 @@
 # Combinatory Logic
 
-**see** [[lambda calculus]], [[math notation]], [[combinator]]
+**see** [[lambda-calculus]], [[math notation]], [[combinator]]
 
 **properties**
 
-the [[combinator#s combinator]] and the [[combinator#k combinator]] can be composed to produce [[combinator]]s that are extentionally equal to any [[lambda calculus]] term. consequently, **`S, K`** [[combinatory logic]] is [[turing complete]]
+the [[combinator#s combinator]] and the [[combinator#k combinator]] can be composed to produce [[combinator]]s that are extentionally equal to any [[lambda-calculus]] term. consequently, **`S, K`** [[combinatory logic]] is [[turing complete]]
 
 ---
 
@@ -16,7 +16,7 @@ the [[combinator#s combinator]] and the [[combinator#k combinator]] can be compo
 
 **equiv** _[[boolean algebra]]_
 
-[[boolean]] values and [[boolean#operators]] can be defined as follows, see [[lambda calculus#church booleans]]:
+[[boolean]] values and [[boolean#operators]] can be defined as follows, see [[lambda-calculus#church booleans]]:
 
 - **`"true" = x. y. x = K`**
 - **`"false" = x. y. y = K I`**
@@ -29,7 +29,7 @@ we can then define:
 
 **equiv** _[[ordered pair]]_
 
-[[ordered pair]]s can be defined as follows, see [[lambda calculus#pairs]]:
+[[ordered pair]]s can be defined as follows, see [[lambda-calculus#pairs]]:
 
 - **`"pair" = x. y. z. z x y = B C T`**
 - **`"fst" = p. p "true" = T "true"`**

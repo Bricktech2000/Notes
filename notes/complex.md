@@ -122,4 +122,4 @@ geometrically, multiplying a [[complex]] number **`z`** by a [[complex]] number 
 
 > **proof** --- <https://www.youtube.com/watch?v=Z49hXoN4KWg>
 
-[[complex#multiplication]] by **`ii`** is equivalent to a rotation by **`"arg" ii`**, or **`-4tt"rad"`**. the square root of **`ii`** is a number **`x`** such that **`x | x = ii`**, which can be thought of as a rotation by either **`-8tt"rad"`** or **`5-8tt"rad"`**, which are equivalent to **`1 : ii -- \2/`** or **`1 : ii -- .. \2/`** respectively. this is because a right-angle triangle with hypotenuse **`1`** and angles **`-8tt"rad"`** has side lengths **`\2/`** --- me
+[[complex#multiplication]] by **`ii`** is equivalent to a rotation by **`"arg" ii`**, or **`-4tt"rad"`**. the square root of **`ii`** is a number **`x`** such that **`x | x = ii`**, which can be thought of as a rotation by either **`-8tt"rad"`** or **`5-8tt"rad"`**, which are equivalent to **`1 : ii -- \2/`** or **`1 : ii -- .. \2/`** respectively. this is because a right-angle triangle with hypotenuse **`1`** and angles **`-8tt"rad"`** has side lengths **`--\2/`** --- me

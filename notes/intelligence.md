@@ -26,6 +26,7 @@
 - Jessica from How to ADHD using _we_ when discussing [[intellectual giftedness]] --- <https://youtu.be/DbeeWRcHgN0?t=2m17s>
 - Stephen from Diary of a CEO being called highly intelligent --- <https://youtu.be/bk-nQ7HF6k4?t=31m54s>
 - Dr. K from HealthyGamerGG a gifted child --- <https://youtu.be/kPZwR3v_UyI?t=20m26s> and <https://youtu.be/kPZwR3v_UyI?t=1h19m4s> and <https://youtu.be/kPZwR3v_UyI?t=1h23m20s> and <https://youtu.be/bmvBTDPzzaY?t=17m53s>
+- Mark Cuban from Shark Tank pointing to sensory issues in his family --- <https://youtu.be/NQ_2gIg18Ho?t=8m23s>
 
 ## "don't you worry"
 

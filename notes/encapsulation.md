@@ -2,7 +2,7 @@
 
 _metaphorically enclosing something as if in a capsule_
 
-**see** [[generalism]], [[math notation]]
+**see** [[generalism]], [[durability]], [[math notation]]
 
 treating an idea or [[concept]] as a black box is okay, so long as you understand its observable behavior. [[encapsulation]] boils down to just-in-case learning [[cue]]s to learn some [[concept]] just-in-time. _it's okay not to know if you know you don't know_
 

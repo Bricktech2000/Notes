@@ -8,7 +8,7 @@
 
 [[math notation]]
 
-[[lambda calculus#syntax]]
+[[lambda-calculus#syntax]]
 
 [[type theory]] operators
 

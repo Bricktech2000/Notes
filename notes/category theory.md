@@ -18,7 +18,7 @@ there appears to be a standard way to build contexts in which we do [[mathematic
 > - [[set theory]]
 > - [[topology]]
 > - [[type theory]]
-> - [[lambda calculus]]
+> - [[lambda-calculus]]
 > - [[logic]]
 
 ---
@@ -55,7 +55,7 @@ absurd function
 
 universal construction:
 
-the _Curry--Howard-Lambek isomorphism_ states that [[logic]], [[type theory]] and some subset of [[category theory]] are all equivalent --- <https://youtu.be/I8LbkfSSR58?t=1681>
+the _Curry--Howard-Lambek isomorphism_ states that [[logic]], [[type theory]] and some subset of [[category theory]] are all equivalent --- <https://youtu.be/I8LbkfSSR58?t=1681>. see also table at <https://ncatlab.org/nlab/show/relation+between+type+theory+and+category+theory>
 
 **aka** _#todo Curry--Howard correspondence, propositions as types #xxx see <https://youtu.be/IOiZatlZtGU?t=1490>_
 

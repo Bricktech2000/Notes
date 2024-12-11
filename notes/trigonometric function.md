@@ -110,9 +110,9 @@ difference identities can be computed using the sum identities above
 
 **`"sin" 2x = 2 | "sin" x | "cos" x`** --- derived from angle sum identities
 
-**`"cos" 2x = ["cos" x]2 .["sin" x]2`** --- derived from angle sum identities
+**`"cos" 2x = ["cos" x]2 . ["sin" x]2`** --- derived from angle sum identities
 
-**`"cos" 2x = 1 .2["sin" x]2`** --- derived by substituting by the pythagorean identity
+**`"cos" 2x = 1 . 2["sin" x]2`** --- derived by substituting by the pythagorean identity
 
 **`"cos" 2x = 2["cos" x]2 . 1`** --- derived by substituting by the pythagorean identity
 

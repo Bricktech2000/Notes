@@ -1110,7 +1110,7 @@ search:
 
 --- <https://superuser.com/questions/505727/is-there-a-pattern-like-in-vim>
 
-todo tags to be added:
+"todo" tags to be added:
 
 - [[matrix#multiplication]] --- #todo mm
 - [[limit]] notation --- #todo lim

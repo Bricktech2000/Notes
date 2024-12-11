@@ -36,8 +36,8 @@ _a highly customizable text editor with efficient key bindings_
 
 - `u` --- _undo_
 - `<c-r>` --- _redo_
-- `g+` --- go to newer text state in undo tree
-- `g-` --- go to older text state in undo tree
+- `g+` --- go to newer text state in [[undo tree]]
+- `g-` --- go to older text state in [[undo tree]]
 - `.` --- repeat
 - `r` --- _replace_ character
 - `J` --- _join_ current line with next
@@ -159,9 +159,10 @@ _a highly customizable text editor with efficient key bindings_
 - `xp` --- swap character with next
 - `ddp` --- swap current line with next
 - `r<cr>` --- split line at cursor
-- `==` --- push text state onto undo tree (well kind of)
-- `99g+` --- jump to latest change in undo tree
-- `99<c-r>` --- jump to latest change in undo branch
+- `==` --- push text state onto [[undo tree]] (well kind of)
+- `99g+` --- jump to latest change in [[undo tree]]
+- `99<c-r>` --- jump to latest change in [[undo tree]] branch
+- `#*` --- highlight word under cursor
 
 ## miscellanous
 
@@ -170,7 +171,9 @@ _a highly customizable text editor with efficient key bindings_
 - `gf` --- open _file_ under cursor
 - `gd` --- jump to local _definition_ under cursor
 - `gD` --- jump to global _declaration_ under cursor
+- `ga` --- print metadata for char under cursor
 - `:!`**cmd** --- run shell command **cmd**
 - `!!`**cmd** --- run shell command **cmd** on current line
 - `:%!`**cmd** --- run shell command **cmd** on entire file
-- `:u!` --- undo one change and remove it from undo tree
+- `!`**m** **cmd** --- run shell command **cmd** on [[vim#motion]] **m**
+- `:u!` --- undo one change and remove it from [[undo tree]]

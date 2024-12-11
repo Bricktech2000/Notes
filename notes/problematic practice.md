@@ -1,5 +1,7 @@
 # Problematic Practice
 
+see also [[type composition]], [[typography]]
+
 [[comma splice]]s are a [[problematic practice]]
 
 [[rhetorical question]]s are are useful to attract attention, but should not be used to prove a point
