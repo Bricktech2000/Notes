@@ -243,7 +243,7 @@ a _compound literal_, written _`(` type-name `)` `{` initializer-list `,`? `}`_,
 
 > **example** `(char []){"/tmp/fileXXXXXX"}` is essentially a modifiable string literal --- ISO/IEC 9899:TC3, $6.5.2.5, paragraph 13
 
-> **example** `*p = (struct p){0};` can be used to zero out a structure, say after a `free(p);` --- <https://youtu.be/lLv1s7rKeCM?t=56m32s>
+> **example** `*p = (struct p){0};` can be used to zero out a structure, say before returning from a destructuor --- <https://youtu.be/lLv1s7rKeCM?t=56m32s>
 
 ## lvalues and rvalues
 

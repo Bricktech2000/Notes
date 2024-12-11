@@ -4,7 +4,7 @@
 
 [[functor]] & [[map function]], [[monad]] & [[bind function]] & [[join function]], [[monoid]] & [[reduce function]], [[applicative]] & [[apply function]], [[effect type]] & [[return function]]
 
-[[currying]], [[partial application]], [[function#pure function]] and [[function#total function]], [[composition]], [[type]], [[combinatory logic]], [[lambda calculus]]
+[[currying]], [[partial application]], [[function#pure function]] and [[function#total function]], [[composition]], [[type]], [[combinatory logic]], [[lambda-calculus]]
 
 **properties**
 

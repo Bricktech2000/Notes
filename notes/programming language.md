@@ -8,7 +8,7 @@
 
 ## building a language
 
-**see** [[backus-naur form]], [[syntax tree]], [[lexer]], [[parser]]
+**see** [[backus--naur form]], [[syntax tree]], [[lexer]], [[parser]]
 
 **representation**
 

@@ -1,6 +1,6 @@
 # Combinator
 
-**definition** a _combinator_ is a closed [[lambda calculus]] term --- <https://youtu.be/seVSlKazsNk>
+**definition** a _combinator_ is a closed [[lambda-calculus]] term --- <https://youtu.be/seVSlKazsNk>
 
 **properties**
 
@@ -60,7 +60,7 @@ _the [[composition]] of its arguments_
 
 **definition** **`B = S (K S) K`**
 
-**definition** _in the [[lambda calculus]]_ $B = \lambda fgx.\ f\ (g\ x)$
+**definition** _in the [[lambda-calculus]]_ $B = \lambda fgx.\ f\ (g\ x)$
 
 **notation** **``f`g x``**
 
@@ -172,7 +172,7 @@ _applies a [[function]] twice_
 
 ### Y Combinator
 
-_allows for [[lambda calculus#recursion]]_
+_allows for [[lambda-calculus#recursion]]_
 
 _used to formally define recursive [[function]]s in a [[functional programming]] language that does not support [[recursion]]_
 
@@ -184,7 +184,7 @@ _used to formally define recursive [[function]]s in a [[functional programming]]
 
 **definition** _using [[recursion]]_ **`Y = f. f (Y f)`**
 
-**definition** _in the [[lambda calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
+**definition** _in the [[lambda-calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
 
 **definition** _using [[combinator]]s_ **``Y = f. (* *) f`(* *)``** #todo id
 
@@ -208,7 +208,7 @@ the advantage of the [[combinator#theta combinator]] over the [[combinator#y com
 
 **definition** **`ii = x. x S K`**
 
-the [[combinator#iota combinator]] can be used to define the [[combinator#s combinator]] and [[combinator#k combinator]], and can therefore be composed to produce [[combinator#combinator]]s that are extentionally equal to any term in the [[lambda calculus]]. consequently, **`ii`** [[combinatory logic]] is [[turing complete]]
+the [[combinator#iota combinator]] can be used to define the [[combinator#s combinator]] and [[combinator#k combinator]], and can therefore be composed to produce [[combinator#combinator]]s that are extentionally equal to any term in the [[lambda-calculus]]. consequently, **`ii`** [[combinatory logic]] is [[turing complete]]
 
 #### ---
 

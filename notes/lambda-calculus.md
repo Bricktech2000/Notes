@@ -1,10 +1,12 @@
-# Lambda Calculus
+# Lambda-Calculus
 
-**aka** _λ-calculus_
+--- <https://ncatlab.org/nlab/show/lambda-calculus>
 
 **see** [[combinatory logic]], [[recursion]]
 
-> **resource** _SSA is Functional Programming_ "SSA is just another name for [[lambda calculus]]" --- <https://www.cs.princeton.edu/~appel/papers/ssafun.pdf> --- <https://crypto.stanford.edu/~blynn/compiler/lambda.html>
+> **resource** _SSA is Functional Programming_ "SSA is just another name for [[lambda-calculus]]" --- <https://www.cs.princeton.edu/~appel/papers/ssafun.pdf> --- <https://crypto.stanford.edu/~blynn/compiler/lambda.html>
+
+the λ-calculus is a simple [[programming language]] and [[turing complete]] model of computation. it is the basis for most [[functional programming]] [[programming language]]s
 
 **definition** _β-reduction_ is the process of replacing bound variables with the argument to an abstraction
 
@@ -16,36 +18,20 @@
 
 > **note** λ-terms can be denoted canonically using De Bruijn indices, eliminating the need for α-conversion and α-equivalence --- <https://youtu.be/UUUQp8HvrH0?t=892>
 
-**properties**
+**definition** _η-reduction_ and _η-expansion_---collectively, _η-conversion_---convert back and forth between a λ-term and the immediate abstraction of a free variable applied to the λ-term
 
-[[function]]s in the [[lambda calculus]] are [[function#pure function]]s
-
-the [[lambda calculus]] is [[turing complete]]
-
-the [[lambda calculus]] is the basis for most [[functional programming]] [[programming language]]s
+> **note** η-reduction is "dual" to β-reduction in the sense that the former simplifies a _constructor_ applied to an _eliminator_ while the latter simplifies an _eliminator_ applied to a _constructor_ --- <https://ncatlab.org/nlab/show/eta-conversion>
 
 ## Syntax
 
 --- <https://youtu.be/IOiZatlZtGU?t=292>
 
-**see** [[backus-naur form]]
-
-_in [[conventional math notation]]_
+**see** [[backus--naur form]]
 
 ```bnf
 <expr> ::= <var>                        ; variable
          | "(" <expr> " " <expr> ")"    ; application
          | "(" "λ" <var> "." <expr> ")" ; abstraction
-<var> ::= (? some lowercase latin letter ?)
-```
-
-_in my [[math notation]]_
-
-```bnf
-<expr> ::= <var>             ; variable
-         | <expr> " " <expr> ; application
-         | <var> "->" <expr> ; abstraction
-         | "(" <expr> ")"    ; grouping
 <var> ::= (? some lowercase latin letter ?)
 ```
 
@@ -59,9 +45,7 @@ self-application is not typeable in the simply typed λ-calculus. consequently, 
 
 ### Syntax
 
-**see** [[backus-naur form]]
-
-_in [[conventional math notation]]_
+**see** [[backus--naur form]]
 
 ```bnf
 <expr> ::= <var>                                   ; variable
@@ -103,15 +87,15 @@ _abstraction_ $\displaystyle\frac{\Gamma, x : \sigma \vdash e : \tau}{\Gamma \vd
 
 ## Non-Recursive Types
 
-non-recursive [[type#algebraic data type]]s can be encoded naturally in the [[lambda calculus]]. [[type#sum type]]s are [[function]]s that call one of their several parameters to emulate case analysis, and [[type#product type]]s are [[function]]s that call their single parameter with several arguments to emulate destructuring
+non-recursive [[type#algebraic data type]]s can be encoded naturally in the [[lambda-calculus]]. [[type#sum type]]s are [[function]]s that call one of their several parameters to emulate case analysis, and [[type#product type]]s are [[function]]s that call their single parameter with several arguments to emulate destructuring
 
-[[lambda calculus#church encoding]] and [[lambda calculus#scott encoding]] coincide to this non-recursive encoding when the [[type#algebraic data type]] they encode is not recursive
+[[lambda-calculus#church encoding]] and [[lambda-calculus#scott encoding]] coincide to this non-recursive encoding when the [[type#algebraic data type]] they encode is not recursive
 
 ### Booleans
 
 **see** [[boolean]]
 
-`data Bool = True | False` can be encoded in the [[lambda calculus]] as follows:
+`data Bool = True | False` can be encoded in the [[lambda-calculus]] as follows:
 
 - **`"true" = x. y. x`**
 - **`"false" = x. y. y`**
@@ -128,7 +112,7 @@ we can then define the [[boolean#operator]]s:
 
 **see** [[ordered pair]]
 
-`data Pair x y = Pair x y` be encoded in the [[lambda calculus]] as follows:
+`data Pair x y = Pair x y` be encoded in the [[lambda-calculus]] as follows:
 
 - **`"pair" x y = z. z x y`**
 - **`"fst" p = p (x. y. x)`**
@@ -185,7 +169,7 @@ we can then define:
 
 - **`"iszero" n = n (."false") "true"`**
 
-unlike with [[lambda calculus#church encoding]], we may easily define:
+unlike with [[lambda-calculus#church encoding]], we may easily define:
 
 - **`"pred" n = s. z. n (n. n) z`**
 
@@ -204,6 +188,6 @@ we can then define:
 - **`"list1" h = c. n. c h nil`**
 - **`"head" l = l (h. t. some h) none`**
 
-unlike with [[lambda calculus#church encoding]], we may easily define:
+unlike with [[lambda-calculus#church encoding]], we may easily define:
 
 - **`"tail" l = l (h. t. some t) none`**

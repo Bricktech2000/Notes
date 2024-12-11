@@ -8,8 +8,6 @@
 
 ## intel
 
-[[combination lock]]
-
 [[curve fitting]]
 
 [[social media]]
@@ -29,6 +27,8 @@
 [[quine]]
 
 [[projection]]
+
+[[durability]]
 
 ## zilch
 
@@ -116,8 +116,6 @@
 
 [[education]] system issues
 
-[[self-taught software engineer]]
-
 [[finance]]
 
 ## newtork
@@ -181,3 +179,7 @@
 [[under]]
 
 [[hallucination]]
+
+[[typography]]
+
+[[undo tree]]

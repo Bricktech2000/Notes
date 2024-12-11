@@ -10,7 +10,11 @@ _a finite [[string]] denoting a [[formal language#regular formal language]]_
 
 > **resource** LTRE, my [[finite automaton]] [[regular expression]] engine and [[formal language]]s playground --- <https://github.com/Bricktech2000/LTRE>
 
-> **resource** _Regular Expression Matching Can Be Simple And Fast_, an intro to [[finite automaton]] [[regular expression]] engines and a manifesto for why there are no good excuses to use backtracking engines --- <https://swtch.com/~rsc/regexp/regexp1.html>
+> **resource** _Regular Expression Matching Can Be Simple And Fast_ by Russ Cox, an intro to [[finite automaton]] [[regular expression]] engines and a manifesto for why there are no good excuses to use backtracking engines --- <https://swtch.com/~rsc/regexp/regexp1.html>
+
+> **resource** _Regular Expression Matching in the Wild_ by Russ Cox, practical tips for writing [[regular expression]] engines --- <https://swtch.com/~rsc/regexp/regexp3.html>
+
+> **resource** Andrew Gallant's blog posts on `ripgrep`, more practical tips for writing [[regular expression]] engines --- <https://blog.burntsushi.net/ripgrep/> and <https://blog.burntsushi.net/regex-internals/>
 
 in [[formal language]] theory, [[regular expression]]s support grouping `(r)`, concatenation `rs`, alternation `r|s` and Kleene closure `r*`; `?` and `+` are omitted since `r? = r|ε` and `r+ = rr*`. additionaly, `ε` denotes the [[set]] containing the empty word, `∅` the empty [[set]], and any other [[character]] the [[set]] containing the word formed by that [[character]]
 

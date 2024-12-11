@@ -1,6 +1,6 @@
 # Halting Problem
 
-**see** [[turing machine]], [[lambda calculus]]
+**see** [[turing machine]], [[lambda-calculus]]
 
 the [[halting problem]] is is _undecideable_. that is, there exists no general [[algorithm]] that can determine whether an arbitrary program halts
 

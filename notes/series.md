@@ -189,7 +189,7 @@ a power [[series]] centered at **`a`** is of the following form:
 **`:P x = c^0 [x.a]0 : c^1 [x.a]1 : ...`**, where
 
 - **`c^n`** is a constant (a [[function]] of the [[iteration]] [[variable]])
-- **`P x`** is the _power series_ taking the argument **`x`**
+- **`:P x`** is the _power series_ taking the argument **`x`**
 
 > **note** the starting index does not have to be **`0`** but must still be a [[natural]]
 

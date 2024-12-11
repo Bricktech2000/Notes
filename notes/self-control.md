@@ -9,6 +9,6 @@
 - stress **externalizes** our attention, which explains why it leads to a lack of [[self-control]]. the solution is not to "reduce" stress, but rather to hit the breaks and take the [[time]] to reinternalize our awareness
 - not having the [[energy]] to care about internal conflict leads to a lack of [[self-control]]. this is why [[sleep]], exercise and diet are so important
 
-_willpower_ is unpredictable. trying to change behavior through [[self-control]] will eventually fail; trying to change behavior through [[system]]s and [[habit]]s has a greater chance of success
+willpower is unpredictable. trying to change behavior through [[self-control]] will eventually fail; trying to change behavior through [[system]]s and [[habit]]s has a greater chance of success
 
 > **note** _recent research is starting to suggest a relationship between [[sleep]] deprivation and reduced willpower_ --- <https://jamesclear.com/willpower>. I have observed this in myself, and have found that [[sleep]] is a [[habit#keystone habit]] of mine

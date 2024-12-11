@@ -14,7 +14,7 @@
 
 [[computer engineering]], [[software engineering]]
 
-[[lambda calculus]], [[turing machine]]
+[[lambda-calculus]], [[turing machine]]
 
 [[abstract data type]]s, [[data structure]]s, [[algorithm]]s
 

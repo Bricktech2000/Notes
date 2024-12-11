@@ -2,7 +2,7 @@
 
 _how things learn_
 
-**see** [[memory]], [[invest]], [[neural network]] [[backpropagation]]
+**see** [[memory]], [[invest]], [[durability]]
 
 **see** _learning techniques_ [[active recall]], [[spaced repetition]], [[interleaving]]
 

@@ -2,11 +2,11 @@
 
 _striving to become a jack of all trades_
 
-**see** [[encapsulation]], [[conceptual note-taking]], [[knowledge]]
+**see** [[encapsulation]], [[durability]], [[conceptual note-taking]], [[knowledge]]
 
 _specialists_ may come off as clueless, ignorant, blind or unaware. specialism results in compartmentalization of [[knowledge]] and hinders serendipitous discovery. _generalists_, on the other hand, are living swiss army knives. [[generalism]] results in broader [[knowledge]] bases and encourages cross-disciplinary insight
 
-[[generalism]] boils down to broad yet shallow just-in-case learning. _cutting a tree with a chain saw is more efficient than with a swiss army knife. but owning a swiss army knife helps you realize that cutting a tree is a thing you can actually do_
+[[generalism]] boils down to broad yet shallow just-in-case learning. _cutting a tree with a chain saw is more efficient than with a swiss army knife---but owning a swiss army knife helps you realize that cutting a tree is a thing you can actually do_
 
 > **examples** _issue --- with rationale_
 >
