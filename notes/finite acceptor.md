@@ -2,7 +2,7 @@
 
 _a [[finite automaton]] which recognizes a [[formal language#regular formal language]]_
 
-**aka** _finite automaton, FA_
+**aka** _finite automaton_, _FA_
 
 **see** [[formal language]]
 

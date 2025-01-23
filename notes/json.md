@@ -6,6 +6,8 @@ _a simple data interchange format_
 
 > **resource** RFC 8259, _The JavaScript Object Notation (JSON) Data Interchange Format_ --- <https://www.rfc-editor.org/rfc/rfc8259.html>
 
-> **resource** _jsmn_, a 300-SLOC, allocation-free [[json]] parser in [[c]] --- <https://github.com/zserge/jsmn/blob/master/jsmn.h>
+> **resource** _Parsing JSON is a Minefield_ by Nicolas Seriot, on the subtleties of parsing [[json]] --- <https://seriot.ch/projects/parsing_json.html>
 
-the design of JSMN is neat. [[parser]] output is an [[array]] of possibly overlapping [[string]] slices "tokens" pointing into the source [[json]] [[string]]. `[ ... ]` "array" and `{ ... }` "object" tokens also hold as metadata the number of children they have, which is sufficient to rebuild the entire [[json]] [[tree]] hierarchy
+> **resource** _jsonw_, my tiny RFC 8259-compliant, allocation-free [[json]] parser for [[c]] --- <https://github.com/Bricktech2000/JSONW>
+
+[[json]] is **not** a [[set#subset]] of [[javascript]] because the [[unicode]] [[character]]s `U+2028 LINE SEPARATOR` and `U+2029 PARAGRAPH SEPARATOR` can appear in [[json]] [[string]] literals but not in [[javascript]] [[string]] literals --- <https://seriot.ch/projects/parsing_json.html>

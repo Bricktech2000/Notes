@@ -1,6 +1,6 @@
 # Neural Network
 
-**see** [[linear algebra]], [[optimization]], [[probability]], [[learning]]
+**see** [[linear algebra]], [[optimization]], [[probability]]
 
 **see**
 

@@ -1,6 +1,6 @@
 # Benford's Law
 
-**aka** _law of anomalous numbers, first-digit law_
+**aka** _law of anomalous numbers_, _first-digit law_
 
 --- <https://en.wikipedia.org/wiki/Benford%27s_law>
 

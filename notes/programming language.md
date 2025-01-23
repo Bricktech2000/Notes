@@ -2,7 +2,7 @@
 
 **see** [[statement]], [[expression]], [[null]], [[lexer]], [[parser]], [[type]], [[comment]]
 
-**see** [[javascript]], [[c++]], [[python]], [[rust]], [[c]], [[iota language]], [[java]], [[go]], [[solidity]], [[forth]]
+**see** [[javascript]], [[c++]], [[python]], [[rust]], [[c]], [[iota language]], [[java]], [[go]], [[forth]], [[brainfuck]]
 
 **see** _other types of languages_ [[json]], [[yaml]], [[markdown]], [[better markdown]], [[bash]]
 

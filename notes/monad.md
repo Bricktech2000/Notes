@@ -21,7 +21,7 @@
 
 _an alternative to the [[bind function]]_
 
-**aka** _`>=>`, fish operator, Kleisli operator_
+**aka** _`>=>`_, _fish operator_, _Kleisli operator_
 
 the Kleisli Composition is an alternative to the [[bind function]] that uses [[composition]] to turn two "world-crossing" [[function]]s into a single "world-crossing" [[function]] by short-circuiting their alternative outputs (see [[bind function]])
 

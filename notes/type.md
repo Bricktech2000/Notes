@@ -128,7 +128,7 @@ refinement types may be used to assert pre- and post-conditions at the [[type sy
 
 ### Sum Type
 
-**aka** _"or" type, "choice" type, Rust `enum`_
+**aka** _"or" type_, _"choice" type_, Rust _`enum`_
 
 **properties**
 
@@ -136,7 +136,7 @@ the [[set#cardinality]] of a [[type#sum type]] is the sum of the [[set#cardinali
 
 ### Product Type
 
-**aka** _"and" type, `pair`, `struct`_
+**aka** _"and" type_, _`pair`_, _`struct`_
 
 **properties**
 

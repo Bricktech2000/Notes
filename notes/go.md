@@ -6,6 +6,8 @@ _it's not bad; it's just not good_ --- <https://yager.io/programming/go.html>
 
 > **resource** _why [[go]] is not good_, comparing design decisions in [[go]] to Haskell and [[rust]] --- <https://yager.io/programming/go.html>
 
+the design of [[go]] is a silent disease, in the narrow sense that people praise Go for its design without realizing it's poor design, and then it spreads
+
 [[go]] contains a myriad of contradictory design decisions; examples include:
 
 - [[go]] calls itself a _systems language_ yet requires a garbage collector
@@ -31,7 +33,7 @@ and the rest of [[go]] is half-baked at best; examples include:
 - [[go]] uses "zero values" to avoid uninitialized variables, which is a band-aid solution to a problem that should be solved at the [[type system]] level
 - [[go]] has [[interface]]s, which are a poor man's [[trait]]s. and [[go]] [[interface]]s are duck-typed, which is another shady decision
 - [[go]] dares to list [[type]] inference as a feature, but all its [[type]] inference engine does is guess the [[type]] of a [[variable]] based on the value it's assigned
-- [[go]] proudly uses [[ordered pair]]s over special syntax for error handling, except that using [[type#product type]]s for error handling is a half-baked solution anyway
+- [[go]] proudly uses [[ordered pair]]s instead of special syntax for error handling, except that the way you do errors-as-values is to use the `Either` [[monad]], not a [[type#product type]]
 
 for the sake of [[confirmation bias]], let's end with a few cherry-picked quotes:
 

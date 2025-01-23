@@ -6,7 +6,7 @@
 
 ## Nominal Type System
 
-**aka** _name-based type system, nominative type system_
+**aka** _name-based type system_, _nominative type system_
 
 **definition** a [[type system]] is a _nominal type system_ if [[type]] equivalence and compatibility are determined by explicit declarations and/or the name of the [[type]]s --- Wikipedia
 

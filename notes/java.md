@@ -16,7 +16,7 @@ public class HelloWorld {
 
 compilation and execution:
 
-```bash
+```sh
 java HelloWorld.java
 ```
 

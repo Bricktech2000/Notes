@@ -37,15 +37,15 @@ time [[computational complexity]]:
 
 ## Invariant
 
-**aka** _[[heap#invariant]], heap property_
+**aka** _[[heap#invariant]]_, _heap property_
 
-**definition** the _heap invariant_ is a property of [[tree]]s that requires every node to be ordered with respect its children
+**definition** the _heap invariant_ is a property of [[tree]]s that requires every node to be ordered with respect to both its children
 
 ### restoring the heap invariant
 
 time [[computational complexity]]: **`O /.\`**
 
-**aka** _bubbling up/down, sifting up/down, swim/sink_
+**aka** _bubbling up/down_, _sifting up/down_, _swim/sink_
 
 > **procedure** _bubbling up_
 >
@@ -65,10 +65,10 @@ time [[computational complexity]]: **`O /.\`**
 
 > **procedure** _adding an element to a heap_
 >
-> given a [[heap]] **`h`** nd an element **`n`**,
+> given a [[heap]] **`h`** and an element **`n`**,
 >
 > 1. add **`n`** to the end of **`h`**
-> 2. restore the [[heap]] invariant by _swimming_
+> 2. restore the [[heap]] invariant by _bubbling up_
 
 > **procedure** _polling an element from a heap_
 >
@@ -76,7 +76,7 @@ time [[computational complexity]]: **`O /.\`**
 >
 > 1. swap **`n`** with the last node of **`h`**
 > 2. remove the last node of **`h`**
-> 3. restore the [[heap]] invariant by _sinking_
+> 3. restore the [[heap]] invariant by _bubbling down_
 
 > **procedure** _removing an element from a heap_
 >
@@ -85,7 +85,7 @@ time [[computational complexity]]: **`O /.\`**
 > 1. find the node **`n`** with value **`v`** in **`h`** (see below)
 > 2. swap **`n`** with the last node of **`h`**
 > 3. remove the last node of **`h`**
-> 4. restore the [[heap]] invariant by either _swimming_ or _sinking_
+> 4. restore the [[heap]] invariant by either _bubbling up_ or _bubbling down_
 
 ### finding an element in a heap
 

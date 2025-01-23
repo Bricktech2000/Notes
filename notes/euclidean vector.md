@@ -88,9 +88,9 @@ _the scalar projection is equal to the [[euclidean vector#magnitude]] of the [[e
 
 **definition** _projection onto another [[vector]]_
 
-**`"abs" ("proj"^b a) = "abs" a | "cos" aa`**, and
+**`"abs" ("proj"^b a) = "abs" a | "cos" aa = :ab_*`**, and
 
-**`"proj"^b a = \:a2/ "cos" aa | b_* = :ab_* | b_* = :ab -- :b2 | b`** (see [[dot product]]), where
+**`"proj"^b a = "abs" a | "cos" aa | b_* = :ab_* | b_* = :ab -- :b2 | b`** (see [[dot product]]), where
 
 - **`"proj"^b a`** is the _vector projection of **`a`** on **`b`**_
 - **`"abs" ("proj"^b a)`** is the _scalar projection of **`a`** on **`b`**_

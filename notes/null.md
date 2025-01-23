@@ -1,6 +1,6 @@
 # Null
 
-**aka** _the billion-dollar mistake --- Tony Hoare_
+_the billion-dollar mistake_ --- Tony Hoare
 
 [[null]] was [[invent]]ed
 

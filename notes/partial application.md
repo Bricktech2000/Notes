@@ -6,7 +6,7 @@
 
 > **example**
 >
-> ```f#
+> ```fsharp
 > let hello = printfn "Hello, %s"
 > let names = ["John", "Jane", "Mary"]
 >

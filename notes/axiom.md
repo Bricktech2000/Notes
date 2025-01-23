@@ -1,5 +1,7 @@
 # Axiom
 
-_assumptions of a mathematical system that do not require a proof_
+**see** [[inference rule]]
 
-[[axiom]]s are [[invent]]ions atop which [[mathematics]] are [[discover]]ed
+[[axiom]]s can be thought of as a special case of [[inference rule]]s, with no premises --- me
+
+[[axiom]]s and [[inference rule]]s are [[invent]]ions atop which [[mathematics]] are [[discover]]ed

@@ -8,7 +8,7 @@ _how things learn_
 
 --- <https://youtu.be/5eW6Eagr9XA>
 
-> **resource** _learn how to study smart_ by Marty Lobdell --- <https://www.youtube.com/watch?v=IlU-zDU6aQ0>
+> **resource** _learn how to study smart_ by Marty Lobdell --- <https://youtu.be/IlU-zDU6aQ0>
 
 > **resource** _Guessing the Teacher's Password_, on the distinction between _passwords_ and _explanations_ --- <https://www.readthesequences.com/Guessing-The-Teachers-Password>
 

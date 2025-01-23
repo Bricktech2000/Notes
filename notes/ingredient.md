@@ -42,7 +42,7 @@ used as a leavening agent in baking. it is alkaline, and reacts with acids to fo
 
 ## Calcium Dihydrogen Phosphate
 
-**aka** _calcium phosphate, monocalcium phosphate_
+**aka** _calcium phosphate_, _monocalcium phosphate_
 
 --- <https://en.wikipedia.org/wiki/Monocalcium_phosphate> --- <https://youtu.be/fQL16H9HRzg> --- Oreo Cookie and Gerber Snacks for Baby
 
@@ -62,7 +62,7 @@ can leave a slightly bitter aftertaste that can be masked by using sufficient [[
 
 ## Ammonium Bicarbonate
 
-**aka** _hartshorn, hornsalt_
+**aka** _hartshorn_, _hornsalt_
 
 a leavening agent. produces more gas than [[ingredient#sodium bicarbonate]] for the same amount of agent. does not leave a soapy or salty taste as it completely decomposes into water and gaseous products
 
@@ -70,13 +70,13 @@ can often be replaced by [[ingredient#sodium bicarbonate]] or baking powder. can
 
 ## Niacin
 
-**aka** _nicotinic acid, vitamin B3_
+**aka** _nicotinic acid_, _vitamin B3_
 
 --- Wikipedia --- Gerber Snacks for Baby
 
 ## Thiamine
 
-**aka** _thiamin, vitamin B1_
+**aka** _thiamin_, _vitamin B1_
 
 --- Wikipedia --- Gerber Snacks for Baby
 
@@ -88,13 +88,13 @@ can often be replaced by [[ingredient#sodium bicarbonate]] or baking powder. can
 
 ## Folic Acid
 
-**aka** _folate, vitamin B9_
+**aka** _folate_, _vitamin B9_
 
 --- Wikipedia --- Gerber Snacks for Baby
 
 ## Rosin
 
-**aka** _colophonium, colophony_
+**aka** _colophonium_, _colophony_
 
 can be used as a _glazing agent_ in medicines and chewing gum. can be used as an emulsifier (used to form [[emulsion]]s) in soft drinks
 

@@ -12,7 +12,7 @@ _assembly with syntactic sugar and undefined behavior_
 
 > **resource** ISO/IEC 9899:TC3, WG14/N1256 --- <https://www.open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf>
 
-**see** [[math notation]]
+what makes [[c]] timeless is not its simplicity; it's its [[durability]]. most constructs in [[c]] map trivially into assembly, which, in turn, maps trivially into machine code. in other words, there is a strong correspondence between the features of [[c]] and the fundamental ideas governing the design of processors and instruction sets. for this reason, [[programming language]]s that proudly claim to have the simplicity of [[c]]---like [[go]] does---should raise red flags
 
 **tradeoffs**
 
@@ -44,7 +44,7 @@ long int // aka `long`
 long long int // aka `long long`
 
 // unsigned integer data
-unsigned signed char
+unsigned char
 unsigned short int // aka `unsigned short`
 unsigned int
 unsigned long int // aka `unsigned long`
@@ -143,18 +143,19 @@ U"foo" // char32_t[6]
 '\r' // Carriage Return
 '\t' // Horizontal Tab
 '\v' // Vertical Tab
-'\0' // Null
 '\xhh' // Hexadecimal
 '\ooo' // Octal
 ```
 
 --- <https://en.cppreference.com/w/cpp/language/floating_literal>
 
+`'\0'` is an octal escape sequence
+
 [[c]] allows the last member of a `struct` to be a _flexible array member_---an array of unspecified length. calling `sizeof` on a `struct` with a _flexible array member_ will return the size of the `struct` as if it didn't contain the flexible array member
 
 > **example** `struct s { int x; int y[]; };`
 
-`sizeof char` is `1`, and the size of the other integer data types is [[c#implementation-defined behavior]] and is available in `limits.h`. each has a standard-imposed minimum magnitude. actual-width integers such as `uint32_t` and widest integer types `uintmax_t` and `intmax_t` are available in `stdint.h` and `inttypes.h`
+`sizeof char` is `1`, and the size of the other integer data types is [[c#implementation-defined behavior]] and is available in `limits.h`. each has a standard-imposed minimum magnitude; see ISO/IEC 9899:TC3, Annex 5, paragraph 1. actual-width integers such as `uint32_t` and widest integer types `uintmax_t` and `intmax_t` are available in `stdint.h` and `inttypes.h`
 
 _wraparound_ (which is specific to unsigned integers) is well-defined behavior in [[c]]. values are reduced modulo the number that is one greater than the largest value that can be represented by the resulting type. however, _overflow_ (which is specific to signed integers) is [[c#undefined behavior]]
 
@@ -266,7 +267,7 @@ adding or subtracting an _integer type_ to or from a pointer [[type]] in [[c]] r
 > //*
 > ```
 
-the resulting pointer must point to an element of the same [[array]] as the original pointer, or to an element one past the end of the [[array]] for historical reasons (known as the "too-far" pointer). otherwise, the behavior is [[c#undefined behavior]]. scalars are treated as length-one [[array]]s
+the resulting pointer must point to an element of the same [[array]] as the original pointer, or to an element one past the end of the [[array]] (known as the "too-far" pointer). otherwise, the behavior is [[c#undefined behavior]]. scalars are treated as length-one [[array]]s
 
 > **example** in `int m[2] = {1, 2}; for (int *p = &m[0]; p < &m[2]; p++);`, `&m[2]` is a "too-far" pointer
 

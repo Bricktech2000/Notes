@@ -2,7 +2,7 @@
 
 _lifts a horizontal [[function]] to the effects world_
 
-**aka** _`lift`, `select`, `fmap`, `<$>`_
+**aka** _`lift`_, _`select`_, _`fmap`_, _`<$>`_
 
 **equiv** _map between [[category#morphism]]s_
 

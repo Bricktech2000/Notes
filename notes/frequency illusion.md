@@ -1,6 +1,6 @@
 # Frequency illusion
 
-**aka** _baader-meinhof phenomenon, frequency bias_
+**aka** _baader-meinhof phenomenon_, _frequency bias_
 
 **definition** _frequency illusion_ is a [[cognitive bias]] referring to the tendency to notice something more often after noticing it for the first time, leading to the belief that it has an increased [[frequency]] of occurrence --- <https://en.wikipedia.org/wiki/Frequency_illusion>
 

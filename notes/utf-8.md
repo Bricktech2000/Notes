@@ -12,7 +12,7 @@ _a brilliant and beautiful hack_
 
 **properties**
 
-[[utf-8]] is a [[set#superset]] of [[ascii]]; every valid 7-bit [[ascii]] [[string]] is a valid [[utf-8]] [[string]]. furthermore, no 7-bit [[ascii]] bytes appear within [[utf-8]] multi-byte sequences, and thus programs expecting [[ascii]] sentinels such as the `\0` terminator and the `/` path separator do not misbehave when processing [[utf-8]]. for other nice properties of [[utf-8]], see RFC 3229, $1 'Introduction' <https://www.rfc-editor.org/rfc/rfc3629.html#section-1>
+[[utf-8]] is a [[set#superset]] of [[ascii]]; every valid 7-bit [[ascii]] [[string]] is a valid [[utf-8]] [[string]]. furthermore, no 7-bit [[ascii]] bytes appear within [[utf-8]] multi-byte sequences, and thus programs expecting [[ascii]] sentinels such as the `\0` terminator and the `/` path separator do not misbehave when processing [[utf-8]]. for other nice properties of [[utf-8]], see RFC 3629, $1 'Introduction' <https://www.rfc-editor.org/rfc/rfc3629.html#section-1>
 
 **representation**
 

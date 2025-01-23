@@ -10,7 +10,7 @@ _fight-or-flight_
 
 ### Fight-or-Flight Response
 
-**aka** _hyperarousal, accute stress response_
+**aka** _hyperarousal_, _accute stress response_
 
 **definition** the _fight or flight response_ is an automatic physiological reaction to an event that is perceived as stressful or frightening. the perception of threat activates the sympathetic nervous system and triggers an acute stress response that prepares the body to fight or flee --- <https://www.psychologytools.com/resource/fight-or-flight-response/>
 

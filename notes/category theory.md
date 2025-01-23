@@ -45,7 +45,7 @@ _co..._ refers to the same object in the opposite [[category]]. product & coprod
 
 bottom types in haskell --- <https://youtu.be/p54Hd7AmVFU>
 
-pre order, partial order, total order, and how epi + mono != iso --- <https://youtu.be/aZjhqkD6k6w>
+preorder, partial order, total order, and how epi + mono != iso --- <https://youtu.be/aZjhqkD6k6w>
 
 Kleisli category <https://youtu.be/i9CU4CuHADQ>
 

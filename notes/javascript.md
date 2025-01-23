@@ -2,6 +2,8 @@
 
 _[[type system]] madness_
 
+> **resource** _ECMAScript Language Specification, Edition 5.1_ --- <https://ecma-international.org/wp-content/uploads/ECMA-262_5.1_edition_june_2011.pdf>
+
 ## type system madness
 
 ```javascript

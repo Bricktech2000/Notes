@@ -82,7 +82,7 @@ _[[function#self-inverse function]]_ **`"conj"2 z = z`**
 
 ## Modulus
 
-**aka** _magnitude, absolute value_
+**aka** _magnitude_, _absolute value_
 
 **definition** **`"abs" z = "abs" ("re" z, "im" z)`** where **`"abs" z`** is the _absolute value_ of **`z`**.
 

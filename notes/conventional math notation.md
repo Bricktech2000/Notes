@@ -28,7 +28,7 @@
 - $f'$ is both a separate [[variable]] name and a [[derivative]]
 - $f(1, 2)$ is both $f(1.2)$ and $f(1; 2)$
 - $4 \equiv 1 \mod 3$ is awful
-- $\frac{10}{\frac 2 5}$ and $\frac{\frac{10}{2}}{5}$ look practically identicay
+- $\frac{10}{\frac 2 5}$ and $\frac{\frac{10}{2}}{5}$ look practically identical
 - $|x|y|z|$ is both $\operatorname{abs}(x \times \operatorname{abs}(y) \times z)$ and $\operatorname{abs}(x) \times y \times \operatorname{abs}(z)$
 - $\mathbb N$ might or might not contain $0$. the same is true for $\mathbb Z^+$
 - $2x = 2 \times x$ whereas $2 \frac 2 3 = 2 + \frac 2 3$, and $-1 \frac 1 4$ might or might not equal $-\frac 5 4$
@@ -41,12 +41,12 @@ other notations used contextually include:
 - $-$ is used for both subtraction and denoting ranges
 - $+$ is used for both addition and concatenation
 - $=$ is used for both equality and assignment
-- $.$ is used for both decimals and version numbers
+- $.$ is used for both decimals and version strings
 
 --- <https://whystartat.xyz/wiki/Main_Page> --- Justin Veilleux
 
 --- <https://youtu.be/4x-BcYCiKCk>
 
---- <https://www.cs.utexas.edu/users/EWD/transcriptions/EWD13xx/EWD1300.html> --- Ben Burk
+--- _The notational conventions I adopted, and why_, by Edsger W. Dijkstra --- <https://www.cs.utexas.edu/users/EWD/transcriptions/EWD13xx/EWD1300.html> --- Ben Burk
 
-_[<wbr>[[conventional math notation]]<wbr>] is both awful, and it turns out ambiguous, and, to be perfectly honest, impressionistic_ --- <https://youtu.be/HB5TrK7A4pI?t=1058>
+_mathematical notation is both awful, and it turns out ambiguous, and, to be perfectly honest, impressionistic_ --- <https://youtu.be/HB5TrK7A4pI?t=1058>. the purpose of notation is efficient communication---it's the minimal amount of information needed to get an idea across---and so it is only natural that the result be impressionistic scribbles, and that's okay

@@ -14,8 +14,4 @@ the [[subsequence]] is a generalization of the [[substring]]
 
 the empty [[sequence]] is a [[subsequence]] of any [[sequence]]
 
-the [[subsequence]] [[relation]] is a [[relation#reflexive relation]] (a [[sequence]] is its own [[subsequence]])
-
-the [[subsequence]] [[relation]] is a [[relation#transitive relation]]
-
-the [[subsequence]] [[relation]] is a [[preorder]]
+the [[subsequence]] [[relation]] is a [[partial order]] --- me

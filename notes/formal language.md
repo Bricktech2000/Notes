@@ -18,7 +18,7 @@ the complement of a [[formal language]] is with respect to the Kleene closure of
 
 **definition** the _empty word_ is the word $w$ with $|w| = 0$
 
-**notation** _empty word_ typically one of $e$, $\epsilon$, $\lambda$, $\Lambda$
+**notation** _empty word_ typically one of $e$, $\varepsilon$, $\lambda$, $\Lambda$
 
 **notation** _word length_ $|w|$, see [[string#length]]
 
@@ -44,15 +44,13 @@ the [[set]] of regular languages is closed under Kleene closure, Kleene plus, [[
 
 > **proof** a finite language can be described by a [[regular expression]] as the alternation of all its words
 
-**theorem** _pumping lemma for regular languages_ **`/\ "regular" -| L. \/ p. /\ w. (L w /\ #w ee |- p < \/ x. \/ y. \/ z. (w = xyz /\ #xy ee -| p /\ #y ee + 0 /\ /\ NN -| n. L x{y}nz))`** #xxx in my [[math notation]], would have to define a [[formal language]] as a [[set]] of [[function]]s so [[composition]] corresponds to [[string#concatenation]]
-
 **theorem** _pumping lemma for regular languages_ for any regular language $L$, there exists a $p$ such that any word $w \in L$ with $|w| \geq p$ can be split into three parts $w = xyz$ such that $|xy| \leq p$ and $|y| \ne 0$ and $xy^nz \in L$ for all $n \in \mathbb N$
 
 > **note** intuitively, the pumping lemma states that all sufficiently long words of a regular language may be "pumped" (there exists a [[substring]] that, when repeated any number of times, produces another word in the language)
 
 > **example** the [[set]] of all [[string]]s of [[prime]] [[string#length]] is not a [[formal language#regular formal language]] --- me
 >
-> > **proof** by the pumping lemma, the [[string#length]] of pumped words is a [[sequence#arithmetic sequence]] **`n. #w{y}n ee = n. (#w ee) : n(#y ee)`**, which, since **`#y ee + 0`**, will always hit a non-[[prime]], namely, at **`n = #w ee`** --- me
+> > **proof** by the pumping lemma, the [[string#length]] of pumped words is a [[sequence#arithmetic sequence]] $n.\ |wy^n| = n.\ |w| + n|y|$, which, since $|y| \ne 0$, will always hit a non-[[prime]], namely, at $n := |w|$ --- me
 
 ## Non-Regular Language
 
@@ -94,6 +92,8 @@ link with [[prefix notation]], [[postfix notation]], [[syntax tree]]
 #xxx useful table <https://en.wikipedia.org/wiki/Theory_of_computation#Automata_theory>
 
 "meta-rules" for regular/context-free/context-sensitive grammars: <https://youtu.be/ENKT0Z3gldE?t=408>
+
+#xxx these are prof course notes, maybe useful? <https://www.cs.odu.edu/~toida/nerzic/390teched/web_course.html>
 
 ## ---
 

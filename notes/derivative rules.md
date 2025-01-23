@@ -76,7 +76,7 @@ if **`c`** is a scalar and **`f`** is differentiable, then
 
 > **proof** derive from the product and power rules, **`f-g = f | g[..1]`**
 
-> **[[mnemonic]]** lo d-hi, minus hi d-lo, over lo-lo
+> **note** _mnemonic_ lo d-hi, minus hi d-lo, over lo-lo
 
 ### derived reciprocal rule
 

@@ -2,7 +2,7 @@
 
 **see** [[intellectual giftedness]]
 
-**aka** _mental retardation (formerly), general learning disability (UK)_
+**aka** _mental retardation (formerly)_, _general learning disability (UK)_
 
 --- <https://en.wikipedia.org/wiki/Intellectual_disability>
 

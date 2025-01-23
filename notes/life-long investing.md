@@ -1,10 +1,10 @@
 # Life-Long Investing
 
-**see** [[wealth]], [[sunk costs fallacy]], [[invest]], [[math notation]]
+**see** [[wealth]], [[sunk costs fallacy]], [[invest]]
 
 the goal of this note is to study the following strategy:
 
-> [[invest]] **`-5`** of all [[money]] earned
+> [[invest]] one fifth of all [[money]] earned
 
 **tradeoffs**
 
@@ -30,10 +30,10 @@ videos expressing similar opinions: <https://youtu.be/hqYXjclDmis?t=37>, <https:
 - mutual funds can sometimes offer higher returns than index funds
 - Wealth Simple Trade has low fees for long-term investments
 - build an emergency fund (3 to 6 months of living expenses)
-- ~~Terra / Anchor Protocol is very, very interesting (**`20-100`** ROI --- <https://drive.google.com/file/d/1sKM08sghjCh0FSdzJ0gvir-GSmPPA9yF/view> at 24:30)~~ turns out UST crashed all the way to **`0`**
+- ~~Terra / Anchor Protocol is very, very interesting ($20%$ ROI --- <https://drive.google.com/file/d/1sKM08sghjCh0FSdzJ0gvir-GSmPPA9yF/view> at 24:30)~~ turns out UST crashed all the way to zero
 - "the rich build and acquire assets. the poor and middle class acquire liabilities that they mistakenly think are assets." for instance, a home is not an asset, it is a liability. acquiring assets over time is the best way to build [[wealth]]. --- <https://youtu.be/xG75ap4R3aM?t=464>
 - storing all [[liquidity]] in representative or commodity [[money]] such as [[cryptocurrency]]es or precious metals could be a good way to be immune to [[inflation]]
-- [[invest]]ments with management fees are not desirable. a **`10-100`** ROI investment with no fee bears the risk of a **`10-100`** ROI investment; a **`10-100`** ROI investment with a **`2-100`** fee bears the risk of a **`12-100`** ROI investment. moreover, [[learning]] to beat the market is very hard even for fund managers as it is a low-validity environment
+- [[invest]]ments with management fees are not desirable. a $10%$ ROI investment with no fee bears the risk of a $10%$ ROI investment; a $10%$ ROI investment with a $2%$ fee bears the risk of a $12%$ ROI investment. moreover, [[learning]] to beat the market is very hard even for fund managers as it is a low-validity environment
 
 someone sharing the same opinion: <https://youtu.be/Q0uXGQu55GM?t=27>
 

@@ -94,7 +94,10 @@ a service that assigns a UTF-256 codepoint to any image uploaded to it --- idea 
 
 a reaction channel with higher production value than reaction channels. playing part of a video, pausing, talking about it, then **cutting** to the next noteworthy part of the video and repeating. this would make it very easy to produce large amounts of content without needing much preparation, all the while only stealing noteworthy parts of other videos
 
-> **example** _a video of the style mentioned above_ <https://youtu.be/VfNdps0daF8>
+> **examples** _videos of the style mentioned above_
+>
+> - <https://youtu.be/VfNdps0daF8>
+> - <https://youtu.be/v8EjpmZUcrM>
 
 careful not to become a Prime or a Theo
 
@@ -409,7 +412,7 @@ $\delta f \text- \circ = \delta f - \delta \circ$
 
 ---
 
-```bash
+```sh
 git branch -d # delete local branch
 git branch -v # list all branches
 
@@ -651,7 +654,7 @@ therefore, the area of the collection of rectangles is **`*HB-n2 {0:...n}`** whi
 
 let the base and height of the triangle be $B$ and $H$ respectively and the number of rectangles be $n$
 
-then, the height of the $i$th rectangle from the top is $\displaystyle \frac Hn$ and its width is $\displaystyle \frac{iB}n$
+then, the height of the $i$th rectangle from the top is $\displaystyle \frac H n$ and its width is $\displaystyle \frac{iB}n$
 
 therefore, the area of the collection of rectangles is $\displaystyle \sum_{i=0}^n \frac{iHB}{n^2}$ which by $\displaystyle \sum_{k=0}^{n} k = \frac{n(n + 1)}2$ is equal to $\displaystyle \frac{n(n + 1)}2 \frac{HB}{n^2}$ which simplifies to $\displaystyle \frac{n + 1}{2n} HB$
 
@@ -963,10 +966,27 @@ graph LR
   DFA --ltre_decompile--> RE
   RE --ltre_fixed_string--> NFA
   DFA --ltre_serialize--> BUF --ltre_deserialize--> DFA
-  NFA --ltre_partial--> NFA --ltre_ignorecase--> NFA --ltre_complement--> NFA
+  NFA --ltre_partial--> NFA --ltre_ignorecase--> NFA --ltre_complement--> NFA --ltre_reverse--> NFA
+  DFA --ltre_equivalent--> C( )
   DFA --ltre_matches--> A( )
   NFA --ltre_matches_lazy--> B( )
 ```
+
+---
+
+## why does $\operatorname{atan2}(a_xb_y - a_yb_x, a_xb_x + a_yb_y)$ give the angle between two vectors?
+
+let vectors $a, b$ and let $b^* = (b_y, -b_x)$ ($b$ rotated a quarter turn)
+
+the angle between the vectors $\theta = \operatorname{atan2}(\mathrm{proj}_{b^*} a, \mathrm{proj}_b a)$.
+
+from the projection formula:
+
+$$\mathrm{proj}_{b^*} a = a \cdot \hat b^* = \frac{a \cdot b^*}{|b^*|}$$
+
+$$\mathrm{proj}_b a = a \cdot \hat b = \frac{a \cdot b}{|b|}$$
+
+obviously $|b| = |b^*|$, and scaling the projections doesn't change the angle, so we get $\theta = \operatorname{atan2}(a \cdot b^*, a \cdot b) = \operatorname{atan2}(a_xb_y - a_yb_x, a_xb_x + a_yb_y)$.
 
 ---
 

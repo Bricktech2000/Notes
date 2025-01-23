@@ -19,17 +19,17 @@ graph TD
 `7 + 3 * 4` can be represented using the following [[rust]] code:
 
 ```rust
-enum Expression {
-  NumberLiteral(i32),
-  Addition(Box<Expression>, Box<Expression>),
-  Multiplication(Box<Expression>, Box<Expression>),
+enum Expr {
+  Num(i32),
+  Add(Box<Expr>, Box<Expr>),
+  Mul(Box<Expr>, Box<Expr>),
 }
 
-Expression::Addition(
-  Box::new(Expression::NumberLiteral(7)),
-  Box::new(Expression::Multiplication(
-    Box::new(Expression::NumberLiteral(3)),
-    Box::new(Expression::NumberLiteral(4)),
+Expr::Add(
+  Box::new(Expr::Num(7)),
+  Box::new(Expr::Mul(
+    Box::new(Expr::Num(3)),
+    Box::new(Expr::Num(4)),
   )),
 )
 ```

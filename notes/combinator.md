@@ -14,7 +14,7 @@
 
 _identity_
 
-**aka** _identity, `id` in Haskell_
+**aka** _identity_, _`id`_ in Haskell
 
 **equiv** _[[composition#identity]]_
 
@@ -30,7 +30,7 @@ _identity_
 
 _discards the second argument_
 
-**aka** _constant, `const` in Haskell_
+**aka** _constant_, _`const`_ in Haskell
 
 **definition** **`K = x. y. x`**
 
@@ -40,7 +40,7 @@ _discards the second argument_
 
 ### S Combinator
 
-**aka** _substitution, `<*>` and `ap` in Haskell_
+**aka** _substitution_, _`<*>`_ and _`ap`_ in Haskell
 
 **definition** **`S = f. g. x. f x (g x)`**
 
@@ -52,7 +52,7 @@ _discards the second argument_
 
 _the [[composition]] of its arguments_
 
-**aka** _compose, `(.)` and `fmap` in Haskell, "bluebird"_
+**aka** _compose_, _`(.)`_ and _`fmap`_ in Haskell, _"bluebird"_
 
 **equiv** _[[composition]]_
 
@@ -68,7 +68,7 @@ _the [[composition]] of its arguments_
 
 ### B1 Combinator
 
-**aka** _"blackbird", `.:` in Haskell_
+**aka** _"blackbird"_, _`.:`_ in Haskell
 
 **definition** **`B_1 = f. g. x. y. f (g x y)`**
 
@@ -80,7 +80,7 @@ _the [[composition]] of its arguments_
 
 _swaps the arguments to a function_
 
-**aka** _flip, `flip` in Haskell_
+**aka** _flip_, _`flip`_ in Haskell
 
 **equiv** _[[matrix#transpose]]_
 
@@ -94,7 +94,7 @@ _swaps the arguments to a function_
 
 _duplicates the second argument_
 
-**aka** _duplication, 'commute' or 'self' in APL, `join` in Haskell_
+**aka** _duplication_, _'commute'_ or _'self'_ in APL, _`join`_ in Haskell
 
 **definition** **`W = f. x. f x x`**
 
@@ -106,7 +106,7 @@ _duplicates the second argument_
 
 _applies a [[function]] to itself_
 
-**aka** _mockingbird, **`ww`** combinator_
+**aka** _mockingbird_, _ω_ combinator
 
 **definition** **`M = f. f f`**
 
@@ -118,7 +118,7 @@ _applies a [[function]] to itself_
 
 _discards the first argument_
 
-**aka** _kite, `const id` in Haskell_
+**aka** _kite_, _`const id`_ in Haskell
 
 **definition** **`K I = f. x. y. f y`**
 
@@ -128,7 +128,7 @@ _discards the first argument_
 
 _applies the first argument to the second argument_
 
-**aka** _thrush, `&` in Haskell_
+**aka** _thrush_, _`&`_ in Haskell
 
 **definition** **`T = x. f. f x`**
 
@@ -142,7 +142,7 @@ _applies a [[function]] twice_
 
 ### Sigma Combinator
 
-**aka** _chain, `=<<` in Haskell, S' combinator_
+**aka** _chain_, _`=<<`_ in Haskell, _S'_ combinator
 
 **definition** **`SS = f. g. x. f (g x) x`**
 
@@ -158,7 +158,7 @@ _applies a [[function]] twice_
 
 ### Phi Combinator
 
-**aka** _converge, `liftA2` and `liftM2` and `phoenix` and `starling'` in Haskell, S2 combinator, S' combinator, 'fork' in APL_
+**aka** _converge_, _`liftA2`_ and _`liftM2`_ and _`phoenix`_ and _`starling'`_ in Haskell, _S2_ combinator, _S'_ combinator, _'fork'_ in APL
 
 **definition** **`FF = f. g. h. x. f (g x) (h x)`**
 
@@ -176,7 +176,7 @@ _allows for [[lambda-calculus#recursion]]_
 
 _used to formally define recursive [[function]]s in a [[functional programming]] language that does not support [[recursion]]_
 
-**aka** _fixed-point [[combinator]], `fix` in Haskell_
+**aka** _fixed-point [[combinator]]_, _`fix`_ in Haskell
 
 **equiv** _[[recursion#general recursion]]_
 

@@ -28,7 +28,7 @@ in [[conventional math notation]]: $' \cdot + \oplus$
 
 ## Conjunction
 
-**aka** _AND, **`"min"`**_
+**aka** _AND_, _**`"min"`**_
 
 **notation** _in my [[math notation]]_ **`/\`** and **`__`**
 
@@ -45,7 +45,7 @@ in [[conventional math notation]]: $' \cdot + \oplus$
 
 ## Disjunction
 
-**aka** _OR, **`"max"`**_
+**aka** _OR_, _**`"max"`**_
 
 **notation** _in my [[math notation]]_ **`\/`** and **`^^`**
 
@@ -79,7 +79,7 @@ in [[conventional math notation]]: $' \cdot + \oplus$
 
 ## Exclusive OR
 
-**aka** _XOR, symmetric difference, disjunctive union_
+**aka** _XOR_, _symmetric difference_, _disjunctive union_
 
 **notation** _in my [[math notation]]_ **`><`** and **`+`**
 
@@ -96,7 +96,7 @@ in [[conventional math notation]]: $' \cdot + \oplus$
 
 ## Implication
 
-**aka** _conditional [[logic statement]], logical consequence_
+**aka** _conditional [[logic statement]]_, _logical consequence_
 
 **definition** if **`x = I`**, then the conditional [[logic statement]] **`x < y`** is said to be _vacuously true_, see [[boolean algebra]]
 
@@ -141,7 +141,7 @@ alternatively, let **`A < B`** be a [[logic statement]]. then,
 
 ## Equivalence
 
-**aka** _XNOR, double implication, equivalence, biconditional [[logic statement]], bidirectional implication_
+**aka** _XNOR_, _double implication_, _equivalence_, _biconditional [[logic statement]]_, _bidirectional implication_
 
 **notatio** _in my [[math notation]]_ **`==`** and **`=`**
 
