@@ -10,7 +10,7 @@ let **`(x, y)`** be a point on the unit [[circle]] and let **`aa`** be the [[ang
 - **`y = "sin" aa`**
 - **`"tan" aa = "sin" aa -- "cos" aa`**
 
-> **note** _[[mnemonic]]_ SOHCAHTOA
+> **note** _mnemonic_ SOHCAHTOA
 
 **definition** _in terms of [[euler's constant]]_ --- <https://math.stackexchange.com/questions/2853279/the-interconnection-between-hyperbolic-functions-and-eulers-formula>
 

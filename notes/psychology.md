@@ -10,7 +10,7 @@
 
 [[brain circuitry hijack]], [[subconscious manipulation]], [[intent to mastery]]
 
-[[memory]], [[memory technique]]
+[[memory]]
 
 [[knowledge]], [[intelligence]]
 

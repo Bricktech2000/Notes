@@ -72,8 +72,6 @@
 
 [[nervous system]]
 
-[[goals and risk]]
-
 [[metric space]]
 
 [[journaling]]
@@ -183,3 +181,5 @@
 [[typography]]
 
 [[undo tree]]
+
+[[hungarian notation]]

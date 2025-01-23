@@ -21,7 +21,7 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 
 - some constructs, such as definitions and proofs, are very common. they are to be written as follows in [[markdown]]:
 
-  ```md
+  ```markdown
   > **proof** _proof name_ this is an example of a proof used in a blockquote
 
   **definition** _definition name_ this is an example of a definition used inline

@@ -4,6 +4,8 @@
 
 --- <https://en.wikipedia.org/wiki/Naming_convention_(programming)#Examples_of_multiple-word_identifier_formats>
 
+**see** [[hungarian notation]]
+
 ```
 flatcase mumblecase lazycase
 UPPERFLATCASE UPPERCASE SCREAMINGCAMELCASE

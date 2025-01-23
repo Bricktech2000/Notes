@@ -11,6 +11,6 @@ whenever something is [[difficult]], we should ask ourselves _why is this [[diff
 > **examples** _difficult things --- with [[intention]]al rationale_
 >
 > - forming good [[habit]]s --- they have low short-term reward but high long-term reward, which can make them feel [[difficult]] in the moment
-> - [[learning]] techniques --- they seek to make learning [[difficult]], but what that means is that our [[brain]] is being forced to use more [[energy]], which improves our [[learning]] and [[memory]]
-> - "the last few reps" --- the last repetitions of a set are the most [[difficult]] because they damage our muscle tissue the most, but that is how we grow our muscles in the long term
+> - [[learning]] techniques --- they seek to make learning [[difficult]], but what that means is that our [[brain]] is being forced to use more [[energy]], which improves [[learning]] and [[memory]]
+> - "the last few reps" --- the last repetitions of a set are the most [[difficult]] because they damage muscle tissue the most, but that is how we grow muscle in the long term
 > - social [[anxiety]] --- acting with the fear of what others will think of us can be [[difficult]], but long-term benefits often outweigh the short-term discomfort

@@ -2,7 +2,7 @@
 
 _applies a [[function]] sitting in the effects world_
 
-**aka** _`ap`, `<*>`_
+**aka** _`ap`_, _`<*>`_
 
 **see** [[functional programming]]
 

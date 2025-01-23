@@ -1,6 +1,6 @@
 # Game of Life
 
-**aka** _Conway's Game of Life, Life_
+**aka** _Conway's Game of Life_, _Life_
 
 the [[game of life]] is a [[turing complete]] cellular automaton on an infinite two-dimensional grid of _cells_, each of which is either _alive_ or _dead_, and each of which interacts with its _neighbors_, a three-by-three grid of cells surrounding it, while obeying the following rules:
 

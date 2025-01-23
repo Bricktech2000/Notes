@@ -1,6 +1,6 @@
 # Analog Hole
 
-**aka** _analog loophole, analog gap_
+**aka** _analog loophole_, _analog gap_
 
 **definition** the _analog hole_ is a fundamental and inevitable vulnerability in copy protection schemes; once information is converted to a human-perceptible form, it becomes easy to digitally recapture --- <https://en.wikipedia.org/wiki/Analog_hole>
 

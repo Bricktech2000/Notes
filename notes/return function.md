@@ -2,7 +2,7 @@
 
 _lifts a value to the effects world_
 
-**aka** _`pure`, `unit`_
+**aka** _`pure`_, _`unit`_
 
 **equiv** _map between [[category#object]]s_
 

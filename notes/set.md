@@ -70,7 +70,7 @@ in other words, an element being in **`A`** implies it is also in **`B`**
 
 **properties**
 
-both the [[set#subset]] and the [[set#superset]] form a [[partial order]]
+both the [[set#subset]] and the [[set#superset]] [[relation]]s are [[partial order]]s
 
 ## Union
 

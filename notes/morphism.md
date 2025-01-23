@@ -28,6 +28,8 @@
 
 > **example** a [[linear transformation]] from a [[vector space]] to itself is an [[morphism#endomorphism]]
 
+since [[morphism#endomorphism]]s on an [[algebraic structure]] map it to itself, they form a [[monoid]] under [[composition]] --- me
+
 ## Automorphism
 
 **definition** an _automorphism_ is a [[morphism#isomorphism]] from a [[algebraic structure]] to itself
@@ -39,6 +41,8 @@
 > **example** **`(..)`** is an [[morphism#automorphism]] of the [[group]] **`ZZ, {:}`**
 
 > **example** an invertible [[linear transformation]] from a [[vector space]] to itself is an [[morphism#automorphism]]
+
+since [[morphism#automorphism]]s on an [[algebraic structure]] map it to itself and are invertible, they form a [[group]] under [[composition]] --- <https://youtu.be/VZiLpYC0t5E?t=1581>
 
 ## Monomorphism
 

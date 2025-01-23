@@ -210,7 +210,7 @@ _[[function#self-inverse function]]_ **`rr rr A = A`**
 
 _the [[complex#conjugate]] of every entry of the [[matrix#transpose]] of a [[matrix]]_
 
-**aka** _Hermitian transpose, adjoint matrix, transjugate_
+**aka** _Hermitian transpose_, _adjoint matrix, transjugate_
 
 **definition**
 

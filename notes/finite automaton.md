@@ -1,6 +1,6 @@
 # Finite Automaton
 
-**aka** _finite state machine, FSM, finite state automaton, FSA_
+**aka** _finite state machine_, _FSM_, _finite state automaton_, _FSA_
 
 **see** [[math notation]], [[state table]], [[state diagram]]
 
@@ -10,7 +10,7 @@
 
 ## Deterministic Finite Automaton
 
-**aka** _DFA, DFSM_
+**aka** _DFA_, _DFSM_
 
 **definition** a _deterministic finite automaton_ is a [[finite automaton]] **`M`** such that **`/\ S. /\ s. (# T. M S T s = 1)`**
 
@@ -18,7 +18,7 @@ a DFA **`M`** may be described by a _transition function_ **`dd S s = T == M S T
 
 ## Non-Deterministic Finite Automaton
 
-**aka** _NFA, NFSM_
+**aka** _NFA_, _NFSM_
 
 **definition** a _non-deterministic finite automaton_ is a [[finite automaton]] **`M`** such that **`\/ S. \/ s. (# T. M S T s + 1)`**
 

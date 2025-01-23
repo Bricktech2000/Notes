@@ -8,8 +8,6 @@ _a technique aiming to increase the efficiency of a process_
 
 **see**
 
-[[memory technique]]
-
-[[mnemonic]]
+[[memory#technique]]
 
 [[habit#formation]]

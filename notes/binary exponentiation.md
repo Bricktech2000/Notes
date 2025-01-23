@@ -1,6 +1,6 @@
 # Binary Exponentiation
 
-**aka** _exponentiation by squaring, square-and-multiply algorithm_
+**aka** _exponentiation by squaring_, _square-and-multiply algorithm_
 
 **see** [[reduce function]]
 

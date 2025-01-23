@@ -1,6 +1,6 @@
 # Dirac Delta Function
 
-**aka** _delta function, Dirac delta distribution, δ distribution, unit impulse_
+**aka** _delta function_, _Dirac delta distribution_, _δ distribution_, _unit impulse_
 
 **see** [[function]], [[math notation]], [[limit]]
 

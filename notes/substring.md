@@ -14,8 +14,4 @@ the [[substring]] is a refinement of the [[subsequence]]
 
 the empty [[sequence]] is a [[substring]] of any [[sequence]]
 
-the [[substring]] [[relation]] is a [[relation#reflexive relation]] (a [[sequence]] is its own [[substring]])
-
-the [[substring]] [[relation]] is a [[relation#transitive relation]]
-
-the [[substring]] [[relation]] is a [[preorder]]
+the [[substring]] [[relation]] is a [[partial order]] --- me

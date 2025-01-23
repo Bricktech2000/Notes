@@ -59,11 +59,13 @@ self-application is not typeable in the simply typed λ-calculus. consequently, 
 
 ### Typing Rules
 
-_variable_ $\displaystyle\frac{x : \sigma \in \Gamma}{\Gamma \vdash x : \sigma}$
+**see** [[inference rule]]
 
-_application_ $\displaystyle\frac{\Gamma \vdash e_1 : \sigma \to \tau \quad \Gamma \vdash e_2 : \sigma}{\Gamma \vdash (e_1\ e_2) : \tau}$
+_variable_ $\displaystyle \frac{x : \sigma \in \Gamma}{\Gamma \vdash x : \sigma}$
 
-_abstraction_ $\displaystyle\frac{\Gamma, x : \sigma \vdash e : \tau}{\Gamma \vdash (\lambda x : \sigma.\ e) : (\sigma \to \tau)}$
+_application_ $\displaystyle \frac{\Gamma \vdash e_1 : \sigma \to \tau \quad \Gamma \vdash e_2 : \sigma}{\Gamma \vdash (e_1\ e_2) : \tau}$
+
+_abstraction_ $\displaystyle \frac{\Gamma, x : \sigma \vdash e : \tau}{\Gamma \vdash (\lambda x : \sigma.\ e) : (\sigma \to \tau)}$
 
 --- <https://youtu.be/knD_5pBCmuI?t=621>
 

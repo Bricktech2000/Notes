@@ -23,5 +23,5 @@ _the amount of working memory resources used to process information_
 >
 > - running your life on a calendar so you don't have to constantly think about what you have to do
 > - capturing ideas in a notebook as soon as they come to you so you don't have to keep thinking about them
-> - writing down (or using [[memory technique]]s to temporarily memorize) incomplete tasks to get them off you mind
+> - writing down (or using [[memory#technique]]s to temporarily memorize) incomplete tasks to get them off you mind
 > - [[journaling]] before [[sleep]] to get thoughts out of your head, referred to as a _brain dump_

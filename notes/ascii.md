@@ -1,6 +1,6 @@
 # ASCII
 
-**see** [[utf-8]], [[math notation]]
+**see** [[utf-8]]
 
 > **resource** ANSI X3.4-1986, FIPS PUB 1-2, _7-Bit American National Standard Code for Information Interchange_ --- <https://www.unicode.org/L2/L2006/06388-review-incits4.pdf>
 
@@ -22,7 +22,7 @@ lowercase and uppercase letters are offset by `0x20` or `0b00100000` or `' '`
 
 `c | 0b00100000` where `c` is an upper[[case]] letter will return its lower[[case]] equivalent
 
-`c & 0b00111111` where `c` is a letter will return its position in the alphabet, starting at **`1`**
+`c & 0b00111111` where `c` is a letter will return its position in the alphabet, starting at $1$
 
 `c & 0b00001111` where `c` is digit will return its value
 

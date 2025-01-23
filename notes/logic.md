@@ -10,6 +10,6 @@ model theory
 
 [[set theory]]
 
-[[recursion]] theory
+computability theory
 
 --- <https://en.wikipedia.org/wiki/Mathematical_logic>

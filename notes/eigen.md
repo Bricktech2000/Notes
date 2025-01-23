@@ -78,7 +78,7 @@ let **`MM^n,n A /\ NN n`**
 >
 > **`{{ (1, 1) }}`** is then a [[basis]] for the [[eigen#space]] **`E_3`** of **`A`**
 >
-> > **note** the general solution of the homogenous [[linear system]] will always be a [[basis]] as the resulting [[vector]]s will always be [[vector#linearly independent vector]]s, see [[matrix#null space]] for more information
+> > **note** the general solution of the homogeneous [[linear system]] will always be a [[basis]] as the resulting [[vector]]s will always be [[vector#linearly independent vector]]s, see [[matrix#null space]] for more information
 >
 > for **`ll = ..1`**, we get the [[basis]] **`{{ (1, ..1) }}`** for the [[eigen#space]] **`E_..1`** of **`A`**
 

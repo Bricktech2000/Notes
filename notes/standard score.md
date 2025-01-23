@@ -1,6 +1,6 @@
 # Standard Score
 
-**aka** _z-score, normal score_
+**aka** _z-score_, _normal score_
 
 **definition** the _standard score_ is the number of [[standard deviation]]s by which the value of an observed value or data point is above or below the [[mean]] value of what is being observed or measured
 

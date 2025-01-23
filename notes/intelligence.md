@@ -30,7 +30,7 @@
 
 ## "don't you worry"
 
-**aka** _[[difficult]], [[overwhelm]]ing, "boring", complicated_
+**aka** _[[difficult]]_, _[[overwhelm]]ing_, _"boring"_, _complicated_
 
 - <https://youtu.be/SrN6ps4NM10?t=83>
 - <https://youtu.be/SrN6ps4NM10?t=537>

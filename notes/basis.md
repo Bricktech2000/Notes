@@ -51,7 +51,7 @@ _a [[basis]] built from a [[set]] of [[euclidean vector#orthogonal euclidean vec
 
 ## Standard Basis
 
-**aka** _canonical basis, natural basis_
+**aka** _canonical basis_, _natural basis_
 
 _a [[basis]] built from a [[set]] of [[euclidean vector]]s whole components are all zero except for one, which is one_
 

@@ -2,7 +2,7 @@
 
 --- <https://en.wikipedia.org/wiki/Nat_(unit)>
 
-**aka** _nit, nepit_
+**aka** _nit_, _nepit_
 
 **see** [[shannon]]
 
