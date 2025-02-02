@@ -155,17 +155,17 @@ U"foo" // char32_t[6]
 
 > **example** `struct s { int x; int y[]; };`
 
-`sizeof char` is `1`, and the size of the other integer data types is [[c#implementation-defined behavior]] and is available in `limits.h`. each has a standard-imposed minimum magnitude; see ISO/IEC 9899:TC3, Annex 5, paragraph 1. actual-width integers such as `uint32_t` and widest integer types `uintmax_t` and `intmax_t` are available in `stdint.h` and `inttypes.h`
+`sizeof char` is `1`, and the size of the other integer data types is implementation defined and is available in `limits.h`. each has a standard-imposed minimum magnitude; see ISO/IEC 9899:TC3, Annex 5, paragraph 1. actual-width integers such as `uint32_t` and widest integer types `uintmax_t` and `intmax_t` are available in `stdint.h` and `inttypes.h`
 
-_wraparound_ (which is specific to unsigned integers) is well-defined behavior in [[c]]. values are reduced modulo the number that is one greater than the largest value that can be represented by the resulting type. however, _overflow_ (which is specific to signed integers) is [[c#undefined behavior]]
+_wraparound_ (which is specific to unsigned integers) has well-defined behavior in [[c]]. values are reduced modulo the number that is one greater than the largest value that can be represented by the resulting type. however, _overflow_ (which is specific to signed integers) has [[c#undefined behavior]]
 
-the representation of signed integers in [[c]] is [[c#implementation-defined behavior]] historically, the [[c]] language has supported three representation schemes: two's [[complement]], one's [[complement]] and [[sign--magnitude notation]]. implementation of [[float]]ing-point numbers is [[c#implementation-defined behavior]]
+the representation of signed integers in [[c]] is implementation defined. historically, the [[c]] language has supported three representation schemes: two's [[complement]], one's [[complement]] and [[sign--magnitude notation]]. the implementation of [[float]]ing-point numbers is implementation defined
 
 each compiler implementation defines `char` as either `signed char` or `unsigned char`. regardless of the choice made, `char` is a different type from the other two and is incompatible with both. `char` is to be used for characters **only**, and `signed char` and `unsigned char` for small integer data
 
 for historical reasons, the [[type]] of a [[character]] literal in [[c]] is `int` and not `char`. this differs from [[c++]]
 
-writing to a string literal is [[c#undefined behavior]]; [[c]] [[string]] literals can be used to construct both null-terminated [[string]]s and [[character]] [[array]]s:
+writing to a string literal has [[c#undefined behavior]]; [[c]] [[string]] literals can be used to construct both null-terminated [[string]]s and [[character]] [[array]]s:
 
 ```c
 char *s = "foo"; // null-terminated string
@@ -182,7 +182,7 @@ char s[3] = "foo"; // character array
 
 until C23, `void f();` declares a function that takes any number of arguments of any type. `void f(void);` declares a function that takes no arguments. the former is to be avoided --- <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++>
 
-returning no value from a non-`void` [[function]] (through `return;` or through control reaching the end of the [[function]] body) and subsequently using the returned value is [[c#undefined behavior]]
+returning no value from a non-`void` [[function]] (through `return;` or through control reaching the end of the [[function]] body) and subsequently using the returned value has [[c#undefined behavior]]
 
 ### tags
 
@@ -277,9 +277,9 @@ in [[c]], a `void *` is implicitly converted to any other pointer type
 
 > **example** `int *pi = malloc(sizeof(int));` is valid [[c]] but not valid [[c++]]
 
-the _strict aliasing rule_ allows the compiler to assume that pointers to different types do not alias each other. therefore, apart from a few exceptions, referring to the same memory simultaneously through pointers of different types is [[c#undefined behavior]] --- <https://youtu.be/SmlLdd1Q2V8?t=5m46s>
+the _strict aliasing rule_ allows the compiler to assume that pointers to different types do not alias each other. therefore, apart from a few exceptions, referring to the same memory simultaneously through pointers of different types has [[c#undefined behavior]] --- <https://youtu.be/SmlLdd1Q2V8?t=5m46s>
 
-> **example** `int x = 1; float *f = (float *)&x; *f = 2;` is [[c#undefined behavior]]
+> **example** `int x = 1; float *f = (float *)&x; *f = 2;` has [[c#undefined behavior]]
 
 ## type coercions
 
@@ -299,7 +299,7 @@ whenever a binary [[operator]] is applied to two operands of different types, [[
 
 for historical reasons, the return [[type]] of the `!`, `==`, `!=`, `<`, `>`, `<=` and `>=` [[operator]]s is `int` and not `_Bool`
 
-`a / b` with `b == 0` is [[c#undefined behavior]]
+`a / b` with `b == 0` has [[c#undefined behavior]]
 
 the [[c]] language imelements _truncating division_; that is,
 
@@ -308,9 +308,9 @@ the [[c]] language imelements _truncating division_; that is,
 - `-10 / 3 == -3` and `-10 % 3 == -1`
 - `-10 / -3 == 3` and `-10 % -3 == -1`
 
-left shifting a negative number is [[c#undefined behavior]]. left shifting a signed positive number leading to an _overflow_ is [[c#undefined behavior]]. right shifting a negative number is [[c#implementation-defined behavior]]; either an arithmetic shift or a logical shift is performed
+left shifting a negative number has [[c#undefined behavior]]. left shifting a signed positive number leading to an _overflow_ has [[c#undefined behavior]]. right shifting a negative number has [[c#implementation-defined behavior]]; either an arithmetic shift or a logical shift is performed
 
-shifting by a negative number of bits or by a number of bits greater than or equal to the width of the _integer-promoted_ left operand is [[c#undefined behavior]]
+shifting by a negative number of bits or by a number of bits greater than or equal to the width of the _integer-promoted_ left operand has [[c#undefined behavior]]
 
 the _usual arithmetic conversions_ are **not** performed on the operands of the `<<` and `>>` [[operator]]s
 
@@ -324,7 +324,7 @@ type casts in [[c]] can either reinterpret the bits of a value or perform a conv
 
 > **example** `int i = (int)f;` converts `float f` to an `int`
 
-using one of `<`, `<=`, `>` or `>=` on two pointers to different objects is [[c#undefined behavior]]
+using one of `<`, `<=`, `>` or `>=` on two pointers to different objects has [[c#undefined behavior]]
 
 > **example**
 >
@@ -345,19 +345,19 @@ exactly one of the second and third operands of the `? :` [[operator]] is evalua
 
 ## order of evaluation
 
-_the order of evaluation of the operands of any [[c]] [[operator]], including the order of evaluation of any subexpressions, is generally [[c#unspecified behavior]]_ --- Effective C
+_the order of evaluation of the operands of any [[c]] [[operator]], including the order of evaluation of any subexpressions, generally has [[c#unspecified behavior]]_ --- Effective C
 
-> **example** in `int sum = f() + g();`, the order of evaluation is [[c#unspecified behavior]]
+> **example** in `int sum = f() + g();`, the order of evaluation unspecified
 
-> **example** in `int max = max(f(), g());`, the order of evaluation is [[c#unspecified behavior]]
+> **example** in `int max = max(f(), g());`, the order of evaluation is unspecified
 
 _if a side effect is unsequenced relative to either a different side effect on the same scalar or a value computation that uses the value of the same scalar object, the code has [[c#undefined behavior]]_ --- Effective C
 
-> **example** `printf("%d\n", i++ * i++);` is [[c#undefined behavior]]
+> **example** `printf("%d\n", i++ * i++);` has [[c#undefined behavior]]
 
-> **example** `printf("%d %d\n", i++, i);` is [[c#undefined behavior]]
+> **example** `printf("%d %d\n", i++, i);` has [[c#undefined behavior]]
 
-> **example** `i = ++i;` is [[c#undefined behavior]] --- <https://stackoverflow.com/questions/78286568/in-standard-c-is-the-expression-i-i-1-1-well-defined>
+> **example** `i = ++i;` has [[c#undefined behavior]] --- <https://stackoverflow.com/questions/78286568/in-standard-c-is-the-expression-i-i-1-1-well-defined>
 
 there is a sequence point between the evaluations of the operands of the `&&`, `||` and `,` [[operator]]s
 
@@ -377,14 +377,14 @@ there is **no** sequence point between evaluations of the operands of the `=` [[
 
 `void *realloc(void *ptr, size_t size)` changes the size of the memory block pointed to by `ptr` to `size` bytes and returns a pointer to the reallocated memory. the contents of the memory block are preserved up to the lesser of the new and old sizes. if `ptr == NULL`, `realloc` behaves like `malloc`. if `size == 0`, `realloc` behaves like `free`. if `realloc` fails to allocate memory, it returns `NULL` and leaves the original memory block unchanged
 
-`void free(void *ptr)` frees the memory block pointed to by `ptr`. if `ptr == NULL`, `free` does nothing. calling `free` on a pointer that was not returned by `malloc`, `calloc` or `realloc` is [[c#undefined behavior]]. calling `free` on a pointer that has already been freed is [[c#undefined behavior]]
+`void free(void *ptr)` frees the memory block pointed to by `ptr`. if `ptr == NULL`, `free` does nothing. calling `free` on a pointer that was not returned by `malloc`, `calloc` or `realloc` has [[c#undefined behavior]]. calling `free` on a pointer that has already been freed has [[c#undefined behavior]]
 
 ### stack allocation
 
 `void *alloca(size_t size)` is a [[function]] that allocates memory on the stack. it is not part of the [[c]] standard, but is supported by many [[c]] compilers. `alloca` is declared in `alloca.h`. using `alloca` is risky:
 
 - `alloca` can very quickly cause a stack overflow if used incorrectly
-- calling `free` on a pointer returned by `alloca` is [[c#undefined behavior]]
+- calling `free` on a pointer returned by `alloca` has [[c#undefined behavior]]
 
 _variable-length arrays_ (VLAs) are a [[c]] feature that allows for the creation of [[array]]s with runtime-specified lengths on the stack (the [[c]] standard does not require VLAs to be placed on the stack, but most compilers do). `sizeof` on a VLA is evaluated at runtime
 
@@ -485,17 +485,17 @@ a declaration with _no linkage_ makes all its references refer to the same objec
 
 ## type qualifiers
 
-`const` is a type qualifier that specifies that an object's value cannot be modified after initialization. the compiler can place `const`-qualified objects in read-only memory, which makes modifying them [[c#undefined behavior]]
+`const` is a type qualifier that specifies that an object's value cannot be modified after initialization. the compiler can place `const`-qualified objects in read-only memory, which means modifying them has [[c#undefined behavior]]
 
 > **example** `const int x = 1; x = 2;` produces an error
 
-> **example** `int *p = (int *)&x; *p = 2;` is [[c#undefined behavior]]
+> **example** `int *p = (int *)&x; *p = 2;` has [[c#undefined behavior]]
 
 `volatile` is a type qualifier that specifies that an object's value could be modified by something beyond the control of the program, such as a hardware device. this prevents the compiler from optimizing away reads and writes to the object
 
 > **example** `volatile int port; port = port;` will generate instructions to read and write to `port`
 
-`restrict` is a type qualifier that specifies that a pointer is the only way to access the object it points to. this allows the compiler to perform further optimization. using the `restrict` qualifier on two pointers that overlap is [[c#undefined behavior]]
+`restrict` is a type qualifier that specifies that a pointer is the only way to access the object it points to. this allows the compiler to perform further optimization. using the `restrict` qualifier on two pointers that overlap has [[c#undefined behavior]]
 
 > **example** `void copy(char *restrict s1, const char *restrict s2);`
 
@@ -530,9 +530,9 @@ a compiler may:
 
 ### indeterminate values
 
-_trap representations_ are essentially a value in memory that cannot be represented by the [[type]] of an object. uninitialized memory contains _indeterminate values_, and it is [[c#implementation-defined behavior]] whether or not these values can be _trap representations_
+_trap representations_ are essentially a value in memory that cannot be represented by the [[type]] of an object. uninitialized memory contains _indeterminate values_, and it is implementation defined whether or not these values can be _trap representations_
 
-reading a _trap representation_ is [[c#undefined behavior]]; reading an _uninitialized value_ is not necessarily [[c#undefined behavior]] in [[c]] but is in [[c++]]. using _indeterminate values_ in arithmetic operations is [[c#undefined behavior]]
+reading a _trap representation_ has [[c#undefined behavior]]; reading an _uninitialized value_ does not necessarily have [[c#undefined behavior]] in [[c]] but does in [[c++]]. using _indeterminate values_ in arithmetic operations has [[c#undefined behavior]]
 
 --- Effective C and <https://stackoverflow.com/questions/13423673/what-is-indeterminate-value>
 
@@ -541,6 +541,10 @@ reading a _trap representation_ is [[c#undefined behavior]]; reading an _uniniti
 --- Effective C
 
 --- <https://cplusplus.com/doc/tutorial/preprocessor/>
+
+> **resource** _Metaprogramming custom control structures in C_ by Simon Tatham --- [[Metaprogramming custom control structures in C.html]] and [[mp.h]] and [[mptest.c]] --- <https://www.chiark.greenend.org.uk/%7Esgtatham/mp/> and <https://www.chiark.greenend.org.uk/%7Esgtatham/mp/mp.h> and <https://www.chiark.greenend.org.uk/%7Esgtatham/mp/mptest.c>
+
+> **resource** _Coroutines in C_ by Simon Tatham --- [[Coroutines in C.html]] and [[coroutine.h]] --- <https://www.chiark.greenend.org.uk/%7Esgtatham/coroutines.html> and <https://www.chiark.greenend.org.uk/%7Esgtatham/coroutine.h>
 
 ### directives
 
@@ -558,9 +562,13 @@ the [[c#preprocessor]] includes the following directives:
 
 whitespace may added between the beginning of a line and a `#` character or between a `#` character and a directive name to indent directives
 
-`#include` inserts the contents of a file into the current file. the file is searched for in an implementation-defined manner. if the file is not found, the behavior is [[c#implementation-defined behavior]]. if the file is found, the contents of the file are inserted into the current file at the point of the `#include` directive. the difference between quoted include strings (`#include "filename"`) and angle-bracketed include strings (`#include <filename>`) is [[c#implementation-defined behavior]]. typically, the former is used for user-defined headers and the latter for system headers
+`#include` inserts the contents of a file into the current file. the file is searched for in an implementation-defined manner. if the file is not found, the behavior is [[c#implementation-defined behavior]]. if the file is found, the contents of the file are inserted into the current file at the point of the `#include` directive. the difference between quoted include strings (`#include "filename"`) and angle-bracketed include strings (`#include <filename>`) is implementation defined. typically, the former is used for user-defined headers and the latter for system headers
 
-`#define identifier replacement-list` defines an _object-like macro_ named `identifier`; `#define identifier(parameter-list) replacement-list` (with no whitespace between `identifier` and `(`) defines a _function-like macro_ named `identifier`. macro identifiers textually expand to `replacement-list`. `replacement-list` may be empty, in which case instances of `identifier` will simply be removed. `#undef identifier` undefines macro `identifier` and is safe regardless of whether `identifier` is defined. instances of the `##` preprocessing token within a replacement list are deleted, concatenating the preceeding token with the following token; this process is called _token pasting_. within a function-like macro replacement list, a parameter preceeded by a `#` is replaced with a string literal containing the text of the argument; this process is sometimes called _stringisizing_. a `,` within a function-like macro invocation is always interpreted as a macro argument, meaning `LOG([1, 2, 3])` invokes `LOG` with arguments `[1`, `2` and `3]`
+`#define identifier replacement-list` defines an _object-like macro_ named `identifier`; `#define identifier(parameter-list) replacement-list` (with no whitespace between `identifier` and `(`) defines a _function-like macro_ named `identifier`. macro identifiers textually expand to `replacement-list`. `replacement-list` may be empty, in which case instances of `identifier` will simply be removed. `#undef identifier` undefines macro `identifier` and is safe regardless of whether `identifier` is defined. instances of the `##` preprocessing token within a replacement list are deleted, concatenating the preceeding token with the following token; this process is called _token pasting_. if the result is not a valid token, the behavior is [[c#undefined behavior]]. within a function-like macro replacement list, a parameter preceeded by a `#` is replaced with a string literal containing the text of the argument; this process is sometimes called _stringizing_. a `,` within a function-like macro invocation is always interpreted as a macro argument, meaning `LOG([1, 2, 3])` invokes `LOG` with arguments `[1`, `2` and `3]`
+
+> **example** given `#define DOTS .##.##.`, expansion of `DOTS` has [[c#undefined behavior]], because, even though `...` is a valid token, `..` is not
+
+> **resource** Dave Prosser's C Preprocessing Algorithm --- [[x3J11-86-196.pdf]] --- <https://www.spinellis.gr/blog/20060626/>
 
 `#ifdef`, `#ifndef`, `#if`, `#elif`, `#else` and `#endif` are used for conditional compilation. `#ifdef identifier` is equivalent to `#if defined identifier` which is equivalent to `#if defined(identifier)`. `#ifndef identifier` is equivalent to `#if !defined identifier` which is equivalent to `#if !defined(identifier)`. `#if` evaluates its expression and if it is nonzero, the following group of lines is compiled
 
@@ -585,3 +593,69 @@ _predefined macros_ are macros implicitly defined by the [[c#preprocessor]]. the
 `__TIME__` expands to the current time as a string literal in the form `hh:mm:ss`
 
 `__STDC__` expands to `1` if the implementation conforms to the [[c]] standard
+
+### useful idioms
+
+--- <https://stackoverflow.com/questions/1067226/c-multi-line-macro-do-while0-vs-scope-block>
+
+--- <https://stackoverflow.com/questions/3136686/is-the-c99-preprocessor-turing-complete>
+
+--- <https://www.chiark.greenend.org.uk/%7Esgtatham/mp/mp.h>
+
+--- <https://gist.github.com/jdah/1ae0048faa2c627f7f5cb1b68f7a2c02>
+
+macro-expand then token-paste
+
+```c
+#define PASTE_INNER(LHS, RHS) LHS##RHS
+#define PASTE(LHS, RHS) PASTE_INNER(LHS, RHS)
+// #define MKLABEL(ID) PASTE(_label_##ID##_, __LINE__)
+// MKLABEL(some_prefix)
+```
+
+commas within macro arguments
+
+```c
+#define COMMA ,
+#define WRAP(...) __VA_ARGS__
+// #define SOME_MACRO(...) __VA_ARGS__
+// SOME_MACRO([1 COMMA 2 COMMA 3])
+// SOME_MACRO(WRAP([1, 2, 3]))
+```
+
+uniform compound statements
+
+```c
+#define RETURN(VAL) do { some_cleanup(); return VAL; } while (0)
+// if (some_condition)
+//   RETURN(5);
+// else
+//   RETURN(6);
+```
+
+inhibit/force macro expansion
+
+```c
+#define EMPTY
+#define DEFER(ID) ID EMPTY
+#define EXPAND(...) __VA_ARGS__
+// #define ZERO() 0
+// ZERO()                // 0
+// DEFER(ZERO)()         // ZERO ()
+// EXPAND(DEFER(ZERO)()) // 0
+```
+
+X macros and higher-order macros
+
+```c
+#define NAMES X(FOO) X(BAR) X(BAZ)
+// #define X(NAME) NAME,
+// enum names { NAMES };
+// #define X(NAME) [NAME] = #NAME,
+// char *names[] = {NAMES};
+#define NAMES(F) F(FOO) F(BAR) F(BAZ)
+// #define MKENUM(NAME) NAME,
+// enum names { NAMES(MKENUM) };
+// #define MKSTRS(NAME) [NAME] = #NAME,
+// char *names[] = {NAMES(MKSTRS)};
+```

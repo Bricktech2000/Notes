@@ -9,13 +9,13 @@
 
 **properties**
 
-all [[catenary]] [[curve]]s are [[similar]] as changing the parameter **`a`** is equivalent to a uniform scaling of the [[curve]]
+all [[catenary]] [[curve]]s are [[similar]] because changing the parameter **`a`** is equivalent to a uniform scaling of the [[curve]]
 
 [[catenary]]es are the perfect [[curve]] for a [[line]] segment to roll on
 
 **applications**
 
-a string makes a [[catenary]] when it is held on its ends and subject to gravitational [[acceleration]]
+a string makes a [[catenary]] when it is held on its ends and subjected to gravitational [[acceleration]]
 
 inverted [[catenary]]es are used in the design of bridges and arches so that [[force]]s do not result in bending moments
 

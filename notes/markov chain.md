@@ -18,7 +18,7 @@
 
 certain [[markov chain]]s converge to a _stationary distribution_, which can be computed through [[matrix#multiplication]]
 
-**theorem** an _irreducible_ [[markov chain]] has a unique [[markov chain#stationary distribution]] --- <https://youtu.be/JGQe4kiPnrU>
+**theorem** an _irreducible_ [[markov chain]] has a unique [[markov chain#stationary distribution]] --- <https://youtu.be/JGQe4kiPnrU?t=8m24s>
 
 **theorem** _ergodic theorem_ an _irreducible_ and _aperiodic_ [[markov chain]] converges to its unique [[markov chain#stationary distribution]] regardless of the initial state --- <https://youtu.be/JGQe4kiPnrU?t=784>
 
@@ -42,15 +42,13 @@ certain [[markov chain]]s converge to a _stationary distribution_, which can be 
 >
 > #todo mm
 >
-> we can then deduce **`S^@@ = [P]@@S^0`**, where
+> we can then deduce that **`S^@@ = [P]@@S^0`**, where
 >
 > - **`S^@@`** is the _stationary distribution_ of the [[markov chain]]
 
 > **procedure** _computing a [[markov chain#stationary distribution]] through [[eigen#vector]]s and [[eigen#value]]s_
 >
-> the [[eigen#vector]] corresponding to the [[eigen#value]] **`1`** of the [[markov chain]]'s _transition matrix_ is the _stationary distribution_ of the [[markov chain]]. any _irreducible_ [[markov chain]] has an [[eigen#value]] of **`1`** with a unique corresponding [[eigen#vector]]
->
-> it is common to multiply the resulting [[eigen#vector]] **`x`** by a [[scalar]] **`k`** so that **`:kx = 1`**
+> the [[eigen#vector]] with sum **`1`** corresponding to the [[eigen#value]] **`1`** of the [[markov chain]]'s _transition matrix_ is the _stationary distribution_ of the [[markov chain]]. any _irreducible_ [[markov chain]] has an [[eigen#value]] of **`1`** with a unique corresponding [[eigen#vector]] whose entries sum to **`1`**
 >
 > --- <https://youtu.be/EGoRJePORHs?t=551>
 >

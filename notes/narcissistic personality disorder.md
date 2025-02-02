@@ -10,7 +10,7 @@ people with [[narcissistic personality disorder]] have insecure and vulnerable e
 
 - grandiosity
 - arrogance
-- low empathy
+- lack of empathy
 - deep entitlement
 - devaluation
 - dismissiveness

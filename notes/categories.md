@@ -30,6 +30,8 @@
 
 [[durability]]
 
+[[virtue signaling]]
+
 ## zilch
 
 [[improved expression evaluation]]

@@ -1,0 +1,512 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0050)https://www.chiark.greenend.org.uk/%7Esgtatham/mp/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<title>Metaprogramming custom control structures in C</title>
+</head>
+<body>
+<h1>Metaprogramming custom control structures in C</h1>
+<p>
+by <a href="http://pobox.com/~anakin/">Simon Tatham</a>
+</p>
+<p>
+This article describes a technique for using the C preprocessor to implement a form of metaprogramming in C, allowing a programmer to define custom looping and control constructions which behave syntactically like C's own <code>for</code>, <code>while</code> and <code>if</code> but manage control flow in a user-defined way. The technique is almost all portable C89, except that some constructions need the feature (available in both C99 and C++) of defining a variable in the initialiser of a <code>for</code> statement. Sample code is provided.
+</p>
+<h2><a name="S1"></a>1. Motivation</h2>
+<p>
+The existing control constructions in C need no introduction. Every C programmer is familiar with <code>if</code>, <code>while</code>, <code>do</code>…<code>while</code>, and <code>for</code> statements, and their effects on control flow. Every so often, though, you might come across a situation in which it might be nice to be able to invent slightly different control mechanisms.
+</p>
+<p>
+As one example, if you're iterating over a circularly linked list without a distinguished head element, you might find it inconvenient that <code>for</code> does its test at the head of the loop, because the apparently obvious way to iterate over such a list (comparing your current-element pointer to the list head in the test clause) will execute zero times. So you might like a variant of <code>for</code> that does its test at the end of the loop:
+</p>
+<pre><code>for_after (elephant *e = head; e != head; e = e-&gt;next)
+    do_stuff_with(e);
+</code></pre>
+<p>
+or, better still, one that has a <em>separate</em> test for the first iteration, so you can also check if the list is completely empty:
+</p>
+<pre><code>for_general (elephant *e = head; e != NULL; e != head; e = e-&gt;next)
+    do_stuff_with(e);
+</code></pre>
+<p>
+There's also a lot of scope for program-specific control constructions, if you find yourself writing some particular kind of loop a lot in a specific code base. For instance, suppose you have some kind of API for retrieving a list of things, and the API requires a lot of setup and teardown and function calls. You might find that even the simplest of loops to actually do something with your list looks a bit like this:
+</p>
+<pre><code>{
+    hippo_retrieval_context *hc;
+    hc = new_hippo_retrieval_context();
+    while (hippo_available(hc)) {
+        hippo *h = get_hippo(hc);
+        printf("We have a hippo called %s\n", h-&gt;name);
+        free_hippo(hc, h);
+    }
+    free_hippo_retrieval_context(hc);
+}
+</code></pre>
+<p>
+and if you find yourself needing to iterate over these lists a lot, then your program will become tediously full of copies of that kind of boilerplate. In such a program you might feel that it would be nice to wrap all that machinery up into a macro defined in your own program's headers, so that you could write just the part of the loop that needed to change every time:
+</p>
+<pre><code>FOR_EACH_HIPPO (hippo *h)
+    printf("We have a hippo called %s\n", h-&gt;name);
+</code></pre>
+<p>
+If you were doing it like this, you'd probably also like to arrange that <code>break</code> statements were handled sensibly. In the above example, if the code which actually deals with a list element wants to terminate the loop, it probably has to make sure to write a second copy of the <code>free_hippo</code> call before its <code>break</code> statement, because the copy at the end of the <code>while</code> loop body will be skipped by the <code>break</code>. If you were inventing a custom loop construction, you'd like to arrange that <code>break</code> had configurable handling, so that it automatically cleaned up this sort of thing.
+</p>
+<p>
+It's easy to imagine that if you felt strongly enough about wanting this sort of thing in your language, you could do it by inventing a sort of secondary preprocessor, which ran after the standard C preprocessor and knew enough about C syntax to be able to recognise things like statements, blocks, declarations and expressions. Then you could define ‘macros’ which looked rather like additional grammar rules, and implement your extra loop constructions as those.
+</p>
+<p>
+But in fact, one need not go that far. There is <em>already</em> a way to implement almost exactly the above control constructions in standard C, if you're prepared to be devious enough with the existing C preprocessor. In this article, I'll show how, and provide sample code.
+</p>
+<p>
+(I say ‘almost’, because due to limitations of C macro syntax, the one thing in the above snippets that can't be arranged is the separation of clauses in <code>for_after</code> and <code>for_general</code> with semicolons rather than commas.)
+</p>
+<h2><a name="S2"></a>2. Mechanism</h2>
+<p>
+If we're going to build custom loop constructions of this type, then how can we do it?
+</p>
+<p>
+If we want our finished loop construction to be used by means of syntax like this:
+</p>
+<pre><code>MY_LOOP_KEYWORD (parameters)
+    <em>statement or braced block</em>
+</code></pre>
+<p>
+then it's clear that we're going to have to define <code>MY_LOOP_KEYWORD</code> as a macro, and also that the macro must expand to a <em>statement prefix</em>: that is, something which you can put on the front of a valid C statement to yield another valid C statement.
+</p>
+<p>
+So what do those constraints allow us to do? Well, there are several types of statement prefix in the C syntax:
+</p>
+<ul><li>
+a label
+</li>
+<li>
+<code>while (</code><em>stuff</em><code>)</code>
+</li>
+<li>
+<code>for (</code><em>stuff</em><code>; </code><em>stuff</em><code>; </code><em>stuff</em><code>)</code>
+</li>
+<li>
+<code>if (</code><em>stuff</em><code>) {</code><em>stuff</em><code>} else</code>
+</li>
+<li>
+more than one of the above, one after another.
+</li>
+</ul>
+<p>
+(There's also <code>switch (</code><em>stuff</em><code>)</code> and case labels, but we'd like to avoid those if possible because of their side effect of interfering with case labels from an outer switch. It turns out we don't need them anyway; the above list is sufficient.)
+</p>
+<p>
+So we're going to explore the range of possibilities allowed by defining a macro to expand to a chain of those types of thing, and then prefixing it to a user-supplied statement.
+</p>
+<p>
+The critical component in the list above is the <code>if</code>…<code>else</code> statement prefix, because it allows us to provide a braced statement block of our own, in which we can put code of our choice. This will of course be vital for any loop construction which has to run specialist code at the start and end, or between iterations.
+</p>
+<p>
+So, to begin with, here's a construction that lets us run code of our choice <em>and then</em> run the user's code. Suppose we define our macro so that, when followed by a statement or block, it expands to this:
+</p>
+<pre><code>if (1) {
+    <em>/* code of our choice */</em>
+    goto body;
+} else
+    body:
+        { <em>/* block following the expanded macro */</em> }
+</code></pre>
+<p>
+You can see how this works by following the control flow through from the top. We come into the <code>if</code> statement; the condition is always true, so we execute the ‘code of our choice’ section first; then we reach the <code>goto</code>, which conveniently lets us get into the <code>else</code> clause of the same <code>if</code> statement even though that would not otherwise have been executed at all. So we execute our code, and then the user's code.
+</p>
+<p>
+That was nice and easy. Now what if we want to run code of our choice <em>after</em> the user's loop body?
+</p>
+<p>
+Well, we certainly can't do that using only <code>if</code> and labels, because those can't stop execution from falling off the end of the user's block and on to the following code. The code we want to run afterwards has to be written <em>above</em> the user's code, which means control flow has to move backwards in the source file – and to do that, we have to use a loop statement. So we can do this, for example:
+</p>
+<pre><code>if (1)
+    goto body;
+else
+    while (1)
+        if (1) {
+            <em>/* code of our choice */</em>
+            break;
+        } else
+            body:
+                { <em>/* block following the expanded macro */</em> }
+</code></pre>
+<p>
+As before, we first go into the then-clause of the outermost <code>if</code>, which contains a <code>goto</code> that jumps us directly to the user's block. We execute that block, but then what? Well, that block is enclosed in a <code>while (1)</code> statement, so we now go back round to the top of the <code>while</code> and enter the then-clause of the <em>inner</em> <code>if</code> – where we then run code of our choice, and after that, execute the <code>break</code> statement which terminates the loop. So we've successfully injected code to be run <em>after</em> the user's code has been executed. And still the whole construction consists solely of a chain of statement prefixes prepended to the user's block, so we could feasibly define a macro to expand to all but the last line of the above snippet.
+</p>
+<p>
+So this is beginning to look pretty promising. We can use both of the techniques above to get code to run before and after the user's code; we can further mess about with the control flow by scattering extra labels all over the place and have our inserted code blocks test conditions, think hard about what to do, and then issue an appropriate <code>goto</code>.
+</p>
+<p>
+Another thing we may well want to do is to bring variable declarations into scope, so that they can be accessed both by our added code in <code>if</code> blocks and by the user's code itself. This is unfortunately not feasible in old-style C89, since in that you can only open a new scope with an open brace character, and that would mean the user would have to provide an extra closing brace after their statement, which would look ugly and (worse still) confuse editors' automatic C indentation policies.
+</p>
+<p>
+But if you're willing to allow yourself the one extra language feature of being able to use a declaration as the initialiser clause of a <code>for</code> statement (which is legal in both C99 and C++, so the chances are that your compiler probably has <em>some</em> mode that supports it), then suddenly it becomes possible to bring any declaration you like into scope.
+</p>
+<p>
+So an obvious approach is to put the declaration in a <code>for</code>, and then use exactly the same technique as above to stop the <code>for</code> from actually causing a loop: i.e. repeat exactly the previous code snippet but replace the <code>while</code> with a <code>for</code>.
+</p>
+<p>
+That's not quite ideal, though, because execution jumps <em>over</em> the declaration rather than passing through it. If the declaration doesn't include an initialiser, that makes no difference; but you might want to declare and initialise the declaration in one go. One reason for that might be if you're working in C++ and need the constructor to be called; another reason might be if the <em>user</em> was providing a parameter to the loop macro which you wanted to treat as part of a combined declaration and initialiser, such as the ‘<code>hippo *h</code>’ in one of the examples in <a href="https://www.chiark.greenend.org.uk/%7Esgtatham/mp/#S1">section 1</a>. (If the user provides a macro parameter of the form ‘<code>type *var</code>’, then we can put that parameter before an assignment to produce a declaration-with-initialiser, but we can't extract the variable name on its own in order to do the declaration and initialisation separately.)
+</p>
+<p>
+So, can we fix that? Well, we'll have to do two things. One is to recover control after the user's block runs (but we can do that using the <code>while</code>-based construction above), and the other is to find a way to transfer control back out of the <code>for</code> without falling into the trap of writing a <code>break</code> which is executed in the context of the <code>while</code>.
+</p>
+<p>
+For this, a helpful trick is to put a label inside an <code>if (0)</code>. Like this:
+</p>
+<pre><code>if (0)
+    finished: ;
+else
+    for (<em>/* declaration of our choice */</em> ;;)
+        if (1)
+            goto body;
+        else
+            while (1)
+                if (1)
+                    goto finished;
+                else
+                    body:
+                        { <em>/* block following the expanded macro */</em> }
+</code></pre>
+<p>
+So the initial <code>if (0)</code> is ignored and we begin executing the <code>for</code> statement, including its declaration. The construction inside the <code>for</code> should now be familiar from the previous example: its job is to execute the user's block and then loop back round to the <code>goto finished</code> statement, which transfers control into the then-clause of the outermost <code>if</code>. From there, control bypasses the whole else-clause and drops out of the bottom. So this approach to declarations works.
+</p>
+<p>
+Now what about handling <code>break</code>? If you think about what would happen to some of the above snippets if the suffixed block executes <code>break</code>, you find that the first one (that executes code of our choice before the user's code) doesn't interfere with <code>break</code> at all, so that it would still terminate the next outermost loop or switch; but the other two, in which the user's code is embedded in a <code>while</code> or a <code>for</code>, both have the side effect of changing the meaning of <code>break</code> within the suffixed block so that it just terminates the <code>while</code> or <code>for</code>. This will be nasty if we have to embed either of those constructs inside an <em>actual</em> loop (by which I mean one intended to execute the user's code multiple times, unlike the above dummy loops that we always break out of after one iteration), because then a <code>break</code> in the user's code won't terminate the real loop, only the current iteration of the loop body – in other words, it'll become synonymous with <code>continue</code>, which isn't very useful.
+</p>
+<p>
+At first sight one is inclined to think that since the problem arose due to a side effect of using a C loop keyword, we surely can't solve the problem except by removing the loop. But in fact, we head in the other direction: we can recover useful handling of <code>break</code> by adding <em>another</em> layer of loop! Specifically, we put the user's code inside two nested <code>while</code> loops, like this:
+</p>
+<pre><code>if (1)
+    goto body;
+else
+    while (1)
+        if (1) {
+            <em>/* we reach here if the block terminated by break */</em>
+        } else
+            while (1)
+                if (1) {
+                    <em>/* we reach here if the block terminated normally */</em>
+                } else
+                    body:
+                        { <em>/* block following the expanded macro */</em> }
+</code></pre>
+<p>
+As in the previous examples, the outermost <code>if</code> jumps us into the innermost loop and executes the user's code block. If that block terminates normally, then we loop round to the top of the inner <code>while</code>, and execute a code snippet of our own choice. But if the user's block terminated by means of a <code>break</code> statement, that will terminate the inner <code>while</code> and cause us to loop round to the top of the <em>other</em> one. So we've now arranged for control flow to go to different places based on whether the user issued a <code>break</code> or not; and of course each of the code snippets we provide above can act on that information as it sees fit, including in particular jumping to a location of its choice via <code>goto</code>.
+</p>
+<h2><a name="S3"></a>3. Handling <code>else</code> clauses</h2>
+<p>
+I've shown that it's possible to write an almost arbitrary control structure by this mechanism which expects a single block of code after it and arranges to call that block in a user-defined looping setup.
+</p>
+<p>
+What if you want to pass <em>more</em> than one block of code to your control structure, as you can with the built-in <code>if</code>…<code>else</code>?
+</p>
+<p>
+For instance, Python allows an <code>else</code> clause on the end of a <code>for</code> loop, which is executed if the loop terminates normally but skipped if it terminates by <code>break</code>. This is ideal for situations in which the <code>for</code> loop is searching for a suitable element of a list, and you want special-case handling if no such element turned out to exist. If C had that feature too, then you'd be able to write things like:
+</p>
+<pre><code>for (i = 0; i &lt; n; i++) {
+    if (array[i] == the_droid_we_are_looking_for)
+        break;
+} else {
+    <em>/* only executed if no array element matched */</em>
+    move_along();
+}
+</code></pre>
+<p>
+whereas currently you have to do this by testing after the loop to see if <code>i==n</code>, or if the loop conditions weren't as simple as that then you might resort to something even uglier like declaring an extra flag variable.
+</p>
+<p>
+Or you might make up your own constructions. I occasionally feel that it would be nice to put an <code>else</code> clause on a <code>while</code> loop, with the semantics (this time <em>not</em> like Python's) that the <code>else</code> clause is executed if and only if the main loop body was run zero times. This would be handy, for example, in cases where you're printing a message to the user every time you go round the loop but you feel it would be unfriendly not to print <em>anything</em> if you're not going round at all:
+</p>
+<pre><code>while ((p = get_a_thing()) != NULL) {
+    printf("Processing %s\n", p-&gt;name);
+    do_stuff_with(p);
+} else {
+    <em>/* only executed if the condition was false the first time */</em>
+    printf("No things to process\n");
+}
+</code></pre>
+<p>
+Again, to do this in standard C you have to do something fairly ugly, such as putting the <code>while</code> inside an <code>if</code> with the same condition, and also turning it into a <code>do</code>…<code>while</code> if the condition (like this one) has side effects that you need to avoid duplicating the first time round the loop.
+</p>
+<p>
+Another output-related example is that of printing a collection of strings with commas between them, so that however many actual output values you're printing (at least, if it was non-zero) you print one comma fewer. I've always done that by means of a variable storing a separator string:
+</p>
+<pre><code>sep = "";    <em>/* the first value has nothing before it */</em>
+while ((p = get_a_thing()) != NULL) {
+    printf("%s%d", sep, p-&gt;value);
+    sep = ",";   <em>/* all subsequent values are preceded by a comma */</em>
+}
+</code></pre>
+<p>
+But it would be cute if you could avoid the extra variable declaration, by writing something like
+</p>
+<pre><code>while_interleaved ((p = get_a_thing()) != NULL)
+    printf("%d", p-&gt;value);
+and_in_between
+    putchar(',');
+</code></pre>
+<p>
+and relying on the loop construct to do the job of arranging to run the second block one fewer times than the first.
+</p>
+<p>
+All of these types of control structure can be implemented by extending the mechanism described in <a href="https://www.chiark.greenend.org.uk/%7Esgtatham/mp/#S2">section 2</a>. If we want to define a loop macro whose invocation has a syntactic form like this:
+</p>
+<pre><code>MY_LOOP_KEYWORD (parameters)
+    <em>statement or braced block</em>
+else
+    <em>statement or braced block</em>
+</code></pre>
+<p>
+then all we have to do is to insert an unmatched <code>if</code> statement somewhere in our chain of statement prefixes, and then it will match an <code>else</code> written by the user after their first statement or block.
+</p>
+<p>
+A reasonably general way to arrange this is by using an <code>if (0)</code> with a label on each side, like this:
+</p>
+<pre><code>else_clause:
+    if (0)
+        then_clause:
+            { <em>/* first block following the expanded macro */</em> }
+    else
+        { <em>/* second block following the expanded macro */</em> }
+</code></pre>
+<p>
+(In case it's becoming unclear, our macro in this case would expand to everything up to and including the <code>then_clause</code> label; everything after that is code written by the user following the invocation of our control macro.)
+</p>
+<p>
+Now we place other control constructions outside that one which can execute either <code>goto then_clause</code> (which will jump straight to the user's main loop body) or <code>goto else_clause</code> (which will jump to just before the <code>if (0)</code>, and therefore head for the <code>else</code> clause).
+</p>
+<p>
+Doing that has the unfortunate effect that control flow will go to the same place after executing either of the user's blocks. To get around that, we can put additional control constructions just before or after the <code>then_clause</code> label; those will only be run for one of the two clauses, so now we can arrange (by the techniques shown above) to redirect control to a different place after each one. For example, a general approach might look like this:
+</p>
+<pre><code>while (1)
+    if (1) {
+        <em>/* we reach here after the user's else clause */</em>
+        goto somewhere;
+    } else
+        else_clause:
+            if (0)
+                while (1)
+                    if (1) {
+                        <em>/* we reach here after the then clause */</em>
+                        goto somewhere_else;
+                    } else
+                        then_clause:
+                            { <em>/* user's first block */</em> }
+            else
+                { <em>/* user's second block */</em> }
+</code></pre>
+<p>
+I'm assuming that code further up will jump to either the <code>then_clause</code> label or the <code>else_clause</code> one. If the former, we immediately execute the user's then-clause, then we go round to the top of the inner <code>while</code> and reach one of our two code snippets. If the latter, then we execute the <code>if (0)</code>, which drops us through to the user's <code>else</code> clause (shown above with indentation reflecting its place in the real syntactic structure, though of course the user will indent it rather differently), and since that's not inside the inner <code>while</code> at all, we would then loop round to the top of the <em>outer</em> <code>while</code> and execute a different snippet.
+</p>
+<p>
+So that demonstrates how to make use of two code blocks provided by the user. They will have to be separated by the keyword <code>else</code>, or else none of this trickery will work; but of course you can always trivially <code>#define</code> some synonyms for <code>else</code> to make the code look nicer, such as <code>and_in_between</code> in the last example above.
+</p>
+<h2><a name="S4"></a>4. Construction kit</h2>
+<p>
+Hopefully the previous sections have shown that the general technique of expanding a macro into a well-chosen collection of statement prefixes is surprisingly powerful, and contains all the needed functionality to implement a wide range of looping constructions.
+</p>
+<p>
+However, actually doing it by chaining together <code>if</code>s and <code>while</code>s and labels is a bit of a headache, and if you were trying to define a custom loop construction in a particular application to cope with some inconvenient piece of API (as in one of my motivating examples above) then you might very well run out of patience before getting the sequence of bits and pieces quite right. It would be nicer to have a pre-packaged collection of the snippets in the previous sections, in a form that was reasonably easy for a user to put together into whatever loop construct was most useful to them that day. A sort of ‘loop construction kit’.
+</p>
+<p>
+Well, all of the trickery shown above has a nice property: because it's all in the form of statement prefixes, it's all composable. So you could quite feasibly define macros to do jobs like ‘execute this code before the suffixed block’, ‘execute this code after the suffixed block’, ‘bring this declaration into scope’, ‘catch and handle <code>break</code>’, and so on, and have each of those macros expand to a statement prefix. Then a user could define a loop macro simply by means of chaining together a collection of those prefixes.
+</p>
+<p>
+So I've written one of these, and it's available for download at the bottom of this page. I won't document it in full in this article, because the main documentation is in comments in the header file itself and it's easier not to try to keep it in sync in two places; but here's an example of it in use. The following definition, if you've included my header file first, constructs exactly the <code>FOR_EACH_HIPPO</code> loop type described in an earlier secion:
+</p>
+<pre><code>#define FOR_EACH_HIPPO(loopvar)                                 \
+    MPP_DECLARE(1, hippo_retrieval_context *_hc)                \
+    MPP_BEFORE(2, _hc = new_hippo_retrieval_context())          \
+    MPP_AFTER(3, free_hippo_retrieval_context(_hc))             \
+    MPP_WHILE(4, hippo_available(_hc))                          \
+    MPP_BREAK_CATCH(5)                                          \
+    MPP_DECLARE(6, hippo *_h = get_hippo(_hc))                  \
+    MPP_DECLARE(7, loopvar = _h)                                \
+    MPP_BREAK_THROW(5)                                          \
+    MPP_FINALLY(8, free_hippo(_hc, _h))
+</code></pre>
+<p>
+I hope you'll agree that that sort of thing is a lot easier to write (and read) than the elaborate constructions in the previous sections! And yet it achieves more, by pasting together many things of about the size of the above snippets.
+</p>
+<p>
+Most of the example should be reasonably clear, but I'll talk through it anyway just in case:
+</p>
+<ul><li>
+<code>MPP_DECLARE</code> brings a declaration into scope, specifically the <code>hippo_retrieval_context</code> that the original version of the loop had to instantiate surrounding the loop as a whole.
+</li>
+<li>
+<code>MPP_BEFORE</code> and <code>MPP_AFTER</code> arrange to run the supplied pieces of code before and after the code that follows, i.e. before and after the whole loop. So the <code>hippo_retrieval_context</code> is allocated at the start of the loop, and freed when the loop terminates.
+</li>
+<li>
+<code>MPP_WHILE</code> is the loop itself, and includes the termination condition.
+</li>
+<li>
+The next two <code>MPP_DECLARE</code>s declare variables with scope <em>inside</em> the loop, holding the actual value retrieved by <code>get_hippo</code>. The second one refers to <code>loopvar</code>, the macro parameter passed in by the user.
+</li>
+<li>
+<code>MPP_BREAK_CATCH</code> and <code>MPP_BREAK_THROW</code> are used to get round the problem discussed in <a href="https://www.chiark.greenend.org.uk/%7Esgtatham/mp/#S2">section 2</a>, where using a <code>for</code> loop to bring a declaration into scope has the side effect of causing <code>break</code> to do something unhelpful. <code>MPP_BREAK_THROW</code> is a macro which detects when the user's code has issued a <code>break</code> (by the technique shown in <a href="https://www.chiark.greenend.org.uk/%7Esgtatham/mp/#S2">section 2</a>), and responds by issuing a <code>goto</code> to a label defined by the corresponding <code>MPP_BREAK_CATCH</code>, which in turn issues another <code>break</code> statement. So any <code>break</code> written by the user will be propagated past the two dangerous <code>MPP_DECLARE</code>s, and instead will terminate the <code>MPP_WHILE</code> loop as the user really wanted.
+</li>
+<li>
+<code>MPP_FINALLY</code> is another <code>break</code>-handling macro. It arranges that the <code>free_hippo</code> call takes place no matter whether the user exited the block naturally (by falling off the end) or by <code>break</code>.
+</li>
+</ul>
+<p>
+The numbers used as the first parameter to each <code>MPP_</code> macro are called ‘label IDs’. Most of those macros have to define labels somewhere in their structure and jump to them using <code>goto</code>s, as you can see in the code snippets in the previous sections. Those code snippets use fixed label names for simplicity; but of course in serious use you can't do that, or else you'd never be able to use the same <code>MPP_</code> macro even twice in the same <em>function</em>, let alone twice in the same loop macro (as we do above, with three instances of <code>MPP_DECLARE</code>). We get round this by constructing label names using the C preprocessor's token-pasting operator <code>##</code>: each label includes <code>__LINE__</code> to ensure that multiple invocations of the same loop macro define different labels, and also includes the label ID passed to the macro defining the label. So the constraint is just that each separate <code>MPP_</code> macro used in a loop construct definition must have a different label ID, to stop them colliding with each other. But it doesn't matter what the label IDs actually <em>are</em>; I use numbers above for brevity, but you could use descriptive names if you prefer.
+</p>
+<p>
+(One exception to the unique-IDs rule is that corresponding instances of <code>MPP_BREAK_THROW</code> and <code>MPP_BREAK_CATCH</code> must have the <em>same</em> number, so that one can jump to a label defined in the other. In more complex macros you might have to use two instances of each, and then the numbering makes it clear how they match up.)
+</p>
+<p>
+You might notice that the variable names invented by the above macro begin with underscores (<code>_hc</code> and <code>_h</code>). This is just a convention I chose to make it unlikely that they'll clash with variable names used by the end user calling the loop macro. You don't have to follow the same convention, of course, but I'd suggest that <em>some</em> convention along those lines is probably useful.
+</p>
+<p>
+Also on the subject of variable declarations, here's a useful feature of <code>MPP_DECLARE</code>. It places the declaration you give it in the initialisation clause of a <code>for</code> statement – but there's no actual need for the thing in a <code>for</code> statement to be a declaration. So <code>MPP_DECLARE</code> can take a declaration <em>or</em> an ordinary assignment. This is useful in the case where we're assigning to a macro parameter passed in by the user, as in the declaration above assigning to <code>loopvar</code>. It means that the user can call the loop macro as either <code>FOR_EACH_HIPPO(hippo *h)</code>, declaring a new variable with scope limited to the loop body, or if they prefer they could instead call it as just <code>FOR_EACH_HIPPO(h)</code> where <code>h</code> is some variable of the right type which was <em>already</em> in scope. By writing the loop macro in the above form, we can arrange for both uses to work.
+</p>
+<p>
+Another thing in the above code that needs explaining is the distinction between <code>MPP_AFTER</code> and <code>MPP_FINALLY</code>, and why I had to use both in the above definition. Both arrange for code to be run after the suffixed statement terminates, but they have different semantics. Firstly, <code>MPP_AFTER</code> only executes its code snippet if the suffixed statement terminated <em>normally</em>, not by <code>break</code>, whereas <code>MPP_FINALLY</code> executes its statement either way. But the suffixed statement of <code>MPP_AFTER</code>, in the above, is a loop, so any <code>break</code> will stop there. So why wouldn't <code>MPP_FINALLY</code> have done just as well?
+</p>
+<p>
+The answer is that <code>MPP_FINALLY</code> doesn't just <em>handle</em> <code>break</code> by running some code: it also <em>reissues</em> the <code>break</code>, so that it continues propagating upwards and (in the above example) eventually terminates the loop. That means that <code>MPP_FINALLY</code> expands to a statement prefix which includes a <code>break</code> statement that's not contained in any loop – so it would be illegal C to use <code>MPP_FINALLY</code> in any context where there wasn't a surrounding loop. So I can't use <code>MPP_FINALLY</code> at the top level of my loop construction, <em>even if</em> the break statement in it would never actually be reached.
+</p>
+<p>
+All of this is documented more fully in comments in the header file itself, along with some additional macros to the ones shown, including ones that absorb a following <code>else</code> clause as discussed in <a href="https://www.chiark.greenend.org.uk/%7Esgtatham/mp/#S3">section 3</a>. But the example above should give you an idea of what sort of thing this system can do.
+</p>
+<h2><a name="S5"></a>5. Use with coroutines</h2>
+<p>
+For my <em>pièce de résistance</em>, here's a mechanism for implementing something very similar to Ruby's ‘iterator method’ mechanism, in which you can define an arbitrary function which is called with a suffixed block of code and can ‘call’ that block, with arguments, anywhere in its own control flow.
+</p>
+<p>
+If you combine the loop-definition macros described above with my other C preprocessor hack to implement coroutines, you can achieve pretty much the same thing in standard C99!
+</p>
+<p>
+As an example, let's write some code that generates a sequence of integers: specifically, all those integers which are either a power of 2 or three times a power of 2, in increasing order. If we just wanted to print those numbers, we could use the following snippet of code:
+</p>
+<pre><code>void twothree_up_to(int limit)
+{
+    int i, tmp;
+    for (i = 1; i &lt; limit; i *= 2) {
+        printf("%d\n", i); <em>/* a power of 2 */</em>
+        if (i &gt; 1) {
+            tmp = i + (i &gt;&gt; 1);
+            if (tmp &lt; limit)
+                printf("%d\n", tmp); <em>/* 3 times a power of 2 */</em>
+        }
+    }
+}
+</code></pre>
+<p>
+I've deliberately picked an example with slightly fiddly control flow, to show off the technique to the full. It's more convenient to call <code>printf</code> twice in each loop iteration, printing first a power of two and then one-and-a-half times that value, than to fiddle with the loop conditions to arrange exactly one iteration per output number; we also need to allow for the special case that when the power of two is 1 we have to skip the one-and-a-half value, and we must also check the <em>second</em> number printed in each iteration against the provided limit to avoid overrunning by one.
+</p>
+<p>
+So now let's rewrite that as an ‘iterator’ with more or less Rubyish semantics.
+</p>
+<p>
+First we must define a set of coroutine macros. For full details of the general technique, see my article ‘<a href="https://www.chiark.greenend.org.uk/%7Esgtatham/coroutines.html">Coroutines in C</a>’. Here I'll just observe that the details have to be adjusted from the ones in that article to allow for the state structure being allocated on the stack of the calling function rather than being either dynamically allocated or <code>static</code>:
+</p>
+<pre><code>#define MPCR_BEGIN switch (s-&gt;_line) { case 0:
+#define MPCR_END(dummyval) s-&gt;_line = -1; }
+#define MPCR_YIELD(value) do                    \
+    {                                           \
+        s-&gt;_line = __LINE__;                    \
+        s-&gt;_val = (value);                      \
+        return;                                 \
+      case __LINE__:;                           \
+    } while (0)
+</code></pre>
+<p>
+These macros expect to be used in a function which takes a parameter called ‘<code>s</code>’, which is a pointer to a structure that contains the coroutine's state. The state structure must in turn contain a member called <code>_line</code>, which tracks the coroutine's next resumption point (and is initialised to zero, and set to the special value <code>-1</code> to indicate that the coroutine has finished and isn't yielding another value), and another member called <code>_val</code> which is the value passed out of the coroutine to the user's code block in each yield operation.
+</p>
+<p>
+So now we can rewrite the above function as an iterator using those macros. Of course any local variable in the above function which has to persist across a yield must become an extra field in the state structure, which in the above case means that ‘<code>limit</code>’ and ‘<code>i</code>’ must move but ‘<code>tmp</code>’ is OK as it is:
+</p>
+<pre><code>struct twothree_state {
+    int _line, _val;
+    int limit;
+    int i;
+};
+void twothree_iterator(struct twothree_state *s)
+{
+    int tmp;
+    MPCR_BEGIN;
+    for (s-&gt;i = 1; s-&gt;i &lt; s-&gt;limit; s-&gt;i *= 2) {
+        MPCR_YIELD(s-&gt;i);
+        if (s-&gt;i &gt; 1) {
+            tmp = s-&gt;i + (s-&gt;i &gt;&gt; 1);
+            if (tmp &lt; s-&gt;limit)
+                MPCR_YIELD(tmp);
+        }
+    }
+    MPCR_END(0);
+}
+</code></pre>
+<p>
+Now the other end of the mechanism has to be a loop macro which declares an instance of <code>struct twothree_state</code> to keep the iterator's persistent state in, then repeatedly calls the iterator function on that state structure to get an output value, and stops when it terminates. We can build such a macro without any difficulty using the loop construction kit discussed in <a href="https://www.chiark.greenend.org.uk/%7Esgtatham/mp/#S4">section 4</a>:
+</p>
+<pre><code>#define TWOTHREE_UP_TO(loopvar, limitval)               \
+    MPP_DECLARE(1, struct twothree_state _state)        \
+    MPP_BEFORE(2, _state._line = 0;                     \
+               _state.limit = limitval;                 \
+               twothree_iterator(&amp;_state))              \
+    MPP_WHILE(3, _state._line &gt;= 0)                     \
+    MPP_BREAK_CATCH(4)                                  \
+    MPP_AFTER(5, twothree_iterator(&amp;_state))            \
+    MPP_DECLARE(6, loopvar = _state._val)               \
+    MPP_BREAK_THROW(4)
+</code></pre>
+<p>
+(So we have to declare the coroutine's state; set it all up and call the iterator to get the first value; loop until the <code>_line</code> field becomes negative, which happens as a result of reaching <code>MPCR_END</code> and is the signal to terminate the loop; arrange to call the iterator again after executing the loop body; assign the yielded value into the user's specified loop variable; and finally handle <code>break</code> by propagating it past the <code>MPP_AFTER</code> and <code>MPP_DECLARE</code> macros. All of this is more or less the same as the example in <a href="https://www.chiark.greenend.org.uk/%7Esgtatham/mp/#S4">section 4</a>.)
+</p>
+<p>
+After all those definitions, we can now call our loop macro with a statement or block of our choice:
+</p>
+<pre><code>TWOTHREE_UP_TO(int k, 1000)
+    printf("%d\n", k);
+</code></pre>
+<h2><a name="S6"></a>6. Limitations</h2>
+<p>
+Of course, whenever you use macros to extend C's syntax, the mechanism comes with a few extra constraints. Only a <em>proper</em> language extension, implemented in the compiler itself, would be able to avoid that.
+</p>
+<p>
+To begin with, though, here are some things that <em>aren't</em> limitations.
+</p>
+<p>
+Loops constructed by this mechanism are valid standard C99, or valid standard C++. If you avoid using declarations in <code>for</code> loops (so no <code>MPP_DECLARE</code>, if you're using my construction-kit header) then they're valid C89 as well.
+</p>
+<p>
+All of these macros are <code>switch</code>/<code>case</code> safe, in the sense that a <code>case</code> label inside the user's block will still be associated with a <code>switch</code> completely outside the loop construction. (That's a consequence of not having used <code>switch</code> in the macros themselves.) Of course, jumping into a loop like that will skip any implicit initialisations and allocations and so on that might be hidden in the loop macro, but nothing in the macros <em>themselves</em> forbids the technique.
+</p>
+<p>
+All of these macros can handle being followed by either a single statement or a braced block, just like C's built-in loop statements. They're <code>if</code>/<code>else</code> safe (in the sense that you can put an unbraced <code>if</code>…<code>else</code> inside one, or put an unbraced one inside <code>if</code>...<code>else</code>, without causing syntactic confusion), unless of course you've deliberately set them up to eat a following <code>else</code> clause.
+</p>
+<p>
+Those are the good points. Now for the actual limitations of the technique.
+</p>
+<p>
+As discussed in the previous sections, the loop-construction macros use <code>goto</code> with labels constructed programmatically using <code>__LINE__</code>. So don't put two loop macros defined using these building blocks on the same source line, or they'll most likely define the same labels twice and cause a compile error.
+</p>
+<p>
+Loops defined using these macros have no way to control the handling of <code>continue</code>. Fortunately, the default handling is probably the right one anyway: in any loop defined using this system, <code>continue</code> will be equivalent to a jump to just before the end of the loop body. (So any post-loop machinery concealed in the loop macro will still be run.)
+</p>
+<p>
+The mechanism for catching <code>break</code> can only catch <code>break</code>, and won't catch any other kinds of non-local exit from the loop body such as <code>return</code>, <code>goto</code>, <code>longjmp()</code> or <code>exit()</code>. The fact that I called one of my component macros <code>MPP_FINALLY</code> should not mislead you into thinking it's as good as a ‘real’ <code>finally</code>. So if you define a loop by this mechanism which sets up state that has to be cleaned up when the loop finishes, don't write any <code>return</code>s (or anything else on the above list) in the loop body.
+</p>
+<p>
+The mechanism for accepting an <code>else</code> clause relies on the C syntax rule that every <code>else</code> binds to the nearest unmatched <code>if</code>. This isn't a problem <em>per se</em>, in that no compiler I've ever heard of gets that rule wrong, but unfortunately some compilers (e.g. GCC) give a warning whenever you write code that actually depends on the rule. So although in principle <code>else</code> clauses on constructions defined like this are optional, you might find that in practice they're mandatory to avoid those annoying warnings.
+</p>
+<p>
+And last but not least, if you use this sort of trickery in code you write for your employer, don't be surprised if your next performance review contains a raised eyebrow or two!
+</p>
+<h2><a name="S7"></a>7. Downloads</h2>
+<p>
+The header file I describe above is available here: <a href="https://www.chiark.greenend.org.uk/%7Esgtatham/mp/mp.h"><code>mp.h</code></a>.
+</p>
+<p>
+You can also download a test program that uses that header file: <a href="https://www.chiark.greenend.org.uk/%7Esgtatham/mp/mptest.c"><code>mptest.c</code></a>. If compiled normally, that file sets up a number of these loops and test-runs them in various ways; if compiled with the macro <code>EXPECTED</code> defined, it instead compiles to equivalent ‘normal’ C code, so you can check that the two versions give the same output. Compile with <code>C89</code> defined as well to cut out all the tests that depend on declaring variables in <code>for</code> statements.
+</p>
+
+<hr><address>Copyright © 2012 Simon Tatham. <br>This document is <a href="http://www.opencontent.org/">OpenContent</a>. <br>You may copy and use the text under the terms of the <a href="http://www.opencontent.org/opl.shtml">OpenContent Licence</a>. <br>Please send comments and criticism on this article to <a href="mailto:anakin@pobox.com">anakin@pobox.com</a>.
+</address>
+
+</body></html>

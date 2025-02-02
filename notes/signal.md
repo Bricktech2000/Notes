@@ -2,6 +2,8 @@
 
 **aka** _signaling_
 
+**see** [[virtue signaling]]
+
 **definition** a _signal_ is a [[proxy]] used for advertising purposes that is generally costly to fake --- me
 
 > **exaples**

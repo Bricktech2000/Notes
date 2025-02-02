@@ -30,7 +30,7 @@ below are examples of a few design decisions following from these principles
 - the [[circle]] constant is **`tt`**, and **`pp`** is to be avoided; see [[tau]]
 - this [[math notation]] is 1D; it takes up constant vertical space and can wrap at the end of a line
 
-> **resource** _from Boolean Algebra to Unified Algebra_, redesigning [[boolean algebra]] as a [[set#subset]] of number algebra --- <https://www.cs.toronto.edu/~hehner/BAUA.pdf>
+> **resource** _from Boolean Algebra to Unified Algebra_, redesigning [[boolean algebra]] as a [[set#subset]] of number algebra --- [[BAUA.pdf]] --- <https://www.cs.toronto.edu/~hehner/BAUA.pdf>
 >
 > > **note** it turns out that thinking of $\land$ as $\min$ and $\lor$ as $\max$ and $\forall$ as $\land$-reduce and $\exists$ as $\lor$-reduce and $\implies$ as $\leq$ and $\impliedby$ as $\geq$ is, to my dismay, not an original idea
 

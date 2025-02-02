@@ -2,7 +2,7 @@
 
 _it's not bad; it's just not good_ --- <https://yager.io/programming/go.html>
 
-> **resource** _[[go]] at Google: Language Design in the Service of [[software engineering]]_ --- <https://go.dev/talks/2012/splash.article>
+> **resource** _[[go]] at Google: Language Design in the Service of [[software engineering]]_ by Rob Pike --- <https://go.dev/talks/2012/splash.article>
 
 > **resource** _why [[go]] is not good_, comparing design decisions in [[go]] to Haskell and [[rust]] --- <https://yager.io/programming/go.html>
 

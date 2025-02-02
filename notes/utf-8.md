@@ -8,7 +8,7 @@ _a brilliant and beautiful hack_
 
 > **resource** RFC 3629, _UTF-8, a transformation format of ISO 10646_ --- <https://www.rfc-editor.org/rfc/rfc3629.html>
 
-> **resource** _UTF-8 history_ email chain, a trip to the past --- <https://www.cl.cam.ac.uk/~mgk25/ucs/utf-8-history.txt>
+> **resource** _UTF-8 history_ email chain, a trip to the past --- [[utf-8-history.txt]] --- <https://www.cl.cam.ac.uk/~mgk25/ucs/utf-8-history.txt>
 
 **properties**
 

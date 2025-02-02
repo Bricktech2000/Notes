@@ -15,7 +15,7 @@
 
 ## Pursuit
 
-recognizing and identifying [[proxy]]es is important, for often they are mistaken for the variables they are proxies for. this can lead to what I like to call "proxy pursuits", where people work on chasing or fixing what they don't realize are deceptively poor proxies
+recognizing and identifying [[proxy]]es is important, for often they are mistaken for the variables they are proxies for. this can lead to what I like to call "proxy pursuits", where people work on chasing or fixing what they don't realize are deceptively poor proxies. these proxies, in some sense, are _counterfeits_ --- Erik Goodwyn --- <https://youtu.be/FxbBgqKwGW4?t=10m56s>
 
 one class of [[proxy#pursuit]]s that's easy to recognize in the wild is people (metaphorically) treating the symptoms because they don't see the disease
 
