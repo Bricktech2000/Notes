@@ -2,7 +2,7 @@
 
 **see** [[invent]]
 
-> **resource** building on strong foundations instead of making things up, with [[rust]] as a case study --- <https://youtu.be/v6RxJsk8otY>
+> **resource** building on strong foundations instead of making things up, with [[rust]] as a case study, by Tristram Oaten aka No Boilerplate --- <https://youtu.be/v6RxJsk8otY>
 
 when building upon strong foundations, [[discover]]y becomes more effective, and [[invent]]ion becomes unnecessary. the [[abstraction]]s resulting from [[discover]]y are deep and flexible whereas those resulting from [[invent]]ion are rigid and brittle
 

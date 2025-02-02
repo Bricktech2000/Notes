@@ -2,7 +2,7 @@
 
 _purposefulness and thoughtfulness in one's actions_
 
-**see** [[system over goal]], [[subconscious manipulation]]
+**see** [[system over goal]]
 
 Ryder Carroll defines an _intention_ as a [[commitment]] to a process, the organizing principle behind [[goal]]s and [[system]]s, and _intentionality_ as the alignment of one's actions with one's values by putting intentions into action --- <https://youtu.be/Duo7OB3NEQg?t=5m18s>
 

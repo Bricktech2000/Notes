@@ -8,8 +8,6 @@
 
 [[reaction]], [[response]]
 
-[[brain circuitry hijack]], [[subconscious manipulation]], [[intent to mastery]]
-
 [[memory]]
 
 [[knowledge]], [[intelligence]]

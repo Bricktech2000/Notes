@@ -66,7 +66,7 @@ _bloated [[c]]... but with [[class]]es!_
 
 parsing the [[c++]] grammar is undecidable
 
-> **resource** [[proof]] sketch of [[turing complete]]ness of [[c++]] templates --- <https://port70.net/~nsz/c/c%2B%2B/turing.pdf>
+> **resource** [[proof]] sketch of [[turing complete]]ness of [[c++]] templates --- [[turing.pdf]] --- <https://port70.net/~nsz/c/c%2B%2B/turing.pdf>
 
 > **proof**
 >

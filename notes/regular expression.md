@@ -18,11 +18,11 @@ _a finite [[string]] denoting a [[formal language#regular formal language]]_
 
 > **resource** Andrew Gallant's blog posts on `ripgrep`, more practical tips for writing [[regular expression]] engines --- <https://blog.burntsushi.net/ripgrep/> and <https://blog.burntsushi.net/regex-internals/>
 
-in [[formal language]] theory, [[regular expression]]s support grouping `(r)`, concatenation `rs`, alternation `r|s` and Kleene star `r*`; `?` and `+` are omitted since `r? = r|ε` and `r+ = rr*`. additionaly, `ε` denotes the [[set]] containing the empty word, `∅` the empty [[set]], and any other [[character]] the [[set]] containing the word formed by that [[character]]
+in [[formal language]] theory, [[regular expression]]s support concatenation `rs`, alternation `r|s`, Kleene star `r*` and grouping `(r)`; `?` and `+` are omitted since `r? = r|ε` and `r+ = rr*`. additionaly, `ε` denotes the [[set]] containing the empty word, `∅` the empty [[set]], and any other [[character]] the [[set]] containing the word formed by that [[character]]. in truth, grouping `(r)` is redundant and only needed because of [[infix notation]], and the empty [[string]] `ε` and empty [[set]] `∅` are redundant and only needed because the notation can't express the empty concatenation and empty alternation, respectively
 
 [[regular expression]]s are **not** a "notation for describing patterns of text". they are a notation for describing the [[formal language#regular formal language]]s. so many get it wrong; see, for example, _A Regular Expression Matcher. Code by Rob Pike, Exegesis by Brian Kernighan_ --- <https://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html>. as a rule of thumb, if a [[regular expression]] engine doesn't support alternation or grouping or backtracking, chances are high it's not a [[regular expression]] engine. sure, it matches patterns of text, but that's not what it means to be a [[regular expression]] engine
 
-alternation `|` corresponds to [[set#union]] [[under]] accepted language, so it is only natural to extend [[regular expression]]s with intersection `&` and complementation `~`, which correspond to, respectively, [[set#intersection]] and [[set#complementation]] [[under]] accepted language. this is seldom done in practice, however. one reason may be that alternations are trivial to implement whereas intersections and complements take more work. poor [[generalism]] could also be a contributing factor
+alternation `|` corresponds to [[set#union]] [[under]] accepted language, so it is only natural to extend [[regular expression]]s with intersection `&` and complementation `~`, which correspond to, respectively, [[set#intersection]] and [[set#complementation]] [[under]] accepted language. this is seldom done in practice, however. one reason may be that alternations are easy to implement whereas intersections and complements take more work. poor [[generalism]] could also be a contributing factor
 
 **properties** (not exhaustive)
 
@@ -47,5 +47,3 @@ _idempotence of Kleene star_ `r* = r**`
 _Kleene star of `∅` and `ε`_ `∅* = ε* = ε`
 
 _Kleene star of `?` and `+`_ `(r|ε)* = (rr*)* = r*`
-
-_Kleene star of concatenation_ `(r*s*)* = (r|s)*`

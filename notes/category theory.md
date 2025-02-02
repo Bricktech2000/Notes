@@ -4,7 +4,7 @@
 
 _[[category theory]] is to programming what chemistry is to baking_ --- <https://youtu.be/SmXB2K_5lcA?t=414>
 
-> **resource** [[category theory]] for programmers by Bartosz Milewski --- <https://www.youtube.com/watch?v=I8LbkfSSR58&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM> (not yet finished)
+> **resource** _[[category theory]] for programmers_ by Bartosz Milewski --- <https://www.youtube.com/watch?v=I8LbkfSSR58&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM> (not yet finished)
 
 > **resource** _[[category theory]] for the working hacker_ --- <https://www.youtube.com/watch?v=gui_SE8rJUM>
 

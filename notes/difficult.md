@@ -6,7 +6,7 @@ _the importance of doing [[difficult]] things_
 
 it seems that things we qualify as _[[difficult]]_ are [[difficult]] because they require us to use our conscious mind to overcome our unconscious mind, often seeking long-term [[invest]]ments over short-term gratification
 
-whenever something is [[difficult]], we should ask ourselves _why is this [[difficult]]?_ and _why is it that I want to do this?_. answering these questions allows us to be [[intention]]al with our direction in life and not be manipulated by the short-term desires of our subconscious, see [[subconscious manipulation]]
+whenever something is [[difficult]], we should ask ourselves _why is this [[difficult]]?_ and _why is it that I want to do this?_. answering these questions allows us to be [[intention]]al with our direction in life and not be manipulated by the short-term desires of our subconscious
 
 > **examples** _difficult things --- with [[intention]]al rationale_
 >

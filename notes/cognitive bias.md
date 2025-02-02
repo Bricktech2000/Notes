@@ -10,8 +10,6 @@ _a systematic pattern of deviation from norm or rationality in judgment_
 
 --- <https://youtu.be/VZbYecAkGo0>
 
-**see** [[subconscious manipulation]]
-
 **types**
 
 [[confirmation bias]]

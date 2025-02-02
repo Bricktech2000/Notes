@@ -4,7 +4,7 @@ _the LISP of low-level programming_
 
 > **resource** _Fitting a Forth in 512 bytes_, bootstrapping using Forth --- <https://compilercrim.es/bootstrap/miniforth/> and <https://compilercrim.es/bootstrap/branches/>
 
-> **resource** _JONESFORTH_, literate Forth implementation in x86 assembly --- <https://github.com/nornagon/jonesforth/blob/master/jonesforth.S> and <https://github.com/nornagon/jonesforth/blob/master/jonesforth.f>
+> **resource** _JONESFORTH_, literate Forth implementation in x86 assembly --- [[jonesforth.f]] and [[jonesforth.S]] --- <https://github.com/nornagon/jonesforth/blob/master/jonesforth.S> and <https://github.com/nornagon/jonesforth/blob/master/jonesforth.f>
 
 [[forth]] is a concatenative [[programming language]] that compiles words to threaded code running on a stack machine
 

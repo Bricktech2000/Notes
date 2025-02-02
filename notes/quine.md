@@ -2,7 +2,7 @@
 
 _a program that outputs its own listing_
 
-> **resource** the "de facto" [[quine]] quickstart by David Madore --- <http://www.madore.org/~david/computers/quine.html>
+> **resource** the "de facto" [[quine]] quickstart by David Madore --- [[quine.html]] --- <http://www.madore.org/~david/computers/quine.html>
 
 [[quine]]s are not the result of language-specific hacks; they exist, up to practical interpretation of program output, in every [[turing complete]] [[programming language]] for which there exists a total computable [[function]] that maps programs to their listings, as follows from the _fixed-point theorem_
 
