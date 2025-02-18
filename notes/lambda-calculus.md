@@ -29,9 +29,9 @@ the λ-calculus is a simple [[programming language]] and [[turing complete]] mod
 **see** [[backus--naur form]]
 
 ```bnf
-<expr> ::= <var>                        ; variable
-         | "(" <expr> " " <expr> ")"    ; application
-         | "(" "λ" <var> "." <expr> ")" ; abstraction
+<term> ::= <var>                        ; variable
+         | "λ" <var> "." <term>         ; abstraction
+         | "(" <term> " " <term> ")"    ; application
 <var> ::= (? some lowercase latin letter ?)
 ```
 
@@ -48,9 +48,9 @@ self-application is not typeable in the simply typed λ-calculus. consequently, 
 **see** [[backus--naur form]]
 
 ```bnf
-<expr> ::= <var>                                   ; variable
-         | "(" <expr> " " <expr> ")"               ; application
-         | "(" "λ" <var> ":" <type> "." <expr> ")" ; abstraction
+<term> ::= <var>                                   ; variable
+         | "λ" <var> ":" <type> "." <term>         ; abstraction
+         | "(" <term> " " <term> ")"               ; application
 <var> ::= (? some lowercase latin letter ?)
 <type> ::= <base>                                  ; variable type
          | "(" <type> "->" <type> ")"              ; arrow type
@@ -63,9 +63,9 @@ self-application is not typeable in the simply typed λ-calculus. consequently, 
 
 _variable_ $\displaystyle \frac{x : \sigma \in \Gamma}{\Gamma \vdash x : \sigma}$
 
-_application_ $\displaystyle \frac{\Gamma \vdash e_1 : \sigma \to \tau \quad \Gamma \vdash e_2 : \sigma}{\Gamma \vdash (e_1\ e_2) : \tau}$
-
 _abstraction_ $\displaystyle \frac{\Gamma, x : \sigma \vdash e : \tau}{\Gamma \vdash (\lambda x : \sigma.\ e) : (\sigma \to \tau)}$
+
+_application_ $\displaystyle \frac{\Gamma \vdash e_1 : \sigma \to \tau \quad \Gamma \vdash e_2 : \sigma}{\Gamma \vdash (e_1\ e_2) : \tau}$
 
 --- <https://youtu.be/knD_5pBCmuI?t=621>
 
@@ -86,6 +86,8 @@ _abstraction_ $\displaystyle \frac{\Gamma, x : \sigma \vdash e : \tau}{\Gamma \v
 # Constructions
 
 --- _Church Encoding of Data Types Considered Harmful for Implementations_ <https://ifl2014.github.io/submissions/ifl2014_submission_13.pdf> (though lots of babble and grammar errors and typos)
+
+**see** [[math notation]]
 
 ## Non-Recursive Types
 

@@ -2,6 +2,8 @@
 
 --- me and <https://youtu.be/qqUgl6pFx8Q?t=1139>
 
+--- <https://youtu.be/fQeqsn7JJWA?t=147>
+
 **see** [[encapsulation]], [[generalism]]
 
 [[fact]]s and [[concept]]s lie on a spectrum of [[durability]]. _durable_ ideas are (transitively) underpinned primarily by fundamental aspects of our world. _transient_ ideas, on the other hand, are not---they're artificial

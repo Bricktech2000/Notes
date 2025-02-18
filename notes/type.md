@@ -2,9 +2,9 @@
 
 **see** [[type system]]
 
-> **note** in [[functional programming]], [[type]]s are not [[class]]es. they are simply a [[set]] (assuming [[type]]s are modeled in the [[category]] of [[set]]s) containing all possible values that can be used with a given [[function]]. no behavior is defined in a [[type]]
+--- <https://youtu.be/6hAeJmKXRfo>
 
-as examples, in Haskell, type `Bool` is a two-element [[set]] of `True` and `False` and type `Char` is the [[set]] of all possible [[unicode]] [[character]]s --- <https://youtu.be/aIOMRqiwziM?t=312>
+> **note** in [[functional programming]], [[type]]s are not [[class]]es. they are simply a [[set]] (assuming [[type]]s are modeled in the [[category]] of [[set]]s) containing all possible values that can be used with a given [[function]]. no behavior is defined in a [[type]]
 
 ## Top Type
 
@@ -93,46 +93,13 @@ refinement types may be used to assert pre- and post-conditions at the [[type sy
 
 > **resource** _Domain Modeling Made Functional_, and why [[type#algebraic data type]]s matter --- <https://youtu.be/2JB1_e5wZmU>
 
-> **example** _ADT [[composition]]_
->
-> ```rust
-> struct Payment {
->   amount: PaymentAmount,
->   method: PaymentMethod,
-> };
->
-> enum PaymentAmount {
->   EUR(u32),
->   CAD(u32),
-> };
->
-> enum PaymentMethod {
->   Cash,
->   Check(CheckNumber),
->   CreditCard(CardType, CardNumber),
-> };
->
-> struct CheckNumber(u32);
->
-> struct CardNumber(u32);
->
-> enum CardType {
->   Visa,
->   Mastercard
-> };
-> ```
->
-> --- <https://youtu.be/mRwHZTNGdoY?t=2366>
->
-> --- <https://youtu.be/2JB1_e5wZmU?t=23m46s>
-
 ### Sum Type
 
 **aka** _"or" type_, _"choice" type_, Rust _`enum`_
 
 **properties**
 
-the [[set#cardinality]] of a [[type#sum type]] is the sum of the [[set#cardinality]]es of its constituent [[type]]s
+the [[set#cardinality]] of a [[type#sum type]] is the sum of the [[set#cardinality]]es of its constituent [[type]]s: $|A + B| = |A| + |B|$
 
 ### Product Type
 
@@ -140,4 +107,14 @@ the [[set#cardinality]] of a [[type#sum type]] is the sum of the [[set#cardinali
 
 **properties**
 
-the [[set#cardinality]] of a [[type#product type]] is the product of the [[set#cardinality]]es of its constituent [[type]]s
+the [[set#cardinality]] of a [[type#product type]] is the product of the [[set#cardinality]]es of its constituent [[type]]s: $|A \times B| = |A| \cdot |B|$
+
+## Exponential Type
+
+**aka** _function type_
+
+--- <https://youtu.be/6hAeJmKXRfo?t=322>
+
+the [[set#cardinality]] of a [[type#exponential type]] is the [[set#cardinality]] of its [[function#codomain]] to the power of the [[set#cardinality]] of its [[function#domain]]: $|A \to B| = |B|^{|A|}$ aka $|B^A| = |B|^{|A|}$
+
+> **note** intuitively, to each of the $|A|$ possible inputs we associate one of $|B|$ possible outputs

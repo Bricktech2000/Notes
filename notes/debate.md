@@ -4,7 +4,7 @@
 
 [[debate]]s can benefit from the [[nested conversation structure]]
 
-when engaging in debates it's crucial to think "meta" to avoid getting caught up in thorny bushes. if you know you won't be changing your opinions today then it's unlikely they'll be changing theirs, so take a second for a reality check. debates are not contests
+when engaging in debates it's crucial to reason on a "meta" level to avoid getting caught up in thorny bushes. if you know you won't be changing your opinions today then it's unlikely they'll be changing theirs, so take a second for a reality check. debates are not contests
 
 > **example** Cassie Jaye and The Red Pill --- <https://youtu.be/3WMuzhQXJoY>
 

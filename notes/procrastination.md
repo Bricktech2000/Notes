@@ -1,7 +1,5 @@
 # Procrastination
 
-_it isn't the problem; it's the solution_
-
 --- <https://youtu.be/DMw8G3RPWrQ?t=9233>
 
 --- <https://wiki.healthygamer.gg/en/Procrastination>

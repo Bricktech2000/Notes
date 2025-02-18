@@ -19,15 +19,15 @@ there appears to be a standard way to build contexts in which we do [[mathematic
 > - [[topology]]
 > - [[type theory]]
 > - [[lambda-calculus]]
-> - [[logic]]
+> - [[formal logic]]
 
 ---
 
 [[function]]s and [[type]]s can be viewed as morphisms and objects in a [[category theory]] context
 
-the [[set#empty set]] corresponds to the [[type]] `Void` in Haskell, which corresponds to **`O`** in [[logic]] from a [[category theory]] perspective. when looking at propositions as types, [[function]]s are [[proof]]s. **`O`** cannot be proven, similarly to how a [[function]] that takes `Void` as a parameter cannot be called
+the [[set#empty set]] corresponds to the [[type]] `Void` in Haskell, which corresponds to **`O`** in [[formal logic]] from a [[category theory]] perspective. when looking at propositions as types, [[function]]s are [[proof]]s. **`O`** cannot be proven, similarly to how a [[function]] that takes `Void` as a parameter cannot be called
 
-the [[set#singleton set]] corresponds to the [[type]] `()` (or `Unit`) in Haskell, which corresponds to **`I`** in [[logic]] from a [[category theory]] perspective. when looking at propositions as types, [[function]]s are [[proof]]s. **`I`** can be proven, similarly to how a [[function]] that takes `Unit` as a parameter can be called
+the [[set#singleton set]] corresponds to the [[type]] `()` (or `Unit`) in Haskell, which corresponds to **`I`** in [[formal logic]] from a [[category theory]] perspective. when looking at propositions as types, [[function]]s are [[proof]]s. **`I`** can be proven, similarly to how a [[function]] that takes `Unit` as a parameter can be called
 
 a [[relation]] being a [[relation#reflexive relation]] is equivalent to the presence of identity morphisms in [[category theory]]
 
@@ -55,7 +55,7 @@ absurd function
 
 universal construction:
 
-the _Curry--Howard-Lambek isomorphism_ states that [[logic]], [[type theory]] and some subset of [[category theory]] are all equivalent --- <https://youtu.be/I8LbkfSSR58?t=1681>. see also table at <https://ncatlab.org/nlab/show/relation+between+type+theory+and+category+theory>
+the _Curry--Howard-Lambek isomorphism_ states that [[formal logic]], [[type theory]] and some subset of [[category theory]] are all equivalent --- <https://youtu.be/I8LbkfSSR58?t=1681>. see also table at <https://ncatlab.org/nlab/show/relation+between+type+theory+and+category+theory>
 
 **aka** _#todo Curry--Howard correspondence, propositions as types #xxx see <https://youtu.be/IOiZatlZtGU?t=1490>_
 

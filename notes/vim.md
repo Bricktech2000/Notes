@@ -207,7 +207,7 @@ _a highly customizable text editor with efficient key bindings_
 ## miscellanous
 
 - _n_`K` --- open man page for word under cursor in optional section _n_
-- `<c-g>` - `g<c-g>` --- show some cursor and buffer info
+- `<c-g>` - `g<c-g>` --- show some cursor info and buffer info
 - `gv` --- reselect last **visual** selection
 - `gf` --- find in `'path'` and `:e`dit **file** under cursor
 - `gF` --- find in `'path'` and `:e`dit **file** under cursor at line

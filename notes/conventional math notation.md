@@ -34,7 +34,7 @@
 - $2x = 2 \times x$ whereas $2 \frac 2 3 = 2 + \frac 2 3$, and $-1 \frac 1 4$ might or might not equal $-\frac 5 4$
 - there exists no [[operator]] for unary division
 - there exists no [[operator]] for function application
-- implied multiplication is often informally evaluated before multiplication and division
+- implied multiplication may have higher precedence than multiplication and division
 
 other notations used contextually include:
 

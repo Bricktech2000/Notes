@@ -2,7 +2,7 @@
 
 **see** [[mental illness]]
 
-**definition** _narcissistic personality disorder [...] is a personality disorder characterized by a life-long pattern of exaggerated feelings of self-importance, an excessive need for admiration, and a diminished ability to empathize with other people's feelings_ --- Wikipedia
+**definition** _narcissistic personality disorder (NPD) is a personality disorder characterized by a life-long pattern of exaggerated feelings of self-importance, an excessive need for admiration, and a diminished ability to empathize with other people's feelings_ --- Wikipedia
 
 people with [[narcissistic personality disorder]] have insecure and vulnerable egos and defend themselves using [[projection]] and possibly subsequently [[denial]] --- <https://youtu.be/58kED7LSSBk>. grandiosity, entitlement, arrogance, belittling and domination are [[compensation]] for a fragile self-esteem --- me and <https://youtu.be/eAOWfk5wnMw?t=12m28s>. nicks to their ego, however trivial, can lead to intense rage; they throw tantrums when things don't go their way --- <https://youtu.be/pEyKLMMj-FA>
 
@@ -26,10 +26,12 @@ people with [[narcissistic personality disorder]] have insecure and vulnerable e
 - belittling
 - blame shifting
 - passive aggression
-- emotioal shallowness
+- emotional shallowness
 - superficial charm
 - victimhood
 - self-centeredness
+
+generally charming and charismatic people that occasionally dismiss you or make you feel small should raise suspicions. also, never ever dismiss a genuine accusation of narcissism
 
 ## ---
 

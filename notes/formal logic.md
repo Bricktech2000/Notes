@@ -1,6 +1,4 @@
-# Logic
-
-_mathematical logic_
+# Formal Logic
 
 **see**
 

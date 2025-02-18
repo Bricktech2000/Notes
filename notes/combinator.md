@@ -172,21 +172,15 @@ _applies a [[function]] twice_
 
 ### Y Combinator
 
-_allows for [[lambda-calculus#recursion]]_
-
-_used to formally define recursive [[function]]s in a [[functional programming]] language that does not support [[recursion]]_
-
 **aka** _fixed-point [[combinator]]_, _`fix`_ in Haskell
 
-**equiv** _[[recursion#general recursion]]_
+the [[combinator#y combinator]] lets us use recursion in [[programming language]]s that don't support it, which includes the [[lambda calculus]]
 
 **definition** **`Y = f. (x. f (x x)) (x. f (x x))`**
 
 **definition** _using [[recursion]]_ **`Y = f. f (Y f)`**
 
 **definition** _in the [[lambda-calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
-
-**definition** _using [[combinator]]s_ **``Y = f. (* *) f`(* *)``** #todo id
 
 > **example** $fact = Y\ (\lambda f\ n.\ (is0\ n)\ 1\ (mul\ n\ (f\ (pred\ n))))$ --- <https://crypto.stanford.edu/~blynn/lambda/>
 

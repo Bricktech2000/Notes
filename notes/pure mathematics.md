@@ -16,4 +16,4 @@
 
 [[discrete mathematics]]
 
-[[logic]]
+[[formal logic]]

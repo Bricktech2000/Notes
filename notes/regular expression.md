@@ -12,6 +12,8 @@ _a finite [[string]] denoting a [[formal language#regular formal language]]_
 
 > **resource** CPS-RE, my tiny backtracking [[regular expression]] engine in continuation-passing style --- <https://github.com/Bricktech2000/CPS-RE>
 
+> **resource** _Derivatives of Regular Expressions_ by Janusz A. Brzozowski and _Regular-expression derivatives reexamined_ by Owens, Reppy and Turon --- [[321239.321249.pdf]] and [[re-deriv.pdf]] --- <https://dl.acm.org/doi/pdf/10.1145/321239.321249> and <https://www.ccs.neu.edu/home/turon/re-deriv.pdf>
+
 > **resource** _Regular Expression Matching Can Be Simple And Fast_ by Russ Cox, an intro to [[finite automaton]] [[regular expression]] engines and a manifesto for why there are no good excuses to use backtracking engines --- <https://swtch.com/~rsc/regexp/regexp1.html>
 
 > **resource** _Regular Expression Matching in the Wild_ by Russ Cox, practical tips for writing [[regular expression]] engines --- <https://swtch.com/~rsc/regexp/regexp3.html>
@@ -40,7 +42,7 @@ _identity of alternation_ `r|∅ = r`
 
 _identity of concatenation_ `rε = r`
 
-_anihilation of concatenation_ `r∅ = ∅`
+_annihilation of concatenation_ `r∅ = ∅`
 
 _idempotence of Kleene star_ `r* = r**`
 

@@ -16,6 +16,8 @@
 
 the complement of a [[formal language]] is with respect to the Kleene closure of its alphabet; that is, $\overline L = \Sigma^* \setminus L$. the union of two [[formal language]]s is a [[set#union]], their intersection is a [[set#intersection]], their difference is a [[set#difference]], and their concatenation is their [[string#concatenation]]-[[outer product]]s
 
+**definition** a [[formal language]] is said to be _nullable_ if it contains the empty word
+
 **definition** the _empty word_ is the word $w$ with $|w| = 0$
 
 **notation** _empty word_ typically one of $e$, $\varepsilon$, $\lambda$, $\Lambda$
