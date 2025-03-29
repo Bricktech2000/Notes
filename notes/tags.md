@@ -12,6 +12,6 @@ something to think about or to try to understand better
 
 something that can only be explained through sheer magic
 
-## #example
+## #stub
 
-something used as an example or as a proof to a statement
+a placeholder section used for backlinks

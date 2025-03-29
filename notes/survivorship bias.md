@@ -8,5 +8,5 @@ _focus on the winners_
 
 > **examples**
 >
-> - saying that old buildings were sturdier and more beautiful, except that the ones that were not sturdy or beautiful were torn down
-> - seeing a lot of successful restaurants in a city and concluding that the city is a good place to open a restaurant, except that all the restaurants that failed are not included in the sample
+> - thinking that old buildings were sturdier and more beautiful, not realizing that weaker and uglier buildings have been torn down
+> - seeing a lot of successful restaurants in a city and concluding that the city is a good place to open a restaurant, not realizing that all the restaurants that went bankrupt aren't around for you to see

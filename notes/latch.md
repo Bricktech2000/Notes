@@ -1,6 +1,6 @@
 # Latch
 
-**see** [[logic gate]], [[flip-flop]], [[logic circuit]]
+**see** [[flip-flop]], [[logic circuit]]
 
 all [[latch#types]] can be turned into [[flip-flop]]s and all [[flip-flop#types]] can be turned into [[latch]]es
 
@@ -24,12 +24,12 @@ _set-reset latch_
 
 **representation** _[[truth table]]_
 
-| **`S`** | **`R`** | **`Q`** | comment   |
-| ------- | ------- | ------- | --------- |
-| **`0`** | **`0`** | **`Q`** | no change |
-| **`0`** | **`1`** | **`0`** | reset     |
-| **`1`** | **`0`** | **`1`** | set       |
-| **`1`** | **`1`** | ×       | undefined |
+| $S$ | $R$ | $Q$ | comment   |
+| --- | --- | --- | --------- |
+| $0$ | $0$ | $Q$ | no change |
+| $0$ | $1$ | $0$ | reset     |
+| $1$ | $0$ | $1$ | set       |
+| $1$ | $1$ | --- | undefined |
 
 ## D Latch
 
@@ -37,11 +37,11 @@ _data latch, gated by default_
 
 **representation** _[[truth table]]_
 
-| **`E`** | **`D`** | **`Q`** | comment    |
-| ------- | ------- | ------- | ---------- |
-| **`0`** | ×       | **`Q`** | no change  |
-| **`1`** | **`0`** | **`0`** | data reset |
-| **`1`** | **`1`** | **`1`** | data set   |
+| $E$ | $D$ | $Q$ | comment    |
+| --- | --- | --- | ---------- |
+| $0$ | --- | $Q$ | no change  |
+| $1$ | $0$ | $0$ | data reset |
+| $1$ | $1$ | $1$ | data set   |
 
 ## JK Latch
 
@@ -49,12 +49,12 @@ _same as SR latch, but with undefined states removed_
 
 **representation** _[[truth table]]_
 
-| **`J`** | **`K`** | **`Q`**  | comment   |
-| ------- | ------- | -------- | --------- |
-| **`0`** | **`0`** | **`Q`**  | no change |
-| **`0`** | **`1`** | **`0`**  | reset     |
-| **`1`** | **`0`** | **`1`**  | set       |
-| **`1`** | **`1`** | **`+Q`** | toggle    |
+| $J$ | $K$ | $Q$       | comment   |
+| --- | --- | --------- | --------- |
+| $0$ | $0$ | $Q$       | no change |
+| $0$ | $1$ | $0$       | reset     |
+| $1$ | $0$ | $1$       | set       |
+| $1$ | $1$ | $\lnot Q$ | toggle    |
 
 ## T Latch
 

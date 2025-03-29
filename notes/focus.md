@@ -2,4 +2,4 @@
 
 _concentrating [[psychology]]cally_
 
-used for backlinks
+#stub

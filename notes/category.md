@@ -27,7 +27,7 @@
 |               | [[real]]s                    | no more than               | negative infinity - positive infinity                                   | minimum - maximum                                 |
 |               | [[natural]]s                 | divides                    | natural **`1`** - natural **`0`**                                       | greatest common divisor - least common multiple   |
 
---- <https://ncatlab.org/nlab/show/category> and <https://math.stackexchange.com/questions/414465/initial-and-terminal-objects-in-textbffinvect-r> and <https://en.wikipedia.org/wiki/Join_and_meet> and <https://ncatlab.org/nlab/show/initial+object> and <https://ncatlab.org/nlab/show/terminal+object> and <https://ncatlab.org/nlab/show/top> and <https://ncatlab.org/nlab/show/meet> and <https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence> and <https://en.wikipedia.org/wiki/Lattice_(order)>
+--- <https://ncatlab.org/nlab/show/category> and <https://math.stackexchange.com/questions/414465/initial-and-terminal-objects-in-textbffinvect-r> and <https://en.wikipedia.org/wiki/Join_and_meet> and <https://ncatlab.org/nlab/show/initial+object> and <https://ncatlab.org/nlab/show/terminal+object> and <https://ncatlab.org/nlab/show/top> and <https://ncatlab.org/nlab/show/meet> and <https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence> and <https://en.wikipedia.org/wiki/Lattice_(order)> and <https://youtu.be/yP2RjVD-cZ0?t=3m48s>
 
 ## Object
 
@@ -119,7 +119,7 @@ epimorphisms are [[category#morphism]]s that are surjective, see [[function#surj
 
 **definition** _identities_ are [[category#morphism]]s that [[map]] a [[category#object]] to itself
 
-**notation** _in [[conventional math notation]]_ $1_A : A \to A$ or $\textbf{id}_A : A \to A$
+**notation** _in [[conventional math notation]]_ $1_A : A \to A$ or $\mathbf{id}_A : A \to A$
 
 **notation** _in my [[math notation]]_ **`CC A A "id"_A`**
 
@@ -159,7 +159,7 @@ this leads to the [[category]] of [[category]]es. functors consist of a pair of 
 
 this can be thought of as "reversing the direction" of the "arrows" in the [[category]] diagram
 
-**notation** _in [[conventional math notation]]_ $\mathcal C^{\text{op}}$
+**notation** _in [[conventional math notation]]_ $\mathcal C^{\mathrm{op}}$
 
 **notation** _in my [[math notation]]_ **`rr CC`**
 

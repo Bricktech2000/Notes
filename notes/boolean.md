@@ -77,9 +77,9 @@ in [[conventional math notation]]: $' \cdot + \oplus$
 
 **properties**
 
-## Exclusive OR
+## Symmetric Difference
 
-**aka** _XOR_, _symmetric difference_, _disjunctive union_
+**aka** _exclusive or_, _XOR_, _disjunctive union_
 
 **notation** _in my [[math notation]]_ **`><`** and **`+`**
 
@@ -96,27 +96,27 @@ in [[conventional math notation]]: $' \cdot + \oplus$
 
 ## Implication
 
-**aka** _conditional [[logic statement]]_, _logical consequence_
+**aka** _conditional statement_, _logical consequence_
 
-**definition** if **`x = I`**, then the conditional [[logic statement]] **`x < y`** is said to be _vacuously true_, see [[boolean algebra]]
+**definition** if **`x = I`**, then the conditional statement **`x < y`** is said to be _vacuously true_
 
-**definition** **`+x > +y`** is the _contrapositive_ of the [[logic statement]] **`x < y`**. they are logically equivalent
+**definition** **`+x > +y`** is the _contrapositive_ of the statement **`x < y`**. they are logically equivalent
 
-**definition** **`x > y`** is the _converse_ of the [[logic statement]] **`x < y`**. they are **not** logically equivalent
+**definition** **`x > y`** is the _converse_ of the statement **`x < y`**. they are **not** logically equivalent
 
-**definition** **`+x < +y`** is the _inverse_ of the [[logic statement]] **`x < y`**. they are **not** logically equivalent
+**definition** **`+x < +y`** is the _inverse_ of the statement **`x < y`**. they are **not** logically equivalent
 
-> **note** even though the converse and inverse of a conditional [[logic statement]] are not logically equivalent, the converse of a [[logic statement]] is logically equivalent to the inverse of that [[logic statement]]
+> **note** even though the converse and inverse of a conditional statement are not logically equivalent, the converse of a statement is logically equivalent to the inverse of that statement
 
 **definition**
 
-let **`S < R < Q`** be a [[logic statement]] (square implies rectangle implies quadrilateral). then,
+let **`S < R < Q`** (square implies rectangle implies quadrilateral). then,
 
 **`S`** is said to be a _sufficient condition_ for **`R`**---knowing that **`S`** is true allows the deduction that **`R`** is true
 
 **`Q`** is said to be a _necessary condition_ for **`R`**---for **`R`** to be true, **`Q`** must be true
 
-alternatively, let **`A < B`** be a [[logic statement]]. then,
+alternatively, let **`A < B`**. then,
 
 **`A`** is said to be a _sufficient condition_ for **`B`**
 
@@ -141,7 +141,7 @@ alternatively, let **`A < B`** be a [[logic statement]]. then,
 
 ## Equivalence
 
-**aka** _XNOR_, _double implication_, _equivalence_, _biconditional [[logic statement]]_, _bidirectional implication_
+**aka** _XNOR_, _double implication_, _equivalence_, _biconditional statement_, _bidirectional implication_
 
 **notatio** _in my [[math notation]]_ **`==`** and **`=`**
 

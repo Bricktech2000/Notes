@@ -2,7 +2,7 @@
 
 **see** [[math notation]], [[sequence]], [[calculus notation]]
 
-**definition** a _series_ is the expression representing [[sequence#sum]] [[reduce function]] of all elements of a [[sequence]]
+**definition** a _series_ is the expression representing [[sequence#sum]]-reduce of all elements of a [[sequence]]
 
 **definition**
 
@@ -42,8 +42,6 @@ let **`:b = b^0 : b^1 : b^2 : ...`**. then, **`S_b = (b^0), (b^0 : b^1), (b^0 : 
 **theorem** a [[series]] being _absolutely convergent_ implies it is _convergent_
 
 > **proof** --- <https://youtu.be/7gigNsz4Oe8?t=15557>
-
-> **example** **see** [[series convergence examples]]
 
 ### integral test
 
@@ -121,7 +119,7 @@ the [[series]] corresponding to a [[sequence#arithmetic sequence]]
 
 ## Geometric Series
 
-the [[series]] corresponding to a [[sequence#arithmetic sequence]]
+the [[series]] corresponding to a [[sequence#geometric sequence]]
 
 ### summation formula
 

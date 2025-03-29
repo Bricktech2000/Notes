@@ -2,11 +2,9 @@
 
 **aka** _circular logic_, _begging the question_, _petitio principii_
 
-**see** [[cognitive bias]], [[math notation]]
+**see** [[cognitive bias]]
 
 **definition** _circular reasoning_ is a fallacy in which the reasoner assumes what they are trying to prove. _there is no reason to accept the premises unless already convinced of the conclusion_ --- <https://en.wikipedia.org/wiki/Circular_reasoning>
-
-[[circular reasoning]] is often of the form **`(A -| B < B) /\ (B -| A < A)`**; _**`A`** is true because of **`B`**, and **`B`** is true because of **`A`**_
 
 > **examples** --- <https://www.grammarly.com/blog/circular-argument-fallacy/>
 >

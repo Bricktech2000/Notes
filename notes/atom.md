@@ -1,41 +1,19 @@
 # Atom
 
-used for backlinks
+**see** [[orbital]]
 
-## Properties
+#stub
 
-_[[atom]]ic properties_
+## atomic properties
 
-**see** [[orbital]], [[atom]]
+_electronegativity_ is the tendency of an [[atom]] in a [[bond]] to pull [[electron]]s towards itself. larger on top, right of the periodic table
 
-**see** [[electronegativity]]
+_atomic radius_ is the radius of the [[atom]]. larger on the left, bottom of the periodic table
 
-### Atomic Radius
+_ionization energy_ is the amount of [[energy]] required to remove one [[electron]] from a neutral [[atom]] in the gas [[phase]]. larger on the top, right of the periodic table
 
-_the radius of the [[atom]]_
+_electron affinity_ is the amount of [[energy]] required or released to add one [[electron]] to a neutral [[atom]] in the gas [[phase]]. not as regular as other [[atom]]ic properties larger on the top, right of the periodic table
 
-larger on the left, bottom of the periodic table
+_atomic number_ is the number of [[proton]]s in the nucleus of an [[atom]]
 
-### Ionization Energy
-
-_the amount of [[energy]] required to remove one [[electron]] from a neutral [[atom]] in the gas [[phase]]_
-
-larger on the top, right of the periodic table
-
-### Electron Affinity
-
-_the amount of [[energy]] required or released to add one [[electron]] to a neutral [[atom]] in the gas [[phase]]_
-
-not as regular as other [[atom]]ic properties
-
-larger on the top, right of the periodic table
-
-### Atomic Number
-
-the number of [[proton]]s in the nucleus of an [[atom]]
-
-### Atomic Mass
-
-includes [[proton]]s, [[neutron]]s and [[electron]]s
-
-> **note** more often than not, the [[mass]] of [[electron]]s is negligible
+_atomic mass_ is the mass of an [[atom]], including [[proton]]s, [[neutron]]s and [[electron]]s. though often, the [[mass]] of [[electron]]s is negligible

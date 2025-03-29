@@ -1,8 +1,8 @@
 # Price--Value Sigmoid
 
-**see** [[math notation]], [[sigmoid function]], [[diminishing returns]]
+**see** [[math notation]], [[activation function#sigmoid]], [[diminishing returns]]
 
-the price-to-value relationship for a given product can be represented on the graph of a [[sigmoid function]] --- me
+the price-to-value relationship for a given product can be represented on the graph of a [[activation function#sigmoid]] --- me
 
 **representation**
 

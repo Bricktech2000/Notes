@@ -4,4 +4,4 @@
 
 **see** [[math notation]]
 
-**notation** _[[international system of units]]_ $\text{mol}$
+**notation** _[[international system of units]]_ $\mathrm{mol}$

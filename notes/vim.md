@@ -31,15 +31,14 @@ _a highly customizable text editor with efficient key bindings_
 - `A` --- insert [[vim#mode]] **after** end of line
 - `o` --- insert [[vim#mode]] on **opened** line below
 - `O` --- insert [[vim#mode]] on **opened** line above
-- `gi` --- insert [[vim#mode]] at the position the last insert was stopped
+- `gi` --- **insert** [[vim#mode]] at the position the last insert was stopped
+- `gv` --- **visual** [[vim#mode]] reselecting the last selection
 
 ## Operator
 
-- `u` --- **undo**
-- `<c-r>` --- **redo**
-- `g+` --- go to newer text state in [[undo tree]]
-- `g-` --- go to older text state in [[undo tree]]
-- `.` --- repeat
+- `.` --- repeat last change
+- `u` - `<c-r>` --- **undo** and **redo**
+- `g+` - `g-` --- go to newer/older text state in [[undo tree]]
 - `r` --- **replace** character
 - `J` --- **join** current line with next
 - `gJ` --- **join** current line with next, without adding or removing whitespace
@@ -75,10 +74,8 @@ _a highly customizable text editor with efficient key bindings_
 - `>>` --- indent line
 - `<<` --- unindent line
 - `==` --- reindent line
-- `<c-a>` --- increment number under or after cursor
-- `<c-x>` --- decrement number under or after cursor
-- v`g<c-a>` --- incrementally increment numbers in visual selection
-- v`g<c-x>` --- incrementally decrement numbers in visual selection
+- `<c-a>` - `<c-x>` --- increment/decrement number under or after cursor
+- v`g<c-a>` - v`g<c-x>` --- incrementally increment/decrement numbers in visual selection
 
 ## Register
 
@@ -93,8 +90,7 @@ _a highly customizable text editor with efficient key bindings_
 
 ## Motion
 
-- `<c-o>` --- jump back in jump list
-- `<c-i>` --- jump forward in jump list
+- `<c-o>` - `<c-i>` --- jump backward/forward in jump list
 - `<c-^>` --- toggle between most recent two files
 - `m`_m_ --- set local [[vim#mark]] _m_
 - `m`_M_ --- set global [[vim#mark]] _M_
@@ -102,13 +98,14 @@ _a highly customizable text editor with efficient key bindings_
 - `'`_m_ --- jump to line containing [[vim#mark]] _m_
 - `%` --- jump between `'matchpairs'` and [[c#preprocessor]] conditionals
 - v`o` - v`O` --- jump to other end of visual selection
+- `<bs>` - `<space>` --- same as `h` and `l` but included in `'whichwrap'`
 - _n_`gg` - _n_`G` --- **goto** line number _n_
 - _n_`|` --- jump to column number _n_
 - _n_`go` --- jump to byte **offset** _n_ in buffer
 
   > **resource** _Byte Positions Are Better Than Line Numbers_, by Casey Muratori --- <https://www.computerenhance.com/p/byte-positions-are-better-than-line>
 
-  > **note** use `go` to go to first byte of file
+  > **note** use `go` to go to first byte of file. `gg` won't go to first byte when `'nostartofline'`
 
 |              | next | prev | start | mid   | end  |
 | ------------ | ---- | ---- | ----- | ----- | ---- |
@@ -133,7 +130,7 @@ _a highly customizable text editor with efficient key bindings_
 - `''` --- [[vim#mark]] to last jump
 - `'.` --- [[vim#mark]] to last change made
 - `'"` --- [[vim#mark]] to cursor position when last exiting buffer
-- `'<` - `'>` --- [[vim#mark]] to beginning and end of last selection
+- `'<` - `'>` --- [[vim#mark]]s to beginning and end of last selection
 
 ## Text Object
 
@@ -145,7 +142,7 @@ _a highly customizable text editor with efficient key bindings_
 | **paragraph**   | `ip`                   | `ap`                   |
 | `<tag>` **tag** | `it`                   | `at`                   |
 | `()` **block**  | `ib` - `i(` - `i)`     | `ab` - `a(` - `a)`     |
-| `{}` **Block**  | `iB` - `i{` - `i}`     | `aB` - `a{` - `a}`     |
+| `{}` **BLOCK**  | `iB` - `i{` - `i}`     | `aB` - `a{` - `a}`     |
 | `` "'` ``       | `i"` - `i'` - `` i` `` | `a"` - `a'` - `` a` `` |
 | `[]`            | `i[` - `i]`            | `a[` - `a]`            |
 | `<>`            | `i<` - `i>`            | `a<` - `a>`            |
@@ -161,13 +158,15 @@ _a highly customizable text editor with efficient key bindings_
 
 ## Search
 
+- c`<c-g>` - c`<c-t>` --- cycle through `'incsearch'` results
+- `gn` - `gN` --- visually select **next**/previous match, applying an operator if one is pending
 - `:fin` _file_ --- **find** _file_ in `'path'` then `:e`dit it
   > **note** use `set wildmenu path+=**` to turn `:fin` into a fuzzy finder --- <https://youtu.be/XA2WjJbmmoM?t=6m44s>
 - `:vim/`_re_`/`_files_ --- grep for [[regular expression]] _re_ in _files_ into [[vim#quickfix]] list
   > **note** use `:vim/`_re_`/**` to grep recursively from working directory
 - `:`_r_`g/`_re_`/d` --- delete lines matching _re_ in [[vim#range]] _r_
 - `:`_r_`v/`_re_`/d` --- delete lines not matching _re_ in [[vim#range]] _r_
-- `:`_r_`s/`_re_`/`_str_`/g` --- substitute all accurences of _re_ for _str_ in [[vim#range]] _r_
+- `:`_r_`s/`_re_`/`_str_`/g` --- substitute all occurences of _re_ for _str_ in [[vim#range]] _r_
 
 |                                      | forward    | backward   | next | prev |
 | ------------------------------------ | ---------- | ---------- | ---- | ---- |
@@ -180,10 +179,12 @@ _a highly customizable text editor with efficient key bindings_
 
 - `:cope` --- **open** [[vim#quickfix]] window
 - `:ccl` --- **close** [[vim#quickfix]] window
-- `:cfir` --- jump to **first** [[vim#quickfix]] item
-- `:cla` --- jump to **last** [[vim#quickfix]] item
+- `:cr` --- **rewind** to first [[vim#quickfix]] item
 - `:cn` --- jump to **next** [[vim#quickfix]] item
 - `:cp` --- jump to **previous** [[vim#quickfix]] item
+- `:chi` --- display [[vim#quickfix]] list **history**
+- `:col` --- go to **older** [[vim#quickfix]] list in history
+- `:cnew` --- go to **newer** [[vim#quickfix]] list in history
 
 > **note** use `@:` to repeat `:cn`s and `:cp`s
 
@@ -194,8 +195,8 @@ _a highly customizable text editor with efficient key bindings_
 - `0w` --- jump to first non-blank character of line
 - `cgn` --- **change next** [[vim#search]] match
 - `dgn` --- **delete next** [[vim#search]] match
-- `Jx` --- **join** lines without a space
-- `Jde` --- **join** lines removing leading characters
+- `Jx` --- **join** lines, removing leading whitespace
+- `Jde` --- **join** lines, removing leading characters
 - `xp` --- swap character with next
 - `ddp` --- swap current line with next
 - `r<cr>` --- split line at cursor
@@ -208,13 +209,12 @@ _a highly customizable text editor with efficient key bindings_
 
 - _n_`K` --- open man page for word under cursor in optional section _n_
 - `<c-g>` - `g<c-g>` --- show some cursor info and buffer info
-- `gv` --- reselect last **visual** selection
 - `gf` --- find in `'path'` and `:e`dit **file** under cursor
 - `gF` --- find in `'path'` and `:e`dit **file** under cursor at line
 - `gx` --- open file under cursor in **external** program (requires netrw)
 - `gd` --- jump to local **definition** under cursor
 - `gD` --- jump to global **declaration** under cursor
-- `ga` --- **get [[ascii]]** value and metadata for char under cursor
+- `ga` --- **get [[ascii]]** value and other metadata for char under cursor
 - `g8` --- **get [[utf-8]]** bytes for char under cursor
 - `:!`_cmd_ --- show output of shell command _cmd_
 - `!!`_cmd_ --- filter current line through shell command _cmd_
@@ -226,7 +226,8 @@ _a highly customizable text editor with efficient key bindings_
 - `<c-w>w` --- jump to next **window**
 - `<c-w>o` --- make current window the **only** one on screen
 - `<c-w>q` --- **quit** current window
-- i`<c-n>` - i`<c-p>` --- autocomplete word under cursor
+- i`<c-n>` - i`<c-p>` --- autocomplete word under cursor with **next**/**previous** match
+- i`<c-e>` --- abort an autocompletion (see `:h ins-compl`)
 - i`<c-v>` --- insert next keystroke **verbatim**
 - i`<c-k>` --- insert a `:dig!`raph
   > **note** useful digraphs worth memorizing: `“”‘’…•‾–—   §¶ °′″‴ ×÷−±√≡≤≥≠∅∞ ∃∀∧∨¬ αβγ ½⅔¾₀₁₂⁰¹²` (use `ga` to see the digraph)

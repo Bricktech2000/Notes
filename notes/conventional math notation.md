@@ -4,8 +4,6 @@
 
 **tradeoffs**
 
-[[conventional math notation]] is full of _special-case the simplest use-case_; it is [[invent]]ed, not [[discover]]ed
-
 [[conventional math notation]] is [[flawed but established]]
 
 - $\sqrt{}$ is not the inverse of $^2$ as it only yields the principal root
@@ -49,4 +47,4 @@ other notations used contextually include:
 
 --- _The notational conventions I adopted, and why_, by Edsger W. Dijkstra --- <https://www.cs.utexas.edu/users/EWD/transcriptions/EWD13xx/EWD1300.html> --- Ben Burk
 
-_mathematical notation is both awful, and it turns out ambiguous, and, to be perfectly honest, impressionistic_ --- <https://youtu.be/HB5TrK7A4pI?t=1058>. the purpose of notation is efficient communication---it's the minimal amount of information needed to get an idea across---and so it is only natural that the result be impressionistic scribbles, and that's okay
+_mathematical notation is both awful, and it turns out ambiguous, and, to be perfectly honest, impressionistic_ --- <https://youtu.be/HB5TrK7A4pI?t=1058>. the purpose of notation is efficient communication---it's the minimal amount of information needed to get an idea across---and so it is only natural that the result be impressionistic scribbles, and that's okay. ultimately, mathematical notation is a natural language

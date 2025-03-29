@@ -4,7 +4,8 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 
 ## markup
 
-- [[markdown]] is used **exclusively** semantically; a [[markdown]] element is never to be used for styling purposes
+- [[markdown]] markup is used exclusively semantically; a [[markdown]] element is never to be used for styling purposes
+- [[markdown]] paragraphs are not to be hard wrapped
 - custom [[markdown]] syntax, ``**`...`**``, is used for all mathematical equations through my custom [[math notation]]
 - [[variable]]s in equations are defined in separate lines using a `, where` statement followed by a [[markdown]] list
 - [[international system of units]] units and chemical elements in equations are to be written within `"`. a space is to be added before a unit
@@ -12,12 +13,14 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 - bold indicates emphasis; italics are not to be used for emphasis
 - quotation marks indicate non-standard or informal usage of a word or phrase; quotation marks are not to be used for direct quotations
 - `--- ...` statements are used for citing sources
-- non-[[ascii]] [[character]]s are inserted verbatim; HTML entities `&...;` are never used
+- non-[[ascii]] [[character]]s are inserted verbatim; HTML entities `&...;` are not to be used. headings must be 7-bit [[ascii]]
 - all internal links are denoted using `[[note]]` and `![[image.png]]` [[wikilink]]s, and all external links are denoted using `<https://example.com/>`. bare URLs are to be avoided
 
 ## headings
 
-- title[[case]] headings are for [[concept]]s that can be linked to using [[wikilink#anchor wikilink]]s and lowercease headings are for general titles
+- headings must be 7-bit [[ascii]]
+
+- title[[case]] headings are for [[concept]]s that can be linked to using [[wikilink#anchor wikilink]]s and lower[[case]] headings are for everything else
 
 - some constructs, such as definitions and proofs, are very common. they are to be written as follows in [[markdown]]:
 
@@ -54,15 +57,14 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 
 - [[wikilink]]s are generally avoided in headings
 - a page can link to itself
-- most [[fact]]s, opinions and judgements are accompanied by their source and not solely stated as absolute truths
-- line breaks are used exclusively semantically and never to make the [[markdown]] source more readable
+- most [[fact]]s, opinions and judgements are accompanied by an attribution
 - horizontal rules are occasionally used to separate one file into different sections
 - each page has one title[[case]] first-level heading, which must correspond to the file name. occasional subsequent first-level headings must be preceded by a horizontal rule
-- note names are reduced to their simplest form. they are mostly singular nominal groups, and sometimes adjectives when more appropriate. diacritics are removed from them
-- file names are lower[[case]]. diacritics are removed from them
+- note names are reduced to their simplest form. they are mostly singular nominal groups, and sometimes adjectives when more appropriate
+- file names are lower[[case]]. they must be 7-bit [[ascii]], like headings
 - "lax" syntax and punctuation is used; that is,
   - the first word of a sentence is not capilatized
-  - full stops separate sentences; they do not end them
+  - full stops are sentence separators, not sentences terminators
 
 ## syntax used
 

@@ -4,8 +4,6 @@
 
 --- <https://youtu.be/6hAeJmKXRfo>
 
-> **note** in [[functional programming]], [[type]]s are not [[class]]es. they are simply a [[set]] (assuming [[type]]s are modeled in the [[category]] of [[set]]s) containing all possible values that can be used with a given [[function]]. no behavior is defined in a [[type]]
-
 ## Top Type
 
 --- <https://en.wikipedia.org/wiki/Top_type>

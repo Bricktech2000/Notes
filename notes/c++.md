@@ -2,34 +2,43 @@
 
 _bloated [[c]]... but with [[class]]es!_
 
-**see** [[c]], [[object-oriented programming]], [[math notation]]
+**see** [[c]], [[object-oriented programming]]
 
 ## an improper superset
 
 --- <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++> --- <https://stackoverflow.com/questions/3777031/what-prevents-c-from-being-a-strict-superset-of-c>
 
-[[c++]] is not a [[set#superset]] of [[c]]; that is, **`>< /\ "C++" |- "C"`**
+--- <https://youtu.be/ieERUEhs910>
 
-> **examples** _valid [[c]] but invalid [[c++]]; that is, elements of **`"C" /\ +"C++"`**_
+[[c++]] is not a [[set#superset]] of [[c]]
+
+> **examples** _valid [[c]] but invalid [[c++]]_
 >
 > ```c
 > // implicit conversion from `void*`
-> void *p;
-> int *i = p;
+> int *i = malloc(sizeof(int));
 >
-> // multiple tentative definitions of a single global variable
-> int N;
-> int N = 10;
->
-> // declaring a type with the same name as an existing tag
-> enum BOOL {FALSE, TRUE};
+> // the tag namespace
+> enum BOOL { FALSE, TRUE };
 > typedef int BOOL;
 >
-> // designated initializers
+> // compound literals
+> func((int []){7, 8, 4});
+>
+> // designated initializers for arrays
 > char s[20] = { [0] = 'a', [8] = 'g' };
 >
-> // using any reserved C++ keyword as an identifier
+> // C++ keywords as identifiers
 > int new = 0;
+>
+> // flexible array members
+> struct { int size; char data[]; };
+>
+> // variable-length arrays
+> int n = 5, arr[n];
+>
+> // `restrict` type qualifier
+> char *strcpy(char *restrict s1, const char *restrict s2);
 > ```
 
 ## duck typing
@@ -41,9 +50,9 @@ _bloated [[c]]... but with [[class]]es!_
 > ```cpp
 > // to be compiled with `g++ -std=c++20`
 >
-> #include<string>
-> #include<iostream>
-> #include<filesystem>
+> #include <string>
+> #include <iostream>
+> #include <filesystem>
 >
 > using namespace std::filesystem;
 >

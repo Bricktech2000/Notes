@@ -30,13 +30,9 @@ files below are based on [[conceptual note-taking]], a system in which atomic no
 
 ---
 
-#xxx logic
+#xxx logic; currently at [[propositional logic#resolution]] for rewatch
 
-#xxx during rewatch, make sure to define what a model is
-
-_models_ (assignment of truth values to symbols)
-_resolution_ is an inference rule that is both sound and complete
-a clause is a disjunction of a bunch of literals (literals are symbol and ¬symbol) --- <https://youtu.be/egLAF4dFdBo?t=326>
+a _clause_ is a disjunction of a bunch of literals (literals are symbol and ¬symbol) --- <https://youtu.be/egLAF4dFdBo?t=326>
 
 | formulas allowed                           | inference rule | soundness | completeness |
 | ------------------------------------------ | -------------- | --------- | ------------ |
@@ -46,7 +42,7 @@ a clause is a disjunction of a bunch of literals (literals are symbol and ¬symb
 
 --- <https://youtu.be/egLAF4dFdBo?t=92>
 
-#xxx src for unification and substitution (_how GHC's type inference engine actually works_ by Simon Peyton Jones): <https://youtu.be/-TJGhGa04F8>. probably want to cross-reference with `learn hindley-milner.md` in calendar and with <https://terramorpha.github.io/blog.Sequent.html>
+#xxx src for unification and substitution (_how GHC's type inference engine actually works_ by Simon Peyton Jones): <https://youtu.be/-TJGhGa04F8>. probably want to cross-reference with `learn hindley-milner.md` in calendar ~~and with <https://terramorpha.github.io/blog.Sequent.html>~~
 
 ---
 

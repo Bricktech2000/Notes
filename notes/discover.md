@@ -6,7 +6,7 @@
 
 when building upon strong foundations, [[discover]]y becomes more effective, and [[invent]]ion becomes unnecessary. the [[abstraction]]s resulting from [[discover]]y are deep and flexible whereas those resulting from [[invent]]ion are rigid and brittle
 
-syntax sugar in [[programming language]]s is [[invent]]ed convenience for the [[discover]]ed, which explains why the phrase _it's just syntax sugar for [...]_ generally has a positive connotation
+> **example** syntax sugar in [[programming language]]s is [[invent]]ed convenience for the [[discover]]ed
 
 > **examples**
 >

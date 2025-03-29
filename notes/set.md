@@ -6,7 +6,7 @@
 
 **definition** a _set_ is an unordered collection of elements, each of which are unique
 
-**definition** _formally in my [[math notation]]_ a [[set]] is a [[set theory]]etical [[function]] that takes an element and returns whether it is a member of the [[set]]. that ys, [[set]]s are [[predicate]]s
+**definition** _formally in my [[math notation]]_ a [[set]] is a [[set theory]]etical [[function]] that takes an element and returns whether it is a member of the [[set]]. that is, [[set]]s are [[predicate]]s
 
 **notation** _set roster notation_ **`S = {{1, 2, 3}}`**
 

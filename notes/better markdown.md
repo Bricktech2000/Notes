@@ -1,6 +1,6 @@
 # Better Markdown
 
-this [[better markdown]] idea is meant to address the main shortcoming of [[markdown]] in my opinion: inconsistency. formal markup doesn't have to be verbose and lightweight markup doesn't have to be informal; see also RFC 7764 $1.1 'On Formats' <https://www.rfc-editor.org/rfc/rfc7764.html#section-1.1>. [[markdown]] is human-first while [[better markdown]] is machine-first
+this [[better markdown]] idea is meant to address the main shortcoming of [[markdown]] in my opinion: inconsistency. formal markup doesn't have to be verbose and lightweight markup doesn't have to be informal; see also RFC 7764, $1.1 'On Formats' <https://www.rfc-editor.org/rfc/rfc7764.html#section-1.1>. [[markdown]] is human-first while [[better markdown]] is machine-first
 
 in [[better markdown]],
 
@@ -14,6 +14,8 @@ _a [[markdown]]-formatted document should be publishable as-is, as plain text, w
 ## syntax
 
 #todo complete
+
+#xxx look into <https://github.com/nvim-neorg/norg-specs/blob/main/1.0-specification.norg>
 
 #todo rewrite everything above (and excluding) `<block-specifier>` as none of it makes much sense
 

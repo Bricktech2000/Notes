@@ -1,5 +1,7 @@
 # Melody
 
+**see** [[math notation]]
+
 **definition** a _melody_ is a [[sequence]] of [[frequency]]es over [[time]] perceived as a single entity
 
 **properties**

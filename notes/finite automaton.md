@@ -2,7 +2,7 @@
 
 **aka** _finite state machine_, _FSM_, _finite state automaton_, _FSA_
 
-**see** [[math notation]], [[state table]], [[state diagram]]
+**see** [[math notation]]
 
 **definition** a _finite automaton_ is a finite [[graph]] whose edges are [[set]]s of _symbols_ representing possible _state transitions_. **`M S T s`** represents whether automaton **`M`** can transition from state **`S`** to state **`T`** given symbol **`s`**
 

@@ -70,19 +70,19 @@ directionality can be "forgotten" by taking the [[relation#symmetric closure]] o
 
 as every edge connects two vertices, the sum of the [[graph#vertex degree]]s of all vertices of a [[graph]] is an [[even number]]. if this is not the case, the [[graph]] is not a [[graph]] as at least one of its edges is not connected to two vertices
 
-## Euler Path
+## Eulerian Path
 
-## Euler Circuit
+## Eulerian Cycle
 
-**definition** an _Euler path_ is a path traversing every edge of a [[graph]] exactly once
+**definition** an _Eulerian path_ is a path traversing every edge of a [[graph]] exactly once
 
-**definition** an _Euler circuit_ is an _Euler path_ that is a _cycle_
+**definition** an _Eulerian cycle_ is an _Eulerian path_ that is a _cycle_
 
-when visiting a vertex in a [[graph#euler path]] or [[graph#euler circuit]], one edge is used to go to the vertex and another edge is used to leave it. from this fact the following theorems are derived:
+when visiting a vertex in a [[graph#eulerian path]] or [[graph#eulerian cycle]], one edge is used to enter the vertex and another is used to leave it. thus:
 
-**theorem** a [[graph]] has an _Euler path_ if and only if exactly zero or exactly two of its vertices have an [[odd number]] [[graph#vertex degree]]
+**theorem** a [[graph]] has an _Eulerian path_ if and only if exactly zero or exactly two of its vertices have an [[odd number]] [[graph#vertex degree]]
 
-**theorem** a [[graph]] has an _Euler circuit_ if and only if every vertex has an [[even number]] [[graph#vertex degree]]
+**theorem** a [[graph]] has an _Eulerian cycle_ if and only if every vertex has an [[even number]] [[graph#vertex degree]]
 
 ## Adjacency Matrix
 

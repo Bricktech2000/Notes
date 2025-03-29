@@ -337,25 +337,35 @@ a [[matrix]] is _diagonalizable_ if and only if the geometic [[eigen#multiplicit
 
 **theorem**
 
-let **`MM^m,n A`**. the following [[logic statement]]s are equivalent:
+let **`MM^m,n A`**. the following statements are equivalent:
 
 - every [[variable]] is a leading [[variable]]
-- there is a leading [[variable]] in every column of the [[linear system#reduced row echelon form]] of **`A`**
+- there is a leading **`1`** in every column of the [[linear system#reduced row echelon form]] of **`A`**
 - the system **`Ax = O`** has a unique solution
 - the columns of **`A`** are [[vector#linearly independent vector]]s
 - **`NN A = {{O}}`**
 - **`"dim" NN A = 0`**
 - **`"rank" A = n`**
 
+> **proof** each statement in the cycle implies the next:
+>
+> - each column represents a [[variable]]. every [[variable]] is a leading variable -> there is a leading **`1`** in each column of the [[linear system#reduced row echelon form]] of **`A`**
+> - **`Ax = O`** is homogeneous -> the [[linear system]] is consistent. no free [[variable]]s -> there cannot be infinitely many solutions -> it must have a single solution
+> - **`Ax = O`** has a unique solution -> **`x = O`** -> **`A^*,j x^j : ... A^*,j x^j = O`** has a unique solution (all coefficients are **`0`**) -> the columns of **`A`** are [[vector#linearly independent vector]]s
+> - the columns of **`A`** are [[vector#linearly independent vector]]s -> **`Ax = O`** has a unique solution (**`x = O`**) -> the [[matrix#null space]] of **`A`** is the [[set]] containing the zero [[vector]]
+> - the [[matrix#null space]] of **`A`** is the zero space -> the [[vector space#dimension]] of the zero space is **`0`**
+> - **`"dim" NN A : "rank" A = "number of columns in" A`** (see [[matrix]]) -> as **`"dim" NN A = 0`**, **`"rank" A = "number of columns in" A = n`**
+> - the [[matrix#rank]] of a [[matrix]] is the number leading [[variable]]s in the matrix. **`"rank" A = n`** and **`A`** has **`n`** columns -> every [[variable]] is a leading variable
+
 **see** [[linear system theorem proof]]
 
 **theorem**
 
-let **`MM^n,n A`**. the following [[logic statement]]s are equivalent:
+let **`MM^n,n A`**. the following statements are equivalent:
 
-> **note** all [[logic statement]]s below are valid for both **`A`** and **`rr A`**, see [[matrix#transpose]]
+> **note** all statements below are valid for both **`A`** and **`rr A`**, see [[matrix#transpose]]
 
-> **note** thinking of [[matrix]]es as [[linear transformation]]s makes the following [[logic statement]]s extremely intuitive
+> **note** thinking of [[matrix]]es as [[linear transformation]]s makes the following statements extremely intuitive
 
 - **`"rank" A = n`**
 - every [[linear system]] of the form **`Ax = b`** has a unique solution

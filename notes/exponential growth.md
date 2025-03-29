@@ -4,7 +4,7 @@ _our inability to intuitively understand [[exponential growth]]_
 
 **see** [[exponent]], [[math notation]]
 
-[[line]]ar growth is intuitive to us, but [[exponent]]ial growth is incomprehensible to us. our [[brain]]s just didn't evolve an intuition for [[exponential growth]] because it wasn't needed for survival
+linear growth is intuitive, but exponential growth is not. our brain didn't evolve an intuition for [[exponential growth]] because it wasn't needed for survival
 
 > **examples**
 >

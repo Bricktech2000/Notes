@@ -161,6 +161,10 @@ which would get compiled into:
 
 this is an efficient method for **recording data completely independently from how it is to be analyzed**. then, use a language model to perform queries. finally, send to data viz / data analysis library such as pandas, see <https://youtu.be/FbBXtqtRnWU> for examples
 
+### shorts dating app
+
+a dating app where your profile is a 1-minute video of you presenting yourself and you swipe on other people's videos. hopefully less superficial but just as frictionless?
+
 ---
 
 ```lua
@@ -184,7 +188,7 @@ energy-momentum relation: $E2 = [pc]2 : [m_0 c2]2$
 
 ---
 
-if the number of nodes of a complete binary tree is $2^k - 3$, then the number of nodes in the full binary tree excluding its last layer is $2^{k - 1} - 1$. computing the difference, we get $2^{k - 1} - 2$ nodes on the last layer of the tree. given that the number of leaf nodes in the full binary tree of the same height as the complete binary tree is $2^{k - 1}$, we deduce that there are two nodes missing on the last layer of the complete binary tree. the two nodes missing on the last layer have a common parent node that is a leaf, and so the number of leaf nodes of the complete binary tree is $2^{k - 1} - 1$
+if the number of nodes of a complete binary tree is $2^k - 3$, then the number of nodes in the full binary tree excluding its last layer is $2^{k - 1} - 1. computing the difference, we get $2^{k - 1} - 2$ nodes on the last layer of the tree. given that the number of leaf nodes in the full binary tree of the same height as the complete binary tree is $2^{k - 1}$, we deduce that there are two nodes missing on the last layer of the complete binary tree. the two nodes missing on the last layer have a common parent node that is a leaf, and so the number of leaf nodes of the complete binary tree is $2^{k - 1} - 1$
 
 ---
 
@@ -959,6 +963,8 @@ $n \mapsto \sum_{k=1}^n \log k$
 
 ---
 
+(not kept up to date)
+
 ```mermaid
 graph LR
   RE --ltre_parse--> NFA --ltre_compile--> DFA
@@ -971,6 +977,12 @@ graph LR
   DFA --ltre_matches--> A( )
   NFA --ltre_matches_lazy--> B( )
 ```
+
+---
+
+(bad $\lor\text{-elim}$ rule)
+
+$$\frac{\Gamma \vdash P \lor Q \quad \Gamma, P \vdash R}{\Gamma \vdash R} \quad \frac{\Gamma \vdash P \lor Q \quad \Gamma, Q \vdash R}{\Gamma \vdash R}$$
 
 ---
 
@@ -1108,7 +1120,7 @@ $a'b$ $a`b$ $a | b$ $a \backslash b$
 
 **`$ r. ttr = $ (tt') = r. ttr2-2`**
 
-$\int\ r. \tau r = \int\ (\tau') = r. \tau r2\text-2$
+$\int\ r.\ \tau r = \int\ (\tau') = r. \tau r2\text-2$
 
 **`$(.) = {|}`**
 

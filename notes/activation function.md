@@ -1,10 +1,17 @@
 # Activation Function
 
+**see** [[function]], [[neural network]]
+
 ## Sigmoid Function
 
-**see** [[sigmoid function]]
+> **note** using the sigmoid function as an [[activation function]] is old school. the [[activation function#relu function]] is now preferred --- <https://youtu.be/aircAruvnKk?t=1034>
 
-> **note** using the [[sigmoid function]] as an [[activation function]] is old-school. the [[activation function#relu function]] is now preferred --- <https://youtu.be/aircAruvnKk?t=1034>
+**definition**
+
+```python
+def sigmoid(x):
+  return 1 / (1 + np.exp(-x))
+```
 
 ## ReLU Function
 
@@ -14,37 +21,28 @@ _preferred activation function_
 
 **definition**
 
-**`"ReLU" z = 0 ^^ z`**
-
 ```python
-def ReLU(x):
+def relu(x):
   return np.maximum(0, x)
 ```
 
 --- <https://www.sharpsightlabs.com/blog/numpy-relu/>
 
-**representation**
-
-![[20220628163633.png]]
-
 ## Tanh Function
 
-_for getting values between **`..1`** and **`1`**_
+_for getting values in $[-1, 1]$_
 
 **see** [[hyperbolic function]]
 
 **definition**
 
-**`"TANH" z = "tanh" z`**
-
 ```python
-def TANH(x):
+def tanh(x):
+  e_2x = np.exp(2 * x)
+  return (e_2x - 1) / (e_2x + 1)
+  # or equivalently
   return np.tanh(x)
 ```
-
-**representation**
-
-![[20220629115711.png]]
 
 ## Softmax Function
 
@@ -56,4 +54,9 @@ _for getting a [[probability distribution]] out_
 
 **definition**
 
-**`ss z = {*-:} [z]`** #todo id
+```python
+def softmax(x):
+  return np.exp(x) / sum(np.exp(x))
+```
+
+--- <https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.softmax.html>

@@ -1,6 +1,6 @@
 # Nonverbal
 
-**aka** _nonverbal communication_
+_nonverbal communication_
 
 **see** [[verbal]]
 
@@ -24,6 +24,22 @@ many behaviors seem to consist of some sort of accidental overcompensation. thin
 > - micromanaging employees --- a good leader does not have to micromanage their team to get things done
 > - cleaning before hosting --- a clean individual does not need to clean their house before guests arrive
 > - mentioning [[intelligence]] --- an intelligent person does not need to mention their intelligence to be respected
+
+#xxx
+
+people who accomplish don't talk about what gonna do (also mentioned in [[motivation]]; talk the talk, walk the walk)
+talented people don't need to (over)sell themselves
+powerful people don't have to shout to be heard
+successful people don't need to bost about accomplishments
+people who know their value don't need to prove their value
+people who get things done #xxx
+someone that values effort and self-improvement doesn't need to keep announcing it
+boasting about accomplishments --- a successful person does not need to boast about their accomplishments to be respected
+humiliating students --- a competent teacher does not have to humiliate their students to assert their authority
+micromanaging employees --- a good leader does not have to micromanage their team to get things done
+cleaning before hosting --- a clean individual does not need to clean their house before guests arrive
+_that's why you need all of this [...]. you have no real power_ --- Wicked (from the movie)
+_That’s why you need spies. And cages... and an enemy. You have no real power_ --- Wicked (from the movie script)
 
 > **examples** --- 200 répliques --- Hélène Drouard
 >

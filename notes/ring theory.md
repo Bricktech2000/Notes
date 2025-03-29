@@ -1,3 +1,3 @@
 # Ring Theory
 
-used for backlinks
+#stub

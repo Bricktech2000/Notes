@@ -14,7 +14,7 @@ there are various reasons why someone might look into joining [[mensa]]:
 
 - to be able to discuss the topic of [[intelligence]] as a whole
 - to hang out with other people of the same caliber; to get a sense of belonging
-- to prove to others that they are smart; for the prestige of it (see [[narcissistic personality disorder]])
+- to prove to others that they are smart; for the prestige of it
 
 there are two ways to join [[mensa]]:
 

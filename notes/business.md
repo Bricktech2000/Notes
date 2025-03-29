@@ -1,7 +1,5 @@
 # Business
 
-used for backlinks
-
 > **resource** _Rich Dad, Poor Dad_ by Robert Kiyosaki audiobook --- <https://youtu.be/wp7Lz1svVro>
 
 > **resource** interview with Oliver Brocato, founder of Tabs "sex chocolate" <https://youtu.be/Vt7ZWcyNc18>

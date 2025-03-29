@@ -6,7 +6,9 @@ _assembly with syntactic sugar and undefined behavior_
 
 --- Effective C by Robert C. Seacord
 
-> **resource** _Advanced [[c]]: The UB and optimizations that trick good programmers._ --- <https://youtu.be/w3_e9vZj7D8>
+> **resource** _Advanced [[c]]: The UB and optimizations that trick good programmers._ by Eskil Steenberg --- <https://youtu.be/w3_e9vZj7D8>
+
+> **resource** _How I program [[c]]_ by Eskil Steenberg, good opinions on [[c]] and on [[software engineering]] --- <https://youtu.be/443UNeGrFoM>
 
 > **resource** _"New" Features in C_ by Dan Saks, a firehose of modern C features --- <https://youtu.be/ieERUEhs910>
 
@@ -151,11 +153,13 @@ U"foo" // char32_t[6]
 
 `'\0'` is an octal escape sequence
 
-[[c]] allows the last member of a `struct` to be a _flexible array member_---an array of unspecified length. calling `sizeof` on a `struct` with a _flexible array member_ will return the size of the `struct` as if it didn't contain the flexible array member
+[[c]] allows the last member of a `struct` to be a _flexible array member_---an array of unspecified length. calling `sizeof` on a `struct` with a _flexible array member_ will yield the size of the `struct` _as if the flexible array member were omitted except that it may have more trailing padding than the omission would imply_ --- ISO/IEC 9899:TC3, $6.7.2.1, paragraph 16
 
-> **example** `struct s { int x; int y[]; };`
+> **example** `struct { int size; char data[]; } *p = malloc(sizeof(*p) + sizeof(char[m]);`
 
-`sizeof char` is `1`, and the size of the other integer data types is implementation defined and is available in `limits.h`. each has a standard-imposed minimum magnitude; see ISO/IEC 9899:TC3, Annex 5, paragraph 1. actual-width integers such as `uint32_t` and widest integer types `uintmax_t` and `intmax_t` are available in `stdint.h` and `inttypes.h`
+> **note** generally, prefer `struct s *p = malloc(sizeof(*p));` to `struct s *p = malloc(sizeof(struct s));` when using `sizeof` --- <https://www.kernel.org/doc/Documentation/process/coding-style.rst> "Linux kernel coding style", $14 'Allocating memory', and <https://youtu.be/443UNeGrFoM?t=1h3m57s>
+
+`sizeof char` is `1`, and the size of the other integer data types is implementation defined and is available in `limits.h`. each has a standard-imposed minimum magnitude; see ISO/IEC 9899:TC3, Annex E, paragraph 1. actual-width integers such as `uint32_t` and widest integer types `uintmax_t` and `intmax_t` are available in `stdint.h` and `inttypes.h`
 
 _wraparound_ (which is specific to unsigned integers) has well-defined behavior in [[c]]. values are reduced modulo the number that is one greater than the largest value that can be represented by the resulting type. however, _overflow_ (which is specific to signed integers) has [[c#undefined behavior]]
 
@@ -217,6 +221,8 @@ as a rule of thumb, read declarators from the inside out, at each level moving r
 > **example** `float (*(*b(void))[])(void);` --- `b` is a function that returns a pointer to an array of pointers to functions returning `float`s --- <https://www.codeproject.com/Articles/7042/How-to-interpret-complex-C-C-declarations>
 
 > **example** `void *(*c)(char, int (*)(void));` --- `c` is a pointer to a function that takes a `char` and {a pointer to a function that returns an `int`} and returns a pointer to `void` --- <https://www.codeproject.com/Articles/7042/How-to-interpret-complex-C-C-declarations>
+
+> **example** in `const char *foo;` the pointer is constant while in `char *const foo` the pointee is constant
 
 ## initialization
 
@@ -421,21 +427,9 @@ the type of the controlling expression to a `switch` statement must be an _integ
 
 ## reserved identifiers
 
---- <https://www.gnu.org/software/libc/manual/html_node/Reserved-Names.html>
+--- ISO/IEC 9899:TC3, $7.1.3 'Reserved identifiers'
 
-#xxx note ub
-
-any identifier matching one of the following [[regular expression]]s is reserved and should not be used in a user program:
-
-- `/^_/` at file scope
-- `/^__/`
-- `/^_[A-Z]/`
-- `/_t$/` for type names
-- `/^E[A-Z0-9]/` for error codes
-- `/^SIG[A-Z]/` for signal names
-- `/^SIG_[A-Z]/` for signal actions
-- `/^(str|mem|wcs)[a-z]/` for [[string]] and [[array]] [[function]]s
-- ...
+identifiers matching the [[regular expression]] `/_[_A-Z].*/` are reserved everywhere and those matching `/_.*/` are reserved at file scope including for tags. defining or declaring such an identifier or using such an identifier as a macro name has [[c#undefined behavior]]
 
 ## storage duration
 
@@ -461,7 +455,7 @@ objects declared with the `thread_local` storage-class specifier have _thread_ s
 
 ## linkage
 
-a declaration with _external linkage_ makes all its references refer to the same object throughout the entire program. objects declared at file [[scope]] have external linkage by default
+a declaration with _external linkage_ makes all its references refer to the same object throughout all translation units. objects declared at file [[scope]] have external linkage by default
 
 > **example** `int x; int f(void); extern int x; extern int f(void); // at file scope`
 
@@ -564,7 +558,7 @@ whitespace may added between the beginning of a line and a `#` character or betw
 
 `#include` inserts the contents of a file into the current file. the file is searched for in an implementation-defined manner. if the file is not found, the behavior is [[c#implementation-defined behavior]]. if the file is found, the contents of the file are inserted into the current file at the point of the `#include` directive. the difference between quoted include strings (`#include "filename"`) and angle-bracketed include strings (`#include <filename>`) is implementation defined. typically, the former is used for user-defined headers and the latter for system headers
 
-`#define identifier replacement-list` defines an _object-like macro_ named `identifier`; `#define identifier(parameter-list) replacement-list` (with no whitespace between `identifier` and `(`) defines a _function-like macro_ named `identifier`. macro identifiers textually expand to `replacement-list`. `replacement-list` may be empty, in which case instances of `identifier` will simply be removed. `#undef identifier` undefines macro `identifier` and is safe regardless of whether `identifier` is defined. instances of the `##` preprocessing token within a replacement list are deleted, concatenating the preceeding token with the following token; this process is called _token pasting_. if the result is not a valid token, the behavior is [[c#undefined behavior]]. within a function-like macro replacement list, a parameter preceeded by a `#` is replaced with a string literal containing the text of the argument; this process is sometimes called _stringizing_. a `,` within a function-like macro invocation is always interpreted as a macro argument, meaning `LOG([1, 2, 3])` invokes `LOG` with arguments `[1`, `2` and `3]`
+`#define identifier replacement-list` defines an _object-like macro_ named `identifier`; `#define identifier(parameter-list) replacement-list` (with no whitespace between `identifier` and `(`) defines a _function-like macro_ named `identifier`. macro identifiers textually expand to `replacement-list`. `replacement-list` may be empty, in which case instances of `identifier` will simply be removed. `#undef identifier` undefines macro `identifier` and is safe regardless of whether `identifier` is defined. instances of the `##` preprocessing token within a replacement list are deleted, concatenating the preceeding token with the following token; this process is called _token pasting_. if the result is not a valid token, the behavior is [[c#undefined behavior]]. within a function-like macro replacement list, a parameter preceeded by a `#` is replaced with a string literal containing the text of the argument; this process is sometimes called _stringizing_. an unparenthesized `,` within a function-like macro invocation is always interpreted as a macro argument, meaning `LOG([1, 2, 3])` invokes `LOG` with arguments `[1`, `2` and `3]`
 
 > **example** given `#define DOTS .##.##.`, expansion of `DOTS` has [[c#undefined behavior]], because, even though `...` is a valid token, `..` is not
 
@@ -594,6 +588,10 @@ _predefined macros_ are macros implicitly defined by the [[c#preprocessor]]. the
 
 `__STDC__` expands to `1` if the implementation conforms to the [[c]] standard
 
+### macro coloring
+
+what color is your macro? in [[c]], expressions are syntactically a [[set#subset]] of statements, yet expressions are more usable than statements while statements are more capable than expressions. "uphold $A > B$ while minimizing $A$ while maximizing $B$": that's the function coloring problem; see <https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/>. concretely, macros that expand to a statement "red macros" are more capable but can only be used within statements and not within expressions, while macros that expand to an expression "blue macros" are less capable but can be used both within statements and within expressions
+
 ### useful idioms
 
 --- <https://stackoverflow.com/questions/1067226/c-multi-line-macro-do-while0-vs-scope-block>
@@ -604,22 +602,33 @@ _predefined macros_ are macros implicitly defined by the [[c#preprocessor]]. the
 
 --- <https://gist.github.com/jdah/1ae0048faa2c627f7f5cb1b68f7a2c02>
 
-macro-expand then token-paste
+--- <https://stackoverflow.com/questions/2308243/macro-returning-the-number-of-arguments-it-is-given-in-c>
+
+--- <https://youtu.be/lLv1s7rKeCM?t=1h15m7s>
+
+macro-expand then token-paste/stringize
 
 ```c
 #define PASTE_INNER(LHS, RHS) LHS##RHS
 #define PASTE(LHS, RHS) PASTE_INNER(LHS, RHS)
+// #define MKLABEL(ID) PASTE_INNER(_label_##ID##_, __LINE__)
+// MKLABEL(some_id) // _label_some_id___LINE__
 // #define MKLABEL(ID) PASTE(_label_##ID##_, __LINE__)
-// MKLABEL(some_prefix)
+// MKLABEL(some_id) // _label_some_id_4
+#define STRINGIZE_INNER(...) #__VA_ARGS__
+#define STRINGIZE(...) STRINGIZE_INNER(__VA_ARGS__)
+// #define SOME_MACRO(...) __VA_ARGS__
+// STRINGIZE_INNER(SOME_MACRO(5)) // SOME_MACRO(5)
+// STRINGIZE(SOME_MACRO(5))       // 5
 ```
 
 commas within macro arguments
 
 ```c
-#define COMMA ,
-#define WRAP(...) __VA_ARGS__
 // #define SOME_MACRO(...) __VA_ARGS__
+#define COMMA ,
 // SOME_MACRO([1 COMMA 2 COMMA 3])
+#define WRAP(...) __VA_ARGS__
 // SOME_MACRO(WRAP([1, 2, 3]))
 ```
 
@@ -659,3 +668,23 @@ X macros and higher-order macros
 // #define MKSTRS(NAME) [NAME] = #NAME,
 // char *names[] = {NAMES(MKSTRS)};
 ```
+
+overload on/expand to argument count
+
+```c
+#define SOME_FUNC_N(_1, _2, _3 NAME, ...) NAME
+#define SOME_FUNC(...)                                                         \
+  FUNC_N(__VA_ARGS__, ternary, binary, unary, nullary)(__VA_ARGS__)
+// SOME_FUNC()        // undefined behavior
+// SOME_FUNC(x)       // unary(x)
+// SOME_FUNC(x, y)    // binary(x, y)
+// SOME_FUNC(x, y, z) // ternary(x, y, z)
+#define PP_NARG_N(_1, _2, _3, N, ...) N
+#define PP_NARG(...) PP_NARG_N(__VA_ARGS__, 3, 2, 1, 0)
+// PP_NARG()        // undefined behavior
+// PP_NARG(x)       // 1
+// PP_NARG(x, y)    // 2
+// PP_NARG(x, y, z) // 3
+```
+
+> **note** using dummy `nullary` and `0` because C99 requires at least one argument to `...` --- ISO/IEC 9899:TC3, $6.10.3, paragraph 4, and `gcc -Wpedantic -std=c99`

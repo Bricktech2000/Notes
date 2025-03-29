@@ -11,3 +11,11 @@ model theory
 computability theory
 
 --- <https://en.wikipedia.org/wiki/Mathematical_logic>
+
+**see**
+
+[[propositional logic]]
+
+[[first-order logic]]
+
+[[natural deduction]]

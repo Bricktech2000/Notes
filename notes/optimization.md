@@ -1,12 +1,10 @@
 # Optimization
 
-used for backlinks
+#stub
 
 **see**
 
-[[neural network]]s, [[gradient#descent]]
-
-[[linear regression]]
+[[neural network]]s, [[gradient#descent]], [[automatic differentiation]]
 
 [[eigen]]
 

@@ -1,6 +1,6 @@
 # Verbal
 
-**aka** _verbal communication_
+_verbal communication_
 
 **see** [[nonverbal]]
 

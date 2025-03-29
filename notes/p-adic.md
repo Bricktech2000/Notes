@@ -24,13 +24,13 @@ the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the 
 
 > **note** [[p-adic]] numbers supporting division is a consequence of **`p`** being a [[prime]] number --- <https://youtu.be/3gyHKCDq1YA?t=606>. my [[improved expression evaluation]] would need to be extended to support **`n`**-adic numbers where **`n`** is not a [[prime]] number #xxx
 
-> **note** [[p-adic]] numbers supporting division seems to be in [[contradiction]] with the following --- me
+> **note** [[p-adic]] numbers supporting division seems to be in contradiction with the following --- me
 >
 > **`2[5[@@]] = 2[5[@@:1]]`** and therefore **`x = x5`** with **`x = 2[5[@@]]`** --- <https://youtu.be/3gyHKCDq1YA?t=829>
 >
 > dividing both sides by **`x`**, we get **`1 = x4`**. taking the fourth root on both sides, we get **`1 = x`**. however, acconding to <https://youtu.be/3gyHKCDq1YA?t=829>, **`x = ii`**
 >
-> > **note** this [[contradiction]] could be eliminated by the following --- me and <https://www.wolframalpha.com/input?i=1%5E%281%2F4%29>
+> > **note** this contradiction could be eliminated by the following --- me and <https://www.wolframalpha.com/input?i=1%5E%281%2F4%29>
 > >
 > > let **`1 = x4`**. taking the square root on both sides, we get **`x2 = {1 \/ .1}`**. taking the square root on both sides again, we get **`x = {1 \/ .1 \/ ii \/ .ii}`**. this resolves the contradiction
 > >

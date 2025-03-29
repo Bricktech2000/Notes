@@ -8,7 +8,7 @@
 
 [[antisocial personality disorder]] is one of the most unfortunately named [[mental illness]]es. _antisocial_ in this context means _against society_, not _socially awkward_. _antisocial personality disorder_ is the diagnostic term for what popular literature and criminology writings call _psychopathy_ and _sociopathy_ --- <https://youtu.be/gpjYtAB9i2w?t=444>
 
-in a world where people default to cooperation, generosity and forgiveness, it can become advantageous to be nasty and manipulative---and that's where [[antisocial personality disorder]] is rooted --- me. [[antisocial personality disorder]] is a feature, not a bug; psychopaths are psycopaths by design --- me. when people with [[narcissistic personality disorder]] get called out they get super defensive, but people with [[antisocial personality disorder]] shrug it off, or might even feel sadistic delight: _"how cool, I'm a psychopath and I'm getting away with it" [...]---their whole life is about getting away with stuff_ --- <https://youtu.be/gpjYtAB9i2w?t=5211>. people with [[antisocial personality disoder]] routinely break moral codes, social codes, legal codes... they don't care what anybody thinks of them
+in a world where people default to cooperation, generosity and forgiveness, it can become advantageous to be nasty and manipulative---and that's where [[antisocial personality disorder]] is rooted --- me. [[antisocial personality disorder]] is a feature, not a bug; psychopaths are psycopaths by design --- me. when people with [[narcissistic personality disorder]] get called out they get super defensive, but people with [[antisocial personality disorder]] shrug it off, or might even feel sadistic delight: _"how cool, I'm a psychopath and I'm getting away with it" [...]---their whole life is about getting away with stuff_ --- <https://youtu.be/gpjYtAB9i2w?t=5211>. people with [[antisocial personality disorder]] routinely break moral codes, social codes, legal codes... they don't care what others think of them
 
 [[antisocial personality disorder]] means:
 
@@ -58,5 +58,7 @@ sociopaths are:
 --- <https://youtu.be/gpjYtAB9i2w>
 
 --- <https://youtu.be/mScpHTIi-kM>
+
+--- <https://youtu.be/6dv8zJiggBs>
 
 --- <https://youtu.be/FTWNnmymMc4> (maybe sociopathy isn't so straightforward)

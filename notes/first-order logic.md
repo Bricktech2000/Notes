@@ -8,7 +8,11 @@
 
 first-order logic is [[propositional logic]] extended with [[quantifier]]s and [[predicate]]s
 
-**definition** a _formula_ is _terms_---formed of _constants_ ($\text{Alice}$), _variables_ ($x$) and _predicates_ ($\operatorname{Sum}(Alice, x)$)---connected by _logical connectives_
+**definition** a _formula_ is _terms_---formed of _constants_ ($\mathrm{Alice}$), _variables_ ($x$) and _predicates_ ($\operatorname{Sum}(Alice, x)$)---connected by _logical connectives_ ([[boolean#operators]])
+
+**definition** a _model_ ($w$) is an assignment of _truth values_ ([[boolean]]s) to _propositional symbols_
+
+**definition** a _knowledge base_ ($\Gamma$) is [[set]] of formulas taken to be true
 
 ## Modus Ponens
 

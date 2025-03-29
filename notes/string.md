@@ -16,7 +16,7 @@ in [[computer science]], [[string]]s can be implemented as [[list]]s of [[charac
 
 ## Concatenation
 
-used for backlinks
+#stub
 
 ## Homomorphism
 

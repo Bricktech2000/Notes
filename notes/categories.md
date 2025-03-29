@@ -36,11 +36,9 @@
 
 [[improved expression evaluation]]
 
-[[control over convenience]]
+[[eventual control]]
 
 [[nested conversation structure]]
-
-[[region size formula]]
 
 [[improper measurement scale]]
 

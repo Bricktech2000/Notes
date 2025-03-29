@@ -19,3 +19,5 @@ functional languages support [[first-class function]]s
 --- <https://youtu.be/srQt1NAHYC0>
 
 --- <https://youtu.be/c_F1o_so2MQ>
+
+--- <https://youtu.be/oDdXep6yTOM> and <https://youtu.be/hDO3lpAcF2I>

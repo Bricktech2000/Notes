@@ -10,7 +10,7 @@
 
 [[mean value theorem]], [[intermediate value theorem]]
 
-[[newton's method]]
+[[newton's method]], [[automatic differentiation]]
 
 [[limit]], [[derivative]], [[antiderivative]], [[exponential derivative]], [[integral]]
 

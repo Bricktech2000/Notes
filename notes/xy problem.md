@@ -8,7 +8,7 @@
 
 the [[xy problem]] is a communication problem characterized by a party asking about an **attempted solution** rather than about the **original problem**
 
-asking a technical question is a balancing act. the [[xy problem]] occurs when a question's scope is overly narrowed; however, it is worth realizing that asking too broad of a question is just as problematic. often, there is no "original" problem. every decision sits on top of a [[tree]] of other decisions, and figuring out how much to unwind before asking a question is non-trivial
+asking a technical question is a balancing act. the [[xy problem]] occurs when a question's scope is overly narrowed; however, it is worth realizing that asking too broad of a question is just as problematic. often, there is no "original" problem. every decision sits on top of a [[tree]] of other decisions, and figuring out how much to unwind before asking a question is not so trivial
 
 > **example**
 >

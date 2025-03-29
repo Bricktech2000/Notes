@@ -12,12 +12,12 @@ _the default [[loss function]] for regression problems_
 
 **definition**
 
-**`"MSE" y y_* = {:-#} [y.y_* ]2`**, where
+$\mathrm{MSE}\ y\ \hat y = \frac + \# (y - \hat y)^2$, where
 
-- **`"MSE"`** is the _mean squared error_ of the values
-- **`y`** are the observed values
-- **`y_*`** are the predicted values
+- $\mathrm{MSE}$ is the _mean squared error_ of the values
+- $y$ are the observed values
+- $\hat y$ are the predicted values
 
-> **note** squaring the [[distance]] between every **`y`** and expected **`y_*`** makes it so that outliers have a greater effect on the result
+> **note** squaring the [[distance]] between the $y$s and $\hat y$s means outliers have a greater effect on the result
 
-**equiv** _[[variance]] and [[loss function#mean squared error]] with [[sample#mean]] as expected [[neural network]] output_
+**equiv** _[[variance]] and [[loss function#mean squared error]] with [[sample]] [[mean]] as expected [[neural network]] output_

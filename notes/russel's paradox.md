@@ -10,4 +10,4 @@ _in [[conventional math notation]]_ $S = \lbrace x : x \notin x \rbrace$. Is $S 
 
 _in my [[math notation]]_ **`S x = + x x`**. Is **`S S`**?
 
-after substitution **`x -> S`** ([[improved expression evaluation]] notation #todo) we get **`S S = + S S`**, which is a [[contradiction]]. therefore, **`S`** cannot exist.
+after substitution **`x -> S`** ([[improved expression evaluation]] notation #todo) we get **`S S = + S S`**, which is a contradiction. therefore, **`S`** cannot exist.

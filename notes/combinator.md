@@ -174,7 +174,7 @@ _applies a [[function]] twice_
 
 **aka** _fixed-point [[combinator]]_, _`fix`_ in Haskell
 
-the [[combinator#y combinator]] lets us use recursion in [[programming language]]s that don't support it, which includes the [[lambda calculus]]
+the [[combinator#y combinator]] lets us use recursion in [[programming language]]s that don't support it, which includes the [[lambda-calculus]]
 
 **definition** **`Y = f. (x. f (x x)) (x. f (x x))`**
 

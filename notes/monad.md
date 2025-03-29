@@ -31,7 +31,7 @@ a [[set]] of [[monad]]s with Kleisli Composition form a [[monoid]] whose [[monoi
 
 ## Transformer
 
-monad transformer #todo <https://en.wikipedia.org/wiki/Monad_transformer>
+monad transformer #todo <https://en.wikipedia.org/wiki/Monad_transformer> and <https://en.wikibooks.org/wiki/Haskell/Monad_transformers>
 
 ## Laws
 

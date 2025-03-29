@@ -6,9 +6,9 @@
 
 **definition**
 
-**`z = x . mm -- ss`**, where
+$z = \frac{x - \mu}\sigma$, where
 
-- **`x`** is an _example_ in a [[sample]] **`X`**
-- **`mm`** is the [[mean]] of **`X`**
-- **`ss`** is the [[standard deviation]] of **`X`**
-- **`z`** is the _standard score_ of **`x`**
+- $x$ is an _example_ in a [[sample]] $X$
+- $\mu$ is the [[mean]] of $X$
+- $\sigma$ is the [[standard deviation]] of $X$
+- $z$ is the _standard score_ of $x$

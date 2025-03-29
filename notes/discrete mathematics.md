@@ -10,7 +10,7 @@ _an introduction into mathematical thinking_
 
 [[set]], [[set theory]], [[multiset]], [[ordered pair]], [[vector]], [[cartesian product]], [[relation]], [[function]]
 
-[[logic statement]], [[predicate]], [[boolean#operators]], [[quantifier]]s
+[[predicate]]s, [[quantifier]]s, [[boolean#operators]]
 
 [[sequence]] definition
 

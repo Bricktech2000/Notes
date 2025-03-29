@@ -2,8 +2,6 @@
 
 **see** [[object]], [[class]], [[interface]]
 
-**see** [[polymorphism]], [[abstraction]], [[encapsulation]]
-
 **properties**
 
 [[object-oriented programming]] is both _object-oriented_ and _imperative_, see [[programming paradigm]]

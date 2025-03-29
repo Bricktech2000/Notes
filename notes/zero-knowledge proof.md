@@ -14,7 +14,3 @@ _a [[proof]] that an entity has [[knowledge]] of something that does not give aw
 > the process above is repeated some number of times to reduce the [[probability]] of "[[luck]]y guesses" from an untrustworthy prover
 >
 > this [[algorithm]] proves with high [[probability]] that the prover knows the [[color]] of both balls without revealing either [[color]]
-
-**applications**
-
-Zcash and Monero are examples of [[cryptocurrency]]es that use [[zero-knowledge proof]]s for transactions

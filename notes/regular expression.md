@@ -12,6 +12,8 @@ _a finite [[string]] denoting a [[formal language#regular formal language]]_
 
 > **resource** CPS-RE, my tiny backtracking [[regular expression]] engine in continuation-passing style --- <https://github.com/Bricktech2000/CPS-RE>
 
+> **resource** NU-RE, my tiny [[regular expression]] engine based on Brzozowski derivatives --- <https://github.com/Bricktech2000/NU-RE>
+
 > **resource** _Derivatives of Regular Expressions_ by Janusz A. Brzozowski and _Regular-expression derivatives reexamined_ by Owens, Reppy and Turon --- [[321239.321249.pdf]] and [[re-deriv.pdf]] --- <https://dl.acm.org/doi/pdf/10.1145/321239.321249> and <https://www.ccs.neu.edu/home/turon/re-deriv.pdf>
 
 > **resource** _Regular Expression Matching Can Be Simple And Fast_ by Russ Cox, an intro to [[finite automaton]] [[regular expression]] engines and a manifesto for why there are no good excuses to use backtracking engines --- <https://swtch.com/~rsc/regexp/regexp1.html>
@@ -24,7 +26,7 @@ in [[formal language]] theory, [[regular expression]]s support concatenation `rs
 
 [[regular expression]]s are **not** a "notation for describing patterns of text". they are a notation for describing the [[formal language#regular formal language]]s. so many get it wrong; see, for example, _A Regular Expression Matcher. Code by Rob Pike, Exegesis by Brian Kernighan_ --- <https://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html>. as a rule of thumb, if a [[regular expression]] engine doesn't support alternation or grouping or backtracking, chances are high it's not a [[regular expression]] engine. sure, it matches patterns of text, but that's not what it means to be a [[regular expression]] engine
 
-alternation `|` corresponds to [[set#union]] [[under]] accepted language, so it is only natural to extend [[regular expression]]s with intersection `&` and complementation `~`, which correspond to, respectively, [[set#intersection]] and [[set#complementation]] [[under]] accepted language. this is seldom done in practice, however. one reason may be that alternations are easy to implement whereas intersections and complements take more work. poor [[generalism]] could also be a contributing factor
+alternation `|` corresponds to [[set#union]] [[under]] accepted language, so it is only natural to extend [[regular expression]]s with intersection `&` and complementation `~`, which correspond to, respectively, [[set#intersection]] and [[set#complementation]] [[under]] accepted language. this is seldom done in practice, however---and that's a shame, because these extended [[regular expression]]s are more natural and more concise, as argued in _Regular Expressions and State Graphs for Automata_ by McNaughton and Yamada (subsection _A Specification Language for Automata_) and in _Regular-expression derivatives reexamined_ by Owens, Reppy and Turon (section _5.1 Extended Regular Expressions_)
 
 **properties** (not exhaustive)
 

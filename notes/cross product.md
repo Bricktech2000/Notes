@@ -6,7 +6,7 @@
 
 _results in a [[euclidean vector]] of [[euclidean vector#magnitude]] ([[area]] of the parallelogram formed by the two [[vector]]s) and of [[euclidean vector#angle]] (perpendicular to the [[plane]] formed by the two [[vector]]s)_ --- 3B1B
 
-**definition**, see #magic
+**definition** #magic
 
 **`a "cross" b = []a^1 b^2 .. a^2 b^1 && a^2 b^0 .. a^0 b^2 && a^0 b^1 .. a^1 b^0 []`**
 

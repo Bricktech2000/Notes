@@ -19,8 +19,6 @@ one can use the _horizontal [[line]] test_ to determine whether the graph of a [
 
 [[hyperbolic function]]
 
-[[sigmoid function]]
-
 [[predicate]]
 
 **applications**
@@ -29,7 +27,9 @@ one can use the _horizontal [[line]] test_ to determine whether the graph of a [
 
 [[function#vector space]]
 
-[[loss function]] in [[neural network]]s
+[[activation function]]
+
+[[loss function]]
 
 ## Vector Space
 
@@ -57,9 +57,9 @@ _multiplication by a [[scalar]]_ **`cf x = c | f x`**
 
 **definition** the _domain_ of a [[function]] is the set of arguments for which it will produce an output
 
-**definition** the _codomain_ of a [[function]] is the set of all **possible** outputs
+**definition** the _codomain_ of a [[function]] is the set of all outputs it may or may not produce
 
-**definition** the _range_ of a [[function]] is the set of all outputs it can produce
+**definition** the _range_ of a [[function]] is the set of all outputs it definitely can produce
 
 **definition** the _roots_ of a [[function]] **`f`** are the values of **`x`** such that **`f x = 0`**
 
@@ -287,7 +287,7 @@ a [[function]] can be proven to be surjective by proving one can construct an in
 
 > **example** _proving a function is not surjective_
 >
-> let **`y = f m n = m2 : n2`**. **`y = ..1`** would cause a [[contradiction]] as the square of an [[integer]] is always a positive [[integer]] and the sum of two positive [[integer]]s is always a positive [[integer]]. therefore, the [[function]] is not surjective
+> let **`y = f m n = m2 : n2`**. **`y = ..1`** would cause a contradiction as the square of an [[integer]] is always a positive [[integer]] and the sum of two positive [[integer]]s is always a positive [[integer]]. therefore, the [[function]] is not surjective
 
 > **example** _proving a function is surjective_
 >
@@ -295,7 +295,7 @@ a [[function]] can be proven to be surjective by proving one can construct an in
 
 > **example** _proving a function is not surjective_
 >
-> let **`y = f m n = "abs" n`**. **`y = ..1`** would cause a [[contradiction]] as the [[real#absolute value]] of an [[integer]] is always a positive [[integer]]. therefore, the [[function]] is not surjective
+> let **`y = f m n = "abs" n`**. **`y = ..1`** would cause a contradiction as the [[real#absolute value]] of an [[integer]] is always a positive [[integer]]. therefore, the [[function]] is not surjective
 
 > **example** _proving a function is surjective_
 >

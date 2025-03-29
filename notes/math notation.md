@@ -93,7 +93,7 @@ let:
 | **`f <- a`**                                                 | [[function]] application                                     | longhand discouraged                           |
 | **`a ~ b`** <br /> **`a ~~ b`**                              | whether **`a`** is similar to **`b`**                        | _similar_ as in _approximately equal to_       |
 | **`a = b`** <br /> **`a == b`**                              | whether **`a`** is equal to **`b`**                          | equivalent to [[boolean#equivalence]]          |
-| **`a + b`** <br /> **`a >< b`**                              | whether **`a`** is different from **`b`**                    | equivalent to [[boolean#exclusive or]]         |
+| **`a + b`** <br /> **`a >< b`**                              | whether **`a`** is different from **`b`**                    | equivalent to [[boolean#symmetric difference]] |
 | **`a -\| b`** <br /> **`a < b`**                             | whether **`a`** is at most **`b`**                           | equivalent to [[boolean#implication]]          |
 | **`a \|- b`** <br /> **`a > b`**                             | whether **`a`** is at least **`b`**                          | equivalent to [[boolean#implication]]          |
 | **`a __ b`** <br /> **`a /\ b`**                             | the minimum of **`a`** and **`b`**                           | equivalent to [[boolean#conjunction]]          |
@@ -276,8 +276,8 @@ partially testing out:
 
 | operator                        | precedence | associativity |
 | ------------------------------- | ---------- | ------------- |
-| **`( ) (( )) { } {{ }} [] []`** | ×          | ×             |
-| **`wwff x^a x_"sub"`**          | highest    | ×             |
+| **`( ) (( )) { } {{ }} [] []`** | ---        | ---           |
+| **`wwff x^a x_"sub"`**          | highest    | ---           |
 | **`\./ [.] /.\`**               | ...        | left          |
 | **`' -`**                       | ...        | left          |
 | **`dd # \* <-`**                | ...        | left          |
@@ -288,7 +288,7 @@ partially testing out:
 | **`~ = -\| \|- +`**             | ...        | transitive    |
 | **`/\ \/`**                     | ...        | left          |
 | **`~~ == < > ><`**              | ...        | transitive    |
-| **`,`**                         | lowest     | ×             |
+| **`,`**                         | lowest     | ---           |
 
 > **note** unary [[operator]]s have identical [[infix notation#precedence]] to their binary counterparts but are right associative
 

@@ -2,7 +2,7 @@
 
 **see** [[digital system]], [[boolean algebra]]
 
-**see** [[truth table]], [[characteristic table]], [[excitation table]], [[karnaugh map]], [[state table]], [[state diagram]], [[logic gate]]
+**see** [[truth table]], [[characteristic table]], [[excitation table]], [[karnaugh map]]
 
 **see** [[latch]], [[flip-flop]]
 

@@ -20,13 +20,15 @@ the complement of a [[formal language]] is with respect to the Kleene closure of
 
 **definition** the _empty word_ is the word $w$ with $|w| = 0$
 
-**notation** _empty word_ typically one of $e$, $\varepsilon$, $\lambda$, $\Lambda$
+**notation** _empty word_ typically one of $\varepsilon$, $\lambda$, $\Lambda$
 
 **notation** _word length_ $|w|$, see [[string#length]]
 
-**notation** _concatenation_ typically one of $uv$, $u \cdot v$, $u \circ v$, see [[string#concatenation]]
+**notation** _concatenation_ typically one of $uv$, $u \cdot v$, see [[string#concatenation]]
 
 **notation** _alternation_ typically one of $u \mid v$, $u + v$, $u \cup v$, see [[set#union]]
+
+**notation** _intersection_ typically one of $u \& v$, $u \cap v$, see [[set#intersection]]
 
 **notation** _repeated concatenation_ $w^n$
 
@@ -34,7 +36,7 @@ the complement of a [[formal language]] is with respect to the Kleene closure of
 
 **definition** a [[formal language]] is _regular_ if and only if it can be described by a [[finite acceptor]]
 
-the [[set]] of regular languages is closed under Kleene closure, Kleene plus, [[set#complementation]], [[set#union]], [[set#intersection]], [[set#difference]], concatenation and reversal
+the class of regular languages is closed under Kleene closure, Kleene plus, [[set#complementation]], [[set#union]], [[set#intersection]], [[set#difference]], concatenation and reversal
 
 **theorem** _Kleene's theorem_ [[finite acceptor]]s, [[regular expression]]s and [[formal language#regular grammar]]s have the same expression power
 
@@ -92,6 +94,8 @@ a [[formal language]] may be described inductively by a _formal grammar_ (a coll
 link with [[prefix notation]], [[postfix notation]], [[syntax tree]]
 
 #xxx useful table <https://en.wikipedia.org/wiki/Theory_of_computation#Automata_theory>
+
+#xxx another useful table <https://en.wikipedia.org/wiki/Automata_theory#Types_of_automata>
 
 "meta-rules" for regular/context-free/context-sensitive grammars: <https://youtu.be/ENKT0Z3gldE?t=408>
 

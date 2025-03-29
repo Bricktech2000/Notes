@@ -1,6 +1,6 @@
 # Lattice Theory
 
-used for backlinks
+#stub
 
 **see**
 

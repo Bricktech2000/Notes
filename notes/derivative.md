@@ -1,6 +1,6 @@
 # Derivative
 
-**see** [[math notation]], [[derivative rules]], [[function]], [[calculus notation]]
+**see** [[math notation]], [[calculus notation]], [[derivative rules]], [[automatic differentiation]]
 
 **definition** _in my [[math notation]]_
 

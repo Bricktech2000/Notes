@@ -27,9 +27,9 @@ words defined within [[forth]] have their `w.interp = DOCOL`, an interpreter fun
 
 primitive words can be written in assembly by storing their machine code directly in `w.defn` and setting their `w.interp = w.defn`. primitive words generally have their `w.defn` end in `NEXT`, a codeword that advances the instruction pointer to the next codeword in line then jumps to it
 
-`STATE` is a word that pushes to the _parameter stack_ a pointer to a global flag that determines whether [[forth]] is in _compile mode_ `1`, where words are compiled into the current definition, or _immediate mode_ `0`, where words are executed immediately
+`STATE` is a word that pushes to the _parameter stack_ a pointer to a global flag that determines whether [[forth]] is in _compile mode_ `1`, where words are compiled into the current definition, or in _immediate mode_ `0`, where words are executed immediately
 
-`IMMEDIATE` toggles the `w.immediate` flag of the latest word in the dictionary. immediate words get executed even in compile mode, effectively allowing us to extend the compiler environment
+`IMMEDIATE` toggles the `w.immediate` flag of the latest word in the dictionary. immediate words get executed even in compile mode, effectively allowing the programmer to extend the compiler environment
 
 > **example** `: [ 0 STATE ! ; IMMEDIATE : ] 1 STATE ! ; IMMEDIATE`
 
@@ -37,7 +37,7 @@ immediate words can use the parameter stack to store temporaries transparently *
 
 > **example** `BEGIN` pushes the current address onto the parameter stack later to be consumed by `UNTIL` or `AGAIN`. despite this, `BEGIN` becomes transparent at runtime, such as with `0 BEGIN . 1 + DUP 10 < UNTIL`
 
-`HIDE FOO` toggles the `w.hidden` flag of word `FOO` in the dictionary. hidden words are ignored during dictionary lookup, allowing us to define "private" words
+`HIDE FOO` toggles the `w.hidden` flag of word `FOO` in the dictionary. hidden words are ignored during dictionary lookup, enabling the definition of "private" words
 
 > **example** `: SUB ... ; : MAIN ... SUB ... ; HIDE SUB`
 
@@ -45,4 +45,4 @@ words `[` and `]` switch in and out of immediate mode, respectively, allowing fo
 
 > **example** `[ 3 4 * ]` within a `: ... ;` definition will codegen `12` and not a runtime call to `*`
 
-> **note** [[forth]] lets you tickle the compiler and poke right through all [[abstraction]] layers down to machine code. on one hand, this makes bootstrapping and metaprogramming a breeze. on the other, you can find yourself in pragmatism hell wondering if you've covered all edge cases in an implementation that really should've been trivial; see, for example, <https://github.com/nornagon/jonesforth/blob/d97a25bb0b06fb58da1975eac291f45618fd2ada/jonesforth.f#L1022-L1107>
+> **note** [[forth]] lets you tickle the compiler and poke right through all [[abstraction]] layers down to machine code. on one hand, this makes bootstrapping and metaprogramming a breeze. on the other, you can find yourself in pragmatism hell wondering if you've covered all edge cases in an implementation that really should've been trivial; see, for example, [[jonesforth.f|jonesforth.f:1022-1107]], <https://github.com/nornagon/jonesforth/blob/d97a25bb0b06fb58da1975eac291f45618fd2ada/jonesforth.f#L1022-L1107>

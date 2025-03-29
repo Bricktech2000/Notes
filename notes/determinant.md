@@ -34,7 +34,7 @@ _multiplying a row or a column by a [[scalar]] **`c`**_ **`"det" A = c"det" A_*`
 
 ## Computation
 
-> **procedure** _computing the determinant using [[recursion]]_ see #magic
+> **procedure** _computing the determinant using [[recursion]]_ #magic
 >
 > _Laplace expansion_
 >
@@ -48,7 +48,7 @@ _multiplying a row or a column by a [[scalar]] **`c`**_ **`"det" A = c"det" A_*`
 >
 > the base case for the [[algorithm]] is **`"det" []s[] = s`**, where **`s`** is a [[scalar]]
 
-> **procedure** _computing the determinant, triangular method_ see #magic
+> **procedure** _computing the determinant, triangular method_ #magic
 >
 > the [[determinant]] of a [[matrix#triangular matrix]] is the product of its [[matrix#diagonal]] entries
 >

@@ -87,8 +87,6 @@ _application_ $\displaystyle \frac{\Gamma \vdash e_1 : \sigma \to \tau \quad \Ga
 
 --- _Church Encoding of Data Types Considered Harmful for Implementations_ <https://ifl2014.github.io/submissions/ifl2014_submission_13.pdf> (though lots of babble and grammar errors and typos)
 
-**see** [[math notation]]
-
 ## Non-Recursive Types
 
 non-recursive [[type#algebraic data type]]s can be encoded naturally in the [[lambda-calculus]]. [[type#sum type]]s are [[function]]s that call one of their several parameters to emulate case analysis, and [[type#product type]]s are [[function]]s that call their single parameter with several arguments to emulate destructuring
@@ -101,14 +99,14 @@ non-recursive [[type#algebraic data type]]s can be encoded naturally in the [[la
 
 `data Bool = True | False` can be encoded in the [[lambda-calculus]] as follows:
 
-- **`"true" = x. y. x`**
-- **`"false" = x. y. y`**
+- $\mathrm{true} = t.\ f.\ t$
+- $\mathrm{false} = t.\ f.\ f$
 
 we can then define the [[boolean#operator]]s:
 
-- **`"not" p = p "false" "true"`**
-- **`"and" p q = p q p`**
-- **`"or" p q = p p q`**
+- $\mathrm{not}\ p = p\ \mathrm{false}\ \mathrm{true}$
+- $\mathrm{and}\ p\ q = p\ q\ p$
+- $\mathrm{or}\ p\ q = p\ p\ q$
 
 --- <https://en.wikipedia.org/wiki/Lambda_calculus#Logic_and_predicates>
 
@@ -118,9 +116,9 @@ we can then define the [[boolean#operator]]s:
 
 `data Pair x y = Pair x y` be encoded in the [[lambda-calculus]] as follows:
 
-- **`"pair" x y = z. z x y`**
-- **`"fst" p = p (x. y. x)`**
-- **`"snd" p = p (x. y. y)`**
+- $\mathrm{pair}\ f\ s = p.\ p\ f\ s$
+- $\mathrm{fst}\ p = p\ (f.\ s.\ f)$
+- $\mathrm{snd}\ p = p\ (f.\ s.\ s)$
 
 ## Church Encoding
 
@@ -132,12 +130,12 @@ the Church encoding encodes recursive [[type#algebraic data type]]s by building 
 
 the Church encoding of `data Nat = Succ Nat | Zero` is as follows:
 
-- **`"zero" = s. z. z`**
-- **`"succ" n = s. z. s (n s z)`**
+- $\mathrm{zero} = s.\ z.\ z$
+- $\mathrm{succ}\ n = s.\ z.\ s\ (n\ s\ z)$
 
 we can then define:
 
-- **`"iszero" n = n (."false") "true"`**
+- $\mathrm{iszero}\ n = n\ (n.\ \mathrm{false})\ \mathrm{true}$
 
 ### lists
 
@@ -145,14 +143,14 @@ we can then define:
 
 the Church encoding of `data List a = Cons a (List a) | Nil` is as follows:
 
-- **`"nil" = c. n. n`**
-- **`"cons" h t = c. n. c h (t c n)`**
+- $\mathrm{nil} = c.\ n.\ n$
+- $\mathrm{cons}\ h\ t = c.\ n.\ c\ h\ (t\ c\ n)$
 
 we can then define:
 
-- **`"isnil" l = l (.."false") "true"`**
-- **`"list1" h = c. n. c h (nil c n)`**
-- **`"head" l = l (h. f. some h) none`**
+- $\mathrm{isnil}\ l = l\ (h.\ t.\ \mathrm{false})\ \mathrm{true}$
+- $\mathrm{list1}\ h = c.\ n.\ c\ h\ (\mathrm{nil}\ c\ n)$
+- $\mathrm{head}\ l = l\ (h.\ t.\ \mathrm{some}\ h)\ \mathrm{none}$
 
 ## Scott Encoding
 
@@ -166,16 +164,16 @@ the Scott encoding encodes recursive [[type#algebraic data type]]s in the obviou
 
 the Scott encoding of `data Nat = Succ Nat | Zero` is as follows:
 
-- **`"zero" = s. z. z`**
-- **`"succ" n = s. z. s n`**
+- $\mathrm{zero} = s.\ z.\ z$
+- $\mathrm{succ}\ n = s.\ z.\ s\ n$
 
 we can then define:
 
-- **`"iszero" n = n (."false") "true"`**
+- $\mathrm{iszero}\ n = n\ (n.\ \mathrm{false})\ \mathrm{true}$
 
 unlike with [[lambda-calculus#church encoding]], we may easily define:
 
-- **`"pred" n = s. z. n (n. n) z`**
+- $\mathrm{pred}\ n = s.\ z.\ n\ (n.\ n)\ z$
 
 ### lists
 
@@ -183,15 +181,15 @@ unlike with [[lambda-calculus#church encoding]], we may easily define:
 
 the Scott encoding of `data List a = Cons a (List a) | Nil` is as follows:
 
-- **`"nil" = c. n. n`**
-- **`"cons" h t = c. n. c h t`**
+- $\mathrm{nil} = c.\ n.\ n$
+- $\mathrm{cons}\ h\ t = c.\ n.\ c\ h\ t$
 
 we can then define:
 
-- **`"isnil" l = l (."false") "true"`**
-- **`"list1" h = c. n. c h nil`**
-- **`"head" l = l (h. t. some h) none`**
+- $\mathrm{isnil}\ l = l\ (h.\ t.\ \mathrm{false})\ \mathrm{true}$
+- $\mathrm{list1}\ h = c.\ n.\ c\ h\ \mathrm{nil}$
+- $\mathrm{head}\ l = l\ (h.\ t.\ \mathrm{some}\ h)\ \mathrm{none}$
 
 unlike with [[lambda-calculus#church encoding]], we may easily define:
 
-- **`"tail" l = l (h. t. some t) none`**
+- $\mathrm{tail}\ l = l\ (h.\ t.\ \mathrm{some}\ t)\ \mathrm{none}$

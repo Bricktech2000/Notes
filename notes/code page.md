@@ -1,6 +1,6 @@
 # Code Page
 
-used for backlinks
+#stub
 
 ## 437
 

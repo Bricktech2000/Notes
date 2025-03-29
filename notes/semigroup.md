@@ -8,17 +8,17 @@ _a [[group]] without necessarily having a [[group#identity element]] or [[group#
 
 --- <https://en.wikipedia.org/wiki/Semigroup>
 
-**see** [[math notation]], [[algebraic structure]]
+**see** [[algebraic structure]]
 
 **definition** a [[semigroup]] is a finite or infinite [[set]] of elements equipped with a closed associative binary operation --- Wikipedia and me
 
 **definition**
 
-let a binary [[operator]] **`{:}`** on a [[set]] **`G_*`**. for them to form a [[semigroup]], the following [[axiom]]s must be satisfied for all **`G_* {a /\ b /\ c}`**:
+let a binary [[operator]] $\cdot$ on a [[set]] $S$. for them to form a [[semigroup]], the following [[axiom]]s must be satisfied for all $a, b, c \in S$
 
-_associativity_ **`(a : b) : c = a : (b : c)`**
+_associativity_ $(a \cdot b) \cdot c = a \cdot (b \cdot c)$
 
-_closure_ **`G_* (a : b)`**
+_closure_ $a \cdot b \in S$
 
 ## Free Semigroup
 
@@ -32,7 +32,7 @@ _closure_ **`G_* (a : b)`**
 
 **definition** $S^+ = S^*S = SS^*$, see [[monoid#free monoid]]
 
-> **note** $\{\epsilon\}^+ = \{\epsilon\}$ and therefore it is not always the case that $S^+ = S^* \setminus \{\epsilon\}$ --- <https://cs.stackexchange.com/questions/35600/kleene-star-and-kleene-plus>
+> **note** $\{\varepsilon\}^+ = \{\varepsilon\}$ and therefore it is not always the case that $S^+ = S^* \setminus \{\varepsilon\}$ --- <https://cs.stackexchange.com/questions/35600/kleene-star-and-kleene-plus>
 
 **equiv** _`+` operator in [[regular expression]]s_
 

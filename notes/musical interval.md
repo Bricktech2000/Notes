@@ -1,5 +1,7 @@
 # Musical Interval
 
+**see** [[math notation]]
+
 **definition** a _musical interval_ is the ratio of two [[frequency]]es
 
 > **examples** _[[frequency]] ratios --- with names_

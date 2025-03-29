@@ -14,7 +14,7 @@ _a [[finite automaton]] which recognizes a [[formal language#regular formal lang
 
 **notation** _the language recognized by a finite acceptor $M$_ $L(M)$
 
-an _ε-NFA_ is a finite acceptor containing transitions which consume no input, termed _ε-transitions_. such finite acceptors are considered non-deterministic, even though their _ε-closure_ may be deterministic
+an _ε-NFA_ is a finite acceptor containing transitions which consume no input, termed _ε-transitions_. these finite acceptors are considered non-deterministic, even though their _ε-closure_ may be deterministic
 
 a _generalized NFA_ or _GNFA_ is a finite acceptor whose transitions are labeled with [[regular expression]]s instead of symbols
 
