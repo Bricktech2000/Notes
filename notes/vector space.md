@@ -1,6 +1,6 @@
 # Vector Space
 
-**see** [[vector]], [[euclidean vector]], [[matrix]], [[math notation]], [[basis]], [[algebraic structure]]
+**see** [[vector]], [[euclidean vector]], [[matrix]], [[math notation]], [[basis]], [[algebraic structure]], [[tensor#product]]
 
 **types**
 
@@ -71,7 +71,7 @@ let **`V {{v_0 ... v_m}}`**. if **`U = "span" {{v_0 ... v_m}}`**, then **`/\ U -
 
 **see** [[morphism#isomorphism]]
 
-a [[vector space#isomorphism]] is an invertible [[linear transformation]]; see [[vector space#homomorphism]]
+a [[vector space#isomorphism]] is an invertible [[linear map]]; see [[vector space#homomorphism]]
 
 > **example** **`RR^3`** and **`PP^2`** are isomorphic, as any vector in **`RR^3`** can be converted to a unique vector in **`PP^2`**, and vice-versa, see [[category]]
 
@@ -79,7 +79,7 @@ a [[vector space#isomorphism]] is an invertible [[linear transformation]]; see [
 
 **see** [[morphism#homomorphism]]
 
-a [[vector space#homomorphism]] is a [[linear transformation]]
+a [[vector space#homomorphism]] is a [[linear map]]
 
 ## Dimension
 

@@ -48,9 +48,10 @@ the _resolution_ [[inference rule]] $\displaystyle \frac{p \lor f \quad \lnot p 
 
 > **procedure** _resolution-based inference_ --- <https://youtu.be/egLAF4dFdBo?t=920>
 >
-> 1. add $\lnot f$ into $\Gamma$
+> 1. add the negation of the conclusion into the knowledge base
 > 2. convert all formulas to [[conjunctive normal form]]
-> 3. repeatedly apply resolution until convergence
-> 4. return entailment if and only if we derived the empty clause
+> 3. collect the disjunctive terms into a new knowledge base
+> 4. repeatedly apply resolution until convergence
+> 5. return entailment if and only if the empty clause was derived
 
 > **note** we know a knowledge base $\Gamma$ entails a formula $f$ if and only if $\Gamma, \lnot f$ is unsatisfiable---a sort of "[[proof]] by contradiction". thinking in [[quantifier]]s, $\forall (\Gamma \to f) \leftrightarrow \lnot \exists (\Gamma \land \lnot f)$. the above procedure works because, since since resolution is sound and complete, derivability and entailment coincide

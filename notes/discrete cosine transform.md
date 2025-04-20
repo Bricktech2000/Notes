@@ -14,7 +14,7 @@
 
 **properties**
 
-the [[discrete cosine transform]] is a [[linear transformation]]
+the [[discrete cosine transform]] is a [[linear map]]
 
 the [[discrete cosine transform]] has a [[function#inverse]], the _inverse discrete cosine transform_
 
@@ -28,4 +28,4 @@ the [[discrete cosine transform]] has a [[function#inverse]], the _inverse discr
 >
 > something interesting worth pointing out is that all row [[vector]]s in the [[matrix]] **`S# x`** are [[vector#linearly independent vector]]s --- <https://youtu.be/0me3guauqOU?t=1217>. this can be observed by the fact that the [[discrete cosine transform]] of a cosine wave of [[natural]] frequency yields a [[vector]] with a single component
 >
-> since we're mapping [[vector]]s in **`RR^#x`** to [[vector]]s in **`RR^#x`** through a [[linear combination]] of **`# x`** [[vector#linearly independent vector]]s, **`RR^#x`** and the [[set]] of all **`x`** and the [[set]] of all **`CC x`** form a [[vector space#isomorphism]]. consequently, the [[linear transformation]] **`u -> :(S# x)u`** is invertible. another way to phrase this is that since **`S# x`** is a square [[matrix]] and its rows are [[vector#linearly independent vector]]s, it has a [[matrix#inverse]], see [[matrix#invertability]]. consequently, the [[discrete cosine transform]] has a [[function#inverse]]
+> since we're mapping [[vector]]s in **`RR^#x`** to [[vector]]s in **`RR^#x`** through a [[linear combination]] of **`# x`** [[vector#linearly independent vector]]s, **`RR^#x`** and the [[set]] of all **`x`** and the [[set]] of all **`CC x`** form a [[vector space#isomorphism]]. consequently, the [[linear map]] **`u -> :(S# x)u`** is invertible. another way to phrase this is that since **`S# x`** is a square [[matrix]] and its rows are [[vector#linearly independent vector]]s, it has a [[matrix#inverse]], see [[matrix#invertability]]. consequently, the [[discrete cosine transform]] has a [[function#inverse]]

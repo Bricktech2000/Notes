@@ -10,7 +10,7 @@ _[[trait]]s, type classes_
 
 ## Parametric Polymorphism
 
-_[[operator]] overloading, [[generic]]s_
+_[[generic]]s_
 
 **definition** _parametric polymorphism_ allows a [[function]] to be written generally so that it can handle values uniformly regardless of their [[type]]
 

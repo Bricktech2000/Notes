@@ -14,7 +14,7 @@ _using [[recursion]] in my [[math notation]]_ **`a^0 = 2 /\ a^n = 4 . 1-a^n.1`**
 
 _as a [[function]] (closed form) in my [[math notation]]_ **`a^n = n2`**
 
-_using [[iteration]] in [[conventional math notation]]_ $a = \lbrace 1, 2, 3, \dots \rbrace = \lbrace a_n \rbrace_{n = 0}^{\infty} = \lbrace a_n \rbrace$
+_using [[iteration]] in [[conventional math notation]]_ $a = \{ 1, 2, 3, \dots \} = \{ a_n \}_{n = 0}^{\infty} = \{ a_n \}$
 
 _using [[recursion]] in [[conventional math notation]]_ $a_1 = 2$ and $a_n = 4 - \frac{1}{a_{n \cdot 1}}$
 

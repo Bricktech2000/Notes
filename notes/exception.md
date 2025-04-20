@@ -1,8 +1,10 @@
 # Exception
 
-**aka** _`try-catch` exception_
+_`try-catch` the language construct_
 
-[[exception]]s were [[invent]]ed
+**see** [[null]]
+
+[[c]]'s `setjmp` and `longjmp` were [[discover]]ed: they're just a save-and-restore of `ip` and `sp`. but `try-catch` the language construct, was [[invent]]ed
 
 the central problem with using [[exception]]s for error handling is that errors are **not** exceptional --- <https://youtu.be/sbVxq7nNtgo?t=2m3s>. assuming the "happy path" and handling other cases by breaking normal control flow is not smart. that said, sometimes, breaking normal control flow and `longjmp`ing somewhere up the stack---regardless of whether errors are involved---is the most practical solution. and in those rare cases, [[exception]]s become a useful [[tool]]
 

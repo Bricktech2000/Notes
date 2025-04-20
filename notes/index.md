@@ -42,8 +42,6 @@ a _clause_ is a disjunction of a bunch of literals (literals are symbol and ¬sy
 
 --- <https://youtu.be/egLAF4dFdBo?t=92>
 
-#xxx src for unification and substitution (_how GHC's type inference engine actually works_ by Simon Peyton Jones): <https://youtu.be/-TJGhGa04F8>. probably want to cross-reference with `learn hindley-milner.md` in calendar ~~and with <https://terramorpha.github.io/blog.Sequent.html>~~
-
 ---
 
 [[propositional logic]]

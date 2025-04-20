@@ -8,14 +8,10 @@ _in the beginning you want results but in the end you want control_
 
 #xxx
 
-- [[invest]]
-- [[invent]]
-- [[discover]]
-- [[durability]]
-
 - don't complain about complexity when in the _results_ phase; complexity exists because _control_
 - maybe that's why the Gos and Javas of this world feel like toys. they don't give you eventual control
 - [[muscle memory]]/[[abstraction]] gets built over complexity over time
+- think about relationshipt with [[invent]]/[[discover]] and [[durability]]
 
 ---
 

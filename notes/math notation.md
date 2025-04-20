@@ -266,7 +266,7 @@ already updated:
 partially testing out:
 
 - [[pid controller]]
-- [[linear transformation#standard matrix]] **`A = rr (T I *)`**
+- [[linear map#standard matrix]] **`A = rr (T I *)`**
 - [[trigonometric function]] theorem **`c"cos" (* + aa)`**
 - [[binary exponentiation]] [[monoid#operation]] through [[composition]]
 
@@ -307,10 +307,10 @@ if **`\*`** is an [[operator]] with _transitive associativity_, then **`a \* b \
 | definition of the [[dot product]]            | **`:xy`**                                  | $\displaystyle x \cdot y  = \sum_{i=1}^n x_i y_i$                                                        |
 | definition of the [[matrix#trace]]           | **`:{A *}`**                               | $\displaystyle \operatorname{tr}(A) = \sum_{i=1}^n A_{ii}$                                               |
 | definition of the [[outer product]]          | **`x * \| y *`**                           | $\displaystyle (x \otimes y)_{i, j}  = x_i \times y_j$                                                   |
-| definition of the [[cartesian product]]      | **`__ (X, Y) *`**                          | $\displaystyle X \times Y = \lbrace (x, y) \mid x \in X \text{ and } y \in Y \rbrace$                    |
+| definition of the [[cartesian product]]      | **`__ (X, Y) *`**                          | $\displaystyle X \times Y = \{ (x, y) \mid x \in X \text{ and } y \in Y \}$                              |
 | definition of [[euclidean vector#magnitude]] | **`\:v2/`**                                | $\displaystyle \vert v \vert = \sqrt{v_x^2 + v_y^2 + \dots}$                                             |
 | definition of [[set]] difference             | **`A /\ +B`**                              | $\displaystyle A \setminus B = \{x : x \in A \text{ and } x \notin B\}$                                  |
 | the [[activation function#softmax function]] | **`ss z = {*-:} [z]`**                     | $\displaystyle \sigma(s)_c = \frac{\exp(s_c)}{\sum_{c'} \exp(s_{c'})}$                                   |
 | definition of [[information entropy]]        | **`H = :PI`**                              | $\displaystyle H(X) = \sum_{i=1}^n P(x_i) \cdot I(x_i)$                                                  |
 | the [[p-adic#absolute value]]                | **`"abs"^p n = --p[yy n p]`**              | not really doable in a concise way without using plain English                                           |
-| the **`n`**th column of a [[matrix]]         | **`rr M n`**                               | $(M^\intercal)_n$ or $\operatorname{col}_n(M)$ or $M_{\cdot j}$ --- nothing standard                     |
+| the **`n`**th column of a [[matrix]]         | **`rr M n`**                               | $(M^\top)_n$ or $\operatorname{col}_n(M)$ or $M_{\cdot j}$ --- nothing standard                          |

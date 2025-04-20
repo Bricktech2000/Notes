@@ -1,27 +1,27 @@
 # Hadamard Product
 
-**see** [[vector]], [[euclidean vector]], [[matrix]], [[math notation]]
+_multiplication [[under]] [[polymorphism#rank polymorphism]]_
+
+**see** [[vector]], [[euclidean vector]], [[matrix]]
 
 --- <http://neuralnetworksanddeeplearning.com/chap2.html#the_hadamard_product_$s_\odot_t$>
 
 --- <https://en.wikipedia.org/wiki/Hadamard_product_(matrices)#Properties>
 
-**definition** the [[hadamard product]] of **`s`** and **`t`** is **`st`**, where **`s`** and **`t`** have the same rank and the same shape. see [[polymorphism#rank polymorphism]]
+**definition** $s \odot t = {}_{i.\ } s_it_i$ over all dimensions, where $s$ and $t$ have the same shape
 
-> **example** **`[]1 && 2[] | []3 && 4[] = []1 | 3 && 2 | 4[] = []3 && 8[]`**
+> **example** $\begin{bmatrix}1 & 2 \\ 3 & 4\end{bmatrix} \odot \begin{bmatrix}5 & 6 \\ 7 & 8\end{bmatrix} = \begin{bmatrix}5 & 12 \\ 21 & 32\end{bmatrix}$
 
-**properties**
+**properties** _for all [[real]] $k$ and [[matrix]]es $A, B, C$_
 
-let **`RR k /\ MM A /\ MM B /\ MM C`**
+_commutative_ $A \odot B = B \odot A$
 
-_commutative_ **`AB = BA`**
+_associative_ $A \odot (B \odot C) = (A \odot B) \odot C$
 
-_associative_ **`A | BC = AB | C`**
+_distributive over addition_ $A \odot (B + C) = (A \odot B) + (A \odot C)$
 
-_distributive_ **`A | B : C = AB : AC`**
+_distributive over [[scalar]] multiplication_ $k(A \odot B) = kA \odot B = A \odot kB$
 
-_distributive with [[scalar]]s_ **`kA | B = A | kB = AB | k`**
+_identity_ $1 \odot A = A \odot 1 = A$ where $\forall i.\ 1_i = 1$
 
-_identity_ **`I | A = A | I = A`** with **`/\/\ I * * = 1`**
-
-_zero_ **`O | A = A | O = O`** with **`/\/\ O * * = 0`**
+_annihilation_ $0 \odot A = A \odot 0 = 0$ where $\forall i.\ 0_i = 0$

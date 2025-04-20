@@ -2,7 +2,7 @@
 
 **see** [[math notation]], [[matrix]]
 
-the [[determinant]] is a [[morphism#homomorphism]] from [[matrix]]es with [[matrix#multiplication]] to [[scalar]]s with multiplication. similarly, the [[determinant]] is a [[morphism#homomorphism]] from [[linear transformation]]s with [[composition]] to their effect on [[area]]s with multiplication
+the [[determinant]] is a [[morphism#homomorphism]] from [[matrix]]es with [[matrix#multiplication]] to [[scalar]]s with multiplication. similarly, the [[determinant]] is a [[morphism#homomorphism]] from [[linear map]]s with [[composition]] to their effect on [[area]]s with multiplication
 
 **notation**
 

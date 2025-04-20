@@ -6,9 +6,15 @@ _a collection of vertices connected by a collection of edges_
 
 **definition** _formally in my [[math notation]]_ a [[graph]] is a [[set theory]]etical incidence [[function]] that takes two vertices and returns whether an edge is connecting them; it is a [[relation]] on vertices
 
+**equiv** _[[graph]] and [[matrix]] of [[boolean]]s_
+
 **definition** a _weighted graph_ is a [[graph]] **`G`** such that **`RR (G a b)`** for all **`a`** and **`b`**
 
+**equiv** _weighted [[graph]] and [[matrix]] of [[real]]s_
+
 **definition** an _undirected graph_ is a [[graph]] **`G`** such that **`(= rr) G`**
+
+**equiv** _undirected [[graph]] and symmetric [[matrix]]_
 
 directionality can be "forgotten" by taking the [[relation#symmetric closure]] of the [[graph]]
 

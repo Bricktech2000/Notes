@@ -10,8 +10,8 @@ _an intermediate representation for a [[programming language]]_
 
 ```mermaid
 graph TD
-  + --> 7
-  + --> * --> 3 & 4
+  $$+$$ --> $$7$$
+  $$+$$ --> $$*$$ --> $$3$$ & $$4$$
 ```
 
 **representation**

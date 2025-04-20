@@ -10,6 +10,7 @@ _[[set]]s of [[number]]s_
   - ...
   - [[p-adic]]s
   - [[float]]
+  - [[dual number]]s
   - [[complex]]
     - [[imaginary]]
     - [[real]]

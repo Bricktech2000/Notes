@@ -58,7 +58,9 @@ all [[function]] items and all closures of a [[rust]] program have a unique [[ty
 
 ## Macros
 
-_declarative macros_ "macros by example" contain a series of _rules_ consisting of a _matcher_ and a _transcriber_. metavariables are denoted _`$` name `:` fragment-specifier_. valid fragment specifiers are `item`, `block`, `stmt`, `pat_param`, `pat`, `expr`, `ty`, `ident`, `path`, `tt`, `meta`, `lifetime`, `vis`, `literal`. repetitions are denoted _`$(` tokens `)`_, followed by an optional token to be used as a seperator, followed by one of `*`, `+`, `?` to be used as a quantifier
+--- <https://doc.rust-lang.org/reference/macros-by-example.html> and <https://doc.rust-lang.org/reference/procedural-macros.html>
+
+_declarative macros_ "macros by example" contain a series of _rules_ consisting of a _matcher_ and a _transcriber_. metavariables are denoted _`$` name `:` fragment-specifier_. valid fragment specifiers are `item`, `block`, `stmt`, `pat_param`, `pat`, `expr`, `ty`, `ident`, `path`, `tt`, `meta`, `lifetime`, `vis`, `literal`. repetitions are denoted _`$(` tokens `)`_, followed by an optional token to be used as a seperator, followed by one of `*`, `+`, `?` to be used as a quantifier like in [[regular expression]]s
 
 scoping of declarative macros is funky; see <https://doc.rust-lang.org/reference/macros-by-example.html#scoping-exporting-and-importing>. simplest solution is to write _`pub(crate) use` macro-name_ somewhere after its definition _`macro_rules!` macro-name_ so it can be used and imported like any other item --- <https://stackoverflow.com/questions/26731243/how-do-i-use-a-macro-across-module-files>
 

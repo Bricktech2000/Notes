@@ -38,7 +38,7 @@ notice that many [[tool]]s match one of the following _scopes_
 > - Obsidian has first-party file syncing---but file syncing is a solved problem; Git and Syncthing are great at it
 > - Obsidian has a paid [[markdown]]-to-web service---but [[markdown]]-to-web is a solved problem; mkdocs and hugo are great at it
 > - Obsidian lacks support for team collaboration---but team collaboration is a solved problem; Git and GitHub are great at it
-> - Obsidian is good at text manipulation---but text manipulation is a solved problem; [[vim#bindings]] are great at it
+> - Obsidian is good at text manipulation---but text manipulation is a solved problem; [[vim]] bindings are great at it
 > - Obsidian is phenomenal for linking---but linking is a solved problem; [[markdown]] with [[wikilink]]s are great at it
 
 > **note** type-0 and type-1 tools appear to correspond to the _Write programs that do one thing and do it well._ part of the Unix philosophy

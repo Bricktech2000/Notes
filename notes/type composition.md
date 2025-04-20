@@ -15,6 +15,8 @@ I started paying more attention to the characters I write with after a swift shi
 | prime and double prime       | ′ ″       | ' "                     |
 | en dash                      | –         | --                      |
 | em dash                      | —         | ---                     |
+| rightwards arrow             | →         | ->                      |
+| long rightwards arrow        | ⟶         | -->                     |
 | multiplication sign          | ×         | x                       |
 | minus sign                   | −         | -                       |
 | dot operator                 | ⋅         | .                       |

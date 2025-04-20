@@ -84,7 +84,7 @@ _the scalar projection is equal to the [[euclidean vector#magnitude]] of the [[e
 
 **see** [[dot product]]
 
-[[euclidean vector#projection]]s are [[linear transformation]]s, and therefore can be turned into [[matrix#multiplication]]
+[[euclidean vector#projection]]s are [[linear map]]s, and therefore can be turned into [[matrix#multiplication]]
 
 **definition** _projection onto another [[vector]]_
 

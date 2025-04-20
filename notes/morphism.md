@@ -8,7 +8,7 @@
 
 > **example** `len` is a [[morphism#homomorphism]] between the [[monoid]]s `List, ++, []` and `Nat, +, 0`
 
-> **example** a [[linear transformation]] is a [[morphism#homomorphism]] between [[vector space]]s
+> **example** a [[linear map]] is a [[morphism#homomorphism]] between [[vector space]]s
 
 ## Isomorphism
 
@@ -18,7 +18,7 @@
 
 > **example** **`[.] ee`** and its inverse **`\./ ee`** are [[morphism#isomorphism]]s between the [[group]]s **`ZZ, {:}`** and **`ZZ, {|}`**
 
-> **example** an invertible [[linear transformation]] is an [[morphism#isomorphism]] between [[vector space]]s
+> **example** an invertible [[linear map]] is an [[morphism#isomorphism]] between [[vector space]]s
 
 ## Endomorphism
 
@@ -26,7 +26,7 @@
 
 > **example** **`ss`** is an [[morphism#endomorphism]] of the [[monoid]] **`NN, {:}`**
 
-> **example** a [[linear transformation]] from a [[vector space]] to itself is an [[morphism#endomorphism]]
+> **example** a [[linear map]] from a [[vector space]] to itself is an [[morphism#endomorphism]]
 
 since [[morphism#endomorphism]]s on an [[algebraic structure]] map it to itself, they form a [[monoid]] under [[composition]] --- me
 
@@ -40,7 +40,7 @@ since [[morphism#endomorphism]]s on an [[algebraic structure]] map it to itself,
 
 > **example** **`(..)`** is an [[morphism#automorphism]] of the [[group]] **`ZZ, {:}`**
 
-> **example** an invertible [[linear transformation]] from a [[vector space]] to itself is an [[morphism#automorphism]]
+> **example** an invertible [[linear map]] from a [[vector space]] to itself is an [[morphism#automorphism]]
 
 since [[morphism#automorphism]]s on an [[algebraic structure]] map it to itself and are invertible, they form a [[group]] under [[composition]] --- <https://youtu.be/VZiLpYC0t5E?t=1581>
 

@@ -1,6 +1,6 @@
 # Type System
 
-**see** [[type]], [[polymorphism]]
+**see** [[type]], [[type inference]], [[polymorphism]]
 
 > **resource** [[type system]]s in [[functional programming]] --- <https://youtu.be/hy1wjkcIBCU>
 

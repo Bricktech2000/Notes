@@ -38,7 +38,7 @@ _commutativity with [[scalar]]s_ **`kA = Ak`**
 
 #todo mm
 
-**equiv** _[[linear transformation]]_
+**equiv** _[[linear map]]_
 
 **see** [[dot product]], [[euclidean vector]]
 
@@ -365,7 +365,7 @@ let **`MM^n,n A`**. the following statements are equivalent:
 
 > **note** all statements below are valid for both **`A`** and **`rr A`**, see [[matrix#transpose]]
 
-> **note** thinking of [[matrix]]es as [[linear transformation]]s makes the following statements extremely intuitive
+> **note** thinking of [[matrix]]es as [[linear map]]s makes the following statements extremely intuitive
 
 - **`"rank" A = n`**
 - every [[linear system]] of the form **`Ax = b`** has a unique solution

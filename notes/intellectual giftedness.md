@@ -35,4 +35,6 @@ giftedness, ADHD and ASDs have similar diagnostic criteria and classic signs; th
 
 --- <https://youtu.be/9hq51UFkt-k>
 
+--- <https://youtu.be/ybmgVSdsMu8>
+
 --- <https://youtu.be/3DQrJ8Gsw9o> (damn.)

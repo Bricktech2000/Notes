@@ -1,6 +1,6 @@
 # Type
 
-**see** [[type system]]
+**see** [[type system]], [[type inference]]
 
 --- <https://youtu.be/6hAeJmKXRfo>
 

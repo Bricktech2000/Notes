@@ -10,7 +10,7 @@ _a [[euclidean vector]] pointing to the direction of steepest ascent_
 
 [[gradient#descent]] is an [[optimization]] [[algorithm]] that uses [[gradient]]s to find a local [[function#extremum]] through [[iteration]]
 
-[[gradient#descent]] is based on the observation that a differentiable [[function]] $f$ decreases fastest in the direction of its negative [[gradient]], $-\nabla f$
+[[gradient#descent]] is based on the observation that a differentiable [[function]] $f$ decreases fastest in the direction of its negative [[gradient]] $-\nabla f$
 
 > **procedure** _[[gradient#descent]]_
 >

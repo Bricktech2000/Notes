@@ -4,9 +4,9 @@
 
 ## Identity Element
 
-**see** [[algebraic structure]], [[binary exponentiation]]
+**see** [[algebraic structure]], [[reduce function]], [[binary exponentiation]]
 
-it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] under [an [[operator]]]_. for example, _[[natural]]s with **`0`** form a [[monoid]] under addition_
+it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] under [an [[operator]]]_. for example, _[[natural]]s with $0$ form a [[monoid]] under addition_
 
 **definition** a [[monoid]] is a finite or infinite [[set]] equipped with a closed associative binary operation and an identity element --- Wikipedia
 
@@ -23,18 +23,6 @@ _closure_ $a \cdot b \in S$
 --- Wikipedia
 
 --- <https://youtu.be/Nrp_LZ-XGsY?t=1041>
-
-**applications**
-
-_closure_ allows the binary operation to be used on a list of elements of the set $S$. this is known as the _[[reduce function]]_ in [[functional programming]]. as examples, `[1, 2, 3].reduce(+) = 1 + 2 + 3 = 6` and `["a", "b", "c"].reduce(&) = "a" & "b" & "c" = "abc"`.
-
-_associativity_ allows for [[divide and conquer]] [[algorithm]]s
-
-_associativity_ allows for automatic parallelization of operations throughout multiple threads, CPUs, GPUs...
-
-_associativity_ allows for incremental accumulation. if we have already computed `(1 + 2 + 3) = 6`, we can compute `(1 + 2 + 3) + 4 = 6 + 4 = 10` without having to recompute the result of `(1 + 2 + 3)`
-
-_identity element_ allows for the binary operation to be used when data is empty or missing; on an empty list, for instance. this is known as the _fold function_ in [[functional programming]]. as examples, `[].reduce(+) = 0` and `[].reduce(&) = ""`.
 
 **examples**
 

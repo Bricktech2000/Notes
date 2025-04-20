@@ -188,7 +188,7 @@ energy-momentum relation: $E2 = [pc]2 : [m_0 c2]2$
 
 ---
 
-if the number of nodes of a complete binary tree is $2^k - 3$, then the number of nodes in the full binary tree excluding its last layer is $2^{k - 1} - 1. computing the difference, we get $2^{k - 1} - 2$ nodes on the last layer of the tree. given that the number of leaf nodes in the full binary tree of the same height as the complete binary tree is $2^{k - 1}$, we deduce that there are two nodes missing on the last layer of the complete binary tree. the two nodes missing on the last layer have a common parent node that is a leaf, and so the number of leaf nodes of the complete binary tree is $2^{k - 1} - 1$
+if the number of nodes of a complete binary tree is $2^k - 3$, then the number of nodes in the full binary tree excluding its last layer is $2^{k - 1} - 1$. computing the difference, we get $2^{k - 1} - 2$ nodes on the last layer of the tree. given that the number of leaf nodes in the full binary tree of the same height as the complete binary tree is $2^{k - 1}$, we deduce that there are two nodes missing on the last layer of the complete binary tree. the two nodes missing on the last layer have a common parent node that is a leaf, and so the number of leaf nodes of the complete binary tree is $2^{k - 1} - 1$
 
 ---
 
@@ -367,7 +367,7 @@ function-scalar addition $f : 5 = f\ \circ : 5$
 
 "over" operator $|V\ \circ|$
 
-linear transformation standard matrix $A = \rho\ (T\ I\ \circ)$
+linear map standard matrix $A = \rho\ (T\ I\ \circ)$
 
 matrix transpose / c combinator $\rho\ M$
 

@@ -8,11 +8,11 @@
 
 **definition** _formally in my [[math notation]]_ a [[set]] is a [[set theory]]etical [[function]] that takes an element and returns whether it is a member of the [[set]]. that is, [[set]]s are [[predicate]]s
 
-**notation** _set roster notation_ **`S = {{1, 2, 3}}`**
+**notation** _set-roster notation_ **`S = {{1, 2, 3}}`**
 
-**notation** _set roster notation_ **`S = {{1, 2, 3 ...}}`** --- **`...`** are allowed
+**notation** _set-roster notation_ **`S = {{1, 2, 3 ...}}`** --- **`...`** are allowed
 
-**notation** _set builder notation_ **`S x = P x`** or **`S = x -> P x`** where **`P`** is [[predicate]]
+**notation** _set-builder notation_ **`S x = P x`** or **`S = x -> P x`** where **`P`** is [[predicate]]
 
 **types**
 

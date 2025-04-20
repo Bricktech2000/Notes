@@ -32,7 +32,7 @@ and the rest of [[go]] is half-baked at best; examples include:
 
 - [[go]] uses "zero values" to avoid uninitialized variables, which is a band-aid solution to a problem that should be solved at the [[type system]] level
 - [[go]] has [[interface]]s, which are a poor man's [[trait]]s. and [[go]] [[interface]]s are duck-typed, which is another shady decision
-- [[go]] dares to list [[type]] inference as a feature, but all its [[type]] inference engine does is fill in the [[type]] of a [[variable]] in a declaration based on the value it's assigned
+- [[go]] dares to list [[type inference]] as a feature, but all its [[type inference]] engine does is fill in the [[type]] of a [[variable]] in a declaration based on the value it's assigned
 - [[go]] proudly uses [[ordered pair]]s instead of special syntax for error handling, except that the way you do errors-as-values is to use the `Either` [[monad]], not a [[type#product type]]
 
 for the sake of [[confirmation bias]], let's end with a few cherry-picked quotes:

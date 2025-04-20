@@ -158,6 +158,8 @@ U"foo" // char32_t[6]
 > **example** `struct { int size; char data[]; } *p = malloc(sizeof(*p) + sizeof(char[m]);`
 
 > **note** generally, prefer `struct s *p = malloc(sizeof(*p));` to `struct s *p = malloc(sizeof(struct s));` when using `sizeof` --- <https://www.kernel.org/doc/Documentation/process/coding-style.rst> "Linux kernel coding style", $14 'Allocating memory', and <https://youtu.be/443UNeGrFoM?t=1h3m57s>
+>
+> > **note** `size_t zero(int a[10]) { return memset(a, 0, sizeof(a)); }` won't work, but `size_t zero(int (*a)[10]) { return memset(a, 0, sizeof(*a)); }` will
 
 `sizeof char` is `1`, and the size of the other integer data types is implementation defined and is available in `limits.h`. each has a standard-imposed minimum magnitude; see ISO/IEC 9899:TC3, Annex E, paragraph 1. actual-width integers such as `uint32_t` and widest integer types `uintmax_t` and `intmax_t` are available in `stdint.h` and `inttypes.h`
 
@@ -433,7 +435,7 @@ identifiers matching the [[regular expression]] `/_[_A-Z].*/` are reserved every
 
 ## storage duration
 
-objects declared within a block or within a function parameter and objects declared with the `auto` storage-class specifier have _automatic_ storage duration, living from the start to the end of the block. `auto` is a bit useless, because the only places it's allowed to be used, automatic storage duration is already the default --- <https://stackoverflow.com/questions/4688816/concept-of-auto-keyword-in-c>. starting in C23, `auto` provides [[c++]]-style [[type]] "inference" --- <https://youtu.be/lLv1s7rKeCM?t=11m45s>
+objects declared within a block or within a function parameter and objects declared with the `auto` storage-class specifier have _automatic_ storage duration, living from the start to the end of the block. `auto` is a bit useless, because the only places it's allowed to be used, automatic storage duration is already the default --- <https://stackoverflow.com/questions/4688816/concept-of-auto-keyword-in-c>. starting in C23, `auto` provides [[c++]]-style "[[type inference]]" --- <https://youtu.be/lLv1s7rKeCM?t=11m45s>
 
 > **example** `{ int x; }`
 
@@ -669,17 +671,19 @@ X macros and higher-order macros
 // char *names[] = {NAMES(MKSTRS)};
 ```
 
+> **resource** the `NODE_TYPES` X macro in my [[automatic differentiation]] library --- <https://github.com/Bricktech2000/Autodiff/blob/master/lib/autodiff.h> and <https://github.com/Bricktech2000/Autodiff/blob/master/lib/autodiff.c>
+
 overload on/expand to argument count
 
 ```c
-#define SOME_FUNC_N(_1, _2, _3 NAME, ...) NAME
+#define SOME_FUNC_N(_3, _2, _1 NAME, ...) NAME
 #define SOME_FUNC(...)                                                         \
   FUNC_N(__VA_ARGS__, ternary, binary, unary, nullary)(__VA_ARGS__)
 // SOME_FUNC()        // undefined behavior
 // SOME_FUNC(x)       // unary(x)
 // SOME_FUNC(x, y)    // binary(x, y)
 // SOME_FUNC(x, y, z) // ternary(x, y, z)
-#define PP_NARG_N(_1, _2, _3, N, ...) N
+#define PP_NARG_N(_3, _2, _1, N, ...) N
 #define PP_NARG(...) PP_NARG_N(__VA_ARGS__, 3, 2, 1, 0)
 // PP_NARG()        // undefined behavior
 // PP_NARG(x)       // 1

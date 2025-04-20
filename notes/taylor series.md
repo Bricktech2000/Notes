@@ -67,4 +67,4 @@ intuitive explanation: <https://youtu.be/3d6DsjIBzJ4?t=383>
 
 > **proof** <https://youtu.be/7gigNsz4Oe8?t=22288>
 
-this practical convergence criterion is a good way to show that a [[taylor series]] converges to its underlying [[function]] on a given [[interval]]. however, if the inequality does not hold, no conclusion can be drawn; the [[taylor series]] may or may not converge to the underlying [[function]] on the [[interval]].
+this practical convergence criterion is a good way to show that a [[taylor series]] converges to its underlying [[function]] on a given [[interval]]. however, if the inequality does not hold, no conclusion can be drawn; the [[taylor series]] may or may not converge to the underlying [[function]] on the [[interval]]
