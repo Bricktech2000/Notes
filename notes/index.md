@@ -14,8 +14,6 @@ files below are based on [[conceptual note-taking]], a system in which atomic no
 
 [[fields]]
 
-[[random]]
-
 ## Worth Reading
 
 [[math notation]] and related notes
