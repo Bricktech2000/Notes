@@ -1,12 +1,13 @@
 # Fast Inverse Square Root
 
-**see** [[math notation]]
+[[fast inverse square root]] is an [[algorithm]] that estimates $\overline{\sqrt x}$ for a 32-bit [[ieee 754]] [[floating-point number]] $x$
 
-the [[fast inverse square root]] is an [[algorithm]] that estimates **`--\x/`** for a 32-bit [[ieee 754]] [[float]]ing-point number **`x`**
+> **resource** `Q_rsqrt` in its natural habitat --- <https://github.com/id-Software/Quake-III-Arena/blob/master/code/game/q_math.c#L552-L572>
 
-**representation** _original implementation stripped of [[c#preprocessor]] directives_
+**representation** _original implementation, tabs expanded_
 
 ```c
+
 float Q_rsqrt( float number )
 {
     long i;
@@ -21,68 +22,38 @@ float Q_rsqrt( float number )
     y  = y * ( threehalfs - ( x2 * y * y ) );   // 1st iteration
 //  y  = y * ( threehalfs - ( x2 * y * y ) );   // 2nd iteration, this can be removed
 
+#ifndef Q3_VM
+#ifdef __linux__
+    assert( !isnan(y) ); // bk010122 - FPE?
+#endif
+#endif
     return y;
 }
 ```
 
-**representation** _more readable version, mostly equivalent_
+**representation** _more readable version, mostly equivalent_ --- Wikipedia and me
 
 ```c
-#include <stdint.h> // uint32_t
+#include <stdint.h>
 
-float Q_rsqrt(float number)
-{
-  union { float f; uint32_t i; } conv = { .f = number };
-  conv.i  = 0x5f3759df - (conv.i >> 1);
-  conv.f *= 1.5F - (number * 0.5F * conv.f * conv.f);
+float Q_rsqrt(float x) {
+  union { float f; uint32_t i; } conv = { .f = x };
+  conv.i = 0x5f3759df - (conv.i >> 1);
+  conv.f *= 1.5f - (x * 0.5f * conv.f * conv.f);
   return conv.f;
 }
 ```
 
+> **note** depending on the cycle count of floating-point multiplies, performance can be improved further by replacing `x * 0.5f` with `x - 0x800000` to decrement the exponent directly --- <https://youtu.be/tmb6bLbxd08&t=416>
+
 ## explanation
 
-### floating-point bit representation
-
-**aka** _evil floating point bit level hacking_
-
-let **`x = 2[e_x] | m_x`**. assuming **`x |- 0`** and **`1 -| m_x -| 2`**, according to [[ieee 754]], we get **`i_x = L(e_x : B) : L(m_x .. 1)`**, where
-
-- **`i_x`** is the [[natural]] whose bit representation is that of the [[ieee 754]] [[float]] **`x`**
-- **`B = 127`** is the [[ieee 754]] _exponent bias_ for 32-bit floats
-- **`L = 2[23]`** is abstracting away a "magic" constant for 32-bit floats
-
-> **note** multiplying the [[exponent]] by **`L`** performs a bitwise left shift so the [[exponent]] lands in the right spot. multiplying the mantissa by **`L`** turns it into a 23-bit [[natural]]. adding **`B`** to **`e_x`** as per [[ieee 754]] allows for the representation of negative [[exponent]]s. subtracting **`1`** from **`m_x`** as per [[ieee 754]] saves one bit in the representation, since **`1 -| m_x -| 2`**
-
-### efficient logarithms
-
-let **`y = -- \x/`**. since square roots and divisions are expensive to compute, we derive **`/y\2 = ..-2/x\2`**. we need to look for an efficient way to compute base-2 [[logarithm]]s
-
-given **`x = 2[e_x] | m_x`**, **`/x\2 = e_x : /m_x\2`**. since **`1 -| m_x -| 2`**, a common approximation can be used, **`/m_x\2 ~ m_x .. 1 : ss`** where **`ss`** is a free parameter used to tune the approximation. therefore, **`/x\2 ~ e_x : m_x .. 1 : ss`**
-
-given **`i_x = L(e_x : B) : L(m_x .. 1)`**, we get **`i_x = L(e_x : B : m_x .. 1) = L(e_x : m_x .. 1 : ss : B .. ss) ~  L/x\2 : L(B .. ss)`**. solving, we get **`/x\2 ~ -Li_x .. (B .. ss)`**; in other words, the [[ieee 754]] bit representation of a [[float]] is approximately its own [[logarithm]] up to constant scaling and shifting
-
-### inverse square root
-
-**aka** _what the fuck_
-
-substituting the above into **`/y\2 = ..-2/x\2`**, we get **`-Li_y .. (B .. ss) ~ ..-2 | -Li_x .. (B .. ss)`**. thus, **`i_y ~ 3-2L(B .. ss) .. -2i_x`**, which is written in code as follows, in which the magic `0x5f3759df` is derived from the value of **`3-2L(B .. ss)`** with **`ss ~ 0 0450466-10000000`**:
-
-```c
-i = 0x5f3759df - (i >> 1);
-```
-
-### improving the approximation
-
-**aka** _1st iteration_
-
-given **`y = -- \x/`**, we can use [[newton's method]] to refine the [[function#root]]s of **`y. -y2 .. x`**. with **`f y = -y2 .. x`**, we get **`dd f = y. ..2-y3`**. through [[newton's method]], **`y_* = y .. (-y2 .. x -- ..2-y3) = y : (y .. xy3 -- 2) = y | 3-2 .. xy2-2`**, which is written in code as follows:
-
-```c
-y = y * (1.5F - x*0.5F*y*y);
-```
-
-## ---
-
---- <https://en.wikipedia.org/wiki/Fast_inverse_square_root#Overview_of_the_code>
+--- me
 
 --- <https://youtu.be/p8u_k2LIZyo>
+
+--- <https://en.wikipedia.org/wiki/Fast_inverse_square_root#Algorithm>
+
+we have $\log_2 \overline{\sqrt x} = -\overline 2 \log_2 x$ and we know that the bit representation of an [[ieee 754]] [[floating-point number]] is an approximation of its [[logarithm]], so we can implement this in code as `conv.i = -(conv.i >> 1);`. the magic constant `0x5f3759df` is approximately $1.5(127 - \sigma) \cdot 2^{23}$, a fix-up for the exponent bias $127$ in the $23$rd bit and for the tuning parameter $\sigma = 0.0430$, that are off by $-1.5$ because they got halved then negated
+
+we can improve our initial guess using a root-finding method; specifically, $\overline{\sqrt x}$ is a root of the [[function]] $y.\ y - \overline{\sqrt x}$ with [[derivative]] $1$. to apply [[newton's method]] we want the [[derivative]] to contain maximal information, so we solve for $x$ to get $y.\ \overline y^2 - x$ with [[derivative]] $-2\overline y^3$. then, [[newton's method]] gives $y_{n + 1} = y_n - (-\overline 2 y_n^3)(\overline y_n^2 - x) = y_n(\frac 3 2 - \overline 2 xy_n^2)$, which is implemented in code as `conv.f *= 1.5f - (x * 0.5f * conv.f * conv.f);`

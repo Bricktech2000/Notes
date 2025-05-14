@@ -60,6 +60,7 @@ _That’s why you need spies. And cages... and an enemy. You have no real power_
 > - hands moving forward
 > - ventral fronting
 > - mirroring
+> - lower blink rate
 
 > **examples** _disinterested behavior_
 >
@@ -122,6 +123,7 @@ _That’s why you need spies. And cages... and an enemy. You have no real power_
 > - bunny nose
 > - head straight up
 > - compressed lips
+> - higher blink rate
 
 there exists no single behavior indicative of deception, but there does exist behavior indicating psychological discomfort
 

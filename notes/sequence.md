@@ -20,7 +20,7 @@ _using [[recursion]] in [[conventional math notation]]_ $a_1 = 2$ and $a_n = 4 -
 
 _as a [[function]] (closed form) in [[conventional math notation]]_ $a_n = n^2$
 
-> **example** _the Fibonacci sequence_ **`F^0 = 0 /\ F^1 = 1 /\ F^n = F^n.1 : F^n.2`**
+> **example** _the [[fibonacci sequence]]_ **`F^0 = 0 /\ F^1 = 1 /\ F^n = F^n.1 : F^n.2`**
 
 ## Sum
 

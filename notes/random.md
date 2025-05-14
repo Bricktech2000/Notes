@@ -986,11 +986,11 @@ $$\frac{\Gamma \vdash P \lor Q \quad \Gamma, P \vdash R}{\Gamma \vdash R} \quad 
 
 ---
 
-## why does $\operatorname{atan2}(a_xb_y - a_yb_x, a_xb_x + a_yb_y)$ give the angle between two vectors?
+## why does $\mathrm{atan2}(a_xb_y - a_yb_x, a_xb_x + a_yb_y)$ give the angle between two vectors?
 
 let vectors $a, b$ and let $b^* = (b_y, -b_x)$ ($b$ rotated a quarter turn)
 
-the angle between the vectors $\theta = \operatorname{atan2}(\mathrm{proj}_{b^*} a, \mathrm{proj}_b a)$.
+the angle between the vectors $\theta = \mathrm{atan2}(\mathrm{proj}_{b^*} a, \mathrm{proj}_b a)$.
 
 from the projection formula:
 
@@ -998,7 +998,7 @@ $$\mathrm{proj}_{b^*} a = a \cdot \hat b^* = \frac{a \cdot b^*}{|b^*|}$$
 
 $$\mathrm{proj}_b a = a \cdot \hat b = \frac{a \cdot b}{|b|}$$
 
-obviously $|b| = |b^*|$, and scaling the projections doesn't change the angle, so we get $\theta = \operatorname{atan2}(a \cdot b^*, a \cdot b) = \operatorname{atan2}(a_xb_y - a_yb_x, a_xb_x + a_yb_y)$.
+obviously $|b| = |b^*|$, and scaling the projections doesn't change the angle, so we get $\theta = \mathrm{atan2}(a \cdot b^*, a \cdot b) = \mathrm{atan2}(a_xb_y - a_yb_x, a_xb_x + a_yb_y)$.
 
 ---
 
@@ -1098,7 +1098,7 @@ superfactorial **`(|)2(sshh)2`** --- <https://en.wikipedia.org/wiki/Superfactori
 
 **`"sf"ss n = "fact"ss n | "sf" n`** aka **`"sf"ss = "fact"ss | "sf"`**
 
-$\operatorname{fact} n = (\vert)\sigma\eta\ n$
+$\mathrm{fact}\ n = (\vert)\sigma\eta\ n$
 
 $a'b$ $a`b$ $a | b$ $a \backslash b$
 

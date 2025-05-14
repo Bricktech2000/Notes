@@ -8,7 +8,7 @@
 
 the λ-calculus is a simple [[programming language]] and [[turing complete]] model of computation. it is the basis for most [[functional programming]] [[programming language]]s
 
-**definition** _β-reduction_ is the process of replacing bound variables with the argument to an abstraction
+**definition** _β-reduction_ is the process of [[substitution]] of bound variables with the argument to an abstraction
 
 **definition** a λ-term is in _β-normal form_ if it cannot be _β-reduced_ any further
 

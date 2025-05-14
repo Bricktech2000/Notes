@@ -48,3 +48,5 @@ _a finite answer to an infinite number of questions_ --- Stephen Kleene
 [[run-length encoding]]
 
 [[huffman coding]]
+
+[[karatsuba algorithm]]

@@ -6,11 +6,13 @@ _[[set]]s of [[number]]s_
 
 - [[set#empty set]]
 - [[set#universal set]]
-  - [[boolean]]
   - ...
-  - [[p-adic]]s
-  - [[float]]
-  - [[dual number]]s
+  - [[boolean]]
+  - [[p-adic]]
+  - [[floating-point number]]
+  - [[fixed-point number]]
+  - [[logarithmic number system]]
+  - [[dual number]]
   - [[complex]]
     - [[imaginary]]
     - [[real]]

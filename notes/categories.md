@@ -32,6 +32,8 @@
 
 [[virtue signaling]]
 
+[[pedophilia]]
+
 ## zilch
 
 [[improved expression evaluation]]
@@ -110,6 +112,8 @@
 
 [[unicode]]
 
+[[karatsuba algorithm]]
+
 ## finance
 
 [[education]] system issues
@@ -181,3 +185,5 @@
 [[undo tree]]
 
 [[hungarian notation]]
+
+[[fibonacci sequence]]

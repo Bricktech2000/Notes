@@ -28,6 +28,7 @@ in a world where people default to cooperation, generosity and forgiveness, it c
 - cruelty
 - manipulation
 - exploitation
+- irresponsibility
 
 when psychopaths have a relationship with someone, it is solely exploitative. they might want sex, money, power, connections... sociopaths, in their unskilled way, may get into a relationship but remain cold and rejecting. the psychopath makes a better criminal because sociopaths are somewhat messy, sloppy, reactive. _the sociopath is the bar fighter. the psychopath will kill that same person three days later methodically_
 
@@ -61,4 +62,4 @@ sociopaths are:
 
 --- <https://youtu.be/6dv8zJiggBs>
 
---- <https://youtu.be/FTWNnmymMc4> (maybe sociopathy isn't so straightforward)
+--- <https://youtu.be/FTWNnmymMc4> (maybe sociopathy isn't so straightforward. describes a pressure that continually builds and only goes away when break social/moral codes; need to learn to let out pressure non-destructively. intellectually understands that an urge not always beneficial to survival, so gets tricky)

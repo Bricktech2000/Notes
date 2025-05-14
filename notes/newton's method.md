@@ -1,21 +1,7 @@
 # Newton's Method
 
-**see** [[derivative]], [[math notation]]
+**see** [[derivative]], [[iteration]]
 
-_method to approximate the zeros of a [[function]]_
+we can improve an initial guess $x_0$ of the root of a [[function]] $f$ by iterating $x_{n + 1} = x_n - \frac{f\ x_n}{f'\ x_n}$ until some tolerance is met
 
-> **procedure** _using [[iteration]]_
->
-> given a guess for the zero of a [[function]],
->
-> 1. compute the [[function#tangent line]] of the [[function]] at the guess
-> 2. solve for the zero of the [[function#tangent line]] and use its value as the new guess
-> 3. repeat until a tolerance is met
-
-> **procedure** _using [[recursion]]_
->
-> given an initial guess **`x^0`**, we derive the following from the [[function#tangent line]] equation:
->
-> **`x^n:1 = x^n . (f x^n -- dd f x^n | dd x^n)`**
-
-> **example** the following equation can be solved easily using [[newton's method]]: **`[x] = 4x`**
+> **note** $x_{n + 1}$ is just the x-intercept of the [[function#tangent line]] of $f$ at $x_n$

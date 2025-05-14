@@ -18,8 +18,8 @@ the time [[computational complexity]] of [[binary exponentiation]] is $O\ (n.\ n
 def monoid_reduce(mul, id, x, n):
   # if n < 0: return monoid_reduce(mul, id, inverse(x), -n)  # for groups
   if n == 0: return id
-  if n % 2 == 0: return monoid_reduce(mul, id, mul(x, x), n // 2)
-  if n % 2 == 1: return mul(x, monoid_reduce(mul, id, mul(x, x), n // 2))
+  x2 = monoid_reduce(mul, id, mul(x, x), n // 2)
+  return mul(x, x2) if n % 2 else x2
 ```
 
 > **example**
@@ -41,3 +41,5 @@ def monoid_reduce(mul, id, x, n):
 --- <https://youtu.be/GrNJE6ogyQU>
 
 --- <https://youtu.be/cbGB__V8MNk>
+
+--- <https://youtu.be/HJ_PP5rqLg0>

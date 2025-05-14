@@ -10,7 +10,7 @@ it seems to be that _frugal_ people are in fact just [[finance]]ial minimalists 
 >
 > similarly to the encapsulation of mutability in [[functional programming]], I often find myself encapsulating clutter. _[containers] create a barrier that can stop clutter from spreading to other areas and corrals it to a single location_ --- <https://youtu.be/rUnpOplJulM?t=408>
 >
-> quality is very important to me, see [[price--value sigmoid]]. most of my purchases are [[intention]]al, have a clear reason to be, and are meant to last a long time. quick low-quality purchases feel like such a waste of [[money]]
+> quality is very important to me. most of my purchases are [[intention]]al, have a clear reason to be, and are meant to last a long time. quick low-quality purchases feel like such a waste of [[money]]
 >
 > > **examples** _low-quality purchases_ fast fashion, takeout food, cheap tools
 

@@ -25,7 +25,7 @@
 - $f'$ is both a separate [[variable]] name and a [[derivative]]
 - $f(1, 2)$ is both $f(1.2)$ and $f(1; 2)$
 - $4 \equiv 1 \mod 3$ is awful
-- $|x|y|z|$ is both $\operatorname{abs}(x \cdot \operatorname{abs}(y) \cdot z)$ and $\operatorname{abs}(x) \cdot y \cdot \operatorname{abs}(z)$
+- $|x|y|z|$ is both $\mathrm{abs}(x \cdot \mathrm{abs}(y) \cdot z)$ and $\mathrm{abs}(x) \cdot y \cdot \mathrm{abs}(z)$
 - $\mathbb N$ might or might not contain $0$. the same is true for $\mathbb Z^+$
 - $2x = 2 \cdot x$ and $2(\frac 2 3) = 2 \cdot \frac 2 3$ but $2 \frac 2 3 = 2 + \frac 2 3$
 - there exists no [[operator]] for unary division

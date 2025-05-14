@@ -1,0 +1,3 @@
+# Second-Order Logic
+
+#stub

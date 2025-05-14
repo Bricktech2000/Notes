@@ -34,13 +34,13 @@ _[...] I can't stress enough how important this is. continuity is what justifies
 
 ```mermaid
 graph BT
-  0(**`C^0 == G^1`**<br />Position)
-  C1(**`C^1`**<br />Velocity)
-  G1(**`G^1`**<br />Tangent)
-  C2(**`C^2`**<br />Acceleration)
-  G2(**`G^2`**<br />Curvature)
-  C3(**`C^3`**<br />Jerk)
-  G3(**`G^3`**<br />Torsion)
+  0(**`C^0 == G^1`**<br>Position)
+  C1(**`C^1`**<br>Velocity)
+  G1(**`G^1`**<br>Tangent)
+  C2(**`C^2`**<br>Acceleration)
+  G2(**`G^2`**<br>Curvature)
+  C3(**`C^3`**<br>Jerk)
+  G3(**`G^3`**<br>Torsion)
 
   C3 --> C2 --> C1 --> 0
   G3 --> G2 --> G1 --> 0

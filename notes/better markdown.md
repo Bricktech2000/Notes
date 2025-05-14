@@ -224,9 +224,9 @@ you can run it with `python hello_world.py`
 ## result
 
 <blockquote>
-  quote<br />
+  quote<br>
   <blockquote>
-    nested quote<br />
+    nested quote<br>
     <h4>section in quote</h4>
     <ul>
       <li>some item</li>
@@ -260,7 +260,7 @@ you can run it with `python hello_world.py`
 <p>he wrote the following:</p>
 
 <blockquote>
-  This is *very* important. <br />
+  This is *very* important. <br>
   <b>so important</b> that I escaped the asterisks
 </blockquote>
 
@@ -292,14 +292,14 @@ you can run it with `python hello_world.py`
   <b>note</b>
   <p>
     this theorem only works for certain values of
-    <span class="math inline">x</span><br />
+    <span class="math inline">x</span><br>
     therefore, some values of <span class="math inline">y</span> are not
     possible
   </p>
 </blockquote>
 
 <p>
-  <input type="checkbox" disabled />this is to be done<br />
+  <input type="checkbox" disabled />this is to be done<br>
   <input type="checkbox" checked disabled />this is done
 </p>
 

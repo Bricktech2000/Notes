@@ -10,6 +10,8 @@ except it doesn't really work --- Kiera
 
 > **procedure** [[curve fitting]] can be achieved by choosing a model for the data (such as a [[polynomial]] or [[exponent]]ial [[function]]) and a [[loss function]] that measures how well the model fits the data. the parameters of the model can then be optimized using [[gradient#descent]] --- <https://youtu.be/vIFKGFl1Cn8>
 
+squaring errors is really just a consequence of assuming [[gaussian function]] noise: <https://youtu.be/q7seckj1hwM> (Artem Kirsanov)
+
 ## Coefficient of Determination
 
 [[loss function]]s are not a good general measure of how well models fit data because they are not scale independent. the [[curve fitting#coefficient of determination]] is better as it compares the error in the estimates against the total variability of the observed data

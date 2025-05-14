@@ -6,7 +6,7 @@
 
 ## Inverse Element
 
-**aka** _commutative [[group]]_
+**aka** _commutative group_
 
 _a [[group]] whose [[group#operation]] is commutative_
 
@@ -14,6 +14,6 @@ _a [[group]] whose [[group#operation]] is commutative_
 
 **see** [[algebraic structure]]
 
-**definition** an [[abelian group]] is a finite or infinite [[set]] of elements equipped with a closed associative commutative binary operation --- Wikipedia and me
+**definition** an [[abelian group]] is a finite or infinite [[set]] of invertible elements equipped with a closed associative commutative binary operation and an identity element --- Wikipedia and me
 
 **definition** a [[group]] $G$ is an _abelian group_ if and only if $\forall a, b \in G.\ a \cdot b = b \cdot a$

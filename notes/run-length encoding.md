@@ -1,7 +1,7 @@
 # Run-Length Encoding
 
-**see** [[math notation]]
+_store runs of data as a single value and a count_
 
-**definition** _run-length encoding_ is a form of lossless [[data compression]] [[algorithm]] in which runs of data [...] are stored as a single data value and count, rather than as the original run --- Wikipedia
+> **example** the [[string]] `"gggghhiiiggg"` could be encoded as `"\x04g\x02h\x03i\x03g"`
 
-> **example** the [[string]] **`""WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWBWWWWWWWWWWWWWW""'** could be encoded as **`({12, 'W'}, {1, 'B'}, {12, 'W'}, {3, 'B'}, {24, 'W'}, {1, 'B'}, {14, 'W'})`**
+#stub

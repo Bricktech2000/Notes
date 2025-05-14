@@ -10,4 +10,6 @@ _the study of proofs that are based on syntax---on [[axiom]]s and [[inference ru
 
 [[first-order logic]]
 
+[[second-order logic]]
+
 [[natural deduction]]

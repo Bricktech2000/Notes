@@ -357,8 +357,6 @@ let **`MM^m,n A`**. the following statements are equivalent:
 > - **`"dim" NN A : "rank" A = "number of columns in" A`** (see [[matrix]]) -> as **`"dim" NN A = 0`**, **`"rank" A = "number of columns in" A = n`**
 > - the [[matrix#rank]] of a [[matrix]] is the number leading [[variable]]s in the matrix. **`"rank" A = n`** and **`A`** has **`n`** columns -> every [[variable]] is a leading variable
 
-**see** [[linear system theorem proof]]
-
 **theorem**
 
 let **`MM^n,n A`**. the following statements are equivalent:

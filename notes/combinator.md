@@ -182,7 +182,7 @@ the [[combinator#y combinator]] lets us use recursion in [[programming language]
 
 **definition** _in the [[lambda-calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
 
-> **example** $fact = Y\ (\lambda f\ n.\ (is0\ n)\ 1\ (mul\ n\ (f\ (pred\ n))))$ --- <https://crypto.stanford.edu/~blynn/lambda/>
+> **example** $\mathrm{fact} = Y\ (\lambda f\ n.\ (\mathrm{is0}\ n)\ 1\ (\mathrm{mul}\ n\ (f\ (\mathrm{pred}\ n))))$ --- <https://crypto.stanford.edu/~blynn/lambda/>
 
 --- <https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator>
 

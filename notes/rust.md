@@ -165,11 +165,11 @@ core [[rust]] functionality (borrow checking, optimization, code generation...) 
 
 ```mermaid
 graph TD
-  2015(2015 Edition<br />Source Code)
-  2018(2018 Edition<br />Source Code)
+  2015(2015 Edition<br>Source Code)
+  2018(2018 Edition<br>Source Code)
   2015_HIR(High-Level IR)
   2018_HIR(High-Level IR)
-  MIR(Mid-Level IR<br />_core functionality_)
+  MIR(Mid-Level IR<br>_core functionality_)
   LLVM_IR(LLVM IR)
   MACHINE_CODE(Machine Code)
 

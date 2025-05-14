@@ -8,7 +8,7 @@
 
 [[base256]] is meant to be used to losslessly and compatcly store arbitrary data on sheets of paper as a ridiculously future-proof backup medium
 
-> **example** the [[utf-8]] [[string]] `"did you know that τ > π"` which is [[hexadecimal]] `64 69 64 20 79 6f 75 20 6b 6e 6f 77 20 74 68 61 74 20 cf 84 20 3e 20 cf 80 3f 0a`, is equivalent to <code>"did&#x2E31;you&#x2E31;know&#x2E31;that&#x2E31;<u>O&epsilon;</u>&#x2E31;&gt;&#x2E31;<u>O&alpha;</u>?&#x25FE;"</code> encoded in [[base256]]. see [[tau]]
+> **example** the [[utf-8]] [[string]] `"did you know that τ > π"` which is [[hexadecimal]] `64 69 64 20 79 6f 75 20 6b 6e 6f 77 20 74 68 61 74 20 cf 84 20 3e 20 cf 80 3f 0a`, is equivalent to <code>"did⸱you⸱know⸱that⸱<u>Oε</u>⸱>⸱<u>Oα</u>?◾"</code> encoded in [[base256]]. see [[tau]]
 
 **properties**
 
@@ -52,7 +52,7 @@
 | `0x1D` - `0b00011101` - `GS`             | `'∏'`        |
 | `0x1E` - `0b00011110` - `RS`             | `'Σ'`        |
 | `0x1F` - `0b00011111` - `US`             | `'Φ'`        |
-| `0x20` - `0b00100000` - `' '`            | `'·'`        |
+| `0x20` - `0b00100000` - `' '`            | `'⸱'`        |
 | `0x21` - `0b00100001` - `'!'`            | `'!'`        |
 | `0x22` - `0b00100010` - `'"'`            | `'"'`        |
 | `0x23` - `0b00100011` - `'#'`            | `'#'`        |
@@ -180,7 +180,7 @@
 | `0x9D` - `0b10011101` - `0x80 + GS`      | `mod('∏')`   |
 | `0x9E` - `0b10011110` - `0x80 + RS`      | `mod('Σ')`   |
 | `0x9F` - `0b10011111` - `0x80 + US`      | `mod('Φ')`   |
-| `0xA0` - `0b10100000` - `0x80 + ' '`     | `mod('·')`   |
+| `0xA0` - `0b10100000` - `0x80 + ' '`     | `mod('⸱')`   |
 | `0xA1` - `0b10100001` - `0x80 + '!'`     | `mod('!')`   |
 | `0xA2` - `0b10100010` - `0x80 + '"'`     | `mod('"')`   |
 | `0xA3` - `0b10100011` - `0x80 + '#'`     | `mod('#')`   |
@@ -280,7 +280,7 @@
 > **procedure** _derivation of the above table_
 >
 > 1. set bytes `0x20..=0x7E` to a copy of [[ascii]], bytes which correspond to printable [[character]]s
-> 2. set byte `0x20` (Space) to `'&#x2E31;'` (Word Separator Middle Dot) and byte `0x0A` (Line Feed) to `'&#x25FE;'` (Black Medium Small Square)
+> 2. set byte `0x20` (Space) to `'⸱'` (Word Separator Middle Dot) and byte `0x0A` (Line Feed) to `'◾'` (Black Medium Small Square)
 > 3. fill empty bytes in `0x00..=0x7F` with lower[[case]] then upper[[case]] greek letters whose glyphs look different from that of latin letters
 >    > **note** the _lower[[case]] then upper[[case]] greek letters whose glyphs look different from that of latin letters_ are: _αβγδεζηθικλμνξπρστυφχψωΓΔΘΛΞ∏ΣΦΨΩ_
 > 4. set every byte in `0x80..=0xFF` to the corresponding [[character]] in `0x00..=0x7F` with an unspecified modifier `mod` applied

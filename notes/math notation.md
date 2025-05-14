@@ -80,84 +80,84 @@ let:
 
 ### operators and constants
 
-| notation                                                     | description                                                  | notes                                          |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------- |
-| **`a : b`**                                                  | **`b`** added to **`a`**                                     |                                                |
-| **`a . b`**                                                  | **`b`** subtracted from **`a`**                              |                                                |
-| **`a'b`** <br /> **`a \| b`**                                | **`a`** multiplied by **`b`**                                |                                                |
-| **`a-b`** <br /> **`a -- b`**                                | **`a`** divided by **`b`**                                   |                                                |
-| **`[a]b`** <br /> **`a[b]`** <br /> **`[.] b a`**            | **`a`** to the power of **`b`**                              |                                                |
-| **`\a/ b`** <br /> **`\./ b a`**                             | the **`b`**th root of **`a`**                                |                                                |
-| **`/a\ b`** <br /> **`/.\ b a`**                             | the base-**`b`** [[logarithm]] of **`a`**                    |                                                |
-| **`x -> a`**                                                 | [[function]] abstraction                                     | **`f = x -> a == f <- x = a`**                 |
-| **`f <- a`**                                                 | [[function]] application                                     | longhand discouraged                           |
-| **`a ~ b`** <br /> **`a ~~ b`**                              | whether **`a`** is similar to **`b`**                        | _similar_ as in _approximately equal to_       |
-| **`a = b`** <br /> **`a == b`**                              | whether **`a`** is equal to **`b`**                          | equivalent to [[boolean#equivalence]]          |
-| **`a + b`** <br /> **`a >< b`**                              | whether **`a`** is different from **`b`**                    | equivalent to [[boolean#symmetric difference]] |
-| **`a -\| b`** <br /> **`a < b`**                             | whether **`a`** is at most **`b`**                           | equivalent to [[boolean#implication]]          |
-| **`a \|- b`** <br /> **`a > b`**                             | whether **`a`** is at least **`b`**                          | equivalent to [[boolean#implication]]          |
-| **`a __ b`** <br /> **`a /\ b`**                             | the minimum of **`a`** and **`b`**                           | equivalent to [[boolean#conjunction]]          |
-| **`a ^^ b`** <br /> **`a \/ b`**                             | the maximum of **`a`** and **`b`**                           | equivalent to [[boolean#disjunction]]          |
-| **`f {x -> a}`**                                             | the [[limit]] of **`f`** as **`x`** approaches **`a`**       |                                                |
-| **`dd y -- dd x`**                                           | the [[derivative]] of **`y`** with respect to **`x`**        | **`dd`** should be used instead of **`d`**     |
-| **`$ y \| dd x`**                                            | the [[antiderivative]] of **`y`** with respect to **`x`**    | **`dd`** should be used instead of **`d`**     |
-| **`x_"sub"`**                                                | the [[variable]] **`x`** with a subscript **`_"sub"`**       |                                                |
-| **`A^i`** <br /> **`B^i`** <br /> **`V^n`** <br /> **`P^b`** | **`A i`** <br /> **`B i`** <br /> **`V n`** <br /> **`P b`** | to be used for indices                         |
-| **`M^i,j`** <br /> **`G^a,b`**                               | **`M i j`** <br /> **`G a b`**                               | to be used for indices                         |
-| **`S a`** <br /> **`M_*  a`** <br /> **`G a`**               | **`S a`** <br /> **`M_*  a`** <br /> **`G a`**               | to be used for membership                      |
-| **`(\*)`**                                                   | **`\*`** as a unary [[prefix notation]] [[operator]]         | works with any [[operator]]                    |
-| **`{\*}`**                                                   | **`\*`** as a binary [[prefix notation]] [[operator]]        | works with any [[operator]]                    |
-| **`@`**                                                      | _undefined_                                                  | see [[improved expression evaluation]]         |
-| **`@@`**                                                     | _infinity_                                                   |                                                |
-| **`__`**                                                     | [[boolean]] _false_                                          |                                                |
-| **`^^`**                                                     | [[boolean]] _true_                                           |                                                |
-| **`tt`**                                                     | [[tau]], the [[circle]] constant                             |                                                |
-| **`ee`**                                                     | [[euler's constant]]                                         |                                                |
-| **`ii`**                                                     | the [[imaginary unit]]                                       | using **`i`** is discouraged                   |
-| **`PP`**                                                     | the [[pi function]]                                          | using **`"fact"`** and **`GG`** is discouraged |
-| **`#`**                                                      | the number of "links" in a [[function]]                      | #todo define rigorously                        |
-| **`yy`**                                                     | the [[psi function]]                                         |                                                |
-| **`rr`**                                                     | the [[combinator#c combinator]]                              | equivalent to [[matrix#transpose]]             |
-| **`f {a g b}`** <br /> **`{.} f g a b`**                     | the [[combinator#psi combinator]]                            |                                                |
-| **`f {a g b} c`** <br /> **`{{.}} f g a b`**                 | **`g (f (a c)) (f (b c))`** #xxx                             |                                                |
-| **`(g f h) a`** <br /> **`(.) f g h a`**                     | the [[combinator#phi combinator]]                            |                                                |
-| **`a (g f h) b`** <br /> **`((.)) f g h a b`**               | the [[combinator#phi1 combinator]]                           |                                                |
+| notation                                               | description                                               | notes                                          |
+| ------------------------------------------------------ | --------------------------------------------------------- | ---------------------------------------------- |
+| **`a : b`**                                            | **`b`** added to **`a`**                                  |                                                |
+| **`a . b`**                                            | **`b`** subtracted from **`a`**                           |                                                |
+| **`a'b`** <br> **`a \| b`**                            | **`a`** multiplied by **`b`**                             |                                                |
+| **`a-b`** <br> **`a -- b`**                            | **`a`** divided by **`b`**                                |                                                |
+| **`[a]b`** <br> **`a[b]`** <br> **`[.] b a`**          | **`a`** to the power of **`b`**                           |                                                |
+| **`\a/ b`** <br> **`\./ b a`**                         | the **`b`**th root of **`a`**                             |                                                |
+| **`/a\ b`** <br> **`/.\ b a`**                         | the base-**`b`** [[logarithm]] of **`a`**                 |                                                |
+| **`x -> a`**                                           | [[function]] abstraction                                  | **`f = x -> a == f <- x = a`**                 |
+| **`f <- a`**                                           | [[function]] application                                  | longhand discouraged                           |
+| **`a ~ b`** <br> **`a ~~ b`**                          | whether **`a`** is similar to **`b`**                     | _similar_ as in _approximately equal to_       |
+| **`a = b`** <br> **`a == b`**                          | whether **`a`** is equal to **`b`**                       | equivalent to [[boolean#equivalence]]          |
+| **`a + b`** <br> **`a >< b`**                          | whether **`a`** is different from **`b`**                 | equivalent to [[boolean#symmetric difference]] |
+| **`a -\| b`** <br> **`a < b`**                         | whether **`a`** is at most **`b`**                        | equivalent to [[boolean#implication]]          |
+| **`a \|- b`** <br> **`a > b`**                         | whether **`a`** is at least **`b`**                       | equivalent to [[boolean#implication]]          |
+| **`a __ b`** <br> **`a /\ b`**                         | the minimum of **`a`** and **`b`**                        | equivalent to [[boolean#conjunction]]          |
+| **`a ^^ b`** <br> **`a \/ b`**                         | the maximum of **`a`** and **`b`**                        | equivalent to [[boolean#disjunction]]          |
+| **`f {x -> a}`**                                       | the [[limit]] of **`f`** as **`x`** approaches **`a`**    |                                                |
+| **`dd y -- dd x`**                                     | the [[derivative]] of **`y`** with respect to **`x`**     | **`dd`** should be used instead of **`d`**     |
+| **`$ y \| dd x`**                                      | the [[antiderivative]] of **`y`** with respect to **`x`** | **`dd`** should be used instead of **`d`**     |
+| **`x_"sub"`**                                          | the [[variable]] **`x`** with a subscript **`_"sub"`**    |                                                |
+| **`A^i`** <br> **`B^i`** <br> **`V^n`** <br> **`P^b`** | **`A i`** <br> **`B i`** <br> **`V n`** <br> **`P b`**    | to be used for indices                         |
+| **`M^i,j`** <br> **`G^a,b`**                           | **`M i j`** <br> **`G a b`**                              | to be used for indices                         |
+| **`S a`** <br> **`M_*  a`** <br> **`G a`**             | **`S a`** <br> **`M_*  a`** <br> **`G a`**                | to be used for membership                      |
+| **`(\*)`**                                             | **`\*`** as a unary [[prefix notation]] [[operator]]      | works with any [[operator]]                    |
+| **`{\*}`**                                             | **`\*`** as a binary [[prefix notation]] [[operator]]     | works with any [[operator]]                    |
+| **`@`**                                                | _undefined_                                               | see [[improved expression evaluation]]         |
+| **`@@`**                                               | _infinity_                                                |                                                |
+| **`__`**                                               | [[boolean]] _false_                                       |                                                |
+| **`^^`**                                               | [[boolean]] _true_                                        |                                                |
+| **`tt`**                                               | [[tau]], the [[circle]] constant                          |                                                |
+| **`ee`**                                               | [[euler's constant]]                                      |                                                |
+| **`ii`**                                               | the [[imaginary unit]]                                    | using **`i`** is discouraged                   |
+| **`PP`**                                               | the [[pi function]]                                       | using **`"fact"`** and **`GG`** is discouraged |
+| **`#`**                                                | the number of "links" in a [[function]]                   | #todo define rigorously                        |
+| **`yy`**                                               | the [[psi function]]                                      |                                                |
+| **`rr`**                                               | the [[combinator#c combinator]]                           | equivalent to [[matrix#transpose]]             |
+| **`f {a g b}`** <br> **`{.} f g a b`**                 | the [[combinator#psi combinator]]                         |                                                |
+| **`f {a g b} c`** <br> **`{{.}} f g a b`**             | **`g (f (a c)) (f (b c))`** #xxx                          |                                                |
+| **`(g f h) a`** <br> **`(.) f g h a`**                 | the [[combinator#phi combinator]]                         |                                                |
+| **`a (g f h) b`** <br> **`((.)) f g h a b`**           | the [[combinator#phi1 combinator]]                        |                                                |
 
 ### shorthands
 
-| notation                         | description                                                        | notes                                                       |
-| -------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------- |
-| **`:A`**                         | **`A`** reduced with **`:`**                                       | see [[reduce function]]                                     |
-| **`.a`**                         | **`0 . a`**                                                        |                                                             |
-| **`'A`** <br /> **`\|A`**        | **`A`** reduced with **`'`** <br /> **`A`** reduced with **`\|`**  | see [[reduce function]]                                     |
-| **`-a`** <br /> **`--a`**        | **`1-a`** <br /> **`1 -- a`**                                      |                                                             |
-| **`xy`**                         | **`x'y`**                                                          |                                                             |
-| **`wwx`**                        | **`ww'x`**                                                         |                                                             |
-| **`xww`**                        | **`[x]ww`**                                                        |                                                             |
-| **`wwff`**                       | the [[natural]] formed by the digits **`ww`** and **`ff`**         | see [[positional numeral system]]                           |
-| **`->a`**                        | the [[combinator#k combinator]]                                    |                                                             |
-| **`[a]`**                        | **`ee[a]`**, the [[exponent]]ial of **`a`**                        |                                                             |
-| **`\a/`**                        | **`\a/ 2`**, the square root of **`a`**                            |                                                             |
-| **`/a\`**                        | **`/a\ ee`**, the natural [[logarithm]] of **`a`**                 |                                                             |
-| **`x y -> a`**                   | **`x -> y -> a`**                                                  |                                                             |
-| **`f a`**                        | **`f <- a`**                                                       | shorthand preferred                                         |
-| **`~a`** <br /> **`~~a`**        | **`A`** reduced with **`~`** <br /> **`A`** reduced with **`~~`**  | see [[reduce function]]                                     |
-| **`=a`** <br /> **`==a`**        | **`A`** reduced with **`=`** <br /> **`A`** reduced with **`==`**  | see [[reduce function]]                                     |
-| **`+a`** <br /> **`><a`**        | **`^^ + a`** <br /> **`^^ >< a`**                                  | equivalent to [[boolean#negation]]                          |
-| **`-\|A`** <br /> **`<A`**       | **`A`** sorted from least to greatest                              |                                                             |
-| **`\|-A`** <br />**`>A`**        | **`A`** sorted from greatest to least                              |                                                             |
-| **`__A`** <br /> **`/\A`**       | **`A`** reduced with **`__`** <br /> **`A`** reduced with **`/\`** | see [[reduce function]]                                     |
-| **`^^A`** <br /> **`\/A`**       | **`A`** reduced with **`^^`** <br /> **`A`** reduced with **`\/`** | see [[reduce function]]                                     |
-| **`a_0 \* a_1 \* ... a_n`**      | with **`n = 3`**, **`a_0 \* a_1 \* a_2 \* a_3`**                   | step size is **`1`** or **`.1`** if **`a_1 \*`** is omitted |
-| **`a_0 ... a_n`**                | with **`n = 3`**, **`a_0, a_1, a_2, a_3`**                         | step size is **`1`** or **`.1`** if **`a_1`** is omitted    |
-| **`@@`**                         | **`x {x -> @@}`**                                                  | **`@@`** in an expression is an implicit [[limit]]          |
-| **`A \* B`**                     | **`x -> A x \* B x`**                                              | see [[polymorphism#rank polymorphism]]                      |
-| **`A \* a`** <br /> **`a \* A`** | **`x -> A x \* a`** <br /> **`x -> a \* A x`**                     | see [[polymorphism#rank polymorphism]]                      |
-| **`f g *`**                      | **`x -> f (g x)`**                                                 | **`*`** is a "hole" #todo define rigorously                 |
-| **`(*)`**                        | the [[combinator#i combinator]]                                    | equivalent to [[composition#identity]]                      |
-| **`(f g) a`**                    | **`(f <- g) a`**                                                   | equivalent to [[combinator#s combinator]]                   |
-| **`f {a b}`**                    | **`f {a <- b}`**                                                   |                                                             |
-| **`""math""`**                   | **`(''m'', ''a'', ''t'', ''h'')`**                                 | see [[string]], [[list]]                                    |
+| notation                       | description                                                      | notes                                                       |
+| ------------------------------ | ---------------------------------------------------------------- | ----------------------------------------------------------- |
+| **`:A`**                       | **`A`** reduced with **`:`**                                     | see [[reduce function]]                                     |
+| **`.a`**                       | **`0 . a`**                                                      |                                                             |
+| **`'A`** <br> **`\|A`**        | **`A`** reduced with **`'`** <br> **`A`** reduced with **`\|`**  | see [[reduce function]]                                     |
+| **`-a`** <br> **`--a`**        | **`1-a`** <br> **`1 -- a`**                                      |                                                             |
+| **`xy`**                       | **`x'y`**                                                        |                                                             |
+| **`wwx`**                      | **`ww'x`**                                                       |                                                             |
+| **`xww`**                      | **`[x]ww`**                                                      |                                                             |
+| **`wwff`**                     | the [[natural]] formed by the digits **`ww`** and **`ff`**       | see [[positional numeral system]]                           |
+| **`->a`**                      | the [[combinator#k combinator]]                                  |                                                             |
+| **`[a]`**                      | **`ee[a]`**, the [[exponent]]ial of **`a`**                      |                                                             |
+| **`\a/`**                      | **`\a/ 2`**, the square root of **`a`**                          |                                                             |
+| **`/a\`**                      | **`/a\ ee`**, the natural [[logarithm]] of **`a`**               |                                                             |
+| **`x y -> a`**                 | **`x -> y -> a`**                                                |                                                             |
+| **`f a`**                      | **`f <- a`**                                                     | shorthand preferred                                         |
+| **`~a`** <br> **`~~a`**        | **`A`** reduced with **`~`** <br> **`A`** reduced with **`~~`**  | see [[reduce function]]                                     |
+| **`=a`** <br> **`==a`**        | **`A`** reduced with **`=`** <br> **`A`** reduced with **`==`**  | see [[reduce function]]                                     |
+| **`+a`** <br> **`><a`**        | **`^^ + a`** <br> **`^^ >< a`**                                  | equivalent to [[boolean#negation]]                          |
+| **`-\|A`** <br> **`<A`**       | **`A`** sorted from least to greatest                            |                                                             |
+| **`\|-A`** <br>**`>A`**        | **`A`** sorted from greatest to least                            |                                                             |
+| **`__A`** <br> **`/\A`**       | **`A`** reduced with **`__`** <br> **`A`** reduced with **`/\`** | see [[reduce function]]                                     |
+| **`^^A`** <br> **`\/A`**       | **`A`** reduced with **`^^`** <br> **`A`** reduced with **`\/`** | see [[reduce function]]                                     |
+| **`a_0 \* a_1 \* ... a_n`**    | with **`n = 3`**, **`a_0 \* a_1 \* a_2 \* a_3`**                 | step size is **`1`** or **`.1`** if **`a_1 \*`** is omitted |
+| **`a_0 ... a_n`**              | with **`n = 3`**, **`a_0, a_1, a_2, a_3`**                       | step size is **`1`** or **`.1`** if **`a_1`** is omitted    |
+| **`@@`**                       | **`x {x -> @@}`**                                                | **`@@`** in an expression is an implicit [[limit]]          |
+| **`A \* B`**                   | **`x -> A x \* B x`**                                            | see [[polymorphism#rank polymorphism]]                      |
+| **`A \* a`** <br> **`a \* A`** | **`x -> A x \* a`** <br> **`x -> a \* A x`**                     | see [[polymorphism#rank polymorphism]]                      |
+| **`f g *`**                    | **`x -> f (g x)`**                                               | **`*`** is a "hole" #todo define rigorously                 |
+| **`(*)`**                      | the [[combinator#i combinator]]                                  | equivalent to [[composition#identity]]                      |
+| **`(f g) a`**                  | **`(f <- g) a`**                                                 | equivalent to [[combinator#s combinator]]                   |
+| **`f {a b}`**                  | **`f {a <- b}`**                                                 |                                                             |
+| **`""math""`**                 | **`(''m'', ''a'', ''t'', ''h'')`**                               | see [[string]], [[list]]                                    |
 
 #todo
 
@@ -305,7 +305,7 @@ if **`\*`** is an [[operator]] with _transitive associativity_, then **`a \* b \
 | definition of factorials                     | **`"fact" n = 1 \| ... n`**                | $\displaystyle n! = \prod_{i = 1}^n i$                                                                   |
 | the resonant [[frequency]] of an LC circuit  | **`f = -- tt \"LC"/`**                     | $\displaystyle f = \frac{1}{2 \pi \sqrt{LC}}$                                                            |
 | definition of the [[dot product]]            | **`:xy`**                                  | $\displaystyle x \cdot y  = \sum_{i=1}^n x_i y_i$                                                        |
-| definition of the [[matrix#trace]]           | **`:{A *}`**                               | $\displaystyle \operatorname{tr}(A) = \sum_{i=1}^n A_{ii}$                                               |
+| definition of the [[matrix#trace]]           | **`:{A *}`**                               | $\displaystyle \mathrm{tr}(A) = \sum_{i=1}^n A_{ii}$                                                     |
 | definition of the [[outer product]]          | **`x * \| y *`**                           | $\displaystyle (x \otimes y)_{i, j}  = x_i \times y_j$                                                   |
 | definition of the [[cartesian product]]      | **`__ (X, Y) *`**                          | $\displaystyle X \times Y = \{ (x, y) \mid x \in X \text{ and } y \in Y \}$                              |
 | definition of [[euclidean vector#magnitude]] | **`\:v2/`**                                | $\displaystyle \vert v \vert = \sqrt{v_x^2 + v_y^2 + \dots}$                                             |
@@ -313,4 +313,4 @@ if **`\*`** is an [[operator]] with _transitive associativity_, then **`a \* b \
 | the [[activation function#softmax function]] | **`ss z = {*-:} [z]`**                     | $\displaystyle \sigma(s)_c = \frac{\exp(s_c)}{\sum_{c'} \exp(s_{c'})}$                                   |
 | definition of [[information entropy]]        | **`H = :PI`**                              | $\displaystyle H(X) = \sum_{i=1}^n P(x_i) \cdot I(x_i)$                                                  |
 | the [[p-adic#absolute value]]                | **`"abs"^p n = --p[yy n p]`**              | not really doable in a concise way without using plain English                                           |
-| the **`n`**th column of a [[matrix]]         | **`rr M n`**                               | $(M^\top)_n$ or $\operatorname{col}_n(M)$ or $M_{\cdot j}$ --- nothing standard                          |
+| the **`n`**th column of a [[matrix]]         | **`rr M n`**                               | $(M^\top)_n$ or $\mathrm{col}_n(M)$ or $M_{\cdot j}$ --- nothing standard                                |

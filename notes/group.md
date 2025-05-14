@@ -36,7 +36,7 @@ a [[group]] contains exactly one identity element
 
 every element of a [[group]] has exactly one inverse
 
-> **note** consequently, $a^{-1} \cdot a^{-1}$ is identical to $(a^2)^{-1}$ which is identical to $(a^{-1})^2$, all of which can be denoted $a^{-2}$. this is true for any power
+> **note** consequently, $a^{-1} \cdot a^{-1}$ is identical to $(a^2)^{-1}$ which is identical to $(a^{-1})^2$, all of which can be denoted $a^{-2}$. this generalizes to any power
 
 $a \cdot e = a$ implies $e \cdot a = a$
 

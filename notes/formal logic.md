@@ -18,4 +18,6 @@ computability theory
 
 [[first-order logic]]
 
+[[second-order logic]]
+
 [[natural deduction]]

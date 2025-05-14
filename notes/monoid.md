@@ -30,7 +30,7 @@ _closure_ $a \cdot b \in S$
 >
 > - `String` and [[string#concatenation]], see [[string]]
 > - `u32` and addition, see [[natural]]
-> - `f64` and multiplication, see [[float]]
+> - `f64` and multiplication, see [[floating-point number]]
 > - `Fn` and [[composition]], see [[function]]
 
 ## Free Monoid

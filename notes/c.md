@@ -14,6 +14,8 @@ _assembly with syntactic sugar and undefined behavior_
 
 > **resource** ISO/IEC 9899:TC3, WG14/N1256 --- <https://www.open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf>
 
+> **resource** C99 Rationale --- <https://open-std.org/JTC1/SC22/WG14/www/C99RationaleV5.10.pdf>
+
 what makes [[c]] timeless is not its simplicity; it's its [[durability]]. most constructs in [[c]] map trivially into assembly, which, in turn, maps trivially into machine code. in other words, there is a strong correspondence between the features of [[c]] and the fundamental ideas governing the design of processors and instruction sets. for this reason, [[programming language]]s that proudly claim to have the simplicity of [[c]]---like [[go]] does---should raise red flags
 
 **tradeoffs**
@@ -165,7 +167,7 @@ U"foo" // char32_t[6]
 
 _wraparound_ (which is specific to unsigned integers) has well-defined behavior in [[c]]. values are reduced modulo the number that is one greater than the largest value that can be represented by the resulting type. however, _overflow_ (which is specific to signed integers) has [[c#undefined behavior]]
 
-the representation of signed integers in [[c]] is implementation defined. historically, the [[c]] language has supported three representation schemes: two's [[complement]], one's [[complement]] and [[sign--magnitude notation]]. the implementation of [[float]]ing-point numbers is implementation defined
+the representation of signed integers in [[c]] is implementation defined; historically, the [[c]] language has supported three representation schemes: two's [[complement]], one's [[complement]] and [[sign--magnitude notation]]. however, the represation of exact-width signed integer types, like `int32_t`, is guaranteed to be two's [[complement]], and to have no padding bits --- ISO/IEC 9899:TC3, $7.18.1.1, paragraph 1. the implementation of [[floating-point number]]s is implementation defined
 
 each compiler implementation defines `char` as either `signed char` or `unsigned char`. regardless of the choice made, `char` is a different type from the other two and is incompatible with both. `char` is to be used for characters **only**, and `signed char` and `unsigned char` for small integer data
 
@@ -184,7 +186,7 @@ char s[3] = "foo"; // character array
 
 `stdbool.h` defines `bool`, `true`, and `false`
 
-`math.h` defines the various functions for classifying [[float]]ing-point numbers, such as `fpclassify`, `isfinite`, `isinf`, `isnan`, `isnormal` and `signbit`, along with various macros, such as `FP_INFINITE`, `FP_NAN`, `FP_NORMAL`, `FP_SUBNORMAL` and `FP_ZERO`
+`math.h` defines the various functions for classifying [[floating-point number]]s, such as `fpclassify`, `isfinite`, `isinf`, `isnan`, `isnormal` and `signbit`, along with various macros, such as `FP_INFINITE`, `FP_NAN`, `FP_NORMAL`, `FP_SUBNORMAL` and `FP_ZERO`
 
 until C23, `void f();` declares a function that takes any number of arguments of any type. `void f(void);` declares a function that takes no arguments. the former is to be avoided --- <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++>
 
@@ -299,7 +301,7 @@ in [[c]], implicit type conversions, also known as _coercions_, are performed as
 
 simplistically, whenever a _small integer type_ is used in an expression in [[c]], it is converted to a `signed int` regardless of its signedness, or to an `unsigned int` under specific conditions. this process is called the _integer promotions_. this has the side effect that almost no operation in [[c]] can be performed directly on _small integer types_; operations are always carried out on `int`s or larger types
 
-whenever a binary [[operator]] is applied to two operands of different types, [[c]] enforces an implicit conversion of one of the operands to the type of the other operand. the rules for this process are called _the usual arithmetic conversions_. simplistically, if one of the arguments has a [[float]]ing-point type, then the other is converted to that [[float]]ing-point type; otherwise, the _integer promotions_ are performed on both operands. then, if both operands have identical signedness, the operand with lesser _conversion rank_ is converted to the type of the other; otherwise, things get complicated and unintuitive
+whenever a binary [[operator]] is applied to two operands of different types, [[c]] enforces an implicit conversion of one of the operands to the type of the other operand. the rules for this process are called _the usual arithmetic conversions_. simplistically, if one of the arguments has a [[floating-point number]] type, then the other is converted to that [[floating-point number]] type; otherwise, the _integer promotions_ are performed on both operands. then, if both operands have identical signedness, the operand with lesser _conversion rank_ is converted to the type of the other; otherwise, things get complicated and unintuitive
 
 --- Effective C p. 49-55 and <https://stackoverflow.com/questions/46073295/implicit-type-promotion-rules>
 
