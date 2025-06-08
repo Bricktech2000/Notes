@@ -1,13 +1,9 @@
 # Density
 
-**see** [[math notation]], [[international system of units]]
+**see** [[international system of units]]
 
-**definition**
+**notation** $\rho$
 
-let a substance
+**definition** $\rho = \frac m V$
 
-**`rr = m-V`**, where
-
-- **`rr`** is the [[density]] of a substance
-- **`m`** is the [[mass]] of the substance
-- **`V`** is the [[volume]] of the substance
+#stub

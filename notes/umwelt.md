@@ -6,7 +6,7 @@ _an organism's model of the world, the slice of its ecosystem it can pick up on_
 
 --- <https://youtu.be/4c1lqFXHvqI>
 
-> **examples** _creature [[umwelt]]s_
+> **examples**
 >
 > - a tic's [[umwelt]] consists of [[temperature]] and buteric acid
 > - a black ghost knifefish's [[umwelt]] consists of electrical fields

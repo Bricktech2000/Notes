@@ -8,9 +8,9 @@ _for video streaming and [[data compression]]_
 
 math looks entirely wrong in the [[ycbcr]] [[color space]]
 
-the **`Y_\*`** component of [[ycbcr]] represents [[luma]] and the **`C_B`** and **`C_R`** components of [[ycbcr]] represent [[chroma]]
+the $Y$ component of [[ycbcr]] represents [[luma]] and the $C_B$ and $C_R$ components of [[ycbcr]] represent [[chroma]]
 
-**representation** **`(C_B , C_R)`** slices at constant **`Y_\*`**
+**representation** $(C_B, C_R)$ slices at different $Y$s
 
 ![[Pasted image 20230619162234.png]]
 

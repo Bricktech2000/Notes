@@ -1,5 +1,5 @@
 # Mass
 
-**see** [[math notation]]
+**notation** _[[international system of units]]_ $\mathrm{kg}$
 
-**notation** _[[international system of units]]_ **`"kg"`**
+#stub

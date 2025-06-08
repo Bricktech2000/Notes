@@ -1,6 +1,6 @@
 # Finite Acceptor
 
-_a [[finite automaton]] which recognizes a [[formal language#regular formal language]]_
+_a [[finite automaton]] that recognizes a [[formal language#regular formal language]]_
 
 **aka** _finite automaton_, _FA_
 
@@ -26,13 +26,13 @@ a _generalized NFA_ or _GNFA_ is a finite acceptor whose transitions are labeled
 >
 > ```mermaid
 > graph LR
->  I( ) --> A --1--> B
->  C --> F( )
->  C & B --1--> B
->  B & C --0--> C
->  A --0--> D --1--> D --0--> D
+>   I( ) --> A --1--> B
+>   C --> F( )
+>   C & B --1--> B
+>   B & C --0--> C
+>   A --0--> D --1--> D --0--> D
 > ```
 
 **definition** a deterministic [[finite acceptor]] is called _minimal_ if it has the minimum number of states needed to recognize its language --- <https://en.wikipedia.org/wiki/DFA_minimization>
 
-_minimization_ is performed by merging _indistinguishable_ states --- <https://www.youtube.com/watch?v=7W2lSrt8r-0>. a pair of states is indistinguishable if and only if they are either both or neither final and their transitions are equal up to target state indistinguishability. minimal deterministic finite acceptors are unique up to state renumbering
+_minimization_ is performed by merging _indistinguishable_ states --- <https://www.youtube.com/watch?v=7W2lSrt8r-0>. a pair of states is indistinguishable if and only if they are either both or neither final and their transitions are equal up to target state indistinguishability. minimal deterministic [[finite acceptor]]s are unique up to state renumbering

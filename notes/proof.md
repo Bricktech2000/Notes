@@ -4,7 +4,7 @@
 
 **definition** A _mathematical proof_ is an inferential argument for a mathematical statement, showing that the stated assumptions logically guarantee the conclusion. --- Wikipedia
 
-[[boolean algebra]] properties and identities can be useful in [[proof]]s
+[[boolean]] properties and identities can be useful in [[proof]]s
 
 **definition** a _proof by counterexample_ is a form of [[proof]] for a statement with [[quantifier#universal quantifier]] that shows it is false by finding one counterexample
 

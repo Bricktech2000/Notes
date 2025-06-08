@@ -22,6 +22,8 @@ an [[algebraic structure]] consists of:
 > - [[abelian group]]s
 > - [[divisible group]]s
 > - [[field]]s
-> - [[boolean algebra]]
 > - [[vector space]]s
+> - [[semilattice]]s
+> - [[lattice]]s
+> - [[boolean algebra]]s
 > - ...

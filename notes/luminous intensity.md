@@ -1,5 +1,5 @@
 # Luminous Intensity
 
-**notation** _[[international system of units]]_ **`"cd"`**
+**notation** _[[international system of units]]_ $\mathrm{cd}$
 
 #stub

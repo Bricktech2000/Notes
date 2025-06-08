@@ -1,5 +1,7 @@
 # Velocity
 
-**see** [[math notation]], [[international system of units]]
+**see** [[international system of units]]
 
-**`V t = dd S t`**, see [[length]]
+$v = \frac{dS}{dt}$, see [[length]]
+
+#stub

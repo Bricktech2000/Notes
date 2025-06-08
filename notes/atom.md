@@ -16,4 +16,4 @@ _electron affinity_ is the amount of [[energy]] required or released to add one 
 
 _atomic number_ is the number of [[proton]]s in the nucleus of an [[atom]]
 
-_atomic mass_ is the mass of an [[atom]], including [[proton]]s, [[neutron]]s and [[electron]]s. though often, the [[mass]] of [[electron]]s is negligible
+_atomic mass_ is the [[mass]] of an [[atom]], including [[proton]]s, [[neutron]]s and [[electron]]s. though often, the [[mass]] of [[electron]]s is negligible

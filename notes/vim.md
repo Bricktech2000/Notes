@@ -31,13 +31,14 @@ some useful bindings not present in the quickref:
 - `:chi<cr>` --- display the quickfix list **history**
 - `:col<cr>` --- go to an **older** quickfix list in the history
 - `:cnew<cr>` --- go to a **newer** quickfix list in the history
-- v`O` --- switch the parity of v`o` in a visual block selection
+- v`O` --- switch the parity of v`o` in a blockwise selection
 - v`g<c-a>` - v`g<c-x>` --- incrementally increment/decrement numbers in selection
 - v`P` --- put from register without overwriting the unnamed register
 - c`<c-r><c-w>` --- insert the word under the cursor
 - c`<c-r><c-a>` --- insert the WORD under the cursor
 - c`<c-r><c-l>` --- insert the line under the cursor
 - `gn` - `gN` --- select **next**/previous match, applying an operator if one is pending
+- i`<c-x><c-e>` - i`<c-x><c-y>` --- scroll from within insert mode
 
 useful shell bindings spread a little all over the quickref:
 
@@ -53,7 +54,6 @@ some "compound" bindings to be treated as units for [[muscle memory]]:
 - `ea` --- insert **after word**
 - `Ea` --- insert **after WORD**
 - `o<esc>` --- insert a blank line below
-- `0w` --- jump to first non-blank character of line --- quicker than both `^` and `_`
 - `Jx` --- **join** lines, removing all leading whitespace
 - `Jde` --- **join** lines, removing leading word (like `//` [[c]] comments and `-` [[markdown]] lists)
 - `xp` --- swap a character with the next
@@ -65,6 +65,8 @@ some "compound" bindings to be treated as units for [[muscle memory]]:
 - `99<c-r>` --- jump to the latest change in the current [[undo tree]] branch
 - `*N` --- highlight the word under the cursor
 - `0D` --- clear out the current line without deleting it
+- `VP` --- replace current line with contents of unnamed register
+- `<cr>;` --- repeat last `f` or `t` search on next line down
 
 some small tricks and workflows I use:
 
@@ -86,3 +88,5 @@ some small tricks and workflows I use:
   > **resource** _Byte Positions Are Better Than Line Numbers_, by Casey Muratori --- <https://www.computerenhance.com/p/byte-positions-are-better-than-line>
 - hold the shift key to temporarily disable the mouse
 - view a searchable digraph table with `:h euro<cr>`
+- jump to a URL or path on the current line with `f/` and `F/` --- slashes are uncommon and URLs and paths usually contain them
+- use undos from within insert mode by marking undo points with `<c-g>u` and undoing with `<c-o>u`. delete all entered characters with `<c-u>`

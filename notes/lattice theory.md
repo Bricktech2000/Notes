@@ -1,7 +1,3 @@
 # Lattice Theory
 
-#stub
-
-**see**
-
-[[boolean algebra]]
+**see** [[semilattice]], [[lattice]], [[boolean algebra]]

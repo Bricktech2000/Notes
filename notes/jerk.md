@@ -1,7 +1,7 @@
 # Jerk
 
-**aka** _jolt_
+**see** [[international system of units]]
 
-**see** [[math notation]], [[international system of units]]
+$j = \frac{da}{dt}$, see [[acceleration]]
 
-**`j = dd A -- dd t`**, see [[acceleration]]
+#stub

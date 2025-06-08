@@ -10,16 +10,7 @@ in the case of [[sensory augmentation]], **the brain** adapts to the signals sen
 
 > **example**
 >
-> - <https://youtu.be/4c1lqFXHvqI>
+> - <https://youtu.be/4c1lqFXHvqI> (David Eagleman on TED)
 > - <https://github.com/Bricktech2000/Sensory-Augmentation>
 > - BrainPort (maps visual information to a tactile grid on the tongue)
-> - <https://youtu.be/vBUp2dJDEKc>
-
-**applications**
-
-exampes of sending information to the [[brain]] through suboptimal means include:
-
-- audible phone notifications and phone vibration patterns
-- gauges and instruments in airplane cockpits
-
-the examples above could be sent to the [[brain]] through optimized channels using [[sensory augmentation]]
+> - <https://youtu.be/vBUp2dJDEKc> (Sapien LLC's Cthulhu Shield)

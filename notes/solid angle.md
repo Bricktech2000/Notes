@@ -1,7 +1,7 @@
 # Solid Angle
 
-**see** [[math notation]], [[international system of units]], [[angle]]
+**see** [[international system of units]], [[angle]]
 
-**definition** **`[tt "rad"]2 == tt2 "sr" == 1 "surface"`**, the surface of a [[sphere]]
+**definition** $(\tau \mathrm{rad})^2 = \tau^2 \mathrm{sr} = 1 \mathrm{surface}$, the surface of a [[sphere]]
 
-a unit [[sphere]]ical cap with an [[angle]] of **`1 "sr"`** has area **`1`**
+a unit [[sphere]]ical cap with an [[angle]] of $1 \mathrm{sr}$ has area $1$

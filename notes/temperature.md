@@ -1,5 +1,5 @@
 # Temperature
 
-**see** [[math notation]]
+**notation** _[[international system of units]]_ $\mathrm K$
 
-**notation** _[[international system of units]]_ **`"K"`**
+#stub

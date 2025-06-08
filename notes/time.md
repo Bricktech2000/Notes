@@ -2,9 +2,9 @@
 
 _our most valuable asset_ --- <https://youtu.be/wp7Lz1svVro?t=17886>
 
-**see** [[math notation]], [[productivity]]
+**see** [[productivity]]
 
-**notation** _[[international system of units]]_ **`"s"`**
+**notation** _[[international system of units]]_ $\mathrm s$
 
 ## Commodity
 

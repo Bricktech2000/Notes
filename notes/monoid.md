@@ -8,11 +8,13 @@
 
 it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] under [an [[operator]]]_. for example, _[[natural]]s with $0$ form a [[monoid]] under addition_
 
-**definition** a [[monoid]] is a finite or infinite [[set]] equipped with a closed associative binary operation and an identity element --- Wikipedia
+**definition** a _monoid_ is a [[semigroup]] that has an identity element
+
+**definition** a _monoid_ is a [[set]] equipped with a closed associative binary operation and an identity element --- Wikipedia
 
 **definition**
 
-let a binary [[operator]] $\cdot$ on a [[set]] $S$. for them to form a [[monoid]], the following [[axiom]]s must be satisfied for all $a, b, c \in S$ for some $e \in S$:
+a _monoid_ is a [[set]] $S$ equipped with a binary [[operator]] $\cdot$ that satisfies the following [[axiom]]s for some $e \in S$ for all $a, b, c \in S$
 
 _associativity_ $(a \cdot b) \cdot c = a \cdot (b \cdot c)$
 
@@ -36,6 +38,8 @@ _closure_ $a \cdot b \in S$
 ## Free Monoid
 
 --- <https://en.wikipedia.org/wiki/Free_monoid>
+
+--- <https://ncatlab.org/nlab/show/free+monoid>
 
 **see** [[semigroup#free semigroup]]
 

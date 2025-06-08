@@ -161,7 +161,7 @@ U"foo" // char32_t[6]
 
 > **note** generally, prefer `struct s *p = malloc(sizeof(*p));` to `struct s *p = malloc(sizeof(struct s));` when using `sizeof` --- <https://www.kernel.org/doc/Documentation/process/coding-style.rst> "Linux kernel coding style", $14 'Allocating memory', and <https://youtu.be/443UNeGrFoM?t=1h3m57s>
 >
-> > **note** `size_t zero(int a[10]) { return memset(a, 0, sizeof(a)); }` won't work, but `size_t zero(int (*a)[10]) { return memset(a, 0, sizeof(*a)); }` will
+> > **note** `size_t zero(int a[10]) { return memset(a, 0, sizeof(a)); }` won't work because `a` decays to a pointer, but `size_t zero(int (*a)[10]) { return memset(a, 0, sizeof(*a)); }` will
 
 `sizeof char` is `1`, and the size of the other integer data types is implementation defined and is available in `limits.h`. each has a standard-imposed minimum magnitude; see ISO/IEC 9899:TC3, Annex E, paragraph 1. actual-width integers such as `uint32_t` and widest integer types `uintmax_t` and `intmax_t` are available in `stdint.h` and `inttypes.h`
 

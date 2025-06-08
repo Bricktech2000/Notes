@@ -34,6 +34,8 @@
 
 [[pedophilia]]
 
+[[moravec's paradox]]
+
 ## zilch
 
 [[improved expression evaluation]]

@@ -1,3 +1,5 @@
 # Photon
 
-**notation** **`gg`**
+**notation** $\gamma$
+
+#stub

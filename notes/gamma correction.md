@@ -1,6 +1,6 @@
 # Gamma Correction
 
-**see** [[color science]], [[math notation]]
+**see** [[color science]]
 
 **definition** _gamma correction_ is a nonlinear operation used to encode and decode [[luminance]] or whole [[color space]]s in video or still image systems --- Wikipedia
 
@@ -8,12 +8,12 @@
 
 **definition**
 
-**`V_"out" = A | [V_"in"]gg`**, where
+$V_\mathrm{out} = A \cdot V_\mathrm{in}^\gamma$, where
 
-- **`V_"out"`** is the output value
-- **`V_"in"`** is the input value
-- **`A`** is a constant, generally equal to **`1`**
-- **`gg`** is the gamma value, generally around **`22-10`**
+- $V_\mathrm{out}$ is the output value
+- $V_\mathrm{in}$ is the input value
+- $A$ is a constant, generally set to $1$
+- $\gamma$ is the gamma value, generally around $2.2$
 
 **representation** _the gamma [[curve]] and [[lightness]]_
 

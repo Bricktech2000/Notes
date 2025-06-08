@@ -1,5 +1,7 @@
 # Acceleration
 
-**see** [[math notation]], [[international system of units]]
+**see** [[international system of units]]
 
-**`A t = dd V t`**, see [[velocity]]
+$a = \frac{dv}{dt}$, see [[velocity]]
+
+#stub

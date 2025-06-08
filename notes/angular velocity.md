@@ -1,3 +1,5 @@
 # Angular Velocity
 
-**see** [[math notation]], [[international system of units]]
+**see** [[international system of units]]
+
+#stub

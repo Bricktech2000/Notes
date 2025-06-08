@@ -1,7 +1,9 @@
 # Planck Constant
 
-**see** [[math notation]]
+**see** [[international system of units]]
 
-**notation** **`h`**
+**notation** $h$
 
-**definition** **`h ~ 6626[10](.37)"J""s"`**
+**definition** $h \approx 6.62607015 \cdot 10^{-34}\ \mathrm{\frac{kgm^2}{s}}$
+
+#stub

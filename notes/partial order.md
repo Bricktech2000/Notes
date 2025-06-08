@@ -4,6 +4,8 @@
 
 **see** [[total order]], [[preorder]]
 
+**see** [[supremum]], [[infimum]]
+
 **equiv** _set of paths of a directed acyclic [[graph]]_ --- <https://en.wikipedia.org/wiki/Topological_sorting#Relation_to_partial_orders> and <https://en.wikipedia.org/wiki/Partially_ordered_set#Linear_extension>
 
 **definition** a [[relation]] is a _non-strict partial order_ or simply _partial order_ if it is a [[relation#antisymmetric relation]], a [[relation#reflexive relation]] and a [[relation#transitive relation]]

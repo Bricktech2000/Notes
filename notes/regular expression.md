@@ -28,6 +28,8 @@ in [[formal language]] theory, [[regular expression]]s support concatenation `rs
 
 alternation `|` corresponds to [[set#union]] [[under]] accepted language, so it is only natural to extend [[regular expression]]s with intersection `&` and complementation `~`, which correspond to, respectively, [[set#intersection]] and [[set#complementation]] [[under]] accepted language. this is seldom done in practice, however---and that's a shame, because these extended [[regular expression]]s are more natural and more concise, as argued in _Regular Expressions and State Graphs for Automata_ by McNaughton and Yamada (subsection _A Specification Language for Automata_) and in _Regular-expression derivatives reexamined_ by Owens, Reppy and Turon (section _5.1 Extended Regular Expressions_)
 
+there exist several [[algorithm]]s for the determinization of [[regular expression]]s, but they're all mostly the same. Thompson's construction (_Regular Expression Search Algorith_ by Thompson) and Aho's "followpos" algorithm (_Principles of Compiler Design_ by Aho and Ullman) both convert [[regular expression]]s to trivially equivalent non-deterministic [[finite acceptor]] [[graph]] intermediate representations. and the powerset construction, "lock-step" algorithm and McNaughton--Yamada algorithm (_Regular Expressions and State Graphs for Automata_ by McNaughton and Yamada) are just different takes on computing Brzozowski derivatives (_Derivatives of Regular Expressions_ by Janusz A. Brzozowski) on those non-deterministic intermediate representations. see also <https://youtu.be/tAw9-nTCuzI>, an overview of this all, by Kay Lack
+
 **properties** (not exhaustive)
 
 _commutitivity of alternation_ `r|s = s|r`

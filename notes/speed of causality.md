@@ -1,7 +1,9 @@
 # Speed of Causality
 
-**see** [[electromagnetic wave]], [[math notation]]
+**see** [[electromagnetic wave]]
 
-**notation** **`c`**
+**notation** $c$
 
-**definition** **`c = 299792458 "m"-"s"`**
+**definition** $c = 299792458\ \mathrm{\frac m s}$
+
+#stub

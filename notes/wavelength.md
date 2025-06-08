@@ -1,3 +1,5 @@
 # Wavelength
 
-**notation** **`ll`**
+**notation** $\lambda$
+
+#stub

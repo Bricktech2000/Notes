@@ -21,7 +21,7 @@
 | **`"Top"`**   | topological spaces           | continuous maps         | empty space - singleton space                                           | cartesian product - disjoint union                |
 | **`"Sub"`**   | [[set]]s                     | [[set#subset]]          | [[set#empty set]] - [[set#universal set]]                               | [[set#intersection]] - [[set#union]]              |
 | **`"Vect"`**  | [[vector space]]s            | [[linear map]]s         | [[vector space#zero vector space]] - [[vector space#zero vector space]] | direct sum - [[tensor#product]]                   |
-| **`"Poset"`** | [[partial order]]ed elements | no more than            | bottom element - top element                                            | join - meet                                       |
+| **`"Poset"`** | [[partial order]]ed elements | at most                 | bottom element - top element                                            | join - meet                                       |
 | **`"Type"`**  | [[type]]s                    | [[function]]s           | [[type#empty type]] - [[type#unit type]]                                | [[type#product type]] - [[type#sum type]]         |
 | **`"Bool"`**  | [[boolean]]s                 | [[boolean#implication]] | boolean false - boolean true                                            | [[boolean#conjunction]] - [[boolean#disjunction]] |
 |               | [[real]]s                    | no more than            | negative infinity - positive infinity                                   | minimum - maximum                                 |

@@ -41,6 +41,8 @@ cleaning before hosting --- a clean individual does not need to clean their hous
 _that's why you need all of this [...]. you have no real power_ --- Wicked (from the movie)
 _That’s why you need spies. And cages... and an enemy. You have no real power_ --- Wicked (from the movie script)
 
+#xxx does the above have something to do with <https://en.wikipedia.org/wiki/Compensation_(psychology)> [[compensation]]?
+
 > **examples** --- 200 répliques --- Hélène Drouard
 >
 > - _Moins les gens ont d'idées à exprimer, plus ils parlent fort._ --- François Mauriac

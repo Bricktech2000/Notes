@@ -1,10 +1,10 @@
 # Luminance
 
-**see** [[color science]], [[lightness]], [[cielab]], [[gamma correction]], [[math notation]], [[luma]]
+**see** [[color science]], [[lightness]], [[cielab]], [[gamma correction]], [[luma]]
 
-**notation** _[[international system of units]]_ **`"cd" -- "m"2`**
+**notation** _[[international system of units]]_ $\mathrm{\frac{cd}{m^2}}$
 
-**notation** **`L`**
+**notation** $L$
 
 **definition** in [[color science]], _luminance_ is a linear measurement of [[luminous intensity]] --- Wikipedia
 

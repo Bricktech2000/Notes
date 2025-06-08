@@ -10,11 +10,11 @@ _a [[group]] without necessarily having a [[group#identity element]] or [[group#
 
 **see** [[algebraic structure]]
 
-**definition** a [[semigroup]] is a finite or infinite [[set]] of elements equipped with a closed associative binary operation --- Wikipedia and me
+**definition** a [[semigroup]] is a [[set]] of elements equipped with a closed associative binary operation --- Wikipedia and me
 
 **definition**
 
-let a binary [[operator]] $\cdot$ on a [[set]] $S$. for them to form a [[semigroup]], the following [[axiom]]s must be satisfied for all $a, b, c \in S$
+a _semigroup_ is a [[set]] $S$ equipped with a binary [[operator]] $\cdot$ that satisfies the following [[axiom]]s for all $a, b, c \in S$
 
 _associativity_ $(a \cdot b) \cdot c = a \cdot (b \cdot c)$
 

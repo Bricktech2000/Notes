@@ -16,11 +16,11 @@
 
 _a [[monoid]] where every element also has an inverse_
 
-**definition** a [[group]] is a finite or infinite [[set]] of invertible elements equipped with a closed associative binary operation and an identity element --- Wikipedia and me
+**definition** a [[group]] is a [[set]] of invertible elements equipped with a closed associative binary operation and an identity element --- Wikipedia and me
 
 **definition** --- <https://youtu.be/KufsL2VgELo?t=1083>
 
-let a binary [[operator]] $\cdot$ on a [[set]] $G$. for them to form a [[group]], the following [[axiom]]s must be satisfied for all $a, b, c \in G$ for some $e \in G$:
+a _group_ is a [[set]] $G$ equipped with a binary [[operator]] $\cdot$ that satisfies the following [[axiom]]s for some $e \in G$ for all $a, b, c \in G$:
 
 _associativity_ $(a \cdot b) \cdot c = a \cdot (b \cdot c)$
 
