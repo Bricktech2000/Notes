@@ -15,3 +15,7 @@ something that can only be explained through sheer magic
 ## #stub
 
 a placeholder section used for backlinks
+
+## #rot
+
+a source that got affected by link rot

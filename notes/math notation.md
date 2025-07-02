@@ -89,8 +89,8 @@ let:
 | **`[a]b`** <br> **`a[b]`** <br> **`[.] b a`**          | **`a`** to the power of **`b`**                           |                                                |
 | **`\a/ b`** <br> **`\./ b a`**                         | the **`b`**th root of **`a`**                             |                                                |
 | **`/a\ b`** <br> **`/.\ b a`**                         | the base-**`b`** [[logarithm]] of **`a`**                 |                                                |
-| **`x -> a`**                                           | [[function]] abstraction                                  | **`f = x -> a == f <- x = a`**                 |
-| **`f <- a`**                                           | [[function]] application                                  | longhand discouraged                           |
+| **`x -> a`**                                           | [[function#abstraction]]                                  | **`f = x -> a == f <- x = a`**                 |
+| **`f <- a`**                                           | [[function#application]]                                  | longhand discouraged                           |
 | **`a ~ b`** <br> **`a ~~ b`**                          | whether **`a`** is similar to **`b`**                     | _similar_ as in _approximately equal to_       |
 | **`a = b`** <br> **`a == b`**                          | whether **`a`** is equal to **`b`**                       | equivalent to [[boolean#equivalence]]          |
 | **`a + b`** <br> **`a >< b`**                          | whether **`a`** is different from **`b`**                 | equivalent to [[boolean#symmetric difference]] |
@@ -127,9 +127,9 @@ let:
 
 | notation                       | description                                                      | notes                                                       |
 | ------------------------------ | ---------------------------------------------------------------- | ----------------------------------------------------------- |
-| **`:A`**                       | **`A`** reduced with **`:`**                                     | see [[reduce function]]                                     |
+| **`:A`**                       | **`A`** reduced with **`:`**                                     | see [[monoid#fold]]                                         |
 | **`.a`**                       | **`0 . a`**                                                      |                                                             |
-| **`'A`** <br> **`\|A`**        | **`A`** reduced with **`'`** <br> **`A`** reduced with **`\|`**  | see [[reduce function]]                                     |
+| **`'A`** <br> **`\|A`**        | **`A`** reduced with **`'`** <br> **`A`** reduced with **`\|`**  | see [[monoid#fold]]                                         |
 | **`-a`** <br> **`--a`**        | **`1-a`** <br> **`1 -- a`**                                      |                                                             |
 | **`xy`**                       | **`x'y`**                                                        |                                                             |
 | **`wwx`**                      | **`ww'x`**                                                       |                                                             |
@@ -141,20 +141,20 @@ let:
 | **`/a\`**                      | **`/a\ ee`**, the natural [[logarithm]] of **`a`**               |                                                             |
 | **`x y -> a`**                 | **`x -> y -> a`**                                                |                                                             |
 | **`f a`**                      | **`f <- a`**                                                     | shorthand preferred                                         |
-| **`~a`** <br> **`~~a`**        | **`A`** reduced with **`~`** <br> **`A`** reduced with **`~~`**  | see [[reduce function]]                                     |
-| **`=a`** <br> **`==a`**        | **`A`** reduced with **`=`** <br> **`A`** reduced with **`==`**  | see [[reduce function]]                                     |
+| **`~a`** <br> **`~~a`**        | **`A`** reduced with **`~`** <br> **`A`** reduced with **`~~`**  | see [[monoid#fold]]                                         |
+| **`=a`** <br> **`==a`**        | **`A`** reduced with **`=`** <br> **`A`** reduced with **`==`**  | see [[monoid#fold]]                                         |
 | **`+a`** <br> **`><a`**        | **`^^ + a`** <br> **`^^ >< a`**                                  | equivalent to [[boolean#negation]]                          |
 | **`-\|A`** <br> **`<A`**       | **`A`** sorted from least to greatest                            |                                                             |
 | **`\|-A`** <br>**`>A`**        | **`A`** sorted from greatest to least                            |                                                             |
-| **`__A`** <br> **`/\A`**       | **`A`** reduced with **`__`** <br> **`A`** reduced with **`/\`** | see [[reduce function]]                                     |
-| **`^^A`** <br> **`\/A`**       | **`A`** reduced with **`^^`** <br> **`A`** reduced with **`\/`** | see [[reduce function]]                                     |
+| **`__A`** <br> **`/\A`**       | **`A`** reduced with **`__`** <br> **`A`** reduced with **`/\`** | see [[monoid#fold]]                                         |
+| **`^^A`** <br> **`\/A`**       | **`A`** reduced with **`^^`** <br> **`A`** reduced with **`\/`** | see [[monoid#fold]]                                         |
 | **`a_0 \* a_1 \* ... a_n`**    | with **`n = 3`**, **`a_0 \* a_1 \* a_2 \* a_3`**                 | step size is **`1`** or **`.1`** if **`a_1 \*`** is omitted |
 | **`a_0 ... a_n`**              | with **`n = 3`**, **`a_0, a_1, a_2, a_3`**                       | step size is **`1`** or **`.1`** if **`a_1`** is omitted    |
 | **`@@`**                       | **`x {x -> @@}`**                                                | **`@@`** in an expression is an implicit [[limit]]          |
 | **`A \* B`**                   | **`x -> A x \* B x`**                                            | see [[polymorphism#rank polymorphism]]                      |
 | **`A \* a`** <br> **`a \* A`** | **`x -> A x \* a`** <br> **`x -> a \* A x`**                     | see [[polymorphism#rank polymorphism]]                      |
 | **`f g *`**                    | **`x -> f (g x)`**                                               | **`*`** is a "hole" #todo define rigorously                 |
-| **`(*)`**                      | the [[combinator#i combinator]]                                  | equivalent to [[composition#identity]]                      |
+| **`(*)`**                      | the [[combinator#i combinator]]                                  | equivalent to [[function#identity]]                         |
 | **`(f g) a`**                  | **`(f <- g) a`**                                                 | equivalent to [[combinator#s combinator]]                   |
 | **`f {a b}`**                  | **`f {a <- b}`**                                                 |                                                             |
 | **`""math""`**                 | **`(''m'', ''a'', ''t'', ''h'')`**                               | see [[string]], [[list]]                                    |
@@ -170,9 +170,9 @@ let:
     - [ ] replace **`PP`** with **`(|)sshh`**? where **`hh`** is an iota [[sequence]] and **`ss`** the successor [[function]]
     - [ ] replace **`0:...n`** with **`:hh n`**? where **`hh`** is an iota sequence
     - [ ] implement **`ss`** sucessor [[function]]? globally replace `:1`s.
-      - [[newton's method]] with new [[function]] composition would then be **`xss = x . (fx -- ddfx)`**
-      - [[gradient#descent]] with new [[function]] composition would then be **`ass = a . aa(ddf a)`**
-      - [[mandelbrot set]] with new [[function]] composition would then be **`(z c)ss = (z c)2 : c /\ z c 0 = 0`** and **`"abs"z c`**
+      - [[newton's method]] with new [[function#composition]] would then be **`xss = x . (fx -- ddfx)`**
+      - [[gradient#descent]] with new [[function#composition]] would then be **`ass = a . aa(ddf a)`**
+      - [[mandelbrot set]] with new [[function#composition]] would then be **`(z c)ss = (z c)2 : c /\ z c 0 = 0`** and **`"abs"z c`**
       - [ ] allow **`(E)ww`** to represent **`[E]ww`**
   - [ ] do we want subscripts and superscripts? maybe just one character?
   - [ ] should unary **`<`** be a sort or a reduce?
@@ -229,8 +229,8 @@ let:
 
 - function:
 
-  - [ ] **`{<-} f x`** and **`{*} f x`** are both the [[composition#identity]]
-  - [ ] inverses of [[function]] application and abstraction:
+  - [ ] **`{<-} f x`** and **`{*} f x`** are both the [[function#identity]]
+  - [ ] inverses of [[function#application]] and [[function#abstraction]]:
 
     ```
      /x\ b = a ==  x = [b]a  == \x/ a = b
@@ -243,13 +243,13 @@ let:
     ```
 
   - repeated composition:
-    - [[function#inverse]]s are inverses with respect to both [[composition]] and application. the inverse of a [[function]] is applying that [[function]] **`.1`** times
+    - [[function#inverse]]s are inverses with respect to both [[function#composition]] and [[function#application]]. the inverse of a [[function]] is applying that [[function]] **`.1`** times
     - a half-[[derivative]] is applying the [[derivative]] [[operator]] **`-2`** times. write note about <https://en.wikipedia.org/wiki/Functional_square_root>
     - an [[antiderivative]]/[[integral]] is applying the [[derivative]] [[operator]] **`.1`** times
   - [ ] when found inverse of function composition, fix [[trigonometric function#inverses]] and [[function#inverse]] and [[trigonometric function#reciprocals]] (#todo invalid link) and [[function#reciprocal]] and others
   - [ ] when figured out composition, fix up [[algebraic structure]]s, see <https://discord.com/channels/@me/892957003645853717/1133641823542313050>
   - [ ] when figured out all of the above, fix up [[pid controller]] definition
-  - [ ] move [[composition]] within [[function]]; create `[[application]]` wthin [[function]]; create `[[abstraction]]` within [[function]]; move [[function#inverse]] within [[composition]]
+  - [x] move `[[composition]]` within [[function]]; create `[[application]]` wthin [[function]]; create `[[abstraction]]` within [[function]]; move [[function#inverse]] within `[[composition]]`
 
 fixed #todo update:
 
@@ -268,7 +268,7 @@ partially testing out:
 - [[pid controller]]
 - [[linear map#standard matrix]] **`A = rr (T I *)`**
 - [[trigonometric function]] theorem **`c"cos" (* + aa)`**
-- [[binary exponentiation]] [[monoid#operation]] through [[composition]]
+- [[binary exponentiation]] [[monoid#operation]] through [[function#composition]]
 
 ### precedence and associativity
 

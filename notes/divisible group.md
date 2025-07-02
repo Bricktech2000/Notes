@@ -2,9 +2,9 @@
 
 ## Operation
 
-## Identity Element
+## Inverse
 
-## Inverse Element
+## Identity Element
 
 --- <https://en.wikipedia.org/wiki/Divisible_group>
 
@@ -15,3 +15,5 @@
 **definition** a [[divisible group]] is a [[set]] of elements equipped with a closed associative commutative binary operation that can be applied a [[rational]] number of times --- Wikipedia and me
 
 **definition** an [[abelian group]] $G$ is a _divisible group_ if and only if $\forall n \in \mathbb N, g \in G.\ \exists y \in G.\ y^n = g$, or, equivalently, if and only if $\forall n \in \mathbb N.\ G^n = G$
+
+> **note** not sure why [[divisible group]]s are defined to be abelian

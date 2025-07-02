@@ -73,6 +73,80 @@ _range_ **`D x == R f x`**
 
 **`D x > A f x`**
 
+## Composition
+
+**equiv** _[[combinator#b combinator]]_
+
+**definition** _composition in my [[math notation]]_
+
+**``f`g = x. f (g x)``**, where
+
+- **`f`** and **`g`** are the original [[function]]s
+- **`` ` ``** is the [[function#composition]] [[operator]]
+- **`x`** is the parameter to be passed to **`f`** and **`g`**
+
+**definition** _[[function#composition]] in Haskell_
+
+`(.) :: (b -> c) -> (a -> b) -> a -> c`
+
+> **example** _[[function#composition]] in Haskell_ let `f :: A -> B` and `g :: B -> C`. then, `g . f` has type signature `A -> C`
+
+**properties**
+
+_associativity_ **``h\\g`f == h`g\\f == h`g`f``** --- <https://youtu.be/SmXB2K_5lcA?t=662>
+
+[[function#composition]] forms a [[semigroup]]
+
+### Identity
+
+#todo id
+
+**aka** _identity [[function]]_
+
+**equiv** _[[combinator#i combinator]]_
+
+**notation** **`(*)`**
+
+**definition** **`(*)`**
+
+**properties**
+
+_[[function#identity]]_ **`(*)f == f == f(*)`**
+
+_[[idempotence]]_ **`(*)2 == (*)`**
+
+_[[involution]]_ **`(*)2 == (*)`**
+
+[[function#composition]] with a [[function#identity]] forms a [[monoid]]
+
+### Inverse
+
+**definition** **`` `f == f{..1} ``**
+
+> **note** the inverse of a [[function]] exists only if it is a [[function#injective function]]
+
+**properties**
+
+**`` `f \\ f == f \\ `f == (*)``** #todo id
+
+[[function#composition]] with a [[function#identity]] and a [[function#inverse]] forms a [[group]]
+
+## Abstraction
+
+**see** [[lambda-calculus]]
+
+**notation** **`x -> f`**
+
+#stub
+
+## Application
+
+**see** [[lambda-calculus]], [[partial application]], [[currying]]
+
+**notation** **`f\ x`**
+
+#stub
+
 ## Parity
 
 ### Even Function
@@ -98,6 +172,8 @@ _an odd function is symmetrical about the y axis, but also flipped about the x a
 **definition** a [[function]] is _multivalued_ if it maps a single input to multiple outputs
 
 #todo link with [[improved expression evaluation]] superpositions
+
+#xxx aren't those "superpositions" just the List monad (non-determinism)?
 
 ## Increasing Function
 
@@ -195,16 +271,6 @@ if **`f x`** and **`g x`** are continuous at **`a`**, then the following [[funct
 - **`f | g`**
 - **`c ' f`** where **`c`** is a [[scalar]]
 - **`f -- g`** if **`g a + 0`** (restriction not necessary, see [[improved expression evaluation]])
-
-## Inverse
-
-**definition** **`` `f == f{..1} ``**
-
-> **note** the inverse of a [[function]] exists only if it is a [[function#injective function]]
-
-**properties**
-
-**`` `f \\ f == f \\ `f == (*)``** #todo id
 
 ## Slope
 
@@ -319,55 +385,29 @@ a [[function#analytic function]] is infinitely differentiable, but an infinitely
 
 analytic continuation of a [[function#analytic function]] is uniquely determined --- <https://youtu.be/YuIIjLr6vUA?t=1746>
 
-## Pure Function
-
-**definition** a _pure function_ is a [[function]] that has no side effects and that does not depend on external state
-
-of course, any [[function]] can be thought of as having side effects. for example, running a [[function#pure function]] on a CPU still consumes a measurable amount of [[energy]], modifying the entropy of the universe --- <https://youtu.be/APUCMSPiNh4?t=2594>. practically, however, this definition remains useful
-
-**properties**
-
-pure [[function]]s can be memoized using a [[map]]
+## Partial Function
 
 ## Total Function
 
-_a [[function]] that doesn't "lie" in its [[type]] signature_
+--- <https://wiki.haskell.org/Partial_functions>
 
-a [[function#total function]] maps every element of its [[function#domain]] to some element of its [[function#codomain]]
+--- <https://www.parsonsmatt.org/2017/10/11/type_safety_back_and_forth.html> by Matt Parson
+
+**definition** a _partial function_ maps a [[set#subset]] of its [[function#domin]] to some element of its [[function#codomain]]
+
+**definition** a _total function_ maps every element of its [[function#domain]] to some element of its [[function#codomain]]
+
+in [[computer science]] and [[functional programming]], _total functions_ are [[function]]s that don't "lie" in their [[type]] signature. a total function never `panic!`s, never throw [[exception]]s, and always terminates
 
 > **example**
 >
-> let the following [[function]]:
->
 > ```rust
-> fn twelveOver(x: f64) -> f64 {
->   12 / x
+> fn reciprocal(x: f64) -> f64 {
+>   1 / x
 > }
 > ```
 >
-> even though the [[type]] signature of the [[function]] is `fn(f64) -> f64`, it won't be able to return a value if the input is `0`. most developers would add an `if` check and throw an [[exception]] if that were the case, which makes the [[type]] signature a "lie". however, in [[functional programming]], one of the following strategies should be used instead:
+> the [[function]] has [[type]] `fn(f64) -> f64`, yet `f(0.0)` is undefined. you could add an `if` check and throw an [[exception]], but the type signature would still be a lie. in [[functional programming]], one should prefer either:
 >
-> - restrict the input of the [[function]] (`NonZeroF64` is an example)
-> - extend the output of the [[function]] (`Option<f64>` is an example)
-
-## Idempotent Function
-
---- <https://en.wikipedia.org/wiki/Idempotence>
-
---- <https://youtu.be/VvUdvte1V3s?t=1261>
-
-**definition** _[[procedural programming]]_ a [[function]] with side effects is said to be _idempotent_ if calling it multiple times results in the same system state as calling it once
-
-> **example** HTTP `GET`, `PUT` and `DELETE` are all [[function#idempotent function]]s
-
-**definition** _[[functional programming]] and [[mathematics]]_ a [[function]] **`f`** is said to be _idempotent_ if **`f = f2`**
-
-**definition** _[[functional programming]] and [[mathematics]]_, an [[operator]] **`*`** on a set **`S`** is said to be _idempotent_ if **`x * x = x`** for all **`S x`**
-
-> **example** the [[real#absolute value]], **`abs`**, is a [[function#idempotent function]] because **`"abs" x = "abs"2 x`** for all **`RR x`**
-
-## Self-Inverse Function
-
-**aka** _involution_
-
-**definition** a [[function]] **`f`** is said to be _self-inverse_ if and only if **`f2 = f0`** #todo id
+> - restricting the input of the [[function]], `fn(NonZeroF64) -> f64`
+> - extending the output of the [[function]], `fn(f64) -> Option<f64>`

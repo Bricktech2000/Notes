@@ -2,7 +2,7 @@
 
 the [[karatsuba algorithm]] is a [[divide and conquer]] [[algorithm]] for multiplication that works by reducing an $n$-digit multiplication into three $\frac n 2$-digit multiplications
 
-if $x = aB + b$ and $y = (cB + d)$ then $xy = z_2B^2 + z_1B + z_0$, where:
+if $x = aB + b$ and $y = cB + d$ then $xy = z_2B^2 + z_1B + z_0$, where:
 
 - $z_0 = bd$
 - $z_2 = ac$

@@ -6,8 +6,8 @@
 
 > **example** **`""efabccla""`** is a [[superstring]] of **`{{ ""abcc"", ""efab"", ""bccla"" }}`**
 
-> **note** trivial [[superstring]]s can always be constructed by [[string#concatenation]]
+> **note** trivial [[superstring]]s can always be constructed by [[list#concatenation]]
 
 **properties**
 
-the [[substring]] [[relation]] is a [[partial order]] --- me
+the [[superstring]] [[relation]] is a [[partial order]] --- me

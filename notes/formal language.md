@@ -1,6 +1,6 @@
 # Formal Language
 
-**see** [[finite acceptor]], [[regular expression]], [[math notation]], [[conventional math notation]]
+**see** [[finite acceptor]], [[regular expression]], [[brzozowski derivative]], [[conventional math notation]]
 
 **definition** a _formal language_ is a [[set]] $L$ of finite [[string]]s (_words_) over a finite [[set]] (_alphabet_) of [[character]]s (_symbols_)
 
@@ -14,7 +14,7 @@
 
 **definition** the _Kleene plus_ $L^+$ of a [[formal language]] $L$ is the [[semigroup#free semigroup]] on $L$
 
-the complement of a [[formal language]] is with respect to the Kleene closure of its alphabet; that is, $\overline L = \Sigma^* \setminus L$. the union of two [[formal language]]s is a [[set#union]], their intersection is a [[set#intersection]], their difference is a [[set#difference]], and their concatenation is their [[string#concatenation]]-[[outer product]]s
+the complement of a [[formal language]] is with respect to the Kleene closure of its alphabet; that is, $\overline L = \Sigma^* \setminus L$. the union of two [[formal language]]s is a [[set#union]], their intersection is a [[set#intersection]], their difference is a [[set#difference]], and their concatenation is their [[list#concatenation]]-[[outer product]]s
 
 **definition** a [[formal language]] is said to be _nullable_ if it contains the empty word
 
@@ -22,9 +22,9 @@ the complement of a [[formal language]] is with respect to the Kleene closure of
 
 **notation** _empty word_ typically one of $\varepsilon$, $\lambda$, $\Lambda$
 
-**notation** _word length_ $|w|$, see [[string#length]]
+**notation** _word length_ $|w|$, see [[list#length]]
 
-**notation** _concatenation_ typically one of $uv$, $u \cdot v$, see [[string#concatenation]]
+**notation** _concatenation_ typically one of $uv$, $u \cdot v$, see [[list#concatenation]]
 
 **notation** _alternation_ typically one of $u \mid v$, $u + v$, $u \cup v$, see [[set#union]]
 
@@ -52,9 +52,9 @@ the class of regular languages is closed under Kleene closure, Kleene plus, [[se
 
 > **note** intuitively, the pumping lemma states that all sufficiently long words of a regular language may be "pumped" (there exists a [[substring]] that, when repeated any number of times, produces another word in the language)
 
-> **example** the [[set]] of all [[string]]s of [[prime]] [[string#length]] is not a [[formal language#regular formal language]] --- me
+> **example** the [[set]] of all [[string]]s of [[prime]] [[list#length]] is not a [[formal language#regular formal language]] --- me
 >
-> > **proof** by the pumping lemma, the [[string#length]] of pumped words is a [[sequence#arithmetic sequence]] $n.\ |wy^n| = n.\ |w| + n|y|$, which, since $|y| \ne 0$, will always hit a non-[[prime]], namely, at $n := |w|$ --- me
+> > **proof** by the pumping lemma, the [[list#length]] of pumped words is a [[sequence#arithmetic sequence]] $n.\ |wy^n| = n.\ |w| + n|y|$, which, since $|y| \ne 0$, will always hit a non-[[prime]], namely, at $n := |w|$ --- me
 
 ## Non-Regular Language
 

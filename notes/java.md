@@ -24,7 +24,7 @@ java HelloWorld.java
 
 [[java#auto boxing]] is a band-aid and [[java#wrapper]]s are a duct-tape solution
 
-[[java]] does **not** support operator overloading. [[java]] does **not** have [[first-class function]]s
+[[java]] does **not** support operator overloading. [[java]] does **not** have first-class functions
 
 [[java]] does **not** allow the creation of generic [[array]]s `E[] a = new E[capacity]` where `E` is the generic [[type]]. `E[] = (E[]) Object[capacity]` is to be used instead, which will generate a compile-time a warning, which may be suppressed using the decorator `@SuppressWarnings("unchecked")` --- <https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java>
 

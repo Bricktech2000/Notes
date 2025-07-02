@@ -1,27 +1,22 @@
 # Functor
 
-**see** [[functional programming]], [[return function]], [[map function]]
+**see** [[functional programming]]
 
-**definition**
+**definition** a _functor_ is an [[effect type]] that has a [[functor#map]] that upholds the [[functor#laws]]
 
-a [[functor]]:
+## Map
 
-- is an [[effect type]]
-- has a [[return function]]
-- has a [[map function]]
-- must have a sensible implementation following the [[functor#laws]]
+_lifts a horizontal [[function]] to the effects world_
 
-**equiv** _[[category#functor]]_ the [[return function]] is the map for [[category#object]]s, the [[map function]] is the map for [[category#morphism]]s, the identity [[functor#law]] preserves the [[category#identity law]] and the composition [[functor#law]] preserves [[category#composition]]
+**aka** _`lift`_, _`select`_, _`fmap`_, _`<$>`_
 
-**applications** **see** [[map function]]
+**definition** `fmap :: Functor f => (a -> b) -> f a -> f b`
 
-**properties**
+**applications**
 
-[[monad]]s generalize [[functor]]s
+[[functor#map]]s unwrap the inputs to a [[function]] before wrapping them back after execution, see [[effect type]]. let a [[function]] `let inc = |x| x + 1;` and a [[effect type]] `Option<T>`. `inc(1)` works fine, but `inc(Some(1))` will fail. it would be possible to work around this issue by defining a custom [[function]] to unwrap the optional [[type]], increment it, and wrap it back into an optional [[type]]. however, this is an antipattern in [[functional programming]]. ideally, we would want to stay in the "optional" world while using a value and unwrap it only after being done all operations. this is what [[functor#map]]s are for.
 
-[[applicative]]s generalize [[functor]]s
-
-# Laws
+## Laws
 
 ```haskell
 fmap id = id -- identity

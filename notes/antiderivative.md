@@ -31,7 +31,7 @@ _useful when the [[derivative]] of **`u`** is in the integrand_
 
 > **proof** #todo inv
 >
-> **``$ f = $dd ($ f \\ `u) \\ u``** by [[composition]] identities
+> **``$ f = $dd ($ f \\ `u) \\ u``** by [[function#composition]] identities
 >
 > **``= $ (f \\ `u | dd `u) \\ u``** by the chain [[derivative rules]]
 >

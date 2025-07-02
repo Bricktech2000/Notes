@@ -37,7 +37,7 @@ _[[type system]] madness_
 
 see <https://github.com/denysdovhan/wtfjs> for further examples
 
-equality is **not** a [[relation#reflexive relation]] in [[javascript]] because of [[ieee 754]] **`"NaN"`**
+equality is **not** a [[relation#reflexive relation]] in [[javascript]] because of [[ieee 754]] NaN
 
 > **proof**
 >

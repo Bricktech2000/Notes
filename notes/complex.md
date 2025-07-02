@@ -72,7 +72,7 @@ let **`CC {z /\ w} /\ RR c`**
 
 **`"conj" z-w = "conj" z -- "conj" w`**
 
-_[[function#self-inverse function]]_ **`"conj"2 z = z`**
+_[[involution]]_ **`"conj"2 z = z`**
 
 **`RR z == "conj" z = z`**
 

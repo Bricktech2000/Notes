@@ -202,7 +202,7 @@ _flips a [[matrix]] around its [[matrix#diagonal]]_
 
 **properties**
 
-_[[function#self-inverse function]]_ **`rr rr A = A`**
+_[[involution]]_ **`rr rr A = A`**
 
 **`rr AB = rr B | rr A`** #todo mm
 

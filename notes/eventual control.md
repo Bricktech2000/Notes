@@ -10,10 +10,10 @@ _in the beginning you want results but in the end you want control_
 
 - don't complain about complexity when in the _results_ phase; complexity exists because _control_
 - maybe that's why the Gos and Javas of this world feel like toys. they don't give you eventual control
-- [[muscle memory]]/[[abstraction]] gets built over complexity over time
+- [[procedural memory]]/[[abstraction]] gets built over complexity over time
 - think about relationship with [[invent]]/[[discover]] and [[durability]]
 
-#xxx fast and slow proceses (what Veritasium calls "systems 1 and 2") <https://youtu.be/0xS68sl2D70?t=661> might be closer to what I mean by [[muscle memory]]/[[abstraction]]. #xxx this is also what allows [[sensory augmentation]]
+#xxx fast and slow proceses (what Veritasium calls "systems 1 and 2") <https://youtu.be/0xS68sl2D70?t=661> might be closer to what I mean by [[procedural memory]]/[[abstraction]]. #xxx this is also what allows [[sensory augmentation]] #xxx [[learning]] is an [[invest]]ment in [[procedural memory]]/"fast" processing/"chunking"
 
 ---
 

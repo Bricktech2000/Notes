@@ -1,6 +1,6 @@
 # Partial Application
 
-**see** [[functional programming]], [[currying]]
+**see** [[functional programming]], [[currying]], [[function#application]]
 
 **definition** _partial application_ is the action of applying only part of a [[function]]'s arguments to produce a new [[function]] that takes the remaining arguments
 

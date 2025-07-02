@@ -15,5 +15,5 @@ where
 
 - _procedural code_ has no explicit association between data [[type]]s and [[function]]s
 - _object-oriented code_ has explicit associations between data [[type]]s and [[function]]s
-- _imperative code_ has no specific method of handling of shared state or side effects
-- _functional code_ is pure and does not have to deal with shared state or side effects, see [[function]]
+- _imperative code_ is im[[pure]] and has no specific method of handling of shared state or side effects
+- _functional code_ is [[pure]] and does not have to deal with shared state or side effects

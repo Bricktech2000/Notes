@@ -36,6 +36,8 @@
 
 [[moravec's paradox]]
 
+[[fossilization]]
+
 ## zilch
 
 [[improved expression evaluation]]
@@ -65,8 +67,6 @@
 [[concept]] vs [[fact]]
 
 [[zero-knowledge proof]]
-
-[[refactoring to immutability]]
 
 [[shor's algorithm]]
 
@@ -162,7 +162,7 @@
 
 [[iso 8601]]
 
-[[muscle memory]]
+[[procedural memory]]
 
 [[tool]]
 
@@ -189,3 +189,9 @@
 [[hungarian notation]]
 
 [[fibonacci sequence]]
+
+[[involution]]
+
+[[idempotence]]
+
+[[fixed point]]

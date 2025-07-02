@@ -2,9 +2,9 @@
 
 ## Operation
 
-## Identity Element
+## Inverse
 
-## Inverse Element
+## Identity Element
 
 **see** [[algebraic structure]]
 
@@ -14,7 +14,7 @@
 
 --- <https://youtu.be/mvmuCPvRoWQ>
 
-_a [[monoid]] where every element also has an inverse_
+**definition** a _group_ is a [[monoid]] in which each element has an inverse
 
 **definition** a [[group]] is a [[set]] of invertible elements equipped with a closed associative binary operation and an identity element --- Wikipedia and me
 
@@ -24,11 +24,11 @@ a _group_ is a [[set]] $G$ equipped with a binary [[operator]] $\cdot$ that sati
 
 _associativity_ $(a \cdot b) \cdot c = a \cdot (b \cdot c)$
 
-_identity element_ $a \cdot e = a$
+_identity_ $a \cdot e = a$
 
 _closure_ $a \cdot b \in G$
 
-_inverse element_ $a \cdot a^{-1} = e$
+_inverse_ $a \cdot a^{-1} = e$
 
 **properties** _follow from the [[axiom]]s_ --- <https://youtu.be/KufsL2VgELo?t=1060>
 
@@ -80,13 +80,13 @@ $(a \cdot b)^{-1} = b^{-1} \cdot a^{-1}$
 
 **see** [[morphism#homomorphism]]
 
-**definition** a _group homomorphism_ from a [[group]] $G$ to a [[group]] $H$ is a [[function]] $\phi$ such that $\phi\ (a \cdot b) = \phi\ a \cdot \phi\ b$ and $\phi\ a, \phi\ b \in H$ for all $a, b \in G$
+**definition** a _group homomorphism_ from a [[group]] $G$ to a [[group]] $H$ is a [[function]] $\varphi$ such that $\varphi\ (a \cdot b) = \varphi\ a \cdot \varphi\ b$ and $\varphi\ a, \varphi\ b \in H$ for all $a, b \in G$
 
 **properties** _follow from the definition_ --- <https://youtu.be/VZiLpYC0t5E?t=623>
 
-$\phi\ e_G = e_H$
+$\varphi\ e_G = e_H$
 
-$\phi\ a \cdot \phi\ a^{-1} = e_H$
+$\varphi\ a \cdot \varphi\ a^{-1} = e_H$
 
 ## Trivial Group
 

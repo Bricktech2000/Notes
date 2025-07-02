@@ -2,9 +2,9 @@
 
 ## Operation
 
-## Identity Element
+## Inverse
 
-## Inverse Element
+## Identity Element
 
 **aka** _commutative group_
 

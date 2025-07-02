@@ -16,12 +16,12 @@
 - $a < b < c$ might mean $(a < b) \land (b < c)$ or might mean $(a < b) < c$
 - [[exponent]]s are right-associative while most other [[operator]]s are left-associative
 - indices start at $1$
-- $a(b)$ is both multiplication and [[function]] application
+- $a(b)$ is both multiplication and [[function#application]]
 - $\sum_{i = 0}^{n} x_i$ and $\prod_{i = 0}^{n} x_i$ are shameful at best
 - [[matrix]] indices are ambiguous when written using juxtaposition
 - $(a, b)$ is a GCD and a tuple and a [[euclidean vector]] and an [[interval]]
 - $\begin{pmatrix} a \\\ b \end{pmatrix}$ is a [[matrix]] and a [[euclidean vector]] and a [[set#combination]]
-- $f^{(n)}$ is repeated [[derivative#differentiation]] while $f^{n}$ is probably repeated [[composition]]
+- $f^{(n)}$ is repeated [[derivative#differentiation]] while $f^{n}$ is probably repeated [[function#composition]]
 - $f'$ is both a separate [[variable]] name and a [[derivative]]
 - $f(1, 2)$ is both $f(1.2)$ and $f(1; 2)$
 - $4 \equiv 1 \mod 3$ is awful

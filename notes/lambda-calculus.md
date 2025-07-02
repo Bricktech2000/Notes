@@ -122,7 +122,7 @@ we can then define the [[boolean#operator]]s:
 
 ## Church Encoding
 
-the Church encoding encodes recursive [[type#algebraic data type]]s by building up a generalized fold over the data; see [[reduce function]]. providing a fold [[function]] and a base case to a term β-reduces to the result of a fold over it. however, accessing the data of a recursive variant is tricky and generally not of constant time [[computational complexity]]
+the Church encoding encodes recursive [[type#algebraic data type]]s by building up a generalized [[monoid#fold]] over the data. providing a fold [[function]] and a base case to a term β-reduces to the result of a fold over it. however, accessing the data of a recursive variant is tricky and generally not of constant time [[computational complexity]]
 
 ### Church Numerals
 
@@ -156,7 +156,7 @@ we can then define:
 
 --- <https://crypto.stanford.edu/~blynn/compiler/scott.html>
 
-the Scott encoding encodes recursive [[type#algebraic data type]]s in the obvious way, building a decision tree of sorts. folding over a term requires explicit external [[recursion]], say by using a fixed-point combinator such as the [[combinator#y combinator]]. that said, accessing the data of a recursive variant is trivial and of constant time [[computational complexity]]
+the Scott encoding encodes recursive [[type#algebraic data type]]s in the obvious way, building a decision tree of sorts. folding over a term requires explicit external [[recursion]], say by using a [[fixed point]] [[combinator]] such as the [[combinator#y combinator]]. that said, accessing the data of a recursive variant is trivial and of constant time [[computational complexity]]
 
 ### Scott Numbers
 

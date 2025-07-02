@@ -32,7 +32,11 @@
 
 [[outer product]]
 
-[[composition]]
+[[function#composition]]
+
+[[function#abstraction]]
+
+[[function#application]]
 
 #todo fix notation for the following operators
 

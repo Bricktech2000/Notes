@@ -16,7 +16,7 @@ _identity_
 
 **aka** _identity_, _`id`_ in Haskell
 
-**equiv** _[[composition#identity]]_
+**equiv** _[[function#identity]]_
 
 **definition** **`I = x -> x = (*)`** #todo id
 
@@ -50,11 +50,11 @@ _discards the second argument_
 
 ### B Combinator
 
-_the [[composition]] of its arguments_
+_the [[function#composition]] of its arguments_
 
 **aka** _compose_, _`(.)`_ and _`fmap`_ in Haskell, _"bluebird"_
 
-**equiv** _[[composition]]_
+**equiv** _[[function#composition]]_
 
 **definition** **`B = f. g. x. f (g x)`**
 
@@ -172,7 +172,9 @@ _applies a [[function]] twice_
 
 ### Y Combinator
 
-**aka** _fixed-point [[combinator]]_, _`fix`_ in Haskell
+**aka** _fixed-point combinator_, _`fix`_ in Haskell
+
+**see** [[fixed point]]
 
 the [[combinator#y combinator]] lets us use recursion in [[programming language]]s that don't support it, which includes the [[lambda-calculus]]
 
@@ -190,6 +192,8 @@ the [[combinator#y combinator]] lets us use recursion in [[programming language]
 
 **aka** _Turing combinator_
 
+**see** [[fixed point]]
+
 **definition** **`QQ = (x. y. y (x x y)) (x. y. y (x x y))`**
 
 the advantage of the [[combinator#theta combinator]] over the [[combinator#y combinator]] is that **`QQ f`** β-reduces to **`f (QQ f)`** while **`Y f`** and **`f (Y f)`** only β-reduce to a common term
@@ -202,7 +206,7 @@ the advantage of the [[combinator#theta combinator]] over the [[combinator#y com
 
 **definition** **`ii = x. x S K`**
 
-the [[combinator#iota combinator]] can be used to define the [[combinator#s combinator]] and [[combinator#k combinator]], and can therefore be composed to produce [[combinator#combinator]]s that are extentionally equal to any term in the [[lambda-calculus]]. consequently, **`ii`** [[combinatory logic]] is [[turing complete]]
+we have **`ii ii = I /\ ii (ii ii) = S K /\ ii (ii (ii ii)) = K /\ ii (ii (ii (ii ii))) = S`**; the [[combinator#iota combinator]] can be used to define the [[combinator#s combinator]] and [[combinator#k combinator]], and can therefore be composed to produce [[combinator#combinator]]s that are extensionally equal to any term in the [[lambda-calculus]]. consequently, **`ii`** [[combinatory logic]] is [[turing complete]]
 
 #### ---
 
@@ -220,9 +224,9 @@ the [[combinator#iota combinator]] can be used to define the [[combinator#s comb
 
 --- <https://en.wikipedia.org/wiki/SKI_combinator_calculus>
 
---- <https://youtu.be/Y0KKPYkeOTA>
-
 --- <https://youtu.be/gnrSedVucXs>
+
+--- <https://youtu.be/Y0KKPYkeOTA>
 
 --- <https://combinatorylogic.com/table.html> --- <https://youtu.be/Y0KKPYkeOTA>
 

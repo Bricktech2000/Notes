@@ -22,7 +22,7 @@ _closure_ $a \vee b \in L$; $a \wedge b \in L$
 
 **properties** _follow from the [[axiom]]s_
 
-_idempotence_ $a \vee a = a$; $a \wedge a = a$
+_[[idempotence]]_ $a \vee a = a$; $a \wedge a = a$
 
 ## Distributive Lattice
 
@@ -40,9 +40,9 @@ _idempotence_ $a \vee a = a$; $a \wedge a = a$
 
 **definition** a [[lattice]] is called _bounded_ if it has a _maximum_ (_greatest element_, _top element_) $\top$ and a _minimum_ (_least element_, _bottom element_) $\bot$
 
-**definition** a [[lattice]] is called _bounded_ if it has two _identity elements_ $\top$ and $\bot$ that satisfy $\bot \leq a \leq \top$ for all elements $a$
+**definition** a [[lattice]] is called _bounded_ if it has two identity elements $\top$ _top_ and $\bot$ _bottom_ that satisfy $\bot \leq a \leq \top$ for all elements $a$
 
-**definition** a [[lattice]] is called _bounded_ if it has two _identity elements_ $\top$ and $\bot$ that satisfy $a \vee \bot = a \wedge \top = a$ for all elements $a$
+**definition** a [[lattice]] is called _bounded_ if it has two identity elements $\top$ _top_ and $\bot$ _bottom_ that satisfy $a \vee \bot = a \wedge \top = a$ for all elements $a$
 
 every [[lattice]] can be bounded by adding a greatest and least element
 

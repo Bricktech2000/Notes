@@ -1,8 +1,6 @@
 # Learning
 
-_how things learn_
-
-**see** [[memory]], [[invest]], [[durability]]
+**see** [[memory]], [[invest]], [[durability]], [[fossilization]]
 
 **see** _learning techniques_ [[active recall]], [[spaced repetition]], [[interleaving]]
 
@@ -12,24 +10,26 @@ _how things learn_
 
 > **resource** _Guessing the Teacher's Password_, on the distinction between _passwords_ and _explanations_ --- <https://www.readthesequences.com/Guessing-The-Teachers-Password>
 
-for efficient [[learning]], a system must **have access to feedback** that is a **[[function]] of the system inputs** and that is **timely and actively used for improvement**
+[[learning]] requires **repeated attempts** and **deliberate practice** in a _high-validity environment_, which means: --- [[6854a88e-e810-8008-a280-e93598dd7b91]]
 
-for a system to become talented at performing a task, the task **repetition-to-complexity ratio must be high enough**
+- [[cue]]s reliably correlate with outcomes
+- consistent statistical regularities exist
+- feedback is accurate and timely
 
-> **examples** _efficient [[learning]]_
->
-> - tennis players become talented by hitting the ball thousands of times and by seeing if the shot was good or bad right away
-> - chess players play thousands of games before they become Grandmasters, each of which is either a win, a loss, or a draw
+> **example** it shouldn't be so surprising people can measure bolts by eye because it checks all the boxes of a highly learnable skill
 
-> **examples** _inefficient [[learning]]_
->
-> - experts who predict political or [[economics]] trends can be worse than random chance as the highly complex situations they study have very low repetition --- <https://youtu.be/Zs9Tifup1Bc?t=102>
-> - a gambler betting at the roulette wheel has bet thousands of times, but the feedback is not a [[function]] of the inputs as a roulette wheel is essentially random
-> - radiologists don't improve much at giving diagnoses; they often don't get timely feedback on them and therefore the feedback cannot be actively used in improving
-> - people responsible for admissions or employment can have a hard time learning patterns in ideal candidates as they often don't get timely feedback on their decisions
+sometimes you can conjure up [[learning]] out of thin air just by giving yourself access to timely feedback
 
-when [[learning]] through a biological [[brain]], other factors are worth considering:
+> **example** read your grocery receipts right before putting groceries away (an example of _[[habit]] stacking_) to get better at predicting where your [[money]] is going
 
-- for humans to learn efficiently, they must practice **deliberately**; this is often referred to as _active learning_, and can be achieved through [[active recall]]. they must practice in that uncomfortable zone the skills they haven't quite learned yet, which is [[difficult]] and requires a lot of effort. teachers are valuable because they can point out weeknesses to consistently keep a student at the limit of their abilities
-- there is evidence that [[memory]] consolidation is highly dependent on getting a proper amount of [[sleep#rem sleep]] --- <https://youtu.be/IlU-zDU6aQ0?t=2219>
-- [[learning]] can be seen as a [[habit]], in which case it is highly dependent on environmental [[cue]]s. see [[habit#formation]]
+> **example** read writeups after participating in a CTF to identify inefficiencies in your solutions
+
+an easy one to forget is you get good at what you practice, so practice what you're trying to get good at
+
+> **example** if you want to get good at flashing bouldering problems, practice flashing bouldering problems. you could give yourself one attempt per problem per session, or you could create a culture where your friends tell eachother not what problems they've sent, but how many attempts it took them
+
+be wary of "experts" in low-validity [[fields]]---arguably, it's a contradiction in terms, because low-validity environments are not conducing to the development of expertise
+
+> **example** _political scientist Philip Tetlock picked 284 people who make their living commenting or offering advice on political or economic trends. this included journalists, foreign policy specialists, economists and intelligence analysts. over two decades he peppered them with questions [...] and by the end of the study Tetlock had quantified 82361 predictions. these experts, most of whom had post-graduate degrees, performed worse [...] than random chance._ --- <https://youtu.be/5eW6Eagr9XA?t=319>
+
+> **note** admission officers and recruitment specialists don't get timely feedback on their decisions, so they kinda suck. but why not just give them timely feedback? say, every few applicants, silently give them a "dummy" applicant that previously worked at the company or studied at the university, and after they make their decision, reveal the historical performance of the dummy applicant to serve as feedback

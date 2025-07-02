@@ -39,7 +39,7 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear map]] **`T`** from 
 
 **properties**
 
-**`:(AB)x = A(:Bx)`** #todo mm --- [[matrix#multiplication]] on the [[linear map#standard matrix]]es of two [[linear map]]s gives the [[composition]] of the two [[linear map]]s
+**`:(AB)x = A(:Bx)`** #todo mm --- [[matrix#multiplication]] on the [[linear map#standard matrix]]es of two [[linear map]]s gives the [[function#composition]] of the two [[linear map]]s
 
 **examples**
 

@@ -21,7 +21,7 @@
 | **`"Top"`**   | topological spaces           | continuous maps         | empty space - singleton space                                           | cartesian product - disjoint union                |
 | **`"Sub"`**   | [[set]]s                     | [[set#subset]]          | [[set#empty set]] - [[set#universal set]]                               | [[set#intersection]] - [[set#union]]              |
 | **`"Vect"`**  | [[vector space]]s            | [[linear map]]s         | [[vector space#zero vector space]] - [[vector space#zero vector space]] | direct sum - [[tensor#product]]                   |
-| **`"Poset"`** | [[partial order]]ed elements | at most                 | bottom element - top element                                            | join - meet                                       |
+| **`"Poset"`** | [[partial order]]ed elements | at most                 | bottom element - top element                                            | [[supremum]] - [[infimum]]                        |
 | **`"Type"`**  | [[type]]s                    | [[function]]s           | [[type#empty type]] - [[type#unit type]]                                | [[type#product type]] - [[type#sum type]]         |
 | **`"Bool"`**  | [[boolean]]s                 | [[boolean#implication]] | boolean false - boolean true                                            | [[boolean#conjunction]] - [[boolean#disjunction]] |
 |               | [[real]]s                    | no more than            | negative infinity - positive infinity                                   | minimum - maximum                                 |
@@ -97,11 +97,11 @@ epimorphisms are [[category#morphism]]s that are surjective, see [[function#surj
 
 ## Composition
 
-**see** [[composition]]
+**see** [[function#composition]]
 
 **equiv** _[[relation#transitive relation]]_
 
-**definition** let **`CC A B f`** and **`CC B D g`**. then, there must exist a morphism **`CC A D h`** that is the [[composition]] of **`f`** and **`g`**
+**definition** let **`CC A B f`** and **`CC B D g`**. then, there must exist a morphism **`CC A D h`** that is the [[category#composition]] of **`f`** and **`g`**
 
 **notation** _in [[conventional math notation]]_ $h = g \circ f$, and is read as _after_ or _then_. for example, $f \circ g$ is read as _f after g_ or _f then g_
 
@@ -109,7 +109,7 @@ epimorphisms are [[category#morphism]]s that are surjective, see [[function#surj
 
 ### Associativity Law
 
-[[composition]] in a category is required to be associative
+[[category#composition]] in a category is required to be associative
 
 **`h(gf) = (hg)f`**
 
@@ -125,7 +125,7 @@ epimorphisms are [[category#morphism]]s that are surjective, see [[function#surj
 
 ### Identity Law
 
-for every [[category#object]] **`A`** there is an arrow which is a unit of [[composition]]. let **`CC A B f`**. then,
+for every [[category#object]] **`A`** there is an arrow which is a unit of [[category#composition]]. let **`CC A B f`**. then,
 
 **``f ` "id"_A = f``**
 

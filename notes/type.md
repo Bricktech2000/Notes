@@ -1,6 +1,6 @@
 # Type
 
-**see** [[type system]], [[type inference]]
+**see** [[type system]], [[type inference]], [[type-driven design]]
 
 --- <https://youtu.be/6hAeJmKXRfo>
 
@@ -87,9 +87,7 @@ refinement types may be used to assert pre- and post-conditions at the [[type sy
 
 ## Algebraic Data Type
 
-[[type#algebraic data type]]s are one tool for _making illegal states unrepresentable_ --- Yaron Minsky --- <https://youtu.be/2JB1_e5wZmU?t=46m16s>
-
-> **resource** _Domain Modeling Made Functional_, and why [[type#algebraic data type]]s matter --- <https://youtu.be/2JB1_e5wZmU>
+[[type#algebraic data type]]s are one tool for _making illegal states unrepresentable_ --- Yaron Minsky --- <https://youtu.be/2JB1_e5wZmU?t=46m16s> in [[type-driven design]]
 
 ### Sum Type
 

@@ -16,7 +16,7 @@ _X [[under]] Y_ is the answer to the question _what's the transformation that, w
 > - conjugate elements in [[group theory]] --- <https://en.wikipedia.org/wiki/Conjugacy_class#Definition>
 > - similar [[matrix]]es in [[linear algebra]] --- <https://en.wikipedia.org/wiki/Conjugacy_class#Definition>
 > - a vertical flip under a quarter turn is a horizontal flip --- <https://youtu.be/eLhsyAu7G-U&t=1125>
-> - the Enigma machine. and **`f`**, the reflector, is a [[function#self-inverse function]], and thus so is **`uu g f`**
+> - the Enigma machine. and **`f`**, the reflector, is an [[involution]], and thus so is **`uu g f`**
 
 > **examples**
 >

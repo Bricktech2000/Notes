@@ -54,7 +54,7 @@ print(data)
 
 **theorem** _s-m-n theorem_ [[partial application]] on computable [[function]]s is computable and outputs computable [[function]]s
 
-**theorem** _fixed-point theorem_ any total computable [[function]] from programs to programs has a fixed point
+**theorem** _fixed-point theorem_ any total computable [[function]] from programs to programs has a [[fixed point]]
 
 > **proof** apply the _s-m-n theorem_ to the structure of the [[combinator#y combinator]] --- <http://www.madore.org/~david/computers/quine.html#sec_fp>.
 
@@ -95,7 +95,7 @@ _The fixed-point theorem has other amusing applications. Essentially, its intuit
 >   return '0' + bf(rest, input)
 > ```
 >
-> on another note, _[...] by a computable function of the string as program [...]_ appears redundant because the [[composition#identity]] is computable and therefore by the _s-m-n theorem_ we have that there indeed exists a computable [[function]] that maps any [[string]] to a computable program that outputs that [[string]]
+> on another note, _[...] by a computable function of the string as program [...]_ appears redundant because the [[function#identity]] is computable and therefore by the _s-m-n theorem_ we have that there indeed exists a computable [[function]] that maps any [[string]] to a computable program that outputs that [[string]]
 
 ## ---
 

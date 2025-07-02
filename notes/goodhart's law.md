@@ -1,6 +1,6 @@
 # Goodhart's Law
 
---- <https://youtu.be/zUm3fKk00J8?t=18867>
+--- <https://youtu.be/zUm3fKk00J8?t=18867> #rot
 
 --- <https://en.wikipedia.org/wiki/Goodhart%27s_law>
 

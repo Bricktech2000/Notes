@@ -2,17 +2,17 @@
 
 **see** [[system over goal]]
 
-> **resource** _Atomic Habits_ by James Clear audiobook --- <https://www.youtube.com/watch?v=zUm3fKk00J8>
+> **resource** _Atomic Habits_ by James Clear audiobook --- <https://www.youtube.com/watch?v=zUm3fKk00J8> #rot
 
-**definition** a _habit_ is a routine or behavior that is performed regularly and in many cases automatically --- <https://youtu.be/zUm3fKk00J8?t=725>
+**definition** a _habit_ is a routine or behavior that is performed regularly and in many cases automatically --- <https://youtu.be/zUm3fKk00J8?t=725> #rot
 
 **definition** a _good habit_ is a [[habit]] with low short-term reward but high long-term reward --- me
 
 **definition** a _bad habit_ is a [[habit]] with high short-term reward but low long-term reward --- me
 
-_good habits_ are [[invest]]ments that compound over [[time]]. they seem to make no difference in the short term but make a huge difference in the long term, and this is why it can be so [[difficult]] to build [[habit]]s that last. a lot of people give up on their [[habit]]s before breaking through the _plateau of latent potential_ --- <https://youtu.be/zUm3fKk00J8?t=2194>
+_good habits_ are [[invest]]ments that compound over [[time]]. they seem to make no difference in the short term but make a huge difference in the long term, and this is why it can be so [[difficult]] to build [[habit]]s that last. a lot of people give up on their [[habit]]s before breaking through the _plateau of latent potential_ --- <https://youtu.be/zUm3fKk00J8?t=2194> #rot
 
-[[habit]]s are our [[brain]]'s way to delegate an action from our conscious mind to our unconscious mind. they are all about [[cognitive load#reduction]] and increasing [[energy]] efficiency by recognizing simple [[cue]]s and associating them with a [[sequence]] of actions. technology can also be used to decrease [[cognitive load]] when using [[habit]]s is suboptimal --- <https://youtu.be/zUm3fKk00J8?t=4599> from 1:16:39 to 1:22:08 and <https://youtu.be/zUm3fKk00J8?t=16151>
+[[habit]]s are our [[brain]]'s way to delegate an action from our conscious mind to our unconscious mind. they are all about [[cognitive load#reduction]] and increasing [[energy]] efficiency by recognizing simple [[cue]]s and associating them with a [[sequence]] of actions. technology can also be used to decrease [[cognitive load]] when using [[habit]]s is suboptimal --- <https://youtu.be/zUm3fKk00J8?t=4599> from 1:16:39 to 1:22:08 #rot and <https://youtu.be/zUm3fKk00J8?t=16151>
 
 ## Loop
 
@@ -53,7 +53,7 @@ _[[habit#formation]]_
 
 ## Tracking
 
-[[habit#tracking]] can be thought of as providing the **timely feedback** necessary for [[learning]] and the [[accountable]]ility necessary for the feedback to **actively be used in improving** --- me
+[[habit#tracking]] can be thought of as providing the **timely feedback** necessary for [[learning]] and the [[accountable]]ility necessary for **active learning** --- me
 
 [[habit#tracking]] can lead to the **introspection** required for [[self-control]]
 
@@ -83,7 +83,7 @@ _[[habit#formation]]_
 
 --- <https://youtu.be/PZ7lDrwYdZc>
 
---- <https://youtu.be/zUm3fKk00J8?t=17314>
+--- <https://youtu.be/zUm3fKk00J8?t=17314> #rot
 
 --- <https://youtu.be/B-d79DtMTiE>
 

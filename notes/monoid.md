@@ -4,9 +4,7 @@
 
 ## Identity Element
 
-**see** [[algebraic structure]], [[reduce function]], [[binary exponentiation]]
-
-it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] under [an [[operator]]]_. for example, _[[natural]]s with $0$ form a [[monoid]] under addition_
+**see** [[algebraic structure]]
 
 **definition** a _monoid_ is a [[semigroup]] that has an identity element
 
@@ -14,11 +12,11 @@ it is said that _[elements of a [[set]]] with [an identity] form a [[monoid]] un
 
 **definition**
 
-a _monoid_ is a [[set]] $S$ equipped with a binary [[operator]] $\cdot$ that satisfies the following [[axiom]]s for some $e \in S$ for all $a, b, c \in S$
+a _monoid_ is a [[set]] $S$ equipped with a binary [[operator]] $\cdot$ that satisfies the following [[axiom]]s for some $e \in S$ for all $a, b, c \in S$:
 
 _associativity_ $(a \cdot b) \cdot c = a \cdot (b \cdot c)$
 
-_identity element_ $a \cdot e = e \cdot a = a$
+_identity_ $a \cdot e = e \cdot a = a$
 
 _closure_ $a \cdot b \in S$
 
@@ -26,14 +24,13 @@ _closure_ $a \cdot b \in S$
 
 --- <https://youtu.be/Nrp_LZ-XGsY?t=1041>
 
-**examples**
+## Fold
 
-> **example** the following data [[type]]s and binary [[operator]]s are examples of [[monoid]]s:
->
-> - `String` and [[string#concatenation]], see [[string]]
-> - `u32` and addition, see [[natural]]
-> - `f64` and multiplication, see [[floating-point number]]
-> - `Fn` and [[composition]], see [[function]]
+**aka** _reduce_
+
+**see** [[semigroup#fold]], [[binary exponentiation]]
+
+#stub
 
 ## Free Monoid
 
@@ -43,9 +40,9 @@ _closure_ $a \cdot b \in S$
 
 **see** [[semigroup#free semigroup]]
 
-**notation** _in [[conventional math notation]]_ $S^*$
+**notation** $S^*$
 
-**definition** the _free monoid_ on a [[set]] is its smallest [[set#superset]] forming a [[monoid]] under [[string#concatenation]]
+**definition** the _free monoid_ on a [[set]] is its smallest [[set#superset]] that forms a [[monoid]] under [[list#concatenation]]
 
 **definition** $S^* = S^+ \cup \{\varepsilon\}$, see [[semigroup#free semigroup]]
 
@@ -55,7 +52,7 @@ _closure_ $a \cdot b \in S$
 
 **properties**
 
-the [[monoid#free monoid]] [[operator]] is a [[function#idempotent function]]
+the [[monoid#free monoid]] [[operator]] has [[idempotence]]
 
 ## Homomorphism
 

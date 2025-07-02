@@ -8,7 +8,7 @@
 
 **see** [[functional programming]], [[lambda-calculus]]
 
-the [[fibonacci sequence]] can be defined in a self-referencial form that can be operationalized with a fixed-point [[combinator]] like the [[combinator#y combinator]]:
+the [[fibonacci sequence]] can be defined in a self-referencial form that can be operationalized with a [[fixed point]] [[combinator]] like the [[combinator#y combinator]]:
 
 ```haskell
 fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
@@ -57,6 +57,8 @@ def fib(n):
   a, b = fib2(n - 1)
   return a + b
 ```
+
+> **note** the key here is that [[matrix#multiplication]] is a [[monoid]], and is thus associative: not only can you iterate a [[linear map]] on a base case, you can also compose [[linear map]]s together into new [[linear map]]s that are no more expensive to iterate
 
 ### ---
 

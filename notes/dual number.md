@@ -20,7 +20,7 @@ $(a + b\varepsilon)^n = a^n + n(a + b\varepsilon)^{n - 1}\varepsilon$
 
 $f\ (a + b\varepsilon) = f\ a + (f'\ a)b\varepsilon$ for any [[function#analytic function]] $f$
 
-> **proof** the [[taylor series]] of $f\ (a + b\varepsilon) = \sum_{n = 0}^\infty\ \frac{f^{(n)}\ a}{n!} (b\varepsilon)^n = f\ a + (f'\ a)b\varepsilon$ because all terms involving $\varepsilon^n, n \geq 2$ are trivially $0$ --- Wikipedia
+> **proof** the [[taylor series]] around $a$ of $f\ (a + b\varepsilon) = \sum_{n = 0}^\infty\ \frac{f^{(n)}\ a}{n!} (b\varepsilon)^n = f\ a + (f'\ a)b\varepsilon$ because all terms involving $\varepsilon^n, n \geq 2$ are trivially $0$ --- Wikipedia
 
 ## matrix representation
 

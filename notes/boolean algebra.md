@@ -10,7 +10,7 @@
 
 **definition** --- Wikipedia and me
 
-a _boolean algebra_ is a [[set]] $A$ equipped with two binary [[operator]]s $\vee$ _join_ and $\wedge$ _meet_, one unary [[operator]] $\neg$ _not_, and two _identity elements_ $\top$ _true_ and $\bot$ _false_, that satisfy the following [[axiom]]s for all $a, b, c \in A$:
+a _boolean algebra_ is a [[set]] $A$ equipped with two binary [[operator]]s $\vee$ _join_ and $\wedge$ _meet_, one unary [[operator]] $\neg$ _not_, and two identity elements $\top$ _true_ and $\bot$ _false_, that satisfy the following [[axiom]]s for all $a, b, c \in A$:
 
 _associativity_ $(a \vee b) \vee c = a \vee (b \vee c)$; $(a \wedge b) \wedge c = a \wedge (b \wedge c)$
 

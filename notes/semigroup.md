@@ -2,9 +2,9 @@
 
 ## Operation
 
-_a [[monoid]] without necessarily having a [[monoid#identity element]]_
+_a [[monoid]] that doesn't need a [[monoid#identity element]]_
 
-_a [[group]] without necessarily having a [[group#identity element]] or [[group#inverse element]]s_
+_a [[group]] that doesn't need a [[group#identity element]] or [[group#inverse]]s_
 
 --- <https://en.wikipedia.org/wiki/Semigroup>
 
@@ -20,15 +20,23 @@ _associativity_ $(a \cdot b) \cdot c = a \cdot (b \cdot c)$
 
 _closure_ $a \cdot b \in S$
 
+## Fold
+
+**aka** _reduce_
+
+**see** [[monoid#fold]], [[binary exponentiation]]
+
+#stub
+
 ## Free Semigroup
 
 --- <https://en.wikipedia.org/wiki/Free_monoid>
 
 **see** [[monoid#free monoid]]
 
-**notation** _in [[conventional math notation]]_ $S^+$
+**notation** $S^+$
 
-**definition** the _free semigroup_ on a [[set]] is its smallest [[set#superset]] forming a [[semigroup]] under [[string#concatenation]]
+**definition** the _free semigroup_ on a [[set]] is its smallest [[set#superset]] that forms a [[semigroup]] under [[list#concatenation]]
 
 **definition** $S^+ = S^*S = SS^*$, see [[monoid#free monoid]]
 
@@ -38,4 +46,4 @@ _closure_ $a \cdot b \in S$
 
 **properties**
 
-the [[semigroup#free semigroup]] [[operator]] is a [[function#idempotent function]]
+the [[semigroup#free semigroup]] [[operator]] has [[idempotence]]

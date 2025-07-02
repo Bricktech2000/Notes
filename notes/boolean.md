@@ -193,15 +193,15 @@ _double negation_ **`+I == O`**
 
 _double negation_ **`+O == I`**
 
-_idempotence_ **`x \/ x == x`**; see [[function#idempotent function]]
+_[[idempotence]]_ **`x \/ x == x`**
 
-_idempotence_ **`x /\ x == x`**; see [[function#idempotent function]]
+_[[idempotence]]_ **`x /\ x == x`**
 
 _domination_ **`x \/ I == I`**
 
 _domination_ **`x /\ O == O`**
 
-_involution_ **`++x == x`**; see [[function#self-inverse function]]
+_[[involution]]_ **`++x == x`**
 
 ## properties
 

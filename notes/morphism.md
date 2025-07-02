@@ -28,7 +28,7 @@
 
 > **example** a [[linear map]] from a [[vector space]] to itself is an [[morphism#endomorphism]]
 
-since [[morphism#endomorphism]]s on an [[algebraic structure]] map it to itself, they form a [[monoid]] under [[composition]] --- me
+since [[morphism#endomorphism]]s on an [[algebraic structure]] map it to itself, they form a [[monoid]] under [[function#composition]] --- me
 
 ## Automorphism
 
@@ -42,7 +42,7 @@ since [[morphism#endomorphism]]s on an [[algebraic structure]] map it to itself,
 
 > **example** an invertible [[linear map]] from a [[vector space]] to itself is an [[morphism#automorphism]]
 
-since [[morphism#automorphism]]s on an [[algebraic structure]] map it to itself and are invertible, they form a [[group]] under [[composition]] --- <https://youtu.be/VZiLpYC0t5E?t=1581>
+since [[morphism#automorphism]]s on an [[algebraic structure]] map it to itself and are invertible, they form a [[group]] under [[function#composition]] --- <https://youtu.be/VZiLpYC0t5E?t=1581>
 
 ## Monomorphism
 

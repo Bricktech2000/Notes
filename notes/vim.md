@@ -2,7 +2,7 @@
 
 _a highly customizable text editor with efficient key bindings_
 
-**see** [[muscle memory]], [[undo tree]]
+**see** [[procedural memory]], [[undo tree]]
 
 > **resource** [[vim]] bindings cheat sheet --- [[YLInLlY.png]] --- <https://i.imgur.com/YLInLlY.png>
 
@@ -11,6 +11,8 @@ _a highly customizable text editor with efficient key bindings_
 > **resource** `:h registers`, good reference on registers --- <https://vimdoc.sourceforge.net/htmldoc/change.html#registers>
 
 > **resource** `:h help-summary`, on using `:help` effectively --- <https://vimdoc.sourceforge.net/htmldoc/usr_02.html#help-summary>
+
+[[vim]] bindings are susceptible to [[fossilization]]
 
 some useful bindings not present in the quickref:
 
@@ -49,7 +51,7 @@ useful shell bindings spread a little all over the quickref:
 - `!`_motion_ _cmd_ --- filter motion _motion_ through shell command _cmd_
 - v`!`_cmd_ --- filter selected lines through shell command _cmd_
 
-some "compound" bindings to be treated as units for [[muscle memory]]:
+some "compound" bindings to be treated as units for [[procedural memory]]:
 
 - `ea` --- insert **after word**
 - `Ea` --- insert **after WORD**
@@ -66,7 +68,8 @@ some "compound" bindings to be treated as units for [[muscle memory]]:
 - `*N` --- highlight the word under the cursor
 - `0D` --- clear out the current line without deleting it
 - `VP` --- replace current line with contents of unnamed register
-- `<cr>;` --- repeat last `f` or `t` search on next line down
+- `<cr>;` --- repeat last `f`/`t` search on the next line down
+- `gon` - `GN` --- repeat last `/`/`?` search from the start/end of the buffer
 
 some small tricks and workflows I use:
 
@@ -90,3 +93,6 @@ some small tricks and workflows I use:
 - view a searchable digraph table with `:h euro<cr>`
 - jump to a URL or path on the current line with `f/` and `F/` --- slashes are uncommon and URLs and paths usually contain them
 - use undos from within insert mode by marking undo points with `<c-g>u` and undoing with `<c-o>u`. delete all entered characters with `<c-u>`
+- temporarily isolate a window with `<c-w>|`/`<c-w>_` then revert to equal window size with `<c-w>=`
+
+Vim patterns support a `\&` [[operator]] that may look like [[regular expression]] intersection, but unfortunately it's just a lookahead because the subpatterns are not required to end matches at the same positions. what a shame

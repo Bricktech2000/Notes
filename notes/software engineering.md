@@ -10,8 +10,6 @@ unit testing
 
 [[version control]]
 
-[[refactoring to immutability]]
-
 [[programming language]]
 
 [[programming paradigm]]
