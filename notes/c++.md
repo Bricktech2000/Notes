@@ -4,6 +4,8 @@ _bloated [[c]]... but with [[class]]es!_
 
 **see** [[c]], [[object-oriented programming]]
 
+> **resource** _C++ Exceptions for Smaller Firmware_ by Khalil Estell, on why [[c++]] [[exception]]s don't have to be so slow and bloated --- <https://youtu.be/bY2FlayomlE>
+
 ## an improper superset
 
 --- <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C++> --- <https://stackoverflow.com/questions/3777031/what-prevents-c-from-being-a-strict-superset-of-c>

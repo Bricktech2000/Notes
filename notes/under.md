@@ -8,7 +8,7 @@ _X [[under]] Y_ is the answer to the question _what's the transformation that, w
 
 > **examples**
 >
-> - "setup" moves in cubing --- <https://youtu.be/rZiDvDGHfe8&t=243>
+> - "setup" moves in cubing is performing an algorithm _under_ those setup moves --- <https://youtu.be/rZiDvDGHfe8&t=243>
 > - the _under_ modifier in BQN --- <https://mlochbaum.github.io/BQN/doc/under.html> and <https://youtu.be/Hecqsl3GG9s?t=8m57s>
 > - solving "word problems" by translating them into equations, solving, then translating back
 > - using [[fourier transform]]s to filter out signal noise --- <https://youtu.be/gAPlRlmhXyI?t=5m28s>
@@ -17,6 +17,7 @@ _X [[under]] Y_ is the answer to the question _what's the transformation that, w
 > - similar [[matrix]]es in [[linear algebra]] --- <https://en.wikipedia.org/wiki/Conjugacy_class#Definition>
 > - a vertical flip under a quarter turn is a horizontal flip --- <https://youtu.be/eLhsyAu7G-U&t=1125>
 > - the Enigma machine. and **`f`**, the reflector, is an [[involution]], and thus so is **`uu g f`**
+> - duals. [[boolean#disjunction]] under [[boolean#negation]] is [[boolean#conjunction]]
 
 > **examples**
 >

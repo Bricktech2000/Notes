@@ -10,4 +10,35 @@
 
 **definition** the _Brzozowski derivative_ $\overline u L$ of a [[set]] of [[string]]s $L$ with respect to a [[character]] $u$ is $v.\ uv \in L$, the [[set]] of all [[string]]s that, if prepended by the [[character]] $u$, would have been in the original [[set]] $L$
 
-#stub
+> **example** $\overline c \{\mathrm{cat}, \mathrm{cow}, \mathrm{dog}\} = \{\mathrm{at}, \mathrm{ow}\}$ --- Wikipedia
+
+> **note** there is no connection between [[derivative]]s and [[brzozowski derivative]]s. I think when people see the same word used in two places they try to draw a parallel that doesn't exist
+
+> **procedure** _using [[brzozowski derivative]]s for [[regular expression]] matching_ --- _Regular-expression derivatives reexamined_ by Owens, Reppy and Turon
+>
+> [[brzozowski derivative]]s [[under]] accepted [[formal language]] can be computed structurally on [[regular expression#extended regular expression]]s. a [[regular expression]] $r$ accepts a [[string]] $w$ if and only if $\nu\ \delta_w\ r$, where:
+>
+> - $\delta_\varepsilon\ r = r$
+> - $\delta_{aw}\ r = \delta_w\ \partial_a\ r$
+>
+> where:
+>
+> - $\partial_a\ \varnothing = \varnothing$
+> - $\partial_a\ \varepsilon = \varnothing$
+> - $\partial_a\ a = \varepsilon$
+> - $\partial_a\ b = \varnothing$ for $b \neq a$
+> - $\partial_a\ r^* = \partial_a\ r \cdot r^*$
+> - $\partial_a\ (r \cdot s) = \partial_a\ r \cdot s$ for $\lnot \nu\ r$
+> - $\partial_a\ (r \cdot s) = \partial_a\ r \cdot s \mid \partial_a\ s$ for $\nu\ r$
+> - $\partial_a\ (r \mid s) = \partial_a\ r \mid \partial_a\ s$
+> - $\partial_a\ \mathop! r = \mathop! \partial_a\ r$
+>
+> and where:
+>
+> - $\nu\ \varnothing = \bot$
+> - $\nu\ \varepsilon = \top$
+> - $\nu\ a = \bot$
+> - $\nu\ r^* = \top$
+> - $\nu\ (r \cdot s) = \nu\ r \land \nu\ s$
+> - $\nu\ (r \mid s) = \nu\ r \lor \nu\ s$
+> - $\nu\ \mathop! r = \lnot \nu\ r$

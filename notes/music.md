@@ -1,15 +1,19 @@
 # Music
 
-[[musical interval]]
-
-[[melody]]
+[[equal temperament]]
 
 [[harmonic]]
 
-[[equal temperament]]
+[[overtone]]
+
+[[consonance]]
+
+[[inharmonicity]]
 
 ## ---
 
---- <https://youtu.be/EdYzqLgMmgk>
-
 --- <https://youtu.be/nK2jYk37Rlg>
+
+--- <https://youtu.be/tCsl6ZcY9ag>
+
+--- <https://youtu.be/EdYzqLgMmgk> (the beginning of the video about [[consonance]] is wrong)

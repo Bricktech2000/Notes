@@ -38,6 +38,8 @@
 
 [[function#application]]
 
+[[regular expression]] operators
+
 #todo fix notation for the following operators
 
 [[cross product]]

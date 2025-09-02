@@ -16,7 +16,7 @@ struct word {
   bool immed  : 1;   // if true, execute word even in compile mode
   bool _pad   : 1;   // padding so `len` and flags fit in an 8-bit byte
   bool hidden : 1;   // if true, ignore word during dictionary lookup
-  uint8_t len : 5;   // length of word name
+  short len : 5;     // length of word name
   char name[len];    // word name for dictionary lookup
   void (*interp)();  // pointer to an interpreter function for this word
   void *defn[];      // array of pointers to codewords forming this word

@@ -12,13 +12,13 @@ _a brilliant and beautiful hack_
 
 **properties**
 
-[[utf-8]] is a [[set#superset]] of [[ascii]]; every valid 7-bit [[ascii]] [[string]] is a valid [[utf-8]] [[string]]. furthermore, no 7-bit [[ascii]] bytes appear within [[utf-8]] multi-byte sequences, and thus programs expecting [[ascii]] sentinels such as the `\0` terminator and the `/` path separator do not misbehave when processing [[utf-8]]. for other nice properties of [[utf-8]], see RFC 3629, $1 'Introduction' <https://www.rfc-editor.org/rfc/rfc3629.html#section-1>
+[[utf-8]] is a [[set#superset]] of [[ascii]]; every valid 7-bit [[ascii]] byte is a valid [[utf-8]] one-byte sequence. furthermore, no 7-bit [[ascii]] bytes appear within [[utf-8]] multi-byte sequences, and so programs expecting [[ascii]] sentinels such as the `\0` terminator and the `/` path separator do not misbehave when processing [[utf-8]]. for other nice properties of [[utf-8]], see RFC 3629, $1 'Introduction' <https://www.rfc-editor.org/rfc/rfc3629.html#section-1>
 
 **representation**
 
-| encoding                                      | bits | description                  |
-| --------------------------------------------- | ---- | ---------------------------- |
-| `0b0vvvvvvv`                                  | 7    | one-byte encoding sequence   |
-| `0b110vvvvv 0b10vvvvvv`                       | 11   | two-byte encoding sequence   |
-| `0b1110vvvv 0b10vvvvvv 0b10vvvvvv`            | 16   | three-byte encoding sequence |
-| `0b11110vvv 0b10vvvvvv 0b10vvvvvv 0b10vvvvvv` | 21   | four-byte encoding sequence  |
+| encoding                                      | bits | codepoints             | description                  |
+| --------------------------------------------- | ---- | ---------------------- | ---------------------------- |
+| `0b0yyyzzzz`                                  | 7    | `U+0000`--`U+007F`     | one-byte encoding sequence   |
+| `0b110xxxyy 0b10yyzzzz`                       | 11   | `U+0080`--`U+07FF`     | two-byte encoding sequence   |
+| `0b1110wwww 0b10xxxxyy 0b10yyzzzz`            | 16   | `U+0800`--`U+FFFF`     | three-byte encoding sequence |
+| `0b11110uvv 0b10vvwwww 0b10xxxxyy 0b10yyzzzz` | 21   | `U+100000`--`U+10FFFF` | four-byte encoding sequence  |

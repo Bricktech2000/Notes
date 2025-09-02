@@ -8,7 +8,7 @@
 
 our behavior is highly dependent on environmental [[cue]]s --- <https://youtu.be/IlU-zDU6aQ0?t=867>
 
-one [[trick]] for more efficient [[learning]] and deeper [[focus]] is teaching our mind to associate some specific environment with [[learning]]
+one [[trick]] for more efficient [[learn]]ing and deeper [[focus]] is teaching our mind to associate some specific environment with [[learn]]ing
 
 _the primary function of a bedroom is [[sleep]]ing. the primary function of a dining table is eating. the primary function of a living area is recreation and socializing_
 

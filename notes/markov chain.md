@@ -6,7 +6,7 @@
 
 **representation**
 
-[[markov chain]]s can be represented as a _transition diagram_, a weighted directed [[graph]] where nodes represent states and weighted edges represent the [[probability]] of an event occuring
+[[markov chain]]s can be represented as a _transition diagram_, a weighted directed [[graph]] where nodes represent states and weighted edges represent the [[probability]] of an event occurring
 
 ![[20220718005316.png]]
 

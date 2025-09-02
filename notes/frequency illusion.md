@@ -1,4 +1,4 @@
-# Frequency illusion
+# Frequency Illusion
 
 **aka** _baader-meinhof phenomenon_, _frequency bias_
 

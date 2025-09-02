@@ -6,8 +6,8 @@
 
 **definition** **`H = :PI`**, where
 
-- **`P S E`** is the [[probability]] of the [[event]] **`E`** occuring in the [[sample space]] **`S`**
-- **`I S E`** is the [[information content]] of the [[event]] **`E`** occuring in the [[sample space]] **`S`**
+- **`P S E`** is the [[probability]] of the [[event]] **`E`** occurring in the [[sample space]] **`S`**
+- **`I S E`** is the [[information content]] of the [[event]] **`E`** occurring in the [[sample space]] **`S`**
 - **`H S`** is the [[information entropy]] of the [[sample space]] **`S`**
 
 [[information entropy]] can be measured in [[shannon]]s and [[nat]]s, see [[information content]]

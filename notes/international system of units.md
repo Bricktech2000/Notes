@@ -20,6 +20,8 @@ _the world's most widely used system of measurement_
 
 --- Wikipedia
 
+> **note** [[luminous intensity]] is adjusted for the spectral sensitivity of human visual perception, so I'm not sure what it's doing here
+
 ## derived units
 
 | Unit Name                | Unit           | Definition                                            | Dimension       | Quantity Name              | Typical Symbols  |

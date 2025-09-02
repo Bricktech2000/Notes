@@ -16,6 +16,7 @@ _muscle memory_ is a form of _procedural memory_ that applies to motor tasks ---
 > - driving a [[car]]
 > - entering PINs
 > - flying a plane
+> - reading braille
 > - solving [[integral]]s
 > - writing with a pen
 > - troubleshooting bugs

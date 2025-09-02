@@ -23,7 +23,7 @@ most of this can be explained by the fact that [[go]] is the result of _language
 
 a large portion of the [[go]] language was [[invent]]ed rather than [[discover]]ed; examples include:
 
-- `append`, `clear`, `delete`, `min`, `max`, and `new` are all [[go]] built-ins --- <https://go.dev/ref/spec#Built-in_functions>
+- `append`, `clear`, `delete`, `min`, `max` and `new` are all [[go]] built-ins --- <https://go.dev/ref/spec#Built-in_functions>
 - `range` and `map` are hard-coded into the [[go]] syntax --- <https://go.dev/ref/spec#For_range> and <https://go.dev/ref/spec#Map_types>
 - [[function]]s returning multiple values is a hard-coded feature; tuples don't exist in [[go]] --- <https://go.dev/ref/spec#Return_statements>
 - `range` and `make` are hard-coded [[go]] built-ins. they only work on primitives and cannot be extended --- <https://yager.io/programming/go.html>

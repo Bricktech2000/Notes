@@ -1,0 +1,1376 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Regular Expression Matching in the Wild</title>
+<style type="text/css"><!--
+body {
+	background-color: white;
+	color: black;
+	font-family: serif;
+	font-size: medium;
+	line-height: 1.2em;
+	margin-left: 0.5in;
+	margin-right: 0.5in;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p.lp {
+	text-indent: 0in;
+	text-align: justify;
+}
+
+p.lp-left {
+	text-indent: 0in;
+	text-align: left;
+}
+
+p.tlp {
+	text-indent: 0in;
+	text-align: justify;
+	margin-top: 0.25in;
+}
+
+p.pp {
+	text-indent: 0.35in;
+	text-align: justify;
+}
+
+code {
+	font-family: monospace;
+	font-size: 1em;
+}
+
+h2.sh {
+	text-indent: 0in;
+	text-align: left;
+	margin-top: 2em;
+	margin-bottom: 0.05in;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+
+h3 {
+	text-indent: 0in;
+	text-align: left;
+	margin-top: 2em;
+	margin-bottom: 0.05in;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1em;
+}
+
+p.fig {
+	text-align: center;
+}
+
+div.fig {
+	text-align: center;
+	margin-left: -0.5in;
+	margin-right: -0.5in;
+}
+
+.box {
+	border-style: dashed;
+	border-width: 1px;
+}
+
+pre.p1 {
+	text-indent: 0in;
+	text-align: left;
+	line-height: 1.2em;
+	font-size: 0.9em;
+	margin-left: 0.5in;
+	margin-right: 0.5in;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h1.tl {
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+	margin-top: 3em;
+}
+
+h2.au {
+	font-weight: normal;
+	font-size: 1em;
+	text-align: center;
+	margin-top: 1.5em;
+	margin-bottom: 3em;
+}
+
+p.copy {
+	text-align: center;
+	text-indent: 0in;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	font-size: 0.7em;
+}
+
+table { font-size: 1em; }
+
+@media print {
+	body { font-size: 10pt; }
+}
+
+--></style>
+</head>
+<body>
+
+<h1 class=tl>
+Regular Expression Matching in the Wild
+</h1>
+<h2 class=au>
+<a href="https://swtch.com/~rsc/">Russ Cox</a>
+<br>
+<i>rsc@swtch.com</i>
+<br>
+March 2010
+</h2>
+
+<!--
+
+-->
+
+<h2 class=sh id=intro>Introduction</h2>
+
+<p class=pp>
+The first two articles in this series,
+&ldquo;<a href="regexp1.html">Regular Expression Matching Can Be Simple And Fast</a>&rdquo;
+and &ldquo;<a href="regexp2.html">Regular Expression Matching: the Virtual Machine Approach</a>,&rdquo;
+introduced the foundation of DFA-based and NFA-based regular expression matching.
+Both were based on toy implementations optimized for teaching the basic ideas.
+This article is based on a production implementation.
+</p>
+
+<p class=pp>
+I spent the summer of 2006 building <a href="http://www.google.com/codesearch">Code Search</a>,
+which lets programmers search for source code using regular expressions.
+That is, it lets you <a href="http://plan9.bell-labs.com/magic/man2html/1/grep">grep</a>
+through the world's public source code.  We originally planned to use PCRE for the regular expression search,
+until we realized that it used a backtracking algorithm,
+meaning it is <a href="regexp1.html">easy to make searches take exponential time</a>
+or arbitrary stack depth.
+Since Code Search accepts regular expressions from anyone on the Internet,
+using PCRE would have left it open to easy denial of service attacks.
+As an alternative to PCRE, I wrote a new, carefully reviewed regular expression parser
+wrapped around
+Ken Thompson's <a href="https://swtch.com/usr/local/plan9/src/cmd/grep/">open source grep</a>
+implementation, which uses a fast DFA.
+</p>
+
+<p class=pp>
+Over the next three years, I implemented a handful of new back ends that
+collectively replaced the grep code and expanded the
+functionality beyond what is needed for a POSIX grep.
+The result, RE2, provides most of the functionality of PCRE
+using a C++ interface very close to PCRE's, but it guarantees linear time
+execution and a fixed stack footprint.
+RE2 is now in widespread use at Google, both in Code Search
+and in internal systems like <a href="http://labs.google.com/papers/sawzall.html">Sawzall</a>
+and <a href="http://labs.google.com/papers/bigtable.html">Bigtable</a>.
+</p>
+
+<p class=pp>
+As of March 2010, RE2 is an <a href="https://github.com/google/re2">open source</a> project,
+with all development conducted in public.
+This article is a tour through the RE2 source code, showing how the
+techniques in the first two articles apply in a production implementation.
+</p>
+
+<h2 class=sh id=step1>Step 1: Parse</h2>
+
+<p class=pp>In the early days, regular expressions had a
+<a href="http://www.freebsd.org/cgi/man.cgi?query=grep&apropos=0&sektion=1&manpath=Unix+Seventh+Edition&format=html">very simple syntax</a>, mimicking the simple concepts explained in the first article: concatenation,
+repetition, and alternation.
+There were few bells and whistles: character classes, the <code>+</code> and <code>?</code> operators,
+and the positional assertions <code>^</code> and <code>$</code>.
+Today, programmers expect a <a href="https://github.com/google/re2/wiki/Syntax">cacophony of bells and whistles</a>.
+The job of a modern regular expression parser is to make sense of the din
+and distill it back into the original fundamental concepts.
+RE2's parser creates a <code>Regexp</code> data structure, defined in
+<code><a href="https://github.com/google/re2/blob/main/re2/regexp.h#L102"><!-- enum RegexpOp -->regexp.h</a></code>.
+It is very close to the original egrep syntax, with a few more special cases:
+</p>
+
+<ul>
+<li>Literal strings are represented by <code>kRegexpLiteralString</code> nodes, which take up less
+memory than a concatenation of individual <code>kRegexpLiteral</code> nodes.
+<li>Counted repetition is represented by <code>kRegexpRepeat</code> nodes even though
+that representation cannot be implemented directly;
+we'll see how they get compiled out later.
+<li>Character classes are represented not as a simple list of ranges or as a bitmap
+but as a balanced binary tree of ranges.  This representation is more complex
+than a simple list but crucial for handling large Unicode character classes.
+<li>The &ldquo;any character&rdquo; character class gets a special node type,
+as does the &ldquo;any byte&rdquo; operator.  There's a difference between the two
+when matching UTF-8 input text, RE2's default mode of operation.
+<li>Case-insensitive matching uses a special flag and special case for the
+ASCII range rather than two-element character classes:
+<code>(?i)abc</code> turns into <code>abc</code> with the case-insensitive
+bit instead of <code>[Aa][Bb][Cc]</code>.  RE2 originally used the latter,
+but it was too memory-intensive, especially with the tree-based character classes.
+</ul>
+
+<p class=pp>RE2's parser is in <code><a href="https://github.com/google/re2/blob/main/re2/parse.cc#L2261">parse.cc</a></code>.
+It's a hand-written parser, both to avoid depending on a particular parser generator
+and because modern regular expression syntax is irregular enough to warrant special care.
+The parser does not use recursive descent, because the recursion depth would be
+potentially unbounded and might overflow the stack,
+especially in threaded environments.
+Instead the parser maintains an explicit parse stack, as a generated LR(1) parser would.
+</p>
+
+<p class=pp>One thing that surprised me is the variety of ways that
+real users write the same regular expression.
+For example, it is common to see singleton character classes used
+instead of escaping—<code>[.]</code> instead of <code>\.</code>—or alternations
+instead of character classes—<code>a|b|c|d</code> instead of <code>[a-d]</code>.
+The parser takes special care to use the most efficient form for these,
+so that <code>[.]</code> is still a single literal character and <code>a|b|c|d</code>
+is still a character class.
+It applies these simplifications during parsing, rather than in a second pass,
+to avoid a larger-than-necessary intermediate memory footprint.
+</p>
+
+<h2 class=sh id=walk>Walking a <code>Regexp</code></h2>
+
+<p class=pp>Having parsed the regular expression, it is now time to process it.
+The parsed form is a standard tree, which suggests processing it with
+standard recursive traversals.  Unfortunately, we cannot assume that there
+is enough stack to do that.  Some devious user might present us with
+a regular expression like <code>((((((((((a*)*)*)*)*)*)*)*)*)*)*</code>
+(but bigger) and cause a stack overflow.
+Instead, the traversal of the regular expression must use an
+explicit stack.  The <code><a href="https://github.com/google/re2/blob/main/re2/walker-inl.h#L26">Walker</a></code> template hides the stack management, making this restriction
+a little more palatable.
+</p>
+
+<p class=pp>In retrospect, I think the tree form and the <code>Walker</code>
+might have been a mistake.  If recursion is not allowed (as is the case here),
+it might work better to avoid the recursive representation entirely,
+instead storing the parsed regular expression in <a href="http://en.wikipedia.org/wiki/Reverse_Polish_notation">reverse Polish notation</a>
+as in <a href="https://swtch.com/~rsc/regexp/regexp1.html#thompson">Thompson's 1968 paper</a> and this <a href="https://swtch.com/~rsc/regexp/nfa.c.txt">example code</a>.
+If the RPN form recorded the maximum stack depth used in the expression,
+a traversal would allocate a stack of exactly that size and
+then zip through the representation in a single linear scan.
+</p>
+
+<h2 class=sh id=step2>Step 2: Simplify</h2>
+
+<p class=pp>The next processing step is simplification,
+which rewrites complex operators into simpler ones
+to make later processing easier.
+Over time, most of the code in RE2's simplification pass moved into the parser,
+because simplifying eagerly keeps the intermediate memory footprint down.
+Today there is only one task left for the simplifier:
+the <a href="https://github.com/google/re2/blob/main/re2/simplify.cc#L593">expansion of counted repetitions</a> like <code>x{2,5}</code> into
+a sequence of basic operations like <code>xx(x(x(x)?)?)?</code>.
+</p>
+
+<h2 class=sh id=step3>Step 3: Compile</h2>
+
+<p class=pp>Once the regular expression uses only the basic operations
+described in the first article, it can be compiled using the techniques <a href="regexp1.html#compiling">outlined there</a>.
+It should be easy to <a href="https://github.com/google/re2/blob/main/re2/compile.cc#L27">see the correspondence</a>.
+</p>
+
+<p class=pp>The RE2 compiler has one interesting twist, which I learned
+from Thompson's grep.  It compiles UTF-8 character classes
+down to an automaton that reads the input one byte at a time.
+In other words, the UTF-8 decoding is built into the automaton.
+For example, to match any Unicode code point from 0000 to FFFF (hexadecimal),
+the automaton accepts any of the following byte sequences:
+</p>
+
+<center>
+<pre>
+[00-7F]                // code points 0000-007F
+[C2-DF][80-BF]         // code points 0080-07FF
+[E0][A0-BF][80-BF]     // code points 0800-0FFF
+[E1-EF][80-BF][80-BF]  // code points 1000-FFFF
+</pre>
+</center>
+
+<p class=lp>The compiled form is not just the alternation of
+those sequences: common suffixes like the <code>[80-BF]</code>
+can be factored out.  The actual compiled form for this example is:
+</p>
+
+<center>
+<img src=utf3.png width="148" height="246">
+</center>
+
+<p class=lp>The example above has the advantage of being
+fairly regular.  Here is the full Unicode range, 000000-10FFFF:
+</p>
+
+<center>
+<img src=utf4.png width="308" height="322">
+</center>
+
+<p class=lp>Larger, but still regular.
+The real irregularities come from character classes that have
+evolved over the course of Unicode's history.
+For example, here is <code>\p{Sc}</code>, the currency symbol code points:
+</p>
+
+<center>
+<img src=cat_Sc.png width="560" height="246">
+</center>
+
+<p class=lp>The currency symbols are about as complex as will fit in this article,
+but other classes are much more complex; for example, look at <a href="script_Greek.png"><code>\p{Greek}</code></a> (the Greek script) or at <a href="cat_Lu.png"><code>\p{Lu}</code></a> (the uppercase letters).
+</p>
+
+<p class=pp>The result of compilation is an instruction graph like in the last two articles.
+The representation is closer to the graph in the first but when printed looks like the
+VM programs in the second.
+</p>
+
+<p class=pp>Compiling out the UTF-8 makes the
+compiler a little more complicated but makes the matching engines much faster:
+they can process one byte at a time in tight loops.
+Also, there turn out to be many matchers; having just one copy of the UTF-8 processing
+helps keep the code correct.</p>
+
+
+<h2 class=sh id=step4>Step 4: Match</h2>
+
+<p class=pp>Everything described until now happens in RE2's constructor.
+After the object is constructed, it can be used in a sequence of match operations.
+From the user's point of view, there are just two match functions:
+<code>RE2::PartialMatch</code>, which finds the first match in the input text,
+and <code>RE2::FullMatch</code>, which requires the match to cover the entire input.
+From RE2's point of view, though, there are many different questions that
+can be asked using them, and the implementation adapts to the question.
+RE2 distinguishes four basic regular expression matching problems:</p>
+
+<ol>
+<li>Does the regular expression match the whole string?
+<pre>RE2::FullMatch(s, "re")
+RE2::PartialMatch(s, "^re$")</pre>
+<li>Does the regular expression match a substring of the string?
+<pre>RE2::PartialMatch(s, "re")</pre>
+<li>Does the regular expression match a substring of the string?  If so, where?
+<pre>RE2::PartialMatch(s, "(re)", &amp;match)</pre>
+<li>Does the regular expression match a substring of the string?  If so, where?  Where are the submatches?
+<pre>RE2::PartialMatch(s, "(r+)(e+)", &amp;m1, &amp;m2)</pre>
+</ol>
+
+<p class=pp>
+Clearly each is a special case of the next.
+From the user's point of view, it makes sense to provide just the fourth,
+but the implementation distinguishes them because it can implement the
+earlier questions much more efficiently than the later ones.
+</p>
+
+
+<h3 class=sh id=full>Does the regexp match the whole string?</h3>
+
+<pre>RE2::FullMatch(s, "re")
+RE2::PartialMatch(s, "^re$")</pre>
+
+<p class=pp>
+This is the question we considered in <a href="regexp1.html">the first article</a>.
+In that article we saw that a simple DFA, built on the fly, outperformed all but
+the other DFA implementations.
+<a href="https://github.com/google/re2/blob/main/re2/dfa.cc#L5">RE2 uses a DFA</a> for this question too, but the DFA is more memory efficient and more thread-friendly.
+It employs two important refinements.
+</p>
+
+<p class=pp><i>Be able to flush the DFA cache.</i>
+A carefully chosen regular expression and input text might
+cause the DFA to create a new state for every byte of the input.
+On large inputs, those states pile up fast.
+The RE2 DFA treats its states as a cache; if the cache fills,
+the DFA <a href="https://github.com/google/re2/blob/main/re2/dfa.cc#L1184">frees them all and starts over</a>.
+This lets the DFA operate in a fixed amount of memory
+despite considering an arbitrary number of states during the
+course of the match.
+</p>
+
+<p class=pp><i>Don't store state in the compiled program.</i>
+The <a href="dfa0.c.txt">DFA in the first article</a> used a simple
+sequence number field in the compiled program to keep track
+of whether a state appeared on a particular list
+(<code>s-&gt;lastlist</code> and <code>listid</code>).
+That tracking made it possible to do list insertion with
+duplicate elimination in constant time.
+In a multithreaded program, it would be convenient to share
+a single RE2 object among multiple threads, which rules out
+the sequence number technique.
+But we definitely want list insertion with duplicate
+elimination in constant time.
+Luckily, there is a data structure designed exactly
+for this situation: sparse sets.
+RE2 implements these in the <a href="https://github.com/google/re2/blob/main/re2/sparse_array.h">SparseArray</a> template.
+(See &ldquo;<a href="https://research.swtch.com/sparse">Using Uninitialized Memory for Fun and Profit</a>&rdquo; for an overview of the idea.)
+</p>
+
+<h3 class=sh id=partial>Does the regexp match a substring of the string?</h3>
+
+<pre>RE2::PartialMatch(s, "re")</pre>
+
+<p class=pp>
+The last question asked whether the regexp matched
+the entire string; this one asks whether it matches
+anywhere in the string.
+We could reduce this question to the last one by
+rewriting <code>re</code> into <code>.*re.*</code>,
+but we can do better by rewriting it to <code>.*re</code>
+and handling the trailing part separately.
+</p>
+
+<p class=pp><i>Look for a literal first byte.</i>
+The DFA or the compiled program form can be analyzed to
+determine whether every possible match starts with the same first byte,
+like when searching for <code>(research|random)</code>.
+In this case, when the DFA is looking to start a new match,
+it can avoid the general DFA loop and <a href="https://github.com/google/re2/blob/main/re2/dfa.cc#L1388">look for the
+first byte using <code>memchr</code></a>,
+which is often implemented using special hardware instructions.
+</p>
+
+<p class=pp><i>Bail out early.</i>
+If the question being asked is whether there is a partial match
+(e.g., is there a match for <code>ab+</code> in <code>ccccabbbbddd</code>?),
+the DFA can stop early,
+once it finds <code>ab</code>.  By changing the DFA loop
+to <a href="https://github.com/google/re2/blob/main/re2/dfa.cc#L1495">check for a match after every byte</a>, it can stop as soon as
+there is any match, even if it's not the longest one.
+Remember that the caller only cares whether there is a match,
+not what it is, so it's okay for the DFA not to look for the longest one.
+</p>
+
+<p class=pp>This sounds like a slightly different DFA than the
+one used for the last question, and it is.  The DFA code is
+written as a single generalized loop that looks at flags controlling
+its behavior, like whether there is a literal first
+byte to look for or whether to stop as early as possible.
+In 2008, when I wrote the DFA code, it was too slow to
+check the flags in the inner loop.  Instead, the
+<code><a href="https://github.com/google/re2/blob/main/re2/dfa.cc#L1342">InlinedSearchLoop</a></code>
+function takes three boolean flags and then is
+specialized by calling it from eight different functions
+using all the combinations.
+When a call must be made, it is to one of the eight
+specialized functions rather than the original.
+In 2008, this trick created eight different copies
+of the search loop, each with a tight inner loop
+optimized for its particular case.
+I noticed recently that the latest version of g++ refuses
+to inline <code>InlinedSearchLoop</code> because it is such
+a large function, so there are no longer eight different
+copies in the program.  It would be possible to reintroduce
+the eight copies by making <code>InlinedSearchLoop</code>
+a templated function, but it appears not to matter anymore:
+I tried that and the specialized code wasn't any faster.
+</p>
+
+
+<h3 class=sh id=submatch>Does the regexp match a substring of the string?  If so, where?</h3>
+
+<pre>RE2::PartialMatch(s, "(re)", &amp;match)</pre>
+
+<p class=pp>
+The caller grows more demanding.
+Now it wants to know where the match is but still doesn't
+care about submatch boundaries.
+We could fall back to the <a href="regexp2.html">direct NFA simulation</a>,
+but that carries with it a significant speed penalty compared
+to the NFA.  Instead, with a bit more effort we can
+squeeze this information out of the DFA.
+</p>
+
+<p class=pp><i>Find the exact endpoint.</i>
+Standard presentations of a DFA treat each state as
+representing an unordered set of NFA states.
+If instead we treat the DFA state as a partially ordered set of NFA states,
+we can track which possibilities take priority over others,
+so that the DFA can identify the exact place where the match stops.
+</p>
+
+<p class=pp>
+In POSIX rules, states corresponding to matches beginning
+earlier in the input take priority over states corresponding
+to a later start.
+For example, instead of the DFA state representing five NFA states
+<code>{1,2,3,4,5}</code> it might represent <code>{1,4}{2,3,5}</code>:
+a match arising from states <code>1</code> or <code>4</code> is
+preferred over a match from state <code>2</code>, <code>3</code>, or <code>5</code>.
+That takes care of the &ldquo;leftmost&rdquo; part of &ldquo;leftmost longest.&rdquo;
+To implement the &ldquo;longest&rdquo; requirement, each time
+a match is found in a particular state, the DFA records it and continues
+executing only those states that are of equal or higher priority.
+Once the DFA runs out of states, the last recorded match position is the end
+of the leftmost longest match.
+</p>
+
+<p class=pp>
+In Perl-style rules, the &ldquo;leftmost&rdquo; semantics
+are handled the same, but Perl doesn't take the longest of
+the leftmost matches.  Instead, the state lists are completely ordered: no two
+states have equal priority.  In an alternation <code>a|b</code>
+the states exploring <code>a</code> have higher priortiy than
+the states exploring <code>b</code>.
+A repetition <code>x*</code> is like a looping alternation that
+keeps deciding between looking for another <code>x</code> and
+matching the rest of the expression.
+Each alternation gives higher priority to looking for another <code>x</code>.
+Pictorally, both are <code>Split</code> nodes as in the first article:
+</p>
+
+<center>
+<img src=fig16.png width="140" height="62">
+<img src=fig18.png width="131" height="68">
+</center>
+
+<p class=pp>
+The split gives higher priority to the path leaving out the top.
+A non-greedy repetition is just a greedy repetition with the
+priorities reversed.
+</p>
+
+<p class=pp>To find the end of a Perl match, each time a match is found
+in a particular state, the DFA records it but continues executing
+only those states of higher priority.  Once it runs out of states,
+the last position it recorded is necessarily the end of the
+highest priority match.</p>
+
+<p class=pp>That's great: now we know where the match ends.
+But the caller wants to know where the match starts too.
+How do we do that?
+</p>
+
+<p class=pp><i>Run the DFA backward to find the start.</i>
+When studying regular expressions in a theory of computation
+class, a standard exercise is to prove that if
+you take a regular expression and reverse all the concatenations
+(e.g., <code>[Gg]oo+gle</code> becomes <code>elgo+o[Gg]</code>)
+then you end up with a regular expression that matches
+the reversal of any string that the original matched.
+In such classes, not many of the exercises involving
+regular expressions and automata have practical value,
+but this one does!
+DFAs only report where a match ends, but if we run the DFA
+backward over the text, what the DFA sees as the end
+of the match will actually be the beginning.
+Because we're reversing the input, we have to reverse
+the regular expression too, by reversing all the concatenations
+during compilation.
+</p>
+
+<p class=pp>After compiling a reversed regular expression,
+we run the DFA backward from the end point
+found by the forward scan, treating all states as equivalent priority
+and looking for the longest possible end point.
+That's the leftmost point in the string where a match
+could have begun, and since we were careful in the previous step
+to choose the end of a leftmost match, it's the beginning.
+</p>
+
+
+<h3 class=sh id=submatch2>Does this regexp match this string?  If so, where?  Where are the submatches?</h3>
+
+<pre>RE2::PartialMatch(s, "(r+)(e+)", &amp;m1, &amp;m2)</pre>
+
+<p class=pp>This is the hardest question the caller could ask.
+</p>
+
+<p class=pp><i>Run the DFA to answer the first two parts.</i>
+The DFA is fast, but it can only answer the first two parts.
+A direct NFA simulation is necessary to answer the third part.
+Still, the DFA is fast enough that it makes sense to invoke it
+for the first two.
+Using the DFA to find the overall match cuts down the amount
+of text the NFA must process, which helps when searching large
+texts for small targets,
+and it also avoids the NFA completely when the answer to the
+first question is &ldquo;no,&rdquo; a very common case.
+</p>
+
+<p class=pp>
+Once the DFA finds the match location, it is
+time to invoke the NFA to find submatch boundaries.
+The NFA is asymptotically efficient (linear in the size of the
+regular expression and linear in the size of the input text),
+but since it must copy around submatch boundary sets,
+it can be slower in common cases than a backtracker like PCRE.
+In exchange for guaranteed worst case performance,
+the average case suffers a little.
+(For more, see &ldquo;<a href="regexp2.html">Regular Expression Matching: the Virtual Machine Approach</a>.&rdquo;)
+</p>
+
+<p class=pp>A few important common cases don't need
+the full NFA machinery to guarantee efficient execution.
+They can be handled with custom code before falling
+back to the NFA.</p>
+
+<p class=pp><i>Use a one-pass NFA if possible.</i>
+The NFA spends its time keeping track of multiple
+submatch boundary sets (in particular, making copies of them), but it is possible to identify a
+large class of regular expressions for which the NFA
+never needs to keep more than one set of boundary positions,
+no matter what the input.
+</p>
+
+<p class=pp>Let's define a &ldquo;one-pass regular expression&rdquo;
+to be a regular expression with the property that
+at each input byte during an anchored match, there is only
+one alternative that makes sense for a given input byte.
+For example, <code>x*yx*</code> is one-pass: you read
+<code>x</code>'s until a <code>y</code>, then you read the <code>y</code>, then you keep reading <code>x</code>'s.
+At no point do you have to guess what to do or back up
+and try a different guess.
+On the other hand, <code>x*x</code> is not one-pass: when you're
+looking at an input <code>x</code>, it's not clear whether you should
+use it to extend the <code>x*</code> or as the final <code>x</code>.
+More examples: <code>([^x]*)x(.*)</code> is one-pass;
+<code>(.*)x(.*)</code> is not.  <code>(\d+)-(\d+)</code> is one-pass; <code>(\d+).(\d+)</code> is not.
+</p>
+
+<p class=pp>
+A simple intuition for identifying one-pass regular expressions
+is that it's always immediately obvious when a repetition ends.
+It must also be immediately obvious which branch of an <code>|</code> to take:
+<code>x(y|z)</code>  is one-pass, but <code>(xy|xz)</code> is not.
+</p>
+
+<p class=pp>Because there's only one possible next choice,
+the one-pass NFA implementation never needs to make a copy
+of the submatch boundary set.
+The one-pass engine executes in two halves.
+During compilation, the one-pass code <a href="https://github.com/google/re2/blob/main/re2/onepass.cc#L214">analyzes the
+compiled form</a> of the program to determine whether
+it is one-pass.
+If so, the engine computes a data structure recording what to do
+at each possible state and input byte.
+Then at execution the one-pass engine can fly through the string,
+finding the match (or not) in, well, one pass.
+</p>
+
+<p class=pp><i>Use a bit-state backtracker if possible.</i>
+Backtrackers like PCRE avoid the copying of the submatch sets:
+they have a single set and overwrite and restore it during the
+recursion.  For correctness, such an approach must be willing
+to revisit the same part of a string multiple times, at least one time
+per NFA state.
+That would still only be a linear time scan, though: the exponential time
+part of PCRE comes in revisiting the same part of a string many times
+per NFA state, because the algorithm does not remember that
+it has been down a particular path before.
+</p>
+
+<p class=pp>The bit-state backtracker takes the standard backtracking
+algorithm, implemented with a manual stack,
+and adds a bitmap tracking which (state, string position) pairs
+have already been visited.  For small regular expressions matched
+against small strings, allocating and clearing the bitmap is significantly
+cheaper than the copying of the NFA states.
+RE2 <a href="https://github.com/google/re2/blob/main/re2/re2.cc#L821">uses the bit state backtracker </a>when the bitmap is at most 32 kilobytes.
+</p>
+
+<p class=pp><i>If all else fails</i>, use <a href="https://github.com/google/re2/blob/main/re2/nfa.cc">the standard NFA</a>.</p>
+
+
+<h2 class=sh id=analysis>Analysis</h2>
+
+<p class=pp>RE2 disallows PCRE features that cannot be implemented
+efficiently using automata.  (The most notable such feature is backreferences.)
+In return for giving up these difficult to implement (and often incorrectly used)
+features, RE2 can provably analyze the regular expressions or the
+automata.
+We've already seen examples of analysis for use in RE2 itself,
+in the DFA's use of <code>memchr</code> and in the analysis of
+whether a regular expression is one-pass.
+RE2 can also provide analyses that let higher-level applications
+speed searches.
+</p>
+
+<p class=pp><i>Match ranges</i>.
+<a href="http://labs.google.com/papers/bigtable.html">Bigtable</a> stores records
+in order stored by row name, making it efficient to scan all rows with names
+in a given range.  Bigtable also allows clients to specify a regular expression filter:
+the scan skips rows with names that are not an exact match for the regular expression.
+It is convenient for some clients to use just the regular expression filter
+and not worry about setting the row range.  Those clients can improve the
+efficiency of such a scan by asking RE2 to compute the
+range of strings that could possibly match the regular expression
+and then limiting the scan to just that range.
+For example, for <code>(hello|world)+</code>, <code><a href="https://github.com/google/re2/blob/main/re2/re2.cc#L587">RE2::PossibleMatchRange</a></code>
+can determine that all possible matches are in the range [<code>hello</code>, <code>worldworle</code>].
+It works by exploring the DFA graph from the start state,
+looking for a path with the smallest possible byte values
+and a path with the largest possible byte values.
+The <code>e</code> at the end of <code>worldworle</code> is a not a typo:
+<code>worldworldworld</code> &lt; <code>worldworle</code> but not <code>worldworld</code>:
+<code>PossibleMatchRange</code> must often truncate the strings used
+to specify the range, and when it does, it must round the upper bound up.
+</p>
+
+<p class=pp><i>Required substrings</i>.
+Suppose you have an efficient way to check which of a list of strings
+appear as substrings in a large text (for example, maybe you implemented
+the <a href="http://en.wikipedia.org/wiki/Aho-Corasick_algorithm">Aho-Corasick algorithm</a>),
+but now your users want to be able to do regular expression searches efficiently too.
+Regular expressions often have large literal strings in them; if those could be
+identified, they could be fed into the string searcher, and then the results of
+the string searcher could be used to filter the set of regular expression searches
+that are necessary.
+The <a href="https://github.com/google/re2/blob/main/re2/filtered_re2.h"><code>FilteredRE2</code> class</a>
+implements this analysis.  Given a list of regular expressions, it walks the regular
+expressions to compute a boolean expression involving literal strings
+and then returns the list of strings.
+For example, <code>FilteredRE2</code> converts
+<code>(hello|hi)world[a-z]+foo</code> into the boolean expression
+&ldquo;(<code>helloworld</code> OR <code>hiworld</code>) AND <code>foo</code>&rdquo;
+and returns those three strings.
+Given multiple regular expressions, <code>FilteredRE2</code> converts
+each into a boolean expression and returns all the strings involved.
+Then, after being told which of the strings are present,
+<code>FilteredRE2</code> can evaluate each expression
+to identify the set of regular expressions that could possibly be present.
+This filtering can reduce the number of actual regular expression searches significantly.
+</p>
+
+<p class=pp>
+The feasibility of these analyses depends crucially on the simplicity
+of their input.  The first uses the DFA form, while the second uses the parsed
+regular expression (<code>Regexp*</code>).
+These kind of analyses would be more complicated
+(maybe even impossible)
+if RE2 allowed non-regular features in its regular expressions.
+</p>
+
+<h2 class=sh id=i18n>Internationalization</h2>
+
+<p class=pp>
+RE2 treats regular expressions as describing Unicode sequences
+and can search text encoded in UTF-8 or Latin-1.
+Like PCRE and other regular expression implementations,
+named groups like <code>[[:digit:]]</code> and <code>\d</code>
+contain only ASCII, but Unicode property groups like <code>\p{Nd}</code>
+contain full Unicode.
+The challenge for RE2 is to implement the large
+Unicode character set efficiently and compactly.
+We saw above that a character class is represented
+as a balanced binary tree, but it is also important to
+keep the library footprint small, which means
+tight encoding of the necessary Unicode tables.
+</p>
+
+<p class=pp>
+For internationalized character classes, RE2 implements
+the Unicode 5.2 General Category property
+(e.g., <code>\pN</code> or <code>\p{Lu}</code>)
+as well as the Unicode Script property
+(e.g., <code>\p{Greek}</code>).
+These should be used whenever matches are not intended
+to be limited to ASCII characters
+(e.g., <code>\pN</code> or <code>\p{Nd}</code> instead of <code>[[:digit:]]</code> or <code>\d</code>).
+RE2 does not implement the other Unicode properties
+(see <a href="http://www.unicode.org/reports/tr18/">Unicode Technical Standard #18: Unicode Regular Expressions</a>).
+The Unicode group table maps a group name to an array of
+code ranges defining the group.
+The Unicode 5.2 tables require 4,258 code ranges.
+Since Unicode has over 65,536 code points, each range
+would normally require two 32-bit numbers (start and end),
+or 34 kilobytes total.
+However, since the vast majority of ranges involve only
+code points less than 65,536, it makes sense to <a href="https://github.com/google/re2/blob/main/re2/unicode_groups.h">split each
+group</a> into a set of 16-bit ranges and a set of 32-bit ranges,
+cutting the table footprint to 18 kilobytes.
+</p>
+
+<p class=pp>
+RE2 implements case-insensitive matches (enabled by <code>(?i)</code>) according to
+the Unicode 5.2 specification:
+it folds
+<code>A</code> with <code>a</code>, <code>Á</code> with <code>á</code>,
+and even <code>K</code> with <code>K</code> (Kelvin) and <code>S</code> with <code>ſ</code> (long s).
+There are 2,061 case-specific characters.
+RE2's table map each Unicode code point to the next
+largest point that should be treated as the same.
+For example, the table maps
+<code>B</code> to <code>b</code> and
+<code>b</code> to <code>B</code>.
+Most of these loops involve just two characters, but there
+are a few longer ones: for example,
+the table maps
+<code>K</code> to <code>k</code>, <code>k</code> to <code>K</code> (Kelvin symbol),
+and <code>K</code> back to <code>K</code>.
+That table is very repetitive: <code>A</code> maps to <code>a</code>, <code>B</code> maps to <code>b</code>, and so on.
+Instead of listing every character, we can list ranges and deltas:
+<code>A</code> through <code>Z</code> map to the value plus 32,
+<code>a</code> through <code>j</code> map to the value minus 32,
+<code>k</code> maps to <code>K</code> (Kelvin symbol again), and so on.
+There is a special case for ranges with runs of upper/lower pairs and
+lower/upper pairs.
+This encoding cuts the table from 2,061 entries taking 16 kilobytes to
+279 entries taking 3 kilobytes.
+</p>
+
+<p class=pp>
+RE2 does not implement named characters like in Python's <code>u"\N{LATIN SMALL LETTER X}"</code> as an alias for <code>"x"</code>.
+Even ignoring the obvious user interface issues, the necessary table would be around 150 kilobytes.
+</p>
+
+
+<h2 class=sh id=testing>Testing</h2>
+
+<p class=pp>
+How do we know that the RE2 code is correct?
+Testing a regular expression implementation is a complex undertaking,
+especially when the implementation has as many different code paths as RE2.
+Other libraries, like <a href="https://svn.boost.org/trac/boost/browser/trunk/libs/regex/test">Boost</a>,
+<a href="http://vcs.pcre.org/viewvc/code/trunk/testdata/">PCRE</a>, and
+<a href="http://perl5.git.perl.org/perl.git/tree/455f2c6c92e42c1a9e31268cbd491ba661f99882:/t/re">Perl</a>,
+have built up large, manually maintained test suites over time.
+RE2 has a small number of hand-written tests to check basic
+functionality, but it quickly became clear that hand-written
+tests alone would require too much effort to create and maintain
+if they were to cover RE2 well.
+Instead, the bulk of the testing is done by generating
+and checking test cases mechanically.
+</p>
+
+<p class=pp>
+Given a list of small regular expressions and operators,
+the <code><a href="https://github.com/google/re2/blob/main/re2/testing/regexp_generator.h">RegexpGenerator</a></code> class generates all possible expressions using those
+operators up to a given size.  Then the <a href="https://github.com/google/re2/blob/main/re2/testing/string_generator.h"><code>StringGenerator</code></a> generates all possible
+strings over a given alphabet up to a given size.
+Then, for every regular expression and every input string, the RE2 tests check that
+the output of the four different regular expression engines
+agree with each other, and with a trivial backtracking
+implementation written only for testing,
+and (usually) with PCRE itself.
+RE2 does not match PCRE on all cases, so the tester includes
+<a href="https://github.com/google/re2/blob/main/re2/mimics_pcre.cc">an analysis</a> to check for cases
+on which RE2 and PCRE disagree, as listed in the <a href="#caveats">Caveats</a> section below.
+Except when the regular expression involves these boundary cases,
+the tester requires RE2 and PCRE to agree
+on the outcome of the match.
+</p>
+
+<p class=pp>
+The exhaustive tests must limit themselves to small regular expressions
+and small input strings, but most bugs can be exposed by small test cases.
+Enumerating all small test cases catches almost all the mistakes that get past the
+few hand-written tests.
+Even so, RE2 also includes a randomized tester, variants of the
+<code>RegexpGenerator</code> and <code>StringGenerator</code>
+that generate larger random instances.
+It's rare for random testing to catch something
+that the smaller exhaustive testing missed,
+but it is still a good reassurance that large expressions and texts
+continue to work correctly.
+</p>
+
+<h2 class=sh id=performance>Performance</h2>
+
+<p class=pp>
+RE2 is competitive with PCRE on small searches and faster on large ones.
+The performance for small searches is reported in microseconds,
+since the search time is mostly independent of the actual text size
+(around 10 bytes in these examples).
+The performance on large searches is reported in MB/s,
+since the search time is typically linear in the actual text size.
+</p>
+
+<p class=pp>
+The benchmarks reported are run by <a href="https://github.com/google/re2/blob/main/re2/testing/regexp_benchmark.cc"><code>re2/testing/regexp_benchmark.cc</code></a>.  The directory <a href="https://github.com/google/re2/tree/main/benchlog"><code>re2/benchlog</code></a> holds accumulated results.
+(All tests are run with PCRE 8.01, the latest version at time of writing.)</p>
+
+<p class=pp>
+<i>Compilation.</i>
+RE2 compiles regexps at about 3-4x slower than PCRE:
+</p>
+
+<center>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr><td width=100% align=center>
+<!-- benchlog table BM_%s_Compile -->
+<table border=0>
+<tr><th>System</th><th>PCRE</th><th>RE2</th></tr>
+<tr><td>AMD Opteron 8214 HE, 2.2 GHz</td><td>5.8 µs</td><td>14.1 µs</td></tr>
+<tr><td>Intel Core2 Duo E7200, 2.53 GHz</td><td>3.8 µs</td><td>10.4 µs</td></tr>
+<tr><td>Intel Xeon 5150, 2.66 GHz (Mac Pro)</td><td>5.9 µs</td><td>21.7 µs</td></tr>
+<tr><td>Intel Core2 T5600, 1.83 GHz (Mac Mini)</td><td>6.4 µs</td><td>24.1 µs</td></tr>
+<tr height=5><td colspan=3></td></tr>
+</table>
+<!-- -->
+</td>
+</tr>
+<tr><td width=100% align=center><i>Time to compile a simple regular expression.</i></td></tr>
+</table>
+</center>
+
+<p class=pp>
+The difference is about 5-10 microseconds per regexp.
+These timings include time spent freeing the regexp after parsing
+and compilation.  We expect that the common case is that regexps
+are cached across matches when speed is critical,
+making compile time not too important.
+</p>
+
+<p class=pp>
+The compiled form of an RE2 is bigger than that of a PCRE object,
+a few kilobytes vs a few hundred bytes for a typical small regular expression.
+RE2 does more analysis of the regexp during compilation
+and stores a richer form than PCRE.
+RE2 saves state (the partially-built DFA) across calls too:
+after running a few matches a simple RE2 might be using 10kB,
+but more matches do not typically increase the footprint.
+RE2 limits total space usage to a user-specified maximum
+(default 1MB).
+</p>
+
+<p class=pp>
+<i>Full match, no submatch info</i>.
+We saw above that some searches are harder than others
+and that RE2 uses different implementations for different kinds of searches.
+This benchmark searches for <code>.*$</code>
+in a randomly-generated input text of the given size.
+It gives a sense of the flat out search speed.
+</p>
+
+<center>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr><td width=100% align=center>
+<!-- benchlog graph Search_Success_Cached -->
+<img src=regexp3g1.png width="769" height="176">
+<!-- -->
+</td>
+</tr>
+<tr><td width=100% align=center><i>Speed of searching for <code>.*$</code> in random text.  (Mac Pro)</i></td></tr>
+</table>
+</center>
+
+<p class=lp>
+RE2 uses a DFA to run the search.
+</p>
+
+<p class=pp>
+<i>Full match, one-pass regular expression, submatch info, tiny strings</i>.
+This benchmark searches for  <code>([0-9]+)-([0-9]+)-([0-9]+)</code>
+in the string <code>650-253-0001</code>, asking for the location of the three submatches:
+</p>
+
+<center>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr><td width=100% align=center>
+<!-- benchlog table Parse_CachedDigits_%s -->
+<table border=0>
+<tr><th>System</th><th>PCRE</th><th>RE2</th></tr>
+<tr><td>AMD Opteron 8214 HE, 2.2 GHz</td><td>0.8 µs</td><td>0.5 µs</td></tr>
+<tr><td>Intel Core2 Duo E7200, 2.53 GHz</td><td>0.4 µs</td><td>0.3 µs</td></tr>
+<tr><td>Intel Xeon 5150, 2.66 GHz (Mac Pro)</td><td>0.6 µs</td><td>0.3 µs</td></tr>
+<tr><td>Intel Core2 T5600, 1.83 GHz (Mac Mini)</td><td>0.7 µs</td><td>0.4 µs</td></tr>
+<tr height=5><td colspan=3></td></tr>
+</table>
+<!-- -->
+</td>
+</tr>
+<tr><td width=100% align=center><i>Time to match <code>([0-9]+)-([0-9]+)-([0-9]+)</code> in <code>650-253-0001</code>.</i></td></tr>
+</table>
+</center>
+
+<p class=lp>
+RE2 uses the OnePass matching engine to run the search, avoiding the overhead of
+the full NFA.
+</p>
+
+<p class=pp>
+<i>Full match, ambiguous regular expression, submatch info, tiny strings</i>.
+If the regexp is ambiguous, RE2 cannot use the OnePass engine,
+but if the regexp and string are both small, RE2 can use the BitState engine.
+This benchmark searches for <code>[0-9]+.(.*)</code> in <code>650-253-0001</code>:
+</p>
+
+
+<center>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr><td width=100% align=center>
+<!-- benchlog table Parse_CachedSplitHard_%s -->
+<table border=0>
+<tr><th>System</th><th>PCRE</th><th>RE2</th></tr>
+<tr><td>AMD Opteron 8214 HE, 2.2 GHz</td><td>0.6 µs</td><td>2.9 µs</td></tr>
+<tr><td>Intel Core2 Duo E7200, 2.53 GHz</td><td>0.3 µs</td><td>2.1 µs</td></tr>
+<tr><td>Intel Xeon 5150, 2.66 GHz (Mac Pro)</td><td>0.4 µs</td><td>2.3 µs</td></tr>
+<tr><td>Intel Core2 T5600, 1.83 GHz (Mac Mini)</td><td>0.5 µs</td><td>2.5 µs</td></tr>
+<tr height=5><td colspan=3></td></tr>
+</table>
+<!-- -->
+</td>
+</tr>
+<tr><td width=100% align=center><i>Time to match <code>[0-9]+.(.*)</code> in <code>650-253-0001</code>.</i></td></tr>
+</table>
+</center>
+
+<p class=lp>
+Here, RE2 is noticeably slower than PCRE, because the regexp is not
+unambiguous: it is never clear whether an additional digit should
+be added to the <code>[0-9]+</code> or used to match the ‘<code>.</code>’.
+PCRE is optimized for matches; when presented with strings
+that don't match, its run-time can grow exponentially in the
+worst case, and is noticeably slower even in common cases.
+In contrast, RE2 plods along at linear speed regardless of
+whether the text matches.
+The particular speed depends on the size of the text and regexp.
+In small cases like this one, RE2 uses BitState; in larger cases,
+it must fall back to NFA.
+</p>
+
+<p class=pp>
+<i>Partial match, no actual match</i>.
+Looking for a partial (unanchored) match requires that the matching
+engine consider matches starting at every byte in the string.
+PCRE implements this as a loop that tries starting at each byte
+in the string, while the RE2 implementations can run all of those
+in parallel.  The RE2 implementations analyze the regexp
+more thoroughly than PCRE does, leading to potential speedups.
+</p>
+
+<p class=pp>
+This benchmark searches for <code>ABCDEFGHIJKLMNOPQRSTUVWXYZ$</code>
+in randomly generated text.
+</p>
+
+<center>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr><td width=100% align=center>
+<!-- benchlog graph Search_Easy0_Cached -->
+<img src=regexp3g2.png width="769" height="171">
+<!-- -->
+</td>
+</tr>
+<tr><td width=100% align=center><i>Speed of searching for <code>ABCDEFGHIJKLMNOPQRSTUVWXYZ$</code> in random text.  (Mac Pro)</i></td></tr>
+</table>
+</center>
+
+<p class=lp>
+The RE2 DFA spends most of its time
+in <code>memchr</code> looking for the leading <code>A</code>.
+PCRE notices the leading <code>A</code> too, though it
+seems not to take as much advantage.
+I suspect that PCRE does not continue to use <code>memchr</code>
+after finding the first <code>A</code>.
+</p>
+
+<p class=pp>
+The next benchmark is a little harder, since there is no
+leading character to <code>memchr</code> for.
+It looks for <code>[XYZ]ABCDEFGHIJKLMNOPQRSTUVWXYZ$</code>.
+</p>
+
+<center>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr><td width=100% align=center>
+<!-- benchlog graph Search_Medium_Cached -->
+<img src=regexp3g3.png width="769" height="176">
+<!-- -->
+</td>
+</tr>
+<tr><td width=100% align=center><i>Speed of searching for <code>[XYZ]ABCDEFGHIJKLMNOPQRSTUVWXYZ$</code> in random text.  (Mac Pro)</i></td></tr>
+</table>
+</center>
+
+<p class=lp>
+PCRE falls back on much slower processing to handle it,
+while RE2's DFA runs its fast byte-at-a-time loop.
+</p>
+
+<p class=pp>
+The next benchmark is quite difficult for PCRE.
+It looks for <code>[ -~]*ABCDEFGHIJKLMNOPQRSTUVWXYZ$</code>.
+The text has no match for that expression, but PCRE scans the
+entire string at each position matching <code>[ -~]*</code>
+before realizing there is no match there.
+This ends up taking O(text<sup>2</sup>) time to match.
+RE2's DFA makes a single linear pass.
+</p>
+
+<center>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr><td width=100% align=center>
+<!-- benchlog graph Search_Hard_Cached -->
+<img src=regexp3g4.png width="769" height="176">
+<!-- -->
+</td>
+</tr>
+<tr><td width=100% align=center><i>Speed of searching for <code>[ -~]*ABCDEFGHIJKLMNOPQRSTUVWXYZ$</code> in random text.  (Mac Pro)</i></td></tr>
+</table>
+</center>
+
+<p class=lp>
+Notice that PCRE sputters out at texts 4K in length.
+</p>
+
+<p class=pp>
+<i>Search and parse</i>.
+Another typical use of RE is to find and parse a particular string
+in a text.  This benchmark generates a random text with
+<code>(650) 253-0001</code> at the end and then does an
+unanchored search for <code>(\d{3}-|\(\d{3}\)\s+)(\d{3}-\d{4})</code>,
+extracting the area code separately from the 7-digit phone number.
+</p>
+
+<center>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr><td width=100% align=center>
+<!-- benchlog graph SearchPhone_Cached -->
+<img src=regexp3g5.png width="769" height="176">
+<!-- -->
+</td>
+</tr>
+<tr><td width=100% align=center><i>Speed of searching for and matching <code>(\d{3}-|\(\d{3}\\)\s+)(\d{3}-\d{4})</code>
+<br>in random text ending wtih <code>(650) 253-0001</code>.  (Mac Pro)</i></td></tr>
+</table>
+</center>
+
+<p class=lp>
+RE2's faster DFA searching is responsible for the improved speed.
+</p>
+
+<p class=pp>
+<i>Summary</i>.
+RE2 requires about 10 KB per regexp, in contrast to PCRE's half a KB or so.
+In exchange for the extra space, RE2 guarantees linear-time performance,
+although the linear-time constant varies by situation.
+</p>
+
+<p class=pp>
+RE2 runs at about the same speed as PCRE for queries that ask whether
+a string matches but do not ask for submatch information
+(e.g., <code>RE2::FullMatch</code> or <code>RE2::PartialMatch</code>
+with no additional arguments).
+</p>
+
+<p class=pp>
+When using regexps to parse text, RE2 runs at about the same speed
+as PCRE for unambiguous regexps.
+It runs at about half the speed for ambiguous regexps with small matches,
+and considerably slower for ambiguous regexps with large matches.
+The data sizes involved in these cases are usually
+small enough that the run-time difference is not a bottleneck.
+(For example, any performance loss parsing a file name vanishes
+in comparison to the time required to open the file.)
+</p>
+
+<p class=pp>
+RE2 excels at searches over large amounts of text.
+It can locate matches much faster than PCRE, especially
+if the search requires PCRE to backtrack.
+</p>
+
+<p class=pp>
+These benchmarks compare against PCRE because it is the
+most direct comparison: C/C++ against C/C++, with an almost identical
+interface.
+It's important to emphasize that the
+benchmarks are interesting because they primarily compare algorithms,
+not performance tuning.
+PCRE's choice of algorithm, at least in the general case,
+is forced by the attempt to be completely compatible with Perl and friends.
+</p>
+
+<h2 class=sh id=caveats>Caveats</h2>
+
+<p class=pp>
+RE2 explicitly does not attempt to handle every extension that
+Perl has introduced.
+The Perl extensions it supports are:
+non-greedy repetition; character classes like <code>\d</code>; and
+empty assertions like <code>\A</code>, <code>\b</code>, <code>\B</code>, and <code>\z</code>.
+RE2 does not support arbitrary lookahead or lookbehind assertions,
+nor does it support backreferences.
+It supports counted repetition, but it is implemented by
+actual repetition (<code>\d{3}</code> becomes <code>\d\d\d</code>),
+so large repetition counts are unwise.
+RE2 supports Python-style named captures <code>(?P&lt;name&gt;expr)</code>,
+but not the alternate syntaxes <code>(?&lt;name&gt;expr)</code> and <code>(?'name'expr)</code>
+used by .NET and Perl.
+</p>
+
+<p class=pp>
+RE2 does not always match PCRE's behavior.  There are a few known
+instances where RE2 intentionally differs:
+</p>
+
+<ul>
+<li>If the regexp contains a repetition of an empty string,
+like <code>(a*)+</code>, then PCRE will treat the reptition
+sequence as ending with an empty string, while RE2 does not.
+Specifically, when matching <code>(a*)+</code> against <code>aaa</code>,
+PCRE runs the <code>+</code> twice, once to match <code>aaa</code>
+and a second time to match the empty string.  RE2 runs the <code>+</code>
+only once, to match <code>aaa</code>.  Because parens capture the
+rightmost text they matched, for PCRE <code>$1</code>
+will be an empty string while for RE2 <code>$1</code> will be <code>aaa</code>.
+The PCRE behavior could be kludged into RE2 if needed.
+</li>
+<li>
+Perl and PCRE differ on the meaning of the regexp <code>\v</code>.
+In Perl it matches just the vertical tab character (VT, 0x0B),
+while in PCRE it matches both the vertical tab and newline.
+RE2 chooses to side with Perl.
+</li>
+<li>
+In single-line mode, if the input text ends with a newline character,
+Perl and PCRE allow <code>$</code> to match either before or after
+that final newline.
+RE2 requires that it match after, at the very end of the text.
+</li>
+<li>
+Similarly, in multi-line mode, if the input text ends with a newline
+character, Perl and PCRE do not allow <code>^</code>, which normally
+matches following a newline, to match at the very end of the text.
+RE2 does.
+</li>
+<li>
+RE2 stops short of full internationalization but does implement
+basic Unicode property classes.
+</li>
+<li>
+In UTF-8 mode, PCRE defines negated POSIX classes <code>[[:^xxx:]]</code> to match only ASCII code points,
+so that <code>[[:^alpha:]]</code> matches ASCII characters that are not in <code>[[:alpha:]]</code>,
+while <code>[^[:alpha:]]</code> matches any Unicode character that is not in <code>[[:alpha:]]</code>.
+RE2 corrects this inconsistency:
+<code>[[:^alpha:]]</code> and <code>[^[:alpha:]]</code> both mean any Unicode
+character that is not in <code>[[:alpha:]]</code>.
+</li>
+</ul>
+
+<p class=lp>
+There are a handful of obscure features of Perl and PCRE
+that RE2 chooses not to implement.  These are:
+</p>
+
+<ul>
+<li>
+“Extended” regular expressions have traditionally
+followed the rule that word characters stand for
+themselves unless escaped, while
+punctuation might be special unless escaped.
+Thus <code>\q</code> should mean something special
+and <code>\#</code> should match a literal <code>#</code>.
+Perl and PCRE accept escaped letters as literals
+if the letter does not (yet) have a meaning.
+Thus in Perl, <code>\q</code> matches a literal <code>q</code>,
+at least until a different meaning is introduced.
+RE2 rejects unknown escaped letters rather than
+silently treating them as literals.
+This also helps diagnose uses of sequences that
+RE2 does not support, like <code>\cx</code> (see below).
+</li>
+<li>
+RE2 does not recognize <code>\cx</code> as the Control-X character.
+Embed a literal control character using C++ string syntax
+or an octal or hexadecimal escape.
+</li>
+<li>
+In POSIX, <code>\b</code> means backspace.
+In Perl, it means word boundary,
+except inside a character class, when it means backspace (<code>[\b]</code>).
+RE2 attempts to avoid confusion by never recognizing
+<code>\b</code> as backspace.
+RE2 rejects <code>\b</code> in POSIX mode,
+recognizes it as word boundary in Perl mode,
+and always rejects it in character classes.
+To match a backspace, embed a literal backspace character or write <code>\010</code>.
+</li>
+<li>
+RE2 does not recognize atomic grouping operators
+<code>(?>...)</code> and <code>++</code>.
+These are used mainly as a performance band-aid for backtracking.
+RE2 provides a more complete solution.
+</li>
+<li>
+RE2 does not recognize <code>\C</code>, <code>\G</code> or <code>\X</code>.
+</li>
+<li>
+RE2 does not recognize
+conditional subpatterns <code>(?(...)...)</code>,
+comments <code>(?#...)</code>, pattern references <code>(?R)</code> <code>(?1)</code>
+<code>(?P>foo)</code>,
+or C callouts <code>(?C...)</code>.
+</li>
+</ul>
+
+<p class=pp>
+By default, RE2 enforces a maximum of 1MB (per RE2 object)
+for the two <code>Prog</code>s and their <code>DFA</code>s.
+This is enough for most expressions, but very large expressions
+or patterns with large counted repetitions may exceed
+these limits.
+Running out of memory during compilation
+causes <code>re.ok()</code> to return false,
+with an explanation in <code>re.error()</code>.
+RE2 cannot run out of memory during a text search:
+it will discard the cached DFA and start a new DFA
+using the reclaimed memory.
+If it must discard the DFA too often, it will fall back
+on an NFA search.
+</p>
+
+<h2 class=sh id=summary>Summary</h2>
+
+<p class=pp>
+RE2 demonstrates that it is possible to use automata theory to
+implement almost all the features of a modern backtracking
+regular expression library like PCRE.  Because it is rooted in the
+theoretical foundation of automata, RE2 provides stronger
+guarantees on execution time than and enables high-level analyses
+that would be difficult or impossible with ad hoc implementations.
+Finally, RE2 is <a href="https://github.com/google/re2/blob/main/LICENSE">open source</a>.  Have fun!
+</p>
+
+<p class=pp>
+RE2's implementation and my understanding of regular expressions
+have both benefited greatly from discussions with Rob Pike and
+Ken Thompson over the last few years.
+Sanjay Ghemawat designed and implemented the <a href="http://man.he.net/man3/pcrecpp">C++ interface to PCRE</a>,
+which RE2's C++ interface mimics and is derived from.
+Srinivasan Venkatachary wrote the <code>FilteredRE2</code> code.
+Philip Hazel's <a href="http://pcre.org/">PCRE</a> is an astonishing
+piece of code.  Trying to match most of PCRE's regular expression features
+has pushed RE2 much farther than it would otherwise have gone,
+and PCRE has served as an excellent implementation against which to test.
+Thanks to all.
+</p>
+
+<p class=lp>
+The next article in this series is &ldquo;<a href="regexp4.html">Regular Expression Matching with a Trigram Index</a>,&rdquo; a behind-the-scenes look at how Google Code Search worked.
+</p>
+
+<center>
+<p class=copy>
+Copyright &copy; 2010 Russ Cox.  All Rights Reserved.
+<br>
+<a href="https://swtch.com/~rsc/regexp/">https://swtch.com/~rsc/regexp/</a>
+</p>
+</center>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3319603-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+</body>
+</html>

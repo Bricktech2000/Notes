@@ -1,6 +1,6 @@
 # Debate
 
-**see** [[nonverbal#connotation]]
+**see** [[signal#compensatory signal]]
 
 [[debate]]s can benefit from the [[nested conversation structure]]
 

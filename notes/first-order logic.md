@@ -66,8 +66,8 @@ the _resolution_ [[inference rule]] for [[first-order logic]] $\displaystyle \fr
 > 1. add the [[boolean#negation]] of the conclusion into the knowledge base
 > 2. rename bound variables so no two [[quantifier]]s within a formula bind the same name (_standardization_)
 > 3. move [[quantifier]]s to the front of all formulas (conversion to _prenex normal form_)
-> 4. replace existentially-quantified variables by functions of their universally-quantified dependencies, dropping the existential [[quantifier]]s (_skolemization_)
-> 5. drop universal [[quantifier]]s; free variables are now implicitly universally quantified
+> 4. replace existentially-quantified variables by functions of their universally-quantified dependencies, dropping the [[quantifier#existential quantifier]]s (_skolemization_)
+> 5. drop [[quantifier#universal quantifier]]s; free variables are now implicitly universally quantified
 > 6. convert all formulas to [[conjunctive normal form]]
 > 7. collect the disjunctive terms into a new knowledge base
 > 8. repeatedly apply [[first-order logic#resolution]]:
@@ -75,7 +75,7 @@ the _resolution_ [[inference rule]] for [[first-order logic]] $\displaystyle \fr
 >    - otherwise, if resolution has converged, return non-entailment
 >    - otherwise, continue
 >
-> _skolemization_ is a noteworthy step. it eliminates existential [[quantifier]]s by introducing _skolem functions_ and _skolem constants_ ($0$-ary skolem functions). it doesn't preserve _logical equivalence_---just because it changes the form of formulas and thus models aren't directly compatible---but it does preserve _satisfiability_---because it moves all existential [[quantifier]]s outwards using the [[second-order logic]] equivalence $\forall x.\ \exists y.\ R\ x\ y \iff \exists Y.\ \forall x.\ R\ x\ (Y\ x)$, and satisfiability is implicitly existentially quantified over models and thus over functions --- me and <https://en.wikipedia.org/wiki/Skolem_normal_form#How_Skolemization_works> and [[680fd401-c864-8008-adf4-f8d950bf01d9]]
+> _skolemization_ is a noteworthy step. it eliminates [[quantifier#existential quantifier]]s by introducing _skolem functions_ and _skolem constants_ ($0$-ary skolem functions). it doesn't preserve _logical equivalence_---just because it changes the form of formulas and thus models aren't directly compatible---but it does preserve _satisfiability_---because it moves all existential [[quantifier]]s outwards using the [[second-order logic]] equivalence $\forall x.\ \exists y.\ R\ x\ y \iff \exists Y.\ \forall x.\ R\ x\ (Y\ x)$, and satisfiability is implicitly existentially quantified over models and thus over functions --- me and <https://en.wikipedia.org/wiki/Skolem_normal_form#How_Skolemization_works> and [[680fd401-c864-8008-adf4-f8d950bf01d9]]
 
 > **example** _resolution-based inference for [[first-order logic]]_ --- [[cs188_sp93_f_sol.pdf]], problem 2 --- <https://hkn.eecs.berkeley.edu/examfiles/cs188_sp93_f_sol.pdf>
 

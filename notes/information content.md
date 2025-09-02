@@ -5,8 +5,8 @@
 **definition** **`I S x = /--P S x\ b`**, where
 
 - **`b`** is an arbitrary base for the [[logarithm]], with **`b {|-/\+} 1`**
-- **`P S x`** is the [[probability]] of the [[event]] **`x`** occuring in the [[sample space]] **`S`**
-- **`I S x`** is the [[information content]] of the [[event]] **`x`** occuring in the [[sample space]] **`S`**
+- **`P S x`** is the [[probability]] of the [[event]] **`x`** occurring in the [[sample space]] **`S`**
+- **`I S x`** is the [[information content]] of the [[event]] **`x`** occurring in the [[sample space]] **`S`**
 
 > **note** with **`b = 2`**, [[information content]] is measured in [[shannon]]s; with **`b = ee`**, [[information content]] is measured in [[nat]]s
 

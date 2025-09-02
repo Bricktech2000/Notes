@@ -1,16 +1,16 @@
 # Sensory Augmentation
 
-**see** [[umwelt]]
+**see** [[umwelt]], [[learn]], [[procedural memory]]
 
-_feeding information into the [[brain]] via unusual sensory channels_
+> **resource** _Can we create new senses for humans?_ by David Eagleman --- <https://youtu.be/4c1lqFXHvqI>
 
-as humans, we don't "miss" the world of smell a dog lives in as we have never experienced it. _we are firmly settled in our [[umwelt]]_
+[[sensory augmentation]] is expanding our [[umwelt]] by _feeding information into the [[brain]] via unusual sensory channels_ --- <https://youtu.be/4c1lqFXHvqI&t=500>
 
-in the case of [[sensory augmentation]], **the brain** adapts to the signals sent to it, and so the signals do not have to adapt to the [[brain]]. _whatever information comes in, it just figures out what to do with it_. [[brain]]s are therefore general-purpose computing devices, and all nature has to worry about is designing new peripherals to plug into it
+a key idea is that the [[brain]] is a general-purpose computing device: _whatever information comes in, it just figures out what to do with it_ --- <https://youtu.be/4c1lqFXHvqI?t=375>. over time, [[procedural memory]] takes over and the artificial stimuli integrate into your [[umwelt]] --- me, _in the same way that when a blind person passes a finger over braille, the meaning comes directly off the page_ --- <https://youtu.be/4c1lqFXHvqI&t=798>
 
-> **example**
+> **examples**
 >
 > - <https://youtu.be/4c1lqFXHvqI> (David Eagleman on TED)
-> - <https://github.com/Bricktech2000/Sensory-Augmentation>
 > - BrainPort (maps visual information to a tactile grid on the tongue)
 > - <https://youtu.be/vBUp2dJDEKc> (Sapien LLC's Cthulhu Shield)
+> - binocular hexachromacy (feeding each eye different [[color]] information) --- me

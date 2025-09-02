@@ -6,7 +6,7 @@
 
 [[motivation]], [[overwhelm]], [[procrastination]], [[laziness]], [[focus]]
 
-[[learning]], [[active recall]], [[spaced repetition]], [[interleaving]]
+[[learn]], [[active recall]], [[spaced repetition]], [[interleaving]]
 
 [[minimalism]], [[stoicism]], [[difficult]], [[invest]], [[intention]], [[cognitive load]]
 

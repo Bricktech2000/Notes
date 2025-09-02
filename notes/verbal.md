@@ -8,8 +8,6 @@ _verbal communication_
 
 _an association that any given word or phrase carries_ --- me
 
-**see** [[nonverbal#connotation]]
-
 > **examples**
 >
 > - "I don't have time" --- _I don't deem this important enough to make [[time]] for_. everyone has **`24 "h"`** to work with every day. if something were **actually** important to you, you would make [[time]] for it --- <https://youtu.be/suG-oqsdcGo?t=0> and <https://youtu.be/6o2tm00Ar8A?t=724>

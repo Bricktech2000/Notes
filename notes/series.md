@@ -13,6 +13,8 @@
 
 ## Sequence of Partial Sums
 
+#xxx partial sums is how you define the limit of a series once you've defined the limit of a sequence: <https://youtu.be/fKtypds7GRI?t=815>
+
 **definition**
 
 let **`:b = b^0 : b^1 : b^2 : ...`**. then, **`S_b = (b^0), (b^0 : b^1), (b^0 : b^1 : b^2), ...`** or alternatively **`S_b^0 = b^0 /\ S_b^n = S_b^n.1 : b^n`**, where

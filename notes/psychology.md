@@ -20,7 +20,7 @@
 
 [[cognitive bias]], [[material distortion]]
 
-[[verbal#connotation]], [[nonverbal#connotation]]
+[[verbal#connotation]]
 
 [[mental illness]]
 

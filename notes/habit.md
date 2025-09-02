@@ -53,7 +53,7 @@ _[[habit#formation]]_
 
 ## Tracking
 
-[[habit#tracking]] can be thought of as providing the **timely feedback** necessary for [[learning]] and the [[accountable]]ility necessary for **active learning** --- me
+[[habit#tracking]] can be thought of as providing the **timely feedback** necessary for [[learn]]ing and the [[accountable]]ility necessary for **active learning** --- me
 
 [[habit#tracking]] can lead to the **introspection** required for [[self-control]]
 

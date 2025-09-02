@@ -10,10 +10,11 @@
 
 - [[object]]s are things and people like things
 
-cons of [[object-oriented programming]] include:
+cons of [[object-oriented programming]]:
 
 - <https://youtu.be/GKYCA3UsmrU> (Handmade Hero)
 - <https://youtu.be/_xLgr6Ng4qQ> (Handmade Hero)
 - <https://youtu.be/IRTfhkiAqPw> (Brian Will)
 - <https://youtu.be/agTmccNAXlI> (Brian Will)
 - <https://youtu.be/I8LbkfSSR58?t=615> (Bartosz Milewski)
+- <https://youtu.be/wo84LFzx5nI> (Casey Muratori)

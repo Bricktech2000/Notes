@@ -25,7 +25,7 @@ notice that many [[tool]]s match one of the following _scopes_
 > - Unity does everything for [[video game]] development
 > - LibreOffice Writer does everything for word processing
 
-[[learning]] to use a [[tool]] is an [[invest]]ment; understanding a [[tool]]'s _scope_ is essential for deciding whether [[invest]]ing in [[learning]] to use it is worth it. type-0 and type-3 [[tool]]s are relatively uncommon. type-1 and type-2 [[tool]]s are common and worth contrasting. skills with type-1 [[tool]]s are generally **transferable**, and type-1 [[tool]]s are **composable** but potentially **less efficient**. conversely, skills with type-2 [[tool]]s are generally **not transferable**, and type-2 [[tool]]s are **specialized** but potentially **more efficient**
+[[learn]]ing to use a [[tool]] is an [[invest]]ment; understanding a [[tool]]'s _scope_ is essential for deciding whether [[invest]]ing in [[learn]]ing to use it is worth it. type-0 and type-3 [[tool]]s are relatively uncommon. type-1 and type-2 [[tool]]s are common and worth contrasting. skills with type-1 [[tool]]s are generally **transferable**, and type-1 [[tool]]s are **composable** but potentially **less efficient**. conversely, skills with type-2 [[tool]]s are generally **not transferable**, and type-2 [[tool]]s are **specialized** but potentially **more efficient**
 
 > **note**
 >

@@ -22,42 +22,55 @@ some useful bindings not present in the quickref:
 - `Q` --- replay last recorded macro (Neovim only)
 - `q:` - `q/` --- open the command-line window
 - `@:` --- repeat the last command-line
-- `gi` --- resume **insert** at the position the last insert was stopped
-- i`<c-e>` --- abort an autocompletion (see `:h ins-compl`)
-- `gF` --- edit the **file** under the cursor at the line specified
-- `<c-w>gF` --- edit in a new window the **file** under the cursor at the line specified
-- `gx` --- open the file under the cursor in **external** program (requires netrw)
-- `:cope<cr>` --- **open** the quickfix window
-- `:ccl<cr>` --- **close** the quickfix window
-- `:cr<cr>` --- **rewind** to the first quickfix item
-- `:chi<cr>` --- display the quickfix list **history**
-- `:col<cr>` --- go to an **older** quickfix list in the history
-- `:cnew<cr>` --- go to a **newer** quickfix list in the history
+- `gi` --- resume insert at the position the last insert was stopped
+- i`<c-e>` --- abort an autocompletion (see `:h ins-compl` and `:h popupmenu`)
+- i`<c-y>` --- accept an autocompletion (see `:h ins-compl` and `:h popupmenu`)
+- `gF` --- edit the file under the cursor at the line specified
+- `<c-w>F` --- `gF` but in new window
+- `gx` --- open the file under the cursor in external program (requires netrw)
+- `:cr<cr>` --- rewind to the first quickfix item
+- `:cope<cr>` - `:ccl<cr>` --- open/close the quickfix window
+- `:cpf<cr>` - `:cnf<cr>` --- `:cn<cr>`/`:cp<cr>` until a new file is hit
+- `:chi<cr>` --- display the quickfix list history
+- `:col<cr>` - `:cnew<cr>` --- go to an older/newer quickfix list in the history
 - v`O` --- switch the parity of v`o` in a blockwise selection
 - v`g<c-a>` - v`g<c-x>` --- incrementally increment/decrement numbers in selection
 - v`P` --- put from register without overwriting the unnamed register
 - c`<c-r><c-w>` --- insert the word under the cursor
 - c`<c-r><c-a>` --- insert the WORD under the cursor
 - c`<c-r><c-l>` --- insert the line under the cursor
-- `gn` - `gN` --- select **next**/previous match, applying an operator if one is pending
+- `gn` - `gN` --- select next/previous match, applying an operator if one is pending
+- o`v` --- when motion is charwise, toggle inclusive/exclusive
 - i`<c-x><c-e>` - i`<c-x><c-y>` --- scroll from within insert mode
+- i`<c-x><c-l>` --- autocomplete the entire line, modulo indent
+- i`<c-x><c-f>` --- autocomplete from filenames in working directory
+- i`<c-x><c-n>` - i`<c-x><c-p>` --- after `<c-n>`/`<c-p>`, autocomplete subsequent words
+- i`<c-x><c-i>` - i`<c-x><c-d>` --- autocomplete from occurrences/definitions across includes
+- `[i` - `[d` --- display first occurrence/definition of word under cursor across includes
+- `[I` - `[D` --- display all occurrences/definitions of word under cursor across includes
+- `[<c-i>` - `[<c-d>` --- go to first occurrence/definition of word under cursor across includes
+- `<c-w>i` - `<c-w>d` --- `[<c-i>`/`[<c-d>` but in new window
+- `1gd` - `1gD` --- `gd`/`gD` but ignore `{}` blocks before the cursor
+- v`zy` - `zp` --- yank/paste a block, removing trailing spaces
+- c`<c-n>` - c`<c-p>` --- recall next/previous command line
+- `:mes<cr>` --- view message history
 
 useful shell bindings spread a little all over the quickref:
 
 - `:!`_cmd_ --- run shell command _cmd_
-- `:r!`_cmd_ --- **read in** output of shell command _cmd_
-- v`:w !`_cmd_ --- **write out** selected lines to shell command _cmd_
+- `:r!`_cmd_ --- read in output of shell command _cmd_
+- v`:w !`_cmd_ --- write out selected lines to shell command _cmd_
 - `!!`_cmd_ --- filter current line through shell command _cmd_
 - `!`_motion_ _cmd_ --- filter motion _motion_ through shell command _cmd_
 - v`!`_cmd_ --- filter selected lines through shell command _cmd_
 
 some "compound" bindings to be treated as units for [[procedural memory]]:
 
-- `ea` --- insert **after word**
-- `Ea` --- insert **after WORD**
-- `o<esc>` --- insert a blank line below
-- `Jx` --- **join** lines, removing all leading whitespace
-- `Jde` --- **join** lines, removing leading word (like `//` [[c]] comments and `-` [[markdown]] lists)
+- `ea` --- insert after word
+- `Ea` --- insert after WORD
+- `o<esc>` - `O<esc>` --- insert a blank line below/above
+- `Jx` --- join lines, removing all leading whitespace
+- `Jde` --- join lines, removing leading word (like `//` [[c]] comments and `-` [[markdown]] lists)
 - `xp` --- swap a character with the next
 - `ddp` --- swap a line with the next
 - `r<cr>` --- split a line at the cursor position
@@ -67,18 +80,19 @@ some "compound" bindings to be treated as units for [[procedural memory]]:
 - `99<c-r>` --- jump to the latest change in the current [[undo tree]] branch
 - `*N` --- highlight the word under the cursor
 - `0D` --- clear out the current line without deleting it
-- `VP` --- replace current line with contents of unnamed register
-- `<cr>;` --- repeat last `f`/`t` search on the next line down
+- `VP` --- replace the current line with the contents of the unnamed register
+- `<cr>;` - `-;` --- repeat last `f`/`t` search on the next/previous line
 - `gon` - `GN` --- repeat last `/`/`?` search from the start/end of the buffer
+- `<c-o><c-w>^` --- reopen just-opened buffer in new window instead
 
 some small tricks and workflows I use:
 
-- peek at occurences of a pattern---without clobbering the last search or cluttering up the jump list---with `/`_re_, then `<c-g>` and `<c-t>`, then `<esc>`
+- peek at occurrences of a pattern---without clobbering the last search or cluttering up the jumplist---with `/`_re_, then `<c-g>` and `<c-t>`, then `<esc>`
 - quickly repeat a compound change by recording it with the usual `qq`_commands_`q` then mashing `Q` (Neovim only)
 - perform an interactive substitution with `/`_re_, then `cgn`_replacement_`<esc>` or `dgn`, then skip with `n` and repeat with `.` --- more flexible than `:s/.../c<cr>`
 - interactively append a suffix to the end of matches with `/`_re_`/e<cr>`, then `a`_suffix_`<esc>`, then skip with `n` and repeat with `.`
 - keep or delete lines matching a pattern with `:g/`_re_`/d<cr>` and `:v/`_re_`/d<cr>`
-- grep recursively from the working directory with `:vim/`_re_`/**`; matches are put in the quickfix list
+- grep recursively from the working directory with `:vim/`_re_`/**<cr>`; matches are put in the quickfix list
   > **note** turn `:fin` into a fuzzy finder with `set wildmenu path+=**` --- <https://youtu.be/XA2WjJbmmoM?t=6m44s>
 - when it exists, print the digraph for the character under the cursor using `ga`
   > **note** useful digraphs worth memorizing: `“”‘’…•‾–—   §¶ °′″‴ ×÷−±√≈≡≤≥≮≯≠∞ ∫∏∑∂∆∇αβγ ∃∀∧∨¬∈∋∅ ½⅔¾₀₁₂₊₋₍₎⁰¹²⁺⁻⁽⁾ⁿ`
@@ -95,4 +109,4 @@ some small tricks and workflows I use:
 - use undos from within insert mode by marking undo points with `<c-g>u` and undoing with `<c-o>u`. delete all entered characters with `<c-u>`
 - temporarily isolate a window with `<c-w>|`/`<c-w>_` then revert to equal window size with `<c-w>=`
 
-Vim patterns support a `\&` [[operator]] that may look like [[regular expression]] intersection, but unfortunately it's just a lookahead because the subpatterns are not required to end matches at the same positions. what a shame
+Vim patterns support a `\&` [[operator]] that may look like [[regular expression]] intersection, but unfortunately it's just a lookahead because the subpattern matches are not required to end at the same positions. what a shame

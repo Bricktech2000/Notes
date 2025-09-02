@@ -1,0 +1,1755 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Regular Expression Matching: the Virtual Machine Approach</title>
+<style type="text/css"><!--
+body {
+	background-color: white;
+	color: black;
+	font-family: serif;
+	font-size: medium;
+	line-height: 1.2em;
+	margin-left: 0.5in;
+	margin-right: 0.5in;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p.lp {
+	text-indent: 0in;
+	text-align: justify;
+}
+
+p.lp-left {
+	text-indent: 0in;
+	text-align: left;
+}
+
+p.tlp {
+	text-indent: 0in;
+	text-align: justify;
+	margin-top: 0.25in;
+}
+
+p.pp {
+	text-indent: 0.35in;
+	text-align: justify;
+}
+
+code {
+	font-family: monospace;
+	font-size: medium;
+}
+
+h2.sh {
+	text-indent: 0in;
+	text-align: left;
+	margin-top: 2em;
+	margin-bottom: 0.05in;
+	font-weight: bold;
+	font-size: medium
+}
+
+p.fig {
+	text-align: center;
+}
+
+div.fig {
+	text-align: center;
+	margin-left: -0.5in;
+	margin-right: -0.5in;
+}
+
+.box {
+	border-style: dashed;
+	border-width: 1px;
+}
+
+pre.p1 {
+	text-indent: 0in;
+	text-align: left;
+	line-height: 1.2em;
+	font-size: 0.9em;
+	margin-left: 0.5in;
+	margin-right: 0.5in;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h1.tl {
+	font-weight: bold;
+	font-size: medium;
+	text-align: center;
+	margin-top: 3em;
+}
+
+h2.au {
+	font-weight: normal;
+	font-size: medium;
+	text-align: center;
+	margin-top: 1.5em;
+	margin-bottom: 3em;
+}
+
+p.copy {
+	text-align: center;
+	text-indent: 0in;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	font-size: small;
+}
+
+--></style>
+</head>
+<body>
+
+<h1 class=tl>
+Regular Expression Matching: the Virtual Machine Approach
+</h1>
+<h2 class=au>
+<a href="https://swtch.com/~rsc/">Russ Cox</a>
+<br>
+<i>rsc@swtch.com</i>
+<br>
+December 2009
+</h2>
+
+
+
+<h2 class=sh id=intro>Introduction</h2>
+
+<p class=pp>
+Name the most widely used bytecode interpreter or virtual machine.
+Sun's JVM?  Adobe's Flash?  .NET and Mono?  Perl?  Python?  PHP?
+These are all certainly popular, but there's one
+more widely used than all those combined.
+That bytecode interpreter is Henry Spencer's regular expression
+library and its many descendants.
+</p>
+
+<p class=pp>
+<a href="regexp1.html">The first article</a> in this series described
+the two main strategies for implementing regular expression matching:
+the worst-case linear-time NFA- and DFA-based
+strategies used in awk and egrep (and now most greps),
+and the worst-case exponential-time backtracking strategy used almost
+everywhere else, including ed, sed, Perl, PCRE, and Python.
+</p>
+
+<p class=pp>
+This article presents two strategies as two
+different ways to implement a virtual machine
+that executes a regular expression that has been
+compiled into text-matching bytecodes,
+just like .NET and Mono are different ways to implement a virtual machine
+that executes a program that has been compiled into
+<a href="http://en.wikipedia.org/wiki/Common_Language_Infrastructure">CLI</a> bytecodes.
+</p>
+
+<p class=pp>
+Viewing regular expression matching as executing
+a special machine makes it possible to add new features
+just by adding (and implementing!) new machine instructions.
+In particular, we can add regular expression
+submatching instructions, so that
+after matching <code>(a+)(b+)</code>
+against <code>aabbbb</code>, a program can find out that
+the parenthesized <code>(a+)</code>
+(often referred to as <code>\1</code> or <code>$1</code>)
+matched <code>aa</code> and that <code>(b+)</code> matched <code>bbbb</code>.
+Submatching can be implemented in <i>both</i> backtracking
+and non-backtracking VMs.
+(Code doing this dates back to 1985, but I believe this article is the first
+written explanation of it.)
+</p>
+
+
+<h2 class=sh id=vm>A Regular Expression Virtual Machine</h2>
+
+<p class=pp>
+To start, we'll define a regular expression virtual machine
+(think <a href="http://en.wikipedia.org/wiki/Java_Virtual_Machine">Java VM</a>).
+The VM executes one or more threads, each running
+a regular expression program, which is just a list of
+regular expression instructions.
+Each thread maintains two registers while it runs: a program counter (PC)
+and a string pointer (SP).
+</p>
+
+<p class=pp>
+The regular expression instructions are:
+</p>
+
+<center>
+<table width=80% cellspacing=0 cellpadding=2 border=0>
+<tr><td width=150 valign=top><code>char </code><i>c</i>
+	<td>If the character SP points at is not <i>c</i>, stop this thread: it failed.
+	    Otherwise, advance SP to the next character
+	    and advance PC to the next instruction.
+<tr><td valign=top><code>match</code>
+	<td>Stop this thread: it found a match.
+<tr><td valign=top><code>jmp <i>x</i></code>
+	<td>Jump to (set the PC to point at) the instruction at <i>x</i>.
+<tr><td valign=top><code>split <i>x</i>, <i>y</i></code>
+	<td>Split execution: continue at both <i>x</i> and <i>y</i>.
+	Create a new thread with SP copied from the
+	current thread.  One thread continues with PC <i>x</i>.
+	The other continues with PC <i>y</i>.
+	(Like a simultaneous jump to <i>both</i> locations.)
+</table>
+</center>
+
+<p class=pp>
+The VM starts with a single thread running with its
+PC pointing at the beginning of the program and its SP pointing
+at the beginning of the input string.
+To run a thread, the VM executes the instruction
+that the thread's PC points at; executing the instruction changes
+the thread's PC to point at the next instruction to run.  Repeat until
+an instruction (a failed <code>char</code> or a <code>match</code>) stops the thread.
+The regular expression matches a string if any thread finds a match.
+</p>
+
+
+<p class=pp>
+Compiling a regular expression into byte code proceeds
+recursively depending on the form of the regular expression.
+Recall from <a href="regexp1.html">the previous article</a>
+that regular expressions come
+in four forms: a single letter like <code>a</code>,
+a concatenation <i>e</i><sub>1</sub><i>e</i><sub>2</sub>,
+an alternation <i>e</i><sub>1</sub><code>|</code><i>e</i><sub>2</sub>,
+or a repetition <i>e</i><code>?</code> (zero or one),
+<i>e</i><code>*</code> (zero or more),
+or
+<i>e</i><code>+</code> (one or more).
+</p>
+
+<p class=pp>
+A single letter <code>a</code> compiles into the single
+instruction <code>char a</code>.
+A concatenation concatenates the compiled form of the
+two subexpressions.
+An alternation uses a <code>split</code> to allow either
+choice to succeed.
+A zero-or-one repetition <i>e</i><code>?</code> uses a <code>split</code> to
+compile like an alternation with the empty string.
+The zero-or-more repetition <i>e</i><code>*</code> and the
+one-or-more repetition <i>e</i><code>+</code> use a <code>split</code>
+to choose whether to match <i>e</i> or break out of the repetition.
+
+<p class=pp>
+The exact code sequences are:
+</p>
+
+<center>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr height=1 bgcolor=#000000><td colspan=3>
+<tr><td><code>a</code></td><td width=20>
+	<td><code>&nbsp;&nbsp;&nbsp; char a</code></td>
+<tr height=1 bgcolor=#000000><td colspan=3>
+<tr><td valign=top><i>e</i><sub>1</sub><i>e</i><sub>2</sub></td><td width=20>
+	<td><code>&nbsp;&nbsp;&nbsp; </code><i>codes for </i><i>e</i><sub>1</sub><br>
+		<code>&nbsp;&nbsp;&nbsp; </code><i>codes for </i><i>e</i><sub>2</sub></td>
+<tr height=1 bgcolor=#000000><td colspan=3>
+<tr><td valign=top><i>e</i><sub>1</sub><code>|</code><i>e</i><sub>2</sub></td> <td width=20>
+	<td><code>&nbsp;&nbsp;&nbsp; split L1, L2</code><br>
+		<code>L1: </code><i>codes for </i><i>e</i><sub>1</sub><br>
+		<code>&nbsp;&nbsp;&nbsp; jmp L3</code><br>
+		<code>L2: </code><i>codes for </i><i>e</i><sub>2</sub><br>
+		<code>L3:</code>
+	</td>
+<tr height=1 bgcolor=#000000><td colspan=3>
+<tr><td valign=top><i>e</i><code>?</code></td><td width=20>
+	<td><code>&nbsp;&nbsp;&nbsp; split L1, L2</code><br>
+		<code>L1: </code><i>codes for </i><i>e</i><br>
+		<code>L2:</code>
+	</td>
+<tr height=1 bgcolor=#000000><td colspan=3>
+<tr><td valign=top><i>e</i><code>*</code></td><td width=20>
+	<td><code>L1: split L2, L3</code><br>
+		<code>L2: </code><i>codes for </i><i>e</i><br>
+		<code>&nbsp;&nbsp;&nbsp; jmp L1</code><br>
+		<code>L3:</code>
+	</td>
+<tr height=1 bgcolor=#000000><td colspan=3>
+<tr><td valign=top><i>e</i><code>+</code></td><td width=20>
+	<td><code>L1: </code><i>codes for </i><i>e</i><br>
+		<code>&nbsp;&nbsp;&nbsp; split L1, L3</code><br>
+		<code>L3:</code>
+	</td>
+<tr height=1 bgcolor=#000000><td colspan=3>
+</table>
+</center>
+
+<p class=lp-left>
+Once the entire regular expression has been compiled,
+the generated code is finished with a final <code>match</code>
+instruction.
+</p>
+
+<p class=pp>
+As an example, the regular expression <code>a+b+</code> compiles into
+</p>
+
+<center>
+<table cellspacing=0 cellpadding=0 border=0><tr><td>
+<pre>
+<font size=-1>0</font> &nbsp; char a
+<font size=-1>1</font> &nbsp; split 0, 2
+<font size=-1>2</font> &nbsp; char b
+<font size=-1>3</font> &nbsp; split 2, 4
+<font size=-1>4</font> &nbsp; match
+</pre>
+</table>
+</center>
+
+<p class=lp-left>
+When run on <code>aab</code>, a VM implementation
+might run the program this way:
+
+<center>
+<table cellspacing=0 cellpadding=3 border=0>
+<tr> <th><b>Thread</b> <th width=20> <th><b>PC</b> <th width=20> <th><b>SP</b>  <th width=20> <th><b>Execution</b>
+
+<tr> <td align=center>T1
+     <td><td><code><font size=-1>0</font> char a</code>
+     <td><td><code><u><b>a</b></u>ab</code>
+     <td><td>character matches
+
+<tr> <td align=center>T1
+     <td><td><code><font size=-1>1</font> split 0, 2</code>
+     <td><td><code>a<u><b>a</b></u>b</code>
+     <td><td>creates thread T2 at PC=2 SP=<code>a<u><b>a</b></u>b</code>
+
+<tr> <td align=center>T1
+     <td><td><code><font size=-1>0</font> char a</code>
+     <td><td><code>a<u><b>a</b></u>b</code>
+     <td><td>character matches
+
+<tr> <td align=center>T1
+     <td><td><code><font size=-1>1</font> split 0, 2</code>
+     <td><td><code>a<u><b>a</b></u>b</code>
+     <td><td>creates thread T3 at PC=2 SP=<code>aa<u><b>b</b></u></code>
+
+<tr> <td align=center>T1
+     <td><td><code><font size=-1>0</font> char a</code>
+     <td><td><code>aa<u><b>b</b></u></code>
+     <td><td>no match: thread T1 dies
+
+<tr> <td align=center>T2
+     <td><td><code><font size=-1>2</font> char b</code>
+     <td><td><code>a<u><b>a</b></u>b</code>
+     <td><td>no match: thread T2 dies
+
+<tr> <td align=center>T3
+     <td><td><code><font size=-1>2</font> char b</code>
+     <td><td><code>aa<u><b>b</b></u></code>
+     <td><td>character matches
+
+<tr> <td align=center>T3
+     <td><td><code><font size=-1>3</font> split 2, 4</code>
+     <td><td><code>abb<u><b>&nbsp;</b></u></code>
+     <td><td>creates thread T4 at PC=4 SP=<code>abb<u><b>&nbsp;</b></u></code>
+
+<tr> <td align=center>T3
+     <td><td><code><font size=-1>2</font> char b</code>
+     <td><td><code>abb<u><b>&nbsp;</b></u></code>
+     <td><td>no match (end of string): thread T3 dies
+
+<tr> <td align=center>T4
+     <td><td><code><font size=-1>4</font> match</code>
+     <td><td><code>abb<u><b>&nbsp;</b></u></code>
+     <td><td>match!</td>
+
+</table>
+</center>
+
+<p class=lp-left>
+In this example, the implementation waits to run a new thread until
+the current thread finishes, and it runs the threads
+in the order they were created (oldest first).  This is not required by
+the VM specification; it is up to the implementation to
+schedule the threads.  Other implementations might run the
+threads in another order or might even interleave
+thread executions.
+</p>
+
+<h2 class=sh id=c>VM Interface in C</h2>
+
+<p class=pp>
+The rest of this article examines a sequence of
+VM implementations, illustrating them using C source code.
+The regular expression program is represented as an
+array of <code>Inst</code> structures, defined in C as:
+</p>
+
+<pre class=p1>
+enum {    /* Inst.opcode */
+    Char,
+    Match,
+    Jmp,
+    Split
+};
+
+struct Inst {
+    int opcode;
+    int c;
+    Inst *x;
+    Inst *y;
+};
+</pre>
+
+<p class=lp-left>
+This bytecode is almost identical to the representation of the
+NFA graphs from the <a href="regexp1.html">first article</a>.
+We can view the bytecode as an encoding of the NFA
+graphs into machine instructions, or we can view the NFA graphs
+as the control-flow graph of the bytecodes.
+Each view makes different things easier to think about.
+Whichever came first, this article focuses on the
+of the machine instruction view.
+</p>
+
+<p class=pp>
+Each VM implementation will be a function taking
+the program and input string as arguments and
+returning an integer signaling whether the program
+matched the input string (zero for no match; non-zero for a match).
+</p>
+
+<pre class=p1>
+int implementation(Inst *prog, char *input);
+</pre>
+
+
+<h2 class=sh id=backtrack>A Recursive Backtracking Implementation</h2>
+
+<p class=pp>
+The simplest possible implementation of the VM
+doesn't model the threads directly at all.
+Instead, it calls itself recursively when it needs
+to explore a new thread of execution,
+taking advantage of the fact that the <code>prog</code>
+and <code>input</code> function parameters double as
+the initial values of <code>pc</code> and <code>sp</code>
+for the first thread.
+
+<pre class=p1>
+int
+recursive(Inst *pc, char *sp)
+{
+    switch(pc-&gt;opcode){
+    case Char:
+        if(*sp != pc-&gt;c)
+            return 0;
+        return recursive(pc+1, sp+1);
+    case Match:
+        return 1;
+    case Jmp:
+        return recursive(pc-&gt;x, sp);
+    case Split:
+        if(recursive(pc-&gt;x, sp))
+            return 1;
+        return recursive(pc-&gt;y, sp);
+    }
+    assert(0);
+    return -1;  /* not reached */
+}
+</pre>
+
+<p class=lp>
+The above version is very recursive and should be
+comfortable to programmers familiar with recursion-heavy languages
+like Lisp, ML, and Erlang.
+Most C compilers will rewrite the &ldquo;<code>return recursive(...);</code>&rdquo;
+statements
+(the so-called tail calls)
+into a goto back to the top of the function,
+so that the above compiles into something more like:
+
+
+
+<pre class=p1>
+int
+recursiveloop(Inst *pc, char *sp)
+{
+    for(;;){
+        switch(pc-&gt;opcode){
+        case Char:
+            if(*sp != pc-&gt;c)
+                return 0;
+            pc++;
+            sp++;
+            continue;
+        case Match:
+            return 1;
+        case Jmp:
+            pc = pc-&gt;x;
+            continue;
+        case Split:
+            if(recursiveloop(pc-&gt;x, sp))
+                return 1;
+            pc = pc-&gt;y;
+            continue;
+        }
+        assert(0);
+        return -1;  /* not reached */
+    }
+}
+
+</pre>
+<p class=lp-left>
+where the looping is explicit.
+</p>
+
+<p class=lp>
+Note that this version still needs one (non-tail) recursion, in
+<code>case Split</code>, to try <code>pc-&gt;x</code>
+before trying <code>pc-&gt;y</code>.
+</p>
+
+<p class=pp>
+This implementation is the essence of Henry Spencer's
+original library as well as the backtracking implementations
+in Java, Perl, PCRE, Python, and the original ed, sed, and grep.
+This implementation runs very fast when there is little
+backtracking to be done, but it slows considerably when many
+possibilities must be tried,
+as we saw in the <a href="regexp1.html">previous article</a>.
+</p>
+
+<p class=pp>
+This particular backtracking implementation has one
+shortcoming that production implementations usually do not:
+regular expressions like <code>(a*)*</code> can cause
+infinite loops in the compiled program, and this
+VM implementation does not detect such loops.
+It turns out to be easy to fix this problem (see the end of the article for details), but since backtracking is not our focus,
+we will simply ignore the problem.
+</p>
+
+<h2 class=sh id=nrbacktrack>A Non-recursive Backtracking Implementation</h2>
+
+<p class=pp>
+The recursive backtracking implementation runs a single thread until it dies,
+and then runs threads in the reverse of the order in which
+they were created (newest first).
+The threads waiting to run are not encoded explicitly:
+instead they are implicit in the values of <code>pc</code>
+and <code>sp</code> saved on the C call stack whenever
+the code recurses.
+If there are too many threads waiting to run,
+the C call stack can overflow,
+causing errors much harder to debug than a performance problem.
+The problem most commonly comes up during repetitions
+like <code>.*</code>, which create a new thread after
+each character (like <code>a+</code> did in the example above).
+This is a real concern in multithreaded programs,
+which often have limited stack sizes and no hardware checking
+for stack overflow.
+</p>
+
+<p class=pp>
+We can avoid overflowing the C stack by maintaining
+an explicit thread stack instead.
+To start, we define a
+<code>struct Thread</code> and a simple
+constructor function <code>thread</code>:
+</p>
+
+<pre class=p1>
+struct Thread {
+    Inst *pc;
+    char *sp;
+};
+
+Thread thread(Inst *pc, char *sp);
+</pre>
+
+<p class=lp-left>
+Then the VM implementation repeatedly takes a thread
+off its <code>ready</code> list and runs it to completion.
+If one thread finds a match, we can stop early:
+the remaining threads need not be run.
+If all threads finish without finding a match, there is no match.
+We impose a simple limit on the number of threads
+waiting to run, reporting an error if the limit is reached.
+</p>
+
+<pre class=p1>
+int
+backtrackingvm(Inst *prog, char *input)
+{
+    enum { MAXTHREAD = 1000 };
+    Thread ready[MAXTHREAD];
+    int nready;
+    Inst *pc;
+    char *sp;
+
+    /* queue initial thread */
+    ready[0] = thread(prog, input);
+    nready = 1;
+
+    /* run threads in stack order */
+    while(nready &gt; 0){
+        --nready;  /* pop state for next thread to run */
+        pc = ready[nready].pc;
+        sp = ready[nready].sp;
+        for(;;){
+            switch(pc-&gt;opcode){
+            case Char:
+                if(*sp != pc-&gt;c)
+                    goto Dead;
+                pc++;
+                sp++;
+                continue;
+            case Match:
+                return 1;
+            case Jmp:
+                pc = pc-&gt;x;
+                continue;
+            case Split:
+                if(nready >= MAXTHREAD){
+                    fprintf(stderr, "regexp overflow");
+                    return -1;
+                }
+                /* queue new thread */
+                ready[nready++] = thread(pc-&gt;y, sp);
+                pc = pc-&gt;x;  /* continue current thread */
+                continue;
+            }
+        }
+    Dead:;
+    }
+    return 0;
+}
+</pre>
+
+<p class=lp-left>
+This implementation behaves the same as <code>recursive</code>
+and <code>recursiveloop</code>; it just doesn't use the C stack.
+Compare the two <code>Split</code> cases:
+</p>
+
+<center>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr><td valign=top>
+<pre>
+/* recursiveloop */
+case Split:
+    if(recursiveloop(pc-&gt;x, sp))
+        return 1;
+    pc = pc-&gt;y;
+    continue;
+</pre>
+<td width=40>
+<td valign=top>
+<pre>
+/* backtrackingvm */
+case Split:
+    if(nready >= MAXTHREAD){
+        fprintf(stderr, "regexp overflow");
+        return -1;
+    }
+    /* queue new thread */
+    ready[nready++] = thread(pc-&gt;y, sp);
+    pc = pc-&gt;x;  /* continue current thread */
+    continue;
+</pre>
+</table>
+</center>
+
+<p class=lp-left>
+The backtracking is still present, but the <code>backtrackingvm</code>
+code must do explicitly what the <code>recursiveloop</code>
+did implicitly: save the PC and SP that will be used after the recursion
+so that they can be tried if the current thread fails.
+Being explicit makes it possible to add the overflow check.
+</p>
+
+<h2 class=sh id=thompsonvm>Thompson's Implementation</h2>
+
+<p class=pp>
+Viewing regular expression matching as running threads in a VM,
+we can present an alternate formulation of Ken Thompson's
+algorithm, one that is closer to Thompson's PDP-11
+machine code than what was presented in the first article.
+</p>
+
+<p class=pp>
+Thompson observed that backtracking
+required scanning some parts of the input string multiple times.
+To avoid this, he built a VM implementation
+that ran all the threads in lock step:
+they all process the first character in the string,
+then they all process the second, and so on.
+This is possible because newly created VM threads
+never look backward in the string, so they can be
+coerced into lock step with the existing threads.
+</p>
+
+<p class=pp>
+Because all threads execute in lock step,
+they all have the same value for the string pointer,
+so it is no longer necessary to save as part of the
+thread state:
+</p>
+
+<pre class=p1>
+struct Thread
+{
+	Inst *pc;
+};
+Thread thread(Inst *pc);
+</pre>
+
+<p class=pp>
+In our framework, Thompson's VM implementation is:
+</p>
+
+<pre class=p1>
+int
+thompsonvm(Inst *prog, char *input)
+{
+    int len;
+    ThreadList *clist, *nlist;
+    Inst *pc;
+    char *sp;
+
+    len = proglen(prog);  /* # of instructions */
+    clist = threadlist(len);
+    nlist = threadlist(len);
+
+    addthread(clist, thread(prog));
+    for(sp=input;; sp++){
+        for(i=0; i&lt;clist.n; i++){
+            pc = clist.t[i].pc;
+            switch(pc-&gt;opcode){
+            case Char:
+                if(*sp != pc-&gt;c)
+                    break;
+                addthread(nlist, thread(pc+1));
+                break;
+            case Match:
+                return 1;
+            case Jmp:
+                addthread(clist, thread(pc-&gt;x));
+                break;
+            case Split:
+                addthread(clist, thread(pc-&gt;x));
+                addthread(clist, thread(pc-&gt;y));
+                break;
+            }
+        }
+        if(*sp == '\0')
+            return;
+        swap(clist, nlist);
+        clear(nlist);
+    }
+}
+</pre>
+
+<p class=pp>
+Suppose that there are <i>n</i> instructions in the
+regular expression program being run.
+Because the thread state is only the program counter,
+there are only <i>n</i> different possible threads
+that can appear on <code>clist</code> or <code>nlist</code>.
+If <code>addthread</code> does not add a thread to the list
+if an identical thread (with the same <code>pc</code>) is already
+on the list, then <code>ThreadLists</code> only need
+room for <code>n</code> possible threads, eliminating
+the possibility of overflow.
+</p>
+
+<p class=pp>
+Having at most <code>n</code> threads on a list also
+bounds the amount of time spent processing
+each character.  Assuming an efficient <i>O</i>(1) implementation
+of <code>addthread</code>, the worst case time
+for processing a single character is only <i>O</i>(<i>n</i>),
+so the time for the entire string is <i>O</i>(<i>n m</i>).
+This is far better than the essentially unbounded time
+requires by backtracking.  (It also eliminates the infinite loops mentioned above.)
+</p>
+
+<p class=pp>
+Strictly speaking, there's no reason why the backtracking VM
+implementation couldn't adopt the same trick, making sure
+not to queue a thread if an identical thread (with the same
+<code>pc</code> and <code>sp</code>) had already been queued.
+Doing so would require tracking <i>n m</i> possible threads: one for
+each possible <code>pc</code> and <code>sp</code> pair.
+</pp>
+
+<p class=pp>
+It is not uncommon to search for a 20-byte regular expression
+in a megabyte of text.  In that case <i>n</i> is at most 40, but
+<i>n m</i> can be as high as 40 million.
+(And by today's standards, a megabyte of text is tiny!)
+The benefit of Thompson's approach is that, because the threads
+run in lock step, there are only <i>n</i> possible threads at a given point.
+The approach reducing the bookkeeping overhead dramatically
+by making it independent of the text length.
+</p>
+
+
+<h2 class=sh id=submatch>Tracking Submatches</h2>
+
+<p class=pp>
+Treating regular expressions as compiled to bytecodes
+makes it easy to add new features, like submatch tracking,
+by defining new bytecodes and implementing them.
+</p>
+
+<p class=pp>
+To add submatch tracking, we'll add
+an array of saved string pointers to the thread state.
+The new bytecode instruction
+<code>save <i>i</i></code> saves the current
+string pointer in the <i>i</i>th slot in the saved pointer array
+for the current thread.
+To compile <code>(</code><i>e</i><code>)</code>,
+which saves the boundaries of the match for <i>e</i>,
+we'll put <code>save</code> instructions around the
+code for <i>e</i>.
+For the <i>k</i>th set of parentheses (Perl's <code>$k</code>),
+we'll use slots 2<i>k</i> to hold the starting position and
+2<i>k</i>+1 to hold the ending position.
+</p>
+
+<p class=pp>
+For example, compare the compiled form of <code>a+b+</code>
+and <code>(a+)(b+)</code>:
+</p>
+
+<center>
+<table cellspacing=0 cellpadding=0 border=0><tr><td>
+<pre>
+<font size=-1> </font> &nbsp;    a+b+         <font size=-1> </font> &nbsp;  (a+)(b+)
+
+<font size=-1> </font> &nbsp;                 <font size=-1>0</font> &nbsp; save 2
+<font size=-1>0</font> &nbsp; char a          <font size=-1>1</font> &nbsp; char a
+<font size=-1>1</font> &nbsp; split 0, 2      <font size=-1>2</font> &nbsp; split 1, 3
+<font size=-1> </font> &nbsp;                 <font size=-1>3</font> &nbsp; save 3
+<font size=-1> </font> &nbsp;                 <font size=-1>4</font> &nbsp; save 4
+<font size=-1>2</font> &nbsp; char b          <font size=-1>5</font> &nbsp; char b
+<font size=-1>3</font> &nbsp; split 2, 4      <font size=-1>6</font> &nbsp; split 5, 7
+<font size=-1> </font> &nbsp;                 <font size=-1>7</font> &nbsp; save 5
+<font size=-1>4</font> &nbsp; match           <font size=-1>8</font> &nbsp; match
+</pre>
+</table>
+</center>
+
+<p class=lp-left>
+If we wanted to find the boundaries of the entire match,
+we could wrap the generated bytecode in
+<code>save 0</code> and <code>save 1</code> instructions.
+</p>
+
+<p class=lp>
+Implementing the <code>save</code>
+instruction in <code>recursiveloop</code>
+is straightforward (<code>saved[pc-&gt;i]=sp</code>)
+except that the assignment must be undone if the
+match goes on to fail.
+This insulates the successful thread from failed threads.
+</p>
+
+<pre class=p1>
+int
+recursiveloop(Inst *pc, char *sp, <b>char **saved</b>)
+{
+    <b>char *old;</b>
+
+    for(;;){
+        switch(pc-&gt;opcode){
+        case Char:
+            if(*sp != pc-&gt;c)
+                return 0;
+            pc++;
+            sp++;
+            break;
+        case Match:
+            return 1;
+        case Jmp:
+            pc = pc-&gt;x;
+            break;
+        case Split:
+            if(recursiveloop(pc-&gt;x, sp, saved))
+                return 1;
+            pc = pc-&gt;y;
+            break;
+        <b>case Save:
+            old = saved[pc-&gt;i];
+            saved[pc-&gt;i] = sp;
+            if(recursiveloop(pc+1, sp, saved))
+                return 1;
+            /* restore old if failed */
+            saved[pc-&gt;i] = old;
+            return 0;</b>
+        }
+    }
+}
+</pre>
+
+<p class=lp-left>
+Notice that <code>case Save</code> has an unavoidable
+recursion, just like <code>case Split</code> does.
+The <code>Save</code> recursion is harder to compile out
+than the <code>Split</code> recursion; fitting <code>Save</code>
+into <code>backtrackingvm</code> requires more effort.
+The difference in effort is one reason implementors
+prefer recursion despite the possible stack overflow problems.
+</p>
+
+
+<h2 class=sh id=pike>Pike's Implementation</h2>
+
+<p class=pp>
+In a &ldquo;threaded&rdquo; implementation like <code>thompsonvm</code>
+above, we simply add the saved pointer set to the thread state.
+Rob Pike first used this approach, in the text editor <code>sam</code>.
+</p>
+
+<pre class=p1>
+struct Thread
+{
+	Inst *pc;
+	char *saved[20];  /* $0 through $9 */
+};
+Thread thread(Inst *pc, char **saved);
+</pre>
+
+<pre class=p1>
+int
+pikevm(Inst *prog, char *input, <b>char **saved</b>)
+{
+    int len;
+    ThreadList *clist, *nlist;
+    Inst *pc;
+    char *sp;
+    Thread t;
+
+    len = proglen(prog);  /* # of instructions */
+    clist = threadlist(len);
+    nlist = threadlist(len);
+
+    addthread(clist, thread(prog<b>, saved</b>));
+    for(sp=input; *sp; sp++){
+        for(i=0; i&gt;clist.n; i++){
+            t = clist.t[i];
+            switch(pc-&gt;opcode){
+            case Char:
+                if(*sp != pc-&gt;c)
+                    break;
+                addthread(nlist, thread(t.pc+1, <b>t.saved</b>));
+                break;
+            case Match:
+                <b>memmove(saved, t.saved, sizeof t.saved);</b>
+                return 1;
+            case Jmp:
+                addthread(clist, thread(t.pc-&gt;x, <b>t.saved</b>));
+                break;
+            case Split:
+                addthread(clist, thread(t.pc-&gt;x, <b>t.saved</b>));
+                addthread(clist, thread(t.pc-&gt;y, <b>t.saved</b>));
+                break;
+            <b>case Save:
+                t.saved[t-&gt;pc.i] = sp;
+                addthread(clist, thread(t.pc-&gt;x, <b>t.saved</b>));
+                break;</b>
+            }
+        }
+        swap(clist, nlist);
+        clear(nlist);
+    }
+}
+</pre>
+
+<p class=pp>
+The <code>case Save</code> code is simpler in
+<code>pikevm</code> than in <code>recursiveloop</code>,
+because each thread has its own copy of <code>saved</code>:
+there is no need to restore the old value.
+</p>
+
+<p class=pp>
+In Thompson's VM, <code>addthread</code> could
+limit the size of the thread lists to <i>n</i>, the length
+of the compiled program, by keeping only one thread with
+each possible PC.
+In Pike's VM, the thread state is larger&mdash;it includes the
+saved pointers too&mdash;but <code>addthread</code>
+can still keep just one thread with each possible PC.
+This is because the saved pointers do not influence
+future execution: they only record past execution.
+Two threads with the same PC will execute identically
+even if they have different saved pointers; thus only
+one thread per PC needs to be kept.
+</p>
+
+
+<h2 class=sh id=ambig>Ambiguous Submatching</h2>
+
+<p class=pp>
+Sometimes there is more than one way for a regular expression to match a string.
+As a simple example, consider searching for <code>&lt;.*&gt;</code> in
+<code>&lt;html&gt;&lt;/html&gt;</code>.
+Does the pattern match just <code>&lt;html&gt;</code>
+or the entire <code>&lt;html&gt;&lt;/html&gt;</code>?
+Equivalently,
+does the <code>.*</code> match just <code>html</code>
+or <code>html&gt;&lt;/html</code>?
+Perl, the de-facto standard for regular expression implementations,
+does the latter.  In this sense, <code>*</code> is &ldquo;greedy&rdquo;:
+it matches as much as it can while preserving the match.
+</p>
+
+<p class=pp>
+Requiring <code>*</code> to be greedy essentially imposes a
+priority on each thread of execution.  We can add such a priority
+to the VM specification by defining that the <code>split</code>
+instruction &ldquo;prefers&rdquo; successful execution using its
+first argument to its second argument.
+</p>
+
+<p class=pp>
+With a prioritizing <code>split</code>, we can implement
+a greedy <i>e</i><code>*</code> (and <i>e</i><code>?</code> and <i>e</i><code>+</code>)
+by making sure that the preferred choice is the one that
+matches more instances of <i>e</i>.
+Perl also introduced a &ldquo;non-greedy&rdquo; <i>e</i><code>*?</code>
+(and <i>e</i><code>??</code> and <i>e</i><code>+?</code>) that
+matches as little as possible.
+It can be implemented by reversing the arguments to <code>split</code>,
+so that matching fewer instances is preferred.
+</p>
+
+<p class=pp>
+The exact code sequences are:
+</p>
+<center>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr><td>
+<center>greedy (same as above)</center><br>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr height=1 bgcolor=#000000><td colspan=3>
+<tr><td valign=top><i>e</i><code>?</code></td><td width=20>
+	<td><code>&nbsp;&nbsp;&nbsp; split <b>L1, L2</b></code><br>
+		<code>L1: </code><i>codes for </i><i>e</i><br>
+		<code>L2:</code>
+	</td>
+<tr height=1 bgcolor=#000000><td colspan=3>
+<tr><td valign=top><i>e</i><code>*</code></td><td width=20>
+	<td><code>L1: split <b>L2, L3</b></code><br>
+		<code>L2: </code><i>codes for </i><i>e</i><br>
+		<code>&nbsp;&nbsp;&nbsp; jmp L1</code><br>
+		<code>L3:</code>
+	</td>
+<tr height=1 bgcolor=#000000><td colspan=3>
+<tr><td valign=top><i>e</i><code>+</code></td><td width=20>
+	<td><code>L1: </code><i>codes for </i><i>e</i><br>
+		<code>&nbsp;&nbsp;&nbsp; split <b>L1, L3</b></code><br>
+		<code>L3:</code>
+	</td>
+<tr height=1 bgcolor=#000000><td colspan=3>
+</table>
+
+<td width=40>
+<td>
+<center>non-greedy</center><br>
+<table cellspacing=0 cellpadding=0 border=0>
+<tr height=1 bgcolor=#000000><td colspan=3>
+<tr><td valign=top><i>e</i><code>??</code></td><td width=20>
+	<td><code>&nbsp;&nbsp;&nbsp; split <b>L2, L1</b></code><br>
+		<code>L1: </code><i>codes for </i><i>e</i><br>
+		<code>L2:</code>
+	</td>
+<tr height=1 bgcolor=#000000><td colspan=3>
+<tr><td valign=top><i>e</i><code>*?</code></td><td width=20>
+	<td><code>L1: split <b>L3, L2</b></code><br>
+		<code>L2: </code><i>codes for </i><i>e</i><br>
+		<code>&nbsp;&nbsp;&nbsp; jmp L1</code><br>
+		<code>L3:</code>
+	</td>
+<tr height=1 bgcolor=#000000><td colspan=3>
+<tr><td valign=top><i>e</i><code>+?</code></td><td width=20>
+	<td><code>L1: </code><i>codes for </i><i>e</i><br>
+		<code>&nbsp;&nbsp;&nbsp; split <b>L3, L1</b></code><br>
+		<code>L3:</code>
+	</td>
+<tr height=1 bgcolor=#000000><td colspan=3>
+</table>
+</table>
+</center>
+
+<p class=pp>
+The backtracking implementations given above already prioritize
+<code>split</code>'s choices in the way just defined,
+though verifying this fact takes a little effort.
+The <code>recursive</code> and <code>recursiveloop</code>
+implementations simply try <code>pc-&gt;x</code> before
+<code>pc-&gt;y</code>:
+</p>
+
+<pre class=p1>
+/* recursive */
+case Split:
+    if(recursive(pc-&gt;x, sp))
+        return 1;
+    return recursive(pc-&gt;y, sp);
+
+/* recursiveloop */
+case Split:
+    if(recursiveloop(pc-&gt;x, sp))
+        return 1;
+    pc = pc-&gt;y;
+    continue;
+</pre>
+
+<p class=pp>
+The <code>backtrackingvm</code> implementation
+creates a new thread for the lower-priority
+<code>pc-&gt;y</code> and continues executing
+at <code>pc-&gt;x</code>:
+</p>
+
+<pre class=p1>
+/* backtrackingvm */
+case Split:
+    if(nready >= MAXTHREAD){
+        fprintf(stderr, "regexp overflow");
+        return -1;
+    }
+    /* queue new thread */
+    ready[nready++] = thread(pc-&gt;y, sp);
+    pc = pc-&gt;x;  /* continue current thread */
+    continue;
+</pre>
+
+<p class=lp-left>
+Because the threads are
+managed in a stack (last in, first out), the
+thread for <code>pc-&gt;y</code> will not execute
+until all threads created by <code>pc-&gt;x</code>
+have been tried and failed.
+Those threads all have higher priority than the
+<code>pc-&gt;y</code> thread.
+</p>
+
+<p class=pp>
+The <code>pikevm</code> implementation given above
+does not completely respect thread priority, but it can
+be fixed.
+To make it respect priority, we can make <code>addthread</code>
+handle <code>Jmp</code>, <code>Split</code>, and <code>Save</code>
+instructions by
+calling itself recursively to add the targets of those instructions instead.
+(This makes <code>addthread</code> essentially identical
+to <code>addstate</code> in the first article.)
+This change ensures that <code>clist</code>
+and <code>nlist</code> are maintained in order of thread priority,
+from highest to lowest.
+The processing loop in <code>pikevm</code> thus tries
+threads in priority order, and the aggressive <code>addthread</code>
+makes sure that all threads generated from one priority level
+are added to <code>nlist</code> before considering threads
+from the next priority level.
+</p>
+
+<p class=pp>
+The <code>pikevm</code> changes are motivated by the
+observation that recursion respects thread priority.
+The new code uses recursion while processing a single
+character, so that <code>nlist</code> will be generated
+in priority order, but it still advances threads in lock step
+to keep the good run-time behavior.
+Because <code>nlist</code> is generated in priority order,
+the &ldquo;ignore a thread if the PC has been seen before&rdquo;
+heuristic is safe: the thread seen earlier is higher priority
+and should be the one that gets saved.
+</p>
+
+<p class=pp>
+There is one more change necessary in <code>pikevm</code>:
+if a match is found, threads that occur later in the <code>clist</code>
+(lower-priority ones) should be cut off, but
+higher-priority threads need to be given the chance to match
+possibly-longer sections of the string.
+The new main loop in <code>pikevm</code> looks like:
+</p>
+
+<pre class=p1>
+for(i=0; i&lt;clist.n ;i++){
+    pc = clist.t[i].pc;
+    switch(pc-&gt;opcode){
+    case Char:
+        if(*sp != pc-&gt;c)
+            break;
+        addthread(nlist, thread(pc+1), sp+1);
+        break;
+    case Match:
+        saved = t.saved;  // save end pointer
+        matched = 1;
+        clist.n = 0;
+        break;
+    }
+}
+</pre>
+
+<p class=pp>
+The same changes can be made to <code>thompsonvm</code>,
+but since it does not record submatch locations, the only visible
+effect would be the VM's choice of end pointer when there is a match.
+The changes would make <code>thompsonvm</code> stop at
+the end of the same match that the backtracking implementation
+would have chosen.  This will be useful in the next article.
+</p>
+
+<p class=pp>
+An implementation can use other criteria to cull the thread set,
+by comparing the submatch sets directly.
+The Eighth Edition Unix library used leftmost longest as the criteria,
+to mimic DFA-based tools like awk and egrep.
+</p>
+
+<h2 class=sh id=real>
+Real world regular expressions
+</h2>
+
+<p class=pp>
+Regular expression usage in real programs
+is somewhat more complicated than what the regular expression
+implementations described above can handle.
+This section briefly describes how to accommodate a
+few common constructs.
+</p>
+
+<p class=pp><i>Character classes.</i>
+Character classes
+are typically implemented as a special VM instruction
+rather than expanding them into alternations.
+The sample code linked below implements a special case
+version of this, using an &ldquo;any byte&rdquo; instruction
+for the metacharacter <code>.</code> (dot).
+</p>
+
+<p class=pp><i>Repetition.</i>
+Repetitions often end at a character that cannot
+appear in the repetition.  For example, in
+<code>/[0-9]+:[0-9]+/</code>, the first <code>[0-9]+</code>
+must end at <code>:</code> and the second must end at a non-digit.
+It is possible to introduce one-byte lookaheads to avoid the
+overhead of creating new threads during the repetition.
+This technique is most frequently seen in backtracking implementations,
+which would otherwise create one new thread per character.
+If threads are implemented recursively, then this optimization is
+necessary to avoid stack overflows for simple expressions.
+</p>
+
+<p class=pp><i>Backtracking loops.</i>
+At the beginning of the article, we noted that a naive backtracking
+algorithm could go into an infinite loop searching for <code>(a*)*</code>,
+because of the repeated empty match.
+A simple way to avoid these loops during backtracking
+is to introduce a progress instruction, which says
+that each time the machine executes that instruction it must
+have moved forward since the last time it was there.
+</p>
+
+<p class=pp><i>Alternate program structures for backtracking.</i>
+Another way to avoid loops is to change the
+instruction set to introduce instructions for
+the repetitions.  The implementation of those
+instructions can call the subpieces
+as subroutines, which avoids the infinite loop
+problem and makes it more efficient to implement
+features like counted repetition and assertions.
+Even so, these constructs make the non-recursive implementation
+much harder (more state to keep around like the "old"
+pointer) and preclude the automata techniques behind
+Pike's VM implementation.
+It's also easy for the implementation to get out of
+control though: look at Perl or PCRE or really any other
+&ldquo;full-featured&rdquo; regexp implementation.
+</p.>
+
+<p class=pp><i>Backreferences.</i>
+Backreferences are trivial in backtracking implementations.
+In Pike's VM, they can be accommodated, except that the argument
+about discarding threads with duplicate PCs no longer holds:
+two threads with the same PC might have different capture sets,
+and now the capture sets can influence future execution,
+so an implementation has to keep both threads, a potentially
+exponential blowup in state.
+GNU grep combines both approaches: it rewrites backreferences
+into an approximate regular expression that can be used
+with a DFA (for example, <code>(cat|dog)\1</code> becomes
+<code>(cat|dog)(cat|dog)</code>, which has a different,
+broader meaning than the original) and then the matches
+that the DFA turns up can be checked with the backtracking search.
+</p>
+
+<p class=pp><i>Unanchored matches.</i>
+To implement unanchored matches, many implementations
+try for a match at position 0, then try for a match at position 1,
+and so on.  If the regexp engine scans to the end of the string
+before failing to find a match, wrapping it in this loop makes
+the unanchored search quadratic in the length of the text.
+In VM-based implementations, a more efficient
+way to do an unanchored search is to put the compiled
+code for <code>.*?</code> at the beginning of the program.
+This lets the VM itself implement the unanchored search
+in a single linear-time pass.
+</p>
+
+<p class=pp><i>Character encodings.</i>
+Since the Thompson and Pike VMs work a character at a time,
+never back up, and don't have any tables proportional to
+the size of the character set, it is easy to support alternate
+encodings and character sets, even UTF-8:
+just decode the character in the dispatch loop
+before running that step of the machine.
+These VMs have the property that they only decode
+each character once, which is nice when the decoding
+is complicated (UTF-8 decoding is not terribly expensive,
+but it's also not just a single pointer dereference).
+</p>
+
+<h2 class=sh id=posix>Digression: POSIX Submatching</h2>
+
+<p class=pp>
+The POSIX committee decided that Perl's rules for resolving submatch
+ambiguity were too hard to explain, so they chose new rules that are easier
+to state but turn out to be harder to implement.
+(The rules also make it essentially impossible to define non-greedy operators
+and are incompatible with pre-existing regular expression implementations,
+so almost nobody uses them.)
+Needless to say, POSIX's rules haven't caught on.
+</p>
+
+<p class=pp>
+POSIX defines that to resolve submatches, first chose the match
+that starts leftmost in the string.
+(This is traditional Perl behavior but here things diverge.)
+Among the submatches starting at the leftmost position in the string,
+choose the longest one overall.
+If there are still multiple choices, choose the ones that
+maximize the length of the leftmost element in the regular expression.
+Of the choices remaining, choose the ones that maximize
+the next element in the regular expression.
+And so on.
+In an NFA-based implementation,
+this requires putting extra parentheses around every
+concatenation expression of variable length.
+Then one can merge two threads by choosing the one that is
+&ldquo;better&rdquo; according to the POSIX rules.
+And then there are the rules for repetitions:
+POSIX defines that <code>x*</code> is like <code>(xx*)?</code>,
+where the first <code>x</code> is as long as possible, then the second one is, and so on.
+It is possible to invent contrived examples showing that an NFA must track every possible <code>x</code>
+in the repetition separately in order to merge threads correctly,
+so the amount of per-thread state required for a forward regular expression
+search that maintains states as described above is potentially unbounded.
+</p>
+
+<p class=pp>
+For example, when when matching <code>(a|bcdef|g|ab|c|d|e|efg|fg)*</code>
+against <code>abcdefg</code>, there are three possible ways for
+the star operator to break up the string: <code>a bcdef g</code>, <code>ab c d efg</code>,
+and <code>ab c d e fg</code>.  In Perl, the alternation prefers earlier alternatives,
+choosing the first version—using <code>a</code> in the first
+iteration trumps using <code>ab</code> because <code>a</code> is listed first—so the recorded submatch
+for those parentheses is <code>g</code>.
+In POSIX, the repetition prefers to match the largest possible substring
+in each step, which leads to the second version—using
+<code>ab</code> in the first repetition trumps <code>a</code>, and then
+using <code>efg</code> in the fourth iteration trumps <code>e</code>—so
+the recorded submatch for those parentheses is <code>efg</code>.
+Glenn Fowler has written <a href="http://www2.research.att.com/~gsf/testregex/">a test suite</a>
+for POSIX regular expression semantics, and
+Chris Kuklewicz has written <a href="http://hackage.haskell.org/package/regex-posix-unittest">a more complete test suite</a> that finds
+<a href="http://www.haskell.org/haskellwiki/Regex_Posix">bugs in most implementations</a>.
+</p>
+
+<p class=pp>
+There are two possible ways to avoid the seemingly unbounded tracking of space
+implied by POSIX submatching semantics.
+First, it turns out that matching the regular expression <i>backward</i>
+bounds the bookkeeping to being linear in the size of the regular
+expression.
+<a href="https://swtch.com/~rsc/regexp/nfa-posix.y.txt">This program</a> demonstrates the technique.
+Second,
+Chris Kuklewicz <a href="http://www.haskell.org/pipermail/libraries/2009-March/011379.html">observes</a>
+that <a href="http://laurikari.net/pipermail/tre-general/2007-February/000108.html">it is possible</a>
+to run the machine
+forward in bounded space if the machine regularly
+compares all threads, <a href="http://haskell.org/haskellwiki/RegexpDesign">replacing the submatch data</a> that would
+be used in the event of a collision with an assigned per-thread priority
+(from 1 to <i>n</i>).
+His <a href="http://hackage.haskell.org/package/regex-tdfa">regex-tdfa</a> package
+for Haskell <a href="http://hackage.haskell.org/packages/archive/regex-tdfa/1.1.2/doc/html/src/Text-Regex-TDFA-NewDFA-Engine.html#line-152"><!-- the link is supposed to go to the
+implementation of compressOrbits-->implements this technique</a>.
+</p>
+
+<h2 class=sh id=ahu74>Digression: A Forgotten Technique</h2>
+
+<p class=pp>
+The most interesting technique in this article is the one of
+storing submatch information in the regular expression thread state.
+The earliest instance I know of this technique in a regular expression
+engine is in Rob Pike's <i>sam</i> editor, written around 1985.
+(The modifications to store submatches were contributed by Bruce Janson
+a couple of years after the original implementation.)
+The technique makes a cameo in a textbook in 1974
+but then seems to get lost until its reappearance in <i>sam</i>.
+</p>
+
+<p class=pp>
+In Aho, Hopcroft, and Ullman's 1974 <i>The Design and Analysis of Computer Algorithms</i>,
+Chapter 9 is devoted to &ldquo;Pattern Matching Algorithms.&rdquo;
+There are two interesting exercises in Chapter 9:
+</p>
+
+<blockquote>
+<p>
+9.6  Let <i>x</i> = <i>a</i><sub>1</sub><i>a</i><sub>2</sub>...<i>a</i><sub><i>n</i></sub>
+be a given string and <i>α</i> a regular expression.  Modify Algorithm 9.1
+[the NFA simulation] to find the least <i>k</i> and, having found <i>k</i>, the
+(a) least <i>j</i> and (b) the greatest <i>j</i> such that <i>a</i><sub><i>j</i></sub><i>a</i><sub><i>j</i>+1</sub>...<i>a</i><sub><i>k</i></sub> is in the set
+denoted by <i>α</i>.  [Hint: Associate an integer <i>j</i> with each state in <i>S</i><sub><i>j</i></sub>.]
+</p>
+<p>
+*9.7  Let <i>x</i> and <i>α</i> be as in Exercise 9.6.
+Modify Algorithm 9.1 to find the least <i>j</i>, and having found <i>j</i>, the greatest
+<i>k</i> such that <i>a</i><sub><i>j</i></sub><i>a</i><sub><i>j</i>+1</sub>...<i>a</i><sub><i>k</i></sub> is in the set denoted by <i>α</i>.
+</p>
+</blockquote>
+
+<p class=lp-left>Exercise 9.6 is asking for the shortest match among those
+that end at the earliest possible string location.
+Exercise 9.7 is asking for the longest match among those that start
+at the earliest possible string location—the now standard &ldquo;leftmost longest&rdquo; match.
+In fact, text earlier in the chapter (in section 9.2) all but gave away the answer:</p>
+
+<blockquote>
+<p class=lp-left>
+Various pattern recognition algorithms may be constructed from
+Algorithm 9.1.  For example, suppose we are given a regular expression
+<i>α</i> and a text string <i>x</i> = <i>a</i><sub>1</sub><i>a</i><sub>2</sub>...<i>a</i><sub><i>n</i></sub>,
+and we wish to find the least <i>k</i> such that there exists a
+<i>j</i> &lt; <i>k</i> for which <i>a</i><sub><i>j</i></sub><i>a</i><sub><i>j</i>+1</sub>...<i>a</i><sub><i>k</i></sub>
+is in the set denoted by <i>α</i>.
+Using Theorem 9.2 [the regular expression to NFA construction] we can construct from <i>α</i>
+an NFDFA <i>M</i> to accept the language <i>I</i>*<i>α</i>.
+To find the least <i>k</i> such that <i>a</i><sub>1</sub><i>a</i><sub>2</sub>...<i>a</i><sub><i>k</i></sub> is in <i>L</i>(<i>M</i>), we can insert a test at the end
+of the block of lines 2-12 in Fig 9.11 [after each input character] to see whether
+<i>S</i><sub><i>i</i></sub> contains a state of <i>F</i>.
+We may, by Theorem 9.2, take <i>F</i> to be a singleton, so this test is not
+time-consuming; it is <i>O</i>(<i>m</i>), where <i>m</i> is the number of
+states in <i>M</i>.  If <i>S</i><sub><i>i</i></sub> contains a state of
+<i>F</i>, then we break out of the main loop, having found
+<i>a</i><sub>1</sub><i>a</i><sub>2</sub>...<i>a</i><sub><i>i</i></sub>
+to be the shortest prefix of <i>x</i> in <i>L</i>(<i>M</i>).
+</p>
+<p>
+Algorithm 9.1 can be further modified to produce for each such <i>k</i> the
+greatest <i>j</i> &lt; <i>k</i> (or the least <i>j</i>) such that
+<i>a</i><sub><i>j</i></sub><i>a</i><sub><i>j</i>+1</sub>...<i>a</i><sub><i>k</i></sub>
+is in the set denoted by <i>α</i>.
+This is done by associating an integer with each state in the sets <i>S</i><sub><i>i</i></sub>.
+The integer associated with state <i>s</i> in <i>S</i><sub><i>k</i></sub> indicates
+the greatest <i>j</i> (or least <i>j</i>) such that
+(<i>s</i><sub>0</sub>, <i>a</i><sub><i>j</i></sub><i>a</i><sub><i>j</i>+1</sub>...<i>a</i><sub><i>k</i></sub>) |&ndash;* (<i>s</i>, <i>ε</i>).
+The details of updating these integers in Algorithm 9.1 are left as an exercise.
+</p>
+</blockquote>
+
+<p class=lp-left>As far as I can tell, the technique hinted at in the
+chapter and in the exercise was forgotten until its use in <i>sam</i>, and even then went
+unnoticed for over a decade.
+In particular, neither the exercise nor the technique make any
+appearance in Aho, Hopcroft, or Ullman's later textbooks,
+and the regular expression matcher in <i>awk</i>
+(Aho is the <i>a</i> in <i>awk</i>) uses the naive
+quadratic &ldquo;<a href="http://www.google.com/codesearch/p?hl=en#pFm0LxzAWvs/darwinsource/tarballs/other/awk-2.tar.gz%7CHqXhGAEI5wg/awk-2/b.c&l=475">loop around a DFA</a>&rdquo; to implement
+leftmost-longest matching.)
+</p>
+
+
+<h2 class=sh id=attrib>Digression: &ldquo;Thompson's Algorithm&rdquo;</h2>
+
+<p class=lp-left>The first article in this series <a href="regexp1.html#mcnaughton-yamada-b">explains</a>:
+</p>
+
+<blockquote>R. McNaughton and H. Yamada
+and Ken Thompson
+are commonly credited with giving the first constructions
+to convert regular expressions into NFAs,
+even though neither paper mentions the
+then-nascent concept of an NFA.
+McNaughton and Yamada's construction
+creates a DFA,
+and Thompson's construction creates IBM 7094 machine code,
+but reading between the lines one can
+see latent NFA constructions underlying both.
+</blockquote>
+
+<p class=lp-left>It's interesting to trace the history of how an
+NFA construction has come to be credited to two papers
+that didn't mention NFAs.
+Thompson's paper's only reference to theory is
+the sentence &ldquo;In the terms of Brzozowski [1], this
+algorithm continually takes the left derivative of the given
+regular expression with respect to the text to be searched.&rdquo;
+</p>
+
+<p class=pp>
+It was Aho, Hopcroft, and Ullman's 1974 textbook <i>The Design and
+Analysis of Computer Algorithms</i> that first
+presented the algorithm in terms of automata,
+converting the regular expression to an NFA and then giving
+an algorithm to execute the NFA.
+The Bibliographic Notes at the end of the chapter explain that
+&ldquo;The regular expression
+pattern-matching algorithm (Algorithm 9.1) is an abstraction of an
+algorithm by Thompson [1968].&rdquo;
+</p>
+
+<p class=pp>
+Aho and Ullman's 1977 <i>Principles of Compiler Design</i>
+presents the algorithm to convert regular expressions
+to NFAs without an attribution.  A later discussion about executing
+regular expressions reads:
+</p>
+
+<blockquote>
+The time we spend processing the regular-expression pattern to convert it
+to a form, such as a DFA, suitable for scanning the input line could far exceed
+the actual time spent scanning the line.
+</p>
+<p>
+To make the whole process efficient we must balance the time spent
+processing the pattern and doing the scanning.
+A reasonable compromise, proposed by Thompson [1968],
+is to convert the regular expression to an NFA.
+The process of scanning the input is then one of directly simulating
+the NFA.  As we scan the line, a list of &ldquo;current&rdquo; states
+is kept, beginning with the <i>ε</i>-CLOSURE of the start state.
+If <i>a</i> is the next input character, we create a new list of all states
+with a transition on <i>a</i> from a state of the old list.
+The old list is then discarded and we compute the <i>ε</i>-CLOSURE
+of the new list.
+If the final state is not on the new list, we repeat the process with the next character.
+</p>
+</blockquote>
+
+<p class=lp-left>
+The Bibliographic Notes say &ldquo;Thompson [1968] describes a
+regular-expression recognition algorithm used in the QED text editor.&rdquo;
+</p>
+
+<p class=pp>
+Aho, Sethi, and Ullman's 1986 <i>Compilers: Principles, Techniques, and Tools</i>
+(the Dragon Book) gives the algorithm for converting
+an NFA to a regular expression as
+&ldquo;Algorithm 3.3. (Thompson's construction).&rdquo;
+Algorithm 3.4, &ldquo;Simulating an NFA,&rdquo; is uncredited.
+The Bibliographic Notes read &ldquo;Many text editors use
+regular expressions for context searches.
+Thompson [1968], for example, describes the construction
+of an NFA from a regular expression (Algorithm 3.3) in the context of
+the QED text editor.&rdquo;
+Where the 1974 textbook referred to the construction
+as &ldquo;an abstraction of an algorithm by Thompson,&rdquo;
+the Dragon book simply calls it &ldquo;Thompson's construction.&rdquo;
+The two are easily distinguished.
+If you read past the
+machine code to look at the NFA underneath,
+Thompson's 1968 paper uses one NFA state per literal character,
+union, or star.
+In contrast, the Dragon book presentation uses two states per
+character, union, or star
+and then drops one state per concatenation
+(the 1974 presentation was similar but
+without the concatenation optimization).
+The introduction of all the extra states
+makes the proofs easier but can double the
+number of states to be managed in a practical implementation.
+I have found many papers that use the Dragon book
+construction but cite Thompson's paper instead.
+I've even seen papers that &ldquo;optimize&rdquo;
+Thompson's construction, presenting algorithms that
+post-process the Dragon book algorithm to
+remove the unnecessary states.
+</p>
+
+<p class=pp>
+Aho and Ullman's 1992 <i><a href="http://infolab.stanford.edu/~ullman/focs.html">Foundations of Computer Science</a></i> devotes
+<a href="http://infolab.stanford.edu/~ullman/focs/ch10.pdf">Chapter 10</a> to
+&ldquo;Patterns, Automata, and Regular Expressions,&rdquo;
+giving the now familiar constructions without attribution in the main text.
+The Bibliographic Notes read &ldquo;The construction of nondeterministic automata
+from regular expressions that we used in Section 10.8 is from McNaughton and Yamada [1960]....
+The use of regular expressions as a way to describe patterns in strings
+first appeared in Ken Thompson's QED system (Thompson [1968]), and the
+same ideas later influenced many commands in his UNIX system.&rdquo;
+The reference to McNaughton and Yamada's paper is interesting because,
+like Thompson's, their paper does not mention NFAs either.
+It does give an algorithm for constructing a DFA from a regular
+expression, and that DFA is quite clearly (in hindsight)
+the result of applying the subset construction to the usual NFA,
+but the NFA itself is never mentioned.
+</p>
+
+<p class=pp>
+Hopcroft, Motwani, and Ullman's 2001 <i>Introduction to Automata Theory, Languages, and Computation</i>
+also gives the familiar constructions.
+The References for Chapter 3 reads:
+&ldquo;[The] construction of an <i>ε</i>-NFA from a regular expression,
+as presented here, is the &lsquo;McNaughton-Yamada construction,&rsquo; from [McNaughton and Yamada, 1960].... Even before developing UNIX, K. Thompson was investigating the
+use of regular expressions in commands such as <code>grep</code>, and his
+algorithm for processing such commands appears in [Thompson, 1968].&rdquo;
+The 2007 revision of the textbook left this section unchanged.
+</p>
+
+<p class=pp>
+Aho, Lam, Sethi, and Ullman's 2007 <i>Compilers: Principles, Techniques,
+and Tools (2nd Edition)</i> gives by far the most accurate
+account of the history.
+Where the 1986 book described Algorithm 3.3 as simply
+&ldquo;Thompson's construction,&rdquo;
+the 2007 edition describes the same algorithm
+(now Algorithm 3.23) as &ldquo;The McNaughton-Yamada-Thompson algorithm
+to convert a regular expression to an NFA.&rdquo;
+Then the References for Chapter 3 elaborate:
+</p>
+
+<blockquote>
+McNaughton and Yamada [1960] first gave an algorithm to
+convert regular expressions directly to finite automata.
+Algorithm 3.36 described in Section 3.9 was first used by Aho in creating the
+Unix regular-expression matching tool <code>egrep</code>.
+This algorithm was also used in the regular-expression
+pattern matching routines in <code>awk</code> [Aho, Kernighan, and Weinberger, 1988].
+The approach of using nondeterministic automata as
+intermediary is due Thompson [1968].
+The latter paper also contains the algorithm for
+direct simulation of nondeterministic finite automata
+(Algorithm 3.22), which was used by Thompson in the
+text editor <code>QED</code>.
+</blockquote>
+
+<p class=pp>By the way,
+Brzozowski's approach, cited by Thompson, fell out of
+favor and was largely ignored for many years,
+but Owens, Reppy, and Turon's excellent paper &ldquo;<a href="http://www.cl.cam.ac.uk/~so294/documents/jfp09.pdf">Regular-expression derivatives reexamined</a>&rdquo;
+(JFP, 19(2), March 2009)
+points out that the approach works even better than
+automata in languages with good support for
+symbolic manipulation.
+</p>
+
+<h2 class=sh id=impl>
+Implementations
+</h2>
+
+<p class=pp>
+See <a href="regexp1.html#History">the previous article</a> for detailed history.
+The source code for this article is available at
+<a href="https://github.com/rsc/re1/>https://github.com/rsc/re1/</a>.
+</p>
+
+<p class=pp>
+For a tour through the guts of a modern  backtracking engine,
+see Henry Spencer's chapter &ldquo;A Regular-Expression Matcher&rdquo; in
+the book
+<i>Software Solutions In C</i>, Dale Schumacher, ed., Academic Press, 1994.
+</p>
+
+<h2 class=sh id=summary>
+Summary
+</h2>
+
+<p class=pp>
+Thinking about regular expressions as programs for a virtual machine
+is a useful abstraction: a single regular expression parser can
+compile the regular expression into byte codes, and then
+different implementations can be used to execute the byte codes,
+depending on the context.
+Automata-based implementations can track submatch boundaries
+and get the same answers as a traditional backtracking implementation,
+with a guaranteed linear run time.
+</p>
+
+<p class=pp>
+Thanks to Alex Healy and Chris Kuklewicz for helpful discussions
+about Perl and POSIX submatch semantics.
+</p>
+
+<p class=lp>
+P.S. If you liked reading this, you might also be interested to read
+Roberto Ierusalimschy's paper &ldquo;<a href="http://www.inf.puc-rio.br/%7Eroberto/docs/peg.pdf">A Text Pattern-Matching Tool based on Parsing
+Expression Grammars</a>,&rdquo; which uses a similar approach
+to match <a href="http://en.wikipedia.org/wiki/Parsing_expression_grammar">PEGs</a>.
+</p>
+
+<p class=lp>
+The next article in this series is &ldquo;<a href="regexp3.html">Regular Expression Matching in the Wild</a>,&rdquo; a tour of a production implementation.
+</p>
+
+<h2 class=sh id=ref>
+References
+</h2>
+
+
+<p class=lp-left>
+<a name=pike></a>
+[<a href="#pike-b">1</a>]
+Rob Pike,
+&ldquo;The text editor sam,&rdquo;
+Software&mdash;Practice & Experience 17(11) (November 1987), pp.&nbsp;813&ndash;845.
+<a href="http://plan9.bell-labs.com/sys/doc/sam/sam.html"><i>http://plan9.bell-labs.com/sys/doc/sam/sam.html</i></a>
+</p>
+
+<p class=lp-left>
+<a name=thompson></a>
+[<a href="#thompson-b">2</a>]
+Ken Thompson,
+&ldquo;Regular expression search algorithm,&rdquo;
+Communications of the ACM 11(6) (June 1968), pp.&nbsp;419&ndash;422.
+<a href="http://doi.acm.org/10.1145/363347.363387"><i>http://doi.acm.org/10.1145/363347.363387</i></a>
+(<font size=-1><a href="http://www.cs.chalmers.se/~coquand/AUTOMATA/thompson.pdf">PDF</a></font>)
+</p>
+
+<center>
+<p class=copy>
+Copyright &copy; 2009 Russ Cox.  All Rights Reserved.
+<br>
+<a href="https://swtch.com/~rsc/regexp/">https://swtch.com/~rsc/regexp/</a>
+</p>
+</center>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3319603-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+</body>
+</html>
+
+

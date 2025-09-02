@@ -26,7 +26,7 @@ the complement of a [[formal language]] is with respect to the Kleene closure of
 
 **notation** _concatenation_ typically one of $uv$, $u \cdot v$, see [[list#concatenation]]
 
-**notation** _alternation_ typically one of $u \mid v$, $u + v$, $u \cup v$, see [[set#union]]
+**notation** _alternation_ typically one of $u | v$, $u + v$, $u \cup v$, see [[set#union]]
 
 **notation** _intersection_ typically one of $u \& v$, $u \cap v$, see [[set#intersection]]
 
@@ -38,7 +38,7 @@ the complement of a [[formal language]] is with respect to the Kleene closure of
 
 the class of regular languages is closed under Kleene closure, Kleene plus, [[set#complementation]], [[set#union]], [[set#intersection]], [[set#difference]], concatenation and reversal
 
-**theorem** _Kleene's theorem_ [[finite acceptor]]s, [[regular expression]]s and [[formal language#regular grammar]]s have the same expression power
+**theorem** _Kleene's theorem_ [[finite acceptor]]s, [[regular expression]]s and [[formal language#regular grammar]]s have the same expressive power
 
 > **procedure** _conversions for Kleene's theorem_
 >
@@ -48,9 +48,11 @@ the class of regular languages is closed under Kleene closure, Kleene plus, [[se
 
 > **proof** a finite language can be described by a [[regular expression]] as the alternation of all its words
 
-**theorem** _pumping lemma for regular languages_ for any regular language $L$, there exists a $p$ such that any word $w \in L$ with $|w| \geq p$ can be split into three parts $w = xyz$ such that $|xy| \leq p$ and $|y| \ne 0$ and $xy^nz \in L$ for all $n \in \mathbb N$
+**theorem** _pumping lemma for regular languages_ for any regular language $L$, there exists a $p$ such that any word $w \in L$ with $|w| \geq p$ can be split into three parts $w = xyz$ that satisfy $|y| \ne 0$ and $|xy| \leq p$ and $xy^nz \in L$ for all $n$
 
-> **note** intuitively, the pumping lemma states that all sufficiently long words of a regular language may be "pumped" (there exists a [[substring]] that, when repeated any number of times, produces another word in the language)
+**theorem** _pumping lemma for regular languages_ $\forall \mathrm{regular}\ L.\ \exists p.\ \forall w \in L, |w| \geq p.\ \exists xyz = w.\ |y| \ne 0 \land |xy| \leq p \land \forall n.\ xy^nz \in L$
+
+> **note** intuitively, the pumping lemma states that any sufficiently long word of a regular language can be "pumped" (the word has a non-empty [[substring]] that, when repeated any number of times, produces another word in the language)
 
 > **example** the [[set]] of all [[string]]s of [[prime]] [[list#length]] is not a [[formal language#regular formal language]] --- me
 >
@@ -98,6 +100,8 @@ link with [[prefix notation]], [[postfix notation]], [[syntax tree]]
 #xxx another useful table <https://en.wikipedia.org/wiki/Automata_theory#Types_of_automata>
 
 "meta-rules" for regular/context-free/context-sensitive grammars: <https://youtu.be/ENKT0Z3gldE?t=408>
+
+other resource on production rules for different classes of grammars: <https://esolangs.org/wiki/Formal_grammar>
 
 #xxx these are prof course notes, maybe useful? <https://www.cs.odu.edu/~toida/nerzic/390teched/web_course.html>
 

@@ -1,6 +1,6 @@
 # Interleaving
 
-_[[learning]] by forcing us to understand instead of memorizing_
+_[[learn]]ing by forcing us to understand instead of memorizing_
 
 **see** [[active recall]], [[spaced repetition]]
 

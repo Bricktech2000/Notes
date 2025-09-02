@@ -12,9 +12,9 @@ _assembly with syntactic sugar and undefined behavior_
 
 > **resource** _"New" Features in C_ by Dan Saks, a firehose of modern C features --- <https://youtu.be/ieERUEhs910>
 
-> **resource** ISO/IEC 9899:TC3, WG14/N1256 --- <https://www.open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf>
+> **resource** ISO/IEC 9899:TC3, WG14/N1256 --- [[n1256.pdf]] --- <https://www.open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf>
 
-> **resource** C99 Rationale --- <https://open-std.org/JTC1/SC22/WG14/www/C99RationaleV5.10.pdf>
+> **resource** C99 Rationale --- [[C99RationaleV5.10.pdf]] --- <https://open-std.org/JTC1/SC22/WG14/www/C99RationaleV5.10.pdf>
 
 what makes [[c]] timeless is not its simplicity; it's its [[durability]]. most constructs in [[c]] map trivially into assembly, which, in turn, maps trivially into machine code. in other words, there is a strong correspondence between the features of [[c]] and the fundamental ideas governing the design of processors and instruction sets. for this reason, [[programming language]]s that proudly claim to have the simplicity of [[c]]---like [[go]] does---should raise red flags
 
@@ -163,7 +163,7 @@ U"foo" // char32_t[6]
 >
 > > **note** `size_t zero(int a[10]) { return memset(a, 0, sizeof(a)); }` won't work because `a` decays to a pointer, but `size_t zero(int (*a)[10]) { return memset(a, 0, sizeof(*a)); }` will
 
-`sizeof char` is `1`, and the size of the other integer data types is implementation defined and is available in `limits.h`. each has a standard-imposed minimum magnitude; see ISO/IEC 9899:TC3, Annex E, paragraph 1. actual-width integers such as `uint32_t` and widest integer types `uintmax_t` and `intmax_t` are available in `stdint.h` and `inttypes.h`
+`sizeof char` is `1`, and the size of the other integer data types is implementation defined and is available in `limits.h`. each has a standard-imposed minimum magnitude; see ISO/IEC 9899:TC3, Annex E, paragraph 1. actual-width integers such as `uint32_t` and `int32_t`, greatest-width integer types such as `uintmax_t` and `intmax_t`, minimum-width integer types such as `uint_least32_t` and `int_least32_t`, fastest minimum-width integer types such as `uint_fast32_t` and `int_fast32_t`, and integer types capable of holding object pointers, `intptr_t` and `uintptr_t`, are available in `stdint.h` and `inttypes.h`
 
 _wraparound_ (which is specific to unsigned integers) has well-defined behavior in [[c]]. values are reduced modulo the number that is one greater than the largest value that can be represented by the resulting type. however, _overflow_ (which is specific to signed integers) has [[c#undefined behavior]]
 
@@ -226,7 +226,7 @@ as a rule of thumb, read declarators from the inside out, at each level moving r
 
 > **example** `void *(*c)(char, int (*)(void));` --- `c` is a pointer to a function that takes a `char` and {a pointer to a function that returns an `int`} and returns a pointer to `void` --- <https://www.codeproject.com/Articles/7042/How-to-interpret-complex-C-C-declarations>
 
-> **example** in `const char *foo;` the pointer is constant while in `char *const foo` the pointee is constant
+> **example** in `const char *foo;` the pointee is constant while in `char *const foo` the pointer is constant
 
 ## initialization
 

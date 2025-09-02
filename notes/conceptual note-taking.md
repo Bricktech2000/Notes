@@ -10,7 +10,7 @@ atomicity allows for the **efficient reorganization** of continually evolving [[
 
 [[conceptual note-taking]] encourages [[generalism]] by avoiding the need for "disciplines", which are, in essence, arbitrary lines that hinder serendipitous discovery
 
-[[conceptual note-taking]] builds a strong, permanent [[knowledge]] base that offers **great support** when [[learning]] new [[concept]]s and serves as a foundation for coming up with **novel ideas**
+[[conceptual note-taking]] builds a strong, permanent [[knowledge]] base that offers **great support** when [[learn]]ing new [[concept]]s and serves as a foundation for coming up with **novel ideas**
 
 through some pseudo-[[frequency illusion]], writing a note about a [[concept]] leads to "noticing it everywhere". at times, it feels like true wisdom to **see so clearly** what was once invisible
 

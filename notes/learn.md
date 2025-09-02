@@ -1,4 +1,4 @@
-# Learning
+# Learn
 
 **see** [[memory]], [[invest]], [[durability]], [[fossilization]]
 
@@ -10,15 +10,15 @@
 
 > **resource** _Guessing the Teacher's Password_, on the distinction between _passwords_ and _explanations_ --- <https://www.readthesequences.com/Guessing-The-Teachers-Password>
 
-[[learning]] requires **repeated attempts** and **deliberate practice** in a _high-validity environment_, which means: --- [[6854a88e-e810-8008-a280-e93598dd7b91]]
+[[learn]]ing requires **repeated attempts** and **deliberate practice** in a _high-validity environment_, which means: --- [[6854a88e-e810-8008-a280-e93598dd7b91]]
 
 - [[cue]]s reliably correlate with outcomes
 - consistent statistical regularities exist
 - feedback is accurate and timely
 
-> **example** it shouldn't be so surprising people can measure bolts by eye because it checks all the boxes of a highly learnable skill
+> **example** it shouldn't be so surprising people can measure bolts by eye because it checks all the boxes of a highly [[learn]]able skill
 
-sometimes you can conjure up [[learning]] out of thin air just by giving yourself access to timely feedback
+sometimes you can conjure up [[learn]]ing out of thin air just by giving yourself access to timely feedback
 
 > **example** read your grocery receipts right before putting groceries away (an example of _[[habit]] stacking_) to get better at predicting where your [[money]] is going
 

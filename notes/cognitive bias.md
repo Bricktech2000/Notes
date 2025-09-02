@@ -24,7 +24,7 @@ _a systematic pattern of deviation from norm or rationality in judgment_
 
 [[dunning--kruger effect]]
 
-[[correlation implies causation]]
+[[false cause]]
 
 [[anchoring effect]]
 
