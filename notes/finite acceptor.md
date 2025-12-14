@@ -35,4 +35,6 @@ a _generalized NFA_ or _GNFA_ is a finite acceptor whose transitions are labeled
 
 **definition** a deterministic [[finite acceptor]] is called _minimal_ if it has the minimum number of states needed to recognize its language --- <https://en.wikipedia.org/wiki/DFA_minimization>
 
-_minimization_ is performed by merging _indistinguishable_ states --- <https://www.youtube.com/watch?v=7W2lSrt8r-0>. a pair of states is indistinguishable if and only if they are either both or neither final and their transitions are equal up to target state indistinguishability. minimal deterministic [[finite acceptor]]s are unique up to state renumbering
+_minimization_ is performed by merging _indistinguishable_ states --- <https://www.youtube.com/watch?v=7W2lSrt8r-0>. two states are indistinguishable if and only if they are either both or neither final and, were both states assumed indistinguishable, their transitions would be equal up to target state indistinguishability. minimal deterministic [[finite acceptor]]s are unique up to state renumbering
+
+> **note** the _were both states assumed indistinguishable_ bit is important: indistinguishable states get merged, so it doesn't matter whether a transition goes to one of the two states or the other

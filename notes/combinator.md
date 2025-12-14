@@ -1,6 +1,6 @@
 # Combinator
 
-**definition** a _combinator_ is a closed [[lambda-calculus]] term --- <https://youtu.be/seVSlKazsNk>
+**definition** a _combinator_ is a closed [[lambda-calculus]] term --- <https://youtu.be/seVSlKazsNk> and <https://youtu.be/VrRVqHvy4PQ?t=422>
 
 **properties**
 
@@ -184,7 +184,7 @@ the [[combinator#y combinator]] lets us use recursion in [[programming language]
 
 **definition** _in the [[lambda-calculus]]_ $Y = \lambda f.\ (\lambda x.\ f\ (x\ x)) (\lambda x.\ f\ (x\ x))$
 
-> **example** $\mathrm{fact} = Y\ (\lambda f\ n.\ (\mathrm{is0}\ n)\ 1\ (\mathrm{mul}\ n\ (f\ (\mathrm{pred}\ n))))$ --- <https://crypto.stanford.edu/~blynn/lambda/>
+> **example** $\mathrm{fact} = Y\ (\lambda f\ n.\ (\mathrm{is0}\ n)\ 1\ (\mathrm{mul}\ n\ (f\ (\mathrm{pred}\ n))))$ --- <https://crypto.stanford.edu/~blynn/lambda/> and <https://youtu.be/VrRVqHvy4PQ>
 
 --- <https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator>
 

@@ -18,7 +18,7 @@ the core ideas of [[type-driven design]] are (1) write [[function#total function
 - _make invalid states unrepresentable_ --- Yaron Minsky. _avoid denormalized representations of data, especially if it's mutable. duplicating the same data in multiple places introduces a trivially representable illegal state: the places getting out of sync_ --- Alexis King
 - use `newtype`s extensively and avoid "primitive obsession": URLs and email addresses are not `String`s, and custommer IDs are not `int`s. you can't send an email to a URL and you can't take the square root of a customer ID. --- <https://youtu.be/2JB1_e5wZmU?t=1838>
 
-with [[type-driven design]], band-aids like apps [[hungarian notation]] (prepending onto [[variable]] names information not available in their [[type]]) and _negative-space programming_ (placing assertions throughout your code so it fails fast and early) become unnecessary
+with [[type-driven design]], band-aids like apps [[hungarian notation]] (prepending onto [[variable]] names extra semantic information not available in their [[type]]) and _negative-space programming_ (placing assertions throughout your code so it fails fast and early) become unnecessary
 
 here's a fun one, _shotgun parsing_:
 

@@ -58,7 +58,7 @@ def fib(n):
   return a + b
 ```
 
-> **note** the key here is that [[matrix#multiplication]] is a [[monoid]], and is thus associative: not only can you iterate a [[linear map]] on a base case, you can also compose [[linear map]]s together into new [[linear map]]s that are no more expensive to iterate
+> **note** the key here is that [[matrix#multiplication]] is associative: not only can you iterate a [[linear map]] on a base case, you can also compose [[linear map]]s together into new [[linear map]]s that are no more expensive to iterate
 
 ### ---
 
@@ -68,4 +68,6 @@ def fib(n):
 
 --- <https://youtu.be/LXm6ygZ3h7A>
 
---- <https://gmplib.org/manual/Fibonacci-Numbers-Algorithm>
+--- [[Fibonacci Numbers Algorithm (GNU MP 6.3.0).html]] --- <https://gmplib.org/manual/Fibonacci-Numbers-Algorithm>
+
+--- [[Fibonacci Numbers - Algorithms for Competitive Programming.pdf]] --- <https://cp-algorithms.com/algebra/fibonacci-numbers.html>

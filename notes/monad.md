@@ -52,6 +52,22 @@ _composes two diagonal [[function]]s into a single diahonal [[function]]_
 
 diagonal [[function]]s of [[type]] `a -> m a` with the [[monad#kleisli composition]] form a [[monoid]] whose [[monoid#identity element]] is the [[applicative#pure]] function
 
+### as a category
+
+--- <https://wiki.haskell.org/index.php?title=Monad_laws#Is_that_really_an_%22associative_law%22?>
+
+diagonal [[function]]s of [[type]] `a -> m b` with the [[monad#kleisli composition]] form a [[category]] whose [[category#identity morphism]]s are [[applicative#pure]] functions
+
+when stating the [[monad#laws]] using [[monad#kleisli composition]]s, we get exactly the [[category]] laws:
+
+```haskell
+return >=> h = h -- left identity
+f >=> return = f -- right identity
+(f >=> g) >=> h = f >=> (g >=> h) -- associativity
+```
+
+_Monad axioms: Kleisli composition forms a category._ --- haiku --- <https://wiki.haskell.org/index.php?title=Monad_laws>
+
 ## Transformer
 
 monad transformer #todo <https://en.wikipedia.org/wiki/Monad_transformer> and <https://en.wikibooks.org/wiki/Haskell/Monad_transformers>

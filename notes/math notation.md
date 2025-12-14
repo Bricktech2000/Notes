@@ -302,7 +302,7 @@ if **`\*`** is an [[operator]] with _transitive associativity_, then **`a \* b \
 | definition of [[complex]] numbers            | **`CC x == x = a : bii /\ RR {a /\ b}`**   | $\displaystyle \mathbb C = \{a + bi : a, b \in \mathbb R\}$                                              |
 | the [[gaussian function]]                    | **`G^ss p = -- ss \tt/ -- [:p2 -- 2ss2]`** | $\displaystyle G(x, y, \dots) = \frac{1}{\sqrt{2 \pi\sigma^2}} e^{-\frac{x^2 + y^2 + \dots}{2\sigma^2}}$ |
 | [[limit]] form of a [[derivative]]           | **`f x . f a -- x . a {x -> a}`**          | $\displaystyle \lim_{h \rightarrow 0} \frac{f(x + h) - f(x)}{h}$                                         |
-| definition of factorials                     | **`"fact" n = 1 \| ... n`**                | $\displaystyle n! = \prod_{i = 1}^n i$                                                                   |
+| definition of factorials                     | **`"fact" n = 1 \| ... n`**                | $\displaystyle n! = \prod_{i=1}^n i$                                                                     |
 | the resonant [[frequency]] of an LC circuit  | **`f = -- tt \"LC"/`**                     | $\displaystyle f = \frac{1}{2 \pi \sqrt{LC}}$                                                            |
 | definition of the [[dot product]]            | **`:xy`**                                  | $\displaystyle x \cdot y  = \sum_{i=1}^n x_i y_i$                                                        |
 | definition of the [[matrix#trace]]           | **`:{A *}`**                               | $\displaystyle \mathrm{tr}(A) = \sum_{i=1}^n A_{ii}$                                                     |

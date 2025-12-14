@@ -41,3 +41,5 @@ _a finite answer to an infinite number of questions_ --- Stephen Kleene
 [[huffman coding]]
 
 [[karatsuba algorithm]]
+
+[[minimax]]

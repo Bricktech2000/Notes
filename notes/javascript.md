@@ -61,6 +61,8 @@ weak equality is **not** a [[relation#transitive relation]] in [[javascript]] --
 > a == c; // false
 > ```
 
+[[javascript]] uses [[ieee 754]] NaN for all sorts of error conditions outside the scope of the standard, like `'foo' / 'bar'` or `parseInt('foobar')`. [[ieee 754]] is not to blame for [[javascript]]'s infamous NaN poisoning. --- <https://youtu.be/55tmW2_TROs?t=773>
+
 ### ---
 
 --- <https://youtu.be/5wnlYIQKPXM>

@@ -20,16 +20,16 @@ some useful bindings not present in the quickref:
 - `:u!<cr>` --- undo one change and remove it from the [[undo tree]]
 - `:undol<cr>` --- list all leafs in the [[undo tree]]
 - `Q` --- replay last recorded macro (Neovim only)
-- `q:` - `q/` --- open the command-line window
+- `q:` - `q/` - c`<c-f>` --- open command-line window
 - `@:` --- repeat the last command-line
 - `gi` --- resume insert at the position the last insert was stopped
-- i`<c-e>` --- abort an autocompletion (see `:h ins-compl` and `:h popupmenu`)
-- i`<c-y>` --- accept an autocompletion (see `:h ins-compl` and `:h popupmenu`)
+- i`<c-e>` --- abort an autocompletion (see `|ins-compl|` and `|popupmenu|`)
+- i`<c-y>` --- accept an autocompletion (see `|ins-compl|` and `|popupmenu|`)
 - `gF` --- edit the file under the cursor at the line specified
 - `<c-w>F` --- `gF` but in new window
-- `gx` --- open the file under the cursor in external program (requires netrw)
+- `gx` --- _netrw_ open the file under the cursor in external program
 - `:cr<cr>` --- rewind to the first quickfix item
-- `:cope<cr>` - `:ccl<cr>` --- open/close the quickfix window
+- `:cope<cr>` - `:ccl<cr>` --- open/cloe the quickfix window
 - `:cpf<cr>` - `:cnf<cr>` --- `:cn<cr>`/`:cp<cr>` until a new file is hit
 - `:chi<cr>` --- display the quickfix list history
 - `:col<cr>` - `:cnew<cr>` --- go to an older/newer quickfix list in the history
@@ -42,18 +42,41 @@ some useful bindings not present in the quickref:
 - `gn` - `gN` --- select next/previous match, applying an operator if one is pending
 - o`v` --- when motion is charwise, toggle inclusive/exclusive
 - i`<c-x><c-e>` - i`<c-x><c-y>` --- scroll from within insert mode
-- i`<c-x><c-l>` --- autocomplete the entire line, modulo indent
+- i`<c-x><c-l>` --- autocomplete the entire line, ignoring indent
+- i`<c-x><c-l>` --- after `<c-x><c-l>`, autocomplete subsequent lines
 - i`<c-x><c-f>` --- autocomplete from filenames in working directory
 - i`<c-x><c-n>` - i`<c-x><c-p>` --- after `<c-n>`/`<c-p>`, autocomplete subsequent words
 - i`<c-x><c-i>` - i`<c-x><c-d>` --- autocomplete from occurrences/definitions across includes
 - `[i` - `[d` --- display first occurrence/definition of word under cursor across includes
 - `[I` - `[D` --- display all occurrences/definitions of word under cursor across includes
 - `[<c-i>` - `[<c-d>` --- go to first occurrence/definition of word under cursor across includes
+- `]<c-i>` - `]<c-d>` --- go to next ccurrence/definition of word under cursor across includes
 - `<c-w>i` - `<c-w>d` --- `[<c-i>`/`[<c-d>` but in new window
 - `1gd` - `1gD` --- `gd`/`gD` but ignore `{}` blocks before the cursor
 - v`zy` - `zp` --- yank/paste a block, removing trailing spaces
 - c`<c-n>` - c`<c-p>` --- recall next/previous command line
 - `:mes<cr>` --- view message history
+- i`<c-g>k` - i`<c-g>j` --- go to the column where insert was started, one line up/down
+- `[%` - `]%` --- _matchit.vim_ jump to beginning/end of `%`able group
+- `g%` --- _matchit.vim_ cycle backward through `%`able groups
+- `zs` - `ze` - scroll so the cursor is on the left/right of the window
+- `N <c-w>q` --- quit Nth window
+- `:tabs<cr>` --- list open tabpages
+- `:tabe<cr>` --- open new blank tabpage
+- `<c-w>T` --- move current window to new tabpage
+- `<c-w>gf` - `<c-w>gF` --- `gf`/`gF` but in new tabpage
+- `:tabe FILE<cr>` - `:tabf FILE<cr>` --- `:e FILE<cr>`/`:fin FILE<cr>` but in new tabpage
+- `:tab CMD<cr>` --- run `CMD` but open tabpages instead of windows
+- `:tabc<cr>` --- close the current tabpage
+- `:tabo<cr>` --- close all tabpages but the current one
+- `gt` - `gT` - `N gt` --- go to next/previous/Nth tabpage
+- `g<tab>` - `<c-w>g<tab>` --- toggle between two most recent tabpages
+- `:diffs FILE<cr>` --- open `FILE` in new window and enable diff mode
+- `:diffp PATCH<cr>` --- apply `PATCH` in new window and enable diff mode
+- `:difft<cr>` - `:diffo<cr>` --- add/remove current window to/from the diff windows
+- `:diffo!<cr>` --- switch off diff mode for all windows of current tabpage
+- `[c` - `]c` --- jump to previous/next diff change
+- `N do` - `N dp` --- obtain/put a diff change from/to buffer number N
 
 useful shell bindings spread a little all over the quickref:
 
@@ -84,6 +107,7 @@ some "compound" bindings to be treated as units for [[procedural memory]]:
 - `<cr>;` - `-;` --- repeat last `f`/`t` search on the next/previous line
 - `gon` - `GN` --- repeat last `/`/`?` search from the start/end of the buffer
 - `<c-o><c-w>^` --- reopen just-opened buffer in new window instead
+- `<space><bs>` - `<bs><space>` --- set curswant to the current column number
 
 some small tricks and workflows I use:
 
@@ -95,7 +119,7 @@ some small tricks and workflows I use:
 - grep recursively from the working directory with `:vim/`_re_`/**<cr>`; matches are put in the quickfix list
   > **note** turn `:fin` into a fuzzy finder with `set wildmenu path+=**` --- <https://youtu.be/XA2WjJbmmoM?t=6m44s>
 - when it exists, print the digraph for the character under the cursor using `ga`
-  > **note** useful digraphs worth memorizing: `“”‘’…•‾–—   §¶ °′″‴ ×÷−±√≈≡≤≥≮≯≠∞ ∫∏∑∂∆∇αβγ ∃∀∧∨¬∈∋∅ ½⅔¾₀₁₂₊₋₍₎⁰¹²⁺⁻⁽⁾ⁿ`
+  > **note** useful digraphs worth memorizing: `“”‘’…•‾–—   §¶ °′″‴ ×÷−±√≈≡≤≥≮≯≠∞∝ ∫∏∑∂∆∇αβγ ∃∀∧∨¬∈∋∅ ½⅔¾₀₁₂₊₋₍₎⁰¹²⁺⁻⁽⁾ⁿ`
 - if `'noruler'` is set, query the cursor position with `<c-g>`
 - query the word count for a selection and for an entire buffer with `g<c-g>`
 - append a suffix to the end of a range of lines with `<c-v>`_selection_`$A`_suffix_`<esc>`
@@ -108,5 +132,10 @@ some small tricks and workflows I use:
 - jump to a URL or path on the current line with `f/` and `F/` --- slashes are uncommon and URLs and paths usually contain them
 - use undos from within insert mode by marking undo points with `<c-g>u` and undoing with `<c-o>u`. delete all entered characters with `<c-u>`
 - temporarily isolate a window with `<c-w>|`/`<c-w>_` then revert to equal window size with `<c-w>=`
+- insert something of the form _first second first third_ using `i`_first_`<esc>a`_second_`<c-a>`_third_
+- repeat a change with a different motion using `c`_motion_ _replacement_ then `c`_motion_`<c-a>`
+- fill out one cell of a plaintext table with `R`_cell contents_ then move to the next cell up/down with `<c-g>k`/`<c-g>j`
+- perform a `*` without clobbering the last search with `]<tab>` aka `]<c-i>`
+- set curswant to the current column number by hitting `<space>` and `<bs>` simultaneously
 
 Vim patterns support a `\&` [[operator]] that may look like [[regular expression]] intersection, but unfortunately it's just a lookahead because the subpattern matches are not required to end at the same positions. what a shame

@@ -13,4 +13,4 @@ a key idea is that the [[brain]] is a general-purpose computing device: _whateve
 > - <https://youtu.be/4c1lqFXHvqI> (David Eagleman on TED)
 > - BrainPort (maps visual information to a tactile grid on the tongue)
 > - <https://youtu.be/vBUp2dJDEKc> (Sapien LLC's Cthulhu Shield)
-> - binocular hexachromacy (feeding each eye different [[color]] information) --- me
+> - binocular hexachromacy (feeding each eye independent [[color]] information) --- me

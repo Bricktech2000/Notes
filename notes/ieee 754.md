@@ -6,9 +6,15 @@
 
 > **resource** parody of the [[ieee 754]] standard by tom7 --- [[nand.pdf]] --- <http://tom7.org/nand/nand.pdf>
 
-[[ieee 754]] defines arithmetic formats, interchange formats, rounding rules, operations, and [[exception]] handling for [[floating-point number]] arithmetic --- <https://en.wikipedia.org/wiki/IEEE_754>. it is the standard for [[floating-point number]] arithmetic used by most modern computers
+[[ieee 754]] defines arithmetic formats, interchange formats, rounding rules, operations, and exception handling for [[floating-point number]] arithmetic --- <https://en.wikipedia.org/wiki/IEEE_754>. it is the standard for [[floating-point number]] arithmetic used by most modern computers
 
-**properties** --- <http://tom7.org/nand/nand.pdf> and <https://youtu.be/Ae9EKCyI1xU?t=272> and Effective C, p. 47
+[[ieee 754]] perfectly specifies $+$, $-$, $\times$, $\div$, $\sqrt \cdot$ and $\cdot \times \cdot + \cdot$ (fused multiply-add)---they behave as if performed [[under]] infinite precision then rounded back at the end, according to the current rounding mode. any other operations are not strictly portable. --- IEEE Std 754-2008 and <https://youtu.be/gmAgvHaw9w4?t=995> and <https://youtu.be/gmAgvHaw9w4?t=2243> and <https://stackoverflow.com/questions/42181795/is-ieee-754-2008-deterministic>
+
+[[ieee 754]] specifies four rounding modes: _roundTiesToEven_ `RN`, _roundTowardNegative_ `RD`, _roundTowardPositive_ `RU` and _roundTowardZero_ `RZ` --- IEEE Std 754-2008. _roundTiesToEven_ `RN` is the default and most [[programming language]]s don't support changing it --- <https://youtu.be/gmAgvHaw9w4?t=1069>. in [[c]], the functions `fegetround` and `fesetround` provide control of rounding modes; they can only be called under `#pragma STDC FENV_ACCESS ON`, otherwise the behavior is [[c#undefined behavior]] --- ISO/IEC 9899:TC3, $7.6 'Floating-point environment \<fenv.h\>'
+
+> **resource** "semifloats" by l-m, on using _error-free transforms (EFTs)_ to implement `RD`, `RU` and `RZ` in terms of `RN`, with performance on the order of hardware floats --- <https://youtu.be/gmAgvHaw9w4?t=1555>
+
+**properties** --- <http://tom7.org/nand/nand.pdf> and <https://youtu.be/Ae9EKCyI1xU?t=272> and Effective C, p. 47 and <https://youtu.be/gmAgvHaw9w4?t=959>
 
 _equality is not a [[relation#reflexive relation]]_ `NAN != NAN`
 

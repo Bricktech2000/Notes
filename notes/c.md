@@ -10,6 +10,10 @@ _assembly with syntactic sugar and undefined behavior_
 
 > **resource** _How I program [[c]]_ by Eskil Steenberg, good opinions on [[c]] and on [[software engineering]] --- <https://youtu.be/443UNeGrFoM>
 
+> **resource** <https://www.dependablec.org/> by Eskil Steenberg, especially sections _Undefined behavior_, _Dependable UB_, _Effective type aliasing_, _Memory debugger_
+
+> **resource** _Dangerous Optimizations in C and C++_ by Robert C. Seacord, another good introduction to [[c#undefined behavior]] --- <https://youtu.be/2KZgFiciOxY>
+
 > **resource** _"New" Features in C_ by Dan Saks, a firehose of modern C features --- <https://youtu.be/ieERUEhs910>
 
 > **resource** ISO/IEC 9899:TC3, WG14/N1256 --- [[n1256.pdf]] --- <https://www.open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf>
@@ -161,7 +165,7 @@ U"foo" // char32_t[6]
 
 > **note** generally, prefer `struct s *p = malloc(sizeof(*p));` to `struct s *p = malloc(sizeof(struct s));` when using `sizeof` --- <https://www.kernel.org/doc/Documentation/process/coding-style.rst> "Linux kernel coding style", $14 'Allocating memory', and <https://youtu.be/443UNeGrFoM?t=1h3m57s>
 >
-> > **note** `size_t zero(int a[10]) { return memset(a, 0, sizeof(a)); }` won't work because `a` decays to a pointer, but `size_t zero(int (*a)[10]) { return memset(a, 0, sizeof(*a)); }` will
+> > **note** `void zero(int a[10]) { memset(a, 0, sizeof(a)); }` won't work because `a` decays to a pointer, but `void zero(int (*a)[10]) { memset(a, 0, sizeof(*a)); }` will
 
 `sizeof char` is `1`, and the size of the other integer data types is implementation defined and is available in `limits.h`. each has a standard-imposed minimum magnitude; see ISO/IEC 9899:TC3, Annex E, paragraph 1. actual-width integers such as `uint32_t` and `int32_t`, greatest-width integer types such as `uintmax_t` and `intmax_t`, minimum-width integer types such as `uint_least32_t` and `int_least32_t`, fastest minimum-width integer types such as `uint_fast32_t` and `int_fast32_t`, and integer types capable of holding object pointers, `intptr_t` and `uintptr_t`, are available in `stdint.h` and `inttypes.h`
 
@@ -408,6 +412,8 @@ VLAs can be used to make indexing into dynamic multidimensional [[array]]s less 
 
 ## control flow
 
+**see** [[goto]]
+
 [[c]] includes the following control flow [[statement]]s, most of which are self-explanatory:
 
 ```c
@@ -497,6 +503,12 @@ a declaration with _no linkage_ makes all its references refer to the same objec
 
 > **example** `void copy(char *restrict s1, const char *restrict s2);`
 
+## As-If Rule
+
+_The semantic descriptions in this International Standard describe the behavior of an abstract machine in which issues of optimization are irrelevant_ --- ISO/IEC 9899:TC3, $5.1.2.3 'Program execution'. the [[c]] standard specifies the semantics of computations using an _abstract machine_, and stipulates that implementations can use whatever methods they wish to execute a program, so long as the observable behavior is _as if_ it ran on the abstract machine --- Robert C. Seacord and Eskil Steenberg  --- <https://youtu.be/2KZgFiciOxY?t=709> and <https://www.dependablec.org/#As-If>
+
+_when you're trying to figure out what your [...] program does, don't think about optimizations, think about abstract semantics [...]---because the compiler is required to produce that same result_ --- Robert C. Seacord --- <https://youtu.be/2KZgFiciOxY?t=731>
+
 ## portability
 
 --- <https://www.reddit.com/r/rust/comments/jf66eu/why_are_there_no_increment_and_decrement/>
@@ -517,7 +529,7 @@ a compiler must compile the program meaningfully but may choose a different beha
 
 **definition** _undefined behavior_ is behavior that implicitly or explicitly isn't defined by the [[c]] standard --- Effective C
 
-classifying behavior as _undefined_ is **intentional** and **considered**; it isn't an error or omission in the [[c]] standard. [[c#undefined behavior]] is a tool the compiler can use to optimize programs; a compiler may assume programs never contain [[c#undefined behavior]]
+classifying behavior as _undefined_ is **intentional** and **considered**; it isn't an error or omission in the [[c]] standard. [[c#undefined behavior]] is a tool compilers can use to optimize programs; compilers are free to assume programs contain no [[c#undefined behavior]]
 
 a compiler may:
 

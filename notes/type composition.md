@@ -22,10 +22,11 @@ I started paying more attention to the characters I write with after a swift shi
 | dot operator                 | ⋅         | .                       |
 | parallel to                  | ∥         | \|\|                    |
 | no-break space               |           |                         |
+| no-break hyphen              | ‑         | -                       |
 
 - apostrophes `’` are right single quotation marks --- <https://practicaltypography.com/apostrophes.html>
 - feet and inches `5′4″` and arcminutes and arcseconds `34°47′52″` use prime `′` and double prime `″` marks --- <https://practicaltypography.com/foot-and-inch-marks.html>
-- nonbreaking spaces ` ` prevent line breaks --- <https://practicaltypography.com/nonbreaking-spaces.html>. their use boils down to common sense---but don't forget they exist
+- nonbreaking spaces and hyphens ` ‑` prevent line breaks --- <https://practicaltypography.com/nonbreaking-spaces.html>. their use boils down to common sense---but don't forget they exist
 - straight quotes `" '` exist because typewriters had limited character sets; don't use them, ever --- <https://practicaltypography.com/straight-and-curly-quotes.html>
 - the semicolon `;` separates list items that contain commas and is used instead of a conjunction to separate sentences --- <https://practicaltypography.com/semicolons-and-colons.html>
 - parentheses `()` separate asides from body text and brackets `[]` denote changes in quoted material; braces `{}` are rarely used --- <https://practicaltypography.com/parentheses-brackets-and-braces.html>

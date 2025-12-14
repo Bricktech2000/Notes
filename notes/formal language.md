@@ -26,9 +26,9 @@ the complement of a [[formal language]] is with respect to the Kleene closure of
 
 **notation** _concatenation_ typically one of $uv$, $u \cdot v$, see [[list#concatenation]]
 
-**notation** _alternation_ typically one of $u | v$, $u + v$, $u \cup v$, see [[set#union]]
+**notation** _alternation_ typically one of $u \mid v$, $u + v$, $u \cup v$, see [[set#union]]
 
-**notation** _intersection_ typically one of $u \& v$, $u \cap v$, see [[set#intersection]]
+**notation** _intersection_ typically one of $u \mathbin\& v$, $u \cap v$, see [[set#intersection]]
 
 **notation** _repeated concatenation_ $w^n$
 

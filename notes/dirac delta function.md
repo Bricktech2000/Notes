@@ -2,21 +2,21 @@
 
 **aka** _delta function_, _Dirac delta distribution_, _δ distribution_, _unit impulse_
 
-**see** [[function]], [[math notation]], [[limit]]
+**see** [[function]], [[limit]]
 
-**definition** **`D = G^ss {ss -> 0}`** #todo lim, where **`G`** is the [[gaussian function]] --- Wikipedia
+**definition** $\delta = \lim g\ 0$, where $g$ is the [[gaussian function]] --- Wikipedia
 
-**definition** **`$ D {@@ .. ..@@} = 1 /\ $ D'g {@@ .. ..@@} = g 0`**, for any _well-behaved_ [[function]] **`g`** --- Wikipedia
+**definition** $\int_{-\infty}^\infty \delta = 1 \land \int_{-\infty}^\infty g\delta = g\ 0$, for any _well-behaved_ [[function]] $g$ --- Wikipedia
 
 **properties**
 
-_[[integral]]_ **`$ D {@@ .. ..@@} = 1`**
+_[[integral]]_ $\int_{-\infty}^\infty \delta = 1$
 
-_identity of [[convolution]]_ **`CC D a = a`**
+_identity of [[convolution]]_ $\delta \ast f = f$
 
-_[[fourier transform]]_ **`FF D f = 1`**
+_[[fourier transform]]_ $\mathcal F\ \delta = x.\ 1$
 
-_y-intercept_ **`D 0 = @@`**
+_y-intercept_ $\delta\ 0 = \infty$
 
 ## ---
 

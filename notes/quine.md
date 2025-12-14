@@ -58,7 +58,7 @@ print(data)
 
 > **proof** apply the _s-m-n theorem_ to the structure of the [[combinator#y combinator]] --- <http://www.madore.org/~david/computers/quine.html#sec_fp>.
 
-_The fixed-point theorem has other amusing applications. Essentially, its intuitive (and effective) content is that [...] adding to a programming language the ability for a program to manipulate itself (its source code) does not add to its expressive power._ --- <http://www.madore.org/~david/computers/quine.html#sec_fp>. intuitively, performing β-reduction "running the program" on the [[combinator#y combinator]] gives back the transformation **`f`** applied to the original &lambda;-term (that is, a manipulation of its own source code)
+_The fixed-point theorem has other amusing applications. Essentially, its intuitive (and effective) content is that [...] adding to a programming language the ability for a program to manipulate itself (its source code) does not add to its expressive power._ --- <http://www.madore.org/~david/computers/quine.html#sec_fp>. intuitively, performing β-reduction "running the program" on the [[combinator#y combinator]] gives back the transformation $f$ applied to the original λ-term (that is, a manipulation of its own source code)
 
 > **note**
 >

@@ -19,7 +19,7 @@
 
 **properties**
 
-_partly due to the [[central limit theorem]], [...] physical quantities that are expected to be the sum of many independent processes, such as measurement errors, often have [[probability distribution]]s that are nearly normal_ --- Wikipedia
+_partly due to the [[central limit theorem]], [...] physical quantities that are expected to be the sum of many independent processes, such as measurement errors, often have [[probability distribution]]s that are nearly normal_ --- Wikipedia, and <https://youtu.be/HBluLfX2F_k?t=290>
 
 as a rule of thumb, in a [[normal distribution]],
 

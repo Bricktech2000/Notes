@@ -2,6 +2,8 @@
 
 --- <https://ncatlab.org/nlab/show/lambda-calculus>
 
+--- <https://youtu.be/233A3bN0UBE> and <https://youtu.be/R1dmeFEJyqI> and <https://youtu.be/K-4Mj3LpP2E> and <https://youtu.be/VrRVqHvy4PQ>
+
 **see** [[combinatory logic]], [[recursion]]
 
 > **resource** _SSA is Functional Programming_ "SSA is just another name for [[lambda-calculus]]" --- [[ssafun.pdf]] --- <https://www.cs.princeton.edu/~appel/papers/ssafun.pdf> --- <https://crypto.stanford.edu/~blynn/compiler/lambda.html>
@@ -10,11 +12,31 @@ the λ-calculus is a simple [[programming language]] and [[turing complete]] mod
 
 **definition** _β-reduction_ is the process of [[substitution]] of bound variables with the argument to an abstraction
 
-**definition** a λ-term is in _β-normal form_ if it cannot be _β-reduced_ any further
+**definition** a λ-term _reduces_ to another if and only if the first can be converted into the second through a chain of _β-reductions_
+
+**notation** _one-step β-reducibility_ $M \longrightarrow_\beta N$ --- <https://ncatlab.org/nlab/show/beta-reduction>
+
+**notation** _many-step β-reducibility_ $M \longrightarrow_\beta^* N$ --- <https://ncatlab.org/nlab/show/beta-reduction>
+
+> **note** _many-step β-reducibility_ is the reflexive transitive closure of _one-step β-reducibility_ --- <https://crypto.stanford.edu/~blynn/lambda/diamond.html>
+
+**definition** two λ-terms are _β-equivalent_ if and only if they can be converted to eachother through a zigzag of _β-reductions_
+
+**notation** _β-equivalence_ $M =_\beta N$ --- <https://ncatlab.org/nlab/show/beta-reduction>
+
+> **note** _β-equivalence_ is the reflexive symmetric transitive closure of _one-step β-reducibility_ --- <https://cs.stackexchange.com/questions/634/what-is-beta-equivalence> and is thus a [[relation#equivalence relation]] --- <https://youtu.be/R1dmeFEJyqI?t=579> and <https://ncatlab.org/nlab/show/beta-reduction>
+
+**definition** a λ-term is in _β-normal form_ if and only if it cannot be _β-reduced_ any further
+
+**definition** a λ-term is _weakly normalizing_ if and only if there exists a chain of β-reductions on the term that reaches a _β-normal form_ --- <https://youtu.be/R1dmeFEJyqI?t=772>
+
+**definition** a λ-term is _strongly normalizing_ if and only if every chain of β-reductions on the term reaches a _β-normal form_ --- <https://youtu.be/R1dmeFEJyqI?t=772>
 
 **definition** _α-conversion_ is the process of renaming bound variables to avoid name collisions
 
-**definition** two λ-terms are _α-equivalent_ if and only if one can be converted into the other through _α-conversion_
+**definition** two λ-terms are _α-equivalent_ if and only if they can be converted to eachother through _α-conversions_
+
+**notation** _α-equivalence_ $M \equiv N$
 
 > **note** λ-terms can be denoted canonically using De Bruijn indices, eliminating the need for α-conversion and α-equivalence --- <https://youtu.be/UUUQp8HvrH0?t=892>
 
@@ -37,11 +59,11 @@ the λ-calculus is a simple [[programming language]] and [[turing complete]] mod
 
 ## Simply Typed Lambda Calculus
 
-**properties** --- <https://youtu.be/WHQ-OYFqp5w?t=449>
+**aka** _λ→_
 
-every chain of β-reductions of simply typed λ-terms reaches the β-normal form, and so every program in the simply typed λ-calculus is terminating. consequently, it is not [[turing complete]]
+every typeable λ→-term is _strongly normalizing_ --- <https://youtu.be/WHQ-OYFqp5w?t=393>; thus λ→ is not [[turing complete]]
 
-self-application is not typeable in the simply typed λ-calculus. consequently, [[recursion]] is impossible
+self-application is not typeable in the simply typed λ-calculus --- <https://youtu.be/WHQ-OYFqp5w?t=462>; thus λ→ has no [[recursion]]
 
 ### Syntax
 
@@ -53,7 +75,7 @@ self-application is not typeable in the simply typed λ-calculus. consequently, 
          | "(" <term> " " <term> ")"               ; application
 <var> ::= (? some lowercase latin letter ?)
 <type> ::= <base>                                  ; variable type
-         | "(" <type> "->" <type> ")"              ; arrow type
+         | "(" <type> "→" <type> ")"               ; arrow type
 <base> ::= (? some lowercase greek letter ?)
 ```
 
@@ -61,7 +83,7 @@ self-application is not typeable in the simply typed λ-calculus. consequently, 
 
 **see** [[inference rule]]
 
-_variable_ $\displaystyle \frac{x : \sigma \in \Gamma}{\Gamma \vdash x : \sigma}$
+_variable_ $\displaystyle \frac{}{\Gamma \vdash x : \sigma}$ if $x : \sigma \in \Gamma$
 
 _abstraction_ $\displaystyle \frac{\Gamma, x : \sigma \vdash e : \tau}{\Gamma \vdash (\lambda x : \sigma.\ e) : (\sigma \to \tau)}$
 
@@ -75,9 +97,7 @@ _application_ $\displaystyle \frac{\Gamma \vdash e_1 : \sigma \to \tau \quad \Ga
 
 --- <https://youtu.be/UUUQp8HvrH0>
 
---- <https://youtu.be/knD_5pBCmuI>
-
---- <https://youtu.be/WHQ-OYFqp5w>
+--- <https://youtu.be/knD_5pBCmuI> and <https://youtu.be/WHQ-OYFqp5w>
 
 --- <https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus>
 
@@ -121,6 +141,8 @@ we can then define the [[boolean#operator]]s:
 - $\mathrm{snd}\ p = p\ (f.\ s.\ s)$
 
 ## Church Encoding
+
+--- <https://youtu.be/K-4Mj3LpP2E>
 
 the Church encoding encodes recursive [[type#algebraic data type]]s by building up a generalized [[monoid#fold]] over the data. providing a fold [[function]] and a base case to a term β-reduces to the result of a fold over it. however, accessing the data of a recursive variant is tricky and generally not of constant time [[computational complexity]]
 

@@ -2,13 +2,15 @@
 
 --- <https://youtu.be/SzJ46YA_RaA>
 
-> **resource** _Programming Challenges V4_, list containing some programming project ideas --- <https://programming-challenges.jeremyjaydan.dev/media/programming-challenges-v4.0.png>
+> **resource** _Programming Challenges V4_, list containing some programming project ideas --- [[programming_challenges_v4-0.png]] --- <https://programming-challenges.jeremyjaydan.dev/media/programming-challenges-v4.0.png>
 
 > **resource** _Build your own X_, links to guides on building classic programming projects from scratch --- <https://github.com/codecrafters-io/build-your-own-x>
 
 > **resource** _Bit Twiddling Hacks_ by Sean Eron Anderson, collection of low-level programming tricks --- [[Bit Twiddling Hacks.html]] --- <https://graphics.stanford.edu/~seander/bithacks.html>
 
-> **resource** _Reflections on Trusting Trust_ by Ken Thompson, on why source code cannot truly be trusted --- [[Thompson_1984_ReflectionsonTrustingTrust.pdf]] --- <https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf>
+> **resource** _Reflections on Trusting Trust_ by Ken Thompson, on why source code can never truly be trusted --- [[Thompson_1984_ReflectionsonTrustingTrust.pdf]] --- <https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf>
+
+> **resource** _Algorithms for Competitive Programming_, descriptions of many useful algorithms and data structures --- <https://cp-algorithms.com/navigation.html>
 
 **see**
 

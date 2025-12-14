@@ -18,7 +18,7 @@ _a finite [[string]] describing a [[formal language#regular formal language]]_
 
 > **resource** _Regular Expression Matching in the Wild_ by Russ Cox, practical tips on writing [[regular expression]] engines --- [[regexp3.html]] and [[dfa0.c]] and [[dfa1.c]] and [[nfa.c]] --- <https://swtch.com/~rsc/regexp/regexp3.html> and <https://swtch.com/~rsc/regexp/dfa0.c.txt> and <https://swtch.com/~rsc/regexp/dfa1.c.txt> and <https://swtch.com/~rsc/regexp/nfa.c.txt>
 
-> **resource** Andrew Gallant's blog posts on `ripgrep`, more practical tips on writing [[regular expression]] engines --- <https://blog.burntsushi.net/ripgrep/> and <https://blog.burntsushi.net/regex-internals/>
+> **resource** Andrew Gallant's blog posts on `ripgrep`, more practical tips on writing [[regular expression]] engines --- [[ripgrep is faster than {grep, ag, git grep, ucg, pt, sift} - Andrew Gallant's Blog.pdf]] and [[Regex engine internals as a library - Andrew Gallant's Blog.pdf]] --- <https://blog.burntsushi.net/ripgrep/> and <https://blog.burntsushi.net/regex-internals/>
 
 in [[formal language]] theory, [[regular expression]]s support alternation `r|s`, concatenation `rs`, Kleene star `r*` and grouping `(r)`; `?` and `+` are omitted since `r? = r|ε` and `r+ = rr*`. additionaly, `∅` denotes the [[set#empty set]], `ε` the [[set]] containing the empty word, and any other [[character]] the [[set]] containing the word formed by that [[character]]. in truth, grouping `(r)` is redundant and only needed because of [[infix notation]], and the empty [[string]] `ε` and empty [[set]] `∅` are redundant and only needed because the notation can't express the empty concatenation and empty alternation, respectively
 
