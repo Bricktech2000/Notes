@@ -1,0 +1,254 @@
+PRESENTATION BY JASON SCOTT
+PERSONAL DIGITAL ARCHIVING CONFERENCE 2011
+FEBRUARY 24, 2011
+INTERNET ARCHIVE, SAN FRANCISCO HEADQUARTERS
+
+There is nothing more tiring than an activist. They’re boring in
+conversation, hard to have within earshot, and there’s a sense, coming
+back to them later, of nothing having changed, because they’re saying
+the same things again, and again. They’ve got this single dimensionally
+about them. It’s just… tiring.
+
+My name is Jason Scott, and I am an activist. I’m an activist about a
+bunch of things, but today I’m going to talk about being an activist
+concerning digital heritage.
+
+Before I fill the full fifteen minutes, all I can say in my defense is
+that even though I’m an activist, even though I can keep a shrill
+one-note symphony going for way too long about the subjects I care
+about, I also have a sense of humor.
+
+I have a cat named Sockington. At this moment, my cat has nearly 1.5
+million followers on twitter. He’s been featured in magazines,
+newspapers, television and has fan art made about him. In the past few
+years he’s been discussed during morning drive radio, and just this past
+week, he was a question in a quiz in the Ladies’ Home Journal. He’s been
+bombarded with endorsement deals and offers of representation, all of
+which he ignores. He is after all, a cat.
+
+So if nothing else, you can say you met the guy who has the most popular
+animal account on twitter. But I hope you’ll remember the rest of what I
+have to say.
+
+I’ve been a collector for years. (I’ve learned, over time, that there’s
+places to call yourself an “archivist” and places not to, and a room
+full of archivists who spent a lot of time and money on degrees and
+training is not one of those places). As a collector, I had already made
+it a point of going after marginalized data, the textfiles and message
+bases of dial-up bulletin board systems of the 1970s, 80s, and 90s. It
+turns out that in many cases, I had one of the only copies of some of
+this, pulled from printouts or late-night visits in my teens, and my
+immediate urge was to share and provide them for as many people as
+possible.
+
+I could go into this further, but there’s no time. Let me just leave it
+at that – history is something I care about, that I learn from, and
+which, when I acquire it, I work as hard as I can to share to the
+maximum amount of people.
+
+This all became a site called textfiles.com, which continues to house a
+terabyte of bulletin board system history, as well as a range of other
+interesting collections that have fallen into my hands. From this, I
+moved into documentary filmmaking, hosting events, and giving
+presentations. And with that came being known as someone who would take
+old stuff off others’ hands, and with THAT came being contacted when old
+stuff is in danger.
+
+Obviously, a phrase like “old stuff” means a wild amount of things, and
+in my case, I mean customer-grade home computer stuff. Old floppies, old
+machines, piles of magazines, printouts. I became the go-to guy for this
+– half of what I acquire comes from a group of people discussing what to
+do with old material, and someone says “Jason Scott”, and one of my RSS
+feeds gets triggered, and I show up an hour later asking what I can do
+to help. I’m like an EMT for computer history.
+
+And while I’m defining things, let me say what I mean by “Danger”. I
+mean danger of deletion, a danger of being lost, a danger that a piece
+of history, with its value unrecognized and a lack of interest in what
+it might mean, might just be lost forever. That kind of danger.
+
+And what happened in the last decade or so, is that an awful lot of
+computer history is in danger. A lot of it has been deleted. In fact, if
+you step back and look at it, the loss of data has moved to epidemic
+proportions. I use the term epidemic specifically here; I mean that
+there is a mental condition to accept the loss of data as the price of
+doing business with computers. And beyond that, the expectation that
+data will be lost, and the spreading of this idea to the point that data
+loss becomes no big thing.
+
+Well, it’s a big thing. It’s a huge thing. It’s so terrible that I don’t
+even know how to frame it half the time. So let’s start with what I
+guess could be called my awakening to the problem.
+
+The shutdown of a site called AOL hometown, which was actually a bunch
+of previous sites put together, was only the most recent of occasional
+shutdowns of user-content sites. They gave two months notice, and then
+completely deleted the data, with no recourse for people to get it back.
+Two months, for a site that had been up for a decade. In a lot of cases,
+e-mail was out of date. Or it went to an address people didn’t use. And
+when it was gone, it was gone.
+
+Something about this really cranked me out. I guess it was that sense
+that all this stuff people had made online was being wiped away as if it
+all meant nothing, all that writing, all that creating, all those sites
+that, even though nobody was maintaining them, still had information
+other people were referring to. It was all just… gone.
+
+I said, in an angry entry on my weblog, that there ought to be a team of
+people who could rescue this data, who could swoop in and grab a copy
+before it was all gone, before some decision from nowhere wiped it out.
+Some sort of Archive Team.
+
+Well, people took me seriously, and within a short time, dozens of
+people offered to be around to help save sites. And so we formed
+archiveteam.org, we made some fun logos, and we waited.
+
+And then Yahoo! announced they were closing Geocities. And by announced,
+I mean they quietly stuck a side mention of it in a FAQ answer buried in
+the support pages. But regardless, geocities was being shut down.
+Geocities!
+
+The reactions I saw from websites and press were awful. “Good riddance.”
+they’d say. “The blink tag is dead. Who needs crappy animated GIFs and
+MIDIs in the background and webrings, don’t get us started about
+webrings.”
+
+But I think what they lost was that Geocities arrived in roughly 1995,
+and was, for hundreds of thousands of people, their first experience
+with the idea of a webpage, of a full-color, completely controlled
+presentation on anything they wanted. For some people, their potential
+audience was greater for them than for anyone in the entire history of
+their genetic line. It was, to these people, breathtaking.
+
+This is a site created by a mother to commemorate her lost son, who died
+as an infant. What struck me, if you look at the dates, is that he died
+in 1983, a full 15 years before Geocities came along, and her feelings
+were still strong in two ways – she wanted to keep his memory alive, and
+she saw Geocities as the way to do it. Wiped away completely with the
+shutdown.
+
+Again, I don’t have time to walk through other examples of user
+creations worth studying or considering, but rest assured, there’s
+plenty. And with an arbitrary, vicious, heartless move, Yahoo! shut
+Geocities down.
+
+But not before some copies got made.
+
+Archive team used dozens of people on hundreds of IPs, imitating other
+search engines and utilizing a whole bunch of tricks, and we duplicated
+as much of Geocities as we could. There were other parallel efforts and
+those are appreciated, but we got 900 gigabytes of Geocities. We have no
+idea what percentage of Geocities we got, but all I know is that
+Geocities fits, continues to fit on a hard drive the size of a pack of
+cards.
+
+In the time since, we occasionally get contacted by people who watch the
+geocities shutdown happen, watched their own sites get shut down, and
+tone-deaf policies and lack of response meant they sat back and watched
+it happen, feeling entirely helpless. In one case, a widow had her
+husband, a veteran, upload all his photos from his enlisted years into a
+geocities account, then die off, and never give her the password. She
+could browse the site, but she couldn’t change it. Imagine that horror
+as she watched the site come down, to have her husband die again. And
+imagine the letter we got when she got it all back again.
+
+We took our copy of Geocities, that 900 gigabyte collection, and we
+compressed it down to 645 gigabytes. 645! And then we did what I think
+any reasonable person would do – we released it as a torrent.
+
+That torrent will be fully seeded by the end of the week, and a few
+dozen people will have Geocities to study, to research, to work with.
+And a half-dozen USB drives recently went out to waiting and grateful
+people as well.
+
+This got a lot of attention, a lot of press – I read a lot of articles
+and listened to a lot of podcasts about what Archive Team represents,
+what it means, and the rest. And here, as I start to wrap up, is what I
+think needs to be understood.
+
+New York City is on the verge of banning smoking in public places. It
+may or may not pass, but previously, a few decades earlier, it was
+considered impolite while you were smoking in a restaurant to blow the
+smoke into a baby’s face. I lived in Waltham, Massachusetts for years –
+and decades before I lived there, you could tell what the next year’s
+fashion colors would be by the colors of the dyes in the Charles River.
+My point is, things were a certain way once. People who did things then
+were just following the general order, and to do differently would be
+strange. Friendly, or accommodating to an unexpected degree, but
+strange.
+
+Right now, we live in a world where the wholesale destruction of a place
+like Geocities is a punchline, a tossed off puff piece. The natural
+order of doing business. It IS the natural order of doing business.
+
+The current natural order of things for hosting user-generated content
+is this: Disenfranchise. Demean. Delete.
+
+Disenfranchise. Cut off any amount of support or awareness by users of
+their environment and what they are putting their lives into.
+
+Demean. When a site falls out of favor, act like it’s an electronic
+ghetto, not worth consideration as a valid entity. Think Friendster,
+orkut, myspace, geocities and a dozen others. Say their name in the
+company of people who understand the technical issues, and they snort.
+For a lot of people, these sites are parties, and the party is over.
+
+Delete. Give a random amount of warning, and I mean, it really is
+completely arbitrary and made up, and then delete, with no recourse,
+nobody to ask for a copy, nobody to contact to retrieve your lost data,
+your husband’s history, your child’s photos. I’ve seen periods as long
+as a year and as short as 48 hours. There’s nothing, no standardization,
+no agreed upon procedure for decommissioning these sites. It’s all just
+being made up as it goes along.
+
+Somewhere around now, people start using phrases with me like business,
+profit, how the world works. This isn’t about business. This is about
+understanding that user data is a trust, a heritage, history. And
+because we’ve turned it into just another thing just as millions and
+millions are going online, the disasters will keep coming.
+
+So until this gets straightened out, before we stop blowing smoke in
+babies’ faces, we have ad-hoc solutions like Archive Team.
+
+Archive team doesn’t ask. It takes. It takes and it dupes and it saves.
+Sometimes, it’s been cheered as it does so. Sometimes it’s been
+ridiculed, criticized, threatened. But this isn’t a party, or a
+nightclub, trying to be the new popular thing and the new way to pump
+your fist and act like you did something. We’re getting stuff done.
+
+As I speak here, dozens of people are downloading Yahoo! Video, which
+announced late last year that it was closing on March 15th.
+Specifically, they announced they were deleting all user-generated
+content, but keeping the general site. We’ve been coordinating
+bandwidth, disk space, and how to get the most data out in the most
+efficient manner. We expect the resulting collection will be 25
+terabytes of data. Perhaps that sounds like a lot now, but you can buy 2
+terabyte drives for $80 on special. It is, in fact, not a lot. So we’re
+doing it.
+
+Besides the scraping of millions of Delicious users, a small subset of
+archive team has formed URL team, dedicated to pulling down the content
+of URL shorteners. URL shorteners may be one of the worst ideas, one of
+the most backward ideas, to come out of the last five years. In very
+recent times, per-site shorteners, where a website registers a smaller
+version of its hostname and provides a single small link for a more
+complicated piece of content within it.. those are fine. But these
+general-purpose URL shorteners, with their shady or fragile setups and
+utter dependence upon them, well. If we lose TinyURL or bit.ly, millions
+of weblogs, essays, and non-archived tweets lose their meaning.
+Instantly. To someone in the future, it’ll be like everyone from a
+certain era of history, say ten years of the 18th century, started
+speaking in a one-time pad of cryptographic pass phrases. We’re doing
+our best to stop it. Some of the shorteners have been helpful, others
+have been hostile. A number have died. We’re going to release torrents
+on a regular basis of these spreadsheets, these code breaking
+spreadsheets, and we hope others do too.
+
+I’m glad to have made your acquaintance. It’s been a fun ride. Come
+along. And if you find yourself in a position of making a few key
+decisions about user-generated content, and exporting, and retention or
+shutdown policies, I’m always available to chat.
+
+Or, you could just follow my cat.
+
+Thank you.

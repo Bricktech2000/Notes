@@ -14,8 +14,6 @@
 
 [[hypnosis]]
 
-[[equality]]
-
 [[xy problem]]
 
 [[generalism]]
@@ -130,7 +128,7 @@
 
 ## optimize
 
-[[unobvious grouping]]
+[[heterogeneous grouping]]
 
 [[calculus notation]]
 

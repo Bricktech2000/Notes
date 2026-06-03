@@ -38,7 +38,7 @@ _closure_ $a \cdot b \in S$
 
 --- <https://ncatlab.org/nlab/show/free+monoid>
 
-**see** [[semigroup#free semigroup]]
+**see** [[semigroup#free semigroup]], [[monad#free monad]]
 
 **notation** $S^*$
 

@@ -2,7 +2,7 @@
 
 **see** [[effect type]], [[functor]], [[applicative]], [[monad]], [[monoid]]
 
-**see** [[pure]], [[currying]], [[type]], [[combinatory logic]], [[lambda-calculus]], [[type-driven design]]
+**see** [[pure]], [[currying]], [[type]], [[recursion#scheme]], [[combinatory logic]], [[lambda-calculus]], [[type-driven design]]
 
 > **resource** _A sliding scale of power_, an intuition for `Functor a => Applicative a => Monad a` --- <https://en.wikibooks.org/wiki/Haskell/Applicative_functors#A_sliding_scale_of_power>
 >
@@ -11,6 +11,8 @@
 > (<*>) :: Applicative t => t (a ->   b) -> (t a -> t b)
 > (=<<) :: Monad       t =>   (a -> t b) -> (t a -> t b)
 > ```
+
+> **resource** the _Typeclassopedia_, a introduction to the standard Haskell type classes --- <https://wiki.haskell.org/Typeclassopedia> and [[Typeclassopedia.pdf]] --- <https://wiki.haskell.org/wikiupload/e/e9/Typeclassopedia.pdf>
 
 **properties**
 

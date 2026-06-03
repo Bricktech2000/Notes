@@ -1,6 +1,6 @@
 # Proxy
 
-**see** [[statistics]], [[goodhart's law]], [[equality]]
+**see** [[statistics]], [[goodhart's law]]
 
 **definition** a _proxy_ is a variable that is not in itself directly relevant, but that serves in place of an unobservable or immeasurable variable --- Wikipedia
 

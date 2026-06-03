@@ -14,7 +14,7 @@
 
 [[polynomial]]s
 
-[[ordered pair]]s
+[[pair]]s
 
 [[eigen#vector]]s
 

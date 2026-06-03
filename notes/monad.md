@@ -40,6 +40,22 @@ the [[monad#bind]] fixes this issue by providing a way to connect the meaningful
 
 > **note** the name `flatMap` comes from the fact that the [[monad#bind]] can be defined as the [[function#composition]] of the [[monad#join]] and [[functor#map]] --- <https://youtu.be/C2w45qRc3aU?t=808>
 
+## Free Monad
+
+--- <https://stackoverflow.com/questions/13352205/what-are-free-monads>
+
+**see** [[semigroup#free semigroup]], [[monoid#free monoid]]
+
+> **resource** _Why free monads matter_, and a motivation for wanting a [[monad]] that doesn't compute --- [[Haskell for all_ Why free monads matter.pdf]] --- <https://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html>
+
+> **resource** _Beyond Free Monads_ by John DeGoes at λC Winter Retreat 2017, with a focus on free [[monad]]s for I/O --- <https://youtu.be/A-lmrvsUi2Y>
+
+> **resource** the `Free` and `Cofree` types in the PNLC prelude --- <https://github.com/Bricktech2000/PNLC/blob/master/prelude.pnlc>
+
+[[monad#free monad]]s are a general way of turning [[functor]]s into [[monad]]s
+
+_A Monad is something that "computes" when monadic context is collapsed by `join :: m (m a) -> m a` (recalling that `>>=` can be defined as `x >>= y = join (fmap y x)`). This is how Monads carry context through a sequential chain of computations: because at each point in the series, the context from the previous call is collapsed with the next. A **free monad** satisfies all the Monad laws, but does not do any collapsing (i.e., computation). It just builds up a nested series of contexts. The user who creates such a free monadic value is responsible for doing something with those nested contexts, so that the **meaning** of such a composition can be deferred until after the monadic value has been created._ --- <https://stackoverflow.com/questions/13352205/what-are-free-monads>
+
 ## Kleisli Composition
 
 _composes two diagonal [[function]]s into a single diahonal [[function]]_
@@ -49,6 +65,13 @@ _composes two diagonal [[function]]s into a single diahonal [[function]]_
 **definition** `(>=>) :: Monad m => (a -> m b) -> (b -> m c) -> a -> m c`
 
 **definition** _in terms of the [[monad#bind]]_ given [[function]]s `f :: a -> m b` and `g :: b -> m c`, we have `kleisli f g a = f a >>= g`
+
+```haskell
+(>>=) :: Monad m => m a -> (a -> m b) -> m b -- monadic bind
+(>=>) :: Monad m => (a -> m b) -> (b -> m c) -> a -> m c -- kleisli composition
+f >=> g = \x -> f x >>= g -- kleisli composition in terms of monadic bind
+ma >>= f = (id >=> f) ma -- monadic bind in terms of kleisli composition
+```
 
 diagonal [[function]]s of [[type]] `a -> m a` with the [[monad#kleisli composition]] form a [[monoid]] whose [[monoid#identity element]] is the [[applicative#pure]] function
 
@@ -66,7 +89,7 @@ f >=> return = f -- right identity
 (f >=> g) >=> h = f >=> (g >=> h) -- associativity
 ```
 
-_Monad axioms: Kleisli composition forms a category._ --- haiku --- <https://wiki.haskell.org/index.php?title=Monad_laws>
+_Monad axioms: Kleisli composition forms a category._ --- <https://wiki.haskell.org/index.php?title=Monad_laws>
 
 ## Transformer
 

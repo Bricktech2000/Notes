@@ -43,7 +43,7 @@ _[[habit#formation]]_
 > - environment design --- designing your environment to make it more obvious to perform a [[habit]]
 > - temptation bundling --- bundling a [[habit]] you have to do with a [[habit]] you want to do
 > - group influence --- surrounding yourself with people who have the same [[habit]]s as you to reinforce them
-> - decreasing friction --- removing [[psychology]]cal barriers to a [[habit]] so it becomes easier to perform
+> - decreasing [[friction]] --- removing [[psychology]]cal barriers to a [[habit]] so it becomes easier to perform
 > - brain reprogramming --- reinforcing a [[habit]] by constantly repeating to yourself its pros xor cons
 > - two-minute rule --- anchoring the routine before ramping up the [[difficult]]y to make it stick
 > - habit tracking --- tracking a [[habit]] to make it more visible and to keep you [[accountable]] and [[intention]]al

@@ -12,7 +12,7 @@
 
 [[polynomial#vector space]]
 
-[[ordered pair#vector space]]
+[[pair#vector space]]
 
 [[eigen#space]]
 

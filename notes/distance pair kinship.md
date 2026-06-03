@@ -2,7 +2,7 @@
 
 **see** [[math notation]]
 
-_kinship terminology_ is unintuitive at best; see <https://www.tfcg.ca/family-relationship-chart> and <https://en.wikipedia.org/wiki/Kinship_terminology>. the [[ordered pair]] of [[distance]]s from a common ancestor to two relatives is sufficient to describe the kinship between them. this is the basis of [[distance pair kinship]]
+_kinship terminology_ is unintuitive at best; see <https://www.tfcg.ca/family-relationship-chart> and <https://en.wikipedia.org/wiki/Kinship_terminology>. the [[pair]] of [[distance]]s from a common ancestor to two relatives is sufficient to describe the kinship between them. this is the basis of [[distance pair kinship]]
 
 > **example** _representation of an uncle_
 >

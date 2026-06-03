@@ -10,7 +10,7 @@ _APL-style Outer Product_
 
 **definition** **`A * \* B *`**
 
-**definition** an _outer product_ is an operation where an [[operator]] is applied to every [[ordered pair]] of elements from two objects. the rank of the [[outer product]] of two objects is the sum of the ranks of the two objects. the shape of the [[outer product]] of two objects is the concatenation of the shapes of the two objects
+**definition** an _outer product_ is an operation where an [[operator]] is applied to every [[pair]] of elements from two objects. the rank of the [[outer product]] of two objects is the sum of the ranks of the two objects. the shape of the [[outer product]] of two objects is the concatenation of the shapes of the two objects
 
 ## Conventional Outer Product
 

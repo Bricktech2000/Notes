@@ -32,7 +32,7 @@ _closure_ $a \cdot b \in S$
 
 --- <https://en.wikipedia.org/wiki/Free_monoid>
 
-**see** [[monoid#free monoid]]
+**see** [[monoid#free monoid]], [[monad#free monad]]
 
 **notation** $S^+$
 

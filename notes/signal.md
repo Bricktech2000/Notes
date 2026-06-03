@@ -16,7 +16,7 @@ _showing off by conspicuously not showing off_
 
 **definition** a _countersignal_ is a [[signal]] meant to convey such fitness that [[signal]]ing is unnecessary --- me
 
-> **resource** _Intellectual Hipsters and Meta-Contrarianism_ by Scott Alexander --- <https://www.lesswrong.com/posts/9kcTNWopvXFncXgPy/intellectual-hipsters-and-meta-contrarianism>
+> **resource** _Intellectual Hipsters and Meta-Contrarianism_ by Scott Alexander --- [[Intellectual Hipsters and Meta-Contrarianism --- LessWrong.pdf]] --- <https://www.lesswrong.com/posts/9kcTNWopvXFncXgPy/intellectual-hipsters-and-meta-contrarianism>
 
 > **examples**
 >

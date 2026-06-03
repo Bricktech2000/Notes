@@ -8,7 +8,7 @@ _an introduction into mathematical thinking_
 
 [[proof]]
 
-[[set]], [[set theory]], [[multiset]], [[ordered pair]], [[vector]], [[cartesian product]], [[relation]], [[function]]
+[[set]], [[set theory]], [[multiset]], [[pair]], [[vector]], [[cartesian product]], [[relation]], [[function]]
 
 [[predicate]]s, [[quantifier]]s, [[boolean#operators]]
 

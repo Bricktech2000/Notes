@@ -5,3 +5,5 @@
 **see** [[dynamic programming]]
 
 **definition** _divide and conquer_ is a method for efficiently solving through [[recursion]] problems with _optimal substructure_ and _non-overlapping subproblems_
+
+[[divide and conquer]] algorithms lend themselves well to hylomorphisms; see [[recursion#scheme]]

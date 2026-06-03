@@ -1,0 +1,930 @@
+<!--====================================================================
+
+ = Author:        Chris Rathman, 19 April 2003                         =
+
+ = File:          birds.html                                           =
+
+ = Purpose:       Tinkering with Combinators                           =
+
+ = Version:       1.00                                                 =
+
+ =====================================================================-->
+
+<html>
+
+<head><title>Combinator Birds</title></head>
+
+<body>
+
+<script language='JavaScript'>
+
+/***********************************************************************
+
+ * program:    Partial Unlambda Interpreter                            *
+
+ ***********************************************************************/
+
+var stdout = null;
+
+var timer = 0;
+
+function eof(e) { return eof }
+
+
+
+function InputStream(buffer) {
+
+   this.buffer = buffer;
+
+   this.index = 0;
+
+   this.read = function() { if (this.eof()) return ''; return this.buffer.substring(this.index++,this.index); };
+
+   this.eof  = function() { return (this.index >= this.buffer.length); };
+
+}
+
+
+
+function stdoutSet() {
+
+   if (stdout) {
+
+      if (!stdout.closed) stdout.close();
+
+   }
+
+   stdout = open("about:blank","results","fullscreen=no,scrollbars=yes,toobar=no,status=yes,resizable=yes,left=" + (document.body.offsetWidth * 0.05) + ",top=" + (document.body.offsetHeight * 0.05) + ",width=" + (document.body.offsetWidth * 0.90) + ",height=" + (document.body.offsetHeight * 1.0));
+
+   stdout.document.write("<html>");
+
+   stdout.document.write("<body>");
+
+   stdout.document.write("<form>");
+
+   stdout.document.write("<textarea name='stdout' id='stdout' cols='80' rows='24' wrap='virtual'></textarea>");
+
+   stdout.document.write("</form>");
+
+   stdout.document.write("</body>");
+
+   stdout.document.write("</html>");
+
+   stdout.document.end
+
+}
+
+
+
+function compile() {
+
+   stdoutSet();
+
+   stdout.document.getElementById("stdout").value = "";
+
+   parse(new InputStream(document.getElementById("program").value));
+
+}
+
+
+
+function parse(input) {
+
+   while (true) {
+
+      timer++;
+
+      if (timer > 100) window.setTimeout("return;",1)
+
+      var f = input.read();
+
+      switch (f.toLowerCase()) {
+
+
+
+         // eof indicator
+
+         case '':  stdout.document.getElementById("stdout").value += "Unexpected EOF"; throw new Error("Unexpected EOF");
+
+
+
+         // white space functions
+
+         case ' ':  break;
+
+         case '\n': break;
+
+         case '\r': break;
+
+         case '\t': break;
+
+         case '#':  while ((!input.eof()) && (input.read() != '\n')); return parse(input);
+
+
+
+         // apply function
+
+         case '`':  return parse(input)(parse(input));
+
+
+
+         // basic combinator functions
+
+         case 'k':  return function(x) { return function(y) { return x } };
+
+         case 's':  return function(x) { return function(y) { return function(z) { return ((x) (z))((y) (z)) } } };
+
+         case 'i':  return parse(new InputStream("``skk"));                    //  alias: return function(x) { return x; };
+
+         case 'v':  return parse(new InputStream("```s``s`kskk``s``s`kskk"));  //  alias: return function v(x) { return v };  (((S((S(KS))K))K)((S((S(KS))K))K))
+
+
+
+         // io operators
+
+         case '.':  var c = input.read(); return function(x) { stdout.document.getElementById("stdout").value += c; return x; };
+
+         case 'r':  return function(x) { stdout.document.getElementById("stdout").value += "\n"; return x; };
+
+
+
+         // call/cc functions - unimplemented - work in progress
+
+         case 'd':
+
+            var expr = "";
+
+            for (var ticks = 1; ((ticks > 0) && !(input.eof())); )  {
+
+               var c = input.read();
+
+               expr += c;
+
+               switch (c) {
+
+                  case '`': ticks++;
+
+                  case '.': ticks++;
+
+                  default: ticks--;
+
+               }
+
+            }
+
+            var a = parse(input);
+
+            var b = parse(new InputStream("`" + expr + "i"));
+
+            return function(x) { b(a(x)); };
+
+         case 'c':  stdout.document.getElementById("stdout").value += "Unsupported Version1 Function: " + f; throw new Error("Unsupported Version1 Function: " + f);
+
+
+
+         // unimplemented operators - version 2
+
+         case '@':  stdout.document.getElementById("stdout").value += "Unsupported Version2 Function: " + f; throw new Error("Unsupported Version2 Function: " + f);
+
+         case '?':  stdout.document.getElementById("stdout").value += "Unsupported Version2 Function: " + f; throw new Error("Unsupported Version2 Function: " + f);
+
+         case '|':  stdout.document.getElementById("stdout").value += "Unsupported Version2 Function: " + f; throw new Error("Unsupported Version2 Function: " + f);
+
+         case 'e':  stdout.document.getElementById("stdout").value += "Unsupported Version2 Function: " + f; throw new Error("Unsupported Version2 Function: " + f);
+
+
+
+         default:   stdout.document.getElementById("stdout").value += "Unsupported Function: " + f; throw new Error("Unsupported Function: " + f);;
+
+      }
+
+   }
+
+}
+
+
+
+function setprogram() {
+
+   switch (document.getElementById("numprogram").selectedIndex) {
+
+      case 0: break;
+
+
+
+      // hello world
+
+      case 1: document.getElementById("program").value = "```si`k``s.H``s.e``s.l``s.l``s.o``s. ``s.w``s.o``s.r``s.l``s.d``s.!``sri``si``si``si``si``si``si``si``si`ki"; break;
+
+
+
+      // fibo (short)
+
+      case 2: document.getElementById("program").value = "```s``s``sii`ki`k.*``s``s`ks``s`k`s`ks``s``s`ks``s`k`s`kr``s`k`sikk`k``s`ksk"; break;
+
+
+
+      // fibo (long)
+
+      case 3: document.getElementById("program").value = "```s``s``sii``s`kk`ki`ki``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s`kk`kk``s`kk`kr``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s`kk`kk`ki``s``s`ks``s`kk`kk``s`kk`k.*``s``s`ks``s`kk`kk``s`kki``s``s`ks``s`kk`kk``s`kki``s`kk`ki``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s`kk`kk``s`kk`k``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s`kk`kk``s`kk`ks``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s`kk`kk``s`kk`ks``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s`kk`kk``s`kk`kk``s``s`ks``s`kk`kk``s`kki``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s`kk`kk``s`kk`kk``s`kk`ki``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s`kk`kk``s`kk`ks``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s`kk`kk``s`kk`ks``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s`kk`kk``s`kk`kk``s``s`ks``s`kk`kk`ki``s``s`ks``s``s`ks``s`kk`ks``s``s`ks``s`kk`kk``s`kk`kk``s`kk`ki``s``s`ks``s`kk`kk``s`kk`ki``s``s`ks``s`kk`kk`ki``s`kk`ki"; break;
+
+
+
+      // 99 bottles
+
+      case 4: document.getElementById("program").value = "````s``s``si`kk``s``s`ks``s`k`s`k``s``si`k`ki`kkk`k``s``s`ksk`k.9``s``s``s``si`k`ki`kk`k`d`.9.1``s``s``s``si`k`ki`kk`k`d`.9.0``s``s``si`kk``s``s`k`s``s`ks``s``s`ksk`k`s`k.9``s``s`ks``s`k`s`ks``s``s`ks``s`kk``s`ks``s`k`s`k``si`kkk`k``s``s`ks``s`kk``s`ksk`k``s`k`s``s`kskk`k``s``s`ks``s``s`ksk`k`s`k.1``s``s`ksk`k`s`k.0``s``si`k`ki`kk``s``s``s`k`s``si`k``s`k.9.1``s``s`ks``s``s`ks``s`k`s`k``si`kkk`k``s``s`ksk`k``s``s`ksk`k.1`k``s``si`k``s`k.1.1``si`k``s`k.0.1``s``si`k`ki`kk``s``s``s``si`k`ki`kk`k.9``s``s``si`kk``s``s`ks``s`k`s`k``s``si`k`ki`kkk`ki``s`k``s`kr``s`k..``s``s``si`k`ki`kk``s``s``si`kk`k`ki``s`k.s``s``s``si`kk`kk``s`k`d`.r`.o`.m`. `.o`.N.e``s``s``si`k`ki`k`ki``s``s``si`kk`k`ki``s``s``si`kk`kk``s`k.1``s`kr``s`k.,``s``s``si`k`ki`kk``s``s``si`kk`k`ki``s``s``si`kk`kk``s`k.1``s`kr``s`kr``s`k..``s``s``si`k`ki`kk``s``s``si`kk`k`ki``s``s``si`kk`kk``s`k.1`ki``s``si`k`ki`k`ki```s``s``si`kk``s``s``si`kk``si`k`ki``s`k``s``s`ks``s`k`s`k``s``si`k`ki`k`kik``s``s`ks``s`k`s`k``s``si`kk`k`kik``s`k`s`k.s``s``s`ks``s`k`s`k``s``si`kk`kkk``s`k`si``s`k`s`kr``s`k`s`k.,``s``s`ks``s`k`s`k``s``si`k`ki`kkk``s``s`ks``s`k`s`k``s``si`kk`k`kik``s`k`s`k.s``s``s`ks``s`k`s`k``s``si`kk`kkk``s`k`si``s`k`s`kr``s`k`s`kr``s`k`s`k.,``s``s`ks``s`k`s`k``s``si`k`ki`kkk``s``s`ks``s`k`s`k``s``si`kk`k`kik``s`k`s`k.s``s``s`ks``s`k`s`k``s``si`kk`kkk`k``si`ki``si`k`ki``s``s`k``s``s``si`k`ki`k`ki``s``s``si`kk`k`ki``s`k.s``s``s``si`kk`kk``s`k.9``s`k.9``s`kr``s`k.,``s``s``si`k`ki`kk``s``s``si`kk`k`ki``s`k.s``s``s``si`kk`kk``s`k.9``s`k.9`ki``si`k`ki`k``s``si`k.8``s``si`k.7``s``si`k.6``s``si`k.5``s``si`k.4``s``si`k.3``si`k.2```s``si``s``si``s``si`k`d`.,`.d`.n`.u`.o`.r`.a`. `.t`.i`.  `.s`.s`.a`.p`. `.,`.n`.w`.o`.d`. `.e`.n`.o`. `.e`.k`.a`.T`rr`k`d`.l`.a`.w`. `.e`.h`.t`. `.n`.o`. .l``s``si`k`d`.e`.e`.b`. `.f`.o`. .r`k`d`.l`.t`.t`.o`.b`. .ei``s`k`s``s`ks``s`k`sik``s`kkki"; break;
+
+
+
+      // identity test
+
+      case 5: document.getElementById("program").value = "```skk`i`.Xi"; break;
+
+
+
+      // promise test
+
+      case 6: document.getElementById("program").value = "``d.Ai"; break;
+
+
+
+      case 7: document.getElementById("program").value = ""; break;
+
+      case 8: document.getElementById("program").value = ""; break;
+
+      case 9: document.getElementById("program").value = ""; break;
+
+   }
+
+}
+
+
+
+/***********************************************************************
+
+ * Program:    Combinatory Logic Tutorial                              *
+
+ ***********************************************************************/
+
+function cons(car, cdr) {
+
+   this.car = car;
+
+   this.cdr = cdr;
+
+}
+
+
+
+// takes a stack of symbols, returns a pair: a tree and the remaining symbols
+
+function fold(split) {
+
+   if (split == null) return (new cons (null, null));
+
+   if (split.length == 0) return (new cons (null, null));
+
+   var token = split.pop();
+
+   if (token == "") return (new cons (null, null));
+
+   if (token == "(") return (new cons (null, split));
+
+   var next = fold(split);
+
+   if (token == ")") {
+
+      if (next.car == null) return (new cons (null, split));
+
+      var nextnext = fold(next.cdr);
+
+      if (nextnext.car == null) return (new cons (next.car, nextnext.cdr));
+
+      return (new cons ((new cons (nextnext.car, next.car)), nextnext.cdr))
+
+   }
+
+   if (next.car == null) return (new cons (token, next.cdr));
+
+   return (new cons ((new cons (next.car, token)), next.cdr))
+
+}
+
+
+
+// Keep reducing until there is no more change
+
+function fixedPoint (tree) {
+
+   var t2 = reduce(tree);
+
+   if (treeToString(tree) == treeToString(t2)) return (tree);
+
+   return (fixedPoint (t2));
+
+}
+
+
+
+// Reduce all the arguments, then try to do beta conversion on the whole
+
+function reduce(tree) {
+
+   if (tree == null) return (tree);
+
+   if (typeof(tree) == "string") return (tree);
+
+   return (convert (new cons (reduce (tree.car), reduce (tree.cdr))));
+
+}
+
+
+
+function leftDepth(tree) {
+
+   if (tree == null) return (0);
+
+   if (typeof(tree) == "string") return (0);
+
+   return (1 + leftDepth(tree.car));
+
+}
+
+
+
+function convert(tree) {
+
+   // K X Y ==> X
+
+   if ((leftDepth(tree) == 2) && (tree.car.car == "K"))
+
+      return (tree.car.cdr);
+
+
+
+   // S X Y Z ==> ((X Z)(Y Z))
+
+   if ((leftDepth(tree) == 3) && (tree.car.car.car == "S"))
+
+      return (new cons ((new cons (tree.car.car.cdr, tree.cdr)), (new cons (tree.car.cdr, tree.cdr))));
+
+
+
+   return(tree);
+
+}
+
+
+
+function treeToString(tree) {
+
+   if (tree == null) return ("")
+
+   if (tree.car == null) return (tree.cdr)
+
+   if ((tree.car).car == null)
+
+      return (treeToString(tree.car) + " " + treeToString(tree.cdr))
+
+   return ("(" + treeToString(tree.car) + ")" + treeToString(tree.cdr))
+
+}
+
+
+
+// use this instead of treeToString if you want to see the full structure
+
+function treeToStringRaw(tree) {
+
+   if (tree == null) return ("@")
+
+   if (typeof(tree) == "string") return (tree);
+
+   return ("("+treeToStringRaw(tree.car) + treeToStringRaw(tree.cdr) + ")")
+
+}
+
+
+
+function stringToTree(input) {
+
+   input = input.replace(/[ \f\n\r\t\v]/g,"");
+
+   input = input.replace(/(.)/g, " $1");
+
+   return ((fold(input.split(/ /))).car);
+
+}
+
+
+
+function mytry() {
+
+   i = 0;
+
+   s = birds(document.getElementById("input").value);
+
+   s = treeToStringRaw(fixedPoint(stringToTree(s)));
+
+   document.getElementById("result").value = s;
+
+}
+
+
+
+function ultry() {
+
+   i = 0;
+
+   s = birds(document.getElementById("input").value);
+
+   s = treeToStringRaw(fixedPoint(stringToTree(s)));
+
+   s = s.replace(/\(\(SK\)K\)/g, "i");
+
+   s = s.replace(/S/g, "s");
+
+   s = s.replace(/K/g, "k");
+
+   s = s.replace(/\(/g, "`");
+
+   s = s.replace(/\)/g, "");
+
+   document.getElementById("result").value = s;
+
+}
+
+
+
+function birds(s) {
+
+   s = s.replace(/ /g, "");
+
+   s = s.replace(/W\*\*/g, "(S(K(S(K((S(K(S((S(K((S((SK)K))((SK)K))))((S(K((S(KS))K)))((S(K(S((SK)K))))K))))))K)))))");
+
+   s = s.replace(/C\*\*/g, "(S(K(S(K((S((S(K((S(KS))K)))S))(KK))))))");
+
+   s = s.replace(/R\*\*/g, "(S(K((S(K((S((S(K((S(KS))K)))S))(KK))))(S(K((S((S(K((S(KS))K)))S))(KK)))))))");
+
+   s = s.replace(/F\*\*/g, "(S(K((S(K(S(K((S((S(K((S(KS))K)))S))(KK))))))((S(K((S((S(K((S(KS))K)))S))(KK))))(S(K((S((S(K((S(KS))K)))S))(KK))))))))");
+
+   s = s.replace(/V\*\*/g, "(S(K((S(K((S((S(K((S(KS))K)))S))(KK))))((S(K(S(K((S((S(K((S(KS))K)))S))(KK))))))((S(K((S((S(K((S(KS))K)))S))(KK))))(S(K((S((S(K((S(KS))K)))S))(KK)))))))))");
+
+   s = s.replace(/I\*/g,   "(S(SK))");
+
+   s = s.replace(/W\*/g,   "(S(K((S(K(S((S(K((S((SK)K))((SK)K))))((S(K((S(KS))K)))((S(K(S((SK)K))))K))))))K)))");
+
+   s = s.replace(/C\*/g,   "(S(K((S((S(K((S(KS))K)))S))(KK))))");
+
+   s = s.replace(/R\*/g,   "((S(K((S((S(K((S(KS))K)))S))(KK))))(S(K((S((S(K((S(KS))K)))S))(KK)))))");
+
+   s = s.replace(/F\*/g,   "((S(K(S(K((S((S(K((S(KS))K)))S))(KK))))))((S(K((S((S(K((S(KS))K)))S))(KK))))(S(K((S((S(K((S(KS))K)))S))(KK))))))");
+
+   s = s.replace(/V\*/g,   "((S(K((S((S(K((S(KS))K)))S))(KK))))((S(K(S(K((S((S(K((S(KS))K)))S))(KK))))))((S(K((S((S(K((S(KS))K)))S))(KK))))(S(K((S((S(K((S(KS))K)))S))(KK)))))))");
+
+   s = s.replace(/E\^/g,   "((S(K((S(K((S(KS))K)))((S(KS))K))))(S(K((S(K((S(KS))K)))((S(KS))K)))))");
+
+   s = s.replace(/B1/g,    "((S(K((S(KS))K)))((S(KS))K))");
+
+   s = s.replace(/B2/g,    "((S(K((S(K((S(KS))K)))((S(KS))K))))((S(KS))K))");
+
+   s = s.replace(/B3/g,    "((S(K((S(K((S(KS))K)))((S(KS))K))))((S(KS))K))");
+
+   s = s.replace(/D1/g,    "(S(K(S(K((S(KS))K)))))");
+
+   s = s.replace(/D2/g,    "((S(K((S(KS))K)))(S(K((S(KS))K))))");
+
+   s = s.replace(/M2/g,    "(S(K((S((SK)K))((SK)K))))");
+
+   s = s.replace(/Q1/g,    "((S(K((S((S(K((S(KS))K)))S))(KK))))((S(KS))K))");
+
+   s = s.replace(/Q2/g,    "((S(K(S((S(K((S((S(K((S(KS))K)))S))(KK))))((S(KS))K)))))K)");
+
+   s = s.replace(/Q3/g,    "(S(K((S(K(S((SK)K))))K)))");
+
+   s = s.replace(/Q4/g,    "((S(K((S((S(K((S(KS))K)))S))(KK))))((S(K(S((S(K((S((S(K((S(KS))K)))S))(KK))))((S(KS))K)))))K))");
+
+   s = s.replace(/W1/g,    "((S(K(S((S(K(S((S(K((S((SK)K))((SK)K))))((S(K((S(KS))K)))((S(K(S((SK)K))))K))))))K))))K)");
+
+   s = s.replace(/B/g,     "((S(KS))K)");
+
+   s = s.replace(/C/g,     "((S((S(K((S(KS))K)))S))(KK))");
+
+   s = s.replace(/D/g,     "(S(K((S(KS))K)))");
+
+   s = s.replace(/E/g,     "(S(K((S(K((S(KS))K)))((S(KS))K))))");
+
+   s = s.replace(/F/g,     "((S(K((S((SK)K))(K((S(K(S((SK)K))))K)))))((S(K((S(K((S(KS))K)))((S(KS))K))))((S(K(S((SK)K))))K)))");
+
+   s = s.replace(/G/g,     "((S(K((S(KS))K)))((S((S(K((S(KS))K)))S))(KK)))");
+
+   s = s.replace(/H/g,     "((S(K((S(K(S((S(K((S((SK)K))((SK)K))))((S(K((S(KS))K)))((S(K(S((SK)K))))K))))))K)))(S(K((S((S(K((S(KS))K)))S))(KK)))))");
+
+   s = s.replace(/I/g,     "((SK)K)");
+
+   s = s.replace(/J/g,     "((S(K(S(K((S((S(K((S(KS))K)))S))(KK))))))((S((S(K((S((SK)K))((SK)K))))((S(K((S(KS))K)))((S(K(S((SK)K))))K))))(K((S(K((S((S(K((S(KS))K)))S))(KK))))(S(K((S(K((S(KS))K)))((S(KS))K))))))))");
+
+   s = s.replace(/L/g,     "((S((S(KS))K))(K((S((SK)K))((SK)K))))");
+
+   s = s.replace(/M/g,     "((S((SK)K))((SK)K))");
+
+   s = s.replace(/O/g,     "(S((SK)K))");
+
+   s = s.replace(/Q/g,     "((S(K(S((S(KS))K))))K)");
+
+   s = s.replace(/R/g,     "((S(K((S(KS))K)))((S(K(S((SK)K))))K))");
+
+   s = s.replace(/T/g,     "((S(K(S((SK)K))))K)");
+
+   s = s.replace(/U/g,     "((S(K(S((SK)K))))((S((SK)K))((SK)K)))");
+
+   s = s.replace(/V/g,     "((S(K((S((S(K((S(KS))K)))S))(KK))))((S(K(S((SK)K))))K))");
+
+   s = s.replace(/W/g,     "((S(K(S((S(K((S((SK)K))((SK)K))))((S(K((S(KS))K)))((S(K(S((SK)K))))K))))))K)");
+
+   s = s.replace(/Y/g,     "(((SS)K)((S(K((SS)(S((SS)K)))))K)");
+
+   return s;
+
+}
+
+
+
+function reversebirds(s) {
+
+   s = s.replace(/ /g, "");
+
+   s = s.replace(/\(\(S\(K\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\)\)\(\(S\(\(S\(K\(\(S\(\(SK\)K\)\)\(\(SK\)K\)\)\)\)\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(K\(S\(\(SK\)K\)\)\)\)K\)\)\)\)\(K\(\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\(S\(K\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(KS\)\)K\)\)\)\)\)\)\)\)/g, "J");
+
+   s = s.replace(/\(S\(K\(\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\(\(S\(K\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\)\)\(\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\)\)\)\)\)/g, "V**");
+
+   s = s.replace(/\(\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\(\(S\(K\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\)\)\(\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\)\)\)/g, "V*");
+
+   s = s.replace(/\(S\(K\(\(S\(K\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\)\)\(\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\)\)\)\)/g, "F**");
+
+   s = s.replace(/\(\(S\(K\(\(S\(K\(S\(\(S\(K\(\(S\(\(SK\)K\)\)\(\(SK\)K\)\)\)\)\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(K\(S\(\(SK\)K\)\)\)\)K\)\)\)\)\)\)K\)\)\)\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\)/g, "H");
+
+   s = s.replace(/\(\(S\(K\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\)\)\(\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\)\)/g, "F*");
+
+   s = s.replace(/\(\(S\(K\(\(S\(\(SK\)K\)\)\(K\(\(S\(K\(S\(\(SK\)K\)\)\)\)K\)\)\)\)\)\(\(S\(K\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(KS\)\)K\)\)\)\)\(\(S\(K\(S\(\(SK\)K\)\)\)\)K\)\)\)/g, "F");
+
+   s = s.replace(/\(\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\(\(S\(K\(S\(\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\(\(S\(KS\)\)K\)\)\)\)\)K\)\)/g, "Q4");
+
+   s = s.replace(/\(\(S\(K\(S\(\(S\(K\(S\(\(S\(K\(\(S\(\(SK\)K\)\)\(\(SK\)K\)\)\)\)\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(K\(S\(\(SK\)K\)\)\)\)K\)\)\)\)\)\)K\)\)\)\)K\)/g, "W1");
+
+   s = s.replace(/\(S\(K\(S\(K\(\(S\(K\(S\(\(S\(K\(\(S\(\(SK\)K\)\)\(\(SK\)K\)\)\)\)\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(K\(S\(\(SK\)K\)\)\)\)K\)\)\)\)\)\)K\)\)\)\)\)/g, "W**");
+
+   s = s.replace(/\(S\(K\(\(S\(K\(S\(\(S\(K\(\(S\(\(SK\)K\)\)\(\(SK\)K\)\)\)\)\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(K\(S\(\(SK\)K\)\)\)\)K\)\)\)\)\)\)K\)\)\)/g, "W*");
+
+   s = s.replace(/\(\(S\(K\(S\(\(S\(K\(\(S\(\(SK\)K\)\)\(\(SK\)K\)\)\)\)\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(K\(S\(\(SK\)K\)\)\)\)K\)\)\)\)\)\)K\)/g, "W");
+
+   s = s.replace(/\(S\(K\(\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\)\)\)/g, "R**");
+
+   s = s.replace(/\(\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\)/g, "R*");
+
+   s = s.replace(/\(\(S\(K\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(KS\)\)K\)\)\)\)\(S\(K\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(KS\)\)K\)\)\)\)\)/g, "E^");
+
+   s = s.replace(/\(\(S\(K\(S\(\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\(\(S\(KS\)\)K\)\)\)\)\)K\)/g, "Q2");
+
+   s = s.replace(/\(\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\(\(S\(K\(S\(\(SK\)K\)\)\)\)K\)\)/g, "V");
+
+   s = s.replace(/\(\(S\(K\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(KS\)\)K\)\)\)\)\(\(S\(KS\)\)K\)\)/g, "B2");
+
+   s = s.replace(/\(\(S\(K\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(KS\)\)K\)\)\)\)\(\(S\(KS\)\)K\)\)/g, "B3");
+
+   s = s.replace(/\(\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\(\(S\(KS\)\)K\)\)/g, "Q1");
+
+   s = s.replace(/\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)/g, "G");
+
+   s = s.replace(/\(S\(K\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)\)\)/g, "C**");
+
+   s = s.replace(/\(\(S\(\(S\(KS\)\)K\)\)\(K\(\(S\(\(SK\)K\)\)\(\(SK\)K\)\)\)\)/g, "L");
+
+   s = s.replace(/\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(K\(S\(\(SK\)K\)\)\)\)K\)\)/g, "R");
+
+   s = s.replace(/\(\(S\(K\(S\(\(SK\)K\)\)\)\)\(\(S\(\(SK\)K\)\)\(\(SK\)K\)\)\)/g, "U");
+
+   s = s.replace(/\(S\(K\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)\)\)/g, "C*");
+
+   s = s.replace(/\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(S\(K\(\(S\(KS\)\)K\)\)\)\)/g, "D2");
+
+   s = s.replace(/\(S\(K\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(KS\)\)K\)\)\)\)/g, "E");
+
+   s = s.replace(/\(\(\(SS\)K\)\(\(S\(K\(\(SS\)\(S\(\(SS\)K\)\)\)\)\)K\)/g, "Y");
+
+   s = s.replace(/\(\(S\(K\(\(S\(KS\)\)K\)\)\)\(\(S\(KS\)\)K\)\)/g, "B1");
+
+   s = s.replace(/\(\(S\(\(S\(K\(\(S\(KS\)\)K\)\)\)S\)\)\(KK\)\)/g, "C");
+
+   s = s.replace(/\(S\(K\(\(S\(\(SK\)K\)\)\(\(SK\)K\)\)\)\)/g, "M2");
+
+   s = s.replace(/\(S\(K\(\(S\(K\(S\(\(SK\)K\)\)\)\)K\)\)\)/g, "Q3");
+
+   s = s.replace(/\(S\(K\(S\(K\(\(S\(KS\)\)K\)\)\)\)\)/g, "D1");
+
+   s = s.replace(/\(\(S\(K\(S\(\(S\(KS\)\)K\)\)\)\)K\)/g, "Q");
+
+   s = s.replace(/\(\(S\(\(SK\)K\)\)\(\(SK\)K\)\)/g, "M");
+
+   s = s.replace(/\(\(S\(K\(S\(\(SK\)K\)\)\)\)K\)/g, "T");
+
+   s = s.replace(/\(S\(K\(\(S\(KS\)\)K\)\)\)/g, "D");
+
+   s = s.replace(/\(\(S\(KS\)\)K\)/g, "B");
+
+   s = s.replace(/\(S\(\(SK\)K\)\)/g, "O");
+
+   s = s.replace(/\(S\(SK\)\)/g, "I*");
+
+   s = s.replace(/\(\(SK\)K\)/g, "I");
+
+   return s;
+
+}
+
+
+
+</script>
+
+
+
+<form name='myform' id='myform'>
+
+<p align='center' style='font-size:x-large;font-weight:bold'><a name='birds'>Combinator Birds</a></p>
+
+<table border='2' width='100%'>
+
+   <tr style='font-weight:bold'><td nowrap> Function Abstraction                                          </td><td nowrap> Symbol                            </td><td nowrap> Bird                        </td><td nowrap> Combinator            </td><td> SK Combinator                                                                                                                                                                                                           </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abc.a(bc)                                </td><td nowrap> B                                 </td><td nowrap> Bluebird                    </td><td nowrap> S(KS)K                </td><td style='word-wrap:break-word'> ((S(KS))K)                                                                                                                                                                                 </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcd.a(bcd)                              </td><td nowrap> B<sub>1</sub>                     </td><td nowrap> Blackbird                   </td><td nowrap> BBB                   </td><td style='word-wrap:break-word'> ((S(K((S(KS))K)))((S(KS))K))                                                                                                                                                               </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcde.a(bcde)                            </td><td nowrap> B<sub>2</sub>                     </td><td nowrap> Bunting                     </td><td nowrap> B(BBB)B               </td><td style='word-wrap:break-word'> ((S(K((S(K((S(KS))K)))((S(KS))K))))((S(KS))K))                                                                                                                                             </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcd.a(b(cd))                            </td><td nowrap> B<sub>3</sub>                     </td><td nowrap> Becard                      </td><td nowrap> B(BB)B                </td><td style='word-wrap:break-word'> ((S(K((S(K((S(KS))K)))((S(KS))K))))((S(KS))K))                                                                                                                                             </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abc.acb                                  </td><td nowrap> C                                 </td><td nowrap> Cardinal                    </td><td nowrap> S(BBS)(KK)            </td><td style='word-wrap:break-word'> ((S((S(K((S(KS))K)))S))(KK))                                                                                                                                                               </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcd.ab(cd)                              </td><td nowrap> D                                 </td><td nowrap> Dove                        </td><td nowrap> BB                    </td><td style='word-wrap:break-word'> (S(K((S(KS))K)))                                                                                                                                                                           </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcde.abc(de)                            </td><td nowrap> D<sub>1</sub>                     </td><td nowrap> Dickcissel                  </td><td nowrap> B(BB)                 </td><td style='word-wrap:break-word'> (S(K(S(K((S(KS))K)))))                                                                                                                                                                     </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcde.a(bc)(de)                          </td><td nowrap> D<sub>2</sub>                     </td><td nowrap> Dovekies                    </td><td nowrap> BB(BB)                </td><td style='word-wrap:break-word'> ((S(K((S(KS))K)))(S(K((S(KS))K))))                                                                                                                                                         </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcde.ab(cde)                            </td><td nowrap> E                                 </td><td nowrap> Eagle                       </td><td nowrap> B(BBB)                </td><td style='word-wrap:break-word'> (S(K((S(K((S(KS))K)))((S(KS))K))))                                                                                                                                                         </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcdefg.a(bcd)(efg)                      </td><td nowrap> &#202;                            </td><td nowrap> Bald Eagle                  </td><td nowrap> B(BBB)(B(BBB))        </td><td style='word-wrap:break-word'> ((S(K((S(K((S(KS))K)))((S(KS))K))))(S(K((S(K((S(KS))K)))((S(KS))K)))))                                                                                                                     </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abc.cba                                  </td><td nowrap> F                                 </td><td nowrap> Finch                       </td><td nowrap> ETTET                 </td><td style='word-wrap:break-word'> ((S(K((S((SK)K))(K((S(K(S((SK)K))))K)))))((S(K((S(K((S(KS))K)))((S(KS))K))))((S(K(S((SK)K))))K)))                                                                                          </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcd.ad(bc)                              </td><td nowrap> G                                 </td><td nowrap> Goldfinch                   </td><td nowrap> BBC                   </td><td style='word-wrap:break-word'> ((S(K((S(KS))K)))((S((S(K((S(KS))K)))S))(KK)))                                                                                                                                             </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abc.abcb                                 </td><td nowrap> H                                 </td><td nowrap> Hummingbird                 </td><td nowrap> BW(BC)                </td><td style='word-wrap:break-word'> ((S(K((S(K(S((S(K((S((SK)K))((SK)K))))((S(K((S(KS))K)))((S(K(S((SK)K))))K))))))K)))(S(K((S((S(K((S(KS))K)))S))(KK)))))                                                                     </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>a.a                                      </td><td nowrap> I                                 </td><td nowrap> Identity Bird (aka Idiot)   </td><td nowrap> SKK                   </td><td style='word-wrap:break-word'> ((SK)K)                                                                                                                                                                                    </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcd.ab(adc)                             </td><td nowrap> J                                 </td><td nowrap> Jay                         </td><td nowrap> B(BC)(W(BC(B(BBB))))  </td><td style='word-wrap:break-word'> ((S(K(S(K((S((S(K((S(KS))K)))S))(KK))))))((S((S(K((S((SK)K))((SK)K))))((S(K((S(KS))K)))((S(K(S((SK)K))))K))))(K((S(K((S((S(K((S(KS))K)))S))(KK))))(S(K((S(K((S(KS))K)))((S(KS))K))))))))   </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>ab.a                                     </td><td nowrap> K                                 </td><td nowrap> Kestrel (True)              </td><td nowrap> K                     </td><td style='word-wrap:break-word'> K                                                                                                                                                                                          </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>ab.a(bb)                                 </td><td nowrap> L                                 </td><td nowrap> Lark                        </td><td nowrap> CBM                   </td><td style='word-wrap:break-word'> ((S((S(KS))K))(K((S((SK)K))((SK)K))))                                                                                                                                                      </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>a.aa                                     </td><td nowrap> M                                 </td><td nowrap> Mockingbird                 </td><td nowrap> SII                   </td><td style='word-wrap:break-word'> ((S((SK)K))((SK)K))                                                                                                                                                                        </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>ab.ab(ab)                                </td><td nowrap> M<sub>2</sub>                     </td><td nowrap> Double Mockingbird          </td><td nowrap> BM                    </td><td style='word-wrap:break-word'> (S(K((S((SK)K))((SK)K))))                                                                                                                                                                  </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>ab.b(ab)                                 </td><td nowrap> O                                 </td><td nowrap> Owl                         </td><td nowrap> SI                    </td><td style='word-wrap:break-word'> (S((SK)K))                                                                                                                                                                                 </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abc.b(ac)                                </td><td nowrap> Q                                 </td><td nowrap> Queer Bird                  </td><td nowrap> CB                    </td><td style='word-wrap:break-word'> ((S(K(S((S(KS))K))))K)                                                                                                                                                                     </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abc.a(cb)                                </td><td nowrap> Q<sub>1</sub>                     </td><td nowrap> Quixotic Bird               </td><td nowrap> BCB                   </td><td style='word-wrap:break-word'> ((S(K((S((S(K((S(KS))K)))S))(KK))))((S(KS))K))                                                                                                                                             </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abc.b(ca)                                </td><td nowrap> Q<sub>2</sub>                     </td><td nowrap> Quizzical Bird              </td><td nowrap> C(BCB)                </td><td style='word-wrap:break-word'> ((S(K(S((S(K((S((S(K((S(KS))K)))S))(KK))))((S(KS))K)))))K)                                                                                                                                 </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abc.c(ab)                                </td><td nowrap> Q<sub>3</sub>                     </td><td nowrap> Quirky Bird                 </td><td nowrap> BT                    </td><td style='word-wrap:break-word'> (S(K((S(K(S((SK)K))))K)))                                                                                                                                                                  </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abc.c(ba)                                </td><td nowrap> Q<sub>4</sub>                     </td><td nowrap> Quacky Bird                 </td><td nowrap> F*B                   </td><td style='word-wrap:break-word'> ((S(K((S((S(K((S(KS))K)))S))(KK))))((S(K(S((S(K((S((S(K((S(KS))K)))S))(KK))))((S(KS))K)))))K))                                                                                             </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abc.bca                                  </td><td nowrap> R                                 </td><td nowrap> Robin                       </td><td nowrap> BBT                   </td><td style='word-wrap:break-word'> ((S(K((S(KS))K)))((S(K(S((SK)K))))K))                                                                                                                                                      </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abc.ac(bc)                               </td><td nowrap> S                                 </td><td nowrap> Starling                    </td><td nowrap> S                     </td><td style='word-wrap:break-word'> S                                                                                                                                                                                          </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>ab.ba                                    </td><td nowrap> T                                 </td><td nowrap> Thrush                      </td><td nowrap> CI                    </td><td style='word-wrap:break-word'> ((S(K(S((SK)K))))K)                                                                                                                                                                        </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>ab.b(aab)                                </td><td nowrap> U                                 </td><td nowrap> Turing                      </td><td nowrap> LO                    </td><td style='word-wrap:break-word'> ((S(K(S((SK)K))))((S((SK)K))((SK)K)))                                                                                                                                                      </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abc.cab                                  </td><td nowrap> V                                 </td><td nowrap> Vireo (aka Pairing)         </td><td nowrap> BCT                   </td><td style='word-wrap:break-word'> ((S(K((S((S(K((S(KS))K)))S))(KK))))((S(K(S((SK)K))))K))                                                                                                                                    </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>ab.abb                                   </td><td nowrap> W                                 </td><td nowrap> Warbler                     </td><td nowrap> C(BMR)                </td><td style='word-wrap:break-word'> ((S(K(S((S(K((S((SK)K))((SK)K))))((S(K((S(KS))K)))((S(K(S((SK)K))))K))))))K)                                                                                                               </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>ab.baa                                   </td><td nowrap> W<sup>1</sup>                     </td><td nowrap> Converse Warbler            </td><td nowrap> CW                    </td><td style='word-wrap:break-word'> ((S(K(S((S(K(S((S(K((S((SK)K))((SK)K))))((S(K((S(KS))K)))((S(K(S((SK)K))))K))))))K))))K)                                                                                                   </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>a.a(<font face='symbol'>&#108;</font>a)  </td><td nowrap> Y                                 </td><td nowrap> Why Bird (aka Sage Bird)    </td><td nowrap> SLL                   </td><td style='word-wrap:break-word'> (((SS)K)((S(K((SS)(S((SS)K)))))K)                                                                                                                                                          </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>ab.ab                                    </td><td nowrap> I*                                </td><td nowrap> Identity Bird Once Removed  </td><td nowrap> S(SK)                 </td><td style='word-wrap:break-word'> (S(SK))                                                                                                                                                                                    </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abc.abcc                                 </td><td nowrap> W*                                </td><td nowrap> Warbler Once Removed        </td><td nowrap> BW                    </td><td style='word-wrap:break-word'> (S(K((S(K(S((S(K((S((SK)K))((SK)K))))((S(K((S(KS))K)))((S(K(S((SK)K))))K))))))K)))                                                                                                         </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcd.abdc                                </td><td nowrap> C*                                </td><td nowrap> Cardinal Once Removed       </td><td nowrap> BC                    </td><td style='word-wrap:break-word'> (S(K((S((S(K((S(KS))K)))S))(KK))))                                                                                                                                                         </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcd.acdb                                </td><td nowrap> R*                                </td><td nowrap> Robin Once Removed          </td><td nowrap> C*C*                  </td><td style='word-wrap:break-word'> ((S(K((S((S(K((S(KS))K)))S))(KK))))(S(K((S((S(K((S(KS))K)))S))(KK)))))                                                                                                                     </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcd.adcb                                </td><td nowrap> F*                                </td><td nowrap> Finch Once Removed          </td><td nowrap> BC*R*                 </td><td style='word-wrap:break-word'> ((S(K(S(K((S((S(K((S(KS))K)))S))(KK))))))((S(K((S((S(K((S(KS))K)))S))(KK))))(S(K((S((S(K((S(KS))K)))S))(KK))))))                                                                           </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcd.acbd                                </td><td nowrap> V*                                </td><td nowrap> Vireo Once Removed          </td><td nowrap> C*F*                  </td><td style='word-wrap:break-word'> ((S(K((S((S(K((S(KS))K)))S))(KK))))((S(K(S(K((S((S(K((S(KS))K)))S))(KK))))))((S(K((S((S(K((S(KS))K)))S))(KK))))(S(K((S((S(K((S(KS))K)))S))(KK)))))))                                       </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abc.abc                                  </td><td nowrap> I**                               </td><td nowrap> Identity Bird Twice Removed </td><td nowrap> &nbsp;                </td><td style='word-wrap:break-word'> &nbsp;                                                                                                                                                                                     </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcd.abcdd                               </td><td nowrap> W**                               </td><td nowrap> Warbler Twice Removed       </td><td nowrap> B(BW)                 </td><td style='word-wrap:break-word'> (S(K(S(K((S(K(S((S(K((S((SK)K))((SK)K))))((S(K((S(KS))K)))((S(K(S((SK)K))))K))))))K)))))                                                                                                   </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcde.abced                              </td><td nowrap> C**                               </td><td nowrap> Cardinal Twice Removed      </td><td nowrap> BC*                   </td><td style='word-wrap:break-word'> (S(K(S(K((S((S(K((S(KS))K)))S))(KK))))))                                                                                                                                                   </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcde.abdec                              </td><td nowrap> R**                               </td><td nowrap> Robin Twice Removed         </td><td nowrap> BR*                   </td><td style='word-wrap:break-word'> (S(K((S(K((S((S(K((S(KS))K)))S))(KK))))(S(K((S((S(K((S(KS))K)))S))(KK)))))))                                                                                                               </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcde.abedc                              </td><td nowrap> F**                               </td><td nowrap> Finch Twice Removed         </td><td nowrap> BF*                   </td><td style='word-wrap:break-word'> (S(K((S(K(S(K((S((S(K((S(KS))K)))S))(KK))))))((S(K((S((S(K((S(KS))K)))S))(KK))))(S(K((S((S(K((S(KS))K)))S))(KK))))))))                                                                     </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>abcde.abecd                              </td><td nowrap> V**                               </td><td nowrap> Vireo Twice Removed         </td><td nowrap> BV*                   </td><td style='word-wrap:break-word'> (S(K((S(K((S((S(K((S(KS))K)))S))(KK))))((S(K(S(K((S((S(K((S(KS))K)))S))(KK))))))((S(K((S((S(K((S(KS))K)))S))(KK))))(S(K((S((S(K((S(KS))K)))S))(KK)))))))))                                 </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>ab.b                                     </td><td nowrap> KI                                </td><td nowrap> Kite (False)                </td><td nowrap> KI                    </td><td style='word-wrap:break-word'> (K((SK)K))                                                                                                                                                                                 </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>                                         </td><td nowrap> <font face='symbol'>&#087;</font> </td><td nowrap> Omega                       </td><td nowrap> MM                    </td><td style='word-wrap:break-word'> (((S((SK)K))((SK)K))((S((SK)K))((SK)K)))                                                                                                                                                   </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>ab.bb                                    </td><td nowrap> KM                                </td><td nowrap> Konstant Mocker             </td><td nowrap> KM                    </td><td style='word-wrap:break-word'> (K((S((SK)K))((SK)K)))                                                                                                                                                                     </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>ab.aa                                    </td><td nowrap> C(KM)                             </td><td nowrap> Crossed Konstant Mocker     </td><td nowrap> C(KM)                 </td><td style='word-wrap:break-word'> ((S(K(S(K((S((SK)K))((SK)K))))))K)                                                                                                                                                         </td></tr>
+
+   <tr valign='top'><td nowrap> <font face='symbol'>&#108;</font>                                         </td><td nowrap> <font face='symbol'>&#081;</font> </td><td nowrap> Theta                       </td><td nowrap> YO                    </td><td style='word-wrap:break-word'> ((((SS)K)((S(K((SS)(S((SS)K)))))K)(S((SK)K)))                                                                                                                                              </td></tr>
+
+</table>
+
+</p>
+
+<p>&nbsp;</p>
+
+<p>
+
+<div style='font-size:medium'>Notes on the Combinator Birds:</div>
+
+<ol>
+
+<li>The combinatory birds were borrowed from <a href='http://www.amazon.com/exec/obidos/tg/detail/-/0394534913/104-1615637-3868724'>To Mock A MockingBird</a>, by Raymond Smullyan.</li>
+
+<li>Some additional information about combinator birds can be found in <a href='http://dkeenan.com/Lambda/'>To Dissect a Mockingbird</a> by David C Keenan.</li>
+
+<li>Some of the SK Combinatory terms were first reduced using the <a href='http://homepages.nyu.edu/~cb125/Lambda/ski.html'>Combinatory Logic Tutorial</a> by Chris Barker.</li>
+
+</ol>
+
+</p>
+
+
+
+
+
+<p>&nbsp;</p>
+
+<hr color='gray'>
+
+<p>&nbsp;</p>
+
+
+
+<div style='text-align:center'>
+
+   <div style='font-size:x-large;font-weight:bold'><a name='calculator'>Combinator Calculator</a></div><br />
+
+   <textarea name='input' id='input' cols='80' rows='10' wrap='virtual'>JI*abc</textarea><br />
+
+   <input type='button' onclick='mytry()' value='Reduce SK'> &nbsp; &nbsp;
+
+   <input type='button' onclick='ultry()' value='to Unlambda'><br />
+
+   <textarea name='result' id='result' cols='80' rows='10' wrap='virtual'></textarea><br />
+
+   <input type='button' onclick='document.getElementById("input").value = reversebirds(document.getElementById("result").value)' value='Reverse SK'> &nbsp; &nbsp;
+
+</div>
+
+<p>&nbsp;</p>
+
+<p>
+
+<div style='font-size:medium'>Combinator Calculator:</div>
+
+<ol>
+
+<li>The javascript program to do the combinator reduction was borrowed from the <a href='http://homepages.nyu.edu/~cb125/Lambda/ski.html'>Combinatory Logic Tutorial</a> by Chris Barker.</li>
+
+<li>The calculator requires that the known combinator birds are entered in upper case.</li>
+
+<li>The unknown functions work best if they are entered in lowercase (e.g. S(KS)Kabc).</li>
+
+<li>The program was extended to support most of the birds in the Combinator Bird table at the top of this web page.</li>
+
+<li>The bird symbols that are one character may be entered directly (e.g. SKBJ).</li>
+
+<li>The minor and converse birds can be entered using two characters (e.g. B1 = blackbird).</li>
+
+<li>The star birds can be entered using two or three characters (e.g. C** = cardinal twice removed).</li>
+
+<li>The Omega and Theta symbols are not supported (use MM and YO instead).</li>
+
+</ol>
+
+</p>
+
+
+
+<p>&nbsp;</p>
+
+<hr color='gray'>
+
+<p>&nbsp;</p>
+
+
+
+<div style='text-align:center'>
+
+   <div style='font-size:x-large;font-weight:bold'><a name='unlambda'>Partial Unlambda Interpreter</a></div><br />
+
+   <textarea name='program' id='program' cols='80' rows='10' wrap='virtual'></textarea><br />
+
+   <input type='button' value='Compile' onclick='compile()'>
+
+   &nbsp;
+
+   &nbsp;
+
+   &nbsp;
+
+   <select name='numprogram' id='numprogram' onchange='setprogram()'>
+
+      <option value=''></option>
+
+      <option value='1'>Hello World</option>
+
+      <option value='2'>Fibo (short)</option>
+
+      <option value='3'>Fibo (long)</option>
+
+      <option value='4'>99 Bottles</option>
+
+      <option value='5'>Identity Test</option>
+
+      <option value='6'>Promise Test</option>
+
+   </select><br />
+
+</div>
+
+<p>&nbsp;</p>
+
+<p>
+
+<div style='font-size:medium'>Notes on the Partial Unlambda Interpreter:</div>
+
+<ul>
+
+<li>The unlambda grammer and sample programs were borrowed from the <a href='http://www.eleves.ens.fr:8080/home/madore/programs/unlambda/'>Unlambda Programming Language</a> by David Madore.</li>
+
+<li>Currently supports the following operators: ` s k i v r .x</li>
+
+<li>The interpreter also supports comments (#) and other whitespace characters.</li>
+
+<li>The d & c operators are not supported - I'm trying to figure out a semi-elegant solution (read workable).</li>
+
+<li>The operators added in version 2 of unlambda are not implemented: @ ? | e</li>
+
+<li>The interpreter requires the ability to open a popup browser window to output the results.</li>
+
+<li>The tight loop programs (like fibo) will lock up the Mozilla Browser.  If someone knows a way to do a periodic resource relinquish in JavaScript, I'm open to suggestions</a>
+
+</ul>
+
+</p>
+
+
+
+
+
+<hr>
+
+<address>
+
+<a href="https://www.angelfire.com/tx4/cus/index.html">Chris Rathman</a> /
+
+<a href="mailto:Chris.Rathman@gmail.com">Chris.Rathman@gmail.com</a>
+
+</address>
+
+
+
+<script language='JavaScript'>
+
+</script>
+
+</body>
+
+</html>
+

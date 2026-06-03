@@ -8,7 +8,11 @@
 
 > **resource** _SSA is Functional Programming_ "SSA is just another name for [[lambda-calculus]]" --- [[ssafun.pdf]] --- <https://www.cs.princeton.edu/~appel/papers/ssafun.pdf> --- <https://crypto.stanford.edu/~blynn/compiler/lambda.html>
 
+> **resource** my toy functional language, PNLC --- <https://github.com/Bricktech2000/PNLC/>
+
 the λ-calculus is a simple [[programming language]] and [[turing complete]] model of computation. it is the basis for most [[functional programming]] [[programming language]]s
+
+**definition** a _redex_ is a λ-term of the form $(x.\ e_1)\ e_2$; it can be reduced by _β-reduction_
 
 **definition** _β-reduction_ is the process of [[substitution]] of bound variables with the argument to an abstraction
 
@@ -31,6 +35,15 @@ the λ-calculus is a simple [[programming language]] and [[turing complete]] mod
 **definition** a λ-term is _weakly normalizing_ if and only if there exists a chain of β-reductions on the term that reaches a _β-normal form_ --- <https://youtu.be/R1dmeFEJyqI?t=772>
 
 **definition** a λ-term is _strongly normalizing_ if and only if every chain of β-reductions on the term reaches a _β-normal form_ --- <https://youtu.be/R1dmeFEJyqI?t=772>
+
+> **resource** _Normal Forms_ by John Hui, a summary of beta, head, weak, and weak head normal forms --- [[Normal Forms - j-hui.pdf]] --- <https://j-hui.com/pages/normal-forms/>. (the table's caption is backward, it's which redexes are **reduced**, not which redexes are _allowed_)
+
+> **note** there are terms $T$ and $U$ such that $T\ U$ is weakly normalizing but $T$ is not. one example is $T = x.\ x\ ((x.\ x\ x)\ (x.\ x\ x))$ with $U = x.\ x.\ x$. equivalently, normal-order reduction may hang on a $T$ with free $x$ but halt on $T[U/x]$ for some $U$. the problem arises because reduction to beta normal form recurses into the right-hand side of applications. so lazy λ-calculus interpreters face a choice:
+>
+> 1. reduce to beta normal form: reduced terms are redex-free, but a $T$ may hang even when $T[U/x]$ halts for some $U$.
+> 2. reduce to head normal form: a $T$ never hangs when $T[U/x]$ halts for some $U$, but reduced terms are not redex-free.
+>
+> --- Ethan Sue and I --- CS Club Discord #bookclub
 
 **definition** _α-conversion_ is the process of renaming bound variables to avoid name collisions
 
@@ -132,7 +145,7 @@ we can then define the [[boolean#operator]]s:
 
 ### Pairs
 
-**see** [[ordered pair]]
+**see** [[pair]]
 
 `data Pair x y = Pair x y` be encoded in the [[lambda-calculus]] as follows:
 
@@ -144,7 +157,7 @@ we can then define the [[boolean#operator]]s:
 
 --- <https://youtu.be/K-4Mj3LpP2E>
 
-the Church encoding encodes recursive [[type#algebraic data type]]s by building up a generalized [[monoid#fold]] over the data. providing a fold [[function]] and a base case to a term β-reduces to the result of a fold over it. however, accessing the data of a recursive variant is tricky and generally not of constant time [[computational complexity]]
+the Church encoding encodes recursive [[type#algebraic data type]]s as their own catamorphism, see [[recursion#scheme]] --- me. providing a term with the fold [[function]]s and base cases to handle one non-recursive layer of the recursive type will β-reduce to a fold over the term. consequently, accessing the data of a recursive variant is tricky and generally not of constant time [[computational complexity]]
 
 ### Church Numerals
 
@@ -178,7 +191,7 @@ we can then define:
 
 --- <https://crypto.stanford.edu/~blynn/compiler/scott.html>
 
-the Scott encoding encodes recursive [[type#algebraic data type]]s in the obvious way, building a decision tree of sorts. folding over a term requires explicit external [[recursion]], say by using a [[fixed point]] [[combinator]] such as the [[combinator#y combinator]]. that said, accessing the data of a recursive variant is trivial and of constant time [[computational complexity]]
+the Scott encoding encodes recursive [[type#algebraic data type]]s in the obvious way, building a decision tree of sorts. folding over a term requires external [[recursion]], say by using a [[fixed point]] [[combinator]] like the [[combinator#y combinator]] or by using a [[recursion#scheme]]. that said, accessing the data of a recursive variant is trivial and of constant time [[computational complexity]]
 
 ### Scott Numbers
 

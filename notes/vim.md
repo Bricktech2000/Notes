@@ -40,7 +40,9 @@ some useful bindings not present in the quickref:
 - c`<c-r><c-a>` --- insert the WORD under the cursor
 - c`<c-r><c-l>` --- insert the line under the cursor
 - `gn` - `gN` --- select next/previous match, applying an operator if one is pending
+- o`v` - o`V` - o`<c-v>` --- force the operator to work charwise/linewise/blockwise
 - o`v` --- when motion is charwise, toggle inclusive/exclusive
+- o`2i'` - o`2i"` --- o`a'`/o`a"` but without surrounding whitespace
 - i`<c-x><c-e>` - i`<c-x><c-y>` --- scroll from within insert mode
 - i`<c-x><c-l>` --- autocomplete the entire line, ignoring indent
 - i`<c-x><c-l>` --- after `<c-x><c-l>`, autocomplete subsequent lines
@@ -106,7 +108,7 @@ some "compound" bindings to be treated as units for [[procedural memory]]:
 - `VP` --- replace the current line with the contents of the unnamed register
 - `<cr>;` - `-;` --- repeat last `f`/`t` search on the next/previous line
 - `gon` - `GN` --- repeat last `/`/`?` search from the start/end of the buffer
-- `<c-o><c-w>^` --- reopen just-opened buffer in new window instead
+- `<c-^><c-w>^` --- reopen just-opened buffer in new window instead
 - `<space><bs>` - `<bs><space>` --- set curswant to the current column number
 
 some small tricks and workflows I use:
@@ -126,7 +128,7 @@ some small tricks and workflows I use:
 - edit the current command-line in normal mode with `<c-f>`
 - move left and right, wrapping across lines, with `<bs>` and `<space>` --- by default, `<bs>` and `<space>` are in `'whichwrap'` while `h` and `l` are not
 - jump to the first byte of a file with `go` --- `gg` won't go to the first byte when `'nostartofline'` is set
-  > **resource** _Byte Positions Are Better Than Line Numbers_, by Casey Muratori --- <https://www.computerenhance.com/p/byte-positions-are-better-than-line>
+  > **resource** _Byte Positions Are Better Than Line Numbers_, by Casey Muratori --- [[Byte Positions Are Better Than Line Numbers.pdf]] --- <https://www.computerenhance.com/p/byte-positions-are-better-than-line>
 - hold the shift key to temporarily disable the mouse
 - view a searchable digraph table with `:h euro<cr>`
 - jump to a URL or path on the current line with `f/` and `F/` --- slashes are uncommon and URLs and paths usually contain them
@@ -134,8 +136,10 @@ some small tricks and workflows I use:
 - temporarily isolate a window with `<c-w>|`/`<c-w>_` then revert to equal window size with `<c-w>=`
 - insert something of the form _first second first third_ using `i`_first_`<esc>a`_second_`<c-a>`_third_
 - repeat a change with a different motion using `c`_motion_ _replacement_ then `c`_motion_`<c-a>`
-- fill out one cell of a plaintext table with `R`_cell contents_ then move to the next cell up/down with `<c-g>k`/`<c-g>j`
+- fill out one cell of a plaintext table with `gR`_cell contents_ then move to the next cell up/down with `<c-g>k`/`<c-g>j`
 - perform a `*` without clobbering the last search with `]<tab>` aka `]<c-i>`
 - set curswant to the current column number by hitting `<space>` and `<bs>` simultaneously
+- delete the current buffer without closing the window by editing another buffer with say `<c-^>` then running `:bd#<cr>`
+- delete an entire `if/for/while (...) { ... }` construct with `dVaB`
 
 Vim patterns support a `\&` [[operator]] that may look like [[regular expression]] intersection, but unfortunately it's just a lookahead because the subpattern matches are not required to end at the same positions. what a shame

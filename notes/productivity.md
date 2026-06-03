@@ -4,7 +4,7 @@
 
 [[goal]], [[aspiration]], [[habit]], [[system]], [[system over goal]], [[cue]]
 
-[[motivation]], [[overwhelm]], [[procrastination]], [[laziness]], [[focus]]
+[[motivation]], [[overwhelm]], [[procrastination]], [[laziness]], [[focus]], [[friction]]
 
 [[learn]], [[active recall]], [[spaced repetition]], [[interleaving]]
 

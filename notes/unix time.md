@@ -1,10 +1,10 @@
 # Unix Time
 
-**see** [[iso 8601]], [[math notation]]
+**see** [[iso 8601]], [[time standard]]
 
 --- <https://en.wikipedia.org/wiki/Unix_time>
 
-[[unix time]] is a date and [[time]] representation widely used in computing. simplistically, it is the [[integer]] number of seconds elapsed since `1970-01-01T00:00:00Z`, see [[iso 8601]]. in actuality, [[unix time]] experiences a discontinuity during leap seconds so the [[unix time]] number increases by exactly **`86400`** each [[coordinated universal time]] day
+[[unix time]] is a date and [[time]] representation widely used in computing. is the [[integer]] number of non-leap seconds elapsed since `1970-01-01T00:00:00Z`, see [[iso 8601]]. [[unix time]] experiences a discontinuity during leap seconds to preserve that the [[unix time]] number increases by exactly $86400$ each day
 
 **properties**
 

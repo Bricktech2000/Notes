@@ -6,11 +6,17 @@
 
 [[combinator]]s can be manipulated through [[combinatory logic]]
 
+> **proceduce** _big B_, due to Ethan Sue
+>
+> any parenthesization of free variables can be achieved using solely the [[combinator#b combinator]]. for example, $a\ (b\ c)\ (d\ e\ (f\ g)) = B\ B\ (B\ (B\ (B\ B\ (B\ B))\ B))\ a\ b\ c\ d\ e\ f\ g$
+>
+> let terms $R, S, T$ and free variable $x$. repeatedly rewrite $R\ (S\ T) \mapsto \mathrm B\ R\ S\ T$ and $R\ x \mapsto R$ at the top level until all free variables have been consumed. the resulting combinator can be shortened by rewriting $\mathrm B\ R\ S\ T \mapsto R\ (S\ T)$ recursively. the rewrites are carried out on the syntax tree, not on the concrete syntax. --- [[birb.pl]] --- <https://github.com/uocsclub/to-mock-a-mockingbird/blob/main/code/birb.pl>
+
 ---
 
-## Combinators
+# combinators
 
-### I Combinator
+## I Combinator
 
 _identity_
 
@@ -26,7 +32,7 @@ _identity_
 
 **notation** **`(*) x`** #todo id
 
-### K Combinator
+## K Combinator
 
 _discards the second argument_
 
@@ -38,7 +44,7 @@ _discards the second argument_
 
 **notation** **`.x y`**
 
-### S Combinator
+## S Combinator
 
 **aka** _substitution_, _`<*>`_ and _`ap`_ in Haskell
 
@@ -48,7 +54,7 @@ _discards the second argument_
 
 **notation** **`(f g) x`** or equivalently **`(* f g) x`** #todo id
 
-### B Combinator
+## B Combinator
 
 _the [[function#composition]] of its arguments_
 
@@ -66,7 +72,7 @@ _the [[function#composition]] of its arguments_
 
 --- <https://youtu.be/SmXB2K_5lcA?t=612>
 
-### B1 Combinator
+## B1 Combinator
 
 **aka** _"blackbird"_, _`.:`_ in Haskell
 
@@ -76,7 +82,7 @@ _the [[function#composition]] of its arguments_
 
 **definition** `.: = (.) . (.)`
 
-### C Combinator
+## C Combinator
 
 _swaps the arguments to a function_
 
@@ -90,7 +96,7 @@ _swaps the arguments to a function_
 
 **notation** **`rr f x y`**
 
-### W Combinator
+## W Combinator
 
 _duplicates the second argument_
 
@@ -102,7 +108,7 @@ _duplicates the second argument_
 
 **notation** **`(f *) x`** or equivalently **`(* f *) x`** #todo id
 
-### M Combinator
+## M Combinator
 
 _applies a [[function]] to itself_
 
@@ -114,7 +120,7 @@ _applies a [[function]] to itself_
 
 **notation** **`(* *) f`** #todo id
 
-### KI Combinator
+## KI Combinator
 
 _discards the first argument_
 
@@ -124,7 +130,7 @@ _discards the first argument_
 
 **notation** **`.(*)`** #todo id
 
-### T Combinator
+## T Combinator
 
 _applies the first argument to the second argument_
 
@@ -134,13 +140,13 @@ _applies the first argument to the second argument_
 
 **definition** **`T = C I`**
 
-### SBI Combinator
+## SBI Combinator
 
 _applies a [[function]] twice_
 
 **definition** **`S B I = f. x. f (f x)`**
 
-### Sigma Combinator
+## Sigma Combinator
 
 **aka** _chain_, _`=<<`_ in Haskell, _S'_ combinator
 
@@ -148,7 +154,7 @@ _applies a [[function]] twice_
 
 **notation** **`(g f *) x`** #todo id
 
-### Psi Combinator
+## Psi Combinator
 
 **aka** _`on` in Haskell_
 
@@ -156,7 +162,7 @@ _applies a [[function]] twice_
 
 **notation** **`g {x f y}`**
 
-### Phi Combinator
+## Phi Combinator
 
 **aka** _converge_, _`liftA2`_ and _`liftM2`_ and _`phoenix`_ and _`starling'`_ in Haskell, _S2_ combinator, _S'_ combinator, _'fork'_ in APL
 
@@ -164,13 +170,13 @@ _applies a [[function]] twice_
 
 **notation** **`(g f h) x`**
 
-### Phi1 Combinator
+## Phi1 Combinator
 
 **definition** **`FF_1 = f. g. h. x. y. f (g x y) (h x y)`**
 
 **notation** **`x (g f h) y`**
 
-### Y Combinator
+## Y Combinator
 
 **aka** _fixed-point combinator_, _`fix`_ in Haskell
 
@@ -188,7 +194,7 @@ the [[combinator#y combinator]] lets us use recursion in [[programming language]
 
 --- <https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator>
 
-### Theta Combinator
+## Theta Combinator
 
 **aka** _Turing combinator_
 
@@ -202,13 +208,13 @@ the advantage of the [[combinator#theta combinator]] over the [[combinator#y com
 
 --- <https://crypto.stanford.edu/~blynn/lambda/quine.html#_curry>
 
-### Iota Combinator
+## Iota Combinator
 
 **definition** **`ii = x. x S K`**
 
-we have **`ii ii = I /\ ii (ii ii) = S K /\ ii (ii (ii ii)) = K /\ ii (ii (ii (ii ii))) = S`**; the [[combinator#iota combinator]] can be used to define the [[combinator#s combinator]] and [[combinator#k combinator]], and can therefore be composed to produce [[combinator#combinator]]s that are extensionally equal to any term in the [[lambda-calculus]]. consequently, **`ii`** [[combinatory logic]] is [[turing complete]]
+we have **`ii ii = I /\ ii (ii ii) = S K /\ ii (ii (ii ii)) = K /\ ii (ii (ii (ii ii))) = S`**; the [[combinator#iota combinator]] can be used to define the [[combinator#s combinator]] and [[combinator#k combinator]], and can therefore be composed to produce [[combinator]]s that are extensionally equal to any term in the [[lambda-calculus]]. consequently, **`ii`** [[combinatory logic]] is [[turing complete]]
 
-#### ---
+### ---
 
 --- <https://en.wikipedia.org/wiki/Combinatory_logic#One-point_basis>
 
@@ -218,19 +224,21 @@ we have **`ii ii = I /\ ii (ii ii) = S K /\ ii (ii (ii ii)) = K /\ ii (ii (ii (i
 
 --- <https://en.wikipedia.org/wiki/Iota_and_Jot#Universal_iota>
 
-### ---
+## ---
 
 --- <https://en.wikipedia.org/wiki/B,_C,_K,_W_system>
 
 --- <https://en.wikipedia.org/wiki/SKI_combinator_calculus>
 
+--- <https://www.uiua.org/docs/combinators>
+
 --- <https://youtu.be/gnrSedVucXs>
 
 --- <https://youtu.be/Y0KKPYkeOTA>
 
---- <https://combinatorylogic.com/table.html> --- <https://youtu.be/Y0KKPYkeOTA>
+--- [[Combinator Table - Combinatory Logic.html]] --- <https://combinatorylogic.com/table.html> --- <https://youtu.be/Y0KKPYkeOTA>
 
---- <https://www.angelfire.com/tx4/cus/combinator/birds.html> --- <https://combinatorylogic.com/table.html> --- <https://youtu.be/Y0KKPYkeOTA>
+--- [[Combinator Birds.html]] --- <https://www.angelfire.com/tx4/cus/combinator/birds.html> --- <https://combinatorylogic.com/table.html> --- <https://youtu.be/Y0KKPYkeOTA>
 
 --- <https://gist.github.com/Avaq/1f0636ec5c8d6aed2e45#file-combinators-md> --- <https://combinatorylogic.com/table.html> --- <https://youtu.be/Y0KKPYkeOTA>
 

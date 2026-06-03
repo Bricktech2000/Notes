@@ -80,6 +80,8 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 >
 > **bold text**
 >
+> ~~strikethrough text~~
+>
 > `inline code`
 >
 > ```rust
@@ -134,6 +136,23 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 > emoji :smile:
 >
 > [[wikilink|wikilink alias]]
+>
+> foot[^1]
+> [^1]: notes
+>
+> [link](# "titles")
+>
+> definition
+> : lists
+>
+> ==highlight==
+>
+> sub~script~
+>
+> super^script^
+>
+> link [reference]
+> [reference]: # "definitions"
 
 ## other
 

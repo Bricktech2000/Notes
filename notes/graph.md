@@ -18,9 +18,9 @@ _a collection of vertices connected by a collection of edges_
 
 directionality can be "forgotten" by taking the [[relation#symmetric closure]] of the [[graph]]
 
-**definition** in [[conventional math notation]], a _graph_ **`{V, E}`** is a [[set]] of _vertices_ **`V`** and a [[multiset]] of _edges_ **`E`** such that **`E e + 0 < V (e I) /\ V (e O)`** and **`E e == E e(+)`** (see [[relation]], [[ordered pair]])
+**definition** in [[conventional math notation]], a _graph_ **`{V, E}`** is a [[set]] of _vertices_ **`V`** and a [[multiset]] of _edges_ **`E`** such that **`E e + 0 < V (e I) /\ V (e O)`** and **`E e == E e(+)`** (see [[relation]], [[pair]])
 
-**definition** in [[conventional math notation]], a _directed graph_ **`{V, E}`** is a [[set]] of _vertices_ **`V`** and a [[multiset]] of _edges_ **`E`** such that **`E e + 0 < V (e I) /\ V (e O)`** (see [[relation]], [[ordered pair]])
+**definition** in [[conventional math notation]], a _directed graph_ **`{V, E}`** is a [[set]] of _vertices_ **`V`** and a [[multiset]] of _edges_ **`E`** such that **`E e + 0 < V (e I) /\ V (e O)`** (see [[relation]], [[pair]])
 
 **definition** a _vertex_ or _node_ is a point in a _graph_
 

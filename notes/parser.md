@@ -14,6 +14,8 @@ _a higher-order [[function]] that combines [[parser]]s_
 
 > **resource** JSON parser in Haskell leveraging [[parser#combinator]]s, [[functor]]s, [[applicative]]s and [[monad]]s, by Tsoding --- <https://youtu.be/N9RUqGYuGfw>
 
+> **resource** the PNLC prelude, notably the [[parser#combinator]] library it contains --- <https://github.com/Bricktech2000/PNLC/blob/master/prelude.pnlc>
+
 _[[parser#combinator]]s are a way to program a [[parser#recursive descent parser]]_ --- <https://youtu.be/ZI198eFghJk?t=6m25s>
 
 > **example**

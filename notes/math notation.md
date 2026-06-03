@@ -18,7 +18,7 @@ below is a non-exhaustive list of principles that guide the design of this [[mat
 below are examples of a few design decisions following from these principles
 
 - all equality [[operator]]s check for equality and return a [[boolean]], and it is implied that an [[expression]] on its own must evaluate to **`^^`**. this allows for [[boolean#operators]] to be applied on equalities formally and not as an abuse of notation
-- [[set]]s, [[vector]]s, [[matrix]]es, [[sequence]]s, [[multiset]]s, [[ordered pair]]s, [[graph]]s, [[interval]]s, and other objects are defined as [[function]]s. this has some nice consequences, such as:
+- [[set]]s, [[vector]]s, [[matrix]]es, [[sequence]]s, [[multiset]]s, [[pair]]s, [[graph]]s, [[interval]]s, and other objects are defined as [[function]]s. this has some nice consequences, such as:
   - [[set]] [[operator]]s such as unions and intersections are [[boolean#operators]]
   - [[interval]]s are inequalities and [[interval]] [[operator]]s are [[boolean#operators]]
   - [[graph]]s are their own [[graph#adjacency matrix]]es and their own [[graph#adjacency list]]s
@@ -42,7 +42,7 @@ let:
 
 - **`M`** represent a [[matrix]]
 - **`V`** represent a [[vector]]
-- **`P`** represent an [[ordered pair]]
+- **`P`** represent a [[pair]]
 - **`M_*`** represent a [[multiset]]
 - **`G`** represent a [[graph]]
 - **`x, y`** represent a [[variable]]

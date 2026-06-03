@@ -14,7 +14,7 @@
 
 ## DeCasteljau's Algorithm
 
-DeCasteljau's algorithm is a recursive [[algorithm]] for evaluating [[bezier curve]]s, see [[recursion]]. it is the most intuitive way to understand how [[bezier curve]]s work
+DeCasteljau's algorithm is a recursive [[algorithm]] for evaluating [[bezier curve]]s. it is the most intuitive way to understand how [[bezier curve]]s work
 
 **definition** _DeCasteljau's [[algorithm]]_
 

@@ -81,6 +81,8 @@ the simplest way of adapting [[minimax]] to games where players move simultaneou
 
 [[minimax#iterative deepening]] initially searches to depth 0 then iteratively searches deeper and deeper until a target depth is reached or a time limit is hit. [[minimax#alpha--beta pruning]] works best when exploring better moves first, so by keeping track of the best moves each search we can prune more branches in subsequent searches. due to this, [[minimax#iterative deepening]] tends to be faster than searching to the target depth directly
 
+**representation**
+
 ```diff
 -def minimax(state, depth, player, alpha=max(), beta=min()):
 +def minimax(state, depth, player, cache, alpha=max(), beta=min()):
@@ -89,11 +91,11 @@ the simplest way of adapting [[minimax]] to games where players move simultaneou
 
    best = max() if is_maximizing(player) else min()
 -  for move in gen_moves(state):
-+  for move in gen_moves(state, cache[depth-1]):
++  for move in gen_moves(state, cache):
      state.make_move(move)
 -    eval = minimax(state, depth - 1, next_player(player), alpha, beta)
 +    eval = minimax(state, depth - 1, next_player(player), cache, alpha, beta)
-+    cache[depth][move] = eval
++    cache[hash(state)] = eval
      if is_maximizing(player):
        best = max(best, eval)
        alpha = max(alpha, eval)
@@ -108,7 +110,7 @@ the simplest way of adapting [[minimax]] to games where players move simultaneou
    return best
 
 -best = minimax(CURRENT_STATE, TARGET_DEPTH, CURRENT_PLAYER)
-+cache = []
++cache = {}
 +for depth in range(TARGET_DEPTH):
 +  best = minimax(CURRENT_STATE, depth, CURRENT_PLAYER, cache)
 ```

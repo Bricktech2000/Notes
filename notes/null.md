@@ -2,7 +2,7 @@
 
 _`null` the opaque optional type_
 
-_the billion-dollar mistake_ --- Tony Hoare
+_my billion-dollar mistake_ --- Tony Hoare
 
 **see** [[exception]]
 

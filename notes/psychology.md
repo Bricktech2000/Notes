@@ -6,8 +6,6 @@
 
 **see**
 
-[[reaction]], [[response]]
-
 [[memory]]
 
 [[knowledge]], [[intelligence]]

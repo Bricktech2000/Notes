@@ -2,7 +2,7 @@
 
 _everything that seemed like a good idea 20 years ago_
 
-**see** [[object-oriented programming]], [[math notation]]
+**see** [[object-oriented programming]]
 
 ## hello world
 
@@ -30,7 +30,7 @@ java HelloWorld.java
 
 [[java]] has simplistic [[type inference]], through the `var` keyword --- <https://www.geeksforgeeks.org/var-keyword-in-java/>
 
-[[java]] [[array]]s are indexed by [[integer]]s, meaning no [[java]] [[array]] can hold more than **`2[31]`** elements
+[[java]] [[array]]s are indexed by [[integer]]s, meaning no [[java]] [[array]] can hold more than $2^{31}$ elements
 
 [[java]] `import` best practices are basically cargo cult programming --- <https://youtu.be/FyCYva9DhsI?t=1673>
 
@@ -46,20 +46,20 @@ overriding `Object.equals` in [[java]] should ideally follow the pattern below -
 
 ```java
 public class Account {
-	private int id;
-	private String name;
-	// ...
-	public boolean equals(Object o) {
-		if (o == null) return false;
-		if (getClass() != o.getClass()) return false;
-		// if (!(o instanceof Account)) return false; // alternative
+  private int id;
+  private String name;
+  // ...
+  public boolean equals(Object o) {
+    if (o == null) return false;
+    if (getClass() != o.getClass()) return false;
+    // if (!(o instanceof Account)) return false; // alternative
 
-		Account other = (Account) o;
-		if (id != other.id) return false;
-		if (name == null && other.name != null) return false;
-		if (name != null && !name.equals(other.name)) return false;
+    Account other = (Account) o;
+    if (id != other.id) return false;
+    if (name == null && other.name != null) return false;
+    if (name != null && !name.equals(other.name)) return false;
 
-		return true;
+    return true;
   }
 }
 ```

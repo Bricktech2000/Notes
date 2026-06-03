@@ -16,6 +16,8 @@ _assembly with syntactic sugar and undefined behavior_
 
 > **resource** _"New" Features in C_ by Dan Saks, a firehose of modern C features --- <https://youtu.be/ieERUEhs910>
 
+> **resource** _c4 --- C in four functions_, a terse yet readable 500-SLOC one-pass subset-[[c]] compiler --- [[c4.c]] --- <https://github.com/rswier/c4> --- <https://news.ycombinator.com/item?id=22353532>
+
 > **resource** ISO/IEC 9899:TC3, WG14/N1256 --- [[n1256.pdf]] --- <https://www.open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf>
 
 > **resource** C99 Rationale --- [[C99RationaleV5.10.pdf]] --- <https://open-std.org/JTC1/SC22/WG14/www/C99RationaleV5.10.pdf>
@@ -161,11 +163,11 @@ U"foo" // char32_t[6]
 
 [[c]] allows the last member of a `struct` to be a _flexible array member_---an array of unspecified length. calling `sizeof` on a `struct` with a _flexible array member_ will yield the size of the `struct` _as if the flexible array member were omitted except that it may have more trailing padding than the omission would imply_ --- ISO/IEC 9899:TC3, $6.7.2.1, paragraph 16
 
-> **example** `struct { int size; char data[]; } *p = malloc(sizeof(*p) + sizeof(char[m]);`
+> **example** `struct { int size; char data[]; } *p = malloc(sizeof *p + sizeof(char[m]));`
 
-> **note** generally, prefer `struct s *p = malloc(sizeof(*p));` to `struct s *p = malloc(sizeof(struct s));` when using `sizeof` --- <https://www.kernel.org/doc/Documentation/process/coding-style.rst> "Linux kernel coding style", $14 'Allocating memory', and <https://youtu.be/443UNeGrFoM?t=1h3m57s>
+> **note** generally, prefer `struct s *p = malloc(sizeof *p);` to `struct s *p = malloc(sizeof(struct s));` when using `sizeof` --- <https://www.kernel.org/doc/Documentation/process/coding-style.rst> "Linux kernel coding style", $14 'Allocating memory', and <https://youtu.be/443UNeGrFoM?t=1h3m57s>
 >
-> > **note** `void zero(int a[10]) { memset(a, 0, sizeof(a)); }` won't work because `a` decays to a pointer, but `void zero(int (*a)[10]) { memset(a, 0, sizeof(*a)); }` will
+> > **note** `void zero(int a[10]) { memset(a, 0, sizeof a); }` won't work because `a` decays to a pointer, but `void zero(int (*a)[10]) { memset(a, 0, sizeof *a); }` will
 
 `sizeof char` is `1`, and the size of the other integer data types is implementation defined and is available in `limits.h`. each has a standard-imposed minimum magnitude; see ISO/IEC 9899:TC3, Annex E, paragraph 1. actual-width integers such as `uint32_t` and `int32_t`, greatest-width integer types such as `uintmax_t` and `intmax_t`, minimum-width integer types such as `uint_least32_t` and `int_least32_t`, fastest minimum-width integer types such as `uint_fast32_t` and `int_fast32_t`, and integer types capable of holding object pointers, `intptr_t` and `uintptr_t`, are available in `stdint.h` and `inttypes.h`
 
@@ -224,13 +226,15 @@ reordering of declaration specifiers has no effect in [[c]] --- <https://youtu.b
 
 `*` is part of the _declarator_ and not of the _declaration specifier_, which is why `int* a;` is considered bad style
 
-as a rule of thumb, read declarators from the inside out, at each level moving right then moving left
+in [[c]], "declarations mirror use": a declarator syntactically resembles an expression that uses the declared object. as a rule of thumb, read declarators from the inside out, at each level moving right then moving left
 
 > **example** `float (*(*b(void))[])(void);` --- `b` is a function that returns a pointer to an array of pointers to functions returning `float`s --- <https://www.codeproject.com/Articles/7042/How-to-interpret-complex-C-C-declarations>
 
-> **example** `void *(*c)(char, int (*)(void));` --- `c` is a pointer to a function that takes a `char` and {a pointer to a function that returns an `int`} and returns a pointer to `void` --- <https://www.codeproject.com/Articles/7042/How-to-interpret-complex-C-C-declarations>
+> **example** `void *(*c)(char, int (*)(void));` --- `c` is a pointer to a function that takes a `char` and {a pointer to a function returning an `int`} and returns a pointer to `void` --- <https://www.codeproject.com/Articles/7042/How-to-interpret-complex-C-C-declarations>
 
-> **example** in `const char *foo;` the pointee is constant while in `char *const foo` the pointer is constant
+> **example** in `const char *foo;` and `char const *foo;` the pointee is constant while in `char *const foo` the pointer is constant
+
+> **note** [[go]]'s declarations don't mirror use. Rob Pike argues that _You gain clarity at the cost of a separate syntax._. I disagree. he compares the [[c]] declaration `int (*(*fp)(int (*)(int, int), int))(int, int)` to the equivalent [[go]] declaration `f func(func(int,int) int, int) func(int, int) int`. but that's deceptive, most of the noise in the [[c]] declaration is the `*`s, you could just remove them and declarations would still mirror use: `int fp(int (int, int), int)(int, int)`. he correctly identifies that [[go]]'s style is easier to read because it's left-to-right, but you could achieve the same in [[c]] by making `*` a postfix operator and by swapping declarators and declarations specifiers: `fp*(*(int, int) int, int)*(int, int) int`. and since declarations mirror use, nicer declarations means nicer use: compare `a&[5]*++` to `(*(&a)[5])++`. --- [[Go's Declaration Syntax - The Go Programming Language.pdf]] --- <https://go.dev/blog/declaration-syntax>
 
 ## initialization
 
@@ -322,6 +326,13 @@ the [[c]] language imelements _truncating division_; that is,
 - `-10 / 3 == -3` and `-10 % 3 == -1`
 - `-10 / -3 == 3` and `-10 % -3 == -1`
 
+contrast with _flooring division_; for example, in [[python]],
+
+- `10 // 3 == 3` and `10 % 3 == 1`
+- `10 // -3 == -4` and `10 % -3 == -2`
+- `-10 // 3 == -4` and `-10 % 3 == 2`
+- `-10 // -3 == 3` and `-10 % -3 == -1`
+
 left shifting a negative number has [[c#undefined behavior]]. left shifting a signed positive number leading to an _overflow_ has [[c#undefined behavior]]. right shifting a negative number has [[c#implementation-defined behavior]]; either an arithmetic shift or a logical shift is performed
 
 shifting by a negative number of bits or by a number of bits greater than or equal to the width of the _integer-promoted_ left operand has [[c#undefined behavior]]
@@ -336,7 +347,7 @@ type casts in [[c]] can either reinterpret the bits of a value or perform a conv
 
 > **example** `int i = *(int *)&f;` reinterprets the bits of `float f` as an `int`
 
-> **example** `int i = (int)f;` converts `float f` to an `int`
+> **example** `int i = (int)f;` converts `float f` to an `int` by rounding
 
 using one of `<`, `<=`, `>` or `>=` on two pointers to different objects has [[c#undefined behavior]]
 
@@ -408,7 +419,7 @@ _variable-length arrays_ (VLAs) are a [[c]] feature that allows for the creation
 
 VLAs can be used to make indexing into dynamic multidimensional [[array]]s less cumbersome
 
-> **example** `double *p = malloc(sizeof(*p) * rows * cols);` has to be indexed with `p[i * rows + j]` while `double (*p)[rows][cols] = malloc(sizeof(*p));` can be indexed with `(*p)[i][j]` and `double (*p)[rows] = malloc(sizeof(*p) * cols);` can be indexed with `p[i][j]`
+> **example** `double *p = malloc(sizeof *p * rows * cols);` has to be indexed with `p[i * rows + j]` while `double (*p)[rows][cols] = malloc(sizeof *p);` can be indexed with `(*p)[i][j]` and `double (*p)[rows] = malloc(sizeof *p * cols);` can be indexed with `p[i][j]`
 
 ## control flow
 
@@ -574,11 +585,32 @@ whitespace may added between the beginning of a line and a `#` character or betw
 
 `#include` inserts the contents of a file into the current file. the file is searched for in an implementation-defined manner. if the file is not found, the behavior is [[c#implementation-defined behavior]]. if the file is found, the contents of the file are inserted into the current file at the point of the `#include` directive. the difference between quoted include strings (`#include "filename"`) and angle-bracketed include strings (`#include <filename>`) is implementation defined. typically, the former is used for user-defined headers and the latter for system headers
 
-`#define identifier replacement-list` defines an _object-like macro_ named `identifier`; `#define identifier(parameter-list) replacement-list` (with no whitespace between `identifier` and `(`) defines a _function-like macro_ named `identifier`. macro identifiers textually expand to `replacement-list`. `replacement-list` may be empty, in which case instances of `identifier` will simply be removed. `#undef identifier` undefines macro `identifier` and is safe regardless of whether `identifier` is defined. instances of the `##` preprocessing token within a replacement list are deleted, concatenating the preceeding token with the following token; this process is called _token pasting_. if the result is not a valid token, the behavior is [[c#undefined behavior]]. within a function-like macro replacement list, a parameter preceeded by a `#` is replaced with a string literal containing the text of the argument; this process is sometimes called _stringizing_. an unparenthesized `,` within a function-like macro invocation is always interpreted as a macro argument, meaning `LOG([1, 2, 3])` invokes `LOG` with arguments `[1`, `2` and `3]`
+`#define identifier replacement-list` defines an _object-like macro_ named `identifier`; `#define identifier(parameter-list) replacement-list` (with no whitespace between `identifier` and `(`) defines a _function-like macro_ named `identifier`. macro identifiers textually expand to `replacement-list`. `replacement-list` may be empty, in which case instances of `identifier` will simply be removed. `#undef identifier` undefines macro `identifier` and is safe regardless of whether `identifier` is defined. instances of the `##` preprocessing token within a replacement list are deleted, concatenating the preceeding token with the following token; this process is called _token pasting_. if the result is not a valid token, the behavior is [[c#undefined behavior]]. within a function-like macro replacement list, a parameter preceeded by a `#` is replaced with a string literal token containing the text of the argument, as if textually surrounded by a pair of double quotes, with whitespace collapsed into single space characters; this process is sometimes called _stringizing_. if the resulting token is not a valid string literal, the behavior is [[c#undefined behavior]]. an unparenthesized `,` within a function-like macro invocation is always interpreted as a macro argument, meaning `LOG([1, 2, 3])` invokes `LOG` with arguments `[1`, `2` and `3]`
 
 > **example** given `#define DOTS .##.##.`, expansion of `DOTS` has [[c#undefined behavior]], because, even though `...` is a valid token, `..` is not
 
+> **example** given `#define STRINGIZE(X) #X`, `puts(STRINGIZE( beep  \a));` will expand to `puts("beep \a");`
+
 > **resource** Dave Prosser's C Preprocessing Algorithm --- [[x3J11-86-196.pdf]] --- <https://www.spinellis.gr/blog/20060626/>
+
+> **procedure** _macro expansion_
+>
+> 1. _When a macro with arguments is recognized (macro name token followed by `(` token), the following tokens up to the matching `)` are scanned and split (on `,` tokens). No macro expansion happens while this is happening (so the `,`s and `)` must be present in the input stream directly and cannot be in other macros)._
+> 2. _Each macro argument whose name appears in the macro body not preceeded by `#` or `##` or followed by `##` is "prescanned" for macros to expand---any macros entirely within the argument will be recursively expanded before substituting into the macro body._
+> 3. _The resulting macro argument token streams are substituted into the body of the macro. Arguments involved in `#` or `##` operations are modified (stringized or pasted) and substituted based on the original parser tokens from step 1 (step 2 does not occur for these)._
+> 4. _The resulting macro body token stream is scanned again for macros to expand, but ignoring the macro currently being expanded. [Exactly how this happens appears to vary between implementations.] At this point further tokens in the input (after what was scanned and parsed in step 1) may be included as part of any macros recognized._
+>
+> --- <https://stackoverflow.com/questions/66593868/understanding-the-behavior-of-cs-preprocessor-when-a-macro-indirectly-expands-i>
+>
+> --- <https://stackoverflow.com/questions/3136686/is-the-c99-preprocessor-turing-complete>
+>
+> --- <https://stackoverflow.com/questions/67848048/c-c-macro-nested-replacement-logic>
+>
+> --- <https://open-std.org/jtc1/sc22/wg21/docs/cwg_active.html#268>
+>
+> --- <https://stackoverflow.com/questions/12447557/can-we-have-recursive-macros>
+>
+> --- <https://open-std.org/jtc1/sc22/wg21/docs/cwg_active.html#268> "C++ Standard Core Language Active Issues, Revision 119": "268. Macro name suppression in rescanned replacement text"
 
 `#ifdef`, `#ifndef`, `#if`, `#elif`, `#else` and `#endif` are used for conditional compilation. `#ifdef identifier` is equivalent to `#if defined identifier` which is equivalent to `#if defined(identifier)`. `#ifndef identifier` is equivalent to `#if !defined identifier` which is equivalent to `#if !defined(identifier)`. `#if` evaluates its expression and if it is nonzero, the following group of lines is compiled
 
@@ -610,9 +642,9 @@ what color is your macro? in [[c]], expressions are syntactically a [[set#subset
 
 ### useful idioms
 
---- <https://stackoverflow.com/questions/1067226/c-multi-line-macro-do-while0-vs-scope-block>
+--- <https://stackoverflow.com/quons/1067226/c-multi-line-macro-do-while0-vs-scope-block>
 
---- <https://stackoverflow.com/questions/3136686/is-the-c99-preprocessor-turing-complete>
+--- <https://stackoverflow.com/questions/3136686/is-the-c99-preprocessor-turing-complete> and [[cloak.h]] <https://github.com/pfultz2/Cloak/blob/master/cloak.h> and [[C-Preprocessor-tricks,-tips,-and-idioms.md]] <https://github.com/pfultz2/Cloak/wiki/C-Preprocessor-tricks,-tips,-and-idioms>
 
 --- <https://www.chiark.greenend.org.uk/%7Esgtatham/mp/mp.h>
 
@@ -622,7 +654,9 @@ what color is your macro? in [[c]], expressions are syntactically a [[set#subset
 
 --- <https://youtu.be/lLv1s7rKeCM?t=1h15m7s>
 
-macro-expand then token-paste/stringize
+[[lambda-calculus]] constructions tend to lend themselves well to the [[c#preprocessor]] because macros are first-class citizens.
+
+token-paste/stringize without inhibiting expansion
 
 ```c
 #define PASTE_INNER(LHS, RHS) LHS##RHS
@@ -662,7 +696,7 @@ inhibit/force macro expansion
 
 ```c
 #define EMPTY
-#define DEFER(ID) ID EMPTY
+#define DEFER(IDENT) IDENT EMPTY
 #define EXPAND(...) __VA_ARGS__
 // #define ZERO() 0
 // ZERO()                // 0
@@ -690,19 +724,55 @@ X macros and higher-order macros
 overload on/expand to argument count
 
 ```c
-#define SOME_FUNC_N(_3, _2, _1 NAME, ...) NAME
+#define SOME_FUNC_N(_3, _2, _1, NAME, ...) NAME
 #define SOME_FUNC(...)                                                         \
-  FUNC_N(__VA_ARGS__, ternary, binary, unary, nullary)(__VA_ARGS__)
-// SOME_FUNC()        // undefined behavior
+  SOME_FUNC_N(__VA_ARGS__, ternary, binary, unary, nullary)(__VA_ARGS__)
+// SOME_FUNC()        // behavior is undefined
 // SOME_FUNC(x)       // unary(x)
 // SOME_FUNC(x, y)    // binary(x, y)
 // SOME_FUNC(x, y, z) // ternary(x, y, z)
 #define PP_NARG_N(_3, _2, _1, N, ...) N
 #define PP_NARG(...) PP_NARG_N(__VA_ARGS__, 3, 2, 1, 0)
-// PP_NARG()        // undefined behavior
+// PP_NARG()        // behavior is undefined
 // PP_NARG(x)       // 1
 // PP_NARG(x, y)    // 2
 // PP_NARG(x, y, z) // 3
 ```
 
 > **note** using dummy `nullary` and `0` because C99 requires at least one argument to `...` --- ISO/IEC 9899:TC3, $6.10.3, paragraph 4, and `gcc -Wpedantic -std=c99`
+
+lists --- me
+
+```c
+#define EXPAND(...) __VA_ARGS__
+#define PREPEND(LIST, ...) (__VA_ARGS__, EXPAND LIST)
+#define APPEND(LIST, ...) (EXPAND LIST, __VA_ARGS__)
+#define CONCAT(LHS, RHS) (EXPAND LHS, EXPAND RHS)
+#define HEAD_(HEAD, ...) HEAD
+#define TAIL_(HEAD, ...) (__VA_ARGS__)
+#define HEAD(LIST) HEAD_ LIST
+#define TAIL(LIST) TAIL_ LIST
+// #define LIST (1, 2, 3)
+// PREPEND(LIST, 0)   // (0, 1, 2, 3)
+// APPEND(LIST, 4, 5) // (1, 2, 3, 4, 5)
+// CONCAT(LIST, LIST) // (1, 2, 3, 1, 2, 3)
+// HEAD(LIST)         // 1
+// TAIL(LIST)         // (2, 3)
+```
+
+partial macro application --- me
+
+```c
+#define EXPAND(...) __VA_ARGS__
+#define APPEND(LIST, ...) (EXPAND LIST, __VA_ARGS__)
+#define APPLY_(MACRO, ...) MACRO(__VA_ARGS__)
+#define APPLY(LIST) APPLY_ LIST
+// #define VEC3(X, Y, Z) {.x = X, .y = Y, .z = Z}
+// #define ARGS (1, 2, 3)
+// #define PARTIAL APPEND((VEC3), 5)
+// #define SATURATED APPEND(PARTIAL, 6, 7)
+// EXPAND(VEC3 ARGS) // {.x = 1, .y = 2, .z = 3}
+// PARTIAL           // (VEC3, 5)
+// SATURATED         // (VEC3, 5, 6, 7)
+// APPLY(SATURATED)  // {.x = 5, .y = 6, .z = 7}
+```

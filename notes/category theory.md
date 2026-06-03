@@ -77,7 +77,7 @@ exponential laws in category theory --- <https://youtu.be/gui_SE8rJUM?t=2379>
 
 proper category and functor definitions --- <https://youtu.be/H0Ek86IH-3Y>
 
-[[currying]] arises from adjumctions; programming operates in _cartesian closed categories_ --- <https://youtu.be/JH_Ou17_zyU>. also see <https://cs.stackexchange.com/questions/80837/is-smn-theorem-the-same-concept-as-currying>
+[[currying]] arises from adjunctions; programming operates in _cartesian closed categories_ --- <https://youtu.be/JH_Ou17_zyU>. also see <https://cs.stackexchange.com/questions/80837/is-smn-theorem-the-same-concept-as-currying>
 
 ---
 
