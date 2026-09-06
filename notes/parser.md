@@ -1,33 +1,24 @@
 # Parser
 
-_used to build a [[programming language]]_
+#stub
 
-## Recursive Descent Parser
+## Parser Combinator
 
-recursive descent parsers start from the top symbol and build a [[syntax tree]] through [[recursion]]
+> **resource** JSON parser in Haskell leveraging [[parser#parser combinator]]s, [[functor]]s, [[applicative]]s and [[monad]]s, by Tsoding --- <https://youtu.be/N9RUqGYuGfw>
 
-### Combinator
+> **resource** the [[parser#parser combinator]] library contained in the PNLC prelude --- <https://github.com/Bricktech2000/PNLC/blob/master/prelude.pnlc>
 
-_a higher-order [[function]] that combines [[parser]]s_
-
---- <https://github.com/Bricktech2000/Atto-8/blob/master/cc/parse.rs>
-
-> **resource** JSON parser in Haskell leveraging [[parser#combinator]]s, [[functor]]s, [[applicative]]s and [[monad]]s, by Tsoding --- <https://youtu.be/N9RUqGYuGfw>
-
-> **resource** the PNLC prelude, notably the [[parser#combinator]] library it contains --- <https://github.com/Bricktech2000/PNLC/blob/master/prelude.pnlc>
-
-_[[parser#combinator]]s are a way to program a [[parser#recursive descent parser]]_ --- <https://youtu.be/ZI198eFghJk?t=6m25s>
+_[[parser#parser combinator]]s are a way to program a recursive descent parser_ --- Chandler Carruth --- <https://youtu.be/ZI198eFghJk?t=6m25s>
 
 > **example**
 >
 > ```haskell
-> type Error = String
-> type Parser a = String -> Either Error (a, String)
+> type Parser a = String -> Maybe (a, String)
 >
-> -- a parser that matches a single character
+> -- a parser that parses a single character
 > char :: Char -> Parser Char
-> char c (x:xs) | c == x = Right (c, xs)
-> char c _ = Left "no match"
+> char c (x:xs) | c == x = Just (c, xs)
+> char c _ = Nothing
 >
 > -- `many` is a parser combinator
 > whitespaces :: Parser String

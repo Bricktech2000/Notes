@@ -4,7 +4,7 @@
 
 **see** [[calculus]], [[derivative#partial derivative]], [[gradient]]
 
-## Matrix
+## Jacobian Matrix
 
 _a [[matrix]] of every [[derivative#partial derivative]] of a vector-valued [[function]]_
 
@@ -16,8 +16,8 @@ _a [[matrix]] of every [[derivative#partial derivative]] of a vector-valued [[fu
 
 $\mathbf J_f = \begin{bmatrix}\frac{\partial f_0}{\partial x_0} & \cdots & \frac{\partial f_0}{\partial x_n} \\ \vdots & \ddots & \vdots \\ \frac{\partial f_m}{\partial x_0} & \cdots & \frac{\partial f_m}{\partial x_n}\end{bmatrix}$
 
-## Determinant
+## Jacobian Determinant
 
-**definition** the _jacobian determinant_ of a [[function]] $f : \mathbb R^n \to \mathbb R^n$ is $\det \nabla f$, the [[determinant]] of its square [[jacobian#matrix]]
+**definition** the _jacobian determinant_ of a [[function]] $f : \mathbb R^n \to \mathbb R^n$ is $\det \nabla f$, the [[determinant]] of its square [[jacobian#jacobian matrix]]
 
 #stub

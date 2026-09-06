@@ -10,7 +10,7 @@
 >
 > any parenthesization of free variables can be achieved using solely the [[combinator#b combinator]]. for example, $a\ (b\ c)\ (d\ e\ (f\ g)) = B\ B\ (B\ (B\ (B\ B\ (B\ B))\ B))\ a\ b\ c\ d\ e\ f\ g$
 >
-> let terms $R, S, T$ and free variable $x$. repeatedly rewrite $R\ (S\ T) \mapsto \mathrm B\ R\ S\ T$ and $R\ x \mapsto R$ at the top level until all free variables have been consumed. the resulting combinator can be shortened by rewriting $\mathrm B\ R\ S\ T \mapsto R\ (S\ T)$ recursively. the rewrites are carried out on the syntax tree, not on the concrete syntax. --- [[birb.pl]] --- <https://github.com/uocsclub/to-mock-a-mockingbird/blob/main/code/birb.pl>
+> let terms $R, S, T$ and free variable $x$. repeatedly rewrite $R\ (S\ T) \mapsto \mathrm B\ R\ S\ T$ and $R\ x \mapsto R$ at the top level until all free variables have been consumed. the resulting combinator can be shortened by rewriting $\mathrm B\ R\ S\ T \mapsto R\ (S\ T)$ recursively. the rewrites are carried out on the [[syntax#abstract syntax]], not on the [[syntax#concrete syntax]]. --- [[birb.pl]] --- <https://github.com/uocsclub/to-mock-a-mockingbird/blob/main/code/birb.pl>
 
 ---
 
@@ -21,8 +21,6 @@
 _identity_
 
 **aka** _identity_, _`id`_ in Haskell
-
-**equiv** _[[function#identity]]_
 
 **definition** **`I = x -> x = (*)`** #todo id
 
@@ -56,11 +54,9 @@ _discards the second argument_
 
 ## B Combinator
 
-_the [[function#composition]] of its arguments_
+_the composition of its arguments_
 
 **aka** _compose_, _`(.)`_ and _`fmap`_ in Haskell, _"bluebird"_
-
-**equiv** _[[function#composition]]_
 
 **definition** **`B = f. g. x. f (g x)`**
 

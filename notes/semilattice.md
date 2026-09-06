@@ -14,7 +14,7 @@ _commutativity_ $a \vee b = b \vee a$
 
 _[[idempotence]]_ $a \vee a = a$
 
-_[[closure]]_ $a \vee b \in L$
+_closure_ $a \vee b \in L$
 
 **definition** a _meet-semilattice_ or _lower semilattice_ is a [[partial order]]ed [[set]] in which any pair of elements has a unique [[infimum]]
 

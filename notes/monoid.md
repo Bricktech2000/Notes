@@ -24,11 +24,11 @@ _closure_ $a \cdot b \in S$
 
 --- <https://youtu.be/Nrp_LZ-XGsY?t=1041>
 
-## Fold
+## Monoid Fold
 
 **aka** _reduce_
 
-**see** [[semigroup#fold]], [[binary exponentiation]]
+**see** [[semigroup#semigroup fold]], [[binary exponentiation]]
 
 #stub
 
@@ -46,7 +46,7 @@ _closure_ $a \cdot b \in S$
 
 **definition** $S^* = S^+ \cup \{\varepsilon\}$, see [[semigroup#free semigroup]]
 
-> **note** $\{\varepsilon\}^+ = \{\varepsilon\}$ and therefore it is not always the case that $S^* = S^+ \sqcup \{\varepsilon\}$, see [[set#disjoint union]] --- <https://cs.stackexchange.com/questions/35600/kleene-star-and-kleene-plus>
+> **note** $\{\varepsilon\}^+ = \{\varepsilon\}$ and therefore it is not always the case that $S^* = S^+ \sqcup \{\varepsilon\}$, see [[set#set disjoint union]] --- <https://cs.stackexchange.com/questions/35600/kleene-star-and-kleene-plus>
 
 **equiv** _`*` operator in [[regular expression]]s_
 
@@ -54,7 +54,7 @@ _closure_ $a \cdot b \in S$
 
 the [[monoid#free monoid]] [[operator]] has [[idempotence]]
 
-## Homomorphism
+## Monoid Homomorphism
 
 --- <https://en.wikipedia.org/wiki/Monoid#Monoid_homomorphisms>
 

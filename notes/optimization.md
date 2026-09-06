@@ -4,7 +4,7 @@
 
 **see**
 
-[[neural network]]s, [[gradient#descent]], [[automatic differentiation]]
+[[neural network]]s, [[gradient#gradient descent]], [[automatic differentiation]]
 
 [[eigen]]
 

@@ -4,7 +4,7 @@
 
 not fulfilling a [[commitment]] is a breach of [[integrity]]
 
-## Device
+## Commitment Device
 
 **aka** _Ulysses pact_
 

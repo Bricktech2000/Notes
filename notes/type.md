@@ -95,7 +95,7 @@ refinement types may be used to assert pre- and post-conditions at the [[type sy
 
 **properties**
 
-the [[set#cardinality]] of a [[type#sum type]] is the sum of the [[set#cardinality]]es of its constituent [[type]]s: $|A + B| = |A| + |B|$
+the [[set#set cardinality]] of a [[type#sum type]] is the sum of the [[set#set cardinality]]es of its constituent [[type]]s: $|A + B| = |A| + |B|$
 
 ### Product Type
 
@@ -103,7 +103,7 @@ the [[set#cardinality]] of a [[type#sum type]] is the sum of the [[set#cardinali
 
 **properties**
 
-the [[set#cardinality]] of a [[type#product type]] is the product of the [[set#cardinality]]es of its constituent [[type]]s: $|A \times B| = |A| \cdot |B|$
+the [[set#set cardinality]] of a [[type#product type]] is the product of the [[set#set cardinality]]es of its constituent [[type]]s: $|A \times B| = |A| \cdot |B|$
 
 ## Exponential Type
 
@@ -111,6 +111,6 @@ the [[set#cardinality]] of a [[type#product type]] is the product of the [[set#c
 
 --- <https://youtu.be/6hAeJmKXRfo?t=322>
 
-the [[set#cardinality]] of a [[type#exponential type]] is the [[set#cardinality]] of its [[function#codomain]] to the power of the [[set#cardinality]] of its [[function#domain]]: $|A \to B| = |B|^{|A|}$ aka $|B^A| = |B|^{|A|}$
+the [[set#set cardinality]] of a [[type#exponential type]] is the [[set#set cardinality]] of its [[function#codomain]] to the power of the [[set#set cardinality]] of its [[function#domain]]: $|A \to B| = |B|^{|A|}$ aka $|B^A| = |B|^{|A|}$
 
 > **note** intuitively, to each of the $|A|$ possible inputs we associate one of $|B|$ possible outputs

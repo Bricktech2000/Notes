@@ -34,8 +34,8 @@ _an [[integral]] with at least one endpoint being infinite_
 
 a Type I improper [[integral]] is said to:
 
-- converge if the [[limit]] exis, see [[limit#existence]]
-- diverge if the [[limit]] does not exist, see [[limit#existence]]
+- converge if the [[limit]] exists
+- diverge if the [[limit]] does not exist
 
 ### type II
 

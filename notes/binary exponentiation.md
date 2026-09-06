@@ -2,7 +2,7 @@
 
 **aka** _exponentiation by squaring_, _square-and-multiply algorithm_
 
-**see** [[monoid#fold]], [[semigroup#fold]]
+**see** [[monoid#monoid fold]], [[semigroup#semigroup fold]]
 
 [[binary exponentiation]] is an [[algorithm]] for repeatedly applying [[semigroup#operation]]s on a single element in [[logarithm]]ic time [[computational complexity]]. for [[semigroup]]s the count is a strictly positive [[natural]], for [[monoid]]s (when a [[monoid#identity element]] is provided) the count is a [[natural]], and for [[group]]s (when a [[group#identity element]] and [[group#inverse]]s are provided) the count is an [[integer]]
 

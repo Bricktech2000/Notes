@@ -1,20 +1,20 @@
 # Vector Space
 
-**see** [[vector]], [[euclidean vector]], [[matrix]], [[math notation]], [[basis]], [[algebraic structure]], [[tensor#product]]
+**see** [[vector]], [[euclidean vector]], [[matrix]], [[math notation]], [[basis]], [[algebraic structure]], [[tensor#tensor product]]
 
 **types**
 
-[[euclidean vector#vector space]]
+[[euclidean vector#euclidean vector space]]
 
-[[matrix#vector space]]
+[[matrix#matrix vector space]]
 
-[[function#vector space]]
+[[function#function vector space]]
 
-[[polynomial#vector space]]
+[[polynomial#polynomial vector space]]
 
-[[pair#vector space]]
+[[pair#pair vector space]]
 
-[[eigen#space]]
+[[eigen#eigenspace]]
 
 **examples**
 
@@ -67,21 +67,21 @@ _associativity of multiplication_ **`c | du = cd | u`**
 
 let **`V {{v_0 ... v_m}}`**. if **`U = "span" {{v_0 ... v_m}}`**, then **`/\ U -| V`**, see [[span]]
 
-## Isomorphism
+## Vector Space Isomorphism
 
 **see** [[morphism#isomorphism]]
 
-a [[vector space#isomorphism]] is an invertible [[linear map]]; see [[vector space#homomorphism]]
+a [[vector space#vector space isomorphism]] is an invertible [[linear map]]; see [[vector space#homomorphism]]
 
 > **example** **`RR^3`** and **`PP^2`** are isomorphic, as any vector in **`RR^3`** can be converted to a unique vector in **`PP^2`**, and vice-versa, see [[category]]
 
-## Homomorphism
+## Vector Space Homomorphism
 
 **see** [[morphism#homomorphism]]
 
-a [[vector space#homomorphism]] is a [[linear map]]
+a [[vector space#vector space homomorphism]] is a [[linear map]]
 
-## Dimension
+## Vector Space Dimension
 
 **notation** _in my [[math notation]]_
 
@@ -93,7 +93,7 @@ the _dimension of a vector space_ is equal to the number of [[vector]]s in any [
 
 > **example**
 >
-> below are the [[vector space#dimension]]s of a few common [[vector space]]s
+> below are the [[vector space#vector space dimension]]s of a few common [[vector space]]s
 >
 > - **`"dim" RR^2 = 2`**
 > - **`"dim" PP^2 = 3`**

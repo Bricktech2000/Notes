@@ -33,11 +33,11 @@ time [[computational complexity]]:
 
 **representation**
 
-![](20220913201452.png) --- <https://youtu.be/RBSGKlAvoiM?t=7120>
+![[20220913201452.png]] --- <https://youtu.be/RBSGKlAvoiM?t=7120>
 
-## Invariant
+## Heap Invariant
 
-**aka** _[[heap#invariant]]_, _heap property_
+**aka** _heap property_
 
 **definition** the _heap invariant_ is a property of [[tree]]s that requires every node to be ordered with respect to both its children
 

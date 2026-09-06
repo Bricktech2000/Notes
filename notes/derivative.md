@@ -28,7 +28,7 @@ _in my [[math notation]]_
 
 **properties**
 
-the [[eigen#vector]]s of the [[derivative]] [[operator]] are **`x. [llx]`** with [[eigen#value]]s **`ll`** --- <https://youtu.be/M35iuFAxQxY?t=18m8s>
+the [[eigen#eigenvector]]s of the [[derivative]] [[operator]] are **`x. [llx]`** with [[eigen#eigenvalue]]s **`ll`** --- <https://youtu.be/M35iuFAxQxY?t=18m8s>
 
 ## Directional Derivative
 
@@ -36,7 +36,7 @@ the [[eigen#vector]]s of the [[derivative]] [[operator]] are **`x. [llx]`** with
 
 **definition**
 
-let **`f`** be a [[function]] differentiable at **`p = (x ...)`** and let **`v`** be a **[[euclidean vector#unit vector]]**. then,
+let **`f`** be a [[function]] differentiable at **`p = (x ...)`** and let **`v`** be a **[[euclidean vector#unit euclidean vector]]**. then,
 
 **`D^v f p = :v(dd f p)`**, where
 

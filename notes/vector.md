@@ -16,7 +16,7 @@
 
 [[pair]]s
 
-[[eigen#vector]]s
+[[eigen#eigenvector]]s
 
 **properties**
 

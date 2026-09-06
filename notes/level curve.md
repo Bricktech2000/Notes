@@ -12,4 +12,4 @@ and said [[plane]] **`T`** tangent to the [[level curve]] at **`p`** is defined 
 
 **representation**
 
-![](20220912132034.png)
+![[20220912132034.png]]

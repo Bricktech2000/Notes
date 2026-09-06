@@ -16,7 +16,7 @@ a key idea is that [[inference rule]]s operate solely on syntax, with no concern
 
 **definition** a set of [[inference rule]]s is _complete_ "the whole truth" if and only if any formula _entailed_ by a knowledge base is _derivable_ using the [[inference rule]]s: $\forall \Gamma.\ \forall f.\ (\Gamma \vDash f) \to (\Gamma \vdash f)$ --- <https://youtu.be/RIk67yGMVv4?t=909> and <https://youtu.be/xL0kNw5TudI?t=3539>
 
-> **example** _some inference rules of classical logic_ --- <https://terramorpha.github.io/blog.Sequent.html>
+> **example** _some [[natural deduction]] [[inference rule]]s of [[classical logic]]_ --- <https://terramorpha.github.io/blog.Sequent.html>
 >
 > _hypothesis_ $\displaystyle \frac{\Gamma \ni P}{\Gamma \vdash P}$
 >

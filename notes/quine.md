@@ -4,6 +4,8 @@ _a program that outputs its own listing_
 
 > **resource** the "de facto" [[quine]] quickstart by David Madore --- [[quine.html]] --- <http://www.madore.org/~david/computers/quine.html>
 
+> **resource** _Reflections on Trusting Trust_ by Ken Thompson, on why source code can never truly be trusted --- [[Thompson_1984_ReflectionsonTrustingTrust.pdf]] --- <https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf>
+
 [[quine]]s are not the result of language-specific hacks; they exist, up to practical interpretation of program output, in every [[turing complete]] [[programming language]] for which there exists a total computable [[function]] that maps programs to their listings, as follows from the _fixed-point theorem_
 
 > **example**
@@ -64,7 +66,7 @@ _The fixed-point theorem has other amusing applications. Essentially, its intuit
 >
 > _Quines are possible in any Turing-complete programming language, as a direct consequence of Kleene's recursion theorem_ --- <https://en.wikipedia.org/wiki/Quine_(computing)>. I believe this statement may be incorrect
 >
-> consider the following [[programming language]]. it is clearly [[turing complete]], yet a [[quine]] cannot be written in it
+> consider the following [[programming language]]. it is [[turing complete]], yet a [[quine]] cannot be written in it
 >
 > ```python
 > from brainfuck import bf # assumed to be Turing complete
@@ -80,7 +82,7 @@ _The fixed-point theorem has other amusing applications. Essentially, its intuit
 >
 > _Any programming language which is Turing complete, and which is able to output any string (by a computable function of the string as program [...]) has a quine program [...] as follows by the fixed-point theorem_ --- <https://www.madore.org/~david/computers/quine.html#sec_intro>. I believe this statement may be incorrect
 >
-> consider the following [[programming language]]. it is clearly [[turing complete]], and the computable [[function]] `lambda s: '0' + s` clearly maps an arbitrary [[string]] to a program that outputs it, yet a [[quine]] cannot be written in it
+> consider the following [[programming language]]. it is [[turing complete]], and the computable [[function]] `lambda s: '0' + s` maps an arbitrary [[string]] to a program that outputs it, yet a [[quine]] cannot be written in it
 >
 > ```python
 > from brainfuck import bf # assumed to be Turing complete
@@ -95,7 +97,7 @@ _The fixed-point theorem has other amusing applications. Essentially, its intuit
 >   return '0' + bf(rest, input)
 > ```
 >
-> on another note, _[...] by a computable function of the string as program [...]_ appears redundant because the [[function#identity]] is computable and therefore by the _s-m-n theorem_ we have that there indeed exists a computable [[function]] that maps any [[string]] to a computable program that outputs that [[string]]
+> on another note, _[...] by a computable function of the string as program [...]_ appears redundant because the identity [[function]] is computable and therefore by the _s-m-n theorem_ we have that there indeed exists a computable [[function]] that maps any [[string]] to a computable program that outputs that [[string]]
 
 ## ---
 

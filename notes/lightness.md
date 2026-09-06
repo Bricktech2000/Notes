@@ -10,7 +10,7 @@ _perceived [[luminance]]_
 
 when green [[luminance]] equals red [[luminance]] equals blue [[luminance]], green [[lightness]] is greater than red [[lightness]] is greater than blue [[lightness]]
 
-cameras automatically set their exposure to achieve an average [[cie 1931#xyz]] [[luminance]] of $Y = 0.184$ in the image, which is a [[lightness]] (perceived [[luminance]]) of $50\%$ and a [[cielab]] [[lightness]] of $50\%$. this is why so-called _18% gray cards_ can be used to calibrate exposure --- <https://youtu.be/a4kU3ZUX44Y> and <https://en.wikipedia.org/wiki/Middle_gray>
+cameras automatically set their exposure to achieve an average [[cie 1931#cie 1931 xyz]] [[luminance]] of $Y = 0.184$ in the image, which is a [[lightness]] (perceived [[luminance]]) of $50\%$ and a [[cielab]] [[lightness]] of $50\%$. this is why so-called _18% gray cards_ can be used to calibrate exposure --- <https://youtu.be/a4kU3ZUX44Y> and <https://en.wikipedia.org/wiki/Middle_gray>
 
 **representation**
 

@@ -1,12 +1,14 @@
 # Huffman Coding
 
-**definition** _huffman coding_ is a lossless [[data compression]] [[algorithm]] that uses variable-length codes to represent data, where more frequently used symbols are assigned shorter codes
+**definition** _Huffman coding_ is a lossless [[data compression]] [[algorithm]] that uses variable-length codes to represent data, where more frequently used symbols are assigned shorter codes
 
-> **procedure** _huffman coding_ given a huffman [[tree]] and a [[list]] of symbols, for every symbol, encode it as the path from the root to the symbol, where taking a left branch corresponds to a `0` and taking a right branch corresponds to a `1`
+**definition** _Huffman coding_ is an [[algorithm]] for constructing optimal [[symbol code]]s which are also _prefix codes_
 
-> **procedure** _huffman decoding_ given a huffman [[tree]] and a [[binary]] string, starting from the root, for every `0` take the left branch and for every `1` take the right branch, until a leaf is reached, which corresponds to a decoded symbol
+> **procedure** _Huffman coding_ given a Huffman [[tree]] and a [[list]] of symbols, for every symbol, encode it as the path from the root to the symbol, where taking a left branch corresponds to a `0` and taking a right branch corresponds to a `1`
 
-> **procedure** _huffman tree construction_
+> **procedure** _Huffman decoding_ given a Huffman [[tree]] and a [[binary]] string, starting from the root, for every `0` take the left branch and for every `1` take the right branch, until a leaf is reached, which corresponds to a decoded symbol
+
+> **procedure** _Huffman tree construction_
 >
 > ```python
 > def huffman_tree(probs, symbols):
@@ -20,7 +22,7 @@
 >   return root
 > ```
 
-**representation** _sample huffman tree_
+**representation** _sample Huffman tree_
 
 ![[Pasted image 20230628214746.png]]
 

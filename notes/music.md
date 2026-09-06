@@ -2,6 +2,8 @@
 
 [[equal temperament]]
 
+[[musical interval]]
+
 [[harmonic]]
 
 [[overtone]]

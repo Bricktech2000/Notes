@@ -8,7 +8,7 @@
 
 > **resource** _SSA is Functional Programming_ "SSA is just another name for [[lambda-calculus]]" --- [[ssafun.pdf]] --- <https://www.cs.princeton.edu/~appel/papers/ssafun.pdf> --- <https://crypto.stanford.edu/~blynn/compiler/lambda.html>
 
-> **resource** my toy functional language, PNLC --- <https://github.com/Bricktech2000/PNLC/>
+> **resource** my small functional language, PNLC --- <https://github.com/Bricktech2000/PNLC/>
 
 the λ-calculus is a simple [[programming language]] and [[turing complete]] model of computation. it is the basis for most [[functional programming]] [[programming language]]s
 
@@ -41,7 +41,7 @@ the λ-calculus is a simple [[programming language]] and [[turing complete]] mod
 > **note** there are terms $T$ and $U$ such that $T\ U$ is weakly normalizing but $T$ is not. one example is $T = x.\ x\ ((x.\ x\ x)\ (x.\ x\ x))$ with $U = x.\ x.\ x$. equivalently, normal-order reduction may hang on a $T$ with free $x$ but halt on $T[U/x]$ for some $U$. the problem arises because reduction to beta normal form recurses into the right-hand side of applications. so lazy λ-calculus interpreters face a choice:
 >
 > 1. reduce to beta normal form: reduced terms are redex-free, but a $T$ may hang even when $T[U/x]$ halts for some $U$.
-> 2. reduce to head normal form: a $T$ never hangs when $T[U/x]$ halts for some $U$, but reduced terms are not redex-free.
+> 2. reduce to head normal form: a $T$ never hangs when $T[U/x]$ halts for some $U$, but reduced terms may not be redex-free.
 >
 > --- Ethan Sue and I --- CS Club Discord #bookclub
 
@@ -61,8 +61,6 @@ the λ-calculus is a simple [[programming language]] and [[turing complete]] mod
 
 --- <https://youtu.be/IOiZatlZtGU?t=292>
 
-**see** [[backus--naur form]]
-
 ```bnf
 <term> ::= <var>                        ; variable
          | "λ" <var> "." <term>         ; abstraction
@@ -79,8 +77,6 @@ every typeable λ→-term is _strongly normalizing_ --- <https://youtu.be/WHQ-OY
 self-application is not typeable in the simply typed λ-calculus --- <https://youtu.be/WHQ-OYFqp5w?t=462>; thus λ→ has no [[recursion]]
 
 ### Syntax
-
-**see** [[backus--naur form]]
 
 ```bnf
 <term> ::= <var>                                   ; variable
@@ -157,7 +153,9 @@ we can then define the [[boolean#operator]]s:
 
 --- <https://youtu.be/K-4Mj3LpP2E>
 
-the Church encoding encodes recursive [[type#algebraic data type]]s as their own catamorphism, see [[recursion#scheme]] --- me. providing a term with the fold [[function]]s and base cases to handle one non-recursive layer of the recursive type will β-reduce to a fold over the term. consequently, accessing the data of a recursive variant is tricky and generally not of constant time [[computational complexity]]
+the Church encoding encodes recursive [[type#algebraic data type]]s as their own catamorphism, see [[recursion#recursion scheme]] --- me. providing a term with the fold [[function]]s and base cases to handle one non-recursive layer of the recursive type will β-reduce to a fold over the term. consequently, accessing the data of a recursive field is tricky and generally not of constant time [[computational complexity]]
+
+> **resource** _Beyond Church encoding: Boehm-Berarducci isomorphism of algebraic data types and polymorphic lambda-terms_ by Oleg Kiselyov, connections to initial algebras and tagless-final encodings, and a general construction for accessing the recursive fields of a Church-encoded λ-term --- [[Boehm-Berarducci.html]] --- <https://okmij.org/ftp/tagless-final/course/Boehm-Berarducci.html>
 
 ### Church Numerals
 
@@ -191,7 +189,7 @@ we can then define:
 
 --- <https://crypto.stanford.edu/~blynn/compiler/scott.html>
 
-the Scott encoding encodes recursive [[type#algebraic data type]]s in the obvious way, building a decision tree of sorts. folding over a term requires external [[recursion]], say by using a [[fixed point]] [[combinator]] like the [[combinator#y combinator]] or by using a [[recursion#scheme]]. that said, accessing the data of a recursive variant is trivial and of constant time [[computational complexity]]
+the Scott encoding encodes recursive [[type#algebraic data type]]s in the obvious way, building a decision tree of sorts. folding over a term requires external [[recursion]], say by using a [[fixed point]] [[combinator]] like the [[combinator#y combinator]] or by using a [[recursion#recursion scheme]]. that said, accessing the data of a recursive variant is straightforward and of constant time [[computational complexity]]
 
 ### Scott Numbers
 

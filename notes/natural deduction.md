@@ -1,7 +1,7 @@
 # Natural Deduction
 
-_a [[proof]] system based on [[inference rule]]s_
+> **resource** [[natural deduction]] on nLab --- <https://ncatlab.org/nlab/show/natural+deduction>
 
---- <https://en.wikipedia.org/wiki/Natural_deduction#Notation>
+a system of [[natural deduction]] is a deductive [[formal logic]] whose logical connectives have _introduction_ and _elimination_ [[inference rule]]s, so as to mirror the way mathematicians and philosophers naturally construct proofs
 
 #stub

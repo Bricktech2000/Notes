@@ -69,7 +69,7 @@ flipping through slides can be too quick for people. the speed at which one writ
 
 most only remember a few key takeaways; make them count
 
-see [[verbal#connotation]]s
+see [[verbal#verbal connotation]]s
 
 ### other tools
 

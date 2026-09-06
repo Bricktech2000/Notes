@@ -14,9 +14,7 @@ _good habits_ are [[invest]]ments that compound over [[time]]. they seem to make
 
 [[habit]]s are our [[brain]]'s way to delegate an action from our conscious mind to our unconscious mind. they are all about [[cognitive load#reduction]] and increasing [[energy]] efficiency by recognizing simple [[cue]]s and associating them with a [[sequence]] of actions. technology can also be used to decrease [[cognitive load]] when using [[habit]]s is suboptimal --- <https://youtu.be/zUm3fKk00J8?t=4599> from 1:16:39 to 1:22:08 #rot and <https://youtu.be/zUm3fKk00J8?t=16151>
 
-## Loop
-
-_the [[habit#loop]]_
+## Habit Loop
 
 habits can be broken down into their four component parts, forming the so-called _habit loop_:
 
@@ -32,9 +30,7 @@ habits can be broken down into their four component parts, forming the so-called
 > 3. response --- check social media
 > 4. reward --- satisfy the need to feel less frustrated
 
-## Formation
-
-_[[habit#formation]]_
+## Habit Formation
 
 > **examples** _[[trick]]s to form [[habit]]s_
 >
@@ -47,15 +43,15 @@ _[[habit#formation]]_
 > - brain reprogramming --- reinforcing a [[habit]] by constantly repeating to yourself its pros xor cons
 > - two-minute rule --- anchoring the routine before ramping up the [[difficult]]y to make it stick
 > - habit tracking --- tracking a [[habit]] to make it more visible and to keep you [[accountable]] and [[intention]]al
-> - accountability --- having someone to report to about your [[habit]]s to keep you [[accountable]]; see [[commitment#device]]
+> - accountability --- having someone to report to about your [[habit]]s to keep you [[accountable]]; see [[commitment#commitment device]]
 >
 > --- <https://youtu.be/PZ7lDrwYdZc>
 
-## Tracking
+## Habit Tracking
 
-[[habit#tracking]] can be thought of as providing the **timely feedback** necessary for [[learn]]ing and the [[accountable]]ility necessary for **active learning** --- me
+[[habit#habit tracking]] can be thought of as providing the **timely feedback** necessary for [[learn]]ing and the [[accountable]]ility necessary for **active learning** --- me
 
-[[habit#tracking]] can lead to the **introspection** required for [[self-control]]
+[[habit#habit tracking]] can lead to the **introspection** required for [[self-control]]
 
 ## Keystone Habit
 

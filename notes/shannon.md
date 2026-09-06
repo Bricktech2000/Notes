@@ -6,8 +6,6 @@
 
 **see** [[nat]]
 
-**notation** **`"Sh"`**
+**definition** $1\ \mathrm{Sh}$ is the [[information content]] associated with an [[event]] of [[probability]] $\overline 2$
 
-**definition** **`1 "Sh"`** is the [[information content]] associated with an [[event]] of [[probability]] **`-2`**
-
-**properties** **`"Sh" = "nat" | /2\`**
+**properties** $\mathrm{Sh} = \mathrm{nat} \cdot \ln 2$

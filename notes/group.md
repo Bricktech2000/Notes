@@ -76,7 +76,7 @@ $(a \cdot b)^{-1} = b^{-1} \cdot a^{-1}$
 
 **theorem** _Cauchy's Theorem_ if $G$ is a finite [[group]] and $p$ is a [[prime]] that divides $|G|$ then $G$ has a [[group#subgroup]] $H$ with $|H| = p$
 
-## Homomorphism
+## Group Homomorphism
 
 **see** [[morphism#homomorphism]]
 

@@ -20,11 +20,11 @@ _associativity_ $(a \cdot b) \cdot c = a \cdot (b \cdot c)$
 
 _closure_ $a \cdot b \in S$
 
-## Fold
+## Semigroup Fold
 
 **aka** _reduce_
 
-**see** [[monoid#fold]], [[binary exponentiation]]
+**see** [[monoid#monoid fold]], [[binary exponentiation]]
 
 #stub
 

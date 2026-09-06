@@ -42,7 +42,7 @@ directionality can be "forgotten" by taking the [[relation#symmetric closure]] o
 
 **definition** _in [[conventional math notation]]_ a vertex **`v`** is in a graph **`{V, E}`** if and only if **`V v`**
 
-## Isomorphism
+## Graph Isomorphism
 
 **see** [[morphism#isomorphism]]
 

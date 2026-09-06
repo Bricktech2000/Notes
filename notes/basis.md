@@ -15,7 +15,7 @@ a [[set]] of [[vector]]s is a [[basis]] of a [[vector space]] if both:
 
 **properties**
 
-all [[basis]]es of a [[vector space]] have identical [[set#cardinality]]
+all [[basis]]es of a [[vector space]] have identical [[set#set cardinality]]
 
 **theorems**
 
@@ -43,7 +43,7 @@ _a [[basis]] containing [[vector]]s in a specific order_
 
 ## Orthogonal Basis
 
-_a [[basis]] built from a [[set]] of [[euclidean vector#orthogonal euclidean vectors]]_
+_a [[basis]] built from a [[set]] of [[euclidean vector#orthogonal euclidean vector]]s_
 
 > **example**
 >

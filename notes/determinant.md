@@ -2,7 +2,7 @@
 
 **see** [[math notation]], [[matrix]]
 
-the [[determinant]] is a [[morphism#homomorphism]] from [[matrix]]es with [[matrix#multiplication]] to [[scalar]]s with multiplication. similarly, the [[determinant]] is a [[morphism#homomorphism]] from [[linear map]]s with [[function#composition]] to their effect on [[area]]s with multiplication
+the [[determinant]] is a [[morphism#homomorphism]] from [[matrix]]es with [[matrix#matrix multiplication]] to [[scalar]]s with multiplication. similarly, the [[determinant]] is a [[morphism#homomorphism]] from [[linear map]]s with [[function]] composition to their effect on [[area]]s with multiplication
 
 **notation**
 
@@ -22,7 +22,7 @@ the [[determinant]] is a [[morphism#homomorphism]] from [[matrix]]es with [[matr
 
 **`"det" -A = -"det" A`** #todo mm if and only if **`A`** is invertible, see [[matrix]]
 
-> **note** the equation above is beautiful because, in [[conventional math notation]], $A^{-1}$ is a [[matrix#inverse]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
+> **note** the equation above is beautiful because, in [[conventional math notation]], $A^{-1}$ is a [[matrix#matrix inverse]] whereas $\det(A)^{-1}$ is $\frac 1 {\det(A)}$
 
 **properties** _[[linear system#elementary operation]]_
 
@@ -32,7 +32,7 @@ _swapping any two rows or two columns_ **`"det" A = ."det" A_*`**
 
 _multiplying a row or a column by a [[scalar]] **`c`**_ **`"det" A = c"det" A_*`**
 
-## Computation
+## determinant computation
 
 > **procedure** _computing the determinant using [[recursion]]_ #magic
 >

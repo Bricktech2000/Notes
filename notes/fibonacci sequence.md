@@ -21,7 +21,7 @@ this gives a natural derivation of the generating function for the [[fibonacci s
 
 **see** [[linear algebra]], [[eigen]]
 
-as a [[linear map]], $\begin{bmatrix}F_n \\ F_{n + 1}\end{bmatrix} = \begin{bmatrix}0 & 1 \\ 1 & 1\end{bmatrix} \begin{bmatrix}F_{n - 1} \\ F_n\end{bmatrix}$, and so $\begin{bmatrix}F_n \\ F_{n + 1}\end{bmatrix} = \begin{bmatrix}0 & 1 \\ 1 & 1\end{bmatrix}^n \begin{bmatrix}F_0 \\ F_1\end{bmatrix}$. the [[linear map#standard matrix]] is a [[matrix#diagonalizable matrix]] because it has two distinct [[eigen#value]]s, namely $\varphi = \frac{1 + \sqrt 5}{2}$ and $\psi = \frac{1 - \sqrt 5}{2} = 1 - \varphi = -\overline\varphi$ with [[eigen#vector]]s $\begin{bmatrix}1 \\ \varphi\end{bmatrix}$ and $\begin{bmatrix}1 \\ \psi\end{bmatrix}$. this means we can:
+as a [[linear map]], $\begin{bmatrix}F_n \\ F_{n + 1}\end{bmatrix} = \begin{bmatrix}0 & 1 \\ 1 & 1\end{bmatrix} \begin{bmatrix}F_{n - 1} \\ F_n\end{bmatrix}$, and so $\begin{bmatrix}F_n \\ F_{n + 1}\end{bmatrix} = \begin{bmatrix}0 & 1 \\ 1 & 1\end{bmatrix}^n \begin{bmatrix}F_0 \\ F_1\end{bmatrix}$. the [[linear map#standard matrix]] is a [[matrix#diagonalizable matrix]] because it has two distinct [[eigen#eigenvalue]]s, namely $\varphi = \frac{1 + \sqrt 5}{2}$ and $\psi = \frac{1 - \sqrt 5}{2} = 1 - \varphi = -\overline\varphi$ with [[eigen#eigenvector]]s $\begin{bmatrix}1 \\ \varphi\end{bmatrix}$ and $\begin{bmatrix}1 \\ \psi\end{bmatrix}$. this means we can:
 
 $$
 \begin{align*}
@@ -58,7 +58,7 @@ def fib(n):
   return a + b
 ```
 
-> **note** the key here is that [[matrix#multiplication]] is associative: not only can you iterate a [[linear map]] on a base case, you can also compose [[linear map]]s together into new [[linear map]]s that are no more expensive to iterate
+> **note** the key here is that [[matrix#matrix multiplication]] is associative: not only can you iterate a [[linear map]] on a base case, you can also compose [[linear map]]s together into new [[linear map]]s that are no more expensive to iterate
 
 ### ---
 

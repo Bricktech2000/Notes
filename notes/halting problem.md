@@ -21,3 +21,5 @@ the [[halting problem]] is is _undecideable_. that is, there exists no general [
 > # it doesn't halt; a contradiction. therefore, the assumption that
 > # `halts` exists must be incorrect
 > ```
+>
+> --- me and SICP, $4.1 'The Metacircular Evaluator', exercise 4.15

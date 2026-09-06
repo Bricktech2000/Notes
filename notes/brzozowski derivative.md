@@ -12,8 +12,6 @@
 
 > **example** $\overline c \{\mathrm{cat}, \mathrm{cow}, \mathrm{dog}\} = \{\mathrm{at}, \mathrm{ow}\}$ --- Wikipedia
 
-> **note** there is no connection between [[derivative]]s and [[brzozowski derivative]]s. I think when people see the same word used in two places they try to draw a parallel that doesn't exist
-
 > **procedure** _using [[brzozowski derivative]]s for [[regular expression]] matching_ --- _Regular-expression derivatives reexamined_ by Owens, Reppy and Turon
 >
 > [[brzozowski derivative]]s [[under]] accepted [[formal language]] can be computed structurally on [[regular expression#extended regular expression]]s. a [[regular expression]] $r$ accepts a [[string]] $w$ if and only if $\nu\ \delta_w\ r$, where:
@@ -31,6 +29,7 @@
 > - $\partial_a\ (r \cdot s) = \partial_a\ r \cdot s$ for $\lnot \nu\ r$
 > - $\partial_a\ (r \cdot s) = \partial_a\ r \cdot s \mid \partial_a\ s$ for $\nu\ r$
 > - $\partial_a\ (r \mid s) = \partial_a\ r \mid \partial_a\ s$
+> - $\partial_a\ (r \mathbin\& s) = \partial_a\ r \mathbin\& \partial_a\ s$
 > - $\partial_a\ \mathop! r = \mathop! \partial_a\ r$
 >
 > and where:
@@ -41,4 +40,5 @@
 > - $\nu\ r^* = \top$
 > - $\nu\ (r \cdot s) = \nu\ r \land \nu\ s$
 > - $\nu\ (r \mid s) = \nu\ r \lor \nu\ s$
+> - $\nu\ (r \mathbin\& s) = \nu\ r \land \nu\ s$
 > - $\nu\ \mathop! r = \lnot \nu\ r$

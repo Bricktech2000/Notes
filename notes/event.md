@@ -2,6 +2,4 @@
 
 --- <https://en.wikipedia.org/wiki/Sample_space>
 
-**notation** **`E`**
-
-**definition** an _event_ is a [[set#subset]] of a [[sample space]]
+**definition** an _event_ $E$ is a [[set#subset]] of a [[sample space]]

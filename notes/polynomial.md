@@ -9,7 +9,7 @@
 
 **definition** the _degree_ of a [[polynomial]] is the largest [[exponent]] of **`x`** in the [[polynomial]]
 
-## Vector Space
+## Polynomial Vector Space
 
 **see** [[vector]], [[vector space]]
 
@@ -25,7 +25,7 @@ _in [[conventional math notation]]_ $P_n(\mathbb R)$
 
 **properties**
 
-**`PP^n -| HH > NN n`**, see [[function#vector space]]
+**`PP^n -| HH > NN n`**, see [[function#function vector space]]
 
 **properties**
 

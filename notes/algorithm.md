@@ -34,11 +34,11 @@ _a finite answer to an infinite number of questions_ --- Stephen Kleene
 
 [[fast inverse square root]]
 
-[[jpeg#compression]]
+[[jpeg#jpeg compression]]
 
 [[run-length encoding]]
 
-[[huffman coding]]
+[[entropy coding]], [[huffman coding]]
 
 [[karatsuba algorithm]]
 

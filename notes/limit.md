@@ -24,7 +24,7 @@ let **`f x`** be a [[function]] with [[function#domain]] **`D`** defined on an o
 >
 > to compute the [[limit]] of a [[function]], apply [[limit rules]] recursively, see [[recursion]]
 
-### Existence
+### existence
 
 **definition** a [[limit]] **`f x {x -> a}`** _does not exist_ if **`f x -> L_1`** as **`x -> x_0`** along a path **`C_1`** and **`f x -> L_2`** as **`x -> x_0`** along a path **`C_2`** and **`L_1 + L_2`** --- the value of the limit is different depending on the path taken
 

@@ -2,7 +2,7 @@
 
 [[color space]]s are often represented visually on [[cie diagram]]s
 
-almost all [[color space]]s are defined in terms of the [[cie 1931#xyz]] [[color space]]
+almost all [[color space]]s are defined in terms of the [[cie 1931#cie 1931 xyz]] [[color space]]
 
 **types**
 

@@ -8,7 +8,7 @@
 
 **`[]a & b && c & d[]`**
 
-## Vector Space
+## Matrix Vector Space
 
 **notation** _in my [[math notation]]_ **`MM^m,n`**
 
@@ -26,7 +26,7 @@
 
 _commutativity with [[scalar]]s_ **`kA = Ak`**
 
-### Addition
+### Matrix Addition
 
 **see** [[vector]], [[vector space]]
 
@@ -34,7 +34,7 @@ _commutativity with [[scalar]]s_ **`kA = Ak`**
 
 **`A : B`**
 
-## Multiplication
+## Matrix Multiplication
 
 #todo mm
 
@@ -68,7 +68,7 @@ _associative with [[scalar]]s_ **`k(AB) = (kA)B = A(kB)`**
 
 **applications**
 
-[[matrix#multiplication]] can be used to represent a [[linear system]] of [[linear equation]]s. matrix-vector products can be seen as yielding a [[linear combination]] of the columns of the [[matrix]]:
+[[matrix#matrix multiplication]] can be used to represent a [[linear system]] of [[linear equation]]s. matrix-vector products can be seen as yielding a [[linear combination]] of the columns of the [[matrix]]:
 
 **`[]1 & 2 & 3 && 4 & 5 & 6[][]x && y && z[] = x[]1 && 4[] : y[] 2 && 5[] : z[]3 && 6[]`**
 
@@ -101,14 +101,6 @@ _associative with [[scalar]]s_ **`k(AB) = (kA)B = A(kB)`**
 _the number of pivots in any [[linear system#row echelon form]] of the [[matrix]]_
 
 **notation** **`"rank" A`**
-
-## Element Count
-
-**notation** **`# M`**
-
-**definition** the _element count_ of a [[matrix]] is the total number of elements in the [[matrix]]
-
-> **example** let **`M = []1 & 2 & 3 && 4 & 5 & 6[]`**. then, **`MM^2,3 M /\ # M = 2 | 3 = 6`**
 
 ## Null Space
 
@@ -208,7 +200,7 @@ _[[involution]]_ **`rr rr A = A`**
 
 ## Conjugate Transpose
 
-_the [[complex#conjugate]] of every entry of the [[matrix#transpose]] of a [[matrix]]_
+_the [[complex#complex conjugate]] of every entry of the [[matrix#transpose]] of a [[matrix]]_
 
 **aka** _Hermitian transpose_, _adjoint matrix, transjugate_
 
@@ -217,14 +209,14 @@ _the [[complex#conjugate]] of every entry of the [[matrix#transpose]] of a [[mat
 **`"conj" rr A`**, where
 
 - **`A`** is the [[matrix]] to find the [[matrix#conjugate transpose]] of
-- **`"conj"`** is the [[complex#conjugate]] [[function]]
+- **`"conj"`** is the [[complex#complex conjugate]] [[function]]
 - **`rr`** is the [[matrix#transpose]] [[operator]]
 
 **properties**
 
 let a [[matrix]] of [[real]]s **`A`**. then, **`"conj" rr A = rr A`**
 
-## Inverse
+## Matrix Inverse
 
 #todo mm
 
@@ -237,9 +229,9 @@ _the inverse of a [[matrix]]_
 - **`A`** is a square [[matrix]]
 - **`A^-`** is the _inverse matrix_ of **`A`**
 
-### Invertability
+### Invertible Matrix
 
-**definition** an _invertible matrix_ has a corresponding [[matrix#inverse]]
+**definition** an _invertible matrix_ has a corresponding [[matrix#matrix inverse]]
 
 **see** theorems below for invertability criteria
 
@@ -257,17 +249,17 @@ let **`A`** and **`C`** be invertible [[matrix]]es, let **`ZZ p`** and let **`RR
 
 **`(AC)^- = C^- A^-`**
 
-> **note** in the equation above, the order of the [[matrix]]es has changed. this is significant as [[matrix#multiplication]] is not commutative
+> **note** in the equation above, the order of the [[matrix]]es has changed. this is significant as [[matrix#matrix multiplication]] is not commutative
 
 if **`AC`** is invertible, then **`A`** is invertible and **`C`** is invertible
 
-> **procedure** _computing the [[matrix#inverse]] of a [[matrix]]_
+> **procedure** _computing the [[matrix#matrix inverse]] of a [[matrix]]_
 >
 > let **`MM^n,n A`**
 >
 > solve the system **`AA^- = I`** by extending the [[matrix]] with the [[matrix#identity matrix]] and solve the [[linear system]] up to [[linear system#reduced row echelon form]] using [[row reduction]]. **`[]A & || & I[]`** [...] **`[]I & || & A^-[]`**
 
-> **procedure** _computing the [[matrix#inverse]] of a **`2`** by **`2`** [[matrix]]_
+> **procedure** _computing the [[matrix#matrix inverse]] of a **`2`** by **`2`** [[matrix]]_
 >
 > **see** [[determinant]]
 >
@@ -279,7 +271,7 @@ if **`AC`** is invertible, then **`A`** is invertible and **`C`** is invertible
 
 **applications**
 
-> **example** _using a [[matrix#inverse]] to solve a [[linear system]]_
+> **example** _using a [[matrix#matrix inverse]] to solve a [[linear system]]_
 >
 > let **`A = []1 & 1 && 2 & 3[]`**
 >
@@ -307,29 +299,29 @@ if **`AC`** is invertible, then **`A`** is invertible and **`C`** is invertible
 
 ## Diagonalizable Matrix
 
-**see** [[eigen#vector]]
+**see** [[eigen#eigenvector]]
 
-**definition** an **`n`** by **`n`** [[matrix]] **`A`** is said to be _diagonalizable over the reals_ if there exists a [[basis]] of **`RR^n`** consisting entirely of [[eigen#vector]]s of **`A`**
+**definition** an **`n`** by **`n`** [[matrix]] **`A`** is said to be _diagonalizable over the reals_ if there exists a [[basis]] of **`RR^n`** consisting entirely of [[eigen#eigenvector]]s of **`A`**
 
-a [[matrix]] is _diagonalizable_ if and only if the geometic [[eigen#multiplicity]] of an [[eigen#value]] is equal to the algebraic [[eigen#multiplicity]] of said [[eigen#value]], for every [[eigen#value]] of the [[matrix]]
+a [[matrix]] is _diagonalizable_ if and only if the geometic [[eigen#multiplicity]] of an [[eigen#eigenvalue]] is equal to the algebraic [[eigen#multiplicity]] of said [[eigen#eigenvalue]], for every [[eigen#eigenvalue]] of the [[matrix]]
 
 > **note** a [[matrix]] may also be diagonalizable over other [[field]]s such as the [[set]] of [[complex]] numbers **`CC`**
 
-> **note** some [[matrix]]es do not have "enough" real [[eigen#value]]s or "enough" [[eigen#vector]]s to be diagonalizable
+> **note** some [[matrix]]es do not have "enough" real [[eigen#eigenvalue]]s or "enough" [[eigen#eigenvector]]s to be diagonalizable
 
-> **example** the [[matrix]] **`A = []1 & 2 && 2 & 1[]`** is diagonalizable over the reals as **`{{ (1, 1), (1, .1) }}`** is a [[basis]] of **`RR^2`** consisting entirely of [[eigen#vector]]s of **`A`**
+> **example** the [[matrix]] **`A = []1 & 2 && 2 & 1[]`** is diagonalizable over the reals as **`{{ (1, 1), (1, .1) }}`** is a [[basis]] of **`RR^2`** consisting entirely of [[eigen#eigenvector]]s of **`A`**
 
-> **example** the [[matrix]] **`A = []1 & 1 && 1 & 1[]`** is not diagonalizable over the reals as it does not have any real [[eigen#value]]s
+> **example** the [[matrix]] **`A = []1 & 1 && 1 & 1[]`** is not diagonalizable over the reals as it does not have any real [[eigen#eigenvalue]]s
 
-> **example** the [[matrix]] **`A = []3 & 1 && 0 & 3[]`** is not diagonalizable over the reals as it only has one [[eigen#value]], and therefore only one set of [[vector#linearly dependent vector]] [[eigen#vector]]s
+> **example** the [[matrix]] **`A = []3 & 1 && 0 & 3[]`** is not diagonalizable over the reals as it only has one [[eigen#eigenvalue]], and therefore only one set of [[vector#linearly dependent vector]] [[eigen#eigenvector]]s
 
-> **example** the [[matrix]] **`A = []1 & 0 && 0 & 1[]`** is diagonalizable over the reals as, even though **`A`** has a single [[eigen#value]] **`ll = 1`**, its [[eigen#space]] [[span]]s **`RR^2`**. this is the case for both **`A = I /\ ll = 1`** and **`A = O /\ ll = 0`**
+> **example** the [[matrix]] **`A = []1 & 0 && 0 & 1[]`** is diagonalizable over the reals as, even though **`A`** has a single [[eigen#eigenvalue]] **`ll = 1`**, its [[eigen#eigenspace]] [[span]]s **`RR^2`**. this is the case for both **`A = I /\ ll = 1`** and **`A = O /\ ll = 0`**
 >
 > > **proof** let **`A = I /\ ll = 1 /\ E_1 = x`**. we then have **`O = A . llI | x = I . 1I | E_1 = O | E_1`**. therefore, **`E_1 = RR^2`**. see [[eigen]]
 
-> **example** let **`MM^n,n A /\ NN n`** and suppose **`A`** has **`n`** distinct [[eigen#value]]s. deduce that **`A`** is diagonalizable over the reals
+> **example** let **`MM^n,n A /\ NN n`** and suppose **`A`** has **`n`** distinct [[eigen#eigenvalue]]s. deduce that **`A`** is diagonalizable over the reals
 >
-> > **proof** **`A`** has at most **`n`** [[eigen#value]]s -> the algebraic [[eigen#multiplicity]] of every [[eigen#value]] of **`A`** is **`1`** as they are all distinct and must be greater than **`1`** -> the geometric [[eigen#multiplicity]] of every [[eigen#value]] of **`A`** is **`1`** as it must be greater than **`1`** and less than its algebraic [[eigen#multiplicity]] -> all algebraic [[eigen#multiplicity]]es and geometric [[eigen#multiplicity]]es are equal -> **`A`** is diagonalizable. see [[eigen]]
+> > **proof** **`A`** has at most **`n`** [[eigen#eigenvalue]]s -> the algebraic [[eigen#multiplicity]] of every [[eigen#eigenvalue]] of **`A`** is **`1`** as they are all distinct and must be greater than **`1`** -> the geometric [[eigen#multiplicity]] of every [[eigen#eigenvalue]] of **`A`** is **`1`** as it must be greater than **`1`** and less than its algebraic [[eigen#multiplicity]] -> all algebraic [[eigen#multiplicity]]es and geometric [[eigen#multiplicity]]es are equal -> **`A`** is diagonalizable. see [[eigen]]
 
 ## theorems
 
@@ -353,7 +345,7 @@ let **`MM^m,n A`**. the following statements are equivalent:
 > - **`Ax = O`** is homogeneous -> the [[linear system]] is consistent. no free [[variable]]s -> there cannot be infinitely many solutions -> it must have a single solution
 > - **`Ax = O`** has a unique solution -> **`x = O`** -> **`A^*,j x^j : ... A^*,j x^j = O`** has a unique solution (all coefficients are **`0`**) -> the columns of **`A`** are [[vector#linearly independent vector]]s
 > - the columns of **`A`** are [[vector#linearly independent vector]]s -> **`Ax = O`** has a unique solution (**`x = O`**) -> the [[matrix#null space]] of **`A`** is the [[set]] containing the zero [[vector]]
-> - the [[matrix#null space]] of **`A`** is the zero space -> the [[vector space#dimension]] of the zero space is **`0`**
+> - the [[matrix#null space]] of **`A`** is the zero space -> the [[vector space#vector space dimension]] of the zero space is **`0`**
 > - **`"dim" NN A : "rank" A = "number of columns in" A`** (see [[matrix]]) -> as **`"dim" NN A = 0`**, **`"rank" A = "number of columns in" A = n`**
 > - the [[matrix#rank]] of a [[matrix]] is the number leading [[variable]]s in the matrix. **`"rank" A = n`** and **`A`** has **`n`** columns -> every [[variable]] is a leading variable
 

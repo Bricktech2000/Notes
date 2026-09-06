@@ -8,8 +8,6 @@ the [[iota language]] is a minimalist [[programming language]] based on the [[co
 
 ## Syntax
 
-**see** [[backus--naur form]]
-
 ```bnf
 <iota> ::= "1"                 ; iota combinator
          | "0" <iota> <iota>   ; application

@@ -25,7 +25,7 @@ inverted [[catenary]]es are used in the design of bridges and arches so that [[f
 
 **representation**
 
-![](20220827143458.png)
+![[20220827143458.png]]
 
 --- <https://en.wikipedia.org/wiki/Catenary>
 

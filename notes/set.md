@@ -72,35 +72,35 @@ in other words, an element being in **`A`** implies it is also in **`B`**
 
 both the [[set#subset]] and the [[set#superset]] [[relation]]s are [[partial order]]s
 
-## Union
+## Set Union
 
 **definition** **`A ^^ B`**
 
-### Disjoint Union
+### Set Disjoint Union
 
 **definition** **`A ^^ B`** with the guarantee that **`A __ B == {{ }}`**
 
-## Intersection
+## Set Intersection
 
 **definition** **`A __ B`**
 
-## Difference
+## Set Difference
 
 **definition** **`A ^^ +B`**
 
-## Complementation
+## Set Complementation
 
 **definition** **`+A`**
 
-## Equivalence
+## Set Equivalence
 
 **definition** two [[set]]s are _equivalent_ if and only if they contain the same elements; **`A = B == /\ A = B`**
 
-## Membership
+## Set Membership
 
 **notation** **`S a`**
 
-## Isomorphism
+## Set Isomorphism
 
 **see** [[morphism#isomorphism]]
 
@@ -108,11 +108,11 @@ two [[set]]s are isomorphic if they contain the same elements "labeled" in diffe
 
 --- <https://youtu.be/yAi3XWCBkDo?t=998>
 
-## Partition
+## Set Partition
 
 **definition** a _partition_ of a [[set]] **`A`** is a collection of non-empty [[set#subset]]s of **`A`** such that every element of **`A`** is in exactly one of the [[set#subset]]s
 
-## Cardinality
+## Set Cardinality
 
 **notation** **`# S`**
 
@@ -120,9 +120,9 @@ two [[set]]s are isomorphic if they contain the same elements "labeled" in diffe
 
 **properties**
 
-when two [[set]]s form a [[set#disjoint union]] **`A \/ B`**, then **`# S = # A : # B`**
+when two [[set]]s form a [[set#set disjoint union]] **`A \/ B`**, then **`# S = # A : # B`**
 
-when two [[set]]s form a [[set#union]] **`A \/ B`**, then **`# S = # A : # B . # (A /\ B)`**
+when two [[set]]s form a [[set#set union]] **`A \/ B`**, then **`# S = # A : # B . # (A /\ B)`**
 
 _difference principle_ the cardinality of the difference of two [[set]]s is **`# (A /\ +B) = # A . # (A /\ B)`**
 

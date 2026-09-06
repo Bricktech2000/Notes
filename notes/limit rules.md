@@ -2,7 +2,7 @@
 
 **see** [[math notation]]
 
-let **`c`** be a constant and ensure **`f x {x -> a}`** and **`g x {x -> a}`** are [[limit]]s that exist, see [[limit#existence]]
+let **`c`** be a constant and ensure **`f x {x -> a}`** and **`g x {x -> a}`** are [[limit]]s that exist
 
 ## sum rule
 

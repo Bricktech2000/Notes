@@ -11,7 +11,7 @@ _actively [[learn]]ing by retrieving information from your brain_
 > **examples** _active recall strategies_
 >
 > - noting down questions instead of summaries and trying to answer them to [[learn]] (similar to the _Cornell method_)
-> - using flashcards for learning [[fact]]s instead of using mnemonics or other [[memory#technique]]s
+> - using flashcards for learning [[fact]]s instead of using mnemonics or other [[memory#memory technique]]s
 
 _recollection_ (retrieving information from memory) is often confused with _recognition_ (identifying information one has seen before). [[active recall]] is about recollection, not recognition --- <https://youtu.be/RJKNtXgo39o?t=1081>
 

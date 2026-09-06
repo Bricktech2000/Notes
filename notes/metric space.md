@@ -12,14 +12,14 @@
 >
 > the following are [[metric space]]s:
 >
-> - the [[real]] [[line]] with Euclidean distance **`a b -> "abs" (a.b)`**, see [[real#absolute value]]
+> - the [[real]] [[line]] with Euclidean distance **`a b -> "abs" (a.b)`**, see [[real#real absolute value]]
 > - the [[real]] [[line]] with metric **`a b -> (a = b)`**
 > - the [[real]] [[plane]] with Euclidean distance **`a b -> \:(a.b)2/`**, see [[euclidean vector#magnitude]]
-> - the [[real]] [[plane]] with Manhattan metric **`a b -> : "abs" (a.b)`**, see [[real#absolute value]], [[function#composition]]
-> - the [[real]] [[plane]] with Chebyshev metric **`a b -> \/ "abs" (a.b)`**, see [[real#absolute value]], [[function#composition]]
+> - the [[real]] [[plane]] with Manhattan metric **`a b -> : "abs" (a.b)`**, see [[real#real absolute value]]
+> - the [[real]] [[plane]] with Chebyshev metric **`a b -> \/ "abs" (a.b)`**, see [[real#real absolute value]]
 > - a [[sphere]] with angular distance **`a b -> "acos" ("abs" :ab -- \:a2/ -- \:b2/ )`**, see [[euclidean vector#angle]]
 > - normed [[vector space]]s with metric **`a b -> "norm" (a.b)`** where **`"norm"`** is the norm of the [[vector space]]
-> - the [[p-adic]]s with metric **`a b -> "abs"^p (a.b)`**, see [[p-adic#absolute value]]
+> - the [[p-adic]]s with metric **`a b -> "abs"^p (a.b)`**, see [[p-adic#p-adic absolute value]]
 
 ## Metric
 
@@ -59,13 +59,13 @@ _triangle inequality_ **`d x z -| d x y : d y z`**
 
 **definition** a [[metric space]] **`M`** is called _complete_ if every [[metric space#cauchy sequence]] in **`M`** is a [[metric space#convergent sequence]] in **`M`**
 
-> **example** the [[real]]s with the [[real#absolute value]] is complete
+> **example** the [[real]]s with the [[real#real absolute value]] is complete
 
-> **example** the [[rational]]s with the [[real#absolute value]] is not complete. for example, the [[sequence]] **`(6-1, 62-10, 628-100, ...)`** approaching **`tt`** is Cauchy with respect to the [[real#absolute value]] but does not converge to any [[rational]] number
+> **example** the [[rational]]s with the [[real#real absolute value]] is not complete. for example, the [[sequence]] **`(6-1, 62-10, 628-100, ...)`** approaching **`tt`** is Cauchy with respect to the [[real#real absolute value]] but does not converge to any [[rational]] number
 
-> **example** the [[rational]]s with [[p-adic#abolute value]] is not complete. for example, the [[sequence]] **`([5]0, [5]0 : [5]1, [5]0 : [5]1 : [5]2, ...)`** is Cauchy with respect to the **`5`**-adic metric but does not converge to any [[rational]] number
+> **example** the [[rational]]s with [[p-adic#p-adic abolute value]] is not complete. for example, the [[sequence]] **`([5]0, [5]0 : [5]1, [5]0 : [5]1 : [5]2, ...)`** is Cauchy with respect to the **`5`**-adic metric but does not converge to any [[rational]] number
 
-### Completion
+### Metric Space Completion
 
 --- <http://sites.iiserpune.ac.in/~supriya/teaching/Topology-MTH322/files/Completion.pdf>
 

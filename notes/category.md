@@ -14,18 +14,18 @@
 
 ## examples
 
-| category      | objects                      | morphisms               | initial - terminal                                                      | product - coproduct                               |
-| ------------- | ---------------------------- | ----------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- |
-| **`"Set"`**   | [[set]]s                     | [[function]]s           | [[set#empty set]] - [[set#singleton set]]                               | [[cartesian product]] - [[set#disjoint union]]    |
-| **`"Grp"`**   | [[group]]s                   | [[group#homomorphism]]s | [[group#trivial group]] - [[group#trivial group]]                       | direct product - free product                     |
-| **`"Top"`**   | topological spaces           | continuous maps         | empty space - singleton space                                           | cartesian product - disjoint union                |
-| **`"Sub"`**   | [[set]]s                     | [[set#subset]]          | [[set#empty set]] - [[set#universal set]]                               | [[set#intersection]] - [[set#union]]              |
-| **`"Vect"`**  | [[vector space]]s            | [[linear map]]s         | [[vector space#zero vector space]] - [[vector space#zero vector space]] | direct sum - [[tensor#product]]                   |
-| **`"Poset"`** | [[partial order]]ed elements | at most                 | bottom element - top element                                            | [[supremum]] - [[infimum]]                        |
-| **`"Type"`**  | [[type]]s                    | [[function]]s           | [[type#empty type]] - [[type#unit type]]                                | [[type#product type]] - [[type#sum type]]         |
-| **`"Bool"`**  | [[boolean]]s                 | [[boolean#implication]] | boolean false - boolean true                                            | [[boolean#conjunction]] - [[boolean#disjunction]] |
-|               | [[real]]s                    | no more than            | negative infinity - positive infinity                                   | minimum - maximum                                 |
-|               | [[natural]]s                 | divides                 | natural **`1`** - natural **`0`**                                       | greatest common divisor - least common multiple   |
+| category      | objects                      | morphisms                     | initial - terminal                                                      | product - coproduct                                |
+| ------------- | ---------------------------- | ----------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------- |
+| **`"Set"`**   | [[set]]s                     | [[function]]s                 | [[set#empty set]] - [[set#singleton set]]                               | [[cartesian product]] - [[set#set disjoint union]] |
+| **`"Grp"`**   | [[group]]s                   | [[group#group homomorphism]]s | [[group#trivial group]] - [[group#trivial group]]                       | direct product - free product                      |
+| **`"Top"`**   | topological spaces           | continuous maps               | empty space - singleton space                                           | cartesian product - disjoint union                 |
+| **`"Sub"`**   | [[set]]s                     | [[set#subset]]                | [[set#empty set]] - [[set#universal set]]                               | [[set#set intersection]] - [[set#set union]]       |
+| **`"Vect"`**  | [[vector space]]s            | [[linear map]]s               | [[vector space#zero vector space]] - [[vector space#zero vector space]] | direct sum - [[tensor#tensor product]]             |
+| **`"Poset"`** | [[partial order]]ed elements | at most                       | bottom element - top element                                            | [[supremum]] - [[infimum]]                         |
+| **`"Type"`**  | [[type]]s                    | [[function]]s                 | [[type#empty type]] - [[type#unit type]]                                | [[type#product type]] - [[type#sum type]]          |
+| **`"Bool"`**  | [[boolean]]s                 | [[boolean#implication]]       | boolean false - boolean true                                            | [[boolean#conjunction]] - [[boolean#disjunction]]  |
+|               | [[real]]s                    | no more than                  | negative infinity - positive infinity                                   | minimum - maximum                                  |
+|               | [[natural]]s                 | divides                       | natural **`1`** - natural **`0`**                                       | greatest common divisor - least common multiple    |
 
 --- <https://ncatlab.org/nlab/show/category> and <https://math.stackexchange.com/questions/414465/initial-and-terminal-objects-in-textbffinvect-r> and <https://en.wikipedia.org/wiki/Join_and_meet> and <https://ncatlab.org/nlab/show/initial+object> and <https://ncatlab.org/nlab/show/terminal+object> and <https://ncatlab.org/nlab/show/top> and <https://ncatlab.org/nlab/show/meet> and <https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence> and <https://en.wikipedia.org/wiki/Lattice_(order)> and <https://youtu.be/yP2RjVD-cZ0?t=3m48s>
 
@@ -96,8 +96,6 @@ monomorphisms are [[category#morphism]]s that are injective, see [[function#inje
 epimorphisms are [[category#morphism]]s that are surjective, see [[function#surjective function]]
 
 ## Composition
-
-**see** [[function#composition]]
 
 **equiv** _[[relation#transitive relation]]_
 

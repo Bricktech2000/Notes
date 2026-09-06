@@ -32,7 +32,7 @@ _multiplication in cartesian form_ **`a : bii | c : dii = ac : adii : bii c : bd
 
 _multiplication in polar form_ **`z | w = "abs" z | [ii"arg" z] | "abs" w | [ii"arg" w] = "abs" zw | [ii | "arg" z : "arg" w]`**
 
-_product of two [[complex#conjugate]]s are product of [[complex#modulus]]es_ **`a : bii | a .. bii = a2 : b2 = "abs" (a : bii) | "abs" (a .. bii)`** --- <https://youtu.be/bOXCLR3Wric?t=1522>
+_product of two [[complex#complex conjugate]]s are product of [[complex#complex modulus]]es_ **`a : bii | a .. bii = a2 : b2 = "abs" (a : bii) | "abs" (a .. bii)`** --- <https://youtu.be/bOXCLR3Wric?t=1522>
 
 **theorem** _De Moivre's Theorem_ **`["cis" aa]n = "cis" naa > ZZ n > RR aa`** --- <https://en.wikipedia.org/wiki/De_Moivre%27s_formula>
 
@@ -52,9 +52,7 @@ _imaginary part of a complex number_ **`"im" z = b`**
 
 therefore, **`z = ("re" : ii"im") z`**
 
-## Conjugate
-
-_[[complex#conjugate]]_
+## Complex Conjugate
 
 **definition**
 
@@ -80,13 +78,13 @@ _[[involution]]_ **`"conj"2 z = z`**
 
 **theorem** **`--z = "conj" z -- ["abs" z]2 > CC z`**
 
-## Modulus
+## Complex Modulus
 
 **aka** _magnitude_, _absolute value_
 
 **definition** **`"abs" z = "abs" ("re" z, "im" z)`** where **`"abs" z`** is the _absolute value_ of **`z`**.
 
-> **note** the [[real#absolute value]] can be thought of as "the [[distance]] of a point to the origin", which is why the absolute value of [[complex]] numbers is defined this way
+> **note** the [[real#real absolute value]] can be thought of as "the [[distance]] of a point to the origin", which is why the absolute value of [[complex]] numbers is defined this way
 
 **properties**
 
@@ -102,7 +100,7 @@ _triangle inequality_ **`"abs" (z : w) -| "abs" {z : w}`**
 
 **equiv** _triangle inequality with [[relation#transitive relation]]_
 
-## Argument
+## Complex Argument
 
 **aka** _phase_
 
@@ -110,7 +108,7 @@ _triangle inequality_ **`"abs" (z : w) -| "abs" {z : w}`**
 
 **definition** **`z = "abs" z | [ii"arg" z]`** where **`"arg" z`** is the _argument_ of **`z`**
 
-## Multiplication
+## Complex Multiplication
 
 geometrically, multiplying a [[complex]] number **`z`** by a [[complex]] number **`w`** is equivalent to rotating **`z`** by the [[angle]] **`"arg" w`** and then scaling it by a factor of **`"abs" w`**. this makes [[complex]] numbers useful for computing [[euclidean vector]] rotations by choosing a **`w`** where **`"abs" w = 1`** --- <https://youtu.be/4KlvI_uK9zs?t=398>
 
@@ -122,4 +120,4 @@ geometrically, multiplying a [[complex]] number **`z`** by a [[complex]] number 
 
 > **proof** --- <https://www.youtube.com/watch?v=Z49hXoN4KWg>
 
-[[complex#multiplication]] by **`ii`** is equivalent to a rotation by **`"arg" ii`**, or **`-4tt"rad"`**. the square root of **`ii`** is a number **`x`** such that **`x | x = ii`**, which can be thought of as a rotation by either **`-8tt"rad"`** or **`5-8tt"rad"`**, which are equivalent to **`1 : ii -- \2/`** or **`1 : ii -- .. \2/`** respectively. this is because a right-angle triangle with hypotenuse **`1`** and angles **`-8tt"rad"`** has side lengths **`--\2/`** --- me
+[[complex#complex multiplication]] by **`ii`** is equivalent to a rotation by **`"arg" ii`**, or **`-4tt"rad"`**. the square root of **`ii`** is a number **`x`** such that **`x | x = ii`**, which can be thought of as a rotation by either **`-8tt"rad"`** or **`5-8tt"rad"`**, which are equivalent to **`1 : ii -- \2/`** or **`1 : ii -- .. \2/`** respectively. this is because a right-angle triangle with hypotenuse **`1`** and angles **`-8tt"rad"`** has side lengths **`--\2/`** --- me

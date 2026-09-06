@@ -1,0 +1,781 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+<title>Boehm-Berarducci Encoding</title>
+<meta name="description" content="Explaining the Boehm-Berarducci isomorphism between strictly-positive algebraic data types and a class of polymorphic System F terms, and illustrating it on a simple example">
+<meta name="Author" content="oleg-at-okmij.org">
+<meta name="Date-Revision-yyyymmdd" content="20200704">
+<meta name="Date-Creation-yyyymmdd" content="20120403">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<link rel="start" href="../index.html">
+<link rel="prev" href="index.html">
+<link rel="next" href="PE-dB.html">
+<link rel="contents" href="http://okmij.org/ftp/">
+<style type="text/css">BODY { background-color: white; color: black } #navbar, h1 { text-align: center; } .small  { font-size: x-small;} LI.separator { list-style-type: none;} LI.header    { list-style-type: none; padding: 1em 0px 2px; margin-left: -1em;}</style></head>
+<body>
+<div id="navbar"><a href="index.html">previous</a>&nbsp;&nbsp;&nbsp;<a href="PE-dB.html">next</a>&nbsp;&nbsp;&nbsp;<a href="../index.html">start</a>&nbsp;&nbsp;&nbsp;<a href="http://okmij.org/ftp/">top</a>
+<hr></div>
+<h1>Beyond Church encoding: Boehm-Berarducci isomorphism of
+algebraic data types and polymorphic lambda-terms</h1>
+<div>&nbsp;</div>
+<ul>
+<li><a href="#Boehm-Berarducci">Introduction</a>
+</li>
+<li><a href="#baseline">Baseline: operating on an algebraic data type</a>
+</li>
+<li><a href="#encoded">Algebraic data type as fold</a>
+</li>
+<li><a href="#decon">Deconstructing fold</a>
+</li>
+<li class="separator">&nbsp;</li>
+<li><a href="#algebra">Boehm-Berarducci encoding as initial algebra</a>
+</li>
+<li><a href="#tagless-final">Tagless-Final and Boehm-Berarducci representations and pattern-matching on tagless-final terms</a>
+</li>
+<li><a href="#cdr-fstream">How to take the tail of a functional stream</a>
+</li></ul>
+<hr>
+
+<p>&nbsp;</p>
+<h2><a name="Boehm-Berarducci">Introduction</a></h2>
+<dl>
+<dd>In 1985, Corrado Boehm and Alessandro Berarducci published the
+encoding of strictly-positive algebraic data types in polymorphic
+lambda-calculus (System F). They showed how to <em>systematically</em>,
+automatically translate operations on data types&nbsp;-- construction and
+especially pattern-matching&nbsp;-- into the language that has only
+applications and abstractions.  They proved that the encoding is
+one-to-one and onto: it encodes all strictly-positive
+algebraic data types with no junk. For example, the set of all closed
+normal terms of the type <code>forall a. ((a-&gt;a)-&gt;a-&gt;a)</code> is exactly the set
+of encoded natural numbers. Polymorphic types become ``a system
+of notation to describe data structures''.  Furthermore, the encoding
+commutes with operations on data types: it is an isomorphism. In
+modern terms, they showed how to construct an initial algebra of a
+strictly-positive functor using a set of System F terms as a carrier.
+<P>Boehm-Berarducci encoding is often confused with Church
+encoding. First of all, Church encoding, which represents data types
+in an <em>untyped</em> lambda-calculus, is not tight. Without types, it is
+impossible to separate lambda-terms that encode some data type, from
+the terms that represent no value of that data type. 
+The main distinction between the two
+approaches is subtle. In a word, Church encoding only describes
+introductions whereas Boehm and Berarducci also define the elimination, or
+pattern-matching, on encoded data types. For example, the list <code>[1,2]</code>
+is represented in either encoding as the term <code>\f x -&gt; f 1 (f 2 x)</code>. It
+is easy to write the function <code>head</code>, which applied to the above
+lambda-term returns <code>1</code>. It is much harder to define <code>tail</code>,
+which applied to the above term returns <code>\f x -&gt; f 2 x</code>, the
+encoding of <code>[2]</code>. The reader may wish to pause and try writing
+this function. The solution, which is the generalization of the predecessor
+on Church numerals, seems ad hoc. It is not clear how to
+extend it to the encodings of other data structures and to make it automatic.
+Boehm and Berarducci were
+the first to show `the trick', the <em>systematic</em> method of writing
+pattern-matching functions on encodings of any algebraic data type.
+<P>The Boehm and Berarducci's paper has many great insights. Alas, the generality
+of the presentation makes the paper very hard to understand. It has a
+Zen-like quality: it is incomprehensible unless you already know its
+results.  I understood the representation of pattern-matching
+because I had re-discovered `the trick' independently and was
+specifically looking for it in the paper. This article is an attempt
+to explain and illustrate the main ideas of the paper on a simple
+example.
+<P>Recall, the Boehm-Berarducci encoding translates algebraic data types and
+the operations on them into System F, which contains only
+abstractions and applications and base type constants. The encoding
+applies only to what is now called `strictly positive' data types:
+there are no functions in the domain of constructors.  (See Remark 1.1
+(d) in their paper). For example, the
+encoding does not apply to the higher-order abstract syntax. 
+The encoding represents
+recursive (inductive, to be precise) data types as System F terms with
+non-recursive, but higher-rank types. Informally, the encoding
+replaces the type-level primitive recursion with the term-level primitive
+recursion and the higher-rank type, of the order at most two.  The
+encoding can be implemented in OCaml or Haskell, both of which support
+higher-rank types. As we shall see, the encoding has an inherent
+severe performance problem due to repeated re-encoding.</dd>
+<dt><strong>Version</strong></dt>
+<dd>The current version is April 2012</dd>
+<dt><strong>References</strong></dt>
+<dd>Corrado Boehm and Alessandro Berarducci:
+Automatic Synthesis of Typed Lambda-Programs on Term Algebras<BR>
+
+Theoretical Computer Science, 1985, v39, pp. 135--154.
+
+<P>Philip Wadler: Recursive types in polymorphic lambda calculus<BR>
+
+Message on the Types mailing list inquiring of the origin of the
+encoding, posted on Fri, 14 May 1999 15:24:32 -0400<BR>
+
+&lt;<a href="http://www.seas.upenn.edu/~sweirich/types/archive/1999-2003/msg00138.html">http://www.seas.upenn.edu/~sweirich/types/archive/1999-2003/msg00138.html</a>&gt;
+</dd></dl>
+
+<p>&nbsp;</p>
+<h2><a name="baseline">Baseline: operating on an algebraic data type</a></h2>
+<dl>
+<dd>Let's recall how we typically work with an algebraic data type&nbsp;--
+declare it, define constructors, consumers and transformers of its
+values&nbsp;-- on a simple example. The example serves as a baseline. In
+the next two sections we re-write it System F, the language with no data
+types, using the Boehm-Berarducci encoding.  The example, borrowed from the
+tagless-final lectures, represents expressions of a trivial
+`domain-specific language' of additions and negations of integers, as
+the following algebraic data type (in Haskell; there is also an OCaml
+version of the code):
+<pre>    data Exp = Lit Int 
+             | Neg Exp
+             | Add Exp Exp
+</pre>Here is a sample <code>Exp</code> value
+
+<pre>    ti1 = Add (Lit 8) (Neg (Add (Lit 1) (Lit 2)))
+</pre>A sample consumer shows <code>Exp</code> values as a string. It is
+structurally recursive, relying on pattern-matching to deconstruct its
+<code>Exp</code> argument. The comments after <code>ti1_view</code> show the result of
+viewing the sample term.
+
+<pre>    view:: Exp -&gt; String
+    view (Lit n) = show n
+    view (Neg e) = &quot;(-&quot; ++ view e ++ &quot;)&quot;
+    view (Add e1 e2) = &quot;(&quot; ++ view e1 ++ &quot; + &quot; ++ view e2 ++ &quot;)&quot;
+    
+    ti1_view = view ti1
+    -- &quot;(8 + (-(1 + 2)))&quot;
+</pre>
+<P>In the general form, structural recursion over <code>Exp</code> values is
+expressed as:
+
+<pre>    fold_Exp :: (Int -&gt; a) -&gt; (a -&gt; a) -&gt; (a -&gt; a -&gt; a) -&gt; Exp -&gt; a
+    fold_Exp onlit onneg onadd (Lit n) = onlit n
+    fold_Exp onlit onneg onadd (Neg e) = onneg (fold_Exp onlit onneg onadd e)
+    fold_Exp onlit onneg onadd (Add e1 e2) =
+      onadd (fold_Exp onlit onneg onadd e1) (fold_Exp onlit onneg onadd e2)
+</pre>To make <code>fold_Exp</code> more convenient to use, it makes sense to group its
+parameters (telling how to handle <code>Lit</code>, <code>Neg</code> and <code>Add</code> nodes
+of the data type) in a record:
+
+<pre>    data ExpOps a = ExpOps{ olit :: Int -&gt; a,
+                            oneg :: a -&gt; a,
+                            oadd :: a -&gt; a -&gt; a }
+    
+    fold_Exp' :: ExpOps a -&gt; Exp -&gt; a
+    fold_Exp' ops = fold_Exp (olit ops) (oneg ops) (oadd ops)
+</pre>The earlier <code>view</code> is a particular case of fold: <code>fold_Exp' view_ops</code>, where
+
+<pre>    view_ops :: ExpOps String
+    view_ops = ExpOps {
+      olit = show,
+      oneg = \e     -&gt; &quot;(-&quot; ++ e ++ &quot;)&quot;,
+      oadd = \e1 e2 -&gt; &quot;(&quot; ++ e1 ++ &quot; + &quot; ++ e2 ++ &quot;)&quot;}
+</pre>Remember this <code>view_ops</code> structure: it will come up again and again.
+<P>A sample term transformer pushes the negation down, converting terms to a 
+`negative normal form', in which only literals are negated, and only once.
+The code still uses pattern-matching, but it is not structurally recursive
+(see the last-but-one clause).
+
+<pre>    push_neg :: Exp -&gt; Exp
+    push_neg e@Lit{} = e
+    push_neg e@(Neg (Lit _)) = e
+    push_neg (Neg (Neg e)) = push_neg e
+      -- nested pattern-matching! Recurring not on e1 but on Neg e1!
+      -- All signs of a non-structural recursion
+    push_neg (Neg (Add e1 e2)) = Add (push_neg (Neg e1)) (push_neg (Neg e2))
+    push_neg (Add e1 e2) = Add (push_neg e1) (push_neg e2)
+</pre>This function cannot be expressed as a fold&nbsp;-- at least, not in the
+obvious way. It was the deep insight of Boehm and Berarducci that
+transformers like <code>push_neg</code> may too be represented as folds.
+<P>Here are a few sample transformations and their results (shown in the comments).
+
+<pre>    ti1_norm = push_neg ti1
+    ti1_norm_view = view ti1_norm
+    -- &quot;(8 + ((-1) + (-2)))&quot;
+   
+    -- Add an extra negation
+    ti1n_norm_view = view (push_neg (Neg ti1))
+    -- &quot;((-8) + (1 + 2))&quot;|]]
+</pre></dd>
+<dt><strong>Version</strong></dt>
+<dd>The current version is April 2012</dd>
+<dt><strong>References</strong></dt>
+<dd><a href="BB_ADT.hs">BB_ADT.hs</a>&nbsp;[3K]<BR>
+
+The complete Haskell code for the example
+</dd></dl>
+
+<p>&nbsp;</p>
+<h2><a name="encoded">Algebraic data type as fold</a></h2>
+<dl>
+<dd>We re-write the algebraic data type baseline example using
+the Boehm-Berarducci encoding to represent the data type as
+lambda-terms. The encoded terms and operations on them are still 
+written in Haskell&nbsp;-- but in a total, data-type--less fragment of
+Haskell that directly maps to System F. (There is also an OCaml
+version of the same code.)
+<P>The encoding of the data type <code>Exp</code> is defined in two
+steps.  First we look at <code>Exp</code> as an algebra: a set of values with
+operations on them. The following <em>non-recursive</em> Haskell record 
+represents the signature of the algebra&nbsp;-- the names
+of the operations and their arities (types):
+
+<pre>    data ExpOps a = ExpOps{ olit :: Int -&gt; a,
+                            oneg :: a -&gt; a,
+                            oadd :: a -&gt; a -&gt; a }
+</pre>That is, <code>oadd</code> is a binary operation (on elements of the carrier set:
+the inhabitants of the type <code>a</code>), <code>oneg</code> is unary and <code>olit</code> is a set
+of constants (indexed by integers). We saw this record in the
+previous section, where it came as a mere convenience for grouping
+<code>fold_Exp</code>'s arguments. 
+<P>The Boehm-Berarducci encoding of <code>Exp</code> is essentially the following:
+
+<pre>    type ExpBB1 = forall a. (ExpOps a -&gt; a)
+</pre>Although we got rid of the type-level recursion replacing it with
+rank-2, we are still relying on records. The result ought to contain
+only (term and type) applications and abstractions. To this end, we
+curry the record argument:
+
+<pre>    newtype ExpBB 
+     = ExpBB{unExpBB :: forall a. ((Int -&gt; a) -&gt; (a -&gt; a) -&gt; (a -&gt; a -&gt; a) -&gt; a)}
+</pre><code>ExpBB</code> is thus the type of the encoded <code>Exp</code> values. The <code>ExpBB</code>
+constructor is not really a data constructor: it is a <code>newtype</code>
+wrapper, to be viewed as the Haskell notation for `big Lambda' (type
+abstraction). Conversely, <code>unExpBB</code> marks locations of type
+applications: see the example below.
+<P>A data type declaration such as <code>data Exp</code> earlier 
+defines a new type, data constructors
+(introductions), deconstructors (elimination), and the induction
+principle (fold). For the encoded <code>Exp</code>, the just introduced <code>ExpBB</code>
+is the type of the encoded <code>Exp</code> values. Here are the constructors,
+defined systematically, by just looking at the type <code>ExpBB</code>:
+
+<pre>    lit :: Int -&gt; ExpBB
+    lit x = ExpBB $ \onlit onneg onadd -&gt; onlit x
+   
+    neg :: ExpBB -&gt; ExpBB
+    neg e = ExpBB $ \onlit onneg onadd -&gt; onneg (unExpBB e onlit onneg onadd)
+   
+    add :: ExpBB -&gt; ExpBB -&gt; ExpBB
+    add e1 e2 = ExpBB $ \onlit onneg onadd -&gt; 
+     onadd (unExpBB e1 onlit onneg onadd) (unExpBB e2 onlit onneg onadd)
+</pre>In the conventional System F notation, <code>neg</code>, for one, is written as
+
+<pre>    lam e:ExpBB. Lam A. lam (onlit:Int-&gt;A) (onneg:A-&gt;A) (onadd:A-&gt;A-&gt;A). onneg (e [A] onlit onneg onadd)
+</pre>where <code>[A]</code> denotes the type application of <code>A</code>. In Haskell, we write
+<code>ExpBB</code> for type abstraction and <code>unExpBB</code> for type application.
+<P>Looking back at the definition of <code>fold_Exp</code> in the previous section,
+it becomes clear how the Boehm-Berarducci encoding works: a data type value 
+<code>exp :: Exp</code> is encoded as a lambda-term equivalent to
+<code>\onlit onneg onadd -&gt; fold_Exp onlit onneg onadd exp :: ExpBB</code>.
+<P>Incidentally, we can group the constructors <code>lit</code>, <code>neg</code> and <code>add</code> 
+into a <code>ExpOps</code> record:
+
+<pre>    bb_ops :: ExpOps ExpBB
+    bb_ops = ExpOps {olit = lit, oneg = neg, oadd = add}
+</pre>That is, the set of <code>ExpBB</code> values with <code>bb_ops</code> operations on them is
+an <code>Exp</code> algebra. We will see the full significance of this fact later.
+<P>The sample term
+
+<pre>    tbb1 = add (lit 8) (neg (add (lit 1) (lit 2)))
+</pre>looks the same as the sample <code>Exp</code> term <code>ti1</code> modulo the
+capitalization of the constructors. Its normal form, in the
+conventional System F notation, is 
+
+<pre>    Lam A. lam (onlit:Int-&gt;A) (onneg:A-&gt;A) (onadd:A-&gt;A-&gt;A). onadd (onlit 8) (onneg (onadd (onlit 1) (onlit 2)))
+</pre>Indeed, the term is represented with only abstractions and applications.
+<P>The <code>view</code>-like consumer of the encoded <code>Exp</code> values is:
+
+<pre>    viewBB:: ExpBB -&gt; String
+    viewBB e = unExpBB e onlit onneg onadd
+     where
+     onlit n = show n
+     onneg e = &quot;(-&quot; ++ e ++ &quot;)&quot;
+     onadd e1 e2 = &quot;(&quot; ++ e1 ++ &quot; + &quot; ++ e2 ++ &quot;)&quot;
+    
+    tbb1v = viewBB tbb1
+    -- &quot;(8 + (-(1 + 2)))&quot;
+</pre>The function <code>view :: Exp -&gt; String</code> was structurally recursive: it
+was an instance of <code>fold_Exp</code>. Since the Boehm-Berarducci
+encoding of <code>Exp</code> is the fold, <code>viewBB</code> merely needs to instantiate
+it.  Unlike <code>view</code> of <code>Exp</code>, <code>viewBB</code> is not recursive: the iteration
+is driven by the input <code>ExpBB</code> value itself.  Boehm and Berarducci
+call the functions like <code>view</code> iterative (see Sec 2.1 in their paper).
+For an iterative function <code>f</code> on an algebraic data type, they give a
+<em>mechanical procedure</em> of re-writing the definition of <code>f</code> into the
+definition of the corresponding function on the encoded data type: see
+``program synthesis'' in Section 5.  The code for <code>viewBB</code> came from
+the mechanical re-writing of the code for <code>view</code>.
+<P>The <code>viewBB</code> code above is the expanded form of
+
+<pre>    viewBB e = unExpBB e (olit view_ops) (oneg view_ops) (oadd view_ops)
+</pre>One may want to stop to reflect what <code>viewBB tbb1</code> actually
+does. Recall, <code>tbb1</code>, which is the encoded 
+<code>Exp</code> term <code>ti1</code>, is essentially 
+<code>\onlit onneg onadd -&gt; fold_Exp onlit onneg onadd ti1</code>. Then
+<code>viewBB</code>, supplying the operations of <code>view_ops</code> as <code>onlit</code>, <code>onneg</code>,
+<code>onadd</code> arguments to <code>tbb1</code>, performs the fold over <code>ti1</code> using 
+<code>view_ops</code>. Indeed, <code>viewBB tbb1</code> does exactly what <code>view ti1</code> did on
+the original <code>Exp</code> term. What if, instead of <code>view_ops</code>, we use
+<code>bb_ops</code>? That is, what is the result of
+<code>unExpBB tbb1 (olit bb_ops) (oneg bb_ops) (oadd bb_ops)</code>? A moment of
+reflection shows it is <code>tbb1</code> itself. In fact, for any term <code>e :: ExpBB</code> we have
+
+<pre>    unExpBB e (olit bb_ops) (oneg bb_ops) (oadd bb_ops) ~= e
+</pre>where <code>~=</code> stands for the extensional equivalence.
+This is the instance of the famous Eq. (*) in Section 7 of the
+Boehm-Berarducci's paper. It looks utterly trivial. But let's think of
+it more. An <code>Exp</code> term like our sample <code>ti1</code> was inductively
+constructed using <code>Lit</code>, <code>Neg</code> and <code>Add</code>. Its Boehm-Berarducci
+encoding <code>tbb1</code> is a fold over <code>ti1</code>, using the supplied fold
+parameters (algebra operations). One may say that <code>tbb1</code> describes the
+inductive construction of the sample term, with the user-supplied
+constructors. And yet <code>tbb1</code> is itself inductively constructed, using
+<code>lit</code>, <code>neg</code> and <code>add</code> as constructors. The inductive construction is
+itself inductively constructed. 
+<P>Chances are, however, that the above explanation does not make much
+sense. It is better then to look at further applications and examples.
+One day it will click.</dd>
+<dt><strong>Version</strong></dt>
+<dd>The current version is July 2020</dd>
+<dt><strong>References</strong></dt>
+<dd><a href="BB_LAM.hs">BB_LAM.hs</a>&nbsp;[11K]<BR>
+
+The complete Haskell code for the example
+
+<P><a href="BoehmBerarducci.ml">BoehmBerarducci.ml</a>&nbsp;[4K]<BR>
+
+The OCaml code for a similar example
+</dd></dl>
+
+<p>&nbsp;</p>
+<h2><a name="decon">Deconstructing fold</a></h2>
+<dl>
+<dd>How to deal with the operations on <code>Exp</code> that are not folds, that is, are not
+structurally recursive? How to deconstruct <code>ExpBB</code> values using a sort of
+`pattern-matching'? Boehm and Berarducci turns out to have answered that
+question too. Alas, that answer is only understandable after an
+independent rediscovery. Hopefully the following is an
+easier-to-understand explanation of the pattern-matching on <code>ExpBB</code>.
+<P>To build intuition, we step back to the signature of the <code>Exp</code>
+algebra, <code>ExpOps</code>, and specify it differently, in the form of a
+strictly-positive functor (a functor built from constants, sums and
+products):
+
+<pre>    data ExpF a = FLit Int 
+                | FNeg a
+                | FAdd a a
+</pre>
+<P>Clearly <code>ExpF</code> specifies the names and the types (the arities) of <code>Exp</code>
+constructors just as well as <code>ExpOps</code> does. We then introduce two
+functions with characteristic names:
+
+<pre>    roll :: ExpF ExpBB -&gt; ExpBB
+    roll (FLit n) = lit n
+    roll (FNeg e) = neg e
+    roll (FAdd e1 e2) = add e1 e2
+   
+    unroll :: ExpBB -&gt; ExpF ExpBB
+    unroll e = unExpBB e onlit onneg onadd
+     where
+      onlit :: Int -&gt; ExpF ExpBB
+      onlit n = FLit n
+      onneg :: ExpF ExpBB -&gt; ExpF ExpBB
+      onneg e = FNeg (roll e)
+      onadd :: ExpF ExpBB -&gt; ExpF ExpBB -&gt; ExpF ExpBB
+      onadd e1 e2 = FAdd (roll e1) (roll e2)
+</pre>The names <code>roll</code> and <code>unroll</code> meant to evoke the witnesses of the
+isomorphism between an iso-recursive type and its one-step unrolling.
+These functions are present in the Boehm-Berarducci's paper, in a
+somewhat hidden way. Observe that <code>roll</code> and <code>unroll</code>, as befits the
+isomorphism witnesses, are inverses of each other. For example, <code>roll . unroll</code> is <em>extensionally</em> equivalent to the identity.  That
+is, for any concrete value <code>x :: ExpBB</code> built by the constructors
+<code>lit</code>, <code>neg</code> and <code>add</code>, <code>roll (unroll x)</code> is <code>x</code> -- which can be
+proven by induction on the construction of <code>x</code>. In the paper, the
+extensional equivalence of <code>roll . unroll</code> and the identity is
+essentially stated in Eq. (*) of Section 7. Clearly <code>roll . unroll</code> is
+not <em>intensionally</em> the identity, since no sequence of beta- and
+eta- reductions can bring <code>\x -&gt; roll (unroll x)</code> to be the same as
+<code>\x -&gt; x</code>. Yet these two terms cannot be distinguished by any context:
+they are contextually observationally
+equivalent. (Boehm and Berarducci introduce the symbol <code>~=</code> for this
+equivalence, noting that characterizing it is an open problem.)
+<P>The function <code>unroll</code> that essentially exposes the `top-level' constructors
+of <code>ExpBB</code> values tells us how to define the <code>ExpBB</code> deconstructor,
+systematically.
+
+<pre>    newtype ExpD = 
+     ExpD{unED :: forall w. (Int -&gt; w) -&gt; (ExpBB -&gt; w) -&gt; (ExpBB -&gt; ExpBB -&gt; w) -&gt; w}
+</pre>One may call <code>ExpD</code> a companion, deconstructing encoding of <code>Exp</code>, which
+relates to <code>unroll</code> as <code>ExpBB</code> relates to
+<code>fold_Exp</code>. Like <code>ExpBB</code>, the values of <code>ExpD</code> can
+be inductively constructed, with the following constructors:
+
+<pre>    dlit :: Int -&gt; ExpD
+    dlit x = ExpD $ \onlit onneg onadd -&gt; onlit x
+    
+    dneg :: ExpD -&gt; ExpD
+    dneg e = ExpD $ \onlit onneg onadd -&gt; onneg (unED e lit neg add)
+    
+    dadd :: ExpD -&gt; ExpD -&gt; ExpD
+    dadd e1 e2 = ExpD $ \onlit onneg onadd -&gt; 
+     onadd (unED e1 lit neg add) (unED e2 lit neg add)
+</pre>The code of these constructors looks deceptively similar to that of
+the constructors of <code>lit</code>, <code>neg</code> and <code>add</code> of <code>ExpBB</code>&nbsp;-- but look closely!
+<P>Since <code>ExpD</code> values can be inductively constructed, <code>ExpBB</code> can do
+that: <code>ExpBB</code> embodies the structural recursion, induction principle
+of our data type. Therefore:
+
+<pre>    decon :: ExpBB -&gt; ExpD
+    decon e = unExpBB e dlit dneg dadd
+</pre>This conversion of <code>ExpBB</code> to <code>ExpD</code> is the deconstructor. 
+As an illustration, we re-write <code>viewBB</code> with
+`pattern-matching', or deconstruction:
+
+<pre>    viewBBd:: ExpBB -&gt; String
+    viewBBd e = unED (decon e) onlit onneg onadd
+     where
+      onlit n = show n
+      onneg e = &quot;(-&quot; ++ viewBBd e ++ &quot;)&quot;
+      onadd e1 e2 = &quot;(&quot; ++ viewBBd e1 ++ &quot; + &quot; ++ viewBBd e2 ++ &quot;)&quot;
+</pre>The code looks pretty much like the original <code>view</code>. Like <code>view</code>, but
+unlike <code>viewBB</code>, it is (structurally) recursive.
+<P>The real payoff of introducing the deconstructor is being able to
+re-write the non-structurally recursive <code>push_neg</code> to operate on the
+encoded <code>ExpBB</code>:
+
+<pre>    push_negBB :: ExpBB -&gt; ExpBB
+    push_negBB e = unED (decon e) onlit onneg onadd
+      where
+      onlit _ = e
+      onneg e2 = unED (decon e2) onlit2 onneg2 onadd2
+        where
+        onlit2 n = e
+        onneg2 e = push_negBB e
+        onadd2 e1 e2 = add (push_negBB (neg e1)) (push_negBB (neg e2))
+      onadd e1 e2 = add (push_negBB e1) (push_negBB e2)
+   
+    tbb1_norm = push_negBB tbb1
+    tbb1_norm_viewBB = viewBBd tbb1_norm
+    -- &quot;(8 + ((-1) + (-2)))&quot;
+</pre>The function <code>push_negBB</code> looks quite like the original <code>push_neg</code>, down
+to nested `pattern-matching'. (In the tagless-final form, see below,
+it looks almost exactly like <code>push_neg</code>.)
+<P>Meditation on <code>roll</code> and <code>unroll</code> reveals inefficiency: <code>unroll</code>-ing
+the value <code>neg (neg (neg ... (lit 1)))</code> with <code>N neg</code> constructors
+involves <code>N </code> <code>roll</code>s. A single deconstruction of an <code>ExpBB</code> value
+takes time proportional to the total size of the value (the number of
+constructors used to build the value).  The function <code>viewBBd</code> that
+does repeated deconstruction takes the quadratic time in the size
+of the value.</dd>
+<dt><strong>Version</strong></dt>
+<dd>The current version is July 2020</dd>
+<dt><strong>References</strong></dt>
+<dd><a href="BB_LAM.hs">BB_LAM.hs</a>&nbsp;[11K]<BR>
+
+The complete Haskell code for the example
+
+<P><a href="BoehmBerarducci.ml">BoehmBerarducci.ml</a>&nbsp;[4K]<BR>
+
+The OCaml code for a similar example
+</dd></dl>
+
+<p>&nbsp;</p>
+<h2><a name="algebra">Boehm-Berarducci encoding as initial algebra</a></h2>
+<dl>
+<dd>A slight modification to the encoding gives a deep algebraic insight.
+This modification is not present in Boehm and Berarducci's paper,
+since it is a bit out of scope of their translation of data types to
+lambda-terms. The modified encoding however is isomorphic to the
+original one. The modification makes <code>roll</code> and <code>unroll</code> particularly
+elegant, helps us see the encoding as the initial algebra, and
+connects the encodings with continuations and streams.
+<P> We have already mentioned that the signature of the <code>Exp</code> algebra --
+the names and the types of its constructors -- are equally well
+specified by the data type <code>ExpOps a</code> or by <code>ExpF a</code> (beside the <code>Exp</code> 
+data type itself; <code>Exp</code> is recursive however). The connection goes deeper:
+<code>ExpOps a</code> and <code>ExpF a -&gt; a</code> are equivalent. Here are the witnesses.
+
+<pre>    sigma_dict :: (ExpF a -&gt; a) -&gt; ExpOps a
+    sigma_dict sigma = ExpOps{ olit = \n -&gt; sigma (FLit n),
+                               oneg = \e -&gt; sigma (FNeg e),
+                               oadd = \e1 e2 -&gt; sigma (FAdd e1 e2) }
+   
+    dict_sigma :: ExpOps a -&gt; (ExpF a -&gt; a)
+    dict_sigma ops (FLit n) = olit ops n
+    dict_sigma ops (FNeg e) = oneg ops e
+    dict_sigma ops (FAdd e1 e2) = oadd ops e1 e2
+</pre>The equivalence should not surprise anyone: it is a particular case of
+the duality between sums (<code>ExpF</code>, in our case) and products
+(<code>ExpOps</code>), and an expression of the de Morgan law. Thus the
+operations of an <code>Exp</code> algebra with the carrier <code>U</code> can be specified
+either as an <code>ExpOps U</code> value, or in the form of a function <code>ExpF U -&gt; U</code>. Earlier we have mentioned the uncurried form of the
+Boehm-Berarducci encoding:
+
+<pre>    type ExpBB1 = forall a. (ExpOps a -&gt; a)
+</pre>Replacing <code>ExpOps a</code> with <code>ExpF a -&gt; a</code> 
+brings the following equivalent form of the encoding
+
+<pre>    newtype ExpC = ExpC{unExpC :: forall a. (ExpF a -&gt; a) -&gt; a}
+</pre>whose connections with continuations are hard to miss. Let us write 
+the constructors explicitly:
+
+<pre>    sigma_expC :: ExpF ExpC -&gt; ExpC
+    sigma_expC (FLit n) = ExpC $ \f -&gt; f (FLit n)
+    sigma_expC (FNeg e) = ExpC $ \f -&gt; f (FNeg (unExpC e f))
+    sigma_expC (FAdd e1 e2) = ExpC $ \f -&gt; f (FAdd (unExpC e1 f) (unExpC e2 f))
+</pre>
+<P> The encoding <code>ExpC</code> is fully equivalent to <code>ExpBB</code>, and
+inter-convertible. It is not mentioned in the Boehm-Berarducci's paper
+since its definition contains the data type <code>ExpF a</code>. Boehm and Berarducci's
+program was to encode data types in lambda-terms only.
+One advantage of <code>ExpC</code> is giving to the functions <code>roll</code> and <code>unroll</code>
+a particularly elegant, revealing form:
+
+<pre>    rollC :: ExpF ExpC -&gt; ExpC
+    rollC = sigma_expC
+   
+    unrollC :: ExpC -&gt; ExpF ExpC
+    unrollC e = unExpC e (fmap sigma_expC)
+</pre>The definition of <code>unrollC</code> is well worth contemplating.
+<P>The algebra with the carrier <code>ExpC</code> and the operations <code>sigma_ExpC</code> is
+the initial algebra of the functor <code>ExpF</code>.  For an arbitrary <code>ExpF</code>
+algebra with the carrier <code>U</code> and the operations <code>sigma :: ExpF U -&gt; U</code>
+there exists a unique homomorphism <code>(hc sigma) :: ExpC -&gt; U</code>, such
+that the <code>hc sigma . sigma_ExpC = sigma . fmap (hc sigma)</code>. A simple
+case analysis indeed gives us the unique expression for <code>hc</code>:
+
+<pre>    hc :: (ExpF a -&gt; a) -&gt; ExpC -&gt; a
+    hc sigma e = unExpC e sigma
+</pre>
+<P>The unique homomorphism is not only elegant but also practical. 
+Recall the <code>view_ops</code> algebra, with <code>String</code> as the carrier set.
+We can recast it in the equivalent functorial view:
+
+<pre>    sigma_view :: ExpF String -&gt; String
+    sigma_view = dict_sigma view_ops
+</pre>and immediately obtain the function to view <code>ExpC</code> values:
+
+<pre>    viewC :: ExpC -&gt; String
+    viewC = hc sigma_view
+</pre>
+<P>We have shown that the modified, and hence the original
+Boehm-Berarducci encoding is the initial algebra. The modification
+gave the operation of peeling off one level of `constructors' an
+insightful form.  The modification paves way to connecting the
+encoding with co-algebras.</dd>
+<dt><strong>Version</strong></dt>
+<dd>The current version is April 2012</dd>
+<dt><strong>References</strong></dt>
+<dd><a href="BB_LAM.hs">BB_LAM.hs</a>&nbsp;[11K]<BR>
+
+The complete Haskell code for the example
+
+<P><a href="../Algebra.html">Introduction to Algebras for Computer
+Scientists</a>
+<P><a href="#cdr-fstream">How to take the tail of a functional stream</a><BR>
+
+Application of the Boehm-Berarducci encoding to co-inductive data
+types
+</dd></dl>
+
+<p>&nbsp;</p>
+<h2><a name="tagless-final">Tagless-Final and Boehm-Berarducci representations and pattern-matching on tagless-final terms</a></h2>
+<dl>
+<dd>The <code>Exp</code> data type example was the introductory example in the
+lectures on tagless-final encoding. After presenting the data type <code>Exp</code>
+and operations on it (similarly to <a href="#baseline">Baseline: operating on an algebraic data type</a>), the lectures
+introduced its tagless-final representation, as the type class
+
+<pre>    class ExpSYM repr where
+        lit :: Int -&gt; repr
+        neg :: repr -&gt; repr
+        add :: repr -&gt; repr -&gt; repr
+</pre>which may be viewed as defining the trivial DSL with operations <code>lit</code>,
+<code>neg</code> and <code>add</code>. The sample term is then constructed as
+
+<pre>    tf1 :: ExpSYM repr =&gt; repr    -- inferred
+    tf1 = add (lit 8) (neg (add (lit 1) (lit 2)))
+</pre>Operations on tagless-final terms are the interpreters of the DSL&nbsp;--
+or, the instances of <code>ExpSYM</code>. Here is the familiar <code>view</code>
+interpreter, to show the terms:
+
+<pre>    instance ExpSYM String where
+        lit n = show n
+        neg e = &quot;(-&quot; ++ e ++ &quot;)&quot;
+        add e1 e2 = &quot;(&quot; ++ e1 ++ &quot; + &quot; ++ e2 ++ &quot;)&quot;
+    
+    view :: String -&gt; String
+    view = id
+    
+    tf1_view = view tf1 
+    -- &quot;(8 + (-(1 + 2)))&quot;
+</pre>
+<P>After the explanations of the Boehm-Berarducci encoding, it is hard to
+avoid the feeling of deja vu. For example, the type class <code>ExpSYM</code>
+looks quite like the record <code>ExpOps</code>. In fact, in the dictionary
+passing implementation of type classes
+(whose origin goes back to the original ML (POPL 1978), if not
+earlier), the <code>ExpSYM</code> class declaration
+is <em>exactly</em> the <code>ExpOps</code> record declaration. The sample term
+<code>tf1</code> is hence, in the dictionary-passing form:
+
+<pre>    tf1' :: forall repr. ExpOps repr -&gt; repr
+    tf1' = \ExpOps{olit=lit,oneg=neg,oadd=add} -&gt;
+      add (lit 8) (neg (add (lit 1) (lit 2)))
+</pre>which is essentially <code>tbb1</code>, the Boehm-Berarducci encoded term
+(to be precise, using the <code>ExpBB1</code> variation of the encoding).
+The instance <code>ExpSYM String</code> is then the particular record
+<code>view_ops :: ExpOps String</code>, seen so many times,
+and <code>tf1_view</code> is <code>tf1' view_ops</code>.
+<P>Thus, for ordinary algebraic data types, the tagless-final representation
+is a form of the Boehm-Berarducci encoding -- using the language
+facilities such as type classes in Haskell, modules in OCaml or
+implicits in Scala to group and hide the abstractions over the
+constructors (such as <code>\onlit onneg onadd ...</code>) ubiquitous in the
+Boehm-Berarducci encoding. This grouping and hiding not only makes the encoded
+terms easier to write and read, but also helps make the encoding
+extensible (because Haskell type class dictionaries, as ML modules and
+Scala traits, are extensible). Tagless-final encoding also applies to
+non-positive data type and higher-order abstract syntax.
+<P>From the very beginning the explanations of the tagless-final style
+provoked questions about pattern-matching on its terms. The tutorials
+and lectures showed various ad hoc techniques. The Boehm-Berarducci
+approach introduces the general way to pattern-match on and
+deconstruct tagless-final terms, which we
+illustrate below.
+<P>As was already mentioned, tagless-final representations of the
+<code>Exp</code> data type are the Haskell
+terms of the type <code>forall repr. ExpSYM repr =&gt; repr</code>. Since Haskell
+(GHC) does not (well) support impredicative polymorphism, it helps to
+introduce the wrapper
+
+<pre>    newtype ExpBB1 = ExpBB1{unExpBB1 :: forall repr. ExpSYM repr =&gt; repr }
+</pre>We came across <code>ExpBB1</code> earlier, as the modified form of the Boehm-Berarducci
+encoding, and saw that it is an initial algebra, with operations:
+
+<pre>    instance ExpSYM ExpBB1 where
+      lit n          = ExpBB1 $ lit n
+      neg (ExpBB1 e) = ExpBB1 $ neg e
+      add (ExpBB1 e1) (ExpBB1 e2) = ExpBB1 $ add e1 e2
+</pre>The Hindley-Milner--like polymorphism offered by Haskell (and other
+languages) is usually enough to fruitfully use the tagless-final
+approach. Therefore, introducing algebras like <code>ExpBB1</code> is rarely
+needed. Boehm-Berarducci's approach however crucially relies on the
+first-class polymorphism. 
+<P>The original Boehm-Berarducci approach expressed everything
+in terms of just abstractions and applications. 
+It is more convenient however to use the functor representation of
+the algebraic signature, as explained in <a href="#decon">Deconstructing fold</a>:
+
+<pre>    data ExpF a = FLit Int 
+                | FNeg a
+                | FAdd a a
+</pre>and define the functions <code>roll</code>:
+
+<pre>    roll :: ExpF ExpBB1 -&gt; ExpBB1
+    roll (FLit n) = lit n
+    roll (FNeg e) = neg e
+    roll (FAdd e1 e2) = add e1 e2
+</pre>and <code>unroll</code>:
+
+<pre>    instance ExpSYM (ExpF ExpBB1) where
+      lit n = FLit n
+      neg e = FNeg (roll e)
+      add e1 e2 = FAdd (roll e1) (roll e2)
+</pre>And that is it. We can now pattern-match on tagless-final terms as if
+they were ordinary algebraic data types. Here is the <code>view</code> operation
+(compare with the <code>view</code> of <a href="#baseline">Baseline: operating on an algebraic data type</a>):
+
+<pre>    viewBBd:: ExpF ExpBB1 -&gt; String
+    viewBBd (FLit n) = show n
+    viewBBd (FNeg e) = &quot;(-&quot; ++ viewBBd (unExpBB1 e) ++ &quot;)&quot;
+    viewBBd (FAdd e1 e2) =
+      &quot;(&quot; ++ viewBBd (unExpBB1 e1) ++ &quot; + &quot; ++ viewBBd (unExpBB1 e2) ++ &quot;)&quot;
+    
+    tf1vd = viewBBd tf1
+    -- &quot;(8 + (-(1 + 2)))&quot;
+</pre>and here is the analogue of the non-structurally recursive <code>push_neg</code>
+
+<pre>    push_negBB :: ExpF ExpBB1 -&gt; ExpBB1
+    push_negBB e@(FLit n) = roll e
+    push_negBB e@(FNeg e') = case (unExpBB1 e') of
+      FLit _ -&gt; roll e
+      FNeg (ExpBB1 e) -&gt; push_negBB e
+      FAdd (ExpBB1 e1) (ExpBB1 e2) -&gt;
+        add (push_negBB (neg e1)) (push_negBB (neg e2))
+    push_negBB (FAdd (ExpBB1 e1) (ExpBB1 e2)) =
+      add (push_negBB e1) (push_negBB e2)
+    
+    tf1_norm = viewBBd $ unExpBB1 $ push_negBB tf1
+    -- &quot;(8 + ((-1) + (-2)))&quot;
+</pre>which looks very much like the original <code>push_neg</code> for the <code>Exp</code> data
+type, down to the clausal-form definition.
+<P>One should keep in mind however the inherent inefficiency of the
+Boehm-Berarducci's deconstruction. Therefore, in practice, the ad hoc
+methods explained in the tagless-final lectures, and
+the normalization-by-evaluation are usually preferred.</dd>
+<dt><strong>References</strong></dt>
+<dd><a href="index.html">Typed Tagless-Final Interpretations:
+Introductory Course</a> 
+<P><a href="../Algebra.html">Introduction to Algebras for Computer
+Scientists</a> describes tagless-final representations as algebras
+<P><a href="BB.hs">BB.hs</a>&nbsp;[3K]<BR>
+
+Explaining the relationship between tagless-final and
+Boehm-Berarducci representations on an even simpler example
+</dd></dl>
+
+<p>&nbsp;</p>
+<h2><a name="cdr-fstream">How to take the tail of a functional stream</a></h2>
+<dl>
+<dd>We show an application of Boehm-Berarducci encoding to a co-algebraic
+data type: stream. Boehm-Berarducci's constructors cannot build an
+infinite stream without resorting to general recursion.  However,
+Boehm-Berarducci's deconstructors apply as they are to
+deconstructing/transforming the stream, even the infinite one.  Given
+the following functional stream or its monadic version:
+
+<pre>    newtype FStream a = SFK (forall ans. SK a ans -&gt; FK ans -&gt; ans)
+    type FK ans   = () -&gt; ans          -- failure continuation
+    type SK a ans = a -&gt; FK ans -&gt; ans -- success continuation
+  
+    newtype MFStream m a = MSFK (forall ans. MSK m a ans -&gt; MFK m ans -&gt; m ans)
+    type MFK m ans   = m ans                   -- failure continuation
+    type MSK m a ans = a -&gt; MFK m ans -&gt; m ans -- success continuation
+</pre>the question is obtaining <em>several</em> first elements of that
+stream. In general, the problem is to split a non-empty functional
+stream into the head element and the rest, which can be split again,
+etc. That rest must be a stream, of the type <code>MFStream m a</code>.
+<P>This is a far more difficult problem than it may appear. One
+may think that we merely need to convert the functional stream to a
+regular, <code>nil</code>/<code>lazyCons</code> stream, for example:
+
+<pre>    mfstream_to_stream:: (Monad m) =&gt; MFStream m a -&gt; m (Stream a)
+    mfstream_to_stream mfstream = unMSFK mfstream sk fk
+      where fk = return Nil
+            sk a fk' = fk' &gt;&gt;= (\rest -&gt; return (Cons a (\ () -&gt; rest)))|]]
+</pre>However, if the monad <code>m</code> is strict (i.e., the bind operator <code>&gt;&gt;=</code>
+forces its first argument -- as it is the case for the <code>IO</code> monad, for
+example), then we must fully convert the functional stream to the
+regular stream before we can examine the first few elements. If the
+source functional stream is infinite, <code>mfstream_to_stream</code> diverges.
+<P>The code below explains the problem and shows the general
+solution, which underlies the <code>LogicT</code> monad transformer.</dd>
+<dt><strong>Version</strong></dt>
+<dd>The current version is 1.2, Jul 4, 2005</dd>
+<dt><strong>References</strong></dt>
+<dd><a href="../../Haskell/car-fstream.lhs">car-fstream.lhs</a>&nbsp;[6K]<BR>
+
+Literate Haskell code with examples and explanation.
+
+<P><a href="../../Streams.html#zip-folds">How to zip folds: A library of fold transformers (streams)</a>
+
+<P><a href="../../Computation/monads.html#LogicT">Fair and expressive backtracking monad transformer</a>
+</dd></dl>
+<div id="footer">
+<div>&nbsp;</div>
+<hr>
+<h3>Last updated July 4, 2020</h3>This site's top page is <a href="http://okmij.org/ftp/"><strong>http://okmij.org/ftp/</strong></a><BR>
+
+<div><cite>oleg-at-okmij.org</cite><BR>
+Your comments, problem reports, questions are very welcome!</div>
+<div class="small">Generated by MarXere</div></div></body>

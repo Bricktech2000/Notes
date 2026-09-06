@@ -14,6 +14,6 @@ an evaluation order may be found using a _topological sort_, which exists if and
 
 **applications**
 
-- build scripts like `make`
+- build scripts like [[make]]
 - dead code elimimation in compilers
 - spreadsheet calculators

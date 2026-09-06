@@ -10,7 +10,7 @@
 
 **definition** the _probability_ that [[event]] **`E`** occurs in a [[sample space]] **`S`** is denoted **`P S E`**
 
-if all [[event]]s are equally likely to occur in the [[sample space]], then **`P S E = # E -- # S`**, see [[set#cardinality]]
+if all [[event]]s are equally likely to occur in the [[sample space]], then **`P S E = # E -- # S`**, see [[set#set cardinality]]
 
 ## Sum Rule
 

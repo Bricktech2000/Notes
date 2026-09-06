@@ -107,7 +107,7 @@ parsing the [[c++]] grammar is undecidable
 > }
 > ```
 >
-> - if `TuringMachine<...>::output` is `SomeType` then `::name` is an [[integer]] and the [[syntax tree]] is the multiplication of two [[integer]]s
-> - if `TuringMachine<...>::output` is not `SomeType` then `::name` is a `typedef` for the [[integer]] [[type]] and the [[syntax tree]] is the declaration of the pointer-to-int `x`
+> - if `TuringMachine<...>::output` is `SomeType` then `::name` is an [[integer]] and the [[syntax#abstract syntax]] is the multiplication of two [[integer]]s
+> - if `TuringMachine<...>::output` is not `SomeType` then `::name` is a `typedef` for the [[integer]] [[type]] and the [[syntax#abstract syntax]] is the declaration of the pointer-to-int `x`
 >
 > _These two are completely different parse trees, and the difference between them cannot be delayed to further stages of the compiler. The parse tree **itself** depends on arbitrary template instantiation, and is therefore the parsing step is undecidable_ --- <https://blog.reverberate.org/2013/08/parsing-c-is-literally-undecidable.html>

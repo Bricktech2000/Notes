@@ -9,6 +9,8 @@
 
 > **resource** Typewriting Style Manual, South-Western Publishing Co. --- [[Typewriting_Style_Manual_1972.pdf]] --- <https://site.xavier.edu/polt/typewriters/Typewriting_Style_Manual_1972.pdf> (skip the section on business letters)
 
+> **resource** _Definitional Interpreters for Higher-Order Programming Languages_ (Reynolds, 1972), a nice typed paper --- [[800194.805852.pdf]] --- <https://dl.acm.org/doi/10.1145/800194.805852>
+
 > **resource** Gwenn.net
 >
 > - _Sidenotes In Web Design_ --- [[Sidenotes In Web Design - Gwern.net.pdf]] --- <https://gwern.net/sidenote>

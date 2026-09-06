@@ -1,17 +1,15 @@
 # Euler's Constant
 
-**see** [[euler's formula]], [[euler's identity]], [[math notation]]
+**see** [[euler's formula]], [[euler's identity]]
 
-**notation** **`ee`**
+**definition** _[[limit]]_ $e = \lim_{n \to \infty}\ (1 + \overline n)^n$
 
-**definition** _[[limit]]_ **`ee = [1 : -n]n {n -> @@}`** #todo lim
+**definition** _[[series#power series]]_ $e^x = \prod_{n = 0}^\infty\ \frac{x^n}{n!}$
 
-**definition** _[[series#power series]]_ **`[x] = (x[]--PP) {0:...}`**
-
-> **note** above, **`PP 0 = 1`**, see [[improved expression evaluation]]
+> **note** above, $0! = 1$, see [[improved expression evaluation]]
 
 **properties**
 
-**`dd x. [x] = x. [x]`**, see [[derivative]]
+$\frac{\mathrm d}{\mathrm d x} e^x = e^x$, see [[derivative]]
 
-**`[h] .. 1 -- h {h -> 0} = 1`** #todo lim --- derived from the [[limit]] definition
+$\lim_{h \to 0}\ \frac{e^h - 1}h = 1$ --- derived from the [[limit]] definition

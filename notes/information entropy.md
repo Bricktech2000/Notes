@@ -2,14 +2,12 @@
 
 --- <https://en.wikipedia.org/wiki/Entropy_(information_theory)>
 
-**see** [[entropy]], [[math notation]]
+--- <https://en.wikipedia.org/wiki/Entropy_coding>
 
-**definition** **`H = :PI`**, where
+**see** [[entropy]], [[cross-entropy]]
 
-- **`P S E`** is the [[probability]] of the [[event]] **`E`** occurring in the [[sample space]] **`S`**
-- **`I S E`** is the [[information content]] of the [[event]] **`E`** occurring in the [[sample space]] **`S`**
-- **`H S`** is the [[information entropy]] of the [[sample space]] **`S`**
+**definition** the [[information entropy]] $\mathrm H[X]$ of a [[probability distribution]] $X$ is $\mathrm H[X] = +\ x \in X.\ \mathrm P[x] \cdot \mathrm I[x]$---its [[average]] [[information content]]
+
+**definition** $\mathrm H[X] = \mathrm E_{x \sim X}[\mathrm I[x]]$---the [[information entropy]] of a [[probability distribution]] is the expected value of the [[information content]] of its [[outcome]]s
 
 [[information entropy]] can be measured in [[shannon]]s and [[nat]]s, see [[information content]]
-
-generally, the [[information entropy]] of a [[sample space]] **`S`** is the expected value of the [[information content]] of the [[event]]s in **`S`**

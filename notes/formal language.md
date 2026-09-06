@@ -14,7 +14,7 @@
 
 **definition** the _Kleene plus_ $L^+$ of a [[formal language]] $L$ is the [[semigroup#free semigroup]] on $L$
 
-the complement of a [[formal language]] is with respect to the Kleene closure of its alphabet; that is, $\overline L = \Sigma^* \setminus L$. the union of two [[formal language]]s is a [[set#union]], their intersection is a [[set#intersection]], their difference is a [[set#difference]], and their concatenation is their [[list#concatenation]]-[[outer product]]s
+the complement of a [[formal language]] is with respect to the Kleene closure of its alphabet; that is, $\overline L = \Sigma^* \setminus L$. the union of two [[formal language]]s is a [[set#set union]], their intersection is a [[set#set intersection]], their difference is a [[set#set difference]], and their concatenation is their [[list#concatenation]]-[[outer product]]s
 
 **definition** a [[formal language]] is said to be _nullable_ if it contains the empty word
 
@@ -26,9 +26,9 @@ the complement of a [[formal language]] is with respect to the Kleene closure of
 
 **notation** _concatenation_ typically one of $uv$, $u \cdot v$, see [[list#concatenation]]
 
-**notation** _alternation_ typically one of $u \mid v$, $u + v$, $u \cup v$, see [[set#union]]
+**notation** _alternation_ typically one of $u \mid v$, $u + v$, $u \cup v$, see [[set#set union]]
 
-**notation** _intersection_ typically one of $u \mathbin\& v$, $u \cap v$, see [[set#intersection]]
+**notation** _intersection_ typically one of $u \mathbin\& v$, $u \cap v$, see [[set#set intersection]]
 
 **notation** _repeated concatenation_ $w^n$
 
@@ -36,7 +36,7 @@ the complement of a [[formal language]] is with respect to the Kleene closure of
 
 **definition** a [[formal language]] is _regular_ if and only if it can be described by a [[finite acceptor]]
 
-the class of regular languages is closed under Kleene closure, Kleene plus, [[set#complementation]], [[set#union]], [[set#intersection]], [[set#difference]], concatenation and reversal
+the class of regular languages is closed under Kleene closure, Kleene plus, [[set#set complementation]], [[set#set union]], [[set#set intersection]], [[set#set difference]], concatenation and reversal
 
 **theorem** _Kleene's theorem_ [[finite acceptor]]s, [[regular expression]]s and [[formal language#regular grammar]]s have the same expressive power
 
@@ -54,9 +54,9 @@ the class of regular languages is closed under Kleene closure, Kleene plus, [[se
 
 > **note** intuitively, the pumping lemma states that any sufficiently long word of a regular language can be "pumped" (the word has a non-empty [[substring]] that, when repeated any number of times, produces another word in the language)
 
-> **example** the [[set]] of all [[string]]s of [[prime]] [[list#length]] is not a [[formal language#regular formal language]] --- me
+> **example** the [[set]] of all [[string]]s of [[prime]] length is not a [[formal language#regular formal language]] --- me
 >
-> > **proof** by the pumping lemma, the [[list#length]] of pumped words is a [[sequence#arithmetic sequence]] $n.\ |wy^n| = n.\ |w| + n|y|$, which, since $|y| \ne 0$, will always hit a non-[[prime]], namely, at $n := |w|$ --- me
+> > **proof** by the pumping lemma, the length of pumped words is a [[sequence#arithmetic sequence]] $n.\ |wy^n| = n.\ |w| + n|y|$, which, since $|y| \ne 0$, will always hit a non-[[prime]], namely, at $n := |w|$ --- me
 
 ## Non-Regular Language
 
@@ -93,7 +93,7 @@ a [[formal language]] may be described inductively by a _formal grammar_ (a coll
 > to different syntax trees. If a CFG is not ambiguous, it is called
 > unambiguous.
 
-link with [[prefix notation]], [[postfix notation]], [[syntax tree]]
+link with [[prefix notation]], [[postfix notation]], [[syntax]]
 
 #xxx useful table <https://en.wikipedia.org/wiki/Theory_of_computation#Automata_theory>
 

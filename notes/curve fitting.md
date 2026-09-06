@@ -8,7 +8,7 @@ except it doesn't really work --- Kiera
 
 <https://www.desmos.com/calculator/eqhyj44th9>
 
-> **procedure** [[curve fitting]] can be achieved by choosing a model for the data (such as a [[polynomial]] or [[exponent]]ial [[function]]) and a [[loss function]] that measures how well the model fits the data. the parameters of the model can then be optimized using [[gradient#descent]] --- <https://youtu.be/vIFKGFl1Cn8>
+> **procedure** [[curve fitting]] can be achieved by choosing a model for the data (such as a [[polynomial]] or [[exponent]]ial [[function]]) and a [[loss function]] that measures how well the model fits the data. the parameters of the model can then be optimized using [[gradient#gradient descent]] --- <https://youtu.be/vIFKGFl1Cn8>
 
 squaring errors is really just a consequence of assuming [[gaussian function]] noise: <https://youtu.be/q7seckj1hwM> (Artem Kirsanov)
 

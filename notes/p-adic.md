@@ -14,7 +14,7 @@ the [[real]] numbers can only have finitely many digits to the left of the decim
 
 **`QQ^p < UU`** for any [[prime]] **`p`**, see [[set#universal set]]
 
-the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the [[p-adic#absolute value]] [[metric space#metric]]. see [[real]]
+the [[p-adic]]s are a [[metric space#metric space completion]] of the [[rational]]s with the [[p-adic#p-adic absolute value]] [[metric space#metric]]. see [[real]]
 
 **`...99999 : ...00001 = ...00000 = 0`** and therefore **`...99999 = .1`**. gererally, all negative [[integer]]s are present in the [[p-adic]] numbers
 
@@ -36,11 +36,11 @@ the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the 
 > >
 > > #xxx superposition in [[improved expression evaluation]]
 
-## Absolute Value
+## P-Adic Absolute Value
 
 **aka** _[[p-adic]] metric_
 
-**see** [[field#absolute value]], [[real#absolute value]]
+**see** [[field#absolute value]], [[real#real absolute value]]
 
 [[real]]s are close when their first few digits are the same. [[p-adic]]s are close when their last few base-**`p`** digits are the same, see [[positional numeral system]]
 
@@ -53,7 +53,7 @@ the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the 
 **`"abs"^p n = --p[yy n p]`**, where
 
 - **`p[yy n p]`** is the highest power of **`p`** that divides **`n`**, see [[psi function]]
-- **`"abs"^p n`** is the [[p-adic#absolute value]] of **`n`**
+- **`"abs"^p n`** is the [[p-adic#p-adic absolute value]] of **`n`**
 
 > **example** **`"abs"^10 1000 = -1000`**
 
@@ -61,6 +61,6 @@ the [[p-adic]]s are a [[metric space#completion]] of the [[rational]]s with the 
 
 > **example** **`2`**-adically, **`1 : 2 : 4 : 8 : ... = ...11111 = .1`**. more generally, **`p0 :  p1 : ... = .1`**
 
-> **note** for the [[p-adic#absolute value]] to follow the [[field#absolute value]] [[axiom]]s, **`"abs"^p 0 = 0`** for all **`p`** --- <https://youtu.be/vdjYiU6skgE?t=407>
+> **note** for the [[p-adic#p-adic absolute value]] to follow the [[field#absolute value]] [[axiom]]s, **`"abs"^p 0 = 0`** for all **`p`** --- <https://youtu.be/vdjYiU6skgE?t=407>
 
-> **note** in contrast to the [[real#absolute value]], the [[p-adic#absolute value]] only returns a "discrete" [[set]] of values **`x -> (x = p[n] /\ ZZ n \/ x = 0)`** --- <https://youtu.be/vdjYiU6skgE?t=407>
+> **note** in contrast to the [[real#real absolute value]], the [[p-adic#p-adic absolute value]] only returns a "discrete" [[set]] of values **`x -> (x = p[n] /\ ZZ n \/ x = 0)`** --- <https://youtu.be/vdjYiU6skgE?t=407>

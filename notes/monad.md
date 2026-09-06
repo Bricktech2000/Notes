@@ -2,43 +2,12 @@
 
 **see** [[functional programming]]
 
-**definition** a _monad_ is an [[effect type]] that has an [[applicative#pure]] and either a [[monad#join]] or a [[monad#bind]] that uphold the [[monad#laws]]
+```haskell
+join m = m >>= id         -- join in terms of bind
+m >>= f = join $ fmap f m -- bind in terms of join
+```
 
-**properties**
-
-[[monad]]s are [[functor]]s because the [[functor#map]] can be defined in terms of the [[monad#bind]] and [[applicative#return]]: given [[function]] `f :: a -> m b` and [[monad]] `ma`, we have `fmap f ma = ma >>= (return . f)` --- me, Simon Discord DM
-
-[[monad]]s are [[applicative]]s because the [[applicative#apply]] can be defined in terms of the [[monad#bind]] and [[functor#map]]: given [[function]] `mf :: m (a -> b)` and [[monad]] `ma`, we have `apply mf ma = mf >>= \f -> (fmap f ma)` --- <https://youtu.be/caSOTjr1z18?t=21m12s> and me
-
-## Join
-
-_turns a nested [[effect type]] into a normal [[effect type]]_
-
-**aka** _`flatten`_ in Rust
-
-**definition** `join :: Monad m => m (m b) -> m b`
-
-**definition** _in terms of the [[monad#bind]]_ given the [[function#identity]] `id` and [[monad]] `mmb`, we have `join mmb = mmb >>= id`
-
-## Bind
-
-_turns a diagonal [[function]] into horizontal [[function]] in the effects world_
-
-**aka** _`>>=`_, _`flatMap`_, _`SelectMany`_, _Sequential Composition_, _`and_then`_ in Rust
-
-**definition** `(>>=) :: Monad m => m a -> (a -> m b) -> m b`
-
-**definition** _in terms of the [[monad#join]]_ given [[function]] `f :: a -> m b` and [[monad]] `ma`, we have `bind f ma = join (fmap f ma)` --- Simon and <https://youtu.be/3ynPUN64eTA?t=8m5s>
-
-**applications**
-
-let a [[function]] `f` that takes as input [[type]] `T` and returns an [[effect type]] `E<e>`. "connecting" the output of one of such functions to the input of another is an issue, as `f` has one input `T` but multiple outputs `E<e>` (`Some` and `None` with `Option<T>`, "Done" and "Not Done" with `Async`, etc.)
-
-this often leads to deeply nested `if` checks with [[null]] values in languages like [[c]] and [[java]] or deeply nested callbacks in languages like [[javascript]]
-
-the [[monad#bind]] fixes this issue by providing a way to connect the meaningful output of such [[function]]s to the input of the next one and to short-circuit the alternative output. it makes "world-crossing" [[function]]s composable by turning them into "effects-world"-only [[function]]s
-
-> **note** the name `flatMap` comes from the fact that the [[monad#bind]] can be defined as the [[function#composition]] of the [[monad#join]] and [[functor#map]] --- <https://youtu.be/C2w45qRc3aU?t=808>
+--- <https://youtu.be/3ynPUN64eTA?t=8m5s>
 
 ## Free Monad
 
@@ -56,32 +25,52 @@ the [[monad#bind]] fixes this issue by providing a way to connect the meaningful
 
 _A Monad is something that "computes" when monadic context is collapsed by `join :: m (m a) -> m a` (recalling that `>>=` can be defined as `x >>= y = join (fmap y x)`). This is how Monads carry context through a sequential chain of computations: because at each point in the series, the context from the previous call is collapsed with the next. A **free monad** satisfies all the Monad laws, but does not do any collapsing (i.e., computation). It just builds up a nested series of contexts. The user who creates such a free monadic value is responsible for doing something with those nested contexts, so that the **meaning** of such a composition can be deferred until after the monadic value has been created._ --- <https://stackoverflow.com/questions/13352205/what-are-free-monads>
 
-## Kleisli Composition
+## Continuation Monad
 
-_composes two diagonal [[function]]s into a single diahonal [[function]]_
+**see** [[continuation]]
 
-**aka** _`>=>`_, _fish operator_, _Kleisli operator_
-
-**definition** `(>=>) :: Monad m => (a -> m b) -> (b -> m c) -> a -> m c`
-
-**definition** _in terms of the [[monad#bind]]_ given [[function]]s `f :: a -> m b` and `g :: b -> m c`, we have `kleisli f g a = f a >>= g`
+the [[monad#continuation monad]] is universal in the sense that all [[monad]]s can be embedded in it. after all, the right-hand side of `>>=` is a [[continuation]].
 
 ```haskell
-(>>=) :: Monad m => m a -> (a -> m b) -> m b -- monadic bind
-(>=>) :: Monad m => (a -> m b) -> (b -> m c) -> a -> m c -- kleisli composition
-f >=> g = \x -> f x >>= g -- kleisli composition in terms of monadic bind
-ma >>= f = (id >=> f) ma -- monadic bind in terms of kleisli composition
+import Control.Monad.Cont
+
+embed x = cont (x >>=)
+reify x = runCont x return
+
+list = reify $ do
+  x <- embed [0, 2]
+  y <- embed [0, 1]
+  return $ x + y
 ```
 
-diagonal [[function]]s of [[type]] `a -> m a` with the [[monad#kleisli composition]] form a [[monoid]] whose [[monoid#identity element]] is the [[applicative#pure]] function
+and thus _[...] given any language with a syntax for [[continuation]]s you have the possibility of reusing that notation for [[monad]]s. For example [[python]] has linear [[continuation]]s (via generators) so you can use this as a syntax for any of the 'linear' [[monad]]s (like `Identity`, `Maybe` and `Writer` I think)_ --- [[A Neighborhood of Infinity_ The Mother of all Monads.pdf]] --- <https://blog.sigfpe.com/2008/12/mother-of-all-monads.html>
+
+--- me; and
+
+--- _The essence of functional programming_ (Philip Wadler, 1992), $3.3 _Monads and CPS_ (have only read that section) --- [[143165.143169.pdf]] --- <https://dl.acm.org/doi/10.1145/143165.143169>
+
+--- [[A Neighborhood of Infinity_ The Mother of all Monads.pdf]] --- <https://blog.sigfpe.com/2008/12/mother-of-all-monads.html>
+
+## Kleisli Composition
+
+**aka** _`>=>`_ in Haskell
+
+```haskell
+(>>=) :: Monad m => m a -> (a -> m b) -> m b             -- monadic bind
+(>=>) :: Monad m => (a -> m b) -> (b -> m c) -> a -> m c -- kleisli composition
+f >=> g = \x -> f x >>= g -- kleisli composition in terms of monadic bind
+ma >>= f = (id >=> f) ma  -- monadic bind in terms of kleisli composition
+```
+
+a _Kleisli endomorphism_ is a [[function]] `:: Monad m => a -> m a`. Kleisli [[morphism#endomorphism]]s under [[monad#kleisli composition]] form a [[monoid]] with [[monoid#identity element]] `return :: a -> m a`
 
 ### as a category
 
 --- <https://wiki.haskell.org/index.php?title=Monad_laws#Is_that_really_an_%22associative_law%22?>
 
-diagonal [[function]]s of [[type]] `a -> m b` with the [[monad#kleisli composition]] form a [[category]] whose [[category#identity morphism]]s are [[applicative#pure]] functions
+a _Kleisli arrow_ is a [[function]] `:: Monad m => a -> m b`. Kleisli arrows under [[monad#kleisli composition]] form a [[category]] whose [[category#identity morphism]]s are `return`s
 
-when stating the [[monad#laws]] using [[monad#kleisli composition]]s, we get exactly the [[category]] laws:
+when stating the [[monad#monad laws]] using [[monad#kleisli composition]]s, we get exactly the [[category]] laws:
 
 ```haskell
 return >=> h = h -- left identity
@@ -91,18 +80,18 @@ f >=> return = f -- right identity
 
 _Monad axioms: Kleisli composition forms a category._ --- <https://wiki.haskell.org/index.php?title=Monad_laws>
 
-## Transformer
+## Monad Transformer
 
 monad transformer #todo <https://en.wikipedia.org/wiki/Monad_transformer> and <https://en.wikibooks.org/wiki/Haskell/Monad_transformers>
 
-## Laws
-
---- <https://youtu.be/vhVG6sFeA58?t=3m50s>
-
---- <https://en.m.wikibooks.org/wiki/Haskell/Understanding_monads>
+## Monad Laws
 
 ```haskell
 return x >>= f = f x -- left identity
 m >>= return = m -- right identity
 (m >>= f) >>= g = m >>= (\x -> f x >>= g) -- associativity
 ```
+
+--- <https://youtu.be/vhVG6sFeA58?t=3m50s>
+
+--- <https://en.m.wikibooks.org/wiki/Haskell/Understanding_monads>

@@ -34,8 +34,6 @@ let **`a = a^0, a^1, a^2, ...`**
 - **`S`** is the [[series#sequence of partial sums]] of **`a`**
 - **`a_"sum" = :a`** is the sum of **`a`**
 
-## Bound
-
 ## Bounded Sequence
 
 **definition** a [[sequence]] is said to be _bounded above_ if **`a^n -| M /\ RR M > NN n`**
@@ -44,7 +42,7 @@ let **`a = a^0, a^1, a^2, ...`**
 
 **definition** a [[sequence]] is said to be _bounded_ if it is both _bounded above_ and _bounded below_
 
-suppose **`a^n = f n > NN n`**. then, the [[function#extremum]]a of **`f`** can be used to determine the [[sequence#bound]]s of the [[sequence]] **`a`**
+suppose **`a^n = f n > NN n`**. then, the [[function#extremum]]a of **`f`** can be used to determine the bounds of the [[sequence]] **`a`**
 
 ## Increasing Sequence
 
@@ -66,7 +64,7 @@ suppose **`a^n = f n > NN n`**. then, the increase and decrease of the [[functio
 
 ## Divergent Sequence
 
-**definition** a [[sequence]] is said to _converge_ if the [[limit]] **`a^@@`** exists as a finite number, see [[limit#existence]]
+**definition** a [[sequence]] is said to _converge_ if the [[limit]] **`a^@@`** exists as a finite number
 
 **properties**
 

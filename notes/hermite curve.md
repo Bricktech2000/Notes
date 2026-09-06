@@ -12,7 +12,7 @@
 
 --- <https://youtu.be/jvPPXbo87ds?t=2515>
 
-## Matrix Form
+## matrix form
 
 **see** [[bezier curve#matrix form]]
 

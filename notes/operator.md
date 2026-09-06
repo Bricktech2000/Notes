@@ -32,16 +32,10 @@
 
 [[outer product]]
 
-[[function#composition]]
-
-[[function#abstraction]]
-
-[[function#application]]
-
 [[regular expression]] operators
 
 #todo fix notation for the following operators
 
 [[cross product]]
 
-[[matrix#multiplication]]
+[[matrix#matrix multiplication]]

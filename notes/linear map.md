@@ -4,11 +4,11 @@
 
 **aka** _linear transformation_
 
-**equiv** _[[matrix#multiplication]]_
+**equiv** _[[matrix#matrix multiplication]]_
 
-**definition** a [[linear map]] is a [[vector space#homomorphism]]
+**definition** a [[linear map]] is a [[vector space#vector space homomorphism]]
 
-**definition** let **`U`** and **`V`** be two [[vector space]]s with **`"dim" U = u`** and **`"dim" V = v`**. a [[linear map]] **`T`** from **`U`** to **`V`** is a [[matrix#multiplication]] **`T u = :(A *)u`** with **`MM^v,u A`**
+**definition** let **`U`** and **`V`** be two [[vector space]]s with **`"dim" U = u`** and **`"dim" V = v`**. a [[linear map]] **`T`** from **`U`** to **`V`** is a [[matrix#matrix multiplication]] **`T u = :(A *)u`** with **`MM^v,u A`**
 
 **definition**
 
@@ -21,7 +21,7 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear map]] **`T`** from 
 
 **properties**
 
-**`TT < HH`**, see [[function#vector space]]
+**`TT < HH`**, see [[function#function vector space]]
 
 **`TT T < T O = O`**
 
@@ -39,15 +39,15 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear map]] **`T`** from 
 
 **properties**
 
-**`:(AB)x = A(:Bx)`** #todo mm --- [[matrix#multiplication]] on the [[linear map#standard matrix]]es of two [[linear map]]s gives the [[function#composition]] of the two [[linear map]]s
+**`:(AB)x = A(:Bx)`** #todo mm --- [[matrix#matrix multiplication]] on the [[linear map#standard matrix]]es of two [[linear map]]s gives the composition of the two [[linear map]]s
 
 **examples**
 
 > **example** _deriving the 2D rotation matrix_
 >
-> let a [[euclidean vector#unit vector]] on the **`x`** axis **`i`** and let a [[euclidean vector#unit vector]] on the **`y`** axis **`j`**
+> let a [[euclidean vector#unit euclidean vector]] on the **`x`** axis **`i`** and let a [[euclidean vector#unit euclidean vector]] on the **`y`** axis **`j`**
 >
-> let a [[euclidean vector#unit vector]] on the **`x_*`** axis **`i_* = ("cos" aa, "sin" aa)`** and let a [[euclidean vector#unit vector]] on the **`y_*`** axis **`j_* = (."sin" aa, "cos" aa)`**
+> let a [[euclidean vector#unit euclidean vector]] on the **`x_*`** axis **`i_* = ("cos" aa, "sin" aa)`** and let a [[euclidean vector#unit euclidean vector]] on the **`y_*`** axis **`j_* = (."sin" aa, "cos" aa)`**
 >
 > let **`(c, f c) = ic : jf c`** be a point on a [[function]] **`f`**. replacing **`i, j`** by **`i_* , j_*`**, we get the point **`i_* c : j_* f c = ("cos" aa, "sin" aa)c : (."sin" aa, "cos" aa)f c = (c("cos" aa) : (f c)(."sin" aa), c("sin" aa) : (f c)("cos" aa))`**
 >
@@ -55,7 +55,7 @@ let **`U`** and **`V`** be two [[vector space]]s. a [[linear map]] **`T`** from 
 >
 > computing the [[linear map#standard matrix]]:
 >
-> with **`(c, f c) = (x, y)`**, we get the [[linear map]] **`T (x, y) = (x"cos" aa . y"sin" aa, x"sin" aa : y"cos" aa)`**. its [[linear map#standard matrix]] is **`rr (T I *) = []"cos" aa & ."sin" aa && "sin" aa & "cos" aa[]`**. defining **`T`** using [[matrix#multiplication]], we get **`T (x, y) = :([]"cos" aa & ."sin" aa && "sin" aa & "cos" aa[] *)[]x && y[] = []x"cos" aa . y"sin" aa && x"sin" aa : y"cos" aa[]`**, which can also be graphed as **`x"sin" aa : y"cos" aa = f (x"cos" aa . y"sin" aa)`**
+> with **`(c, f c) = (x, y)`**, we get the [[linear map]] **`T (x, y) = (x"cos" aa . y"sin" aa, x"sin" aa : y"cos" aa)`**. its [[linear map#standard matrix]] is **`rr (T I *) = []"cos" aa & ."sin" aa && "sin" aa & "cos" aa[]`**. defining **`T`** using [[matrix#matrix multiplication]], we get **`T (x, y) = :([]"cos" aa & ."sin" aa && "sin" aa & "cos" aa[] *)[]x && y[] = []x"cos" aa . y"sin" aa && x"sin" aa : y"cos" aa[]`**, which can also be graphed as **`x"sin" aa : y"cos" aa = f (x"cos" aa . y"sin" aa)`**
 >
 > --- me
 

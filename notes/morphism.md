@@ -18,17 +18,17 @@
 
 > **example** **`[.] ee`** and its inverse **`\./ ee`** are [[morphism#isomorphism]]s between the [[group]]s **`ZZ, {:}`** and **`ZZ, {|}`**
 
-> **example** an invertible [[linear map]] is an [[morphism#isomorphism]] between [[vector space]]s
+> **example** an invertible [[linear map]] is a [[morphism#isomorphism]] between [[vector space]]s
 
 ## Endomorphism
 
 **definition** an _endomorphism_ is a [[morphism#homomorphism]] from a [[algebraic structure]] to itself
 
-> **example** **`ss`** is an [[morphism#endomorphism]] of the [[monoid]] **`NN, {:}`**
+> **example** **`ss`** is a [[morphism#endomorphism]] of the [[monoid]] **`NN, {:}`**
 
-> **example** a [[linear map]] from a [[vector space]] to itself is an [[morphism#endomorphism]]
+> **example** a [[linear map]] from a [[vector space]] to itself is a [[morphism#endomorphism]]
 
-since [[morphism#endomorphism]]s on an [[algebraic structure]] map it to itself, they form a [[monoid]] under [[function#composition]] --- me
+since [[morphism#endomorphism]]s on an [[algebraic structure]] map it to itself, they form a [[monoid]] under [[function]] composition --- me
 
 ## Automorphism
 
@@ -38,11 +38,11 @@ since [[morphism#endomorphism]]s on an [[algebraic structure]] map it to itself,
 
 **definition** an _automorphism_ is an invertible [[morphism#endomorphism]]
 
-> **example** **`(..)`** is an [[morphism#automorphism]] of the [[group]] **`ZZ, {:}`**
+> **example** **`(..)`** is a [[morphism#automorphism]] of the [[group]] **`ZZ, {:}`**
 
-> **example** an invertible [[linear map]] from a [[vector space]] to itself is an [[morphism#automorphism]]
+> **example** an invertible [[linear map]] from a [[vector space]] to itself is a [[morphism#automorphism]]
 
-since [[morphism#automorphism]]s on an [[algebraic structure]] map it to itself and are invertible, they form a [[group]] under [[function#composition]] --- <https://youtu.be/VZiLpYC0t5E?t=1581>
+since [[morphism#automorphism]]s on an [[algebraic structure]] map it to itself and are invertible, they form a [[group]] under [[function]] composition --- <https://youtu.be/VZiLpYC0t5E?t=1581>
 
 ## Monomorphism
 

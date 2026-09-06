@@ -4,7 +4,7 @@
 
 episodic [[memory]]es are formed in the hypocampus. damaging or surgically removing the hypocampus can damage both past [[memory]]es and the ability to reason about the future. a patient with a damaged hypocampus compared thinking about the future to being asked to _find a chair in an empty room_. _the same machinery that brings all those pieces together to relive the past can bring some of those pieces together with other pieces to simulate possible futures_ --- The Mind Explained | Memory <https://www.netflix.com/watch/81062188?trackId=255824129>
 
-## Technique
+## Memory Technique
 
 _memory techniques_
 

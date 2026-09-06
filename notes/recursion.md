@@ -4,9 +4,9 @@
 
 #stub
 
-## Scheme
+## Recursion Scheme
 
-> **resource** the PNLC prelude, makes use of [[recursion#scheme]]s throughout --- <https://github.com/Bricktech2000/PNLC/blob/master/prelude.pnlc>
+> **resource** the PNLC prelude, makes use of [[recursion#recursion scheme]]s throughout --- <https://github.com/Bricktech2000/PNLC/blob/master/prelude.pnlc>
 
 > **resource** _Recursion Schemes_ by Tim Williams at London Haskell, with implementations for everything and lots of real-world use-cases --- <https://youtu.be/Zw9KeP3OzpU> and [[slides-final.pdf]] <http://www.timphilipwilliams.com/slides.html>
 
@@ -25,12 +25,12 @@
 
 > **resource** _F-Algebras_ by Bartosz Milewski, heavier on the [[category theory]] --- [[F-Algebras _   Bartosz Milewski's Programming Cafe.pdf]] --- <https://bartoszmilewski.com/2017/02/28/f-algebras/>
 
-[[recursion#scheme]]s let you factor [[recursion]] out of recursive [[algorithm]]s. use a [[type#algebraic data type]] to specify how to recurse, write a single layer of the recursive [[algorithm]] without using [[recursion]], and out pops the recursive [[algorithm]]. the rigid structure of [[recursion#scheme]]s makes it easier to reason about the resulting recursive [[algorithm]]
+[[recursion#recursion scheme]]s let you factor [[recursion]] out of recursive [[algorithm]]s. use a [[type#algebraic data type]] to specify how to recurse, write a single layer of the recursive [[algorithm]] without using [[recursion]], and out pops the recursive [[algorithm]]. the rigid structure of [[recursion#recursion scheme]]s makes it easier to reason about the resulting recursive [[algorithm]]
 
-> **example** `foldr` is the _catamorphism_ for [[linked list]]s and `unfold` is their _anamorphism_, both [[recursion#scheme]]s
+> **example** `foldr` is the _catamorphism_ for [[linked list]]s and `unfold` is their _anamorphism_, both [[recursion#recursion scheme]]s
 
 > **example** the [[lambda-calculus#church encoding]] encodes [[type#algebraic data type]]s as their own _catamorphism_
 
 > **example** [[divide and conquer]] algorithms lend themselves well to _hylomorphisms_ (an anamorphism followed by a catamorphism)
 
-[[recursion#scheme]]s are to direct [[recursion]] what structured control-flow is to [[goto]] --- <https://iagoleal.com/posts/recursion-schemes/> and <https://blog.sumtypeofway.com/posts/introduction-to-recursion-schemes.html>
+one might say that [[recursion#recursion scheme]]s are to direct [[recursion]] what structured control-flow is to [[goto]] --- <https://iagoleal.com/posts/recursion-schemes/> and <https://blog.sumtypeofway.com/posts/introduction-to-recursion-schemes.html>

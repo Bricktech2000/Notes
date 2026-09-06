@@ -1,6 +1,6 @@
 # Matrix Factorization
 
-**see** [[linear algebra]], [[optimization]], [[gradient#descent]]
+**see** [[linear algebra]], [[optimization]], [[gradient#gradient descent]]
 
 > **note** this note was original; only later did I realize [[matrix factorization]] was already in use in recommender systems. for more information, see <https://en.wikipedia.org/wiki/Matrix_factorization_(recommender_systems)> and [[Netflix Update_ Try This at Home.pdf]] <https://sifter.org/~simon/journal/20061211.html>
 
@@ -13,9 +13,9 @@ some measures of "closeness" or "relatedness" between objects break transitivity
 - $G$ is a rating [[matrix]] or rating [[graph]]
 - $l$ is the [[loss function#mean squared error]] between $G$ and the prediction $ST^\top$
 
-the source and target [[euclidean vector]]s may not match in number but must match in [[vector space#dimension]]. and of course, the higher their [[vector space#dimension]], the more expressive the model, but the more likely overfitting is to occur
+the source and target [[euclidean vector]]s may not match in number but must match in [[vector space#vector space dimension]]. and of course, the higher their [[vector space#vector space dimension]], the more expressive the model, but the more likely overfitting is to occur
 
-$\frac{\mathrm d l}{\mathrm d S} = \frac{2}{\# G} (ST^\top - G) T$ and $\frac{\mathrm d l}{\mathrm d T} = \frac{2}{\# G} (ST^\top - G)^\top S$ --- me and <https://github.com/Bricktech2000/Autodiff>, and from there [[gradient#descent]] can be used for the [[optimization]] of $l$ for some $G$, parameterized by $S$ and $T$
+$\frac{\mathrm d l}{\mathrm d S} = \frac{2}{\# G} (ST^\top - G) T$ and $\frac{\mathrm d l}{\mathrm d T} = \frac{2}{\# G} (ST^\top - G)^\top S$ --- me and <https://github.com/Bricktech2000/Autodiff>, and from there [[gradient#gradient descent]] can be used for the [[optimization]] of $l$ for some $G$, parameterized by $S$ and $T$
 
 **applications**
 

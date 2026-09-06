@@ -24,4 +24,4 @@ $f\ (a + b\varepsilon) = f\ a + (f'\ a)b\varepsilon$ for any [[function#analytic
 
 ## matrix representation
 
-$a + b\varepsilon.\ \begin{bmatrix}a & b \\ 0 & a\end{bmatrix}$ is a [[morphism#homomorphism]] from [[dual number]]s under addition and multiplication to [[matrix]]es under [[matrix#addition]] and [[matrix#multiplication]]
+$a + b\varepsilon.\ \begin{bmatrix}a & b \\ 0 & a\end{bmatrix}$ is a [[morphism#homomorphism]] from [[dual number]]s under addition and multiplication to [[matrix]]es under [[matrix#matrix addition]] and [[matrix#matrix multiplication]]

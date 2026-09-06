@@ -57,7 +57,7 @@ universal construction:
 
 the _Curry--Howard-Lambek isomorphism_ states that [[formal logic]], [[type theory]] and some subset of [[category theory]] are all equivalent --- <https://youtu.be/I8LbkfSSR58?t=1681>. see also table at <https://ncatlab.org/nlab/show/relation+between+type+theory+and+category+theory>
 
-**aka** _#todo Curry--Howard correspondence, propositions as types #xxx see <https://youtu.be/IOiZatlZtGU?t=1490>_
+**aka** _#todo Curry--Howard correspondence, propositions as types #xxx see <https://youtu.be/IOiZatlZtGU?t=1490> #xxx see <https://ncatlab.org/nlab/show/propositions+as+types>_
 
 equalizers and coequalizers, limits and colimits --- GitHub Copilot. #xxx I think that limits and colimits might simply be products and coproducts but with more objects --- <https://youtu.be/oCNQhTpyMgE?t=4m21s>
 

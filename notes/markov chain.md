@@ -16,7 +16,7 @@
 
 ## Stationary Distribution
 
-certain [[markov chain]]s converge to a _stationary distribution_, which can be computed through [[matrix#multiplication]]
+certain [[markov chain]]s converge to a _stationary distribution_, which can be computed through [[matrix#matrix multiplication]]
 
 **theorem** an _irreducible_ [[markov chain]] has a unique [[markov chain#stationary distribution]] --- <https://youtu.be/JGQe4kiPnrU?t=8m24s>
 
@@ -46,9 +46,9 @@ certain [[markov chain]]s converge to a _stationary distribution_, which can be 
 >
 > - **`S^@@`** is the _stationary distribution_ of the [[markov chain]]
 
-> **procedure** _computing a [[markov chain#stationary distribution]] through [[eigen#vector]]s and [[eigen#value]]s_
+> **procedure** _computing a [[markov chain#stationary distribution]] through [[eigen#eigenvector]]s and [[eigen#eigenvalue]]s_
 >
-> the [[eigen#vector]] with sum **`1`** corresponding to the [[eigen#value]] **`1`** of the [[markov chain]]'s _transition matrix_ is the _stationary distribution_ of the [[markov chain]]. any _irreducible_ [[markov chain]] has an [[eigen#value]] of **`1`** with a unique corresponding [[eigen#vector]] whose entries sum to **`1`**
+> the [[eigen#eigenvector]] with sum **`1`** corresponding to the [[eigen#eigenvalue]] **`1`** of the [[markov chain]]'s _transition matrix_ is the _stationary distribution_ of the [[markov chain]]. any _irreducible_ [[markov chain]] has an [[eigen#eigenvalue]] of **`1`** with a unique corresponding [[eigen#eigenvector]] whose entries sum to **`1`**
 >
 > --- <https://youtu.be/EGoRJePORHs?t=551>
 >

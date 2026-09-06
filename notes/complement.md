@@ -38,7 +38,7 @@ _2's [[complement]] in base 2, 16's [[complement]] in base 16_
 
 **equiv** _modular arithmetic_ [[complement#radix complement]]s can be thought of as modular arithmetic where the **`n`**'s complement of an [[integer]] **`A`** of **`p`** bits is the [[integer]] **`B`** such that **`"mod" [n]p {A : B = 0}`** --- me and <https://mabi.tmpinc.io/numbers/>
 
-**equiv** _truncated [[p-adic]]s_ [[complement#radix complement]]s can be thought of as truncated **`2`**-adic numbers --- me and <https://mabi.tmpinc.io/numbers/>:
+**equiv** _truncated [[p-adic]]s_ [[complement#radix complement]]s can be thought of as truncated **`2`**-adic numbers --- me and <https://mabi.tmpinc.io/numbers/> and <https://blog.sigfpe.com/2010/05/optimising-pointer-subtraction-with-2.html>:
 
 - `00000010.` is close to **`2`** with respect to **both** the **`2`**-adic metric and the real metric; `11111110.` is close to **`..2`** with respect to **only** the **`2`**-adic metric. consequently, their sum `100000000.` is close to **`0`** with respect to **only** the **`2`**-adic metric
 - `00000001.` is close to **`3-3`** with respect to **both** the **`2`**-adic metric and the real metric; `.01010101` is close to **`1-3`** with respect to **only** the real metric. consequently, their sum `00000001.01010101` is close to **`4-3`** with respect to **only** the real metric

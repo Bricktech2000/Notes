@@ -6,12 +6,12 @@
 
 **definition** a [[string]] _on_ a [[set]] **`S`** is a [[sequence]] of elements of **`S`**
 
-## Homomorphism
+## String Homomorphism
 
 --- <https://en.wikipedia.org/wiki/String_operations#String_homomorphism>
 
 **see** [[morphism#homomorphism]]
 
-**definition** a _string homomorphism_ is a [[monoid#homomorphism]] on the [[monoid]] formed by [[string]]s under [[list#concatenation]]
+**definition** a _string homomorphism_ is a [[monoid#monoid homomorphism]] on the [[monoid]] formed by [[string]]s under [[list#concatenation]]
 
-a [[function]] is a [[string#homomorphism]] if and only if it maps every [[character]] of the input string to a sequence of (zero or more) [[character]]s in the output string
+a [[function]] is a [[string#string homomorphism]] if and only if it maps every [[character]] of the input string to a sequence of (zero or more) [[character]]s in the output string

@@ -10,8 +10,6 @@
 
 > **resource** _bits are high-level_, talk by Andrew Reece on practical and elegant bit manipulation --- <https://youtu.be/i-h95QIGchY>
 
-> **resource** _Reflections on Trusting Trust_ by Ken Thompson, on why source code can never truly be trusted --- [[Thompson_1984_ReflectionsonTrustingTrust.pdf]] --- <https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf>
-
 > **resource** _Algorithms for Competitive Programming_, descriptions of many useful algorithms and data structures --- <https://cp-algorithms.com/navigation.html>
 
 **see**

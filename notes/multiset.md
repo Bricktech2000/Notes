@@ -35,27 +35,27 @@
 
 **definition** a [[multiset]] **`B`** is a _multisuperset_ of a [[multiset]] **`A`** if and only if every element of **`A`** is an element of **`B`** with at least as many occurrences as in **`A`**
 
-in other words, an element being in **`A`** implies it is also in **`B`** with no lesser [[multiset#multiplicity]]
+in other words, an element being in **`A`** implies it is also in **`B`** with no lesser [[multiset#multiset multiplicity]]
 
-## Union
+## Multiset Union
 
 **definition** **`M ^^ N`**
 
-## Intersection
+## Multiset Intersection
 
 **definition** **`M __ N`**
 
-## Difference
+## Multiset Difference
 
 **definition** **`x -> (M x . N x ^^ 0)`**
 
 **see** [[cartesian product]]
 
-## Equivalence
+## Multiset Equivalence
 
 **definition** two [[multiset]]s are _equivalent_ if and only if they contain the same number of the same elements. **`M = N == x -> (M x = N x)`**
 
-## Cardinality
+## Multiset Cardinality
 
 **notation** **`:M`**
 
@@ -66,14 +66,6 @@ in other words, an element being in **`A`** implies it is also in **`B`** with n
 **properties**
 
 **`:(M ^^ N) : :(M __ N) = :(M : N)`**
-
-## Element Count
-
-**notation** **`# M`**
-
-**definition** the _element count_ of a [[multiset]] is the number of unique elements in the [[multiset]]
-
-> **example** **`# ((1, 2, 2, 2, 3, 3)) = # {{1, 2, 3}} = 3`**
 
 ## Arrangement
 

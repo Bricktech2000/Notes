@@ -10,7 +10,7 @@ _it's not bad; it's just not good_ --- <https://yager.io/programming/go.html>
 
 - [[go]] calls itself a _systems language_ but has a garbage collector
 - [[go]] has the imperativity and verbosity of [[c]] but the built-in dynamic [[array]]s of [[python]]
-- [[go]] is a modern language designed from the ground up but still uses [[null]]s for failure conditions and [[c]]-style valueless statements for control flow
+- [[go]] is a modern language designed from the ground up but still uses [[null]]s for failure conditions and [[c]]-style valueless [[statement]]s for control flow
 - [[go]] is a statically typed language but has a [[type#top type]]---the _empty [[interface]]_---which defeats the purpose of [[type system]]s
 
 most of this can be explained by the fact that [[go]] is the result of _language design in the service of [[software engineering]]_:

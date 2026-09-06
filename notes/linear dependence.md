@@ -36,6 +36,6 @@ any [[set]] containing the **`O`** [[vector]] is a [[set]] of [[vector#linearly 
 
 **theorem** if a [[vector space]] **`V`** has a [[set#subset]] of **`m`** [[vector#linearly independent vector]]s, then any [[span]]ning [[set]] contains at least **`m`** [[vector]]s
 
-**theorem** any [[set]] of [[vector#linearly independent vectorc]]s in a [[vector space]] has [[set#cardinality]] no more than the [[set#cardinality]] of a [[span]]ing [[set]] of the [[vector space]]
+**theorem** any [[set]] of [[vector#linearly independent vectorc]]s in a [[vector space]] has [[set#set cardinality]] no more than the [[set#set cardinality]] of a [[span]]ing [[set]] of the [[vector space]]
 
-**theorem** the [[set#cardinality]] of any [[set]] of [[vector#linearly independent vector]]s in **`V`** is no more than **`"dim" V`** which is no more than the [[set#cardinality]] of any [[span]]ning [[set]] in **`V`**
+**theorem** the [[set#set cardinality]] of any [[set]] of [[vector#linearly independent vector]]s in **`V`** is no more than **`"dim" V`** which is no more than the [[set#set cardinality]] of any [[span]]ning [[set]] in **`V`**

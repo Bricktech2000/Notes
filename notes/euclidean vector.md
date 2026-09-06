@@ -10,7 +10,7 @@
 
 **notation** _in my [[math notation]]_ **`(1, 2)`**
 
-## Vector Space
+## Euclidean Vector Space
 
 **see** [[vector]], [[vector space]]
 
@@ -28,13 +28,13 @@ _multiplication by a [[scalar]]_ **`c(a, b) == (ca, cb) > RR c`**
 
 **definition** **`\:V2/`**
 
-### Unit Vector
+### Unit Euclidean Vector
 
 **definition**
 
 a _unit vector_ is a [[euclidean vector]] **`V`** such that **`"abs" V = 1`**
 
-a [[euclidean vector]] can be _normalized_ (scaled into into a [[euclidean vector#unit vector]]) through **`{*--"abs"+`** #todo id
+a [[euclidean vector]] can be _normalized_ (scaled into into a [[euclidean vector#unit euclidean vector]]) through **`{*--"abs"+`** #todo id
 
 ## Angle
 
@@ -50,7 +50,7 @@ _angle between two [[euclidean vector]]s_
 
 **`"sin" aa = (a "cross" b) -- \:a2/ \:b2/`**, see [[cross product]] #magic
 
-### Orthogonal Euclidean Vectors
+### Orthogonal Euclidean Vector
 
 _a pair of vectors offset by **`-4tt"rad"`**_
 
@@ -66,7 +66,7 @@ _a pair of vectors offset by **`-4tt"rad"`**_
 
 **theorem** suppose **`w`** is a [[basis#orthogonal basis]] for a [[vector space#subspace]] **`W`** of **`RR^n`**. then, **`w = :i. w i | (:w(w i) -- :(w i)2)`**, see [[dot product]]
 
-### Colinear Euclidean Vectors
+### Colinear Euclidean Vector
 
 _a pair of parallel vectors_
 
@@ -84,7 +84,7 @@ _the scalar projection is equal to the [[euclidean vector#magnitude]] of the [[e
 
 **see** [[dot product]]
 
-[[euclidean vector#projection]]s are [[linear map]]s, and therefore can be turned into [[matrix#multiplication]]
+[[euclidean vector#projection]]s are [[linear map]]s, and therefore can be turned into [[matrix#matrix multiplication]]
 
 **definition** _projection onto another [[vector]]_
 
@@ -94,7 +94,7 @@ _the scalar projection is equal to the [[euclidean vector#magnitude]] of the [[e
 
 - **`"proj"^b a`** is the _vector projection of **`a`** on **`b`**_
 - **`"abs" ("proj"^b a)`** is the _scalar projection of **`a`** on **`b`**_
-- **`b_*`** is the [[euclidean vector#unit vector]] in the direction of **`b`**, **`{*--"abs"} b`**
+- **`b_*`** is the [[euclidean vector#unit euclidean vector]] in the direction of **`b`**, **`{*--"abs"} b`**
 
 **definition** _projection onto a [[vector space]]_
 

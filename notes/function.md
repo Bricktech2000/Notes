@@ -25,13 +25,13 @@ one can use the _horizontal [[line]] test_ to determine whether the graph of a [
 
 [[functional programming]]
 
-[[function#vector space]]
+[[function#function vector space]]
 
 [[activation function]]
 
 [[loss function]]
 
-## Vector Space
+## Function Vector Space
 
 **see** [[vector]], [[vector space]]
 
@@ -72,80 +72,6 @@ _codomain_ **`D x < C f x`**
 _range_ **`D x == R f x`**
 
 **`D x > A f x`**
-
-## Composition
-
-**equiv** _[[combinator#b combinator]]_
-
-**definition** _composition in my [[math notation]]_
-
-**``f`g = x. f (g x)``**, where
-
-- **`f`** and **`g`** are the original [[function]]s
-- **`` ` ``** is the [[function#composition]] [[operator]]
-- **`x`** is the parameter to be passed to **`f`** and **`g`**
-
-**definition** _[[function#composition]] in Haskell_
-
-`(.) :: (b -> c) -> (a -> b) -> a -> c`
-
-> **example** _[[function#composition]] in Haskell_ let `f :: A -> B` and `g :: B -> C`. then, `g . f` has type signature `A -> C`
-
-**properties**
-
-_associativity_ **``h\\g`f == h`g\\f == h`g`f``** --- <https://youtu.be/SmXB2K_5lcA?t=662>
-
-[[function#composition]] forms a [[semigroup]]
-
-### Identity
-
-#todo id
-
-**aka** _identity [[function]]_
-
-**equiv** _[[combinator#i combinator]]_
-
-**notation** **`(*)`**
-
-**definition** **`(*)`**
-
-**properties**
-
-_[[function#identity]]_ **`(*)f == f == f(*)`**
-
-_[[idempotence]]_ **`(*)2 == (*)`**
-
-_[[involution]]_ **`(*)2 == (*)`**
-
-[[function#composition]] with a [[function#identity]] forms a [[monoid]]
-
-### Inverse
-
-**definition** **`` `f == f{..1} ``**
-
-> **note** the inverse of a [[function]] exists only if it is a [[function#injective function]]
-
-**properties**
-
-**`` `f \\ f == f \\ `f == (*)``** #todo id
-
-[[function#composition]] with a [[function#identity]] and a [[function#inverse]] forms a [[group]]
-
-## Abstraction
-
-**see** [[lambda-calculus]]
-
-**notation** **`x -> f`**
-
-#stub
-
-## Application
-
-**see** [[lambda-calculus]], [[partial application]], [[currying]]
-
-**notation** **`f\ x`**
-
-#stub
 
 ## Parity
 
@@ -361,7 +287,7 @@ a [[function]] can be proven to be surjective by proving one can construct an in
 
 > **example** _proving a function is not surjective_
 >
-> let **`y = f m n = "abs" n`**. **`y = ..1`** would cause a contradiction as the [[real#absolute value]] of an [[integer]] is always a positive [[integer]]. therefore, the [[function]] is not surjective
+> let **`y = f m n = "abs" n`**. **`y = ..1`** would cause a contradiction as the [[real#real absolute value]] of an [[integer]] is always a positive [[integer]]. therefore, the [[function]] is not surjective
 
 > **example** _proving a function is surjective_
 >

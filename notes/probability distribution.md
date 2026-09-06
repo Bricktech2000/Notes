@@ -20,7 +20,7 @@ _a mathematical description of the [[probability]]es of events_
 
 the [[probability distribution]] of the sum of two independent random variables is the [[convolution]] of their [[probability distribution]]s --- <https://youtu.be/IaSGqQa5O-M>
 
-## Representation
+## representations
 
 **see**
 

@@ -6,7 +6,7 @@ _an isolated unit of information related to a [[concept]]_
 
 **see** [[concept]]
 
-[[fact]]s are about _lower-order [[learn]]ing_, which can feel tedious and irrelevant; factual information often remains _isolated_ instead of being _integrated_ --- <https://youtu.be/TQXMl4GycD0?t=369>. [[fact]]s can easily get confused, but can be looked up quickly using reference books or search engines. [[fact]]s can be [[learn]]ed through [[memory#technique]]s and through [[spaced repetition]] and [[interleaving]]
+[[fact]]s are about _lower-order [[learn]]ing_, which can feel tedious and irrelevant; factual information often remains _isolated_ instead of being _integrated_ --- <https://youtu.be/TQXMl4GycD0?t=369>. [[fact]]s can easily get confused, but can be looked up quickly using reference books or search engines. [[fact]]s can be [[learn]]ed through [[memory#memory technique]]s and through [[spaced repetition]] and [[interleaving]]
 
 > **examples**
 >

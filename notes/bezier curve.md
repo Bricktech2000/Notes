@@ -65,7 +65,7 @@ the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points
 
 ## Matrix Form
 
-the [[matrix]] form of a [[bezier curve]] consists of two [[matrix#multiplication]]s. in the definition below, computing the first yields the _Bernstein polynomials_ whereas computing the second yields the _polynomial form_
+the [[matrix]] form of a [[bezier curve]] consists of two [[matrix#matrix multiplication]]s. in the definition below, computing the first yields the _Bernstein polynomials_ whereas computing the second yields the _polynomial form_
 
 **definition** _matrix form_
 

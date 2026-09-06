@@ -1,6 +1,6 @@
 # Fundamental Theorem of Arithmetic
 
-**see** [[psi function]], [[monoid#fold]]
+**see** [[psi function]], [[monoid#monoid fold]]
 
 **theorem** every nonzero [[natural]] can be written as the product of a unique [[multiset]] of [[prime]]s --- me
 

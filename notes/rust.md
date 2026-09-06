@@ -30,13 +30,13 @@ _a language for the next 40 years_
 
 `struct` is a [[type#product type]] and `enum` is a [[type#sum type]] of [[type#product type]]s
 
-### Function Types
+### Function Type
 
 --- <https://youtu.be/SqT5YglW3qU>
 
-all [[function]] items and all closures of a [[rust]] program have a unique [[type]] internal to the compiler. as they only have a single term, their corresponding [[function]], these [[type]] are [[type#unit type]]s. consequently, the size of any term of theirs is zero. they are completely opaque; they are useful only because they implement one of the [[rust#function traits]], allowing us to call them. _"we don't know exactly what's inside the [[function]], but we can call it as long as we know how to set up everything according to the calling convention"_ --- <https://youtu.be/SqT5YglW3qU>
+all [[function]] items and all closures of a [[rust]] program have a unique [[type]] internal to the compiler. as they only have a single term, their corresponding [[function]], these [[type]] are [[type#unit type]]s. consequently, the size of any term of theirs is zero. they are completely opaque; they are useful only because they implement one of the [[rust#function trait]]s, allowing us to call them. _"we don't know exactly what's inside the [[function]], but we can call it as long as we know how to set up everything according to the calling convention"_ --- <https://youtu.be/SqT5YglW3qU>
 
-### Impl Traits
+### Impl Trait
 
 --- <https://stackoverflow.com/questions/47514930/what-are-the-differences-between-an-impl-trait-argument-and-generic-function-par>
 
@@ -46,7 +46,7 @@ all [[function]] items and all closures of a [[rust]] program have a unique [[ty
 
 `fn f() -> impl Trait` --- the callee chooses the concrete [[type]] of `Trait`; used as a "placeholder" for the return [[type]] of the [[function]]. useful for returning a hard-to-name or unnameable [[type]]
 
-### Function Traits
+### Function Trait
 
 --- <https://www.eventhelix.com/rust/rust-to-assembly-return-impl-fn-vs-dyn-fn/>
 
@@ -56,7 +56,7 @@ all [[function]] items and all closures of a [[rust]] program have a unique [[ty
 - `FnMut` --- takes mutable references to its environment and can be called multiple non-overlapping times
 - `Fn` --- takes immutable references to its environment and can be called multiple overlapping times
 
-## Macros
+## Macro
 
 --- <https://doc.rust-lang.org/reference/macros-by-example.html> and <https://doc.rust-lang.org/reference/procedural-macros.html>
 
@@ -66,9 +66,9 @@ scoping of declarative macros is funky; see <https://doc.rust-lang.org/reference
 
 _procedural macros_ can be thought of as [[turing complete]] [[function]]s from a `TokenStream` to a `TokenStream`. they are used to define custom derives `#[derive(SomeMacro)]`, attributes `#[some_macro(...)]`, and function-like macros `some_macro!(...)`. they are defined in library crates with the `proc-macro` crate type. --- <https://doc.rust-lang.org/reference/procedural-macros.html>
 
-## Items
+## Item
 
-### Modules
+### Module
 
 --- <https://doc.rust-lang.org/reference/items/modules.html> and <https://doc.rust-lang.org/reference/crates-and-source-files.html>
 
@@ -76,7 +76,7 @@ _`mod` name `;`_ declares a module; it notifies the compiler of a module's exist
 
 every source file is a module, but not every module needs its own source file. the `path` attribute can be used to specify the path to a module's source file
 
-### Use Declarations
+### Use Declaration
 
 --- <https://doc.rust-lang.org/reference/items/use-declarations.html>
 
@@ -86,7 +86,7 @@ _`use` use-tree `;`_ creates local name bindings for paths, in a syntactically c
 
 > **example** `use a::b::{self as ab, c, d::{*, e::f}};`
 
-## Sign Posts
+## Sign Post
 
 Rust ensures "surprising" behavior is clearly sign-posted:
 

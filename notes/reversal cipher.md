@@ -4,7 +4,7 @@
 
 **see** [[math notation]]
 
-given two [[function#bijective function]]s **`f`** and **`g`** with identical [[function#domain]] and [[function#range]], the [[function#composition]]s **``e = `fg``** and **`` `e = `gf``** are [[function#inverse]]s of each other, forming the encipher-decipher pair of a [[reversal cipher]]
+given two [[function#bijective function]]s **`f`** and **`g`** with identical [[function#domain]] and [[function#range]], the compositions **``e = `fg``** and **`` `e = `gf``** are inverses of each other, forming the encipher-decipher pair of a [[reversal cipher]]
 
 both the [[function#domain]] and [[function#range]] of **`e`** and **`` `e``** are identical to the [[function#domain]] of **`f`** and **`g`**. consequently, [[reversal cipher]]s are most useful when the [[function#range]] of the bijections is awkward to work with
 
@@ -22,7 +22,7 @@ both the [[function#domain]] and [[function#range]] of **`e`** and **`` `e``** a
 > - **``e = `fg``** to be _[[dvorak layout]] touch-typing on [[qwerty layout]] setting_
 > - **`` `e = `gf``** to be _[[qwerty layout]] touch-typing on [[dvorak layout]] setting_
 >
-> that is, _[[dvorak layout]] touch-typing on [[qwerty layout]] setting_ and _[[qwerty layout]] touch-typing on [[dvorak layout]] setting_ are [[function#inverse]]s of each other, forming the encipher-decipher pair of a [[reversal cipher]]
+> that is, _[[dvorak layout]] touch-typing on [[qwerty layout]] setting_ and _[[qwerty layout]] touch-typing on [[dvorak layout]] setting_ are inverses of each other, forming the encipher-decipher pair of a [[reversal cipher]]
 
 ## ---
 

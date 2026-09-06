@@ -1,6 +1,6 @@
 # Mandelbrot Set
 
-**see** [[complex]], [[complex#modulus]]
+**see** [[complex]], [[complex#complex modulus]]
 
 **definition** _by induction_ the _mandelbrot set_ is the [[set]] of all **`CC c`** such that **`"abs"f`** is a [[sequence#bounded sequence]] given **`fss = [f]2 : c /\ f 0 = 0`**
 

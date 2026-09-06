@@ -12,16 +12,16 @@ a [[real]] [[number]] is a value of a continuous quantity that can represent a [
 
 **`RR < CC`**
 
-the [[real]]s are a [[metric space#completion]] of the [[rational]]s with the [[real#absolute value]] [[metric space#metric]]. see [[p-adic]]
+the [[real]]s are a [[metric space#metric space completion]] of the [[rational]]s with the [[real#real absolute value]] [[metric space#metric]]. see [[p-adic]]
 
-## Absolute Value
+## Real Absolute Value
 
 _the [[distance]] from a [[real]] to zero_
 
-**see** [[field#absolute value]], [[p-adic#absolute value]]
+**see** [[field#absolute value]], [[p-adic#p-adic absolute value]]
 
 **notation** **`(:^^.) x`** with **`RR x`**
 
 **definition** **`(:^^.) x`**
 
-> **note** the [[real#absolute value]] follows the [[field#absolute value]] [[axiom]]s
+> **note** the [[real#real absolute value]] follows the [[field#absolute value]] [[axiom]]s

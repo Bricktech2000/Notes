@@ -10,4 +10,4 @@
 
 **properties**
 
-the [[function#root]]s of the [[characteristic polynomial]] of a [[matrix]] **`A`** are [[eigen#value]]s of **`A`**
+the [[function#root]]s of the [[characteristic polynomial]] of a [[matrix]] **`A`** are [[eigen#eigenvalue]]s of **`A`**

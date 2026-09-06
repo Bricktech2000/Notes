@@ -91,7 +91,7 @@ _middleman can always be cut out_
 
 **properties**
 
-every _equivalence relation_ on a [[set]] induces a [[set#partition]] of that [[set]], whose elements we call _equivalence classes_
+every _equivalence relation_ on a [[set]] induces a [[set#set partition]] of that [[set]], whose elements we call _equivalence classes_
 
 ## Antisymmetric Relation
 

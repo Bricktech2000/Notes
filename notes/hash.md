@@ -4,7 +4,7 @@
 
 **properties**
 
-[[hash]] [[function]]s are often optimized so as to minimize [[hash#collision]]s
+[[hash]] [[function]]s are often optimized so as to minimize [[hash#hash collision]]s
 
 [[hash]] [[function]]s are deterministic
 
@@ -12,6 +12,6 @@
 
 [[hash]] [[function]]s are used in [[cryptography]]
 
-## Collision
+## Hash Collision
 
 **definition** a _hash collision_ is a situation in which two different inputs are mapped to the same [[hash]] value --- GitHub Copilot

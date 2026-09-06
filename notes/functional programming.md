@@ -1,10 +1,10 @@
 # Functional Programming
 
-**see** [[effect type]], [[functor]], [[applicative]], [[monad]], [[monoid]]
+**see** [[functor]], [[applicative]], [[monad]]
 
-**see** [[pure]], [[currying]], [[type]], [[recursion#scheme]], [[combinatory logic]], [[lambda-calculus]], [[type-driven design]]
+**see** [[pure]], [[currying]], [[type]], [[recursion#recursion scheme]], [[continuation]], [[combinatory logic]], [[lambda-calculus]], [[type-driven design]]
 
-> **resource** _A sliding scale of power_, an intuition for `Functor a => Applicative a => Monad a` --- <https://en.wikibooks.org/wiki/Haskell/Applicative_functors#A_sliding_scale_of_power>
+> **resource** _A sliding scale of power_, an intuition for `Functor a => Applicative a => Monad a` --- [[Haskell_Applicative functors - Wikibooks.pdf]] --- <https://en.wikibooks.org/wiki/Haskell/Applicative_functors#A_sliding_scale_of_power>
 >
 > ``` haskell
 > (<$>) :: Functor     t =>   (a ->   b) -> (t a -> t b)
@@ -23,7 +23,3 @@
 --- <https://youtu.be/Nrp_LZ-XGsY>
 
 --- <https://youtu.be/srQt1NAHYC0>
-
---- <https://youtu.be/c_F1o_so2MQ>
-
---- <https://youtu.be/oDdXep6yTOM> and <https://youtu.be/hDO3lpAcF2I>

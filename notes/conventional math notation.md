@@ -21,7 +21,7 @@
 - [[matrix]] indices are ambiguous when written using juxtaposition
 - $(a, b)$ is a GCD and a tuple and a [[euclidean vector]] and an [[interval]]
 - $\begin{pmatrix} a \\\ b \end{pmatrix}$ is a [[matrix]] and a [[euclidean vector]] and a [[set#combination]]
-- $f^{(n)}$ is repeated [[derivative#differentiation]] while $f^{n}$ is probably repeated [[function#composition]]
+- $f^{(n)}$ is repeated [[derivative#differentiation]] while $f^{n}$ is probably repeated [[function]] composition
 - $f'$ is both a separate [[variable]] name and a [[derivative]]
 - $f(1, 2)$ is both $f(1.2)$ and $f(1; 2)$
 - $4 \equiv 1 \mod 3$ is awful

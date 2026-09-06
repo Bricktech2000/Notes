@@ -17,7 +17,7 @@ _equality_ **`{a, b} = {c, d} == a = c /\ b = d`**
 
 _negation_ **`.{a, b} == {.a, .b}`**
 
-## Vector Space
+## Pair Vector Space
 
 **see** [[vector]], [[vector space]]
 
@@ -29,7 +29,7 @@ _[[pair]] addition_ **`{a, b} : {c, d} == {a : c, b : d}`**
 
 _multiplication by a [[scalar]]_ **`c{a, b} == {ca, cb} > RR c`**
 
-## Inverse
+## Pair Inverse
 
 _switches around the two elements of a [[pair]]_
 

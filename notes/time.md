@@ -6,9 +6,7 @@ _our most valuable asset_ --- <https://youtu.be/wp7Lz1svVro?t=17886>
 
 **notation** _[[international system of units]]_ $\mathrm s$
 
-## Commodity
-
-_time as a commodity_
+## time as a commodity
 
 > **resource** Randy Pausch on equating [[time]] with [[money]] --- <https://youtu.be/oTugjssqOT0?t=354>
 

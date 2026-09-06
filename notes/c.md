@@ -6,9 +6,9 @@ _assembly with syntactic sugar and undefined behavior_
 
 --- Effective C by Robert C. Seacord
 
-> **resource** _Advanced [[c]]: The UB and optimizations that trick good programmers._ by Eskil Steenberg --- <https://youtu.be/w3_e9vZj7D8>
+> **resource** _Advanced C: The UB and optimizations that trick good programmers._ by Eskil Steenberg --- <https://youtu.be/w3_e9vZj7D8>
 
-> **resource** _How I program [[c]]_ by Eskil Steenberg, good opinions on [[c]] and on [[software engineering]] --- <https://youtu.be/443UNeGrFoM>
+> **resource** _How I program C_ by Eskil Steenberg, good opinions on [[c]] and on [[software engineering]] --- <https://youtu.be/443UNeGrFoM>
 
 > **resource** <https://www.dependablec.org/> by Eskil Steenberg, especially sections _Undefined behavior_, _Dependable UB_, _Effective type aliasing_, _Memory debugger_
 
@@ -22,7 +22,7 @@ _assembly with syntactic sugar and undefined behavior_
 
 > **resource** C99 Rationale --- [[C99RationaleV5.10.pdf]] --- <https://open-std.org/JTC1/SC22/WG14/www/C99RationaleV5.10.pdf>
 
-what makes [[c]] timeless is not its simplicity; it's its [[durability]]. most constructs in [[c]] map trivially into assembly, which, in turn, maps trivially into machine code. in other words, there is a strong correspondence between the features of [[c]] and the fundamental ideas governing the design of processors and instruction sets. for this reason, [[programming language]]s that proudly claim to have the simplicity of [[c]]---like [[go]] does---should raise red flags
+what makes [[c]] timeless is not its simplicity; it's its [[durability]]. most constructs in [[c]] map directly into assembly, which, in turn, maps directly into machine code. in other words, there is a strong correspondence between the features of [[c]] and the fundamental ideas governing the design of processors and instruction sets. for this reason, [[programming language]]s that proudly claim to have the simplicity of [[c]]---like [[go]] does---should raise red flags
 
 **tradeoffs**
 
@@ -169,7 +169,7 @@ U"foo" // char32_t[6]
 >
 > > **note** `void zero(int a[10]) { memset(a, 0, sizeof a); }` won't work because `a` decays to a pointer, but `void zero(int (*a)[10]) { memset(a, 0, sizeof *a); }` will
 
-`sizeof char` is `1`, and the size of the other integer data types is implementation defined and is available in `limits.h`. each has a standard-imposed minimum magnitude; see ISO/IEC 9899:TC3, Annex E, paragraph 1. actual-width integers such as `uint32_t` and `int32_t`, greatest-width integer types such as `uintmax_t` and `intmax_t`, minimum-width integer types such as `uint_least32_t` and `int_least32_t`, fastest minimum-width integer types such as `uint_fast32_t` and `int_fast32_t`, and integer types capable of holding object pointers, `intptr_t` and `uintptr_t`, are available in `stdint.h` and `inttypes.h`
+`sizeof(char)` is `1`, and the size of the other integer data types is implementation defined and is available in `limits.h`. each has a standard-imposed minimum magnitude; see ISO/IEC 9899:TC3, Annex E, paragraph 1. actual-width integers such as `uint32_t` and `int32_t`, greatest-width integer types such as `uintmax_t` and `intmax_t`, minimum-width integer types such as `uint_least32_t` and `int_least32_t`, fastest minimum-width integer types such as `uint_fast32_t` and `int_fast32_t`, and integer types capable of holding object pointers, `intptr_t` and `uintptr_t`, are available in `stdint.h` and `inttypes.h`
 
 _wraparound_ (which is specific to unsigned integers) has well-defined behavior in [[c]]. values are reduced modulo the number that is one greater than the largest value that can be represented by the resulting type. however, _overflow_ (which is specific to signed integers) has [[c#undefined behavior]]
 
@@ -188,7 +188,7 @@ char s[4] = "foo"; // null-terminated string
 char s[3] = "foo"; // character array
 ```
 
-`sizeof (char[])"foo"` is the length of the [[string]] including the null terminator (`4`) whereas `sizeof (char*)"foo"` is the size of the pointer (`sizeof char*`). `strlen((char*)"foo")` is the length of the [[string]] (`3`) but may incur a runtime cost
+`sizeof (char [])"foo"` is the length of the [[string]] including the null terminator (`4`) whereas `sizeof (char *)"foo"` is the size of the pointer (`sizeof(char *)`). `strlen((char *)"foo")` is the length of the [[string]] (`3`) but may incur a runtime cost
 
 `stdbool.h` defines `bool`, `true`, and `false`
 
@@ -198,9 +198,9 @@ until C23, `void f();` declares a function that takes any number of arguments of
 
 returning no value from a non-`void` [[function]] (through `return;` or through control reaching the end of the [[function]] body) and subsequently using the returned value has [[c#undefined behavior]]
 
-### tags
+### Tag
 
-tags are a special naming mechanism for `enum`, `struct`, and `union` types. they live in a separate namespace than that of ordinary identifiers
+[[c#tag]]s are a special naming mechanism for `enum`, `struct`, and `union` types. they live in a separate namespace than that of ordinary identifiers
 
 > **example** `struct s { }; struct s s;` is an object `s` of type `struct s`
 
@@ -208,19 +208,19 @@ tags are a special naming mechanism for `enum`, `struct`, and `union` types. the
 
 > **example** in `typedef struct tnode { struct tnode *left; struct tnode *right; } tnode;`, the type name and tag name are the same
 
-### incomplete types
+### Incomplete Type
 
 --- Effective C and <https://learn.microsoft.com/en-us/cpp/c-language/incomplete-types>
 
 **definition** an _incomplete type_ is a type that describes an object but lacks information needed to determine its size
 
-> **example** `struct s; enum e; int a[];` are all incomplete types
+> **example** `struct s; enum e; int a[];` are all [[c#incomplete type]]s
 
-incomplete types can be completed by specifying the missing information. `void` is an incomplete type that cannot be completed
+[[c#incomplete type]]s can be completed by specifying the missing information. `void` is a incomplete type that cannot be completed
 
-## declarations
+## Declaration
 
-reordering of declaration specifiers has no effect in [[c]] --- <https://youtu.be/zGWj7Qo_POY?t=21m28s>
+reordering of [[c#declaration]] specifiers has no effect in [[c]] --- <https://youtu.be/zGWj7Qo_POY?t=21m28s>
 
 > **example** `int typedef const a;` is equivalent to `typedef const int a;`, and `long unsigned static long b;` is equivalent to `static unsigned long long b;`
 
@@ -234,7 +234,7 @@ in [[c]], "declarations mirror use": a declarator syntactically resembles an exp
 
 > **example** in `const char *foo;` and `char const *foo;` the pointee is constant while in `char *const foo` the pointer is constant
 
-> **note** [[go]]'s declarations don't mirror use. Rob Pike argues that _You gain clarity at the cost of a separate syntax._. I disagree. he compares the [[c]] declaration `int (*(*fp)(int (*)(int, int), int))(int, int)` to the equivalent [[go]] declaration `f func(func(int,int) int, int) func(int, int) int`. but that's deceptive, most of the noise in the [[c]] declaration is the `*`s, you could just remove them and declarations would still mirror use: `int fp(int (int, int), int)(int, int)`. he correctly identifies that [[go]]'s style is easier to read because it's left-to-right, but you could achieve the same in [[c]] by making `*` a postfix operator and by swapping declarators and declarations specifiers: `fp*(*(int, int) int, int)*(int, int) int`. and since declarations mirror use, nicer declarations means nicer use: compare `a&[5]*++` to `(*(&a)[5])++`. --- [[Go's Declaration Syntax - The Go Programming Language.pdf]] --- <https://go.dev/blog/declaration-syntax>
+> **note** [[go]]'s declarations don't mirror use. Rob Pike argues that _You gain clarity at the cost of a separate syntax._. I disagree. he compares the [[c]] declaration `int (*(*fp)(int (*)(int, int), int))(int, int)` to the equivalent [[go]] declaration `f func(func(int,int) int, int) func(int, int) int`. but that's deceptive, most of the noise in the [[c]] declaration is the `*`s, you could just remove them and declarations would still mirror use: `int fp(int (int, int), int)(int, int)`. he correctly identifies that [[go]]'s style is easier to read because it's left-to-right, but you could achieve the same in [[c]] by making `*` a postfix operator and by swapping declarators and declaration specifiers: `fp*(*(int, int) int, int)*(int, int) int`. and since declarations mirror use, nicer declarations means nicer use: compare `a&[5]*++` to `(*(&a)[5])++`. --- [[Go's Declaration Syntax - The Go Programming Language.pdf]] --- <https://go.dev/blog/declaration-syntax>
 
 ## initialization
 
@@ -250,9 +250,9 @@ initializer lists are brace-enclosed sequences of _positional initializers_ (whi
 
 _empty initialization_ (informally also known as _zero initialization_ and _default initialization_), written `{0}`, zeroes out an object's memory. starting in C23, it can also be written `{}`
 
-## compound literals
+## Compound Literal
 
-a _compound literal_, written _`(` type-name `)` `{` initializer-list `,`? `}`_, creates an unnamed lvalue (!!) of the specified type. compound literals used in _block scope_ have _automatic storage duration_ and live for the entire duration of the block; compound literals may be used in _file scope_, in which case they have _static storage duration_ --- ISO/IEC 9899:TC3, $6.5.2.5, paragraph 6
+a _compound literal_, written _`(` type-name `)` `{` initializer-list `,`? `}`_, creates an unnamed lvalue (!!) of the specified type. compound literals used in _block scope_ have _automatic [[c#storage duration]]_ and live for the entire duration of the block; compound literals may be used in _file scope_, in which case they have _static [[c#storage duration]]_ --- ISO/IEC 9899:TC3, $6.5.2.5, paragraph 6
 
 > **example** `struct vec2 zero(void) { return (struct vec2){0.0, 0.0}; }`
 
@@ -264,13 +264,15 @@ a _compound literal_, written _`(` type-name `)` `{` initializer-list `,`? `}`_,
 
 > **example** `*p = (struct p){0};` can be used to zero out a structure, say before returning from a destructuor --- <https://youtu.be/lLv1s7rKeCM?t=56m32s>
 
-## lvalues and rvalues
+## Lvalue
+
+## Rvalue
 
 **definition** an _lvalue_ is an expression that refers to an object; it makes sense for it to be on the left side of an assignment [[expression]]
 
 **definition** an _rvalue_ is an expression that does not refer to an object; it only makes sense for it to be on the right side of an assignment [[expression]]
 
-## pointer arithmetic
+## Pointer Arithmetic
 
 adding or subtracting an _integer type_ to or from a pointer [[type]] in [[c]] returns a value whose [[type]] is that of the pointer operand. the difference between the [[array]] subscripts is the value of the [[integer]] operand
 
@@ -289,7 +291,7 @@ the resulting pointer must point to an element of the same [[array]] as the orig
 
 > **example** in `int m[2] = {1, 2}; for (int *p = &m[0]; p < &m[2]; p++);`, `&m[2]` is a "too-far" pointer
 
-the [[c]] standard does not impose that the members of a `struct` be contiguous. therefore, when using pointer arithmetic on members of a [[c]] `struct`s, one should use the `offsetof` macro from `stddef.h` to determine the offset of the element from the beginning of the `struct`
+the [[c]] standard does not impose that the members of a `struct` be contiguous. therefore, when using [[c#pointer arithmetic]] on members of a `struct`, one should use the `offsetof` macro from `stddef.h` to determine the offset of the element from the beginning of the `struct`
 
 in [[c]], a `void *` is implicitly converted to any other pointer type
 
@@ -299,7 +301,7 @@ the _strict aliasing rule_ allows the compiler to assume that pointers to differ
 
 > **example** `int x = 1; float *f = (float *)&x; *f = 2;` has [[c#undefined behavior]]
 
-## type coercions
+## Type Coercion
 
 **definition** the _integer types_ in [[c]] are `char`, `short`, `int`, `long`, `long long` and `enum`. `_Bool` is also treated as an integer type when it comes to type promotions
 
@@ -311,7 +313,7 @@ simplistically, whenever a _small integer type_ is used in an expression in [[c]
 
 whenever a binary [[operator]] is applied to two operands of different types, [[c]] enforces an implicit conversion of one of the operands to the type of the other operand. the rules for this process are called _the usual arithmetic conversions_. simplistically, if one of the arguments has a [[floating-point number]] type, then the other is converted to that [[floating-point number]] type; otherwise, the _integer promotions_ are performed on both operands. then, if both operands have identical signedness, the operand with lesser _conversion rank_ is converted to the type of the other; otherwise, things get complicated and unintuitive
 
---- Effective C p. 49-55 and <https://stackoverflow.com/questions/46073295/implicit-type-promotion-rules>
+--- Effective C, pages 49--55, and <https://stackoverflow.com/questions/46073295/implicit-type-promotion-rules>
 
 ## operators
 
@@ -388,7 +390,7 @@ there is a sequence point between the evaluations of the operands of the `&&`, `
 
 there is a sequence point between the evaluations of the first and second or third operands of the `? :` [[operator]], whichever is evaluated
 
-there is **no** sequence point between evaluations of the operands of the `=` [[operator]], and the stored value may be updated any time between the previous and next sequence points --- ISO/IEC 9899:TC3, $6.5.16, paragraphs 3-4
+there is **no** sequence point between evaluations of the operands of the `=` [[operator]], and the stored value may be updated any time between the previous and next sequence points --- ISO/IEC 9899:TC3, $6.5.16, paragraphs 3--4
 
 ## dynamic allocation
 
@@ -421,7 +423,7 @@ VLAs can be used to make indexing into dynamic multidimensional [[array]]s less 
 
 > **example** `double *p = malloc(sizeof *p * rows * cols);` has to be indexed with `p[i * rows + j]` while `double (*p)[rows][cols] = malloc(sizeof *p);` can be indexed with `(*p)[i][j]` and `double (*p)[rows] = malloc(sizeof *p * cols);` can be indexed with `p[i][j]`
 
-## control flow
+## Control Flow
 
 **see** [[goto]]
 
@@ -446,13 +448,13 @@ the type of the controlling expression to a `switch` statement must be an _integ
 
 > **example** a common guideline is to always use braces to convert statements into compound statements inside of control flow statements. therefore, to be pedantic, `if (c) { ... } else if (d) { ... }` should be written as `if (c) { ... } else { if (d) { ... } }`. if `else-if`s are allowed, why aren't `else-switch`es? `if (!color) { alpha = 1; } else switch (*color) { ... }` --- <https://youtu.be/zGWj7Qo_POY?t=10m32s>
 
-## reserved identifiers
+## Reserved Identifier
 
 --- ISO/IEC 9899:TC3, $7.1.3 'Reserved identifiers'
 
-identifiers matching the [[regular expression]] `/_[_A-Z].*/` are reserved everywhere and those matching `/_.*/` are reserved at file scope including for tags. defining or declaring such an identifier or using such an identifier as a macro name has [[c#undefined behavior]]
+identifiers matching the [[regular expression]] `/_[_A-Z].*/` are reserved everywhere and those matching `/_.*/` are reserved at file scope including for [[c#tag]]s. defining or declaring such an identifier or using such an identifier as a macro name has [[c#undefined behavior]]
 
-## storage duration
+## Storage Duration
 
 objects declared within a block or within a function parameter and objects declared with the `auto` storage-class specifier have _automatic_ storage duration, living from the start to the end of the block. `auto` is a bit useless, because the only places it's allowed to be used, automatic storage duration is already the default --- <https://stackoverflow.com/questions/4688816/concept-of-auto-keyword-in-c>. starting in C23, `auto` provides [[c++]]-style "[[type inference]]" --- <https://youtu.be/lLv1s7rKeCM?t=11m45s>
 
@@ -474,9 +476,9 @@ objects declared with the `thread_local` storage-class specifier have _thread_ s
 
 > **example** `thread_local int x;`
 
-## linkage
+## Linkage
 
-a declaration with _external linkage_ makes all its references refer to the same object throughout all translation units. objects declared at file [[scope]] have external linkage by default
+a [[c#declaration]] with _external linkage_ makes all its references refer to the same object throughout all translation units. objects declared at file [[scope]] have external linkage by default
 
 > **example** `int x; int f(void); extern int x; extern int f(void); // at file scope`
 
@@ -486,7 +488,7 @@ block-scope objects can be made to have external linkage using the `extern` stor
 
 > **example** `{ extern int x; extern int f(void); }`
 
-a declaration with _internal linkage_ makes all its references refer to the same object within the same translation unit. objects declared at file [[scope]] with the `static` storage-class specifier have internal linkage; not to be confused with `static` at block [[scope]]
+a [[c#declaration]] with _internal linkage_ makes all its references refer to the same object within the same translation unit. objects declared at file [[scope]] with the `static` storage-class specifier have internal linkage; not to be confused with `static` at block [[scope]]
 
 > **example** `static int x; static int f(void); // at file scope`
 
@@ -494,23 +496,23 @@ a declaration with _internal linkage_ makes all its references refer to the same
 
 > **note** it is good practice to mark file-scoped implementation details with `static` so as not to pollute the global namespace
 
-a declaration with _no linkage_ makes all its references refer to the same object within the same block. identifiers with no linkage include function parameters, objects declared at block [[scope]] and enumeration constants
+a [[c#declaration]] with _no linkage_ makes all its references refer to the same object within the same block. identifiers with no linkage include function parameters, objects declared at block [[scope]] and enumeration constants
 
 > **example** `{ int x; }` and parameter `x` at `int f(int x) { ... }`
 
-## type qualifiers
+## Type Qualifier
 
-`const` is a type qualifier that specifies that an object's value cannot be modified after initialization. the compiler can place `const`-qualified objects in read-only memory, which means modifying them has [[c#undefined behavior]]
+`const` is a [[c#type qualifier]] that specifies that an object's value cannot be modified after initialization. the compiler can place `const`-qualified objects in read-only memory, which means modifying them has [[c#undefined behavior]]
 
 > **example** `const int x = 1; x = 2;` produces an error
 
 > **example** `int *p = (int *)&x; *p = 2;` has [[c#undefined behavior]]
 
-`volatile` is a type qualifier that specifies that an object's value could be modified by something beyond the control of the program, such as a hardware device. this prevents the compiler from optimizing away reads and writes to the object
+`volatile` is a [[c#type qualifier]] that specifies that an object's value could be modified by something beyond the control of the program, such as a hardware device. this prevents the compiler from optimizing away reads and writes to the object
 
 > **example** `volatile int port; port = port;` will generate instructions to read and write to `port`
 
-`restrict` is a type qualifier that specifies that a pointer is the only way to access the object it points to. this allows the compiler to perform further optimization. using the `restrict` qualifier on two pointers that overlap has [[c#undefined behavior]]
+`restrict` is a [[c#type qualifier]] that specifies that a pointer is the only way to access the object it points to. this allows the compiler to perform further optimization. using the `restrict` qualifier on two pointers that overlap has [[c#undefined behavior]]
 
 > **example** `void copy(char *restrict s1, const char *restrict s2);`
 
@@ -549,15 +551,15 @@ a compiler may:
 - terminate a translation or execution (with issuing a diagnostic)
 - produce arbitrary output (anything from a corrupted binary to a program that formats the hard drive)
 
-### indeterminate values
+### Indeterminate Value
 
 _trap representations_ are essentially a value in memory that cannot be represented by the [[type]] of an object. uninitialized memory contains _indeterminate values_, and it is implementation defined whether or not these values can be _trap representations_
 
-reading a _trap representation_ has [[c#undefined behavior]]; reading an _uninitialized value_ does not necessarily have [[c#undefined behavior]] in [[c]] but does in [[c++]]. using _indeterminate values_ in arithmetic operations has [[c#undefined behavior]]
+reading a _trap representation_ has [[c#undefined behavior]]; reading an _uninitialized value_ does not necessarily have [[c#undefined behavior]] in [[c]] but does in [[c++]]. using [[c#indeterminate value]]s in arithmetic operations has [[c#undefined behavior]]
 
 --- Effective C and <https://stackoverflow.com/questions/13423673/what-is-indeterminate-value>
 
-## Preprocessor
+## C Preprocessor
 
 --- Effective C
 
@@ -567,9 +569,9 @@ reading a _trap representation_ has [[c#undefined behavior]]; reading an _uninit
 
 > **resource** _Coroutines in C_ by Simon Tatham --- [[Coroutines in C.html]] and [[coroutine.h]] --- <https://www.chiark.greenend.org.uk/%7Esgtatham/coroutines.html> and <https://www.chiark.greenend.org.uk/%7Esgtatham/coroutine.h>
 
-### directives
+### Preprocessing Directive
 
-the [[c#preprocessor]] includes the following directives:
+the [[c#c preprocessor]] includes the following directives:
 
 ```c
 #include
@@ -622,9 +624,9 @@ whitespace may added between the beginning of a line and a `#` character or betw
 
 `#` (the _null directive_) is a no-op
 
-### predefined macros
+### Predefined Macro
 
-_predefined macros_ are macros implicitly defined by the [[c#preprocessor]]. they include, non-exhaustively:
+_predefined macros_ are macros implicitly defined by the [[c#c preprocessor]]. they include, non-exhaustively:
 
 `__LINE__` expands to the current line number as an integer literal
 
@@ -636,11 +638,11 @@ _predefined macros_ are macros implicitly defined by the [[c#preprocessor]]. the
 
 `__STDC__` expands to `1` if the implementation conforms to the [[c]] standard
 
-### macro coloring
+### Macro Coloring
 
 what color is your macro? in [[c]], expressions are syntactically a [[set#subset]] of statements, yet expressions are more usable than statements while statements are more capable than expressions. "uphold $A > B$ while minimizing $A$ while maximizing $B$": that's the function coloring problem; see <https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/>. concretely, macros that expand to a statement "red macros" are more capable but can only be used within statements and not within expressions, while macros that expand to an expression "blue macros" are less capable but can be used both within statements and within expressions
 
-### useful idioms
+### preprocessor idioms
 
 --- <https://stackoverflow.com/quons/1067226/c-multi-line-macro-do-while0-vs-scope-block>
 
@@ -654,7 +656,7 @@ what color is your macro? in [[c]], expressions are syntactically a [[set#subset
 
 --- <https://youtu.be/lLv1s7rKeCM?t=1h15m7s>
 
-[[lambda-calculus]] constructions tend to lend themselves well to the [[c#preprocessor]] because macros are first-class citizens.
+[[lambda-calculus]] constructions tend to lend themselves well to the [[c#c preprocessor]] because macros are first-class citizens.
 
 token-paste/stringize without inhibiting expansion
 

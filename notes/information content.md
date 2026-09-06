@@ -1,21 +1,19 @@
 # Information Content
 
+--- <https://www.youtube.com/@JakobFoerster/videos>
+
 **aka** _self-information_, _surprisal_, _Shannon information_
 
-**definition** **`I S x = /--P S x\ b`**, where
+**see** [[symbol code]]
 
-- **`b`** is an arbitrary base for the [[logarithm]], with **`b {|-/\+} 1`**
-- **`P S x`** is the [[probability]] of the [[event]] **`x`** occurring in the [[sample space]] **`S`**
-- **`I S x`** is the [[information content]] of the [[event]] **`x`** occurring in the [[sample space]] **`S`**
+**definition** the _information content_ $\mathrm I[x]$ of an [[outcome]] $x$ is $\mathrm I[x] = -\log_b \mathrm P[x]$. with $b = 2$ it is measured in [[shannon]]s; with $b = e$ it is measured in [[nat]]s
 
-> **note** with **`b = 2`**, [[information content]] is measured in [[shannon]]s; with **`b = ee`**, [[information content]] is measured in [[nat]]s
+**definition** the _information content_ $\mathrm I[w]$ of a word $w = xyz\cdots$ is $\mathrm I[w] = \mathrm I[xyz\cdots] = \mathrm I[x] + \mathrm I[y|x] + \mathrm I[z|xy] + \cdots$
 
 **properties**
 
-let **`p = P S /\ i = I S`**. then,
+- $\mathrm P[x] = 1 \to \mathrm I[x] = 0$ --- an [[outcome]] that is certain to occur has zero [[information content]]
+- $\mathrm P[x] < \mathrm P[y] \to \mathrm I[x] > \mathrm I[x]$ --- an [[outcome]] that is less likely to occur has more [[information content]]
+- $\mathrm P[x \cap y] = \mathrm P[x] \cdot \mathrm P[y] \to \mathrm I[x \cap y] = \mathrm I[x] + \mathrm I[Y]$ --- the [[information content]] of two independent [[outcome]]s is the sum of the [[information content]] of each [[outcome]]
 
-- **`p x = 1 < i x = 0`** --- an [[event]] that is certain to occur has zero [[information content]]
-- **`p x -| p y < i x |- i y`** --- an [[event]] that is less likely to occur has more [[information content]]
-- **`p z = p x | p y < i z = i x : i y`** --- the [[information content]] of two independent [[event]]s is the sum of the [[information content]] of both [[event]]s
-
-> **note** it can be proven that the only [[function]]s satisfying these properties are of the form **`I S x = /--P S x\ b`** --- <https://youtu.be/B3y0RsVCyrw?t=483>
+and in fact, the only [[function]]s satisfying these properties are of the form $\mathrm I[x] = -\log_b \mathrm P[x]$ --- <https://youtu.be/B3y0RsVCyrw?t=483>

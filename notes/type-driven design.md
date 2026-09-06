@@ -2,7 +2,7 @@
 
 **see** [[hungarian notation]], [[comment]], [[type#algebraic data type]], [[type#refinement type]], [[function#total function]]
 
-> **resource** _parse, don’t validate_ by Alexis King (_validators_ just return whether some data is valid whereas _parsers_ return [[type]]-level knowledge that the data is valid) --- <https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/>
+> **resource** _parse, don’t validate_ by Alexis King (_validators_ just return whether some data is valid whereas _parsers_ return [[type]]-level knowledge that the data is valid) --- [[Parse, don't validate.html]] --- <https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/>
 
 > **resource** _Type-Driven API Design in Rust_ by Will Crichton, leveraging [[rust]] [[trait]]s to design a great progress bar API using the "type state" pattern --- <https://youtu.be/bnnacleqg6k>
 
@@ -22,4 +22,4 @@ with [[type-driven design]], band-aids like apps [[hungarian notation]] (prepend
 
 here's a fun one, _shotgun parsing_:
 
-> _Shotgun parsing_ is a programming antipattern whereby parsing and input-validating code is mixed with and spread across processing code---throwing a cloud of checks at the input, and hoping, without any systematic justification, that one or another would catch all the "bad" cases. --- _The Seven Turrets of Babel: A Taxonomy of LangSec Errors and How to Expunge Them_ --- <http://langsec.org/papers/langsec-cwes-secdev2016.pdf>
+> _Shotgun parsing_ is a programming antipattern whereby parsing and input-validating code is mixed with and spread across processing code---throwing a cloud of checks at the input, and hoping, without any systematic justification, that one or another would catch all the "bad" cases. --- _The Seven Turrets of Babel: A Taxonomy of LangSec Errors and How to Expunge Them_ --- [[langsec-cwes-secdev2016.pdf]] --- <http://langsec.org/papers/langsec-cwes-secdev2016.pdf>

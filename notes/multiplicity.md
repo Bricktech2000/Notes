@@ -1,3 +1,3 @@
 # Multiplicity
 
-**see** [[multiset#multiplicity]]
+**see** [[multiset#multiset multiplicity]]

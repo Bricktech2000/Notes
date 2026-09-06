@@ -18,7 +18,7 @@
 
 [[cognitive bias]], [[material distortion]]
 
-[[verbal#connotation]]
+[[verbal#verbal connotation]]
 
 [[mental illness]]
 

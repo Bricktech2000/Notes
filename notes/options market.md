@@ -42,7 +42,7 @@ when trading on the [[options market]], you are trying to outsmart everyone else
 
 --- <https://youtu.be/dgisRHEQ2FM>
 
-## Best Practices
+## best practices
 
 each trade should be around **`1-100 ... 5-100`** of the total portfolio value
 
@@ -54,7 +54,7 @@ paper trading is a good way to practice trading
 
 IV% #todo
 
-## Tools
+## tools
 
 Webull and Interactive Brokers
 

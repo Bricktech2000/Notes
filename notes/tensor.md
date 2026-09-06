@@ -1,16 +1,16 @@
 # Tensor
 
-**definition** a _tensor_ is an element of the [[tensor#product]] of some number of [[vector space]]s
+**definition** a _tensor_ is an element of the [[tensor#tensor product]] of some number of [[vector space]]s
 
-## Product
+## Tensor Product
 
 **definition** the _tensor product_ of two [[vector space]]s $V$ and $W$ (over the same [[field]]) is a [[vector space]] $V \otimes W$ to which is associated a [[linear map#bilinear map]] $V \times W \to V \otimes W$ that maps a pair $(v, w)$ to an element of $V \otimes W$ denoted $v \otimes w$ --- Wikipedia
 
-**definition** the _tensor product_ of two [[vector]]s $v \in V$ and $w \in W$ is the [[vector]] $v \otimes w \in V \otimes W$ which is the image of $(v, w)$ under the [[linear map#bilinear map]] associated to the [[tensor#product]] $V \otimes W$ --- me
+**definition** the _tensor product_ of two [[vector]]s $v \in V$ and $w \in W$ is the [[vector]] $v \otimes w \in V \otimes W$ which is the image of $(v, w)$ under the [[linear map#bilinear map]] associated to the [[tensor#tensor product]] $V \otimes W$ --- me
 
 **definition** _universal property_ the _tensor product_ of two [[vector space]]s $V$ and $W$ is a [[vector space]] denoted $V \otimes W$, together with a [[linear map#bilinear map]] $\varphi : V \times W \to V \otimes W = (v, w).\ v \otimes w$, such that, for every [[linear map#bilinear map]] $h : V \times W \to Z$, there is a **unique** [[linear map]] $\tilde h : V \otimes W \to Z$ satisfying $h = \tilde h \circ \varphi$ (that is, $h\ (v, w) = \tilde h\ (v \otimes w)$ for all $v \in V \land w \in W$) --- Wikipedia
 
-> **note** uniqueness of $\tilde h$ ensures that $V \otimes W$ has no irrelevant extra structure. take the false [[tensor#product]] $V \otimes' W = (V \otimes W) \oplus U$ for nonzero $U$ together with $\varphi' : V \times W \to V \otimes' W = (v, w).\ (v \otimes w, 0)$. Then for every [[linear map#bilinear map]] $h : V \times W \to Z$ there is a whole family of [[linear map]]s $\tilde h' : V \otimes' W \to Z$ satisfying $h = \tilde h' \circ \varphi'$, namely $\tilde h'\ (t, u) = \tilde h\ t + \phi\ u$ for any [[linear map]] $\phi : U \to Z$, where $\tilde h$ is the usual induced map. they all agree on $\varphi'\ (v, w)$ because the $u$ component is $0$, but they are different as maps $V \otimes' W \to Z$ --- ChatGPT and me
+> **note** uniqueness of $\tilde h$ ensures that $V \otimes W$ has no irrelevant extra structure. take the false [[tensor#tensor product]] $V \otimes' W = (V \otimes W) \oplus U$ for nonzero $U$ together with $\varphi' : V \times W \to V \otimes' W = (v, w).\ (v \otimes w, 0)$. Then for every [[linear map#bilinear map]] $h : V \times W \to Z$ there is a whole family of [[linear map]]s $\tilde h' : V \otimes' W \to Z$ satisfying $h = \tilde h' \circ \varphi'$, namely $\tilde h'\ (t, u) = \tilde h\ t + \phi\ u$ for any [[linear map]] $\phi : U \to Z$, where $\tilde h$ is the usual induced map. they all agree on $\varphi'\ (v, w)$ because the $u$ component is $0$, but they are different as maps $V \otimes' W \to Z$ --- ChatGPT and me
 
 **representation** _universal property_
 
