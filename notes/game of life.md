@@ -33,6 +33,4 @@ let next_state = match neighbor_count {
 
 **representation**
 
-![[unnamed.gif]]
-
---- <https://experiments.withgoogle.com/conway-game-of-life>
+![[../references/unnamed.gif]] --- <https://experiments.withgoogle.com/conway-game-of-life>

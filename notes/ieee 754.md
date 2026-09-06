@@ -4,7 +4,7 @@
 
 **see** [[floating-point number]]
 
-> **resource** parody of the [[ieee 754]] standard by tom7 --- [[nand.pdf]] --- <http://tom7.org/nand/nand.pdf>
+> **resource** parody of the [[ieee 754]] standard by tom7 --- [[../references/nand.pdf]] --- <http://tom7.org/nand/nand.pdf>
 
 [[ieee 754]] defines arithmetic formats, interchange formats, rounding rules, operations, and exception handling for [[floating-point number]] arithmetic --- <https://en.wikipedia.org/wiki/IEEE_754>. it is the standard for [[floating-point number]] arithmetic used by most modern computers
 

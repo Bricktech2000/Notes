@@ -13,9 +13,7 @@
 
 **representation**
 
-![[20221103111349.png]]
-
---- <https://youtu.be/spUNpyF58BY?t=666>
+![[../references/20221103111349.png]] --- <https://youtu.be/spUNpyF58BY?t=666>
 
 **properties**
 

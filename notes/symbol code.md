@@ -26,7 +26,7 @@ prefix code are uniquely decodable. importantly, they are easy to decode. they c
 
 **representation** _a (complete) prefix-free [[symbol code]]_
 
-![[Screenshot From 2026-08-29 22-48-25.png]] --- <https://youtu.be/l6DKRf-fAAM?t=602>
+![[../references/Screenshot From 2026-08-29 22-48-25.png]] --- <https://youtu.be/l6DKRf-fAAM?t=602>
 
 **theorem** _Kraft inequality_ $+i.\ \overline \exp_2\ \ell_i \leq 1$ if and only if there exists a prefix code with codeword lengths $\ell$
 

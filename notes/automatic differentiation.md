@@ -6,7 +6,7 @@
 
 > **resource** my autodiff library, static reverse-mode automatic differentiation in C --- <https://github.com/Bricktech2000/Autodiff>
 
-> **resource** _Automatic Differentiation in Machine Learning: a Survey_ (abstract kinda sucks; see last paragraph of introduction) --- [[1502.05767v4.pdf]] --- <https://arxiv.org/pdf/1502.05767>
+> **resource** _Automatic Differentiation in Machine Learning: a Survey_ (abstract kinda sucks; see last paragraph of introduction) --- [[../references/1502.05767v4.pdf]] --- <https://arxiv.org/pdf/1502.05767>
 
 backpropagation in multilayer perceptron [[neural network]]s is a special case of [[automatic differentiation#reverse-mode automatic differentiation]] --- <https://arxiv.org/pdf/1502.05767>
 
@@ -100,6 +100,6 @@ in practice, computation graphs are directed acyclic [[graph]]s, and intermediat
 
 --- <https://en.wikipedia.org/wiki/Automatic_differentiation#Automatic_differentiation_using_dual_numbers>
 
---- _Automatic Differentiation in Machine Learning: a Survey_ --- [[1502.05767v4.pdf]] --- <https://arxiv.org/pdf/1502.05767>
+--- _Automatic Differentiation in Machine Learning: a Survey_ --- [[../references/1502.05767v4.pdf]] --- <https://arxiv.org/pdf/1502.05767>
 
---- _On the Equivalence of Automatic and Symbolic Differentiation_ --- [[1904.02990v4.pdf]] --- <https://arxiv.org/pdf/1904.02990> (preprint)
+--- _On the Equivalence of Automatic and Symbolic Differentiation_ --- [[../references/1904.02990v4.pdf]] --- <https://arxiv.org/pdf/1904.02990> (preprint)

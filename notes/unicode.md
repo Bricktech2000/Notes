@@ -4,7 +4,7 @@ _a text encoding standard_
 
 **see** [[ascii]], [[utf-8]], [[code page]]
 
-**definitions** --- [[glossary of unicode terms.html]] --- <https://www.unicode.org/glossary/>
+**definitions** --- [[../references/glossary of unicode terms.html]] --- <https://www.unicode.org/glossary/>
 
 - Code Point --- _Any value in the Unicode codespace; that is, the range of integers from 0x0 to 0x10FFFF. Not all code points are assigned to encoded characters. [...]_
 - Unicode Scalar Value --- _Any Unicode code point except high-surrogate and low-surrogate code points. In other words, the ranges of integers 0x0 to 0xD7FF and 0xE000 to 0x10FFFF inclusive._

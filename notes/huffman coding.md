@@ -24,6 +24,4 @@
 
 **representation** _sample Huffman tree_
 
-![[Pasted image 20230628214746.png]]
-
---- Wikipedia
+![[../references/Pasted image 20230628214746.png]] --- Wikipedia

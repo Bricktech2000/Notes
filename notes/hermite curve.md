@@ -8,9 +8,7 @@
 
 **representation**
 
-![[Pasted image 20221229171436.png]]
-
---- <https://youtu.be/jvPPXbo87ds?t=2515>
+![[../references/Pasted image 20221229171436.png]] --- <https://youtu.be/jvPPXbo87ds?t=2515>
 
 ## matrix form
 
@@ -18,6 +16,4 @@
 
 > **example** _[[matrix]] form of a cubic [[hermite curve]]_
 >
-> ![[Pasted image 20221229170938.png]]
->
-> --- <https://youtu.be/jvPPXbo87ds?t=2489>
+> ![[../references/Pasted image 20221229170938.png]] --- <https://youtu.be/jvPPXbo87ds?t=2489>

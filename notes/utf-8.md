@@ -6,9 +6,9 @@ _a beautiful and brilliant hack_
 
 > **resource** RFC 3629, _UTF-8, a transformation format of ISO 10646_ --- <https://www.rfc-editor.org/rfc/rfc3629.html>
 
-> **resource** _UTF-8 history_ email chain, a trip to the past --- [[utf-8-history.txt]] --- <https://www.cl.cam.ac.uk/~mgk25/ucs/utf-8-history.txt>
+> **resource** _UTF-8 history_ email chain, a trip to the past --- [[../references/utf-8-history.txt]] --- <https://www.cl.cam.ac.uk/~mgk25/ucs/utf-8-history.txt>
 
-> **resource** _The WTF-8 Encoding_, a [[set#superset]] of UTF-8 that can also encode unpaired surrogates --- [[The WTF-8 encoding.html]] --- <https://wtf-8.codeberg.page/#unicode-scalar-value>
+> **resource** _The WTF-8 Encoding_, a [[set#superset]] of UTF-8 that can also encode unpaired surrogates --- [[../references/The WTF-8 encoding.html]] --- <https://wtf-8.codeberg.page/#unicode-scalar-value>
 
 **properties**
 

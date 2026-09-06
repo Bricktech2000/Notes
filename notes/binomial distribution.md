@@ -17,4 +17,4 @@ the [[probability mass function]] of a [[binomial distribution]] represents the 
 
 **representation**
 
-![[Pasted image 20230710113541.png]]
+![[../references/Pasted image 20230710113541.png]]

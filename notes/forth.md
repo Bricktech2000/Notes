@@ -2,15 +2,15 @@
 
 _the LISP of low-level programming_
 
-> **resource** _JONESFORTH_, literate Forth implementation in x86 assembly --- [[jonesforth.S]] and [[jonesforth.f]] --- <https://github.com/nornagon/jonesforth/blob/master/jonesforth.S> and <https://github.com/nornagon/jonesforth/blob/master/jonesforth.f>
+> **resource** _JONESFORTH_, literate Forth implementation in x86 assembly --- [[../references/jonesforth.S]] and [[../references/jonesforth.f]] --- <https://github.com/nornagon/jonesforth/blob/master/jonesforth.S> and <https://github.com/nornagon/jonesforth/blob/master/jonesforth.f>
 
 > **resource** _Bootstrapping_ series by Maja Kądziołka, bootstrapping from a bootsector Forth
 >
-> 1. [[Fitting a Forth in 512 bytes.pdf]] --- <https://compilercrim.es/bootstrap/miniforth/>
-> 2. [[No branches_ No problem - a Forth assembler.pdf]] --- <https://compilercrim.es/bootstrap/branches/>
-> 3. [[Branches_ No assembly required.pdf]] --- <https://compilercrim.es/bootstrap/asmless/>
-> 4. [[How Forth implements exceptions.pdf]] --- <https://compilercrim.es/bootstrap/throw-catch/>
-> 5. [[Contextful exceptions with Forth metaprogramming.pdf]] --- <https://compilercrim.es/bootstrap/exception-context/>
+> 1. [[../references/Fitting a Forth in 512 bytes.pdf]] --- <https://compilercrim.es/bootstrap/miniforth/>
+> 2. [[../references/No branches_ No problem - a Forth assembler.pdf]] --- <https://compilercrim.es/bootstrap/branches/>
+> 3. [[../references/Branches_ No assembly required.pdf]] --- <https://compilercrim.es/bootstrap/asmless/>
+> 4. [[../references/How Forth implements exceptions.pdf]] --- <https://compilercrim.es/bootstrap/throw-catch/>
+> 5. [[../references/Contextful exceptions with Forth metaprogramming.pdf]] --- <https://compilercrim.es/bootstrap/exception-context/>
 
 [[forth]] is a concatenative [[programming language]] that compiles words to threaded code running on a stack machine
 
@@ -51,4 +51,4 @@ words `[` and `]` switch in and out of immediate mode, respectively, allowing fo
 
 > **example** `[ 3 4 * ]` within a `: … ;` definition will codegen `12` and not a runtime call to `*`
 
-> **note** [[forth]] lets you tickle the compiler and poke right through all [[abstraction]] layers down to machine code. on one hand, this makes bootstrapping and metaprogramming a breeze. on the other, you can find yourself in pragmatism hell wondering if you've covered all edge cases in an implementation that really should've been trivial; see, for example, [[jonesforth.f|jonesforth.f:1022-1107]], <https://github.com/nornagon/jonesforth/blob/d97a25bb0b06fb58da1975eac291f45618fd2ada/jonesforth.f#L1022-L1107>
+> **note** [[forth]] lets you tickle the compiler and poke right through all [[abstraction]] layers down to machine code. on one hand, this makes bootstrapping and metaprogramming a breeze. on the other, you can find yourself in pragmatism hell wondering if you've covered all edge cases in an implementation that really should've been trivial; see, for example, [[../references/jonesforth.f|../references/jonesforth.f:1022-1107]], <https://github.com/nornagon/jonesforth/blob/d97a25bb0b06fb58da1975eac291f45618fd2ada/jonesforth.f#L1022-L1107>

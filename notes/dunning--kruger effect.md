@@ -10,8 +10,6 @@ the [[dunning--kruger effect]] is a _self-assessment_ [[cognitive bias]] --- <ht
 
 **representation**
 
-![[Pasted image 20230105181833.png]]
-
---- Wikipedia
+![[../references/Pasted image 20230105181833.png]] --- Wikipedia
 
 > **note** the "Dunning--Kruger curve" (with the Peak of Mount Stupid, the Valley of Despair, and the Slope of Enlightenment) is a misleading representation of the [[dunning--kruger effect]]. the original paper found that low performers overestimate their performance, but still estimate it to be lower than that of high performers. the "Dunning-Kruger curve" is based on subsequent findings in the field that were sparked by the original paper --- <https://medium.com/curious/why-the-dunning-kruger-curves-youve-seen-are-wrong-beb944668aef> and <https://youtu.be/npALpfdatws?t=949> and <https://youtu.be/9M_QK4stCJU?t=514>

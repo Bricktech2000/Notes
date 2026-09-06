@@ -14,12 +14,12 @@ HD video and most computer screens use the [[srgb]] [[color space]]. recording i
 >
 > RAW image in a [[color space#linear color space]] from a wide [[color gamut]] camera
 >
-> ![[Pasted image 20221208163525.png]]
+> ![[../references/Pasted image 20221208163525.png]]
 >
 > image sliced into a narrow [[color space]] then compressed to [[srgb]] through [[gamma correction]]
 >
-> ![[Pasted image 20221208163922.png]]
+> ![[../references/Pasted image 20221208163922.png]]
 >
 > image color-corrected through a simple highlight roll-off then compressed to [[srgb]] through [[gamma correction]]
 >
-> ![[Pasted image 20221208164124.png]]
+> ![[../references/Pasted image 20221208164124.png]]

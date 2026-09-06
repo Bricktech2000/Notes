@@ -4,7 +4,7 @@
 
 --- <https://youtu.be/mndzhfBpyUw?t=412> and <https://youtu.be/_Iz83hfkFds?t=3625>
 
---- [[read6-unification.pdf]] --- <https://www.csd.uwo.ca/~mmorenom/cs2209_moreno/read/read6-unification.pdf>
+--- [[../references/read6-unification.pdf]] --- <https://www.csd.uwo.ca/~mmorenom/cs2209_moreno/read/read6-unification.pdf>
 
 [[unification]] is an [[algorithm]] that returns a _most-general unifier_ for some [[set]] of expressions $E$, if it exists; it gives a maximally general [[substitution]] that makes the expressions in $E$ syntactically identical, so [[inference rule]]s may be applied
 

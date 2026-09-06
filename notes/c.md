@@ -16,11 +16,11 @@ _assembly with syntactic sugar and undefined behavior_
 
 > **resource** _"New" Features in C_ by Dan Saks, a firehose of modern C features --- <https://youtu.be/ieERUEhs910>
 
-> **resource** _c4 --- C in four functions_, a terse yet readable 500-SLOC one-pass subset-[[c]] compiler --- [[c4.c]] --- <https://github.com/rswier/c4> --- <https://news.ycombinator.com/item?id=22353532>
+> **resource** _c4 --- C in four functions_, a terse yet readable 500-SLOC one-pass subset-[[c]] compiler --- [[../references/c4.c]] --- <https://github.com/rswier/c4> --- <https://news.ycombinator.com/item?id=22353532>
 
-> **resource** ISO/IEC 9899:TC3, WG14/N1256 --- [[n1256.pdf]] --- <https://www.open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf>
+> **resource** ISO/IEC 9899:TC3, WG14/N1256 --- [[../references/n1256.pdf]] --- <https://www.open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf>
 
-> **resource** C99 Rationale --- [[C99RationaleV5.10.pdf]] --- <https://open-std.org/JTC1/SC22/WG14/www/C99RationaleV5.10.pdf>
+> **resource** C99 Rationale --- [[../references/C99RationaleV5.10.pdf]] --- <https://open-std.org/JTC1/SC22/WG14/www/C99RationaleV5.10.pdf>
 
 what makes [[c]] timeless is not its simplicity; it's its [[durability]]. most constructs in [[c]] map directly into assembly, which, in turn, maps directly into machine code. in other words, there is a strong correspondence between the features of [[c]] and the fundamental ideas governing the design of processors and instruction sets. for this reason, [[programming language]]s that proudly claim to have the simplicity of [[c]]---like [[go]] does---should raise red flags
 
@@ -234,7 +234,7 @@ in [[c]], "declarations mirror use": a declarator syntactically resembles an exp
 
 > **example** in `const char *foo;` and `char const *foo;` the pointee is constant while in `char *const foo` the pointer is constant
 
-> **note** [[go]]'s declarations don't mirror use. Rob Pike argues that _You gain clarity at the cost of a separate syntax._. I disagree. he compares the [[c]] declaration `int (*(*fp)(int (*)(int, int), int))(int, int)` to the equivalent [[go]] declaration `f func(func(int,int) int, int) func(int, int) int`. but that's deceptive, most of the noise in the [[c]] declaration is the `*`s, you could just remove them and declarations would still mirror use: `int fp(int (int, int), int)(int, int)`. he correctly identifies that [[go]]'s style is easier to read because it's left-to-right, but you could achieve the same in [[c]] by making `*` a postfix operator and by swapping declarators and declaration specifiers: `fp*(*(int, int) int, int)*(int, int) int`. and since declarations mirror use, nicer declarations means nicer use: compare `a&[5]*++` to `(*(&a)[5])++`. --- [[Go's Declaration Syntax - The Go Programming Language.pdf]] --- <https://go.dev/blog/declaration-syntax>
+> **note** [[go]]'s declarations don't mirror use. Rob Pike argues that _You gain clarity at the cost of a separate syntax._. I disagree. he compares the [[c]] declaration `int (*(*fp)(int (*)(int, int), int))(int, int)` to the equivalent [[go]] declaration `f func(func(int,int) int, int) func(int, int) int`. but that's deceptive, most of the noise in the [[c]] declaration is the `*`s, you could just remove them and declarations would still mirror use: `int fp(int (int, int), int)(int, int)`. he correctly identifies that [[go]]'s style is easier to read because it's left-to-right, but you could achieve the same in [[c]] by making `*` a postfix operator and by swapping declarators and declaration specifiers: `fp*(*(int, int) int, int)*(int, int) int`. and since declarations mirror use, nicer declarations means nicer use: compare `a&[5]*++` to `(*(&a)[5])++`. --- [[../references/Go's Declaration Syntax - The Go Programming Language.pdf]] --- <https://go.dev/blog/declaration-syntax>
 
 ## initialization
 
@@ -565,9 +565,9 @@ reading a _trap representation_ has [[c#undefined behavior]]; reading an _uninit
 
 --- <https://cplusplus.com/doc/tutorial/preprocessor/>
 
-> **resource** _Metaprogramming custom control structures in C_ by Simon Tatham --- [[Metaprogramming custom control structures in C.html]] and [[mp.h]] and [[mptest.c]] --- <https://www.chiark.greenend.org.uk/%7Esgtatham/mp/> and <https://www.chiark.greenend.org.uk/%7Esgtatham/mp/mp.h> and <https://www.chiark.greenend.org.uk/%7Esgtatham/mp/mptest.c>
+> **resource** _Metaprogramming custom control structures in C_ by Simon Tatham --- [[../references/Metaprogramming custom control structures in C.html]] and [[../references/mp.h]] and [[../references/mptest.c]] --- <https://www.chiark.greenend.org.uk/%7Esgtatham/mp/> and <https://www.chiark.greenend.org.uk/%7Esgtatham/mp/mp.h> and <https://www.chiark.greenend.org.uk/%7Esgtatham/mp/mptest.c>
 
-> **resource** _Coroutines in C_ by Simon Tatham --- [[Coroutines in C.html]] and [[coroutine.h]] --- <https://www.chiark.greenend.org.uk/%7Esgtatham/coroutines.html> and <https://www.chiark.greenend.org.uk/%7Esgtatham/coroutine.h>
+> **resource** _Coroutines in C_ by Simon Tatham --- [[../references/Coroutines in C.html]] and [[../references/coroutine.h]] --- <https://www.chiark.greenend.org.uk/%7Esgtatham/coroutines.html> and <https://www.chiark.greenend.org.uk/%7Esgtatham/coroutine.h>
 
 ### Preprocessing Directive
 
@@ -593,7 +593,7 @@ whitespace may added between the beginning of a line and a `#` character or betw
 
 > **example** given `#define STRINGIZE(X) #X`, `puts(STRINGIZE( beep  \a));` will expand to `puts("beep \a");`
 
-> **resource** Dave Prosser's C Preprocessing Algorithm --- [[x3J11-86-196.pdf]] --- <https://www.spinellis.gr/blog/20060626/>
+> **resource** Dave Prosser's C Preprocessing Algorithm --- [[../references/x3J11-86-196.pdf]] --- <https://www.spinellis.gr/blog/20060626/>
 
 > **procedure** _macro expansion_
 >
@@ -646,7 +646,7 @@ what color is your macro? in [[c]], expressions are syntactically a [[set#subset
 
 --- <https://stackoverflow.com/quons/1067226/c-multi-line-macro-do-while0-vs-scope-block>
 
---- <https://stackoverflow.com/questions/3136686/is-the-c99-preprocessor-turing-complete> and [[cloak.h]] <https://github.com/pfultz2/Cloak/blob/master/cloak.h> and [[C-Preprocessor-tricks,-tips,-and-idioms.md]] <https://github.com/pfultz2/Cloak/wiki/C-Preprocessor-tricks,-tips,-and-idioms>
+--- <https://stackoverflow.com/questions/3136686/is-the-c99-preprocessor-turing-complete> and [[../references/cloak.h]] <https://github.com/pfultz2/Cloak/blob/master/cloak.h> and [[../references/C-Preprocessor-tricks,-tips,-and-idioms.md]] <https://github.com/pfultz2/Cloak/wiki/C-Preprocessor-tricks,-tips,-and-idioms>
 
 --- <https://www.chiark.greenend.org.uk/%7Esgtatham/mp/mp.h>
 

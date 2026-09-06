@@ -8,6 +8,4 @@
 
 > **examples**
 >
-> ![[Pasted image 20221208142757.png]]
->
-> --- <https://www.energy.gov/sites/prod/files/2016/11/f34/royer_spectral-power-dist_denver2016.pdf>
+> ![[../references/Pasted image 20221208142757.png]] --- <https://www.energy.gov/sites/prod/files/2016/11/f34/royer_spectral-power-dist_denver2016.pdf>

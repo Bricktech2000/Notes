@@ -42,7 +42,7 @@ the class of regular languages is closed under Kleene closure, Kleene plus, [[se
 
 > **procedure** _conversions for Kleene's theorem_
 >
-> ![[lec27-overview.svg]] --- <https://www.cs.cornell.edu/courses/cs2800/2017sp/lectures/lec27-kleene.html>
+> ![[../references/lec27-overview.svg]] --- <https://www.cs.cornell.edu/courses/cs2800/2017sp/lectures/lec27-kleene.html>
 
 **theorem** any finite language is regular
 
@@ -111,8 +111,8 @@ other resource on production rules for different classes of grammars: <https://e
 
 --- <https://en.wikipedia.org/wiki/Formal_language>
 
---- [[automata-and-formal-languages-cheatsheet.pdf]]
+--- [[../references/automata-and-formal-languages-cheatsheet.pdf]]
 
 --- <https://en.wikipedia.org/wiki/Deterministic_finite_automaton>
 
---- [[CSI3104A_Introduction_to_Formal_Languages_LEC_20241_-_3152024_-_502_PM_1.zip]]
+--- [[../references/CSI3104A_Introduction_to_Formal_Languages_LEC_20241_-_3152024_-_502_PM_1.zip]]

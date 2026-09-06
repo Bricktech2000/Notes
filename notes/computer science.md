@@ -2,11 +2,11 @@
 
 --- <https://youtu.be/SzJ46YA_RaA>
 
-> **resource** _Programming Challenges V4_, list containing some programming project ideas --- [[programming_challenges_v4-0.png]] --- <https://programming-challenges.jeremyjaydan.dev/media/programming-challenges-v4.0.png>
+> **resource** _Programming Challenges V4_, list containing some programming project ideas --- [[../references/programming_challenges_v4-0.png]] --- <https://programming-challenges.jeremyjaydan.dev/media/programming-challenges-v4.0.png>
 
 > **resource** _Build your own X_, links to guides on building classic programming projects from scratch --- <https://github.com/codecrafters-io/build-your-own-x>
 
-> **resource** _Bit Twiddling Hacks_ by Sean Eron Anderson, collection of low-level programming tricks --- [[Bit Twiddling Hacks.html]] --- <https://graphics.stanford.edu/~seander/bithacks.html>
+> **resource** _Bit Twiddling Hacks_ by Sean Eron Anderson, collection of low-level programming tricks --- [[../references/Bit Twiddling Hacks.html]] --- <https://graphics.stanford.edu/~seander/bithacks.html>
 
 > **resource** _bits are high-level_, talk by Andrew Reece on practical and elegant bit manipulation --- <https://youtu.be/i-h95QIGchY>
 

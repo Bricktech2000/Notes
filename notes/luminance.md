@@ -12,6 +12,4 @@ consequently, [[luminance]] can be though of a "counting the number of [[photon]
 
 **representation**
 
-![[Pasted image 20221208153407.png]]
-
---- <https://youtu.be/M47YdERx11s?t=785>
+![[../references/Pasted image 20221208153407.png]] --- <https://youtu.be/M47YdERx11s?t=785>

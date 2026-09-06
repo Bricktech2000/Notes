@@ -4,7 +4,7 @@ _a highly customizable text editor with efficient key bindings_
 
 **see** [[procedural memory]], [[undo tree]]
 
-> **resource** [[vim]] bindings cheat sheet --- [[YLInLlY.png]] --- <https://i.imgur.com/YLInLlY.png>
+> **resource** [[vim]] bindings cheat sheet --- [[../references/YLInLlY.png]] --- <https://i.imgur.com/YLInLlY.png>
 
 > **resource** `:h quickref`, specifically the key bindings --- <https://vimdoc.sourceforge.net/htmldoc/quickref.html>
 
@@ -146,7 +146,7 @@ some small tricks and workflows I use:
 - edit the current command-line in normal mode with `<C-F>`
 - move left and right, wrapping across lines, with `<BS>` and `<Space>` --- by default, `<BS>` and `<Space>` are in `'whichwrap'` while `h` and `l` are not
 - jump to the first byte of a file with `go` --- `gg` won't go to the first byte when `'nostartofline'` is set
-  > **resource** _Byte Positions Are Better Than Line Numbers_, by Casey Muratori --- [[Byte Positions Are Better Than Line Numbers.pdf]] --- <https://www.computerenhance.com/p/byte-positions-are-better-than-line>
+  > **resource** _Byte Positions Are Better Than Line Numbers_, by Casey Muratori --- [[../references/Byte Positions Are Better Than Line Numbers.pdf]] --- <https://www.computerenhance.com/p/byte-positions-are-better-than-line>
 - hold the shift key to temporarily disable the mouse
 - view a searchable digraph table with `:h euro<CR>`
 - jump to a URL or path on the current line with `f/` and `F/` --- slashes are uncommon and URLs and paths usually contain them

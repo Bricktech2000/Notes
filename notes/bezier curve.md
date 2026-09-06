@@ -10,7 +10,7 @@
 
 **representation**
 
-![[bezier_curve.gif]]
+![[../references/bezier_curve.gif]]
 
 ## DeCasteljau's Algorithm
 
@@ -28,7 +28,7 @@ the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points
 
 > **example** _DeCasteljau's [[algorithm]] for [[bezier curve#cubic bezier curve]]s_
 >
-> ![[Pasted image 20221223230657.png]]
+> ![[../references/Pasted image 20221223230657.png]]
 
 ## Bernstein Polynomial
 
@@ -45,7 +45,7 @@ the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points
 
 > **example** _Bernstein polynomials for [[bezier curve#cubic bezier curve]]s_
 >
-> ![[Pasted image 20221223230728.png]]
+> ![[../references/Pasted image 20221223230728.png]]
 
 ## Polynomial Form
 
@@ -61,7 +61,7 @@ the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points
 
 > **example** _[[polynomial]] form of [[bezier curve#cubic bezier curve]]s_
 >
-> ![[Pasted image 20221223230759.png]]
+> ![[../references/Pasted image 20221223230759.png]]
 
 ## Matrix Form
 
@@ -79,7 +79,7 @@ the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points
 
 > **example** _[[matrix]] form of [[bezier curve#cubic bezier curve]]s_
 >
-> ![[Pasted image 20221223231125.png]]
+> ![[../references/Pasted image 20221223231125.png]]
 
 ---
 
@@ -93,7 +93,7 @@ the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points
 
 **representation**
 
-![[bezier_1_big.gif]]
+![[../references/bezier_1_big.gif]]
 
 --- Wikipedia
 
@@ -103,7 +103,7 @@ the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points
 
 **representation**
 
-![[bezier_2_big.gif]]
+![[../references/bezier_2_big.gif]]
 
 --- Wikipedia
 
@@ -113,6 +113,6 @@ the [[bezier curve]] **`B p`** of degree **`n`** with [[list]] of control points
 
 **representation**
 
-![[bezier_3_big.gif]]
+![[../references/bezier_3_big.gif]]
 
 --- Wikipedia

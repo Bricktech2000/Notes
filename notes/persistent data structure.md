@@ -36,6 +36,4 @@
 >
 > --- me
 >
-> ![[20220520161901.png]]
->
-> --- <https://youtu.be/APUCMSPiNh4?t=2830>
+> ![[../references/20220520161901.png]] --- <https://youtu.be/APUCMSPiNh4?t=2830>

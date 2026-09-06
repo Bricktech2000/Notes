@@ -6,4 +6,4 @@
 
 **representation** _the **`"Na""Cl"`** ionic compound_
 
-![[2022-02-26-01-17-40.png]]
+![[../references/2022-02-26-01-17-40.png]]

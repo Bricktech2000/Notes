@@ -10,7 +10,7 @@
 >
 > any parenthesization of free variables can be achieved using solely the [[combinator#b combinator]]. for example, $a\ (b\ c)\ (d\ e\ (f\ g)) = B\ B\ (B\ (B\ (B\ B\ (B\ B))\ B))\ a\ b\ c\ d\ e\ f\ g$
 >
-> let terms $R, S, T$ and free variable $x$. repeatedly rewrite $R\ (S\ T) \mapsto \mathrm B\ R\ S\ T$ and $R\ x \mapsto R$ at the top level until all free variables have been consumed. the resulting combinator can be shortened by rewriting $\mathrm B\ R\ S\ T \mapsto R\ (S\ T)$ recursively. the rewrites are carried out on the [[syntax#abstract syntax]], not on the [[syntax#concrete syntax]]. --- [[birb.pl]] --- <https://github.com/uocsclub/to-mock-a-mockingbird/blob/main/code/birb.pl>
+> let terms $R, S, T$ and free variable $x$. repeatedly rewrite $R\ (S\ T) \mapsto \mathrm B\ R\ S\ T$ and $R\ x \mapsto R$ at the top level until all free variables have been consumed. the resulting combinator can be shortened by rewriting $\mathrm B\ R\ S\ T \mapsto R\ (S\ T)$ recursively. the rewrites are carried out on the [[syntax#abstract syntax]], not on the [[syntax#concrete syntax]]. --- [[../references/birb.pl]] --- <https://github.com/uocsclub/to-mock-a-mockingbird/blob/main/code/birb.pl>
 
 ---
 
@@ -232,9 +232,9 @@ we have **`ii ii = I /\ ii (ii ii) = S K /\ ii (ii (ii ii)) = K /\ ii (ii (ii (i
 
 --- <https://youtu.be/Y0KKPYkeOTA>
 
---- [[Combinator Table - Combinatory Logic.html]] --- <https://combinatorylogic.com/table.html> --- <https://youtu.be/Y0KKPYkeOTA>
+--- [[../references/Combinator Table - Combinatory Logic.html]] --- <https://combinatorylogic.com/table.html> --- <https://youtu.be/Y0KKPYkeOTA>
 
---- [[Combinator Birds.html]] --- <https://www.angelfire.com/tx4/cus/combinator/birds.html> --- <https://combinatorylogic.com/table.html> --- <https://youtu.be/Y0KKPYkeOTA>
+--- [[../references/Combinator Birds.html]] --- <https://www.angelfire.com/tx4/cus/combinator/birds.html> --- <https://combinatorylogic.com/table.html> --- <https://youtu.be/Y0KKPYkeOTA>
 
 --- <https://gist.github.com/Avaq/1f0636ec5c8d6aed2e45#file-combinators-md> --- <https://combinatorylogic.com/table.html> --- <https://youtu.be/Y0KKPYkeOTA>
 

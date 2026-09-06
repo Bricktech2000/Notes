@@ -2,9 +2,9 @@
 
 _a program that outputs its own listing_
 
-> **resource** the "de facto" [[quine]] quickstart by David Madore --- [[quine.html]] --- <http://www.madore.org/~david/computers/quine.html>
+> **resource** the "de facto" [[quine]] quickstart by David Madore --- [[../references/quine.html]] --- <http://www.madore.org/~david/computers/quine.html>
 
-> **resource** _Reflections on Trusting Trust_ by Ken Thompson, on why source code can never truly be trusted --- [[Thompson_1984_ReflectionsonTrustingTrust.pdf]] --- <https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf>
+> **resource** _Reflections on Trusting Trust_ by Ken Thompson, on why source code can never truly be trusted --- [[../references/Thompson_1984_ReflectionsonTrustingTrust.pdf]] --- <https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf>
 
 [[quine]]s are not the result of language-specific hacks; they exist, up to practical interpretation of program output, in every [[turing complete]] [[programming language]] for which there exists a total computable [[function]] that maps programs to their listings, as follows from the _fixed-point theorem_
 

@@ -4,9 +4,9 @@ _the true [[circle]] constant_
 
 **see** [[math notation]]
 
-> **resource** the [[tau]] manifesto --- [[tau_manifesto.pdf]] --- <https://tauday.com/tau-manifesto>
+> **resource** the [[tau]] manifesto --- [[../references/tau_manifesto.pdf]] --- <https://tauday.com/tau-manifesto>
 
-> **resource** _Pi is Wrong!_ by Bob Palais --- [[pi.pdf]] --- <https://www.math.utah.edu/~palais/pi.pdf>
+> **resource** _Pi is Wrong!_ by Bob Palais --- [[../references/pi.pdf]] --- <https://www.math.utah.edu/~palais/pi.pdf>
 
 **definition** **`tt`** is the ratio of the circumference of a [[circle]] to its radius
 

@@ -15,7 +15,7 @@
 
 **representation**
 
-![[Pasted image 20221127185202.png]]
+![[../references/Pasted image 20221127185202.png]]
 
 **properties**
 

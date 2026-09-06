@@ -30,7 +30,7 @@
 
 **types**
 
-![[20221004211912.png]] --- <https://towardsdatascience.com/5-types-of-binary-tree-with-cool-illustrations-9b335c430254>
+![[../references/20221004211912.png]] --- <https://towardsdatascience.com/5-types-of-binary-tree-with-cool-illustrations-9b335c430254>
 
 ### Binary Tree Traversal
 

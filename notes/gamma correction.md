@@ -17,6 +17,4 @@ $V_\mathrm{out} = A \cdot V_\mathrm{in}^\gamma$, where
 
 **representation** _the gamma [[curve]] and [[lightness]]_
 
-![[Pasted image 20221208160740.png]]
-
---- <https://youtu.be/M47YdERx11s?t=1080>
+![[../references/Pasted image 20221208160740.png]] --- <https://youtu.be/M47YdERx11s?t=1080>

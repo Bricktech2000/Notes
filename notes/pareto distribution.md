@@ -10,4 +10,4 @@ the [[pareto distribution]] is a _power-law_ [[probability distribution]]
 
 **representation**
 
-![[Pasted image 20230926020630.png]]
+![[../references/Pasted image 20230926020630.png]]

@@ -10,7 +10,7 @@ first-order logic is [[propositional logic]] extended with [[quantifier]]s, [[fu
 
 **definition** a _formula_ $\varphi$ is _predicate symbols_ ($\mathrm{Likes}(\dots)$, $\mathrm{Equals}(\dots)$) applied to _terms_---consisting of _constant symbols_ ($\mathrm{Alice}$, $3$), _variables_ ($x$, $y$) and _function symbols_ on terms ($\mathrm{FatherOf}(\dots)$, $\mathrm{Sum}(\dots)$)---connected by _logical connectives_ ([[boolean#operators]]) and bound by _quantifiers_ ($\forall x.$, $\exists y.$)
 
-**definition** a _model_ $\mathcal M\ f$ of a formula $f$ consists of: --- [[6806f437-8a00-8008-9e60-d2402c0fbcd8]]
+**definition** a _model_ $\mathcal M\ f$ of a formula $f$ consists of: --- [[../references/6806f437-8a00-8008-9e60-d2402c0fbcd8.md]]
 
 - a _domain_ or _universe_ $D$ that serves as the range of quantification for the variables
 - a mapping of _constant symbols_ to elements of $D$
@@ -75,8 +75,8 @@ the _resolution_ [[inference rule]] for [[first-order logic]] $\displaystyle \fr
 >    - otherwise, if resolution has converged, return non-entailment
 >    - otherwise, continue
 >
-> _skolemization_ is a noteworthy step. it eliminates [[quantifier#existential quantifier]]s by introducing _skolem functions_ and _skolem constants_ ($0$-ary skolem functions). it doesn't preserve _logical equivalence_---just because it changes the form of formulas and thus models aren't directly compatible---but it does preserve _satisfiability_---because it moves all existential [[quantifier]]s outwards using the [[second-order logic]] equivalence $\forall x.\ \exists y.\ R\ x\ y \iff \exists Y.\ \forall x.\ R\ x\ (Y\ x)$, and satisfiability is implicitly existentially quantified over models and thus over functions --- me and <https://en.wikipedia.org/wiki/Skolem_normal_form#How_Skolemization_works> and [[680fd401-c864-8008-adf4-f8d950bf01d9]]
+> _skolemization_ is a noteworthy step. it eliminates [[quantifier#existential quantifier]]s by introducing _skolem functions_ and _skolem constants_ ($0$-ary skolem functions). it doesn't preserve _logical equivalence_---just because it changes the form of formulas and thus models aren't directly compatible---but it does preserve _satisfiability_---because it moves all existential [[quantifier]]s outwards using the [[second-order logic]] equivalence $\forall x.\ \exists y.\ R\ x\ y \iff \exists Y.\ \forall x.\ R\ x\ (Y\ x)$, and satisfiability is implicitly existentially quantified over models and thus over functions --- me and <https://en.wikipedia.org/wiki/Skolem_normal_form#How_Skolemization_works> and [[../references/680fd401-c864-8008-adf4-f8d950bf01d9.md]]
 
-> **example** _resolution-based inference for [[first-order logic]]_ --- [[cs188_sp93_f_sol.pdf]], problem 2 --- <https://hkn.eecs.berkeley.edu/examfiles/cs188_sp93_f_sol.pdf>
+> **example** _resolution-based inference for [[first-order logic]]_ --- [[../references/cs188_sp93_f_sol.pdf]], problem 2 --- <https://hkn.eecs.berkeley.edu/examfiles/cs188_sp93_f_sol.pdf>
 
 > **note** repeatedly applying [[first-order logic#resolution]] may never converge, because of [[first-order logic#decidability]]

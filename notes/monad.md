@@ -15,7 +15,7 @@ m >>= f = join $ fmap f m -- bind in terms of join
 
 **see** [[semigroup#free semigroup]], [[monoid#free monoid]]
 
-> **resource** _Why free monads matter_, and a motivation for wanting a [[monad]] that doesn't compute --- [[Haskell for all_ Why free monads matter.pdf]] --- <https://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html>
+> **resource** _Why free monads matter_, and a motivation for wanting a [[monad]] that doesn't compute --- [[../references/Haskell for all_ Why free monads matter.pdf]] --- <https://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html>
 
 > **resource** _Beyond Free Monads_ by John DeGoes at λC Winter Retreat 2017, with a focus on free [[monad]]s for I/O --- <https://youtu.be/A-lmrvsUi2Y>
 
@@ -43,13 +43,13 @@ list = reify $ do
   return $ x + y
 ```
 
-and thus _[...] given any language with a syntax for [[continuation]]s you have the possibility of reusing that notation for [[monad]]s. For example [[python]] has linear [[continuation]]s (via generators) so you can use this as a syntax for any of the 'linear' [[monad]]s (like `Identity`, `Maybe` and `Writer` I think)_ --- [[A Neighborhood of Infinity_ The Mother of all Monads.pdf]] --- <https://blog.sigfpe.com/2008/12/mother-of-all-monads.html>
+and thus _[...] given any language with a syntax for [[continuation]]s you have the possibility of reusing that notation for [[monad]]s. For example [[python]] has linear [[continuation]]s (via generators) so you can use this as a syntax for any of the 'linear' [[monad]]s (like `Identity`, `Maybe` and `Writer` I think)_ --- [[../references/A Neighborhood of Infinity_ The Mother of all Monads.pdf]] --- <https://blog.sigfpe.com/2008/12/mother-of-all-monads.html>
 
 --- me; and
 
---- _The essence of functional programming_ (Philip Wadler, 1992), $3.3 _Monads and CPS_ (have only read that section) --- [[143165.143169.pdf]] --- <https://dl.acm.org/doi/10.1145/143165.143169>
+--- _The essence of functional programming_ (Philip Wadler, 1992), $3.3 _Monads and CPS_ (have only read that section) --- [[../references/143165.143169.pdf]] --- <https://dl.acm.org/doi/10.1145/143165.143169>
 
---- [[A Neighborhood of Infinity_ The Mother of all Monads.pdf]] --- <https://blog.sigfpe.com/2008/12/mother-of-all-monads.html>
+--- [[../references/A Neighborhood of Infinity_ The Mother of all Monads.pdf]] --- <https://blog.sigfpe.com/2008/12/mother-of-all-monads.html>
 
 ## Kleisli Composition
 

@@ -16,6 +16,6 @@ _arithmetic coding_ gets around this. to every [[string]] $w$ over some alphabet
 
 **representation** _source and coded invervals of arithmetic coding_
 
-![[Screenshot From 2026-08-29 16-29-13.png]] --- <https://youtu.be/cJ_rhZ9DP9k?t=2523>
+![[../references/Screenshot From 2026-08-29 16-29-13.png]] --- <https://youtu.be/cJ_rhZ9DP9k?t=2523>
 
 an alternative is _asymmetric numeral systems_, a family of [[entropy coding]] schemes introduced in 2014 that combines the near-optimality of arithmetic coding with the computational speed of [[huffman coding]] --- <https://en.wikipedia.org/wiki/Asymmetric_numeral_systems>

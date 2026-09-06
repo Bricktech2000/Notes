@@ -2,7 +2,7 @@
 
 **see** [[unification]]
 
---- [[read6-unification.pdf]] --- <https://www.csd.uwo.ca/~mmorenom/cs2209_moreno/read/read6-unification.pdf>
+--- [[../references/read6-unification.pdf]] --- <https://www.csd.uwo.ca/~mmorenom/cs2209_moreno/read/read6-unification.pdf>
 
 a [[substitution]] replaces variables **simultaneously**
 

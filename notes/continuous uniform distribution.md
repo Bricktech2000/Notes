@@ -12,4 +12,4 @@
 
 **representation**
 
-![[Pasted image 20221127184826.png]]
+![[../references/Pasted image 20221127184826.png]]

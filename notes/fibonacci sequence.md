@@ -68,6 +68,6 @@ def fib(n):
 
 --- <https://youtu.be/LXm6ygZ3h7A>
 
---- [[Fibonacci Numbers Algorithm (GNU MP 6.3.0).html]] --- <https://gmplib.org/manual/Fibonacci-Numbers-Algorithm>
+--- [[../references/Fibonacci Numbers Algorithm (GNU MP 6.3.0).html]] --- <https://gmplib.org/manual/Fibonacci-Numbers-Algorithm>
 
---- [[Fibonacci Numbers - Algorithms for Competitive Programming.pdf]] --- <https://cp-algorithms.com/algebra/fibonacci-numbers.html>
+--- [[../references/Fibonacci Numbers - Algorithms for Competitive Programming.pdf]] --- <https://cp-algorithms.com/algebra/fibonacci-numbers.html>

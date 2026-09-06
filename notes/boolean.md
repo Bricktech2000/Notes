@@ -249,6 +249,6 @@ _implies-or_ **`x -| y^^z == x -| y \/ x -| z`** --- me
 
 _implies-and_ **`x -| y__z == x -| y /\ x -| z`** --- me
 
-_portation_ **`x < y -| z == x__y -| z`** --- <https://www.cs.toronto.edu/~hehner/BAUA.pdf>
+_portation_ **`x < y -| z == x__y -| z`** --- [[../references/BAUA.pdf]] --- <https://www.cs.toronto.edu/~hehner/BAUA.pdf>
 
 > **note** many [[boolean]] laws based on [[boolean#implication]]s become painfully obvious when seen from the perspective of [[type theory]] by the Curry--Howard correspondence. for instance, the [[boolean]] portation law corresponds to [[currying]] in [[type theory]]

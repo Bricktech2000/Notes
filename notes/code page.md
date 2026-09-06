@@ -16,4 +16,4 @@
 
 **representation**
 
-![[250px-Codepage-437.png]] --- Wikipedia
+![[../references/250px-Codepage-437.png]] --- Wikipedia

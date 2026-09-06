@@ -10,7 +10,7 @@
 
 > **resource** _Guessing the Teacher's Password_, on the distinction between _passwords_ and _explanations_ --- <https://www.readthesequences.com/Guessing-The-Teachers-Password>
 
-[[learn]]ing requires **repeated attempts** and **deliberate practice** in a _high-validity environment_, which means: --- [[6854a88e-e810-8008-a280-e93598dd7b91]]
+[[learn]]ing requires **repeated attempts** and **deliberate practice** in a _high-validity environment_, which means: --- [[../references/6854a88e-e810-8008-a280-e93598dd7b91.md]]
 
 - [[cue]]s reliably correlate with outcomes
 - consistent statistical regularities exist

@@ -12,16 +12,16 @@ the $Y$ component of [[ycbcr]] represents [[luma]] and the $C_B$ and $C_R$ compo
 
 **representation** $(C_B, C_R)$ slices at different $Y$s
 
-![[Pasted image 20230619162234.png]]
+![[../references/Pasted image 20230619162234.png]]
 
-![[Pasted image 20230619162239.png]]
+![[../references/Pasted image 20230619162239.png]]
 
-![[Pasted image 20230619162243.png]]
+![[../references/Pasted image 20230619162243.png]]
 
-![[Pasted image 20230619162246.png]]
+![[../references/Pasted image 20230619162246.png]]
 
-![[Pasted image 20230619162250.png]]
+![[../references/Pasted image 20230619162250.png]]
 
-![[Pasted image 20230619162253.png]]
+![[../references/Pasted image 20230619162253.png]]
 
 --- <https://youtu.be/0me3guauqOU?t=327>

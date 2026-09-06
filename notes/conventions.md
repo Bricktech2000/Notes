@@ -108,7 +108,7 @@ see [[matrix]] and [[complex]] for examples of [[conventions]]
 >
 > <https://example.com/>
 >
-> ![[2022-03-19-00-57-20.png]]
+> ![[../references/2022-03-19-00-57-20.png]]
 >
 > ```mermaid
 > graph LR

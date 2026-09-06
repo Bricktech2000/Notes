@@ -2,9 +2,9 @@
 
 _POSIX `make`_
 
-> **resource** `make`, POSIX.1-2017 --- [[make.html]] --- <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/make.html>
+> **resource** `make`, POSIX.1-2017 --- [[../references/make.html]] --- <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/make.html>
 
-> **reosurce** _A Tutorial on Portable Makefiles_ by Chris Wellons, on adhering to POSIX [[make]] --- [[A Tutorial on Portable Makefiles.pdf]] --- <https://nullprogram.com/blog/2017/08/20/>
+> **reosurce** _A Tutorial on Portable Makefiles_ by Chris Wellons, on adhering to POSIX [[make]] --- [[../references/A Tutorial on Portable Makefiles.pdf]] --- <https://nullprogram.com/blog/2017/08/20/>
 
 if the first non-comment line is not the _special target_ `.POSIX`, the behavior is unspecified. make has _built-in rules_, which can be disabled by supplying a rule for the _special target_ `.SUFFIXES` with no prerequisites. when there are no rules to build a target, the _special target_ `.DEFAULT` is invoked. targets names matching `\.[A-Z]+` are reserved.
 

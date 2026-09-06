@@ -2,7 +2,7 @@
 
 **see** [[linear algebra]], [[optimization]], [[gradient#gradient descent]]
 
-> **note** this note was original; only later did I realize [[matrix factorization]] was already in use in recommender systems. for more information, see <https://en.wikipedia.org/wiki/Matrix_factorization_(recommender_systems)> and [[Netflix Update_ Try This at Home.pdf]] <https://sifter.org/~simon/journal/20061211.html>
+> **note** this note was original; only later did I realize [[matrix factorization]] was already in use in recommender systems. for more information, see <https://en.wikipedia.org/wiki/Matrix_factorization_(recommender_systems)> and [[../references/Netflix Update_ Try This at Home.pdf]] <https://sifter.org/~simon/journal/20061211.html>
 
 some measures of "closeness" or "relatedness" between objects break transitivity. friendships are an example; someone may like different people for different reasons. [[dot product]]s tend to measure similarity, which gives rise to the idea of representing the objects as [[euclidean vector]]s in some latent [[vector space]]
 

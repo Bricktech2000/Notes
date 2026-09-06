@@ -8,6 +8,4 @@ the [[color]]s on the outer edge of a [[cie diagram]] are spectral [[color]]s. g
 
 **representation** _CIE diagram_
 
-![[Pasted image 20221207215805.png]]
-
---- <https://youtu.be/M47YdERx11s?t=347>
+![[../references/Pasted image 20221207215805.png]] --- <https://youtu.be/M47YdERx11s?t=347>

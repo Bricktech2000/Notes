@@ -22,9 +22,7 @@ _used to optimize a [[function]] through a set of linear constraints_
 
 **representation**
 
-![[Pasted image 20230506120415.png]]
-
---- <https://en.wikipedia.org/wiki/Linear_programming>
+![[../references/Pasted image 20230506120415.png]] --- <https://en.wikipedia.org/wiki/Linear_programming>
 
 ## computing extrema
 

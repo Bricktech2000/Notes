@@ -2,9 +2,9 @@
 
 **aka** _evaluation context_
 
-> **resource** David Madore's page on `call/cc`, not a good introduction to it but has some nuggets of wisdom --- [[callcc.html]] --- <http://www.madore.org/~david/computers/callcc.html>
+> **resource** David Madore's page on `call/cc`, not a good introduction to it but has some nuggets of wisdom --- [[../references/callcc.html]] --- <http://www.madore.org/~david/computers/callcc.html>
 
-> **resource** _Teach Yourself Scheme in Fixnum Days_, Chapter 13 _Jumps_; a gentle introduction to `call/cc` with use-cases --- [[t-y-scheme-Z-H-15.html]] --- <https://web.archive.org/web/20011020114101id_/https://www.cs.rice.edu/~dorai/t-y-scheme/t-y-scheme-Z-H-15.html> --- <https://www.cs.rice.edu/~dorai/t-y-scheme/t-y-scheme-Z-H-15.html>
+> **resource** _Teach Yourself Scheme in Fixnum Days_, Chapter 13 _Jumps_; a gentle introduction to `call/cc` with use-cases --- [[../references/t-y-scheme-Z-H-15.html]] --- <https://web.archive.org/web/20011020114101id_/https://www.cs.rice.edu/~dorai/t-y-scheme/t-y-scheme-Z-H-15.html> --- <https://www.cs.rice.edu/~dorai/t-y-scheme/t-y-scheme-Z-H-15.html>
 
 > **resource** the continuation monad in the PNLC prelude --- <https://github.com/Bricktech2000/PNLC/blob/master/prelude.pnlc>
 
@@ -29,11 +29,11 @@ you can use _small-step reduction semantics_ with [[continuation]]s in the reduc
 - $\displaystyle \frac{E_1[\texttt{prompt \(E_2[\texttt{control \(f\)}]\)}]}{E_1[\texttt{\(f\) (x. \(E_2[\texttt x]\))}]}$ $\displaystyle \frac{E[\texttt{prompt \(v\)}]}{E[v]}$. for example, `1 + prompt (2 * control (k. k 3 + k 5)) = 1 + (2 * 3 + 2 * 5) = 17`. note how $\texttt{(x. \(E_2[\texttt x]\))}$ is [[continuation]] $E_2$ reified as a [[function]]
 - $\displaystyle \frac{E_1[\texttt{delimit \(E_2[\texttt{yield \(v\)}]\) \(f\)}]}{E_1[\texttt{\(f\) \(v\) (x. \(E_2[\texttt x]\))}]}$. for example, `1 + delimit (2 * yield ()) ((). k. k 3 + k 5) = 1 + (2 * 3 + 2 * 5) = 17`
 
---- <https://youtu.be/DRFsodbxHQo> and [[6a375895-8e04-83ea-bb18-23c54f6bcb36]]
+--- <https://youtu.be/DRFsodbxHQo> and [[../references/6a375895-8e04-83ea-bb18-23c54f6bcb36.md]]
 
 ## Continuation-Passing Style
 
-> **resource** _Definitional Interpreters for Higher-Order Programming Languages_ (Reynolds, 1972), section _Continuations_, manual conversion of a program to [[continuation#continuation-passing style]] --- [[800194.805852.pdf]] --- <https://dl.acm.org/doi/10.1145/800194.805852>
+> **resource** _Definitional Interpreters for Higher-Order Programming Languages_ (Reynolds, 1972), section _Continuations_, manual conversion of a program to [[continuation#continuation-passing style]] --- [[../references/800194.805852.pdf]] --- <https://dl.acm.org/doi/10.1145/800194.805852>
 
 _To eliminate this [order-of-application] dependence, we must first identify the circumstances under which an arbitrary program in the defining language will be affected by the order of application. The essential effect of switching from call-by-value to call-by-name is to postpone the evaluation of the operands of application expressions (and declaring subexpressions of let expressions), and to alter the number of times these operands are evaluated. We have already seen that in a purely applicative language, the only way in which this change can affect the meaning of a program is to avoid the evaluation of a non-terminating operand. Now suppose we define an expression to be **serious** if there is any possibility that its evaluation might not terminate. Then a sufficient condition for order-of-application independence is that a program should contain no serious operands or declaring expressions._
 

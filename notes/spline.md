@@ -84,11 +84,11 @@ let a [[spline]] **`S`**
 
 > **example** _seams in reflective **`G^1`** continuous [[spline]]s_ --- <https://youtu.be/jvPPXbo87ds?t=1700>
 >
-> ![[Pasted image 20221224215047.png]]
+> ![[../references/Pasted image 20221224215047.png]]
 
 > **example** _seams in reflective arcs tangent to line segments, which has **`G^1`** continuity_ --- <https://youtu.be/jvPPXbo87ds?t=1731>
 >
-> ![[Pasted image 20221224215415.png]]
+> ![[../references/Pasted image 20221224215415.png]]
 
 ---
 
@@ -112,9 +112,7 @@ let a [[spline]] **`S`**
 
 **representation**
 
-![[Pasted image 20221224225414.png]]
-
---- <https://youtu.be/jvPPXbo87ds?t=2656>
+![[../references/Pasted image 20221224225414.png]] --- <https://youtu.be/jvPPXbo87ds?t=2656>
 
 ## High-Degree Bezier Curve Spline
 
@@ -130,9 +128,7 @@ using high-degree [[bezier curve]]s as [[spline]]s is not ideal because of its p
 
 **representation**
 
-![[Pasted image 20221223233309.png]]
-
---- <https://youtu.be/jvPPXbo87ds?t=480>
+![[../references/Pasted image 20221223233309.png]] --- <https://youtu.be/jvPPXbo87ds?t=480>
 
 ## Bezier Spline
 
@@ -146,9 +142,7 @@ using high-degree [[bezier curve]]s as [[spline]]s is not ideal because of its p
 
 **representation**
 
-![[Pasted image 20221223234213.png]]
-
---- <https://youtu.be/jvPPXbo87ds?t=585>
+![[../references/Pasted image 20221223234213.png]] --- <https://youtu.be/jvPPXbo87ds?t=585>
 
 ### Cubic Bezier Spline
 
@@ -206,15 +200,11 @@ the _tangent points_ of a [[spline#cubic bezier spline]] are the pairs of contro
 
 **representation**
 
-![[Pasted image 20221229171628.png]]
-
---- <https://youtu.be/jvPPXbo87ds?t=2525>
+![[../references/Pasted image 20221229171628.png]] --- <https://youtu.be/jvPPXbo87ds?t=2525>
 
 **equiv** _[[spline#cubic bezier spline]] with control points at distance **`-3`** the length of the velocity vectors_
 
-![[Pasted image 20221229172408.png]]
-
---- <https://youtu.be/jvPPXbo87ds?t=2613>
+![[../references/Pasted image 20221229172408.png]] --- <https://youtu.be/jvPPXbo87ds?t=2613>
 
 ### Cardinal Spline
 
@@ -246,11 +236,11 @@ a _cardinal spline_ is a [[spline#cubic hermite spline]] that obeys **`v^n = s |
 
 _with scale factor **`s`** close to **`1`**_
 
-![[Pasted image 20221229174330.png]]
+![[../references/Pasted image 20221229174330.png]]
 
 _with scale factor **`s`** close to **`0`**_
 
-![[Pasted image 20221229174339.png]]
+![[../references/Pasted image 20221229174339.png]]
 
 --- <https://youtu.be/jvPPXbo87ds?t=2822>
 
@@ -278,7 +268,7 @@ there is no need to specify tangent points for [[spline#catmull--rom spline]]s--
 
 **representation**
 
-![[Pasted image 20221229175004.png]]
+![[../references/Pasted image 20221229175004.png]]
 
 ## Basis Spline
 
@@ -303,7 +293,7 @@ there is no need to specify tangent points for [[spline#catmull--rom spline]]s--
 
 **representation**
 
-![[Pasted image 20221229183412.png]]
+![[../references/Pasted image 20221229183412.png]]
 
 ### Non-Uniform Rational B-Spline
 

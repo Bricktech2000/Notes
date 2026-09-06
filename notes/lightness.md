@@ -14,6 +14,4 @@ cameras automatically set their exposure to achieve an average [[cie 1931#cie 19
 
 **representation**
 
-![[Pasted image 20221207221257.png]]
-
---- <https://youtu.be/M47YdERx11s?t=822>
+![[../references/Pasted image 20221207221257.png]] --- <https://youtu.be/M47YdERx11s?t=822>
