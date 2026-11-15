@@ -16,3 +16,5 @@ not fulfilling a [[commitment]] is a breach of [[integrity]]
 > - signing up to the military to force yourself to become disciplined and put your life back together
 
 --- Wikipedia
+
+--- Atomic Habits, pp. 170--171

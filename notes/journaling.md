@@ -2,9 +2,7 @@
 
 _turning your own mind into a personal therapist_
 
-**see** [[habit#habit formation]]
-
-daily [[journaling]] is a [[habit]] that can help [[cognitive load#reduction]] before [[sleep]] or after waking up
+daily [[journaling]] is a [[habit]] that can help [[cognitive load#cognitive load reduction]] before [[sleep]] or after waking up
 
 thoughtful [[journaling]] leads to the **introspection** required for [[self-control]]
 

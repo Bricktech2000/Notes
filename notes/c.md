@@ -295,7 +295,7 @@ the [[c]] standard does not impose that the members of a `struct` be contiguous.
 
 in [[c]], a `void *` is implicitly converted to any other pointer type
 
-> **example** `int *pi = malloc(sizeof(int));` is valid [[c]] but not valid [[c++]]
+> **example** `int *pi = malloc(sizeof *pi);` is valid [[c]] but not valid [[c++]]
 
 the _strict aliasing rule_ allows the compiler to assume that pointers to different types do not alias each other. therefore, apart from a few exceptions, referring to the same memory simultaneously through pointers of different types has [[c#undefined behavior]] --- <https://youtu.be/SmlLdd1Q2V8?t=5m46s>
 
@@ -470,7 +470,7 @@ objects declared within a block can be made to have a static storage duration us
 
 objects stored in dynamically allocated memory have _allocated_ storage duration, living from the time they are allocated to the time they are deallocated
 
-> **example** `int *x = malloc(sizeof(int)); free(x);`
+> **example** `int *x = malloc(sizeof *x); free(x);`
 
 objects declared with the `thread_local` storage-class specifier have _thread_ storage duration, living from thread startup to thread termination
 
@@ -777,4 +777,23 @@ partial macro application --- me
 // PARTIAL           // (VEC3, 5)
 // SATURATED         // (VEC3, 5, 6, 7)
 // APPLY(SATURATED)  // {.x = 5, .y = 6, .z = 7}
+```
+
+stringize without recursive macro expansion --- me
+
+```c
+#define STRINGIZABLE(...) (#__VA_ARGS__, __VA_ARGS__)
+#define STRINGIZED_(STRINGIZED, ...) STRINGIZED
+#define EXPANDED_(STRINGIZED, ...) __VA_ARGS__
+#define STRINGIZED(STRINGIZABLE) STRINGIZED_ STRINGIZABLE
+#define EXPANDED(STRINGIZABLE) EXPANDED STRINGIZABLE
+// #define STRINGIZE(...) #__VA_ARGS__
+// #define STRINGIZE_EXPAND(...) STRINGIZE(__VA_ARGS__)
+// #define MACRO __STDC__
+// MACRO                   // 1
+// STRINGIZE(MACRO)        // "MACRO"
+// STRINGIZE_EXPAND(MACRO) // "1"
+// #define MACRO STRINGIZABLE(__STDC__)
+// STRINGIZED(MACRO)       // "__STDC__"
+// EXPANDED(MACRO)         // 1
 ```

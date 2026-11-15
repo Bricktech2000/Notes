@@ -2,7 +2,7 @@
 
 **see** [[functor]], [[applicative]], [[monad]]
 
-**see** [[pure]], [[currying]], [[type]], [[recursion#recursion scheme]], [[continuation]], [[combinatory logic]], [[lambda-calculus]], [[type-driven design]]
+**see** [[pure]], [[currying]], [[type]], [[recursion#recursion scheme]], [[continuation]], [[zipper]], [[combinatory logic]], [[lambda-calculus]], [[type-driven design]]
 
 > **resource** _A sliding scale of power_, an intuition for `Functor a => Applicative a => Monad a` --- [[../references/Haskell_Applicative functors - Wikibooks.pdf]] --- <https://en.wikibooks.org/wiki/Haskell/Applicative_functors#A_sliding_scale_of_power>
 >

@@ -1,12 +1,6 @@
 # Index
 
-files below are based on [[conceptual note-taking]], a system in which atomic notes are structured through links from and to other notes. see [[adt organization]] for more information
-
-![[Pasted image 20221128125505.png]]
-
-[[tags]]
-
-[[conventions]]
+files below are based on [[conceptual note-taking]], a system in which atomic notes are structured through links from and to other notes
 
 ## Launchpad
 
@@ -14,9 +8,9 @@ files below are based on [[conceptual note-taking]], a system in which atomic no
 
 [[fields]]
 
-## Worth Reading
+[[tags]]
 
-[[math notation]] and related notes
+## Worth Reading
 
 [[functional programming]] and related notes
 
@@ -25,3 +19,5 @@ files below are based on [[conceptual note-taking]], a system in which atomic no
 [[pure mathematics]] and related notes
 
 [[productivity]] and related notes
+
+[[psychology]] and related notes

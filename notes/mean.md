@@ -2,6 +2,8 @@
 
 **see** [[math notation]]
 
+> **resource** a [[mean]] isn't always a sum over a tally, by _Math The World_ --- <https://youtu.be/V1_4nNm8a6w>
+
 **definition** _arithmetic mean_ **`(:-#)`** where the argument is a [[list]]
 
 **definition** _geometric mean_ **`uu /.\ (:-#)`**; see [[under]]

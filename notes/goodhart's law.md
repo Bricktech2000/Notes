@@ -1,6 +1,6 @@
 # Goodhart's Law
 
---- <https://youtu.be/zUm3fKk00J8?t=18867> #rot
+--- Atomic Habits, pp. 202--203
 
 --- <https://en.wikipedia.org/wiki/Goodhart%27s_law>
 

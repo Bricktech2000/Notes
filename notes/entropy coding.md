@@ -8,7 +8,7 @@
 
 **definition** _In [[information theory]], an [[entropy coding]] (or entropy encoding) is any lossless [[data compression]] method that attempts to approach the lower bound declared by Shannon's source coding theorem [...]._ --- Wikipedia
 
-in the best case, $\forall w \in \Sigma^*.\ |c\ x| = \mathrm I[x]$. _$\mathrm I[x]$ is the compressed file length to which we should aspire_ --- <https://youtu.be/y5VdtQSqiAI?t=849>
+in the best possible case, $\forall w \in \Sigma^*.\ |c\ x| = \mathrm I[x]$. _$\mathrm I[x]$ is the compressed file length to which we should aspire_ --- <https://youtu.be/y5VdtQSqiAI?t=849>
 
 the problem with [[symbol code]]s is that, even when optimal, their _expected codeword length_ can be up to one bit above the [[information entropy]]. with a message of length $N$, that's $N$ bits above entropy. for example, [[symbol code]]s can't devote less than one bit per source symbol even though in practice, with context-dependent modeling, it's often the case that the predictive distribution is very certain and the symbol to be coded has near-zero [[information content]]. --- <https://youtu.be/cJ_rhZ9DP9k?t=1260>
 

@@ -4,7 +4,7 @@ _metaphorically enclosing something as if in a capsule_
 
 **see** [[generalism]], [[durability]]
 
-treating an idea or [[concept]] as a black box is okay, so long as you understand its observable behavior. [[encapsulation]] boils down to just-in-case learning [[cue]]s to learn some [[concept]] just-in-time. _it's okay not to know if you know you don't know_
+treating an idea or [[concept]] as a black box is okay, so long as you understand its observable behavior. [[encapsulation]] boils down to just-in-case learning cues to learn some [[concept]] just-in-time. _it's okay not to know if you know you don't know_
 
 > **example** [[encapsulation]] of the hypocampus --- <https://youtu.be/Lt54CX9DmS4?t=24m54s>
 

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'self' https://polyfill.io https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self'; font-src 'self' https://polyfill.io https://cdn.jsdelivr.net; connect-src 'self' https://api.cdnjs.com https://polyfill.io https://cdn.jsdelivr.net" />
+        <title>Rigorous Nonsense - Readable Code is Unreadable</title>
+        <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    </head>
+    <body>
+        <div id="header">
+            <div id="logo">
+                <a href="../">Rigorous Nonsense</a>
+            </div>
+            <div id="navigation">
+                <a href="../">Home</a>
+                <a href="../archive.html">Archive</a>
+            </div>
+        </div>
+
+        <div id="content">
+            <h1>Readable Code is Unreadable</h1>
+
+            <div class="info">
+    Posted on June  6, 2025
+    
+        by Brandon Wilson
+    
+</div>
+<div class="info">
+    
+    Tags: <a title="All pages tagged 'c'." href="../tags/c.html" rel="tag">c</a>, <a title="All pages tagged 'apl'." href="../tags/apl.html" rel="tag">apl</a>, <a title="All pages tagged 'j'." href="../tags/j.html" rel="tag">j</a>, <a title="All pages tagged 'whitney'." href="../tags/whitney.html" rel="tag">whitney</a>, <a title="All pages tagged 'software-architecture'." href="../tags/software-architecture.html" rel="tag">software-architecture</a>
+    
+</div>
+
+<p><a href="https://aplwiki.com/wiki/J">J</a> has an infamous prototype implementation called the <a href="https://www.jsoftware.com/ioj/iojATW.htm">J Incunabulum</a>.
+If you click that link, you’ll immediately understand why it has the reputation
+it has.</p>
+<p>I’d like to share why I now think this “unreadable” code actually communicates
+better than so-called “readable” code.</p>
+<p>Let me be clear; on my first encounter with the J Incunabulum, I found it
+inscrutable. However, after having heavily steeped in APL for a few years, I
+just gave it a quick re-read and had a completely different experience.</p>
+<h1 id="seeing-the-forest">Seeing the Forest</h1>
+<p>The code catches flack for it’s single-letter names and terseness, but it
+directly references bog standard APL and parsing concepts. What’s more
+important is that the code macro-structure is immediately apparent and clearly
+answers high-level questions up front.</p>
+<h2 id="what-are-our-basic-datatypes">What Are Our Basic Datatypes?</h2>
+<p>Right off the bat, Whitney tells us the kind of data we’ll be thinking about:</p>
+<pre><code>typedef char C;typedef long I;
+typedef struct a{I t,r,d[3],p[2];}*A;</code></pre>
+<p>The first line gives us our main C types, and we can easily guess the second
+defines an array structure. Indeed, at a bare minimum, APL arrays need to
+encode type, rank, and shape metadata, telling us what <code>t</code>, <code>r</code>, and <code>d</code> are.
+Thus <code>p</code> points to our element data. Note that <code>d</code> probably stands for
+“dimension” or perhaps “depth”; I’m unsure on this point.</p>
+<p>We also notice that <code>d[3]</code> says we only support up to rank 3, already signaling
+the explicit limitations chosen for this proof of concept. It’s not entirely
+clear why we have two <code>p</code> pointers, though. Let’s keep reading.</p>
+<h2 id="what-are-our-basic-operations">What Are Our Basic Operations?</h2>
+<p>Next we find the important fundamental operations we’ll be using to build our
+new array language:</p>
+<pre><code>#define P printf
+#define R return
+#define V1(f) A f(w)A w;
+#define V2(f) A f(a,w)A a,w;
+#define DO(n,x) {I i=0,_n=(n);for(;i&lt;_n;++i){x;}}
+I *ma(n){R(I*)malloc(n*4);}mv(d,s,n)I *d,*s;{DO(n,d[i]=s[i]);}
+tr(r,d)I *d;{I z=1;DO(r,z=z*d[i]);R z;}
+A ga(t,r,d)I *d;{A z=(A)ma(5+tr(r,d));z-&gt;t=t,z-&gt;r=r,mv(z-&gt;d,d,r);
+ R z;}</code></pre>
+<p>Apparently, we’ll be printing and returning a lot, as expected. APL functions
+have fixed arity of one or two, calling the left argument <code>⍺</code> (alpha) and the
+right <code>⍵</code> (omega). Considering that J functions are called “verbs”, it becomes
+pretty clear that <code>V1</code> and <code>V2</code> are all the function prototypes needed for J
+primitives. Note the <a href="https://www.gnu.org/software/c-intro-and-ref/manual/html_node/Old_002dStyle-Function-Definitions.html">K&amp;R-style definitions</a>.</p>
+<ul>
+<li><code>DO</code> defines our basic loop operation, so iterations will probably all
+naïvely be <code>O(1)</code>;</li>
+<li><code>ma</code> says we’ll be allocating 4-byte (<em>i.e.</em> 32-bit) chunks;</li>
+<li><code>mv</code> essentially gives us a copy operation over chunks;</li>
+<li><code>tr</code> or “times reduce” by inspection; and finally</li>
+<li><code>ga</code> generates a new array.</li>
+</ul>
+<p>All off these—except for <code>tr</code> perhaps—are clearly going to be useful. The
+32-bit and <a href="https://docs.oracle.com/cd/E19620-01/805-3024/lp64-1/index.html">data model</a> assumptions here are a bit dirty, but we can
+forgive that in a proof of concept.</p>
+<h2 id="how-about-using-the-basic-operations">How About Using the Basic Operations?</h2>
+<p>Now that we know our basic toolkit here’s the implementation core!</p>
+<pre><code>V1(iota){I n=*w-&gt;p;A z=ga(0,1,&amp;n);DO(n,z-&gt;p[i]=i);R z;}
+V2(plus){I r=w-&gt;r,*d=w-&gt;d,n=tr(r,d);A z=ga(0,r,d);
+ DO(n,z-&gt;p[i]=a-&gt;p[i]+w-&gt;p[i]);R z;}
+V2(from){I r=w-&gt;r-1,*d=w-&gt;d+1,n=tr(r,d);
+ A z=ga(w-&gt;t,r,d);mv(z-&gt;p,w-&gt;p+(n**a-&gt;p),n);R z;}
+V1(box){A z=ga(1,0,0);*z-&gt;p=(I)w;R z;}
+V2(cat){I an=tr(a-&gt;r,a-&gt;d),wn=tr(w-&gt;r,w-&gt;d),n=an+wn;
+ A z=ga(w-&gt;t,1,&amp;n);mv(z-&gt;p,a-&gt;p,an);mv(z-&gt;p+an,w-&gt;p,wn);R z;}
+V2(find){}
+V2(rsh){I r=a-&gt;r?*a-&gt;d:1,n=tr(r,a-&gt;p),wn=tr(w-&gt;r,w-&gt;d);
+ A z=ga(w-&gt;t,r,a-&gt;p);mv(z-&gt;p,w-&gt;p,wn=n&gt;wn?wn:n);
+ if(n-=wn)mv(z-&gt;p+wn,z-&gt;p,n);R z;}
+V1(sha){A z=ga(0,1,&amp;w-&gt;r);mv(z-&gt;p,w-&gt;d,w-&gt;r);R z;}
+V1(id){R w;}V1(size){A z=ga(0,0,0);*z-&gt;p=w-&gt;r?*w-&gt;d:1;R z;}</code></pre>
+<p>All our basic functions, both dyadic and monadic, sit together in a single
+block. In fact, each of these definitions is brutally simple and explicitly
+elide array language features in service of architectural clarity. For example,</p>
+<pre><code>V2(plus){I r=w-&gt;r,*d=w-&gt;d,n=tr(r,d);A z=ga(0,r,d);
+ DO(n,z-&gt;p[i]=a-&gt;p[i]+w-&gt;p[i]);R z;}</code></pre>
+<p>Even if you don’t know APL, one can guess what “plus” should do. We already
+know that <code>V2</code> defines a new arity-2 function, and what’s the obvious way to
+add arrays? Just vector addition, <em>i.e.</em> element-by-element, right?
+Procedurally, we need to allocate an output array of the right size and then
+populate it with the result, one element at a time.</p>
+<p>Now we see why we want the <code>tr</code> helper: it gives us the data element count of
+an arbitrary multi-dimensional array.</p>
+<p>Also, as an APLer we immediately notice the elision of <a href="https://aplwiki.com/wiki/Scalar_extension">scalar extension</a>.
+That can me modeled with <code>rsh</code> on the left argument, so we’re probably just
+defining some minimal subset of the primitive APL functions.</p>
+<p>Other definitions all follow a similar pattern: 1) calculate the metadata for
+the result array, 2) allocate a result in the conventional name <code>z</code>, and 3)
+populate said array.</p>
+<p>Notice, too, that <code>find</code> is not yet implemented. Curious. What else stands out?</p>
+<pre><code>V2(rsh){I r=a-&gt;r?*a-&gt;d:1,n=tr(r,a-&gt;p),wn=tr(w-&gt;r,w-&gt;d);
+ A z=ga(w-&gt;t,r,a-&gt;p);mv(z-&gt;p,w-&gt;p,wn=n&gt;wn?wn:n);
+ if(n-=wn)mv(z-&gt;p+wn,z-&gt;p,n);R z;}
+...
+V1(id){R w;}V1(size){A z=ga(0,0,0);*z-&gt;p=w-&gt;r?*w-&gt;d:1;R z;}</code></pre>
+<p>These are the only branches we see, indicating <a href="https://en.wikipedia.org/wiki/Complication_(horology)">intentional complications</a>,
+and <code>rsh</code> (read “reshape”) is obviously the longest implementation. From
+experience, we know that reshape recycles elements when extending, and indeed
+it’s clear that’s what the <code>if</code>-branch takes care of—cleverly using a
+circular copy on <code>z-&gt;p</code>.</p>
+<p>Also notable is the complete lack of error handling. We are clearly trying to
+laser focus on exhibiting core ideas here.</p>
+<h2 id="what-about-output">What About Output?</h2>
+<p>We have just a single datatype, so display is brutally simple:</p>
+<pre><code>pi(i){P(&quot;%d &quot;,i);}nl(){P(&quot;\n&quot;);}
+pr(w)A w;{I r=w-&gt;r,*d=w-&gt;d,n=tr(r,d);DO(r,pi(d[i]));nl();
+ if(w-&gt;t)DO(n,P(&quot;&lt; &quot;);pr(w-&gt;p[i]))else DO(n,pi(w-&gt;p[i]));nl();}</code></pre>
+<p>There are no pretty print facilities, but rank, element data, and recursive
+nesting are the bare minimum needed to fully understand array contents. This is
+all that is needed to get up and running.</p>
+<h2 id="what-about-parsing">What About Parsing?</h2>
+<p>First we setup a <a href="https://en.wikipedia.org/wiki/Virtual_method_table">vtable</a> that contains our implementation functions:</p>
+<pre><code>C vt[]=&quot;+{~&lt;#,&quot;;
+A(*vd[])()={0,plus,from,find,0,rsh,cat},
+ (*vm[])()={0,id,size,iota,box,sha,0};</code></pre>
+<p>Each J verb has three pieces of data: 1) its glyph, 2) its dyadic definition,
+and 3) its monadic definition. We use a standard APL technique of storing this
+data in a column-major table. The <code>vt</code> column names the verbs (via their
+glyphs), <code>vd</code> maps dyadic usage to it’s vtable function, and 3) similar for
+monadic usage with <code>vm</code>.</p>
+<p>Nothing special, but clear and direct. In particular, this means that a verb’s
+“ID” is its table offset.</p>
+<pre><code>I st[26]; qp(a){R  a&gt;='a'&amp;&amp;a&lt;='z';}qv(a){R a&lt;'a';}
+A ex(e)I *e;{I a=*e;
+ if(qp(a)){if(e[1]=='=')R st[a-'a']=ex(e+2);a= st[ a-'a'];}
+ R qv(a)?(*vm[a])(ex(e+1)):e[1]?(*vd[e[1]])(a,ex(e+2)):(A)a;}</code></pre>
+<p>Both <code>qp</code> and <code>qv</code> are obvious predicates (<code>q</code> for “query”?), and we can see
+that <code>ex</code> is calling functions in our vtable. This is obviously the executor.
+It even supports <code>=</code>, which stores values in <code>st</code>. The one-to-one map between
+alphabet characters and <code>st</code> indices is nice and minimal. We only allow
+single-letter names, probably enough for small language experiments.</p>
+<p>If we’re not an <code>=</code>-definition, though, then we execute. APL’s <a href="https://aplwiki.com/wiki/Precedence">function
+precedence</a> rule makes this dead simple: just right-recurse. The only
+question is whether we’re a dyadic, monadic, or “niladic” application. The
+nested digraph here creates this obvious trident branch structure.</p>
+<h2 id="what-about-input">What About Input?</h2>
+<p>After a cool three dozen <a href="https://en.wikipedia.org/wiki/Source_lines_of_code">SLOC</a>, we conclude our J interpreter:</p>
+<pre><code>noun(c){A z;if(c&lt;'0'||c&gt;'9')R 0;z=ga(0,0,0);*z-&gt;p=c-'0';R z;}
+verb(c){I i=0;for(;vt[i];)if(vt[i++]==c)R i;R 0;}
+I *wd(s)C *s;{I a,n=strlen(s),*e=ma(n+1);C c;
+ DO(n,e[i]=(a=noun(c=s[i]))?a:(a=verb(c))?a:c);e[n]=0;R e;}
+
+main(){C s[99];while(gets(s))pr(ex(wd(s)));}</code></pre>
+<p>At this point, the patterns are familiar. <code>noun</code> and <code>verb</code> do the obvious
+things, <code>wd</code> creates our token stream, notably only supporting single character
+tokens, and <code>main</code> reads exactly like <a href="https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop">R-E-P-L</a> (well, in reverse).</p>
+<h1 id="points-of-note">Points of Note</h1>
+<p>The overall code is organized in a top-down manner. Our audience here is APLers
+who know a thing or two about language implementation. It makes sense to lead
+with high level ideas, and the code exactly mirrors this structure. We
+literally read the code linearly top-to-bottom just like a short whitepaper.
+That’s great communication, IMHO!</p>
+<p>As mentioned offhand above a few times, the particular limitations chosen serve
+to clarify the presented message. It’s not about implementation shortcuts.
+Consider that we imposed</p>
+<ul>
+<li>Single-character tokens only;</li>
+<li>No Spaces;</li>
+<li>No parentheses to control order of operations;</li>
+<li>No array literals;</li>
+<li>No scalar extension;</li>
+<li>No function definitions;</li>
+<li>Limited rank;</li>
+<li><em>etc.</em></li>
+</ul>
+<p>What purpose did these concessions serve? Why not more?</p>
+<p>Look at <code>rsh</code>. It would clearly be simpler to remove the final conditional
+that allows circular extension. Given all the other limitations, why not add
+another? Well, this would make the domain of inputs to <code>rsh</code> special and
+different from the other functions. That complicates the conceptual model.</p>
+<p>J didn’t exist when the Incunabulum was written. It was an idea. <a href="https://aplwiki.com/wiki/Kenneth_E._Iverson">Iverson</a>,
+<a href="https://aplwiki.com/wiki/Arthur_Whitney">Whitney</a>, and <a href="https://aplwiki.com/wiki/Roger_Hui">Hui</a> were trying to discuss and discover what a new APL
+language could look and feel like. The Incunabulum is a single page of code
+that presents tools to concisely express the salient ideas in that design
+space—<a href="https://aplwiki.com/wiki/Array_model">array model</a>, usability of ASCII glyphs, <a href="https://aplwiki.com/wiki/Leading_axis_theory">leading axis theory</a>,
+<em>etc.</em></p>
+<p>With that goal, poking at things like fancier array literals or parentheses
+support feels like bikeshedding. The rank cutoff is arbitrary but trivially
+changeable; none of the code depends on a specific cutoff.</p>
+<p>Function definitions are interesting from a language design perspective.
+Worrying about scope and closure support introduces questions about syntax. We
+could easily directly store token vectors easily enough, but this complicates
+the recursion in <code>ex</code>. All-in-all, these are questions somewhat orthogonal to
+the others.</p>
+<p>I’ll stop there…</p>
+<p>What is most interesting, IMHO, is that all the above comes across in short
+20-odd minutes of reading this supposedly “inscrutable” code. What more could
+one ask for?</p>
+<h1 id="what-about-find">What about <code>find</code>?</h1>
+<p>Out of curiosity, I threw together a plausible Whitney implementation:</p>
+<pre><code>V2(find){I r=w-&gt;r,*d=w-&gt;d,n=tr(r,d),j=n;DO(n,if(a-&gt;p[0]==w-&gt;p[i])j=i);
+ A z=ga(0,1,&amp;w-&gt;r);DO(r,z-&gt;p[i]=(j/(r==1?1:tr(r-1-i,d+1+i)))%d[i]);R z;}</code></pre>
+<p>which is a bit subtle and certainly the most complicated logic in here. It
+works fine for simple integer arrays, but boxes compare as pointers. Recursive
+comparison of contents might make more sense. Apparently, <code>find</code> opens a whole
+design question about what array equality even means.</p>
+<p>Maybe all these factors contributed to <code>find</code> remaining unimplemented, or maybe
+Whitney just ran out of time!</p>
+<h1 id="epilogue-getting-compiled">Epilogue: Getting Compiled</h1>
+<p>It’s fun to play around with this little implementation. I definitely recommend
+compiling it yourself and giving it a little test drive.</p>
+<p>Due to the K&amp;R function prototypes, modern GCC will need the <code>-ansi</code> or
+<code>-std=c89</code> flag. Also, as noted above, the code assumes a 32-bit architecture
+in one place. We could cross compile, but the easiest workaround is a simple
+patch:</p>
+<pre><code>--- a/inucabulum.c
++++ b/inucabulum.c
+@@ -5,7 +8,7 @@
+ #define V1(f) A f(w)A w;
+ #define V2(f) A f(a,w)A a,w;
+ #define DO(n,x) {I i=0,_n=(n);for(;i&lt;_n;++i){x;}}
+-I *ma(n){R(I*)malloc(n*4);}mv(d,s,n)I *d,*s;{DO(n,d[i]=s[i]);}
++I *ma(n){R(I*)malloc(n*sizeof(I));}mv(d,s,n)I *d,*s;{DO(n,d[i]=s[i]);}
+ tr(r,d)I *d;{I z=1;DO(r,z=z*d[i]);R z;}
+ A ga(t,r,d)I *d;{A z=(A)ma(5+tr(r,d));z-&gt;t=t,z-&gt;r=r,mv(z-&gt;d,d,r);
+  R z;}</code></pre>
+<p>It’ll spit out some <code>builtin-declaration-mismatch</code> warnings, but those are
+immaterial here.</p>
+
+        </div>
+        <div id="footer">
+            Site proudly generated by
+            <a href="https://jaspervdj.be/hakyll">Hakyll</a>
+        </div>
+
+        <script>
+            MathJax = {
+                chtml: {
+                    displayAlign: 'left',
+                    displayIndent: '4em'
+                }
+            }
+        </script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    </body>
+</html>

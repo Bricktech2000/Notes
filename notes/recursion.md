@@ -6,6 +6,8 @@
 
 ## Recursion Scheme
 
+**see** [[functor#base functor]]
+
 > **resource** the PNLC prelude, makes use of [[recursion#recursion scheme]]s throughout --- <https://github.com/Bricktech2000/PNLC/blob/master/prelude.pnlc>
 
 > **resource** _Recursion Schemes_ by Tim Williams at London Haskell, with implementations for everything and lots of real-world use-cases --- <https://youtu.be/Zw9KeP3OzpU> and [[../references/slides-final.pdf]] <http://www.timphilipwilliams.com/slides.html>

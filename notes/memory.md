@@ -2,17 +2,15 @@
 
 **see** [[learn]], [[active recall]], [[spaced repetition]], [[interleaving]]
 
-episodic [[memory]]es are formed in the hypocampus. damaging or surgically removing the hypocampus can damage both past [[memory]]es and the ability to reason about the future. a patient with a damaged hypocampus compared thinking about the future to being asked to _find a chair in an empty room_. _the same machinery that brings all those pieces together to relive the past can bring some of those pieces together with other pieces to simulate possible futures_ --- The Mind Explained | Memory <https://www.netflix.com/watch/81062188?trackId=255824129>
+episodic [[memory]]es are formed in the hypocampus. damaging or surgically removing the hypocampus can damage both past [[memory]]es and the ability to reason about the future. a patient with a damaged hypocampus compared thinking about the future to being asked to _find a chair in an empty room_. _the same machinery that brings all those pieces together to relive the past can bring some of those pieces together with other pieces to simulate possible futures_ --- _The Mind Explained | Memory_ <https://www.netflix.com/watch/81062188?trackId=255824129>
 
 ## Memory Technique
 
-_memory techniques_
-
-[[memory]]es are stronger when part of a story and are more vivid and more detailed with emotion --- The Mind Explained | Memory <https://www.netflix.com/watch/81062188?trackId=255824129>. connecting a [[memory]] with various components of our [[umwelt]] strengthens it --- me and <https://youtu.be/VQKt58kuEnk>. bundling up unrelated facts by stuffing them into a single image also helps --- me
+[[memory]]es are stronger when part of a story and are more vivid and more detailed with emotion --- _The Mind Explained | Memory_ <https://www.netflix.com/watch/81062188?trackId=255824129>. connecting a [[memory]] with various components of our [[umwelt]] strengthens it --- me and <https://youtu.be/VQKt58kuEnk>. bundling up unrelated facts by stuffing them into a single image also helps --- me
 
 > **example** _memorizing digits_
 >
-> --- The Mind Explained | Memory <https://www.netflix.com/watch/81062188?trackId=255824129>
+> --- _The Mind Explained | Memory_ <https://www.netflix.com/watch/81062188?trackId=255824129>
 >
 > 1. turn each digit into a letter
 > 2. turn triplets of letters into words
@@ -29,7 +27,7 @@ _memory techniques_
 > - _phobia_ --- this part is known to mean _fear_
 > - _kerauno_ --- this part can be memorized using the similar-sound--cue technique
 >   1. _kerauno_ sounds similar to _Karen_ --- similar sound
->   2. remember the sentence _Karen is afraid of lightning_ --- [[cue]]
+>   2. remember the sentence _Karen is afraid of lightning_ --- cue
 >
 > keraunophobia is the fear of lightning and thunder because Karen is afraid of lightning
 

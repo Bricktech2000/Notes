@@ -53,7 +53,7 @@ the λ-calculus is a simple [[programming language]] and [[turing complete]] mod
 
 > **note** λ-terms can be denoted canonically using De Bruijn indices, eliminating the need for α-conversion and α-equivalence --- <https://youtu.be/UUUQp8HvrH0?t=892>
 
-**definition** _η-reduction_ and _η-expansion_---collectively, _η-conversion_---convert back and forth between a λ-term and the immediate abstraction of a free variable applied to the λ-term
+**definition** _η-reduction_ and _η-expansion_---collectively, _η-conversion_---convert back and forth between a λ-term and the immediate abstraction of a fresh variable applied to the λ-term
 
 > **note** η-reduction is "dual" to β-reduction in the sense that the former simplifies a _constructor_ applied to an _eliminator_ while the latter simplifies an _eliminator_ applied to a _constructor_ --- <https://ncatlab.org/nlab/show/eta-conversion>
 

@@ -1,57 +1,41 @@
 # Habit
 
-**see** [[system over goal]]
+**see** [[system over goal]], [[stimulus control]]
 
-> **resource** _Atomic Habits_ by James Clear audiobook --- <https://www.youtube.com/watch?v=zUm3fKk00J8> #rot
+> **resource** _Atomic Habits_ by James Clear
 
-**definition** a _habit_ is a routine or behavior that is performed regularly and in many cases automatically --- <https://youtu.be/zUm3fKk00J8?t=725> #rot
+_good habits_ are [[invest]]ments that compound over [[time]]. they seem to make no difference in the short term but make a huge difference in the long term, and this is why it can be so [[difficult]] to build [[habit]]s that last. a lot of people give up on their [[habit]]s before breaking through the _plateau of latent potential_ --- Atomic Habits, p. 21.
 
-**definition** a _good habit_ is a [[habit]] with low short-term reward but high long-term reward --- me
+[[habit]]s are our [[brain]]'s way to delegate an action from our conscious mind to our unconscious mind. they are all about [[cognitive load#cognitive load reduction]] and increasing [[energy]] efficiency by recognizing simple cues and associating them with a [[sequence]] of actions. --- Atomic Habits, pp. 44--46
 
-**definition** a _bad habit_ is a [[habit]] with high short-term reward but low long-term reward --- me
-
-_good habits_ are [[invest]]ments that compound over [[time]]. they seem to make no difference in the short term but make a huge difference in the long term, and this is why it can be so [[difficult]] to build [[habit]]s that last. a lot of people give up on their [[habit]]s before breaking through the _plateau of latent potential_ --- <https://youtu.be/zUm3fKk00J8?t=2194> #rot
-
-[[habit]]s are our [[brain]]'s way to delegate an action from our conscious mind to our unconscious mind. they are all about [[cognitive load#reduction]] and increasing [[energy]] efficiency by recognizing simple [[cue]]s and associating them with a [[sequence]] of actions. technology can also be used to decrease [[cognitive load]] when using [[habit]]s is suboptimal --- <https://youtu.be/zUm3fKk00J8?t=4599> from 1:16:39 to 1:22:08 #rot and <https://youtu.be/zUm3fKk00J8?t=16151>
+_[[identity]] change is the North Star of [[habit]] change. [...] The goal is not to read a book, the goal is to become a reader. The goal is not to run a marathon, the goal is to become a runner._ --- Atomic Habits, pp. 40, 34
 
 ## Habit Loop
 
-habits can be broken down into their four component parts, forming the so-called _habit loop_:
+habits can be broken down into their four component parts, the so-called _habit loop_: cue->craving->response->reward --- Atomic Habits, pp. 47--54
 
-1. cue --- make it obvious or invisible
-2. craving --- make it attractive or unattractive
-3. response --- make it easy or difficult
-4. reward --- make it satisfying or unsatisfying
+> **resource** Atomic Habits' _habits cheatsheet_ --- [[../references/Habits+Cheat+Sheet.PDF]] --- <https://atomichabits.com/cheatsheet> --- Atomic Habits, pp. 212--213
 
-> **example**
->
-> 1. cue --- mind goes blank at work
-> 2. craving --- want to alleviate the frustration
-> 3. response --- check social media
-> 4. reward --- satisfy the need to feel less frustrated
+adapted version of Atomic Habits' _habits cheatsheet_ that matches the body text (lol?):
 
-## Habit Formation
-
-> **examples** _[[trick]]s to form [[habit]]s_
->
-> - implementation strategy --- phrasing habits as _I will [habit] at [time] in [location]_
-> - habit stacking --- stacking a new [[habit]] on top of an existing habit so the first becomes the [[cue]] for the second
-> - environment design --- designing your environment to make it more obvious to perform a [[habit]]
-> - temptation bundling --- bundling a [[habit]] you have to do with a [[habit]] you want to do
-> - group influence --- surrounding yourself with people who have the same [[habit]]s as you to reinforce them
-> - decreasing [[friction]] --- removing [[psychology]]cal barriers to a [[habit]] so it becomes easier to perform
-> - brain reprogramming --- reinforcing a [[habit]] by constantly repeating to yourself its pros xor cons
-> - two-minute rule --- anchoring the routine before ramping up the [[difficult]]y to make it stick
-> - habit tracking --- tracking a [[habit]] to make it more visible and to keep you [[accountable]] and [[intention]]al
-> - accountability --- having someone to report to about your [[habit]]s to keep you [[accountable]]; see [[commitment#commitment device]]
->
-> --- <https://youtu.be/PZ7lDrwYdZc>
-
-## Habit Tracking
-
-[[habit#habit tracking]] can be thought of as providing the **timely feedback** necessary for [[learn]]ing and the [[accountable]]ility necessary for **active learning** --- me
-
-[[habit#habit tracking]] can lead to the **introspection** required for [[self-control]]
+1. cue --- make it obvious (invisible)
+   - use implementation intentions: _I will [habit] at [time] in [location]_. --- pp. 59--72
+   - use habit stacking: _I will [new habit] after I [existing habit]_. --- pp. 72--79
+   - design your environment. make the cues of good (bad) habits conspicuous (invisible). --- pp. 85--95
+   - build rituals around habits so the ritual becomes a cue for the habit. --- pp. 88 insomniacs, 132--133
+2. craving --- make it attractive (unattactive)
+   - use temptation bundling. gate an action you **want** to do with an action you **need** to do. --- pp. 108-111
+   - join a culture where your desired behavior is the normal behavior. --- pp. 113--122
+   - brain reprogramming; reframe your mindset. highlight the benefits (costs) of performing a good (bad) habit. --- pp. 66, 125--126, 131--132
+3. response --- make it easy (difficult)
+   - reduce (increase) [[friction]]. decrease (increase) the number of steps between you and your good (bad) habits. prime your environment. --- pp. 156--158
+   - use the two-minute rule. anchor the routine before ramping up difficulty. --- pp. 259, 262--267
+   - use a [[commitment#commitment device]]. restrict your future choices to the ones that benefit you. --- pp. 170--171
+4. reward --- make it satisfying (unsatisfying)
+   - use reinforcement. give yourself an immediate reward (punishment) when you perform your good (bad) habit. --- pp. 190--193, 205--207
+   - use a habit tracker. keep track of your habit streak and "don't break the chain". --- pp. 195--196, 200
+   - never miss twice. when you miss a habit, make sure you get back on track immediately. --- pp. 200--202
+   - create a habit contract. make the costs of your bad habits public and painful. --- pp. 207--210
 
 ## Keystone Habit
 
@@ -69,7 +53,7 @@ habits can be broken down into their four component parts, forming the so-called
 >
 > _In other words, fitness is the keystone habit the puts the rest of my life in place. When I workout, other things naturally fall into place. I don't have to think about eating better. I don't have to force myself to focus on getting things done. Exercise naturally pushes me towards my best self._
 >
-> --- <https://jamesclear.com/keystone-habits>
+> --- James Clear --- [[../references/keystone-habits.html]] --- <https://jamesclear.com/keystone-habits>
 
 ## ---
 
@@ -79,8 +63,6 @@ habits can be broken down into their four component parts, forming the so-called
 
 --- <https://youtu.be/PZ7lDrwYdZc>
 
---- <https://youtu.be/zUm3fKk00J8?t=17314> #rot
-
 --- <https://youtu.be/B-d79DtMTiE>
 
---- <https://www.gen-i.co.uk/index.php/2019/12/19/what-are-keystone-habits>
+--- <https://www.gen-i.co.uk/index.php/2019/12/19/what-are-keystone-habits> #rot

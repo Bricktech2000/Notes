@@ -42,3 +42,14 @@
 > - $\nu\ (r \mid s) = \nu\ r \lor \nu\ s$
 > - $\nu\ (r \mathbin\& s) = \nu\ r \land \nu\ s$
 > - $\nu\ \mathop! r = \lnot \nu\ r$
+
+> **note**
+>
+> if we adjust
+>
+> - $\partial_a\ (r \cdot s) = \partial_a\ r \cdot s \mid r \cdot \partial_a\ s$ to match the usual product rule, and
+> - $\partial_a\ r^* = r^* \cdot \partial_a\ r \cdot r^*$ so $\partial$ respects $r^* = \varepsilon \mid r \cdot r^*$,
+>
+> then we obtain a different kind of derivative that removes a character not from the front of the string, but from anywhere in the string
+>
+> --- [[../references/Semantic Domain_ Five (and a Half) Derivatives in Language Theory.pdf]] --- <https://semantic-domain.blogspot.com/2021/02/five-and-half-derivatives-in-language.html>

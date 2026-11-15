@@ -2,7 +2,7 @@
 
 **see**
 
-[[goal]], [[aspiration]], [[habit]], [[system]], [[system over goal]], [[cue]]
+[[goal]], [[aspiration]], [[habit]], [[system]], [[system over goal]], [[stimulus control]]
 
 [[motivation]], [[overwhelm]], [[procrastination]], [[laziness]], [[focus]], [[friction]]
 

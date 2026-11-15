@@ -6,6 +6,8 @@ _a program that outputs its own listing_
 
 > **resource** _Reflections on Trusting Trust_ by Ken Thompson, on why source code can never truly be trusted --- [[../references/Thompson_1984_ReflectionsonTrustingTrust.pdf]] --- <https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf>
 
+> **resource** email by Henry Spencer, the first mention of a method for countering Trusting Trust backdoors --- [[../references/spencer-19981123.txt]] --- <https://dwheeler.com/trusting-trust/spencer-19981123.txt>
+
 [[quine]]s are not the result of language-specific hacks; they exist, up to practical interpretation of program output, in every [[turing complete]] [[programming language]] for which there exists a total computable [[function]] that maps programs to their listings, as follows from the _fixed-point theorem_
 
 > **example**

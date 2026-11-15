@@ -22,10 +22,10 @@ _giving in to the comfortable_
 
 [[procrastination#avoidance procrastination]] is the protective mechanism that kicks in when faced with something **[[difficult]]**; often, the root cause of [[procrastination#avoidance procrastination]] is some internal emotional resistance over a short-term matter, and [[procrastination]] is the act of giving in to feeling good --- <https://youtu.be/hJZ5v7dpKKM>. whenever procrastinating, we should ask ourselves _what's the [[difficult]] matter at the root of the issue?_. answering this question is the first step to [[intention]]ality
 
-a common symptom of [[procrastination#avoidance procrastination]] is someone diagnosing themselves with an unfixable problem or blaming their [[identity]] using umbrella terms: _I'm lazy, that's why I haven't done it yet_
+a common symptom of [[procrastination#avoidance procrastination]] is someone diagnosing themselves with an unfixable problem or blaming their [[identity]] using umbrella terms: _I'm lazy, that's why I haven't done it yet_ (in this case, [[hallucination]])
 
 ## Operational Procrastination
 
 _failing to make a plan_
 
-[[procrastination#operational procrastination]] is the result of failing to break down a [[goal]] into its component tasks and may manifest as [[overwhelm]]. [[cognitive load#reduction]] techniques and prioritization using the [[eisenhower matrix]] may help
+[[procrastination#operational procrastination]] is the result of failing to break down a [[goal]] into its component tasks and may manifest as [[overwhelm]]. [[cognitive load#cognitive load reduction]] techniques and prioritization using the [[eisenhower matrix]] may help

@@ -148,8 +148,6 @@
 
 [[pi function]]
 
-[[adt organization]]
-
 [[ingredient]]s
 
 [[delta invariance]]

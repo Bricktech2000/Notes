@@ -34,7 +34,7 @@ using [[euclidean vector]]s, we get
 
 if **`/\ L_0 = L_1`** has a solution, then the two [[line]]s intersect at said solution
 
-> **note** as a [[trick]], check to see if the [[line]]s are parallel first
+> **note** as a trick, check to see if the [[line]]s are parallel first
 
 ### angle between two lines
 

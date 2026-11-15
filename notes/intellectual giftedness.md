@@ -16,7 +16,7 @@ giftedness, ADHD and ASDs have similar diagnostic criteria and classic signs; th
 | --------------------- | ---------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------- |
 | intense focus         | intellectual curiosity, results in exceptional skill | immediately engaging, rewarding; "addictive" [[focus]]    | rigid special interests (a coping mechanism)  |
 | need for stimulation  | intellectual challenges, keep mind engaged           | need for novelty, excitement                              | repetitive behaviors, seek consistency        |
-| social difficulties   | difficulty relating, intellectually disconnected     | difficulty [[focus]]ing, may interrupt others impulsively | struggle with social [[cue]]s, [[nonverbal]]s |
+| social difficulties   | difficulty relating, intellectually disconnected     | difficulty [[focus]]ing, may interrupt others impulsively | struggle with social cues, [[nonverbal]]s     |
 | sensory sensitivities | overstimulation, [[overwhelm]], irritablility        | issues filtering out, attention drawn to competing input  | overreaction to sensory stimuli, distress     |
 | emotional intensities | hightened emotional empathy, feel more deeply        | emotional volatility, impulsivity; emotional outbursts    | emotional regulation issues, strong reactions |
 | executive functioning | [[perfectionism]], [[procrastination]], overplanning | struggle staying organized, following through with plans  | rigid thinking, distress when plans change    |

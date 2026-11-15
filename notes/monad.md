@@ -15,6 +15,8 @@ m >>= f = join $ fmap f m -- bind in terms of join
 
 **see** [[semigroup#free semigroup]], [[monoid#free monoid]]
 
+**see** [[functor#base functor]]
+
 > **resource** _Why free monads matter_, and a motivation for wanting a [[monad]] that doesn't compute --- [[../references/Haskell for all_ Why free monads matter.pdf]] --- <https://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html>
 
 > **resource** _Beyond Free Monads_ by John DeGoes at λC Winter Retreat 2017, with a focus on free [[monad]]s for I/O --- <https://youtu.be/A-lmrvsUi2Y>

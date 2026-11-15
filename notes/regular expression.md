@@ -26,7 +26,7 @@ in [[formal language]] theory, [[regular expression]]s support alternation `r|s`
 
 there exist several [[algorithm]]s for the determinization of [[regular expression]]s, but they're all kind of the same. Thompson's construction (_Regular Expression Search Algorith_ by Thompson --- [[../references/Thompson-1968.pdf]]) and Aho's "followpos" algorithm (_Principles of Compiler Design_ by Aho and Ullman) both convert [[regular expression]]s to equivalent non-deterministic [[finite acceptor]] [[graph]] intermediate representations. and the powerset construction, the "lock-step" algorithm and the McNaughton--Yamada algorithm (_Regular Expressions and State Graphs for Automata_ by McNaughton and Yamada) are just different takes on computing [[brzozowski derivative]]s (_Derivatives of Regular Expressions_ by Janusz A. Brzozowski --- [[../references/321239.321249.pdf]]) on those non-deterministic intermediate representations. see also <https://youtu.be/tAw9-nTCuzI>, an overview of this all, by Kay Lack
 
-**properties** (not canonical)
+**properties** (not exhaustive or canonical)
 
 _commutitivity of alternation_ `r|s = s|r`
 

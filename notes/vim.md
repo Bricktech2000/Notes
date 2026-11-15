@@ -30,7 +30,7 @@ some useful bindings not present in the quickref:
 - `gx` --- _netrw_ open the file under the cursor in external program
 - `:cr<CR>` - `:lr<CR>` --- rewind to the first quickfix/location list item
 - `:cope<CR>` - `:ccl<CR>` - `:lop<CR>` - `:lcl<CR>` --- open/close quickfix/location list window
-- `:cpf<CR>` - `:cnf<CR>` - `:lnf<CR>` - `:lpf<CR>` --- `:cn`/`:cp`/`:lne`/`:lp` until a new file is hit
+- `:cnf<CR>` - `:cpf<CR>` - `:lnf<CR>` - `:lpf<CR>` --- `:cn`/`:cp`/`:lne`/`:lp` until a new file is hit
 - `:chi<CR>` - `:lhi<CR>` --- display the quickfix/location list history
 - `:col<CR>` - `:cnew<CR>` - `:lol<CR>` - `:lnew<CR>` --- go to older/newer quickfix/location list in history
 - `:lne<CR>` - `:lp<CR>` - `:ll<CR>` - `:lli<CR>` --- `:cn`/`:cp`/`:cc`/`:cl` but for location list
